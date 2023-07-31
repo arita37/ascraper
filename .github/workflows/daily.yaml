@@ -1,143 +1,33 @@
-name: daily_redditnews_scrape
-
-###  https://github.com/arita37/awesome-actions#static-analysis
+name: Daily Python Script
 
 on:
-  workflow_dispatch:
-    inputs:  
-      
-  push:
-    branches:
-    - z_docstring_create
-
-
-#  schedule:
-#    - cron:  '0 2 * * *'      #### 60mins
-    #    - cron:  '*/10 * * * *'
-
-
-#  pull_request:
-#    branches:
-#    - main
+  schedule:
+    - cron: "0 10 * * *"
 
 jobs:
-  build:
-
+  run_script:
+    name: Run Python Script
     runs-on: ubuntu-latest
+
     steps:
-    #- uses: actions/checkout@v1
-    #  ref: ${{ github.head_ref }
-    - uses: actions/checkout@v2
-      with:
-        ref: ${{ github.head_ref }}
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8.*  # Replace with your desired Python version
 
-
-    - name: Set up Python 3.8.*
-      uses: actions/setup-python@v1
-      with:
-        python-version: 3.8.*
-      
-    - name: Install pipenv
-      uses: dschep/install-pipenv-action@v1
-      
-  
-    - name: Cache pipenv virtualenv
-      id: cache-pipenv
-      uses: actions/cache@v1
-      with:
-        path: /opt/hostedtoolcache/Python/
-        key: ${{ runner.os }}-pipenv-${{ hashFiles('**py36.txt') }}
-          
-
-    #- name: Install numpy
-    #  if: steps.cache-pipenv.outputs.cache-hit != 'true'
-    #  run: pip install numpy==1.18.2   pillow==6.2.1  scipy
-      
-
-    - name: Install repo requirements  1
-      if: steps.cache-pipenv.outputs.cache-hit != 'true'
-      run: |
-           pip install -r  py36_min.txt
-
-
-    - name: Install utilmy
-      run:  |
-        pip install -e .
-        python -c "import utilmy"
-
-           
-    - name: Install repo requirements   2
-      if: steps.cache-pipenv.outputs.cache-hit != 'true'
-      run:  |
-        ls .
-        pip install -r  py36.txt
-        #pip install -r install/requirements_fake.txt
-
-
-    - name: test_import
-      run: |
-           python -c "import os, pandas as pd; print(os)"
-           python -c "import utilmy"        
+      - name: Install dependencies
+        run: |
+              pip install fire
+              pip install pandas
+              pip install praw
         
 
-
-    - name: Reset zdocstring branch
-      #continue-on-error: true
-      run:  |
-        git config user.name github-actions
-        git config user.email github-actions@github.com  
-        git fetch    
-        git checkout main
-        git push origin --delete zdocstring || echo 'already Deleted'
-        git checkout -b zdocstring main
-        git branch -a
-        git add -A
-        git commit -am "copy"   || echo 'nothing'
-        git push origin zdocstring  ||  echo 'nothing2'
-        git branch -a
-
-
-    - name: Auto generation of docstring
-      #vcontinue-on-error: true
-      run:  |
-        python  utilmy/docs/docstring.py  generate_docstring --dirin utilmy/  --dirout utilmy/  --overwrite true   --test false
-
-
-        git add -A || echo 'nothing'
-        git commit -am "docstring" ||   echo 'nothing'
-        git push origin zdocstring  ||  echo 'nothing2'
-
-        echo 'All finished'
-        git branch -a
-
-
-
-   
-
-
-    # - name: Auto-Commit
-    #   continue-on-error: true
-    #   id: auto_commmit
-    #   uses: stefanzweifel/git-auto-commit-action@v4.8.0
-    #   with:
-    #       # Optional, but recommended
-    #       # Defaults to "Apply automatic changes"
-    #       commit_message: Auto Type Hints
-
-    #       # Optional branch name where commit should be pushed to.
-    #       # Defaults to the current branch.
-    #       # branch: main
-
-    #       # Optional. Used by `git-commit`.
-    #       # See https://git-scm.com/docs/git-commit#_options
-    #       commit_options: '--no-verify --signoff'
-
-    #       # Optional glob pattern of files which should be added to the commit
-    #       file_pattern:  utilmy/**/*.py 
-
-    #       # Optional local file path to the repository
-    #       # Defaults to the root of the repository
-    #       repository: .
-
-
+      - name: Run Python script with secrets
+        env:
+          reddit_client_id: ${{ secrets.REDDIT_CLIENT_ID }} 
+          reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
+          user_agent: ${{ secrets.USER_AGENT }}
+        run: python Reddit_Scraper.py --output_dir "out/2023/07" $reddit_client_id $reddit_client_secret $user_agent    
