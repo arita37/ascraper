@@ -30,4 +30,4 @@ jobs:
           reddit_client_id: ${{ secrets.REDDIT_CLIENT_ID }} 
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
-        run: python Reddit_Scraper.py --output_dir "out/2023/07" $reddit_client_id $reddit_client_secret $user_agent    
+        run: python src/cli_reddittnews.py --output_dir "out/2023/07" $reddit_client_id $reddit_client_secret $user_agent    
