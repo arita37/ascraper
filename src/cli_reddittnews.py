@@ -27,9 +27,9 @@ from utilmy import (date_now, pd_to_file, os_makedirs, log)
 def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=10, reddit_sort='top', verbose=1):
 
     ### from https://www.reddit.com/prefs/apps/
-    client_id     = os.environ.get("reddit_client_id", "i05gtu1-NrbJqCxHFHxW3g" )
-    client_secret = os.environ.get("reddit_client_secret", "Ak1qkvZdqnAfCCSK7rq9HcyBuaWoTQ" )
-    user_agent    = os.environ.get("reddit_ua",  "news finder")   ### Same from Secret page
+    client_id     = os.environ.get("reddit_client_id", "KqVbVrlmGdbowtjuNIMAmQ" )
+    client_secret = os.environ.get("reddit_client_secret", "XN4XRE7_pOw9rzreelTFYogmBTWW_g" )
+    user_agent    = os.environ.get("reddit_ua",  "DailyNews")   ### Same from Secret page
     reddit = praw.Reddit(client_id = client_id,#my client id
                      client_secret = client_secret,  #your client secret
                      user_agent    = user_agent #user agent name
