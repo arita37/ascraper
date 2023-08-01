@@ -24,7 +24,7 @@ import fire, os, praw, pandas as pd
 from utilmy import (date_now, pd_to_file, os_makedirs, log)
 
 
-def run(query:str='icml 2023, ', dirout:str="ztmp/", subreddits=None, reddit_limit=10, reddit_sort='top', verbose=1):
+def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=10, reddit_sort='top', verbose=1):
 
     ### from https://www.reddit.com/prefs/apps/
     client_id     = os.environ.get("reddit_client_id", "brookm291" )
@@ -75,5 +75,5 @@ def run(query:str='icml 2023, ', dirout:str="ztmp/", subreddits=None, reddit_lim
     return
 
 if __name__ == "__main__":
-  fire.Fire()
+  fire.Fire(run)
 
