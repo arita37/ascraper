@@ -46,4 +46,4 @@ jobs:
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
         run: |
-              python src/cli_reddittnews.py --query 'icml 2023, recsys 2023' --dirout "out/2023/07"    --verbose 10
+              python src/cli_reddittnews.py --query 'icml 2023, recsys 2023' --dirout "src"    --verbose 10
