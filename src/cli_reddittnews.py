@@ -35,7 +35,7 @@ def run(query:str='icml 2023, ', dirout:str="ztmp/", subreddits=None, reddit_lim
                      user_agent    = user_agent #user agent name
                      )
 
-     if verbose >1 :
+    if verbose >1 :
         log(client_id, client_secret, user_agent)
 
     if subreddits is None :
