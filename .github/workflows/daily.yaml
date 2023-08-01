@@ -46,4 +46,4 @@ jobs:
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
         run: |
-              python src/cli_reddittnews.py --query 'openai' --dirout "src"    --verbose 10
+              python src/cli_reddittnews.py --query 'openai' --dirout "out/2023/07/out.csv"    --verbose 10
