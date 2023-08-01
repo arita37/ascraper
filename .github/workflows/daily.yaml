@@ -46,13 +46,14 @@ jobs:
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
         run: |
-              python src/cli_reddittnews.py --query 'machine learning conference,ICML,NeurIPS,OpenAI'  --dirout "arita37/ascraper/out"    --verbose 1
+              python src/cli_reddittnews.py --query 'machine learning conference,ICML,NeurIPS,OpenAI' --verbose 1
 
 
 
       - name: Self push commit
         #vcontinue-on-error: true
         run:  |
+          git config --global user.email "varunmathur1990@gmail.com"
           git add -A || echo 'nothing'
           git commit -am "daily" ||   echo 'nothing'
           git push origin run  ||  echo 'nothing2'
