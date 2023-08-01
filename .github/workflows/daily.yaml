@@ -53,8 +53,8 @@ jobs:
       - name: Self push commit
         #vcontinue-on-error: true
         run:  |
-          git config user.email "varunmathur1990@gmail.com"
-          git config user.name "DudeFromMars"
+          git config user.name github-actions
+          git config user.email github-actions@github.com  
           git add -A
           git commit -am "daily" 
           git push origin run  
