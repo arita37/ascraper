@@ -1,5 +1,9 @@
 name: Daily Python Script
-
+permissions:
+  pull-requests: write
+  issues: write
+  repository-projects: write
+  contents: write
 on:
   workflow_dispatch:
     inputs:
@@ -20,10 +24,7 @@ concurrency:
   cancel-in-progress: true
 
 
-permissions:
-  pull-requests: write
-  issues: write
-  repository-projects: write
+
   
 jobs:
   run_script:
