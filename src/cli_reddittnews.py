@@ -21,7 +21,7 @@ python cli_redditnews.py run --query 'icml 2023, neurips 2023'  --dirout ztnp/re
 
 """
 import fire, os, praw, pandas as pd
-from utilmy import (date_now, pd_to_file, os_makedirs, log)
+from utilmy import (7date_now, pd_to_file, os_makedirs, log)
 
 
 def run(query:str='icml 2023, ', dirout:str="ztmp/", subreddits=None, reddit_limit=10, reddit_sort='top', verbose=1):
@@ -35,7 +35,7 @@ def run(query:str='icml 2023, ', dirout:str="ztmp/", subreddits=None, reddit_lim
                      user_agent    = user_agent #user agent name
                      )
 
-    if verbose >1 :
+    if verbose > 1 :
         log(client_id, client_secret, user_agent)
 
     if subreddits is None :
@@ -71,7 +71,7 @@ def run(query:str='icml 2023, ', dirout:str="ztmp/", subreddits=None, reddit_lim
             log( f'{item}: N article: ', len(dfres))
             dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
 
-    pd_to_file(dfall, dirout + f"/subreddit_{ymd}.csv"), sep="\t")
+    pd_to_file(dfall, dirout + f"/subreddit_{ymd}.csv", sep="\t")
     return
 
 if __name__ == "__main__":
