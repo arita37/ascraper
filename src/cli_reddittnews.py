@@ -27,13 +27,16 @@ from utilmy import (date_now, pd_to_file, os_makedirs, log)
 def run(query:str='icml 2023, ', dirout:str="ztmp/", subreddits=None, reddit_limit=10, reddit_sort='top', verbose=1):
 
     ### from https://www.reddit.com/prefs/apps/
-    client_id     = os.environ.get("reddit_client_id")
-    client_secret = os.environ.get("reddit_client_secret")
+    client_id     = os.environ.get("reddit_client_id", "brookm291" )
+    client_secret = os.environ.get("reddit_client_secret", "KUPvDuyRdVmARYmWDX2JeQ" )
     user_agent    = os.environ.get("reddit_ua",  "daily")   ### Same from Secret page
     reddit = praw.Reddit(client_id = client_id,#my client id
                      client_secret = client_secret,  #your client secret
                      user_agent    = user_agent #user agent name
                      )
+
+     if verbose >1 :
+        log(client_id, client_secret, user_agent)
 
     if subreddits is None :
         subreddits = os.environ.get('reddit_subreddit', 'MachineLearning,OpenAI,ChatGPT,OpenAIDev,learnmachinelearning' ) 
