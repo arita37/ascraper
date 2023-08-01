@@ -20,7 +20,11 @@ concurrency:
   cancel-in-progress: true
 
 
-
+permissions:
+  pull-requests: write
+  issues: write
+  repository-projects: write
+  
 jobs:
   run_script:
     name: Run Python Script
