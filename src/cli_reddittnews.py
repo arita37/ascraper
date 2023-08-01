@@ -21,7 +21,7 @@ python cli_redditnews.py run --query 'icml 2023, neurips 2023'  --dirout ztnp/re
 
 """
 import fire, os, praw, pandas as pd
-from utilmy import (7date_now, pd_to_file, os_makedirs, log)
+from utilmy import (date_now, pd_to_file, os_makedirs, log)
 
 
 def run(query:str='icml 2023, ', dirout:str="ztmp/", subreddits=None, reddit_limit=10, reddit_sort='top', verbose=1):
