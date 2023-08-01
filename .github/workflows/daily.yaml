@@ -12,7 +12,7 @@ on:
 
   schedule:
     #- cron:  '0 0 * * 0'      #### 60mins
-    - cron:  '*/10 * * * *'
+    - cron:  '0 10 * * *'  ##10:00 UTC everyday
     #   - cron:  '* * */2 * *'
 
 concurrency:
