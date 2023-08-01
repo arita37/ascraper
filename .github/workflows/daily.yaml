@@ -46,14 +46,24 @@ jobs:
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
         run: |
-              python src/cli_reddittnews.py --query 'machine learning conference,ICML,NeurIPS,OpenAI' --verbose 1
+              python src/cli_reddittnews.py --query 'machine learning conference,ICML,NeurIPS,OpenAI' --output_dir "src" --verbose 1
 
 
-
-      - name: Self push commit
-        uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Commit files
+        id: commit
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions"
+          git add --all
+          if [-z "$(git status --porcelain)"]; then
+            echo "::set-output name=push::false"
+          else
+            git commit -m "Add changes" -a
+            echo "::set-output name=push::true"
+          fi
+        shell: bash
+      - name: Push changes
+        if: steps.commit.outputs.push == 'true'
+        uses: ad-m/github-push-action@run
         with:
-          commit_message: Changed files
-          
-          
-          
+            github_token: ${{ secrets.GITHUB_TOKEN }}
