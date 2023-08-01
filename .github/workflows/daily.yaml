@@ -50,7 +50,7 @@ jobs:
 
 
 
-      - name: Auto generation of docstring
+      - name: Self push commit
         #vcontinue-on-error: true
         run:  |
           git add -A || echo 'nothing'
