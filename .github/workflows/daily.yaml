@@ -55,9 +55,9 @@ jobs:
         run:  |
           git config user.email "varunmathur1990@gmail.com"
           git config user.name "DudeFromMars"
-          git add -A || echo 'nothing'
-          git commit -am "daily" ||   echo 'nothing'
-          git push origin run  ||  echo 'nothing2'
+          git add -A
+          git commit -am "daily" 
+          git push origin run  
 
           echo 'All finished'
           git branch -a
