@@ -46,7 +46,7 @@ jobs:
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent: ${{ secrets.USER_AGENT }}
         run: |
-              python src/cli_reddittnews.py --query 'openai' --dirout "arita37/ascraper/out/"    --verbose 10
+              python src/cli_reddittnews.py --query 'openai' --dirout "arita37/ascraper/out"    --verbose 10
 
 
 
