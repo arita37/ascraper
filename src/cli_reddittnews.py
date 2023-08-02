@@ -71,7 +71,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
             dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
 
     for ci in dfall.columns: 
-        df[ci] = df[ci].apply(lambda x : x.replace('"', "'" ))
+        dfall[ci] = dfall[ci].apply(lambda x : x.replace('"', "'" ))
 
     pd_to_file(dfall, dirout + f"/reddit_{ymd}.csv", 
                sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
