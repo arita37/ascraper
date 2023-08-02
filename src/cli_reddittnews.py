@@ -99,7 +99,7 @@ def pd_to_markdown(df, dirout):
     sall = ""
     for index, x in df.iterrows():
         ss = f""" 
-{x['title'][:70]} , {x['dt']}
+[ {x['title'][:70]} ]({x{'url'}}) , {x['dt']}
 ```
 {x['body']}
 ```
