@@ -78,7 +78,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
     for ci in  ['body']:
        df[ ci ] = df[ci].apply(lambda x : reformat(x) )     
 
-    df['dt'] = df['dt'].apply(lambda x : date_now(x, fmt="%Y%m%d_%H%m%"))
+    df['dt'] = df['dt'].apply(lambda x : date_now(int(x), fmt="%Y%m%d_%H%m%"))
 
 
     cols= ['title', 'body', 'url', 'comms_num', 'dt', 'body'] 
