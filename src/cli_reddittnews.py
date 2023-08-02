@@ -20,7 +20,7 @@ python cli_redditnews.py run --query 'icml 2023, neurips 2023'  --dirout ztnp/re
 
 
 """
-import fire, os, praw, pandas as pd
+import fire, os, praw, pandas as pd, csv
 from utilmy import (date_now, pd_to_file, os_makedirs, log)
 
 
@@ -70,7 +70,11 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
             log( f'{item}: N article: ', len(dfres))
             dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
 
-    pd_to_file(dfall, dirout + f"/subreddit_{ymd}.csv", sep="\t")
+    for ci in dfall.columns: 
+        df[ci] = df[ci].apply(lambda x : x.replace('"', "'" ))
+
+    pd_to_file(dfall, dirout + f"/subreddit_{ymd}.csv", 
+               sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"'))
     return
 
 if __name__ == "__main__":
