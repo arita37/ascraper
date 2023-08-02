@@ -53,11 +53,12 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
         log('fetching:', s)
 
         for item in query:
-            ddict = {
+            ddict = { 'sub': [],
             "title" : [], "score" : [], "id" : [], "url" : [], "comms_num": [], "dt" : [], "body" : []
             }
             
             for submi in subreddit.search(query,sort = reddit_sort,limit = reddit_limit,  time_filter='month', ):
+                ddict['sub'].append(s)
                 ddict["title"].append(submi.title)
                 ddict["score"].append(submi.score)
                 ddict["id"].append(submi.id)
@@ -99,7 +100,7 @@ def pd_to_markdown(df, dirout):
     sall = ""
     for index, x in df.iterrows():
         ss = f""" 
-[ {x['title'][:70]} ]({x{'url'}}) , {x['dt']}
+{x['sub']} -  [ {x['title'][:70]} ]({x['url']}) , {x['dt']}
 ```
 {x['body']}
 ```
