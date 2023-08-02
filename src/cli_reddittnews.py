@@ -24,7 +24,7 @@ import fire, os, praw, pandas as pd, csv
 from utilmy import (date_now, pd_to_file, os_makedirs, log)
 
 
-def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=10, reddit_sort='top', verbose=1):
+def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=20, reddit_sort='new', verbose=1):
 
     ### from https://www.reddit.com/prefs/apps/
     client_id     = "KqVbVrlmGdbowtjuNIMAmQ" 
@@ -57,7 +57,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
             "title" : [], "score" : [], "id" : [], "url" : [], "comms_num": [], "dt" : [], "body" : []
             }
             
-            for submi in subreddit.search(query,sort = reddit_sort,limit = reddit_limit):
+            for submi in subreddit.search(query,sort = reddit_sort,limit = reddit_limit,  time_filter='month', ):
                 ddict["title"].append(submi.title)
                 ddict["score"].append(submi.score)
                 ddict["id"].append(submi.id)
@@ -98,7 +98,8 @@ def pd_to_markdown(df, dirout):
 
     sall = ""
     for index, x in df.iterrows():
-        ss = f""" {x['title'][:70]} , {x['dt']}
+        ss = f""" 
+{x['title'][:70]} , {x['dt']}
 ```
 {x['body']}
 ```
