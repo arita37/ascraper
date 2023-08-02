@@ -73,9 +73,25 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
     for ci in dfall.columns: 
         dfall[ci] = dfall[ci].apply(lambda x : str(x).replace('"', "'" ))
 
-    pd_to_file(dfall, dirout + f"/reddit_{ymd}.tsv", 
+    cols= ['title', 'body', 'url', 'comms_num', 'created', 'body'] 
+
+    for ci in  ['body']:
+       df[ ci ] = df[ci].apply(lambda x : reformat((strx)) )    
+
+    pd_to_file(dfall[cols], dirout + f"/reddit_{ymd}.tsv", 
                sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
     return
+
+
+def reformat(ss):
+
+    sall = ""
+    kbatch = 60
+    n = int(len(ss) / kbatch)
+    for ii in range(n+1):
+        sall = sall + ss[ii*kbatch:(ii+1)*kbatch] + "\n"
+    return sall[:-1]
+
 
 if __name__ == "__main__":
   fire.Fire(run)
