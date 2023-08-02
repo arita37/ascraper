@@ -1,5 +1,5 @@
  
-[D] NeurIPS 2023 Paper Reviews , 1690922642.0
+MachineLearning -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 1690922642.0
 ```
 NeurIPS 2023 paper reviews are visible on OpenReview.  See t
 his [tweet](https://twitter.com/francoisfleuret/status/16864
@@ -17,7 +17,7 @@ is still valuable no matter what the score is.
 
      
  
-[D] Is Conference Competition Track like NeurIPS Competition a Glorifi , 1689795753.0
+MachineLearning -  [ [D] Is Conference Competition Track like NeurIPS Competition a Glorifi ](https://www.reddit.com/r/MachineLearning/comments/1544si8/d_is_conference_competition_track_like_neurips/) , 1689795753.0
 ```
 Is it worth the time to pour time and effort into NeurIPS's 
 annual competitions? Winners got to present at NIPS workshop
@@ -40,7 +40,7 @@ nk you strangers!
 
      
  
-[Research] Using official implementations vs highly popular unofficial , 1689661325.0
+MachineLearning -  [ [Research] Using official implementations vs highly popular unofficial ](https://www.reddit.com/r/MachineLearning/comments/152qb4m/research_using_official_implementations_vs_highly/) , 1689661325.0
 ```
 So for the past six months I have been working on a domain a
 daptation research problem. I wanted to inspect/understand t
@@ -70,7 +70,7 @@ d be greatly appreciated. Thanks.
 
      
  
-[D] NeurIPS 2023 reviews release time? , 1689195099.0
+MachineLearning -  [ [D] NeurIPS 2023 reviews release time? ](https://www.reddit.com/r/MachineLearning/comments/14y0apq/d_neurips_2023_reviews_release_time/) , 1689195099.0
 ```
 Hey guys, I was wondering if y’all know when NeurIPS reviews
  for this year would be released? I know the response period
@@ -82,7 +82,7 @@ h them? Thanks!
 
      
  
-[D] Come check out /r/LearningMachines, a subreddit focused on basic a , 1688833690.0
+MachineLearning -  [ [D] Come check out /r/LearningMachines, a subreddit focused on basic a ](https://www.reddit.com/r/MachineLearning/comments/14u8n9h/d_come_check_out_rlearningmachines_a_subreddit/) , 1688833690.0
 ```
 Hey, all. I just created a new subreddit, /r/LearningMachine
 s. The goal of the subreddit is to be entirely research-focu
@@ -124,7 +124,7 @@ hs to the subreddit to get the community going.
 
      
  
-[D] NeurIPS 2023 Paper Reviews , 1690922642.0
+MachineLearning -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 1690922642.0
 ```
 NeurIPS 2023 paper reviews are visible on OpenReview.  See t
 his [tweet](https://twitter.com/francoisfleuret/status/16864
@@ -142,7 +142,7 @@ is still valuable no matter what the score is.
 
      
  
-[D] Is Conference Competition Track like NeurIPS Competition a Glorifi , 1689795753.0
+MachineLearning -  [ [D] Is Conference Competition Track like NeurIPS Competition a Glorifi ](https://www.reddit.com/r/MachineLearning/comments/1544si8/d_is_conference_competition_track_like_neurips/) , 1689795753.0
 ```
 Is it worth the time to pour time and effort into NeurIPS's 
 annual competitions? Winners got to present at NIPS workshop
@@ -165,7 +165,7 @@ nk you strangers!
 
      
  
-[Research] Using official implementations vs highly popular unofficial , 1689661325.0
+MachineLearning -  [ [Research] Using official implementations vs highly popular unofficial ](https://www.reddit.com/r/MachineLearning/comments/152qb4m/research_using_official_implementations_vs_highly/) , 1689661325.0
 ```
 So for the past six months I have been working on a domain a
 daptation research problem. I wanted to inspect/understand t
@@ -195,7 +195,7 @@ d be greatly appreciated. Thanks.
 
      
  
-[D] NeurIPS 2023 reviews release time? , 1689195099.0
+MachineLearning -  [ [D] NeurIPS 2023 reviews release time? ](https://www.reddit.com/r/MachineLearning/comments/14y0apq/d_neurips_2023_reviews_release_time/) , 1689195099.0
 ```
 Hey guys, I was wondering if y’all know when NeurIPS reviews
  for this year would be released? I know the response period
@@ -207,7 +207,7 @@ h them? Thanks!
 
      
  
-[D] Come check out /r/LearningMachines, a subreddit focused on basic a , 1688833690.0
+MachineLearning -  [ [D] Come check out /r/LearningMachines, a subreddit focused on basic a ](https://www.reddit.com/r/MachineLearning/comments/14u8n9h/d_come_check_out_rlearningmachines_a_subreddit/) , 1688833690.0
 ```
 Hey, all. I just created a new subreddit, /r/LearningMachine
 s. The goal of the subreddit is to be entirely research-focu
@@ -249,7 +249,7 @@ hs to the subreddit to get the community going.
 
      
  
-[D] NeurIPS 2023 Paper Reviews , 1690922642.0
+MachineLearning -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 1690922642.0
 ```
 NeurIPS 2023 paper reviews are visible on OpenReview.  See t
 his [tweet](https://twitter.com/francoisfleuret/status/16864
@@ -267,7 +267,7 @@ is still valuable no matter what the score is.
 
      
  
-[D] Is Conference Competition Track like NeurIPS Competition a Glorifi , 1689795753.0
+MachineLearning -  [ [D] Is Conference Competition Track like NeurIPS Competition a Glorifi ](https://www.reddit.com/r/MachineLearning/comments/1544si8/d_is_conference_competition_track_like_neurips/) , 1689795753.0
 ```
 Is it worth the time to pour time and effort into NeurIPS's 
 annual competitions? Winners got to present at NIPS workshop
@@ -290,7 +290,7 @@ nk you strangers!
 
      
  
-[Research] Using official implementations vs highly popular unofficial , 1689661325.0
+MachineLearning -  [ [Research] Using official implementations vs highly popular unofficial ](https://www.reddit.com/r/MachineLearning/comments/152qb4m/research_using_official_implementations_vs_highly/) , 1689661325.0
 ```
 So for the past six months I have been working on a domain a
 daptation research problem. I wanted to inspect/understand t
@@ -320,7 +320,7 @@ d be greatly appreciated. Thanks.
 
      
  
-[D] NeurIPS 2023 reviews release time? , 1689195099.0
+MachineLearning -  [ [D] NeurIPS 2023 reviews release time? ](https://www.reddit.com/r/MachineLearning/comments/14y0apq/d_neurips_2023_reviews_release_time/) , 1689195099.0
 ```
 Hey guys, I was wondering if y’all know when NeurIPS reviews
  for this year would be released? I know the response period
@@ -332,7 +332,7 @@ h them? Thanks!
 
      
  
-[D] Come check out /r/LearningMachines, a subreddit focused on basic a , 1688833690.0
+MachineLearning -  [ [D] Come check out /r/LearningMachines, a subreddit focused on basic a ](https://www.reddit.com/r/MachineLearning/comments/14u8n9h/d_come_check_out_rlearningmachines_a_subreddit/) , 1688833690.0
 ```
 Hey, all. I just created a new subreddit, /r/LearningMachine
 s. The goal of the subreddit is to be entirely research-focu
