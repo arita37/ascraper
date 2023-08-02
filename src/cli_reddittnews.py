@@ -78,10 +78,10 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
     for ci in  ['body']:
        df[ ci ] = df[ci].apply(lambda x : reformat(x) )     
 
-    df['dt'] = df['dt'].apply(lambda x : date_now(int(x), fmt="%Y%m%d_%H%m%"))
+    # df['dt'] = df['dt'].apply(lambda x : date_now(int(x), fmt="%Y%m%d_%H%m%"))
 
 
-    cols= ['title', 'body', 'url', 'comms_num', 'dt', 'body'] 
+    cols= ['title', 'body', 'url', 'comms_num', 'dt', 'score', 'id' ] 
 
     pd_to_file(df[cols], dirout + f"/reddit_{ymd}.tsv", 
                sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
