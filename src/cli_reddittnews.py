@@ -54,7 +54,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
 
         for item in query:
             ddict = {
-            "title" : [], "score" : [], "id" : [], "url" : [], "comms_num": [], "created" : [], "body" : []
+            "title" : [], "score" : [], "id" : [], "url" : [], "comms_num": [], "dt" : [], "body" : []
             }
             
             for submi in subreddit.search(query,sort = reddit_sort,limit = reddit_limit):
@@ -63,7 +63,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
                 ddict["id"].append(submi.id)
                 ddict["url"].append(submi.url)
                 ddict["comms_num"].append(submi.num_comments)
-                ddict["created"].append(submi.created)
+                ddict["dt"].append(submi.created)
                 ddict["body"].append(submi.selftext)
 
             dfres = pd.DataFrame(ddict)
@@ -73,10 +73,14 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
     for ci in dfall.columns: 
         dfall[ci] = dfall[ci].apply(lambda x : str(x).replace('"', "'" ))
 
-    cols= ['title', 'body', 'url', 'comms_num', 'created', 'body'] 
 
     for ci in  ['body']:
        df[ ci ] = df[ci].apply(lambda x : reformat((strx)) )    
+
+    df['dt'] = df['dt'].apply(lambda x : date_now(x, fmt="%Y%m%d_%H%m%"))
+
+
+    cols= ['title', 'body', 'url', 'comms_num', 'dt', 'body'] 
 
     pd_to_file(dfall[cols], dirout + f"/reddit_{ymd}.tsv", 
                sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
