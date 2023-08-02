@@ -24,7 +24,7 @@ import fire, os, praw, pandas as pd, csv
 from utilmy import (date_now, pd_to_file, os_makedirs, log)
 
 
-def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=50, reddit_sort='new', verbose=1):
+def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=50, reddit_sort='new', verbose=1, tag=""):
 
     ### from https://www.reddit.com/prefs/apps/
     client_id     = "KqVbVrlmGdbowtjuNIMAmQ" 
@@ -39,10 +39,10 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
         log(client_id, client_secret, user_agent)
 
 
-    query="llm,claude,langchain"    
+    # query="llm,claude,langchain"    
 
     if subreddits is None :
-        subreddits = ['all', 'MachineLearning','DEEPLEARNING']
+        subreddits = ['all', 'MachineLearning','deeplearning']
         
     if isinstance(query, str):
         query = query.split(",")
@@ -88,7 +88,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
     cols= ['title', 'body', 'url', 'comms_num', 'dt', 'score', 'id' ] 
 
 
-    pd_to_markdown(df, dirout= dirout + f"/reddit.md" )
+    pd_to_markdown(df, dirout= dirout + f"/reddit{tag}.md" )
 
 
     # pd_to_file(df[cols], dirout + f"/reddit.csv", 
