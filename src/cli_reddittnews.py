@@ -38,8 +38,11 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
     if verbose > 1 :
         log(client_id, client_secret, user_agent)
 
+
+    query="llm,claude,langchain"    
+
     if subreddits is None :
-        subreddits = ['MachineLearning','DeepLearning']
+        subreddits = ['MachineLearning','DEEPLEARNING']
         
     if isinstance(query, str):
         query = query.split(",")
