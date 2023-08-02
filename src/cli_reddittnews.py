@@ -80,16 +80,15 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
 
     # df['dt'] = df['dt'].apply(lambda x : date_now(int(x), fmt="%Y%m%d_%H%m%"))
 
-
     cols= ['title', 'body', 'url', 'comms_num', 'dt', 'score', 'id' ] 
 
 
-    pd_to_file(df[cols], dirout + f"/reddit_{ymd}.csv", 
-               sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
 
+    pd_to_file(df[cols], dirout + f"/reddit.csv", 
+               sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
     try :
-      os.remove(dirout + f"/reddit_{ymd}.tsv")
-      os.rename(dirout + f"/reddit_{ymd}.csv", dirout + f"/reddit_{ymd}.tsv")          
+      os.remove(dirout + f"/reddit.tsv")
+      os.rename(dirout + f"/reddit.csv", dirout + f"/reddit_{ymd}.tsv")          
     except: pass   
     return
 
