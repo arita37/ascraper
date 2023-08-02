@@ -51,7 +51,7 @@ jobs:
           reddit_client_secret: ${{ secrets.REDDIT_CLIENT_SECRET }} 
           user_agent:           ${{ secrets.USER_AGENT }}
         run: |
-              python src/cli_reddittnews.py --query 'machine learning conference,ICML,NeurIPS,OpenAI' --dirout "out/" --verbose 10
+              python src/cli_reddittnews.py --query 'machine learning conference,ICML,NeurIPS' --dirout "out/" --verbose 10
 
 
       - name: Commit files
