@@ -47,7 +47,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
     ymd = date_now(fmt='%y%m%d', returnval='str')    
 
     log("########## Start Scrapping")
-    dfall = pd.DataFrame() 
+    df = pd.DataFrame() 
     for s in subreddits:
         subreddit = reddit.subreddit(s) 
         log('fetching:', s)
@@ -68,10 +68,11 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
 
             dfres = pd.DataFrame(ddict)
             log( f'{item}: N article: ', len(dfres))
-            dfall = pd.concat([dfall,dfres], axis=0,ignore_index=True)
+            df = pd.concat([dfall,dfres], axis=0,ignore_index=True)
 
-    for ci in dfall.columns: 
-        dfall[ci] = dfall[ci].apply(lambda x : str(x).replace('"', "'" ))
+
+    for ci in df.columns: 
+        df[ci] = df[ci].apply(lambda x : str(x).replace('"', "'" ))
 
 
     for ci in  ['body']:
@@ -82,7 +83,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
 
     cols= ['title', 'body', 'url', 'comms_num', 'dt', 'body'] 
 
-    pd_to_file(dfall[cols], dirout + f"/reddit_{ymd}.tsv", 
+    pd_to_file(df[cols], dirout + f"/reddit_{ymd}.tsv", 
                sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
     return
 
