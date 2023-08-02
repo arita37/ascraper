@@ -1,1 +1,0 @@
-Daily scraped data will be stored in this folder
