@@ -24,7 +24,7 @@ import fire, os, praw, pandas as pd, csv
 from utilmy import (date_now, pd_to_file, os_makedirs, log)
 
 
-def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=20, reddit_sort='new', verbose=1):
+def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=50, reddit_sort='new', verbose=1):
 
     ### from https://www.reddit.com/prefs/apps/
     client_id     = "KqVbVrlmGdbowtjuNIMAmQ" 
@@ -90,13 +90,14 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
 
     pd_to_markdown(df, dirout= dirout + f"/reddit.md" )
 
-    pd_to_file(df[cols], dirout + f"/reddit.csv", 
-               sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
-    try :
-      os.remove(dirout + f"/reddit.tsv")
-      os.rename(dirout + f"/reddit.csv", dirout + f"/reddit_{ymd}.tsv")          
-    except: pass   
-    return
+
+    # pd_to_file(df[cols], dirout + f"/reddit.csv", 
+    #            sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
+    # try :
+    #   os.remove(dirout + f"/reddit.tsv")
+    #   os.rename(dirout + f"/reddit.csv", dirout + f"/reddit_{ymd}.tsv")          
+    # except: pass   
+    # return
 
 
 def pd_to_markdown(df, dirout):
@@ -104,7 +105,7 @@ def pd_to_markdown(df, dirout):
     sall = ""
     for index, x in df.iterrows():
         ss = f""" 
-{x['sub']} -  [ {x['title'][:70]} ]({x['url']}) , {x['dt']}
+{x['sub']} -  [ {x['title'][:100]} ]({x['url']}) , {x['dt']}
 ```
 {x['body']}
 ```
@@ -119,7 +120,7 @@ def pd_to_markdown(df, dirout):
 def reformat(ss):
 
     sall = ""
-    kbatch = 60
+    kbatch = 120
     n = int(len(ss) / kbatch)
     for ii in range(n+1):
         sall = sall + ss[ii*kbatch:(ii+1)*kbatch] + "\n"
