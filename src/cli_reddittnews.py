@@ -44,7 +44,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
     if isinstance(query, str):
         query = query.split(",")
 
-    ymd = date_now(fmt='%Y%m%d', returnval='str')    
+    ymd = date_now(fmt='%y%m%d', returnval='str')    
 
     log("########## Start Scrapping")
     dfall = pd.DataFrame() 
