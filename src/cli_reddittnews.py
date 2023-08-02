@@ -83,6 +83,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
     cols= ['title', 'body', 'url', 'comms_num', 'dt', 'score', 'id' ] 
 
 
+    pd_to_markdown(df, dirout= dirout + f"/reddit.md" )
 
     pd_to_file(df[cols], dirout + f"/reddit.csv", 
                sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
@@ -91,6 +92,18 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
       os.rename(dirout + f"/reddit.csv", dirout + f"/reddit_{ymd}.tsv")          
     except: pass   
     return
+
+
+def pd_to_markdown(df, dirout):
+
+    sall = ""
+    for index, x in df.iterrows():
+        ss = f""" {x['title']} , {x['dt']}
+{x['body']}
+     """
+        sall = sall + ss + "\n"
+    with open(dirout, mode='w') as fp:
+         fp.writelines(sall)
 
 
 def reformat(ss):
