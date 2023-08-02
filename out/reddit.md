@@ -1,5 +1,5 @@
-""	"title"	"body"	"url"	"comms_num"	"dt"	"score"	"id"
-0	"[D] The machine learning community has a toxicity problem"	"It is omnipresent!
+ [D] The machine learning community has a toxicity problem , 1593547579.0
+It is omnipresent!
 
 **First** of all, the peer-review proces
 s is *broken*. Every fourth NeurIPS submission is put on arX
@@ -92,8 +92,10 @@ The moment we start silencing people be
 cause of their opinion is the moment scientific and societal
  progress dies. 
 
-Best intentions, Yusuf"	"https://www.reddit.com/r/MachineLearning/comments/hiv3vf/d_the_machine_learning_community_has_a_toxicity/"	"571"	"1593547579.0"	"3827"	"hiv3vf"
-1	"[R] Google has a credit assignment problem in research"	"Google has some serious cultural problems with proper credit
+Best intentions, Yusuf
+     
+ [R] Google has a credit assignment problem in research , 1593782531.0
+Google has some serious cultural problems with proper credit
  assignment. They continue to rename methods discovered earl
 ier DESPITE admitting the existence of this work.
 
@@ -168,8 +170,10 @@ n as [Swish despite being made aware of the method already h
 aving the name SiLU](https://arxiv.org/abs/1710.05941). Now 
 it is stuck in our research community and stuck in our ML li
 braries (https://github.com/tensorflow/tensorflow/issues/410
-66)."	"https://www.reddit.com/r/MachineLearning/comments/hkiyir/r_google_has_a_credit_assignment_problem_in/"	"127"	"1593782531.0"	"825"	"hkiyir"
-2	"[D] Advanced courses update"	"EDIT Jan 2021 : I am still updating the list as of Jan, 2021
+66).
+     
+ [D] Advanced courses update , 1583418496.0
+EDIT Jan 2021 : I am still updating the list as of Jan, 2021
  and will most probably continue to do so for foreseeable fu
 ture. So, please feel free to message me any courses you fin
 d interesting that fit here.
@@ -452,8 +456,10 @@ hub.io/WI18/schedule.html)
 Edit: Upon suggestion, cate
 gorized the courses. There might be some misclassifications 
 as I'm not trained on this task ;). Added some good ones fro
-m older (linked above) discussions."	"https://www.reddit.com/r/MachineLearning/comments/fdw0ax/d_advanced_courses_update/"	"85"	"1583418496.0"	"820"	"fdw0ax"
-3	"[D] Some interesting observations about machine learning publication practices from an outsider"	"I come from a traditional engineering field, and here is my 
+m older (linked above) discussions.
+     
+ [D] Some interesting observations about machine learning publication practices from an outsider , 1614671503.0
+I come from a traditional engineering field, and here is my 
 observation about ML publication practice lately:
 
 I have no
@@ -539,8 +545,10 @@ being treated as some sort of automatic paper acceptance cas
 h cow.
 
 Just my two cents coming from outside of ML. My obse
-rvation does not apply to all fields of ML."	"https://www.reddit.com/r/MachineLearning/comments/lvwt3l/d_some_interesting_observations_about_machine/"	"171"	"1614671503.0"	"658"	"lvwt3l"
-4	"[D] Calling out the authors of 'Trajformer' paper for claiming they published code but never doing it"	"I read a paper from NeurIPS 2020 titled 'Trajformer: Traject
+rvation does not apply to all fields of ML.
+     
+ [D] Calling out the authors of 'Trajformer' paper for claiming they published code but never doing it , 1636600691.0
+I read a paper from NeurIPS 2020 titled 'Trajformer: Traject
 ory Prediction with Local Self-Attentive Contexts for Autono
 mous Driving'. I found it interesting and the authors claim 
 multiple times in the paper that 'we release our code at '[h
@@ -570,8 +578,10 @@ eve they only will if we call them out. I waited long enough
 phase and then disappear. An undergrad in my lab asked why s
 he should take time to clean up the code and document it bef
 ore release while others just move on to the next interestin
-g project and I don't have an answer. "	"https://www.reddit.com/r/MachineLearning/comments/qrbkc7/d_calling_out_the_authors_of_trajformer_paper_for/"	"90"	"1636600691.0"	"553"	"qrbkc7"
-5	"[D] NeurIPS 2019 Bengio Schmidhuber Meta-Learning Fiasco"	"The recent reddit post [Yoshua Bengio talks about what's nex
+g project and I don't have an answer. 
+     
+ [D] NeurIPS 2019 Bengio Schmidhuber Meta-Learning Fiasco , 1576233717.0
+The recent reddit post [Yoshua Bengio talks about what's nex
 t for deep learning](https://www.reddit.com/r/MachineLearnin
 g/comments/e92dp5/d_yoshua_bengio_talks_about_whats_next_for
 _deep/) links to an interview with Bengio. User u/panties_in
@@ -641,9 +651,13 @@ results of Sepp [VAN1]. Even after a common publication [VAN
 
 So Bengio republished at least 3 importa
 nt ideas from Schmidhuber's lab without giving credit: meta-
-learning, vanishing gradients, GANs. What's going on?"	"https://www.reddit.com/r/MachineLearning/comments/ea2gap/d_neurips_2019_bengio_schmidhuber_metalearning/"	"170"	"1576233717.0"	"543"	"ea2gap"
-6	"[R] Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments"	""	"https://i.redd.it/eilmxki09bd61.png"	"3"	"1611507295.0"	"508"	"l432gk"
-7	"[R] A List of Best Papers from Top AI Conferences in 2020"	"Sharing a list of award-winning papers from this year's top 
+learning, vanishing gradients, GANs. What's going on?
+     
+ [R] Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments , 1611507295.0
+
+     
+ [R] A List of Best Papers from Top AI Conferences in 2020 , 1609361402.0
+Sharing a list of award-winning papers from this year's top 
 conferences for anyone interested in catching up on the late
 st machine learning research before the end of the year :)
 
@@ -784,8 +798,10 @@ ent Curve for Column Subset Selection and the Nyström Method
 Here is a co
 mprehensive collection of [research talks from all major AI 
 conferences](https://crossminds.ai/c/conference/) this year 
-if you'd like to explore further."	"https://www.reddit.com/r/MachineLearning/comments/knai5q/r_a_list_of_best_papers_from_top_ai_conferences/"	"48"	"1609361402.0"	"501"	"knai5q"
-8	"[D] On the public advertising of NeurIPS submissions on Twitter"	"The deadline for submitting papers to the NeurIPS 2020 confe
+if you'd like to explore further.
+     
+ [D] On the public advertising of NeurIPS submissions on Twitter , 1592567690.0
+The deadline for submitting papers to the NeurIPS 2020 confe
 rence was two weeks ago. Since then, almost everyday I come 
 across long Twitter threads from ML researchers that publicl
 y advertise their work (obviously NeurIPS submissions, from 
@@ -816,8 +832,10 @@ tably among top researchers reacting to the posts. Would you
  also say that this is fine (as, anyway, we cannot really as
 sume that a review is double-blind when arXiv public preprin
 ts with authors names and affiliations are allowed)? Or do y
-ou agree that this can be a problem?"	"https://www.reddit.com/r/MachineLearning/comments/hbzd5o/d_on_the_public_advertising_of_neurips/"	"127"	"1592567690.0"	"475"	"hbzd5o"
-9	"[R] NeurIPS 2020 Spotlight, AdaBelief optimizer, trains fast as Adam, generalize well as SGD, stable to train GAN."	"**Abstract**
+ou agree that this can be a problem?
+     
+ [R] NeurIPS 2020 Spotlight, AdaBelief optimizer, trains fast as Adam, generalize well as SGD, stable to train GAN. , 1602815151.0
+**Abstract**
 
 Optimization is at the core of modern deep lea
 rning. We propose AdaBelief optimizer to simultaneously achi
@@ -900,8 +918,10 @@ dd.it/bj3mc8r2adt51.png?width=1420&format=png&auto=webp&s=bb
 200B;
 
 https://reddit.com/link/jc1fp2/video/3oy0cbr4adt51/pl
-ayer"	"https://www.reddit.com/r/MachineLearning/comments/jc1fp2/r_neurips_2020_spotlight_adabelief_optimizer/"	"140"	"1602815151.0"	"459"	"jc1fp2"
-10	"[D] The machine learning community has a toxicity problem"	"It is omnipresent!
+ayer
+     
+ [D] The machine learning community has a toxicity problem , 1593547579.0
+It is omnipresent!
 
 **First** of all, the peer-review proces
 s is *broken*. Every fourth NeurIPS submission is put on arX
@@ -994,8 +1014,10 @@ The moment we start silencing people be
 cause of their opinion is the moment scientific and societal
  progress dies. 
 
-Best intentions, Yusuf"	"https://www.reddit.com/r/MachineLearning/comments/hiv3vf/d_the_machine_learning_community_has_a_toxicity/"	"571"	"1593547579.0"	"3825"	"hiv3vf"
-11	"[R] Google has a credit assignment problem in research"	"Google has some serious cultural problems with proper credit
+Best intentions, Yusuf
+     
+ [R] Google has a credit assignment problem in research , 1593782531.0
+Google has some serious cultural problems with proper credit
  assignment. They continue to rename methods discovered earl
 ier DESPITE admitting the existence of this work.
 
@@ -1070,8 +1092,10 @@ n as [Swish despite being made aware of the method already h
 aving the name SiLU](https://arxiv.org/abs/1710.05941). Now 
 it is stuck in our research community and stuck in our ML li
 braries (https://github.com/tensorflow/tensorflow/issues/410
-66)."	"https://www.reddit.com/r/MachineLearning/comments/hkiyir/r_google_has_a_credit_assignment_problem_in/"	"127"	"1593782531.0"	"827"	"hkiyir"
-12	"[D] Advanced courses update"	"EDIT Jan 2021 : I am still updating the list as of Jan, 2021
+66).
+     
+ [D] Advanced courses update , 1583418496.0
+EDIT Jan 2021 : I am still updating the list as of Jan, 2021
  and will most probably continue to do so for foreseeable fu
 ture. So, please feel free to message me any courses you fin
 d interesting that fit here.
@@ -1354,8 +1378,10 @@ hub.io/WI18/schedule.html)
 Edit: Upon suggestion, cate
 gorized the courses. There might be some misclassifications 
 as I'm not trained on this task ;). Added some good ones fro
-m older (linked above) discussions."	"https://www.reddit.com/r/MachineLearning/comments/fdw0ax/d_advanced_courses_update/"	"85"	"1583418496.0"	"823"	"fdw0ax"
-13	"[D] Some interesting observations about machine learning publication practices from an outsider"	"I come from a traditional engineering field, and here is my 
+m older (linked above) discussions.
+     
+ [D] Some interesting observations about machine learning publication practices from an outsider , 1614671503.0
+I come from a traditional engineering field, and here is my 
 observation about ML publication practice lately:
 
 I have no
@@ -1441,8 +1467,10 @@ being treated as some sort of automatic paper acceptance cas
 h cow.
 
 Just my two cents coming from outside of ML. My obse
-rvation does not apply to all fields of ML."	"https://www.reddit.com/r/MachineLearning/comments/lvwt3l/d_some_interesting_observations_about_machine/"	"171"	"1614671503.0"	"663"	"lvwt3l"
-14	"[D] Calling out the authors of 'Trajformer' paper for claiming they published code but never doing it"	"I read a paper from NeurIPS 2020 titled 'Trajformer: Traject
+rvation does not apply to all fields of ML.
+     
+ [D] Calling out the authors of 'Trajformer' paper for claiming they published code but never doing it , 1636600691.0
+I read a paper from NeurIPS 2020 titled 'Trajformer: Traject
 ory Prediction with Local Self-Attentive Contexts for Autono
 mous Driving'. I found it interesting and the authors claim 
 multiple times in the paper that 'we release our code at '[h
@@ -1472,8 +1500,10 @@ eve they only will if we call them out. I waited long enough
 phase and then disappear. An undergrad in my lab asked why s
 he should take time to clean up the code and document it bef
 ore release while others just move on to the next interestin
-g project and I don't have an answer. "	"https://www.reddit.com/r/MachineLearning/comments/qrbkc7/d_calling_out_the_authors_of_trajformer_paper_for/"	"90"	"1636600691.0"	"553"	"qrbkc7"
-15	"[D] NeurIPS 2019 Bengio Schmidhuber Meta-Learning Fiasco"	"The recent reddit post [Yoshua Bengio talks about what's nex
+g project and I don't have an answer. 
+     
+ [D] NeurIPS 2019 Bengio Schmidhuber Meta-Learning Fiasco , 1576233717.0
+The recent reddit post [Yoshua Bengio talks about what's nex
 t for deep learning](https://www.reddit.com/r/MachineLearnin
 g/comments/e92dp5/d_yoshua_bengio_talks_about_whats_next_for
 _deep/) links to an interview with Bengio. User u/panties_in
@@ -1543,9 +1573,13 @@ results of Sepp [VAN1]. Even after a common publication [VAN
 
 So Bengio republished at least 3 importa
 nt ideas from Schmidhuber's lab without giving credit: meta-
-learning, vanishing gradients, GANs. What's going on?"	"https://www.reddit.com/r/MachineLearning/comments/ea2gap/d_neurips_2019_bengio_schmidhuber_metalearning/"	"170"	"1576233717.0"	"551"	"ea2gap"
-16	"[R] Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments"	""	"https://i.redd.it/eilmxki09bd61.png"	"3"	"1611507295.0"	"514"	"l432gk"
-17	"[R] A List of Best Papers from Top AI Conferences in 2020"	"Sharing a list of award-winning papers from this year's top 
+learning, vanishing gradients, GANs. What's going on?
+     
+ [R] Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments , 1611507295.0
+
+     
+ [R] A List of Best Papers from Top AI Conferences in 2020 , 1609361402.0
+Sharing a list of award-winning papers from this year's top 
 conferences for anyone interested in catching up on the late
 st machine learning research before the end of the year :)
 
@@ -1686,8 +1720,10 @@ ent Curve for Column Subset Selection and the Nyström Method
 Here is a co
 mprehensive collection of [research talks from all major AI 
 conferences](https://crossminds.ai/c/conference/) this year 
-if you'd like to explore further."	"https://www.reddit.com/r/MachineLearning/comments/knai5q/r_a_list_of_best_papers_from_top_ai_conferences/"	"48"	"1609361402.0"	"502"	"knai5q"
-18	"[D] On the public advertising of NeurIPS submissions on Twitter"	"The deadline for submitting papers to the NeurIPS 2020 confe
+if you'd like to explore further.
+     
+ [D] On the public advertising of NeurIPS submissions on Twitter , 1592567690.0
+The deadline for submitting papers to the NeurIPS 2020 confe
 rence was two weeks ago. Since then, almost everyday I come 
 across long Twitter threads from ML researchers that publicl
 y advertise their work (obviously NeurIPS submissions, from 
@@ -1718,8 +1754,10 @@ tably among top researchers reacting to the posts. Would you
  also say that this is fine (as, anyway, we cannot really as
 sume that a review is double-blind when arXiv public preprin
 ts with authors names and affiliations are allowed)? Or do y
-ou agree that this can be a problem?"	"https://www.reddit.com/r/MachineLearning/comments/hbzd5o/d_on_the_public_advertising_of_neurips/"	"127"	"1592567690.0"	"475"	"hbzd5o"
-19	"[R] NeurIPS 2020 Spotlight, AdaBelief optimizer, trains fast as Adam, generalize well as SGD, stable to train GAN."	"**Abstract**
+ou agree that this can be a problem?
+     
+ [R] NeurIPS 2020 Spotlight, AdaBelief optimizer, trains fast as Adam, generalize well as SGD, stable to train GAN. , 1602815151.0
+**Abstract**
 
 Optimization is at the core of modern deep lea
 rning. We propose AdaBelief optimizer to simultaneously achi
@@ -1802,8 +1840,10 @@ dd.it/bj3mc8r2adt51.png?width=1420&format=png&auto=webp&s=bb
 200B;
 
 https://reddit.com/link/jc1fp2/video/3oy0cbr4adt51/pl
-ayer"	"https://www.reddit.com/r/MachineLearning/comments/jc1fp2/r_neurips_2020_spotlight_adabelief_optimizer/"	"140"	"1602815151.0"	"453"	"jc1fp2"
-20	"[D] The machine learning community has a toxicity problem"	"It is omnipresent!
+ayer
+     
+ [D] The machine learning community has a toxicity problem , 1593547579.0
+It is omnipresent!
 
 **First** of all, the peer-review proces
 s is *broken*. Every fourth NeurIPS submission is put on arX
@@ -1896,8 +1936,10 @@ The moment we start silencing people be
 cause of their opinion is the moment scientific and societal
  progress dies. 
 
-Best intentions, Yusuf"	"https://www.reddit.com/r/MachineLearning/comments/hiv3vf/d_the_machine_learning_community_has_a_toxicity/"	"571"	"1593547579.0"	"3831"	"hiv3vf"
-21	"[R] Google has a credit assignment problem in research"	"Google has some serious cultural problems with proper credit
+Best intentions, Yusuf
+     
+ [R] Google has a credit assignment problem in research , 1593782531.0
+Google has some serious cultural problems with proper credit
  assignment. They continue to rename methods discovered earl
 ier DESPITE admitting the existence of this work.
 
@@ -1972,8 +2014,10 @@ n as [Swish despite being made aware of the method already h
 aving the name SiLU](https://arxiv.org/abs/1710.05941). Now 
 it is stuck in our research community and stuck in our ML li
 braries (https://github.com/tensorflow/tensorflow/issues/410
-66)."	"https://www.reddit.com/r/MachineLearning/comments/hkiyir/r_google_has_a_credit_assignment_problem_in/"	"127"	"1593782531.0"	"822"	"hkiyir"
-22	"[D] Advanced courses update"	"EDIT Jan 2021 : I am still updating the list as of Jan, 2021
+66).
+     
+ [D] Advanced courses update , 1583418496.0
+EDIT Jan 2021 : I am still updating the list as of Jan, 2021
  and will most probably continue to do so for foreseeable fu
 ture. So, please feel free to message me any courses you fin
 d interesting that fit here.
@@ -2256,8 +2300,10 @@ hub.io/WI18/schedule.html)
 Edit: Upon suggestion, cate
 gorized the courses. There might be some misclassifications 
 as I'm not trained on this task ;). Added some good ones fro
-m older (linked above) discussions."	"https://www.reddit.com/r/MachineLearning/comments/fdw0ax/d_advanced_courses_update/"	"85"	"1583418496.0"	"822"	"fdw0ax"
-23	"[D] Some interesting observations about machine learning publication practices from an outsider"	"I come from a traditional engineering field, and here is my 
+m older (linked above) discussions.
+     
+ [D] Some interesting observations about machine learning publication practices from an outsider , 1614671503.0
+I come from a traditional engineering field, and here is my 
 observation about ML publication practice lately:
 
 I have no
@@ -2343,8 +2389,10 @@ being treated as some sort of automatic paper acceptance cas
 h cow.
 
 Just my two cents coming from outside of ML. My obse
-rvation does not apply to all fields of ML."	"https://www.reddit.com/r/MachineLearning/comments/lvwt3l/d_some_interesting_observations_about_machine/"	"171"	"1614671503.0"	"663"	"lvwt3l"
-24	"[D] Calling out the authors of 'Trajformer' paper for claiming they published code but never doing it"	"I read a paper from NeurIPS 2020 titled 'Trajformer: Traject
+rvation does not apply to all fields of ML.
+     
+ [D] Calling out the authors of 'Trajformer' paper for claiming they published code but never doing it , 1636600691.0
+I read a paper from NeurIPS 2020 titled 'Trajformer: Traject
 ory Prediction with Local Self-Attentive Contexts for Autono
 mous Driving'. I found it interesting and the authors claim 
 multiple times in the paper that 'we release our code at '[h
@@ -2374,8 +2422,10 @@ eve they only will if we call them out. I waited long enough
 phase and then disappear. An undergrad in my lab asked why s
 he should take time to clean up the code and document it bef
 ore release while others just move on to the next interestin
-g project and I don't have an answer. "	"https://www.reddit.com/r/MachineLearning/comments/qrbkc7/d_calling_out_the_authors_of_trajformer_paper_for/"	"90"	"1636600691.0"	"551"	"qrbkc7"
-25	"[D] NeurIPS 2019 Bengio Schmidhuber Meta-Learning Fiasco"	"The recent reddit post [Yoshua Bengio talks about what's nex
+g project and I don't have an answer. 
+     
+ [D] NeurIPS 2019 Bengio Schmidhuber Meta-Learning Fiasco , 1576233717.0
+The recent reddit post [Yoshua Bengio talks about what's nex
 t for deep learning](https://www.reddit.com/r/MachineLearnin
 g/comments/e92dp5/d_yoshua_bengio_talks_about_whats_next_for
 _deep/) links to an interview with Bengio. User u/panties_in
@@ -2445,9 +2495,13 @@ results of Sepp [VAN1]. Even after a common publication [VAN
 
 So Bengio republished at least 3 importa
 nt ideas from Schmidhuber's lab without giving credit: meta-
-learning, vanishing gradients, GANs. What's going on?"	"https://www.reddit.com/r/MachineLearning/comments/ea2gap/d_neurips_2019_bengio_schmidhuber_metalearning/"	"170"	"1576233717.0"	"549"	"ea2gap"
-26	"[R] Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments"	""	"https://i.redd.it/eilmxki09bd61.png"	"3"	"1611507295.0"	"511"	"l432gk"
-27	"[R] A List of Best Papers from Top AI Conferences in 2020"	"Sharing a list of award-winning papers from this year's top 
+learning, vanishing gradients, GANs. What's going on?
+     
+ [R] Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments , 1611507295.0
+
+     
+ [R] A List of Best Papers from Top AI Conferences in 2020 , 1609361402.0
+Sharing a list of award-winning papers from this year's top 
 conferences for anyone interested in catching up on the late
 st machine learning research before the end of the year :)
 
@@ -2588,8 +2642,10 @@ ent Curve for Column Subset Selection and the Nyström Method
 Here is a co
 mprehensive collection of [research talks from all major AI 
 conferences](https://crossminds.ai/c/conference/) this year 
-if you'd like to explore further."	"https://www.reddit.com/r/MachineLearning/comments/knai5q/r_a_list_of_best_papers_from_top_ai_conferences/"	"48"	"1609361402.0"	"508"	"knai5q"
-28	"[D] On the public advertising of NeurIPS submissions on Twitter"	"The deadline for submitting papers to the NeurIPS 2020 confe
+if you'd like to explore further.
+     
+ [D] On the public advertising of NeurIPS submissions on Twitter , 1592567690.0
+The deadline for submitting papers to the NeurIPS 2020 confe
 rence was two weeks ago. Since then, almost everyday I come 
 across long Twitter threads from ML researchers that publicl
 y advertise their work (obviously NeurIPS submissions, from 
@@ -2620,8 +2676,10 @@ tably among top researchers reacting to the posts. Would you
  also say that this is fine (as, anyway, we cannot really as
 sume that a review is double-blind when arXiv public preprin
 ts with authors names and affiliations are allowed)? Or do y
-ou agree that this can be a problem?"	"https://www.reddit.com/r/MachineLearning/comments/hbzd5o/d_on_the_public_advertising_of_neurips/"	"127"	"1592567690.0"	"470"	"hbzd5o"
-29	"[R] NeurIPS 2020 Spotlight, AdaBelief optimizer, trains fast as Adam, generalize well as SGD, stable to train GAN."	"**Abstract**
+ou agree that this can be a problem?
+     
+ [R] NeurIPS 2020 Spotlight, AdaBelief optimizer, trains fast as Adam, generalize well as SGD, stable to train GAN. , 1602815151.0
+**Abstract**
 
 Optimization is at the core of modern deep lea
 rning. We propose AdaBelief optimizer to simultaneously achi
@@ -2704,9 +2762,13 @@ dd.it/bj3mc8r2adt51.png?width=1420&format=png&auto=webp&s=bb
 200B;
 
 https://reddit.com/link/jc1fp2/video/3oy0cbr4adt51/pl
-ayer"	"https://www.reddit.com/r/MachineLearning/comments/jc1fp2/r_neurips_2020_spotlight_adabelief_optimizer/"	"140"	"1602815151.0"	"454"	"jc1fp2"
-30	"Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments"	""	"https://i.redd.it/5a6us2cs5pf61.png"	"1"	"1612547405.0"	"71"	"ldcrq0"
-31	"NeurIPS Conference talks are available online"	"NeurIPS conference is flagship Artificial Intelligence confe
+ayer
+     
+ Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments , 1612547405.0
+
+     
+ NeurIPS Conference talks are available online , 1575971021.0
+NeurIPS conference is flagship Artificial Intelligence confe
 rence currently being held at Canada. 
 
 If anyone couldn't m
@@ -2718,11 +2780,19 @@ T Suzana Ilić
 #machinelearning #deeplearning #AI #neurips 
 #neurips2019
 
-https://slideslive.com/neurips#!feed=latest"	"https://www.reddit.com/r/deeplearning/comments/e8olbt/neurips_conference_talks_are_available_online/"	"0"	"1575971021.0"	"52"	"e8olbt"
-32	"'Math is forever.' - Interview with NeurIPS 2018 Best Paper team"	""	"https://medium.com/syncedreview/neurips-2018-best-paper-team-math-is-forever-55d9b6ead977"	"0"	"1545424642.0"	"46"	"a8e4vf"
-33	"High resolution video visualization of mode connectivity using real data | NeurIPS 2018, ARXIV:1802.10026"	""	"https://v.redd.it/ogaocpecf0141"	"3"	"1574765814.0"	"39"	"e1wew5"
-34	"Yoshua Bengio: From System 1 Deep Learning to System 2 Deep Learning (NeurIPS 2019)"	""	"https://www.youtube.com/watch?v=T3sxeTgT4qc"	"2"	"1577077842.0"	"38"	"eefze8"
-35	"How does publishing in the Deep Learning world works, with respect to Journals and ArXive?"	"Let's say I implemented a new Deep Learning model that pushe
+https://slideslive.com/neurips#!feed=latest
+     
+ 'Math is forever.' - Interview with NeurIPS 2018 Best Paper team , 1545424642.0
+
+     
+ High resolution video visualization of mode connectivity using real data | NeurIPS 2018, ARXIV:1802.10026 , 1574765814.0
+
+     
+ Yoshua Bengio: From System 1 Deep Learning to System 2 Deep Learning (NeurIPS 2019) , 1577077842.0
+
+     
+ How does publishing in the Deep Learning world works, with respect to Journals and ArXive? , 1589892029.0
+Let's say I implemented a new Deep Learning model that pushe
 d some SOTA a little bit further, and I wrote a new paper ab
 out for publication.
 
@@ -2755,8 +2825,10 @@ le?
 How do the big stars of Deep Learning researc
 h do when they have some  hot new paper ready for publicatio
 n? And what publications are the most  valued in the profess
-ional and the academic world?"	"https://www.reddit.com/r/deeplearning/comments/gmns0l/how_does_publishing_in_the_deep_learning_world/"	"15"	"1589892029.0"	"38"	"gmns0l"
-36	"Gradient boosting research papers from the last 25 years"	"&#x200B;
+ional and the academic world?
+     
+ Gradient boosting research papers from the last 25 years , 1558855939.0
+&#x200B;
 
 [https://github.com/benedekrozemberczki/awesome-gr
 adient-boosting-papers](https://github.com/benedekrozembercz
@@ -2800,9 +2872,13 @@ Artificial intelligence:
 1. AAAI
 2. IJCAI
 3. UAI
-4. AISTATS"	"https://www.reddit.com/r/deeplearning/comments/bt57e3/gradient_boosting_research_papers_from_the_last/"	"2"	"1558855939.0"	"35"	"bt57e3"
-37	"NeurIPS 2019 Outstanding Machine Learning Paper Awards"	""	"https://rubikscode.net/2019/12/30/neurips-2019-outstanding-machine-learning-paper-awards/"	"0"	"1577695041.0"	"35"	"ehjj1x"
-38	"Google, Stanford, & MIT Top NeurIPS 2020 Accepted Papers List"	"After months marred by controversies over poorly-explained [
+4. AISTATS
+     
+ NeurIPS 2019 Outstanding Machine Learning Paper Awards , 1577695041.0
+
+     
+ Google, Stanford, & MIT Top NeurIPS 2020 Accepted Papers List , 1602181407.0
+After months marred by controversies over poorly-explained [
 desk-rejects](https://syncedreview.com/2020/07/16/poorly-exp
 lained-neurips-2020-desk-rejects-peeve-ml-researchers/) and 
 other problematic aspects of its [review process](https://sy
@@ -2829,8 +2905,10 @@ lightly lower than last year’s 21 percent.**
 Here is a quic
 k read: [Google, Stanford, & MIT Top NeurIPS 2020 Accepted P
 apers List](https://syncedreview.com/2020/10/08/google-stanf
-ord-mit-top-neurips-2020-accepted-papers-list/)"	"https://www.reddit.com/r/deeplearning/comments/j7ig7y/google_stanford_mit_top_neurips_2020_accepted/"	"6"	"1602181407.0"	"34"	"j7ig7y"
-39	"[Research] Awesome Paper List of Vision Transformer & Attention"	" 
+ord-mit-top-neurips-2020-accepted-papers-list/)
+     
+ [Research] Awesome Paper List of Vision Transformer & Attention , 1653054791.0
+ 
 
 Hello all,
 
@@ -2856,9 +2934,13 @@ If you find this repo useful, I would be appr
 eciative if you can STAR it :)
 
 Any comments and contributio
-ns in any form are welcome!!"	"https://www.reddit.com/r/deeplearning/comments/utwm3a/research_awesome_paper_list_of_vision_transformer/"	"6"	"1653054791.0"	"25"	"utwm3a"
-40	"Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments"	""	"https://i.redd.it/5a6us2cs5pf61.png"	"1"	"1612547405.0"	"67"	"ldcrq0"
-41	"NeurIPS Conference talks are available online"	"NeurIPS conference is flagship Artificial Intelligence confe
+ns in any form are welcome!!
+     
+ Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments , 1612547405.0
+
+     
+ NeurIPS Conference talks are available online , 1575971021.0
+NeurIPS conference is flagship Artificial Intelligence confe
 rence currently being held at Canada. 
 
 If anyone couldn't m
@@ -2870,11 +2952,19 @@ T Suzana Ilić
 #machinelearning #deeplearning #AI #neurips 
 #neurips2019
 
-https://slideslive.com/neurips#!feed=latest"	"https://www.reddit.com/r/deeplearning/comments/e8olbt/neurips_conference_talks_are_available_online/"	"0"	"1575971021.0"	"55"	"e8olbt"
-42	"'Math is forever.' - Interview with NeurIPS 2018 Best Paper team"	""	"https://medium.com/syncedreview/neurips-2018-best-paper-team-math-is-forever-55d9b6ead977"	"0"	"1545424642.0"	"46"	"a8e4vf"
-43	"High resolution video visualization of mode connectivity using real data | NeurIPS 2018, ARXIV:1802.10026"	""	"https://v.redd.it/ogaocpecf0141"	"3"	"1574765814.0"	"44"	"e1wew5"
-44	"Yoshua Bengio: From System 1 Deep Learning to System 2 Deep Learning (NeurIPS 2019)"	""	"https://www.youtube.com/watch?v=T3sxeTgT4qc"	"2"	"1577077842.0"	"38"	"eefze8"
-45	"How does publishing in the Deep Learning world works, with respect to Journals and ArXive?"	"Let's say I implemented a new Deep Learning model that pushe
+https://slideslive.com/neurips#!feed=latest
+     
+ 'Math is forever.' - Interview with NeurIPS 2018 Best Paper team , 1545424642.0
+
+     
+ High resolution video visualization of mode connectivity using real data | NeurIPS 2018, ARXIV:1802.10026 , 1574765814.0
+
+     
+ Yoshua Bengio: From System 1 Deep Learning to System 2 Deep Learning (NeurIPS 2019) , 1577077842.0
+
+     
+ How does publishing in the Deep Learning world works, with respect to Journals and ArXive? , 1589892029.0
+Let's say I implemented a new Deep Learning model that pushe
 d some SOTA a little bit further, and I wrote a new paper ab
 out for publication.
 
@@ -2907,8 +2997,10 @@ le?
 How do the big stars of Deep Learning researc
 h do when they have some  hot new paper ready for publicatio
 n? And what publications are the most  valued in the profess
-ional and the academic world?"	"https://www.reddit.com/r/deeplearning/comments/gmns0l/how_does_publishing_in_the_deep_learning_world/"	"15"	"1589892029.0"	"35"	"gmns0l"
-46	"Gradient boosting research papers from the last 25 years"	"&#x200B;
+ional and the academic world?
+     
+ Gradient boosting research papers from the last 25 years , 1558855939.0
+&#x200B;
 
 [https://github.com/benedekrozemberczki/awesome-gr
 adient-boosting-papers](https://github.com/benedekrozembercz
@@ -2952,9 +3044,13 @@ Artificial intelligence:
 1. AAAI
 2. IJCAI
 3. UAI
-4. AISTATS"	"https://www.reddit.com/r/deeplearning/comments/bt57e3/gradient_boosting_research_papers_from_the_last/"	"2"	"1558855939.0"	"33"	"bt57e3"
-47	"NeurIPS 2019 Outstanding Machine Learning Paper Awards"	""	"https://rubikscode.net/2019/12/30/neurips-2019-outstanding-machine-learning-paper-awards/"	"0"	"1577695041.0"	"36"	"ehjj1x"
-48	"Google, Stanford, & MIT Top NeurIPS 2020 Accepted Papers List"	"After months marred by controversies over poorly-explained [
+4. AISTATS
+     
+ NeurIPS 2019 Outstanding Machine Learning Paper Awards , 1577695041.0
+
+     
+ Google, Stanford, & MIT Top NeurIPS 2020 Accepted Papers List , 1602181407.0
+After months marred by controversies over poorly-explained [
 desk-rejects](https://syncedreview.com/2020/07/16/poorly-exp
 lained-neurips-2020-desk-rejects-peeve-ml-researchers/) and 
 other problematic aspects of its [review process](https://sy
@@ -2981,8 +3077,10 @@ lightly lower than last year’s 21 percent.**
 Here is a quic
 k read: [Google, Stanford, & MIT Top NeurIPS 2020 Accepted P
 apers List](https://syncedreview.com/2020/10/08/google-stanf
-ord-mit-top-neurips-2020-accepted-papers-list/)"	"https://www.reddit.com/r/deeplearning/comments/j7ig7y/google_stanford_mit_top_neurips_2020_accepted/"	"6"	"1602181407.0"	"32"	"j7ig7y"
-49	"[Research] Awesome Paper List of Vision Transformer & Attention"	" 
+ord-mit-top-neurips-2020-accepted-papers-list/)
+     
+ [Research] Awesome Paper List of Vision Transformer & Attention , 1653054791.0
+ 
 
 Hello all,
 
@@ -3008,9 +3106,13 @@ If you find this repo useful, I would be appr
 eciative if you can STAR it :)
 
 Any comments and contributio
-ns in any form are welcome!!"	"https://www.reddit.com/r/deeplearning/comments/utwm3a/research_awesome_paper_list_of_vision_transformer/"	"6"	"1653054791.0"	"24"	"utwm3a"
-50	"Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments"	""	"https://i.redd.it/5a6us2cs5pf61.png"	"1"	"1612547405.0"	"67"	"ldcrq0"
-51	"NeurIPS Conference talks are available online"	"NeurIPS conference is flagship Artificial Intelligence confe
+ns in any form are welcome!!
+     
+ Visual Perception Models for Multi-Modal Video Understanding - Dr. Gedas Bertasius (NeurIPS 2020) - Link to free zoom lecture in comments , 1612547405.0
+
+     
+ NeurIPS Conference talks are available online , 1575971021.0
+NeurIPS conference is flagship Artificial Intelligence confe
 rence currently being held at Canada. 
 
 If anyone couldn't m
@@ -3022,11 +3124,19 @@ T Suzana Ilić
 #machinelearning #deeplearning #AI #neurips 
 #neurips2019
 
-https://slideslive.com/neurips#!feed=latest"	"https://www.reddit.com/r/deeplearning/comments/e8olbt/neurips_conference_talks_are_available_online/"	"0"	"1575971021.0"	"48"	"e8olbt"
-52	"'Math is forever.' - Interview with NeurIPS 2018 Best Paper team"	""	"https://medium.com/syncedreview/neurips-2018-best-paper-team-math-is-forever-55d9b6ead977"	"0"	"1545424642.0"	"47"	"a8e4vf"
-53	"High resolution video visualization of mode connectivity using real data | NeurIPS 2018, ARXIV:1802.10026"	""	"https://v.redd.it/ogaocpecf0141"	"3"	"1574765814.0"	"43"	"e1wew5"
-54	"Yoshua Bengio: From System 1 Deep Learning to System 2 Deep Learning (NeurIPS 2019)"	""	"https://www.youtube.com/watch?v=T3sxeTgT4qc"	"2"	"1577077842.0"	"39"	"eefze8"
-55	"How does publishing in the Deep Learning world works, with respect to Journals and ArXive?"	"Let's say I implemented a new Deep Learning model that pushe
+https://slideslive.com/neurips#!feed=latest
+     
+ 'Math is forever.' - Interview with NeurIPS 2018 Best Paper team , 1545424642.0
+
+     
+ High resolution video visualization of mode connectivity using real data | NeurIPS 2018, ARXIV:1802.10026 , 1574765814.0
+
+     
+ Yoshua Bengio: From System 1 Deep Learning to System 2 Deep Learning (NeurIPS 2019) , 1577077842.0
+
+     
+ How does publishing in the Deep Learning world works, with respect to Journals and ArXive? , 1589892029.0
+Let's say I implemented a new Deep Learning model that pushe
 d some SOTA a little bit further, and I wrote a new paper ab
 out for publication.
 
@@ -3059,8 +3169,10 @@ le?
 How do the big stars of Deep Learning researc
 h do when they have some  hot new paper ready for publicatio
 n? And what publications are the most  valued in the profess
-ional and the academic world?"	"https://www.reddit.com/r/deeplearning/comments/gmns0l/how_does_publishing_in_the_deep_learning_world/"	"15"	"1589892029.0"	"35"	"gmns0l"
-56	"Gradient boosting research papers from the last 25 years"	"&#x200B;
+ional and the academic world?
+     
+ Gradient boosting research papers from the last 25 years , 1558855939.0
+&#x200B;
 
 [https://github.com/benedekrozemberczki/awesome-gr
 adient-boosting-papers](https://github.com/benedekrozembercz
@@ -3104,9 +3216,13 @@ Artificial intelligence:
 1. AAAI
 2. IJCAI
 3. UAI
-4. AISTATS"	"https://www.reddit.com/r/deeplearning/comments/bt57e3/gradient_boosting_research_papers_from_the_last/"	"2"	"1558855939.0"	"35"	"bt57e3"
-57	"NeurIPS 2019 Outstanding Machine Learning Paper Awards"	""	"https://rubikscode.net/2019/12/30/neurips-2019-outstanding-machine-learning-paper-awards/"	"0"	"1577695041.0"	"35"	"ehjj1x"
-58	"Google, Stanford, & MIT Top NeurIPS 2020 Accepted Papers List"	"After months marred by controversies over poorly-explained [
+4. AISTATS
+     
+ NeurIPS 2019 Outstanding Machine Learning Paper Awards , 1577695041.0
+
+     
+ Google, Stanford, & MIT Top NeurIPS 2020 Accepted Papers List , 1602181407.0
+After months marred by controversies over poorly-explained [
 desk-rejects](https://syncedreview.com/2020/07/16/poorly-exp
 lained-neurips-2020-desk-rejects-peeve-ml-researchers/) and 
 other problematic aspects of its [review process](https://sy
@@ -3133,8 +3249,10 @@ lightly lower than last year’s 21 percent.**
 Here is a quic
 k read: [Google, Stanford, & MIT Top NeurIPS 2020 Accepted P
 apers List](https://syncedreview.com/2020/10/08/google-stanf
-ord-mit-top-neurips-2020-accepted-papers-list/)"	"https://www.reddit.com/r/deeplearning/comments/j7ig7y/google_stanford_mit_top_neurips_2020_accepted/"	"6"	"1602181407.0"	"32"	"j7ig7y"
-59	"[Research] Awesome Paper List of Vision Transformer & Attention"	" 
+ord-mit-top-neurips-2020-accepted-papers-list/)
+     
+ [Research] Awesome Paper List of Vision Transformer & Attention , 1653054791.0
+ 
 
 Hello all,
 
@@ -3160,4 +3278,5 @@ If you find this repo useful, I would be appr
 eciative if you can STAR it :)
 
 Any comments and contributio
-ns in any form are welcome!!"	"https://www.reddit.com/r/deeplearning/comments/utwm3a/research_awesome_paper_list_of_vision_transformer/"	"6"	"1653054791.0"	"25"	"utwm3a"
+ns in any form are welcome!!
+     
