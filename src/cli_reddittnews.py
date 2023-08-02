@@ -83,8 +83,9 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
 
     cols= ['title', 'body', 'url', 'comms_num', 'dt', 'score', 'id' ] 
 
-    pd_to_file(df[cols], dirout + f"/reddit_{ymd}.tsv", 
+    pd_to_csv(df[cols], dirout + f"/reddit_{ymd}.csv", 
                sep='\t', quoting=csv.QUOTE_NONNUMERIC, quotechar='"')
+    os.rename(dirout + f"/reddit_{ymd}.csv", dirout + f"/reddit_{ymd}.tsv")           
     return
 
 
