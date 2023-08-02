@@ -39,7 +39,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
         log(client_id, client_secret, user_agent)
 
     if subreddits is None :
-        subreddits = ['MachineLearning','OpenAI','ChatGPT','OpenAIDev','learnmachinelearning']
+        subreddits = ['MachineLearning','DeepLearning']
         
     if isinstance(query, str):
         query = query.split(",")
