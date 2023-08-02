@@ -68,7 +68,7 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
 
             dfres = pd.DataFrame(ddict)
             log( f'{item}: N article: ', len(dfres))
-            df = pd.concat([dfall,dfres], axis=0,ignore_index=True)
+            df = pd.concat([df,dfres], axis=0,ignore_index=True)
 
 
     for ci in df.columns: 
