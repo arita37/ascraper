@@ -21,7 +21,7 @@ python cli_redditnews.py run --query 'icml 2023, neurips 2023'  --dirout ztnp/re
 
 """
 import fire, os, praw, pandas as pd, csv
-from utilmy import (date_now, pd_to_file, os_makedirs, log)
+from utilmy import (date_now, pd_to_file, os_makedirs, log, to_int )
 
 
 def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limit=50, reddit_sort='new', verbose=1, tag=""):
@@ -104,6 +104,8 @@ def pd_to_markdown(df, dirout):
 
     sall = ""
     for index, x in df.iterrows():
+
+        dt = date_now(to_int(dt), fmt='%Y-%m-%d-%H%M')
         ss = f""" 
 {x['sub']} -  [ {x['title'][:100]} ]({x['url']}) , {x['dt']}
 ```

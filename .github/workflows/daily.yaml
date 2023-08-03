@@ -28,7 +28,7 @@ concurrency:
   
 jobs:
   run_script:
-    name: Run Python Script
+    name: daily_reddit_news
     runs-on: ubuntu-latest
 
     steps:
