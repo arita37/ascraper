@@ -105,9 +105,9 @@ def pd_to_markdown(df, dirout):
     sall = ""
     for index, x in df.iterrows():
 
-        dt = date_now(to_int(dt), fmt='%Y-%m-%d-%H%M')
+        dt = date_now(to_int(x['dt']), fmt='%Y-%m-%d-%H%M')
         ss = f""" 
-{x['sub']} -  [ {x['title'][:100]} ]({x['url']}) , {x['dt']}
+{x['sub']} -  [ {x['title'][:100]} ]({x['url']}) , {dt}
 ```
 {x['body']}
 ```
