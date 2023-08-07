@@ -79,7 +79,9 @@ def run(query:str='icml 2023 ', dirout:str="ztmp/", subreddits=None, reddit_limi
         df[ci] = df[ci].apply(lambda x : str(x).replace('"', "'" ))
 
 
-    df = df.drop_duplicates(['url'])    
+    df = df.drop_duplicates(['url'])  
+    df = df.drop_duplicates(['body'])  
+
     for ci in  ['body']:
        df[ ci ] = df[ci].apply(lambda x : reformat(x) )     
 
