@@ -1,5 +1,5 @@
  
-all -  [ [R] Looking for Perspectives: Pursuing a PhD in AI vs Continuing in Industry ](https://www.reddit.com/r/MachineLearning/comments/15jr6be/r_looking_for_perspectives_pursuing_a_phd_in_ai/) , 2023-08-07-0926
+all -  [ [R] Looking for Perspectives: Pursuing a PhD in AI vs Continuing in Industry ](https://www.reddit.com/r/MachineLearning/comments/15jr6be/r_looking_for_perspectives_pursuing_a_phd_in_ai/) , 2023-08-07-0939
 ```
 Greetings fellow researchers,
 
@@ -30,7 +30,7 @@ ts!
 
      
  
-all -  [ [D] How does one withdraw a paper from Neurips? ](https://www.reddit.com/r/MachineLearning/comments/15jd1wu/d_how_does_one_withdraw_a_paper_from_neurips/) , 2023-08-07-0926
+all -  [ [D] How does one withdraw a paper from Neurips? ](https://www.reddit.com/r/MachineLearning/comments/15jd1wu/d_how_does_one_withdraw_a_paper_from_neurips/) , 2023-08-07-0939
 ```
 First time submitter here and was unable to find a similar post (and thought the community might benefit from this in th
 e future!). How do I withdraw from Neurips? All the instructions I found are from 2017, 2018. Do I need to contact someo
@@ -40,7 +40,7 @@ ne or do I just need to 'Add Withdrawal' on OpenReview.
 
      
  
-all -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 2023-08-07-0926
+all -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 2023-08-07-0939
 ```
 NeurIPS 2023 paper reviews are visible on OpenReview.  See this [tweet](https://twitter.com/francoisfleuret/status/16864
 64712534638592). I thought to create a discussion thread for us to discuss any issue/complain/celebration or anything el
@@ -54,7 +54,7 @@ is still valuable no matter what the score is.
 
      
  
-all -  [ What is the Best Way to Learn Artificial Intelligence ](https://www.reddit.com/r/itonlinetraining/comments/15f7g4p/what_is_the_best_way_to_learn_artificial/) , 2023-08-07-0926
+all -  [ What is the Best Way to Learn Artificial Intelligence ](https://www.reddit.com/r/itonlinetraining/comments/15f7g4p/what_is_the_best_way_to_learn_artificial/) , 2023-08-07-0939
 ```
 Learning Artificial Intelligence (AI) can be a moving and worthwhile journey. Here are some steps to help you get starte
 d and make the most out of your learning experience:
@@ -139,7 +139,7 @@ velop. Most importantly, stay curious and passionate about the field, and your l
 
      
  
-all -  [ GenPlan '23: NeurIPS 2023 Workshop on Generalization in Planning - Call for Papers ](https://groups.google.com/g/ml-news/c/7i5YLVPi2kA) , 2023-08-07-0926
+all -  [ GenPlan '23: NeurIPS 2023 Workshop on Generalization in Planning - Call for Papers ](https://groups.google.com/g/ml-news/c/7i5YLVPi2kA) , 2023-08-07-0939
 ```
 
 ```
@@ -147,7 +147,7 @@ all -  [ GenPlan '23: NeurIPS 2023 Workshop on Generalization in Planning - Call
 
      
  
-all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/learnmachinelearning/comments/15doz7s/reproducing_paper_results_in_machine_learning/) , 2023-08-07-0926
+all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/learnmachinelearning/comments/15doz7s/reproducing_paper_results_in_machine_learning/) , 2023-08-07-0939
 ```
 Hi there, 
 
@@ -173,7 +173,7 @@ Hope to hear from you :).
 
      
  
-all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/DTU/comments/15dooas/reproducing_paper_results_in_machine_learning/) , 2023-08-07-0926
+all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/DTU/comments/15dooas/reproducing_paper_results_in_machine_learning/) , 2023-08-07-0939
 ```
 Hi there,
 
@@ -219,15 +219,7 @@ Hope to hear from you :).
 
      
  
-all -  [ (30 nov. 2022) > 20x speed up, convergence in 1-4 steps. Will it comes out soon? ](https://i.redd.it/kbvtctmxbzeb1.png) , 2023-08-07-0926
-```
-
-```
----
-
-     
- 
-all -  [ The domain exploreAI.xyz is for sale. ](https://www.reddit.com/r/Domaininventory/comments/15cu75g/the_domain_exploreaixyz_is_for_sale/) , 2023-08-07-0926
+all -  [ The domain exploreAI.xyz is for sale. ](https://www.reddit.com/r/Domaininventory/comments/15cu75g/the_domain_exploreaixyz_is_for_sale/) , 2023-08-07-0939
 ```
 # Potential advantages of the website ExploreAI.xyz. Could offer based on the name and context:
 
@@ -321,15 +313,7 @@ ke your time, be patient with yourself, and have fun while learning!
 
      
  
-all -  [ [CfP] 'Deep Generative Models for Health' Workshop DGM4H@NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/dd34uunwDJs) , 2023-08-07-0926
-```
-
-```
----
-
-     
- 
-all -  [ A major AI player wants fresh grad to have minimum 8 publications! ](https://i.redd.it/o9zz9hmtc9eb1.jpg) , 2023-08-07-0926
+all -  [ A major AI player wants fresh grad to have minimum 8 publications! ](https://i.redd.it/o9zz9hmtc9eb1.jpg) , 2023-08-07-0939
 ```
 While pedigree and flair for research are crucial to such roles, a hard requirement on number of publications is pushing
  it. What’s next- fresh grad with 8 years of work experience?
@@ -338,23 +322,7 @@ While pedigree and flair for research are crucial to such roles, a hard requirem
 
      
  
-all -  [ [NeurIPS2023] Call for papers: Intrinsically Motivated Open-ended Learning workshop (IMOL@NeurIPS) ](https://groups.google.com/g/ml-news/c/f3tTwZJ3-ZM) , 2023-08-07-0926
-```
-
-```
----
-
-     
- 
-all -  [ [CFP] NeurIPS workshop on Causal Representation learning - deadline Sept 29 ](https://groups.google.com/g/ml-news/c/VSpOf7cMVIk) , 2023-08-07-0926
-```
-
-```
----
-
-     
- 
-all -  [ [D] Is Conference Competition Track like NeurIPS Competition a Glorified Kaggle Competition? ](https://www.reddit.com/r/MachineLearning/comments/1544si8/d_is_conference_competition_track_like_neurips/) , 2023-08-07-0926
+all -  [ [D] Is Conference Competition Track like NeurIPS Competition a Glorified Kaggle Competition? ](https://www.reddit.com/r/MachineLearning/comments/1544si8/d_is_conference_competition_track_like_neurips/) , 2023-08-07-0939
 ```
 Is it worth the time to pour time and effort into NeurIPS's annual competitions? Winners got to present at NIPS workshop
 s.
@@ -372,7 +340,7 @@ Any help is appreciated. Thank you strangers!
 
      
  
-all -  [ What are NeurIPS Competitions ](https://www.reddit.com/r/learnmachinelearning/comments/153mnu6/what_are_neurips_competitions/) , 2023-08-07-0926
+all -  [ What are NeurIPS Competitions ](https://www.reddit.com/r/learnmachinelearning/comments/153mnu6/what_are_neurips_competitions/) , 2023-08-07-0939
 ```
 As titled.
 
@@ -382,7 +350,7 @@ Does anyone what are they?
 
      
  
-all -  [ [Research] Using official implementations vs highly popular unofficial implementation for research ](https://www.reddit.com/r/MachineLearning/comments/152qb4m/research_using_official_implementations_vs_highly/) , 2023-08-07-0926
+all -  [ [Research] Using official implementations vs highly popular unofficial implementation for research ](https://www.reddit.com/r/MachineLearning/comments/152qb4m/research_using_official_implementations_vs_highly/) , 2023-08-07-0939
 ```
 So for the past six months I have been working on a domain adaptation research problem. I wanted to inspect/understand t
 he inherent capability of SSL methods to extract domain invariant features. For this purpose I have been conducting diff
@@ -402,7 +370,7 @@ d be greatly appreciated. Thanks.
 
      
  
-all -  [ [D] NeurIPS 2023 reviews release time? ](https://www.reddit.com/r/MachineLearning/comments/14y0apq/d_neurips_2023_reviews_release_time/) , 2023-08-07-0926
+all -  [ [D] NeurIPS 2023 reviews release time? ](https://www.reddit.com/r/MachineLearning/comments/14y0apq/d_neurips_2023_reviews_release_time/) , 2023-08-07-0939
 ```
 Hey guys, I was wondering if y’all know when NeurIPS reviews for this year would be released? I know the response period
  starts on August 4, but do we get to see reviews before? Are they all released at once, or gradually as reviewers finis
@@ -412,7 +380,7 @@ h them? Thanks!
 
      
  
-all -  [ Existential Risk From AI > 10%, Change My Mind ](https://youtu.be/MhqU05yVXPU) , 2023-08-07-0926
+all -  [ Existential Risk From AI > 10%, Change My Mind ](https://youtu.be/MhqU05yVXPU) , 2023-08-07-0939
 ```
 Compilation of interviews with ML researchers about whether existential risk from AI is higher than 10% recorded at Neur
 IPS in 2022.
@@ -421,7 +389,7 @@ IPS in 2022.
 
      
  
-all -  [ [D] Come check out /r/LearningMachines, a subreddit focused on basic and applied machine learning re ](https://www.reddit.com/r/MachineLearning/comments/14u8n9h/d_come_check_out_rlearningmachines_a_subreddit/) , 2023-08-07-0926
+all -  [ [D] Come check out /r/LearningMachines, a subreddit focused on basic and applied machine learning re ](https://www.reddit.com/r/MachineLearning/comments/14u8n9h/d_come_check_out_rlearningmachines_a_subreddit/) , 2023-08-07-0939
 ```
 Hey, all. I just created a new subreddit, /r/LearningMachines. The goal of the subreddit is to be entirely research-focu
 sed. With that being said, I'm hoping the research discussed in /r/LearningMachines will be broader than just papers sub
@@ -448,7 +416,7 @@ hs to the subreddit to get the community going.
 
      
  
-all -  [ Welcome to /r/LearningMachines! ](https://www.reddit.com/r/LearningMachines/comments/14u8gsa/welcome_to_rlearningmachines/) , 2023-08-07-0926
+all -  [ Welcome to /r/LearningMachines! ](https://www.reddit.com/r/LearningMachines/comments/14u8gsa/welcome_to_rlearningmachines/) , 2023-08-07-0939
 ```
 Welcome to /r/LearningMachines! The goal for this subreddit is to be entirely research-focused. With that being said, I'
 m hoping the research discussed here will be broader than just papers submitted to ICML/NeurIPS/ICLR/CVPR. With that bei
@@ -477,7 +445,7 @@ Posts tagged [Throwback Discussion] are five years or older at the time they wer
 
      
  
-all -  [ Do research publications help at all for getting SWE positions? ](https://www.reddit.com/r/cscareerquestions/comments/14thnim/do_research_publications_help_at_all_for_getting/) , 2023-08-07-0926
+all -  [ Do research publications help at all for getting SWE positions? ](https://www.reddit.com/r/cscareerquestions/comments/14thnim/do_research_publications_help_at_all_for_getting/) , 2023-08-07-0939
 ```
 Hey guys. I am a rising senior starting to apply for jobs for after I graduate next spring. My main goal is to get a PhD
 , but I am applying to SWE positions as a backup in case that doesn't go well (my field is extremely competitive).
@@ -501,7 +469,7 @@ Thanks for the help!
 
      
  
-all -  [ Target School for CS ](https://www.reddit.com/r/gradadmissions/comments/14syt5m/target_school_for_cs/) , 2023-08-07-0926
+all -  [ Target School for CS ](https://www.reddit.com/r/gradadmissions/comments/14syt5m/target_school_for_cs/) , 2023-08-07-0939
 ```
 Hi Everyone, I am Ahmad from Pakistan. I want some help for you in choosing some universities for me.
 
