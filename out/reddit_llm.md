@@ -1,495 +1,1250 @@
  
-all -  [ Are there any tools to build bespoke LLM apps using customized datasets? ](https://www.reddit.com/r/artificial/comments/15gme3k/are_there_any_tools_to_build_bespoke_llm_apps/) , 1691016033.0
+all -  [ [P] Rust meets Llama2: OpenAI compatible API written in Rust ](https://www.reddit.com/r/MachineLearning/comments/15k254o/p_rust_meets_llama2_openai_compatible_api_written/) , 2023-08-07-0926
 ```
-I know we can stitch together toolsets like LangChain + Flowise + an app builder (like Bubble, for example). But are the
-re any robust, premade, out-of-the-box solutions?
-```
----
+Hello,
 
-     
- 
-all -  [ Querying Multiple Databases SQLDatabaseChain ](https://www.reddit.com/r/LangChain/comments/15gm0j0/querying_multiple_databases_sqldatabasechain/) , 1691015141.0
-```
-Is there an example where we can configure multiple databases as different tools and query them. It is currently configu
-red where I have multiple chains for each database but every time I query, it will always revert to the first chain. 
-```
----
+I have been working on an OpenAI-compatible API for serving LLAMA-2 models written entirely in Rust. It supports
+ offloading computation to  Nvidia GPU and Metal acceleration for GGML models !
 
-     
- 
-all -  [ SQLDatabaseTools and RetrieveralQA Chain having trouble with understanding Parent Children relations ](https://www.reddit.com/r/LangChain/comments/15gju3c/sqldatabasetools_and_retrieveralqa_chain_having/) , 1691008107.0
-```
-I have a DB that uses a general ledger system, which has a Kimball's Dimensional Modeling Hierarchy for Income/Expenses.
- My Retriever is having trouble recognizing these relationships from the hand written documentation. I would appreciate 
-any tips on how to better contextualize those relationships for more accurate join queries, using like a graph or someth
-ing. Please let me know!
-```
----
+Here is the project  link: [Cria- Local
+ LLAMA2 API](https://github.com/AmineDiro/cria)
 
-     
- 
-all -  [ Web scraper built with LangChain & OpenAI Functions ](/r/LangChain/comments/15g9xnk/web_scraper_built_with_langchain_openai_functions/) , 1690991450.0
-```
+You can use it as an OpenAI replacement (check out the included \`Langc
+hain\` example in the project).
 
-```
----
+This is an ongoing project, I have implemented the \`embeddings\` and \`completions\` r
+outes. The \`chat-completion\` route will be here very soon!
 
-     
- 
-all -  [ Web Scraping with OpenAI Functions and LangChain (Python) ](https://www.reddit.com/r/LLMDevs/comments/15g9yii/web_scraping_with_openai_functions_and_langchain/) , 1690985464.0
-```
-Web scraping requires keeping up to date with layout changes from target website; but with LLMs, you can write your code
- once and forget about it.
-
-Video: [https://www.youtube.com/watch?v=0gPh18vRghQ](https://www.youtube.com/watch?v=0gPh18v
-RghQ)
-
-Code: [https://github.com/trancethehuman/entities-extraction-web-scraper](https://github.com/trancethehuman/entit
-ies-extraction-web-scraper)
-
-If you have any questions, drop them in the comments. I'll try my best to answer.
-```
----
-
-     
- 
-all -  [ Web scraper built with LangChain & OpenAI Functions ](https://www.reddit.com/r/LangChain/comments/15g9xnk/web_scraper_built_with_langchain_openai_functions/) , 1690985408.0
-```
-Web scraping requires keeping up to date with layout changes from target website; but with LLMs, you can write your code
- once and forget about it.
-
-Video: [https://youtu.be/0gPh18vRghQ](https://youtu.be/0gPh18vRghQ)
-
-Code: [https://github.c
-om/trancethehuman/entities-extraction-web-scraper](https://github.com/trancethehuman/entities-extraction-web-scraper)
-
-I
-f you have any questions, drop them in the comments. I'll try my best to answer.
-```
----
-
-     
- 
-all -  [ Extraction/ information retrieval from langchain using extraction chain and pydantic output parser ](https://www.reddit.com/r/LangChain/comments/15g9dgz/extraction_information_retrieval_from_langchain/) , 1690984014.0
-```
-So basically I want to extract/pull data in pdfs in the following way pdf>text>llm> json or any key value pair structure
- tha I convert into CSV later. 
-When I use just the extraction chain with schema, a lot of data/value is mismatched or e
-ntered into wrong fields / keys. This is extremely difficult to clean manually later because of the large amount of data
- , not is it possible to go through each record one by one.
-
-
-When I tried the pydantic output parser, which allows for 
-additional prompt, it still didn't workout very well
-
-Most frustrating part of trying both is that it throws  a Json dec
-ode or element missing error and I have unsuccessfully tried to figure out what might be the reason for that
-
-The extrac
-tion chain works bit better than the pydantic output parser, but I am not aware if there is a way to tweak the prompt or
- include examples in the schema based extraction chain (it takes only 3 arguments , schema, llm, verbose Boolean )
-
-
-Als
-o note that ocr and regex are not options I want to try as of now
-
-Tldr: trouble getting Structured data out of an unstr
-uctured pdf using langchain or llms
-```
----
-
-     
- 
-all -  [ How to include agents and tools with a document querying chatbot? ](https://www.reddit.com/r/LangChain/comments/15g96s6/how_to_include_agents_and_tools_with_a_document/) , 1690983529.0
-```
-Novice here, been trying out document querying on text files for a while. There are agents and tools with LangChain. Can
- I use them with along with document querying? 
-
-I don't know how to explain as am new to LangChain.
-```
----
-
-     
- 
-all -  [ Free courses and guides for learning Generative AI ](https://www.reddit.com/r/ChatGPTPromptGenius/comments/15g949b/free_courses_and_guides_for_learning_generative_ai/) , 1690983346.0
-```
-1. **Generative AI learning path by Google Cloud.** A series of 10 courses on generative AI products and technologies, f
-rom the fundamentals of Large Language Models to how to create and deploy generative AI solutions on Google Cloud \[[*Li
-nk*](https://www.cloudskillsboost.google/paths/118)\].
-2. **Generative AI short courses** **by** **DeepLearning.AI** \- 
-Five short courses on generative AI including **LangChain for LLM Application Development, How Diffusion Models Work** a
-nd more. \[[*Link*](https://www.deeplearning.ai/short-courses/)\].
-3. **LLM Bootcamp:** A series of free lectures by **T
-he full Stack** on building and deploying LLM apps \[[*Link*](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023
-/)\].
-4. **Building AI Products with OpenAI** \- a free course by **CoRise** in collaboration with OpenAI \[[*Link*](htt
-ps://corise.com/course/building-ai-products-with-openai)\].
-5. Free Course by **Activeloop** on **LangChain & Vector Dat
-abases in Productio**n \[[*Link*](https://learn.activeloop.ai/courses/langchain)\].
-6. **Pinecone learning center -** Lo
-ts of free guides as well as complete handbooks on LangChain, vector embeddings etc. by **Pinecone** **\[**[**Link**](ht
-tps://www.pinecone.io/learn/)**\].**
-7. **Build AI Apps with ChatGPT, Dall-E and GPT-4  -** a free course on **Scrimba**
- **\[**[*Link*](https://scrimba.com/learn/buildaiapps)**\].**
-8. **Gartner Experts Answer the Top Generative AI Question
-s for Your Enterprise** \- a report by Gartner \[[*Link*](https://www.gartner.com/en/topics/generative-ai)\]
-9. **GPT be
-st practices:** A guide by **OpenAI** *t*hat shares strategies and tactics for getting better results from GPTs *\[*[*Li
-nk*](https://platform.openai.com/docs/guides/gpt-best-practices)\].
-10. **OpenAI cookbook by OpenAI -** Examples and gui
-des for using the OpenAI API **\[**[*Link*](https://github.com/openai/openai-cookbook/tree/main)**\].**
-11. **Prompt inj
-ection explained**, with video, slides, and a transcript from a webinar organized by LangChain \[[*Link*](https://simonw
-illison.net/2023/May/2/prompt-injection-explained/)\].
-12. A detailed guide to **Prompt Engineering by** **DAIR.AI** *\[
-*[*Link*](https://www.promptingguide.ai/)*\]*
-13. What Are **Transformer Models** and How Do They Work. A tutorial by **
-Cohere AI** \[[*Link*](https://txt.cohere.ai/what-are-transformer-models/)\]
-14. **Learn Prompting:** an open source cou
-rse on prompt engineering\[[Link](https://learnprompting.org/docs/intro)\]
-
-**P.S. These resources are part of the conte
-nt I share through my AI-focused** **newsletter,** [AI Brews.](https://aibrews.com/) \- it's free to join, sent only onc
-e a week with bite-sized news, learning resources and selected tools. Thanks!
-```
----
-
-     
- 
-all -  [ Using PDFs with GPT Models ](https://www.reddit.com/r/deeplearning/comments/15g6i4x/using_pdfs_with_gpt_models/) , 1690976012.0
-```
-Found a blog talking about how we can interact with PDFs in Python by using GPT API & Langchain. It talks about some pre
-tty cool automations you can build involving PDFs - [https://nanonets.com/blog/chat-with-pdfs-using-chatgpt-and-openai-g
-pt-api/](https://nanonets.com/blog/chat-with-pdfs-using-chatgpt-and-openai-gpt-api/)
-```
----
-
-     
- 
-all -  [ Learning Guide Help ](https://www.reddit.com/r/LargeLanguageModels/comments/15g4mqt/learning_guide_help/) , 1690970115.0
-```
-I'm a student and an intern trying to figure out how to work with LLMs. I have a working knowledge of python and back-en
-d web development and I want to learn how to work with LLMs.
-
-At first I tried learning PyTorch, but I found it to be mo
-re like Matlab than actually LLMs. This is what I was looking for:
-
-    '''
-I was looking for a library that included th
-e following functions:
-    importLLM : imports the LLM downloaded from HuggingFace or MetaAI
-    addDataToLLM : imports 
-the data into the LLM Database, as in fine tuning or creating a database that the LLM is familiarised with
-    queryLLM 
-: queries text into the LLM Model
-    '''
-
-Now I'm learning a bit of LangChain using [this tutorial](https://www.youtube
-.com/watch?v=dXxQ0LR-3Hg) but it doesn't teach me how to deploy an LLM.
-
-If you have any recommendations I would love to
- check them out.
-
-Best regards!
-```
----
-
-     
- 
-all -  [ Released all MLOps & LLMOps products & companies mapping -- LLMOps.Space ](https://i.redd.it/whcwysimnnfb1.png) , 1690963933.0
-```
-
-```
----
-
-     
- 
-all -  [ [FOR HIRE] Python Expert Freelancer for Machine Learning and AI Domain Projects ](https://www.reddit.com/r/hiring/comments/15g2qg7/for_hire_python_expert_freelancer_for_machine/) , 1690963748.0
-```
-Location: Remote
-
-Salary: Negotiable based on project scope and complexity
-
-Description:
-
-Hello there,
-
-Are you in need 
-of a skilled and passionate Python expert for your machine learning or AI domain freelancing project? Look no further! I
-'m Shephin Philiip, a dedicated and results-oriented professional with extensive experience in machine learning, deep le
-arning, and data analytics.
-
-With an MSc in Computer Science and a strong academic background from Kannur University, I'
-ve honed my skills and expertise through diverse and impactful projects. One notable project I completed involved develo
-ping an Indian Sign Language Detection system using Convolutional Neural Networks (CNN), showcasing my ability to bridge
- communication gaps for individuals with hearing impairments through cutting-edge computer vision techniques.
-
-I'm well-
-versed in machine learning algorithms, deep learning frameworks, and data analytics tools, including Python, TensorFlow,
- Keras, and SQL. This expertise allows me to efficiently analyze complex datasets, derive meaningful insights, and imple
-ment solutions that drive real-world impact.
+Really interested in your feedback and I would welcome any
+ help :) !
 
 &#x200B;
 
-Recently, I've been actively involved in two exciting projects t
-hat demonstrate my technical prowess. I developed an AI Chatbot Chrome Extension, powered by OpenAI API, providing users
- with real-time conversations and handling a wide range of topics and questions. Additionally, I created the Github-Auto
-mated-Analysis-Mercor, a Python-based tool that utilizes GPT-3 and LangChain to assess the technical complexity of GitHu
-b repositories. These projects reflect my dedication to staying at the forefront of technological advancements and solvi
-ng complex challenges.
-
 &#x200B;
-
-As a Python expert with ML experience in Tensorflow and PyTorch, I'm well-equipped to 
-take on machine learning engineering tasks and deliver high-quality results. Additionally, my skills extend to FullStack
- Development with Django and Flask APIs, enabling me to create robust and scalable applications.
-
-&#x200B;
-
-\*\*Price an
-d Payment Method:\*\*
-
-Regarding the price for my freelance services, I am open to negotiation based on the scope and co
-mplexity of the project. I offer competitive rates and flexible payment terms to accommodate your needs.
-
-&#x200B;
-
-\*\*
-Contact Information:\*\*
-
-Feel free to reach out to me via  messages. I'm eager to discuss further how we can work toget
-her to achieve outstanding results.
-
-&#x200B;
-
-I am excited about the opportunity to collaborate with you on your projec
-t and contribute my expertise to its success. If you're looking for a driven and highly skilled freelancer to join your 
-team, I am confident that my passion for machine learning, deep learning, and data analytics will make me a valuable ass
-et to your project.
-
-&#x200B;
-
-Best regards,
-
-Shephin Philiip
 ```
 ---
 
      
  
-all -  [ List of all MLOps & LLMOps companies -- LLMOps.Space ](https://i.redd.it/d26rgf9fmnfb1.png) , 1690963455.0
+all -  [ Rust meets Llama2: OpenAI compatible API written in Rust ](https://www.reddit.com/r/rust/comments/15k1w99/rust_meets_llama2_openai_compatible_api_written/) , 2023-08-07-0926
 ```
+Hello,
 
-```
----
+I have been working on an OpenAI-compatible API for serving LLAMA-2 models written entirely in Rust. It supports
+ offloading computation to  Nvidia GPU and Metal acceleration for GGML models thanks to the fantastic \`llm\` crate!
 
-     
- 
-all -  [ understanding the llm eco-system ](https://www.reddit.com/r/LocalLLaMA/comments/15g1flo/understanding_the_llm_ecosystem/) , 1690959255.0
-```
-beginner in llms here. i have been trying to make sense of the lifecycle of a model. here's what i have:
+He
+re is the project  link : [Cria- Local LLAMA2 API](https://github.com/AmineDiro/cria)
 
-- people usual
-ly release their models via huggingface, similar to other ml models.
+You can use it as an OpenAI repla
+cement (check out the included \`Langchain\` example in the project).
 
-- these are often too big and need to be quantized
- to be able to run on cpu-s or consumer gpu-s. this is done by a library such as ggml ( is exllama an alternate?)
+This is an ongoing project, I have implemented th
+e \`embeddings\` and \`completions\` routes. The \`chat-completion\` route will be here very soon!
 
-- the
-n the llms can be used as part of larger pipelines, like retrival-augmented-generation, or in agents. libraries like lan
-gchain help for these pipelines.
+Really interested in
+ your feedback as I am still a beginner in Rust and I would welcome any help :) !
 
-- when making a frontend like a conventional chatbot, libraries like oogabooga help.
+&#x200B;
 
-
-- for specific parts of particular pipelines like RAG, llamaindex and unstructured.io provide dedicated facilities ( dea
-ling with different types of documents etc)
-
-can anyone correct me here. also would invite people to add other big names
- i dont know of that are significant parts of the ecosystem
+&#x200B;
 ```
 ---
 
      
  
-all -  [ How to get a software engineering job at LangChain? ](https://www.reddit.com/r/LangChain/comments/15g15ke/how_to_get_a_software_engineering_job_at_langchain/) , 1690958307.0
+all -  [ Local Llama-2 API in Rust ](https://www.reddit.com/r/LocalLLaMA/comments/15k1uk7/local_llama2_api_in_rust/) , 2023-08-07-0926
 ```
-I’m a software engineer who recently started using langchain and am super impressed with it. Does anyone know how any in
-formation about working at Langchain? are they hiring?
+Hello, 
+
+I have been working on an OpenAI-compatible API for serving LLAMA-2 models written entirely in Rust. It support
+s offloading computation to  Nvidia GPU and Metal acceleration for GGML models.
+
+Here is the project link :
+[Cria - Loca
+l LLama2 OpenAI compatible API](https://github.com/AmineDiro/cria)
+
+You can use it as an OpenAI replacement (check out t
+he included \`Langchain\` example in the project).
+
+This is an ongoing project, I have implemented the \`embeddings\` an
+d \`completions\` routes. The \`chat-completion\` route will be here very soon!  
+
+Really interested in your feedback an
+d I would welcome any help :) !
 ```
 ---
 
      
  
-all -  [ Having issues with multi-step reasoning ](https://www.reddit.com/r/LangChain/comments/15fyjd3/having_issues_with_multistep_reasoning/) , 1690949855.0
+all -  [ Project using PALM API and Langchain ](https://www.reddit.com/r/LangChain/comments/15jvyhb/project_using_palm_api_and_langchain/) , 2023-08-07-0926
 ```
-I've recently started out with LangChain, and I'm struggling with an issue. Although the code seems correct, the output 
-is quite questionable. Here's my current code:
-
+The day before I got access to Palm API(through waitlist of Palm API and Makersuite not from GCP or vertex ai). I wanted
+ to make a project out of it. I want to use Pinecone as a vector store and Streamlit as a UI. Any new, creative projects
+ that I can add to my resume?
 ```
-from langchain.chat_models import ChatOpenAI 
-from langchain_experim
-ental.plan_and_execute import PlanAndExecute, load_agent_executor, load_chat_planner 
-from langchain.llms import OpenAI 
+---
 
-from langchain import SerpAPIWrapper 
-from langchain.agents.tools import Tool 
-from langchain import LLMMathChain 
-
-mod
-el = ChatOpenAI(temperature=0, model='gpt-3.5-turbo-0613', verbose=True,openai_api_key='...') 
-
-search = SerpAPIWrapper(
-serpapi_api_key='...') 
-
-llm_math_chain = LLMMathChain.from_llm(llm=model, verbose=True) 
-
-tools = [ 
-    Tool( 
-       
- name = 'Search', 
-        func=search.run, 
-        description='useful for when you need to answer questions about cur
-rent events. You should ask targeted questions' 
-    ), 
-    Tool( 
-        name='Calculator', 
-        func=llm_math_ch
-ain.run, 
-        description='useful for when you need to answer questions about math' 
-    ) 
-] 
-
-planner = load_chat_
-planner(model) 
-executor = load_agent_executor(model, tools, verbose=True) 
-agent = PlanAndExecute(planner=planner, exec
-utor=executor, verbose=True) 
-
-agent.run('Who is Leo DiCaprio's girlfriend? What is her current age raised to the 0.43 p
-ower?')
+     
+ 
+all -  [ The largest collation of AI news on the internet - Meta, OpenAI, Google, Research Papers and News/To ](https://www.reddit.com/r/ChatGPT/comments/15jsrrz/the_largest_collation_of_ai_news_on_the_internet/) , 2023-08-07-0926
 ```
+Hey folks!
 
-During the Find her current agestep, the response was:
+It's been a while since I posted, I used to write the 'GPT-4 Week X' posts a few months ago. I've been seein
+g people say nothings been happening in AI so I had to come back and share some of the info I've collated and shared in 
+my [newsletter](https://nofil.beehiiv.com/subscribe).
 
-Based on the search results, it seems that Leonardo
- DiCaprio has been linked with a 19-year-old model named Eden Polani. However, I couldn't find any specific information 
-about her current age. It's possible that her age is not widely known or publicly available. 
+Enjoy
 
-Clearly, the model mentio
-ns her age but fails to recognize it in the following statement. It's perplexing, given that this example is directly fr
-om the documentation. Did I miss something?
+## Meta
 
-For reference, I initially attempted the example without the experimental l
-ibraries:
+* Meta released an open source project, “Massivel
+y Multilingual Speech” which can identify 4000 different languages. Can be expanded to text-to-speech can be used in VR 
+& AR \[[Link](https://about.fb.com/news/2023/05/ai-massively-multilingual-speech-technology/)\]
+* Meta’s announced **I-J
+EPA -** an AI model that learns by creating an internal model of the outside world. The idea is for it to be able to use
+ background knowledge to identify things in images or rather than analysing individual pixels (to my understanding). The
+y’re also open sourcing their training code and model checkpoints \[[Link](https://ai.facebook.com/blog/yann-lecun-ai-mo
+del-i-jepa/)\]
+* Zuck said that Meta is using LLama in house \[[Link](https://twitter.com/altryne/status/166694906797556
+1218?s=20)\]
+* Meta released MusicGen, a music generation model. Try it on HF here \[[Link](https://huggingface.co/space
+s/facebook/MusicGen)\]. This repo contains the code for it \[[Link](https://github.com/facebookresearch/audiocraft)\]. Y
+ou can use their highest quality model to generate \~15 minutes of music in \~15minutes. Set the runtime GPU to A100 on 
+this collab notebook \[[Link](https://colab.research.google.com/drive/1fxGqfg96RBUvGxZ1XXN07s3DthrKUl4-?usp=sharing)\]
+*
+ Meta’s going all in on open-source \[[Link](https://www.theinformation.com/articles/meta-wants-companies-to-make-money-
+off-its-open-source-ai-in-challenge-to-google)\]
+* Meta announced their own chips specifically for running AI programs. 
+They also mentioned their working on creating their own data centres specifically for AI \[[Link](https://www.gizmochina
+.com/2023/05/19/meta-ai-chip-metaverse/?utm_source=nofil.beehiiv.com&utm_medium=newsletter&utm_campaign=openai-betrays-t
+he-people)\]
+* Apparently Instagram is going to launch a twitter competitor soon \[[Link](https://twitter.com/TitterDail
+y/status/1659612900091215874?s=20&utm_source=nofil.beehiiv.com&utm_medium=newsletter&utm_campaign=openai-betrays-the-peo
+ple)\]
 
-```
-llm = ChatOpenAI(temperature=0, model='gpt-3.5-turbo-0613', verbose=True,openai_api_key='sk-u98IvxbZscoIP
-3KloWn8T3BlbkFJVRBBHt9T34BNmtjbZmUt')
-search = SerpAPIWrapper()
-llm_math_chain = LLMMathChain.from_llm(llm=llm, verbose=
-True)
+## OpenAI
 
-tools = [
-    Tool(
-        name = 'Search',
-        func=search.run,
-        description='useful for when you ne
-ed to answer questions about current events. You should ask targeted questions'
-    ),
-    Tool(
-        name='Calculato
-r',
-        func=llm_math_chain.run,
-        description='useful for when you need to answer questions about math'
-    )
+* Sam Altman spoke to congress, pleaded for regulation \[[Link](https://fortune.com/2023/05/16/sam-al
+tman-artificial-intelligence-regulation-congress-testimony-chatgpt-ibm/)\]
+* Released an article titled “Governance of S
+uperIntelligence” - details how we’ll handle systems even more capable than AGI. “it’s conceivable that within the next 
+ten years, AI systems will exceed expert skill level in most domains” \[[Link](https://t.co/lYGla0lM0T)\]
+* OpenAI has r
+eleased a security portal containing info on different security protections \[[Link](https://trust.openai.com/)\]
+* Sam 
+Altman did an interview and then had it deleted because it had too much “alpha”. Here’s a link to wayback machine \[[Lin
+k](https://web.archive.org/web/20230531203946/https://humanloop.com/blog/openai-plans)\]
+* Announced function calling \[
+[Link](https://openai.com/blog/function-calling-and-other-api-updates)\]
+* In India, Sam Altman was asked if a startup i
+n India could build a foundation model like ChatGPT and he straight up said “nah its hopeless”. It will be so interestin
+g to see if OpenAI remains a leader in the space over the next decade as more money is poured into AI and more companies
+ join the competition \[[Link](https://twitter.com/ETNOWlive/status/1666460799093620738)\]
 
+## Google
+
+* Googles Med-Pal
+m 2 scored 86.5% on the medical exam MedQA. A panel of 15 doctors also preferred its answers over real doctors answers a
+cross 1066 standardised questions. Link to paper \[[Link](https://arxiv.org/pdf/2305.09617.pdf)\]
+* Announced they’ll us
+e AI to dynamically generate ads \[[Link](https://twitter.com/nonmayorpete/status/1661064671200428032?s=20)\]
+* Google i
+s also doing product photography using AI \[[Link](https://blog.google/products/shopping/google-product-studio-generativ
+e-ai-product-photos/)\]
+* Project Starline creates a 3D representation of you so virtual things feel more real \[[Link](
+https://blog.google/technology/research/project-starline/)\]
+* Google is using AI to forecast floods \[[Link](https://ww
+w.axios.com/2023/05/22/googles-ai-flood-forecast)\]
+* Google announced AlphaDev, a system to enhance comp-sci algorithms
+ \[[Link](https://twitter.com/DeepMind/status/1666462540367372291)\]. A critique of what they announced and the claims t
+hey made is worth a read \[[Link](https://news.ycombinator.com/item?id=36231147)\]. Apparently the new sequence of assem
+bly only had one less MOV command. Extremely exaggerated claims from Google
+* Google has released their platform Vertex 
+to all. You can use PaLM 2 for word completion, Codey for code completion and others. There are over 60 models, many of 
+which are already being used by companies \[[Link](https://cloud.google.com/blog/products/ai-machine-learning/generative
+-ai-support-on-vertexai)\]. Link to model garden \[[Link](https://cloud.google.com/model-garden)\]
+* Google announced an
+ AI accelerator \[[Link](https://startup.google.com/accelerator/ai-first/europe/)\]
+* Couldn’t release Bard in Ireland b
+ecause of privacy concerns. Ireland doesn’t mess around \[[Link](https://www-politico-eu.cdn.ampproject.org/c/s/www.poli
+tico.eu/article/google-postpone-bard-chatbot-eu-launch-privacy-concern/amp/)\]
+* You can use Google lens to look up skin
+ conditions. Take a pic of your skin and it’ll try and match the issue with a condition. This will eventually become per
+fect and anyone can diagnose anything with their phone \[[Link](https://www.forbes.com/sites/saibala/2023/06/16/you-can-
+now-use-google-lens-on-your-phone-to-look-up-skin-conditions/amp/)\]
+
+## Research
+
+* Researchers used thought decoders t
+o connect a paralysed mans spinal and brain implants to help him walk again \[[Link](https://www.nytimes.com/2023/05/24/
+science/paralysis-brain-implants-ai.html)\]. “We’ve captured the thoughts of Gert-Jan, and translated these thoughts int
+o a stimulation of the spinal cord to re-establish voluntary movement”. Not LLM based though.
+* Researchers are using AI
+ to try and find rare DNA sequences \[[Link](https://phys.org/news/2023-05-artificial-intelligence-catalyzes-gene-uncove
+rs.html)\]
+* CoDi, Any-to-Any generation. Generate any type of output from any combination of inputs \[[Link](https://t.
+co/Tj3X8UvjlQ)\] Video demo \[[Link](https://twitter.com/_akhaliq/status/1660455475522174976)\]
+* In an experiment to fi
+nd an antibiotic for a certain bacteria, scientists used ML/AI to find a suitable antibiotic that was able to control in
+fections. It worked well in mouse wounds \[[Link](https://www.nature.com/articles/s41589-023-01349-8)\]
+* This paper exp
+lores methods to make people spend more time engaging with chatbots. The results showed conversations lasted 70% longer 
+and 30% of people kept using the chatbots \[[Link](https://arxiv.org/abs/2303.06135)\]
+* Styledrop - text to image gen i
+n any style \[[Link](https://styledrop.github.io/)\]
+* AI agents can learn to “think” while acting \[[Link](https://t.co
+/w8xc94nruw)\]
+* Cambridge researchers showcased an AI powered robot that watches cooking videos and replicates them \[[
+Link](https://www.cam.ac.uk/research/news/robot-chef-learns-to-recreate-recipes-from-watching-food-videos)\]
+* Otter, a 
+multimodal model can answer a number of questions in real world scenarios, looks really cool. Link to demo vids \[[Link]
+(https://twitter.com/JingkangY/status/1667087758840709120)\]. Link to code \[[Link](https://github.com/Luodian/Otter)\].
+ Link to paper \[[Link](https://arxiv.org/abs/2306.05425)\]
+* ChatGPT outperforms humans in emotional awareness evaluati
+ons \[[link](https://www.frontiersin.org/articles/10.3389/fpsyg.2023.1199058/full)\]
+* FinGPT - an open source LLM for f
+inance. Link to paper \[[Link](https://arxiv.org/abs/2306.06031)\]. Link to code \[[Link](https://github.com/AI4Finance-
+Foundation/FinGPT)\]
+* Given a video, re render it with a prompt without the flickering and noise \[[Link](https://anony
+mous-31415926.github.io/)\]
+* This paper suggested that GPT-4 can score 100% on MIT’s EECS curriculum, but its absolute 
+bs. Lots of controversy behind this but they basically lied about it all and published an entire paper on it \[[Link](ht
+tps://twitter.com/sauhaarda/status/1670053720233750530?s=20)\] \[[Link](https://twitter.com/sauhaarda/status/16702255130
+07439872?s=20)\]
+* Vid2Avatar - reconstruct detailed 3d videos \[[Link](https://twitter.com/ChenGuo96/status/16707818523
+93566213?s=20)\]
+* Only some models can self improve like GPT-4. There’s some sort of thereshold (?) that a model needs 
+to pass for it to understand natural language feedback used for improvement. Better understanding this should significan
+tly improve LLM development and quality \[[Link](https://t.co/CJE9lPdNLn)\]
+* Chemcrow, AI + Chemistry - giving gpt-4 to
+ols, it planned and executed the synthesis of an insect repellant, 3 organocatalysts, and guided the discovery of a nove
+l chromophore. Link to paper \[[Link](https://arxiv.org/abs/2304.05376)\]. Link to repo \[[Link](https://github.com/ur-w
+hitelab/chemcrow-public)\]
+* A way to teach a robot a new task in \~25mins using only a reference video \[[Link](https:/
+/robo-affordances.github.io/)\]
+* “Textbooks are all you need” new LLM ph-1 - a very, very interesting paper on how prep
+aring a dataset appropriately can yield such incredible results. They used gpt3 & gpt4 to help classify and prepare the 
+data. This thread has a great breakdown \[[Link](https://twitter.com/8teAPi/status/1671519543003422721?s=20)\]. Link to 
+the paper \[[Link](https://arxiv.org/abs/2306.11644)\]
+* This paper suggests a “backspace” token in LLMs helping them st
+ay on the rails. What this really shows tbh is that we’re still so early in understanding LLMs and how to better use the
+m \[[Link](https://arxiv.org/abs/2306.05426)\] Authors thread on it \[[Link](https://twitter.com/ChrisCundy/status/16715
+54838843518978)\]
+* This paper discusses how we can use language to make machines think and be more like humans. An inte
+resting approach and interesting to see how we can leverage language when dealing with LLMs \[[Link](https://arxiv.org/a
+bs/2306.12672)\]
+* Data-to-paper, autonomous AI research. This paper was written by handing over CDC data to an agent an
+d it chose several research topics, wrote data analysis code, interpreted results and wrote papers. Not sure if this is 
+a good idea… \[[Link](https://twitter.com/RoyKishony/status/1672280665264386049)\]
+* DarkBERT - an LLM trained on the da
+rk web to help deal with cybersecurity and understand how the dark web works \[[Link](https://arxiv.org/abs/2305.08596)\
 ]
+* Google DeepMind’s RoboCat is an AI powered robot that can solve tasks from with less than 100 demonstrations and use
+ self-generated data to improve \[[Link](https://www.deepmind.com/blog/robocat-a-self-improving-robotic-agent)\]
 
-agent = initialize_agent(tools, llm, agent=AgentType.OPENAI_FUNCTIONS, verbose=True)
+## Oth
+er
 
+* NVIDIA briefly hit $1 trillion market cap and is now one of the biggest companies in the world. Share price has su
+rged over 20% in weeks \[[Link](https://www.nbcnews.com/tech/tech-news/chipmaker-nvidia-hits-1-trillion-market-capitaliz
+ation-rcna86793)\]
+* Cnet workers unionise, citing AI \[[Link](https://www.theverge.com/2023/5/16/23723959/cnet-union-re
+d-ventures-tech-editorial-independence-ai-writing)\]
+* AMD announced their new AI chip..finally \[[Link](https://www.zdn
+et.com/google-amp/article/amd-unveils-mi300x-ai-chip-as-generative-ai-accelerator/)\]. They also joined the HuggingFace 
+partner program
+* Anthropic raised 450M at a $4.1 Billion valuation \[[Link](https://www.bloomberg.com/news/articles/202
+3-05-23/ai-startup-anthropic-raises-450-million-for-safety-focused-chatbot#xj4y7vzkg)\]
+* Neeva, a search engine focusin
+g on privacy and using AI has shutdown their search \[[Link](https://twitter.com/RamaswmySridhar/status/1659980249734713
+344?s=20)\]
+* Skybox - Take a crappy drawing and turn it into a full world made by AI \[[Link](https://twitter.com/Block
+adeLabs/status/1659963443754008577?s=20)\]
+* Scale Donovan - AI powered decision making for US defence \[[Link](https://
+scale.com/donovan)\]
+* XrayGPT - a tool to analyse chest radiographs. Link to tool \[[Link](https://d243b1f5fd02df3237.g
+radio.live/)\] Link to code \[[Link](https://github.com/mbzuai-oryx/XrayGPT)\]
+* This lad built an app to generate real 
+time responses for job interviews. Link to code \[[Link](https://github.com/SevaSk/ecoute)\]
+* This tool optimises your 
+prompts to save you tokens \[[Link](https://github.com/vaibkumr/prompt-optimizer)\]
+* Spacetop - AR glasses that lets yo
+u have dozens of laptop screens in front of you. If it wasn’t restricted to the US I’d buy this just to try it out \[[Li
+nk](https://sightful.com/)\]
+* Artists are asking for 3 things - permission, credit & compassion \[[Link](https://twitte
+r.com/stealcase/status/1659577594436628480?s=20)\]
+* In 2022, Yann LeCun gave an analogy for how dumb gpt was and that i
+t could basically never understand physics properly. Obviously he was unbelievably wrong. Notably he is now the most pro
+minent voice saying not to be worried about AI and all the doomer takes \[[Link](https://twitter.com/liron/status/165961
+8568282185728?s=20)\]
+* Unreal Engine 5.2 came out and its so good it can create muscle, cloth and flesh simulations \[[
+Link](https://www.unrealengine.com/en-US/blog/unreal-engine-5-2-is-now-available)\]
+* Live AI job interview assistant \[
+[Link](https://twitter.com/AiBreakfast/status/1660083019796062208?s=20)\]
+* LLM powered games with GPT4All \[[Link](http
+s://twitter.com/andriy_mulyar/status/1660036659193184258?s=20)\]
+* If you insert an electric probe into an insect *befor
+e* adulthood, its tissues can organically grow around the probe and create an insect-machine interface. We can then poss
+ibly control its flight by stimulation. This is from 2009. With the tech we have now we can definitely make this a reali
+ty and even view flight based on what they see. This will probably be the precursor to human brain implants. Link to pap
+er \[[Link](https://t.co/R0rMoqwBkb)\]
+* Reconstructing video from fMRI data \[[Link](https://mind-video.com/)\]
+* Naval
+ is working on something called airchat - a new social platform that uses AI \[[Link](https://twitter.com/naval/status/1
+660405285943668736?s=20)\]
+* AMP Robotics raised 8 million to help fund their AI powered garbage sorting robot that can 
+help with recycling \[[Link](https://techcrunch.com/2023/05/11/amp-robotics-attracts-investment-from-microsofts-climate-
+innovation-fund/)\]
+* This chart shows just how far away search engines and chatgpt is from Google. Hint: Unbelievably f
+ar \[[Link](https://twitter.com/vladquant/status/1660313957796810753?s=20)\]
+* Generate high fidelity human avatars from
+ text \[[Link](https://t.co/xZPJmWgXUn)\]. Demo video here \[[Link](https://twitter.com/_akhaliq/status/1660457301168521
+217?s=20)\]
+* Google unveiled a new audio model called SoundStorm \[[Link](https://google-research.github.io/seanet/soun
+dstorm/examples/)\]
+* An ethical hacker on 60 minutes shows just how easy it is to scam someone these days using spoofin
+g and AI voice cloning \[[Link](https://twitter.com/60Minutes/status/1660428419438354435)\]
+* Added Firefly into Express
+ app so you can use AI to design posters, videos, flyers etc \[[Link](https://www.adobe.com/express/)\]
+* ChatShitGPT is
+ the greatest thing to be built with AI ever \[[Link](https://www.chatshitgpt.co.uk/)\]
+* Intel announced Aurora genAI w
+ith 1 trillion parameters \[[Link](https://wccftech.com/intel-aurora-genai-chatgpt-competitor-generative-ai-model-with-1
+-trillion-parameters/)\]
+* Use DragGan locally \[[Link](https://github.com/OpenGVLab/InternGPT)\]
+* Opera announced an A
+I in their browser called Aria \[[Link](https://twitter.com/opera/status/1661281811668901888?s=20)\]
+* Someone attended 
+a Hinton talk at Cambridge and it seems he is extremely out of touch with reality \[[Link](https://twitter.com/mayameme/
+status/1661864975776792583?s=20)\]
+* Ezra - the worlds first 30 minute full body MRI powered by AI has received FDA clea
+rance. You can sign up for the waitlist here \[[Link](https://ezra.com/pricing)\]
+* Blockade labs - generate 3D worlds f
+or game dev with text \[[Link](https://www.blockadelabs.com/)\] \[[Link](https://twitter.com/theCGchannel/status/1673622
+861414649856?s=20)\]
+* China’s Baidu launched an AI venture fund of $145M. They’re also releasing a new version of Ernie
+Bot \[[Link](https://techcrunch.com/2023/06/01/baidu-generative-ai-fund-china/?guccounter=1&guce_referrer=aHR0cHM6Ly93d3
+cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAGIqJwJ8_xgx3juVUzN4lRySlxzobdKj4ccL2Tb8cidibeXtk7sWqZUDzgH_XNnm0fOayA5y1cPfwUeb
+Kz_Xn4Bdg57cI173KtCjEkr0ABn_H1q2D1NF4YvLZ6nSMVDwDkopuKjyOSYEzn0pT_alJG-3c69nZiPqYGC143YUuTqx)\]
+* Asana announced Asana 
+Intelligence \[[Link](https://asana.com/product/ai)\]
+* Voyager Minecraft AI is an open source experiment of getting an 
+AI agent to continually play minecraft and get better. It writes code to play minecraft and just keeps getting better. A
+n incredible application and illustration of AI agents \[[Link](https://twitter.com/DrJimFan/status/1662115266933972993)
+\]
+* Make an image 3D instantly \[[Link](https://twitter.com/instorier/status/1661738501594021889)\]
+* Neuralink has got
+ten FDA approval for first human trials \[[Link](https://www.reuters.com/science/elon-musks-neuralink-gets-us-fda-approv
+al-human-clinical-study-brain-implants-2023-05-25/)\]
+* Japan has said they don’t care about copyright in training AI mo
+dels. Big win if you’re an AI company there \[[Link](https://analyticsindiamag.com/japan-sets-the-precedent-for-ai-copyr
+ight/)\]
+* Andrew Ng has released 3 short courses on AI. Building systems with chatgpt api \[[Link](https://t.co/TxTyEHO
+dai)\]. Langchain for LLM app dev \[[Link](https://t.co/XuKPvdFMYd)\]. How diffusion models work \[[Link](https://t.co/b
+j5M7y9V68)\]
+* Hugging Chat added a web search feature \[[Link](https://huggingface.co/chat/)\]
+* Falcon 40B is an open 
+source model from Dubai that’s really good. Link to what it is \[[Link](https://huggingface.co/blog/falcon)\]. Use it on
+ HF here \[[Link](https://huggingface.co/spaces/HuggingFaceH4/falcon-chat)\]
+* SuperAGI is an open source framework to b
+uild and manage AI agents \[[Link](https://github.com/TransformerOptimus/SuperAGI)\]
+* AI being used in corporate bond t
+rading \[[Link](https://www.prnewswire.com/news-releases/ltx-by-broadridge-launches-bondgptsm-powered-by-openai-gpt-4-30
+1843197.html)\]
+* Text to 3d characters in minutes \[[Link](https://maketafi.com/ai)\]
+* LTM-1: LLM with 5,000,000 promp
+t tokens \[[Link](https://twitter.com/magicailabs/status/1666116935904292869?s=20)\]. Main use case is in programming. S
+ign up for the waitlist here \[[Link](https://magic.dev/waitlist)\]
+* Zoom announced AI features for select plans. Will 
+probably affect lots of new startups \[[Link](https://news.zoom.us/zoom-iq-meeting-summary-chat-compose-free-trial/)\]
+*
+ The first AI ETF has grown to over $35M \[[Link](https://www.nasdaq.com/articles/introducing-chat-the-worlds-first-gene
+rative-ai-etf)\]
+* AI finally being used in the doctors office \[[Link](https://www.bloomberg.com/news/articles/2023-06-
+05/technology-behind-chatgpt-has-arrived-in-the-doctor-s-office#xj4y7vzkg)\]
+* Open source text to video model called Po
+tat \[[Link](https://github.com/camenduru/text-to-video-synthesis-colab)\]
+* Runway’s Gen2 is available on mobile and we
+b
+* A city in Japan, Yokosuka, has officially adopted ChatGPT in their admin ops after a one month trial \[[Link](https:
+//www.japantimes.co.jp/news/2023/06/06/national/yokosuka-adopts-chatgpt/)\]
+* MotionScribe - create promo videos from te
+xt quickly \[[Link](https://t.co/CjlmexbqX4)\]
+* Granica - an AI efficiency platform came out of stealth recently, havin
+g already raised $45M from NEA and Bain \[[Link](https://www.granica.ai/blog/introducing-granica-the-ai-efficiency-platf
+orm/)\]
+* Someone built an open source program that generates audio based on movement?? Like an AI powered instrument.. 
+Seems interesting. Link to demo \[[Link](https://twitter.com/heyBarsee/status/1666808794679222275?s=20)\]. Link to code 
+\[[Link](https://github.com/caillonantoine/msprior)\]
+* Cohere raised a $270M Series C \[[Link](https://txt.cohere.com/a
+nnouncement/)\]
+* Part of SD, Clipdrop released Uncrop, easily change the ratio of any image by creating a background. T
+ry it here \[[Link](https://clipdrop.co/uncrop)\]
+* Perplexity adds profiles which personalises answers based on your bi
+o, location etc \[[Link](https://twitter.com/perplexity_ai/status/1667247174999068672?s=20)\]
+* Human or Not was a fun g
+ame where you would talk to someone and would have to guess if it was a person or AI. It turned out to be one of the big
+gest turing tests and showed only about 60% of people could accurately predict they were talking to an AI \[Link\]
+* Wor
+dpress announced Jetpack AI Assistant - an AI text based assistant in Wordpress \[[Link](https://jetpack.com/ai/)\]
+* Re
+plit is one of the more exciting companies to look out for in the AI space. They released an AI manifesto \[[Link](https
+://blog.replit.com/replit-ai-manifesto)\]
+* Beijing Academy of AI (BAAI) released Aquila - an open source Chinese/Englis
+h 7B & 33B models \[[Link](https://github.com/FlagAI-Open/FlagAI/blob/master/examples/Aquila/README.md)\]
+* Hilarious st
+ory of someone that built an AI agent to find tax avoidance schemes. It finds them and then completely on its own, snitc
+hes on him \[[Link](https://twitter.com/DanNeidle/status/1664613427472375808)\]
+* Hundreds attended an AI powered church
+ service with more than 300 people attending \[[Link](https://www.thejournal.ie/ai-chruch-germany-6090108-Jun2023/)\]
+* 
+Turn your babies ultrasound into a photorealistic image \[[Link](https://photorealisticultrasound.com/)\]
+* DeepMing, Op
+enAI & Anthropic have agreed to open up their models to the UK gov \[[Link](https://www.politico.eu/article/openai-deepm
+ind-will-open-up-models-to-uk-government/)\]
+* Doctors are using ChatGPT to talk to patients in a better way \[[Link](ht
+tps://www.nytimes.com/2023/06/12/health/doctors-chatgpt-artificial-intelligence.html?smid=nytcore-ios-share&referringSou
+rce=articleShare)\]
+* Salesforce announces a whole bunch of AI integrations in CRM, data, tableau, slack and more. Good 
+thread breaking it down, can’t be bothered finding an article \[[Link](https://twitter.com/minchoi/status/16683980262708
+63366)\]
+* There was a Virtual Worlds hackathon and the winners created a fully playable RPG in a single day using Anthr
+opics 100k context window for Claude. His thread on how they did it \[[Link](https://twitter.com/jradoff/status/16683130
+53094346755)\]
+* Segment what you see in real time with AR. Wild stuff this is \[[Link](https://twitter.com/localghost/s
+tatus/1668347694975434752?s=20)\]
+* Ilya Sutskever, co-founder of OpenAI, talks about a potential way to determine if an
+ AI has become conscious \[[Link](https://twitter.com/thealexker/status/1668390891705311232?s=20)\]
+* Hyper, a company c
+reating a vtuber, avatar platform raised $3.6M
+* Lawyers used ChatGPT and it cited made up claims \[[Link](https://www.c
+nbc.com/2023/05/30/chatgpt-cited-bogus-cases-for-a-new-york-federal-court-filing.html)\]
+* Build conversational AI chara
+cters \[[Link](https://charisma.ai/)\]
+* A 2 sentence jailbreak of ChatGPT \[[Link](https://guzey.com/ai/two-sentence-un
+iversal-jailbreak/)\]
+* AI brings John Lennons voice back. Paul McCartney announced they’d be releasing one final Beatle
+s record \[[Link](https://www.bbc.com/news/entertainment-arts-65881813.amp)\]
+* If you want to know the security issues 
+with chatgpt plugins, read this \[[Link](https://www.tomshardware.com/news/chatgpt-plugins-prompt-injection)\]
+* Synthes
+ia, an AI video generator got $90M in funding \[[Link](https://siliconangle.com/2023/06/13/ai-video-creation-startup-syn
+thesia-reels-90m-investors/)\]
+* Vercel announced an AI accelerator. 6 weeks, $850k in credits \[[Link](https://vercel.c
+om/ai-accelerator)\]
+* Flexible brain implants tested in people for the first time. They slide between the skull and bra
+in and are very safe making them an attractive choice. Founded by former neuralink exec. Very exciting space \[[Link](ht
+tps://www.freethink.com/health/precision-brain-implants)\]
+* Using AI, scientists find a drug that could combat drug-res
+istant infections \[[Link](https://news.mit.edu/2023/using-ai-scientists-combat-drug-resistant-infections-0525)\]
+* APA 
+releases guide on how to cite chatgpt \[[Link](https://apastyle.apa.org/blog/how-to-cite-chatgpt)\]
+* Chatgpt grandma ja
+ilbreak is hilarious and gives windows 10 keys. No longer works :( \[[Link](https://twitter.com/koush/status/16690640164
+49388544?s=20)\]
+* Generate amazing looking QR codes using AI. Try it on HF \[[Link](https://t.co/wq8nzx6Fhs)\]
+* GPT-4 
+can now use tools natively, meaning you can build useful agents really quickly. This is a good read on the topic \[[Link
+](https://every.to/chain-of-thought/gpt-4-can-use-tools-now-that-s-a-big-deal)\]
+* Alexandria: Project Tenet - a project
+ aiming to embed all of human belief. They’ve open sourced the embeddings for 10+ major religious texts with over 15 mil
+lion tokens. These types of projects are going to be very interesting. Preservation, imo, is one of the biggest uses cas
+es of AI \[[Link](https://twitter.com/willdepue/status/1670099641218764804?s=20)\]
+
+If you want to see week by week brea
+kdowns like this, for a coffee a month I'll send it to your email. Check it out [here](https://nofil.beehiiv.com/upgrade
+)
+
+Since I started creating these posts, I've been consulting and helping some fairly large businesses understand how th
+ey can use AI and implement it in their processes. If you're interested in having a chat, fill the form on my [website](
+https://time-and-money.webflow.io/) or email me [contact@timeandmoney.ai](mailto:contact@timeandmoney.ai)
+```
+---
+
+     
+ 
+all -  [ Do you know any good github repo for docs chat? ](https://www.reddit.com/r/LangChain/comments/15jsl4v/do_you_know_any_good_github_repo_for_docs_chat/) , 2023-08-07-0926
+```
+I am trying to find an opensource project in github that can actually chat with docs.
+I have tried a couple of them but 
+they halucinate, specially with the links that are within the docs.
+Have you also tried any ?
+```
+---
+
+     
+ 
+all -  [ How LangChain AutoGPT Responds to the Inquiry 'Provide a weather update for San Francisco today.' ](https://i.redd.it/r7mvz19s8igb1.png) , 2023-08-07-0926
 ```
 
-Here, the output was:
+```
+---
+
+     
+ 
+all -  [ Best Chunking Practice for mixed Documents with images, tables, and text ](https://www.reddit.com/r/LangChain/comments/15jo7t2/best_chunking_practice_for_mixed_documents_with/) , 2023-08-07-0926
+```
+Is there a best practice for chunking mixed documents that also include tables and images? 
+First, Do you extract tables
+/images (out of the document) and  into a separate CSV/other file, and then providing some kind of ‘See Table X in File’
+  link within the chunk (preprocessing before chunking documents)?
+If so, how do you write the syntax for this note (wit
+hin the chunk) to the LLM, so the langchain will know when to use the Pandas Agent in conjunction with whatever returns 
+in the text chunk vector  similarity. 
+Example—the answer to your question is X units, and here is the output of the tab
+le it references, or similar. 
+Much appreciation in advance.
+```
+---
+
+     
+ 
+all -  [ RLHF : EASIET WAY To FINE-TUNE ON YOUR DATA Using Reinforcement Learning with Human Feedback ](https://www.youtube.com/watch?v=R2paulc3P2M) , 2023-08-07-0926
+```
+
+```
+---
+
+     
+ 
+all -  [ The power of LangChain for software generation using GPT ](/r/LangChain/comments/15ibzq9/the_power_of_langchain_for_software_generation/) , 2023-08-07-0926
+```
+
+```
+---
+
+     
+ 
+all -  [ I have been exploring the best way to extract information from long documents, specifically looking  ](https://www.reddit.com/r/LangChain/comments/15jj1yl/i_have_been_exploring_the_best_way_to_extract/) , 2023-08-07-0926
+```
+There's a lot of hype around vector databases with the promise of 'infinite memory and instant access to your knowledge 
+base', however in many cases they fall short. I found there are two main ways people go about understanding long documen
+ts with AI:
+
+1. Vector embeddings
+2. LLMs with long context windows.
+
+There are pros and cons to both approaches.
+
+For e
+xample, if you need a full, 'comprehensive' understanding of a specific long document, you will want to use an LLM like 
+Anthropic's Claude with a long context window over a vector database approach.
+
+On the other hand, if you're looking to 
+retrieve specific information from a knowledge base consisting of hundreds/thousands of documents, a vector database wil
+l be better suited. You can also use a hybrid approach, i.e. finding most relevant documents with the help of a vector d
+atabase, then passing those docs in their entirety into a long context window along with your prompt.
+
+To summarize all 
+my thoughts, I wrote a substack article exploring this specific topic: [https://pashpashpash.substack.com/p/understandin
+g-long-documents-with](https://pashpashpash.substack.com/p/understanding-long-documents-with)
+
+So far, the best approach
+ I have found is the hybrid approach I mentioned in my Substack post; basically finding the most relevant documents with
+ the help of a vector database, then passing those docs in their entirety into a long context window along with your pro
+mpt. Do you guys have any thoughts on this? Are there better ways of going about this?
+```
+---
+
+     
+ 
+all -  [ Vectorestore original text access ](https://www.reddit.com/r/LangChain/comments/15jigsk/vectorestore_original_text_access/) , 2023-08-07-0926
+```
+When we use retrieve an embedding vector from vectorscore, how does the LLM access the context of the vector? Does the o
+riginal text saved as a metadata in the index of the stored vector? or can the LLM model decode the embedding within the
+ model. Im confused how the model will process the retreived embedding vector and use it to make a new prompt to get a b
+etter answer for a downstream task. 
+```
+---
+
+     
+ 
+all -  [ GPT-Synthesizer: an open-source tool for code generation using GPT and other LLMs ](/r/ChatGPT/comments/15iaqq9/gptsynthesizer_an_opensource_tool_for_code/) , 2023-08-07-0926
+```
+
+```
+---
+
+     
+ 
+all -  [ How does LLM use embedding from the vectorstore ](https://www.reddit.com/r/LangChain/comments/15jey0g/how_does_llm_use_embedding_from_the_vectorstore/) , 2023-08-07-0926
+```
+I am recently trying to understand the different ways to fine tune LLM model for specific usecase and downstream task. I
+f I am correct, a lot of research is saying that due to the size of the parameters in LLM, fine tuning might not be effi
+cient and there may be a better option such as LoRa and using embedding retrieval from the vectorstore.
+
+I would like to
+ ask
+
+1. How does the LLM use the embeddings to answer a specific prompt after the embedding is retrieved from similarit
+y search. Lets say I inputted my monthly schedule data into the vectorstore and my prompt was 'what do I do every tuesda
+y', how will the embedding be passed into the llm with my prompt? 
+
+2. If I use my schedule data to finetune my a model 
+by actually chaging the model parameters, does the model able to generate the correct output similar as using a method a
+sked in 1?
+```
+---
+
+     
+ 
+all -  [ Roast My Resumes - Applying to APM and SWE New Grad Roles in the Fall :) ](https://www.reddit.com/r/resumes/comments/15jdz5t/roast_my_resumes_applying_to_apm_and_swe_new_grad/) , 2023-08-07-0926
+```
+&#x200B;
+
+https://preview.redd.it/wqd9kedliegb1.png?width=1342&format=png&auto=webp&s=5edc821b2a4ad7112eae9abb41496085f5
+db5073
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15jcg9q/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
+```
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
+
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
+```
+---
+
+     
+ 
+all -  [ Unable to instantiate a HuggingFaceInference object with any model other than 'gpt2' ](https://www.reddit.com/r/LangChain/comments/15j9mbf/unable_to_instantiate_a_huggingfaceinference/) , 2023-08-07-0926
+```
+Hi!
+
+&#x200B;
+
+I followed your code example for using hf models in javascript: 
+
+&#x200B;
+
+\`\`\`
+
+import { HuggingFaceI
+nference } from 'langchain/llms/hf';
+
+&#x200B;
+
+const model = new HuggingFaceInference({
+
+  model: 'gpt2',
+
+  temperatur
+e: 0.9,
+
+  maxTokens: 50,
+
+  apiKey: 'hf\_zevWTuoWJPNQuyBejPpMBXytZotBseHSny',
+
+});
+
+const res = await [model.call](http
+s://model.call)(
+
+  'Question: What would be a good company name a company that makes colorful socks?\\nAnswer:'
+
+);
+
+co
+nsole.log({ res });
+
+\`\`\`
+
+and I am getting an ouput. However, whenever I am trying a different model, I keep getting 
+the following error:
+
+\`\`\`file:///Users/atantos/Documents/AI\_apps/LangCjhain\_JS/node\_modules/@huggingface/inference
+/dist/index.mjs:425
+
+throw new Error(output.error);
+
+\^
+
+&#x200B;
+
+Error: The following \`model\_kwargs\` are not used b
+y the model: \['return\_full\_text'\] (note: typos in the generate arguments will also show up in this list)
+
+at HfInfer
+ence.request (file:///node\_project/node\_modules/@huggingface/inference/dist/index.mjs:425:13)
+
+at process.processTicks
+AndRejections (/node:internal/process/task\_queues:95:5)
+
+at async HfInference.textGeneration (file:///node\_project/nod
+e\_modules/@huggingface/inference/dist/index.mjs:190:17)
+
+at async RetryOperation.\_fn (/node\_project/node\_modules/p-r
+etry/index.js:50:12) {
+
+  attemptNumber: 7,
+
+  retriesLeft: 0
+
+}
+
+&#x200B;
+
+Node.js v18.17.0
+
+\`\`\`
+
+&#x200B;
+
+When sea
+rching online for cases with the same error, I see that the problem is resolved by setting return\_full\_text=True\`. I 
+am not sure how to proceed further so that I can load any other hf model apart from gpt2 or there is something that the 
+good people of langchain need to do about it.
+
+&#x200B;
+
+[https://github.com/hwchase17/langchainjs/blob/a25677702bac2266
+65cea861b138b7070b6658b7/langchain/src/llms/hf.ts#L86C11-L86C34](https://github.com/hwchase17/langchainjs/blob/a25677702
+bac226665cea861b138b7070b6658b7/langchain/src/llms/hf.ts#L86C11-L86C34)
+
+&#x200B;
+
+Any input would be greatly appreciate
+d!
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15j8g3u/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
+```
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
+
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15j411o/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
+```
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
+
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
+```
+---
+
+     
+ 
+all -  [ Landchain + Gradio (Easy Walkthrough) ](https://www.youtube.com/watch?v=XZ9v3bgVbz0) , 2023-08-07-0926
+```
+
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15izpu1/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
+```
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
+
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15ivg6h/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
+```
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
+
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
+```
+---
+
+     
+ 
+all -  [ Running Embedding Models in Parallel ](https://www.reddit.com/r/LangChain/comments/15iswfc/running_embedding_models_in_parallel/) , 2023-08-07-0926
+```
+for discussion; 
+
+The ingestion process is overgeneralized, in that applications need to be more specific to be valuable
+ beyond just chatting. in this way, running embedding models in parallel makes more sense;   
+
+
+Ie; medical space (typic
+al language/ document preprocessing assumed to this point):  
+embedding model #1: trained on multi-modal medical informa
+tion, fetches accurate data from hospital documents   
+embedding model #2: trained on therapeutic language to ensue soft
+-speak to users experiencing difficult emotions in relation to their health   
+
+
+My hope is that multiple embedding mode
+ls contributing to the vectorstore, all at the same time, will improve query results by creating an enhanced & coherent 
+response to technical information, and generally keep the context of the data without sacrificing the humanity of it all
+.   
+
+
+Applications are already running embedding models in parallel; 
+
+a. but does it make sense?  
+\- is there a signi
+ficant improvement in performance?   
+\- does expanding the amount of specific embedding models increase the overall lan
+guage capabilities?   
+(ie; does 1, 2, 3, 4, 5, embedding models make the query-retrieval any better?)   
+b. are the cur
+rent limitations in AI preventing this from being commonplace? ie; the current limitations within hardware, processing p
+ower, energy consumption, etc.).   
+c. is there significant project costs to adding embedding models? 
 
   
-  'Leo DiCaprio's girlfriend ** 0.43'
-
-It seems to first calculate the math part, which again, is not as per the documen
-tation.
-
-Any guidance or suggestions would be greatly appreciated! Thanks in advance.
+If this is of
+ interest, i can post more about my research findings and personal experiments as they continue. Initially, I've curated
+ a sample knowledge base of rich \[+2,000 pages/ 172kb condensed/ .pdf/ has a variety of formats for images/ xrays/ docu
+ment scans/ hand-notes/etc.\] medical information that I'll be using to embed into an Activeloop DeepLake vectorstore fo
+r evaluation. I'll use various embedding models independently, then in combination, and evaluate the results based on pr
+e-determined benchmarks. 
 ```
 ---
 
      
  
-all -  [ Has anyone been able to get GGML models working with Langchain Agents ](https://www.reddit.com/r/LocalLLaMA/comments/15fygru/has_anyone_been_able_to_get_ggml_models_working/) , 1690949633.0
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15irxwe/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
 ```
-I have tried with LLAMA2-7B 8 bit quantized, Gorilla 7b ggml 8bit models. It integrates correctly with Langchain. I adde
-d two tools Wikipedia and DuckDuckgo search. I asked it when was Barrack Obama born? Straight forward question. 
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
 
-The Ac
-tion it outputs is not restricted. It should output 
-Action:DuckDuckgo 
-Action Input: Barrack Obama birthday
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
 
-Instead it
- outputs 
-Action: DuckDuckgo Barrack Obama birth date 
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
 
-And some other stuff in action Input like barrack Obama's birthd
-ay correct year etc. 
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
 
-The problem is Langchain needs an exact match and not a fuzzy match. Hence it says such a tool do
-es not exist and does not do the search. 
-
-I am checking if anyone has ever got Langchain Agents working with GGML model
-s and could figure out a way to output properly ( in a reproducible manner).
-```
----
-
-     
- 
-all -  [ Masters in ML while working FT ](https://www.reddit.com/r/GradSchool/comments/15fxipn/masters_in_ml_while_working_ft/) , 1690946810.0
-```
-Hey everyone,
-
-I’m a software engineer by trade and I was recently placed on a project with AI and LLMs and I enjoyed it
- pretty thoroughly. My one nag is that I realize this is a bit of a fad and I personally just would like to get a better
- understanding of how these technologies work and not just know how to call functions as part of the langchain framework
-. Plus I could get skills that last longer than the cycle of this AI craze and have things that carry over beyond the sc
-ope of this type of work. I’m close to GTech and I know there school is a very accredited institution so getting into gr
-ad school there is no walk in the (Piedmont) park especially for smth like ECE/CS. For context, my undergrad gpa was 3.1
- from UIUC in ECE so maybe if anyone knows of any universities with higher chances of getting in for a AI/ML program dro
-p them below and let me know your thoughts/challenges for those of you who have gone back to school while working full t
-ime
-
-Cheers
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
 ```
 ---
 
      
  
-all -  [ I'm just curious about AI chatbots lately! Why are they getting popular?? ](https://www.reddit.com/r/startups/comments/15fwnbs/im_just_curious_about_ai_chatbots_lately_why_are/) , 1690944271.0
+all -  [ 'Concerned About LLM Hallucinations!! Seeking Solution with Nemo Guardrails and Guardrails! ](https://www.reddit.com/r/LangChain/comments/15ir9l0/concerned_about_llm_hallucinations_seeking/) , 2023-08-07-0926
 ```
-Actually, I spend a lot of time on Twitter, and realized that indie hackers or startup founders seem to be so interested
- in AI chatbot-based Langchain! (a.k.a. LLM)
+ **'Can Nemo Guardrails Help Prevent LLM Hallucinations?** 
 
-So searched for them and they look so pretty useful!  
-You know, there are
- a vireaety of bots or AI assistant:  
-\-  C/S for my business  
-\- Educational AI chatbot  
-\- AI Community Facilitator
-  
-\- Educative Q/A chatbot  
-...what else?  
+If **yes, HOW?**
+
+My prompt instructs LLM to create a JSON 
+format summary, which works well with resumes. However, when I input a statement like '*Hi, I have an experience of 5 ye
+ars*,' LLM generates summaries with information not in the resume. 
+
+Can Nemo Guardrails and Guardrails address this iss
+ue? Looking for solutions!' 
+
+**BUT HOW?!**
+
+Thanks in advance!!
+```
+---
+
+     
+ 
+all -  [ Buddies for Local Language Models ](https://www.reddit.com/r/ProgrammingBuddies/comments/15iqe68/buddies_for_local_language_models/) , 2023-08-07-0926
+```
+Hey,
+
+Looking for buddies that explore the space of local Language Models with me.  
+I'd like to play around with variou
+s Llama Models, Wizard Vicuna etc. for Code Completion, Text to Speech, Semantic Search etc.  as a replacement for OpenA
+I, Github Copilot etc.  
+I will probably try to use remote services for a lot of stuff like google collab, azure, vast.a
+i as my hardware isn't that great, but you can also run stuff locally if you prefer that.  
+Maybe we can also code somet
+hing together using langchain or other stuff if we have ideas.  
+DM me if interested, looking forward to hearing from yo
+u.  
+
+```
+---
+
+     
+ 
+all -  [ Guardrails Implementation Challenge: Seeking Expert Advice to Resolve NameError Issue with Langchain ](https://www.reddit.com/r/LangChain/comments/15iq0vy/guardrails_implementation_challenge_seeking/) , 2023-08-07-0926
+```
+ Currently, I'm in the process of implementing a guardrail using Langchain, following the steps outlined in the official
+ documentation \[link provided: [**https://shreyar.github.io/guardrails/integrations/langchain/**](https://shreyar.githu
+b.io/guardrails/integrations/langchain/)\]. However, I've encountered an issue. After sending the 
+
+    rail_spec
+
+to 
 
 
-Anyway excited to hear your thoughts! Let's dive into the AI world toget
-her!  
-If you could get an AI chatbot or assistant for free, which one would you get or create?
+    output_parser = GuardrailsOutputParser.from_rail_string(rail_spec, api=openai.ChatCompletion.create)
+
+, instead of o
+btaining the expected output, I'm encountering a 
+
+    NameError : name 'doctors_notes' is not defined
+
+Despite meticulo
+usly following each step mentioned in the documentation, the actual outcome differs from the expected one, as shown in t
+he illustration. 
+
+**Actual :-**
+
+https://preview.redd.it/j2qx6j9h39gb1.png?width=868&format=png&auto=webp&s=6c1cdfe1ed1
+d8471d948cf357070c400336d98d0
+
+**ERROR SCREENSHOT :-**
+
+&#x200B;
+
+https://preview.redd.it/ybcsuits39gb1.png?width=1150&f
+ormat=png&auto=webp&s=84567fa9080cba71d810261cce0dee03047c6ea2
+
+*'doctor\_note'* is a variable that will be placed after
+ few more steps. It doesn't have to be added before.
+
+I'm facing the same error with {{output\_schema}} which has to be 
+replaced automatically with the help of the guardrail object that we have to create. (needs no manual interventtion)
+
+No
+te : Facing the same issue when I try to implement guardrail without langchain.
+
+Will need assistance!
+
+Thanks in advanc
+e!! 
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15iotro/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
+```
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
+
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
+```
+---
+
+     
+ 
+all -  [ Document-based QnA without OpenAI? ](https://www.reddit.com/r/datascience/comments/15imvh7/documentbased_qna_without_openai/) , 2023-08-07-0926
+```
+I am working on a project that is very popular with the inception of Langchain + GPT applications. However, I want to ma
+ke it open source and hence don't want to use GPT. So something like Langchain + LLama2, etc. I know currently Langchain
+ only supports GPT but any other ideas are highly appreciated!
+```
+---
+
+     
+ 
+all -  [ [D] Document-based QnA without OpenAI? ](https://www.reddit.com/r/MachineLearning/comments/15imv19/d_documentbased_qna_without_openai/) , 2023-08-07-0926
+```
+I am working on a project that is very popular with the inception of Langchain + GPT applications. However, I want to ma
+ke it open source and hence don't want to use GPT. So something like Langchain + LLama2, etc. I know currently Langchain
+ only supports GPT but any other ideas are highly appreciated!
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15illup/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
+```
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
+
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15ihx4u/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
+```
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
+
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
+```
+---
+
+     
+ 
+all -  [ You can see the thoughts of an LLM by connecting your LangChain agent to a Streamlit app via Callbac ](https://www.reddit.com/r/Langchaindev/comments/15ievu8/you_can_see_the_thoughts_of_an_llm_by_connecting/) , 2023-08-07-0926
+```
+`StreamlitCallbackHandler`:  
+[https://python.langchain.com/docs/integrations/callbacks/streamlit](https://python.langch
+ain.com/docs/integrations/callbacks/streamlit)  
+
+
+Demo with the [MRKL agent](https://python.langchain.com/docs/modules/
+agents/how_to/mrkl/): [https://langchain-mrkl.streamlit.app](https://langchain-mrkl.streamlit.app/?utm_medium=oembed)
+```
+---
+
+     
+ 
+all -  [ You can see the thoughts of an LLM by connecting your LangChain agent to a Streamlit app via Callbac ](https://www.reddit.com/r/Langchaindev/comments/15ievsy/you_can_see_the_thoughts_of_an_llm_by_connecting/) , 2023-08-07-0926
+```
+`StreamlitCallbackHandler`:  
+[https://python.langchain.com/docs/integrations/callbacks/streamlit](https://python.langch
+ain.com/docs/integrations/callbacks/streamlit)  
+
+
+Demo with the [MRKL agent](https://python.langchain.com/docs/modules/
+agents/how_to/mrkl/): [https://langchain-mrkl.streamlit.app](https://langchain-mrkl.streamlit.app/?utm_medium=oembed)
+```
+---
+
+     
+ 
+all -  [ LK-99: A fad or a revolution? Chat with ArXiv to find out ](https://github.com/myscale/ChatData) , 2023-08-07-0926
+```
+
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15idph0/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
+```
+Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[https:/
+/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+
+[ ](https://preview.redd.it/wcgw14o40
+p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+
+# Here are all of the videos insi
+de Fundamentals That you get instant access to upon joining BuildFast
+
+1. LLMs: Overview, using LLMs in Langchain, open-
+sourced LLMs, chat model, embedding text.
+2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
+angchain chains.
+3. Prompt: Prompts 101, Example Prompts, Output Parser.
+4. Memory: 4 Memory Types Explained, How to use
+ Memory in a Chain, How to add Memory to an Agent
+5. Document Loaders: Document Loaders 101, When to use Document Loader
+, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
+6. Indexes: Indexes 101, Retrievers and T
+ext Splitters.
+7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
+r database use-cases.
+```
+---
+
+     
+ 
+all -  [ Experimenting with Chains, Prompts, and LLMs ](https://www.reddit.com/r/LangChain/comments/15id6q2/experimenting_with_chains_prompts_and_llms/) , 2023-08-07-0926
+```
+Hey everyone!
+
+We created an experimentation framework that lets you run and evaluate chains across different prompts / 
+llms / configurations
+
+Check out our example here: [https://github.com/hegelai/prompttools/blob/main/examples/notebooks/
+LangChainSequentialChainExperiment.ipynb](https://github.com/hegelai/prompttools/blob/main/examples/notebooks/LangChainS
+equentialChainExperiment.ipynb)  
+
+If anyone is interested in helping us support router chains, we are looking for help 
+to do that next
+```
+---
+
+     
+ 
+all -  [ The power of LangChain for software generation using GPT ](https://www.reddit.com/r/LangChain/comments/15ibzq9/the_power_of_langchain_for_software_generation/) , 2023-08-07-0926
+```
+We made this tool using lang-chain: [https://github.com/RoboCoachTechnologies/GPT-Synthesizer](https://github.com/RoboCo
+achTechnologies/GPT-Synthesizer)
+
+Here is a demo: [https://www.youtube.com/watch?v=zFJDQOtIFGA](https://www.youtube.com/
+watch?v=zFJDQOtIFGA) 
 
 &#x200B;
 ```
@@ -497,54 +1252,7 @@ If you could get an AI chatbot or assistant for free, which one would you get or
 
      
  
-all -  [ How to filter output from similarity_search with DeepLake? ](https://www.reddit.com/r/LangChain/comments/15frx3u/how_to_filter_output_from_similarity_search_with/) , 1690931386.0
-```
-I am using a DeepLake database to store vector embeddings for chunks of PDF documents and I am using a similarity search
- query from that database to plug into a chat prompt. In the interest to minimizing token usage, I don't want to plug th
-e full return value from the query into the prompt because I don't need the metadata in the prompt. Is there a way to fi
-lter out just the page\_content values from the Document object?
-```
----
-
-     
- 
-all -  [ Best way to run Llama 2 locally on GPUs for fastest inference time ](https://www.reddit.com/r/LocalLLaMA/comments/15fq8b0/best_way_to_run_llama_2_locally_on_gpus_for/) , 1690927218.0
-```
-I've been working on having a local llama 2 model for reading my pdfs using langchain but currently inference time is to
-o slow because I think its running on CPU's with the GGML version of the model. So what would be the best implementation
- of llama 2 locally? This includes which version (hf, ggml, gptq etc) and how I can maximize my GPU usage with the speci
-fic version because I do have access to 4 Nvidia Tesla V100s
-```
----
-
-     
- 
-all -  [ What do you need to evaluate LLMs in dev & prod? Tell us and we'll build it! ](https://docs.google.com/forms/d/e/1FAIpQLScfZ_4MSVmsiaoEByb_Y2tk--J-xtV35P6OnAiyaihbrjwlQQ/viewform) , 1690920544.0
-```
-
-```
----
-
-     
- 
-all -  [ Question answering over docs with wikipedia or is it to large? ](https://www.reddit.com/r/LangChain/comments/15fez03/question_answering_over_docs_with_wikipedia_or_is/) , 1690901922.0
-```
-Does anybody know if there already is an 'Question answering over Docs with sources' project accessing wikipedia? I assu
-me it would take a while creating the vectorstore, if that even is necessary?
-```
----
-
-     
- 
-all -  [ Autonomous Agents Hackathon | 18 - 20 Aug | $10K Prize ](https://superagi.com/autonomous-agents-hackathon/) , 1690899149.0
-```
-
-```
----
-
-     
- 
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15f8cq8/peter_buildfast_masterclass_learn_to_build_your/) , 1690884918.0
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15i8zdw/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
 ```
 Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
 
@@ -575,227 +1283,61 @@ r database use-cases.
 
      
  
-all -  [ im curious since Langchain is in itself a wrapper do you think you could do decorator chaining and w ](https://www.reddit.com/r/LangChain/comments/15f7pin/im_curious_since_langchain_is_in_itself_a_wrapper/) , 1690882939.0
+all -  [ Unable to store response of CONVERSATIONAL_REACT_DESCRIPTION AgentType ](https://www.reddit.com/r/LangChain/comments/15i6361/unable_to_store_response_of_conversational_react/) , 2023-08-07-0926
 ```
+Hi
 
-```
----
+I'm writing a flask API, and using langchain agents to execute prompts and provide valid responses. I'm current tryi
+ng to run my agent and store its response in a variable, which I then jsonify and return to my application. When using Z
+ERO\_SHOT\_REACT\_DESCRIPTION this was working just fine, but has since been throwing `OutputParserException: Could not 
+parse LLM output: Hello Bob! How can I assist you today?`
 
-     
- 
-all -  [ A 'pipeline' for a conversational chatbot ](https://www.reddit.com/r/LocalLLM/comments/15f6ije/a_pipeline_for_a_conversational_chatbot/) , 1690878963.0
-```
-So I've been working to build a conversational chatbot that totally feels 'human-like'. It should ideally be indistingui
-shable from a human being.
+Below is my code:
 
-For this, I looked at how people use open source llms for roleplay tasks. Here, they basical
-ly feed a 'character personality prompt' to the LLM and ask it to continue a conversation with a user.
-
-I did this in th
-e beginning, the results were good, but still, it wasn't too hard to identify that it was an AI model. 
-
-I used Langchai
-n for all this btw, so it was easy to add conversational memory as well.
-
-So after this, I created a seperate conversati
-on chain in Langchain. I fed the conversation to this chain and asked it to analyse the chatbot's emotions and give it a
-n 'emotion score' of sorts.
-
-Then, I fed this to another conversation chain and asked it to rewrite the chatbot's previo
-us response in accordance with the emotion score generated earlier.
-
-(These 3 chains are the 'pipeline' I mentioned lol)
-
-
-The results are definitely better than how they were before, but obviously, inference is way slower.
-
-What do you guys
- think of this? Does it seem excessive and inefficient?
-
-Is there something better I can do?
-```
----
-
-     
- 
-all -  [ Awadb 0.3.6 version of the vector database relying on Langchain has been released ](https://www.reddit.com/r/LangChain/comments/15f66qa/awadb_036_version_of_the_vector_database_relying/) , 1690877800.0
-```
-Awadb 0.3.6 version of the vector database relying on Langchain has been released. The main updates of this version are 
-as follows:
-
-&#x200B;
-
-1. add the new interfaces of awadb : delete and update 
-
-2. support packing specified fields of s
-earching results 
-
-3. change the default search type from L2 to Inner Product
-
-github address: [https://github.com/awa-a
-i/awadb](https://github.com/awa-ai/awadb)
-```
----
-
-     
- 
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15f53ug/peter_buildfast_masterclass_learn_to_build_your/) , 1690874115.0
-```
-Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[https:/
-/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[ ](https://preview.redd.it/wcgw14o40
-p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
-
-# Here are all of the videos insi
-de Fundamentals That you get instant access to upon joining BuildFast
-
-1. LLMs: Overview, using LLMs in Langchain, open-
-sourced LLMs, chat model, embedding text.
-2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
-angchain chains.
-3. Prompt: Prompts 101, Example Prompts, Output Parser.
-4. Memory: 4 Memory Types Explained, How to use
- Memory in a Chain, How to add Memory to an Agent
-5. Document Loaders: Document Loaders 101, When to use Document Loader
-, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
-6. Indexes: Indexes 101, Retrievers and T
-ext Splitters.
-7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
-r database use-cases.
-```
----
-
-     
- 
-all -  [ Need Help in Setting up Agent ](https://www.reddit.com/r/LangChain/comments/15f4r6q/need_help_in_setting_up_agent/) , 1690872964.0
-```
-I am writing agents that can query data either from SQLite DB (which holds the machine productivity data), or the Vector
- store (which holds the machine user manuals).
-
-I have 2 separate examples which provide a chat interface based on the S
-QL and ConversationalRetrieval chain (from VectorDB). Both examples work beautifully well. 
-
-Problem starts once I add b
-oth these to the Agent. This agent is supposed to decide and make calls to the necessary chain, and get the answer. Whil
-e at times it works as expected, the overall accuracy is extremely bad, and it also takes a lot of iterations (sometimes
- exhausting max iterations) in the process. Also the quality of responses if bad as well.
-
-&#x200B;
-
-I am trying to figu
-re out ways to make the agent more reliable. It would be a great help if anyone can suggest ways to tweak behaviour of a
-gents. I have also tried all the agents types, including OPENAI Functions, but still it is far from the satisfactory lev
-els.
-
-Below is my code. 
-
-    # Init SQLite DB
-    db = SQLDatabase.from_uri('sqlite:///db/example.db')
-    embeddings =
- OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
+    # imports
+    from langchain.agents im
+port Tool
+    from langchain.agents import AgentType
+    from langchain.memory import ConversationBufferMemory
+    from 
+langchain import OpenAI
+    from langchain.utilities import SerpAPIWrapper
+    from langchain.agents import initialize_a
+gent
+    from langchain.chat_models import ChatOpenAI
     
-    # Init vector store
-    client = qdrant_client.QdrantClient(
- 
-       QDRANT_HOST, 
-        api_key=QDRANT_API_KEY
-    )
-    vector_store = Qdrant(
-        client=client, 
-        col
-lection_name=QDRANT_COLLECTION_NAME, 
-        embeddings=embeddings
-    )
+    # SERP API
+    search = SerpAPIWrapper(serpapi_api_key='x
+xx')
+    tools = [
+        Tool(
+            name = 'Current Search',
+            func=search.run,
+            descripti
+on='useful for when you need to answer questions about current events or the current state of the world'
+        ),
     
-    vectorstore_info = VectorStoreInfo(
- 
-       name='documents store',
-        description='A repository of the documents which holds machine manuals. When answ
-ering also include a list of source documents in the answer.',
-        vectorstore=vector_store
-    )   
+]
     
-    memory
- = ConversationBufferMemory(memory_key='chat_history', return_messages=True)
+    # memory for conversational agent
+    memory = ConversationBufferMemory(memory_key='chat_history')
     
-    # Init LLM
-    USE_CHAT_MODEL = Tr
-ue
-    llm = None
-    agent_chain = None
+    #
+ LLM and agent
+    llm=ChatOpenAI(temperature=0, openai_api_key='xxx')
+    agent_chain = initialize_agent(tools, llm, ag
+ent=AgentType.CONVERSATIONAL_REACT_DESCRIPTION, verbose=True, memory=memory)
     
-    if USE_CHAT_MODEL == True:
-        llm = ChatOpenAI(temperature=0, ope
-nai_api_key=OPENAI_API_KEY, model='gpt-3.5-turbo', max_tokens=300)
-    else:
-        llm = OpenAI(temperature=0, openai_
-api_key=OPENAI_API_KEY, max_tokens=300)
-    
-    # Add tools
-    llm_math = LLMMathChain.from_llm(llm, verbose=True)
-   
- vectorstore_toolkit = VectorStoreToolkit(vectorstore_info=vectorstore_info, llm=llm)
-    sql_toolkit = SQLDatabaseToolk
-it(db=db, llm=llm)
-    tools = load_tools(['llm-math'], llm=llm)
-    tools.extend(vectorstore_toolkit.get_tools())
-    t
-ools.extend(sql_toolkit.get_tools())
-    
-    def build_agent():
-        return initialize_agent(
-            tools, 
-  
-          llm, 
-            agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION, 
-            verbose=True, 
-            me
-mory=memory, 
-            handle_parsing_errors=True,
-        )
-    
-    def format_answer(info_str):
-        info_dict 
-= json.loads(info_str.replace(''', '\''))
-        answer = info_dict['answer'].strip()
-        sources = info_dict['sour
-ces']
-        final_answer = f'{answer}\n\nSources:\n{sources}'
-        return final_answer
-    
-    def ask_agent(df_ag
-ent, query):
-        response = None
-        try:
-            agent_response = df_agent({'input': query})
-            re
-sponse = format_answer(agent_response['output']) 
-        except ValueError as e:
-            response = str(e)
-        
-    if not response.startswith('Could not parse LLM output: `'):
-                raise e
-        return response.removep
-refix('Could not parse LLM output: `').removesuffix('`')
-    
-    if __name__ == '__main__':
-        df_agent = build_ag
-ent()
-        query = 'How to access the KRONES menu?'
-        result = ask_agent(df_agent, query)
-        print(result)
+    result = agent_chain.run(input='hi
+, i am bob')
 
-
-&#x200B;
+Any help would be much appreciated. Thanks!
 ```
 ---
 
      
  
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15f1uic/peter_buildfast_masterclass_learn_to_build_your/) , 1690863316.0
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15i4cd6/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
 ```
 Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
 
@@ -826,15 +1368,27 @@ r database use-cases.
 
      
  
-all -  [ Any success in utilising open source LLMs for data analysis? How did you do it? ](https://www.reddit.com/r/LangChain/comments/15ez9pz/any_success_in_utilising_open_source_llms_for/) , 1690855780.0
+all -  [ how do I get the endpoint from createOpenAPIChain() ](https://www.reddit.com/r/LangChain/comments/15i34yv/how_do_i_get_the_endpoint_from_createopenapichain/) , 2023-08-07-0926
 ```
-
+Been breaking my head since morning trying to get the endpoint which was called along with the parameters when running c
+reateOpenAPIChain(). The verbose log tells me this output is from the 2nd chain of this sequential chain but I can't fig
+ure out how to get its output. I wanted to override outputVariables but can't even do that. Help!
 ```
 ---
 
      
  
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15ey39e/peter_buildfast_masterclass_learn_to_build_your/) , 1690852512.0
+all -  [ Create an Azure OpenAI, LangChain, ChromaDB, and Chainlit Chat App in Container Apps using Terraform ](https://www.reddit.com/r/LangChain/comments/15i2rvk/create_an_azure_openai_langchain_chromadb_and/) , 2023-08-07-0926
+```
+[https://techcommunity.microsoft.com/t5/fasttrack-for-azure/create-an-azure-openai-langchain-chromadb-and-chainlit-chat-
+app/ba-p/3885602](https://techcommunity.microsoft.com/t5/fasttrack-for-azure/create-an-azure-openai-langchain-chromadb-a
+nd-chainlit-chat-app/ba-p/3885602)
+```
+---
+
+     
+ 
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15hzsvy/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
 ```
 Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
 
@@ -865,23 +1419,25 @@ r database use-cases.
 
      
  
-all -  [ LLMs for Classification ](https://www.reddit.com/r/learnmachinelearning/comments/15ewuzv/llms_for_classification/) , 1690849235.0
+all -  [ Has anyone attempted llama-index's document loading feature on a LLaMA mode? Or any langchain on LLa ](https://www.reddit.com/r/LocalLLaMA/comments/15hxdj1/has_anyone_attempted_llamaindexs_document_loading/) , 2023-08-07-0926
 ```
-Is there any way to use LLM's for classification in the sense that given a prompt the LLM outputs an integer in a set G.
- For example G={0,1} for binary classification or G={1,...,K} etc. I have tried using LLM's for some tasks such as answe
-ring yes or no questions or classifying a piece of text but often the LLM will not answer just yes/no or give the classi
-fication, but it includes other text, like 'Sure, here is the answer, this piece of text should be classified as X'. Thi
-s inclusion of unnecessary information makes it difficult to analyse the responses. I thought maybe you could do somethi
-ng like this using some of the work on getting LLMs to use tools (like WolframAlpha) i.e. if it had an API it could call
- that sets a bit to 0 or 1.
+Hello,
 
-EDIT: looking at langchain tools
+There is a PDF Loader module within llama-index ([https://llamahub.ai/l/file-pdf](https://llamahub.ai/l/file-pdf
+)), but most examples I found online were people using it with OpenAI's API services, and not with local models.
+
+Has an
+yone successfully managed to do cool stuff with LLaMA or any other local model, like ChatGPT Plugin system can do? Or ma
+king it work like ChatPDF, or making it summarize videos you upload etc.
+
+I've seen claims that local models are not pow
+erful enough to do that, but I doubt at least llama 70b wouldn't be able to pull this off...
 ```
 ---
 
      
  
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15etujd/peter_buildfast_masterclass_learn_to_build_your/) , 1690841715.0
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15hw37x/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
 ```
 Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
 
@@ -912,47 +1468,7 @@ r database use-cases.
 
      
  
-all -  [ Question answering over custom log files? ](https://www.reddit.com/r/LangChain/comments/15eqvhr/question_answering_over_custom_log_files/) , 1690834786.0
-```
-I have an application that runs C# and C++ code. For each run, a logfile is produced as a regular .txt or .log file that
- shows exactly which methods were called in the program, where anything failed if at all, values for variables at runtim
-e, etc.
-
-I've been using LangChain with the Llama 13B-chat model, and it seems to work OK for querying documents that ar
-e written in plain English, such as PDF files. My custom log files are not written in plain English--they follow a certa
-in format, include method signatures, and more. Basically, they are comprised of technical language and not novel-type t
-ext, such as what you might see in a typical PDF or other standard document file.
-
-I'd like the combination of LangChain
- + Llama to perform well on answering questions about these custom .txt/.log files that all follow a specific format. Th
-ese questions may include 'What went wrong?', 'What was the user hoping to accomplish in this run?', 'Why did this metho
-d fail?', 'What is a potential fix for this situation?', etc. This seems to be a little more involved that a basic seman
-tic search, although I could be wrong.
-
-What's the best way to go about achieving this in LangChain? Would it be as simp
-le as modifying a prompt/prompt template? Would it be more involved and require fine-tuning my model entirely in order t
-o accommodate for this custom formatting of the log files? Something in between?
-
-Note that these log files can get rath
-er long. Does this mean that it would not be feasible to include one of them in a prompt and tell the LLM 'Here is the l
-og file, the user will ask questions about it.' ? The TL;DR here is **how can I get LangChain to help me analyze custom 
-log files that have been generated from custom code?** A point in the direction of some code somewhere that perhaps solv
-es a similar issue would be very helpful.
-```
----
-
-     
- 
-all -  [ How do you access response headers from OpenAI API with Langchain? ](https://i.redd.it/lsv9h3k7wcfb1.png) , 1690833537.0
-```
-Been looking at the code and can not seem to figure this out. Is there a way to access the header of the http response t
-hrough langchain? Has anyone tried this with langchain js by chance?
-```
----
-
-     
- 
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15ep6j6/peter_buildfast_masterclass_learn_to_build_your/) , 1690830913.0
+all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15hsya5/peter_buildfast_masterclass_learn_to_build_your/) , 2023-08-07-0926
 ```
 Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
 
@@ -983,274 +1499,43 @@ r database use-cases.
 
      
  
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15ekiin/peter_buildfast_masterclass_learn_to_build_your/) , 1690820114.0
+all -  [ langchain katas - an open source project to practice langchain ](https://github.com/jondot/langchain-llm-katas) , 2023-08-07-0926
 ```
-Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
 
-[https:/
-/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[ ](https://preview.redd.it/wcgw14o40
-p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
-
-# Here are all of the videos insi
-de Fundamentals That you get instant access to upon joining BuildFast
-
-1. LLMs: Overview, using LLMs in Langchain, open-
-sourced LLMs, chat model, embedding text.
-2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
-angchain chains.
-3. Prompt: Prompts 101, Example Prompts, Output Parser.
-4. Memory: 4 Memory Types Explained, How to use
- Memory in a Chain, How to add Memory to an Agent
-5. Document Loaders: Document Loaders 101, When to use Document Loader
-, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
-6. Indexes: Indexes 101, Retrievers and T
-ext Splitters.
-7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
-r database use-cases.
 ```
 ---
 
      
  
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15efx7n/peter_buildfast_masterclass_learn_to_build_your/) , 1690809316.0
+MachineLearning -  [ [D] Roadmap for AI engineer (implementation of language models on premise) ](https://www.reddit.com/r/MachineLearning/comments/15gzsfv/d_roadmap_for_ai_engineer_implementation_of/) , 2023-08-07-0926
 ```
-Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+ I worked for less than a year as a Data Engineer. I decided to look for other challenges and got a job as an AI enginee
+r developing language models.
 
-[https:/
-/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
+The product of the company that hired me is related to data and metadata management. My t
+asks will be to introduce features to the product, including a chat function that will allow for asking questions about 
+data. Other tasks will include research and proposing additional AI-related functionalities to the product (on premise).
+ I have a two weeks left to start work and I need to prepare a bit. My job will involve implementing ready-made solution
+s and conducting research (high level - I need to implement valuable features and no one cares how).
 
-[ ](https://preview.redd.it/wcgw14o40
-p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
+**What are the mos
+t important things I should learn before starting work?**
 
-# Here are all of the videos insi
-de Fundamentals That you get instant access to upon joining BuildFast
+First of all, I replicated a few applications from this blog:
+ [https://blog.streamlit.io/tag/llms/](https://blog.streamlit.io/tag/llms/)
 
-1. LLMs: Overview, using LLMs in Langchain, open-
-sourced LLMs, chat model, embedding text.
-2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
-angchain chains.
-3. Prompt: Prompts 101, Example Prompts, Output Parser.
-4. Memory: 4 Memory Types Explained, How to use
- Memory in a Chain, How to add Memory to an Agent
-5. Document Loaders: Document Loaders 101, When to use Document Loader
-, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
-6. Indexes: Indexes 101, Retrievers and T
-ext Splitters.
-7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
-r database use-cases.
+Then I have focused on Langchain. I'm also 
+in the middle of a course on Udemy about Next-Gen AI projects - Beginner friendly - Langchain, Pinecone - OpenAI, Huggin
+gFace & LLAMA 2 models
+
+I need a roadmap that will guide me a bit. I'm looking for blogs/materials/courses that will giv
+e me practical knowledge in this matter.
 ```
 ---
 
      
  
-all -  [ Super excited to announce the 🚀Autonomous Agents Hackathon🤖 ](https://www.reddit.com/r/Super_AGI/comments/15ecpa3/super_excited_to_announce_the_autonomous_agents/) , 1690800397.0
-```
-📅 18 **- 20 Aug, 2023 |** 9:**00PM PST onwards**
-
-🕐38 **hours of pure innovation**
-
-📌Vi**rtual**
-
-Register now: https://
-superagi.com/autonomous-agents-hackathon/
-
-Calling all trailblazing AI Devs & Hackers to solve a real-world 🌍💡use case u
-sing AI agent frameworks like SuperAGI, AutoGPT, BabyAGI, Langchain etc.
-```
----
-
-     
- 
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15ec3dd/peter_buildfast_masterclass_learn_to_build_your/) , 1690798517.0
-```
-Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[https:/
-/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[ ](https://preview.redd.it/wcgw14o40
-p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
-
-# Here are all of the videos insi
-de Fundamentals That you get instant access to upon joining BuildFast
-
-1. LLMs: Overview, using LLMs in Langchain, open-
-sourced LLMs, chat model, embedding text.
-2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
-angchain chains.
-3. Prompt: Prompts 101, Example Prompts, Output Parser.
-4. Memory: 4 Memory Types Explained, How to use
- Memory in a Chain, How to add Memory to an Agent
-5. Document Loaders: Document Loaders 101, When to use Document Loader
-, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
-6. Indexes: Indexes 101, Retrievers and T
-ext Splitters.
-7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
-r database use-cases.
-```
----
-
-     
- 
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15e8w8n/peter_buildfast_masterclass_learn_to_build_your/) , 1690787712.0
-```
-Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[https:/
-/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[ ](https://preview.redd.it/wcgw14o40
-p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
-
-# Here are all of the videos insi
-de Fundamentals That you get instant access to upon joining BuildFast
-
-1. LLMs: Overview, using LLMs in Langchain, open-
-sourced LLMs, chat model, embedding text.
-2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
-angchain chains.
-3. Prompt: Prompts 101, Example Prompts, Output Parser.
-4. Memory: 4 Memory Types Explained, How to use
- Memory in a Chain, How to add Memory to an Agent
-5. Document Loaders: Document Loaders 101, When to use Document Loader
-, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
-6. Indexes: Indexes 101, Retrievers and T
-ext Splitters.
-7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
-r database use-cases.
-```
----
-
-     
- 
-all -  [ What's the difference between query and query_with_sources in VectorstoreIndexCreator?? ](https://www.reddit.com/r/LangChain/comments/15e8cr0/whats_the_difference_between_query_and_query_with/) , 1690785797.0
-```
-I'm using VectorstoreIndexCreator
-
-&#x200B;
-
-It doesn't seem like query is looking through my files but query\_with\_sou
-rces is. does anyone know why?
-
-&#x200B;
-
-Do either of them interact with an LLM or is it just returning stuff based on 
-the embeddings?
-```
----
-
-     
- 
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15e5sb7/peter_buildfast_masterclass_learn_to_build_your/) , 1690776916.0
-```
-Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[https:/
-/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[ ](https://preview.redd.it/wcgw14o40
-p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
-
-# Here are all of the videos insi
-de Fundamentals That you get instant access to upon joining BuildFast
-
-1. LLMs: Overview, using LLMs in Langchain, open-
-sourced LLMs, chat model, embedding text.
-2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
-angchain chains.
-3. Prompt: Prompts 101, Example Prompts, Output Parser.
-4. Memory: 4 Memory Types Explained, How to use
- Memory in a Chain, How to add Memory to an Agent
-5. Document Loaders: Document Loaders 101, When to use Document Loader
-, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
-6. Indexes: Indexes 101, Retrievers and T
-ext Splitters.
-7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
-r database use-cases.
-```
----
-
-     
- 
-all -  [ LLM API streaming remote ](https://www.reddit.com/r/LocalLLaMA/comments/15e3d5o/llm_api_streaming_remote/) , 1690769332.0
-```
-I have a project with the new Llama2  and I have a custom frontend that my partner is building and they want the text ge
-neration to stream directly to the client browser without the delay.  So far, I have used Langchain, oobabooga, FastAPI,
- and other smaller repos to generate the text and send it to port directly but it keeps waiting for the text to finish b
-efore sending out.  This is not keeping with the UX so we need to fix it.
-
-I am wondering if anyone else encountered thi
-s and if you have a technique you found that works?
-```
----
-
-     
- 
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15e28w4/peter_buildfast_masterclass_learn_to_build_your/) , 1690766112.0
-```
-Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[https:/
-/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[ ](https://preview.redd.it/wcgw14o40
-p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
-
-# Here are all of the videos insi
-de Fundamentals That you get instant access to upon joining BuildFast
-
-1. LLMs: Overview, using LLMs in Langchain, open-
-sourced LLMs, chat model, embedding text.
-2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
-angchain chains.
-3. Prompt: Prompts 101, Example Prompts, Output Parser.
-4. Memory: 4 Memory Types Explained, How to use
- Memory in a Chain, How to add Memory to an Agent
-5. Document Loaders: Document Loaders 101, When to use Document Loader
-, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
-6. Indexes: Indexes 101, Retrievers and T
-ext Splitters.
-7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
-r database use-cases.
-```
----
-
-     
- 
-all -  [ Peter - Buildfast Masterclass - Learn to build your own AI chatbot ](https://www.reddit.com/r/MakesYouMoney/comments/15dy7zx/peter_buildfast_masterclass_learn_to_build_your/) , 1690755314.0
-```
-Get the course here: [https://bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[https:/
-/bit.ly/Peter-Buildfast\_Masterclass](https://bit.ly/Peter-Buildfast_Masterclass)
-
-[ ](https://preview.redd.it/wcgw14o40
-p7b1.jpg?width=1280&format=pjpg&auto=webp&s=404eee6c4d63d0176e118d586148aba90726b3b0)
-
-# Here are all of the videos insi
-de Fundamentals That you get instant access to upon joining BuildFast
-
-1. LLMs: Overview, using LLMs in Langchain, open-
-sourced LLMs, chat model, embedding text.
-2. Chains: Chains 101, LLM Chain, Sequential Chain, and four other important L
-angchain chains.
-3. Prompt: Prompts 101, Example Prompts, Output Parser.
-4. Memory: 4 Memory Types Explained, How to use
- Memory in a Chain, How to add Memory to an Agent
-5. Document Loaders: Document Loaders 101, When to use Document Loader
-, Import data from Text & CSV, and Loading data from Discord, Notion, Telegram
-6. Indexes: Indexes 101, Retrievers and T
-ext Splitters.
-7. Vector Database & Embeddings: Vector databases 101, when to use vector databases, Embeddings and vecto
-r database use-cases.
-```
----
-
-     
- 
-MachineLearning -  [ [D] Having trouble with RAG on company domain data ](https://www.reddit.com/r/MachineLearning/comments/15br11c/d_having_trouble_with_rag_on_company_domain_data/) , 1690531314.0
+MachineLearning -  [ [D] Having trouble with RAG on company domain data ](https://www.reddit.com/r/MachineLearning/comments/15br11c/d_having_trouble_with_rag_on_company_domain_data/) , 2023-08-07-0926
 ```
 I have a data set that isn't that large \~200 pdfs. I have done the regular RAG approach with Langchain, extracting text
 , splitting into chunks, embedding with OpenAi embeddings and FAISS vector storage. However, when I do a similarity sear
@@ -1266,7 +1551,7 @@ Does anyone have any tips on improving the embeddings retrieval in this case?
 
      
  
-MachineLearning -  [ [D] How do I reduce LLM inferencing time? ](https://www.reddit.com/r/MachineLearning/comments/15851sr/d_how_do_i_reduce_llm_inferencing_time/) , 1690189139.0
+MachineLearning -  [ [D] How do I reduce LLM inferencing time? ](https://www.reddit.com/r/MachineLearning/comments/15851sr/d_how_do_i_reduce_llm_inferencing_time/) , 2023-08-07-0926
 ```
 I am running text inferencing on Llama2-7b through langchain. I have downloaded the model from langchain's Huggingface l
 ibrary, and I am running the model on AWS ml.g4dn.12xlarge which has 4x**nvidia t4**, which gives a total 64GB of GPU me
@@ -1288,7 +1573,7 @@ s!
 
      
  
-MachineLearning -  [ [P] TruLens-Eval is an open source project for eval & tracking LLM experiments. ](https://www.reddit.com/r/MachineLearning/comments/1542fbt/p_trulenseval_is_an_open_source_project_for_eval/) , 1689790263.0
+MachineLearning -  [ [P] TruLens-Eval is an open source project for eval & tracking LLM experiments. ](https://www.reddit.com/r/MachineLearning/comments/1542fbt/p_trulenseval_is_an_open_source_project_for_eval/) , 2023-08-07-0926
 ```
 Hey [r/MachineLearning](https://www.reddit.com/r/MachineLearning/),
 
@@ -1333,7 +1618,7 @@ ve feedback! And thanks to all contributors to this project and the open source 
 
      
  
-MachineLearning -  [ Alternativ to langchain [D] ](https://www.reddit.com/r/MachineLearning/comments/15175na/alternativ_to_langchain_d/) , 1689516377.0
+MachineLearning -  [ Alternativ to langchain [D] ](https://www.reddit.com/r/MachineLearning/comments/15175na/alternativ_to_langchain_d/) , 2023-08-07-0926
 ```
 Im currently learning hiw to use langchain but i heard that its bad so i want to know what are som alternatives i need m
 emory and agents so that it can search online run code and so on so what is the best alternativ or is langchain the best
@@ -1343,7 +1628,7 @@ emory and agents so that it can search online run code and so on so what is the 
 
      
  
-MachineLearning -  [ '[N]' '[D]' Langchain? What is it?? ](https://www.reddit.com/r/MachineLearning/comments/150mzax/n_d_langchain_what_is_it/) , 1689454973.0
+MachineLearning -  [ '[N]' '[D]' Langchain? What is it?? ](https://www.reddit.com/r/MachineLearning/comments/150mzax/n_d_langchain_what_is_it/) , 2023-08-07-0926
 ```
 want to know more about Langchain  
 Check out [https://nikhilpentapalli.substack.com/p/langchain-in-detail?sd=pf](https:
@@ -1353,7 +1638,7 @@ Check out [https://nikhilpentapalli.substack.com/p/langchain-in-detail?sd=pf](ht
 
      
  
-MachineLearning -  [ [D] The Problem With LangChain ](https://www.reddit.com/r/MachineLearning/comments/14zlaz6/d_the_problem_with_langchain/) , 1689352833.0
+MachineLearning -  [ [D] The Problem With LangChain ](https://www.reddit.com/r/MachineLearning/comments/14zlaz6/d_the_problem_with_langchain/) , 2023-08-07-0926
 ```
 https://minimaxir.com/2023/07/langchain-problem/
 
@@ -1367,7 +1652,7 @@ nts replied 'what exactly is the issue with LangChain', so I hope this provides 
 
      
  
-MachineLearning -  [ [D] 📚 The Learning Corner (Andrew NG Free Ai Courses Pt. 1) ](https://www.reddit.com/r/MachineLearning/comments/14xww89/d_the_learning_corner_andrew_ng_free_ai_courses/) , 1689187280.0
+MachineLearning -  [ [D] 📚 The Learning Corner (Andrew NG Free Ai Courses Pt. 1) ](https://www.reddit.com/r/MachineLearning/comments/14xww89/d_the_learning_corner_andrew_ng_free_ai_courses/) , 2023-08-07-0926
 ```
 📚 The Learning Corner (Andrew NG Free Ai Courses Pt. 1)
 
@@ -1387,7 +1672,7 @@ anguage Models**](https://www.deeplearning.ai/courses/generative-ai-with-llms/?u
 
      
  
-MachineLearning -  [ [P] langchain-lite alternative ](https://www.reddit.com/r/MachineLearning/comments/14xf9xb/p_langchainlite_alternative/) , 1689140460.0
+MachineLearning -  [ [P] langchain-lite alternative ](https://www.reddit.com/r/MachineLearning/comments/14xf9xb/p_langchainlite_alternative/) , 2023-08-07-0926
 ```
 Although langchain is an impressive library, I tend to find it is…
 
@@ -1498,7 +1783,7 @@ Feedback welcome.
 
      
  
-MachineLearning -  [ [D] What have been your use cases for LLM autonomous agents? ](https://www.reddit.com/r/MachineLearning/comments/14w817y/d_what_have_been_your_use_cases_for_llm/) , 1689026848.0
+MachineLearning -  [ [D] What have been your use cases for LLM autonomous agents? ](https://www.reddit.com/r/MachineLearning/comments/14w817y/d_what_have_been_your_use_cases_for_llm/) , 2023-08-07-0926
 ```
 I've been using GPT for completions on a daily basis for a while now - code completion and search-like chatting, basical
 ly. I've recently been playing around with both ChatGPT plugins and LangChain for autonomous-agent-like behavior, and al
@@ -1526,7 +1811,7 @@ routine, unlike text completion. Have you been using autonomous agents successfu
 
      
  
-MachineLearning -  [ [D] Hacking LangChain for Fun and Profit ](https://www.reddit.com/r/MachineLearning/comments/14w0ht7/d_hacking_langchain_for_fun_and_profit/) , 1689010315.0
+MachineLearning -  [ [D] Hacking LangChain for Fun and Profit ](https://www.reddit.com/r/MachineLearning/comments/14w0ht7/d_hacking_langchain_for_fun_and_profit/) , 2023-08-07-0926
 ```
 [https://blog.kevinhu.me/2023/07/10/hacking-langchain-for-fun-and-profit/](https://blog.kevinhu.me/2023/07/10/hacking-la
 ngchain-for-fun-and-profit/)
@@ -1538,7 +1823,7 @@ ested in LLM and building with LangChain.
 
      
  
-MachineLearning -  [ [D] - Are there any AI benchmarks that involve successful longterm problem solving when running as a ](https://www.reddit.com/r/MachineLearning/comments/14v4l2o/d_are_there_any_ai_benchmarks_that_involve/) , 1688924349.0
+MachineLearning -  [ [D] - Are there any AI benchmarks that involve successful longterm problem solving when running as a ](https://www.reddit.com/r/MachineLearning/comments/14v4l2o/d_are_there_any_ai_benchmarks_that_involve/) , 2023-08-07-0926
 ```
  Even the most powerful LLMs, such as gpt4, seem to get lost or fall into loops when being run as autonomous agents like
  as part of langchain or autogpt. Are there any active benchmarks or competitions to measure the ability of given agent 
@@ -1548,46 +1833,19 @@ architectures to perform?
 
      
  
-MachineLearning -  [ [R] Chat with documents using LangChain and OpenAI ](https://www.reddit.com/r/MachineLearning/comments/14pkxir/r_chat_with_documents_using_langchain_and_openai/) , 1688395253.0
+deeplearning -  [ Using PDFs with GPT Models ](https://www.reddit.com/r/deeplearning/comments/15g6i4x/using_pdfs_with_gpt_models/) , 2023-08-07-0926
 ```
-Over the past few months, I've been captivated by the flood of apps claiming to be the ultimate 'ChatGPT for your docume
-nts' on Product Hunt. The question that lingered in my mind was, 'How do these apps actually work?' Curiosity led me dow
-n an exciting path of discovery, and I stumbled upon a framework that I think is revolutionizing the world of app develo
-pment in the context of Large Language Models - LangChain
+Found a blog talking about how we can interact with PDFs in Python by using GPT API & Langchain. It talks about some pre
+tty cool automations you can build involving PDFs - [https://nanonets.com/blog/chat-with-pdfs-using-chatgpt-and-openai-g
+pt-api/](https://nanonets.com/blog/chat-with-pdfs-using-chatgpt-and-openai-gpt-api/)
+```
+---
 
-I learned that developing a 'ChatGPT for your documents' is e
-asily achievable through three broad workflows combined with access to OpenAI API. In fact, I went ahead and prototyped 
-such a system on streamlit. 
+     
+ 
+deeplearning -  [ List of all MLOps & LLMOps companies -- LLMOps.Space ](https://i.redd.it/d26rgf9fmnfb1.png) , 2023-08-07-0926
+```
 
-Step 1 - The Setup: Store your documents as embeddings.
-In the first step, use Document Lo
-aders (at least 100 are available), provided by LangChain to convert anything from a simple Word document to an AWS S3 d
-irectory into Documents. Then, using Document Transformers and Text Embedding Models, you transform your documents into 
-embeddings. Finally, store these embeddings in a vector store for searches later on. It's a one-time setup that sets the
- foundation for your Q&A system. 💡🛠️
-
-Step 2 - Establish Context: Find relevant documents.
-LangChain's Text Embedding mo
-del converts user queries into vectors. These vectors are used by LangChain's retriever to search the vector store and r
-etrieve the most relevant documents. You can control the search boundaries based on relevance scores or the desired numb
-er of documents. It's all about finding the right context for your Q&A system. 🎯💬
-
-Step 3 - Chat Away: Get answers from 
-LLMs.
-Now comes the fun part! You pass the user's query and the established context to the Language Models (LLMs). The L
-LMs respond with precise answers, taking into account the provided context. It's like having a conversation with your do
-cuments. 🤩🗨️
-
-
-By building these three workflows, a service that acts like a Q&A for a restricted set of documents can b
-e set up. Of course, this is just an overview of the approach and all the complex steps of app development will still re
-main, I remain fascinated by how the good folks at LangChain have made things simpler. 
-
-What do you think? Have you tri
-ed LangChain to build something? Is there any other framework that is equally fascinating?
-
-#llm #openai #chatgpt #docum
-ents #generativeai #langchain
 ```
 ---
 
