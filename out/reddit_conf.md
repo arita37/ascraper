@@ -1,5 +1,5 @@
  
-all -  [ [R] Looking for Perspectives: Pursuing a PhD in AI vs Continuing in Industry ](https://www.reddit.com/r/MachineLearning/comments/15jr6be/r_looking_for_perspectives_pursuing_a_phd_in_ai/) , 2023-08-07-0939
+all -  [ Looking for Perspectives: Pursuing a PhD in AI vs Continuing in Industry ](https://www.reddit.com/r/PhD/comments/15ka43p/looking_for_perspectives_pursuing_a_phd_in_ai_vs/) , 2023-08-08-0910
 ```
 Greetings fellow researchers,
 
@@ -30,7 +30,26 @@ ts!
 
      
  
-all -  [ [D] How does one withdraw a paper from Neurips? ](https://www.reddit.com/r/MachineLearning/comments/15jd1wu/d_how_does_one_withdraw_a_paper_from_neurips/) , 2023-08-07-0939
+all -  [ [CfP] NeurIPS 2023 second Table Representation Learning workshop ](https://groups.google.com/g/ml-news/c/Tbyh8GDgyXk) , 2023-08-08-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ [ICLR23] Dual Accounts in Openreview from the same person ](https://www.reddit.com/r/AskAcademia/comments/15k4u81/iclr23_dual_accounts_in_openreview_from_the_same/) , 2023-08-08-0910
+```
+I as a researcher observed some researchers use dual accounts (using different email ids) in Openreview website primaril
+y ICLR or NeurIPS. One hypothesis I heard is it helps in review with one email and submit using other email ID. Is this 
+permitted ? I could see as a disclaimer written in OpenReview website that irrespective how many email id's you may have
+ you should have the same Openreview account.
+```
+---
+
+     
+ 
+all -  [ [D] How does one withdraw a paper from Neurips? ](https://www.reddit.com/r/MachineLearning/comments/15jd1wu/d_how_does_one_withdraw_a_paper_from_neurips/) , 2023-08-08-0910
 ```
 First time submitter here and was unable to find a similar post (and thought the community might benefit from this in th
 e future!). How do I withdraw from Neurips? All the instructions I found are from 2017, 2018. Do I need to contact someo
@@ -40,7 +59,7 @@ ne or do I just need to 'Add Withdrawal' on OpenReview.
 
      
  
-all -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 2023-08-07-0939
+all -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 2023-08-08-0910
 ```
 NeurIPS 2023 paper reviews are visible on OpenReview.  See this [tweet](https://twitter.com/francoisfleuret/status/16864
 64712534638592). I thought to create a discussion thread for us to discuss any issue/complain/celebration or anything el
@@ -54,7 +73,7 @@ is still valuable no matter what the score is.
 
      
  
-all -  [ What is the Best Way to Learn Artificial Intelligence ](https://www.reddit.com/r/itonlinetraining/comments/15f7g4p/what_is_the_best_way_to_learn_artificial/) , 2023-08-07-0939
+all -  [ What is the Best Way to Learn Artificial Intelligence ](https://www.reddit.com/r/itonlinetraining/comments/15f7g4p/what_is_the_best_way_to_learn_artificial/) , 2023-08-08-0910
 ```
 Learning Artificial Intelligence (AI) can be a moving and worthwhile journey. Here are some steps to help you get starte
 d and make the most out of your learning experience:
@@ -139,15 +158,7 @@ velop. Most importantly, stay curious and passionate about the field, and your l
 
      
  
-all -  [ GenPlan '23: NeurIPS 2023 Workshop on Generalization in Planning - Call for Papers ](https://groups.google.com/g/ml-news/c/7i5YLVPi2kA) , 2023-08-07-0939
-```
-
-```
----
-
-     
- 
-all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/learnmachinelearning/comments/15doz7s/reproducing_paper_results_in_machine_learning/) , 2023-08-07-0939
+all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/learnmachinelearning/comments/15doz7s/reproducing_paper_results_in_machine_learning/) , 2023-08-08-0910
 ```
 Hi there, 
 
@@ -173,7 +184,7 @@ Hope to hear from you :).
 
      
  
-all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/DTU/comments/15dooas/reproducing_paper_results_in_machine_learning/) , 2023-08-07-0939
+all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/DTU/comments/15dooas/reproducing_paper_results_in_machine_learning/) , 2023-08-08-0910
 ```
 Hi there,
 
@@ -219,7 +230,7 @@ Hope to hear from you :).
 
      
  
-all -  [ The domain exploreAI.xyz is for sale. ](https://www.reddit.com/r/Domaininventory/comments/15cu75g/the_domain_exploreaixyz_is_for_sale/) , 2023-08-07-0939
+all -  [ The domain exploreAI.xyz is for sale. ](https://www.reddit.com/r/Domaininventory/comments/15cu75g/the_domain_exploreaixyz_is_for_sale/) , 2023-08-08-0910
 ```
 # Potential advantages of the website ExploreAI.xyz. Could offer based on the name and context:
 
@@ -313,7 +324,7 @@ ke your time, be patient with yourself, and have fun while learning!
 
      
  
-all -  [ A major AI player wants fresh grad to have minimum 8 publications! ](https://i.redd.it/o9zz9hmtc9eb1.jpg) , 2023-08-07-0939
+all -  [ A major AI player wants fresh grad to have minimum 8 publications! ](https://i.redd.it/o9zz9hmtc9eb1.jpg) , 2023-08-08-0910
 ```
 While pedigree and flair for research are crucial to such roles, a hard requirement on number of publications is pushing
  it. What’s next- fresh grad with 8 years of work experience?
@@ -322,7 +333,7 @@ While pedigree and flair for research are crucial to such roles, a hard requirem
 
      
  
-all -  [ [D] Is Conference Competition Track like NeurIPS Competition a Glorified Kaggle Competition? ](https://www.reddit.com/r/MachineLearning/comments/1544si8/d_is_conference_competition_track_like_neurips/) , 2023-08-07-0939
+all -  [ [D] Is Conference Competition Track like NeurIPS Competition a Glorified Kaggle Competition? ](https://www.reddit.com/r/MachineLearning/comments/1544si8/d_is_conference_competition_track_like_neurips/) , 2023-08-08-0910
 ```
 Is it worth the time to pour time and effort into NeurIPS's annual competitions? Winners got to present at NIPS workshop
 s.
@@ -340,7 +351,7 @@ Any help is appreciated. Thank you strangers!
 
      
  
-all -  [ What are NeurIPS Competitions ](https://www.reddit.com/r/learnmachinelearning/comments/153mnu6/what_are_neurips_competitions/) , 2023-08-07-0939
+all -  [ What are NeurIPS Competitions ](https://www.reddit.com/r/learnmachinelearning/comments/153mnu6/what_are_neurips_competitions/) , 2023-08-08-0910
 ```
 As titled.
 
@@ -350,7 +361,7 @@ Does anyone what are they?
 
      
  
-all -  [ [Research] Using official implementations vs highly popular unofficial implementation for research ](https://www.reddit.com/r/MachineLearning/comments/152qb4m/research_using_official_implementations_vs_highly/) , 2023-08-07-0939
+all -  [ [Research] Using official implementations vs highly popular unofficial implementation for research ](https://www.reddit.com/r/MachineLearning/comments/152qb4m/research_using_official_implementations_vs_highly/) , 2023-08-08-0910
 ```
 So for the past six months I have been working on a domain adaptation research problem. I wanted to inspect/understand t
 he inherent capability of SSL methods to extract domain invariant features. For this purpose I have been conducting diff
@@ -370,7 +381,7 @@ d be greatly appreciated. Thanks.
 
      
  
-all -  [ [D] NeurIPS 2023 reviews release time? ](https://www.reddit.com/r/MachineLearning/comments/14y0apq/d_neurips_2023_reviews_release_time/) , 2023-08-07-0939
+all -  [ [D] NeurIPS 2023 reviews release time? ](https://www.reddit.com/r/MachineLearning/comments/14y0apq/d_neurips_2023_reviews_release_time/) , 2023-08-08-0910
 ```
 Hey guys, I was wondering if y’all know when NeurIPS reviews for this year would be released? I know the response period
  starts on August 4, but do we get to see reviews before? Are they all released at once, or gradually as reviewers finis
@@ -380,7 +391,7 @@ h them? Thanks!
 
      
  
-all -  [ Existential Risk From AI > 10%, Change My Mind ](https://youtu.be/MhqU05yVXPU) , 2023-08-07-0939
+all -  [ Existential Risk From AI > 10%, Change My Mind ](https://youtu.be/MhqU05yVXPU) , 2023-08-08-0910
 ```
 Compilation of interviews with ML researchers about whether existential risk from AI is higher than 10% recorded at Neur
 IPS in 2022.
@@ -389,7 +400,7 @@ IPS in 2022.
 
      
  
-all -  [ [D] Come check out /r/LearningMachines, a subreddit focused on basic and applied machine learning re ](https://www.reddit.com/r/MachineLearning/comments/14u8n9h/d_come_check_out_rlearningmachines_a_subreddit/) , 2023-08-07-0939
+all -  [ [D] Come check out /r/LearningMachines, a subreddit focused on basic and applied machine learning re ](https://www.reddit.com/r/MachineLearning/comments/14u8n9h/d_come_check_out_rlearningmachines_a_subreddit/) , 2023-08-08-0910
 ```
 Hey, all. I just created a new subreddit, /r/LearningMachines. The goal of the subreddit is to be entirely research-focu
 sed. With that being said, I'm hoping the research discussed in /r/LearningMachines will be broader than just papers sub
@@ -416,7 +427,7 @@ hs to the subreddit to get the community going.
 
      
  
-all -  [ Welcome to /r/LearningMachines! ](https://www.reddit.com/r/LearningMachines/comments/14u8gsa/welcome_to_rlearningmachines/) , 2023-08-07-0939
+all -  [ Welcome to /r/LearningMachines! ](https://www.reddit.com/r/LearningMachines/comments/14u8gsa/welcome_to_rlearningmachines/) , 2023-08-08-0910
 ```
 Welcome to /r/LearningMachines! The goal for this subreddit is to be entirely research-focused. With that being said, I'
 m hoping the research discussed here will be broader than just papers submitted to ICML/NeurIPS/ICLR/CVPR. With that bei
@@ -440,126 +451,6 @@ y user to submit all of their own research products from the past 12 months to t
 
 
 Posts tagged [Throwback Discussion] are five years or older at the time they were posted.
-```
----
-
-     
- 
-all -  [ Do research publications help at all for getting SWE positions? ](https://www.reddit.com/r/cscareerquestions/comments/14thnim/do_research_publications_help_at_all_for_getting/) , 2023-08-07-0939
-```
-Hey guys. I am a rising senior starting to apply for jobs for after I graduate next spring. My main goal is to get a PhD
-, but I am applying to SWE positions as a backup in case that doesn't go well (my field is extremely competitive).
-
-I ha
-ven't done a single company internship throughout my undergraduate years - everything I have done has been research. I w
-ork in Natural Language Processing, and I have a publication at a top conference and a first-author one in review at ano
-ther (NeurIPS) now, so I'd say I'm pretty accomplished on that front for an undergraduate.
-
-But I'm not sure how strongl
-y SWE people will view these accolades/if they will even care, and instead will reject me for not having worked at a com
-pany before. Is this the case, or should my publications be decent enough that I can get interviews at top places?
-
-The 
-reason I ask is I'm not sure if its worth it practicing leetcode for interviews I might not even get, when I could also 
-be spending that time putting extra work into my research and preparing for PhD applications.
-
-Thanks for the help!
-```
----
-
-     
- 
-all -  [ Target School for CS ](https://www.reddit.com/r/gradadmissions/comments/14syt5m/target_school_for_cs/) , 2023-08-07-0939
-```
-Hi Everyone, I am Ahmad from Pakistan. I want some help for you in choosing some universities for me.
-
-About Me:
-
-1. BSC
-S Done, 2018-2022
-2. CGPA 3.43/4.0
-3. Did a 4 Month Internship and 5 Months part-time as a Deep Learning Intern and Engi
-neer at University at a startup.
-4. Working as Machine Learning Engineer at another startup full-time for 1.3 years now.
-
-5. Completed 15+ Courses on Coursera/Edx/Udemy related to ML, especially on those subjects in which I get bad grades in
- my Degree, I have a C in Lin Alg and B in Cal, so have done courses on Coursera for these subjects)
-6. Wrote more than 
-40 Articles on Machine Learning at [KDNuggets](https://www.kdnuggets.com/author/ahmad-anis) (A leading blog on ML), [Med
-ium](https://medium.com/author/ahmad-anis), [Cnvrg](https://cnvrg.io/ahmad-anis), gaining over 500k views
-7. Delivered m
-ore than 6 sessions on Machine Learning as a Guest Speaker on various events such as Local Google Devfest Cloud I/O Exte
-nded, GDSC chapters, AWS User Group Meetups etc.
-8. Regional Lead at Cohere for AI, a Non-Profit Open Science organizati
-on, organized more than 12 study sessions with various guest speakers from Stanford/Berkley/top institutes in 3 months s
-o far.
-9. AWS Community Builder
-10. Hopefully will have 2 research papers(on which I am working in my free time) by the 
-end of this year, 1 as first author, 1 as 2nd or 3rd author.
-11. 2000+ Points on Stackoverflow, impacting 200K+ people
-1
-2. Contribute to Open Source occasionally, contributed a bit in OpenAI Shap-E, AWS Rekognition Docs, and a few other pro
-jects.
-13. Hopefully will become a GDE (Google Developer Expert, an invite only program) in ML in few months
-14. Researc
-h Interests: MultiModal Deep Learning/ Visual Questioning Answering Systems/ Language Guided Recogniton.
-15. IELTS: 7, W
-ill retry and get 8+ hopefully
-16. GRE: Not given yet, will give in August.
-17. Looking for:
-
-A Lab that
-
-1. promotes pu
-blishing quality papers in top conferences such as CVPR, NeurIPS, etc.
-2. fund my studies
-3. Provides opportunity to pre
-sent and go to these conferences.
-4. A Supervisor with whom I can work on my Research Interests MultiModal/VQA/Lang guid
-ed recog.
-5. Good Reputation of University
-
-Target Countries:
-
-Flexible in it, but ideally, USA/Canada/UK/Australia/UAE/
-.......... Any other which can fulfill my Looking for section.
-
-Target Universities: These are the universities I have s
-hort-listed so far:
-
-1. MIT (Unrealistic but still want to apply to Mit Stanford Berkley lol)
-2. Stanford
-3. Berkley
-4. 
-New York Uni
-5. MILA (Uni of Montreal)
-6. MILA (McGill Uni)
-7. MILA (Polytechnique Montréal)
-8. Uni of Torronto
-9. CMU
-1
-0. Gerogia Tech
-11. TUM
-12. Nanyang Technological University
-13. Uni of Edinburgh
-14. MBZUAI
-15. Imperial College London
-
-16. Cornell
-17. Amsterdam Machine Learning Lab
-18. EPFL [https://www.epfl.ch/education/master/programs/](https://www.ep
-fl.ch/education/master/programs/)
-19. KAUST
-20. Virginia Tech
-21. Johannes Kepler University Linz
-22. TU Darmstadt
-23. U
-niversity of Wisconsin–Madison
-24. TU Dublin
-25. Uppsala Univ
-
-I would love to hear some of your thoughts and if there i
-s another better university I have a chance.
 ```
 ---
 
