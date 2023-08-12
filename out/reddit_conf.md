@@ -1,5 +1,128 @@
  
-all -  [ NeurIPS rebuttal character limit problem [D] ](https://www.reddit.com/r/MachineLearning/comments/15mtj1y/neurips_rebuttal_character_limit_problem_d/) , 2023-08-11-0909
+all -  [ Need advice: re-apply or take an offer in Germany? ](https://www.reddit.com/r/gradadmissions/comments/15oijld/need_advice_reapply_or_take_an_offer_in_germany/) , 2023-08-12-0909
+```
+Last year I applied to 10 CS PhD programs in the US with a focus on machine learning at Stanford, Columbia, CMU, Harvard
+, UMaryland, UCSD (both CS and DS PhD), Duke, UCI, UNC Chapel Hill and UIUC with zero papers but 2 years of research exp
+erience. Still, I was devastated to get rejected from all of them as I did my research and applied to targeted profs onl
+y whose research I was familiar with. I didn’t take GRE and as I mentioned I had zero accepted papers but 3 under submis
+sion.
+
+I was pretty low on energy for most of the first half of the year but put myself back together to apply to some m
+asters program at Germany — Tubingen and Saarland and got accepted in both of them.
+
+Current research profile:
+—————————
+————
+And fortunately recently one of my papers got accepted at UAI 2023 and I visited the conference as well with some p
+otential collaboration opportunities ahead. So after a year my profile looks like this:
+ - 1 accepted paper at UAI
+ - 1 
+under submission at NeurIPS with scores 4,5,4,6,4 (looks like a reject)
+ - 1 book chapter in Springer (to be published)
+
+(all relevant to the area I want to do my PhD in)
+ - currently doing some stuff on LLMs but doesn’t look like it will be
+ in a publishable shape by the application deadlines
+ - I do have 5/6 US patents filed, not sure if they are helpful as 
+I heard mixed opinions 
+
+My background:
+—————————
+ - Undergrad in electrical engineering from a top 5 IIT in India with 
+GPA 9.15/10.
+
+My letter writers are research scientists at industry with PhDs from US (they know me over 2 years) and on
+e IIT professor (also with PhD from US, worked with him for 3 months in an internship).
+
+Question:
+—————
+I am now vacill
+ating between whether to go with the offer at Tubingen or Saarland, or take another shot at the US PhD programs this yea
+r. If I need to point out 1 mistake that cost me heavily last year, I would say it’s that I didn’t contact potential sup
+ervisors that aggressively but many of them wrote that no need to contact them beforehand! On asking why rejected despit
+e being a good match, one prof replied my profile was rated highly but I had “less publications” than others and also di
+dn’t submit GRE score (it was optional, I mean wtf)!
+
+I plan to start mailing now and have some meetings next week (one 
+with a prof that rejected me last year!) Probably I would take GRE too this time.
+
+Now on the other side, I have enough 
+savings to last 1-2 years in Germany, but I would be much better off with a scholarship or stipend that I won’t have in 
+the beginning there. I don’t want to break all my FDs and stock market investments!
+
+What do you think? I am scared to a
+pply and get rejected all over again, and also a bit anxious to go to Germany without any scholarship or financial assis
+tance.
+```
+---
+
+     
+ 
+all -  [ [D] Lessons from this years Neurips ](https://www.reddit.com/r/MachineLearning/comments/15oic7a/d_lessons_from_this_years_neurips/) , 2023-08-12-0909
+```
+This years Neurips has been a rollercoaster for everyone involved.
+
+Petar Veličković says that in their AC batch 65% sub
+mitted no rebuttal or withdrew.
+
+[https://twitter.com/PetarV\_93/status/1689648854646575105](https://twitter.com/PetarV_
+93/status/1689648854646575105)
+
+Xin Eric Wang says in their batch pre-rebuttal no papers had an avg score above an weak 
+accept.
+
+[https://twitter.com/xwang\_lk/status/1686517898108674048](https://twitter.com/xwang_lk/status/1686517898108674
+048)
+
+Will NeurIPS keep 25% acceptance rate? What do you think will happen to neurips in light of the above? Is this the
+ end of big ML confs?
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ The NeurIPS 2023 LLM Efficiency Challenge Starter Guide ](https://lightning.ai/pages/community/tutorial/neurips2023-llm-efficiency-guide/) , 2023-08-12-0909
+```
+
+```
+---
+
+     
+ 
+all -  [ Publishing a computer vision work at ICRA or IROS? ](https://www.reddit.com/r/robotics/comments/15o4kqg/publishing_a_computer_vision_work_at_icra_or_iros/) , 2023-08-12-0909
+```
+Hi everyone,
+
+&#x200B;
+
+I come from a robotics background (bachelor + half of my masters), however, at the end of my mas
+ters, I shifted towards learning theory by taking lectures on a variety of subjects such as deep learning theory, statis
+tical learning, computer vision, etc. 
+
+&#x200B;
+
+Currently, I am pursuing a PhD in the intersection of learning theory 
+and computer vision, my research work revolves around compressing neural network models, reducing their complexity and t
+esting them on vision tasks (classification mostly, but sometimes extended to segmentation and object detection).
+
+My go
+-to conferences are typically CVPR, NeurIPS, ICLR...However, my supervisors and I want to try out a robotics conference,
+ and my question is, which one to prefer in my case ? Knowing that I do not experiment on real robots. Is my work more s
+uited for IROS or ICRA? Any other conference suggestion?
+
+&#x200B;
+
+Thank you for your answers.
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ NeurIPS rebuttal character limit problem [D] ](https://www.reddit.com/r/MachineLearning/comments/15mtj1y/neurips_rebuttal_character_limit_problem_d/) , 2023-08-12-0909
 ```
 The NeurIPS rebuttal has a 6000 character limit, however my rebuttal is way way over that. I was told by my supervisor t
 hat you could just comment chain onto the rebuttal to get past this, however that is not working.
@@ -11,7 +134,7 @@ ound 5 hours so I'm really in a big bind here. Does anyone have any insight abou
 
      
  
-all -  [ Looking for Perspectives: Pursuing a PhD in AI vs Continuing in Industry ](https://www.reddit.com/r/PhD/comments/15ka43p/looking_for_perspectives_pursuing_a_phd_in_ai_vs/) , 2023-08-11-0909
+all -  [ Looking for Perspectives: Pursuing a PhD in AI vs Continuing in Industry ](https://www.reddit.com/r/PhD/comments/15ka43p/looking_for_perspectives_pursuing_a_phd_in_ai_vs/) , 2023-08-12-0909
 ```
 Greetings fellow researchers,
 
@@ -42,15 +165,7 @@ ts!
 
      
  
-all -  [ [CfP] NeurIPS 2023 second Table Representation Learning workshop ](https://groups.google.com/g/ml-news/c/Tbyh8GDgyXk) , 2023-08-11-0909
-```
-
-```
----
-
-     
- 
-all -  [ [ICLR23] Dual Accounts in Openreview from the same person ](https://www.reddit.com/r/AskAcademia/comments/15k4u81/iclr23_dual_accounts_in_openreview_from_the_same/) , 2023-08-11-0909
+all -  [ [ICLR23] Dual Accounts in Openreview from the same person ](https://www.reddit.com/r/AskAcademia/comments/15k4u81/iclr23_dual_accounts_in_openreview_from_the_same/) , 2023-08-12-0909
 ```
 I as a researcher observed some researchers use dual accounts (using different email ids) in Openreview website primaril
 y ICLR or NeurIPS. One hypothesis I heard is it helps in review with one email and submit using other email ID. Is this 
@@ -61,7 +176,7 @@ permitted ? I could see as a disclaimer written in OpenReview website that irres
 
      
  
-all -  [ [D] How does one withdraw a paper from Neurips? ](https://www.reddit.com/r/MachineLearning/comments/15jd1wu/d_how_does_one_withdraw_a_paper_from_neurips/) , 2023-08-11-0909
+all -  [ [D] How does one withdraw a paper from Neurips? ](https://www.reddit.com/r/MachineLearning/comments/15jd1wu/d_how_does_one_withdraw_a_paper_from_neurips/) , 2023-08-12-0909
 ```
 First time submitter here and was unable to find a similar post (and thought the community might benefit from this in th
 e future!). How do I withdraw from Neurips? All the instructions I found are from 2017, 2018. Do I need to contact someo
@@ -71,7 +186,7 @@ ne or do I just need to 'Add Withdrawal' on OpenReview.
 
      
  
-all -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 2023-08-11-0909
+all -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 2023-08-12-0909
 ```
 NeurIPS 2023 paper reviews are visible on OpenReview.  See this [tweet](https://twitter.com/francoisfleuret/status/16864
 64712534638592). I thought to create a discussion thread for us to discuss any issue/complain/celebration or anything el
@@ -85,7 +200,7 @@ is still valuable no matter what the score is.
 
      
  
-all -  [ What is the Best Way to Learn Artificial Intelligence ](https://www.reddit.com/r/itonlinetraining/comments/15f7g4p/what_is_the_best_way_to_learn_artificial/) , 2023-08-11-0909
+all -  [ What is the Best Way to Learn Artificial Intelligence ](https://www.reddit.com/r/itonlinetraining/comments/15f7g4p/what_is_the_best_way_to_learn_artificial/) , 2023-08-12-0909
 ```
 Learning Artificial Intelligence (AI) can be a moving and worthwhile journey. Here are some steps to help you get starte
 d and make the most out of your learning experience:
@@ -170,7 +285,7 @@ velop. Most importantly, stay curious and passionate about the field, and your l
 
      
  
-all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/learnmachinelearning/comments/15doz7s/reproducing_paper_results_in_machine_learning/) , 2023-08-11-0909
+all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/learnmachinelearning/comments/15doz7s/reproducing_paper_results_in_machine_learning/) , 2023-08-12-0909
 ```
 Hi there, 
 
@@ -196,7 +311,7 @@ Hope to hear from you :).
 
      
  
-all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/DTU/comments/15dooas/reproducing_paper_results_in_machine_learning/) , 2023-08-11-0909
+all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/DTU/comments/15dooas/reproducing_paper_results_in_machine_learning/) , 2023-08-12-0909
 ```
 Hi there,
 
@@ -242,7 +357,7 @@ Hope to hear from you :).
 
      
  
-all -  [ The domain exploreAI.xyz is for sale. ](https://www.reddit.com/r/Domaininventory/comments/15cu75g/the_domain_exploreaixyz_is_for_sale/) , 2023-08-11-0909
+all -  [ The domain exploreAI.xyz is for sale. ](https://www.reddit.com/r/Domaininventory/comments/15cu75g/the_domain_exploreaixyz_is_for_sale/) , 2023-08-12-0909
 ```
 # Potential advantages of the website ExploreAI.xyz. Could offer based on the name and context:
 
@@ -336,7 +451,7 @@ ke your time, be patient with yourself, and have fun while learning!
 
      
  
-all -  [ A major AI player wants fresh grad to have minimum 8 publications! ](https://i.redd.it/o9zz9hmtc9eb1.jpg) , 2023-08-11-0909
+all -  [ A major AI player wants fresh grad to have minimum 8 publications! ](https://i.redd.it/o9zz9hmtc9eb1.jpg) , 2023-08-12-0909
 ```
 While pedigree and flair for research are crucial to such roles, a hard requirement on number of publications is pushing
  it. What’s next- fresh grad with 8 years of work experience?
@@ -345,7 +460,7 @@ While pedigree and flair for research are crucial to such roles, a hard requirem
 
      
  
-all -  [ [D] Is Conference Competition Track like NeurIPS Competition a Glorified Kaggle Competition? ](https://www.reddit.com/r/MachineLearning/comments/1544si8/d_is_conference_competition_track_like_neurips/) , 2023-08-11-0909
+all -  [ [D] Is Conference Competition Track like NeurIPS Competition a Glorified Kaggle Competition? ](https://www.reddit.com/r/MachineLearning/comments/1544si8/d_is_conference_competition_track_like_neurips/) , 2023-08-12-0909
 ```
 Is it worth the time to pour time and effort into NeurIPS's annual competitions? Winners got to present at NIPS workshop
 s.
@@ -363,7 +478,7 @@ Any help is appreciated. Thank you strangers!
 
      
  
-all -  [ What are NeurIPS Competitions ](https://www.reddit.com/r/learnmachinelearning/comments/153mnu6/what_are_neurips_competitions/) , 2023-08-11-0909
+all -  [ What are NeurIPS Competitions ](https://www.reddit.com/r/learnmachinelearning/comments/153mnu6/what_are_neurips_competitions/) , 2023-08-12-0909
 ```
 As titled.
 
@@ -373,7 +488,7 @@ Does anyone what are they?
 
      
  
-all -  [ [Research] Using official implementations vs highly popular unofficial implementation for research ](https://www.reddit.com/r/MachineLearning/comments/152qb4m/research_using_official_implementations_vs_highly/) , 2023-08-11-0909
+all -  [ [Research] Using official implementations vs highly popular unofficial implementation for research ](https://www.reddit.com/r/MachineLearning/comments/152qb4m/research_using_official_implementations_vs_highly/) , 2023-08-12-0909
 ```
 So for the past six months I have been working on a domain adaptation research problem. I wanted to inspect/understand t
 he inherent capability of SSL methods to extract domain invariant features. For this purpose I have been conducting diff
@@ -393,7 +508,7 @@ d be greatly appreciated. Thanks.
 
      
  
-all -  [ [D] NeurIPS 2023 reviews release time? ](https://www.reddit.com/r/MachineLearning/comments/14y0apq/d_neurips_2023_reviews_release_time/) , 2023-08-11-0909
+all -  [ [D] NeurIPS 2023 reviews release time? ](https://www.reddit.com/r/MachineLearning/comments/14y0apq/d_neurips_2023_reviews_release_time/) , 2023-08-12-0909
 ```
 Hey guys, I was wondering if y’all know when NeurIPS reviews for this year would be released? I know the response period
  starts on August 4, but do we get to see reviews before? Are they all released at once, or gradually as reviewers finis
