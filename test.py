@@ -258,21 +258,44 @@ class Hasher64(BaseEstimator, TransformerMixin):
 
 
 
-def sk_add_column(prepro1, df):
+def sk_add_column(prepro1, df, dtypes:dict=None):
+    """ Adds columns to sklearn output
+
+    Args:
+        prepro1: The preprocessor used to transform the data.
+        df: The DataFrame to which the column will be added.
+        dtypes (optional): A dictionary specifying the data types for the columns. Defaults to None.
+
+    Returns:
+        df: The DataFrame with the added column.
+    """    
     colsall = []    
     for vi in prepro1.transformers_[:]:
         log(vi[0])
         colsall = colsall + vi[2] 
-    log(len(     colsall ))    
+    log('Ncols:', len(colsall ))    
     
-    df = np.array(df, dtype='float32')
+    # df = np.array(df, dtype='float32')
     df = pd.DataFrame(df, columns=colsall)    
+    
+    dtypes = {} if dtypes is None else dtypes
+    for ci in df.columns : 
+        if ci in dtypes:
+            di = str(dtypes[ci])
+            if   'int32'    in di : df[ci] = df[ci].astype('int32') 
+            elif 'float32'  in di : df[ci] = df[ci].astype('float32') 
+            elif 'float64'  in di : df[ci] = df[ci].astype('float64') 
+            elif 'int64'    in di : df[ci] = df[ci].astype('int64') 
+            elif 'object'   in di : df[ci] = df[ci].astype('int64')             
+            elif 'string'   in di : df[ci] = df[ci].astype('int64')             
+            else : 
+                df[ci] = df[ci].astype('float32') 
+                
+    ### Remove duplicates column 
     # df.set_flags(allows_duplicate_labels=False)    
     df = df.loc[:,~df.columns.duplicated()].copy()
     log(df.dtypes)
     return df 
-
-
 
 #################################################################################
 from sklearn.compose import ColumnTransformer
