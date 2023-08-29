@@ -44,9 +44,15 @@ def init():
         chat_prompt_template = ChatPromptTemplate.from_messages([system_prompt_template, human_prompt_template])
 
 
-def extrapolate(prompt, output_file=config['default_output']):
+def generate_kgraph(prompt=None, output_file=None, input_file=None):
     """ Extrapolates the relationships from the given prompt. """
 
+    if instance(input_file, str):
+        with open(input_file, 'r') as f:
+            prompt = f.read().strip()
+
+    output_file = config['default_output'] if output_file is None else output_file 
+    
     response = chat(chat_prompt_template.format_prompt(
         format_instructions=parser.get_format_instructions(),
         prompt=prompt
@@ -54,16 +60,6 @@ def extrapolate(prompt, output_file=config['default_output']):
     output = parser.parse(response).list_of_relations
     csv_write(output, output_file)
 
-
-def extrapolate_file(input_file, output_file=config['default_output']):
-    """ Takes the input prompt from file. """
-
-    try:
-        with open(input_file, 'r') as f:
-            prompt = f.read().strip()
-    except OSError as e:
-        print(f"Error reading the file: {e}")
-    extrapolate(prompt, output_file)
 
 
 if __name__ == '__main__':
