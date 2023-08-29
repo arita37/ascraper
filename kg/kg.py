@@ -30,26 +30,30 @@ class ListOfRelations(BaseModel):
 
 
 ###########################################################################################################
-def generate_kgraph(prompt=None, output_file=None, input_file=None, cfg='config.yml'):
+def generate_kgraph(prompt=None, prompt_name='prompt1', output_file=None, cfg='config.yml'):
     """ Extrapolates the relationships from the given prompt. 
     
     
     """
 
     config = config_load(cfg)
-    
-    if instance(input_file, str):
-        with open(input_file, 'r') as f:
-            prompt = f.read().strip()
 
-    output_file = config['default_output'] if output_file is None else output_file 
+    if isinstance(prompt, str): 
+        prompt1 = prompt
+    else :
+        prompt1 = config[ prompt_name ]
+
+    mpars       = config['model_params'] 
+    output_file = config['output'] if output_file is None else output_file 
+
 
     
+    #############################################################################        
     os.environ['OPENAI_API_KEY'] = config['OPENAI_API_KEY']
-    chat   = ChatOpenAI(**config['model_params'])
+    chat   = ChatOpenAI(**mpars)
     parser = PydanticOutputParser(pydantic_object=ListOfRelations)
     
-    system_prompt_template = SystemMessagePromptTemplate.from_template(config['system_prompt_template'])
+    system_prompt_template = SystemMessagePromptTemplate.from_template(prompt1)
     human_prompt_template  = HumanMessagePromptTemplate.from_template("{prompt}")
     chat_prompt_template   = ChatPromptTemplate.from_messages([system_prompt_template, human_prompt_template])
     
@@ -65,7 +69,6 @@ def generate_kgraph(prompt=None, output_file=None, input_file=None, cfg='config.
 
 ################################################################################################################
 if __name__ == '__main__':
-    init()
     fire.Fire()
 
 
