@@ -1,3 +1,8 @@
+"""
+pip install utilmy fire
+
+
+"""
 import os
 import csv
 import yaml
@@ -10,6 +15,8 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts.chat import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 
+
+from utilmy import config_load, log, date_now
 
 def load_config(path):
     with open(path, 'r') as f:
@@ -26,14 +33,15 @@ class ListOfRelations(BaseModel):
     list_of_relations: List[List[str]] = Field("A list of [ENTITY1, ENTITY2, RELATION] lists.")
 
 
-config = load_config('config.yml')
-
-os.environ['OPENAI_API_KEY'] = config['OPENAI_API_KEY']
-chat = ChatOpenAI(**config['model_params'])
-parser = PydanticOutputParser(pydantic_object=ListOfRelations)
-system_prompt_template = SystemMessagePromptTemplate.from_template(config['system_prompt_template'])
-human_prompt_template = HumanMessagePromptTemplate.from_template("{prompt}")
-chat_prompt_template = ChatPromptTemplate.from_messages([system_prompt_template, human_prompt_template])
+def init():
+        config = load_config('config.yml')
+        
+        os.environ['OPENAI_API_KEY'] = config['OPENAI_API_KEY']
+        chat = ChatOpenAI(**config['model_params'])
+        parser = PydanticOutputParser(pydantic_object=ListOfRelations)
+        system_prompt_template = SystemMessagePromptTemplate.from_template(config['system_prompt_template'])
+        human_prompt_template = HumanMessagePromptTemplate.from_template("{prompt}")
+        chat_prompt_template = ChatPromptTemplate.from_messages([system_prompt_template, human_prompt_template])
 
 
 def extrapolate(prompt, output_file=config['default_output']):
@@ -47,7 +55,7 @@ def extrapolate(prompt, output_file=config['default_output']):
     csv_write(output, output_file)
 
 
-def extrapolate_from_file(input_file, output_file=config['default_output']):
+def extrapolate_file(input_file, output_file=config['default_output']):
     """ Takes the input prompt from file. """
 
     try:
@@ -59,7 +67,7 @@ def extrapolate_from_file(input_file, output_file=config['default_output']):
 
 
 if __name__ == '__main__':
-    fire.Fire({
-        'extrapolate': extrapolate,
-        'extrapolate_file': extrapolate_from_file,
-    })
+    init()
+    fire.Fire()
+
+
