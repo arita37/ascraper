@@ -3,11 +3,7 @@ pip install utilmy fire
 
 
 """
-import os
-import csv
-import yaml
-import fire
-
+import os, csv, yaml, fire
 from typing import List
 from pydantic import BaseModel, Field
 
@@ -16,8 +12,12 @@ from langchain.prompts.chat import ChatPromptTemplate, SystemMessagePromptTempla
 from langchain.output_parsers import PydanticOutputParser
 
 
-from utilmy import config_load, log, date_now
+from utilmy import ( config_load, log, date_now, pd_read_file, pd_to_file
 
+)
+
+
+##############################################################################################
 def load_config(path):
     with open(path, 'r') as f:
         return yaml.safe_load(f)
@@ -36,7 +36,10 @@ class ListOfRelations(BaseModel):
 
 ###########################################################################################################
 def generate_kgraph(prompt=None, output_file=None, input_file=None, cfg='config.yml'):
-    """ Extrapolates the relationships from the given prompt. """
+    """ Extrapolates the relationships from the given prompt. 
+    
+    
+    """
 
     config = load_config(cfg)
     
