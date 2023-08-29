@@ -18,11 +18,6 @@ from utilmy import ( config_load, log, date_now, pd_read_file, pd_to_file
 
 
 ##############################################################################################
-def load_config(path):
-    with open(path, 'r') as f:
-        return yaml.safe_load(f)
-
-
 def csv_write(relations, output_file):
     with open(output_file, 'w') as f:
         writer = csv.writer(f)
@@ -41,7 +36,7 @@ def generate_kgraph(prompt=None, output_file=None, input_file=None, cfg='config.
     
     """
 
-    config = load_config(cfg)
+    config = config_load(cfg)
     
     if instance(input_file, str):
         with open(input_file, 'r') as f:
