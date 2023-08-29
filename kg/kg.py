@@ -33,35 +33,39 @@ class ListOfRelations(BaseModel):
     list_of_relations: List[List[str]] = Field("A list of [ENTITY1, ENTITY2, RELATION] lists.")
 
 
-def init():
-        config = load_config('config.yml')
-        
-        os.environ['OPENAI_API_KEY'] = config['OPENAI_API_KEY']
-        chat = ChatOpenAI(**config['model_params'])
-        parser = PydanticOutputParser(pydantic_object=ListOfRelations)
-        system_prompt_template = SystemMessagePromptTemplate.from_template(config['system_prompt_template'])
-        human_prompt_template = HumanMessagePromptTemplate.from_template("{prompt}")
-        chat_prompt_template = ChatPromptTemplate.from_messages([system_prompt_template, human_prompt_template])
 
-
-def generate_kgraph(prompt=None, output_file=None, input_file=None):
+###########################################################################################################
+def generate_kgraph(prompt=None, output_file=None, input_file=None, cfg='config.yml'):
     """ Extrapolates the relationships from the given prompt. """
 
+    config = load_config(cfg)
+    
     if instance(input_file, str):
         with open(input_file, 'r') as f:
             prompt = f.read().strip()
 
     output_file = config['default_output'] if output_file is None else output_file 
+
+    
+    os.environ['OPENAI_API_KEY'] = config['OPENAI_API_KEY']
+    chat   = ChatOpenAI(**config['model_params'])
+    parser = PydanticOutputParser(pydantic_object=ListOfRelations)
+    
+    system_prompt_template = SystemMessagePromptTemplate.from_template(config['system_prompt_template'])
+    human_prompt_template  = HumanMessagePromptTemplate.from_template("{prompt}")
+    chat_prompt_template   = ChatPromptTemplate.from_messages([system_prompt_template, human_prompt_template])
     
     response = chat(chat_prompt_template.format_prompt(
         format_instructions=parser.get_format_instructions(),
         prompt=prompt
     ).to_messages()).content
+    
     output = parser.parse(response).list_of_relations
     csv_write(output, output_file)
 
 
 
+################################################################################################################
 if __name__ == '__main__':
     init()
     fire.Fire()
