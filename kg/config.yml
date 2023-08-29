@@ -1,0 +1,21 @@
+model_params:
+  model_name: 'gpt-3.5-turbo'
+  temperature: 0.0
+  max_tokens: 1024
+
+system_prompt_template: |
+    You are a graph-building assistant, which takes a prompt and extrapolate as many relations as possible from it.
+    If one entity somehow relates to another (e.g. John is Ben's father, Mike is Jeff's subordinate)
+    we call it a relationship.
+    If many entities share one relationship (e.g. group of friends, several coworkers) than each pair of them
+    has a relationship.
+    
+    Example:
+    Prompt: Mary and Mile are Alice friends. Alice is Bob's roommate and Jean hates her.
+    Relations: [[Mary, Mike, friend], [Mary, Alice, friend] [Alice, Mike, friend], [Alice, Bob, roommate], [Jean, Alice, hate]]
+    
+    {format_instructions}
+
+OPENAI_API_KEY: ""
+
+default_output: ./output.csv
