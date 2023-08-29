@@ -1,4 +1,137 @@
  
+all -  [ Free Development and Usage of Document GPT (This can be asked, unlike ChatGPT!) ](https://www.reddit.com/r/LangChain/comments/164ihsk/free_development_and_usage_of_document_gpt_this/) , 1693315623.0
+```
+## Creating a Document GPT with OpenAI API for Free
+
+Some time ago, I shared how to build a document GPT application usi
+ng `Langchain` and `Streamlit`, which you can refer to in the [previous article](https://www.reddit.com/r/LangChain/comm
+ents/14vwv63/chatpdf_what_chatgpt_cant_do_this_can/).
+
+As we all know, using the OpenAI API requires an API key, especia
+lly when implementing a document GPT with Langchain, which can lead to substantial API usage. This has deterred many peo
+ple and prevented most users from experiencing the application.
+
+There is an open-source project on GitHub called [`gpt4
+free`](https://github.com/xtekky/gpt4free) that allows you to utilize the OpenAI GPT model without needing an OpenAI API
+ key.
+
+This enables us to create a completely free document GPT. We simply need to modify the LLM calls in Langchain to 
+use `gpt4free`.
+
+* Source code and setup: [GitHub Repository](https://github.com/Lin-jun-xiang/docGPT-streamlit)
+* Appli
+cation: [DocGPT App](https://docgpt-app.streamlit.app/)
+
+Comparison between using OpenAI API (paid) and `gpt4free` (free
+):
+
+https://preview.redd.it/fgrbcefww1lb1.png?width=957&format=png&auto=webp&s=8c99ee4d10cb9240b806de9007ba0788b13712d7
+
+
+About `gpt4free`:
+
+* When using `gpt4free`, it has several [different Providers](https://github.com/xtekky/gpt4free#mod
+els), each with varying statuses. Sometimes you may not be able to use it properly, so remember to switch!
+* It's recomm
+ended to use Python version 3.9 or above (3.8 won't work).
+* Additionally, `gpt4free` includes a disclaimer, suggesting 
+not to use this technology for corporate projects to avoid potential issues.
+```
+---
+
+     
+ 
+all -  [ How are you guys generating massive vector bases? ](https://www.reddit.com/r/LangChain/comments/164f508/how_are_you_guys_generating_massive_vector_bases/) , 1693306315.0
+```
+I apologize if this seems like a rookie question; 
+
+But the state of ingestion just takes forever. I haven’t the patienc
+e to wait hours for massive amounts of data to be embedded and then ingested. I am familiar with chunking the documents 
+before loading, preprocessing text, then nlp chain/ split/ chunk/ token / embed. I’ve used activeloops compute engine, a
+nd colabs high-ram and/or a100 gpu. It takes forever. 
+
+So, aside from slowly ingesting documents over time. How the hel
+l do people get such large databases? 
+
+secondary question; does performance improve with the size of the db/ quantity o
+f vectors? Ie; should I stuff everything into a single vectorstore and that’s better at finding the specific  informatio
+n, or separate vector stores for individual topics/categories? 
+
+my answer is yes to the vectorstore size based on my kn
+owledge to date.
+```
+---
+
+     
+ 
+all -  [ Prompt Engineering Seems Like Guesswork - How To Evaluate LLM application properly? ](https://www.reddit.com/r/LangChain/comments/164ey51/prompt_engineering_seems_like_guesswork_how_to/) , 1693305704.0
+```
+How are folks evaluating the quality of your LLM applications? I'm running a mental health chatbot in production (small 
+scale - 10's of active users) and I've spent a lot of time finetuning prompts but it's all just guesswork. 
+
+I'll make a
+ tweak to the prompt and run a few test conversations and just kinda get the vibes of whether it's better or worse than 
+before the tweak. Is this what y'all are doing too or am  I missing something???
+```
+---
+
+     
+ 
+all -  [ What tools or frameworks do you use to make AI-based products or features? ](https://www.reddit.com/r/Startup_Ideas/comments/164esrw/what_tools_or_frameworks_do_you_use_to_make/) , 1693305228.0
+```
+Hi, I built [TreeScale.com](https://TreeScale.com).  
+I wanted to discuss what tools or frameworks you use to make an AI
+ or LLM-based feature for your product, like text generators or chatbots.  
+Based on my research and client conversation
+s, most developers use LangChain to make their Large Language Model-based product features. Still, as a developer, I und
+erstand that writing text-based prompts into the text is not sustainable in the long term.  
+What are your preferences t
+here?
+```
+---
+
+     
+ 
+all -  [ What do you use for building AI/LLM Product features? ](https://www.reddit.com/r/webdev/comments/164embi/what_do_you_use_for_building_aillm_product/) , 1693304645.0
+```
+Hi, I built [TreeScale.com](https://TreeScale.com). 
+
+I wanted to discuss what tools or frameworks you use to make an AI
+ or LLM-based feature for your product, like text generators or chatbots.
+
+Based on my research and client conversations
+, most developers use LangChain to make their Large Language Model-based product features. Still, as a developer, I unde
+rstand that writing text-based prompts into the text is not sustainable in the long term.
+
+What are your preferences the
+re?
+```
+---
+
+     
+ 
+all -  [ Incoming EE/CE Freshman looking for CS Summer Internships ](https://www.reddit.com/r/resumes/comments/164bz13/incoming_eece_freshman_looking_for_cs_summer/) , 1693295509.0
+```
+My grad date is 2026 b/c I've seen most employers don't like freshman and I technically have sophmore standing b/c AP cr
+edits.  
+
+https://preview.redd.it/zp9f217s70lb1.png?width=1700&format=png&auto=webp&s=d9eb94b18b53f57fe9bbd589362f242820
+b76596
+
+Other Questions:  
+ I have like 4 other unmentioned projects on my website, what types of projects should I be i
+ncluding on my resume?  (Ones I put the most effort into vs. maximizing buzz words / paragraph lmao).  
+
+I'm going into 
+college this year so I don't have any college clubs / classes.  Should I try to include a HS cybersecurity club I was pa
+rt of, or are projects more important.
+
+Are certs worth anything in this field, or are projects still prioritized? 
+```
+---
+
+     
+ 
 all -  [ Have the VCs decided not to fund newer search related startups ? ](https://www.reddit.com/r/ycombinator/comments/1649fis/have_the_vcs_decided_not_to_fund_newer_search/) , 1693286742.0
 ```
 Preamble- Not building a langchain wrapper.
@@ -26,14 +159,6 @@ all -  [ How do I update settings in Chainlit UI ](https://i.redd.it/us1o71o2fzk
      
  
 all -  [ How do I update settings in Chainlit UI ](https://i.redd.it/839f3f1tdzkb1.png) , 1693285061.0
-```
-
-```
----
-
-     
- 
-all -  [ First Github Repo that explains its project files, first repo that's able to answer any question abo ](https://v.redd.it/vikrqnedlvkb1) , 1693277411.0
 ```
 
 ```
@@ -178,14 +303,6 @@ ses). Need some ideas on how to handle this situation. Also for maintaining the 
 created a prompt which takes all the conversations and curate a question which can be run by csvAgent.  
 Please help or 
 share some suggestion on this problem. Thanks
-```
----
-
-     
- 
-all -  [ Thoughts on LangChain [D] ](https://www.reddit.com/r/MachineLearning/comments/163g5t1/thoughts_on_langchain_d/) , 1693210614.0
-```
-Any thoughts on using LangChain for data ingestion and retrieval when designing a LLM?
 ```
 ---
 
@@ -1091,167 +1208,6 @@ https://i.redd.it/0i69vl1s2akb1.gif
 
      
  
-all -  [ How do I go about training an open source llm on a postgres database ](https://www.reddit.com/r/learnmachinelearning/comments/1614122/how_do_i_go_about_training_an_open_source_llm_on/) , 1692980993.0
-```
-Howdy, 
-
-I'm a backend developer, and management recently asked me to train an llm on our company data. I'm a bit over m
-y head here, and I figured I'd ask for high level advice rather than continuing to go down google rabbit holes.
-
-What I'
-ve tried so far:
-
-* I spun up some gpu instances on AWS. Couldn't get llama to work at all, except for using gpt4all, wh
-ich wasn't very performant and does make a network call to a github page for a list of models.
-
-* I tired following a go
-ogle cloud tutorial [here](https://cloud.google.com/blog/products/databases/using-pgvector-llms-and-langchain-with-googl
-e-cloud-databases). This didn't work in their colab notebook, so I gave up on that since if their own documentation didn
-'t work it didn't seem promising.
-
-Any advice is appreciated!
-```
----
-
-     
- 
-all -  [ Need Help with oobabooga webui running codellama ](https://www.reddit.com/r/LocalLLaMA/comments/1610hrt/need_help_with_oobabooga_webui_running_codellama/) , 1692972887.0
-```
-here I am running latest codellama 7b ggml quantised model 
-
-&#x200B;
-
-**using web-ui:**
-
-`you: write python function to
- scrap tables from given url`
-
-`assistant: Sure I can try this out.`
-
-`'''`
-
-`'''`
-
-&#x200B;
-
-**using langchain python :
-**
-
-*output:* `I have a list of URLs and I want to scrape the table data from them using Python. Here is an example URL 
-that needs to be scraped: \`https://www.example.com/table\``
-
-`I want to scrape the following table information from the
- website:`
-
-`| Column Name | Content |`
-
-`| --- | --- |`
-
-`| First Name | John Smith |`
-
-`| Last Name | Sarah Johnson |`
-
-
-`| Age | 32 |`
-
-`| Gender | Male |`
-
-`Here is an example of how I would like to scrape the data from the website:`
-
-`\
-`\`\``
-
-`import requests`
-
-`from bs4 import BeautifulSoup`
-
-`def scrape_table(url):`
-
-`# Make a request to the URL`
-
-`re
-sp = requests.get(url)`
-
-`# Parse the HTML content of the page using Beautiful Soup`
-
-`soup = BeautifulSoup(resp.content
-, 'html.parser')`
-
-`# Extract the table data from the HTML content`
-
-`table_data = soup.find('table')['data']`
-
-`# Retur
-n the extracted table data as a list of dictionaries`
-
-`return [{'column_name': column`
-
-&#x200B;
-
-am I missing somethin
-g? please help I am new to web-ui, I can make output better using langchain but have no idea how to do it in webui. than
-ks.
-```
----
-
-     
- 
-all -  [ Retrieve Text and data from conversional agent ](https://www.reddit.com/r/LangChain/comments/160ywtd/retrieve_text_and_data_from_conversional_agent/) , 1692969085.0
-```
-Hey,
-
-im currently working on a project where i want to build a chatbot, which enables the user to run certain functiona
-lities by chat.
-
-For example the user can tell the bot to create an event, give some details by text and the agent shoul
-d return the data. For Example
-
->Human: Dinner tomorrow 8am at XZY Restaurant
-
-returns
-
-    {
-     'title':'Dinner at XZ
-Y',
-     'date': '25/08/2023 08:00pm',
-     'location':'XZY Restaurant'
-    }
-
-I created a custom tool and the extractio
-ns is working quite good. When i set return\_direct=true the data is returned correctly in this format. When i set retur
-n\_direct false the response is more conversational like  
-
-
->AI: I created your event with the following data  
-\- Titl
-e: Dinner at XZY  
-\- Date: 25/08/2023 08:00pm  
-\- Location: XZY Restaurant  
->  
->Is there anything else i can help yo
-u with?
-
-Which is good for the user to read, but is inconsitent by the format and therefore not parsable.  
-
-
-Is there a
- way how i can combine both approaches to get an response including both versions? Or getting an array of both responses
-?
-```
----
-
-     
- 
-all -  [ Why ChatPDF.com is better at answer ](https://www.reddit.com/r/ChatGPT/comments/160vahm/why_chatpdfcom_is_better_at_answer/) , 1692959089.0
-```
-Does Anyone one knows why chatPDF is better at understanding & answering anything like table or legal or finanical docum
-ents then other tools & wrappers around the Langchain? I have alos created an wrapper around the lang chain to create ch
-atpdf but not able to get the accuracy of ChatPDF.com 's level of quality answers. Please help if any one know.
-```
----
-
-     
- 
 MachineLearning -  [ Apache Airflow vs. LangChain and LlamaHub for LLM data pipeline [D] ](https://www.reddit.com/r/MachineLearning/comments/160lexg/apache_airflow_vs_langchain_and_llamahub_for_llm/) , 1692928014.0
 ```
 I’m looking for recommendations, suggestions, and/or good documentation that outlines which data pipeline would be best 
@@ -1356,57 +1312,6 @@ libraries and most of which were not useful for what I was trying to build.
 Checkout the entire blog post at [https://t
 hevatsalsaglani.medium.com/why-you-dont-need-langchain-for-building-a-rag-bot-a1dfbc74b64f](https://thevatsalsaglani.med
 ium.com/why-you-dont-need-langchain-for-building-a-rag-bot-a1dfbc74b64f)
-```
----
-
-     
- 
-MachineLearning -  [ [D] How we evaluated LLMs in prod ](https://www.reddit.com/r/MachineLearning/comments/15ogknd/d_how_we_evaluated_llms_in_prod/) , 1691778403.0
-```
-This is going to be a post about the challenges I faced while working with ChatGPT in my previous company and the things
- we did to overcome them over a 2+ month struggle. Check us out at [www.twilix.io](https://www.twilix.io/) if anything b
-elow resonates with you and I hope you find some of it helpful.
-
-So to begin, in my previous company we invested a few m
-onths building a chatbot to help with user onboarding. At first everything was great, and we saw a 40% decrease in drop-
-off rates (which is significant given we were building a consumer facing app), but somehow over time this drop-off rate 
-started creeping up again. Perplexed by the unexpected turn in metrics, management started to question the benefits of m
-aintaining this chatbot and was skeptical that we were cherry picking examples to showcase its performance for the sake 
-of not wasting our efforts. They also knew that GPT4 got shadow nerfed which didn't help our case at all.
-
-We had a lot 
-of back and forth and eventually came to the conclusion that somehow the chatbot performance have to be quantified to ju
-stify it's purpose. So, our team spent another 2 months engineering an evaluation solution to show leadership that the c
-hatbot is performing as expected while identifying areas of improvement to craft a more refined product roadmap. We ende
-d up trying a lot of different things, and after a long process of iteration and experimentation here are the things tha
-t worked for us:
-
-1. Generating synthetic datasets (these act as 'ground truths' pair of queries and expected responses)
- to benchmark performance.
-2. Training models to determine the similarity score to assess every ChatGPT output in produc
-tion (we use the generated synthetic dataset to do this to compare expected responses vs real responses)
-3. Classifying 
-the type of use cases the chatbot was used for (this allowed us to see which use cases were performing worse)
-4. Logging
- configurations in our LLM stack and building visualizations on the web to identify what gives the best results (tempera
-ture, LangChain configurations, lLamaIndex chunking sizes, these type of configurations)
-5. Monitoring how our costs and
- latency are affected by tweaking different parameters
-6. Lastly, A/B test to figure out the optimal parameters on diffe
-rent sets of users (from experience, typically for a user onboarding chatbot use case around 5,000 users interacting wit
-h your chatbot should be enough to collect some meaningful datapoints)
-
-The most important learnings that we took away w
-as that whilst synthetic data is OK you do need to generate large amounts of it. The sweet spot is different depending o
-n the use case + the specifics of your knowledge base (eg, a corpus of internal documents vs a collection of websites), 
-and I say sweet spot because after a certain amount of datapoints everything else kind of becomes noise and actually neg
-atively affects your analysis more than the benefit it brings.
-
-We ended up showing where our chatbot onboarding experie
-nce fell short and was able to fix it through rapid iteration. There's still no set standard for LLM evaluation but I ho
-pe my previous experiences helped. (Our team is now building out this evaluation system as a standalone product at [www.
-twilix.io](https://www.twilix.io/) so check us out if you also want some concrete proof that ChatGPT is performing as ex
-pected for your business)
 ```
 ---
 
