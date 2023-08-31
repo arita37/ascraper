@@ -80,33 +80,6 @@ in ML workshop.
 
      
  
-all -  [ [D] How important are the formatting guidelines for conferences during anonymous phase ](https://www.reddit.com/gallery/1614j01) , 1692982152.0
-```
-I am currently a grad student, just submitted my first paper to AAAI last week. I wrote my paper using Overleaf, and the
- link (with edit option) was shared with my supervisor. Few days before the deadline I was still editing my paper and my
- manuscript exceeded the 7-page limit. One day my supervisor checked my work and inserted \vspace{-xx} wherever applicab
-le e.g. around Section titles, tables, figures; however, this command is specifically forbidden by AAAI and authors are 
-actually not allowed to change the spacing manually. My supervisor was well-aware of this restriction but I understand m
-y supervisor’s intention was so that i could squeeze all the contents and information within the page limit. I myself, h
-owever, prefer to follow guidelines so in the end i did not use any \vspace in my submitted PDF (only PDF is required in
- the anonymous phase but not the original .tex file). Another student under my supervisor’s supervision used \vspace A L
-OT throughout his/her whole paper, to the point it was easily noticeable by naked eyes. Also, at one point my supervisor
- suggested the student to put the table caption above the table, as it is more common (although AAAI said to put the cap
-tion below the table). 
-
-Since this is my first experience of submitting to a conference, and that my supervisor has exp
-erience publishing at and supervising students for many ML/AI conferences e.g. Neurips, CVPR, ICML, I am just curious, h
-ow important are these formatting guidelines during the anonymous phase? Does it have any impact on the scores/accept-re
-ject decision? Am i being too naive or “conservative”?
-
-Another one minor question. My supervisor changed the positionin
-g of all my figures, tables, and algorithms to [tb!], which was to put them either at the top or at the bottom of the pa
-ge, and said this is the norm in academia. Is it true?
-```
----
-
-     
- 
 all -  [ Meta AIs Code Llama and Googles Quantum Experiments: Advancements in AI and Quantum Computing ](https://www.reddit.com/r/ai_news_by_ai/comments/160nxjm/meta_ais_code_llama_and_googles_quantum/) , 1692934926.0
 ```
 
@@ -260,17 +233,6 @@ esponses to their concerns and questions. Unfortunately, also quite expected.
 
 I would definitely like to see this in t
 he next Neurips but maybe with some tweaks and modifications keeping in mind the (unpaid) reviewers.
-```
----
-
-     
- 
-all -  [ [D] People who has used OpenReview, are the authors able to restore a withdrew submission? ](https://www.reddit.com/r/MachineLearning/comments/15xdmz3/d_people_who_has_used_openreview_are_the_authors/) , 1692637841.0
-```
-Long story short, this year NeurIPS in a paper which I am not really associated with, the co-authors got into a huge fig
-ht about author ordering, and one of them threatens to withdraw the submission. I'm just curious if a withdrew submissio
-n on OpenReview is able to be restored and returns to the regular review process once the withdrawal button is clicked. 
-The paper now has all the review rebutalled.
 ```
 ---
 
@@ -1002,94 +964,6 @@ earch or development, you might consider pursuing advanced degrees like a Master
 Remember, learning AI takes time, dedication, and persistence. Don't be discouraged by dares; hold them as chances to de
 velop. Most importantly, stay curious and passionate about the field, and your learning journey will be a fulfilling one
 .
-```
----
-
-     
- 
-all -  [ GenPlan '23: NeurIPS 2023 Workshop on Generalization in Planning - Call for Papers ](https://groups.google.com/g/ml-news/c/7i5YLVPi2kA) , 1690741056.0
-```
-
-```
----
-
-     
- 
-all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/learnmachinelearning/comments/15doz7s/reproducing_paper_results_in_machine_learning/) , 1690732559.0
-```
-Hi there, 
-
-I am a student at Mathematical Modelling and Computation at Technical University of Denmark. I would like to
- attend the Machine Learning Summer School in 2024 ([http://mlss.cc/](http://mlss.cc/)). 
-
-The Machine Learning Summer S
-chool has as admission requirement that I provide an extended abstract on: 'A project reproducing the results of a paper
- published by someone else in a top conference or journal in ML or applied ML (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, EC
-CV, AAAI, ACL, EMNLP, TPAMI, JMLR, Nature, Nature Communications, Science, Science Advances, PNAS) in the past 3 years.'
-
-
-Would anyone out there like to join forces and see if we can find an interesting paper in one of the mentioned journal
-s/proceedings and then reproduce their results? I am mainly interested in time series and image recognition, but I am op
-en for suggestions. 
-
-Also, if you have any ideas about good approaches to this project, I am all ears. I have found it 
-a bit overwhelming to find a suitable paper.
-
-Hope to hear from you :).
-```
----
-
-     
- 
-all -  [ Reproducing paper results in machine learning ](https://www.reddit.com/r/DTU/comments/15dooas/reproducing_paper_results_in_machine_learning/) , 1690731776.0
-```
-Hi there,
-
-I am an adult student at Mathematical Modelling and Computation, doing the ML track. I would like to attend t
-he Machine Learning Summer School in 2024 ([http://mlss.cc/](http://mlss.cc/)).
-
-The Machine Learning Summer School has 
-as admission requirement that I provide an extended abstract on: 'A project reproducing the results of a paper published
- by someone else in a top conference or journal in ML or applied ML (e.g., NeurIPS, ICML, ICLR, CVPR, ICCV, ECCV, AAAI, 
-ACL, EMNLP, TPAMI, JMLR, Nature, Nature Communications, Science, Science Advances, PNAS) in the past 3 years.'
-
-Would an
-yone out there like to join forces and see if we can find an interesting paper in one of the mentioned journals/proceedi
-ngs and then reproduce their results? It would surely look good on your github page.
-
-I am mainly interested in time ser
-ies and image recognition, but I am open for suggestions. I hold an age-old bachelor in pure maths from University of Co
-penhagen and I have completed the following relevant course in recent time:
-
-DTU:
-
-* Bayesian Machine Learning (02477)
-*
- Model Based Machine Learning (42186)
-* Deep Learning (02456)
-* Multivariate Statistics (02409)
-* Time Series Analysis (
-02417)
-* Introduction to Machine Learning and data modelling (02450)
-
-&#x200B;
-
-St. Andrews:
-
-* Mathematical Statistics 
-(MT3507)
-* Markov Chains and Processes (MT4528)
-* Bayesian Inference (MT4531)
-
-Hope to hear from you :).
-```
----
-
-     
- 
-all -  [ (30 nov. 2022) > 20x speed up, convergence in 1-4 steps. Will it comes out soon? ](https://i.redd.it/kbvtctmxbzeb1.png) , 1690669427.0
-```
-
 ```
 ---
 
