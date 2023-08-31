@@ -1,20 +1,20 @@
 """
 pip install utilmy fire
 
+set OPENAI_API_KEY env variable
 
 """
-import os, csv, yaml, fire
+import csv
+import ast
+import fire
+from langchain import PromptTemplate
+from utilmy import config_load
 from typing import List
+
+from langchain.llms import OpenAI
+from langchain.prompts import FewShotPromptTemplate
+
 from pydantic import BaseModel, Field
-
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts.chat import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
-from langchain.output_parsers import PydanticOutputParser
-
-
-from utilmy import ( config_load, log, date_now, pd_read_file, pd_to_file
-
-)
 
 
 ##############################################################################################
@@ -24,51 +24,35 @@ def csv_write(relations, output_file):
         writer.writerows(relations)
 
 
-class ListOfRelations(BaseModel):
-    list_of_relations: List[List[str]] = Field("A list of [ENTITY1, ENTITY2, RELATION] lists.")
-
-
-
 ###########################################################################################################
 def generate_kgraph(prompt=None, prompt_name='prompt1', output_file=None, cfg='config.yml'):
-    """ Extrapolates the relationships from the given prompt. 
-    
-    
-    """
+    """ Extrapolates the relationships from the given prompt. """
 
     config = config_load(cfg)
 
-    if isinstance(prompt, str): 
+    if isinstance(prompt, str):
         prompt1 = prompt
-    else :
-        prompt1 = config[ prompt_name ]
+    else:
+        prompt1 = config[prompt_name]
 
-    mpars       = config['model_params'] 
-    output_file = config['output'] if output_file is None else output_file 
+    mpars = config['model_params']
+    prompt_template_params = config['prompt_template']
+    example_template_params = config['example_prompt_template']
+    output_file = config['output'] if output_file is None else output_file
 
-
-    
-    #############################################################################        
-    os.environ['OPENAI_API_KEY'] = config['OPENAI_API_KEY']
-    chat   = ChatOpenAI(**mpars)
-    parser = PydanticOutputParser(pydantic_object=ListOfRelations)
-    
-    system_prompt_template = SystemMessagePromptTemplate.from_template(prompt1)
-    human_prompt_template  = HumanMessagePromptTemplate.from_template("{prompt}")
-    chat_prompt_template   = ChatPromptTemplate.from_messages([system_prompt_template, human_prompt_template])
-    
-    response = chat(chat_prompt_template.format_prompt(
-        format_instructions=parser.get_format_instructions(),
-        prompt=prompt
-    ).to_messages()).content
-    
-    output = parser.parse(response).list_of_relations
+    #############################################################################
+    model = OpenAI(**mpars)
+    example_prompt = PromptTemplate(**example_template_params)
+    prompt_template = FewShotPromptTemplate(
+        **prompt_template_params,
+        example_prompt=example_prompt,
+    )
+    _input = prompt_template.format(input=prompt1)
+    response = model(_input)
+    output = ast.literal_eval(response)
     csv_write(output, output_file)
-
 
 
 ################################################################################################################
 if __name__ == '__main__':
     fire.Fire()
-
-
