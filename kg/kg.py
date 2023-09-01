@@ -2,9 +2,12 @@
 
 pip install utilmy fire openai langchain
 
-set OPENAI_API_KEY env variable
 
-[test] python <__name__> generate_kgraph --prompt_name="prompt1" -o result.csv
+export OPENAI_API_KEY=""    # env variable
+cd kg
+python kg.py generate_kgraph --prompt_name prompt1  -o result.csv
+
+
 
 """
 import ast, csv, fire
@@ -22,7 +25,7 @@ def csv_write(relations, output_file):
         writer.writerows(relations)
 
 
-###########################################################################################################
+##############################################################################################
 def generate_kgraph(prompt=None, prompt_name='prompt1', output_file=None, cfg='config.yml'):
     """ Extrapolates the relationships from the given prompt. 
         Uses a fewshot prompt template, specified in the config file.
