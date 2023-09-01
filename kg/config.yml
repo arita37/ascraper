@@ -30,6 +30,7 @@ prompt_template:
         relations: |
           [["United States", "Washington", "capital"], ["Washington", "Potomac River bank", "location"], ["Washington", "Virginia", "border"], ["Washington", "Maryland", "border"]]
 
+# Example templating (similar to the main tempplate suffix)
 example_prompt_template:
   input_variables:
     - prompt

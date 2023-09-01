@@ -1,23 +1,17 @@
 """
 
-
-
-pip install utilmy fire
+pip install utilmy fire openai langchain
 
 set OPENAI_API_KEY env variable
 
+[test] python <__name__> generate_kgraph --prompt_name="prompt1" -o result.csv
+
 """
-import csv
-import ast
-import fire
-from langchain import PromptTemplate
+import ast, csv, fire
 from utilmy import config_load
-from typing import List
 
 from langchain.llms import OpenAI
-from langchain.prompts import FewShotPromptTemplate
-
-from pydantic import BaseModel, Field
+from langchain.prompts import PromptTemplate, FewShotPromptTemplate
 
 
 ##############################################################################################
@@ -29,7 +23,9 @@ def csv_write(relations, output_file):
 
 ###########################################################################################################
 def generate_kgraph(prompt=None, prompt_name='prompt1', output_file=None, cfg='config.yml'):
-    """ Extrapolates the relationships from the given prompt. """
+    """ Extrapolates the relationships from the given prompt. 
+        Uses a fewshot prompt template, specified in the config file.
+    """
 
     config = config_load(cfg)
 
