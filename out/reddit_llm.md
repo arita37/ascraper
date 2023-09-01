@@ -1,4 +1,135 @@
  
+all -  [ How to save DocArrayInMemorySearch object ](https://www.reddit.com/r/LangChain/comments/1673lji/how_to_save_docarrayinmemorysearch_object/) , 1693564829.0
+```
+Does anyone know how I can persist or save the database object created using DocArrayInMemorySearch.from\_documents(text
+s, embedding)? I can't find anything in the documentation and it would really help my project to be able to quickly uplo
+ad this. If anyone has any leads I'd really appreciate it. I'm working in Colab.
+```
+---
+
+     
+ 
+all -  [ Combining LLMs with vector DBs ](https://www.reddit.com/r/LangChain/comments/1672tpn/combining_llms_with_vector_dbs/) , 1693562209.0
+```
+I'm building a product categorizer that takes in the name of a product and assigns a category to it. My categories are s
+tored in a FAISS database.
+
+What I want to do is the following:  
+Input the name and description for the product, and fe
+tch, say the top 5 relevant categories from the DB, and then pass these along with the product information to the LLM to
+ choose the most fitting one. I want the categories to be exclusively from this DB.
+
+I tried using the RetrievalQAChain,
+ it worked fine, until I introduced a PydanticOutputParser, upon which it started to give me weird results.
+
+Am I doing 
+this right?
+
+Also more broadly, does the RetrievalQAChain perform the similarity search against the whole query? I'm not
+ sure why introducing the parser would cause the results to change.
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Creating an Embeddings REST API ](https://www.reddit.com/r/LangChain/comments/1672pca/creating_an_embeddings_rest_api/) , 1693561784.0
+```
+I wish to create a REST API (Django) that allows users to upload documents and then search on them. 
+
+My thought was to 
+have two endpoints:
+
+* `/embeddings` \- used to ingest the document, upload embeddings to Pinecone
+* `/chat` \- chat wit
+h the document
+
+Here is the code I wrote for this (found off a guide):
+
+    @router.post('/embeddings', response=Embeddi
+ngsOut)
+    def create_embeddings(request, file: UploadedFile = File(...)):
+        # set the openai key
+        openai.
+api_key = settings.OPENAI_KEY
+    
+        # Save the file to media storage
+        fs = FileSystemStorage(location='med
+ia/')  # specify the location
+        filename = fs.save(file, file)
+        file_url = fs.url(filename)
+    
+        # 
+load the file
+        loader = PyPDFLoader(f'{BASE_DIR}{file_url}')
+        data = loader.load()
+    
+        # split in
+to chunks
+        text_splitter = RecursiveCharacterTextSplitter(chunk_size=2000, chunk_overlap=0)
+        texts = text_
+splitter.split_documents(data)
+    
+        # set up the embeddings object
+        OPENAI_API_KEY = settings.OPENAI_KEY
+
+        embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
+    
+        # initialize and upload embeddings to 
+Pinecone
+        pinecone.init(
+            api_key=settings.PINECONE_API_KEY,
+            environment=settings.PINECONE
+_API_ENV
+        )
+        index_name = 'index'
+        docsearch = Pinecone.from_texts([t.page_content for t in texts],
+ embeddings, index_name=index_name)
+    
+        return {
+            'message': 'File uploaded'
+        }
+    
+    
+   
+ @router.post('/chat', response=AiOut)
+    def create_chat(request):    
+    
+        # ... all the code from the other 
+API
+    
+        llm = OpenAI(temperature=0, openai_api_key=settings.OPENAI_KEY)
+        chain = load_qa_chain(llm, chai
+n_type='stuff')
+    
+        query = 'what is this document about?'
+        docs = docsearch.similarity_search(query)
+  
+      response = chain.run(input_documents=docs, question=query)
+    
+        return {
+            'message': str,
+     
+       'session_id': str
+        }
+
+&#x200B;
+
+The `/embeddings` endpoint works great. 
+
+But, the `/chat` endpoint is whe
+re I'm struggling. From the code I have, it looks like I'd needed to load the document every time a query is made.
+
+Feel
+s like I'm missing something :)
+
+Would appreciate any nudge in the right direction!
+```
+---
+
+     
+ 
 all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1693556088.0
 ```
 
@@ -19,14 +150,6 @@ any leads?
 &#x200B;
 
 thanks!!
-```
----
-
-     
- 
-all -  [ 94% Original on Originality.ai - Undetectable AI Blogging Formula ](https://youtu.be/R2aTepfkNiY?si=tfObPC5ySqJDX42g) , 1693549048.0
-```
-
 ```
 ---
 
@@ -74,14 +197,6 @@ So what are others using?
 
 Maybe s
 elf-hosting on AWS? Other ideas?
-```
----
-
-     
- 
-all -  [ Would you use a natural language interface? Is there anything you wouldn't use it for? ](https://v.redd.it/r4rv32xfejlb1) , 1693533358.0
-```
-
 ```
 ---
 
@@ -1152,47 +1267,6 @@ tions or typos. I have a list of potential mailing addresses that can be contain
 atch/correlate, I want to return a blank array \[\]. I want to achieve very low false positive rate, how can I tailor a 
 prompt given the input document and list of mailing addresses to return an empty array when nothing is found to be corre
 lating?
-```
----
-
-     
- 
-all -  [ ConversationalRetrievalChain [got multiple argument for question_generator] ](https://www.reddit.com/r/LangChain/comments/164smjc/conversationalretrievalchain_got_multiple/) , 1693339153.0
-```
-Getting error: got multiple values for keyword argument- question\_generator .
-
-&#x200B;
-
-**return cls(\\nTypeError: lan
-gchain.chains.conversational\_retrieval.base.ConversationalRetrievalChain() got multiple values for keyword argument \\'
-question\_generator\\'', 'SystemError'**
-
-&#x200B;
-
-Qtemplate = (  
-'Combine the chat history and follow up question int
-o '  
-'a standalone question. Chat History: {chat\_history}'  
-'Follow up question: {question} withoud changing the real
- meaning of the question itself.'  
-)  
- CONDENSE\_QUESTION\_PROMPT = PromptTemplate.from\_template(Qtemplate)  
- questi
-on\_generator\_chain = LLMChain(llm=OpenAI(openai\_api\_key=openai.api\_key), prompt=CONDENSE\_QUESTION\_PROMPT)  
- chai
-n = ConversationalRetrievalChain.from\_llm(  
-llm=llm,  
-retriever=self.vector\_store.as\_retriever(),  
-combine\_docs\_
-chain\_kwargs=chain\_type\_kwargs,  
-verbose=True,  
-return\_source\_documents=True,  
-get\_chat\_history=lambda h: h,  
-
-memory=window\_memory,  
-question\_generator=question\_generator\_chain
-
-)
 ```
 ---
 
