@@ -1,4 +1,7 @@
 """
+
+
+
 pip install utilmy fire
 
 set OPENAI_API_KEY env variable
@@ -42,15 +45,20 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', output_file=None, cfg='c
 
     #############################################################################
     model = OpenAI(**mpars)
-    example_prompt = PromptTemplate(**example_template_params)
+
+    #### Context + template prompt ############################
+    example_prompt  = PromptTemplate(**example_template_params)
     prompt_template = FewShotPromptTemplate(
         **prompt_template_params,
         example_prompt=example_prompt,
     )
-    _input = prompt_template.format(input=prompt1)
+
+
+    _input   = prompt_template.format(input=prompt1)
     response = model(_input)
-    output = ast.literal_eval(response)
+    output   = ast.literal_eval(response)
     csv_write(output, output_file)
+
 
 
 ################################################################################################################

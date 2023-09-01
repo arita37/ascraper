@@ -20,7 +20,7 @@ prompt_template:
     example_separator: "\n\n"
     examples:
       - prompt: |
-          Mary and Mile are Alice's friends. Alice is Bob's roommate and Jean hates her.
+          Mary and Mike are Alice's friends. Alice is Bob's roommate and Jean hates her.
         relations: |
           [["Mary", "Mike", "friend"], ["Mary", "Alice", "friend"], ["Alice", "Mike", "friend"], ["Alice", "Bob", "roommate"], ["Jean", "Alice", "hate"]]
       - prompt: |
@@ -40,5 +40,14 @@ example_prompt_template:
 
 output: ./output.csv
 
+
+
+
+##################################################################################################
 prompt1: |
   The United States of America (U.S.A. or USA), commonly known as the United States (U.S. or US) or America, is a country primarily located in North America and consisting of 50 states, a federal district, five major unincorporated territories, nine Minor Outlying Islands,[i] and 326 Indian reservations. It is the world's third-largest country by both land and total area.[c] It shares land borders with Canada to its north and with Mexico to its south and has maritime borders with the Bahamas, Cuba, Russia, and other nations.[j] With a population of over 333 million,[k] it is the most populous country in the Americas and the third-most populous in the world. The national capital of the United States is Washington, D.C., and its most populous city and principal financial center is New York City.
+
+
+
+
+
