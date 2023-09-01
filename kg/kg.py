@@ -8,7 +8,7 @@ set OPENAI_API_KEY env variable
 
 """
 import ast, csv, fire
-from utilmy import config_load
+from utilmy import config_load, log
 
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate, FewShotPromptTemplate
@@ -18,6 +18,7 @@ from langchain.prompts import PromptTemplate, FewShotPromptTemplate
 def csv_write(relations, output_file):
     with open(output_file, 'w') as f:
         writer = csv.writer(f)
+        writer.writerow(['Entity1', 'Entity2', 'Relation'])
         writer.writerows(relations)
 
 
@@ -40,21 +41,25 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', output_file=None, cfg='c
     output_file = config['output'] if output_file is None else output_file
 
     #############################################################################
+    log(f"Initializing model {mpars['model_name']}")
     model = OpenAI(**mpars)
 
     #### Context + template prompt ############################
-    example_prompt  = PromptTemplate(**example_template_params)
+    example_prompt = PromptTemplate(**example_template_params)
     prompt_template = FewShotPromptTemplate(
         **prompt_template_params,
         example_prompt=example_prompt,
     )
-
-
-    _input   = prompt_template.format(input=prompt1)
+    log(f"Running the model")
+    _input = prompt_template.format(input=prompt1)
     response = model(_input)
-    output   = ast.literal_eval(response)
-    csv_write(output, output_file)
-
+    log("Parsing the response")
+    try:
+        output = ast.literal_eval(response)
+        csv_write(output, output_file)
+        log(f"Output written to {output_file}")
+    except Exception as e:
+        log(f"Error editing the output: {e}")
 
 
 ################################################################################################################
