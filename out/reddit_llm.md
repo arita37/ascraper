@@ -1,10 +1,53 @@
  
+all -  [ RefineDocumentsChain ](https://www.reddit.com/r/LangChain/comments/1670dl4/refinedocumentschain/) , 1693553418.0
+```
+hey guys, I can't for the life of me unserstand how to use this for a question insted of summary. i want it to get multi
+ple contexts and imporve on the answer it gives.
+
+&#x200B;
+
+any leads?
+
+&#x200B;
+
+thanks!!
+```
+---
+
+     
+ 
+all -  [ 94% Original on Originality.ai - Undetectable AI Blogging Formula ](https://youtu.be/R2aTepfkNiY?si=tfObPC5ySqJDX42g) , 1693549048.0
+```
+
+```
+---
+
+     
+ 
+all -  [ LangChain Library Adds Full Support for Neo4j Vector Index ](https://www.reddit.com/r/Neo4j/comments/166z06j/langchain_library_adds_full_support_for_neo4j/) , 1693548504.0
+```
+My latest blog post demonstrates how to use the recently added Neo4j Vector index in LangChain Library to both load and 
+read data.
+
+&#x200B;
+
+[https://medium.com/neo4j/langchain-library-adds-full-support-for-neo4j-vector-index-fa94b8eab334]
+(https://medium.com/neo4j/langchain-library-adds-full-support-for-neo4j-vector-index-fa94b8eab334)
+```
+---
+
+     
+ 
 all -  [ Would you pay for high-quality vector embeddings? ](https://www.reddit.com/r/LangChain/comments/166yug1/would_you_pay_for_highquality_vector_embeddings/) , 1693547972.0
 ```
 I'm thinking to curate high quality vector embedding 'libraries' and enable developers to call them via an API. This way
  they can embed knowledge from across domains easily into their apps.
 
 Would this be useful to you as a developer?
+
+edit
+ 1: the vector embedding libraries would be curated textual content by subject-matter-experts on topics like also tradin
+g, molecular biology, etc. that developers can't curate on their own.
 ```
 ---
 
@@ -1210,37 +1253,6 @@ um on Green Spending by accessing the documents.
 okens that can be in an instruction?
 
 Thanks!
-```
----
-
-     
- 
-all -  [ Block answer if no source documents retrieved. ](https://www.reddit.com/r/LangChain/comments/164pdn2/block_answer_if_no_source_documents_retrieved/) , 1693331757.0
-```
-I am currently using the RetrievalQA chain with similarity search and a score threshold. However, there are instances wh
-ere no documents are retrieved. In such cases, I would like the LLM to respond with 'answer not available' or not respon
-d at all. I don't want to use prompt engineering but instead am looking for a deterministic solution. Although one way t
-o handle this would be to capture the response, check for source\_documents, and then handle it appropriately, this is n
-ot feasible for me as I am streaming the answers and cannot check for source\_documents in real-time.
-
-I am curious to k
-now if others have encountered this issue and found a solution. I have already checked the documentation and the source 
-code for any relevant arguments but found nothing.
-```
----
-
-     
- 
-all -  [ Looking for a ChromaDB Client Similar to pgAdmin or MongoDB Studio ](https://www.reddit.com/r/LangChain/comments/164ofnm/looking_for_a_chromadb_client_similar_to_pgadmin/) , 1693329549.0
-```
-I am currently working with ChromaDB for a project and I'm in need of a user-friendly client tool that can provide a gra
-phical interface for managing and interacting with my ChromaDB instance. Much like pgAdmin for PostgreSQL and MongoDB St
-udio for MongoDB, I'm hoping to find a dedicated client that offers features like browsing, querying, and modifying data
-, as well as managing database configurations.
-
-If anyone is aware of a ChromaDB client that fits this description, I wo
-uld greatly appreciate your recommendations. Open-source options are preferred, but any suggestions for reliable client 
-tools that streamline ChromaDB administration would be incredibly valuable. Thank you in advance for your assistance!
 ```
 ---
 
