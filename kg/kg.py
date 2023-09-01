@@ -21,7 +21,7 @@ from langchain.prompts import PromptTemplate, FewShotPromptTemplate
 def csv_write(relations, output_file):
     with open(output_file, 'w') as f:
         writer = csv.writer(f)
-        writer.writerow(['Entity1', 'Entity2', 'Relation'])
+        writer.writerow(['a', 'b', 'relation'])
         writer.writerows(relations)
 
 
@@ -33,36 +33,46 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', output_file=None, cfg='c
 
     config = config_load(cfg)
 
-    if isinstance(prompt, str):
-        prompt1 = prompt
-    else:
-        prompt1 = config[prompt_name]
+    output_file             = config['output'] if output_file is None else output_file
 
-    mpars = config['model_params']
-    prompt_template_params = config['prompt_template']
+
+    prompt1 = prompt if isinstance(prompt, str) else prompt1 = config[prompt_name]
+
+    mpars   = config['model_params']
+    prompt_template_params  = config['prompt_template']
     example_template_params = config['example_prompt_template']
-    output_file = config['output'] if output_file is None else output_file
+
 
     #############################################################################
-    log(f"Initializing model {mpars['model_name']}")
-    model = OpenAI(**mpars)
-
     #### Context + template prompt ############################
     example_prompt = PromptTemplate(**example_template_params)
     prompt_template = FewShotPromptTemplate(
         **prompt_template_params,
         example_prompt=example_prompt,
     )
-    log(f"Running the model")
+
+
+    log(f"Running the model  {mpars['model_name']} ")
     _input = prompt_template.format(input=prompt1)
+    model  = OpenAI(**mpars)
     response = model(_input)
-    log("Parsing the response")
+    
+    
+
+    log("Parsing response")
     try:
         output = ast.literal_eval(response)
         csv_write(output, output_file)
         log(f"Output written to {output_file}")
     except Exception as e:
         log(f"Error editing the output: {e}")
+
+
+
+
+
+
+
 
 
 ################################################################################################################
