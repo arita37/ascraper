@@ -1,4 +1,12 @@
  
+all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1693556088.0
+```
+
+```
+---
+
+     
+ 
 all -  [ RefineDocumentsChain ](https://www.reddit.com/r/LangChain/comments/1670dl4/refinedocumentschain/) , 1693553418.0
 ```
 hey guys, I can't for the life of me unserstand how to use this for a question insted of summary. i want it to get multi
@@ -418,14 +426,6 @@ sits together. Thanks.
      
  
 all -  [ Building a Q&A system Using LangChain with FalkorDB ](https://www.falkordb.com/blog/building-a-qa-system-using-kg) , 1693475933.0
-```
-
-```
----
-
-     
- 
-all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1693475435.0
 ```
 
 ```
@@ -1193,66 +1193,6 @@ memory=window\_memory,
 question\_generator=question\_generator\_chain
 
 )
-```
----
-
-     
- 
-all -  [ How would you solve for this use-case? ](https://www.reddit.com/r/LangChain/comments/164qfyo/how_would_you_solve_for_this_usecase/) , 1693334213.0
-```
-Hi all. I have a scoring system against a set of environmental criteria and I apply this to a company, by looking at the
-ir annual report/sustainability disclosure. Normally, this is a manual effort which involves a lot of ctrl + f and going
- through PDFs to source information. So, I have implemented RAG against GPT-4 and using Retrieval QA to ask basic questi
-ons which works and definitely helps speed up the process of finding information, but I'd love to be able to make the wh
-ole end-to-end process automated so an LLM can score a client.
-
-I outline an example of the scoring criteria below:
-
-Cat
-egory: Green spending
-
-Score 1 - The client has quantified plans to spend money on reducing their emissions in the next 
-two years.
-
-Score 2 - The client has plans to spend money on reducing emissions but has not quantified this.
-
-Score 3 - 
-The client has no plans to spend money to reduce emissions.
-
-So how would I put this in an Instruct Tune format I use fo
-r a Llama model?
-
-Instruction:
-
-Score the client from 1-3 based on the following criteria.
-
-Score 1 - The client has qua
-ntified plans to spend money on reducing their emissions in the next two years.
-
-Score 2 - The client has plans to spend
- money on reducing emissions but has not quantified this.
-
-Score 3 - The client has no plans to spend money to reduce em
-issions.
-
-Output:
-
-Insert model answer here for one of the scores.
-
-Repeat this so each score has a model answer across 
-the categories.
-
-There are about 15 categories, and I could generate 1,000-2,000 examples across the various combination
-s of score and category.
-
-My plan would then be to use this fine-tuned model in RAG, and ask it to score British Petrole
-um on Green Spending by accessing the documents.
-
-1. Does this sound like a sound strategy?
-2. Is there a limit to the t
-okens that can be in an instruction?
-
-Thanks!
 ```
 ---
 
