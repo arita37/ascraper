@@ -1,4 +1,32 @@
  
+all -  [ Road from ML PhD to Data Scientist/MLE ](https://www.reddit.com/r/learnmachinelearning/comments/166872e/road_from_ml_phd_to_data_scientistmle/) , 1693480253.0
+```
+Hi all;  
+
+
+So, I have just received my PhD in Machine Learning. From a known uni in the EU, I had a slightly above-aver
+age PhD (Neurips, AAAI, UAI papers). Now I am starting a postdoc at another uni, for 2 years. However, I am getting cold
+ feet about academia and thinking of leaving for industry. 
+
+My question is: what can I do in the next two years to incr
+ease my chances of finding data science or MLE roles? Being a more theory-oriented researcher, my SWE game is very weak.
+ I need to show employers that I have the tech stack knowledge. Would certificates help if I train for, say, Google's ML
+ Engineer certification? What about data science? I do not expect to start senior or middle-level just because I have a 
+PhD. I am more than okay starting as a junior, knowing that my SWE game is weak, and I don't have any industry experienc
+e. I don't mind starting from the bottom of the barrel.
+
+Follow-up questions:
+
+1. For all those who are going to say: ce
+rtificate is useless, you need experience; how do I get the first job to get experience then?  
+
+
+&#x200B;
+```
+---
+
+     
+ 
 all -  [ [D] Limit the Number of Papers I Review on OpenReview? ](https://www.reddit.com/r/MachineLearning/comments/162uumz/d_limit_the_number_of_papers_i_review_on/) , 1693153486.0
 ```
 Hello,
