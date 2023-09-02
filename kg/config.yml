@@ -1,45 +1,98 @@
-model_params:
-  model_name: 'text-davinci-003'
-  temperature: 0.0
-  max_tokens: 1024
 
-prompt_template:
-    input_variables:
-      - input
-    prefix: |
-      You are a relation-finding assistant, which takes user's text input and extracts relations from it.
-      Relation is a type of connection between two objects.
-      If one entity somehow relates to another, then we call it a relation.
-      If many entities share one relation, then each pair of them has a relation.
+################################################################################################
+############## Prompt Task example #############################################################
+mode1:
+    model_params:
+      model_name: 'text-davinci-003'
+      temperature: 0.0
+      max_tokens: 1024
 
-      Examples:
-    suffix:  |
-      prompt: {input}
-      relations:
+    prompt_template:
+        input_variables:
+          - input
+        prefix: |
+          You are a relation-finding assistant, which takes user's text input and extracts relations from it.
+          Relation is a type of connection between two objects.
+          If one entity somehow relates to another, then we call it a relation.
+          If many entities share one relation, then each pair of them has a relation.
 
-    example_separator: "\n\n"
-    examples:
-      - prompt: |
-          Mary and Mike are Alice's friends. Alice is Bob's roommate and Jean hates her.
-        relations: |
-          [["Mary", "Mike", "friend"], ["Mary", "Alice", "friend"], ["Alice", "Mike", "friend"], ["Alice", "Bob", "roommate"], ["Jean", "Alice", "hate"]]
-      - prompt: |
-          Washington is the capital city of the United States. The city is located on the east bank of
-          the Potomac River, which forms its southwestern border with Virginia and borders Maryland
-          to its north and east.
-        relations: |
-          [["United States", "Washington", "capital"], ["Washington", "Potomac River bank", "location"], ["Washington", "Virginia", "border"], ["Washington", "Maryland", "border"]]
+          Examples:
+        suffix:  |
+          prompt: {input}
+          relations:
 
-# Example templating (similar to the main tempplate suffix)
-example_prompt_template:
-  input_variables:
-    - prompt
-    - relations
-  template: |
-    prompt: {prompt}
-    relations: {relations}
+        example_separator: "\n\n"
+        examples:
+          - prompt: |
+              Mary and Mike are Alice's friends. Alice is Bob's roommate and Jean hates her.
+            relations: |
+              [["Mary", "Mike", "friend"], ["Mary", "Alice", "friend"], ["Alice", "Mike", "friend"], ["Alice", "Bob", "roommate"], ["Jean", "Alice", "hate"]]
+          - prompt: |
+              Washington is the capital city of the United States. The city is located on the east bank of
+              the Potomac River, which forms its southwestern border with Virginia and borders Maryland
+              to its north and east.
+            relations: |
+              [["United States", "Washington", "capital"], ["Washington", "Potomac River bank", "location"], ["Washington", "Virginia", "border"], ["Washington", "Maryland", "border"]]
 
-output: ./output.csv
+
+
+    # Example templating (similar to the main tempplate suffix)
+    prompt_template_example:
+      input_variables:
+        - prompt
+        - relations
+      template: |
+        prompt: {prompt}
+        relations: {relations}
+
+
+
+mode2:
+    model_params:
+      model_name: 'text-davinci-003'
+      temperature: 0.0
+      max_tokens: 1024
+
+    prompt_template:
+        input_variables:
+          - input
+        prefix: |
+          You are a relation-finding assistant, which takes user's text input and extracts relations from it.
+          Relation is a type of connection between two objects.
+          If one entity somehow relates to another, then we call it a relation.
+          If many entities share one relation, then each pair of them has a relation.
+
+          Examples:
+        suffix:  |
+          prompt: {input}
+          relations:
+
+        example_separator: "\n\n"
+        examples:
+          - prompt: |
+              Mary and Mike are Alice's friends. Alice is Bob's roommate and Jean hates her.
+            relations: |
+              [["Mary", "Mike", "friend"], ["Mary", "Alice", "friend"], ["Alice", "Mike", "friend"], ["Alice", "Bob", "roommate"], ["Jean", "Alice", "hate"]]
+          - prompt: |
+              Washington is the capital city of the United States. The city is located on the east bank of
+              the Potomac River, which forms its southwestern border with Virginia and borders Maryland
+              to its north and east.
+            relations: |
+              [["United States", "Washington", "capital"], ["Washington", "Potomac River bank", "location"], ["Washington", "Virginia", "border"], ["Washington", "Maryland", "border"]]
+
+
+
+    # Example templating (similar to the main tempplate suffix)
+    prompt_template_example:
+      input_variables:
+        - prompt
+        - relations
+      template: |
+        prompt: {prompt}
+        relations: {relations}
+
+
+
 
 
 

@@ -26,25 +26,25 @@ def csv_write(relations, output_file):
 
 
 ##############################################################################################
-def generate_kgraph(prompt=None, prompt_name='prompt1', output_file=None, cfg='config.yml'):
+def generate_kgraph(prompt=None, prompt_name='prompt1', mode='mode1', output_file="kg_out.csv", cfg='config.yml'):
     """ Extrapolates the relationships from the given prompt. 
         Uses a fewshot prompt template, specified in the config file.
     """
-
     config = config_load(cfg)
 
-    output_file             = config['output'] if output_file is None else output_file
-
-
+    
     prompt1 = prompt if isinstance(prompt, str) else prompt1 = config[prompt_name]
 
-    mpars   = config['model_params']
-    prompt_template_params  = config['prompt_template']
-    example_template_params = config['example_prompt_template']
+
+    #### Load specific config #################################
+    cfg   = config[mode]
+    mpars = cfg['model_params']
+    prompt_template_params  = cfg['prompt_template']
+    example_template_params = cfg['prompt_template_example']
 
 
     #############################################################################
-    #### Context + template prompt ############################
+    #### Context + template prompt ##############################################
     example_prompt = PromptTemplate(**example_template_params)
     prompt_template = FewShotPromptTemplate(
         **prompt_template_params,
@@ -52,14 +52,13 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', output_file=None, cfg='c
     )
 
 
-    log(f"Running the model  {mpars['model_name']} ")
+    log(f"### Running the model  {mpars['model_name']} ")
     _input = prompt_template.format(input=prompt1)
     model  = OpenAI(**mpars)
     response = model(_input)
     
     
-
-    log("Parsing response")
+    log("### Parsing response")
     try:
         output = ast.literal_eval(response)
         csv_write(output, output_file)
