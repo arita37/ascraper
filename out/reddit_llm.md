@@ -1,4 +1,90 @@
  
+all -  [ AI Tools ](https://www.reddit.com/r/u_Best_Ai_Tools_Finder/comments/168dcan/ai_tools/) , 1693687543.0
+```
+Here are 25 ChatGPT Plugins that'll skyrocket your efficiency in minutes:
+
+1. Slack: Querying Slack
+
+2. Zapier: Interact
+ with 5000+ apps like Google Sheets, and Docs.
+
+3. Best AI Tools Finder: Find any AI tool for anything imaginable.
+
+4. K
+larna Shopping: Search and compare prices from 1000s of online shops.
+
+5. Vogue: Search through vogue articles.
+
+6. TODO
+ plugin: Manage a TO-DO list in ChatGPT.
+
+7. Lowes: Find the right tools for all of your home building needs.
+
+8. Speech
+ki: Just simply ask ChatGPT to turn your text into audio.
+
+9. FigGPT: Design using Figma in ChatGPT.
+
+10. Noteable: Crea
+te notebooks in Python, SQL, and Markdown to explore and visualize data.
+
+11. KAYAK: Plan & book your next trip in ChatG
+PT.
+
+12. LangChain Docs: Up to date info for the LangChain Python library.
+
+13. Expedia: Bring your trip plans to life i
+n one place.
+
+14. Crypto Prices: Get the price on any crypto.
+
+15. NBA: Up-to-date NBA standings & Stats.
+
+16. Qdrant: P
+lugin to search through Qdrants documentation.
+
+17. Open Table: Search and get booking at restaurants anywhere, anytime.
+
+
+18. Zilliz Plugin: Search through your documentation and talk to it.
+
+19. Wolfram: Access computation, math, curated k
+nowledge and real time data
+
+20. Pricerunner: Get the perfect shopping suggestions.
+
+21. Instacart: Order groceries from
+ your near by store.
+
+22. Send Email: Send the perfect emails through ChatGPT.
+
+23. FiscalNote: Access real time data se
+ts for legal and political purpose.
+
+24. DAN: Change ChatGPT’s personality.
+
+25. DesignerGPT: Generate a website within 
+ChatGPT.
+```
+---
+
+     
+ 
+all -  [ How to deploy/host custom LLM app for production? ](https://www.reddit.com/r/LocalLLaMA/comments/1689jfx/how_to_deployhost_custom_llm_app_for_production/) , 1693678460.0
+```
+So let's say we have created app using Langchain and Pinecone (for embeddings). App uses AutoTokenizer, AutoModelForCaus
+alLM, ConversationalRetrievalChain for basic QA on documents and X model from HuggingFace.   
+
+
+For now I ran this in Go
+ogle Colab, but what if I want to make this accessable to public? How do I host this and where? I know there is Azure th
+ing, but that's for using OpenAi stuff. I couldn't find any good guide or anything like that for hosting this LLM apps f
+or public, so not locally.
+```
+---
+
+     
+ 
 all -  [ I am having trouble with large dataset. ](https://www.reddit.com/r/LangChain/comments/1688bek/i_am_having_trouble_with_large_dataset/) , 1693675549.0
 ```
 I am using langchain framework 'load_qa_chain' to ask questions from a huge dataset. But it is unable to answer some que
@@ -1121,24 +1207,6 @@ I know my way around software, but good
 , and I've been dabbling since (I have a medium-sized Rails application in production). 
 
 Any input is appreciated.
-```
----
-
-     
- 
-all -  [ Should I move to Python? ](https://www.reddit.com/r/rprogramming/comments/165ij20/should_i_move_to_python/) , 1693410887.0
-```
-I love R. I have used R for statistics, used RQDA to analyze text, learnt some ML on R and so many other things. But, no
-w it seems I might need to change. RQDA is deprecated. I am not sure if there are tools in R to configure AI tools - and
- videos suggest installing python tools in R for them (eg Langchain). Is it time to move?
-```
----
-
-     
- 
-all -  [ (Good Discussion) Is there anything LangChain can do better than using LLMs directly (either through ](/r/MachineLearning/comments/165airj/d_is_there_anything_langchain_can_do_better_than/) , 1693408637.0
-```
-
 ```
 ---
 
