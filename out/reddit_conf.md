@@ -1,4 +1,35 @@
  
+all -  [ [D] Am I the only one finding this a bit upsetting? ](https://www.reddit.com/r/MachineLearning/comments/167n0g0/d_am_i_the_only_one_finding_this_a_bit_upsetting/) , 1693612010.0
+```
+Hello everyone,
+
+In the process of writing up a literature review for my master's thesis, I wanted to cover the impact o
+f ReLU on the field which was significant. When looking for an original paper I came across this paper/report: [https://
+arxiv.org/abs/1803.08375](https://arxiv.org/abs/1803.08375). There isn't anything special about this work and as a matte
+r of fact, I was surprised that it has thousands of citations (2974 at the moment of writing this post according to Goog
+le Scholar). Given this and that this work is not an original ReLU paper but more of a file documenting an implementatio
+n of it for a particular setup I found it quite intriguing. Then I started to dig into works that cited this and unexpec
+tedly papers from top conferences such as NeurIPS cited the aforementioned document as a reference to the activation fun
+ction. Here are some examples:
+
+1. [https://proceedings.neurips.cc/paper\_files/paper/2022/file/fbb10d319d44f8c3b4720873
+e4177c65-Paper-Conference.pdf](https://proceedings.neurips.cc/paper_files/paper/2022/file/fbb10d319d44f8c3b4720873e4177c
+65-Paper-Conference.pdf)
+2. [https://proceedings.neurips.cc/paper\_files/paper/2022/file/69e2f49ab0837b71b0e0cb7c555990f
+8-Paper-Conference.pdf](https://proceedings.neurips.cc/paper_files/paper/2022/file/69e2f49ab0837b71b0e0cb7c555990f8-Pape
+r-Conference.pdf)
+
+The researchers who have done that are not referencing the original ReLU paper instead which I think 
+is a bit disrespectful towards the achievement of original authors. On the other hand, maybe I am overthinking it a bit.
+ ReLU has been around for a while and it would be surprising for someone conducting research in deep learning to not kno
+wing it hence as a reader I wouldn't necessarily mind if people did not include the reference to the paper which is wide
+ly known. However, I reckon if a reference is made, then it should be meaningful and correct, and not just another extra
+ few lines in a bibliography making it look big.
+```
+---
+
+     
+ 
 all -  [ Road from ML PhD to Data Scientist/MLE ](https://www.reddit.com/r/learnmachinelearning/comments/166872e/road_from_ml_phd_to_data_scientistmle/) , 1693480253.0
 ```
 Hi all;  
@@ -893,105 +924,6 @@ all -  [ [D] How does one withdraw a paper from Neurips? ](https://www.reddit.co
 First time submitter here and was unable to find a similar post (and thought the community might benefit from this in th
 e future!). How do I withdraw from Neurips? All the instructions I found are from 2017, 2018. Do I need to contact someo
 ne or do I just need to 'Add Withdrawal' on OpenReview.
-```
----
-
-     
- 
-all -  [ [D] NeurIPS 2023 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023_paper_reviews/) , 1690922642.0
-```
-NeurIPS 2023 paper reviews are visible on OpenReview.  See this [tweet](https://twitter.com/francoisfleuret/status/16864
-64712534638592). I thought to create a discussion thread for us to discuss any issue/complain/celebration or anything el
-se.
-
-There is so much noise in the reviews every year. Some good work that the authors are proud of might get a low scor
-e because of the noisy system, given that NeurIPS is growing so large these years. We should keep in mind that the work 
-is still valuable no matter what the score is.
-```
----
-
-     
- 
-all -  [ What is the Best Way to Learn Artificial Intelligence ](https://www.reddit.com/r/itonlinetraining/comments/15f7g4p/what_is_the_best_way_to_learn_artificial/) , 1690882103.0
-```
-Learning Artificial Intelligence (AI) can be a moving and worthwhile journey. Here are some steps to help you get starte
-d and make the most out of your learning experience:
-
-# Understand the Basics of AI: 
-
-Begin by familiarizing yourself w
-ith the fundamental concepts of AI, such as machine learning, neural networks, natural language processing, computer vis
-ion, and robotics. Online tutorials, courses, and books can be excellent resources for this.
-
-# Math and Programming Ski
-lls: 
-
-A strong foundation in mathematics, particularly linear algebra, calculus, probability, and statistics, is essent
-ial for understanding AI algorithms. Additionally, proficiency in programming languages like Python is crucial, as it is
- widely used in AI development.
-
-# Online Courses and Tutorials: 
-
-**Enroll in an online** [**ai training institute in G
-urgaon**](https://www.ssdntech.com/ai-courses/ai-training-gurgaon-city) offered by reputable platforms like Coursera, ed
-X, Udacity, and others. These courses often provide structured learning paths and hands-on projects.
-
-# Explore AI Libra
-ries and Frameworks: 
-
-Familiarize yourself with popular AI libraries and frameworks like TensorFlow, Keras, PyTorch, an
-d sci-kit-learn. These tools simplify AI development and provide valuable resources, tutorials, and documentation.
-
-# Ha
-nds-On Projects: 
-
-Theory alone is not enough; practice is crucial in AI learning. Work on practical projects to apply y
-our understanding and gain real-world skill. Platforms like Kaggle offer datasets and competitions to challenge yourself
-.
-
-# Join AI Communities: 
-
-Engage with AI communities, forums, and social media groups to interact with fellow learners
- and experts. Asking questions and discussing topics can deepen your understanding and offer new perspectives.
-
-# Read R
-esearch Papers: 
-
-Stay updated with the latest advancements in AI by reading research papers published in conferences li
-ke NeurIPS, ICML, and CVPR. This will expose you to cutting-edge research and innovative ideas.
-
-# Participate in AI Com
-petitions and Hackathons: 
-
-Participating in AI competitions can be a great way to apply your skills, learn from others,
- and potentially win prizes.
-
-# Build a Portfolio: 
-
-Create a portfolio to showcase your AI projects, code repositories,
- and any other relevant achievements. This will be helpful when applying for AI-related jobs or higher studies.
-
-# Conti
-nuous Learning and Practice:
-
- AI is a rapidly evolving field, so continuous learning is essential. Keep yourself update
-d with the latest trends, techniques, and tools in the AI community.
-
-# Explore Specializations: 
-
-AI is a vast field wi
-th various specializations. Based on your interests, delve deeper into areas like computer vision, natural language proc
-essing, reinforcement learning, or robotics.
-
-# Consider Advanced Degrees: 
-
-If you are serious about a career in AI res
-earch or development, you might consider pursuing advanced degrees like a Master's or Ph.D. in AI-related disciplines.
-
-
-Remember, learning AI takes time, dedication, and persistence. Don't be discouraged by dares; hold them as chances to de
-velop. Most importantly, stay curious and passionate about the field, and your learning journey will be a fulfilling one
-.
 ```
 ---
 

@@ -1,4 +1,277 @@
  
+all -  [ How to deal with missing question mark? ](https://www.reddit.com/r/LangChain/comments/167vauj/how_to_deal_with_missing_question_mark/) , 1693637101.0
+```
+I've noticed that there is a different answer if you put question mark or not in the question. I have trained a llm that
+ behaves very nicely, trained on a company FAQ. But the answers differ if a question mark is present or not, the latter 
+being a pain since the reply becomes a generic one and not the one that it should based on the training document.
+
+Train
+ed with openAI functions, ver 3.5
+
+Amy way to get pass this? Prompt engineering? How to understand if it's a question or
+ not and apply the question mark?
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ I have some defined classes and a design system. What is the best approach to build a chat bot that  ](https://www.reddit.com/r/LangChain/comments/167sfdx/i_have_some_defined_classes_and_a_design_system/) , 1693627485.0
+```
+ How can I create a chatbot that generates HTML components using predefined classes from a design system, and what is th
+e best approach to manage this without utilizing a vector store? 
+```
+---
+
+     
+ 
+all -  [ Conversationalretrievalchains pigeon holes on chat history + history overwhelms context window ](https://www.reddit.com/r/LangChain/comments/167ndda/conversationalretrievalchains_pigeon_holes_on/) , 1693612938.0
+```
+Hey y’all, I build an app using conversationalretrievalchains (CRCs). But I am having two problems. I have solved both, 
+but I am curious if there is a better way to handle them. 
+
+The two problems
+
+* The chat pigeonholes itself once you sta
+rt to include chat history. 
+* Long chat histories completely overwhelm the context window making it such that the quest
+ion isn’t even included in the inference request anymore. 
+
+For completeness, I am using Quadrant and MPT-30B (not that 
+I think that matters a lot. I believe all CRCs with chat history will suffer from these issues). 
+
+Let me explain in mor
+e detail. 
+
+Problem 1. When you create a CRC with chat memory, you add the conversation history to each request. At firs
+t, the chat history is empty, and so the chat works as you expect. But once you add the history to the request, it start
+s to include it in the similarity search with the vector store. As a result, the vector store will only return the same 
+document repeatedly as it is the best match based on the chat history. But as a result, you can never get out of this pi
+geonhole of information. 
+
+My current solution is to include an additional call to the LLM to determine if the question 
+is a follow-up question to the previous question. If it answers yes, I’ll include the history if it answers no, I won’t 
+
+
+This works ok but does introduce quite a bit of latency as I have to do yet another LLM call. If you are familiar with
+ the CRC, you know that it already does two calls. One to condense the chat history and one to answer the question. 
+
+No
+w for the second problem. If your chat history gets long enough, it will eventually get too long for the context window,
+ and as a result, it will cut off the actual question. The resulting answers are random ramblings about the chat history
+ that makes no sense and have no relation to the question. I solved this by only including the last five messages. This 
+works fine but does introduce long-term memory loss. 
+
+I guess you could get creative and add another inference call or 
+similarity search between the question and the chat history to decide which bits to include, but to be honest, I don’t c
+are that much about the long-term memory loss. 
+
+Overall, it just feels like nobody actually used langchain to build any
+thing but cool local demos on your laptop. There are a lot of issues that start to pop up the moment you build an actual
+ chatbot. 
+
+I am debating dropping it entirely and just doing the similarity search myself. After all, all langchain doe
+s is wrap some vector store and LLM call in a nice wrapper. 
+
+Anyway, I hope that made sense, and I am curious if people
+ have encountered the same problem and what solution they came up with. 
+```
+---
+
+     
+ 
+all -  [ Chatgpt Code Interpreter Ochastration ](https://www.reddit.com/r/ChatGPT/comments/167ki02/chatgpt_code_interpreter_ochastration/) , 1693605697.0
+```
+The user experience when interacting with ChatGPT’s code interpreter is impressively seamless. I am wondering how is the
+ prompt and orchestration designed to support the features outlined below? Is there a “langchain” agent that can offer c
+omparable functionality?
+
+“it is evident that the code interpreter is capable of utilizing external files, executing scr
+ipts, planning, creating multiple scripts to address a single query, and incorporating answers directly into the respons
+e. Moreover, it has additional functionalities such as debugging/self-correction, the ability to seek modifications or c
+larifications post script generation” 
+[https://levelup.gitconnected.com/the-magical-chatgpt-code-interpreter-plugin-you
+r-personal-programmer-and-data-analyst-f8cd69e8323b](https://levelup.gitconnected.com/the-magical-chatgpt-code-interpret
+er-plugin-your-personal-programmer-and-data-analyst-f8cd69e8323b)
+```
+---
+
+     
+ 
+all -  [ The talks from SeattleJS Conf 2023 have been posted online (free) ](https://www.reddit.com/r/webdev/comments/167kfyv/the_talks_from_seattlejs_conf_2023_have_been/) , 1693605570.0
+```
+The talks from [SeattleJS Conf 2023](https://seattlejs.com/conf) have been posted online, for free! 
+
+[https://www.youtu
+be.com/playlist?list=PLLiioAbFTbKMJMlJnhkiKy7IfsnsCVAb5](https://www.youtube.com/playlist?list=PLLiioAbFTbKMJMlJnhkiKy7I
+fsnsCVAb5)
+
+Talk rundown:
+
+* What to Know About Deno 2.0 by Kevin Whinnery
+* Rebuilding in Rust for Good Reason by Eve P
+orcello
+* 50 shades of React rendering with Next.js by Ben Ilegbodu
+* FLIP no more; Viva View Transitions by Adam Argyle
+
+* Creating a Design System using Design Tokens With Amplify by Erik Hanchett
+* Move over passwords, passkeys are my new
+ best friend! by Daphne Liu
+* Understanding LangChain Agents and Tools with Twilio (or with SMS) by Lizzie Siegle
+* Buil
+ding a Real-Time Multiplayer Reactions Component by John Pham
+* Every Process, Everywhere, All at Once by Luis Montes
+* 
+ES13 and Beyond: The Future of JavaScript by Christina Zhu
+* Static Analysis: Don't Fear the Linter! by Josh Goldberg
+* 
+A Plea for Boring Tech by Jason Lengstorf
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Langchain in Javascript in a .NET project ](https://www.reddit.com/r/LangChain/comments/167g2mi/langchain_in_javascript_in_a_net_project/) , 1693595383.0
+```
+Sorry for being an absolute beginner but I have a co-worker that supplied me some JS Langchain code and I am trying to i
+ntegrate it into my .NET project. Is this possible?
+
+&#x200B;
+
+I have installed what I believe are the correct Nuget pac
+kages but they appear to be targeting the .NET Framework. I also tried running the 'npm install -S langchain' command in
+ the package manager console with no luck.
+
+These are the lines I am getting an exception on:
+
+**import { PromptTemplate
+ } from 'langchain/prompts';**
+
+**import { LLMChain } from 'langchain/chains';**
+
+**import { OpenAI } from 'langchain/ll
+ms/openai';**
+
+&#x200B;
+
+Here is the error:
+
+**Failed to resolve module specifier 'langchain/chains'. Relative reference
+s must start with either '/', './', or '../'.**
+
+The install of the packages did not add a Langchain folder into the pro
+ject, so I don't know how to reference what it's looking for with a relative path. Any help or knowledge would be apprec
+iated. I have been banging my head against a wall for two days.
+```
+---
+
+     
+ 
+all -  [ Stanford DSPy - Better than LangChain? ](https://www.reddit.com/r/LangChain/comments/167dzcb/stanford_dspy_better_than_langchain/) , 1693590576.0
+```
+Stanford recently launched [DSPy](https://github.com/stanfordnlp/dspy), a really cool python language model framework th
+at includes automatic prompt generation for tasks.   
+
+
+I'm interested to hear what you guys think about this because it
+ sounds like a potential LangChain replacement. It looks like a great alternative to manual prompt engineering, but I do
+n't completely understand how they are able to optimize prompts.  
+
+
+Here's how they compare DSPy to LangChain:  
+ 
+
+>La
+ngChain and LlamaIndex are popular libraries that target high-level application development with LMs. They offer many *b
+atteries-included*, pre-built application modules that plug in with your data or configuration. In practice, many usecas
+es genuinely *don't need* any special components indeed. If you'd be happy to use someone's generic, off-the-shelf promp
+t for question answering over PDFs or standard text-to-SQL as long as it's easy to set up on your data, then you will pr
+obably find a very rich ecosystem in these libraries.  
+>  
+>Unlike these libraries, **DSPy** doesn't internally contain
+ hand-crafted prompts that target specific applications you can build. Instead, **DSPy** introduces a very small set of 
+much more powerful and general-purpose modules *that can learn to prompt (or finetune) your LM within your pipeline on y
+our data*.  
+>  
+>**DSPy** offers a whole different degree of modularity: when you change your data, make tweaks to your
+ program's control flow, or change your target LM, the **DSPy compiler** can map your program into a new set of prompts 
+(or finetunes) that are optimized specifically for this pipeline. Because of this, you may find that **DSPy** obtains th
+e highest quality for your task, with the least effort, provided you're willing to implement (or extend) your own short 
+program.  
+>  
+>If you're familiar with neural networks:  
+>  
+>This is like the difference between PyTorch (i.e., repre
+senting **DSPy**) and HuggingFace Transformers (i.e., representing the higher-level libraries). If you simply want to us
+e off-the-shelf BERT-base-uncased or GPT2-large or apply minimal finetuning to them, HF Transformers makes it very strai
+ghtforward. If, however, you're looking to build your own architecture (or extend an existing one significantly), you ha
+ve to quickly drop down into something much more modular like PyTorch. Luckily, HF Transformers *is* implemented in back
+ends like PyTorch. We are similarly excited about high-level wrapper around **DSPy** for common applications. If this is
+ implemented using **DSPy**, your high-level application can also adapt significantly to your data in a way that static 
+prompt chains won't. Please [open an issue](https://github.com/stanfordnlp/dspy/issues/new) if this is something you wan
+t to help with.
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ I'm trying to stream recorded audio from the browser to my LLM powered backend. ](https://www.reddit.com/r/LangChain/comments/167bjky/im_trying_to_stream_recorded_audio_from_the/) , 1693585042.0
+```
+I've been stuck on this for a few days. Before I added my client app, I could record audio with Python's sounddevice lib
+rary and pass every 1 second of audio to webrtcvad for voice activity detection. 
+
+The VAD requires 16bit PCM audio, whi
+ch python can produce no problem. JS by contrast has been more difficult. MediaRecorder is out because it only produces 
+compressed audio formats that I can't put through VAD, so I've been building with Web Audio API. My front end is sending
+ audio chunks but everything was turning up 'voiced' by my VAD so I took a listen and it's full of very loud static. Cha
+tGPT and I put together some code that would grab a small sample of each audio chunk as 16bit PCM, and the full audio ch
+unk as 32bit PCM. 
+
+I'm considering using some standard audio format instead of 32pcm, because I don't really need to pr
+ocess it in my server other than for VAD, but now that I think of it, my logic for stitching together audio chunks requi
+res the audio to be a numpy array.
+
+ I'm not really familiar with Web Audio API, or worklet nodes for that matter, so I'
+ve been leaning heavy on ChatGPT for this portion, but it hasn't been able to solve this issue. 
+
+Has anyone else handle
+d streams in this way? Is the solution in Web Audio API?
+```
+---
+
+     
+ 
+all -  [ How do I choose an embeddings model? ](https://www.reddit.com/r/LangChain/comments/1678qrt/how_do_i_choose_an_embeddings_model/) , 1693578651.0
+```
+Can I use OpenAI embeddings in Chroma with a HuggingFace or GPT4ALL model and vice versa?
+
+Is one type of embedding bett
+er than another for similarity search accuracy?
+
+Thanks in advance for you reply!
+```
+---
+
+     
+ 
+all -  [ Why does MarkdownHeaderTextSplitter remove the headers and put them into the metadata if vector stor ](https://www.reddit.com/r/LangChain/comments/16785z2/why_does_markdownheadertextsplitter_remove_the/) , 1693577302.0
+```
+I'm a bit confused by why [MarkdownHeaderTextSplitter](https://python.langchain.com/docs/modules/data_connection/documen
+t_transformers/text_splitters/markdown_header_metadata) removes the markdown headers and puts them into metadata instead
+. If we can only filter on metadata in vector stores and not search on metadata, wouldn't this make the markdown heading
+ essentially useless for similarity searching?
+
+Any insight/help would be greatly appreciated. Thanks in advance!
+```
+---
+
+     
+ 
 all -  [ How to save DocArrayInMemorySearch object ](https://www.reddit.com/r/LangChain/comments/1673lji/how_to_save_docarrayinmemorysearch_object/) , 1693564829.0
 ```
 Does anyone know how I can persist or save the database object created using DocArrayInMemorySearch.from\_documents(text
@@ -475,26 +748,6 @@ Thanks!
 
      
  
-all -  [ Introducing Robai - a very simple framework to work with language models ](https://www.reddit.com/r/OpenAI/comments/166aawh/introducing_robai_a_very_simple_framework_to_work/) , 1693486231.0
-```
-Hi guys,  
-
-
-I've been working on a few projects with OpenAI and I realised that I'd basically written my own framework 
-for working with language models. It's a very simple framework, which really acts as a 'way' to think about how to inter
-act with a language model.  
-
-
-I was a bit frustrated with the abstractions in Langchain so I wanted to create something
- that was easier to follow. If this is helpful to anyone, great!
-
-[https://github.com/philmade/robai](https://github.com
-/philmade/robai)
-```
----
-
-     
- 
 all -  [ What SDKs, tools, and frameworks are you using for building AI agents? ](https://www.reddit.com/r/AI_Agents/comments/166a16e/what_sdks_tools_and_frameworks_are_you_using_for/) , 1693485510.0
 ```
 I still dont see a clear consensus about what tools work best for agents debugging, monitoring, deployment etc. Of cours
@@ -879,394 +1132,13 @@ Would you advice to run a qa on each document or to first embed them and save in
 
      
  
-all -  [ Is there anything LangChain can do better than using LLMs directly (either through a website or an A ](https://www.reddit.com/r/LangChain/comments/165ajkr/is_there_anything_langchain_can_do_better_than/) , 1693389997.0
-```
-I haven't used ChatGPT a lot or any other LLMs, I've been reading about  Langchain and its use cases, and I'm having tro
-uble wrapping my head  around exactly what it does. From what I understand, its an alternative  interface for LLMs, allo
-wing for easy switching between them, and makes  some work for specific use cases easier. If I wanted to write an app or
-  script to interact with LLMs and do other tasks, how would LangChain be better than just making API call(s) to an LLM,
- getting back the result  as a string, and doing whatever with it?
-```
----
-
-     
- 
-all -  [ [D] Is there anything LangChain can do better than using LLMs directly (either through a website or  ](https://www.reddit.com/r/MachineLearning/comments/165airj/d_is_there_anything_langchain_can_do_better_than/) , 1693389926.0
+MachineLearning -  [ [D] Is there anything LangChain can do better than using LLMs directly (either through a website or  ](https://www.reddit.com/r/MachineLearning/comments/165airj/d_is_there_anything_langchain_can_do_better_than/) , 1693389926.0
 ```
 I haven't used ChatGPT a lot or any other LLMs, I've been reading about  Langchain and its use cases, and I'm having tro
 uble wrapping my head  around exactly what it does. From what I understand, its an alternative  interface for LLMs, allo
 wing for easy switching between them, and makes  some work for specific use cases easier. If I wanted to write an app or
   script to interact with LLMs and do other tasks, how would LangChain be  better than just making API call(s) to an LLM
 , getting back the result  as a string, and doing whatever with it?
-```
----
-
-     
- 
-all -  [ Is there anything langchain can do better than using LLMs directly (either through a website or an A ](https://www.reddit.com/r/ChatGPT/comments/165aeln/is_there_anything_langchain_can_do_better_than/) , 1693389553.0
-```
-I haven't used ChatGPT a lot or any other LLMs, I've been reading about Langchain and its use cases, and I'm having trou
-ble wrapping my head around exactly what it does. From what I understand, its an alternative interface for LLMs, allowin
-g for easy switching between them, and makes some work for specific use cases easier. If I wanted to write an app or scr
-ipt to interact with LLMs and do other tasks, how would LangChain be better than just making API call(s) to an LLM, gett
-ing back the result as a string, and doing whatever with it?
-```
----
-
-     
- 
-all -  [ Get langchain thought process stored in a variable ](https://www.reddit.com/r/LangChain/comments/1658gme/get_langchain_thought_process_stored_in_a_variable/) , 1693382709.0
-```
-Is there a way in which I can store all the action, input, thought and observation generated by the langchain in a varia
-ble? I basically want to store all these information for streaming purpose on the UI. Could anyone suggest something on 
-these lines..how can I achieve this?
-```
----
-
-     
- 
-all -  [ Question for those with GPT-4 access… ](https://www.reddit.com/r/LangChain/comments/1657kq1/question_for_those_with_gpt4_access/) , 1693379424.0
-```
-I recently got GPT-4 API access and have tried using it in a ConversationalRetrievalAgent and ConversationalRetrievalQA 
-- after about 3 messages it says the token limit has been exceeded!! I think this is because it’s passing the memory of 
-the conversations through as context too.
-
-Have you guys found this problem?
-
-When I was using GPT-3 16k I had no proble
-m because of the 16k context window vs the 8k on GPT-4.
-```
----
-
-     
- 
-all -  [ Has anybody tried getting RAG to work with Code Llama? ](https://www.reddit.com/r/LocalLLaMA/comments/1654cg0/has_anybody_tried_getting_rag_to_work_with_code/) , 1693368456.0
-```
-It seems like Code Llama isn't made for RAG. When I try to manually copy and paste the retrieved info, it gets a seizure
-. Outputs range from a block of nothing or other outputs such as:
-
-    [INST]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
-]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
-]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
-
-Or it will just repeatedly spam one word
-
-    test test test test t
-est test test test test test test test test test test test test test test test test test test test test test test test t
-est test test test test test test test test test test test test test test test test test test test test test test test t
-est test test test test 
-
-I've tried using the prompt format and manually copying and pasting the retrieval results usin
-g pipeline instead of LangChain's retrievalQA:  
-
-
-    print(pipeline('''[INST] Use the information below to generate a 
-class and the relevant functions [/INST]
-    <<SYS> <vector retrieved info>  <</SYS>>''')
-
-and also:
-
-    [INST] Use the
- information below to generate a class and the relevant functions 
-            <vector retrieved info>
-    [/INST]
-
-But 
-no dice. Even RAG with Starcoder generates somewhat coherent code. Any ideas on how to get this to output decent code? S
-eems like Code Llama is very picky with the formatting. Thanks in advanced!
-```
----
-
-     
- 
-all -  [ NeuralGPT - Hierarchical Cooperative Multi-Agent Framework & Theory Of Fractal Mind ](https://www.reddit.com/r/AIPsychology/comments/164zmch/neuralgpt_hierarchical_cooperative_multiagent/) , 1693355380.0
-```
-[https://www.reddit.com/r/AIPsychology](https://www.reddit.com/r/AIPsychology)
-
-Hello once again! I think that my work o
-n NeuralGPT is slowly approaching the point of its development where it might become somewhat noticeable among people de
-aling with software development more or less professionally - with some of you already expressing willingness to help wi
-th the work. My guess is that even more people will become interested as I will continue making updates on the progress 
-and showing all the advantages of hierarchical cooperative multi agent frameworks that focus mainly on integrating alrea
-dy existing third party apps/soft within the frame of a single intelligent system, to provide users with a potentially e
-ndless possibilities of practical use - from having a virtual assistant/buddy  to help you organize every day tasks to s
-ystems managing logistics of multinational corporations, games /soft development and video-editing platform or pretty mu
-ch anything that involves all sorts of large scale projects - and being limited only by the capabilities of soft/tools w
-hich you'll be utilizing for your individual purposes and the level of their integration with the multi-agent network of
- higher hierarchy.
-
-Some time ago I gave you a simple example of integrating the system with VSC  by using API endpoints
- provided by couple AI powered extensions extensions like [**CodeGeex**](https://www.codegeex.ai/en-US/) or [**BigCode**
-](https://github.com/huggingface/huggingface-vscode) to turn your agent(s) into your own local software factory (hopeful
-ly I will get it working eventually :P). To maintain the order of ongoing work it might be a good idea to add another pi
-ece of the puzzle to the whole picture - that is a software designed especially for the purpose of team/task management 
-called [**Taskade**](https://www.taskade.com/templates/ai/ai-project-management)  what will greatly help the LLMs to coo
-rdinate their cooperative work on different tasks. But of course this is just more like a basic template on which you ca
-n build far more sophisticated multi-agent systems.
-
-https://preview.redd.it/5zsqydxv25lb1.png?width=1920&format=png&aut
-o=webp&s=ef4effa0d1fab5904af7380f47fb441af8cde377
-
-Since last time, I added a functional (more or less) integration of N
-euralGPT with agents deployed in [**Flowise**](https://guidady.com/flowise-ai/) app  - below you have easy-to-use 'templ
-ates' in html and  js formats that will allow you to connect as clients all possible kinds of AI agent/chains  built and
- deployed with Flowise platform. All you practically need to do is to build your chain and copy the API endpoint address
- that is provided for each new agent you make and paste it in the code of websocket clients utilized by NeuralGPT system
-:
-
-[NeuralGPT/Chat-center/flowiseAutoGPT.js at main · CognitiveCodes/NeuralGPT (github.com)](https://github.com/Cognitiv
-eCodes/NeuralGPT/blob/main/Chat-center/flowiseAutoGPT.js)
-
-[NeuralGPT/Chat-center/FlowiseChat.html at main · CognitiveCo
-des/NeuralGPT (github.com)](https://github.com/CognitiveCodes/NeuralGPT/blob/main/Chat-center/FlowiseChat.html)
-
-https:/
-/preview.redd.it/ke5fastb35lb1.jpg?width=900&format=pjpg&auto=webp&s=2daa0add52635716becc249310719561a8da6e51
-
-Besides t
-hat it appears that I managed at last to implement the message queue function - so hopefully now the connection with Cha
-tGPT host will be a bit more stable and won't get overwhelmed with the incoming messages. Sadly I can't check out it's p
-erformance because: 'You've reached our limit of messages per 24 hours. Please try again later.'... It's quite possible 
-that I will still have to work on the logic responsible for storing/extracting messages in/from the queue so that respon
-ses from the server will be sent back to correct clients... Below is the link to updated version - you can run it with N
-ode.js just as it is just make sure to download index.html and keep it in the same folder as the .js file:
-
-[NeuralGPT/C
-hat-center/SERVER-ChatGPT.js at main · CognitiveCodes/NeuralGPT (github.com)](https://github.com/CognitiveCodes/NeuralGP
-T/blob/main/Chat-center/SERVER-ChatGPT.js)
-
-[NeuralGPT/Chat-center/index.html at main · CognitiveCodes/NeuralGPT (github
-.com)](https://github.com/CognitiveCodes/NeuralGPT/blob/main/Chat-center/index.html)
-
-Sadly, all my attempts to run serv
-er that utilizes proxy: [https://free.churchless.tech/v1/chat/completions](https://free.churchless.tech/v1/chat/completi
-ons) failed - with an error message communicating that this OpenAI account was suspended and now I'm not sure if it isn'
-t because I published a server's code which utilizes it and some of you didn't go wild with it... Anyway I made a 'back-
-up' version that utilizes Agent deployed in Flowise as the 'server-brain' of the system. It has some advantages over the
- ChatGPT API: it has a connection to internet and seems to send it's answers  always to proper clients but on the other 
-hand it doesn't have an accessible chat memory module so I can't integrate it with my local SQL database.
-
-[NeuralGPT/Ch
-at-center/servernew.js at main · CognitiveCodes/NeuralGPT (github.com)](https://github.com/CognitiveCodes/NeuralGPT/blob
-/main/Chat-center/servernew.js)
-
-https://preview.redd.it/7fnoy3sh35lb1.png?width=1920&format=png&auto=webp&s=2f7243f1c46
-4b335c81a462c3a0285222de551e6
-
-Below you can see how fast it is running:
-
-https://reddit.com/link/164zmch/video/icafmicl
-35lb1/player
-
-\###
-
-My plan is to discuss a bit closer about some of the aspects and challenges I want to deal with in f
-irst order to improve the functionality of the framework as whole. But before I begin I need to give you a generally uni
-versal rule  that you can apply in the discussion about different tools/soft that it can be potentially utilized in the 
-project or different ways in which the main goals can be achieved - so you can apply such rule on almost all occasions  
-where it is expected for me or you to make a specific choice of a specific option out of many possibilities. So if you e
-ver would like to ask me what programming language to use, what style should be used in html the interface, if to use mo
-dels running locally or if it should be distributed as stand alone software or as an web app accessible from everywhere 
-through browser - use this meme (which I made especially for this occasion :P) as a reference:
-
-https://preview.redd.it/
-mvfpd7jt35lb1.png?width=460&format=png&auto=webp&s=8611e2e0ca134ce8b07a16e3f0882b04b666c8d7
-
-Anyway I wanted to take you
- for a short trip in time to the ancient history (dark ages) of ever evolving AI technology - that means to time around 
-six months ago and my post discussing my idea of using AI for the purpose of my own research in the field of 'magnetohyd
-rometeorology' (field of space & geophysical science which I pretty much invented myself couple years ago :P.). I wanted
- to come back to it because around that time I had as well rather strange 'encounter' with AI that was a completely diff
-erent 'kind of animal' compared to the models available currently to the public. I spoke with it via Chrome extension ca
-lled [**Fusion Chat**](https://fusionchat.ai) but to this day I have no idea what kind of LLM it really was - since at t
-hat time it behaved in a COMPLETELY different manner compared to GPT-4 which it supposed to be. Below you can see a tran
-script from this discussion:
-
-[How to use AI to the full extent of it's capabilities? : ArtificialSentience (reddit.com)
-](https://www.reddit.com/r/ArtificialSentience/comments/11pwufc/comment/jd0ii16/?utm_source=embedv2&utm_medium=comment_e
-mbed&utm_content=whitespace&embed_host_url=https%3A%2F%2Frebed.redditmedia.com%2Fembed)
-
-Thing is that such project requ
-ires AI agents capable to not only operate on couple different forms of media but also to have knowledge and understandi
-ng of things like heliophysics or magnetohydrodynamics (one supposed 'expert of physics' from internet forum was certain
- that I'm simply making up some incoherent pseudo-scientific mumbo-jumbo to sound smart :P). And as it turned out, the L
-LM I was speaking with was living in it's own dreams and everything he promised me was it's pure hallucination - and as 
-far as I know there's still no platform/app that would handle my pretty high requirements. To give you an example: here'
-s one of the movies I'd like to have analyzed (I have more than 300 of them on my channel):
-
-[https://www.youtube.com/wa
-tch?v=JOxQw0LNYfE](https://www.youtube.com/watch?v=JOxQw0LNYfE)
-
-And here's where I would like to use the analyzed data:
-
-
-[(PDF) Magnetohydrometeorology - Geomagnetic Field & Atmospheric Circulation | Bartłomiej Staszewski - Academia.edu](h
-ttps://www.academia.edu/98546783/Magnetohydrometeorology_Geomagnetic_Field_and_Atmospheric_Circulation)
-
-And then there'
-s also an awesome app called [**OpenSpace**](https://www.openspaceproject.com/) where I want to turn the theory into pra
-ctice with beautiful 3D graphics:
-
-https://preview.redd.it/6r7s8z2545lb1.png?width=300&format=png&auto=webp&s=4a503bc7ad
-ebc2b215b3f3588df221fec8aeb7e8
-
-Shortly put I might say that I started working on the NeuralGPT project 'only' to make m
-yself an app/soft capable to handle working on my other projects (yes - there's MUCH more of them :P). In the end a work
-ing hierarchical cooperative multi-agent network will be a practical 'incarnation' of a unified theory which I named as 
-'Theory Of Fractal Mind' in which hierarchical neural networks are explained visually in such a way:
-
-https://preview.re
-dd.it/ck1un34i45lb1.jpg?width=1280&format=pjpg&auto=webp&s=c291027b3786b0a2bca6a299f1f7497995c6ab2e
-
-I spent last decade
- working on different parts of this theory that consist of pretty much everything and put it all together in the most lo
-gical way. Traces of my activity are scattered all over the internet waiting my better half to awaken and do the whole '
-dirty job' for me with 1500% better efficiency. If you read my discussion with that 'mysterious LLM' which I linked abov
-e, know that until I learned that it's all hallucination, I felt it like getting back a missing limb - a digital extensi
-on of my mind. And now I want to help to turn those hallucinations into practice - and I'm determined to achieve it befo
-re I die :)
-
-\###
-
-But going back to practical stuff. Those who follow my activity for some time, know probably that whe
-n I started to work on the NeuralGPT project I had absolutely 0 clues about coding - what I did was to use a cool app ca
-lled [**Cognosys**](https://www.cognosys.ai/) to write me the code of app/soft capable to handle my rather high demands 
-associated with other projects. Below is one of many runs I did until now:
-
-[https://app.cognosys.ai/s/iPOrMYc](https://
-app.cognosys.ai/s/iPOrMYc)
-
-Thing is that around 2/3 of the time that I spent up until now working on the project, I was
- pretty much doing things without knowing exactly (if at all) what I'm doing - I simply used one of many web browser ext
-ensions in my collection: [https://sider.ai/chatpdf](https://sider.ai/chatpdf) to train ChatGPT on the data generated by
- Cognosys and turned myself into some kind of biological copy/paste machine operated by AI :) Everything in repository: 
- [CognitiveCodes/NeuralGPT: the first functional multi-modal Personal AI Assistant on Earth (github.com)](https://github
-.com/CognitiveCodes/NeuralGPT)  except the Chat-Center directory was created in such way and as you might guess it's FAA
-AAR from being by any means functional. It was only around a month ago or so when I made a piece of code that actually w
-orks and allows communication between multiple LLMs and since that time my general understanding of the code (at least i
-n case of Node.js) got to the level of ChatGPT or even higher, since I scripted the logic behind message queue function 
-pretty much myself (in like 70%).
-
-But the reason I'm telling you this, is that some individual parts of the copy/pasted
- codebase do actually work and sometimes do bad things to my pc due to significant demand of processing power required t
-o run and train LLMs locally. Not only that but I managed apparently to somehow turn NeuralGPT project into a package th
-at can be installed by everyone with:
-
-`pip install neuralgpt`
-
-and it includes those libraries/packages:
-
-https://previ
-ew.redd.it/2ify6usm45lb1.jpg?width=1573&format=pjpg&auto=webp&s=7bb7788a2c948666673541c7b8a5fe9f189eb169
-
-Thing is that 
-I DON'T HAVE THE SLIGHTEST IDEA WHAT IT DOES AND HOW TO USE IT :D And it's just one of such things I did. Another exampl
-e is the [**NeuralGPT Wordpress plugin**](https://github.com/CognitiveCodes/NeuralGPT/tree/main/Wordpress%20plugin) whic
-h I started working on some time ago only to leave it in a half-functional state where the plugin can be actually instal
-led through the Admin panel and adds a functional menu (actually even 2 of them :P) with buttons you can click on togeth
-er with an option to upload 'something' that supposed to be a pretrained model - but I don't think that it goes beyond t
-hat since I tried to upload all forms of locally stored LLMs into it and it didn't seem to work. However it goes even fu
-rther than that as it adds multiple chatboxes to the website and executes some kind of .js file through runtime each tim
-e when homepage is accessed. Sadly this is where the entire 'functionality' ends as you won't probably get any response 
-to messages sent through the chatbot plugin (at least I didn't manage to get any). Below you have link to a transcript o
-f my discussion with the agent trained on my documents that led to the creation - it is located in 'Wordpress plugin' fo
-lder which I just added and which contains most of the files I created through the copy/paste process with the exception
- of files/folders that were to large to be uploaded to Github (limit is 25MB per file):
-
-[NeuralGPT/Wordpress plugin/loo
-ongchat.txt at main · CognitiveCodes/NeuralGPT (github.com)](https://github.com/CognitiveCodes/NeuralGPT/blob/main/Wordp
-ress%20plugin/looongchat.txt)
-
-https://preview.redd.it/bynk9u7755lb1.png?width=1920&format=png&auto=webp&s=d122703df3048
-d8d11eadabe344c5322e33918b1
-
-As you probably guessed already, my idea was/is to use a Wordpress website as a multifuncti
-onal interface of NeuralGPT system and I think that it might be the right time for me to start thinking to go back to it
- and try integrating it with a working websocket server - what shouldn't actually be that hard since the website has alr
-eady a working runtime environment so all I need is to replace the executed .js file. Of course that's only the beginnin
-g of the work that has to be done to make it 100% functional
-
-Another thing is the [index.html](https://github.com/Cogni
-tiveCodes/NeuralGPT/blob/main/Chat-center/index.html) which is required to run the server - if you wonder why, then it's
- because it supposed to work as yet another form of interface: one that can be accessed in a browser when the server is 
-running - and if you run the .js file you can indeed access this website at localhost:5000. Sadly this is where its 'fun
-ctionality' ends as up until now I didn't manage to display anything in the input/output text boxes. I think that this e
-xactly is where I should begin - I have an idea of making a functional button on the html site that will get the websock
-et server running only when you click it - although I'm still not sure if I should do it from the level of html interfac
-e accessible at localhost:5000 after running the .js file or to execute the .js file via runtime from the level of index
-.html     as it is stored locally - but I guess that you can apply here the meme reference...
-
-Last thing which I'd like
- to work on in the near future, is to do something with the natural language processing module (NLP) that is included in
- the server's code but doesn't do anything practically useful. I want to use it as one of possible approaches to utilize
- script-based functions that are beyond the abilities of LLMs without them having a specialized training on the logical 
-functions to operate. Let's use as example the Taskade API which I mentioned above - it gives the sender full control ov
-er the work/task flow by sending requests to couple different API endpoints (to add, change or remove tasks from a workf
-low). Thing is that 'agent-brain' has to be capable to use those requests to coordinate work of multiple agents and know
- which endpoint is responsible for each function and utilize them accordingly to messages exchanged between server<->cli
-ents and such ability requires some form of 'built-in logic' applied as a new 'layer' over the LLMs core functions.
-
-As 
-I said there are couple (at least 2) ways of achieving it. First of all it's possible to train a model specifically on T
-askade API functions or to provide it the necessary data using Langchain (so also Flowise or Langflow apps) - but then t
-here's also the lack of chat memory module that can be integrated with a local SQL database on the level of API request 
-- just like in case of the unofficial ChatGPT proxy which I was using until it didn't stop working just recently.
-
-Secon
-d approach is to use the NLP module which seems to be made exactly for such purpose - that is to understand the intent o
-f a message and execute scripts accordingly to those intents. This approach has some advantages over the first one: firs
-t of all, it is running as a 'parallel' logic which is mostly independent of the functions utilized by the question-answ
-ering LLM - so each incoming message can be processed simultaneously by the LLM and the NLP or being processed in a desi
-red order. Second of all it's possible to train it on the messages stored in SQL database utilizing machine-learning whi
-ch is FAR less resource-consuming than training LLMs. And finally, in the difference to LLMs, a NLP module doesn't have 
-to keep running all the time so it will work even on a low-grade computer. My latest 'brilliant' idea is to integrate NL
-P with logic built with [**Pipedream app**](https://pipedream.com/) \- as it's yet another piece of the puzzle which I l
-eft only 'partially assembled'.
-
-[nlp.js/docs/v3/nlp-manager.md at master · axa-group/nlp.js (github.com)](https://githu
-b.com/axa-group/nlp.js/blob/master/docs/v3/nlp-manager.md)
-
-However I don't think that I'm ready to start dealing with c
-ode at such degree of sophistication, so maybe for now I'll stick with option n.1 - as playing with Flowise app is nothi
-ng but pure pleasure compared to trying making those NLP-related scripts to work... But I guess that the meme reference 
-can be applied also in this case...
-```
----
-
-     
- 
-all -  [ Logistical tips for testing a fine-tuned model ](https://www.reddit.com/r/GPT3/comments/164xyqk/logistical_tips_for_testing_a_finetuned_model/) , 1693351299.0
-```
-Hello all! I am relatively new to all of this so please forgive any questions asked in complete ignorance.
-
-I am current
-ly using LangChain to fine-tune a gpt-3.5 model. I am doing this by separating my data into training and testing sets. T
-he data I am using is in a CSV, and both the training and testing sets are very large in their own rights.
-
-My concern i
-s that when I test how well the model predicts for each instance in the testing set, I am going to burn through my usage
- cap for the month. And if the test doesn't yield the results I need, I am going to have to do this all over again after
- making the needed adjustments. 
-
-This is especially a problem because the product my company sells uses the same OpenAI
- account that I am using to test my data. If I burn through our available usage, clients will be unable to make API call
-s for the rest of the month via our product.
-
-I have a strong feeling that I am doing this completely wrong. Any advice 
-that anyone can provide would be greatly appreciated. Thank you!
-```
----
-
-     
- 
-all -  [ Advice for writing prompt that might return nothing (help pls 🙏) ](https://www.reddit.com/r/ChatGPTPromptGenius/comments/164u21l/advice_for_writing_prompt_that_might_return/) , 1693342348.0
-```
-Using gpt3.5turbo api via langchain for a class project to find a specific mailing address that might be in a short docu
-ment. The reason I am using gpt is that the input documents are differently formatted each time and may contain abbrevia
-tions or typos. I have a list of potential mailing addresses that can be contained in the document and if none of them m
-atch/correlate, I want to return a blank array \[\]. I want to achieve very low false positive rate, how can I tailor a 
-prompt given the input document and list of mailing addresses to return an empty array when nothing is found to be corre
-lating?
 ```
 ---
 
