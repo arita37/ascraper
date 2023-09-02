@@ -1,4 +1,23 @@
  
+all -  [ [D] NeurIPS reviewers edited review and score after discussion period: can they delete their own rev ](https://www.reddit.com/r/MachineLearning/comments/1687luu/d_neurips_reviewers_edited_review_and_score_after/) , 1693673874.0
+```
+Hi, we have a paper submission to NeurIPS and we have two reviewers who changed their scores and review content silently
+ by editing the original review comment and score after the discussion period. The edited review comment now discusses e
+ntirely different point.
+
+We would like to raise this concern to AC but the thing is that we didn’t save the original re
+view comment, and the “revision history” for some reason doesn’t show the previous content, other than the entry that th
+ere was previous version. But this revision history overall isn’t inconsistent (showing the last two history after the d
+iscussion period, but the ones before the period is not shown) 
+
+
+Can reviewers delete their own revision history in Ope
+nReview tool? I don’t know if this is a bug or they deleted them with an intention.
+```
+---
+
+     
+ 
 all -  [ [D] Am I the only one finding this a bit upsetting? ](https://www.reddit.com/r/MachineLearning/comments/167n0g0/d_am_i_the_only_one_finding_this_a_bit_upsetting/) , 1693612010.0
 ```
 Hello everyone,

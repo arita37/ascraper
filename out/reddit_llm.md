@@ -1,4 +1,72 @@
  
+all -  [ I am having trouble with large dataset. ](https://www.reddit.com/r/LangChain/comments/1688bek/i_am_having_trouble_with_large_dataset/) , 1693675549.0
+```
+I am using langchain framework 'load_qa_chain' to ask questions from a huge dataset. But it is unable to answer some que
+stion which require checking on the whole dataset (for eg: If the dataset is the conversation between two people for yea
+rs, query: List all the critical problems faced by the person in his lifetime? , It is able to give some of it but missi
+ng some important data). How can I resolve this?
+```
+---
+
+     
+ 
+all -  [ How should I go about getting my AI to use tools correctly (and consistently)? ](https://www.reddit.com/r/LocalLLaMA/comments/1687l5p/how_should_i_go_about_getting_my_ai_to_use_tools/) , 1693673824.0
+```
+My goal is to get an open source AI to use tools, for example searching for information online.
+
+Currently what I'm doin
+g is giving it a list of tool names in its prompt, that looks something like this '<SEARCH(Input)>' along with explanati
+ons of what they do and examples of how they work, then asking it to append it to its message with 'Input' replaced, the
+n I have a script match those and perform actions. This works about half the time, the other half it just fails miserabl
+y (making up tool names, using incorrect formats, etc).
+
+I've been looking for ways to improve this for awhile, so far t
+he only other implementation of this I've seen is langchain's tools system. After looking through its code, it seems lik
+e it works similarly to my own code, except instead of just asking the AI to append something to its regular message, th
+e AI has to always use a specific message format that includes a section for tools, like this:
+
+>Thought: Do I need to u
+se a tool? Yes  
+>  
+>Action: the action to take, should be one of \[{tool\_names}\]  
+>  
+>Action Input: the input to t
+he action  
+>  
+>Observation: the result of the action
+
+...Of course, I have no idea how langchain gets an AI to follow 
+that format, because mine absolutely would not no matter what kind of prompt I gave it.
+
+Should I try to use something l
+ike LMQL or Guidance to force it to use a langchain-style output format, or is there another way to make it 'understand'
+ how to use tools better? I've found [this article](https://www.promptingguide.ai/techniques/art) which seems to be exac
+tly what I'm trying to do, but I have no idea how to implement it...
+
+I've also considered that my particular model coul
+d just not be that good, but I'd like to give it a shot using prompt/output formatting anyway. I've considered trying to
+ make a lora of some kind to teach it my particular tools setup, would that be a good idea? Though I'd have to research 
+it more since I have no idea how those really work, and I'm not even sure if I have the hardware to do that anyway...
+
+H
+as anyone else gotten an open source model to use tools, if so, how?
+```
+---
+
+     
+ 
+all -  [ help ](https://www.reddit.com/r/LangChain/comments/1687dxt/help/) , 1693673339.0
+```
+ how do we handle larger context length while finetuning the model ?  
+suppose i have the dataset with question, answer 
+pair.  
+My problem here is question exceed the context length so that answer doesnot fit. which has lead the model doesn
+'t generate the answer. How do we actually solve this issue? 
+```
+---
+
+     
+ 
 all -  [ How Code Interpreter Orchestration is Designed? ](https://www.reddit.com/r/ChatGPT/comments/1684itm/how_code_interpreter_orchestration_is_designed/) , 1693666398.0
 ```
 The user experience when interacting with ChatGPT’s code interpreter is impressively seamless. I am wondering how is the
@@ -1071,62 +1139,6 @@ w it seems I might need to change. RQDA is deprecated. I am not sure if there ar
 all -  [ (Good Discussion) Is there anything LangChain can do better than using LLMs directly (either through ](/r/MachineLearning/comments/165airj/d_is_there_anything_langchain_can_do_better_than/) , 1693408637.0
 ```
 
-```
----
-
-     
- 
-all -  [ Looking for best practices when it comes to retrieval for summarization ](https://www.reddit.com/r/LangChain/comments/165cclv/looking_for_best_practices_when_it_comes_to/) , 1693395760.0
-```
-I have pdf's of various structures from which I want to summarize different types of factors. There is no unified struct
-ure and it will keep changing. What is the best I can do in terms of chunking and retrieval for these documents? There s
-eems to be essential parts missing from the reterieval. 
-
-I've tried using small chunks with 500 tokens each and feeding
- it to chatgpt app for retrieval but the results are disappointing.
-
-I've seen a few approaches but can't find the refer
-ence anymore where people would feed chunks to the retriever in a sequential manner. Then there seem to be prompt engine
-ering approaches where we give examples of what should be retrieved from an example. Should I use one Example per Factor
- I want to retrieve ajd structure the prompt in a way that communicates to chatgpt the structure I want to get out?
-
-Exa
-mple:{}
-Result:{}
-Chunk:{}
-
-Etc?
-
-Same for the summarization task with regards to peompt engineering?
-```
----
-
-     
- 
-all -  [ How to use Langchain Agents with DocumentLoader? Is it even possible? ](https://www.reddit.com/r/LangChain/comments/165av9y/how_to_use_langchain_agents_with_documentloader/) , 1693391109.0
-```
-I'm currently working on a DynamicTool project and I would like to use Langchain Agents with DocumentLoader to load web 
-pages. I have already familiarized myself with the PuppeteerLoader, which is documented here ([**https://js.langchain.co
-m/docs/modules/data\_connection/document\_loaders/integrations/web\_loaders/web\_puppeteer/**](https://js.langchain.com/
-docs/modules/data_connection/document_loaders/integrations/web_loaders/web_puppeteer/)).
-
-However, I'm not sure how to c
-ombine Langchain Agents and DocumentLoader. Does anyone have experience with this or can provide any guidance? Is there 
-a way to integrate these two tools?
-
-I would greatly appreciate your help and any tips you can provide!
-```
----
-
-     
- 
-all -  [ Is GPT able to categorize large amount of documents according to their description? ](https://www.reddit.com/r/LangChain/comments/165ajpm/is_gpt_able_to_categorize_large_amount_of/) , 1693390010.0
-```
-I'm looking for the right way to categorize (by topic or sentiment) a list of documents (\~1000). Each document is struc
-tured (JSON response); one of the field is the description which contains a free text that could indicate the category.
-
-
-Would you advice to run a qa on each document or to first embed them and save in Vector DB?
 ```
 ---
 
