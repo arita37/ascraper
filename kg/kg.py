@@ -25,7 +25,7 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', mode='mode1', dirout="kg
     config = config_load(cfg)
 
     
-    prompt1 = prompt if isinstance(prompt, str) else prompt1 = config[prompt_name]
+    prompt1 = prompt if isinstance(prompt, str) else config[prompt_name]
 
 
     #### Load specific config #################################
