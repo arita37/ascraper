@@ -18,14 +18,6 @@ from langchain.prompts import PromptTemplate, FewShotPromptTemplate
 
 
 ##############################################################################################
-def csv_write(relations, dirout):
-    with open(dirout, 'w') as f:
-        writer = csv.writer(f)
-        writer.writerow(['a', 'b', 'relation'])
-        writer.writerows(relations)
-
-
-##############################################################################################
 def generate_kgraph(prompt=None, prompt_name='prompt1', mode='mode1', dirout="kg_out.csv", cfg='config.yml'):
     """ Extrapolates the relationships from the given prompt. 
         Uses a fewshot prompt template, specified in the config file.
@@ -70,6 +62,15 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', mode='mode1', dirout="kg
 
 
 
+
+
+##############################################################################################
+##### utils ##################################################################################
+def csv_write(relations, dirout):
+    with open(dirout, 'w') as f:
+        writer = csv.writer(f)
+        writer.writerow(['a', 'b', 'relation'])
+        writer.writerows(relations)
 
 
 
