@@ -1,0 +1,67 @@
+############################################## Model Settings ##########################################################
+
+model_setup:
+  repo_id: TheBloke/Yarn-Llama-2-7B-64K-GGUF
+  model_basename: yarn-llama-2-7b-64k.Q4_K_M.gguf
+
+model_params:
+  n_threads: 8 # CPU cores
+  n_batch: 512 # Should be between 1 and n_ctx, consider the amount of VRAM in your GPU.
+  n_gpu_layers: 32 # Change this value based on your model and your GPU VRAM pool.)
+
+prompt_params:
+  max_tokens: 1024
+  temperature: 0.0
+  top_p: 1
+  top_k: 20
+
+############################################## Prompt Settings #########################################################
+
+prompt_template:
+  input_variables:
+    - input
+  prefix: |
+    You are a relation-finding assistant, which takes user's text input and extracts relations from it.
+    Relation is a type of connection between two objects.
+    If one entity somehow relates to another, then we call it a relation.
+    If many entities share one relation, then each pair of them has a relation.
+
+    Examples:
+  suffix:  |
+    Prompt: {input}
+    Relations:
+
+  example_separator: "\n\n"
+  examples:
+    - prompt: |
+        Mary and Mike are Alice's friends. Alice is Bob's roommate and Jean hates her.
+      relations: |
+        [["Mary", "Mike", "friend"], ["Mary", "Alice", "friend"], ["Alice", "Mike", "friend"], ["Alice", "Bob", "roommate"], ["Jean", "Alice", "hate"]]
+    - prompt: |
+        Washington is the capital city of the United States. The city is located on the east bank of
+        the Potomac River, which forms its southwestern border with Virginia and borders Maryland
+        to its north and east.
+      relations: |
+        [["United States", "Washington", "capital"], ["Washington", "Potomac River bank", "location"], ["Washington", "Virginia", "border"], ["Washington", "Maryland", "border"]]
+
+
+
+ # Example templating (similar to the main template suffix)
+prompt_template_example:
+  input_variables:
+    - prompt
+    - relations
+  template: |
+    Prompt: {prompt}
+    Relations: {relations}
+
+############################################## Named Prompts ###########################################################
+prompt1: |
+  The United States of America (U.S.A. or USA), commonly known as the United States (U.S. or US) or America,
+  is a country primarily located in North America and consisting of 50 states, a federal district, five major
+  unincorporated territories, nine Minor Outlying Islands,[i] and 326 Indian reservations. It is the world's
+  third-largest country by both land and total area.[c] It shares land borders with Canada to its north and with Mexico 
+  to its south and has maritime borders with the Bahamas, Cuba, Russia, and other nations.[j] With a population of over
+  333 million,[k] it is the most populous country in the Americas and the third-most populous in the world. The national
+  capital of the United States is Washington, D.C., and its most populous city and principal financial center is 
+  New York City.
