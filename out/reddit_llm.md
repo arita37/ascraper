@@ -1,4 +1,22 @@
  
+all -  [ How Code Interpreter Orchestration is Designed? ](https://www.reddit.com/r/ChatGPT/comments/1684itm/how_code_interpreter_orchestration_is_designed/) , 1693666398.0
+```
+The user experience when interacting with ChatGPT’s code interpreter is impressively seamless. I am wondering how is the
+ prompt and orchestration designed to support the features outlined below? Is there a “langchain” agent that can offer c
+omparable functionality?
+
+“it is evident that the code interpreter is capable of utilizing external files, executing scr
+ipts, planning, creating multiple scripts to address a single query, and incorporating answers directly into the respons
+e. Moreover, it has additional functionalities such as debugging/self-correction, the ability to seek modifications or c
+larifications post script generation” 
+[https://levelup.gitconnected.com/the-magical-chatgpt-code-interpreter-plugin-you
+r-personal-programmer-and-data-analyst-f8cd69e8323b](https://levelup.gitconnected.com/the-magical-chatgpt-code-interpret
+er-plugin-your-personal-programmer-and-data-analyst-f8cd69e8323b)
+```
+---
+
+     
+ 
 all -  [ How to deal with missing question mark? ](https://www.reddit.com/r/LangChain/comments/167vauj/how_to_deal_with_missing_question_mark/) , 1693637101.0
 ```
 I've noticed that there is a different answer if you put question mark or not in the question. I have trained a llm that
@@ -76,24 +94,6 @@ s is wrap some vector store and LLM call in a nice wrapper. 
 
 Anyway, I hope that made sense, and I am curious if people
  have encountered the same problem and what solution they came up with. 
-```
----
-
-     
- 
-all -  [ Chatgpt Code Interpreter Ochastration ](https://www.reddit.com/r/ChatGPT/comments/167ki02/chatgpt_code_interpreter_ochastration/) , 1693605697.0
-```
-The user experience when interacting with ChatGPT’s code interpreter is impressively seamless. I am wondering how is the
- prompt and orchestration designed to support the features outlined below? Is there a “langchain” agent that can offer c
-omparable functionality?
-
-“it is evident that the code interpreter is capable of utilizing external files, executing scr
-ipts, planning, creating multiple scripts to address a single query, and incorporating answers directly into the respons
-e. Moreover, it has additional functionalities such as debugging/self-correction, the ability to seek modifications or c
-larifications post script generation” 
-[https://levelup.gitconnected.com/the-magical-chatgpt-code-interpreter-plugin-you
-r-personal-programmer-and-data-analyst-f8cd69e8323b](https://levelup.gitconnected.com/the-magical-chatgpt-code-interpret
-er-plugin-your-personal-programmer-and-data-analyst-f8cd69e8323b)
 ```
 ---
 
