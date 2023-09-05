@@ -1,20 +1,20 @@
 """
 Works with GGUF models (GGML models are deprecated)
 
-# GPU llama-cpp-python
+# CPU llama-cpp-python
     pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir --verbose
-# For models download. Ignore if gguf is already downloaded
-    pip install huggingface_hub
 # Dependencies:
-    pip install utilmy fire openai langchain
+    pip install utilmy fire langchain
+
+python llama_kg.py generate_kgraph --prompt_name prompt1 -dirout llama_out.csv
 """
 
-from huggingface_hub import hf_hub_download
 import ast, csv, fire
 from utilmy import config_load, log
 
-from llama_cpp import Llama
+from langchain.llms import LlamaCpp
 from langchain.prompts import PromptTemplate, FewShotPromptTemplate
+from langchain.chains import LLMChain
 
 
 ################################################################################
@@ -24,20 +24,13 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', dirout="kg_out.csv", cfg
       Extrapolates the relationships from the given prompt.
       Uses a fewshot prompt template, specified in the config file.
     """
-    config = config_load(cfg)
+    cfg = config_load(cfg)
 
-    prompt1 = prompt if isinstance(prompt, str) else config[prompt_name]
+    prompt1 = prompt if isinstance(prompt, str) else cfg[prompt_name]
 
     #### Load specific config ##################################################
-    cfg = config
 
-    msetup = cfg['model_setup']
-    repo_id = msetup['repo_id']
-    model_basename = msetup['model_basename']
-    model_path = hf_hub_download(repo_id=repo_id, filename=model_basename, local_dir='./models')
-
-    mpars = cfg['model_params']
-    prompt_params = cfg["prompt_params"]
+    mpars = cfg['model_kwargs']
     prompt_template_params = cfg['prompt_template']
     example_template_params = cfg['prompt_template_example']
 
@@ -45,37 +38,30 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', dirout="kg_out.csv", cfg
     example_prompt = PromptTemplate(**example_template_params)
     prompt_template = FewShotPromptTemplate(
         **prompt_template_params,
-        example_prompt=example_prompt,
+        example_prompt=example_prompt
     )
 
     #### Model init and run ####################################################
-    log(f"### Initializing model {msetup['model_basename']}")
+    log(f"### Initializing model...")
     try:
-        llm = Llama(
-            model_path=model_path,
-            **mpars
-        )
+        llm = LlamaCpp(**mpars)
         log(f'### Model successfuly initialized')
     except Exception as e:
         log(f'### Error while initializing model: {e}')
         return
 
     log(f"### Running the model...")
-    _input = prompt_template.format(input=prompt1)
-    response = llm(
-        prompt=_input,
-        **prompt_params
-    )
+    llm_chain = LLMChain(prompt=prompt_template, llm=llm)
+    response = llm_chain.run(input=prompt1)
+
     #### Parsing the response ##################################################
-    reponse_text = response['choices'][0]['text']
-    print(reponse_text)
-    # log("### Parsing response")
-    # try:
-    #     output = ast.literal_eval(response['choices'][0])
-    #     csv_write(output, dirout)
-    #     log(f"Output written to {dirout}")
-    # except Exception as e:
-    #     log(f"Error editing the output: {e}")
+    log("### Parsing response")
+    try:
+        output = parse_response(response)
+        csv_write(output, dirout)
+        log(f"Output written to {dirout}")
+    except Exception as e:
+        log(f"Error parsing the response: {e}")
 
 
 ################################################################################
@@ -86,6 +72,14 @@ def csv_write(relations, dirout):
         writer = csv.writer(f)
         writer.writerow(['a', 'b', 'relation'])
         writer.writerows(relations)
+
+
+def parse_response(response):
+    start = response.index('[')
+    relations_str = response[start:]
+    relations = ast.literal_eval(relations_str)
+
+    return relations
 
 
 ################################################################################
