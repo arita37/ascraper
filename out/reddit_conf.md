@@ -1,4 +1,19 @@
  
+all -  [ Publishing in a journal vs top conference for computational biology ](https://www.reddit.com/r/bioinformatics/comments/16a2wtg/publishing_in_a_journal_vs_top_conference_for/) , 1693859055.0
+```
+My group has been able to create some novel, medium impact findings in the field of  'omics sequence labeling using dila
+ted networks.  We are considering on where we would like to send our results to.
+
+Since the work is highly within the in
+tersection of applied deep learning and computational biology, we are indecisive on whether to send our work towards a d
+eep learning confrerence (ICML, neurIPS, ICLR) or to send it to a traditional journal within this domain.  Additionally,
+ there are some promising conferences within the machine learning and computational biology arising (MLCB).  How does on
+e pick between these options?
+```
+---
+
+     
+ 
 all -  [ [D] NeurIPS reviewers edited review and score after discussion period: can they delete their own rev ](https://www.reddit.com/r/MachineLearning/comments/1687luu/d_neurips_reviewers_edited_review_and_score_after/) , 1693673874.0
 ```
 Hi, we have a paper submission to NeurIPS and we have two reviewers who changed their scores and review content silently
