@@ -1,4 +1,48 @@
  
+all -  [ Profile Eval - Quant Trading to ML PhD ](https://www.reddit.com/r/gradadmissions/comments/16bamcs/profile_eval_quant_trading_to_ml_phd/) , 1693974824.0
+```
+Hello! I’ve been working a bit over a year in trading and now looking to fulfill my dream of getting a PhD and focusing 
+purely on research. Would love to get some feedback on how realistic the schools I’m looking at are given my background.
+
+
+School:
+US T15, 3.8 GPA, Major in CS + Math
+
+Research (ML related):
+2nd author in a Neurips workshop
+2nd author in a N
+ature Journal
+1st author poster presentation at a small workshop
+
+Awards:
+Putnam top 500
+
+Work:
+1 internship at FAANG
+1 
+internship in trading
+currently in trading FT
+
+Rec letters:
+research advisor (good), work manager (good), professor (wea
+k)
+
+(US Citizen)
+
+1. Given my summers were spent interning in the industry rather than doing research, will this notably
+ impact my application negatively?
+
+2. Obviously I’d like to go to Stanford/CMU/MIT/Berkeley, but how are my odds given 
+other competing applicants probably have all summers spent on research? (I can verify the labs there have interesting+re
+levant work I’d like to be a part of)
+
+3. Is it perhaps better to apply for a research based MS programs instead to get 
+better research experience and stronger rec letters?
+```
+---
+
+     
+ 
 all -  [ Publishing in a journal vs top conference for computational biology ](https://www.reddit.com/r/bioinformatics/comments/16a2wtg/publishing_in_a_journal_vs_top_conference_for/) , 1693859055.0
 ```
 My group has been able to create some novel, medium impact findings in the field of  'omics sequence labeling using dila

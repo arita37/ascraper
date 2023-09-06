@@ -1,4 +1,138 @@
  
+all -  [ Codedog - A Pull Request Review Tool ](https://www.reddit.com/r/LangChain/comments/16bfaeo/codedog_a_pull_request_review_tool/) , 1693991389.0
+```
+Hello, r/langchain 
+
+I'm creating a pull request review tool and want to have some feedbacks.
+
+This tool named codedog i
+s used for a while in my team (reviewed about 2000 PRs.). Basically it's a service triggered by PR event and comment dir
+ectly on the PR to give a pre human review.
+
+Report includes summarization and suggestions. Summary is great and time sa
+ving. But suggestions are not use able. Since most real world bug/weakness are crossing multiple function/class. These c
+ontent are not involved in the PR ctx. We only get some checkstyle/documentation/basic grammar suggestions (also with ma
+ny hallucinations with GPT-3.5-turbo)
+
+To improve the suggestions I'm currently looking into:
+- code parser: retrive fun
+ctions called or calling the changed functions.
+- embedding retriever: retrive document/comment/code related with the ch
+ange.
+
+Try it if you are interested in:
+
+- Demo: https://huggingface.co/spaces/codedog-ai/codedog-demo
+- Github App: htt
+ps://github.com/apps/codedog-assistant (rate limit is low)
+- Source: https://github.com/codedog-ai/codedog
+
+I learned an
+d design the CR process from: https://google.github.io/eng-practices/review/reviewer
+```
+---
+
+     
+ 
+all -  [ Handling complex context for personas ](https://www.reddit.com/r/ChatGPT/comments/16bf43p/handling_complex_context_for_personas/) , 1693990734.0
+```
+I'm trying to use chatgpt to build personas for a chatbot that must take a complex context (character traits, mood, moti
+vation, ...) into account.
+
+The model works okayish but clearly ignores some traits, which causes the different characte
+rs to eventually be all bland and somewhat similar. Just to be clear, this is not a token limit problem but rather the m
+odel simply ignoring some guidelines.
+
+I'm looking for frameworks or techniques to improve this. I feel that using a cha
+in or layer approach could be a start: first ask the model to e.g. take only some traits into account to prepare a gener
+ic answer, then refine this answer by adding more elements like mood to adapt the actual phrasing.
+
+I don't want to rein
+vent the wheel and assume that there must be some papers, theories or else out there to see how this could work. Any clu
+e on where to start looking? I'm aware of libraries such as Langchain but more wondering on how to actually use this Cha
+in-of-thought concept effectively here.
+
+Thanks
+```
+---
+
+     
+ 
+all -  [ Best way to set up a Knowledge base? ](https://www.reddit.com/r/LangChain/comments/16bevfp/best_way_to_set_up_a_knowledge_base/) , 1693989777.0
+```
+What is the best way to set up quite an extensive knowledge base (all car licence theory), a book of 70 pages?  
+It is a
+ FAQ style, or headings with text under. Looking for advice  
+Thanks.
+```
+---
+
+     
+ 
+all -  [ Opensearch metadata_field and metadata_filter not working through Langchain ](https://www.reddit.com/r/LangChain/comments/16b8mgx/opensearch_metadata_field_and_metadata_filter_not/) , 1693968799.0
+```
+I am trying to do metadata based filtering alongside the query execution using `OpensearchVectorSearch.similarity_search
+()`. But when I use metadata_field and metadata_filter, the search doesn't seems to take that into account and still ret
+urns results outside of those filters.
+
+Example code:
+
+`response = es.similarity_search(
+     query = '<sample query tex
+t>',
+     K =4,
+     metadata_field = 'title',
+     metadata_filter = {'match':{'title': '<sample doc title>}},
+)`
+
+Here
+ `es` is the OpenSearchVectorSearch object for index1
+
+If this works correctly then I should expect the query to only ru
+n against the matching title but when I execute this code, I see output from other document titles.
+
+The output structur
+e is like this:
+
+`[Document(page_content = ' ', metadata={'vector_field' : [], 'text' : ' ', 'metadata' : {'source' : ' 
+', 'title' : ' ' }})]`
+
+Here the title I see is not the title I specified in my query.
+
+My langchain version is `0.0.281
+` and python 3.11
+```
+---
+
+     
+ 
+all -  [ suggest me the changes to get atleast one interview ](https://i.redd.it/3q6s4vbcdjmb1.jpg) , 1693963135.0
+```
+
+```
+---
+
+     
+ 
+all -  [ Software design and code generation using LangChain and complex prompt engineering ](/r/LangChain/comments/16b3gvv/software_design_and_code_generation_using/) , 1693956565.0
+```
+
+```
+---
+
+     
+ 
+all -  [ Software design and code generation using LangChain and complex prompt engineering ](https://www.reddit.com/r/LangChain/comments/16b3gvv/software_design_and_code_generation_using/) , 1693955301.0
+```
+Open source repo: [https://github.com/RoboCoachTechnologies/GPT-Synthesizer](https://github.com/RoboCoachTechnologies/GP
+T-Synthesizer)
+
+new Demo: [https://www.youtube.com/watch?v=\_JdmzpXLyE0](https://www.youtube.com/watch?v=_JdmzpXLyE0) 
+```
+---
+
+     
+ 
 all -  [ Streamlit launches LLM Hackathon 🧠 ](https://www.reddit.com/r/LocalLLaMA/comments/16ayk5z/streamlit_launches_llm_hackathon/) , 1693944407.0
 ```
 Streamlit just launched its latest hackathon focused on large language models and AI 🚀
@@ -12,24 +146,6 @@ on the hackathon [here](https://streamlit.io/community/llm-hackathon-2023)
 
 [Streamlit LLM Hackathon](https://preview.re
 dd.it/8f0ikwheuhmb1.jpg?width=1200&format=pjpg&auto=webp&s=b4b14c65f5e5380945bd9448daf01a494eaab41d)
-```
----
-
-     
- 
-all -  [ [N] Streamlit launches LLM Hackathon 🧠 ](https://www.reddit.com/r/MachineLearning/comments/16ayd0b/n_streamlit_launches_llm_hackathon/) , 1693943974.0
-```
-Streamlit just launched its [latest hackathon](https://hubs.la/Q020TdDj0) focused on large language models and AI 🚀
-
-Awe
-some opportunity to build a Streamlit app using LangChain, LlamaIndex, AssemblyAI, Weaviate, or Clarifai, and win cool p
-rizes (AirPods, Yeti microphone, mechanical keyboard, to name a few)
-
-More info on the hackathon [here](https://hubs.la/
-Q020TdDj0)
-
-[Streamlit LLM Hackathon](https://preview.redd.it/ps76izx1thmb1.jpg?width=1200&format=pjpg&auto=webp&s=9e038
-c9f1094729cbde8e89ceac32a031a064dfa)
 ```
 ---
 
@@ -181,14 +297,6 @@ We have seen difference in responses when we hit same azure model via Langchain 
 s different response?Is it due to formatting of prompt templates?
 
 &#x200B;
-```
----
-
-     
- 
-all -  [ Is there a fast way to sell your Python code as a service or create a Shopify-like store for Python  ](https://www.reddit.com/r/LangChain/comments/16anxcy/is_there_a_fast_way_to_sell_your_python_code_as_a/) , 1693919610.0
-```
-
 ```
 ---
 
@@ -939,189 +1047,6 @@ r(err))
 
      
  
-all -  [ Merging GPT-4 and PDF-based Retrieval System ](https://www.reddit.com/r/OpenAI/comments/168sft4/merging_gpt4_and_pdfbased_retrieval_system/) , 1693733032.0
-```
-Hey Reddit fam,
-
-I'm knee-deep in a research project that's focused on the capabilities of ChatGPT (GPT-4.0, to be speci
-fic) in passing the CISA exam. My initial plan was to run a side-by-side analysis comparing the stock GPT-4.0 model with
- a version specially trained on additional data.
-
-I've cobbled together a Python script using various code snippets I fo
-und online, which lets me train the model using PDF documents. The idea was to end up with a supercharged ChatGPT that c
-ombines its original abilities with the insights from my training material.
-
-However, what I've inadvertently ended up w
-ith seems to be a retrieval-based system. It utilizes GPT-4 for natural language generation and a collection of document
-s as a database for information retrieval. The catch is, it seems to only answer queries that are directly related to th
-e training documents.
-
-I've hit a roadblock and can't seem to find a solid solution to make it work as intended. Anyone 
-out there who's ventured into something similar or has any tips on how to pull this off?
-
-Appreciate your help in advanc
-e!
-
-&#x200B;
-
-    import os
-    from langchain.document_loaders import PyMuPDFLoader
-    from langchain.text_splitter im
-port RecursiveCharacterTextSplitter
-    from langchain.vectorstores import Chroma
-    from langchain.embeddings import O
-penAIEmbeddings
-    from langchain.chat_models import ChatOpenAI
-    from langchain.chains import RetrievalQA
-    
-    o
-s.environ['OPENAI_API_KEY'] = 'Key'
-    
-    persist_directory = '.\storage'
-    pdf_path =  '.\docs\CISA _Review_Manual
-_27th_edition.pdf'
-    
-    loader = PyMuPDFLoader(pdf_path)
-    documents = loader.load()
-    
-    text_splitter = Recu
-rsiveCharacterTextSplitter(chunk_size=512, chunk_overlap=10)
-    texts = text_splitter.split_documents(documents)
-    
- 
-   embeddings = OpenAIEmbeddings()
-    vectordb = Chroma.from_documents(documents=texts, embedding=embeddings, persist_d
-irectory=persist_directory)
-    
-    vectordb.persist()
-    
-    retriever = vectordb.as_retriever(search_kwargs={'k': 3
-})
-    llm = ChatOpenAI(model_name='gpt-4')
-    
-    qa = RetrievalQA.from_chain_type(llm=llm, chain_type='stuff', retri
-ever=retriever)
-    
-    while True:
-        user_input = input('Entere a query: ')
-        if user_input == 'exit':
-   
-         break
-        
-        query = f'###Prompt {user_input}'
-        try:
-            llm_reponse = qa(query)
-     
-       print(llm_reponse['result'])
-        except Exception as err:
-            print('Exception occurred. Please try a
-gain.', str(err))
-```
----
-
-     
- 
-all -  [ ChatGPT Plugins - How to find URL? ](https://www.reddit.com/r/LangChain/comments/168s47r/chatgpt_plugins_how_to_find_url/) , 1693731870.0
-```
-According to the Documentation:
-
-[https://python.langchain.com/docs/integrations/tools/chatgpt\_plugins](https://python.
-langchain.com/docs/integrations/tools/chatgpt_plugins)
-
-You can simply add existing (non-authorized) Plugins like Klarna
- as a tool to the LLM:
-
-&#x200B;
-
- `tool = AIPluginTool.from_plugin_url('https://www.klarna.com/.well-known/ai-plugin.js
-on')` 
-
-I want to try this out with 'web\_requests', but I struggle to find the URL for it.
-
-Is there some way to quickl
-y find out the URL needed to use Plugins as tools in langchain?
-```
----
-
-     
- 
-all -  [ Langchain+local LLM+Javascript? ](https://www.reddit.com/r/LangChain/comments/168qcvq/langchainlocal_llmjavascript/) , 1693725401.0
-```
-Hi. Can I hook langchain up to my local LLM? I´ve seen some videos of people doing it with python and something called p
-ipelines, but no info on Javascript. Can it be done with javascript? 
-```
----
-
-     
- 
-all -  [ Accessing high-quality curated vector embedding knowledgebases ](https://www.reddit.com/r/LangChain/comments/168pkqs/accessing_highquality_curated_vector_embedding/) , 1693722637.0
-```
-I recently asked a question here about the usefulness for developers to access a repository of curated high-quality know
-ledge bases from experts across domains, to be able to plug in to any LLM (via vector embeddings) with an API call.
-
-Got
- some good responses and decided to build it out! Thanks to those shared their feedback. A bunch of things to think thro
-ugh, but I think it's a good problem to solve.
-
-&#x200B;
-
-* Currently, developers need to play the role of a subject-mat
-ter-expert to learn, curate & test the right content to create a knowledgebase.
-* There is no destination for developers
- to access production-ready, high-quality knowledgebases from experts across a variety of topics in the form of vector e
-mbeddings.
-
-https://preview.redd.it/quq5wyuoizlb1.jpg?width=2134&format=pjpg&auto=webp&s=83fbd301ea8ce2eefe46bf5816a49eb
-d9ee5c547
-
-* Lore brings in experts across various domains to host knowledgebases.
-* We take care of converting knowledg
-ebases into vector embeddings and optimizing retrieval so that experts & developers don’t need to maintain pipelines for
- cleaning, embedding, hosting, maintaining & retrieving data.
-
-https://preview.redd.it/uf4fejxuizlb1.jpg?width=1926&form
-at=pjpg&auto=webp&s=16d45a79976db95d702f2cccc780c2d4b6f27509
-
-Check out [https://lore.market](https://lore.market), join
- the waitlist and stay connected :)
-```
----
-
-     
- 
-all -  [ To query specific document from chromadb with llama2 ](https://www.reddit.com/r/LangChain/comments/168mqwm/to_query_specific_document_from_chromadb_with/) , 1693713181.0
-```
-I am planning to index multiple document and later if a question comes against a specific document i want llama2 to answ
-er from that specific document only. Also i wanted avoid indexing again if the document is already there. How can I do t
-his with chroma client and langchain.
-```
----
-
-     
- 
-all -  [ Chatbot help ](https://www.reddit.com/r/Python/comments/168l850/chatbot_help/) , 1693708467.0
-```
-Hi guys, My intent is to build a chatbot for an existing Sustainability dashboard. The data behind the dashboard resides
- on a snowflake sql server.
-
-No I want to use to build a flowbased chatbot so that user can ask natural language questio
-ns and the bot can understand the backend tabular data and respond accordingly. The data is tabular with text and number
-s. So I guess Embedding will not make much sense here right?
-
-I thought may we can use langchain and llm to go ve sql qu
-eries and then spit out the result for the user. 
-
-Question cam be like what  is the ESG score of company Mastercard? 
-S
-o the chatbot should search for this company  in the database and them give the scores.
-
-How can it be done? I tried goo
-gle dialog flow but it’s hard to connect with my sql data. Also, I can pull the data in csv form as well.
-```
----
-
-     
- 
 MachineLearning -  [ [D] Is there anything LangChain can do better than using LLMs directly (either through a website or  ](https://www.reddit.com/r/MachineLearning/comments/165airj/d_is_there_anything_langchain_can_do_better_than/) , 1693389926.0
 ```
 I haven't used ChatGPT a lot or any other LLMs, I've been reading about  Langchain and its use cases, and I'm having tro
@@ -1353,16 +1278,6 @@ Really interested in your feedback and I would welcome any
 &#x200B;
 
 &#x200B;
-```
----
-
-     
- 
-MachineLearning -  [ [D] Document-based QnA without OpenAI? ](https://www.reddit.com/r/MachineLearning/comments/15imv19/d_documentbased_qna_without_openai/) , 1691212978.0
-```
-I am working on a project that is very popular with the inception of Langchain + GPT applications. However, I want to ma
-ke it open source and hence don't want to use GPT. So something like Langchain + LLama2, etc. I know currently Langchain
- only supports GPT but any other ideas are highly appreciated!
 ```
 ---
 
