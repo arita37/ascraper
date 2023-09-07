@@ -48,14 +48,17 @@ from langchain.chains import LLMChain
 
 
 ################################################################################
-def hf_download(cfg='llama_config.yml', mode='base1'):
+def hf_download(cfg='llama_config.yml', mode='mode1'):
     from huggingface_hub import hf_hub_download
 
+    cfg  = config_load(cfg)
+    cfg1 = cfg[mode]
+    cfg2 = cfg1['model_source']
 
     hf_hub_download(
-        repo_id='TheBloke/Llama-2-7B-GGUF',
-        filename='llama-2-7b.Q4_K_M.gguf',
-        local_dir='./models'
+        repo_id   = cfg2.get('repo_id',   'TheBloke/Llama-2-7B-GGUF'),
+        filename  = cfg2.get('filename',  'llama-2-7b.Q4_K_M.gguf'),
+        local_dir = cfg2.get('local_dir', './models')
     )
     log("/Users/.cache/")
     log( os.home() )
