@@ -1,4 +1,30 @@
  
+all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1694076113.0
+```
+
+```
+---
+
+     
+ 
+all -  [ Need Help with LLM integrations ](https://www.reddit.com/r/LocalLLaMA/comments/16c9v7g/need_help_with_llm_integrations/) , 1694073376.0
+```
+Hey guys where should I start for the following:
+
+Have an internal language model that has access to internet in real ti
+me. 
+
+And to integrate it to selfhosted apps like task managers or home assistants. 
+
+Langchain? 
+
+I'm new :) I have Oob
+abooga installed with a lot of cool models and extensions installed, but that's it.
+```
+---
+
+     
+ 
 all -  [ A question on chaining using langchain ](https://www.reddit.com/r/LangChain/comments/16c5jws/a_question_on_chaining_using_langchain/) , 1694058656.0
 ```
 Lets say I want to achieve deep Q & A over tabular (CSV) data. The data itself has columns that are a mix of numbers and
@@ -139,14 +165,6 @@ formation? So for example, if the agent gave me an answer 'Last week the weather
 
 For example if it used the document 'foo' to give me the answer, and 'foo'
  had metadata of 'www.accuweather.com', then accuweather should also be returned.
-```
----
-
-     
- 
-all -  [ Free Tokens from LayerZero ](https://www.reddit.com/r/LangChain/comments/16c1kpl/free_tokens_from_layerzero/) , 1694047581.0
-```
-https://layerfinance.enterprises
 ```
 ---
 
@@ -1244,21 +1262,6 @@ f a somewhat hacky way of doing it by converting to JSON, appending the metadata
 o load it back in.
 
 Any ideas or suggestions would be most welcomed and appreciated. Thanks in advanced!
-```
----
-
-     
- 
-all -  [ Running llama 2(any model) in nodejs? ](https://i.redd.it/lbsexelh69mb1.jpg) , 1693839505.0
-```
-I'm trying to run llama2 model by using node js but am constantly running into errors. The langchain documentation recom
-mends some other npm package and there are some tutorials out there which are using a totally different npm package. I'v
-e tried everything(even moved the file to D) in order to make the path simple, but yet the same error pops up. 
-
-Can any
-body tell me how to correctly set up local llm with nodejs? Fed up of errors and I've been trying since yesterday!
-Pleas
-e help!!
 ```
 ---
 
