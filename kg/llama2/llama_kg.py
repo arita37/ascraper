@@ -19,6 +19,9 @@ Works with GGUF models (GGML models are deprecated)
    https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
 
 
+   https://huggingface.co/substratusai/Llama-2-13B-chat-GGUF
+
+
 Issues: 
 
 
