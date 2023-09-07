@@ -7,8 +7,9 @@ Relations extractor powered by LLaMA-2-7B-chat model
 ## Installation
 
 ### Model Download
-
+```sh
     pip install hugginggface_hub
+```
 ```sh
     cd kg/llama2
     python llama_kg.py hf_download
