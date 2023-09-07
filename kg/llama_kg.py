@@ -65,12 +65,13 @@ def hf_download(cfg='llama_config.yml', mode='mode1'):
 
 
 
-def generate_kgraph(prompt=None, prompt_name='prompt1', dirout="kg_out.csv", cfg='llama_config.yml'):
+def generate_kgraph(prompt=None, prompt_name='prompt1', dirout="kg_out.csv", cfg='llama_config.yml', mode='mode1'):
     """
       Extrapolates the relationships from the given prompt.
       Uses a fewshot prompt template, specified in the config file.
     """
-    cfg = config_load(cfg)
+    cfg0 = config_load(cfg)
+    cfg  = cfg0[mode]
 
     prompt1 = prompt if isinstance(prompt, str) else cfg[prompt_name]
 
