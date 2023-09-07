@@ -1,5 +1,5 @@
  
-all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1694076113.0
+all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1694081055.0
 ```
 
 ```
@@ -1246,22 +1246,6 @@ all -  [ 21 looking for internship, give me a reason why won’t you hire me? ](
 all -  [ Alternatives to Cosine similarity search, that provides better results for your use-case? ](https://www.reddit.com/r/LangChain/comments/169wguh/alternatives_to_cosine_similarity_search_that/) , 1693844642.0
 ```
 
-```
----
-
-     
- 
-all -  [ Ways to Inject Metadata into Text Chunks? ](https://www.reddit.com/r/LangChain/comments/169uxea/ways_to_inject_metadata_into_text_chunks/) , 1693841133.0
-```
-Hi, would anybody know what the best way to inject metadata into text chunks using LangChain or maybe even Llama Index w
-ould be?
-
-For my use-case, I want to load in a PDF, and split the PDF into chunks, I want to be able to inject additiona
-l metadata. Is there a class in LangChain that helps with that? If not, what would be a good way to do this? I thought o
-f a somewhat hacky way of doing it by converting to JSON, appending the metadata fields, and then using the jsonloader t
-o load it back in.
-
-Any ideas or suggestions would be most welcomed and appreciated. Thanks in advanced!
 ```
 ---
 
