@@ -16,16 +16,37 @@ Works with GGUF models (GGML models are deprecated)
 
 
 #### Choice of models
-   https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
+   https://huggingface.co/TheBloke/Llama-2-7b-Chat-GGUF
 
 
    https://huggingface.co/substratusai/Llama-2-13B-chat-GGUF
 
 
-Issues: 
-
-
-
+Issues:
+    1. GGUF vs GGML:
+        If you want to run the model on local machine using llama.cpp, you have to
+        use GGUF models, because GGML support has ended.
+        GGUF holds more metadata of the model, not taking too much space.
+    2. Parameter Size:
+        Greater parameter size - better performance, higher hardware load.
+        Tip: Use 7B/13B models for kgraph generation.
+    3. Quantization:
+        Reducing the precision of weights saves memory and speeds up
+        inference while preserving performance.
+        Tip: not recommended to use low bit models due to high performance loss.
+             Pick the golden mean.
+    4. PromptTemplate:
+        Models, distributed on hf are pretrained with following specific prompt template.
+        It's format is specified in most hf repos. If It's not present, use the default one,
+        provided by Meta.
+    5. Fine-Tuning:
+        If you want the model to follow the exact prompt template and increase its performance,
+        you can train it yourself using autotrain package.
+        The dataset for training can be made manually or using big parameter models (70B).
+    6. Hardware Acceleration:
+        Installation guide, provided in README.md makes the model run using only CPU.
+        Tip: If you want to speed up the process using GPU, refer to
+             https://github.com/abetlen/llama-cpp-python#installation-with-hardware-acceleration
 
 """
 
