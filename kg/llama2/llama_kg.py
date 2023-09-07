@@ -28,12 +28,13 @@ def hf_download(local_dir=None, repo_id=None, filename=None,
     """
     Downloads specified model from hugging_face repo.
 
-    :param local_dir: model save directory
-    :param repo_id: id of the huggingface repo
-    :param filename: name of the model file
-    :param cfg: yaml cfg file
-    :param mode: cfg file mode
-    :rtype: None
+    python llama_kg.py  hf_donwload  --repo_id 'TheBloke/Llama-2-7B-GGUF'   --filename 'llama-2-7b.Q4_K_M.gguf'  --local_dir './models'
+
+    local_dir: model save directory
+    repo_id: id of the huggingface repo
+    filename: name of the model file
+    cfg: yaml cfg file
+    mode: cfg file mode
     """
     if (repo_id and not filename) or (filename and not repo_id):
         raise ValueError("No full repo_path specified.")
@@ -44,8 +45,8 @@ def hf_download(local_dir=None, repo_id=None, filename=None,
     cfg1 = cfg[mode]
     cfg2 = cfg1['model_source']
 
-    repo_id = repo_id if repo_id else cfg2.get('repo_id', 'TheBloke/Llama-2-7B-GGUF')
-    filename = filename if filename else cfg2.get('filename', 'llama-2-7b.Q4_K_M.gguf')
+    repo_id   = repo_id   if repo_id   else cfg2.get('repo_id', 'TheBloke/Llama-2-7B-GGUF')
+    filename  = filename  if filename  else cfg2.get('filename', 'llama-2-7b.Q4_K_M.gguf')
     local_dir = local_dir if local_dir else cfg2.get('local_dir', './models')
 
     model_path = hf_hub_download(
