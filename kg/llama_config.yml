@@ -12,15 +12,13 @@
 
 ############################################## Prompt Settings #########################################################
 mode1:
-
     model_source:
-        repo_id:    'TheBloke/Llama-2-7B-GGUF'
-        filename:   'llama-2-7b.Q4_K_M.gguf'
-        local_dir:  './models'
+      repo_id:    'TheBloke/Llama-2-7B-GGUF'
+      filename:   'llama-2-7b.Q4_K_M.gguf'
 
+    model_path: ./models/llama-2-7b-chat.Q4_K_M.gguf
 
     model_kwargs:
-      model_path: ./models/llama-2-7b-chat.Q4_K_M.gguf
       n_threads: 2 # CPU cores
       f16_kv: True
       n_ctx: 2048

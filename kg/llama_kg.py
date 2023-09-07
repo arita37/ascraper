@@ -1,41 +1,16 @@
 """
-Relations extractor powered by LLaMA-2-7B-chat model 
-
-
-#### Model Download
-pip install hugginggface_hub
-
-
-from huggingface_hub import hf_hub_download
-hf_hub_download(
-    repo_id='TheBloke/Llama-2-7B-GGUF',
-    filename='llama-2-7b.Q4_K_M.gguf',
-    local_dir='./models'
-)
-Note: huggingface donwloads model cache to C://Users//<user>//.cache directory
-
-
-#### Dependencies
-pip install utilmy fire langchain
-pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
-
-
-#### Test Run
-cd kg
-python llama_kg.py generate_kgraph --prompt_name prompt1 -dirout llama_out.csv
-
-
-
-Works with GGUF models (GGML models are deprecated)
+Relations extractor powered by LLaMA-2-7B-chat model
 
 # CPU llama-cpp-python
     pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir --verbose
 # Dependencies:
     pip install utilmy fire langchain
 
+#### Test Run
+cd kg
 python llama_kg.py generate_kgraph --prompt_name prompt1 -dirout llama_out.csv
 
-
+Works with GGUF models (GGML models are deprecated)
 
 """
 
@@ -48,38 +23,66 @@ from langchain.chains import LLMChain
 
 
 ################################################################################
-def hf_download(cfg='llama_config.yml', mode='mode1'):
+def hf_download(local_dir=None, repo_id=None, filename=None,
+                cfg='llama_config.yml',  mode='mode1'):
+    """
+    Downloads specified model from hugging_face repo.
+
+    :param local_dir: model save directory
+    :param repo_id: id of the huggingface repo
+    :param filename: name of the model file
+    :param cfg: yaml cfg file
+    :param mode: cfg file mode
+    :rtype: None
+    """
+    if (repo_id and not filename) or (filename and not repo_id):
+        raise ValueError("No full repo_path specified.")
+
     from huggingface_hub import hf_hub_download
 
     cfg  = config_load(cfg)
     cfg1 = cfg[mode]
     cfg2 = cfg1['model_source']
 
-    hf_hub_download(
-        repo_id   = cfg2.get('repo_id',   'TheBloke/Llama-2-7B-GGUF'),
-        filename  = cfg2.get('filename',  'llama-2-7b.Q4_K_M.gguf'),
-        local_dir = cfg2.get('local_dir', './models')
+    repo_id = repo_id if repo_id else cfg2.get('repo_id', 'TheBloke/Llama-2-7B-GGUF')
+    filename = filename if filename else cfg2.get('filename', 'llama-2-7b.Q4_K_M.gguf')
+    local_dir = local_dir if local_dir else cfg2.get('local_dir', './models')
+
+    model_path = hf_hub_download(
+        repo_id=repo_id,
+        filename=filename,
+        local_dir=local_dir,
     )
-    log("/Users/.cache/")
-    log( os.home() )
+    log("Model's cache saved to ~/.cache")
+    log(f"Path to the model: {model_path}")
 
 
 
-def generate_kgraph(prompt=None, prompt_name='prompt1', dirout="kg_out.csv", cfg='llama_config.yml', mode='mode1'):
+def generate_kgraph(prompt=None, prompt_name='prompt1', model_path=None,
+                    dirout="kg_out.csv", cfg='llama_config.yml', mode='mode1'):
     """
       Extrapolates the relationships from the given prompt.
+      LLama-2-chat model support.
       Uses a fewshot prompt template, specified in the config file.
+
+      :param prompt: prompt to extrapolate relations from
+      :param prompt_name: name of the named prompt present in cfg file
+      :param model_path: path to the llama-2-chat model
+      :param dirout: output file path
+      :param cfg: yaml cfg file
+      :param mode: cfg file mode
     """
     cfg0 = config_load(cfg)
     cfg  = cfg0[mode]
 
     prompt1 = prompt if isinstance(prompt, str) else cfg[prompt_name]
+    model_path = model_path if model_path else cfg.get('model_path')
 
     #### Load specific config ##################################################
 
-    mpars = cfg['model_kwargs']
-    prompt_template_params = cfg['prompt_template']
-    example_template_params = cfg['prompt_template_example']
+    mkwargs = cfg.get('model_kwargs')
+    prompt_template_params = cfg.get('prompt_template')
+    example_template_params = cfg.get('prompt_template_example')
 
     #### Example and Main templates ############################################
     example_prompt = PromptTemplate(**example_template_params)
@@ -91,8 +94,11 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', dirout="kg_out.csv", cfg
     #### Model init and run ####################################################
     log(f"### Initializing model...")
     try:
-        llm = LlamaCpp(**mpars)
-        log(f'### Model successfuly initialized')
+        llm = LlamaCpp(
+            model_path=model_path,
+            **mkwargs
+        )
+        log(f'### Model successfully initialized')
     except Exception as e:
         log(f'### Error while initializing model: {e}')
         return
