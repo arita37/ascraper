@@ -137,4 +137,8 @@ def parse_response(response):
 
 ################################################################################
 if __name__ == '__main__':
-    fire.Fire()
+    commands = {
+        'hf_download':  hf_download,
+        "generate_kgraph": generate_kgraph
+    }
+    fire.Fire(commands)
