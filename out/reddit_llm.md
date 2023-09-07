@@ -1,7 +1,44 @@
  
-all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1694081055.0
+all -  [ Enhancing My Educational Content App with Fact-Checking Capabilities – Need Guidance! ](https://www.reddit.com/r/LangChain/comments/16cdrlp/enhancing_my_educational_content_app_with/) , 1694087314.0
 ```
 
+Hey there, fellow developers!
+
+I'm working on an educational content app powered by GPT, and it's been going great so f
+ar. Users can interact with a PDF document, thanks to embeddings, vector stores, and all the fancy stuff. But now, I wan
+t to take it up a notch and add a fact-checking feature.
+
+Here's the challenge: I have a PDF with educational content, a
+nd I also have a separate text file that outlines guidelines on how to fact-check the document. It's like a set of instr
+uctions saying, 'Here's how you should fact-check this.'
+
+What I want is for users to hit a 'fact check' button, and GPT
+ should analyze the PDF document according to the guidelines provided in that text file. But here's where I'm stuck – ho
+w do I make GPT understand and follow those guidelines?
+
+I know fine-tuning is a thing, but it usually involves a 'promp
+t and response' format, which doesn't quite fit my scenario. My guidelines are more like rules to follow, not prompts fo
+r generating responses.
+
+So, devs, any ideas on how to make this happen? I'm all ears for your suggestions and guidance.
+
+```
+---
+
+     
+ 
+all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1694087105.0
+```
+
+```
+---
+
+     
+ 
+all -  [ Cheap ‘supercomputer’ for huge llm models ](https://www.reddit.com/r/LangChain/comments/16ccxbu/cheap_supercomputer_for_huge_llm_models/) , 1694084696.0
+```
+If I will order bunch of Intel Xeon’s on AliExpress and I will install multiply xeons on compatible motherboard with RAM
+ of 3200Mhz (maybe 256gb). Is it a good idea to create a server to launch llm like Falcon on 70B parameters?
 ```
 ---
 
@@ -1230,22 +1267,6 @@ ethod lifts GPT-3.5 almost on GPT-4 level.
 1. Anybody heard of this approach?
 2. Wouldn't LangChain be the perfect too
 l to automate that?
-```
----
-
-     
- 
-all -  [ 21 looking for internship, give me a reason why won’t you hire me? ](https://i.redd.it/qtdpsyd6o9mb1.jpg) , 1693845453.0
-```
-
-```
----
-
-     
- 
-all -  [ Alternatives to Cosine similarity search, that provides better results for your use-case? ](https://www.reddit.com/r/LangChain/comments/169wguh/alternatives_to_cosine_similarity_search_that/) , 1693844642.0
-```
-
 ```
 ---
 
