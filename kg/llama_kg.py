@@ -1,4 +1,31 @@
 """
+Relations extractor powered by LLaMA-2-7B-chat model 
+
+
+#### Model Download
+pip install hugginggface_hub
+
+
+from huggingface_hub import hf_hub_download
+hf_hub_download(
+    repo_id='TheBloke/Llama-2-7B-GGUF',
+    filename='llama-2-7b.Q4_K_M.gguf',
+    local_dir='./models'
+)
+Note: huggingface donwloads model cache to C://Users//<user>//.cache directory
+
+
+#### Dependencies
+pip install utilmy fire langchain
+pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
+
+
+#### Test Run
+cd kg
+python llama_kg.py generate_kgraph --prompt_name prompt1 -dirout llama_out.csv
+
+
+
 Works with GGUF models (GGML models are deprecated)
 
 # CPU llama-cpp-python
@@ -7,6 +34,9 @@ Works with GGUF models (GGML models are deprecated)
     pip install utilmy fire langchain
 
 python llama_kg.py generate_kgraph --prompt_name prompt1 -dirout llama_out.csv
+
+
+
 """
 
 import ast, csv, fire
@@ -18,6 +48,19 @@ from langchain.chains import LLMChain
 
 
 ################################################################################
+def hf_download(cfg='llama_config.yml', mode='base1'):
+    from huggingface_hub import hf_hub_download
+
+
+    hf_hub_download(
+        repo_id='TheBloke/Llama-2-7B-GGUF',
+        filename='llama-2-7b.Q4_K_M.gguf',
+        local_dir='./models'
+    )
+    log("/Users/.cache/")
+    log( os.home() )
+
+
 
 def generate_kgraph(prompt=None, prompt_name='prompt1', dirout="kg_out.csv", cfg='llama_config.yml'):
     """
