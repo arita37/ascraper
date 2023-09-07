@@ -9,57 +9,68 @@
 ## <</SYS>>
 ## {prompt}[/INST]
 
-model_kwargs:
-  model_path: ./models/llama-2-7b-chat.Q4_K_M.gguf
-  n_threads: 2 # CPU cores
-  f16_kv: True
-  n_ctx: 2048
-  max_tokens: 2048
-  temperature: 0.0
 
 ############################################## Prompt Settings #########################################################
+mode1:
 
-prompt_template:
-  input_variables:
-    - input
-  prefix: |
-    [INST] <<SYS>>
-    You are a relation-finding assistant, which takes user's text input and extracts relations from it.
-    Relation is a type of connection between two objects.
-    If one entity somehow relates to another, then we call it a relation.
-    Relation is directed, so order matters.
-    Output relations in format [Object1, Object2, RelationType] where Object2 has a relation of RelationType with Object1.
-    
-    Examples:
-  suffix:  |
-    <</SYS>>
-    Prompt: {input}
-    
-    Relations: [/INST]
-
-  example_separator: "\n\n"
-  examples:
-    - prompt: |
-        Mary, Mike and Alice are friends. Alice is Bob's roommate and Jean hates her.
-      relations: |
-        [["Mary", "Mike", "friend"], ["Mary", "Alice", "friend"], ["Alice", "Mike", "friend"], ["Alice", "Bob", "roommate"], ["Jean", "Alice", "hate"]]
-    - prompt: |
-        Washington is the capital city of the United States. The city is located on the east bank of
-        the Potomac River, which forms its southwestern border with Virginia and borders Maryland
-        to its north and east.
-      relations: |
-        [["United States", "Washington", "capital"], ["Washington", "Potomac River bank", "location"], ["Washington", "Virginia", "border"], ["Washington", "Maryland", "border"]]
+    model_source:
+        repo_id:    'TheBloke/Llama-2-7B-GGUF'
+        filename:   'llama-2-7b.Q4_K_M.gguf'
+        local_dir:  './models'
 
 
+    model_kwargs:
+      model_path: ./models/llama-2-7b-chat.Q4_K_M.gguf
+      n_threads: 2 # CPU cores
+      f16_kv: True
+      n_ctx: 2048
+      max_tokens: 2048
+      temperature: 0.0
 
- # Example templating (similar to the main template suffix)
-prompt_template_example:
-  input_variables:
-    - prompt
-    - relations
-  template: |
-    Prompt: {prompt}
-    Relations: {relations}
+
+    prompt_template:
+      input_variables:
+        - input
+      prefix: |
+        [INST] <<SYS>>
+        You are a relation-finding assistant, which takes user's text input and extracts relations from it.
+        Relation is a type of connection between two objects.
+        If one entity somehow relates to another, then we call it a relation.
+        Relation is directed, so order matters.
+        Output relations in format [Object1, Object2, RelationType] where Object2 has a relation of RelationType with Object1.
+        
+        Examples:
+      suffix:  |
+        <</SYS>>
+        Prompt: {input}
+        
+        Relations: [/INST]
+
+      example_separator: "\n\n"
+      examples:
+        - prompt: |
+            Mary, Mike and Alice are friends. Alice is Bob's roommate and Jean hates her.
+          relations: |
+            [["Mary", "Mike", "friend"], ["Mary", "Alice", "friend"], ["Alice", "Mike", "friend"], ["Alice", "Bob", "roommate"], ["Jean", "Alice", "hate"]]
+        - prompt: |
+            Washington is the capital city of the United States. The city is located on the east bank of
+            the Potomac River, which forms its southwestern border with Virginia and borders Maryland
+            to its north and east.
+          relations: |
+            [["United States", "Washington", "capital"], ["Washington", "Potomac River bank", "location"], ["Washington", "Virginia", "border"], ["Washington", "Maryland", "border"]]
+
+
+
+    # Example templating (similar to the main template suffix)
+    prompt_template_example:
+      input_variables:
+        - prompt
+        - relations
+      template: |
+        Prompt: {prompt}
+        Relations: {relations}
+
+
 
 ############################################## Named Prompts ###########################################################
 prompt1: |
@@ -71,3 +82,4 @@ prompt1: |
   333 million,[k] it is the most populous country in the Americas and the third-most populous in the world. The national
   capital of the United States is Washington, D.C., and its most populous city and principal financial center is 
   New York City.
+
