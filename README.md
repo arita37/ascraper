@@ -8,11 +8,11 @@ Relations extractor powered by LLaMA-2-7B-chat model
 
 ### Model Download
 ```sh
-    pip install hugginggface_hub
+pip install hugginggface_hub
 ```
 ```sh
-    cd kg/llama2
-    python llama_kg.py hf_download
+cd kg/llama2
+python llama_kg.py hf_download
 ```
 #### Default model
     --repo_id "TheBloke/Llama-2-7B-GGUF" \
