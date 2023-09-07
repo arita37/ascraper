@@ -10,23 +10,28 @@
 ## {prompt}[/INST]
 
 
+#### List of models LLAMA2-CPP
+#  https://huggingface.co/TheBloke/Llama-2-13B-chat-GGUF
+#  https://huggingface.co/substratusai/Llama-2-13B-chat-GGUF
+
+
+
+
 ############################################## Prompt Settings #########################################################
 mode1:
     model_source:
-      # https://huggingface.co/substratusai/Llama-2-13B-chat-GGUF
       repo_id:    'TheBloke/Llama-2-7B-GGUF'
       filename:   'llama-2-7b.Q4_K_M.gguf'
-
 
     #### Feed the extractor
     model_path: ./models/llama-2-7b-chat.Q4_K_M.gguf
 
     model_kwargs:
-      n_threads: 2 # CPU cores
-      f16_kv: True
-      n_ctx: 2048
-      max_tokens: 2048
-      temperature: 0.0
+      n_threads:     2 # CPU cores
+      f16_kv:      True
+      n_ctx:       2048
+      max_tokens:  2048
+      temperature:  0.0
 
 
     prompt_template:
