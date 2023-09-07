@@ -66,12 +66,12 @@ def generate_kgraph(prompt=None, prompt_name='prompt1', model_path=None,
       LLama-2-chat model support.
       Uses a fewshot prompt template, specified in the config file.
 
-      :param prompt: prompt to extrapolate relations from
-      :param prompt_name: name of the named prompt present in cfg file
-      :param model_path: path to the llama-2-chat model
-      :param dirout: output file path
-      :param cfg: yaml cfg file
-      :param mode: cfg file mode
+      prompt: prompt to extrapolate relations from
+      prompt_name: name of the named prompt present in cfg file
+      model_path: path to the llama-2-chat model
+      dirout: output file path
+      cfg: yaml cfg file
+      mode: cfg file mode
     """
     cfg0 = config_load(cfg)
     cfg  = cfg0[mode]
