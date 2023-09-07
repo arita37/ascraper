@@ -1,4 +1,15 @@
  
+all -  [ [D]What do people think about papers published in the NeurIPS dataset track in comparison to those p ](https://www.reddit.com/r/MachineLearning/comments/16cto3t/dwhat_do_people_think_about_papers_published_in/) , 1694128059.0
+```
+ I'm curious to learn about the perception of papers published in the NeurIPS dataset track in comparison to those publi
+shed in the main conference. Specifically, I'd like to know how both companies and Ph.D. committees view these papers. A
+re they considered equally valuable, or is there a notable difference in their reputation and significance? Your insight
+s and experiences would be greatly appreciated! 
+```
+---
+
+     
+ 
 all -  [ Profile Eval - Quant Trading to ML PhD ](https://www.reddit.com/r/gradadmissions/comments/16bamcs/profile_eval_quant_trading_to_ml_phd/) , 1693974824.0
 ```
 Hello! I’ve been working a bit over a year in trading and now looking to fulfill my dream of getting a PhD and focusing 

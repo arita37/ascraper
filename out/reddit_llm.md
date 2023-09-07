@@ -1,4 +1,269 @@
  
+all -  [ I am 5th Sem CSE Student, I would really appreciate a Resume Review as to how can I make it better ](https://i.redd.it/gin1gstb2wmb1.jpg) , 1694116564.0
+```
+I have been freelancing since class 2020 for a good client base and some DMAs although I am not sure where I should add 
+that
+```
+---
+
+     
+ 
+all -  [ Library or Langchain component for cleaning OpenAI response? ](https://www.reddit.com/r/LangChain/comments/16cnvuk/library_or_langchain_component_for_cleaning/) , 1694115007.0
+```
+Hello everyone, 
+
+I'm building an AI application, and one of the biggest issues with it is sometimes GPT-3.5 will give m
+e a function call that is not proper JSON. I made it a loop so that if it is incorrect JSON, it tells the model that and
+ asks it to retry.
+
+There must be a lot of people having this same problem. Is there a python library someones made for 
+regexing these errors out, or some other way to reduce the likelyhood of them happening as close to 0% as possible? At t
+he moment, these errors are occuring about 10% of the time, and GPT-3.5 corrects them only 2/3rds of that time. That mea
+ns that 3% of the time my program is failing which is too high.
+
+Any ideas? I'm open to anything!
+```
+---
+
+     
+ 
+all -  [ Chainlit playground now supports all LangChain LLMs ](https://www.reddit.com/r/LangChain/comments/16cmjt9/chainlit_playground_now_supports_all_langchain/) , 1694111334.0
+```
+Hi LangChain Community!  
+
+
+We released a new version of the prompt playground which now supports all LangChain LLMs 🔥  
+
+That means you can iterate on your prompts, variables and LLM settings for ANY LLM directly from the UI. Iterating on i
+ntermediary steps just got a whole lot simpler!
+
+Full thread and explanation below
+
+[https://twitter.com/chainlit\_io/st
+atus/1699821349856854316](https://twitter.com/chainlit_io/status/1699821349856854316)
+```
+---
+
+     
+ 
+all -  [ Rate my Pipe! Colab notebook incl. ](https://www.reddit.com/r/LangChain/comments/16cm7g1/rate_my_pipe_colab_notebook_incl/) , 1694109740.0
+```
+Colab: [https://colab.research.google.com/drive/1mi0Xw5bEa-wga48fPE1HSxWQjI47ftda?usp=sharing](https://colab.research.go
+ogle.com/drive/1mi0Xw5bEa-wga48fPE1HSxWQjI47ftda?usp=sharing)
+
+Hey, this is a little chat project I set up a while back 
+to review embeddings, play with models, and generally diy research for various things. Sharing for fun, feel free to tea
+r it apart, or share what you like. I like that it's clean and easy to visualize the process in Colab/ jupyter notebook.
+ Chat and everything seems to be working at the time of posting. You'll need your openai key, and deeplake key (here: [A
+ctiveloop | Deep Lake | Data Lake for Deep Learning](https://www.activeloop.ai/))
+
+Pipeline notes: HuggingFace embedding
+s models are used so they can be swapped to test the individual model performance and chat-output generation. Currently,
+ the chat is openai gpt-3.5 modelset because it's easy and reliable for testing prototyping. I've used Activeloop Deepla
+ke vector-db because if you're not familiar, once your embeddings are ingested, they have a great visualizer so you can 
+see your embeddings, and review each embedding individually if needed. The pipeline is designed to be fun, with lots of 
+ways to visualize the outputs as things are being processed. Lots of progress bars and generation totals to show exactly
+ what's going on in the print statements. 
+
+Features: 
+
+i. huggingface embeddings model can easily be switched and d/l v
+ia model name configuration
+
+ii. embedding models are currently BERT models, distilled just means the original model has
+ been reduced by 40% and retains 95%+ of its original performance. 
+
+iii. ingestion speed is currently 3/seconds per pag
+e (mildly better with openai embeddings)
+
+iv. paralell processing for the embeddings is possible, but with GPU support i
+t's redundant, and with colab-pro you have the oppertunity to create and ingest the embeddings at a 'normal' rate 
+
+v. o
+penai gpt-3.5 chat model 
+
+Roadmap:
+
+i. I know the chat sucks, I'm working on an agent to combine various tools. Feel fr
+ee to provide your options or opinions on what would work best for vector retrieval 
+
+ii. I'm working with the TensorFlo
+w uploader in Langchain, in combination with the DeepLake/ Activeloop performant/compute  loader (which also uses tensor
+flow), to increase the speed of embedding ingestion. In preliminart trials, this seems promising, but nothing to roll ou
+t for sharing yet.   
+
+
+Enjoy if you tinker with it. Otherwise, feel free to share your thoughts, opinions, concerns abo
+ut the pipeline. 
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Help needed: making a tool required for agent? ](https://www.reddit.com/r/LangChain/comments/16clvhp/help_needed_making_a_tool_required_for_agent/) , 1694108371.0
+```
+Hi there, 
+
+Hoping to get some guidance with how to setup the agent framework for my use case, where I always want a par
+ticular tool to run regardless of what is being asked -- like a 'required' tool.
+
+&#x200B;
+
+I have a basic product chat 
+bot working for RAG-based QA about a product, retrieving info about the product to help it answer questions.
+
+So if I as
+k a question like:
+
+>**'It's going to be 45°F this weekend. Is this jacket appropriate?'**
+
+Then the bot is correctly re
+sponding with: (specific response based on the temperature rating of the jacket itself):
+
+>*'Yes, this jacket would be a
+ppropriate for a temperature of 45 degrees Fahrenheit. The temperature comfort range for this jacket is 40°F - 50°F, so 
+it is designed to provide comfort and insulation within that range.'*
+
+  
+Now I'm trying to expand the bot to be able to
+ answer a question like:
+
+>**'Is this jacket appropriate for the weather in Denver this weekend?'**
+
+&#x200B;
+
+To do thi
+s, I setup an  `conversational-react-description` agent that has 2 tools:
+
+* openweathermap-api
+* Product Chat: A custom
+ tool wrapping the same product chat bot above
+
+&#x200B;
+
+To answer this question, I want the agent to:
+
+1. Lookup the w
+eather in Denver this weekend (weather tool)
+2. Lookup the product specifications of the jacket (RAG), including tempera
+ture rating (product tool)
+3. Combine the results of 1 and 2 to say yes or no and explain why
+
+&#x200B;
+
+The problem is,
+ it's only running the weather tool, and then providing a generic response that 'yes a a jacket is probably a good idea'
+ based on the weather. 
+
+    > Entering new AgentExecutor chain...
+    
+    Thought: Do I need to use a tool? Yes
+    Ac
+tion: OpenWeatherMap
+    Action Input: Denver,US
+    Observation: In Denver,US, the current weather is as follows:
+    D
+etailed status: broken clouds
+    Wind speed: 0.89 m/s, direction: 74°
+    Humidity: 22%
+    Temperature: 
+      - Curre
+nt: 28.34°C
+      - High: 30.63°C
+      - Low: 25.95°C
+      - Feels like: 27.03°C
+    Rain: {}
+    Heat index: None
+   
+ Cloud cover: 54%
+    Thought: Do I need to use a tool? No
+    AI: Based on the current weather in Denver, US, it looks 
+like a jacket would be appropriate for this weekend. The temperature is currently 28.34°C, with a high of 30.63°C and a 
+low of 25.95°C. The humidity is 22%, and the wind speed is 0.89 m/s.
+    
+    > Finished chain.
+
+&#x200B;
+
+I want every 
+response to be in the context of the product, so I always want the product tool to run.
+
+I've tried modifying the agent 
+prompt prefix with language like '*You use should always use the 'Product Chat' tool before returning the final answer.'
+*, but it has no effect.  
+
+
+Is there a way to mark a tool as required? Is there a better way to try and instruct the ag
+ent about the importance of running the product chat tool?
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ The Point of LangChain — with Harrison Chase of LangChain ](https://www.latent.space/p/langchain#details) , 1694107253.0
+```
+
+```
+---
+
+     
+ 
+all -  [ Understanding Langchain modules (resource recommendations) ](https://www.reddit.com/r/LangChain/comments/16ci4qw/understanding_langchain_modules_resource/) , 1694098967.0
+```
+What's a good resource for understanding the different modules of Langchain in detail? I.e.: models, prompts, output par
+sers, chains, etc., breaking down their options and explaining how to link them together.
+
+Preferably in JS/TS.
+
+I've be
+en reading the docs, and while I grasp the general concepts, I often struggle with practical implementation. I frequentl
+y find myself copying the examples for guidance. I'd like to gain a better understanding of how everything fits together
+, so I can confidently assemble the building blocks on my own. Thanks
+```
+---
+
+     
+ 
+all -  [ Learn how to customize the newly added Neo4j Vector index in LangChain ](https://www.reddit.com/r/Neo4j/comments/16chc9d/learn_how_to_customize_the_newly_added_neo4j/) , 1694097009.0
+```
+Learn how can you use all the parameters of the Neo4j Vector index in LangChain to customize it to your needs 
+
+[https:/
+/blog.langchain.dev/neo4j-x-langchain-new-vector-index/](https://blog.langchain.dev/neo4j-x-langchain-new-vector-index/)
+
+```
+---
+
+     
+ 
+all -  [ [P] FalkorDB - a fast Graph Database - Knowledge Graph as RAG ](https://www.reddit.com/r/MachineLearning/comments/16cg6k7/p_falkordb_a_fast_graph_database_knowledge_graph/) , 1694094085.0
+```
+We're building a fast low latency Graph Database called FalkorDB that will also support Vector search.  
+It's based on R
+edis and can be used both as a stand alone database or a module for existing Redis.  
+It feels like that is going to be 
+the most optimized way to serve Knowledge as RAG, would love to get your feedback.  
+[https://github.com/FalkorDB/falkor
+db](https://github.com/FalkorDB/falkordb)  
+
+
+It already supports LlamIndex and Langchain:  
+[https://python.langchain.c
+om/docs/use\_cases/more/graph/graph\_falkordb\_qa](https://python.langchain.com/docs/use_cases/more/graph/graph_falkordb
+_qa)  
+[https://gpt-index.readthedocs.io/en/latest/examples/index\_structs/knowledge\_graph/FalkorDBGraphDemo.html](http
+s://gpt-index.readthedocs.io/en/latest/examples/index_structs/knowledge_graph/FalkorDBGraphDemo.html)
+
+&#x200B;
+```
+---
+
+     
+ 
 all -  [ Enhancing My Educational Content App with Fact-Checking Capabilities – Need Guidance! ](https://www.reddit.com/r/LangChain/comments/16cdrlp/enhancing_my_educational_content_app_with/) , 1694087314.0
 ```
 
@@ -27,18 +292,18 @@ So, devs, any ideas on how to make this happen? I'm all ears for your suggestion
 
      
  
-all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1694087105.0
+all -  [ Cheap ‘supercomputer’ for huge llm models ](https://www.reddit.com/r/LangChain/comments/16ccxbu/cheap_supercomputer_for_huge_llm_models/) , 1694084696.0
 ```
-
+If I will order bunch of Intel Xeon’s on AliExpress and I will install multiply xeons on compatible motherboard with RAM
+ of 3200Mhz (maybe 256gb). Is it a good idea to create a server to launch llm like Falcon on 70B parameters?
 ```
 ---
 
      
  
-all -  [ Cheap ‘supercomputer’ for huge llm models ](https://www.reddit.com/r/LangChain/comments/16ccxbu/cheap_supercomputer_for_huge_llm_models/) , 1694084696.0
+all -  [ Build an LLM-powered application using LangChain ](https://www.leewayhertz.com/build-llm-powered-apps-with-langchain/) , 1694081055.0
 ```
-If I will order bunch of Intel Xeon’s on AliExpress and I will install multiply xeons on compatible motherboard with RAM
- of 3200Mhz (maybe 256gb). Is it a good idea to create a server to launch llm like Falcon on 70B parameters?
+
 ```
 ---
 
@@ -1098,175 +1363,6 @@ ong?
 
 Could this problem be solved by changing or adding some key-value pairs in the parameter properties? I admit that 
 I added 'list': 'themes\_list' without fully understanding what it does exactly. Thank you.
-```
----
-
-     
- 
-all -  [ Please help, I am tilted/ make tool reveive arguments not from llm ](https://www.reddit.com/r/LangChain/comments/16aejz3/please_help_i_am_tilted_make_tool_reveive/) , 1693889268.0
-```
-I am trying to make a structured tool that will recieve some parameters from the llm and other parameters set by me and 
-the code, none of the examples in the documentation give me a good idea of how it should be done.
-
-I have been able to p
-ass in a variable through an eviorment variable inside the definition of the function, but i just can't make it take any
- parameters not made by the llm.
-
-`class requestSchema(BaseModel):`  
- `query: str = Field(description='should be a sear
-ch query')`  
- `endpoint: str = Field(description='should be a url endpoint in the API')`  
- `baseURL: str = (...)`  
- `
-mkey: str = (...)`  
-   
-`@tool`  
-`def requestTool(baseURL: str, endpoint: str, query: str) -> str:`  
- `'''Once you kn
-ow the data structure for using the CRM_endpoint_context tool,`  
-`you can now make a request to the endpoints using url
- request syntax'''`  
-   
- `mkey = os.environ['MKEY']`  
- `headers = {'mkey': mkey}`  
- `url = f'{baseURL}/{endpoint}?qu
-ery={query}'`  
- `response = requests.get(url, headers=headers)`  
- `if response.status_code == 200:`  
- `return respons
-e.json()`  
- `else:`  
- `return f'Request failed with status code {response.status_code}'`  
-
-
-I am aware that the query
- will not be right, I just want it to take the god damned argument.  
-
-
-`tools = [`   
- `requestTool(baseURL='`[`https:/
-/example.com`](https://example.com)`'), APIContextTool()`  
-`]`
-
-&#x200B;
-
-I have been inspecting the Basetool class for
- a while to see what can be done but its just very long and I'm not that senior.  
-
-
-I would apreciate any help, thanks.
-
-```
----
-
-     
- 
-all -  [ Optimal way to host/run inference on models at fp16? ](https://www.reddit.com/r/LangChain/comments/16aaann/optimal_way_to_hostrun_inference_on_models_at_fp16/) , 1693876876.0
-```
-I've only worked with quantized models thus far, but I'm adding a second 3090 to my rig and want to try running inferenc
-e and hosting an FP16 model, hopefully a 13b if it fits in 48gb. 
-
-What are you guys using to host your fp16 models? Jus
-t the transformers library? Are there any tips I should know for faster inference? For example, GPTQ quantized models ca
-n use exllama to double their inference speed. In that vein, what is the cutting edge hosting/inference solution for ful
-l precision llama models?
-```
----
-
-     
- 
-all -  [ Has anyone done a GPTQ quant at 8k or larger on the llama2 code models yet? ](https://www.reddit.com/r/LangChain/comments/16aa47m/has_anyone_done_a_gptq_quant_at_8k_or_larger_on/) , 1693876392.0
-```
-Just the title. I know it takes exponentially more compute to quantize for longer context lengths and the bloke typicall
-y uses 4k context for that reason. Anyone know if there are any GPTQ quants that let us take advantage of the rope scali
-ng that the new coder models were trained with?
-```
----
-
-     
- 
-all -  [ Create_sql_agent not able to access db when being used as a tool in a multi-tool agent ](https://www.reddit.com/r/LangChain/comments/16a6fxq/create_sql_agent_not_able_to_access_db_when_being/) , 1693866979.0
-```
-I have created a SQL bot using Langchain that was performing great, utilizing the create\_sql\_agent toolkit, however no
-w as I am trying to add more tools that play off of the queries it was performing, the bot is now unable to make any inf
-erences about the names of the columns, or seem to connect to the db at all. I am basing my work off of the docs here: [
-https://python.langchain.com/docs/modules/agents/agent\_types/openai\_functions\_agent](https://python.langchain.com/doc
-s/modules/agents/agent_types/openai_functions_agent)  
-Let me know if there are any mistakes in approach on my part, or 
-if anyone has experienced anything similar.  
-Thanks in advance!
-```
----
-
-     
- 
-all -  [ Structured data and LLMs: Should I embed? ](/r/vectordatabase/comments/16a3x33/structured_data_and_llms_should_i_embed/) , 1693861340.0
-```
-
-```
----
-
-     
- 
-all -  [ Same project different words which one is better ](https://www.reddit.com/gallery/16a3sh3) , 1693861011.0
-```
-
-```
----
-
-     
- 
-all -  [ LLM for big contextual questions ](https://www.reddit.com/r/LangChain/comments/169zbmo/llm_for_big_contextual_questions/) , 1693851116.0
-```
-Hi all,
-
-i need an LLM that can run on my avarage GPU for now (GeForce 3060) and can take an input of a big context (say
- 7000 tokens) and return an answer for it.
-
-llama2 seems not to fit and mpt7 needs a stronger GPU.
-
-any suggestions?
-```
----
-
-     
- 
-all -  [ Saving AIMessages to a file ](https://www.reddit.com/r/LangChain/comments/169yjw8/saving_aimessages_to_a_file/) , 1693849377.0
-```
-I have code that looks like this:
-
-    chat = ChatOpenAI(openai_api_key=api_key)
-    system_tempalte = 'some text'
-    s
-ystem_message = SystemMessagePromptTemplate.from_template(system_template)
-    human_template = '{variable_one} {variabl
-e_two}'
-    human_message = HumanMessagePromptTemplate.from_template(human_template)
-    chat_prompt = ChatPromptTemplat
-e.from_messages([system_message, human_message])
-    for i in range (len(variable_one)):
-        prompt = chat_prompt.fo
-rmat_messages(variable_one = variable_one[i], variable_two = variable_two[i])
-        results = chat(prompt)
-
-what I wan
-t to do is return the AIMessage as a string that I can write to a file that has Variable One: Variable Two: and then the
- AIMessage based on what variables its iterated. I haven't been able to make sense of how to do that from the documentat
-ion. Anyone got any ideas?
-```
----
-
-     
- 
-all -  [ GPT-4 enhanced GPT-3.5 prompting ](https://www.reddit.com/r/LangChain/comments/169xjsl/gpt4_enhanced_gpt35_prompting/) , 1693847108.0
-```
-I've recently read a post on Twitter where someone claimed that he has great success with crafting and refining prompts 
-for GPT-3.5 with the help of GPT-4. Unfortunately he gave no further hints on how he's doing that. He claimed that his m
-ethod lifts GPT-3.5 almost on GPT-4 level. 
-
-1. Anybody heard of this approach?
-2. Wouldn't LangChain be the perfect too
-l to automate that?
 ```
 ---
 
