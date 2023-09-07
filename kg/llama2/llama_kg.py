@@ -1,16 +1,28 @@
 """
 Relations extractor powered by LLaMA-2-7B-chat model
 
+
 # CPU llama-cpp-python
     pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir --verbose
-# Dependencies:
     pip install utilmy fire langchain
+
+
 
 #### Test Run
 cd kg
 python llama_kg.py generate_kgraph --prompt_name prompt1 -dirout llama_out.csv
 
 Works with GGUF models (GGML models are deprecated)
+
+
+#### Choice of models
+   https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML
+
+
+Issues: 
+
+
+
 
 """
 
@@ -25,8 +37,7 @@ from langchain.chains import LLMChain
 ################################################################################
 def hf_download(local_dir=None, repo_id=None, filename=None,
                 cfg='llama_config.yml',  mode='mode1'):
-    """
-    Downloads specified model from hugging_face repo.
+    """Downloads specified model from hugging_face repo.
 
     python llama_kg.py  hf_donwload  --repo_id 'TheBloke/Llama-2-7B-GGUF'   --filename 'llama-2-7b.Q4_K_M.gguf'  --local_dir './models'
 
@@ -61,8 +72,7 @@ def hf_download(local_dir=None, repo_id=None, filename=None,
 
 def generate_kgraph(prompt=None, prompt_name='prompt1', model_path=None,
                     dirout="kg_out.csv", cfg='llama_config.yml', mode='mode1'):
-    """
-      Extrapolates the relationships from the given prompt.
+    """Extrapolates the relationships from the given prompt.
       LLama-2-chat model support.
       Uses a fewshot prompt template, specified in the config file.
 
