@@ -1,0 +1,61 @@
+
+
+
+Named Entity Recognition (NER)
+Prompt:
+
+You are an expert NER labeler. Only return JSON. Do not return explanations. Return the CoNLL format for the following sentence in JSON format.
+
+Response:
+
+{
+  "data": [
+    {
+      "word": "Harry",
+      "entity": "B-PER"
+    },
+    {
+      "word": "Potter",
+      "entity": "I-PER"
+    },
+    {
+      "word": "was",
+      "entity": "O"
+    },
+    {
+      "word": "a",
+      "entity": "O"
+    },
+    {
+      "word": "student",
+      "entity": "O"
+    },
+    {
+      "word": "at",
+      "entity": "O"
+    },
+    {
+      "word": "Hogwarts",
+      "entity": "B-LOC"
+    }
+  ]
+}
+In my opinion, there’s no substitute for human evaluation, but using the GPT models to give us a starting point can be a huge advantage.
+
+Conclusion
+Labeling data is always difficult, and sometimes, even getting that starting point is a huge advantage. In this blog, we showed how you can use the GPT models by OpenAI to generate predictions for data to serve as the starting point for your data labeling workflows. This process can significantly reduce the amount of human effort involved, and focus labelers’ attention on providing more value for their efforts. Check out the resources for more info on the topics presented in this blog.
+
+Resources
+Full example notebook — notebook with all code ready to run in Colab
+
+Label Studio — Open Source data labeling tool
+
+OpenAI Pricing page — details for the pricing estimate in this post
+
+
+
+Sign up to discover human stories that deepen your understanding of the world.
+
+
+
+
