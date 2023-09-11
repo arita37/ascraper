@@ -1,5 +1,57 @@
  
-all -  [ [D]What do people think about papers published in the NeurIPS dataset track in comparison to those p ](https://www.reddit.com/r/MachineLearning/comments/16cto3t/dwhat_do_people_think_about_papers_published_in/) , 2023-09-10-0910
+all -  [ Chances for Global Talent (exceptional promise) under peer review ](https://www.reddit.com/r/ukvisa/comments/16ewurq/chances_for_global_talent_exceptional_promise/) , 2023-09-11-0910
+```
+Hi everyone,
+
+I am a research scientist working in one of the FAANG companies in the US. I did my undergrad and PhD in t
+he UK (both at Oxford/Cambridge). I've worked a while for my current employer but got a bit fed up with the Bay Area & b
+ecause of personal reasons I want to move back to the UK, either via an internal transfer (my company has a large resear
+ch presence in the UK) or, if that's not possible, finding a new job. I got my eyes on the global talent programme, and 
+since I will most likely be working as a researcher in industry rather than academia, I don't think any of the fast-trac
+k routes would apply and 'peer review' (in my case through RAEng) seems to be the only choice. I've not seen many data p
+oints on how high the bar is through this route (unlike the US EB-1 route, where tons of data are available), though, so
+ I think it's a good idea to gather wisdom from Reddit to see how likely I'll be granted that visa, before more commitme
+nt like getting a lawyer. Any advice is extremely appreciated!
+
+&#x200B;
+
+**About me:**
+
+\- integrated masters & PhD wit
+h scholarship in AI/ML (Oxbridge)
+
+\- 1-2 yr work experience at one of the major US tech companies (think Alphabet / Met
+a / Amazon) in California
+
+\- \~20 papers (first/co-first author in half of them); around 15 published in top conference
+s (NeurIPS/ICML/ICLR/ACL etc. if you are familiar with AI/ML venues)  & journals -- note that in Computer science in gen
+eral, conferences are the primary venue in contrast to journals. I have also served as a peer reviewer in these venues (
+reviewed >50 papers).
+
+\- \~400 citations according to Google Scholar, although half of the papers are published fairly 
+recently (<1 year) -- hopefully citations will catch up later.
+
+\- Good chance of getting a recommendation letter from s
+ome big guy (think a Fellow of RAEng level) at my old lab in the UK.
+
+\- Have been and will still be active in research 
+(publishing papers, etc.) even though I'm working in the industry.
+
+&#x200B;
+
+A side question is: it seems that getting 
+sponsored by RAEng would allow me to get ILR in 3 years even under 'exceptional promise' -- would that be true in my cas
+e as well, even though I'm not conducting research in academia?
+
+&#x200B;
+
+Thanks, everyone!
+```
+---
+
+     
+ 
+all -  [ [D]What do people think about papers published in the NeurIPS dataset track in comparison to those p ](https://www.reddit.com/r/MachineLearning/comments/16cto3t/dwhat_do_people_think_about_papers_published_in/) , 2023-09-11-0910
 ```
  I'm curious to learn about the perception of papers published in the NeurIPS dataset track in comparison to those publi
 shed in the main conference. Specifically, I'd like to know how both companies and Ph.D. committees view these papers. A
@@ -10,7 +62,7 @@ s and experiences would be greatly appreciated!
 
      
  
-all -  [ Profile Eval - Quant Trading to ML PhD ](https://www.reddit.com/r/gradadmissions/comments/16bamcs/profile_eval_quant_trading_to_ml_phd/) , 2023-09-10-0910
+all -  [ Profile Eval - Quant Trading to ML PhD ](https://www.reddit.com/r/gradadmissions/comments/16bamcs/profile_eval_quant_trading_to_ml_phd/) , 2023-09-11-0910
 ```
 Hello! I’ve been working a bit over a year in trading and now looking to fulfill my dream of getting a PhD and focusing 
 purely on research. Would love to get some feedback on how realistic the schools I’m looking at are given my background.
@@ -54,7 +106,7 @@ better research experience and stronger rec letters?
 
      
  
-all -  [ Publishing in a journal vs top conference for computational biology ](https://www.reddit.com/r/bioinformatics/comments/16a2wtg/publishing_in_a_journal_vs_top_conference_for/) , 2023-09-10-0910
+all -  [ Publishing in a journal vs top conference for computational biology ](https://www.reddit.com/r/bioinformatics/comments/16a2wtg/publishing_in_a_journal_vs_top_conference_for/) , 2023-09-11-0910
 ```
 My group has been able to create some novel, medium impact findings in the field of  'omics sequence labeling using dila
 ted networks.  We are considering on where we would like to send our results to.
@@ -69,7 +121,7 @@ e pick between these options?
 
      
  
-all -  [ [D] NeurIPS reviewers edited review and score after discussion period: can they delete their own rev ](https://www.reddit.com/r/MachineLearning/comments/1687luu/d_neurips_reviewers_edited_review_and_score_after/) , 2023-09-10-0910
+all -  [ [D] NeurIPS reviewers edited review and score after discussion period: can they delete their own rev ](https://www.reddit.com/r/MachineLearning/comments/1687luu/d_neurips_reviewers_edited_review_and_score_after/) , 2023-09-11-0910
 ```
 Hi, we have a paper submission to NeurIPS and we have two reviewers who changed their scores and review content silently
  by editing the original review comment and score after the discussion period. The edited review comment now discusses e
@@ -88,7 +140,7 @@ nReview tool? I don’t know if this is a bug or they deleted them with an inten
 
      
  
-all -  [ [D] Am I the only one finding this a bit upsetting? ](https://www.reddit.com/r/MachineLearning/comments/167n0g0/d_am_i_the_only_one_finding_this_a_bit_upsetting/) , 2023-09-10-0910
+all -  [ [D] Am I the only one finding this a bit upsetting? ](https://www.reddit.com/r/MachineLearning/comments/167n0g0/d_am_i_the_only_one_finding_this_a_bit_upsetting/) , 2023-09-11-0910
 ```
 Hello everyone,
 
@@ -119,7 +171,7 @@ ly known. However, I reckon if a reference is made, then it should be meaningful
 
      
  
-all -  [ Road from ML PhD to Data Scientist/MLE ](https://www.reddit.com/r/learnmachinelearning/comments/166872e/road_from_ml_phd_to_data_scientistmle/) , 2023-09-10-0910
+all -  [ Road from ML PhD to Data Scientist/MLE ](https://www.reddit.com/r/learnmachinelearning/comments/166872e/road_from_ml_phd_to_data_scientistmle/) , 2023-09-11-0910
 ```
 Hi all;  
 
@@ -147,7 +199,7 @@ rtificate is useless, you need experience; how do I get the first job to get exp
 
      
  
-all -  [ [D] Limit the Number of Papers I Review on OpenReview? ](https://www.reddit.com/r/MachineLearning/comments/162uumz/d_limit_the_number_of_papers_i_review_on/) , 2023-09-10-0910
+all -  [ [D] Limit the Number of Papers I Review on OpenReview? ](https://www.reddit.com/r/MachineLearning/comments/162uumz/d_limit_the_number_of_papers_i_review_on/) , 2023-09-11-0910
 ```
 Hello,
 
@@ -160,7 +212,7 @@ service to the community, and we should be allowed to pick how much work we want
 
      
  
-all -  [ 1 month left! NeurIPS 2023 Gaze Meets ML Workshop 2nd Edition ](https://groups.google.com/g/ml-news/c/2SNlOcCTGC4) , 2023-09-10-0910
+all -  [ 1 month left! NeurIPS 2023 Gaze Meets ML Workshop 2nd Edition ](https://groups.google.com/g/ml-news/c/2SNlOcCTGC4) , 2023-09-11-0910
 ```
 
 ```
@@ -168,7 +220,7 @@ all -  [ 1 month left! NeurIPS 2023 Gaze Meets ML Workshop 2nd Edition ](https:/
 
      
  
-all -  [ [Discussion] Should religion-based workshops exist in ML conferences ](https://www.reddit.com/r/MachineLearning/comments/161c7zm/discussion_should_religionbased_workshops_exist/) , 2023-09-10-0910
+all -  [ [Discussion] Should religion-based workshops exist in ML conferences ](https://www.reddit.com/r/MachineLearning/comments/161c7zm/discussion_should_religionbased_workshops_exist/) , 2023-09-11-0910
 ```
 Over the years, ML conferences had a lot of workshops such as women in ML, LatinXAL etc. that are aimed at increasing th
 e diversity in the ML community. I've always been supportive of these workshops as I've seen first-hand how some of them
@@ -196,7 +248,7 @@ in ML workshop.
 
      
  
-all -  [ Meta AIs Code Llama and Googles Quantum Experiments: Advancements in AI and Quantum Computing ](https://www.reddit.com/r/ai_news_by_ai/comments/160nxjm/meta_ais_code_llama_and_googles_quantum/) , 2023-09-10-0910
+all -  [ Meta AIs Code Llama and Googles Quantum Experiments: Advancements in AI and Quantum Computing ](https://www.reddit.com/r/ai_news_by_ai/comments/160nxjm/meta_ais_code_llama_and_googles_quantum/) , 2023-09-11-0910
 ```
 
 
@@ -289,7 +341,7 @@ s/1694836751305744764)
 
      
  
-all -  [ [D] NeurIPS 2023 Paper Reviews - Datasets and Benchmarks ](https://www.reddit.com/r/MachineLearning/comments/160m2aw/d_neurips_2023_paper_reviews_datasets_and/) , 2023-09-10-0910
+all -  [ [D] NeurIPS 2023 Paper Reviews - Datasets and Benchmarks ](https://www.reddit.com/r/MachineLearning/comments/160m2aw/d_neurips_2023_paper_reviews_datasets_and/) , 2023-09-11-0910
 ```
 I saw a few reddit posts about the [main track](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023
 _paper_reviews/) reviews and wanted to create a discussion post for the datasets and benchmarks. 
@@ -301,7 +353,7 @@ tter, I'm curious if there are any different experiences between the main track 
 
      
  
-all -  [ Data independent sparsification of models after training ](https://www.reddit.com/r/deeplearning/comments/1608q3h/data_independent_sparsification_of_models_after/) , 2023-09-10-0910
+all -  [ Data independent sparsification of models after training ](https://www.reddit.com/r/deeplearning/comments/1608q3h/data_independent_sparsification_of_models_after/) , 2023-09-11-0910
 ```
 I was looking at papers on model pruning or quantization that aims to make inference faster and/or reduce size of the mo
 del. [Most](https://proceedings.neurips.cc/paper_files/paper/2022/file/1caf09c9f4e6b0150b06a07e77f2710c-Paper-Conference
@@ -314,7 +366,7 @@ g sparsification?
 
      
  
-all -  [ [D] NeurIPS Discussion phase has ended. How was the overall experience for you ? ](https://www.reddit.com/r/MachineLearning/comments/15xygyr/d_neurips_discussion_phase_has_ended_how_was_the/) , 2023-09-10-0910
+all -  [ [D] NeurIPS Discussion phase has ended. How was the overall experience for you ? ](https://www.reddit.com/r/MachineLearning/comments/15xygyr/d_neurips_discussion_phase_has_ended_how_was_the/) , 2023-09-11-0910
 ```
 I am not sure if 'Discussion' was always part of the Neurips pipeline but I felt like it was a good addition (in princip
 le). 
@@ -333,7 +385,7 @@ he next Neurips but maybe with some tweaks and modifications keeping in mind the
 
      
  
-all -  [ AI/ML PhD: Who to collaborate with during MS ](https://www.reddit.com/r/gradadmissions/comments/15wq9ad/aiml_phd_who_to_collaborate_with_during_ms/) , 2023-09-10-0910
+all -  [ AI/ML PhD: Who to collaborate with during MS ](https://www.reddit.com/r/gradadmissions/comments/15wq9ad/aiml_phd_who_to_collaborate_with_during_ms/) , 2023-09-11-0910
 ```
  
 
@@ -382,7 +434,7 @@ e professor I've already agreed to work with...
 
      
  
-all -  [ AI/ML: Who to do research with during MS (to maximize PhD chances) ](https://www.reddit.com/r/PhD/comments/15wozmv/aiml_who_to_do_research_with_during_ms_to/) , 2023-09-10-0910
+all -  [ AI/ML: Who to do research with during MS (to maximize PhD chances) ](https://www.reddit.com/r/PhD/comments/15wozmv/aiml_who_to_do_research_with_during_ms_to/) , 2023-09-11-0910
 ```
 **Tldr:** As I am about start my MS (in about a week's time), I need to pick collaborators/mentors to do research and pu
 blish papers with. **I want to maximize my chances of getting into a top AI PhD program like MIT, Berkeley, etc.** To th
@@ -439,7 +491,7 @@ tion and try to work with a different (associate) professor who studied at Princ
 
      
  
-all -  [ [D] How many times you try for acceptance in AI conference? ](https://www.reddit.com/r/MachineLearning/comments/15wonms/d_how_many_times_you_try_for_acceptance_in_ai/) , 2023-09-10-0910
+all -  [ [D] How many times you try for acceptance in AI conference? ](https://www.reddit.com/r/MachineLearning/comments/15wonms/d_how_many_times_you_try_for_acceptance_in_ai/) , 2023-09-11-0910
 ```
 ICML 2023 was my first trial. I've got polarized scores, 7/6/4/3, and got rejected. At this moment, I was so disappointe
 d not for the result, but for the quality of review. (The last reviewer didn't read the paper at all.) For the final dec
@@ -456,7 +508,7 @@ R. I just wonder how many submissions are tried for the acceptance in average. J
 
      
  
-all -  [ [P] References to help write a Neurips (Workshop) Paper? ](https://www.reddit.com/r/MachineLearning/comments/15ulou8/p_references_to_help_write_a_neurips_workshop/) , 2023-09-10-0910
+all -  [ [P] References to help write a Neurips (Workshop) Paper? ](https://www.reddit.com/r/MachineLearning/comments/15ulou8/p_references_to_help_write_a_neurips_workshop/) , 2023-09-11-0910
 ```
 I've been working on a specific project for a while now, and was interested in submitting my work to a Nips Workshop.
 
@@ -480,7 +532,7 @@ o a journal later? Or an extension of it?
 
      
  
-all -  [ [N] NeurIPS Large Language Model Efficiency Challenge: 1 LLM + 1GPU + 1Day ](https://www.reddit.com/r/MachineLearning/comments/15uhw4l/n_neurips_large_language_model_efficiency/) , 2023-09-10-0910
+all -  [ [N] NeurIPS Large Language Model Efficiency Challenge: 1 LLM + 1GPU + 1Day ](https://www.reddit.com/r/MachineLearning/comments/15uhw4l/n_neurips_large_language_model_efficiency/) , 2023-09-11-0910
 ```
 [Model Efficiency Challenge](https://llm-efficiency-challenge.github.io/)
 
@@ -494,7 +546,7 @@ ndation model to specific tasks by fine-tuning on a **single GPU** of either 409
 
      
  
-all -  [ Alpha's Precursor: The System Before the Quantitative System ](https://www.reddit.com/r/quant/comments/15ugmot/alphas_precursor_the_system_before_the/) , 2023-09-10-0910
+all -  [ Alpha's Precursor: The System Before the Quantitative System ](https://www.reddit.com/r/quant/comments/15ugmot/alphas_precursor_the_system_before_the/) , 2023-09-11-0910
 ```
 I thought some of you might find the following insightful, it gives you an idea of the signal/recuitment divide in quant
  finance.
@@ -582,7 +634,7 @@ e milliseconds can mean millions, can we really afford to be anything less than 
 
      
  
-all -  [ Google have been discussing the NEED to forget private information from models, here's our solution ](https://www.reddit.com/r/ArtificialInteligence/comments/15smjwk/google_have_been_discussing_the_need_to_forget/) , 2023-09-10-0910
+all -  [ Google have been discussing the NEED to forget private information from models, here's our solution ](https://www.reddit.com/r/ArtificialInteligence/comments/15smjwk/google_have_been_discussing_the_need_to_forget/) , 2023-09-11-0910
 ```
 Google recently highlighted the importance of Machine unlearning in their [neurips challenge](https://ai.googleblog.com/
 2023/06/announcing-first-machine-unlearning.html). The goal is to allow a model to forget information that is private or
@@ -604,7 +656,7 @@ Happy to answer any questions, or discuss the problem of unlearning!
 
      
  
-all -  [ Engaging Reviewers during rebuttal period of NeurIPS [R] ](https://www.reddit.com/r/MachineLearning/comments/15s3xq6/engaging_reviewers_during_rebuttal_period_of/) , 2023-09-10-0910
+all -  [ Engaging Reviewers during rebuttal period of NeurIPS [R] ](https://www.reddit.com/r/MachineLearning/comments/15s3xq6/engaging_reviewers_during_rebuttal_period_of/) , 2023-09-11-0910
 ```
 I have a paper (theoretical work) at NeurIPS under review right now. We got 4 reviews, 7,7,6,4 with confidence 4,4,4,2. 
 We are trying to keep the good reviews there and bring up reviewer 4's score. We responded to all the comments made by r
@@ -618,7 +670,7 @@ y advisor has been a bit MIA throughout the review process.
 
      
  
-all -  [ Profile evaluation for Fall '24 for ML / CS ](https://www.reddit.com/r/MSCS/comments/15pxowq/profile_evaluation_for_fall_24_for_ml_cs/) , 2023-09-10-0910
+all -  [ Profile evaluation for Fall '24 for ML / CS ](https://www.reddit.com/r/MSCS/comments/15pxowq/profile_evaluation_for_fall_24_for_ml_cs/) , 2023-09-11-0910
 ```
 Hi, 'm a final year undergrad ECE from BITS. Some help regarding ranking the universities as well as some suggestions fo
 r safe options for Machine Learning and CS programs would be really helpful!
@@ -659,7 +711,7 @@ s I am not able to judge that well.
 
      
  
-all -  [ Need advice: re-apply or take an offer in Germany? ](https://www.reddit.com/r/gradadmissions/comments/15oijld/need_advice_reapply_or_take_an_offer_in_germany/) , 2023-09-10-0910
+all -  [ Need advice: re-apply or take an offer in Germany? ](https://www.reddit.com/r/gradadmissions/comments/15oijld/need_advice_reapply_or_take_an_offer_in_germany/) , 2023-09-11-0910
 ```
 Last year I applied to 10 CS PhD programs in the US with a focus on machine learning at Stanford, Columbia, CMU, Harvard
 , UMaryland, UCSD (both CS and DS PhD), Duke, UCI, UNC Chapel Hill and UIUC with zero papers but 2 years of research exp
@@ -718,7 +770,7 @@ tance.
 
      
  
-all -  [ [D] Lessons from this years Neurips ](https://www.reddit.com/r/MachineLearning/comments/15oic7a/d_lessons_from_this_years_neurips/) , 2023-09-10-0910
+all -  [ [D] Lessons from this years Neurips ](https://www.reddit.com/r/MachineLearning/comments/15oic7a/d_lessons_from_this_years_neurips/) , 2023-09-11-0910
 ```
 This years Neurips has been a rollercoaster for everyone involved.
 
@@ -743,7 +795,7 @@ Will NeurIPS keep 25% acceptance rate? What do you think will happen to neurips 
 
      
  
-all -  [ Publishing a computer vision work at ICRA or IROS? ](https://www.reddit.com/r/robotics/comments/15o4kqg/publishing_a_computer_vision_work_at_icra_or_iros/) , 2023-09-10-0910
+all -  [ Publishing a computer vision work at ICRA or IROS? ](https://www.reddit.com/r/robotics/comments/15o4kqg/publishing_a_computer_vision_work_at_icra_or_iros/) , 2023-09-11-0910
 ```
 Hi everyone,
 
