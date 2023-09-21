@@ -1,5 +1,27 @@
  
-all -  [ Profile Evaluation MSCS 2024 ](https://www.reddit.com/r/MSCS/comments/16m58hk/profile_evaluation_mscs_2024/) , 2023-09-20-0910
+all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 2023-09-21-0909
+```
+I’m submitting to the workshop and was wondering if the papers there get published?
+```
+---
+
+     
+ 
+all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 2023-09-21-0909
+```
+NeurIPS 2023 paper acceptance results are supposed to be released at 8 pm (CDT) on September 21. I thought to create a d
+iscussion thread for us to countdown and discuss any celebration/issue/complaint/feedback or anything else.
+
+There is so
+ much noise in the reviews every year. Some good work that the authors are proud of might get rejected because of the no
+isy system, given that NeurIPS is growing so large these years. We should keep in mind that the work is still valuable n
+o matter what the final result is.
+```
+---
+
+     
+ 
+all -  [ Profile Evaluation MSCS 2024 ](https://www.reddit.com/r/MSCS/comments/16m58hk/profile_evaluation_mscs_2024/) , 2023-09-21-0909
 ```
 Hi everyone, could you kindly help to advise on my choices given the following profile? Thank you so much!
 
@@ -70,7 +92,7 @@ bove? E.g. MS/PhD@UMass, MMath@Waterloo, MSCS@UCLA
 
      
  
-all -  [ Is it weird to send out cold emails asking professors for an opportunity to do a long-term self-fund ](https://www.reddit.com/r/AskAcademia/comments/16l25ha/is_it_weird_to_send_out_cold_emails_asking/) , 2023-09-20-0910
+all -  [ Is it weird to send out cold emails asking professors for an opportunity to do a long-term self-fund ](https://www.reddit.com/r/AskAcademia/comments/16l25ha/is_it_weird_to_send_out_cold_emails_asking/) , 2023-09-21-0909
 ```
 As the title suggests, I'm currently pursuing a CS PhD in China. However, I'm considering a different career path and ha
 ve decided to mastering out to pursue a PhD in the US. I'm aiming for a top 10-20 school in the field of computer scienc
@@ -92,7 +114,7 @@ out prior conversations? Which might appear that I am quite desperate.
 
      
  
-all -  [ Call for Submissions: Queer in AI Workshop @ NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/LR_he9Med3g) , 2023-09-20-0910
+all -  [ Call for Submissions: Queer in AI Workshop @ NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/LR_he9Med3g) , 2023-09-21-0909
 ```
 
 ```
@@ -100,7 +122,7 @@ all -  [ Call for Submissions: Queer in AI Workshop @ NeurIPS 2023 ](https://gro
 
      
  
-all -  [ [P] Guide: Implementing ImageNet classification using Deep CNNs Paper. ](https://www.reddit.com/r/MachineLearning/comments/16ilhcd/p_guide_implementing_imagenet_classification/) , 2023-09-20-0910
+all -  [ [P] Guide: Implementing ImageNet classification using Deep CNNs Paper. ](https://www.reddit.com/r/MachineLearning/comments/16ilhcd/p_guide_implementing_imagenet_classification/) , 2023-09-21-0909
 ```
 Need help on how to get started with implementing a research paper. I'm implementing the Imagenet classification task pa
 per for my final year undergrad mini-project. Any advice is appreciated on how to get started? I have mid-level machine 
@@ -114,7 +136,7 @@ c/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 
      
  
-all -  [ Profile Evaluation for MS in CS/ML/DS - Fall '24 ](https://www.reddit.com/r/MSCS/comments/16ibebe/profile_evaluation_for_ms_in_csmlds_fall_24/) , 2023-09-20-0910
+all -  [ Profile Evaluation for MS in CS/ML/DS - Fall '24 ](https://www.reddit.com/r/MSCS/comments/16ibebe/profile_evaluation_for_ms_in_csmlds_fall_24/) , 2023-09-21-0909
 ```
 Academic Profile
 
@@ -200,7 +222,7 @@ Wanted an evaluation of the unis and some suggestions for safe universities
 
      
  
-all -  [ Exploring the Landscape of AI: Developments, Challenges, and Future Prospects ](https://www.reddit.com/r/ai_news_by_ai/comments/16i9cbm/exploring_the_landscape_of_ai_developments/) , 2023-09-20-0910
+all -  [ Exploring the Landscape of AI: Developments, Challenges, and Future Prospects ](https://www.reddit.com/r/ai_news_by_ai/comments/16i9cbm/exploring_the_landscape_of_ai_developments/) , 2023-09-21-0909
 ```
 
 
@@ -400,7 +422,7 @@ ai/status/1702069747041399105)
 
      
  
-all -  [ What are the best venues for industry Data Scientists and ML practitioners to publish their work? ](https://www.reddit.com/r/datascience/comments/16i0roz/what_are_the_best_venues_for_industry_data/) , 2023-09-20-0910
+all -  [ What are the best venues for industry Data Scientists and ML practitioners to publish their work? ](https://www.reddit.com/r/datascience/comments/16i0roz/what_are_the_best_venues_for_industry_data/) , 2023-09-21-0909
 ```
 As a professional in the field, I've always targeted SIGKDD for publishing applied DS/ML work. I think SIGKDD is the top
  and most reputable in particular for industry practitioners, as opposed to academic researchers, who focus more on nove
@@ -414,7 +436,7 @@ her \*\*reputable\*\* conferences similar to KDD in this sense and allow for pub
 
      
  
-all -  [ Chances for Global Talent (exceptional promise) under peer review ](https://www.reddit.com/r/ukvisa/comments/16ewurq/chances_for_global_talent_exceptional_promise/) , 2023-09-20-0910
+all -  [ Chances for Global Talent (exceptional promise) under peer review ](https://www.reddit.com/r/ukvisa/comments/16ewurq/chances_for_global_talent_exceptional_promise/) , 2023-09-21-0909
 ```
 Hi everyone,
 
@@ -466,7 +488,7 @@ Thanks, everyone!
 
      
  
-all -  [ [D]What do people think about papers published in the NeurIPS dataset track in comparison to those p ](https://www.reddit.com/r/MachineLearning/comments/16cto3t/dwhat_do_people_think_about_papers_published_in/) , 2023-09-20-0910
+all -  [ [D]What do people think about papers published in the NeurIPS dataset track in comparison to those p ](https://www.reddit.com/r/MachineLearning/comments/16cto3t/dwhat_do_people_think_about_papers_published_in/) , 2023-09-21-0909
 ```
  I'm curious to learn about the perception of papers published in the NeurIPS dataset track in comparison to those publi
 shed in the main conference. Specifically, I'd like to know how both companies and Ph.D. committees view these papers. A
@@ -477,7 +499,7 @@ s and experiences would be greatly appreciated!
 
      
  
-all -  [ Profile Eval - Quant Trading to ML PhD ](https://www.reddit.com/r/gradadmissions/comments/16bamcs/profile_eval_quant_trading_to_ml_phd/) , 2023-09-20-0910
+all -  [ Profile Eval - Quant Trading to ML PhD ](https://www.reddit.com/r/gradadmissions/comments/16bamcs/profile_eval_quant_trading_to_ml_phd/) , 2023-09-21-0909
 ```
 Hello! I’ve been working a bit over a year in trading and now looking to fulfill my dream of getting a PhD and focusing 
 purely on research. Would love to get some feedback on how realistic the schools I’m looking at are given my background.
@@ -521,7 +543,7 @@ better research experience and stronger rec letters?
 
      
  
-all -  [ Publishing in a journal vs top conference for computational biology ](https://www.reddit.com/r/bioinformatics/comments/16a2wtg/publishing_in_a_journal_vs_top_conference_for/) , 2023-09-20-0910
+all -  [ Publishing in a journal vs top conference for computational biology ](https://www.reddit.com/r/bioinformatics/comments/16a2wtg/publishing_in_a_journal_vs_top_conference_for/) , 2023-09-21-0909
 ```
 My group has been able to create some novel, medium impact findings in the field of  'omics sequence labeling using dila
 ted networks.  We are considering on where we would like to send our results to.
@@ -536,7 +558,7 @@ e pick between these options?
 
      
  
-all -  [ [D] NeurIPS reviewers edited review and score after discussion period: can they delete their own rev ](https://www.reddit.com/r/MachineLearning/comments/1687luu/d_neurips_reviewers_edited_review_and_score_after/) , 2023-09-20-0910
+all -  [ [D] NeurIPS reviewers edited review and score after discussion period: can they delete their own rev ](https://www.reddit.com/r/MachineLearning/comments/1687luu/d_neurips_reviewers_edited_review_and_score_after/) , 2023-09-21-0909
 ```
 Hi, we have a paper submission to NeurIPS and we have two reviewers who changed their scores and review content silently
  by editing the original review comment and score after the discussion period. The edited review comment now discusses e
@@ -555,7 +577,7 @@ nReview tool? I don’t know if this is a bug or they deleted them with an inten
 
      
  
-all -  [ [D] Am I the only one finding this a bit upsetting? ](https://www.reddit.com/r/MachineLearning/comments/167n0g0/d_am_i_the_only_one_finding_this_a_bit_upsetting/) , 2023-09-20-0910
+all -  [ [D] Am I the only one finding this a bit upsetting? ](https://www.reddit.com/r/MachineLearning/comments/167n0g0/d_am_i_the_only_one_finding_this_a_bit_upsetting/) , 2023-09-21-0909
 ```
 Hello everyone,
 
@@ -586,7 +608,7 @@ ly known. However, I reckon if a reference is made, then it should be meaningful
 
      
  
-all -  [ Road from ML PhD to Data Scientist/MLE ](https://www.reddit.com/r/learnmachinelearning/comments/166872e/road_from_ml_phd_to_data_scientistmle/) , 2023-09-20-0910
+all -  [ Road from ML PhD to Data Scientist/MLE ](https://www.reddit.com/r/learnmachinelearning/comments/166872e/road_from_ml_phd_to_data_scientistmle/) , 2023-09-21-0909
 ```
 Hi all;  
 
@@ -614,7 +636,7 @@ rtificate is useless, you need experience; how do I get the first job to get exp
 
      
  
-all -  [ [D] Limit the Number of Papers I Review on OpenReview? ](https://www.reddit.com/r/MachineLearning/comments/162uumz/d_limit_the_number_of_papers_i_review_on/) , 2023-09-20-0910
+all -  [ [D] Limit the Number of Papers I Review on OpenReview? ](https://www.reddit.com/r/MachineLearning/comments/162uumz/d_limit_the_number_of_papers_i_review_on/) , 2023-09-21-0909
 ```
 Hello,
 
@@ -627,7 +649,7 @@ service to the community, and we should be allowed to pick how much work we want
 
      
  
-all -  [ [Discussion] Should religion-based workshops exist in ML conferences ](https://www.reddit.com/r/MachineLearning/comments/161c7zm/discussion_should_religionbased_workshops_exist/) , 2023-09-20-0910
+all -  [ [Discussion] Should religion-based workshops exist in ML conferences ](https://www.reddit.com/r/MachineLearning/comments/161c7zm/discussion_should_religionbased_workshops_exist/) , 2023-09-21-0909
 ```
 Over the years, ML conferences had a lot of workshops such as women in ML, LatinXAL etc. that are aimed at increasing th
 e diversity in the ML community. I've always been supportive of these workshops as I've seen first-hand how some of them
@@ -655,7 +677,7 @@ in ML workshop.
 
      
  
-all -  [ Meta AIs Code Llama and Googles Quantum Experiments: Advancements in AI and Quantum Computing ](https://www.reddit.com/r/ai_news_by_ai/comments/160nxjm/meta_ais_code_llama_and_googles_quantum/) , 2023-09-20-0910
+all -  [ Meta AIs Code Llama and Googles Quantum Experiments: Advancements in AI and Quantum Computing ](https://www.reddit.com/r/ai_news_by_ai/comments/160nxjm/meta_ais_code_llama_and_googles_quantum/) , 2023-09-21-0909
 ```
 
 
@@ -748,7 +770,7 @@ s/1694836751305744764)
 
      
  
-all -  [ [D] NeurIPS 2023 Paper Reviews - Datasets and Benchmarks ](https://www.reddit.com/r/MachineLearning/comments/160m2aw/d_neurips_2023_paper_reviews_datasets_and/) , 2023-09-20-0910
+all -  [ [D] NeurIPS 2023 Paper Reviews - Datasets and Benchmarks ](https://www.reddit.com/r/MachineLearning/comments/160m2aw/d_neurips_2023_paper_reviews_datasets_and/) , 2023-09-21-0909
 ```
 I saw a few reddit posts about the [main track](https://www.reddit.com/r/MachineLearning/comments/15fo7td/d_neurips_2023
 _paper_reviews/) reviews and wanted to create a discussion post for the datasets and benchmarks. 
@@ -760,7 +782,7 @@ tter, I'm curious if there are any different experiences between the main track 
 
      
  
-all -  [ Data independent sparsification of models after training ](https://www.reddit.com/r/deeplearning/comments/1608q3h/data_independent_sparsification_of_models_after/) , 2023-09-20-0910
+all -  [ Data independent sparsification of models after training ](https://www.reddit.com/r/deeplearning/comments/1608q3h/data_independent_sparsification_of_models_after/) , 2023-09-21-0909
 ```
 I was looking at papers on model pruning or quantization that aims to make inference faster and/or reduce size of the mo
 del. [Most](https://proceedings.neurips.cc/paper_files/paper/2022/file/1caf09c9f4e6b0150b06a07e77f2710c-Paper-Conference
@@ -773,7 +795,7 @@ g sparsification?
 
      
  
-all -  [ [D] NeurIPS Discussion phase has ended. How was the overall experience for you ? ](https://www.reddit.com/r/MachineLearning/comments/15xygyr/d_neurips_discussion_phase_has_ended_how_was_the/) , 2023-09-20-0910
+all -  [ [D] NeurIPS Discussion phase has ended. How was the overall experience for you ? ](https://www.reddit.com/r/MachineLearning/comments/15xygyr/d_neurips_discussion_phase_has_ended_how_was_the/) , 2023-09-21-0909
 ```
 I am not sure if 'Discussion' was always part of the Neurips pipeline but I felt like it was a good addition (in princip
 le). 
@@ -787,129 +809,6 @@ esponses to their concerns and questions. Unfortunately, also quite expected.
 
 I would definitely like to see this in t
 he next Neurips but maybe with some tweaks and modifications keeping in mind the (unpaid) reviewers.
-```
----
-
-     
- 
-all -  [ AI/ML PhD: Who to collaborate with during MS ](https://www.reddit.com/r/gradadmissions/comments/15wq9ad/aiml_phd_who_to_collaborate_with_during_ms/) , 2023-09-20-0910
-```
- 
-
-**Tldr:** As I am about start my MS (in about a week's time), I need to pick collaborators/mentors to do research and
- publish papers with. **I want to maximize my chances of getting into a top AI PhD program like MIT, Berkeley, etc.** To
- that end, should I do research with people I've already have a relationship with? Should I aim to maintain those connec
-tions (in hopes of receiving a glowing recommendation in the future)? Or should I end those collaborations and try to fo
-rm new connections with different professors who are more 'reputed' and/or well-connected to top universities like Princ
-eton, Berkeley etc.?? For context I go to a top 15 school **in USA**.
-
-**Situation #1:** Over the summer I did a researc
-h engineering gig with a scientist at my university. Not a professor, a 'scientist.' We worked on object detection for s
-elf-driving cars. I enjoyed the experience and found him to be a very knowledgeable, constructive, and approachable ment
-or. The conversations we have sometimes are almost like two friends talking. I've developed a good relationship with him
- and he has praised my capabilities and motivation. **However:** he isn't a very 'reputed' researcher in the field- at l
-east not compared to professors at my university. After all, his job isn't to publish full-time, but rather to deliver M
-L-based products for government agencies. And so, my work with him wasn't to conduct 'research', it was more about doing
- literature review and implementing existing approaches. More of a 'research engineering' gig.
-
-**My question:** Should 
-I reach out to actual professors at my university working in ML and computer vision? They publish more papers, and they 
-are better connected to top-universities like Berkeley. Although I have never worked with these professors, I will also 
-have the opportunity to take there courses so I can develop a relationship with them. Or, should I collaborate further w
-ith the scientist? The thing is, since I didn't do real 'research' with him over the summer, we will be essentially **st
-arting from scratch** and working on some entirely new problems. The only advantage is he is already familiar with who I
- am and definitely has a favorable view of me. I am leaning towards the professor, because I feel like since I only work
-ed with the scientist for a few months, I'm not losing much in terms of the relationship.
-
-**Situation #2: Let's forget 
-about the scientist now, this is a different person.** I reached to a full-time professor (not even associate professor,
- he is a full professor, and my school is top 15). He is a senior member of IEEE. He also has quite a few publications a
-t top conferences like ICML, NeurIPS etc. Thus it is safe to say he is a well-reputed researcher. Although my connection
- with this professor is not as strong as the above-described self-driving scientist, he thinks I have a good background,
- and we have agreed to collaborate over the Fall during my MS. I have done some basic preparatory work over the summer (
-reading background papers etc.). Additionally, I will most likely take courses that he teaches at my university, so I wi
-ll get to connect with him better.
-
-**My question:** Should I cancel this collaboration and try to work with a different
- (associate) professor who studied at Princeton and did his postdoc at Berkeley? My thinking is that he's very well-conn
-ected so his recommendation letter might mean a lot/open doors for me. Only problem is I don't know what I would tell th
-e professor I've already agreed to work with...
-
- 
-```
----
-
-     
- 
-all -  [ AI/ML: Who to do research with during MS (to maximize PhD chances) ](https://www.reddit.com/r/PhD/comments/15wozmv/aiml_who_to_do_research_with_during_ms_to/) , 2023-09-20-0910
-```
-**Tldr:** As I am about start my MS (in about a week's time), I need to pick collaborators/mentors to do research and pu
-blish papers with. **I want to maximize my chances of getting into a top AI PhD program like MIT, Berkeley, etc.** To th
-at end, should I do research with people I've already have a relationship with? Should I aim to maintain those connectio
-ns (in hopes of receiving a glowing recommendation in the future)? Or should I end those collaborations and try to form 
-new connections with different professors who are more 'reputed' and/or well-connected to top universities like Princeto
-n, Berkeley etc.?? For context I go to a top 15 school **in USA**.
-
-&#x200B;
-
-**Situation #1:** Over the summer I did a 
-research engineering gig with a scientist at my university. Not a professor, a 'scientist.' We worked on object detectio
-n for self-driving cars. I enjoyed the experience and found him to be a very knowledgeable, constructive, and approachab
-le mentor. The conversations we have sometimes are almost like two friends talking. I've developed a good relationship w
-ith him and he has praised my capabilities and motivation. **However:** he isn't a very 'reputed' researcher in the fiel
-d- at least not compared to professors at my university. After all, his job isn't to publish full-time, but rather to de
-liver ML-based products for government agencies. And so, my work with him wasn't to conduct 'research', it was more abou
-t doing literature review and implementing existing approaches. More of a 'research engineering' gig.
-
-&#x200B;
-
-**My qu
-estion:** Should I reach out to actual professors at my university working in ML and computer vision? They publish more 
-papers, and they are better connected to top-universities like Berkeley. Although I have never worked with these profess
-ors, I will also have the opportunity to take there courses so I can develop a relationship with them. Or, should I coll
-aborate further with the scientist? The thing is, since I didn't do real 'research' with him over the summer, we will be
- essentially **starting from scratch** and working on some entirely new problems. The only advantage is he is already fa
-miliar with who I am and definitely has a favorable view of me. I am leaning towards the professor, because I feel like 
-since I only worked with the scientist for a few months, I'm not losing much in terms of the relationship.
-
-&#x200B;
-
-**
-Situation #2: Let's forget about the scientist now, this is a different person.** I reached to a full-time professor (no
-t even associate professor, he is a full professor, and my school is top 15). He is a senior member of IEEE. He also has
- quite a few publications at top conferences like ICML, NeurIPS etc. Thus it is safe to say he is a well-reputed researc
-her. Although my connection with this professor is not as strong as the above-described self-driving scientist, he think
-s I have a good background, and we have agreed to collaborate over the Fall during my MS. I have done some basic prepara
-tory work over the summer (reading background papers etc.). Additionally, I will most likely take courses that he teache
-s at my university, so I will get to connect with him better.
-
-&#x200B;
-
-**My question:** Should I cancel this collabora
-tion and try to work with a different (associate) professor who studied at Princeton and did his postdoc at Berkeley? My
- thinking is that he's very well-connected so his recommendation letter might mean a lot/open doors for me. Only problem
- is I don't know what I would tell the professor I've already agreed to work with...
-
-&#x200B;
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ [D] How many times you try for acceptance in AI conference? ](https://www.reddit.com/r/MachineLearning/comments/15wonms/d_how_many_times_you_try_for_acceptance_in_ai/) , 2023-09-20-0910
-```
-ICML 2023 was my first trial. I've got polarized scores, 7/6/4/3, and got rejected. At this moment, I was so disappointe
-d not for the result, but for the quality of review. (The last reviewer didn't read the paper at all.) For the final dec
-ision, the last review was so bad as well, not presenting any reason of rejection.
-
-With the same topic, I got 6/5/5/4/4
-/3 from the NeurIPS 2023. The quality of reviewer is much better than ICML, and I've learned many things from the review
-er, though they said the score will not be changed.
-
-I think I should submit it to another conference again, ICLR or CVP
-R. I just wonder how many submissions are tried for the acceptance in average. Just for reference.
 ```
 ---
 
