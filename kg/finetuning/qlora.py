@@ -318,9 +318,10 @@ from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM
 
 !python3 -m pip install -r requirements.txt
 
+
+
 """## Convert to GGML
 Script runs is located in llama.cpp directory
-
 - outfile:    path to outdirectory
 - vocab-dir:  path to vocabulary (tokenizer.model)
 """
@@ -330,14 +331,17 @@ Script runs is located in llama.cpp directory
 model_path = f"{new_model}/model"
 tokenizer_path = f"{new_model}/tokenizer"
 
+
+
+
 !python convert.py $model_path  --vocab-dir $tokenizer_path
-
 !./quantize /content/llama-2-7b-chat-topicextract/model/ggml-model-f16.gguf /content/llama-2-7b-chat-topicextract/model/llama-2-7b-chat-topicextract-q3_K_M.gguf q3_K_M
-
 !./quantize /content/llama-2-7b-chat-topicextract/model/ggml-model-f16.gguf /content/llama-2-7b-chat-topicextract/model/ggml-model-q4_K_M.gguf Q4_K_M
 
-"""# Uploading Trained Model to Hub
 
+
+
+"""# Uploading Trained Model to Hub
 ### Push
 Upload files to existing HF repository
 """
