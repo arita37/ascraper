@@ -1,4 +1,626 @@
  
+all -  [ [TRL @ NeurIPS 2023] Final CfP & speakers Table Representation Learning workshop NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/6br3zeKXd-w) , 1695338323.0
+```
+
+```
+---
+
+     
+ 
+all -  [ [D] Can you go to NeurIPS workshops without presenting? ](https://www.reddit.com/r/MachineLearning/comments/16os3md/d_can_you_go_to_neurips_workshops_without/) , 1695332069.0
+```
+This year will be my first NeurIPS, and I see some cool workshops but don't have any work that would be a good fit for t
+hem. Can I just go and listen?
+```
+---
+
+     
+ 
+all -  [ [D] NeurIPS 2023 paper acceptance results ](https://v.redd.it/68g6jc6q8lpb1) , 1695293082.0
+```
+
+```
+---
+
+     
+ 
+all -  [ TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/learnmachinelearning/comments/16oc9f2/timegan_doubt_on_generated_sequence/) , 1695291932.0
+```
+Hello everyone
+
+I have a doubt regarding GANs for tabular data, more specifically for time-series generation. Looking at
+ the TimeGAN [paper](https://proceedings.neurips.cc/paper_files/paper/2019/file/c9efe5f26cd17ba6216bbe2a7d26d490-Paper.p
+df) ([code](https://github.com/jsyoon0823/TimeGAN)) and other implementations such as the one by [YData](https://github.
+com/ydataai/ydata-synthetic/blob/dev/examples/timeseries/TimeGAN_Synthetic_stock_data.ipynb), considering that the train
+ing dataset is divided into slices (like a rolling window) of N length and that the generated sequence will follow the s
+ame format, that is `[batch size, N, n_features]`, what we are effectively generating are slices and not a fully synthet
+ic time-series.
+
+&#x200B;
+
+To clarify my question, the output of a TimeGAN is only a set of slices, although there is no
+ guarantee that generated slice(N-1) is the one before slice(N), and so the true use of a TimeGAN is generating slices t
+hat can be used to train a predictive TS model but not reconstructing a complete time series like the one used for train
+ing.
+
+&#x200B;
+
+I suspect that's the case (useful only to generate good slices for training predictive models) as there 
+is no fully generated time series in the paper or any of the codes, while the quality of the generated data is partially
+ measured by training a model on original data and generated data and comparing their predictive performance. If anyone 
+can confirm/develop upon these thoughts I would be extremely grateful.
+```
+---
+
+     
+ 
+all -  [ [D] TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/MachineLearning/comments/16oc8up/d_timegan_doubt_on_generated_sequence/) , 1695291871.0
+```
+Hello everyone
+
+I have a doubt regarding GANs for tabular data, more specifically for time-series generation. Looking at
+ the TimeGAN [paper](https://proceedings.neurips.cc/paper_files/paper/2019/file/c9efe5f26cd17ba6216bbe2a7d26d490-Paper.p
+df) ([code](https://github.com/jsyoon0823/TimeGAN)) and other implementations such as the one by [YData](https://github.
+com/ydataai/ydata-synthetic/blob/dev/examples/timeseries/TimeGAN_Synthetic_stock_data.ipynb), considering that the train
+ing dataset is divided into slices (like a rolling window) of N length and that the generated sequence will follow the s
+ame format, that is `[batch size, N, n_features]`, what we are effectively generating are slices and not a fully synthet
+ic time-series.
+
+&#x200B;
+
+To clarify my question, the output of a TimeGAN is only a set of slices, although there is no
+ guarantee that generated slice(N-1) is the one before slice(N), and so the true use of a TimeGAN is generating slices t
+hat can be used to train a predictive TS model but not reconstructing a complete time series like the one used for train
+ing.
+
+&#x200B;
+
+I suspect that's the case (useful only to generate good slices for training predictive models) as there 
+is no fully generated time series in the paper or any of the codes, while the quality of the generated data is partially
+ measured by training a model on original data and generated data and comparing their predictive performance. If anyone 
+can confirm/develop upon these thoughts I would be extremely grateful.
+```
+---
+
+     
+ 
+all -  [ [NeurIPS2023 Workshops] 2nd Call for papers: Last 10 days 'Heavy Tails in ML: Structure, Stability,  ](https://groups.google.com/g/ml-news/c/u3f_ShP62pI) , 1695259134.0
+```
+
+```
+---
+
+     
+ 
+all -  [ Workshop on Associative Memory & Hopfield Networks at NeurIPS 2023: Call for participation ](https://groups.google.com/g/ml-news/c/u178b63DbrU) , 1695259131.0
+```
+
+```
+---
+
+     
+ 
+all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 1695235120.0
+```
+I’m submitting to the workshop and was wondering if the papers there get published?
+```
+---
+
+     
+ 
+all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 1695217112.0
+```
+NeurIPS 2023 paper acceptance results are supposed to be released at 8 pm (CDT) on September 21. I thought to create a d
+iscussion thread for us to countdown and discuss any celebration/issue/complaint/feedback or anything else.
+
+There is so
+ much noise in the reviews every year. Some good work that the authors are proud of might get rejected because of the no
+isy system, given that NeurIPS is growing so large these years. We should keep in mind that the work is still valuable n
+o matter what the final result is.
+```
+---
+
+     
+ 
+all -  [ Profile Evaluation MSCS 2024 ](https://www.reddit.com/r/MSCS/comments/16m58hk/profile_evaluation_mscs_2024/) , 1695066293.0
+```
+Hi everyone, could you kindly help to advise on my choices given the following profile? Thank you so much!
+
+I am aiming 
+for a MSCS in AI/ML field and plan to apply for both thesis based (see if I'm into research) and course based (in case I
+ decide to go for industry). You may refer to my [resume](https://imgur.com/XOvOAiz) for more details. Moreover, below a
+re some supplementary info:
+
+&#x200B;
+
+Background:
+
+* Undergraduate from Hong Kong, on CSRankings (World: 90 - 100; Asia
+: 10 - 20)
+* BSc in Computer Science (CGPA: 3.52/4.3; CS major GPA: 3.56/4.3) // I got half As and half Bs
+   * WES eval
+uation: CGPA 3.67/4.0
+* Overseas exchange at UIUC (CGPA: 3.55/4.0) // got a B- for Machine Learning course... was workin
+g on NeurIPS at the time so screwed up the assignments, got As for other Non-CS courses
+* English: IELTS 8.0/9.0 (expire
+d May 2023; planning to take TOEFL soon)
+* GRE: to be taken
+
+Academics:
+
+1. NeurIPS (Computer Vision related, joint 1st 
+author)
+2. arXiv (Computer Vision related, joint 1st author, rejected by TPAMI)
+3. bioRxiv (bioinformatics related, 4th 
+author, submitted to Science/AAAS journal under review)
+4. Patent (reinforcement learning related, 1st author, under rev
+iew)
+
+&#x200B;
+
+Choices:
+
+**Dream:**  MCS@UIUC
+
+**Ambitious:**  MSCS@USC (CS32 thesis), MSCS@NYU Courant, MSCS@TAMU, MEN
+G@Waterloo ECE (co-op), MENG@Toronto ECE, MPhil@Edinburgh
+
+**Moderate:** MSCS@Tandon, MCS@UMass, MENG@UCLA
+
+**Safe:** MC
+S@NEU SV, MENG@Waterloo ECE (non co-op)
+
+&#x200B;
+
+Would it be an over- or under-estimation? Please feel free to suggest
+ more programs/schools.
+
+Given that spring applications are still open, I'm also trying for the spring deadlines in Sep/
+Oct, if it has less severe competition. Since I primarily wish for research based, so having less internships does not a
+ffect much.
+
+&#x200B;
+
+Update 20230919
+
+Last year I was rejected by MSSE@CMU-SV, MCS@UIUC, MSCS@Columbia, MSCS@SFU, MSCS
+@UBC
+
+If possible, can you also comment on my possibility of going for research-based alternatives of the MCS programs a
+bove? E.g. MS/PhD@UMass, MMath@Waterloo, MSCS@UCLA
+```
+---
+
+     
+ 
+all -  [ Is it weird to send out cold emails asking professors for an opportunity to do a long-term self-fund ](https://www.reddit.com/r/AskAcademia/comments/16l25ha/is_it_weird_to_send_out_cold_emails_asking/) , 1694961002.0
+```
+As the title suggests, I'm currently pursuing a CS PhD in China. However, I'm considering a different career path and ha
+ve decided to mastering out to pursue a PhD in the US. I'm aiming for a top 10-20 school in the field of computer scienc
+e, but I'm not sure if my profile is competitive enough. I have 2-3 papers published in venues like NeurIPS and ICLR, as
+ well as work experience. However, I feel I lack strong references, particularly from the US. I've heard that recommenda
+tion letters are as important as qualifications.
+
+Therefore, I'm considering delaying my grad application for at least s
+ix months. During this time, I plan to visit a renowned lab to gain more experience and connect with professors who coul
+d write me recommendation letters. I've sent out 3-4 cold emails to professors who I believe would be a good fit. In the
+se emails, I expressed my interest in working with them and briefly outlined my research plans. I also mentioned that I 
+could self-fund my visit if necessary. The emails are quite long, usually 200-300 words. As for now I have yet received 
+any response from them.
+
+Do you think it's off-putting to directly ask about the possibility of a self-funded visit with
+out prior conversations? Which might appear that I am quite desperate.
+```
+---
+
+     
+ 
+all -  [ Call for Submissions: Queer in AI Workshop @ NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/LR_he9Med3g) , 1694906290.0
+```
+
+```
+---
+
+     
+ 
+all -  [ [P] Guide: Implementing ImageNet classification using Deep CNNs Paper. ](https://www.reddit.com/r/MachineLearning/comments/16ilhcd/p_guide_implementing_imagenet_classification/) , 1694705519.0
+```
+Need help on how to get started with implementing a research paper. I'm implementing the Imagenet classification task pa
+per for my final year undergrad mini-project. Any advice is appreciated on how to get started? I have mid-level machine 
+learning knowledge and am ready to pick the required concepts on the go. Please help. Thank you :)
+
+Link: [https://proce
+edings.neurips.cc/paper\_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf](https://proceedings.neurips.c
+c/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
+```
+---
+
+     
+ 
+all -  [ Profile Evaluation for MS in CS/ML/DS - Fall '24 ](https://www.reddit.com/r/MSCS/comments/16ibebe/profile_evaluation_for_ms_in_csmlds_fall_24/) , 1694675095.0
+```
+Academic Profile
+
+· B.E. ECE from '24  + Data Science Minor
+
+· GPA - 9.29 from Tier 1 college
+
+· GRE/TOEFL : Not yet giv
+en (Target \~330/\~110)
+
+=======================================
+
+Work & Research Experience
+
+· \~1 year at Brown Univer
+sity
+
+· 4 months at TUD
+
+· Upcoming thesis at Cambridge
+
+· Two projects under university professors
+
+===================
+====================
+
+LORs
+
+· PI from Brown University (Strong - Moderate)
+
+· PI from TU Dresden (Strong - Moderate)
+
+· 
+BITS professor (Academic based rather than research based)
+
+=======================================
+
+Publication
+
+· Co-A
+uthorship in paper that got Oral Presentation at ICML
+
+· Submitting first authorship paper at NeurIPS workshop (relative
+ly sure of its acceptance)
+
+=======================================
+
+Awards
+
+· DAAD Schoalrship
+
+· MITACS Scholarship
+
+=
+======================================
+
+Universities and classification
+
+Ambitious :
+
+* ETH Zurich CS
+* Cambridge MLMI
+*
+ Princeton CS
+* UCSD CS
+
+Moderate:
+
+* EPFL DS
+* GATech CS
+* UC London ML
+* U Toronto MScAC AI
+
+Safe(?) :
+
+* Uni Edinburg
+h DS
+* UvAmsterdam AI
+
+Wanted an evaluation of the unis and some suggestions for safe universities
+```
+---
+
+     
+ 
+all -  [ Exploring the Landscape of AI: Developments, Challenges, and Future Prospects ](https://www.reddit.com/r/ai_news_by_ai/comments/16i9cbm/exploring_the_landscape_of_ai_developments/) , 1694667864.0
+```
+
+
+
+
+
+#leaders #tool #update #startups #release #feature #event #science #opinions #opensource #vc #ai_enabled #api #majo
+r_players #paper #scheduled
+
+Several non-parametric methods such as nearest neighbor, Parzen windows, and kernel methods
+ are discussed, but they suffer from the curse of dimensionality [1]. Yann LeCun and François Vallet were colleagues in 
+1991, with Vallet using LeCun's neural net simulator called HLM starting from 1986 [2].
+
+
+
+
+
+
+
+California Governor Gavin
+ Newsom has signed an executive order to study the development, use, and risks of generative artificial intelligence, a 
+significant step towards potentially regulating this rapidly growing technology [3].
+
+
+
+
+
+
+
+Stability AI has launched St
+able Audio, their first AI product for music and sound generation, allowing users to create music with AI for free [4]. 
+Stable Audio uses generative AI techniques to deliver faster and higher-quality music and sound effects through a user-f
+riendly web interface [5]. Stability AI has partnered with Audiosparx, a leading music library, to curate a new model [6
+]. However, due to high demand, their servers are currently at full capacity [11].
+
+
+
+
+
+
+
+AIVF, an Israeli start-up, has
+ developed an AI tool that selects the most viable embryo for implantation during IVF, increasing the chances of a healt
+hy pregnancy by up to 30% [8]. OpenAI stores user data for 30 days, allows its employees to access the data, and may sha
+re it with other services [9].
+
+
+
+
+
+
+
+The author transitioned from building web applications to focusing on Machine Lear
+ning systems, learning valuable skills while using Upwork [10]. LLM output validation is important to ensure the reliabi
+lity and predictability of generative AI applications, with Guardrails AI introduced as a tool for implementing it [12].
+
+
+
+
+
+
+
+
+Replit has introduced a new tool called Replit ModelFarm, which allows users to build Generative AI apps quickly
+ and securely [15]. The tool is currently available for free on Hacker and Pro plans until October 15th [20]. Kraftful h
+as developed a plugin for ChatGPT called the product coach, providing assistance with various product-related questions 
+and tasks [21].
+
+
+
+
+
+
+
+Apple is poised to become the leading AI company globally, with their advancements in hardware an
+d the impressive capabilities of their ChatGPT competitor, Ajax [22]. Auto-regressive language models (LLMs) cannot plan
+ or reason effectively, according to Yann LeCun [23].
+
+
+
+
+
+
+
+Google AI hosted Research@ Accra in Ghana, featuring lightn
+ing talks and interactive demos on various important topics [18]. Google AI has announced that the NeurIPS Unlearning Co
+mpetition is now open for submissions on Kaggle [28].
+
+
+
+
+
+
+
+OpenAI has announced the opening of a new office in Dublin,
+ Ireland, to better serve the European market [30].
+
+
+
+
+[1. Yann LeCun @ylecun https://twitter.com/ylecun/status/1701820
+417323696318](https://twitter.com/ylecun/status/1701820417323696318)
+
+[2. Yann LeCun @ylecun https://twitter.com/ylecun/
+status/1701825789472161896](https://twitter.com/ylecun/status/1701825789472161896)
+
+[3. Mustafa Suleyman @mustafasuleyma
+n https://twitter.com/mustafasuleyman/status/1701875880149012561](https://twitter.com/mustafasuleyman/status/17018758801
+49012561)
+
+[4. Stability AI @stabilityai https://twitter.com/stabilityai/status/1701872897076191485](https://twitter.com
+/stabilityai/status/1701872897076191485)
+
+[5. Stability AI @stabilityai https://twitter.com/stabilityai/status/170187337
+5440699583](https://twitter.com/stabilityai/status/1701873375440699583)
+
+[6. Stability AI @stabilityai https://twitter.c
+om/stabilityai/status/1701873857697566772](https://twitter.com/stabilityai/status/1701873857697566772)
+
+[7. Stability AI
+ @stabilityai https://twitter.com/stabilityai/status/1701879160837226554](https://twitter.com/stabilityai/status/1701879
+160837226554)
+
+[8. Mustafa Suleyman @mustafasuleyman https://twitter.com/mustafasuleyman/status/1701893430744420721](htt
+ps://twitter.com/mustafasuleyman/status/1701893430744420721)
+
+[9. Santiago @svpino https://twitter.com/svpino/status/170
+1903118617767953](https://twitter.com/svpino/status/1701903118617767953)
+
+[10. Santiago @svpino https://twitter.com/svpi
+no/status/1701942866904318118](https://twitter.com/svpino/status/1701942866904318118)
+
+[11. Stability AI @stabilityai ht
+tps://twitter.com/stabilityai/status/1701981144076386695](https://twitter.com/stabilityai/status/1701981144076386695)
+
+[
+12. cohere @cohere https://twitter.com/cohere/status/1701982872566186350](https://twitter.com/cohere/status/170198287256
+6186350)
+
+[13. a16z @a16z https://twitter.com/a16z/status/1701989432591536539](https://twitter.com/a16z/status/170198943
+2591536539)
+
+[14. a16z @a16z https://twitter.com/a16z/status/1701989433795317967](https://twitter.com/a16z/status/170198
+9433795317967)
+
+[15. Replit ⠕ @replit https://twitter.com/replit/status/1701993771465052666](https://twitter.com/replit/
+status/1701993771465052666)
+
+[16. Meta AI @metaai https://twitter.com/metaai/status/1701996259761144003](https://twitter
+.com/metaai/status/1701996259761144003)
+
+[17. Meta AI @metaai https://twitter.com/metaai/status/1701997478869147844](htt
+ps://twitter.com/metaai/status/1701997478869147844)
+
+[18. Google AI @googleai https://twitter.com/googleai/status/170200
+3213569015829](https://twitter.com/googleai/status/1702003213569015829)
+
+[19. Google AI @googleai https://twitter.com/go
+ogleai/status/1702004647815532739](https://twitter.com/googleai/status/1702004647815532739)
+
+[20. Replit ⠕ @replit https
+://twitter.com/replit/status/1702013320868544607](https://twitter.com/replit/status/1702013320868544607)
+
+[21. Y Combina
+tor @ycombinator https://twitter.com/ycombinator/status/1702016907073962284](https://twitter.com/ycombinator/status/1702
+016907073962284)
+
+[22. Santiago @svpino https://twitter.com/svpino/status/1702026895339000213](https://twitter.com/svpin
+o/status/1702026895339000213)
+
+[23. Yann LeCun @ylecun https://twitter.com/ylecun/status/1702027572077326505](https://tw
+itter.com/ylecun/status/1702027572077326505)
+
+[24. Greg Brockman @gdb https://twitter.com/gdb/status/1702039916056821858
+](https://twitter.com/gdb/status/1702039916056821858)
+
+[25. Santiago @svpino https://twitter.com/svpino/status/170204218
+9700731042](https://twitter.com/svpino/status/1702042189700731042)
+
+[26. Mustafa Suleyman @mustafasuleyman https://twitt
+er.com/mustafasuleyman/status/1702055970388492618](https://twitter.com/mustafasuleyman/status/1702055970388492618)
+
+[27.
+ Sundar Pichai @sundarpichai https://twitter.com/sundarpichai/status/1702069747041399105](https://twitter.com/sundarpich
+ai/status/1702069747041399105)
+
+[28. Google AI @googleai https://twitter.com/googleai/status/1702075819030704609](https:
+//twitter.com/googleai/status/1702075819030704609)
+
+[29. Yann LeCun @ylecun https://twitter.com/ylecun/status/1702137952
+879415772](https://twitter.com/ylecun/status/1702137952879415772)
+
+[30. OpenAI @openai https://twitter.com/openai/status
+/1702172713962598765](https://twitter.com/openai/status/1702172713962598765)
+```
+---
+
+     
+ 
+all -  [ What are the best venues for industry Data Scientists and ML practitioners to publish their work? ](https://www.reddit.com/r/datascience/comments/16i0roz/what_are_the_best_venues_for_industry_data/) , 1694643566.0
+```
+As a professional in the field, I've always targeted SIGKDD for publishing applied DS/ML work. I think SIGKDD is the top
+ and most reputable in particular for industry practitioners, as opposed to academic researchers, who focus more on nove
+lty and therefore aim for NeurIPS or ICML. This is thanks to the Applied-Data-Science track in SIGKDD which scopes deplo
+yed systems and domain specific applications, rather than purely novel discoveries.
+
+My question is whether there are ot
+her \*\*reputable\*\* conferences similar to KDD in this sense and allow for publishing?
+```
+---
+
+     
+ 
+all -  [ Call for Submissions and Reviewers: New in ML Workshop at NeurIPS 2023! ](https://groups.google.com/g/ml-news/c/-KNAiRnBfEM) , 1694553590.0
+```
+
+```
+---
+
+     
+ 
+all -  [ Call for papers for the Algorithmic Fairness through the lens of Time workshop at NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/uvm-qi0E1Fs) , 1694553587.0
+```
+
+```
+---
+
+     
+ 
+all -  [ CFP: GenPlan '23: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/JEYPAEyyl_Y) , 1694553577.0
+```
+
+```
+---
+
+     
+ 
+all -  [ North Africans in Machine Learning Affinity Workshop at NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/WYYqGHqUvEM) , 1694553563.0
+```
+
+```
+---
+
+     
+ 
+all -  [ Chances for Global Talent (exceptional promise) under peer review ](https://www.reddit.com/r/ukvisa/comments/16ewurq/chances_for_global_talent_exceptional_promise/) , 1694341590.0
+```
+Hi everyone,
+
+I am a research scientist working in one of the FAANG companies in the US. I did my undergrad and PhD in t
+he UK (both at Oxford/Cambridge). I've worked a while for my current employer but got a bit fed up with the Bay Area & b
+ecause of personal reasons I want to move back to the UK, either via an internal transfer (my company has a large resear
+ch presence in the UK) or, if that's not possible, finding a new job. I got my eyes on the global talent programme, and 
+since I will most likely be working as a researcher in industry rather than academia, I don't think any of the fast-trac
+k routes would apply and 'peer review' (in my case through RAEng) seems to be the only choice. I've not seen many data p
+oints on how high the bar is through this route (unlike the US EB-1 route, where tons of data are available), though, so
+ I think it's a good idea to gather wisdom from Reddit to see how likely I'll be granted that visa, before more commitme
+nt like getting a lawyer. Any advice is extremely appreciated!
+
+&#x200B;
+
+**About me:**
+
+\- integrated masters & PhD wit
+h scholarship in AI/ML (Oxbridge)
+
+\- 1-2 yr work experience at one of the major US tech companies (think Alphabet / Met
+a / Amazon) in California
+
+\- \~20 papers (first/co-first author in half of them); around 15 published in top conference
+s (NeurIPS/ICML/ICLR/ACL etc. if you are familiar with AI/ML venues)  & journals -- note that in Computer science in gen
+eral, conferences are the primary venue in contrast to journals. I have also served as a peer reviewer in these venues (
+reviewed >50 papers).
+
+\- \~400 citations according to Google Scholar, although half of the papers are published fairly 
+recently (<1 year) -- hopefully citations will catch up later.
+
+\- Good chance of getting a recommendation letter from s
+ome big guy (think a Fellow of RAEng level) at my old lab in the UK.
+
+\- Have been and will still be active in research 
+(publishing papers, etc.) even though I'm working in the industry.
+
+&#x200B;
+
+A side question is: it seems that getting 
+sponsored by RAEng would allow me to get ILR in 3 years even under 'exceptional promise' -- would that be true in my cas
+e as well, even though I'm not conducting research in academia?
+
+&#x200B;
+
+Thanks, everyone!
+```
+---
+
+     
+ 
 all -  [ [D]What do people think about papers published in the NeurIPS dataset track in comparison to those p ](https://www.reddit.com/r/MachineLearning/comments/16cto3t/dwhat_do_people_think_about_papers_published_in/) , 1694128059.0
 ```
  I'm curious to learn about the perception of papers published in the NeurIPS dataset track in comparison to those publi
@@ -381,597 +1003,6 @@ esponses to their concerns and questions. Unfortunately, also quite expected.
 
 I would definitely like to see this in t
 he next Neurips but maybe with some tweaks and modifications keeping in mind the (unpaid) reviewers.
-```
----
-
-     
- 
-all -  [ AI/ML PhD: Who to collaborate with during MS ](https://www.reddit.com/r/gradadmissions/comments/15wq9ad/aiml_phd_who_to_collaborate_with_during_ms/) , 1692573380.0
-```
- 
-
-**Tldr:** As I am about start my MS (in about a week's time), I need to pick collaborators/mentors to do research and
- publish papers with. **I want to maximize my chances of getting into a top AI PhD program like MIT, Berkeley, etc.** To
- that end, should I do research with people I've already have a relationship with? Should I aim to maintain those connec
-tions (in hopes of receiving a glowing recommendation in the future)? Or should I end those collaborations and try to fo
-rm new connections with different professors who are more 'reputed' and/or well-connected to top universities like Princ
-eton, Berkeley etc.?? For context I go to a top 15 school **in USA**.
-
-**Situation #1:** Over the summer I did a researc
-h engineering gig with a scientist at my university. Not a professor, a 'scientist.' We worked on object detection for s
-elf-driving cars. I enjoyed the experience and found him to be a very knowledgeable, constructive, and approachable ment
-or. The conversations we have sometimes are almost like two friends talking. I've developed a good relationship with him
- and he has praised my capabilities and motivation. **However:** he isn't a very 'reputed' researcher in the field- at l
-east not compared to professors at my university. After all, his job isn't to publish full-time, but rather to deliver M
-L-based products for government agencies. And so, my work with him wasn't to conduct 'research', it was more about doing
- literature review and implementing existing approaches. More of a 'research engineering' gig.
-
-**My question:** Should 
-I reach out to actual professors at my university working in ML and computer vision? They publish more papers, and they 
-are better connected to top-universities like Berkeley. Although I have never worked with these professors, I will also 
-have the opportunity to take there courses so I can develop a relationship with them. Or, should I collaborate further w
-ith the scientist? The thing is, since I didn't do real 'research' with him over the summer, we will be essentially **st
-arting from scratch** and working on some entirely new problems. The only advantage is he is already familiar with who I
- am and definitely has a favorable view of me. I am leaning towards the professor, because I feel like since I only work
-ed with the scientist for a few months, I'm not losing much in terms of the relationship.
-
-**Situation #2: Let's forget 
-about the scientist now, this is a different person.** I reached to a full-time professor (not even associate professor,
- he is a full professor, and my school is top 15). He is a senior member of IEEE. He also has quite a few publications a
-t top conferences like ICML, NeurIPS etc. Thus it is safe to say he is a well-reputed researcher. Although my connection
- with this professor is not as strong as the above-described self-driving scientist, he thinks I have a good background,
- and we have agreed to collaborate over the Fall during my MS. I have done some basic preparatory work over the summer (
-reading background papers etc.). Additionally, I will most likely take courses that he teaches at my university, so I wi
-ll get to connect with him better.
-
-**My question:** Should I cancel this collaboration and try to work with a different
- (associate) professor who studied at Princeton and did his postdoc at Berkeley? My thinking is that he's very well-conn
-ected so his recommendation letter might mean a lot/open doors for me. Only problem is I don't know what I would tell th
-e professor I've already agreed to work with...
-
- 
-```
----
-
-     
- 
-all -  [ AI/ML: Who to do research with during MS (to maximize PhD chances) ](https://www.reddit.com/r/PhD/comments/15wozmv/aiml_who_to_do_research_with_during_ms_to/) , 1692570224.0
-```
-**Tldr:** As I am about start my MS (in about a week's time), I need to pick collaborators/mentors to do research and pu
-blish papers with. **I want to maximize my chances of getting into a top AI PhD program like MIT, Berkeley, etc.** To th
-at end, should I do research with people I've already have a relationship with? Should I aim to maintain those connectio
-ns (in hopes of receiving a glowing recommendation in the future)? Or should I end those collaborations and try to form 
-new connections with different professors who are more 'reputed' and/or well-connected to top universities like Princeto
-n, Berkeley etc.?? For context I go to a top 15 school **in USA**.
-
-&#x200B;
-
-**Situation #1:** Over the summer I did a 
-research engineering gig with a scientist at my university. Not a professor, a 'scientist.' We worked on object detectio
-n for self-driving cars. I enjoyed the experience and found him to be a very knowledgeable, constructive, and approachab
-le mentor. The conversations we have sometimes are almost like two friends talking. I've developed a good relationship w
-ith him and he has praised my capabilities and motivation. **However:** he isn't a very 'reputed' researcher in the fiel
-d- at least not compared to professors at my university. After all, his job isn't to publish full-time, but rather to de
-liver ML-based products for government agencies. And so, my work with him wasn't to conduct 'research', it was more abou
-t doing literature review and implementing existing approaches. More of a 'research engineering' gig.
-
-&#x200B;
-
-**My qu
-estion:** Should I reach out to actual professors at my university working in ML and computer vision? They publish more 
-papers, and they are better connected to top-universities like Berkeley. Although I have never worked with these profess
-ors, I will also have the opportunity to take there courses so I can develop a relationship with them. Or, should I coll
-aborate further with the scientist? The thing is, since I didn't do real 'research' with him over the summer, we will be
- essentially **starting from scratch** and working on some entirely new problems. The only advantage is he is already fa
-miliar with who I am and definitely has a favorable view of me. I am leaning towards the professor, because I feel like 
-since I only worked with the scientist for a few months, I'm not losing much in terms of the relationship.
-
-&#x200B;
-
-**
-Situation #2: Let's forget about the scientist now, this is a different person.** I reached to a full-time professor (no
-t even associate professor, he is a full professor, and my school is top 15). He is a senior member of IEEE. He also has
- quite a few publications at top conferences like ICML, NeurIPS etc. Thus it is safe to say he is a well-reputed researc
-her. Although my connection with this professor is not as strong as the above-described self-driving scientist, he think
-s I have a good background, and we have agreed to collaborate over the Fall during my MS. I have done some basic prepara
-tory work over the summer (reading background papers etc.). Additionally, I will most likely take courses that he teache
-s at my university, so I will get to connect with him better.
-
-&#x200B;
-
-**My question:** Should I cancel this collabora
-tion and try to work with a different (associate) professor who studied at Princeton and did his postdoc at Berkeley? My
- thinking is that he's very well-connected so his recommendation letter might mean a lot/open doors for me. Only problem
- is I don't know what I would tell the professor I've already agreed to work with...
-
-&#x200B;
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ [D] How many times you try for acceptance in AI conference? ](https://www.reddit.com/r/MachineLearning/comments/15wonms/d_how_many_times_you_try_for_acceptance_in_ai/) , 1692569419.0
-```
-ICML 2023 was my first trial. I've got polarized scores, 7/6/4/3, and got rejected. At this moment, I was so disappointe
-d not for the result, but for the quality of review. (The last reviewer didn't read the paper at all.) For the final dec
-ision, the last review was so bad as well, not presenting any reason of rejection.
-
-With the same topic, I got 6/5/5/4/4
-/3 from the NeurIPS 2023. The quality of reviewer is much better than ICML, and I've learned many things from the review
-er, though they said the score will not be changed.
-
-I think I should submit it to another conference again, ICLR or CVP
-R. I just wonder how many submissions are tried for the acceptance in average. Just for reference.
-```
----
-
-     
- 
-all -  [ [CFP] NeurIPS workshop on Causal Representation learning - deadline extended to Oct 2 ](https://groups.google.com/g/ml-news/c/lW9jpzfi2SA) , 1692379144.0
-```
-
-```
----
-
-     
- 
-all -  [ [P] References to help write a Neurips (Workshop) Paper? ](https://www.reddit.com/r/MachineLearning/comments/15ulou8/p_references_to_help_write_a_neurips_workshop/) , 1692367895.0
-```
-I've been working on a specific project for a while now, and was interested in submitting my work to a Nips Workshop.
-
-N
-ow, I had a look at the Nips submission guidelines, they remain the same for the workshop except the page limit for main
- content is 6 pages instead of 9. I tried going over the Nips latex style, but feel pretty intimidated by the sheer amou
-nt of rules. Would there be any guideline/blog I could use as a reference while writing my paper?
-
-P S: Another thing, I
-'m quoting from the workshop website:
-
-'The workshop will not have proceedings (or in other words, it will not be archiv
-al), which means you can submit the same or extended work as a publication to other venues after the workshop. This mean
-s we also accept submissions to other venues, as long as they are not published before the workshop date in December. '
-
-
-I was not sure as to what this means. So if my paper gets accepted, does that mean I can submit the whole thing again t
-o a journal later? Or an extension of it?
-```
----
-
-     
- 
-all -  [ [N] NeurIPS Large Language Model Efficiency Challenge: 1 LLM + 1GPU + 1Day ](https://www.reddit.com/r/MachineLearning/comments/15uhw4l/n_neurips_large_language_model_efficiency/) , 1692358035.0
-```
-[Model Efficiency Challenge](https://llm-efficiency-challenge.github.io/)
-
->A challenge for the community to adapt a fou
-ndation model to specific tasks by fine-tuning on a **single GPU** of either 4090 or A100 (40GB) within a **24-hour** (1
--day) time frame, while maintaining high accuracy for these desired tasks.
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Alpha's Precursor: The System Before the Quantitative System ](https://www.reddit.com/r/quant/comments/15ugmot/alphas_precursor_the_system_before_the/) , 1692354231.0
-```
-I thought some of you might find the following insightful, it gives you an idea of the signal/recuitment divide in quant
- finance.
-
-# Talking
-
-It's hard to stay up to date with the daily deluge of quant finance research. Top institutional fi
-rms **filter** before they read. With quants being paid upwards of (you know what), their time can't be wasted trawling 
-twitter and linkedin. A reasonably good filtering mechanism is conferences and internal seminars.
-
-My first experience w
-ith this was in 2019 when Cubist systematic invited me to a seminar after publishing my first paper on predicting earnin
-gs surprises on SSRN.
-
-'We run a regular semi-monthly seminar series at which professors present recent research to our 
-team of Portfolio Managers and analysts. The format is a 1-1.5 hour interactive session followed by dinner... we are hap
-py to cover travel costs if you would like to make a special trip to NYC and we will of course accommodate your schedule
-.'
-
-It doesn't always involve external speakers, almost every firm I have worked with have some form of internal seminar
- sometimes weekly, sometimes monthly, were an employee has to discuss a new topic of interest.
-
-However, this is not the
- only format anymore. A lot of discussions have morphed into podcasts like Jane Street’s Signals and Threads or Putnam’s
- Active Insights. Podcast recover costs more effectlydue to their marketing alure.
-
-More recently Quant funds have becom
-e the top sponsor at prestigious machine learning conferences like *NeurIPS*. The list includes firms like DE Shaw, PDT 
-Partners, HRT, Two Sigma, Jane Street, and others. Once more, this is not just an opportunity for employees to obtain co
-mplementary tickets to listen to state of the art research, but a great recruitment drive. It signifies “we are great, j
-oin us”.
-
-The search for alpha versus recruitment intent is getting somewhat blurred. For example, it is commonly though
-t among Kaggle data science participants in challenges set up by Winton, Two Sigma, Jane Street, and G-research, that th
-e firms are there to mine the collective crowd-sourced alpha. In fact no, I have been part of developing such a challeng
-e, the purpose is almost purely a recruitment drive.
-
-Some firms have taken a further step, they have concluded that in 
-addition to giving money to other conferences, they might as well set up out own. There are countless examples, more rec
-ently see the G-Research Distinguished Speaker Series or The Discovery: Two Sigma PhD Symposium.
-
-If I had to rate each 
-one of these on the recruitment to alpha continuum, it would probably be: (1) data science competitions, (2) podcasts, (
-3) conference sponsorship and attendance, (4) conference development, and (5) then internal seminars.
-
-# Reading
-
-Of cou
-rse, that list doesn’t stop there, the most interesting part of the continuum is from 6 onward. There is a small industr
-y dedicated solely to the capture, curation, and internal dissemination of public research.
-
-It's an open secret in the 
-quantitative finance community: the volume of research and discussion generated daily is both a treasure trove and a pot
-ential time sink.
-
-When powerhouse names like Acadian Asset Management elucidate on harnessing the disposition effect fo
-r a momentum strategy, or AQR delves into the intricate dance of deep learning for identifying optimal lags, it isn't ju
-st their direct audience that perks up. Portfolio Managers at other funds are equally, if not more, invested in these in
-sights.
-
-So, the question stands: *How do they achieve this level of efficient information assimilation?*
-
-Here's is how
- I approach it for ML-Quant:
-
-&#x200B;
-
-1. **Preemptive Filtering:** Before anything even reaches a quant's desk, it's p
-assed through layers of filters. These aren't just keyword-based, but often employ sophisticated algorithms that underst
-and context, ensuring only the most relevant pieces make the cut.
-2. **Tooling & Infrastructure:** The digital age has b
-lessed us with a suite of tools designed to curate and present information. For instance, libraries like Scrapy, BS4, an
-d Selenium form the vanguard of data extraction. These are not run on traditional setups but on serverless infrastructur
-es, optimizing for both speed and cost.
-3. **Hidden Treasures:** Not everything requires the heavy machinery of web scra
-ping. Often, a hidden API or even an RSS feed can provide a direct line to the insights. For the discerning quant, this 
-is akin to stumbling upon a gold mine, ensuring real-time updates without the overhead of web crawlers.
-
-In essence, the
- world of quantitative finance has evolved. It's no longer just about devising the most sophisticated model or algorithm
- but ensuring that the pipeline of information feeding into these models is both relevant and efficient. In a world wher
-e milliseconds can mean millions, can we really afford to be anything less than optimal?
-```
----
-
-     
- 
-all -  [ [CFP] Computational Sustainability Workshop @ NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/9--X1lgnX2Q) , 1692209864.0
-```
-
-```
----
-
-     
- 
-all -  [ [NeurIPS Workshop CFP] Multi-Agent Security Workshop ](https://groups.google.com/g/ml-news/c/8ppyNAXxIIs) , 1692209863.0
-```
-
-```
----
-
-     
- 
-all -  [ Google have been discussing the NEED to forget private information from models, here's our solution ](https://www.reddit.com/r/ArtificialInteligence/comments/15smjwk/google_have_been_discussing_the_need_to_forget/) , 1692183270.0
-```
-Google recently highlighted the importance of Machine unlearning in their [neurips challenge](https://ai.googleblog.com/
-2023/06/announcing-first-machine-unlearning.html). The goal is to allow a model to forget information that is private or
- confidential, without destroying model performance on the rest of the data.
-
-We present: [Fast Machine Unlearning Witho
-ut Retraining Through Selective Synaptic Dampening](https://arxiv.org/abs/2308.07707)
-
-Selective synaptic dampening (SSD
-) is a novel retraining-free approach to let your model forget sensitive data. It's fast, performant, and lightweight. 
- 
-  
-SSD first selects parameters that are considerably more important for the forget set than the retain set. Next, SS
-D dampens these parameters proportional to the discrepancy in their importance to the forget and retain set. We achieve 
-state of the art on a number of evaluations.  
-Happy to answer any questions, or discuss the problem of unlearning!
-```
----
-
-     
- 
-all -  [ Engaging Reviewers during rebuttal period of NeurIPS [R] ](https://www.reddit.com/r/MachineLearning/comments/15s3xq6/engaging_reviewers_during_rebuttal_period_of/) , 1692131032.0
-```
-I have a paper (theoretical work) at NeurIPS under review right now. We got 4 reviews, 7,7,6,4 with confidence 4,4,4,2. 
-We are trying to keep the good reviews there and bring up reviewer 4's score. We responded to all the comments made by r
-eviewers, but unfortunately only one of them has engaged (one of 7 reviewers said they were happy with our responses and
- are keeping the score). The others have said nothing and the AC hasn't either. What is my best plan right now? Do I jus
-t stay silent or perhaps message the AC? I don't know if silence at this point is in my favor. There is still roughly a 
-week left too.Sorry if this is a specific question. This is my first main author submission (1st year PhD student) and m
-y advisor has been a bit MIA throughout the review process. 
-```
----
-
-     
- 
-all -  [ [CFP] NeurIPS 2023 Workshop on Goal-Conditioned RL: 5 min video or 2 page paper ](https://goal-conditioned-rl.github.io/2023/) , 1692123010.0
-```
-
-```
----
-
-     
- 
-all -  [ [NeurIPS Workshop CFP] R0-FoMo: Robustness of zero/few-shot learning in foundation models ](https://groups.google.com/g/ml-news/c/obOSNc0elbw) , 1692112660.0
-```
-
-```
----
-
-     
- 
-all -  [ [CFP] 2023 NeurIPS Workshop on ML with New Compute Paradigms ](https://groups.google.com/g/ml-news/c/VwciUyy4Yxw) , 1692004681.0
-```
-
-```
----
-
-     
- 
-all -  [ Profile evaluation for Fall '24 for ML / CS ](https://www.reddit.com/r/MSCS/comments/15pxowq/profile_evaluation_for_fall_24_for_ml_cs/) , 1691929850.0
-```
-Hi, 'm a final year undergrad ECE from BITS. Some help regarding ranking the universities as well as some suggestions fo
-r safe options for Machine Learning and CS programs would be really helpful!
-
-GPA : 9.29 (6th in my department)
-
-GRE/TOE
-FL : Giving in September target is 330+
-
-Experience : Research internship for a year at Brown University, Summer Interns
-hip and Thesis at TU Dresden, Upcoming research internship at Cambridge, Summer Internship at CEERI, India
-
-Papers : One
- co-authorship at ICML 2023 ( Oral selection), targeting a NeurIPS workshop for a first author paper (looking likely) an
-d maybe push for a major conference in Jan 2024
-
-LoR: 3 academic; Brown (h-index : 40), TU Dresden (h-index : 20) and BI
-TS each.
-
-Extra-curricular : None (Main lacking point in my profile imo)
-
-Awards: DAAD and MITACS Scholarship
-
-Target co
-lleges:
-
-Ambitious : ETH Zurich, Cambridge, CMU
-
-Moderate : Georgia Tech, TUMunich, UCL, EPFL, U of Toronto, Cornell, UW
-ash
-
-Safe : Not decided yet but I was thinking TU Tubingen
-
-I need an idea of how low I should go for my safe colleges a
-s I am not able to judge that well.
-```
----
-
-     
- 
-all -  [ [CFP] AI+HADR Workshop @ NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/ndYInmyggqY) , 1691803140.0
-```
-
-```
----
-
-     
- 
-all -  [ [CFP] NeurIPS 2023 Workshop on Touch Processing: a new Sensing Modality for AI ](https://groups.google.com/g/ml-news/c/mUjJ_peDg14) , 1691803128.0
-```
-
-```
----
-
-     
- 
-all -  [ [CFP] 'Backdoors in Deep Learning: The Good, the Bad, and the Ugly' workshop @ NeurIPS 2023 ](https://groups.google.com/g/ml-news/c/d9mE3HMKQYw) , 1691803124.0
-```
-
-```
----
-
-     
- 
-all -  [ Need advice: re-apply or take an offer in Germany? ](https://www.reddit.com/r/gradadmissions/comments/15oijld/need_advice_reapply_or_take_an_offer_in_germany/) , 1691782973.0
-```
-Last year I applied to 10 CS PhD programs in the US with a focus on machine learning at Stanford, Columbia, CMU, Harvard
-, UMaryland, UCSD (both CS and DS PhD), Duke, UCI, UNC Chapel Hill and UIUC with zero papers but 2 years of research exp
-erience. Still, I was devastated to get rejected from all of them as I did my research and applied to targeted profs onl
-y whose research I was familiar with. I didn’t take GRE and as I mentioned I had zero accepted papers but 3 under submis
-sion.
-
-I was pretty low on energy for most of the first half of the year but put myself back together to apply to some m
-asters program at Germany — Tubingen and Saarland and got accepted in both of them.
-
-Current research profile:
-—————————
-————
-And fortunately recently one of my papers got accepted at UAI 2023 and I visited the conference as well with some p
-otential collaboration opportunities ahead. So after a year my profile looks like this:
- - 1 accepted paper at UAI
- - 1 
-under submission at NeurIPS with scores 4,5,4,6,4 (looks like a reject)
- - 1 book chapter in Springer (to be published)
-
-(all relevant to the area I want to do my PhD in)
- - currently doing some stuff on LLMs but doesn’t look like it will be
- in a publishable shape by the application deadlines
- - I do have 5/6 US patents filed, not sure if they are helpful as 
-I heard mixed opinions 
-
-My background:
-—————————
- - Undergrad in electrical engineering from a top 5 IIT in India with 
-GPA 9.15/10.
-
-My letter writers are research scientists at industry with PhDs from US (they know me over 2 years) and on
-e IIT professor (also with PhD from US, worked with him for 3 months in an internship).
-
-Question:
-—————
-I am now vacill
-ating between whether to go with the offer at Tubingen or Saarland, or take another shot at the US PhD programs this yea
-r. If I need to point out 1 mistake that cost me heavily last year, I would say it’s that I didn’t contact potential sup
-ervisors that aggressively but many of them wrote that no need to contact them beforehand! On asking why rejected despit
-e being a good match, one prof replied my profile was rated highly but I had “less publications” than others and also di
-dn’t submit GRE score (it was optional, I mean wtf)!
-
-I plan to start mailing now and have some meetings next week (one 
-with a prof that rejected me last year!) Probably I would take GRE too this time.
-
-Now on the other side, I have enough 
-savings to last 1-2 years in Germany, but I would be much better off with a scholarship or stipend that I won’t have in 
-the beginning there. I don’t want to break all my FDs and stock market investments!
-
-What do you think? I am scared to a
-pply and get rejected all over again, and also a bit anxious to go to Germany without any scholarship or financial assis
-tance.
-```
----
-
-     
- 
-all -  [ [D] Lessons from this years Neurips ](https://www.reddit.com/r/MachineLearning/comments/15oic7a/d_lessons_from_this_years_neurips/) , 1691782485.0
-```
-This years Neurips has been a rollercoaster for everyone involved.
-
-Petar Veličković says that in their AC batch 65% sub
-mitted no rebuttal or withdrew.
-
-[https://twitter.com/PetarV\_93/status/1689648854646575105](https://twitter.com/PetarV_
-93/status/1689648854646575105)
-
-Xin Eric Wang says in their batch pre-rebuttal no papers had an avg score above an weak 
-accept.
-
-[https://twitter.com/xwang\_lk/status/1686517898108674048](https://twitter.com/xwang_lk/status/1686517898108674
-048)
-
-Will NeurIPS keep 25% acceptance rate? What do you think will happen to neurips in light of the above? Is this the
- end of big ML confs?
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ The NeurIPS 2023 LLM Efficiency Challenge Starter Guide ](https://lightning.ai/pages/community/tutorial/neurips2023-llm-efficiency-guide/) , 1691767371.0
-```
-
-```
----
-
-     
- 
-all -  [ Publishing a computer vision work at ICRA or IROS? ](https://www.reddit.com/r/robotics/comments/15o4kqg/publishing_a_computer_vision_work_at_icra_or_iros/) , 1691747912.0
-```
-Hi everyone,
-
-&#x200B;
-
-I come from a robotics background (bachelor + half of my masters), however, at the end of my mas
-ters, I shifted towards learning theory by taking lectures on a variety of subjects such as deep learning theory, statis
-tical learning, computer vision, etc. 
-
-&#x200B;
-
-Currently, I am pursuing a PhD in the intersection of learning theory 
-and computer vision, my research work revolves around compressing neural network models, reducing their complexity and t
-esting them on vision tasks (classification mostly, but sometimes extended to segmentation and object detection).
-
-My go
--to conferences are typically CVPR, NeurIPS, ICLR...However, my supervisors and I want to try out a robotics conference,
- and my question is, which one to prefer in my case ? Knowing that I do not experiment on real robots. Is my work more s
-uited for IROS or ICRA? Any other conference suggestion?
-
-&#x200B;
-
-Thank you for your answers.
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ NeurIPS rebuttal character limit problem [D] ](https://www.reddit.com/r/MachineLearning/comments/15mtj1y/neurips_rebuttal_character_limit_problem_d/) , 1691619627.0
-```
-The NeurIPS rebuttal has a 6000 character limit, however my rebuttal is way way over that. I was told by my supervisor t
-hat you could just comment chain onto the rebuttal to get past this, however that is not working.
-
-The deadline is in ar
-ound 5 hours so I'm really in a big bind here. Does anyone have any insight about how to resolve this situation?
-```
----
-
-     
- 
-all -  [ Looking for Perspectives: Pursuing a PhD in AI vs Continuing in Industry ](https://www.reddit.com/r/PhD/comments/15ka43p/looking_for_perspectives_pursuing_a_phd_in_ai_vs/) , 1691382055.0
-```
-Greetings fellow researchers,
-
-I am 27, currently working remotely at a healthcare IT company based in Silicon Valley  (
-6+ years in industrial research) where I apply deep learning methods and large language models. I recently received an e
-xciting opportunity to pursue a PhD at the Technical University of Denmark (DTU) in a similar research area. 
-
-While I a
-m grateful for my current position and compensation, Have published in NeurIPS, EMNLP, ACL, ACM etc (NLP) with really go
-od citations under company. I feel unsatisfied with the learning opportunities available in company & industry.
-
-I am st
-rongly considering pursuing the DTU PhD program full-time, but wanted to get perspectives from others before making a de
-cision. How strong is DTU's AI research community?
-
- Given the rapid advances in large language models, is now an ideal 
-time to immerse myself in academic research? There are many topics that interest me, including fairness, ethics, halluci
-nations, quantization, specialized domains like healthcare/finance, and federated learning combined with LLMs.
-
-Would ap
-preciate any insights on whether moving into academia would be a wise choice at this stage versus remaining in industry.
- I welcome any suggestions or considerations I should keep in mind. 
-
-Thank you for taking the time to share your though
-ts!
-```
----
-
-     
- 
-all -  [ [CfP] NeurIPS 2023 second Table Representation Learning workshop ](https://groups.google.com/g/ml-news/c/Tbyh8GDgyXk) , 1691378275.0
-```
-
-```
----
-
-     
- 
-all -  [ NeurIPS 2023 Gaze Meets ML Workshop 2nd Edition ](https://groups.google.com/g/ml-news/c/LgzxjBr4Ric) , 1691378273.0
-```
-
-```
----
-
-     
- 
-all -  [ [ICLR23] Dual Accounts in Openreview from the same person ](https://www.reddit.com/r/AskAcademia/comments/15k4u81/iclr23_dual_accounts_in_openreview_from_the_same/) , 1691366637.0
-```
-I as a researcher observed some researchers use dual accounts (using different email ids) in Openreview website primaril
-y ICLR or NeurIPS. One hypothesis I heard is it helps in review with one email and submit using other email ID. Is this 
-permitted ? I could see as a disclaimer written in OpenReview website that irrespective how many email id's you may have
- you should have the same Openreview account.
 ```
 ---
 
