@@ -273,6 +273,13 @@ def deci_model_load(dirin="./deci.pt"):
 
     sem = sem_module().mode
 
+    deci_plot_network(graph_array= sem.graph.cpu().numpy() , 
+                      ddict_names= dict(enumerate(data_module.dataset_train.keys())) ) 
+
+    return sem_module, data_module
+
+
+def deci_plot_network(graph_array, ddict_names, dirout):
     graph = nx.from_numpy_array(sem.graph.cpu().numpy(), create_using=nx.DiGraph)
     graph = nx.relabel_nodes(graph, dict(enumerate(data_module.dataset_train.keys())))
 
@@ -282,8 +289,7 @@ def deci_model_load(dirin="./deci.pt"):
         axis.scatter(layout[node][0], layout[node][1], label=f"{i}: {node}")
     axis.legend()
     nx.draw_networkx(graph, pos=layout, with_labels=True, arrows=True, labels=labels, ax=axis)
-
-    return sem_module, data_module
+    nx.save(dirout +"/dag.png")
 
 
 
