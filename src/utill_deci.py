@@ -85,6 +85,7 @@ import numpy as np, pandas as pd, fire
 from operator import itemgetter
 import matplotlib.pyplot as plt
 
+from utilmy import log
 
 import torch
 import pytorch_lightning as pl
@@ -108,18 +109,20 @@ warnings.filterwarnings("ignore")
 
 ###############################################################################################
 def test(test_run=False):
+
+    log("##### Data load only #########################################")
     df, variables_spec = data_load()
     dag_true           = dag_groundtruth(df)
     constraint_matrix  = dag_constraints_setup(df)
 
 
-    #### DECI setup
+    log("#### DECI setup. ############################################")
     data_module      = deci_init(df, variables_spec)
     lightning_module = deci_model_create(constraint_matrix)
     model_path       = deci_model_fit(lightning_module, data_module)
 
 
-    # Call prediction functions with the loaded model
+    log("#### Call prediction functions with the loaded model")
     sem, datam  = deci_model_load(model_path)
     dfate = deci_predict_ate(datam, sem)
     dfite = deci_predict_ite(datam, sem)
