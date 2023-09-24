@@ -217,7 +217,7 @@ def dag_constraints_setup(df):
 ############################################################################################
 def deci_init(df, variables_spec, ytarget_col="Global Flag", ytarget_val="Revenue"):
     data_module = BasicDECIDataModule(
-        df.loc[:, "Global Flag":"Revenue"],
+        df.loc[:, ytarget_col:ytarget_val],
         variables=[Variable.from_dict(d) for d in variables_spec],
         batch_size=1024,
         normalize=True,
