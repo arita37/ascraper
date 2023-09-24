@@ -287,9 +287,8 @@ def deci_model_load(dirin="./deci.pt"):
 
 
 
-def deci_predict_ate(data_module sem):
+def deci_predict_ate(data_module, sem, num_samples=10):
     revenue_estimated_ate = {}
-    num_samples   = 10 if test_run else 20000
     sample_shape = torch.Size([num_samples])
     transform    = data_module.normalizer.transform_modules[outcome]().inv
 
