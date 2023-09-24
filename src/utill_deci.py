@@ -325,6 +325,7 @@ def deci_predict_ate(data_module sem):
         )
         axes[i].axhline(0, color="gray", linestyle="--")
         axes[i].set_title(f"ATE of {treatment}")
+    return  revenue_estimated_ate
 
 
 
@@ -350,7 +351,7 @@ def deci_predict_ite(data_module sem):
             ite_mean.cpu().numpy()[0],
             ite_std.cpu().numpy()[0],
         )
-    revenue_estimated_ites
+
 
     fig, axes = plt.subplots(1, len(revenue_estimated_ites), figsize=(15, 5))
 
@@ -369,6 +370,7 @@ def deci_predict_ite(data_module sem):
         axes[i].axhline(0, color="gray", linestyle="--")
         axes[i].set_title(f"ITE of {treatment}")
 
+    return revenue_estimated_ites
 
 
 
