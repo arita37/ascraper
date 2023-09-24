@@ -313,15 +313,7 @@ def deci_predict_ate(data_module sem):
 
     for i, (treatment, (ate, std)) in enumerate(revenue_estimated_ate.items()):
         axes[i].errorbar(
-            0,
-            ate,
-            yerr=std * 1.96,
-            fmt="o",
-            color="black",
-            mfc="white",
-            mec="black",
-            ms=5,
-            capsize=3,
+            0, ate, yerr=std * 1.96, fmt="o", color="black", mfc="white", mec="black", ms=5, capsize=3,
         )
         axes[i].axhline(0, color="gray", linestyle="--")
         axes[i].set_title(f"ATE of {treatment}")
@@ -357,15 +349,7 @@ def deci_predict_ite(data_module sem):
 
     for i, (treatment, (ite, std)) in enumerate(revenue_estimated_ites.items()):
         axes[i].errorbar(
-            0,
-            ite,
-            yerr=std * 1.96,
-            fmt="o",
-            color="black",
-            mfc="white",
-            mec="black",
-            ms=5,
-            capsize=3,
+            0, ite, yerr=std * 1.96, fmt="o", color="black", mfc="white", mec="black", ms=5, capsize=3,
         )
         axes[i].axhline(0, color="gray", linestyle="--")
         axes[i].set_title(f"ITE of {treatment}")
