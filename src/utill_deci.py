@@ -48,17 +48,46 @@ Docs::
         torchtext                        0.14.1
         torchvision                      0.15.2+cu118
 
+
+
+    https://colab.research.google.com/drive/1o7R_hwtky2zpxksNyyxRxqQrMRIo7snl#scrollTo=YMXBjoHFp0Lc
+
+
+
+    <h1 align="left">Multi-investment Attribution: Distinguish the Effects of Multiple Outreach Efforts</h1>
+
+    <img src="https://www.microsoft.com/en-us/research/uploads/prod/2020/05/Attribution.png" width="400">
+
+    A software company would like to know whether its multiple outreach efforts to their business customers are successful in boosting sales. They would also like to learn how to better target different incentives to different customers. In other words, they would like to learn the **treatment effect** of each investment on customers' total expenditure on the company’s products: particularly the **heterogeneous treatment effect**.
+
+    In an ideal world, the company would run experiments where each customer would receive a random assortment of investments. However, this approach can be logistically prohibitive or strategically unsound: the company might not have the resources to design such experiments or they might not want to risk major revenue losses by randomizing their incentives to top customers.
+
+
+
+    For this exercise, we create simulated data that recreates some key characteristics of real data from a software company facing this type of decision. Simulating data protects the company’s privacy. Because we create the data, we are also in the unusual position of knowing the true causal graph and true effects of each investments, so we can compare the results of our estimation to this ground truth.
+
+    In the next section, we introduce this simulated data. We then discover the causal graph, the relationship between each variable in the simulated data. With this generated graph, we use estimate the personalized treatment effects for each customer.
+
+    !pip install matplotlib
+
+    ! pip install causica==0.3.4
+
+    ! pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchtext==0.14.1 torchdata==0.5.1 --extra-index-url https://download.pytorch.org/whl/cu117
+
+    ! pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+    !pip install utilmy
+
+
 """
-import os,  warnings, fsspec, json
-import networkx as nx, numpy as np, pandas as pd
-
-
+import os, warnings, json, fsspec, networkx as nx
+import numpy as np, pandas as pd, fire
 from operator import itemgetter
-import torch
 import matplotlib.pyplot as plt
+
+
+import torch
 import pytorch_lightning as pl
-
-
 from pytorch_lightning.callbacks import TQDMProgressBar
 from tensordict import TensorDict
 
@@ -70,35 +99,280 @@ from causica.sem.sem_distribution import SEMDistributionModule
 from causica.sem.structural_equation_model import ite
 from causica.training.auglag import AugLagLRConfig
 
+# Suppress warnings
 warnings.filterwarnings("ignore")
-#test_run = bool(os.environ.get("TEST_RUN", False))  # used by testing to run the notebook as a script
-
-from utilmy import log 
-
-
-def test():
-    """ Fill this part
-
-    cd utilmy/tabular/causal/
-    python   util_causal_deci.py test
-
-
-    """
-    df,variables_spec       = data_load()
-    data_module, num_nodes  = deci_init(df, variables_spec )
 
 
 
 
 
+###############################################################################################
+def test(test_run=False):
+    df, variables_spec = data_load()
+    dag_true           = dag_groundtruth(df)
+    constraint_matrix  = dag_constraints_setup(df)
+
+
+    #### DECI setup
+    data_module      = deci_init(df, variables_spec)
+    lightning_module = deci_model_create(constraint_matrix)
+    model_path       = deci_model_fit(lightning_module, data_module)
+
+
+    # Call prediction functions with the loaded model
+    sem, datam  = deci_model_load(model_path)
+    dfate = deci_predict_ate(datam, sem)
+    dfite = deci_predict_ite(datam, sem)
 
 
 
 
+###############################################################################################
+##### Data loading ############################################################################
+def data_load():
+    root_path = CAUSICA_DATASETS_PATH + "causal_ai_suite"
+    root_path = "https://azuastoragepublic.z6.web.core.windows.net/causal_ai_suite"
+
+    df = pd.read_csv(root_path + "/multi_attribution_data_20220819.csv")
+
+    variables_path = root_path + "/multi_attribution_data_20220819_data_types.json"
+    with fsspec.open(variables_path, mode="r", encoding="utf-8") as f:
+        variables_spec = json.load(f)["variables"]
+
+    print("Data Shape:", df.shape)
+    print(df.head())
+    return df, variables_spec
+
+
+
+def dag_groundtruth(df, dir_dag=None):
+    outcome = "Revenue"
+    treatment_columns = ["Tech Support", "Discount", "New Engagement Strategy"]
+
+    ground_truth_effects = df.loc[:, "Direct Treatment Effect: Tech Support":]
+
+    ground_truth_ites = {
+        treatment: ground_truth_effects[f"Total Treatment Effect: {treatment}"] for treatment in treatment_columns
+    }
+
+    ground_truth_ates = {key: val.mean(axis=0) for key, val in ground_truth_ites.items()}
+
+
+    adjacency_path = root_path + "/true_graph_gml_string.txt" if dir_dag is None else dir_dag
+    with fsspec.open(adjacency_path, mode="r", encoding="utf-8") as f:
+        true_adj = nx.parse_gml(f.read())
+
+    fig, axis = plt.subplots(1, 1, figsize=(8, 8))
+    labels = {node: i for i, node in enumerate(true_adj.nodes)}
+
+    try:
+        layout = nx.nx_agraph.graphviz_layout(true_adj, prog="dot")
+    except (ModuleNotFoundError, ImportError):
+        layout = nx.layout.spring_layout(true_adj)
+
+    for node, i in labels.items():
+        axis.scatter(layout[node][0], layout[node][1], label=f"{i}: {node}")
+    axis.legend()
+    nx.draw_networkx(true_adj, pos=layout, with_labels=True, arrows=True, labels=labels, ax=axis)
+
+
+
+def dag_constraints_setup(df):
+
+    node_name_to_idx   = {coli:i for i,coli in df.columns }
+    num_nodes = len(node_name_to_idx)
+    constraint_matrix = np.full((num_nodes, num_nodes), np.nan, dtype=np.float32)
+
+    revenue_idx = node_name_to_idx["Revenue"]
+    planning_summit_idx = node_name_to_idx["Planning Summit"]
+    constraint_matrix[revenue_idx, :] = 0.0
+    constraint_matrix[revenue_idx, planning_summit_idx] = np.nan
+
+    non_child_nodes = [
+        "Commercial Flag",
+        "Major Flag",
+        "SMC Flag",
+        "PC Count",
+        "Employee Count",
+        "Global Flag",
+        "Size",
+    ]
+    non_child_idxs = itemgetter(*non_child_nodes)(node_name_to_idx)
+    constraint_matrix[:, non_child_idxs] = 0.0
+
+    engagement_nodes = ["Tech Support", "Discount", "New Engagement Strategy"]
+    engagement_idxs = itemgetter(*engagement_nodes)(node_name_to_idx)
+    for i in engagement_idxs:
+        constraint_matrix[engagement_idxs, i] = 0.0
+
+    return constraint_matrix
 
 
 
 
+############################################################################################
+############################################################################################
+def deci_init(df, variables_spec, ytarget_col="Global Flag", ytarget_val="Revenue"):
+    data_module = BasicDECIDataModule(
+        df.loc[:, "Global Flag":"Revenue"],
+        variables=[Variable.from_dict(d) for d in variables_spec],
+        batch_size=1024,
+        normalize=True,
+    )
+    num_nodes = len(data_module.dataset_train.keys())
+
+    assert set(df.columns) == set(data_module.dataset_train.keys()), 'mismatch'
+
+    return data_module
+
+
+
+def deci_model_create(constraint_matrix):
+    pl.seed_everything(seed=1)  # set the random seed
+
+    lightning_module = DECIModule(
+        noise_dist=ContinuousNoiseDist.GAUSSIAN,
+        prior_sparsity_lambda=1.0,
+        init_rho=1.0,
+        init_alpha=0.0,
+        auglag_config=AugLagLRConfig(lr_init_dict={"vardist": 1e-2, "icgnn": 3e-4, "noise_dist": 3e-3}),
+    )
+
+    lightning_module.constraint_matrix = torch.tensor(constraint_matrix)
+
+    return lightning_module
+
+
+
+def deci_model_fit(lightning_module, data_module, dirout='./'):
+    trainer = pl.Trainer(
+        accelerator="auto",
+        max_epochs=2000,
+        fast_dev_run=test_run,
+        callbacks=[TQDMProgressBar(refresh_rate=19)],
+        enable_checkpointing=False,
+    )
+
+    trainer.fit(lightning_module, datamodule=data_module)
+
+    # Save the trained model
+    torch.save(lightning_module, dirout + "/deci_lightning_module.pt")
+    torch.save(data_module,      dirout + "/deci_data_module.pt")
+
+    print(f"Model saved to {dirout}")
+    return dirout
+
+
+
+
+#########################################################################################################
+#########################################################################################################
+def deci_model_load(dirin="./deci.pt"):
+    sem_module: SEMDistributionModule = torch.load(dirin + "/deci_lightning_module.pt")
+    data_module: SEMDistributionModule = torch.load(dirin + "/deci_data_module.pt")
+
+    sem = sem_module().mode
+
+    graph = nx.from_numpy_array(sem.graph.cpu().numpy(), create_using=nx.DiGraph)
+    graph = nx.relabel_nodes(graph, dict(enumerate(data_module.dataset_train.keys())))
+
+    fig, axis = plt.subplots(1, 1, figsize=(8, 8))
+
+    for node, i in labels.items():
+        axis.scatter(layout[node][0], layout[node][1], label=f"{i}: {node}")
+    axis.legend()
+    nx.draw_networkx(graph, pos=layout, with_labels=True, arrows=True, labels=labels, ax=axis)
+
+    return sem_module, data_module
+
+
+
+def deci_predict_ate(data_module sem):
+    revenue_estimated_ate = {}
+    num_samples   = 10 if test_run else 20000
+    sample_shape = torch.Size([num_samples])
+    transform    = data_module.normalizer.transform_modules[outcome]().inv
+
+    for treatment in treatment_columns:
+        intervention_a = TensorDict({treatment: torch.tensor([1.0])}, batch_size=tuple())
+        intervention_b = TensorDict({treatment: torch.tensor([0.0])}, batch_size=tuple())
+
+        rev_a_samples = transform(sem.do(interventions=intervention_a).sample(sample_shape)[outcome])
+        rev_b_samples = transform(sem.do(interventions=intervention_b).sample(sample_shape)[outcome])
+
+        ate_mean = rev_a_samples.mean(0) - rev_b_samples.mean(0)
+        ate_std = np.sqrt((rev_a_samples.var(0) + rev_b_samples.var(0)) / num_samples)
+
+        revenue_estimated_ate[treatment] = (
+            ate_mean.cpu().numpy()[0],
+            ate_std.cpu().numpy()[0],
+        )
+    revenue_estimated_ate
+
+    fig, axes = plt.subplots(1, len(revenue_estimated_ate), figsize=(15, 5))
+
+    for i, (treatment, (ate, std)) in enumerate(revenue_estimated_ate.items()):
+        axes[i].errorbar(
+            0,
+            ate,
+            yerr=std * 1.96,
+            fmt="o",
+            color="black",
+            mfc="white",
+            mec="black",
+            ms=5,
+            capsize=3,
+        )
+        axes[i].axhline(0, color="gray", linestyle="--")
+        axes[i].set_title(f"ATE of {treatment}")
+
+
+
+def deci_predict_ite(data_module sem):
+    revenue_estimated_ites = {}
+    num_samples = 10 if test_run else 20000
+    sample_shape = torch.Size([num_samples])
+    transform = data_module.normalizer.transform_modules[outcome]().inv
+
+    for treatment in treatment_columns:
+        intervention_a = TensorDict({treatment: torch.tensor([1.0])}, batch_size=tuple())
+        intervention_b = TensorDict({treatment: torch.tensor([0.0])}, batch_size=tuple())
+
+        rev_a_samples = transform(sem.do(interventions=intervention_a).sample(sample_shape)[outcome])
+        rev_b_samples = transform(sem.do(interventions=intervention_b).sample(sample_shape)[outcome])
+
+        ite_samples = rev_a_samples - rev_b_samples
+
+        ite_mean = ite_samples.mean(0)
+        ite_std = np.sqrt(ite_samples.var(0) / num_samples)
+
+        revenue_estimated_ites[treatment] = (
+            ite_mean.cpu().numpy()[0],
+            ite_std.cpu().numpy()[0],
+        )
+    revenue_estimated_ites
+
+    fig, axes = plt.subplots(1, len(revenue_estimated_ites), figsize=(15, 5))
+
+    for i, (treatment, (ite, std)) in enumerate(revenue_estimated_ites.items()):
+        axes[i].errorbar(
+            0,
+            ite,
+            yerr=std * 1.96,
+            fmt="o",
+            color="black",
+            mfc="white",
+            mec="black",
+            ms=5,
+            capsize=3,
+        )
+        axes[i].axhline(0, color="gray", linestyle="--")
+        axes[i].set_title(f"ITE of {treatment}")
+
+
+
+
+####################################################################################################
 def doc():
         """# Data
 
@@ -137,253 +411,6 @@ def doc():
 
         #### Import the Simulated Data
         """
-
-
-
-def data_load():
-    root_path = CAUSICA_DATASETS_PATH + "causal_ai_suite"
-    df = pd.read_csv(root_path + "/multi_attribution_data_20220819.csv")
-
-    # Load metadata telling us the data type of each column
-    variables_path = root_path + "/multi_attribution_data_20220819_data_types.json"
-    with fsspec.open(variables_path, mode="r", encoding="utf-8") as f:
-        variables_spec = json.load(f)["variables"]
-
-    # Data sample
-    print("Data Shape:", df.shape)
-    log(df.head())
-    return df, variables_spec
-
-
-def deci_init():
-    data_module = BasicDECIDataModule(
-        df.loc[:, "Global Flag":"Revenue"],  # remove ground truth from dataframe
-        variables=[Variable.from_dict(d) for d in variables_spec],
-        batch_size=1024,
-        normalize=True,
-    )
-    num_nodes = len(data_module.dataset_train.keys())
-
-    return data_module, num_nodes
-
-
-
-def dag_groundthruth():
-      """Import the Ground Truth Causal Effects
-
-      Unlike most real-world causal use cases, in this case we know the true causal relationships between treatments
-      and outcome because we have simulated the data.
-
-      We also extract those effects, created during data generation, to check our later causal effect estimates.
-      For now, we calculate the ground truth average and individual treatment effects (ATEs and ITEs).
-      """
-
-      outcome = "Revenue"
-      treatment_columns = ["Tech Support", "Discount", "New Engagement Strategy"]
-
-      # extract ground truth effects
-      ground_truth_effects = df.loc[:, "Direct Treatment Effect: Tech Support":]
-
-      ground_truth_ites = {
-          treatment: ground_truth_effects[f"Total Treatment Effect: {treatment}"] for treatment in treatment_columns
-      }
-
-      ground_truth_ates = {key: val.mean(axis=0) for key, val in ground_truth_ites.items()}
-
-      adjacency_path = root_path + "/true_graph_gml_string.txt"
-      with fsspec.open(adjacency_path, mode="r", encoding="utf-8") as f:
-          true_adj = nx.parse_gml(f.read())
-
-      fig, axis = plt.subplots(1, 1, figsize=(8, 8))
-      labels = {node: i for i, node in enumerate(true_adj.nodes)}
-
-      try:
-          layout = nx.nx_agraph.graphviz_layout(true_adj, prog="dot")
-      except (ModuleNotFoundError, ImportError):
-          layout = nx.layout.spring_layout(true_adj)
-
-      for node, i in labels.items():
-          axis.scatter(layout[node][0], layout[node][1], label=f"{i}: {node}")
-      axis.legend()
-      nx.draw_networkx(true_adj, pos=layout, with_labels=True, arrows=True, labels=labels, ax=axis)
-
-
-
-def dag_constraints_setup():
-    """# Discover the Causal Graph
-    ### [Optional] Adding domain-specific graph constraints
-    To improve the quality of the learned graph, it is possible to place constraints on the graph that DECI learns. The constraints come in two flavours:
-    - *negative constraints* mean a certain edge cannot exist in the graph,
-    - *positive constraints* mean a certain edge must exist in the graph.
-    """
-    # The constraint matrix has the same shape as the adjacency matrix
-    # A `nan` value means no constraint
-    # A 0 value means a negative constraint
-    # A 1 value means a positive constraint
-    node_name_to_idx = {key: i for i, key in enumerate(data_module.dataset_train.keys())}
-    constraint_matrix = np.full((num_nodes, num_nodes), np.nan, dtype=np.float32)
-
-    """First, we introduce the constraint that Revenue cannot be the cause of any other node, except possibly Planning Summit."""
-
-    revenue_idx = node_name_to_idx["Revenue"]
-    planning_summit_idx = node_name_to_idx["Planning Summit"]
-    constraint_matrix[revenue_idx, :] = 0.0
-    constraint_matrix[revenue_idx, planning_summit_idx] = np.nan
-
-    """Second, we say that certain basic attributes of companies cannot be changed by other variables (at least on the time scale we are considering). The attributes we constraint to have no parents are: Commerical Flag, Major Flag, SMC Flag, PC Count, Employee Count, Global Flag, Size."""
-
-    non_child_nodes = [
-        "Commercial Flag",
-        "Major Flag",
-        "SMC Flag",
-        "PC Count",
-        "Employee Count",
-        "Global Flag",
-        "Size",
-    ]
-    non_child_idxs = itemgetter(*non_child_nodes)(node_name_to_idx)
-    constraint_matrix[:, non_child_idxs] = 0.0
-
-    """Finally, we make a constraint that says that different engagements do not directly cause one another. For example, giving Tech Support to a company is not a valid reason to give / not give them a Discount."""
-
-    engagement_nodes = ["Tech Support", "Discount", "New Engagement Strategy"]
-    engagement_idxs = itemgetter(*engagement_nodes)(node_name_to_idx)
-    for i in engagement_idxs:
-        constraint_matrix[engagement_idxs, i] = 0.0
-
-
-def deci_model_create():
-    """### Creating and training DECI model
-
-    The following snippets step through the process of:
-    - configuring and creating a DECI model
-    - training a model with graph constraints
-
-    #### DECI configuration
-
-    The DECI model has a number of hyperparameters, but attention need not be paid to all of them. Here we highlight key hyperparameters that might be changed to improve performance:
-    - `noise_dist` is the type of DECI model that is trained with. It should be either Gaussian or Spline. Use a Spline for highly non-Gaussian data, or to fit a better density model of the observational data.
-
-    Other hyperparameters are less frequently changed.
-    """
-
-    pl.seed_everything(seed=1)  # set the random seed
-
-    lightning_module = DECIModule(
-        noise_dist=ContinuousNoiseDist.GAUSSIAN,
-        prior_sparsity_lambda=1.0,
-        init_rho=1.0,
-        init_alpha=0.0,
-        auglag_config=AugLagLRConfig(lr_init_dict={"vardist": 1e-2, "icgnn": 3e-4, "noise_dist": 3e-3}),
-    )
-
-    lightning_module.constraint_matrix = torch.tensor(constraint_matrix)
-
-
-def deci_model_fit():
-    trainer = pl.Trainer(
-        accelerator="auto",
-        max_epochs=2000,
-        fast_dev_run=test_run,
-        callbacks=[TQDMProgressBar(refresh_rate=19)],
-        enable_checkpointing=False,
-    )
-
-    trainer.fit(lightning_module, datamodule=data_module)
-
-
-    """### Saving and Loading a DECI model"""
-
-    torch.save(lightning_module.sem_module, "deci.pt")
-
-
-def deci_model_load():
-    sem_module: SEMDistributionModule = torch.load("deci.pt")
-
-    # create a structural equation model using the most likely graph
-    sem = sem_module().mode
-
-    graph = nx.from_numpy_array(sem.graph.cpu().numpy(), create_using=nx.DiGraph)
-    graph = nx.relabel_nodes(graph, dict(enumerate(data_module.dataset_train.keys())))
-
-    fig, axis = plt.subplots(1, 1, figsize=(8, 8))
-
-    for node, i in labels.items():
-        axis.scatter(layout[node][0], layout[node][1], label=f"{i}: {node}")
-    axis.legend()
-
-    nx.draw_networkx(graph, pos=layout, with_labels=True, arrows=True, labels=labels, ax=axis)
-
-
-def deci_predict_ate():
-    """### Concluding graph discovery
-    The DECI model from Causica offers us a way to discover a causal graph from observational data. The learned graph can be iteratively refined by adding new graph constraints and retraining DECI to obtain a more realistic graph.
-
-    # Treatment effect estimation
-
-    The causal graph identifies the likely paths of connection between features. This next step will quantify the strength of those relationships between treatment and outcomes. Our tools estimate both the average treatment effect across all customers (ATE) and how these treatment effects vary across customer features. If we are confident that we have included every feature that affects treatment intensity, we can also interpret these estimates as individual treatment effects (ITE), or the effect of treating a particular customer.
-
-    ## Average Treatment Effect (ATE)
-    We can estimate the average treatment and estimate the error using samples from the intervened SEM
-    """
-
-    revenue_estimated_ate = {}
-    num_samples = 10 if test_run else 20000
-    sample_shape = torch.Size([num_samples])
-    transform = data_module.normalizer.transform_modules[outcome]().inv
-
-    for treatment in treatment_columns:
-        intervention_a = TensorDict({treatment: torch.tensor([1.0])}, batch_size=tuple())
-        intervention_b = TensorDict({treatment: torch.tensor([0.0])}, batch_size=tuple())
-
-        rev_a_samples = transform(sem.do(interventions=intervention_a).sample(sample_shape)[outcome])
-        rev_b_samples = transform(sem.do(interventions=intervention_b).sample(sample_shape)[outcome])
-
-        ate_mean = rev_a_samples.mean(0) - rev_b_samples.mean(0)
-        ate_std = np.sqrt((rev_a_samples.var(0) + rev_b_samples.var(0)) / num_samples)
-
-        revenue_estimated_ate[treatment] = (
-            ate_mean.cpu().numpy()[0],
-            ate_std.cpu().numpy()[0],
-        )
-    revenue_estimated_ate
-
-    """These graphs compare the average total treatment effects of Causica with the ground truth."""
-    fig, axes = plt.subplots(1, len(ground_truth_ates), figsize=(16, 4))
-    fig.suptitle("Comparison of Ground Truth ATEs with DECI estimates")
-    for ax, treatment in zip(axes, revenue_estimated_ate.keys()):
-        ax.errorbar([0], [revenue_estimated_ate[treatment][0]], [2 * revenue_estimated_ate[treatment][1]], fmt="o")
-        ax.scatter([0], [ground_truth_ates[treatment]], color="r", label="Ground Truth")
-        ax.legend()
-        ax.set_title(treatment)
-        ax.set_ylabel("Revenue difference ($)")
-
-
-def deci_predict_ite():
-    """## Individual treatment effects (ITE)
-    Finally, Causica can estimate *individual* treatment effects: the difference between giving and not giving the engagement to a specific customer. Using the original data, we can examine what the difference in Revenue would be for each interaction if we had performed the intervention.
-    """
-
-    revenue_estimated_ite = {}
-
-    base_noise = sem.sample_to_noise(data_module.dataset_train)
-
-    for treatment in treatment_columns:
-        do_sem = sem.do(interventions=TensorDict({treatment: torch.tensor([1.0])}, batch_size=tuple()))
-        do_a_cfs = transform(do_sem.noise_to_sample(base_noise)[outcome]).cpu().detach().numpy()[:, 0]
-        do_sem = sem.do(interventions=TensorDict({treatment: torch.tensor([0.0])}, batch_size=tuple()))
-        do_b_cfs = transform(do_sem.noise_to_sample(base_noise)[outcome]).cpu().detach().numpy()[:, 0]
-        revenue_estimated_ite[treatment] = do_a_cfs - do_b_cfs
-
-    revenue_estimated_ite
-
-    fig, axes = plt.subplots(1, len(ground_truth_ates), figsize=(16, 4))
-    fig.suptitle("Comparison of Ground Truth ITEs with DECI estimates")
-    for ax, treatment in zip(axes, revenue_estimated_ite.keys()):
-        ax.scatter(revenue_estimated_ite[treatment], ground_truth_ites[treatment])
-        ax.set_title(treatment)
-        ax.set_xlabel("Estimated ITE ($)")
-        ax.set_ylabel("Ground Truth ITE ($)")
 
 
 
@@ -906,9 +933,10 @@ def piplist():
 
 
 
+
+
 ###################################################################################################
 if __name__ == "__main__":
-    import fire
     fire.Fire()
 
 
