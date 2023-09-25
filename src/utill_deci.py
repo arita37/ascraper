@@ -152,13 +152,13 @@ def dag_groundtruth(df, dir_dag=None):
     outcome = "Revenue"
     treatment_columns = ["Tech Support", "Discount", "New Engagement Strategy"]
 
-    ground_truth_effects = df.loc[:, "Direct Treatment Effect: Tech Support":]
+    true_effects = df.loc[:, "Direct Treatment Effect: Tech Support":]
 
-    ground_truth_ites = {
-        treatment: ground_truth_effects[f"Total Treatment Effect: {treatment}"] for treatment in treatment_columns
+    true_ites = {
+        treatment: true_effects[f"Total Treatment Effect: {treatment}"] for treatment in treatment_columns
     }
 
-    ground_truth_ates = {key: val.mean(axis=0) for key, val in ground_truth_ites.items()}
+    true_ates = {key: val.mean(axis=0) for key, val in true_ites.items()}
 
 
     adjacency_path = root_path + "/true_graph_gml_string.txt" if dir_dag is None else dir_dag
