@@ -108,7 +108,7 @@ warnings.filterwarnings("ignore")
 
 
 ###############################################################################################
-def test(test_run=False):
+def test():
 
     log("##### Data load only #########################################")
     df, variables_spec = data_load()
