@@ -162,6 +162,12 @@ if LOG_TYPE == 'base':
         """
         print(*s, flush=True)
 
+    #### custom ali
+    log_info = log 
+    log_error = loge 
+    log_warn = logw 
+    log_critical = logc 
+    log_trace = log2
 
 
     #########################################################################################
