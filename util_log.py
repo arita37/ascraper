@@ -2,12 +2,26 @@
 """ Universal logger
 Doc::
 
-    bash ENV variables
+   config is setup GLOBALLY for the app by ENV variable.
+   By order of priroity
+   1) bash ENV variables
         export log_verbosity=10
         export log_type='logging'   #  / 'base' / 'loguru'
         export log_format="%(asctime)s.%(msecs)03dZ %(levelname)s %(message)s"
         export log_config="log_level:DEBUG;log_file:ztmp/log/log;rotate_time:midnight;rotate_interval:1"
 
+   2) Config file on disk, with path defined by  ENV VAR: log_config_path
+    JSON Fields:
+      ['log_verbosity']
+      ['log_type']     
+      ['log_format']   
+      ['log_config'] 
+    
+   3)
+
+
+
+   Formatting:
 
     # The severity levels
     # Level name    Severity value  Logger method
