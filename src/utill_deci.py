@@ -69,13 +69,9 @@ Docs::
     In the next section, we introduce this simulated data. We then discover the causal graph, the relationship between each variable in the simulated data. With this generated graph, we use estimate the personalized treatment effects for each customer.
 
     !pip install matplotlib
-
     ! pip install causica==0.3.4
-
     ! pip install torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchtext==0.14.1 torchdata==0.5.1 --extra-index-url https://download.pytorch.org/whl/cu117
-
     ! pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-
     !pip install utilmy
 
 
