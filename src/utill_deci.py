@@ -247,13 +247,15 @@ def deci_model_create(constraint_matrix):
 
 
 
-def deci_model_fit(lightning_module, data_module, dirout='./'):
+def deci_model_fit(lightning_module, data_module, dirout='./', 
+                   epochs=2000, test_run=False, checkpoint=False, **kw ):
     trainer = pl.Trainer(
         accelerator="auto",
-        max_epochs=2000,
+        max_epochs=epochs,
         fast_dev_run=test_run,
-        callbacks=[TQDMProgressBar(refresh_rate=19)],
-        enable_checkpointing=False,
+        callbacks=[],
+        enable_checkpointing=checkpoint,
+        **kw
     )
 
     trainer.fit(lightning_module, datamodule=data_module)
@@ -262,7 +264,7 @@ def deci_model_fit(lightning_module, data_module, dirout='./'):
     torch.save(lightning_module, dirout + "/deci_lightning_module.pt")
     torch.save(data_module,      dirout + "/deci_data_module.pt")
 
-    print(f"Model saved to {dirout}")
+    log(f"Model saved to {dirout}")
     return dirout
 
 
@@ -271,7 +273,7 @@ def deci_model_fit(lightning_module, data_module, dirout='./'):
 #########################################################################################################
 #########################################################################################################
 def deci_model_load(dirin="./deci.pt"):
-    sem_module: SEMDistributionModule = torch.load(dirin + "/deci_lightning_module.pt")
+    sem_module: SEMDistributionModule  = torch.load(dirin + "/deci_lightning_module.pt")
     data_module: SEMDistributionModule = torch.load(dirin + "/deci_data_module.pt")
 
     sem = sem_module().mode
