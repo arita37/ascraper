@@ -3,12 +3,16 @@
 Doc::
 
    config is setup GLOBALLY for the app by ENV variable.
-   By order of priroity
+
+
+   Config By order of prirority
+
    1) bash ENV variables
         export log_verbosity=10
         export log_type='logging'   #  / 'base' / 'loguru'
         export log_format="%(asctime)s.%(msecs)03dZ %(levelname)s %(message)s"
         export log_config="log_level:DEBUG;log_file:ztmp/log/log;rotate_time:midnight;rotate_interval:1"
+
 
    2) Config file on disk, with path defined by  ENV VAR: log_config_path
     JSON Fields:
@@ -52,16 +56,18 @@ Doc::
         %(threadName)s      -> MainThread -> スレッド名
 
 """
-import os, sys, json, fire
+import os, sys, json, fire, time
 from typing import Any, Union
-from logging.handlers import SocketHandler
 from pathlib import Path
+
 
 
 ######################################################################################
 ##### Global settting  ###############################################################
 LOG_CONFIG = {}
 LOG_TYPE   ='base'
+THISFILE_PATH = Path(__file__).resolve().parent
+
 
 try:
     LOG_CONFIG_FILE = os.environ.get('log_config_path',  os.getcwd() + "/log_config.json" )
@@ -69,8 +75,6 @@ try:
         LOG_CONFIG = json.load(f)
 except Exception as e:
     pass
-
-THISFILE_PATH = Path(__file__).resolve().parent
 
 
 def log_reload(set_verbosity:int=None):
@@ -94,8 +98,21 @@ log_reload()
 
 
 
+######### Time   ##############################################################################
+TT0= time.time()
+
+def str_time_delta()->str:
+    global TT0
+    now = time.time()
+    delta = now - TT0
+    stats = "[{:.1f}s | +{:.1f}s]".format(now, delta)
+    TT0 = now
+    return stats
+
+
+
 ######### Debug  ##############################################################################
-def logi(*s):
+def logeval(*s):
     for si in  s:
        print(si, eval(si), "")
 
@@ -169,6 +186,7 @@ if LOG_TYPE == 'base':
 
 ##############################################################################################
 if LOG_TYPE == 'logging':
+    from logging.handlers import SocketHandler    
     import logging, socket
     ################### Logs #################################################################
     FORMAT ={
@@ -537,70 +555,28 @@ if LOG_TYPE == 'logging2':
             loge("Catch"), e
 
 
+
 ##############################################################################################
 if LOG_TYPE == 'basecolor':
-    #
     # Colors: https://github.com/termcolor/termcolor
-    #
-
     from termcolor import cprint
-    import time
-    from models import PromptRequest, PromptResponse, ActionResponse
+    SSEP="," 
+
+    def log(*s):
+        cprint( SSEP.join([str(t) for t in s]), "magenta", "on_black")
+
+    def logw(self, message: str):
+        cprint(SSEP.join([str(t) for t in s]), "yellow", "on_black")
+
+    def loge(self, message: str):
+        cprint(SSEP.join([str(t) for t in s]), "red", "on_black")
 
 
-    class Logger:
-        def __init__(self) -> None:
-            self.moving_time = time.time()
+    def logsep():
+        cprint("-" * 80, "dark_grey", "on_black")
 
-        def _get_timing(self):
-            now = time.time()
-            delta = now - self.moving_time
-            stats = "[{:.1f}s | +{:.1f}s]".format(now, delta)
-            self.moving_time = now
-            return stats
 
-        def log_info(self, message: str):
-            cprint(message, "magenta", "on_black")
 
-        def log_success(self, message: str):
-            print(self._get_timing(), end=" ")
-            cprint(message, "green", "on_black")
-
-        def log_warning(self, message: str):
-            print(self._get_timing(), end=" ")
-            cprint(message, "yellow", "on_black")
-
-        def log_error(self, message: str):
-            print(self._get_timing(), end=" ")
-            cprint(message, "red", "on_black")
-
-        def log_neutral(self, message: str):
-            print(self._get_timing(), end=" ")
-            cprint(message, "dark_grey", "on_black")
-
-        def log_human(self, message: PromptRequest):
-            self.log_neutral("[sid={}]".format(message.session_id))
-            cprint(message.text, "white", "on_blue")
-
-        def log_ai(self, message: PromptResponse, is_first_message: bool):
-            log_fn = self.log_warning if is_first_message else self.log_neutral
-            log_fn(
-                "[sid={} | HTTP{} | chunk={}/{} | +{:.1f}s]".format(
-                    message.session_id,
-                    message.status,
-                    message.chunk_prefix,
-                    message.chunk_prompt_length,
-                    message.time_from_request,
-                )
-            )
-            cprint(message.text, "white", "on_cyan")
-
-        def log_action(self, message: ActionResponse):
-            self.log_neutral("[chunk_id={}]".format(message.chunk_id))
-            cprint(message.raw, "white", "on_magenta")
-
-        def log_separator(self):
-            cprint("-" * 80, "dark_grey", "on_black")
 
 
 
