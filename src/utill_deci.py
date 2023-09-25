@@ -142,8 +142,8 @@ def data_load():
     with fsspec.open(variables_path, mode="r", encoding="utf-8") as f:
         variables_spec = json.load(f)["variables"]
 
-    print("Data Shape:", df.shape)
-    print(df.head())
+    log("Data Shape:", df.shape)
+    log(df.head())
     return df, variables_spec
 
 
@@ -273,8 +273,8 @@ def deci_model_fit(lightning_module, data_module, dirout='./',
 #########################################################################################################
 #########################################################################################################
 def deci_model_load(dirin="./deci.pt"):
-    sem_module: SEMDistributionModule  = torch.load(dirin + "/deci_lightning_module.pt")
-    data_module: SEMDistributionModule = torch.load(dirin + "/deci_data_module.pt")
+    sem_module: SEMDistributionModule = torch.load(dirin + "/deci_lightning_module.pt")
+    data_module = torch.load(dirin + "/deci_data_module.pt")
 
     sem = sem_module().mode
 
