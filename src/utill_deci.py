@@ -135,11 +135,28 @@ def test():
 ##### TODO : 
 ##### 
 """ JSON Format specification:
+  can be extensible easily.
+
+{
+
+    "node_list" : [ "node1", 'node2',  ]
+    "edge_list" : [ 
+        
+            { 'a': 'node1', 'b': 'node2',  'type': 'default', 'weight':  1.0, .... ), 
+
+            { 'a': 'node1', 'b': 'node2',  'type': 'default', 'weight':  1.0, .... ), 
+
+            { 'a': 'node1', 'b': 'node2',  'type': 'default', 'weight':  1.0, .... ), 
 
 
+    ]  
+    
+    constraint_dict = {
+
+        'constraint_1' :
 
 
-
+}
 
 """
 
