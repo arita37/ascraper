@@ -105,6 +105,7 @@ warnings.filterwarnings("ignore")
 
 ###############################################################################################
 def test():
+    ### https://colab.research.google.com/drive/1o7R_hwtky2zpxksNyyxRxqQrMRIo7snl#scrollTo=o6KU8_enotMr
 
     log("##### Data load only #########################################")
     df, variables_spec = data_load()
