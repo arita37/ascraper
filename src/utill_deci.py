@@ -112,16 +112,51 @@ def test():
     constraint_matrix  = dag_constraints_setup(df)
 
 
+    # constraint_matrix = deci_load_graph_in_json(dirin:str)
+
+
     log("#### DECI setup. ############################################")
     data_module      = deci_init(df, variables_spec)
     lightning_module = deci_model_create(constraint_matrix)
     model_path       = deci_model_fit(lightning_module, data_module)
 
 
+    # deci_export_graph_in_json(lightning_module, data_module)
+
+
+
+
     log("#### Call prediction functions with the loaded model")
     sem, datam  = deci_model_load(model_path)
     dfate = deci_predict_ate(datam, sem)
     dfite = deci_predict_ite(datam, sem)
+
+
+##### TODO : 
+##### 
+""" JSON Format specification:
+
+
+
+
+
+
+"""
+
+
+
+def  deci_load_graph_in_json(dirin:str):
+    pass 
+
+
+
+
+def deci_export_graph_in_json(lightning_module, data_module):
+    pass
+
+
+
+
 
 
 
