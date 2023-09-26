@@ -137,6 +137,8 @@ def test():
 ##### 
 """ JSON Format specification:
   can be extensible easily.
+extended
+
 
 {
 
@@ -152,7 +154,7 @@ def test():
 
     ]  
     
-    constraint_dict = {
+    constraints_dict = {
 
         'constraint_1' :
 
