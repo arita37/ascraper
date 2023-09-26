@@ -167,7 +167,7 @@ if LOG_TYPE == 'base':
         """
         print(*s, flush=True)
 
-    #### custom ali
+    #### custom alias
     log_info = log 
     log_error = loge 
     log_warn = logw 
@@ -355,23 +355,33 @@ if LOG_TYPE == 'logging':
         """function logr."""
         logger.info(",".join([str(t) for t in s]))
 
+    #### custom alias
+    log_info = log 
+    log_error = loge 
+    log_warn = logw 
+    log_critical = logc 
+    log_trace = log2
+    logt = log2
+
 
     #########################################################################################
     def test_log():
         """function test.
         """
-        log3("debug2")
-        log2("debug")
-        log("info")
-        logw("warning")
-        loge("error")
-        logc("critical")
+        mlist =[ 1234, 1234.0 '1234', [1234], {1234},  ]
+
+        for msg in mlist:
+            log3(msg)
+            log2(msg)
+            log(msg)
+            logw(msg)
+            loge(msg)
+            logc(msg)
 
         try:
             a = 1 / 0
         except Exception as e:
-            logr("error", e)
-            loge("Catcch"), e
+            loge( e)
 
 
 
