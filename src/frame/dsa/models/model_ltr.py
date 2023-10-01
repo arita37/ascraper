@@ -36,44 +36,50 @@ def reset():
 ####################################################################################################
 def test1():
     """
-        ['_check_n_features', '_get_param_names', '_get_tags', '_more_tags', '_repr_html_', '_repr_html_inner',
-        _repr_mimebundle_', '_validate_data', 'categorical_features', 'display_types', 'features_todrop',
-        'final_training_columns', 'fit', 'fit_transform', 'get_params', 'id_columns', 'learned_dtypes',
-        'ml_usecase', 'numerical_features', 'response', 'set_params', 'target', 'time_features', 'transform']
-
-
-    :return:
     """
     global model, session
     dirin="ztmp/local/models/0_Extra/"
 
-    ### model
-    load_model(dirin)
-    pipe1 = model.model[0]
+    from utilmy import pd_generate_data2
 
-    method_list = [method for method in dir(pipe1) if method.startswith('__') is False]
-    log(method_list)
-    log(pipe1.final_training_columns)
-    colsX1 = pipe1.final_training_columns
-
-    colsX = pd_read_file(dirin + "/colsX*")
-    colsX = list(colsX.columns)
-    colsX = [  ci for ci in colsX if 'Unna' not in ci ]
-
-    dfX   = pd_read_file(dirin + "/data/dfs*.parquet", nrows=10)
-    dfX = dfX.iloc[:100, :]
-
-    # pd_to_file(dfX, dirin +"/data/dfsample.parquet")
-
-    log('cols used', dfX.columns)
-
-    # dfY = predict(dfX)
-    # assert len(dfX[colsX])>0
-    colsX2 = ['quadkey', 'fe'  ]
-    dfY = predict_proba(dfX[colsX1], merge_proba=True)
+    dftrain = pd_generate_data2(n_colnum=3, n_colcat=4, nrows=100, use_catstr=1)
+    dfval   = pd_generate_data2(n_colnum=3, n_colcat=4, nrows=50, use_catstr=1)
+    ytrain  = np.random.randint(0,2, 100)
+    yval    = np.random.randint(0,2, 50)
 
 
-    log(dfY)
+    model_pars = {}
+    compute_pars ={}
+    model = Model()
+
+    fit(dftrain.values, ytrain.values )
+    dfproba = predict_proba(dfval)
+    dfy     = predict(dfval)
+
+
+
+
+def pd_generate_data2( n_colnum=3, n_colcat=4, nrows=100, use_catstr=1):
+    """ Generate sample data for function testing categorical features
+    """
+    import numpy as np, pandas as pd
+    np.random.seed(444)
+
+    ### Numerical
+    df = pd.DataFrame()
+    for i in range(0, n_colcat):                       
+        df[ f'num{i}']= np.random.random(0, 1, size=nrows,   )
+
+    ### Categories
+    for i in range(0, n_colcat):
+        if use_catstr==1:
+           catval = [ str(i) for i in range(0, 1+ np.random.randint(20)   ]
+        else:
+           catval = [ i for i in range(0, 1+ np.random.randint(20)   ]
+
+        df[ f'cat{i}']= np.random.choice(  a=catval,  size=nrows,   )
+
+    return df
 
 
 
