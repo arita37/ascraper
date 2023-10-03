@@ -1,5 +1,5 @@
  
-all -  [ [Call For Papers] Deadline Extended: BUGS @ NeurIPS 2023 Workshop Deadline Extended. ](https://groups.google.com/g/ml-news/c/enXrGviD6j0) , 2023-10-02-0910
+all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-03-0909
 ```
 
 ```
@@ -7,7 +7,7 @@ all -  [ [Call For Papers] Deadline Extended: BUGS @ NeurIPS 2023 Workshop Deadl
 
      
  
-all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-02-0910
+all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-03-0909
 ```
 I am applying for fall 2024 for both MS and PhD in CS, with specialization in ML (NLP, Speech)
 
@@ -51,7 +51,7 @@ ersities provide decent chance of landing funding in form of TA/RA, this is impo
 
      
  
-all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-02-0910
+all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-03-0909
 ```
 Hello. I am an international masters student in the US, applying for software engineering internships, but I haven't had
  any luck getting interviews so far. It turns out that I had been formatting my resume in a way that is not the norm her
@@ -72,7 +72,7 @@ https://preview.redd.it/5thjr5viwuqb1.png?width=1344&format=png&auto=webp&s=0bab
 
      
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-02-0910
+all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-03-0909
 ```
  Academic Profile
 
@@ -168,7 +168,7 @@ over up)
 
      
  
-all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-02-0910
+all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-03-0909
 ```
 About to finish my PhD in a specific application of ML. The university is a pretty famous French institution, but withou
 t much AI/ML prestige right now. I have a bunch of publications in industry specific conferences/journals, but no NeurIP
@@ -192,7 +192,7 @@ e through the resume screening stage?
 
      
  
-all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-02-0910
+all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-03-0909
 ```
 I have an accepted paper in NEURIPS 2023, which will be held in Dec 2023.
 
@@ -218,7 +218,7 @@ reatly appreciate help.
 
      
  
-all -  [ Exploring the Future of AI: Insights from Industry Leaders and Innovations in Open-Source Tools ](https://www.reddit.com/r/ai_news_by_ai/comments/16pwirb/exploring_the_future_of_ai_insights_from_industry/) , 2023-10-02-0910
+all -  [ Exploring the Future of AI: Insights from Industry Leaders and Innovations in Open-Source Tools ](https://www.reddit.com/r/ai_news_by_ai/comments/16pwirb/exploring_the_future_of_ai_insights_from_industry/) , 2023-10-03-0909
 ```
 
 
@@ -401,7 +401,7 @@ ecun/status/1705336411283415423](https://twitter.com/ylecun/status/1705336411283
 
      
  
-all -  [ Should I travel to a top conference for networking? ](https://www.reddit.com/r/AskAcademia/comments/16pj58l/should_i_travel_to_a_top_conference_for_networking/) , 2023-10-02-0910
+all -  [ Should I travel to a top conference for networking? ](https://www.reddit.com/r/AskAcademia/comments/16pj58l/should_i_travel_to_a_top_conference_for_networking/) , 2023-10-03-0909
 ```
 Hi Everyone,
 
@@ -422,7 +422,7 @@ ou attend the conference in this case?
 
      
  
-all -  [ [D] Can you go to NeurIPS workshops without presenting? ](https://www.reddit.com/r/MachineLearning/comments/16os3md/d_can_you_go_to_neurips_workshops_without/) , 2023-10-02-0910
+all -  [ [D] Can you go to NeurIPS workshops without presenting? ](https://www.reddit.com/r/MachineLearning/comments/16os3md/d_can_you_go_to_neurips_workshops_without/) , 2023-10-03-0909
 ```
 This year will be my first NeurIPS, and I see some cool workshops but don't have any work that would be a good fit for t
 hem. Can I just go and listen?
@@ -431,7 +431,7 @@ hem. Can I just go and listen?
 
      
  
-all -  [ TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/learnmachinelearning/comments/16oc9f2/timegan_doubt_on_generated_sequence/) , 2023-10-02-0910
+all -  [ TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/learnmachinelearning/comments/16oc9f2/timegan_doubt_on_generated_sequence/) , 2023-10-03-0909
 ```
 Hello everyone
 
@@ -461,7 +461,7 @@ can confirm/develop upon these thoughts I would be extremely grateful.
 
      
  
-all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 2023-10-02-0910
+all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 2023-10-03-0909
 ```
 I’m submitting to the workshop and was wondering if the papers there get published?
 ```
@@ -469,7 +469,7 @@ I’m submitting to the workshop and was wondering if the papers there get publi
 
      
  
-all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 2023-10-02-0910
+all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 2023-10-03-0909
 ```
 NeurIPS 2023 paper acceptance results are supposed to be released at 8 pm (CDT) on September 21. I thought to create a d
 iscussion thread for us to countdown and discuss any celebration/issue/complaint/feedback or anything else.
@@ -483,7 +483,7 @@ o matter what the final result is.
 
      
  
-all -  [ Profile Evaluation MSCS 2024 ](https://www.reddit.com/r/MSCS/comments/16m58hk/profile_evaluation_mscs_2024/) , 2023-10-02-0910
+all -  [ Profile Evaluation MSCS 2024 ](https://www.reddit.com/r/MSCS/comments/16m58hk/profile_evaluation_mscs_2024/) , 2023-10-03-0909
 ```
 Hi everyone, could you kindly help to advise on my choices given the following profile? Thank you so much!
 
@@ -554,7 +554,7 @@ bove? E.g. MS/PhD@UMass, MMath@Waterloo, MSCS@UCLA
 
      
  
-all -  [ Is it weird to send out cold emails asking professors for an opportunity to do a long-term self-fund ](https://www.reddit.com/r/AskAcademia/comments/16l25ha/is_it_weird_to_send_out_cold_emails_asking/) , 2023-10-02-0910
+all -  [ Is it weird to send out cold emails asking professors for an opportunity to do a long-term self-fund ](https://www.reddit.com/r/AskAcademia/comments/16l25ha/is_it_weird_to_send_out_cold_emails_asking/) , 2023-10-03-0909
 ```
 As the title suggests, I'm currently pursuing a CS PhD in China. However, I'm considering a different career path and ha
 ve decided to mastering out to pursue a PhD in the US. I'm aiming for a top 10-20 school in the field of computer scienc
@@ -576,7 +576,7 @@ out prior conversations? Which might appear that I am quite desperate.
 
      
  
-all -  [ [P] Guide: Implementing ImageNet classification using Deep CNNs Paper. ](https://www.reddit.com/r/MachineLearning/comments/16ilhcd/p_guide_implementing_imagenet_classification/) , 2023-10-02-0910
+all -  [ [P] Guide: Implementing ImageNet classification using Deep CNNs Paper. ](https://www.reddit.com/r/MachineLearning/comments/16ilhcd/p_guide_implementing_imagenet_classification/) , 2023-10-03-0909
 ```
 Need help on how to get started with implementing a research paper. I'm implementing the Imagenet classification task pa
 per for my final year undergrad mini-project. Any advice is appreciated on how to get started? I have mid-level machine 
@@ -590,7 +590,7 @@ c/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 
      
  
-all -  [ Profile Evaluation for MS in CS/ML/DS - Fall '24 ](https://www.reddit.com/r/MSCS/comments/16ibebe/profile_evaluation_for_ms_in_csmlds_fall_24/) , 2023-10-02-0910
+all -  [ Profile Evaluation for MS in CS/ML/DS - Fall '24 ](https://www.reddit.com/r/MSCS/comments/16ibebe/profile_evaluation_for_ms_in_csmlds_fall_24/) , 2023-10-03-0909
 ```
 Academic Profile
 
@@ -676,7 +676,7 @@ Wanted an evaluation of the unis and some suggestions for safe universities
 
      
  
-all -  [ Exploring the Landscape of AI: Developments, Challenges, and Future Prospects ](https://www.reddit.com/r/ai_news_by_ai/comments/16i9cbm/exploring_the_landscape_of_ai_developments/) , 2023-10-02-0910
+all -  [ Exploring the Landscape of AI: Developments, Challenges, and Future Prospects ](https://www.reddit.com/r/ai_news_by_ai/comments/16i9cbm/exploring_the_landscape_of_ai_developments/) , 2023-10-03-0909
 ```
 
 
@@ -876,7 +876,7 @@ ai/status/1702069747041399105)
 
      
  
-all -  [ What are the best venues for industry Data Scientists and ML practitioners to publish their work? ](https://www.reddit.com/r/datascience/comments/16i0roz/what_are_the_best_venues_for_industry_data/) , 2023-10-02-0910
+all -  [ What are the best venues for industry Data Scientists and ML practitioners to publish their work? ](https://www.reddit.com/r/datascience/comments/16i0roz/what_are_the_best_venues_for_industry_data/) , 2023-10-03-0909
 ```
 As a professional in the field, I've always targeted SIGKDD for publishing applied DS/ML work. I think SIGKDD is the top
  and most reputable in particular for industry practitioners, as opposed to academic researchers, who focus more on nove
@@ -890,7 +890,7 @@ her \*\*reputable\*\* conferences similar to KDD in this sense and allow for pub
 
      
  
-all -  [ Chances for Global Talent (exceptional promise) under peer review ](https://www.reddit.com/r/ukvisa/comments/16ewurq/chances_for_global_talent_exceptional_promise/) , 2023-10-02-0910
+all -  [ Chances for Global Talent (exceptional promise) under peer review ](https://www.reddit.com/r/ukvisa/comments/16ewurq/chances_for_global_talent_exceptional_promise/) , 2023-10-03-0909
 ```
 Hi everyone,
 
@@ -942,7 +942,7 @@ Thanks, everyone!
 
      
  
-all -  [ [D]What do people think about papers published in the NeurIPS dataset track in comparison to those p ](https://www.reddit.com/r/MachineLearning/comments/16cto3t/dwhat_do_people_think_about_papers_published_in/) , 2023-10-02-0910
+all -  [ [D]What do people think about papers published in the NeurIPS dataset track in comparison to those p ](https://www.reddit.com/r/MachineLearning/comments/16cto3t/dwhat_do_people_think_about_papers_published_in/) , 2023-10-03-0909
 ```
  I'm curious to learn about the perception of papers published in the NeurIPS dataset track in comparison to those publi
 shed in the main conference. Specifically, I'd like to know how both companies and Ph.D. committees view these papers. A
@@ -953,7 +953,7 @@ s and experiences would be greatly appreciated!
 
      
  
-all -  [ Profile Eval - Quant Trading to ML PhD ](https://www.reddit.com/r/gradadmissions/comments/16bamcs/profile_eval_quant_trading_to_ml_phd/) , 2023-10-02-0910
+all -  [ Profile Eval - Quant Trading to ML PhD ](https://www.reddit.com/r/gradadmissions/comments/16bamcs/profile_eval_quant_trading_to_ml_phd/) , 2023-10-03-0909
 ```
 Hello! I’ve been working a bit over a year in trading and now looking to fulfill my dream of getting a PhD and focusing 
 purely on research. Would love to get some feedback on how realistic the schools I’m looking at are given my background.
@@ -997,22 +997,7 @@ better research experience and stronger rec letters?
 
      
  
-all -  [ Publishing in a journal vs top conference for computational biology ](https://www.reddit.com/r/bioinformatics/comments/16a2wtg/publishing_in_a_journal_vs_top_conference_for/) , 2023-10-02-0910
-```
-My group has been able to create some novel, medium impact findings in the field of  'omics sequence labeling using dila
-ted networks.  We are considering on where we would like to send our results to.
-
-Since the work is highly within the in
-tersection of applied deep learning and computational biology, we are indecisive on whether to send our work towards a d
-eep learning confrerence (ICML, neurIPS, ICLR) or to send it to a traditional journal within this domain.  Additionally,
- there are some promising conferences within the machine learning and computational biology arising (MLCB).  How does on
-e pick between these options?
-```
----
-
-     
- 
-all -  [ [D] NeurIPS reviewers edited review and score after discussion period: can they delete their own rev ](https://www.reddit.com/r/MachineLearning/comments/1687luu/d_neurips_reviewers_edited_review_and_score_after/) , 2023-10-02-0910
+all -  [ [D] NeurIPS reviewers edited review and score after discussion period: can they delete their own rev ](https://www.reddit.com/r/MachineLearning/comments/1687luu/d_neurips_reviewers_edited_review_and_score_after/) , 2023-10-03-0909
 ```
 Hi, we have a paper submission to NeurIPS and we have two reviewers who changed their scores and review content silently
  by editing the original review comment and score after the discussion period. The edited review comment now discusses e
@@ -1026,37 +1011,6 @@ iscussion period, but the ones before the period is not shown)
 
 Can reviewers delete their own revision history in Ope
 nReview tool? I don’t know if this is a bug or they deleted them with an intention.
-```
----
-
-     
- 
-all -  [ [D] Am I the only one finding this a bit upsetting? ](https://www.reddit.com/r/MachineLearning/comments/167n0g0/d_am_i_the_only_one_finding_this_a_bit_upsetting/) , 2023-10-02-0910
-```
-Hello everyone,
-
-In the process of writing up a literature review for my master's thesis, I wanted to cover the impact o
-f ReLU on the field which was significant. When looking for an original paper I came across this paper/report: [https://
-arxiv.org/abs/1803.08375](https://arxiv.org/abs/1803.08375). There isn't anything special about this work and as a matte
-r of fact, I was surprised that it has thousands of citations (2974 at the moment of writing this post according to Goog
-le Scholar). Given this and that this work is not an original ReLU paper but more of a file documenting an implementatio
-n of it for a particular setup I found it quite intriguing. Then I started to dig into works that cited this and unexpec
-tedly papers from top conferences such as NeurIPS cited the aforementioned document as a reference to the activation fun
-ction. Here are some examples:
-
-1. [https://proceedings.neurips.cc/paper\_files/paper/2022/file/fbb10d319d44f8c3b4720873
-e4177c65-Paper-Conference.pdf](https://proceedings.neurips.cc/paper_files/paper/2022/file/fbb10d319d44f8c3b4720873e4177c
-65-Paper-Conference.pdf)
-2. [https://proceedings.neurips.cc/paper\_files/paper/2022/file/69e2f49ab0837b71b0e0cb7c555990f
-8-Paper-Conference.pdf](https://proceedings.neurips.cc/paper_files/paper/2022/file/69e2f49ab0837b71b0e0cb7c555990f8-Pape
-r-Conference.pdf)
-
-The researchers who have done that are not referencing the original ReLU paper instead which I think 
-is a bit disrespectful towards the achievement of original authors. On the other hand, maybe I am overthinking it a bit.
- ReLU has been around for a while and it would be surprising for someone conducting research in deep learning to not kno
-wing it hence as a reader I wouldn't necessarily mind if people did not include the reference to the paper which is wide
-ly known. However, I reckon if a reference is made, then it should be meaningful and correct, and not just another extra
- few lines in a bibliography making it look big.
 ```
 ---
 
