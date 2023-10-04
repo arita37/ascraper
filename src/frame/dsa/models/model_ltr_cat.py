@@ -13,7 +13,7 @@ import pandas as pd, numpy as np, cloudpickle as pickle
 
 from copy import deepcopy
 from catboost import CatBoostRanker, Pool
-from utilmy import pd_read_file, pd_to_file, log, log2
+from utilmy import pd_read_file, pd_to_file, log, log2, pd_generate_data2
 
 # Global variables
 global model
@@ -29,39 +29,22 @@ def reset():
     model = None
 
 
-def pd_generate(n_colnum=3, n_colcat=4, nrows=100, use_catstr=1):
-    np.random.seed(444)
-    # Numerical
-    df = pd.DataFrame()
-    for i in range(0, n_colnum):
-        df[f'num{i}'] = np.random.random(size=nrows)
 
-    # Categories
-    for i in range(0, n_colcat):
-        if use_catstr == 1:
-            catval = [str(i) for i in range(0, 1 + np.random.randint(20))]
-        else:
-            catval = [i for i in range(0, 1 + np.random.randint(20))]
-
-        df[f'cat{i}'] = np.random.choice(a=catval, size=nrows)
-
-    return df
-
-
+################################################################################
 def test():
     global model, session
     dirin = "ztmp/local/models/0_Extra/"
 
     # Use the new data generation function
-    dftrain = pd_generate(n_colnum=3, n_colcat=4, nrows=100, use_catstr=1)
-    dfval   = pd_generate(n_colnum=3, n_colcat=4, nrows=50, use_catstr=1)
+    dftrain = pd_generate_data2(n_colnum=3, n_colcat=4, nrows=100, use_catstr=1)
+    dfval   = pd_generate_data2(n_colnum=3, n_colcat=4, nrows=50, use_catstr=1)
     ytrain  = np.random.randint(0, 2, 100)
     yval    = np.random.randint(0, 2, 50)
 
 
     # Generate synthetic RankGroup data (you need to adjust this based on your specific data structure)
     Xtrain_rankgroup = np.array([0] * 50 + [1] * 50)  # Example: Two groups
-    Xtest_rankgroup  = np.array([0] * 25 + [1] * 25)    # Example: Two groups for validation
+    Xtest_rankgroup  = np.array([0] * 25 + [1] * 25)  # Example: Two groups for validation
 
     # Define the model parameters
     model_pars = {
