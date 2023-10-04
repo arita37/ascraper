@@ -37,14 +37,17 @@ def test():
 
     # Use the new data generation function
     dftrain = pd_generate_data2(n_colnum=3, n_colcat=4, nrows=100, use_catstr=1)
-    dfval   = pd_generate_data2(n_colnum=3, n_colcat=4, nrows=50, use_catstr=1)
     ytrain  = np.random.randint(0, 2, 100)
-    yval    = np.random.randint(0, 2, 50)
-
 
     # Generate synthetic RankGroup data (you need to adjust this based on your specific data structure)
     Xtrain_rankgroup = np.array([0] * 50 + [1] * 50)  # Example: Two groups
+
+
+    dfval   = pd_generate_data2(n_colnum=3, n_colcat=4, nrows=50, use_catstr=1)
+    yval    = np.random.randint(0, 2, 50)
+    # Generate synthetic RankGroup data (you need to adjust this based on your specific data structure)
     Xtest_rankgroup  = np.array([0] * 25 + [1] * 25)  # Example: Two groups for validation
+
 
     # Define the model parameters
     model_pars = {
@@ -117,7 +120,7 @@ def fit(Xtrain=None, ytrain=None, Xtest=None, ytest=None,
 
     # Fit the CatBoostRanker with ranking groups provided as 'group_id'
     train_pool = Pool(Xtrain, label=ytrain, group_id=Xtrain_rankgroup)
-    test_pool = Pool(Xtest, label=ytest, group_id=Xtest_rankgroup)
+    test_pool  = Pool(Xtest, label=ytest, group_id=Xtest_rankgroup)
     model.model.fit(train_pool, eval_set=test_pool, **compute_pars)
 
 def predict_all(Xpred=None, data_pars=None, compute_pars=None, out_pars=None, use_prepro=False, **kw):
