@@ -1,5 +1,118 @@
  
-all -  [ Profile Review for my second attempts in AI PhD (mastered out my current) ](https://www.reddit.com/r/gradadmissions/comments/174nkew/profile_review_for_my_second_attempts_in_ai_phd/) , 2023-10-11-0909
+all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-12-0908
+```
+ 
+
+In the fast-evolving realm of [machine learning](https://nearlearn.com/blog/top-10-machine-learning-training-institut
+e-bangalore/), staying up-to-date with the latest advancements is crucial. As the technology landscape constantly evolve
+s, it’s essential to keep pace with the newest trends, methodologies, and breakthroughs to remain relevant and competiti
+ve. This article provides a comprehensive guide on how to stay informed and at the forefront of the ever-changing field 
+of machine learning.
+
+### Why Staying Updated is Essential
+
+Before delving into strategies for staying current, let’s fi
+rst understand why it’s imperative to do so. Machine learning is a dynamic and innovative domain, and advancements occur
+ at a breakneck pace. Here are a few reasons why staying updated is crucial:
+
+1. Competitive Edge: In a highly competiti
+ve job market, professionals who are well-versed in the latest developments in machine learning have a significant advan
+tage. Cutting-edge knowledge can make you stand out among your peers.
+2. Relevance: Machine learning models, tools, and 
+techniques quickly become outdated. By staying current, you ensure your skills and knowledge are relevant, avoiding obso
+lescence.
+3. Innovation: The latest advancements often lead to new applications and possibilities. Staying updated enabl
+es you to be at the forefront of innovation, allowing you to create groundbreaking solutions.
+
+### Leveraging Online Res
+ources
+
+### 1. Online Courses and Tutorials
+
+To keep abreast of the latest in machine learning, consider enrolling in on
+line courses and tutorials. Websites like Coursera, edX, and Udacity offer a plethora of courses taught by experts in th
+e field.
+
+### 2. Blogs and Forums
+
+Following [machine learning](https://nearlearn.com/machine-learning-classroom-trainin
+g-in-bangalore-india) blogs and participating in relevant forums is another effective way to stay updated. Websites like
+ Towards Data Science and Kaggle provide valuable insights, discussions, and community support.
+
+### 3. YouTube and Podc
+asts
+
+Visual and auditory learners can benefit from machine learning YouTube channels and podcasts. These platforms offe
+r engaging content from industry experts, often in a digestible format.
+
+### 4. Social Media
+
+Platforms like Twitter and
+ LinkedIn are excellent for following influential figures and organizations in the machine learning space. Regularly che
+cking your social media feeds can keep you informed about the latest news, research, and trends.
+
+&#x200B;
+
+https://prev
+iew.redd.it/z85dalvu4itb1.png?width=1200&format=png&auto=webp&s=21413a440d23fcce49c4b203445b0b8693169126
+
+**Read More** 
+: [Everything You Need To Know About Machine Learning In 2023](https://nearlearn.com/blog/everything-you-need-to-know-ab
+out-machine-learning-in-2023/)
+
+### Attending Conferences and Meetups
+
+1. Machine Learning Conferences: Attending confer
+ences like NeurIPS, ICML, and ICLR provides an opportunity to learn from thought leaders and connect with peers. These e
+vents showcase the most recent research and developments in the field.
+2. Local Meetups: Joining machine learning meetup
+s in your area can help you stay updated on local developments and network with professionals who share your interests.
+
+
+### Academic Journals and Publications
+
+1. Research Papers: Regularly reading academic journals and research papers is 
+essential for a deep understanding of the latest advancements. Websites like ArXiv and Google Scholar are valuable resou
+rces.
+2. Books: Explore textbooks and publications by experts in machine learning. These provide comprehensive insights 
+and foundational knowledge.
+
+### Hands-On Learning
+
+1. Personal Projects: Applying your knowledge through personal proje
+cts allows you to experiment with new concepts and techniques. It’s an excellent way to gain practical experience with t
+he latest advancements.
+2. Competitions: Participate in machine learning competitions on platforms like Kaggle. These co
+mpetitions often involve cutting-edge challenges that push your skills to the limit.
+
+### Networking and Collaboration
+
+
+1. Join Professional Networks: Being part of professional organizations like the Association for Computing Machinery (AC
+M) or the Institute of Electrical and Electronics Engineers (IEEE) can help you connect with experts in the field.
+2. Co
+llaborate with Peers: Collaborative projects with colleagues and peers can expose you to different perspectives and inno
+vative ideas.
+
+### Continuous Learning
+
+The field of machine learning is characterized by constant change. To stay ahead
+, it’s crucial to embrace a mindset of continuous learning. Regularly set aside time for self-improvement, be it through
+ online courses, conferences, or personal projects.
+
+### In Conclusion
+
+Staying updated with the latest advancements in 
+machine learning is vital for personal and professional growth. In this dynamic field, knowledge is power, and being wel
+l-informed can open doors to exciting opportunities and innovations. By leveraging online resources, attending conferenc
+es, reading academic publications, engaging in hands-on learning, and building a network of like-minded individuals, you
+ can ensure that you’re always at the forefront of this ever-evolving field.
+```
+---
+
+     
+ 
+all -  [ Profile Review for my second attempts in AI PhD (mastered out my current) ](https://www.reddit.com/r/gradadmissions/comments/174nkew/profile_review_for_my_second_attempts_in_ai_phd/) , 2023-10-12-0908
 ```
 **Area of Interest:** RL + NLP + Multi-agent
 
@@ -92,7 +205,7 @@ nt/advice is greatly appreciated.
 
      
  
-all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-11-0909
+all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-12-0908
 ```
 I am a final year PhD student in France working on privacy and  fairness topics in deep neural networks. My publication 
 record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS).  Recently, I've been applying to data sc
@@ -110,7 +223,7 @@ Resume - [https://i.imgur.com/x2IavdR.jpg](https://i.imgur.com/x2IavdR.jpg)
 
      
  
-all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-11-0909
+all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-12-0908
 ```
 I am currently a final year PhD student in France working on privacy and fairness topics in deep neural networks. My pub
 lication record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS). Recently, I've been applying to
@@ -125,7 +238,7 @@ Resume - https://i.imgur.com/x2IavdR.jpg
 
      
  
-all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-11-0909
+all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-12-0908
 ```
 Hey there!
 
@@ -141,7 +254,7 @@ Thank you very much!
 
      
  
-all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-11-0909
+all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-12-0908
 ```
 Hi all,
 
@@ -187,7 +300,7 @@ Thank you in advance!
 
      
  
-all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-11-0909
+all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-12-0908
 ```
 
 ```
@@ -195,7 +308,7 @@ all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Plann
 
      
  
-all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-11-0909
+all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-12-0908
 ```
 I am applying for fall 2024 for both MS and PhD in CS, with specialization in ML (NLP, Speech)
 
@@ -239,7 +352,7 @@ ersities provide decent chance of landing funding in form of TA/RA, this is impo
 
      
  
-all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-11-0909
+all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-12-0908
 ```
 Hello. I am an international masters student in the US, applying for software engineering internships, but I haven't had
  any luck getting interviews so far. It turns out that I had been formatting my resume in a way that is not the norm her
@@ -260,7 +373,7 @@ https://preview.redd.it/5thjr5viwuqb1.png?width=1344&format=png&auto=webp&s=0bab
 
      
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-11-0909
+all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-12-0908
 ```
  Academic Profile
 
@@ -356,7 +469,7 @@ over up)
 
      
  
-all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-11-0909
+all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-12-0908
 ```
 About to finish my PhD in a specific application of ML. The university is a pretty famous French institution, but withou
 t much AI/ML prestige right now. I have a bunch of publications in industry specific conferences/journals, but no NeurIP
@@ -380,7 +493,7 @@ e through the resume screening stage?
 
      
  
-all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-11-0909
+all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-12-0908
 ```
 I have an accepted paper in NEURIPS 2023, which will be held in Dec 2023.
 
@@ -406,7 +519,7 @@ reatly appreciate help.
 
      
  
-all -  [ Exploring the Future of AI: Insights from Industry Leaders and Innovations in Open-Source Tools ](https://www.reddit.com/r/ai_news_by_ai/comments/16pwirb/exploring_the_future_of_ai_insights_from_industry/) , 2023-10-11-0909
+all -  [ Exploring the Future of AI: Insights from Industry Leaders and Innovations in Open-Source Tools ](https://www.reddit.com/r/ai_news_by_ai/comments/16pwirb/exploring_the_future_of_ai_insights_from_industry/) , 2023-10-12-0908
 ```
 
 
@@ -589,7 +702,7 @@ ecun/status/1705336411283415423](https://twitter.com/ylecun/status/1705336411283
 
      
  
-all -  [ Should I travel to a top conference for networking? ](https://www.reddit.com/r/AskAcademia/comments/16pj58l/should_i_travel_to_a_top_conference_for_networking/) , 2023-10-11-0909
+all -  [ Should I travel to a top conference for networking? ](https://www.reddit.com/r/AskAcademia/comments/16pj58l/should_i_travel_to_a_top_conference_for_networking/) , 2023-10-12-0908
 ```
 Hi Everyone,
 
@@ -610,7 +723,7 @@ ou attend the conference in this case?
 
      
  
-all -  [ [D] Can you go to NeurIPS workshops without presenting? ](https://www.reddit.com/r/MachineLearning/comments/16os3md/d_can_you_go_to_neurips_workshops_without/) , 2023-10-11-0909
+all -  [ [D] Can you go to NeurIPS workshops without presenting? ](https://www.reddit.com/r/MachineLearning/comments/16os3md/d_can_you_go_to_neurips_workshops_without/) , 2023-10-12-0908
 ```
 This year will be my first NeurIPS, and I see some cool workshops but don't have any work that would be a good fit for t
 hem. Can I just go and listen?
@@ -619,7 +732,7 @@ hem. Can I just go and listen?
 
      
  
-all -  [ TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/learnmachinelearning/comments/16oc9f2/timegan_doubt_on_generated_sequence/) , 2023-10-11-0909
+all -  [ TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/learnmachinelearning/comments/16oc9f2/timegan_doubt_on_generated_sequence/) , 2023-10-12-0908
 ```
 Hello everyone
 
@@ -649,7 +762,7 @@ can confirm/develop upon these thoughts I would be extremely grateful.
 
      
  
-all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 2023-10-11-0909
+all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 2023-10-12-0908
 ```
 I’m submitting to the workshop and was wondering if the papers there get published?
 ```
@@ -657,7 +770,7 @@ I’m submitting to the workshop and was wondering if the papers there get publi
 
      
  
-all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 2023-10-11-0909
+all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 2023-10-12-0908
 ```
 NeurIPS 2023 paper acceptance results are supposed to be released at 8 pm (CDT) on September 21. I thought to create a d
 iscussion thread for us to countdown and discuss any celebration/issue/complaint/feedback or anything else.
@@ -671,7 +784,7 @@ o matter what the final result is.
 
      
  
-all -  [ Profile Evaluation MSCS 2024 ](https://www.reddit.com/r/MSCS/comments/16m58hk/profile_evaluation_mscs_2024/) , 2023-10-11-0909
+all -  [ Profile Evaluation MSCS 2024 ](https://www.reddit.com/r/MSCS/comments/16m58hk/profile_evaluation_mscs_2024/) , 2023-10-12-0908
 ```
 Hi everyone, could you kindly help to advise on my choices given the following profile? Thank you so much!
 
@@ -742,7 +855,7 @@ bove? E.g. MS/PhD@UMass, MMath@Waterloo, MSCS@UCLA
 
      
  
-all -  [ Is it weird to send out cold emails asking professors for an opportunity to do a long-term self-fund ](https://www.reddit.com/r/AskAcademia/comments/16l25ha/is_it_weird_to_send_out_cold_emails_asking/) , 2023-10-11-0909
+all -  [ Is it weird to send out cold emails asking professors for an opportunity to do a long-term self-fund ](https://www.reddit.com/r/AskAcademia/comments/16l25ha/is_it_weird_to_send_out_cold_emails_asking/) , 2023-10-12-0908
 ```
 As the title suggests, I'm currently pursuing a CS PhD in China. However, I'm considering a different career path and ha
 ve decided to mastering out to pursue a PhD in the US. I'm aiming for a top 10-20 school in the field of computer scienc
@@ -764,7 +877,7 @@ out prior conversations? Which might appear that I am quite desperate.
 
      
  
-all -  [ [P] Guide: Implementing ImageNet classification using Deep CNNs Paper. ](https://www.reddit.com/r/MachineLearning/comments/16ilhcd/p_guide_implementing_imagenet_classification/) , 2023-10-11-0909
+all -  [ [P] Guide: Implementing ImageNet classification using Deep CNNs Paper. ](https://www.reddit.com/r/MachineLearning/comments/16ilhcd/p_guide_implementing_imagenet_classification/) , 2023-10-12-0908
 ```
 Need help on how to get started with implementing a research paper. I'm implementing the Imagenet classification task pa
 per for my final year undergrad mini-project. Any advice is appreciated on how to get started? I have mid-level machine 
@@ -778,7 +891,7 @@ c/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf)
 
      
  
-all -  [ Profile Evaluation for MS in CS/ML/DS - Fall '24 ](https://www.reddit.com/r/MSCS/comments/16ibebe/profile_evaluation_for_ms_in_csmlds_fall_24/) , 2023-10-11-0909
+all -  [ Profile Evaluation for MS in CS/ML/DS - Fall '24 ](https://www.reddit.com/r/MSCS/comments/16ibebe/profile_evaluation_for_ms_in_csmlds_fall_24/) , 2023-10-12-0908
 ```
 Academic Profile
 
@@ -864,7 +977,7 @@ Wanted an evaluation of the unis and some suggestions for safe universities
 
      
  
-all -  [ Exploring the Landscape of AI: Developments, Challenges, and Future Prospects ](https://www.reddit.com/r/ai_news_by_ai/comments/16i9cbm/exploring_the_landscape_of_ai_developments/) , 2023-10-11-0909
+all -  [ Exploring the Landscape of AI: Developments, Challenges, and Future Prospects ](https://www.reddit.com/r/ai_news_by_ai/comments/16i9cbm/exploring_the_landscape_of_ai_developments/) , 2023-10-12-0908
 ```
 
 
@@ -1064,7 +1177,7 @@ ai/status/1702069747041399105)
 
      
  
-all -  [ What are the best venues for industry Data Scientists and ML practitioners to publish their work? ](https://www.reddit.com/r/datascience/comments/16i0roz/what_are_the_best_venues_for_industry_data/) , 2023-10-11-0909
+all -  [ What are the best venues for industry Data Scientists and ML practitioners to publish their work? ](https://www.reddit.com/r/datascience/comments/16i0roz/what_are_the_best_venues_for_industry_data/) , 2023-10-12-0908
 ```
 As a professional in the field, I've always targeted SIGKDD for publishing applied DS/ML work. I think SIGKDD is the top
  and most reputable in particular for industry practitioners, as opposed to academic researchers, who focus more on nove
@@ -1073,58 +1186,6 @@ yed systems and domain specific applications, rather than purely novel discoveri
 
 My question is whether there are ot
 her \*\*reputable\*\* conferences similar to KDD in this sense and allow for publishing?
-```
----
-
-     
- 
-all -  [ Chances for Global Talent (exceptional promise) under peer review ](https://www.reddit.com/r/ukvisa/comments/16ewurq/chances_for_global_talent_exceptional_promise/) , 2023-10-11-0909
-```
-Hi everyone,
-
-I am a research scientist working in one of the FAANG companies in the US. I did my undergrad and PhD in t
-he UK (both at Oxford/Cambridge). I've worked a while for my current employer but got a bit fed up with the Bay Area & b
-ecause of personal reasons I want to move back to the UK, either via an internal transfer (my company has a large resear
-ch presence in the UK) or, if that's not possible, finding a new job. I got my eyes on the global talent programme, and 
-since I will most likely be working as a researcher in industry rather than academia, I don't think any of the fast-trac
-k routes would apply and 'peer review' (in my case through RAEng) seems to be the only choice. I've not seen many data p
-oints on how high the bar is through this route (unlike the US EB-1 route, where tons of data are available), though, so
- I think it's a good idea to gather wisdom from Reddit to see how likely I'll be granted that visa, before more commitme
-nt like getting a lawyer. Any advice is extremely appreciated!
-
-&#x200B;
-
-**About me:**
-
-\- integrated masters & PhD wit
-h scholarship in AI/ML (Oxbridge)
-
-\- 1-2 yr work experience at one of the major US tech companies (think Alphabet / Met
-a / Amazon) in California
-
-\- \~20 papers (first/co-first author in half of them); around 15 published in top conference
-s (NeurIPS/ICML/ICLR/ACL etc. if you are familiar with AI/ML venues)  & journals -- note that in Computer science in gen
-eral, conferences are the primary venue in contrast to journals. I have also served as a peer reviewer in these venues (
-reviewed >50 papers).
-
-\- \~400 citations according to Google Scholar, although half of the papers are published fairly 
-recently (<1 year) -- hopefully citations will catch up later.
-
-\- Good chance of getting a recommendation letter from s
-ome big guy (think a Fellow of RAEng level) at my old lab in the UK.
-
-\- Have been and will still be active in research 
-(publishing papers, etc.) even though I'm working in the industry.
-
-&#x200B;
-
-A side question is: it seems that getting 
-sponsored by RAEng would allow me to get ILR in 3 years even under 'exceptional promise' -- would that be true in my cas
-e as well, even though I'm not conducting research in academia?
-
-&#x200B;
-
-Thanks, everyone!
 ```
 ---
 
