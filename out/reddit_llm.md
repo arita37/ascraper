@@ -1,5 +1,380 @@
  
-all -  [ Routing traffic through Custom Chains. Possible Bug. ](https://www.reddit.com/r/LangChain/comments/177c1ds/routing_traffic_through_custom_chains_possible_bug/) , 2023-10-14-0909
+all -  [ Too possible to be enjoyable ](https://www.reddit.com/r/Mission_Impossible/comments/177wrh7/too_possible_to_be_enjoyable/) , 2023-10-15-0910
+```
+Spoilers!
+Tech nerds only
+
+The movie premise is too possible to be fun. 
+
+Today a vast amount of computing power is need
+ed to train and run AI models. ChatGPT is currently far smarter than any humans or group of humans.  It will be 10x smar
+ter in 3 years..
+
+
+
+At the same time viruses have been designed as weapons of nations (including successful US deploymen
+ts) talking to computer security experts, he best viruses are impossible to detect and eliminate. 
+
+Development environm
+ents like langchain give AI models access and do anything on the internet today. 
+
+Once such a federated entity is relea
+sed, invades secure computers ( as they said in the movie humans are the weakest link in security) the entity would abso
+rb all the nastiest code and tricks. 
+
+I think it is extremely likely that baby versions of the entity has already been 
+released. Perhaps by the us, russia, china, or a 15 year old in their basement. 
+
+The only barrier we have now is slow n
+etwork communication for federated entities. But 5g and fiber, and starlink are solving that chokepoint. 
+
+This movie is
+ like watching a docudrama  about the last days of hummanity as produced by the entity in 10 years after the entity rele
+ases covid3.0 on humanity from some government sponsored lab and wipes us from the face of the earth…
+```
+---
+
+     
+ 
+all -  [ Need help with an Agent with custom tools ](https://www.reddit.com/r/LangChain/comments/177wn7k/need_help_with_an_agent_with_custom_tools/) , 2023-10-15-0910
+```
+I need some help in implementing async custom tools in my agent. If you have developed such agent and can help me out, p
+lease comment below.  I'll share more details in the DM.
+
+Thanks.
+```
+---
+
+     
+ 
+all -  [ Including extra column with add_documents ](https://www.reddit.com/r/LangChain/comments/177q13x/including_extra_column_with_add_documents/) , 2023-10-15-0910
+```
+Hi all. I have a vectors table in Supabase to which documents are being added via the add_documents method. But there's 
+an extra column that I have in the table that I'd like to add data to when I'm inserting vectors. How can I do this if u
+sing add_doccuments?
+```
+---
+
+     
+ 
+all -  [ [Absolute newb] Help understanding where to focus with tuning and improving response quality ](https://www.reddit.com/r/LangChain/comments/177pmo0/absolute_newb_help_understanding_where_to_focus/) , 2023-10-15-0910
+```
+Hello! As someone completely new to LLMs and AI (but not new to programming/IT), can I get some advice on where I can fo
+cus to improve the results I'm getting? I'm looking to understand the underlying concepts of where my problems might be;
+ the problem I have right now is that I've got things 'working,' but the results are really poor in quality, and the lan
+dscape is so vast I don't even know what to focus on.
+
+As a first project, I decided to take the Plot Synopsis of variou
+s films on IMDb. Each of these is around 10,000 characters in length, so I dumped each in a .txt file, and set up a pg\_
+vector vectorstore, and added them all to the same collection.
+
+All queries are with OpenAI, a temperature of 0, and usi
+ng gpt-4.
+
+\----------------------------------------------------
+
+I started with The Matrix. I loaded one file, and thro
+ugh RetrievalQA was able to query about the contents of the story.
+
+* 'Who is the main character of The Matrix?' --> Neo
+. Check.
+* 'Summarize the plot of The Matrix in 5 sentences.' --> 'The Matrix is about humans trapped in a simulation...
+.......' Check.
+* 'What is Neo's day-job?' --> A programmer at a software company. Check.
+
+But then:
+
+* 'Please describe
+ Neo's appearance.' --> 'Thick black hair, a sallow appearance, and with a tattoo of a white rabbit on his shoulder.' --
+> Huh???
+
+The description of his appearance in the source comes from the same paragraph:
+
+>Thomas Anderson, aka 'Neo' (K
+eanu Reeves), a hacker with thick `black hair and a sallow appearance`, is asleep at his monitor. Notices about a manhun
+t for a man named Morpheus scroll across his screen as he sleeps. Suddenly Neo's screen goes blank and a series of text 
+messages appear: 'Wake up, Neo.' 'The Matrix has you.' 'Follow the White Rabbit.' Then, the text says 'Knock, knock, Neo
+...' just as he reads it, a knock comes at the door of his apartment, 101. It's a group of ravers and Neo gives them a c
+ontraband disc he has secreted in a copy of 'Simulacra and Simulation.' The lead raver asks him to join them and Neo dem
+urs until he sees `the tattoo of a small white rabbit on the shoulder of a seductive girl`  in the group.
+
+The source te
+xt is quite clear that the tattoo belongs to someone else, so I can't figure out why the AI is telling me that the tatto
+o belongs to Neo. What concepts or areas would I focus on in order to improve this?
+
+\----------------------------------
+------------------
+
+Then, I added multiple additional films, like Spider-Man, Indiana Jones, etc. all into the same coll
+ection of the pg\_vector vectorstore.
+
+When questioned about a specific film, it does a good job of narrowing in on just
+ that part of the collection. 'How does Indiana Jones and the Last Crusade end?' --> great summary about riding off into
+ the sunset of finding and losing the grail.
+
+But then any queries that \*cross\* multiple films, it's totally unable to
+ handle. Examples:
+
+* The data collection has 5 films in it, but when asked, 'How many films are you aware of?', the mos
+t it's ever aware of is 2.
+* When asked to make comparisons between films, it will always say it's missing the synopsis 
+for one of the two films. i.e. 'Are there any thematic similarities between Spider-Man and Indiana Jones?' --> 'I'm sorr
+y, but I'm not aware of any films called Indiana Jones.'
+
+I have some novice suspicions (I've only been working with thi
+s for three days...), the major of which is that in order to do a full comparison of two films involves sending all chun
+ks of both films, which is too much for a single request, or something along those lines, it's not able to properly narr
+ow down the chunks before sending, or something.
+
+Obviously this *can* be done, because those same questions work just f
+ine in 'real' ChatGPT. I think this boils down to (probably), 'uh, you've uploaded 10,000 characters about The Matrix, w
+hereas the ChatGPT foundational model has probably 100x that amount of information assimilated on The Matrix across 100x
+ other sources.' And as a novice, at first glance, I think, 'yeah that makes sense...' But then I think about it more, a
+nd actually since that's most likely the case, wouldn't that be even \*more\* chunks/collections for ChatGPT to go throu
+gh? Is this where like 'training' comes in? Like if I want a true 'bot' to be able to speak to the details I want, do I 
+have to like, give it more data and 'train' it somewhere (somehow)? Right now I've just pointed it at some chunked up ra
+w text.
+
+Ahhhh, my brain is tired :) Thanks in advance for the help.
+```
+---
+
+     
+ 
+all -  [ Methodology for Tracking Client Details in a Natural Language Bot using Langchain and RAG ](https://www.reddit.com/r/LangChain/comments/177oi3y/methodology_for_tracking_client_details_in_a/) , 2023-10-15-0910
+```
+
+Hello,
+
+We are building a chatbot using Langchain that aims to gather multiple pieces of information (e.g., name, addre
+ss, TV type, malfunction description, etc.) from the client. The bot also needs to respond to any queries the client mig
+ht have, using a Retriever-Augmented Generation (RAG) model.
+
+We've considered simply using a system template to keep tr
+ack of which details the client has already provided, but this seems inadequate for a fluid and natural conversation.
+
+W
+hat methodology would be best for tracking which details the client has already filled in and what questions we need to 
+ask next, while still allowing for a natural language conversation?
+
+Any advice or pointers would be highly appreciated.
+
+
+Thank you!
+```
+---
+
+     
+ 
+all -  [ AI conference happening in San Francisco: 100% off on the ticket price! ](https://www.reddit.com/r/ArtificialInteligence/comments/177ngy6/ai_conference_happening_in_san_francisco_100_off/) , 2023-10-15-0910
+```
+I work for this database company SingleStore and we are hosting a Data and AI conference in San Francisco on 17th of Oct
+ober, 2023.  
+It is an in-person conference with amazing speakers line-up like Harrison Chase, co-founder and CEO of Lan
+gChain and many more. We will have hands-on workshops, swags giveaway and much more.  
+I don't know if it makes sense to
+ share this but I believe it might help some of you near San Francisco to go and meet the industry leaders and network w
+ith other data engineering folks.  
+Use my discount coupon code 'PAVAN100OFF' to avail 100% off on the ticket price. (th
+e original ticket price is $199)
+
+  
+[Get your tickets now!](https://singlestore.com/now) using 'PAVAN100OFF' discount c
+ode. 
+```
+---
+
+     
+ 
+all -  [ Data & Analytics conference happening in San Francisco: 100% off on the ticket price! ](https://www.reddit.com/r/dataanalysis/comments/177n2kh/data_analytics_conference_happening_in_san/) , 2023-10-15-0910
+```
+I work for this database company SingleStore and we are hosting a Data and AI conference in San Francisco on 17th of Oct
+ober, 2023.
+
+It is an in-person conference with amazing speakers line-up like Harrison Chase, co-founder and CEO of Lang
+Chain and many more. We will have hands-on workshops, swags giveaway and much more.
+
+I don't know if it makes sense to s
+hare this but I believe it might help some of you near San Francisco to go and meet the industry leaders and network wit
+h other data engineering folks.
+
+Use my discount coupon code 'PAVAN100OFF' to avail 100% off on the ticket price. (the o
+riginal ticket price is $199)
+
+[Get your tickets now!](https://singlestore.com/now)
+```
+---
+
+     
+ 
+all -  [ Chatbot using Langchain to integrate LLM with MongoDB memory and LangSmith to tracing LLM calls. ](https://github.com/btrcm00/chatbot-with-langchain) , 2023-10-15-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ How can i use extracted keyword before ElasticSearch Querying? ](https://www.reddit.com/r/LangChain/comments/177mcmc/how_can_i_use_extracted_keyword_before/) , 2023-10-15-0910
+```
+hello.
+
+I am creating a vector search-based chatbot using langchain, openai, and elasticsearch.
+
+&#x200B;
+
+We have imple
+mented retrieving the most relevant documents in elasticsearch based on the current user's search.
+
+&#x200B;
+
+Going furt
+her, we want to add various conditions to the elasticsearch search query by extracting structured data from the user's q
+uery before searching in elasticsearch for higher accuracy.
+
+&#x200B;
+
+For example, the user's search query is 'Which Fo
+rd pickup trucks are under $35,000?' In this case, the keywords below should be extracted.
+
+&#x200B;
+
+company: Ford
+
+typ
+e: pickup trucks
+
+maximum price: 35000
+
+&#x200B;
+
+After going through the logic of converting this keyword into an Elast
+icsearch query (this part will need to be implemented separately), the content below is added to the Elasticsearch searc
+h query.
+
+`{ 'term': { 'brand': 'Ford' } },` 
+
+`{ 'term': { 'type': 'pickup' } },` 
+
+`{ 'range': { 'price': { 'lt': 3500
+0 } } }`
+
+&#x200B;
+
+I found a library called Kor in LangChain's extract document, and after testing it, I got satisfacto
+ry results. However, if you use this library, openAi API will be called twice per user search. (extract 1 time, result g
+eneration 1 time)
+
+&#x200B;
+
+Is it best to call openAi api twice using Kor?
+
+&#x200B;
+
+Also, there seems to be a way to 
+use SelfQueryRetriever among retrievers.
+
+However, I am currently using CustomRetriever, which inherits BaseRetriever, t
+o use ElasticSearch custom queries.
+
+&#x200B;
+
+Can I use SelfQueryRetriever in CustomRetriever?
+```
+---
+
+     
+ 
+all -  [ Need help with retrieving comprehensive results from multiple documents using GPTVectorStoreIndex ](https://www.reddit.com/r/LangChain/comments/177k795/need_help_with_retrieving_comprehensive_results/) , 2023-10-15-0910
+```
+I have a collection of scientific documents related to a specific plant, extracted from PDFs and stored in JSON and CSV 
+formats. I'm using the following code to load all these documents: 
+```
+for dir_path in all_dirs:
+    dir_reader = Simpl
+eDirectoryReader(dir_path, file_extractor={
+        '.csv': PandasCSVReader(),
+        '.json': JSONReader()
+    })
+    
+docs.extend(dir_reader.load_data())
+
+```
+
+After loading, I create an index and query it:
+
+
+```
+index = GPTVectorStoreInd
+ex.from_documents(docs, service_context=service_context)
+query_engine = load_index_from_storage(storage_context).as_quer
+y_engine(similarity_top_k=4)
+response = query_engine.query(input_text)
+
+```
+The issue is that the query always returns a
+ single response from just one document that best matches my query. However, I know that other documents contain more re
+levant information about the plant. How can I modify my approach to retrieve comprehensive results from all relevant doc
+uments in my index?
+```
+---
+
+     
+ 
+all -  [ AI powered by Streamlit ](https://www.reddit.com/r/Streamlit/comments/177jxq2/ai_powered_by_streamlit/) , 2023-10-15-0910
+```
+I love streamlit + langchain
+
+This experiment will verify different use cases of LLM using LangChain, which include chat
+, role-playing, and document-based QA.
+
+https://github.com/coolbeevip/langchain-lab
+```
+---
+
+     
+ 
+all -  [ OpsTower.ai - AWS CLI AI Assistant ... AMA ](https://www.reddit.com/r/OpenAIDev/comments/177d527/opstowerai_aws_cli_ai_assistant_ama/) , 2023-10-15-0910
+```
+I've always struggled to remember the AWS CLI syntax and hate using the AWS console. After months of toil on my first AI
+ project, I've released [OpsTower.ai, a free DevOps AI Assistant](https://github.com/opstower-ai/llm-opstower). OpsTower
+.ai can answer questions about your AWS resources and perform calculations on cloudwatch metrics from the command line.
+
+
+You can try it in demo mode too (don't need to trust me with your AWS creds 😉). See [https://github.com/opstower-ai/llm
+-opstower](https://github.com/opstower-ai/llm-opstower) for full details.
+
+I've also blogged a bit about my experiencing
+ building the agent:
+
+1. [Streamlining RAG evaluation](https://dlite.cc/2023/10/04/2023-eval-rag-apps.html)
+2. [Beyond d
+emoware: how do you evaluate an AI agent?](https://www.opstower.ai/2023-evaluating-ai-agents/) (also covers the agent ar
+chitecture using openai function calls)
+
+Learning how to interact w/AWS has been a great starter project to see what's p
+ossible. I'd like to teach it to perform tedious DevOps tasks for me.
+
+Also, here are some example questions you try:
+
+ 
+   llm 'list each ec2 instance id, name, state, last restart, image, and size'
+    llm 'What is the average CPU utilizat
+ion of my EC2 instances?'
+    llm 'breakdown bill by aws service over the past 30 days'
+
+I wrote the agent in Ruby using
+ the openai-ruby gem. I originally started with Python and Langchain, but found the abstractions really difficult. I was
+ happy with the direction of rolling my own code.
+
+Happy to answer any questions about the sometimes maddening experienc
+e of trying to make an agent robust enough to share.
+```
+---
+
+     
+ 
+all -  [ Routing traffic through Custom Chains. Possible Bug. ](https://www.reddit.com/r/LangChain/comments/177c1ds/routing_traffic_through_custom_chains_possible_bug/) , 2023-10-15-0910
 ```
 I am trying to use a MultiPromptChain to redirect traffic through some custom chains. 
 
@@ -20,7 +395,7 @@ sn't made more clear.
 
      
  
-all -  [ Not acknowledging custom function ](https://www.reddit.com/r/LangChain/comments/177bc6j/not_acknowledging_custom_function/) , 2023-10-14-0909
+all -  [ Not acknowledging custom function ](https://www.reddit.com/r/LangChain/comments/177bc6j/not_acknowledging_custom_function/) , 2023-10-15-0910
 ```
 Hey everyone!
 
@@ -56,52 +431,44 @@ response = agent(query)
 
      
  
-all -  [ AI-powered Real-time Trend Reporting | In Seconds ](https://youtu.be/HckZGWeQRrY) , 2023-10-14-0909
-```
-
-```
----
-
-     
- 
-all -  [ How businesses can use GPT with their own data ](https://www.reddit.com/r/Entrepreneur/comments/1777x94/how_businesses_can_use_gpt_with_their_own_data/) , 2023-10-14-0909
+all -  [ How businesses can use GPT with their own data ](https://www.reddit.com/r/Entrepreneur/comments/1777x94/how_businesses_can_use_gpt_with_their_own_data/) , 2023-10-15-0910
 ```
 There’s many business use cases for a custom chat interface like ChatGPT, but using the company’s own internal content a
 s the source. Think company policies, documents, project resources, etc.
 
-I’ve been wrapping head around, and building, 
-GPT projects for the past 2 years (software dev of 7 years). Always learning, but what I’m sharing is basically the stan
-dard approach to create a custom ChatGPT-like application that you can add your own data to.
+I’ve been wrapping my head around, and buildin
+g, GPT projects for the past 2 years (software dev of 7 years). Always learning, but what I’m sharing is basically the s
+tandard approach to create a custom ChatGPT-like application that you can add your own data to.
 
-If you know how to program
-, you could explore Open Source libraries like LangChain to handle processing of custom data. It’s a free program that m
-akes the process of interacting with different LLMs easier. Next you’ll want to connect it to a vector database to make 
-the processed data available for referencing, and finally OpenAI’s API for the LLM generations (or your LLM of choice).
-
+If you know how to prog
+ram, you could explore Open Source libraries like LangChain to handle processing of custom data. It’s a free program tha
+t makes the process of interacting with different LLMs easier. Next you’ll want to connect it to a vector database to ma
+ke the processed data available for referencing, and finally OpenAI’s API for the LLM generations (or your LLM of choice
+).
 
 Regardless of the solution you choose, how all this works from a technical perspective is:
 
-1. You need to break up any
- large text content into smaller pieces. This process is called chunking. You do this to later make each chunk searchabl
-e in the vector database.
-2. ⁠You’ll want to vectorize each chunk and add this vector into a database. By doing this, yo
-u can embed (vectorize) natural language to search the vector database for relevant chunks.
-3. With the returned chunks,
- you can combine them all (within respects to the context window limit of the LLM of choice), and now your generated res
-ponse will contain the information it needs to give you an accurate output.
+1. You need to break up 
+any large text content into smaller pieces. This process is called chunking. You do this to later make each chunk search
+able in the vector database.
+2. ⁠You’ll want to vectorize each chunk and add this vector into a database. By doing this,
+ you can embed (vectorize) natural language to search the vector database for relevant chunks.
+3. With the returned chun
+ks, you can combine them all (within respects to the context window limit of the LLM of choice), and now your generated 
+response will contain the information it needs to give you an accurate output.
 
-Making a secure and privacy-focused solutio
-n for businesses is also important. If you use the OpenAI API, data is not used to train their models (source [OpenAI En
-terprise Privacy](https://openai.com/enterprise-privacy)).
+Making a secure and privacy-focused solu
+tion for businesses is also important. If you use the OpenAI API, data is not used to train their models (source [OpenAI
+ Enterprise Privacy](https://openai.com/enterprise-privacy)).
 
-I hope this makes sense. Let me know if there’s any question
-s on the topic.
+I hope this makes sense. Let me know if there’s any quest
+ions on the topic.
 ```
 ---
 
      
  
-all -  [ AI SDK with Langchain ](https://www.reddit.com/r/LangChain/comments/1774dek/ai_sdk_with_langchain/) , 2023-10-14-0909
+all -  [ AI SDK with Langchain ](https://www.reddit.com/r/LangChain/comments/1774dek/ai_sdk_with_langchain/) , 2023-10-15-0910
 ```
 Can anybody help me with this ... the streaming cuts off
 
@@ -117,7 +484,7 @@ https://preview.redd.it/8tjkgjlwb0ub
 
      
  
-all -  [ Need advice from experienced CS people regarding what should I do? ](https://www.reddit.com/r/careerguidance/comments/177497v/need_advice_from_experienced_cs_people_regarding/) , 2023-10-14-0909
+all -  [ Need advice from experienced CS people regarding what should I do? ](https://www.reddit.com/r/careerguidance/comments/177497v/need_advice_from_experienced_cs_people_regarding/) , 2023-10-15-0910
 ```
 My bachelor's degree is in Industrial Automation and Robotics and I have a masters in Advanced Software Engineering. I'm
  currently working on house projects for my current company. some of them on a proprietary outdated IoT platform (DGLux)
@@ -130,7 +497,7 @@ eer.
 
      
  
-all -  [ Need to advice from experienced CS people ](https://www.reddit.com/r/careeradvice/comments/17746bd/need_to_advice_from_experienced_cs_people/) , 2023-10-14-0909
+all -  [ Need to advice from experienced CS people ](https://www.reddit.com/r/careeradvice/comments/17746bd/need_to_advice_from_experienced_cs_people/) , 2023-10-15-0910
 ```
 My bachelor's degree is in Industrial Automation and Robotics and I have a masters in Advanced Software Engineering. I'm
  currently working on house projects of my current company. some of them on a proprietary outdated IoT platform (DGLux) 
@@ -143,7 +510,7 @@ neer.
 
      
  
-all -  [ Chatbot with Langchain Javascript ](https://www.reddit.com/r/LangChain/comments/1772g4u/chatbot_with_langchain_javascript/) , 2023-10-14-0909
+all -  [ Chatbot with Langchain Javascript ](https://www.reddit.com/r/LangChain/comments/1772g4u/chatbot_with_langchain_javascript/) , 2023-10-15-0910
 ```
 Chatbot using Langchain with JavaScript and Openai
 
@@ -160,7 +527,7 @@ https://i.redd.it/r8oy6a96vztb1.gif
 
      
  
-all -  [ Train AI on data and emails? ](https://www.reddit.com/r/ChatGPTPro/comments/1771us3/train_ai_on_data_and_emails/) , 2023-10-14-0909
+all -  [ Train AI on data and emails? ](https://www.reddit.com/r/ChatGPTPro/comments/1771us3/train_ai_on_data_and_emails/) , 2023-10-15-0910
 ```
 Hi all, I’m wondering if anyone has any thoughts about how to do this: I want to train ChatGPT on a large amount of info
 rmation, including websites, pdfs, and outlook emails. I’m trying to start off with something easy that can help me with
@@ -173,7 +540,7 @@ s the email part of what I am looking for possible? TIA for your thoughts/help
 
      
  
-all -  [ [News] AI & ML conference in San Francisco [Special discount code for this subreddit] ](https://www.reddit.com/r/MachineLearning/comments/1771m35/news_ai_ml_conference_in_san_francisco_special/) , 2023-10-14-0909
+all -  [ [News] AI & ML conference in San Francisco [Special discount code for this subreddit] ](https://www.reddit.com/r/MachineLearning/comments/1771m35/news_ai_ml_conference_in_san_francisco_special/) , 2023-10-15-0910
 ```
 I work for this database company SingleStore and we are hosting a AI & ML conference in San Francisco on 17th of October
 , 2023.
@@ -194,28 +561,7 @@ nal ticket price is $199)
 
      
  
-all -  [ Data & AI conference happening in San Francisco: 100% off on the ticket price! ](https://www.reddit.com/r/dataengineering/comments/1770yer/data_ai_conference_happening_in_san_francisco_100/) , 2023-10-14-0909
-```
-I work for this database company SingleStore and we are hosting a Data and AI conference in San Francisco on 17th of Oct
-ober, 2023.
-
-It is an in-person conference with amazing speakers line-up like Harrison Chase, co-founder and CEO of Lang
-Chain and many more. We will have hands-on workshops, swags giveaway and much more.
-
-I don't know if it makes sense to s
-hare this but I believe it might help some of you near San Francisco to go and meet the industry leaders and network wit
-h other data engineering folks.
-
-Use my discount coupon code 'PAVAN100OFF' to avail 100% off on the ticket price. (the o
-riginal ticket price is $199)
-
-[Get your tickets now!](https://singlestore.com/now)
-```
----
-
-     
- 
-all -  [ Need Some Directions ](https://www.reddit.com/r/LangChain/comments/1770oj4/need_some_directions/) , 2023-10-14-0909
+all -  [ Need Some Directions ](https://www.reddit.com/r/LangChain/comments/1770oj4/need_some_directions/) , 2023-10-15-0910
 ```
 I'm trying to build a recommendation system for real estate property listings as per user preferences. 
 
@@ -232,7 +578,7 @@ I don't have access to the df right now.
 
      
  
-all -  [ Privacy Compliance and Records Retention for LangChain Apps ](https://www.reddit.com/r/LangChain/comments/1770978/privacy_compliance_and_records_retention_for/) , 2023-10-14-0909
+all -  [ Privacy Compliance and Records Retention for LangChain Apps ](https://www.reddit.com/r/LangChain/comments/1770978/privacy_compliance_and_records_retention_for/) , 2023-10-15-0910
 ```
 Hey all, we've just launched **Zep Archive**, offering easy-to-implement tools for LangChain chat apps to comply with **
 records retention and privacy compliance regulations**. If you're using Zep's `ZepMemory` class in your app, you get the
@@ -264,7 +610,7 @@ a79d791ce83b163e7d487
 
      
  
-all -  [ Vectorizing notes & chat history ](https://www.reddit.com/r/LangChain/comments/17708ki/vectorizing_notes_chat_history/) , 2023-10-14-0909
+all -  [ Vectorizing notes & chat history ](https://www.reddit.com/r/LangChain/comments/17708ki/vectorizing_notes_chat_history/) , 2023-10-15-0910
 ```
 I have a question for my general understanding:
 
@@ -335,7 +681,7 @@ map((result) => result.id),
 
      
  
-all -  [ Authoring another course about LLMs. Learn by Doing LLM Projects. ](https://www.reddit.com/r/learnmachinelearning/comments/176zx1m/authoring_another_course_about_llms_learn_by/) , 2023-10-14-0909
+all -  [ Authoring another course about LLMs. Learn by Doing LLM Projects. ](https://www.reddit.com/r/learnmachinelearning/comments/176zx1m/authoring_another_course_about_llms_learn_by/) , 2023-10-15-0910
 ```
 Hi, I'm working on a course about LLMs on GitHub, it's totally free and under MIT license,  So there are no restrictions
 .
@@ -413,7 +759,7 @@ x200B;
 
      
  
-all -  [ Limiting options for user prompts? ](https://www.reddit.com/r/OpenAI/comments/176vpss/limiting_options_for_user_prompts/) , 2023-10-14-0909
+all -  [ Limiting options for user prompts? ](https://www.reddit.com/r/OpenAI/comments/176vpss/limiting_options_for_user_prompts/) , 2023-10-15-0910
 ```
 We have a platform for data analytics which uses a very simple dsl to generate charts.  
 We have been experimenting with
@@ -438,7 +784,7 @@ robably don't want to train another model to classify the prompt as valid or inv
 
      
  
-all -  [ learning langchain ](https://www.reddit.com/r/LangChain/comments/176t09e/learning_langchain/) , 2023-10-14-0909
+all -  [ learning langchain ](https://www.reddit.com/r/LangChain/comments/176t09e/learning_langchain/) , 2023-10-15-0910
 ```
 hello i am new here.
 
@@ -458,7 +804,7 @@ x200B;
 
      
  
-all -  [ New to this. My boss asked me to use LLM's to disclose information in conversations. Is this feasibl ](https://www.reddit.com/r/LocalLLaMA/comments/176s1ej/new_to_this_my_boss_asked_me_to_use_llms_to/) , 2023-10-14-0909
+all -  [ New to this. My boss asked me to use LLM's to disclose information in conversations. Is this feasibl ](https://www.reddit.com/r/LocalLLaMA/comments/176s1ej/new_to_this_my_boss_asked_me_to_use_llms_to/) , 2023-10-15-0910
 ```
 I'm new to LLMs. I want to know if what I want is feasible before I go into the deep end and enter this wonderful world.
   
@@ -480,7 +826,7 @@ base, xml, something different), but I don't think that matters much.
 
      
  
-all -  [ Seeking Orientation on Developing an LLM-Based QA Chatbot ](https://www.reddit.com/r/LocalLLaMA/comments/176om1d/seeking_orientation_on_developing_an_llmbased_qa/) , 2023-10-14-0909
+all -  [ Seeking Orientation on Developing an LLM-Based QA Chatbot ](https://www.reddit.com/r/LocalLLaMA/comments/176om1d/seeking_orientation_on_developing_an_llmbased_qa/) , 2023-10-15-0910
 ```
 Hello everyone,
 
@@ -533,7 +879,7 @@ r
 
      
  
-all -  [ May 2024 Grad. 300+ applications since July. 75 rejections. No job yet ](https://www.reddit.com/r/csMajors/comments/176o2jv/may_2024_grad_300_applications_since_july_75/) , 2023-10-14-0909
+all -  [ May 2024 Grad. 300+ applications since July. 75 rejections. No job yet ](https://www.reddit.com/r/csMajors/comments/176o2jv/may_2024_grad_300_applications_since_july_75/) , 2023-10-15-0910
 ```
  I'm a US Citizen studying outside the US (in a not very well-known school). Looking for new grad roles.
 
@@ -554,7 +900,7 @@ https://preview.redd.it/x7qbz4u4qvtb1.png?width=616&format=png&auto=webp&s=5a
 
      
  
-all -  [ llama2 13b hallucination on a retrival based bot ](https://www.reddit.com/r/LocalLLaMA/comments/176a0gv/llama2_13b_hallucination_on_a_retrival_based_bot/) , 2023-10-14-0909
+all -  [ llama2 13b hallucination on a retrival based bot ](https://www.reddit.com/r/LocalLLaMA/comments/176a0gv/llama2_13b_hallucination_on_a_retrival_based_bot/) , 2023-10-15-0910
 ```
 looking for some suggestions on how to manage llama2 hallucination. I have a retrieval based bot where the model gets th
 e data from vectors which contains data from multiple pdf. Now the challenge is if vector contains two set of totally di
@@ -576,7 +922,7 @@ RAG via langchains RetrievalQA . This was suppose to solve this problem but i do
 
      
  
-all -  [ [Langchain] Mistralai LLM avec Langchin ](https://www.reddit.com/r/redditenfrancais/comments/1762y5q/langchain_mistralai_llm_avec_langchin/) , 2023-10-14-0909
+all -  [ [Langchain] Mistralai LLM avec Langchin ](https://www.reddit.com/r/redditenfrancais/comments/1762y5q/langchain_mistralai_llm_avec_langchin/) , 2023-10-15-0910
 ```
 Langchain soutient-il le modèle AI LLM Mistral?
 
@@ -587,7 +933,7 @@ vwilm
 
      
  
-all -  [ A Chatbot using Langchain to integrate LLM with MongoDB memory and LangSmith to tracing LLM calls. ](https://www.reddit.com/r/LangChain/comments/1762tkr/a_chatbot_using_langchain_to_integrate_llm_with/) , 2023-10-14-0909
+all -  [ A Chatbot using Langchain to integrate LLM with MongoDB memory and LangSmith to tracing LLM calls. ](https://www.reddit.com/r/LangChain/comments/1762tkr/a_chatbot_using_langchain_to_integrate_llm_with/) , 2023-10-15-0910
 ```
 Hey guys,
 
@@ -607,7 +953,7 @@ Here is the link to it : [Chatbot with Langchain](https://github.com/btrcm00/cha
 
      
  
-all -  [ Existing relational database to new vector database? ](https://www.reddit.com/r/datascience/comments/1761n34/existing_relational_database_to_new_vector/) , 2023-10-14-0909
+all -  [ Existing relational database to new vector database? ](https://www.reddit.com/r/datascience/comments/1761n34/existing_relational_database_to_new_vector/) , 2023-10-15-0910
 ```
 I'm in the very early stages of an investigatory project at my job (senior software engineer with a moderate amount of d
 ata mining and snowflake/star pattern ETL OLAP warehousing experience in SSAS from years ago, long before modern tools a
@@ -654,7 +1000,7 @@ tload of key-value pairs, or would I do better to zhuzh it into wordy natural la
 
      
  
-all -  [ Positional metadata from PDFloaders? ](https://www.reddit.com/r/LangChain/comments/175qj2b/positional_metadata_from_pdfloaders/) , 2023-10-14-0909
+all -  [ Positional metadata from PDFloaders? ](https://www.reddit.com/r/LangChain/comments/175qj2b/positional_metadata_from_pdfloaders/) , 2023-10-15-0910
 ```
 The headline kind of says it all. Is it possible to get the positional metadata of the pieces of text you create from th
 e text splitter? Would greatly enhance the user experience. Right now I'm just showing the pieces of text when mouse is 
@@ -664,7 +1010,7 @@ hovering over a link
 
      
  
-all -  [ [Langchain] Comment déployer le script Langchain Python à la production ](https://www.reddit.com/r/redditenfrancais/comments/175hqpo/langchain_comment_déployer_le_script_langchain/) , 2023-10-14-0909
+all -  [ [Langchain] Comment déployer le script Langchain Python à la production ](https://www.reddit.com/r/redditenfrancais/comments/175hqpo/langchain_comment_déployer_le_script_langchain/) , 2023-10-15-0910
 ```
 Hé les gens! Je veux donc créer une application Web pour les entreprises de mon pays en tirant parti de la puissance de 
 Langchain.
@@ -690,7 +1036,7 @@ ww.reddit.com/145o0h5
 
      
  
-all -  [ How does the pipe '|' symbol work in Python from this LangChain example? ](https://www.reddit.com/r/LangChain/comments/175edd4/how_does_the_pipe_symbol_work_in_python_from_this/) , 2023-10-14-0909
+all -  [ How does the pipe '|' symbol work in Python from this LangChain example? ](https://www.reddit.com/r/LangChain/comments/175edd4/how_does_the_pipe_symbol_work_in_python_from_this/) , 2023-10-15-0910
 ```
 I'm not that experienced in Python and this is my first time trying LangChain.
 
@@ -722,7 +1068,7 @@ _\_or\_\_\`, but how does piping dictionary and \`prompt\` work?
 
      
  
-all -  [ Help with ideas for a project? ](https://www.reddit.com/r/AskRobotics/comments/175c4x6/help_with_ideas_for_a_project/) , 2023-10-14-0909
+all -  [ Help with ideas for a project? ](https://www.reddit.com/r/AskRobotics/comments/175c4x6/help_with_ideas_for_a_project/) , 2023-10-15-0910
 ```
 Help with an idea?
 
@@ -751,7 +1097,7 @@ s more “technically” feasible ideas to throw into this conglomeration. Just 
 
      
  
-all -  [ Getting Started with GenAI Stack powered with Docker, LangChain, Neo4j and Ollama ](https://www.reddit.com/r/u_ajeetsraina/comments/175ay08/getting_started_with_genai_stack_powered_with/) , 2023-10-14-0909
+all -  [ Getting Started with GenAI Stack powered with Docker, LangChain, Neo4j and Ollama ](https://www.reddit.com/r/u_ajeetsraina/comments/175ay08/getting_started_with_genai_stack_powered_with/) , 2023-10-15-0910
 ```
 [https://collabnix.com/getting-started-with-genai-stack-powered-with-docker-langchain-neo4j-and-ollama/](https://collabn
 ix.com/getting-started-with-genai-stack-powered-with-docker-langchain-neo4j-and-ollama/) 
@@ -760,7 +1106,7 @@ ix.com/getting-started-with-genai-stack-powered-with-docker-langchain-neo4j-and-
 
      
  
-all -  [ test effectiveness embeddings retrievalQA chatbot ](https://www.reddit.com/r/LangChain/comments/1758n1i/test_effectiveness_embeddings_retrievalqa_chatbot/) , 2023-10-14-0909
+all -  [ test effectiveness embeddings retrievalQA chatbot ](https://www.reddit.com/r/LangChain/comments/1758n1i/test_effectiveness_embeddings_retrievalqa_chatbot/) , 2023-10-15-0910
 ```
 I have developed a chatbot that uses mistral7B instruct as LLM connected to a DB of embeddings to generate answers basin
 g on context. 
@@ -782,482 +1128,7 @@ Anyone has faced a similar problem?
 
      
  
-all -  [ Extending Workshop Learnings: A Dive into Supabase, PGvector, and LangChain ](https://www.reddit.com/r/Supabase/comments/1755wzh/extending_workshop_learnings_a_dive_into_supabase/) , 2023-10-14-0909
-```
-&#x200B;
-
-https://preview.redd.it/4sgc6gps7itb1.png?width=1224&format=png&auto=webp&s=374c6d0c1bfcf16f590c9b4a698067d467
-b8c873
-
-I had the privilege of attending the 'Pgvector to Prod in 2 hours' workshop led by Greg Richardson at the recent
- AI Engineer Summit. The workshop was a deep dive into Supabase and PGvector, teaching us how to rapidly build a secure,
- production-ready web app.
-
-Being someone who has been working with LangChain, I found this workshop as an opportunity t
-o compare, learn, and enhance my understanding of these tools. I've articulated my journey, findings, and the contrastin
-g insights between Supabase, PGvector, and LangChain in my latest blog post titled **'Extending Workshop Learnings: From
- Supabase and PGvector to LangChain'**.
-
-In the post, I also share how this experience has inspired me to venture into a
- new project with LangChain, focusing on the rapid development and scalability of AI applications.
-
-I've included code s
-nippets, insights on text embedding generation, and a comparative analysis that could be a good read for anyone keen on 
-AI application development. I’d love to hear your thoughts, feedback, or any questions you might have. Feel free to shar
-e your comments here or on the blog post!
-
-Thank you and happy reading! 📖
-
-&#x200B;
-
-Twitter: [https://twitter.com/arpag
-on/status/1711965601797656962](https://twitter.com/arpagon/status/1711965601797656962)   
-Blog Post: [https://blog.artis
-anlabs.io/posts/supabase-pgvector](https://blog.artisanlabs.io/posts/supabase-pgvector)   
-Jupyter Notebook Version: [ht
-tps://github.com/ArtisanLabs/chatgpt-your-files/blob/main/tools/langchain/main.ipynb](https://github.com/ArtisanLabs/cha
-tgpt-your-files/blob/main/tools/langchain/main.ipynb)
-```
----
-
-     
- 
-all -  [ Does metadata improve semantic search by default? ](https://www.reddit.com/r/LangChain/comments/174xcgf/does_metadata_improve_semantic_search_by_default/) , 2023-10-14-0909
-```
-Does merely including metadata (source, keyword, summary) improve the performance of a semantic search?
-
-I am using Pine
-cone to store my vectors and I am looking to improve accuracy of the search.
-
-Additionally, what improvements can be mad
-e to further enhance the accuracy? I have heard about hybrid search, but could never find a resource that evaluates its 
-accuracy.
-```
----
-
-     
- 
-all -  [ Embedding JSON documents for categorical attributes, tags, etc ](https://www.reddit.com/r/LangChain/comments/174sw8f/embedding_json_documents_for_categorical/) , 2023-10-14-0909
-```
-If I have a JSON document resembling curriculum containing attributes such as:
-
-Title
-
-Description
-
-Difficulty Level
-
-Ta
-gs
-
-It's easy to understand how you would embed the textual information such as title and description, but can the categ
-orical information be embedded for purposes of semantic search?
-
-Example: 'Intro to X'
-
-(Prioritizes Beginner level cour
-ses)
-
-Also, Tags above should be prioritized in search results. Can I instruct the embedding approach to increase weight
-ing to categorical and tag based metadata?
-
-&#x200B;
-
-Hopefully this makes sense.
-```
----
-
-     
- 
-all -  [ Image inputs in chatgpt api? ](https://www.reddit.com/r/LangChain/comments/174rn9b/image_inputs_in_chatgpt_api/) , 2023-10-14-0909
-```
-Hi there, I know there are image inputs possible with chatgpt plus, is there an api endpoint for that too? I looked thro
-ugh the documentation and wasn't able to find anything 
-```
----
-
-     
- 
-all -  [ I need to know how local vector databases work ](https://www.reddit.com/r/ChatGPTCoding/comments/174r6xj/i_need_to_know_how_local_vector_databases_work/) , 2023-10-14-0909
-```
-Im not a strong developer so excuse my beginner questions, that’s why i always try to find the visual tools. I recently 
-started using flowise and noticed there is a kind of local vector db component that can replace pinecone and i tried it 
-and it works as its replacement without any api keys or anything.
-
-Can i do this in any application I build with langcha
-in. Can i do a local vector db that indexes a certain folder so i can chat with its contents. How can i do it or where c
-an i start. What is the difference between this, pinecone and chroma?
-```
----
-
-     
- 
-all -  [ Advancements in extracting tabular data from PDFs? ](https://www.reddit.com/r/datascience/comments/174pkt1/advancements_in_extracting_tabular_data_from_pdfs/) , 2023-10-14-0909
-```
-Hi everyone!
-
-Is there a simple and robust method for extracting highly tabular data from a PDF without resorting to rul
-e based regex parsing?  I'm currently using PDFminer, PDFplumber and regex to build templates to extract PDFs based on t
-he type of PDF but it's very time-consuming and tedious.  Is there a better way?
-
-I've used Langchain and OpenAI to buil
-d 'Chat with your document' apps which works great for uploading a PDF of a whitepaper and asking it to summarize the pa
-per, but when it comes to extracting table data - I don't think this solution will work.
-
-&#x200B;
-
-Thank you for your i
-nput,
-
-Data Scallion
-```
----
-
-     
- 
-all -  [ LangChain Lab ](https://www.reddit.com/r/LangChain/comments/174osbm/langchain_lab/) , 2023-10-14-0909
-```
-This experiment will verify different use cases of LLM using LangChain, which include chat, role-playing, and document-b
-ased QA.
-
-[https://github.com/coolbeevip/langchain-lab](https://github.com/coolbeevip/langchain-lab)
-```
----
-
-     
- 
-all -  [ Does StackAI have any big advantages over Flowise? ](https://www.reddit.com/r/ChatGPTCoding/comments/174ools/does_stackai_have_any_big_advantages_over_flowise/) , 2023-10-14-0909
-```
-Hey.
-
-I am slightly overwhelmed by all the options when it comes to LLM applications.
-
-Does stackAI (or other services) 
-have any advantages over the free open-source langchain UI 'Flowise' ?
-
-And can someone maybe list the different usecase
-s for all the major/relevant applications of these sorts? (Flowise, Botpress, StackAI, VoiceFlow \*insert any other rele
-vant thing of this nature.
-
-And perhaps general tips.
-
-Thanks in advance.
-```
----
-
-     
- 
-all -  [ Does StackAI have any big advantages over Flowise? ](https://www.reddit.com/r/Chatbots/comments/174om21/does_stackai_have_any_big_advantages_over_flowise/) , 2023-10-14-0909
-```
-Hey.
-
-I am slightly overwhelmed by all the options when it comes to LLM applications. 
-
-Does stackAI have any advantages
- over the free open-source langchain UI 'Flowise' ? 
-
-And can someone maybe list the different usecases for all the majo
-r/relevant applications of these sorts? (Flowise, Botpress, StackAI, VoiceFlow \*insert any other relevant thing of this
- nature.
-
-And perhaps general tips.
-
-Thanks in advance.
-```
----
-
-     
- 
-all -  [ I run an AI automation agency (AAA). My honest overview and review of this new business model ](https://www.reddit.com/r/Entrepreneur/comments/174o7vd/i_run_an_ai_automation_agency_aaa_my_honest/) , 2023-10-14-0909
-```
-I started an AI tools directory in February, and then branched off that to start an AI automation agency (AAA) in June. 
-So far I've come across a lot of unsustainable 'ideas' to make money with AI, but at the same time a few diamonds in the
- rough that aren't fully tapped into yet- especially the AAA model. Thought I'd share this post to shine light into this
- new business model and share some ways you could potentially start your own agency, or at the very least know who you a
-re dealing with and how to pick and choose when you (inevitably) get bombarded with cold emails from them down the line.
-
-
-# Foreword
-
-Running an AAA does NOT involve using AI tools directly to generate and sell content directly. That ship h
-as sailed, and unless you are happy with $5 from Fiverr every month or so, it is not a real business model. Cry me a riv
-er but generating generic art with AI and slapping it onto a T-shirt to sell on Etsy won't make you a dime.
-
-At the same
- time, **the AAA model will NOT require you to have a deep theoretical knowledge of AI, or any academic degree**, as we 
-are more so dealing with the practical applications of generative AI and how we can implement these into different workf
-lows and tech-stacks, rather than building AI models from the ground up. Regardless of all that, common sense and a will
-ingness to learn will help (a shit ton), as with anything.
-
-Keep in mind - **this WILL involve work and motivation as we
-ll**. The mindset that AI somehow means everything can be done for you on autopilot is not the right way to approach thi
-ngs. The common theme of businesses I've seen who have successfully implemented AI into their operations is the willinge
-ss to work with AI in a way that augments their existing operations, rather than flat out replace a worker or team. And 
-this is exactly the train of thought you need when working with AI as a business model.
-
-However, as the field is relati
-vely unsaturated and hype surrounding AI is still fresh for enterprises, right now is the prime time to start something 
-new if generative AI interests you at all. With that being said, I'll be going over three of the most successful AI-adja
-cent businesses I've seen over this past year, in addition to some tips and resources to point you in the right directio
-n.
-
-# so.. WTF is an AI Automation Agency?
-
-The AI automation agency (or as some YouTubers have coined it, the AAA model
-) at its core involves creating custom AI solutions for businesses. I have over 1500 AI tools listed in my directory, ho
-wever the feedback I've received from some enterprise users is that ready-made SaaS tools are too generic to meet their 
-specific needs. Combine this with the fact **virtually no smaller companies have the time or skills required to develop 
-custom solutions** right off the bat, and you have yourself real demand. I would say in practice, the AAA model is quite
- similar to Wordpress and even web dev agencies, with the major difference being all solutions you develop will incorpor
-ate key aspects of AI AND automation.
-
-Which brings me to my second point- JUST AI IS NOT ENOUGH. Rather than reducing t
-he amount of time required to complete certain tasks, I've seen many AI agencies make the mistake of recommending and (t
-rying to) sell solutions that more likely than not increase the workload of their clients. For example, if you were to m
-ake an internal tool that has AI answer questions based on their knowledge base, but this knowledge base has to be updat
-ed manually, this is creating unnecessary work. As such I think one of the key components of building successful AI solu
-tions is incorporating the new (Generative AI/LLMs) with the old (programmtic automation- think Zapier, APIs, etc.).
-
-Fi
-nally, for this business model to be successful, ideally you should **target a niche in which you have already worked an
-d understand pain points and needs**. Not only does this make it much easier to get calls booked with prospects, the sol
-utions you build will have much greater value to your clients (meaning you get paid more). A mistake I've seen many AAA 
-operators make (and I blame this on the 'Get Rich Quick' YouTubers) is focusing too much on a specific productized servi
-ce, rather than really understanding the needs of businesses. The former is much done via a SaaS model, but when going t
-he agency route the only thing that makes sense is building custom solutions. This is why **I always take a consultant-f
-irst approach**. You can only build once you understand what they actually need and how certain solutions may impact the
-ir operations, workflows, and bottom-line.
-
-# Basics of How to Get Started
-
-1. **Pick a niche.** As I mentioned previous
-ly, preferably one that you've worked in before. Niches I know of that are actively being bombarded with cold emails inc
-lude real estate, e-commerce, auto-dealerships, lawyers, and medical offices. There is a reason for this, but I will tel
-l you straight up this business model works well if you target any white-collar service business (internal tools approac
-h) or high volume businesses (customer facing tools approach).
-2. **Setup your toolbox.** If you wanted to start a press
-ure washing business, you would need a pressure-washer. This is no different. For those without programming knowledge, I
-'ve seen two common ways AAA get setup to build- one is having a network of on-call web developers, whether its personal
- contacts or simply going to Upwork or any talent sourcing agency. The second is having an arsenal of no-code tools. I'l
-l get to this more in a second, but this works beecause at its core, when we are dealing with the practical applications
- of AI, the code is quite simple, simply put.
-3. **Start cold sales.** Unless you have a network already, this is not a 
-step you can skip. You've already picked a niche, so all you have to do is find the right message. Keep cold emails shor
-t, sweet, but enticing- and it will help a lot if you did step 1 correctly and intimately understand who your audience i
-s. I'll be touching base later about how you can leverage AI yourself to help you with outreach and closing.
-
-# The beau
-ty of gen AI and the AAA model
-
-You don't need to be a seasoned web developer to make this business model work. The larg
-e majority of solutions that SME clients want is best done using an API for an LLM for the actual AI aspect. **The value
- we create with the solutions we build comes with the conceptual framework and design that not only does what they need 
-it to but integrates smoothly with their existing tech-stack and workflow.** The actual implementation is quite straight
-forward once you understand the high level design and know which tools you are going to use.
-
-To give you a sense, even 
-if you plan to build out these apps yourself (say in Python) the large majority of the nitty gritty technical work has a
-lready been done for you, especially if you leverage Python libraries and packages that offer high level abstraction for
- LLM-related functions. For instance, calling GPT can be as little as a single line of code. (And there are no-code tool
-s where these functions are simply an icon on a GUI). Aside from understanding the capabilities and limitations of these
- tools and frameworks, the only thing that matters is being able to put them in a way that makes sense for what you want
- to build. Which is why outsourcing and no-code tools both work in our case.
-
-# Okay... but how TF am I suppposed to act
-ually build out these solutions?
-
-Now the fun part. I highly recommend getting familiar with Langchain and LlamaIndex. B
-oth are Python libraires that help a lot with the high-level LLM abstraction I mentioned previously. The two most import
-ant aspects include being able to integrate internal data sources/knowledge bases with LLMs, and have LLMs perform auton
-omous actions. The two most common methods respectively are RAG and output parsing.
-
-**RAG (retrieval augmented Generati
-on)**
-
-If you've ever seen a tool that seemingly 'trains' GPT on your own data, and wonder how it all works- well I have
- an answer from you. At a high level, the user query is first being fed to what's called a vector database to run vector
- search. Vector search basically lets you do semantic search where you are searching data based on meaning. The vector d
-atabases then retrieves the most relevant sections of text as it relates to the user query, and this text gets APPENDED 
-to your GPT prompt to provide extra context to the AI. Further, with prompt engineering, you can limit GPT to only gener
-ate an answer if it can be found within this extra context, greatly limiting the chance of hallucination (this is where 
-AI makes random shit up). Aside from vector databases, we can also implement RAG with other data sources and retrieval m
-ethods, for example SQL databses (via parsing the outputs of LLM's- more on this later).
-
-**Autonomous Agents via Output
- Parsing**
-
-A common need of clients has been having AI actually perform tasks, rather than simply spitting out text. Fo
-r example, with autonomous agents, we can have an e-commerce chatbot do the work of a basic customer service rep (i.e. l
-ook into orders, refunds, shipping). At a high level, what's going on is that the response of the LLM is being used prog
-rammtically to determine which API to call. Keeping on with the e-commerce example, if I wanted a chatbot to check shipp
-ing status, I could have a LLM response within my app (not shown to the user) with a prompt that outputs a random hash o
-r string, and programmatically I can determine which API call to make based on this hash/string. And using the same fund
-amental concept as with RAG, I can append the the API response to a final prompt that would spit out the answer for the 
-user.
-
-**How No Code Tools Can Fit In (With some example solutions you can build)**
-
-With that being said, you don't nec
-essarily need to do all of the above by coding yourself, with Python libraries or otherwise. **However, I will say that 
-having that high level overview will help IMMENSELY when it comes to using no-code tools to do the actual work for you.*
-* Regardless, here are a few common solutions you might build for clients as well as some no-code tools you can use to b
-uild them out.
-
-* **Ex. Solution 1: AI Chatbots for SMEs (Small and Medium Enterprises)**
-   * This involves creating **
-chatbots that handle user queries, lead gen, and so forth with AI**, and will use the principles of RAG at heart. After 
-getting the required data from your client (i.e. product catalogues, previous support tickets, FAQ, internal documentati
-on), you upload this into your knowledge base and write a prompt that makes sense for your use case. One no-code tool th
-at does this well is **MyAskAI**. The beauty of it especially for building external chatbots is the ability to quickly i
-ngest entire websites into your knowledge base via a sitemap, and bulk uploading files. Essentially, they've covered the
- entire grunt work required to do this manually. Finally, you can create a inline or chat widget on your client's websit
-e with a few lines of HTML, or altneratively integrate it with a Slack/Teams chatbot (if you are going for an internal Q
-&A chatbot approach). Other tools you could use include **Botpress and Voiceflow**, however these are less for RAG and m
-ore for building out complete chatbot flows that may or may not incorporate LLMs. Both apps are essentially GUIs that el
-iminate the pain and tears and trying to implement complex flows manually, and both natively incoporate AI intents and a
- knowledge base feature.
-* **Ex. Solution 2: Internal Apps**
-   * Similar to the first example, except we go beyond maki
-ng just chatbots but tools such as report generation and really **any sort of internal tool or automations that may inco
-rporate LLM's**. For instance, you can have a tool that automatically generates replies to inbound emails based on your 
-client's knowledge base. Or an automation that does the same thing but for replies to Instagram comments. Another exampl
-e could be a tool that generates a description and screeenshot based on a URL (useful for directory sites, made one for 
-my own :P). Getting into more advanced implementations of LLMs, we can have tools that can generate entire drafts of rep
-orts (think 80+ pages), based not only on data from a knowledge base but also the writing style, format, and author voic
-e of previous reports.
-   * One good tool to create content generation panels for your clients would be **MindStudio**. 
-You can train LLM's via prompt engineering in a structured way with your own data to essentially fine tune them for what
-ever text you need it to generate. Furthermore, it has a GUI where you can dictate the entire AI flow. You can also uplo
-ad data sources via multiple formats, including PDF, CSV, and Docx.
-   * For automations that require interactions betwe
-en multiple apps, I recommend the OG **zapier/make.com** if you want a no-code solution. For instance, for the automatic
- email reply generator, I can have a trigger such that when an email is received, a custom AI reply is generated by **My
-AskAI**, and finally a draft is created in my email client. Or, for an automation where I can create a social media post
-s on multiple platforms based on a RSS feed (news feed), I can implement this directly in Zapier with their native GPT a
-ction ([see screenshot](https://imgur.com/9rwpaz4))
-   * As for more complex LLM flows that may require multiple layers 
-of LLMs, data sources, and APIs working together to generate a single response i.e. a long form 100 page report, I would
- recommend tools such as Stack AI or Flowise (open-source alternative) to build these solutions out. Essentially, you ge
-t most of the functions and features of Python packages such as Langchain and LlamaIndex in a GUI. [See screenshot](http
-s://imgur.com/o5trxuC) for an example of a flow
-
-# How the hell are you supposed to find clients?
-
-With all that being s
-aid, none of this matters if you can't find anyone to sell to. You will have to do cold sales, one way or the other, esp
-ecially if you are brand new to the game. And what better way to sell your AI services than with AI itself? If we want t
-o integrate AI into the cold outreach process, first we must identify what it's good at doing, and that's obviously writ
-ing a bunch of text, in a short amount of time. Similar to the solutions that an AAA can build for its clients, we can t
-ake advantage of the same principles in our own sales processes.
-
-**How to do outreach**
-
-Once you've identified your ni
-che and their pain points/opportunities for automation, you want to craft a compelling message in which you can send via
- cold email and cold calls to get prospects booked on demos/consultations. I won't get into too much detail in terms of 
-exactly how to write emails or calling scripts, as there are millions of resources to help with this, but I will tell yo
-u a few key points you want to keep in mind when doing outreach for your AAA.
-
-First, you want to keep in mind that many
- businesses are still hesitant about AI and may not understand what it really is or how it can benefit their operations.
- However, we can take advantage of how mass media has been reporting on AI this past year- at the very least people are 
-AWARE that sooner or later they may have to implement AI into their businesses to stay competitive. We want to frame our
- message in a way that introduces generative AI as a technology that can have a direct, tangible, and positive impact on
- their business. Although it may be hard to quantify, I like to include estimates of man-hours saved or costs saved at l
-east in my final proposals to prospects. Times are TOUGH right now, and money is expensive, so you need to have a compel
-ling reason for businesses to get on board.
-
-Once you've gotten your messaging down, you will want to create a list of p
-rospects to contact. Tools you can use to find prospects include **Apollo.io, reply.io, zoominfo (expensive af), and Lin
-kedin Sales Navigator**. What specific job titles, etc. to target will depend on your niche but for smaller companies th
-is will tend to be the owner. For white collar niches, i.e. law, the professional that will be directly benefiting from 
-the tool (i.e. partners) may be better to contact. And for larger organizations you may want to target business improvem
-ent and digital transformation leads/directors- these are the people directly in charge of projects like what you may be
- proposing.
-
-Okay- so you have your message, and your list, and now all it comes down to is getting the good word out. I
- won't be going into the details of how to send these out, a quick Google search will give you hundreds of resources for
- cold outreach methods. However, personalization is key and beyond simple dynamic variables you want to make sure you ca
-n either personalize your email campaigns directly with AI (SmartWriter.ai is an example of a tool that can do this), or
- at the very least have the ability to import email messages programmatically. Alternatively, ask ChatGPT to make you a 
-Python Script that can take in a list of emails, scrape info based on their linkedin URL or website, and all pass this o
-nto a GPT prompt that specifies your messaging to generate an email. From there, send away.
-
-**How tf do I close?**
-
-Onc
-e you've got some prospects booked in on your meetings, you will need to close deals with them to turn them into clients
-.
-
-* Call #1: Consultation
-   * Tying back to when I mentioned you want to take a consultant-first appraoch, you will wa
-nt to listen closely to their goals and needs and understand their pain points. This would be the first call, and typica
-lly I would provide a high level overview of different solutions we could build to tacke these. It really helps to have 
-a presentation available, so you can graphically demonstrate key points and key technologies. I like to use **Plus AI** 
-for this, it's basically a Google Slides add-on that can generate slide decks for you. I copy and paste my default compa
-ny messaging, add some key points for the presentation, and it comes out with pretty decent slides.
-* Call #2: Demo
-   *
- The second call would involve a demo of one of these solutions, and typically I'll quickly prototype it with boilerplat
-e code I already have, otherwise I'll cook something up in a no-code tool. If you have a niche where one type of solutio
-n is commonly demanded, it helps to have a general demo set up to be able to handle a larger volume of calls, so you are
-n't burning yourself out. I'll also elaborate on how the final product would look like in comparison to the demo.
-* Call
- #3 and Beyond:
-   * Once the initial consultation and demo is complete, you will want to alleviate any remaining concer
-ns from your prospects and work with them to reach a final work proposal. It's crucial you lay out exactly what you will
- be building (in writing) and ensure the prospect understands this. Furthermore, be clear and transparent with timelines
- and communication methods for the project. In terms of pricing, you want to take this from a value-based approach. The 
-same solution may be worth a lot more to client A than client B. Furthermore, you can create 'add-ons' such as monthly m
-aintenance/upgrade packages, training sessions for employeees, and so forth, separate from the initial setup fee you wou
-ld charge.
-
-**How you can incorporate AI into marketing your businesses**
-
-Beyond cold sales, I highly recommend creatin
-g a funnel to capture warm leads. For instance, I do this currently with my AI tools directory, which links directly to 
-my AI agency and has consistent branding throughout. Warm leads are much more likely to close (and honestly, much nicer 
-to deal with).
-
-However, even without an AI-related website, at the very least you will want to create a presence on soc
-ial media and the web in general. As with any agency, you will want basic a professional presence. A professional virtua
-l address helps, in addition to a Google Business Profile (GBP) and TrustPilot. a GBP (especially for local SEO) and Tru
-stpilot page also helps improve the looks of your search results immensely.
-
-For GBP, I recommend using **ProfilePro**, 
-which is a chrome extension you can use to automate SEO work for your GBP. Aside from SEO optimzied business description
-s based on your business, it can handle Q/A answers, responses, updates, and service descriptions based on local keyword
-s.
-
-**Privacy and Legal Concerns of the AAA Model**
-
-Aside from typical concerns for agencies relating to service contra
-cts, there are a few issues (especially when using no-code tools) that will need to be addressed to run a successful AAA
-. Most of these surround privacy concerns when working with proprietary data. In your terms with your client, you will w
-ant to clearly define hosting providers and any third party tools you will be using to build their solution, and a DPA w
-ith these third parties listed as subprocessors if necessary. In addition, you will want to implement best practices lik
-e redacting private information from data being used for building solutions. In terms of addressing concerns directly fr
-om clients, it helps if you host your solutions on their own servers (not possible with AI tools), and address the fact 
-only ChatGPT queries in the web app, not OpenAI API calls, will be used to train OpenAI's models (as reported by mainstr
-eam media). The key here is to be open and transparent with your clients about ALL the tools you are using, where there 
-data will be going, and make sure to get this all in writing.
-
-# have fun, and keep an open mind
-
-Before I finish this p
-ost, I just want to reiterate the fact that this is NOT an easy way to make money. Running an AI agency will require hou
-rs and hours of dedication and work, and constantly rearranging your schedule to meet prospect and client needs. However
-, if you are looking for a new business to run, and have a knack for understanding business operations and are **genuine
-ly interested in the pracitcal applications of generative AI**, then I say go for it. The time is ticking before AAA bec
-omes the new dropshipping or SMMA, and I've a firm believer that those who set foot first and establish themselves in th
-is field will come out top. And remember, while 100 thousand people may read this post, only 2 may actually take initiat
-ive and start.
-```
----
-
-     
- 
-MachineLearning -  [ [P] Retrieval augmented generation with OpenSearch and reranking [Video tutorial] ](https://www.reddit.com/r/MachineLearning/comments/16zouad/p_retrieval_augmented_generation_with_opensearch/) , 2023-10-14-0909
+MachineLearning -  [ [P] Retrieval augmented generation with OpenSearch and reranking [Video tutorial] ](https://www.reddit.com/r/MachineLearning/comments/16zouad/p_retrieval_augmented_generation_with_opensearch/) , 2023-10-15-0910
 ```
 I created a video tutorial that tries to demonstrate that semantic search (using embeddings) is not always necessary for
  RAG (retrieval augmented generation). It was inspired by the following Cohere blog post: [https://txt.cohere.com/rerank
@@ -1277,7 +1148,7 @@ Video link: https://youtu.be/OsE7YcDcPz0
 
      
  
-MachineLearning -  [ [D] Perplexity.ai Search Feasibility ](https://www.reddit.com/r/MachineLearning/comments/16x63ce/d_perplexityai_search_feasibility/) , 2023-10-14-0909
+MachineLearning -  [ [D] Perplexity.ai Search Feasibility ](https://www.reddit.com/r/MachineLearning/comments/16x63ce/d_perplexityai_search_feasibility/) , 2023-10-15-0910
 ```
 I've been using [Perplexity.ai](https://perplexity.ai/) for a bit now when it hit me that I don't understand how they ca
 n sustain their business model with search. Stuff like Bing search and Google search cost around $5 or more per 1000 sea
@@ -1292,7 +1163,7 @@ bsites from the search results and tokenized them for LLM retrieval?
 
      
  
-MachineLearning -  [ [P] vLLM, Langchain, Embedchain ? ](https://www.reddit.com/r/MachineLearning/comments/16ndyxc/p_vllm_langchain_embedchain/) , 2023-10-14-0909
+MachineLearning -  [ [P] vLLM, Langchain, Embedchain ? ](https://www.reddit.com/r/MachineLearning/comments/16ndyxc/p_vllm_langchain_embedchain/) , 2023-10-15-0910
 ```
 Which libraries do you think would be the most important to learn between these, and to use in my next personal project 
 ? This will be a conversational chatbot trained on podcast transcripts
@@ -1301,7 +1172,7 @@ Which libraries do you think would be the most important to learn between these,
 
      
  
-MachineLearning -  [ [R] Agents: An Open-source Framework for Autonomous Language Agents - AIWaves Inc 2023 ](https://www.reddit.com/r/MachineLearning/comments/16jl4pe/r_agents_an_opensource_framework_for_autonomous/) , 2023-10-14-0909
+MachineLearning -  [ [R] Agents: An Open-source Framework for Autonomous Language Agents - AIWaves Inc 2023 ](https://www.reddit.com/r/MachineLearning/comments/16jl4pe/r_agents_an_opensource_framework_for_autonomous/) , 2023-10-15-0910
 ```
 Paper: [https://arxiv.org/abs/2309.07870](https://arxiv.org/abs/2309.07870) 
 
@@ -1332,7 +1203,7 @@ https://preview.redd.it/howf64r5rgob1.jpg?width=1656&format=pjpg&auto=webp&s=6
 
      
  
-MachineLearning -  [ [P] Ways to speed up llama-2 summarization on sagemaker? ](https://www.reddit.com/r/MachineLearning/comments/16iutyp/p_ways_to_speed_up_llama2_summarization_on/) , 2023-10-14-0909
+MachineLearning -  [ [P] Ways to speed up llama-2 summarization on sagemaker? ](https://www.reddit.com/r/MachineLearning/comments/16iutyp/p_ways_to_speed_up_llama2_summarization_on/) , 2023-10-15-0910
 ```
 I'm currently working on a project to give a quick summary of long articles/conversations.
 
@@ -1364,7 +1235,7 @@ ab4d772228b6fff8616c28ac054c229)
 
      
  
-deeplearning -  [ AutoGen from Microsoft ](https://www.reddit.com/r/deeplearning/comments/170hke6/autogen_from_microsoft/) , 2023-10-14-0909
+deeplearning -  [ AutoGen from Microsoft ](https://www.reddit.com/r/deeplearning/comments/170hke6/autogen_from_microsoft/) , 2023-10-15-0910
 ```
 AI agents are AI systems that can exhibit capabilities such as conducting conversations, completing tasks, reasoning, an
 d seamlessly interacting with humans. 
@@ -1383,7 +1254,7 @@ f AI? Or will AI emerge in other ways? Let me know your thoughts.
 
      
  
-deeplearning -  [ TheBloke/Llama-2-7b does not appear to have a file named pytorch_model.bin, tf_model.h5, model.ckpt  ](https://www.reddit.com/r/deeplearning/comments/16ihzn8/theblokellama27b_does_not_appear_to_have_a_file/) , 2023-10-14-0909
+deeplearning -  [ TheBloke/Llama-2-7b does not appear to have a file named pytorch_model.bin, tf_model.h5, model.ckpt  ](https://www.reddit.com/r/deeplearning/comments/16ihzn8/theblokellama27b_does_not_appear_to_have_a_file/) , 2023-10-15-0910
 ```
 Hey everyone!
 
