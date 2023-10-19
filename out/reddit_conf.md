@@ -1,5 +1,47 @@
  
-all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-18-0910
+all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-10-19-0910
+```
+Finished undergrad in math/cs in 2.5 years from a solid research uni in the US (top 30 overall, top 10 for cs). 3.7 GPA 
+with a few grad courses
+
+1 tiny publication in astrophysics (not related at all)
+1 first/solo author publication at a po
+pular workshop in my field. 
+5 papers under submission to WACV, ICLR, NeurIPS workshops (will know 4/5 of them by the en
+d of the month). Likely will see 2-3 acceptances out of the 4. 
+
+Currently ai research intern after undergrad and had a 
+prev ai research internship, so like 1-1.5 years total experience
+
+signed up for GRE and took it pretty much immediately
+, got 157 verbal 168 quant and not sure if I should retake it & do a full prep. 
+
+Main priority:
+UCSD DSC / CSE PhD
+
+Oth
+ers:
+UCSD ECE PhD (ML track)
+Harvard CS PhD (really good research match there)
+UCLA CS PhD (good research match too)
+MIT
+ PhD
+
+Harvard MIT are big reach, but how far off am I for UCSD? is it worth to take GRE again? Last year I didn’t really
+ talk to a lot of professors or have a good research match at UCSD, so I got declined (also no papers).
+
+Edit: graduated
+ 9 months ago, applied to similar schools last year with no papers (was working on them, but not finished), no GRE, and 
+got declined.
+
+My field of research is generally in deep learning architectures (NAS, Model Compression, Quantization, S
+SL)
+```
+---
+
+     
+ 
+all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-19-0910
 ```
  
 
@@ -112,7 +154,7 @@ es, reading academic publications, engaging in hands-on learning, and building a
 
      
  
-all -  [ Profile Review for my second attempts in AI PhD (mastered out my current) ](https://www.reddit.com/r/gradadmissions/comments/174nkew/profile_review_for_my_second_attempts_in_ai_phd/) , 2023-10-18-0910
+all -  [ Profile Review for my second attempts in AI PhD (mastered out my current) ](https://www.reddit.com/r/gradadmissions/comments/174nkew/profile_review_for_my_second_attempts_in_ai_phd/) , 2023-10-19-0910
 ```
 **Area of Interest:** RL + NLP + Multi-agent
 
@@ -205,7 +247,7 @@ nt/advice is greatly appreciated.
 
      
  
-all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-18-0910
+all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-19-0910
 ```
 I am a final year PhD student in France working on privacy and  fairness topics in deep neural networks. My publication 
 record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS).  Recently, I've been applying to data sc
@@ -223,7 +265,7 @@ Resume - [https://i.imgur.com/x2IavdR.jpg](https://i.imgur.com/x2IavdR.jpg)
 
      
  
-all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-18-0910
+all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-19-0910
 ```
 I am currently a final year PhD student in France working on privacy and fairness topics in deep neural networks. My pub
 lication record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS). Recently, I've been applying to
@@ -238,7 +280,7 @@ Resume - https://i.imgur.com/x2IavdR.jpg
 
      
  
-all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-18-0910
+all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-19-0910
 ```
 Hey there!
 
@@ -254,7 +296,7 @@ Thank you very much!
 
      
  
-all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-18-0910
+all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-19-0910
 ```
 Hi all,
 
@@ -300,7 +342,7 @@ Thank you in advance!
 
      
  
-all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-18-0910
+all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-19-0910
 ```
 
 ```
@@ -308,7 +350,7 @@ all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Plann
 
      
  
-all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-18-0910
+all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-19-0910
 ```
 I am applying for fall 2024 for both MS and PhD in CS, with specialization in ML (NLP, Speech)
 
@@ -352,7 +394,7 @@ ersities provide decent chance of landing funding in form of TA/RA, this is impo
 
      
  
-all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-18-0910
+all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-19-0910
 ```
 Hello. I am an international masters student in the US, applying for software engineering internships, but I haven't had
  any luck getting interviews so far. It turns out that I had been formatting my resume in a way that is not the norm her
@@ -373,7 +415,7 @@ https://preview.redd.it/5thjr5viwuqb1.png?width=1344&format=png&auto=webp&s=0bab
 
      
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-18-0910
+all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-19-0910
 ```
  Academic Profile
 
@@ -469,7 +511,7 @@ over up)
 
      
  
-all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-18-0910
+all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-19-0910
 ```
 About to finish my PhD in a specific application of ML. The university is a pretty famous French institution, but withou
 t much AI/ML prestige right now. I have a bunch of publications in industry specific conferences/journals, but no NeurIP
@@ -493,7 +535,7 @@ e through the resume screening stage?
 
      
  
-all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-18-0910
+all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-19-0910
 ```
 I have an accepted paper in NEURIPS 2023, which will be held in Dec 2023.
 
@@ -519,7 +561,7 @@ reatly appreciate help.
 
      
  
-all -  [ Exploring the Future of AI: Insights from Industry Leaders and Innovations in Open-Source Tools ](https://www.reddit.com/r/ai_news_by_ai/comments/16pwirb/exploring_the_future_of_ai_insights_from_industry/) , 2023-10-18-0910
+all -  [ Exploring the Future of AI: Insights from Industry Leaders and Innovations in Open-Source Tools ](https://www.reddit.com/r/ai_news_by_ai/comments/16pwirb/exploring_the_future_of_ai_insights_from_industry/) , 2023-10-19-0910
 ```
 
 
@@ -702,7 +744,7 @@ ecun/status/1705336411283415423](https://twitter.com/ylecun/status/1705336411283
 
      
  
-all -  [ Should I travel to a top conference for networking? ](https://www.reddit.com/r/AskAcademia/comments/16pj58l/should_i_travel_to_a_top_conference_for_networking/) , 2023-10-18-0910
+all -  [ Should I travel to a top conference for networking? ](https://www.reddit.com/r/AskAcademia/comments/16pj58l/should_i_travel_to_a_top_conference_for_networking/) , 2023-10-19-0910
 ```
 Hi Everyone,
 
@@ -723,7 +765,7 @@ ou attend the conference in this case?
 
      
  
-all -  [ [D] Can you go to NeurIPS workshops without presenting? ](https://www.reddit.com/r/MachineLearning/comments/16os3md/d_can_you_go_to_neurips_workshops_without/) , 2023-10-18-0910
+all -  [ [D] Can you go to NeurIPS workshops without presenting? ](https://www.reddit.com/r/MachineLearning/comments/16os3md/d_can_you_go_to_neurips_workshops_without/) , 2023-10-19-0910
 ```
 This year will be my first NeurIPS, and I see some cool workshops but don't have any work that would be a good fit for t
 hem. Can I just go and listen?
@@ -732,7 +774,7 @@ hem. Can I just go and listen?
 
      
  
-all -  [ TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/learnmachinelearning/comments/16oc9f2/timegan_doubt_on_generated_sequence/) , 2023-10-18-0910
+all -  [ TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/learnmachinelearning/comments/16oc9f2/timegan_doubt_on_generated_sequence/) , 2023-10-19-0910
 ```
 Hello everyone
 
@@ -762,7 +804,7 @@ can confirm/develop upon these thoughts I would be extremely grateful.
 
      
  
-all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 2023-10-18-0910
+all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 2023-10-19-0910
 ```
 I’m submitting to the workshop and was wondering if the papers there get published?
 ```
@@ -770,7 +812,7 @@ I’m submitting to the workshop and was wondering if the papers there get publi
 
      
  
-all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 2023-10-18-0910
+all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 2023-10-19-0910
 ```
 NeurIPS 2023 paper acceptance results are supposed to be released at 8 pm (CDT) on September 21. I thought to create a d
 iscussion thread for us to countdown and discuss any celebration/issue/complaint/feedback or anything else.
@@ -784,7 +826,7 @@ o matter what the final result is.
 
      
  
-all -  [ Profile Evaluation MSCS 2024 ](https://www.reddit.com/r/MSCS/comments/16m58hk/profile_evaluation_mscs_2024/) , 2023-10-18-0910
+all -  [ Profile Evaluation MSCS 2024 ](https://www.reddit.com/r/MSCS/comments/16m58hk/profile_evaluation_mscs_2024/) , 2023-10-19-0910
 ```
 Hi everyone, could you kindly help to advise on my choices given the following profile? Thank you so much!
 
@@ -850,28 +892,6 @@ Last year I was rejected by MSSE@CMU-SV, MCS@UIUC, MSCS@Columbia, MSCS@SFU, MSCS
 
 If possible, can you also comment on my possibility of going for research-based alternatives of the MCS programs a
 bove? E.g. MS/PhD@UMass, MMath@Waterloo, MSCS@UCLA
-```
----
-
-     
- 
-all -  [ Is it weird to send out cold emails asking professors for an opportunity to do a long-term self-fund ](https://www.reddit.com/r/AskAcademia/comments/16l25ha/is_it_weird_to_send_out_cold_emails_asking/) , 2023-10-18-0910
-```
-As the title suggests, I'm currently pursuing a CS PhD in China. However, I'm considering a different career path and ha
-ve decided to mastering out to pursue a PhD in the US. I'm aiming for a top 10-20 school in the field of computer scienc
-e, but I'm not sure if my profile is competitive enough. I have 2-3 papers published in venues like NeurIPS and ICLR, as
- well as work experience. However, I feel I lack strong references, particularly from the US. I've heard that recommenda
-tion letters are as important as qualifications.
-
-Therefore, I'm considering delaying my grad application for at least s
-ix months. During this time, I plan to visit a renowned lab to gain more experience and connect with professors who coul
-d write me recommendation letters. I've sent out 3-4 cold emails to professors who I believe would be a good fit. In the
-se emails, I expressed my interest in working with them and briefly outlined my research plans. I also mentioned that I 
-could self-fund my visit if necessary. The emails are quite long, usually 200-300 words. As for now I have yet received 
-any response from them.
-
-Do you think it's off-putting to directly ask about the possibility of a self-funded visit with
-out prior conversations? Which might appear that I am quite desperate.
 ```
 ---
 
