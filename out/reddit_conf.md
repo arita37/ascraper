@@ -1,5 +1,126 @@
  
-all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-10-20-0910
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-10-21-0909
+```
+Hello all,
+
+I am conducting research in the field of ViT. Research focuses on developing a method to improve ViT on a sm
+all dataset from scratch and using ImageNet weights. In literature, I found similar work is already been proposed in the
+ paper 'Efficient Training of Visual Transformers with Small Datasets' [https://proceedings.neurips.cc/paper/2021/file/c
+81e155d85dae5430a8cee6f2242e82c-Paper.pdf](https://proceedings.neurips.cc/paper/2021/file/c81e155d85dae5430a8cee6f2242e8
+2c-Paper.pdf).
+
+My question is with whom to compare my method? should I compare with **this paper** or should I compare 
+my results with the **original** ViT-S/32, ViT-B/32, ViT-T/32, ViT-T/16, SWIN-T, CVT, T2T.
+
+Further, should I use the sa
+me dataset or can I replace some with other datasets?
+```
+---
+
+     
+ 
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-10-21-0909
+```
+Hello all,
+
+I am conducting research in the field of ViT. Research focuses on developing a method to improve ViT on a sm
+all dataset from scratch and using ImageNet weights. In literature, I found similar work is already been proposed in the
+ paper 'Efficient Training of Visual Transformers with Small Datasets' [https://proceedings.neurips.cc/paper/2021/file/c
+81e155d85dae5430a8cee6f2242e82c-Paper.pdf](https://proceedings.neurips.cc/paper/2021/file/c81e155d85dae5430a8cee6f2242e8
+2c-Paper.pdf). 
+
+My question is with whom to compare my method? should I compare with **this paper** or should I compare
+ my results with the **original** ViT-S/32, ViT-B/32, ViT-T/32, ViT-T/16, SWIN-T, CVT, T2T.
+
+Further, should I use the s
+ame dataset or can I replace some with other datasets?
+```
+---
+
+     
+ 
+all -  [ MSCS Profile Evaluation - Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/17c2w15/mscs_profile_evaluation_fall_2024/) , 2023-10-21-0909
+```
+B.E. (ongoing) from a Tier 2 Institution in India  
+CGPA: 9.46  
+Research Papers: 4 (One accepted at NeurIPS workshop)  
+
+Internships: 2 (one research-based at a US startup)  
+LoRs: 2 from professors whom I have worked with (published resear
+ch papers) and one from the startup (the founder is an MIT Postdoc)
+
+This is where I am afraid:  
+TOEFL: 100 (R:27, L:26
+, S:23, W:24)  
+This was my 2nd attempt to improve my speaking score but still couldn't do it.
+
+Shortlisted Universities
+:  
+
+
+1. **Ambitious**  
+MIT  
+Stanford  
+Princeton  
+UCB  
+UIUC  
+UCSD  
+UCLA  
+UT Austin  
+UMCP
+2.  **Moderate**  
+UMa
+ss Amherst  
+Purdue  
+NEU  
+ASU
+```
+---
+
+     
+ 
+all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-10-21-0909
+```
+**paper**: [https://arxiv.org/abs/2301.12321](https://arxiv.org/abs/2301.12321)
+
+**code**: [https://github.com/snu-mllab
+/Neural-Relation-Graph](https://github.com/snu-mllab/Neural-Relation-Graph)
+
+**TDLR**: We present a scalable and domain-
+agnostic approach utilizing the relational structure of data for identifying label noise and outliers
+
+https://preview.r
+edd.it/o9k7kliqe9vb1.png?width=3108&format=png&auto=webp&s=b7c34bd7f4bc130915440986570104f9bebd4f07
+
+>Diagnosing and cle
+aning data is a crucial step for building robust machine learning systems. However, identifying problems within large-sc
+ale datasets with real-world distributions is challenging due to the presence of complex issues such as label errors, un
+der-representation, and outliers. In this paper, we propose a unified approach for identifying the problematic data by u
+tilizing a largely ignored source of information: a relational structure of data in the feature-embedded space. To this 
+end, we present scalable and effective algorithms for detecting label errors and outlier data based on the relational gr
+aph structure of data. We further introduce a visualization tool that provides contextual information of a data point in
+ the feature-embedded space, serving as an effective tool for interactively diagnosing data. We evaluate the label error
+ and outlier/out-of-distribution (OOD) detection performances of our approach on the large-scale image, speech, and lang
+uage domain tasks, including ImageNet, ESC-50, and SST2. Our approach achieves state-of-the-art detection performance on
+ all tasks considered and demonstrates its effectiveness in debugging large-scale real-world datasets across various dom
+ains.
+
+&#x200B;
+
+[Detected samples with label error \(red colored\) from ImageNet \(top\) and SST2 \(bottom\).](https://
+preview.redd.it/4x2244ure9vb1.png?width=2778&format=png&auto=webp&s=6c6cb9f8d1befce392d31546eab569ffa70d74cc)
+
+&#x200B;
+
+
+[Detected outlier samples from ImageNet \(top\) and SST2 \(bottom\) validation sets.](https://preview.redd.it/2kkfdspxe
+9vb1.png?width=2720&format=png&auto=webp&s=312249638229b4cb5e815b76c1ef8309a829581b)
+```
+---
+
+     
+ 
+all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-10-21-0909
 ```
 Was supposed to be Monday but instead it's rolling
 ```
@@ -7,38 +128,41 @@ Was supposed to be Monday but instead it's rolling
 
      
  
-all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-10-20-0910
+all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-10-21-0909
 ```
-Accepted at NeurIPS 2023
+**Accepted at NeurIPS 2023**
 
-Link: https://arxiv.org/abs/2305.11475
+*Link:* [https://arxiv.org/abs/2305.11475](https://arxiv.org/abs/2305.11475)
 
-Authors: Julien Siems*, Konstantin Ditschuneit*, Winfr
-ied Ripken*, Alma Lindborg*, Maximilian Schambach, Johannes Otterbach, Martin Genzel
+*Authors:* J
+ulien Siems\*, Konstantin Ditschuneit\*, Winfried Ripken\*, Alma Lindborg\*, Maximilian Schambach, Johannes Otterbach, M
+artin Genzel
 
-*equal contribution
+\*equal contribution
 
-Abstract: Gen
-eralized Additive Models (GAMs) have recently experienced a resurgence in popularity due to their interpretability, whic
-h arises from expressing the target value as a sum of non-linear transformations of the features. Despite the current en
-thusiasm for GAMs, their susceptibility to concurvity - i.e., (possibly non-linear) dependencies between the features - 
-has hitherto been largely overlooked. Here, we demonstrate how concurvity can severly impair the interpretability of GAM
-s and propose a remedy: a conceptually simple, yet effective regularizer which penalizes pairwise correlations of the no
-n-linearly transformed feature variables. This procedure is applicable to any differentiable additive model, such as Neu
-ral Additive Models or NeuralProphet, and enhances interpretability by eliminating ambiguities due to self-canceling fea
-ture contributions. We validate the effectiveness of our regularizer in experiments on synthetic as well as real-world d
-atasets for time-series and tabular data. Our experiments show that concurvity in GAMs can be reduced without significan
-tly compromising prediction quality, improving interpretability and reducing variance in the feature importances.
+*Abstract:* Generalized Additive Models (GAMs) have recently experienced a resurgenc
+e in popularity due to their interpretability, which arises from expressing the target value as a sum of non-linear tran
+sformations of the features. Despite the current enthusiasm for GAMs, their susceptibility to concurvity - i.e., (possib
+ly non-linear) dependencies between the features - has hitherto been largely overlooked. Here, we demonstrate how concur
+vity can severly impair the interpretability of GAMs and propose a remedy: a conceptually simple, yet effective regulari
+zer which penalizes pairwise correlations of the non-linearly transformed feature variables. This procedure is applicabl
+e to any differentiable additive model, such as Neural Additive Models or NeuralProphet, and enhances interpretability b
+y eliminating ambiguities due to self-canceling feature contributions. We validate the effectiveness of our regularizer 
+in experiments on synthetic as well as real-world datasets for time-series and tabular data. Our experiments show that c
+oncurvity in GAMs can be reduced without significantly compromising prediction quality, improving interpretability and r
+educing variance in the feature importances.
 
-Keywo
-rds: Interpretable Machine Learning, Generalized Additive Models, Concurvity, Multicollinearity, Regularization, Time-Se
-ries Forecasting, Interpretability
+*Keywords:* Interpretable Machine Learning, Generalized Additive Models, C
+oncurvity, Multicollinearity, Regularization, Time-Series Forecasting, Interpretability
+
+https://preview.redd.it/wtdkhb3
+bsbvb1.png?width=1002&format=png&auto=webp&s=3067a2361f55603bf4b7769eaede32ca1f32496f
 ```
 ---
 
      
  
-all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-10-20-0910
+all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-10-21-0909
 ```
 Finished undergrad in math/cs in 2.5 years from a solid research uni in the US (top 30 overall, top 10 for cs). 3.7 GPA 
 with a few grad courses
@@ -80,7 +204,7 @@ SL)
 
      
  
-all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-20-0910
+all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-21-0909
 ```
  
 
@@ -193,7 +317,7 @@ es, reading academic publications, engaging in hands-on learning, and building a
 
      
  
-all -  [ Profile Review for my second attempts in AI PhD (mastered out my current) ](https://www.reddit.com/r/gradadmissions/comments/174nkew/profile_review_for_my_second_attempts_in_ai_phd/) , 2023-10-20-0910
+all -  [ Profile Review for my second attempts in AI PhD (mastered out my current) ](https://www.reddit.com/r/gradadmissions/comments/174nkew/profile_review_for_my_second_attempts_in_ai_phd/) , 2023-10-21-0909
 ```
 **Area of Interest:** RL + NLP + Multi-agent
 
@@ -286,7 +410,7 @@ nt/advice is greatly appreciated.
 
      
  
-all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-20-0910
+all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-21-0909
 ```
 I am a final year PhD student in France working on privacy and  fairness topics in deep neural networks. My publication 
 record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS).  Recently, I've been applying to data sc
@@ -304,7 +428,7 @@ Resume - [https://i.imgur.com/x2IavdR.jpg](https://i.imgur.com/x2IavdR.jpg)
 
      
  
-all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-20-0910
+all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-21-0909
 ```
 I am currently a final year PhD student in France working on privacy and fairness topics in deep neural networks. My pub
 lication record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS). Recently, I've been applying to
@@ -319,7 +443,7 @@ Resume - https://i.imgur.com/x2IavdR.jpg
 
      
  
-all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-20-0910
+all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-21-0909
 ```
 Hey there!
 
@@ -335,7 +459,7 @@ Thank you very much!
 
      
  
-all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-20-0910
+all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-21-0909
 ```
 Hi all,
 
@@ -381,7 +505,7 @@ Thank you in advance!
 
      
  
-all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-20-0910
+all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-21-0909
 ```
 
 ```
@@ -389,7 +513,7 @@ all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Plann
 
      
  
-all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-20-0910
+all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-21-0909
 ```
 I am applying for fall 2024 for both MS and PhD in CS, with specialization in ML (NLP, Speech)
 
@@ -433,7 +557,7 @@ ersities provide decent chance of landing funding in form of TA/RA, this is impo
 
      
  
-all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-20-0910
+all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-21-0909
 ```
 Hello. I am an international masters student in the US, applying for software engineering internships, but I haven't had
  any luck getting interviews so far. It turns out that I had been formatting my resume in a way that is not the norm her
@@ -454,7 +578,7 @@ https://preview.redd.it/5thjr5viwuqb1.png?width=1344&format=png&auto=webp&s=0bab
 
      
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-20-0910
+all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-21-0909
 ```
  Academic Profile
 
@@ -550,7 +674,7 @@ over up)
 
      
  
-all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-20-0910
+all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-21-0909
 ```
 About to finish my PhD in a specific application of ML. The university is a pretty famous French institution, but withou
 t much AI/ML prestige right now. I have a bunch of publications in industry specific conferences/journals, but no NeurIP
@@ -574,7 +698,7 @@ e through the resume screening stage?
 
      
  
-all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-20-0910
+all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-21-0909
 ```
 I have an accepted paper in NEURIPS 2023, which will be held in Dec 2023.
 
@@ -600,7 +724,7 @@ reatly appreciate help.
 
      
  
-all -  [ Exploring the Future of AI: Insights from Industry Leaders and Innovations in Open-Source Tools ](https://www.reddit.com/r/ai_news_by_ai/comments/16pwirb/exploring_the_future_of_ai_insights_from_industry/) , 2023-10-20-0910
+all -  [ Exploring the Future of AI: Insights from Industry Leaders and Innovations in Open-Source Tools ](https://www.reddit.com/r/ai_news_by_ai/comments/16pwirb/exploring_the_future_of_ai_insights_from_industry/) , 2023-10-21-0909
 ```
 
 
@@ -783,7 +907,7 @@ ecun/status/1705336411283415423](https://twitter.com/ylecun/status/1705336411283
 
      
  
-all -  [ Should I travel to a top conference for networking? ](https://www.reddit.com/r/AskAcademia/comments/16pj58l/should_i_travel_to_a_top_conference_for_networking/) , 2023-10-20-0910
+all -  [ Should I travel to a top conference for networking? ](https://www.reddit.com/r/AskAcademia/comments/16pj58l/should_i_travel_to_a_top_conference_for_networking/) , 2023-10-21-0909
 ```
 Hi Everyone,
 
@@ -804,7 +928,7 @@ ou attend the conference in this case?
 
      
  
-all -  [ [D] Can you go to NeurIPS workshops without presenting? ](https://www.reddit.com/r/MachineLearning/comments/16os3md/d_can_you_go_to_neurips_workshops_without/) , 2023-10-20-0910
+all -  [ [D] Can you go to NeurIPS workshops without presenting? ](https://www.reddit.com/r/MachineLearning/comments/16os3md/d_can_you_go_to_neurips_workshops_without/) , 2023-10-21-0909
 ```
 This year will be my first NeurIPS, and I see some cool workshops but don't have any work that would be a good fit for t
 hem. Can I just go and listen?
@@ -813,7 +937,7 @@ hem. Can I just go and listen?
 
      
  
-all -  [ TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/learnmachinelearning/comments/16oc9f2/timegan_doubt_on_generated_sequence/) , 2023-10-20-0910
+all -  [ TimeGAN - doubt on generated sequence ](https://www.reddit.com/r/learnmachinelearning/comments/16oc9f2/timegan_doubt_on_generated_sequence/) , 2023-10-21-0909
 ```
 Hello everyone
 
@@ -843,7 +967,7 @@ can confirm/develop upon these thoughts I would be extremely grateful.
 
      
  
-all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 2023-10-20-0910
+all -  [ [D] Do NeurIPs workshop papers get published? ](https://www.reddit.com/r/MachineLearning/comments/16nsw95/d_do_neurips_workshop_papers_get_published/) , 2023-10-21-0909
 ```
 I’m submitting to the workshop and was wondering if the papers there get published?
 ```
@@ -851,7 +975,7 @@ I’m submitting to the workshop and was wondering if the papers there get publi
 
      
  
-all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 2023-10-20-0910
+all -  [ [D] NeurIPS 2023 paper acceptance results ](https://www.reddit.com/r/MachineLearning/comments/16nljrn/d_neurips_2023_paper_acceptance_results/) , 2023-10-21-0909
 ```
 NeurIPS 2023 paper acceptance results are supposed to be released at 8 pm (CDT) on September 21. I thought to create a d
 iscussion thread for us to countdown and discuss any celebration/issue/complaint/feedback or anything else.
