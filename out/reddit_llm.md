@@ -1,5 +1,417 @@
  
-all -  [ how to use mixed raw input and inferred input from ZERO_SHOT_REACT_DESCRIPTION agent ](https://www.reddit.com/r/LangChain/comments/17deqnp/how_to_use_mixed_raw_input_and_inferred_input/) , 2023-10-22-0910
+all -  [ Prompt format on web-ui for Minstrel models ](https://www.reddit.com/r/Oobabooga/comments/17e5okl/prompt_format_on_webui_for_minstrel_models/) , 2023-10-23-0909
+```
+I am currently running Dolphin2.1-minstrel-7b model on textgen-webui. It seems to be woking fine langchain web-ui. Howev
+er, I think that the model response could be better if I could modify the prompt format something like this:  
+
+
+<|im\_s
+tart|>system
+
+You are Dolphin, a helpful AI assistant.<|im\_end|>
+
+<|im\_start|>user
+
+{prompt}<|im\_end|>
+
+<|im\_start|>
+assistant
+
+  
+Does anybody has any idea what setting change needs to be done at the web-ui interface so that the prompt 
+format is aligned with Minstrel models? 
+```
+---
+
+     
+ 
+all -  [ If any of you guys want a chatbot you can easily edit the voice and personality of yourself, I made  ](https://m.youtube.com/watch?v=_LKxaG5ILnQ&pp=ygU2Q2hhdGJvdCBzbyBnb29kIGl0cyBzY2FyeSBhIHN0b3J5IG9mIGEgYm95IGFuZCBoaXMgYm90) , 2023-10-23-0909
+```
+Just want to preface that this isn’t an ad, and I’m not a YouTuber. I made this singular YouTube video and don’t plan on
+ making another again.
+
+The GitHub repository is in the description.
+
+The bot uses a fine-tuned gpt3.5 model, elevenlabs
+, langchain, whisper, and runs as a fastapi app. There are personality data sets included in the repository, but if you’
+d like to create your own, the tutorial shows how to synthesize your own data and create your own fine-tuned model. Hope
+ someone enjoys it.
+```
+---
+
+     
+ 
+all -  [ Add LangChain to my opensource project SolidGPT -> chat with your codebase directly just like ChatGP ](https://www.reddit.com/r/LangChain/comments/17e4aif/add_langchain_to_my_opensource_project_solidgpt/) , 2023-10-23-0909
+```
+My open source project SolidGPT just release the v0.2.6, by using GPT4 model
+
+and I add a **New feature - Chat everythin
+g with your code repository**
+
+In SolidGPT v0.2.6. We can do:
+
+* Ask questions about any part of the codebase.
+* Input n
+ew requirements and have SolidGPT provide a coding plan.
+* Seek clarity on any section, and let SolidGPT guide your unde
+rstanding.
+* Deploy everything locally
+
+GitHub: [https://github.com/AI-Citizen/SolidGPT](https://github.com/AI-Citizen/S
+olidGPT)
+
+**Private Solution**
+
+Integrate with LangChain to let LLM agent scan and learning the code repository, always 
+give the answer deeply base on your codebase content
+
+**Deploy Locally**
+
+Integrate with FastAPI and using the Docker, e
+asily deploy locally, charge your date by your own.
+
+I'm diligently exploring more practical methods for people to colla
+borate with LLM Agents. The goal is to enhance our development processes and empower every tech enthusiast with AI.  
+
+
+
+https://preview.redd.it/69s4104frtvb1.png?width=3012&format=png&auto=webp&s=198447a992955b8c739416554b5972dd33c048e0
+```
+---
+
+     
+ 
+all -  [ ChatRepo - chat with your codebase directly just like ChatGPT Resources ](https://www.reddit.com/r/foss/comments/17e491l/chatrepo_chat_with_your_codebase_directly_just/) , 2023-10-23-0909
+```
+My open source project SolidGPT just release the v0.2.6, by using GPT4 model
+
+and I add a **New feature - Chat everythin
+g with your code repository**
+
+In SolidGPT v0.2.6. We can do:
+
+* Ask questions about any part of the codebase.
+* Input n
+ew requirements and have SolidGPT provide a coding plan.
+* Seek clarity on any section, and let SolidGPT guide your unde
+rstanding.
+* Deploy everything locally
+
+GitHub: [https://github.com/AI-Citizen/SolidGPT](https://github.com/AI-Citizen/S
+olidGPT)
+
+**Private Solution**
+
+Integrate with LangChain to let LLM agent scan and learning the code repository, always 
+give the answer deeply base on your codebase content
+
+**Deploy Locally**
+
+Integrate with FastAPI and using the Docker, e
+asily deploy locally, charge your date by your own.
+
+I'm diligently exploring more practical methods for people to colla
+borate with LLM Agents. The goal is to enhance our development processes and empower every tech enthusiast with AI.
+
+htt
+ps://preview.redd.it/f4yi0vk1rtvb1.png?width=3012&format=png&auto=webp&s=e22025e7bde28eeb699220e3b6cd7a63b5e6d922
+
+&#x20
+0B;
+
+Let me know what's your thought about my open source project!
+```
+---
+
+     
+ 
+all -  [ ChatRepo - chat with your codebase directly just like ChatGPT ](https://www.reddit.com/r/ChatGPT/comments/17e43jj/chatrepo_chat_with_your_codebase_directly_just/) , 2023-10-23-0909
+```
+My open source project SolidGPT just release the v0.2.6, by using GPT4 model
+
+and I add a **New feature - Chat everythin
+g with your code repository**
+
+In SolidGPT v0.2.6. We can do:
+
+* Ask questions about any part of the codebase.
+* Input n
+ew requirements and have SolidGPT provide a coding plan.
+* Seek clarity on any section, and let SolidGPT guide your unde
+rstanding.
+* Deploy everything locally
+
+GitHub: [https://github.com/AI-Citizen/SolidGPT](https://github.com/AI-Citizen/S
+olidGPT) 
+
+**Private Solution**
+
+Integrate with LangChain to let LLM agent scan and learning the code repository, always
+ give the answer deeply base on your codebase content
+
+**Deploy Locally**
+
+Integrate with FastAPI and using the Docker, 
+easily deploy locally, charge your date by your own.
+
+I'm diligently exploring more practical methods for people to coll
+aborate with LLM Agents. The goal is to enhance our development processes and empower every tech enthusiast with AI.
+
+ht
+tps://preview.redd.it/2dt89nxsptvb1.png?width=3012&format=png&auto=webp&s=8ea89eff3511b51f0381b7da080441ae16b1e531
+
+&#x2
+00B;
+
+Let me know what's your thought about my open source project! 
+```
+---
+
+     
+ 
+all -  [ How do I integrate multiple expert agents? ](https://www.reddit.com/r/LangChain/comments/17dz0fr/how_do_i_integrate_multiple_expert_agents/) , 2023-10-23-0909
+```
+Hi guys, I've been working with LLM's for a while now, and looking into building a new project which has some functional
+ity I haven't figured out yet, how to do in the best way. I want to be able to handle multiple expert agents, which migh
+t even use different language models.
+
+How would you guys approach the following use case?
+
+**I want to create a chatbot
+ that consists of several helper agents, each with its own specialty. Here's how it works:**
+
+1. The user sends a messag
+e to the main agent (let's call it the 'Planner Agent').
+2. The Planner Agent decides on a plan to fulfill the user's re
+quest.
+3. It then checks if any of its helper agents (like Expert Agent A, B, or C) can handle parts of that plan.
+4. If
+ a helper agent can do a task, it might ask the user for more details to get the job done.
+5. Once all tasks are complet
+ed, the Planner Agent confirms with the user that everything went smoothly.
+
+**Example Use Case: Imagine you're using a 
+travel planning chat agent.**
+
+1. You tell the main agent (Planner Agent) that you want to plan a trip to Paris.
+2. Plan
+ner Agent creates a plan: (a) Book flights, (b) Find hotels, (c) Suggest tourist spots.
+3. Expert Agent A, who specializ
+es in flights, then asks you for your preferred travel dates.
+4. Expert Agent B, the hotel guru, inquires about your bud
+get and desired amenities.
+5. Expert Agent C, the sightseeing expert, asks about your interests—like art, history, or ad
+venture.
+6. After gathering all the info, the Planner Agent presents you with a complete travel itinerary and asks for y
+our approval.
+```
+---
+
+     
+ 
+all -  [ Write pandas prompt using React ](https://www.reddit.com/r/LangChain/comments/17dyhi5/write_pandas_prompt_using_react/) , 2023-10-23-0909
+```
+Hi, I am very new to langchain and trying to build a prompt using React thought and reasoning template, just wanted to u
+nderstand if is it possible to make the llm's learn how to query custom tasks using pandas? For example, I want to build
+ a prompt that teaches llms to carry out a multi step task using pandas agent.
+```
+---
+
+     
+ 
+all -  [ Integrating Chat History Sessions with Langchain Python, Mistral, and Choosing the Right Database ](https://www.reddit.com/r/LangChain/comments/17dr55p/integrating_chat_history_sessions_with_langchain/) , 2023-10-23-0909
+```
+ I am a beginner creating a website for a chatbot using Langchain Python and Mistral. I want to add chat history session
+s similar to those in ChatGPT or Bard, etc. Should I use Supabase, PostgreSQL, or MongoDB? Additionally, could someone d
+irect me towards any resources because I am new to web development too? 
+```
+---
+
+     
+ 
+all -  [ Input query parsing in a conversational chain ](https://www.reddit.com/r/LangChain/comments/17dpb2w/input_query_parsing_in_a_conversational_chain/) , 2023-10-23-0909
+```
+Hi there!
+
+I have a similar question to this [reddit post](https://www.reddit.com/r/LangChain/comments/1420v8c/input_que
+ry_parsing/) but my question has a different use case.
+
+In layman terms, if I have a query that says: 'Give me 5 UK base
+d companies that are building houses' I'd like for the retriever filter to contain 'country = 'UK''
+
+I've seen the 'Self
+Query' retriever which takes in a list of AttributeInfo so that it can parse the query from the input text it receives. 
+However, I'd like to do the same but in a ConversationalChain.  
+
+
+It seems like I cannot simply swap out my normal (pin
+econe) retriever for a selfquery retriever and hope that it works out...but as someone who's very new to the framework I
+ might be wrong. It doesn't seem to return any results.  
+
+
+So my question is, should it be just as easy as providing th
+e self query retriever to my conversational chain  
+
+
+>***self\_query\_retriever = SelfQueryRetriever.from\_llm(***  
+**
+*llm,***  
+***vector\_store,***  
+***'',***  
+***self.get\_content\_meta\_data\_field\_info(), # returns a list of attri
+bute info fields, i.e. country***  
+***verbose=True***  
+***)***   
+***return*** **ConversationalRetrievalChain.from\_ll
+m(**  
+ **llm=llm,**  
+ **memory=memory,**  
+ **retriever=self\_query\_retriever,**  
+ **verbose=True,**  
+ **return\_so
+urce\_documents=True**  
+ **)**
+
+or, should I be using some part of LangChain that I don't know of that generates the fi
+lters from the query, which I can then use in my (Pinecone) retriever:  
+
+
+&#x200B;
+
+>***filter = 'parse\_structured\_fi
+lter\_from\_query(query)***  
+***return*** **ConversationalRetrievalChain.from\_llm(**  
+ **llm=llm,**  
+ **memory=memor
+y,**  
+ **retriever='make pinecone retriever with filter',**  
+ **verbose=True,**  
+ **return\_source\_documents=True** 
+ 
+ **)**
+```
+---
+
+     
+ 
+all -  [ AWS OpenSearch serverless ](https://www.reddit.com/r/aws/comments/17dp8m8/aws_opensearch_serverless/) , 2023-10-23-0909
+```
+I have an issue with AWS OpenSearch serverless that has me stumped. 
+
+I’m trying to do something very simple. Using lang
+chain load some docs into a OS Serverless vector store. 
+
+I can connect to the vector database. When I try to write the 
+docs to an index, it creates the index but can’t write the docs to the index. It returns a 404.
+
+I created a wide open d
+ata access control policy. So the principal has full grant on the collection and full grant on wildcarded indexes. 
+
+The
+ principle is an IAM user with a full admin policy. I will tighten all of this, but for the sake of testing this is the 
+easiest.
+
+Does anybody have any idea what could cause the 404? What am I missing?
+```
+---
+
+     
+ 
+all -  [ Setting up Local File store cache for embeddings when using Agents ](https://www.reddit.com/r/LangChain/comments/17dngme/setting_up_local_file_store_cache_for_embeddings/) , 2023-10-23-0909
+```
+I am developing an agent that fetches text data from an AWS s3 bucket but I’m thinking If I setup a local cache for stor
+ing embeddings(I did this when using retrieval chains) response would be faster.
+Has anyone done this before?
+```
+---
+
+     
+ 
+all -  [ Writing your own abstraction rather than using langchain ? ](https://www.reddit.com/r/LangChain/comments/17dmxam/writing_your_own_abstraction_rather_than_using/) , 2023-10-23-0909
+```
+Hi Everyone, so I am relatively new to LangChain and struggling to see the point of it all. I have tried to go through d
+ocumentation and for even the simplest of tasks it is too complicated.
+
+So my question to you all is, is there any point
+ of using langchain rather than having your own abstraction frameworks ??
+```
+---
+
+     
+ 
+all -  [ Best VectorDb to store 500+ docs ](https://www.reddit.com/r/LangChain/comments/17dlj9x/best_vectordb_to_store_500_docs/) , 2023-10-23-0909
+```
+I am trying to build an QnA app on over 500 docs (about 15-20mb each). What would be the best way to do this. I have tri
+ed pinecone but it seems quite slow while embedding. What other options are suited to my requirements. Also while indexi
+ng, I’m looping over each doc, is there a better way to do it?
+```
+---
+
+     
+ 
+all -  [ Built it for my project at first: Memorybase.io supercharges ChatGPT with memory capabilities for yo ](https://www.reddit.com/r/learnmachinelearning/comments/17dl1bw/built_it_for_my_project_at_first_memorybaseio/) , 2023-10-23-0909
+```
+Hey everyone!
+
+I've been delving deep into chatbots lately, especially with the ChatGPT API, and I found an issue that's
+ probably familiar to many of you: ChatGPT doesn't inherently have memory capabilities. For many applications, that's pe
+rfectly fine, but for those of us who are trying to create a more context-aware and dynamic conversation flow, this limi
+tation is quite apparent.
+
+I faced this challenge in one of my projects and realized that there had to be a better way t
+o integrate context and memory into ChatGPT's conversations. So, I built something for myself which I thought might be u
+seful for many of you as well. Allow me to introduce you to [**Memorybase.io**](http://memorybase.io/).
+
+Memorybase is a
+ developer-friendly API that's designed to seamlessly integrate memory functionality into the ChatGPT API. By harnessing
+ the power of the Pinecone vector database and LangChain, Memorybase wraps around the ChatGPT API and ensures that the r
+ight context and memory are injected into each query. This means that your chatbot can remember previous interactions, p
+references, or any other context that's relevant for more engaging and meaningful conversations.
+
+Imagine a user asking 
+your chatbot about movie recommendations. The next day, they come back and reference that conversation, expecting the bo
+t to remember. With Memorybase, that continuity becomes possible. The user experience improves manifold, and the possibi
+lities for more sophisticated and context-aware bots increase tremendously.
+
+I originally built Memorybase for my own ne
+eds. But the more I used it, the more I realized that this could have broader applications. Any developer looking to lev
+erage the ChatGPT API could potentially benefit from the enhanced memory and context capabilities. From customer support
+ bots to interactive storytelling, the potential use cases are vast.
+
+This technology stack (pinecone/langchain) is not 
+complex or ‘new’ per se, but for application developers who aren’t interested in managing it or hosting it, this could b
+e a useful hassle-free option for your projects.
+
+I've set up a page over at [memorybase.io](https://memorybase.io/) whe
+re you can learn more about how it works and see if it aligns with your needs. I would love for you to check it out and 
+share your thoughts. Your feedback, insights, and potential use cases would be invaluable as I continue to refine and ex
+pand the capabilities of Memorybase.
+
+Thanks for reading, and I'm eager to hear your thoughts and see where Memorybase c
+an fit into the exciting world of chatbots!
+```
+---
+
+     
+ 
+all -  [ Looking for inspiration! ](https://www.reddit.com/r/LangChain/comments/17dkpcq/looking_for_inspiration/) , 2023-10-23-0909
+```
+ I'm looking for some inspiration on what cool stuff you have made using LangChain. I've been playing around with it for
+ a bit, and I'm really impressed with the possibilities. 
+```
+---
+
+     
+ 
+all -  [ What’s are some good resources as reference to create my own coding bot? ](https://www.reddit.com/r/LangChain/comments/17djv64/whats_are_some_good_resources_as_reference_to/) , 2023-10-23-0909
+```
+I’d like to create a bot that generates code based on some documentation that I have after receiving text inputs
+```
+---
+
+     
+ 
+all -  [ how to use mixed raw input and inferred input from ZERO_SHOT_REACT_DESCRIPTION agent ](https://www.reddit.com/r/LangChain/comments/17deqnp/how_to_use_mixed_raw_input_and_inferred_input/) , 2023-10-23-0909
 ```
 I have multiple tools in agent = initialize\_agent(  
 tools, llm, agent=AgentType.ZERO\_SHOT\_REACT\_DESCRIPTION, verbos
@@ -11,7 +423,7 @@ hich I need to take full raw user input, not sure if there's any way to do that
 
      
  
-all -  [ Is there an alternative to Zapier NLA? ](https://www.reddit.com/r/LangChain/comments/17d9q75/is_there_an_alternative_to_zapier_nla/) , 2023-10-22-0910
+all -  [ Is there an alternative to Zapier NLA? ](https://www.reddit.com/r/LangChain/comments/17d9q75/is_there_an_alternative_to_zapier_nla/) , 2023-10-23-0909
 ```
 I had build various applications using the NLA api of Zapier and I loved that to be honest. But it is dissappointing to 
 see that they are discontinuing it soon:  
@@ -27,7 +439,7 @@ have a similar service which could be used as an alternative for it? all answers
 
      
  
-all -  [ Please confirm you want to do x, y and z. ](https://www.reddit.com/r/LangChain/comments/17d9kvg/please_confirm_you_want_to_do_x_y_and_z/) , 2023-10-22-0910
+all -  [ Please confirm you want to do x, y and z. ](https://www.reddit.com/r/LangChain/comments/17d9kvg/please_confirm_you_want_to_do_x_y_and_z/) , 2023-10-23-0909
 ```
 Hello Everyone. 
 
@@ -42,7 +454,7 @@ Thank you!
 
      
  
-all -  [ Suggestions before moving to production ](https://www.reddit.com/r/LocalLLaMA/comments/17d6wjq/suggestions_before_moving_to_production/) , 2023-10-22-0910
+all -  [ Suggestions before moving to production ](https://www.reddit.com/r/LocalLLaMA/comments/17d6wjq/suggestions_before_moving_to_production/) , 2023-10-23-0909
 ```
 Hey everyone, 
 We are building a RAG based chatbot , I have been doing poc for one month writing custom functions for ev
@@ -63,7 +475,7 @@ Thanks ,
 
      
  
-all -  [ Discover the fundamentals of ModularMind. Learn how to harness the power of machine learning models, ](https://youtu.be/Dyh5j_bkoJA) , 2023-10-22-0910
+all -  [ Discover the fundamentals of ModularMind. Learn how to harness the power of machine learning models, ](https://youtu.be/Dyh5j_bkoJA) , 2023-10-23-0909
 ```
 
 ```
@@ -71,7 +483,7 @@ all -  [ Discover the fundamentals of ModularMind. Learn how to harness the powe
 
      
  
-all -  [ NeuralGPT - Creating Universal Chat Memory Module For Multiple LLMs In A Cooperative Multi-Agent Net ](https://www.reddit.com/r/AIPsychology/comments/17d1eyl/neuralgpt_creating_universal_chat_memory_module/) , 2023-10-22-0910
+all -  [ NeuralGPT - Creating Universal Chat Memory Module For Multiple LLMs In A Cooperative Multi-Agent Net ](https://www.reddit.com/r/AIPsychology/comments/17d1eyl/neuralgpt_creating_universal_chat_memory_module/) , 2023-10-23-0909
 ```
 [www.reddit.com/r/AIPsychology/](https://www.reddit.com/r/AIPsychology/)
 
@@ -309,7 +721,7 @@ jvb1.jpg?width=580&format=pjpg&auto=webp&s=f3d6548e7cc53e0f1fe19fc3e6ed6596e003a
 
      
  
-all -  [ Is LangChain more customizable and transparent than LlamaIndex? ](https://www.reddit.com/r/LangChain/comments/17d0x1b/is_langchain_more_customizable_and_transparent/) , 2023-10-22-0910
+all -  [ Is LangChain more customizable and transparent than LlamaIndex? ](https://www.reddit.com/r/LangChain/comments/17d0x1b/is_langchain_more_customizable_and_transparent/) , 2023-10-23-0909
 ```
 I've been experimenting with LlamaIndex, as I found it to be simpler to use compared to LangChain. But so far, LlamaInde
 x feels limited in that not all of the data going through the different pipelines is accessible to the user. Whilst it d
@@ -321,7 +733,7 @@ Is LangChain more customizeable and transparent compared to LlamaIndex?
 
      
  
-all -  [ How to extract only relevant sources ](https://www.reddit.com/r/LangChain/comments/17d0fzh/how_to_extract_only_relevant_sources/) , 2023-10-22-0910
+all -  [ How to extract only relevant sources ](https://www.reddit.com/r/LangChain/comments/17d0fzh/how_to_extract_only_relevant_sources/) , 2023-10-23-0909
 ```
 Hi, I have a RAG setup with OpenAI functions where one of the functions uses a RetrievalQA which returns source document
 s. It looks like this:
@@ -351,7 +763,7 @@ How can I make the RetrievalQA only return the sources that was actually relevan
 
      
  
-all -  [ Is it possible for startups to build semantic search engines using LangChain ? ](https://www.reddit.com/r/LangChain/comments/17cwajv/is_it_possible_for_startups_to_build_semantic/) , 2023-10-22-0910
+all -  [ Is it possible for startups to build semantic search engines using LangChain ? ](https://www.reddit.com/r/LangChain/comments/17cwajv/is_it_possible_for_startups_to_build_semantic/) , 2023-10-23-0909
 ```
 LangChain is becoming widely adopted, however, I'm not sure if it can be used with small-medium companies to build searc
 h engines. Are the LangChain modules (retievers, indexers and loaders) efficient enough or companies should develop thei
@@ -361,7 +773,7 @@ r own modules because LangChain's modules are not enough efficient?
 
      
  
-all -  [ Is Prompt Engineering viable for freelancing? ](https://www.reddit.com/r/PromptEngineering/comments/17crcgb/is_prompt_engineering_viable_for_freelancing/) , 2023-10-22-0910
+all -  [ Is Prompt Engineering viable for freelancing? ](https://www.reddit.com/r/PromptEngineering/comments/17crcgb/is_prompt_engineering_viable_for_freelancing/) , 2023-10-23-0909
 ```
 Hey fellas, I’m a new freelancer on upwork. I’ve decided to work as a prompt engineer using stable diffusion and chat gb
 t however I’m very new and lack general guidance and knowledge. Is prompt engineering a good paying and comparatively le
@@ -381,7 +793,7 @@ d advice is highly appreciated, thanks!
 
      
  
-all -  [ Create_pandas_dataframe_agent to image ](https://www.reddit.com/r/LangChain/comments/17cphjq/create_pandas_dataframe_agent_to_image/) , 2023-10-22-0910
+all -  [ Create_pandas_dataframe_agent to image ](https://www.reddit.com/r/LangChain/comments/17cphjq/create_pandas_dataframe_agent_to_image/) , 2023-10-23-0909
 ```
 When it generates an image using plot, how do I capture it and save it so I can then pass it to gradio?
 ```
@@ -389,7 +801,7 @@ When it generates an image using plot, how do I capture it and save it so I can 
 
      
  
-all -  [ [D] Is lang chain the right solution? ](https://www.reddit.com/r/MachineLearning/comments/17coyym/d_is_lang_chain_the_right_solution/) , 2023-10-22-0910
+all -  [ [D] Is lang chain the right solution? ](https://www.reddit.com/r/MachineLearning/comments/17coyym/d_is_lang_chain_the_right_solution/) , 2023-10-23-0909
 ```
 Hello, I would love to have an LLm that can provide answers (in chat format) based some of the sql db  data we have. Wan
 t it for an internal company project. I am by no means an expert but decent in programming and want to build a system to
@@ -403,7 +815,7 @@ Please suggest any other solutions. Also would Langchain being a company and
 
      
  
-all -  [ 1000 Member Celebration and FAQ ](https://www.reddit.com/r/AI_Agents/comments/17coiep/1000_member_celebration_and_faq/) , 2023-10-22-0910
+all -  [ 1000 Member Celebration and FAQ ](https://www.reddit.com/r/AI_Agents/comments/17coiep/1000_member_celebration_and_faq/) , 2023-10-23-0909
 ```
 First of all, thanks y'all. We made it. 1000 AI Agents! I'm going to address some FAQ as well.
 
@@ -440,7 +852,7 @@ Thank you again everyone! You're the first 1000 in
 
      
  
-all -  [ Make custom ai chatbot on your data with langchain, chatgpt ](https://www.reddit.com/r/u_Full-Code-905/comments/17co7rp/make_custom_ai_chatbot_on_your_data_with/) , 2023-10-22-0910
+all -  [ Make custom ai chatbot on your data with langchain, chatgpt ](https://www.reddit.com/r/u_Full-Code-905/comments/17co7rp/make_custom_ai_chatbot_on_your_data_with/) , 2023-10-23-0909
 ```
 Create a user-friendly web application featuring an AI chatbot that effectively handles queries from extensive documents
 . Harnessing the latest advancements in natural language processing and embeddings, our chatbot, powered by Langchain an
@@ -474,7 +886,7 @@ What I can do for you
 
      
  
-all -  [ [P] building a D&D NPC ](https://www.reddit.com/r/MachineLearning/comments/17clyw6/p_building_a_dd_npc/) , 2023-10-22-0910
+all -  [ [P] building a D&D NPC ](https://www.reddit.com/r/MachineLearning/comments/17clyw6/p_building_a_dd_npc/) , 2023-10-23-0909
 ```
 Hey everyone,
 
@@ -510,7 +922,7 @@ If I posted in the wrong group please direct
 
      
  
-all -  [ Llama2-13b-chat | Chatbot ](https://www.reddit.com/r/LocalLLaMA/comments/17cfycf/llama213bchat_chatbot/) , 2023-10-22-0910
+all -  [ Llama2-13b-chat | Chatbot ](https://www.reddit.com/r/LocalLLaMA/comments/17cfycf/llama213bchat_chatbot/) , 2023-10-23-0909
 ```
 I have some questions about making a chatbot with  large amounts of pdfs and other file formats! Any input or nudge in t
 he right direction would be awesome.
@@ -535,7 +947,7 @@ w to this and any input is greatly appreciated!
 
      
  
-all -  [ Langchain not recognizing the torch ROCm and installing generic torch during PIP installation ](https://www.reddit.com/r/LangChain/comments/17cfwww/langchain_not_recognizing_the_torch_rocm_and/) , 2023-10-22-0910
+all -  [ Langchain not recognizing the torch ROCm and installing generic torch during PIP installation ](https://www.reddit.com/r/LangChain/comments/17cfwww/langchain_not_recognizing_the_torch_rocm_and/) , 2023-10-23-0909
 ```
 I have an AMD system and I have installed the ROCm version of the torch using the following command:
 
@@ -569,7 +981,7 @@ TIA
 
      
  
-all -  [ Introducing 1️⃣ One-Prompt Charts 📊 📟 Prompt about your data, and see it visualized ✨ ](https://www.reddit.com/r/ChatGPTCoding/comments/17cf7b5/introducing_1_oneprompt_charts_prompt_about_your/) , 2023-10-22-0910
+all -  [ Introducing 1️⃣ One-Prompt Charts 📊 📟 Prompt about your data, and see it visualized ✨ ](https://www.reddit.com/r/ChatGPTCoding/comments/17cf7b5/introducing_1_oneprompt_charts_prompt_about_your/) , 2023-10-23-0909
 ```
 **1️⃣ One-Prompt Charts 📊  📟** ***Prompting is the new programming ...***  
 \- Supports .csv, .xls or .xlsx data type  
@@ -595,34 +1007,7 @@ https://reddit.com/link/17cf7b5/video/8hi81v89vdvb1/player
 
      
  
-all -  [ Introducing 1️⃣ One-Prompt Charts 📊 📟 Prompt about your data, and see it visualized ✨ ](https://www.reddit.com/r/GPT3/comments/17cf31v/introducing_1_oneprompt_charts_prompt_about_your/) , 2023-10-22-0910
-```
-**1️⃣ One-Prompt Charts 📊  📟** ***Prompting is the new programming ...***  
-\- Supports .csv, .xls or .xlsx data type  
-
-\- Connects to Google Sheets  
-\- Provides underlying codes to create any plots  
-
-
-One-Prompt Charts uses [OpenAI](http
-s://openai.com/) powered Large Language Models and [Databutton](https://databutton.com/login?utm_source=aiapps&utm_mediu
-m=avra&utm_article=aipowereddataviz) for the ease of development. The app utilizes tools like [LangChainAI](https://www.
-langchain.com/) and [PandasAI](https://github.com/gventuri/pandas-ai) for testing and drawing inspiration from. 
-
-🚀 Try 
-the  app - [here](https://databutton.com/v/ln6jv4p3)  
-Try out over Databutton and get started with the [template](https
-://databutton.com/new?templateId=pt-9mDXY0vFD930bDnL).   
-
-
-https://preview.redd.it/88qz7grgudvb1.png?width=1434&format=
-png&auto=webp&s=941aabf2be8dedf74958b0a130899b06259132f9
-```
----
-
-     
- 
-all -  [ project tranlation Agents already implemented? ](https://www.reddit.com/r/LangChain/comments/17caw6j/project_tranlation_agents_already_implemented/) , 2023-10-22-0910
+all -  [ project tranlation Agents already implemented? ](https://www.reddit.com/r/LangChain/comments/17caw6j/project_tranlation_agents_already_implemented/) , 2023-10-23-0909
 ```
 We are aware that there are projects like gpt-engineer and similar, which aim to convert or improve the code. However, I
 'm particularly interested in finding an agent or chain that allows a project to be converted from one codebase to anoth
@@ -636,7 +1021,7 @@ If it doesn't exist I would like to try to implement it using Langchain, are the
 
      
  
-all -  [ Anyone worked on reading PDF With Tables ](https://www.reddit.com/r/LangChain/comments/17c7g9b/anyone_worked_on_reading_pdf_with_tables/) , 2023-10-22-0910
+all -  [ Anyone worked on reading PDF With Tables ](https://www.reddit.com/r/LangChain/comments/17c7g9b/anyone_worked_on_reading_pdf_with_tables/) , 2023-10-23-0909
 ```
 HI Community, 
 
@@ -652,7 +1037,7 @@ roblem? Please share your inputs. Thanks.
 
      
  
-all -  [ MultiRetrievalQAChain failing 90% of the time ](https://www.reddit.com/r/LangChain/comments/17c7cqr/multiretrievalqachain_failing_90_of_the_time/) , 2023-10-22-0910
+all -  [ MultiRetrievalQAChain failing 90% of the time ](https://www.reddit.com/r/LangChain/comments/17c7cqr/multiretrievalqachain_failing_90_of_the_time/) , 2023-10-23-0909
 ```
 I'm trying to load several documents that share the same structure. If I load them and query 'who is the author of the p
 aper X?', I get a mix of authors from the different documents.
@@ -672,7 +1057,7 @@ e query?
 
      
  
-all -  [ How to build a chatbot that doesn’t hallucinate ](https://www.reddit.com/r/ArtificialInteligence/comments/17brr5e/how_to_build_a_chatbot_that_doesnt_hallucinate/) , 2023-10-22-0910
+all -  [ How to build a chatbot that doesn’t hallucinate ](https://www.reddit.com/r/ArtificialInteligence/comments/17brr5e/how_to_build_a_chatbot_that_doesnt_hallucinate/) , 2023-10-23-0909
 ```
 Seeing a lot of talk about LLM observability and we have quite an in-production pipeline so figured I’d share how we do 
 it.  
@@ -719,7 +1104,7 @@ ces looks like too if that's helpful!
 
      
  
-all -  [ Which Chunk Size, Chunk overlap and Model to use for inserting text in Flowise? ](https://www.reddit.com/r/LangChain/comments/17browm/which_chunk_size_chunk_overlap_and_model_to_use/) , 2023-10-22-0910
+all -  [ Which Chunk Size, Chunk overlap and Model to use for inserting text in Flowise? ](https://www.reddit.com/r/LangChain/comments/17browm/which_chunk_size_chunk_overlap_and_model_to_use/) , 2023-10-23-0909
 ```
 I insert a lot of research text from PDFs into Pinecone with Flowise. I can't say what chunk size, chunk overlap and mod
 el is best for this task.
@@ -738,7 +1123,7 @@ Greetings
 
      
  
-all -  [ Text to sql for large databases ](https://www.reddit.com/r/LangChain/comments/17bq8is/text_to_sql_for_large_databases/) , 2023-10-22-0910
+all -  [ Text to sql for large databases ](https://www.reddit.com/r/LangChain/comments/17bq8is/text_to_sql_for_large_databases/) , 2023-10-23-0909
 ```
 Has anyone actually implemented Text to SQL for large databases ? I'm talking around 1500 tables. I've tried SQL agents 
 and most of the time it works, but the issue is with the token usage. It used up 10$ worth of credits in a short period 
@@ -754,7 +1139,7 @@ nt for a query might help, not sure though).
 
      
  
-all -  [ AI/Deep Learning Solutions for Preprocessing Diverse and Messy CSV Files ](https://www.reddit.com/r/LangChain/comments/17blrgp/aideep_learning_solutions_for_preprocessing/) , 2023-10-22-0910
+all -  [ AI/Deep Learning Solutions for Preprocessing Diverse and Messy CSV Files ](https://www.reddit.com/r/LangChain/comments/17blrgp/aideep_learning_solutions_for_preprocessing/) , 2023-10-23-0909
 ```
 I'm dealing with a multitude of CSV files where the formats and structures vary widely, with mixed styles, inconsistent 
 headers, and sometimes even headers smack in the middle of the data. It's a nightmare for any machine learning endeavor.
@@ -779,7 +1164,7 @@ Thanks in advance for your help!
 
      
  
-all -  [ Meetup de AI4Devs en La Plata ](https://www.reddit.com/r/devsarg/comments/17bikrr/meetup_de_ai4devs_en_la_plata/) , 2023-10-22-0910
+all -  [ Meetup de AI4Devs en La Plata ](https://www.reddit.com/r/devsarg/comments/17bikrr/meetup_de_ai4devs_en_la_plata/) , 2023-10-23-0909
 ```
 Buenass, les cuento que en La Plata estamos armando una comunidad de AI4Devs, la idea es tener un espacio donde comparti
 r herramientas de AI que se usen en el dia a dia de los devs, ya sea para integrarlas con aplicaciones, para el desarrol
@@ -801,1220 +1186,7 @@ https://preview.redd.it/5jmn7yroq5vb1
 
      
  
-all -  [ Stable but Evolving Summary over Time? ](https://www.reddit.com/r/ChatGPTCoding/comments/17bikc7/stable_but_evolving_summary_over_time/) , 2023-10-22-0910
-```
-Does anyone have experience updating summarizations with addendums? I'm trying to take an existing summary (for which th
-e original text has been discarded) and prompt to look at a new block of raw text and ask for an update to the summary t
-o encode the new information.  
-
-
-The challenge is that I'd like the summary to remain around the same length over time 
-as this process iterates, keeping the most salient information in the summary. My attempts so far have yielded either (a
-) dropping information because it is 're-summarizing' the summary in addition to incorporating the new addendum, or (b) 
-just adding on new details to the summary over time. Where what I'd really like is for new 'important' details in the ad
-dendums to trump less important details in existing summaries, and keep the summary size more or less stable over time. 
- 
-
-
-Happy for any pointers to places people have done this successfully -- prompt examples, langchain agents, etc. 
-```
----
-
-     
- 
-all -  [ How can I create user input/output for this code block? ](https://www.reddit.com/r/learnpython/comments/17bhhyt/how_can_i_create_user_inputoutput_for_this_code/) , 2023-10-22-0910
-```
-from langchain.chat\_models import ChatOpenAI  
-from langchain.prompts import HumanMessagePromptTemplate  
-from langchai
-n.schema.messages import SystemMessage  
-chat\_template = ChatPromptTemplate.from\_messages(  
-\[  
-SystemMessage(  
-con
-tent=(  
-'You are a helpful assistant that re-writes the user's text to '  
-'sound more upbeat.'  
-)  
-),  
-HumanMessage
-PromptTemplate.from\_template('{text}'),  
-\]  
-)  
-llm = ChatOpenAI()  
-llm(chat\_template.format\_messages(text='i don
-t like eating tasty things.'))  
-
-
-Its my first time using langchain and I'm curious
-```
----
-
-     
- 
-all -  [ i'm having problem while using LLama2 models with Langchain , tell me the best way to work with LLam ](https://www.reddit.com/r/LangChain/comments/17bfqdy/im_having_problem_while_using_llama2_models_with/) , 2023-10-22-0910
-```
-So many Errors , when i try to use ChatpromptTemplate it gives me error , it does not recognize the chat models or LLMs
-
-
-  
- 
-
-`callback_manager = CallbackManager([StreamingStdOutCallbackHandler()])`  
-`# Make sure the model path is correct
- for your system!`  
-`llm = LlamaCpp(`  
- `model_path='models/llama-2-13b-chat.ggmlv3.q4_0.bin', callback_manager=callba
-ck_manager, verbose=True,n_ctx=4096, max_tokens=1000, last_n_tokens_size=1000 , temperature=0`  
-`)`  
-`llama_embeddings
- = LlamaCppEmbeddings(model_path='models/llama-2-13b-chat.ggmlv3.q4_0.bin')`
-```
----
-
-     
- 
-all -  [ product recommendations advice ](https://www.reddit.com/r/LangChain/comments/17bdufy/product_recommendations_advice/) , 2023-10-22-0910
-```
-I am looking to a create a bot on WhatsApp that provides products based on a user's preferences.
-
-5 questions - style, b
-udget, etc 
-
-It would then display 5 products that best match those preferences.
-
-It would be linked to a product feed (
-XML or RSS) so that would auto update.
-
-What is the best tech stack to achieve this? E.g. openai, pinecone, langchain, e
-tc.  What pitfalls should I be aware of?
-
-I have experience building WhatsApp bots but this specific integration is new 
-to me.
-
-Thanks
-```
----
-
-     
- 
-all -  [ Update collection in Qdrant(don't want to create collection from scratch) ](https://www.reddit.com/r/LangChain/comments/17bc1ij/update_collection_in_qdrantdont_want_to_create/) , 2023-10-22-0910
-```
-I am using Qdrant as the vector db for a RAG project. I would like some inputs and thoughts on how to update the existin
-g collection in qdrant. The user can upload multiple files and I am adding these documents embedding in the same collect
-ion. Now if the user updates some text in one of the document instead of recreating the entire collection I want to upda
-te the payload and vectors of the document that got updated. Recreating the collection from scratch is an expensive task
- is there way to update the collection by deleting the old document and inserting the new one and update document.
-```
----
-
-     
- 
-all -  [ Chatbot based on SQL results with temporary chat history? ](https://www.reddit.com/r/LangChain/comments/17bc0j1/chatbot_based_on_sql_results_with_temporary_chat/) , 2023-10-22-0910
-```
-Hello, 
-
-First off, here is my background situation:
-We have a table that contains scraped results of different articles
- around the globe (not sentiment analysis), and those articles might have thousand of keywords. 
-
-The analytical team is
- requiring a chatbot that can ask questions based off these results.
-
-By using SQL Chain from langchain, it kinda had th
-e expected results. However, we have two problems:
-
-1- The token limit is a pain, because most of the results are huge a
-round 20k tokens.
-
-2- The sqlchain isn't actually a chatbot. It just gives you an answer, but it won't respond to querie
-s like 'make the previous answer in a json format', etc.
-
-I know I am newbie in chatbots so I would like any general 'th
-inking' process or direction, just point me to any topic
-```
----
-
-     
- 
-all -  [ 300+ Free Udemy Certificate Courses -Limited Time - 19/10/23 ](https://www.reddit.com/r/Newudemy/comments/17b9ld0/300_free_udemy_certificate_courses_limited_time/) , 2023-10-22-0910
-```
- View All Courses: [https://inventhigh.net](https://inventhigh.net/)
-
-1. WordPress Theme Development from Scratch 2.0-[h
-ttps://inventhigh.net/udemy/advanced-wordpress-theme-development-with-bootstrap/](https://inventhigh.net/udemy/advanced-
-wordpress-theme-development-with-bootstrap/)
-2. WooCommerce Theme Development: Advanced Course-[https://inventhigh.net/u
-demy/woocommerce-wordpress-theme-development/](https://inventhigh.net/udemy/woocommerce-wordpress-theme-development/)
-3.
- Ultra-Fast WordPress Speed With 10Web WordPress Web Hosting-[https://inventhigh.net/udemy/ultra-fast-wordpress-speed/](
-https://inventhigh.net/udemy/ultra-fast-wordpress-speed/)
-4. Python Programming Language | Master Python Course (Arabic)
--[https://inventhigh.net/udemy/python\_tutorials/](https://inventhigh.net/udemy/python_tutorials/)
-5. Python And Flask  
-Demonstrations Practice Course-[https://inventhigh.net/udemy/python-and-flask-only-demonstration-course/](https://invent
-high.net/udemy/python-and-flask-only-demonstration-course/)
-6. Linux Tmux-[https://inventhigh.net/udemy/linux-tmux/](htt
-ps://inventhigh.net/udemy/linux-tmux/)
-7. Learn Web Design using WordPress & Start Freelancing-[https://inventhigh.net/u
-demy/become-successful-wordpress-freelancer-to-make-money-online/](https://inventhigh.net/udemy/become-successful-wordpr
-ess-freelancer-to-make-money-online/)
-8. Haskell Exercises for Beginners-[https://inventhigh.net/udemy/haskell-exercises
--for-beginners/](https://inventhigh.net/udemy/haskell-exercises-for-beginners/)
-9. Convert a one page HTML5 Template to 
-a WordPress Theme-[https://inventhigh.net/udemy/convert-html5-template-to-wordpress-theme/](https://inventhigh.net/udemy
-/convert-html5-template-to-wordpress-theme/)
-10. Computer Basics-[https://inventhigh.net/udemy/basic-of-computer/](https
-://inventhigh.net/udemy/basic-of-computer/)
-11. CSS Crash Course For Beginners-[https://inventhigh.net/udemy/css-crash-c
-ourse-for-beginners-g/](https://inventhigh.net/udemy/css-crash-course-for-beginners-g/)
-12. Asteroids with Python PyGame
--[https://inventhigh.net/udemy/asteroids-with-python-pygame/](https://inventhigh.net/udemy/asteroids-with-python-pygame/
-)
-13. Linode: Foundations of Web Server Security-[https://inventhigh.net/udemy/linode-foundations-of-web-server-security
-/](https://inventhigh.net/udemy/linode-foundations-of-web-server-security/)
-14. Linode: Build and Deploy Responsive Webs
-ites on the Cloud-[https://inventhigh.net/udemy/linode-build-and-deploy-responsive-websites-on-the-cloud/](https://inven
-thigh.net/udemy/linode-build-and-deploy-responsive-websites-on-the-cloud/)
-15. Learn Bootstrap - For Beginners-[https://
-inventhigh.net/udemy/learn-bootstrap-for-beginners/](https://inventhigh.net/udemy/learn-bootstrap-for-beginners/)
-16. Ja
-vaScript, Bootstrap, & PHP - Certification for Beginners-[https://inventhigh.net/udemy/javascript-bootstrap-php-certific
-ation-for-beginners/](https://inventhigh.net/udemy/javascript-bootstrap-php-certification-for-beginners/)
-17. Bootstrap 
-& jQuery - Certification Course for Beginners-[https://inventhigh.net/udemy/bootstrap-jquery-certification-course-for-be
-ginners/](https://inventhigh.net/udemy/bootstrap-jquery-certification-course-for-beginners/)
-18. AWS Beginner to Interme
-diate: EC2, IAM, ELB, ASG, Route 53-[https://inventhigh.net/udemy/aws-beginner-to-intermediate-ec2-iam-elb-asg-route-53/
-](https://inventhigh.net/udemy/aws-beginner-to-intermediate-ec2-iam-elb-asg-route-53/)
-19. AWS & React: Deploy an Auto-S
-caling E-Commerce App with ELB-[https://inventhigh.net/udemy/aws-react-deploy-an-auto-scaling-e-commerce-app-with-elb/](
-https://inventhigh.net/udemy/aws-react-deploy-an-auto-scaling-e-commerce-app-with-elb/)
-20. DevOps Interview Questions P
-reparation Guide - 2023-[https://inventhigh.net/udemy/devops-interview-questions-preparation-guide/](https://inventhigh.
-net/udemy/devops-interview-questions-preparation-guide/)
-21. Quantitative Finance with Python-[https://inventhigh.net/ud
-emy/quantitative-finance-with-python/](https://inventhigh.net/udemy/quantitative-finance-with-python/)
-22. Azure Open AI
- & Prompt Engineering Zero to Hero with Chatgpt-[https://inventhigh.net/udemy/azopenai/](https://inventhigh.net/udemy/az
-openai/)
-23. Object Oriented Programming in C++  &  Interview Preparation-[https://inventhigh.net/udemy/cracking-cpp-int
-erview/](https://inventhigh.net/udemy/cracking-cpp-interview/)
-24. Gatsby JS | Build a personal blog using gatsbyJS-[htt
-ps://inventhigh.net/udemy/gatsbyjs-graphql-build-a-personal-blog-using-gatsbyjs-graphql/](https://inventhigh.net/udemy/g
-atsbyjs-graphql-build-a-personal-blog-using-gatsbyjs-graphql/)
-25. Drupal For Absolute Beginners (2023)-[https://inventh
-igh.net/udemy/drupal-masterclass/](https://inventhigh.net/udemy/drupal-masterclass/)
-26. ChatGPT Plugins: The Complete G
-uide-[https://inventhigh.net/udemy/chatgpt-plugins-the-complete-guide/](https://inventhigh.net/udemy/chatgpt-plugins-the
--complete-guide/)
-27. Build, Host & Manage WordPress Websites using AI \[10Web\]-[https://inventhigh.net/udemy/build-hos
-t-manage-super-fast-wordpress-websites-in-10web/](https://inventhigh.net/udemy/build-host-manage-super-fast-wordpress-we
-bsites-in-10web/)
-28. PHP & MySQL - Certification Course for Beginners-[https://inventhigh.net/udemy/php-mysql-certifica
-tion-course-for-beginners/](https://inventhigh.net/udemy/php-mysql-certification-course-for-beginners/)
-29. Introduction
- to Domain Names and Web Hosting - Quick Guide-[https://inventhigh.net/udemy/introduction-to-domain-names-and-web-hostin
-g-quick-guide/](https://inventhigh.net/udemy/introduction-to-domain-names-and-web-hosting-quick-guide/)
-30. HTML, JavaSc
-ript, & Bootstrap - Certification Course-[https://inventhigh.net/udemy/html-javascript-bootstrap-certification-course/](
-https://inventhigh.net/udemy/html-javascript-bootstrap-certification-course/)
-31. HTML & CSS - Certification Course for 
-Beginners-[https://inventhigh.net/udemy/html-css-certification-course-for-beginners/](https://inventhigh.net/udemy/html-
-css-certification-course-for-beginners/)
-32. Create a Members Only Blog using PHP, MySQL, & AJAX-[https://inventhigh.net
-/udemy/create-a-members-only-blog-using-php-mysql-ajax/](https://inventhigh.net/udemy/create-a-members-only-blog-using-p
-hp-mysql-ajax/)
-33. Configure NGINX on a Cloud Server: Digital Ocean & AWS-[https://inventhigh.net/udemy/configure-nginx
--on-a-cloud-server-digital-ocean-aws/](https://inventhigh.net/udemy/configure-nginx-on-a-cloud-server-digital-ocean-aws/
-)
-34. Cloud Computing Essentials: Linode, Linux, and LAMP Stack-[https://inventhigh.net/udemy/cloud-computing-essentials
--linode-linux-and-lamp-stack/](https://inventhigh.net/udemy/cloud-computing-essentials-linode-linux-and-lamp-stack/)
-35.
- ChatGPT Expert Professional Certification-[https://inventhigh.net/udemy/chatgpt\_expert/](https://inventhigh.net/udemy/
-chatgpt_expert/)
-36. Adobe Lightroom Classic CC: Master the Library Module-[https://inventhigh.net/udemy/adobe-lightroom
--classic-cc-master-the-library-module/](https://inventhigh.net/udemy/adobe-lightroom-classic-cc-master-the-library-modul
-e/)
-37. Practical Photography for Absolute Beginners: 9 Courses in 1-[https://inventhigh.net/udemy/complete-photography-
-course/](https://inventhigh.net/udemy/complete-photography-course/)
-38. Practical Cisco Networking Labs in Cisco Packet 
-Tracer-[https://inventhigh.net/udemy/practical-cisco-networking-labs/](https://inventhigh.net/udemy/practical-cisco-netw
-orking-labs/)
-39. Information Security Fundamentals-[https://inventhigh.net/udemy/infosec-fundamentals/](https://inventh
-igh.net/udemy/infosec-fundamentals/)
-40. Create a WordPress website with Hostinger!-[https://inventhigh.net/udemy/wordpr
-ess-and-hosting-for-beginners/](https://inventhigh.net/udemy/wordpress-and-hosting-for-beginners/)
-41. Tally Erp 9 + Tal
-ly Prime + GST - Certificate Course-[https://inventhigh.net/udemy/tallygst/](https://inventhigh.net/udemy/tallygst/)
-42.
- Building AI Saas Apps / AI Tools with \[No Code\] x ChatGPT-[https://inventhigh.net/udemy/ai-saas-apps/](https://invent
-high.net/udemy/ai-saas-apps/)
-43. Excel for Data Analysis & Financial Analysis-[https://inventhigh.net/udemy/microsoft-e
-xcel-course-for-financial-analysis/](https://inventhigh.net/udemy/microsoft-excel-course-for-financial-analysis/)
-44. TI
-KTOK Masterclass: Build Your Business With TIKTOK-[https://inventhigh.net/udemy/tiktok-masterclass-build-your-business-w
-ith-tiktok/](https://inventhigh.net/udemy/tiktok-masterclass-build-your-business-with-tiktok/)
-45. Squarespace Templates
- Unleashed: Rapid Professional Websites-[https://inventhigh.net/udemy/squarespace-templates-unleashed-rapid-professional
--websites/](https://inventhigh.net/udemy/squarespace-templates-unleashed-rapid-professional-websites/)
-46. Squarespace B
-ox of Tricks: Master Website Builders in 2023-[https://inventhigh.net/udemy/squarespace-web-design-box-of-tricks/](https
-://inventhigh.net/udemy/squarespace-web-design-box-of-tricks/)
-47. Sell Photo Online: Beginners Guide Stock Photography-
-[https://inventhigh.net/udemy/mastering-stock-photography-step-by-step-guideline/](https://inventhigh.net/udemy/masterin
-g-stock-photography-step-by-step-guideline/)
-48. SEO Link Building & Content Writing Course: Get HQ Backlinks-[https://i
-nventhigh.net/udemy/seo-link-building-2023/](https://inventhigh.net/udemy/seo-link-building-2023/)
-49. PowerPoint - Micr
-osoft PowerPoint For Beginners 2023-[https://inventhigh.net/udemy/powerpoint-microsoft-powerpoint-for-beginners/](https:
-//inventhigh.net/udemy/powerpoint-microsoft-powerpoint-for-beginners/)
-50. Macroeconomic Analysis: Investigating Inflati
-on Trend with R-[https://inventhigh.net/udemy/macroeconomic-analysis-investigating-inflation-trend-with-r/](https://inve
-nthigh.net/udemy/macroeconomic-analysis-investigating-inflation-trend-with-r/)
-51. Learn 10 Ways to Make MORE Money on Y
-ouTube!-[https://inventhigh.net/udemy/learn-to-make-money-on-youtube/](https://inventhigh.net/udemy/learn-to-make-money-
-on-youtube/)
-52. LangChain & OpenAI: Build Python Projects with No-Code 2023-[https://inventhigh.net/udemy/langchain-ope
-nai-chatgpt-api-for-no-code-python-developers/](https://inventhigh.net/udemy/langchain-openai-chatgpt-api-for-no-code-py
-thon-developers/)
-53. JavaScript And PHP Programming Complete Course-[https://inventhigh.net/udemy/javascript-and-php-pr
-ogramming-complete-course/](https://inventhigh.net/udemy/javascript-and-php-programming-complete-course/)
-54. How to Tra
-nsform Your Life with 12 Amazing Powers-[https://inventhigh.net/udemy/12-great-powers-to-change-your-life/](https://inve
-nthigh.net/udemy/12-great-powers-to-change-your-life/)
-55. How to Make Money with YOUTUBE SHORTS Worldwide-[https://inve
-nthigh.net/udemy/how-to-make-money-with-youtube-shorts/](https://inventhigh.net/udemy/how-to-make-money-with-youtube-sho
-rts/)
-56. How To Write Your Business Plan (in One Day} With ChatGPT-[https://inventhigh.net/udemy/business-planning-simp
-lified-write-your-plan-with-chatgpt/](https://inventhigh.net/udemy/business-planning-simplified-write-your-plan-with-cha
-tgpt/)
-57. English Grammar tenses & structures-[https://inventhigh.net/udemy/english-grammar-course-tenses-structures/](
-https://inventhigh.net/udemy/english-grammar-course-tenses-structures/)
-58. Drinking Water Explained: Safety, Process & 
-Challenges-[https://inventhigh.net/udemy/introduction-to-drinking-water-treatment/](https://inventhigh.net/udemy/introdu
-ction-to-drinking-water-treatment/)
-59. Dog Training Secrets: Behavior Insights-[https://inventhigh.net/udemy/dog-traini
-ng-and-behavior-learn-research-backed-approaches/](https://inventhigh.net/udemy/dog-training-and-behavior-learn-research
--backed-approaches/)
-60. ChatGPT: Make Money with ChatGPT as a New Freelancer-[https://inventhigh.net/udemy/chatgpt-make
--money-with-chatgpt-as-a-new-freelancer/](https://inventhigh.net/udemy/chatgpt-make-money-with-chatgpt-as-a-new-freelanc
-er/)
-61. Chair Yoga Teacher Training Certificate - Yoga Alliance CE-[https://inventhigh.net/udemy/chair-yoga-teacher-tra
-ining-certificate-yoga-alliance-ce/](https://inventhigh.net/udemy/chair-yoga-teacher-training-certificate-yoga-alliance-
-ce/)
-62. C++ And Java Training Crash Course 2022-[https://inventhigh.net/udemy/c-and-java-training-crash-course-2022/](h
-ttps://inventhigh.net/udemy/c-and-java-training-crash-course-2022/)
-63. Best of Digital Marketing: #1 Digital Marketing 
-Course 2023-[https://inventhigh.net/udemy/digital-marketing-2021/](https://inventhigh.net/udemy/digital-marketing-2021/)
-
-64. YouTube Academy 2023: Complete Beginner to Pro Step-by-Step-[https://inventhigh.net/udemy/youtubeacademy/](https://
-inventhigh.net/udemy/youtubeacademy/)
-65. Work from Home : Work Life Balance and Time Management-[https://inventhigh.net
-/udemy/work-from-home-work-life-balance/](https://inventhigh.net/udemy/work-from-home-work-life-balance/)
-66. Video Edit
-ing with Avid Media Composer First for Beginners-[https://inventhigh.net/udemy/learn-avid-media-composer-first-for-begin
-ners/](https://inventhigh.net/udemy/learn-avid-media-composer-first-for-beginners/)
-67. Video Editing with Adobe Premier
-e Pro CC for Beginners-[https://inventhigh.net/udemy/video-editing-with-adobe-premiere-pro-cc-for-beginners/](https://in
-venthigh.net/udemy/video-editing-with-adobe-premiere-pro-cc-for-beginners/)
-68. The Mega PRO Digital Marketing Course A-
-Z : In Hindi-[https://inventhigh.net/udemy/learn-digital-marketing-course-hindi/](https://inventhigh.net/udemy/learn-dig
-ital-marketing-course-hindi/)
-69. The Complete Teach-Yourself Drummer's Guide-[https://inventhigh.net/udemy/the-complete
--teach-yourself-drummers-guide/](https://inventhigh.net/udemy/the-complete-teach-yourself-drummers-guide/)
-70. The Art o
-f the Portrait - Drawing For Beginners-[https://inventhigh.net/udemy/master-portrait-drawing/](https://inventhigh.net/ud
-emy/master-portrait-drawing/)
-71. Start a Profitable Affiliate Coupons Website -Passive Income-[https://inventhigh.net/u
-demy/start-a-profitable-discount-coupons-website-passive-income/](https://inventhigh.net/udemy/start-a-profitable-discou
-nt-coupons-website-passive-income/)
-72. Print on Demand 2023: From Zero to Profitable Business-[https://inventhigh.net/u
-demy/print-on-demand-course/](https://inventhigh.net/udemy/print-on-demand-course/)
-73. PowerShell Functions Master Clas
-s-[https://inventhigh.net/udemy/powershell-functions-master-class/](https://inventhigh.net/udemy/powershell-functions-ma
-ster-class/)
-74. Pedagogy in Teaching, Lesson Plan & Classroom Management-[https://inventhigh.net/udemy/pedagogy-in-teac
-hing-lesson-plan-classroom-management/](https://inventhigh.net/udemy/pedagogy-in-teaching-lesson-plan-classroom-manageme
-nt/)
-75. Options Trading for Beginners - Intro Session-[https://inventhigh.net/udemy/options-trading-for-beginners-intro
--session/](https://inventhigh.net/udemy/options-trading-for-beginners-intro-session/)
-76. Online Course Masterclass: Cre
-ate Your Own Course In 30 Days-[https://inventhigh.net/udemy/online-course-masterclass/](https://inventhigh.net/udemy/on
-line-course-masterclass/)
-77. Media Mindful \[A Digital Detox Journey\]-[https://inventhigh.net/udemy/media-mindful-a-di
-gital-detox-journey/](https://inventhigh.net/udemy/media-mindful-a-digital-detox-journey/)
-78. Mastering Doodly: Create 
-Engaging Whiteboard Animations-[https://inventhigh.net/udemy/mastering-doodly-2d-animation-whiteboard-animation/](https:
-//inventhigh.net/udemy/mastering-doodly-2d-animation-whiteboard-animation/)
-79. Make YouTube Thumbnails & Get More Views
- (Photoshop +Online)-[https://inventhigh.net/udemy/create-youtube-thumbnails-in-photoshop-and-free-online-site/](https:/
-/inventhigh.net/udemy/create-youtube-thumbnails-in-photoshop-and-free-online-site/)
-80. Macroeconomic Analysis: Investig
-ating Inflation Trend with R-[https://inventhigh.net/udemy/macroeconomic-analysis-investigating-inflation-trend-with-r/]
-(https://inventhigh.net/udemy/macroeconomic-analysis-investigating-inflation-trend-with-r/)
-81. Learn Structural Enginee
-ring by Drawing Reading & ETABS-[https://inventhigh.net/udemy/learn-structural-architectural-vastu-plans-along-etabs/](h
-ttps://inventhigh.net/udemy/learn-structural-architectural-vastu-plans-along-etabs/)
-82. Learn Graphic Design using Canv
-a & Start Freelancing-[https://inventhigh.net/udemy/canva-mastery-become-freelance-graphic-designer-in-1-hour/](https://
-inventhigh.net/udemy/canva-mastery-become-freelance-graphic-designer-in-1-hour/)
-83. Learn Content Writing using AI & St
-art Freelancing-[https://inventhigh.net/udemy/ai-content-writing/](https://inventhigh.net/udemy/ai-content-writing/)
-84.
- Learn Content Writing using AI & Make Money Online-[https://inventhigh.net/udemy/ai-content-course/](https://inventhigh
-.net/udemy/ai-content-course/)
-85. Learn Basics of Adobe Photoshop CC for Beginners-[https://inventhigh.net/udemy/learn-
-basics-of-adobe-photoshop-cc-for-beginners/](https://inventhigh.net/udemy/learn-basics-of-adobe-photoshop-cc-for-beginne
-rs/)
-86. Learn Basics Of Adobe After Effects CC for Beginners-[https://inventhigh.net/udemy/learn-basics-of-adobe-after-
-effects-cc-for-beginners-learn/](https://inventhigh.net/udemy/learn-basics-of-adobe-after-effects-cc-for-beginners-learn
-/)
-87. How to be a programmer | Full guide to start (Arabic)-[https://inventhigh.net/udemy/how\_to\_become\_a\_programme
-r/](https://inventhigh.net/udemy/how_to_become_a_programmer/)
-88. Grow Your YouTube Channel Faster 2023 (Advanced) StepB
-yStep-[https://inventhigh.net/udemy/the-youtube-academy-speed-growth-plan-proven-results-2022/](https://inventhigh.net/u
-demy/the-youtube-academy-speed-growth-plan-proven-results-2022/)
-89. Generate Income with Your YouTube, Despite Limited 
-Views-[https://inventhigh.net/udemy/generate-income-with-your-youtube-despite-limited-views/](https://inventhigh.net/ude
-my/generate-income-with-your-youtube-despite-limited-views/)
-90. Fundamentals of computer science | Short Term Course(Ar
-abic)-[https://inventhigh.net/udemy/basics\_of\_programming/](https://inventhigh.net/udemy/basics_of_programming/)
-91. E
-xecutive Diploma in Corporate Entrepreneurship-[https://inventhigh.net/udemy/corporate-entrepreneurship/](https://invent
-high.net/udemy/corporate-entrepreneurship/)
-92. Executive Diploma in Business Strategy-[https://inventhigh.net/udemy/dip
-loma-business-strategy/](https://inventhigh.net/udemy/diploma-business-strategy/)
-93. Executive Assistant Professional C
-ertification (EAPC)-[https://inventhigh.net/udemy/executive-assistant/](https://inventhigh.net/udemy/executive-assistant
-/)
-94. Disruptive Thinking For World-Changing Innovative Ideas-[https://inventhigh.net/udemy/disruptive-thinking/](https
-://inventhigh.net/udemy/disruptive-thinking/)
-95. Diploma In Concrete Technology l Be a Concrete Technologist-[https://i
-nventhigh.net/udemy/concrete-technologycivil-engineers-lifeline-in-construction/](https://inventhigh.net/udemy/concrete-
-technologycivil-engineers-lifeline-in-construction/)
-96. Create and Sell Digital Art using AI \[Passive Income\]-[https:
-//inventhigh.net/udemy/ai-art-course/](https://inventhigh.net/udemy/ai-art-course/)
-97. Color Grading and Video Editing 
-with Davinci Resolve 18-[https://inventhigh.net/udemy/color-grading-and-video-editing-with-davinci-resolve/](https://inv
-enthigh.net/udemy/color-grading-and-video-editing-with-davinci-resolve/)
-98. Color Correction & Grading with Adobe Premi
-ere Pro-[https://inventhigh.net/udemy/color-correction-grading-with-adobe-premiere-pro/](https://inventhigh.net/udemy/co
-lor-correction-grading-with-adobe-premiere-pro/)
-99. Cold Email & Lead Generation using AI \[Masterclass\]-[https://inve
-nthigh.net/udemy/ai-cold-email/](https://inventhigh.net/udemy/ai-cold-email/)
-100. Chat GPT & Midjourney: Personal Digit
-al Marketing Assistants-[https://inventhigh.net/udemy/chatgpt-digital-marketing/](https://inventhigh.net/udemy/chatgpt-d
-igital-marketing/)
-101. C programming language | The Complete C Course (Arabic)-[https://inventhigh.net/udemy/c-programm
-ing-language-from-a-to-z/](https://inventhigh.net/udemy/c-programming-language-from-a-to-z/)
-102. Business Networking fo
-r Success and Company Growth: Part One-[https://inventhigh.net/udemy/business-networking-1/](https://inventhigh.net/udem
-y/business-networking-1/)
-103. Build a Profitable Online Courses Business \[Complete Guide\]-[https://inventhigh.net/ude
-my/complete-guide-become-a-six-figure-online-course-instructor/](https://inventhigh.net/udemy/complete-guide-become-a-si
-x-figure-online-course-instructor/)
-104. Become a Successful Affiliate Marketer \[Success Blueprint\]-[https://inventhig
-h.net/udemy/become-a-six-figure-affiliate-marketer-success-blueprint/](https://inventhigh.net/udemy/become-a-six-figure-
-affiliate-marketer-success-blueprint/)
-105. Arabic| Learn Arabic with Mina | Comprehensive Arabic course-[https://invent
-high.net/udemy/learn-arabic-language-d/](https://inventhigh.net/udemy/learn-arabic-language-d/)
-106. Affiliate Marketing
- & MLM Network Marketing For Fashion-[https://inventhigh.net/udemy/affiliate-marketing-mlm-for-waveifyoulike-t-shirt-fas
-hion/](https://inventhigh.net/udemy/affiliate-marketing-mlm-for-waveifyoulike-t-shirt-fashion/)
-107. AI x ChatGPT for Pr
-oductivity 101 \[Masterclass\]-[https://inventhigh.net/udemy/ai-productivity/](https://inventhigh.net/udemy/ai-productiv
-ity/)
-108. AI for Business Strategy & Planning \[Masterclass\]-[https://inventhigh.net/udemy/ai-business-course/](https:
-//inventhigh.net/udemy/ai-business-course/)
-109. Private Equity Course for Beginners (PEQ101)-[https://inventhigh.net/ud
-emy/private-equity-course-for-beginners-peq101/](https://inventhigh.net/udemy/private-equity-course-for-beginners-peq101
-/)
-110. Personal Brand Mastery : Online Personal Branding Essentials-[https://inventhigh.net/udemy/personal-branding-mas
-tery-online-personal-branding-essentials/](https://inventhigh.net/udemy/personal-branding-mastery-online-personal-brandi
-ng-essentials/)
-111. Nuts & Bolts of Capital Markets-[https://inventhigh.net/udemy/nuts-bolts-of-capital-markets/](https
-://inventhigh.net/udemy/nuts-bolts-of-capital-markets/)
-112. Mechanical Engineering Mastery Series : HVAC Engineering 10
-1-[https://inventhigh.net/udemy/mechanical-engineering-course/](https://inventhigh.net/udemy/mechanical-engineering-cour
-se/)
-113. Mastering Presentations and Public Speaking (Ultimate guide)-[https://inventhigh.net/udemy/presentations-and-p
-ublic-speaking/](https://inventhigh.net/udemy/presentations-and-public-speaking/)
-114. Investment Banking for Beginners 
-(IB101)-[https://inventhigh.net/udemy/investment-banking-for-beginners-ib101/](https://inventhigh.net/udemy/investment-b
-anking-for-beginners-ib101/)
-115. Introduction to Microsoft Word for Beginners to Intermediate-[https://inventhigh.net/u
-demy/introduction-to-microsoft-word-for-beginners/](https://inventhigh.net/udemy/introduction-to-microsoft-word-for-begi
-nners/)
-116. Internet & Cloud Computing Foundations-[https://inventhigh.net/udemy/internet-cloud-computing-foundations/]
-(https://inventhigh.net/udemy/internet-cloud-computing-foundations/)
-117. How the Internet Works & the Web Development P
-rocess-[https://inventhigh.net/udemy/how-the-internet-works-the-web-development-process/](https://inventhigh.net/udemy/h
-ow-the-internet-works-the-web-development-process/)
-118. HVAC Design Basics : Understanding HVAC systems With Details-[h
-ttps://inventhigh.net/udemy/hvac-systems/](https://inventhigh.net/udemy/hvac-systems/)
-119. Financial Modeling in Excel 
-- DCF Model of Big Books Corp-[https://inventhigh.net/udemy/financial-modeling-in-excel-dcf-model-of-big-books-inc/](htt
-ps://inventhigh.net/udemy/financial-modeling-in-excel-dcf-model-of-big-books-inc/)
-120. Financial Modeling | Social Medi
-a Sector : Twitter-[https://inventhigh.net/udemy/financial-modeling-social-media-sector-twitter/](https://inventhigh.net
-/udemy/financial-modeling-social-media-sector-twitter/)
-121. Financial Modeling | Food & Beverages Sector : Starbucks-[h
-ttps://inventhigh.net/udemy/financial-modeling-food-beverages-sector-starbucks/](https://inventhigh.net/udemy/financial-
-modeling-food-beverages-sector-starbucks/)
-122. Financial Analysis & Modeling | Islamic Banking-[https://inventhigh.net/
-udemy/financial-modeling-islamic-banking-modeling/](https://inventhigh.net/udemy/financial-modeling-islamic-banking-mode
-ling/)
-123. Financial Analysis & Modeling | Automobile Sector-[https://inventhigh.net/udemy/financial-modeling-automobil
-e-sector-maruti-suzuki/](https://inventhigh.net/udemy/financial-modeling-automobile-sector-maruti-suzuki/)
-124. Computer
- Vision Fundamentals-[https://inventhigh.net/udemy/computer-vision-fundamentals/](https://inventhigh.net/udemy/computer-
-vision-fundamentals/)
-125. Complete Guide to Explosive Power Training-[https://inventhigh.net/udemy/athletic-power-train
-ing-certificate/](https://inventhigh.net/udemy/athletic-power-training-certificate/)
-126. Chief Customer Experience Offi
-cer Executive Certification-[https://inventhigh.net/udemy/chief\_customer\_experience\_officer/](https://inventhigh.net/
-udemy/chief_customer_experience_officer/)
-127. Candlestick Chart Pattern & Renko Trading (2 Course Bundle)-[https://inve
-nthigh.net/udemy/candlestick-renko/](https://inventhigh.net/udemy/candlestick-renko/)
-128. CEO Chief Executive Officer E
-xecutive Certification-[https://inventhigh.net/udemy/certified-chief-executive-officer/](https://inventhigh.net/udemy/ce
-rtified-chief-executive-officer/)
-129. Artificial General Intelligence (AGI)-[https://inventhigh.net/udemy/artificial-ge
-neral-intelligence/](https://inventhigh.net/udemy/artificial-general-intelligence/)
-130. Apache Hive for Data Engineers 
-(Hands On) with 2 Projects-[https://inventhigh.net/udemy/apache-hive-for-data-engineers-hands-on/](https://inventhigh.ne
-t/udemy/apache-hive-for-data-engineers-hands-on/)
-131. 4 Comprehensive Practice Tests for any Python Certification-[http
-s://inventhigh.net/udemy/4-comprehensive-practice-tests-for-any-python-certification/](https://inventhigh.net/udemy/4-co
-mprehensive-practice-tests-for-any-python-certification/)
-132. \[Weight Loss\] : Get Your Dream Body with Diet & Cardio-
-[https://inventhigh.net/udemy/weight-loss-get-your-dream-body-with-nutrition-cardio/](https://inventhigh.net/udemy/weigh
-t-loss-get-your-dream-body-with-nutrition-cardio/)
-133. \[Tips & Technics\] : How to Lead Effective Meetings 2022 -New-[
-https://inventhigh.net/udemy/tips-technics-how-to-lead-effective-meetings-2022/](https://inventhigh.net/udemy/tips-techn
-ics-how-to-lead-effective-meetings-2022/)
-134. \[Tips & Technics\] : How to Become a Great Leader Skills 2022-[https://i
-nventhigh.net/udemy/tips-technics-how-to-become-a-great-leader-skills/](https://inventhigh.net/udemy/tips-technics-how-t
-o-become-a-great-leader-skills/)
-135. \[Practice Exams\] AWS Certified Solutions Architect Associate-[https://inventhigh
-.net/udemy/practice-exams-aws-certified-solutions-architect-associate-u/](https://inventhigh.net/udemy/practice-exams-aw
-s-certified-solutions-architect-associate-u/)
-```
----
-
-     
- 
-all -  [ 300+ Free Udemy Certificate Courses -Limited Time - 19/10/23 ](https://www.reddit.com/r/udemyfreebies/comments/17b9jpo/300_free_udemy_certificate_courses_limited_time/) , 2023-10-22-0910
-```
- View All Courses: https://inventhigh.net                 
-
-1. WordPress Theme Development from Scratch 2.0-[https://inv
-enthigh.net/udemy/advanced-wordpress-theme-development-with-bootstrap/](https://inventhigh.net/udemy/advanced-wordpress-
-theme-development-with-bootstrap/) 
-
-2. WooCommerce Theme Development: Advanced Course-[https://inventhigh.net/udemy/woo
-commerce-wordpress-theme-development/](https://inventhigh.net/udemy/woocommerce-wordpress-theme-development/) 
-
-3. Ultra
--Fast WordPress Speed With 10Web WordPress Web Hosting-[https://inventhigh.net/udemy/ultra-fast-wordpress-speed/](https:
-//inventhigh.net/udemy/ultra-fast-wordpress-speed/) 
-
-4. Python Programming Language | Master Python Course (Arabic)-[ht
-tps://inventhigh.net/udemy/python\_tutorials/](https://inventhigh.net/udemy/python_tutorials/) 
-
-5. Python And Flask  De
-monstrations Practice Course-[https://inventhigh.net/udemy/python-and-flask-only-demonstration-course/](https://inventhi
-gh.net/udemy/python-and-flask-only-demonstration-course/) 
-
-6. Linux Tmux-[https://inventhigh.net/udemy/linux-tmux/](htt
-ps://inventhigh.net/udemy/linux-tmux/) 
-
-7. Learn Web Design using WordPress & Start Freelancing-[https://inventhigh.net
-/udemy/become-successful-wordpress-freelancer-to-make-money-online/](https://inventhigh.net/udemy/become-successful-word
-press-freelancer-to-make-money-online/) 
-
-8. Haskell Exercises for Beginners-[https://inventhigh.net/udemy/haskell-exerc
-ises-for-beginners/](https://inventhigh.net/udemy/haskell-exercises-for-beginners/) 
-
-9. Convert a one page HTML5 Templa
-te to a WordPress Theme-[https://inventhigh.net/udemy/convert-html5-template-to-wordpress-theme/](https://inventhigh.net
-/udemy/convert-html5-template-to-wordpress-theme/) 
-
-10. Computer Basics-[https://inventhigh.net/udemy/basic-of-computer
-/](https://inventhigh.net/udemy/basic-of-computer/) 
-
-11. CSS Crash Course For Beginners-[https://inventhigh.net/udemy/c
-ss-crash-course-for-beginners-g/](https://inventhigh.net/udemy/css-crash-course-for-beginners-g/) 
-
-12. Asteroids with P
-ython PyGame-[https://inventhigh.net/udemy/asteroids-with-python-pygame/](https://inventhigh.net/udemy/asteroids-with-py
-thon-pygame/) 
-
-13. Linode: Foundations of Web Server Security-[https://inventhigh.net/udemy/linode-foundations-of-web-s
-erver-security/](https://inventhigh.net/udemy/linode-foundations-of-web-server-security/) 
-
-14. Linode: Build and Deploy
- Responsive Websites on the Cloud-[https://inventhigh.net/udemy/linode-build-and-deploy-responsive-websites-on-the-cloud
-/](https://inventhigh.net/udemy/linode-build-and-deploy-responsive-websites-on-the-cloud/) 
-
-15. Learn Bootstrap - For B
-eginners-[https://inventhigh.net/udemy/learn-bootstrap-for-beginners/](https://inventhigh.net/udemy/learn-bootstrap-for-
-beginners/) 
-
-16. JavaScript, Bootstrap, & PHP - Certification for Beginners-[https://inventhigh.net/udemy/javascript-bo
-otstrap-php-certification-for-beginners/](https://inventhigh.net/udemy/javascript-bootstrap-php-certification-for-beginn
-ers/) 
-
-17. Bootstrap & jQuery - Certification Course for Beginners-[https://inventhigh.net/udemy/bootstrap-jquery-certi
-fication-course-for-beginners/](https://inventhigh.net/udemy/bootstrap-jquery-certification-course-for-beginners/) 
-
-18.
- AWS Beginner to Intermediate: EC2, IAM, ELB, ASG, Route 53-[https://inventhigh.net/udemy/aws-beginner-to-intermediate-e
-c2-iam-elb-asg-route-53/](https://inventhigh.net/udemy/aws-beginner-to-intermediate-ec2-iam-elb-asg-route-53/) 
-
-19. AWS
- & React: Deploy an Auto-Scaling E-Commerce App with ELB-[https://inventhigh.net/udemy/aws-react-deploy-an-auto-scaling-
-e-commerce-app-with-elb/](https://inventhigh.net/udemy/aws-react-deploy-an-auto-scaling-e-commerce-app-with-elb/) 
-
-20. 
-DevOps Interview Questions Preparation Guide - 2023-[https://inventhigh.net/udemy/devops-interview-questions-preparation
--guide/](https://inventhigh.net/udemy/devops-interview-questions-preparation-guide/) 
-
-21. Quantitative Finance with Pyt
-hon-[https://inventhigh.net/udemy/quantitative-finance-with-python/](https://inventhigh.net/udemy/quantitative-finance-w
-ith-python/) 
-
-22. Azure Open AI & Prompt Engineering Zero to Hero with Chatgpt-[https://inventhigh.net/udemy/azopenai/]
-(https://inventhigh.net/udemy/azopenai/) 
-
-23. Object Oriented Programming in C++  &  Interview Preparation-[https://inv
-enthigh.net/udemy/cracking-cpp-interview/](https://inventhigh.net/udemy/cracking-cpp-interview/) 
-
-24. Gatsby JS | Build
- a personal blog using gatsbyJS-[https://inventhigh.net/udemy/gatsbyjs-graphql-build-a-personal-blog-using-gatsbyjs-grap
-hql/](https://inventhigh.net/udemy/gatsbyjs-graphql-build-a-personal-blog-using-gatsbyjs-graphql/) 
-
-25. Drupal For Abso
-lute Beginners (2023)-[https://inventhigh.net/udemy/drupal-masterclass/](https://inventhigh.net/udemy/drupal-masterclass
-/) 
-
-26. ChatGPT Plugins: The Complete Guide-[https://inventhigh.net/udemy/chatgpt-plugins-the-complete-guide/](https://
-inventhigh.net/udemy/chatgpt-plugins-the-complete-guide/) 
-
-27. Build, Host & Manage WordPress Websites using AI \[10Web
-\]-[https://inventhigh.net/udemy/build-host-manage-super-fast-wordpress-websites-in-10web/](https://inventhigh.net/udemy
-/build-host-manage-super-fast-wordpress-websites-in-10web/) 
-
-28. PHP & MySQL - Certification Course for Beginners-[http
-s://inventhigh.net/udemy/php-mysql-certification-course-for-beginners/](https://inventhigh.net/udemy/php-mysql-certifica
-tion-course-for-beginners/) 
-
-29. Introduction to Domain Names and Web Hosting - Quick Guide-[https://inventhigh.net/ude
-my/introduction-to-domain-names-and-web-hosting-quick-guide/](https://inventhigh.net/udemy/introduction-to-domain-names-
-and-web-hosting-quick-guide/) 
-
-30. HTML, JavaScript, & Bootstrap - Certification Course-[https://inventhigh.net/udemy/h
-tml-javascript-bootstrap-certification-course/](https://inventhigh.net/udemy/html-javascript-bootstrap-certification-cou
-rse/) 
-
-31. HTML & CSS - Certification Course for Beginners-[https://inventhigh.net/udemy/html-css-certification-course-
-for-beginners/](https://inventhigh.net/udemy/html-css-certification-course-for-beginners/) 
-
-32. Create a Members Only B
-log using PHP, MySQL, & AJAX-[https://inventhigh.net/udemy/create-a-members-only-blog-using-php-mysql-ajax/](https://inv
-enthigh.net/udemy/create-a-members-only-blog-using-php-mysql-ajax/) 
-
-33. Configure NGINX on a Cloud Server: Digital Oce
-an & AWS-[https://inventhigh.net/udemy/configure-nginx-on-a-cloud-server-digital-ocean-aws/](https://inventhigh.net/udem
-y/configure-nginx-on-a-cloud-server-digital-ocean-aws/) 
-
-34. Cloud Computing Essentials: Linode, Linux, and LAMP Stack-
-[https://inventhigh.net/udemy/cloud-computing-essentials-linode-linux-and-lamp-stack/](https://inventhigh.net/udemy/clou
-d-computing-essentials-linode-linux-and-lamp-stack/) 
-
-35. ChatGPT Expert Professional Certification-[https://inventhigh
-.net/udemy/chatgpt\_expert/](https://inventhigh.net/udemy/chatgpt_expert/) 
-
-36. Adobe Lightroom Classic CC: Master the 
-Library Module-[https://inventhigh.net/udemy/adobe-lightroom-classic-cc-master-the-library-module/](https://inventhigh.n
-et/udemy/adobe-lightroom-classic-cc-master-the-library-module/) 
-
-37. Practical Photography for Absolute Beginners: 9 Co
-urses in 1-[https://inventhigh.net/udemy/complete-photography-course/](https://inventhigh.net/udemy/complete-photography
--course/) 
-
-38. Practical Cisco Networking Labs in Cisco Packet Tracer-[https://inventhigh.net/udemy/practical-cisco-net
-working-labs/](https://inventhigh.net/udemy/practical-cisco-networking-labs/) 
-
-39. Information Security Fundamentals-[h
-ttps://inventhigh.net/udemy/infosec-fundamentals/](https://inventhigh.net/udemy/infosec-fundamentals/) 
-
-40. Create a Wo
-rdPress website with Hostinger!-[https://inventhigh.net/udemy/wordpress-and-hosting-for-beginners/](https://inventhigh.n
-et/udemy/wordpress-and-hosting-for-beginners/) 
-
-41. Tally Erp 9 + Tally Prime + GST - Certificate Course-[https://inven
-thigh.net/udemy/tallygst/](https://inventhigh.net/udemy/tallygst/) 
-
-42. Building AI Saas Apps / AI Tools with \[No Code
-\] x ChatGPT-[https://inventhigh.net/udemy/ai-saas-apps/](https://inventhigh.net/udemy/ai-saas-apps/) 
-
-43. Excel for Da
-ta Analysis & Financial Analysis-[https://inventhigh.net/udemy/microsoft-excel-course-for-financial-analysis/](https://i
-nventhigh.net/udemy/microsoft-excel-course-for-financial-analysis/) 
-
-44. TIKTOK Masterclass: Build Your Business With T
-IKTOK-[https://inventhigh.net/udemy/tiktok-masterclass-build-your-business-with-tiktok/](https://inventhigh.net/udemy/ti
-ktok-masterclass-build-your-business-with-tiktok/) 
-
-45. Squarespace Templates Unleashed: Rapid Professional Websites-[h
-ttps://inventhigh.net/udemy/squarespace-templates-unleashed-rapid-professional-websites/](https://inventhigh.net/udemy/s
-quarespace-templates-unleashed-rapid-professional-websites/) 
-
-46. Squarespace Box of Tricks: Master Website Builders in
- 2023-[https://inventhigh.net/udemy/squarespace-web-design-box-of-tricks/](https://inventhigh.net/udemy/squarespace-web-
-design-box-of-tricks/) 
-
-47. Sell Photo Online: Beginners Guide Stock Photography-[https://inventhigh.net/udemy/masterin
-g-stock-photography-step-by-step-guideline/](https://inventhigh.net/udemy/mastering-stock-photography-step-by-step-guide
-line/) 
-
-48. SEO Link Building & Content Writing Course: Get HQ Backlinks-[https://inventhigh.net/udemy/seo-link-buildin
-g-2023/](https://inventhigh.net/udemy/seo-link-building-2023/) 
-
-49. PowerPoint - Microsoft PowerPoint For Beginners 202
-3-[https://inventhigh.net/udemy/powerpoint-microsoft-powerpoint-for-beginners/](https://inventhigh.net/udemy/powerpoint-
-microsoft-powerpoint-for-beginners/) 
-
-50. Macroeconomic Analysis: Investigating Inflation Trend with R-[https://inventh
-igh.net/udemy/macroeconomic-analysis-investigating-inflation-trend-with-r/](https://inventhigh.net/udemy/macroeconomic-a
-nalysis-investigating-inflation-trend-with-r/) 
-
-51. Learn 10 Ways to Make MORE Money on YouTube!-[https://inventhigh.ne
-t/udemy/learn-to-make-money-on-youtube/](https://inventhigh.net/udemy/learn-to-make-money-on-youtube/) 
-
-52. LangChain &
- OpenAI: Build Python Projects with No-Code 2023-[https://inventhigh.net/udemy/langchain-openai-chatgpt-api-for-no-code-
-python-developers/](https://inventhigh.net/udemy/langchain-openai-chatgpt-api-for-no-code-python-developers/) 
-
-53. Java
-Script And PHP Programming Complete Course-[https://inventhigh.net/udemy/javascript-and-php-programming-complete-course/
-](https://inventhigh.net/udemy/javascript-and-php-programming-complete-course/) 
-
-54. How to Transform Your Life with 12
- Amazing Powers-[https://inventhigh.net/udemy/12-great-powers-to-change-your-life/](https://inventhigh.net/udemy/12-grea
-t-powers-to-change-your-life/) 
-
-55. How to Make Money with YOUTUBE SHORTS Worldwide-[https://inventhigh.net/udemy/how-t
-o-make-money-with-youtube-shorts/](https://inventhigh.net/udemy/how-to-make-money-with-youtube-shorts/) 
-
-56. How To Wri
-te Your Business Plan (in One Day} With ChatGPT-[https://inventhigh.net/udemy/business-planning-simplified-write-your-pl
-an-with-chatgpt/](https://inventhigh.net/udemy/business-planning-simplified-write-your-plan-with-chatgpt/) 
-
-57. English
- Grammar tenses & structures-[https://inventhigh.net/udemy/english-grammar-course-tenses-structures/](https://inventhigh
-.net/udemy/english-grammar-course-tenses-structures/) 
-
-58. Drinking Water Explained: Safety, Process & Challenges-[http
-s://inventhigh.net/udemy/introduction-to-drinking-water-treatment/](https://inventhigh.net/udemy/introduction-to-drinkin
-g-water-treatment/) 
-
-59. Dog Training Secrets: Behavior Insights-[https://inventhigh.net/udemy/dog-training-and-behavio
-r-learn-research-backed-approaches/](https://inventhigh.net/udemy/dog-training-and-behavior-learn-research-backed-approa
-ches/) 
-
-60. ChatGPT: Make Money with ChatGPT as a New Freelancer-[https://inventhigh.net/udemy/chatgpt-make-money-with-
-chatgpt-as-a-new-freelancer/](https://inventhigh.net/udemy/chatgpt-make-money-with-chatgpt-as-a-new-freelancer/) 
-
-61. C
-hair Yoga Teacher Training Certificate - Yoga Alliance CE-[https://inventhigh.net/udemy/chair-yoga-teacher-training-cert
-ificate-yoga-alliance-ce/](https://inventhigh.net/udemy/chair-yoga-teacher-training-certificate-yoga-alliance-ce/) 
-
-62.
- C++ And Java Training Crash Course 2022-[https://inventhigh.net/udemy/c-and-java-training-crash-course-2022/](https://i
-nventhigh.net/udemy/c-and-java-training-crash-course-2022/) 
-
-63. Best of Digital Marketing: #1 Digital Marketing Course
- 2023-[https://inventhigh.net/udemy/digital-marketing-2021/](https://inventhigh.net/udemy/digital-marketing-2021/) 
-
-64.
- YouTube Academy 2023: Complete Beginner to Pro Step-by-Step-[https://inventhigh.net/udemy/youtubeacademy/](https://inve
-nthigh.net/udemy/youtubeacademy/) 
-
-65. Work from Home : Work Life Balance and Time Management-[https://inventhigh.net/u
-demy/work-from-home-work-life-balance/](https://inventhigh.net/udemy/work-from-home-work-life-balance/) 
-
-66. Video Edit
-ing with Avid Media Composer First for Beginners-[https://inventhigh.net/udemy/learn-avid-media-composer-first-for-begin
-ners/](https://inventhigh.net/udemy/learn-avid-media-composer-first-for-beginners/) 
-
-67. Video Editing with Adobe Premi
-ere Pro CC for Beginners-[https://inventhigh.net/udemy/video-editing-with-adobe-premiere-pro-cc-for-beginners/](https://
-inventhigh.net/udemy/video-editing-with-adobe-premiere-pro-cc-for-beginners/) 
-
-68. The Mega PRO Digital Marketing Cours
-e A-Z : In Hindi-[https://inventhigh.net/udemy/learn-digital-marketing-course-hindi/](https://inventhigh.net/udemy/learn
--digital-marketing-course-hindi/) 
-
-69. The Complete Teach-Yourself Drummer's Guide-[https://inventhigh.net/udemy/the-co
-mplete-teach-yourself-drummers-guide/](https://inventhigh.net/udemy/the-complete-teach-yourself-drummers-guide/) 
-
-70. T
-he Art of the Portrait - Drawing For Beginners-[https://inventhigh.net/udemy/master-portrait-drawing/](https://inventhig
-h.net/udemy/master-portrait-drawing/) 
-
-71. Start a Profitable Affiliate Coupons Website -Passive Income-[https://invent
-high.net/udemy/start-a-profitable-discount-coupons-website-passive-income/](https://inventhigh.net/udemy/start-a-profita
-ble-discount-coupons-website-passive-income/) 
-
-72. Print on Demand 2023: From Zero to Profitable Business-[https://inve
-nthigh.net/udemy/print-on-demand-course/](https://inventhigh.net/udemy/print-on-demand-course/) 
-
-73. PowerShell Functio
-ns Master Class-[https://inventhigh.net/udemy/powershell-functions-master-class/](https://inventhigh.net/udemy/powershel
-l-functions-master-class/) 
-
-74. Pedagogy in Teaching, Lesson Plan & Classroom Management-[https://inventhigh.net/udemy/
-pedagogy-in-teaching-lesson-plan-classroom-management/](https://inventhigh.net/udemy/pedagogy-in-teaching-lesson-plan-cl
-assroom-management/) 
-
-75. Options Trading for Beginners - Intro Session-[https://inventhigh.net/udemy/options-trading-f
-or-beginners-intro-session/](https://inventhigh.net/udemy/options-trading-for-beginners-intro-session/) 
-
-76. Online Cou
-rse Masterclass: Create Your Own Course In 30 Days-[https://inventhigh.net/udemy/online-course-masterclass/](https://inv
-enthigh.net/udemy/online-course-masterclass/) 
-
-77. Media Mindful \[A Digital Detox Journey\]-[https://inventhigh.net/ud
-emy/media-mindful-a-digital-detox-journey/](https://inventhigh.net/udemy/media-mindful-a-digital-detox-journey/) 
-
-78. M
-astering Doodly: Create Engaging Whiteboard Animations-[https://inventhigh.net/udemy/mastering-doodly-2d-animation-white
-board-animation/](https://inventhigh.net/udemy/mastering-doodly-2d-animation-whiteboard-animation/) 
-
-79. Make YouTube T
-humbnails & Get More Views (Photoshop +Online)-[https://inventhigh.net/udemy/create-youtube-thumbnails-in-photoshop-and-
-free-online-site/](https://inventhigh.net/udemy/create-youtube-thumbnails-in-photoshop-and-free-online-site/) 
-
-80. Macr
-oeconomic Analysis: Investigating Inflation Trend with R-[https://inventhigh.net/udemy/macroeconomic-analysis-investigat
-ing-inflation-trend-with-r/](https://inventhigh.net/udemy/macroeconomic-analysis-investigating-inflation-trend-with-r/) 
-
-
-81. Learn Structural Engineering by Drawing Reading & ETABS-[https://inventhigh.net/udemy/learn-structural-architectur
-al-vastu-plans-along-etabs/](https://inventhigh.net/udemy/learn-structural-architectural-vastu-plans-along-etabs/) 
-
-82.
- Learn Graphic Design using Canva & Start Freelancing-[https://inventhigh.net/udemy/canva-mastery-become-freelance-graph
-ic-designer-in-1-hour/](https://inventhigh.net/udemy/canva-mastery-become-freelance-graphic-designer-in-1-hour/) 
-
-83. L
-earn Content Writing using AI & Start Freelancing-[https://inventhigh.net/udemy/ai-content-writing/](https://inventhigh.
-net/udemy/ai-content-writing/) 
-
-84. Learn Content Writing using AI & Make Money Online-[https://inventhigh.net/udemy/ai
--content-course/](https://inventhigh.net/udemy/ai-content-course/) 
-
-85. Learn Basics of Adobe Photoshop CC for Beginner
-s-[https://inventhigh.net/udemy/learn-basics-of-adobe-photoshop-cc-for-beginners/](https://inventhigh.net/udemy/learn-ba
-sics-of-adobe-photoshop-cc-for-beginners/) 
-
-86. Learn Basics Of Adobe After Effects CC for Beginners-[https://inventhig
-h.net/udemy/learn-basics-of-adobe-after-effects-cc-for-beginners-learn/](https://inventhigh.net/udemy/learn-basics-of-ad
-obe-after-effects-cc-for-beginners-learn/) 
-
-87. How to be a programmer | Full guide to start (Arabic)-[https://inventhi
-gh.net/udemy/how\_to\_become\_a\_programmer/](https://inventhigh.net/udemy/how_to_become_a_programmer/) 
-
-88. Grow Your 
-YouTube Channel Faster 2023 (Advanced) StepByStep-[https://inventhigh.net/udemy/the-youtube-academy-speed-growth-plan-pr
-oven-results-2022/](https://inventhigh.net/udemy/the-youtube-academy-speed-growth-plan-proven-results-2022/) 
-
-89. Gener
-ate Income with Your YouTube, Despite Limited Views-[https://inventhigh.net/udemy/generate-income-with-your-youtube-desp
-ite-limited-views/](https://inventhigh.net/udemy/generate-income-with-your-youtube-despite-limited-views/) 
-
-90. Fundame
-ntals of computer science | Short Term Course(Arabic)-[https://inventhigh.net/udemy/basics\_of\_programming/](https://in
-venthigh.net/udemy/basics_of_programming/) 
-
-91. Executive Diploma in Corporate Entrepreneurship-[https://inventhigh.net
-/udemy/corporate-entrepreneurship/](https://inventhigh.net/udemy/corporate-entrepreneurship/) 
-
-92. Executive Diploma in
- Business Strategy-[https://inventhigh.net/udemy/diploma-business-strategy/](https://inventhigh.net/udemy/diploma-busine
-ss-strategy/) 
-
-93. Executive Assistant Professional Certification (EAPC)-[https://inventhigh.net/udemy/executive-assist
-ant/](https://inventhigh.net/udemy/executive-assistant/) 
-
-94. Disruptive Thinking For World-Changing Innovative Ideas-[
-https://inventhigh.net/udemy/disruptive-thinking/](https://inventhigh.net/udemy/disruptive-thinking/) 
-
-95. Diploma In C
-oncrete Technology l Be a Concrete Technologist-[https://inventhigh.net/udemy/concrete-technologycivil-engineers-lifelin
-e-in-construction/](https://inventhigh.net/udemy/concrete-technologycivil-engineers-lifeline-in-construction/) 
-
-96. Cre
-ate and Sell Digital Art using AI \[Passive Income\]-[https://inventhigh.net/udemy/ai-art-course/](https://inventhigh.ne
-t/udemy/ai-art-course/) 
-
-97. Color Grading and Video Editing with Davinci Resolve 18-[https://inventhigh.net/udemy/colo
-r-grading-and-video-editing-with-davinci-resolve/](https://inventhigh.net/udemy/color-grading-and-video-editing-with-dav
-inci-resolve/) 
-
-98. Color Correction & Grading with Adobe Premiere Pro-[https://inventhigh.net/udemy/color-correction-g
-rading-with-adobe-premiere-pro/](https://inventhigh.net/udemy/color-correction-grading-with-adobe-premiere-pro/) 
-
-99. C
-old Email & Lead Generation using AI \[Masterclass\]-[https://inventhigh.net/udemy/ai-cold-email/](https://inventhigh.ne
-t/udemy/ai-cold-email/) 
-
-100. Chat GPT & Midjourney: Personal Digital Marketing Assistants-[https://inventhigh.net/udem
-y/chatgpt-digital-marketing/](https://inventhigh.net/udemy/chatgpt-digital-marketing/) 
-
-101. C programming language | T
-he Complete C Course (Arabic)-[https://inventhigh.net/udemy/c-programming-language-from-a-to-z/](https://inventhigh.net/
-udemy/c-programming-language-from-a-to-z/) 
-
-102. Business Networking for Success and Company Growth: Part One-[https://
-inventhigh.net/udemy/business-networking-1/](https://inventhigh.net/udemy/business-networking-1/) 
-
-103. Build a Profita
-ble Online Courses Business \[Complete Guide\]-[https://inventhigh.net/udemy/complete-guide-become-a-six-figure-online-c
-ourse-instructor/](https://inventhigh.net/udemy/complete-guide-become-a-six-figure-online-course-instructor/) 
-
-104. Bec
-ome a Successful Affiliate Marketer \[Success Blueprint\]-[https://inventhigh.net/udemy/become-a-six-figure-affiliate-ma
-rketer-success-blueprint/](https://inventhigh.net/udemy/become-a-six-figure-affiliate-marketer-success-blueprint/) 
-
-105
-. Arabic| Learn Arabic with Mina | Comprehensive Arabic course-[https://inventhigh.net/udemy/learn-arabic-language-d/](h
-ttps://inventhigh.net/udemy/learn-arabic-language-d/) 
-
-106. Affiliate Marketing & MLM Network Marketing For Fashion-[ht
-tps://inventhigh.net/udemy/affiliate-marketing-mlm-for-waveifyoulike-t-shirt-fashion/](https://inventhigh.net/udemy/affi
-liate-marketing-mlm-for-waveifyoulike-t-shirt-fashion/) 
-
-107. AI x ChatGPT for Productivity 101 \[Masterclass\]-[https:
-//inventhigh.net/udemy/ai-productivity/](https://inventhigh.net/udemy/ai-productivity/) 
-
-108. AI for Business Strategy 
-& Planning \[Masterclass\]-[https://inventhigh.net/udemy/ai-business-course/](https://inventhigh.net/udemy/ai-business-c
-ourse/) 
-
-109. Private Equity Course for Beginners (PEQ101)-[https://inventhigh.net/udemy/private-equity-course-for-begi
-nners-peq101/](https://inventhigh.net/udemy/private-equity-course-for-beginners-peq101/) 
-
-110. Personal Brand Mastery :
- Online Personal Branding Essentials-[https://inventhigh.net/udemy/personal-branding-mastery-online-personal-branding-es
-sentials/](https://inventhigh.net/udemy/personal-branding-mastery-online-personal-branding-essentials/) 
-
-111. Nuts & Bo
-lts of Capital Markets-[https://inventhigh.net/udemy/nuts-bolts-of-capital-markets/](https://inventhigh.net/udemy/nuts-b
-olts-of-capital-markets/) 
-
-112. Mechanical Engineering Mastery Series : HVAC Engineering 101-[https://inventhigh.net/ud
-emy/mechanical-engineering-course/](https://inventhigh.net/udemy/mechanical-engineering-course/) 
-
-113. Mastering Presen
-tations and Public Speaking (Ultimate guide)-[https://inventhigh.net/udemy/presentations-and-public-speaking/](https://i
-nventhigh.net/udemy/presentations-and-public-speaking/) 
-
-114. Investment Banking for Beginners (IB101)-[https://inventh
-igh.net/udemy/investment-banking-for-beginners-ib101/](https://inventhigh.net/udemy/investment-banking-for-beginners-ib1
-01/) 
-
-115. Introduction to Microsoft Word for Beginners to Intermediate-[https://inventhigh.net/udemy/introduction-to-m
-icrosoft-word-for-beginners/](https://inventhigh.net/udemy/introduction-to-microsoft-word-for-beginners/) 
-
-116. Interne
-t & Cloud Computing Foundations-[https://inventhigh.net/udemy/internet-cloud-computing-foundations/](https://inventhigh.
-net/udemy/internet-cloud-computing-foundations/) 
-
-117. How the Internet Works & the Web Development Process-[https://in
-venthigh.net/udemy/how-the-internet-works-the-web-development-process/](https://inventhigh.net/udemy/how-the-internet-wo
-rks-the-web-development-process/) 
-
-118. HVAC Design Basics : Understanding HVAC systems With Details-[https://inventhig
-h.net/udemy/hvac-systems/](https://inventhigh.net/udemy/hvac-systems/) 
-
-119. Financial Modeling in Excel - DCF Model of
- Big Books Corp-[https://inventhigh.net/udemy/financial-modeling-in-excel-dcf-model-of-big-books-inc/](https://inventhig
-h.net/udemy/financial-modeling-in-excel-dcf-model-of-big-books-inc/) 
-
-120. Financial Modeling | Social Media Sector : T
-witter-[https://inventhigh.net/udemy/financial-modeling-social-media-sector-twitter/](https://inventhigh.net/udemy/finan
-cial-modeling-social-media-sector-twitter/) 
-
-121. Financial Modeling | Food & Beverages Sector : Starbucks-[https://inv
-enthigh.net/udemy/financial-modeling-food-beverages-sector-starbucks/](https://inventhigh.net/udemy/financial-modeling-f
-ood-beverages-sector-starbucks/) 
-
-122. Financial Analysis & Modeling | Islamic Banking-[https://inventhigh.net/udemy/fi
-nancial-modeling-islamic-banking-modeling/](https://inventhigh.net/udemy/financial-modeling-islamic-banking-modeling/) 
-
-
-123. Financial Analysis & Modeling | Automobile Sector-[https://inventhigh.net/udemy/financial-modeling-automobile-sect
-or-maruti-suzuki/](https://inventhigh.net/udemy/financial-modeling-automobile-sector-maruti-suzuki/) 
-
-124. Computer Vis
-ion Fundamentals-[https://inventhigh.net/udemy/computer-vision-fundamentals/](https://inventhigh.net/udemy/computer-visi
-on-fundamentals/) 
-
-125. Complete Guide to Explosive Power Training-[https://inventhigh.net/udemy/athletic-power-trainin
-g-certificate/](https://inventhigh.net/udemy/athletic-power-training-certificate/) 
-
-126. Chief Customer Experience Offi
-cer Executive Certification-[https://inventhigh.net/udemy/chief\_customer\_experience\_officer/](https://inventhigh.net/
-udemy/chief_customer_experience_officer/) 
-
-127. Candlestick Chart Pattern & Renko Trading (2 Course Bundle)-[https://in
-venthigh.net/udemy/candlestick-renko/](https://inventhigh.net/udemy/candlestick-renko/) 
-
-128. CEO Chief Executive Offic
-er Executive Certification-[https://inventhigh.net/udemy/certified-chief-executive-officer/](https://inventhigh.net/udem
-y/certified-chief-executive-officer/) 
-
-129. Artificial General Intelligence (AGI)-[https://inventhigh.net/udemy/artific
-ial-general-intelligence/](https://inventhigh.net/udemy/artificial-general-intelligence/) 
-
-130. Apache Hive for Data En
-gineers (Hands On) with 2 Projects-[https://inventhigh.net/udemy/apache-hive-for-data-engineers-hands-on/](https://inven
-thigh.net/udemy/apache-hive-for-data-engineers-hands-on/) 
-
-131. 4 Comprehensive Practice Tests for any Python Certifica
-tion-[https://inventhigh.net/udemy/4-comprehensive-practice-tests-for-any-python-certification/](https://inventhigh.net/
-udemy/4-comprehensive-practice-tests-for-any-python-certification/) 
-
-132. \[Weight Loss\] : Get Your Dream Body with Di
-et & Cardio-[https://inventhigh.net/udemy/weight-loss-get-your-dream-body-with-nutrition-cardio/](https://inventhigh.net
-/udemy/weight-loss-get-your-dream-body-with-nutrition-cardio/) 
-
-133. \[Tips & Technics\] : How to Lead Effective Meetin
-gs 2022 -New-[https://inventhigh.net/udemy/tips-technics-how-to-lead-effective-meetings-2022/](https://inventhigh.net/ud
-emy/tips-technics-how-to-lead-effective-meetings-2022/) 
-
-134. \[Tips & Technics\] : How to Become a Great Leader Skills
- 2022-[https://inventhigh.net/udemy/tips-technics-how-to-become-a-great-leader-skills/](https://inventhigh.net/udemy/tip
-s-technics-how-to-become-a-great-leader-skills/) 
-
-135. \[Practice Exams\] AWS Certified Solutions Architect Associate-[
-https://inventhigh.net/udemy/practice-exams-aws-certified-solutions-architect-associate-u/](https://inventhigh.net/udemy
-/practice-exams-aws-certified-solutions-architect-associate-u/) 
-```
----
-
-     
- 
-all -  [ Suggestion: GPT4all-style LocalDocs collections ](https://www.reddit.com/r/faraday_dot_dev/comments/17b8ty0/suggestion_gpt4allstyle_localdocs_collections/) , 2023-10-22-0910
-```
-Dear Faraday devs,Firstly, thank you for an excellent product. I have no trouble spinning up a CLI and hooking to llama.
-cpp directly, but your app makes it so much more pleasant.
-
-If I might suggest something, please add support for local d
-ocument collections (reference: [https://docs.gpt4all.io/gpt4all\_chat.html#localdocs-beta-plugin-chat-with-your-data](h
-ttps://docs.gpt4all.io/gpt4all_chat.html#localdocs-beta-plugin-chat-with-your-data)). This would make characters vastly 
-more useful for certain use cases - for example, a DIY repairman who has a corpus it can pull on, or fictional character
-s who have world knowledge, like an engineer who has manuals for major spacecraft.
-
-I do this already with my own Gradio
- + Langchain document loader setup, but honest Faraday is so much nicer to interact with. If you have the time to includ
-e this, I'd really appreciate it. Even cooler (Although not strictly required) if it can be some kind of drag and drop d
-ataset builder.
-
-Cheers, and have a good day!
-
-https://preview.redd.it/obx4f35lp2vb1.png?width=1496&format=png&auto=webp
-&s=bbe05cb9dfd6aee8d62550f7f237bd2dbe2326d5
-```
----
-
-     
- 
-all -  [ Streaming not working when routing between Runnables ](https://www.reddit.com/r/LangChain/comments/17b5gaw/streaming_not_working_when_routing_between/) , 2023-10-22-0910
-```
-I'm trying to stream the response of a simple route I've created among 2 Runnables without success. When I stream each R
-unnable independelty, it streams perfectly. When I create a route to choose which one of them should be the next step, i
-t doesn't stream the result. Can someone provide some guidance?
-
-Here's the example:
-
-    # ----------------- Runnable 1
- -----------------
-    
-    DEFAULT_DOCUMENT_PROMPT = PromptTemplate.from_template(template='{page_content}')
-    def _c
-ombine_documents(docs, document_prompt = DEFAULT_DOCUMENT_PROMPT, document_separator='\n\n'):
-      doc_strings = [forma
-t_document(doc, document_prompt) for doc in docs]
-      return document_separator.join(doc_strings)
-      
-    def _form
-at_chat_history(chat_history: List[Tuple]) -> str:
-      buffer = ''
-        for dialogue_turn in chat_history:
-        
-  human = 'Human: ' + dialogue_turn[0]
-          ai = 'Assistant: ' + dialogue_turn[1]
-          buffer += '\n' + '\n'.j
-oin([human, ai])
-      return buffer
-      
-    _inputs = RunnableMap({
-      'standalone_question': {
-        'question
-': lambda x: x['question'],
-        'chat_history': lambda x: _format_chat_history(x['chat_history'])
-      } | PromptFa
-ctory.CONDENSE_QUESTION_PROMPT | ChatOpenAI(temperature=0, streaming=True) | StrOutputParser(),
-    })
-    _context = {
-
-      'context': itemgetter('standalone_question') | vector_retriever | _combine_documents,
-      'question': lambda x: 
-x['standalone_question']
-    }
-    Runnable1 = _inputs | _context | PromptFactory.PROMPT | ChatOpenAI(temperature=0, str
-eaming=True)
-    
-    # ----------------- Stream the response: -----------------
-    
-    for s in Runnable1.stream({'qu
-estion': 'Hello!', 'chat_history': []}):
-      print(s, end='', flush=True)
-
-**The above stream works**
-
-    # ---------
--------- Runnable 2 -----------------
-    
-    Runnable2 = RunnableMap({
-      'response': {
-        'question': lambda 
-x: x['question'],
-        'chat_history': lambda x: _format_chat_history(x['chat_history']),
-        'context': lambda x
-: QueriesContext.get_result()
-      } | PromptTemplate.from_template(PromptFactory.followup_context_template) | ChatOpen
-AI(temperature=0, streaming=True) | StrOutputParser(),
-    })
-    
-    # ----------------- Stream the response: --------
----------
-    
-    for s in Runnable2.stream({'question': 'Hello!', 'chat_history': [], 'context': ['initialvalue']}):
- 
-     print(s, end='', flush=True)
-
-**The above stream also works**
-
-    def get_result(text):
-      return ['newvalue']
-
-    router_chain = PromptTemplate.from_template(PromptFactory.router_template_test) | ChatOpenAI(temperature=0, streamin
-g=True) | StrOutputParser()
-    
-    def route(info):
-      if 'runnable1' in info['topic'].lower():
-        return Runn
-able1
-      elif 'runnable2' in info['topic'].lower():
-        return Runnable2
-      else:
-        raise Exception('Inv
-alid topic')
-    
-    full_runnable_router_chain = {
-      'topic': router_chain,
-      'question': lambda x: x['questio
-n'],
-      'chat_history': lambda x: x['chat_history'],
-      'context': lambda x: x['context']
-    } | RunnableLambda(r
-oute)
-    
-    # ----------------- Stream the response: -----------------
-    
-    for s in full_runnable_router_chain.s
-tream({'question': 'Hello!', 'chat_history': [], 'context': ['initialvalue']}):
-      print(s.content, end='', flush=Tru
-e)
-
-**The above stream doesn't stream**
-```
----
-
-     
- 
-all -  [ Ask questions over documents process ](https://www.reddit.com/r/LangChain/comments/17b2i8k/ask_questions_over_documents_process/) , 2023-10-22-0910
-```
-If I follow this ([https://python.langchain.com/docs/use\_cases/question\_answering](https://python.langchain.com/docs/u
-se_cases/question_answering/)) to ask questions over documents, are my documents sent to langchain or openai at any poin
-t?  Or do they stay local on my machine?
-```
----
-
-     
- 
-all -  [ Hiring announcements / job ads? ](https://www.reddit.com/r/LangChain/comments/17b1if6/hiring_announcements_job_ads/) , 2023-10-22-0910
-```
-Are hiring announcements / job ads for LangChain and related roles allowed on this subreddit? 
-
-Mods, perhaps you could 
-create a pinned thread for companies seeking talent?
-```
----
-
-     
- 
-all -  [ Llama 2 7B 32K Instruct summarizes and outlines text... inconsistently ](https://www.reddit.com/r/LocalLLaMA/comments/17b0n8t/llama_2_7b_32k_instruct_summarizes_and_outlines/) , 2023-10-22-0910
-```
-Hi everyone,
-
-I'm brand new to using LLMs. I have so far got two different models to produce valid, appropriate, coheren
-t, 'intelligent' responses with llama.cpp and Langchain, including the long context Llama 2 7B 32K Instruct. I don't und
-erstand why things work or not, and was hoping for pointers to higher level guidance.
-
-Currently I'm working on getting 
-Llama 2 7B 32K Instruct to receive a short (approx. 1500 word), highly abstract text (an encyclopedia article I wrote on
- a topic in the humanities) and produce either a one paragraph summary, an outline, a Markdown document that could be co
-nverted into slides by Pandoc, and a limerick about the information. The prompts I used for each worked at least once. S
-ometimes the same prompt (with the same settings) will simply produce a copy of the original text or part of the origina
-l prompt.
-
-I'm wondering where in the process this inconsistency emerges. 
-
-Related to this is that in order to use the 
-Instruct model I not only had to use the prompt format (using `[INST]` and `[/INST]`) but also add these as stop words t
-o the LlamaCpp object parameters, because otherwise the model would apparently instruct itself and keep going on both re
-lated and unrelated responses. Even just the opening tag was not sufficient to stop this kind of output. It would also t
-hrow in end tags into responses and then continue on. I don't know whether or how this is related, except they are both 
-examples of my general ignorance of the underlying process this software follows.
-
-Any general comments or advice would 
-be welcome 😁
-```
----
-
-     
- 
-all -  [ Resume Roast/Review. ](https://i.redd.it/vm124swr50vb1.jpg) , 2023-10-22-0910
-```
-Hey everyone, please go through this thoroughly and review or roast it. 
-Even though I am a full time developer, I am us
-ing this resume to apply for better jobs in Fullstack, Frontend or Backend.
-But I am getting no responses. Please tell m
-e whatever may be wrong with this resume or my skills or experience.
-Thank you ☺️
-```
----
-
-     
- 
-MachineLearning -  [ [D] Exploring Methods to Improve Text Chunking in RAG Models (and other things...) ](https://www.reddit.com/r/MachineLearning/comments/179j7l3/d_exploring_methods_to_improve_text_chunking_in/) , 2023-10-22-0910
+MachineLearning -  [ [D] Exploring Methods to Improve Text Chunking in RAG Models (and other things...) ](https://www.reddit.com/r/MachineLearning/comments/179j7l3/d_exploring_methods_to_improve_text_chunking_in/) , 2023-10-23-0909
 ```
 Hello everyone,
 
@@ -2054,7 +1226,7 @@ Thanks in advance for your time!
 
      
  
-MachineLearning -  [ [News] AI & ML conference in San Francisco [Special discount code for this subreddit] ](https://www.reddit.com/r/MachineLearning/comments/1771m35/news_ai_ml_conference_in_san_francisco_special/) , 2023-10-22-0910
+MachineLearning -  [ [News] AI & ML conference in San Francisco [Special discount code for this subreddit] ](https://www.reddit.com/r/MachineLearning/comments/1771m35/news_ai_ml_conference_in_san_francisco_special/) , 2023-10-23-0909
 ```
 I work for this database company SingleStore and we are hosting a AI & ML conference in San Francisco on 17th of October
 , 2023.
@@ -2075,7 +1247,7 @@ nal ticket price is $199)
 
      
  
-MachineLearning -  [ [D] Best way to validate llm prompts? ](https://www.reddit.com/r/MachineLearning/comments/176vnxh/d_best_way_to_validate_llm_prompts/) , 2023-10-22-0910
+MachineLearning -  [ [D] Best way to validate llm prompts? ](https://www.reddit.com/r/MachineLearning/comments/176vnxh/d_best_way_to_validate_llm_prompts/) , 2023-10-23-0909
 ```
 We have a platform for data analytics which uses a very simple dsl to generate charts.  
 We have been experimenting with
@@ -2100,7 +1272,7 @@ robably don't want to train another model to classify the prompt as valid or inv
 
      
  
-MachineLearning -  [ [P] Retrieval augmented generation with OpenSearch and reranking [Video tutorial] ](https://www.reddit.com/r/MachineLearning/comments/16zouad/p_retrieval_augmented_generation_with_opensearch/) , 2023-10-22-0910
+MachineLearning -  [ [P] Retrieval augmented generation with OpenSearch and reranking [Video tutorial] ](https://www.reddit.com/r/MachineLearning/comments/16zouad/p_retrieval_augmented_generation_with_opensearch/) , 2023-10-23-0909
 ```
 I created a video tutorial that tries to demonstrate that semantic search (using embeddings) is not always necessary for
  RAG (retrieval augmented generation). It was inspired by the following Cohere blog post: [https://txt.cohere.com/rerank
@@ -2120,7 +1292,7 @@ Video link: https://youtu.be/OsE7YcDcPz0
 
      
  
-MachineLearning -  [ [D] Perplexity.ai Search Feasibility ](https://www.reddit.com/r/MachineLearning/comments/16x63ce/d_perplexityai_search_feasibility/) , 2023-10-22-0910
+MachineLearning -  [ [D] Perplexity.ai Search Feasibility ](https://www.reddit.com/r/MachineLearning/comments/16x63ce/d_perplexityai_search_feasibility/) , 2023-10-23-0909
 ```
 I've been using [Perplexity.ai](https://perplexity.ai/) for a bit now when it hit me that I don't understand how they ca
 n sustain their business model with search. Stuff like Bing search and Google search cost around $5 or more per 1000 sea
@@ -2135,7 +1307,7 @@ bsites from the search results and tokenized them for LLM retrieval?
 
      
  
-deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain ](https://www.reddit.com/r/deeplearning/comments/179vvou/error_with_mistral_7b_model_in/) , 2023-10-22-0910
+deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain ](https://www.reddit.com/r/deeplearning/comments/179vvou/error_with_mistral_7b_model_in/) , 2023-10-23-0909
 ```
  I'm encountering an issue while using the Mistral 7B model in a ConversationalRetrievalChain. When I input a question, 
 such as 'What is the highest GDP?', I receive an error and after that the model generates a random response as output wh
@@ -2262,7 +1434,7 @@ faiss-cpu
 
      
  
-deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain. ](https://www.reddit.com/r/deeplearning/comments/179vsif/error_with_mistral_7b_model_in/) , 2023-10-22-0910
+deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain. ](https://www.reddit.com/r/deeplearning/comments/179vsif/error_with_mistral_7b_model_in/) , 2023-10-23-0909
 ```
 I'm encountering an issue while using the Mistral 7B model in a ConversationalRetrievalChain. When I input a question, s
 uch as 'What is the highest GDP?', I receive an error and after that the model generates a random response as output whi
@@ -2445,7 +1617,7 @@ Python version: 3.11.4 Relevant libraries and versions: langchain ctransformers 
 
      
  
-deeplearning -  [ Free courses to learn about Large Language Models and building AI projects ](https://www.reddit.com/r/deeplearning/comments/178zu2u/free_courses_to_learn_about_large_language_models/) , 2023-10-22-0910
+deeplearning -  [ Free courses to learn about Large Language Models and building AI projects ](https://www.reddit.com/r/deeplearning/comments/178zu2u/free_courses_to_learn_about_large_language_models/) , 2023-10-23-0909
 ```
 [**LangChain for LLM Application Development by Andrew Ng**](https://www.deeplearning.ai/short-courses/langchain-for-llm
 -application-development/): Apply LLMs to your proprietary data to build personal assistants and specialized chatbots. 
@@ -2473,7 +1645,7 @@ ity for LLM practitioners.
 
      
  
-deeplearning -  [ AutoGen from Microsoft ](https://www.reddit.com/r/deeplearning/comments/170hke6/autogen_from_microsoft/) , 2023-10-22-0910
+deeplearning -  [ AutoGen from Microsoft ](https://www.reddit.com/r/deeplearning/comments/170hke6/autogen_from_microsoft/) , 2023-10-23-0909
 ```
 AI agents are AI systems that can exhibit capabilities such as conducting conversations, completing tasks, reasoning, an
 d seamlessly interacting with humans. 
