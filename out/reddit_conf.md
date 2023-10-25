@@ -1,5 +1,39 @@
  
-all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-10-24-0909
+all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-10-25-0909
+```
+As an outsider who has many friends in ML Phds, this is my perspective of their lives:
+
+1. long hours, working nights, w
+eekends
+2. no work-life balance, constant fear of being scooped and time pressure from deadlines
+3. frustrating broken r
+eview systems
+4. many incremental, advertisement papers that produce very little actual contribution (which is justified
+ by 2.)
+5. 'engineering' and not 'science'
+6. all this pressure amounts to severe imposter syndrome
+
+Are people in the f
+ield still happy? Where do people get their satisfaction? To me it looks like almost like a religion or a cult. The sele
+ct few who say, get neurips outstanding paper are promoted to stardom - almost a celebrity status while everyone else su
+ffers a punishing work cycle. Are the phd students all banking on AGI? What else motivates them?
+
+Edit: the discussion i
+s about whether 1-6 are worse in ML than other fields (or even the median experience). The reference for 'other field' i
+s highly heterogenous. Experience obviously varies by lab, and then even by individuals within labs. 'It happens in othe
+r fields too' is a trivial statement - of course some version of 1-6 affects somebody in another field.
+
+Edit 2: small n
+ but summarizing the comments - experience seems to differ based on geographic region, one's expectations for the phd, a
+bility to exert work-life balance, and to some extent ignore the trends others are all following. Some people have reson
+ated with problems 1-6, yet others have presented their own, anecdotal solutions. I recommend reading comments from thos
+e who claim to have solutions.
+```
+---
+
+     
+ 
+all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-10-25-0909
 ```
 Hey everyone! I am looking for papers that propose or explore biologically plausible vision models, primarily tasks like
  classification and grasping (predicting grasping bounding boxes) tasks. By biologically plausible, I mean papers that p
@@ -18,7 +52,7 @@ But I am still looking for more. Any suggestions?
 
      
  
-all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-10-24-0909
+all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-10-25-0909
 ```
 So I'm a begginer, I've been using SD for sometime. My inpaint Stopped working 1 or 2 months ago(i think).I usually upda
 te to the latest version everytime.
@@ -43,7 +77,7 @@ ing the images), or is it something just bad with my machine or is there a probl
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-10-24-0909
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-10-25-0909
 ```
 Hello all,
 
@@ -63,7 +97,7 @@ me dataset or can I replace some with other datasets?
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-10-24-0909
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-10-25-0909
 ```
 Hello all,
 
@@ -83,7 +117,7 @@ ame dataset or can I replace some with other datasets?
 
      
  
-all -  [ MSCS Profile Evaluation - Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/17c2w15/mscs_profile_evaluation_fall_2024/) , 2023-10-24-0909
+all -  [ MSCS Profile Evaluation - Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/17c2w15/mscs_profile_evaluation_fall_2024/) , 2023-10-25-0909
 ```
 B.E. (ongoing) from a Tier 2 Institution in India  
 CGPA: 9.46  
@@ -123,7 +157,7 @@ ASU
 
      
  
-all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-10-24-0909
+all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-10-25-0909
 ```
 **paper**: [https://arxiv.org/abs/2301.12321](https://arxiv.org/abs/2301.12321)
 
@@ -164,7 +198,7 @@ preview.redd.it/4x2244ure9vb1.png?width=2778&format=png&auto=webp&s=6c6cb9f8d1be
 
      
  
-all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-10-24-0909
+all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-10-25-0909
 ```
 Was supposed to be Monday but instead it's rolling
 ```
@@ -172,7 +206,7 @@ Was supposed to be Monday but instead it's rolling
 
      
  
-all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-10-24-0909
+all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-10-25-0909
 ```
 **Accepted at NeurIPS 2023**
 
@@ -206,7 +240,7 @@ bsbvb1.png?width=1002&format=png&auto=webp&s=3067a2361f55603bf4b7769eaede32ca1f3
 
      
  
-all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-10-24-0909
+all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-10-25-0909
 ```
 Finished undergrad in math/cs in 2.5 years from a solid research uni in the US (top 30 overall, top 10 for cs). 3.7 GPA 
 with a few grad courses
@@ -248,7 +282,7 @@ SL)
 
      
  
-all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-24-0909
+all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-25-0909
 ```
  
 
@@ -361,7 +395,7 @@ es, reading academic publications, engaging in hands-on learning, and building a
 
      
  
-all -  [ Profile Review for my second attempts in AI PhD (mastered out my current) ](https://www.reddit.com/r/gradadmissions/comments/174nkew/profile_review_for_my_second_attempts_in_ai_phd/) , 2023-10-24-0909
+all -  [ Profile Review for my second attempts in AI PhD (mastered out my current) ](https://www.reddit.com/r/gradadmissions/comments/174nkew/profile_review_for_my_second_attempts_in_ai_phd/) , 2023-10-25-0909
 ```
 **Area of Interest:** RL + NLP + Multi-agent
 
@@ -454,7 +488,7 @@ nt/advice is greatly appreciated.
 
      
  
-all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-24-0909
+all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-25-0909
 ```
 I am a final year PhD student in France working on privacy and  fairness topics in deep neural networks. My publication 
 record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS).  Recently, I've been applying to data sc
@@ -472,7 +506,7 @@ Resume - [https://i.imgur.com/x2IavdR.jpg](https://i.imgur.com/x2IavdR.jpg)
 
      
  
-all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-24-0909
+all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-25-0909
 ```
 I am currently a final year PhD student in France working on privacy and fairness topics in deep neural networks. My pub
 lication record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS). Recently, I've been applying to
@@ -487,7 +521,7 @@ Resume - https://i.imgur.com/x2IavdR.jpg
 
      
  
-all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-24-0909
+all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-25-0909
 ```
 Hey there!
 
@@ -503,7 +537,7 @@ Thank you very much!
 
      
  
-all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-24-0909
+all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-25-0909
 ```
 Hi all,
 
@@ -549,7 +583,7 @@ Thank you in advance!
 
      
  
-all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-24-0909
+all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-25-0909
 ```
 
 ```
@@ -557,7 +591,7 @@ all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Plann
 
      
  
-all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-24-0909
+all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-25-0909
 ```
 I am applying for fall 2024 for both MS and PhD in CS, with specialization in ML (NLP, Speech)
 
@@ -601,7 +635,7 @@ ersities provide decent chance of landing funding in form of TA/RA, this is impo
 
      
  
-all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-24-0909
+all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-25-0909
 ```
 Hello. I am an international masters student in the US, applying for software engineering internships, but I haven't had
  any luck getting interviews so far. It turns out that I had been formatting my resume in a way that is not the norm her
@@ -622,7 +656,7 @@ https://preview.redd.it/5thjr5viwuqb1.png?width=1344&format=png&auto=webp&s=0bab
 
      
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-24-0909
+all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-25-0909
 ```
  Academic Profile
 
@@ -718,7 +752,7 @@ over up)
 
      
  
-all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-24-0909
+all -  [ Progressing from a small-ish ML startup to bigger name companies ](https://www.reddit.com/r/cscareerquestions/comments/16r1pym/progressing_from_a_smallish_ml_startup_to_bigger/) , 2023-10-25-0909
 ```
 About to finish my PhD in a specific application of ML. The university is a pretty famous French institution, but withou
 t much AI/ML prestige right now. I have a bunch of publications in industry specific conferences/journals, but no NeurIP
@@ -742,7 +776,7 @@ e through the resume screening stage?
 
      
  
-all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-24-0909
+all -  [ US B1 visa expedited appointment for NEURIPS! ](https://www.reddit.com/r/usvisascheduling/comments/16r1j5q/us_b1_visa_expedited_appointment_for_neurips/) , 2023-10-25-0909
 ```
 I have an accepted paper in NEURIPS 2023, which will be held in Dec 2023.
 
@@ -763,189 +797,6 @@ reatly appreciate help.
 
   
 
-```
----
-
-     
- 
-all -  [ Exploring the Future of AI: Insights from Industry Leaders and Innovations in Open-Source Tools ](https://www.reddit.com/r/ai_news_by_ai/comments/16pwirb/exploring_the_future_of_ai_insights_from_industry/) , 2023-10-24-0909
-```
-
-
-
-
-
-#leaders #opensource #opinions #tool #science #startups #event #release #api #update #major_players #paper #schedul
-ed
-
-Yann LeCun's stage comments were not well received, with suggestions that his next movie should focus on the dangers
- of closed-source AI [1]. LeCun also responded to a statement made by E.S. Yudkowsky regarding nuclear bombs and AI syst
-ems, clarifying that AI systems do not self-replicate like nuclear bombs [16]. He further clarified that the discussion 
-was about AI versus nuclear bombs, not nuclear energy, expressing his support for nuclear energy [17]. LeCun believes th
-at AI is not the problem when it comes to misinformation on social networks, but rather the solution [20]. He is also an
-nouncing an upcoming paper on information theory applied to Self-Supervised Learning at the NeurIPS conference [21][22].
-
-
-
-
-
-
-
-
-Improving the quality of data is crucial for reliable AI, and this can be achieved using an open-source tool. Be
-tter hardware and algorithms alone are not enough [2]. The author also believes that the basic AI infrastructure being o
-pen source would prevent certain negative outcomes [14]. OpenAI has released a new skin for the OpenAI cookbook, an open
--source collection of examples and guides for building with the OpenAI API [8].
-
-
-
-
-
-
-
-The cost of sequencing a human ge
-nome has significantly decreased from over $300 million in 2001 to $200 today. Similar cost reduction curves can be expe
-cted in the field of AI over the next 20 years [3].
-
-
-
-
-
-
-
-Emad Mostaque, CEO of Stability AI, gave an insightful talk a
-t the KPMG 2023 Tech & Innovation Symposium. He discussed the potential of Generative AI and offered an optimistic persp
-ective on its dangers and risks [4]. He also discussed the potential of humans and computers working together, stating t
-hat they will always surpass the capabilities of either humans or computers alone [5][6].
-
-
-
-
-
-
-
-Hugging Face has introd
-uced a new feature called Hugging Chat, which allows users to run the model directly in their browser using transformers
-.js [7].
-
-
-
-
-
-
-
-Google Research hosted a Research@ event in Mexico City featuring lightning talks and interactive demos 
-on topics like Education, Science, Generative AI, and LLMs [9]. Google AI is seeking suggestions for topics to be explor
-ed at future Research@ events [10].
-
-
-
-
-
-
-
-AI has the potential to transform the way science is done by generating new r
-esults and new ways to generate results. One approach is 'literature-based discovery' (LBD), which analyzes scientific l
-iterature to make new discoveries. LBD systems have become more capable and are being used in fields like materials scie
-nce [11]. Isomorphic Labs has been recognized as one of the most promising early-stage companies in biotech for its work
- in using AI to reimagine the drug discovery process [13].
-
-
-
-
-
-
-
-Mustafa Suleyman, co-founder of Google DeepMind and cu
-rrent head of Inflection AI, believes that the future of AI lies in Interactive AI, which is artificial intelligence tha
-t can react in conversation, interact with other systems, and take actions based on high-level goals [12]. Suleyman also
- envisions a future where AI assistants act as personal 'chiefs of staff' and have the ability to make decisions and ent
-er into contracts on behalf of their users [19].
-
-
-
-
-
-
-
-The author, Andrej Karpathy, discusses the limitations of machin
-e learning models in understanding knowledge. He mentions that their understanding is 'patchy' and lacks intuition [15].
- The author argues that poorly designed ranking algorithms can make people addicted or depressed, even without the use o
-f AI. However, AI can be beneficial in creating ranking results that are interesting, non-addictive, and non-depressing 
-[18].
-
-
-
-
-[1. Yann LeCun @ylecun https://twitter.com/ylecun/status/1705176310039912661](https://twitter.com/ylecun/statu
-s/1705176310039912661)
-
-[2. Santiago @svpino https://twitter.com/svpino/status/1705192366087274751](https://twitter.com/
-svpino/status/1705192366087274751)
-
-[3. Mustafa Suleyman @mustafasuleyman https://twitter.com/mustafasuleyman/status/170
-5220408331448432](https://twitter.com/mustafasuleyman/status/1705220408331448432)
-
-[4. Stability AI @stabilityai https:/
-/twitter.com/stabilityai/status/1705234901472030943](https://twitter.com/stabilityai/status/1705234901472030943)
-
-[5. St
-ability AI @stabilityai https://twitter.com/stabilityai/status/1705236479524454602](https://twitter.com/stabilityai/stat
-us/1705236479524454602)
-
-[6. Stability AI @stabilityai https://twitter.com/stabilityai/status/1705238464378163395](https
-://twitter.com/stabilityai/status/1705238464378163395)
-
-[7. Hugging Face @huggingface https://twitter.com/huggingface/st
-atus/1705253728205275414](https://twitter.com/huggingface/status/1705253728205275414)
-
-[8. Greg Brockman @gdb https://tw
-itter.com/gdb/status/1705276011229872249](https://twitter.com/gdb/status/1705276011229872249)
-
-[9. Google AI @googleai h
-ttps://twitter.com/googleai/status/1705291757506982104](https://twitter.com/googleai/status/1705291757506982104)
-
-[10. G
-oogle AI @googleai https://twitter.com/googleai/status/1705291992786403777](https://twitter.com/googleai/status/17052919
-92786403777)
-
-[11. Mustafa Suleyman @mustafasuleyman https://twitter.com/mustafasuleyman/status/1705300682289660010](htt
-ps://twitter.com/mustafasuleyman/status/1705300682289660010)
-
-[12. Mustafa Suleyman @mustafasuleyman https://twitter.com
-/mustafasuleyman/status/1705309458136457664](https://twitter.com/mustafasuleyman/status/1705309458136457664)
-
-[13. Demis
- Hassabis @demishassabis https://twitter.com/demishassabis/status/1705311673764995364](https://twitter.com/demishassabis
-/status/1705311673764995364)
-
-[14. Yann LeCun @ylecun https://twitter.com/ylecun/status/1705324257209913780](https://twi
-tter.com/ylecun/status/1705324257209913780)
-
-[15. Andrej Karpathy @karpathy https://twitter.com/karpathy/status/17053221
-59588208782](https://twitter.com/karpathy/status/1705322159588208782)
-
-[16. Yann LeCun @ylecun https://twitter.com/ylecu
-n/status/1705325509641474136](https://twitter.com/ylecun/status/1705325509641474136)
-
-[17. Yann LeCun @ylecun https://tw
-itter.com/ylecun/status/1705330280679038986](https://twitter.com/ylecun/status/1705330280679038986)
-
-[18. Yann LeCun @yl
-ecun https://twitter.com/ylecun/status/1705333216146542859](https://twitter.com/ylecun/status/1705333216146542859)
-
-[19.
- Mustafa Suleyman @mustafasuleyman https://twitter.com/mustafasuleyman/status/1705330832481927395](https://twitter.com/m
-ustafasuleyman/status/1705330832481927395)
-
-[20. Yann LeCun @ylecun https://twitter.com/ylecun/status/170533555007958223
-6](https://twitter.com/ylecun/status/1705335550079582236)
-
-[21. Yann LeCun @ylecun https://twitter.com/ylecun/status/170
-5336301828886627](https://twitter.com/ylecun/status/1705336301828886627)
-
-[22. Yann LeCun @ylecun https://twitter.com/yl
-ecun/status/1705336411283415423](https://twitter.com/ylecun/status/1705336411283415423)
 ```
 ---
 
