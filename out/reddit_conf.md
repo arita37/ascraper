@@ -1,5 +1,250 @@
  
-all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-10-26-0909
+all -  [ Profile Review for Fall 2024 CS/ML PHD ](https://www.reddit.com/r/gradadmissions/comments/17h3odf/profile_review_for_fall_2024_csml_phd/) , 2023-10-27-0909
+```
+**Area of Interest:** RL, NLP
+
+**Education:**
+
+\- BASc Chemical Engineering from UToronto, Undergrad cGPA 3.3/4.0
+
+\- Ex
+pecting a MSc Computer science from PKU, mainland China (CSRanking Asia #2 World #14). Transitioned from PhD due to care
+er choices. PhD cGPA 3.45/4.00
+
+**GRE & TOFEL:** I don't think they are required anymore (no tofel due to my canadian un
+dergrad degree)
+
+**Internship Experience**:
+
+\- 1 year at Cenovus Energy Canada (oil and gas) as DS intern (Co-op progra
+m during my bachelor)
+
+\- 1.2 year at Beijing Institute of General AI (similar but inferior to MSRA)
+
+\- \~4 months at a
+ Chinese LLM unicorn startup doing LLM fine-tuning and RLHF
+
+**Publications**:
+
+\- 2 NeurIPS (1 co-first but ranked seco
+nd, 1 second-author), 1 ICLR (co-first but ranked second)
+
+\- Third-author and beyond in 3 other arXiv papers (both unde
+r review)
+
+\- Given authorship in that startup's technical report of their open-sourced LLM models. The paper is kind of
+ a big deal in China, but definitely not at the level of Llama 2 technical report.
+
+**LORs:**
+
+All LoRs coming from Chin
+a.
+
+\- my supervisor who is a full professor at PKU, led a ok-ish CV lab with plenty of publications in CVPR and other t
+op-tier conferences, citation count: 4k6+.
+
+\- my frequent collaborater (3 papers) who is an assistant professor, citati
+on count: 3k+
+
+Both professors agreed to write strong letters.
+
+With regards to the third letters, I am choosing between
+ :
+
+* (1) my technical manager at the start-up who had 10 years working experiences but not well-known in the industry o
+r academia, but he can speak for my experience in working with LLMs
+* (2) an assistant professor who only knows me but n
+ever work with me, citation count: 4k5+. He was an area chair for several top conferences like CVPR
+
+&#x200B;
+
+**Short-l
+isted Uni:**
+
+*Ambitious:*
+
+\- UWashington (dream school, very strong in NLP, one prof agree to host me for a potential 
+visiting)
+
+\- UTAustin
+
+\- UC San Diego
+
+\- GeorgiaTech
+
+\- Princeton
+
+\- Cornell Tech
+
+*Hopeful*:
+
+\- UWaterloo
+
+\- UNC
+
+
+\- UCLA
+
+*Safe*:
+
+(people were saying safe school isn't a thing)
+
+&#x200B;
+
+I added those unis mainly because of the p
+otential advisors that have overlapping research interests. I am looking forward to add more to the list given the compe
+titiveness in the current landscape.
+
+My biggest concerns are about writing my past research in my SoP - they are mainly
+ associated with reinforcement learning and computer vision, not really about NLP or LLMs, while I really want to work o
+n the application of RL in NLP+LLM. And most of my papers are collab papers due to the scale of the projects, I don't ha
+ve any papers that I am the sole first-author.
+
+&#x200B;
+
+Any suggestion/comment/advice is greatly appreciated.
+
+&#x200B
+;
+```
+---
+
+     
+ 
+all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-10-27-0909
+```
+Continuing with the exercise of sharing an easily digestible and smaller version of the main updates of the day in the w
+orld of AI.  
+
+
+* **Berlin-based AI company Jina AI launched OpenAI rival jina-embeddings-v2, the world's first open-sou
+rce 8K text embedding model.**  
+\- This model supports an impressive 8K context length, putting it on par with OpenAI's
+ proprietary model. Jina-embeddings-v2 offers extended context potential, allowing for applications such as legal docume
+nt analysis, medical research, literary analysis, financial forecasting, and conversational AI.   
+\- Benchmarking shows
+ that it outperforms other leading base embedding models. The model is available in two sizes, a base model for heavy-du
+ty tasks and a small model for lightweight applications. 
+* **LLM hallucination problem will be over with “Woodpecker”**
+   
+\- Researchers from the University of Science and Technology of China and Tencent YouTu Lab have developed a framewo
+rk called 'Woodpecker' to correct hallucinations in multimodal large language models (MLLMs).   
+\- Woodpecker uses a tr
+aining-free method to identify and correct hallucinations in generated text. The framework goes through 5 stages, includ
+ing key concept extraction, question formulation, visual knowledge validation, visual claim generation, and hallucinatio
+n correction.   
+\- The researchers have released the source code and an interactive demo of Woodpecker for further expl
+oration and application. 
+* **NVIDIA Research has announced a range of AI advancements**  
+\- That will be presented at 
+the NeurIPS conference. The projects include new techniques for transforming text to images, photos to 3D avatars, and s
+pecialized robots into multi-talented machines. The research focuses on gen AI models, reinforcement learning, robotics,
+ and applications in the natural sciences.   
+\- Highlights include improving text-to-image diffusion models, advancemen
+ts in AI avatars, breakthroughs in reinforcement learning and robotics, and AI-accelerated physics, climate, and healthc
+are research. 
+* **Google announces new AI tools to help users fact-check images and more**  
+\- Also prevent the spread
+ of false information. The tools include viewing an image's history, metadata, and the context in which it was used on d
+ifferent sites. Users can also see when the image was first seen by Google Search to understand its recency.   
+\- Addit
+ionally, the tools allow users to understand how people described the image on other sites to debunk false claims. Googl
+e marks all images created by its AI, and the new image tools are accessible through the three-dot menu on Google Images
+ results.
+* **Grammarly’s announces new feature 'Personalized voice detection & application'**   
+\- That uses generativ
+e AI to detect a person's unique writing style and create a 'voice profile' that can rewrite any text in that style.   
+
+\- The feature, which will be available to subscribers of Grammarly's business tier by the end of the year, aims to reco
+gnize and remunerate writers for AI-generated works that mimic their voices.   
+\- Users can customize their profiles to
+ discard elements that don't accurately reflect their writing style. 
+* **Motorola's new foldable phone is boosted by AI
+ features**   
+\- They've developed an AI model that runs locally on the device, allowing users to 'bring their personal
+ style to their phone.' Users can upload or take a photo to get an AI-generated theme to match their style.  
+\- They’ve
+ embedded AI features in many areas of our devices, like camera, battery, display and device performance. It will serve 
+as a personal assistant and a tool to enhance everyday tasks, improve performance, and create more meaningful experience
+s for the users.
+* **Cisco rolls out new AI tools at the Webex One customer conference**  
+\- These tools include a real
+-time media model (RMM) that uses generative AI for audio and video, an AI-powered audio codec that is up to 16 times mo
+re efficient in bandwidth usage, and the Webex AI Assistant, which pulls together all the AI tooling for users.   
+\- Th
+e AI Assistant can detect when a user steps away from a meeting and provide summaries or replays of missed content.
+* **
+Amazon reveals AI image generation to help advertisers create more engaging ads**  
+\- The use of data science, analytic
+s, and AI has greatly improved the efficiency of digital advertising, but many advertisers still struggle with building 
+successful campaigns.   
+\- By providing tools that reduce friction and effort for advertisers, Amazon aims to deliver a
+ better advertising experience for customers.
+
+More detailed breakdown of these news and innovations in the [daily newsl
+etter](https://theaiedge.substack.com/p/openai-new-rival-jina-ai-woodpecker-nvidia).
+```
+---
+
+     
+ 
+all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-10-27-0909
+```
+ I plan to apply to 10-12 CS PhD programs, with a research focus in ML/NLP. 
+
+While I understand that many successful ap
+plicants in top programs have published NeurIPS/CVPR/ACL/EMNLP papers and are from prestigious labs/schools, what rankin
+gs of programs should I expect to be a competitive applicant for? #10-20? #20-40? #40-60? etc.
+
+&#x200B;
+
+\- 4.0 GPA fro
+m a small private school in California, graduated #1 in class
+
+\- 2 years as an RA in an on-campus NLP lab, while also d
+oing independent research
+
+\- 3 first author research papers (1 in submission at an A-tier conference, 2 on arXiv)
+
+\- 1
+ second author paper (in submission at an A-tier conference)
+
+\- 3 LoRs from profs who know me well. I am confident that
+ they will be quite strong, discussing my research and leadership abilities. But the profs are relatively unknown in aca
+demia
+
+\- Strong (I think) SoP, taking inspiration from many previously successful applicants. My research experiences a
+nd interests are very well-defined and catered to specific schools/profs
+
+\- Currently an SWE at a well-known company (n
+ot FAANG). I also do NLP consulting
+
+\- 3 SWE internships
+
+\- 330 GRE (169Q, 161V, 5.0AW)
+
+\- A couple of solid ML proje
+cts in school
+
+&#x200B;
+
+What kind of schools should I target? Where would be a reach? Any safeties?
+
+(Specific schools 
+listed below are arbitrary examples)
+
+\#10-20: UCLA/USC/UNC/Duke
+
+\#20-40: NYU/UCI/Rice/Ohio St
+
+\#40-60: NCSU/Vanderbil
+t/UT Dallas/UCF
+```
+---
+
+     
+ 
+all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-10-27-0909
 ```
 As an outsider who has many friends in ML Phds, this is my perspective of their lives:
 
@@ -33,7 +278,7 @@ e who claim to have solutions.
 
      
  
-all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-10-26-0909
+all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-10-27-0909
 ```
 Hey everyone! I am looking for papers that propose or explore biologically plausible vision models, primarily tasks like
  classification and grasping (predicting grasping bounding boxes) tasks. By biologically plausible, I mean papers that p
@@ -52,7 +297,7 @@ But I am still looking for more. Any suggestions?
 
      
  
-all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-10-26-0909
+all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-10-27-0909
 ```
 So I'm a begginer, I've been using SD for sometime. My inpaint Stopped working 1 or 2 months ago(i think).I usually upda
 te to the latest version everytime.
@@ -77,7 +322,7 @@ ing the images), or is it something just bad with my machine or is there a probl
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-10-26-0909
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-10-27-0909
 ```
 Hello all,
 
@@ -97,7 +342,7 @@ me dataset or can I replace some with other datasets?
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-10-26-0909
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-10-27-0909
 ```
 Hello all,
 
@@ -117,7 +362,7 @@ ame dataset or can I replace some with other datasets?
 
      
  
-all -  [ MSCS Profile Evaluation - Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/17c2w15/mscs_profile_evaluation_fall_2024/) , 2023-10-26-0909
+all -  [ MSCS Profile Evaluation - Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/17c2w15/mscs_profile_evaluation_fall_2024/) , 2023-10-27-0909
 ```
 B.E. (ongoing) from a Tier 2 Institution in India  
 CGPA: 9.46  
@@ -157,7 +402,7 @@ ASU
 
      
  
-all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-10-26-0909
+all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-10-27-0909
 ```
 **paper**: [https://arxiv.org/abs/2301.12321](https://arxiv.org/abs/2301.12321)
 
@@ -198,7 +443,7 @@ preview.redd.it/4x2244ure9vb1.png?width=2778&format=png&auto=webp&s=6c6cb9f8d1be
 
      
  
-all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-10-26-0909
+all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-10-27-0909
 ```
 Was supposed to be Monday but instead it's rolling
 ```
@@ -206,7 +451,7 @@ Was supposed to be Monday but instead it's rolling
 
      
  
-all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-10-26-0909
+all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-10-27-0909
 ```
 **Accepted at NeurIPS 2023**
 
@@ -240,7 +485,7 @@ bsbvb1.png?width=1002&format=png&auto=webp&s=3067a2361f55603bf4b7769eaede32ca1f3
 
      
  
-all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-10-26-0909
+all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-10-27-0909
 ```
 Finished undergrad in math/cs in 2.5 years from a solid research uni in the US (top 30 overall, top 10 for cs). 3.7 GPA 
 with a few grad courses
@@ -282,7 +527,7 @@ SL)
 
      
  
-all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-26-0909
+all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-27-0909
 ```
  
 
@@ -395,100 +640,7 @@ es, reading academic publications, engaging in hands-on learning, and building a
 
      
  
-all -  [ Profile Review for my second attempts in AI PhD (mastered out my current) ](https://www.reddit.com/r/gradadmissions/comments/174nkew/profile_review_for_my_second_attempts_in_ai_phd/) , 2023-10-26-0909
-```
-**Area of Interest:** RL + NLP + Multi-agent
-
-**Education:** BASc Chemical Engineering from UToronto, MSc Computer scien
-ce from PKU, mainland China (CSRanking Asia #2 World #14). Transitioned from PhD due to unhappy experiences and career c
-hoices. Undergrad cGPA 3.3/4.0, PhD cGPA 3.45/4.00
-
-**GRE:** no plan on taking
-
-**TOFEL**: Not required maybe given my B
-ASc in Canada?
-
-**Internship Experience**:
-
-\- 1 year at Cenovus Energy Canada as DS intern (Co-op program during my bac
-helor)
-
-\- 1.2 year at Beijing Institute of General AI (similar but inferior to MSRA)
-
-\- \~3 months at a Chinese LLM un
-icorn startup
-
-**Publications**:
-
-\- 2 NeurIPS (1 co-first, 1 second), 1 ICLR (co-first), all posters no awards.
-
-\- Thi
-rd author and beyond in 2 other arXiv papers (both under review)
-
-\- Given authorship in that startup's technical report
- of their open-sourced LLM models
-
-\- Citation count is not good (\~20)
-
-**LORs:**
-
-**-** 1 from my supervisor who does 
-nothing but a very nice guy (full professor)
-
-\- 1 from my frequent collaborater who does the heavy lifting (assistant p
-rofessor)
-
-\- 1 from my technical manager at the start-up
-
-I can't think of anyone else who could write me a very detail
-ed letter, I don't know other professors really well. But these guys promised me good letters.
-
-**Short-listed Uni so fa
-r:**
-
-*Ambitious:*
-
-\- UWashington (dream school, very strong in NLP, one prof agree to host me for a potential visiting
-)
-
-\- UTAustin (very strong in NLP as well)
-
-\- UIUC (strong in RL)
-
-\- UCLA (costly)
-
-\- UC San Diego (super costly)
-
-\
-- GeorgiaTech
-
-*Less Ambitious:*
-
-\- UToronto (strong in CS Theory, none of the profs aligns with my reserach direction)
-
-
-\- UWaterloo (a couple of incoming profs have very interesting topics)
-
-&#x200B;
-
-*Safe*: people were saying safe scho
-ol isn't a thing
-
-*Nationality: Canadian (if this really matters)*
-
-I don't have the balls to aim for the Top 4 (Stanfor
-d, UCB, MIT, CMU). I assume you probably need like 10 CVPR papers to even be considered qualified.
-
-Any suggestion/comme
-nt/advice is greatly appreciated.
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-26-0909
+all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-27-0909
 ```
 I am a final year PhD student in France working on privacy and  fairness topics in deep neural networks. My publication 
 record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS).  Recently, I've been applying to data sc
@@ -506,7 +658,7 @@ Resume - [https://i.imgur.com/x2IavdR.jpg](https://i.imgur.com/x2IavdR.jpg)
 
      
  
-all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-26-0909
+all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-27-0909
 ```
 I am currently a final year PhD student in France working on privacy and fairness topics in deep neural networks. My pub
 lication record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS). Recently, I've been applying to
@@ -521,7 +673,7 @@ Resume - https://i.imgur.com/x2IavdR.jpg
 
      
  
-all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-26-0909
+all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-27-0909
 ```
 Hey there!
 
@@ -537,7 +689,7 @@ Thank you very much!
 
      
  
-all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-26-0909
+all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-27-0909
 ```
 Hi all,
 
@@ -583,7 +735,7 @@ Thank you in advance!
 
      
  
-all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-26-0909
+all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-27-0909
 ```
 
 ```
@@ -591,7 +743,7 @@ all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Plann
 
      
  
-all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-26-0909
+all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-27-0909
 ```
 I am applying for fall 2024 for both MS and PhD in CS, with specialization in ML (NLP, Speech)
 
@@ -635,7 +787,7 @@ ersities provide decent chance of landing funding in form of TA/RA, this is impo
 
      
  
-all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-26-0909
+all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-27-0909
 ```
 Hello. I am an international masters student in the US, applying for software engineering internships, but I haven't had
  any luck getting interviews so far. It turns out that I had been formatting my resume in a way that is not the norm her
@@ -651,102 +803,6 @@ https://preview.redd.it/5thjr5viwuqb1.png?width=1344&format=png&auto=webp&s=0bab
 
 
 &#x200B;
-```
----
-
-     
- 
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16rwgd1/ms_cs_profile_evaluation_fall_2024/) , 2023-10-26-0909
-```
- Academic Profile
-
-· B.E. Electronics and Communication + Data Science Minor
-
-· GPA - 9.29 from Tier 1 Indian university
- (Top 10 in department / Top 15 in uni)
-
-· GRE: 169 Q 162V AWA 5
-
-· TOEFL : Should get 110-115
-
-========================
-===============
-
-Work & Research Experience
-
-· \~1 year at Brown University
-
-· 4 months at TU Dresden
-
-· Upcoming thesis
- at Cambridge
-
-· Two projects under university professors
-
-=======================================
-
-LORs
-
-· PI from Brow
-n University (Strong - Moderate)
-
-· PI from TU Dresden (Strong - Moderate)
-
-· BITS professor (Academic based rather than
- research based)
-
-=======================================
-
-Publication
-
-· Co-Authorship in paper that got Oral Presentat
-ion at ICML
-
-· Submitting first authorship paper at NeurIPS workshop (relatively sure of its acceptance)
-
-==============
-=========================
-
-Awards
-
-· DAAD Schoalrship
-
-· MITACS Scholarship
-
-=======================================
-
-Un
-iversities and classification
-
-Ambitious :
-
-* ETH Zurich CS
-* Cambridge MLMI
-* Princeton CS
-* UCSD CS
-* UIUC
-
-Moderate:
-
-
-* EPFL DS
-* GATech CS
-* UC London ML
-* UMaryland
-* UT Austin
-
-Safe(?) :
-
-* Uni Edinburgh DS
-* UCSD ECE MLDS
-* NYU Coura
-nt
-* Brown
-
-My main target is either a ML Scientist/Engineer role or a PhD in some focused topic in ML. So suggestions f
-or universities according to the ML focus and research output along with my chances are greatly appreciated. I feel my p
-rofile is quite good my main fear is that my degree is not CS (i have taken a few CS electives and DS minor to try and c
-over up)
 ```
 ---
 
