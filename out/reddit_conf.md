@@ -1,117 +1,181 @@
  
-all -  [ Profile Review for Fall 2024 CS/ML PHD ](https://www.reddit.com/r/gradadmissions/comments/17h3odf/profile_review_for_fall_2024_csml_phd/) , 2023-10-28-0909
+all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-10-29-0910
 ```
-**Area of Interest:** RL, NLP
+Dive into the latest AI advancements and breakthroughs in this week's AI Revolution podcast! We dissect the game-changin
+g 'Woodpecker' technology set to tackle the Large Language Models (LLM) hallucination problem, bringing more accuracy an
+d reliability to AI-generated content. Plus, get insider updates from leading tech giants and emerging players in the AI
+ field. October 2023, Week 4: Here’s what we’re covering:- “Woodpecker”: The promising solution to LLM hallucination iss
+ues- Jina AI: How OpenAI’s newest rival is shaping the AI landscape- Meta’s AI ventures: What’s next from the social med
+ia giant?- NVIDIA: Latest innovations and collaborations- Google, Qualcomm, Grammarly, Motorola, Cisco, and Amazon: AI u
+pdates and developments- And more!
 
-**Education:**
+**Video**: [https://youtu.be/Q6rTpvzUpng](https://youtu.be/Q6rTpvzUpng)
 
-\- BASc Chemical Engineering from UToronto, Undergrad cGPA 3.3/4.0
+**Forbes la
+unches its own generative AI search platform built with Google Cloud.**
 
-\- Ex
-pecting a MSc Computer science from PKU, mainland China (CSRanking Asia #2 World #14). Transitioned from PhD due to care
-er choices. PhD cGPA 3.45/4.00
+The tool, Adelaide, is purpose-built for news s
+earch and offers AI-driven personalized recommendations and insights from Forbes’ trusted journalism. It is in beta and 
+select visitors can access it through the website. *(*[*Link*](https://www.forbes.com/sites/forbes-spotlights/2023/10/26
+/forbes-launches-new-generative-ai-search-tool-adelaide-powered-by-google-cloud/)*)*
 
-**GRE & TOFEL:** I don't think they are required anymore (no tofel due to my canadian un
-dergrad degree)
+**Google Maps is becoming more lik
+e Search– thanks to AI.**
 
-**Internship Experience**:
+Google wants Maps to be more like Search, where people can get directions or find places but 
+also enter queries like “things to do in Tokyo” and get actually useful hits and discover new experiences, guided by its
+ all-powerful algorithm. *(*[*Link*](https://www.theverge.com/2023/10/26/23932315/google-maps-ai-immersive-view-ev-charg
+ing-search)*)*
 
-\- 1 year at Cenovus Energy Canada (oil and gas) as DS intern (Co-op progra
-m during my bachelor)
+**Shutterstock will now let you edit its library of images using AI.**
 
-\- 1.2 year at Beijing Institute of General AI (similar but inferior to MSRA)
+It revealed a set of new AI-powe
+red tools, like Magic Brush, which lets you tweak an image by brushing over an area and describing what you want to add/
+replace/erase. Others include smart resizing feature and background removal tool. *(*[*Link*](https://www.theverge.com/2
+023/10/26/23933120/shutterstock-transform-real-photos-ai)*)*
 
-\- \~4 months at a
- Chinese LLM unicorn startup doing LLM fine-tuning and RLHF
+**UK to set up world's first AI safety institute, says PM 
+Rishi Sunak.**
 
-**Publications**:
+The institute will carefully examine, evaluate and test new types of AI so that we understand what each 
+new model is capable of, exploring all the risks from social harms like bias and misinformation through to the most extr
+eme risks of all. *(*[*Link*](https://www.reuters.com/world/uk/uk-set-up-worlds-first-ai-safety-institute-sunak-says-202
+3-10-26)*)*
 
-\- 2 NeurIPS (1 co-first but ranked seco
-nd, 1 second-author), 1 ICLR (co-first but ranked second)
+**Intel is trying something different– selling specialized AI software and services.**
 
-\- Third-author and beyond in 3 other arXiv papers (both unde
-r review)
+Intel is working wi
+th multiple consulting firms to build ChatGPT-like apps for customers that don’t have the expertise to do it on their ow
+n. *(*[*Link*](https://www.theinformation.com/articles/ai-laggard-intel-expands-effort-to-help-companies-build-chatgpt-l
+ike-apps)*)*
 
-\- Given authorship in that startup's technical report of their open-sourced LLM models. The paper is kind of
- a big deal in China, but definitely not at the level of Llama 2 technical report.
+**Google expands its bug bounty program for attacks specific to GenAI**\- It is also expanding its open so
+urce security work and building upon our prior collaboration with the Open Source Security Foundation. In addition, Goog
+le is to to support a new effort by the non-profit MLCommons Association to develop standard AI safety benchmarks.
 
-**LORs:**
+**Bo
+ston Dynamics turns its robot dog into a talking tour guide using ChatGPT**\- Spot could run, jump, and even dance, but 
+now it can talk. With ChatGPT, it can answer questions and generate responses about the company’s facilities while givin
+g a tour.
 
-All LoRs coming from Chin
-a.
+**UK to set up world's first AI safety institute, Sunak says**\- The institute will carefully examine, evalua
+te and test new types of AI so that we understand what each new model is capable of, exploring all the risks from social
+ harms like bias and misinformation through to the most extreme risks of all.
 
-\- my supervisor who is a full professor at PKU, led a ok-ish CV lab with plenty of publications in CVPR and other t
-op-tier conferences, citation count: 4k6+.
+**Intel will sell specialized AI software
+ and services**\- Intel is working with multiple consulting firms to build ChatGPT-like apps for customers that don’t ha
+ve the expertise to do it on their own.
 
-\- my frequent collaborater (3 papers) who is an assistant professor, citati
-on count: 3k+
+**Berlin-based AI company Jina AI launched OpenAI rival jina-embeddings-v2, the
+ world's first open-source 8K text embedding model.**\- This model supports an impressive 8K context length, putting it 
+on par with OpenAI's proprietary model. Jina-embeddings-v2 offers extended context potential, allowing for applications 
+such as legal document analysis, medical research, literary analysis, financial forecasting, and conversational AI.- Ben
+chmarking shows that it outperforms other leading base embedding models. The model is available in two sizes, a base mod
+el for heavy-duty tasks and a small model for lightweight applications.
 
-Both professors agreed to write strong letters.
+**LLM hallucination problem will be over with “
+Woodpecker”**\- Researchers from the University of Science and Technology of China and Tencent YouTu Lab have developed 
+a framework called 'Woodpecker' to correct hallucinations in multimodal large language models (MLLMs).- Woodpecker uses 
+a training-free method to identify and correct hallucinations in generated text. The framework goes through 5 stages, in
+cluding key concept extraction, question formulation, visual knowledge validation, visual claim generation, and hallucin
+ation correction.- The researchers have released the source code and an interactive demo of Woodpecker for further explo
+ration and application.
 
-With regards to the third letters, I am choosing between
- :
+**NVIDIA Research has announced a range of AI advancements**\- That will be presented at the Ne
+urIPS conference. The projects include new techniques for transforming text to images, photos to 3D avatars, and special
+ized robots into multi-talented machines. The research focuses on gen AI models, reinforcement learning, robotics, and a
+pplications in the natural sciences.- Highlights include improving text-to-image diffusion models, advancements in AI av
+atars, breakthroughs in reinforcement learning and robotics, and AI-accelerated physics, climate, and healthcare researc
+h.
 
-* (1) my technical manager at the start-up who had 10 years working experiences but not well-known in the industry o
-r academia, but he can speak for my experience in working with LLMs
-* (2) an assistant professor who only knows me but n
-ever work with me, citation count: 4k5+. He was an area chair for several top conferences like CVPR
+**Google announces new AI tools to help users fact-check images and more**\- Also prevent the spread of false inform
+ation. The tools include viewing an image's history, metadata, and the context in which it was used on different sites. 
+Users can also see when the image was first seen by Google Search to understand its recency.- Additionally, the tools al
+low users to understand how people described the image on other sites to debunk false claims. Google marks all images cr
+eated by its AI, and the new image tools are accessible through the three-dot menu on Google Images results.
 
-&#x200B;
+**Grammarl
+y’s announces new feature 'Personalized voice detection & application'**\- That uses generative AI to detect a person's 
+unique writing style and create a 'voice profile' that can rewrite any text in that style.- The feature, which will be a
+vailable to subscribers of Grammarly's business tier by the end of the year, aims to recognize and remunerate writers fo
+r AI-generated works that mimic their voices.- Users can customize their profiles to discard elements that don't accurat
+ely reflect their writing style.
 
-**Short-l
-isted Uni:**
+**Motorola's new foldable phone is boosted by AI features**\- They've developed an AI 
+model that runs locally on the device, allowing users to 'bring their personal style to their phone.' Users can upload o
+r take a photo to get an AI-generated theme to match their style.- They’ve embedded AI features in many areas of our dev
+ices, like camera, battery, display and device performance. It will serve as a personal assistant and a tool to enhance 
+everyday tasks, improve performance, and create more meaningful experiences for the users.
 
-*Ambitious:*
+**Cisco rolls out new AI too
+ls at the Webex One customer conference**\- These tools include a real-time media model (RMM) that uses generative AI fo
+r audio and video, an AI-powered audio codec that is up to 16 times more efficient in bandwidth usage, and the Webex AI 
+Assistant, which pulls together all the AI tooling for users.- The AI Assistant can detect when a user steps away from a
+ meeting and provide summaries or replays of missed content.
 
-\- UWashington (dream school, very strong in NLP, one prof agree to host me for a potential 
-visiting)
+**Amazon reveals AI image generation to help advertisers c
+reate more engaging ads**\- The use of data science, analytics, and AI has greatly improved the efficiency of digital ad
+vertising, but many advertisers still struggle with building successful campaigns.- By providing tools that reduce frict
+ion and effort for advertisers, Amazon aims to deliver a better advertising experience for customers.
 
-\- UTAustin
+**Qualcomm’s new 
+PC chip with AI features the first to challenge Apple**\- Its new Snapdragon Elite X chip will be available in laptops s
+tarting next year and has been redesigned to better handle AI tasks like summarizing emails, writing text, and generatin
+g images. Qualcomm claims it is faster than Apple's M2 Max chip at some tasks and more energy efficient than both Apple 
+and Intel PC chips.
 
-\- UC San Diego
+**Microsoft is outdoing its biggest rival, Google, in the AI game**\- From the two tech giants’ Sep
+tember-quarter results, growth at Microsoft’s Azure cloud unit (and the company generally) accelerated in the quarter du
+e to higher-than-expected consumption of AI-related services. In the same quarter, Google Cloud earnings slowed by nearl
+y 6 percentage points.
 
-\- GeorgiaTech
+**Samsung’s Galaxy S24 is your upcoming pocket AI machine**\- Going all in with AI on its next f
+lagship, Samsung wants to make the Galaxy S24, Galaxy S24+, and Galaxy S24 Ultra the smartest AI phones ever. The series
+ will have features lifted straight from ChatGPT and Google Bard, and Samsung has designed on its own. Many of them will
+ be available online and offline, and some Samsung features will be improved.
 
-\- Princeton
+**Google Photos will soon give you more s
+ay in its AI-created video highlights**\- With the latest Google Photos update, you can prompt AI-generated videos by se
+arching for specific tags like places, people, or activities. Once generated, you can trim clips, rearrange them, or swa
+p out music for something better.
 
-\- Cornell Tech
+**Lenovo and NVIDIA announce hybrid AI solutions to help enterprises quickly adopt Ge
+nAI**\- The new end-to-end solutions include accelerated systems, AI software, and expert services to build and deploy d
+omain-specific AI models with ease.
 
-*Hopeful*:
+**Amazon's AI-powered van inspections give it a powerful new data feed**\- Amazon d
+elivery drivers at sites around the world will be asked to drive through camera-studded archways at the end of shifts. T
+he data gathered will be used by algorithms to identify whether the vehicle is damaged or needs maintenance, picking up 
+every scratch, dent, nail in a tire, or crack in the windshield.
 
-\- UWaterloo
+**IBM acquires Manta Software Inc. to complement data 
+and AI governance capabilities**\- Manta’s data lineage capabilities help increase transparency within watsonx so busine
+sses can determine whether the right data was used for their AI models and systems, where it originated, how it has evol
+ved and any discrepancies in data flows.
 
-\- UNC
+**This new data poisoning tool lets artists fight back against GenAI**\- The t
+ool, called Nightshade, lets artists add invisible changes to the pixels in their art before they upload it online so th
+at if it’s scraped into an AI training set, it can cause the resulting model to break in chaotic and unpredictable ways.
+ This “poisoning” of training data could damage future iterations of image-generating AI models, such as DALL-E, Midjour
+ney, and Stable Diffusion.
 
+**Video**: [https://youtu.be/Q6rTpvzUpng](https://youtu.be/Q6rTpvzUpng)
 
-\- UCLA
+Full transcript: [h
+ttps://enoumen.com/2023/10/02/ai-revolution-in-october-2023-the-latest-innovations-reshaping-the-tech-landscape/](https:
+//enoumen.com/2023/10/02/ai-revolution-in-october-2023-the-latest-innovations-reshaping-the-tech-landscape/)
 
-*Safe*:
-
-(people were saying safe school isn't a thing)
-
-&#x200B;
-
-I added those unis mainly because of the p
-otential advisors that have overlapping research interests. I am looking forward to add more to the list given the compe
-titiveness in the current landscape.
-
-My biggest concerns are about writing my past research in my SoP - they are mainly
- associated with reinforcement learning and computer vision, not really about NLP or LLMs, while I really want to work o
-n the application of RL in NLP+LLM. And most of my papers are collab papers due to the scale of the projects, I don't ha
-ve any papers that I am the sole first-author.
-
-&#x200B;
-
-Any suggestion/comment/advice is greatly appreciated.
-
-&#x200B
-;
+Are you ea
+ger to expand your understanding of artificial intelligence? Look no further than the essential book '[**AI Unraveled: D
+emystifying Frequently Asked Questions on Artificial Intelligence,**](https://amzn.to/3BwRqkF)' available at [**Apple**]
+(http://books.apple.com/us/book/id6445730691), [**Google**](https://play.google.com/store/books/details?id=oySuEAAAQBAJ)
+, or [**Amazon**](https://amzn.to/3ZrpkCu) today: [https://amzn.to/3ZrpkCu](https://amzn.to/3ZrpkCu)
 ```
 ---
 
      
  
-all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-10-28-0909
+all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-10-29-0910
 ```
 Continuing with the exercise of sharing an easily digestible and smaller version of the main updates of the day in the w
 orld of AI.  
@@ -188,7 +252,7 @@ etter](https://theaiedge.substack.com/p/openai-new-rival-jina-ai-woodpecker-nvid
 
      
  
-all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-10-28-0909
+all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-10-29-0910
 ```
  I plan to apply to 10-12 CS PhD programs, with a research focus in ML/NLP. 
 
@@ -244,7 +308,7 @@ t/UT Dallas/UCF
 
      
  
-all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-10-28-0909
+all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-10-29-0910
 ```
 As an outsider who has many friends in ML Phds, this is my perspective of their lives:
 
@@ -278,7 +342,7 @@ e who claim to have solutions.
 
      
  
-all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-10-28-0909
+all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-10-29-0910
 ```
 Hey everyone! I am looking for papers that propose or explore biologically plausible vision models, primarily tasks like
  classification and grasping (predicting grasping bounding boxes) tasks. By biologically plausible, I mean papers that p
@@ -297,7 +361,7 @@ But I am still looking for more. Any suggestions?
 
      
  
-all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-10-28-0909
+all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-10-29-0910
 ```
 So I'm a begginer, I've been using SD for sometime. My inpaint Stopped working 1 or 2 months ago(i think).I usually upda
 te to the latest version everytime.
@@ -322,7 +386,7 @@ ing the images), or is it something just bad with my machine or is there a probl
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-10-28-0909
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-10-29-0910
 ```
 Hello all,
 
@@ -342,7 +406,7 @@ me dataset or can I replace some with other datasets?
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-10-28-0909
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-10-29-0910
 ```
 Hello all,
 
@@ -362,7 +426,7 @@ ame dataset or can I replace some with other datasets?
 
      
  
-all -  [ MSCS Profile Evaluation - Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/17c2w15/mscs_profile_evaluation_fall_2024/) , 2023-10-28-0909
+all -  [ MSCS Profile Evaluation - Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/17c2w15/mscs_profile_evaluation_fall_2024/) , 2023-10-29-0910
 ```
 B.E. (ongoing) from a Tier 2 Institution in India  
 CGPA: 9.46  
@@ -402,7 +466,7 @@ ASU
 
      
  
-all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-10-28-0909
+all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-10-29-0910
 ```
 **paper**: [https://arxiv.org/abs/2301.12321](https://arxiv.org/abs/2301.12321)
 
@@ -443,7 +507,7 @@ preview.redd.it/4x2244ure9vb1.png?width=2778&format=png&auto=webp&s=6c6cb9f8d1be
 
      
  
-all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-10-28-0909
+all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-10-29-0910
 ```
 Was supposed to be Monday but instead it's rolling
 ```
@@ -451,7 +515,7 @@ Was supposed to be Monday but instead it's rolling
 
      
  
-all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-10-28-0909
+all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-10-29-0910
 ```
 **Accepted at NeurIPS 2023**
 
@@ -485,7 +549,7 @@ bsbvb1.png?width=1002&format=png&auto=webp&s=3067a2361f55603bf4b7769eaede32ca1f3
 
      
  
-all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-10-28-0909
+all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-10-29-0910
 ```
 Finished undergrad in math/cs in 2.5 years from a solid research uni in the US (top 30 overall, top 10 for cs). 3.7 GPA 
 with a few grad courses
@@ -527,7 +591,7 @@ SL)
 
      
  
-all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-28-0909
+all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-10-29-0910
 ```
  
 
@@ -640,7 +704,7 @@ es, reading academic publications, engaging in hands-on learning, and building a
 
      
  
-all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-28-0909
+all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-10-29-0910
 ```
 I am a final year PhD student in France working on privacy and  fairness topics in deep neural networks. My publication 
 record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS).  Recently, I've been applying to data sc
@@ -658,7 +722,7 @@ Resume - [https://i.imgur.com/x2IavdR.jpg](https://i.imgur.com/x2IavdR.jpg)
 
      
  
-all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-28-0909
+all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-10-29-0910
 ```
 I am currently a final year PhD student in France working on privacy and fairness topics in deep neural networks. My pub
 lication record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS). Recently, I've been applying to
@@ -673,7 +737,7 @@ Resume - https://i.imgur.com/x2IavdR.jpg
 
      
  
-all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-28-0909
+all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-10-29-0910
 ```
 Hey there!
 
@@ -689,7 +753,7 @@ Thank you very much!
 
      
  
-all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-28-0909
+all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-10-29-0910
 ```
 Hi all,
 
@@ -735,7 +799,7 @@ Thank you in advance!
 
      
  
-all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-28-0909
+all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Planning ](https://groups.google.com/g/ml-news/c/ouC1kILPcS0) , 2023-10-29-0910
 ```
 
 ```
@@ -743,7 +807,7 @@ all -  [ Final Call for Papers: NeurIPS 2023 Workshop on Generalization in Plann
 
      
  
-all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-28-0909
+all -  [ Need help for University short listing | MS/PHD CS fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/16viqze/need_help_for_university_short_listing_msphd_cs/) , 2023-10-29-0910
 ```
 I am applying for fall 2024 for both MS and PhD in CS, with specialization in ML (NLP, Speech)
 
@@ -782,27 +846,6 @@ ded: Any suggestions for other excellent MS CS research focused masters (not pro
 ve list? It's currently 8, I am planning to apply for a total of 10, so I need to decide 2 more. My current list of univ
 ersities provide decent chance of landing funding in form of TA/RA, this is important to me and that's why I am avoiding
  UCSD, MS CS CMU, GATech, Columbia, NYU.
-```
----
-
-     
- 
-all -  [ Resume review for a software engineering internship (urgent!) ](https://www.reddit.com/r/Resume/comments/16tuunq/resume_review_for_a_software_engineering/) , 2023-10-28-0909
-```
-Hello. I am an international masters student in the US, applying for software engineering internships, but I haven't had
- any luck getting interviews so far. It turns out that I had been formatting my resume in a way that is not the norm her
-e (but in a format which worked back in my home country). This is my first attempt at a resume since this realization; I
- more or less followed Jake's template. I would *really* appreciate any feedback on this resume, on the formatting as we
-ll as the actual content!  
-
-
-https://preview.redd.it/5thjr5viwuqb1.png?width=1344&format=png&auto=webp&s=0bab6f7296960f
-0263caaccc47d635ffd88dba5f
-
-[https://imgur.com/a/ASDLvV8](https://imgur.com/a/ASDLvV8)  
-
-
-&#x200B;
 ```
 ---
 
