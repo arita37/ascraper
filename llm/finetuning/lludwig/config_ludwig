@@ -1,0 +1,18 @@
+model_type: llm
+base_model: NousResearch/Llama-2-7b-hf
+input_features:
+  - name: title
+    type: text
+
+output_features:
+  - name: class
+    type: text
+
+trainer:
+  type: finetune
+  learning_rate: 0.0001
+  batch_size: 1
+  gradient_accumulation_steps: 16
+  epochs: 3
+  learning_rate_scheduler:
+    warmup_fraction: 0.01
