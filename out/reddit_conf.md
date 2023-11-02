@@ -1,5 +1,54 @@
  
-all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-01-0910
+all -  [ Machine Learning at G-Research ](https://www.reddit.com/r/gresearch/comments/17lb92r/machine_learning_at_gresearch/) , 2023-11-02-0909
+```
+[Join G-Research's Quant Research Team](https://www.gresearch.com/join-us/quant-research/)
+
+**Machine Learning's Role at
+ G-Research** 
+
+Machine Learning is an integral part of G-Research’s operations. Applied ML techniques form the foundati
+on of our successful investment management strategies and are pivotal to our overall achievements. We have been harnessi
+ng the power of ML for a long time, and our team boasts of researchers who have publications in esteemed conferences lik
+e ICML and NeurIPS.
+
+**Our Approach to ML** 
+
+We are not just about implementing ML for the sake of it. Our ML researche
+rs have access to vast amounts of clean data and significant computational power, aiding them in predicting financial ma
+rket movements. The maturity of this prediction problem mandates that we operate on the cutting edge to make even a 1% d
+ifference, which can be a game-changer. We start with the standard ML toolkit, but our researchers delve deep to truly u
+nderstand the intricacies, rather than just applying pre-existing solutions.
+
+**Quantitative Feedback is Key** 
+
+Our ML 
+approach is pragmatic. Once a model is built and back-tested extensively, it's put into production. The feedback is stra
+ightforward - it either works, or it doesn't. No debates, no politics - just clear quantitative outcomes.
+
+**Collaborati
+on is in Our DNA** 
+
+The journey of a typical project begins with the initial brainstorming phase. Instead of just showc
+asing the work, we run back tests. If the results are profitable, it's deemed successful. Our review process is rigorous
+, and if a research passes it, it's directly implemented into production. Our team not only has access to a plethora of 
+GPUs and CPUs but also shares a common code base, tools, and techniques. We believe in collective growth, with everyone 
+benefiting from shared knowledge. Moreover, we're constantly on the lookout for next-gen computing methods to stay ahead
+ in the game.
+
+**Introducing the G-Research Machine Learning College** 
+
+ML has always been a crucial component of our R
+esearch function. We take pride in our team comprising some of the best ML experts. Taking a step further, we are now nu
+rturing the upcoming generation of ML professionals through the G-Research Machine Learning College. Interested to know 
+more? Dive deeper into the [G-Research ML College](https://www.gresearch.com/join-us/quant-research/).
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-02-0909
 ```
 I just wanted to share the news! I don’t know what this means but I’m excited to share.
 ```
@@ -7,7 +56,7 @@ I just wanted to share the news! I don’t know what this means but I’m excite
 
      
  
-all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-01-0910
+all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-02-0909
 ```
 Major AI announcements from Meta, NVIDIA, OpenAI, Google and more.   
 
@@ -203,7 +252,7 @@ More detailed breakdown of these news and innovations
 
      
  
-all -  [ NVIDIA Research Announces AI Advancements at NeurIPS https://blogs.nvidia.com/wp-content/uploads/202 ](https://gamingnews01.com/nvidia-research-announces-ai-advancements-at-neurips/?feed_id=38993&_unique_id=653de4e13baf5) , 2023-11-01-0910
+all -  [ NVIDIA Research Announces AI Advancements at NeurIPS https://blogs.nvidia.com/wp-content/uploads/202 ](https://gamingnews01.com/nvidia-research-announces-ai-advancements-at-neurips/?feed_id=38993&_unique_id=653de4e13baf5) , 2023-11-02-0909
 ```
 
 ```
@@ -211,7 +260,7 @@ all -  [ NVIDIA Research Announces AI Advancements at NeurIPS https://blogs.nvid
 
      
  
-all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-11-01-0910
+all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-11-02-0909
 ```
 Dive into the latest AI advancements and breakthroughs in this week's AI Revolution podcast! We dissect the game-changin
 g 'Woodpecker' technology set to tackle the Large Language Models (LLM) hallucination problem, bringing more accuracy an
@@ -387,7 +436,7 @@ emystifying Frequently Asked Questions on Artificial Intelligence,**](https://am
 
      
  
-all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-11-01-0910
+all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-11-02-0909
 ```
 Continuing with the exercise of sharing an easily digestible and smaller version of the main updates of the day in the w
 orld of AI.  
@@ -464,7 +513,7 @@ etter](https://theaiedge.substack.com/p/openai-new-rival-jina-ai-woodpecker-nvid
 
      
  
-all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-11-01-0910
+all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-11-02-0909
 ```
  I plan to apply to 10-12 CS PhD programs, with a research focus in ML/NLP. 
 
@@ -520,7 +569,7 @@ t/UT Dallas/UCF
 
      
  
-all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-11-01-0910
+all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-11-02-0909
 ```
 As an outsider who has many friends in ML Phds, this is my perspective of their lives:
 
@@ -554,7 +603,7 @@ e who claim to have solutions.
 
      
  
-all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-11-01-0910
+all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-11-02-0909
 ```
 Hey everyone! I am looking for papers that propose or explore biologically plausible vision models, primarily tasks like
  classification and grasping (predicting grasping bounding boxes) tasks. By biologically plausible, I mean papers that p
@@ -573,7 +622,7 @@ But I am still looking for more. Any suggestions?
 
      
  
-all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-11-01-0910
+all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-11-02-0909
 ```
 So I'm a begginer, I've been using SD for sometime. My inpaint Stopped working 1 or 2 months ago(i think).I usually upda
 te to the latest version everytime.
@@ -598,7 +647,7 @@ ing the images), or is it something just bad with my machine or is there a probl
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-11-01-0910
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-11-02-0909
 ```
 Hello all,
 
@@ -618,7 +667,7 @@ me dataset or can I replace some with other datasets?
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-11-01-0910
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-11-02-0909
 ```
 Hello all,
 
@@ -638,7 +687,7 @@ ame dataset or can I replace some with other datasets?
 
      
  
-all -  [ MSCS Profile Evaluation - Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/17c2w15/mscs_profile_evaluation_fall_2024/) , 2023-11-01-0910
+all -  [ MSCS Profile Evaluation - Fall 2024 ](https://www.reddit.com/r/gradadmissions/comments/17c2w15/mscs_profile_evaluation_fall_2024/) , 2023-11-02-0909
 ```
 B.E. (ongoing) from a Tier 2 Institution in India  
 CGPA: 9.46  
@@ -678,7 +727,7 @@ ASU
 
      
  
-all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-11-01-0910
+all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-11-02-0909
 ```
 **paper**: [https://arxiv.org/abs/2301.12321](https://arxiv.org/abs/2301.12321)
 
@@ -719,7 +768,7 @@ preview.redd.it/4x2244ure9vb1.png?width=2778&format=png&auto=webp&s=6c6cb9f8d1be
 
      
  
-all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-11-01-0910
+all -  [ [D] Has anybody heard back from NeurIPS financial aid yet? ](https://www.reddit.com/r/MachineLearning/comments/17bsyp6/d_has_anybody_heard_back_from_neurips_financial/) , 2023-11-02-0909
 ```
 Was supposed to be Monday but instead it's rolling
 ```
@@ -727,7 +776,7 @@ Was supposed to be Monday but instead it's rolling
 
      
  
-all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-11-01-0910
+all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-11-02-0909
 ```
 **Accepted at NeurIPS 2023**
 
@@ -761,7 +810,7 @@ bsbvb1.png?width=1002&format=png&auto=webp&s=3067a2361f55603bf4b7769eaede32ca1f3
 
      
  
-all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-11-01-0910
+all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-11-02-0909
 ```
 Finished undergrad in math/cs in 2.5 years from a solid research uni in the US (top 30 overall, top 10 for cs). 3.7 GPA 
 with a few grad courses
@@ -803,7 +852,7 @@ SL)
 
      
  
-all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-11-01-0910
+all -  [ How can I stay up-to-date with the latest advancements in machine learning after completing a course ](https://www.reddit.com/r/u_nearlearns/comments/1755o0j/how_can_i_stay_uptodate_with_the_latest/) , 2023-11-02-0909
 ```
  
 
@@ -916,7 +965,7 @@ es, reading academic publications, engaging in hands-on learning, and building a
 
      
  
-all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-11-01-0910
+all -  [ Final year PhD student aiming to transitioning from ML PhD to industry. ](https://www.reddit.com/r/resumes/comments/174fy9s/final_year_phd_student_aiming_to_transitioning/) , 2023-11-02-0909
 ```
 I am a final year PhD student in France working on privacy and  fairness topics in deep neural networks. My publication 
 record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS).  Recently, I've been applying to data sc
@@ -934,7 +983,7 @@ Resume - [https://i.imgur.com/x2IavdR.jpg](https://i.imgur.com/x2IavdR.jpg)
 
      
  
-all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-11-01-0910
+all -  [ Seeking advice on transitioning from ML PhD to industry ](https://www.reddit.com/r/cscareerquestionsEU/comments/173rtr4/seeking_advice_on_transitioning_from_ml_phd_to/) , 2023-11-02-0909
 ```
 I am currently a final year PhD student in France working on privacy and fairness topics in deep neural networks. My pub
 lication record is decent but not top-tier (think EMNLP, TMLR rather than ICML/NeurIPS). Recently, I've been applying to
@@ -949,7 +998,7 @@ Resume - https://i.imgur.com/x2IavdR.jpg
 
      
  
-all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-11-01-0910
+all -  [ How to write LOR ](https://www.reddit.com/r/MSCS/comments/171gsl6/how_to_write_lor/) , 2023-11-02-0909
 ```
 Hey there!
 
@@ -965,7 +1014,7 @@ Thank you very much!
 
      
  
-all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-11-01-0910
+all -  [ Profile evaluation for Master's (in CS mostly) applications in the US (Fall 24) ](https://www.reddit.com/r/gradadmissions/comments/16znemg/profile_evaluation_for_masters_in_cs_mostly/) , 2023-11-02-0909
 ```
 Hi all,
 
