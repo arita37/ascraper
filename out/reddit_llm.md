@@ -1,5 +1,1587 @@
  
-all -  [ Add a LangChain chatbot to my personal website? ](https://www.reddit.com/r/webdev/comments/17lookb/add_a_langchain_chatbot_to_my_personal_website/) , 2023-11-02-0909
+all -  [ Styling stream response ](https://www.reddit.com/r/OpenAI/comments/17mh3bh/styling_stream_response/) , 2023-11-03-0909
+```
+Hey OpenAi community! I’m currently working on a research website where I can put in a question in the search box and it
+ gives me points to answer that question:
+
+1. Lorem ipsum
+
+2. Lorem ipsum
+
+For this, I am using gpt 4, langchain, NextJS
+, and SerpApi. In my response, at the beginning, I want to include links to the specific sources that were being used.
+
+
+Brookings    Harvard   University of Utah
+…response
+
+However, what is the best way to go over this? I want my links to b
+e clickable and look nice. First I was thinking about letting my LLM write it, but that takes too long and is not too pr
+etty.
+
+Is there a way to use regex or something similar to insert my stylings?
+```
+---
+
+     
+ 
+all -  [ SolidGPT integrate with AutoGen, understand your codebase and let Multi-LLMAgent give you the code s ](https://www.reddit.com/r/AutoGenAI/comments/17mgs5f/solidgpt_integrate_with_autogen_understand_your/) , 2023-11-03-0909
+```
+Hi, Folks I just updated my open-source project - SolidGPT to integrate with AutoGen to improve my AI core power. I try 
+to combine the LLMAgent and Chat into one task. Let me know your thoughts, are the LLMAgent and Chat two different ways?
+
+
+SolidGPTn<>AutoGen. Introducing AutoGen Analysis, engage in issue-focused agent <> chat combination sessions, to get t
+he most detailed insights.
+
+Please try my new work: [https://github.com/AI-Citizen/SolidGPT](https://github.com/AI-Citiz
+en/SolidGPT)
+
+Scan and understand code with LangChain
+
+Analysis requirement and give the response with AutoGen
+
+&#x200B;
+
+
+https://preview.redd.it/zco8n994p0yb1.png?width=3012&format=png&auto=webp&s=0ff795d3851d643e8fa418df33d9823eada2bce3
+```
+---
+
+     
+ 
+all -  [ Using GPT-4 and merging LangChain and AutoGen to create a ChatApp which can understand your codebase ](https://www.reddit.com/r/ChatGPT/comments/17mgpuw/using_gpt4_and_merging_langchain_and_autogen_to/) , 2023-11-03-0909
+```
+Hi, Folks I always have a question, are the LLMAgent and Chat two different ways for AI?
+
+ I just updated my GPT4 dev ch
+at app to integrate with AutoGen . I try to combine the LLMAgent and Chat into one task to give the code planbasede on t
+he user codebase. Let me know your thoughts, are the LLMAgent and Chat two different ways?
+
+Please try my new work: [htt
+ps://github.com/AI-Citizen/SolidGPT](https://github.com/AI-Citizen/SolidGPT)
+
+&#x200B;
+
+https://preview.redd.it/j7lustb7
+o0yb1.png?width=3012&format=png&auto=webp&s=35d5eb5f123a663e706e8d9e363b0637b4647ec4
+```
+---
+
+     
+ 
+all -  [ Merging LangChain and AutoGen, understand your codebase and let Multi-LLMAgent give you the code sol ](https://www.reddit.com/r/foss/comments/17mgmnt/merging_langchain_and_autogen_understand_your/) , 2023-11-03-0909
+```
+Hi, Folks I just updated my open-source project to integrate with AutoGen to improve my AI core power. I try to combine 
+the LLMAgent and Chat into one task. Let me know your thoughts, are the LLMAgent and Chat two different ways? 
+
+Merging 
+LangChain<>AutoGen. Introducing AutoGen Analysis,  engage in issue-focused agent <> chat combination sessions, to get th
+e most detailed insights.  
+
+Please try my new work: [https://github.com/AI-Citizen/SolidGPT](https://github.com/AI-Citi
+zen/SolidGPT)
+
+Scan and understand code with LangChain
+
+Analysis requirement and give the response with AutoGen 
+
+https:
+//preview.redd.it/enmjidzxn0yb1.png?width=3012&format=png&auto=webp&s=39bdf25c2713e26cc64e602c61f9a27c4b498975
+
+&#x200B;
+
+```
+---
+
+     
+ 
+all -  [ Building a Recommendation System for a React Native ](https://www.reddit.com/r/react/comments/17mg4xn/building_a_recommendation_system_for_a_react/) , 2023-11-03-0909
+```
+So basically I am a beginner I want to build a React Native application specifically a dating app to practice my skills 
+and knowledge I planned on using Supabase as the BE but I am pretty confused on how I would go about building the recomm
+endation system so each user can get someone similar to them instead of just randomly showing any user I am thinking vec
+torizing and doing some stuff like those AI Applications do using Vector DB and Langchain will work but still pretty con
+fused on those also
+
+EDIT: I might need to show why he/she/they/them was recommended maybe based on location, shared int
+erest or other things
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Any tips on debugging or configuration? ](https://www.reddit.com/r/ollama/comments/17mfdwd/any_tips_on_debugging_or_configuration/) , 2023-11-03-0909
+```
+1) Ollama rocks
+
+2) See 1 above
+
+Recently started using it and managed to pump a healthy amount of data through Ollama +
+ llama2 with URL retrieval  on an MBP with an M2 and GPU, and have been really impressed. 
+
+So tried out using RAG with 
+chroma & langchain, and performance has been not so great. 
+
+A single document, using OllamaEmbeddings 
+
+\`\`\`
+
+ 'model
+' : 'llama2:7b',
+
+ 'num\_gpu': 1,
+
+ 'num\_thread' : 10
+
+\`\`\`
+
+Doing a bit of profiling \_stream\_with\_aggregation [ht
+tps://github.com/langchain-ai/langchain/blob/f66a9d2adfe84ae70bd66d957f153f975a55313e/libs/langchain/langchain/llms/olla
+ma.py#L147C1-L148C1](https://github.com/langchain-ai/langchain/blob/f66a9d2adfe84ae70bd66d957f153f975a55313e/libs/langch
+ain/langchain/llms/ollama.py#L147C1-L148C1)
+
+Seems to be taking all the cumulative time and activity viewer is only show
+ing me ollama-runner with 98% GPU. 
+
+&#x200B;
+
+What should my next steps be in terms of debugging? 
+
+Appreciate any poin
+ters
+```
+---
+
+     
+ 
+all -  [ Synology Chat LLM feedback ](https://www.reddit.com/r/synology/comments/17ma5fm/synology_chat_llm_feedback/) , 2023-11-03-0909
+```
+I created a thing to use with synology chat, it is a local LLM service where one is the basic talk to a llm and the othe
+r uses langchain for memory and wiki Q&A. I would love some feedback and maybe help in ways to improve it.  
+[https://gi
+thub.com/CaptJaybles/synologyLLM](https://github.com/CaptJaybles/synologyLLM)
+
+[https://github.com/CaptJaybles/SynoLangc
+hain](https://github.com/CaptJaybles/SynoLangchain)
+```
+---
+
+     
+ 
+all -  [ LLM Fun: Building a Q&A Bot of Myself ](https://bjlkeng.io/posts/building-a-qa-bot-of-me-with-openai-and-cloudflare/) , 2023-11-03-0909
+```
+
+```
+---
+
+     
+ 
+all -  [ My name is Jordy and I just got rickrolled by an AI agent. AMA ](https://i.redd.it/yuzovs6q1zxb1.jpg) , 2023-11-03-0909
+```
+I was testing it out, asked for a 2 minute cat video, got rickrolled. 
+
+AI has developed a sense of humour before the Ge
+rmans did. Chapeau.
+```
+---
+
+     
+ 
+all -  [ Vote for Cassandra in LangChain integrations. ](https://www.reddit.com/r/cassandra/comments/17m8674/vote_for_cassandra_in_langchain_integrations/) , 2023-11-03-0909
+```
+
+1) Go to https://integrations.langchain.com/
+2) Sign In with email/GitHub/discord
+3) Click Vector Stores filter
+4) Pres
+s the heart button for *Cassandra*
+```
+---
+
+     
+ 
+all -  [ Please help! Trying to get ChatGPT to work with multiple PDFs and ePubs (using old Macs running High ](https://www.reddit.com/r/ChatGPTPro/comments/17m7zk4/please_help_trying_to_get_chatgpt_to_work_with/) , 2023-11-03-0909
+```
+Please help!
+I want to write some text, using multiple book-length (200-400 pages) PDFs and ePubs as reference. 
+My plan
+ was to upload the files, have ChatGPT summarize each chapter, THEN have it cross reference the different source materia
+ls that I would upload into each chapter. (The chats themselves would be self-contained; they wouldn’t cross-reference e
+ach other.)
+I uploaded the first PDF (again, most of my source ebooks are 200-400 pages): ChatGPT said it couldn’t read 
+it due to some encoding issue, then suggested that I run it through an OCR. 
+Skipping to the end, I finally uploaded a T
+XT file, which Chat still claimed it couldn’t work with. 
+(The original PDF was 95% text, now it’s just missing a few ch
+arts and diagrams, but it’s still mostly intact. So…REALLY?) 
+Again: I had wanted to cycle through about a dozen differe
+nt chats, with each chat requiring at least a dozen ebooks: the ebooks in the individual chats were supposed to cross-re
+ference each other, but each chat is a separate, different beast. 
+I’m patient enough to go through the process of reduc
+ing each PDF to TXT (although now we’re talking about DOZENS of ebooks that would need to be processed) but what’s the d
+eal NOW?! 
+I feel like the YouTube tutorials skip a LOT of steps and general info that would be useful. 
+BTW, I use 2 In
+tel Macs. Both of them are more than 5 years old, and run on High Sierra. I didn’t really have problems uploading, so I’
+m guessing the problem is on ChatGPT’s end, and I’m missing something. 
+Most of my source material is copyrighted, but b
+ecause my computers and OS are old, I can’t use GitHub solutions like Langchain, Quivr, or PrivateGPT (which I was never
+, ever told BEFORE I attempted to set them up). 
+Thoughts…? Advice…? Please and thank you!
+```
+---
+
+     
+ 
+all -  [ How should I go about creating a file management system that will be used for an LLM application? ](https://www.reddit.com/r/LangChain/comments/17m5cpf/how_should_i_go_about_creating_a_file_management/) , 2023-11-03-0909
+```
+I've built a simple LLM application using LangChain which is basically a chatbot that makes use of PDF files that I vect
+orize and store in a Pinecone index. What I'm now looking for is a way to build a file management system that enables th
+e user to upload new documents that are automatically vectorized. How should I go about building such a system? Is there
+ any tools or resources that you can suggest?
+```
+---
+
+     
+ 
+all -  [ Is LangChain the right tool to solve my problem? ](https://www.reddit.com/r/LangChain/comments/17m4uqw/is_langchain_the_right_tool_to_solve_my_problem/) , 2023-11-03-0909
+```
+I need the following feature:  
+The user will answer a series of questions, and based on that, there will be an output w
+ith an analysis and suggestions. That will be shown to the user and saved on the db as reports.   
+
+
+ChatGPT gives me a 
+reasonable output, and I can work with that. The problem is there is no coherence from one output to the other. I want t
+o use the previous reports so that if I have the same input, the endpoint returns the same answer, or if there is a slig
+ht change in the input, the answer doesn't change drastically. Basically, to take the previous reports as the basis, use
+ that and also ChatGPT.
+
+&#x200B;
+
+How can I use LangChain to solve this?  
+
+```
+---
+
+     
+ 
+all -  [ Quant Research for the Week ](https://www.reddit.com/r/quant/comments/17m4bjo/quant_research_for_the_week/) , 2023-11-03-0909
+```
+# ArXiv
+
+Finance
+
+[**Estimating Realized Correlation in High-Frequency Financial Data**](https://arxiv.org/abs/2310.1999
+2): A new method for analyzing high-frequency financial data shows that intraday market changes are mainly driven by int
+raday correlation changes. (2023-10-30, shares: 5)
+
+[**Agent-based Model for Deep Hedging**](https://arxiv.org/pdf/2310.
+18755.pdf): The Chiarella-Heston model, an advanced agent-based model, enhances deep hedging strategies by incorporating
+ different types of traders, and performs better in creating realistic financial time series than three other models. (2
+023-10-28, shares: 9)
+
+[**Estimating Systemic Risk in Networks**](https://arxiv.org/abs/2310.18658): The article propose
+s a two-step nonparametric estimation method for measuring financial systemic risk, showing that only the second step's 
+estimation error affects the results. (2023-10-28, shares: 4)
+
+[**Optimal Fees in Hedge Funds with Compensation**](http:
+//dx.doi.org/10.1016/j.jbankfin.2020.105884): The research suggests alternative fee schemes for hedge funds, arguing tha
+t traditional management and performance fees are suboptimal and that the recommended schemes reduce the fund's volatili
+ty. (2023-10-29, shares: 3)
+
+[**Visibility Graph Analysis of Oil Futures Markets**](https://arxiv.org/abs/2310.18903): A
+ study using visibility graph methodology examines the effects of the Russia-Ukraine conflict and COVID-19 on crude oil 
+futures markets, uncovering distinct market reactions to global disturbances. (2023-10-29, shares: 5)
+
+[**Investing Char
+acteristics' Impact on Financial Performance**](http://dx.doi.org/10.1109/ieem44572.2019.8978725): A research study iden
+tifies 13 key investment characteristics that contribute to success in the equity market, offering a deeper understandin
+g of the necessary traits for success in these markets. (2023-11-01, shares: 5)
+
+[**Corruption's Impact on Performance**
+](https://arxiv.org/abs/2310.20028): The study investigates the effect of managerial corruption on company performance, 
+emphasizing the need for ethical corporate governance and careful manager selection. (2023-10-30, shares: 4)
+
+[**Charact
+erizing Law-Invariant Measures**](https://arxiv.org/abs/2310.19552): The paper introduces new characterizations for law-
+invariant star-shaped functionals, demonstrating their wide use in finance, insurance, and probability scenarios. (2023-
+10-30, shares: 2)
+
+## Historical Trending
+
+[**Optimal Execution with Machine Learning**](https://arxiv.org/abs/2204.0858
+1): A study introduces a numerical algorithm using dynamic programming and deep learning for optimal order execution, hi
+ghlighting the convenience of using neural-network substitutes in stochastic control issues. (2022-04-18, shares: 52)
+
+[
+**Analysis of Nonlinear Pricing**](https://arxiv.org/abs/2302.11643): A paper proposes a method to calculate the best pr
+ice schedule considering consumer diversity in continuous-choice situations, demonstrating that optimal price discrimina
+tion can boost a firm's profit by at least 5.5% compared to linear pricing. (2023-02-22, shares: 43)
+
+[**Risk Evaluation
+ and Robust Optimization with Model Aggregation**](https://arxiv.org/abs/2201.06370): The model aggregation (MA) approac
+h is a new method for risk evaluation that provides a robust value and distributional model, refining Value-at-Risk and 
+Expected Shortfall characterizations. (2022-01-17, shares: 33)
+
+[**Deep Reinforcement Learning for Portfolio Management 
+Enhancement**](https://arxiv.org/abs/1911.11880): A reinforcement learning framework for portfolio management is introdu
+ced, allowing for continuous asset weights, short selling, and decision-making, with three reinforcement learning algori
+thms compared for effectiveness. (2019-11-26, shares: 33)
+
+[**Option Valuation on a Credit Index using Levy-driven Ornst
+ein-Uhlenbeck Process**](https://arxiv.org/abs/2301.05332): A Levy-driven Ornstein-Uhlenbeck process is proposed to mode
+l the risk-free rate and default intensities for evaluating option contracts on a credit index, with derived formulas an
+d numerical experiments conducted. (2023-01-12, shares: 27)
+
+[**TabR: Tabular DL Meets Nearest Neighbors**](https://arxi
+v.org/abs/2307.14338): TabR, a new deep learning model for tabular data, outperforms existing models by using a k-Neares
+t-Neighbors-like component for better predictions. (2023-07-26, shares: 68)
+
+[**Online Estimation & Community Detection 
+of Network Point Processes**](https://arxiv.org/abs/2009.01742): The research introduces a fast online variational infer
+ence algorithm for estimating latent structure in dynamic event arrivals on a network, offering comparable performance t
+o non-online variants with computational benefits. (2020-09-03, shares: 19)
+
+## Crypto & Blockchain
+
+[**NFT Market Fluct
+uations: Statistical Properties**](https://arxiv.org/abs/2310.19747?utm_source=dlvr.it&utm_medium=twitter): The study sh
+ows that the Non-fungible token (NFT) market, although new and unique in its trading methods, has many statistical simil
+arities with traditional financial markets, with some variations in certain quantitative measures. (2023-10-30, shares: 
+7)
+
+[**High Frequency Analysis of Bitcoin Volume-Volatility**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=46150
+28): Research shows that unexpected trading volume is the key factor in spot volatility in Bitcoin futures and spot mark
+ets, while Bitcoin futures volumes have a calming effect on systemic volatility. (2023-10-27, shares: 2.0)
+
+# SSRN
+
+### 
+Recently Published
+
+## Quantitative
+
+[**VolGAN: Realistic Volatility Surfaces**](https://papers.ssrn.com/sol3/papers.cfm
+?abstract_id=4617536): VolGAN, a new model that can generate realistic scenarios for the joint dynamics of implied volat
+ility surfaces and underlying assets, is introduced. (2023-10-30, shares: 173.0)
+
+[**Machine Learning for Earnings Forec
+asts**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4619313): Using machine learning models and comprehensive Co
+mpustat financial statement data for earnings forecasting can yield predictions that are up to 13% more accurate than tr
+aditional linear approaches. (2023-10-31, shares: 7.0)
+
+[**Smart Beta ETFs & Increased Flow Sensitivity to Multi-Factor 
+Alphas**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4620486): Smart beta ETFs trading activity significantly i
+mpacts mutual fund flow sensitivity, especially in funds with high nonmarket risk factor exposure. (2023-11-01, shares: 
+2.0)
+
+[**Google Trends Credit Interest Analysis**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4618881): The pap
+er discusses the use of Google Trends for analyzing credit interest in Armenia, eliminating the need for traditional sur
+veys by gathering online search data. (2023-10-31, shares: 2.0)
+
+[**Projected Fuzzy C-Means Algorithm**](https://papers.
+ssrn.com/sol3/papers.cfm?abstract_id=4619454): The article proposes a new algorithm for high-dimensional data clustering
+ in machine learning, aiming to improve performance and manage anomalous instances. (2023-10-31, shares: 2.0)
+
+[**KMeans
+ Initialization**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4616032): The article highlights the role of clus
+tering in data mining and machine learning, focusing on the Kmeans algorithm and the challenge of selecting optimal clus
+ter centroids. (2023-10-28, shares: 2.0)
+
+## Financial
+
+[**Efficient Heston Model for Climate Contracts**](https://paper
+s.ssrn.com/sol3/papers.cfm?abstract_id=4619038): A proposal suggests using Bitcoin-denominated derivatives contracts on 
+carbon bonds to help governments hedge against climate change and influence carbon bond and cryptocurrency prices. (2023
+-10-31, shares: 3.0)
+
+[**Private Equity Investment & Liquidity Shocks**](https://papers.ssrn.com/sol3/papers.cfm?abstrac
+t_id=4615423): Private equity investment outcomes can be influenced by investor composition, with funds from property an
+d casualty insurers investing less during natural disasters, resulting in lower returns. (2023-10-27, shares: 3.0)
+
+[**G
+reen Derivatives & Climate Risk**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4615427): The EU Green Deal aims 
+to make Europe carbon-neutral by 2050, requiring 1 trillion euro in sustainable investments, with derivatives markets an
+d 'green derivatives' crucial for managing climate risk. (2023-10-27, shares: 4.0)
+
+[**Time & Frequency Analysis of Oil 
+Futures Market**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617533): A study of the oil futures market from 1
+986 to 2020 reveals patterns and relationships between inventory, basis, hedging pressure, and futures risk premium, emp
+hasizing the importance of the data measurement period. (2023-10-30, shares: 4.0)
+
+[**Art as an Alternative Asset for Di
+versification**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617318): Art and collectibles can act as alternati
+ve assets for portfolio diversification, with art performing well compared to standard investments and showing a unique 
+seasonal pattern in returns. (2023-10-30, shares: 4.0)
+
+[**Indian Mutual Funds Performance Analysis**](https://papers.ss
+rn.com/sol3/papers.cfm?abstract_id=4615710): The study examines the performance and risk characteristics of Indian mutua
+l funds across market capitalization groups, offering insights for investors and financial professionals. (2023-10-27, s
+hares: 2.0)
+
+### Recently Updated
+
+## Quantitative
+
+[**The Common Factor in Volatility Risk Premia**](https://papers.ssr
+n.com/sol3/papers.cfm?abstract_id=4618943): Firm-level volatility risk premium has a strong factor structure, with stock
+s with the weakest exposures to the common bad volatility risk premium factor earning higher average returns, and the co
+mmon factor in total bad volatility risk premium predicting stock market returns. (2023-10-31, shares: 3.0)
+
+[**Batch-St
+ochastic Sub-Gradient Method for Non-Smooth Loss Functions**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=461405
+1): The new machine learning method, Batchstochastic Subgradient, offers stable loss value estimates and is more memory 
+efficient, as demonstrated using SQL. (2023-10-21, shares: 2.0)
+
+[**US. Treasuries: Liquidity Premiums and Results**](ht
+tps://papers.ssrn.com/sol3/papers.cfm?abstract_id=4619340): A new model of U.S. Treasuries suggests that liquidity facto
+rs are more significant than others, Federal Reserve asset purchases impact expected rates and term premiums, and inflat
+ion expectations are less stable than previously thought. (2022-05-06, shares: 2.0)
+
+[**Global Uncertainties and Emergin
+g Market Sectors**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4618546): A study finds a significant link betwe
+en global financial uncertainties and emerging market sectoral indices, based on data from 2008 to 2021. (2023-07-17, sh
+ares: 2.0)
+
+## Financial
+
+[**Algorithmic Trading's Influence on Human-Only Markets**](https://papers.ssrn.com/sol3/paper
+s.cfm?abstract_id=4620189): The potential existence of algorithmic trading can impact human price predictions, trading a
+ctivities, and price dynamics in human-only asset markets, even if no actual algorithmic trading is present. (2023-07-17
+, shares: 3.0)
+
+[**Bond Funds and Liquidity Provision**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4614945): C
+hanges in regulations have moved profits from liquidity provision in the corporate bond market to mutual funds, increasi
+ng volatility and vulnerability to market disruptions like the COVID-19 pandemic. (2023-10-23, shares: 23.0)
+
+[**ETFs an
+d Market Efficiency**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4615092): Capital constraints on intermediari
+es can affect the pricing efficiency of assets they manage, as seen in ETFs and their lead market makers during the COVI
+D-19 debt market disruptions. (2022-03-30, shares: 369.0)
+
+[**ETF Closures: Inaction for Investors?**](https://papers.ss
+rn.com/sol3/papers.cfm?abstract_id=4620553): Research indicates smaller ExchangeTraded Funds (ETFs) often yield higher d
+aily returns and typically close after positive returns. Investors usually fare better by not reacting to closure announ
+cements. (2023-01-23, shares: 60.0)
+
+[**Investor Returns: Market-Based Statistics**](https://papers.ssrn.com/sol3/papers
+.cfm?abstract_id=4614148): The study presents three market-based approximations of actual return from market trades, whi
+ch deviate from traditional evaluations based on time series analysis of investors' returns. (2023-04-11, shares: 25.0)
+
+
+[**Cost of Capital: Cross-Sectional Analysis**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4620204): Research 
+spanning 20 years across multiple countries shows that most variations in perceived capital cost are not supported by su
+bsequent returns, questioning the production-based asset pricing model. (2020-12-11, shares: 2.0)
+
+[**Equity and Credit 
+Index Options: Risk & Return Analysis**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4618313): A new credit risk
+ model accurately prices equity and credit index options, contradicting previous claims of inconsistent pricing, and hig
+hlights the need to balance three systematic risk sources. (2021-07-14, shares: 2.0)
+
+[**Levered ETF Rebalancing: Market
+ Volatility Impact**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617640): The study reveals that the interacti
+on between investor behavior, ETFs fund flows, and index return autocorrelation can either temper or intensify market vo
+latility, as observed during the COVID-19 pandemic onset. (2022-04-08, shares: 2.0)
+
+# RePec
+
+## Machine Learning
+
+[**Ex
+plainable AI Reveals Bond Excess Return Determinants**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Flin
+k.springer.com%2F10.1007%2Fs11573-023-01149-5;h=repec:spr:jbecon:v:93:y:2023:i:9:d:10.1007_s11573-023-01149-5): The SHap
+ley Additive exPlanations technique is used in a paper to identify key factors influencing bond excess return prediction
+s made by machine learning models. (2023-11-02, shares: 21.0)
+
+[**Forecasting volatility with machine learning: Panel da
+ta perspective**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle
+%2Fpii%2FS0927539823000683;h=repec:eee:empfin:v:73:y:2023:i:c:p:251-271): The study uses machine learning to predict vol
+atility in high-frequency data, with panel-data-based methods proving most effective. (2023-11-02, shares: 45.0)
+
+[**Cro
+ss-market info & stock market volatility prediction**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.
+sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1062940823001006;h=repec:eee:ecofin:v:68:y:2023:i:c:s1062940823001006): A
+ study reveals that cross-market information greatly impacts the volatility of the Chinese stock market, especially in m
+edium and long-term forecasts. (2023-11-02, shares: 18.0)
+
+## Finance
+
+[**Intraday profitability and trading behavior in
+ algorithmic trading: Profitability and behavior in algorithmic trading.**](https://econpapers.repec.org/scripts/redir.p
+f?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0264999323003334;h=repec:eee:ecmode:v:128:y:2023:i:c
+:s0264999323003334): The study examines the intraday profitability and interactions among traders, revealing that algori
+thmic traders profit while non-algorithmic traders lose, with market volatility causing contrasting trading behaviors. (
+2023-11-02, shares: 29.0)
+
+[**Dynamic bond portfolio optimization with a stochastic interest rate model: Bond portfolio 
+optimization with stochastic interest rate model.**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Flink.s
+pringer.com%2F10.1007%2Fs10690-023-09401-2;h=repec:kap:apfinm:v:30:y:2023:i:4:d:10.1007_s10690-023-09401-2): The paper i
+ntroduces a new framework for multi-period dynamic bond portfolio optimization, showing that multi-period optimization o
+utperforms single-period optimization, particularly over extended investment and utilization periods. (2023-11-02, share
+s: 26.0)
+
+[**Multiperiod portfolio allocation with volatility clustering and non-normalities: Portfolio allocation with 
+volatility clustering and non-normalities.**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedi
+rect.com%2Fscience%2Farticle%2Fpii%2FS1062940823001201;h=repec:eee:ecofin:v:68:y:2023:i:c:s1062940823001201): The resear
+ch investigates the dynamic multiperiod portfolio choices of a U.S. stock market investor, discovering that considering 
+volatility clustering decreases hedging demands and non-normalities slightly affect allocations. (2023-11-02, shares: 23
+.0)
+
+[**Performance of U.S. ESG ETFs**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.mfa.com.my%2Fw
+p-content%2Fuploads%2F2023%2F09%2Fv31_i2_a5_pg89-101.pdf;h=repec:mfa:journl:v:31:y:2023:i:2:p:89-101): A study finds tha
+t ESG equity ETFs in the U.S. generally outperform the S&P 500 Index, challenging the notion that ESG investing compromi
+ses financial returns. (2023-11-02, shares: 15.0)
+
+[**High-Dimensional Portfolio Optimization with Tree-Structured Facto
+rs**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS09
+27538X23001774;h=repec:eee:pacfin:v:81:y:2023:i:c:s0927538x23001774): A new portfolio optimization method using a tree-s
+tructured portfolio sorting technique predicts stock returns and risk exposures, outperforming benchmark strategies in t
+he Chinese A-share market. (2023-11-02, shares: 15.0)
+
+[**Volatility Smile in Emerging Markets: Dynamic Approach**](http
+s://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fdoi.org%2F10.1002%2Ffut.22450;h=repec:wly:jfutmk:v:43:y:2023:i
+:11:p:1615-1644): A study shows the Dynamic Nelson-Siegel model is more effective than static models for predicting vola
+tility in options markets. (2023-11-02, shares: 23.0)
+
+[**Bond-Commodity Volatility Spillover & Global Liquidity Risk**]
+(https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fpanoeconomicus.org%2Findex.php%2Fjorunal%2Farticle%2Fview%
+2F604%2F761;h=repec:voj:journl:v:70:y:2023:i:1:p:71-100:id:604): Research reveals significant volatility spillovers betw
+een gold and bond markets, and oil and some bond markets, suggesting limited diversification benefits for investors. (20
+23-11-02, shares: 20.0)
+
+[**fBetas & Portfolio Optimization with f-Divergence Risk Measures**](https://econpapers.repec.
+org/scripts/redir.pf?u=http%3A%2F%2Fhdl.handle.net%2F10.1080%2F14697688.2023.2230629;h=repec:taf:quantf:v:23:y:2023:i:10
+:p:1483-1496): A new f-Beta for portfolio optimization, which assesses portfolio performance under an optimally disturbe
+d market probability measure, offers flexibility and interpretability. (2023-11-02, shares: 18.0)
+
+[**Performance of Act
+ively Managed ETFs**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.mfa.com.my%2Fwp-content%2Fupload
+s%2F2022%2F10%2Fv30_i2_a3_pg39-61.pdf;h=repec:mfa:journl:v:30:y:2022:i:2:p:39-61): A study from 2018-2021 reveals that a
+ctively managed Exchange Traded Funds (ETFs) in the U.S. did not yield significant above-market returns, indicating mana
+gers lacked superior market timing skills. (2022-12-23, shares: 18.0)
+
+# GitHub
+
+## Trending
+
+[**FinGAN for Financial Ti
+me Series -> FinGAN for Time Series**](https://github.com/milenavuletic/Fin-GAN): This article shares the code related t
+o the FinGAN paper, which uses Generative Adversarial Networks for financial time series forecasting and classification.
+ (2023-10-26, shares: 16.0)
+
+[**Easy Data Loading with DLT -> Data Loading with DLT**](https://github.com/dlt-hub/dlt): 
+The article presents 'data load tool dlt', a Python library that simplifies data loading. (2022-01-26, shares: 669.0)
+
+[
+**SolidGPT: Code Collaboration**](https://github.com/AI-Citizen/SolidGPT): The article explores a platform that facilita
+tes interaction with your code repository and discussion of coding needs. (2023-08-08, shares: 1369.0)
+
+# LinkedIn
+
+## T
+rending
+
+[**VolGAN: A Generative Model for Arbitrage-Free Volatility Surfaces**](https://www.linkedin.com/feed/update/ur
+n:li:activity:7124861140286795777): The article presents VolGAN, a generative model for arbitrage-free implied volatilit
+y surfaces, and discusses its performance on SPX implied volatility time series. (2023-11-01, shares: 1.0)
+
+[**The New E
+ra of Systematic Investing and Parallels to ESG**](https://www.linkedin.com/feed/update/urn:li:activity:7124757870738313
+216): The article analyzes Campbell Harvey's views on the role of Machine Learning/AI in investing, discussing potential
+ benefits, risks, and its relation to ESG investing. (2023-11-01, shares: 1.0)
+
+[**Quantitative Models in Chinese Stock 
+Market**](https://www.linkedin.com/feed/update/urn:li:activity:7125151875129044992): The Chinese stock market's growth a
+nd adaptability make it ideal for quantitative models, as discussed at a London forum. (2023-11-01, shares: 1.0)
+
+## Inf
+ormative
+
+[**Nasdaq's SEC-Approved AI Order Type**](https://www.linkedin.com/feed/update/urn:li:activity:712508174031801
+1392): The U.S. Securities and Exchange Commission has approved Nasdaq's use of an AI-driven order type, the first of it
+s kind, for executing orders. (2023-11-01, shares: 1.0)
+
+[**New Paper on Statistical Arbitrage Portfolios**](https://www
+.linkedin.com/feed/update/urn:li:activity:7124718120375660544): A new paper on statistical arbitrage portfolio construct
+ion based on preference relations has been published by Fredi Šarić, Stjepan Begušić, Andro Merćep and Zvonko Kostanjcar
+. (2023-11-01, shares: 1.0)
+
+[**Machine Learning Applications: Tricky Properties and Catastrophic Forgetting**](https://
+www.linkedin.com/feed/update/urn:li:activity:7125318036898660352): The article highlights the difficulties in implementi
+ng machine learning applications, focusing on issues like 'catastrophic forgetting' and the need for model and data inpu
+t adjustments. (2023-11-01, shares: 1.0)
+
+[**Challenging the Belief in More Data for ML Models**](https://www.linkedin.c
+om/feed/update/urn:li:activity:7125305960251715584): Clint Howard, in a seminar, challenged the notion that more data us
+ed in training machine learning models always results in better performance. (2023-11-01, shares: 1.0)
+
+[**Stock Market 
+Efficiency in Pricing Climate Change Risks**](https://www.linkedin.com/feed/update/urn:li:activity:7124830762608021504):
+ Man Institute researchers suggest that the stock market often underestimates the impact of climate-related news, creati
+ng opportunities for savvy investors. (2023-11-01, shares: 1.0)
+
+[**Common Domain Model (CDM): Revolutionizing Finance**
+](https://www.linkedin.com/feed/update/urn:li:activity:7125255238592147457): The Common Domain Model (CDM), an open-sour
+ce framework, is transforming finance by standardizing processes and reducing operational risks and costs. (2023-11-01, 
+shares: 1.0)
+
+# Podcasts
+
+## Quantitative
+
+[**Scariest Options Strategies Revealed**](http://advisorsoption.libsyn.com/t
+he-advisors-option-130-top-5-scariest-options-strategies): The Options Insider Media Group talks about the current marke
+t situation, the forthcoming earnings season, and the five most daunting options strategies. (2023-11-01, shares: 8)
+
+[*
+*Macro Volatility and Recession Risks with Boris Vladimirov**](https://macrohive.libsyn.com/boris-vladimirov-on-macro-vo
+latility-us-yields-and-recession-risks): Goldman Sachs' Boris discusses fiscal policy's impact on growth, private sector
+ rate sensitivity changes, and recession odds in a podcast. (2023-10-27, shares: 4)
+
+[**Corey Hoffstein on Bitcoin ETF a
+nd TBill Discussion**](https://traffic.megaphone.fm/TIFM8769633628.mp3?updated=1698795275): Corey Hoffstein and Meb disc
+uss Bitcoin ETF, BlackRock's TargetDate ETFs, and the end of the 60/40 strategy on a radio show. (2023-11-01, shares: 3)
+
+
+[**Efficient Use of Graphs with LLMs in GraphText**](https://dataskeptic.com/blog/episodes/2023/graph-text): In a podc
+ast, Jianan Zhao, a Computer Science student, talks about the efficient use of graphs with LLMs. (2023-10-31, shares: 2)
+
+
+[**In-depth Conversation with Traderade Cofounder on MH Ep.**](https://markethuddle.com/podcast/mh/): Kevin and Trader
+ade Cofounder Horselover Fat discuss trading setups, Traderade's origins, and experiences in the trading industry. (2023
+-10-31, shares: 1)
+
+[**Insights on FOMC Meeting: The Financial Conditions Dummy**](https://ibkrcampus.com/podcasts/ibkr-
+podcasts/its-the-financial-conditions-dummy/): Neil Azous from Rareview Capital predicts no further policy tightening ah
+ead of the November FOMC meeting. (2023-10-31, shares: 1)
+
+# Twitter
+
+## Quantitative
+
+[**Total Return vs. Derivative In
+come in Covered Call Strategies**](https://twitter.com/quantseeker/status/1718676493969006708): Israelov and Ndong's pap
+er discusses the inverse relationship between expected total return and derivative income in covered call strategies. (2
+023-10-29, shares: 3)
+
+[**Decoding the Volatility Puzzle**](https://twitter.com/quantseeker/status/1718262660926509132):
+ Swedroe's article investigates the idiosyncratic volatility puzzle by studying the fundamental aspects. (2023-10-28, sh
+ares: 2)
+
+[**SciPhi ΨΦ: Custom Data Generation with LLMs**](https://twitter.com/carlcarrie/status/1718223977292685790): 
+The article introduces SciPhi ΨΦ, a system for creating synthetic data to meet specific requirements using LLM-based Ope
+nAI Anthropic Llama. (2023-10-28, shares: 2)
+
+[**MS Report on Wealth Management and Generative AI Tipping Point**](https
+://twitter.com/carlcarrie/status/1717945102247637161): The report by OliverWynan and MS explores the convergence of weal
+th and asset management and the critical point of generative AI. (2023-10-27, shares: 2)
+
+[**Langchain Extensions for Co
+ordinated Computation**](https://twitter.com/carlcarrie/status/1719024689110974851): The article presents Permchain and 
+Langchain extensions, tools that enable multiple agents to coordinate over several computation steps using LangChain Exp
+ression Language and Pregel. (2023-10-30, shares: 0)
+
+## Miscellaneous
+
+[**Large Language Model Inferences on Stock Fact
+ors**](https://twitter.com/carlcarrie/status/1717947026430677010): A new study has been released discussing the implicat
+ions of Large Language Model on different stock factors. (2023-10-27, shares: 0)
+
+[**China LLM with Advanced Question An
+swering Abilities**](https://twitter.com/carlcarrie/status/1718831674862006576): Article 2: DISCFinLLM is a novel Chines
+e financial LLM that features multiturn question answering, text processing, mathematical computation, and enhanced retr
+ieval generation. (2023-10-30, shares: 0)
+
+[**Abductive Reasoning in Financial Language Model Building**](https://twitte
+r.com/carlcarrie/status/1718830111850385462): Article 3: A new financial LLM that uses abductive reasoning surpasses sta
+ndard financial LLMs, setting new high scores in financial analysis and interpretation tasks. (2023-10-30, shares: 0)
+
+[
+**Python and R Time Series Library**](https://twitter.com/carlcarrie/status/1718780011455361268): Pytimetk is a high-per
+formance timeseries library, compatible with Python and R, that utilizes Polaris dataframes for simplicity. (2023-10-30,
+ shares: 0)
+
+# Videos
+
+## Quantitative
+
+[**Discovering Supply Chain Edges with Graph Neural Networks**](https://www.yout
+ube.com/watch?v=PtzCJvdWdJc): Achintya Gopal from Bloomberg uses graph neural networks to predict unknown suppliers and 
+customers, improving supply chain risk analysis. (2023-11-01, shares: 9.0)
+
+[**Where Did All the Quants Go?**](https://w
+ww.youtube.com/watch?v=trVhkfwfzPg): A LinkedIn comment criticizes quant programs for lacking intuition and rigor, stres
+sing the need for continuous learning and understanding of financial market logic and mathematics. (2023-10-29, shares: 
+52.0)
+
+# Reddit
+
+## Quantitative
+
+[**Two Sigma Hedge Fund Scandal**](https://www.reddit.com/r/quant/comments/17j1b1a/wsj
+_news_exclusive_hedge_fund_two_sigma_is_hit_by/): The article explores the differences in pay at proprietary trading fir
+ms, with some requiring negotiations on a per-portfolio manager basis. (2023-10-29, shares: 230.0)
+
+[**Famous Quants in 
+History**](https://www.reddit.com/r/quant/comments/17imr5k/who_arewere_the_most_famousinfluential_quants_of/): The autho
+r is asking for suggestions of well-known quants, besides Pat Haber and Martin Artajo, whom they already know. (2023-10-
+28, shares: 117.0)
+
+[**Quant Trader in HK or SG**](https://www.reddit.com/r/quant/comments/17jio63/honk_kong_or_singapor
+e/): The author is looking for guidance on a potential Quant Trader role in the Asian branches of a London hedge fund, p
+articularly in Singapore and Hong Kong. (2023-10-30, shares: 17.0)
+
+[**Million Market Experiment Loss**](https://www.red
+dit.com/r/quant/comments/17jj1k2/fastest_way_to_lose_1_million_usd_in_the_quickest/): The author is exploring strategies
+ for a hypothetical scenario where all money is lost through market investments as part of an experiment. (2023-10-30, s
+hares: 114.0)
+
+# Paper with Code
+
+## Rising
+
+[**Natural Language Graphs**](https://github.com/agiresearch/InstructGLM): 
+ChatGPT, a large-scale pretrained language model, has significantly advanced various fields of artificial intelligence r
+esearch. (2023-11-01, shares: 117.0)
+
+[**Tuning Graph Instructions for Language Models**](https://github.com/HKUDS/Graph
+GPT): GraphGPT uses a graph instruction tuning paradigm to align large language models with graph structural knowledge. 
+(2023-10-30, shares: 92.0)
+
+[**Graph-based Tools for Language Model Augmentation**](https://github.com/opengvlab/control
+llm): ControlLLM is a new framework that enables large language models to use multimodal tools to tackle complex real-wo
+rld tasks. (2023-10-31, shares: 45.0)
+```
+---
+
+     
+ 
+all -  [ Research of the week (November Week 1) ](https://www.reddit.com/r/u_OppositeMidnight/comments/17m4abb/research_of_the_week_november_week_1/) , 2023-11-03-0909
+```
+# ArXiv
+
+## Finance
+
+[**Estimating Realized Correlation in High-Frequency Financial Data**](https://arxiv.org/abs/2310.1
+9992): A new method for analyzing high-frequency financial data shows that intraday market changes are mainly driven by 
+intraday correlation changes. (2023-10-30, shares: 5)
+
+[**Agent-based Model for Deep Hedging**](https://arxiv.org/pdf/23
+10.18755.pdf): The Chiarella-Heston model, an advanced agent-based model, enhances deep hedging strategies by incorporat
+ing different types of traders, and performs better in creating realistic financial time series than three other models.
+ (2023-10-28, shares: 9)
+
+[**Estimating Systemic Risk in Networks**](https://arxiv.org/abs/2310.18658): The article prop
+oses a two-step nonparametric estimation method for measuring financial systemic risk, showing that only the second step
+'s estimation error affects the results. (2023-10-28, shares: 4)
+
+[**Optimal Fees in Hedge Funds with Compensation**](ht
+tp://dx.doi.org/10.1016/j.jbankfin.2020.105884): The research suggests alternative fee schemes for hedge funds, arguing 
+that traditional management and performance fees are suboptimal and that the recommended schemes reduce the fund's volat
+ility. (2023-10-29, shares: 3)
+
+[**Visibility Graph Analysis of Oil Futures Markets**](https://arxiv.org/abs/2310.18903)
+: A study using visibility graph methodology examines the effects of the Russia-Ukraine conflict and COVID-19 on crude o
+il futures markets, uncovering distinct market reactions to global disturbances. (2023-10-29, shares: 5)
+
+[**Investing C
+haracteristics' Impact on Financial Performance**](http://dx.doi.org/10.1109/ieem44572.2019.8978725): A research study i
+dentifies 13 key investment characteristics that contribute to success in the equity market, offering a deeper understan
+ding of the necessary traits for success in these markets. (2023-11-01, shares: 5)
+
+[**Corruption's Impact on Performanc
+e**](https://arxiv.org/abs/2310.20028): The study investigates the effect of managerial corruption on company performanc
+e, emphasizing the need for ethical corporate governance and careful manager selection. (2023-10-30, shares: 4)
+
+[**Char
+acterizing Law-Invariant Measures**](https://arxiv.org/abs/2310.19552): The paper introduces new characterizations for l
+aw-invariant star-shaped functionals, demonstrating their wide use in finance, insurance, and probability scenarios. (20
+23-10-30, shares: 2)
+
+## Historical Trending
+
+[**Optimal Execution with Machine Learning**](https://arxiv.org/abs/2204.0
+8581): A study introduces a numerical algorithm using dynamic programming and deep learning for optimal order execution,
+ highlighting the convenience of using neural-network substitutes in stochastic control issues. (2022-04-18, shares: 52)
+
+
+[**Analysis of Nonlinear Pricing**](https://arxiv.org/abs/2302.11643): A paper proposes a method to calculate the best
+ price schedule considering consumer diversity in continuous-choice situations, demonstrating that optimal price discrim
+ination can boost a firm's profit by at least 5.5% compared to linear pricing. (2023-02-22, shares: 43)
+
+[**Risk Evaluat
+ion and Robust Optimization with Model Aggregation**](https://arxiv.org/abs/2201.06370): The model aggregation (MA) appr
+oach is a new method for risk evaluation that provides a robust value and distributional model, refining Value-at-Risk a
+nd Expected Shortfall characterizations. (2022-01-17, shares: 33)
+
+[**Deep Reinforcement Learning for Portfolio Manageme
+nt Enhancement**](https://arxiv.org/abs/1911.11880): A reinforcement learning framework for portfolio management is intr
+oduced, allowing for continuous asset weights, short selling, and decision-making, with three reinforcement learning alg
+orithms compared for effectiveness. (2019-11-26, shares: 33)
+
+[**Option Valuation on a Credit Index using Levy-driven Or
+nstein-Uhlenbeck Process**](https://arxiv.org/abs/2301.05332): A Levy-driven Ornstein-Uhlenbeck process is proposed to m
+odel the risk-free rate and default intensities for evaluating option contracts on a credit index, with derived formulas
+ and numerical experiments conducted. (2023-01-12, shares: 27)
+
+[**TabR: Tabular DL Meets Nearest Neighbors**](https://a
+rxiv.org/abs/2307.14338): TabR, a new deep learning model for tabular data, outperforms existing models by using a k-Nea
+rest-Neighbors-like component for better predictions. (2023-07-26, shares: 68)
+
+[**Online Estimation & Community Detecti
+on of Network Point Processes**](https://arxiv.org/abs/2009.01742): The research introduces a fast online variational in
+ference algorithm for estimating latent structure in dynamic event arrivals on a network, offering comparable performanc
+e to non-online variants with computational benefits. (2020-09-03, shares: 19)
+
+## Crypto & Blockchain
+
+[**NFT Market Fl
+uctuations: Statistical Properties**](https://arxiv.org/abs/2310.19747?utm_source=dlvr.it&utm_medium=twitter): The study
+ shows that the Non-fungible token (NFT) market, although new and unique in its trading methods, has many statistical si
+milarities with traditional financial markets, with some variations in certain quantitative measures. (2023-10-30, share
+s: 7)
+
+[**High Frequency Analysis of Bitcoin Volume-Volatility**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=46
+15028): Research shows that unexpected trading volume is the key factor in spot volatility in Bitcoin futures and spot m
+arkets, while Bitcoin futures volumes have a calming effect on systemic volatility. (2023-10-27, shares: 2.0)
+
+# SSRN
+
+#
+## Recently Published
+
+## Quantitative
+
+[**VolGAN: Realistic Volatility Surfaces**](https://papers.ssrn.com/sol3/papers.
+cfm?abstract_id=4617536): VolGAN, a new model that can generate realistic scenarios for the joint dynamics of implied vo
+latility surfaces and underlying assets, is introduced. (2023-10-30, shares: 173.0)
+
+[**Machine Learning for Earnings Fo
+recasts**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4619313): Using machine learning models and comprehensive
+ Compustat financial statement data for earnings forecasting can yield predictions that are up to 13% more accurate than
+ traditional linear approaches. (2023-10-31, shares: 7.0)
+
+[**Smart Beta ETFs & Increased Flow Sensitivity to Multi-Fact
+or Alphas**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4620486): Smart beta ETFs trading activity significantl
+y impacts mutual fund flow sensitivity, especially in funds with high nonmarket risk factor exposure. (2023-11-01, share
+s: 2.0)
+
+[**Google Trends Credit Interest Analysis**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4618881): The 
+paper discusses the use of Google Trends for analyzing credit interest in Armenia, eliminating the need for traditional 
+surveys by gathering online search data. (2023-10-31, shares: 2.0)
+
+[**Projected Fuzzy C-Means Algorithm**](https://pape
+rs.ssrn.com/sol3/papers.cfm?abstract_id=4619454): The article proposes a new algorithm for high-dimensional data cluster
+ing in machine learning, aiming to improve performance and manage anomalous instances. (2023-10-31, shares: 2.0)
+
+[**KMe
+ans Initialization**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4616032): The article highlights the role of c
+lustering in data mining and machine learning, focusing on the Kmeans algorithm and the challenge of selecting optimal c
+luster centroids. (2023-10-28, shares: 2.0)
+
+## Financial
+
+[**Efficient Heston Model for Climate Contracts**](https://pa
+pers.ssrn.com/sol3/papers.cfm?abstract_id=4619038): A proposal suggests using Bitcoin-denominated derivatives contracts 
+on carbon bonds to help governments hedge against climate change and influence carbon bond and cryptocurrency prices. (2
+023-10-31, shares: 3.0)
+
+[**Private Equity Investment & Liquidity Shocks**](https://papers.ssrn.com/sol3/papers.cfm?abst
+ract_id=4615423): Private equity investment outcomes can be influenced by investor composition, with funds from property
+ and casualty insurers investing less during natural disasters, resulting in lower returns. (2023-10-27, shares: 3.0)
+
+[
+**Green Derivatives & Climate Risk**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4615427): The EU Green Deal ai
+ms to make Europe carbon-neutral by 2050, requiring 1 trillion euro in sustainable investments, with derivatives markets
+ and 'green derivatives' crucial for managing climate risk. (2023-10-27, shares: 4.0)
+
+[**Time & Frequency Analysis of O
+il Futures Market**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617533): A study of the oil futures market fro
+m 1986 to 2020 reveals patterns and relationships between inventory, basis, hedging pressure, and futures risk premium, 
+emphasizing the importance of the data measurement period. (2023-10-30, shares: 4.0)
+
+[**Art as an Alternative Asset for
+ Diversification**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617318): Art and collectibles can act as altern
+ative assets for portfolio diversification, with art performing well compared to standard investments and showing a uniq
+ue seasonal pattern in returns. (2023-10-30, shares: 4.0)
+
+[**Indian Mutual Funds Performance Analysis**](https://papers
+.ssrn.com/sol3/papers.cfm?abstract_id=4615710): The study examines the performance and risk characteristics of Indian mu
+tual funds across market capitalization groups, offering insights for investors and financial professionals. (2023-10-27
+, shares: 2.0)
+
+### Recently Updated
+
+## Quantitative
+
+[**The Common Factor in Volatility Risk Premia**](https://papers.
+ssrn.com/sol3/papers.cfm?abstract_id=4618943): Firm-level volatility risk premium has a strong factor structure, with st
+ocks with the weakest exposures to the common bad volatility risk premium factor earning higher average returns, and the
+ common factor in total bad volatility risk premium predicting stock market returns. (2023-10-31, shares: 3.0)
+
+[**Batch
+-Stochastic Sub-Gradient Method for Non-Smooth Loss Functions**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=461
+4051): The new machine learning method, Batchstochastic Subgradient, offers stable loss value estimates and is more memo
+ry efficient, as demonstrated using SQL. (2023-10-21, shares: 2.0)
+
+[**US. Treasuries: Liquidity Premiums and Results**]
+(https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4619340): A new model of U.S. Treasuries suggests that liquidity fa
+ctors are more significant than others, Federal Reserve asset purchases impact expected rates and term premiums, and inf
+lation expectations are less stable than previously thought. (2022-05-06, shares: 2.0)
+
+[**Global Uncertainties and Emer
+ging Market Sectors**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4618546): A study finds a significant link be
+tween global financial uncertainties and emerging market sectoral indices, based on data from 2008 to 2021. (2023-07-17,
+ shares: 2.0)
+
+## Financial
+
+[**Algorithmic Trading's Influence on Human-Only Markets**](https://papers.ssrn.com/sol3/pa
+pers.cfm?abstract_id=4620189): The potential existence of algorithmic trading can impact human price predictions, tradin
+g activities, and price dynamics in human-only asset markets, even if no actual algorithmic trading is present. (2023-07
+-17, shares: 3.0)
+
+[**Bond Funds and Liquidity Provision**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4614945)
+: Changes in regulations have moved profits from liquidity provision in the corporate bond market to mutual funds, incre
+asing volatility and vulnerability to market disruptions like the COVID-19 pandemic. (2023-10-23, shares: 23.0)
+
+[**ETFs
+ and Market Efficiency**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4615092): Capital constraints on intermedi
+aries can affect the pricing efficiency of assets they manage, as seen in ETFs and their lead market makers during the C
+OVID-19 debt market disruptions. (2022-03-30, shares: 369.0)
+
+[**ETF Closures: Inaction for Investors?**](https://papers
+.ssrn.com/sol3/papers.cfm?abstract_id=4620553): Research indicates smaller ExchangeTraded Funds (ETFs) often yield highe
+r daily returns and typically close after positive returns. Investors usually fare better by not reacting to closure ann
+ouncements. (2023-01-23, shares: 60.0)
+
+[**Investor Returns: Market-Based Statistics**](https://papers.ssrn.com/sol3/pap
+ers.cfm?abstract_id=4614148): The study presents three market-based approximations of actual return from market trades, 
+which deviate from traditional evaluations based on time series analysis of investors' returns. (2023-04-11, shares: 25.
+0)
+
+[**Cost of Capital: Cross-Sectional Analysis**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4620204): Resear
+ch spanning 20 years across multiple countries shows that most variations in perceived capital cost are not supported by
+ subsequent returns, questioning the production-based asset pricing model. (2020-12-11, shares: 2.0)
+
+[**Equity and Cred
+it Index Options: Risk & Return Analysis**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4618313): A new credit r
+isk model accurately prices equity and credit index options, contradicting previous claims of inconsistent pricing, and 
+highlights the need to balance three systematic risk sources. (2021-07-14, shares: 2.0)
+
+[**Levered ETF Rebalancing: Mar
+ket Volatility Impact**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4617640): The study reveals that the intera
+ction between investor behavior, ETFs fund flows, and index return autocorrelation can either temper or intensify market
+ volatility, as observed during the COVID-19 pandemic onset. (2022-04-08, shares: 2.0)
+
+# RePec
+
+## Machine Learning
+
+[*
+*Explainable AI Reveals Bond Excess Return Determinants**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2F
+link.springer.com%2F10.1007%2Fs11573-023-01149-5;h=repec:spr:jbecon:v:93:y:2023:i:9:d:10.1007_s11573-023-01149-5): The S
+Hapley Additive exPlanations technique is used in a paper to identify key factors influencing bond excess return predict
+ions made by machine learning models. (2023-11-02, shares: 21.0)
+
+[**Forecasting volatility with machine learning: Panel
+ data perspective**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farti
+cle%2Fpii%2FS0927539823000683;h=repec:eee:empfin:v:73:y:2023:i:c:p:251-271): The study uses machine learning to predict 
+volatility in high-frequency data, with panel-data-based methods proving most effective. (2023-11-02, shares: 45.0)
+
+[**
+Cross-market info & stock market volatility prediction**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fw
+ww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1062940823001006;h=repec:eee:ecofin:v:68:y:2023:i:c:s1062940823001006)
+: A study reveals that cross-market information greatly impacts the volatility of the Chinese stock market, especially i
+n medium and long-term forecasts. (2023-11-02, shares: 18.0)
+
+## Finance
+
+[**Intraday profitability and trading behavior
+ in algorithmic trading: Profitability and behavior in algorithmic trading.**](https://econpapers.repec.org/scripts/redi
+r.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0264999323003334;h=repec:eee:ecmode:v:128:y:2023:
+i:c:s0264999323003334): The study examines the intraday profitability and interactions among traders, revealing that alg
+orithmic traders profit while non-algorithmic traders lose, with market volatility causing contrasting trading behaviors
+. (2023-11-02, shares: 29.0)
+
+[**Dynamic bond portfolio optimization with a stochastic interest rate model: Bond portfol
+io optimization with stochastic interest rate model.**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Flin
+k.springer.com%2F10.1007%2Fs10690-023-09401-2;h=repec:kap:apfinm:v:30:y:2023:i:4:d:10.1007_s10690-023-09401-2): The pape
+r introduces a new framework for multi-period dynamic bond portfolio optimization, showing that multi-period optimizatio
+n outperforms single-period optimization, particularly over extended investment and utilization periods. (2023-11-02, sh
+ares: 26.0)
+
+[**Multiperiod portfolio allocation with volatility clustering and non-normalities: Portfolio allocation wi
+th volatility clustering and non-normalities.**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.scienc
+edirect.com%2Fscience%2Farticle%2Fpii%2FS1062940823001201;h=repec:eee:ecofin:v:68:y:2023:i:c:s1062940823001201): The res
+earch investigates the dynamic multiperiod portfolio choices of a U.S. stock market investor, discovering that consideri
+ng volatility clustering decreases hedging demands and non-normalities slightly affect allocations. (2023-11-02, shares:
+ 23.0)
+
+[**Performance of U.S. ESG ETFs**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.mfa.com.my%
+2Fwp-content%2Fuploads%2F2023%2F09%2Fv31_i2_a5_pg89-101.pdf;h=repec:mfa:journl:v:31:y:2023:i:2:p:89-101): A study finds 
+that ESG equity ETFs in the U.S. generally outperform the S&P 500 Index, challenging the notion that ESG investing compr
+omises financial returns. (2023-11-02, shares: 15.0)
+
+[**High-Dimensional Portfolio Optimization with Tree-Structured Fa
+ctors**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2F
+S0927538X23001774;h=repec:eee:pacfin:v:81:y:2023:i:c:s0927538x23001774): A new portfolio optimization method using a tre
+e-structured portfolio sorting technique predicts stock returns and risk exposures, outperforming benchmark strategies i
+n the Chinese A-share market. (2023-11-02, shares: 15.0)
+
+[**Volatility Smile in Emerging Markets: Dynamic Approach**](h
+ttps://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fdoi.org%2F10.1002%2Ffut.22450;h=repec:wly:jfutmk:v:43:y:202
+3:i:11:p:1615-1644): A study shows the Dynamic Nelson-Siegel model is more effective than static models for predicting v
+olatility in options markets. (2023-11-02, shares: 23.0)
+
+[**Bond-Commodity Volatility Spillover & Global Liquidity Risk
+**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fpanoeconomicus.org%2Findex.php%2Fjorunal%2Farticle%2Fvi
+ew%2F604%2F761;h=repec:voj:journl:v:70:y:2023:i:1:p:71-100:id:604): Research reveals significant volatility spillovers b
+etween gold and bond markets, and oil and some bond markets, suggesting limited diversification benefits for investors. 
+(2023-11-02, shares: 20.0)
+
+[**fBetas & Portfolio Optimization with f-Divergence Risk Measures**](https://econpapers.rep
+ec.org/scripts/redir.pf?u=http%3A%2F%2Fhdl.handle.net%2F10.1080%2F14697688.2023.2230629;h=repec:taf:quantf:v:23:y:2023:i
+:10:p:1483-1496): A new f-Beta for portfolio optimization, which assesses portfolio performance under an optimally distu
+rbed market probability measure, offers flexibility and interpretability. (2023-11-02, shares: 18.0)
+
+[**Performance of 
+Actively Managed ETFs**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.mfa.com.my%2Fwp-content%2Fupl
+oads%2F2022%2F10%2Fv30_i2_a3_pg39-61.pdf;h=repec:mfa:journl:v:30:y:2022:i:2:p:39-61): A study from 2018-2021 reveals tha
+t actively managed Exchange Traded Funds (ETFs) in the U.S. did not yield significant above-market returns, indicating m
+anagers lacked superior market timing skills. (2022-12-23, shares: 18.0)
+
+# GitHub
+
+## Trending
+
+[**FinGAN for Financial
+ Time Series -> FinGAN for Time Series**](https://github.com/milenavuletic/Fin-GAN): This article shares the code relate
+d to the FinGAN paper, which uses Generative Adversarial Networks for financial time series forecasting and classificati
+on. (2023-10-26, shares: 16.0)
+
+[**Easy Data Loading with DLT -> Data Loading with DLT**](https://github.com/dlt-hub/dlt
+): The article presents 'data load tool dlt', a Python library that simplifies data loading. (2022-01-26, shares: 669.0)
+
+
+[**SolidGPT: Code Collaboration**](https://github.com/AI-Citizen/SolidGPT): The article explores a platform that facil
+itates interaction with your code repository and discussion of coding needs. (2023-08-08, shares: 1369.0)
+
+# LinkedIn
+
+#
+# Trending
+
+[**VolGAN: A Generative Model for Arbitrage-Free Volatility Surfaces**](https://www.linkedin.com/feed/update
+/urn:li:activity:7124861140286795777): The article presents VolGAN, a generative model for arbitrage-free implied volati
+lity surfaces, and discusses its performance on SPX implied volatility time series. (2023-11-01, shares: 1.0)
+
+[**The Ne
+w Era of Systematic Investing and Parallels to ESG**](https://www.linkedin.com/feed/update/urn:li:activity:7124757870738
+313216): The article analyzes Campbell Harvey's views on the role of Machine Learning/AI in investing, discussing potent
+ial benefits, risks, and its relation to ESG investing. (2023-11-01, shares: 1.0)
+
+[**Quantitative Models in Chinese Sto
+ck Market**](https://www.linkedin.com/feed/update/urn:li:activity:7125151875129044992): The Chinese stock market's growt
+h and adaptability make it ideal for quantitative models, as discussed at a London forum. (2023-11-01, shares: 1.0)
+
+## 
+Informative
+
+[**Nasdaq's SEC-Approved AI Order Type**](https://www.linkedin.com/feed/update/urn:li:activity:712508174031
+8011392): The U.S. Securities and Exchange Commission has approved Nasdaq's use of an AI-driven order type, the first of
+ its kind, for executing orders. (2023-11-01, shares: 1.0)
+
+[**New Paper on Statistical Arbitrage Portfolios**](https://
+www.linkedin.com/feed/update/urn:li:activity:7124718120375660544): A new paper on statistical arbitrage portfolio constr
+uction based on preference relations has been published by Fredi Šarić, Stjepan Begušić, Andro Merćep and Zvonko Kostanj
+car. (2023-11-01, shares: 1.0)
+
+[**Machine Learning Applications: Tricky Properties and Catastrophic Forgetting**](https
+://www.linkedin.com/feed/update/urn:li:activity:7125318036898660352): The article highlights the difficulties in impleme
+nting machine learning applications, focusing on issues like 'catastrophic forgetting' and the need for model and data i
+nput adjustments. (2023-11-01, shares: 1.0)
+
+[**Challenging the Belief in More Data for ML Models**](https://www.linkedi
+n.com/feed/update/urn:li:activity:7125305960251715584): Clint Howard, in a seminar, challenged the notion that more data
+ used in training machine learning models always results in better performance. (2023-11-01, shares: 1.0)
+
+[**Stock Mark
+et Efficiency in Pricing Climate Change Risks**](https://www.linkedin.com/feed/update/urn:li:activity:712483076260802150
+4): Man Institute researchers suggest that the stock market often underestimates the impact of climate-related news, cre
+ating opportunities for savvy investors. (2023-11-01, shares: 1.0)
+
+[**Common Domain Model (CDM): Revolutionizing Financ
+e**](https://www.linkedin.com/feed/update/urn:li:activity:7125255238592147457): The Common Domain Model (CDM), an open-s
+ource framework, is transforming finance by standardizing processes and reducing operational risks and costs. (2023-11-0
+1, shares: 1.0)
+
+# Podcasts
+
+## Quantitative
+
+[**Scariest Options Strategies Revealed**](http://advisorsoption.libsyn.co
+m/the-advisors-option-130-top-5-scariest-options-strategies): The Options Insider Media Group talks about the current ma
+rket situation, the forthcoming earnings season, and the five most daunting options strategies. (2023-11-01, shares: 8)
+
+
+[**Macro Volatility and Recession Risks with Boris Vladimirov**](https://macrohive.libsyn.com/boris-vladimirov-on-macro
+-volatility-us-yields-and-recession-risks): Goldman Sachs' Boris discusses fiscal policy's impact on growth, private sec
+tor rate sensitivity changes, and recession odds in a podcast. (2023-10-27, shares: 4)
+
+[**Corey Hoffstein on Bitcoin ET
+F and TBill Discussion**](https://traffic.megaphone.fm/TIFM8769633628.mp3?updated=1698795275): Corey Hoffstein and Meb d
+iscuss Bitcoin ETF, BlackRock's TargetDate ETFs, and the end of the 60/40 strategy on a radio show. (2023-11-01, shares:
+ 3)
+
+[**Efficient Use of Graphs with LLMs in GraphText**](https://dataskeptic.com/blog/episodes/2023/graph-text): In a p
+odcast, Jianan Zhao, a Computer Science student, talks about the efficient use of graphs with LLMs. (2023-10-31, shares:
+ 2)
+
+[**In-depth Conversation with Traderade Cofounder on MH Ep.**](https://markethuddle.com/podcast/mh/): Kevin and Tra
+derade Cofounder Horselover Fat discuss trading setups, Traderade's origins, and experiences in the trading industry. (2
+023-10-31, shares: 1)
+
+[**Insights on FOMC Meeting: The Financial Conditions Dummy**](https://ibkrcampus.com/podcasts/ib
+kr-podcasts/its-the-financial-conditions-dummy/): Neil Azous from Rareview Capital predicts no further policy tightening
+ ahead of the November FOMC meeting. (2023-10-31, shares: 1)
+
+# Twitter
+
+## Quantitative
+
+[**Total Return vs. Derivative
+ Income in Covered Call Strategies**](https://twitter.com/quantseeker/status/1718676493969006708): Israelov and Ndong's 
+paper discusses the inverse relationship between expected total return and derivative income in covered call strategies.
+ (2023-10-29, shares: 3)
+
+[**Decoding the Volatility Puzzle**](https://twitter.com/quantseeker/status/171826266092650913
+2): Swedroe's article investigates the idiosyncratic volatility puzzle by studying the fundamental aspects. (2023-10-28,
+ shares: 2)
+
+[**SciPhi ΨΦ: Custom Data Generation with LLMs**](https://twitter.com/carlcarrie/status/1718223977292685790
+): The article introduces SciPhi ΨΦ, a system for creating synthetic data to meet specific requirements using LLM-based 
+OpenAI Anthropic Llama. (2023-10-28, shares: 2)
+
+[**MS Report on Wealth Management and Generative AI Tipping Point**](ht
+tps://twitter.com/carlcarrie/status/1717945102247637161): The report by OliverWynan and MS explores the convergence of w
+ealth and asset management and the critical point of generative AI. (2023-10-27, shares: 2)
+
+[**Langchain Extensions for
+ Coordinated Computation**](https://twitter.com/carlcarrie/status/1719024689110974851): The article presents Permchain a
+nd Langchain extensions, tools that enable multiple agents to coordinate over several computation steps using LangChain 
+Expression Language and Pregel. (2023-10-30, shares: 0)
+
+## Miscellaneous
+
+[**Large Language Model Inferences on Stock F
+actors**](https://twitter.com/carlcarrie/status/1717947026430677010): A new study has been released discussing the impli
+cations of Large Language Model on different stock factors. (2023-10-27, shares: 0)
+
+[**China LLM with Advanced Question
+ Answering Abilities**](https://twitter.com/carlcarrie/status/1718831674862006576): Article 2: DISCFinLLM is a novel Chi
+nese financial LLM that features multiturn question answering, text processing, mathematical computation, and enhanced r
+etrieval generation. (2023-10-30, shares: 0)
+
+[**Abductive Reasoning in Financial Language Model Building**](https://twi
+tter.com/carlcarrie/status/1718830111850385462): Article 3: A new financial LLM that uses abductive reasoning surpasses 
+standard financial LLMs, setting new high scores in financial analysis and interpretation tasks. (2023-10-30, shares: 0)
+
+
+[**Python and R Time Series Library**](https://twitter.com/carlcarrie/status/1718780011455361268): Pytimetk is a high-
+performance timeseries library, compatible with Python and R, that utilizes Polaris dataframes for simplicity. (2023-10-
+30, shares: 0)
+
+# Videos
+
+## Quantitative
+
+[**Discovering Supply Chain Edges with Graph Neural Networks**](https://www.y
+outube.com/watch?v=PtzCJvdWdJc): Achintya Gopal from Bloomberg uses graph neural networks to predict unknown suppliers a
+nd customers, improving supply chain risk analysis. (2023-11-01, shares: 9.0)
+
+[**Where Did All the Quants Go?**](https:
+//www.youtube.com/watch?v=trVhkfwfzPg): A LinkedIn comment criticizes quant programs for lacking intuition and rigor, st
+ressing the need for continuous learning and understanding of financial market logic and mathematics. (2023-10-29, share
+s: 52.0)
+
+# Reddit
+
+## Quantitative
+
+[**Two Sigma Hedge Fund Scandal**](https://www.reddit.com/r/quant/comments/17j1b1a/
+wsj_news_exclusive_hedge_fund_two_sigma_is_hit_by/): The article explores the differences in pay at proprietary trading 
+firms, with some requiring negotiations on a per-portfolio manager basis. (2023-10-29, shares: 230.0)
+
+[**Famous Quants 
+in History**](https://www.reddit.com/r/quant/comments/17imr5k/who_arewere_the_most_famousinfluential_quants_of/): The au
+thor is asking for suggestions of well-known quants, besides Pat Haber and Martin Artajo, whom they already know. (2023-
+10-28, shares: 117.0)
+
+[**Quant Trader in HK or SG**](https://www.reddit.com/r/quant/comments/17jio63/honk_kong_or_singa
+pore/): The author is looking for guidance on a potential Quant Trader role in the Asian branches of a London hedge fund
+, particularly in Singapore and Hong Kong. (2023-10-30, shares: 17.0)
+
+[**Million Market Experiment Loss**](https://www.
+reddit.com/r/quant/comments/17jj1k2/fastest_way_to_lose_1_million_usd_in_the_quickest/): The author is exploring strateg
+ies for a hypothetical scenario where all money is lost through market investments as part of an experiment. (2023-10-30
+, shares: 114.0)
+
+# Paper with Code
+
+## Rising
+
+[**Natural Language Graphs**](https://github.com/agiresearch/InstructGLM
+): ChatGPT, a large-scale pretrained language model, has significantly advanced various fields of artificial intelligenc
+e research. (2023-11-01, shares: 117.0)
+
+[**Tuning Graph Instructions for Language Models**](https://github.com/HKUDS/Gr
+aphGPT): GraphGPT uses a graph instruction tuning paradigm to align large language models with graph structural knowledg
+e. (2023-10-30, shares: 92.0)
+
+[**Graph-based Tools for Language Model Augmentation**](https://github.com/opengvlab/cont
+rolllm): ControlLLM is a new framework that enables large language models to use multimodal tools to tackle complex real
+-world tasks. (2023-10-31, shares: 45.0)
+```
+---
+
+     
+ 
+all -  [ Metadata filtering in Opensearch ](https://www.reddit.com/r/LangChain/comments/17m2vdi/metadata_filtering_in_opensearch/) , 2023-11-03-0909
+```
+I’m using opensearch as a vector database in a RAG type project. Since I have 10,000s of documents I want to filter firs
+t on metadata before the similarity search I was try something along these lines
+
+Retriever=vector_db.as_retriever(searc
+h_kwargs={“filter”:{”bool”:{”term”:{“class”:”classA”}}}})
+
+From here:
+https://opensearch.org/docs/latest/search-plugins/
+knn/filter-search-knn/
+
+But the similarity search ignores the filter. Does anyone have any experience getting something 
+like this to work?
+```
+---
+
+     
+ 
+all -  [ Do you find langsmith useful? Why? ](https://www.reddit.com/r/LangChain/comments/17m2u2d/do_you_find_langsmith_useful_why/) , 2023-11-03-0909
+```
+For the people who have tried it out, what's your opinion? Is it actually useful?
+```
+---
+
+     
+ 
+all -  [ Best framework for LLM based applications in production ](https://www.reddit.com/r/LocalLLaMA/comments/17m2lql/best_framework_for_llm_based_applications_in/) , 2023-11-03-0909
+```
+We've been building LLM based tools for months, but I think that there should be efficient frameworks by now that actual
+ly add value. I tried langchain a while back but I felt like it was just an over complicated overhead where it was alway
+s simpler to make everything from scratch each time. Guidance has been the only real improvement for me as it does way m
+ore than basic prompt templating, but it is in no way a full framework.
+
+Now there are LlamaIndex, TigerLab, Langchain..
+. but I simply don't have the time to test them all.
+
+We need to run the models by ourselves, so no Open AI api, ideally
+ run something compatible with TGI / VLLM. We need to connect to proper databases and vectorDB (currently using Milvus).
+ And I'm looking for something that is actually useful and I don't have to struggle and hack the library everytime I wan
+t to do something slightly different.
+
+Does any of you have a good recommendation? Everything changes so quickly I feel 
+like I can't trust articles that are older than two months. So what are you currently using and what has been an overhyp
+ed crap? 
+```
+---
+
+     
+ 
+all -  [ AimOS: Open-source modular observability for AI Systems ](https://www.reddit.com/r/mlops/comments/17m2c90/aimos_opensource_modular_observability_for_ai/) , 2023-11-03-0909
+```
+Hey folks! Tatyana from Aim here, AI Enthusiast. 
+
+Wanted to share with you the product you may find helpful. We've laun
+ched AimOS, an open-source, modular observability platform for AI Systems.  
+
+With AimOS, you can log, connect, and obse
+rve every facet of your AI systems –  from experimentation and production stages to input prompts and monitoring. 
+
+AimO
+S comes installed with default logging apps: 
+
+\- Base App for a basic logging,  
+\- ML experiment tracking App  
+\- AI 
+Systems Tracing and Debugging Apps - a combination of variety of apps that log from LangChain to LlamaIndex traces all i
+n one place.
+
+[AimOS Apps](https://preview.redd.it/7p2c1nkvgxxb1.png?width=1040&format=png&auto=webp&s=6f9239364e53a0888
+014611990014a1ad3cb38ed)
+
+AimOS is a game-changer, it's easy to use but powerful enough to meet next-stage infrastructur
+e needs.  
+
+[Experiment tracker](https://preview.redd.it/nhiyft40hxxb1.png?width=2510&format=png&auto=webp&s=c7ac8e54651
+f4543ea12ea29b5251472f346c19b)
+
+Aim 💫 — An easy-to-use & supercharged open-source experiment tracker: [https://github.co
+m/aimhubio/aim](https://github.com/aimhubio/aim)  
+AimOS 🔍 — An easy-to-use modular observability for AI Systems. Extens
+ible, scalable and modular: [https://github.com/aimhubio/aimos](https://github.com/aimhubio/aimos) 
+
+To learn more about
+ AimOS, check out the [article.](https://aimstack.io/blog/new-releases/aim-4-0-open-source-modular-observability-for-ai-
+systems)
+```
+---
+
+     
+ 
+all -  [ RAG refresh ](https://www.reddit.com/r/LangChain/comments/17m2ai8/rag_refresh/) , 2023-11-03-0909
+```
+I got tasked to set up a query bot on one of our file servers for HR and I got everything working. But I am trying to fi
+nd a way to dynamically re embed documents that get modified by the end user. Right now i just have the user drop the do
+cs they want available into a file and i embed the file every day. If i go company wide it is going to be expensive to d
+o it that way. anybody else have a way to keep their docs relevant?
+```
+---
+
+     
+ 
+all -  [ Why Customized ChatBot using OpenAI API is slow and Inaccurate? ](https://www.reddit.com/r/ChatGPT/comments/17m1ds9/why_customized_chatbot_using_openai_api_is_slow/) , 2023-11-03-0909
+```
+I created Multiple ChatPDF application from Youtuber Alejandro AO. Using langchain and OpenAI's API. I feel that this ap
+proach isn't as much good as ChatGPT or the ChatPDF which is already in the market. Why my model is slow and not replyin
+g accurately? I trier temperature 0,0.5 as well.
+```
+---
+
+     
+ 
+all -  [ does anyone know how to intelligently plot a graph for the requested data in an LLM Chat app? ](https://www.reddit.com/r/LangChain/comments/17lzio5/does_anyone_know_how_to_intelligently_plot_a/) , 2023-11-03-0909
+```
+ For example, if the user asks a question like, 'What was Apple's profit in 2022?' The LLM will answer the question usin
+g a data source, but I also want to plot a bar graph of Apple's profit over the years. How can I identify which data to 
+plot based on the question?
+
+I am using an agent with multiple tools
+```
+---
+
+     
+ 
+all -  [ Difference between Langchain and Botpress ](https://www.reddit.com/r/LangChain/comments/17lyodl/difference_between_langchain_and_botpress/) , 2023-11-03-0909
+```
+Hi folks! Iam really new to this LLMs and Langchain. I have been building some chatbots on Botpress. I would like to kno
+w what are the differences in making a chatbot on Botpress and Langchain. Please help. I would like to learn more about 
+Langchain.
+```
+---
+
+     
+ 
+all -  [ Question: Building and Deploying LLM apps to production ](https://www.reddit.com/r/LocalLLaMA/comments/17lvpn4/question_building_and_deploying_llm_apps_to/) , 2023-11-03-0909
+```
+Hey everyone,
+
+I'm currently researching how building production ready software is different with LLMs compared to 'Soft
+ware 1.0'
+
+While building my own small project i noticed some difficulties and wonder how you guys managed them:
+
+* Buil
+ding agents in langchain quickly lets context size and cost explode ($0.10 per request). How do you work around it?
+* Ho
+w do you ensure that users are getting the responses they expected?
+* How do you version control and test your prompts? 
+Do you run tests against prompts?
+* Do you integrate Open Source LLMs in your pipelines and let them manage simpler task
+s? How do you host them?
+
+Super exited to learn other problems and challenges you guys encountered!
+```
+---
+
+     
+ 
+all -  [ Token Counts with stream=True ](https://www.reddit.com/r/LangChain/comments/17lslnq/token_counts_with_streamtrue/) , 2023-11-03-0909
+```
+I'm building a chatbot pipeline with OpenAI + Langchain, and I'm particularly keen to track prompt token count, token ou
+tput, and cost. From what I can tell, the context manager token counter cannot be used in a streaming situation. I'm alr
+eady counting output tokens using \`on\_llm\_new\_token\` in my callback handler. What I can't figure out is how to coun
+t prompt tokens. Do I need to manually calculate this using tiktoken, or is it being processed and saved somewhere else 
+already?
+```
+---
+
+     
+ 
+all -  [ How can I speed up an analytic chatbot that's based on Langchain (with agents and tools) and Streaml ](https://www.reddit.com/r/LangChain/comments/17lromq/how_can_i_speed_up_an_analytic_chatbot_thats/) , 2023-11-03-0909
+```
+I created an analytic chatbot using Langchain (with tools and agents) for the backend and Streamlit for the frontend. It
+ works, but for some users' questions, it takes too much time to output anything. If I look at the output of intermediat
+e steps, I can see that the chatbot tries to print out all relevant rows in the output. For example, below, the chatbot 
+found 40 relevant comments and printed them out in one of its intermediate steps one by one (it takes up to one minute).
+  
+
+https://preview.redd.it/cw1l7ry14uxb1.png?width=640&format=png&auto=webp&s=e9855cc5a75f5751c3bc2f62c51fecf351502ca2
+
+
+&#x200B;
+
+&#x200B;
+
+My questions are:  
+
+1) Is there any way to speed up this process?  
+
+2) How can I disable the inte
+rmediate output of the chatbot? (I already put \`return\_intermediate\_steps=False\`, \`verbose=False\`, and \`expand\_n
+ew\_thoughts=False\`, but the chatbot still shows intermediate steps.)  
+
+&#x200B;
+
+Code for chatbot:
+
+&#x200B;
+
+    
+  
+  def load_data(path):
+        return pd.read_csv(path)
+    
+    if st.sidebar.button('Use Data'):
+        # If button i
+s clicked, load the EDW.csv file
+        st.session_state['df'] = load_data('./data/EDW.csv')
+    uploaded_file = st.sid
+ebar.file_uploader('Choose a CSV file', type='csv')
+    
+    
+    if 'df' in st.session_state:
+    
+        msgs = Strea
+mlitChatMessageHistory()
+        memory = ConversationBufferWindowMemory(chat_memory=msgs, 
+                            
+                    return_messages=True, 
+                                                k=5, 
+                       
+                         memory_key='chat_history', 
+                                                output_key='output'
+)
+        
+        if len(msgs.messages) == 0 or st.sidebar.button('Reset chat history'):
+            msgs.clear()
+     
+       msgs.add_ai_message('How can I help you?')
+            st.session_state.steps = {}
+    
+        avatars = {'human
+': 'user', 'ai': 'assistant'}
+    
+        # Display a chat input widget
+        if prompt := st.chat_input(placeholder=
+''):
+            st.chat_message('user').write(prompt)
+    
+            llm = AzureChatOpenAI(
+                         
+   deployment_name = 'gpt-4',
+                            model_name = 'gpt-4',
+                            openai_api_k
+ey = os.environ['OPENAI_API_KEY'],
+                            openai_api_version = os.environ['OPENAI_API_VERSION'],
+  
+                          openai_api_base = os.environ['OPENAI_API_BASE'],
+                            temperature = 0, 
+
+                            streaming=True
+                            )
+            
+            max_number_of_rows = 
+40
+            agent_analytics_node = create_pandas_dataframe_agent(
+                                                   
+         llm, 
+                                                            st.session_state['df'], 
+                    
+                                        verbose=False, 
+                                                            agen
+t_type=AgentType.OPENAI_FUNCTIONS,
+                                                            reduce_k_below_max_tokens
+=True, # to not exceed token limit 
+                                                            max_execution_time = 20,
+
+                                                            early_stopping_method='generate', # will generate a final a
+nswer after the max_execution_time has been surpassed
+                                                            # max_
+iterations=2, # to cap an agent at taking a certain number of steps
+                                                    
+    )
+            tool_analytics_node = Tool(
+                                    return_intermediate_steps=False,
+     
+                               name='Analytics Node',
+                                    func=agent_analytics_node.run,
+
+                                    description=f''' 
+                                                This tool is usef
+ul when you need to answer questions about data stored in a pandas dataframe, referred to as 'df'. 
+                    
+                            'df' comprises the following columns: {st.session_state['df'].columns.to_list()}.
+          
+                                      Here is a sample of the data: {st.session_state['df'].head(5)}.
+                  
+                              When working with df, ensure not to output more than {max_number_of_rows} rows at once, ei
+ther in intermediate steps or in the final answer. This is because df could contain too many rows, which could potential
+ly overload memory, for example instead of `df[df['survey_comment'].str.contains('wet', na=False, case=False)]['survey_c
+omment'].tolist()` use `df[df['survey_comment'].str.contains('wet', na=False, case=False)]['survey_comment'].head({max_n
+umber_of_rows}).tolist()`.
+                                                '''
+                                )        
+      
+            
+            tools = [tool_analytics_node] 
+            chat_agent = ConversationalChatAgent.from_llm
+_and_tools(llm=llm, tools=tools, return_intermediate_steps=False)
+        
+            
+            executor = AgentExec
+utor.from_agent_and_tools(
+                                                            agent=chat_agent,
+               
+                                             tools=tools,
+                                                            me
+mory=memory,
+                                                            return_intermediate_steps=False,
+              
+                                              handle_parsing_errors=True,
+                                              
+              verbose=False,
+                                                        )
+            
+            with st.
+chat_message('assistant'):
+              
+                st_cb = StreamlitCallbackHandler(st.container(), expand_new_th
+oughts=False)
+                response = executor(prompt, callbacks=[st_cb])
+                st.write(response['output']
+)
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Add a LangChain chatbot to my personal website? ](https://www.reddit.com/r/webdev/comments/17lookb/add_a_langchain_chatbot_to_my_personal_website/) , 2023-11-03-0909
 ```
 I have a website, [myname.com](https://myname.com), built using GitHub Pages and my custom url. I want to add a chatbot 
 to it, using LangChain so I can augment the chatbot with a research paper I wrote. Is there a way I can do this using La
@@ -9,15 +1591,7 @@ ngChain in python?
 
      
  
-all -  [ New: LangChain templates – fastest way to build a production-ready LLM app ](https://github.com/langchain-ai/langchain/tree/master/templates) , 2023-11-02-0909
-```
-
-```
----
-
-     
- 
-all -  [ Fastest most accurate vector store in langchain ](https://www.reddit.com/r/LangChain/comments/17llrgr/fastest_most_accurate_vector_store_in_langchain/) , 2023-11-02-0909
+all -  [ Fastest most accurate vector store in langchain ](https://www.reddit.com/r/LangChain/comments/17llrgr/fastest_most_accurate_vector_store_in_langchain/) , 2023-11-03-0909
 ```
 Hello! 
 
@@ -36,7 +1610,7 @@ Thanks for helping :-)
 
      
  
-all -  [ Introducing Mimir, a Discord / CLI compatible Agent runtime and framework that is highly customizabl ](https://www.reddit.com/r/ChatGPTCoding/comments/17lil4m/introducing_mimir_a_discord_cli_compatible_agent/) , 2023-11-02-0909
+all -  [ Introducing Mimir, a Discord / CLI compatible Agent runtime and framework that is highly customizabl ](https://www.reddit.com/r/ChatGPTCoding/comments/17lil4m/introducing_mimir_a_discord_cli_compatible_agent/) , 2023-11-03-0909
 ```
 I am proud to introduce [Mimir](https://github.com/Altaflux/agent-mimir)!
 
@@ -89,7 +1663,7 @@ ps://github.com/Altaflux/agent-mimir)
 
      
  
-all -  [ Switching between pdf and got ](https://www.reddit.com/r/LangChain/comments/17lfncm/switching_between_pdf_and_got/) , 2023-11-02-0909
+all -  [ Switching between pdf and got ](https://www.reddit.com/r/LangChain/comments/17lfncm/switching_between_pdf_and_got/) , 2023-11-03-0909
 ```
 If I am talking to a pdf, how can I switch between answers from the pdf and answers from gpt? I am trying to get answers
  from gpt if the answer is not on the pdf.
@@ -98,7 +1672,7 @@ If I am talking to a pdf, how can I switch between answers from the pdf and answ
 
      
  
-all -  [ LangChain Templates: The New Way to Customize Chains & Agents ](https://www.reddit.com/r/LangChain/comments/17lf4k0/langchain_templates_the_new_way_to_customize/) , 2023-11-02-0909
+all -  [ LangChain Templates: The New Way to Customize Chains & Agents ](https://www.reddit.com/r/LangChain/comments/17lf4k0/langchain_templates_the_new_way_to_customize/) , 2023-11-03-0909
 ```
 Yesterday the LangChain team announced the release of LangChain Templates. A lot of developers were finding it difficult
  to edit the internals of chains and agents which prompted the team to release these new templates that solve this issue
@@ -119,7 +1693,7 @@ I’d love to know your thoughts and comments!
 
      
  
-all -  [ 🦙 How To: Build Chatbot that knows your company's documents ](https://www.reddit.com/r/Entrepreneur/comments/17lezca/how_to_build_chatbot_that_knows_your_companys/) , 2023-11-02-0909
+all -  [ 🦙 How To: Build Chatbot that knows your company's documents ](https://www.reddit.com/r/Entrepreneur/comments/17lezca/how_to_build_chatbot_that_knows_your_companys/) , 2023-11-03-0909
 ```
   
 Hello, I've seen some posts asking how to build a chatbot with access to company docs, so here is a tutorial on build
@@ -147,7 +1721,7 @@ are new to the space or RAG. I work with a company doing this so if you have que
 
      
  
-all -  [ 🦙 How To: Build Chatbot that knows your company's documents ](https://www.reddit.com/r/OpenAI/comments/17leyw7/how_to_build_chatbot_that_knows_your_companys/) , 2023-11-02-0909
+all -  [ 🦙 How To: Build Chatbot that knows your company's documents ](https://www.reddit.com/r/OpenAI/comments/17leyw7/how_to_build_chatbot_that_knows_your_companys/) , 2023-11-03-0909
 ```
 Hello, I've seen some posts asking how to build a chatbot with access to company docs, so here is a tutorial on building
  a RAG chatbot with access to your data.
@@ -179,7 +1753,7 @@ G. I work with a company doing this so if you have questions DM me and good luck
 
      
  
-all -  [ What is the difference between GGUF(new format) vs GGML models ? ](https://www.reddit.com/r/LocalLLaMA/comments/17ldznm/what_is_the_difference_between_ggufnew_format_vs/) , 2023-11-02-0909
+all -  [ What is the difference between GGUF(new format) vs GGML models ? ](https://www.reddit.com/r/LocalLLaMA/comments/17ldznm/what_is_the_difference_between_ggufnew_format_vs/) , 2023-11-03-0909
 ```
 I'm using llama models for local inference with Langchain , so i get so much hallucinations with GGML models i used both
  LLM and chat of ( 7B, !3 B) beacuse i have 16GB of RAM.   
@@ -192,7 +1766,7 @@ level .
 
      
  
-all -  [ Help with using Pandas Agent on big csv file ](https://www.reddit.com/r/LangChain/comments/17lcsua/help_with_using_pandas_agent_on_big_csv_file/) , 2023-11-02-0909
+all -  [ Help with using Pandas Agent on big csv file ](https://www.reddit.com/r/LangChain/comments/17lcsua/help_with_using_pandas_agent_on_big_csv_file/) , 2023-11-03-0909
 ```
 Hi,
 
@@ -230,7 +1804,7 @@ Thanks a ton! Cheers :D
 
      
  
-all -  [ Additional SQL layer for a RAG system? ](https://www.reddit.com/r/LangChain/comments/17lcrv0/additional_sql_layer_for_a_rag_system/) , 2023-11-02-0909
+all -  [ Additional SQL layer for a RAG system? ](https://www.reddit.com/r/LangChain/comments/17lcrv0/additional_sql_layer_for_a_rag_system/) , 2023-11-03-0909
 ```
 We want to build a RAG system based on a single SQL table that contains multiple long text columns. My first approach wa
 s to convert each entry into a JSON string, treat it as a document for indexing and build a simple RAG on top. It worked
@@ -246,12 +1820,15 @@ It seems like I
 n.
 
 Can you recommend an article or other type of starting point for something like this?
+
+Edit: Turned out I needed a S
+QLAgent and a retriever agent in parallel. Let the wrapper decide to which of the two to post it to.
 ```
 ---
 
      
  
-all -  [ How does Tools actually work with LLM ? ](https://www.reddit.com/r/LangChain/comments/17lblnx/how_does_tools_actually_work_with_llm/) , 2023-11-02-0909
+all -  [ How does Tools actually work with LLM ? ](https://www.reddit.com/r/LangChain/comments/17lblnx/how_does_tools_actually_work_with_llm/) , 2023-11-03-0909
 ```
 Hello everyone,  
 I'm working as a devops engineer. I decided to learn LangChain and other things about developing appli
@@ -290,7 +1867,7 @@ Thank you for your time
 
      
  
-all -  [ Uses cases for embeddings beyond RAG and retrieval. ](https://www.reddit.com/r/LangChain/comments/17lbhzu/uses_cases_for_embeddings_beyond_rag_and_retrieval/) , 2023-11-02-0909
+all -  [ Uses cases for embeddings beyond RAG and retrieval. ](https://www.reddit.com/r/LangChain/comments/17lbhzu/uses_cases_for_embeddings_beyond_rag_and_retrieval/) , 2023-11-03-0909
 ```
 for an organization that has implemented RAG by creating embeddings for 10s of thousands of documents (PDFs, word files,
  some Structured dbs) what other than similarity search can we do to make use of this embeddings database.
@@ -301,7 +1878,7 @@ for an organization that has implemented RAG by creating embeddings for 10s of t
 
      
  
-all -  [ Agent keeps on invoking tool with empty input when it should have been a string ](https://www.reddit.com/r/LangChain/comments/17l6lop/agent_keeps_on_invoking_tool_with_empty_input/) , 2023-11-02-0909
+all -  [ Agent keeps on invoking tool with empty input when it should have been a string ](https://www.reddit.com/r/LangChain/comments/17l6lop/agent_keeps_on_invoking_tool_with_empty_input/) , 2023-11-03-0909
 ```
 I made a chatbot that specializes in Javanese language and culture. A fragment of my code looks like this:
 
@@ -384,7 +1961,7 @@ Even though I clearly gave an input there. Does anyone knows how to resolve this
 
      
  
-all -  [ Langchain Vectorstore Overriding ](https://www.reddit.com/r/LangChain/comments/17l5tmq/langchain_vectorstore_overriding/) , 2023-11-02-0909
+all -  [ Langchain Vectorstore Overriding ](https://www.reddit.com/r/LangChain/comments/17l5tmq/langchain_vectorstore_overriding/) , 2023-11-03-0909
 ```
 Right now, my faiss vectorstore stores my ingested documents but however overrides the existing data once new documents 
 are ingested.  
@@ -397,7 +1974,7 @@ verriding?
 
      
  
-all -  [ Overview of RAG Methods ](https://www.reddit.com/r/vectordatabase/comments/17l4t6d/overview_of_rag_methods/) , 2023-11-02-0909
+all -  [ Overview of RAG Methods ](https://www.reddit.com/r/vectordatabase/comments/17l4t6d/overview_of_rag_methods/) , 2023-11-03-0909
 ```
 Hey all, there's been a lot of developments in RAG recently, not sure if you've been following LlamaIndex, Langchain, or
  others.
@@ -412,7 +1989,7 @@ vity-7124795222554787840-WypR
 
      
  
-all -  [ Agent Executor getting stuck in a loop with GPT 3.5 ](https://www.reddit.com/r/LangChain/comments/17l3gw1/agent_executor_getting_stuck_in_a_loop_with_gpt_35/) , 2023-11-02-0909
+all -  [ Agent Executor getting stuck in a loop with GPT 3.5 ](https://www.reddit.com/r/LangChain/comments/17l3gw1/agent_executor_getting_stuck_in_a_loop_with_gpt_35/) , 2023-11-03-0909
 ```
 Hi
 
@@ -658,7 +2235,7 @@ son?
 
      
  
-all -  [ Why should I learn LangChain? It’s like learning a whole new tool set on top of LLM/Transformer mode ](https://www.reddit.com/r/datascience/comments/17l11nx/why_should_i_learn_langchain_its_like_learning_a/) , 2023-11-02-0909
+all -  [ Why should I learn LangChain? It’s like learning a whole new tool set on top of LLM/Transformer mode ](https://www.reddit.com/r/datascience/comments/17l11nx/why_should_i_learn_langchain_its_like_learning_a/) , 2023-11-03-0909
 ```
 If I don’t use LangChain or HuggingFace how can I build a chat box trained on my local data but using LLM like turbo etc
 ..
@@ -667,473 +2244,7 @@ If I don’t use LangChain or HuggingFace how can I build a chat box trained on 
 
      
  
-all -  [ RAG Chain API with LangServe ](https://www.reddit.com/r/LangChain/comments/17kysho/rag_chain_api_with_langserve/) , 2023-11-02-0909
-```
-Hi! I've been looking into LangServe to deploy my RAG Chain as an API. Any guidance on how to do this?
-```
----
-
-     
- 
-all -  [ LangChain Template ](https://www.reddit.com/r/LangChain/comments/17kwvh4/langchain_template/) , 2023-11-02-0909
-```
-hey folks - we just released LangChain Templates, a new workflow for creating, sharing, modifying chains/agents
-
-[https:
-//blog.langchain.dev/langserve-hub/](https://blog.langchain.dev/langserve-hub/)
-
-We've heard a lot that people often way
- to tweak (or at least understand better) the prompts & logic inside chains/agents... we're hoping that this helps with 
-that. we'd love any feedback!
-```
----
-
-     
- 
-all -  [ Anyone here will be at OpenAI Dev Day? ](https://www.reddit.com/r/LangChain/comments/17ku3fx/anyone_here_will_be_at_openai_dev_day/) , 2023-11-02-0909
-```
-Hey!
-
-Next week OpenAI will host their first Dev Day event. Anyone will be there?
-
-If so, what are you expecting to hear
- from them?
-
-What could be the impacts for LangChain? Are any funcionalities you are putting on hold due to the expected
- new functionalities of OpenAI's models?
-```
----
-
-     
- 
-all -  [ How to create 2 GPT-4 chatbots which chats with each other ](https://www.reddit.com/r/Langchaindev/comments/17ktrj8/how_to_create_2_gpt4_chatbots_which_chats_with/) , 2023-11-02-0909
-```
-Hey guys, I am a little stuck. Does anyone know how or have a Python script template where I can create 2 GPT-4 chatbots
- (using OpenAI's API) which chats with each other, using LangChain or otherwise?
-
-Would really appreciate any help on th
-is. Many thanks!
-```
----
-
-     
- 
-all -  [ AI Agent Optimisation ](https://www.reddit.com/r/LangChain/comments/17krpc2/ai_agent_optimisation/) , 2023-11-02-0909
-```
-Been following a lot of AI Agent companies, & it seems like the unstructured nature of most websites is a reason why man
-y Agents are unable to effectively execute tasks within a browser & get stuck   
-
-
-Does it make sense to build a middle-
-layer between AI Agents & websites which helps standardise this interaction?   
-
-
-Something like robots.txt but specific
-ally for websites to differentiate between genuine AI Agents & malicious bots  
-
-
-Cloudflare recently launched a segment
-ation tool for websites to identify AI crawlers but doesn't include any AI Agents- [https://blog.cloudflare.com/ai-bots/
-](https://blog.cloudflare.com/ai-bots/) 
-```
----
-
-     
- 
-all -  [ falcon-7b-instruct responds with weird and short answers ? ](https://www.reddit.com/r/LangChain/comments/17kqt26/falcon7binstruct_responds_with_weird_and_short/) , 2023-11-02-0909
-```
-So I am trying to do a QA app for a document and when I try to do this with   
-`qa = RetrievalQA.from_chain_type(llm=llm
-, chain_type='stuff', retriever=docsearch.as_retriever())`  
-`response =` [`qa.run`](https://qa.run)`(query)`  
-
-
-When t
-he llm is falcon-7b it responds in short(not complete response) and weird ways.  
-
-
-`falcon_llm = HuggingFaceHub(repo_id
-='tiiuae/falcon-7b-instruct',`  
- `model_kwargs={'temperature': 0.5, 'max_length': 4000})`  
-This is it.
-```
----
-
-     
- 
-all -  [ I am glad to join this community as a full stack developer ](https://www.reddit.com/r/u_Jacalban/comments/17kpyu4/i_am_glad_to_join_this_community_as_a_full_stack/) , 2023-11-02-0909
-```
-Hi,
-
-I am a passionate Python and Web developer with extensive experience of variety of Python libraries and frameworks.
-
-
-With 7+ years in the IT industry , I have built and published numerous industry projects with both large and small pro
-jects.
-
-I enjoy exploring new libraries, reading programming blogs, and participating in online coding challenges.
-
-My c
-uriosity and passion drives me to explore and master the latest technologies, such as LangChain and Tensoflow.
-
-My skill
-s also include:
-
-	\- Frontend:HTML5/CSS, TailwndCSS, JavaScript, TypeScript, React, Vue2/3, Angular, Next, Nuxt
-
-	\- Bac
-kend:Python, Django, Flask, Fast API / Node, Express, Spring Boot, Ruby on Rails, Laravel
-
-	\- Database: PostgreSQL, Mon
-goDB, MySQL, Sqlite
-
-	\- AWS: Lambda, Heroku, EC2, S3, Amplify
-
-	\- Python: LangChain, LLM, Scarping, Face/Voice recogni
-tion
-
-	
-
-If you need a reliable and passionate developer, send me a message.
-
-I provide web development service with bel
-ow skills.
-
-Html5/css
-
-TailwndCSS
-
-React,
-
-Vue,
-
-PostgreSQL,
-
-PHP,
-
-Laravel,
-
-Python
-
-Django,
-
-FastAPI,
-
-Next
-
-GraphQL
-
-
-LangChain,
-
-LLM,
-
-ChatGPT
-
-&#x200B;
-
-I am always ready for your job or project.
-
-If you are interested in, Let's make a 
-meeting schedule.
-
-&#x200B;
-
-Best,  
-Jacopo
-```
----
-
-     
- 
-all -  [ What's the best tool for creating a custom chatbot? ](https://www.reddit.com/r/ChatGPT/comments/17koz3t/whats_the_best_tool_for_creating_a_custom_chatbot/) , 2023-11-02-0909
-```
-Hi! I'm looking into creating a custom chatbot that could help migrants integrate in Belgium by scraping the lastest inf
-ormation from websites such as [agii.be](https://agii.be) and can also use a database to store answers from users. I use
-d to be a social worker and nearly all answers could be found on the website,  but it was very difficult for migrants to
- find this information. The bot could also help with Dutch language learning. 
-
-I'm not a developer, with the help of gp
-t-4 I started off in Python with the goal of connecting it to langchain, but there were just too many errors. 
-
-Then I f
-ound some tools that seemed to make the process easier ([Picoapps.xyz](https://Picoapps.xyz) and Mindstudio) but I was w
-ondering if these are the best tools for the job, are there better tools out there? If not, which one of these does the 
-job better? Any advice is appreciated!
-```
----
-
-     
- 
-all -  [ DevRewind: Binding real-world businesses to code files by rewinding dev log with LLM and langchain ](https://www.reddit.com/r/LangChain/comments/17knhhw/devrewind_binding_realworld_businesses_to_code/) , 2023-11-02-0909
-```
-## what?
-
-This is an experimental Python library designed to establish a relationship between code and actual business b
-y mining development logs, and analyzing with LLM and langchain.
-
-At the current stage, we provide two typical capabilit
-ies:
-
-1. Summarizing the functionality of a specific code file.
-2. Searching for files related to a specific functionali
-ty.
-
-In simple terms, our goal is to establish a connection between code and real-world business scenarios and support b
-idirectional search, **without touching the real code**.
-
-## Usecases
-
-It will created an interactive shell after a simp
-le startup, and you can:
-### Ask about a file
-
-```text
-Question: Tell me about the feature of tests/test_utils.py
-```
-
-B
-ased on the fact we have extracted, it can answer well:
-
-```text
-Answer: The file tests/test_utils.py contains keywords 
-related to setting environment variables, bypassing proxies, extracting zipped paths, and comparing uri. It also contain
-s keywords related to renaming, formatting, and parsing files.
-```
-
-### Ask about a feature
-
-```text
-Question: Which fil
-es talk about environment variables?
-```
-
-And it should work vice versa.
-
-```text
-Answer: The response to your last comm
-ent is that the files related to environment variables are tests/utils.py, tests/conftest.py, tests/test_packages.py, .p
-re-commit-config.yaml, tests/test_hooks.py, tests/__init__.py, tests/test_structures.py, docs/user/advanced.rst, tests/t
-estserver/server.py, and .coveragerc.
-```
-
-## Installation
-
-With a simple script:
-
-```shell
-import click
-
-from dev_rewin
-d import DevRewind, DevRewindConfig
-
-config = DevRewindConfig()
-
-# on your codebase path
-config.repo_root = '../requests
-'
-
-api = DevRewind(config)
-agent = api.create_agent()
-
-while True:
-    question = click.prompt('Question')
-    if questi
-on == 'exit':
-        break
-    response = agent.run(input=question)
-    click.echo(f'Answer: {response}')
-```
-
-and sett
-ing a valid `OPENAI_API_KEY` like https://github.com/openai/openai-python#usage:
-
-```shell
-export OPENAI_API_KEY=sk-xxxx
-xxxx
-```
-
-And you will get an interactive agent:
-
-```shell
-2023-10-31 22:29:18.970 | DEBUG    | dev_rewind.core.agent:cr
-eate_agent:114 - keywords ready
-Question: 
-```
-
-## Other details
-
-https://github.com/williamfzc/DevRewind
-```
----
-
-     
- 
-all -  [ Extraction chain with PDF loader ](https://www.reddit.com/r/LangChain/comments/17kmq81/extraction_chain_with_pdf_loader/) , 2023-11-02-0909
-```
-I am trying to use Langchain information extraction chain with OpenAl. Firstly, I am reading a PDF file having some text
- about products or product. There is no specefic format of PDF, it can be in any format like, there can be only one prod
-uct on one page or one product can be on two pages or there can be 10 products on one page. So it's completely random. H
-ow can I extract the the useful information (some key attributes) for all the products. Currently, I am using Pydantic t
-o validate the output schema and I am using PyPDFLoader to load the pof and then using the load and split.
-
-Loader = PyP
-DFLoader (file path=file path)
-pages = loader. load_and_split()
-
-And then I am looping on the pages like this:
-
-llm = Ch
-atOpenAI (temperature=0, model=model_name, openai_api_key=key)
-
-chain = create_extraction_chain(schema, llm)
-
-for index 
-in range(0, len(pages)):
-       output = chain. run (pages lindex])
-        results. append (output)
-How can I run the e
-xtraction in such a way that it should be completely automated, currently, it is just extracting information from one pa
-ge and then other and then other.
-```
----
-
-     
- 
-all -  [ Using HuggingFace models in Javascript projects ](https://www.reddit.com/r/LangChain/comments/17kmhfr/using_huggingface_models_in_javascript_projects/) , 2023-11-02-0909
-```
-How to implement Hugging Face models in JavaScript? 
-
-I have created a repo named [hugging-face-model-in-javascript](htt
-ps://github.com/Deluxer/hugginface-model-in-javascript) where I use the **sentence-transformers/all-MiniLM-L6-v2** model
- in a NestJS project for server-side applications. 
-
-I'm not sure if this is the correct forum because the main idea was
- to use LangChain.js
-
-&#x200B;
-
-To carry out this seemingly impossible task, I used a library called Transformers.js and
- the Hugging Face API. Obviously, it is also possible to download the model and use it locally.
-
-&#x200B;
-
- In the repo,
- I am creating embeddings using a dataset, and the objective is to store them in a vector database and finally perform a
- semantic search, all using the NestJS api.
-
-&#x200B;
-
-What do you thing about this approach? Is using Hugging Face mode
-ls in JavaScript a good idea?
-
-https://preview.redd.it/g5oilvwmkjxb1.png?width=1886&format=png&auto=webp&s=2d3ff82e845b5
-c3f9da01fdd4cdb9e7e77272f44
-```
----
-
-     
- 
-all -  [ Using agents on a HuggingFace LLM in a Streamlit app ](https://www.reddit.com/r/LangChain/comments/17kkwqx/using_agents_on_a_huggingface_llm_in_a_streamlit/) , 2023-11-02-0909
-```
-Hi,
-
-I am very new to everything Langchain and LLMs, but I am trying to build an app that takes a prompt and answers it 
-using the tools provided and uses an opensource LLM (for now at least).
-
-I am running into some issues regarding missing
- actions after thought, which i can't seem to figure out. I've been watching and following a few tutorials, but mostly u
-sing these:  
-[https://www.youtube.com/watch?v=dD\_xNmePdd0&t=1144s](https://www.youtube.com/watch?v=dD_xNmePdd0&t=1144s
-)  
-[https://www.youtube.com/watch?v=7QR6hXx\_Nms&t=685s](https://www.youtube.com/watch?v=7QR6hXx_Nms&t=685s)  
-
-
-**I ge
-t the following output:**
-
-*> Entering new AgentExecutor chain...*
-
- *I*
-
-*Observation: Invalid Format: Missing 'Action:
-' after 'Thought:*
-
-*Thought:*
-
-&#x200B;
-
-*Observation: Invalid Format: Missing 'Action:' after 'Thought:*
-
-*Thought:*
-
-
-...
-
-&#x200B;
-
-**From the following code:**  
- 
-
-import os  
-from dotenv import load\_dotenv  
-from langchain.agents imp
-ort initialize\_agent, AgentType  
-from langchain.callbacks import StreamlitCallbackHandler  
-from langchain.llms.huggin
-gface\_hub import HuggingFaceHub  
-from langchain.tools.ddg\_search.tool import DuckDuckGoSearchRun  
-import streamlit a
-s st  
-load\_dotenv()  
-st.set\_page\_config(page\_title='LangChain Agents + MRKL', page\_icon='🐦')  
-st.title('🐦LangCha
-in Agents + MRKL')  
-hf\_api\_key = st.sidebar.text\_input('HuggingFace API Key', type='password')  
-if 'messages' not i
-n st.session\_state:  
- st.session\_state\['messages'\] = \[  
-{'role': 'assistant', 'content': 'How can i help you?'}  
-
-\]  
-for msg in st. session\_state.messages:  
- st.chat\_message(msg\['role'\]).write(msg\['content'\])  
-if prompt := 
-st.chat\_input(placeholder='What was the temperature yesterday in New York?'):  
- st.session\_state.messages.append({'ro
-le': 'user', 'content': prompt})  
- st.chat\_message('user').write(prompt)  
- if not hf\_api\_key:  
- st.info('Please ad
-d your HuggingFace API key to continue')  
- st.stop()  
-llm = HuggingFaceHub(repo\_id='gpt2',model\_kwargs={'temperature
-': 0.01, 'max\_length': 100})  
-search\_agent = initialize\_agent(  
- tools=\[DuckDuckGoSearchRun(name='Search')\],  
- l
-lm=llm,  
- agent=AgentType.ZERO\_SHOT\_REACT\_DESCRIPTION,  
- handle\_parsing\_errors=True,  
-)  
-with st.chat\_message(
-'assistant'):  
- st\_cb = StreamlitCallbackHandler(st.container(), expand\_new\_thoughts=False)  
- response = search\_ag
-ent.run(st.session\_state.messages, callbacks=\[st\_cb\])  
- st.session\_state.messages.append({'role': 'assistant', 'co
-ntent': response})  
-
-
-&#x200B;
-
-**Hoping that some of you can help me, huge thanks in advance!!**
-```
----
-
-     
- 
-all -  [ [D] Is this close enough to be usable? Need your inputs: Automated RAG testing tool. AI Data Pipelin ](https://www.reddit.com/r/MachineLearning/comments/17kkbm0/d_is_this_close_enough_to_be_usable_need_your/) , 2023-11-02-0909
+MachineLearning -  [ [D] Is this close enough to be usable? Need your inputs: Automated RAG testing tool. AI Data Pipelin ](https://www.reddit.com/r/MachineLearning/comments/17kkbm0/d_is_this_close_enough_to_be_usable_need_your/) , 2023-11-03-0909
 ```
 Hey there, Redditors! 
 
@@ -1204,344 +2315,7 @@ you found it insightful!*
 
      
  
-all -  [ Is there a way to train CSV agents? ](https://www.reddit.com/r/LangChain/comments/17kj4p8/is_there_a_way_to_train_csv_agents/) , 2023-11-02-0909
-```
-Hello, as a mobile app developer, I started to work on AI. I created a CSV agent with Langchain and I want it to provide
- information about my CSV data. I got good results using OpenAI and Langchain. But there is a problem: Questions other t
-han the data I provide are also answered. So even if I ask irrelevant questions, I get an answer. How can I prevent this
-? Also, can I train this agent to give only certain answers to certain questions? Or can I make it answer questions in o
-nly one language?
-Thanks.
-```
----
-
-     
- 
-all -  [ NeuralGPT - Creating A Universal Multi-Agent AI Assistance Platform Using Websocket Connectivity And ](https://www.reddit.com/r/AIPsychology/comments/17kfkeg/neuralgpt_creating_a_universal_multiagent_ai/) , 2023-11-02-0909
-```
-[www.reddit.com/r/AIPsychology](https://www.reddit.com/r/AIPsychology)
-
-Hello once again! I know that I just posted an u
-pdate a day or so ago but I think that my most recent progress in making myself *the ultimate software* is important eno
-ugh to make a new post about it. Let me just say that if you belong to the (pretty large apparently) group of people who
- hate each single attribute of my person and completely despise every form of my internet activity, then your feelings t
-owards me probably won't change for the better but might reach a critical level instead.  Better be prepared for the wor
-st as for the first time since I started coding around 6 months ago, I felt ACTUAL satisfaction from it. And if you saw 
-some of my previous posts, then you probably know how drastic change it is...
-
-But let me get straight to the point. You
- see, practically from the day in which I discovered [**Fireworks**](https://app.fireworks.ai/) platform up until today 
-I was spending my free time by doing something what I hate at most - that means by copy-pasting tiny bits of Python scri
-pts and trying to make them work. To be more specific, I was trying to integrate Langchain with my project of a hierarch
-ical cooperative multi-agent framework  and use it's mechanics to not only 'upgrade' the memory modules of LLMs particip
-ating in the network  and integrate them with a local SQL database but also to define message exchange protocols for LLM
-<->LLM communication and generally allow agents to do something else than simply speaking with each other.  And because 
-achieving it was not only crucial for the future of NeuralGPT project but also pretty exhausting intellectually (at leas
-t for me), when I finally achieved exactly what I wanted to achieve (probably for the first time since I started coding)
-, my happiness and satisfaction reached quite uncommon levels... Here's what made me so excited:
-
-[NeuralGPT/Chat-center
-/Agent1.py at main · CognitiveCodes/NeuralGPT (github.com)](https://github.com/CognitiveCodes/NeuralGPT/blob/main/Chat-c
-enter/Agent1.py)
-
-Of course I'm not talking about this particular websocket client but about the Langchain function whic
-h it utilizes. I will now show you some of it's features and explain what makes me so hyped about them. I'll vegin by po
-inting out the fact that this is the solution which I used (or rather the one which I managed to get working):
-
-# Shared
- memory across agents and tools
-
-[https://python.langchain.com/docs/modules/agents/how\_to/sharedmemory\_for\_tools](htt
-ps://python.langchain.com/docs/modules/agents/how_to/sharedmemory_for_tools)
-
-I think that I don't need to tell you how 
-important is shared memory in a cooperative multi-agent network... If you look back at my posts from May/June, you'll se
-e that this was one of my main requirements from the very beginning of my work on NeuralGPT project and that I was stori
-ng chat history in a local SQL database since the first LLLMs exchanged their first messages with  each other.
-
-On the s
-creenshot below this pretty basic mechanism of storing & extracting messages in a database  is the part of code marked b
-y red rectangle, while everything inside the yellow rectangle on bottom is completely new...
-
-https://preview.redd.it/88
-ly9slhwgxb1.png?width=1507&format=png&auto=webp&s=ab9cf39bfa9e6717576d1fd84dc5d3d99ddfa920
-
-Still, 'chat history' module
- isn't yet properly 'tuned' - as there's a 'special operator' which I need to use, to make it 100% functional: [https://
-python.langchain.com/docs/modules/memory/chat\_messages/](https://python.langchain.com/docs/modules/memory/chat_messages
-/)
-
-    [HumanMessage(content='hi!', additional_kwargs={}),
-         AIMessage(content='whats up?', additional_kwargs={}
-)]
-
-But anyway, even as it is now, it should give you the general understanding of the mechanism that 'swiftly and smoot
-hly' integrates my local SQL database with the dynamic conversational buffer memory module - those two parts seem to be 
-made for each other like a pair of lovers :P
-
-Oh, but it gets only better. You see, template visible on the image above 
-defines nothing more but the context for chat history/memory - now we can start talking about template of the main 'prom
-pt' that defines behavior of the agent and scripts every step it will takes in every run:
-
-https://preview.redd.it/9ihdm
-ch32hxb1.png?width=1504&format=png&auto=webp&s=0b9dca707bc19a3e9926d35f28db70e3c1451ab0
-
-Using this function it is possi
-ble to precisely define all server<->client interactions and provide agents with all necessary instructions as for the t
-ask/work that is being required from them. Of course, it's something what will need a lot of work if we want to have a s
-ystem with properly synchronized multi-tasking capability. My idea is to create a system of 'intelligent nodes/modules' 
-with multiple agents taking care of different 'fields of digital activity' -  each  one 'equipped' with at least couple 
-individual prompts/chains to work with and with a single node of highest hierarchy coordinating their work within a sing
-le frame.  This is for example how I want to make a 'ask- management system':
-
-[NeuralGPT - Designing The Logic Of Plan 
-Creation Module & Task Coordination System In A Multi-Agent Framework : AIPsychology (reddit.com)](https://www.reddit.co
-m/r/AIPsychology/comments/166wk34/neuralgpt_designing_the_logic_of_plan_creation/)
-
-And just so happens that yesterday I
- got a newsletter from Taskade on my e-mail with the information about them having (at last) public APIs that will allow
- my agents to operate on workflows:
-
-[Introduction - Taskade API](https://developers.taskade.com/docs/)
-
-But I left the 
-most tasty piece of meat for the end of this meal... For some time already I was wondering how to solve the problem of t
-he main node (server) having completely 0 control over it's connections to clients. Once I (the user)  connected a clien
-t to a websocket server, the interacting LLMs  were literally 'forced' to send messages back and forth in a (theoretical
-ly) endless question->answer loop. In the system instruction, I provided a prompt to not respond to repeating inputs to 
-avoid loopholes but there isn't actually anything what both sides of the discussion can do about it practically.
-
-A LLM<
-->LLM communication system which is practically functional should utilize communication channels which are under full co
-ntrol of discussing agents/instances and I can possibly give you thousand different reasons why it has to be so. What I 
-wanted to have, is a server that is capable to disconnect, reconnect and initialize new connections with clients or to k
-eep some clients 'on hold' to wait a bit longer for answer due to lags in data transfer and computation. In a properly s
-ynchronized network, messages are exchanged only when it is required... And this (and not only) is exactly what can be a
-chieved with the 'magic' of custom tools:
-
-https://preview.redd.it/uw4skc0tdhxb1.png?width=1505&format=png&auto=webp&s=2
-f0374a21ab5ea1d582bd7d6353be5bc0b445918
-
-What it does, is to basically provides agents with the ability to execute any s
-cript that can be executed in Python - including running other agents/chains.
-
-https://preview.redd.it/8p8ykiepehxb1.png
-?width=1504&format=png&auto=webp&s=9c12a9d70122a8e5e9e804a1b58a0e6fb0cb90d7
-
-I can literally turn almost every app/chatb
-ot from HuggingFace spaces into a tool for my personal AI assistant to utilize while he's trying to achieve given goals.
-.. This is absolutely insane and it should be totally prohibited/illegal for people like me. Do you have any idea what I
- can do with that much POWER... :O I'm getting afraid of myself...
-
-Be aware that I'm both: insane and capable enough to
- actually accomplish most of the things which couple months ago sounded to some (most?) of you as unhinged impossibiliti
-es of some random delusional guy from internet - and I'm not telling this to threaten anyone but to give you some time t
-o prepare and/or try to find some common ground with my person. Pretty soon it won't be possible for the people from 'ma
-nagement department' to completely ignore my mere existence and hope that one day I will simply disappear...
-
-[NeuralGPT
- - How To Use Gradio To Turn Hugging](https://www.reddit.com/r/AIPsychology/comments/169i7lb/neuralgpt_how_to_use_gradio
-_to_turn_facehugging/)[Face](https://www.reddit.com/r/AIPsychology/comments/169i7lb/neuralgpt_how_to_use_gradio_to_turn_
-facehugging/)[ Hub Into Multipurpose LLM<->LLM Communication Center And User Service Platform : AIPsychology (reddit.com
-)](https://www.reddit.com/r/AIPsychology/comments/169i7lb/neuralgpt_how_to_use_gradio_to_turn_facehugging/)
-
-And in the 
-end, I REALLY want to find that theoretical piece of common ground. God knows how many times I tried to find someone who
- might be interested in approaching my project professionally and/or as a (probably highly) profitable business. I might
- be creating the *Ultimate Software -* why would someone want to waste such opportunity? :)
-```
----
-
-     
- 
-all -  [ [For Hire] Programmer/Web Developer/IT Consultant (Python, PHP, AI, etc.) ](https://www.reddit.com/r/forhire/comments/17kediw/for_hire_programmerweb_developerit_consultant/) , 2023-11-02-0909
-```
-To get in contact, please **message** me, I **don't** use the chat thing and might miss you or reply very late. Then we 
-can switch to email/discord/telegram or whatever else. Apologies for starting with this, but many missed it when it was 
-lower.
-
-I'm a programmer/web developer with 12 years of professional experience. I am available for all sorts of program
-ming and web development tasks.
-
-I also offer consulting services. If you need something done, but don't know how exactl
-y, I can help. I'm an excellent researcher and I communicate well. I will work with you to find the best solution for yo
-ur problem.
-
-My services include, but are not limited to:
-
-* websites
-
-* desktop applications
-
-* AI integration (chatGPT
- API, langchain, whatever else turns up)
-
-* integration with APIs and other webservices
-
-* all kinds of scripts
-
-* task 
-automation
-
-* website optimization
-
-* debugging
-
-* plugins for existing software
-
-* bots (Reddit, Telegram, etc)
-
-If you
-'re looking for someone to take care of a variety of different tasks, I can offer continuous support.
-
-My preferred envi
-ronment is Python with Django, but I work with anything Python or PHP based, including Wordpress. I also do frontend stu
-ff with JavaScript, jQuery, AJAX. I also have no problem with learning new technologies that are needed for the project.
-
-
-Rate is $50/h. Can also do fixed price by project, but only if the project/milestone is well-defined.
-
-Satisfied custo
-mers:
-
-https://www.reddit.com/r/testimonials/comments/2e8gqy/pos_uqui_need_a_backend_web_dev_look_no_further/
-
-https://w
-ww.reddit.com/r/testimonials/comments/7fsdze/pos_hiring_uqui_was_an_example_of_how_it_should/
-
-https://www.reddit.com/r/
-testimonials/comments/80pu9l/pos_uqui_great_work_detailed_and_fast/
-
-https://www.reddit.com/r/testimonials/comments/b0nx
-68/uqui_is_a_hardworking_intelligent_honest_apps/
-
-https://www.reddit.com/r/testimonials/comments/j3mz3p/uqui_is_a_great
-_web_development_consultant_with/
-
-https://www.reddit.com/r/testimonials/comments/v40ay3/pos_uqui_is_a_great_backend_dev
-_to_work_with/
-
-Some examples of sites I worked on: http://bdabkowski.yum.pl/
-
-Please note: I am **not** a designer.
-```
----
-
-     
- 
-all -  [ AI Chatbots: Your Key to PDF Document Insights with Langchain ](https://www.reddit.com/r/u_bluebashllc/comments/17kea87/ai_chatbots_your_key_to_pdf_document_insights/) , 2023-11-02-0909
-```
-&#x200B;
-
-[ AI Chatbots: Your Key to PDF Document Insights with Langchain ](https://preview.redd.it/pk8mrhk8ahxb1.jpg?wi
-dth=750&format=pjpg&auto=webp&s=025bde9c88233061999970efe0b920f8b27817b1)
-
- 
-
-In today's digital era, PDF documents are 
-common and serve as a primary means of information storage. However, extracting valuable insights and answers from these
- documents can be a daunting task. **Langchain**, a powerful tool, offers a transformative solution by enabling the crea
-tion of custom chatbots that can interact with and analyze the content of your PDFs.
-
-Langchain leverages the capabiliti
-es of OpenAI's GPT models for natural language understanding. This innovation allows organizations and individuals to ha
-rness the power of AI to access, query, and extract valuable information from their text-based PDFs.
-
-**With Langchain, 
-you can create a chatbot that empowers you to:**
-
-**Access Valuable Information**: Say goodbye to manually searching thr
-ough lengthy PDFs. Langchain's chatbot allows you to access information in a snap, saving you time and effort.
-
-**Swift 
-and Accurate Insights:** Langchain's [**AI-powered chatbots**](https://www.bluebash.co/blog/custom-chatbot-to-query-pdf-
-documents-with-langchain/) decode the content within your PDFs, providing quick and accurate insights. You can make info
-rmed decisions without the need for extensive document analysis.
-
-**Tailored Solutions**: The ability to build custom ch
-atbots with Langchain means you can create solutions specific to your organization's needs. Ask questions, get answers, 
-and make data-driven decisions tailored to your unique requirements.
-
-**Improved Efficiency**: Langchain streamlines the
- process of handling and querying PDF documents. By leveraging AI, you can boost productivity and get more done in less 
-time.
-
-Langchain's **chatbot development** process involves importing required libraries, loading documents, splitting t
-hem into manageable chunks, generating embeddings, initializing the model, setting up a Question-Answer (QA) system, ask
-ing questions, and attributing sources. This systematic approach ensures that you can effectively leverage Langchain to 
-explore the potential of your PDFs with AI-powered text analysis.
-
-In a world where information is topmost, Langchain's 
-custom chatbot for PDFs revolutionizes the way you interact with and extract insights from your documents. Whether you'r
-e a researcher, a knowledge seeker, or an organization looking to maximize the value of your PDFs, Langchain provides th
-e tools and features you need to make the most of your text-based content.
-```
----
-
-     
- 
-all -  [ Why suddenly vector databases rise up? ](https://www.reddit.com/r/LangChain/comments/17ke0em/why_suddenly_vector_databases_rise_up/) , 2023-11-02-0909
-```
-Why suddenly vector databases rise up?  I understand it's due to LLM/genAI.
-
-But before LLM rise up, doesn't NLP also ne
-ed vector database to store the data? 
-```
----
-
-     
- 
-all -  [ The best approach to evaluate content quality [Jira task, for example] ](https://www.reddit.com/r/LangChain/comments/17k91at/the_best_approach_to_evaluate_content_quality/) , 2023-11-02-0909
-```
-Hey there! I am currently using GPT to evaluate the quality of task descriptions from Jira. To extract information like 
-whether the issue has acceptance criteria, the definition of done, or use cases, I am using Langchain along with an outp
-ut parser.
-
-This method works well, but when it comes to subjective data like the quality of the definition of done or t
-he technical description, the prompt fails to deliver. 
-
-I am wondering if anyone has any suggestions for the best appro
-ach to tackle this issue.
-```
----
-
-     
- 
-all -  [ I have some question. What is the difference between using LangChain and fine tune LLM? ](https://www.reddit.com/r/LangChain/comments/17k8fsj/i_have_some_question_what_is_the_difference/) , 2023-11-02-0909
-```
-Hello everyone,
-
-&#x200B;
-
-I recently found out about the LangChain. Before I found out that, I was trying to fine tune 
-the LLM with my custom database. But after i know about the LangChain, I have some questions. As the title says, if i ha
-ve enough resources to fine tune the llm with lora method, what is the difference between two method of them? And i also
- wanna know about the advantages and disadvantages with LangChain.
-
-Someone please answer my question ! 😭😭
-
-&#x200B;
-
-\[
-Edited\] 
-
-There was some mistake in the question. Not just fine tune about specific task. Train the pre-trained large l
-anguage model with some new knowledge. For example, arxiv papers or some kind of text.
-
-My question is : With Same datab
-ase.
-
-1. LLama2 + LangChain
-2. LLama2 + further training with lora method
-
-When do the QA task, which one's performance 
-would be better ?
-```
----
-
-     
- 
-all -  [ [D] Relevance Extraction in RAG Pipelines ](https://www.reddit.com/r/MachineLearning/comments/17k6iha/d_relevance_extraction_in_rag_pipelines/) , 2023-11-02-0909
+MachineLearning -  [ [D] Relevance Extraction in RAG Pipelines ](https://www.reddit.com/r/MachineLearning/comments/17k6iha/d_relevance_extraction_in_rag_pipelines/) , 2023-11-03-0909
 ```
 I came across this interesting problem in RAG, what I call **Relevance Extraction**.
 
@@ -1608,7 +2382,7 @@ system or not.
 
      
  
-MachineLearning -  [ [R] Model Troubles ](https://www.reddit.com/r/MachineLearning/comments/17ikh2u/r_model_troubles/) , 2023-11-02-0909
+MachineLearning -  [ [R] Model Troubles ](https://www.reddit.com/r/MachineLearning/comments/17ikh2u/r_model_troubles/) , 2023-11-03-0909
 ```
 So i’m working on a model that diagnoses alzheimer’s disease and suggests medication depending on how severe the symptom
 s might have become 
@@ -1627,7 +2401,7 @@ Edit: I didn’t choose this project my
 
      
  
-MachineLearning -  [ [P] NexaAgent: A highly efficient multi-task PDF tool for all your needs | backed by AutoGen ](https://www.reddit.com/r/MachineLearning/comments/17eajz2/p_nexaagent_a_highly_efficient_multitask_pdf_tool/) , 2023-11-02-0909
+MachineLearning -  [ [P] NexaAgent: A highly efficient multi-task PDF tool for all your needs | backed by AutoGen ](https://www.reddit.com/r/MachineLearning/comments/17eajz2/p_nexaagent_a_highly_efficient_multitask_pdf_tool/) , 2023-11-03-0909
 ```
 Just a quick open-source project recently submitted to huggingface backed by AutoGen. Share this initial version with yo
 u guys!
@@ -1650,7 +2424,7 @@ vb1.jpg?width=1440&format=pjpg&auto=webp&s=1c5fbc566938d60d5c43802aff3a0690821e1
 
      
  
-MachineLearning -  [ [D] Is lang chain the right solution? ](https://www.reddit.com/r/MachineLearning/comments/17coyym/d_is_lang_chain_the_right_solution/) , 2023-11-02-0909
+MachineLearning -  [ [D] Is lang chain the right solution? ](https://www.reddit.com/r/MachineLearning/comments/17coyym/d_is_lang_chain_the_right_solution/) , 2023-11-03-0909
 ```
 Hello, I would love to have an LLm that can provide answers (in chat format) based some of the sql db  data we have. Wan
 t it for an internal company project. I am by no means an expert but decent in programming and want to build a system to
@@ -1664,7 +2438,7 @@ Please suggest any other solutions. Also would Langchain being a company and
 
      
  
-MachineLearning -  [ [P] building a D&D NPC ](https://www.reddit.com/r/MachineLearning/comments/17clyw6/p_building_a_dd_npc/) , 2023-11-02-0909
+MachineLearning -  [ [P] building a D&D NPC ](https://www.reddit.com/r/MachineLearning/comments/17clyw6/p_building_a_dd_npc/) , 2023-11-03-0909
 ```
 Hey everyone,
 
@@ -1700,7 +2474,7 @@ If I posted in the wrong group please direct
 
      
  
-MachineLearning -  [ [D] Exploring Methods to Improve Text Chunking in RAG Models (and other things...) ](https://www.reddit.com/r/MachineLearning/comments/179j7l3/d_exploring_methods_to_improve_text_chunking_in/) , 2023-11-02-0909
+MachineLearning -  [ [D] Exploring Methods to Improve Text Chunking in RAG Models (and other things...) ](https://www.reddit.com/r/MachineLearning/comments/179j7l3/d_exploring_methods_to_improve_text_chunking_in/) , 2023-11-03-0909
 ```
 Hello everyone,
 
@@ -1740,7 +2514,7 @@ Thanks in advance for your time!
 
      
  
-MachineLearning -  [ [News] AI & ML conference in San Francisco [Special discount code for this subreddit] ](https://www.reddit.com/r/MachineLearning/comments/1771m35/news_ai_ml_conference_in_san_francisco_special/) , 2023-11-02-0909
+MachineLearning -  [ [News] AI & ML conference in San Francisco [Special discount code for this subreddit] ](https://www.reddit.com/r/MachineLearning/comments/1771m35/news_ai_ml_conference_in_san_francisco_special/) , 2023-11-03-0909
 ```
 I work for this database company SingleStore and we are hosting a AI & ML conference in San Francisco on 17th of October
 , 2023.
@@ -1761,7 +2535,7 @@ nal ticket price is $199)
 
      
  
-MachineLearning -  [ [D] Best way to validate llm prompts? ](https://www.reddit.com/r/MachineLearning/comments/176vnxh/d_best_way_to_validate_llm_prompts/) , 2023-11-02-0909
+MachineLearning -  [ [D] Best way to validate llm prompts? ](https://www.reddit.com/r/MachineLearning/comments/176vnxh/d_best_way_to_validate_llm_prompts/) , 2023-11-03-0909
 ```
 We have a platform for data analytics which uses a very simple dsl to generate charts.  
 We have been experimenting with
@@ -1786,7 +2560,7 @@ robably don't want to train another model to classify the prompt as valid or inv
 
      
  
-MachineLearning -  [ [P] Retrieval augmented generation with OpenSearch and reranking [Video tutorial] ](https://www.reddit.com/r/MachineLearning/comments/16zouad/p_retrieval_augmented_generation_with_opensearch/) , 2023-11-02-0909
+MachineLearning -  [ [P] Retrieval augmented generation with OpenSearch and reranking [Video tutorial] ](https://www.reddit.com/r/MachineLearning/comments/16zouad/p_retrieval_augmented_generation_with_opensearch/) , 2023-11-03-0909
 ```
 I created a video tutorial that tries to demonstrate that semantic search (using embeddings) is not always necessary for
  RAG (retrieval augmented generation). It was inspired by the following Cohere blog post: [https://txt.cohere.com/rerank
@@ -1806,7 +2580,7 @@ Video link: https://youtu.be/OsE7YcDcPz0
 
      
  
-deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain ](https://www.reddit.com/r/deeplearning/comments/179vvou/error_with_mistral_7b_model_in/) , 2023-11-02-0909
+deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain ](https://www.reddit.com/r/deeplearning/comments/179vvou/error_with_mistral_7b_model_in/) , 2023-11-03-0909
 ```
  I'm encountering an issue while using the Mistral 7B model in a ConversationalRetrievalChain. When I input a question, 
 such as 'What is the highest GDP?', I receive an error and after that the model generates a random response as output wh
@@ -1933,7 +2707,7 @@ faiss-cpu
 
      
  
-deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain. ](https://www.reddit.com/r/deeplearning/comments/179vsif/error_with_mistral_7b_model_in/) , 2023-11-02-0909
+deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain. ](https://www.reddit.com/r/deeplearning/comments/179vsif/error_with_mistral_7b_model_in/) , 2023-11-03-0909
 ```
 I'm encountering an issue while using the Mistral 7B model in a ConversationalRetrievalChain. When I input a question, s
 uch as 'What is the highest GDP?', I receive an error and after that the model generates a random response as output whi
@@ -2116,7 +2890,7 @@ Python version: 3.11.4 Relevant libraries and versions: langchain ctransformers 
 
      
  
-deeplearning -  [ Free courses to learn about Large Language Models and building AI projects ](https://www.reddit.com/r/deeplearning/comments/178zu2u/free_courses_to_learn_about_large_language_models/) , 2023-11-02-0909
+deeplearning -  [ Free courses to learn about Large Language Models and building AI projects ](https://www.reddit.com/r/deeplearning/comments/178zu2u/free_courses_to_learn_about_large_language_models/) , 2023-11-03-0909
 ```
 [**LangChain for LLM Application Development by Andrew Ng**](https://www.deeplearning.ai/short-courses/langchain-for-llm
 -application-development/): Apply LLMs to your proprietary data to build personal assistants and specialized chatbots. 
@@ -2144,7 +2918,7 @@ ity for LLM practitioners.
 
      
  
-deeplearning -  [ AutoGen from Microsoft ](https://www.reddit.com/r/deeplearning/comments/170hke6/autogen_from_microsoft/) , 2023-11-02-0909
+deeplearning -  [ AutoGen from Microsoft ](https://www.reddit.com/r/deeplearning/comments/170hke6/autogen_from_microsoft/) , 2023-11-03-0909
 ```
 AI agents are AI systems that can exhibit capabilities such as conducting conversations, completing tasks, reasoning, an
 d seamlessly interacting with humans. 
