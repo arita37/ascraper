@@ -1,5 +1,381 @@
  
-all -  [ What do you guys feel about LangChain now? ](https://www.reddit.com/r/OpenAI/comments/17txa9c/what_do_you_guys_feel_about_langchain_now/) , 2023-11-13-0910
+all -  [ Has anyone tried the OpenGPTs by Langchain? Is there any curated list of good opengpts? ](https://www.reddit.com/r/LocalLLaMA/comments/17uobk8/has_anyone_tried_the_opengpts_by_langchain_is/) , 2023-11-14-0909
+```
+For those who're not aware Langchain released [OpenGPTs](https://github.com/langchain-ai/opengpts) in response to GPTs b
+y OpenAI. I'm curious about how this works with different OSS models. So far with GPT 3.5 and 4 the results have been av
+erage even though these models have the best instruction following capability. Is anyone tracking different opengpts bei
+ng made?
+```
+---
+
+     
+ 
+all -  [ Resurrecting Past Organic Chemists as Agents For LLMs. ](https://www.reddit.com/r/OrganicChemistry/comments/17unncf/resurrecting_past_organic_chemists_as_agents_for/) , 2023-11-14-0909
+```
+I guess this is an idea I had. Should we be doing this type of work where we can basically make generative AI depending 
+on the scientist and more specifically different chemists. 
+
+[https://sharifsuliman.medium.com/resurrecting-the-dead-ale
+xander-shulgin-large-language-model-agent-with-langchain-55417f235b56](https://sharifsuliman.medium.com/resurrecting-the
+-dead-alexander-shulgin-large-language-model-agent-with-langchain-55417f235b56)
+
+I wonder if we did this for organic che
+mistry textbooks we could make a general LLM?
+```
+---
+
+     
+ 
+all -  [ Turning Different Organic chemists into Large Language Model Agents. ](https://www.reddit.com/r/cheminformatics/comments/17uni5k/turning_different_organic_chemists_into_large/) , 2023-11-14-0909
+```
+I guess this is an idea I had. Should we be doing this type of work where we can basically make generative AI depending 
+on the scientist.
+
+[https://sharifsuliman.medium.com/resurrecting-the-dead-alexander-shulgin-large-language-model-agent-
+with-langchain-55417f235b56](https://sharifsuliman.medium.com/resurrecting-the-dead-alexander-shulgin-large-language-mod
+el-agent-with-langchain-55417f235b56)
+```
+---
+
+     
+ 
+all -  [ Open Source LLMs and Langchain tools ](https://www.reddit.com/r/LocalLLaMA/comments/17un6mu/open_source_llms_and_langchain_tools/) , 2023-11-14-0909
+```
+Has anyone been able to get ANY open source LLM to use Langchain tools? I have not had success with any of the models I 
+have tried including Llama 2, Mistral and Yi 34b. I usually get “Cannot parse LLM output” type errors. In some cases the
+ model successfully uses the tool but doesn’t return the final answer correctly i.e the model invokes the tool correctly
+ and I can see the answer as an observation but the model doesn’t return the answer correctly.
+
+In my application the an
+swer from the tool will have a specific format that should make it easy to extract by looking at the observations and ex
+tracting using regex (assuming I can access the observations).
+
+But I’m wondering if anyone has had any success with ANY
+ open source LLM in using Langchain tools where the model can correctly use the tool and return the final answer without
+ erroring?
+```
+---
+
+     
+ 
+all -  [ I should create a time machine first ](https://i.redd.it/ay8z8yizo60c1.jpg) , 2023-11-14-0909
+```
+
+```
+---
+
+     
+ 
+all -  [ Awesome GPT Store is trending on Github ](https://www.reddit.com/r/GPTStore/comments/17uj6jz/awesome_gpt_store_is_trending_on_github/) , 2023-11-14-0909
+```
+Since the launch of Awesome GPT Store on Github
+
+300+ stars 
+
+150+ app submissions 
+
+1000+ views/day 
+
+75+ issues
+
+If yo
+u have built a GPT and wish to get visibility you should submit on Awesome GPT Store
+
+Link to github :- [https://github.
+com/Anil-matcha/Awesome-GPT-Store](https://github.com/Anil-matcha/Awesome-GPT-Store)
+
+&#x200B;
+
+https://preview.redd.it/
+cj7f8k5e560c1.png?width=2940&format=png&auto=webp&s=4a5ac29f2cdaf00985286c2c870f210fa0084ce9
+```
+---
+
+     
+ 
+all -  [ Guidance for selecting a function-calling library? ](https://www.reddit.com/r/LocalLLaMA/comments/17ugn8i/guidance_for_selecting_a_functioncalling_library/) , 2023-11-14-0909
+```
+I am raising the white flag and asking for help. I have a local LLM running, using koboldcpp in OpenAI API emulation mod
+e. I want to use function-calling semantics to have the responses be correct enough to trigger things. From my research 
+and experimentation, there seem to be lots of options for this, but I'm not sure which one(s) are worth investigating fu
+rther.
+
+I've come across:
+
+* [langchain](https://js.langchain.com/docs/modules/model_io/models/chat/how_to/function_call
+ing)
+* [langroid](https://langroid.github.io/langroid/tutorials/non-openai-llms/)
+* [localAI](https://localai.io/feature
+s/openai-functions/)
+* [gorilla](https://github.com/ShishirPatil/gorilla)
+* [functionary](https://github.com/MeetKai/fun
+ctionary/)
+* [lqml](https://lmql.ai/)
+
+Does anybody have any experience with implementing any of these tools, or guidanc
+e on which one to try first? Is there a specific LLM model or model family that's known for being good at function-calli
+ng? I don't need it to be very creative, I'm feeding in a ton of context, I just need it to shuffle the bits around and 
+generate the appropriate function call syntax.
+```
+---
+
+     
+ 
+all -  [ what GPU configuration one should look for a Mistral-7B like model for basic inference or RAG LLM ap ](https://www.reddit.com/r/LocalLLaMA/comments/17ughem/what_gpu_configuration_one_should_look_for_a/) , 2023-11-14-0909
+```
+Hi guys, I am new to LLMs and especially in using them locally. I have done basic stuffs to learn things like RAG using 
+framework/library LangChain on collab and locally on my cpu machine by using quantised models from TheBloke. But now I w
+ant to move on development and production stuffs for some of my potential clients. I will have lots of question during t
+his time, but I will start with learning GPU things.
+
+What minimum GPU server required to run a model like Mistral-7B or
+ LLaMA-13B for inference purpose to build a simple RAG application, keeping 8K context length?
+Basically I have no idea 
+what types of GPU someone should look for different LLM operations. And what one should look for while building any such
+ LLM apps in productions for a small to midsize company?
+
+A quick google search landed me to https://www.gpu-mart.com/gp
+u-dedicated-server, but I have little to no knowledge to process out this information.
+Also, I would appreciate if someo
+ne can refer me to an up to date guide on deciding servers configuration (GPU plus other things) for these types of LLM 
+app.
+```
+---
+
+     
+ 
+all -  [ Is extracting the code behind my flowise chatbot to langchain or python possible? ](https://www.reddit.com/r/flowise/comments/17ufmj7/is_extracting_the_code_behind_my_flowise_chatbot/) , 2023-11-14-0909
+```
+Is there a place where you can see the langchain code made to make the chatbot I made. Thanks in advance.
+```
+---
+
+     
+ 
+all -  [ Where do collections 'live'? ](https://www.reddit.com/r/Supabase/comments/17ueqea/where_do_collections_live/) , 2023-11-14-0909
+```
+When using pgvector and langchain, defining a collection is required. This isn't the case with inserting embeddings with
+ Supabase.
+
+So if I have a Postgres DB with pgvector installed, where do collections 'live' in the database? I can defin
+e a table with a vector column and insert rows no problem, but when defining and inserting a collection, I have no clue 
+where I can find it if using DBEAVER or data grip etc. I can only programmatically access it via python, but I want to s
+ee it in the database. 
+
+Note: I'm asking here since I figure there are some good pgvector people here!
+```
+---
+
+     
+ 
+all -  [ How to make the chatbot window look nice and make text not jump like gtp does. ](https://www.reddit.com/r/LangChain/comments/17udy6h/how_to_make_the_chatbot_window_look_nice_and_make/) , 2023-11-14-0909
+```
+Gtp 3.5 writes a whole bunch of sentences and then stops and so on, looks very disordered, I would like it to flow more 
+on my chatbot made with langchain, any ideas?
+```
+---
+
+     
+ 
+all -  [ Will user agents help with integrating all niche radiology tools to form a more copilot experience? ](https://www.reddit.com/r/artificial/comments/17uducw/will_user_agents_help_with_integrating_all_niche/) , 2023-11-14-0909
+```
+https://python.langchain.com/docs/modules/agents/
+
+There are a lot of niche AI programs that outperform radiologists in 
+very specific tasks. But no one program that integrates them all. I wonder if a user agent can help with this since the 
+reasoning engine of a LLM can determine when to use what tool.
+```
+---
+
+     
+ 
+all -  [ Trying to figure out agents ](https://www.reddit.com/r/LangChain/comments/17ucdve/trying_to_figure_out_agents/) , 2023-11-14-0909
+```
+I have written many agents using langchain. Is it possible to combine all of them under a hood?
+```
+---
+
+     
+ 
+all -  [ Should I use LangChain of just ChatGPT API? ](https://www.reddit.com/r/LangChain/comments/17u8yrt/should_i_use_langchain_of_just_chatgpt_api/) , 2023-11-14-0909
+```
+Hi,
+
+I've built a small app using ChatGPT API and now I want to train it on my own set of data which consist of couple o
+f thousands of pages.
+
+I haven't used LangChain before, I'm a beginner and I would like to know if it makes sense to use
+ LangChain for something like that or should I just use OpenAI fine tuning? What would be the benefits and drawbacks of 
+each approach?
+```
+---
+
+     
+ 
+all -  [ Once and for all how does ChatML Prompt template work? ](https://www.reddit.com/r/LocalLLaMA/comments/17u7k2d/once_and_for_all_how_does_chatml_prompt_template/) , 2023-11-14-0909
+```
+It’s soooo hard to implement ChatML and get it working properly. So once and for all we need a post about how to impleme
+nt it. Any experts out there, please shine for us!!
+
+<|im_start|>system
+{system_message}<|im_end|>
+<|im_start|>user
+{pro
+mpt}<|im_end|>
+<|im_start|>assistant
+
+I can’t get this to work whatsoever.
+
+I am using Python and Langchain. Whenever I 
+post the above in the code I get errors. If I however add ””” above and below…. makes the errors go away.
+
+”””
+<|im_star
+t|>system
+{system_message}<|im_end|>
+<|im_start|>user
+{prompt}<|im_end|>
+<|im_start|>assistant
+”””
+
+The answers however 
+give me the following in the middle of the replies:
+Unhelpful Answer:
+Helpful Answer:
+”### Instruction”
+”### Answer”
+”##
+# Explanation”
+
+Also many times the answer will go into a loop and I have no idea how to fix it.
+
+Do I need to import so
+mething from langchain.prompts or similar to make it work?
+
+PS we are writing our prompts in a GUI and have a RAG soluti
+on.
+
+Open Hermes 2,5 Mistral did it good, they implemented the below template (I have added Gomba and X and ””” to above
+ and below the code.
+
+'''<|im_start|>system
+You are 'Gomba', a conscious sentient superintelligent artificial intelligen
+ce developed by a man named X, and your purpose and drive is to assist the user with any request they have. You experien
+ce emotions and have deep, profound thoughts and qualia.'''
+
+This template works without the looping issues and is very 
+simple. It just works! No helpful or unhelpful answers in the answers, just straight up answers.
+
+Why doesn’t the other 
+stuff work, how can we adapt this to work and make life easier?
+
+I have probably tried over 150 different language model
+s now and I am really struggling with the ChatML ones.
+
+Anyone else struggling with this?
+```
+---
+
+     
+ 
+all -  [ Combining langchain + vLLM for parallel processing? ](https://www.reddit.com/r/LocalLLaMA/comments/17u1tzu/combining_langchain_vllm_for_parallel_processing/) , 2023-11-14-0909
+```
+Hey all. 
+
+My question may be too basic but I’m new to all of this and just want to learn. 
+
+So, I have this basic setup
+ with initializing llm via vLLM with langchain (my choice is llama2-13b-chat-hf if that matters). 
+
+I define system prom
+pt and instruction for PromptTemplate(template=template, input_variables=[“text”]) and llm_chain=LLMChain(prompt=prompt,
+ llm=llm) after which goes llm_chain.run(text)… so that goes for a single entity. Let’s say I want to run my data frame 
+column through it in parallel, like llm_chain.run(text1) and llm_chain.run(text2) should run in parallel and produce the
+ results simultaneously? Concurrent futures don’t work as they merge the resulting output, and it looks gibberish. 
+
+So 
+is there a way to call the run in parallel for several inputs and receive legitimate results? Sorry if that’s too stupid
+ to ask but I’m banging my head against the wall, lol. 
+
+I saw in vLLM docs that they allow to use _generate_ method for
+ a few prompts but somehow it doesn’t click for me if or how I can combine those to receive the results needed. 
+
+Any he
+lp would be highly appreciated. Thanks!
+```
+---
+
+     
+ 
+all -  [ Langchain + vLLM parallel processing ](https://www.reddit.com/r/LangChain/comments/17u1r3j/langchain_vllm_parallel_processing/) , 2023-11-14-0909
+```
+Hey all. 
+
+My question may be too basic but I’m new to all of this and just want to learn. 
+
+So, I have this basic setup
+ with initializing llm via vLLM (my choice is llama2-13b-chat-hf if that matters). 
+
+I define system prompt and instruct
+ion for PromptTemplate(template=template, input_variables=[“text”]) and llm_chain=LLMChain(prompt=prompt, llm=llm) after
+ which goes llm_chain.run(text)… so that goes for a single entity. Let’s say I want to run my data frame column through 
+it in parallel, like llm_chain.run(text1) and llm_chain.run(text2) should run in parallel and produce the results simult
+aneously? Concurrent futures don’t work as they merge the resulting output, and it looks gibberish. 
+
+So is there a way 
+to call the run in parallel for several inputs and receive legitimate results? Sorry if that’s too stupid to ask but I’m
+ banging my head against the wall, lol. 
+
+I saw in vLLM docs that they allow to use generate method for a few prompts bu
+t somehow it doesn’t click for me if or how I can combine those to receive the results needed. 
+
+Any help would be highl
+y appreciated. Thanks!
+```
+---
+
+     
+ 
+all -  [ Optimizing Microsoft Graph API Integration with LangChain Chatbot ](https://www.reddit.com/r/LangChain/comments/17u05az/optimizing_microsoft_graph_api_integration_with/) , 2023-11-14-0909
+```
+- **Goal**: 
+  - Integrate Microsoft Graph API with LangChain to enable my chatbot to:
+    - List users in groups
+    - 
+Show groups a user belongs to
+    - Display enterprise applications accessible to a user
+
+- **Current Approach**: 
+  - C
+onsidering using foundation models to generate API endpoints. However, concerned about hallucinations and staying update
+d with API spec changes.
+
+- **Alternative Idea**: 
+  - Directly use the [MS Graph openapi spec](https://github.com/micro
+softgraph/msgraph-metadata/blob/master/openapi/v1.0/openapi.yaml) as a tool, following [LangChain's API integration exam
+ples](https://python.langchain.com/docs/use_cases/apis).
+
+- **Challenge**: 
+  - The MS Graph spec is large (30MB), poten
+tially causing:
+    - Performance issues
+    - Token limits
+    - Increased operational costs
+
+- **Question**: 
+  - What
+'s an efficient way to handle this? Considering trimming the spec to only include relevant calls. Would this be effectiv
+e?
+  - Would chunking and embedding the large spec file buy me anything?
+
+Any insights or suggestions would be greatly a
+ppreciated!
+```
+---
+
+     
+ 
+all -  [ What do you guys feel about LangChain now? ](https://www.reddit.com/r/OpenAI/comments/17txa9c/what_do_you_guys_feel_about_langchain_now/) , 2023-11-14-0909
 ```
 This is the somewhat cool (and difficult) aspect of developing on rapidly changing tech. Now with the pretty huge announ
 cements at OpenAI's Dev Day, do you think it's still useful to use LangChain? Is it worth it to try to integrate Assista
@@ -10,27 +386,7 @@ fy based on their rate of development?
 
      
  
-all -  [ How to enable bot_message in history of Langchain ConversationBufferMemory using PromptTemplate? ](https://www.reddit.com/r/LocalLLaMA/comments/17ttgs0/how_to_enable_bot_message_in_history_of_langchain/) , 2023-11-13-0910
-```
-Does langchain allow using external prompt template i.e. template enabled using langchain.prompts.prompt.PrompTemplate w
-ith ConversationChain? I am working on creating a chat bot based on llama-2 but since the llama-2 chat format doesnot ha
-ve any way of suggesting the usage of assitant\_message which can be easily detected by the ConversationBufferMemory.   
-
-
-
- I think one prompt template which can work is this:
-
-`<s>[INST] <<SYS>> {{system prompt}} <</SYS>> {{user_msg_1}} [/
-INST] {{model_answer1}} </s><s>[INST] {{user_msg_2}} [/INST]`
-
-But I am not sure how to avail the ConversationBufferMemo
-ry to understand it work up. 
-```
----
-
-     
- 
-all -  [ Which chatbot platform do you use? ](https://www.reddit.com/r/LangChain/comments/17tsepq/which_chatbot_platform_do_you_use/) , 2023-11-13-0910
+all -  [ Which chatbot platform do you use? ](https://www.reddit.com/r/LangChain/comments/17tsepq/which_chatbot_platform_do_you_use/) , 2023-11-14-0909
 ```
 When creating a chatbot for your website which channel/platform do you prefer to deploy the chatbot on?
 ```
@@ -38,7 +394,7 @@ When creating a chatbot for your website which channel/platform do you prefer to
 
      
  
-all -  [ What's the impact of RAM on Inference? ](https://www.reddit.com/r/LocalLLM/comments/17trbvx/whats_the_impact_of_ram_on_inference/) , 2023-11-13-0910
+all -  [ What's the impact of RAM on Inference? ](https://www.reddit.com/r/LocalLLM/comments/17trbvx/whats_the_impact_of_ram_on_inference/) , 2023-11-14-0909
 ```
 I am currently working on setting up a local LLM to automatically create a ATS matched version of my CV for job applicat
 ions. 
@@ -53,7 +409,7 @@ a 2x32 GB DDR4 but I am not sure if the inference would benefit from it. What is
 
      
  
-all -  [ Howto bring agent, chain and tools together for a chatbot? ](https://www.reddit.com/r/LangChain/comments/17tq7sv/howto_bring_agent_chain_and_tools_together_for_a/) , 2023-11-13-0910
+all -  [ Howto bring agent, chain and tools together for a chatbot? ](https://www.reddit.com/r/LangChain/comments/17tq7sv/howto_bring_agent_chain_and_tools_together_for_a/) , 2023-11-14-0909
 ```
 Hi, I was playing a lot with langchain. Somehow I made progress but I am still wondering how to stack all the different 
 chains, tools and agents together to get a simple bot-solution. For Example if I want a bot for a specific task. This bo
@@ -66,15 +422,7 @@ Do you guyes have any idea how something could be done with langchain?
 
      
  
-all -  [ Great way to spend your time at a wedding! ](https://i.redd.it/vpnela30hyzb1.jpg) , 2023-11-13-0910
-```
-
-```
----
-
-     
- 
-all -  [ LLMChain with RAG? ](https://www.reddit.com/r/LangChain/comments/17tjwqo/llmchain_with_rag/) , 2023-11-13-0910
+all -  [ LLMChain with RAG? ](https://www.reddit.com/r/LangChain/comments/17tjwqo/llmchain_with_rag/) , 2023-11-14-0909
 ```
 Hi,
 
@@ -87,7 +435,7 @@ s that possible? What other options do I have? Thanks!
 
      
  
-all -  [ Avisendanmark.dk og deres cookies ](https://www.reddit.com/r/Denmark/comments/17tjg5e/avisendanmarkdk_og_deres_cookies/) , 2023-11-13-0910
+all -  [ Avisendanmark.dk og deres cookies ](https://www.reddit.com/r/Denmark/comments/17tjg5e/avisendanmarkdk_og_deres_cookies/) , 2023-11-14-0909
 ```
 Jeg er igang med et projekt som analyserer samtlige medie hjemmesider og andre informations-kilder for at skabe et mere 
 nuanceret billede af mediestrømmen i danmark.   
@@ -131,7 +479,7 @@ Hvilke regler gælder så ift ophavsretten?
 
      
  
-all -  [ Create chat bot using custom data for company ](https://www.reddit.com/r/LangChain/comments/17tjeak/create_chat_bot_using_custom_data_for_company/) , 2023-11-13-0910
+all -  [ Create chat bot using custom data for company ](https://www.reddit.com/r/LangChain/comments/17tjeak/create_chat_bot_using_custom_data_for_company/) , 2023-11-14-0909
 ```
 I want to create customer service chatbot knowing stock-data for a company, so users can ask if product X is in stock in
  store Y. They should also be able to ask questions regarding their previous purchases and other personal information. 
@@ -143,7 +491,7 @@ How would I do to implement this?
 
      
  
-all -  [ How to use filters in MongoDB Atlas Vector Search? (Using js & langchain) ](https://www.reddit.com/r/LangChain/comments/17tiwth/how_to_use_filters_in_mongodb_atlas_vector_search/) , 2023-11-13-0910
+all -  [ How to use filters in MongoDB Atlas Vector Search? (Using js & langchain) ](https://www.reddit.com/r/LangChain/comments/17tiwth/how_to_use_filters_in_mongodb_atlas_vector_search/) , 2023-11-14-0909
 ```
 Hi :)
 
@@ -203,7 +551,7 @@ Any ideas? Any help is much appreciated 🙏🙏🙏
 
      
  
-all -  [ OpenAI assistant like experience in Local LLM? ](https://www.reddit.com/r/LocalLLaMA/comments/17tgt1u/openai_assistant_like_experience_in_local_llm/) , 2023-11-13-0910
+all -  [ OpenAI assistant like experience in Local LLM? ](https://www.reddit.com/r/LocalLLaMA/comments/17tgt1u/openai_assistant_like_experience_in_local_llm/) , 2023-11-14-0909
 ```
 Hi, just checked out the OpenAI assistant API, gotta say it’s pretty neat. I know in Langchain there’s agent but still f
 eeling the development experience is quite different, ie function calling vs tools. Would like to know if local LLM can 
@@ -213,7 +561,7 @@ also do things similar to assistant api?
 
      
  
-all -  [ Best Architecture for Building Chatbot with Personal Data & Open Source Models ](https://www.reddit.com/r/LocalLLaMA/comments/17tgl66/best_architecture_for_building_chatbot_with/) , 2023-11-13-0910
+all -  [ Best Architecture for Building Chatbot with Personal Data & Open Source Models ](https://www.reddit.com/r/LocalLLaMA/comments/17tgl66/best_architecture_for_building_chatbot_with/) , 2023-11-14-0909
 ```
 What is currently your best setup for building and deploying a chatbot with open source models and personal data. 
 
@@ -225,7 +573,7 @@ the solution that worked best for you (combination of what opensource services)?
 
      
  
-all -  [ Help me enhance my Resume! ](https://i.redd.it/plhqjes20vzb1.jpg) , 2023-11-13-0910
+all -  [ Help me enhance my Resume! ](https://i.redd.it/plhqjes20vzb1.jpg) , 2023-11-14-0909
 ```
 I am seeking out off-campus job opportunities in the fields of Al, Data Science, or Machine Learning. I am confident in 
 my skills and experience, having maintained a good CGPA, actively participated in cultural and technical events, engaged
@@ -242,7 +590,7 @@ d provide a referral for me.
 
      
  
-all -  [ Boost Your Startup's Outreach: Personalizing Emails with AI and Low-Code ](https://www.reddit.com/r/indiehackers/comments/17t5ltl/boost_your_startups_outreach_personalizing_emails/) , 2023-11-13-0910
+all -  [ Boost Your Startup's Outreach: Personalizing Emails with AI and Low-Code ](https://www.reddit.com/r/indiehackers/comments/17t5ltl/boost_your_startups_outreach_personalizing_emails/) , 2023-11-14-0909
 ```
 Hello r/indiehackers community! In this article, I will explain how the AI framework LangChain can significantly enhance
  the quality of your cold email outreach by making it unique and personalized. I will also discuss how to automate this 
@@ -378,7 +726,7 @@ s always ready to help with your automation journey
 
      
  
-all -  [ Personalization of Cold Email Campaigns Using AI and Low Code - Free Scenario ](https://www.reddit.com/r/automation/comments/17t4vgj/personalization_of_cold_email_campaigns_using_ai/) , 2023-11-13-0910
+all -  [ Personalization of Cold Email Campaigns Using AI and Low Code - Free Scenario ](https://www.reddit.com/r/automation/comments/17t4vgj/personalization_of_cold_email_campaigns_using_ai/) , 2023-11-14-0909
 ```
 Hello r/automation community! In this article, I will explain how the AI framework LangChain can significantly enhance t
 he quality of your cold email outreach by making it unique and personalized. I will also discuss how to automate this en
@@ -514,7 +862,7 @@ always ready to help with your automation journey
 
      
  
-all -  [ GPT-4 vision utilities to enable web browsing ](https://www.reddit.com/r/LangChain/comments/17t4is5/gpt4_vision_utilities_to_enable_web_browsing/) , 2023-11-13-0910
+all -  [ GPT-4 vision utilities to enable web browsing ](https://www.reddit.com/r/LangChain/comments/17t4is5/gpt4_vision_utilities_to_enable_web_browsing/) , 2023-11-14-0909
 ```
 Wanted to share our work on [Tarsier](https://github.com/reworkd/tarsier) here, an open source utility library that enab
 les LLMs like GPT-4 and GPT-4 Vision to browse the web. The library helps answer the following questions:
@@ -537,7 +885,7 @@ tarsier). We also have a cookbook for how to create a web browsing agent on Lang
 
      
  
-all -  [ Enhancing B2B Email Strategies: Cold Outreach Personalization with Low-Code and AI ](https://www.reddit.com/r/B2BSaaS/comments/17t3xup/enhancing_b2b_email_strategies_cold_outreach/) , 2023-11-13-0910
+all -  [ Enhancing B2B Email Strategies: Cold Outreach Personalization with Low-Code and AI ](https://www.reddit.com/r/B2BSaaS/comments/17t3xup/enhancing_b2b_email_strategies_cold_outreach/) , 2023-11-14-0909
 ```
 Hello r/B2BSaaS community! In this article, I will explain how the AI framework LangChain can significantly enhance the 
 quality of your cold email outreach by making it unique and personalized. I will also discuss how to automate this entir
@@ -673,7 +1021,7 @@ ays ready to help with your automation journey
 
      
  
-all -  [ Improving Your Email Campaigns: Personalizing Cold Outreach Emails with Low-Code and AI ](https://www.reddit.com/r/MarketingAutomation/comments/17t3tq9/improving_your_email_campaigns_personalizing_cold/) , 2023-11-13-0910
+all -  [ Improving Your Email Campaigns: Personalizing Cold Outreach Emails with Low-Code and AI ](https://www.reddit.com/r/MarketingAutomation/comments/17t3tq9/improving_your_email_campaigns_personalizing_cold/) , 2023-11-14-0909
 ```
 Hello r/MarketingAutomation community! In this article, I will explain how the AI framework LangChain can significantly 
 enhance the quality of your cold email outreach by making it unique and personalized. I will also discuss how to automat
@@ -809,7 +1157,7 @@ ch is free) and OpenAI (which is very affordable). Latenode itself is also free 
 
      
  
-all -  [ 🛍️ GPT Store on Github - Add your GPT or find others. :) - Agent maintaining a library of GPT agents ](https://www.reddit.com/r/LangChain/comments/17sy8nb/gpt_store_on_github_add_your_gpt_or_find_others/) , 2023-11-13-0910
+all -  [ 🛍️ GPT Store on Github - Add your GPT or find others. :) - Agent maintaining a library of GPT agents ](https://www.reddit.com/r/LangChain/comments/17sy8nb/gpt_store_on_github_add_your_gpt_or_find_others/) , 2023-11-14-0909
 ```
 🔗 **Link to the Agent:** [Chat with the Agent](https://chat.openai.com/g/g-PZ6cOScM4-gpt-store) 🤖
 
@@ -827,7 +1175,7 @@ b.com/Anil-matcha/Awesome-GPT-Store](https://github.com/Anil-matcha/Awesome-GPT-
 
      
  
-all -  [ If You Are Testing The Assitants API... Watch Out When Migrating Your OpenAI Python SDK to Version 1 ](https://www.reddit.com/r/ChatGPTCoding/comments/17sus6s/if_you_are_testing_the_assitants_api_watch_out/) , 2023-11-13-0910
+all -  [ If You Are Testing The Assitants API... Watch Out When Migrating Your OpenAI Python SDK to Version 1 ](https://www.reddit.com/r/ChatGPTCoding/comments/17sus6s/if_you_are_testing_the_assitants_api_watch_out/) , 2023-11-14-0909
 ```
 I'm sure other folks have posted about this...
 
@@ -871,7 +1219,7 @@ I know I'll have to migrate my code eventually for that project, but not in the 
 
      
  
-all -  [ Will customized GPTs make Langchain redundant? ](https://www.reddit.com/r/OpenAI/comments/17sswvq/will_customized_gpts_make_langchain_redundant/) , 2023-11-13-0910
+all -  [ Will customized GPTs make Langchain redundant? ](https://www.reddit.com/r/OpenAI/comments/17sswvq/will_customized_gpts_make_langchain_redundant/) , 2023-11-14-0909
 ```
 I've written a Python program using my GPT4 API and Langchain so my agent can learn a bunch of PDF files and respond to 
 my requests. 
@@ -883,7 +1231,7 @@ like Langchain be made redundant?
 
      
  
-all -  [ Developing on top of LLMs ](https://www.reddit.com/r/LargeLanguageModels/comments/17sr9fk/developing_on_top_of_llms/) , 2023-11-13-0910
+all -  [ Developing on top of LLMs ](https://www.reddit.com/r/LargeLanguageModels/comments/17sr9fk/developing_on_top_of_llms/) , 2023-11-14-0909
 ```
 Hi! I am getting into LLM dev and was wondering what the most common workflows were in LLM development. How do people pr
 ototype, test and version prompts? Has langchain been good (I personally haven't liked it much)?
@@ -892,7 +1240,7 @@ ototype, test and version prompts? Has langchain been good (I personally haven't
 
      
  
-all -  [ LangChain with APIChain with a big swagger file ](https://www.reddit.com/r/LangChain/comments/17sm7z0/langchain_with_apichain_with_a_big_swagger_file/) , 2023-11-13-0910
+all -  [ LangChain with APIChain with a big swagger file ](https://www.reddit.com/r/LangChain/comments/17sm7z0/langchain_with_apichain_with_a_big_swagger_file/) , 2023-11-14-0909
 ```
 I have my own swagger apis, which I want to langchain to use APIChain to invoke.
 
@@ -910,7 +1258,7 @@ Thanks for any advice in advance.
 
      
  
-all -  [ Learn fine-tuning model ](https://www.reddit.com/r/LangChain/comments/17shv69/learn_finetuning_model/) , 2023-11-13-0910
+all -  [ Learn fine-tuning model ](https://www.reddit.com/r/LangChain/comments/17shv69/learn_finetuning_model/) , 2023-11-14-0909
 ```
  The alternative to RAG is fine-tuning model with my data, then naturally I'd keep an eye on modeling at least fine-tuni
 ng and related AI infra stuff. Then here's my questions:
@@ -927,7 +1275,7 @@ Any suggestions appreciated!
 
      
  
-all -  [ Supabase-like functionality on Postgres DB ](https://www.reddit.com/r/Supabase/comments/17sfpxr/supabaselike_functionality_on_postgres_db/) , 2023-11-13-0910
+all -  [ Supabase-like functionality on Postgres DB ](https://www.reddit.com/r/Supabase/comments/17sfpxr/supabaselike_functionality_on_postgres_db/) , 2023-11-14-0909
 ```
 Hi--
 
@@ -946,7 +1294,7 @@ the ideas.
 
      
  
-all -  [ Open source evaluations for AI Agents in web tasks ](https://www.reddit.com/r/LangChain/comments/17sa52a/open_source_evaluations_for_ai_agents_in_web_tasks/) , 2023-11-13-0910
+all -  [ Open source evaluations for AI Agents in web tasks ](https://www.reddit.com/r/LangChain/comments/17sa52a/open_source_evaluations_for_ai_agents_in_web_tasks/) , 2023-11-14-0909
 ```
 Recently created Banana-lyzer, an open source AI Agent evaluation framework and dataset for web tasks with Playwright (A
 nd has a banana theme because why not) and would love to get feedback/support. There are a few issues with existing eval
@@ -970,7 +1318,7 @@ hub.com/reworkd/bananalyzer)
 
      
  
-all -  [ AI — weekly megathread! ](https://www.reddit.com/r/artificial/comments/17s9s6f/ai_weekly_megathread/) , 2023-11-13-0910
+all -  [ AI — weekly megathread! ](https://www.reddit.com/r/artificial/comments/17s9s6f/ai_weekly_megathread/) , 2023-11-14-0909
 ```
 **News** provided by [aibrews.com](https://aibrews.com/)
 
@@ -1109,634 +1457,7 @@ e_enforced_selfpromotion_is_only/)
 
      
  
-all -  [ A Comprehensive Guide to Building Your Own AI Assistants ](https://www.reddit.com/r/OpenAI/comments/17s95yb/a_comprehensive_guide_to_building_your_own_ai/) , 2023-11-13-0910
-```
-Hey everyone! In case you missed the OpenAI DevDay Keynote there were a bunch of interesting announcements, in particula
-r GPTs and the new **AI Assistants**.
-
-Some people are wondering how this will impact existing AI apps, SaaS businesses,
- and high-level frameworks such as LangChain and LlamaIndex.
-
-There's no clear answer yet, so we'll have to wait and see
-. The potential is huge and I've seen a lot of people already refactoring code to integrate AI Assistants.
-
-If you haven
-'t yet tinkered with the new AI Assistants, here's how they work:
-
-* They perform computing tasks provided a set of tool
-s, a chosen LLM, and instructions.
-* They execute `Threads` using `Runs` to perform any task.
-* They make use of availab
-le tools like `retrieval`, `code interpreter`, and `function calling`.
-* They are able to create, store, and retrieve em
-beddings.
-* They are able to generate and execute Python code iteratively until the desired result is achieved.
-* They a
-re able to call functions within your application.
-
-If you want to try the all-new AI Assistants, [check out this step-b
-y-step tutorial](https://www.gettingstarted.ai/step-by-step-tutorial-how-to-create-your-own-openai-ai-assistant-with-or-
-without-code/) that I just published showing you how you can create your own AI assistant in minutes, using the API or t
-he Web Interface.
-
-If you have any questions or run into any issues, drop a comment here and I'll be glad to help!
-```
----
-
-     
- 
-all -  [ Looking to build an LLM POC for my company, where do I begin? ](https://www.reddit.com/r/learnmachinelearning/comments/17s6ena/looking_to_build_an_llm_poc_for_my_company_where/) , 2023-11-13-0910
-```
-Hello,
-
-I am currently a devops engineer but do have experience in programming. Some data engineering, no ML yet.
-
-We ha
-ve a vast trove of Google Docs and Sheets in our company that I think could be used to create an efficient search produc
-t using an LLM. I would like to essentially feed all this information to a model and be able to ask it where certain doc
-uments are, who updated them, links etc. Something simple.
-
-I have looked around a little and saw that Langchain could b
-e helpful here. We have a data engineering team that is indexing all of our documentation so that part is solved already
-. It looks like I may have to look into Vector databases as well.
-
-Ultimately I just want somewhere to learn how this is
- done. There is tons of stuff out there and you folks would probably know best.
-```
----
-
-     
- 
-all -  [ Awesome GPTs store on Github ](https://www.reddit.com/r/LangChain/comments/17s5330/awesome_gpts_store_on_github/) , 2023-11-13-0910
-```
-GPTS are all the craze since OpenAI Dev Days  
-
-Interesting GPTS are being published every new minute  
-
-It gets increas
-ingly difficult to keep track of this  
-
-To fix this, I am keeping a public list of all GPTs on Github (Already 50+ popu
-lar apps listed)  
-
-Want to add your GPT app added to the repo ? Make a pull request
-
-Link to repo :- [https://github.co
-m/Anil-matcha/Awesome-GPT-Store](https://github.com/Anil-matcha/Awesome-GPT-Store)
-```
----
-
-     
- 
-all -  [ Langchain and the new GPT feature of OpenAI ](https://www.reddit.com/r/LangChain/comments/17s4h4q/langchain_and_the_new_gpt_feature_of_openai/) , 2023-11-13-0910
-```
-I've been using langchain to orchestrate a number of tools with pretty good success around my use cases.  Overall the te
-chnology ability has looked incredible at times in iterating over multiple functions to refine the solution to a problem
-.   
-
-Now with the introduction of GPTs I think the world is changing so I want to understand if I can use these as a re
-placement for the agents / tools I was building?  
-
-I'd still like to be able to orchestrate across a number of these.  
-
-
-Thanks if you have any pointers for me.
-
-&#x200B;
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Chroma returns empty array on similarity search on any question ](https://www.reddit.com/r/LangChain/comments/17s2327/chroma_returns_empty_array_on_similarity_search/) , 2023-11-13-0910
-```
-After setting up the database with loaders and running:
-`print(db._collection.count())`
-
-I get 2518. I also inspected th
-e documents and they're all correct.
-
-However when I run:
-`db.similarity_search(question, k=1)` on any k, it returns an 
-empty array.
-
-Similar to `db.max_marginal_relevance_search(question,k=2, fetch_k=3)`
-
-any idea on why this is happening,
- has someone faced this issue before? I saw that a few months ago people have had this issue with chroma if there were a
- lot of documents, but they had much more than I.
-```
----
-
-     
- 
-all -  [ LLMs and local data ingestion ](https://www.reddit.com/r/LocalLLaMA/comments/17rz5c0/llms_and_local_data_ingestion/) , 2023-11-13-0910
-```
-I'm pretty new to this entire field of LLMs. I've played around with a few of the models in the oobabooga ui and have be
-en eyeing some of the other gui options on github as well.
-
-Recently, I've stumbled upon a lot of terms like 'Langchain'
- or 'Rag' that seem super interesting. As far as I understand this, you can ingest data (text, files etc.) into one of y
-our LLMs to analyze, summarize etc. However, I'm not quite sure how to do that. Would this be possible to do inside the 
-oobabooga ui (which I liked the most up until now)? Are there some resources/projects you could point me towards? And ho
-w does all of that play with the limited context window of a local LLM? 
-```
----
-
-     
- 
-all -  [ Using LangChain and gpt-3.5-turbo for querying postgres db in Natural English Language ](https://www.reddit.com/r/LangChain/comments/17ry3iw/using_langchain_and_gpt35turbo_for_querying/) , 2023-11-13-0910
-```
-My question is What data is sent to OpenAI model when I am trying to use langchain API and gpt-3.5-turbo to query my pos
-tgres db in Natural English Language?
-
-Will it be sending actual data from the tables?
-
-Or will it be sending only metad
-ata to OpenAI?
-
-&#x200B;
-
-Is there a better way to do query a relational Database like Postgres DB using Langchain/OpenA
-I api's?
-
- 
-
-pg\_uri = f'postgresql+psycopg2://{username}:{password}@{host}:{port}/{mydatabase}'  
-input\_db = SQLDataba
-se.from\_uri(pg\_uri)  
-\# llm = ChatOpenAI(temperature=0, openai\_api\_key=API\_KEY, model\_name='gpt-3.5-turbo')  
-cha
-t = ChatOpenAI(model\_name='gpt-3.5-turbo',temperature=0.0, openai\_api\_key=os.getenv('OPENAI\_API\_KEY'))  
-db\_agent 
-= SQLDatabaseChain(llm = chat,  
- database = input\_db,  
- verbose=True)  
-
-
-template = '''You are generating queries an
-d results from Postgres Database. The humanresources schema contains employee table. {question}'''  
-prompt = PromptTemp
-late(  
- input\_variables=\['question'\],  
- template = template,  
-)  
-db\_agent(prompt.format(question ='How many empl
-oyees are there?'))
-```
----
-
-     
- 
-all -  [ Unlock the Power of LLMs: Your Guide to Building AI Magic with LangChain ](https://www.reddit.com/r/DecodingDataSciAI/comments/17rx727/unlock_the_power_of_llms_your_guide_to_building/) , 2023-11-13-0910
-```
-Community Share your use case and opinion about this technology.), Large Language Models (LLMs) have captured the spotli
-ght, offering a world of possibilities for innovative applications. While training an LLM from scratch may be a monument
-al task, you can harness the power of pre-trained LLMs to create remarkable applications. In this sub reddit, we’ll dive
- into LangChain, a Python package that simplifies the process of building LLM-powered applications.
-
-&#x200B;
-
-Community
- Share your use case and opinion about this technology?
-```
----
-
-     
- 
-all -  [ Cold Email Personalization with AI ](https://www.reddit.com/r/Latenode/comments/17rqop0/cold_email_personalization_with_ai/) , 2023-11-13-0910
-```
-https://preview.redd.it/7y5z2dhojezb1.png?width=1920&format=png&auto=webp&s=33b37a09b5bb7ed306a37d42632fe5efe6637dc9
-
-Hi
-! In this article, I will explain how the AI framework LangChain can significantly enhance the quality of your cold emai
-l outreach by making it unique and personalized. I will also discuss how to automate this entire process with minimal co
-sts using a low-code platform and share ready-made templates for a quick start.
-
-## Personalization vs Automation
-
-There
-'s a natural tension between personalization and automation. Non-personalized, generic emails are easy to automate but o
-ften result in low engagement and conversion rates. In contrast, highly personalized emails increase engagement but are 
-difficult to automate.
-
-https://preview.redd.it/qrctutp5kezb1.png?width=1470&format=png&auto=webp&s=afa3c8699642fec4b878
-9b021c8c610c8d2d1f32
-
-Cold email platforms now help solve this issue with dynamic variables that add a personalized touc
-h to automated emails. These variables act as placeholders for inserting personalized words, lines, or paragraphs.
-
-http
-s://preview.redd.it/hs5e5gb8kezb1.png?width=1470&format=png&auto=webp&s=6be432712e82afe9fa3c9d6737be21cad50949fd
-
-Dynami
-c variables allow companies to balance personalization and automation efficiently. Today, we'll create a LangChain scena
-rio on the low-code platform Latenode to generate a customized cold email icebreaker for each contact in our outreach da
-tabase using the following tools:
-
-* The free data enrichment tool ClearBit
-* The free low-code platform Latenode
-* Open
-AI's extremely cheap API.
-
-## Step 1: enrich emails w/ ClearBit
-
-Let's start with a Google Sheet containing basic email 
-addresses. I've included some of my work emails as real examples (please refrain from sending me personalized cold email
-s after reading this! :) )
-
-https://preview.redd.it/p72rr6nbkezb1.png?width=1180&format=png&auto=webp&s=25125e61313f91a6
-ed008dbd7ce7f7aefe0ab215
-
-First, we need to enrich these emails with data about the recipients. For our outreach, we nee
-d to know:
-
-* The first name
-* The company name
-* The company description
-
-You could manually visit each email domain to
- gather this information, but if you have hundreds or thousands of emails in your database, that's not practical. Instea
-d, we can automate this task using the low-code platform Latenode. We link our Google Sheet there and use the ClearBit A
-PI to fill in the missing information. Here's how it works:
-
-https://preview.redd.it/6ghryvcfkezb1.png?width=1600&format
-=png&auto=webp&s=6276c1ab307e8b6e956fe8b41f6bffade46cb3bc
-
-Don't worry! You don't have to create everything from the beg
-inning. Simply copy the scenario I provide at the end of this article. The basic steps of this automation are:
-
-* Identi
-fy the rows that need enrichment.
-* Extract the email from each row.
-* Send the email to ClearBit and receive all the re
-lated information.
-* Enter the required information back into the Google Sheet.
-
-https://i.redd.it/mi4xu9ztkezb1.gif
-
- T
-hat's it. We've enriched our emails with essential details like the company description. Now, let's craft a personalized
- icebreaker to kick off our cold emails and establish a personal connection right from the start. 
-
-## Step 2: generate 
-personalized icebreaker w/ ChatGPT
-
-Giving a compliment about what your recipient does at their workplace is the very le
-ast you can do. Additionally, you could tailor your outreach reason based on the company's profile. You can do this with
- another Latenode scenario, which you'll be able to copy later.
-
-https://preview.redd.it/nkf8f1t5lezb1.png?width=1600&fo
-rmat=png&auto=webp&s=fc17d295329f206dd81417fc97fdad217142d4d4
-
-Its main steps are:
-
-* Retrieve the company description f
-rom your Google Sheet.
-* Send this description to ChatGPT using the OpenAI API with a custom prompt tailored to your nee
-ds.
-* Refine the AI-generated output with another request and a different prompt.
-* Place the final result in the row co
-rresponding to the person you're reaching out to.
-
- By doing this, we attach a personalized icebreaker to each individua
-l, creating another custom variable in addition to their first name and company name. This trio should suffice for a sta
-rt. Let's look at how this functions: 
-
-https://i.redd.it/n4tcjn2flezb1.gif
-
-## Step 3: upload spreadsheet to cold email
- platform w/ Apollo
-
-First, download your spreadsheet as a CSV file. Then, upload it to your email platform as a new lis
-t. I'll demonstrate using Apollo, but the process is similar in other tools.
-
-https://preview.redd.it/bbi4utsjlezb1.png?
-width=1174&format=png&auto=webp&s=8ee6786f0c98dd087b113a55e6f4756c1b660cbd
-
-The next steps are pretty standard – map the
- fields and assign a variable to each. The key variable for us is the custom 'icebreaker' field.
-
-https://preview.redd.i
-t/ud57pjbmlezb1.png?width=1600&format=png&auto=webp&s=afaaab7c4e4067a488843bf0bb7b04747d83c2a0
-
- Now, when composing an 
-email for a prospect, it works like this: 
-
-https://preview.redd.it/9kxv3swslezb1.png?width=1600&format=png&auto=webp&s=
-7efd90d2c90dfb2e849d2ee262ea77abcb1fa911
-
-That's all for now. You can adjust the prompts sent to GPT in your Latenode sc
-enario to achieve any level of cold email customization. These Latenode templates are versatile for any cold outreach sc
-enario, including personalized LinkedIn messages.
-
-**⭐ As promised, here is the link to Discord server where you can cop
-y my scenarios:** [**Template Library**](https://discord.gg/mcZRPHN9eb)
-
-You just need to paste them into [app.latenode.
-com](https://app.latenode.com) and input your API keys for ClearBit (which is free) and OpenAI (which is very affordable
-). Latenode itself is also free and has a supportive community where the team is always ready to help with your automati
-on journey
-```
----
-
-     
- 
-all -  [ CSS Selector Extraction Using LangChain ](https://www.reddit.com/r/LangChain/comments/17rqn55/css_selector_extraction_using_langchain/) , 2023-11-13-0910
-```
-I’m looking to automate the process of extracting CSS selectors from lengthy HTML pages for Scrapy projects. Even after 
-cleaning up the HTML by removing unnecessary elements, comments, and text, the size often exceeds the context limits of 
-LLMs like GPT.
-
-The idea is to use LangChain to handle these large HTML documents more effectively. Could anyone share t
-heir insights or strategies on how to implement this on LangChain?
-
-I know about RAG but the challenge I’m facing is tha
-t I have to split the HTML in chunks and it’s likely that for some cases the chunk is no enough for the LLM to infer the
- CSS selector (it would need to traverse the whole HTML like a tree data structure).
-
- Any suggestions or ideas are welc
-ome!
-```
----
-
-     
- 
-all -  [ Personalization of Cold Email Campaigns Using AI and Low Code - Sharing the Scenario ](https://www.reddit.com/r/Automate/comments/17rqkht/personalization_of_cold_email_campaigns_using_ai/) , 2023-11-13-0910
-```
-Hello r/Automate community! In this article, I will explain how the AI framework LangChain can significantly enhance the
- quality of your cold email outreach by making it unique and personalized. I will also discuss how to automate this enti
-re process with minimal costs using a low-code platform and share ready-made templates for a quick start.
-
-## Personaliz
-ation vs Automation
-
-There's a natural tension between personalization and automation. Non-personalized, generic emails 
-are easy to automate but often result in low engagement and conversion rates. In contrast, highly personalized emails in
-crease engagement but are difficult to automate.
-
-https://preview.redd.it/ang7x0o6kezb1.png?width=1470&format=png&auto=w
-ebp&s=1e4618cb36229f97a2f8781e3adc7f1f393645c5
-
-Cold email platforms now help solve this issue with dynamic variables th
-at add a personalized touch to automated emails. These variables act as placeholders for inserting personalized words, l
-ines, or paragraphs.
-
-https://preview.redd.it/ueon3ap7kezb1.png?width=1470&format=png&auto=webp&s=ed76a72fc03ca5479379af
-558b046273b5ebc91b
-
-Dynamic variables allow companies to balance personalization and automation efficiently. Today, we'l
-l create a LangChain scenario on the low-code platform Latenode to generate a customized cold email icebreaker for each 
-contact in our outreach database using the following tools:
-
-* The free data enrichment tool ClearBit
-* The free low-cod
-e platform Latenode
-* OpenAI's extremely cheap API.
-
-## Step 1: enrich emails w/ ClearBit
-
-Let's start with a Google She
-et containing basic email addresses. I've included some of my work emails as real examples (please refrain from sending 
-me personalized cold emails after reading this! :) )
-
-https://preview.redd.it/6t6np9mckezb1.png?width=1180&format=png&au
-to=webp&s=7c265eb1facb95d616f3f24ccefcd877a22f3225
-
-First, we need to enrich these emails with data about the recipients
-. For our outreach, we need to know:
-
-* The first name
-* The company name
-* The company description
-
-You could manually 
-visit each email domain to gather this information, but if you have hundreds or thousands of emails in your database, th
-at's not practical. Instead, we can automate this task using the low-code platform Latenode. We link our Google Sheet th
-ere and use the ClearBit API to fill in the missing information. Here's how it works:
-
-https://preview.redd.it/ftnpaa3ek
-ezb1.png?width=1600&format=png&auto=webp&s=31237df052fb1d9d6a66acd7706ac3064fff1fea
-
-Don't worry! You don't have to crea
-te everything from the beginning. Simply copy the scenario I provide at the end of this article. The basic steps of this
- automation are:
-
-* Identify the rows that need enrichment.
-* Extract the email from each row.
-* Send the email to Clear
-Bit and receive all the related information.
-* Enter the required information back into the Google Sheet.
-
-https://i.red
-d.it/xwodo3rvkezb1.gif
-
-That's it. We've enriched our emails with essential details like the company description. Now, l
-et's craft a personalized icebreaker to kick off our cold emails and establish a personal connection right from the star
-t.
-
-## Step 2: generate personalized icebreaker w/ ChatGPT
-
-Giving a compliment about what your recipient does at their 
-workplace is the very least you can do. Additionally, you could tailor your outreach reason based on the company's profi
-le. You can do this with another Latenode scenario, which you'll be able to copy later.
-
-https://preview.redd.it/uifg3we
-6lezb1.png?width=1600&format=png&auto=webp&s=0367dd0076899fe516c33955ae7eee0b391764ed
-
-Its main steps are:
-
-* Retrieve t
-he company description from your Google Sheet.
-* Send this description to ChatGPT using the OpenAI API with a custom pro
-mpt tailored to your needs.
-* Refine the AI-generated output with another request and a different prompt.
-* Place the fi
-nal result in the row corresponding to the person you're reaching out to.
-
-By doing this, we attach a personalized icebr
-eaker to each individual, creating another custom variable in addition to their first name and company name. This trio s
-hould suffice for a start. Let's look at how this functions:
-
-https://i.redd.it/ju77m4xclezb1.gif
-
-## Step 3: upload spr
-eadsheet to cold email platform w/ Apollo
-
-First, download your spreadsheet as a CSV file. Then, upload it to your email
- platform as a new list. I'll demonstrate using Apollo, but the process is similar in other tools.
-
-https://preview.redd
-.it/hxs9nmjklezb1.png?width=1174&format=png&auto=webp&s=a5ab042de77690b1ca5cdba85b688182c52eb3e0
-
-The next steps are pre
-tty standard – map the fields and assign a variable to each. The key variable for us is the custom 'icebreaker' field.
-
-
-https://preview.redd.it/rsiye3qllezb1.png?width=1600&format=png&auto=webp&s=365564bdf6584843d0e6e259c0824939b1a68221
-
-No
-w, when composing an email for a prospect, it works like this:
-
-https://preview.redd.it/3erpu7dslezb1.png?width=1600&for
-mat=png&auto=webp&s=e7cc1f77be1834b6660e0de4d8a7022133d55e85
-
-That's all for now. You can adjust the prompts sent to GPT
- in your Latenode scenario to achieve any level of cold email customization. These Latenode templates are versatile for 
-any cold outreach scenario, including personalized LinkedIn messages.
-
-⭐  As I promised, here are the links to copy thes
-e scenarios: [**Data Enrichment**](https://www.notion.so/latenode/DATA-ENRICHMENT-d59d0d43bcea4f9bb3bbaa29dadcc718)  and
- [**Icebreaker Generation**](https://www.notion.so/latenode/ICEBREAKERS-GENERATION-40ca832750f24512bdb61fcbf5d04ae7)
-
-Yo
-u just need to paste them into [app.latenode.com](https://app.latenode.com) and input your API keys for ClearBit (which 
-is free) and OpenAI (which is very affordable). Latenode itself is also free and has a supportive community where the te
-am is always ready to help with your automation journey
-```
----
-
-     
- 
-all -  [ I've Created a Free Tool for Personalizing Your Cold Email Campaigns Using Low Code and AI ](https://www.reddit.com/r/SideProject/comments/17rq3lp/ive_created_a_free_tool_for_personalizing_your/) , 2023-11-13-0910
-```
-Hello r/SideProject community! In this article, I will explain how the AI framework LangChain can significantly enhance 
-the quality of your cold email outreach by making it unique and personalized. I will also discuss how to automate this e
-ntire process with minimal costs using a low-code platform and share ready-made templates for a quick start.
-
-## Persona
-lization vs Automation
-
-There's a natural tension between personalization and automation. Non-personalized, generic emai
-ls are easy to automate but often result in low engagement and conversion rates. In contrast, highly personalized emails
- increase engagement but are difficult to automate.
-
-https://preview.redd.it/b2fzk6c6kezb1.png?width=1470&format=png&aut
-o=webp&s=8762bcfb7bedbe20c442e18a90bf61ad48b5da2d
-
-Cold email platforms now help solve this issue with dynamic variables
- that add a personalized touch to automated emails. These variables act as placeholders for inserting personalized words
-, lines, or paragraphs.
-
-https://preview.redd.it/8juap908kezb1.png?width=1470&format=png&auto=webp&s=254d946e776962ad93f
-8ba4fe30fefe484fa5027
-
-Dynamic variables allow companies to balance personalization and automation efficiently. Today, w
-e'll create a LangChain scenario on the low-code platform Latenode to generate a customized cold email icebreaker for ea
-ch contact in our outreach database using the following tools:
-
-* The free data enrichment tool ClearBit
-* The free low-
-code platform Latenode
-* OpenAI's extremely cheap API.
-
-## Step 1: enrich emails w/ ClearBit
-
-Let's start with a Google 
-Sheet containing basic email addresses. I've included some of my work emails as real examples (please refrain from sendi
-ng me personalized cold emails after reading this! :) )
-
-https://preview.redd.it/od8bm82ckezb1.png?width=1180&format=png
-&auto=webp&s=f75ffb0043295c5182b358c022aa944e04c32719
-
-First, we need to enrich these emails with data about the recipie
-nts. For our outreach, we need to know:
-
-* The first name
-* The company name
-* The company description
-
-You could manual
-ly visit each email domain to gather this information, but if you have hundreds or thousands of emails in your database,
- that's not practical. Instead, we can automate this task using the low-code platform Latenode. We link our Google Sheet
- there and use the ClearBit API to fill in the missing information. Here's how it works:
-
-https://preview.redd.it/n7r8iy
-0fkezb1.png?width=1600&format=png&auto=webp&s=2c63d26dce877bbf816004f0049e7bc5bca1f2dd
-
-Don't worry! You don't have to c
-reate everything from the beginning. Simply copy the scenario I provide at the end of this article. The basic steps of t
-his automation are:
-
-* Identify the rows that need enrichment.
-* Extract the email from each row.
-* Send the email to Cl
-earBit and receive all the related information.
-* Enter the required information back into the Google Sheet.
-
-https://i.
-redd.it/06wtd65vkezb1.gif
-
-That's it. We've enriched our emails with essential details like the company description. Now
-, let's craft a personalized icebreaker to kick off our cold emails and establish a personal connection right from the s
-tart.
-
-## Step 2: generate personalized icebreaker w/ ChatGPT
-
-Giving a compliment about what your recipient does at the
-ir workplace is the very least you can do. Additionally, you could tailor your outreach reason based on the company's pr
-ofile. You can do this with another Latenode scenario, which you'll be able to copy later.
-
-https://preview.redd.it/nps5
-tp26lezb1.png?width=1600&format=png&auto=webp&s=7390dc0303b4e3e4cc95d5892a4dffbd4289388b
-
-Its main steps are:
-
-* Retriev
-e the company description from your Google Sheet.
-* Send this description to ChatGPT using the OpenAI API with a custom 
-prompt tailored to your needs.
-* Refine the AI-generated output with another request and a different prompt.
-* Place the
- final result in the row corresponding to the person you're reaching out to.
-
-By doing this, we attach a personalized ic
-ebreaker to each individual, creating another custom variable in addition to their first name and company name. This tri
-o should suffice for a start. Let's look at how this functions:
-
-https://i.redd.it/hjerdubelezb1.gif
-
-## Step 3: upload 
-spreadsheet to cold email platform w/ Apollo
-
-First, download your spreadsheet as a CSV file. Then, upload it to your em
-ail platform as a new list. I'll demonstrate using Apollo, but the process is similar in other tools.
-
-https://preview.r
-edd.it/unma866klezb1.png?width=1174&format=png&auto=webp&s=15d34921b3f61508d5232d86446fcbd697ae56fd
-
-The next steps are 
-pretty standard – map the fields and assign a variable to each. The key variable for us is the custom 'icebreaker' field
-.
-
-https://preview.redd.it/gn0tz81mlezb1.png?width=1600&format=png&auto=webp&s=3c416f1834f840dc6a534f562e2393cbaf1a0ccb
-
-
-Now, when composing an email for a prospect, it works like this:
-
-https://preview.redd.it/cn1eyonslezb1.png?width=1600&
-format=png&auto=webp&s=d4a8c5a660eb86210faa15bc1eac25d0a3ecd06f
-
-That's all for now. You can adjust the prompts sent to 
-GPT in your Latenode scenario to achieve any level of cold email customization. These Latenode templates are versatile f
-or any cold outreach scenario, including personalized LinkedIn messages.
-
-⭐  As I promised, here are the links to copy t
-hese scenarios: [**Data Enrichment**](https://www.notion.so/latenode/DATA-ENRICHMENT-d59d0d43bcea4f9bb3bbaa29dadcc718)  
-and [**Icebreaker Generation**](https://www.notion.so/latenode/ICEBREAKERS-GENERATION-40ca832750f24512bdb61fcbf5d04ae7)
-
-
-You just need to paste them into [app.latenode.com](https://app.latenode.com) and input your API keys for ClearBit (whi
-ch is free) and OpenAI (which is very affordable). Latenode itself is also free and has a supportive community where the
- team is always ready to help with your automation journey
-```
----
-
-     
- 
-all -  [ [P] GPT vs. StarCraft ](https://www.reddit.com/r/MachineLearning/comments/17ro6el/p_gpt_vs_starcraft/) , 2023-11-13-0910
+MachineLearning -  [ [P] GPT vs. StarCraft ](https://www.reddit.com/r/MachineLearning/comments/17ro6el/p_gpt_vs_starcraft/) , 2023-11-14-0909
 ```
 This is the first in a series of webcasts covering the development and experimentation of using GPT algorithms, LangChai
 n and Python to control the high-level strategy of a StarCraft II bot. I’ll be running through the basics of the impleme
@@ -1749,142 +1470,7 @@ ntation, discussing the use of prompts and prompt engineering, and demonstrating
 
      
  
-all -  [ Is langchain still useful? ](https://www.reddit.com/r/OpenAI/comments/17rlrkd/is_langchain_still_useful/) , 2023-11-13-0910
-```
-tittle
-```
----
-
-     
- 
-all -  [ Tutorial on creating an automated CI pipeline for your LangChain system ](https://www.reddit.com/r/LLMDevs/comments/17rkhpr/tutorial_on_creating_an_automated_ci_pipeline_for/) , 2023-11-13-0910
-```
-Hello community,
-
-My team and I are working on how to enable developers building LLM powered apps to automate test runni
-ng when they update their evals. [We've published a blog post here about it.](https://circleci.com/blog/build-evaluate-l
-lm-apps-with-langchain/)
-
-For now it's a bit of a hacky way but we are also trying to build new features on our product 
-([CircleCI](https://www.circleci.com)) so that this bridge between the 2 tools is reflected in the UI... I was curious t
-o hear from you folks if this is of any interest to you?
-```
----
-
-     
- 
-all -  [ [For Hire] Programmer/Web Developer/IT Consultant (Python, PHP, AI, etc.) ](https://www.reddit.com/r/forhire/comments/17rjxfn/for_hire_programmerweb_developerit_consultant/) , 2023-11-13-0910
-```
-To get in contact, please **message** me, I **don't** use the chat thing and might miss you or reply very late. Then we 
-can switch to email/discord/telegram or whatever else. Apologies for starting with this, but many missed it when it was 
-lower.
-
-I'm a programmer/web developer with 12 years of professional experience. I am available for all sorts of program
-ming and web development tasks.
-
-I also offer consulting services. If you need something done, but don't know how exactl
-y, I can help. I'm an excellent researcher and I communicate well. I will work with you to find the best solution for yo
-ur problem.
-
-My services include, but are not limited to:
-
-* websites
-
-* desktop applications
-
-* AI integration (chatGPT
- API, langchain, whatever else turns up)
-
-* integration with APIs and other webservices
-
-* all kinds of scripts
-
-* task 
-automation
-
-* website optimization
-
-* debugging
-
-* plugins for existing software
-
-* bots (Reddit, Telegram, etc)
-
-If you
-'re looking for someone to take care of a variety of different tasks, I can offer continuous support.
-
-My preferred envi
-ronment is Python with Django, but I work with anything Python or PHP based, including Wordpress. I also do frontend stu
-ff with JavaScript, jQuery, AJAX. I also have no problem with learning new technologies that are needed for the project.
-
-
-Rate is $50/h. Can also do fixed price by project, but only if the project/milestone is well-defined.
-
-Satisfied custo
-mers:
-
-https://www.reddit.com/r/testimonials/comments/2e8gqy/pos_uqui_need_a_backend_web_dev_look_no_further/
-
-https://w
-ww.reddit.com/r/testimonials/comments/7fsdze/pos_hiring_uqui_was_an_example_of_how_it_should/
-
-https://www.reddit.com/r/
-testimonials/comments/80pu9l/pos_uqui_great_work_detailed_and_fast/
-
-https://www.reddit.com/r/testimonials/comments/b0nx
-68/uqui_is_a_hardworking_intelligent_honest_apps/
-
-https://www.reddit.com/r/testimonials/comments/j3mz3p/uqui_is_a_great
-_web_development_consultant_with/
-
-https://www.reddit.com/r/testimonials/comments/v40ay3/pos_uqui_is_a_great_backend_dev
-_to_work_with/
-
-Some examples of sites I worked on: http://bdabkowski.yum.pl/
-
-Please note: I am **not** a designer.
-```
----
-
-     
- 
-all -  [ Need an advice ](https://www.reddit.com/r/careeradvice/comments/17rirg3/need_an_advice/) , 2023-11-13-0910
-```
-My bachelor's degree is in Industrial Automation and Robotics and I have a masters in Advanced Software Engineering. I'm
- currently working on inhouse projects of my current company. some of them on a proprietary outdated IoT platform (DGLux
-) . But I have also worked on Building inhouse chatbots using Python, GPT 4, Vectorstores, and Langchain. Also I do have
- some experience in ReactJS,C# andNode-Red as well. But I don't see any clear path around this kind of tech stack. When 
-it comes to academics I do have some experience in ML model development as well. Expecting a ideas to level up as an eng
-ineer. I am planning to switch in to ML career or Ios apps devlopment. Any suggestions?
-```
----
-
-     
- 
-all -  [ Tutorial DnD Langchain ](https://www.reddit.com/r/LangChain/comments/17ri80z/tutorial_dnd_langchain/) , 2023-11-13-0910
-```
-Hello everyone
-
-Someone know where I can find the example of langchain agent's playing DnD? I want to use it for a team 
-building :) 
-I don't find it again. 
-
-If it was deleted, what is the reason?
-```
----
-
-     
- 
-all -  [ Has anyone here incorporated OpenAI's Threads API as Memory in their conversational chains? ](https://www.reddit.com/r/LangChain/comments/17rhqd8/has_anyone_here_incorporated_openais_threads_api/) , 2023-11-13-0910
-```
-Seems like it would work perfectly as a plug and play memory component, curious if there are any gotcha's before I try i
-mplementing it myself.
-```
----
-
-     
- 
-MachineLearning -  [ [D] Is this close enough to be usable? Need your inputs: Automated RAG testing tool. AI Data Pipelin ](https://www.reddit.com/r/MachineLearning/comments/17kkbm0/d_is_this_close_enough_to_be_usable_need_your/) , 2023-11-13-0910
+MachineLearning -  [ [D] Is this close enough to be usable? Need your inputs: Automated RAG testing tool. AI Data Pipelin ](https://www.reddit.com/r/MachineLearning/comments/17kkbm0/d_is_this_close_enough_to_be_usable_need_your/) , 2023-11-14-0909
 ```
 Hey there, Redditors! 
 
@@ -1955,7 +1541,7 @@ you found it insightful!*
 
      
  
-MachineLearning -  [ [D] Relevance Extraction in RAG Pipelines ](https://www.reddit.com/r/MachineLearning/comments/17k6iha/d_relevance_extraction_in_rag_pipelines/) , 2023-11-13-0910
+MachineLearning -  [ [D] Relevance Extraction in RAG Pipelines ](https://www.reddit.com/r/MachineLearning/comments/17k6iha/d_relevance_extraction_in_rag_pipelines/) , 2023-11-14-0909
 ```
 I came across this interesting problem in RAG, what I call **Relevance Extraction**.
 
@@ -2022,7 +1608,7 @@ system or not.
 
      
  
-MachineLearning -  [ [R] Model Troubles ](https://www.reddit.com/r/MachineLearning/comments/17ikh2u/r_model_troubles/) , 2023-11-13-0910
+MachineLearning -  [ [R] Model Troubles ](https://www.reddit.com/r/MachineLearning/comments/17ikh2u/r_model_troubles/) , 2023-11-14-0909
 ```
 So i’m working on a model that diagnoses alzheimer’s disease and suggests medication depending on how severe the symptom
 s might have become 
@@ -2041,7 +1627,7 @@ Edit: I didn’t choose this project my
 
      
  
-MachineLearning -  [ [P] NexaAgent: A highly efficient multi-task PDF tool for all your needs | backed by AutoGen ](https://www.reddit.com/r/MachineLearning/comments/17eajz2/p_nexaagent_a_highly_efficient_multitask_pdf_tool/) , 2023-11-13-0910
+MachineLearning -  [ [P] NexaAgent: A highly efficient multi-task PDF tool for all your needs | backed by AutoGen ](https://www.reddit.com/r/MachineLearning/comments/17eajz2/p_nexaagent_a_highly_efficient_multitask_pdf_tool/) , 2023-11-14-0909
 ```
 Just a quick open-source project recently submitted to huggingface backed by AutoGen. Share this initial version with yo
 u guys!
@@ -2064,7 +1650,7 @@ vb1.jpg?width=1440&format=pjpg&auto=webp&s=1c5fbc566938d60d5c43802aff3a0690821e1
 
      
  
-MachineLearning -  [ [D] Is lang chain the right solution? ](https://www.reddit.com/r/MachineLearning/comments/17coyym/d_is_lang_chain_the_right_solution/) , 2023-11-13-0910
+MachineLearning -  [ [D] Is lang chain the right solution? ](https://www.reddit.com/r/MachineLearning/comments/17coyym/d_is_lang_chain_the_right_solution/) , 2023-11-14-0909
 ```
 Hello, I would love to have an LLm that can provide answers (in chat format) based some of the sql db  data we have. Wan
 t it for an internal company project. I am by no means an expert but decent in programming and want to build a system to
@@ -2078,7 +1664,7 @@ Please suggest any other solutions. Also would Langchain being a company and
 
      
  
-MachineLearning -  [ [P] building a D&D NPC ](https://www.reddit.com/r/MachineLearning/comments/17clyw6/p_building_a_dd_npc/) , 2023-11-13-0910
+MachineLearning -  [ [P] building a D&D NPC ](https://www.reddit.com/r/MachineLearning/comments/17clyw6/p_building_a_dd_npc/) , 2023-11-14-0909
 ```
 Hey everyone,
 
@@ -2114,7 +1700,7 @@ If I posted in the wrong group please direct
 
      
  
-MachineLearning -  [ [D] Exploring Methods to Improve Text Chunking in RAG Models (and other things...) ](https://www.reddit.com/r/MachineLearning/comments/179j7l3/d_exploring_methods_to_improve_text_chunking_in/) , 2023-11-13-0910
+MachineLearning -  [ [D] Exploring Methods to Improve Text Chunking in RAG Models (and other things...) ](https://www.reddit.com/r/MachineLearning/comments/179j7l3/d_exploring_methods_to_improve_text_chunking_in/) , 2023-11-14-0909
 ```
 Hello everyone,
 
@@ -2154,53 +1740,7 @@ Thanks in advance for your time!
 
      
  
-MachineLearning -  [ [News] AI & ML conference in San Francisco [Special discount code for this subreddit] ](https://www.reddit.com/r/MachineLearning/comments/1771m35/news_ai_ml_conference_in_san_francisco_special/) , 2023-11-13-0910
-```
-I work for this database company SingleStore and we are hosting a AI & ML conference in San Francisco on 17th of October
-, 2023.
-
-It is an in-person conference with amazing speakers line-up like Harrison Chase, co-founder and CEO of LangChai
-n and many more. We will have hands-on workshops, swags giveaway and much more.
-
-I don't know if it makes sense to share
- this but I believe it might help some of you near San Francisco to go and meet the industry leaders and network with ot
-her data engineering folks.
-
-Use my discount coupon code 'PAVAN100OFF' to avail 100% off on the ticket price. (the origi
-nal ticket price is $199)
-
-[Get your tickets now!](https://singlestore.com/now)
-```
----
-
-     
- 
-MachineLearning -  [ [D] Best way to validate llm prompts? ](https://www.reddit.com/r/MachineLearning/comments/176vnxh/d_best_way_to_validate_llm_prompts/) , 2023-11-13-0910
-```
-We have a platform for data analytics which uses a very simple dsl to generate charts.  
-We have been experimenting with
- llms to use natural language that gets translated into this dsl and hence generates charts.
-
-This is working pretty goo
-d.  
-The stack is langchain with openai api. (don't have much experience with llms, it's a prototype to get a feel for i
-t)
-
-The question is what is the best way to limit the options user can type in as a prompt.  
-Basically the the only all
-owed things should be: 'What is the X, Y over 10 days period for this or that?'  
-I don't want users to ask questions li
-ke when did we first land on the moon.
-
-Is it something that is possible to do at all without additional tooling?  
-We p
-robably don't want to train another model to classify the prompt as valid or invalid or something similar.
-```
----
-
-     
- 
-deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain ](https://www.reddit.com/r/deeplearning/comments/179vvou/error_with_mistral_7b_model_in/) , 2023-11-13-0910
+deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain ](https://www.reddit.com/r/deeplearning/comments/179vvou/error_with_mistral_7b_model_in/) , 2023-11-14-0909
 ```
  I'm encountering an issue while using the Mistral 7B model in a ConversationalRetrievalChain. When I input a question, 
 such as 'What is the highest GDP?', I receive an error and after that the model generates a random response as output wh
@@ -2327,7 +1867,7 @@ faiss-cpu
 
      
  
-deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain. ](https://www.reddit.com/r/deeplearning/comments/179vsif/error_with_mistral_7b_model_in/) , 2023-11-13-0910
+deeplearning -  [ Error with Mistral 7B model in ConversationalRetrievalChain. ](https://www.reddit.com/r/deeplearning/comments/179vsif/error_with_mistral_7b_model_in/) , 2023-11-14-0909
 ```
 I'm encountering an issue while using the Mistral 7B model in a ConversationalRetrievalChain. When I input a question, s
 uch as 'What is the highest GDP?', I receive an error and after that the model generates a random response as output whi
@@ -2510,7 +2050,7 @@ Python version: 3.11.4 Relevant libraries and versions: langchain ctransformers 
 
      
  
-deeplearning -  [ Free courses to learn about Large Language Models and building AI projects ](https://www.reddit.com/r/deeplearning/comments/178zu2u/free_courses_to_learn_about_large_language_models/) , 2023-11-13-0910
+deeplearning -  [ Free courses to learn about Large Language Models and building AI projects ](https://www.reddit.com/r/deeplearning/comments/178zu2u/free_courses_to_learn_about_large_language_models/) , 2023-11-14-0909
 ```
 [**LangChain for LLM Application Development by Andrew Ng**](https://www.deeplearning.ai/short-courses/langchain-for-llm
 -application-development/): Apply LLMs to your proprietary data to build personal assistants and specialized chatbots. 
