@@ -1,5 +1,205 @@
  
-all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-11-16-0910
+all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-11-17-0910
+```
+I have read many posts in this subreddit complaining about the lack of communications and results from DreamLab and the 
+teams behind the various projects. I must agree that these two are the most critical issues about DreamLab and the burde
+n of solving them shouldn't be given to the users. However I decided to write this post to give a better insight to what
+ DreamLab has achieved so far. While the results are far from being as much as those of F@H and BOINC, I think that ther
+e are some interesting one. Do note that I do not have a technical background, I do not belong to any scientific team th
+at worked on DreamLab projects, I'm just a user as you.
+
+&#x200B;
+
+Also, every paper I am going to link has been retriev
+ed through various research on Google Scholar. I do not claim for this to be an exhaustive list, but I tried my best: le
+t me know if you find any other paper and I will update the post.
+
+# Imperial College London
+
+**Corona-AI/DRUGS projects
+**
+
+* [HyperFoods: Machine intelligent mapping of cancer-beating molecules in foods](https://www.nature.com/articles/s41
+598-019-45349-y) (open access) published 03 July 2019 on Nature. This is probably the most important one: it is the most
+ read and the most cited one. It explains with detail how the first phase of the Corona project works and shows its resu
+lts. I have already seen this one being posted in this subreddit so you have probably already seen it.
+* [Learning Inter
+pretable Disease Self-Representations for Drug Repositioning](https://grlearning.github.io/papers/79.pdf) (open access) 
+published approx. September 2019 on NeurIPS 2019 Workshop 'Graph Representation Learning'. This paper has another versio
+n on arXiv (pre-print) but hasn't been published in any scientific journal. It looks like it is about the mathematic beh
+ind the projects.
+* [Auto-deconvolution and molecular networking of gas chromatography–mass spectrometry data](https://w
+ww.nature.com/articles/s41587-020-0700-3) (not open access) published 09 November 2020 on Nature. A pre-print version of
+ the paper can be read [here](https://www.biorxiv.org/content/10.1101/2020.01.13.905091v1.abstract).
+* [Network machine 
+learning maps phytochemically rich “Hyperfoods” to fight COVID-19](https://link.springer.com/article/10.1186/s40246-020-
+00297-x) (open access) published 02 January 2021 on Human Genomics. Another paper about Hyperfoods, more related on COVI
+D and not on cancer.
+* [Predicting anticancer hyperfoods with graph convolutional networks](https://humgenomics.biomedce
+ntral.com/articles/10.1186/s40246-021-00333-4) (open access) published 07 June 2021 on Human Genomics. Focused on the ma
+thematical aspects behind the projects, there is also an interesting list of  anticancer likeness of food molecules.
+* [
+Alzheimer’s disease: using gene/protein network machine learning for molecule discovery in olive oil](https://link.sprin
+ger.com/article/10.1186/s40246-023-00503-6) (open access) published 07 July 2023 on Human Genomics. I do not remember if
+ Alzheimer's disease was on the list of research area on the old DRUGS projects, maybe some older users knows more than 
+me. However the methodology is most likely the same. There is an interesting list of molecules present in olive oil that
+ could have benefits for the disease. The paper is limited by the fact that there are very few drugs on trial for this d
+isease.
+* [Genomic‑driven  nutritional interventions  for radiotherapy‑resistant rectal  cancer patient](https://www.nat
+ure.com/articles/s41419-023-06240-x) (open access) published 08 September 2023 on Nature. Again I do not remember if the
+ DRUGS project studied this particular disease, please let me know if anyone remember.
+* [Crosstalk with lung fibroblast
+s shapes the growth and therapeutic response of mesothelioma cells](https://www.nature.com/articles/s41419-023-06240-x) 
+(open access) published 08 November 2023 on Nature. Again as the one before.
+
+I expect for other papers to be published 
+in the future.
+
+BONUS: Cookbook
+
+* [English version](https://assets.ctfassets.net/q7ob9vms4z5k/1PoCOqtYr7QPuXdAYV4fr6/49
+9490b29ef6569253dff60fcab697d7/Vodafone_DreamLab_Antiviral_Foods_Cookbook.pdf)
+* [Italian version](https://www.vodafone.
+it/nw/content/dam/webaem/vodafone-italia/fondazione_vodafone/attivita/progetti/dreamlab/Pillow_recipes_Il_libro_delle_ri
+cette_DreamLab.pdf)
+
+**Long COVID**
+
+There are no paper yet about this project as it is still going. I'll keep the post 
+updated.
+
+&#x200B;
+
+**Tropical Cyclone Modelling**
+
+There are no paper yet about this project, however on [this link](ht
+tps://global.infrastructureresilience.org/view/hazard?y=null&x=null&z=null&sections=%7B%22hazards%22%3A%7B%22cyclone_iri
+s%22%3Atrue%7D%7D) that was posted two months ago there is written 'Manuscript submitted for publication', so I expect t
+hat at least one paper will be published in the next months. I will keep you updated.
+
+&#x200B;
+
+# Garvan Institute
+
+* [
+Network-aware mutation clustering  of cancer](https://www.biorxiv.org/content/10.1101/432872v1.full.pdf) (open access) p
+osted 08 October 2018 on bioRxiv. This is all I could find about Project Decode. Do note that this is just a pre-print v
+ersion and hasn't been peer-reviewed or published on a scientific journal. I have no information on why there is only a 
+pre-print, and the last news published on the Institute's website about DreamLab is [this one](https://www.garvan.org.au
+/news-resources/news/dreamlab-delivers-a-new-way-to-make-sense-of-cancer) from 2018. I couldn't find anything about Demi
+stify project that ended some time ago. If anyone has more info let me know.
+
+# AIRC
+
+I couldn't find any paper related 
+to DreamLab, however Cell Identity Hunter phase 2 is still going. The team behind the projects is still active, and the 
+last news (at least on the italian version of the app) is from 25 May 2023. AIRC is one of the biggest for cancer reaser
+ch in Italy, so I expect for something to be published in the future (possibly after 2024). I'll keep you updated.
+
+&#x2
+00B;
+
+Please notice that my research was definetely more focused on the DRUGS/CORONA-AI projects, so the results are def
+inetely biased. The fact that I couldn't find anything for the other projects doesn't necessarily mean that nothing has 
+been published yet, so don't be frustrated about it.
+```
+---
+
+     
+ 
+all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-11-17-0910
+```
+I'm currently in the process of building a feature selection framework for reinforcement learning.
+
+A. Here some previou
+s works that I have seen :
+
+1. [https://link.springer.com/chapter/10.1007/978-3-642-15880-3\_36](https://link.springer.c
+om/chapter/10.1007/978-3-642-15880-3_36)
+2. [https://ieeexplore.ieee.org/document/5381529](https://ieeexplore.ieee.org/d
+ocument/5381529)
+3. [https://ieeexplore.ieee.org/document/4543621](https://ieeexplore.ieee.org/document/4543621)
+4. [htt
+ps://www.researchgate.net/publication/221346040\_An\_analysis\_of\_linear\_models\_linear\_value-function\_approximation
+\_and\_feature\_selection\_for\_reinforcement\_learning](https://www.researchgate.net/publication/221346040_An_analysis_
+of_linear_models_linear_value-function_approximation_and_feature_selection_for_reinforcement_learning)
+5. [https://www.r
+esearchgate.net/publication/221345743\_Automatic\_basis\_function\_construction\_for\_approximate\_dynamic\_programming\
+_and\_reinforcement\_learning](https://www.researchgate.net/publication/221345743_Automatic_basis_function_construction_
+for_approximate_dynamic_programming_and_reinforcement_learning)
+6. [https://dl.acm.org/doi/10.1145/1273496.1273589](http
+s://dl.acm.org/doi/10.1145/1273496.1273589)
+
+B. Context :
+
+\--> I am experimenting with the non-continuous lunar lander 
+environment using gym library. And I want to add two additional features that are introduced as random noise, incrementi
+ng the observation space  to (8 + 2 ) = 10. I will then train my lunar lander using PPO algorithm, and use my feature se
+lection framework to rank them and select the original 8 features, i.e excluding noise. (2 features.)
+
+C. What do I need
+ help with ?
+
+\--> How should I be adding the noise ? Meaning what type of noise should be ideal for this ? I'm new to  
+RL, and hence still learning.
+
+D. What I have seen so far  on my own:
+
+\--> After scouring some google searches on ' how
+ to introduce noise in RL' lead me to other reddit posts, medium articles. I found that these lead me to the following t
+opics :
+
+1. Out-of-Distribution Detection in RL, Ex paper : [https://arxiv.org/abs/2004.14990](https://arxiv.org/abs/200
+4.14990), [https://arxiv.org/pdf/2112.02694.pdf](https://arxiv.org/pdf/2112.02694.pdf), [https://arxiv.org/abs/1210.4898
+](https://arxiv.org/abs/1210.4898),
+2. Introducing Noise for Exploration : [https://h2t.iar.kit.edu/pdf/Plappert2018.pdf
+](https://h2t.iar.kit.edu/pdf/Plappert2018.pdf), [https://proceedings.neurips.cc/paper/2016/file/8d8818c8e140c64c743113f
+563cf750f-Paper.pdf](https://proceedings.neurips.cc/paper/2016/file/8d8818c8e140c64c743113f563cf750f-Paper.pdf), [https:
+//arxiv.org/pdf/1706.10295.pdf](https://arxiv.org/pdf/1706.10295.pdf).
+
+Some additional questions :
+
+1. While searching 
+for  'How to add NOISE in RL' opened me up to a whole new world of types of NOISE. My goal is to : a. add noise in my ob
+servation space, b. possibly add a type of noise replicating real-world noise. (Most common ones I see are talking about
+ Gaussian noise).
+2. My feature selection framework accounts for implicit-state-reward dependency, similar to section A 
+paper 1 linked above. The GOAL of my research is build algorithms to improve ROBUSTNESS, AND SAFETY for applicatIons usi
+ng RL. Hence, building a custom feature selection framework is one of the first step towards it. PLEASE feel free to lin
+k other open challenges in real-world RL applications, so I have the opportunity to address and work on them in my futur
+e works.
+
+THANK YOU !
+```
+---
+
+     
+ 
+all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-11-17-0910
+```
+Hey guys,
+
+Im looking for a profile evaluation, and suggestions. I applied to PhD programs last cycle and was accepted t
+o 2, which I turned down. Im applying this cycle again. My profile is pretty similar and so are my recommendations, so I
+m not sure if I should have high hopes. Currently 3.8 GPA MS in CS student at a top 30 US University (by CS rankings for
+ AI). 2 publications in robotics (IROS), 1 in NeurIPS this year (but I'm the 4th author), and 1 first author work under 
+review at ICLR, one under review at  AAAI. 2 pretty strong recommendations, one from a faculty whose course I took and T
+A'd for.
+
+Im planning on applying to:
+MILA, UNC Chapel Hill, CMU, NYU, USC, SFU, UCR, Virgina Tech, University of Washin
+gton. 
+
+One drawback of my profile is that I was enrolled as a PhD at my current uni, and didn't like the topic and didn
+t find a good fit. So I've decided to apply elsewhere (finishing up as a MS at my current uni), but I think this negativ
+ely impacts my applications because I thought I had a good profile but didn't get any interviews last year. Let me know 
+what you think
+```
+---
+
+     
+ 
+all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-11-17-0910
 ```
  
 
@@ -33,7 +233,7 @@ ustin
 
      
  
-all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-11-16-0910
+all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-11-17-0910
 ```
 I recently began my career as a Machine Learning Engineer, marking my first job in the industry. A few months ago, I com
 pleted an MPhil program specializing in Environmental Engineering, with a research focus on applying ML in that field. T
@@ -62,7 +262,7 @@ note that I am interested in working in the industry and do not intend to pursue
 
      
  
-all -  [ normal difficulty ](https://i.redd.it/zgmf2cp81yzb1.png) , 2023-11-16-0910
+all -  [ normal difficulty ](https://i.redd.it/zgmf2cp81yzb1.png) , 2023-11-17-0910
 ```
 
 ```
@@ -70,7 +270,7 @@ all -  [ normal difficulty ](https://i.redd.it/zgmf2cp81yzb1.png) , 2023-11-16-0
 
      
  
-all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-11-16-0910
+all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-11-17-0910
 ```
 If anyone is interested in learning AI/LLM's and you’re more familiar with dotnet than python, take a look at my [NanoGp
 tDotnet](https://github.com/biegehydra/NanoGptDotnet) project. It is a direct translation of a [project](https://github.
@@ -161,7 +361,7 @@ t queen overta'en.
 
      
  
-all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-11-16-0910
+all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-11-17-0910
 ```
 Hi ML community, 
 
@@ -190,7 +390,7 @@ re? I'm open to any thoughts or advice on my situation.
 
      
  
-all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-11-16-0910
+all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-11-17-0910
 ```
 I am asking for a friend.
 ```
@@ -198,7 +398,7 @@ I am asking for a friend.
 
      
  
-all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-11-16-0910
+all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-11-17-0910
 ```
 I've had the Neurio Home Energy Monitor (USA, Split Phase) for many, many years. Since they first came to the market, I 
 was an early adapter. 
@@ -251,7 +451,7 @@ https://imgur.com/oBA0txf
 
      
  
-all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-11-16-0910
+all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-11-17-0910
 ```
 # ArXiv
 
@@ -783,7 +983,7 @@ te more research into  assessing LLMs to ensure their ethical development. (2023
 
      
  
-all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-11-16-0910
+all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-11-17-0910
 ```
 Hi folks! I'm an undergraduate senior studying CS and Statistics at a T10 undergrad school (not for CS PhD, though); I'm
  also concurrently getting my M.S. in CS here as well. I have research experience in industry (at a top AI Research lab 
@@ -814,7 +1014,7 @@ advance for your feedback and insights (and for taking the time to read all of t
 
      
  
-all -  [ Code for a paper ](https://www.reddit.com/r/reinforcementlearning/comments/17o6brs/code_for_a_paper/) , 2023-11-16-0910
+all -  [ Code for a paper ](https://www.reddit.com/r/reinforcementlearning/comments/17o6brs/code_for_a_paper/) , 2023-11-17-0910
 ```
 Is there a code available for the paper “Risk-Aware Transfer in Reinforcement Learning using Successor Features” publish
 ed in NeurIPS 2021 by Gimelfarb et Al.?
@@ -823,7 +1023,7 @@ ed in NeurIPS 2021 by Gimelfarb et Al.?
 
      
  
-all -  [ [R] Highlights for every NeurIPS 2023 paper ](https://www.reddit.com/r/MachineLearning/comments/17nm4eb/r_highlights_for_every_neurips_2023_paper/) , 2023-11-16-0910
+all -  [ [R] Highlights for every NeurIPS 2023 paper ](https://www.reddit.com/r/MachineLearning/comments/17nm4eb/r_highlights_for_every_neurips_2023_paper/) , 2023-11-17-0910
 ```
 Here is the list of all NeurIPS 2023 (Neural Information Processing Systems) papers and a short highlight for each of th
 em. Among all \~3,500 papers, authors of around 1,000 papers also made their code or data available. The 'related code' 
@@ -845,7 +1045,7 @@ NeurIPS 2023 will take place at New Orleans on Dec 10, 2023.
 
      
  
-all -  [ Papers to reproduce for ML Reproducibility Challenge 2023 ](https://www.reddit.com/r/learnmachinelearning/comments/17lr0g0/papers_to_reproduce_for_ml_reproducibility/) , 2023-11-16-0910
+all -  [ Papers to reproduce for ML Reproducibility Challenge 2023 ](https://www.reddit.com/r/learnmachinelearning/comments/17lr0g0/papers_to_reproduce_for_ml_reproducibility/) , 2023-11-17-0910
 ```
 I'm planning to participate in the ML Reproducibility Challenge 2023 ([**https://reproml.org/blog/announcing\_mlrc2023/*
 *](https://reproml.org/blog/announcing_mlrc2023/)) and I'm looking for suggestions on some good deep learning papers whe
@@ -865,7 +1065,7 @@ t one to focus on for this challenge.
 
      
  
-all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-16-0910
+all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-17-0910
 ```
 I just wanted to share the news! I don’t know what this means but I’m excited to share.
 ```
@@ -873,7 +1073,7 @@ I just wanted to share the news! I don’t know what this means but I’m excite
 
      
  
-all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-16-0910
+all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-17-0910
 ```
 Major AI announcements from Meta, NVIDIA, OpenAI, Google and more.   
 
@@ -1069,7 +1269,7 @@ More detailed breakdown of these news and innovations
 
      
  
-all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-11-16-0910
+all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-11-17-0910
 ```
 Dive into the latest AI advancements and breakthroughs in this week's AI Revolution podcast! We dissect the game-changin
 g 'Woodpecker' technology set to tackle the Large Language Models (LLM) hallucination problem, bringing more accuracy an
@@ -1245,7 +1445,7 @@ emystifying Frequently Asked Questions on Artificial Intelligence,**](https://am
 
      
  
-all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-11-16-0910
+all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-11-17-0910
 ```
 Continuing with the exercise of sharing an easily digestible and smaller version of the main updates of the day in the w
 orld of AI.  
@@ -1322,7 +1522,7 @@ etter](https://theaiedge.substack.com/p/openai-new-rival-jina-ai-woodpecker-nvid
 
      
  
-all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-11-16-0910
+all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-11-17-0910
 ```
  I plan to apply to 10-12 CS PhD programs, with a research focus in ML/NLP. 
 
@@ -1378,7 +1578,7 @@ t/UT Dallas/UCF
 
      
  
-all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-11-16-0910
+all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-11-17-0910
 ```
 As an outsider who has many friends in ML Phds, this is my perspective of their lives:
 
@@ -1412,7 +1612,7 @@ e who claim to have solutions.
 
      
  
-all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-11-16-0910
+all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-11-17-0910
 ```
 Hey everyone! I am looking for papers that propose or explore biologically plausible vision models, primarily tasks like
  classification and grasping (predicting grasping bounding boxes) tasks. By biologically plausible, I mean papers that p
@@ -1431,7 +1631,7 @@ But I am still looking for more. Any suggestions?
 
      
  
-all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-11-16-0910
+all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-11-17-0910
 ```
 So I'm a begginer, I've been using SD for sometime. My inpaint Stopped working 1 or 2 months ago(i think).I usually upda
 te to the latest version everytime.
@@ -1456,7 +1656,7 @@ ing the images), or is it something just bad with my machine or is there a probl
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-11-16-0910
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/computervision/comments/17cczj7/r_how_to_compare_research_results/) , 2023-11-17-0910
 ```
 Hello all,
 
@@ -1476,7 +1676,7 @@ me dataset or can I replace some with other datasets?
 
      
  
-all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-11-16-0910
+all -  [ [R] How to compare research results? ](https://www.reddit.com/r/MachineLearning/comments/17ccypi/r_how_to_compare_research_results/) , 2023-11-17-0910
 ```
 Hello all,
 
@@ -1496,7 +1696,7 @@ ame dataset or can I replace some with other datasets?
 
      
  
-all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-11-16-0910
+all -  [ [R] Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outlier Data (NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/17bzbaq/r_neural_relation_graph_a_unified_framework_for/) , 2023-11-17-0910
 ```
 **paper**: [https://arxiv.org/abs/2301.12321](https://arxiv.org/abs/2301.12321)
 
@@ -1537,7 +1737,7 @@ preview.redd.it/4x2244ure9vb1.png?width=2778&format=png&auto=webp&s=6c6cb9f8d1be
 
      
  
-all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-11-16-0910
+all -  [ [R] Curve your Enthusiasm: Concurvity Regularization in Differentiable Generalized Additive Models ](https://www.reddit.com/r/MachineLearning/comments/17bfgsj/r_curve_your_enthusiasm_concurvity_regularization/) , 2023-11-17-0910
 ```
 **Accepted at NeurIPS 2023**
 
@@ -1571,7 +1771,7 @@ bsbvb1.png?width=1002&format=png&auto=webp&s=3067a2361f55603bf4b7769eaede32ca1f3
 
      
  
-all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-11-16-0910
+all -  [ prof eval for AI PhD, declined last cycle ](https://www.reddit.com/r/gradadmissions/comments/17b3kxe/prof_eval_for_ai_phd_declined_last_cycle/) , 2023-11-17-0910
 ```
 Finished undergrad in math/cs in 2.5 years from a solid research uni in the US (top 30 overall, top 10 for cs). 3.7 GPA 
 with a few grad courses
