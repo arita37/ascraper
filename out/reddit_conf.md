@@ -1,22 +1,26 @@
  
-all -  [ https://imgur.com/a/oI7gr5f ](https://www.reddit.com/r/resumes/comments/17zrl3y/httpsimgurcomaoi7gr5f/) , 2023-11-21-0910
+all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-11-22-0910
 ```
- Received feedback that my previous resume was too dense and tough to read. Made changes using the feedback to improve -
- spacing, indentation, bullet points and the overall content.
-
-Does the current version have better readability and easi
-ly graspable content ?
-
-Any feedback is helpful, thank you !
-
-https://preview.redd.it/md2j0u8cyi1c1.png?width=1476&forma
-t=png&auto=webp&s=9db4d8b2fc248d3c83f17c99e188641f16048ea1
+I am an undergrad student and I am a first author of a NeurIPS workshop paper accepted this year. Do I have to buy the t
+icket for both the main conference and the workshop session to attend? I would like to attend both. Or can I just buy th
+e main conference ticket? I am not particularly interested in attending workshop sessions other than for presenting my w
+ork
 ```
 ---
 
      
  
-all -  [ Why did OpenAI move the goal post of Artificial General Intelligence? They literally changed the wik ](https://www.reddit.com/r/singularity/comments/17ynzo6/why_did_openai_move_the_goal_post_of_artificial/) , 2023-11-21-0910
+all -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-11-22-0910
+```
+I received an email today that I can claim a free NeurIPS registration, apparently because of my service as a reviewer. 
+Did all reviewers get free passes or is this a lottery system and/or based on review quality? I didn’t plan on attending
+, but now I’m actually tempted to go. Wish I’d known earlier, flights are pretty expensive now.
+```
+---
+
+     
+ 
+all -  [ Why did OpenAI move the goal post of Artificial General Intelligence? They literally changed the wik ](https://www.reddit.com/r/singularity/comments/17ynzo6/why_did_openai_move_the_goal_post_of_artificial/) , 2023-11-22-0910
 ```
 Update: There is clear evidence a single individual 'Enervation' was responsible as of April 6th 2023 of changing the co
 re definition of what AGI is supposed to be. There is an obvious conflict of interest here as the definition is matching
@@ -193,7 +197,7 @@ erbiage is going to get changed very soon.
 
      
  
-all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-11-21-0910
+all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-11-22-0910
 ```
 There are websites like this keeping track of ML conference deadlines like this https://aideadlin.es/?sub=ML,CV,CG,NLP,R
 O,SP,DM,AP,KR
@@ -205,7 +209,7 @@ nferences like Neurips, CVPR and so on.
 
      
  
-all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-11-21-0910
+all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-11-22-0910
 ```
 **Paper**: [https://arxiv.org/abs/2311.03736](https://arxiv.org/abs/2311.03736)
 
@@ -235,7 +239,7 @@ o=webp&s=f9bf7f063c1b9950d40ad2a3b04bdc7f0780413f
 
      
  
-all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-11-21-0910
+all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-11-22-0910
 ```
 I have read many posts in this subreddit complaining about the lack of communications and results from DreamLab and the 
 teams behind the various projects. I must agree that these two are the most critical issues about DreamLab and the burde
@@ -356,7 +360,7 @@ update 19/11/2023: fixed link for a
 
      
  
-all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-11-21-0910
+all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-11-22-0910
 ```
 I'm currently in the process of building a feature selection framework for reinforcement learning.
 
@@ -424,7 +428,7 @@ THANK YOU !
 
      
  
-all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-11-21-0910
+all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-11-22-0910
 ```
 Hey guys,
 
@@ -448,7 +452,7 @@ what you think
 
      
  
-all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-11-21-0910
+all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-11-22-0910
 ```
  
 
@@ -482,7 +486,7 @@ ustin
 
      
  
-all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-11-21-0910
+all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-11-22-0910
 ```
 I recently began my career as a Machine Learning Engineer, marking my first job in the industry. A few months ago, I com
 pleted an MPhil program specializing in Environmental Engineering, with a research focus on applying ML in that field. T
@@ -511,7 +515,7 @@ note that I am interested in working in the industry and do not intend to pursue
 
      
  
-all -  [ normal difficulty ](https://i.redd.it/zgmf2cp81yzb1.png) , 2023-11-21-0910
+all -  [ normal difficulty ](https://i.redd.it/zgmf2cp81yzb1.png) , 2023-11-22-0910
 ```
 
 ```
@@ -519,7 +523,7 @@ all -  [ normal difficulty ](https://i.redd.it/zgmf2cp81yzb1.png) , 2023-11-21-0
 
      
  
-all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-11-21-0910
+all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-11-22-0910
 ```
 If anyone is interested in learning AI/LLM's and you’re more familiar with dotnet than python, take a look at my [NanoGp
 tDotnet](https://github.com/biegehydra/NanoGptDotnet) project. It is a direct translation of a [project](https://github.
@@ -610,7 +614,7 @@ t queen overta'en.
 
      
  
-all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-11-21-0910
+all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-11-22-0910
 ```
 Hi ML community, 
 
@@ -639,7 +643,7 @@ re? I'm open to any thoughts or advice on my situation.
 
      
  
-all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-11-21-0910
+all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-11-22-0910
 ```
 I am asking for a friend.
 ```
@@ -647,7 +651,7 @@ I am asking for a friend.
 
      
  
-all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-11-21-0910
+all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-11-22-0910
 ```
 I've had the Neurio Home Energy Monitor (USA, Split Phase) for many, many years. Since they first came to the market, I 
 was an early adapter. 
@@ -700,7 +704,7 @@ https://imgur.com/oBA0txf
 
      
  
-all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-11-21-0910
+all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-11-22-0910
 ```
 # ArXiv
 
@@ -1232,7 +1236,7 @@ te more research into  assessing LLMs to ensure their ethical development. (2023
 
      
  
-all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-11-21-0910
+all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-11-22-0910
 ```
 Hi folks! I'm an undergraduate senior studying CS and Statistics at a T10 undergrad school (not for CS PhD, though); I'm
  also concurrently getting my M.S. in CS here as well. I have research experience in industry (at a top AI Research lab 
@@ -1263,7 +1267,7 @@ advance for your feedback and insights (and for taking the time to read all of t
 
      
  
-all -  [ Code for a paper ](https://www.reddit.com/r/reinforcementlearning/comments/17o6brs/code_for_a_paper/) , 2023-11-21-0910
+all -  [ Code for a paper ](https://www.reddit.com/r/reinforcementlearning/comments/17o6brs/code_for_a_paper/) , 2023-11-22-0910
 ```
 Is there a code available for the paper “Risk-Aware Transfer in Reinforcement Learning using Successor Features” publish
 ed in NeurIPS 2021 by Gimelfarb et Al.?
@@ -1272,7 +1276,7 @@ ed in NeurIPS 2021 by Gimelfarb et Al.?
 
      
  
-all -  [ [R] Highlights for every NeurIPS 2023 paper ](https://www.reddit.com/r/MachineLearning/comments/17nm4eb/r_highlights_for_every_neurips_2023_paper/) , 2023-11-21-0910
+all -  [ [R] Highlights for every NeurIPS 2023 paper ](https://www.reddit.com/r/MachineLearning/comments/17nm4eb/r_highlights_for_every_neurips_2023_paper/) , 2023-11-22-0910
 ```
 Here is the list of all NeurIPS 2023 (Neural Information Processing Systems) papers and a short highlight for each of th
 em. Among all \~3,500 papers, authors of around 1,000 papers also made their code or data available. The 'related code' 
@@ -1294,7 +1298,7 @@ NeurIPS 2023 will take place at New Orleans on Dec 10, 2023.
 
      
  
-all -  [ Papers to reproduce for ML Reproducibility Challenge 2023 ](https://www.reddit.com/r/learnmachinelearning/comments/17lr0g0/papers_to_reproduce_for_ml_reproducibility/) , 2023-11-21-0910
+all -  [ Papers to reproduce for ML Reproducibility Challenge 2023 ](https://www.reddit.com/r/learnmachinelearning/comments/17lr0g0/papers_to_reproduce_for_ml_reproducibility/) , 2023-11-22-0910
 ```
 I'm planning to participate in the ML Reproducibility Challenge 2023 ([**https://reproml.org/blog/announcing\_mlrc2023/*
 *](https://reproml.org/blog/announcing_mlrc2023/)) and I'm looking for suggestions on some good deep learning papers whe
@@ -1314,7 +1318,7 @@ t one to focus on for this challenge.
 
      
  
-all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-21-0910
+all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-22-0910
 ```
 I just wanted to share the news! I don’t know what this means but I’m excited to share.
 ```
@@ -1322,7 +1326,7 @@ I just wanted to share the news! I don’t know what this means but I’m excite
 
      
  
-all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-21-0910
+all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-22-0910
 ```
 Major AI announcements from Meta, NVIDIA, OpenAI, Google and more.   
 
@@ -1518,7 +1522,7 @@ More detailed breakdown of these news and innovations
 
      
  
-all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-11-21-0910
+all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-11-22-0910
 ```
 Dive into the latest AI advancements and breakthroughs in this week's AI Revolution podcast! We dissect the game-changin
 g 'Woodpecker' technology set to tackle the Large Language Models (LLM) hallucination problem, bringing more accuracy an
@@ -1694,7 +1698,7 @@ emystifying Frequently Asked Questions on Artificial Intelligence,**](https://am
 
      
  
-all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-11-21-0910
+all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-11-22-0910
 ```
 Continuing with the exercise of sharing an easily digestible and smaller version of the main updates of the day in the w
 orld of AI.  
@@ -1771,7 +1775,7 @@ etter](https://theaiedge.substack.com/p/openai-new-rival-jina-ai-woodpecker-nvid
 
      
  
-all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-11-21-0910
+all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-11-22-0910
 ```
  I plan to apply to 10-12 CS PhD programs, with a research focus in ML/NLP. 
 
@@ -1827,7 +1831,7 @@ t/UT Dallas/UCF
 
      
  
-all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-11-21-0910
+all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-11-22-0910
 ```
 As an outsider who has many friends in ML Phds, this is my perspective of their lives:
 
@@ -1861,7 +1865,7 @@ e who claim to have solutions.
 
      
  
-all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-11-21-0910
+all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-11-22-0910
 ```
 Hey everyone! I am looking for papers that propose or explore biologically plausible vision models, primarily tasks like
  classification and grasping (predicting grasping bounding boxes) tasks. By biologically plausible, I mean papers that p
@@ -1875,31 +1879,6 @@ ike these:
 e470841-Abstract.html
 
 But I am still looking for more. Any suggestions?
-```
----
-
-     
- 
-all -  [ Inpaintint Not working ](https://www.reddit.com/gallery/17d832h) , 2023-11-21-0910
-```
-So I'm a begginer, I've been using SD for sometime. My inpaint Stopped working 1 or 2 months ago(i think).I usually upda
-te to the latest version everytime.
-
-I'm using A1111 direct ml (by Ishqqytiger) on Rx 590 8gb, chrome as browser, window
-s 10 as os.
-
-The generated image is either the same or has a blur on inapinted area. increasing mask blur also doesn't d
-o anything it just makes the exact same face but with a weird sort of light blur on it.
-
-I have tried changing every pos
-sible setting to fix it such as clip skip, model, original mask mode, latent noise mask mode and the other 2 mask mode a
-s well, changing cfg scale, denoising strength, sampler steps, samplers, inpaint area, resolution.
-
-my command args is i
-n the screen shot.
-
-is this caused my some new update or some extension bug (I was not using any extension while generat
-ing the images), or is it something just bad with my machine or is there a problem with SD directml version.
 ```
 ---
 

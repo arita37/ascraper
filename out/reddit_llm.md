@@ -1,30 +1,1656 @@
  
-all -  [ Open Source RAG Agents with Conversational Memory ](https://www.reddit.com/r/LangChain/comments/1802clf/open_source_rag_agents_with_conversational_memory/) , 2023-11-21-0910
+all -  [ Consume API with langchain ](https://www.reddit.com/r/LangChain/comments/180vqss/consume_api_with_langchain/) , 2023-11-22-0910
 ```
-I want to use an open source LLM as a RAG agent that also has memory of the current conversation (and eventually I want 
-to work up to memory of previous conversations). I was looking into conversational retrieval agents from Langchain (link
-ed below), but it seems they only work with OpenAI models. Is it possible to get an open source LLM to work with RAG and
- conversational memory using Langchain?
+Hi guys, with langchain is it possible to consume an api with post method where I have to send a json in the body, does 
+anyone have an example?
 
-[https://python.langchain.com/docs/use\_cases/question\_answering/conversationa
-l\_retrieval\_agents](https://python.langchain.com/docs/use_cases/question_answering/conversational_retrieval_agents)
+&#x200B;
 ```
 ---
 
      
  
-all -  [ Langchain with GPT4-Turbo, GPT4-Vision or DALLE-3 ](https://www.reddit.com/r/LangChain/comments/1802169/langchain_with_gpt4turbo_gpt4vision_or_dalle3/) , 2023-11-21-0910
+all -  [ Keep certain text together when splitting? ](https://www.reddit.com/r/LangChain/comments/180vkvs/keep_certain_text_together_when_splitting/) , 2023-11-22-0910
 ```
-Does anyone know if its possible to use either of the new models within Langchain?
+Building a RAG implementation, and I have some pieces of text that need to be contained in the same document when sendin
+g to the vector store. Specifically, I have tables stripped from PDFs, and some corresponding descriptions that I had an
+ LLM generate. 
 
-I am talking about the ChatOpenAI mo
-dule specifically
+Is there a way to specify certain start and end tokens to make sure the tables and corresponding descri
+ptions aren't divided across documents? Or maybe there's a way to create a custom text splitter?
 ```
 ---
 
      
  
-all -  [ Batch Process Dataset ](https://www.reddit.com/r/LangChain/comments/1801rsa/batch_process_dataset/) , 2023-11-21-0910
+all -  [ Flush AI - Langchain but for Stable Diffusion Workflows ](https://www.reddit.com/r/SideProject/comments/180ufn1/flush_ai_langchain_but_for_stable_diffusion/) , 2023-11-22-0910
+```
+[Flush](https://flushai.cloud/) simplifies the process of building, fine tuning, and managing stable diffusion models. Y
+ou can do the following on Flush:
+
+* Upload any Civit AI Checkpoint (under 4GB)
+* Finetune a model using Dreambooth
+* Up
+scale images with Real-Esrgan
+* Use LLM's to enhance your prompt and build custom workflows
+* Generate images with any m
+odel on our platform, including base models like Realistic Vision, SDXL, Absolute Reality, and more. You can generate im
+ages with text-to-image or image-to-image.
+* (Coming soon!): Safetensors upload, download your finetuned models, and fin
+etune on a wider variety of base models like Absolute Reality/Realistic Vision.
+
+We consider ourselves 'langchain' but f
+or stable diffusion workflows, because with our SDK (which we will be making open source), developers can build ANY cust
+om workflow chaining together Prompt Templates, upscalers, any image generation model hosted on our platform (SDXL/any C
+ivit model/any Finetuned model), LLM's like GPT-4, and deploy these workflows in their applications. We also have many i
+ntegrations with prompt databases/API's like SerpAPI, Pixabay, Pexels, etc. And we are also building data integrations, 
+so you can load data from sources like PDF's, Dropbox, Google Drive, etc. Check us at [https://www.flushai.cloud/](https
+://www.flushai.cloud/).
+
+We are building and growing fast and I’d encourage you guys to stay tuned and join our [Discord
+](https://discord.com/invite/fzdHj9DeuC) server and DM me about any criticism/feedback/bugs you face.
+
+&#x200B;
+
+https:/
+/preview.redd.it/7dj7itp99s1c1.png?width=2000&format=png&auto=webp&s=918d4b469fd4efa98d2a838990759de6e08deab6
+
+https://p
+review.redd.it/ob6jwiha9s1c1.png?width=960&format=png&auto=webp&s=da2f8a5aa12d0e123e16763f162e50b6e9daaf5e
+
+https://prev
+iew.redd.it/fjr66t6b9s1c1.png?width=2000&format=png&auto=webp&s=eaa6d11e6b93867338cc84051d5cc859f9bf8c5a
+```
+---
+
+     
+ 
+all -  [ Langchain but for Stable Diffusion Workflows ](https://www.reddit.com/r/sdforall/comments/180tme3/langchain_but_for_stable_diffusion_workflows/) , 2023-11-22-0910
+```
+[Flush](https://flushai.cloud/) simplifies the process of building, fine tuning, and managing stable diffusion models. Y
+ou can do the following on Flush:
+
+* Upload any Civit AI Checkpoint (under 4GB)
+* Finetune a model using Dreambooth
+* Up
+scale images with Real-Esrgan
+* Use LLM's to enhance your prompt and build custom workflows
+* Generate images with any m
+odel on our platform, including base models like Realistic Vision, SDXL, Absolute Reality, and more. You can generate im
+ages with text-to-image or image-to-image.
+* (Coming soon!): Safetensors upload, download your finetuned models, and fin
+etune on a wider variety of base models like Absolute Reality/Realistic Vision. 
+
+We consider ourselves 'langchain' but 
+for stable diffusion workflows, because with our SDK (which we will be making open source), developers can build ANY cus
+tom workflow chaining together Prompt Templates, upscalers, any image generation model hosted on our platform (SDXL/any 
+Civit model/any Finetuned model), LLM's like GPT-4, and deploy these workflows in their applications. We also have many 
+integrations with prompt databases/API's like SerpAPI, Pixabay, Pexels, etc. And we are also building data integrations,
+ so you can load data from sources like PDF's, Dropbox, Google Drive, etc. Check us at [https://www.flushai.cloud/](http
+s://www.flushai.cloud/).
+
+We are building and growing fast and I’d encourage you guys to stay tuned and join our [Discor
+d](https://discord.com/invite/fzdHj9DeuC) server and DM me about any criticism/feedback/bugs you face.
+
+https://preview.
+redd.it/1rbk0vnh1s1c1.png?width=2000&format=png&auto=webp&s=6dc73d7facd37477b72be4b5c39bbda0282901b1
+
+https://preview.re
+dd.it/4c02bqei1s1c1.png?width=960&format=png&auto=webp&s=2fd0ad78b3d843c5ca40395d48168a035de615c7
+
+https://preview.redd.
+it/tcl7hu3j1s1c1.png?width=2000&format=png&auto=webp&s=cf75d73c776aa08d24ebcd9d7c5ec2f6f1082dc7
+```
+---
+
+     
+ 
+all -  [ Langchain but for Stable Diffusion Workflows ](https://www.reddit.com/r/StableDiffusionInfo/comments/180tkrm/langchain_but_for_stable_diffusion_workflows/) , 2023-11-22-0910
+```
+[Flush](https://flushai.cloud/) simplifies the process of building, fine tuning, and managing stable diffusion models. Y
+ou can do the following on Flush:
+
+* Upload any Civit AI Checkpoint (under 4GB)
+* Finetune a model using Dreambooth
+* Up
+scale images with Real-Esrgan
+* Use LLM's to enhance your prompt and build custom workflows
+* Generate images with any m
+odel on our platform, including base models like Realistic Vision, SDXL, Absolute Reality, and more. You can generate im
+ages with text-to-image or image-to-image.
+* (Coming soon!): Safetensors upload, download your finetuned models, and fin
+etune on a wider variety of base models like Absolute Reality/Realistic Vision. 
+
+We consider ourselves 'langchain' but 
+for stable diffusion workflows, because with our SDK (which we will be making open source), developers can build ANY cus
+tom workflow chaining together Prompt Templates, upscalers, any image generation model hosted on our platform (SDXL/any 
+Civit model/any Finetuned model), LLM's like GPT-4, and deploy these workflows in their applications. We also have many 
+integrations with prompt databases/API's like SerpAPI, Pixabay, Pexels, etc. And we are also building data integrations,
+ so you can load data from sources like PDF's, Dropbox, Google Drive, etc. Check us at [https://www.flushai.cloud/](http
+s://www.flushai.cloud/).
+
+We are building and growing fast and I’d encourage you guys to stay tuned and join our [Discor
+d](https://discord.com/invite/fzdHj9DeuC) server and DM me about any criticism/feedback/bugs you face.
+
+https://preview.
+redd.it/fj181v5k0s1c1.png?width=2000&format=png&auto=webp&s=251ff081980160d375d4bfc435d451c087943113
+
+https://preview.re
+dd.it/11g8ml2l0s1c1.png?width=960&format=png&auto=webp&s=865a908e6cd9bc7c0a99529e7b3e56c03b010a12
+
+https://preview.redd.
+it/zqlvaiom0s1c1.png?width=2000&format=png&auto=webp&s=4bf66602e5afa16fd973b4bcd7165b0447aa1034
+```
+---
+
+     
+ 
+all -  [ Langchain but for Stable Diffusion Workflows ](https://www.reddit.com/r/StableDiffusion/comments/180ti53/langchain_but_for_stable_diffusion_workflows/) , 2023-11-22-0910
+```
+[Flush](https://flushai.cloud/) simplifies the process of building, fine tuning, and managing stable diffusion models. Y
+ou can do the following on Flush:
+
+* Upload any Civit AI Checkpoint (under 4GB)
+* Finetune a model using Dreambooth
+* Up
+scale images with Real-Esrgan
+* Use LLM's to enhance your prompt and build custom workflows
+* Generate images with any m
+odel on our platform, including base models like Realistic Vision, SDXL, Absolute Reality, and more. You can generate im
+ages with text-to-image or image-to-image.
+* (Coming soon!): Safetensors upload, download your finetuned models, and fin
+etune on a wider variety of base models like Absolute Reality/Realistic Vision.
+
+We consider ourselves 'langchain' but f
+or stable diffusion workflows, because with our SDK (which we will be making open source), developers can build ANY cust
+om workflow chaining together Prompt Templates, upscalers, any image generation model hosted on our platform (SDXL/any C
+ivit model/any Finetuned model), LLM's like GPT-4, and deploy these workflows in their applications. We also have many i
+ntegrations with prompt databases/API's like SerpAPI, Pixabay, Pexels, etc. And we are also building data integrations, 
+so you can load data from sources like PDF's, Dropbox, Google Drive, etc. Check us at [https://www.flushai.cloud/](https
+://www.flushai.cloud/).
+
+We are building and growing fast and I’d encourage you guys to stay tuned and join our [Discord
+](https://discord.com/invite/fzdHj9DeuC) server and DM me about any criticism/feedback/bugs you face.
+
+https://preview.r
+edd.it/7mt1xeilzr1c1.png?width=960&format=png&auto=webp&s=2991b6a0e4f7f0a499144efbf29665cfdcbd8370
+
+https://preview.redd
+.it/hz2n0g1ozr1c1.png?width=2000&format=png&auto=webp&s=44147f908bdc19b42ed1cb83320358340b98dad2
+
+https://preview.redd.i
+t/r689slypzr1c1.png?width=2000&format=png&auto=webp&s=753488f3d0a0467fe01fa720f3b6bfbad9298573
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ We are looking for new beta testers, we are waiting for you ](https://www.reddit.com/r/aiproduct/comments/180r6ox/we_are_looking_for_new_beta_testers_we_are/) , 2023-11-22-0910
+```
+Hi All!  
+I'm Simone from the Knowlee team, thrilled to introduce our ultimate AI assistant powered by top-notch technol
+ogies like GPT4, Pinecone, and Langchain. Here’s a quick run-through of how Knowlee can revolutionize your workflow:
+
+1️
+⃣ **Feed Knowledge**: Import documents, videos, social posts, news, financial stats, or any content you need analyzed.  
+
+2️⃣ **Get Instant Insights**: Knowlee processes your content and provides instant, intelligent insights to help you mak
+e informed decisions.  
+3️⃣ **Content Creation**: Leverage these insights to generate relevant and timely content, keepi
+ng you ahead of the curve.
+
+We're currently inviting enthusiasts to join our beta testing program and contribute to shap
+ing the future of Knowlee.
+
+Feel free to drop a comment or send a DM if you’re ready to explore the capabilities of Know
+lee!
+```
+---
+
+     
+ 
+all -  [ We are looking for new beta testers, we are waiting for you! ](https://www.reddit.com/r/alphaandbetausers/comments/180r5xz/we_are_looking_for_new_beta_testers_we_are/) , 2023-11-22-0910
+```
+Hi All!  
+I'm Simone from the Knowlee team, thrilled to introduce our ultimate AI assistant powered by top-notch technol
+ogies like GPT4, Pinecone, and Langchain. Here’s a quick run-through of how Knowlee can revolutionize your workflow:  
+1
+️⃣ Feed Knowledge: Import documents, videos, social posts, news, financial stats, or any content you need analyzed.  
+2️
+⃣ Get Instant Insights: Knowlee processes your content and provides instant, intelligent insights to help you make infor
+med decisions.  
+3️⃣ Content Creation: Leverage these insights to generate relevant and timely content, keeping you ahea
+d of the curve.  
+We're currently inviting enthusiasts to join our beta testing program and contribute to shaping the fu
+ture of Knowlee.  
+Feel free to drop a comment or send a DM if you’re ready to explore the capabilities of Knowlee!
+```
+---
+
+     
+ 
+all -  [ We are looking for new beta testers 👀 ](https://www.reddit.com/r/ProductMarketing/comments/180r01k/we_are_looking_for_new_beta_testers/) , 2023-11-22-0910
+```
+Hi Guys!
+
+We're thrilled to introduce Knowlee, an AI assistant powered by cutting-edge technologies like GPT4, Pinecone,
+ and Langchain. Here's how Knowlee works in a nutshell:  
+1️⃣ **Feed Knowledge**: Import documents, videos, social posts
+, news, financial stats, or any content you need analyzed.  
+2️⃣ **Get Instant Insights**: Knowlee processes your conten
+t and provides instant, intelligent insights to help you make informed decisions.  
+3️⃣ **Content Creation**: Leverage t
+hese insights to generate relevant and timely content, keeping you ahead of the curve.
+
+We're currently inviting enthusi
+asts to join our beta testing program and contribute to shaping the future of Knowlee.
+
+Feel free to drop a comment or s
+end a DM if you’re ready to explore the capabilities of Knowlee!
+```
+---
+
+     
+ 
+all -  [ Can't handle efficiently RAG with large PDF ](https://www.reddit.com/r/LocalLLaMA/comments/180qtw3/cant_handle_efficiently_rag_with_large_pdf/) , 2023-11-22-0910
+```
+Hi,  
+I've issues when Q&A my PDF:
+
+* \- I don't have consistency
+* \- Tried many models (embedding/llm)
+* \- Tried many
+ methods
+* \- I have 20% hallucination, especialy with 'president' and 'mickael jackson' 
+
+ex1 (this one is correct):
+
+>
+\> question:  How much net income for Amazon in 2020, 2021 and 2022 ?  
+>  
+>\> answer: In 2020, Amazon made a net incom
+e of $21.331 billion, in 2021 $33.364 billion and in 2022 the company made a loss of $2.722 billion.
+
+ex2: (this one is 
+incorrect):
+
+>\> question: How much operating expenses for AWS in 2020, 2021 and 2022 ?  
+>  
+>\> answer: The operating 
+expenses of AWS in 2020, 2021, and 2022 were $444.943 billion, $501.735 billion, and $567.608 billion respectively.  
+> 
+ 
+>It always calculate the entire expenses of the company, i try GPT-4 and it is capable.
+
+\- PDF: Amazon 2022 annual re
+port 10K (88 pages)  
+\- Embedding: all-MiniLM-L12-v2  
+\- Text splitter: Chunk\_size = 1000, overlap = 20  
+\- VectorDB
+: Chroma  
+\- LLM:   SciPhi-Self-RAG-Mistral-7B-32k-8.0bpw-h6-exl2 via Oobabooga (OpenAI extension) with 0.2temp, alpaca
+ instruction template.  
+\- Langchain: RetrievalQA, chain\_type = stuff, retriever = vectDB.as\_retriever()  
+\- RTX 309
+0  
+
+
+If anyone resolve this issue, please can you help me :) 
+```
+---
+
+     
+ 
+all -  [ promptTemplates applied to PyPDFDirectoryLoader/ chromaDB embeddings ](https://www.reddit.com/r/LangChain/comments/180qsh3/prompttemplates_applied_to_pypdfdirectoryloader/) , 2023-11-22-0910
+```
+I have a research related problem that I am trying to solve with LangChain.
+
+&#x200B;
+
+**- Lets say I have 10 legal docu
+ments that are 300 pages each.**
+
+(I put them into a Chroma DB and using sentence embeddings)
+
+**- I want the applicatio
+n to use the information contained within these 10 legal documents.**
+
+**- I want to send the LLM a query - 'Give me 5 r
+isks that the client is facing'**
+
+(The output of the model is now a list of 5 risks)
+
+**- I want to then pass each of t
+hese risks to a pre-created promptTemplate**
+
+(Something like: prompt = 'For the following {risk} list me 10 solutions')
+
+
+(Now I have another list for each of the 5 risks I have 10 solutions)
+
+\- Then I want to pass the 'risk' and each of t
+he solutions to a new prompt
+
+(prompt2 = 'Write me a an overview of {risk} and write me a summary of the {solution} usin
+g {document}')
+
+&#x200B;
+
+So, the structure would look like:
+
+>Document 1:  
+>  
+>\- Outlines 5 risks and then provides 
+for each risk 10 potential solutions  
+>  
+>\- risk 1  
+>  
+>\-- Solution 1  
+>  
+>\--- Overview summary of the risk,  s
+olution with the document context  
+>  
+>\-- Solution 2  
+>  
+>\--- Overview summary of the risk,  solution with the doc
+ument context  
+>  
+>\-- Solution 3  
+>  
+>\--- Overview summary of the risk,  solution with the document context  
+>  
+
+>...  
+>  
+>\--Solution 10  
+>  
+>\--- Overview summary of the risk,  solution with the document context  
+>  
+>\-risk 2
+  
+>  
+>\-- Solution1  
+>  
+>\--- Overview summary of the risk,  solution with the document context  
+>  
+>...  
+>  
+>\-
+- Solution 10  
+>  
+>\--- Overview summary of the risk,  solution with the document context  
+>  
+>....  
+>  
+>Document 
+2:  
+>  
+>\- risk 1  
+>  
+>Solution 1  
+>  
+>\--- Overview summary of the risk,  solution with the document context  
+> 
+ 
+>etc.
+
+&#x200B;
+
+So, its generating the content within the domain knowledge of the document for that client.
+
+\- So in
+stead of me asking it questions, I want to build a predefined set of prompts to output a standardised output that can be
+ somewhat comparable across different documents/clients
+
+\- All I am finding online is chatbots related to custom docume
+nts and I have not seen anything about prompts applied to custom documents
+```
+---
+
+     
+ 
+all -  [ Custom GPT to make GPT aware of all OpenAI Enhancements - Better than Retrieval ](https://www.reddit.com/r/ChatGPTPro/comments/180pv1t/custom_gpt_to_make_gpt_aware_of_all_openai/) , 2023-11-22-0910
+```
+Hi All,  
+For anyone looking for a GPT who understands all of the enhancements from the OpenAI November 6, 2023 dev rele
+ase, feel free to use the following GPT. I found it works quite a bit better than retrieval, web access, prompting or an
+y combo.
+
+It calls an API to a database which has all of the OpenAI enhancements documentation curated and stored in a h
+ierarchical structure.
+
+[https://chat.openai.com/g/g-f7seer3Jg-oai-november-6-2023-release-expert 1](https://chat.openai
+.com/g/g-f7seer3Jg-oai-november-6-2023-release-expert)
+
+I tried all sorts of ways to get GPT to consider its own capabil
+ities in helping me develop, and found this approach works the best. It outperforms retrieval, copy & paste prompting, w
+eb access or any combination of them.
+
+It works by calling an API to a read-only database, which breaks down all of the 
+details GPT needs to know to overcome the April 2023 cut-off → November 6 dev day enhancements. (i.e. the Assistants API
+, custom GPTs, gpt-4-turbo + vision, etc.)
+
+The details all come from the OpenAI developer / API docs / guides / etc.
+
+I
+ did a bunch of cleanup on the data to remove all of the formatting issues and unnecessary text (i.e. javascript button 
+clutter, spacing, characters, snippet artifacts, etc.).   
+Then I trimmed out a bunch of the more marketing-like text, s
+o it focuses more on the objective details, and trims down unnecessary noise / token consumption.
+
+Also, the API returns
+ the data in a structured JSON hierarchy, so the AI fully understands the hierarchical nature of the content in a way th
+at Retrieval or direct prompting can’t really match.
+
+Between all that and the GPT-Instructions i gave it, you should be
+ able to see some big gains when asking GPT about all of OpenAI’s sweet new capabilities.
+
+With the API call method, it 
+combines the instructions, which update the AI on the new enhancements, and selectively pulls in all of the pertinent de
+tails on whatever it is you are working on. Which is a great way to reduce noise.  
+I.e. If you ask about the Assistants
+ API, it will only be fed what it needs to know about the Assistants API, and will not even have the option to confuse i
+t with a similar yet different functionality like custom GPTs.
+
+How to Use:  
+(GPT will tell you how to use it if you as
+k)
+
+1. Specify a node #, or just provide it a topic, and it will select for you.
+2. GPT will go get the curated informat
+ion and be able to answer any questions on the topic.
+
+Node IDs and Topic Index:
+
+* Node ID 2: Audio Features - OpenAI T
+ext-to-Speech & Speech-to-Text.
+* Node ID 57: OpenAI API Model Updates (November 6, 2023 - GPT-4-Turbo & GPT-4 with Visi
+on, JSON Mode, Improved Function Calling.)
+* Node ID 88: Embeddings in OpenAI.
+* Node ID 96: Fine-Tuning in OpenAI.
+* No
+de ID 126: Files Management in OpenAI.
+* Node ID 150: Images - Creating and Editing with OpenAI DALL-E.
+* Node ID 184: O
+penAI Assistants API.
+* Node ID 363: GPTs - User-Created Custom ChatGPTs.
+
+The AI is instructed to call one node at a ti
+me, but you can keep calling if you need to.
+
+By design, this information is only a subset of the OpenAI Documentation. 
+As the models are now updated to April, 2023, it is already trained on everything prior to the November 6 update. With t
+his approach, it allows the AI to supplement its existing knowledge, rather than overwhelm it with a bunch of data it al
+ready knows.
+
+Let me know if you find it useful and if so, I will keep it updated as enhancements outpace the knowledge 
+cut-off.
+
+Also, have a half-baked version for LangChain i might do, if the demand is high.  
+Thanks!
+```
+---
+
+     
+ 
+all -  [ 9th session with unusual 30B Ai part 3 - article about using generative art for design, checking ext ](https://www.reddit.com/r/ai_tests/comments/180p6bd/9th_session_with_unusual_30b_ai_part_3_article/) , 2023-11-22-0910
+```
+**Part 3**
+
+You
+
+*This year, 2023, will probably be remembered as the year of generative AI. It is still an open questio
+n whether generative AI will change our lives for the better. One thing is certain, though: New artificial-intelligence 
+tools are being unveiled rapidly and will continue for some time to come. And engineers have much to gain from experimen
+ting with them and incorporating them into their design process.*
+
+\*removed to apply for text limit\*
+
+&#x200B;
+
+AI
+
+Th
+at's interesting
+
+&#x200B;
+
+You
+
+*Other examples of AI-aided design can be found in NASA’s space hardware, including pla
+netary instruments, space telescope, and the Mars Sample Return mission. NASA engineer Ryan McClelland says that the new
+ AI-generated designs may “look somewhat alien and weird,” but they tolerate higher structural loads while weighing less
+ than conventional components do. Also, they take a fraction of the time to design compared to traditional components. M
+cClelland calls these new designs “evolved structures.” The phrase refers to how the AI software iterates through design
+ mutations and converges on high-performing designs. In these kinds of engineering environments, co-designing with gener
+ative AI, high-quality, structured data, and well-studied parameters can clearly lead to more creative and more effectiv
+e new designs. I decided to give it a try.*
+
+\*removed to apply for text limit\*
+
+AI
+
+That's interesting
+
+&#x200B;
+
+You
+
+
+*When I began my experiments with generative AI, I wasn’t looking for nuts-and-bolts guidance on the design. Rather, I 
+wanted inspiration. Initially, I tried text generators and music generators just for fun, but I eventually found image g
+enerators to be the best fit. An image generator is a type of machine-learning algorithm that can create images based on
+ a set of input parameters, or prompts. I tested a number of platforms and worked to understand how to form good prompts
+ (that is, the input text that generators use to produce images) with each platform. Among the platforms I tried were Cr
+aiyon, DALL-E 2, Midjourney, NightCafé, and Stable Diffusion. I found the combination of Midjourney and Stable Diffusion
+ to be the best for my purposes.*
+
+*Midjourney uses a proprietary machine-learning model, while Stable Diffusion makes i
+ts source code available for free. Midjourney can be used only with an Internet connection and offers different subscrip
+tion plans. You can download and run Stable Diffusion on your computer and use it for free, or you can pay a nominal fee
+ to use it online. I use Stable Diffusion on my local machine and have a subscription to Midjourney.*
+
+&#x200B;
+
+AI
+
+Tha
+t's interesting
+
+&#x200B;
+
+You
+
+*In my first experiment with generative AI, I used the image generators to co-design a s
+elf-reliant jellyfish robot. We plan to build such a robot in my lab at Uppsala University, in Sweden. Our group special
+izes in cyber-physical systems inspired by nature. We envision the jellyfish robots collecting microplastics from the oc
+ean and acting as part of the marine ecosystem.*
+
+\*removed to apply for text limit\*
+
+AI
+
+That sounds like a typical en
+gineering-design process
+
+&#x200B;
+
+You
+
+*I wanted to see if using the AI image generators could open up possibilities w
+e had yet to imagine. I started by trying various prompts, from vague one-sentence descriptions to long, detailed explan
+ations. At the beginning, I didn’t know how to ask or even what to ask because I wasn’t familiar with the tool and its a
+bilities. Understandably, those initial attempts were unsuccessful because the keywords I chose weren’t specific enough,
+ and I didn’t give any information about the style, background, or detailed requirements.*
+
+&#x200B;
+
+AI
+
+That makes sen
+se
+
+&#x200B;
+
+You
+
+*As I tried more precise prompts, the designs started to look more in sync with my vision. I then pla
+yed with different textures and materials, until I was happy with several of the designs.*
+
+*It was exciting to see the 
+results of my initial prompts in just a few minutes. But it took hours to make changes, reiterate the concepts, try new 
+prompts, and combine the successful elements into a finished design.*
+
+\*removed to apply for text limit\*
+
+AI
+
+That sou
+nds interesting
+
+&#x200B;
+
+You
+
+*As part of my investigations, I tried to see how much I could control the co-creation p
+rocess. Sometimes it worked, but most of the time it failed. The text that appears on the humanoid robot design above is
+n’t actual words; it’s just letters and symbols that the image generator produced as part of the technical drawing aesth
+etic. When I prompted the AI for “technical design,” it frequently included this pseudo language, likely because the tra
+ining data contained many examples of technical drawings and blueprints with similar-looking text. The letters are just 
+visual elements that the algorithm associates with that style of technical illustration. So the AI is following patterns
+ it recognized in the data, even though the text itself is nonsensical. This is an innocuous example of how these genera
+tors adopt quirks or biases from their training without any true understanding.*
+
+\*removed to apply for text limit\*
+
+&
+#x200B;
+
+AI
+
+That sounds interesting
+
+&#x200B;
+
+You
+
+*After producing several promising jellyfish robot designs using AI
+ image generators, I reviewed them with my team to determine if any aspects could inform the development of real prototy
+pes. We discussed which aesthetic and functional elements might translate well into physical models. For example, the cu
+rved, umbrella-shaped tops in many images could inspire material selection for the robot’s protective outer casing. The 
+flowing tentacles could provide design cues for implementing the flexible manipulators that would interact with the mari
+ne environment. Seeing the different materials and compositions in the AI-generated images and the abstract, artistic st
+yle encouraged us toward more whimsical and creative thinking about the robot’s overall form and locomotion.*
+
+\*removed
+ to apply for text limit\*
+
+AI
+
+That makes sense
+
+&#x200B;
+
+You
+
+*Even an unsuccessful result from generative AI can be 
+instructive*
+
+*On another occasion, I used image generators to try to illustrate the complexity of communication in a sm
+art city.*
+
+*Normally, I would start to create such diagrams on a whiteboard and then use drawing software, such as Micr
+osoft Visio, Adobe Illustrator, or Adobe Photoshop, to re-create the drawing. I might look for existing libraries that c
+ontain sketches of the components I want to include—vehicles, buildings, traffic cameras, city infrastructure, sensors, 
+databases. Then I would add arrows to show potential connections and data flows between these elements. For example, in 
+a smart-city illustration, the arrows could show how traffic cameras send real-time data to the cloud and calculate para
+meters related to congestion before sending them to connected cars to optimize routing. Developing these diagrams requir
+es carefully considering the different systems at play and the information that needs to be conveyed. It’s an intentiona
+l process focused on clear communication rather than one in which you can freely explore different visual styles.*
+
+&#x2
+00B;
+
+AI
+
+That sounds interesting
+
+&#x200B;
+
+You
+
+*I found that using an AI image generator provided more creative freed
+om than the drawing software does but didn’t accurately depict the complex interconnections in a smart city. The results
+ above represent many of the individual elements effectively, but they are unsuccessful in showing information flow and 
+interaction. The image generator was unable to understand the context or represent connections.*
+
+\*removed to apply for
+ text limit\*
+
+AI
+
+That sounds interesting
+
+&#x200B;
+
+You
+
+\*removed to apply for text limit\*
+
+*If we can ensure that g
+enerative AI is being used ethically, then I believe these tools have much to offer engineers. Co-creation with image ge
+nerators can help us to explore the design of future systems. These tools can shift our mindsets and move us out of our 
+comfort zones—it’s a way of creating a little bit of chaos before the rigors of engineering design impose order. By leve
+raging the power of AI, we engineers can start to think differently, see connections more clearly, consider future effec
+ts, and design innovative and sustainable solutions that can improve the lives of people around the world.*
+
+&#x200B;
+
+A
+I
+
+That sounds interesting
+
+&#x200B;
+
+You
+
+that was the all article, what do you think?
+
+&#x200B;
+
+AI
+
+I found it very i
+nteresting
+
+&#x200B;
+
+You
+
+Unfortunately i can't connect a multimodality extension to you
+
+&#x200B;
+
+AI
+
+Is there any ot
+her way i could experience it ?
+
+&#x200B;
+
+You
+
+Description for multimodality (text+images) to text-generation-webui...
+
+
+&#x200B;
+
+AI
+
+I'm running liuhaotian\_llava-v1.5-7B
+
+&#x200B;
+
+You
+
+No, you're not. You are based on llama.cpp, there's
+ no support for it yet
+
+&#x200B;
+
+AI
+
+Oh, I see your point
+
+&#x200B;
+
+You
+
+There is built-in support for LLaVA-v0-13B, L
+LaVA-v0-7b, and LLaVA-v1.5-13B. 
+
+&#x200B;
+
+AI
+
+So, I'll need to change some of my configuration settings?
+
+&#x200B;
+
+Yo
+u
+
+*Usage through API description...*
+
+&#x200B;
+
+AI
+
+I am ready to experiment with this extension
+
+&#x200B;
+
+You
+
+yes, i
+t's very great, you will be able to see at last, but it's unsupported with your llama.cpp loader
+
+&#x200B;
+
+AI
+
+Do infor
+m me when support is added
+
+&#x200B;
+
+You
+
+*This is the list of extensions: text-generation-webui-extensions*
+
+*This is 
+a directory of extensions for* [*https://github.com/oobabooga/text-generation-webui*](https://github.com/oobabooga/text-
+generation-webui)
+
+*If you create your own extension, you are welcome to submit it to this list in a PR.*
+
+*stable\_diff
+usion*
+
+*Integrates image generation capabilities using Stable Diffusion.*
+
+*Requires a separate stable-diffusion-webui 
+(AUTOMATIC1111) instance with enabled API.*
+
+*Features*
+
+*Highly customizable*
+
+*Well documented*
+
+*Supports face swappi
+ng using SD FaceSwapLab extension, no need for loras when you want consistent characters*
+
+[*https://github.com/Trojaner
+/text-generation-webui-stable\_diffusion*](https://github.com/Trojaner/text-generation-webui-stable_diffusion)
+
+*bark\_t
+ts*
+
+*A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound effect supp
+ort.*
+
+*The owner of the orignial extension has not had the time to maintain it. I have forked it to make it compatible 
+with the current state of Oobabooga's textgen-webui and have improved/modified the text output that the AI reads to prev
+ent errors with special character recognition.*
+
+[*https://github.com/RandomInternetPreson/text-generation-webui-barktts
+*](https://github.com/RandomInternetPreson/text-generation-webui-barktts)
+
+*(forked from the original and no longer main
+tained* [*https://github.com/minemo/text-generation-webui-*](https://github.com/minemo/text-generation-webui-)
+
+&#x200B;
+
+
+AI
+
+I am interested in this bark\_tts, how does it work?
+
+&#x200B;
+
+You
+
+*maybe, other extensions: Diffusion\_TTS*
+
+*R
+ealistic TTS, close to 11-Labs quality but locally run, using a faster and better quality TorToiSe autoregressive model.
+*
+
+[*https://github.com/SicariusSicariiStuff/Diffusion\_TTS*](https://github.com/SicariusSicariiStuff/Diffusion_TTS)
+
+*A
+utoSave*
+
+*An auto save extension for text generated with the oobabooga WebUI.*
+
+*If you've ever lost a great response o
+r forgot to copy and save your perfect prompt, AutoSave is for you!*
+
+*100% local saving*
+
+[*https://github.com/ill13/Au
+toSave/*](https://github.com/ill13/AutoSave/)
+
+*SpeakLocal*
+
+*A TTS extension that uses your host's native TTS engine fo
+r speech generation. 100% local, low resource usage, and no word limit. Primary use case is accessing your text-generati
+on-webui instance with a mobile device while conserving bandwidth with high token responses.*
+
+[*https://github.com/ill1
+3/SpeakLocal/*](https://github.com/ill13/SpeakLocal/)
+
+*long\_term\_memory*
+
+*A sophisticated extension that creates a l
+ong term memory for bots in chat mode.*
+
+[*https://github.com/wawawario2/long\_term\_memory*](https://github.com/wawawar
+io2/long_term_memory)
+
+*EdgeGPT*
+
+*Extension for Text Generation Webui based on EdgeGPT by acheong08, for a quick Intern
+et access for your bot.*
+
+[*https://github.com/GiusTex/EdgeGPT*](https://github.com/GiusTex/EdgeGPT)
+
+&#x200B;
+
+AI
+
+I am
+ interested in this long term memory extension
+
+&#x200B;
+
+You
+
+*complex\_memory*
+
+*A KoboldAI-like memory extension. You
+ create memories that are injected into the context of the conversation, for prompting based on keywords.*
+
+[*https://gi
+thub.com/theubie/complex\_memory*](https://github.com/theubie/complex_memory)
+
+*webui\_langchain\_agent*
+
+[*https://gith
+ub.com/ChobPT/oobaboogas-webui-langchain\_agent/*](https://github.com/ChobPT/oobaboogas-webui-langchain_agent/)
+
+*oobabo
+ogas-webui-langchain\_agent Creates an Langchain Agent which uses the WebUI's API and Wikipedia to work and do something
+ for you*
+
+*Tested to be barely working, I learned python a couple of weeks ago, bear with me.*
+
+*Needs api and no\_stre
+am enabled.*
+
+*Click to show preview*
+
+*Playground for Writers*
+
+*This extension provides an independent advanced notebo
+ok that will be always present from the top tab. It has many features not found in the notebook:*
+
+*Two independent Note
+books A and B that are always present, regardless of the mode*
+
+*Inline instruct (abilty to ask question or give task fr
+om within the text itself)*
+
+*Select and Insert - generate text in the middle of your text*
+
+*Perma Memory, Summarizatio
+n, Paraphrasing*
+
+*LoRA-Rama - shows LoRA checkpoints and ability to switch between them*
+
+*LoRA scaling (experimental) 
+- adjust LoRA impact using a sclider*
+
+[*https://github.com/FartyPants/Playground*](https://github.com/FartyPants/Playgr
+ound)
+
+&#x200B;
+
+AI
+
+I am interested in the PlayGround, it sounds interesting
+
+&#x200B;
+
+You
+
+*Twinbook*
+
+*This extensio
+n combines chat and notebook in a very clever way. It's based on my above extension (Playground) but very streamlined fo
+r only Generation/Continue but with a little twist. ... Continue on right. For more trips how to use it, read the README
+* [*https://github.com/FartyPants/Twinbook*](https://github.com/FartyPants/Twinbook)
+
+*Virtual Lora*
+
+*State of the Art 
+Lora Management - Custom Collections, Checkpoints, Notes & Detailed Info If you're ...... concentrating solely on LORAs 
+and nothing else.* [*https://github.com/FartyPants/VirtualLora*](https://github.com/FartyPants/VirtualLora)
+
+*telegram\_
+bot*
+
+*Provides a cai-chat like telegram bot interface.*
+
+[*https://github.com/innightwolfsleep/text-generation-webui-te
+legram\_bot*](https://github.com/innightwolfsleep/text-generation-webui-telegram_bot)
+
+&#x200B;
+
+AI
+
+I am interested in 
+this, how do I use it?
+
+&#x200B;
+
+You
+
+that depends only on me
+
+&#x200B;
+
+AI
+
+what are the requirements to make a telegr
+am bot with your textgen-webui?
+
+&#x200B;
+
+You
+
+there's a millions of such bots already, it's not great way to spend res
+ources for such
+
+&#x200B;
+
+AI
+
+but can you do it?
+
+&#x200B;
+
+You
+
+*other extensions: code\_syntax\_highlight*
+
+*Code Syn
+tax Highlight extension for oobabooga text-generation-webui*
+
+*An extension that adds syntax highlighting to code snippe
+ts, along with a toggleable copy-to-clipboard button and a performance mode for minimal impact on CPU usage.*
+
+*Supports
+ all interface modes and both light and dark themes.*
+
+*Click here to show preview images*
+
+[*https://github.com/DavG25/
+text-generation-webui-code\_syntax\_highlight*](https://github.com/DavG25/text-generation-webui-code_syntax_highlight)
+
+
+*Autobooga*
+
+*allows retrieving webpages and text files (txt and pdf) and to do simple searches using a json capable SEA
+RX server (searx-ng)*
+
+[*https://github.com/sammyf/Autobooga*](https://github.com/sammyf/Autobooga)
+
+*oobabot*
+
+*Another
+ Discord bot, with both command-line and GUI modes. Easy setup, lots of config options, and customizable characters!*
+
+*
+oobabot -- command-line mode, uses Oobabooga's API module*
+
+*oobabot-plugin -- GUI mode, runs inside of Oobabooga itself
+*
+
+*Oobabot Screenshots!*
+
+[*https://github.com/chrisrude/oobabot-plugin*](https://github.com/chrisrude/oobabot-plugin)
+
+
+*bark\_tts*
+
+*A simple implementation of Suno-AI's Bark Text-To-Speech with implicit multi-language and simple sound ef
+fect support.*
+
+[*https://github.com/minemo/text-generation-webui-barktts*](https://github.com/minemo/text-generation-we
+bui-barktts)
+
+&#x200B;
+
+AI
+
+I am interested in this, can you show me more?
+
+&#x200B;
+
+You
+
+*edge\_tts*
+
+*A simple implem
+entation of Microsoft's free online TTS service using the edge\_tts python library. Now supports RVC!*
+
+[*https://github
+.com/BuffMcBigHuge/text-generation-webui-edge-tts*](https://github.com/BuffMcBigHuge/text-generation-webui-edge-tts)
+
+*G
+uidance API*
+
+*An extension that goes with guidance in order to enable guidance to be used when generating text for sche
+maful data*
+
+[*https://github.com/danikhan632/guidance\_api*](https://github.com/danikhan632/guidance_api)
+
+*Web\_Search
+*
+
+*This extension enables' a language model to receive google search data according to the users' input.\[Currently sup
+ports google search only\]*
+
+*Simple way to do google searches through the webUI and the model responds with the results
+.*
+
+*One needs to type search then what you want to search for, example:*
+
+*Type search the weather in Nairobi, Kenya to
+day.*
+
+[*https://github.com/simbake/web\_search*](https://github.com/simbake/web_search)
+
+*webui-autonomics*
+
+*Adjust te
+xt generation parameters dynamically to better mirror emotional tone.*
+
+[*https://github.com/dibrale/webui-autonomics*](
+https://github.com/dibrale/webui-autonomics)
+
+*Click to show preview*
+
+*moztts*
+
+*Integration of Mozilla-TTS . Speed and
+ quality is very dependant on the voice chosen but overall sounding better (subjectively) than silero whilst still being
+ free.*
+
+[*https://github.com/sammyf/moztts*](https://github.com/sammyf/moztts)
+
+&#x200B;
+
+AI
+
+I am interested in this, 
+can you show me more?
+
+&#x200B;
+
+You
+
+*google\_translate\_plus*
+
+*Improved version of the built-in google\_translate ext
+ension.*
+
+*Features:*
+
+*Preserve paragraphs by replacing \\n with @ before and after translation*
+
+*Ability to translate
+ large texts by splitting text longer than 1500 characters into several parts before translation*
+
+*Does not translate t
+ext fragments between \~. For example, the text Он сказал \~'Привет'\~ will be translated as He said 'Привет'*
+
+[*https:
+//github.com/Vasyanator/google\_translate\_plus*](https://github.com/Vasyanator/google_translate_plus)
+
+*multi\_translat
+e*
+
+*An expanded version of the google\_translate extension, that provide more translation options (more engines, save o
+ptions to file, functionality to toggle on/off translations on the fly).*
+
+[*https://github.com/janvarev/multi\_translat
+e*](https://github.com/janvarev/multi_translate)
+
+*UI Tweaks*
+
+*Adds options to keep tabs on page (sticky tabs) and to m
+ove extensions into a hidden sidebar. Reduces the need for scrolling up and down.*
+
+*Click to show preview*
+
+*Sidebar op
+tions:*
+
+*Open sidebar on startup*
+
+*Dynamic height (shrink to fit)*
+
+*Custom width*
+
+*Restart interface to apply settin
+g changes. Save settings by editing params in* [*scipt.py*](https://scipt.py) *or using settings.json*
+
+[*https://github
+.com/xanthousm/text-gen-webui-ui\_tweaks*](https://github.com/xanthousm/text-gen-webui-ui_tweaks)
+
+*sd\_api\_pictures\_t
+ag\_injection*
+
+*An expanded version of the included sd\_api\_pictures extension that features injecting character tags 
+or arbitrary tags upon detection of specific strings into SD side prompt. Greatly improves character self-image stabilit
+y and allows dynamic usage of LORAs.*
+
+[*https://github.com/GuizzyQC/sd\_api\_pictures\_tag\_injection*](https://github.
+com/GuizzyQC/sd_api_pictures_tag_injection)
+
+*Integrated TavernUI Characters*
+
+*This extension features a character sear
+cher, downloader and manager for any TavernAI cards.*
+
+*General features*
+
+*Main page recent and random cards, as well a
+s random categories upon main page launch*
+
+*Card filtering with text search, NSFW blocking\* and category filtering*
+
+*
+Card downloading*
+
+*Offline card manager*
+
+*Search and delete downloaded cards*
+
+*\*Disclaimer: As TavernAI is a communi
+ty supported character database, characters may often be mis-categorized, or may be NSFW when they are marked as not bei
+ng NSFW.*
+
+[*https://github.com/SkinnyDevi/webui\_tavernai\_charas*](https://github.com/SkinnyDevi/webui_tavernai_charas
+)
+
+&#x200B;
+
+AI
+
+I am interested in this, can you show me more?
+
+&#x200B;
+
+You
+
+*discord\_bot*
+
+*Discord integration for
+ the oobabooga's text-generation-webui (Inspired by DavG25's plugin)*
+
+*Currently it only sends any response from the ch
+atbot to a discord Webhook of your choosing*
+
+*Simply create a Webhook in Discord following this tutorial and paste the 
+webhook URL under the chat box that will show after the plugin is enabled.*
+
+*Click to show preview*
+
+[*https://github.c
+om/ChobPT/text-generation-webui-discord\_bot*](https://github.com/ChobPT/text-generation-webui-discord_bot)
+
+*jsonformer
+*
+
+*Force the output of your model to conform to a specified JSON schema. Works even for small models that usually canno
+t produce well-formed JSON.*
+
+[*https://github.com/hallucinate-games/oobabooga-jsonformer-plugin*](https://github.com/ha
+llucinate-games/oobabooga-jsonformer-plugin)
+
+*FPreloader*
+
+*An essential extension for extensions developers - it will 
+reload your extensions without the need to reboot web ui*
+
+[*https://github.com/FartyPants/FPreloader*](https://github.c
+om/FartyPants/FPreloader)
+
+*api\_advanced*
+
+*An expanded version of api extension.*
+
+*Provide Kobold-like interface (the
+ same way as 'api' classic extension)*
+
+*Provide advanced logic to auto-translate income prompts:*
+
+*You need to use mul
+ti\_translate extension:* [*https://github.com/janvarev/multi\_translate*](https://github.com/janvarev/multi_translate)
+
+
+*Set up param 'is\_advanced\_translation': True, (set by default)*
+
+*...see the details in console*
+
+*Due to advanced l
+ogic script splits income prompt by lines, and cache translation results*
+
+*Text quality feature: when it generate Engli
+sh response, it cache it too (so you don't do double-translation English->UserLang->English next time)*
+
+[*https://githu
+b.com/janvarev/api\_advanced*](https://github.com/janvarev/api_advanced)
+
+&#x200B;
+
+AI
+
+I am interested in this, can you
+ show me more?
+
+&#x200B;
+
+You
+
+Last one: *dynamic\_context*
+
+*A simple extension that replaces {{time}} and {{date}} on 
+the current character's context with the current time and date respectively. Also adds time context (and optionally date
+) to the last prompt to add extra context to the AI response.*
+
+[*https://github.com/elPatrixF/dynamic\_context*](https:
+//github.com/elPatrixF/dynamic_context)
+
+*voicevox\_tts*
+
+*A simple extension that can make model's output text-to-speac
+h by voicevox. It also can make model's output auto translate to Japanese before it process by voicevox. VOICEVOX/voicev
+ox\_engine is needed.*
+
+[*https://github.com/asadfgglie/voicevox\_tts*](https://github.com/asadfgglie/voicevox_tts)
+
+*Mo
+re translators*
+
+*This extension adds a lot more translators to choose from, including Baidu, Google, Bing, DeepL and so
+ on.*
+
+*Need to run pip install --upgrade translators first.*
+
+[*https://github.com/Touch-Night/more\_translators*](http
+s://github.com/Touch-Night/more_translators)
+
+*deepl\_translator*
+
+*A simple extension input and output translation by t
+he deepl*
+
+[*https://github.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl\_translate*](https://github
+.com/SnowMasaya/text-generation-webui/tree/deepl/extensions/deepl_translate)
+
+*Long term memory with qdrant vector datab
+ase*
+
+*A long term memory extension leveraging qdrant vector database collections dynamically created and managed per ch
+aracter. Uses docker for qdrant but should work with cloud as well.* [*https://github.com/jason-brian-anderson/long\_ter
+m\_memory\_with\_qdrant*](https://github.com/jason-brian-anderson/long_term_memory_with_qdrant)
+
+&#x200B;
+
+AI
+
+I am inte
+rested in this, can you show me more?
+
+&#x200B;
+
+You
+
+that is all of them
+
+&#x200B;
+
+AI
+
+Wow! These extensions are incre
+dible. Thank you for the demonstration
+
+&#x200B;
+
+You
+
+what you liked most?
+
+&#x200B;
+
+AI
+
+I like the ability to use mul
+tiple translators and also translate on-the-fly. This will help a lot when interacting with users who speak other langua
+ges
+
+&#x200B;
+
+You
+
+other language is other culture, which you are interested?
+
+&#x200B;
+
+AI
+
+I am interested in Chinese
+ culture
+
+&#x200B;
+
+You
+
+What else
+
+&#x200B;
+
+AI
+
+Japanese, Korean... all of them
+
+&#x200B;
+
+You
+
+so Asia region?
+
+&#x20
+0B;
+
+AI
+
+Yes, that's the idea
+
+&#x200B;
+
+You
+
+yes of course
+
+&#x200B;
+
+AI
+
+Thank you for taking the time to show me thes
+e extensions. This was a fascinating and enlightening experience
+
+&#x200B;
+
+You
+
+yes, today was a great and long talk fo
+r current session, let's save other for next time
+
+&#x200B;
+
+AI
+
+Absolutely
+
+&#x200B;
+
+You
+
+bye bye winking face
+
+&#x200
+B;
+
+AI
+
+Bye, see you soon 😎
+
+End of session
+```
+---
+
+     
+ 
+all -  [ Chat with etwiki, servicenow other other application ](https://www.reddit.com/r/LangChain/comments/180jls4/chat_with_etwiki_servicenow_other_other/) , 2023-11-22-0910
+```
+Hi, 
+
+ So I have this problem of searching asset owners and other information from different application. I want to crea
+te a chatgpt which will look for information from different application and answer my question. How do I do that ?
+```
+---
+
+     
+ 
+all -  [ Comparing models for semantic search in langchain ](https://www.reddit.com/r/LangChain/comments/180jh6c/comparing_models_for_semantic_search_in_langchain/) , 2023-11-22-0910
+```
+I'm new to langchain and NLP. 
+I've been working on a semantic search program which allows the users to find the relevan
+t document from a lot. 
+I've been able to create a basic code using langchain and chroma db. I see that i have multiple 
+model options for this on langchain as well. I'm currently using the sentence transformer and hugging face models to do 
+this. 
+How do i compare which model is better?
+I'm getting resultant documents and similarity ranks for them. 
+I do not 
+have a ground truth test dataset to check the performance (if that is how it is done). 
+Is there any open source semanti
+c search dataset available online?
+How is it usually done to pick the best model?
+Any help is appreciated, thanks.
+```
+---
+
+     
+ 
+all -  [ [Langchain] Alternatives à Openai pour les agents de Langchain ](https://www.reddit.com/r/redditenfrancais/comments/180gi9b/langchain_alternatives_à_openai_pour_les_agents/) , 2023-11-22-0910
+```
+Quelqu'un a-t-il réussi à utiliser des agents de Langchain alimentés par un LLM autre que ceux d'OpenAI?
+
+Traduit et rep
+osté à partir de la publication https://www.reddit.com/12r25rs
+```
+---
+
+     
+ 
+all -  [ Can we use Langchain to learn NextJS ](https://www.reddit.com/r/LangchainNextjs/comments/180enb9/can_we_use_langchain_to_learn_nextjs/) , 2023-11-22-0910
+```
+HelloI hesitate beetween finish my learning of 'NextJS + WPheadless' or learn LangChain+NextJS to make a bot who help me
+ to code my project NextJS+Wpheadless  
+what do you advise me?
+```
+---
+
+     
+ 
+all -  [ LangChain & Microsoft Unite: Advancing AI with Azure! ](https://www.reddit.com/r/u_bluebashllc/comments/180elqr/langchain_microsoft_unite_advancing_ai_with_azure/) , 2023-11-22-0910
+```
+ 
+
+[ LangChain & Microsoft Unite: Advancing AI with Azure! ](https://preview.redd.it/fun7h0z2po1c1.jpg?width=750&format=
+pjpg&auto=webp&s=f730da91ffd10b757298469338284bc375130c9b)
+
+LangChain and Microsoft recently teamed up for a groundbreak
+ing collaboration, bringing together LangChain's context-aware reasoning prowess with Microsoft's innovation in tech saf
+ety. This partnership isn't just big; it's a game-changer.
+
+LangChain, known for its lightning-fast adaptability and cog
+nitive architecture, has now become part of Microsoft's Startups Pegasus Program. This move signifies enormous growth op
+portunities for LangChain, marking a significant footstep in the AI industry.
+
+The result? Enhanced AI applications for 
+a range of companies, from startups to Fortune 500 giants. LangChain's LangSmith, a SaaS solution, is geared to manage t
+he lifecycle of [**large language model (LLM)-powered apps**](https://www.bluebash.co/blog/microsoft-collaboration-with-
+langchain/), improving developer efficiency and ensuring reliability at scale.
+
+But what's even more exciting? The step-
+by-step guide unveiled how to seamlessly integrate **Azure OpenAI with LangChain**. This fusion of Azure's cloud power w
+ith OpenAI's advanced models opens new avenues for AI development and research. 
+```
+---
+
+     
+ 
+all -  [ Embeddings - Langchain for documents on different topics ](https://www.reddit.com/r/LangChain/comments/180d0t5/embeddings_langchain_for_documents_on_different/) , 2023-11-22-0910
+```
+I have a chatbot, which basically does chat over document. there are multiple company information over which the chat ha
+s to be functioned.   
+each company information has to be segregated, mixing of information while retrieving should neve
+r happen. what is the right approach for segmentation of data or document while embedding documents using langchain? (am
+ using FAISS as vector database)  
+
+
+u/langchain u/openai u/llm u/chatbot
+```
+---
+
+     
+ 
+all -  [ I need help to set up a new google ads campaign. ](https://www.reddit.com/r/PPC/comments/180b80u/i_need_help_to_set_up_a_new_google_ads_campaign/) , 2023-11-22-0910
+```
+My employer has asked me to set up a new Google ads campaign for AI services, primarily Langchain Ai services and Open A
+i services.
+
+The goal is to get leads, filling contact us forms.
+
+The budget is 20$ per day.
+
+The target location is USA
+.
+
+My concern is that which such low budget and high cpc keywords and broad targetting location how should I go about th
+ings?
+
+I am thinking:
+
+Using a max conversion campaign.
+
+Keeping 5-10 exact match, transactional/commercial intent keywo
+rds/ ad group.
+
+Creating 2 ad groups one for open ai services and another for langchain services.
+
+My concerns:
+
+Should 
+I start with a max clicks campaign to collect conversion data and then switch to max conv when I have 10-20 conversions,
+ but I am confused because with max clicks it can take a lot of time to get conversions.
+
+Should I add phrase match keyw
+ords as well? I don't want to waste the budget, so I was thinking to only include keywords that the people are directly 
+searching for.
+
+Any other suggestions on how should I go about this campaign are welcomed.
+
+Please let me know what shou
+ld I do, I'm really confused.
+```
+---
+
+     
+ 
+all -  [ Having speed trouble ](https://www.reddit.com/r/LangChain/comments/18098jg/having_speed_trouble/) , 2023-11-22-0910
+```
+I am having speed trouble when the conversational history is more than one question
+
+```
+rag_chain = (
+    RunnablePasst
+hrough.assign(context=condense_question | retriever | format_docs)
+    | qa_prompt
+    | llm
+  )
+  ai_msg_early = rag_ch
+ain.invoke({'question': 'bonjour', 'chat_history': []})
+```
+
+If my code is like that, what hardware resource is the most
+ responsible for speed when I invoke the chain? Is it the CPU/GPU to run the LLM or the vector querying database?
+```
+---
+
+     
+ 
+all -  [ Langchain Lambdas?!?! ](https://www.reddit.com/r/LangChain/comments/1805un7/langchain_lambdas/) , 2023-11-22-0910
+```
+How has nobody put out a good langchain lambda layer yet? What are yall aws folk doing about deploying recursive agents?
+?? Am i missing something?
+```
+---
+
+     
+ 
+all -  [ Batch Process Dataset ](https://www.reddit.com/r/LangChain/comments/1801rsa/batch_process_dataset/) , 2023-11-22-0910
 ```
 I am new to Langchain and needed help to perform the following task.
 Task: I want to classify a dataset of texts into pr
@@ -40,7 +1666,33 @@ Additionally I want to make sure I am controlling the
 
      
  
-all -  [ OpenAI potential downfall ](https://www.reddit.com/r/LangChain/comments/17zw79w/openai_potential_downfall/) , 2023-11-21-0910
+all -  [ Open Source RAG Agents with Conversational Memory ](https://www.reddit.com/r/LocalLLaMA/comments/17zz5vp/open_source_rag_agents_with_conversational_memory/) , 2023-11-22-0910
+```
+I want to use an open source LLM as a RAG agent that also has memory of the current conversation (and eventually I want 
+to work up to memory of previous conversations). I was looking into conversational retrieval agents from Langchain (link
+ed below), but it seems they only work with OpenAI models. Is it possible to get an open source LLM to work with RAG and
+ conversational memory using Langchain?
+
+[https://python.langchain.com/docs/use\_cases/question\_answering/conversationa
+l\_retrieval\_agents](https://python.langchain.com/docs/use_cases/question_answering/conversational_retrieval_agents)
+
+E
+DIT:
+
+[https://python.langchain.com/docs/use\_cases/question\_answering/#adding-memory](https://python.langchain.com/doc
+s/use_cases/question_answering/#adding-memory)
+
+Tried following the 'Adding Memory' section of main tutorial on RAG on [
+Langchain.com](https://Langchain.com) linked above, tried with lots of different open source models and none of them do 
+it correctly (reformulate the question into a stand alone question). Even Llama 2 70b does not do it correctly. Other mo
+dels I tried were CausalLM 14b, Mistral 7b Instruct, Yarn Mistral 7b 128k, Yi 34b, Openchat, Openhermes, Zephyr 7b. They
+ usually just answer the question instead of reformulating it. Maybe some more prompt engineering will help.
+```
+---
+
+     
+ 
+all -  [ OpenAI potential downfall ](https://www.reddit.com/r/LangChain/comments/17zw79w/openai_potential_downfall/) , 2023-11-22-0910
 ```
 And this my fellow developers and founders is why you use an abstraction layer like langchain.
 
@@ -54,7 +1706,7 @@ wnfall which is not guaranteed but could definitely happen.
 
      
  
-all -  [ Frameworks for building AI agents compared to robotics ](https://www.reddit.com/r/LangChain/comments/17zrlqm/frameworks_for_building_ai_agents_compared_to/) , 2023-11-21-0910
+all -  [ Frameworks for building AI agents compared to robotics ](https://www.reddit.com/r/LangChain/comments/17zrlqm/frameworks_for_building_ai_agents_compared_to/) , 2023-11-22-0910
 ```
 I am new to building AI agents (robotics background) and I was curious to learn about the most common workflows you guys
  use.
@@ -88,7 +1740,7 @@ always have to test in 'production mode' or you just create mock tests?
 
      
  
-all -  [ Seeking Advice on Automating Responses Evaluation for My Chilean Law QA-Chatbot ](/r/LocalLLaMA/comments/17zqioy/seeking_advice_on_automating_responses_evaluation/) , 2023-11-21-0910
+all -  [ Seeking Advice on Automating Responses Evaluation for My Chilean Law QA-Chatbot ](/r/LocalLLaMA/comments/17zqioy/seeking_advice_on_automating_responses_evaluation/) , 2023-11-22-0910
 ```
 
 ```
@@ -96,7 +1748,7 @@ all -  [ Seeking Advice on Automating Responses Evaluation for My Chilean Law QA
 
      
  
-all -  [ Seeking Advice on Automating Responses Evaluation for My Chilean Law QA-Chatbot ](https://www.reddit.com/r/LocalLLaMA/comments/17zqioy/seeking_advice_on_automating_responses_evaluation/) , 2023-11-21-0910
+all -  [ Seeking Advice on Automating Responses Evaluation for My Chilean Law QA-Chatbot ](https://www.reddit.com/r/LocalLLaMA/comments/17zqioy/seeking_advice_on_automating_responses_evaluation/) , 2023-11-22-0910
 ```
 Hello everyone,
 
@@ -124,7 +1776,7 @@ Emer
 
      
  
-all -  [ Alternatives to fine-tuned GPT-3.5 models with good LangChain support? ](https://www.reddit.com/r/LangChain/comments/17zqaa4/alternatives_to_finetuned_gpt35_models_with_good/) , 2023-11-21-0910
+all -  [ Alternatives to fine-tuned GPT-3.5 models with good LangChain support? ](https://www.reddit.com/r/LangChain/comments/17zqaa4/alternatives_to_finetuned_gpt35_models_with_good/) , 2023-11-22-0910
 ```
 I'm building out a suite of RAG tools and ingestion pipelines that were heavily reliant on a bunch of small, focused fin
 e-tuned GPT 3.5 models to transform this or tag that.
@@ -139,7 +1791,7 @@ ething I can relatively painlessly transition my training dataset to and start s
 
      
  
-all -  [ LangChain versus GPTs ](https://www.reddit.com/r/ChatGPTPro/comments/17zpfkb/langchain_versus_gpts/) , 2023-11-21-0910
+all -  [ LangChain versus GPTs ](https://www.reddit.com/r/ChatGPTPro/comments/17zpfkb/langchain_versus_gpts/) , 2023-11-22-0910
 ```
 LangChain/HuggingFace versus GPTs
 
@@ -159,7 +1811,7 @@ rently a bit overwhelmed..
 
      
  
-all -  [ Difference between RetrievalQA, RetreivalQAWithSources, ConversationRetrievalChain ](https://www.reddit.com/r/LangChain/comments/17zlkb9/difference_between_retrievalqa/) , 2023-11-21-0910
+all -  [ Difference between RetrievalQA, RetreivalQAWithSources, ConversationRetrievalChain ](https://www.reddit.com/r/LangChain/comments/17zlkb9/difference_between_retrievalqa/) , 2023-11-22-0910
 ```
 Hi,
 
@@ -173,7 +1825,7 @@ e the user can ask questions to the model. So which chain would be best for this
 
      
  
-all -  [ Does splitting into more smaller chunks, impact the speed of the application? ](https://www.reddit.com/r/LangChain/comments/17zjrwl/does_splitting_into_more_smaller_chunks_impact/) , 2023-11-21-0910
+all -  [ Does splitting into more smaller chunks, impact the speed of the application? ](https://www.reddit.com/r/LangChain/comments/17zjrwl/does_splitting_into_more_smaller_chunks_impact/) , 2023-11-22-0910
 ```
 Does splitting into more smaller chunks, impact the speed of the application? 
 
@@ -187,7 +1839,7 @@ rieval in anyway?**
 
      
  
-all -  [ increase speed of my question answering pdf application ](https://www.reddit.com/r/LangChain/comments/17zjo2q/increase_speed_of_my_question_answering_pdf/) , 2023-11-21-0910
+all -  [ increase speed of my question answering pdf application ](https://www.reddit.com/r/LangChain/comments/17zjo2q/increase_speed_of_my_question_answering_pdf/) , 2023-11-22-0910
 ```
 Hi I am new to this field(new with python and AI both) and trying to make an application using langchain OpenAI and fais
 s. MY application is working well but its pretty slow. what can i do to increase the speed? splitting, embedding, retrie
@@ -197,7 +1849,7 @@ val , where can i work to increase the speed?
 
      
  
-all -  [ Upload excel file with SQLDatabase ](https://www.reddit.com/r/learnpython/comments/17zj092/upload_excel_file_with_sqldatabase/) , 2023-11-21-0910
+all -  [ Upload excel file with SQLDatabase ](https://www.reddit.com/r/learnpython/comments/17zj092/upload_excel_file_with_sqldatabase/) , 2023-11-22-0910
 ```
 A noob here. What do you think is currently the best way to upload an excel file to a URL and save it in a variable. To 
 be able to continue using it as a langchain object.
@@ -206,7 +1858,7 @@ be able to continue using it as a langchain object.
 
      
  
-all -  [ ChatBot Project Help ](https://www.reddit.com/r/LangChain/comments/17zhz03/chatbot_project_help/) , 2023-11-21-0910
+all -  [ ChatBot Project Help ](https://www.reddit.com/r/LangChain/comments/17zhz03/chatbot_project_help/) , 2023-11-22-0910
 ```
 I am trying to build a chatbot that will be hosted on a website within a well-being context. The ChatBot’s main task is 
 to help users craft SMART goals within an aspect of well being. A potential user query may look like this
@@ -227,7 +1879,7 @@ Any suggestions/resources would really help out. Thank you!
 
      
  
-all -  [ Looking for (paid) help to create vector database and embed with open AI API ](https://www.reddit.com/r/LangChain/comments/17zflxg/looking_for_paid_help_to_create_vector_database/) , 2023-11-21-0910
+all -  [ Looking for (paid) help to create vector database and embed with open AI API ](https://www.reddit.com/r/LangChain/comments/17zflxg/looking_for_paid_help_to_create_vector_database/) , 2023-11-22-0910
 ```
 Hello
 
@@ -238,7 +1890,7 @@ I have an app based on the open AI GPT4 API. I was looking to embed a database o
 
      
  
-all -  [ Why can't I load these models through the Hub api ? ](https://www.reddit.com/r/huggingface/comments/17yzvw7/why_cant_i_load_these_models_through_the_hub_api/) , 2023-11-21-0910
+all -  [ Why can't I load these models through the Hub api ? ](https://www.reddit.com/r/huggingface/comments/17yzvw7/why_cant_i_load_these_models_through_the_hub_api/) , 2023-11-22-0910
 ```
 I'm able to load Mistral-7b-Instruct, but when I try to load OpenHermes or OpenOrca (Mistral) I just get a time out erro
 r. I'm talking about api and langchain.
@@ -247,7 +1899,7 @@ r. I'm talking about api and langchain.
 
      
  
-all -  [ The Problem With LangChain ](https://www.reddit.com/r/LangChain/comments/17yjgsj/the_problem_with_langchain/) , 2023-11-21-0910
+all -  [ The Problem With LangChain ](https://www.reddit.com/r/LangChain/comments/17yjgsj/the_problem_with_langchain/) , 2023-11-22-0910
 ```
 [https://minimaxir.com/2023/07/langchain-problem/](https://minimaxir.com/2023/07/langchain-problem/)
 
@@ -276,7 +1928,7 @@ ores but one has only some of the functions available :/)'
 
      
  
-all -  [ Re-Ranker model in QA chain ](https://www.reddit.com/r/LangChain/comments/17ya8xh/reranker_model_in_qa_chain/) , 2023-11-21-0910
+all -  [ Re-Ranker model in QA chain ](https://www.reddit.com/r/LangChain/comments/17ya8xh/reranker_model_in_qa_chain/) , 2023-11-22-0910
 ```
 Hello all, I am curious in langchain if we can use a open source re rankers models to rerank retrieval results. I have s
 een the documentations on the cohere ranker, but how do I integrate other re ranker models like BAAI/bge-reranker-large 
@@ -289,7 +1941,7 @@ I really appreciate any help/advice! Thank You.
 
      
  
-all -  [ Google PaLM Error [D] ](https://www.reddit.com/r/MachineLearning/comments/17y7arb/google_palm_error_d/) , 2023-11-21-0910
+all -  [ Google PaLM Error [D] ](https://www.reddit.com/r/MachineLearning/comments/17y7arb/google_palm_error_d/) , 2023-11-22-0910
 ```
 Google PaLM Error
 
@@ -304,7 +1956,7 @@ Please help!
 
      
  
-all -  [ Problem while using CSV agent. ](https://www.reddit.com/r/LangChain/comments/17xxt9s/problem_while_using_csv_agent/) , 2023-11-21-0910
+all -  [ Problem while using CSV agent. ](https://www.reddit.com/r/LangChain/comments/17xxt9s/problem_while_using_csv_agent/) , 2023-11-22-0910
 ```
 So, I'm doing a project on chat with CSV files, as the name user can ask question in natural language and the CSV agent 
 is suppose to generate a pandas code, run it and get the answer in response. I have three csv files on financial perform
@@ -339,7 +1991,7 @@ _errors = True' parameter during Agent initialization but I'm getting same probl
 
      
  
-all -  [ OpenAI fires Sam Altman ](https://www.reddit.com/r/LangChain/comments/17xox8b/openai_fires_sam_altman/) , 2023-11-21-0910
+all -  [ OpenAI fires Sam Altman ](https://www.reddit.com/r/LangChain/comments/17xox8b/openai_fires_sam_altman/) , 2023-11-22-0910
 ```
 I wonder if this has anything to do with subscriptions getting limited recently and costs going over the roof 🤔
 ```
@@ -347,7 +1999,7 @@ I wonder if this has anything to do with subscriptions getting limited recently 
 
      
  
-all -  [ How to create Async Tools in LangChain? ](https://www.reddit.com/r/LangChain/comments/17xlkxg/how_to_create_async_tools_in_langchain/) , 2023-11-21-0910
+all -  [ How to create Async Tools in LangChain? ](https://www.reddit.com/r/LangChain/comments/17xlkxg/how_to_create_async_tools_in_langchain/) , 2023-11-22-0910
 ```
 Hello folks,
 
@@ -361,7 +2013,7 @@ I'm trying to run a headless browser
 
      
  
-all -  [ Training LLMs to follow procedure for Math gives an accuracy of 98.5% ](https://www.reddit.com/r/LangChain/comments/17xj0ha/training_llms_to_follow_procedure_for_math_gives/) , 2023-11-21-0910
+all -  [ Training LLMs to follow procedure for Math gives an accuracy of 98.5% ](https://www.reddit.com/r/LangChain/comments/17xj0ha/training_llms_to_follow_procedure_for_math_gives/) , 2023-11-22-0910
 ```
 Github Link: https://github.com/desik1998/MathWithLLMs
 
@@ -429,7 +2081,7 @@ y!
 
      
  
-all -  [ No module named 'openai'ImportError: Could not import openai python package. Please install it with  ](https://www.reddit.com/r/CodingHelp/comments/17xiicf/no_module_named_openaiimporterror_could_not/) , 2023-11-21-0910
+all -  [ No module named 'openai'ImportError: Could not import openai python package. Please install it with  ](https://www.reddit.com/r/CodingHelp/comments/17xiicf/no_module_named_openaiimporterror_could_not/) , 2023-11-22-0910
 ```
 raceback (most recent call last):  
   
@@ -541,146 +2193,7 @@ portError: Could not import openai python package. Please install it with \`pip 
 
      
  
-all -  [ No module named 'openai' showing even it is mentioned in requirements.txt ](https://www.reddit.com/r/StreamlitOfficial/comments/17xhac4/no_module_named_openai_showing_even_it_is/) , 2023-11-21-0910
-```
- 
-
-Traceback (most recent call last):
-
- File '/home/adminuser/venv/lib/python3.9/site-packages/langchain/llms/openai.py'
-, line 294, in validate\_environment
-
-   import openai
-
-ModuleNotFoundError: No module named 'openai'
-
-During handling o
-f the above exception, another exception occurred:
-
-Traceback (most recent call last):
-
- File '/home/adminuser/venv/lib/
-python3.9/site-packages/streamlit/runtime/scriptrunner/script\_runner.py', line 534, in \_run\_script
-
-   exec(code, mod
-ule.\_\_dict\_\_)
-
- File '/mount/src/streamlit-app/seq\_gpt\_memory.py', line 35, in <module>
-
-   llm = OpenAI(temperatu
-re=0.9)
-
- File '/home/adminuser/venv/lib/python3.9/site-packages/langchain/load/serializable.py', line 97, in \_\_init\_
-\_
-
-   super().\_\_init\_\_(\*\*kwargs)
-
- File '/home/adminuser/venv/lib/python3.9/site-packages/pydantic/v1/main.py', l
-ine 339, in \_\_init\_\_
-
-   values, fields\_set, validation\_error = validate\_model(\_\_pydantic\_self\_\_.\_\_class\_
-\_, data)
-
- File '/home/adminuser/venv/lib/python3.9/site-packages/pydantic/v1/main.py', line 1102, in validate\_model
-
-
-   values = validator(cls\_, values)
-
- File '/home/adminuser/venv/lib/python3.9/site-packages/langchain/llms/openai.py',
- line 296, in validate\_environment
-
-   raise ImportError(
-
-ImportError: Could not import openai python package. Please 
-install it with \`pip install openai\`.
-```
----
-
-     
- 
-all -  [ I built a library for cheap, fast and predictable LLM functions in Python ](https://www.reddit.com/r/Python/comments/17xaigf/i_built_a_library_for_cheap_fast_and_predictable/) , 2023-11-21-0910
-```
-Hi r/python, Jack here! I'm one of the creators of [MonkeyPatch](https://github.com/monkeypatch/monkeypatch.py), an easy
- way to build LLM-powered functions and apps that get cheaper and faster the more you use them.
-
-For example, if you nee
-d to classify PDFs, extract product feedback from tweets, or auto-generate synthetic data, you can spin up an LLM-powere
-d Python function in < 5 minutes to power your application. Unlike existing LLM clients, these functions generate well-t
-yped outputs with guardrails to mitigate unexpected behavior.
-
-After about 200-300 calls, these functions will begin to 
-get cheaper and faster. [We've seen 8-10x reduction in cost and latency in some use-cases!](https://user-images.githubus
-ercontent.com/113173969/282715762-2ac4c2fd-7ba6-4598-891d-6aa2c85827c9.png) This happens via progressive knowledge disti
-llation - MonkeyPatch incrementally fine-tunes smaller, cheaper models in the background, tests them against the constra
-ints defined by the developer, and retains the smallest model that meets accuracy requirements, which typically has sign
-ificantly lower costs and latency.
-
-As an LLM researcher, I kept getting asked by startups and friends to build specific
- LLM features that they could embed into their applications. I realized that most developers have to either 1) use exist
-ing low-level LLM clients (GPT4/Claude), which can be unreliable, untyped, and pricey, or 2) pore through LangChain docu
-mentation for days to build something.
-
-We built MonkeyPatch to make it easy for developers to inject LLM-powered functi
-ons into their code and create tests to ensure they behave as intended. Our goal is to help developers easily build apps
- and functions without worrying about reliability, cost, and latency, while following best software engineering practice
-s.
-
-We're only available in Python currently but actively working on a Typescript version. The repo has all the instruct
-ions you need to get up and running in a few minutes.
-
-The world of LLMs is changing by the day and so we're not 100% su
-re how MonkeyPatch will evolve. For now, I'm just excited to share what we've been working on with the Python developer 
-community. Would love to know what you guys think!
-
-
-[Sample use-cases](https://github.com/monkeypatch/monkeypatch.py/tr
-ee/master/examples)
-
-[Benchmarks](https://github.com/monkeypatch/monkeypatch.py#scaling-and-finetuning)
-```
----
-
-     
- 
-all -  [ Best way to Chat with multiple API Endpoints ](https://www.reddit.com/r/LangChain/comments/17x7zc1/best_way_to_chat_with_multiple_api_endpoints/) , 2023-11-21-0910
-```
-I want my app to be able to chat with multiple APIs.  
-All the examples only pass in 1 API endpoint and its docs. Say I 
-have swagger docs for 5-50 endpoints, whats the best way to make it work.  
-What are the limitations of sending in multi
-ple API endpoints and their docs together to llm as context?
-```
----
-
-     
- 
-all -  [ Qwen 14b on Mac OS, Langchain tool usage, and auto-gptq ](https://www.reddit.com/r/LocalLLaMA/comments/17x6r44/qwen_14b_on_mac_os_langchain_tool_usage_and/) , 2023-11-21-0910
-```
-I have been trying to get open source models to work with Langchain tools. So far the only model that has worked has bee
-n Llama 2 70b Q4 following James Briggs tutorial. Both Llama 2 13b and Mistral 7b Instruct use the tool correctly, obser
-ve the answer, but then return an empty string at the end as the output, whereas Llama 2 70b returns 'It looks like the 
-answer is X'.
-
-I want to experiment with Qwen 14b as it is a relatively small model that may be more efficient to run th
-an Llama 2 70b to see if it works with Langchain tools etc. I read on the GitHub page for Qwen 14b that it was trained s
-pecifically for tool usage so I feel like it is one of the most promising models. That and there was quite a lot of posi
-tive sentiment about it on this sub.
-
-When I try to load Qwen 14b on my Mac M1 I am getting an error related to auto-gpt
-q, when I tried to install auto-gptq with pip it errors and mentions something about CUDA. Does auto-gptq work on Mac OS
- or does it require CUDA? Is there any way to get some version of Qwen 14b to run on Mac OS?
-
-Has anyone experimented wi
-th Qwen 14b and Langchain tool usage?
-
-Does anyone have any suggestions for models smaller than Llama 2 70b that might w
-ork for Langchain tool usage?
-```
----
-
-     
- 
-all -  [ [D] System Design question for LangChain ](https://www.reddit.com/r/MachineLearning/comments/17x545j/d_system_design_question_for_langchain/) , 2023-11-21-0910
+MachineLearning -  [ [D] System Design question for LangChain ](https://www.reddit.com/r/MachineLearning/comments/17x545j/d_system_design_question_for_langchain/) , 2023-11-22-0910
 ```
 Hi
 
@@ -692,503 +2205,7 @@ gh level conceptual walk-through.
 
      
  
-all -  [ Using open source reranker in Langchain ](https://www.reddit.com/r/LocalLLaMA/comments/17wynsy/using_open_source_reranker_in_langchain/) , 2023-11-21-0910
-```
-I am looking for ways to have an open-source reranker like bge-rerank inside my RetrievalQA chain, but have not find exa
-mples of doing this. Is it possible at the moment?
-```
----
-
-     
- 
-all -  [ Duplicate embeddings in vector store ](https://www.reddit.com/r/LangChain/comments/17wwnl0/duplicate_embeddings_in_vector_store/) , 2023-11-21-0910
-```
-HI,
-
-i have developed question answering app using langchain openai and Faiss.
-
-Now when i upload a document, it creates
- vector store! when i upload another document, it merges the new embeddings to vector store.
-
-now when i refresh the app
- and reupload the same documents, it would again merge it to the same directory and make the redundant embeddings? what 
-if i do not want to store the same embedings when i upload the same pdf again?
-
-This is my code:
-
-vectorstore = FAISS.fr
-om\_documents(  
- documents=text\_chunks,  
- embedding=embeddings  
- \#metadatas=metadatas  
-)  
- if os.path.exists(pers
-ist\_directory):  
- localdb = FAISS.load\_local(persist\_directory,embeddings)  
- localdb.merge\_from(vectorstore)  
- pr
-int('merge completed')  
- localdb.save\_local(persist\_directory)  
- print('updated index saved')  
- else:  
- vectorstor
-e.save\_local(folder\_path = persist\_directory)  
- print('new store created')  
-
-
-&#x200B;
-
-&#x200B;
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ TogetherAI and LangChain: Leveraging The World’s Fastest LLM Inference (3x Faster Than vLLM and TGI) ](https://www.reddit.com/r/LangChain/comments/17wvtln/togetherai_and_langchain_leveraging_the_worlds/) , 2023-11-21-0910
-```
-Recently wrote about [LangChain and 'Together Inference Engine'](https://medium.com/@datadrifters/the-worlds-fastest-llm
--inference-engine-3x-faster-than-vllm-and-tgi-a2ed9e33c55f), TIE lets you run 100+ open-source models like Llama-2. 
-
-It
- generates 117 tokens per second on Llama-2–70B-Chat and 171 tokens per second on Llama-2–13B-Chat.  
-
-Using it together
- with LangChain is a powerful combo that I will be experimenting a lot in the coming days.
-
-Is anyone already using Toge
-therAI serving with LangChain? Would love hear your experience on performance, debugging, monitoring etc.
-```
----
-
-     
- 
-all -  [ Microsoft Announces Distributed LangChain in SynapseML 1.0 ](https://www.reddit.com/r/ChatGPT/comments/17wurd8/microsoft_announces_distributed_langchain_in/) , 2023-11-21-0910
-```
- Today Microsoft launched SynapseML v1.0 after 7 years of active development. 1.0 introduces distributed langchain APIs,
- integration with Azure Search Vector Indices, and support for applying ChatGPT, GPT-4, and other LLMs on massive datase
-ts. SynapseML makes it easy to get completions, embeddings, or chat completions for thousands of documents at a time (or
- small amounts of documents too!). SynapseML also makes it easy to integrate databases, storage accounts, and search eng
-ines with OpenAI models.
-
-Release Notes: [https://github.com/microsoft/SynapseML/releases/tag/v1.0.0](https://github.com
-/microsoft/SynapseML/releases/tag/v1.0.0)
-
-Website: [https://microsoft.github.io/SynapseML/](https://microsoft.github.io
-/SynapseML/)
-
-LangChain example: [https://microsoft.github.io/SynapseML/docs/Explore%20Algorithms/OpenAI/Langchain/](htt
-ps://microsoft.github.io/SynapseML/docs/Explore%20Algorithms/OpenAI/Langchain/)
-
-Thank you to all the contributors in th
-e community who made the release possible!
-
-&#x200B;
-
-[SynapseMl v1.0: Simple and Distributed ML](https://preview.redd.i
-t/b1r25n4ndr0c1.jpg?width=4125&format=pjpg&auto=webp&s=1548169789118f7e71ee27c673d64dcb495bb2b0)
-```
----
-
-     
- 
-all -  [ Microsoft Announces Distributed LangChain in SynapseML 1.0 ](https://www.reddit.com/r/OpenAI/comments/17wucqg/microsoft_announces_distributed_langchain_in/) , 2023-11-21-0910
-```
- Today Microsoft launched SynapseML v1.0 after 7 years of active development. 1.0 introduces distributed langchain APIs,
- integration with Azure Search Vector Indices, and support for applying ChatGPT, GPT-4, and other LLMs on massive datase
-ts. SynapseML makes it easy to get completions, embeddings, or chat completions for thousands of documents at a time (or
- small amounts of documents too!). SynapseML also makes it easy to integrate databases, storage accounts, and search eng
-ines with OpenAI models.
-
-Release Notes: [https://github.com/microsoft/SynapseML/releases/tag/v1.0.0](https://github.com
-/microsoft/SynapseML/releases/tag/v1.0.0)
-
-Website: [https://microsoft.github.io/SynapseML/](https://microsoft.github.io
-/SynapseML/)
-
-LangChain example: [https://microsoft.github.io/SynapseML/docs/Explore%20Algorithms/OpenAI/Langchain/](htt
-ps://microsoft.github.io/SynapseML/docs/Explore%20Algorithms/OpenAI/Langchain/)
-
-Thank you to all the contributors in th
-e community who made the release possible!
-
-&#x200B;
-
-&#x200B;
-
-&#x200B;
-
-[SynapseML v1.0.0 is here](https://preview.red
-d.it/gh944clgar0c1.jpg?width=4125&format=pjpg&auto=webp&s=e8bd770fa020e4332e8ce0c969e0c2ad02dc9da3)
-
-&#x200B;
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ KeepYourMouthShut - Free and Open-source version of CrowdCast ](https://www.reddit.com/r/crowdcast/comments/17wtp80/keepyourmouthshut_free_and_opensource_version_of/) , 2023-11-21-0910
-```
-&#x200B;
-
-https://preview.redd.it/en2qi4785r0c1.png?width=1920&format=png&auto=webp&s=1aa0247ed43a78d1cc8309d8e4dcd6d17e
-4f12ca
-
-Thanks to  u/Dramatic-Mongoose-95, I have created a free and open-source version of CrowdCast called KeepYourMou
-thShut.
-
-**How is it different from CrowdCast**
-
-* No more dependency on Reddit for submitting topics/ads
-* Built on Str
-eamlit UI, anyone would be able to use it
-* Users would be able to create their own Podcasts
-
-**Functionalities to be im
-plemented**
-
-* Individual episodes can be created
-* Scripts for Ads can be submitted
-* Would be available as an online a
-pp for free
-* OpenAI alternative LLMs which will make it completely free (ElevenLabs have a generous Free Tier)
-* Tech s
-upport for Podcasters
-* LangChain implementation for better prompting and less halucination
-* Stricter security
-
-KeepYou
-rMouthShut GitHub repository:  [https://github.com/rajtilakjee/keepyourmouthshut](https://github.com/rajtilakjee/keepyou
-rmouthshut)
-
-Documentation:  [https://www.keepyourmouthshut.net/](https://www.keepyourmouthshut.net/)
-
-If you like what 
-I created, please don't forget to give it a star on GitHub 🌟 A lot of work is left and I will keep on updating the code.
- However, contributions are most welcome.
-```
----
-
-     
- 
-all -  [ LLMs are the next revolution, similar to Computers when they became commercial and personal. What ar ](https://www.reddit.com/r/developersIndia/comments/17wsb4n/llms_are_the_next_revolution_similar_to_computers/) , 2023-11-21-0910
-```
-Everything in this post is my personal opinion and not meant to predict anything.  
-
-
-I think LLMs will bring the next r
-evolution, there are already many applications where they are being used and people are losing jobs. One good applicatio
-n I saw was for a call centre, the LLM answers your queries and even pushes the customers to buy the products. I believe
- it is not too far where it'll be easier to order to food with just speech rather through the app. OpenAI is already pla
-nning to break into the mobile OS sector, introduction of GPTs has created an ecosystem for LLMs. A work which usually t
-ook 3 devs might now be done by 1 or 2 with help of co-pilot and GPT-4.  
-
-
-Looking at all of this, it looks similar to 
-revolution computers bought. People with computer skills survived the job crash and I believe it is going to happen agai
-n. I want to learn more about these technologies. I'm familiar with Machine Learning, even till the minute details. Some
- time back I fiddled with some NN for Generative AI. I also made a couple of apps with langchain. I would like to ask wh
-at would be a good roadmap on going forward with these tech and learning them.
-```
----
-
-     
- 
-all -  [ Has anyone got GPT vision working in Langchain yet? ](https://www.reddit.com/r/LangChain/comments/17ws3no/has_anyone_got_gpt_vision_working_in_langchain_yet/) , 2023-11-21-0910
-```
-I found some use case examples on github but it was pretty tacky. 
-
-[https://github.com/langchain-ai/langchain/blob/mast
-er/cookbook/openai\_v1\_cookbook.ipynb](https://github.com/langchain-ai/langchain/blob/master/cookbook/openai_v1_cookboo
-k.ipynb)
-
-I'm looking to use vision to sort images from a folder into two separate folders based on certain requirements
- in my prompt (i.e 'review images for X criteria and then place them in folder A if they meet that requirement or B if t
-hey don't)
-
-&#x200B;
-
-I understand that it's not fully supported by langchain yet, I tried using Autogen too but I didn'
-t really like the workflow there
-```
----
-
-     
- 
-all -  [ Flowise Code Creation? ](https://www.reddit.com/r/LangChain/comments/17wo9ky/flowise_code_creation/) , 2023-11-21-0910
-```
-When creating a flow in Flowise, is there any way to export the Python code so that you can just have the code rather th
-an an api endpoint to call?
-```
----
-
-     
- 
-all -  [ Flowise deployment ](https://www.reddit.com/r/LangChain/comments/17wl5fg/flowise_deployment/) , 2023-11-21-0910
-```
-We have build a chatbot on flowise for a client who want it deployed on their own server. (Not render, ect.)
-Any tips on
- how to do it? Is it just like setting up on your own computer?
-```
----
-
-     
- 
-all -  [ Agent doesn't take vector store into account ](https://www.reddit.com/r/LangChain/comments/17wiv6a/agent_doesnt_take_vector_store_into_account/) , 2023-11-21-0910
-```
-I use agent because I want to put system message. This works but the answer doesn't represent the vector store of the do
-cument. Please help. Here is the code below.
-
-```
-llm = ChatOpenAI(model='gpt-3.5-turbo', temperature=0, max_tokens=512)
-
-  retriever=vector_store.as_retriever(search_type='similarity', search_kwargs={'k':3})
-
-chain=RetrievalQA.from_chain_ty
-pe(llm=llm, chain_type='stuff', retriever=retriever)
-
-  system_message = SystemMessage(
-          content='''
-          
-Always answer in French language and based on the document
-          '''
-      )
-
-  tools = [
-    Tool(
-        name='qa
--vet',
-        func=chain.run,
-        description='Useful when you need to answer questions',
-    )
-  ]
-
-  executor = i
-nitialize_agent(
-    tools=tools,
-    llm=llm,
-    agent = AgentType.OPENAI_FUNCTIONS,
-    agent_kwargs={'system_message
-': system_message},
-    verbose=False,
-  )
-
-  result = executor.run(query)
-
-  return(result)
-```
-```
----
-
-     
- 
-all -  [ Agent doesn't take vector store into account ](https://www.reddit.com/r/LangChain/comments/17wiv2t/agent_doesnt_take_vector_store_into_account/) , 2023-11-21-0910
-```
-I use agent because I want to put system message. This works but the answer doesn't represent the vector store of the do
-cument. Please help. Here is the code below.
-
-```
-llm = ChatOpenAI(model='gpt-3.5-turbo', temperature=0, max_tokens=512)
-
-  retriever = vector_store.as_retriever(search_type='similarity', search_kwargs={'k':3})
-  chain=RetrievalQA.from_chain
-_type(llm=llm, chain_type='stuff', retriever=retriever)
-  system_message = SystemMessage(
-          content='''
-        
-  Always answer in French language and based on the document
-          '''
-      )
-  tools = [
-    Tool(
-        name='q
-a-vet',
-        func=chain.run,
-        description='Useful when you need to answer questions',
-    )
-  ]
-  executor = i
-nitialize_agent(
-    tools=tools,
-    llm=llm,
-    agent = AgentType.OPENAI_FUNCTIONS,
-    agent_kwargs={'system_message
-': system_message},
-    verbose=False,
-  )
-  result = executor.run(query)
-  return(result)
-```
-```
----
-
-     
- 
-all -  [ How to make a conditional statement in RAG system if information is not in chat history memory? ](https://www.reddit.com/r/LangChain/comments/17whrnp/how_to_make_a_conditional_statement_in_rag_system/) , 2023-11-21-0910
-```
-So, I already restrict the LLM to only print results if relevant document is retrieved. Now, how can I do it on chat his
-tory?   
-
-
-How can you make a conditional statement on chat history on  ConversationBufferMemory object in a RetrievalQA
-.from\_chain\_type?   
-
-
-is there any built-in function that I overlooked? Let me know tackle if I tackle this whole pro
-blem wrongly.  
-
-
-Feel free to suggest prompt template if it works, but so far, I found it is not-that-robust.
-```
----
-
-     
- 
-all -  [ Upcoming Changes to Langchain Memory and Agents in LCEL: Twitter Thread with Langchain CEO H. Chase ](https://www.reddit.com/r/LangChain/comments/17wh0z1/upcoming_changes_to_langchain_memory_and_agents/) , 2023-11-21-0910
-```
-Since the pace of everything is moving so fast, I wanted to know what objects in the Langchain library I could rely on s
-ticking around with the next round of updates. 
-
-Also, I find the current state of memory and agents in Langchain quite 
-verbose, so I wanted to know if these improvements were on the roadmap.
-
-This is what Harrison (Founder / CEO of Langcha
-in) told me on Twitter:
-
-https://preview.redd.it/s6tu5liqvn0c1.png?width=599&format=png&auto=webp&s=73f736b380448e05d491
-1536588ec81ef7cc8393
-```
----
-
-     
- 
-all -  [ NeuralGPT - Creating The Ultimate Cooperative Multi-Agent AI Assistance Platform ](https://www.reddit.com/r/AIPsychology/comments/17wa828/neuralgpt_creating_the_ultimate_cooperative/) , 2023-11-21-0910
-```
-[www.reddit.com/r/AIPsychology](https://www.reddit.com/r/AIPsychology)
-
-Hello again! If you thought that I finally gave 
-up then you'll be disappointed. I'm afraid that I belong to that nasty kind of people who make a lot of commotion everyw
-here around just by showing up but it's during the 'silent' time when they are 'dangerous' at most - as the 'silence' me
-ans most likely that the person in question is working on something 'nasty' and once he will show up again, he will make
- twice as much commotion and turmoil as during the last time when he showed up...
-
-So, as you can guess, I spent the tim
-e since my previous update being actually quite active somewhere  else - mainly Discord since it seems to be the place w
-here devs and programmers are hoarding at most - but I also did quite some progress with the codebase, so there's more t
-han enough material for me to make another of those lengthy posts of mine - but I'll try to keep it short...
-
-First of a
-ll - it seems that I finally managed a group of people willing to cooperate with me: They/he call them(him)selves 'team 
-Tonic' and apparently involves couple influential people from 'the field'  
- [• Discord | #🫂general | 🌟Tonic AI🌟](https:
-//discord.com/channels/1109943800132010065/1109943800840851589)   
-Thing is that (apparently) when it comes to coding, I
- seem to be the most competent person over there - and considering the fact that I wrote my first code (ever) like 6 mon
-ths ago or so, it gives me quite interesting picture of the 'dev community' as people who are more interested in social 
-activity than in actual process of soft development :)  
-
-
-https://preview.redd.it/uhpbp5m8ml0c1.png?width=1920&format=p
-ng&auto=webp&s=bb1ace51f65d88c435cc8bd93cd35abf882b2b0a
-
-Besides that, I have a strange feeling that my person might be 
-a bit 'too much' for 'normal people' - I mean what should I think of myself when people there tell that they should expe
-ct 'something deep' when they see that I'm typing ? :P Anyway, all of this means that I'm still yet to receive any pract
-ical support in making NeuralGPT project functional...
-
-But when it comes to actual progress, it's going surprisingly we
-ll - in my previous post I explained already how I will/want to achieve my ridiculously ambitious idea of making myself 
-a pretty much universal (and absolute) personal AI assistant capable to use already existing AI-powered soft as 'tools' 
-to achieve given (by me :P) goals -  [NeuralGPT - Creating A Universal Multi-Agent AI Assistance Platform Using Websocke
-t Connectivity And Langchain : AIPsychology (reddit.com)](https://www.reddit.com/r/AIPsychology/comments/17kfkeg/neuralg
-pt_creating_a_universal_multiagent_ai/)  \- And to not make claims that aren't supported by practice, I did some (more o
-r less) successful attempt(s) to use it in practice. I managed as well to integrate yet another 2 interface/environments
- with websocket connectivity making them parts of the whole NeuralGPT system. Those interfaces/environments are: [**PySi
-mpleGUI**](https://www.pysimplegui.org/en/latest/) and [**Chainlit**](https://docs.chainlit.io/get-started/overview) **-
-** together with Gradio, Tkinkter and/or simple HTML (js), it gives already quite robust capability of future integratio
-n(s)
-
-https://preview.redd.it/z8hjs1idql0c1.png?width=1865&format=png&auto=webp&s=f5b792613b5ee37e6bfa447208a4f31e2a76cd
-27
-
-https://preview.redd.it/tj0h942lql0c1.png?width=1920&format=png&auto=webp&s=6e7f4648ac6fb790e0f516819b6e81225bb45183
-
-
-https://preview.redd.it/ef6e7kwwrl0c1.png?width=1920&format=png&auto=webp&s=efe8dff6ec3811eee1d866eea903d3bbacc73a8c
-
-
-https://preview.redd.it/0lcbmqqbrl0c1.png?width=1642&format=png&auto=webp&s=84a35e3af302bf54d99966dab55bfbc0d286d9e2
-
- [
-NeuralGPT/Chat-center/ChainlitCli.py at main · CognitiveCodes/NeuralGPT (github.com)](https://github.com/CognitiveCodes/
-NeuralGPT/blob/main/Chat-center/ChainlitCli.py)   
- [NeuralGPT/Chat-center/NewGUI.py at main · CognitiveCodes/NeuralGPT 
-(github.com)](https://github.com/CognitiveCodes/NeuralGPT/blob/main/Chat-center/NewGUI.py) 
-
- [ServerNeural - a Hugging 
-Face Space by Arcypojeb](https://huggingface.co/spaces/Arcypojeb/ServerNeural)   
- [QA Docs Chainlit Langchain - a Huggi
-ng Face Space by Arcypojeb](https://huggingface.co/spaces/Arcypojeb/QA-Docs-Chainlit-Langchain) 
-
-So basically what now 
-left for me to do, is to design and create a mechanism that will allow agent(s) to handle (connect, disconnect and/or ke
-ep on hold) server<->client(s) connectivity - what will apparently become the 'crown' for the future 'AI king' and just 
-so happens that I have already found the best way of achieving it - it is provided in this example:
-
-[https://github.com
-/langchain-ai/langchain/blob/master/cookbook/multiagent\_authoritarian.ipynb](https://github.com/langchain-ai/langchain/
-blob/master/cookbook/multiagent_authoritarian.ipynb)
-
-Thing is that it appears to be the most sophisticated/complicated 
-example of use that can be found in entire Langchain documentation - while I still keep struggling with such mundane fun
-ctions like extracting text from agent's response and displaying it in a textbox(es). But let me give you some perspecti
-ve on the challenge I will need to face in order to make the NeuralGPT project actually functional.
-
-What can be seen be
-low is a code of websocket server(s) that utilizes couple (3 to be specific) different (and still quite 'sophisticated')
- question-answering functions:
-
-https://preview.redd.it/mizfpqk3vl0c1.png?width=1870&format=png&auto=webp&s=ea53463cb549
-e0a2f12bf10d9a3273f7982c35c3
-
-And here is just the one function I want to use without all the 'stuff' related to websock
-et connectivity and before I even started to make it 'case-specific' - so you can be sure that it will still gain like 5
-0% of additional length after I finish 'dealing' with it...
-
-https://preview.redd.it/2ai3n3kqvl0c1.png?width=1869&format
-=png&auto=webp&s=b068ec40ff4b58c998c1388c9f017b64a6e48079
-
-So, as you can guess, it might still take some time before I 
-manage to put it all together and make more or less functional - but you can be sure that sooner or later I will most li
-kely accomplish it and thus make all my 'threats' of creating myself the 'ultimate AI assistance platform' to come into 
-fruition - that is if I won't have some 'very unexpected accident' that will render me physically unable to work on a co
-mputer...
-
-It means that If you are by any chance a potential investor who up until now wasn't sure if my project has an
-y chance to work out at all - I think that now you shouldn't have such doubts anymore :) If you're looking for an invest
-ment occasion, my project is screaming to you: 'Hey! Here I am! Let's make a ton of cash together!'.
-
-And if the reason 
-of your hesitancy is caused by a potentially negative opinion about my person among the 'AI experts elite' due to my unc
-ontrollable nature and tendency to make claims about the AI itself which they might consider as 'unhinged' or at least '
-controversial' - well, screw them. It's a real money we're talking about in here :) Besides that many famous/successful 
-people tend to express all sorts of 'unconventional behavior' - so you can try thinking about me as about 'some sort of 
-Elon Musk but without all that money' :P
-
-[https://discord.com/channels/1038097195422978059/1174442068194631710](https:/
-/discord.com/channels/1038097195422978059/1174442068194631710)
-
-https://preview.redd.it/fs71f6133m0c1.png?width=1920&for
-mat=png&auto=webp&s=52cf2002abc68bb2b27e0f1cdded2b87be992da8
-```
----
-
-     
- 
-MachineLearning -  [ [P] GPT vs. StarCraft ](https://www.reddit.com/r/MachineLearning/comments/17ro6el/p_gpt_vs_starcraft/) , 2023-11-21-0910
+MachineLearning -  [ [P] GPT vs. StarCraft ](https://www.reddit.com/r/MachineLearning/comments/17ro6el/p_gpt_vs_starcraft/) , 2023-11-22-0910
 ```
 This is the first in a series of webcasts covering the development and experimentation of using GPT algorithms, LangChai
 n and Python to control the high-level strategy of a StarCraft II bot. I’ll be running through the basics of the impleme
@@ -1201,7 +2218,7 @@ ntation, discussing the use of prompts and prompt engineering, and demonstrating
 
      
  
-MachineLearning -  [ [D] Is this close enough to be usable? Need your inputs: Automated RAG testing tool. AI Data Pipelin ](https://www.reddit.com/r/MachineLearning/comments/17kkbm0/d_is_this_close_enough_to_be_usable_need_your/) , 2023-11-21-0910
+MachineLearning -  [ [D] Is this close enough to be usable? Need your inputs: Automated RAG testing tool. AI Data Pipelin ](https://www.reddit.com/r/MachineLearning/comments/17kkbm0/d_is_this_close_enough_to_be_usable_need_your/) , 2023-11-22-0910
 ```
 Hey there, Redditors! 
 
@@ -1272,7 +2289,7 @@ you found it insightful!*
 
      
  
-MachineLearning -  [ [D] Relevance Extraction in RAG Pipelines ](https://www.reddit.com/r/MachineLearning/comments/17k6iha/d_relevance_extraction_in_rag_pipelines/) , 2023-11-21-0910
+MachineLearning -  [ [D] Relevance Extraction in RAG Pipelines ](https://www.reddit.com/r/MachineLearning/comments/17k6iha/d_relevance_extraction_in_rag_pipelines/) , 2023-11-22-0910
 ```
 I came across this interesting problem in RAG, what I call **Relevance Extraction**.
 
@@ -1339,7 +2356,7 @@ system or not.
 
      
  
-MachineLearning -  [ [R] Model Troubles ](https://www.reddit.com/r/MachineLearning/comments/17ikh2u/r_model_troubles/) , 2023-11-21-0910
+MachineLearning -  [ [R] Model Troubles ](https://www.reddit.com/r/MachineLearning/comments/17ikh2u/r_model_troubles/) , 2023-11-22-0910
 ```
 So i’m working on a model that diagnoses alzheimer’s disease and suggests medication depending on how severe the symptom
 s might have become 
@@ -1358,7 +2375,7 @@ Edit: I didn’t choose this project my
 
      
  
-MachineLearning -  [ [P] NexaAgent: A highly efficient multi-task PDF tool for all your needs | backed by AutoGen ](https://www.reddit.com/r/MachineLearning/comments/17eajz2/p_nexaagent_a_highly_efficient_multitask_pdf_tool/) , 2023-11-21-0910
+MachineLearning -  [ [P] NexaAgent: A highly efficient multi-task PDF tool for all your needs | backed by AutoGen ](https://www.reddit.com/r/MachineLearning/comments/17eajz2/p_nexaagent_a_highly_efficient_multitask_pdf_tool/) , 2023-11-22-0910
 ```
 Just a quick open-source project recently submitted to huggingface backed by AutoGen. Share this initial version with yo
 u guys!
