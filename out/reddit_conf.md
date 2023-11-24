@@ -1,5 +1,215 @@
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/MSCS/comments/1813klg/ms_cs_profile_evaluation_fall_2024/) , 2023-11-23-0910
+all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-11-24-0910
+```
+OpenAI's approach to Q-Learning has been drawing significant attention recently.
+
+However, there's a fundamental issue i
+n the way Q-learning is typically implemented in deep learning and neural network environments. This concern is highligh
+ted in the award-winning paper 'Non-delusional Q-learning,' presented at NeurIPS.
+
+The paper suggests a fundamental flaw
+ in the blind application of Q-learning updates to deep neural networks. It points out that such updates can create a se
+lf-contradictory scenario where improving the network for the current batch of data inadvertently makes it less effectiv
+e for other batches. This is akin to a situation in supervised learning where optimizing a network for a specific set of
+ data may degrade its performance on other datasets.
+
+For more insights, the full paper can be accessed here: [Non-delus
+ional Q-learning Paper](https://papers.nips.cc/paper_files/paper/2018/hash/5fd0245f6c9ddbdf3eff0f505975b6a7-Abstract.htm
+l)(Follow up ICML paper: [Practical Non-delusional-Q Learning](https://www.cs.toronto.edu/~cebly/Papers/CONQUR_ICML_2020
+_camera_ready.pdf) )
+
+I'm curious about others' views on this topic. What do you think about the implications of these f
+indings for the future of Q-learning in deep learning environments?
+```
+---
+
+     
+ 
+all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-11-24-0910
+```
+Update: Reuters reported that here what the big discovery was Q\*. You judge for yourself if this is how we define the S
+uperintelligence. [https://www.reddit.com/r/ChatGPT/comments/181pfiq/q\_passing\_math\_tests\_is\_how\_theyre\_describin
+g\_the/](https://www.reddit.com/r/ChatGPT/comments/181pfiq/q_passing_math_tests_is_how_theyre_describing_the/)  
+[https:
+//www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2023-11-22
+/](https://www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2
+023-11-22/)  
+Update: There is clear evidence a single individual 'Enervation' was responsible as of April 6th 2023 of c
+hanging the core definition of what AGI is supposed to be. There is an obvious conflict of interest here as the definiti
+on is matching to exactly what is on the OpenAI charter. The question is for all of you is this, Should 1 organization b
+e defining what Artificial General Intelligence (AGI) is and should be?
+
+It should be note, that this user (Enervation) 
+[has a MASSIVE change log from the April 6th date moving forward for issues ranging from AGI, AI Safety and a plethora o
+f other AI issues and concerns.](https://en.wikipedia.org/w/index.php?title=Special:Contributions/Enervation&target=Ener
+vation&offset=&limit=500) Is this user Ilya?
+
+The date of the AGI change was April 6th 2023 with 2,842 bytes of new info
+rmation.
+
+* [03:55, 6 April 2023](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&oldid=11484
+36187) [diff](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&diff=prev&oldid=1148436187) [hi
+st](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&action=history)  **+2,842**‎  [Artificial
+ general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ‎*No edit summary* [*Tag*](https:/
+/en.wikipedia.org/wiki/Special:Tags)*:* [*Visual edit*](https://en.wikipedia.org/wiki/Wikipedia:VisualEditor)
+
+**Prior t
+o the date of April 6th 2023 the Wikipedia AGI page read like this: >>>**
+
+**Artificial general intelligence** (**AGI**)
+ is the hypothetical[\[1\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&ol
+did=1009243150#cite_note-1) ability of an [intelligent agent](https://en.wikipedia.org/wiki/Intelligent_agent) to unders
+tand or learn any intellectual task that a [human being](https://en.wikipedia.org/wiki/Human_being) can. It is a primary
+ goal of some [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) research and a common top
+ic in [science fiction](https://en.wikipedia.org/wiki/Science_fiction) and [futures studies](https://en.wikipedia.org/wi
+ki/Futures_studies). AGI can also be referred to as **strong AI**,[\[2\]](https://en.wikipedia.org/w/index.php?title=Art
+ificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-FOOTNOTEKurzweil2005260-2)[\[3\]](https://en.wiki
+pedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-Kurzweil_2005-08-0
+5-3)[\[4\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#c
+ite_note-4) **full AI**,[\[5\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=pre
+v&oldid=1009243150#cite_note-5) or **general intelligent action**.[\[6\]](https://en.wikipedia.org/w/index.php?title=Art
+ificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-FOOTNOTENewellSimon1976-6) Some academic sources 
+reserve the term 'strong AI' for computer programs that can [experience](https://en.wikipedia.org/wiki/Artificial_consci
+ousness) [sentience](https://en.wikipedia.org/wiki/Sentience), [self-awareness](https://en.wikipedia.org/wiki/Self-aware
+ness) and [consciousness](https://en.wikipedia.org/wiki/Chinese_room#Strong_AI).[\[7\]](https://en.wikipedia.org/w/index
+.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-FOOTNOTESearle1980-7) Today's AI is
+ speculated to be decades away from AGI.[\[8\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligen
+ce&direction=prev&oldid=1009243150#cite_note-spec1-8)[\[9\]](https://en.wikipedia.org/w/index.php?title=Artificial_gener
+al_intelligence&direction=prev&oldid=1009243150#cite_note-9)
+
+In contrast to strong AI, [weak AI](https://en.wikipedia.o
+rg/wiki/Weak_AI)[\[10\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid
+=1009243150#cite_note-10) (also called narrow AI[\[3\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_in
+telligence&direction=prev&oldid=1009243150#cite_note-Kurzweil_2005-08-05-3)) is not intended to perform human-like [cogn
+itive](https://en.wikipedia.org/wiki/Cognitive) abilities and [personality](https://en.wikipedia.org/wiki/Personality), 
+rather, weak AI is limited to the use of software to study or accomplish specific pre-learned [problem solving](https://
+en.wikipedia.org/wiki/Problem_solving) or [reasoning](https://en.wikipedia.org/wiki/Reason) tasks ([expert systems](http
+s://en.wikipedia.org/wiki/Expert_systems)).[\[11\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intell
+igence&direction=prev&oldid=1009243150#cite_note-urlPhilosophy_will_be_the_key_that_unlocks_artificial_intelligence_|_Ne
+uroscience_|_The_Guardian-11)
+
+As of 2017, over forty organizations are actively researching AGI.[\[12\]](https://en.wik
+ipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-baum-12)
+
+**After
+ Enervation's edits: >>>**
+
+An **artificial general intelligence** (**AGI**) is a hypothetical type of [intelligent agen
+t](https://en.wikipedia.org/wiki/Intelligent_agent).[\[1\]](https://en.wikipedia.org/wiki/Artificial_general_intelligenc
+e#cite_note-NYT-20230630-1) If realized, an AGI could learn to accomplish any intellectual task that [human beings](http
+s://en.wikipedia.org/wiki/Human_beings) or animals can perform.[\[2\]](https://en.wikipedia.org/wiki/Artificial_general_
+intelligence#cite_note-2)[\[3\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:10-3) Alternat
+ively, AGI has been defined as an autonomous system that surpasses human capabilities in the majority of economically va
+luable tasks.[\[4\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:1-4) Creating AGI is a pri
+mary goal of some [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) research and of compa
+nies such as [OpenAI](https://en.wikipedia.org/wiki/OpenAI),[\[4\]](https://en.wikipedia.org/wiki/Artificial_general_int
+elligence#cite_note-:1-4) [DeepMind](https://en.wikipedia.org/wiki/DeepMind), and [Anthropic](https://en.wikipedia.org/w
+iki/Anthropic). AGI is a common topic in [science fiction](https://en.wikipedia.org/wiki/Science_fiction) and [futures s
+tudies](https://en.wikipedia.org/wiki/Futures_studies).
+
+The timeline for AGI development remains a subject of ongoing d
+ebate among researchers and experts. Some argue that it may be possible in years or decades; others maintain it might ta
+ke a century or longer; and a minority believe it may never be achieved.[\[5\]](https://en.wikipedia.org/wiki/Artificial
+_general_intelligence#cite_note-:2-5) Additionally, there is debate regarding whether modern [large language models](htt
+ps://en.wikipedia.org/wiki/Large_language_model), such as [GPT-4](https://en.wikipedia.org/wiki/GPT-4), are early yet in
+complete forms of AGI[\[6\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:11-6) or if new ap
+proaches are required.[\[7\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:3-7)
+
+Contention 
+exists over the potential for AGI to pose a threat to humanity;[\[1\]](https://en.wikipedia.org/wiki/Artificial_general_
+intelligence#cite_note-NYT-20230630-1) for example, OpenAI treats it as an [existential risk](https://en.wikipedia.org/w
+iki/Existential_risk_from_artificial_general_intelligence), while others find the development of AGI to be too remote to
+ present a risk.[\[8\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-8)[\[5\]](https://en.wik
+ipedia.org/wiki/Artificial_general_intelligence#cite_note-:2-5)[\[7\]](https://en.wikipedia.org/wiki/Artificial_general_
+intelligence#cite_note-:3-7)
+
+\------------------------------ end update
+
+My issue with this is why is one organization 
+defining what AI is? And so drastically at that. Why isn't there a community of AI scientist and engineer's that are agr
+eeing on such a pivotal definition for an agreed upon general consensus?
+
+**Original Post:**
+
+Upon researching why peopl
+e are so confused by what is meant by the today's (apparently) lightning rod term 'Artificial General Intelligence' or '
+AGI' one would have to look to none other than how OpenAI moved the goal post of what AGI is. Wikipedia: [https://en.wik
+ipedia.org/wiki/Artificial\_general\_intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
+
+\>  A
+n **artificial general intelligence** (**AGI**) is a hypothetical type of [intelligent agent](https://en.wikipedia.org/w
+iki/Intelligent_agent).[\[1\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-NYT-20230630-1) I
+f realized, an AGI could learn to accomplish any intellectual task that [human beings](https://en.wikipedia.org/wiki/Hum
+an_beings) or animals can perform.[\[2\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-2)[\[3
+\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:10-3) Alternatively, AGI has been defined a
+s an autonomous system that surpasses human capabilities in the majority of economically valuable tasks.[\[4\]](https://
+en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:1-4) Creating AGI is a primary goal of some [artificial
+ intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) research and of companies such as [OpenAI](https:/
+/en.wikipedia.org/wiki/OpenAI),[\[4\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:1-4) [De
+epMind](https://en.wikipedia.org/wiki/DeepMind), and [Anthropic](https://en.wikipedia.org/wiki/Anthropic). AGI is a comm
+on topic in [science fiction](https://en.wikipedia.org/wiki/Science_fiction) and [futures studies](https://en.wikipedia.
+org/wiki/Futures_studies).
+
+Odd, who is notation 4? Hmm, who could that be that wrote an update to what the definition o
+f what AGI means. Oh it's OpenAI themselves.
+
+4. ['OpenAI Charter'](https://openai.com/charter). *openai.com*. Retrieved
+ 6 April 2023.
+
+I'm not going to go into a diatribe about how the definition is purely related to Effective Altruism and
+ not rooted in technical reality. But I will show you that just a few paragraphs down in the same article they describe 
+AGI in a much different way.
+
+\>  Terminology
+
+AGI is also known as strong AI,[\[10\]](https://en.wikipedia.org/wiki/Art
+ificial_general_intelligence#cite_note-FOOTNOTEKurzweil2005260-10)[\[11\]](https://en.wikipedia.org/wiki/Artificial_gene
+ral_intelligence#cite_note-Kurzweil_2005-08-05-11) full AI,[\[12\]](https://en.wikipedia.org/wiki/Artificial_general_int
+elligence#cite_note-12) human-level AI[\[5\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:2
+-5) or general intelligent action.[\[13\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-FOOTN
+OTENewellSimon1976-13) However, some academic sources reserve the term 'strong AI' for computer programs that experience
+ [sentience](https://en.wikipedia.org/wiki/Sentience) or [consciousness](https://en.wikipedia.org/wiki/Consciousness).[\
+[a\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-Searle's_Strong_AI-14) In contrast, weak A
+I (or narrow AI) is able to solve one specific problem, but lacks general cognitive abilities.[\[14\]](https://en.wikipe
+dia.org/wiki/Artificial_general_intelligence#cite_note-15)[\[11\]](https://en.wikipedia.org/wiki/Artificial_general_inte
+lligence#cite_note-Kurzweil_2005-08-05-11) Some academic sources use 'weak AI' to refer more broadly to any programs tha
+t neither experience consciousness nor have a mind in the same sense as humans.[\[a\]](https://en.wikipedia.org/wiki/Art
+ificial_general_intelligence#cite_note-Searle's_Strong_AI-14)
+
+Related concepts include artificial [superintelligence](h
+ttps://en.wikipedia.org/wiki/Superintelligence) and transformative AI. An artificial superintelligence (ASI) is a hypoth
+etical type of AGI that is much more generally intelligent than humans.[\[15\]](https://en.wikipedia.org/wiki/Artificial
+_general_intelligence#cite_note-16) And the notion of transformative AI relates to AI having a large impact on society, 
+for example similar to the agricultural revolution.[\[16\]](https://en.wikipedia.org/wiki/Artificial_general_intelligenc
+e#cite_note-17)
+
+It seems as if they wanted to water down and dilute the understanding and meaning of what AGI is for pe
+rhaps I don't know contractual obligations?
+
+[https://openai.com/our-structure](https://openai.com/our-structure)
+
+* Fou
+rth, profit allocated to investors and employees, including Microsoft, is capped. All residual value created above and b
+eyond the cap will be returned to the Nonprofit for the benefit of humanity.
+* Fifth, the board determines when we've at
+tained AGI. Again, by AGI we mean a highly autonomous system that outperforms humans at most economically valuable work.
+ Such a system is excluded from IP licenses and other commercial terms with Microsoft, which only apply to pre-AGI techn
+ology.
+
+Interestingly this was reported in many places as much as 6 days ago.
+
+[https://cryptorank.io/news/feed/25bb2-op
+enais-board-to-determine-agi](https://cryptorank.io/news/feed/25bb2-openais-board-to-determine-agi)
+
+Point is. How do yo
+u get to change the goal post and determine all by yourselves what AGI is? Nah this isn't going to fly. Nice try. I feel
+ this verbiage is going to get changed very soon.
+```
+---
+
+     
+ 
+all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/MSCS/comments/1813klg/ms_cs_profile_evaluation_fall_2024/) , 2023-11-24-0910
 ```
  Academic Profile
 
@@ -79,7 +289,7 @@ Safe(?) :
 
      
  
-all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-11-23-0910
+all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-11-24-0910
 ```
 I am an undergrad student and I am a first author of a NeurIPS workshop paper accepted this year. Do I have to buy the t
 icket for both the main conference and the workshop session to attend? I would like to attend both. Or can I just buy th
@@ -90,7 +300,7 @@ ork
 
      
  
-all -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-11-23-0910
+all -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-11-24-0910
 ```
 I received an email today that I can claim a free NeurIPS registration, apparently because of my service as a reviewer. 
 Did all reviewers get free passes or is this a lottery system and/or based on review quality? I didn’t plan on attending
@@ -100,184 +310,7 @@ Did all reviewers get free passes or is this a lottery system and/or based on re
 
      
  
-all -  [ Why did OpenAI move the goal post of Artificial General Intelligence? They literally changed the wik ](https://www.reddit.com/r/singularity/comments/17ynzo6/why_did_openai_move_the_goal_post_of_artificial/) , 2023-11-23-0910
-```
-Update: There is clear evidence a single individual 'Enervation' was responsible as of April 6th 2023 of changing the co
-re definition of what AGI is supposed to be. There is an obvious conflict of interest here as the definition is matching
- to exactly what is on the OpenAI charter. The question is for all of you is this, Should 1 organization be defining wha
-t Artificial General Intelligence (AGI) is and should be? 
-
-It should be note, that this user (Enervation) [has a MASSIV
-E change log from the April 6th date moving forward for issues ranging from AGI, AI Safety and a plethora of other AI is
-sues and concerns.](https://en.wikipedia.org/w/index.php?title=Special:Contributions/Enervation&target=Enervation&offset
-=&limit=500) Is this user Ilya?  
-
- The date of the AGI change was April 6th 2023 with 2,842 bytes of new information. 
-
-
-* [03:55, 6 April 2023](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&oldid=1148436187) [d
-iff](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&diff=prev&oldid=1148436187) [hist](https
-://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&action=history)  **+2,842**‎  [Artificial general 
-intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ‎*No edit summary* [*Tag*](https://en.wikip
-edia.org/wiki/Special:Tags)*:* [*Visual edit*](https://en.wikipedia.org/wiki/Wikipedia:VisualEditor)
-
-**Prior to the dat
-e of April 6th 2023 the Wikipedia AGI page read like this: >>>**
-
-**Artificial general intelligence** (**AGI**) is the h
-ypothetical[\[1\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=10092
-43150#cite_note-1) ability of an [intelligent agent](https://en.wikipedia.org/wiki/Intelligent_agent) to understand or l
-earn any intellectual task that a [human being](https://en.wikipedia.org/wiki/Human_being) can. It is a primary goal of 
-some [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) research and a common topic in [sc
-ience fiction](https://en.wikipedia.org/wiki/Science_fiction) and [futures studies](https://en.wikipedia.org/wiki/Future
-s_studies). AGI can also be referred to as **strong AI**,[\[2\]](https://en.wikipedia.org/w/index.php?title=Artificial_g
-eneral_intelligence&direction=prev&oldid=1009243150#cite_note-FOOTNOTEKurzweil2005260-2)[\[3\]](https://en.wikipedia.org
-/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-Kurzweil_2005-08-05-3)[\[4\
-]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-
-4) **full AI**,[\[5\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1
-009243150#cite_note-5) or **general intelligent action**.[\[6\]](https://en.wikipedia.org/w/index.php?title=Artificial_g
-eneral_intelligence&direction=prev&oldid=1009243150#cite_note-FOOTNOTENewellSimon1976-6) Some academic sources reserve t
-he term 'strong AI' for computer programs that can [experience](https://en.wikipedia.org/wiki/Artificial_consciousness) 
-[sentience](https://en.wikipedia.org/wiki/Sentience), [self-awareness](https://en.wikipedia.org/wiki/Self-awareness) and
- [consciousness](https://en.wikipedia.org/wiki/Chinese_room#Strong_AI).[\[7\]](https://en.wikipedia.org/w/index.php?titl
-e=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-FOOTNOTESearle1980-7) Today's AI is speculat
-ed to be decades away from AGI.[\[8\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direct
-ion=prev&oldid=1009243150#cite_note-spec1-8)[\[9\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intell
-igence&direction=prev&oldid=1009243150#cite_note-9)
-
-In contrast to strong AI, [weak AI](https://en.wikipedia.org/wiki/W
-eak_AI)[\[10\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=10092431
-50#cite_note-10) (also called narrow AI[\[3\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligenc
-e&direction=prev&oldid=1009243150#cite_note-Kurzweil_2005-08-05-3)) is not intended to perform human-like [cognitive](ht
-tps://en.wikipedia.org/wiki/Cognitive) abilities and [personality](https://en.wikipedia.org/wiki/Personality), rather, w
-eak AI is limited to the use of software to study or accomplish specific pre-learned [problem solving](https://en.wikipe
-dia.org/wiki/Problem_solving) or [reasoning](https://en.wikipedia.org/wiki/Reason) tasks ([expert systems](https://en.wi
-kipedia.org/wiki/Expert_systems)).[\[11\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&di
-rection=prev&oldid=1009243150#cite_note-urlPhilosophy_will_be_the_key_that_unlocks_artificial_intelligence_|_Neuroscienc
-e_|_The_Guardian-11)
-
-As of 2017, over forty organizations are actively researching AGI.[\[12\]](https://en.wikipedia.or
-g/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-baum-12)
-
-**After Enervati
-on's edits: >>>**
-
-An **artificial general intelligence** (**AGI**) is a hypothetical type of [intelligent agent](https:
-//en.wikipedia.org/wiki/Intelligent_agent).[\[1\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_no
-te-NYT-20230630-1) If realized, an AGI could learn to accomplish any intellectual task that [human beings](https://en.wi
-kipedia.org/wiki/Human_beings) or animals can perform.[\[2\]](https://en.wikipedia.org/wiki/Artificial_general_intellige
-nce#cite_note-2)[\[3\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:10-3) Alternatively, AG
-I has been defined as an autonomous system that surpasses human capabilities in the majority of economically valuable ta
-sks.[\[4\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:1-4) Creating AGI is a primary goal
- of some [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) research and of companies such
- as [OpenAI](https://en.wikipedia.org/wiki/OpenAI),[\[4\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence
-#cite_note-:1-4) [DeepMind](https://en.wikipedia.org/wiki/DeepMind), and [Anthropic](https://en.wikipedia.org/wiki/Anthr
-opic). AGI is a common topic in [science fiction](https://en.wikipedia.org/wiki/Science_fiction) and [futures studies](h
-ttps://en.wikipedia.org/wiki/Futures_studies).
-
-The timeline for AGI development remains a subject of ongoing debate amo
-ng researchers and experts. Some argue that it may be possible in years or decades; others maintain it might take a cent
-ury or longer; and a minority believe it may never be achieved.[\[5\]](https://en.wikipedia.org/wiki/Artificial_general_
-intelligence#cite_note-:2-5) Additionally, there is debate regarding whether modern [large language models](https://en.w
-ikipedia.org/wiki/Large_language_model), such as [GPT-4](https://en.wikipedia.org/wiki/GPT-4), are early yet incomplete 
-forms of AGI[\[6\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:11-6) or if new approaches 
-are required.[\[7\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:3-7)
-
-Contention exists ov
-er the potential for AGI to pose a threat to humanity;[\[1\]](https://en.wikipedia.org/wiki/Artificial_general_intellige
-nce#cite_note-NYT-20230630-1) for example, OpenAI treats it as an [existential risk](https://en.wikipedia.org/wiki/Exist
-ential_risk_from_artificial_general_intelligence), while others find the development of AGI to be too remote to present 
-a risk.[\[8\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-8)[\[5\]](https://en.wikipedia.or
-g/wiki/Artificial_general_intelligence#cite_note-:2-5)[\[7\]](https://en.wikipedia.org/wiki/Artificial_general_intellige
-nce#cite_note-:3-7)
-
-\------------------------------ end update 
-
-My issue with this is why is one organization defining
- what AI is? And so drastically at that. Why isn't there a community of AI scientist and engineer's that are agreeing on
- such a pivotal definition for an agreed upon general consensus? 
-
-**Original Post:**
-
-Upon researching why people are s
-o confused by what is meant by the today's (apparently) lightning rod term 'Artificial General Intelligence' or 'AGI' on
-e would have to look to none other than how OpenAI moved the goal post of what AGI is. Wikipedia: [https://en.wikipedia.
-org/wiki/Artificial\_general\_intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
-
-\>  An **art
-ificial general intelligence** (**AGI**) is a hypothetical type of [intelligent agent](https://en.wikipedia.org/wiki/Int
-elligent_agent).[\[1\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-NYT-20230630-1) If reali
-zed, an AGI could learn to accomplish any intellectual task that [human beings](https://en.wikipedia.org/wiki/Human_bein
-gs) or animals can perform.[\[2\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-2)[\[3\]](htt
-ps://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:10-3) Alternatively, AGI has been defined as an au
-tonomous system that surpasses human capabilities in the majority of economically valuable tasks.[\[4\]](https://en.wiki
-pedia.org/wiki/Artificial_general_intelligence#cite_note-:1-4) Creating AGI is a primary goal of some [artificial intell
-igence](https://en.wikipedia.org/wiki/Artificial_intelligence) research and of companies such as [OpenAI](https://en.wik
-ipedia.org/wiki/OpenAI),[\[4\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:1-4) [DeepMind]
-(https://en.wikipedia.org/wiki/DeepMind), and [Anthropic](https://en.wikipedia.org/wiki/Anthropic). AGI is a common topi
-c in [science fiction](https://en.wikipedia.org/wiki/Science_fiction) and [futures studies](https://en.wikipedia.org/wik
-i/Futures_studies).
-
-Odd, who is notation 4? Hmm, who could that be that wrote an update to what the definition of what 
-AGI means. Oh it's OpenAI themselves.
-
-4. ['OpenAI Charter'](https://openai.com/charter). *openai.com*. Retrieved 6 Apri
-l 2023.
-
-I'm not going to go into a diatribe about how the definition is purely related to Effective Altruism and not ro
-oted in technical reality. But I will show you that just a few paragraphs down in the same article they describe AGI in 
-a much different way.
-
-\>  Terminology
-
-AGI is also known as strong AI,[\[10\]](https://en.wikipedia.org/wiki/Artificial
-_general_intelligence#cite_note-FOOTNOTEKurzweil2005260-10)[\[11\]](https://en.wikipedia.org/wiki/Artificial_general_int
-elligence#cite_note-Kurzweil_2005-08-05-11) full AI,[\[12\]](https://en.wikipedia.org/wiki/Artificial_general_intelligen
-ce#cite_note-12) human-level AI[\[5\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:2-5) or 
-general intelligent action.[\[13\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-FOOTNOTENewe
-llSimon1976-13) However, some academic sources reserve the term 'strong AI' for computer programs that experience [senti
-ence](https://en.wikipedia.org/wiki/Sentience) or [consciousness](https://en.wikipedia.org/wiki/Consciousness).[\[a\]](h
-ttps://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-Searle's_Strong_AI-14) In contrast, weak AI (or n
-arrow AI) is able to solve one specific problem, but lacks general cognitive abilities.[\[14\]](https://en.wikipedia.org
-/wiki/Artificial_general_intelligence#cite_note-15)[\[11\]](https://en.wikipedia.org/wiki/Artificial_general_intelligenc
-e#cite_note-Kurzweil_2005-08-05-11) Some academic sources use 'weak AI' to refer more broadly to any programs that neith
-er experience consciousness nor have a mind in the same sense as humans.[\[a\]](https://en.wikipedia.org/wiki/Artificial
-_general_intelligence#cite_note-Searle's_Strong_AI-14)
-
-Related concepts include artificial [superintelligence](https://
-en.wikipedia.org/wiki/Superintelligence) and transformative AI. An artificial superintelligence (ASI) is a hypothetical 
-type of AGI that is much more generally intelligent than humans.[\[15\]](https://en.wikipedia.org/wiki/Artificial_genera
-l_intelligence#cite_note-16) And the notion of transformative AI relates to AI having a large impact on society, for exa
-mple similar to the agricultural revolution.[\[16\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_
-note-17)
-
-It seems as if they wanted to water down and dilute the understanding and meaning of what AGI is for perhaps I
- don't know contractual obligations?
-
-[https://openai.com/our-structure](https://openai.com/our-structure)
-
-* Fourth, pr
-ofit allocated to investors and employees, including Microsoft, is capped. All residual value created above and beyond t
-he cap will be returned to the Nonprofit for the benefit of humanity.
-* Fifth, the board determines when we've attained 
-AGI. Again, by AGI we mean a highly autonomous system that outperforms humans at most economically valuable work. Such a
- system is excluded from IP licenses and other commercial terms with Microsoft, which only apply to pre-AGI technology.
-
-
-Interestingly this was reported in many places as much as 6 days ago.
-
-[https://cryptorank.io/news/feed/25bb2-openais-b
-oard-to-determine-agi](https://cryptorank.io/news/feed/25bb2-openais-board-to-determine-agi)
-
-Point is. How do you get t
-o change the goal post and determine all by yourselves what AGI is? Nah this isn't going to fly. Nice try. I feel this v
-erbiage is going to get changed very soon.
-```
----
-
-     
- 
-all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-11-23-0910
+all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-11-24-0910
 ```
 There are websites like this keeping track of ML conference deadlines like this https://aideadlin.es/?sub=ML,CV,CG,NLP,R
 O,SP,DM,AP,KR
@@ -289,7 +322,7 @@ nferences like Neurips, CVPR and so on.
 
      
  
-all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-11-23-0910
+all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-11-24-0910
 ```
 **Paper**: [https://arxiv.org/abs/2311.03736](https://arxiv.org/abs/2311.03736)
 
@@ -319,7 +352,7 @@ o=webp&s=f9bf7f063c1b9950d40ad2a3b04bdc7f0780413f
 
      
  
-all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-11-23-0910
+all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-11-24-0910
 ```
 I have read many posts in this subreddit complaining about the lack of communications and results from DreamLab and the 
 teams behind the various projects. I must agree that these two are the most critical issues about DreamLab and the burde
@@ -440,7 +473,7 @@ update 19/11/2023: fixed link for a
 
      
  
-all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-11-23-0910
+all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-11-24-0910
 ```
 I'm currently in the process of building a feature selection framework for reinforcement learning.
 
@@ -508,7 +541,7 @@ THANK YOU !
 
      
  
-all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-11-23-0910
+all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-11-24-0910
 ```
 Hey guys,
 
@@ -532,7 +565,7 @@ what you think
 
      
  
-all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-11-23-0910
+all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-11-24-0910
 ```
  
 
@@ -566,7 +599,7 @@ ustin
 
      
  
-all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-11-23-0910
+all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-11-24-0910
 ```
 I recently began my career as a Machine Learning Engineer, marking my first job in the industry. A few months ago, I com
 pleted an MPhil program specializing in Environmental Engineering, with a research focus on applying ML in that field. T
@@ -595,7 +628,7 @@ note that I am interested in working in the industry and do not intend to pursue
 
      
  
-all -  [ normal difficulty ](https://i.redd.it/zgmf2cp81yzb1.png) , 2023-11-23-0910
+all -  [ normal difficulty ](https://i.redd.it/zgmf2cp81yzb1.png) , 2023-11-24-0910
 ```
 
 ```
@@ -603,7 +636,7 @@ all -  [ normal difficulty ](https://i.redd.it/zgmf2cp81yzb1.png) , 2023-11-23-0
 
      
  
-all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-11-23-0910
+all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-11-24-0910
 ```
 If anyone is interested in learning AI/LLM's and you’re more familiar with dotnet than python, take a look at my [NanoGp
 tDotnet](https://github.com/biegehydra/NanoGptDotnet) project. It is a direct translation of a [project](https://github.
@@ -694,7 +727,7 @@ t queen overta'en.
 
      
  
-all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-11-23-0910
+all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-11-24-0910
 ```
 Hi ML community, 
 
@@ -723,7 +756,7 @@ re? I'm open to any thoughts or advice on my situation.
 
      
  
-all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-11-23-0910
+all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-11-24-0910
 ```
 I am asking for a friend.
 ```
@@ -731,7 +764,7 @@ I am asking for a friend.
 
      
  
-all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-11-23-0910
+all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-11-24-0910
 ```
 I've had the Neurio Home Energy Monitor (USA, Split Phase) for many, many years. Since they first came to the market, I 
 was an early adapter. 
@@ -784,7 +817,7 @@ https://imgur.com/oBA0txf
 
      
  
-all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-11-23-0910
+all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-11-24-0910
 ```
 # ArXiv
 
@@ -1316,7 +1349,7 @@ te more research into  assessing LLMs to ensure their ethical development. (2023
 
      
  
-all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-11-23-0910
+all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-11-24-0910
 ```
 Hi folks! I'm an undergraduate senior studying CS and Statistics at a T10 undergrad school (not for CS PhD, though); I'm
  also concurrently getting my M.S. in CS here as well. I have research experience in industry (at a top AI Research lab 
@@ -1347,7 +1380,7 @@ advance for your feedback and insights (and for taking the time to read all of t
 
      
  
-all -  [ Code for a paper ](https://www.reddit.com/r/reinforcementlearning/comments/17o6brs/code_for_a_paper/) , 2023-11-23-0910
+all -  [ Code for a paper ](https://www.reddit.com/r/reinforcementlearning/comments/17o6brs/code_for_a_paper/) , 2023-11-24-0910
 ```
 Is there a code available for the paper “Risk-Aware Transfer in Reinforcement Learning using Successor Features” publish
 ed in NeurIPS 2021 by Gimelfarb et Al.?
@@ -1356,7 +1389,7 @@ ed in NeurIPS 2021 by Gimelfarb et Al.?
 
      
  
-all -  [ [R] Highlights for every NeurIPS 2023 paper ](https://www.reddit.com/r/MachineLearning/comments/17nm4eb/r_highlights_for_every_neurips_2023_paper/) , 2023-11-23-0910
+all -  [ [R] Highlights for every NeurIPS 2023 paper ](https://www.reddit.com/r/MachineLearning/comments/17nm4eb/r_highlights_for_every_neurips_2023_paper/) , 2023-11-24-0910
 ```
 Here is the list of all NeurIPS 2023 (Neural Information Processing Systems) papers and a short highlight for each of th
 em. Among all \~3,500 papers, authors of around 1,000 papers also made their code or data available. The 'related code' 
@@ -1378,7 +1411,7 @@ NeurIPS 2023 will take place at New Orleans on Dec 10, 2023.
 
      
  
-all -  [ Papers to reproduce for ML Reproducibility Challenge 2023 ](https://www.reddit.com/r/learnmachinelearning/comments/17lr0g0/papers_to_reproduce_for_ml_reproducibility/) , 2023-11-23-0910
+all -  [ Papers to reproduce for ML Reproducibility Challenge 2023 ](https://www.reddit.com/r/learnmachinelearning/comments/17lr0g0/papers_to_reproduce_for_ml_reproducibility/) , 2023-11-24-0910
 ```
 I'm planning to participate in the ML Reproducibility Challenge 2023 ([**https://reproml.org/blog/announcing\_mlrc2023/*
 *](https://reproml.org/blog/announcing_mlrc2023/)) and I'm looking for suggestions on some good deep learning papers whe
@@ -1398,7 +1431,7 @@ t one to focus on for this challenge.
 
      
  
-all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-23-0910
+all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-24-0910
 ```
 I just wanted to share the news! I don’t know what this means but I’m excited to share.
 ```
@@ -1406,7 +1439,7 @@ I just wanted to share the news! I don’t know what this means but I’m excite
 
      
  
-all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-23-0910
+all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-24-0910
 ```
 Major AI announcements from Meta, NVIDIA, OpenAI, Google and more.   
 
@@ -1602,7 +1635,7 @@ More detailed breakdown of these news and innovations
 
      
  
-all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-11-23-0910
+all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-11-24-0910
 ```
 Dive into the latest AI advancements and breakthroughs in this week's AI Revolution podcast! We dissect the game-changin
 g 'Woodpecker' technology set to tackle the Large Language Models (LLM) hallucination problem, bringing more accuracy an
@@ -1778,7 +1811,7 @@ emystifying Frequently Asked Questions on Artificial Intelligence,**](https://am
 
      
  
-all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-11-23-0910
+all -  [ Two-minute Daily AI Update (Date: 10/26/2023): News from Jina AI (OpenAI’s new rival), NVIDIA, Woodp ](https://www.reddit.com/r/ArtificialInteligence/comments/17gwd5t/twominute_daily_ai_update_date_10262023_news_from/) , 2023-11-24-0910
 ```
 Continuing with the exercise of sharing an easily digestible and smaller version of the main updates of the day in the w
 orld of AI.  
@@ -1855,7 +1888,7 @@ etter](https://theaiedge.substack.com/p/openai-new-rival-jina-ai-woodpecker-nvid
 
      
  
-all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-11-23-0910
+all -  [ At what programs am I competitive? - PhD in CS (AI/ML) ](https://www.reddit.com/r/gradadmissions/comments/17gskbg/at_what_programs_am_i_competitive_phd_in_cs_aiml/) , 2023-11-24-0910
 ```
  I plan to apply to 10-12 CS PhD programs, with a research focus in ML/NLP. 
 
@@ -1911,7 +1944,7 @@ t/UT Dallas/UCF
 
      
  
-all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-11-23-0910
+all -  [ [D] Are people in ML Phds still happy? ](https://www.reddit.com/r/MachineLearning/comments/17fahm6/d_are_people_in_ml_phds_still_happy/) , 2023-11-24-0910
 ```
 As an outsider who has many friends in ML Phds, this is my perspective of their lives:
 
@@ -1940,25 +1973,6 @@ Edit 2: small n
 bility to exert work-life balance, and to some extent ignore the trends others are all following. Some people have reson
 ated with problems 1-6, yet others have presented their own, anecdotal solutions. I recommend reading comments from thos
 e who claim to have solutions.
-```
----
-
-     
- 
-all -  [ [R] Biologically plausible vision models for classification and grasping tasks ](https://www.reddit.com/r/MachineLearning/comments/17ea25h/r_biologically_plausible_vision_models_for/) , 2023-11-23-0910
-```
-Hey everyone! I am looking for papers that propose or explore biologically plausible vision models, primarily tasks like
- classification and grasping (predicting grasping bounding boxes) tasks. By biologically plausible, I mean papers that p
-ropose models inspired by the human brain in some way or the other. I know convolution is loosely inspired by human cogn
-ition, but everything I can find seems to suggest the opposite for ViT like models.
-
-I have come across certain papers l
-ike these:
-- https://arxiv.org/abs/1901.00945
-- https://proceedings.neurips.cc/paper/2020/hash/98b17f068d5d9b7668e19fb8a
-e470841-Abstract.html
-
-But I am still looking for more. Any suggestions?
 ```
 ---
 
