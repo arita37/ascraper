@@ -1,5 +1,5 @@
  
-all -  [ NeurIPS ](https://www.reddit.com/gallery/184mz1w) , 2023-11-28-0910
+all -  [ [D] NeurIPS 2023 Institutions Ranking ](https://www.reddit.com/gallery/185pdax) , 2023-11-29-0910
 ```
 
 ```
@@ -7,7 +7,7 @@ all -  [ NeurIPS ](https://www.reddit.com/gallery/184mz1w) , 2023-11-28-0910
 
      
  
-all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-11-28-0910
+all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-11-29-0910
 ```
 OpenAI's approach to Q-Learning has been drawing significant attention recently.
 
@@ -33,7 +33,7 @@ indings for the future of Q-learning in deep learning environments?
 
      
  
-all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-11-28-0910
+all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-11-29-0910
 ```
 Update: Reuters reported that here what the big discovery was Q\*. You judge for yourself if this is how we define the S
 uperintelligence. [https://www.reddit.com/r/ChatGPT/comments/181pfiq/q\_passing\_math\_tests\_is\_how\_theyre\_describin
@@ -217,7 +217,7 @@ u get to change the goal post and determine all by yourselves what AGI is? Nah t
 
      
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/MSCS/comments/1813klg/ms_cs_profile_evaluation_fall_2024/) , 2023-11-28-0910
+all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/MSCS/comments/1813klg/ms_cs_profile_evaluation_fall_2024/) , 2023-11-29-0910
 ```
  Academic Profile
 
@@ -297,7 +297,7 @@ Safe(?) :
 
      
  
-all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-11-28-0910
+all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-11-29-0910
 ```
 I am an undergrad student and I am a first author of a NeurIPS workshop paper accepted this year. Do I have to buy the t
 icket for both the main conference and the workshop session to attend? I would like to attend both. Or can I just buy th
@@ -308,7 +308,7 @@ ork
 
      
  
-all -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-11-28-0910
+all -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-11-29-0910
 ```
 I received an email today that I can claim a free NeurIPS registration, apparently because of my service as a reviewer. 
 Did all reviewers get free passes or is this a lottery system and/or based on review quality? I didn’t plan on attending
@@ -318,7 +318,7 @@ Did all reviewers get free passes or is this a lottery system and/or based on re
 
      
  
-all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-11-28-0910
+all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-11-29-0910
 ```
 There are websites like this keeping track of ML conference deadlines like this https://aideadlin.es/?sub=ML,CV,CG,NLP,R
 O,SP,DM,AP,KR
@@ -330,7 +330,7 @@ nferences like Neurips, CVPR and so on.
 
      
  
-all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-11-28-0910
+all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-11-29-0910
 ```
 **Paper**: [https://arxiv.org/abs/2311.03736](https://arxiv.org/abs/2311.03736)
 
@@ -360,7 +360,7 @@ o=webp&s=f9bf7f063c1b9950d40ad2a3b04bdc7f0780413f
 
      
  
-all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-11-28-0910
+all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-11-29-0910
 ```
 I have read many posts in this subreddit complaining about the lack of communications and results from DreamLab and the 
 teams behind the various projects. I must agree that these two are the most critical issues about DreamLab and the burde
@@ -481,7 +481,7 @@ update 19/11/2023: fixed link for a
 
      
  
-all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-11-28-0910
+all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-11-29-0910
 ```
 I'm currently in the process of building a feature selection framework for reinforcement learning.
 
@@ -549,7 +549,7 @@ THANK YOU !
 
      
  
-all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-11-28-0910
+all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-11-29-0910
 ```
 Hey guys,
 
@@ -573,7 +573,7 @@ what you think
 
      
  
-all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-11-28-0910
+all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-11-29-0910
 ```
  
 
@@ -607,7 +607,7 @@ ustin
 
      
  
-all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-11-28-0910
+all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-11-29-0910
 ```
 I recently began my career as a Machine Learning Engineer, marking my first job in the industry. A few months ago, I com
 pleted an MPhil program specializing in Environmental Engineering, with a research focus on applying ML in that field. T
@@ -636,7 +636,7 @@ note that I am interested in working in the industry and do not intend to pursue
 
      
  
-all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-11-28-0910
+all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-11-29-0910
 ```
 If anyone is interested in learning AI/LLM's and you’re more familiar with dotnet than python, take a look at my [NanoGp
 tDotnet](https://github.com/biegehydra/NanoGptDotnet) project. It is a direct translation of a [project](https://github.
@@ -727,7 +727,7 @@ t queen overta'en.
 
      
  
-all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-11-28-0910
+all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-11-29-0910
 ```
 Hi ML community, 
 
@@ -756,7 +756,7 @@ re? I'm open to any thoughts or advice on my situation.
 
      
  
-all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-11-28-0910
+all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-11-29-0910
 ```
 I am asking for a friend.
 ```
@@ -764,7 +764,7 @@ I am asking for a friend.
 
      
  
-all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-11-28-0910
+all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-11-29-0910
 ```
 I've had the Neurio Home Energy Monitor (USA, Split Phase) for many, many years. Since they first came to the market, I 
 was an early adapter. 
@@ -817,7 +817,7 @@ https://imgur.com/oBA0txf
 
      
  
-all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-11-28-0910
+all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-11-29-0910
 ```
 # ArXiv
 
@@ -1349,7 +1349,7 @@ te more research into  assessing LLMs to ensure their ethical development. (2023
 
      
  
-all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-11-28-0910
+all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-11-29-0910
 ```
 Hi folks! I'm an undergraduate senior studying CS and Statistics at a T10 undergrad school (not for CS PhD, though); I'm
  also concurrently getting my M.S. in CS here as well. I have research experience in industry (at a top AI Research lab 
@@ -1380,7 +1380,7 @@ advance for your feedback and insights (and for taking the time to read all of t
 
      
  
-all -  [ Code for a paper ](https://www.reddit.com/r/reinforcementlearning/comments/17o6brs/code_for_a_paper/) , 2023-11-28-0910
+all -  [ Code for a paper ](https://www.reddit.com/r/reinforcementlearning/comments/17o6brs/code_for_a_paper/) , 2023-11-29-0910
 ```
 Is there a code available for the paper “Risk-Aware Transfer in Reinforcement Learning using Successor Features” publish
 ed in NeurIPS 2021 by Gimelfarb et Al.?
@@ -1389,7 +1389,7 @@ ed in NeurIPS 2021 by Gimelfarb et Al.?
 
      
  
-all -  [ [R] Highlights for every NeurIPS 2023 paper ](https://www.reddit.com/r/MachineLearning/comments/17nm4eb/r_highlights_for_every_neurips_2023_paper/) , 2023-11-28-0910
+all -  [ [R] Highlights for every NeurIPS 2023 paper ](https://www.reddit.com/r/MachineLearning/comments/17nm4eb/r_highlights_for_every_neurips_2023_paper/) , 2023-11-29-0910
 ```
 Here is the list of all NeurIPS 2023 (Neural Information Processing Systems) papers and a short highlight for each of th
 em. Among all \~3,500 papers, authors of around 1,000 papers also made their code or data available. The 'related code' 
@@ -1411,7 +1411,7 @@ NeurIPS 2023 will take place at New Orleans on Dec 10, 2023.
 
      
  
-all -  [ Papers to reproduce for ML Reproducibility Challenge 2023 ](https://www.reddit.com/r/learnmachinelearning/comments/17lr0g0/papers_to_reproduce_for_ml_reproducibility/) , 2023-11-28-0910
+all -  [ Papers to reproduce for ML Reproducibility Challenge 2023 ](https://www.reddit.com/r/learnmachinelearning/comments/17lr0g0/papers_to_reproduce_for_ml_reproducibility/) , 2023-11-29-0910
 ```
 I'm planning to participate in the ML Reproducibility Challenge 2023 ([**https://reproml.org/blog/announcing\_mlrc2023/*
 *](https://reproml.org/blog/announcing_mlrc2023/)) and I'm looking for suggestions on some good deep learning papers whe
@@ -1431,7 +1431,7 @@ t one to focus on for this challenge.
 
      
  
-all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-28-0910
+all -  [ My first ever paper got accepted to neurips workshop! ](https://www.reddit.com/r/womenintech/comments/17jmdaa/my_first_ever_paper_got_accepted_to_neurips/) , 2023-11-29-0910
 ```
 I just wanted to share the news! I don’t know what this means but I’m excited to share.
 ```
@@ -1439,7 +1439,7 @@ I just wanted to share the news! I don’t know what this means but I’m excite
 
      
  
-all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-28-0910
+all -  [ AI Weekly Rundown (October 21 to October 28) ](https://www.reddit.com/r/ArtificialInteligence/comments/17j1egi/ai_weekly_rundown_october_21_to_october_28/) , 2023-11-29-0910
 ```
 Major AI announcements from Meta, NVIDIA, OpenAI, Google and more.   
 
@@ -1630,182 +1630,6 @@ for customers who don’t have the expertise to do it on their own.
 
 More detailed breakdown of these news and innovations
  is in the [weekly edition](https://theaiedge.substack.com/p/ai-weekly-rundown-october-21-to-october27).
-```
----
-
-     
- 
-all -  [ AI Revolution October 2023: Week 4 Updates - “Woodpecker” Solving LLM Hallucination & Latest from Ji ](https://www.reddit.com/r/u_enoumen/comments/17i5evp/ai_revolution_october_2023_week_4_updates/) , 2023-11-28-0910
-```
-Dive into the latest AI advancements and breakthroughs in this week's AI Revolution podcast! We dissect the game-changin
-g 'Woodpecker' technology set to tackle the Large Language Models (LLM) hallucination problem, bringing more accuracy an
-d reliability to AI-generated content. Plus, get insider updates from leading tech giants and emerging players in the AI
- field. October 2023, Week 4: Here’s what we’re covering:- “Woodpecker”: The promising solution to LLM hallucination iss
-ues- Jina AI: How OpenAI’s newest rival is shaping the AI landscape- Meta’s AI ventures: What’s next from the social med
-ia giant?- NVIDIA: Latest innovations and collaborations- Google, Qualcomm, Grammarly, Motorola, Cisco, and Amazon: AI u
-pdates and developments- And more!
-
-**Video**: [https://youtu.be/Q6rTpvzUpng](https://youtu.be/Q6rTpvzUpng)
-
-**Forbes la
-unches its own generative AI search platform built with Google Cloud.**
-
-The tool, Adelaide, is purpose-built for news s
-earch and offers AI-driven personalized recommendations and insights from Forbes’ trusted journalism. It is in beta and 
-select visitors can access it through the website. *(*[*Link*](https://www.forbes.com/sites/forbes-spotlights/2023/10/26
-/forbes-launches-new-generative-ai-search-tool-adelaide-powered-by-google-cloud/)*)*
-
-**Google Maps is becoming more lik
-e Search– thanks to AI.**
-
-Google wants Maps to be more like Search, where people can get directions or find places but 
-also enter queries like “things to do in Tokyo” and get actually useful hits and discover new experiences, guided by its
- all-powerful algorithm. *(*[*Link*](https://www.theverge.com/2023/10/26/23932315/google-maps-ai-immersive-view-ev-charg
-ing-search)*)*
-
-**Shutterstock will now let you edit its library of images using AI.**
-
-It revealed a set of new AI-powe
-red tools, like Magic Brush, which lets you tweak an image by brushing over an area and describing what you want to add/
-replace/erase. Others include smart resizing feature and background removal tool. *(*[*Link*](https://www.theverge.com/2
-023/10/26/23933120/shutterstock-transform-real-photos-ai)*)*
-
-**UK to set up world's first AI safety institute, says PM 
-Rishi Sunak.**
-
-The institute will carefully examine, evaluate and test new types of AI so that we understand what each 
-new model is capable of, exploring all the risks from social harms like bias and misinformation through to the most extr
-eme risks of all. *(*[*Link*](https://www.reuters.com/world/uk/uk-set-up-worlds-first-ai-safety-institute-sunak-says-202
-3-10-26)*)*
-
-**Intel is trying something different– selling specialized AI software and services.**
-
-Intel is working wi
-th multiple consulting firms to build ChatGPT-like apps for customers that don’t have the expertise to do it on their ow
-n. *(*[*Link*](https://www.theinformation.com/articles/ai-laggard-intel-expands-effort-to-help-companies-build-chatgpt-l
-ike-apps)*)*
-
-**Google expands its bug bounty program for attacks specific to GenAI**\- It is also expanding its open so
-urce security work and building upon our prior collaboration with the Open Source Security Foundation. In addition, Goog
-le is to to support a new effort by the non-profit MLCommons Association to develop standard AI safety benchmarks.
-
-**Bo
-ston Dynamics turns its robot dog into a talking tour guide using ChatGPT**\- Spot could run, jump, and even dance, but 
-now it can talk. With ChatGPT, it can answer questions and generate responses about the company’s facilities while givin
-g a tour.
-
-**UK to set up world's first AI safety institute, Sunak says**\- The institute will carefully examine, evalua
-te and test new types of AI so that we understand what each new model is capable of, exploring all the risks from social
- harms like bias and misinformation through to the most extreme risks of all.
-
-**Intel will sell specialized AI software
- and services**\- Intel is working with multiple consulting firms to build ChatGPT-like apps for customers that don’t ha
-ve the expertise to do it on their own.
-
-**Berlin-based AI company Jina AI launched OpenAI rival jina-embeddings-v2, the
- world's first open-source 8K text embedding model.**\- This model supports an impressive 8K context length, putting it 
-on par with OpenAI's proprietary model. Jina-embeddings-v2 offers extended context potential, allowing for applications 
-such as legal document analysis, medical research, literary analysis, financial forecasting, and conversational AI.- Ben
-chmarking shows that it outperforms other leading base embedding models. The model is available in two sizes, a base mod
-el for heavy-duty tasks and a small model for lightweight applications.
-
-**LLM hallucination problem will be over with “
-Woodpecker”**\- Researchers from the University of Science and Technology of China and Tencent YouTu Lab have developed 
-a framework called 'Woodpecker' to correct hallucinations in multimodal large language models (MLLMs).- Woodpecker uses 
-a training-free method to identify and correct hallucinations in generated text. The framework goes through 5 stages, in
-cluding key concept extraction, question formulation, visual knowledge validation, visual claim generation, and hallucin
-ation correction.- The researchers have released the source code and an interactive demo of Woodpecker for further explo
-ration and application.
-
-**NVIDIA Research has announced a range of AI advancements**\- That will be presented at the Ne
-urIPS conference. The projects include new techniques for transforming text to images, photos to 3D avatars, and special
-ized robots into multi-talented machines. The research focuses on gen AI models, reinforcement learning, robotics, and a
-pplications in the natural sciences.- Highlights include improving text-to-image diffusion models, advancements in AI av
-atars, breakthroughs in reinforcement learning and robotics, and AI-accelerated physics, climate, and healthcare researc
-h.
-
-**Google announces new AI tools to help users fact-check images and more**\- Also prevent the spread of false inform
-ation. The tools include viewing an image's history, metadata, and the context in which it was used on different sites. 
-Users can also see when the image was first seen by Google Search to understand its recency.- Additionally, the tools al
-low users to understand how people described the image on other sites to debunk false claims. Google marks all images cr
-eated by its AI, and the new image tools are accessible through the three-dot menu on Google Images results.
-
-**Grammarl
-y’s announces new feature 'Personalized voice detection & application'**\- That uses generative AI to detect a person's 
-unique writing style and create a 'voice profile' that can rewrite any text in that style.- The feature, which will be a
-vailable to subscribers of Grammarly's business tier by the end of the year, aims to recognize and remunerate writers fo
-r AI-generated works that mimic their voices.- Users can customize their profiles to discard elements that don't accurat
-ely reflect their writing style.
-
-**Motorola's new foldable phone is boosted by AI features**\- They've developed an AI 
-model that runs locally on the device, allowing users to 'bring their personal style to their phone.' Users can upload o
-r take a photo to get an AI-generated theme to match their style.- They’ve embedded AI features in many areas of our dev
-ices, like camera, battery, display and device performance. It will serve as a personal assistant and a tool to enhance 
-everyday tasks, improve performance, and create more meaningful experiences for the users.
-
-**Cisco rolls out new AI too
-ls at the Webex One customer conference**\- These tools include a real-time media model (RMM) that uses generative AI fo
-r audio and video, an AI-powered audio codec that is up to 16 times more efficient in bandwidth usage, and the Webex AI 
-Assistant, which pulls together all the AI tooling for users.- The AI Assistant can detect when a user steps away from a
- meeting and provide summaries or replays of missed content.
-
-**Amazon reveals AI image generation to help advertisers c
-reate more engaging ads**\- The use of data science, analytics, and AI has greatly improved the efficiency of digital ad
-vertising, but many advertisers still struggle with building successful campaigns.- By providing tools that reduce frict
-ion and effort for advertisers, Amazon aims to deliver a better advertising experience for customers.
-
-**Qualcomm’s new 
-PC chip with AI features the first to challenge Apple**\- Its new Snapdragon Elite X chip will be available in laptops s
-tarting next year and has been redesigned to better handle AI tasks like summarizing emails, writing text, and generatin
-g images. Qualcomm claims it is faster than Apple's M2 Max chip at some tasks and more energy efficient than both Apple 
-and Intel PC chips.
-
-**Microsoft is outdoing its biggest rival, Google, in the AI game**\- From the two tech giants’ Sep
-tember-quarter results, growth at Microsoft’s Azure cloud unit (and the company generally) accelerated in the quarter du
-e to higher-than-expected consumption of AI-related services. In the same quarter, Google Cloud earnings slowed by nearl
-y 6 percentage points.
-
-**Samsung’s Galaxy S24 is your upcoming pocket AI machine**\- Going all in with AI on its next f
-lagship, Samsung wants to make the Galaxy S24, Galaxy S24+, and Galaxy S24 Ultra the smartest AI phones ever. The series
- will have features lifted straight from ChatGPT and Google Bard, and Samsung has designed on its own. Many of them will
- be available online and offline, and some Samsung features will be improved.
-
-**Google Photos will soon give you more s
-ay in its AI-created video highlights**\- With the latest Google Photos update, you can prompt AI-generated videos by se
-arching for specific tags like places, people, or activities. Once generated, you can trim clips, rearrange them, or swa
-p out music for something better.
-
-**Lenovo and NVIDIA announce hybrid AI solutions to help enterprises quickly adopt Ge
-nAI**\- The new end-to-end solutions include accelerated systems, AI software, and expert services to build and deploy d
-omain-specific AI models with ease.
-
-**Amazon's AI-powered van inspections give it a powerful new data feed**\- Amazon d
-elivery drivers at sites around the world will be asked to drive through camera-studded archways at the end of shifts. T
-he data gathered will be used by algorithms to identify whether the vehicle is damaged or needs maintenance, picking up 
-every scratch, dent, nail in a tire, or crack in the windshield.
-
-**IBM acquires Manta Software Inc. to complement data 
-and AI governance capabilities**\- Manta’s data lineage capabilities help increase transparency within watsonx so busine
-sses can determine whether the right data was used for their AI models and systems, where it originated, how it has evol
-ved and any discrepancies in data flows.
-
-**This new data poisoning tool lets artists fight back against GenAI**\- The t
-ool, called Nightshade, lets artists add invisible changes to the pixels in their art before they upload it online so th
-at if it’s scraped into an AI training set, it can cause the resulting model to break in chaotic and unpredictable ways.
- This “poisoning” of training data could damage future iterations of image-generating AI models, such as DALL-E, Midjour
-ney, and Stable Diffusion.
-
-**Video**: [https://youtu.be/Q6rTpvzUpng](https://youtu.be/Q6rTpvzUpng)
-
-Full transcript: [h
-ttps://enoumen.com/2023/10/02/ai-revolution-in-october-2023-the-latest-innovations-reshaping-the-tech-landscape/](https:
-//enoumen.com/2023/10/02/ai-revolution-in-october-2023-the-latest-innovations-reshaping-the-tech-landscape/)
-
-Are you ea
-ger to expand your understanding of artificial intelligence? Look no further than the essential book '[**AI Unraveled: D
-emystifying Frequently Asked Questions on Artificial Intelligence,**](https://amzn.to/3BwRqkF)' available at [**Apple**]
-(http://books.apple.com/us/book/id6445730691), [**Google**](https://play.google.com/store/books/details?id=oySuEAAAQBAJ)
-, or [**Amazon**](https://amzn.to/3ZrpkCu) today: [https://amzn.to/3ZrpkCu](https://amzn.to/3ZrpkCu)
 ```
 ---
 
