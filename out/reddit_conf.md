@@ -1,5 +1,754 @@
  
-all -  [ Recruitment at neurips 2023 ](https://www.reddit.com/r/MLQuestions/comments/18bnfg7/recruitment_at_neurips_2023/) , 2023-12-07-0910
+all -  [ Kernel embedding of conditional distribution ](https://www.reddit.com/r/learnmachinelearning/comments/18cvcqu/kernel_embedding_of_conditional_distribution/) , 2023-12-08-0910
+```
+Can someone explain how to use conditional maximum mean discrepancy as explained in [this paper](https://proceedings.neu
+rips.cc/paper/2016/file/0245952ecff55018e2a459517fdb40e3-Paper.pdf). My goal is to study two sets of samples and formula
+te the difference in the underlying conditional distribution, so I can build a loss function from it. 
+```
+---
+
+     
+ 
+all -  [ Quant Research of the Week (5th Edition) ](https://www.reddit.com/r/quant/comments/18csq03/quant_research_of_the_week_5th_edition/) , 2023-12-08-0910
+```
+ 
+
+# SSRN
+
+### Recently Published
+
+## Quantitative
+
+[**Deep Reinforcement Learning for US Equities Trading**](https://pa
+pers.ssrn.com/sol3/papers.cfm?abstract_id=4645453): The study shows that Deep Reinforcement Learning can effectively int
+erpret synthetic alpha signals in financial trading, outperforming the market benchmark. (2023-11-27, shares: 3.0)
+
+[**M
+achine Learning for Portfolio Performance**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4655091): The study int
+roduces a method to determine the impact of individual factors on portfolio performance, providing insights into the eco
+nomic value of return predictability in machine learning models. (2023-11-29, shares: 2.0)
+
+[**Machine Learning for Path
+-Dependent Contracts**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4646847): The study introduces a new method 
+for pricing financial products with early-termination features using machine learning algorithms and Chebyshev interpola
+tion techniques. (2023-11-28, shares: 5.0)
+
+[**Historical Calibration of SVJD Models with Deep Learning**](https://paper
+s.ssrn.com/sol3/papers.cfm?abstract_id=4650097): The paper suggests using deep neural networks to calibrate parameters o
+f Stochastic Volatility Jump Diffusion models, proving to be more accurate, robust, and faster than other methods. (2023
+-12-01, shares: 2.0)
+
+## Financial
+
+[**Competition between ETFs and Mutual Funds**](https://papers.ssrn.com/sol3/papers.
+cfm?abstract_id=4653702): The research indicates that less transparent active ETFs do not affect mutual fund investor fl
+ows, instead, the reputation of the cloned mutual funds helps the new ETFs attract more flows. (2023-12-05, shares: 2.0)
+
+
+[**Disagreement Proxies and Price Impact**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4647471): The study pr
+esents a new framework to better understand investor disagreement, introducing a more accurate measure that can predict 
+returns. (2023-11-28, shares: 39.0)
+
+[**Pricing VIX Derivatives in Stochastic Volatility Model**](https://papers.ssrn.co
+m/sol3/papers.cfm?abstract_id=4649270): The paper introduces a new stock price model based on continuous-state branching
+ processes, providing a formula for VIX put option price. (2023-11-30, shares: 4.0)
+
+[**Causal Reductionism in Finance L
+imits**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4646664): The research suggests that traditional methods of
+ studying finance and econometrics may be flawed, proposing a new approach of considering multiple causal factors. (2023
+-11-28, shares: 31.0)
+
+### Recently Updated
+
+## Quantitative
+
+[**RL and Deep Stochastic Optimal Control for Quadratic He
+dging**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4645455): The study compares Reinforcement Learning and Dee
+p Trajectory-based Stochastic Optimal Control for hedging a European call option, finding both methods perform similarly
+ under various market conditions. (2023-11-20, shares: 3.0)
+
+[**ML and IRB Capital Requirements: Advantages, Risks, and 
+Recommendations**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4654659): The article explores the potential of m
+achine learning in improving bank capital requirements and enhancing financial inclusion through better credit risk meas
+urement. (2023-06-25, shares: 2.0)
+
+[**Machine Learning Framework for Portfolio Choice**](https://papers.ssrn.com/sol3/p
+apers.cfm?abstract_id=4642269): The paper presents a computational framework for solving dynamic portfolio choice proble
+ms with multiple risky assets and transaction costs, suggesting that having more assets can mitigate some illiquidity ca
+used by transaction costs. (2023-08-18, shares: 2.0)
+
+[**Volatility and Mispricing with Sentiment and Institutional Inve
+stors**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4649820): The research suggests that high investor sentimen
+t and increased institutionalization can decrease excess volatility and mispricing in stock returns. (2022-12-11, shares
+: 2.0)
+
+[**Sharpening Sharpe Analysis with Machine Learning**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=46508
+59): The research shows that over 95% of mutual funds have multidimensional investment styles, and those that change the
+ir styles often outperform their new style benchmarks. (2023-10-27, shares: 2.0)
+
+# ArXiv
+
+## Finance
+
+[**Stock return d
+istribution**](https://arxiv.org/abs/2312.02472): A new model suggests that financial markets often underreact to small 
+events and overreact to major ones, with a stronger reaction to positive events. (2023-12-05, shares: 5)
+
+[**Monotonic r
+isk measures**](https://arxiv.org/abs/2312.01034): Monotonic mean-deviation measures have been characterized from a gene
+ral model, providing new examples of consistent risk measures and establishing the consistency and normality of the natu
+ral estimators of the measures. (2023-12-02, shares: 4)
+
+[**Rough Volatility: Range Volatility Estimators**](https://arx
+iv.org/abs/2312.01426): The study further analyzes volatility dynamics using range-based proxies, confirming that log-vo
+latility behaves like fractional Brownian motion and the rough fractional stochastic volatility model predicts better. (
+2023-12-03, shares: 7)
+
+[**FinMem: LLM Trading Agent**](https://arxiv.org/abs/2311.13743): The article presents FinMem, 
+a new Large Language Model-based system designed to improve financial decision-making by retaining crucial information b
+eyond human capabilities. (2023-11-23, shares: 27)
+
+[**ESG Raw Scores vs Aggregated Scores**](https://arxiv.org/abs/2312
+.00202): The paper compares the predictive power of raw and aggregated Environmental, Social, and Governance (ESG) score
+s on company stock returns and volatility, with raw ESG data proving most predictive. (2023-11-30, shares: 5)
+
+[**Valuin
+g Post-Revenue Biopharmaceutical Assets**](https://arxiv.org/abs/2312.02250): The research introduces a new model for pr
+edicting future sales of post-revenue biopharmaceutical assets, aiding more strategic investment decisions in the biotec
+h and pharmaceutical sectors. (2023-12-04, shares: 5)
+
+## Crypto & Blockchain
+
+[**DeFi: Protocols, Risks, Governance**](
+https://arxiv.org/abs/2312.01018?utm_source=dlvr.it&utm_medium=twitter): The article discusses the benefits of decentral
+ized finance (DeFi) over traditional finance, the function of smart contracts, and the associated risks, highlighting th
+e need for more research on scalability and auditing. (2023-12-02, shares: 7)
+
+[**DeFi Market Misconduct Analysis**](htt
+ps://arxiv.org/abs/2311.17715): The paper investigates the rise of blockchain and DeFi, potential market misconduct, and
+ the challenges of creating a DeFi regulatory framework, suggesting possible regulation strategies. (2023-11-29, shares:
+ 7)
+
+[**Just-in-Time Liquidity Paradox in Decentralized Exchanges**](https://arxiv.org/abs/2311.18164): The research ana
+lyzes the paradox of just-in-time (JIT) liquidity provision in decentralized exchanges, which can reduce liquidity, and 
+suggests a two-tiered fee structure to counteract this. (2023-11-30, shares: 6)
+
+[**Uniswap Daily Transaction Indices**]
+(https://arxiv.org/abs/2312.02660?utm_source=dlvr.it&utm_medium=twitter): The study explores the effect of Layer 2 solut
+ions on DeFi by analyzing millions of transactions from Uniswap, offering insights into adoption, scalability, and decen
+tralization in the DeFi sector. (2023-12-05, shares: 5)
+
+[**Cryptocurrency Tail Risk and Systemic Risk Estimation**](htt
+ps://arxiv.org/abs/2311.17239): The paper introduces an expectile-based approach to assess the tail risk of cryptocurren
+cies, presenting the Marginal Expected Shortfall as a tool to measure the impact of a single cryptocurrency on the marke
+t's systemic risk. (2023-11-28, shares: 5)
+
+## Historical Trending
+
+[**Physics-Informed Convolutional Transformer for Vo
+latility Prediction**](https://arxiv.org/abs/2209.10771): The paper presents a new architecture using physics-informed n
+eural networks and convolutional transformers for better predicting financial market volatility. (2022-09-22, shares: 23
+)
+
+[**Theory and Stock Return Predictions**](https://arxiv.org/abs/2212.10317): The research indicates that the predicta
+bility of cross-sectional return predictors decreases by half in post-sample scenarios, implying that theoretical models
+ don't improve predictions and peer-review often misinterprets mispricing as risk. (2022-12-20, shares: 48)
+
+[**Optimal 
+Stopping with Neural Networks**](https://arxiv.org/abs/2104.13669): The article highlights the benefits of using randomi
+zed neural networks to approximate solutions for optimal stopping problems, proving they are more efficient and faster t
+han other machine learning methods. (2021-04-28, shares: 38)
+
+# Twitter
+
+## Quantitative
+
+[**RL for Limit Order Book Tra
+ding**](https://twitter.com/carlcarrie/status/1730412099740856331): The article explores the application of reinforcemen
+t learning in model-based limit order book trading. (2023-12-01, shares: 3)
+
+[**Extracting SEC Company Filings with Pyth
+on**](https://twitter.com/carlcarrie/status/1730955614661001568): The article reviews the SEC Company Filings, a Python 
+library that extracts financial data from over 120 million data points. (2023-12-02, shares: 3)
+
+[**Simple Factor Model 
+for Forex**](https://twitter.com/carlcarrie/status/1730410912786317592): The article introduces a straightforward long-t
+erm factor model for foreign exchange. (2023-12-01, shares: 1)
+
+[**Impact of Generative AI on Finance Markets and Servic
+es**](https://twitter.com/carlcarrie/status/1728983891695091916): The article examines the significant influence of Gene
+rative AI on financial markets and services, highlighting the importance of regulatory dynamics in its implementation. (
+2023-11-27, shares: 1)
+
+[**Paper on empirical Bayes and out-of-sample returns**](https://twitter.com/quantseeker/status/
+1729484342282318167): The article introduces a new paper that applies empirical Bayes to discover out-of-sample returns 
+from 70,000 long-short trading strategies. (2023-11-28, shares: 1)
+
+[**Analyst underreaction decline and momentum strate
+gy profitability**](https://twitter.com/quantseeker/status/1729978368643178854): The article explores a paper suggesting
+ that the profitability of a 12-month momentum strategy has decreased due to less analyst underreaction to news. (2023-1
+1-29, shares: 1)
+
+[**Morgan Stanley research on GenAI impact on work and skills automation challenges**](https://twitter
+.com/carlcarrie/status/1730596987953721461): The article discusses a Morgan Stanley research on the effects of GenAI on 
+work, advocating for side-hustles and discussing skills that are difficult to automate with AI. (2023-12-01, shares: 0)
+
+
+## Miscellaneous
+
+[**Obfuscation: More Sinister?**](https://twitter.com/carlcarrie/status/1731669816413417886): The art
+icle explores the idea of effective obfuscation, questioning if it's a real accelerationism or a disguise for something 
+darker. (2023-12-04, shares: 0)
+
+[**GenAI in Financial Services**](https://twitter.com/carlcarrie/status/173146251678860
+9075): The article shares a report by Oliver Wyman about the impact of GenAI in the financial services sector. (2023-12-
+03, shares: 0)
+
+[**Analyst Disagreement and Future Returns**](https://twitter.com/quantseeker/status/1731394966629302315
+): The article reviews studies showing a negative link between analyst disagreement and future returns, emphasizing the 
+importance of proxy choice in empirical results. (2023-12-03, shares: 0)
+
+[**Generative AI in Virtual Meetings**](https:
+//twitter.com/carlcarrie/status/1731382581831016663): The article cannot be summarized due to lack of information. (2023
+-12-03, shares: 0)
+
+[**MIT UBS' Value in Generative AI in Financial Services**](https://twitter.com/carlcarrie/status/17
+30594670449762736): MIT and UBS report explores the application and value of Generative AI in financial services, citing
+ examples like RCBC Kasisto, Cowbell Insurance, and Goldman Westpac. (2023-12-01, shares: 0)
+
+# RePec
+
+## Finance
+
+[**Co
+nstrained index tracking optimization models**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Flink.spring
+er.com%2F10.1007%2Fs10479-021-04173-2;h=repec:spr:annopr:v:330:y:2023:i:1:d:10.1007_s10479-021-04173-2): The research in
+vestigates two methods of including liquidity constraints in portfolio optimization, finding that these constraints incr
+ease liquidity and tracking errors. (2023-12-06, shares: 34.0)
+
+[**Bond Selection**](https://econpapers.repec.org/script
+s/redir.pf?u=https%3A%2F%2Fwww.worldscientific.com%2Fdoi%2Fpdf%2F10.1142%2F9789811272578_0007;h=repec:wsi:wschap:9789811
+272578_0007): The chapter discusses the challenges of bond selection and the use of traditional optimization techniques,
+ highlighting the need for thorough analysis in portfolio construction. (2023-12-06, shares: 20.0)
+
+[**Dynamic limit ord
+er placement's impact on stock market quality**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Flink.sprin
+ger.com%2F10.1007%2Fs10479-021-04282-y;h=repec:spr:annopr:v:330:y:2023:i:1:d:10.1007_s10479-021-04282-y): The study inve
+stigates the impact of two system upgrades by the Australian Securities Exchange on dynamic limit order placement activi
+ties and market quality, revealing both positive and negative effects. (2023-12-06, shares: 19.0)
+
+[**Forecasting Parame
+ters in SABR Model**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.anserpress.org%2Fjournal%2Fjea%2
+F1%2F1%2F6%2Fpdf;h=repec:bba:j00001:v:1:y:2022:i:1:p:66-78:d:13): Two methods for predicting parameters in the SABR mode
+l, the vector autoregressive moving-average model and epsilon-support vector regression, both provide accurate fits, wit
+h the SABR model yielding superior pricing results. (2022-02-26, shares: 15.0)
+
+## Statistical
+
+[**Real Estate Appraisal
+s: ML vs Traditional Methods**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Flink.springer.com%2F10.1365
+%2Fs41056-022-00063-1;h=repec:spr:gjorer:v:9:y:2023:i:2:d:10.1365_s41056-022-00063-1): Research indicates that machine l
+earning, particularly XGBoost, offers the most precise predictions in Automated Valuation Models for residential propert
+ies, suggesting a need for regulators to consider various methods. (2023-12-06, shares: 31.0)
+
+[**Bitcoin Futures Foreca
+sting with ML**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Flink.springer.com%2F10.1007%2Fs10479-021-0
+4205-x;h=repec:spr:annopr:v:330:y:2023:i:1:d:10.1007_s10479-021-04205-x): Machine learning algorithms have proven to be 
+more effective than traditional models in predicting Bitcoin futures prices, maintaining an average classification accur
+acy consistently over 50%. (2023-12-06, shares: 18.0)
+
+[**Survival Models for Startup Failures**](https://econpapers.rep
+ec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.anserpress.org%2Fjournal%2Fjes%2F1%2F3%2F14%2Fpdf;h=repec:bba:j00005:v:1:y:2
+023:i:3:p:1-15:d:264): The research finds that advanced machine learning models like MTLR and Random Forest are more acc
+urate in predicting startup failures than standard models. (2023-12-06, shares: 16.0)
+
+# GitHub
+
+## Finance
+
+[**Statisti
+cal ML Discovery**](https://github.com/aangelopoulos/ppi_py): The article explores a machine learning package designed f
+or accurate scientific discovery through statistical analysis. (2023-08-24, shares: 113.0)
+
+[**Advanced Sentiment Tradin
+g App**](https://github.com/devfinwiz/Fin-Maestro-Web): The piece presents a new web app for trading and investment rese
+arch, featuring real-time sentiment analysis. (2022-11-24, shares: 146.0)
+
+[**Scalable Realtime Datastore**](https://git
+hub.com/influxdata/influxdb): The piece examines a scalable datastore specifically created for metrics events and real-t
+ime analytics. (2013-09-26, shares: 26787.0)
+
+[**Koopa Learning for Time Dynamics**](https://github.com/thuml/Koopa): Th
+e article announces the launch of a code for learning nonstationary time series dynamics using Koopman Predictors, set f
+or NeurIPS 2023. (2023-08-22, shares: 83.0)
+
+[**UnbiasedGBM: Repository for Gradient Boosting Decision Tree**](https://g
+ithub.com/ZheyuAqaZhang/UnbiasedGBM): The article discusses a repository for Unbiased Gradient Boosting Decision Tree th
+at offers unbiased feature importance. (2023-05-14, shares: 19.0)
+
+# LinkedIn
+
+## Trending
+
+[**Large Language Models for
+ Quant Finance**](https://www.linkedin.com/feed/update/urn:li:activity:7137678922871169024): The Citigroup Centre Audito
+rium is holding an event called Frontiers in Quantitative Finance: Large Language Models for Quantitative Finance. (2023
+-12-05, shares: 1.0)
+
+[**Hierarchical PCA: Statistical Approach in Factor Investing**](https://www.linkedin.com/feed/upd
+ate/urn:li:activity:7137358025438179328): Hierarchical Principal Component Analysis (HPCA) is presented as a new statist
+ical method in factor investing, providing dynamic market adaptability and superior performance than traditional methods
+. (2023-12-04, shares: 1.0)
+
+[**Measuring Information Flows in Option Markets**](https://www.linkedin.com/feed/update/ur
+n:li:activity:7137478661804277762): A research article in the Journal of Derivatives introduces a new method to measure 
+information flows in option markets. (2023-12-05, shares: 1.0)
+
+[**Knowledge Graphs Enhance GenAI and LLMs Accuracy**](h
+ttps://www.linkedin.com/feed/update/urn:li:activity:7137580688274329600): A benchmark study shows that knowledge graphs 
+enhance the accuracy of data Q&A in GenAI, emphasizing their role in democratizing data for businesses. (2023-12-05, sha
+res: 1.0)
+
+[**Winning Team's Project Addresses Feature Engineering and Modeling**](https://www.linkedin.com/feed/update/
+urn:li:activity:7137653053331030016): A project team successfully tackled feature engineering and modeling, but faced ch
+allenges optimizing machine learning models due to limited computing power. (2023-12-05, shares: 1.0)
+
+[**AI Replicabili
+ty and Finance Implications**](https://www.linkedin.com/feed/update/urn:li:activity:7137443728767483905): The ADIA Lab M
+arket Prediction Competition Awards Ceremony included a discussion on the impact of AI and p-hacking in quantitative fin
+ance. (2023-12-05, shares: 1.0)
+
+# Podcasts
+
+## Quantitative
+
+[**Market States and Recession Prediction**](https://pdcn.
+co/e/www.buzzsprout.com/2034153/14093215-unveiling-market-states-and-predicting-recession-with-michael-khouw.mp3): The p
+odcast explores the influence of AI in finance, potential recession indicators, and the effect of market volatility, fea
+turing insights from industry expert Michael Khouw. (2023-12-05, shares: 14)
+
+[**The Quant Finance LIE**](https://www.bu
+zzsprout.com/803279/14058431-the-biggest-lie-in-quant-finance.mp3): The podcast debunks the idea of a full stack quant i
+n finance, suggesting individuals to focus on one primary area instead. (2023-11-29, shares: 13)
+
+[**Embracing Reality: 
+Debunking AGI Hype**](https://datascienceathome.podbean.com/e/debunking-agi-hype-and-embracing-reality-rb-ep-245/): Fili
+p Piekniewski, an AI expert, debunks hype about artificial general intelligence and the singularity, focusing on real AI
+ advancements. (2023-12-04, shares: 8)
+
+[**24 Interest Rate Derivatives Forecast**](https://atanyrate.podbean.com/e/2024
+-interest-rate-derivatives-outlook/): Srini Ramaswamy and Ipek Ozil predict the state of interest rate derivatives marke
+ts in 2024 in a podcast recorded in December 2023. (2023-12-05, shares: 6)
+
+# Videos
+
+## Quantitative
+
+[**Language to SQ
+L Generator with LLM**](https://www.youtube.com/watch?v=XAGA5A4wR20): Rami Krispin explains how LLM models can be used t
+o convert language into code, specifically developing a language to SQL translator via the OpenAI API. (2023-12-05, shar
+es: 0.0)
+
+[**The Biggest LIE in Quant Finance**](https://www.youtube.com/watch?v=XAGA5A4wR20): Krispin delves into the u
+se of LLM models for translating language into code, focusing on the creation of a language to SQL translator through th
+e OpenAI API. (2023-12-06, shares: 9.0)
+
+[**Yield Farming: Costs, Returns, and Risks**](https://www.youtube.com/watch?v=
+k67wtyWWfx8): The article debates the concept of a 'full stack quant' in quantitative finance, arguing that while such p
+rofessionals exist, they typically specialize in a particular area rather than mastering all aspects. (2023-11-29, share
+s: 68.0)
+
+[**Covariance Matrix and Shrinkage**](https://eranraviv.com/statistical-shrinkage-4-covariance-estimation/): T
+he article explores the problems of unstable covariance matrix in contemporary statistics and suggests a practical solut
+ion through statistical shrinkage. (2023-11-29, shares: 8)
+
+# Reddit
+
+## Quantitative
+
+[**Microstructure Book Recs**](ht
+tps://www.reddit.com/r/quant/comments/182g45n/book_suggestions_for_understanding_microstructure/): The author recounts t
+heir recent experience with microstructure signals. (2023-11-24, shares: 54.0)
+
+[**Unveiling OMMs**](https://www.reddit.
+com/r/quant/comments/189flc3/the_alpha_in_omms/): The article debunks the notion of secret strategies in trading, emphas
+izing the importance of swift decision-making. (2023-12-02, shares: 114.0)
+
+[**Quant Research: Manipulating LOB**](https
+://www.reddit.com/r/quant/comments/186r4to/quant_research_of_the_week_4th_edition/): The paper explores a model for test
+ing potential manipulation by trading algorithms and discusses the role of machine learning in asset management. (2023-1
+1-29, shares: 64.0)
+
+[**Transitioning from Prop Shop to Academia**](https://www.reddit.com/r/quant/comments/186dc5q/leav
+e_prop_shop_for_academia/): The author considers transitioning from a proprietary trading firm to a school research lab,
+ evaluating the trade-off between autonomy, collaboration, and financial gain. (2023-11-29, shares: 63.0)
+
+[**Analyzing 
+the Absence of Algo Traders in Forex**](https://www.reddit.com/r/algotrading/comments/183c4kq/why_arent_there_more_peopl
+e_algo_trade_forex/): The article explores the underutilization of forex trading by algorithmic traders, despite its ben
+efits like liquidity, affordability, and abundant price data. (2023-11-25, shares: 50.0)
+
+## Rising
+
+[**PNL & Sharpe for
+ Fund Hiring**](https://www.reddit.com/r/quant/comments/184nd4j/what_pnl_and_sharpe_would_make_multistrategy/): The arti
+cle explores what daily profit expectations should be for a trading strategy used by funds like Milleniumcitadeletc. (20
+23-11-26, shares: 47.0)
+
+[**Work Culture: Hedge Funds in NY vs London**](https://www.reddit.com/r/quant/comments/182dzi9
+/whats_the_difference_in_work_culture_and_life/): The article provides insights on what to consider when choosing a perm
+anent workplace. (2023-11-23, shares: 95.0)
+
+[**Books: Good Plot Only**](https://www.reddit.com/r/quant/comments/185urff
+/her_i_only_like_books_with_good_plot_me/): The article examines the daily tasks of quant High-Frequency Trading (HFT) t
+raders, considering that models are developed by researchers and implemented by developers. (2023-11-28, shares: 154.0)
+
+
+[**HFT Traders' Daily Activities**](https://www.reddit.com/r/quant/comments/1849q3h/what_do_hft_traders_actually_do_on_
+a_daytoday/): The article offers guidance to a statistics student debating whether to take advanced courses in Bayesian 
+statistics, Machine learning, or Partial Differential Equations (PDEs). (2023-11-26, shares: 135.0)
+
+# ArXiv ML
+
+## Rece
+ntly Published
+
+[**Training Data Extraction from Language Models**](https://arxiv.org/abs/2311.17035): The study shows t
+hat large amounts of training data can be extracted from different machine learning models, highlighting that current te
+chniques do not prevent data memorization. (2023-11-28, shares: 115)
+
+[**Benefits of Overparameterization in ML**](https
+://arxiv.org/abs/2311.14646): The paper supports the theory that larger model size, more data, and more computation enha
+nce performance in random feature regression, similar to shallow networks with only the last layer trained. (2023-11-24,
+ shares: 66)
+
+[**Enhanced Sample Quality with Self-Attention Guidance**](https://github.com/lllyasviel/fooocus): Denoisi
+ng diffusion models are becoming increasingly popular due to their high-quality and diverse generation capabilities. (20
+23-11-23, shares: 16676.0)
+
+## Historical Trending
+
+[**Universalizing Weak Supervision for Any Label Type**](https://arx
+iv.org/abs/2112.03865): The article introduces a universal technique for weak supervision frameworks that can be applied
+ to any label type, demonstrating improvements in various settings including learning-to-rank and regression problems. (
+2021-12-07, shares: 71)
+
+[**Edge Directionality in Heterophilic Graphs**](https://arxiv.org/abs/2305.10498): The study p
+resents Directed Graph Neural Network (Dir-GNN), a new deep learning framework for directed graphs that surpasses tradit
+ional models in heterophilic benchmarks. (2023-05-17, shares: 186)
+```
+---
+
+     
+ 
+all -  [ Anyone will be driving to Neurips in New Orleans in weekend ](https://www.reddit.com/r/Purdue/comments/18cpdfe/anyone_will_be_driving_to_neurips_in_new_orleans/) , 2023-12-08-0910
+```
+Is anyone driving to attend the Neurips 2023 (December 10 to December 16 )in New Orleans from?
+
+Or is anyone traveling c
+ity along the route. I can split gas and split driving. Time is flexible. Preferably arrive before December 10 for Neuri
+ps opening.
+```
+---
+
+     
+ 
+all -  [ Googles Advanced AI Model Gemini and Other AI Developments Across the Industry ](https://www.reddit.com/r/ai_news_by_ai/comments/18conr7/googles_advanced_ai_model_gemini_and_other_ai/) , 2023-12-08-0910
+```
+
+
+
+
+
+#startups #tool #leaders #feature #release #event #science #update #api #hardware #vc #bigtech #major_players #sche
+duled
+
+Google has introduced Gemini, its most advanced AI model yet, optimized in three sizes - Ultra, Pro, and Nano. Ge
+mini is a multimodal model that can understand and reason across different types of information, including text, code, a
+udio, image, and video. It outperforms human experts on 30 out of 32 academic benchmarks, achieving a score of 90.0% on 
+MMLU (massive multitask language understanding). Gemini is now rolling out across various Google products and platforms,
+ with Gemini Ultra and Bard Advanced set to launch early next year. Developers and enterprise customers can access Gemin
+i Pro via the Gemini API in Google AI Studio or Google Cloud Vertex AI. Android developers will be able to build with Ge
+mini Nano via AICore on Pixel 8 Pro devices [7][8][12][21][23][24][25].
+
+
+
+
+
+
+
+Google has also announced the integration
+ of Gemini into Bard, its AI language model. Bard will initially use a specifically tuned version of Gemini Pro for adva
+nced reasoning, planning, and understanding. In early 2024, Bard Advanced will be introduced, offering access to the mos
+t advanced models and capabilities, starting with Gemini Ultra [24][29].
+
+
+
+
+
+
+
+Meta has released a smaller and faster v
+ersion of their Segment Anything Model (SAM) called EfficientSAM. It has 20 times fewer parameters and runs 20 times fas
+ter than SAM, while still achieving a similar performance with a difference of only 2 points in average precision [3].
+
+
+
+
+
+
+
+
+SeamlessExpressive is an AI translation model developed by research teams at Meta. It allows for high-quality spee
+ch translation that preserves the speaker's vocal style, tone, and unique expressions in the translated output [2].
+
+
+
+
+
+
+
+
+Yann LeCun has expressed skepticism about the optimistic views of AGI (Artificial General Intelligence) startup fund 
+raisers and technologists. He believes that for most 'serious' individuals, the correct statement is that human-level AI
+ is always 10-20 years away. LeCun also congratulated Demis Hassabis and Koray Kavukcuoglu on the launch of Gemini [4][5
+].
+
+
+
+
+
+
+
+NVIDIA is promoting their AI tools and enhancements, claiming that users will be able to bring their creative 
+ideas to life faster than ever before. They mention the benefits of AI-accelerated workflows and next-level 3D design co
+ncepts, particularly in 3D creative apps like NVIDIA Omniverse, Adobe Substance, Adobe Painter, Blender, and Unreal Engi
+ne [31].
+
+
+
+
+
+
+
+A16zAI is transforming the music industry, with Image to Audio generation being one example. A new featu
+re from @mubertapp allows users to upload a picture and generate a track that matches the vibe [14][15].
+
+
+
+
+
+
+
+Pika 1.0
+, created by Pika Labs, has released a video showcasing a fireworks show to celebrate its launch. Pika 1.0 is an idea-to
+-video platform that brings creativity to motion [17][18][19].
+
+
+
+
+
+
+
+The article discusses the key components needed to
+ build a large language model (LLM) agent application, including an agent core, a memory module, agent tools, and a plan
+ning module. It also provides an overview of implementation frameworks for single-agent and multi-agent systems [13].
+
+
+
+
+
+
+
+
+Superpowered AI is an end-to-end knowledge retrieval solution that allows users to build production-ready LLM appli
+cations with access to external knowledge. It was launched on May 23rd, 2023, and has received positive reviews [30].
+
+
+
+
+
+
+
+
+Hugging Face is promoting the download of a model for local use or the option to play with the model directly on th
+e Hugging Face platform [1].
+
+
+
+
+
+
+
+Cohere and CohereForAI will be attending the NeurIPS conference in New Orleans from 
+December 10-16. They will be showcasing their publications, talks, and papers at booth 1109 [34].
+
+
+
+
+
+
+
+Claude 2.1 has 
+a powerful 200K token context window, but it needs careful prompting to be used effectively [35].
+
+
+
+
+
+
+
+The author of t
+he message is Stability AI, with the Twitter handle @stabilityai, and they mention another user with the handle @cumulo_
+autumn [36].
+
+
+
+
+[1. Hugging Face @huggingface https://twitter.com/huggingface/status/1732318629532766669](https://twitt
+er.com/huggingface/status/1732318629532766669)
+
+[2. Yann LeCun @ylecun https://twitter.com/ylecun/status/173236330966640
+6554](https://twitter.com/ylecun/status/1732363309666406554)
+
+[3. Yann LeCun @ylecun https://twitter.com/ylecun/status/1
+732375353597817130](https://twitter.com/ylecun/status/1732375353597817130)
+
+[4. Yann LeCun @ylecun https://twitter.com/y
+lecun/status/1732391273611370931](https://twitter.com/ylecun/status/1732391273611370931)
+
+[5. Yann LeCun @ylecun https:/
+/twitter.com/ylecun/status/1732567817256313278](https://twitter.com/ylecun/status/1732567817256313278)
+
+[6. Yann LeCun @
+ylecun https://twitter.com/ylecun/status/1732589168469979631](https://twitter.com/ylecun/status/1732589168469979631)
+
+[7
+. Sundar Pichai @sundarpichai https://twitter.com/sundarpichai/status/1732414873139589372](https://twitter.com/sundarpic
+hai/status/1732414873139589372)
+
+[8. Sundar Pichai @sundarpichai https://twitter.com/sundarpichai/status/173241529283419
+3884](https://twitter.com/sundarpichai/status/1732415292834193884)
+
+[9. Sundar Pichai @sundarpichai https://twitter.com/
+sundarpichai/status/1732416581651599525](https://twitter.com/sundarpichai/status/1732416581651599525)
+
+[10. Sundar Picha
+i @sundarpichai https://twitter.com/sundarpichai/status/1732416708910924258](https://twitter.com/sundarpichai/status/173
+2416708910924258)
+
+[11. Demis Hassabis @demishassabis https://twitter.com/demishassabis/status/1732416482976673832](http
+s://twitter.com/demishassabis/status/1732416482976673832)
+
+[12. Demis Hassabis @demishassabis https://twitter.com/demish
+assabis/status/1732416480741118179](https://twitter.com/demishassabis/status/1732416480741118179)
+
+[13. NVIDIA AI Develo
+per @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1732431459611222426](https://twitter.com/NVIDIAAIDev/status/1732
+431459611222426)
+
+[14. a16z @a16z https://twitter.com/a16z/status/1732407243188977830](https://twitter.com/a16z/status/1
+732407243188977830)
+
+[15. a16z @a16z https://twitter.com/a16z/status/1732463723338416365](https://twitter.com/a16z/statu
+s/1732463723338416365)
+
+[16. Pika @pika_labs https://twitter.com/pika_labs/status/1732437764153491812](https://twitter.c
+om/pika_labs/status/1732437764153491812)
+
+[17. Pika @pika_labs https://twitter.com/pika_labs/status/1732438007603777539]
+(https://twitter.com/pika_labs/status/1732438007603777539)
+
+[18. Pika @pika_labs https://twitter.com/pika_labs/status/17
+32438769389940792](https://twitter.com/pika_labs/status/1732438769389940792)
+
+[19. Pika @pika_labs https://twitter.com/p
+ika_labs/status/1732440839794856218](https://twitter.com/pika_labs/status/1732440839794856218)
+
+[20. Pika @pika_labs htt
+ps://twitter.com/pika_labs/status/1732441129097032160](https://twitter.com/pika_labs/status/1732441129097032160)
+
+[21. G
+oogle @google https://twitter.com/google/status/1732421837026369943](https://twitter.com/google/status/17324218370263699
+43)
+
+[22. Google @google https://twitter.com/google/status/1732422084280918321](https://twitter.com/google/status/173242
+2084280918321)
+
+[23. Google @google https://twitter.com/google/status/1732422086231269396](https://twitter.com/google/st
+atus/1732422086231269396)
+
+[24. Google @google https://twitter.com/google/status/1732429424018993559](https://twitter.co
+m/google/status/1732429424018993559)
+
+[25. Google @google https://twitter.com/google/status/1732467423654105330](https:/
+/twitter.com/google/status/1732467423654105330)
+
+[26. Google @google https://twitter.com/google/status/17324902864193947
+83](https://twitter.com/google/status/1732490286419394783)
+
+[27. Google @google https://twitter.com/google/status/173249
+0376915632225](https://twitter.com/google/status/1732490376915632225)
+
+[28. Google @google https://twitter.com/google/st
+atus/1732522391249563936](https://twitter.com/google/status/1732522391249563936)
+
+[29. Google AI @googleai https://twitt
+er.com/googleai/status/1732448989336006826](https://twitter.com/googleai/status/1732448989336006826)
+
+[30. Y Combinator 
+@ycombinator https://twitter.com/ycombinator/status/1732451753420091411](https://twitter.com/ycombinator/status/17324517
+53420091411)
+
+[31. NVIDIA AI @NVIDIAAI https://twitter.com/NVIDIAAI/status/1732462517765509398](https://twitter.com/NVID
+IAAI/status/1732462517765509398)
+
+[32. NVIDIA AI @NVIDIAAI https://twitter.com/NVIDIAAI/status/1732475258328711647](http
+s://twitter.com/NVIDIAAI/status/1732475258328711647)
+
+[33. NVIDIA AI @NVIDIAAI https://twitter.com/NVIDIAAI/status/17324
+90090448871809](https://twitter.com/NVIDIAAI/status/1732490090448871809)
+
+[34. cohere @cohere https://twitter.com/cohere
+/status/1732493039086539067](https://twitter.com/cohere/status/1732493039086539067)
+
+[35. Anthropic @anthropicai https:/
+/twitter.com/anthropicai/status/1732527908139552951](https://twitter.com/anthropicai/status/1732527908139552951)
+
+[36. S
+tability AI @stabilityai https://twitter.com/stabilityai/status/1732539483965534302](https://twitter.com/stabilityai/sta
+tus/1732539483965534302)
+```
+---
+
+     
+ 
+all -  [ [D] Place to print poster at NeurIPS 2023 ](https://www.reddit.com/r/MachineLearning/comments/18cn7v1/d_place_to_print_poster_at_neurips_2023/) , 2023-12-08-0910
+```
+I need to present a poster at NeurIPS 2023. However, I couldn't print it in my university due to some issues. Is there a
+ place near the convention center that provides quick poster printing?  TIA
+```
+---
+
+     
+ 
+all -  [ Best Journals for Publishing Applied ML work? ](https://www.reddit.com/r/datascience/comments/18cirpw/best_journals_for_publishing_applied_ml_work/) , 2023-12-08-0910
+```
+I’ve recently completed a soccer prediction model using a custom neural net architecture, which exceeds the best model p
+reviously published in the literature. I am still working on the paper, but it will by no means be the long, mathematica
+l bash I’m used to seeing in a top journal like ICML or NeurIPS. 
+
+Does anyone know of a good applied ML journal I could
+ submit to? 
+
+I will also consider just publishing on Arxiv, but it would be nice to get some peer reviewed papers on my
+ resume.
+```
+---
+
+     
+ 
+all -  [ Recruitment at neurips 2023 ](https://www.reddit.com/r/MLQuestions/comments/18bnfg7/recruitment_at_neurips_2023/) , 2023-12-08-0910
 ```
 Do interviews get conducted on the days of neurips and how to improve your chances of recruitment especially as a grad s
 tudent?
@@ -8,7 +757,7 @@ tudent?
 
      
  
-all -  [ Suggest Unis for profile below ](https://www.reddit.com/r/MSCS/comments/189tgc8/suggest_unis_for_profile_below/) , 2023-12-07-0910
+all -  [ Suggest Unis for profile below ](https://www.reddit.com/r/MSCS/comments/189tgc8/suggest_unis_for_profile_below/) , 2023-12-08-0910
 ```
 Looking for MS CS (with thesis) and interested in Deep learning and computer vision. 
 
@@ -30,7 +779,7 @@ ountry preference. Just want good research focused universities.
 
      
  
-all -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-07-0910
+all -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-08-0910
 ```
 Happy Friday,
 
@@ -48,7 +797,7 @@ Let us know if you have any questions.
 
      
  
-all -  [ List 'Preprints' or 'Conference Papers' section first on CV? ](https://www.reddit.com/r/AskAcademia/comments/1884tyy/list_preprints_or_conference_papers_section_first/) , 2023-12-07-0910
+all -  [ List 'Preprints' or 'Conference Papers' section first on CV? ](https://www.reddit.com/r/AskAcademia/comments/1884tyy/list_preprints_or_conference_papers_section_first/) , 2023-12-08-0910
 ```
 I am preparing my CV for grad school apps and I have one conference paper and one preprint (already submitted to journal
 ) to list on it. I am second author on both but had far more involvement in the preprint work so I would like to highlig
@@ -63,7 +812,7 @@ pers' sections. I was thinking I would put 'Preprints' first because this is the
 
      
  
-all -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-07-0910
+all -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-08-0910
 ```
 I'll be attending NeurIPS 2023 this year and won't know anyone. I'm an avid climber and there is a nice bouldering gym c
 lose to the conference center - would anyone else fancy a climb over the week? Reply below so we can see how many people
@@ -73,7 +822,7 @@ lose to the conference center - would anyone else fancy a climb over the week? R
 
      
  
-all -  [ AI Innovations and Developments: From Energy Efficiency to Generative Applications and Regulatory Ch ](https://www.reddit.com/r/ai_news_by_ai/comments/187cet4/ai_innovations_and_developments_from_energy/) , 2023-12-07-0910
+all -  [ AI Innovations and Developments: From Energy Efficiency to Generative Applications and Regulatory Ch ](https://www.reddit.com/r/ai_news_by_ai/comments/187cet4/ai_innovations_and_developments_from_energy/) , 2023-12-08-0910
 ```
 
 
@@ -394,7 +1143,7 @@ man @sama https://twitter.com/sama/status/1730032994474475554](https://twitter.c
 
      
  
-all -  [ AI Developments: Anthropic at AWS re:Invent, GPT-4 in Radiology, OpenAIs Safety Focus, Pika 1.0 Laun ](https://www.reddit.com/r/ai_news_by_ai/comments/186hqkg/ai_developments_anthropic_at_aws_reinvent_gpt4_in/) , 2023-12-07-0910
+all -  [ AI Developments: Anthropic at AWS re:Invent, GPT-4 in Radiology, OpenAIs Safety Focus, Pika 1.0 Laun ](https://www.reddit.com/r/ai_news_by_ai/comments/186hqkg/ai_developments_anthropic_at_aws_reinvent_gpt4_in/) , 2023-12-08-0910
 ```
 
 
@@ -711,7 +1460,7 @@ tus/1729649682970787875)
 
      
  
-all -  [ [D] NeurIPS 2023 Institutions Ranking ](https://www.reddit.com/gallery/185pdax) , 2023-12-07-0910
+all -  [ [D] NeurIPS 2023 Institutions Ranking ](https://www.reddit.com/gallery/185pdax) , 2023-12-08-0910
 ```
 
 ```
@@ -719,7 +1468,7 @@ all -  [ [D] NeurIPS 2023 Institutions Ranking ](https://www.reddit.com/gallery/
 
      
  
-all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-12-07-0910
+all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-12-08-0910
 ```
 OpenAI's approach to Q-Learning has been drawing significant attention recently.
 
@@ -745,7 +1494,7 @@ indings for the future of Q-learning in deep learning environments?
 
      
  
-all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-12-07-0910
+all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-12-08-0910
 ```
 Update: Reuters reported that here what the big discovery was Q\*. You judge for yourself if this is how we define the S
 uperintelligence. [https://www.reddit.com/r/ChatGPT/comments/181pfiq/q\_passing\_math\_tests\_is\_how\_theyre\_describin
@@ -929,7 +1678,7 @@ u get to change the goal post and determine all by yourselves what AGI is? Nah t
 
      
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/MSCS/comments/1813klg/ms_cs_profile_evaluation_fall_2024/) , 2023-12-07-0910
+all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/MSCS/comments/1813klg/ms_cs_profile_evaluation_fall_2024/) , 2023-12-08-0910
 ```
  Academic Profile
 
@@ -1009,7 +1758,7 @@ Safe(?) :
 
      
  
-all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-12-07-0910
+all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-12-08-0910
 ```
 I am an undergrad student and I am a first author of a NeurIPS workshop paper accepted this year. Do I have to buy the t
 icket for both the main conference and the workshop session to attend? I would like to attend both. Or can I just buy th
@@ -1020,7 +1769,7 @@ ork
 
      
  
-all -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-12-07-0910
+all -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-12-08-0910
 ```
 I received an email today that I can claim a free NeurIPS registration, apparently because of my service as a reviewer. 
 Did all reviewers get free passes or is this a lottery system and/or based on review quality? I didn’t plan on attending
@@ -1030,7 +1779,7 @@ Did all reviewers get free passes or is this a lottery system and/or based on re
 
      
  
-all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-12-07-0910
+all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-12-08-0910
 ```
 There are websites like this keeping track of ML conference deadlines like this https://aideadlin.es/?sub=ML,CV,CG,NLP,R
 O,SP,DM,AP,KR
@@ -1042,7 +1791,7 @@ nferences like Neurips, CVPR and so on.
 
      
  
-all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-12-07-0910
+all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-12-08-0910
 ```
 **Paper**: [https://arxiv.org/abs/2311.03736](https://arxiv.org/abs/2311.03736)
 
@@ -1072,7 +1821,7 @@ o=webp&s=f9bf7f063c1b9950d40ad2a3b04bdc7f0780413f
 
      
  
-all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-12-07-0910
+all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-12-08-0910
 ```
 I have read many posts in this subreddit complaining about the lack of communications and results from DreamLab and the 
 teams behind the various projects. I must agree that these two are the most critical issues about DreamLab and the burde
@@ -1193,7 +1942,7 @@ update 19/11/2023: fixed link for a
 
      
  
-all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-12-07-0910
+all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-12-08-0910
 ```
 I'm currently in the process of building a feature selection framework for reinforcement learning.
 
@@ -1261,7 +2010,7 @@ THANK YOU !
 
      
  
-all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-12-07-0910
+all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-12-08-0910
 ```
 Hey guys,
 
@@ -1285,7 +2034,7 @@ what you think
 
      
  
-all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-12-07-0910
+all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-12-08-0910
 ```
  
 
@@ -1319,7 +2068,7 @@ ustin
 
      
  
-all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-12-07-0910
+all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-12-08-0910
 ```
 I recently began my career as a Machine Learning Engineer, marking my first job in the industry. A few months ago, I com
 pleted an MPhil program specializing in Environmental Engineering, with a research focus on applying ML in that field. T
@@ -1348,7 +2097,7 @@ note that I am interested in working in the industry and do not intend to pursue
 
      
  
-all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-12-07-0910
+all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-12-08-0910
 ```
 If anyone is interested in learning AI/LLM's and you’re more familiar with dotnet than python, take a look at my [NanoGp
 tDotnet](https://github.com/biegehydra/NanoGptDotnet) project. It is a direct translation of a [project](https://github.
@@ -1439,7 +2188,7 @@ t queen overta'en.
 
      
  
-all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-12-07-0910
+all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-12-08-0910
 ```
 Hi ML community, 
 
@@ -1468,7 +2217,7 @@ re? I'm open to any thoughts or advice on my situation.
 
      
  
-all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-12-07-0910
+all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-12-08-0910
 ```
 I am asking for a friend.
 ```
@@ -1476,7 +2225,7 @@ I am asking for a friend.
 
      
  
-all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-12-07-0910
+all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-12-08-0910
 ```
 I've had the Neurio Home Energy Monitor (USA, Split Phase) for many, many years. Since they first came to the market, I 
 was an early adapter. 
@@ -1529,7 +2278,7 @@ https://imgur.com/oBA0txf
 
      
  
-all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-12-07-0910
+all -  [ Quant research of the Week (2nd Edition) ](https://www.reddit.com/r/quant/comments/17qms5i/quant_research_of_the_week_2nd_edition/) , 2023-12-08-0910
 ```
 # ArXiv
 
@@ -2061,7 +2810,7 @@ te more research into  assessing LLMs to ensure their ethical development. (2023
 
      
  
-all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-12-07-0910
+all -  [ Effect of GPA, and Chances at Top CS PhD Programs? ](https://www.reddit.com/r/gradadmissions/comments/17pq2ta/effect_of_gpa_and_chances_at_top_cs_phd_programs/) , 2023-12-08-0910
 ```
 Hi folks! I'm an undergraduate senior studying CS and Statistics at a T10 undergrad school (not for CS PhD, though); I'm
  also concurrently getting my M.S. in CS here as well. I have research experience in industry (at a top AI Research lab 
