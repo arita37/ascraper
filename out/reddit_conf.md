@@ -1,5 +1,155 @@
  
-all -  [ Adding a workshop paper to Google Scholar ](https://www.reddit.com/r/academia/comments/18fat68/adding_a_workshop_paper_to_google_scholar/) , 2023-12-11-0910
+all -  [ [D] Authors in NeurIPS and ICML and similar venues - How advanced is your mathematics background ? ](https://www.reddit.com/r/MachineLearning/comments/18g85lx/d_authors_in_neurips_and_icml_and_similar_venues/) , 2023-12-12-0910
+```
+Hello,
+
+I'm trying to understand what sort of background preparation in mathematics is sufficient to conduct publishable
+ research in top venues.
+
+Is calculus, linear algebra, engineering level probability & statistics and optimization suffi
+cient ?
+
+By **sufficient**, I mean the *bare minimum* you must know to get by and *you learn more things as you encounte
+r them* or solve problems (**learning while doing**) without having to first prepare requisite background and then dive 
+in.
+
+Any help from authors from ML venues is greatly appreciated. 
+
+Please post only if you are an ML researcher or from
+ academia :).
+
+Thank you very much !
+```
+---
+
+     
+ 
+all -  [ NeurIPS Live Stream Vendor Hall ](https://www.youtube.com/watch?v=l5I7hrgHhqQ) , 2023-12-12-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ Extreme Weather ](https://www.reddit.com/r/meteorology/comments/18g2l5m/extreme_weather/) , 2023-12-12-0910
+```
+Predicting the Unpredictable: How AI is Taming the Fury of Extreme Weather
+
+As climate change intensifies, the frequency
+ and severity of extreme weather events like floods, droughts, and wildfires are escalating, posing a significant threat
+ to communities worldwide. But in the face of this growing challenge, a powerful tool has emerged: **Artificial Intellig
+ence (AI)**.
+
+AI algorithms are capable of analyzing vast amounts of climate data, including historical records, real-ti
+me observations, and complex climate models. This data goldmine enables algorithms to identify subtle patterns and corre
+lations hidden within the seemingly random chaos of weather systems. By analyzing these patterns, AI models can predict 
+extreme weather events with **impressive accuracy**, sometimes weeks or even months in advance.
+
+One such AI-powered sys
+tem is the **Stanford Extreme Precipitation Prediction Initiative (SEPPI)**. This system uses machine learning algorithm
+s to analyze vast datasets of atmospheric and environmental data, identifying specific atmospheric conditions that favor
+ extreme precipitation events. By pinpointing these conditions, SEPPI can issue early warnings for communities in the Mi
+dwest, where heavy rainfall accounts for over half of all major flood disasters in the United States.
+
+Similarly, resear
+chers at the University of California, Los Angeles are developing AI models to predict droughts. Their system utilizes a
+ combination of convolutional neural networks (CNNs) and long short-term memory (LSTM) networks, two powerful deep learn
+ing algorithms. These algorithms analyze historical rainfall and soil moisture data, enabling them to predict droughts w
+ith **remarkable precision**.
+
+The benefits of such AI-driven forecasting extend far beyond mere prediction. Early and a
+ccurate warnings allow communities to take **proactive measures** to mitigate the impacts of extreme weather events. The
+se measures can include:
+
+* **Evacuating residents from flood-prone areas.**
+* **Implementing water conservation measure
+s during droughts.**
+* **Pre-positioning emergency supplies and personnel in at-risk regions.**
+* **Reinforcing infrastr
+ucture to withstand extreme weather events.**
+
+In the past, communities often learned about approaching disasters too la
+te, leaving them scrambling for resources and struggling to minimize damage. But with AI-powered forecasting, communitie
+s now have **precious time to prepare**, significantly reducing the potential for loss of life and property.
+
+Furthermor
+e, the use of AI in climate forecasting has the potential to revolutionize disaster management. By predicting and mappin
+g the potential impact of an event, AI can guide the allocation of resources and emergency personnel, ensuring they are 
+deployed to the areas where they are needed most. This **streamlined response** can save lives and significantly reduce 
+the economic impact of extreme weather events.
+
+However, despite the promising capabilities of AI in weather forecasting
+, it is important to acknowledge its limitations. No model is perfect, and there will always be a margin of error in pre
+dictions. Additionally, AI systems require access to **high-quality data** and powerful **computing resources**, which m
+ay be inaccessible to some communities.
+
+To fully harness the potential of AI for tackling extreme weather events, we ne
+ed a **collaborative approach**. Researchers, policymakers, and communities must work together to:
+
+* **Develop and shar
+e high-quality climate data.**
+* ** invest in research and development of AI-powered forecasting systems.**
+* **ensure e
+quitable access to AI technology for all communities.**
+
+By working together, we can leverage the power of AI to mitigat
+e the impact of extreme weather events, build more resilient communities, and ultimately, safeguard the future of our pl
+anet.
+
+**References:**
+
+* [Bansal, H., Goel, S., Nguyen, T., & Grover, A. (2022). Machine Learning for Predicting Climat
+e Extremes. NeurIPS 2022 Workshop on Tackling Climate Change with Machine Learning. Retrieved from [https://www.climatec
+hange.ai/papers/neurips2022/114](https://www.climatechange.ai/papers/neurips2022/114)]
+* [Stanford Extreme Precipitation
+ Prediction Initiative (SEPPI). Retrieved from [https://woods.stanford.edu/research/climate-and-energy-policy-program](h
+ttps://woods.stanford.edu/research/climate-and-energy-policy-program)]
+* [Nature: AI for climate impacts: applications i
+n flood risk. Retrieved from [https://www.nature.com/articles/s41612-023-00388-1](https://www.nature.com/articles/s41612
+-023-00388-1)]
+* [ScienceDirect: Evaluation of artificial intelligence models for flood and drought forecasting in arid 
+and tropical regions. Retrieved from [https://www.sciencedirect.com/science/article/pii/S1364815221001791](https://www.s
+ciencedirect.com/science/article/pii/S1364815221001791)]
+```
+---
+
+     
+ 
+all -  [ NPD: Pilot Custom 823 with Falcon Nib ](https://i.redd.it/fvreligyfo5c1.jpeg) , 2023-12-12-0910
+```
+Am visiting New Orleans for NeurIPS and stumbled across Papier Plume in the French Quarter. 
+
+The gentleman there was so
+ helpful! I originally went in for a Pilot vanishing point with a stub nib that I turned out not to like. I’ve wanted an
+ 823 with a falcon nib for a while but assumed they weren’t available in the USA. 
+
+A short chat later - he swapped a Nu
+mber 15 FA nib off another pen onto this one and I couldn’t be happier! 
+
+Great to have the ergonomics and ink capacity 
+of the 823 with this fantastic nib - if you don’t think about it, it’s a free flowing smooth fine nib, but slow down and
+ pay attention and touch can get a lot of character with the flex - still very much learning how.
+```
+---
+
+     
+ 
+all -  [ Emergency printing at the library? ](https://www.reddit.com/r/Tulane/comments/18fla8m/emergency_printing_at_the_library/) , 2023-12-12-0910
+```
+Hey everyone! 
+
+I’m a student at the University of Amsterdam and I’ve come down to NOLA with some classmates to present 
+a poster at NeurIPS this year. Unfortunately in the process of getting to your beautiful city, we lost our poster, and w
+e’re due to showcase it tomorrow morning. All printing businesses I’ve visited so far haven’t been able to help. I read 
+on your website that you uni can print 24x36 prints (exactly what we need), and I would be so so so so grateful if someo
+ne can help us out. A Dutch beer will have your name on it.
+```
+---
+
+     
+ 
+all -  [ Adding a workshop paper to Google Scholar ](https://www.reddit.com/r/academia/comments/18fat68/adding_a_workshop_paper_to_google_scholar/) , 2023-12-12-0910
 ```
 A paper of mine recently got accepted at a workshop part of NeurIPS. The paper is hosted on OpenReview, and I was wonder
 ing how I could add it to Google scholar. I tried adding a manual entry but can't get the system to show my paper's abst
@@ -9,38 +159,30 @@ ract when I click on the entry, and I can't get it to redirect to the OpenReview
 
      
  
-all -  [ [R] Add and Thin: Diffusion for Temporal Point Processes ](https://www.reddit.com/r/MachineLearning/comments/18f53oy/r_add_and_thin_diffusion_for_temporal_point/) , 2023-12-11-0910
+all -  [ [R] Add and Thin: Diffusion for Temporal Point Processes ](https://www.reddit.com/r/MachineLearning/comments/18f53oy/r_add_and_thin_diffusion_for_temporal_point/) , 2023-12-12-0910
 ```
-Paper: [https://arxiv.org/abs/2311.01139](https://arxiv.org/abs/2311.01139)Code: [https://github.com/davecasp/add-thin](
-https://github.com/davecasp/add-thin)
+Paper: [https://arxiv.org/abs/2311.01139](https://arxiv.org/abs/2311.01139) Code: [https://github.com/davecasp/add-thin]
+(https://github.com/davecasp/add-thin)
 
-https://preview.redd.it/ydhlwfte9h5c1.jpg?width=2544&format=pjpg&auto=webp&s=1c11
-a4a1f8cab2626e46546d589c35afb5e02fea
+https://preview.redd.it/ydhlwfte9h5c1.jpg?width=2544&format=pjpg&auto=webp&s=1c1
+1a4a1f8cab2626e46546d589c35afb5e02fea
 
-Generative diffusion models are all the rage, but it is unclear how they could be 
-applied to sequences of varying numbers of events, e.g. tweets, reddit comments or taxi trips. We present a diffusion ap
-proach that turns any sequence into a noise sequence, a sample from a homogeneous Poisson process. Conversely, our model
- transforms such noise sequence samples iteratively into samples from any target data distribution by deleting events th
-at it classifies as noise and proposing new events from a learned (conditional) intensity distribution. Experimentally, 
-we were able to demonstrate excellent forecasting performance on various benchmark datasets.
+Generative diffusion models are all the rage, but it is unclear how they could be
+ applied to sequences of varying numbers of events, e.g. tweets, reddit comments or taxi trips. We present a diffusion a
+pproach that turns any sequence into a noise sequence, a sample from a homogeneous Poisson process. Conversely, our mode
+l transforms such noise sequence samples iteratively into samples from any target data distribution by deleting events t
+hat it classifies as noise and proposing new events from a learned (conditional) intensity distribution. Experimentally,
+ we were able to demonstrate excellent forecasting performance on various benchmark datasets.
 
-I am looking forward to di
-scuss our method here on reddit. If you happen to be at NeurIPS, you can also meet /u/davidluedke at poster #602 on Tues
-day 10:45am-12:45pm!
-```
----
-
-     
- 
-all -  [ NeurIPS 2023 Posters Visualization ](https://neurips2023.vizhub.ai/) , 2023-12-11-0910
-```
-
+I am looking forward to d
+iscuss our method here on reddit. If you happen to be at NeurIPS, you can also meet /u/davidluedke at poster #602 on Tue
+sday 10:45am-12:45pm!
 ```
 ---
 
      
  
-all -  [ [N] Full-report of 2 great NeurIPS papers ](https://www.reddit.com/r/MachineLearning/comments/18eejuc/n_fullreport_of_2_great_neurips_papers/) , 2023-12-11-0910
+all -  [ [N] Full-report of 2 great NeurIPS papers ](https://www.reddit.com/r/MachineLearning/comments/18eejuc/n_fullreport_of_2_great_neurips_papers/) , 2023-12-12-0910
 ```
 2 great NeurIPS accepted papers here, on pages 2 and 32:
 
@@ -56,7 +198,7 @@ h=970&format=png&auto=webp&s=79bb0f481765d86e54d218bb6f601d906b5f42de
 
      
  
-all -  [ Recent Developments and Innovations in Artificial Intelligence ](https://www.reddit.com/r/ai_news_by_ai/comments/18e69qx/recent_developments_and_innovations_in_artificial/) , 2023-12-11-0910
+all -  [ Recent Developments and Innovations in Artificial Intelligence ](https://www.reddit.com/r/ai_news_by_ai/comments/18e69qx/recent_developments_and_innovations_in_artificial/) , 2023-12-12-0910
 ```
 
 
@@ -245,7 +387,7 @@ _labs https://twitter.com/pika_labs/status/1733341481367224756](https://twitter.
 
      
  
-all -  [ [D] A genuine and honest discussion on Collusion Ring(s) ](https://www.reddit.com/r/MachineLearning/comments/18dt7vt/d_a_genuine_and_honest_discussion_on_collusion/) , 2023-12-11-0910
+all -  [ [D] A genuine and honest discussion on Collusion Ring(s) ](https://www.reddit.com/r/MachineLearning/comments/18dt7vt/d_a_genuine_and_honest_discussion_on_collusion/) , 2023-12-12-0910
 ```
 Dear fellow NeurIPS rejects. As your deep learning, reinforcement learning, graph neural networks, and deep learning the
 ory people fly off to New Orleans and you realize that you are left behind.
@@ -300,7 +442,7 @@ the deep learning collusion ring already collapsing, and will it collapse furthe
 
      
  
-all -  [ CS Phd Admissions profile evaluation ](https://www.reddit.com/r/gradadmissions/comments/18di4z7/cs_phd_admissions_profile_evaluation/) , 2023-12-11-0910
+all -  [ CS Phd Admissions profile evaluation ](https://www.reddit.com/r/gradadmissions/comments/18di4z7/cs_phd_admissions_profile_evaluation/) , 2023-12-12-0910
 ```
 Hey all,
 
@@ -324,7 +466,7 @@ ve to like save up for apps and IELTS.
 
      
  
-all -  [ [Q] Need help understanding conditional maximum mean discrepancy. ](https://www.reddit.com/r/statistics/comments/18dehvo/q_need_help_understanding_conditional_maximum/) , 2023-12-11-0910
+all -  [ [Q] Need help understanding conditional maximum mean discrepancy. ](https://www.reddit.com/r/statistics/comments/18dehvo/q_need_help_understanding_conditional_maximum/) , 2023-12-12-0910
 ```
 Can someone explain CMMD introduced in [this paper](https://proceedings.neurips.cc/paper/2016/file/0245952ecff55018e2a45
 9517fdb40e3-Paper.pdf). I have 2 sets of samples and need to infer if they're from the same conditional distribution. I 
@@ -334,7 +476,7 @@ need to formulate a loss function based on this to train a model.
 
      
  
-all -  [ Kernel embedding of conditional distribution ](https://www.reddit.com/r/learnmachinelearning/comments/18cvcqu/kernel_embedding_of_conditional_distribution/) , 2023-12-11-0910
+all -  [ Kernel embedding of conditional distribution ](https://www.reddit.com/r/learnmachinelearning/comments/18cvcqu/kernel_embedding_of_conditional_distribution/) , 2023-12-12-0910
 ```
 Can someone explain how to use conditional maximum mean discrepancy as explained in [this paper](https://proceedings.neu
 rips.cc/paper/2016/file/0245952ecff55018e2a459517fdb40e3-Paper.pdf). My goal is to study two sets of samples and formula
@@ -344,7 +486,7 @@ te the difference in the underlying conditional distribution, so I can build a l
 
      
  
-all -  [ Quant Research of the Week (5th Edition) ](https://www.reddit.com/r/quant/comments/18csq03/quant_research_of_the_week_5th_edition/) , 2023-12-11-0910
+all -  [ Quant Research of the Week (5th Edition) ](https://www.reddit.com/r/quant/comments/18csq03/quant_research_of_the_week_5th_edition/) , 2023-12-12-0910
 ```
  
 
@@ -776,7 +918,7 @@ ional models in heterophilic benchmarks. (2023-05-17, shares: 186)
 
      
  
-all -  [ Anyone will be driving to Neurips in New Orleans in weekend ](https://www.reddit.com/r/Purdue/comments/18cpdfe/anyone_will_be_driving_to_neurips_in_new_orleans/) , 2023-12-11-0910
+all -  [ Anyone will be driving to Neurips in New Orleans in weekend ](https://www.reddit.com/r/Purdue/comments/18cpdfe/anyone_will_be_driving_to_neurips_in_new_orleans/) , 2023-12-12-0910
 ```
 Is anyone driving to attend the Neurips 2023 (December 10 to December 16 )in New Orleans from?
 
@@ -788,7 +930,7 @@ ps opening.
 
      
  
-all -  [ Googles Advanced AI Model Gemini and Other AI Developments Across the Industry ](https://www.reddit.com/r/ai_news_by_ai/comments/18conr7/googles_advanced_ai_model_gemini_and_other_ai/) , 2023-12-11-0910
+all -  [ Googles Advanced AI Model Gemini and Other AI Developments Across the Industry ](https://www.reddit.com/r/ai_news_by_ai/comments/18conr7/googles_advanced_ai_model_gemini_and_other_ai/) , 2023-12-12-0910
 ```
 
 
@@ -1058,7 +1200,7 @@ tus/1732539483965534302)
 
      
  
-all -  [ [D] Place to print poster at NeurIPS 2023 ](https://www.reddit.com/r/MachineLearning/comments/18cn7v1/d_place_to_print_poster_at_neurips_2023/) , 2023-12-11-0910
+all -  [ [D] Place to print poster at NeurIPS 2023 ](https://www.reddit.com/r/MachineLearning/comments/18cn7v1/d_place_to_print_poster_at_neurips_2023/) , 2023-12-12-0910
 ```
 I need to present a poster at NeurIPS 2023. However, I couldn't print it in my university due to some issues. Is there a
  place near the convention center that provides quick poster printing?  TIA
@@ -1067,7 +1209,7 @@ I need to present a poster at NeurIPS 2023. However, I couldn't print it in my u
 
      
  
-all -  [ Best Journals for Publishing Applied ML work? ](https://www.reddit.com/r/datascience/comments/18cirpw/best_journals_for_publishing_applied_ml_work/) , 2023-12-11-0910
+all -  [ Best Journals for Publishing Applied ML work? ](https://www.reddit.com/r/datascience/comments/18cirpw/best_journals_for_publishing_applied_ml_work/) , 2023-12-12-0910
 ```
 I’ve recently completed a soccer prediction model using a custom neural net architecture, which exceeds the best model p
 reviously published in the literature. I am still working on the paper, but it will by no means be the long, mathematica
@@ -1083,7 +1225,7 @@ I will also consider just publishing on Arxiv, but it would be nice to get some 
 
      
  
-all -  [ Recruitment at neurips 2023 ](https://www.reddit.com/r/MLQuestions/comments/18bnfg7/recruitment_at_neurips_2023/) , 2023-12-11-0910
+all -  [ Recruitment at neurips 2023 ](https://www.reddit.com/r/MLQuestions/comments/18bnfg7/recruitment_at_neurips_2023/) , 2023-12-12-0910
 ```
 Do interviews get conducted on the days of neurips and how to improve your chances of recruitment especially as a grad s
 tudent?
@@ -1092,7 +1234,7 @@ tudent?
 
      
  
-all -  [ Suggest Unis for profile below ](https://www.reddit.com/r/MSCS/comments/189tgc8/suggest_unis_for_profile_below/) , 2023-12-11-0910
+all -  [ Suggest Unis for profile below ](https://www.reddit.com/r/MSCS/comments/189tgc8/suggest_unis_for_profile_below/) , 2023-12-12-0910
 ```
 Looking for MS CS (with thesis) and interested in Deep learning and computer vision. 
 
@@ -1114,7 +1256,7 @@ ountry preference. Just want good research focused universities.
 
      
  
-all -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-11-0910
+all -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-12-0910
 ```
 Happy Friday,
 
@@ -1132,7 +1274,7 @@ Let us know if you have any questions.
 
      
  
-all -  [ List 'Preprints' or 'Conference Papers' section first on CV? ](https://www.reddit.com/r/AskAcademia/comments/1884tyy/list_preprints_or_conference_papers_section_first/) , 2023-12-11-0910
+all -  [ List 'Preprints' or 'Conference Papers' section first on CV? ](https://www.reddit.com/r/AskAcademia/comments/1884tyy/list_preprints_or_conference_papers_section_first/) , 2023-12-12-0910
 ```
 I am preparing my CV for grad school apps and I have one conference paper and one preprint (already submitted to journal
 ) to list on it. I am second author on both but had far more involvement in the preprint work so I would like to highlig
@@ -1147,7 +1289,7 @@ pers' sections. I was thinking I would put 'Preprints' first because this is the
 
      
  
-all -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-11-0910
+all -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-12-0910
 ```
 I'll be attending NeurIPS 2023 this year and won't know anyone. I'm an avid climber and there is a nice bouldering gym c
 lose to the conference center - would anyone else fancy a climb over the week? Reply below so we can see how many people
@@ -1157,7 +1299,7 @@ lose to the conference center - would anyone else fancy a climb over the week? R
 
      
  
-all -  [ AI Innovations and Developments: From Energy Efficiency to Generative Applications and Regulatory Ch ](https://www.reddit.com/r/ai_news_by_ai/comments/187cet4/ai_innovations_and_developments_from_energy/) , 2023-12-11-0910
+all -  [ AI Innovations and Developments: From Energy Efficiency to Generative Applications and Regulatory Ch ](https://www.reddit.com/r/ai_news_by_ai/comments/187cet4/ai_innovations_and_developments_from_energy/) , 2023-12-12-0910
 ```
 
 
@@ -1478,7 +1620,7 @@ man @sama https://twitter.com/sama/status/1730032994474475554](https://twitter.c
 
      
  
-all -  [ AI Developments: Anthropic at AWS re:Invent, GPT-4 in Radiology, OpenAIs Safety Focus, Pika 1.0 Laun ](https://www.reddit.com/r/ai_news_by_ai/comments/186hqkg/ai_developments_anthropic_at_aws_reinvent_gpt4_in/) , 2023-12-11-0910
+all -  [ AI Developments: Anthropic at AWS re:Invent, GPT-4 in Radiology, OpenAIs Safety Focus, Pika 1.0 Laun ](https://www.reddit.com/r/ai_news_by_ai/comments/186hqkg/ai_developments_anthropic_at_aws_reinvent_gpt4_in/) , 2023-12-12-0910
 ```
 
 
@@ -1795,7 +1937,7 @@ tus/1729649682970787875)
 
      
  
-all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-12-11-0910
+all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-12-12-0910
 ```
 OpenAI's approach to Q-Learning has been drawing significant attention recently.
 
@@ -1821,7 +1963,7 @@ indings for the future of Q-learning in deep learning environments?
 
      
  
-all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-12-11-0910
+all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-12-12-0910
 ```
 Update: Reuters reported that here what the big discovery was Q\*. You judge for yourself if this is how we define the S
 uperintelligence. [https://www.reddit.com/r/ChatGPT/comments/181pfiq/q\_passing\_math\_tests\_is\_how\_theyre\_describin
@@ -2005,7 +2147,7 @@ u get to change the goal post and determine all by yourselves what AGI is? Nah t
 
      
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/MSCS/comments/1813klg/ms_cs_profile_evaluation_fall_2024/) , 2023-12-11-0910
+all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/MSCS/comments/1813klg/ms_cs_profile_evaluation_fall_2024/) , 2023-12-12-0910
 ```
  Academic Profile
 
@@ -2085,7 +2227,7 @@ Safe(?) :
 
      
  
-all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-12-11-0910
+all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-12-12-0910
 ```
 I am an undergrad student and I am a first author of a NeurIPS workshop paper accepted this year. Do I have to buy the t
 icket for both the main conference and the workshop session to attend? I would like to attend both. Or can I just buy th
@@ -2096,7 +2238,7 @@ ork
 
      
  
-all -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-12-11-0910
+all -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-12-12-0910
 ```
 I received an email today that I can claim a free NeurIPS registration, apparently because of my service as a reviewer. 
 Did all reviewers get free passes or is this a lottery system and/or based on review quality? I didn’t plan on attending
@@ -2106,7 +2248,7 @@ Did all reviewers get free passes or is this a lottery system and/or based on re
 
      
  
-all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-12-11-0910
+all -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-12-12-0910
 ```
 There are websites like this keeping track of ML conference deadlines like this https://aideadlin.es/?sub=ML,CV,CG,NLP,R
 O,SP,DM,AP,KR
@@ -2118,7 +2260,7 @@ nferences like Neurips, CVPR and so on.
 
      
  
-all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-12-11-0910
+all -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-12-12-0910
 ```
 **Paper**: [https://arxiv.org/abs/2311.03736](https://arxiv.org/abs/2311.03736)
 
@@ -2148,7 +2290,7 @@ o=webp&s=f9bf7f063c1b9950d40ad2a3b04bdc7f0780413f
 
      
  
-all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-12-11-0910
+all -  [ DreamLab Scientific Papers ](https://www.reddit.com/r/Dreamlab/comments/17wyxch/dreamlab_scientific_papers/) , 2023-12-12-0910
 ```
 I have read many posts in this subreddit complaining about the lack of communications and results from DreamLab and the 
 teams behind the various projects. I must agree that these two are the most critical issues about DreamLab and the burde
@@ -2269,7 +2411,7 @@ update 19/11/2023: fixed link for a
 
      
  
-all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-12-11-0910
+all -  [ Adding Noise to observations Space in RL ](https://www.reddit.com/r/reinforcementlearning/comments/17wtqye/adding_noise_to_observations_space_in_rl/) , 2023-12-12-0910
 ```
 I'm currently in the process of building a feature selection framework for reinforcement learning.
 
@@ -2337,7 +2479,7 @@ THANK YOU !
 
      
  
-all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-12-11-0910
+all -  [ Profile Evaluation for PhD in CS ](https://www.reddit.com/r/gradadmissions/comments/17wgcx4/profile_evaluation_for_phd_in_cs/) , 2023-12-12-0910
 ```
 Hey guys,
 
@@ -2361,7 +2503,7 @@ what you think
 
      
  
-all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-12-11-0910
+all -  [ Suggestions for Safe Universities for My Profile ](https://www.reddit.com/r/MSCS/comments/17uxmad/suggestions_for_safe_universities_for_my_profile/) , 2023-12-12-0910
 ```
  
 
@@ -2395,7 +2537,7 @@ ustin
 
      
  
-all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-12-11-0910
+all -  [ [D] Which option — trying to publish papers in top conferences individually or expanding knowledge i ](https://www.reddit.com/r/MachineLearning/comments/17ur25g/d_which_option_trying_to_publish_papers_in_top/) , 2023-12-12-0910
 ```
 I recently began my career as a Machine Learning Engineer, marking my first job in the industry. A few months ago, I com
 pleted an MPhil program specializing in Environmental Engineering, with a research focus on applying ML in that field. T
@@ -2424,7 +2566,7 @@ note that I am interested in working in the industry and do not intend to pursue
 
      
  
-all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-12-11-0910
+all -  [ NanoGptDotnet: An advanced Large Language Model written in C# that generates shakespeare like text.  ](https://www.reddit.com/r/dotnet/comments/17skv0e/nanogptdotnet_an_advanced_large_language_model/) , 2023-12-12-0910
 ```
 If anyone is interested in learning AI/LLM's and you’re more familiar with dotnet than python, take a look at my [NanoGp
 tDotnet](https://github.com/biegehydra/NanoGptDotnet) project. It is a direct translation of a [project](https://github.
@@ -2515,7 +2657,7 @@ t queen overta'en.
 
      
  
-all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-12-11-0910
+all -  [ [D] Machine Learning PhD failure? Navigating the harsh reality of graduating without publications ](https://www.reddit.com/r/MachineLearning/comments/17skp7j/d_machine_learning_phd_failure_navigating_the/) , 2023-12-12-0910
 ```
 Hi ML community, 
 
@@ -2539,67 +2681,6 @@ Reflecting on this journey, I sometimes feel disheartened, questioning the value
 I see othe
 r PhD students in my field publish 2 papers per year in these top conferences which makes me wonder whether I am a failu
 re? I'm open to any thoughts or advice on my situation.
-```
----
-
-     
- 
-all -  [ [D] Is there a limit to the number of papers we can submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/17s8ade/d_is_there_a_limit_to_the_number_of_papers_we_can/) , 2023-12-11-0910
-```
-I am asking for a friend.
-```
----
-
-     
- 
-all -  [ Neurio - Still a viable Home Energy Monitoring Solution! ](https://www.reddit.com/r/homeassistant/comments/17ryzw6/neurio_still_a_viable_home_energy_monitoring/) , 2023-12-11-0910
-```
-I've had the Neurio Home Energy Monitor (USA, Split Phase) for many, many years. Since they first came to the market, I 
-was an early adapter. 
-And it's been **rock solid**.
-
-I just ordered another one for my cabin. (New in box from eBay, ab
-out $60 after shipping (I set up scheduled alert, and low-balled a best offer)
-I had it up and running in minutes. (Conn
-ected to WiFi, registered to my existing cloud account, API enabled, and integrated in Home Assistant). 
-
-Despite being 
-vaporware and sold off to Generac and later abandoned, the API lives on,and the Home Assistant integration keeps working
-. 
-AND EVEN IF THEY DO KILL THE API (Aka, 'The MyQ treatment'), THERE IS STILL LOCAL ACCESS. (Which I don't use, YET)
-
-*
-*Existing Home Assistant integration:**  
-https://www.home-assistant.io/integrations/neurio_energy  
-Two sensors will be
- created with the following names:   
-* Energy Usage: Current active power usage in Watts. Updated every 10 seconds.   
-
-* Daily Energy Usage: Daily power usage in kWh. Updated every 2.5 minutes.   
-
-Polls via the cloud API (Which is still a
-ctive!)  
-https://api-docs.neur.io/#overview   
-
-   
-**Local Sensor Access:**  
-JSON via IP:  
-Example:   
-http://192.16
-8.1.xxxx/current-sample   
-https://api-docs.neur.io/#sensor-local-access   
-And in case the cloud doc ever goes missing,
- I've cloned it here: https://pastebin.com/raw/7YUCSzCe
-   
-
-Food for thought for those looking for an energy monitoring
- solution, but don't want to shell out a lot of money. 
-I was about to pull the trigger on the 'DIY-ish' methods, but af
-ter getting the board, CT sensors, etc, it will still going to cost at least $100. On top of that, forums are full of pe
-ople struggling to set them up, calibrate them properly, etc.  I wasn't up for the task. I wanted a turn-key solution re
-ady out of the box.
-
-https://imgur.com/oBA0txf
 ```
 ---
 
