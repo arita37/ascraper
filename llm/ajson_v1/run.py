@@ -6,13 +6,16 @@ https://huggingface.co/Nexusflow/NexusRaven-13B
 https://huggingface.co/Nexusflow/NexusRaven-13B
 
 
-
-
-
 https://huggingface.co/TheBloke/NexusRaven-13B-GGUF
 
 
 
+fine tuning code
+
+https://colab.research.google.com/drive/1Enyy6dwOFC34PIiJ1zU6QBskHyrqkXUY
+
+
+https://brev.dev/blog/fine-tuning-mistral
 
 
 """
