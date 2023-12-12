@@ -17,6 +17,8 @@ https://colab.research.google.com/drive/1Enyy6dwOFC34PIiJ1zU6QBskHyrqkXUY
 
 https://brev.dev/blog/fine-tuning-mistral
 
+https://github.com/huggingface/peft
+
 
 """
 
