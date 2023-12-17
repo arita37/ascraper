@@ -1,5 +1,225 @@
  
-all -  [ [D] Is a virtual pass worth it for NeurIPS at this point? ](https://www.reddit.com/r/MachineLearning/comments/18j7jnz/d_is_a_virtual_pass_worth_it_for_neurips_at_this/) , 2023-12-16-0910
+all -  [ NeurIPS 2023 Poster Session 2 (Wednesday Morning) ](https://www.youtube.com/watch?v=p6d-cMkVz7M) , 2023-12-17-0911
+```
+
+```
+---
+
+     
+ 
+all -  [ AI Developments: Coheres Hackathon Winners, NVIDIAs FoundationPose, McKinseys AI Survey, and Googles ](https://www.reddit.com/r/ai_news_by_ai/comments/18jk3x2/ai_developments_coheres_hackathon_winners_nvidias/) , 2023-12-17-0911
+```
+
+
+
+
+
+#startups #event #feature #tool #release #opensource #hardware #science #dataset #leaders #api #update #major_playe
+rs #paper #scheduled
+
+Cohere is hosting a live demo session featuring the winners of the Coral hackathon, showcasing a c
+hatbot app called Chat with RAG that connects to health data points, scans nutrition labels, and provides dietary recomm
+endations based on user's goals [1]. Cohere now officially supports both JavaScript and TypeScript, with a short video p
+rovided to help users get started [2]. In collaboration with Buildwithfern, Cohere is creating an always-up-to-date and 
+well-documented TypeScript SDK, currently in beta, that provides access to the Cohere API from JavaScript/TypeScript and
+ supports streaming endpoints [3]. Cohere is also highlighting a maker spotlight on BYTE [4]. As the NeurIPS2023 confere
+nce concludes, Cohere For AI Vice President Sarah Ooker and Research Scientist Ahmet Üstün will discuss the mission and 
+research goals of the C4AI lab [5].
+
+
+
+
+
+
+
+NVIDIA AI Developer introduces FoundationPose, a unified model for 6D object 
+pose estimation and tracking for novel objects [6]. This framework supports both model-based and model-free setups and o
+utperforms prior work designed specifically for these tasks [7]. The model is applied to each object without any fine-tu
+ning, and the result is comparable to the ground truth throughout the video [8]. NVIDIA AI Developer set a new benchmark
+ record for the 'model-based pose estimation' task in the BOP challenge, which has implications for fields such as robot
+ics and augmented reality [9]. The foundation model is scalable and can be quickly deployed to different objects, highli
+ghting the importance of high-precision pose and tracking for robotic manipulation in tasks that require higher precisio
+n [10]. Smooth and accurate pose tracking is also important in enabling high-fidelity physics simulation for an improved
+ augmented reality (AR) gaming experience [11].
+
+
+
+
+
+
+
+The latest annual McKinsey Global Survey on the state of AI revea
+ls that one-third of organizations are using generative AI tools regularly in at least one business function. AI has bec
+ome a focus for company leaders, with C-suite executives personally using gen AI tools for work. However, many organizat
+ions are not fully prepared for the risks associated with gen AI, with less than half of respondents saying their organi
+zations are mitigating the risk of inaccuracy [15].
+
+
+
+
+
+
+
+Auto-Regressive Language Models (AR-LLMs) are useful for conv
+erting abstract ideas into sequences of tokens, such as words, actions, or code. However, abstract ideas should be furth
+er developed through planning and reasoning in representation space. AR-LLMs bypass the step of reasoning in representat
+ion space and directly generate answers from prompts [16][17][18].
+
+
+
+
+
+
+
+The AI industry would be significantly hindere
+d if research labs in the industry had not open sourced their code, patented everything, and enforced their patents. The
+ open sourcing of code and lack of patent enforcement has been beneficial for the development and progress of the AI ind
+ustry [19]. ChatGPT, for instance, is built with PyTorch [20]. The patents on ConvNets expired in 2007 [21][23].
+
+
+
+
+
+
+
+
+Google AI has introduced StyleDrop, a model that allows for stylized text-to-image synthesis by using style reference im
+ages instead of text prompts. This approach enables the generation of images in a style consistent with the reference, b
+ypassing the need for text prompt engineering [33]. Google Research has developed Magic Editor, an AI-powered photo edit
+or that allows users to easily make complex edits to photos using generative AI [34]. Google AI has also made recent adv
+ances in using machine learning (ML) to improve the efficiency of ML workloads, introducing TpuGraphs and developing Gra
+ph Segment Training [35].
+
+
+
+
+
+
+
+NVIDIA AI hosted a webinar series on getting started with AI inference, focusing on bui
+lding and deploying cloud-ready AI-inferencing solutions for large language models [31]. The paper titled 'Privacy Audit
+ing with One (1) Training Run' by Thomas Steinke, Milad Nasr, and Matthew Jagielski has won the Best Paper award at Neur
+IPS 2023 [32].
+
+
+
+
+[1. cohere @cohere https://twitter.com/cohere/status/1735620923703570936](https://twitter.com/cohere/
+status/1735620923703570936)
+
+[2. cohere @cohere https://twitter.com/cohere/status/1735670406349000978](https://twitter.c
+om/cohere/status/1735670406349000978)
+
+[3. cohere @cohere https://twitter.com/cohere/status/1735670504692793483](https:/
+/twitter.com/cohere/status/1735670504692793483)
+
+[4. cohere @cohere https://twitter.com/cohere/status/173570632286227273
+9](https://twitter.com/cohere/status/1735706322862272739)
+
+[5. cohere @cohere https://twitter.com/cohere/status/17357564
+13656252738](https://twitter.com/cohere/status/1735756413656252738)
+
+[6. NVIDIA AI Developer @NVIDIAAIDev https://twitte
+r.com/NVIDIAAIDev/status/1735721360419180912](https://twitter.com/NVIDIAAIDev/status/1735721360419180912)
+
+[7. NVIDIA AI
+ Developer @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735721374063132716](https://twitter.com/NVIDIAAIDev/stat
+us/1735721374063132716)
+
+[8. NVIDIA AI Developer @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735721408242610241
+](https://twitter.com/NVIDIAAIDev/status/1735721408242610241)
+
+[9. NVIDIA AI Developer @NVIDIAAIDev https://twitter.com/
+NVIDIAAIDev/status/1735721414940926442](https://twitter.com/NVIDIAAIDev/status/1735721414940926442)
+
+[10. NVIDIA AI Deve
+loper @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735721444825264290](https://twitter.com/NVIDIAAIDev/status/17
+35721444825264290)
+
+[11. NVIDIA AI Developer @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735721476160889248](ht
+tps://twitter.com/NVIDIAAIDev/status/1735721476160889248)
+
+[12. NVIDIA AI Developer @NVIDIAAIDev https://twitter.com/NVI
+DIAAIDev/status/1735721483178041795](https://twitter.com/NVIDIAAIDev/status/1735721483178041795)
+
+[13. NVIDIA AI Develop
+er @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735748564603519485](https://twitter.com/NVIDIAAIDev/status/17357
+48564603519485)
+
+[14. Greg Brockman @gdb https://twitter.com/gdb/status/1735736578054688891](https://twitter.com/gdb/sta
+tus/1735736578054688891)
+
+[15. Mustafa Suleyman @mustafasuleyman https://twitter.com/mustafasuleyman/status/173573907095
+5872326](https://twitter.com/mustafasuleyman/status/1735739070955872326)
+
+[16. Yann LeCun @ylecun https://twitter.com/yl
+ecun/status/1735648731855310896](https://twitter.com/ylecun/status/1735648731855310896)
+
+[17. Yann LeCun @ylecun https:/
+/twitter.com/ylecun/status/1735648899656831302](https://twitter.com/ylecun/status/1735648899656831302)
+
+[18. Yann LeCun 
+@ylecun https://twitter.com/ylecun/status/1735649275873251587](https://twitter.com/ylecun/status/1735649275873251587)
+
+[
+19. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735704308891484248](https://twitter.com/ylecun/status/17357043
+08891484248)
+
+[20. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735706511714783463](https://twitter.com/ylecun/
+status/1735706511714783463)
+
+[21. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735707421140570321](https://twit
+ter.com/ylecun/status/1735707421140570321)
+
+[22. Yann LeCun @ylecun https://twitter.com/ylecun/status/173574767028572165
+0](https://twitter.com/ylecun/status/1735747670285721650)
+
+[23. Yann LeCun @ylecun https://twitter.com/ylecun/status/173
+5754644041691563](https://twitter.com/ylecun/status/1735754644041691563)
+
+[24. Yann LeCun @ylecun https://twitter.com/yl
+ecun/status/1735756578463089025](https://twitter.com/ylecun/status/1735756578463089025)
+
+[25. Yann LeCun @ylecun https:/
+/twitter.com/ylecun/status/1735757879926288389](https://twitter.com/ylecun/status/1735757879926288389)
+
+[26. Yann LeCun 
+@ylecun https://twitter.com/ylecun/status/1735761543575322784](https://twitter.com/ylecun/status/1735761543575322784)
+
+[
+27. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735763778183032885](https://twitter.com/ylecun/status/17357637
+78183032885)
+
+[28. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735793125002453169](https://twitter.com/ylecun/
+status/1735793125002453169)
+
+[29. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735805797743923466](https://twit
+ter.com/ylecun/status/1735805797743923466)
+
+[30. Yann LeCun @ylecun https://twitter.com/ylecun/status/173580962252129107
+3](https://twitter.com/ylecun/status/1735809622521291073)
+
+[31. NVIDIA AI @NVIDIAAI https://twitter.com/NVIDIAAI/status/
+1735766683774525647](https://twitter.com/NVIDIAAI/status/1735766683774525647)
+
+[32. Google AI @googleai https://twitter.
+com/googleai/status/1735691541811806299](https://twitter.com/googleai/status/1735691541811806299)
+
+[33. Google AI @googl
+eai https://twitter.com/googleai/status/1735755033411756241](https://twitter.com/googleai/status/1735755033411756241)
+
+[
+34. Google AI @googleai https://twitter.com/googleai/status/1735779301088469431](https://twitter.com/googleai/status/173
+5779301088469431)
+
+[35. Google AI @googleai https://twitter.com/googleai/status/1735795339024834580](https://twitter.com
+/googleai/status/1735795339024834580)
+```
+---
+
+     
+ 
+all -  [ [D] Is a virtual pass worth it for NeurIPS at this point? ](https://www.reddit.com/r/MachineLearning/comments/18j7jnz/d_is_a_virtual_pass_worth_it_for_neurips_at_this/) , 2023-12-17-0911
 ```
 I was busy first part of the week and couldn't keep up.
                                                                 
@@ -67,15 +287,7 @@ I was busy first part of the week and couldn't keep up.
 
      
  
-all -  [ NeurIPS 2023 Vendor Hall ](https://www.youtube.com/watch?v=HbF-jx1jfw0) , 2023-12-16-0910
-```
-
-```
----
-
-     
- 
-all -  [ Accelerating AI: Your Weekly Roundup (Dec 8th - Dec 14th) ](https://www.reddit.com/r/AcceleratingAI/comments/18ii48z/accelerating_ai_your_weekly_roundup_dec_8th_dec/) , 2023-12-16-0910
+all -  [ Accelerating AI: Your Weekly Roundup (Dec 8th - Dec 14th) ](https://www.reddit.com/r/AcceleratingAI/comments/18ii48z/accelerating_ai_your_weekly_roundup_dec_8th_dec/) , 2023-12-17-0911
 ```
 1. [**Intel's 'AI Everywhere' Event**](https://www.intc.com/news-events/press-releases/detail/1662/media-alert-join-inte
 ls-ai-everywhere-launch)**:** On December 14th, Intel hosted a major event called 'AI Everywhere'. The highlight of the 
@@ -112,7 +324,7 @@ eliability of certain AI models, the advancements in AI have been considerable a
 
      
  
-all -  [ AI Developments: Discussions, Partnerships, Releases, and Innovations ](https://www.reddit.com/r/ai_news_by_ai/comments/18i1631/ai_developments_discussions_partnerships_releases/) , 2023-12-16-0910
+all -  [ AI Developments: Discussions, Partnerships, Releases, and Innovations ](https://www.reddit.com/r/ai_news_by_ai/comments/18i1631/ai_developments_discussions_partnerships_releases/) , 2023-12-17-0911
 ```
 
 
@@ -510,7 +722,7 @@ s://twitter.com/gdb/status/1735002343203295394)
 
      
  
-all -  [ Quant Research of the Week (6th Edition) ](https://www.reddit.com/r/quant/comments/18hj2ww/quant_research_of_the_week_6th_edition/) , 2023-12-16-0910
+all -  [ Quant Research of the Week (6th Edition) ](https://www.reddit.com/r/quant/comments/18hj2ww/quant_research_of_the_week_6th_edition/) , 2023-12-17-0911
 ```
 # SSRN
 
@@ -1025,7 +1237,7 @@ archers, featuring a work by D. Tudball. (2023-12-08, shares: 0)
 
      
  
-all -  [ [D] Dress code at NEURIPS as a workshop presenter ](https://www.reddit.com/r/MachineLearning/comments/18halvl/d_dress_code_at_neurips_as_a_workshop_presenter/) , 2023-12-16-0910
+all -  [ [D] Dress code at NEURIPS as a workshop presenter ](https://www.reddit.com/r/MachineLearning/comments/18halvl/d_dress_code_at_neurips_as_a_workshop_presenter/) , 2023-12-17-0911
 ```
 Pretty much what the title says.
 ```
@@ -1033,7 +1245,7 @@ Pretty much what the title says.
 
      
  
-all -  [ AI Innovations and Developments: From Personal Intelligence to Advanced Embedding Models ](https://www.reddit.com/r/ai_news_by_ai/comments/18h97pm/ai_innovations_and_developments_from_personal/) , 2023-12-16-0910
+all -  [ AI Innovations and Developments: From Personal Intelligence to Advanced Embedding Models ](https://www.reddit.com/r/ai_news_by_ai/comments/18h97pm/ai_innovations_and_developments_from_personal/) , 2023-12-17-0911
 ```
 
 
@@ -1327,7 +1539,7 @@ witter.com/anthropicai/status/1734676474744148115)
 
      
  
-all -  [ NeurIPS 2023: These are the top papers and award winners at the largest AI conference ](https://www.reddit.com/r/TheDecoder/comments/18gpl74/neurips_2023_these_are_the_top_papers_and_award/) , 2023-12-16-0910
+all -  [ NeurIPS 2023: These are the top papers and award winners at the largest AI conference ](https://www.reddit.com/r/TheDecoder/comments/18gpl74/neurips_2023_these_are_the_top_papers_and_award/) , 2023-12-17-0911
 ```
 👉 The NeurIPS 2023 conference has announced the winners of this year's paper awards, including outstanding contributions
  in the areas of privacy in AI models and the emergent abilities of large language models.
@@ -1347,7 +1559,7 @@ https
 
      
  
-all -  [ Google AIs Significant Contributions and Other Highlights from NeurIPS 2023 Conference ](https://www.reddit.com/r/ai_news_by_ai/comments/18gea90/google_ais_significant_contributions_and_other/) , 2023-12-16-0910
+all -  [ Google AIs Significant Contributions and Other Highlights from NeurIPS 2023 Conference ](https://www.reddit.com/r/ai_news_by_ai/comments/18gea90/google_ais_significant_contributions_and_other/) , 2023-12-17-0911
 ```
 
 
@@ -1628,7 +1840,7 @@ er.com/mustafasuleyman/status/1734362164578664757)
 
      
  
-all -  [ [D] Authors in NeurIPS and ICML and similar venues - How advanced is your mathematics background ? ](https://www.reddit.com/r/MachineLearning/comments/18g85lx/d_authors_in_neurips_and_icml_and_similar_venues/) , 2023-12-16-0910
+all -  [ [D] Authors in NeurIPS and ICML and similar venues - How advanced is your mathematics background ? ](https://www.reddit.com/r/MachineLearning/comments/18g85lx/d_authors_in_neurips_and_icml_and_similar_venues/) , 2023-12-17-0911
 ```
 Hello,
 
@@ -1667,7 +1879,7 @@ Thank you very much !
 
      
  
-all -  [ NPD: Pilot Custom 823 with Falcon Nib ](https://i.redd.it/fvreligyfo5c1.jpeg) , 2023-12-16-0910
+all -  [ NPD: Pilot Custom 823 with Falcon Nib ](https://i.redd.it/fvreligyfo5c1.jpeg) , 2023-12-17-0911
 ```
 Am visiting New Orleans for NeurIPS and stumbled across Papier Plume in the French Quarter. 
 
@@ -1686,7 +1898,7 @@ of the 823 with this fantastic nib - if you don’t think about it, it’s a fre
 
      
  
-all -  [ Emergency printing at the library? ](https://www.reddit.com/r/Tulane/comments/18fla8m/emergency_printing_at_the_library/) , 2023-12-16-0910
+all -  [ Emergency printing at the library? ](https://www.reddit.com/r/Tulane/comments/18fla8m/emergency_printing_at_the_library/) , 2023-12-17-0911
 ```
 Hey everyone! 
 
@@ -1700,7 +1912,7 @@ ne can help us out. A Dutch beer will have your name on it.
 
      
  
-all -  [ Adding a workshop paper to Google Scholar ](https://www.reddit.com/r/academia/comments/18fat68/adding_a_workshop_paper_to_google_scholar/) , 2023-12-16-0910
+all -  [ Adding a workshop paper to Google Scholar ](https://www.reddit.com/r/academia/comments/18fat68/adding_a_workshop_paper_to_google_scholar/) , 2023-12-17-0911
 ```
 A paper of mine recently got accepted at a workshop part of NeurIPS. The paper is hosted on OpenReview, and I was wonder
 ing how I could add it to Google scholar. I tried adding a manual entry but can't get the system to show my paper's abst
@@ -1710,7 +1922,7 @@ ract when I click on the entry, and I can't get it to redirect to the OpenReview
 
      
  
-all -  [ [R] Add and Thin: Diffusion for Temporal Point Processes ](https://www.reddit.com/r/MachineLearning/comments/18f53oy/r_add_and_thin_diffusion_for_temporal_point/) , 2023-12-16-0910
+all -  [ [R] Add and Thin: Diffusion for Temporal Point Processes ](https://www.reddit.com/r/MachineLearning/comments/18f53oy/r_add_and_thin_diffusion_for_temporal_point/) , 2023-12-17-0911
 ```
 Paper: [https://arxiv.org/abs/2311.01139](https://arxiv.org/abs/2311.01139) Code: [https://github.com/davecasp/add-thin]
 (https://github.com/davecasp/add-thin)
@@ -1733,7 +1945,7 @@ sday 10:45am-12:45pm!
 
      
  
-all -  [ [N] Full-report of 2 great NeurIPS papers ](https://www.reddit.com/r/MachineLearning/comments/18eejuc/n_fullreport_of_2_great_neurips_papers/) , 2023-12-16-0910
+all -  [ [N] Full-report of 2 great NeurIPS papers ](https://www.reddit.com/r/MachineLearning/comments/18eejuc/n_fullreport_of_2_great_neurips_papers/) , 2023-12-17-0911
 ```
 2 great NeurIPS accepted papers here, on pages 2 and 32:
 
@@ -1749,7 +1961,7 @@ h=970&format=png&auto=webp&s=79bb0f481765d86e54d218bb6f601d906b5f42de
 
      
  
-all -  [ Recent Developments and Innovations in Artificial Intelligence ](https://www.reddit.com/r/ai_news_by_ai/comments/18e69qx/recent_developments_and_innovations_in_artificial/) , 2023-12-16-0910
+all -  [ Recent Developments and Innovations in Artificial Intelligence ](https://www.reddit.com/r/ai_news_by_ai/comments/18e69qx/recent_developments_and_innovations_in_artificial/) , 2023-12-17-0911
 ```
 
 
@@ -1938,7 +2150,7 @@ _labs https://twitter.com/pika_labs/status/1733341481367224756](https://twitter.
 
      
  
-all -  [ [D] A genuine and honest discussion on Collusion Ring(s) ](https://www.reddit.com/r/MachineLearning/comments/18dt7vt/d_a_genuine_and_honest_discussion_on_collusion/) , 2023-12-16-0910
+all -  [ [D] A genuine and honest discussion on Collusion Ring(s) ](https://www.reddit.com/r/MachineLearning/comments/18dt7vt/d_a_genuine_and_honest_discussion_on_collusion/) , 2023-12-17-0911
 ```
 Dear fellow NeurIPS rejects. As your deep learning, reinforcement learning, graph neural networks, and deep learning the
 ory people fly off to New Orleans and you realize that you are left behind.
@@ -1993,7 +2205,7 @@ the deep learning collusion ring already collapsing, and will it collapse furthe
 
      
  
-all -  [ CS Phd Admissions profile evaluation ](https://www.reddit.com/r/gradadmissions/comments/18di4z7/cs_phd_admissions_profile_evaluation/) , 2023-12-16-0910
+all -  [ CS Phd Admissions profile evaluation ](https://www.reddit.com/r/gradadmissions/comments/18di4z7/cs_phd_admissions_profile_evaluation/) , 2023-12-17-0911
 ```
 Hey all,
 
@@ -2017,7 +2229,7 @@ ve to like save up for apps and IELTS.
 
      
  
-all -  [ [Q] Need help understanding conditional maximum mean discrepancy. ](https://www.reddit.com/r/statistics/comments/18dehvo/q_need_help_understanding_conditional_maximum/) , 2023-12-16-0910
+all -  [ [Q] Need help understanding conditional maximum mean discrepancy. ](https://www.reddit.com/r/statistics/comments/18dehvo/q_need_help_understanding_conditional_maximum/) , 2023-12-17-0911
 ```
 Can someone explain CMMD introduced in [this paper](https://proceedings.neurips.cc/paper/2016/file/0245952ecff55018e2a45
 9517fdb40e3-Paper.pdf). I have 2 sets of samples and need to infer if they're from the same conditional distribution. I 
@@ -2027,7 +2239,7 @@ need to formulate a loss function based on this to train a model.
 
      
  
-all -  [ Kernel embedding of conditional distribution ](https://www.reddit.com/r/learnmachinelearning/comments/18cvcqu/kernel_embedding_of_conditional_distribution/) , 2023-12-16-0910
+all -  [ Kernel embedding of conditional distribution ](https://www.reddit.com/r/learnmachinelearning/comments/18cvcqu/kernel_embedding_of_conditional_distribution/) , 2023-12-17-0911
 ```
 Can someone explain how to use conditional maximum mean discrepancy as explained in [this paper](https://proceedings.neu
 rips.cc/paper/2016/file/0245952ecff55018e2a459517fdb40e3-Paper.pdf). My goal is to study two sets of samples and formula
@@ -2037,7 +2249,7 @@ te the difference in the underlying conditional distribution, so I can build a l
 
      
  
-all -  [ Quant Research of the Week (5th Edition) ](https://www.reddit.com/r/quant/comments/18csq03/quant_research_of_the_week_5th_edition/) , 2023-12-16-0910
+all -  [ Quant Research of the Week (5th Edition) ](https://www.reddit.com/r/quant/comments/18csq03/quant_research_of_the_week_5th_edition/) , 2023-12-17-0911
 ```
  
 
@@ -2469,7 +2681,7 @@ ional models in heterophilic benchmarks. (2023-05-17, shares: 186)
 
      
  
-all -  [ Anyone will be driving to Neurips in New Orleans in weekend ](https://www.reddit.com/r/Purdue/comments/18cpdfe/anyone_will_be_driving_to_neurips_in_new_orleans/) , 2023-12-16-0910
+all -  [ Anyone will be driving to Neurips in New Orleans in weekend ](https://www.reddit.com/r/Purdue/comments/18cpdfe/anyone_will_be_driving_to_neurips_in_new_orleans/) , 2023-12-17-0911
 ```
 Is anyone driving to attend the Neurips 2023 (December 10 to December 16 )in New Orleans from?
 
@@ -2481,7 +2693,7 @@ ps opening.
 
      
  
-all -  [ Googles Advanced AI Model Gemini and Other AI Developments Across the Industry ](https://www.reddit.com/r/ai_news_by_ai/comments/18conr7/googles_advanced_ai_model_gemini_and_other_ai/) , 2023-12-16-0910
+all -  [ Googles Advanced AI Model Gemini and Other AI Developments Across the Industry ](https://www.reddit.com/r/ai_news_by_ai/comments/18conr7/googles_advanced_ai_model_gemini_and_other_ai/) , 2023-12-17-0911
 ```
 
 
@@ -2751,7 +2963,7 @@ tus/1732539483965534302)
 
      
  
-all -  [ [D] Place to print poster at NeurIPS 2023 ](https://www.reddit.com/r/MachineLearning/comments/18cn7v1/d_place_to_print_poster_at_neurips_2023/) , 2023-12-16-0910
+all -  [ [D] Place to print poster at NeurIPS 2023 ](https://www.reddit.com/r/MachineLearning/comments/18cn7v1/d_place_to_print_poster_at_neurips_2023/) , 2023-12-17-0911
 ```
 I need to present a poster at NeurIPS 2023. However, I couldn't print it in my university due to some issues. Is there a
  place near the convention center that provides quick poster printing?  TIA
@@ -2760,7 +2972,7 @@ I need to present a poster at NeurIPS 2023. However, I couldn't print it in my u
 
      
  
-all -  [ Best Journals for Publishing Applied ML work? ](https://www.reddit.com/r/datascience/comments/18cirpw/best_journals_for_publishing_applied_ml_work/) , 2023-12-16-0910
+all -  [ Best Journals for Publishing Applied ML work? ](https://www.reddit.com/r/datascience/comments/18cirpw/best_journals_for_publishing_applied_ml_work/) , 2023-12-17-0911
 ```
 I’ve recently completed a soccer prediction model using a custom neural net architecture, which exceeds the best model p
 reviously published in the literature. I am still working on the paper, but it will by no means be the long, mathematica
@@ -2776,7 +2988,7 @@ I will also consider just publishing on Arxiv, but it would be nice to get some 
 
      
  
-all -  [ Recruitment at neurips 2023 ](https://www.reddit.com/r/MLQuestions/comments/18bnfg7/recruitment_at_neurips_2023/) , 2023-12-16-0910
+all -  [ Recruitment at neurips 2023 ](https://www.reddit.com/r/MLQuestions/comments/18bnfg7/recruitment_at_neurips_2023/) , 2023-12-17-0911
 ```
 Do interviews get conducted on the days of neurips and how to improve your chances of recruitment especially as a grad s
 tudent?
@@ -2785,7 +2997,7 @@ tudent?
 
      
  
-all -  [ Suggest Unis for profile below ](https://www.reddit.com/r/MSCS/comments/189tgc8/suggest_unis_for_profile_below/) , 2023-12-16-0910
+all -  [ Suggest Unis for profile below ](https://www.reddit.com/r/MSCS/comments/189tgc8/suggest_unis_for_profile_below/) , 2023-12-17-0911
 ```
 Looking for MS CS (with thesis) and interested in Deep learning and computer vision. 
 
@@ -2807,7 +3019,7 @@ ountry preference. Just want good research focused universities.
 
      
  
-all -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-16-0910
+all -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-17-0911
 ```
 Happy Friday,
 
@@ -2825,7 +3037,7 @@ Let us know if you have any questions.
 
      
  
-all -  [ List 'Preprints' or 'Conference Papers' section first on CV? ](https://www.reddit.com/r/AskAcademia/comments/1884tyy/list_preprints_or_conference_papers_section_first/) , 2023-12-16-0910
+all -  [ List 'Preprints' or 'Conference Papers' section first on CV? ](https://www.reddit.com/r/AskAcademia/comments/1884tyy/list_preprints_or_conference_papers_section_first/) , 2023-12-17-0911
 ```
 I am preparing my CV for grad school apps and I have one conference paper and one preprint (already submitted to journal
 ) to list on it. I am second author on both but had far more involvement in the preprint work so I would like to highlig
@@ -2840,7 +3052,7 @@ pers' sections. I was thinking I would put 'Preprints' first because this is the
 
      
  
-all -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-16-0910
+all -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-17-0911
 ```
 I'll be attending NeurIPS 2023 this year and won't know anyone. I'm an avid climber and there is a nice bouldering gym c
 lose to the conference center - would anyone else fancy a climb over the week? Reply below so we can see how many people
@@ -2850,7 +3062,7 @@ lose to the conference center - would anyone else fancy a climb over the week? R
 
      
  
-all -  [ AI Innovations and Developments: From Energy Efficiency to Generative Applications and Regulatory Ch ](https://www.reddit.com/r/ai_news_by_ai/comments/187cet4/ai_innovations_and_developments_from_energy/) , 2023-12-16-0910
+all -  [ AI Innovations and Developments: From Energy Efficiency to Generative Applications and Regulatory Ch ](https://www.reddit.com/r/ai_news_by_ai/comments/187cet4/ai_innovations_and_developments_from_energy/) , 2023-12-17-0911
 ```
 
 
@@ -3171,7 +3383,7 @@ man @sama https://twitter.com/sama/status/1730032994474475554](https://twitter.c
 
      
  
-all -  [ AI Developments: Anthropic at AWS re:Invent, GPT-4 in Radiology, OpenAIs Safety Focus, Pika 1.0 Laun ](https://www.reddit.com/r/ai_news_by_ai/comments/186hqkg/ai_developments_anthropic_at_aws_reinvent_gpt4_in/) , 2023-12-16-0910
+all -  [ AI Developments: Anthropic at AWS re:Invent, GPT-4 in Radiology, OpenAIs Safety Focus, Pika 1.0 Laun ](https://www.reddit.com/r/ai_news_by_ai/comments/186hqkg/ai_developments_anthropic_at_aws_reinvent_gpt4_in/) , 2023-12-17-0911
 ```
 
 
@@ -3488,7 +3700,7 @@ tus/1729649682970787875)
 
      
  
-all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-12-16-0910
+all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-12-17-0911
 ```
 OpenAI's approach to Q-Learning has been drawing significant attention recently.
 
@@ -3514,7 +3726,7 @@ indings for the future of Q-learning in deep learning environments?
 
      
  
-all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-12-16-0910
+all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-12-17-0911
 ```
 Update: Reuters reported that here what the big discovery was Q\*. You judge for yourself if this is how we define the S
 uperintelligence. [https://www.reddit.com/r/ChatGPT/comments/181pfiq/q\_passing\_math\_tests\_is\_how\_theyre\_describin
@@ -3698,87 +3910,7 @@ u get to change the goal post and determine all by yourselves what AGI is? Nah t
 
      
  
-all -  [ MS CS Profile Evaluation Fall 2024 ](https://www.reddit.com/r/MSCS/comments/1813klg/ms_cs_profile_evaluation_fall_2024/) , 2023-12-16-0910
-```
- Academic Profile
-
-· Electronics and Communication + Data Science Minor, CGPA : 9.29 from Tier 1 
-
-· GRE: 169 Q 163V AWA
- 3.5,  TOEFL : 119
-
-=======================================
-
-Work & Research Experience
-
-· 1 year at Brown University
-
-·
- 4 months at TU Dresden
-
-· Two projects under university professors
-
-=======================================
-
-LORs
-
-3 : 
-2 research based, 1 based on course performance
-
-=======================================
-
-Publication
-
-· Co-Authorship i
-n paper that got Oral Presentation at ICML
-
-· First author paper at NeurIPS workshop
-
-==================================
-=====
-
-Awards
-
-· DAAD Schoalrship
-
-· MITACS Scholarship
-
-=======================================
-
-Universities and class
-ification
-
-Ambitious :
-
-* ETH Zurich CS
-* Cambridge MLMI
-* CMU ML
-* UCSD DS
-
-Moderate:
-
-* EPFL DS
-* UToronto
-* GATech CS
-
-* Imperial ML
-* Columbia CS
-* Tubingen AI
-
-Safe(?) :
-
-* Uni Edinburgh AI
-* UvAmsterdam AI
-* UCSD ECE MLDS
-* NYU Courant
-
-* Brown
-```
----
-
-     
- 
-all -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-12-16-0910
+MachineLearning -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-12-17-0911
 ```
 I am an undergrad student and I am a first author of a NeurIPS workshop paper accepted this year. Do I have to buy the t
 icket for both the main conference and the workshop session to attend? I would like to attend both. Or can I just buy th
@@ -3789,7 +3921,7 @@ ork
 
      
  
-MachineLearning -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-12-16-0910
+MachineLearning -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-12-17-0911
 ```
 I received an email today that I can claim a free NeurIPS registration, apparently because of my service as a reviewer. 
 Did all reviewers get free passes or is this a lottery system and/or based on review quality? I didn’t plan on attending
@@ -3799,7 +3931,7 @@ Did all reviewers get free passes or is this a lottery system and/or based on re
 
      
  
-MachineLearning -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-12-16-0910
+MachineLearning -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-12-17-0911
 ```
 There are websites like this keeping track of ML conference deadlines like this https://aideadlin.es/?sub=ML,CV,CG,NLP,R
 O,SP,DM,AP,KR
@@ -3811,7 +3943,7 @@ nferences like Neurips, CVPR and so on.
 
      
  
-MachineLearning -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-12-16-0910
+MachineLearning -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-12-17-0911
 ```
 **Paper**: [https://arxiv.org/abs/2311.03736](https://arxiv.org/abs/2311.03736)
 
