@@ -1,5 +1,161 @@
  
-all -  [ NeurIPS 2023 Poster Session 2 (Wednesday Morning) ](https://www.youtube.com/watch?v=p6d-cMkVz7M) , 2023-12-17-0911
+all -  [ [D] e/acc has won over decel: At NeurIPS 2023, less than 10 works (out of 3,000+ papers) discuss AI  ](https://www.reddit.com/r/MachineLearning/comments/18kp3vp/d_eacc_has_won_over_decel_at_neurips_2023_less/) , 2023-12-18-0911
+```
+For all the hype, drama and *virtue signalling* in AI Safety, it appears that [almost nobody in Academia really cares ab
+out AI Safety](https://tenyks.docsend.com/view/q4bwhb63fvtfv8ga).
+
+Why might this be the case?
+```
+---
+
+     
+ 
+all -  [ NeurIPS 2023 Highlights: Coheres Aya Project, Open Source AI, and Metas Organizational Changes ](https://www.reddit.com/r/ai_news_by_ai/comments/18k9ua2/neurips_2023_highlights_coheres_aya_project_open/) , 2023-12-18-0911
+```
+
+
+
+
+
+#startups #science #event #feature #tool #release #leaders #opensource #update #vc #scheduled
+
+The NeurIPS 2023 con
+ference concluded with Cohere For AI's focus on Aya, an open science research project aimed at advancing multilingual pr
+ogress in large language models. A video explaining Aya's workings was shared by the C4AI team[1]. Cohere also developed
+ Embed v3, a model designed to address noisy data in modern search systems, aiming to identify high-value content and re
+duce computing costs[2].
+
+
+
+
+
+
+
+Yann LeCun, Meta's Chief AI Scientist, discussed the open sourcing culture at Facebook, 
+contrasting it with his experiences at other companies like Google, Microsoft, Amazon, and Apple. He also highlighted th
+e difficulties he faced when trying to open source projects at AT&T[3]. LeCun was interviewed on CBS Saturday Morning, d
+iscussing the present and future of AI, including its benefits and risks[7]. He also shared a segment on CBS about Meta'
+s Fundamental AI Research lab (FAIR) for its 10th anniversary, discussing the importance of open research, the risks and
+ benefits of AI, the future of AI, and the potential of AI assistants and domestic robots[11].
+
+
+
+
+
+
+
+The author clarifi
+ed that open source AI did not begin with Llama or PyTorch[4]. The history of Torch and PyTorch was detailed, starting w
+ith Ronan developing Torch3 during his PhD at IDIAP, and ending with the creation of PyTorch by engineers at Facebook[9]
+. PyTorch was inspired by Torch7, developed at NEC Labs and NYU, and supported dynamic graphs from the beginning, which 
+Torch7 couldn't do[14].
+
+
+
+
+
+
+
+Two of the co-founders of Mistral did their PhD and worked as research scientists at FAIR
+-Paris before founding Mistral, where they were exposed to the open research culture at FAIR[5]. FAIR sites are located 
+in various cities including Paris, London, Tel Aviv, New York, Montreal, Menlo Park, Seattle, and Pittsburgh[13].
+
+
+
+
+
+
+
+
+The author argued that planning-based methods using trained world models would be the winning combination for AI, but f
+or simple kinematics/dynamics and relatively simple grasping tasks, trainable world models are unnecessary[6]. The emerg
+ence of superhuman AI will be a progressive process, starting with systems that can learn about the world like baby anim
+als and gradually scaling up to be as smart as a dog or crow[15]. The author also stated that AI is smarter than humans 
+because it can beat them at games like chess, go, and poker[12].
+
+
+
+
+
+
+
+The umbrella AI R&D organization, Meta AI, which
+ included FAIR and engineering divisions, has undergone changes. The AI engineering organizations have been moved closer
+ to product groups, resulting in the disappearance of Meta AI as an organization. However, Meta AI now refers to Meta's 
+AI assistant accessible through Messenger and WhatsApp[8].
+
+
+
+
+
+
+
+Marc Andreessen, a prominent technology investor and e
+ntrepreneur, argues that regulating artificial intelligence (AI) is the basis for a new form of totalitarianism[16]. He 
+also shared a link to an article about the Wuhan Institute of Virology and its use of artificial intelligence[17].
+
+
+
+
+[
+1. cohere @cohere https://twitter.com/cohere/status/1735946674378309865](https://twitter.com/cohere/status/1735946674378
+309865)
+
+[2. cohere @cohere https://twitter.com/cohere/status/1736002256007209344](https://twitter.com/cohere/status/173
+6002256007209344)
+
+[3. Yann LeCun @ylecun https://twitter.com/ylecun/status/1736021193872797932](https://twitter.com/yle
+cun/status/1736021193872797932)
+
+[4. Yann LeCun @ylecun https://twitter.com/ylecun/status/1736022217505304828](https://t
+witter.com/ylecun/status/1736022217505304828)
+
+[5. Yann LeCun @ylecun https://twitter.com/ylecun/status/1736023356518940
+946](https://twitter.com/ylecun/status/1736023356518940946)
+
+[6. Yann LeCun @ylecun https://twitter.com/ylecun/status/17
+36032313652179249](https://twitter.com/ylecun/status/1736032313652179249)
+
+[7. Yann LeCun @ylecun https://twitter.com/yl
+ecun/status/1736101101814808598](https://twitter.com/ylecun/status/1736101101814808598)
+
+[8. Yann LeCun @ylecun https://
+twitter.com/ylecun/status/1736110136467337243](https://twitter.com/ylecun/status/1736110136467337243)
+
+[9. Yann LeCun @y
+lecun https://twitter.com/ylecun/status/1736117336183022036](https://twitter.com/ylecun/status/1736117336183022036)
+
+[10
+. Yann LeCun @ylecun https://twitter.com/ylecun/status/1736130508323459177](https://twitter.com/ylecun/status/1736130508
+323459177)
+
+[11. Yann LeCun @ylecun https://twitter.com/ylecun/status/1736177847729897608](https://twitter.com/ylecun/st
+atus/1736177847729897608)
+
+[12. Yann LeCun @ylecun https://twitter.com/ylecun/status/1736231557600297432](https://twitte
+r.com/ylecun/status/1736231557600297432)
+
+[13. Yann LeCun @ylecun https://twitter.com/ylecun/status/1736233810650390539]
+(https://twitter.com/ylecun/status/1736233810650390539)
+
+[14. Yann LeCun @ylecun https://twitter.com/ylecun/status/17362
+35465068445761](https://twitter.com/ylecun/status/1736235465068445761)
+
+[15. Yann LeCun @ylecun https://twitter.com/ylec
+un/status/1736243588650987965](https://twitter.com/ylecun/status/1736243588650987965)
+
+[16. Marc Andreessen -- e/acc @pm
+arca https://twitter.com/pmarca/status/1736206207130710430](https://twitter.com/pmarca/status/1736206207130710430)
+
+[17.
+ Marc Andreessen -- e/acc @pmarca https://twitter.com/pmarca/status/1736221050655166891](https://twitter.com/pmarca/stat
+us/1736221050655166891)
+```
+---
+
+     
+ 
+all -  [ NeurIPS 2023 Poster Session 2 (Wednesday Morning) ](https://www.youtube.com/watch?v=p6d-cMkVz7M) , 2023-12-18-0911
 ```
 
 ```
@@ -7,7 +163,7 @@ all -  [ NeurIPS 2023 Poster Session 2 (Wednesday Morning) ](https://www.youtube
 
      
  
-all -  [ AI Developments: Coheres Hackathon Winners, NVIDIAs FoundationPose, McKinseys AI Survey, and Googles ](https://www.reddit.com/r/ai_news_by_ai/comments/18jk3x2/ai_developments_coheres_hackathon_winners_nvidias/) , 2023-12-17-0911
+all -  [ AI Developments: Coheres Hackathon Winners, NVIDIAs FoundationPose, McKinseys AI Survey, and Googles ](https://www.reddit.com/r/ai_news_by_ai/comments/18jk3x2/ai_developments_coheres_hackathon_winners_nvidias/) , 2023-12-18-0911
 ```
 
 
@@ -219,7 +375,7 @@ eai https://twitter.com/googleai/status/1735755033411756241](https://twitter.com
 
      
  
-all -  [ [D] Is a virtual pass worth it for NeurIPS at this point? ](https://www.reddit.com/r/MachineLearning/comments/18j7jnz/d_is_a_virtual_pass_worth_it_for_neurips_at_this/) , 2023-12-17-0911
+all -  [ [D] Is a virtual pass worth it for NeurIPS at this point? ](https://www.reddit.com/r/MachineLearning/comments/18j7jnz/d_is_a_virtual_pass_worth_it_for_neurips_at_this/) , 2023-12-18-0911
 ```
 I was busy first part of the week and couldn't keep up.
                                                                 
@@ -287,7 +443,7 @@ I was busy first part of the week and couldn't keep up.
 
      
  
-all -  [ Accelerating AI: Your Weekly Roundup (Dec 8th - Dec 14th) ](https://www.reddit.com/r/AcceleratingAI/comments/18ii48z/accelerating_ai_your_weekly_roundup_dec_8th_dec/) , 2023-12-17-0911
+all -  [ Accelerating AI: Your Weekly Roundup (Dec 8th - Dec 14th) ](https://www.reddit.com/r/AcceleratingAI/comments/18ii48z/accelerating_ai_your_weekly_roundup_dec_8th_dec/) , 2023-12-18-0911
 ```
 1. [**Intel's 'AI Everywhere' Event**](https://www.intc.com/news-events/press-releases/detail/1662/media-alert-join-inte
 ls-ai-everywhere-launch)**:** On December 14th, Intel hosted a major event called 'AI Everywhere'. The highlight of the 
@@ -324,7 +480,7 @@ eliability of certain AI models, the advancements in AI have been considerable a
 
      
  
-all -  [ AI Developments: Discussions, Partnerships, Releases, and Innovations ](https://www.reddit.com/r/ai_news_by_ai/comments/18i1631/ai_developments_discussions_partnerships_releases/) , 2023-12-17-0911
+all -  [ AI Developments: Discussions, Partnerships, Releases, and Innovations ](https://www.reddit.com/r/ai_news_by_ai/comments/18i1631/ai_developments_discussions_partnerships_releases/) , 2023-12-18-0911
 ```
 
 
@@ -722,7 +878,7 @@ s://twitter.com/gdb/status/1735002343203295394)
 
      
  
-all -  [ Quant Research of the Week (6th Edition) ](https://www.reddit.com/r/quant/comments/18hj2ww/quant_research_of_the_week_6th_edition/) , 2023-12-17-0911
+all -  [ Quant Research of the Week (6th Edition) ](https://www.reddit.com/r/quant/comments/18hj2ww/quant_research_of_the_week_6th_edition/) , 2023-12-18-0911
 ```
 # SSRN
 
@@ -1237,7 +1393,7 @@ archers, featuring a work by D. Tudball. (2023-12-08, shares: 0)
 
      
  
-all -  [ [D] Dress code at NEURIPS as a workshop presenter ](https://www.reddit.com/r/MachineLearning/comments/18halvl/d_dress_code_at_neurips_as_a_workshop_presenter/) , 2023-12-17-0911
+all -  [ [D] Dress code at NEURIPS as a workshop presenter ](https://www.reddit.com/r/MachineLearning/comments/18halvl/d_dress_code_at_neurips_as_a_workshop_presenter/) , 2023-12-18-0911
 ```
 Pretty much what the title says.
 ```
@@ -1245,7 +1401,7 @@ Pretty much what the title says.
 
      
  
-all -  [ AI Innovations and Developments: From Personal Intelligence to Advanced Embedding Models ](https://www.reddit.com/r/ai_news_by_ai/comments/18h97pm/ai_innovations_and_developments_from_personal/) , 2023-12-17-0911
+all -  [ AI Innovations and Developments: From Personal Intelligence to Advanced Embedding Models ](https://www.reddit.com/r/ai_news_by_ai/comments/18h97pm/ai_innovations_and_developments_from_personal/) , 2023-12-18-0911
 ```
 
 
@@ -1539,7 +1695,7 @@ witter.com/anthropicai/status/1734676474744148115)
 
      
  
-all -  [ NeurIPS 2023: These are the top papers and award winners at the largest AI conference ](https://www.reddit.com/r/TheDecoder/comments/18gpl74/neurips_2023_these_are_the_top_papers_and_award/) , 2023-12-17-0911
+all -  [ NeurIPS 2023: These are the top papers and award winners at the largest AI conference ](https://www.reddit.com/r/TheDecoder/comments/18gpl74/neurips_2023_these_are_the_top_papers_and_award/) , 2023-12-18-0911
 ```
 👉 The NeurIPS 2023 conference has announced the winners of this year's paper awards, including outstanding contributions
  in the areas of privacy in AI models and the emergent abilities of large language models.
@@ -1559,7 +1715,7 @@ https
 
      
  
-all -  [ Google AIs Significant Contributions and Other Highlights from NeurIPS 2023 Conference ](https://www.reddit.com/r/ai_news_by_ai/comments/18gea90/google_ais_significant_contributions_and_other/) , 2023-12-17-0911
+all -  [ Google AIs Significant Contributions and Other Highlights from NeurIPS 2023 Conference ](https://www.reddit.com/r/ai_news_by_ai/comments/18gea90/google_ais_significant_contributions_and_other/) , 2023-12-18-0911
 ```
 
 
@@ -1840,7 +1996,7 @@ er.com/mustafasuleyman/status/1734362164578664757)
 
      
  
-all -  [ [D] Authors in NeurIPS and ICML and similar venues - How advanced is your mathematics background ? ](https://www.reddit.com/r/MachineLearning/comments/18g85lx/d_authors_in_neurips_and_icml_and_similar_venues/) , 2023-12-17-0911
+all -  [ [D] Authors in NeurIPS and ICML and similar venues - How advanced is your mathematics background ? ](https://www.reddit.com/r/MachineLearning/comments/18g85lx/d_authors_in_neurips_and_icml_and_similar_venues/) , 2023-12-18-0911
 ```
 Hello,
 
@@ -1879,7 +2035,7 @@ Thank you very much !
 
      
  
-all -  [ NPD: Pilot Custom 823 with Falcon Nib ](https://i.redd.it/fvreligyfo5c1.jpeg) , 2023-12-17-0911
+all -  [ NPD: Pilot Custom 823 with Falcon Nib ](https://i.redd.it/fvreligyfo5c1.jpeg) , 2023-12-18-0911
 ```
 Am visiting New Orleans for NeurIPS and stumbled across Papier Plume in the French Quarter. 
 
@@ -1898,7 +2054,7 @@ of the 823 with this fantastic nib - if you don’t think about it, it’s a fre
 
      
  
-all -  [ Emergency printing at the library? ](https://www.reddit.com/r/Tulane/comments/18fla8m/emergency_printing_at_the_library/) , 2023-12-17-0911
+all -  [ Emergency printing at the library? ](https://www.reddit.com/r/Tulane/comments/18fla8m/emergency_printing_at_the_library/) , 2023-12-18-0911
 ```
 Hey everyone! 
 
@@ -1912,7 +2068,7 @@ ne can help us out. A Dutch beer will have your name on it.
 
      
  
-all -  [ Adding a workshop paper to Google Scholar ](https://www.reddit.com/r/academia/comments/18fat68/adding_a_workshop_paper_to_google_scholar/) , 2023-12-17-0911
+all -  [ Adding a workshop paper to Google Scholar ](https://www.reddit.com/r/academia/comments/18fat68/adding_a_workshop_paper_to_google_scholar/) , 2023-12-18-0911
 ```
 A paper of mine recently got accepted at a workshop part of NeurIPS. The paper is hosted on OpenReview, and I was wonder
 ing how I could add it to Google scholar. I tried adding a manual entry but can't get the system to show my paper's abst
@@ -1922,7 +2078,7 @@ ract when I click on the entry, and I can't get it to redirect to the OpenReview
 
      
  
-all -  [ [R] Add and Thin: Diffusion for Temporal Point Processes ](https://www.reddit.com/r/MachineLearning/comments/18f53oy/r_add_and_thin_diffusion_for_temporal_point/) , 2023-12-17-0911
+all -  [ [R] Add and Thin: Diffusion for Temporal Point Processes ](https://www.reddit.com/r/MachineLearning/comments/18f53oy/r_add_and_thin_diffusion_for_temporal_point/) , 2023-12-18-0911
 ```
 Paper: [https://arxiv.org/abs/2311.01139](https://arxiv.org/abs/2311.01139) Code: [https://github.com/davecasp/add-thin]
 (https://github.com/davecasp/add-thin)
@@ -1945,7 +2101,7 @@ sday 10:45am-12:45pm!
 
      
  
-all -  [ [N] Full-report of 2 great NeurIPS papers ](https://www.reddit.com/r/MachineLearning/comments/18eejuc/n_fullreport_of_2_great_neurips_papers/) , 2023-12-17-0911
+all -  [ [N] Full-report of 2 great NeurIPS papers ](https://www.reddit.com/r/MachineLearning/comments/18eejuc/n_fullreport_of_2_great_neurips_papers/) , 2023-12-18-0911
 ```
 2 great NeurIPS accepted papers here, on pages 2 and 32:
 
@@ -1961,7 +2117,7 @@ h=970&format=png&auto=webp&s=79bb0f481765d86e54d218bb6f601d906b5f42de
 
      
  
-all -  [ Recent Developments and Innovations in Artificial Intelligence ](https://www.reddit.com/r/ai_news_by_ai/comments/18e69qx/recent_developments_and_innovations_in_artificial/) , 2023-12-17-0911
+all -  [ Recent Developments and Innovations in Artificial Intelligence ](https://www.reddit.com/r/ai_news_by_ai/comments/18e69qx/recent_developments_and_innovations_in_artificial/) , 2023-12-18-0911
 ```
 
 
@@ -2150,7 +2306,7 @@ _labs https://twitter.com/pika_labs/status/1733341481367224756](https://twitter.
 
      
  
-all -  [ [D] A genuine and honest discussion on Collusion Ring(s) ](https://www.reddit.com/r/MachineLearning/comments/18dt7vt/d_a_genuine_and_honest_discussion_on_collusion/) , 2023-12-17-0911
+all -  [ [D] A genuine and honest discussion on Collusion Ring(s) ](https://www.reddit.com/r/MachineLearning/comments/18dt7vt/d_a_genuine_and_honest_discussion_on_collusion/) , 2023-12-18-0911
 ```
 Dear fellow NeurIPS rejects. As your deep learning, reinforcement learning, graph neural networks, and deep learning the
 ory people fly off to New Orleans and you realize that you are left behind.
@@ -2205,7 +2361,7 @@ the deep learning collusion ring already collapsing, and will it collapse furthe
 
      
  
-all -  [ CS Phd Admissions profile evaluation ](https://www.reddit.com/r/gradadmissions/comments/18di4z7/cs_phd_admissions_profile_evaluation/) , 2023-12-17-0911
+all -  [ CS Phd Admissions profile evaluation ](https://www.reddit.com/r/gradadmissions/comments/18di4z7/cs_phd_admissions_profile_evaluation/) , 2023-12-18-0911
 ```
 Hey all,
 
@@ -2229,7 +2385,7 @@ ve to like save up for apps and IELTS.
 
      
  
-all -  [ [Q] Need help understanding conditional maximum mean discrepancy. ](https://www.reddit.com/r/statistics/comments/18dehvo/q_need_help_understanding_conditional_maximum/) , 2023-12-17-0911
+all -  [ [Q] Need help understanding conditional maximum mean discrepancy. ](https://www.reddit.com/r/statistics/comments/18dehvo/q_need_help_understanding_conditional_maximum/) , 2023-12-18-0911
 ```
 Can someone explain CMMD introduced in [this paper](https://proceedings.neurips.cc/paper/2016/file/0245952ecff55018e2a45
 9517fdb40e3-Paper.pdf). I have 2 sets of samples and need to infer if they're from the same conditional distribution. I 
@@ -2239,7 +2395,7 @@ need to formulate a loss function based on this to train a model.
 
      
  
-all -  [ Kernel embedding of conditional distribution ](https://www.reddit.com/r/learnmachinelearning/comments/18cvcqu/kernel_embedding_of_conditional_distribution/) , 2023-12-17-0911
+all -  [ Kernel embedding of conditional distribution ](https://www.reddit.com/r/learnmachinelearning/comments/18cvcqu/kernel_embedding_of_conditional_distribution/) , 2023-12-18-0911
 ```
 Can someone explain how to use conditional maximum mean discrepancy as explained in [this paper](https://proceedings.neu
 rips.cc/paper/2016/file/0245952ecff55018e2a459517fdb40e3-Paper.pdf). My goal is to study two sets of samples and formula
@@ -2249,7 +2405,7 @@ te the difference in the underlying conditional distribution, so I can build a l
 
      
  
-all -  [ Quant Research of the Week (5th Edition) ](https://www.reddit.com/r/quant/comments/18csq03/quant_research_of_the_week_5th_edition/) , 2023-12-17-0911
+all -  [ Quant Research of the Week (5th Edition) ](https://www.reddit.com/r/quant/comments/18csq03/quant_research_of_the_week_5th_edition/) , 2023-12-18-0911
 ```
  
 
@@ -2681,7 +2837,7 @@ ional models in heterophilic benchmarks. (2023-05-17, shares: 186)
 
      
  
-all -  [ Anyone will be driving to Neurips in New Orleans in weekend ](https://www.reddit.com/r/Purdue/comments/18cpdfe/anyone_will_be_driving_to_neurips_in_new_orleans/) , 2023-12-17-0911
+all -  [ Anyone will be driving to Neurips in New Orleans in weekend ](https://www.reddit.com/r/Purdue/comments/18cpdfe/anyone_will_be_driving_to_neurips_in_new_orleans/) , 2023-12-18-0911
 ```
 Is anyone driving to attend the Neurips 2023 (December 10 to December 16 )in New Orleans from?
 
@@ -2693,7 +2849,7 @@ ps opening.
 
      
  
-all -  [ Googles Advanced AI Model Gemini and Other AI Developments Across the Industry ](https://www.reddit.com/r/ai_news_by_ai/comments/18conr7/googles_advanced_ai_model_gemini_and_other_ai/) , 2023-12-17-0911
+all -  [ Googles Advanced AI Model Gemini and Other AI Developments Across the Industry ](https://www.reddit.com/r/ai_news_by_ai/comments/18conr7/googles_advanced_ai_model_gemini_and_other_ai/) , 2023-12-18-0911
 ```
 
 
@@ -2963,7 +3119,7 @@ tus/1732539483965534302)
 
      
  
-all -  [ [D] Place to print poster at NeurIPS 2023 ](https://www.reddit.com/r/MachineLearning/comments/18cn7v1/d_place_to_print_poster_at_neurips_2023/) , 2023-12-17-0911
+all -  [ [D] Place to print poster at NeurIPS 2023 ](https://www.reddit.com/r/MachineLearning/comments/18cn7v1/d_place_to_print_poster_at_neurips_2023/) , 2023-12-18-0911
 ```
 I need to present a poster at NeurIPS 2023. However, I couldn't print it in my university due to some issues. Is there a
  place near the convention center that provides quick poster printing?  TIA
@@ -2972,7 +3128,7 @@ I need to present a poster at NeurIPS 2023. However, I couldn't print it in my u
 
      
  
-all -  [ Best Journals for Publishing Applied ML work? ](https://www.reddit.com/r/datascience/comments/18cirpw/best_journals_for_publishing_applied_ml_work/) , 2023-12-17-0911
+all -  [ Best Journals for Publishing Applied ML work? ](https://www.reddit.com/r/datascience/comments/18cirpw/best_journals_for_publishing_applied_ml_work/) , 2023-12-18-0911
 ```
 I’ve recently completed a soccer prediction model using a custom neural net architecture, which exceeds the best model p
 reviously published in the literature. I am still working on the paper, but it will by no means be the long, mathematica
@@ -2988,7 +3144,7 @@ I will also consider just publishing on Arxiv, but it would be nice to get some 
 
      
  
-all -  [ Recruitment at neurips 2023 ](https://www.reddit.com/r/MLQuestions/comments/18bnfg7/recruitment_at_neurips_2023/) , 2023-12-17-0911
+all -  [ Recruitment at neurips 2023 ](https://www.reddit.com/r/MLQuestions/comments/18bnfg7/recruitment_at_neurips_2023/) , 2023-12-18-0911
 ```
 Do interviews get conducted on the days of neurips and how to improve your chances of recruitment especially as a grad s
 tudent?
@@ -2997,7 +3153,7 @@ tudent?
 
      
  
-all -  [ Suggest Unis for profile below ](https://www.reddit.com/r/MSCS/comments/189tgc8/suggest_unis_for_profile_below/) , 2023-12-17-0911
+all -  [ Suggest Unis for profile below ](https://www.reddit.com/r/MSCS/comments/189tgc8/suggest_unis_for_profile_below/) , 2023-12-18-0911
 ```
 Looking for MS CS (with thesis) and interested in Deep learning and computer vision. 
 
@@ -3019,7 +3175,7 @@ ountry preference. Just want good research focused universities.
 
      
  
-all -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-17-0911
+all -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-18-0911
 ```
 Happy Friday,
 
@@ -3037,7 +3193,7 @@ Let us know if you have any questions.
 
      
  
-all -  [ List 'Preprints' or 'Conference Papers' section first on CV? ](https://www.reddit.com/r/AskAcademia/comments/1884tyy/list_preprints_or_conference_papers_section_first/) , 2023-12-17-0911
+all -  [ List 'Preprints' or 'Conference Papers' section first on CV? ](https://www.reddit.com/r/AskAcademia/comments/1884tyy/list_preprints_or_conference_papers_section_first/) , 2023-12-18-0911
 ```
 I am preparing my CV for grad school apps and I have one conference paper and one preprint (already submitted to journal
 ) to list on it. I am second author on both but had far more involvement in the preprint work so I would like to highlig
@@ -3052,7 +3208,7 @@ pers' sections. I was thinking I would put 'Preprints' first because this is the
 
      
  
-all -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-17-0911
+all -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-18-0911
 ```
 I'll be attending NeurIPS 2023 this year and won't know anyone. I'm an avid climber and there is a nice bouldering gym c
 lose to the conference center - would anyone else fancy a climb over the week? Reply below so we can see how many people
@@ -3062,7 +3218,7 @@ lose to the conference center - would anyone else fancy a climb over the week? R
 
      
  
-all -  [ AI Innovations and Developments: From Energy Efficiency to Generative Applications and Regulatory Ch ](https://www.reddit.com/r/ai_news_by_ai/comments/187cet4/ai_innovations_and_developments_from_energy/) , 2023-12-17-0911
+all -  [ AI Innovations and Developments: From Energy Efficiency to Generative Applications and Regulatory Ch ](https://www.reddit.com/r/ai_news_by_ai/comments/187cet4/ai_innovations_and_developments_from_energy/) , 2023-12-18-0911
 ```
 
 
@@ -3383,7 +3539,7 @@ man @sama https://twitter.com/sama/status/1730032994474475554](https://twitter.c
 
      
  
-all -  [ AI Developments: Anthropic at AWS re:Invent, GPT-4 in Radiology, OpenAIs Safety Focus, Pika 1.0 Laun ](https://www.reddit.com/r/ai_news_by_ai/comments/186hqkg/ai_developments_anthropic_at_aws_reinvent_gpt4_in/) , 2023-12-17-0911
+all -  [ AI Developments: Anthropic at AWS re:Invent, GPT-4 in Radiology, OpenAIs Safety Focus, Pika 1.0 Laun ](https://www.reddit.com/r/ai_news_by_ai/comments/186hqkg/ai_developments_anthropic_at_aws_reinvent_gpt4_in/) , 2023-12-18-0911
 ```
 
 
@@ -3700,7 +3856,7 @@ tus/1729649682970787875)
 
      
  
-all -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-12-17-0911
+MachineLearning -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-12-18-0911
 ```
 OpenAI's approach to Q-Learning has been drawing significant attention recently.
 
@@ -3726,191 +3882,7 @@ indings for the future of Q-learning in deep learning environments?
 
      
  
-all -  [ Singularity is Actively Deleting All My Posts But This One is Vitally Important And Should NOT BE DE ](https://www.reddit.com/r/ChatGPT/comments/181ps4s/singularity_is_actively_deleting_all_my_posts_but/) , 2023-12-17-0911
-```
-Update: Reuters reported that here what the big discovery was Q\*. You judge for yourself if this is how we define the S
-uperintelligence. [https://www.reddit.com/r/ChatGPT/comments/181pfiq/q\_passing\_math\_tests\_is\_how\_theyre\_describin
-g\_the/](https://www.reddit.com/r/ChatGPT/comments/181pfiq/q_passing_math_tests_is_how_theyre_describing_the/)  
-[https:
-//www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2023-11-22
-/](https://www.reuters.com/technology/sam-altmans-ouster-openai-was-precipitated-by-letter-board-about-ai-breakthrough-2
-023-11-22/)  
-Update: There is clear evidence a single individual 'Enervation' was responsible as of April 6th 2023 of c
-hanging the core definition of what AGI is supposed to be. There is an obvious conflict of interest here as the definiti
-on is matching to exactly what is on the OpenAI charter. The question is for all of you is this, Should 1 organization b
-e defining what Artificial General Intelligence (AGI) is and should be?
-
-It should be note, that this user (Enervation) 
-[has a MASSIVE change log from the April 6th date moving forward for issues ranging from AGI, AI Safety and a plethora o
-f other AI issues and concerns.](https://en.wikipedia.org/w/index.php?title=Special:Contributions/Enervation&target=Ener
-vation&offset=&limit=500) Is this user Ilya?
-
-The date of the AGI change was April 6th 2023 with 2,842 bytes of new info
-rmation.
-
-* [03:55, 6 April 2023](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&oldid=11484
-36187) [diff](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&diff=prev&oldid=1148436187) [hi
-st](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&action=history)  **+2,842**‎  [Artificial
- general intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence) ‎*No edit summary* [*Tag*](https:/
-/en.wikipedia.org/wiki/Special:Tags)*:* [*Visual edit*](https://en.wikipedia.org/wiki/Wikipedia:VisualEditor)
-
-**Prior t
-o the date of April 6th 2023 the Wikipedia AGI page read like this: >>>**
-
-**Artificial general intelligence** (**AGI**)
- is the hypothetical[\[1\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&ol
-did=1009243150#cite_note-1) ability of an [intelligent agent](https://en.wikipedia.org/wiki/Intelligent_agent) to unders
-tand or learn any intellectual task that a [human being](https://en.wikipedia.org/wiki/Human_being) can. It is a primary
- goal of some [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) research and a common top
-ic in [science fiction](https://en.wikipedia.org/wiki/Science_fiction) and [futures studies](https://en.wikipedia.org/wi
-ki/Futures_studies). AGI can also be referred to as **strong AI**,[\[2\]](https://en.wikipedia.org/w/index.php?title=Art
-ificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-FOOTNOTEKurzweil2005260-2)[\[3\]](https://en.wiki
-pedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-Kurzweil_2005-08-0
-5-3)[\[4\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#c
-ite_note-4) **full AI**,[\[5\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=pre
-v&oldid=1009243150#cite_note-5) or **general intelligent action**.[\[6\]](https://en.wikipedia.org/w/index.php?title=Art
-ificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-FOOTNOTENewellSimon1976-6) Some academic sources 
-reserve the term 'strong AI' for computer programs that can [experience](https://en.wikipedia.org/wiki/Artificial_consci
-ousness) [sentience](https://en.wikipedia.org/wiki/Sentience), [self-awareness](https://en.wikipedia.org/wiki/Self-aware
-ness) and [consciousness](https://en.wikipedia.org/wiki/Chinese_room#Strong_AI).[\[7\]](https://en.wikipedia.org/w/index
-.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-FOOTNOTESearle1980-7) Today's AI is
- speculated to be decades away from AGI.[\[8\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligen
-ce&direction=prev&oldid=1009243150#cite_note-spec1-8)[\[9\]](https://en.wikipedia.org/w/index.php?title=Artificial_gener
-al_intelligence&direction=prev&oldid=1009243150#cite_note-9)
-
-In contrast to strong AI, [weak AI](https://en.wikipedia.o
-rg/wiki/Weak_AI)[\[10\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid
-=1009243150#cite_note-10) (also called narrow AI[\[3\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_in
-telligence&direction=prev&oldid=1009243150#cite_note-Kurzweil_2005-08-05-3)) is not intended to perform human-like [cogn
-itive](https://en.wikipedia.org/wiki/Cognitive) abilities and [personality](https://en.wikipedia.org/wiki/Personality), 
-rather, weak AI is limited to the use of software to study or accomplish specific pre-learned [problem solving](https://
-en.wikipedia.org/wiki/Problem_solving) or [reasoning](https://en.wikipedia.org/wiki/Reason) tasks ([expert systems](http
-s://en.wikipedia.org/wiki/Expert_systems)).[\[11\]](https://en.wikipedia.org/w/index.php?title=Artificial_general_intell
-igence&direction=prev&oldid=1009243150#cite_note-urlPhilosophy_will_be_the_key_that_unlocks_artificial_intelligence_|_Ne
-uroscience_|_The_Guardian-11)
-
-As of 2017, over forty organizations are actively researching AGI.[\[12\]](https://en.wik
-ipedia.org/w/index.php?title=Artificial_general_intelligence&direction=prev&oldid=1009243150#cite_note-baum-12)
-
-**After
- Enervation's edits: >>>**
-
-An **artificial general intelligence** (**AGI**) is a hypothetical type of [intelligent agen
-t](https://en.wikipedia.org/wiki/Intelligent_agent).[\[1\]](https://en.wikipedia.org/wiki/Artificial_general_intelligenc
-e#cite_note-NYT-20230630-1) If realized, an AGI could learn to accomplish any intellectual task that [human beings](http
-s://en.wikipedia.org/wiki/Human_beings) or animals can perform.[\[2\]](https://en.wikipedia.org/wiki/Artificial_general_
-intelligence#cite_note-2)[\[3\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:10-3) Alternat
-ively, AGI has been defined as an autonomous system that surpasses human capabilities in the majority of economically va
-luable tasks.[\[4\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:1-4) Creating AGI is a pri
-mary goal of some [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) research and of compa
-nies such as [OpenAI](https://en.wikipedia.org/wiki/OpenAI),[\[4\]](https://en.wikipedia.org/wiki/Artificial_general_int
-elligence#cite_note-:1-4) [DeepMind](https://en.wikipedia.org/wiki/DeepMind), and [Anthropic](https://en.wikipedia.org/w
-iki/Anthropic). AGI is a common topic in [science fiction](https://en.wikipedia.org/wiki/Science_fiction) and [futures s
-tudies](https://en.wikipedia.org/wiki/Futures_studies).
-
-The timeline for AGI development remains a subject of ongoing d
-ebate among researchers and experts. Some argue that it may be possible in years or decades; others maintain it might ta
-ke a century or longer; and a minority believe it may never be achieved.[\[5\]](https://en.wikipedia.org/wiki/Artificial
-_general_intelligence#cite_note-:2-5) Additionally, there is debate regarding whether modern [large language models](htt
-ps://en.wikipedia.org/wiki/Large_language_model), such as [GPT-4](https://en.wikipedia.org/wiki/GPT-4), are early yet in
-complete forms of AGI[\[6\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:11-6) or if new ap
-proaches are required.[\[7\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:3-7)
-
-Contention 
-exists over the potential for AGI to pose a threat to humanity;[\[1\]](https://en.wikipedia.org/wiki/Artificial_general_
-intelligence#cite_note-NYT-20230630-1) for example, OpenAI treats it as an [existential risk](https://en.wikipedia.org/w
-iki/Existential_risk_from_artificial_general_intelligence), while others find the development of AGI to be too remote to
- present a risk.[\[8\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-8)[\[5\]](https://en.wik
-ipedia.org/wiki/Artificial_general_intelligence#cite_note-:2-5)[\[7\]](https://en.wikipedia.org/wiki/Artificial_general_
-intelligence#cite_note-:3-7)
-
-\------------------------------ end update
-
-My issue with this is why is one organization 
-defining what AI is? And so drastically at that. Why isn't there a community of AI scientist and engineer's that are agr
-eeing on such a pivotal definition for an agreed upon general consensus?
-
-**Original Post:**
-
-Upon researching why peopl
-e are so confused by what is meant by the today's (apparently) lightning rod term 'Artificial General Intelligence' or '
-AGI' one would have to look to none other than how OpenAI moved the goal post of what AGI is. Wikipedia: [https://en.wik
-ipedia.org/wiki/Artificial\_general\_intelligence](https://en.wikipedia.org/wiki/Artificial_general_intelligence)
-
-\>  A
-n **artificial general intelligence** (**AGI**) is a hypothetical type of [intelligent agent](https://en.wikipedia.org/w
-iki/Intelligent_agent).[\[1\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-NYT-20230630-1) I
-f realized, an AGI could learn to accomplish any intellectual task that [human beings](https://en.wikipedia.org/wiki/Hum
-an_beings) or animals can perform.[\[2\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-2)[\[3
-\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:10-3) Alternatively, AGI has been defined a
-s an autonomous system that surpasses human capabilities in the majority of economically valuable tasks.[\[4\]](https://
-en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:1-4) Creating AGI is a primary goal of some [artificial
- intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence) research and of companies such as [OpenAI](https:/
-/en.wikipedia.org/wiki/OpenAI),[\[4\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:1-4) [De
-epMind](https://en.wikipedia.org/wiki/DeepMind), and [Anthropic](https://en.wikipedia.org/wiki/Anthropic). AGI is a comm
-on topic in [science fiction](https://en.wikipedia.org/wiki/Science_fiction) and [futures studies](https://en.wikipedia.
-org/wiki/Futures_studies).
-
-Odd, who is notation 4? Hmm, who could that be that wrote an update to what the definition o
-f what AGI means. Oh it's OpenAI themselves.
-
-4. ['OpenAI Charter'](https://openai.com/charter). *openai.com*. Retrieved
- 6 April 2023.
-
-I'm not going to go into a diatribe about how the definition is purely related to Effective Altruism and
- not rooted in technical reality. But I will show you that just a few paragraphs down in the same article they describe 
-AGI in a much different way.
-
-\>  Terminology
-
-AGI is also known as strong AI,[\[10\]](https://en.wikipedia.org/wiki/Art
-ificial_general_intelligence#cite_note-FOOTNOTEKurzweil2005260-10)[\[11\]](https://en.wikipedia.org/wiki/Artificial_gene
-ral_intelligence#cite_note-Kurzweil_2005-08-05-11) full AI,[\[12\]](https://en.wikipedia.org/wiki/Artificial_general_int
-elligence#cite_note-12) human-level AI[\[5\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-:2
--5) or general intelligent action.[\[13\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-FOOTN
-OTENewellSimon1976-13) However, some academic sources reserve the term 'strong AI' for computer programs that experience
- [sentience](https://en.wikipedia.org/wiki/Sentience) or [consciousness](https://en.wikipedia.org/wiki/Consciousness).[\
-[a\]](https://en.wikipedia.org/wiki/Artificial_general_intelligence#cite_note-Searle's_Strong_AI-14) In contrast, weak A
-I (or narrow AI) is able to solve one specific problem, but lacks general cognitive abilities.[\[14\]](https://en.wikipe
-dia.org/wiki/Artificial_general_intelligence#cite_note-15)[\[11\]](https://en.wikipedia.org/wiki/Artificial_general_inte
-lligence#cite_note-Kurzweil_2005-08-05-11) Some academic sources use 'weak AI' to refer more broadly to any programs tha
-t neither experience consciousness nor have a mind in the same sense as humans.[\[a\]](https://en.wikipedia.org/wiki/Art
-ificial_general_intelligence#cite_note-Searle's_Strong_AI-14)
-
-Related concepts include artificial [superintelligence](h
-ttps://en.wikipedia.org/wiki/Superintelligence) and transformative AI. An artificial superintelligence (ASI) is a hypoth
-etical type of AGI that is much more generally intelligent than humans.[\[15\]](https://en.wikipedia.org/wiki/Artificial
-_general_intelligence#cite_note-16) And the notion of transformative AI relates to AI having a large impact on society, 
-for example similar to the agricultural revolution.[\[16\]](https://en.wikipedia.org/wiki/Artificial_general_intelligenc
-e#cite_note-17)
-
-It seems as if they wanted to water down and dilute the understanding and meaning of what AGI is for pe
-rhaps I don't know contractual obligations?
-
-[https://openai.com/our-structure](https://openai.com/our-structure)
-
-* Fou
-rth, profit allocated to investors and employees, including Microsoft, is capped. All residual value created above and b
-eyond the cap will be returned to the Nonprofit for the benefit of humanity.
-* Fifth, the board determines when we've at
-tained AGI. Again, by AGI we mean a highly autonomous system that outperforms humans at most economically valuable work.
- Such a system is excluded from IP licenses and other commercial terms with Microsoft, which only apply to pre-AGI techn
-ology.
-
-Interestingly this was reported in many places as much as 6 days ago.
-
-[https://cryptorank.io/news/feed/25bb2-op
-enais-board-to-determine-agi](https://cryptorank.io/news/feed/25bb2-openais-board-to-determine-agi)
-
-Point is. How do yo
-u get to change the goal post and determine all by yourselves what AGI is? Nah this isn't going to fly. Nice try. I feel
- this verbiage is going to get changed very soon.
-```
----
-
-     
- 
-MachineLearning -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-12-17-0911
+MachineLearning -  [ [D] [NeurIPS] Do I have to buy a ticket to attend? I am a first author of a NeurIPS workshop apper ](https://www.reddit.com/r/MachineLearning/comments/180ant3/d_neurips_do_i_have_to_buy_a_ticket_to_attend_i/) , 2023-12-18-0911
 ```
 I am an undergrad student and I am a first author of a NeurIPS workshop paper accepted this year. Do I have to buy the t
 icket for both the main conference and the workshop session to attend? I would like to attend both. Or can I just buy th
@@ -3921,7 +3893,7 @@ ork
 
      
  
-MachineLearning -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-12-17-0911
+MachineLearning -  [ [D] Complimentary NeurIPS passes for reviewers ](https://www.reddit.com/r/MachineLearning/comments/1805b5m/d_complimentary_neurips_passes_for_reviewers/) , 2023-12-18-0911
 ```
 I received an email today that I can claim a free NeurIPS registration, apparently because of my service as a reviewer. 
 Did all reviewers get free passes or is this a lottery system and/or based on review quality? I didn’t plan on attending
@@ -3931,7 +3903,7 @@ Did all reviewers get free passes or is this a lottery system and/or based on re
 
      
  
-MachineLearning -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-12-17-0911
+MachineLearning -  [ [D] How to find academic ML competitions ](https://www.reddit.com/r/MachineLearning/comments/17y2r9u/d_how_to_find_academic_ml_competitions/) , 2023-12-18-0911
 ```
 There are websites like this keeping track of ML conference deadlines like this https://aideadlin.es/?sub=ML,CV,CG,NLP,R
 O,SP,DM,AP,KR
@@ -3943,7 +3915,7 @@ nferences like Neurips, CVPR and so on.
 
      
  
-MachineLearning -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-12-17-0911
+MachineLearning -  [ [R] Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning ](https://www.reddit.com/r/MachineLearning/comments/17x2ovh/r_neural_mmo_20_a_massively_multitask_addition_to/) , 2023-12-18-0911
 ```
 **Paper**: [https://arxiv.org/abs/2311.03736](https://arxiv.org/abs/2311.03736)
 
