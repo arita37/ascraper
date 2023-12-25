@@ -1,5 +1,34 @@
  
-all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2023-12-24-0911
+all -  [ [D] Neurips 2023 Recap and takeaways ](https://www.reddit.com/r/MachineLearning/comments/18pv55s/d_neurips_2023_recap_and_takeaways/) , 2023-12-25-0910
+```
+Can someone share recap and key takeaways from Neurips 2023.
+```
+---
+
+     
+ 
+all -  [ Functionality of openreview api to other conferences[D] ](https://www.reddit.com/r/MachineLearning/comments/18poee4/functionality_of_openreview_api_to_other/) , 2023-12-25-0910
+```
+I'm trying to get titles of accepted papers in some conferences like ICML, NeurIPS and CVPR. For that, I'm using openrev
+iew api (python package). But the problem with that is it doesn't work for NeurIPS 2023, ICML 2023. Also, openreview web
+site doesn't has 2023 CVPR reviews (Though, 2023 being first time CVPR is using openreview). Is there anything I'm not f
+amiliar in case of CVPR 2023? However, similar code works for NeurIPS's previous years with change being only the years 
+but not for ICML.
+
+    client = openreview.Client(baseurl='https://api.openreview.net') venue_group = client.get_group('
+NeurIPS.cc/2023/Conference') submissions = client.get_all_notes(content={'venueid':'NeurIPS.cc/2023/Conference'} ) submi
+ssions 
+
+Above code gives an empty list for both NeurIPS and ICML. Above code gives Group Not Found when conference name
+ is replaced with CVPR.
+
+Any help is highly appreciated.
+```
+---
+
+     
+ 
+all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2023-12-25-0910
 ```
 Current senior applying to Biostatistics, CSE, and Applied Math MS programs. I go to a top 20 US school known for being 
 rigorous in math and stats, and I’m majoring in applied math with minors in stats and CS. In my junior year, I had a 3.0
@@ -59,7 +88,7 @@ e!
 
      
  
-all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2023-12-24-0911
+all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2023-12-25-0910
 ```
 &#x200B;
 
@@ -86,7 +115,7 @@ Read More: [contentbuffer.com/issues/detail/2
 
      
  
-all -  [ YouTube replaced the actual video I was watching with an ad. Had to reload and watch 2 more ads. ](https://i.redd.it/jr0fe990ls7c1.png) , 2023-12-24-0911
+all -  [ YouTube replaced the actual video I was watching with an ad. Had to reload and watch 2 more ads. ](https://i.redd.it/jr0fe990ls7c1.png) , 2023-12-25-0910
 ```
 
 ```
@@ -94,7 +123,7 @@ all -  [ YouTube replaced the actual video I was watching with an ad. Had to rel
 
      
  
-all -  [ Pre-Doctoral AI Researcher ](https://i.redd.it/ssk0se6o1j7c1.jpeg) , 2023-12-24-0911
+all -  [ Pre-Doctoral AI Researcher ](https://i.redd.it/ssk0se6o1j7c1.jpeg) , 2023-12-25-0910
 ```
 Removed all identifiable info, kept information that can be found from my reddit profile. 
 
@@ -106,7 +135,7 @@ ying to find a research job in efficient deep learning until I begin a PhD progr
 
      
  
-all -  [ Proposing a Mathematical Reasoning Model Inspired by GARs ](https://www.reddit.com/r/Bard/comments/18myeqb/proposing_a_mathematical_reasoning_model_inspired/) , 2023-12-24-0911
+all -  [ Proposing a Mathematical Reasoning Model Inspired by GARs ](https://www.reddit.com/r/Bard/comments/18myeqb/proposing_a_mathematical_reasoning_model_inspired/) , 2023-12-25-0910
 ```
 While GARs are primarily designed for language tasks, their core principles of adversarial training and reservoir dynami
 cs could potentially be adapted for mathematical reasoning and symbolic manipulation. Here's a proposed framework:
@@ -221,7 +250,7 @@ A Survey of Reasoning with Language Model Prompting: A research paper summarizin
 
      
  
-all -  [ Quant Research of the Week (7th Edition) ](https://www.reddit.com/r/quant/comments/18mxfpn/quant_research_of_the_week_7th_edition/) , 2023-12-24-0911
+all -  [ Quant Research of the Week (7th Edition) ](https://www.reddit.com/r/quant/comments/18mxfpn/quant_research_of_the_week_7th_edition/) , 2023-12-25-0910
 ```
 # SSRN
 
@@ -595,7 +624,7 @@ Some of you have asked how/why do I do the list, it's for a newsletter I run for
 
      
  
-all -  [ [D] Does anyone know where can I see the reviews for ICML? ](https://www.reddit.com/r/MachineLearning/comments/18m736d/d_does_anyone_know_where_can_i_see_the_reviews/) , 2023-12-24-0911
+all -  [ [D] Does anyone know where can I see the reviews for ICML? ](https://www.reddit.com/r/MachineLearning/comments/18m736d/d_does_anyone_know_where_can_i_see_the_reviews/) , 2023-12-25-0910
 ```
  
 
@@ -613,7 +642,7 @@ Am I missing something here?
 
      
  
-all -  [ How did you get your paper accepted in COLT? [D] ](https://www.reddit.com/r/MachineLearning/comments/18m4x7j/how_did_you_get_your_paper_accepted_in_colt_d/) , 2023-12-24-0911
+all -  [ How did you get your paper accepted in COLT? [D] ](https://www.reddit.com/r/MachineLearning/comments/18m4x7j/how_did_you_get_your_paper_accepted_in_colt_d/) , 2023-12-25-0910
 ```
 It seems like COLT is the elite conference for learning theory, I want to submit a paper in COLT, and I want need some a
 dvice regarding your experience with that. Namely, I heard all papers are novel and has some breakthrough ideas which do
@@ -625,7 +654,7 @@ Thanks,
 
      
  
-all -  [ [D] NeurIPS takeaways ](https://www.reddit.com/r/MachineLearning/comments/18lbe60/d_neurips_takeaways/) , 2023-12-24-0911
+all -  [ [D] NeurIPS takeaways ](https://www.reddit.com/r/MachineLearning/comments/18lbe60/d_neurips_takeaways/) , 2023-12-25-0910
 ```
 Hola,
 
@@ -653,7 +682,7 @@ g LLMs and AI generally: papers like the Generative AI paradox (by AI2). It's st
 
      
  
-all -  [ [D] e/acc has won over decel: At NeurIPS 2023, less than 10 works (out of 3,000+ papers) discuss AI  ](https://www.reddit.com/r/MachineLearning/comments/18kp3vp/d_eacc_has_won_over_decel_at_neurips_2023_less/) , 2023-12-24-0911
+all -  [ [D] e/acc has won over decel: At NeurIPS 2023, less than 10 works (out of 3,000+ papers) discuss AI  ](https://www.reddit.com/r/MachineLearning/comments/18kp3vp/d_eacc_has_won_over_decel_at_neurips_2023_less/) , 2023-12-25-0910
 ```
 For all the hype, drama and *virtue signalling* in AI Safety, it appears that [almost nobody in Academia really cares ab
 out AI Safety](https://tenyks.docsend.com/view/q4bwhb63fvtfv8ga).
@@ -664,7 +693,7 @@ Why might this be the case?
 
      
  
-all -  [ NeurIPS 2023 Highlights: Coheres Aya Project, Open Source AI, and Metas Organizational Changes ](https://www.reddit.com/r/ai_news_by_ai/comments/18k9ua2/neurips_2023_highlights_coheres_aya_project_open/) , 2023-12-24-0911
+all -  [ NeurIPS 2023 Highlights: Coheres Aya Project, Open Source AI, and Metas Organizational Changes ](https://www.reddit.com/r/ai_news_by_ai/comments/18k9ua2/neurips_2023_highlights_coheres_aya_project_open/) , 2023-12-25-0910
 ```
 
 
@@ -809,7 +838,7 @@ us/1736221050655166891)
 
      
  
-all -  [ AI Developments: Coheres Hackathon Winners, NVIDIAs FoundationPose, McKinseys AI Survey, and Googles ](https://www.reddit.com/r/ai_news_by_ai/comments/18jk3x2/ai_developments_coheres_hackathon_winners_nvidias/) , 2023-12-24-0911
+all -  [ AI Developments: Coheres Hackathon Winners, NVIDIAs FoundationPose, McKinseys AI Survey, and Googles ](https://www.reddit.com/r/ai_news_by_ai/comments/18jk3x2/ai_developments_coheres_hackathon_winners_nvidias/) , 2023-12-25-0910
 ```
 
 
@@ -1021,7 +1050,7 @@ eai https://twitter.com/googleai/status/1735755033411756241](https://twitter.com
 
      
  
-all -  [ [D] Is a virtual pass worth it for NeurIPS at this point? ](https://www.reddit.com/r/MachineLearning/comments/18j7jnz/d_is_a_virtual_pass_worth_it_for_neurips_at_this/) , 2023-12-24-0911
+all -  [ [D] Is a virtual pass worth it for NeurIPS at this point? ](https://www.reddit.com/r/MachineLearning/comments/18j7jnz/d_is_a_virtual_pass_worth_it_for_neurips_at_this/) , 2023-12-25-0910
 ```
 I was busy first part of the week and couldn't keep up.
                                                                 
@@ -1089,7 +1118,7 @@ I was busy first part of the week and couldn't keep up.
 
      
  
-all -  [ Accelerating AI: Your Weekly Roundup (Dec 8th - Dec 14th) ](https://www.reddit.com/r/AcceleratingAI/comments/18ii48z/accelerating_ai_your_weekly_roundup_dec_8th_dec/) , 2023-12-24-0911
+all -  [ Accelerating AI: Your Weekly Roundup (Dec 8th - Dec 14th) ](https://www.reddit.com/r/AcceleratingAI/comments/18ii48z/accelerating_ai_your_weekly_roundup_dec_8th_dec/) , 2023-12-25-0910
 ```
 1. [**Intel's 'AI Everywhere' Event**](https://www.intc.com/news-events/press-releases/detail/1662/media-alert-join-inte
 ls-ai-everywhere-launch)**:** On December 14th, Intel hosted a major event called 'AI Everywhere'. The highlight of the 
@@ -1126,7 +1155,7 @@ eliability of certain AI models, the advancements in AI have been considerable a
 
      
  
-all -  [ AI Developments: Discussions, Partnerships, Releases, and Innovations ](https://www.reddit.com/r/ai_news_by_ai/comments/18i1631/ai_developments_discussions_partnerships_releases/) , 2023-12-24-0911
+all -  [ AI Developments: Discussions, Partnerships, Releases, and Innovations ](https://www.reddit.com/r/ai_news_by_ai/comments/18i1631/ai_developments_discussions_partnerships_releases/) , 2023-12-25-0910
 ```
 
 
@@ -1524,7 +1553,7 @@ s://twitter.com/gdb/status/1735002343203295394)
 
      
  
-all -  [ Quant Research of the Week (6th Edition) ](https://www.reddit.com/r/quant/comments/18hj2ww/quant_research_of_the_week_6th_edition/) , 2023-12-24-0911
+all -  [ Quant Research of the Week (6th Edition) ](https://www.reddit.com/r/quant/comments/18hj2ww/quant_research_of_the_week_6th_edition/) , 2023-12-25-0910
 ```
 # SSRN
 
@@ -2039,7 +2068,7 @@ archers, featuring a work by D. Tudball. (2023-12-08, shares: 0)
 
      
  
-all -  [ [D] Dress code at NEURIPS as a workshop presenter ](https://www.reddit.com/r/MachineLearning/comments/18halvl/d_dress_code_at_neurips_as_a_workshop_presenter/) , 2023-12-24-0911
+all -  [ [D] Dress code at NEURIPS as a workshop presenter ](https://www.reddit.com/r/MachineLearning/comments/18halvl/d_dress_code_at_neurips_as_a_workshop_presenter/) , 2023-12-25-0910
 ```
 Pretty much what the title says.
 ```
@@ -2047,7 +2076,7 @@ Pretty much what the title says.
 
      
  
-all -  [ AI Innovations and Developments: From Personal Intelligence to Advanced Embedding Models ](https://www.reddit.com/r/ai_news_by_ai/comments/18h97pm/ai_innovations_and_developments_from_personal/) , 2023-12-24-0911
+all -  [ AI Innovations and Developments: From Personal Intelligence to Advanced Embedding Models ](https://www.reddit.com/r/ai_news_by_ai/comments/18h97pm/ai_innovations_and_developments_from_personal/) , 2023-12-25-0910
 ```
 
 
@@ -2341,7 +2370,7 @@ witter.com/anthropicai/status/1734676474744148115)
 
      
  
-all -  [ NeurIPS 2023: These are the top papers and award winners at the largest AI conference ](https://www.reddit.com/r/TheDecoder/comments/18gpl74/neurips_2023_these_are_the_top_papers_and_award/) , 2023-12-24-0911
+all -  [ NeurIPS 2023: These are the top papers and award winners at the largest AI conference ](https://www.reddit.com/r/TheDecoder/comments/18gpl74/neurips_2023_these_are_the_top_papers_and_award/) , 2023-12-25-0910
 ```
 👉 The NeurIPS 2023 conference has announced the winners of this year's paper awards, including outstanding contributions
  in the areas of privacy in AI models and the emergent abilities of large language models.
@@ -2361,7 +2390,7 @@ https
 
      
  
-all -  [ Google AIs Significant Contributions and Other Highlights from NeurIPS 2023 Conference ](https://www.reddit.com/r/ai_news_by_ai/comments/18gea90/google_ais_significant_contributions_and_other/) , 2023-12-24-0911
+all -  [ Google AIs Significant Contributions and Other Highlights from NeurIPS 2023 Conference ](https://www.reddit.com/r/ai_news_by_ai/comments/18gea90/google_ais_significant_contributions_and_other/) , 2023-12-25-0910
 ```
 
 
@@ -2642,7 +2671,7 @@ er.com/mustafasuleyman/status/1734362164578664757)
 
      
  
-all -  [ [D] Authors in NeurIPS and ICML and similar venues - How advanced is your mathematics background ? ](https://www.reddit.com/r/MachineLearning/comments/18g85lx/d_authors_in_neurips_and_icml_and_similar_venues/) , 2023-12-24-0911
+all -  [ [D] Authors in NeurIPS and ICML and similar venues - How advanced is your mathematics background ? ](https://www.reddit.com/r/MachineLearning/comments/18g85lx/d_authors_in_neurips_and_icml_and_similar_venues/) , 2023-12-25-0910
 ```
 Hello,
 
@@ -2681,7 +2710,7 @@ Thank you very much !
 
      
  
-all -  [ NPD: Pilot Custom 823 with Falcon Nib ](https://i.redd.it/fvreligyfo5c1.jpeg) , 2023-12-24-0911
+all -  [ NPD: Pilot Custom 823 with Falcon Nib ](https://i.redd.it/fvreligyfo5c1.jpeg) , 2023-12-25-0910
 ```
 Am visiting New Orleans for NeurIPS and stumbled across Papier Plume in the French Quarter. 
 
@@ -2700,7 +2729,7 @@ of the 823 with this fantastic nib - if you don’t think about it, it’s a fre
 
      
  
-all -  [ Emergency printing at the library? ](https://www.reddit.com/r/Tulane/comments/18fla8m/emergency_printing_at_the_library/) , 2023-12-24-0911
+all -  [ Emergency printing at the library? ](https://www.reddit.com/r/Tulane/comments/18fla8m/emergency_printing_at_the_library/) , 2023-12-25-0910
 ```
 Hey everyone! 
 
@@ -2714,7 +2743,7 @@ ne can help us out. A Dutch beer will have your name on it.
 
      
  
-all -  [ Adding a workshop paper to Google Scholar ](https://www.reddit.com/r/academia/comments/18fat68/adding_a_workshop_paper_to_google_scholar/) , 2023-12-24-0911
+all -  [ Adding a workshop paper to Google Scholar ](https://www.reddit.com/r/academia/comments/18fat68/adding_a_workshop_paper_to_google_scholar/) , 2023-12-25-0910
 ```
 A paper of mine recently got accepted at a workshop part of NeurIPS. The paper is hosted on OpenReview, and I was wonder
 ing how I could add it to Google scholar. I tried adding a manual entry but can't get the system to show my paper's abst
@@ -2724,7 +2753,7 @@ ract when I click on the entry, and I can't get it to redirect to the OpenReview
 
      
  
-all -  [ [R] Add and Thin: Diffusion for Temporal Point Processes ](https://www.reddit.com/r/MachineLearning/comments/18f53oy/r_add_and_thin_diffusion_for_temporal_point/) , 2023-12-24-0911
+all -  [ [R] Add and Thin: Diffusion for Temporal Point Processes ](https://www.reddit.com/r/MachineLearning/comments/18f53oy/r_add_and_thin_diffusion_for_temporal_point/) , 2023-12-25-0910
 ```
 Paper: [https://arxiv.org/abs/2311.01139](https://arxiv.org/abs/2311.01139) Code: [https://github.com/davecasp/add-thin]
 (https://github.com/davecasp/add-thin)
@@ -2747,7 +2776,7 @@ sday 10:45am-12:45pm!
 
      
  
-all -  [ [N] Full-report of 2 great NeurIPS papers ](https://www.reddit.com/r/MachineLearning/comments/18eejuc/n_fullreport_of_2_great_neurips_papers/) , 2023-12-24-0911
+all -  [ [N] Full-report of 2 great NeurIPS papers ](https://www.reddit.com/r/MachineLearning/comments/18eejuc/n_fullreport_of_2_great_neurips_papers/) , 2023-12-25-0910
 ```
 2 great NeurIPS accepted papers here, on pages 2 and 32:
 
@@ -2763,7 +2792,7 @@ h=970&format=png&auto=webp&s=79bb0f481765d86e54d218bb6f601d906b5f42de
 
      
  
-all -  [ Recent Developments and Innovations in Artificial Intelligence ](https://www.reddit.com/r/ai_news_by_ai/comments/18e69qx/recent_developments_and_innovations_in_artificial/) , 2023-12-24-0911
+all -  [ Recent Developments and Innovations in Artificial Intelligence ](https://www.reddit.com/r/ai_news_by_ai/comments/18e69qx/recent_developments_and_innovations_in_artificial/) , 2023-12-25-0910
 ```
 
 
@@ -2952,7 +2981,7 @@ _labs https://twitter.com/pika_labs/status/1733341481367224756](https://twitter.
 
      
  
-all -  [ [D] A genuine and honest discussion on Collusion Ring(s) ](https://www.reddit.com/r/MachineLearning/comments/18dt7vt/d_a_genuine_and_honest_discussion_on_collusion/) , 2023-12-24-0911
+all -  [ [D] A genuine and honest discussion on Collusion Ring(s) ](https://www.reddit.com/r/MachineLearning/comments/18dt7vt/d_a_genuine_and_honest_discussion_on_collusion/) , 2023-12-25-0910
 ```
 Dear fellow NeurIPS rejects. As your deep learning, reinforcement learning, graph neural networks, and deep learning the
 ory people fly off to New Orleans and you realize that you are left behind.
@@ -3007,7 +3036,7 @@ the deep learning collusion ring already collapsing, and will it collapse furthe
 
      
  
-all -  [ CS Phd Admissions profile evaluation ](https://www.reddit.com/r/gradadmissions/comments/18di4z7/cs_phd_admissions_profile_evaluation/) , 2023-12-24-0911
+all -  [ CS Phd Admissions profile evaluation ](https://www.reddit.com/r/gradadmissions/comments/18di4z7/cs_phd_admissions_profile_evaluation/) , 2023-12-25-0910
 ```
 Hey all,
 
@@ -3031,7 +3060,7 @@ ve to like save up for apps and IELTS.
 
      
  
-all -  [ [Q] Need help understanding conditional maximum mean discrepancy. ](https://www.reddit.com/r/statistics/comments/18dehvo/q_need_help_understanding_conditional_maximum/) , 2023-12-24-0911
+all -  [ [Q] Need help understanding conditional maximum mean discrepancy. ](https://www.reddit.com/r/statistics/comments/18dehvo/q_need_help_understanding_conditional_maximum/) , 2023-12-25-0910
 ```
 Can someone explain CMMD introduced in [this paper](https://proceedings.neurips.cc/paper/2016/file/0245952ecff55018e2a45
 9517fdb40e3-Paper.pdf). I have 2 sets of samples and need to infer if they're from the same conditional distribution. I 
@@ -3041,7 +3070,7 @@ need to formulate a loss function based on this to train a model.
 
      
  
-all -  [ Kernel embedding of conditional distribution ](https://www.reddit.com/r/learnmachinelearning/comments/18cvcqu/kernel_embedding_of_conditional_distribution/) , 2023-12-24-0911
+all -  [ Kernel embedding of conditional distribution ](https://www.reddit.com/r/learnmachinelearning/comments/18cvcqu/kernel_embedding_of_conditional_distribution/) , 2023-12-25-0910
 ```
 Can someone explain how to use conditional maximum mean discrepancy as explained in [this paper](https://proceedings.neu
 rips.cc/paper/2016/file/0245952ecff55018e2a459517fdb40e3-Paper.pdf). My goal is to study two sets of samples and formula
@@ -3051,7 +3080,7 @@ te the difference in the underlying conditional distribution, so I can build a l
 
      
  
-all -  [ Quant Research of the Week (5th Edition) ](https://www.reddit.com/r/quant/comments/18csq03/quant_research_of_the_week_5th_edition/) , 2023-12-24-0911
+all -  [ Quant Research of the Week (5th Edition) ](https://www.reddit.com/r/quant/comments/18csq03/quant_research_of_the_week_5th_edition/) , 2023-12-25-0910
 ```
  
 
@@ -3483,7 +3512,7 @@ ional models in heterophilic benchmarks. (2023-05-17, shares: 186)
 
      
  
-all -  [ Anyone will be driving to Neurips in New Orleans in weekend ](https://www.reddit.com/r/Purdue/comments/18cpdfe/anyone_will_be_driving_to_neurips_in_new_orleans/) , 2023-12-24-0911
+all -  [ Anyone will be driving to Neurips in New Orleans in weekend ](https://www.reddit.com/r/Purdue/comments/18cpdfe/anyone_will_be_driving_to_neurips_in_new_orleans/) , 2023-12-25-0910
 ```
 Is anyone driving to attend the Neurips 2023 (December 10 to December 16 )in New Orleans from?
 
@@ -3495,277 +3524,7 @@ ps opening.
 
      
  
-all -  [ Googles Advanced AI Model Gemini and Other AI Developments Across the Industry ](https://www.reddit.com/r/ai_news_by_ai/comments/18conr7/googles_advanced_ai_model_gemini_and_other_ai/) , 2023-12-24-0911
-```
-
-
-
-
-
-#startups #tool #leaders #feature #release #event #science #update #api #hardware #vc #bigtech #major_players #sche
-duled
-
-Google has introduced Gemini, its most advanced AI model yet, optimized in three sizes - Ultra, Pro, and Nano. Ge
-mini is a multimodal model that can understand and reason across different types of information, including text, code, a
-udio, image, and video. It outperforms human experts on 30 out of 32 academic benchmarks, achieving a score of 90.0% on 
-MMLU (massive multitask language understanding). Gemini is now rolling out across various Google products and platforms,
- with Gemini Ultra and Bard Advanced set to launch early next year. Developers and enterprise customers can access Gemin
-i Pro via the Gemini API in Google AI Studio or Google Cloud Vertex AI. Android developers will be able to build with Ge
-mini Nano via AICore on Pixel 8 Pro devices [7][8][12][21][23][24][25].
-
-
-
-
-
-
-
-Google has also announced the integration
- of Gemini into Bard, its AI language model. Bard will initially use a specifically tuned version of Gemini Pro for adva
-nced reasoning, planning, and understanding. In early 2024, Bard Advanced will be introduced, offering access to the mos
-t advanced models and capabilities, starting with Gemini Ultra [24][29].
-
-
-
-
-
-
-
-Meta has released a smaller and faster v
-ersion of their Segment Anything Model (SAM) called EfficientSAM. It has 20 times fewer parameters and runs 20 times fas
-ter than SAM, while still achieving a similar performance with a difference of only 2 points in average precision [3].
-
-
-
-
-
-
-
-
-SeamlessExpressive is an AI translation model developed by research teams at Meta. It allows for high-quality spee
-ch translation that preserves the speaker's vocal style, tone, and unique expressions in the translated output [2].
-
-
-
-
-
-
-
-
-Yann LeCun has expressed skepticism about the optimistic views of AGI (Artificial General Intelligence) startup fund 
-raisers and technologists. He believes that for most 'serious' individuals, the correct statement is that human-level AI
- is always 10-20 years away. LeCun also congratulated Demis Hassabis and Koray Kavukcuoglu on the launch of Gemini [4][5
-].
-
-
-
-
-
-
-
-NVIDIA is promoting their AI tools and enhancements, claiming that users will be able to bring their creative 
-ideas to life faster than ever before. They mention the benefits of AI-accelerated workflows and next-level 3D design co
-ncepts, particularly in 3D creative apps like NVIDIA Omniverse, Adobe Substance, Adobe Painter, Blender, and Unreal Engi
-ne [31].
-
-
-
-
-
-
-
-A16zAI is transforming the music industry, with Image to Audio generation being one example. A new featu
-re from @mubertapp allows users to upload a picture and generate a track that matches the vibe [14][15].
-
-
-
-
-
-
-
-Pika 1.0
-, created by Pika Labs, has released a video showcasing a fireworks show to celebrate its launch. Pika 1.0 is an idea-to
--video platform that brings creativity to motion [17][18][19].
-
-
-
-
-
-
-
-The article discusses the key components needed to
- build a large language model (LLM) agent application, including an agent core, a memory module, agent tools, and a plan
-ning module. It also provides an overview of implementation frameworks for single-agent and multi-agent systems [13].
-
-
-
-
-
-
-
-
-Superpowered AI is an end-to-end knowledge retrieval solution that allows users to build production-ready LLM appli
-cations with access to external knowledge. It was launched on May 23rd, 2023, and has received positive reviews [30].
-
-
-
-
-
-
-
-
-Hugging Face is promoting the download of a model for local use or the option to play with the model directly on th
-e Hugging Face platform [1].
-
-
-
-
-
-
-
-Cohere and CohereForAI will be attending the NeurIPS conference in New Orleans from 
-December 10-16. They will be showcasing their publications, talks, and papers at booth 1109 [34].
-
-
-
-
-
-
-
-Claude 2.1 has 
-a powerful 200K token context window, but it needs careful prompting to be used effectively [35].
-
-
-
-
-
-
-
-The author of t
-he message is Stability AI, with the Twitter handle @stabilityai, and they mention another user with the handle @cumulo_
-autumn [36].
-
-
-
-
-[1. Hugging Face @huggingface https://twitter.com/huggingface/status/1732318629532766669](https://twitt
-er.com/huggingface/status/1732318629532766669)
-
-[2. Yann LeCun @ylecun https://twitter.com/ylecun/status/173236330966640
-6554](https://twitter.com/ylecun/status/1732363309666406554)
-
-[3. Yann LeCun @ylecun https://twitter.com/ylecun/status/1
-732375353597817130](https://twitter.com/ylecun/status/1732375353597817130)
-
-[4. Yann LeCun @ylecun https://twitter.com/y
-lecun/status/1732391273611370931](https://twitter.com/ylecun/status/1732391273611370931)
-
-[5. Yann LeCun @ylecun https:/
-/twitter.com/ylecun/status/1732567817256313278](https://twitter.com/ylecun/status/1732567817256313278)
-
-[6. Yann LeCun @
-ylecun https://twitter.com/ylecun/status/1732589168469979631](https://twitter.com/ylecun/status/1732589168469979631)
-
-[7
-. Sundar Pichai @sundarpichai https://twitter.com/sundarpichai/status/1732414873139589372](https://twitter.com/sundarpic
-hai/status/1732414873139589372)
-
-[8. Sundar Pichai @sundarpichai https://twitter.com/sundarpichai/status/173241529283419
-3884](https://twitter.com/sundarpichai/status/1732415292834193884)
-
-[9. Sundar Pichai @sundarpichai https://twitter.com/
-sundarpichai/status/1732416581651599525](https://twitter.com/sundarpichai/status/1732416581651599525)
-
-[10. Sundar Picha
-i @sundarpichai https://twitter.com/sundarpichai/status/1732416708910924258](https://twitter.com/sundarpichai/status/173
-2416708910924258)
-
-[11. Demis Hassabis @demishassabis https://twitter.com/demishassabis/status/1732416482976673832](http
-s://twitter.com/demishassabis/status/1732416482976673832)
-
-[12. Demis Hassabis @demishassabis https://twitter.com/demish
-assabis/status/1732416480741118179](https://twitter.com/demishassabis/status/1732416480741118179)
-
-[13. NVIDIA AI Develo
-per @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1732431459611222426](https://twitter.com/NVIDIAAIDev/status/1732
-431459611222426)
-
-[14. a16z @a16z https://twitter.com/a16z/status/1732407243188977830](https://twitter.com/a16z/status/1
-732407243188977830)
-
-[15. a16z @a16z https://twitter.com/a16z/status/1732463723338416365](https://twitter.com/a16z/statu
-s/1732463723338416365)
-
-[16. Pika @pika_labs https://twitter.com/pika_labs/status/1732437764153491812](https://twitter.c
-om/pika_labs/status/1732437764153491812)
-
-[17. Pika @pika_labs https://twitter.com/pika_labs/status/1732438007603777539]
-(https://twitter.com/pika_labs/status/1732438007603777539)
-
-[18. Pika @pika_labs https://twitter.com/pika_labs/status/17
-32438769389940792](https://twitter.com/pika_labs/status/1732438769389940792)
-
-[19. Pika @pika_labs https://twitter.com/p
-ika_labs/status/1732440839794856218](https://twitter.com/pika_labs/status/1732440839794856218)
-
-[20. Pika @pika_labs htt
-ps://twitter.com/pika_labs/status/1732441129097032160](https://twitter.com/pika_labs/status/1732441129097032160)
-
-[21. G
-oogle @google https://twitter.com/google/status/1732421837026369943](https://twitter.com/google/status/17324218370263699
-43)
-
-[22. Google @google https://twitter.com/google/status/1732422084280918321](https://twitter.com/google/status/173242
-2084280918321)
-
-[23. Google @google https://twitter.com/google/status/1732422086231269396](https://twitter.com/google/st
-atus/1732422086231269396)
-
-[24. Google @google https://twitter.com/google/status/1732429424018993559](https://twitter.co
-m/google/status/1732429424018993559)
-
-[25. Google @google https://twitter.com/google/status/1732467423654105330](https:/
-/twitter.com/google/status/1732467423654105330)
-
-[26. Google @google https://twitter.com/google/status/17324902864193947
-83](https://twitter.com/google/status/1732490286419394783)
-
-[27. Google @google https://twitter.com/google/status/173249
-0376915632225](https://twitter.com/google/status/1732490376915632225)
-
-[28. Google @google https://twitter.com/google/st
-atus/1732522391249563936](https://twitter.com/google/status/1732522391249563936)
-
-[29. Google AI @googleai https://twitt
-er.com/googleai/status/1732448989336006826](https://twitter.com/googleai/status/1732448989336006826)
-
-[30. Y Combinator 
-@ycombinator https://twitter.com/ycombinator/status/1732451753420091411](https://twitter.com/ycombinator/status/17324517
-53420091411)
-
-[31. NVIDIA AI @NVIDIAAI https://twitter.com/NVIDIAAI/status/1732462517765509398](https://twitter.com/NVID
-IAAI/status/1732462517765509398)
-
-[32. NVIDIA AI @NVIDIAAI https://twitter.com/NVIDIAAI/status/1732475258328711647](http
-s://twitter.com/NVIDIAAI/status/1732475258328711647)
-
-[33. NVIDIA AI @NVIDIAAI https://twitter.com/NVIDIAAI/status/17324
-90090448871809](https://twitter.com/NVIDIAAI/status/1732490090448871809)
-
-[34. cohere @cohere https://twitter.com/cohere
-/status/1732493039086539067](https://twitter.com/cohere/status/1732493039086539067)
-
-[35. Anthropic @anthropicai https:/
-/twitter.com/anthropicai/status/1732527908139552951](https://twitter.com/anthropicai/status/1732527908139552951)
-
-[36. S
-tability AI @stabilityai https://twitter.com/stabilityai/status/1732539483965534302](https://twitter.com/stabilityai/sta
-tus/1732539483965534302)
-```
----
-
-     
- 
-all -  [ [D] Place to print poster at NeurIPS 2023 ](https://www.reddit.com/r/MachineLearning/comments/18cn7v1/d_place_to_print_poster_at_neurips_2023/) , 2023-12-24-0911
+MachineLearning -  [ [D] Place to print poster at NeurIPS 2023 ](https://www.reddit.com/r/MachineLearning/comments/18cn7v1/d_place_to_print_poster_at_neurips_2023/) , 2023-12-25-0910
 ```
 I need to present a poster at NeurIPS 2023. However, I couldn't print it in my university due to some issues. Is there a
  place near the convention center that provides quick poster printing?  TIA
@@ -3774,7 +3533,7 @@ I need to present a poster at NeurIPS 2023. However, I couldn't print it in my u
 
      
  
-MachineLearning -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-24-0911
+MachineLearning -  [ [R] RETVec: Resilient and Efficient Text Vectorizer ](https://www.reddit.com/r/MachineLearning/comments/188gjpy/r_retvec_resilient_and_efficient_text_vectorizer/) , 2023-12-25-0910
 ```
 Happy Friday,
 
@@ -3792,37 +3551,11 @@ Let us know if you have any questions.
 
      
  
-MachineLearning -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-24-0911
+MachineLearning -  [ [D] NeurIPS Climbing Club (Gradient Ascent?) ](https://www.reddit.com/r/MachineLearning/comments/187fbdy/d_neurips_climbing_club_gradient_ascent/) , 2023-12-25-0910
 ```
 I'll be attending NeurIPS 2023 this year and won't know anyone. I'm an avid climber and there is a nice bouldering gym c
 lose to the conference center - would anyone else fancy a climb over the week? Reply below so we can see how many people
  and I can setup a meetup page or something. I'm a final year PhD from the UK working in video understanding.
-```
----
-
-     
- 
-MachineLearning -  [ [R] Rethinking Open'sAI's Q-Learning : Insights from the Award-Winning 'Non-delusional Q-learning' P ](https://www.reddit.com/r/MachineLearning/comments/182bz42/r_rethinking_opensais_qlearning_insights_from_the/) , 2023-12-24-0911
-```
-OpenAI's approach to Q-Learning has been drawing significant attention recently.
-
-However, there's a fundamental issue i
-n the way Q-learning is typically implemented in deep learning and neural network environments. This concern is highligh
-ted in the award-winning paper 'Non-delusional Q-learning,' presented at NeurIPS.
-
-The paper suggests a fundamental flaw
- in the blind application of Q-learning updates to deep neural networks. It points out that such updates can create a se
-lf-contradictory scenario where improving the network for the current batch of data inadvertently makes it less effectiv
-e for other batches. This is akin to a situation in supervised learning where optimizing a network for a specific set of
- data may degrade its performance on other datasets.
-
-For more insights, the full paper can be accessed here: [Non-delus
-ional Q-learning Paper](https://papers.nips.cc/paper_files/paper/2018/hash/5fd0245f6c9ddbdf3eff0f505975b6a7-Abstract.htm
-l)(Follow up ICML paper: [Practical Non-delusional-Q Learning](https://www.cs.toronto.edu/~cebly/Papers/CONQUR_ICML_2020
-_camera_ready.pdf) )
-
-I'm curious about others' views on this topic. What do you think about the implications of these f
-indings for the future of Q-learning in deep learning environments?
 ```
 ---
 
