@@ -1,5 +1,229 @@
  
-all -  [ Looking for Project Ideas ](/r/LocalLLaMA/comments/18q3y1p/looking_for_project_ideas/) , 2023-12-25-0910
+all -  [ Is Langchain the right choice, or can I rely on Chat GPT for this? ](https://www.reddit.com/r/LangChain/comments/18qtquw/is_langchain_the_right_choice_or_can_i_rely_on/) , 2023-12-26-0909
+```
+I'm interested in creating an AI model that takes in a user's input, which comes in the form of a JSON dictionary of the
+ music the user likes, and provides recommendations. For example: {name: Mike, genre: hip-hop, song: Gangsta's Paradise}
+. I want to create a prompt where I explain what different genres mean, such as rock, pop, and R&B music. The AI would t
+hen look at the prompt to understand the genre and provide me with recommendations for similar music.
+
+&#x200B;
+
+I've be
+en playing around, but I'm unsure of how to accomplish this initial idea. The initial idea was to use Structured Output 
+Parser where I define the genre and a Prompt Template where I specify how it should answer the user's input. Am I on the
+ right track? Thanks in advance.
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ How do I let llm read my json file and give an answer to a question? Python ](https://www.reddit.com/r/LangChain/comments/18qs349/how_do_i_let_llm_read_my_json_file_and_give_an/) , 2023-12-26-0909
+```
+I have a json file less than < 50mb, that has this format:
+
+{  
+'title': 'string',
+
+'url': '[u](https://www.uvu.edu/cet/
+blog/posts/cgmt_fundraiser_2022.html)rl.html',
+
+'html': 'html content...'  
+},
+
+...
+
+and I tried to look for langchain d
+oc that can let openai api like gpt3.5 read json file and give an answer from those data, but it was really hard to find
+ out the doc I wanted.   
+
+
+So, I wonder if anyone knows how to connect json data, and llm to make a chatbot like llm.  
+
+
+
+  
+\#Langchain #Python #json  
+
+```
+---
+
+     
+ 
+all -  [ Finetune to avoid using tool descriptions in prompt template ](https://www.reddit.com/r/LocalLLaMA/comments/18qodse/finetune_to_avoid_using_tool_descriptions_in/) , 2023-12-26-0909
+```
+Hello everyone,
+
+Still getting to grips with langchain, llms, huggingface, finetuning, dataset, etc. So, we have been su
+ccessfully using langchain with various local llms from HF and conversationalagents that use tools. IT seems to work fai
+rly well. THe problem we are running into is that the prompt template is getting rediculous in size and chomping down a 
+lot of the available tokens. So we have like 10 tools with their corresponding descriptions. THe tools mainly use extern
+al APIs to extract information.   
+
+
+There are two main issues we are running into:  
+
+
+1- We want the llm to understand
+ that in order to fullfil some requests using a certain tool, it needs to extract information from another tool first. F
+or example, one tool gets traffic data from a website on a server. Anthoner one get's a list of domains on a server and 
+the other one get's a list of accounts that have domains that have sites (accounts->domains->sites).  
+
+
+So when a user'
+s query is something like 'please give me the traffic data for [mysite.com](https://mysite.com)' , langchain jumps and s
+tarts using the traffic getting tool. But we need to pass along a domain and account so the receiving API knows where it
+ needs to look.  
+
+
+We are having trouble getting the LLM to understand that in order to use a tool, it needs to get inf
+ormation before hand. We've tryed including in the descriptions which tools need to be used first before completing the 
+tool usage, and no luck there. WE also tried explaining using natural language that 'If you need to use the traffic tool
+, you need to ask the user for domain and account first and pass that to the input'.  
+
+
+Or dataset looks like this:   
+
+
+
+\#####
+
+Customer: I need to check my site's [xxxx123.com](https://xxxx.com) traffic data  
+Assistant: Sure, I see the 
+domain is [xxxx123.com](https://xxxxx123.com) but which account is the domain located in?  
+Customer: It's in the mystuf
+f account.  
+Assistant: Got it, here is the traffic information for [xxxx123.com](https://xxxx123.com) : bla , bla ,bla.
+ Can I help you with anything else?  
+\#####  
+
+
+So now we are creating a dataset that has multi-turn conversations wher
+e the assistant asks the user about the missing information and we are getting ready to train a llama2 7B , but this tas
+k is still confusing for us, but we're still trying.   
+
+
+But we're wondering if there is a easier way to make this work
+. How can I setup langchain so the LLM knows what the heirarchy structure is, so if you are asking about a domain, you n
+eed to know which account the domain is hosted in , or if it's about a site, which domain and account the site is in. A 
+solution would be to create a tool that digs into each account and domain to find it, ... but that's an aweful amount of
+ unnecessary energy.  
+
+
+Any hints, tips would be inmensely appreciated.
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ How do I use openai api or something else to chat to my database? ](https://www.reddit.com/r/OpenAI/comments/18qlkf1/how_do_i_use_openai_api_or_something_else_to_chat/) , 2023-12-26-0909
+```
+It feels familiar to Chat with your documents but I am completely lost where to start. I am moderately experienced dev. 
+I have a database of orders. I want to build a feature in the app that can allow users to ask questions like
+
+- How was 
+my sale last week or this week?
+- How many of XYZ got sold?
+- What's my lowest sold product?
+
+
+I've looked into LangChai
+n and LlamaIndex, both makes sense if your documents is just text. But in my case I've nested json object. I could clean
+ it to simple key value pair but I will be loosing a lot of data with it. Such as I won't be able to ask which items wer
+e bought together the most.
+
+If anyone have built something similiar or know how to do it, I will really appreciate the 
+help. I am kinda lost, can't find any way to do it.
+
+Or Am i expecting too much from the AI?
+```
+---
+
+     
+ 
+all -  [ How to use llava-v1.5-13b-Q5_K_M.gguf with python ](https://www.reddit.com/r/LocalLLaMA/comments/18qleak/how_to_use_llavav1513bq5_k_mgguf_with_python/) , 2023-12-26-0909
+```
+So i have this LLaVa GGUF model and i want to run with python locally , i managed to use with LM Studio but now i need t
+o run it in isolation with a python file   
+
+
+So is there a code where i can load the model within it and use as a norma
+l python code?  
+
+
+Currently i can use LLaMa 7b without vision such like that with help of LangChain
+```
+---
+
+     
+ 
+all -  [ MongoDB Agent ](https://www.reddit.com/r/LangChain/comments/18qjcxc/mongodb_agent/) , 2023-12-26-0909
+```
+Hi everyone,I created a basic tools for interacting with mongodb using React agent.
+
+[generated aggregation pipeline sui
+table for pymongo](https://preview.redd.it/q04t7n0p6g8c1.png?width=1286&format=png&auto=webp&s=0f02e9226b77e9a67fc956718
+ffbc92826972860)
+
+the agent currently has two tools : detect aggregation, execute aggregationthe goal is to convert a na
+tural language query to an aggregation pipeline when executed it would get the desired answer.currently the first tool w
+orks perfectly, however the agent fails to execute the aggregation using pymongo.this is the output when it calls the ex
+ecution tool:**ValueError: An output parsing error occurred. In order to pass this error back to the agent and have it t
+ry again, pass \`handle\_parsing\_errors=True\` to the AgentExecutor. This is the error: Could not parse LLM output: {'a
+ction': 'Execute mongodb aggregation pipeline tool','action\_input': \[{'$match': {'overall\_rating': {'$gte': 4}}}, {'$
+count': 'satisfied\_customers'}\]}**
+
+what could be the issue?
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ applied to over 100 companies on linkedin but no replies need suggestion ](https://www.reddit.com/r/developersIndia/comments/18qcw0m/applied_to_over_100_companies_on_linkedin_but_no/) , 2023-12-26-0909
+```
+completed btech in ece this july. started looking for jobs for software development role since november on linkedin, by 
+now i have applied to over 100 jobs maybe 200, yet not even a reply. 
+
+I have no connection in this field to even discus
+s about such things. I thought by this time i will get some job and find a mentor, build my own community and start lear
+ning and building better projects and ofcourse make money in the process.
+
+But now i am stressed out and completely demo
+tivated. 
+
+plese do check my resume and just tell me honestly where i am going wrong or do i just need to quit engineeri
+ng for good. 
+
+https://preview.redd.it/9cdjmg0hud8c1.png?width=781&format=png&auto=webp&s=a3e66d9ef735741309590c44813b44
+492a992006
+```
+---
+
+     
+ 
+all -  [ Based on your experience what is the smallest and optimal local model for RAG? ](https://www.reddit.com/r/LocalLLaMA/comments/18q9xva/based_on_your_experience_what_is_the_smallest_and/) , 2023-12-26-0909
+```
+I’m trying to set up RAG using langchain for company’s knowledge database and struggling to find optimal model / server 
+solution, so any personal experience would be appreciated!
+```
+---
+
+     
+ 
+all -  [ Is there an equivalent of ChatGPT 'Plugins' for local LLMs Web UIs? Like Code Interpreter, Plot Gene ](https://www.reddit.com/r/LocalLLaMA/comments/18q8z2r/is_there_an_equivalent_of_chatgpt_plugins_for/) , 2023-12-26-0909
+```
+(title)
+```
+---
+
+     
+ 
+all -  [ Looking for Project Ideas ](/r/LocalLLaMA/comments/18q3y1p/looking_for_project_ideas/) , 2023-12-26-0909
 ```
 
 ```
@@ -7,7 +231,7 @@ all -  [ Looking for Project Ideas ](/r/LocalLLaMA/comments/18q3y1p/looking_for_
 
      
  
-all -  [ Looking for Project Ideas ](https://www.reddit.com/r/LocalLLaMA/comments/18q3y1p/looking_for_project_ideas/) , 2023-12-25-0910
+all -  [ Looking for Project Ideas ](https://www.reddit.com/r/LocalLLaMA/comments/18q3y1p/looking_for_project_ideas/) , 2023-12-26-0909
 ```
 Background: Currently working as a Data Scientist at a tech company! I am actively looking for some very interesting pro
 ject ideas, preferably, as I am trying to get some work done in GenAI.
@@ -26,7 +250,7 @@ P
 
      
  
-all -  [ AWS Lambda Layer for Python Not Working ](https://www.reddit.com/r/aws/comments/18q1b1v/aws_lambda_layer_for_python_not_working/) , 2023-12-25-0910
+all -  [ AWS Lambda Layer for Python Not Working ](https://www.reddit.com/r/aws/comments/18q1b1v/aws_lambda_layer_for_python_not_working/) , 2023-12-26-0909
 ```
 Hi,
 
@@ -113,12 +337,21 @@ What am I missing here?
 
 thanks in advance,
 John
+
+
+***UPDATE:***
+
+thanks for the replies, I fixed the problem!
+
+I di
+d not realize that when you do pip install into a virtualenv you get both /lib and /lib64 folders. When I built the zip,
+ I only copied the content from /lib. Adding the content of /lib64 too fixed the problem
 ```
 ---
 
      
  
-all -  [ Best way to populate a pydantic model during an agent run ](https://www.reddit.com/r/LangChain/comments/18pzqkk/best_way_to_populate_a_pydantic_model_during_an/) , 2023-12-25-0910
+all -  [ Best way to populate a pydantic model during an agent run ](https://www.reddit.com/r/LangChain/comments/18pzqkk/best_way_to_populate_a_pydantic_model_during_an/) , 2023-12-26-0909
 ```
 I’m currently working on an Agent implementation that uses tools to update a pre-defined pydantic model which needs valu
 es to be added/updated based on context retrieved by the agent. My problem, however, is that I cannot seem to figure out
@@ -143,7 +376,7 @@ Happy Holidays.
 
      
  
-all -  [ Anyone can lend me a digital copy of Generative AI with LangChain ](https://www.reddit.com/r/LangChain/comments/18pt9fd/anyone_can_lend_me_a_digital_copy_of_generative/) , 2023-12-25-0910
+all -  [ Anyone can lend me a digital copy of Generative AI with LangChain ](https://www.reddit.com/r/LangChain/comments/18pt9fd/anyone_can_lend_me_a_digital_copy_of_generative/) , 2023-12-26-0909
 ```
 Hi, I am from Pakistan, don't have access to a online payment system. 
 
@@ -155,7 +388,7 @@ eep it and learn
 
      
  
-all -  [ Help integrating LLM in our application ](https://www.reddit.com/r/LocalLLaMA/comments/18psg1c/help_integrating_llm_in_our_application/) , 2023-12-25-0910
+all -  [ Help integrating LLM in our application ](https://www.reddit.com/r/LocalLLaMA/comments/18psg1c/help_integrating_llm_in_our_application/) , 2023-12-26-0909
 ```
 **Hi everyone,**
 
@@ -213,7 +446,7 @@ etup and specific challenges if needed.
 
      
  
-all -  [ Has anyone used LLMs to compile training data for LLMs? ](https://www.reddit.com/r/LangChain/comments/18prq9i/has_anyone_used_llms_to_compile_training_data_for/) , 2023-12-25-0910
+all -  [ Has anyone used LLMs to compile training data for LLMs? ](https://www.reddit.com/r/LangChain/comments/18prq9i/has_anyone_used_llms_to_compile_training_data_for/) , 2023-12-26-0909
 ```
 With the ability of agents to search the web and use the data it finds in RAG, it seems that one could effectively make 
 a research agent who's sole purpose is to find datasets for the LLM to consume:
@@ -235,7 +468,7 @@ Do you think this would
 
      
  
-all -  [ SWE Unable to Get a Single Interview. Any Feedback is Appreciated! ](https://www.reddit.com/r/resumes/comments/18pj7tp/swe_unable_to_get_a_single_interview_any_feedback/) , 2023-12-25-0910
+all -  [ SWE Unable to Get a Single Interview. Any Feedback is Appreciated! ](https://www.reddit.com/r/resumes/comments/18pj7tp/swe_unable_to_get_a_single_interview_any_feedback/) , 2023-12-26-0909
 ```
 &#x200B;
 
@@ -255,25 +488,7 @@ t's how I've had to step up with some organizational changes saddling me with ex
 
      
  
-all -  [ 🚀 Introducing Resume Checker: Your Python Companion for Job Applications! ](https://www.reddit.com/r/LangChain/comments/18phsg5/introducing_resume_checker_your_python_companion/) , 2023-12-25-0910
-```
-Hey Langchain Community!
-
-I'm learning Python and langchain and excited to share a project that i've been working on: [R
-esume Checker](https://github.com/navicstein/resume-checker).
-
-Resume Checker is a Python tool designed to analyze how w
-ell your resume matches a specific job posting. As someone learning Python, I found this project immensely helpful in un
-derstanding langchain and building practical applications.
-
-Check out the [GitHub repository](https://github.com/navicst
-ein/resume-checker) for more detailed instructions. let me know what you think
-```
----
-
-     
- 
-all -  [ creating a vectordb from millions of documents ](https://www.reddit.com/r/LangChain/comments/18ph140/creating_a_vectordb_from_millions_of_documents/) , 2023-12-25-0910
+all -  [ creating a vectordb from millions of documents ](https://www.reddit.com/r/LangChain/comments/18ph140/creating_a_vectordb_from_millions_of_documents/) , 2023-12-26-0909
 ```
 Hey! I am trying to create a vector store using langchain and faiss for RAG(Retrieval-augmented generation) with about 6
  millions abstracts. is there a strategy to create this vector store efficiently? currently it takes very long time to c
@@ -283,7 +498,7 @@ reate it (can take up to 5 days)
 
      
  
-all -  [ Inconsistent Table Querying ](https://www.reddit.com/r/LangChain/comments/18pfbu9/inconsistent_table_querying/) , 2023-12-25-0910
+all -  [ Inconsistent Table Querying ](https://www.reddit.com/r/LangChain/comments/18pfbu9/inconsistent_table_querying/) , 2023-12-26-0909
 ```
 I am working on a project that uses Langchain in multiple places, I am getting inconsistent behavior, hoping someone can
  tell me what I am doing wrong here. (I am using a public bq dataset for this, so nothing proprietary in what I am posti
@@ -406,7 +621,7 @@ table_names {'bigquery-public-data.usa_names.usa_1910_2013'} not found in databa
 
      
  
-all -  [ Llama ReAct ](https://www.reddit.com/r/LargeLanguageModels/comments/18pacr8/llama_react/) , 2023-12-25-0910
+all -  [ Llama ReAct ](https://www.reddit.com/r/LargeLanguageModels/comments/18pacr8/llama_react/) , 2023-12-26-0909
 ```
 Has anyone be able to get llama to reliably work with langchain for calling multiple tools (Wikipedia arxiv etc) I’m usi
 ng the 13b with a custom prompt and occasionally get good results however most outputs are parsing errors. 
@@ -418,7 +633,7 @@ ions?
 
      
  
-all -  [ how to create a rag for all the chats/ conversations between A and everyone else wherein a bot can a ](https://www.reddit.com/r/LangChain/comments/18pa4gz/how_to_create_a_rag_for_all_the_chats/) , 2023-12-25-0910
+all -  [ how to create a rag for all the chats/ conversations between A and everyone else wherein a bot can a ](https://www.reddit.com/r/LangChain/comments/18pa4gz/how_to_create_a_rag_for_all_the_chats/) , 2023-12-26-0909
 ```
 I'm working on a project involving where I want to analyze conversations between two individuals, let's call them Person
  A and Person B. The primary function of this system is to enable a bot to answer questions about Person A's interests b
@@ -449,7 +664,7 @@ logies that you would suggest for this type of application, possibly something t
 
      
  
-all -  [ Any good documentation/tutorial/e-book on url tools in langchain? ](https://www.reddit.com/r/LangChain/comments/18p25me/any_good_documentationtutorialebook_on_url_tools/) , 2023-12-25-0910
+all -  [ Any good documentation/tutorial/e-book on url tools in langchain? ](https://www.reddit.com/r/LangChain/comments/18p25me/any_good_documentationtutorialebook_on_url_tools/) , 2023-12-26-0909
 ```
 Hi, I have been trying to use LangChain Selenium and other url loaders, but can't find good documentation for now. Any i
 nformation source is welcome.
@@ -458,7 +673,7 @@ nformation source is welcome.
 
      
  
-all -  [ Way to make gpt 3.5 summarize based on a word count ](https://www.reddit.com/r/PromptEngineering/comments/18p1u55/way_to_make_gpt_35_summarize_based_on_a_word_count/) , 2023-12-25-0910
+all -  [ Way to make gpt 3.5 summarize based on a word count ](https://www.reddit.com/r/PromptEngineering/comments/18p1u55/way_to_make_gpt_35_summarize_based_on_a_word_count/) , 2023-12-26-0909
 ```
 I need to make a summarization bot with python and langchain but i got stuck in the step of telling gpt i want this summ
 ary exactly 200 words long. For some reason gpt never writes a 200 word summary even though i say it so. Is there a way 
@@ -468,7 +683,7 @@ to make it exactly 200 words long?(or around that bar)
 
      
  
-all -  [ What frameworks or coding structures are recommended for building applications powered by LangChain  ](https://www.reddit.com/r/LangChain/comments/18p1ghh/what_frameworks_or_coding_structures_are/) , 2023-12-25-0910
+all -  [ What frameworks or coding structures are recommended for building applications powered by LangChain  ](https://www.reddit.com/r/LangChain/comments/18p1ghh/what_frameworks_or_coding_structures_are/) , 2023-12-26-0909
 ```
 The application features integrations with various tools, including databases, Retrieval-Augmented Generation (RAG), and
  custom prompts, as well as custom tools within LangChain. 
@@ -477,7 +692,7 @@ The application features integrations with various tools, including databases, R
 
      
  
-all -  [ Langchain and Python alternatives ](https://www.reddit.com/r/LocalLLaMA/comments/18p01k8/langchain_and_python_alternatives/) , 2023-12-25-0910
+all -  [ Langchain and Python alternatives ](https://www.reddit.com/r/LocalLLaMA/comments/18p01k8/langchain_and_python_alternatives/) , 2023-12-26-0909
 ```
 It seems like almost every RAG and Agent is built around Langchain. Like every single AI video ever made seems to use La
 ngchain for something. Is there any way to avoid that? Any other frameworks?
@@ -494,7 +709,7 @@ I don’t want to continually build langchain products, and I’d like to do RAG
 
      
  
-all -  [ Ashamed to asked ](https://www.reddit.com/r/LangChain/comments/18opwbl/ashamed_to_asked/) , 2023-12-25-0910
+all -  [ Ashamed to asked ](https://www.reddit.com/r/LangChain/comments/18opwbl/ashamed_to_asked/) , 2023-12-26-0909
 ```
 kind of ashamed to ask but what am i missing here ?. the cash\_flow\_data method returns a list of cash flow statements 
 in the form of dataframes, then i try to map each iteration to the prompt template but thats not working. instead i get 
@@ -510,7 +725,7 @@ https://preview.redd.it/r36pe0uy2x7c1.png?width=2336&format=png&auto=webp&s=897
 
      
  
-all -  [ Bedrock Claude Performance Issue ](https://www.reddit.com/r/LangChain/comments/18opvla/bedrock_claude_performance_issue/) , 2023-12-25-0910
+all -  [ Bedrock Claude Performance Issue ](https://www.reddit.com/r/LangChain/comments/18opvla/bedrock_claude_performance_issue/) , 2023-12-26-0909
 ```
 Anybody have any idea what I might be doing wrong here?
 
@@ -544,7 +759,7 @@ ear out Langchain and use AWS's SDK instead.
 
      
  
-all -  [ Is there a way in LC to centralize event notifications and configurations? ](https://www.reddit.com/r/LangChain/comments/18om6xq/is_there_a_way_in_lc_to_centralize_event/) , 2023-12-25-0910
+all -  [ Is there a way in LC to centralize event notifications and configurations? ](https://www.reddit.com/r/LangChain/comments/18om6xq/is_there_a_way_in_lc_to_centralize_event/) , 2023-12-26-0909
 ```
 https://www.youtube.com/watch?v=D34PyNx71vk
 
@@ -555,7 +770,7 @@ Microsofts orchestrator. Is there really no way to do the same in LangChain?
 
      
  
-all -  [ [Langchain] Quelle est la différence entre l'agent des fonctions OpenAI et l'agent multi-fonctions O ](https://www.reddit.com/r/redditenfrancais/comments/18oinsw/langchain_quelle_est_la_différence_entre_lagent/) , 2023-12-25-0910
+all -  [ [Langchain] Quelle est la différence entre l'agent des fonctions OpenAI et l'agent multi-fonctions O ](https://www.reddit.com/r/redditenfrancais/comments/18oinsw/langchain_quelle_est_la_différence_entre_lagent/) , 2023-12-26-0909
 ```
 J'ai lu le Doc entier plusieurs fois et j'ai finalement fini par lire le code source, mais je ne sais toujours pas quell
 e est la différence entre ces deux agents.
@@ -570,7 +785,7 @@ la publication après 'reddit.com/'
 
      
  
-all -  [ How do Callbacks for streaming response exactly work? (In Streamlit application) ](https://www.reddit.com/r/LangChain/comments/18ogw3p/how_do_callbacks_for_streaming_response_exactly/) , 2023-12-25-0910
+all -  [ How do Callbacks for streaming response exactly work? (In Streamlit application) ](https://www.reddit.com/r/LangChain/comments/18ogw3p/how_do_callbacks_for_streaming_response_exactly/) , 2023-12-26-0909
 ```
 Hi,
 
@@ -637,7 +852,7 @@ I'd be very thankful for a workaround or an explanation how the Callbacks work i
 
      
  
-all -  [ [Local Llama] Comment exposer un modèle dans une API? ](https://www.reddit.com/r/redditenfrancais/comments/18od590/local_llama_comment_exposer_un_modèle_dans_une_api/) , 2023-12-25-0910
+all -  [ [Local Llama] Comment exposer un modèle dans une API? ](https://www.reddit.com/r/redditenfrancais/comments/18od590/local_llama_comment_exposer_un_modèle_dans_une_api/) , 2023-12-26-0909
 ```
 J'ai un PC avec un RTX 3090 et je voudrais l'utiliser pour des modèles comme LLAMA2. Je voudrais ouvrir un port et offri
 r la puissance d'inférence de ce PC à d'autres applications exécutant Langchain en dehors du réseau domestique.
@@ -653,7 +868,7 @@ z l'id de la publication après 'reddit.com/'
 
      
  
-all -  [ How to use LLM response stream without LangChain ](https://www.reddit.com/r/StreamlitOfficial/comments/18od2xf/how_to_use_llm_response_stream_without_langchain/) , 2023-12-25-0910
+all -  [ How to use LLM response stream without LangChain ](https://www.reddit.com/r/StreamlitOfficial/comments/18od2xf/how_to_use_llm_response_stream_without_langchain/) , 2023-12-26-0909
 ```
 Hi,
 
@@ -717,7 +932,7 @@ Thank you for your help
 
      
  
-all -  [ [Langchain] L'ingénierie rapide semble être une conjecture - comment évaluer correctement l'applicat ](https://www.reddit.com/r/redditenfrancais/comments/18obpkw/langchain_lingénierie_rapide_semble_être_une/) , 2023-12-25-0910
+all -  [ [Langchain] L'ingénierie rapide semble être une conjecture - comment évaluer correctement l'applicat ](https://www.reddit.com/r/redditenfrancais/comments/18obpkw/langchain_lingénierie_rapide_semble_être_une/) , 2023-12-26-0909
 ```
 Comment les gens évaluent-ils la qualité de vos applications LLM? Je gère un chatbot en santé mentale en production (pet
 ite échelle - 10 utilisateurs actifs) et j'ai passé beaucoup de temps à des invites en train de mener, mais ce n'est que
@@ -734,7 +949,7 @@ publication originale, insérez l'id de la publication après 'reddit.com/'
 
      
  
-all -  [ Langchain returns similarity_search_with_relevance_scores in negative ](https://www.reddit.com/r/LangChain/comments/18o9afp/langchain_returns_similarity_search_with/) , 2023-12-25-0910
+all -  [ Langchain returns similarity_search_with_relevance_scores in negative ](https://www.reddit.com/r/LangChain/comments/18o9afp/langchain_returns_similarity_search_with/) , 2023-12-26-0909
 ```
 Guys, I'm doing a similarity search and using relevance scores because I understand relevance scores return scores betwe
 en 0 and 1. However when I use Langchain to return these scores, they come back in negatives. However when I use custom 
@@ -744,7 +959,7 @@ code for chroma or faiss, I get scores between 0 and 1. Is this a bug in Langcha
 
      
  
-all -  [ Get time needed for individual components of ConversationalRetrievalChain ](https://www.reddit.com/r/LangChain/comments/18o2r72/get_time_needed_for_individual_components_of/) , 2023-12-25-0910
+all -  [ Get time needed for individual components of ConversationalRetrievalChain ](https://www.reddit.com/r/LangChain/comments/18o2r72/get_time_needed_for_individual_components_of/) , 2023-12-26-0909
 ```
 Hi all,
 
@@ -757,7 +972,7 @@ g, how do I get the time needed for the LLM to generate a reply?
 
      
  
-all -  [ My import of FAISS is not recognized in my IDE ](https://www.reddit.com/r/pythonhelp/comments/18o2obg/my_import_of_faiss_is_not_recognized_in_my_ide/) , 2023-12-25-0910
+all -  [ My import of FAISS is not recognized in my IDE ](https://www.reddit.com/r/pythonhelp/comments/18o2obg/my_import_of_faiss_is_not_recognized_in_my_ide/) , 2023-12-26-0909
 ```
 I'm testing a code from a tutorial to see if i can integrate its concept into mine. But for some reason when I type impo
 rt FAISS like below it just stays white unline the rest of the imports in the IDE. I dont know why its not recognized, I
@@ -818,7 +1033,7 @@ n()
 
      
  
-all -  [ How to pass some arguments to function call via code and some extracted from LLM? ](https://www.reddit.com/r/LangChain/comments/18nzw4v/how_to_pass_some_arguments_to_function_call_via/) , 2023-12-25-0910
+all -  [ How to pass some arguments to function call via code and some extracted from LLM? ](https://www.reddit.com/r/LangChain/comments/18nzw4v/how_to_pass_some_arguments_to_function_call_via/) , 2023-12-26-0909
 ```
 I have the following:  
 I want to be able to use agents and pass one argument programmatically. I ideally dont want that
@@ -908,7 +1123,7 @@ tional_kwargs': {}         }
 
      
  
-all -  [ Errors using SQL Agent ](https://www.reddit.com/r/LangChain/comments/18ntfoa/errors_using_sql_agent/) , 2023-12-25-0910
+all -  [ Errors using SQL Agent ](https://www.reddit.com/r/LangChain/comments/18ntfoa/errors_using_sql_agent/) , 2023-12-26-0909
 ```
 Hello everyone. I'm using Langchain (js) in my Next.js app and used this guide [https://js.langchain.com/docs/integratio
 ns/toolkits/sql](https://js.langchain.com/docs/integrations/toolkits/sql) (that someone very helpful shared with me here
@@ -926,217 +1141,7 @@ Any thoughts or recommendations are appreciated👍. Thanks in advance
 
      
  
-all -  [ How to use Langsmith with a FastAPI/uvicorn setup ](https://www.reddit.com/r/LangChain/comments/18npk5y/how_to_use_langsmith_with_a_fastapiuvicorn_setup/) , 2023-12-25-0910
-```
-Hi there fellow Langchainers,
-
-I have created an agent in a ipynb. Works great and by simply adding
-LANGCHAIN_TRACING_V2
- = os.getenv('LANGCHAIN_TRACING_V2')
-LANGCHAIN_PROJECT = os.getenv('LANGCHAIN_PROJECT')
-LANGCHAIN_ENDPOINT = os.getenv('
-LANGCHAIN_ENDPOINT')
-LANGCHAIN_API_KEY = os.getenv('LANGCHAIN_API_KEY')
-and adding these values to the .env file and 
-
-f
-rom langsmith import Client
-client = Client()
-
-Every agent_executor.invoke({'input': 'input query here'})['output']
-
-is 
-nicely logged in Langsmith.
-
-But when I wrap this same agent in a fastapi application with uvicorn, it doesn't work. The
- agent works fine, I can use the agent through Postman just fine. But nothing is logged in Langsmith.
-
-Any help is great
-ly appreciated.
-```
----
-
-     
- 
-all -  [ How to distribute LLM apps and UI/UX? ](https://www.reddit.com/r/LocalLLaMA/comments/18np956/how_to_distribute_llm_apps_and_uiux/) , 2023-12-25-0910
-```
-Pretty new to the space but I'm a programmer. I see a lot of YouTube tutorials using Langchain, Ollama, and 50 other too
-ls. Seems easy to build my own app.
-
-How are these apps packaged and distributed so other people can install and interac
-t with them? What are the best frameworks to use for this? How do you build a custom UI? Looking for best practices or s
-hortest path to something basic.
-
-For example: do you use Langchain and launch a Web UI from a local nodejs server that 
-lets users modify their documents for RAG or swap models?
-
-Thanks for any helpful responses.
-```
----
-
-     
- 
-all -  [ [Langchain] Besoin d'aide pour augmenter la vitesse de mon application basée sur LLM ](https://www.reddit.com/r/redditenfrancais/comments/18no9yi/langchain_besoin_daide_pour_augmenter_la_vitesse/) , 2023-12-25-0910
-```
-J'ai construit quelque chose en utilisant Langchain, Chromadb et LLM d'Openai. J'utilise également les intégres d'Openai
-, l'ADA-002.
-Cependant, les réponses sont très lentes. Pour les petites questions complexes, il faut 20 à 30 secondes po
-ur répondre.
-La taille du VectorStore est de 62 Mo seulement mais elle est toujours très lente.
-Je voulais demander si l
-'utilisation d'une instance AWS EC2 G3 avec des GPU augmentera ou non la vitesse? Ou toute autre solution basée sur le c
-loud.
-De plus, y a-t-il d'autres façons? J'explore également VLLM pour son paramètre de taille parallèle du tenseur.
-Que
-lle est la meilleure approche que je puisse adopter pour augmenter la vitesse des réponses?
-
-Ps. Je suis un débutant dan
-s ce domaine, désolé si j'ai écrit quelque chose de stupide ici :)
-
-Traduit et reposté à partir de la publication 15rpug
-k de la communauté langchain. Pour retrouver la publication originale, insérez l'id de la publication après 'reddit.com/
-'
-```
----
-
-     
- 
-all -  [ [Langchain] Quel est le meilleur VectorStore pour auto-hoster vos indices vectoriels? ](https://www.reddit.com/r/redditenfrancais/comments/18nnse7/langchain_quel_est_le_meilleur_vectorstore_pour/) , 2023-12-25-0910
-```
-Je sais que Pinecone est le plus simple, mais sur le niveau libre, ils suppriment vos index après 7 jours. Quel magasin 
-vectoriel à Langchain prend en charge la sauvegarde d'un index localement afin que vous puissiez tirer des vecteurs enre
-gistrés comme Pinecone? J'ai essayé le chroma, mais cela ne semble pas avoir cette fonctionnalité de ce que je peux dire
-. Au lieu de retirer de la conduite Persiste, il passera un appel API pour rétroser les mêmes intérêts.
-
-Traduit et repo
-sté à partir de la publication 12ia7nc de la communauté langchain. Pour retrouver la publication originale, insérez l'id
- de la publication après 'reddit.com/'
-```
----
-
-     
- 
-all -  [ [Langchain] Quel modèle d'intégration utilisez-vous les gars? ](https://www.reddit.com/r/redditenfrancais/comments/18nnos2/langchain_quel_modèle_dintégration_utilisezvous/) , 2023-12-25-0910
-```
-J'essaie de tester plus de modèles d'intégration et je me demande ce que cette communauté utilise ...
-
-Je sais que cela 
-'peut varier en fonction du cas d'utilisation', donc dans ce cas, veuillez partager le modèle et le cas d'utilisation co
-nnexe.
-
-Actuellement, j'utilise principalement BGE-GARD-V1.5 ou Instructor-XL ...
-
-(intéressé par l'encodeur BI et l'enc
-odeur croisé)
-
-Merci im avance !!!
-
-Traduit et reposté à partir de la publication 1816mb5 de la communauté langchain. Po
-ur retrouver la publication originale, insérez l'id de la publication après 'reddit.com/'
-```
----
-
-     
- 
-all -  [ Summary of long PDFs ](https://www.reddit.com/r/LangChain/comments/18nlcpm/summary_of_long_pdfs/) , 2023-12-25-0910
-```
-Hey people,    
-
-
-I'm new to langchain and have a few questions.    
-
-
-If I want to summarize large PDFs (e.g. long scie
-ntific texts) in an easy-to-understand language, does a vector-based database make sense? Or can I just split the text u
-p and then have it summarized piece by piece and create a summary at the end?   
-
-
-Is the context of the entire PDF pres
-erved in both versions?  
-
-
-I hope you understand my question and can help me. 
-```
----
-
-     
- 
-all -  [ Which framework should I use to build Question-Answering system ? ](https://www.reddit.com/r/LocalLLaMA/comments/18nk6sv/which_framework_should_i_use_to_build/) , 2023-12-25-0910
-```
-Hi
-
-I currently build a QA system using RAG. I have experience with Langchain and using it to build a POC. But when I st
-arted to apply it for production and make more custom to fit with my ideal, I found it too difficult to control the fram
-ework, those chains, agents, and prompts are too complicated to control. 
-
-Can you recommend any framework that is more 
-controllable? or Should I build from scratch?
-```
----
-
-     
- 
-all -  [ Getting general information over a CSV ](https://www.reddit.com/r/LangChain/comments/18nccz3/getting_general_information_over_a_csv/) , 2023-12-25-0910
-```
-Hello everyone. I'm new to Langchain and I made a chatbot using Next.js (so the Javascript library) that uses a CSV with
- soccer info to answer questions. Specific questions, for example 'How many goals did **Haaland** score?' get answered p
-roperly, since it searches info about Haaland in the CSV (I'm embedding the CSV and storing the vectors in Pinecone).
-
-T
-he problem starts when I ask general questions, meaning questions without keywords. For example, 'who made more assists?
-', or maybe something extreme like 'how many rows are there in the CSV?'. It completely fails. I'm guessing that it only
- gets the relevant info from the vector db based on the query and it can't answer these types of questions.
-
-&#x200B;
-
-I
-'m using `ConversationalRetrievalQAChain` from Langchain
-
-    chain.ts
-    
-    /* create vectorstore */
-      const vec
-torStore = await PineconeStore.fromExistingIndex(
-        new OpenAIEmbeddings({}),
-        {
-          pineconeIndex,
- 
-         textKey: 'text',
-        }
-      );
-    
-      return ConversationalRetrievalQAChain.fromLLM(
-        model,
-  
-      vectorStore.asRetriever(),
-        { returnSourceDocuments: true }
-      );
-
-And using it in my API in Next.js.
-
- 
-   route.ts
-    
-    const res = await chain.call({
-        question: question,
-        chat_history: history
-          
-.map((h) => {
-            h.content;
-          })
-          .join('\n'),
-      });
-
-&#x200B;
-
-Any suggestions are welcom
-ed and appreciated. Also feel free to ask any questions. Thanks in advance
-```
----
-
-     
- 
-MachineLearning -  [ [D] github repositories for ai web search agents ](https://www.reddit.com/r/MachineLearning/comments/18dhtm4/d_github_repositories_for_ai_web_search_agents/) , 2023-12-25-0910
+MachineLearning -  [ [D] github repositories for ai web search agents ](https://www.reddit.com/r/MachineLearning/comments/18dhtm4/d_github_repositories_for_ai_web_search_agents/) , 2023-12-26-0909
 ```
 Do you know of any github repositories that either help with building a web search ai agent or that has a good one?
 
@@ -1154,7 +1159,7 @@ example (have not tried either) )
 
      
  
-MachineLearning -  [ [P] flex-prompt: a flexible prompt rendering engine that ensures you'll never exceed your LLM's cont ](https://www.reddit.com/r/MachineLearning/comments/18d581q/p_flexprompt_a_flexible_prompt_rendering_engine/) , 2023-12-25-0910
+MachineLearning -  [ [P] flex-prompt: a flexible prompt rendering engine that ensures you'll never exceed your LLM's cont ](https://www.reddit.com/r/MachineLearning/comments/18d581q/p_flexprompt_a_flexible_prompt_rendering_engine/) , 2023-12-26-0909
 ```
 When working with LLMs, I frequently experience *token agony*.
 
@@ -1345,7 +1350,7 @@ less plug: I have a lot of engineering experience and a bit of machine learning 
 
      
  
-MachineLearning -  [ [D] Working on RAG? You should be evaluating its performance and we've built a way to do that. ](https://www.reddit.com/r/MachineLearning/comments/18ciet5/d_working_on_rag_you_should_be_evaluating_its/) , 2023-12-25-0910
+MachineLearning -  [ [D] Working on RAG? You should be evaluating its performance and we've built a way to do that. ](https://www.reddit.com/r/MachineLearning/comments/18ciet5/d_working_on_rag_you_should_be_evaluating_its/) , 2023-12-26-0909
 ```
 Check out our new open-source tool, Tonic Validate: [https://www.tonic.ai/validate](https://www.tonic.ai/validate)  
 
@@ -1365,7 +1370,7 @@ G system performance?
 
      
  
-MachineLearning -  [ [R] LLMs for structured data? ](https://www.reddit.com/r/MachineLearning/comments/185ei6v/r_llms_for_structured_data/) , 2023-12-25-0910
+MachineLearning -  [ [R] LLMs for structured data? ](https://www.reddit.com/r/MachineLearning/comments/185ei6v/r_llms_for_structured_data/) , 2023-12-26-0909
 ```
 I've been trying to work with structured data in language models, and it's proving to be quite challenging. I'm confiden
 t that with Langchain, I should be able to solve the problem, but I'm not entirely sure which path to take among all the
@@ -1391,7 +1396,7 @@ Any ideas on which library I could
 
      
  
-MachineLearning -  [ [P] A new way of interacting with Hacker News ](https://www.reddit.com/r/MachineLearning/comments/183n6h7/p_a_new_way_of_interacting_with_hacker_news/) , 2023-12-25-0910
+MachineLearning -  [ [P] A new way of interacting with Hacker News ](https://www.reddit.com/r/MachineLearning/comments/183n6h7/p_a_new_way_of_interacting_with_hacker_news/) , 2023-12-26-0909
 ```
 Hi all!
 
@@ -1418,26 +1423,7 @@ https://i.redd.it/rtpof7biqi2c1.gif
 
      
  
-MachineLearning -  [ [Discussion] Is it possible to built a Multi-LLM Assistant? ](https://www.reddit.com/r/MachineLearning/comments/182uuwp/discussion_is_it_possible_to_built_a_multillm/) , 2023-12-25-0910
-```
- 
-
-  
-For example with the following structure:
-
-* System = GPT-4 Turbo + Llama2 +3rd LLM (!)+ Google or Bing API for we
-bsearch + Langchain + any vectorDB + Document upload + longterm Memory + …
-
-Idee behind it is to get more accurate, upda
-ted (websearch) and specialized system or even let the LLms discuss your prompt before completion! Question is also, how
- shall the interaction of multiple LLMs in a system be organzied (Algorithm, Python Library …)? And what kind of Interac
-tion can/should this be? Master-slave or Multi-Master system?
-```
----
-
-     
- 
-deeplearning -  [ Unlocking the Power of Language: How LangChain Transforms Data Analysis and More ](https://www.reddit.com/r/deeplearning/comments/18l788y/unlocking_the_power_of_language_how_langchain/) , 2023-12-25-0910
+deeplearning -  [ Unlocking the Power of Language: How LangChain Transforms Data Analysis and More ](https://www.reddit.com/r/deeplearning/comments/18l788y/unlocking_the_power_of_language_how_langchain/) , 2023-12-26-0909
 ```
 Language models have revolutionized natural language processing (NLP), yet they grapple with limitations that impede the
 ir full potential. Enter LangChain, a pioneering framework that transcends these constraints, fostering innovative langu
@@ -1452,7 +1438,7 @@ data-analysis-and-more-3c4f327d520d)
 
      
  
-deeplearning -  [ [D] Mastering Chain Composition with LangChain Expression Language (LCEL) ](https://www.reddit.com/r/deeplearning/comments/18i0wot/d_mastering_chain_composition_with_langchain/) , 2023-12-25-0910
+deeplearning -  [ [D] Mastering Chain Composition with LangChain Expression Language (LCEL) ](https://www.reddit.com/r/deeplearning/comments/18i0wot/d_mastering_chain_composition_with_langchain/) , 2023-12-26-0909
 ```
 In the intricate landscape of modern software development, orchestrating complex sequences of actions seamlessly poses a
  significant challenge. Enter LangChain Expression Language (LCEL), a groundbreaking declarative approach designed to re
@@ -1466,7 +1452,7 @@ osition-with-langchain-expression-language-lcel-2d5041fb0cbd)
 
      
  
-deeplearning -  [ [D] Utilizing Multimodal LLM for Extracting Tables and Images LangChain+LlamaIndex’s Role in Semi-St ](https://www.reddit.com/r/deeplearning/comments/185vd56/d_utilizing_multimodal_llm_for_extracting_tables/) , 2023-12-25-0910
+deeplearning -  [ [D] Utilizing Multimodal LLM for Extracting Tables and Images LangChain+LlamaIndex’s Role in Semi-St ](https://www.reddit.com/r/deeplearning/comments/185vd56/d_utilizing_multimodal_llm_for_extracting_tables/) , 2023-12-26-0909
 ```
 In the domain of document analysis, the convergence of text, tables, and images presents formidable challenges for conve
 ntional RAG (Retrieval Augmented Generation) methodologies. This complexity is further compounded within semi-structured
