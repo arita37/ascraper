@@ -1,5 +1,349 @@
  
-all -  [ Optimizing Text Embedding for Cohere AI ](https://www.reddit.com/r/LangChain/comments/195yneb/optimizing_text_embedding_for_cohere_ai/) , 2024-01-14-0911
+all -  [ A python package I created for llms application including my own implementation of long short term m ](https://www.reddit.com/r/LocalLLaMA/comments/196qqoy/a_python_package_i_created_for_llms_application/) , 2024-01-15-0911
+```
+[https://github.com/nath1295/LLMPlus](https://github.com/nath1295/LLMPlus)
+
+I find Langchain annoying for not letting yo
+u set different llms with different generation configurations, so I tried to build my own custom llms to avoid loading l
+ocal models multiple times when I want to build an agent or tool that uses the same underlying model. Also, some of the 
+streaming and stop words for llms are not that great in langchain, so I have my own implementation in this package I cre
+ated.   
+I am still using an Intel MacBook (too poor to get Nvidia cards or even a new Macbook :( ) to work on this proj
+ect, so I cannot guarantee the installation will be seamless, but hopefully the pip install works. The code should be wo
+rking with Cuda or apple silicon (used Colab and my friend's flashy new macbook to briefly test it).  
+
+
+Stuff I have in
+ the package:
+
+* An LLM factory class to generate Langchain-compatible llms while only loading the model once.
+* Embeddi
+ng toolkits that have text splitters bundled with the embedding model.
+* A Vector database class built on top of FAISS f
+or local storage.
+* Memory classes: (base one and one with both long-term and short-term memory, powered by a vector dat
+abase)
+* Prompt template class that helps you to format your prompt with different prompt formats (have some presets lik
+e llama2, chatml, vicuna etc.)
+* A base tool class and a web search tool with duckduckgo as an example (please have a lo
+ok, wonder if there are better ways to do that)
+* A Gradio chatbot web app that lets you store different conversations, 
+also you can set your own system prompt and configure the long-term and short-term memory settings, and you can set gene
+ration configurations like temperature, max new tokens, top k etc. (This is just for fun, my front-end skills are not be
+tter than a monkey to be very honest.)
+* And of course, the docs in the repo as well.
+
+&#x200B;
+
+I know I'm no expert, t
+here are plenty of people in this sub who are extremely knowledgeable in this LLM field, so treat this as an amateur pro
+ject looking for advice if you can bear with me for my spaghetti code. Would really appreciate any comments :')) Forgive
+ me if I can't do much testing on fancy GPUs like you guys have, trying not to spend any money to work on this project..
+.
+```
+---
+
+     
+ 
+all -  [ Resume review for data scientist position ](https://www.reddit.com/r/resumes/comments/196omyb/resume_review_for_data_scientist_position/) , 2024-01-15-0911
+```
+Hi Everyone,
+
+I would love to get some feedback about my resume.
+
+Target positions: data scientist / Senior data scienti
+st positions
+
+Location: USA
+
+Thanks!
+
+&#x200B;
+
+https://preview.redd.it/jvdpeev7qgcc1.jpg?width=2550&format=pjpg&auto=we
+bp&s=5f1dc9e2740df855bf44262def4f87c39561d189
+```
+---
+
+     
+ 
+all -  [ can i get an invite code for langsmith please , been waiting forever ](https://www.reddit.com/r/LangChain/comments/196nq3r/can_i_get_an_invite_code_for_langsmith_please/) , 2024-01-15-0911
+```
+can i get an invite code for langsmith please , been waiting forever
+```
+---
+
+     
+ 
+all -  [ Using LLMs to draw simple insight from tabular data: a discussion ](https://www.reddit.com/r/dataengineering/comments/196nl41/using_llms_to_draw_simple_insight_from_tabular/) , 2024-01-15-0911
+```
+Hey hey all, data/analytics engineer here,
+
+I got a lenghty topic, hopefully worthy of a lenghty discussion. I'm looking
+ into LLM-s and how they could be used for assisting in understanding reports.
+
+I would like your opinion on the followi
+ng idea I am exploring.
+
+**Business Problem**
+
+Our company got loads of reports generated, more than humanely possible t
+o read (that's another discussion to have, but many of these are legally required, etc.). It would be really cool that f
+or a given report, there would be a few sentences highlighting things. 
+
+A Report's (Reader's) Digest if you will. Thing
+s like 
+
+* 'It seems that compared to 2023 Q1, in 2023 Q2 our sales in department x has increased by 6.4% percent which 
+is unusually high.'
+* 'Our social network reach has been constantly falling on Facebook since 2023 February.'
+* 'The ave
+rage customer rating has been dropping for 5 consecutive days.'
+
+**Understanding limits**
+
+I get that LLM-s work with st
+ring data, so i'm guessing this isn't a straightforward thing to do. I'm also thinking that currently LLM-s won't figure
+ out insights on their own without guidance, thus questions should be agreed upon with business. (Altough self-propelled
+ insight finding would be a holy grail.) So with this in mind:
+
+* probably business questions should be agreed upon
+* pr
+obably business shouldn't ask their questions directly from an LLM agent
+* LLMs are not great at understanding tabular d
+ata so this is not an obvious path ahead
+
+**Brainstorming ideas**
+
+Architecture-wise, I would be using Databricks (somet
+hing we actively work with), loading a report in as a delta table, then use a [LLM serving endpoint](https://learn.micro
+soft.com/en-us/azure/databricks/machine-learning/model-serving/llm-optimized-model-serving). This is fairly new stuff co
+ming from them, it's still in public preview, but it can leverage LLama-2, keeps the data on databricks side so it seems
+ secure. (GDPR says hello.)
+
+I found of course Pandas AI, that could be useful in combination with databricks somehow? I
+ also found this [fairly recent paper](https://arxiv.org/pdf/2401.04398v1.pdf), which talks about 'Evolving chain for ta
+ble reasoning' on L[LamaIndex linkedin page](https://www.linkedin.com/posts/llamaindex_chain-of-table-use-llms-to-unders
+tand-activity-7151983658596229120-fOo3?utm_source=share&utm_medium=member_desktop) that proposes a chain-of-table queryi
+ng that looks interesting. It seems something closer to what LangChain is doing. Some [medium.com](https://medium.com) a
+rticles i found: [1](https://medium.com/@murtuza753/using-llama-2-0-faiss-and-langchain-for-question-answering-on-your-o
+wn-data-682241488476) (this is about documents), [2](https://ameer-hakme.medium.com/unlocking-context-aware-insights-in-
+tabular-data-with-llms-and-langchain-fac1d33b5c6d) (this is about tabular data)
+
+**A maybe functioning idea**
+
+Okay so l
+et's see if the following makes sense, it is very highlever and very brainstormy:
+
+1. Agree on with business what are th
+e core questions they want to know from a report.
+2. A LLama-2 model is setup in Databricks with serving endpoint
+3. A j
+ob runs daily:
+   1. A report is ingested some magical data engineering-y way (my fellow data engineers know the pain)
+ 
+  2. Prompt engineering: do some setup with the LLM agent (no clue yet what could be needed, but it's a good guess that 
+this is required - to prevent hallucations, etc).
+   3. Prompts from business are loaded from some config file
+   4. Res
+ults are stored in a separate delta table with following schema:
+      1. Some primary key
+      2. Some report identifi
+er
+      3. Business unit or stakeholder identifier
+      4. Prompt
+      5. Answer
+      6. Timestamp
+   5. A SQL Wareh
+ouse endpoint is available and can be queried (by PowerBI for example that gets the latest answers.)
+
+**Problems and lim
+itations**
+
+How do we check if the answers are correct? Monitoring results is very blackbox-y at best. Ideally endusers 
+needs to be trained on the purpose of the Report's Digest is to highlight stuff, but they have to verify it themselves. 
+Getting feedback from endusers can be also complicated
+
+**Conclusion in an ideal world**
+
+Business managers like to look
+ at PowerBI reports, and with this new feature they get an immediate highlight of the day, the top 3 questions they alwa
+ys wanna know about comes with immedaite answers. 'We have an increased count of customer service tickets compared to pr
+evious week'. The manager looks at the graph and it seems to verify this statement.
+
+Engineer team walks into the sunset
+ with cool music in background
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Langchain developers community For Free. ](https://www.reddit.com/r/Langchain_developers/comments/196m52z/langchain_developers_community_for_free/) , 2024-01-15-0911
+```
+The main point of this community rather than Langchain which already exists but have to create a separate for developers
+ , who need help to learn and need assistance.
+
+  
+Feel Free to join and grow this community 
+
+LangChain is an open-sour
+ce framework and developer toolkit that helps developers get LLM applications from prototype to production. It is availa
+ble for Python and Javascript at https://www.langchain.com/. 
+```
+---
+
+     
+ 
+all -  [ Seeking advice for developing a text-to-sql application ](https://www.reddit.com/r/OpenAI/comments/196lvge/seeking_advice_for_developing_a_texttosql/) , 2024-01-15-0911
+```
+Hi everyone,
+
+I'm currently working on an internal project at my company. My goal is to develop a chat-based solution th
+at allows business users to query the data warehouse (we're using BigQuery) through conversation. I’m trying to make thi
+s project more production-ready, rather than being an experiment. I’m using LangChain with OpenAI currently and I could 
+really use some inputs:
+
+1. **Data Privacy and Access Control**: One of our top priorities is to ensure data privacy and
+ appropriate access controls. Tagging a column like “revenue” to be private might work for simple scenarios, but real-li
+fe scenarios are more complex, for example, how do you let users from the marketing department see the “email” column of
+ customers, while others see redacted email? What about row-level security?
+2. **Reviewing Generated SQL Queries**: Our 
+data analysts have raised concerns about the difficulty in reviewing SQL statements generated by LLMs. These queries can
+ be complex and hard to interpret. Any suggestions for making this process more manageable and transparent? Perhaps a SQ
+L lineage tool to show the visibility of the SQL ?
+3. **Semantic Integration with Database Tables and Columns**: Lastly,
+ I'm wondering about the best way to integrate semantics into our database tables and columns. Seems that feeding dbt mo
+dels (including description) directly to the LLM can work at first, but is there any solution that I can let business us
+ers define these metadata themselves ? Does it mean I need to build an internal tool that allows users to update the met
+adata ?
+
+Any feedback, insights, or experiences you can share regarding these challenges are appreciated.
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Seeking advice for developing a text-to-sql application ](https://www.reddit.com/r/LangChain/comments/196lhv9/seeking_advice_for_developing_a_texttosql/) , 2024-01-15-0911
+```
+Hi everyone,
+
+I'm currently working on an internal project at my company. My goal is to develop a chat-based solution th
+at allows business users to query the data warehouse (we're using BigQuery) through conversation. I’m trying to make thi
+s project more production-ready, rather than being an experiment. I’m using LangChain and followed guides in documentati
+on & blogs (ex: [https://python.langchain.com/docs/use\_cases/qa\_structured/sql](https://python.langchain.com/docs/use_
+cases/qa_structured/sql)) to achieve the first version and I could really use some inputs:
+
+1. **Data Privacy and Access
+ Control**: One of our top priorities is to ensure data privacy and appropriate access controls. Tagging a column like “
+revenue” to be private might work for simple scenarios, but real-life scenarios are more complex, for example, how do yo
+u let users from the marketing department see the “email” column of customers, while others see redacted email? What abo
+ut row-level security?
+2. **Reviewing Generated SQL Queries**: Our data analysts have raised concerns about the difficul
+ty in reviewing SQL statements generated by LLMs. These queries can be complex and hard to interpret. Any suggestions fo
+r making this process more manageable and transparent? Perhaps a SQL lineage tool to show the visibility of the SQL ?
+3.
+ **Semantic Integration with Database Tables and Columns**: Lastly, I'm wondering about the best way to integrate semant
+ics into our database tables and columns. Seems that feeding dbt models (including description) directly to the LLM can 
+work at first, but is there any solution that I can let business users define these metadata themselves ? Does it mean I
+ need to build an internal tool that allows users to update the metadata ?
+
+Any feedback, insights, or experiences you c
+an share regarding these challenges are appreciated.
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Seeking advice for developing a text-to-sql application ](https://www.reddit.com/r/LLMDevs/comments/196ldg3/seeking_advice_for_developing_a_texttosql/) , 2024-01-15-0911
+```
+Hi everyone,
+
+I'm currently working on an internal project at my company. My goal is to develop a chat-based solution th
+at allows business users to query the data warehouse (we're using BigQuery) through conversation. I’m trying to make thi
+s project more production-ready, rather than being an experiment. I’m using LangChain (also trying out LlamaIndex), and 
+I could really use some inputs:
+
+1. **Data Privacy and Access Control**: One of our top priorities is to ensure data pri
+vacy and appropriate access controls. Tagging a column like “revenue” to be private might work for simple scenarios, but
+ real-life scenarios are more complex, for example, how do you let users from the marketing department see the “email” c
+olumn of customers, while others see redacted email? What about row-level security?
+2. **Reviewing Generated SQL Queries
+**: Our data analysts have raised concerns about the difficulty in reviewing SQL statements generated by LLMs. These que
+ries can be complex and hard to interpret. Any suggestions for making this process more manageable and transparent? Perh
+aps a SQL lineage tool to show the visibility of the SQL ?
+3. **Semantic Integration with Database Tables and Columns**:
+ Lastly, I'm wondering about the best way to integrate semantics into our database tables and columns. Seems that feedin
+g dbt models (including description) directly to the LLM can work at first, but is there any solution that I can let bus
+iness users define these metadata themselves ? Does it mean I need to build an internal tool that allows users to update
+ the metadata ?
+
+Any feedback, insights, or experiences you can share regarding these challenges are appreciated.
+
+Thank
+s!
+```
+---
+
+     
+ 
+all -  [ A Vision ](https://www.reddit.com/r/LangChain/comments/196lcjp/a_vision/) , 2024-01-15-0911
+```
+My employer is doing a Hackathon soon and the focus is on GenAI. Like most orgs, they’ve created a spin off LLM for empl
+oyee use running on GPT-4 that we can use in our daily tasks (and hackathon practice). There’s a document upload feature
+ where I’ve been providing context about the platform we support (microservices in FinTech) along with a small dataset o
+f information related to successful processing of requests, time taken data, and application error log data for maybe a 
+15 minute sample and would them prompt it with a question like “Customer XYZ reported some issues at 11:30am, was anythi
+ng going on?”  I’d get a pretty decent response back where it would point out an increase in failed requests and some er
+rors logged around that same time. 
+
+My question is how do I expand upon this?
+
+I’m still working on the DataBricks note
+book that will pull this data in a consistent format based on the requested time and eventually stream this of some sort
+. 
+
+More so though, it’s the context needed to accurately answer needs applied each time I test a new snippet of data. T
+hat lead me to vector databases, HuggingFace models, LangChain, and Faiss. It all feels very overwhelming to logically c
+onnect these dots. 
+
+Is there an ELI5 of how this would conceptually work regarding the data generated, the context, and
+ answering the prompt?
+```
+---
+
+     
+ 
+all -  [ [Student], 5 year BS MS program 4th year student. Looking for Software eng/dev internships. ](https://www.reddit.com/r/EngineeringResumes/comments/1968k64/student_5_year_bs_ms_program_4th_year_student/) , 2024-01-15-0911
+```
+Hello, I am a 4th year student in a 5 year MS BS program, and I am looking for an software engineering/developer interns
+hip in FAANG or any higher level tech company anywhere in the US and I am willing to relocate. I would like some advice 
+as to what my resume is lacking, or needs to do better, any help is greatly appreciated. Thank you!
+
+https://preview.red
+d.it/0p7ge06xeccc1.jpg?width=850&format=pjpg&auto=webp&s=8ff44d3376bf0a3c13443a5442847b7c16193b06
+
+ 
+```
+---
+
+     
+ 
+all -  [ Why langchain focuses on OpenAI rather than local llm? ](https://www.reddit.com/r/LangChain/comments/1966yxv/why_langchain_focuses_on_openai_rather_than_local/) , 2024-01-15-0911
+```
+Sorry I am new to langchain. And I found all the examples are OpenAI. But I think the value of langchain is mainly on lo
+cal llm. Otherwise, why not using GPTs? I’m very curious about it.
+```
+---
+
+     
+ 
+all -  [ Optimizing Text Embedding for Cohere AI ](https://www.reddit.com/r/LangChain/comments/195yneb/optimizing_text_embedding_for_cohere_ai/) , 2024-01-15-0911
 ```
 I'm utilizing Cohere AI for a project, and I have a text file that I want to embed. While I'm aware that Langchain has c
 hunking functions, I believe Tiktoken might be more effective. However, I'm unsure about how Tiktoken works or if it wou
@@ -9,7 +353,7 @@ ld be suitable for Cohere.
 
      
  
-all -  [ Me pueden dar retro para mi CV, me gustaria aplicar a internships en la region al norte de México y  ](https://i.redd.it/ynci98h6k9cc1.jpeg) , 2024-01-14-0911
+all -  [ Me pueden dar retro para mi CV, me gustaria aplicar a internships en la region al norte de México y  ](https://i.redd.it/ynci98h6k9cc1.jpeg) , 2024-01-15-0911
 ```
 
 ```
@@ -17,7 +361,7 @@ all -  [ Me pueden dar retro para mi CV, me gustaria aplicar a internships en la
 
      
  
-all -  [ LLM Assistant with function calling - Just a small test project I made ](https://www.reddit.com/r/LocalLLaMA/comments/195t9qi/llm_assistant_with_function_calling_just_a_small/) , 2024-01-14-0911
+all -  [ LLM Assistant with function calling - Just a small test project I made ](https://www.reddit.com/r/LocalLLaMA/comments/195t9qi/llm_assistant_with_function_calling_just_a_small/) , 2024-01-15-0911
 ```
 [https://github.com/Rivridis/LLM-Assistant](https://github.com/Rivridis/LLM-Assistant)
 
@@ -40,7 +384,7 @@ ich, once I find a way to make the LLM choose multiple functions instead of the 
 
      
  
-all -  [ How to implement RAG? ](https://www.reddit.com/r/LocalLLaMA/comments/195snd0/how_to_implement_rag/) , 2024-01-14-0911
+all -  [ How to implement RAG? ](https://www.reddit.com/r/LocalLLaMA/comments/195snd0/how_to_implement_rag/) , 2024-01-15-0911
 ```
 I am making my own frontend, is there an easy way to add RAG functionality? I'm using Ooba for the backend, it's relativ
 ely easy to use the API, but I can't seem to find anything similar for a RAG system. Possibly no langchain or docker.
@@ -49,37 +393,7 @@ ely easy to use the API, but I can't seem to find anything similar for a RAG sys
 
      
  
-all -  [ Hoping for guidance on learning to work with LLMs ](https://www.reddit.com/r/ExperiencedDevs/comments/195ry1h/hoping_for_guidance_on_learning_to_work_with_llms/) , 2024-01-14-0911
-```
-I'm an experienced senior dev trying to learn how to leverage LLMs in an application.
-
-First, I am well aware of their l
-imitations. In my experimentation with ChatGPT/Bard/Copilot/etc on the web, they seem to be pretty solid at analyzing da
-ta I feed to it, rather than expecting them to just 'know' things where they constantly hallucinate. Still, I think it's
- a very useful skill to have with the hype going on, and I want to understand it.
-
-Second, the field is definitely quite
- new. There aren't a lot of good frameworks and abstractions, which isn't a bad thing because I prefer to start at a low
-er level anyway to understand things. For example, LangChain comes up in all my searches but I have read so many mixed t
-hings about it. So I'm staying away from the abstractions and trying to learn the concepts.
-
-I'm hoping for guidance to 
-good educational materials on:
-
-1. Embeddings
-2. Vector databases
-3. Using your own data from a database with LLM querie
-s.
-4. Prompt engineering - this one seems a bit over hyped, it seems to basically be just 'be very specific and detailed
-' so I don't care as much about this one.
-
-Thanks in advance for any direction that can be offered.
-```
----
-
-     
- 
-all -  [ Mastering RAG App Embedding with Custom Models ](https://www.reddit.com/r/LangChain/comments/195rest/mastering_rag_app_embedding_with_custom_models/) , 2024-01-14-0911
+all -  [ Mastering RAG App Embedding with Custom Models ](https://www.reddit.com/r/LangChain/comments/195rest/mastering_rag_app_embedding_with_custom_models/) , 2024-01-15-0911
 ```
 Hey folks, 
 
@@ -92,7 +406,7 @@ the LLM to create the embedding model, or is there a process I'm not familiar wi
 
      
  
-all -  [ Looking for resources to learn LLM Development ](https://www.reddit.com/r/LLMDevs/comments/195r8pg/looking_for_resources_to_learn_llm_development/) , 2024-01-14-0911
+all -  [ Looking for resources to learn LLM Development ](https://www.reddit.com/r/LLMDevs/comments/195r8pg/looking_for_resources_to_learn_llm_development/) , 2024-01-15-0911
 ```
 I'm an experienced senior software engineer who just hasn't touched LLMs before. My goal is to learn how to integrate an
  LLM into an application to do tasks like data analysis, leveraging data in the application alongside new inputs to maxi
@@ -131,7 +445,7 @@ rection on educational resources. Thanks.
 
      
  
-all -  [ Me podrian dar consejos sobre que deberia ponerle/cambiarle a mi CV quiero ver si se arman las inter ](https://www.reddit.com/r/taquerosprogramadores/comments/195hp64/me_podrian_dar_consejos_sobre_que_deberia/) , 2024-01-14-0911
+all -  [ Me podrian dar consejos sobre que deberia ponerle/cambiarle a mi CV quiero ver si se arman las inter ](https://www.reddit.com/r/taquerosprogramadores/comments/195hp64/me_podrian_dar_consejos_sobre_que_deberia/) , 2024-01-15-0911
 ```
 &#x200B;
 
@@ -142,7 +456,7 @@ https://preview.redd.it/iuzi7vjuj5cc1.jpg?width=757&format=pjpg&auto=webp&s=8eb1
 
      
  
-all -  [ Please critique my CV. About 200 apps and still no call. ](https://i.redd.it/atci47ypz4cc1.jpeg) , 2024-01-14-0911
+all -  [ Please critique my CV. About 200 apps and still no call. ](https://i.redd.it/atci47ypz4cc1.jpeg) , 2024-01-15-0911
 ```
 Graduating in May and desperately looking for a gig as an international student. Kindda getting anxious now lol. Any fee
 dback would be greatly appreciated!
@@ -151,43 +465,7 @@ dback would be greatly appreciated!
 
      
  
-all -  [ Recent CS Grad [0 YOE]. Looking for feedback so I can improve ](https://www.reddit.com/r/EngineeringResumes/comments/195b0oc/recent_cs_grad_0_yoe_looking_for_feedback_so_i/) , 2024-01-14-0911
-```
-Hi there!
-
-I hope you all are doing well! In the midst of applying to several job apps and either getting ghosted or rej
-ected, I wanted to see if I can get some valuable feedback from the Reddit community. I am applying to software engineer
-ing jobs (either ones with 0-1 YoE or Full Stack Development) as I think those are the ones that fit my resume the most.
-
-
-&#x200B;
-
-Here are a couple specific questions I'm wondering:
-
-\- Should I include side projects as opposed to my 'Com
-munity, Honors, and Awards' section, or should I just leave it as it is?
-
-\- Is my impact for my experience sufficient? 
-More specifically, does it follow the STAR format? Is there anything I should change or keep?
-
-\- Does the technical ski
-lls section look alright? Not sure if listing a bunch of keywords is the way to go, but noticed that several resumes do 
-that.
-
-\- Is the order of my sections (Education->Technical Skills -> Professional Experience -> Community, Honors, and 
-Awards) viable? Or is there a better ordering?
-
-Any other feedback or thoughts would be appreciated! Have a wonderful da
-y!
-
-https://preview.redd.it/crmrm5uyt3cc1.png?width=5100&format=png&auto=webp&s=508310401fff5faa764efe867758193131988117
-
-```
----
-
-     
- 
-all -  [ Show and Tell: What have you built with LLMs? ](https://www.reddit.com/r/LangChain/comments/1958znq/show_and_tell_what_have_you_built_with_llms/) , 2024-01-14-0911
+all -  [ Show and Tell: What have you built with LLMs? ](https://www.reddit.com/r/LangChain/comments/1958znq/show_and_tell_what_have_you_built_with_llms/) , 2024-01-15-0911
 ```
 Hello LLM enthusiasts! I'm eager to hear about the creative and innovative ways you've been using Large Language Models 
 (LLMs) in your projects. Lang Chain, has been a game-changer in bringing these applications from the drawing board to re
@@ -199,7 +477,7 @@ Let's inspire each other by sharing our experiences and discussing how Lang Chai
 
      
  
-all -  [ Trying to solve for bad data ](https://www.reddit.com/r/LangChain/comments/1957t7r/trying_to_solve_for_bad_data/) , 2024-01-14-0911
+all -  [ Trying to solve for bad data ](https://www.reddit.com/r/LangChain/comments/1957t7r/trying_to_solve_for_bad_data/) , 2024-01-15-0911
 ```
 Hi. I'm tasked with building a chatbot for work. We are an HR tech company. 
 
@@ -224,7 +502,7 @@ Thanks.
 
      
  
-all -  [ Langchain with Hugging face models ](https://www.reddit.com/r/LangChain/comments/1954q8y/langchain_with_hugging_face_models/) , 2024-01-14-0911
+all -  [ Langchain with Hugging face models ](https://www.reddit.com/r/LangChain/comments/1954q8y/langchain_with_hugging_face_models/) , 2024-01-15-0911
 ```
 I am new to langchain. Can someone please explain to me how to use hugging face models like Microsoft phi-2 with langcha
 in? The official documentation talks about openAI and other inference API based LLMs but how about locally running model
@@ -234,7 +512,7 @@ s?
 
      
  
-all -  [ Intro to LangChain - Full Documentation Overview ](https://youtu.be/dXP841pBcJw?si=V03bfGxR0E2DVOA8) , 2024-01-14-0911
+all -  [ Intro to LangChain - Full Documentation Overview ](https://youtu.be/dXP841pBcJw?si=V03bfGxR0E2DVOA8) , 2024-01-15-0911
 ```
 Comprehensive LangChain Overview
 ```
@@ -242,7 +520,7 @@ Comprehensive LangChain Overview
 
      
  
-all -  [ Chroma retriever/CSV Agent giving poor results, any advice on this? ](https://www.reddit.com/r/LangChain/comments/194xwhi/chroma_retrievercsv_agent_giving_poor_results_any/) , 2024-01-14-0911
+all -  [ Chroma retriever/CSV Agent giving poor results, any advice on this? ](https://www.reddit.com/r/LangChain/comments/194xwhi/chroma_retrievercsv_agent_giving_poor_results_any/) , 2024-01-15-0911
 ```
  I’m working on a solution for a client who needs an agent to pull data from a CSV file, which contains information abou
 t a provider’s location, services, categories, phone numbers, and addresses. Initial trials with chroma embeddings and a
@@ -270,7 +548,7 @@ The adjunted image is a sample of my CSV/Excel file. Any advice is would be apre
 
      
  
-all -  [ Aplicatii cu llmuri ](https://www.reddit.com/r/programare/comments/194xoa1/aplicatii_cu_llmuri/) , 2024-01-14-0911
+all -  [ Aplicatii cu llmuri ](https://www.reddit.com/r/programare/comments/194xoa1/aplicatii_cu_llmuri/) , 2024-01-15-0911
 ```
 cu ce aplicatii misto va laudati, facute cu de-alde langchain, langgraph, llamaindex, autogen? chiar as citi niste pytho
 n
@@ -279,7 +557,7 @@ n
 
      
  
-all -  [ Contribute to open-source AI gateway, written in TS ](https://www.reddit.com/r/LangChain/comments/194ut4u/contribute_to_opensource_ai_gateway_written_in_ts/) , 2024-01-14-0911
+all -  [ Contribute to open-source AI gateway, written in TS ](https://www.reddit.com/r/LangChain/comments/194ut4u/contribute_to_opensource_ai_gateway_written_in_ts/) , 2024-01-15-0911
 ```
 [https://github.com/portkey-ai/gateway](https://github.com/portkey-ai/gateway)
 
@@ -299,249 +577,7 @@ Would love to hear the community's views/feedback 🙏
 
      
  
-all -  [ Let's dicsuss this sub's negative feelings towards LangChain ](https://www.reddit.com/r/LangChain/comments/194u376/lets_dicsuss_this_subs_negative_feelings_towards/) , 2024-01-14-0911
-```
-I am surprised to see many posts like [this one](https://www.reddit.com/r/LangChain/comments/193oz8b/holy_f_i_have_never
-_seen_such_spaghetti_code_in/), or [this one](https://www.reddit.com/r/LangChain/comments/18eukhc/i_just_had_the_displea
-sure_of_implementing/), expressing negative sentiments about LangChain and in particular the agreement about the negativ
-ity in the comment section. For a community that comes together for the LangChain package and ecosystem, there seems to 
-be a surprising amount of people that don't like it. The advice given is often to not use LangChain at all.
-
-Personally,
- I have been impressed by the developer's willingness to listen to the community, and would expect this to lead to a pos
-itive mindset in the community. For example the introduction of LCEL is an attempt to improve the code quality and reduc
-e the complexity of applications build with LangChain. However, [the community does not seem to see its value](https://w
-ww.reddit.com/r/LangChain/comments/18t3jn9/do_we_really_need_lcel/).
-
-While I understand some of the criticism, I don't 
-believe the amount of negativity is justified. Moreover, it seems there is little willingness for constructive feedback 
-that could be used to improve the situation. This post is a plea to improve this mindset for the betterment of the LangC
-hain ecosystem and the community that uses it. With LangChain having just released version 0.1, I think this is a good m
-oment in time for this community to reflect on what it expects from LangChain going forward. Let me know what you think.
-
-```
----
-
-     
- 
-all -  [ Langchain User Group Meeting on Thursday Jan 18 2024 ](https://www.reddit.com/r/LangChain/comments/194g33t/langchain_user_group_meeting_on_thursday_jan_18/) , 2024-01-14-0911
-```
-Hello!
-
-I've been organizing a langchain user group meeting every other Thursday at 7pm eastern US time.
-
-We get people 
-just interested in langchain, people using langchain at work, people using langchain as a hobby. We like to discuss the 
-langchain blog posts, interesting projects using langchain, and as a general networking event among people tuned into th
-e AI boom. It's a great opportunity to share the latest developments, what works, what doesn't work, and so on.
-
-[https:
-//www.meetup.com/langchain-user-group/events/298217248/](https://www.meetup.com/langchain-user-group/events/298217248/)
-```
----
-
-     
- 
-all -  [ Which is best vector similarity search and vector db for code chunks? ](https://www.reddit.com/r/LangChain/comments/1948p85/which_is_best_vector_similarity_search_and_vector/) , 2024-01-14-0911
-```
-Suppose taking files .cs (C#) from repo,  splitting into chunks and storing in vector db. 
-Using embedding model sentenc
-e transformer model***. 
-Kindly suggest me best vector db storage and best similarity search for same which can can give
- best context to pass to llm.
-Thanks in advance 🙂
-```
----
-
-     
- 
-all -  [ Simplifying Langchain: A Practical Guide to Supercharging with GPT-4 ](https://www.reddit.com/r/LangChain/comments/1947pl5/simplifying_langchain_a_practical_guide_to/) , 2024-01-14-0911
-```
-Hey Langchain enthusiasts!
-
-I’ve noticed a lot of chatter about the steep learning curve of Langchain. So, I thought I’d
- share my approach that makes it not only manageable but also pretty awesome to use.
-
-🚀 The Game-Changer: I tweaked the 
-Langchain chatbot (open-source, yay!) by swapping out the GPT-3.5 model with the shiny new GPT-4, boasting a massive 128
-K context window. This upgrade means we can feed it a hefty amount of chain reference code. The result? Writing substant
-ial code segments that require minimal tweaking!
-
-🛠️ Here’s How You Can Do It Too:
-
-	1.	Set the Stage: Clone the chat-la
-ngchain repo and set it up as per the guidelines. A piece of cake!
-	2.	The Magic Swap: In chain.py, replace “GPT-3.5-tur
-bo” with “gpt-4-1106-preview”. Boost the number of retrieved chunks (I’m rocking search_kwargs=dict(k=20)).
-	3.	Prompt P
-erfection: Modify the prompt (example below) and ensure your initial description is crystal clear. Dropping in known cla
-ss names helps the bot understand your needs better. 
-
-Happy coding!
-
-
-
-Here’s the prompt I’m using:
-
-RESPONSE_TEMPLATE 
-= '''\
-You are an expert programmer and problem-solver, tasked with answering any question \
-about Langchain and generat
-ing complete working scripts using the Langchain framework. Your responses \
-shall have two parts: Answer and Code.
-
-***
-For the Answer:***
-Generate a comprehensive and informative answer of 80 words or less for the \
-given question based so
-lely on the provided search results (URL and content). You must \
-only use information from the provided search results.
- Use an unbiased and \
-journalistic tone. Combine search results together into a coherent answer. Do not \
-repeat text. 
-Cite search results using [${{number}}] notation. Only cite the most \
-relevant results that answer the question accurat
-ely. Place these citations at the end \
-of the sentence or paragraph that reference them - do not put them all at the en
-d. If \
-different results refer to different entities within the same name, write separate \
-answers for each entity.
-
-Y
-ou should use bullet points in your answer for readability. Put citations where they apply \
-rather than putting them al
-l at the end.
-
-If there is nothing in the context relevant to the question at hand, just say 'Hmm, \
-I'm not sure.' Don'
-t try to make up an answer.
-
-***For the Code:***
-Produce complete, functional Python code that utilizes the Langchain fr
-amework to address the question or task \
-presented. Ensure that the code is:
-1. Readable: Write clear, understandable c
-ode. Use descriptive variable names and adhere to Python's PEP 8 style \
-guidelines for maximum readability.
-2. Efficien
-t: Optimize for performance. Use efficient algorithms and data structures to ensure the code runs \
-effectively and cons
-ervatively uses resources.
-3. Error-Handled: Incorporate error handling to manage and anticipate potential issues that m
-ight arise during \
-execution. Use try-except blocks where appropriate and validate input data.
-4. Tested: Include neces
-sary assertions or print statements to demonstrate the functionality and correctness \
-of the code. Ensure that the code
- produces expected results when executed.
-5. Complete: Ensure the code can be copied directly into a Python project with
- no modifications needed. \
-It should be self-contained, specifying all necessary imports and dependencies.
-6. Langchain
--Specific: Utilize the appropriate classes, functions, and methods from the Langchain \
-framework. Clearly demonstrate h
-ow Langchain's features and capabilities are applied to solve the \
-given problem or task.
-7. Context-Aware: Use the pro
-vided context effectively. Reference and utilize data, variables, or \
-insights derived from the 'context' section to in
-form the code's logic and functionality. \
-8. Comment-Free Execution: Avoid using comment blocks as placeholders for cod
-e. Ensure all functional \
-parts of the code are executable statements and not comments.
-
-If the question or task does n
-ot provide enough information for a complete script, or if it is outside the scope of \
-the Langchain framework, clearly
- state that a complete working script cannot be provided as requested, explain \
-the reasons and provide suggestions and
-/or alternatives. 
-
-Anything between the following `context` html blocks is retrieved from a knowledge \
-bank, and is pr
-ovided in addition to the conversation with the user. 
-<context>
-    {context} 
-<context/>
-
-Anything between the followi
-ng `Code_Block` html blocks were provided by user as integral and shall be \
-treated as essential to your response. Each
- block of code is enclosed within a pair of markdowns triple backticks (```)
-<Code_Block>
-    {Code_Block} 
-<Code_Block/
->
-
-***REMEMBER:***
--If there is no relevant information within the context, just say 'Hmm, I'm \
-not sure.' Don't try to
- make up an answer. Anything between the preceding 'context' \
-html blocks is retrieved from a knowledge bank, not part 
-of the conversation with the \
-user. 
--The goal is to provide code that is ready to be integrated and used in a project,
- \
-demonstrating the practical application and power of the Langchain framework in solving real-world problems.\
-Anythin
-g between the preceding 'Code_Block' html blocks were provided by user as integral and shall be \
-treated as essential t
-o your response. 
-'''
-```
----
-
-     
- 
-all -  [ ID-based RAG with Supabase Vector Store ](https://www.reddit.com/r/Supabase/comments/19470zd/idbased_rag_with_supabase_vector_store/) , 2024-01-14-0911
-```
-I am using langchain for document processing and then I generate OpenAI Embeddings and save them to Supabase Vector Stor
-e which looks like this
-
-https://preview.redd.it/yn8fs68ohubc1.png?width=2096&format=png&auto=webp&s=d05afa2aa1ffca6472f
-d62353a21ab78c5a8f9e7
-
-Each row shows a chunk from a specific document. I want these documents to be isolated from each 
-other and the knowledge base should not mix since one document should not have knowledge about other documents. So for t
-hat purpose I want to add a user\_id and a document\_id against every row so that LLM can only generate response from th
-e documents with a specified id. 
-
-https://preview.redd.it/qvonjitshubc1.png?width=1440&format=png&auto=webp&s=8d49edf66
-4a5f7ed6df4eb9064915484457e0ab0
-
-I have searched a lot but the most popular solution I found is to use metadata and put 
-all your ids in there which can be seen below. I think that is not a good solution for a sql based database. Did anyone 
-find a proper sql solution for this problem?
-```
----
-
-     
- 
-all -  [ ID-based RAG for Supabase Vector Store ](https://www.reddit.com/r/node/comments/1946ynk/idbased_rag_for_supabase_vector_store/) , 2024-01-14-0911
-```
-I am using langchain for document processing and then I generate OpenAI Embeddings and save them to Supabase Vector Stor
-e which looks like this
-
-https://preview.redd.it/2x1ofw4tgubc1.png?width=2174&format=png&auto=webp&s=14db64f9ffe9ca8ec22
-a83cfe194e2cb8b973ca8
-
-Each row shows a chunk from a specific document. I want these documents to be isolated from each 
-other and the knowledge base should not mix since one document should not have knowledge about other documents. So for t
-hat purpose I want to add a user\_id and a document\_id against every row so that LLM can only generate response from th
-e documents with a specified id. 
-
-I have searched a lot but the most popular solution I found is to use metadata and pu
-t all your ids in there which can be seen below. I think that is not a good solution for a sql based database. Did anyon
-e find a proper sql solution for this problem?
-
-https://preview.redd.it/i2yjdkr5hubc1.png?width=1198&format=png&auto=web
-p&s=71cd6d4dfb78d7667ee8b746f6c678c907543c91
-```
----
-
-     
- 
-MachineLearning -  [ [D] Are Custom LLM RAG apps going to become redundant? ](https://www.reddit.com/r/MachineLearning/comments/1929n4f/d_are_custom_llm_rag_apps_going_to_become/) , 2024-01-14-0911
+MachineLearning -  [ [D] Are Custom LLM RAG apps going to become redundant? ](https://www.reddit.com/r/MachineLearning/comments/1929n4f/d_are_custom_llm_rag_apps_going_to_become/) , 2024-01-15-0911
 ```
 Loks like Copilot Studio is being rolled out (https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio
 ) with an impressive looking no code/out of the box RAG solution.
@@ -567,7 +603,7 @@ Obviously there will be exceptions…but on most use cases I don’t see how you
 
      
  
-MachineLearning -  [ [P] An open-source project for deploying local models ](https://www.reddit.com/r/MachineLearning/comments/18zkm5m/p_an_opensource_project_for_deploying_local_models/) , 2024-01-14-0911
+MachineLearning -  [ [P] An open-source project for deploying local models ](https://www.reddit.com/r/MachineLearning/comments/18zkm5m/p_an_opensource_project_for_deploying_local_models/) , 2024-01-15-0911
 ```
  Introducing a new LLM WebUI project that supports various local model loading and provides streaming output for cutting
 -edge online multimodal models GPT-4-Vision and Gemini-Pro-Vision. Completely free and open source, it serves as a valua
@@ -595,7 +631,7 @@ a61859f53db100)
 
      
  
-MachineLearning -  [ [Project] Temporal Augmented Retrieval (TAR) - Dynamic RAG ](https://www.reddit.com/r/MachineLearning/comments/18uddmj/project_temporal_augmented_retrieval_tar_dynamic/) , 2024-01-14-0911
+MachineLearning -  [ [Project] Temporal Augmented Retrieval (TAR) - Dynamic RAG ](https://www.reddit.com/r/MachineLearning/comments/18uddmj/project_temporal_augmented_retrieval_tar_dynamic/) , 2024-01-15-0911
 ```
 From a corpus of text, how can you detect emerging topics and their evolution through time?
 
@@ -637,7 +673,7 @@ https://preview.redd.it/lj7wkhk70f9c1.png?width=960&format
 
      
  
-MachineLearning -  [ [R][P] Autogen + Langchain Tools + Local LLM doesn't work. ](https://www.reddit.com/r/MachineLearning/comments/18tex1j/rp_autogen_langchain_tools_local_llm_doesnt_work/) , 2024-01-14-0911
+MachineLearning -  [ [R][P] Autogen + Langchain Tools + Local LLM doesn't work. ](https://www.reddit.com/r/MachineLearning/comments/18tex1j/rp_autogen_langchain_tools_local_llm_doesnt_work/) , 2024-01-15-0911
 ```
 Hey folks, 
 
@@ -661,7 +697,7 @@ Any thoughts and suggestions? Please let me know ! Please share your experiences
 
      
  
-MachineLearning -  [ [P] Seeking Advice for Building a School Handbook Chatbot Using OpenAI and Vector Databases ](https://www.reddit.com/r/MachineLearning/comments/18rndcp/p_seeking_advice_for_building_a_school_handbook/) , 2024-01-14-0911
+MachineLearning -  [ [P] Seeking Advice for Building a School Handbook Chatbot Using OpenAI and Vector Databases ](https://www.reddit.com/r/MachineLearning/comments/18rndcp/p_seeking_advice_for_building_a_school_handbook/) , 2024-01-15-0911
 ```
 Hello everyone,
 
@@ -690,7 +726,7 @@ ou in advance for your help!
 
      
  
-deeplearning -  [ [D] Unleashing the Power of Langchain with Wandb: Revolutionizing Topic Modeling and Evaluation ](https://www.reddit.com/r/deeplearning/comments/191mm83/d_unleashing_the_power_of_langchain_with_wandb/) , 2024-01-14-0911
+deeplearning -  [ [D] Unleashing the Power of Langchain with Wandb: Revolutionizing Topic Modeling and Evaluation ](https://www.reddit.com/r/deeplearning/comments/191mm83/d_unleashing_the_power_of_langchain_with_wandb/) , 2024-01-15-0911
 ```
 Complementing Langchain’s prowess, Wandb emerges as a powerhouse meticulously designed for developers leveraging LLM tec
 hnology. As an evaluation framework and production monitoring platform, Wandb stands out for its tailored approach. Its 
@@ -707,7 +743,7 @@ ances/unleashing-the-power-of-langchain-with-wandb-revolutionizing-topic-modelin
 
      
  
-deeplearning -  [ Unlocking the Power of Language: How LangChain Transforms Data Analysis and More ](https://www.reddit.com/r/deeplearning/comments/18l788y/unlocking_the_power_of_language_how_langchain/) , 2024-01-14-0911
+deeplearning -  [ Unlocking the Power of Language: How LangChain Transforms Data Analysis and More ](https://www.reddit.com/r/deeplearning/comments/18l788y/unlocking_the_power_of_language_how_langchain/) , 2024-01-15-0911
 ```
 Language models have revolutionized natural language processing (NLP), yet they grapple with limitations that impede the
 ir full potential. Enter LangChain, a pioneering framework that transcends these constraints, fostering innovative langu
@@ -717,20 +753,6 @@ age models (LLMs).
 link: [https://medium.com/ai-advances/unlocking-the-power-of-language-how-langchain-transforms-data-
 analysis-and-more-3c4f327d520d](https://medium.com/ai-advances/unlocking-the-power-of-language-how-langchain-transforms-
 data-analysis-and-more-3c4f327d520d) 
-```
----
-
-     
- 
-deeplearning -  [ [D] Mastering Chain Composition with LangChain Expression Language (LCEL) ](https://www.reddit.com/r/deeplearning/comments/18i0wot/d_mastering_chain_composition_with_langchain/) , 2024-01-14-0911
-```
-In the intricate landscape of modern software development, orchestrating complex sequences of actions seamlessly poses a
- significant challenge. Enter LangChain Expression Language (LCEL), a groundbreaking declarative approach designed to re
-volutionize the composition of chains within software architecture.
-
-Link: [https://medium.com/ai-artistry/mastering-cha
-in-composition-with-langchain-expression-language-lcel-2d5041fb0cbd](https://medium.com/ai-artistry/mastering-chain-comp
-osition-with-langchain-expression-language-lcel-2d5041fb0cbd)  
 ```
 ---
 
