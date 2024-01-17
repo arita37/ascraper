@@ -1,5 +1,5 @@
  
-all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-01-16-0910
+all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-01-17-0910
 ```
 I am beyond excited to publish our first Weaviate Podcast interview in-person at the NeurIPS conference with Omar Khatta
 b from Stanford University!
@@ -36,7 +36,7 @@ eaviate/episodes/DSPy-and-ColBERT-with-Omar-Khattab----Weaviate-Podcast-85-e2eff
 
      
  
-all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/deepCuriosity/Attending-NeurIPS2023) , 2024-01-16-0910
+all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/deepCuriosity/Attending-NeurIPS2023) , 2024-01-17-0910
 ```
 
 ```
@@ -44,7 +44,7 @@ all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/dee
 
      
  
-all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-01-16-0910
+all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-01-17-0910
 ```
 Hi all, I've stumbled upon this Neurips paper 'Large Language Models Are Zero-Shot Time Series Forecasters'   [2310.0782
 0.pdf (arxiv.org)](https://arxiv.org/pdf/2310.07820.pdf?trk=public_post_comment-text)  and wonder what people in time se
@@ -63,7 +63,7 @@ anks!
 
      
  
-all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-01-16-0910
+all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-01-17-0910
 ```
 I'm interested in reviewing for the upcoming cycles of ECCV, Neurips, ICLR, AAAI etc. 
 
@@ -77,7 +77,7 @@ there a better way of doing it?
 
      
  
-all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-01-16-0910
+all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-01-17-0910
 ```
 Hey everyone! We had an incredible time at the NeurIPS conference this year in New Orleans! We learned a ton, met so man
 y amazing people, and... put together our first in-person podcast series!!
@@ -109,7 +109,7 @@ h?v=xrZxk0H2cmY)
 
      
  
-all -  [ AI Partnerships, Intelligence Augmentation, and Open Source Research: A Look at Current AI Trends ](https://www.reddit.com/r/ai_news_by_ai/comments/191d4cy/ai_partnerships_intelligence_augmentation_and/) , 2024-01-16-0910
+all -  [ AI Partnerships, Intelligence Augmentation, and Open Source Research: A Look at Current AI Trends ](https://www.reddit.com/r/ai_news_by_ai/comments/191d4cy/ai_partnerships_intelligence_augmentation_and/) , 2024-01-17-0910
 ```
 
 
@@ -241,7 +241,7 @@ n LeCun @ylecun https://twitter.com/ylecun/status/1744135793243767102](https://t
 
      
  
-all -  [ Why don't we build a really good agent to help you write AI Research Papers ](https://www.reddit.com/r/LaTeX/comments/1911j0q/why_dont_we_build_a_really_good_agent_to_help_you/) , 2024-01-16-0910
+all -  [ Why don't we build a really good agent to help you write AI Research Papers ](https://www.reddit.com/r/LaTeX/comments/1911j0q/why_dont_we_build_a_really_good_agent_to_help_you/) , 2024-01-17-0910
 ```
 Hi folks, 
 
@@ -288,7 +288,7 @@ ecting to squeeze out of an AI agent, if it's helping you write your next NeurIP
 
      
  
-all -  [ [Hiring] Abridge is hiring a Data Engineering Lead to Support ML/Research team - Fully Remote, US-Ba ](https://www.reddit.com/r/dataengineeringjobs/comments/1903yye/hiring_abridge_is_hiring_a_data_engineering_lead/) , 2024-01-16-0910
+all -  [ [Hiring] Abridge is hiring a Data Engineering Lead to Support ML/Research team - Fully Remote, US-Ba ](https://www.reddit.com/r/dataengineeringjobs/comments/1903yye/hiring_abridge_is_hiring_a_data_engineering_lead/) , 2024-01-17-0910
 ```
 Hey All! My team at [Abridge](https://www.abridge.com/) is hiring a full-time Data Engineering Lead to join our fully re
 mote team!
@@ -344,7 +344,7 @@ feel free to [apply directly here](https://jobs.ashbyhq.com/Abridge/5c0d9bb2-4b4
 
      
  
-all -  [ [HIRING] Abridge is Hiring a Senior Platform Engineer! - Kubernetes, Terraform, GCP - Fully Remote,  ](https://www.reddit.com/r/devopsjobs/comments/19033cb/hiring_abridge_is_hiring_a_senior_platform/) , 2024-01-16-0910
+all -  [ [HIRING] Abridge is Hiring a Senior Platform Engineer! - Kubernetes, Terraform, GCP - Fully Remote,  ](https://www.reddit.com/r/devopsjobs/comments/19033cb/hiring_abridge_is_hiring_a_senior_platform/) , 2024-01-17-0910
 ```
 Hey All! My team at [Abridge](https://www.abridge.com) is hiring a full-time Senior Platform Engineer to join our fully 
 remote team! 
@@ -393,7 +393,7 @@ tly here](https://jobs.ashbyhq.com/Abridge/8a3d9406-5403-4fd5-b66f-b163a3bc3505/
 
      
  
-all -  [ Natural Language Processing (NLP) Learning Path - In depth ](https://www.reddit.com/r/learnmachinelearning/comments/18yo5kp/natural_language_processing_nlp_learning_path_in/) , 2024-01-16-0910
+all -  [ Natural Language Processing (NLP) Learning Path - In depth ](https://www.reddit.com/r/learnmachinelearning/comments/18yo5kp/natural_language_processing_nlp_learning_path_in/) , 2024-01-17-0910
 ```
 Hi friends, i'm currently engaged in NLP and created an pretty extense roadmap or learning path so begginers don't feel 
 lost, it covers from the basics to advanced cutting-edge concepts.
@@ -888,7 +888,7 @@ actical projects
 
      
  
-all -  [ Advice for 4th year EECS PhD transitioning to quantitative finance ](https://www.reddit.com/r/FinancialCareers/comments/18wah63/advice_for_4th_year_eecs_phd_transitioning_to/) , 2024-01-16-0910
+all -  [ Advice for 4th year EECS PhD transitioning to quantitative finance ](https://www.reddit.com/r/FinancialCareers/comments/18wah63/advice_for_4th_year_eecs_phd_transitioning_to/) , 2024-01-17-0910
 ```
 My background: undergrad in math, currently enrolled in a top 10 EECS PhD program in US. I work mainly in ML and optimiz
 ation theory and have published 6-7 articles in top AI conferences (NeurIPS/ICLR/ICML). They are mainly mathy papers wit
@@ -924,7 +924,7 @@ ther advice for the application process. Thank you!
 
      
  
-all -  [ Not a single interview call, getting rejected everywhere. Please Roast :( ](https://www.reddit.com/r/resumes/comments/18vaozg/not_a_single_interview_call_getting_rejected/) , 2024-01-16-0910
+all -  [ Not a single interview call, getting rejected everywhere. Please Roast :( ](https://www.reddit.com/r/resumes/comments/18vaozg/not_a_single_interview_call_getting_rejected/) , 2024-01-17-0910
 ```
 &#x200B;
 
@@ -935,7 +935,7 @@ https://preview.redd.it/e81y2uotkn9c1.png?width=1532&format=png&auto=webp&s=7249
 
      
  
-all -  [ ASU Admit ](https://www.reddit.com/r/MSCS/comments/18uy3ia/asu_admit/) , 2024-01-16-0910
+all -  [ ASU Admit ](https://www.reddit.com/r/MSCS/comments/18uy3ia/asu_admit/) , 2024-01-17-0910
 ```
 MY FIRST ADMIT! Although it was a safe school for me, I am very relaxed now.
 
@@ -959,7 +959,7 @@ earch-based)
 
      
  
-all -  [ [R] InfoSHAP: Explaining Predictive Uncertainty with Information Theoretic Shapley Values ](https://www.reddit.com/r/MachineLearning/comments/18ud5zn/r_infoshap_explaining_predictive_uncertainty_with/) , 2024-01-16-0910
+all -  [ [R] InfoSHAP: Explaining Predictive Uncertainty with Information Theoretic Shapley Values ](https://www.reddit.com/r/MachineLearning/comments/18ud5zn/r_infoshap_explaining_predictive_uncertainty_with/) , 2024-01-17-0910
 ```
 **Paper title**: Explaining Predictive Uncertainty with Information Theoretic Shapley Values
 
@@ -998,7 +998,7 @@ as applications to covariate shift detection, active learning, feature selection
 
      
  
-all -  [ [D] Competitiveness of CS PhD in ML for top programs (24 Fall) ](https://www.reddit.com/r/MachineLearning/comments/18uajqj/d_competitiveness_of_cs_phd_in_ml_for_top/) , 2024-01-16-0910
+all -  [ [D] Competitiveness of CS PhD in ML for top programs (24 Fall) ](https://www.reddit.com/r/MachineLearning/comments/18uajqj/d_competitiveness_of_cs_phd_in_ml_for_top/) , 2024-01-17-0910
 ```
 I recently read a post somewhere else claiming that CS PhD admissions in the field of ML for top programs at top institu
 tions have become extremely competitive this year. According to the post, for top 20 universities in the US, only people
@@ -1022,7 +1022,7 @@ r/gradadmissions after I figure out how to do that.
 
      
  
-all -  [ Need uni recommendations with Jan/Feb application deadlines ](https://www.reddit.com/r/MSCS/comments/18rsvtx/need_uni_recommendations_with_janfeb_application/) , 2024-01-16-0910
+all -  [ Need uni recommendations with Jan/Feb application deadlines ](https://www.reddit.com/r/MSCS/comments/18rsvtx/need_uni_recommendations_with_janfeb_application/) , 2024-01-17-0910
 ```
 I have applied to a few universities before 15th December. I would like to apply to a few more universities that have th
 eir application deadlines in January or February. So far I have shortlisted Columbia, UPenn and MBZUAI. Would like a few
@@ -1047,7 +1047,7 @@ No country preference. Just want good research focused universities.
 
      
  
-all -  [ [D] Neurips 2023 Recap and takeaways ](https://www.reddit.com/r/MachineLearning/comments/18pv55s/d_neurips_2023_recap_and_takeaways/) , 2024-01-16-0910
+all -  [ [D] Neurips 2023 Recap and takeaways ](https://www.reddit.com/r/MachineLearning/comments/18pv55s/d_neurips_2023_recap_and_takeaways/) , 2024-01-17-0910
 ```
 Can someone share recap and key takeaways from Neurips 2023.
 ```
@@ -1055,7 +1055,7 @@ Can someone share recap and key takeaways from Neurips 2023.
 
      
  
-all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2024-01-16-0910
+all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2024-01-17-0910
 ```
 Current senior applying to Biostatistics, CSE, and Applied Math MS programs. I go to a top 20 US school known for being 
 rigorous in math and stats, and I’m majoring in applied math with minors in stats and CS. In my junior year, I had a 3.0
@@ -1115,7 +1115,7 @@ e!
 
      
  
-all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2024-01-16-0910
+all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2024-01-17-0910
 ```
 &#x200B;
 
@@ -1142,7 +1142,7 @@ Read More: [contentbuffer.com/issues/detail/2
 
      
  
-all -  [ Proposing a Mathematical Reasoning Model Inspired by GARs ](https://www.reddit.com/r/Bard/comments/18myeqb/proposing_a_mathematical_reasoning_model_inspired/) , 2024-01-16-0910
+all -  [ Proposing a Mathematical Reasoning Model Inspired by GARs ](https://www.reddit.com/r/Bard/comments/18myeqb/proposing_a_mathematical_reasoning_model_inspired/) , 2024-01-17-0910
 ```
 While GARs are primarily designed for language tasks, their core principles of adversarial training and reservoir dynami
 cs could potentially be adapted for mathematical reasoning and symbolic manipulation. Here's a proposed framework:
@@ -1257,7 +1257,7 @@ A Survey of Reasoning with Language Model Prompting: A research paper summarizin
 
      
  
-all -  [ Quant Research of the Week (7th Edition) ](https://www.reddit.com/r/quant/comments/18mxfpn/quant_research_of_the_week_7th_edition/) , 2024-01-16-0910
+all -  [ Quant Research of the Week (7th Edition) ](https://www.reddit.com/r/quant/comments/18mxfpn/quant_research_of_the_week_7th_edition/) , 2024-01-17-0910
 ```
 # SSRN
 
@@ -1631,7 +1631,7 @@ Some of you have asked how/why do I do the list, it's for a newsletter I run for
 
      
  
-all -  [ [D] Does anyone know where can I see the reviews for ICML? ](https://www.reddit.com/r/MachineLearning/comments/18m736d/d_does_anyone_know_where_can_i_see_the_reviews/) , 2024-01-16-0910
+all -  [ [D] Does anyone know where can I see the reviews for ICML? ](https://www.reddit.com/r/MachineLearning/comments/18m736d/d_does_anyone_know_where_can_i_see_the_reviews/) , 2024-01-17-0910
 ```
  
 
@@ -1649,7 +1649,7 @@ Am I missing something here?
 
      
  
-all -  [ How did you get your paper accepted in COLT? [D] ](https://www.reddit.com/r/MachineLearning/comments/18m4x7j/how_did_you_get_your_paper_accepted_in_colt_d/) , 2024-01-16-0910
+all -  [ How did you get your paper accepted in COLT? [D] ](https://www.reddit.com/r/MachineLearning/comments/18m4x7j/how_did_you_get_your_paper_accepted_in_colt_d/) , 2024-01-17-0910
 ```
 It seems like COLT is the elite conference for learning theory, I want to submit a paper in COLT, and I want need some a
 dvice regarding your experience with that. Namely, I heard all papers are novel and has some breakthrough ideas which do
@@ -1661,7 +1661,7 @@ Thanks,
 
      
  
-all -  [ [D] NeurIPS takeaways ](https://www.reddit.com/r/MachineLearning/comments/18lbe60/d_neurips_takeaways/) , 2024-01-16-0910
+all -  [ [D] NeurIPS takeaways ](https://www.reddit.com/r/MachineLearning/comments/18lbe60/d_neurips_takeaways/) , 2024-01-17-0910
 ```
 Hola,
 
@@ -1689,7 +1689,7 @@ g LLMs and AI generally: papers like the Generative AI paradox (by AI2). It's st
 
      
  
-all -  [ [D] e/acc has won over decel: At NeurIPS 2023, less than 10 works (out of 3,000+ papers) discuss AI  ](https://www.reddit.com/r/MachineLearning/comments/18kp3vp/d_eacc_has_won_over_decel_at_neurips_2023_less/) , 2024-01-16-0910
+all -  [ [D] e/acc has won over decel: At NeurIPS 2023, less than 10 works (out of 3,000+ papers) discuss AI  ](https://www.reddit.com/r/MachineLearning/comments/18kp3vp/d_eacc_has_won_over_decel_at_neurips_2023_less/) , 2024-01-17-0910
 ```
 For all the hype, drama and *virtue signalling* in AI Safety, it appears that [almost nobody in Academia really cares ab
 out AI Safety](https://tenyks.docsend.com/view/q4bwhb63fvtfv8ga).
@@ -1700,7 +1700,7 @@ Why might this be the case?
 
      
  
-all -  [ NeurIPS 2023 Highlights: Coheres Aya Project, Open Source AI, and Metas Organizational Changes ](https://www.reddit.com/r/ai_news_by_ai/comments/18k9ua2/neurips_2023_highlights_coheres_aya_project_open/) , 2024-01-16-0910
+all -  [ NeurIPS 2023 Highlights: Coheres Aya Project, Open Source AI, and Metas Organizational Changes ](https://www.reddit.com/r/ai_news_by_ai/comments/18k9ua2/neurips_2023_highlights_coheres_aya_project_open/) , 2024-01-17-0910
 ```
 
 
@@ -1840,218 +1840,6 @@ arca https://twitter.com/pmarca/status/1736206207130710430](https://twitter.com/
 [17.
  Marc Andreessen -- e/acc @pmarca https://twitter.com/pmarca/status/1736221050655166891](https://twitter.com/pmarca/stat
 us/1736221050655166891)
-```
----
-
-     
- 
-all -  [ AI Developments: Coheres Hackathon Winners, NVIDIAs FoundationPose, McKinseys AI Survey, and Googles ](https://www.reddit.com/r/ai_news_by_ai/comments/18jk3x2/ai_developments_coheres_hackathon_winners_nvidias/) , 2024-01-16-0910
-```
-
-
-
-
-
-#startups #event #feature #tool #release #opensource #hardware #science #dataset #leaders #api #update #major_playe
-rs #paper #scheduled
-
-Cohere is hosting a live demo session featuring the winners of the Coral hackathon, showcasing a c
-hatbot app called Chat with RAG that connects to health data points, scans nutrition labels, and provides dietary recomm
-endations based on user's goals [1]. Cohere now officially supports both JavaScript and TypeScript, with a short video p
-rovided to help users get started [2]. In collaboration with Buildwithfern, Cohere is creating an always-up-to-date and 
-well-documented TypeScript SDK, currently in beta, that provides access to the Cohere API from JavaScript/TypeScript and
- supports streaming endpoints [3]. Cohere is also highlighting a maker spotlight on BYTE [4]. As the NeurIPS2023 confere
-nce concludes, Cohere For AI Vice President Sarah Ooker and Research Scientist Ahmet Üstün will discuss the mission and 
-research goals of the C4AI lab [5].
-
-
-
-
-
-
-
-NVIDIA AI Developer introduces FoundationPose, a unified model for 6D object 
-pose estimation and tracking for novel objects [6]. This framework supports both model-based and model-free setups and o
-utperforms prior work designed specifically for these tasks [7]. The model is applied to each object without any fine-tu
-ning, and the result is comparable to the ground truth throughout the video [8]. NVIDIA AI Developer set a new benchmark
- record for the 'model-based pose estimation' task in the BOP challenge, which has implications for fields such as robot
-ics and augmented reality [9]. The foundation model is scalable and can be quickly deployed to different objects, highli
-ghting the importance of high-precision pose and tracking for robotic manipulation in tasks that require higher precisio
-n [10]. Smooth and accurate pose tracking is also important in enabling high-fidelity physics simulation for an improved
- augmented reality (AR) gaming experience [11].
-
-
-
-
-
-
-
-The latest annual McKinsey Global Survey on the state of AI revea
-ls that one-third of organizations are using generative AI tools regularly in at least one business function. AI has bec
-ome a focus for company leaders, with C-suite executives personally using gen AI tools for work. However, many organizat
-ions are not fully prepared for the risks associated with gen AI, with less than half of respondents saying their organi
-zations are mitigating the risk of inaccuracy [15].
-
-
-
-
-
-
-
-Auto-Regressive Language Models (AR-LLMs) are useful for conv
-erting abstract ideas into sequences of tokens, such as words, actions, or code. However, abstract ideas should be furth
-er developed through planning and reasoning in representation space. AR-LLMs bypass the step of reasoning in representat
-ion space and directly generate answers from prompts [16][17][18].
-
-
-
-
-
-
-
-The AI industry would be significantly hindere
-d if research labs in the industry had not open sourced their code, patented everything, and enforced their patents. The
- open sourcing of code and lack of patent enforcement has been beneficial for the development and progress of the AI ind
-ustry [19]. ChatGPT, for instance, is built with PyTorch [20]. The patents on ConvNets expired in 2007 [21][23].
-
-
-
-
-
-
-
-
-Google AI has introduced StyleDrop, a model that allows for stylized text-to-image synthesis by using style reference im
-ages instead of text prompts. This approach enables the generation of images in a style consistent with the reference, b
-ypassing the need for text prompt engineering [33]. Google Research has developed Magic Editor, an AI-powered photo edit
-or that allows users to easily make complex edits to photos using generative AI [34]. Google AI has also made recent adv
-ances in using machine learning (ML) to improve the efficiency of ML workloads, introducing TpuGraphs and developing Gra
-ph Segment Training [35].
-
-
-
-
-
-
-
-NVIDIA AI hosted a webinar series on getting started with AI inference, focusing on bui
-lding and deploying cloud-ready AI-inferencing solutions for large language models [31]. The paper titled 'Privacy Audit
-ing with One (1) Training Run' by Thomas Steinke, Milad Nasr, and Matthew Jagielski has won the Best Paper award at Neur
-IPS 2023 [32].
-
-
-
-
-[1. cohere @cohere https://twitter.com/cohere/status/1735620923703570936](https://twitter.com/cohere/
-status/1735620923703570936)
-
-[2. cohere @cohere https://twitter.com/cohere/status/1735670406349000978](https://twitter.c
-om/cohere/status/1735670406349000978)
-
-[3. cohere @cohere https://twitter.com/cohere/status/1735670504692793483](https:/
-/twitter.com/cohere/status/1735670504692793483)
-
-[4. cohere @cohere https://twitter.com/cohere/status/173570632286227273
-9](https://twitter.com/cohere/status/1735706322862272739)
-
-[5. cohere @cohere https://twitter.com/cohere/status/17357564
-13656252738](https://twitter.com/cohere/status/1735756413656252738)
-
-[6. NVIDIA AI Developer @NVIDIAAIDev https://twitte
-r.com/NVIDIAAIDev/status/1735721360419180912](https://twitter.com/NVIDIAAIDev/status/1735721360419180912)
-
-[7. NVIDIA AI
- Developer @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735721374063132716](https://twitter.com/NVIDIAAIDev/stat
-us/1735721374063132716)
-
-[8. NVIDIA AI Developer @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735721408242610241
-](https://twitter.com/NVIDIAAIDev/status/1735721408242610241)
-
-[9. NVIDIA AI Developer @NVIDIAAIDev https://twitter.com/
-NVIDIAAIDev/status/1735721414940926442](https://twitter.com/NVIDIAAIDev/status/1735721414940926442)
-
-[10. NVIDIA AI Deve
-loper @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735721444825264290](https://twitter.com/NVIDIAAIDev/status/17
-35721444825264290)
-
-[11. NVIDIA AI Developer @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735721476160889248](ht
-tps://twitter.com/NVIDIAAIDev/status/1735721476160889248)
-
-[12. NVIDIA AI Developer @NVIDIAAIDev https://twitter.com/NVI
-DIAAIDev/status/1735721483178041795](https://twitter.com/NVIDIAAIDev/status/1735721483178041795)
-
-[13. NVIDIA AI Develop
-er @NVIDIAAIDev https://twitter.com/NVIDIAAIDev/status/1735748564603519485](https://twitter.com/NVIDIAAIDev/status/17357
-48564603519485)
-
-[14. Greg Brockman @gdb https://twitter.com/gdb/status/1735736578054688891](https://twitter.com/gdb/sta
-tus/1735736578054688891)
-
-[15. Mustafa Suleyman @mustafasuleyman https://twitter.com/mustafasuleyman/status/173573907095
-5872326](https://twitter.com/mustafasuleyman/status/1735739070955872326)
-
-[16. Yann LeCun @ylecun https://twitter.com/yl
-ecun/status/1735648731855310896](https://twitter.com/ylecun/status/1735648731855310896)
-
-[17. Yann LeCun @ylecun https:/
-/twitter.com/ylecun/status/1735648899656831302](https://twitter.com/ylecun/status/1735648899656831302)
-
-[18. Yann LeCun 
-@ylecun https://twitter.com/ylecun/status/1735649275873251587](https://twitter.com/ylecun/status/1735649275873251587)
-
-[
-19. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735704308891484248](https://twitter.com/ylecun/status/17357043
-08891484248)
-
-[20. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735706511714783463](https://twitter.com/ylecun/
-status/1735706511714783463)
-
-[21. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735707421140570321](https://twit
-ter.com/ylecun/status/1735707421140570321)
-
-[22. Yann LeCun @ylecun https://twitter.com/ylecun/status/173574767028572165
-0](https://twitter.com/ylecun/status/1735747670285721650)
-
-[23. Yann LeCun @ylecun https://twitter.com/ylecun/status/173
-5754644041691563](https://twitter.com/ylecun/status/1735754644041691563)
-
-[24. Yann LeCun @ylecun https://twitter.com/yl
-ecun/status/1735756578463089025](https://twitter.com/ylecun/status/1735756578463089025)
-
-[25. Yann LeCun @ylecun https:/
-/twitter.com/ylecun/status/1735757879926288389](https://twitter.com/ylecun/status/1735757879926288389)
-
-[26. Yann LeCun 
-@ylecun https://twitter.com/ylecun/status/1735761543575322784](https://twitter.com/ylecun/status/1735761543575322784)
-
-[
-27. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735763778183032885](https://twitter.com/ylecun/status/17357637
-78183032885)
-
-[28. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735793125002453169](https://twitter.com/ylecun/
-status/1735793125002453169)
-
-[29. Yann LeCun @ylecun https://twitter.com/ylecun/status/1735805797743923466](https://twit
-ter.com/ylecun/status/1735805797743923466)
-
-[30. Yann LeCun @ylecun https://twitter.com/ylecun/status/173580962252129107
-3](https://twitter.com/ylecun/status/1735809622521291073)
-
-[31. NVIDIA AI @NVIDIAAI https://twitter.com/NVIDIAAI/status/
-1735766683774525647](https://twitter.com/NVIDIAAI/status/1735766683774525647)
-
-[32. Google AI @googleai https://twitter.
-com/googleai/status/1735691541811806299](https://twitter.com/googleai/status/1735691541811806299)
-
-[33. Google AI @googl
-eai https://twitter.com/googleai/status/1735755033411756241](https://twitter.com/googleai/status/1735755033411756241)
-
-[
-34. Google AI @googleai https://twitter.com/googleai/status/1735779301088469431](https://twitter.com/googleai/status/173
-5779301088469431)
-
-[35. Google AI @googleai https://twitter.com/googleai/status/1735795339024834580](https://twitter.com
-/googleai/status/1735795339024834580)
 ```
 ---
 
