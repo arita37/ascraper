@@ -1,5 +1,5 @@
  
-all -  [ Quant Research of the Week (10th Edition) ](https://www.reddit.com/r/quant/comments/1994aei/quant_research_of_the_week_10th_edition/) , 2024-01-18-0910
+all -  [ Quant Research of the Week (10th Edition) ](https://www.reddit.com/r/quant/comments/1994aei/quant_research_of_the_week_10th_edition/) , 2024-01-19-0910
 ```
 # SSRN
 
@@ -363,7 +363,7 @@ e change. (2024-01-14, shares: 20.0)
 
      
  
-all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-01-18-0910
+all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-01-19-0910
 ```
 I am beyond excited to publish our first Weaviate Podcast interview in-person at the NeurIPS conference with Omar Khatta
 b from Stanford University!
@@ -400,7 +400,7 @@ eaviate/episodes/DSPy-and-ColBERT-with-Omar-Khattab----Weaviate-Podcast-85-e2eff
 
      
  
-all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/deepCuriosity/Attending-NeurIPS2023) , 2024-01-18-0910
+all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/deepCuriosity/Attending-NeurIPS2023) , 2024-01-19-0910
 ```
 
 ```
@@ -408,7 +408,7 @@ all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/dee
 
      
  
-all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-01-18-0910
+all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-01-19-0910
 ```
 Hi all, I've stumbled upon this Neurips paper 'Large Language Models Are Zero-Shot Time Series Forecasters'   [2310.0782
 0.pdf (arxiv.org)](https://arxiv.org/pdf/2310.07820.pdf?trk=public_post_comment-text)  and wonder what people in time se
@@ -427,7 +427,7 @@ anks!
 
      
  
-all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-01-18-0910
+all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-01-19-0910
 ```
 I'm interested in reviewing for the upcoming cycles of ECCV, Neurips, ICLR, AAAI etc. 
 
@@ -441,7 +441,7 @@ there a better way of doing it?
 
      
  
-all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-01-18-0910
+all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-01-19-0910
 ```
 Hey everyone! We had an incredible time at the NeurIPS conference this year in New Orleans! We learned a ton, met so man
 y amazing people, and... put together our first in-person podcast series!!
@@ -473,7 +473,7 @@ h?v=xrZxk0H2cmY)
 
      
  
-all -  [ AI Partnerships, Intelligence Augmentation, and Open Source Research: A Look at Current AI Trends ](https://www.reddit.com/r/ai_news_by_ai/comments/191d4cy/ai_partnerships_intelligence_augmentation_and/) , 2024-01-18-0910
+all -  [ AI Partnerships, Intelligence Augmentation, and Open Source Research: A Look at Current AI Trends ](https://www.reddit.com/r/ai_news_by_ai/comments/191d4cy/ai_partnerships_intelligence_augmentation_and/) , 2024-01-19-0910
 ```
 
 
@@ -605,7 +605,7 @@ n LeCun @ylecun https://twitter.com/ylecun/status/1744135793243767102](https://t
 
      
  
-all -  [ Why don't we build a really good agent to help you write AI Research Papers ](https://www.reddit.com/r/LaTeX/comments/1911j0q/why_dont_we_build_a_really_good_agent_to_help_you/) , 2024-01-18-0910
+all -  [ Why don't we build a really good agent to help you write AI Research Papers ](https://www.reddit.com/r/LaTeX/comments/1911j0q/why_dont_we_build_a_really_good_agent_to_help_you/) , 2024-01-19-0910
 ```
 Hi folks, 
 
@@ -652,7 +652,7 @@ ecting to squeeze out of an AI agent, if it's helping you write your next NeurIP
 
      
  
-all -  [ [Hiring] Abridge is hiring a Data Engineering Lead to Support ML/Research team - Fully Remote, US-Ba ](https://www.reddit.com/r/dataengineeringjobs/comments/1903yye/hiring_abridge_is_hiring_a_data_engineering_lead/) , 2024-01-18-0910
+all -  [ [Hiring] Abridge is hiring a Data Engineering Lead to Support ML/Research team - Fully Remote, US-Ba ](https://www.reddit.com/r/dataengineeringjobs/comments/1903yye/hiring_abridge_is_hiring_a_data_engineering_lead/) , 2024-01-19-0910
 ```
 Hey All! My team at [Abridge](https://www.abridge.com/) is hiring a full-time Data Engineering Lead to join our fully re
 mote team!
@@ -708,7 +708,7 @@ feel free to [apply directly here](https://jobs.ashbyhq.com/Abridge/5c0d9bb2-4b4
 
      
  
-all -  [ [HIRING] Abridge is Hiring a Senior Platform Engineer! - Kubernetes, Terraform, GCP - Fully Remote,  ](https://www.reddit.com/r/devopsjobs/comments/19033cb/hiring_abridge_is_hiring_a_senior_platform/) , 2024-01-18-0910
+all -  [ [HIRING] Abridge is Hiring a Senior Platform Engineer! - Kubernetes, Terraform, GCP - Fully Remote,  ](https://www.reddit.com/r/devopsjobs/comments/19033cb/hiring_abridge_is_hiring_a_senior_platform/) , 2024-01-19-0910
 ```
 Hey All! My team at [Abridge](https://www.abridge.com) is hiring a full-time Senior Platform Engineer to join our fully 
 remote team! 
@@ -757,7 +757,7 @@ tly here](https://jobs.ashbyhq.com/Abridge/8a3d9406-5403-4fd5-b66f-b163a3bc3505/
 
      
  
-all -  [ Natural Language Processing (NLP) Learning Path - In depth ](https://www.reddit.com/r/learnmachinelearning/comments/18yo5kp/natural_language_processing_nlp_learning_path_in/) , 2024-01-18-0910
+all -  [ Natural Language Processing (NLP) Learning Path - In depth ](https://www.reddit.com/r/learnmachinelearning/comments/18yo5kp/natural_language_processing_nlp_learning_path_in/) , 2024-01-19-0910
 ```
 Hi friends, i'm currently engaged in NLP and created an pretty extense roadmap or learning path so begginers don't feel 
 lost, it covers from the basics to advanced cutting-edge concepts.
@@ -1252,7 +1252,7 @@ actical projects
 
      
  
-all -  [ Advice for 4th year EECS PhD transitioning to quantitative finance ](https://www.reddit.com/r/FinancialCareers/comments/18wah63/advice_for_4th_year_eecs_phd_transitioning_to/) , 2024-01-18-0910
+all -  [ Advice for 4th year EECS PhD transitioning to quantitative finance ](https://www.reddit.com/r/FinancialCareers/comments/18wah63/advice_for_4th_year_eecs_phd_transitioning_to/) , 2024-01-19-0910
 ```
 My background: undergrad in math, currently enrolled in a top 10 EECS PhD program in US. I work mainly in ML and optimiz
 ation theory and have published 6-7 articles in top AI conferences (NeurIPS/ICLR/ICML). They are mainly mathy papers wit
@@ -1288,7 +1288,7 @@ ther advice for the application process. Thank you!
 
      
  
-all -  [ Not a single interview call, getting rejected everywhere. Please Roast :( ](https://www.reddit.com/r/resumes/comments/18vaozg/not_a_single_interview_call_getting_rejected/) , 2024-01-18-0910
+all -  [ Not a single interview call, getting rejected everywhere. Please Roast :( ](https://www.reddit.com/r/resumes/comments/18vaozg/not_a_single_interview_call_getting_rejected/) , 2024-01-19-0910
 ```
 &#x200B;
 
@@ -1299,7 +1299,7 @@ https://preview.redd.it/e81y2uotkn9c1.png?width=1532&format=png&auto=webp&s=7249
 
      
  
-all -  [ ASU Admit ](https://www.reddit.com/r/MSCS/comments/18uy3ia/asu_admit/) , 2024-01-18-0910
+all -  [ ASU Admit ](https://www.reddit.com/r/MSCS/comments/18uy3ia/asu_admit/) , 2024-01-19-0910
 ```
 MY FIRST ADMIT! Although it was a safe school for me, I am very relaxed now.
 
@@ -1323,7 +1323,7 @@ earch-based)
 
      
  
-all -  [ [R] InfoSHAP: Explaining Predictive Uncertainty with Information Theoretic Shapley Values ](https://www.reddit.com/r/MachineLearning/comments/18ud5zn/r_infoshap_explaining_predictive_uncertainty_with/) , 2024-01-18-0910
+all -  [ [R] InfoSHAP: Explaining Predictive Uncertainty with Information Theoretic Shapley Values ](https://www.reddit.com/r/MachineLearning/comments/18ud5zn/r_infoshap_explaining_predictive_uncertainty_with/) , 2024-01-19-0910
 ```
 **Paper title**: Explaining Predictive Uncertainty with Information Theoretic Shapley Values
 
@@ -1362,7 +1362,7 @@ as applications to covariate shift detection, active learning, feature selection
 
      
  
-all -  [ [D] Competitiveness of CS PhD in ML for top programs (24 Fall) ](https://www.reddit.com/r/MachineLearning/comments/18uajqj/d_competitiveness_of_cs_phd_in_ml_for_top/) , 2024-01-18-0910
+all -  [ [D] Competitiveness of CS PhD in ML for top programs (24 Fall) ](https://www.reddit.com/r/MachineLearning/comments/18uajqj/d_competitiveness_of_cs_phd_in_ml_for_top/) , 2024-01-19-0910
 ```
 I recently read a post somewhere else claiming that CS PhD admissions in the field of ML for top programs at top institu
 tions have become extremely competitive this year. According to the post, for top 20 universities in the US, only people
@@ -1386,7 +1386,7 @@ r/gradadmissions after I figure out how to do that.
 
      
  
-all -  [ Need uni recommendations with Jan/Feb application deadlines ](https://www.reddit.com/r/MSCS/comments/18rsvtx/need_uni_recommendations_with_janfeb_application/) , 2024-01-18-0910
+all -  [ Need uni recommendations with Jan/Feb application deadlines ](https://www.reddit.com/r/MSCS/comments/18rsvtx/need_uni_recommendations_with_janfeb_application/) , 2024-01-19-0910
 ```
 I have applied to a few universities before 15th December. I would like to apply to a few more universities that have th
 eir application deadlines in January or February. So far I have shortlisted Columbia, UPenn and MBZUAI. Would like a few
@@ -1411,7 +1411,7 @@ No country preference. Just want good research focused universities.
 
      
  
-all -  [ [D] Neurips 2023 Recap and takeaways ](https://www.reddit.com/r/MachineLearning/comments/18pv55s/d_neurips_2023_recap_and_takeaways/) , 2024-01-18-0910
+all -  [ [D] Neurips 2023 Recap and takeaways ](https://www.reddit.com/r/MachineLearning/comments/18pv55s/d_neurips_2023_recap_and_takeaways/) , 2024-01-19-0910
 ```
 Can someone share recap and key takeaways from Neurips 2023.
 ```
@@ -1419,7 +1419,7 @@ Can someone share recap and key takeaways from Neurips 2023.
 
      
  
-all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2024-01-18-0910
+all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2024-01-19-0910
 ```
 Current senior applying to Biostatistics, CSE, and Applied Math MS programs. I go to a top 20 US school known for being 
 rigorous in math and stats, and I’m majoring in applied math with minors in stats and CS. In my junior year, I had a 3.0
@@ -1479,7 +1479,7 @@ e!
 
      
  
-all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2024-01-18-0910
+all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2024-01-19-0910
 ```
 &#x200B;
 
@@ -1506,7 +1506,7 @@ Read More: [contentbuffer.com/issues/detail/2
 
      
  
-all -  [ Proposing a Mathematical Reasoning Model Inspired by GARs ](https://www.reddit.com/r/Bard/comments/18myeqb/proposing_a_mathematical_reasoning_model_inspired/) , 2024-01-18-0910
+all -  [ Proposing a Mathematical Reasoning Model Inspired by GARs ](https://www.reddit.com/r/Bard/comments/18myeqb/proposing_a_mathematical_reasoning_model_inspired/) , 2024-01-19-0910
 ```
 While GARs are primarily designed for language tasks, their core principles of adversarial training and reservoir dynami
 cs could potentially be adapted for mathematical reasoning and symbolic manipulation. Here's a proposed framework:
@@ -1621,7 +1621,7 @@ A Survey of Reasoning with Language Model Prompting: A research paper summarizin
 
      
  
-all -  [ Quant Research of the Week (7th Edition) ](https://www.reddit.com/r/quant/comments/18mxfpn/quant_research_of_the_week_7th_edition/) , 2024-01-18-0910
+all -  [ Quant Research of the Week (7th Edition) ](https://www.reddit.com/r/quant/comments/18mxfpn/quant_research_of_the_week_7th_edition/) , 2024-01-19-0910
 ```
 # SSRN
 
@@ -1995,7 +1995,7 @@ Some of you have asked how/why do I do the list, it's for a newsletter I run for
 
      
  
-all -  [ [D] Does anyone know where can I see the reviews for ICML? ](https://www.reddit.com/r/MachineLearning/comments/18m736d/d_does_anyone_know_where_can_i_see_the_reviews/) , 2024-01-18-0910
+all -  [ [D] Does anyone know where can I see the reviews for ICML? ](https://www.reddit.com/r/MachineLearning/comments/18m736d/d_does_anyone_know_where_can_i_see_the_reviews/) , 2024-01-19-0910
 ```
  
 
@@ -2013,41 +2013,13 @@ Am I missing something here?
 
      
  
-all -  [ How did you get your paper accepted in COLT? [D] ](https://www.reddit.com/r/MachineLearning/comments/18m4x7j/how_did_you_get_your_paper_accepted_in_colt_d/) , 2024-01-18-0910
+all -  [ How did you get your paper accepted in COLT? [D] ](https://www.reddit.com/r/MachineLearning/comments/18m4x7j/how_did_you_get_your_paper_accepted_in_colt_d/) , 2024-01-19-0910
 ```
 It seems like COLT is the elite conference for learning theory, I want to submit a paper in COLT, and I want need some a
 dvice regarding your experience with that. Namely, I heard all papers are novel and has some breakthrough ideas which do
 esn’t happen with other conferences like NeurIPS.
 
 Thanks,
-```
----
-
-     
- 
-all -  [ [D] NeurIPS takeaways ](https://www.reddit.com/r/MachineLearning/comments/18lbe60/d_neurips_takeaways/) , 2024-01-18-0910
-```
-Hola,
-
-For those who attended NeurIPS: I'm curious what your takeaways and learnings were!
-
-I can share some of mine, sp
-ecific to my background (I sent this to my PhD supervisor afterwards):
-
- 1. VL reasoning or text to image wasn't a major
- topic but diffusion generally, more often from a vision perspective, was. But so few topics are major at NeurIPS since 
-it's so big
-2. Retrieval augmented image generation is a cool idea, intuitively - let's see how it will work in the futu
-re. Especially for learning better semantics it could be very useful
-3. Due to the amount of people but also ratio (firs
-t authors/all attendees), almost no poster presenter was sad because nobody stopped by. It felt like there's a lot of in
-terest for every poster.
-4. Organizing a workshop is really fulfilling.
-5. Talked to a lot of people who do good rigorou
-s science and value that above fast success via publishing a lot. Who inspired me in that regard, also via the panel we 
-had on Slow Science in the New In Machine Learning Workshop.
-6. We are hopefully moving away more from anthropomorphizin
-g LLMs and AI generally: papers like the Generative AI paradox (by AI2). It's still happening a lot though.
 ```
 ---
 
