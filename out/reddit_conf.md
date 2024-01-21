@@ -1,5 +1,5 @@
  
-all -  [ Quant Research of the Week (10th Edition) ](https://www.reddit.com/r/quant/comments/1994aei/quant_research_of_the_week_10th_edition/) , 2024-01-20-0910
+all -  [ Quant Research of the Week (10th Edition) ](https://www.reddit.com/r/quant/comments/1994aei/quant_research_of_the_week_10th_edition/) , 2024-01-21-0911
 ```
 # SSRN
 
@@ -363,7 +363,7 @@ e change. (2024-01-14, shares: 20.0)
 
      
  
-all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-01-20-0910
+all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-01-21-0911
 ```
 I am beyond excited to publish our first Weaviate Podcast interview in-person at the NeurIPS conference with Omar Khatta
 b from Stanford University!
@@ -400,7 +400,7 @@ eaviate/episodes/DSPy-and-ColBERT-with-Omar-Khattab----Weaviate-Podcast-85-e2eff
 
      
  
-all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/deepCuriosity/Attending-NeurIPS2023) , 2024-01-20-0910
+all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/deepCuriosity/Attending-NeurIPS2023) , 2024-01-21-0911
 ```
 
 ```
@@ -408,7 +408,7 @@ all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/dee
 
      
  
-all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-01-20-0910
+all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-01-21-0911
 ```
 Hi all, I've stumbled upon this Neurips paper 'Large Language Models Are Zero-Shot Time Series Forecasters'   [2310.0782
 0.pdf (arxiv.org)](https://arxiv.org/pdf/2310.07820.pdf?trk=public_post_comment-text)  and wonder what people in time se
@@ -427,7 +427,7 @@ anks!
 
      
  
-all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-01-20-0910
+all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-01-21-0911
 ```
 I'm interested in reviewing for the upcoming cycles of ECCV, Neurips, ICLR, AAAI etc. 
 
@@ -441,7 +441,7 @@ there a better way of doing it?
 
      
  
-all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-01-20-0910
+all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-01-21-0911
 ```
 Hey everyone! We had an incredible time at the NeurIPS conference this year in New Orleans! We learned a ton, met so man
 y amazing people, and... put together our first in-person podcast series!!
@@ -473,7 +473,7 @@ h?v=xrZxk0H2cmY)
 
      
  
-all -  [ AI Partnerships, Intelligence Augmentation, and Open Source Research: A Look at Current AI Trends ](https://www.reddit.com/r/ai_news_by_ai/comments/191d4cy/ai_partnerships_intelligence_augmentation_and/) , 2024-01-20-0910
+all -  [ AI Partnerships, Intelligence Augmentation, and Open Source Research: A Look at Current AI Trends ](https://www.reddit.com/r/ai_news_by_ai/comments/191d4cy/ai_partnerships_intelligence_augmentation_and/) , 2024-01-21-0911
 ```
 
 
@@ -605,7 +605,7 @@ n LeCun @ylecun https://twitter.com/ylecun/status/1744135793243767102](https://t
 
      
  
-all -  [ Why don't we build a really good agent to help you write AI Research Papers ](https://www.reddit.com/r/LaTeX/comments/1911j0q/why_dont_we_build_a_really_good_agent_to_help_you/) , 2024-01-20-0910
+all -  [ Why don't we build a really good agent to help you write AI Research Papers ](https://www.reddit.com/r/LaTeX/comments/1911j0q/why_dont_we_build_a_really_good_agent_to_help_you/) , 2024-01-21-0911
 ```
 Hi folks, 
 
@@ -652,7 +652,7 @@ ecting to squeeze out of an AI agent, if it's helping you write your next NeurIP
 
      
  
-all -  [ [Hiring] Abridge is hiring a Data Engineering Lead to Support ML/Research team - Fully Remote, US-Ba ](https://www.reddit.com/r/dataengineeringjobs/comments/1903yye/hiring_abridge_is_hiring_a_data_engineering_lead/) , 2024-01-20-0910
+all -  [ [Hiring] Abridge is hiring a Data Engineering Lead to Support ML/Research team - Fully Remote, US-Ba ](https://www.reddit.com/r/dataengineeringjobs/comments/1903yye/hiring_abridge_is_hiring_a_data_engineering_lead/) , 2024-01-21-0911
 ```
 Hey All! My team at [Abridge](https://www.abridge.com/) is hiring a full-time Data Engineering Lead to join our fully re
 mote team!
@@ -708,7 +708,7 @@ feel free to [apply directly here](https://jobs.ashbyhq.com/Abridge/5c0d9bb2-4b4
 
      
  
-all -  [ [HIRING] Abridge is Hiring a Senior Platform Engineer! - Kubernetes, Terraform, GCP - Fully Remote,  ](https://www.reddit.com/r/devopsjobs/comments/19033cb/hiring_abridge_is_hiring_a_senior_platform/) , 2024-01-20-0910
+all -  [ [HIRING] Abridge is Hiring a Senior Platform Engineer! - Kubernetes, Terraform, GCP - Fully Remote,  ](https://www.reddit.com/r/devopsjobs/comments/19033cb/hiring_abridge_is_hiring_a_senior_platform/) , 2024-01-21-0911
 ```
 Hey All! My team at [Abridge](https://www.abridge.com) is hiring a full-time Senior Platform Engineer to join our fully 
 remote team! 
@@ -757,7 +757,7 @@ tly here](https://jobs.ashbyhq.com/Abridge/8a3d9406-5403-4fd5-b66f-b163a3bc3505/
 
      
  
-all -  [ Natural Language Processing (NLP) Learning Path - In depth ](https://www.reddit.com/r/learnmachinelearning/comments/18yo5kp/natural_language_processing_nlp_learning_path_in/) , 2024-01-20-0910
+all -  [ Natural Language Processing (NLP) Learning Path - In depth ](https://www.reddit.com/r/learnmachinelearning/comments/18yo5kp/natural_language_processing_nlp_learning_path_in/) , 2024-01-21-0911
 ```
 Hi friends, i'm currently engaged in NLP and created an pretty extense roadmap or learning path so begginers don't feel 
 lost, it covers from the basics to advanced cutting-edge concepts.
@@ -1252,7 +1252,7 @@ actical projects
 
      
  
-all -  [ Advice for 4th year EECS PhD transitioning to quantitative finance ](https://www.reddit.com/r/FinancialCareers/comments/18wah63/advice_for_4th_year_eecs_phd_transitioning_to/) , 2024-01-20-0910
+all -  [ Advice for 4th year EECS PhD transitioning to quantitative finance ](https://www.reddit.com/r/FinancialCareers/comments/18wah63/advice_for_4th_year_eecs_phd_transitioning_to/) , 2024-01-21-0911
 ```
 My background: undergrad in math, currently enrolled in a top 10 EECS PhD program in US. I work mainly in ML and optimiz
 ation theory and have published 6-7 articles in top AI conferences (NeurIPS/ICLR/ICML). They are mainly mathy papers wit
@@ -1288,7 +1288,7 @@ ther advice for the application process. Thank you!
 
      
  
-all -  [ Not a single interview call, getting rejected everywhere. Please Roast :( ](https://www.reddit.com/r/resumes/comments/18vaozg/not_a_single_interview_call_getting_rejected/) , 2024-01-20-0910
+all -  [ Not a single interview call, getting rejected everywhere. Please Roast :( ](https://www.reddit.com/r/resumes/comments/18vaozg/not_a_single_interview_call_getting_rejected/) , 2024-01-21-0911
 ```
 &#x200B;
 
@@ -1299,7 +1299,7 @@ https://preview.redd.it/e81y2uotkn9c1.png?width=1532&format=png&auto=webp&s=7249
 
      
  
-all -  [ ASU Admit ](https://www.reddit.com/r/MSCS/comments/18uy3ia/asu_admit/) , 2024-01-20-0910
+all -  [ ASU Admit ](https://www.reddit.com/r/MSCS/comments/18uy3ia/asu_admit/) , 2024-01-21-0911
 ```
 MY FIRST ADMIT! Although it was a safe school for me, I am very relaxed now.
 
@@ -1323,7 +1323,7 @@ earch-based)
 
      
  
-all -  [ [R] InfoSHAP: Explaining Predictive Uncertainty with Information Theoretic Shapley Values ](https://www.reddit.com/r/MachineLearning/comments/18ud5zn/r_infoshap_explaining_predictive_uncertainty_with/) , 2024-01-20-0910
+all -  [ [R] InfoSHAP: Explaining Predictive Uncertainty with Information Theoretic Shapley Values ](https://www.reddit.com/r/MachineLearning/comments/18ud5zn/r_infoshap_explaining_predictive_uncertainty_with/) , 2024-01-21-0911
 ```
 **Paper title**: Explaining Predictive Uncertainty with Information Theoretic Shapley Values
 
@@ -1362,7 +1362,7 @@ as applications to covariate shift detection, active learning, feature selection
 
      
  
-all -  [ [D] Competitiveness of CS PhD in ML for top programs (24 Fall) ](https://www.reddit.com/r/MachineLearning/comments/18uajqj/d_competitiveness_of_cs_phd_in_ml_for_top/) , 2024-01-20-0910
+all -  [ [D] Competitiveness of CS PhD in ML for top programs (24 Fall) ](https://www.reddit.com/r/MachineLearning/comments/18uajqj/d_competitiveness_of_cs_phd_in_ml_for_top/) , 2024-01-21-0911
 ```
 I recently read a post somewhere else claiming that CS PhD admissions in the field of ML for top programs at top institu
 tions have become extremely competitive this year. According to the post, for top 20 universities in the US, only people
@@ -1386,7 +1386,7 @@ r/gradadmissions after I figure out how to do that.
 
      
  
-all -  [ Need uni recommendations with Jan/Feb application deadlines ](https://www.reddit.com/r/MSCS/comments/18rsvtx/need_uni_recommendations_with_janfeb_application/) , 2024-01-20-0910
+all -  [ Need uni recommendations with Jan/Feb application deadlines ](https://www.reddit.com/r/MSCS/comments/18rsvtx/need_uni_recommendations_with_janfeb_application/) , 2024-01-21-0911
 ```
 I have applied to a few universities before 15th December. I would like to apply to a few more universities that have th
 eir application deadlines in January or February. So far I have shortlisted Columbia, UPenn and MBZUAI. Would like a few
@@ -1411,7 +1411,7 @@ No country preference. Just want good research focused universities.
 
      
  
-all -  [ [D] Neurips 2023 Recap and takeaways ](https://www.reddit.com/r/MachineLearning/comments/18pv55s/d_neurips_2023_recap_and_takeaways/) , 2024-01-20-0910
+all -  [ [D] Neurips 2023 Recap and takeaways ](https://www.reddit.com/r/MachineLearning/comments/18pv55s/d_neurips_2023_recap_and_takeaways/) , 2024-01-21-0911
 ```
 Can someone share recap and key takeaways from Neurips 2023.
 ```
@@ -1419,7 +1419,7 @@ Can someone share recap and key takeaways from Neurips 2023.
 
      
  
-all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2024-01-20-0910
+all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2024-01-21-0911
 ```
 Current senior applying to Biostatistics, CSE, and Applied Math MS programs. I go to a top 20 US school known for being 
 rigorous in math and stats, and I’m majoring in applied math with minors in stats and CS. In my junior year, I had a 3.0
@@ -1479,7 +1479,7 @@ e!
 
      
  
-all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2024-01-20-0910
+all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2024-01-21-0911
 ```
 &#x200B;
 
@@ -1501,495 +1501,6 @@ Read More: [contentbuffer.com/issues/detail/2
 
   
 \#TechNews #BusinessInsights #AIUpdates
-```
----
-
-     
- 
-all -  [ Proposing a Mathematical Reasoning Model Inspired by GARs ](https://www.reddit.com/r/Bard/comments/18myeqb/proposing_a_mathematical_reasoning_model_inspired/) , 2024-01-20-0910
-```
-While GARs are primarily designed for language tasks, their core principles of adversarial training and reservoir dynami
-cs could potentially be adapted for mathematical reasoning and symbolic manipulation. Here's a proposed framework:
-
-1. M
-athematical Reservoirs:
-
-Construct two reservoir networks: a generator and a discriminator.
-Nodes in the reservoir repre
-sent mathematical entities (numbers, symbols, operators, functions).
-Edges represent relationships and operations betwee
-n entities.
-Reservoir dynamics model the evolution of mathematical states and expressions.
-
-2. Input Encoding:
-
-Represen
-t mathematical expressions as structured input sequences (e.g., using tree-like structures or graph representations).
-Tr
-anslate these structures into activation patterns within the reservoir networks.
-
-3. Adversarial Training:
-
-Generator: C
-reate new mathematical expressions or symbolic manipulations.
-Discriminator: Evaluate validity, consistency, and adheren
-ce to mathematical rules.
-Both networks compete and co-evolve, driving each other towards improved capabilities.
-
-4. Rea
-dout Layers:
-
-Extract meaningful information from reservoir states.
-Generate outputs like:
-Solved equations.
-Proven theo
-rems.
-Discovered patterns.
-Creative mathematical insights.
-
-5. Dataset and Training:
-
-Compile a large corpus of mathemat
-ical examples, theorems, proofs, and problems.
-Train the model using both supervised learning (with known solutions) and
- reinforcement learning (with rewards for successful problem-solving).
-
-Potential Challenges and Considerations:
-
-Encodi
-ng Mathematical Structures: Effectively representing complex mathematical relationships within reservoir networks is a s
-ignificant challenge.
-
-Interpretability: Understanding the model's reasoning process and extracting meaningful insights 
-from reservoir dynamics is crucial for validation and trust.
-
-Generalization: Ensuring the model can generalize to unsee
-n mathematical problems and domains is essential for real-world applications.
-Integration with Traditional Mathematical 
-Tools: Combining GAR-inspired models with symbolic computation systems and theorem provers could bridge symbolic and sub
-symbolic reasoning approaches.
-
-This proposal is highly speculative and requires substantial research to evaluate its fe
-asibility and effectiveness. However, it offers a thought-provoking approach to bridge language-centric AI techniques wi
-th the realm of mathematics, potentially opening new avenues for machine-assisted mathematical reasoning and discovery.
-
-
-General Resources:
-
-ArXiv: A repository for preprints of scientific research papers, including various works on reservo
-ir computing and GANs.
-Example: 'A Survey of Reservoir Computing: Theory, Applications and Beyond' by Tian, Y., & Li, H.
- (2020): https://arxiv.org/abs/2204.05117
-
-IEEE Xplore: A digital library containing scholarly publications, conferences
-, and standards, especially focused on electrical and computer engineering.
-Example: 'Symbolic Math Reasoning with Langu
-age Models' by Gaur, V., et al. (2023): https://arxiv.org/abs/2308.01906
-
-Mathematical AI for Education (MAThAI4ED) Work
-shop: A workshop series at NeurIPS conferences focusing on AI applications in education and mathematical reasoning.
-Webs
-ite: https://mathai4ed.github.io/
-
- Specific Sources on Reservoir Computing and GARs:
-
-Echo State Networks Explained: A 
-YouTube video providing a general explanation of echo state networks, a type of reservoir network: https://www.youtube.c
-om/watch?v=vlRwUV_sGcs
-
-Generative Adversarial Networks (GANs): A website by Ian J. Goodfellow, one of the pioneers of G
-ANs, providing theoretical background and research resources: https://github.com/goodfeli/adversarial
-
-Paper on Generati
-ve Adversarial Reservoirs (GARs) (if your paper exists): Link to your research paper on GARs, if you have already publis
-hed one.
-
- Sources on Mathematical Reasoning and Symbolic Reasoning:
-
-Formal methods for reasoning in mathematics: A web
-site by John Harrison, showcasing formal methods for verifying complex mathematical proofs: https://www.andrew.cmu.edu/u
-ser/avigad/Talks/australia1.pdf
-
-Mathematical Logic (Stanford Encyclopedia of Philosophy): An insightful article on math
-ematical logic and its role in formalizing mathematical reasoning: https://web.stanford.edu/class/archive/cs/cs103/cs103
-.1156/lectures/06/Small06.pdf
-
-A Survey of Reasoning with Language Model Prompting: A research paper summarizing various
- works on prompting language models for reasoning tasks: https://arxiv.org/abs/2212.09597
-```
----
-
-     
- 
-all -  [ Quant Research of the Week (7th Edition) ](https://www.reddit.com/r/quant/comments/18mxfpn/quant_research_of_the_week_7th_edition/) , 2024-01-20-0910
-```
-# SSRN
-
-### Recently Published
-
-## Quantitative
-
-[**Tactical ETF Strategy: Volatility Risk Premia & Crisis Alpha Harvest
-ing**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4666899): The author proposes a systematic method for investi
-ng in volatility risk premia via ETFs, utilizing futures contracts for backtesting data. (2023-12-17, shares: 2.0)
-
-[**O
-nline Portfolio Selection with Deep Sequence Features and Reversal Info**](https://papers.ssrn.com/sol3/papers.cfm?abstr
-act_id=4669850): A new algorithm uses machine learning and financial data to improve online portfolio selection and auto
-mated trading. (2023-12-19, shares: 2.0)
-
-[**Fractional Regularization for Sparse Portfolio Optimization**](https://pape
-rs.ssrn.com/sol3/papers.cfm?abstract_id=4666990): The paper introduces a new L1L2 regularized sparse portfolio optimizat
-ion model using the ADMM method, and discusses an extension of the model to include a more general L1Lq regularization. 
-(2023-12-17, shares: 3.0)
-
-## Financial
-
-[**ETF Cross-Arbitrage**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4
-667997): Due to the unique characteristics of the ETF lending market, ETFs are costlier to borrow than stocks, creating 
-profitable opportunities for cross-ETF arbitrage. (2023-12-18, shares: 2.0)
-
-[**Cryptocurrency Carry Trade: Risk and Ret
-urn**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4666425): Cryptocurrency carry trade provides high returns th
-at are not solely explained by cryptocurrency factors or geopolitical risks, indicating a significant part of returns is
- a premium for equity market volatility risk. (2023-12-15, shares: 6.0)
-
-[**Resilience for Stronger Investment Portfolio
-s**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4667697): The article promotes an adaptive investment strategy 
-that focuses on resilience thinking, active ownership, and moving away from narrow financial models due to fast-paced te
-chnological, geopolitical, and environmental changes. (2023-12-18, shares: 2.0)
-
-[**Outperforming Equal Weighting**](htt
-ps://papers.ssrn.com/sol3/papers.cfm?abstract_id=4669267): The article suggests that an equally-weighted stock portfolio
- can be improved by avoiding negative exposure to certain factor anomalies, while keeping the portfolio construction pro
-cess simple. (2023-12-19, shares: 6.0)
-
-### Recently Updated
-
-## Quantitative
-
-[**Inflation Forecasting with Economic Na
-rratives**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4666638): The research finds that economic narratives fr
-om Wall Street Journal articles and machine learning algorithms can accurately predict inflation, particularly during ec
-onomic downturns. (2022-08-04, shares: 2.0)
-
-[**Volatility Modeling in Asset Markets**](https://papers.ssrn.com/sol3/pap
-ers.cfm?abstract_id=4666463): The paper investigates the volatilities of nine asset markets from 2013 to 2021, identifyi
-ng three factors affecting volatility and a strong correlation in the volatility of Iranian stock returns. (2023-10-01, 
-shares: 3.0)
-
-[**DEX Arbitrage with Deep Reinforcement Learning**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4
-666504): The study explores trading performances under arbitrage conditions in decentralized exchanges, using a simulati
-on model and deep reinforcement learning to determine optimal arbitrage strategies for eight cryptocurrency pairs. (2023
--04-30, shares: 3.0)
-
-## Financial
-
-[**Market Liquidity Estimation with Machine Learning**](https://papers.ssrn.com/sol3
-/papers.cfm?abstract_id=4666684): Machine learning is used to estimate the average daily bid-ask spread in the US and Ch
-inese stock markets, enhancing performance by capturing more raw data and utilizing learned nonlinear relationships. (20
-23-03-03, shares: 2.0)
-
-[**Machine Learning for Portfolio Selection**](https://papers.ssrn.com/sol3/papers.cfm?abstract_
-id=4669599): A new performance ratio is created to address the limitations of the Sharpe ratio under non-Gaussian return
-s and systemic risk, showing improved portfolio selection performance in terms of profitability and risk reduction. (202
-3-08-11, shares: 2.0)
-
-[**Investors' Risk and Return Expectations**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id
-=4668280): The study analyzes risk and return expectations on 19 asset classes from 1987 to 2022, highlighting a strong 
-risk-return tradeoff and the predictive power of expected returns. (2023-05-25, shares: 609.0)
-
-[**Market Ambiguity and 
-Risk-Return Tradeoff**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4667242): The risk-return balance in the sto
-ck market is affected by the investor's attitude towards ambiguity, with increased market volatility causing a decrease 
-in the equity premium's slope when market optimism is high. (2023-09-21, shares: 2.0)
-
-[**Automated Market Makers: Revol
-utionizing Finance**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4667335): Automated Market Makers (AMMs) can m
-ake liquidity provision more accessible and potentially create deeper markets for high-volume, low-volatility assets, re
-sulting in lower trading costs than traditional markets. (2023-05-26, shares: 2.0)
-
-[**Short-Term Signals: Unlocking Alp
-ha**](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4664417): Investors can achieve substantial net alpha by combi
-ning short-term signals with advanced trading rules in a liquid global universe, which helps to reduce transaction costs
-. (2022-06-01, shares: 3.0)
-
-[**Unifying Economics and Finance: Solving Equity Premium Puzzle**](https://papers.ssrn.com
-/sol3/papers.cfm?abstract_id=4668139): The issue of a high equity premium and a low risk-free rate, known as the equity 
-risk-premium and volatility puzzle, remains unsolved as current economic models fail to provide a consistent explanation
-. (2021-03-22, shares: 2.0)
-
-# ArXiv
-
-## Finance
-
-[**Return-Diversification Approach for Portfolio Selection**](http://a
-rxiv.org/abs/2312.09707): The article suggests a dual-objective model for portfolio selection that optimizes both divers
-ification and expected return, outperforming strategies focused only on diversification or risk-return. (2023-12-15, sha
-res: 8)
-
-[**Order Size Modelling in Limit Order Book Dynamics**](https://arxiv.org/abs/2312.08927): The research introdu
-ces a new method using Compound Hawkes Process to model Limit Order Book dynamics, taking into account order size and ma
-intaining a positive spread. (2023-12-14, shares: 5)
-
-[**Volatility Term Structure in Robust Option Pricing**](https://a
-rxiv.org/abs/2312.09201): The research examines the robust option pricing issue, discovering that adding more informatio
-n does not enhance the robust pricing bounds, contrary to popular belief. (2023-12-14, shares: 4)
-
-[**Residual U-net for
- Multi-Agent Trade Execution**](http://arxiv.org/abs/2312.09353): The paper discusses the application of a deep residual
- U-net with self-attention to solve the continuous time-consistent mean variance optimal trade execution problem for mul
-tiple agents and assets, surpassing the constraints of finite difference methods. (2023-12-14, shares: 4)
-
-[**Risk Budge
-ting and Diversification**](http://arxiv.org/abs/2312.11132): A new framework for Risk Budgeting in portfolio optimizati
-on is introduced, which balances risk from assets and factors using various risk measures. (2023-12-18, shares: 4)
-
-[**C
-onvergence of Hawkes Processes in Financial Markets**](https://arxiv.org/abs/2312.08784): The research identifies the we
-ak convergence of a nearly-unstable Hawkes process with a heavy-tailed kernel, useful for creating a scaling limit for a
- financial market model. (2023-12-14, shares: 3)
-
-[**Managing ESG Ratings in Sustainable Portfolios**](http://arxiv.org/
-abs/2312.10739): A nonlinear optimization model for portfolio selection considering risk, return, and ESG criteria is pr
-oposed, resolving discrepancies between different agencies' ESG ratings. (2023-12-17, shares: 3)
-
-[**Learning Merton's S
-trategies in Incomplete Market**](http://arxiv.org/abs/2312.11797): The study applies reinforcement learning to determin
-e optimal portfolio policies in an incomplete market, showing its efficiency and robustness compared to the traditional 
-plug-in method. (2023-12-19, shares: 3)
-
-## Crypto & Blockchain
-
-[**Implications of Artificial Latency in PBS**](http://
-arxiv.org/abs/2312.09654): The study examines the effects of artificial latency in the Ethereum network's Proposer-Build
-er Separation framework, highlighting increased profits for node operators but also potential network inefficiencies and
- centralization risks. (2023-12-15, shares: 6)
-
-[**Blockchain Risk Parity: Efficient Investing**](https://papers.ssrn.co
-m/sol3/papers.cfm?abstract_id=4666033): Blockchain technology is being utilized to create risk-managed portfolios with t
-hree different funds, each inversely related to the asset's risk, giving investors the ability to choose their preferred
- risk or return level. (2023-12-12, shares: 3.0)
-
-## Historical Trending
-
-[**Futures Price Prediction with Graph Neural 
-Networks**](https://arxiv.org/abs/2303.16532): A new model for predicting futures prices in high-frequency trading, usin
-g graph neural networks, outperforms existing models in China's futures market. (2023-03-29, shares: 23)
-
-[**Linking Inv
-estor Expectations and Market Price Movement**](https://arxiv.org/abs/1912.11216): A study introduces a model for predic
-ting market asset prices based on the correlation between investors' expectations and market price movement. (2019-12-24
-, shares: 22)
-
-[**Portfolio Evaluation with Rewards**](https://arxiv.org/abs/2311.12517): The study examines how periodi
-c reward structures affect long-term portfolio strategies, especially when short-selling is not allowed, by transforming
- the issue into a single-period optimization problem. (2023-11-21, shares: 13)
-
-[**Agent-Based Modeling with Language Mo
-dels**](https://arxiv.org/abs/2311.06330): The research introduces Smart Agent-Based Modeling (SABM), a new framework th
-at combines Large Language Models with Agent-Based Modeling to simulate real-world situations more accurately, as demons
-trated in three case studies. (2023-11-10, shares: 13)
-
-# ArXiv ML
-
-## Recently Published
-
-[**Time-Warp-Attend: Learning
- Topological Invariants in Dynamical Systems**](https://arxiv.org/abs/2312.09234): The study proposes a deep-learning fr
-amework for classifying dynamical regimes and identifying bifurcation boundaries in different systems, offering insights
- into large-scale physical and biological systems. (2023-12-14, shares: 8)
-
-[**Maximizing Non-differentiable Objectives*
-*](https://arxiv.org/abs/2312.08365): The guide introduces reinforcement learning as an extension of supervised learning
-, offering an easy-to-understand method for learning advanced deep reinforcement learning algorithms such as proximal po
-licy optimization. (2023-12-13, shares: 29)
-
-# RePec
-
-## Machine Learning
-
-[**Impact of Evaluation Metrics on ML Models 
-for Stock Market Indices**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fhrcak.srce.hr%2Findex.php%2Fcl
-anak%2F448608;h=repec:avo:emipdu:v:32:y:2023:i:2:p:533-545): The study reveals that the choice of machine learning algor
-ithm significantly affects the financial performance of trading systems, with the random forest algorithm proving most e
-ffective. (2023-12-20, shares: 32.0)
-
-[**ML Methods for Selecting Mutual Funds with Positive Alpha**](https://econpapers
-.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0304405X23001770;h=repec:e
-ee:jfinec:v:150:y:2023:i:3:s0304405x23001770): Machine-learning methods can help select profitable mutual fund portfolio
-s, with the study indicating that past performance predicts future performance for active funds, benefiting investors wi
-th access to advanced prediction methods. (2023-12-20, shares: 22.0)
-
-[**Predicting Corporate Credit Ratings with ML**](
-https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS15446123
-23010206;h=repec:eee:finlet:v:58:y:2023:i:pd:s1544612323010206): The research recommends restricted CART models for pred
-icting corporate credit ratings using machine learning techniques, emphasizing the role of company size in credit rating
- prediction. (2023-12-20, shares: 20.0)
-
-## Finance
-
-[**Asset Bubbles and Trading Strategies**](https://econpapers.repec
-.org/scripts/redir.pf?u=https%3A%2F%2Fwww.worldscientific.com%2Fdoi%2Fpdf%2F10.1142%2F9789811280306_0014;h=repec:wsi:wsc
-hap:9789811280306_0014): The chapter discusses trading strategies in a single risky asset market with a price bubble, sh
-owing that wealth preserving strategies can outperform simply holding the asset. (2023-12-20, shares: 37.0)
-
-[**Short Se
-lling and Arbitrage**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.worldscientific.com%2Fdoi%2Fpdf
-%2F10.1142%2F9789811280306_0021;h=repec:wsi:wschap:9789811280306_0021): The study reveals that arbitrage opportunities i
-n financial markets can only be exploited through short selling, emphasizing the bankruptcy risk involved. (2023-12-20, 
-shares: 29.0)
-
-[**Advances in Mathematical Finance**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.
-worldscientific.com%2Fworldscibooks%2F10.1142%2F13491;h=repec:wsi:wsbook:13491): The book celebrates Peter Carr's contri
-butions to Quantitative Finance, featuring new research results and tributes from family and friends. (2023-12-20, share
-s: 26.0)
-
-[**Volatility Estimators for Cryptocurrencies**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2
-Fwww.mdpi.com%2F2571-905X%2F6%2F4%2F82%2Fpdf;h=repec:gam:jstats:v:6:y:2023:i:4:p:82-1370:d:1298480): The paper studies t
-he realized volatility of cryptocurrencies, showing that the best predictors for Bitcoin and Ethereum come from 30-day i
-mplied volatility. (2023-12-20, shares: 24.0)
-
-[**EMA Trading Strategies with Partial Information**](https://econpapers.
-repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.worldscientific.com%2Fdoi%2Fpdf%2F10.1142%2F9789811280306_0015;h=repec:ws
-i:wschap:9789811280306_0015): The study investigates optimal trading strategies for a partially informed trader under Ga
-ussian price dynamics, proving that optimal strategies depend on current price and an exponentially weighted moving aver
-age price. (2023-12-20, shares: 24.0)
-
-[**Total Positivity and Convexity in Options**](https://econpapers.repec.org/scri
-pts/redir.pf?u=https%3A%2F%2Fwww.worldscientific.com%2Fdoi%2Fpdf%2F10.1142%2F9789811280306_0012;h=repec:wsi:wschap:97898
-11280306_0012): The chapter explores total positivity and relative convexity properties in option pricing models, demons
-trating that these properties generally hold in time-homogeneous local volatility models. (2023-12-20, shares: 23.0)
-
-[*
-*Derivatives' Risks in a Network Model**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.worldscienti
-fic.com%2Fdoi%2Fpdf%2F10.1142%2F9789811280306_0008;h=repec:wsi:wschap:9789811280306_0008): The paper introduces a one-pe
-riod XVA model for bilateral and centrally cleared trading, illustrating its potential for stress testing a financial ne
-twork or optimizing a defaulted clearing member's portfolio. (2023-12-20, shares: 23.0)
-
-[**Modified Stochastic Volatili
-ty Model for Derivative Pricing**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2F
-science%2Farticle%2Fpii%2FS1544612323007468;h=repec:eee:finlet:v:58:y:2023:i:pb:s1544612323007468): The article suggests
- an improved 4/2 stochastic volatility model with a new formula for derivative prices, enhancing calibration speed and c
-apturing market volatility. (2023-12-20, shares: 22.0)
-
-[**Volatility Spillovers between Oil and Financial Markets**](ht
-tps://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Flink.springer.com%2F10.1007%2Fs12197-023-09634-x;h=repec:spr:
-jecfin:v:47:y:2023:i:4:d:10.1007_s12197-023-09634-x): The article uses a GARCH-VAR-Spillover Index method to study the t
-wo-way volatility relationship between oil and stock markets during financial crises. (2023-12-20, shares: 20.0)
-
-[**Bac
-ktestability and the Ridge Backtest**](https://econpapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fwww.worldscientific
-.com%2Fdoi%2Fpdf%2F10.1142%2F9789811280306_0003;h=repec:wsi:wschap:9789811280306_0003): The article proposes a formal de
-finition of backtestability for a statistical functional of a distribution and explores its connection with elicitabilit
-y and identifiability. (2023-12-20, shares: 19.0)
-
-[**Effectiveness of Short-Term Market Swings in Predicting Realized V
-olatility**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpi
-i%2FS1544612323010012;h=repec:eee:finlet:v:58:y:2023:i:pd:s1544612323010012): The article assesses the new VIX1D volatil
-ity index's effectiveness in predicting short-term market fluctuations and realized volatility. (2023-12-20, shares: 18.
-0)
-
-[**Alternative Data and Trade Credit Financing**](https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.s
-ciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1544612323008413;h=repec:eee:finlet:v:58:y:2023:i:pb:s1544612323008413): T
-he research reveals that the use of alternative data, specifically online sales data, boosts trade credit financing for 
-firms in China. (2023-12-20, shares: 18.0)
-
-[**Jumps and Gold Futures Volatility Prediction**](https://econpapers.repec.
-org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1544612323008644;h=repec:eee:finl
-et:v:58:y:2023:i:pc:s1544612323008644): The article studies the efficiency of the jump component in predicting Chinese g
-old futures volatility using high-frequency data. (2023-12-20, shares: 17.0)
-
-[**ChatGPT as a Quant Asset Manager**](htt
-ps://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS15446123230
-09522;h=repec:eee:finlet:v:58:y:2023:i:pd:s1544612323009522): The research suggests a quantitative investment approach t
-hat includes recommendations from ChatGPT, demonstrating its potential to enhance portfolio efficiency. (2023-12-20, sha
-res: 16.0)
-
-# GitHub
-
-## Finance
-
-[**Scalable Timeseries ML with Polars**](https://github.com/functime-org/functime): Th
-e article explores the application of Polars in large-scale timeseries machine learning, particularly in parallel featur
-e extraction and panel data forecasts. (2023-06-05, shares: 677.0)
-
-[**Minimal ML Algorithm Implementations**](https://g
-ithub.com/rushter/MLAlgorithms): The article provides practical examples of how to implement different machine learning 
-algorithms. (2016-10-05, shares: 9779.0)
-
-[**Deep RL for Portfolio Optimization**](https://github.com/CFMTech/Deep-RL-fo
-r-Portfolio-Optimization): The article investigates the use of Deep Reinforcement Learning for optimizing investment por
-tfolios. (2020-03-04, shares: 71.0)
-
-[**pyflux: Time Series Library for Python**](https://github.com/RJT1990/pyflux): Th
-e article presents an open-source library designed for handling time series data in Python. (2016-02-16, shares: 2069.0)
-
-
-[**Safe RL Baselines Repository**](https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines): The article in
-troduces a repository focused on safe reinforcement learning baselines. (2022-02-22, shares: 329.0)
-
-## Trending
-
-[**Int
-eractive ABIDES Simulation**](https://github.com/abides-sim/abides): ABIDES is a simulation system that enables interact
-ive, agent-based, discrete event modeling. (2019-03-06, shares: 332.0)
-
-[**AI Custom Builds**](https://github.com/gpt-en
-gineer-org/gpt-engineer): The repo discusses the need for precise instructions for AI systems to produce accurate result
-s. (2023-04-29, shares: 46808.0)
-
-[**Opensource Language Model: KnowLM**](https://github.com/zjunlp/KnowLM): A new open-
-source framework has been created for handling large language models with extensive knowledge. (2023-04-01, shares: 821.
-0)
-
-[**Genetic Feature Selection: sklearngenetic**](https://github.com/manuel-calzolari/sklearn-genetic): A new scikitle
-arn module has been introduced that utilizes genetic algorithms for feature selection. (2016-06-09, shares: 289.0)
-
-# Ne
-ws & Social
-
-[**Quant Trading Firms Respond to NeurIPS AMDs Chip Allegations**](https://news.google.com/rss/articles/CBM
-iZGh0dHBzOi8vd3d3LnRoZWluZm9ybWF0aW9uLmNvbS9hcnRpY2xlcy9xdWFudC10cmFkaW5nLWZpcm1zLXRha2UtbmV1cmlwcy1hbWRzLWNoaXAtY2xhaW1
-zLWlyay1udmlkaWHSAQA?oc=5): Quant Trading Firms' use of NeurIPS AMDs chips has sparked a dispute with Nvidia, as per The
- Information. (2023-12-18, shares: 4)
-
-[**Market Making Model Analysis in HFT**](https://twitter.com/carlcarrie/status/1
-737202859349852373): A paper presents a straightforward market making model for high frequency trading in the North Amer
-ican stock market, without including performance analysis. (2023-12-19, shares: 1)
-
-[**Quant Investing with AQR**](https
-://twitter.com/quantseeker/status/1735600125878112671): An article delves into quantitative investing and AQR, offering 
-valuable insights into the sector. (2023-12-15, shares: 1)
-
-[**Christmas Quant Gift Ideas**](https://www.youtube.com/wat
-ch?v=4Yy2IjRztyg): The article suggests Christmas gift ideas related to quantitative analysis, including books on variou
-s financial and mathematical topics and mechanical pencils. (2023-12-17, shares: 17.0)
-
-[**Computation Challenges with M
-atrix Multiplication**](https://eranraviv.com/randomized-matrix-multiplication/): The article discusses the importance o
-f matrix multiplication in statistics and AI, highlighting the challenges posed by large matrices and high computational
- costs. (2023-12-14, shares: 6)
-
-# Paper with Code
-
-[**Rethinking UNet Encoder in Diffusion Models**](https://github.com
-/hutaihang/faster-diffusion): A novel technique has been found that skips the encoder at certain adjacent timesteps and 
-cyclically reuses the encoder features from previous timesteps for the decoder. (2023-12-20, shares: 140.0)
-
-[**Pointcep
-t: Simpler, Faster Point Transformer V3**](https://github.com/pointcept/pointtransformerv3): The article does not seek t
-o introduce any new concepts or improvements to the attention mechanism in machine learning. (2023-12-20, shares: 119.0)
-
-
-[**Agent Attention: Softmax and Linear Attention Integration**](https://github.com/leaplabthu/agent-attention): Agent 
-Attention enhances the traditional attention module by incorporating an extra set of agent tokens. (2023-12-19, shares: 
-73.0)
-
-&#x200B;
-
-Some of you have asked how/why do I do the list, it's for a newsletter I run for clients. For the how? 
- —  there is around 8 crawlers/scrapers running hourly. The upkeep is not too bad. Enjoy the list. 
 ```
 ---
 
