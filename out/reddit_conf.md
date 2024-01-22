@@ -1,5 +1,154 @@
  
-all -  [ Quant Research of the Week (10th Edition) ](https://www.reddit.com/r/quant/comments/1994aei/quant_research_of_the_week_10th_edition/) , 2024-01-21-0911
+all -  [ I read through the NeurIPS 2023 Abstracts and wrote about it ](https://alexzhang13.github.io/blog/2024/neurips2023) , 2024-01-22-0911
+```
+I made this resource that I think might be quite useful here, especially for those looking to find some new, relevant wo
+rks to read or use for their own projects. It discusses the content from roughly 300 papers, but the topics broadly pert
+ain to all of NeurIPS 2023. Happy reading!
+```
+---
+
+     
+ 
+all -  [ Advancements in machine learning for machine learning ](https://www.reddit.com/r/worldTechnology/comments/19c2sch/advancements_in_machine_learning_for_machine/) , 2024-01-22-0911
+```
+With the recent and accelerated advances in machine learning (ML), machines can understand natural language, engage in c
+onversations, draw images, create videos and more. Modern ML models are programmed and trained using ML programming fram
+eworks, such as TensorFlow, JAX, PyTorch, among many others. These libraries provide high-level instructions to ML pract
+itioners, such as linear algebra operations (e.g., matrix multiplication, convolution, etc.) and neural network layers (
+e.g., 2D convolution layers, transformer layers). Importantly, practitioners need not worry about how to make their mode
+ls run efficiently on hardware because an ML framework will automatically optimize the user's model through an underlyin
+g compiler. The efficiency of the ML workload, thus, depends on how good the compiler is. A compiler typically relies on
+ heuristics to solve complex optimization problems, often resulting in suboptimal performance.
+
+In this blog post, we pr
+esent exciting advancements in ML for ML. In particular, we show how we use ML to improve efficiency of ML workloads! Pr
+ior works, both internal and external, have shown that we can use ML to improve performance of ML programs by selecting 
+better ML compiler decisions. Although there exist a few datasets for program performance prediction, they target small 
+sub-programs, such as basic blocks or kernels. We introduce “TpuGraphs: A Performance Prediction Dataset on Large Tensor
+ Computational Graphs” (presented at NeurIPS 2023), which we recently released to fuel more research in ML for program o
+ptimization. We hosted a Kaggle competition on the dataset, which recently completed with 792 participants on 616 teams 
+from 66 countries. Furthermore, in “Learning Large Graph Property Prediction via Graph Segment Training”, we cover a nov
+el method to scale graph neural network (GNN) training to handle large programs represented as graphs. The technique bot
+h enables training arbitrarily large graphs on a device with limited memory capacity and improves generalization of the 
+model.
+
+# ML compilers
+
+ML compilers are software routines that convert user-written programs (here, mathematical instru
+ctions provided by libraries such as TensorFlow) to executables (instructions to execute on the actual hardware). An ML 
+program can be represented as a computation graph, where a node represents a tensor operation (such as matrix multiplica
+tion), and an edge represents a tensor flowing from one node to another. ML compilers have to solve many complex optimiz
+ation problems, including graph-level and kernel-level optimizations. A graph-level optimization requires the context of
+ the entire graph to make optimal decisions and transforms the entire graph accordingly. A kernel-level optimization tra
+nsforms one kernel (a fused subgraph) at a time, independently of other kernels.
+
+&#x200B;
+
+[ Important optimizations in
+ ML compilers include graph-level and kernel-level optimizations. ](https://preview.redd.it/n6hs3zdyhsdc1.png?width=1999
+&format=png&auto=webp&s=afa7e9a80f5d73c94c1692eb45612f51d7bdfe11)
+
+To provide a concrete example, imagine a matrix (2D t
+ensor):
+
+&#x200B;
+
+[matrix](https://preview.redd.it/q7m0npe3isdc1.png?width=1999&format=png&auto=webp&s=56382ec9b2462d71
+e48efcd3fc38405219b046c2)
+
+It can be stored in computer memory as \[A B C a b c\] or \[A a B b C c\], known as row- and 
+column-major memory layout, respectively. One important ML compiler optimization is to assign memory layouts to all inte
+rmediate tensors in the program. The figure below shows two different layout configurations for the same program. Let’s 
+assume that on the left-hand side, the assigned layouts (in red) are the most efficient option for each individual opera
+tor. However, this layout configuration requires the compiler to insert a copy operation to transform the memory layout 
+between the add and convolution operations. On the other hand, the right-hand side configuration might be less efficient
+ for each individual operator, but it doesn’t require the additional memory transformation. The layout assignment optimi
+zation has to trade off between local computation efficiency and layout transformation overhead.
+
+&#x200B;
+
+![img](2r9mj
+oz7isdc1 ' A node represents a tensor operator, annotated with its output tensor shape [n0, n1, ...], where ni is the si
+ze of dimension i. Layout {d0, d1, ...} represents minor-to-major ordering in memory. Applied configurations are highlig
+hted in red, and other valid configurations are highlighted in blue. A layout configuration specifies the layouts of inp
+uts and outputs of influential operators (i.e., convolution and reshape). A copy operator is inserted when there is a la
+yout mismatch.
+ ')
+
+If the compiler makes optimal choices, significant speedups can be made. For example, we have seen u
+p to a 32% speedup when choosing an optimal layout configuration over the default compiler’s configuration in the XLA be
+nchmark suite.
+
+# TpuGraphs dataset
+
+Given the above, we aim to improve ML model efficiency by improving the ML compiler
+. Specifically, it can be very effective to equip the compiler with a learned cost model that takes in an input program 
+and compiler configuration and then outputs the predicted runtime of the program.
+
+&#x200B;
+
+With this motivation, we re
+lease TpuGraphs, a dataset for learning cost models for programs running on Google’s custom Tensor Processing Units (TPU
+s). The dataset targets two XLA compiler configurations: layout (generalization of row- and column-major ordering, from 
+matrices, to higher dimension tensors) and tiling (configurations of tile sizes). We provide download instructions and s
+tarter code on the TpuGraphs GitHub. Each example in the dataset contains a computational graph of an ML workload, a com
+pilation configuration, and the execution time of the graph when compiled with the configuration. The graphs in the data
+set are collected from open-source ML programs, featuring popular model architectures, e.g., ResNet, EfficientNet, Mask 
+R-CNN, and Transformer. The dataset provides 25× more graphs than the largest (earlier) graph property prediction datase
+t (with comparable graph sizes), and graph size is 770× larger on average compared to existing performance prediction da
+tasets on ML programs. With this greatly expanded scale, for the first time we can explore the graph-level prediction ta
+sk on large graphs, which is subject to challenges such as scalability, training efficiency, and model quality.
+
+&#x200B
+;
+
+[ Scale of TpuGraphs compared to other graph property prediction datasets. ](https://preview.redd.it/ebfs36lcisdc1.pn
+g?width=2868&format=png&auto=webp&s=0e6e2e1f39ebd839df0cb979e4ad2c142b7e676b)
+
+ We provide baseline learned cost models 
+with our dataset (architecture shown below). Our baseline models are based on a GNN since the input program is represent
+ed as a graph. Node features, shown in blue below, consist of two parts. The first part is an *opcode id*, the most impo
+rtant information of a node, which indicates the type of tensor operation. Our baseline models, thus, map an opcode id t
+o an *opcode embedding* via an embedding lookup table. The opcode embedding is then concatenated with the second part, t
+he rest of the node features, as inputs to a GNN. We combine the node embeddings produced by the GNN to create the fixed
+-size embedding of the graph using a simple graph pooling reduction (i.e., sum and mean). The resulting graph embedding 
+is then linearly transformed into the final scalar output by a feedforward layer. 
+
+&#x200B;
+
+[ Our baseline learned cos
+t model employs a GNN since programs can be naturally represented as graphs. ](https://preview.redd.it/jdcalhjgisdc1.png
+?width=2284&format=png&auto=webp&s=f253742e4262ad004fa7a6bc6b3dea31c15c9d5c)
+
+Furthermore we present Graph Segment Train
+ing (GST), a method for scaling GNN training to handle large graphs on a device with limited memory capacity in cases wh
+ere the prediction task is on the entire-graph (i.e., graph-level prediction). Unlike scaling training for node- or edge
+-level prediction, scaling for graph-level prediction is understudied but crucial to our domain, as computation graphs c
+an contain hundreds of thousands of nodes. In a typical GNN training (“Full Graph Training”, on the left below), a GNN m
+odel is trained using an entire graph, meaning all nodes and edges of the graph are used to compute gradients. For large
+ graphs, this might be computationally infeasible. In GST, each large graph is partitioned into smaller segments, and a 
+random subset of segments is selected to update the model; embeddings for the remaining segments are produced without sa
+ving their intermediate activations (to avoid consuming memory). The embeddings of all segments are then combined to gen
+erate an embedding for the original large graph, which is then used for prediction. In addition, we introduce the histor
+ical embedding table to efficiently obtain graph segments’ embeddings and segment dropout to mitigate the staleness from
+ historical embeddings. Together, our complete method speeds up the end-to-end training time by 3×.
+
+&#x200B;
+
+[ Compari
+ng Full Graph Training \(typical method\) vs Graph Segment Training \(our proposed method\). ](https://preview.redd.it/l
+us2m3ikisdc1.png?width=790&format=png&auto=webp&s=eb8ad9e466ef062ef171b24f409b6c4eea2c5346)
+
+&#x200B;
+
+[Advancements in 
+machine learning for machine learning](https://blog.research.google/2023/12/advancements-in-machine-learning-for.html)
+```
+---
+
+     
+ 
+all -  [ Quant Research of the Week (10th Edition) ](https://www.reddit.com/r/quant/comments/1994aei/quant_research_of_the_week_10th_edition/) , 2024-01-22-0911
 ```
 # SSRN
 
@@ -363,7 +512,7 @@ e change. (2024-01-14, shares: 20.0)
 
      
  
-all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-01-21-0911
+all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-01-22-0911
 ```
 I am beyond excited to publish our first Weaviate Podcast interview in-person at the NeurIPS conference with Omar Khatta
 b from Stanford University!
@@ -400,7 +549,7 @@ eaviate/episodes/DSPy-and-ColBERT-with-Omar-Khattab----Weaviate-Podcast-85-e2eff
 
      
  
-all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/deepCuriosity/Attending-NeurIPS2023) , 2024-01-21-0911
+all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/deepCuriosity/Attending-NeurIPS2023) , 2024-01-22-0911
 ```
 
 ```
@@ -408,7 +557,7 @@ all -  [ My Experiences Attending NeurIPS 2023 ](https://awaisrauf.github.io/dee
 
      
  
-all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-01-21-0911
+all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-01-22-0911
 ```
 Hi all, I've stumbled upon this Neurips paper 'Large Language Models Are Zero-Shot Time Series Forecasters'   [2310.0782
 0.pdf (arxiv.org)](https://arxiv.org/pdf/2310.07820.pdf?trk=public_post_comment-text)  and wonder what people in time se
@@ -427,7 +576,7 @@ anks!
 
      
  
-all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-01-21-0911
+all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-01-22-0911
 ```
 I'm interested in reviewing for the upcoming cycles of ECCV, Neurips, ICLR, AAAI etc. 
 
@@ -441,7 +590,7 @@ there a better way of doing it?
 
      
  
-all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-01-21-0911
+all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-01-22-0911
 ```
 Hey everyone! We had an incredible time at the NeurIPS conference this year in New Orleans! We learned a ton, met so man
 y amazing people, and... put together our first in-person podcast series!!
@@ -473,7 +622,7 @@ h?v=xrZxk0H2cmY)
 
      
  
-all -  [ AI Partnerships, Intelligence Augmentation, and Open Source Research: A Look at Current AI Trends ](https://www.reddit.com/r/ai_news_by_ai/comments/191d4cy/ai_partnerships_intelligence_augmentation_and/) , 2024-01-21-0911
+all -  [ AI Partnerships, Intelligence Augmentation, and Open Source Research: A Look at Current AI Trends ](https://www.reddit.com/r/ai_news_by_ai/comments/191d4cy/ai_partnerships_intelligence_augmentation_and/) , 2024-01-22-0911
 ```
 
 
@@ -605,7 +754,7 @@ n LeCun @ylecun https://twitter.com/ylecun/status/1744135793243767102](https://t
 
      
  
-all -  [ Why don't we build a really good agent to help you write AI Research Papers ](https://www.reddit.com/r/LaTeX/comments/1911j0q/why_dont_we_build_a_really_good_agent_to_help_you/) , 2024-01-21-0911
+all -  [ Why don't we build a really good agent to help you write AI Research Papers ](https://www.reddit.com/r/LaTeX/comments/1911j0q/why_dont_we_build_a_really_good_agent_to_help_you/) , 2024-01-22-0911
 ```
 Hi folks, 
 
@@ -652,7 +801,7 @@ ecting to squeeze out of an AI agent, if it's helping you write your next NeurIP
 
      
  
-all -  [ [Hiring] Abridge is hiring a Data Engineering Lead to Support ML/Research team - Fully Remote, US-Ba ](https://www.reddit.com/r/dataengineeringjobs/comments/1903yye/hiring_abridge_is_hiring_a_data_engineering_lead/) , 2024-01-21-0911
+all -  [ [Hiring] Abridge is hiring a Data Engineering Lead to Support ML/Research team - Fully Remote, US-Ba ](https://www.reddit.com/r/dataengineeringjobs/comments/1903yye/hiring_abridge_is_hiring_a_data_engineering_lead/) , 2024-01-22-0911
 ```
 Hey All! My team at [Abridge](https://www.abridge.com/) is hiring a full-time Data Engineering Lead to join our fully re
 mote team!
@@ -708,7 +857,7 @@ feel free to [apply directly here](https://jobs.ashbyhq.com/Abridge/5c0d9bb2-4b4
 
      
  
-all -  [ [HIRING] Abridge is Hiring a Senior Platform Engineer! - Kubernetes, Terraform, GCP - Fully Remote,  ](https://www.reddit.com/r/devopsjobs/comments/19033cb/hiring_abridge_is_hiring_a_senior_platform/) , 2024-01-21-0911
+all -  [ [HIRING] Abridge is Hiring a Senior Platform Engineer! - Kubernetes, Terraform, GCP - Fully Remote,  ](https://www.reddit.com/r/devopsjobs/comments/19033cb/hiring_abridge_is_hiring_a_senior_platform/) , 2024-01-22-0911
 ```
 Hey All! My team at [Abridge](https://www.abridge.com) is hiring a full-time Senior Platform Engineer to join our fully 
 remote team! 
@@ -757,7 +906,7 @@ tly here](https://jobs.ashbyhq.com/Abridge/8a3d9406-5403-4fd5-b66f-b163a3bc3505/
 
      
  
-all -  [ Natural Language Processing (NLP) Learning Path - In depth ](https://www.reddit.com/r/learnmachinelearning/comments/18yo5kp/natural_language_processing_nlp_learning_path_in/) , 2024-01-21-0911
+all -  [ Natural Language Processing (NLP) Learning Path - In depth ](https://www.reddit.com/r/learnmachinelearning/comments/18yo5kp/natural_language_processing_nlp_learning_path_in/) , 2024-01-22-0911
 ```
 Hi friends, i'm currently engaged in NLP and created an pretty extense roadmap or learning path so begginers don't feel 
 lost, it covers from the basics to advanced cutting-edge concepts.
@@ -1252,7 +1401,7 @@ actical projects
 
      
  
-all -  [ Advice for 4th year EECS PhD transitioning to quantitative finance ](https://www.reddit.com/r/FinancialCareers/comments/18wah63/advice_for_4th_year_eecs_phd_transitioning_to/) , 2024-01-21-0911
+all -  [ Advice for 4th year EECS PhD transitioning to quantitative finance ](https://www.reddit.com/r/FinancialCareers/comments/18wah63/advice_for_4th_year_eecs_phd_transitioning_to/) , 2024-01-22-0911
 ```
 My background: undergrad in math, currently enrolled in a top 10 EECS PhD program in US. I work mainly in ML and optimiz
 ation theory and have published 6-7 articles in top AI conferences (NeurIPS/ICLR/ICML). They are mainly mathy papers wit
@@ -1288,7 +1437,7 @@ ther advice for the application process. Thank you!
 
      
  
-all -  [ Not a single interview call, getting rejected everywhere. Please Roast :( ](https://www.reddit.com/r/resumes/comments/18vaozg/not_a_single_interview_call_getting_rejected/) , 2024-01-21-0911
+all -  [ Not a single interview call, getting rejected everywhere. Please Roast :( ](https://www.reddit.com/r/resumes/comments/18vaozg/not_a_single_interview_call_getting_rejected/) , 2024-01-22-0911
 ```
 &#x200B;
 
@@ -1299,7 +1448,7 @@ https://preview.redd.it/e81y2uotkn9c1.png?width=1532&format=png&auto=webp&s=7249
 
      
  
-all -  [ ASU Admit ](https://www.reddit.com/r/MSCS/comments/18uy3ia/asu_admit/) , 2024-01-21-0911
+all -  [ ASU Admit ](https://www.reddit.com/r/MSCS/comments/18uy3ia/asu_admit/) , 2024-01-22-0911
 ```
 MY FIRST ADMIT! Although it was a safe school for me, I am very relaxed now.
 
@@ -1323,7 +1472,7 @@ earch-based)
 
      
  
-all -  [ [R] InfoSHAP: Explaining Predictive Uncertainty with Information Theoretic Shapley Values ](https://www.reddit.com/r/MachineLearning/comments/18ud5zn/r_infoshap_explaining_predictive_uncertainty_with/) , 2024-01-21-0911
+all -  [ [R] InfoSHAP: Explaining Predictive Uncertainty with Information Theoretic Shapley Values ](https://www.reddit.com/r/MachineLearning/comments/18ud5zn/r_infoshap_explaining_predictive_uncertainty_with/) , 2024-01-22-0911
 ```
 **Paper title**: Explaining Predictive Uncertainty with Information Theoretic Shapley Values
 
@@ -1362,7 +1511,7 @@ as applications to covariate shift detection, active learning, feature selection
 
      
  
-all -  [ [D] Competitiveness of CS PhD in ML for top programs (24 Fall) ](https://www.reddit.com/r/MachineLearning/comments/18uajqj/d_competitiveness_of_cs_phd_in_ml_for_top/) , 2024-01-21-0911
+all -  [ [D] Competitiveness of CS PhD in ML for top programs (24 Fall) ](https://www.reddit.com/r/MachineLearning/comments/18uajqj/d_competitiveness_of_cs_phd_in_ml_for_top/) , 2024-01-22-0911
 ```
 I recently read a post somewhere else claiming that CS PhD admissions in the field of ML for top programs at top institu
 tions have become extremely competitive this year. According to the post, for top 20 universities in the US, only people
@@ -1386,7 +1535,7 @@ r/gradadmissions after I figure out how to do that.
 
      
  
-all -  [ Need uni recommendations with Jan/Feb application deadlines ](https://www.reddit.com/r/MSCS/comments/18rsvtx/need_uni_recommendations_with_janfeb_application/) , 2024-01-21-0911
+all -  [ Need uni recommendations with Jan/Feb application deadlines ](https://www.reddit.com/r/MSCS/comments/18rsvtx/need_uni_recommendations_with_janfeb_application/) , 2024-01-22-0911
 ```
 I have applied to a few universities before 15th December. I would like to apply to a few more universities that have th
 eir application deadlines in January or February. So far I have shortlisted Columbia, UPenn and MBZUAI. Would like a few
@@ -1411,7 +1560,7 @@ No country preference. Just want good research focused universities.
 
      
  
-all -  [ [D] Neurips 2023 Recap and takeaways ](https://www.reddit.com/r/MachineLearning/comments/18pv55s/d_neurips_2023_recap_and_takeaways/) , 2024-01-21-0911
+all -  [ [D] Neurips 2023 Recap and takeaways ](https://www.reddit.com/r/MachineLearning/comments/18pv55s/d_neurips_2023_recap_and_takeaways/) , 2024-01-22-0911
 ```
 Can someone share recap and key takeaways from Neurips 2023.
 ```
@@ -1419,7 +1568,7 @@ Can someone share recap and key takeaways from Neurips 2023.
 
      
  
-all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2024-01-21-0911
+all -  [ [Education] Chances of getting into a top MS biostats despite a poor junior year due to medical prob ](https://www.reddit.com/r/statistics/comments/18oqvhx/education_chances_of_getting_into_a_top_ms/) , 2024-01-22-0911
 ```
 Current senior applying to Biostatistics, CSE, and Applied Math MS programs. I go to a top 20 US school known for being 
 rigorous in math and stats, and I’m majoring in applied math with minors in stats and CS. In my junior year, I had a 3.0
@@ -1479,7 +1628,7 @@ e!
 
      
  
-all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2024-01-21-0911
+all -  [ 🌟 Today's Must-Read Insights! 🤖 ](https://www.reddit.com/r/GenerativeAIPrompts/comments/18o9ecc/todays_mustread_insights/) , 2024-01-22-0911
 ```
 &#x200B;
 
