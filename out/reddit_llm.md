@@ -1,5 +1,244 @@
  
-all -  [ How to Stop Document Retrieval in a RAG chatbot for Greeting input from user Like Hi, Hello, Good Mo ](https://www.reddit.com/r/LangChain/comments/19d9d6t/how_to_stop_document_retrieval_in_a_rag_chatbot/) , 2024-01-23-0910
+all -  [ Creating demo conversational AI for Client ](https://www.reddit.com/r/LangChain/comments/19e0853/creating_demo_conversational_ai_for_client/) , 2024-01-24-0910
+```
+I'm creating a demo for a client - it will involve a web ui, a conversational component and some knowledge retrieval. An
+y insight into what is the best way to set this up? Whether for an MVP or Production grade software? 
+
+I really do like 
+Langchain for its flexibility (no vendor lock-in) but am also open to Assistants API. I'm wondering specifically what is
+ the best 'front end' chat interface (Botpress ,Voiceflow, custom JS) and how others are setting up a seamless experienc
+e while having chatGPT like power. 
+
+Just looking to think about tradeoffs as I plan to design the service.
+```
+---
+
+     
+ 
+all -  [ Can we use Conversation History in rag chain? ](https://www.reddit.com/r/LangChain/comments/19dya0n/can_we_use_conversation_history_in_rag_chain/) , 2024-01-24-0910
+```
+Currently, my chatbot can generate answers for current questions using the context (acc to prompt). Now I want to use th
+e conversational part i.e., the chat history part to make it more sensible. How is that possible?
+```
+---
+
+     
+ 
+all -  [ Updated Pinecone client issue with Langchain vectorstore ](https://www.reddit.com/r/LangChain/comments/19dxzv2/updated_pinecone_client_issue_with_langchain/) , 2024-01-24-0910
+```
+I have had to upgrade pinecone-client and dependencies in conjunction with langchain for vectorstores.  In doing so ran 
+into a conflict with the imports for pinecone import Pinecone and langchain_community.vectorstores import Pinecone 
+
+whe
+re the class config appears incompatible now and errors with api_key unexpected on Pinecone client creation unless I rem
+ove the langchain import line which of course causes the vectorstore setup to fail.  
+
+Running the following versions:
+P
+inecone-client 3.0.1
+Langchain 0.1.3
+Langchain-community 0.0.14
+Langchain-core 0.1.15
+
+Any input greatly appreciated - t
+his update made current chatbot inoperable 
+
+Thanks
+```
+---
+
+     
+ 
+all -  [ How to create a project using Langchain which will utilise OpenAI api ](https://www.reddit.com/r/deeplearning/comments/19dxhp4/how_to_create_a_project_using_langchain_which/) , 2024-01-24-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ The real purpose of AI is to let it be the jerk for me. ](https://www.reddit.com/r/ChatGPT/comments/19dxdhw/the_real_purpose_of_ai_is_to_let_it_be_the_jerk/) , 2024-01-24-0910
+```
+Kinda serious, kinda joking, but curious who else is using AI to save themselves from explaining trivial engineering pri
+nciples and decisions to non-technical people. For example, it must save me hours every week to just put in the naive qu
+estions I get asked in business calls ( or the bad decisions that I need to shut down ) and ask the AI to explain why it
+ is/isn't a good idea to do/not do this thing. The great part is at the end of the conversation I get to say, 'Look ladi
+es and gentlemen, I am always open to discussion and improvement of ideas but AI is the one arguing against you not me. 
+I am just relaying information.' Basically I am using AI as my bad cop in my good cop bad cop routine. Anyone else doing
+ this?
+
+After writing this I just realized some one needs to create an AI startup that just has it constantly listen to 
+calls and be the jerk to shut down stupid stuff in real time. I am too lazy. Please build me this tool open source using
+ Langchain. Should be super easy but not cost effective unless using local models.
+```
+---
+
+     
+ 
+all -  [ Live HowTo for building your 1st RAG App! ](https://www.reddit.com/r/LlamaIndex/comments/19dwheq/live_howto_for_building_your_1st_rag_app/) , 2024-01-24-0910
+```
+I'm so excited for tomorrows live how to that DataStax and LangChain are putting together that I had to share this! In m
+y opinion, here's an easy way for how to develop your 1st RAG app \~ [https://www.crowdcast.io/c/5z80anwt7e13?utm\_mediu
+m=social\_organic&utm\_source=socialstax&utm\_campaign=putv&utm\_content=](https://www.crowdcast.io/c/5z80anwt7e13?utm_m
+edium=social_organic&utm_source=socialstax&utm_campaign=putv&utm_content=)
+```
+---
+
+     
+ 
+all -  [ Webinar - LangChain JS, Vercel, Astra with Wikipedia data ](https://www.reddit.com/r/generativeAI/comments/19dw79o/webinar_langchain_js_vercel_astra_with_wikipedia/) , 2024-01-24-0910
+```
+Just stumbled upon this amazing webinar that's all set for tomorrow! It's about crafting a real-time RAG app using LangC
+hain.js, Vercel, and Astra DB, leveraging Wikipedia. It looks really cool: [https://dtsx.io/498383Z](https://dtsx.io/498
+383Z) 
+```
+---
+
+     
+ 
+all -  [ WikiChat ](https://www.reddit.com/r/LangChain/comments/19dvjtb/wikichat/) , 2024-01-24-0910
+```
+Saw this webinar that is around building a real-time RAG app on Wikipedia with LangChain.js, Vercel, and Astra DB. Looks
+ interesting and is set to go tomorrow: [https://dtsx.io/498383Z](https://dtsx.io/498383Z)
+```
+---
+
+     
+ 
+all -  [ Become an AI Developer (Free 9-Part Series) ](https://www.reddit.com/r/computervision/comments/19dvemg/become_an_ai_developer_free_9part_series/) , 2024-01-24-0910
+```
+Just sharing a free series I stumbled across on Linkedin - DataCamp's 9-part AI code-along series.
+
+This specific sessio
+n linked below is 'Building Chatbots with OpenAI API and Pinecone' but there are 8 others to have a look at and code alo
+ng to.
+
+*Start from basics to build on skills with GPT, Pinecone and LangChain to create a chatbot that answers question
+s about research papers. Make use of retrieval augmented generation, and learn how to combine this with conversational m
+emory to hold a conversation with the chatbot. Code Along on DataCamp Workspace:* [*https://www.datacamp.com/code-along/
+building-chatbots-openai-api-pinecone*](https://www.datacamp.com/code-along/building-chatbots-openai-api-pinecone)
+
+Find
+ all of the sessions at: [https://www.datacamp.com/ai-code-alongs](https://www.datacamp.com/ai-code-alongs)
+```
+---
+
+     
+ 
+all -  [ Become an AI Developer (Free 9-Part Series) ](https://www.reddit.com/r/WebDevBuddies/comments/19dvbyl/become_an_ai_developer_free_9part_series/) , 2024-01-24-0910
+```
+Just sharing a free series I stumbled across on Linkedin - DataCamp's 9-part AI code-along series.  
+This specific sessi
+on linked below is 'Building Chatbots with OpenAI API and Pinecone' but there are 8 others to have a look at and code al
+ong to.  
+*Start from basics to build on skills with GPT, Pinecone and LangChain to create a chatbot that answers questi
+ons about research papers. Make use of retrieval augmented generation, and learn how to combine this with conversational
+ memory to hold a conversation with the chatbot. Code Along on DataCamp Workspace: https://www.datacamp.com/code-along/b
+uilding-chatbots-openai-api-pinecone*  
+Find all of the sessions at: https://www.datacamp.com/ai-code-alongs
+```
+---
+
+     
+ 
+all -  [ Re-ranking and pagination ](https://www.reddit.com/r/LangChain/comments/19du39n/reranking_and_pagination/) , 2024-01-24-0910
+```
+Hi, I'm using Elasticsearch to maintain a set of documents. When a user types in a query, I perform a lexical (+semantic
+) search and output the results. So far I've had good success with this approach. However, I now want to perform a post-
+retrieval re-ranking using Cohere. I'm curious as to how should I paginate the results, or if it's even possible in the 
+first-place?  
+Thanks!
+```
+---
+
+     
+ 
+all -  [ [HELP] Can't save the chromadb vector store ](https://www.reddit.com/r/LangChain/comments/19dsmf1/help_cant_save_the_chromadb_vector_store/) , 2024-01-24-0910
+```
+I'm working on embedding some documents (lots of it) and I was debugging my code, running it to check if the AzureOpenEm
+beddingAPI works, here's the code:
+
+        loader = DataFrameLoader(df, page_content_column='desc_cleaned')
+    
+      
+  splitter = RecursiveCharacterTextSplitter(
+            chunk_size=1000, chunk_overlap=200
+        )
+        splits = s
+plitter.split_documents(loader.load())
+        vectorstore = Chroma.from_documents(documents=splits, embedding=AzureOpen
+AIEmbeddings(show_progress_bar=True))
+
+So now I got my debugger on, and I'm trying to save the vector store so that I do
+n't have to sit through the whole thing again, but doing \`vectorstore.persist()\` does not seem to work, and it does no
+t throw an error either.
+
+Do you guys have an idea on how I could save the store locally?
+```
+---
+
+     
+ 
+all -  [ Memory handling in LCEL. ](https://www.reddit.com/r/LangChain/comments/19drvmj/memory_handling_in_lcel/) , 2024-01-24-0910
+```
+How can I build a custom retrieval chatbot chain using the LCEL and not the available default langchain chains?
+```
+---
+
+     
+ 
+all -  [ Qdrant Similarity Search Metric ](https://www.reddit.com/r/LangChain/comments/19dmjn0/qdrant_similarity_search_metric/) , 2024-01-24-0910
+```
+Hello all, May I know what is the metric used to compute similarity for QDrant Retriever, with a search_type=similarity 
+? Would it be cosine similarity? L2?
+```
+---
+
+     
+ 
+all -  [ Langchain UnstructuredFileLoader: Load PDFs ](https://www.reddit.com/r/LangChain/comments/19dk7mc/langchain_unstructuredfileloader_load_pdfs/) , 2024-01-24-0910
+```
+Hi, 
+
+I wanted to find a more clean way to load my PDFs than PyPDF loader and came across [Unstructured.io](https://Unst
+ructured.io) wit Langchain. I am loading my PDF like this: 
+
+`# UnstructuredIO Test`  
+`from langchain_community.documen
+t_loaders import UnstructuredFileLoader`  
+`loader = UnstructuredFileLoader(`  
+ `'my.pdf', mode='elements'`  
+`)`  
+`do
+cs = loader.load()`  
+`docs[:5]`
+
+Now I figured out that this loads every line of the PDF into a list entry (PDF with 22
+ pages ended up with 580 entries). But how can I extract the text of whole pages to be able to further use it for RAG?
+
+
+With only reading on one line each, I think context gets lost.
+```
+---
+
+     
+ 
+all -  [ RAG with PDFs: Why chunking and not using whole page ](https://www.reddit.com/r/LangChain/comments/19dip1l/rag_with_pdfs_why_chunking_and_not_using_whole/) , 2024-01-24-0910
+```
+Hi,
+
+I understand that Chunking for RAG is very important for longer texts. But I was wondering why it is common that PD
+Fs also get chunked. 
+
+For example, many PDF pages in my use case have less than 2000 characters. When reading in the PD
+F, the context over pages gets lost anyways, because PyPDFLoader for example stores every page separately.  As 2000 char
+s isn't that much and I want to get as many context as possible (so maximum 1 page), why should I consider chunking?
+```
+---
+
+     
+ 
+all -  [ How to Stop Document Retrieval in a RAG chatbot for Greeting input from user Like Hi, Hello, Good Mo ](https://www.reddit.com/r/LangChain/comments/19d9d6t/how_to_stop_document_retrieval_in_a_rag_chatbot/) , 2024-01-24-0910
 ```
 I have built RAG chatbot entirely from scratch NO langchain involved. The docs are retrieved for every query, I want to 
 Stop docs Retrieval for Greeting messenges.
@@ -15,7 +254,7 @@ How to handle this?
 
      
  
-all -  [ LLM based ChatBots with Memory ](https://www.reddit.com/r/LangChain/comments/19d72dg/llm_based_chatbots_with_memory/) , 2024-01-23-0910
+all -  [ LLM based ChatBots with Memory ](https://www.reddit.com/r/LangChain/comments/19d72dg/llm_based_chatbots_with_memory/) , 2024-01-24-0910
 ```
 I am building a chatbot using Azure OpenAI API. Is there a way I can integrate the memory module of the Langchain framew
 ork into my chat application? Currently, I am using summarization to implement the short-term memory but I would like to
@@ -26,7 +265,7 @@ in Langchain. My conversations are currently stored in a Redis cache.
 
      
  
-all -  [ Developing an app using open source LLMs ](https://www.reddit.com/r/LangChain/comments/19d64ek/developing_an_app_using_open_source_llms/) , 2024-01-23-0910
+all -  [ Developing an app using open source LLMs ](https://www.reddit.com/r/LangChain/comments/19d64ek/developing_an_app_using_open_source_llms/) , 2024-01-24-0910
 ```
 Hi folks
 
@@ -48,7 +287,7 @@ orials or guides.
 
      
  
-all -  [ vec2word ](https://www.reddit.com/r/LangChain/comments/19d3z4g/vec2word/) , 2024-01-23-0910
+all -  [ vec2word ](https://www.reddit.com/r/LangChain/comments/19d3z4g/vec2word/) , 2024-01-24-0910
 ```
 I want to embed a prompt, invert the sign of each embedding, then turn that new embedding back into text.
 
@@ -61,15 +300,7 @@ how do you do that?
 
      
  
-all -  [ Mistral 7B from Mistral.AI - FULL WHITEPAPER OVERVIEW ](https://youtu.be/rSUqg5X4SAU?si=xoXyfmrDUu7idHI3) , 2024-01-23-0910
-```
-
-```
----
-
-     
- 
-all -  [ Create full RAG solution tutorial ](https://www.reddit.com/r/LangChain/comments/19d11xt/create_full_rag_solution_tutorial/) , 2024-01-23-0910
+all -  [ Create full RAG solution tutorial ](https://www.reddit.com/r/LangChain/comments/19d11xt/create_full_rag_solution_tutorial/) , 2024-01-24-0910
 ```
 I am trying to build rag solution for a user guide
 I have worked with chromadb and OpenAI but I want to build something 
@@ -81,7 +312,7 @@ Thanks
 
      
  
-all -  [ wht chat_histrory ](https://www.reddit.com/r/LangChain/comments/19cus3v/wht_chat_histrory/) , 2024-01-23-0910
+all -  [ wht chat_histrory ](https://www.reddit.com/r/LangChain/comments/19cus3v/wht_chat_histrory/) , 2024-01-24-0910
 ```
 I know this is not related langchain. somehow i am unable to post in python group. why the hell this is showing error. c
 hat\_history I declared at  99. why its showingerror at 106 but not at 108
@@ -97,7 +328,7 @@ https://preview.redd.it/
 
      
  
-all -  [ FAISS as Retriever: Score Treshold not working ](https://www.reddit.com/r/LangChain/comments/19ctf42/faiss_as_retriever_score_treshold_not_working/) , 2024-01-23-0910
+all -  [ FAISS as Retriever: Score Treshold not working ](https://www.reddit.com/r/LangChain/comments/19ctf42/faiss_as_retriever_score_treshold_not_working/) , 2024-01-24-0910
 ```
 Hi,
 
@@ -131,7 +362,7 @@ rk?
 
      
  
-all -  [ Developing an AI-Powered Gym chat app ](https://www.reddit.com/r/LangChain/comments/19csujt/developing_an_aipowered_gym_chat_app/) , 2024-01-23-0910
+all -  [ Developing an AI-Powered Gym chat app ](https://www.reddit.com/r/LangChain/comments/19csujt/developing_an_aipowered_gym_chat_app/) , 2024-01-24-0910
 ```
 I'm working on an innovative gym app that incorporates AI for personalized workout plans and diet charts, sourced from a
  gym owner's knowledge base.
@@ -156,7 +387,7 @@ t a reality. Any advice, suggestions, or experiences you can share would be imme
 
      
  
-all -  [ Survey about Retrieval Augmented Generation (RAG) in Real Production ](https://www.reddit.com/r/LangChain/comments/19crogm/survey_about_retrieval_augmented_generation_rag/) , 2024-01-23-0910
+all -  [ Survey about Retrieval Augmented Generation (RAG) in Real Production ](https://www.reddit.com/r/LangChain/comments/19crogm/survey_about_retrieval_augmented_generation_rag/) , 2024-01-24-0910
 ```
 I'm now working in an AI company, and we're developing infra products to enhance RAG. As the product marketing, it's imp
 ortant to hear from the community. I want to know:
@@ -178,7 +409,7 @@ dings have been integrated into Langchain already.
 
      
  
-all -  [ function calling with mistral or agent langchain with mistral - help wanted ](https://www.reddit.com/r/MistralAI/comments/19cq269/function_calling_with_mistral_or_agent_langchain/) , 2024-01-23-0910
+all -  [ function calling with mistral or agent langchain with mistral - help wanted ](https://www.reddit.com/r/MistralAI/comments/19cq269/function_calling_with_mistral_or_agent_langchain/) , 2024-01-24-0910
 ```
 can someone please provide a reference for this? I wanted to call different tools .& for that need some support of funct
 ion calling in mistral .help is really appreciated
@@ -187,7 +418,7 @@ ion calling in mistral .help is really appreciated
 
      
  
-all -  [ RAG vs. full context ](https://www.reddit.com/r/LangChain/comments/19cpvw6/rag_vs_full_context/) , 2024-01-23-0910
+all -  [ RAG vs. full context ](https://www.reddit.com/r/LangChain/comments/19cpvw6/rag_vs_full_context/) , 2024-01-24-0910
 ```
 I found that using RAG to search for documents through a vector store definitely loses some of the information, such as 
 context, because it has no way to look at your problem based on the whole document. langchain There is a concept propose
@@ -205,7 +436,7 @@ anced-rag-applications-using-falkordb-langchain-diffbot-api-and-openai-083fa1b6a
 
      
  
-all -  [ Create AI Chatbots for Websites in Python - EmbedChain Dash ](https://www.reddit.com/r/LangChain/comments/19coe4m/create_ai_chatbots_for_websites_in_python/) , 2024-01-23-0910
+all -  [ Create AI Chatbots for Websites in Python - EmbedChain Dash ](https://www.reddit.com/r/LangChain/comments/19coe4m/create_ai_chatbots_for_websites_in_python/) , 2024-01-24-0910
 ```
 Hey Everyone,I just created a free video tutorial showing how to build an AI Chatbots for Beginners in Python. We'll use
  the EmbedChain (built on top of LangChain) and Dash libraries, and we'll learn the core principles of training and inte
@@ -222,7 +453,7 @@ https://preview.redd.it/tq1ovgfihxdc1.png?width=1280&format=png&auto=webp&s=b4e1
 
      
  
-all -  [ New Grad seeking Data Science/ML/Computer Vision/NLP roles. 200+ apps, 0 interviews. Any suggestions ](https://www.reddit.com/r/resumes/comments/19ckqfk/new_grad_seeking_data_sciencemlcomputer_visionnlp/) , 2024-01-23-0910
+all -  [ New Grad seeking Data Science/ML/Computer Vision/NLP roles. 200+ apps, 0 interviews. Any suggestions ](https://www.reddit.com/r/resumes/comments/19ckqfk/new_grad_seeking_data_sciencemlcomputer_visionnlp/) , 2024-01-24-0910
 ```
 Can you please evaluate my resume and tell me what am I doing wrong/can improve upon? Is my resume unable to parse ATS?
 
@@ -233,7 +464,7 @@ https://preview.redd.it/yeztutkmiwdc1.jpg?width=2481&format=pjpg&auto=webp&s=0a9
 
      
  
-all -  [ Chatbot RAG and tool about crypto ](https://www.reddit.com/r/LangChain/comments/19cgrpd/chatbot_rag_and_tool_about_crypto/) , 2024-01-23-0910
+all -  [ Chatbot RAG and tool about crypto ](https://www.reddit.com/r/LangChain/comments/19cgrpd/chatbot_rag_and_tool_about_crypto/) , 2024-01-24-0910
 ```
 I already have some basic knowledge about langchain and LLM. Now I want to apply it to a production environment, but I r
 ealize that basic knowledge is not enough. I want to make a news Q&A chatbot application using RAG and use API access to
@@ -244,7 +475,7 @@ ery much
 
      
  
-all -  [ I haven’t seen anyone do it yet, so I built an agent that can talk to my car via the Ford API ](https://www.reddit.com/gallery/19cei8t) , 2024-01-23-0910
+all -  [ I haven’t seen anyone do it yet, so I built an agent that can talk to my car via the Ford API ](https://www.reddit.com/gallery/19cei8t) , 2024-01-24-0910
 ```
 Step one is done. I build an agent that’s using the gpt-3.5-turbo api, and langchain to house the Ford API as a callable
  tool.
@@ -253,7 +484,7 @@ Step one is done. I build an agent that’s using the gpt-3.5-turbo api, and lan
 
      
  
-all -  [ Request to improve integration with openai assistant api to add custom functions registered inside p ](https://www.reddit.com/r/LangChain/comments/19c9969/request_to_improve_integration_with_openai/) , 2024-01-23-0910
+all -  [ Request to improve integration with openai assistant api to add custom functions registered inside p ](https://www.reddit.com/r/LangChain/comments/19c9969/request_to_improve_integration_with_openai/) , 2024-01-24-0910
 ```
 
 Not sure where to ask this question
@@ -295,7 +526,7 @@ Best regards,
 
      
  
-all -  [ RAG, langchain app ](https://www.reddit.com/r/RagAI/comments/19c97bl/rag_langchain_app/) , 2024-01-23-0910
+all -  [ RAG, langchain app ](https://www.reddit.com/r/RagAI/comments/19c97bl/rag_langchain_app/) , 2024-01-24-0910
 ```
 Can anybody suggest ai tools that can build a langchain & rag app?
 ```
@@ -303,7 +534,7 @@ Can anybody suggest ai tools that can build a langchain & rag app?
 
      
  
-all -  [ What framework to use to build a LLM chatbot which is enterprise scalable to multiple users ](https://www.reddit.com/r/ChatGPT_GoogleBard/comments/19bzk8f/what_framework_to_use_to_build_a_llm_chatbot/) , 2024-01-23-0910
+all -  [ What framework to use to build a LLM chatbot which is enterprise scalable to multiple users ](https://www.reddit.com/r/ChatGPT_GoogleBard/comments/19bzk8f/what_framework_to_use_to_build_a_llm_chatbot/) , 2024-01-24-0910
 ```
 Hey guys, what framework or tools do I use if I wanted to build a LLM chatbot which is enterprise scalable to multiple u
 sers?
@@ -323,7 +554,7 @@ lly be appreciated. Many thanks!
 
      
  
-all -  [ What framework to use to build an open-sourced LLM chatbot which is enterprise scalable to multiple  ](https://www.reddit.com/r/MLQuestions/comments/19bzim1/what_framework_to_use_to_build_an_opensourced_llm/) , 2024-01-23-0910
+all -  [ What framework to use to build an open-sourced LLM chatbot which is enterprise scalable to multiple  ](https://www.reddit.com/r/MLQuestions/comments/19bzim1/what_framework_to_use_to_build_an_opensourced_llm/) , 2024-01-24-0910
 ```
 Hey guys, what framework or tools do I use if I wanted to build an open-sourced LLM chatbot which is enterprise scalable
  to multiple users?
@@ -343,7 +574,7 @@ help would really be appreciated. Many thanks!
 
      
  
-all -  [ Advice on Getting Started RAG and LLM using Langchain and TinyLlama ](https://www.reddit.com/r/ArtificialInteligence/comments/19bz6bo/advice_on_getting_started_rag_and_llm_using/) , 2024-01-23-0910
+all -  [ Advice on Getting Started RAG and LLM using Langchain and TinyLlama ](https://www.reddit.com/r/ArtificialInteligence/comments/19bz6bo/advice_on_getting_started_rag_and_llm_using/) , 2024-01-24-0910
 ```
 I am currently learning RAG and LLM and how RAG can help reduce hallucinations on LLM when generating responses.
 
@@ -356,7 +587,7 @@ ake an application on top of it. So that end users can use this application.
 
      
  
-all -  [ Is LLM 'temperature' setting similar to 'Guidance scale' from Stable Diffusion? ](https://www.reddit.com/r/LangChain/comments/19bz3o1/is_llm_temperature_setting_similar_to_guidance/) , 2024-01-23-0910
+all -  [ Is LLM 'temperature' setting similar to 'Guidance scale' from Stable Diffusion? ](https://www.reddit.com/r/LangChain/comments/19bz3o1/is_llm_temperature_setting_similar_to_guidance/) , 2024-01-24-0910
 ```
 \*Guidance Scale\* Stable diffusion setting,  “prompt strength”
 
@@ -372,386 +603,7 @@ t more strictly. A lower guidance scale means the model will have more creativit
 
      
  
-all -  [ Resume Feedback and Career Advice Needed! ](https://www.reddit.com/r/resumes/comments/19bx74j/resume_feedback_and_career_advice_needed/) , 2024-01-23-0910
-```
-Here is my resume, looking for feedback and career advice. Any suggestions on how to improve or opportunities I should e
-xplore? Thanks in advance!
-
-I want to switch my job; until now, I was applying at random places and did some cold emails
- with no response. Other than that, I received two offers from UK who saw one of my project on GitHub, emailed me, and o
-ffered an interview. However, the interview is still pending, and they are taking time to respond. I also have another i
-nterview opportunity for a frontend role in a crypto startup; the interview is on Wednesday next week. Let's hope for th
-e best!
-
-A bit about me: I come from a non-tech background, previously involved in sports (Played cricket at the nationa
-l level). However, my love for computers and software led me to choose a career in tech. While I don't have a strong DSA
- & LeetCode profile, I am currently learning and improving in that area as well.
-
-My Github: [https://github.com/ChetanX
-pro](https://github.com/ChetanXpro)
-
-Resume:  
-
-
-[Resume](https://preview.redd.it/csza6nr2oqdc1.png?width=1058&format=pn
-g&auto=webp&s=3c01c36634cdb1543754d86d159d7a9d0e395405)
-```
----
-
-     
- 
-all -  [ Is there a chat to help with the langchain API? ](https://www.reddit.com/r/LangChain/comments/19bqj57/is_there_a_chat_to_help_with_the_langchain_api/) , 2024-01-23-0910
-```
-Title, is chatGPT the best llm to help with the python API?
-
-🙏
-```
----
-
-     
- 
-all -  [ A demonstration video of RAG feature ](https://www.reddit.com/r/huggingface/comments/19bpbjo/a_demonstration_video_of_rag_feature/) , 2024-01-23-0910
-```
- 
-
-Currently, this project supports RAG functionality, allowing the creation of knowledge bases, uploading various types
- of documents for vectorization, and enabling the base model to answer questions based on the knowledge base. Achieving 
-high precision with RAG functionality requires significant work and research. While the implementation of this project i
-s still in its early stages, it serves as a sufficient entry-level research tool. Here is a demonstration video showcasi
-ng its capabilities:  
-[https://youtu.be/dyIFLISlskI](https://youtu.be/dyIFLISlskI)
-
-&#x200B;
-
-[ Knowledge Base Interfac
-e ](https://preview.redd.it/09j18n8pkodc1.png?width=2560&format=png&auto=webp&s=3b40a0b9b9837fa52b67de938e69a3305a69bf7e
-)
-
-&#x200B;
-
-[ Upload Docs to Knowledge Base ](https://preview.redd.it/s2he4upqkodc1.png?width=2560&format=png&auto=webp
-&s=4ae3d496c89944f82e13f5c812f2cc243e6e7326)
-
-&#x200B;
-
-[ Docs Content View ](https://preview.redd.it/3ojg8oiukodc1.png?
-width=2560&format=png&auto=webp&s=a640337695cfedb53849ce448a859dd25f5dec22)
-
-&#x200B;
-
-[ Foundation Model Chat Base on K
-B ](https://preview.redd.it/niqcinewkodc1.png?width=2560&format=png&auto=webp&s=4756a32b0efd15966ca64fb399197a387243c3f1
-)
-```
----
-
-     
- 
-all -  [ Langchain vs Llama Index ](https://www.reddit.com/r/LangChain/comments/19bnjnz/langchain_vs_llama_index/) , 2024-01-23-0910
-```
-Hey guys,
-
-I am deciding to implement RAG pipeline into my code
-
-between Langchain and Llama Index, what RAG capability 
-yield better performance and what's the main different?
-
-Thanks a lot guys!
-```
----
-
-     
- 
-all -  [ Integrating Azure AI search ](https://www.reddit.com/r/LangChain/comments/19bn28q/integrating_azure_ai_search/) , 2024-01-23-0910
-```
-Howdy. I have a project which initially made use of LlamaIndex and GithubRepositoryReader to locally persist a vector st
-ore containing the contents of a github code repository that I will now be looking to instead integrate into Azure AI se
-arch service.
-
-Does anyone know of any resources they can point me to which demonstrates such a project (generating embe
-ddings for a code repo, uploading the docs to azure ai search, q&a against said search service)
-
-Thanks!
-```
----
-
-     
- 
-all -  [ Ensemble Retriever with ParentDoc ](https://www.reddit.com/r/LangChain/comments/19bjuov/ensemble_retriever_with_parentdoc/) , 2024-01-23-0910
-```
-I have tested two retriever methods, 1) Pinecone Hybrid Search and 2) ParentDocument Retriever.
-
-Generally, the ParentDo
-cument Retriever performs a lot better but there are instances where the Hybrid search finds interesting nuggets.
-
-I wan
-ted to know, if using the ensemble retriever, I can do a combination of BM25 and ParentDocument? Has anyone tried this?
-
-
-Thanks
-```
----
-
-     
- 
-all -  [ GPT4AllEmbeddings modify model path ](https://www.reddit.com/r/LangChain/comments/19biswa/gpt4allembeddings_modify_model_path/) , 2024-01-23-0910
-```
-I'd like to modify the model path using GPT4AllEmbeddings and use a model I already downloading from the browser (the al
-l-MiniLM-L6-v2-f16.gguf model, the same that GPT4AllEmbeddings downloads by default).
-
-I need it to create RAG chatbot c
-ompletely offline.
-
-The langchain documentation chatbot suggests me to use:
-
->from langchain\_community.embeddings **imp
-ort** GPT4AllEmbeddings  
-model\_path = '/path/to/your/model.bin'  
-gpt4all\_embd = GPT4AllEmbeddings(model=model\_path)
-
-
-I tried it but it does not work. It completely ignore the model path.
-
-Is there something I'm missing?
-```
----
-
-     
- 
-all -  [ LangChain Questions - Advanced Use Cases ](https://www.reddit.com/r/LangChain/comments/19bfisz/langchain_questions_advanced_use_cases/) , 2024-01-23-0910
-```
-first time long time. love the platform.
-
-we have build custom tools and agents.
-
-i am trying to extend our implementati
-on with the following
-
-\- custom meta-prompts - that are stored on the firm or individual level and could be used as par
-t of a workflow
-
-\- Custom meta-data storage - like a list of URLs. this would allow the user to edit this list, and the
-n a custom agent (web scraper, etc) could reference it
-
-\- multi-agents? our function calls can only do one thing at a t
-ime (one scrape, etc). is there a way to run multiple, in parallel, and return together?
-
-&#x200B;
-
-thanks
-```
----
-
-     
- 
-all -  [ Question about hardware requirements for LangChain and vector DBs ](https://www.reddit.com/r/LangChain/comments/19bcztd/question_about_hardware_requirements_for/) , 2024-01-23-0910
-```
-Howdy. I am an experienced software engineer working on my first ever project using an LLM. My goal is to use it to repl
-ace a rules engine for transaction categorization in an application I have. I will feed in the new transactions, list of
- categories, plus data on past categorized transactions, to produce the new output. All results will go through manual r
-eview prior to being accepted, which is the current behavior with the existing rules engine anyway.
-
-This will be deploy
-ed to my home server which has a powerful CPU, lots of RAM, but a shit GPU. Because of this, my plan is to use a cloud L
-LM like ChatGPT. However I want to run the Vector database (Cassandra, chroma, etc. haven't picked yet) on the server. I
- know the embeddings will be generated by the LLM and just stored in the Vector DB, so I don't need to worry about the h
-ardware needs for that.
-
-My question is around querying the Vector DB. Are there special hardware requirements (ie, GPU-
-preferred operations) for running those queries? I'm not worried about operations that a CPU can handle well, only stuff
- that requires a beefier GPU.
-
-Thanks in advance
-```
----
-
-     
- 
-all -  [ Resume Feedback and Career Advice Needed! ](https://www.reddit.com/r/developersIndia/comments/19ba933/resume_feedback_and_career_advice_needed/) , 2024-01-23-0910
-```
-Here is my  resume, looking for feedback and career advice. Any suggestions on how to improve or opportunities I should 
-explore? Thanks in advance!    
-
-
- I want to switch my job; until now, I was applying at random places and did some cold
- emails with no response. Other than that, I received two offers from UK who saw one of my project on GitHub, emailed me
-, and offered an interview. However, the interview is still pending, and they are taking time to respond. I also have an
-other interview opportunity for a frontend role in a crypto startup; the interview is on Wednesday next week. Let's hope
- for the best!  
-
-
-A bit about me: I come from a non-tech background, previously involved in sports (Played cricket at t
-he national level). However, my love for computers and software led me to choose a career in tech. While I don't have a 
-strong DSA & LeetCode profile, I am currently learning and improving in that area as well.
-
-My Github: [https://github.c
-om/ChetanXpro](https://github.com/ChetanXpro)  
-
-
-Resume:
-
-[Resume](https://preview.redd.it/ulxm6jrl2ldc1.png?width=1058
-&format=png&auto=webp&s=60655279b2fd8c67f4f7332ea847a23835dddd72)
-```
----
-
-     
- 
-all -  [ Relation between LiteLLM and LangChain ](https://www.reddit.com/r/LangChain/comments/19b9fzw/relation_between_litellm_and_langchain/) , 2024-01-23-0910
-```
-Hello,
-
-I am currently looking into using LLMs for a project and figured LiteLLM might be a good start to test out diffe
-rent models. With a bit of research I saw that langchain is basically the number one library for doing this kind of thin
-gs, becauso of RAG support etc.
-
-What I do not quite understand is, what is the relation between these tools? Does LangC
-hain use LiteLLM or vice versa? Is there even a link or are these just completely seperate tools? There is also autogen,
- which is basically LangChain with mutiple agents developed by microsoft if I understand it correctly.
-
-What I found was
- the mention of LangChain in LiteLLMs docs: [https://docs.litellm.ai/docs/langchain/](https://docs.litellm.ai/docs/langc
-hain/) where ChatLiteLLM is imported from LangChain, does that mean there is LiteLLM integrated into LangChain?
-
-&#x200B
-;
-
- I am quite confused here, would appreciate any input on this topic. Thanks!
-```
----
-
-     
- 
-all -  [ Özgeçmişime bakabilir misiniz? (Eleştirileriniz üzerine sıfırdan yaptım.) ](https://www.reddit.com/r/CodingTR/comments/19b8fbm/özgeçmişime_bakabilir_misiniz_eleştirileriniz/) , 2024-01-23-0910
-```
-Merhaba, ben daha önce de özgeçmişimi sizinle paylaşmıştım. Yararlı eleştirileriniz üzerine tamamen sıfırdan yeniden yap
-tım. Bir çok eksiği bana göstermiş oldunuz. Şimdiki hali nasıl olmuş bakabilir misiniz? Ağustos ayında mezun oldum, yeni
- mezun sayılırım. Veri bilimi alanında kariyer hedefliyorum.
-
-https://preview.redd.it/ysbhtfkdikdc1.jpg?width=1653&forma
-t=pjpg&auto=webp&s=8ac110d126fb7930b0ef6284de05efabb947e7fd
-
-https://preview.redd.it/w0y3sfkdikdc1.jpg?width=1653&format
-=pjpg&auto=webp&s=28f0a21179543b9b4c46fda35ea1f4a9964dcc7d
-```
----
-
-     
- 
-all -  [ Multiple PDF's vs single large file? ](https://www.reddit.com/r/LangChain/comments/19b40f8/multiple_pdfs_vs_single_large_file/) , 2024-01-23-0910
-```
-Hi, I build a chat bot with langchain.js and one of the tools of the bot is using a  VectorDBQAChain connecred to a vect
-or store that is basicaly one big txt file. The model I use is  gpt-3.5-turbo-0613 and the chunck size of the text split
-ter is 1000. There are just a hundred rows of information. It works ok, but it takes too much time and sends a lot of em
-bedings until it can answer a question correctly.
-
-Now I am asked to create similar chat bot but working with a few thou
-sand PDF's and I wonder if this is even possible? I saw there is DocumentLoader, but is it needs to send embedings of al
-l the content until it can formulate an answer it is useless. The cost will be too high and the time it takes will be en
-ourmous. Maybe I am missing something here?
-```
----
-
-     
- 
-all -  [ Is there any common loaders in langchain to load all types of documents?? ](https://www.reddit.com/r/LangChain/comments/19b2ivj/is_there_any_common_loaders_in_langchain_to_load/) , 2024-01-23-0910
-```
-I am into creating an interactive chatbot that can take inputs from multiple data sources like pdf, word file, text file
-, excel files etc. I am using Pinecone retriever with Langchain wrapper on top of it. When I go for DirectoryLoader usin
-g glob function, I’m unable to load other file types except PDF and convert it to vector embeddings. Need a way to load 
-rest of the documents and process it further for embeddings.
-```
----
-
-     
- 
-all -  [ Introducing Langfuse - Open Source Observability, Analytics and AI Engineering for LLM apps ](https://www.reddit.com/r/LLMDevs/comments/19apbed/introducing_langfuse_open_source_observability/) , 2024-01-23-0910
-```
-Max, Marc and Clemens here, founders of **Langfuse** ([https://langfuse.com](https://langfuse.com)). We’re building OSS 
-tooling to help developers iterate on LLMs in production.   
-We came onto the scene with a **Show HN** back in August ([
-https://news.ycombinator.com/item?id=37310070](https://news.ycombinator.com/item?id=37310070)). Back then we were still 
-a rather simple solution for logging out traces. We had just started adding scrappy analytics through Looker Studio. 
-
-*
-*I wanted to take this opportunity to introduce us to the Reddit community.**
-
-Since our first launch we’ve shipped: 
-
-*
- Dashboards: custom charts on top of tremor.so which replaced looker
-* SDKs 2.0: performance upgrades, fewer dependencie
-s, more stable
-* Sessions: group traces into sessions & replay user interactions
-* Integrations: added integrations for 
-OpenAI, Langchain, Flowise, Langflow, LiteLLM
-* Easier self-hosting: automatic db migrations by pulling latest container
-
-* Evals: model-based evals through e.g. Ragas \[1\] framework
-* Exports: rich source data as .csv, JSON/L & access to y
-our data via GET API
-* Datasets: run tests on sets of inputs and expected outputs
-* UI: improvements including hotkeys, 
-tables, filtering, search
-
-**Latest**
-
-* Prompt Management: Host your prompts in Langfuse, get automatic versioning and 
-keep your code tidy. Edit in UI/SDK and invoke in your code through `langfuse.get_prompt('prompt-slug')`
-
-The repo is av
-ailable under **MIT license** and we’re proud to support a vibrant community of self-hosting users (**one docker contain
-er**) through GitHub and Discord. 
-
-We’ll be around in the comments and look forward to hearing what you think. We take 
-it to heart!
-
-GitHub: [https://github.com/langfuse/langfuse/](https://github.com/langfuse/langfuse/)
-
-Try a demo: [https
-://langfuse.com/docs/demo](https://langfuse.com/docs/demo) -- **+ there is a generous free tier and the option to self-h
-ost Langfuse.**
-
-\[1\] [https://github.com/explodinggradients/ragas](https://github.com/explodinggradients/ragas) 
-```
----
-
-     
- 
-all -  [ How to achieve relevance question leading ](https://www.reddit.com/r/LangChain/comments/19an810/how_to_achieve_relevance_question_leading/) , 2024-01-23-0910
-```
-When a user asks a question, in what way can I achieve the display of similar questions. For example: the user asks for 
-Bob's age? I will give 4 related questions: who is Bob, Bob's gender,.... But these questions are not random, they are g
-iven based on my profile
-```
----
-
-     
- 
-all -  [ How to dockerise a Langchain app ](https://www.reddit.com/r/LangChain/comments/19amgmz/how_to_dockerise_a_langchain_app/) , 2024-01-23-0910
-```
-Hi everybody I was wondering how would it be like a typical Dockerfile for running a langchain pipeline. 
-```
----
-
-     
- 
-all -  [ Using Agent in langChain I want to abort in specific situations, how should I design it ](https://www.reddit.com/r/LangChain/comments/19ambyh/using_agent_in_langchain_i_want_to_abort_in/) , 2024-01-23-0910
-```
-I want to realize such a scenario:
-Let's say I have a `name` field stored in my db, and when the user asks for bob, I ma
-y have Bob, Boe... in the db. If there is no exact match for bob, I want the bot to guide the user: do you want to query
- Bob or boe?
-
-What I understand is that it's actually how to make the bot stop to continue the query and output the resu
-lt under certain circumstances during the execution, how should I implement this using langChain? Can I do it by `bind(s
-top='xx')`?
-```
----
-
-     
- 
-MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-01-23-0910
+MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-01-24-0910
 ```
 I saw that DataStax/Astra DB [just released a new Data API to help with building production GenAI and RAG applications](
 https://www.datastax.com/blog/general-availability-data-api-for-enhanced-developer-experience). This API makes the prove
@@ -766,7 +618,7 @@ build-a-real-time-rag-app-on-wikipedia-with-langchain-and-vercel)
 
      
  
-MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-01-23-0910
+MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-01-24-0910
 ```
 I am working on a client project and I am using langchain's tools and agents. I want to know if the data is getting pass
 ed to openai or is it just like that - Output of one function is being directly passed to the second function with the k
@@ -776,7 +628,7 @@ nowledge of openai.
 
      
  
-MachineLearning -  [ [D] Code vs JSON output for LLM agents? Frameworks like LangChain rely on LLMs responding with JSON  ](https://www.reddit.com/r/MachineLearning/comments/197f416/d_code_vs_json_output_for_llm_agents_frameworks/) , 2024-01-23-0910
+MachineLearning -  [ [D] Code vs JSON output for LLM agents? Frameworks like LangChain rely on LLMs responding with JSON  ](https://www.reddit.com/r/MachineLearning/comments/197f416/d_code_vs_json_output_for_llm_agents_frameworks/) , 2024-01-24-0910
 ```
 [CaP](https://arxiv.org/pdf/2209.07753.pdf), [Voyager](https://arxiv.org/pdf/2305.16291.pdf), [Octopus](https://arxiv.or
 g/abs/2310.08588)
@@ -818,7 +670,7 @@ e of any experiments that compare these two approaches against each other?
 
      
  
-MachineLearning -  [ [D] Are Custom LLM RAG apps going to become redundant? ](https://www.reddit.com/r/MachineLearning/comments/1929n4f/d_are_custom_llm_rag_apps_going_to_become/) , 2024-01-23-0910
+MachineLearning -  [ [D] Are Custom LLM RAG apps going to become redundant? ](https://www.reddit.com/r/MachineLearning/comments/1929n4f/d_are_custom_llm_rag_apps_going_to_become/) , 2024-01-24-0910
 ```
 Loks like Copilot Studio is being rolled out (https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio
 ) with an impressive looking no code/out of the box RAG solution.
@@ -844,7 +696,7 @@ Obviously there will be exceptions…but on most use cases I don’t see how you
 
      
  
-MachineLearning -  [ [P] An open-source project for deploying local models ](https://www.reddit.com/r/MachineLearning/comments/18zkm5m/p_an_opensource_project_for_deploying_local_models/) , 2024-01-23-0910
+MachineLearning -  [ [P] An open-source project for deploying local models ](https://www.reddit.com/r/MachineLearning/comments/18zkm5m/p_an_opensource_project_for_deploying_local_models/) , 2024-01-24-0910
 ```
  Introducing a new LLM WebUI project that supports various local model loading and provides streaming output for cutting
 -edge online multimodal models GPT-4-Vision and Gemini-Pro-Vision. Completely free and open source, it serves as a valua
@@ -872,7 +724,7 @@ a61859f53db100)
 
      
  
-MachineLearning -  [ [Project] Temporal Augmented Retrieval (TAR) - Dynamic RAG ](https://www.reddit.com/r/MachineLearning/comments/18uddmj/project_temporal_augmented_retrieval_tar_dynamic/) , 2024-01-23-0910
+MachineLearning -  [ [Project] Temporal Augmented Retrieval (TAR) - Dynamic RAG ](https://www.reddit.com/r/MachineLearning/comments/18uddmj/project_temporal_augmented_retrieval_tar_dynamic/) , 2024-01-24-0910
 ```
 From a corpus of text, how can you detect emerging topics and their evolution through time?
 
@@ -914,7 +766,7 @@ https://preview.redd.it/lj7wkhk70f9c1.png?width=960&format
 
      
  
-MachineLearning -  [ [R][P] Autogen + Langchain Tools + Local LLM doesn't work. ](https://www.reddit.com/r/MachineLearning/comments/18tex1j/rp_autogen_langchain_tools_local_llm_doesnt_work/) , 2024-01-23-0910
+MachineLearning -  [ [R][P] Autogen + Langchain Tools + Local LLM doesn't work. ](https://www.reddit.com/r/MachineLearning/comments/18tex1j/rp_autogen_langchain_tools_local_llm_doesnt_work/) , 2024-01-24-0910
 ```
 Hey folks, 
 
@@ -938,7 +790,7 @@ Any thoughts and suggestions? Please let me know ! Please share your experiences
 
      
  
-MachineLearning -  [ [P] Seeking Advice for Building a School Handbook Chatbot Using OpenAI and Vector Databases ](https://www.reddit.com/r/MachineLearning/comments/18rndcp/p_seeking_advice_for_building_a_school_handbook/) , 2024-01-23-0910
+MachineLearning -  [ [P] Seeking Advice for Building a School Handbook Chatbot Using OpenAI and Vector Databases ](https://www.reddit.com/r/MachineLearning/comments/18rndcp/p_seeking_advice_for_building_a_school_handbook/) , 2024-01-24-0910
 ```
 Hello everyone,
 
@@ -967,7 +819,7 @@ ou in advance for your help!
 
      
  
-deeplearning -  [ [D] Unleashing the Power of Langchain with Wandb: Revolutionizing Topic Modeling and Evaluation ](https://www.reddit.com/r/deeplearning/comments/191mm83/d_unleashing_the_power_of_langchain_with_wandb/) , 2024-01-23-0910
+deeplearning -  [ [D] Unleashing the Power of Langchain with Wandb: Revolutionizing Topic Modeling and Evaluation ](https://www.reddit.com/r/deeplearning/comments/191mm83/d_unleashing_the_power_of_langchain_with_wandb/) , 2024-01-24-0910
 ```
 Complementing Langchain’s prowess, Wandb emerges as a powerhouse meticulously designed for developers leveraging LLM tec
 hnology. As an evaluation framework and production monitoring platform, Wandb stands out for its tailored approach. Its 
