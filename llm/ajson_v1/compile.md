@@ -1,9 +1,28 @@
 
-
 ```bash
 
+### Command to Convert gguf file into llamafile (single file binary)
+### On Ubuntu only:
 
-(base) root@dc-raygpu-74bc7df69c-r72lg:/root/projects/llamafile# cat /etc/os-release
+#download the github repo
+git clone https://github.com/Mozilla-Ocho/llamafile.git
+cd llamafile
+make && sudo make install
+
+
+####  A) convert llama-2-7b-chat.Q4_0.gguf model from HF to llamafile
+llamafile-convert https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_0.gguf?download=true
+
+#### B) or convert llama-2-7b-chat.Q4_0.gguf model from local dir to llamafile
+llamafile-convert /path/to/llama-2-7b-chat.Q4_0.gguf
+   1mins (for 4Gb file)
+
+
+
+
+##### Output :
+
+mydir/# cat /etc/os-release
 NAME="Ubuntu"
 VERSION="20.04.6 LTS (Focal Fossa)"
 ID=ubuntu
@@ -16,13 +35,15 @@ BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
 PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 VERSION_CODENAME=focal
 UBUNTU_CODENAME=focal
-(base) root@dc-raygpu-74bc7df69c-r72lg:/root/projects/llamafile# llamafile-convert https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_0.gguf?download=true
+
+mydir/# llamafile-convert https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_0.gguf?download=true
 Downloading llama-2-7b-chat.Q4_0.gguf
 --2024-01-04 04:13:14--  https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGUF/resolve/main/llama-2-7b-chat.Q4_0.gguf
 Resolving huggingface.co (huggingface.co)... 108.159.15.21, 108.159.15.3, 108.159.15.97, ...
 Connecting to huggingface.co (huggingface.co)|108.159.15.21|:443... connected.
 HTTP request sent, awaiting response... 302 Found
 Location: https://cdn-lfs.huggingface.co/repos/b0/ca/b0cae82fd4b3a362cab01d17953c45edac67d1c2dfb9fbb9e69c80c32dc2012e/9958ee9b670594147b750bbc7d0540b928fa12dcc5dd4c58cc56ed2eb85e371b?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27llama-2-7b-chat.Q4_0.gguf%3B+filename%3D%22llama-2-7b-chat.Q4_0.gguf%22%3B&Expires=1704629594&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwNDYyOTU5NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy9iMC9jYS9iMGNhZTgyZmQ0YjNhMzYyY2FiMDFkMTc5NTNjNDVlZGFjNjdkMWMyZGZiOWZiYjllNjljODBjMzJkYzIwMTJlLzk5NThlZTliNjcwNTk0MTQ3Yjc1MGJiYzdkMDU0MGI5MjhmYTEyZGNjNWRkNGM1OGNjNTZlZDJlYjg1ZTM3MWI%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=FK83B-iyFdwyaLRBD03KcYqVQ9GSadnmJZzwdeHHwPekE-AVq5z5fy0YdxEanP7-luUf09c0KYFWTz%7EQfN44Qtmn6MT%7EHDUZ4E7R3YeLDkkD53Ccimj8Q7xuL-82t7MEeLiEUAnbytTU1QNAhXp7OeFaQvDLDTr6BfGl0EsVW10ieDHxG9ZcQzTCsukt9qkCNny5l298-MTBYncVTvV-DI7%7E%7E-RJig3Bf80LiDLKUvLT3V-khEUEeUvcjS02EwHGx3QyoQ9BS7lumoVYtIsd2cNMANkm7B-lxg%7EL7d-R5mllxaae8elDtdMaNuDlZT%7Efd1bAl35WXfHmuSfRKwx6GQ__&Key-Pair-Id=KVTP0A1DKRTAX [following]
+
 --2024-01-04 04:13:14--  https://cdn-lfs.huggingface.co/repos/b0/ca/b0cae82fd4b3a362cab01d17953c45edac67d1c2dfb9fbb9e69c80c32dc2012e/9958ee9b670594147b750bbc7d0540b928fa12dcc5dd4c58cc56ed2eb85e371b?response-content-disposition=attachment%3B+filename*%3DUTF-8%27%27llama-2-7b-chat.Q4_0.gguf%3B+filename%3D%22llama-2-7b-chat.Q4_0.gguf%22%3B&Expires=1704629594&Policy=eyJTdGF0ZW1lbnQiOlt7IkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTcwNDYyOTU5NH19LCJSZXNvdXJjZSI6Imh0dHBzOi8vY2RuLWxmcy5odWdnaW5nZmFjZS5jby9yZXBvcy9iMC9jYS9iMGNhZTgyZmQ0YjNhMzYyY2FiMDFkMTc5NTNjNDVlZGFjNjdkMWMyZGZiOWZiYjllNjljODBjMzJkYzIwMTJlLzk5NThlZTliNjcwNTk0MTQ3Yjc1MGJiYzdkMDU0MGI5MjhmYTEyZGNjNWRkNGM1OGNjNTZlZDJlYjg1ZTM3MWI%7EcmVzcG9uc2UtY29udGVudC1kaXNwb3NpdGlvbj0qIn1dfQ__&Signature=FK83B-iyFdwyaLRBD03KcYqVQ9GSadnmJZzwdeHHwPekE-AVq5z5fy0YdxEanP7-luUf09c0KYFWTz%7EQfN44Qtmn6MT%7EHDUZ4E7R3YeLDkkD53Ccimj8Q7xuL-82t7MEeLiEUAnbytTU1QNAhXp7OeFaQvDLDTr6BfGl0EsVW10ieDHxG9ZcQzTCsukt9qkCNny5l298-MTBYncVTvV-DI7%7E%7E-RJig3Bf80LiDLKUvLT3V-khEUEeUvcjS02EwHGx3QyoQ9BS7lumoVYtIsd2cNMANkm7B-lxg%7EL7d-R5mllxaae8elDtdMaNuDlZT%7Efd1bAl35WXfHmuSfRKwx6GQ__&Key-Pair-Id=KVTP0A1DKRTAX
 Resolving cdn-lfs.huggingface.co (cdn-lfs.huggingface.co)... 13.33.33.93, 13.33.33.69, 13.33.33.45, ...
 Connecting to cdn-lfs.huggingface.co (cdn-lfs.huggingface.co)|13.33.33.93|:443... connected.
@@ -37,7 +58,7 @@ llama-2-7b-chat.Q4_0.gguf           100%[=======================================
 Converting llama-2-7b-chat.Q4_0.gguf to llama-2-7b-chat.Q4_0.llamafile
 Cleaning up
 Done
-(base) root@dc-raygpu-74bc7df69c-r72lg:/root/projects/llamafile# ./llama-2-7b-chat.Q4_0.llamafile
+mydir/# ./llama-2-7b-chat.Q4_0.llamafile
 initializing gpu module...
 note: won't compile AMD GPU support because $HIP_PATH/bin/clang++ is missing
 prebuilt binary /zip/ggml-rocm.so not found
