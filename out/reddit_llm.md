@@ -1,88 +1,5 @@
  
-all -  [ Integrating LangChain application? ](https://www.reddit.com/r/homeassistant/comments/1ai8acr/integrating_langchain_application/) , 2024-02-04-0910
-```
-Hello, I'm wondering if there's any possible way of integrating a LangChain application with the existing OpenAI integra
-tion?
-
-Basically what I'm wanting to do is to use the OpenAI Conversation / OpenWakeWord integrations, but talk to my ow
-n LangChain agent instead. The reason for this is because I want to integrate it with things that HASS doesn't (and will
- never) have integrations for, while also still retaining the ability to interact with my smart home devices.
-
-Has anybo
-dy been able to do something like this?
-```
----
-
-     
- 
-all -  [ Embeddings from Vector Stores ](https://www.reddit.com/r/LangChain/comments/1ai3k14/embeddings_from_vector_stores/) , 2024-02-04-0910
-```
-Currently I'm using Chroma as a vector db for a langchain agent. I'm looking to do some metadata extraction/clustering w
-ith the core embeddings. Is this something that can be easily accessed for each document - seems the db queries will onl
-y return Document/text content. Is there clean way to have access to all embeddings and have them in a numpy array for e
-xample? 
-
-&#x200B;
-
-Appreciate any help.. of course its not too difficult to just re-do the embeddings and access them d
-irectly but I'm wondering if there is a way to avoid paying 2x
-
-&#x200B;
-
-Thanks!
-```
----
-
-     
- 
-all -  [ Need some reviews in my resume. ](https://www.reddit.com/r/resumes/comments/1ai1uiu/need_some_reviews_in_my_resume/) , 2024-02-04-0910
-```
-&#x200B;
-
-https://preview.redd.it/psqp00y0segc1.png?width=660&format=png&auto=webp&s=0822dd684503f53a9f8de4ef0de35cbeb39
-c65e4
-
-https://preview.redd.it/9agog1y0segc1.png?width=660&format=png&auto=webp&s=21432efabdc8d73150edba2cbbef01fede6a19
-02
-```
----
-
-     
- 
-all -  [ LangChain Quickstart ](https://youtu.be/lnSAfijrd0g?si=TSWLW8yjZFTvNup9) , 2024-02-04-0910
-```
-
-```
----
-
-     
- 
-all -  [ Extracting Answer Source Chunks from GPT Responses in Langchain ](https://www.reddit.com/r/LLMDevs/comments/1ahs82h/extracting_answer_source_chunks_from_gpt/) , 2024-02-04-0910
-```
-Hey everyone,
-
-I've been working on a project where I extract information from a large PDF document. I've completed the 
-initial steps, including reading the PDF, splitting it into chunks, converting them to embeddings, and storing them in a
- vector database.
-
-For the next step, I perform a similarity check with a limit of 28. Each chunk has a size of 350, wit
-h an overlap of 80. After that, I send these chunks to GPT with a specific question. GPT provides answers, but I'm strug
-gling to determine from which chunk the answer originated.
-
-Is there a way to identify the specific chunk(s) that GPT us
-ed to generate the answer? Alternatively, is there a solution to get an array of chunks that may contain the answer out 
-of the 28 available?
-
-Any insights or suggestions on how to achieve this would be greatly appreciated!
-
-Thanks in advanc
-e!
-```
----
-
-     
- 
-all -  [ Noob-friendly Recap ](https://www.reddit.com/r/LocalLLaMA/comments/1ahr6ds/noobfriendly_recap/) , 2024-02-04-0910
+all -  [ Deployment and development of local LLMs ](https://www.reddit.com/r/LocalLLaMA/comments/1aj0hum/deployment_and_development_of_local_llms/) , 2024-02-05-0910
 ```
 I recently started getting in LLM-powered applications by myself and using online resources. What I discovered is that L
 LMs have become so mainstream that there are so many platform, frameworks, and model to choose from. And usually I don't
@@ -113,7 +30,434 @@ ne that *should* work on windows. Should I always use these frameworks? Are they
 
      
  
-all -  [ SQL Agent + Vector Store RAG ](https://www.reddit.com/r/LangChain/comments/1ahpvmm/sql_agent_vector_store_rag/) , 2024-02-04-0910
+all -  [ Ollama vision using Llava running locally on my macbook. Inference speed is 🔥 ](https://www.reddit.com/r/LangChain/comments/1aivgaa/ollama_vision_using_llava_running_locally_on_my/) , 2024-02-05-0910
+```
+https://reddit.com/link/1aivgaa/video/xwtl03439mgc1/player
+
+[Code if interested.](https://github.com/phidatahq/phidata/b
+lob/main/cookbook/ollama/image.py)
+```
+---
+
+     
+ 
+all -  [ How to use AzureOpenAI Embeddings with ChromDB or FAISS? ](https://www.reddit.com/r/LangChain/comments/1airll4/how_to_use_azureopenai_embeddings_with_chromdb_or/) , 2024-02-05-0910
+```
+Hi guys,
+           I tried langchain-openai's Azure Embedding abstraction, but am getting multiple errors when I try it
+ with Chroma or FAISS. May I know a solution for this?
+```
+---
+
+     
+ 
+all -  [ Is function calling supported with RAG? ](https://www.reddit.com/r/LangChain/comments/1aio67k/is_function_calling_supported_with_rag/) , 2024-02-05-0910
+```
+I  am currently looking for a solution to extract details from documents I ingested into vectorstore to a structure json
+ format.
+
+I know I can first just ask it to retrieve stuff I want from the document as plain string and send it again to
+ using fn calling to put bits and pieces into json obj.
+
+Is this possible at the moment with just one shot request?
+I lo
+oked up pretty much all available options on langchain but cannot seem to find one.
+
+Anyone tried this combination befor
+e?
+```
+---
+
+     
+ 
+all -  [ Why are basic things not documented correctly, never seem to work? ](https://www.reddit.com/r/LangChain/comments/1aimin7/why_are_basic_things_not_documented_correctly/) , 2024-02-05-0910
+```
+Maybe I'm doing something wrong, but I wanted to test out output parsers today with all the new updates so I go through 
+the docs to put together a basic example. I copy it and keep getting an error:
+
+&#x200B;
+
+&#x200B;
+
+[TypeError: langchai
+n\_core.prompts.prompt.PromptTemplate\(\) got multiple values for keyword argument 'input\_variables'](https://preview.r
+edd.it/2jx7f2og7kgc1.png?width=1002&format=png&auto=webp&s=27371552aa733df1d43c37867abcc0243b7fc512)
+
+&#x200B;
+
+I had to
+ remove the 'input\_variables' arg from the PromptTemplate for it to work. What is frustrating me is that these kinds of
+ issues are abundant. Nothing in the docs is every up to date. 
+```
+---
+
+     
+ 
+all -  [ My debut book: LangChain in your Pocket is out ! ](/r/LangChain/comments/1aifn1l/my_debut_book_langchain_in_your_pocket_is_out/) , 2024-02-05-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ Best AI Research agent? ](https://www.reddit.com/r/OpenAI/comments/1aijjj9/best_ai_research_agent/) , 2024-02-05-0910
+```
+Looking for a Research tool that is able to complete in depth research tasks through browsing online. Copilot/bing aren’
+t thorough enough, and remember coming across a langchain based one a while back but can’t remember the name of the proj
+ect.
+```
+---
+
+     
+ 
+all -  [ Creating vector embedding from multiple pdf ](https://www.reddit.com/r/LangChain/comments/1aiiyd6/creating_vector_embedding_from_multiple_pdf/) , 2024-02-05-0910
+```
+Can anyone suggest methods for creating vector embedding d from multiple PDFs using Langchain embedding and retrievers.K
+ind of stuff used in applications like Chatpdf
+```
+---
+
+     
+ 
+all -  [ My debut book on Generative AI : LangChain in your Pocket is out ! ](https://www.reddit.com/r/nonfiction/comments/1aiggfh/my_debut_book_on_generative_ai_langchain_in_your/) , 2024-02-05-0910
+```
+I am thrilled to announce the launch of my debut technical book, “**LangChain in your Pocket:** ***Beginner’s Guide to B
+uilding Generative AI Applications using LLMs***” which is available on Amazon in Kindle, PDF and Paperback formats.
+
+In
+ this comprehensive guide, the readers will explore LangChain, a powerful Python/JavaScript framework designed for harne
+ssing Generative AI. Through practical examples and hands-on exercises, you’ll gain the skills necessary to develop a di
+verse range of AI applications, including Few-Shot Classification, Auto-SQL generators, Internet-enabled GPT, Multi-Docu
+ment RAG and more.
+
+# Key Features:
+
+* Step-by-step code explanations with expected outputs for each solution.
+* No prer
+equisites: If you know Python, you’re ready to dive in.
+* Practical, hands-on guide with minimal mathematical explanatio
+ns.
+
+*I would greatly appreciate if you can check out the book and share your thoughts through reviews and ratings:* [ht
+tps://www.amazon.in/dp/B0CTHQHT25](https://www.amazon.in/dp/B0CTHQHT25)
+
+# About me:
+
+I'm a Senior Data Scientist at DBS
+ Bank with about 5 years of experience in Data Science & AI. Additionally, I manage 'Data Science in your Pocket', a [Me
+dium Publication](https://medium.com/@mehulgupta_7991) & [YouTube channel](https://www.youtube.com/@datascienceinyourpoc
+ket/videos) with \~600 Data Science & AI tutorials and a cumulative million views till date. To know more, you can check
+ [here](https://www.linkedin.com/in/mehulgupta7991/)
+```
+---
+
+     
+ 
+all -  [ Open to Critique: 3rd Year Student Seeks to Polish Resume & Explore Projects ](https://www.reddit.com/r/resumes/comments/1aigf9g/open_to_critique_3rd_year_student_seeks_to_polish/) , 2024-02-05-0910
+```
+ Greetings, fellow professionals! As a 3rd year student aiming to land my dream internship/job, I'm humbly seeking valua
+ble insights on my resume. Any areas for improvement or suggestions for impactful projects to strengthen my candidacy wo
+uld be immensely helpful. I'm eager to learn and grow! 
+
+&#x200B;
+
+https://preview.redd.it/lom1gaxe8igc1.png?width=990&f
+ormat=png&auto=webp&s=c8817e41671838c2d335ec8a55f52d242e58c358
+```
+---
+
+     
+ 
+all -  [ My debut book : LangChain in your Pocket is out ! ](https://www.reddit.com/r/technicalwriting/comments/1aigf5g/my_debut_book_langchain_in_your_pocket_is_out/) , 2024-02-05-0910
+```
+&#x200B;
+
+I am thrilled to announce the launch of my debut technical book, “**LangChain in your Pocket:** ***Beginner’s 
+Guide to Building Generative AI Applications using LLMs***” which is available on Amazon in Kindle, PDF and Paperback fo
+rmats.
+
+In this comprehensive guide, the readers will explore LangChain, a powerful Python/JavaScript framework designed
+ for harnessing Generative AI. Through practical examples and hands-on exercises, you’ll gain the skills necessary to de
+velop a diverse range of AI applications, including Few-Shot Classification, Auto-SQL generators, Internet-enabled GPT, 
+Multi-Document RAG and more.
+
+# Key Features:
+
+* Step-by-step code explanations with expected outputs for each solution.
+
+* No prerequisites: If you know Python, you’re ready to dive in.
+* Practical, hands-on guide with minimal mathematical 
+explanations.
+
+*I would greatly appreciate if you can check out the book and share your thoughts through reviews and rat
+ings:* [https://www.amazon.in/dp/B0CTHQHT25](https://www.amazon.in/dp/B0CTHQHT25)
+
+# About me:
+
+I'm a Senior Data Scient
+ist at DBS Bank with about 5 years of experience in Data Science & AI. Additionally, I manage 'Data Science in your Pock
+et', a [Medium Publication](https://medium.com/@mehulgupta_7991) & [YouTube channel](https://www.youtube.com/@datascienc
+einyourpocket/videos) with \~600 Data Science & AI tutorials and a cumulative million views till date. To know more, you
+ can check [here](https://www.linkedin.com/in/mehulgupta7991/)
+```
+---
+
+     
+ 
+all -  [ My debut book : LangChain in your Pocket is out !! ](https://www.reddit.com/r/LlamaIndex/comments/1aig705/my_debut_book_langchain_in_your_pocket_is_out/) , 2024-02-05-0910
+```
+&#x200B;
+
+https://preview.redd.it/mrie73q16igc1.png?width=934&format=png&auto=webp&s=4bfcf2b42fd3e2ca781c5e2d0ed1c919105
+f12d2
+
+I am thrilled to announce the launch of my debut technical book, “**LangChain in your Pocket:** ***Beginner’s Gui
+de to Building Generative AI Applications using LLMs***” which is available on Amazon in Kindle, PDF and Paperback forma
+ts.
+
+In this comprehensive guide, the readers will explore LangChain, a powerful Python/JavaScript framework designed fo
+r harnessing Generative AI. Through practical examples and hands-on exercises, you’ll gain the skills necessary to devel
+op a diverse range of AI applications, including Few-Shot Classification, Auto-SQL generators, Internet-enabled GPT, Mul
+ti-Document RAG and more.
+
+# Key Features:
+
+* Step-by-step code explanations with expected outputs for each solution.
+* 
+No prerequisites: If you know Python, you’re ready to dive in.
+* Practical, hands-on guide with minimal mathematical exp
+lanations.
+
+*I would greatly appreciate if you can check out the book and share your thoughts through reviews and rating
+s:* [https://www.amazon.in/dp/B0CTHQHT25](https://www.amazon.in/dp/B0CTHQHT25)
+
+# About me:
+
+I'm a Senior Data Scientist
+ at DBS Bank with about 5 years of experience in Data Science & AI. Additionally, I manage 'Data Science in your Pocket'
+, a [Medium Publication](https://medium.com/@mehulgupta_7991) & [YouTube channel](https://www.youtube.com/@datasciencein
+yourpocket/videos) with \~600 Data Science & AI tutorials and a cumulative million views till date. To know more, you ca
+n check [here](https://www.linkedin.com/in/mehulgupta7991/)
+```
+---
+
+     
+ 
+all -  [ My debut book : LangChain in your Pocket is out !! ](https://www.reddit.com/r/generativeAI/comments/1aifydl/my_debut_book_langchain_in_your_pocket_is_out/) , 2024-02-05-0910
+```
+&#x200B;
+
+I am thrilled to announce the launch of my debut technical book, “**LangChain in your Pocket:** ***Beginner’s 
+Guide to Building Generative AI Applications using LLMs***” which is available on Amazon in Kindle, PDF and Paperback fo
+rmats.
+
+https://preview.redd.it/rm6tygyi3igc1.png?width=934&format=png&auto=webp&s=868abde885275550f734a24da265f8deef12a
+276
+
+In this comprehensive guide, the readers will explore LangChain, a powerful Python/JavaScript framework designed fo
+r harnessing Generative AI. Through practical examples and hands-on exercises, you’ll gain the skills necessary to devel
+op a diverse range of AI applications, including Few-Shot Classification, Auto-SQL generators, Internet-enabled GPT, Mul
+ti-Document RAG and more.
+
+# Key Features:
+
+* Step-by-step code explanations with expected outputs for each solution.
+* 
+No prerequisites: If you know Python, you’re ready to dive in.
+* Practical, hands-on guide with minimal mathematical exp
+lanations.
+
+*I would greatly appreciate if you can check out the book and share your thoughts through reviews and rating
+s:* [https://www.amazon.in/dp/B0CTHQHT25](https://www.amazon.in/dp/B0CTHQHT25)
+
+or at GumRoad : [https://mehulgupta.gumr
+oad.com/l/hmayz](https://mehulgupta.gumroad.com/l/hmayz)
+
+# About me:
+
+I'm a Senior Data Scientist at DBS Bank with abou
+t 5 years of experience in Data Science & AI. Additionally, I manage 'Data Science in your Pocket', a [Medium Publicatio
+n](https://medium.com/@mehulgupta_7991) & [YouTube channel](https://www.youtube.com/@datascienceinyourpocket/videos) wit
+h \~600 Data Science & AI tutorials and a cumulative million views till date. To know more, you can check [here](https:/
+/www.linkedin.com/in/mehulgupta7991/)
+```
+---
+
+     
+ 
+all -  [ My debut book : LangChain in your Pocket is out !! ](https://www.reddit.com/r/Langchaindev/comments/1aifqic/my_debut_book_langchain_in_your_pocket_is_out/) , 2024-02-05-0910
+```
+&#x200B;
+
+https://preview.redd.it/aes3wij91igc1.png?width=786&format=png&auto=webp&s=d10d6d32c2f720991265d0a2b3b874989d5
+2afb4
+
+I am thrilled to announce the launch of my debut technical book, “**LangChain in your Pocket:** ***Beginner’s Gui
+de to Building Generative AI Applications using LLMs***” which is available on Amazon in Kindle, PDF and Paperback forma
+ts.
+
+In this comprehensive guide, the readers will explore LangChain, a powerful Python/JavaScript framework designed fo
+r harnessing Generative AI. Through practical examples and hands-on exercises, you’ll gain the skills necessary to devel
+op a diverse range of AI applications, including Few-Shot Classification, Auto-SQL generators, Internet-enabled GPT, Mul
+ti-Document RAG and more.
+
+# Key Features:
+
+* Step-by-step code explanations with expected outputs for each solution.
+* 
+No prerequisites: If you know Python, you’re ready to dive in.
+* Practical, hands-on guide with minimal mathematical exp
+lanations.
+
+*I would greatly appreciate if you can check out the book and share your thoughts through reviews and rating
+s:* [https://www.amazon.in/dp/B0CTHQHT25](https://www.amazon.in/dp/B0CTHQHT25)
+
+# About me:
+
+I'm a Senior Data Scientist
+ at DBS Bank with about 5 years of experience in Data Science & AI. Additionally, I manage '***Data Science in your Pock
+et***', a [Medium Publication](https://medium.com/@mehulgupta_7991) & [YouTube channel](https://www.youtube.com/@datasci
+enceinyourpocket/videos) with \~600 Data Science & AI tutorials and a cumulative million views till date. To know more, 
+you can check [here](https://www.linkedin.com/in/mehulgupta7991/)
+```
+---
+
+     
+ 
+all -  [ My debut book: LangChain in your Pocket is out ! ](https://www.reddit.com/r/LangChain/comments/1aifn1l/my_debut_book_langchain_in_your_pocket_is_out/) , 2024-02-05-0910
+```
+I am thrilled to announce the launch of my debut technical book, “**LangChain in your Pocket:** ***Beginner’s Guide to B
+uilding Generative AI Applications using LLMs***” which is available on Amazon in Kindle, PDF and Paperback formats.
+
+In
+ this comprehensive guide, the readers will explore LangChain, a powerful Python/JavaScript framework designed for harne
+ssing Generative AI. Through practical examples and hands-on exercises, you’ll gain the skills necessary to develop a di
+verse range of AI applications, including Few-Shot Classification, Auto-SQL generators, Internet-enabled GPT, Multi-Docu
+ment RAG and more.
+
+# Key Features:
+
+* Step-by-step code explanations with expected outputs for each solution.
+* No prer
+equisites: If you know Python, you’re ready to dive in.
+* Practical, hands-on guide with minimal mathematical explanatio
+ns.
+
+*I would greatly appreciate if you can check out the book and share your thoughts through reviews and ratings:* [ht
+tps://www.amazon.in/dp/B0CTHQHT25](https://www.amazon.in/dp/B0CTHQHT25)
+
+Or at GumRoad : [https://mehulgupta.gumroad.com
+/l/hmayz](https://mehulgupta.gumroad.com/l/hmayz)
+
+# About me:
+
+I'm a Senior Data Scientist at DBS Bank with about 5 yea
+rs of experience in Data Science & AI. Additionally, I manage 'Data Science in your Pocket', a [Medium Publication](http
+s://medium.com/@mehulgupta_7991) & [YouTube channel](https://www.youtube.com/@datascienceinyourpocket/videos) with \~600
+ Data Science & AI tutorials and a cumulative million views till date. To know more, you can check [here](https://www.li
+nkedin.com/in/mehulgupta7991/)
+```
+---
+
+     
+ 
+all -  [ Looking for Help with Retrieval Issues in Information Retrieval Application(LangChain, OpenAI, and F ](https://www.reddit.com/r/LangChain/comments/1aiaidl/looking_for_help_with_retrieval_issues_in/) , 2024-02-05-0910
+```
+Hello Everyone,
+
+I am currently developing an information retrieval application designed to work with HTML pages, rangin
+g in length from 30 to 200 pages. The application utilizes LangChain, OpenAI, and FAISS for its core functionalities. A 
+significant part of the process involves chunking HTML pages, many of which contain numerous tables. My method involves 
+extracting tables from the HTML pages, identifying them by their top titles for indexing and retrieval purposes.
+
+Howeve
+r, I have encountered two main issues during retrieval:
+
+* Long Query Handling: When the query is slightly longer, the r
+etrieval system does not return the correct answer. It seems to struggle with maintaining accuracy as the query length i
+ncreases.
+* Variance in Wording: The system fails to correctly retrieve chunks when there is a discrepancy between the w
+ording in the query and the chunks. For example, if the query uses 'six' but the chunk contains '6', the system does not
+ recognize them as a match.
+
+These challenges are hindering the application's ability to accurately retrieve information
+, especially when dealing with nuanced or detailed queries.
+
+I am reaching out to this community for advice or strategie
+s on how to address these issues. Specifically, I am interested in approaches that could improve the handling of long qu
+eries and the recognition of synonymous terms or different word forms (like numerals versus written numbers) during the 
+retrieval process.
+
+Any suggestions or insights on how to refine the retrieval accuracy of this application would be gre
+atly appreciated.
+
+Thank you in advance for your help!
+```
+---
+
+     
+ 
+all -  [ Embeddings from Vector Stores ](https://www.reddit.com/r/LangChain/comments/1ai3k14/embeddings_from_vector_stores/) , 2024-02-05-0910
+```
+Currently I'm using Chroma as a vector db for a langchain agent. I'm looking to do some metadata extraction/clustering w
+ith the core embeddings. Is this something that can be easily accessed for each document - seems the db queries will onl
+y return Document/text content. Is there clean way to have access to all embeddings and have them in a numpy array for e
+xample? 
+
+&#x200B;
+
+Appreciate any help.. of course its not too difficult to just re-do the embeddings and access them d
+irectly but I'm wondering if there is a way to avoid paying 2x
+
+&#x200B;
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Need some reviews in my resume. ](https://www.reddit.com/r/resumes/comments/1ai1uiu/need_some_reviews_in_my_resume/) , 2024-02-05-0910
+```
+&#x200B;
+
+https://preview.redd.it/psqp00y0segc1.png?width=660&format=png&auto=webp&s=0822dd684503f53a9f8de4ef0de35cbeb39
+c65e4
+
+https://preview.redd.it/9agog1y0segc1.png?width=660&format=png&auto=webp&s=21432efabdc8d73150edba2cbbef01fede6a19
+02
+```
+---
+
+     
+ 
+all -  [ Extracting Answer Source Chunks from GPT Responses in Langchain ](https://www.reddit.com/r/LLMDevs/comments/1ahs82h/extracting_answer_source_chunks_from_gpt/) , 2024-02-05-0910
+```
+Hey everyone,
+
+I've been working on a project where I extract information from a large PDF document. I've completed the 
+initial steps, including reading the PDF, splitting it into chunks, converting them to embeddings, and storing them in a
+ vector database.
+
+For the next step, I perform a similarity check with a limit of 28. Each chunk has a size of 350, wit
+h an overlap of 80. After that, I send these chunks to GPT with a specific question. GPT provides answers, but I'm strug
+gling to determine from which chunk the answer originated.
+
+Is there a way to identify the specific chunk(s) that GPT us
+ed to generate the answer? Alternatively, is there a solution to get an array of chunks that may contain the answer out 
+of the 28 available?
+
+Any insights or suggestions on how to achieve this would be greatly appreciated!
+
+Thanks in advanc
+e!
+```
+---
+
+     
+ 
+all -  [ SQL Agent + Vector Store RAG ](https://www.reddit.com/r/LangChain/comments/1ahpvmm/sql_agent_vector_store_rag/) , 2024-02-05-0910
 ```
 Hello! First timer here. 
 
@@ -135,7 +479,7 @@ Hope somebody can help!
 
      
  
-all -  [ Hi, I could use some help getting started on project (noob) ](https://www.reddit.com/r/LangChain/comments/1ahiw5p/hi_i_could_use_some_help_getting_started_on/) , 2024-02-04-0910
+all -  [ Hi, I could use some help getting started on project (noob) ](https://www.reddit.com/r/LangChain/comments/1ahiw5p/hi_i_could_use_some_help_getting_started_on/) , 2024-02-05-0910
 ```
 Heya! I am making a side project where I have a laptop being fed strings from a supabase api. these string will be messa
 ges from a chat from a webapp I made. They will be loaded into a local llama, and the llama will see if the messages con
@@ -158,7 +502,7 @@ Does anyone have advice on figuring out how to make this? Thanks :)
 
      
  
-all -  [ Manager Wants to switch from LangChain to Copilot Studio for a Client Product - Thoughts? ](https://www.reddit.com/r/Langchaindev/comments/1ahfbzb/manager_wants_to_switch_from_langchain_to_copilot/) , 2024-02-04-0910
+all -  [ Manager Wants to switch from LangChain to Copilot Studio for a Client Product - Thoughts? ](https://www.reddit.com/r/Langchaindev/comments/1ahfbzb/manager_wants_to_switch_from_langchain_to_copilot/) , 2024-02-05-0910
 ```
  Hey everyone!
 
@@ -201,7 +545,7 @@ Thank you very much in advance for your contribution and time!
 
      
  
-all -  [ Manager Wants to switch from LangChain to Copilot Studio for a Client Product - Thoughts? ](https://www.reddit.com/r/LangChain/comments/1ahfbmm/manager_wants_to_switch_from_langchain_to_copilot/) , 2024-02-04-0910
+all -  [ Manager Wants to switch from LangChain to Copilot Studio for a Client Product - Thoughts? ](https://www.reddit.com/r/LangChain/comments/1ahfbmm/manager_wants_to_switch_from_langchain_to_copilot/) , 2024-02-05-0910
 ```
  
 
@@ -246,7 +590,7 @@ Thank you very much in advance for your contribution and time!
 
      
  
-all -  [ Manager Wants to switch from LangChain to Copilot Studio for a Client Product - Thoughts? ](https://www.reddit.com/r/AskProgramming/comments/1ahf84w/manager_wants_to_switch_from_langchain_to_copilot/) , 2024-02-04-0910
+all -  [ Manager Wants to switch from LangChain to Copilot Studio for a Client Product - Thoughts? ](https://www.reddit.com/r/AskProgramming/comments/1ahf84w/manager_wants_to_switch_from_langchain_to_copilot/) , 2024-02-05-0910
 ```
 Hey everyone!  
   
@@ -288,7 +632,7 @@ Thank you very much in advance for your contribution and time!
 
      
  
-all -  [ Is Langchain the right framework for my usecase? ](https://www.reddit.com/r/LangChain/comments/1ahd2uz/is_langchain_the_right_framework_for_my_usecase/) , 2024-02-04-0910
+all -  [ Is Langchain the right framework for my usecase? ](https://www.reddit.com/r/LangChain/comments/1ahd2uz/is_langchain_the_right_framework_for_my_usecase/) , 2024-02-05-0910
 ```
 I have ~2700 pdf documents, which are transcripts of Danish political conversations. The data is not confidential.
 
@@ -311,7 +655,7 @@ Thank you!
 
      
  
-all -  [ Does React + NestJS SaaS boilerplate with all features worth selling in 2024 ? If yes then where and ](https://www.reddit.com/r/SaaS/comments/1ahbxv5/does_react_nestjs_saas_boilerplate_with_all/) , 2024-02-04-0910
+all -  [ Does React + NestJS SaaS boilerplate with all features worth selling in 2024 ? If yes then where and ](https://www.reddit.com/r/SaaS/comments/1ahbxv5/does_react_nestjs_saas_boilerplate_with_all/) , 2024-02-05-0910
 ```
 Hi people,
 
@@ -324,7 +668,7 @@ Tenancy, RBAC, Teams . Landing Page elements as well. Who should I approach and 
 
      
  
-all -  [ In terms of web app UI/UX customization with branding and theming, how capable is Gradio/textwebui? ](https://www.reddit.com/r/Oobabooga/comments/1ahbsxi/in_terms_of_web_app_uiux_customization_with/) , 2024-02-04-0910
+all -  [ In terms of web app UI/UX customization with branding and theming, how capable is Gradio/textwebui? ](https://www.reddit.com/r/Oobabooga/comments/1ahbsxi/in_terms_of_web_app_uiux_customization_with/) , 2024-02-05-0910
 ```
 Sorry for such a nub question but ive just recently been handed over a langchain + gradio frontend that has tabs for dif
 ferent agent personas (ba, qa, dev) using RAG (jira, codebase, etc) and wondering if gradio has the capability and suppo
@@ -339,7 +683,7 @@ Thanks!
 
      
  
-all -  [ Chat with a website using Next.js, FastAPI and LangChain ](https://www.reddit.com/r/nextjs/comments/1ahauj9/chat_with_a_website_using_nextjs_fastapi_and/) , 2024-02-04-0910
+all -  [ Chat with a website using Next.js, FastAPI and LangChain ](https://www.reddit.com/r/nextjs/comments/1ahauj9/chat_with_a_website_using_nextjs_fastapi_and/) , 2024-02-05-0910
 ```
 Ciao a tutti! If it can be helpful to anyone, I'm sharing a starter template repository for chatting with websites using
  FastAPI, Next.js, and the latest version of LangChain.
@@ -351,7 +695,7 @@ s://github.com/mazzasaverio/nextjs-fastapi-your-chat)
 
      
  
-all -  [ 🐍 Welcome to LangChainDev: Building a Python-Powered Community 🚀 ](https://www.reddit.com/r/langchain_py/comments/1ah9x9r/welcome_to_langchaindev_building_a_pythonpowered/) , 2024-02-04-0910
+all -  [ 🐍 Welcome to LangChainDev: Building a Python-Powered Community 🚀 ](https://www.reddit.com/r/langchain_py/comments/1ah9x9r/welcome_to_langchaindev_building_a_pythonpowered/) , 2024-02-05-0910
 ```
 Hey LangChain developers! 🌐
 
@@ -423,456 +767,7 @@ See you in the threads 👋🏼
 
      
  
-all -  [ r/langchain_py Ask Anything Thread ](https://www.reddit.com/r/langchain_py/comments/1ah9w8n/rlangchain_py_ask_anything_thread/) , 2024-02-04-0910
-```
-Use this thread to ask anything at all!
-```
----
-
-     
- 
-all -  [ Document Q&A, also include images ](https://www.reddit.com/r/LangChain/comments/1ah74n8/document_qa_also_include_images/) , 2024-02-04-0910
-```
-I have lots of documents, they contain procedures to operate a software and it also include images. Now my question is h
-ow do i  build a custom LLM that would be capable of answering the user with text and also provide the appropriate image
- from the document
-```
----
-
-     
- 
-all -  [ Extracting Answer Source Chunks from GPT Responses in Langchain ](https://www.reddit.com/r/LangChain/comments/1ah5zg3/extracting_answer_source_chunks_from_gpt/) , 2024-02-04-0910
-```
- Hey everyone,
-
-I've been working on a project where I extract information from a large PDF document. I've completed the
- initial steps, including reading the PDF, splitting it into chunks, converting them to embeddings, and storing them in 
-a vector database.
-
-For the next step, I perform a similarity check with a limit of 28. Each chunk has a size of 350, wi
-th an overlap of 80. After that, I send these chunks to GPT with a specific question. GPT provides answers, but I'm stru
-ggling to determine from which chunk the answer originated.
-
-Is there a way to identify the specific chunk(s) that GPT u
-sed to generate the answer? Alternatively, is there a solution to get an array of chunks that may contain the answer out
- of the 28 available?
-
-Any insights or suggestions on how to achieve this would be greatly appreciated!
-
-Thanks in advan
-ce!
-```
----
-
-     
- 
-all -  [ [Langchain] Finetune mixtral sur les données d'entreprise - à quoi devrait ressembler les données de ](https://www.reddit.com/r/redditenfrancais/comments/1ah5jay/langchain_finetune_mixtral_sur_les_données/) , 2024-02-04-0910
-```
-Salut,
-
-Je veux affiner un modèle Mistral ou Mixtral sur les données de mes entreprises. Plus précisément, le modèle doi
-t écrire des points de puces en textes complets. Je me demandais à quoi devait ressembler les données de formation pour 
-cette tâche?
-
-Est-ce un moyen valable de laisser un LLM créer des bullets à partir d'un texte et d'utiliser ces exemples
- de points de buts-full-text-text pour la formation?
-
-Traduit et reposté à partir de la publication 1973jxk de la commun
-auté langchain. Pour retrouver la publication originale, insérez l'id de la publication après 'reddit.com/'
-```
----
-
-     
- 
-all -  [ ChatGPT like UI for any project within 15 mins ](https://www.reddit.com/r/LangChain/comments/1ah55wi/chatgpt_like_ui_for_any_project_within_15_mins/) , 2024-02-04-0910
-```
-A vast majority of Generative AI solutions are delivered in a chat based user experience. 
-
-I've created a tutorial on h
-ow to quickly adapt an open-source framework to deliver that user experience within 15 minutes. 
-
-I hope the community f
-inds this useful!
-
-![https://youtu.be/sZ1aJ0zfgmY?si=koLhtl_FO6-y3SC5](https://youtu.be/sZ1aJ0zfgmY?si=koLhtl_FO6-y3SC5)
-
-```
----
-
-     
- 
-all -  [ [Langchain] Langchain JS vs Python ](https://www.reddit.com/r/redditenfrancais/comments/1ah4jut/langchain_langchain_js_vs_python/) , 2024-02-04-0910
-```
-Salut, je pense à construire un framework de chatbot sans serveur open-source qui comprendra l'un des modules inclura l'
-intégration de Langchain.
-
-
-\ - Je sais que Langchain est né à Python (et je suppose que celui de Python est plus supéri
-eur?)
-\ - Je regarde le tracker Langchain Python vs TS et je vois que le Python One ne prend pas en charge Supabase
-\ - 
-De nombreux développeurs de chatbot ou développeurs Web que je vois travaillent avec JavaScript plutôt que Python (je pe
-nse?)
-
-
-Il s'agit donc de cette question pour déterminer avec lesquelles devrais aller (Python ou JS):
-Langchain dans JS
- est-il déjà assez bon pour construire un framework chatbot très motivable robuste? Ou y a-t-il une mise en garde que je
- devrais connaître?
-
-Traduit et reposté à partir de la publication 14jweso de la communauté langchain. Pour retrouver la
- publication originale, insérez l'id de la publication après 'reddit.com/'
-```
----
-
-     
- 
-all -  [ [Local Llama] Meilleurs hôtes API LLM locaux pour la production ](https://www.reddit.com/r/redditenfrancais/comments/1ah3wqg/local_llama_meilleurs_hôtes_api_llm_locaux_pour/) , 2024-02-04-0910
-```
-Je me demandais ce que tout le monde utilise pour héberger des LLM locaux pour les appels API. J'ai utilisé Olllama + Li
-tellm et le Générateur de texte-webui des hôtes API construits, mais j'ai besoin de quelque chose qui fonctionne bien av
-ec Langchain ou Llamaindex. Je n'ai pas trouvé de bon tutoriel ou d'exemple qui connecte un LLM local à Llamaindex sur u
-ne API.
-
-Traduit et reposté à partir de la publication 1af5x3b de la communauté localllama. Pour retrouver la publicatio
-n originale, insérez l'id de la publication après 'reddit.com/'
-```
----
-
-     
- 
-all -  [ Escape special characters from promt text ](https://www.reddit.com/r/LLaMA2/comments/1ah27xx/escape_special_characters_from_promt_text/) , 2024-02-04-0910
-```
-Anyone knows how to escape special characters on a string used for the prompt.? When i provide the code sample to guide 
-llm its getting treated as place holder values for some input   
-
-
-instruction = '''
-
-Generate Apache Velocity code to c
-onstruct a data structure for managing commodity information. The data structure should include lists and maps with adde
-d elements, and properties assigned to objects. The scenario described should be followed exactly, and the resulting cod
-e should adhere to Apache Velocity's syntax rules. Here is an explicit example illustrating how Apache Velocity template
- code is structured for a different context:
-
-scenario : {question}
-
-&#x200B;
-
-The code example for reference (with plac
-eholders removed for clarity):
-
-\#set(rateshoptosend = {})
-
-\#set(x = unitWeight.put('value','TEST'))
-
-\#set(errorVoList
-= \[{'errorCode': 'errorDefinitionId','errorMessage':'errorMsg','errorCategory':'ERROR'}\])
-
-\#set(rateshoptosend.state 
-= state)
-
-JSONUtils.mapToJson(rateshoptosend)
-
-&#x200B;
-
-Please use the above structure as a guide to generate the new A
-pache Velocity code.
-
-&#x200B;
-
-Answer:
-
-'''  
-
-
-ERROR ::  
-
-
- File /usr/local/lib/python3.9/dist-packages/langchain/cha
-ins/base.py:475, in Chain.prep\_inputs(self, inputs)     **473**     external\_context = self.memory.load\_memory\_varia
-bles(inputs)     **474**     inputs = dict(inputs, \*\*external\_context) --> 475 self.\_validate\_inputs(inputs)     **
-476** **return** inputs  File /usr/local/lib/python3.9/dist-packages/langchain/chains/base.py:264, in Chain.\_validate\_
-inputs(self, inputs)     **262** missing\_keys = set(self.input\_keys).difference(inputs)     **263** **if** missing\_ke
-ys: --> 264 **raise** **ValueError**(f'Missing some input keys: **{**missing\_keys**}**')  ValueError: Missing some inpu
-t keys: {'', ''errorCode''}**SHOW MORE**Render  
- 
-```
----
-
-     
- 
-all -  [ Chat with PDFs using function calling ](https://www.reddit.com/r/LangChain/comments/1ah1l5f/chat_with_pdfs_using_function_calling/) , 2024-02-04-0910
-```
-Hi all, I built a chat with PDF using RAG but was struggling to get good results by just prompt stuffing. So I built an 
-advanced PDF AI that uses function calling to intelligently figure out if:
-
-1. The question needs retrieval from a docum
-ent or a web search
-2. If it needs retrieval, does it need to search the latest doc, a specific doc or all docs
-3. Produ
-ces an answer using the context retrieved
-
-Give it a spin at: [https://pdf.aidev.run](https://pdf.aidev.run/) and let me
- know what you think. Looking for feedback so I can fix and improve. Here’s the [code](https://github.com/phidatahq/ai-c
-ookbook/tree/main/pdf_ai) if you’re interested and I used [phidata](https://github.com/phidatahq/phidata) to build this.
-
-
-https://reddit.com/link/1ah1l5f/video/zbz2hm1aq5gc1/player
-```
----
-
-     
- 
-all -  [ Nextjs-Langchain conversation memory not working. ](https://www.reddit.com/r/nextjs/comments/1ah1c5s/nextjslangchain_conversation_memory_not_working/) , 2024-02-04-0910
-```
-I'm trying to retrieve past conversation information from conversations through BufferMemory. I followed documentation i
-n langchain js website, and the BufferMemory successfully retrieves the past memory and answers on that. But when I use 
-BufferWindowMemory as mentioned in the documentation, the memory simply doesn't work. 
-
-This is my code.   
-
-
-    'use s
-erver';
-    import { ChatGoogleGenerativeAI } from '@langchain/google-genai';
-    import { ChatPromptTemplate } from '@l
-angchain/core/prompts';
-    import { StringOutputParser } from '@langchain/core/output_parsers';
-    import { RunnableSe
-quence } from '@langchain/core/runnables';
-    import { ConversationChain } from 'langchain/chains';
-    import { Buffer
-WindowMemory, ChatMessageHistory } from 'langchain/memory';
-    import {
-      MessagesPlaceholder,
-      SystemMessageP
-romptTemplate,
-      HumanMessagePromptTemplate,
-    } from '@langchain/core/prompts';
-    import { AIMessage, HumanMess
-age } from '@langchain/core/messages';
-    
-    const model = new ChatGoogleGenerativeAI({
-      modelName: 'gemini-pro'
-,
-      maxOutputTokens: 2000,
-      apiKey: process.env.GOOGLE_API_KEY as string,
-      temperature: 0.1,
-      streami
-ng: true,
-    });
-    
-    export const geminiRes = async (question: string) => {
-      const memory = new BufferWindowM
-emory({ k: 1 });
-      console.log(memory.chatHistory);
-      try {
-        const chain = new ConversationChain({
-      
-    llm: model,
-          memory: memory,
-        });
-    
-        const response = await chain.predict({
-          inpu
-t: question,
-        });
-    
-        console.log(response);
-    
-        return { success: true, response };
-      } ca
-tch (error) {
-        console.log(error);
-      }
-    };
-    
-
-Can anybody please tell me what I'm doing wrong?   
-I'm t
-rying to build a chatbot like chatgpt but with context memory.  
-
-
-Help please.
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Conversation Memory not working with react. ](https://www.reddit.com/r/LangChain/comments/1ah180z/conversation_memory_not_working_with_react/) , 2024-02-04-0910
-```
-I'm trying to implement conversation buffer memory with react, but for some reason it doesn't work. I followed the docs 
-in langchain  i.e  [Conversation buffer window memory | 🦜️🔗 Langchain](https://js.langchain.com/docs/modules/memory/type
-s/buffer_window) , the code simply doesn't work.
-
-However using BufferMemory works(I followed the code as given in the d
-ocs)[Conversation buffer window memory | 🦜️🔗 Langchain](https://js.langchain.com/docs/modules/memory/types/buffer_window
-) .
-
-My code with BufferWIndow Memory
-
-    const memory = new BufferWindowMemory({ k: 1 });
-      console.log(memory.cha
-tHistory);
-      try {
-        const chain = new ConversationChain({
-          llm: model,
-          memory: memory,
-   
-     });
-    
-        const response = await chain.call({
-          input: question,
-        });
-    
-        console.lo
-g(response);
-    
-        return { success: true, response };
-      } catch (error) {
-        console.log(error);
-      
-}
-    };
-
-I'm using Gemini API, and I get answers from Gemini, but the memory doesn't seem to work.Can anybody please te
-ll me what I'm doing wrong?I tried using ChatPromptTemplate as well, but the memory isn't working at all. Please help!
-```
----
-
-     
- 
-all -  [ What is LangChain? ](https://www.reddit.com/r/Chatbots/comments/1ah07x9/what_is_langchain/) , 2024-02-04-0910
-```
-Hello Everyone, if you may not already know, LangChain is a framework to build LLM powered applications, mostly Chatbots
-.
-
- I have written a blog on [What is LangChain?](https://www.deligence.com/what_is_langchain_ai_app_development_framewo
-rk_explained/) , please give it a read and let me know your thoughts on the content and relevance, as I am trying to ran
-k it on google. Thanks!
-```
----
-
-     
- 
-all -  [ What is LangChain? ](https://www.reddit.com/r/LangChain/comments/1ah071c/what_is_langchain/) , 2024-02-04-0910
-```
-Hello Everyone I have written a blog on [What is LangChain?](https://www.deligence.com/what_is_langchain_ai_app_developm
-ent_framework_explained/) , please give it a read and let me know your thoughts on the content and relevance, as I am tr
-ying to rank it on google. Thanks!
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Need help on budget for building a chatbot ](https://www.reddit.com/r/TechCareerShifter/comments/1agz169/need_help_on_budget_for_building_a_chatbot/) , 2024-02-04-0910
-```
- Hi po, gusto ko lang po sana mag ask ng feedback and advice kung pano po ba magbudget for projects? I am a fresh grad p
-o and been working for less than a year, totally clueless on how this stuff works hahaha.
-
-Bale po kasi may nagreach out
- po sa akin na CEO from a small company in the US asking me to build them a chatbot na medyo may onting complexity. Basi
-cally po the chatbot should be able to output some suggestions for a brand like anong color kaya yung bagay for their bu
-siness, font style, rough logo, mga ganon po. The CEO emailed me yesterday asking for a budget that they should allocate
- for this project.
-
-Ngayon po I have a rough idea of how to do this, and nagtingin tingin ako ng mga APIs na pwede kong 
-magamit:
-
-\- GPT-4 Turbo (as the engine for the bot)
-
-\- Dall-E (generating a rough sketch/image of how the logo can be)
-
-
-\- Colormind API (for color palette)
-
-\- Google Fonts (fonts)
-
-\- Font Joy (fonts)
-
-\- Hosting? (di ko po sure kung pa
-no rin ilalagay sa website nila yung ibbuild kong bot hahaha)
-
-Most of these are free aside from the OpenAI APIs. Pero a
-ng winoworry ko po is once na nagstart na sa development phase yung project possible po na some of these would not work 
-the way I want it to or baka po may better APIs akong madiscover along the way. Pwede ko po ba lakihan yung budget ng on
-ti para sa mga ganitong possibilities?
-
-Also magkano po ba usually ang budgets talaga for projects like these? I am not 
-even sure if I am on the right path sa idea ko po kung pano siya ibbuild, ang naisip ko po is gagamit na lang ako ng Lan
-gChain to easily connect the tools (APIs) to GPT para po makapagformulate ng response yung bot.
-
-Eto pong opportunity is
- a freelance work and I think solo ko po siya ibbuild. Would really appreciate any advice on what budget I should say an
-d any feedback po sa plano kong approach on how I will be building it. Thank you po!
-```
----
-
-     
- 
-all -  [ Need help on budget for building a chatbot ](https://www.reddit.com/r/PinoyProgrammer/comments/1agz0lu/need_help_on_budget_for_building_a_chatbot/) , 2024-02-04-0910
-```
-Hi po, gusto ko lang po sana mag ask ng feedback and advice kung pano po ba magbudget for projects?  I am a fresh grad p
-o and been working for less than a year, totally clueless on how this stuff works hahaha. 
-
-Bale po kasi may nagreach ou
-t po sa akin na CEO from a small company in the US asking me to build them a chatbot na medyo may onting complexity. Bas
-ically po the chatbot should be able to output some suggestions for a brand like anong color kaya yung bagay for their b
-usiness, font style, rough logo, mga ganon po. The CEO emailed me yesterday asking for a budget that they should allocat
-e for this project.
-
-Ngayon po I have a rough idea of how to do this, and nagtingin tingin ako ng mga APIs na pwede kong
- magamit:
-
-\- GPT-4 Turbo (as the engine for the bot)
-
-\- Dall-E (generating a rough sketch/image of how the logo can be
-)
-
-\- Colormind API (for color palette)
-
-\- Google Fonts (fonts)
-
-\- Font Joy (fonts)
-
-\- Hosting? (di ko po sure kung p
-ano rin ilalagay sa website nila yung ibbuild kong bot hahaha)
-
-Most of these are free aside from the OpenAI APIs. Pero 
-ang winoworry ko po is once na nagstart na sa development phase yung project possible po na some of these would not work
- the way I want it to or baka po may better APIs akong madiscover along the way. Pwede ko po ba lakihan yung budget ng o
-nti para sa mga ganitong possibilities?
-
-Also magkano po ba usually ang budgets talaga for projects like these? I am not
- even sure if I am on the right path sa idea ko po kung pano siya ibbuild, ang naisip ko po is gagamit na lang ako ng La
-ngChain to easily connect the tools (APIs) to GPT para po makapagformulate ng response yung bot. 
-
-Eto pong opportunity 
-is a freelance work and I think solo ko po siya ibbuild. Would really appreciate any advice on what budget I should say 
-and any feedback po sa plano kong approach on how I will be building it. Thank you po!
-```
----
-
-     
- 
-all -  [ How to solve schema problems in text-to-sql bot? ](https://www.reddit.com/r/LangChain/comments/1agxb0u/how_to_solve_schema_problems_in_texttosql_bot/) , 2024-02-04-0910
-```
-I am trying to build a text to sql bot based off of llama-index. The problem is tables have 100s of columns. What llama-
-index does is put complete create table script of table in model context along with user question to generate sql query 
-and subsequent answer. But if there is need to join multiples tables and they have alot of column its not very efficient
- and may not even work. How can I solve this problem? Also if some of those columns have enums how can I make the sql bo
-t understand meaning of those enums?
-```
----
-
-     
- 
-MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-04-0910
+MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-05-0910
 ```
 I've tried things like langchain in the past (6-8 months ago) but they were cumbersome and didn't work as expected.
 
@@ -890,7 +785,7 @@ ing RAG (compared to 6 months ago)
 
      
  
-MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-04-0910
+MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-05-0910
 ```
 Hey Reddit, I've been applying for jobs and found that writing a cover letter for each position was tedious. I also delv
 ed into LLM and Langchain, hoping to leverage them for a project to aid in my job hunting. So, I developed Anukool under
@@ -907,7 +802,7 @@ ithub.com/dakshesh14/anukool
 
      
  
-MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-02-04-0910
+MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-02-05-0910
 ```
 I saw that DataStax/Astra DB [just released a new Data API to help with building production GenAI and RAG applications](
 https://www.datastax.com/blog/general-availability-data-api-for-enhanced-developer-experience). This API makes the prove
@@ -922,7 +817,7 @@ build-a-real-time-rag-app-on-wikipedia-with-langchain-and-vercel)
 
      
  
-MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-02-04-0910
+MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-02-05-0910
 ```
 I am working on a client project and I am using langchain's tools and agents. I want to know if the data is getting pass
 ed to openai or is it just like that - Output of one function is being directly passed to the second function with the k
@@ -932,7 +827,7 @@ nowledge of openai.
 
      
  
-MachineLearning -  [ [D] Code vs JSON output for LLM agents? Frameworks like LangChain rely on LLMs responding with JSON  ](https://www.reddit.com/r/MachineLearning/comments/197f416/d_code_vs_json_output_for_llm_agents_frameworks/) , 2024-02-04-0910
+MachineLearning -  [ [D] Code vs JSON output for LLM agents? Frameworks like LangChain rely on LLMs responding with JSON  ](https://www.reddit.com/r/MachineLearning/comments/197f416/d_code_vs_json_output_for_llm_agents_frameworks/) , 2024-02-05-0910
 ```
 [CaP](https://arxiv.org/pdf/2209.07753.pdf), [Voyager](https://arxiv.org/pdf/2305.16291.pdf), [Octopus](https://arxiv.or
 g/abs/2310.08588)
@@ -974,7 +869,7 @@ e of any experiments that compare these two approaches against each other?
 
      
  
-MachineLearning -  [ [D] Are Custom LLM RAG apps going to become redundant? ](https://www.reddit.com/r/MachineLearning/comments/1929n4f/d_are_custom_llm_rag_apps_going_to_become/) , 2024-02-04-0910
+MachineLearning -  [ [D] Are Custom LLM RAG apps going to become redundant? ](https://www.reddit.com/r/MachineLearning/comments/1929n4f/d_are_custom_llm_rag_apps_going_to_become/) , 2024-02-05-0910
 ```
 Loks like Copilot Studio is being rolled out (https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio
 ) with an impressive looking no code/out of the box RAG solution.
@@ -1000,7 +895,7 @@ Obviously there will be exceptions…but on most use cases I don’t see how you
 
      
  
-MachineLearning -  [ [P] An open-source project for deploying local models ](https://www.reddit.com/r/MachineLearning/comments/18zkm5m/p_an_opensource_project_for_deploying_local_models/) , 2024-02-04-0910
+MachineLearning -  [ [P] An open-source project for deploying local models ](https://www.reddit.com/r/MachineLearning/comments/18zkm5m/p_an_opensource_project_for_deploying_local_models/) , 2024-02-05-0910
 ```
  Introducing a new LLM WebUI project that supports various local model loading and provides streaming output for cutting
 -edge online multimodal models GPT-4-Vision and Gemini-Pro-Vision. Completely free and open source, it serves as a valua
@@ -1028,7 +923,7 @@ a61859f53db100)
 
      
  
-deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-04-0910
+deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-05-0910
 ```
 In the dynamic realm of natural language processing, a revolutionary synergy has emerged between Langchain and Step-Back
  Prompting. This article delves into the transformative collaboration, exploring how Langchain’s cutting-edge platform i
@@ -1045,7 +940,7 @@ k-prompting-using-ragatouille-b433e6f200ea
 
      
  
-deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-04-0910
+deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-05-0910
 ```
 Just sharing a free series I stumbled across on Linkedin - DataCamp's 9-part AI code-along series.
 
@@ -1065,7 +960,7 @@ Find
 
      
  
-deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-04-0910
+deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-05-0910
 ```
 DSPy is the next big advancement for AI and building applications with LLMs!
 
@@ -1093,7 +988,7 @@ h?v=41EfOY0Ldkc
 
      
  
-deeplearning -  [ [D] Unleashing the Power of Langchain with Wandb: Revolutionizing Topic Modeling and Evaluation ](https://www.reddit.com/r/deeplearning/comments/191mm83/d_unleashing_the_power_of_langchain_with_wandb/) , 2024-02-04-0910
+deeplearning -  [ [D] Unleashing the Power of Langchain with Wandb: Revolutionizing Topic Modeling and Evaluation ](https://www.reddit.com/r/deeplearning/comments/191mm83/d_unleashing_the_power_of_langchain_with_wandb/) , 2024-02-05-0910
 ```
 Complementing Langchain’s prowess, Wandb emerges as a powerhouse meticulously designed for developers leveraging LLM tec
 hnology. As an evaluation framework and production monitoring platform, Wandb stands out for its tailored approach. Its 
