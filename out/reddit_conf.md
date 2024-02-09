@@ -1,5 +1,71 @@
  
-all -  [ [R] Persistent homology and topological data analysis helped robust detection of AI-generated texts ](https://www.reddit.com/r/MachineLearning/comments/1aky8xt/r_persistent_homology_and_topological_data/) , 2024-02-08-0909
+all -  [ [D] concerns about the series of works in reflexion(self-adjustment)-powered LLM agent ](https://www.reddit.com/r/MachineLearning/comments/1am3ior/d_concerns_about_the_series_of_works_in/) , 2024-02-09-0909
+```
+we see tons of works in LLM-based agent which can perform tasks on web applications such as webshop, [webarena](https://
+github.com/web-arena-x/webarena),  [agentbench](https://github.com/THUDM/AgentBench/tree/main)etc...
+
+also, we can find 
+following works on reflexion-based agent which intakes the feedbacks and errors from previous trials from the interactio
+ns with the environment. the typical work is  `Reflexion: Language Agents with Verbal Reinforcement Learning`
+
+within ea
+ch trial, the agent, or say, llm, digests the prompt which contains not only history from current trial but also the sys
+tem info or feedbacks or error messages from previous trials. The feedbacks could come from system setting or from anoth
+er more powerful LLM that can act as a super judge to give feedbacks.
+
+anyway, I do not think this is RL since there is 
+no learning process for the agent, but a concat of prompt.
+
+My primary concern is that is this label leakage ? The agent
+ get feedbacks from the environment and with more trials, of course, the agent should have a more clear approach to the 
+final answer. So what is the point ?
+
+I see a post which shares my same concern:  [noahshinn/reflexion: \[NeurIPS 2023\]
+ Reflexion: Language Agents with Verbal Reinforcement Learning (github.com)](https://github.com/noahshinn/reflexion/issu
+es/27)
+
+&#x200B;
+
+Would like to hear from you in view of academic and industry.
+
+&#x200B;
+
+&#x200B;
+
+&#x200B;
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ [R] Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning ](https://www.reddit.com/r/MachineLearning/comments/1am1v5f/r_long_is_more_for_alignment_a_simple_but/) , 2024-02-09-0909
+```
+**Title**: Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning
+
+**Paper**: [http
+s://arxiv.org/abs/2402.04833](https://arxiv.org/abs/2402.04833)
+
+**Abstract**: There is a consensus that instruction fin
+e-tuning of LLMs requires high-quality data, but what are they? LIMA (NeurIPS 2023) and AlpaGasus (ICLR 2024) are state-
+of-the-art methods for selecting such high-quality examples, either via manual curation or using GPT-3.5-Turbo as a qual
+ity scorer. We show that the extremely simple baseline of selecting the 1,000 instructions with longest responses from s
+tandard datasets can consistently outperform these sophisticated methods according to GPT-4 and PaLM-2 as judges, while 
+remaining competitive on the OpenLLM benchmarks that test factual knowledge. We demonstrate this for several state-of-th
+e-art LLMs (Llama-2-7B, Llama-2-13B, and Mistral-7B) and datasets (Alpaca-52k and Evol-Instruct-70k). In addition, a lig
+htweight refinement of such long instructions can further improve the abilities of the fine-tuned LLMs, and allows us to
+ obtain the 2nd highest-ranked Llama-2-7B-based model on AlpacaEval 2.0 while training on only 1,000 examples and no ext
+ra preference data. We also conduct a thorough analysis of our models to ensure that their enhanced performance is not s
+imply due to GPT-4's preference for longer responses, thus ruling out any artificial improvement. In conclusion, our fin
+dings suggest that fine-tuning on the longest instructions should be the default baseline for any research on instructio
+n fine-tuning.
+```
+---
+
+     
+ 
+all -  [ [R] Persistent homology and topological data analysis helped robust detection of AI-generated texts ](https://www.reddit.com/r/MachineLearning/comments/1aky8xt/r_persistent_homology_and_topological_data/) , 2024-02-09-0909
 ```
 The main idea is that text data can be presented as points in some high-dimensional space. It can be assumed that the da
 taset fits into some surface in it. The problem is that such a surface may have fractal characteristics, so complex math
@@ -29,7 +95,7 @@ ublished in the proceedings of the NeurIPS 2023 conference.
 
      
  
-all -  [ IS THIS A GOOD ROADMAP TO LEARN PYTHON? ](https://www.reddit.com/r/learnpython/comments/1ak8v9p/is_this_a_good_roadmap_to_learn_python/) , 2024-02-08-0909
+all -  [ IS THIS A GOOD ROADMAP TO LEARN PYTHON? ](https://www.reddit.com/r/learnpython/comments/1ak8v9p/is_this_a_good_roadmap_to_learn_python/) , 2024-02-09-0909
 ```
 . Python Basics:  
 Resources:  
@@ -112,7 +178,7 @@ y, and edX.
 
      
  
-all -  [ IS THIS A GOOD ROADMAP FOR MASCHINE LEARNING? ](https://www.reddit.com/r/learnmachinelearning/comments/1ak8qxi/is_this_a_good_roadmap_for_maschine_learning/) , 2024-02-08-0909
+all -  [ IS THIS A GOOD ROADMAP FOR MASCHINE LEARNING? ](https://www.reddit.com/r/learnmachinelearning/comments/1ak8qxi/is_this_a_good_roadmap_for_maschine_learning/) , 2024-02-09-0909
 ```
  
 
@@ -216,7 +282,7 @@ Conferences like NeurIPS, ICML
 
      
  
-all -  [ Cape to Carthage: documentary about an all African, female-led AI research team rising against the o ](https://www.reddit.com/r/MachineLearning/comments/1ajkh13/cape_to_carthage_documentary_about_an_all_african/) , 2024-02-08-0909
+all -  [ Cape to Carthage: documentary about an all African, female-led AI research team rising against the o ](https://www.reddit.com/r/MachineLearning/comments/1ajkh13/cape_to_carthage_documentary_about_an_all_african/) , 2024-02-09-0909
 ```
 In the world of AI, Africa has a reputation for being a missing continent. Follow an underdog, female-led, all-African r
 esearch team as they compete with tech giants and top universities for a spot at the top international AI research confe
@@ -229,7 +295,7 @@ age/).
 
      
  
-all -  [ Actor Critic with q-function approximation not converging ](https://www.reddit.com/r/reinforcementlearning/comments/1aj2zey/actor_critic_with_qfunction_approximation_not/) , 2024-02-08-0909
+all -  [ Actor Critic with q-function approximation not converging ](https://www.reddit.com/r/reinforcementlearning/comments/1aj2zey/actor_critic_with_qfunction_approximation_not/) , 2024-02-09-0909
 ```
 Recently I have been trying to implement the actor critic described in this [paper](https://proceedings.neurips.cc/paper
 /1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html).
@@ -258,7 +324,7 @@ there are still issues with convergence and the model becoming overconfident cau
 
      
  
-all -  [ [D] Publishing Negative Results ](https://www.reddit.com/r/MachineLearning/comments/1aikp5f/d_publishing_negative_results/) , 2024-02-08-0909
+all -  [ [D] Publishing Negative Results ](https://www.reddit.com/r/MachineLearning/comments/1aikp5f/d_publishing_negative_results/) , 2024-02-09-0909
 ```
 I‘ve been working on a ML research project, and unfortunately, the results don‘t align with my hypothesis. I‘ve gotten n
 egative results.
@@ -275,7 +341,7 @@ ove successful?
 
      
  
-all -  [ AI alignment prize suggestion: Introduce AI Safety concepts into the ML community ](https://www.reddit.com/r/AIsafetyideas/comments/1aiglw9/ai_alignment_prize_suggestion_introduce_ai_safety/) , 2024-02-08-0909
+all -  [ AI alignment prize suggestion: Introduce AI Safety concepts into the ML community ](https://www.reddit.com/r/AIsafetyideas/comments/1aiglw9/ai_alignment_prize_suggestion_introduce_ai_safety/) , 2024-02-09-0909
 ```
 Recently, there have been several papers published at top ML conferences that introduced concepts from the AI safety com
 munity into the broader ML community. Such papers often define a problem, explain why it matters, sometimes formalise it
@@ -290,7 +356,7 @@ cept of AI alignment.
 
      
  
-all -  [ [D] questions on ICML 2024 submission timeline ](https://www.reddit.com/r/MachineLearning/comments/1ahxe7t/d_questions_on_icml_2024_submission_timeline/) , 2024-02-08-0909
+all -  [ [D] questions on ICML 2024 submission timeline ](https://www.reddit.com/r/MachineLearning/comments/1ahxe7t/d_questions_on_icml_2024_submission_timeline/) , 2024-02-09-0909
 ```
 Hello all!
 
@@ -311,7 +377,7 @@ thanks!
 
      
  
-all -  [ Picked up all these Tapes today! ](https://i.redd.it/pcbd29avx1gc1.jpeg) , 2024-02-08-0909
+all -  [ Picked up all these Tapes today! ](https://i.redd.it/pcbd29avx1gc1.jpeg) , 2024-02-09-0909
 ```
 Found this whole lot at VV for the grand total of $5.99! Lots of them still have the original Sony store tags on them!
 ```
@@ -319,7 +385,7 @@ Found this whole lot at VV for the grand total of $5.99! Lots of them still have
 
      
  
-all -  [ Academic journal or conference for AI safety ](https://www.reddit.com/r/AIsafetyideas/comments/1agmkg5/academic_journal_or_conference_for_ai_safety/) , 2024-02-08-0909
+all -  [ Academic journal or conference for AI safety ](https://www.reddit.com/r/AIsafetyideas/comments/1agmkg5/academic_journal_or_conference_for_ai_safety/) , 2024-02-09-0909
 ```
 To help boost the prestige of safety research, leading to more people starting the career.
 
@@ -349,7 +415,7 @@ might focus on scientific novelty and complicated/'cool' papers, this conference
 
      
  
-all -  [ Research Advances in Transformer Time Series Forecasting Models ](https://www.reddit.com/r/deeplearning/comments/1ag4xfp/research_advances_in_transformer_time_series/) , 2024-02-08-0909
+all -  [ Research Advances in Transformer Time Series Forecasting Models ](https://www.reddit.com/r/deeplearning/comments/1ag4xfp/research_advances_in_transformer_time_series/) , 2024-02-09-0909
 ```
 Just published a new article describing [recent advances in the deep learning for time series](https://medium.com/deep-d
 ata-science/advances-in-deep-learning-for-time-series-forecasting-classification-winter-2024-a3fd31b875b0) forecasting a
@@ -360,7 +426,7 @@ s like DLinear. I also critiqued some problematic and flawed papers such as Time
 
      
  
-all -  [ How much am I worth? ~Big Tech Specialty Research Scientist ](https://www.reddit.com/r/Salary/comments/1afrju3/how_much_am_i_worth_big_tech_specialty_research/) , 2024-02-08-0909
+all -  [ How much am I worth? ~Big Tech Specialty Research Scientist ](https://www.reddit.com/r/Salary/comments/1afrju3/how_much_am_i_worth_big_tech_specialty_research/) , 2024-02-09-0909
 ```
 **Face value experience:**  
 I have a PhD in mathematical optimization, with expertise in signal processing, with public
@@ -411,7 +477,7 @@ nus, stock, and wahtever else... (Ive never gotten a big tech offer)
 
      
  
-all -  [ Regret bounds in reinforcement learning ](https://www.reddit.com/r/reinforcementlearning/comments/1aeiexo/regret_bounds_in_reinforcement_learning/) , 2024-02-08-0909
+all -  [ Regret bounds in reinforcement learning ](https://www.reddit.com/r/reinforcementlearning/comments/1aeiexo/regret_bounds_in_reinforcement_learning/) , 2024-02-09-0909
 ```
 I’ve been away from reading theoretical reinforcement learning papers for a couple of years and was getting curious on h
 ow the field has progressed since then. Last time I checked, there was a paper that claimed that they closed the upper a
@@ -425,7 +491,7 @@ omeone can point to a follow up paper, I’d really appreciate it!
 
      
  
-all -  [ [R] Thoughts about ML theory papers in conferences like International Symposium on Information Theor ](https://www.reddit.com/r/MachineLearning/comments/1abwmal/r_thoughts_about_ml_theory_papers_in_conferences/) , 2024-02-08-0909
+all -  [ [R] Thoughts about ML theory papers in conferences like International Symposium on Information Theor ](https://www.reddit.com/r/MachineLearning/comments/1abwmal/r_thoughts_about_ml_theory_papers_in_conferences/) , 2024-02-09-0909
 ```
 I have published a few papers in conferences like the International Symposium on Information Theory (ISIT) and Allerton.
  However, when I apply for internship positions, the applications sometimes ask about the number of published papers in 
@@ -439,7 +505,7 @@ ences, and I would say s/he likes to 'play safe' and avoids taking any risks at 
 
      
  
-all -  [ Acceptance rate of workshops in conferences [D] ](https://www.reddit.com/r/MachineLearning/comments/19do6qn/acceptance_rate_of_workshops_in_conferences_d/) , 2024-02-08-0909
+all -  [ Acceptance rate of workshops in conferences [D] ](https://www.reddit.com/r/MachineLearning/comments/19do6qn/acceptance_rate_of_workshops_in_conferences_d/) , 2024-02-09-0909
 ```
 From the Internet I easily found the acceptance rate of conferences but what is the acceptance rate of workshops conduct
 ed in conferences like AISTATS/CVPR/Neurips/ICML? 
@@ -448,7 +514,7 @@ ed in conferences like AISTATS/CVPR/Neurips/ICML?
 
      
  
-all -  [ What Bodies Think About: Bioelectric Computation Outside the Nervous System - NeurIPS 2018 ](https://youtu.be/RjD1aLm4Thg?si=j1-jVO--H2lGHaUf) , 2024-02-08-0909
+all -  [ What Bodies Think About: Bioelectric Computation Outside the Nervous System - NeurIPS 2018 ](https://youtu.be/RjD1aLm4Thg?si=j1-jVO--H2lGHaUf) , 2024-02-09-0909
 ```
 One of the best lectures I’ve ever watched! This might sound boring because it’s presented that way, but this has the po
 tential to to enlighten you!
@@ -457,7 +523,7 @@ tential to to enlighten you!
 
      
  
-all -  [ I read through all NeurIPS 2023 Abstracts and wrote about it (r/MachineLearning) ](https://www.reddit.com/r/MachineLearning/comments/19cxibs/p_i_read_through_all_neurips_2023_abstracts_and/) , 2024-02-08-0909
+all -  [ I read through all NeurIPS 2023 Abstracts and wrote about it (r/MachineLearning) ](https://www.reddit.com/r/MachineLearning/comments/19cxibs/p_i_read_through_all_neurips_2023_abstracts_and/) , 2024-02-09-0909
 ```
 
 ```
@@ -465,7 +531,7 @@ all -  [ I read through all NeurIPS 2023 Abstracts and wrote about it (r/Machine
 
      
  
-all -  [ I read through the NeurIPS 2023 Abstracts and wrote about it ](https://alexzhang13.github.io/blog/2024/neurips2023) , 2024-02-08-0909
+all -  [ I read through the NeurIPS 2023 Abstracts and wrote about it ](https://alexzhang13.github.io/blog/2024/neurips2023) , 2024-02-09-0909
 ```
 I made this resource that I think might be quite useful here, especially for those looking to find some new, relevant wo
 rks to read or use for their own projects. It discusses the content from roughly 300 papers, but the topics broadly pert
@@ -475,7 +541,7 @@ ain to all of NeurIPS 2023. Happy reading!
 
      
  
-all -  [ Advancements in machine learning for machine learning ](https://www.reddit.com/r/worldTechnology/comments/19c2sch/advancements_in_machine_learning_for_machine/) , 2024-02-08-0909
+all -  [ Advancements in machine learning for machine learning ](https://www.reddit.com/r/worldTechnology/comments/19c2sch/advancements_in_machine_learning_for_machine/) , 2024-02-09-0909
 ```
 With the recent and accelerated advances in machine learning (ML), machines can understand natural language, engage in c
 onversations, draw images, create videos and more. Modern ML models are programmed and trained using ML programming fram
@@ -614,7 +680,7 @@ machine learning for machine learning](https://blog.research.google/2023/12/adva
 
      
  
-all -  [ Quant Research of the Week (10th Edition) ](https://www.reddit.com/r/quant/comments/1994aei/quant_research_of_the_week_10th_edition/) , 2024-02-08-0909
+all -  [ Quant Research of the Week (10th Edition) ](https://www.reddit.com/r/quant/comments/1994aei/quant_research_of_the_week_10th_edition/) , 2024-02-09-0909
 ```
 # SSRN
 
@@ -978,7 +1044,7 @@ e change. (2024-01-14, shares: 20.0)
 
      
  
-all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-02-08-0909
+all -  [ DSPy and ColBERT with Omar Khattab! ](https://www.reddit.com/r/deeplearning/comments/197bh2j/dspy_and_colbert_with_omar_khattab/) , 2024-02-09-0909
 ```
 I am beyond excited to publish our first Weaviate Podcast interview in-person at the NeurIPS conference with Omar Khatta
 b from Stanford University!
@@ -1015,7 +1081,7 @@ eaviate/episodes/DSPy-and-ColBERT-with-Omar-Khattab----Weaviate-Podcast-85-e2eff
 
      
  
-all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-02-08-0909
+all -  [ Thoughts on Potential of LLMs/Foundation Models for Zero-Shot Time Series Forecasting [D] ](https://www.reddit.com/r/MachineLearning/comments/194h40f/thoughts_on_potential_of_llmsfoundation_models/) , 2024-02-09-0909
 ```
 Hi all, I've stumbled upon this Neurips paper 'Large Language Models Are Zero-Shot Time Series Forecasters'   [2310.0782
 0.pdf (arxiv.org)](https://arxiv.org/pdf/2310.07820.pdf?trk=public_post_comment-text)  and wonder what people in time se
@@ -1034,7 +1100,7 @@ anks!
 
      
  
-all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-02-08-0909
+all -  [ [D] How to request to be a reviewer to a conference/journal? ](https://www.reddit.com/r/MachineLearning/comments/1945n6i/d_how_to_request_to_be_a_reviewer_to_a/) , 2024-02-09-0909
 ```
 I'm interested in reviewing for the upcoming cycles of ECCV, Neurips, ICLR, AAAI etc. 
 
@@ -1048,7 +1114,7 @@ there a better way of doing it?
 
      
  
-all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-02-08-0909
+all -  [ Weaviate at NeurIPS 2023! (Interview Series) ](https://www.reddit.com/r/deeplearning/comments/193dmjz/weaviate_at_neurips_2023_interview_series/) , 2024-02-09-0909
 ```
 Hey everyone! We had an incredible time at the NeurIPS conference this year in New Orleans! We learned a ton, met so man
 y amazing people, and... put together our first in-person podcast series!!
@@ -1075,138 +1141,6 @@ adly discuss the state of AI, impressions of the NeurIPS conference, and their r
 
 Link: [https://www.youtube.com/watch?v=xrZxk0H2cmY](https://www.youtube.com/watc
 h?v=xrZxk0H2cmY)
-```
----
-
-     
- 
-all -  [ AI Partnerships, Intelligence Augmentation, and Open Source Research: A Look at Current AI Trends ](https://www.reddit.com/r/ai_news_by_ai/comments/191d4cy/ai_partnerships_intelligence_augmentation_and/) , 2024-02-08-0909
-```
-
-
-
-
-
-#major_players #leaders #science #tool #opensource #paper #opinions #scheduled
-
-Isomorphic Labs has announced colla
-borations with Eli Lilly and Company and Novartis, two leading pharmaceutical companies. These partnerships could be wor
-th nearly $3 billion to Isomorphic Labs, excluding any royalties from future drug sales. The collaborations are focused 
-on small molecules and involve upfront and milestone payments, marking the beginning of the impact that AI will have on 
-accelerating drug discovery [2].
-
-
-
-
-
-
-
-There is a suggestion to refer to current technology as 'intelligence augmentati
-on' (IA) instead of 'artificial intelligence' (AI). IA implies that the technology is more like tools that require human
- interaction, which better reflects the current state of technology. AI, on the other hand, implies independent agents [
-3][4]. Andrej Karpathy, an author, supports this view, believing in intelligence amplification rather than creating a su
-perintelligent entity to replace humans. He aims to build tools that enhance and extend human information processing cap
-abilities [5]. Another author suggests that tools should be seen as amplifying imagination, not just extending intellige
-nce, and mentions the emergence of generative intelligence amplification [6].
-
-
-
-
-
-
-
-ML/AI research is mostly free from 
-commercial publishing restrictions. Preprints are shared on platforms like ArXiv and OpenReview, while short papers are 
-presented at conferences such as ICLR, NeurIPS, and ICML. Longer papers are published in journals like JMLR and TMLR. Al
-l of these venues are open access and free for both readers and authors [7]. The fast progress in AI research can be att
-ributed to the frequent publication of preprints on ArXiv and the exchange of open source code [8]. Despite the importan
-ce of peer review, there is noise associated with it, especially for conferences. Posting papers on ArXiv allows them to
- be accessible even if they are rejected by reviewers [13].
-
-
-
-
-
-
-
-Language Model Machines (LLMs) are beneficial for cod
-ing despite their inability to plan. They are capable of reproducing plans that they have been trained on, but they do n
-ot possess actual planning abilities [9][11]. The author suggests that the way humans plan is similar to how optimal con
-trol systems plan trajectories, but humans do it hierarchically [12].
-
-
-
-
-
-
-
-Venture capital firm Andreessen-Horowitz ha
-s written a letter to the UK House of Lords in support of open source AI platforms [10].
-
-
-
-
-
-
-
-The author expresses sym
-pathy towards OpenAI and Microsoft in the lawsuit filed by The New York Times (NYT). The lawsuit claims that OpenAI and 
-Microsoft used millions of copyrighted NYT articles to train their models. The author believes that training on public i
-nternet documents should be covered under fair use, similar to how humans can read and learn from online articles [14].
-
-
-
-
-
-
-
-
-
-
-
-[1. Midjourney @midjourney https://twitter.com/midjourney/status/1743874374749573303](https://twitter.com/midj
-ourney/status/1743874374749573303)
-
-[2. Demis Hassabis @demishassabis https://twitter.com/demishassabis/status/174404673
-8493599942](https://twitter.com/demishassabis/status/1744046738493599942)
-
-[3. Andrej Karpathy @karpathy https://twitter
-.com/karpathy/status/1744062425576636499](https://twitter.com/karpathy/status/1744062425576636499)
-
-[4. Andrej Karpathy 
-@karpathy https://twitter.com/karpathy/status/1744062845426532473](https://twitter.com/karpathy/status/17440628454265324
-73)
-
-[5. Andrej Karpathy @karpathy https://twitter.com/karpathy/status/1744179910347039080](https://twitter.com/karpathy
-/status/1744179910347039080)
-
-[6. Andrej Karpathy @karpathy https://twitter.com/karpathy/status/1744200417784045799](htt
-ps://twitter.com/karpathy/status/1744200417784045799)
-
-[7. Yann LeCun @ylecun https://twitter.com/ylecun/status/17440314
-34770108832](https://twitter.com/ylecun/status/1744031434770108832)
-
-[8. Yann LeCun @ylecun https://twitter.com/ylecun/s
-tatus/1744032223165104254](https://twitter.com/ylecun/status/1744032223165104254)
-
-[9. Yann LeCun @ylecun https://twitte
-r.com/ylecun/status/1744040682296099078](https://twitter.com/ylecun/status/1744040682296099078)
-
-[10. Yann LeCun @ylecun
- https://twitter.com/ylecun/status/1744131432509768024](https://twitter.com/ylecun/status/1744131432509768024)
-
-[11. Yan
-n LeCun @ylecun https://twitter.com/ylecun/status/1744135793243767102](https://twitter.com/ylecun/status/174413579324376
-7102)
-
-[12. Yann LeCun @ylecun https://twitter.com/ylecun/status/1744136146332885261](https://twitter.com/ylecun/status/
-1744136146332885261)
-
-[13. Yann LeCun @ylecun https://twitter.com/ylecun/status/1744139516720320816](https://twitter.com
-/ylecun/status/1744139516720320816)
-
-[14. Andrew Ng @AndrewYNg https://twitter.com/AndrewYNg/status/1744145064115446040]
-(https://twitter.com/AndrewYNg/status/1744145064115446040)
 ```
 ---
 
