@@ -1,5 +1,154 @@
  
-all -  [ Just got a 4090 24GB, what should I run? ](https://www.reddit.com/r/LocalLLaMA/comments/1anu3m5/just_got_a_4090_24gb_what_should_i_run/) , 2024-02-11-0911
+all -  [ Langchain powered search ](https://www.reddit.com/r/LangChain/comments/1aojxqa/langchain_powered_search/) , 2024-02-12-0910
+```
+I'm looking into LangChain to power search on some inventory. I would like to get parameters for this search from the de
+scription to serve the customer. However, the customer should be able to ask his search query in any possible way, but o
+bviously the API in the backend can support only a limited set of inputs.   
+
+
+Exactly how would this work? And what too
+ls should I consider? The idea is not to provide a response in the chat, but to provide it like an inventory search.  
+```
+---
+
+     
+ 
+all -  [ Building AI Chatbot from scratch with Llama2, Langchain and Vector database using RAG workflow ](https://www.reddit.com/r/artificial/comments/1aohn26/building_ai_chatbot_from_scratch_with_llama2/) , 2024-02-12-0910
+```
+Pretty detailed one in case any one wants to build one 
+https://youtu.be/V8329yuXHKM
+```
+---
+
+     
+ 
+all -  [ Libs and Best Practices for Rendering Chatbot Messages ](/r/reactjs/comments/1ao9ntn/libs_and_best_practices_for_rendering_chatbot/) , 2024-02-12-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ LangChain and .NET ](https://www.reddit.com/r/dotnet/comments/1aoea8o/langchain_and_net/) , 2024-02-12-0910
+```
+I'm actively working on developing a new set of AI features available in VS Code, as part of SnippetHub, and next up is 
+improving the context for AI features.
+
+Given that the infrastructure is mostly on .NET technologies, I'm trying to figu
+re out the best way to integrate LangChain with .NET.   
+Is there a NuGet package available?
+
+If you've had the chance t
+o integrate LangChain into your .NET API, I'd appreciate it if you could share what the challenges were and if you used 
+a NuGet package
+```
+---
+
+     
+ 
+all -  [ Better context with LangChain and VS Code AI coding assistant ](https://www.reddit.com/r/artificial/comments/1aoe4q8/better_context_with_langchain_and_vs_code_ai/) , 2024-02-12-0910
+```
+I'm actively working on developing new features for the AI coding assistant, which already has a VS Code extension where
+ all the features are available.
+
+To improve context in coding assistance (like AI Chat, AI Lens, and similar), I'm cons
+idering what the best option would be. I've read a lot about LangChain and see that it offers some cool options for bett
+er context when AI features come into play.
+
+Has anyone integrated LangChain and what are your experiences? 
+
+It would b
+e great if someone could share specific use-cases from production and feedback.
+```
+---
+
+     
+ 
+all -  [ AI Assisted Assistant ](https://www.reddit.com/r/LangChain/comments/1ao7wte/ai_assisted_assistant/) , 2024-02-12-0910
+```
+Hey everyone, I’m about to build a Assistant which takes input from user like name, email and some other attributes and 
+then check in the database to verify if the info already there or not, but after that it’ll ask some more follow up ques
+tions to get input from user and verify more information in different format like pdf or jpeg.
+
+Now I know it’s doable u
+sing tools but exactly how? Because moving from one question to another question using API is getting boilerplate for me
+, Is there any relevant or close enough resources available online to start? It’s just 1yr I’m into development so any h
+elp will be appreciated.
+```
+---
+
+     
+ 
+all -  [ Finetuning Advice? ](https://www.reddit.com/r/LangChain/comments/1ao6rgk/finetuning_advice/) , 2024-02-12-0910
+```
+I am trying to finetune Llama2 7b on a single T4 GPU using Qlora, I found a lot of resources to help developing the pipe
+line and everything is good, however I noticed something weird, everyone trying to finetune Llama2 7b using this method 
+is setting max tokens(input+output) to **2048** although the maximum number of allowed tokens for Llama2 is **4092**, is
+ the reason that long (inputs, outputs) pairs may need a bigger GPU? or I am missing something here.
+
+I am asking this b
+ecause my data contains long prompts and completions and I need to know if this effects how much GPU I'll need for finet
+uning.
+```
+---
+
+     
+ 
+all -  [ Triform - Early Beta - Platform for Hosting and Orchestration of Python Focusing on LangChain ](https://www.reddit.com/r/LangChain/comments/1ao5p68/triform_early_beta_platform_for_hosting_and/) , 2024-02-12-0910
+```
+So we just opened up testing of a new platform called Triform. We have 400 registered users already, but still want more
+ people to come in and check it out to be able to refine our product before we launch in production.
+
+Anyone who signs u
+p and creates at least one module and one flow in our testing system will get to keep a permanent free account on our pl
+atform even in production.
+
+Signup with your GitHub: [https://triform.ai](https://triform.ai)
+
+Check out the readme at: 
+[https://triform-docs.readthedocs.io/](https://triform-docs.readthedocs.io/)
+
+Any and all feedback is appreciated!
+```
+---
+
+     
+ 
+all -  [ Multi-model architecture ](https://www.reddit.com/r/LangChain/comments/1ao2qn5/multimodel_architecture/) , 2024-02-12-0910
+```
+Does it make sense to ask several different llm and then consolidate the answers? If llm are trained on different data, 
+it may help to get more diverse answers and improve results.
+```
+---
+
+     
+ 
+all -  [ Langchain RAG + CrewAI Agent? ](https://www.reddit.com/r/LangChain/comments/1anw9vt/langchain_rag_crewai_agent/) , 2024-02-12-0910
+```
+I seem to not be able to wrap my mind around it, but how do you feed a Langchain RAG implementation into an agent framew
+ork like CrewAI? I can use both separately, but I'm not seeing how to combine the two... 
+```
+---
+
+     
+ 
+all -  [ Metadata retrieval + search ](https://www.reddit.com/r/LangChain/comments/1anuw6i/metadata_retrieval_search/) , 2024-02-12-0910
+```
+I am. Trying to implement a rag to discuss my data , I use chromadb and conversational retrievalchain. Let's say I uploa
+d 20 documents,. 10 pdfs and 10 texts.  Everytime I aks a question to the ai I want in the answer to add the citation,  
+also if I ask howamy pdf files are stored in the dB I want to know the number, I want also to. Ask find all the docs who
+. Include this phrase and the ai should return me the filenames. To conclude, I want the ai to search not only the docs 
+but the Metadata as well. Has anyone implemented something similar? Or has anything o suggest?
+
+Thank you for your help 
+😊
+```
+---
+
+     
+ 
+all -  [ Just got a 4090 24GB, what should I run? ](https://www.reddit.com/r/LocalLLaMA/comments/1anu3m5/just_got_a_4090_24gb_what_should_i_run/) , 2024-02-12-0910
 ```
 I’m upgrading from a 3080 where I messed around with small models.   Anything bigger and better I should try out?
 
@@ -13,7 +162,7 @@ Or maybe something that makes meme pictures of dogs?
 
      
  
-all -  [ So is this sub gonna change its name to langchain-community? ](https://www.reddit.com/r/LangChain/comments/1anlp6l/so_is_this_sub_gonna_change_its_name_to/) , 2024-02-11-0911
+all -  [ So is this sub gonna change its name to langchain-community? ](https://www.reddit.com/r/LangChain/comments/1anlp6l/so_is_this_sub_gonna_change_its_name_to/) , 2024-02-12-0910
 ```
 I suspect this means they are gearing up for a paid subscription release. I updated and see that “langchain” is deprecia
 ted… does this mean they are gearing up for a paid subscription version? *Microsoft Teams Classic has entered the chat *
@@ -23,7 +172,7 @@ ted… does this mean they are gearing up for a paid subscription version? *Micr
 
      
  
-all -  [ I don't understand....? ](https://www.reddit.com/r/LangChain/comments/1ankqzw/i_dont_understand/) , 2024-02-11-0911
+all -  [ I don't understand....? ](https://www.reddit.com/r/LangChain/comments/1ankqzw/i_dont_understand/) , 2024-02-12-0910
 ```
 Okay so when I'm looking at the documentation for langchain openapi toolkit, it is not making sense to me. 
 
@@ -44,15 +193,7 @@ https://python.langchain.com/docs/integrations/toolkits/openapi
 
      
  
-all -  [ World building using OpenHermes. Sometimes LLMs can just be used for a bit of fun. ](https://v.redd.it/j6asur5nerhc1) , 2024-02-11-0911
-```
-
-```
----
-
-     
- 
-all -  [ pinecone API ](https://www.reddit.com/r/StreamlitOfficial/comments/1anfqit/pinecone_api/) , 2024-02-11-0911
+all -  [ pinecone API ](https://www.reddit.com/r/StreamlitOfficial/comments/1anfqit/pinecone_api/) , 2024-02-12-0910
 ```
 hello, I'm building a rag using langchain and Gemini, I'm stuck tho on the API part, how can I put my API online, I unde
 rstand that you need to create a .env file for local deployment, but how exactly can I put my pinecone API online?
@@ -61,7 +202,7 @@ rstand that you need to create a .env file for local deployment, but how exactly
 
      
  
-all -  [ Gemini + Google Search Agent Curious what you can build yourself in the @Google Gemini era? Spend a  ](https://www.reddit.com/r/chatgpt_newtech/comments/1anebts/gemini_google_search_agent_curious_what_you_can/) , 2024-02-11-0911
+all -  [ Gemini + Google Search Agent Curious what you can build yourself in the @Google Gemini era? Spend a  ](https://www.reddit.com/r/chatgpt_newtech/comments/1anebts/gemini_google_search_agent_curious_what_you_can/) , 2024-02-12-0910
 ```
 Gemini + Google Search Agent   Curious what you can build yourself in the  u/Google  Gemini era? Spend a few minutes wit
 h LangChain  founding engineer  u/eyfriis  and quickly get up and running with a Gemini-powered agent that has access to
@@ -72,7 +213,7 @@ ble=news&wr_id=2157)
 
      
  
-all -  [ Pipeline Vs Modular coding while creating LLM app ](https://www.reddit.com/r/TheLLMStack/comments/1ancqez/pipeline_vs_modular_coding_while_creating_llm_app/) , 2024-02-11-0911
+all -  [ Pipeline Vs Modular coding while creating LLM app ](https://www.reddit.com/r/TheLLMStack/comments/1ancqez/pipeline_vs_modular_coding_while_creating_llm_app/) , 2024-02-12-0910
 ```
 Why every LLM framework is focusing more on creating pipeline based code structure to develop app? I can see langchain, 
 llamaindex and haystack mostly focusing on developing app using pipelines rather then using individual modules. Is their
@@ -82,7 +223,7 @@ llamaindex and haystack mostly focusing on developing app using pipelines rather
 
      
  
-all -  [ How to fetch ID's in Pgvector ](https://www.reddit.com/r/LangChain/comments/1an9aw2/how_to_fetch_ids_in_pgvector/) , 2024-02-11-0911
+all -  [ How to fetch ID's in Pgvector ](https://www.reddit.com/r/LangChain/comments/1an9aw2/how_to_fetch_ids_in_pgvector/) , 2024-02-12-0910
 ```
 Is there any way to  fetch ID's of a particular document stored in Postgres pgvector db to delete the particular documen
 t embeddings.
@@ -91,7 +232,7 @@ t embeddings.
 
      
  
-all -  [ Langchain for QA ](https://www.reddit.com/r/LangChain/comments/1an90yi/langchain_for_qa/) , 2024-02-11-0911
+all -  [ Langchain for QA ](https://www.reddit.com/r/LangChain/comments/1an90yi/langchain_for_qa/) , 2024-02-12-0910
 ```
 Hello, everyone I created a python flask api for document chatbot.
 
@@ -109,7 +250,7 @@ Its there any way i can make it fast?
 
      
  
-all -  [ Data Insights suggestion using langchain ](https://www.reddit.com/r/LangChain/comments/1an371k/data_insights_suggestion_using_langchain/) , 2024-02-11-0911
+all -  [ Data Insights suggestion using langchain ](https://www.reddit.com/r/LangChain/comments/1an371k/data_insights_suggestion_using_langchain/) , 2024-02-12-0910
 ```
  I'm facing a problem with Google Sheets while trying to analyze a dataset with over 100 records. It seems there's a tok
 en issue preventing me from generating plots and insights effectively.
@@ -282,7 +423,7 @@ t the response to a string.
 
      
  
-all -  [ Creating knowledge graph using local large language models ](https://www.reddit.com/r/LangChain/comments/1an0we9/creating_knowledge_graph_using_local_large/) , 2024-02-11-0911
+all -  [ Creating knowledge graph using local large language models ](https://www.reddit.com/r/LangChain/comments/1an0we9/creating_knowledge_graph_using_local_large/) , 2024-02-12-0910
 ```
 I am currently trying to implement knowledge graph store using llm in my company. I followed this post using open AI [ht
 tps://bratanic-tomaz.medium.com/constructing-knowledge-graphs-from-text-using-openai-functions-096a6d010c17](https://bra
@@ -308,7 +449,7 @@ rels)
 
      
  
-all -  [ Data Access for LLMs is broken. Thoughts? ](https://www.reddit.com/r/LangChain/comments/1amy5yu/data_access_for_llms_is_broken_thoughts/) , 2024-02-11-0911
+all -  [ Data Access for LLMs is broken. Thoughts? ](https://www.reddit.com/r/LangChain/comments/1amy5yu/data_access_for_llms_is_broken_thoughts/) , 2024-02-12-0910
 ```
 Hey  all. To build truly useful GenAI apps, LLMs need to be able to access  propriety data from structured and unstructu
 red data sources. LLMs  struggle to understand the availability, location, and methods to  retrieve relevant data.
@@ -341,7 +482,7 @@ Have  you faced these issues in your projects? What workarounds or solutions  ha
 
      
  
-all -  [ Self query question ](https://www.reddit.com/r/LangChain/comments/1amxvpd/self_query_question/) , 2024-02-11-0911
+all -  [ Self query question ](https://www.reddit.com/r/LangChain/comments/1amxvpd/self_query_question/) , 2024-02-12-0910
 ```
 I’ve been reading through everything i can find regarding self query (and also tinkering with it myself), and from what 
 i can tell, i am required to use vectorStore. 
@@ -365,7 +506,7 @@ uery/pinecone-self-query
 
      
  
-all -  [ How do I store the message output in a .txt in langchain? (not as Json) ](https://www.reddit.com/r/LangChain/comments/1amvuc2/how_do_i_store_the_message_output_in_a_txt_in/) , 2024-02-11-0911
+all -  [ How do I store the message output in a .txt in langchain? (not as Json) ](https://www.reddit.com/r/LangChain/comments/1amvuc2/how_do_i_store_the_message_output_in_a_txt_in/) , 2024-02-12-0910
 ```
 Does Langchain have any specific module? I am using Flowise gui with langchain and try to store message output in a txt,
  not the whole conversation, only the replies from the web api.
@@ -374,7 +515,7 @@ Does Langchain have any specific module? I am using Flowise gui with langchain a
 
      
  
-all -  [ Getting access to all the previous AgentActions in a tool. ](https://www.reddit.com/r/LangChain/comments/1amuf4y/getting_access_to_all_the_previous_agentactions/) , 2024-02-11-0911
+all -  [ Getting access to all the previous AgentActions in a tool. ](https://www.reddit.com/r/LangChain/comments/1amuf4y/getting_access_to_all_the_previous_agentactions/) , 2024-02-12-0910
 ```
 Let's say I have a summarization tool that is supposed to summarize the output from different previous tools (like Wikip
 edia, Google Search whatever) and I want to get the results from all the previous tools in this tool. How do I get this?
@@ -384,7 +525,7 @@ edia, Google Search whatever) and I want to get the results from all the previou
 
      
  
-all -  [ SENIOR ML Engineer - 100% Remote (+ every other friday off!) ](https://www.reddit.com/r/MachineLearningJobs/comments/1amn92z/senior_ml_engineer_100_remote_every_other_friday/) , 2024-02-11-0911
+all -  [ SENIOR ML Engineer - 100% Remote (+ every other friday off!) ](https://www.reddit.com/r/MachineLearningJobs/comments/1amn92z/senior_ml_engineer_100_remote_every_other_friday/) , 2024-02-12-0910
 ```
 APPLY HERE: [https://grnh.se/50c178c17us](https://grnh.se/50c178c17us)
 
@@ -443,7 +584,7 @@ ow into different industries with a modern tech stack
 
      
  
-all -  [ Text-to-SQL with extremely complex schema ](https://www.reddit.com/r/LangChain/comments/1amlftk/texttosql_with_extremely_complex_schema/) , 2024-02-11-0911
+all -  [ Text-to-SQL with extremely complex schema ](https://www.reddit.com/r/LangChain/comments/1amlftk/texttosql_with_extremely_complex_schema/) , 2024-02-12-0910
 ```
 I am developing a text-to-sql project with llms  and sql server. where user will ask question in natural language and ll
 ms will wrtie sql query, run it on my database and then give me result in natural language. The problem is schema of dat
@@ -457,7 +598,7 @@ ime to execute as well. is there any other way?
 
      
  
-all -  [ How to tackle token limit issue with RAG ](https://www.reddit.com/r/LangChain/comments/1amktb2/how_to_tackle_token_limit_issue_with_rag/) , 2024-02-11-0911
+all -  [ How to tackle token limit issue with RAG ](https://www.reddit.com/r/LangChain/comments/1amktb2/how_to_tackle_token_limit_issue_with_rag/) , 2024-02-12-0910
 ```
 I am running a RAG with GPT 3.5 Turbo Instruct. But since the context is large it is having issues with the token limit.
  How to deal with this?
@@ -466,7 +607,7 @@ I am running a RAG with GPT 3.5 Turbo Instruct. But since the context is large i
 
      
  
-all -  [ RAG does not stop Hallucinations ](https://www.reddit.com/r/LangChain/comments/1amjc9g/rag_does_not_stop_hallucinations/) , 2024-02-11-0911
+all -  [ RAG does not stop Hallucinations ](https://www.reddit.com/r/LangChain/comments/1amjc9g/rag_does_not_stop_hallucinations/) , 2024-02-12-0910
 ```
 Hi,
 
@@ -542,7 +683,7 @@ on_penalty': 1.1,
 
      
  
-all -  [ Langchain LlamaCpp max_tokens or max_new_tokens? ](https://www.reddit.com/r/LangChain/comments/1amiy53/langchain_llamacpp_max_tokens_or_max_new_tokens/) , 2024-02-11-0911
+all -  [ Langchain LlamaCpp max_tokens or max_new_tokens? ](https://www.reddit.com/r/LangChain/comments/1amiy53/langchain_llamacpp_max_tokens_or_max_new_tokens/) , 2024-02-12-0910
 ```
 Hi,
 
@@ -585,7 +726,7 @@ ue,`
 
      
  
-all -  [ Two LLM models ](https://www.reddit.com/r/LangChain/comments/1amitx2/two_llm_models/) , 2024-02-11-0911
+all -  [ Two LLM models ](https://www.reddit.com/r/LangChain/comments/1amitx2/two_llm_models/) , 2024-02-12-0910
 ```
 Hello!  
 I am building an application which main point is to help users improve the code of loaded projects.  I've build
@@ -600,7 +741,7 @@ Any help would be appreciated, thanks
 
      
  
-all -  [ Need help working with SQL And LangChain. ](https://www.reddit.com/r/LangChain/comments/1amdj3k/need_help_working_with_sql_and_langchain/) , 2024-02-11-0911
+all -  [ Need help working with SQL And LangChain. ](https://www.reddit.com/r/LangChain/comments/1amdj3k/need_help_working_with_sql_and_langchain/) , 2024-02-12-0910
 ```
 Hi,  
 I want to use the database as a knowledge base but don't want LangChain to execute queries on the database because
@@ -610,7 +751,7 @@ I want to use the database as a knowledge base but don't want LangChain to execu
 
      
  
-all -  [ Consigli su CV ](https://www.reddit.com/r/ItaliaCareerAdvice/comments/1am87uk/consigli_su_cv/) , 2024-02-11-0911
+all -  [ Consigli su CV ](https://www.reddit.com/r/ItaliaCareerAdvice/comments/1am87uk/consigli_su_cv/) , 2024-02-12-0910
 ```
 Ciao ragazzi, al momento sto cercando lavoro come data scientist/AI specialist, e questo è il mio CV. Su 10 apply nell'u
 ltimo mese, ho ricevuto solo due risposte, una positiva (fingers crossed per il colloquio mercoledì) e una negativa. Com
@@ -631,7 +772,7 @@ https://preview.redd.it/21qcciwwtfhc1.png?width=805&format=png&auto=webp
 
      
  
-all -  [ Summarizing past messages in an RAG conversation - is it always recommended? ](https://www.reddit.com/r/LangChain/comments/1am5nsd/summarizing_past_messages_in_an_rag_conversation/) , 2024-02-11-0911
+all -  [ Summarizing past messages in an RAG conversation - is it always recommended? ](https://www.reddit.com/r/LangChain/comments/1am5nsd/summarizing_past_messages_in_an_rag_conversation/) , 2024-02-12-0910
 ```
 Is there a consensus in terms of the quality of the AI response, between keeping the chat history in the memory as is, o
 r summarizing it using ConversationSummaryMemory? 
@@ -647,7 +788,7 @@ worse answers, but wondering how the community feels about this topic.
 
      
  
-all -  [ Data Science and Machine Learning Books Recommendation Chatbot ](https://www.reddit.com/r/learndatascience/comments/1am2nxa/data_science_and_machine_learning_books/) , 2024-02-11-0911
+all -  [ Data Science and Machine Learning Books Recommendation Chatbot ](https://www.reddit.com/r/learndatascience/comments/1am2nxa/data_science_and_machine_learning_books/) , 2024-02-12-0910
 ```
   
 
@@ -682,7 +823,7 @@ Cheers
 
      
  
-all -  [ Data Science and Machine Learning Books Recommendation Chatbot ](https://www.reddit.com/r/learnmachinelearning/comments/1am2mi4/data_science_and_machine_learning_books/) , 2024-02-11-0911
+all -  [ Data Science and Machine Learning Books Recommendation Chatbot ](https://www.reddit.com/r/learnmachinelearning/comments/1am2mi4/data_science_and_machine_learning_books/) , 2024-02-12-0910
 ```
 Hi Redditors,
 
@@ -713,7 +854,7 @@ Cheers
 
      
  
-all -  [ Data Science and Machine Learning Books Recommendation Chatbot Project ](https://www.reddit.com/r/datascienceproject/comments/1am2l84/data_science_and_machine_learning_books/) , 2024-02-11-0911
+all -  [ Data Science and Machine Learning Books Recommendation Chatbot Project ](https://www.reddit.com/r/datascienceproject/comments/1am2l84/data_science_and_machine_learning_books/) , 2024-02-12-0910
 ```
 Hi Redditors, 
 
@@ -750,7 +891,7 @@ Cheers
 
      
  
-all -  [ review of 10 ways to run LLMs locally ](https://www.reddit.com/r/LocalLLaMA/comments/1am0p48/review_of_10_ways_to_run_llms_locally/) , 2024-02-11-0911
+all -  [ review of 10 ways to run LLMs locally ](https://www.reddit.com/r/LocalLLaMA/comments/1am0p48/review_of_10_ways_to_run_llms_locally/) , 2024-02-12-0910
 ```
 Hey LocalLLaMA,
 
@@ -809,7 +950,7 @@ Thanks!
 
      
  
-all -  [ I Made an Open-Source Pinecone DB AWS Construct 🏗️ ](https://www.reddit.com/r/LangChain/comments/1aly0xv/i_made_an_opensource_pinecone_db_aws_construct/) , 2024-02-11-0911
+all -  [ I Made an Open-Source Pinecone DB AWS Construct 🏗️ ](https://www.reddit.com/r/LangChain/comments/1aly0xv/i_made_an_opensource_pinecone_db_aws_construct/) , 2024-02-12-0910
 ```
 Managing Pinecone deployments is a thing of the past!!! 💃
 
@@ -835,7 +976,7 @@ uct)
 
      
  
-all -  [ RAG Accuracy ](https://www.reddit.com/r/LangChain/comments/1alus6s/rag_accuracy/) , 2024-02-11-0911
+all -  [ RAG Accuracy ](https://www.reddit.com/r/LangChain/comments/1alus6s/rag_accuracy/) , 2024-02-12-0910
 ```
 I am creating a RAG program where I used 20 pdfs which contains lease agreement of different tenants.
 
@@ -905,178 +1046,7 @@ What process do you follow for better results?
 
      
  
-all -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-02-11-0911
-```
-Embark on a journey through the digital cosmos with WebVoyager, a groundbreaking Large Multimodal Model (LMM) web agent 
-designed to navigate the vastness of the online universe. In collaboration with Langchain, WebVoyager represents a parad
-igm shift in autonomous web agents, seamlessly integrating visual and textual information to complete user instructions 
-end-to-end by interacting with real-world websites.
-
-Link: [https://medium.com/@andysingal/webvoyager-navigating-digital
--cosmos-with-langgraph-multimodal-models-dace64196c2f](https://medium.com/@andysingal/webvoyager-navigating-digital-cosm
-os-with-langgraph-multimodal-models-dace64196c2f)
-```
----
-
-     
- 
-all -  [ How to apply a metadata filter in Annoy by Spotify? ](https://www.reddit.com/r/LangChain/comments/1als4n1/how_to_apply_a_metadata_filter_in_annoy_by_spotify/) , 2024-02-11-0911
-```
-I am trying to filter the documents based on the metadata filter. However, I am not sure how to do it using the Langchai
-n Annoy module.
-
-I have a source in metadata, even though I applied the filter it is returning all the docs and not filt
-ering them.
-
-    # Load the vector db vectordb = Annoy.load_local(PERSIST_DIRECTORY, embeddings=embedding) 
-    # Query 
-Annoy docs = vectordb.similarity_search('how to do X?', k=2, filter={'source': 'news'})
-```
----
-
-     
- 
-all -  [ Create Custom Document Loader ](https://www.reddit.com/r/LangChain/comments/1alrd96/create_custom_document_loader/) , 2024-02-11-0911
-```
-Hi,
-
-I want to create my own custom document loader, like the IMSDB one for example:
-
-[https://github.com/langchain-ai/l
-angchain/blob/00a09e1b7117f3bde14a44748510fcccc95f9de5/libs/community/langchain\_community/document\_loaders/imsdb.py#L8
-](https://github.com/langchain-ai/langchain/blob/00a09e1b7117f3bde14a44748510fcccc95f9de5/libs/community/langchain_commu
-nity/document_loaders/imsdb.py#L8)
-
-The main reason I want to do this is to only extract the data I need from a web page
-, and not the whole thing, to improve accuracy.
-
-If I wrote a script like [imsdb.py](https://imsdb.py), how could I tell
- my Python script to use it? Maybe there's already a tutorial for this online? I couldn't find anytning from a quick sea
-rch.
-
-Thanks
-```
----
-
-     
- 
-all -  [ Langsmith prompts ](https://www.reddit.com/r/LangChain/comments/1alqrzy/langsmith_prompts/) , 2024-02-11-0911
-```
-Hey guys, so I've made a new chatPromptTemplate and once I did the first commit to it, I am unable to go back into the a
-rtifact playground and modify the prompt. Which is weird cause I can edit my other prompts, for this specific prompt I g
-et ' **Message 0 had extra kwargs: additional\_kwargs** ' when I hover over the playground button. Any help would be gre
-at
-
-&#x200B;
-
-EDIT: just for reference the prompt im having issue with is  **thecodingbarista/documentgenerator** on the
- langsmith hub
-```
----
-
-     
- 
-all -  [ Help needed with vector database ](https://www.reddit.com/r/LangChain/comments/1alq3to/help_needed_with_vector_database/) , 2024-02-11-0911
-```
-Hello everyone,
-
-I recently completed a project that involved using the FAISS vector database. I utilized lang-chain for
- storing embeddings in the vector database, which were generated from PDF files. For the purpose of the project, it was 
-sufficient to store all the information without separating the storage according to users. 
-
-What I want to know is - wh
-en a user uploads a PDF, can I create an embedding for it and store it in the vector database, allowing me to query the 
-embeddings for **that** user later on. This ensures that the generated output is accurate and privacy is also maintained
-. I was wondering, can I do that? If so, how?
-
-I really appreciate any help!
-```
----
-
-     
- 
-all -  [ How to use nemo-guardrails? how to know that is not policy violation and then to pass query to prima ](https://www.reddit.com/r/LangChain/comments/1alpm95/how_to_use_nemoguardrails_how_to_know_that_is_not/) , 2024-02-11-0911
-```
-My question is simple, I am not able to figure out, how to integrate nemo-guardrails in my current RAG applications with
-out completely changing structure. It should return 0 or 1 based on whether user is query is valid or not. how can I get
- it to this?
-```
----
-
-     
- 
-all -  [ Extracting Table using PDFPlumber but not extracting Text that has background color ](https://www.reddit.com/r/LangChain/comments/1allnji/extracting_table_using_pdfplumber_but_not/) , 2024-02-11-0911
-```
-Hello, community,
-
-In the section with a color background, the text is not extracting checked all parameters of main fun
-ction for extracting text from the table in Python, pddplumber, unstructured. What recommendation do you have?
-
-https://
-preview.redd.it/2ofmdidh1ahc1.jpg?width=778&format=pjpg&auto=webp&s=bc6d1e50cfaeba5dd5e6ca9ce765eb4923973768
-```
----
-
-     
- 
-all -  [ Question about LLM output parsing ](https://www.reddit.com/r/LangChain/comments/1aljkdj/question_about_llm_output_parsing/) , 2024-02-11-0911
-```
-When generating code-related output from an LLM like python functions, sql queries, etc. a lot of times the LLM wraps th
-e code between triple quotes like this:
-
-    ```python
-      blah
-    ```
-
-Is there an output parser or extractor compon
-ent or anything that can help with extracting these segments and ignoring all the fluff around it?
-```
----
-
-     
- 
-all -  [ Opeansearch vector db use in rag ](https://www.reddit.com/r/LangChain/comments/1alilwn/opeansearch_vector_db_use_in_rag/) , 2024-02-11-0911
-```
-Hi All
-
-Question, After creating my vector database of entire 100docs, i want  how to this vector database in seperate c
-lient progran. How shall I do it? I using aws opensearch servless for vector db
-```
----
-
-     
- 
-all -  [ llama2 / mistral function calling? ](https://www.reddit.com/r/LocalLLaMA/comments/1alcjvq/llama2_mistral_function_calling/) , 2024-02-11-0911
-```
-Hello,
-
-I've set up a llama2-7b as well as a llama2-13b with some faiss search and retrieval. 
-
-My next step is to try a
-nd recreate the function calling capabilities of chat gpt. 
-
-What would be some ways of achieving that? Right now my bes
-t option is to use langchain and chain together a model finetuned for function calling, and another one for synthesis.
-
-
-Could you recommend something better?
-
-Thanks!
-```
----
-
-     
- 
-all -  [ Recommendation system using LLMs ](https://www.reddit.com/r/generativeAI/comments/1al81nh/recommendation_system_using_llms/) , 2024-02-11-0911
-```
-Checkout how I developed a recommendation system using LangChain and LLMs https://youtu.be/WW0q8jjsisQ?si=9JI24AIj822N9z
-JK
-```
----
-
-     
- 
-MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-11-0911
+MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-12-0910
 ```
 I've tried things like langchain in the past (6-8 months ago) but they were cumbersome and didn't work as expected.
 
@@ -1094,7 +1064,7 @@ ing RAG (compared to 6 months ago)
 
      
  
-MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-11-0911
+MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-12-0910
 ```
 Hey Reddit, I've been applying for jobs and found that writing a cover letter for each position was tedious. I also delv
 ed into LLM and Langchain, hoping to leverage them for a project to aid in my job hunting. So, I developed Anukool under
@@ -1111,7 +1081,7 @@ ithub.com/dakshesh14/anukool
 
      
  
-MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-02-11-0911
+MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-02-12-0910
 ```
 I saw that DataStax/Astra DB [just released a new Data API to help with building production GenAI and RAG applications](
 https://www.datastax.com/blog/general-availability-data-api-for-enhanced-developer-experience). This API makes the prove
@@ -1126,7 +1096,7 @@ build-a-real-time-rag-app-on-wikipedia-with-langchain-and-vercel)
 
      
  
-MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-02-11-0911
+MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-02-12-0910
 ```
 I am working on a client project and I am using langchain's tools and agents. I want to know if the data is getting pass
 ed to openai or is it just like that - Output of one function is being directly passed to the second function with the k
@@ -1136,7 +1106,7 @@ nowledge of openai.
 
      
  
-MachineLearning -  [ [D] Code vs JSON output for LLM agents? Frameworks like LangChain rely on LLMs responding with JSON  ](https://www.reddit.com/r/MachineLearning/comments/197f416/d_code_vs_json_output_for_llm_agents_frameworks/) , 2024-02-11-0911
+MachineLearning -  [ [D] Code vs JSON output for LLM agents? Frameworks like LangChain rely on LLMs responding with JSON  ](https://www.reddit.com/r/MachineLearning/comments/197f416/d_code_vs_json_output_for_llm_agents_frameworks/) , 2024-02-12-0910
 ```
 [CaP](https://arxiv.org/pdf/2209.07753.pdf), [Voyager](https://arxiv.org/pdf/2305.16291.pdf), [Octopus](https://arxiv.or
 g/abs/2310.08588)
@@ -1178,7 +1148,22 @@ e of any experiments that compare these two approaches against each other?
 
      
  
-deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-11-0911
+deeplearning -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-02-12-0910
+```
+Embark on a journey through the digital cosmos with WebVoyager, a groundbreaking Large Multimodal Model (LMM) web agent 
+designed to navigate the vastness of the online universe. In collaboration with Langchain, WebVoyager represents a parad
+igm shift in autonomous web agents, seamlessly integrating visual and textual information to complete user instructions 
+end-to-end by interacting with real-world websites.
+
+Link: [https://medium.com/@andysingal/webvoyager-navigating-digital
+-cosmos-with-langgraph-multimodal-models-dace64196c2f](https://medium.com/@andysingal/webvoyager-navigating-digital-cosm
+os-with-langgraph-multimodal-models-dace64196c2f)
+```
+---
+
+     
+ 
+deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-12-0910
 ```
 In the dynamic realm of natural language processing, a revolutionary synergy has emerged between Langchain and Step-Back
  Prompting. This article delves into the transformative collaboration, exploring how Langchain’s cutting-edge platform i
@@ -1195,7 +1180,7 @@ k-prompting-using-ragatouille-b433e6f200ea
 
      
  
-deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-11-0911
+deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-12-0910
 ```
 Just sharing a free series I stumbled across on Linkedin - DataCamp's 9-part AI code-along series.
 
@@ -1215,7 +1200,7 @@ Find
 
      
  
-deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-11-0911
+deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-12-0910
 ```
 DSPy is the next big advancement for AI and building applications with LLMs!
 
