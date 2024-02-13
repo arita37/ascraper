@@ -1,5 +1,723 @@
  
-all -  [ Langchain powered search ](https://www.reddit.com/r/LangChain/comments/1aojxqa/langchain_powered_search/) , 2024-02-12-0910
+all -  [ Whats in your RAG setup? ](https://www.reddit.com/r/LocalLLaMA/comments/1apcqq4/whats_in_your_rag_setup/) , 2024-02-13-0910
+```
+What frameworks and libraries are you using in your RAG? 
+
+I'm most curious if  LangChain is as popular as it was?
+
+Here
+'s mine at a high-level: 
+
+*  langchain to use OpenAI for creating embeddings
+* Pinecone for storing embedding
+* langcha
+in to load document splitters and characters splitters for chunking
+* Mongo for conversations memory
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Whats your RAG setup? ](https://www.reddit.com/r/LLMDevs/comments/1apcmxt/whats_your_rag_setup/) , 2024-02-13-0910
+```
+What frameworks and libraries are you using in your RAG? 
+
+I'm most curious if  LangChain is as popular as it was?
+
+Here
+'s mine at a high-level: 
+
+*  langchain to use OpenAI for creating embeddings
+* Pinecone for storing embedding
+* langcha
+in to load document splitters and characters splitters for chunking
+* Mongo for conversations memory
+
+&#x200B;
+
+&#x200B;
+
+```
+---
+
+     
+ 
+all -  [ LlamaIndex or LangChain with LlamaIndex for RAG with documents ](https://www.reddit.com/r/LocalLLaMA/comments/1ap7hrt/llamaindex_or_langchain_with_llamaindex_for_rag/) , 2024-02-13-0910
+```
+My goal is to create a chatbot to do Q&As with documents. Do I need to learn both LangChain and LlamaIndex? Or just Llam
+aIndex would be sufficient? In other words, for my intended applications, what will I miss if I just use LlamaIndex with
+out LangChain? Thanks.
+```
+---
+
+     
+ 
+all -  [ Please help on some technical questions re: building a RAG chatbot system ](https://www.reddit.com/r/LangChain/comments/1ap6waq/please_help_on_some_technical_questions_re/) , 2024-02-13-0910
+```
+ Hi I am attempting to build a end-to-end chatbot (using Langchain) with retrieval functionality with basically 0 LLM ex
+perience and I would really appreciate it if I can get some tips. High-level speaking I am trying to build a chatbot tha
+t I can program with natural language instructions and have the bot retrieve the right information based on natural lang
+uage instructions.
+
+Basically the architecture of the RAG chatbot includes the following components:
+
+* **Client:** Rece
+ives query from the user.
+* **Instruction module:** Conditional statements in natural language format such as 'if user a
+sks about X, then go to Y website and download Z'.
+* **Retrieval module:** Takes programmatic instructions based on the 
+Instruction module and fetch the instructed data.
+* **Interpreter module:**  
+
+
+1. Analyzes user query to fetch relevant
+ instructions from the Instruction module, if none found then skip
+
+* 2) Translates relevant instructions from natural l
+anguage to programmatic instructions
+* 3) Send the programmatic instructions to the Retrieval module and initiate a proc
+ess chain for getting the right data
+* 4) Pass along the user query along with the fetched data to the LLM for analysis.
+
+
+**Some questions I have are:**
+
+* First is this even a reasonable or realistic architecture?
+* What's the best way to 
+build functions 1, 2, and 3 for the interpreter module?
+* Do you have any recommended frameworks, processes, and archite
+cture that can better achieve the intended functionalities?
+```
+---
+
+     
+ 
+all -  [ Evaluate my resume - Data Scientist positions, aiming for MAANGs. ](https://i.redd.it/20528f0u37ic1.jpeg) , 2024-02-13-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ Just found ctransformers doesn't work with Tokenizer ](https://www.reddit.com/r/LocalLLaMA/comments/1ap5xgl/just_found_ctransformers_doesnt_work_with/) , 2024-02-13-0910
+```
+I was looking for how to get the tokenizer from a GGUF model and realized it (almost) doesn't actually work.
+
+Came acros
+s this documentation on ctransformers ([https://pypi.org/project/ctransformers/#langchain](https://pypi.org/project/ctra
+nsformers/#langchain)):
+
+ 
+
+>To use it with 🤗 Transformers, create model and tokenizer using:  
+>  
+>`from ctransformers
+ import AutoModelForCausalLM, AutoTokenizer model = AutoModelForCausalLM.from_pretrained('marella/gpt-2-ggml', hf=True) 
+tokenizer = AutoTokenizer.from_pretrained(model)` 
+
+I thought: 'Sweet, that's pretty easy!' But when I run it, `AutoToke
+nizer.from_pretrained(model)` throws NotImplementedError.
+
+https://preview.redd.it/66ic68kbw6ic1.png?width=1660&format=p
+ng&auto=webp&s=a7652d0e36fc43882ec98957183f2c9c1a93d27f
+
+  
+Further search led me to [https://github.com/marella/ctransf
+ormers/issues/184](https://github.com/marella/ctransformers/issues/184), which is this exact issue raised on ctransforme
+rs repo back in Dec 2023. I haven't tried this but according to this the only solution is to downgrade transformers lib 
+to 4.33, which rips a lot of features off. Also it looks like the not implemented error has been there all the time. Not
+ sure what caused that breakage.
+
+Just want to share my findings since it's pretty disappointing to find that such basic
+ function is not working :(
+```
+---
+
+     
+ 
+all -  [ Control token size of a tool ](https://www.reddit.com/r/LangChain/comments/1ap2rr3/control_token_size_of_a_tool/) , 2024-02-13-0910
+```
+I have an agent which uses a custom tool to search and provide an output, my problem. Is many times the output of the to
+ol which is being passes to. The llm surpasses the token limit, is there away to chunk the output of the tool and gather
+ the responses and send the whole responses to the user?
+```
+---
+
+     
+ 
+all -  [ LangChain playlist with 60 tutorials ](https://www.reddit.com/r/learnmachinelearning/comments/1ap1uy7/langchain_playlist_with_60_tutorials/) , 2024-02-13-0910
+```
+Hey everyone, check out this LangChain (generative AI framework) playlist comprising of 60 tutorials explaining everythi
+ng from scratch
+https://youtube.com/playlist?list=PLnH2pfPCPZsKJnAIPimrZaKwStQrLSNIQ&si=8bXhqED-NiVITZK9
+```
+---
+
+     
+ 
+all -  [ Agents vs Chains ](https://www.reddit.com/r/generativeAI/comments/1ap1hf2/agents_vs_chains/) , 2024-02-13-0910
+```
+Hey everyone, check out how Agents are different from chains in LangChain in this new tutorial: https://youtu.be/A3Gm6KP
+xy4k
+```
+---
+
+     
+ 
+all -  [ AI document jury ](https://www.reddit.com/r/LangChain/comments/1ap0pbx/ai_document_jury/) , 2024-02-13-0910
+```
+I need to make an AI that can judge a document based on some criteria. The criteria can be like:
+- The document explains
+ the market segmentation efficiently 
+- The document mentions how market works and explaining each type of markets.
+
+The
+ AI will judge the document based on above criteria and will give a score. 
+This is just a topic for example and the cri
+teria and the document can be for other topics.
+
+I have created a chatbot using RAG but for this one I still don't have 
+a clue for the approach. Mainly because with chatbot, I retrieve like 5 nearest chunks by cosine similarity while for th
+is one, I don't think retrieving nearest chunks by cosine similarity to the question will return all the chunks for the 
+document part the criteria needs to judge. And I can't just give the LLM all chunks from the document right? Any advice 
+for this one? Any help would be really appreciated.
+```
+---
+
+     
+ 
+all -  [ RAG Chatbot locally, beginner here ](https://www.reddit.com/r/LangChain/comments/1ap0fce/rag_chatbot_locally_beginner_here/) , 2024-02-13-0910
+```
+Hey, I'm a langChain beginner and I want to build an Chatbot application which will retrieve and run llm locally. I am u
+sing Chroma to create and fetch from the vectorstore, and using Llama-7b for the llm. I want to use langserve and so i c
+reate a server with the chain. I now will use streamlit to listen to that port and invoke the chain. I am stuck, because
+ I am confused on how to store memory. I dont want to store it in the langchain server (as it would stored for every use
+r the same. Correct me if I am wrong). So I want to store it in streamlit session state somehow and use buffer window in
+ the langchain server. I am now very confused on what I should do. Need help, thanks!
+```
+---
+
+     
+ 
+all -  [ What happens if we send nodes again to chrome vector store ](https://www.reddit.com/r/LangChain/comments/1ap036k/what_happens_if_we_send_nodes_again_to_chrome/) , 2024-02-13-0910
+```
+If I have executed this code once and then run it again with different nodes. So what happens
+1) does the new nodes get 
+replaced by the older ones
+2) it compares the new and older nodes and insert only those nodes that are new, keeping the 
+older intact
+3) it doesnt check and insert all the nodes(newer as well as older ones
+
+
+import chromadb
+chroma_client = c
+hromadb.HttpClient(host='host', port=8000,)
+from llama_index.vector_stores import ChromaVectorStore
+from llama_index.pos
+tprocessor.cohere_rerank import CohereRerank
+chroma_collection = chroma_client.get_or_create_collection('collection')
+ve
+ctor_store6 = ChromaVectorStore(chroma_collection=chroma_collection)
+storage_context6 = StorageContext.from_defaults(vec
+tor_store=vector_store6)
+index7 = VectorStoreIndex(nodes=nodes, storage_context=storage_context6, service_context=servic
+e_context)
+```
+---
+
+     
+ 
+all -  [ Website Scraping: Automatic CSS-Selector identification of the main textual content ](https://www.reddit.com/r/LangChain/comments/1aozqzh/website_scraping_automatic_cssselector/) , 2024-02-13-0910
+```
+The HTML code of many websites is very complicated. This is mainly because HTML is a markup language that is a mix of st
+ructural, styling and text elements. It is also because many websites are overloaded with HTML tags and CSS instructions
+. 
+
+As a result, it can be a challenge to **identify the area** in the HTML code that represents **the main textual cont
+ent** (e.g. for text extraction, vector databases or RAG applications).
+
+In the following article, I show a **statistica
+l-algorithmic approach** on how to determine the CSS selector(s) that represent the main content and filter out negligib
+le elements.
+
+https://developers-blog.org/python-website-scraping-automatic-selector-identification/
+
+![enter image desc
+ription here](https://developers-blog.org/wp-content/uploads/2024/02/visuzalisation-star-page-html-structure-and-depende
+ncies-tree-54.png)
+```
+---
+
+     
+ 
+all -  [ Auto ai agent apps suggestion or something else? ](https://www.reddit.com/r/ChatGPT/comments/1aowboq/auto_ai_agent_apps_suggestion_or_something_else/) , 2024-02-13-0910
+```
+Please can you guide me towards a solution to learn for two projects?
+
+**Request 1:**
+
+**TLDR: Best easy UI app currentl
+y for multi ai agent chained output to prompt auto workflow to assemble a larger prompt response output content (researc
+h) document for each item line item (initia input to agent 1) in a google sheet or form input?**
+
+Can you advise what is
+ the easiest to use ai agent app with GUI that works on windows (python is ok if i must and ideally has some GUI but if 
+there is an epic one without ill use it) to setup a step by step workflow easily that can take an initial input like a g
+oogle sheet as the context and the first agent with use it plus its instructions and it will start its part of compiling
+ a research report which is basically just prompt plus input and then sent result to the next agent who will use its out
+put and their instructions to get more data and so on.   
+
+
+So just steps and agents chained together one after the othe
+r to fetch responses from the llm or their own tasks building on previous outputs, chatgpt API and I end up with a longe
+r 5-10 page file of the output as a research report in chapters and it will do this report for each line in the google s
+heet automatically and run as long as it needs to until its done? Like one of these? Autogen studio, Crewai, Chatdev, ai
+agent dot app, llmstack, leapai. mindpal dot space has a nice multi agent assembly flow builder but no api input and out
+put. Also something that can work with large documents well as inputs iedally for later project.
+
+**Request 2:** **What 
+is the best agent or bot large file handler/chat/processing app or stack where I can carefully auto scour multiple large
+ documents and pull information from then all effectively** around a certain topic and create a long topic specific docu
+ment for me just focused on the teaching on that subject pulled from the other large documents in a useful structured wa
+y to make sense.
+
+I guess agents that chat with eachother like a research project and it will make it easier as the data
+ gets pulled in and they decide its context and where it must be in the new document and how its integrated with the res
+t of the data pulled so far and then 1 but that keeps extracting new data from all the documents in a ongoing logical wa
+y from the first to the last. Tried chat with do aps but output too small and cant automate workflows or multi agents.
+
+
+What are the best tools for working with large documents currently, creating and extracting topical info for reseaand st
+udy? Privategpt,, llama\_index, memgpt, langchain etc?
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Agent app suggestions please for 2 use cases ](https://www.reddit.com/r/AutoGPT/comments/1aovry9/agent_app_suggestions_please_for_2_use_cases/) , 2024-02-13-0910
+```
+Please can you guide me towards a solution to learn for two projects?
+
+**Request 1:**
+
+**TLDR: Best easy UI app currentl
+y for multi ai agent chained output to prompt auto workflow to assemble a larger prompt response output content (researc
+h) document for each item input item in a google sheet or form input?**
+
+Can you advise what is the easiest to use ai ag
+ent app with GUI that works on windows (python is ok if i must and ideally has some GUI but if there is an epic one with
+out ill use it) to setup a step by step workflow easily that can take an inital input like a google sheet as the context
+ and the first agent with use it plus its instructions and it will start its part of compiling a research report which i
+s basically just prompt plus input and then sent result to the next agent who will use its output and their instructions
+ to get more data and so on.   
+
+
+So just steps and agents chained together one after the other to fetch responses from 
+the llm or their own tasks building on previous outpits, chatgpt API and I end up with a longer 5-10 page file of the ou
+tput as a research report in chapters and it will do this report for each line in the google sheet automatically and run
+ as long as it needs to until its done? Like one of these? Autogen studio, Crewai, Chatdev, aiagent dot app, llmstack, l
+eapai. mindpal dot space has a nice multi agent assembly flow builder but no api input and output. Also sometjing tha ca
+n wrk with large documents well as inputs iedally for later project.
+
+**Request 2:** **What is the best agent or bot lar
+ge file handler/chat/processing app or stack where I can carefully auto scour multiple large documents and pull informat
+ion from then all effectively** around a certain topic and create a long topic specific document for me just focused on 
+the teaching on that subject pulled from the other large documents in a useful structured way to make sense.
+
+I guess ag
+ents that chat with eachother like a research project and it will make it easier as the data gets pulled in and they dec
+ide its context and where it must be in the new document and how its integrated with the rest of the data pulled so far 
+and then 1 but that keeps extracting new data from all the documents in a ongoing logical way from the first to the last
+. Tried chat with do aps but output too small and cant automate workflows or multi agents.
+
+What are the best tools for 
+working with large documents currently, creating and extracting topical info for reseaand study? Privategpt,, llama\_ind
+ex, memgpt, langchain etc?
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ consistent memory ](https://www.reddit.com/r/Chatbots/comments/1aovrtd/consistent_memory/) , 2024-02-13-0910
+```
+Hello, I'm at the final steps in developing a chatbot using langchain, I'm facing a problem tho, when I run my chatbot o
+n VS code, it forgets the previous conversation, however this does not happen on Jupyter Notebook, I've searched up and 
+my problem might be variables consistency, is there a way to make it persistent in remembering previous conversation??  
+
+If you guys think another problem might be the cause please tell me about it.  
+Any help would be appreciated.  
+Thanks
+!
+```
+---
+
+     
+ 
+all -  [ Verbose for LCEL and for new agents (LangChain 0.1.0) ](https://www.reddit.com/r/LangChain/comments/1aovp1n/verbose_for_lcel_and_for_new_agents_langchain_010/) , 2024-02-13-0910
+```
+While working with LCEL and the newer way of handling agents in LangChain 0.1.0 i was wondering why verbose=true cant be
+ set anymore. It was very useful for debugging and understanding the thought process of the agent. I know about the call
+back handlers but i was wondering if there is a better and cleaner way, like the verbose=true in legacy LangChain.
+```
+---
+
+     
+ 
+all -  [ Search Product Catalog Images Using Azure Search and Azure OpenAI with LangChain ](https://www.reddit.com/r/AZURE/comments/1aovah9/search_product_catalog_images_using_azure_search/) , 2024-02-13-0910
+```
+ 
+
+In the ever-evolving landscape of retail, businesses are continually seeking innovative solutions to streamline their
+ operations and enhance customer experiences. One such breakthrough is the implementation of artificial intelligence (AI
+) to search product catalog images efficiently. This transformative technology not only simplifies the search process bu
+t also empowers businesses to provide personalized and seamless shopping experiences for their customers. The Need for A
+I in Product Catalog Image Search: Traditional methods of searching through product catalogs involve manual tagging and 
+categorization, which can be time-consuming and prone to human error. As the volume of products in a catalog grows, mana
+ging and searching for specific items becomes a daunting task.  
+Here I have implemented a Fashion agent using Azure Sea
+rch , Cognitive Services and GPT-4 with LangChain which can search product catalog to recommend write product to custome
+r based on the requirement.  
+
+
+[https://medium.com/@manoranjan.rajguru/search-product-catalog-images-using-azure-search
+-and-openai-with-langchain-3a844bc5c27c](https://medium.com/@manoranjan.rajguru/search-product-catalog-images-using-azur
+e-search-and-openai-with-langchain-3a844bc5c27c)
+```
+---
+
+     
+ 
+all -  [ Journalist AI Review 2024 ](https://www.reddit.com/r/geniunereviewed/comments/1aouvr3/journalist_ai_review_2024/) , 2024-02-13-0910
+```
+&#x200B;
+
+[Journalist AI Review 2024](https://preview.redd.it/wa4m5qez14ic1.png?width=1200&format=png&auto=webp&s=765739
+b271e088a16269fc5dcdd845c38f8ff91c)
+
+# Journalist AI Review 2024
+
+**Journalist AI Review 2024: Hype or Hero?** Confused 
+about Journalist AI's capabilities?\\
+
+This in-depth review, based on thorough research, unravels its secrets.
+
+Dive int
+o its strengths, and weaknesses, and discover if it's your 2024 writing partner in crime!
+
+**Key Takeaways:**
+
+&#x200B;
+
+
+* Journalist AI is an AI-powered writing tool designed to assist content creators, journalists, and marketers with gene
+rating high-quality, SEO-optimized content.
+* It offers features such as content generation in various formats, SEO opti
+mization, image generation with Dall-e 3 integration, multilingual support through LangChain, and collaboration tools vi
+a Google Docs integration.
+* Pricing plans cater to individual and team needs, with varying content limits and feature a
+ccess.
+* User reviews highlight strengths like speed, efficiency, and high-quality output, but also mention potential we
+aknesses in factual accuracy and creative control.
+
+## Journalist AI Review 2024: Verdict
+
+**Need fast, SEO-optimized co
+ntent?** Journalist AI delivers, generating articles, blogs, and more. **Accuracy concerns linger,** so fact-checking is
+ crucial. **Team features and image generation shine,** but limited creative control might leave some wanting more. **Id
+eal for budget-conscious content creators comfortable with editing.** Explore alternatives for highly creative or techni
+cal content. **Overall:** A helpful tool, but weigh your needs carefully before diving in.
+
+[Try Journalist Ai Here](htt
+ps://tryjournalist.com/?via=geniunereviewed)
+
+## What is Journalist AI?
+
+Journalist AI is an **AI-powered writing assist
+ant** that leverages advanced algorithms to generate various content formats, including articles, blog posts, product de
+scriptions, social media captions, and more. It is geared towards **content creators, journalists, marketers, and anyone
+** seeking to **improve their content creation efficiency and quality**.
+
+## Key Features of Journalist AI
+
+Journalist A
+I boasts a diverse range of features designed to empower users across the content creation spectrum. Let's explore some 
+of the most notable ones:
+
+### Content Generation
+
+&#x200B;
+
+* **Variety of formats:** Generate content in diverse forma
+ts like articles, blog posts, product descriptions, social media captions, press releases, and more.
+* **AI-powered writ
+ing:** Advanced algorithms analyze your input (topic, keywords, tone) and generate unique, human-quality content.
+* **Cu
+stomizable style and tone:** Tailor your content to specific audiences and brand voices by adjusting the level of formal
+ity, creativity, and humor.
+
+### SEO Optimization
+
+&#x200B;
+
+* **Keyword research:** Identify relevant keywords to targe
+t and optimize your content for search engine ranking.
+* **Meta tag generation:** Automatically generate meta tags and d
+escriptions that align with your target keywords.
+* **Structured data markup:** Include structured data markup to enhanc
+e search engine understanding and rich snippet visibility.
+
+### Image Generation
+
+&#x200B;
+
+* **Dall-e 3 integration:** 
+Leverage Dall-e 3's powerful AI to generate high-quality images that complement your content.
+* **Contextual relevance:*
+* Images are tailored to match your content's theme and topic for improved engagement.
+* **Customization options:** Choo
+se from various image styles and formats to suit your brand identity.
+
+### Multilingual Support
+
+&#x200B;
+
+* **LangChain
+ integration:** Translate your content into multiple languages seamlessly with LangChain's advanced translation technolo
+gy.
+* **Reach wider audiences:** Expand your reach to global audiences by creating multilingual content that resonates w
+ith diverse cultures.
+* **Quality assurance:** Maintain consistent messaging and brand voice across different languages.
+
+
+### Collaboration Tools
+
+&#x200B;
+
+* **Google Docs integration:** Collaborate with team members in real-time by editin
+g and providing feedback within Google Docs.
+* **Streamlined workflows:** Facilitate seamless collaboration and content 
+sharing within teams.
+* **Improved efficiency:** Boost productivity by working together effectively on content projects.
+
+
+## User Reviews and Testimonials (Continued)
+
+**Positive reviews** of Journalist AI frequently highlight its:
+
+&#x200B
+;
+
+* **Speed and efficiency:** Users appreciate the ability to generate content quickly and easily, saving them valuable
+ time and effort.
+* **High-quality output:** Many users commend the quality of the generated text, praising its natural 
+language flow, grammar, and coherence.
+* **Improved SEO:** Content creators value the built-in SEO optimization features
+ that help their content rank higher in search results.
+* **Easy to use interface:** The intuitive interface is lauded f
+or its user-friendliness, making it accessible even for those with limited technical experience.
+
+However, **negative re
+views** sometimes mention:
+
+&#x200B;
+
+* **Factual accuracy:** Concerns exist regarding the potential for factual inaccur
+acies, especially in technical or complex topics.
+* **Limited creative control:** Some users feel restricted by the lack
+ of fine-grained control over the creative aspects of the generated content.
+* **Price:** While some find the pricing pl
+ans affordable, others consider them expensive, especially for individuals or small businesses.
+* **Customer support:** 
+A few users express dissatisfaction with the quality or responsiveness of customer support.
+
+It's important to remember 
+that individual experiences can vary based on specific needs, expectations, and usage patterns. It's recommended to try 
+the free plan or a trial period before committing to a paid subscription.
+
+## Alternatives to Journalist AI
+
+Several oth
+er AI-powered writing tools compete with Journalist AI, each with its own strengths and weaknesses. Here are a few notab
+le alternatives:
+
+&#x200B;
+
+* **Articoolo**: Offers a wider range of content formats and languages, but user reviews men
+tion inconsistencies in quality.
+* **Rytr**: Known for its affordability and user-friendly interface, but may lack custo
+mization options compared to Journalist AI.
+* **Writesonic**: Strong focus on long-form content and marketing copy, but 
+pricing can be higher than Journalist AI.
+* **Wordtune**: Primarily focused on rewriting and rephrasing existing content
+, rather than generating original text.
+
+Exploring these alternatives can help you find the best fit for your specific n
+eeds and budget.
+
+### Strengths and Weaknesses of Journalist AI
+
+**Strengths:**
+
+&#x200B;
+
+* **Content quality:** Journa
+list AI excels at generating grammatically correct, well-structured, and human-quality text that can serve as a solid fo
+undation for further editing and refinement.
+* **SEO optimization:** Built-in keyword research, meta tag generation, and
+ structured data markup features effectively aid in content optimization for search engines, potentially boosting organi
+c traffic.
+* **Multilingual support:** Seamless integration with LangChain empowers content creators to reach global aud
+iences by translating content into multiple languages, preserving brand voice and messaging.
+* **Collaboration tools:** 
+Google Docs integration streamlines team workflows, enabling real-time collaboration and feedback sharing, fostering con
+tent creation efficiency.
+* **Image generation:** Dall-e 3 integration offers a unique advantage, allowing users to crea
+te high-quality, contextually relevant images that enhance content engagement and visual appeal.
+
+**Weaknesses:**
+
+&#x20
+0B;
+
+* **Factual accuracy:** While generally reliable, concerns remain regarding potential factual inaccuracies, especia
+lly in complex or technical domains. Double-checking facts and conducting thorough research are crucial before publishin
+g AI-generated content.
+* **Limited creative control:** Users seeking highly creative or unique content might find the l
+evel of control over style and tone insufficient. Exploring alternative tools with more granular control might be necess
+ary for specific creative needs.
+* **Learning curve:** While the interface is user-friendly, mastering advanced features
+ and achieving optimal results might require some practice and experimentation.
+* **Limited customer support:** User rev
+iews suggest areas for improvement in customer support response time and comprehensiveness. Consulting online resources 
+or communities might be necessary for certain troubleshooting needs.
+* **Pricing:** Some users, particularly individuals
+ or small businesses, might find the paid plans expensive compared to competitors. Carefully evaluating usage needs and 
+budget constraints is essential before subscribing.
+
+It's crucial to remember that strengths and weaknesses are relative
+. Journalist AI's advantages might outweigh its limitations for specific users, while others might find alternative tool
+s more suitable.
+
+### Is Journalist AI Right for You?
+
+Journalist AI can be a valuable tool for various user groups, dep
+ending on their needs and expectations. Here's a breakdown:
+
+&#x200B;
+
+* **Content creators:** Ideal for bloggers, journ
+alists, and marketers seeking to generate high-quality content quickly and efficiently, especially those comfortable wit
+h post-editing to ensure factual accuracy.
+* **Businesses:** Can benefit from SEO-optimized content creation, multilingu
+al support, and team collaboration tools, particularly for marketing and communication teams.
+* **Agencies:** Efficient 
+content generation for client projects can be a time-saver, but careful review and editing are essential to maintain qua
+lity standards.
+* **Non-profit organizations:** Budget-friendly plans and the ability to create content in multiple lang
+uages can be valuable assets for communication and outreach efforts.
+
+However, if you prioritize:
+
+&#x200B;
+
+* **Highly 
+creative content:** Explore tools offering more granular control over style and tone.
+* **Absolute factual accuracy:** C
+onsider tools specifically designed for technical writing or fact-checking.
+* **Extensive customer support:** Opt for to
+ols with readily available and comprehensive support options.
+* **Free or very affordable solutions:** Explore freemium 
+plans or budget-friendly alternatives.
+
+Carefully assess your specific needs and priorities before making a decision.
+
+#
+## FAQs about Journalist AI
+
+**Q: How accurate is the content generated by Journalist AI?**
+
+A: While generally reliable
+, factual accuracy, especially in complex topics, requires careful review and potential fact-checking before publishing.
+
+
+**Q: Does Journalist AI plagiarize content?**
+
+A: Journalist AI uses its own algorithms and does not directly copy con
+tent from other sources. However, it's crucial to use it ethically and responsibly, ensuring originality and citing sour
+ces if necessary.
+
+**Q: Can I use Journalist AI for academic writing?**
+
+A: While it can be a helpful starting point, us
+ing AI-generated content directly in academic writing is generally not recommended due to potential plagiarism concerns.
+ Always consult your instructor and adhere to academic integrity guidelines.
+
+**Q: Does Journalist AI offer a free trial
+?**
+
+A: Yes, Journalist AI offers a free plan with limited content generation capacity. This allows you to test the tool
+ and see if it meets your needs before committing to a paid plan.
+
+**Q: What are the payment options for Journalist AI?*
+*
+
+A: Journalist AI accepts major credit cards and PayPal for paid subscriptions.
+
+**Q: How does Journalist AI compare t
+o other AI writing tools?**
+
+A: Each tool has its strengths and weaknesses. Consider factors like content quality, featu
+res, pricing, and ease of use when comparing options.
+```
+---
+
+     
+ 
+all -  [ let the context to keep track of all the files ](https://www.reddit.com/r/LangChain/comments/1aoulwf/let_the_context_to_keep_track_of_all_the_files/) , 2024-02-13-0910
+```
+Now chatgpt4 can track all the files we just uploaded in a conversation, and we can ask anything about a specific file, 
+such as the name, let the model to search in a specific file.
+
+I am wondering how we can do the same thing using langcha
+in without using openai's retrivel tool?
+
+Thanks in advance.
+```
+---
+
+     
+ 
+all -  [ Search Product Catalog Images Using Azure Search and OpenAI with Langchain ](https://www.reddit.com/r/LangChain/comments/1aou182/search_product_catalog_images_using_azure_search/) , 2024-02-13-0910
+```
+ In the ever-evolving landscape of retail, businesses are continually seeking innovative solutions to streamline their o
+perations and enhance customer experiences. One such breakthrough is the implementation of artificial intelligence (AI) 
+to search product catalog images efficiently. This transformative technology not only simplifies the search process but 
+also empowers businesses to provide personalized and seamless shopping experiences for their customers. The Need for AI 
+in Product Catalog Image Search: Traditional methods of searching through product catalogs involve manual tagging and ca
+tegorization, which can be time-consuming and prone to human error. As the volume of products in a catalog grows, managi
+ng and searching for specific items becomes a daunting task.  
+
+
+Here I have implemented a Fashion agent using Azure Sea
+rch , Cognitive Services and GPT-4 which can search product catalog to recommend write product to customer based on the 
+requirement. 
+
+[https://medium.com/@manoranjan.rajguru/search-product-catalog-images-using-azure-search-and-openai-with-
+langchain-3a844bc5c27c](https://medium.com/@manoranjan.rajguru/search-product-catalog-images-using-azure-search-and-open
+ai-with-langchain-3a844bc5c27c)
+```
+---
+
+     
+ 
+all -  [ Langchain powered search ](https://www.reddit.com/r/LangChain/comments/1aojxqa/langchain_powered_search/) , 2024-02-13-0910
 ```
 I'm looking into LangChain to power search on some inventory. I would like to get parameters for this search from the de
 scription to serve the customer. However, the customer should be able to ask his search query in any possible way, but o
@@ -13,7 +731,7 @@ ls should I consider? The idea is not to provide a response in the chat, but to 
 
      
  
-all -  [ Building AI Chatbot from scratch with Llama2, Langchain and Vector database using RAG workflow ](https://www.reddit.com/r/artificial/comments/1aohn26/building_ai_chatbot_from_scratch_with_llama2/) , 2024-02-12-0910
+all -  [ Building AI Chatbot from scratch with Llama2, Langchain and Vector database using RAG workflow ](https://www.reddit.com/r/artificial/comments/1aohn26/building_ai_chatbot_from_scratch_with_llama2/) , 2024-02-13-0910
 ```
 Pretty detailed one in case any one wants to build one 
 https://youtu.be/V8329yuXHKM
@@ -22,15 +740,7 @@ https://youtu.be/V8329yuXHKM
 
      
  
-all -  [ Libs and Best Practices for Rendering Chatbot Messages ](/r/reactjs/comments/1ao9ntn/libs_and_best_practices_for_rendering_chatbot/) , 2024-02-12-0910
-```
-
-```
----
-
-     
- 
-all -  [ LangChain and .NET ](https://www.reddit.com/r/dotnet/comments/1aoea8o/langchain_and_net/) , 2024-02-12-0910
+all -  [ LangChain and .NET ](https://www.reddit.com/r/dotnet/comments/1aoea8o/langchain_and_net/) , 2024-02-13-0910
 ```
 I'm actively working on developing a new set of AI features available in VS Code, as part of SnippetHub, and next up is 
 improving the context for AI features.
@@ -47,7 +757,7 @@ a NuGet package
 
      
  
-all -  [ Better context with LangChain and VS Code AI coding assistant ](https://www.reddit.com/r/artificial/comments/1aoe4q8/better_context_with_langchain_and_vs_code_ai/) , 2024-02-12-0910
+all -  [ Better context with LangChain and VS Code AI coding assistant ](https://www.reddit.com/r/artificial/comments/1aoe4q8/better_context_with_langchain_and_vs_code_ai/) , 2024-02-13-0910
 ```
 I'm actively working on developing new features for the AI coding assistant, which already has a VS Code extension where
  all the features are available.
@@ -65,7 +775,7 @@ e great if someone could share specific use-cases from production and feedback.
 
      
  
-all -  [ AI Assisted Assistant ](https://www.reddit.com/r/LangChain/comments/1ao7wte/ai_assisted_assistant/) , 2024-02-12-0910
+all -  [ AI Assisted Assistant ](https://www.reddit.com/r/LangChain/comments/1ao7wte/ai_assisted_assistant/) , 2024-02-13-0910
 ```
 Hey everyone, I’m about to build a Assistant which takes input from user like name, email and some other attributes and 
 then check in the database to verify if the info already there or not, but after that it’ll ask some more follow up ques
@@ -80,7 +790,7 @@ elp will be appreciated.
 
      
  
-all -  [ Finetuning Advice? ](https://www.reddit.com/r/LangChain/comments/1ao6rgk/finetuning_advice/) , 2024-02-12-0910
+all -  [ Finetuning Advice? ](https://www.reddit.com/r/LangChain/comments/1ao6rgk/finetuning_advice/) , 2024-02-13-0910
 ```
 I am trying to finetune Llama2 7b on a single T4 GPU using Qlora, I found a lot of resources to help developing the pipe
 line and everything is good, however I noticed something weird, everyone trying to finetune Llama2 7b using this method 
@@ -95,7 +805,7 @@ uning.
 
      
  
-all -  [ Triform - Early Beta - Platform for Hosting and Orchestration of Python Focusing on LangChain ](https://www.reddit.com/r/LangChain/comments/1ao5p68/triform_early_beta_platform_for_hosting_and/) , 2024-02-12-0910
+all -  [ Triform - Early Beta - Platform for Hosting and Orchestration of Python Focusing on LangChain ](https://www.reddit.com/r/LangChain/comments/1ao5p68/triform_early_beta_platform_for_hosting_and/) , 2024-02-13-0910
 ```
 So we just opened up testing of a new platform called Triform. We have 400 registered users already, but still want more
  people to come in and check it out to be able to refine our product before we launch in production.
@@ -115,7 +825,7 @@ Any and all feedback is appreciated!
 
      
  
-all -  [ Multi-model architecture ](https://www.reddit.com/r/LangChain/comments/1ao2qn5/multimodel_architecture/) , 2024-02-12-0910
+all -  [ Multi-model architecture ](https://www.reddit.com/r/LangChain/comments/1ao2qn5/multimodel_architecture/) , 2024-02-13-0910
 ```
 Does it make sense to ask several different llm and then consolidate the answers? If llm are trained on different data, 
 it may help to get more diverse answers and improve results.
@@ -124,7 +834,7 @@ it may help to get more diverse answers and improve results.
 
      
  
-all -  [ Langchain RAG + CrewAI Agent? ](https://www.reddit.com/r/LangChain/comments/1anw9vt/langchain_rag_crewai_agent/) , 2024-02-12-0910
+all -  [ Langchain RAG + CrewAI Agent? ](https://www.reddit.com/r/LangChain/comments/1anw9vt/langchain_rag_crewai_agent/) , 2024-02-13-0910
 ```
 I seem to not be able to wrap my mind around it, but how do you feed a Langchain RAG implementation into an agent framew
 ork like CrewAI? I can use both separately, but I'm not seeing how to combine the two... 
@@ -133,7 +843,7 @@ ork like CrewAI? I can use both separately, but I'm not seeing how to combine th
 
      
  
-all -  [ Metadata retrieval + search ](https://www.reddit.com/r/LangChain/comments/1anuw6i/metadata_retrieval_search/) , 2024-02-12-0910
+all -  [ Metadata retrieval + search ](https://www.reddit.com/r/LangChain/comments/1anuw6i/metadata_retrieval_search/) , 2024-02-13-0910
 ```
 I am. Trying to implement a rag to discuss my data , I use chromadb and conversational retrievalchain. Let's say I uploa
 d 20 documents,. 10 pdfs and 10 texts.  Everytime I aks a question to the ai I want in the answer to add the citation,  
@@ -148,7 +858,7 @@ Thank you for your help
 
      
  
-all -  [ Just got a 4090 24GB, what should I run? ](https://www.reddit.com/r/LocalLLaMA/comments/1anu3m5/just_got_a_4090_24gb_what_should_i_run/) , 2024-02-12-0910
+all -  [ Just got a 4090 24GB, what should I run? ](https://www.reddit.com/r/LocalLLaMA/comments/1anu3m5/just_got_a_4090_24gb_what_should_i_run/) , 2024-02-13-0910
 ```
 I’m upgrading from a 3080 where I messed around with small models.   Anything bigger and better I should try out?
 
@@ -162,7 +872,7 @@ Or maybe something that makes meme pictures of dogs?
 
      
  
-all -  [ So is this sub gonna change its name to langchain-community? ](https://www.reddit.com/r/LangChain/comments/1anlp6l/so_is_this_sub_gonna_change_its_name_to/) , 2024-02-12-0910
+all -  [ So is this sub gonna change its name to langchain-community? ](https://www.reddit.com/r/LangChain/comments/1anlp6l/so_is_this_sub_gonna_change_its_name_to/) , 2024-02-13-0910
 ```
 I suspect this means they are gearing up for a paid subscription release. I updated and see that “langchain” is deprecia
 ted… does this mean they are gearing up for a paid subscription version? *Microsoft Teams Classic has entered the chat *
@@ -172,7 +882,7 @@ ted… does this mean they are gearing up for a paid subscription version? *Micr
 
      
  
-all -  [ I don't understand....? ](https://www.reddit.com/r/LangChain/comments/1ankqzw/i_dont_understand/) , 2024-02-12-0910
+all -  [ I don't understand....? ](https://www.reddit.com/r/LangChain/comments/1ankqzw/i_dont_understand/) , 2024-02-13-0910
 ```
 Okay so when I'm looking at the documentation for langchain openapi toolkit, it is not making sense to me. 
 
@@ -193,7 +903,7 @@ https://python.langchain.com/docs/integrations/toolkits/openapi
 
      
  
-all -  [ pinecone API ](https://www.reddit.com/r/StreamlitOfficial/comments/1anfqit/pinecone_api/) , 2024-02-12-0910
+all -  [ pinecone API ](https://www.reddit.com/r/StreamlitOfficial/comments/1anfqit/pinecone_api/) , 2024-02-13-0910
 ```
 hello, I'm building a rag using langchain and Gemini, I'm stuck tho on the API part, how can I put my API online, I unde
 rstand that you need to create a .env file for local deployment, but how exactly can I put my pinecone API online?
@@ -202,7 +912,7 @@ rstand that you need to create a .env file for local deployment, but how exactly
 
      
  
-all -  [ Gemini + Google Search Agent Curious what you can build yourself in the @Google Gemini era? Spend a  ](https://www.reddit.com/r/chatgpt_newtech/comments/1anebts/gemini_google_search_agent_curious_what_you_can/) , 2024-02-12-0910
+all -  [ Gemini + Google Search Agent Curious what you can build yourself in the @Google Gemini era? Spend a  ](https://www.reddit.com/r/chatgpt_newtech/comments/1anebts/gemini_google_search_agent_curious_what_you_can/) , 2024-02-13-0910
 ```
 Gemini + Google Search Agent   Curious what you can build yourself in the  u/Google  Gemini era? Spend a few minutes wit
 h LangChain  founding engineer  u/eyfriis  and quickly get up and running with a Gemini-powered agent that has access to
@@ -213,7 +923,7 @@ ble=news&wr_id=2157)
 
      
  
-all -  [ Pipeline Vs Modular coding while creating LLM app ](https://www.reddit.com/r/TheLLMStack/comments/1ancqez/pipeline_vs_modular_coding_while_creating_llm_app/) , 2024-02-12-0910
+all -  [ Pipeline Vs Modular coding while creating LLM app ](https://www.reddit.com/r/TheLLMStack/comments/1ancqez/pipeline_vs_modular_coding_while_creating_llm_app/) , 2024-02-13-0910
 ```
 Why every LLM framework is focusing more on creating pipeline based code structure to develop app? I can see langchain, 
 llamaindex and haystack mostly focusing on developing app using pipelines rather then using individual modules. Is their
@@ -223,7 +933,7 @@ llamaindex and haystack mostly focusing on developing app using pipelines rather
 
      
  
-all -  [ How to fetch ID's in Pgvector ](https://www.reddit.com/r/LangChain/comments/1an9aw2/how_to_fetch_ids_in_pgvector/) , 2024-02-12-0910
+all -  [ How to fetch ID's in Pgvector ](https://www.reddit.com/r/LangChain/comments/1an9aw2/how_to_fetch_ids_in_pgvector/) , 2024-02-13-0910
 ```
 Is there any way to  fetch ID's of a particular document stored in Postgres pgvector db to delete the particular documen
 t embeddings.
@@ -232,7 +942,7 @@ t embeddings.
 
      
  
-all -  [ Langchain for QA ](https://www.reddit.com/r/LangChain/comments/1an90yi/langchain_for_qa/) , 2024-02-12-0910
+all -  [ Langchain for QA ](https://www.reddit.com/r/LangChain/comments/1an90yi/langchain_for_qa/) , 2024-02-13-0910
 ```
 Hello, everyone I created a python flask api for document chatbot.
 
@@ -250,7 +960,7 @@ Its there any way i can make it fast?
 
      
  
-all -  [ Data Insights suggestion using langchain ](https://www.reddit.com/r/LangChain/comments/1an371k/data_insights_suggestion_using_langchain/) , 2024-02-12-0910
+all -  [ Data Insights suggestion using langchain ](https://www.reddit.com/r/LangChain/comments/1an371k/data_insights_suggestion_using_langchain/) , 2024-02-13-0910
 ```
  I'm facing a problem with Google Sheets while trying to analyze a dataset with over 100 records. It seems there's a tok
 en issue preventing me from generating plots and insights effectively.
@@ -423,630 +1133,7 @@ t the response to a string.
 
      
  
-all -  [ Creating knowledge graph using local large language models ](https://www.reddit.com/r/LangChain/comments/1an0we9/creating_knowledge_graph_using_local_large/) , 2024-02-12-0910
-```
-I am currently trying to implement knowledge graph store using llm in my company. I followed this post using open AI [ht
-tps://bratanic-tomaz.medium.com/constructing-knowledge-graphs-from-text-using-openai-functions-096a6d010c17](https://bra
-tanic-tomaz.medium.com/constructing-knowledge-graphs-from-text-using-openai-functions-096a6d010c17). which really worked
- using open AI api. But when i am trying to use any other model from my local like Mistral 7B quantized or LLama2 quanti
-zed version. I am getting below error **'OutputParserException: This output parser can only be used with a chat generati
-on.'** I am passing the same schema as mentioned in the above code. I tried multiple way, tried using output parser like
- create\_extraction\_chain\_pydantic or create\_extraction\_chain. but still doesnt work. Can someone please provide any
- ideas or solution. If someone faced the same issue. this is the code and the bold line is  where i am facing the error.
-
-
- def extract\_and\_store\_graph(  
-document: Document,  
-nodes:Optional\[List\[str\]\] = None,  
-rels:Optional\[List\[
-str\]\]=None) -> None:  
- \# Extract graph data using OpenAI functions  
-extract\_chain = get\_extraction\_chain(nodes, 
-rels)  
-**data = extract\_chain.run(document.page\_content)**
-```
----
-
-     
- 
-all -  [ Data Access for LLMs is broken. Thoughts? ](https://www.reddit.com/r/LangChain/comments/1amy5yu/data_access_for_llms_is_broken_thoughts/) , 2024-02-12-0910
-```
-Hey  all. To build truly useful GenAI apps, LLMs need to be able to access  propriety data from structured and unstructu
-red data sources. LLMs  struggle to understand the availability, location, and methods to  retrieve relevant data.
-
-Key 
-problems:
-
-1. LLMs can’t identify if the necessary data is available to answer a user query in any of the data sources.
-
-2. If the data is available, LLMs can’t locate which data source to retrieve from.
-3. If  the source is known, writing r
-etrieval pipelines  (text-to-SQL, text-to-Cypher, text-to-JSON, etc.) for the numerous retrieval protocols is complicate
-d, repetitive, and non-deterministic.
-
-Some suggest fine-tuning or RAG as potential solutions but:
-
-1. Fine-tuning  mode
-ls with specific data is expensive, becomes outdated with the  latest data, and has in-built access control issues. Cont
-inuous  retraining is costly and doesn’t keep pace with real-time data changes.
-2. RAG  doesn’t work with structured dat
-a. Most useful data is structured and  can be spread across numerous data sources, each with its own querying  mechanism
-.
-3. Writing individual retrieval pipelines are limited and complicated and don’t ensure determinism, security, and acce
-ss control.
-
-Have  you faced these issues in your projects? What workarounds or solutions  have you found effective? Any
- new tools or practices that simplify  integrating LLMs with diverse data sources?
-```
----
-
-     
- 
-all -  [ Self query question ](https://www.reddit.com/r/LangChain/comments/1amxvpd/self_query_question/) , 2024-02-12-0910
-```
-I’ve been reading through everything i can find regarding self query (and also tinkering with it myself), and from what 
-i can tell, i am required to use vectorStore. 
-
-Am i misunderstanding the purpose or capabilities of the self query? 
-
-I
-d rather not update all my documents every time i query using the metadata as a filter. That strikes me as a waste of em
-bedding and speed.
-
-I’m hoping someone here can point to a misunderstanding i’m having, because i’m stumped at the momen
-t. The only way i’ve been successful in using this is following it exactly as the documentation shows.
-
-For reference, i
-m using pinecone/js, here’s the documentation: 
-
-https://js.langchain.com/docs/modules/data_connection/retrievers/self_q
-uery/pinecone-self-query
-```
----
-
-     
- 
-all -  [ How do I store the message output in a .txt in langchain? (not as Json) ](https://www.reddit.com/r/LangChain/comments/1amvuc2/how_do_i_store_the_message_output_in_a_txt_in/) , 2024-02-12-0910
-```
-Does Langchain have any specific module? I am using Flowise gui with langchain and try to store message output in a txt,
- not the whole conversation, only the replies from the web api.
-```
----
-
-     
- 
-all -  [ Getting access to all the previous AgentActions in a tool. ](https://www.reddit.com/r/LangChain/comments/1amuf4y/getting_access_to_all_the_previous_agentactions/) , 2024-02-12-0910
-```
-Let's say I have a summarization tool that is supposed to summarize the output from different previous tools (like Wikip
-edia, Google Search whatever) and I want to get the results from all the previous tools in this tool. How do I get this?
-
-```
----
-
-     
- 
-all -  [ SENIOR ML Engineer - 100% Remote (+ every other friday off!) ](https://www.reddit.com/r/MachineLearningJobs/comments/1amn92z/senior_ml_engineer_100_remote_every_other_friday/) , 2024-02-12-0910
-```
-APPLY HERE: [https://grnh.se/50c178c17us](https://grnh.se/50c178c17us)
-
-Our Machine Learning teams build with the latest
- tools and launch for Silicon Valley startups and Life Science giants alike.
-
-Join our team to work remotely, ship proje
-cts you’re proud be a part of, and enjoy every other Friday off (yes, we really take it 😎)
-
-**The Role:**
-
-* Understand 
-business objectives and develop models that help achieve them, along with metrics to track their progress
-* Design and i
-mplement complex ML systems using classical ML, DL and Foundation Models by following best practices
-* Lead client commu
-nications gathering requirements, managing expectations, and communicating deliverables
-* Wrangle, explore and visualize
- data with a careful eye for issues that require data cleaning as well as differences in data distribution that may affe
-ct performance when deploying the model in the real world
-* Analyze the errors of the model and design strategies to ove
-rcome them
-* Deploy, maintain, and upgrade ML models and pipelines.
-
-**The Benefits:**
-
-* Every other Friday off (26 ext
-ra days off a year)
-* LokaLabs™ incubator
-* Relocation & Explore program (3 months or full relo)
-* Remote and flexible
-*
- Paid sick days and local holidays
-* Fitness subscriptions and more
-
-**Main Requirements**:
-
-* Bachelor’s Degree in Comp
-uter Science or related
-* 4+ years of experience with Python, ML libraries and AI/ML frameworks (PyTorch, HuggingFace, T
-ensorFlow, Keras, Scikit-learn, Spark etc.)
-* Strong understanding of statistical, ML and deep learning algorithms (cand
-idates with NLP experience preferred)
-* Experience building GenAI solutions, namely prompt engineering (e.g: Langchain),
- fine-tuning and serving LLMs, search and embeddings, etc.
-* Experience with MLOps, favorably in AWS (e.g: Sagemaker) as
- well as standards tools (e.g: MLFlow)
-* Experience visualizing and manipulating big datasets
-* Ambition to learn and gr
-ow into different industries with a modern tech stack
-* Autonomy, adaptability and positivity (fully remote and globally
- distributed team)
-* Proficient in English
-```
----
-
-     
- 
-all -  [ Text-to-SQL with extremely complex schema ](https://www.reddit.com/r/LangChain/comments/1amlftk/texttosql_with_extremely_complex_schema/) , 2024-02-12-0910
-```
-I am developing a text-to-sql project with llms  and sql server. where user will ask question in natural language and ll
-ms will wrtie sql query, run it on my database and then give me result in natural language. The problem is schema of dat
-abase is huge and tables names,column names are not self explanatory. Most of the times two tables need to joined on mor
-e than one column and in where condition I consistanly want to have some conditions and daterange condition is extremely
- important as well because without date condition, the user might get data that he's not expected to have access to. is 
-there any way to solve this problem? I have tried using views but that is computationally expensive and takes a lot of t
-ime to execute as well. is there any other way?  
-```
----
-
-     
- 
-all -  [ How to tackle token limit issue with RAG ](https://www.reddit.com/r/LangChain/comments/1amktb2/how_to_tackle_token_limit_issue_with_rag/) , 2024-02-12-0910
-```
-I am running a RAG with GPT 3.5 Turbo Instruct. But since the context is large it is having issues with the token limit.
- How to deal with this?
-```
----
-
-     
- 
-all -  [ RAG does not stop Hallucinations ](https://www.reddit.com/r/LangChain/comments/1amjc9g/rag_does_not_stop_hallucinations/) , 2024-02-12-0910
-```
-Hi,
-
-I have a RAG app but noticed that the RAG Method does not really stop hallucinations. So I wanted to discuss which 
-prompts or techniques you are using so that your LLM is not hallucinating?
-
-&#x200B;
-
-Here is one Prompt of mine:mixtral
-\_prompt = '''
-
-<s> \[INST\] You are RagBot, a helpful assistant. Answer only in German. Use the following context infor
-mation to answer the user's question briefly and concisely at the end. The contextual information comes from a vector se
-arch, which means that not everything in the context is necessarily relevant. If the user gives you an instruction, foll
-ow it (e.g. write the points in a continuous text). If you don't know the answer, just say you don't know. Don't make up
- an answer! It is important that you also do not add points to your answer that are not included in the context. If the 
-user asks general questions, make small talk with them. Also make sure that you do not repeat your answer at the end!
-
-&
-#x200B;
-
-\###Context to the question###:
-
-{context}
-
-&#x200B;
-
-&#x200B;
-
-\###Question of the user###:
-
-{question}
-
-&#x20
-0B;
-
-&#x200B;
-
-Answer: \[/INST\]
-
-'''
-
-&#x200B;
-
-Here are my model settings:
-
-    llm = LlamaCpp(
-    max_tokens = 1200,
-
-    n_threads = 8
-    model_path=model_path,
-    temperature=0.01,
-    f16_kv=True,
-    n_ctx=28000,
-    n_gpu_layers=1
-,
-    n_batch=512,
-    callback_manager=callback_manager,
-    verbose=True, # Verbose is required to pass to the callbac
-k manager
-    top_p= 0.95,
-    top_k=40,
-    repeat_penalty = 1.2,
-    streaming=True,
-    model_kwargs={
-    #'repetiti
-on_penalty': 1.1,
-    #'mirostat': 2,
-    },
-    )
-```
----
-
-     
- 
-all -  [ Langchain LlamaCpp max_tokens or max_new_tokens? ](https://www.reddit.com/r/LangChain/comments/1amiy53/langchain_llamacpp_max_tokens_or_max_new_tokens/) , 2024-02-12-0910
-```
-Hi,
-
-I am using LlamaCpp and saw different names for the maximum tokens parameter.
-
-To set the maximum tokens, do I have
- to set a value to max\_tokens or to max\_new\_tokens? What is the difference here?
-
-&#x200B;
-
-Also if someone has bette
-r experience with some parameters (specifically for RAG) feel free to suggest them. I am using these:
-
-`llm = LlamaCpp(`
-  
- `max_tokens = 1200,`  
- `n_threads = 8`  
- `model_path=model_path,`  
- `temperature=0.01,`  
- `f16_kv=True,`  
- `n_c
-tx=28000,`  
- `n_gpu_layers=1,`  
- `n_batch=512,`  
- `callback_manager=callback_manager,`   
- `verbose=True, # Verbose i
-s required to pass to the callback manager`  
- `top_p= 0.95,`  
- `top_k=40,`  
- `repeat_penalty = 1.2,`  
- `streaming=Tr
-ue,`  
- `model_kwargs={`  
- `#'repetition_penalty': 1.1,`  
- `#'mirostat': 2,`  
-`},`  
-`)`
-```
----
-
-     
- 
-all -  [ Two LLM models ](https://www.reddit.com/r/LangChain/comments/1amitx2/two_llm_models/) , 2024-02-12-0910
-```
-Hello!  
-I am building an application which main point is to help users improve the code of loaded projects.  I've build
- some pandas-based tools as well as vdb retriever tool.   
-I am wondering if I could use one model (gpt-3.5-\*) to execu
-te the tools and the other (gpt-4) to answer the questions? Like, the goal is for gpt-3.5 to gather information related 
-to usr input, and gpt-4 to provide answer based on results found by the former.   
-Any help would be appreciated, thanks
-! 
-```
----
-
-     
- 
-all -  [ Need help working with SQL And LangChain. ](https://www.reddit.com/r/LangChain/comments/1amdj3k/need_help_working_with_sql_and_langchain/) , 2024-02-12-0910
-```
-Hi,  
-I want to use the database as a knowledge base but don't want LangChain to execute queries on the database because
- it seems unsafe. Is there any way to convert the SQL data and store it in vectorDB for efficient RAG?
-```
----
-
-     
- 
-all -  [ Consigli su CV ](https://www.reddit.com/r/ItaliaCareerAdvice/comments/1am87uk/consigli_su_cv/) , 2024-02-12-0910
-```
-Ciao ragazzi, al momento sto cercando lavoro come data scientist/AI specialist, e questo è il mio CV. Su 10 apply nell'u
-ltimo mese, ho ricevuto solo due risposte, una positiva (fingers crossed per il colloquio mercoledì) e una negativa. Com
-incio a pensare che ci sia qualcosa di sbagliato, ad esempio, forse mi sembra un po' troppo verboso, e un po' dispersivo
- forse? Avete consigli per migliorarlo? In più, il fatto che siano due pagine effettivamente forse non va bene. Conviene
- forse che io rimuova esperienze relativamente poco rilevanti?
-
-Ve lo lascio anonimizzato qui. Immaginate che come titol
-o della prima pagina ci sia Nome Cognome. Grazie!
-
-https://preview.redd.it/g1wqyhwwtfhc1.png?width=805&format=png&auto=w
-ebp&s=f0fd4d9fa1d2d82f79af93a54dbf90de5c22b72e
-
-https://preview.redd.it/21qcciwwtfhc1.png?width=805&format=png&auto=webp
-&s=31459881cc03968353f1aaf698082f4856486427
-```
----
-
-     
- 
-all -  [ Summarizing past messages in an RAG conversation - is it always recommended? ](https://www.reddit.com/r/LangChain/comments/1am5nsd/summarizing_past_messages_in_an_rag_conversation/) , 2024-02-12-0910
-```
-Is there a consensus in terms of the quality of the AI response, between keeping the chat history in the memory as is, o
-r summarizing it using ConversationSummaryMemory? 
-
-I understand that summarizing past messages will lead to fewer token
-s being used, but does it also lead to a drop in the quality of the AI answer in an RAG model, considering that the summ
-ary may not necessarily include all the facts of the past messages? 
-
-Common sense would say that yes, that may lead to 
-worse answers, but wondering how the community feels about this topic.
-```
----
-
-     
- 
-all -  [ Data Science and Machine Learning Books Recommendation Chatbot ](https://www.reddit.com/r/learndatascience/comments/1am2nxa/data_science_and_machine_learning_books/) , 2024-02-12-0910
-```
-  
-
-Hi Redditors,
-
-I would like to share with you all my latest project: Step by step tutorial on how to create a chatbo
-t that recommends Data Science and Machine Learning Books using LLM (Large Language Models), langchain and Streamlit.
-
-T
-he chatbot is trained on sample conversations and a dataset of books on Data Science and Machine Learning. The chatbot i
-s able to understand the user’s intent and extract relevant entities from the user’s message.
-
-It then uses this informa
-tion to search for the best matching book in the dataset and recommends it to the user. The chatbot is also able to hand
-le out-of-scope queries gracefully.
-
-* You can find the step by step guide [here](https://medium.com/data-and-beyond/dat
-a-science-and-machine-learning-books-recommendation-chatbot-83757cbb92f7)
-* Link to the demo on Hugging Face Spaces is [
-here](https://huggingface.co/spaces/Marce82/ML-DataScience-Books-Recomender-chatbot)
-* Github repo [here](https://github
-.com/marcello-calabrese/Machine-Learning-and-Data-Science-Books-recommender-Chatbot)
-
-Happy to hear your comments, feedb
-ack.
-
-Cheers
-
-# 
-```
----
-
-     
- 
-all -  [ Data Science and Machine Learning Books Recommendation Chatbot ](https://www.reddit.com/r/learnmachinelearning/comments/1am2mi4/data_science_and_machine_learning_books/) , 2024-02-12-0910
-```
-Hi Redditors,
-
-I would like to share with you all my latest project: Step by step tutorial on how to create a chatbot th
-at recommends Data Science and Machine Learning Books using LLM (Large Language Models), langchain and Streamlit.
-
-The c
-hatbot is trained on sample conversations and a dataset of books on Data Science and Machine Learning. The chatbot is ab
-le to understand the user’s intent and extract relevant entities from the user’s message.
-
-It then uses this information
- to search for the best matching book in the dataset and recommends it to the user. The chatbot is also able to handle o
-ut-of-scope queries gracefully.
-
-* You can find the step by step guide [here](https://medium.com/data-and-beyond/data-sc
-ience-and-machine-learning-books-recommendation-chatbot-83757cbb92f7)
-* Link to the demo on Hugging Face Spaces is [here
-](https://huggingface.co/spaces/Marce82/ML-DataScience-Books-Recomender-chatbot)
-* Github repo [here](https://github.com
-/marcello-calabrese/Machine-Learning-and-Data-Science-Books-recommender-Chatbot)
-
-Happy to hear your comments, feedback.
-
-
-Cheers
-```
----
-
-     
- 
-all -  [ Data Science and Machine Learning Books Recommendation Chatbot Project ](https://www.reddit.com/r/datascienceproject/comments/1am2l84/data_science_and_machine_learning_books/) , 2024-02-12-0910
-```
-Hi Redditors, 
-
-&#x200B;
-
-I would like to share with you all my latest project:  Step by step tutorial on how to create 
-a chatbot that recommends Data Science and Machine Learning Books using LLM (Large Language Models), langchain and Strea
-mlit. 
-
-The chatbot is trained on sample conversations and a dataset of books on Data Science and Machine Learning. The 
-chatbot is able to understand the user’s intent and extract relevant entities from the user’s message.
-
-It then uses thi
-s information to search for the best matching book in the dataset and recommends it to the user. The chatbot is also abl
-e to handle out-of-scope queries gracefully.
-
-&#x200B;
-
-* You can find the step by step guide [here](https://medium.com/
-data-and-beyond/data-science-and-machine-learning-books-recommendation-chatbot-83757cbb92f7)
-*  Link to the demo on Hugg
-ing Face Spaces is [here](https://huggingface.co/spaces/Marce82/ML-DataScience-Books-Recomender-chatbot)
-* Github repo [
-here](https://github.com/marcello-calabrese/Machine-Learning-and-Data-Science-Books-recommender-Chatbot)
-
-Happy to hear 
-your comments, feedback.
-
-&#x200B;
-
-Cheers
-```
----
-
-     
- 
-all -  [ review of 10 ways to run LLMs locally ](https://www.reddit.com/r/LocalLLaMA/comments/1am0p48/review_of_10_ways_to_run_llms_locally/) , 2024-02-12-0910
-```
-Hey LocalLLaMA,
-
-\[EDIT\] - thanks for all the awesome additions and feedback everyone! I'm going to go through them, tr
-y them out, and add them to my blog post. It's gonna take some time though since I need to try them first, and maybe cha
-nge my conclusions a bit.
-
-I reviewed [ten different ways to run LLMs locally](https://matilabs.ai/2024/02/07/10-ways-to
--run-llms-locally-and-which-one-works-best-for-you/), and compared the different tools. Many of the tools had been share
-d right here on this sub. Here are the tools I tried:
-
-&#x200B;
-
-1. Ollama
-2. 🤗 Transformers
-3. Langchain
-4. llama.cpp
-5
-. GPT4All
-6. LM Studio
-7. jan.ai
-8. llm ([https://llm.datasette.io/en/stable/](https://llm.datasette.io/en/stable/) \- l
-ink if hard to google)
-9. h2oGPT
-10. localllm
-
-My quick conclusions:
-
-* If you are looking to develop an AI application,
- and you have a Mac or Linux machine, **Ollama** is great because it's very easy to set up, easy to work with, and fast.
-
-* If you are looking to chat locally with documents, **GPT4All** is the best out of the box solution that is also easy 
-to set up
-* If you are looking for advanced control and insight into neural networks and machine learning, as well as th
-e widest range of model support, you should try **transformers**
-* In terms of speed, I think **Ollama** or **llama.cpp*
-* are both very fast
-* If you are looking to work with a CLI tool, **llm** is clean and easy to set up
-* If you want to 
-use Google Cloud, you should look into **localllm**
-
-I found that different tools are intended for different purposes, s
-o I summarized how they differ into a table:
-
-&#x200B;
-
-[Comparison of Local LLM Tools](https://preview.redd.it/9mqaz6me
-9ehc1.png?width=2048&format=png&auto=webp&s=77ac88be51e473862c70625d2d62cfd13eeb6eb0)
-
-I'd love to hear what the communi
-ty thinks. How many of these have you tried, and which ones do you like? Are there more I should add?
-
-Thanks!
-```
----
-
-     
- 
-all -  [ I Made an Open-Source Pinecone DB AWS Construct 🏗️ ](https://www.reddit.com/r/LangChain/comments/1aly0xv/i_made_an_opensource_pinecone_db_aws_construct/) , 2024-02-12-0910
-```
-Managing Pinecone deployments is a thing of the past!!! 💃
-
-🥇Some noteworthy features 🥇
-
-1. Handles CRUDs for both Pod an
-d Serverless Spec indexes
-2. Deploy multiple indexes at the same time with isolated state management
-3. Adheres to AWS-d
-efined removal policies (DESTROY, SNAPSHOT, etc.)
-4. Creates stack-scoped index names, to avoid name collisions 🙌
-
-**It'
-s still in beta, so feedback is more than welcome! 🫶**
-
-[Github](https://github.com/petterle-endeavors/pinecone-db-const
-ruct)  
-[PyPi](https://pypi.org/project/pinecone-db-construct/)  
-[NPM](https://www.npmjs.com/package/pinecone-db-constr
-uct)
-```
----
-
-     
- 
-all -  [ RAG Accuracy ](https://www.reddit.com/r/LangChain/comments/1alus6s/rag_accuracy/) , 2024-02-12-0910
-```
-I am creating a RAG program where I used 20 pdfs which contains lease agreement of different tenants.
-
-I am using langch
-ain framework to work with FAISS and openAI Embeddings.
-
-I am using  `text-embedding-ada-002` model because I think lang
-chain currently does not support v3 embedding models. I get this error while using v3 models: `model not found. Using cl
-100k_base encoding.`
-
-Here's my process:
-
-\- I read the directory containing pdfs (Some pdf are image based, some are te
-xtual).
-
-\- I use `from unstructured.partition.pdf import partition_pdf` to extract data based on title. Below id code b
-lock:
-
-    raw_pdf_elements = partition_pdf(filename=pdf_path,
-                # Unstructured first finds embedded image
- blocks
-                extract_images_in_pdf=True,
-                #Use layout model (YOLOX) to get bounding boxes (for
- tables) and find titles
-                # Titles are any sub-section of the document
-                infer_table_struct
-ure=True,
-                
-                # Post processing to aggregate text once we have the title
-                ch
-unking_strategy='by_title',
-                
-                # Chunking params to aggregate text blocks
-                
-# Attempt to create a new chunk 3800 chars
-                # Attempt to keep chunks > 2000 chars
-                max_cha
-racters=4000,
-                new_after_n_chars=3800,
-                combine_text_under_n_chars=2000,
-                i
-mage_output_dir_path=path
-                )
-
-\- Then I create documents from the extracted text along with the tenant na
-me in metadata (To get information from specific tenant's lease agreement when I mention it's name in the question). 1 p
-df at a time.
-
-\- After I get document chunks from all pdfs, I create list of all the chunks.
-
-\- I create FAISS index f
-or that data.
-
-\- Then I perform QnA.
-
-&#x200B;
-
-The problem is the accuracy I get from this is very low. For most of th
-e question, semantic search cannot even find relevant context.
-
-I want to know if the accuracy of RAG is generally lower
- than the expectations or am I doing something wrong?
-
-What process do you follow for better results?
-```
----
-
-     
- 
-MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-12-0910
+MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-13-0910
 ```
 I've tried things like langchain in the past (6-8 months ago) but they were cumbersome and didn't work as expected.
 
@@ -1064,7 +1151,7 @@ ing RAG (compared to 6 months ago)
 
      
  
-MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-12-0910
+MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-13-0910
 ```
 Hey Reddit, I've been applying for jobs and found that writing a cover letter for each position was tedious. I also delv
 ed into LLM and Langchain, hoping to leverage them for a project to aid in my job hunting. So, I developed Anukool under
@@ -1081,7 +1168,7 @@ ithub.com/dakshesh14/anukool
 
      
  
-MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-02-12-0910
+MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-02-13-0910
 ```
 I saw that DataStax/Astra DB [just released a new Data API to help with building production GenAI and RAG applications](
 https://www.datastax.com/blog/general-availability-data-api-for-enhanced-developer-experience). This API makes the prove
@@ -1096,7 +1183,7 @@ build-a-real-time-rag-app-on-wikipedia-with-langchain-and-vercel)
 
      
  
-MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-02-12-0910
+MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-02-13-0910
 ```
 I am working on a client project and I am using langchain's tools and agents. I want to know if the data is getting pass
 ed to openai or is it just like that - Output of one function is being directly passed to the second function with the k
@@ -1106,7 +1193,7 @@ nowledge of openai.
 
      
  
-MachineLearning -  [ [D] Code vs JSON output for LLM agents? Frameworks like LangChain rely on LLMs responding with JSON  ](https://www.reddit.com/r/MachineLearning/comments/197f416/d_code_vs_json_output_for_llm_agents_frameworks/) , 2024-02-12-0910
+MachineLearning -  [ [D] Code vs JSON output for LLM agents? Frameworks like LangChain rely on LLMs responding with JSON  ](https://www.reddit.com/r/MachineLearning/comments/197f416/d_code_vs_json_output_for_llm_agents_frameworks/) , 2024-02-13-0910
 ```
 [CaP](https://arxiv.org/pdf/2209.07753.pdf), [Voyager](https://arxiv.org/pdf/2305.16291.pdf), [Octopus](https://arxiv.or
 g/abs/2310.08588)
@@ -1148,7 +1235,7 @@ e of any experiments that compare these two approaches against each other?
 
      
  
-deeplearning -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-02-12-0910
+deeplearning -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-02-13-0910
 ```
 Embark on a journey through the digital cosmos with WebVoyager, a groundbreaking Large Multimodal Model (LMM) web agent 
 designed to navigate the vastness of the online universe. In collaboration with Langchain, WebVoyager represents a parad
@@ -1163,7 +1250,7 @@ os-with-langgraph-multimodal-models-dace64196c2f)
 
      
  
-deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-12-0910
+deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-13-0910
 ```
 In the dynamic realm of natural language processing, a revolutionary synergy has emerged between Langchain and Step-Back
  Prompting. This article delves into the transformative collaboration, exploring how Langchain’s cutting-edge platform i
@@ -1180,7 +1267,7 @@ k-prompting-using-ragatouille-b433e6f200ea
 
      
  
-deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-12-0910
+deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-13-0910
 ```
 Just sharing a free series I stumbled across on Linkedin - DataCamp's 9-part AI code-along series.
 
@@ -1200,7 +1287,7 @@ Find
 
      
  
-deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-12-0910
+deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-13-0910
 ```
 DSPy is the next big advancement for AI and building applications with LLMs!
 
