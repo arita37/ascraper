@@ -1,5 +1,207 @@
  
-all -  [ What's your take on LangGraph? ](https://www.reddit.com/r/LangChain/comments/1ashzgp/whats_your_take_on_langgraph/) , 2024-02-17-0909
+all -  [ MLflow LangChain version support ](https://www.reddit.com/r/LangChain/comments/1at94hd/mlflow_langchain_version_support/) , 2024-02-18-0910
+```
+Is there anywhere I can find which versions of LangChain are supported by which versions of MLflow?
+```
+---
+
+     
+ 
+all -  [ MLflow LangChain version support ](https://www.reddit.com/r/mlops/comments/1at93k1/mlflow_langchain_version_support/) , 2024-02-18-0910
+```
+Is there anywhere I can find the versions of LangChain that are supposed to be supported by each version of MLflow?
+```
+---
+
+     
+ 
+all -  [ Will there be any difference between (RAG) openAI and Google Gemini LLM responses if I use for both  ](https://www.reddit.com/r/LangChain/comments/1at5iyx/will_there_be_any_difference_between_rag_openai/) , 2024-02-18-0910
+```
+Let's say I care a lot about follow up questions and accurate results. Does everything depend on the vector dB embedding
+s and not that much on the LLM?
+```
+---
+
+     
+ 
+all -  [ hi all, i am considering of creating a simple agent where i can import a csv and ask questions on it ](https://www.reddit.com/r/GoogleGeminiAI/comments/1at0mby/hi_all_i_am_considering_of_creating_a_simple/) , 2024-02-18-0910
+```
+This is possible by using openAI libraries, langchain etc, easily, i have done that. The thing is that it doesn't look t
+hat simple on gemini. My understanding is that i have to create a project, an agent, a knowledge base, intents and then 
+some more integrations.  
+
+
+Is gemini any good in retrieval from structured data? Did anyone try it yet?  
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Prompts and Chains with Ollama and LangChain ](https://k33g.hashnode.dev/prompts-and-chains-with-ollama-and-langchain) , 2024-02-18-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ Updated Integration Guide: Supabase SSR Auth with Next.js 14, MUI Styling, and Enhanced Chat Applica ](https://www.reddit.com/r/LangChain/comments/1ast1wa/updated_integration_guide_supabase_ssr_auth_with/) , 2024-02-18-0910
+```
+Hello everyone,
+
+In an effort to simplify and enhance web development practices, I've updated my project that initially 
+showcased the integration of Supabase's server-side rendering (SSR) authentication with Next.js 14, complemented by Mate
+rial-UI (MUI) for styling. This project serves as a basic yet comprehensive guide for those interested in implementing S
+upabase authentication within a Next.js environment, with a strong emphasis on simplicity and practical application.
+
+**
+Key Aspects:**
+
+* **Supabase for Authentication:** Utilizing Supabase's robust authentication system to secure your web 
+application.
+* **Server-Side Rendering with Next.js 14:** Leveraging Next.js 14 for improved performance and SEO benefit
+s through server-side rendering.
+* **Material-UI for Styling:** Applying Material-UI to enhance the UI with a modern, re
+sponsive design.
+
+**Getting Started:**
+
+The repository is a one-stop resource, detailing every step from initial setup t
+o final deployment:
+
+* **Setup:** Instructions on establishing a Supabase account and initializing a Next.js project.
+* 
+**Installation:** Comprehensive guidance on installing necessary dependencies and configuring your development environme
+nt.
+* **Configuration:** Steps to configure your database and set up environment variables for seamless project integrat
+ion.
+
+**Purpose of the Project:**
+
+This project aims to offer a straightforward example of how to integrate Supabase's a
+uthentication with the server-side rendering capabilities of Next.js, adorned with Material-UI for styling. It's designe
+d as an accessible starting point for anyone curious about these technologies.
+
+**Expanded Features:**
+
+Building upon th
+is foundation, I've now integrated a chat application utilizing LangChain and OpenAI's ChatGPT model, with Redis (via Up
+stash) for efficient conversation storage. This addition showcases the practical use of AI in real-time applications, em
+phasizing:
+
+* **AI Integration:** Leveraging AI capabilities from Vercel and LangChain for dynamic, intelligent chat fun
+ctionalities.
+* **Redis for Chat History:** Using Upstash/Redis for reliable and efficient chat storage, ensuring conver
+sations are seamlessly managed and retrieved.
+* **Enhanced Markdown Support:** Incorporating Perplexity with React Markd
+own for enriched text presentation, including code highlight support through `rehype-highlight` and styling with `highli
+ght.js/styles/github-dark.css`.
+* **Optimization with React Server Components:** Utilizing React's server components and
+ server actions for optimized data fetching and component rendering, aligning with Next.js's latest features for a strea
+mlined user experience.
+
+**Looking for Feedback:**
+
+Your insights and contributions are invaluable. Whether it's suggest
+ions to further simplify the integration, or feedback on the newly added chat application features, I welcome all forms 
+of constructive critique. This project is not just a demonstration but a platform for collaboration and learning.
+
+Explo
+re the project on GitHub at: GitHub - SupabaseAuthWithSSR and share your thoughts or questions. Let's make web developme
+nt simpler and more accessible together.
+
+&#x200B;
+
+[https://github.com/ElectricCodeGuy/SupabaseAuthWithSSR](https://git
+hub.com/ElectricCodeGuy/SupabaseAuthWithSSR)
+```
+---
+
+     
+ 
+all -  [ Updated Integration Guide: Supabase SSR Auth with Next.js 14, MUI Styling, and Enhanced Chat Applica ](https://www.reddit.com/r/Supabase/comments/1assyt6/updated_integration_guide_supabase_ssr_auth_with/) , 2024-02-18-0910
+```
+Hello everyone,
+
+In an effort to simplify and enhance web development practices, I've updated my project that initially 
+showcased the integration of Supabase's server-side rendering (SSR) authentication with Next.js 14, complemented by Mate
+rial-UI (MUI) for styling. This project serves as a basic yet comprehensive guide for those interested in implementing S
+upabase authentication within a Next.js environment, with a strong emphasis on simplicity and practical application.
+
+**
+Key Aspects:**
+
+* **Supabase for Authentication:** Utilizing Supabase's robust authentication system to secure your web 
+application.
+* **Server-Side Rendering with Next.js 14:** Leveraging Next.js 14 for improved performance and SEO benefit
+s through server-side rendering.
+* **Material-UI for Styling:** Applying Material-UI to enhance the UI with a modern, re
+sponsive design.
+
+**Getting Started:**
+
+The repository is a one-stop resource, detailing every step from initial setup t
+o final deployment:
+
+* **Setup:** Instructions on establishing a Supabase account and initializing a Next.js project.
+* 
+**Installation:** Comprehensive guidance on installing necessary dependencies and configuring your development environme
+nt.
+* **Configuration:** Steps to configure your database and set up environment variables for seamless project integrat
+ion.
+
+**Purpose of the Project:**
+
+This project aims to offer a straightforward example of how to integrate Supabase's a
+uthentication with the server-side rendering capabilities of Next.js, adorned with Material-UI for styling. It's designe
+d as an accessible starting point for anyone curious about these technologies.
+
+**Expanded Features:**
+
+Building upon th
+is foundation, I've now integrated a chat application utilizing LangChain and OpenAI's ChatGPT model, with Redis (via Up
+stash) for efficient conversation storage. This addition showcases the practical use of AI in real-time applications, em
+phasizing:
+
+* **AI Integration:** Leveraging AI capabilities from Vercel and LangChain for dynamic, intelligent chat fun
+ctionalities.
+* **Redis for Chat History:** Using Upstash/Redis for reliable and efficient chat storage, ensuring conver
+sations are seamlessly managed and retrieved.
+* **Enhanced Markdown Support:** Incorporating Perplexity with React Markd
+own for enriched text presentation, including code highlight support through `rehype-highlight` and styling with `highli
+ght.js/styles/github-dark.css`.
+* **Optimization with React Server Components:** Utilizing React's server components and
+ server actions for optimized data fetching and component rendering, aligning with Next.js's latest features for a strea
+mlined user experience.
+
+**Looking for Feedback:**
+
+Your insights and contributions are invaluable. Whether it's suggest
+ions to further simplify the integration, or feedback on the newly added chat application features, I welcome all forms 
+of constructive critique. This project is not just a demonstration but a platform for collaboration and learning.
+
+Explo
+re the project on GitHub at: GitHub - SupabaseAuthWithSSR and share your thoughts or questions. Let's make web developme
+nt simpler and more accessible together.
+
+  
+[https://github.com/ElectricCodeGuy/SupabaseAuthWithSSR](https://github.com
+/electriccodeguy/supabaseauthwithssr)
+```
+---
+
+     
+ 
+all -  [ Tool building tool? ](https://www.reddit.com/r/LangChain/comments/1asqdx3/tool_building_tool/) , 2024-02-18-0910
+```
+This might be a stupid question, but has anyone built a tool that builds tools and adds them to an agent's tool list?
+```
+---
+
+     
+ 
+all -  [ What's your take on LangGraph? ](https://www.reddit.com/r/LangChain/comments/1ashzgp/whats_your_take_on_langgraph/) , 2024-02-18-0910
 ```
 Hi,
 
@@ -13,7 +215,7 @@ Thanks!
 
      
  
-all -  [ Finetuning or Rag for recommendation system with conversational chain LLM ](https://www.reddit.com/r/LangChain/comments/1asg3s9/finetuning_or_rag_for_recommendation_system_with/) , 2024-02-17-0909
+all -  [ Finetuning or Rag for recommendation system with conversational chain LLM ](https://www.reddit.com/r/LangChain/comments/1asg3s9/finetuning_or_rag_for_recommendation_system_with/) , 2024-02-18-0910
 ```
 Hi everyone, I would like to ask you for support for the LLM in E-commerce. I would like to create a Q&A chatbot with LL
 M that on the basis of the dataset (table) recommends a certain type of product. Is there anything about this case study
@@ -27,7 +229,7 @@ now if a table can be passed to the vector database or is there some kind of dif
 
      
  
-all -  [ This week in AI - all the Major AI developments in a nutshell ](https://www.reddit.com/r/artificial/comments/1ase382/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-02-17-0909
+all -  [ This week in AI - all the Major AI developments in a nutshell ](https://www.reddit.com/r/artificial/comments/1ase382/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-02-18-0910
 ```
 1. **Meta AI** introduces ***V-JEPA*** (Video Joint Embedding Predictive Architecture), a method for teaching machines t
 o understand and model the physical world by watching videos. Meta AI releases a collection of V-JEPA vision models trai
@@ -134,7 +336,7 @@ m/). it's free to join, sent only once a week with bite-sized news, learning res
 
      
  
-all -  [ [1 YoE] Looking for a second job after career switching ](https://www.reddit.com/r/EngineeringResumes/comments/1asdkz1/1_yoe_looking_for_a_second_job_after_career/) , 2024-02-17-0909
+all -  [ [1 YoE] Looking for a second job after career switching ](https://www.reddit.com/r/EngineeringResumes/comments/1asdkz1/1_yoe_looking_for_a_second_job_after_career/) , 2024-02-18-0910
 ```
  Hello! I'd like some help in improving my resume, I've been using it for some months and haven't really noticed a big d
 ifference when compared to the one I used before. I've been mostly applying for Python back-end jobs. I started working 
@@ -156,15 +358,7 @@ bd19bc2d67ed66bb6fccda05b
 
      
  
-all -  [ Using LangServe to build REST APIs for LangChain Applications ](https://www.koyeb.com/tutorials/using-langserve-to-build-rest-apis-for-langchain-applications) , 2024-02-17-0909
-```
-
-```
----
-
-     
- 
-all -  [ How to create Chroma vector store asynchronously ](https://www.reddit.com/r/LangChain/comments/1as8gxt/how_to_create_chroma_vector_store_asynchronously/) , 2024-02-17-0909
+all -  [ How to create Chroma vector store asynchronously ](https://www.reddit.com/r/LangChain/comments/1as8gxt/how_to_create_chroma_vector_store_asynchronously/) , 2024-02-18-0910
 ```
 Let me go straight to the point: is it possible to create a Chroma Vector Store asynchronously using OpenAIEmbeddings ? 
 I think it is given that you can get the embeddings asynchronously from OpenAI API, but this call is happening internall
@@ -181,7 +375,7 @@ th_to_file)
 
      
  
-all -  [ RAG explained with diagram ](https://www.reddit.com/r/LangChain/comments/1as7g55/rag_explained_with_diagram/) , 2024-02-17-0909
+all -  [ RAG explained with diagram ](https://www.reddit.com/r/LangChain/comments/1as7g55/rag_explained_with_diagram/) , 2024-02-18-0910
 ```
 Hey everyone, checkout this easy explanation of how RAG works internally https://youtu.be/sfgq-lfC2vw?si=ALIOQ5kIZeRxwqt
 v
@@ -190,7 +384,7 @@ v
 
      
  
-all -  [ Challenges in Tool Selection for Multi-Tool Agents with Langchain ](https://www.reddit.com/r/LangChain/comments/1as71vq/challenges_in_tool_selection_for_multitool_agents/) , 2024-02-17-0909
+all -  [ Challenges in Tool Selection for Multi-Tool Agents with Langchain ](https://www.reddit.com/r/LangChain/comments/1as71vq/challenges_in_tool_selection_for_multitool_agents/) , 2024-02-18-0910
 ```
 I developed a multi-tool agent with langchain. However, the agent struggles to select suitable tools for the task consis
 tently. It occasionally picks the right tool but often chooses incorrectly. Given the abundance of tools being developed
@@ -202,7 +396,7 @@ eate successful agents? I cannot ensure the actions of the agents.
 
      
  
-all -  [ How to handle duplicate documents in vector DB ](https://www.reddit.com/r/LangChain/comments/1as2ox1/how_to_handle_duplicate_documents_in_vector_db/) , 2024-02-17-0909
+all -  [ How to handle duplicate documents in vector DB ](https://www.reddit.com/r/LangChain/comments/1as2ox1/how_to_handle_duplicate_documents_in_vector_db/) , 2024-02-18-0910
 ```
 I'm using MongoDB as a vector store for vectors created for PDFs, how to handle the duplicate upload of the same documen
 t?
@@ -211,7 +405,7 @@ t?
 
      
  
-all -  [ OpenAI API access for learning LangChain. ](https://www.reddit.com/r/LangChain/comments/1as1ybk/openai_api_access_for_learning_langchain/) , 2024-02-17-0909
+all -  [ OpenAI API access for learning LangChain. ](https://www.reddit.com/r/LangChain/comments/1as1ybk/openai_api_access_for_learning_langchain/) , 2024-02-18-0910
 ```
 Hello all,   
 I'm very new to LLM's and recently came across LangChain on YT and Twitter. I am learning about LangChain 
@@ -225,7 +419,7 @@ Thank you.
 
      
  
-all -  [ PineconeIndex RecordMetadata type problem using imports from '@pinecone-database/pinecone'; and '@la ](https://www.reddit.com/r/LangChain/comments/1aryuy5/pineconeindex_recordmetadata_type_problem_using/) , 2024-02-17-0909
+all -  [ PineconeIndex RecordMetadata type problem using imports from '@pinecone-database/pinecone'; and '@la ](https://www.reddit.com/r/LangChain/comments/1aryuy5/pineconeindex_recordmetadata_type_problem_using/) , 2024-02-18-0910
 ```
 Im having trouble with index type using:  
  
@@ -372,7 +566,7 @@ ter, member: line });   counter += 1; }
 
      
  
-all -  [ OS plugin framework for AI actions, available as LangChain Toolkit and on OpenGPTs ](https://www.reddit.com/r/LangChain/comments/1ars2t0/os_plugin_framework_for_ai_actions_available_as/) , 2024-02-17-0909
+all -  [ OS plugin framework for AI actions, available as LangChain Toolkit and on OpenGPTs ](https://www.reddit.com/r/LangChain/comments/1ars2t0/os_plugin_framework_for_ai_actions_available_as/) , 2024-02-18-0910
 ```
 We have created an open source framework to create and run AI actions to connect LLM-apps with the real world. Infrastru
 cture, control and AI safety.
@@ -389,22 +583,7 @@ Would love to get your feedback.
 
      
  
-all -  [ Logically separated Semantic Example Selectors ](https://www.reddit.com/r/LangChain/comments/1arrqt5/logically_separated_semantic_example_selectors/) , 2024-02-17-0909
-```
-In a personal project I defined various chains, where each chain is responsible for a particular topic. To improve the c
-ompletions quality, I perform few-shot for each topic. I do so using one SemanticSimilarityExampleSelector per topic and
- Chroma as vector database.
-
-However, Chroma saves all the examples together and each SemanticSimilarityExampleSelector 
-instance shares and selects the same examples, regardless of the chain’s topic
-
-How can avoid this behaviour?
-```
----
-
-     
- 
-all -  [ iA chatbot for Trello ? ](https://www.reddit.com/r/trello/comments/1arrn4j/ia_chatbot_for_trello/) , 2024-02-17-0909
+all -  [ iA chatbot for Trello ? ](https://www.reddit.com/r/trello/comments/1arrn4j/ia_chatbot_for_trello/) , 2024-02-18-0910
 ```
 Hi,
 Is there someone who managed to create a functionnal IA chatbot for trello ?
@@ -420,7 +599,7 @@ Thanks for your feedbacks 👍
 
      
  
-all -  [ Defining LLM Project architecture ](https://www.reddit.com/r/LangChain/comments/1arrmts/defining_llm_project_architecture/) , 2024-02-17-0909
+all -  [ Defining LLM Project architecture ](https://www.reddit.com/r/LangChain/comments/1arrmts/defining_llm_project_architecture/) , 2024-02-18-0910
 ```
 I’m developing a project based on LLMs: ideally a chat that can interact with different APIs. To interact with such APIs
 , a JSON request must be formalized. Indeed, being a chat, memory is needed.
@@ -440,7 +619,7 @@ slate the prompt to a JSON, would be simply LLMs in few shot settings
 
      
  
-all -  [ Suggest Most optimal RAG pipeline for insurance support chatbot. ](https://www.reddit.com/r/LangChain/comments/1arraqh/suggest_most_optimal_rag_pipeline_for_insurance/) , 2024-02-17-0909
+all -  [ Suggest Most optimal RAG pipeline for insurance support chatbot. ](https://www.reddit.com/r/LangChain/comments/1arraqh/suggest_most_optimal_rag_pipeline_for_insurance/) , 2024-02-18-0910
 ```
 I am tasked to build AI RAG chatbot for health insurance company.
 
@@ -454,7 +633,7 @@ Thanks in advance.
 
      
  
-all -  [ Retrieving output that exceeds context length after parsing? ](https://www.reddit.com/r/LangChain/comments/1arqpqp/retrieving_output_that_exceeds_context_length/) , 2024-02-17-0909
+all -  [ Retrieving output that exceeds context length after parsing? ](https://www.reddit.com/r/LangChain/comments/1arqpqp/retrieving_output_that_exceeds_context_length/) , 2024-02-18-0910
 ```
 Basically the scenario is I load up a large pdf file which gets processed with the document parser and text splitter whi
 ch then is passed through to my prompt for processing - How would I retrieve the entire pdf’s content after it has gone 
@@ -465,7 +644,7 @@ her a processing layer for the entire pdf
 
      
  
-all -  [ AI Agents using LangChain ](https://www.reddit.com/r/Langchaindev/comments/1arfbyw/ai_agents_using_langchain/) , 2024-02-17-0909
+all -  [ AI Agents using LangChain ](https://www.reddit.com/r/Langchaindev/comments/1arfbyw/ai_agents_using_langchain/) , 2024-02-18-0910
 ```
 Hey everyone, check out this tutorial on how to run different AI-Agents using LangChain https://youtu.be/3pdcvSnCbf0?si=
 RmUqW5GjlEDkhyYT
@@ -474,7 +653,7 @@ RmUqW5GjlEDkhyYT
 
      
  
-all -  [ Fanchat, a character.ai website powered by Mistral Ai ](https://www.reddit.com/r/MistralAI/comments/1arf6rx/fanchat_a_characterai_website_powered_by_mistral/) , 2024-02-17-0909
+all -  [ Fanchat, a character.ai website powered by Mistral Ai ](https://www.reddit.com/r/MistralAI/comments/1arf6rx/fanchat_a_characterai_website_powered_by_mistral/) , 2024-02-18-0910
 ```
 Hello Mistral Fans ! Just a quick message to say that i've created a [character.ai](https://character.ai) like website w
 ith Langchain , Next.js and Mistral Api.   
@@ -489,7 +668,7 @@ efanchat.com](https://www.wearefanchat.com/dashboard)
 
      
  
-all -  [ Conditional bypassing chain stages ](https://www.reddit.com/r/LangChain/comments/1areohp/conditional_bypassing_chain_stages/) , 2024-02-17-0909
+all -  [ Conditional bypassing chain stages ](https://www.reddit.com/r/LangChain/comments/1areohp/conditional_bypassing_chain_stages/) , 2024-02-18-0910
 ```
 Hello everyone! Is there a way to make, in idiomatic way, a conditional RunningSequence and bypass llm stage if retrieve
 r returns empty list?
@@ -498,7 +677,7 @@ r returns empty list?
 
      
  
-all -  [ Langchain is overhyped, you don't need it ](https://www.reddit.com/r/ChatGPTCoding/comments/1arbtc1/langchain_is_overhyped_you_dont_need_it/) , 2024-02-17-0909
+all -  [ Langchain is overhyped, you don't need it ](https://www.reddit.com/r/ChatGPTCoding/comments/1arbtc1/langchain_is_overhyped_you_dont_need_it/) , 2024-02-18-0910
 ```
 I see nobody is talking about the downsides of langchain, I would have not wasted my time if we had. Let's do it now.
 
@@ -534,7 +713,7 @@ How was your experience with langchain vs without it?
 
      
  
-all -  [ In langchain/llama-index how to connect to multiple databases at once? [SQL Server] ](https://www.reddit.com/r/LangChain/comments/1ar8v7o/in_langchainllamaindex_how_to_connect_to_multiple/) , 2024-02-17-0909
+all -  [ In langchain/llama-index how to connect to multiple databases at once? [SQL Server] ](https://www.reddit.com/r/LangChain/comments/1ar8v7o/in_langchainllamaindex_how_to_connect_to_multiple/) , 2024-02-18-0910
 ```
 What I want to do is - 
 
@@ -563,7 +742,7 @@ I want to query multiple databases and also I require joining tables of multiple
 
      
  
-all -  [ Langchain User Group Meeting Today Feb 15 2024 ](https://www.reddit.com/r/LangChain/comments/1ar8h9d/langchain_user_group_meeting_today_feb_15_2024/) , 2024-02-17-0909
+all -  [ Langchain User Group Meeting Today Feb 15 2024 ](https://www.reddit.com/r/LangChain/comments/1ar8h9d/langchain_user_group_meeting_today_feb_15_2024/) , 2024-02-18-0910
 ```
 Hello!
 
@@ -582,7 +761,7 @@ into the AI boom. It's a  great opportunity to share the latest developments, wh
 
      
  
-all -  [ Should I use next.js if I don't utilize the built in api functionality? ](https://www.reddit.com/r/nextjs/comments/1ar7w31/should_i_use_nextjs_if_i_dont_utilize_the_built/) , 2024-02-17-0909
+all -  [ Should I use next.js if I don't utilize the built in api functionality? ](https://www.reddit.com/r/nextjs/comments/1ar7w31/should_i_use_nextjs_if_i_dont_utilize_the_built/) , 2024-02-18-0910
 ```
 Let's take for instance the [vercel AI chatbot](https://vercel.com/templates/next.js/nextjs-ai-chatbot) \- it uses the a
 pi folder to expose the CRUD requests for langchain and openai calls.
@@ -603,7 +782,7 @@ What is the benefit of using the built in api vs a traditional http client?
 
      
  
-all -  [ How to implement LLM AI chatbot using vLLM in AWS with EKS ](https://www.reddit.com/r/LangChain/comments/1ar7hk9/how_to_implement_llm_ai_chatbot_using_vllm_in_aws/) , 2024-02-17-0909
+all -  [ How to implement LLM AI chatbot using vLLM in AWS with EKS ](https://www.reddit.com/r/LangChain/comments/1ar7hk9/how_to_implement_llm_ai_chatbot_using_vllm_in_aws/) , 2024-02-18-0910
 ```
  Hi guys,
 
@@ -621,7 +800,7 @@ LLM part or instead of EKS use EC2, that would work too.
 
      
  
-all -  [ How to set up RAG with Dolphin-mixtral-8x7b on text-generation-webui? ](https://www.reddit.com/r/Oobabooga/comments/1ar6i5i/how_to_set_up_rag_with_dolphinmixtral8x7b_on/) , 2024-02-17-0909
+all -  [ How to set up RAG with Dolphin-mixtral-8x7b on text-generation-webui? ](https://www.reddit.com/r/Oobabooga/comments/1ar6i5i/how_to_set_up_rag_with_dolphinmixtral8x7b_on/) , 2024-02-18-0910
 ```
 Hey I am new to all this AI stuff and I'm trying to do my first  setup on linux. I've decided to run Dolphin-mixtral-8x7
 b on my machine but I would like if it could retrieve information from the internet or my documents but I have no Idea o
@@ -634,7 +813,7 @@ Can
 
      
  
-all -  [ CrewAI vs AutoGen? ](https://www.reddit.com/r/AI_Agents/comments/1ar0sr8/crewai_vs_autogen/) , 2024-02-17-0909
+all -  [ CrewAI vs AutoGen? ](https://www.reddit.com/r/AI_Agents/comments/1ar0sr8/crewai_vs_autogen/) , 2024-02-18-0910
 ```
 Hello, I wanted to ask about your opinion for comparison between different multi-agent frameworks. I have been playing w
 ith both Autogen and CrewAI (I haven't tested ChatDev or others) and I am curious which you find better for your use cas
@@ -658,7 +837,7 @@ Happy to discuss!
 
      
  
-all -  [ [3.5 YoE] Software Engineer trying to land interviews ](https://www.reddit.com/r/EngineeringResumes/comments/1ar0a5s/35_yoe_software_engineer_trying_to_land_interviews/) , 2024-02-17-0909
+all -  [ [3.5 YoE] Software Engineer trying to land interviews ](https://www.reddit.com/r/EngineeringResumes/comments/1ar0a5s/35_yoe_software_engineer_trying_to_land_interviews/) , 2024-02-18-0910
 ```
 Hi all, looking to see how I can optimize this resume to land Software Engineering interviews. Haven't had much luck wit
 h hearing back from the companies I've applied to (50+), either templated rejections or no response. Just recently updat
@@ -687,7 +866,7 @@ regarding formatting, spacing etc. Also curious about my Skills/Education/Honors
 
      
  
-all -  [ How to set up RAG with Dolphin-mixtral-8x7b on ollama? ](https://www.reddit.com/r/ollama/comments/1aqt9v6/how_to_set_up_rag_with_dolphinmixtral8x7b_on/) , 2024-02-17-0909
+all -  [ How to set up RAG with Dolphin-mixtral-8x7b on ollama? ](https://www.reddit.com/r/ollama/comments/1aqt9v6/how_to_set_up_rag_with_dolphinmixtral8x7b_on/) , 2024-02-18-0910
 ```
 Hey I am new to all this AI stuff and I'm trying to do my first setup on linux. I've decided to run Dolphin-mixtral-8x7b
  on my machine but I would like if it could retrieve information from the internet or my documents but I have no Idea on
@@ -701,7 +880,7 @@ Can
 
      
  
-all -  [ Vector similarity check ](https://www.reddit.com/r/LangChain/comments/1aqt4w4/vector_similarity_check/) , 2024-02-17-0909
+all -  [ Vector similarity check ](https://www.reddit.com/r/LangChain/comments/1aqt4w4/vector_similarity_check/) , 2024-02-18-0910
 ```
 So I need to compare the similarity between 2 sentences contextually. I used tfIdVectorizer from sklearn to vectorize bo
 th sentences and then calculate the cosine distance between them. This works good until any of the sentence is not in En
@@ -713,7 +892,7 @@ distance is always too near around 0.7 even though both sentences are whole diff
 
      
  
-all -  [ How to persistently save a Parent Document Retriever? ](https://www.reddit.com/r/LangChain/comments/1aqijs9/how_to_persistently_save_a_parent_document/) , 2024-02-17-0909
+all -  [ How to persistently save a Parent Document Retriever? ](https://www.reddit.com/r/LangChain/comments/1aqijs9/how_to_persistently_save_a_parent_document/) , 2024-02-18-0910
 ```
 Hi,
 
@@ -736,7 +915,7 @@ Thank you for your help
 
      
  
-all -  [ How to retrieve document custom_id using source file name? ](https://www.reddit.com/r/LangChain/comments/1aqhlwg/how_to_retrieve_document_custom_id_using_source/) , 2024-02-17-0909
+all -  [ How to retrieve document custom_id using source file name? ](https://www.reddit.com/r/LangChain/comments/1aqhlwg/how_to_retrieve_document_custom_id_using_source/) , 2024-02-18-0910
 ```
 Is there any method to retrieve a document's custom_id using other attributes like the file name in Pgvector
 ```
@@ -744,7 +923,7 @@ Is there any method to retrieve a document's custom_id using other attributes li
 
      
  
-all -  [ Best German Embedding Model? ](https://www.reddit.com/r/LangChain/comments/1aqh168/best_german_embedding_model/) , 2024-02-17-0909
+all -  [ Best German Embedding Model? ](https://www.reddit.com/r/LangChain/comments/1aqh168/best_german_embedding_model/) , 2024-02-18-0910
 ```
 Hi,
 
@@ -790,7 +969,7 @@ a3e543beba43001b9017bd4e2df
 
      
  
-all -  [ My debut book on Generative AI is out !! ](https://www.reddit.com/r/GPT/comments/1aqewqs/my_debut_book_on_generative_ai_is_out/) , 2024-02-17-0909
+all -  [ My debut book on Generative AI is out !! ](https://www.reddit.com/r/GPT/comments/1aqewqs/my_debut_book_on_generative_ai_is_out/) , 2024-02-18-0910
 ```
 I am thrilled to announce the launch of my debut technical book, “***LangChain in your Pocket: Beginner’s Guide to Build
 ing Generative AI Applications using LLMs***” which is available on Amazon in Kindle, PDF and Paperback formats (bestsel
@@ -823,113 +1002,7 @@ till date. To know more, you can check [here](https://www.linkedin.com/in/mehulg
 
      
  
-all -  [ My debut book on Generative AI is out ! ](https://www.reddit.com/r/Chatbots/comments/1aqepbm/my_debut_book_on_generative_ai_is_out/) , 2024-02-17-0909
-```
-I am thrilled to announce the launch of my debut technical book, “***LangChain in your Pocket: Beginner’s Guide to Build
-ing Generative AI Applications using LLMs***” which is available on Amazon in Kindle, PDF and Paperback formats (bestsel
-ler on [Amazon.in](https://Amazon.in))
-
-&#x200B;
-
-https://preview.redd.it/l3cebhfyehic1.png?width=785&format=png&auto=we
-bp&s=deefed64ac7e8ec9d6e47f86c59d9c4fdaf0c8f6
-
-In this comprehensive guide, the readers will explore LangChain, a powerf
-ul Python/JavaScript framework designed for harnessing Generative AI. Through ***practical examples and hands-on*** exer
-cises, you’ll gain the skills necessary to develop a diverse range of AI applications, including Few-Shot Classification
-, Auto-SQL generators, Internet-enabled GPT, Multi-Document RAG and more.
-
-***Key Features:***\- Step-by-step code expla
-nations with expected outputs for each solution.- No prerequisites: If you know Python, you’re ready to dive in.- Practi
-cal, hands-on guide with minimal mathematical explanations.
-
-***Amazon*** : [https://www.amazon.com/LangChain-your-Pocke
-t-Generative-Applications-ebook/dp/B0CTHQHT25](https://www.amazon.com/LangChain-your-Pocket-Generative-Applications-eboo
-k/dp/B0CTHQHT25)
-
-***About me:***
-
-I'm a Senior Data Scientist at DBS Bank with about 5 years of experience in Data Scie
-nce & AI. Additionally, I manage 'Data Science in your Pocket', a [Medium Publication](https://medium.com/@mehulgupta_79
-91) & [YouTube channel](https://www.youtube.com/@datascienceinyourpocket/videos) with \~600 Data Science & AI tutorials 
-and a cumulative million views till date. To know more, you can check [here](https://www.linkedin.com/in/mehulgupta7991/
-)
-```
----
-
-     
- 
-all -  [ The agent doesn't know how to process custom tools with multiple parameters. ](https://www.reddit.com/r/LangChain/comments/1aqdo35/the_agent_doesnt_know_how_to_process_custom_tools/) , 2024-02-17-0909
-```
-I'm trying to use Cohere API to run an agent, but even though it was able to correctly fetch the necessary parameters fr
-om the query, it can't be properly passed into the custom tool with multiple parameter. I see it is not formatting the p
-arameters as required, what can I do to help it do as the formatting want?
-
-The link goes to the colab notebook with an 
-example.
-
-[https://colab.research.google.com/drive/1lShUML0qKM59Ds7Wr8eo4Z\_Nx8dxJ8f9?usp=sharing](https://colab.researc
-h.google.com/drive/1lShUML0qKM59Ds7Wr8eo4Z_Nx8dxJ8f9?usp=sharing)
-```
----
-
-     
- 
-all -  [ Not sure why langsmith hub doesn't work ](https://www.reddit.com/r/LangChain/comments/1aqaejb/not_sure_why_langsmith_hub_doesnt_work/) , 2024-02-17-0909
-```
-So I'm trying to use Langsmith Hub for my prompts. I've tested using:  
-prompt = hub.pull('hwchase17/openai-tools-agent'
-)  
-
-
-My script work fine. Now I want to add my own system prompt, so I've forked the above, and edited the system promp
-t.  
-
-
-But when I run the script now, I get this error:  
-KeyError: 'Input to ChatPromptTemplate is missing variables {'
-chat\_history'}.  Expected: \['agent\_scratchpad', 'chat\_history', 'input'\] Received: \['input', 'intermediate\_steps'
-, 'agent\_scratchpad'\]'  
-
-
-On langsmith hub, I've added the 'chat\_history'. But when i pull, for some reason it doesn
-'t pull through.  
-
-
-Any thoughts?
-```
----
-
-     
- 
-all -  [ What's the standard practice for setting initialization prompts and maintaining context when switchi ](https://www.reddit.com/r/OpenAIDev/comments/1aq79ab/whats_the_standard_practice_for_setting/) , 2024-02-17-0909
-```
-Hi I am trying to build a modularized LLM application using Langchain where within any individual conversation, the app 
-can seamless switch between multiple LLMs to respond to the query, for example:
-
-1. User: What's 1+ 1?
-2. App (GPT-3.5):
- 1+1 is 2
-3. User: Concatenate the last name of the current president of the US with the answer from your last response
-
-4. App (Gemini Ultra): Biden2
-
-I have two technical questions that I hope this subreddit can help answer:
-
-1. What's the
- standard practice for setting the initialization prompts or background prompts? For example I want to tell this App tha
-t 'your name is Bob', and I want this App to continuously remember it's Bob regardless how long the conversation has got
-ten or any switching between LLMs. Do I set this at the beginning of the conversation or before every single response?
-2
-. What's the standard practice for conversation memory management when there's switching of LLM involved within one conv
-ersation? Do I store all the conversation history within a vector database and do a index search prior to any individual
- response?
-```
----
-
-     
- 
-all -  [ [D] What's the standard practice for setting initialization prompts and maintaining context when swi ](https://www.reddit.com/r/MachineLearning/comments/1aq78ao/d_whats_the_standard_practice_for_setting/) , 2024-02-17-0909
+MachineLearning -  [ [D] What's the standard practice for setting initialization prompts and maintaining context when swi ](https://www.reddit.com/r/MachineLearning/comments/1aq78ao/d_whats_the_standard_practice_for_setting/) , 2024-02-18-0910
 ```
 Hi I am trying to build a modularized LLM application using Langchain where within any individual conversation the app c
 an seamless switch between multiple LLMs to respond to the query, for example:
@@ -956,7 +1029,7 @@ response?
 
      
  
-MachineLearning -  [ Whats in your RAG setup? [D] ](https://www.reddit.com/r/MachineLearning/comments/1apcp2w/whats_in_your_rag_setup_d/) , 2024-02-17-0909
+MachineLearning -  [ Whats in your RAG setup? [D] ](https://www.reddit.com/r/MachineLearning/comments/1apcp2w/whats_in_your_rag_setup_d/) , 2024-02-18-0910
 ```
 What frameworks and libraries are you using in your RAG? 
 
@@ -977,7 +1050,7 @@ in to load document splitters and characters splitters for chunking
 
      
  
-MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-17-0909
+MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-18-0910
 ```
 I've tried things like langchain in the past (6-8 months ago) but they were cumbersome and didn't work as expected.
 
@@ -995,7 +1068,7 @@ ing RAG (compared to 6 months ago)
 
      
  
-MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-17-0909
+MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-18-0910
 ```
 Hey Reddit, I've been applying for jobs and found that writing a cover letter for each position was tedious. I also delv
 ed into LLM and Langchain, hoping to leverage them for a project to aid in my job hunting. So, I developed Anukool under
@@ -1012,7 +1085,7 @@ ithub.com/dakshesh14/anukool
 
      
  
-MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-02-17-0909
+MachineLearning -  [ New Data API for Astra [N] ](https://www.reddit.com/r/MachineLearning/comments/199uobn/new_data_api_for_astra_n/) , 2024-02-18-0910
 ```
 I saw that DataStax/Astra DB [just released a new Data API to help with building production GenAI and RAG applications](
 https://www.datastax.com/blog/general-availability-data-api-for-enhanced-developer-experience). This API makes the prove
@@ -1027,7 +1100,7 @@ build-a-real-time-rag-app-on-wikipedia-with-langchain-and-vercel)
 
      
  
-MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-02-17-0909
+MachineLearning -  [ [D] While using function calling or tools on openai or langchain, does openai have access to the dat ](https://www.reddit.com/r/MachineLearning/comments/199t8be/d_while_using_function_calling_or_tools_on_openai/) , 2024-02-18-0910
 ```
 I am working on a client project and I am using langchain's tools and agents. I want to know if the data is getting pass
 ed to openai or is it just like that - Output of one function is being directly passed to the second function with the k
@@ -1037,7 +1110,7 @@ nowledge of openai.
 
      
  
-deeplearning -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-02-17-0909
+deeplearning -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-02-18-0910
 ```
 Embark on a journey through the digital cosmos with WebVoyager, a groundbreaking Large Multimodal Model (LMM) web agent 
 designed to navigate the vastness of the online universe. In collaboration with Langchain, WebVoyager represents a parad
@@ -1052,7 +1125,7 @@ os-with-langgraph-multimodal-models-dace64196c2f)
 
      
  
-deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-17-0909
+deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-18-0910
 ```
 In the dynamic realm of natural language processing, a revolutionary synergy has emerged between Langchain and Step-Back
  Prompting. This article delves into the transformative collaboration, exploring how Langchain’s cutting-edge platform i
@@ -1069,7 +1142,7 @@ k-prompting-using-ragatouille-b433e6f200ea
 
      
  
-deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-17-0909
+deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-18-0910
 ```
 Just sharing a free series I stumbled across on Linkedin - DataCamp's 9-part AI code-along series.
 
@@ -1089,7 +1162,7 @@ Find
 
      
  
-deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-17-0909
+deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-18-0910
 ```
 DSPy is the next big advancement for AI and building applications with LLMs!
 
