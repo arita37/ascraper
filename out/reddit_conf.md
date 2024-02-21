@@ -1,90 +1,163 @@
  
-all -  [ [D] Undergrad ML PhD wannabe: big lab or small lab? ](https://www.reddit.com/r/MachineLearning/comments/1atzdsz/d_undergrad_ml_phd_wannabe_big_lab_or_small_lab/) , 2024-02-20-0909
+all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-02-21-0909
 ```
-I'm a 3rd year at a T5 (or T10, idk how rankings work) school, and I've been doing research since high school. I've got 
-a few publications under my belt and my professor (at a different T3 institution) is expecting my current work will get 
-me a first authorship to Nature Medicine (or a similar top journal). It's all been applied ML/DL work, especially in red
-ucing the cost of healthcare.  I've been keeping up a high GPA (It'll be, at worst, 3.85+ by the time I graduate, more l
-ikely to be closer to 4.0) and I've been trying to plan out the rest of this year to set myself up as well as I can for 
-an ML PhD at a school at least as good as the one I'm at right now.
+GovAI was founded to help humanity navigate the transition to a world with advanced AI. Our first research agenda, publi
+shed in 2018, helped define and shape the nascent field of AI governance. Our team and affiliate community possess exper
+tise in a wide variety of domains, including AI regulation, responsible development practices, compute governance, AI co
+mpany corporate governance, US-China relations, and AI progress forecasting.  
+GovAI researchers — particularly those wo
+rking within our Policy Team — have closely advised decision makers in government, industry, and civil society. Our rese
+archers have also published in top peer-reviewed journals and conferences, including International Organization, NeurIPS
+, and Science. Our alumni have gone on to roles in government, in both the US and UK; top AI companies, including DeepMi
+nd, OpenAI, and Anthropic; top think tanks, including the Centre for Security and Emerging Technology and RAND; and top 
+universities, including the University of Oxford and the University of Cambridge.  
+Although we are based in Oxford, Uni
+ted Kingdom — and currently have an especially large UK policy focus — we also have team members in the United States an
+d European Union.  
+‍  
+About the Role  
+Research Scholar is a one-year visiting position. It is designed to support the
+ career development of AI governance researchers and practitioners — as well as to offer them an opportunity to do high-
+impact work.  
+As a Research Scholar, you will have freedom to pursue a wide range of styles of work. This could include
+ conducting policy research, social science research, or technical research; engaging with and advising policymakers; or
+ launching and managing applied projects.   
+For example, past and present Scholars have used the role to:  
+produce an 
+influential report on the benefits and risks of open-source AI;  
+conduct technical research into questions that bear on
+ compute governance;  
+take part in the UK policy-making process as a part-time secondee in the UK government; and  
+lau
+nch a new organisation to facilitate international AI governance dialogues.  
+Over the course of the year, you will also
+ deepen your understanding of the field, connect with a network of experts, and build your skills and professional profi
+le, all while working within an institutional home that offers both flexibility and support.  
+You will receive research
+ supervision from a member of the GovAI team or network. The frequency of supervisor meetings and feedback will vary dep
+ending on supervisor availability, although once-a-week or once-every-two-weeks supervision meetings are typical. There 
+will also be a number of additional opportunities for Research Scholars to receive feedback, including internal work-in-
+progress seminars. You will receive further support from Emma Bluemke, GovAI's Research Manager.  
+Some Research Scholar
+s may also — depending on the focus of their work — take part in GovAI’s Policy Team, which is led by Markus Anderljung.
+ Members of the GovAI Policy Team do an especially large amount of policy engagement and coordinate their work more subs
+tantially. They also have additional team meetings and retreats. While Policy Team members retain significant freedom to
+ choose projects, there is also an expectation that a meaningful portion of their work will fit into the team’s joint pr
+iorities.
 
-My main research interests are more directly relate
-d to ML, and that's what I want to study. This is why I'm trying to pivot away from all the highly applied domain-specif
-ic work I've been doing and do something that's more akin to what I actually want to work on. I'm trying to pick a lab, 
-any general advice would be greatly appreciated! :)
+**Read more / apply:** [**https://ai-jobs.net/job/139016-research-scholar-technical-research/**](https://ai-j
+obs.net/job/139016-research-scholar-technical-research/)
 
-Right now, I have two options: one confirmed and the other still un
-sure, but something I'm optimistic about.
-
-**Lab 1**  
-***Pros:***
-
-* This professor has worked with a few really famous
- people in AI/ML in the past (so great connections with two top-top schools as well as in industry), has a huge lab, sub
-stantial experience, and exponential citation growth. Of course, publishes to top journals.
-* This is basically confirme
-d at this point.
-
-***Cons:***
-
-* Might it be harder to stand out and do good work? Huge lab, not directly working under 
-the prof, rather I'm working under a PhD student and a postdoc. However, they've told me that they want to give me oppor
-tunities to succeed, not just do software engineering work but actually come up with ideas of my own. They said they did
-n't want to guarantee first authorship, but did mention that if I worked full time over the summer (which I plan on doin
-g), I'll be treated like just another PhD student and might have a chance at that. The PI did recommend I try to get a m
-aster's degree in a year via the integrated bachelor's-master's program, saying that 'research is nonlinear, it might be
- worth it to stick to it for another year rather than go to a mid-tier program', so yeah.
-* While I've been given flexib
-ility to pick new projects within this huge lab, in general everything's sort of adjacent to my very specific research i
-nterests. I'm still very interested in the work and motivated to do cool stuff, but it's not perfectly there. (This is n
-ot really a con, but the concern might be in there being a slight mismatch in the work of my PhD's PI and what I might b
-e working on).
-
-**Lab 2**  
-***Pros:***
-
-* This professor has exponential citation growth and has research interests in 
-my very specific area of interest. His lab hasn't really done a lot of work in that area though, so there might be oppor
-tunities there to really do good work?
-* Small lab, easier to stand out? There's been one (non-CS) student there and she
- has a few NeurIPS publications (second authorships) in her last year, as well as a first authorship to a decent journal
-. (I have no way of determining this for the first lab.)
-
-***Cons:***
-
-* Seemingly limited connectedness, he's worked wi
-th some people from Deepmind and my school, but it doesn't seem to have a famous academic lineage like the professor fro
-m Lab 1.
-* Not yet sure about tangible research opportunities - I might spend some time doing busywork from what she's i
-ndicated.
-* This specific area of work I'm interested in is really challenging (essentially building neuroscience-inspir
-ed alternatives to backprop), and I don't know if it's way too ambitious to pursue it at this stage.
-
-**Other Options/Co
-nsiderations**
-
-I can try to apply to other labs and see if there's anything better. Right now, the only consideration i
-s a more junior professor with similar connectedness and research focus as lab 1 (but a much smaller lab), but from what
- I've been told he's not actively recruiting and I might need to make a substantial effort to get in. There are also som
-e very famous professors at my school, but they generally don't seem to be recruiting that much or willing to give oppor
-tunities to undergrads, and a lot of them are in that retirement plateau.
-
-Additionally, through my current professor at
- the T3 school, I might have an opportunity to co-author a review article about the research I'm really interested in wi
-th a very famous professor (pioneer in AI). This is not confirmed at all, but it might affect how I think by complementi
-ng my work at my own school. For one, it might make sense to go to lab 1 when I'm getting a chance to work on the stuff 
-I really love in parallel. On the other hand, his fame and the value that might bring to the rec letter might offset any
- lack of connectedness the second lab might have. But again, none of this is confirmed and things could go wrong.
-
-The t
-ruth is, I don't really know what I'm doing because I've never really been in this situation before. If someone with mor
-e experience could give me pointers that would be enormously appreciated! Thank you!!
+&#x200B;
 ```
 ---
 
      
  
-all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-02-20-0909
+all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-02-21-0909
+```
+I'm in the process of deciding on my masters thesis in Data Science. The professor that I have been communicating with o
+ffered me to join a team that would submit their research to NeurIPS. On the other hand, the topic of the research does 
+not perfectly align with my interests (i.e., Quantitative Finance).
+
+Should I pursue a thesis that would put a NeurIPS c
+onference in my CV, or do a topic that is more related to my field of interest? Would like to know people's opinions and
+ experiences, thanks!
+```
+---
+
+     
+ 
+all -  [ [D] Picking an ML lab as an undergraduate: big, established lab or small, focused lab? ](https://www.reddit.com/r/MachineLearning/comments/1avie4g/d_picking_an_ml_lab_as_an_undergraduate_big/) , 2024-02-21-0909
+```
+Some background: I'm a third-year trying really hard for a PhD at a good school (a crapshoot, I know). I go to a solid s
+chool for CS and have some basics like a good GPA, plus I've been doing some applied work in healthcare at a T3, expecti
+ng a first authorship at a top medical journal.
+
+But what I'm interested in machine learning itself, not necessarily its
+ applications in a specific field where the cleverness comes from applications rather than new fundamental ideas.
+
+To th
+is end, I've been trying to find a new lab at my school (which will also serve as my home institution rec) to work on ha
+rdcore over this year. With help from the professor at the T3 I worked at, I shortlisted a bunch of professors, and my t
+op two picks have either guaranteed a position in the lab (Lab 1) or strongly implied it (Lab 2). The goal here is to pr
+epare myself well for a PhD, and so I think the advice that's usually given for PhD students trying to pick labs differs
+ a bit from this.
+
+**Lab 1**  
+***Pros:***
+
+* This professor has worked with a few really famous people in AI/ML in the 
+past (so great connections with two top-top schools as well as in industry), has a huge lab, substantial experience, and
+ exponential citation growth. Of course, publishes to top journals.
+* This is basically confirmed at this point.
+
+***Con
+s:***
+
+* Might it be harder to stand out and do good work? Huge lab, not directly working under the prof, rather I'm wor
+king under a PhD student and a postdoc. However, they've told me that they want to give me opportunities to succeed, not
+ just do software engineering work but actually come up with ideas of my own. They said they didn't want to guarantee fi
+rst authorship, but did mention that if I worked full time over the summer (which I plan on doing), I'll be treated like
+ just another PhD student and might have a chance at that. The PI did recommend I try to get a master's degree in a year
+ via the integrated bachelor's-master's program, saying that 'research is nonlinear, it might be worth it to stick to it
+ for another year rather than go to a mid-tier program', so yeah.
+* While I've been given flexibility to pick new projec
+ts within this huge lab, in general everything's sort of adjacent to my very specific research interests. I'm still very
+ interested in the work and motivated to do cool stuff, but it's not perfectly there. (This is not really a con, but the
+ concern might be in there being a slight mismatch in the work of my PhD's PI and what I might be working on).
+
+**Lab 2*
+*  
+***Pros:***
+
+* This professor has exponential citation growth and has research interests in my very specific area of
+ interest. His lab hasn't really done a lot of work in that area though, so there might be opportunities there to really
+ do good work?
+* Small lab, easier to stand out? There's been one (non-CS) student there and she has a few NeurIPS publi
+cations (second authorships) in her last year, as well as a first authorship to a decent journal. (I have no way of dete
+rmining this for the first lab.)
+
+***Cons:***
+
+* Seemingly limited connectedness, he's worked with some people from Deep
+mind and my school, but it doesn't seem to have a famous academic lineage like the professor from Lab 1.
+* Not yet sure 
+about tangible research opportunities - I might spend some time doing busywork from what she's indicated.
+* This specifi
+c area of work I'm interested in is really challenging (essentially building neuroscience-inspired alternatives to backp
+rop), and I don't know if it's way too ambitious to pursue it at this stage.
+
+**Other Options/Considerations**
+
+I can tr
+y to apply to other labs and see if there's anything better. Right now, the only consideration is a more junior professo
+r with similar connectedness and research focus as lab 1 (but a much smaller lab), but from what I've been told he's not
+ actively recruiting and I might need to make a substantial effort to get in. There are also some very famous professors
+ at my school, but they generally don't seem to be recruiting that much or willing to give opportunities to undergrads, 
+and a lot of them are in that retirement plateau.
+
+There's also an esteemed professor at my school that a PhD student re
+commended I'd contact, he's recently been getting interested in biologically-motivated AI, and so I might try contacting
+ him as well. The concern there might be that by aspiring to some really, really difficult work, I might not have much t
+hat's tangible to show for it at the end of the process.
+
+Additionally, through my current professor at the T3 school, I
+ might have an opportunity to co-author a review article about the research I'm really interested in with a very famous 
+professor (pioneer in AI). This is not confirmed at all, but it might affect how I think by complementing my work at my 
+own school. For one, it might make sense to go to lab 1 when I'm getting a chance to work on the stuff I really love in 
+parallel. On the other hand, his fame and the value that might bring to the rec letter might offset any lack of connecte
+dness the second lab might have. But again, none of this is confirmed and things could go wrong.
+
+The truth is, I don't 
+really know what I'm doing because I've never really been in this situation before. If someone with more experience coul
+d give me pointers that would be enormously appreciated! Thank you!!
+```
+---
+
+     
+ 
+all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-02-21-0909
 ```
 I didn’t have the opportunity to attend many conferences during my undergrad because they were usually expensive and req
 uired traveling. But I’ve recently started working as a backend SWE and definitely want to start attending more conferen
@@ -102,7 +175,7 @@ So, I just wanted to hear
 
      
  
-all -  [ Tough job market advice on how to proceed? ](https://www.reddit.com/r/computervision/comments/1atbsty/tough_job_market_advice_on_how_to_proceed/) , 2024-02-20-0909
+all -  [ Tough job market advice on how to proceed? ](https://www.reddit.com/r/computervision/comments/1atbsty/tough_job_market_advice_on_how_to_proceed/) , 2024-02-21-0909
 ```
 Fortunately I am currently employeed but searching for new opportunities.
 
@@ -135,7 +208,7 @@ mes I respond with idk don’t need to know right now and if I did I could look 
 
      
  
-all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-02-20-0909
+all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-02-21-0909
 ```
 Since SORA was teased, I've heard a lot of pro-AI folks dragging up old comments from anti-AI folks saying that AI is dy
 ing and will always be terrible, and this is entirely fair. But it's important to also remember that some of the critici
@@ -188,7 +261,7 @@ peared in ever-improving wagon wheels.
 
      
  
-all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-02-20-0909
+all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-02-21-0909
 ```
 Hi I have these research conferences that are of my interest! (Area: Applied AI and Social NLP)
 
@@ -209,7 +282,7 @@ uld be much appreciated!
 
      
  
-all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-02-20-0909
+all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-02-21-0909
 ```
 Hi!
 
@@ -238,7 +311,7 @@ Thanks in
 
      
  
-all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-02-20-0909
+all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-02-21-0909
 ```
 Hi!
 
@@ -267,7 +340,7 @@ Thanks in advance :)
 
      
  
-all -  [ Wat betekent 'maandelijks de testknop indrukken' in de meterkast? ](https://i.redd.it/9gkltksaaxhc1.png) , 2024-02-20-0909
+all -  [ Wat betekent 'maandelijks de testknop indrukken' in de meterkast? ](https://i.redd.it/9gkltksaaxhc1.png) , 2024-02-21-0909
 ```
 
 ```
@@ -275,7 +348,7 @@ all -  [ Wat betekent 'maandelijks de testknop indrukken' in de meterkast? ](htt
 
      
  
-all -  [ Faith and Fate: Limits of Transformers on Compositionality [R] ](https://www.reddit.com/r/MachineLearning/comments/1amzb52/faith_and_fate_limits_of_transformers_on/) , 2024-02-20-0909
+all -  [ Faith and Fate: Limits of Transformers on Compositionality [R] ](https://www.reddit.com/r/MachineLearning/comments/1amzb52/faith_and_fate_limits_of_transformers_on/) , 2024-02-21-0909
 ```
 Edit: Kevin Murphy,  Francois Chollet, Vitaly Kurin and others recommended this paper (some very highly)
 
@@ -307,7 +380,7 @@ ent 'success' is just due to unreliable pattern matching / shortcut learning.'
 
      
  
-all -  [ [D] concerns about the series of works in reflexion(self-adjustment)-powered LLM agent ](https://www.reddit.com/r/MachineLearning/comments/1am3ior/d_concerns_about_the_series_of_works_in/) , 2024-02-20-0909
+all -  [ [D] concerns about the series of works in reflexion(self-adjustment)-powered LLM agent ](https://www.reddit.com/r/MachineLearning/comments/1am3ior/d_concerns_about_the_series_of_works_in/) , 2024-02-21-0909
 ```
 we see tons of works in LLM-based agent which can perform tasks on web applications such as webshop, [webarena](https://
 github.com/web-arena-x/webarena),  [agentbench](https://github.com/THUDM/AgentBench/tree/main)etc...
@@ -348,7 +421,7 @@ Would like to hear from you in view of academic and industry.
 
      
  
-all -  [ [R] Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning ](https://www.reddit.com/r/MachineLearning/comments/1am1v5f/r_long_is_more_for_alignment_a_simple_but/) , 2024-02-20-0909
+all -  [ [R] Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning ](https://www.reddit.com/r/MachineLearning/comments/1am1v5f/r_long_is_more_for_alignment_a_simple_but/) , 2024-02-21-0909
 ```
 **Title**: Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning
 
@@ -373,7 +446,7 @@ n fine-tuning.
 
      
  
-all -  [ [R] Persistent homology and topological data analysis helped robust detection of AI-generated texts ](https://www.reddit.com/r/MachineLearning/comments/1aky8xt/r_persistent_homology_and_topological_data/) , 2024-02-20-0909
+all -  [ [R] Persistent homology and topological data analysis helped robust detection of AI-generated texts ](https://www.reddit.com/r/MachineLearning/comments/1aky8xt/r_persistent_homology_and_topological_data/) , 2024-02-21-0909
 ```
 The main idea is that text data can be presented as points in some high-dimensional space. It can be assumed that the da
 taset fits into some surface in it. The problem is that such a surface may have fractal characteristics, so complex math
@@ -403,7 +476,7 @@ ublished in the proceedings of the NeurIPS 2023 conference.
 
      
  
-all -  [ IS THIS A GOOD ROADMAP TO LEARN PYTHON? ](https://www.reddit.com/r/learnpython/comments/1ak8v9p/is_this_a_good_roadmap_to_learn_python/) , 2024-02-20-0909
+all -  [ IS THIS A GOOD ROADMAP TO LEARN PYTHON? ](https://www.reddit.com/r/learnpython/comments/1ak8v9p/is_this_a_good_roadmap_to_learn_python/) , 2024-02-21-0909
 ```
 . Python Basics:  
 Resources:  
@@ -486,7 +559,7 @@ y, and edX.
 
      
  
-all -  [ IS THIS A GOOD ROADMAP FOR MASCHINE LEARNING? ](https://www.reddit.com/r/learnmachinelearning/comments/1ak8qxi/is_this_a_good_roadmap_for_maschine_learning/) , 2024-02-20-0909
+all -  [ IS THIS A GOOD ROADMAP FOR MASCHINE LEARNING? ](https://www.reddit.com/r/learnmachinelearning/comments/1ak8qxi/is_this_a_good_roadmap_for_maschine_learning/) , 2024-02-21-0909
 ```
  
 
@@ -590,7 +663,7 @@ Conferences like NeurIPS, ICML
 
      
  
-all -  [ Cape to Carthage: documentary about an all African, female-led AI research team rising against the o ](https://www.reddit.com/r/MachineLearning/comments/1ajkh13/cape_to_carthage_documentary_about_an_all_african/) , 2024-02-20-0909
+all -  [ Cape to Carthage: documentary about an all African, female-led AI research team rising against the o ](https://www.reddit.com/r/MachineLearning/comments/1ajkh13/cape_to_carthage_documentary_about_an_all_african/) , 2024-02-21-0909
 ```
 In the world of AI, Africa has a reputation for being a missing continent. Follow an underdog, female-led, all-African r
 esearch team as they compete with tech giants and top universities for a spot at the top international AI research confe
@@ -603,7 +676,7 @@ age/).
 
      
  
-all -  [ Actor Critic with q-function approximation not converging ](https://www.reddit.com/r/reinforcementlearning/comments/1aj2zey/actor_critic_with_qfunction_approximation_not/) , 2024-02-20-0909
+all -  [ Actor Critic with q-function approximation not converging ](https://www.reddit.com/r/reinforcementlearning/comments/1aj2zey/actor_critic_with_qfunction_approximation_not/) , 2024-02-21-0909
 ```
 Recently I have been trying to implement the actor critic described in this [paper](https://proceedings.neurips.cc/paper
 /1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html).
@@ -632,7 +705,7 @@ there are still issues with convergence and the model becoming overconfident cau
 
      
  
-all -  [ [D] Publishing Negative Results ](https://www.reddit.com/r/MachineLearning/comments/1aikp5f/d_publishing_negative_results/) , 2024-02-20-0909
+all -  [ [D] Publishing Negative Results ](https://www.reddit.com/r/MachineLearning/comments/1aikp5f/d_publishing_negative_results/) , 2024-02-21-0909
 ```
 I‘ve been working on a ML research project, and unfortunately, the results don‘t align with my hypothesis. I‘ve gotten n
 egative results.
@@ -649,7 +722,7 @@ ove successful?
 
      
  
-all -  [ AI alignment prize suggestion: Introduce AI Safety concepts into the ML community ](https://www.reddit.com/r/AIsafetyideas/comments/1aiglw9/ai_alignment_prize_suggestion_introduce_ai_safety/) , 2024-02-20-0909
+all -  [ AI alignment prize suggestion: Introduce AI Safety concepts into the ML community ](https://www.reddit.com/r/AIsafetyideas/comments/1aiglw9/ai_alignment_prize_suggestion_introduce_ai_safety/) , 2024-02-21-0909
 ```
 Recently, there have been several papers published at top ML conferences that introduced concepts from the AI safety com
 munity into the broader ML community. Such papers often define a problem, explain why it matters, sometimes formalise it
@@ -664,7 +737,7 @@ cept of AI alignment.
 
      
  
-all -  [ [D] questions on ICML 2024 submission timeline ](https://www.reddit.com/r/MachineLearning/comments/1ahxe7t/d_questions_on_icml_2024_submission_timeline/) , 2024-02-20-0909
+all -  [ [D] questions on ICML 2024 submission timeline ](https://www.reddit.com/r/MachineLearning/comments/1ahxe7t/d_questions_on_icml_2024_submission_timeline/) , 2024-02-21-0909
 ```
 Hello all!
 
@@ -685,7 +758,7 @@ thanks!
 
      
  
-all -  [ Picked up all these Tapes today! ](https://i.redd.it/pcbd29avx1gc1.jpeg) , 2024-02-20-0909
+all -  [ Picked up all these Tapes today! ](https://i.redd.it/pcbd29avx1gc1.jpeg) , 2024-02-21-0909
 ```
 Found this whole lot at VV for the grand total of $5.99! Lots of them still have the original Sony store tags on them!
 ```
@@ -693,7 +766,7 @@ Found this whole lot at VV for the grand total of $5.99! Lots of them still have
 
      
  
-all -  [ Academic journal or conference for AI safety ](https://www.reddit.com/r/AIsafetyideas/comments/1agmkg5/academic_journal_or_conference_for_ai_safety/) , 2024-02-20-0909
+all -  [ Academic journal or conference for AI safety ](https://www.reddit.com/r/AIsafetyideas/comments/1agmkg5/academic_journal_or_conference_for_ai_safety/) , 2024-02-21-0909
 ```
 To help boost the prestige of safety research, leading to more people starting the career.
 
@@ -723,7 +796,7 @@ might focus on scientific novelty and complicated/'cool' papers, this conference
 
      
  
-all -  [ Research Advances in Transformer Time Series Forecasting Models ](https://www.reddit.com/r/deeplearning/comments/1ag4xfp/research_advances_in_transformer_time_series/) , 2024-02-20-0909
+all -  [ Research Advances in Transformer Time Series Forecasting Models ](https://www.reddit.com/r/deeplearning/comments/1ag4xfp/research_advances_in_transformer_time_series/) , 2024-02-21-0909
 ```
 Just published a new article describing [recent advances in the deep learning for time series](https://medium.com/deep-d
 ata-science/advances-in-deep-learning-for-time-series-forecasting-classification-winter-2024-a3fd31b875b0) forecasting a
@@ -734,7 +807,7 @@ s like DLinear. I also critiqued some problematic and flawed papers such as Time
 
      
  
-all -  [ How much am I worth? ~Big Tech Specialty Research Scientist ](https://www.reddit.com/r/Salary/comments/1afrju3/how_much_am_i_worth_big_tech_specialty_research/) , 2024-02-20-0909
+all -  [ How much am I worth? ~Big Tech Specialty Research Scientist ](https://www.reddit.com/r/Salary/comments/1afrju3/how_much_am_i_worth_big_tech_specialty_research/) , 2024-02-21-0909
 ```
 **Face value experience:**  
 I have a PhD in mathematical optimization, with expertise in signal processing, with public
@@ -785,7 +858,7 @@ nus, stock, and wahtever else... (Ive never gotten a big tech offer)
 
      
  
-all -  [ Regret bounds in reinforcement learning ](https://www.reddit.com/r/reinforcementlearning/comments/1aeiexo/regret_bounds_in_reinforcement_learning/) , 2024-02-20-0909
+all -  [ Regret bounds in reinforcement learning ](https://www.reddit.com/r/reinforcementlearning/comments/1aeiexo/regret_bounds_in_reinforcement_learning/) , 2024-02-21-0909
 ```
 I’ve been away from reading theoretical reinforcement learning papers for a couple of years and was getting curious on h
 ow the field has progressed since then. Last time I checked, there was a paper that claimed that they closed the upper a
@@ -799,7 +872,7 @@ omeone can point to a follow up paper, I’d really appreciate it!
 
      
  
-all -  [ [R] Thoughts about ML theory papers in conferences like International Symposium on Information Theor ](https://www.reddit.com/r/MachineLearning/comments/1abwmal/r_thoughts_about_ml_theory_papers_in_conferences/) , 2024-02-20-0909
+all -  [ [R] Thoughts about ML theory papers in conferences like International Symposium on Information Theor ](https://www.reddit.com/r/MachineLearning/comments/1abwmal/r_thoughts_about_ml_theory_papers_in_conferences/) , 2024-02-21-0909
 ```
 I have published a few papers in conferences like the International Symposium on Information Theory (ISIT) and Allerton.
  However, when I apply for internship positions, the applications sometimes ask about the number of published papers in 
@@ -813,7 +886,7 @@ ences, and I would say s/he likes to 'play safe' and avoids taking any risks at 
 
      
  
-all -  [ Acceptance rate of workshops in conferences [D] ](https://www.reddit.com/r/MachineLearning/comments/19do6qn/acceptance_rate_of_workshops_in_conferences_d/) , 2024-02-20-0909
+all -  [ Acceptance rate of workshops in conferences [D] ](https://www.reddit.com/r/MachineLearning/comments/19do6qn/acceptance_rate_of_workshops_in_conferences_d/) , 2024-02-21-0909
 ```
 From the Internet I easily found the acceptance rate of conferences but what is the acceptance rate of workshops conduct
 ed in conferences like AISTATS/CVPR/Neurips/ICML? 
@@ -822,7 +895,7 @@ ed in conferences like AISTATS/CVPR/Neurips/ICML?
 
      
  
-all -  [ What Bodies Think About: Bioelectric Computation Outside the Nervous System - NeurIPS 2018 ](https://youtu.be/RjD1aLm4Thg?si=j1-jVO--H2lGHaUf) , 2024-02-20-0909
+all -  [ What Bodies Think About: Bioelectric Computation Outside the Nervous System - NeurIPS 2018 ](https://youtu.be/RjD1aLm4Thg?si=j1-jVO--H2lGHaUf) , 2024-02-21-0909
 ```
 One of the best lectures I’ve ever watched! This might sound boring because it’s presented that way, but this has the po
 tential to to enlighten you!
@@ -831,7 +904,7 @@ tential to to enlighten you!
 
      
  
-all -  [ I read through the NeurIPS 2023 Abstracts and wrote about it ](https://alexzhang13.github.io/blog/2024/neurips2023) , 2024-02-20-0909
+all -  [ I read through the NeurIPS 2023 Abstracts and wrote about it ](https://alexzhang13.github.io/blog/2024/neurips2023) , 2024-02-21-0909
 ```
 I made this resource that I think might be quite useful here, especially for those looking to find some new, relevant wo
 rks to read or use for their own projects. It discusses the content from roughly 300 papers, but the topics broadly pert
@@ -841,7 +914,7 @@ ain to all of NeurIPS 2023. Happy reading!
 
      
  
-all -  [ Advancements in machine learning for machine learning ](https://www.reddit.com/r/worldTechnology/comments/19c2sch/advancements_in_machine_learning_for_machine/) , 2024-02-20-0909
+all -  [ Advancements in machine learning for machine learning ](https://www.reddit.com/r/worldTechnology/comments/19c2sch/advancements_in_machine_learning_for_machine/) , 2024-02-21-0909
 ```
 With the recent and accelerated advances in machine learning (ML), machines can understand natural language, engage in c
 onversations, draw images, create videos and more. Modern ML models are programmed and trained using ML programming fram
