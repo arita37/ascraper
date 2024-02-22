@@ -1,5 +1,25 @@
  
-all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-02-21-0909
+all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-02-22-0909
+```
+Hi!
+
+I'm starting with a simple peg-in-hole task but it's hard to converge whether using dense or sparse reward.
+
+For th
+e sparse reward, the trick of random goal position is used in this [paper](https://proceedings.neurips.cc/paper_files/pa
+per/2017/hash/453fadbd8a1a3af50a9df4df899537b5-Abstract.html) to help converge. Is there any **smart** trick that has be
+en used to help converge for peg-in-hole tasks?
+
+BTW, are there any recommended open-source repos regarding peg-in-hole 
+tasks?
+
+Any help would be appreciated! Thanks!
+```
+---
+
+     
+ 
+all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-02-22-0909
 ```
 GovAI was founded to help humanity navigate the transition to a world with advanced AI. Our first research agenda, publi
 shed in 2018, helped define and shape the nascent field of AI governance. Our team and affiliate community possess exper
@@ -54,7 +74,7 @@ obs.net/job/139016-research-scholar-technical-research/)
 
      
  
-all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-02-21-0909
+all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-02-22-0909
 ```
 I'm in the process of deciding on my masters thesis in Data Science. The professor that I have been communicating with o
 ffered me to join a team that would submit their research to NeurIPS. On the other hand, the topic of the research does 
@@ -68,7 +88,7 @@ onference in my CV, or do a topic that is more related to my field of interest? 
 
      
  
-all -  [ [D] Picking an ML lab as an undergraduate: big, established lab or small, focused lab? ](https://www.reddit.com/r/MachineLearning/comments/1avie4g/d_picking_an_ml_lab_as_an_undergraduate_big/) , 2024-02-21-0909
+all -  [ [D] Picking an ML lab as an undergraduate: big, established lab or small, focused lab? ](https://www.reddit.com/r/MachineLearning/comments/1avie4g/d_picking_an_ml_lab_as_an_undergraduate_big/) , 2024-02-22-0909
 ```
 Some background: I'm a third-year trying really hard for a PhD at a good school (a crapshoot, I know). I go to a solid s
 chool for CS and have some basics like a good GPA, plus I've been doing some applied work in healthcare at a T3, expecti
@@ -157,7 +177,7 @@ d give me pointers that would be enormously appreciated! Thank you!!
 
      
  
-all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-02-21-0909
+all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-02-22-0909
 ```
 I didn’t have the opportunity to attend many conferences during my undergrad because they were usually expensive and req
 uired traveling. But I’ve recently started working as a backend SWE and definitely want to start attending more conferen
@@ -175,7 +195,7 @@ So, I just wanted to hear
 
      
  
-all -  [ Tough job market advice on how to proceed? ](https://www.reddit.com/r/computervision/comments/1atbsty/tough_job_market_advice_on_how_to_proceed/) , 2024-02-21-0909
+all -  [ Tough job market advice on how to proceed? ](https://www.reddit.com/r/computervision/comments/1atbsty/tough_job_market_advice_on_how_to_proceed/) , 2024-02-22-0909
 ```
 Fortunately I am currently employeed but searching for new opportunities.
 
@@ -208,7 +228,7 @@ mes I respond with idk don’t need to know right now and if I did I could look 
 
      
  
-all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-02-21-0909
+all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-02-22-0909
 ```
 Since SORA was teased, I've heard a lot of pro-AI folks dragging up old comments from anti-AI folks saying that AI is dy
 ing and will always be terrible, and this is entirely fair. But it's important to also remember that some of the critici
@@ -261,7 +281,7 @@ peared in ever-improving wagon wheels.
 
      
  
-all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-02-21-0909
+all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-02-22-0909
 ```
 Hi I have these research conferences that are of my interest! (Area: Applied AI and Social NLP)
 
@@ -282,7 +302,7 @@ uld be much appreciated!
 
      
  
-all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-02-21-0909
+all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-02-22-0909
 ```
 Hi!
 
@@ -311,7 +331,7 @@ Thanks in
 
      
  
-all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-02-21-0909
+all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-02-22-0909
 ```
 Hi!
 
@@ -340,7 +360,7 @@ Thanks in advance :)
 
      
  
-all -  [ Wat betekent 'maandelijks de testknop indrukken' in de meterkast? ](https://i.redd.it/9gkltksaaxhc1.png) , 2024-02-21-0909
+all -  [ Wat betekent 'maandelijks de testknop indrukken' in de meterkast? ](https://i.redd.it/9gkltksaaxhc1.png) , 2024-02-22-0909
 ```
 
 ```
@@ -348,7 +368,7 @@ all -  [ Wat betekent 'maandelijks de testknop indrukken' in de meterkast? ](htt
 
      
  
-all -  [ Faith and Fate: Limits of Transformers on Compositionality [R] ](https://www.reddit.com/r/MachineLearning/comments/1amzb52/faith_and_fate_limits_of_transformers_on/) , 2024-02-21-0909
+all -  [ Faith and Fate: Limits of Transformers on Compositionality [R] ](https://www.reddit.com/r/MachineLearning/comments/1amzb52/faith_and_fate_limits_of_transformers_on/) , 2024-02-22-0909
 ```
 Edit: Kevin Murphy,  Francois Chollet, Vitaly Kurin and others recommended this paper (some very highly)
 
@@ -380,7 +400,7 @@ ent 'success' is just due to unreliable pattern matching / shortcut learning.'
 
      
  
-all -  [ [D] concerns about the series of works in reflexion(self-adjustment)-powered LLM agent ](https://www.reddit.com/r/MachineLearning/comments/1am3ior/d_concerns_about_the_series_of_works_in/) , 2024-02-21-0909
+all -  [ [D] concerns about the series of works in reflexion(self-adjustment)-powered LLM agent ](https://www.reddit.com/r/MachineLearning/comments/1am3ior/d_concerns_about_the_series_of_works_in/) , 2024-02-22-0909
 ```
 we see tons of works in LLM-based agent which can perform tasks on web applications such as webshop, [webarena](https://
 github.com/web-arena-x/webarena),  [agentbench](https://github.com/THUDM/AgentBench/tree/main)etc...
@@ -421,7 +441,7 @@ Would like to hear from you in view of academic and industry.
 
      
  
-all -  [ [R] Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning ](https://www.reddit.com/r/MachineLearning/comments/1am1v5f/r_long_is_more_for_alignment_a_simple_but/) , 2024-02-21-0909
+all -  [ [R] Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning ](https://www.reddit.com/r/MachineLearning/comments/1am1v5f/r_long_is_more_for_alignment_a_simple_but/) , 2024-02-22-0909
 ```
 **Title**: Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning
 
@@ -446,7 +466,7 @@ n fine-tuning.
 
      
  
-all -  [ [R] Persistent homology and topological data analysis helped robust detection of AI-generated texts ](https://www.reddit.com/r/MachineLearning/comments/1aky8xt/r_persistent_homology_and_topological_data/) , 2024-02-21-0909
+all -  [ [R] Persistent homology and topological data analysis helped robust detection of AI-generated texts ](https://www.reddit.com/r/MachineLearning/comments/1aky8xt/r_persistent_homology_and_topological_data/) , 2024-02-22-0909
 ```
 The main idea is that text data can be presented as points in some high-dimensional space. It can be assumed that the da
 taset fits into some surface in it. The problem is that such a surface may have fractal characteristics, so complex math
@@ -476,7 +496,7 @@ ublished in the proceedings of the NeurIPS 2023 conference.
 
      
  
-all -  [ IS THIS A GOOD ROADMAP TO LEARN PYTHON? ](https://www.reddit.com/r/learnpython/comments/1ak8v9p/is_this_a_good_roadmap_to_learn_python/) , 2024-02-21-0909
+all -  [ IS THIS A GOOD ROADMAP TO LEARN PYTHON? ](https://www.reddit.com/r/learnpython/comments/1ak8v9p/is_this_a_good_roadmap_to_learn_python/) , 2024-02-22-0909
 ```
 . Python Basics:  
 Resources:  
@@ -559,7 +579,7 @@ y, and edX.
 
      
  
-all -  [ IS THIS A GOOD ROADMAP FOR MASCHINE LEARNING? ](https://www.reddit.com/r/learnmachinelearning/comments/1ak8qxi/is_this_a_good_roadmap_for_maschine_learning/) , 2024-02-21-0909
+all -  [ IS THIS A GOOD ROADMAP FOR MASCHINE LEARNING? ](https://www.reddit.com/r/learnmachinelearning/comments/1ak8qxi/is_this_a_good_roadmap_for_maschine_learning/) , 2024-02-22-0909
 ```
  
 
@@ -663,7 +683,7 @@ Conferences like NeurIPS, ICML
 
      
  
-all -  [ Cape to Carthage: documentary about an all African, female-led AI research team rising against the o ](https://www.reddit.com/r/MachineLearning/comments/1ajkh13/cape_to_carthage_documentary_about_an_all_african/) , 2024-02-21-0909
+all -  [ Cape to Carthage: documentary about an all African, female-led AI research team rising against the o ](https://www.reddit.com/r/MachineLearning/comments/1ajkh13/cape_to_carthage_documentary_about_an_all_african/) , 2024-02-22-0909
 ```
 In the world of AI, Africa has a reputation for being a missing continent. Follow an underdog, female-led, all-African r
 esearch team as they compete with tech giants and top universities for a spot at the top international AI research confe
@@ -676,7 +696,7 @@ age/).
 
      
  
-all -  [ Actor Critic with q-function approximation not converging ](https://www.reddit.com/r/reinforcementlearning/comments/1aj2zey/actor_critic_with_qfunction_approximation_not/) , 2024-02-21-0909
+all -  [ Actor Critic with q-function approximation not converging ](https://www.reddit.com/r/reinforcementlearning/comments/1aj2zey/actor_critic_with_qfunction_approximation_not/) , 2024-02-22-0909
 ```
 Recently I have been trying to implement the actor critic described in this [paper](https://proceedings.neurips.cc/paper
 /1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html).
@@ -705,7 +725,7 @@ there are still issues with convergence and the model becoming overconfident cau
 
      
  
-all -  [ [D] Publishing Negative Results ](https://www.reddit.com/r/MachineLearning/comments/1aikp5f/d_publishing_negative_results/) , 2024-02-21-0909
+all -  [ [D] Publishing Negative Results ](https://www.reddit.com/r/MachineLearning/comments/1aikp5f/d_publishing_negative_results/) , 2024-02-22-0909
 ```
 I‘ve been working on a ML research project, and unfortunately, the results don‘t align with my hypothesis. I‘ve gotten n
 egative results.
@@ -722,7 +742,7 @@ ove successful?
 
      
  
-all -  [ AI alignment prize suggestion: Introduce AI Safety concepts into the ML community ](https://www.reddit.com/r/AIsafetyideas/comments/1aiglw9/ai_alignment_prize_suggestion_introduce_ai_safety/) , 2024-02-21-0909
+all -  [ AI alignment prize suggestion: Introduce AI Safety concepts into the ML community ](https://www.reddit.com/r/AIsafetyideas/comments/1aiglw9/ai_alignment_prize_suggestion_introduce_ai_safety/) , 2024-02-22-0909
 ```
 Recently, there have been several papers published at top ML conferences that introduced concepts from the AI safety com
 munity into the broader ML community. Such papers often define a problem, explain why it matters, sometimes formalise it
@@ -737,7 +757,7 @@ cept of AI alignment.
 
      
  
-all -  [ [D] questions on ICML 2024 submission timeline ](https://www.reddit.com/r/MachineLearning/comments/1ahxe7t/d_questions_on_icml_2024_submission_timeline/) , 2024-02-21-0909
+all -  [ [D] questions on ICML 2024 submission timeline ](https://www.reddit.com/r/MachineLearning/comments/1ahxe7t/d_questions_on_icml_2024_submission_timeline/) , 2024-02-22-0909
 ```
 Hello all!
 
@@ -758,7 +778,7 @@ thanks!
 
      
  
-all -  [ Picked up all these Tapes today! ](https://i.redd.it/pcbd29avx1gc1.jpeg) , 2024-02-21-0909
+all -  [ Picked up all these Tapes today! ](https://i.redd.it/pcbd29avx1gc1.jpeg) , 2024-02-22-0909
 ```
 Found this whole lot at VV for the grand total of $5.99! Lots of them still have the original Sony store tags on them!
 ```
@@ -766,7 +786,7 @@ Found this whole lot at VV for the grand total of $5.99! Lots of them still have
 
      
  
-all -  [ Academic journal or conference for AI safety ](https://www.reddit.com/r/AIsafetyideas/comments/1agmkg5/academic_journal_or_conference_for_ai_safety/) , 2024-02-21-0909
+all -  [ Academic journal or conference for AI safety ](https://www.reddit.com/r/AIsafetyideas/comments/1agmkg5/academic_journal_or_conference_for_ai_safety/) , 2024-02-22-0909
 ```
 To help boost the prestige of safety research, leading to more people starting the career.
 
@@ -796,7 +816,7 @@ might focus on scientific novelty and complicated/'cool' papers, this conference
 
      
  
-all -  [ Research Advances in Transformer Time Series Forecasting Models ](https://www.reddit.com/r/deeplearning/comments/1ag4xfp/research_advances_in_transformer_time_series/) , 2024-02-21-0909
+all -  [ Research Advances in Transformer Time Series Forecasting Models ](https://www.reddit.com/r/deeplearning/comments/1ag4xfp/research_advances_in_transformer_time_series/) , 2024-02-22-0909
 ```
 Just published a new article describing [recent advances in the deep learning for time series](https://medium.com/deep-d
 ata-science/advances-in-deep-learning-for-time-series-forecasting-classification-winter-2024-a3fd31b875b0) forecasting a
@@ -807,7 +827,7 @@ s like DLinear. I also critiqued some problematic and flawed papers such as Time
 
      
  
-all -  [ How much am I worth? ~Big Tech Specialty Research Scientist ](https://www.reddit.com/r/Salary/comments/1afrju3/how_much_am_i_worth_big_tech_specialty_research/) , 2024-02-21-0909
+all -  [ How much am I worth? ~Big Tech Specialty Research Scientist ](https://www.reddit.com/r/Salary/comments/1afrju3/how_much_am_i_worth_big_tech_specialty_research/) , 2024-02-22-0909
 ```
 **Face value experience:**  
 I have a PhD in mathematical optimization, with expertise in signal processing, with public
@@ -858,7 +878,7 @@ nus, stock, and wahtever else... (Ive never gotten a big tech offer)
 
      
  
-all -  [ Regret bounds in reinforcement learning ](https://www.reddit.com/r/reinforcementlearning/comments/1aeiexo/regret_bounds_in_reinforcement_learning/) , 2024-02-21-0909
+all -  [ Regret bounds in reinforcement learning ](https://www.reddit.com/r/reinforcementlearning/comments/1aeiexo/regret_bounds_in_reinforcement_learning/) , 2024-02-22-0909
 ```
 I’ve been away from reading theoretical reinforcement learning papers for a couple of years and was getting curious on h
 ow the field has progressed since then. Last time I checked, there was a paper that claimed that they closed the upper a
@@ -872,7 +892,7 @@ omeone can point to a follow up paper, I’d really appreciate it!
 
      
  
-all -  [ [R] Thoughts about ML theory papers in conferences like International Symposium on Information Theor ](https://www.reddit.com/r/MachineLearning/comments/1abwmal/r_thoughts_about_ml_theory_papers_in_conferences/) , 2024-02-21-0909
+all -  [ [R] Thoughts about ML theory papers in conferences like International Symposium on Information Theor ](https://www.reddit.com/r/MachineLearning/comments/1abwmal/r_thoughts_about_ml_theory_papers_in_conferences/) , 2024-02-22-0909
 ```
 I have published a few papers in conferences like the International Symposium on Information Theory (ISIT) and Allerton.
  However, when I apply for internship positions, the applications sometimes ask about the number of published papers in 
@@ -886,7 +906,7 @@ ences, and I would say s/he likes to 'play safe' and avoids taking any risks at 
 
      
  
-all -  [ Acceptance rate of workshops in conferences [D] ](https://www.reddit.com/r/MachineLearning/comments/19do6qn/acceptance_rate_of_workshops_in_conferences_d/) , 2024-02-21-0909
+all -  [ Acceptance rate of workshops in conferences [D] ](https://www.reddit.com/r/MachineLearning/comments/19do6qn/acceptance_rate_of_workshops_in_conferences_d/) , 2024-02-22-0909
 ```
 From the Internet I easily found the acceptance rate of conferences but what is the acceptance rate of workshops conduct
 ed in conferences like AISTATS/CVPR/Neurips/ICML? 
@@ -895,159 +915,10 @@ ed in conferences like AISTATS/CVPR/Neurips/ICML?
 
      
  
-all -  [ What Bodies Think About: Bioelectric Computation Outside the Nervous System - NeurIPS 2018 ](https://youtu.be/RjD1aLm4Thg?si=j1-jVO--H2lGHaUf) , 2024-02-21-0909
+all -  [ What Bodies Think About: Bioelectric Computation Outside the Nervous System - NeurIPS 2018 ](https://youtu.be/RjD1aLm4Thg?si=j1-jVO--H2lGHaUf) , 2024-02-22-0909
 ```
 One of the best lectures I’ve ever watched! This might sound boring because it’s presented that way, but this has the po
 tential to to enlighten you!
-```
----
-
-     
- 
-all -  [ I read through the NeurIPS 2023 Abstracts and wrote about it ](https://alexzhang13.github.io/blog/2024/neurips2023) , 2024-02-21-0909
-```
-I made this resource that I think might be quite useful here, especially for those looking to find some new, relevant wo
-rks to read or use for their own projects. It discusses the content from roughly 300 papers, but the topics broadly pert
-ain to all of NeurIPS 2023. Happy reading!
-```
----
-
-     
- 
-all -  [ Advancements in machine learning for machine learning ](https://www.reddit.com/r/worldTechnology/comments/19c2sch/advancements_in_machine_learning_for_machine/) , 2024-02-21-0909
-```
-With the recent and accelerated advances in machine learning (ML), machines can understand natural language, engage in c
-onversations, draw images, create videos and more. Modern ML models are programmed and trained using ML programming fram
-eworks, such as TensorFlow, JAX, PyTorch, among many others. These libraries provide high-level instructions to ML pract
-itioners, such as linear algebra operations (e.g., matrix multiplication, convolution, etc.) and neural network layers (
-e.g., 2D convolution layers, transformer layers). Importantly, practitioners need not worry about how to make their mode
-ls run efficiently on hardware because an ML framework will automatically optimize the user's model through an underlyin
-g compiler. The efficiency of the ML workload, thus, depends on how good the compiler is. A compiler typically relies on
- heuristics to solve complex optimization problems, often resulting in suboptimal performance.
-
-In this blog post, we pr
-esent exciting advancements in ML for ML. In particular, we show how we use ML to improve efficiency of ML workloads! Pr
-ior works, both internal and external, have shown that we can use ML to improve performance of ML programs by selecting 
-better ML compiler decisions. Although there exist a few datasets for program performance prediction, they target small 
-sub-programs, such as basic blocks or kernels. We introduce “TpuGraphs: A Performance Prediction Dataset on Large Tensor
- Computational Graphs” (presented at NeurIPS 2023), which we recently released to fuel more research in ML for program o
-ptimization. We hosted a Kaggle competition on the dataset, which recently completed with 792 participants on 616 teams 
-from 66 countries. Furthermore, in “Learning Large Graph Property Prediction via Graph Segment Training”, we cover a nov
-el method to scale graph neural network (GNN) training to handle large programs represented as graphs. The technique bot
-h enables training arbitrarily large graphs on a device with limited memory capacity and improves generalization of the 
-model.
-
-# ML compilers
-
-ML compilers are software routines that convert user-written programs (here, mathematical instru
-ctions provided by libraries such as TensorFlow) to executables (instructions to execute on the actual hardware). An ML 
-program can be represented as a computation graph, where a node represents a tensor operation (such as matrix multiplica
-tion), and an edge represents a tensor flowing from one node to another. ML compilers have to solve many complex optimiz
-ation problems, including graph-level and kernel-level optimizations. A graph-level optimization requires the context of
- the entire graph to make optimal decisions and transforms the entire graph accordingly. A kernel-level optimization tra
-nsforms one kernel (a fused subgraph) at a time, independently of other kernels.
-
-&#x200B;
-
-[ Important optimizations in
- ML compilers include graph-level and kernel-level optimizations. ](https://preview.redd.it/n6hs3zdyhsdc1.png?width=1999
-&format=png&auto=webp&s=afa7e9a80f5d73c94c1692eb45612f51d7bdfe11)
-
-To provide a concrete example, imagine a matrix (2D t
-ensor):
-
-&#x200B;
-
-[matrix](https://preview.redd.it/q7m0npe3isdc1.png?width=1999&format=png&auto=webp&s=56382ec9b2462d71
-e48efcd3fc38405219b046c2)
-
-It can be stored in computer memory as \[A B C a b c\] or \[A a B b C c\], known as row- and 
-column-major memory layout, respectively. One important ML compiler optimization is to assign memory layouts to all inte
-rmediate tensors in the program. The figure below shows two different layout configurations for the same program. Let’s 
-assume that on the left-hand side, the assigned layouts (in red) are the most efficient option for each individual opera
-tor. However, this layout configuration requires the compiler to insert a copy operation to transform the memory layout 
-between the add and convolution operations. On the other hand, the right-hand side configuration might be less efficient
- for each individual operator, but it doesn’t require the additional memory transformation. The layout assignment optimi
-zation has to trade off between local computation efficiency and layout transformation overhead.
-
-&#x200B;
-
-![img](2r9mj
-oz7isdc1 ' A node represents a tensor operator, annotated with its output tensor shape [n0, n1, ...], where ni is the si
-ze of dimension i. Layout {d0, d1, ...} represents minor-to-major ordering in memory. Applied configurations are highlig
-hted in red, and other valid configurations are highlighted in blue. A layout configuration specifies the layouts of inp
-uts and outputs of influential operators (i.e., convolution and reshape). A copy operator is inserted when there is a la
-yout mismatch.
- ')
-
-If the compiler makes optimal choices, significant speedups can be made. For example, we have seen u
-p to a 32% speedup when choosing an optimal layout configuration over the default compiler’s configuration in the XLA be
-nchmark suite.
-
-# TpuGraphs dataset
-
-Given the above, we aim to improve ML model efficiency by improving the ML compiler
-. Specifically, it can be very effective to equip the compiler with a learned cost model that takes in an input program 
-and compiler configuration and then outputs the predicted runtime of the program.
-
-&#x200B;
-
-With this motivation, we re
-lease TpuGraphs, a dataset for learning cost models for programs running on Google’s custom Tensor Processing Units (TPU
-s). The dataset targets two XLA compiler configurations: layout (generalization of row- and column-major ordering, from 
-matrices, to higher dimension tensors) and tiling (configurations of tile sizes). We provide download instructions and s
-tarter code on the TpuGraphs GitHub. Each example in the dataset contains a computational graph of an ML workload, a com
-pilation configuration, and the execution time of the graph when compiled with the configuration. The graphs in the data
-set are collected from open-source ML programs, featuring popular model architectures, e.g., ResNet, EfficientNet, Mask 
-R-CNN, and Transformer. The dataset provides 25× more graphs than the largest (earlier) graph property prediction datase
-t (with comparable graph sizes), and graph size is 770× larger on average compared to existing performance prediction da
-tasets on ML programs. With this greatly expanded scale, for the first time we can explore the graph-level prediction ta
-sk on large graphs, which is subject to challenges such as scalability, training efficiency, and model quality.
-
-&#x200B
-;
-
-[ Scale of TpuGraphs compared to other graph property prediction datasets. ](https://preview.redd.it/ebfs36lcisdc1.pn
-g?width=2868&format=png&auto=webp&s=0e6e2e1f39ebd839df0cb979e4ad2c142b7e676b)
-
- We provide baseline learned cost models 
-with our dataset (architecture shown below). Our baseline models are based on a GNN since the input program is represent
-ed as a graph. Node features, shown in blue below, consist of two parts. The first part is an *opcode id*, the most impo
-rtant information of a node, which indicates the type of tensor operation. Our baseline models, thus, map an opcode id t
-o an *opcode embedding* via an embedding lookup table. The opcode embedding is then concatenated with the second part, t
-he rest of the node features, as inputs to a GNN. We combine the node embeddings produced by the GNN to create the fixed
--size embedding of the graph using a simple graph pooling reduction (i.e., sum and mean). The resulting graph embedding 
-is then linearly transformed into the final scalar output by a feedforward layer. 
-
-&#x200B;
-
-[ Our baseline learned cos
-t model employs a GNN since programs can be naturally represented as graphs. ](https://preview.redd.it/jdcalhjgisdc1.png
-?width=2284&format=png&auto=webp&s=f253742e4262ad004fa7a6bc6b3dea31c15c9d5c)
-
-Furthermore we present Graph Segment Train
-ing (GST), a method for scaling GNN training to handle large graphs on a device with limited memory capacity in cases wh
-ere the prediction task is on the entire-graph (i.e., graph-level prediction). Unlike scaling training for node- or edge
--level prediction, scaling for graph-level prediction is understudied but crucial to our domain, as computation graphs c
-an contain hundreds of thousands of nodes. In a typical GNN training (“Full Graph Training”, on the left below), a GNN m
-odel is trained using an entire graph, meaning all nodes and edges of the graph are used to compute gradients. For large
- graphs, this might be computationally infeasible. In GST, each large graph is partitioned into smaller segments, and a 
-random subset of segments is selected to update the model; embeddings for the remaining segments are produced without sa
-ving their intermediate activations (to avoid consuming memory). The embeddings of all segments are then combined to gen
-erate an embedding for the original large graph, which is then used for prediction. In addition, we introduce the histor
-ical embedding table to efficiently obtain graph segments’ embeddings and segment dropout to mitigate the staleness from
- historical embeddings. Together, our complete method speeds up the end-to-end training time by 3×.
-
-&#x200B;
-
-[ Compari
-ng Full Graph Training \(typical method\) vs Graph Segment Training \(our proposed method\). ](https://preview.redd.it/l
-us2m3ikisdc1.png?width=790&format=png&auto=webp&s=eb8ad9e466ef062ef171b24f409b6c4eea2c5346)
-
-&#x200B;
-
-[Advancements in 
-machine learning for machine learning](https://blog.research.google/2023/12/advancements-in-machine-learning-for.html)
 ```
 ---
 
