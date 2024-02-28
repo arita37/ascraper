@@ -1,5 +1,324 @@
  
-all -  [ Chat doesn`t provide right url, using SiteLoader ](https://www.reddit.com/r/LangChain/comments/1b0w8su/chat_doesnt_provide_right_url_using_siteloader/) , 2024-02-27-0910
+all -  [ Langchain vs LlamaIndex ](https://www.reddit.com/gallery/1b1qzxt) , 2024-02-28-0909
+```
+now, fight!
+
+also if anyone knows how to get a streaming loop working in langchain
+
+I get all sorts of abstracted type e
+rrors when I try and the documentation makes me want to cry
+
+I just started learning llama index yesterday
+```
+---
+
+     
+ 
+all -  [ How To Use LangChain With ChatGPT ](https://www.successtechservices.com/how-to-use-langchain-with-chatgpt/) , 2024-02-28-0909
+```
+
+```
+---
+
+     
+ 
+all -  [ How to Use LangChain with ChatGPT ](https://www.reddit.com/r/ArtificialInteligence/comments/1b1ntdk/how_to_use_langchain_with_chatgpt/) , 2024-02-28-0909
+```
+Did you know that integrating LangChain with ChatGPT can significantly enhance natural language processing capabilities 
+and enable smarter text processing in your projects? LangChain, a powerful framework for building custom ChatGPT AI, com
+bined with the AI language model, ChatGPT, can revolutionize the way you work with language data. 
+
+In this article, I w
+ill guide you through the process of integrating LangChain and ChatGPT step-by-step, allowing you to leverage their comb
+ined power and unlock their full potential for efficient text processing.
+
+https://www.successtechservices.com/how-to-us
+e-langchain-with-chatgpt/
+```
+---
+
+     
+ 
+all -  [ Example unit test for Langchain chat models ](https://www.reddit.com/r/LangChain/comments/1b1kkkq/example_unit_test_for_langchain_chat_models/) , 2024-02-28-0909
+```
+Something I think that's missing from Langchain documentation is good examples for how to reliably test your chains/chat
+s/whatever without actually using a real LLM (costly/slow/unreliable).
+
+I created an example (with Dockerfile included) 
+on how to test an LLMChain with a brief conversation including a ConversationBufferWindowMemory.
+
+Please let me know wha
+t you think! If you have other requests, let me know.
+
+[https://github.com/ThreeRiversAINexus/sample-langchain-agents/bl
+ob/main/fake\_llm\_examples/test\_chat\_convo.py](https://github.com/ThreeRiversAINexus/sample-langchain-agents/blob/mai
+n/fake_llm_examples/test_chat_convo.py)
+
+The example in the langchain documentation that this is based on: [https://pyth
+on.langchain.com/docs/modules/model\_io/chat/quick\_start](https://python.langchain.com/docs/modules/model_io/chat/quick
+_start)
+```
+---
+
+     
+ 
+all -  [ RAG model where the user may mention documents in their messages ](https://www.reddit.com/r/LangChain/comments/1b1k6ed/rag_model_where_the_user_may_mention_documents_in/) , 2024-02-28-0909
+```
+I have a pretty good LangChain RAG model up and running, and some users asked if it's possible to include the names and 
+URLs of the documents they would like the LLM to search for in the query. 
+
+Something like:
+
+Human query: 'Using only th
+e data sheet of product X, can you confirm that ....'
+
+Programmatically speaking, I know that I can define the search fi
+lters in the retriever, but I am not sure what is the best way to have the LLM detect the document the user is referring
+ to first. 
+
+A naive approach here would be to do this outside of the chain, and preprocess the query before sending it 
+to the RAG model (alongside any search filter metadata, if applicable). Is that the recommended approach? What about age
+nts, would that be too much for this use case?
+```
+---
+
+     
+ 
+all -  [ How to include metadata of retrieved content in the Output of retriever ](https://www.reddit.com/r/LangChain/comments/1b1k4p7/how_to_include_metadata_of_retrieved_content_in/) , 2024-02-28-0909
+```
+Hi, 
+
+I have a noob question and hope that someone here can help. 
+
+This is how I set up the agent for my blog.   
+embed
+dings = OpenAIEmbeddings()  
+db = FAISS.load\_local('faiss\_index', embeddings)  
+retriever = db.as\_retriever(search\_t
+ype='mmr')  
+tool = create\_retriever\_tool(  
+ retriever,  
+ 'search\_chandler\_nguyen\_blog',  
+ 'Searches and returns
+ content from Chandler Nguyen's blog. For any questions about what Chandler Nguyen wrote before, you must use this tool!
+'  
+)  
+tools = \[tool\]  
+prompt = ChatPromptTemplate.from\_messages(\[  
+('system', 'You are a chatbot named Sydney. \
+\  
+You help people to answer questions about Chandler Nguyen Blog in a thoughtful way. \\  
+Respond in a friendly and h
+elpful tone, with concise answers if possible. \\  
+Use HTML-compatible bullet point format and line breaks (\`<br>\`) f
+or long answers where necessary. \\  
+Use the following pieces of retrieved context to answer the question. \\  
+If you 
+do not know the answer, just say that you do not know. \\  
+Include the blog post URL or published date as references in
+ your answer. \\  
+Please try your best as this is very important to me and the user.'),  
+ MessagesPlaceholder(variable
+\_name='chat\_history'),  
+('user', '{input}'),  
+ MessagesPlaceholder(variable\_name='agent\_scratchpad'),  
+\])  
+llm 
+= ChatOpenAI(model\_name='gpt-3.5-turbo-0125', temperature=0, streaming=True)  
+llm\_with\_tools = llm.bind\_tools(tools
+)  
+agent = (  
+{  
+ 'input': lambda x: x\['input'\],  
+ 'agent\_scratchpad': lambda x: format\_to\_openai\_tool\_messag
+es(x\['intermediate\_steps'\]),  
+ 'chat\_history': lambda x: x\['chat\_history'\],  
+}  
+ | prompt  
+ | llm\_with\_tool
+s  
+ | OpenAIToolsAgentOutputParser()  
+)  
+agent\_executor = AgentExecutor(agent=agent, tools=tools, verbose=True)  
+
+
+
+The issue here is that the retriever output doesn't include metadata like 'URL' or 'published\_date'. I don't know how t
+o incorporate that using RunnablePassthrough or RunnableParallel and/or 'lambda' ?  
+I know that I can have the metadata
+ this way:  
+docs = retriever.invoke(query)  
+for doc in docs:  
+ print(doc.metadata)
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Improve speed over my LLM App ](https://www.reddit.com/r/LocalLLaMA/comments/1b1jtvw/improve_speed_over_my_llm_app/) , 2024-02-28-0909
+```
+Hey guys,  
+I was wondering I built a Langchain app connecting to a local LLM using Ollama (Mistral 8x7b) I make thousan
+ds of requests a day, I have an RTX 4090 but it takes 15 - 25 seconds to get a response with 100% of my GPU used (checki
+ng using nvtop). I was wondering if I build a rack and over time, adding more and more GPU Cards will I be able to incre
+ase the speed of request processing?
+```
+---
+
+     
+ 
+all -  [ Langchain / OpenAI to Mistral conversion to query mysql ](https://www.reddit.com/r/LangChain/comments/1b1jfc2/langchain_openai_to_mistral_conversion_to_query/) , 2024-02-28-0909
+```
+I have the following LangChain/OpenAI that queries a mysql database for data, I have spun up a Mistral LLM thats running
+ on my localhost - I have tried to adapt my code to solely use the Mistral LLM, however I get the following error:
+
+Conn
+ection could not be made due to the following error: Connection error.
+
+&#x200B;
+
+    def query_maker(user_input):
+     
+   #OpenAI LLM (working)
+        #openaiLLM = ChatOpenAI(model='gpt-3.5-turbo', temperature=0.7, openai_api_key=api_key,
+ cache=False)
+        #Mistral LLM
+        LLM = ChatOpenAI(model='mistral', temperature=0.7, base_url='http://localhost
+:1234/v1/chat/completions', cache=False)
+        prompt_template = PromptTemplate.from_template(
+        '{system_prompt
+} + '\n' +  {user_input}.')
+        chain = LLMChain(llm=LLM, prompt=prompt_template)
+        query=chain.run({'system_p
+rompt': query_maker_gpt_system_prompt, 'user_input': user_input})
+        return query
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Few-Shot Classification using LangChain  ](https://www.reddit.com/r/LangChain/comments/1b1e1pp/fewshot_classification_using_langchain/) , 2024-02-28-0909
+```
+Hey everyone, check out this tutorial to understand how Few-Shot Classification (classification with very few labelled s
+amples) can be achieved using LangChain's FewShotPromptTemplate https://youtu.be/iWqke_cbapU?si=oyXs7Ex5PctvITra
+```
+---
+
+     
+ 
+all -  [ Proper Storage Format for Local Retrieval of a ConversationalRetrievalChain QA Object ](https://www.reddit.com/r/LangChain/comments/1b1c85m/proper_storage_format_for_local_retrieval_of_a/) , 2024-02-28-0909
+```
+I want to store a QA object of type 
+
+    <class 'langchain.chains.conversational_retrieval.base.ConversationalRetrieval
+Chain'>
+
+locally. What format should I use to ensure correct retrieval for question answering across different projects?
+
+```
+---
+
+     
+ 
+all -  [ What should I learn to get an internship in ML/AI? ](https://www.reddit.com/r/learnmachinelearning/comments/1b1ba2z/what_should_i_learn_to_get_an_internship_in_mlai/) , 2024-02-28-0909
+```
+I am a 1st year undergrad student. Backstory, I just learnt pandas and have been learning langchain for a while now. I a
+m planning of taking CS229 after learning numpy and matplotlib. But my question is what should I learn or what projects 
+I should built to get a summer internship? Should I build RAG application or learn something else? Any advice will be he
+lpful. Thank you.
+```
+---
+
+     
+ 
+all -  [ How to load LLMs ](https://www.reddit.com/r/LargeLanguageModels/comments/1b1b96d/how_to_load_llms/) , 2024-02-28-0909
+```
+Hey there, I am relatively new to working with LLM. So far in order to work with LLMs I've been using libs like langchai
+n and ollama that let you load LLM models and use them.
+
+But I wonder how does this libs do that, I've been looking on t
+heir repos to understand how does it works, but I wonder if there are some other sources I can take a look on how to do 
+that.
+
+I´d like to understand the process it takes to pick the llm file, open it with my code and serve it. Do I go and 
+open also the inferences, do I have to tokenize or build my tokenizer first?
+
+thanks a lot!!
+```
+---
+
+     
+ 
+all -  [ Production ready? ](https://www.reddit.com/r/LangChain/comments/1b194ot/production_ready/) , 2024-02-28-0909
+```
+Hey guys.  
+
+
+Some Youtuber criticised LangChain saying it's not production ready. He said the the following: 'It abstra
+cts away too many details from you, which makes it super hard to customize for a specific real world use case. Besides, 
+it was released before function calling models, so there is no type validation, which is essential in production to prev
+ent hallucinations.'  
+
+Do you guys agree here?  
+
+
+Do you think LangChain can be used in production already or are ther
+e crucial steps making LangChain and possibly any other framework a hobby project for now?  
+
+
+I like the idea of LangGr
+aph a lot for example but not sure how much time I should invest here. 
+```
+---
+
+     
+ 
+all -  [ Deploy Mistral Large to Azure and create a conversation with Python and LangChain ](https://www.reddit.com/r/MistralAI/comments/1b180mk/deploy_mistral_large_to_azure_and_create_a/) , 2024-02-28-0909
+```
+&#x200B;
+
+https://preview.redd.it/ozoz75uhm3lc1.jpg?width=2400&format=pjpg&auto=webp&s=6a6dc63ed2c78e5e697229cf8616435a8
+2f40d9a
+
+[Mistral AI ](https://mistral.ai/)has recently unveiled its most advanced open-source large language model (LLM
+) yet, [Mistral Large](https://mistral.ai/news/mistral-large/), alongside its ChatGPT competitor, [Le Chat (beta)](https
+://chat.mistral.ai/chat). Le Chat includes other models such as Next, and Small, to let you explore Mistral AI’s capabil
+ities. 
+
+This step-by-step guide will show you how to deploy Mistral Large on Azure and start using it immediately with 
+LangChain.
+
+[https://neon.tech/blog/deploy-mistral-large-to-azure-and-chat-with-langchain](https://neon.tech/blog/deploy
+-mistral-large-to-azure-and-chat-with-langchain)
+```
+---
+
+     
+ 
+all -  [ Deploy Mistral Large to Azure and create a conversation with Python and LangChain ](https://www.reddit.com/r/LocalLLaMA/comments/1b17xg7/deploy_mistral_large_to_azure_and_create_a/) , 2024-02-28-0909
+```
+[](https://preview.redd.it/deploy-mistral-large-to-azure-and-create-a-conversation-v0-ozoz75uhm3lc1.jpg?width=2400&forma
+t=pjpg&auto=webp&s=12769531183ee8ce311a8a78533b4fbc0491c154)
+[Mistral AI ](https://mistral.ai/)has recently unveiled its
+ most advanced open-source large language model (LLM) yet, [Mistral Large](https://mistral.ai/news/mistral-large/), alon
+gside its ChatGPT competitor, [Le Chat (beta)](https://chat.mistral.ai/chat). Le Chat includes other models such as Next
+, and Small, to let you explore Mistral AI’s capabilities. 
+
+This step-by-step guide will show you how to deploy Mistral
+ Large on Azure and start using it immediately with LangChain.
+
+[https://neon.tech/blog/deploy-mistral-large-to-azure-an
+d-chat-with-langchain](https://neon.tech/blog/deploy-mistral-large-to-azure-and-chat-with-langchain)
+```
+---
+
+     
+ 
+all -  [ Chat doesn`t provide right url, using SiteLoader ](https://www.reddit.com/r/LangChain/comments/1b0w8su/chat_doesnt_provide_right_url_using_siteloader/) , 2024-02-28-0909
 ```
 Hello,
 
@@ -16,15 +335,7 @@ j6c)
 
      
  
-all -  [ Prompt Engineering: Definition, Techniques & Security - CodeWithAmr.com ](https://codewithamr.com/prompt-engineering-definition-techniques-security/) , 2024-02-27-0910
-```
-
-```
----
-
-     
- 
-all -  [ I want a reformatted table as output from a PDF file ](https://www.reddit.com/r/LangChain/comments/1b0nhga/i_want_a_reformatted_table_as_output_from_a_pdf/) , 2024-02-27-0910
+all -  [ I want a reformatted table as output from a PDF file ](https://www.reddit.com/r/LangChain/comments/1b0nhga/i_want_a_reformatted_table_as_output_from_a_pdf/) , 2024-02-28-0909
 ```
 So I have some PDF files with tables not structured properly. Basically some exported pivot tables from excel so they ar
 e spaces in between categories which make it impossible to load this data.
@@ -41,7 +352,7 @@ I am looking for how I can use vectorDB to enhance retrieval? Any suggestions?
 
      
  
-all -  [ Creating RAG Evaluation dataset manually: What to consider? ](https://www.reddit.com/r/LangChain/comments/1b0n1c9/creating_rag_evaluation_dataset_manually_what_to/) , 2024-02-27-0910
+all -  [ Creating RAG Evaluation dataset manually: What to consider? ](https://www.reddit.com/r/LangChain/comments/1b0n1c9/creating_rag_evaluation_dataset_manually_what_to/) , 2024-02-28-0909
 ```
 Hi,
 
@@ -71,7 +382,7 @@ Thanks for all suggestions!
 
      
  
-all -  [ Sql Agents in Langgraph  ](https://www.reddit.com/r/LangChain/comments/1b0mts2/sql_agents_in_langgraph/) , 2024-02-27-0910
+all -  [ Sql Agents in Langgraph  ](https://www.reddit.com/r/LangChain/comments/1b0mts2/sql_agents_in_langgraph/) , 2024-02-28-0909
 ```
 Has anyone able to implement sql agent in langgraph,? If so can you please share rhe approach
 ```
@@ -79,7 +390,7 @@ Has anyone able to implement sql agent in langgraph,? If so can you please share
 
      
  
-all -  [ using private data with openai + account? ](https://www.reddit.com/r/OpenAI/comments/1b0mgo9/using_private_data_with_openai_account/) , 2024-02-27-0910
+all -  [ using private data with openai + account? ](https://www.reddit.com/r/OpenAI/comments/1b0mgo9/using_private_data_with_openai_account/) , 2024-02-28-0909
 ```
 unfortunately i can't code. I'm looking for a tool that will allow me to use private data and query it with openai + (gp
 t 4, LLama, etc.)  
@@ -101,7 +412,7 @@ for any guidance
 
      
  
-all -  [ Lang chain alternatives? ](https://www.reddit.com/r/LangChain/comments/1b0mcuk/lang_chain_alternatives/) , 2024-02-27-0910
+all -  [ Lang chain alternatives? ](https://www.reddit.com/r/LangChain/comments/1b0mcuk/lang_chain_alternatives/) , 2024-02-28-0909
 ```
 
 So I’m looking to learn how to build ai systems and bots, mostly self taught for projects and research and not for jobs
@@ -115,7 +426,7 @@ Any ideas or feedback on what to do?
 
      
  
-all -  [ Unable to split text received via POST request in django ](https://www.reddit.com/r/django/comments/1b0kxtx/unable_to_split_text_received_via_post_request_in/) , 2024-02-27-0910
+all -  [ Unable to split text received via POST request in django ](https://www.reddit.com/r/django/comments/1b0kxtx/unable_to_split_text_received_via_post_request_in/) , 2024-02-28-0909
 ```
 i am facing a weird error. I am trying to split text sent via form in django.
 
@@ -201,7 +512,7 @@ orm').submit(function(event) {
 
      
  
-all -  [ RAG Framework playlist ](https://www.reddit.com/r/LangChain/comments/1b0kwvk/rag_framework_playlist/) , 2024-02-27-0910
+all -  [ RAG Framework playlist ](https://www.reddit.com/r/LangChain/comments/1b0kwvk/rag_framework_playlist/) , 2024-02-28-0909
 ```
 Check out this playlist that covers
 1. What is RAG? RAG framework explained with diagram
@@ -222,7 +533,7 @@ sZ9QaEdaidC
 
      
  
-all -  [ Returning source documents ](https://www.reddit.com/r/LangChain/comments/1b0hqkz/returning_source_documents/) , 2024-02-27-0910
+all -  [ Returning source documents ](https://www.reddit.com/r/LangChain/comments/1b0hqkz/returning_source_documents/) , 2024-02-28-0909
 ```
 My current implementation returns source documents for every answer, but it can be very slow (numerous users have also c
 ommented on slow response times).  Vercel has an [integration](https://sdk.vercel.ai/docs/guides/providers/langchain) wi
@@ -240,7 +551,7 @@ I'm also using a Pinecone vector db since my data is custom.  Is there a
 
      
  
-all -  [ Lang chain alternatives? ](https://www.reddit.com/r/CodingHelp/comments/1b0h5gl/lang_chain_alternatives/) , 2024-02-27-0910
+all -  [ Lang chain alternatives? ](https://www.reddit.com/r/CodingHelp/comments/1b0h5gl/lang_chain_alternatives/) , 2024-02-28-0909
 ```
 So I’m looking to learn how to build ai systems and bots, mostly self taught for projects and research and not for jobs 
 as such, I find Langchain to be exactly what I need but most people I’ve seen say it’s terrible and really pointless for
@@ -253,7 +564,7 @@ Any ideas or feedback on what to do?
 
      
  
-all -  [ Scrape any website to markdown for RAG ](https://www.reddit.com/r/LangChain/comments/1b0gw81/scrape_any_website_to_markdown_for_rag/) , 2024-02-27-0910
+all -  [ Scrape any website to markdown for RAG ](https://www.reddit.com/r/LangChain/comments/1b0gw81/scrape_any_website_to_markdown_for_rag/) , 2024-02-28-0909
 ```
 I've just launched [UseScraper.com](https://UseScraper.com) which crawls all the pages from any website to markdown or j
 son. I made a short post on using it with langchan [https://usescraper.com/blog/langchain-chatgpt-rag-with-your-website-
@@ -264,7 +575,7 @@ content](https://usescraper.com/blog/langchain-chatgpt-rag-with-your-website-con
 
      
  
-all -  [ Processing of PDFs ](https://www.reddit.com/r/LangChain/comments/1b0ezm6/processing_of_pdfs/) , 2024-02-27-0910
+all -  [ Processing of PDFs ](https://www.reddit.com/r/LangChain/comments/1b0ezm6/processing_of_pdfs/) , 2024-02-28-0909
 ```
 Hi,
 
@@ -291,7 +602,7 @@ Has anyone any idea on how OpenAI manages to process PDFs when all other librari
 
      
  
-all -  [ Chat History implementation in langGraph ](https://www.reddit.com/r/LangChain/comments/1b0ey9g/chat_history_implementation_in_langgraph/) , 2024-02-27-0910
+all -  [ Chat History implementation in langGraph ](https://www.reddit.com/r/LangChain/comments/1b0ey9g/chat_history_implementation_in_langgraph/) , 2024-02-28-0909
 ```
 Hello,  
 I have been using the chat history class of langchain to manage and save persistently the chat\_history of a ch
@@ -302,7 +613,7 @@ hink that langGraph is suitable also for creating a RAG chatbot with memory inte
 
      
  
-all -  [ Agents: Large document information spread -- need help ](https://www.reddit.com/r/LangChain/comments/1b0e08l/agents_large_document_information_spread_need_help/) , 2024-02-27-0910
+all -  [ Agents: Large document information spread -- need help ](https://www.reddit.com/r/LangChain/comments/1b0e08l/agents_large_document_information_spread_need_help/) , 2024-02-28-0909
 ```
 I am trying to understand, if its possible to take a large unstructured document and use langchain agents (with Retrieve
 r Tool) to collect all the information required from the document. I have not been able to successfully do any end to en
@@ -336,7 +647,7 @@ story(agent_executor, lambda session_id: message_history, input_messages_key='in
 
      
  
-all -  [ How do I improve my codebase reading skills in Python? ](https://www.reddit.com/r/learnpython/comments/1b08wr9/how_do_i_improve_my_codebase_reading_skills_in/) , 2024-02-27-0910
+all -  [ How do I improve my codebase reading skills in Python? ](https://www.reddit.com/r/learnpython/comments/1b08wr9/how_do_i_improve_my_codebase_reading_skills_in/) , 2024-02-28-0909
 ```
 **How do I improve my codebase reading skills in Python?** 
 
@@ -355,7 +666,7 @@ Guidance on this would be really helpful!
 
      
  
-all -  [ Evaluate different LLMs or flows ](https://www.reddit.com/r/LangChain/comments/1b064fb/evaluate_different_llms_or_flows/) , 2024-02-27-0910
+all -  [ Evaluate different LLMs or flows ](https://www.reddit.com/r/LangChain/comments/1b064fb/evaluate_different_llms_or_flows/) , 2024-02-28-0909
 ```
 Question is self explanatory! Im looking for a workbench or way to evaluate different LLMs. For example giving score to 
 answers, comparing prompts, giving good answer samples, etc etc
@@ -371,7 +682,7 @@ Thanks is advance!
 
      
  
-all -  [ [Hiring] Looking for a senior software engineer (25$/hr) ](https://www.reddit.com/r/forhire/comments/1b03uhj/hiring_looking_for_a_senior_software_engineer_25hr/) , 2024-02-27-0910
+all -  [ [Hiring] Looking for a senior software engineer (25$/hr) ](https://www.reddit.com/r/forhire/comments/1b03uhj/hiring_looking_for_a_senior_software_engineer_25hr/) , 2024-02-28-0909
 ```
 Senior Software Engineer - AI and Cloud Services
 
@@ -406,7 +717,7 @@ Looking for long-term employees.
 
      
  
-all -  [ 🎉Langchain Rust🎉 ](https://www.reddit.com/r/LLMDevs/comments/1b01bee/langchain_rust/) , 2024-02-27-0910
+all -  [ 🎉Langchain Rust🎉 ](https://www.reddit.com/r/LLMDevs/comments/1b01bee/langchain_rust/) , 2024-02-28-0909
 ```
 I’m thrilled to share a personal project of mine: a Rust port of Langchain. As a core contributor to the official Go Lan
 g port of Langchain (langchaingo), I’ve embarked on a new challenge to further my skills by diving into Rust programming
@@ -426,7 +737,7 @@ nity. Let’s delve into the potential that lies at the crossroads of Rust and A
 
      
  
-all -  [ Which vectorstore for prosuction?  ](https://www.reddit.com/r/LangChain/comments/1azrzkc/which_vectorstore_for_prosuction/) , 2024-02-27-0910
+all -  [ Which vectorstore for prosuction?  ](https://www.reddit.com/r/LangChain/comments/1azrzkc/which_vectorstore_for_prosuction/) , 2024-02-28-0909
 ```
 Hi,
 
@@ -440,7 +751,7 @@ Thanks!
 
      
  
-all -  [ We all hate LangChain, so what do we actually want? ](https://www.reddit.com/r/LocalLLaMA/comments/1azrk8b/we_all_hate_langchain_so_what_do_we_actually_want/) , 2024-02-27-0910
+all -  [ We all hate LangChain, so what do we actually want? ](https://www.reddit.com/r/LocalLLaMA/comments/1azrk8b/we_all_hate_langchain_so_what_do_we_actually_want/) , 2024-02-28-0909
 ```
 I appreciate the anti-langchain post as much as anyone, but in the spirit of optimism, I'd like to talk about what every
 one wants to build and improve instead :)
@@ -489,7 +800,7 @@ n the end, do we just have to roll our own custom libraries for each use case?
 
      
  
-all -  [ OpenAi embedding v3 weird scores ](https://www.reddit.com/r/LangChain/comments/1azr70c/openai_embedding_v3_weird_scores/) , 2024-02-27-0910
+all -  [ OpenAi embedding v3 weird scores ](https://www.reddit.com/r/LangChain/comments/1azr70c/openai_embedding_v3_weird_scores/) , 2024-02-28-0909
 ```
 I have been using ada for a while now with a Faiss store and it has been doing well. 
 
@@ -510,7 +821,7 @@ explanation?
 
      
  
-all -  [ Best utility library? ](https://www.reddit.com/r/LocalLLaMA/comments/1azoqnl/best_utility_library/) , 2024-02-27-0910
+all -  [ Best utility library? ](https://www.reddit.com/r/LocalLLaMA/comments/1azoqnl/best_utility_library/) , 2024-02-28-0909
 ```
 There's been a few posts banging on Langchain a bit lately, but I find I do use their utility functions for doc loading,
  text splitting, etc.
@@ -521,7 +832,7 @@ What library is the best for these types of helper functions in your opinion?
 
      
  
-all -  [ Langchain use cases ](https://www.reddit.com/r/LangChain/comments/1azoinv/langchain_use_cases/) , 2024-02-27-0910
+all -  [ Langchain use cases ](https://www.reddit.com/r/LangChain/comments/1azoinv/langchain_use_cases/) , 2024-02-28-0909
 ```
 I’m a software quality engineer and I’ve been tasked with exploring ai use cases for my team. The only thing I could thi
 nk was test plan generation by storing our existing test plans in a db and information about products(PRD, public docs e
@@ -533,7 +844,7 @@ in building on top of llm
 
      
  
-all -  [ Langchain library - the worst 'common functionality' abstraction package out there? ](https://www.reddit.com/r/LocalLLaMA/comments/1azkbnl/langchain_library_the_worst_common_functionality/) , 2024-02-27-0910
+all -  [ Langchain library - the worst 'common functionality' abstraction package out there? ](https://www.reddit.com/r/LocalLLaMA/comments/1azkbnl/langchain_library_the_worst_common_functionality/) , 2024-02-28-0909
 ```
 I've recently had time to dive into the Langchain library for creating a simple chatbot with memory (previously I've jus
 t used GPT4 APIs with my own abstractions).
@@ -555,754 +866,7 @@ lly, tears you apart in half.
 
      
  
-all -  [ Synthetic data generation using langchain ](https://www.reddit.com/r/LangChain/comments/1azi86f/synthetic_data_generation_using_langchain/) , 2024-02-27-0910
-```
- I have a question regarding generating synthetic data, in the docs synthetic data generation guide is only using OpenAI
- and when I'm trying to use other model It's just giving me some error is that possible to use other local models for sy
-nthetic data generation https://python.langchain.com/docs/use_cases/data_generation 
-
-my code
-```py
-synthetic_data_gener
-ator = create_openai_data_generator(
- output_schema=MedicalBilling,
- llm=Ollama(model='llama2'),
- prompt=few_shot_prompt
-_template
-)
-```
-
-error
-```
-ValueError: Ollama call failed with status code 400. Details: invalid options: functions, fun
-ction_call
-```
-```
----
-
-     
- 
-all -  [ how can I add more fields into a mongoDB database from langchain? ](https://www.reddit.com/r/LangChain/comments/1azhuxd/how_can_i_add_more_fields_into_a_mongodb_database/) , 2024-02-27-0910
-```
-I want to add a human message status into the mongodb database that tells if the message has been replayed to or not, ho
-w can I do that in langchain with this function?  
- 
-
-    message_history = MongoDBChatMessageHistory(
-                 
-   connection_string=connection_string, 
-                    session_id=f'{phone_number}'
-                )
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Query optimization ](https://www.reddit.com/r/LangChain/comments/1azfbj0/query_optimization/) , 2024-02-27-0910
-```
-I have a Json data and I want to optimize my retrieval process down to 50ms, how can we do this?
-```
----
-
-     
- 
-all -  [ What's the best way to Monitize AI chatbot (webapp) ](https://www.reddit.com/r/LangChain/comments/1aze52v/whats_the_best_way_to_monitize_ai_chatbot_webapp/) , 2024-02-27-0910
-```
-I have been developing a chatbot for a niche market. But I was wondering what's the best method to Monitize an AI conver
-sational chatbot. 
-```
----
-
-     
- 
-all -  [ Setting up a CI/CD workflow for LLM evaluation ](https://www.reddit.com/r/devops/comments/1azbafg/setting_up_a_cicd_workflow_for_llm_evaluation/) , 2024-02-27-0910
-```
-[Using Langchain Evaluators and  Pytest](https://semaphoreci.com/blog/llms-performance-testing)
-```
----
-
-     
- 
-all -  [ Working with Langchain evaluators ](https://www.reddit.com/r/LangChain/comments/1azb96b/working_with_langchain_evaluators/) , 2024-02-27-0910
-```
-How to set up a [CI/CD workflow using Langchain Evaluators and Pytest](https://semaphoreci.com/blog/llms-performance-tes
-ting) in measuring LLM performance with Langchain evaluators, 
-```
----
-
-     
- 
-all -  [ Making gpt-4 understand dates via RAG ](https://www.reddit.com/r/LangChain/comments/1az7uay/making_gpt4_understand_dates_via_rag/) , 2024-02-27-0910
-```
-I have written a RAG-system which uses around a 100 meeting notes from various dates. While ingesting the data I attach 
-the date as metadata (using llamaindex) to each document. 
-
-My problem is that the model is invariably confused about wh
-en the latest meeting was held/meeting note is from and will even contradict itself in the same chat session.
-
-I would g
-reatly appreciate any suggestions as to how I can fix this! 
-```
----
-
-     
- 
-all -  [ Response Schema Python/CSV Agent ](https://www.reddit.com/r/LangChain/comments/1az69hi/response_schema_pythoncsv_agent/) , 2024-02-27-0910
-```
-Hey guys, so I've been creating an agent that went from a SQL to Python/CSV agent (I kept getting errors from the db so 
-gave up on that). I have gotten to this final product where I get a specific response schema back and I'd like to use it
- to provide an answer, along with an embedded plot that is related to said answer. I have tested it, and it seems to wor
-k but the only thing is that my output does not want to return the schema. First, below is the code for the streamlit ap
-p:
-
-&#x200B;
-
-    from langchain_openai import OpenAI
-    from langchain_experimental.agents.agent_toolkits import creat
-e_python_agent, create_csv_agent # tools that will be used for sql agent to reason for
-    from langchain_experimental.t
-ools.python.tool import PythonREPLTool
-    from langchain.agents.agent_types import AgentType # for agent type assignmen
-t
-    from langchain.agents.react.agent import create_react_agent
-    from langchain.agents import (AgentExecutor, Tool)
- # agent executor to execute agent Tool, to make tool out of agent, ConversationalAgent to create template
-    # from la
-ngchain.memory import ConversationBufferMemory # chat memory for agentfrom langchain_core.prompts import ChatPromptTempl
-ate, MessagesPlaceholder
-    from langchain.prompts import PromptTemplate
-    from langchain.output_parsers import Respo
-nseSchema, StructuredOutputParser
-    from langchain_community.callbacks import StreamlitCallbackHandler
-    from langch
-ain.globals import set_verbose, set_debug
-    
-    from langchain_community.llms import Ollama
-    from langchain_google
-_vertexai import VertexAI
-    import google.auth
-    
-    from dotenv import load_dotenv
-    import os
-    
-    import s
-treamlit as st
-    
-    ##### Setup #####
-    
-    # Load the environment variables
-    load_dotenv()
-    
-    # google 
-authorization
-    CREDENTIALS, PROJECT_ID = google.auth.default()
-    
-    # set langchain to verbose, debug true
-    se
-t_verbose(True)
-    set_debug(False)
-    
-    ##### LLM #####
-    @st.cache_resource
-    def model_init(model_type = 'ge
-mini'):
-        # To use Ollama you must first install the model of choice, then provide its name as a parameter
-       
- if(model_type == 'ollama'):
-            model = Ollama(
-                        model='mistral:latest',  # Provide your
- ollama model name here
-                        temperature = 0.0,
-                        streaming=True
-              
-          )
-        
-        # Initializing Gemini
-        elif model_type == 'gemini':
-            model = VertexAI(
-  
-              model_name = 'gemini-pro',
-                max_output_tokens = '2500',
-                temperature = 0.05,
-
-                top_p = 0.8,
-                top_k = 40,
-                verbose = True,
-                streaming=True
-,
-                project=PROJECT_ID,
-                credentials=CREDENTIALS
-            )
-    
-        elif model_type
- == 'openai':
-            model = OpenAI(temperature = 0.05, 
-                           verbose = True,
-               
-            api_key=os.getenv('OPENAI_API_KEY')
-                           streaming=True)
-    
-        elif model_type 
-== 'codellama':
-            model = VertexAI(
-                model_name = 'codellama-70b',
-                max_output_t
-okens = '2500',
-                temperature = 0.05,
-                top_p = 0.8,
-                top_k = 40,
-           
-     verbose = True,
-                streaming=True,
-                project=PROJECT_ID,
-                credentials=CRE
-DENTIALS
-            )
-        return model
-    
-    ##### SQL Database #####
-    # @st.cache_resource
-    # def db_init
-(file):
-    #     # Connect to the SQLite database
-    #     connection = sqlite3.connect('data.db')
-    
-    #     # cr
-eate dataframe from data
-    #     df = pd.read_csv(file)
-    
-    #     # Convert DataFrame to a SQLite table
-    #    
- df.to_sql('data', connection, if_exists='replace')
-    
-    #     # connect to local database
-    #     db = SQLDatabas
-e.from_uri('sqlite:///data.db')
-    
-    #     return db 
-    
-    ##### Agent #####
-    @st.cache_resource
-    def agen
-t_init( _llm, data_description, file):
-        python_agent = create_python_agent(llm=_llm,
-                            
-               tool=PythonREPLTool(),
-                                           verbose=True)
-        
-        csv_agen
-t = create_csv_agent(llm=_llm,
-                                     path=file,)
-    
-        # Create the whole list of 
-tools
-        tools=[
-            Tool(
-                name='PythonAgent',
-                func=python_agent.invoke,
-  
-              description='Useful to plot data',
-            ),
-            Tool(
-                name='CSVAgent',
-     
-           func=csv_agent.invoke,
-                description='Useful to manipulate csv files as dataframes',
-          
-  ),
-        ]
-    
-        response_schemas = [
-            ResponseSchema(name='Final Answer', description='Answer to 
-the user's query.'),
-            ResponseSchema(
-                name='plot',
-                description='Python code f
-or the pandas plot, if applicable.',
-        ),
-        ]
-    
-        output_parser = StructuredOutputParser.from_respo
-nse_schemas(response_schemas)
-    
-        ##### Agent Creation #####
-        prompt_template = PromptTemplate.from_temp
-late(
-            '''We are statistically analyzing a dataset for a user by giving them natural language answers to thei
-r data analysis questions.
-    
-            Below is a description of the dataset:
-    
-            ''' + data_descripti
-on + '''
-    
-            Please answer the user's request utilizing the tools below:
-            {tools}
-            
- 
-           The names of the tools are:
-            {tool_names}
-    
-            Then, format the Final Answer as follow
-s:
-            {format_instructions}
-    
-            Do not transform the format above. It is your way of thinking thro
-ugh the problem.
-    
-            If there is no need to answer the question, or it is irrelevant to your job, please ma
-ke your final answer something similar to: 'Please ask a relevant query.'
-    
-            Begin!
-    
-            Quest
-ion: {input} 
-            Thought: {agent_scratchpad}''',
-            partial_variables={'format_instructions':output_pa
-rser.get_format_instructions()},
-        )
-    
-        # create zero shot agent (react agent)
-        agent = create_re
-act_agent(
-            llm=_llm,
-            tools=tools,
-            prompt=prompt_template,
-        )
-    
-        # I
-nitiate memory which allows for storing and extracting messages
-        # memory = ConversationBufferMemory(memory_key='
-chat_history', input_key='input', output_key='output')
-    
-        ##### Agent Chain #####
-    
-        # Create an Age
-ntExecutor which enables verbose mode and handling parsing errors
-        agent_chain = AgentExecutor.from_agent_and_too
-ls(
-            agent=agent, tools=tools, handle_parsing_errors=True, # memory=memory
-        )
-    
-        return agen
-t_chain
-    
-    ##### Streamlit Code #####
-    
-    # Set the webpage title
-    st.set_page_config(
-        page_title=
-'Dataset Q&A',
-        page_icon='📊',
-    )
-    
-    run = False
-    
-    with st.sidebar:
-        # get params for func
-tions
-        model_name = st.selectbox('Select model', ['gemini', 'ollama', 'openai', 'codellama'])
-        st.session_
-state['file'] = st.file_uploader('Upload a csv file', type=['csv'])
-    
-        st.session_state['description'] = st.te
-xt_area('Description')
-        st.markdown('Dataset descirption should include a general description (e.g., the purpose 
-of the data, what it is used for, etc.)')
-    
-        # initialize model, db, agent on run
-        if st.button(label='
-Run', help='This will initialize the model, database, and agent. It will also reset the chat interface.'):
-            s
-t.session_state['run'] = True
-    
-    # Create a header element
-    st.header('Dataset Q&A')
-    st.markdown('**PLEASE 
-RUN SIDEBAR FIRST BEFORE RUNNING CHAT INTERFACE**')
-    
-    if 'run' in st.session_state and st.session_state['run'] ==
- True:
-        with st.spinner('🚀 Loading model...'):
-            st.session_state['llm'] = model_init(model_name)
-    
-
-    
-        with st.spinner('🦾 Loading agent...'):
-            st.session_state['agent_chain'] = agent_init(st.session_
-state['llm'], st.session_state['description'], st.session_state['file'])
-    
-        if 'messages'  in st.session_state
-:
-            st.session_state.messages = [
-            {'role': 'assistant', 'content': 'Welcome to the Data QA bot! As
-k whatever questions you'd like!'}
-        ]
-        
-    
-    #### Create a chat interface ####
-    
-    # We store the
- conversation in the session state.
-    # This will be used to render the chat conversation.
-    # We initialize it with
- the first message we want to be greeted with.
-    
-    ##  Session States ##
-    if 'messages' not in st.session_state:
-
-        st.session_state.messages = [
-            {'role': 'assistant', 'content': 'Welcome to the Data QA bot! Ask wha
-tever questions you'd like!'}
-        ]
-    
-    # We loop through each message in the session state and render it as
-  
-  # a chat message.
-    for message in st.session_state.messages:
-        with st.chat_message(message['role']):
-       
-     st.markdown(message['content'])
-    
-    
-    ## Chat Code ## 
-    # We take questions/instructions from the chat i
-nput to pass to the LLM
-    if user_input := st.chat_input('Question', key='input'):
-        st.chat_message('user').wri
-te(user_input)
-    
-        # Add our input to the session state
-        st.session_state.messages.append(
-            {
-'role': 'user', 'content': user_input}
-        )
-    
-        # Add the response to the chat window
-        with st.chat
-_message('assistant'):
-            st_callback = StreamlitCallbackHandler(st.container()) # visualize thinking process
- 
-   
-            # invoke chain with necessary input variables
-            response = st.session_state['agent_chain'].inv
-oke({'input' : user_input})
-    
-            # Add the response to messages session state
-            st.session_state.m
-essages.append(
-                {'role': 'assistant', 'content': response['output']})
-            
-            st.write_
-stream(response['output'])
-
-Next, here is the output (what is below, but repeated multiple times:
-
-    ```Invalid Format
-: Missing 'Action:' after 'Thought:```json
-    {
-            'Final Answer': 'The top selling item is 'Computer', with 2
-2548 units sold.',
-            'plot': '```python\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Read the CS
-V file into a DataFrame\ndf = pd.read_csv('sales_data.csv')\n\n# Group the data by item and sum the sales\ndf = df.group
-by('Item').sum()\n\n# Sort the data by sales in descending order\ndf = df.sort_values('Sales', ascending=False)\n\n# Get
- the top selling item\ntop_selling_item = df.iloc[0]['Item']\n\n# Print the top selling item\nprint(f'The top selling it
-em is {top_selling_item}.')\n\n# Plot the top selling item\ndf.plot.bar(x='Item', y='Sales')\nplt.title('Top Selling Ite
-m')\nplt.xlabel('Item')\nplt.ylabel('Sales')\nplt.show()\n```'
-    }
-    ```Invalid Format: Missing 'Action:' after 'Tho
-ught:```json
-    {
-            'Final Answer': 'The top selling item is 'Computer', with 22548 units sold.',
-           
- 'plot': '```python\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# Read the CSV file into a DataFrame\ndf = 
-pd.read_csv('sales_data.csv')\n\n# Group the data by item and sum the sales\ndf = df.groupby('Item').sum()\n\n# Sort the
- data by sales in descending order\ndf = df.sort_values('Sales', ascending=False)\n\n# Get the top selling item\ntop_sel
-ling_item = df.iloc[0]['Item']\n\n# Print the top selling item\nprint(f'The top selling item is {top_selling_item}.')\n\
-n# Plot the top selling item\ndf.plot.bar(x='Item', y='Sales')\nplt.title('Top Selling Item')\nplt.xlabel('Item')\nplt.y
-label('Sales')\nplt.show()\n```'
-    }
-    ```Invalid Format: Missing 'Action:' after 'Thought:```json
-    {
-           
- 'Final Answer': 'The top selling item is 'Computer', with 22548 units sold.',
-            'plot': '```python\nimport pa
-ndas as pd\nimport matplotlib.pyplot as plt\n\n# Read the CSV file into a DataFrame\ndf = pd.read_csv('sales_data.csv')\
-n\n# Group the data by item and sum the sales\ndf = df.groupby('Item').sum()\n\n# Sort the data by sales in descending o
-rder\ndf = df.sort_values('Sales', ascending=False)\n\n# Get the top selling item\ntop_selling_item = df.iloc[0]['Item']
-\n\n# Print the top selling item\nprint(f'The top selling item is {top_selling_item}.')\n\n# Plot the top selling item\n
-df.plot.bar(x='Item', y='Sales')\nplt.title('Top Selling Item')\nplt.xlabel('Item')\nplt.ylabel('Sales')\nplt.show()\n``
-`'
-    }
-    ```Invalid Format: Missing 'Action:' after 'Thought:
-    
-    > Finished chain.
-
-Any help/feedback is much 
-appreciated! I really wanna get good at Lang Chain but have spent a lot of time troubleshooting errors. Hopefully this i
-s the last! (doubt it)
-```
----
-
-     
- 
-all -  [ Looking to Hire a Teacher to Meet Twice a Month ](https://www.reddit.com/r/LangChain/comments/1az5do0/looking_to_hire_a_teacher_to_meet_twice_a_month/) , 2024-02-27-0910
-```
-Hi!
-
-
-
-I am a Data Scientist by trade and have been working with Langchain specifically for about 2 months now. I enjoy 
-coding both inside and outside of work.
-
-
-
-I'm not looking for any help with work.
-
-I want a non-academic tutor who I me
-et with once or twice a month via Zoom and I can use it like office hours.
-
-
-
-If you would be interested in exploring ra
-ndom passion projects and ideas with me please send a DM and we can discuss rates and hours there. I'm flexible haha.
-
-
-
-
-P.S. I'd love recommendations on how I can accomplish finding someone like this as well if anyone has thoughts.
-
-
-
-EDIT
-: Lots of people seem intestedsted so I've made a small discord server for us to dive into this!
-
-[https://discord.gg/U8
-H27HTB](https://discord.gg/U8H27HTB)  
-Looking forward to meeting yall and talking about our projects!
-```
----
-
-     
- 
-all -  [ Developing Langchain Agents with the MinIO SDK for LLM Tool-Use ](https://www.reddit.com/r/minio/comments/1az41o8/developing_langchain_agents_with_the_minio_sdk/) , 2024-02-27-0910
-```
-In this guide, we prioritize practicality, steering towards actionable development practices. We invite developers to em
-brace the potential that lies in the union of Langchain and MinIO SDK, to not only innovate but also to redefine the bou
-ndaries of what can be achieved with the intelligent automation of today's digital tools.
-
-[https://blog.min.io/minio-la
-ngchain-tool/?utm\_source=reddit&utm\_medium=organic-social+&utm\_campaign=minio\_langchain\_tool+](https://blog.min.io/
-minio-langchain-tool/?utm_source=reddit&utm_medium=organic-social+&utm_campaign=minio_langchain_tool+)
-```
----
-
-     
- 
-all -  [ Help - tutorial needed ](https://www.reddit.com/r/LangChain/comments/1az3nu8/help_tutorial_needed/) , 2024-02-27-0910
-```
-I’ve been trying to follow a few different tutorials but I keep getting stuck.  
-
-Problem:  currently, it’s time consumi
-ng and labor intensive to find historic data in the various reports that I have.  Our staff changes seasonally so report
-s and data get filed away and forgotten about until someone stumbles upon it or active goes looking for ‘that study on x
- 5 years ago’
-
-Need: I have about 20 years of environmental reports in PDF I want to load into a vector DB then put a ch
-atbot on top of it for my co-workers to query for past results.  
-
-I’ve gotten to the point of where OpenAI embeddings a
-re working but storing them and querying them is where I get lost.  I overthink and keep trying different platforms (chr
-oma, pinecone, faiss) that sets me back.  
-
-I followed a tutorial to use streamlit and pinecone and OpenAI and it kind o
-f works but lacks substance on the retrieval.  I then look at the scaling costs of pinecone and it’s more than I need bu
-t can’t figure out another VDB to learn from.  
-
-Any books, websites, libraries are great appreciated!  I’d even pay if 
-there is a paid version of a course to take.  
-
-Thank you
-
-
-```
----
-
-     
- 
-all -  [ Hello from the Feast project (https://feast.dev)! The open-source Feature Store. ](https://www.reddit.com/r/mlops/comments/1az3fz6/hello_from_the_feast_project_httpsfeastdev_the/) , 2024-02-27-0910
-```
-Hi folks, I want to bring you the latest update on the open-source Feature Store project: Feast ([https://feast.dev](htt
-ps://feast.dev/)). The Feast project wants to share this message with you:[ https://feast.dev/blog/the-future-of-feast/]
-(https://feast.dev/blog/the-future-of-feast/) The post is written by William Pienaar, the founder of the Feast project, 
-representing our 200+ contributors.
-
-We have been working very hard to improve the project quality and make it adapt to 
-the current AI trend (check Langchain's post about Feast: [https://blog.langchain.dev/feature-stores-and-llms/](https://
-blog.langchain.dev/feature-stores-and-llms/)). We hope the MLOps community can give us more feedback about the usage of 
-it. With your feedback, we can shape the Feast into a solid product and serve the MLOps community in a better way.
-
-Plea
-se support us with bug/issue reports at:[ https://github.com/feast-dev/feast](https://github.com/feast-dev/feast) 
-
-Cont
-ributions are also welcome!
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Youtube loader with timecodes ](https://www.reddit.com/r/LangChain/comments/1az2t9r/youtube_loader_with_timecodes/) , 2024-02-27-0910
-```
-Hey folks,   
-Playing around with the pet project that asks for subjects discussed in a video and asks for the time code
-.  
-I found that the in-house loader is limited for the task at hand. It does not provide the necessary start code unlik
-e the 'youtube-transcript-api' library.  
-
-
-Has anyone worked on something similar? What would be the best way to do tha
-t?
-```
----
-
-     
- 
-all -  [ RAG with OpenAI assistant API ](https://www.reddit.com/r/LangChain/comments/1az27pt/rag_with_openai_assistant_api/) , 2024-02-27-0910
-```
-Has anyone tried using the following method?
-
-I have a use case where I need to pull out a product recommendation. I use
- open AI assistant to help me do the job. But I do not use the built-in retrieval from the openAI. Instead I build a ret
-rieval tool which is essentially a retrieval chain (load and chunk the data myself, using vector store and use retriever
-) 
-But the problem is I find that OpenAI assistant sometimes answer customer questions without using the tool.
-
-Like for
- example, it will use its own knowledge to answer customer inquiries instead of looking up the database.
-Is there a way 
-I can improve it? Something like assigning another agent to the flow downstream to check if the first response is genera
-ted by the default brain of assistant API or based on the retrieval tool? I’m just brainstorming..
-
-
-```
----
-
-     
- 
-all -  [ FlowiseAI python alternative  ](https://www.reddit.com/r/LangChain/comments/1az0uae/flowiseai_python_alternative/) , 2024-02-27-0910
-```
-Hi,
-Is there any FlowiseAI alternative in python? 
-Or Is there any way to export the flows created in FlowiseAI to pytho
-n code?
-```
----
-
-     
- 
-all -  [ LCEL along with legacy chain  ](https://www.reddit.com/r/LangChain/comments/1ayv0uz/lcel_along_with_legacy_chain/) , 2024-02-27-0910
-```
-I have been trying to use Langhain, especially the new custom composed LCEL chains in combination with the legacy consti
-tutional chains that allow me to do guardrails. 
-
-But because constitutional chains are not in the new format of LCEL, I
- couldn't figure out a way to make it work. Legacy constitutional chain accepts only another legacy chain as an input. S
-o I can't put them together. 
-
-Help will be appreciated!
-```
----
-
-     
- 
-all -  [ How to remove the prompt and prompt template from the response when invoking a chain? ](https://www.reddit.com/r/LangChain/comments/1ayszzh/how_to_remove_the_prompt_and_prompt_template_from/) , 2024-02-27-0910
-```
-Hello,
-
-
-
-I am in the process of doing my master's thesis and will focus on multi-agent systems for software testing. I 
-have decided to use LangGraph as my framework of choice and I am in the process of learning it.
-
-I have been toying arou
-nd with LangChain and it's been working great. However, one of the things that I cannot seem to figure out, is how to ha
-ve the model only give me the output, without the input being a part of it.
-
-Code example below:
-
-    llm_hf = HuggingFa
-ceHub(repo_id='mistralai/Mistral-7B-Instruct-v0.2',
-         model_kwargs={'temperature': 0.9})
-    
-    duck_specialist
-_template = '''
-    I want you to act as a specialist in ducks, covering aspects from their biology to conservation.  Yo
-ur role involves providing expert insights into different duck species, including their habitats, behaviors, and the cha
-llenges they face in their natural environments. Additionally, you're tasked with advising on conservation strategies to
- protect these species and their habitats from threats such as habitat loss, pollution, and climate change.  For any inq
-uiry about ducks, offer a comprehensive overview that includes species identification, habitat preferences, dietary habi
-ts, migratory patterns, and conservation status. Moreover, suggest practical conservation measures that can be implement
-ed to support the health and sustainability of duck populations.  Can you provide funny name suggestions on a duck that 
-looks like {duck_description}?
-    ''' 
-    
-    tiny = 'a small, energetic duck with bright blue feathers and a penchan
-t for doing somersaults in the water. Its quack is surprisingly deep for its size'
-    
-    prompt_template = PromptTemp
-late(
-         input_variables=['duck_description'],
-         template=duck_specialist_template,
-     )
-    
-    chain =
- LLMChain(llm=llm_hf, prompt=prompt_template)  print(chain.run(duck_description=tiny)) 
-
-Now, when I run this it gives m
-e the following output:
-
->I want you to act as a specialist in ducks, covering aspects from their biology to conservatio
-n.  
-Your role involves providing expert insights into different duck species, including their habitats, behaviors, and 
-the challenges they face in their natural environments. Additionally, you're tasked with advising on conservation strate
-gies to protect these species and their habitats from threats such as habitat loss, pollution, and climate change.  
-For
- any inquiry about ducks, offer a comprehensive overview that includes species identification, habitat preferences, diet
-ary habits, migratory patterns, and conservation status. Moreover, suggest practical conservation measures that can be i
-mplemented to support the health and sustainability of duck populations.  
-Can you provide funny name suggestions on a d
-uck that looks like a small, energetic duck with bright blue feathers and a penchant for doing somersaults in the water.
- Its quack is surprisingly deep for its size?  
-Absolutely! Based on the description you've given, I would suggest the n
-ame 'Flippy the Feisty Blue Bunter.' This name captures the duck's small size, energetic nature, bright blue feathers, a
-nd acrobatic behavior in the water (somersaults), while the 'feisty' part adds a fun and lively character to its name. T
-he term 'bunter' is a playful way to refer to the duck's
-
-Here the prompt is part of the output, which in turn cuts off 
-the models response. I have been trying to find out a way to fix this, but prompting does not seem to work and I could n
-ot find anything that works. I am just concerned that if I start chaining, then it will reach the output limit before it
- can respond to future prompts, making the chain obsolete and the task complete unsolvable.
-```
----
-
-     
- 
-all -  [ Check out this LangChain (Generative AI framework) playlist with 60+ tutorials ](https://www.reddit.com/r/AI__India/comments/1aysq8c/check_out_this_langchain_generative_ai_framework/) , 2024-02-27-0910
-```
-Hey everyone, checkout this playlist with 60+ tutorials for learning any LangChain concept from scratch with codes. [htt
-ps://www.youtube.com/watch?v=OagbDJvywJI&list=PLnH2pfPCPZsKJnAIPimrZaKwStQrLSNIQ](https://www.youtube.com/watch?v=OagbDJ
-vywJI&list=PLnH2pfPCPZsKJnAIPimrZaKwStQrLSNIQ) 
-```
----
-
-     
- 
-MachineLearning -  [ [D] Graphs + vectordbs? Need your input: Cognee.ai . AI Data Pipelines for Real-World Production (Pa ](https://www.reddit.com/r/MachineLearning/comments/1aweo71/d_graphs_vectordbs_need_your_input_cogneeai_ai/) , 2024-02-27-0910
+MachineLearning -  [ [D] Graphs + vectordbs? Need your input: Cognee.ai . AI Data Pipelines for Real-World Production (Pa ](https://www.reddit.com/r/MachineLearning/comments/1aweo71/d_graphs_vectordbs_need_your_input_cogneeai_ai/) , 2024-02-28-0909
 ```
 Hey there, Redditors!
 
@@ -1371,7 +935,7 @@ Check out the
 
      
  
-MachineLearning -  [ [D] AI projects Suggestions ](https://www.reddit.com/r/MachineLearning/comments/1aunkmw/d_ai_projects_suggestions/) , 2024-02-27-0910
+MachineLearning -  [ [D] AI projects Suggestions ](https://www.reddit.com/r/MachineLearning/comments/1aunkmw/d_ai_projects_suggestions/) , 2024-02-28-0909
 ```
 Hi Everyone, I need a suggestion to create AI courses for students ( Hands-on AI projects). I am thinking about the late
 st AI trends such as Langchain, RAG, and vector databases. In each project, there can be multiple tasks, and the main th
@@ -1387,7 +951,7 @@ not be automatically tested. . em can verify if the length of the text is smalle
 
      
  
-MachineLearning -  [ Whats in your RAG setup? [D] ](https://www.reddit.com/r/MachineLearning/comments/1apcp2w/whats_in_your_rag_setup_d/) , 2024-02-27-0910
+MachineLearning -  [ Whats in your RAG setup? [D] ](https://www.reddit.com/r/MachineLearning/comments/1apcp2w/whats_in_your_rag_setup_d/) , 2024-02-28-0909
 ```
 What frameworks and libraries are you using in your RAG? 
 
@@ -1408,7 +972,7 @@ in to load document splitters and characters splitters for chunking
 
      
  
-MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-27-0910
+MachineLearning -  [ [D] What's the best current RAG setup that would work with a local LLM? ](https://www.reddit.com/r/MachineLearning/comments/1ag6bo7/d_whats_the_best_current_rag_setup_that_would/) , 2024-02-28-0909
 ```
 I've tried things like langchain in the past (6-8 months ago) but they were cumbersome and didn't work as expected.
 
@@ -1426,7 +990,7 @@ ing RAG (compared to 6 months ago)
 
      
  
-MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-27-0910
+MachineLearning -  [ [P]: Anukool: My job hunting assistant ](https://www.reddit.com/r/MachineLearning/comments/1adu3tw/p_anukool_my_job_hunting_assistant/) , 2024-02-28-0909
 ```
 Hey Reddit, I've been applying for jobs and found that writing a cover letter for each position was tedious. I also delv
 ed into LLM and Langchain, hoping to leverage them for a project to aid in my job hunting. So, I developed Anukool under
@@ -1443,7 +1007,7 @@ ithub.com/dakshesh14/anukool
 
      
  
-deeplearning -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-02-27-0910
+deeplearning -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-02-28-0909
 ```
 Embark on a journey through the digital cosmos with WebVoyager, a groundbreaking Large Multimodal Model (LMM) web agent 
 designed to navigate the vastness of the online universe. In collaboration with Langchain, WebVoyager represents a parad
@@ -1458,7 +1022,7 @@ os-with-langgraph-multimodal-models-dace64196c2f)
 
      
  
-deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-27-0910
+deeplearning -  [ [D] Langchain Elevates with Step-Back Prompting using RAGatouille ](https://www.reddit.com/r/deeplearning/comments/1agtyeh/d_langchain_elevates_with_stepback_prompting/) , 2024-02-28-0909
 ```
 In the dynamic realm of natural language processing, a revolutionary synergy has emerged between Langchain and Step-Back
  Prompting. This article delves into the transformative collaboration, exploring how Langchain’s cutting-edge platform i
@@ -1475,7 +1039,7 @@ k-prompting-using-ragatouille-b433e6f200ea
 
      
  
-deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-27-0910
+deeplearning -  [ Become an AI Developer (Free 9 Part Series) ](https://www.reddit.com/r/deeplearning/comments/1afgp2r/become_an_ai_developer_free_9_part_series/) , 2024-02-28-0909
 ```
 Just sharing a free series I stumbled across on Linkedin - DataCamp's 9-part AI code-along series.
 
@@ -1495,7 +1059,7 @@ Find
 
      
  
-deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-27-0910
+deeplearning -  [ DSPy Explained! ](https://www.reddit.com/r/deeplearning/comments/1adypks/dspy_explained/) , 2024-02-28-0909
 ```
 DSPy is the next big advancement for AI and building applications with LLMs!
 
