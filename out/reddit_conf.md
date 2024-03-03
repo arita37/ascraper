@@ -1,5 +1,5 @@
  
-all -  [ 'Thinker: Learning to Plan and Act', Chung et al. (NeurIPS 2023) ](https://arxiv.org/abs/2307.14993) , 2024-03-02-0909
+all -  [ 'Thinker: Learning to Plan and Act', Chung et al. (NeurIPS 2023) ](https://arxiv.org/abs/2307.14993) , 2024-03-03-0910
 ```
 
 ```
@@ -7,7 +7,7 @@ all -  [ 'Thinker: Learning to Plan and Act', Chung et al. (NeurIPS 2023) ](http
 
      
  
-all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-02-0909
+all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-03-0910
 ```
 I am graduating soon, and my Ph.D. research is about RL algorithms and their applications.  
 However, I failed to publis
@@ -28,7 +28,7 @@ y opportunities in startups, or other positions I have not explored yet.
 
      
  
-all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-02-0909
+all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-03-0910
 ```
 Hi colleagues,
 
@@ -53,7 +53,7 @@ I do understand that robotics conferences are a little
 
      
  
-all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-02-0909
+all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-03-0910
 ```
 I have stubborn texture and always get pimples on my chin area that just won’t go away anyone have tips or products that
  they use?TIA included what I use now thank you!!
@@ -62,7 +62,7 @@ I have stubborn texture and always get pimples on my chin area that just won’t
 
      
  
-all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-02-0909
+all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-03-0910
 ```
 [Paper](https://arxiv.org/abs/2311.17137). [Project website](https://intrinsic-lora.github.io/). I am not affiliated wit
 h the authors.
@@ -188,7 +188,7 @@ yes.
 
      
  
-all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-02-0909
+all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-03-0910
 ```
 Hi everyone!
 
@@ -214,7 +214,7 @@ t.com/link/1axeoqq/video/4exdgqd9q6kc1/player)
 
      
  
-all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-02-0909
+all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-03-0910
 ```
 Hi!
 
@@ -234,7 +234,7 @@ Any help would be appreciated! Thanks!
 
      
  
-all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-02-0909
+all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-03-0910
 ```
 GovAI was founded to help humanity navigate the transition to a world with advanced AI. Our first research agenda, publi
 shed in 2018, helped define and shape the nascent field of AI governance. Our team and affiliate community possess exper
@@ -289,7 +289,7 @@ obs.net/job/139016-research-scholar-technical-research/)
 
      
  
-all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-02-0909
+all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-03-0910
 ```
 I'm in the process of deciding on my masters thesis in Data Science. The professor that I have been communicating with o
 ffered me to join a team that would submit their research to NeurIPS. On the other hand, the topic of the research does 
@@ -303,7 +303,7 @@ onference in my CV, or do a topic that is more related to my field of interest? 
 
      
  
-all -  [ [D] Picking an ML lab as an undergraduate: big, established lab or small, focused lab? ](https://www.reddit.com/r/MachineLearning/comments/1avie4g/d_picking_an_ml_lab_as_an_undergraduate_big/) , 2024-03-02-0909
+all -  [ [D] Picking an ML lab as an undergraduate: big, established lab or small, focused lab? ](https://www.reddit.com/r/MachineLearning/comments/1avie4g/d_picking_an_ml_lab_as_an_undergraduate_big/) , 2024-03-03-0910
 ```
 Some background: I'm a third-year trying really hard for a PhD at a good school (a crapshoot, I know). I go to a solid s
 chool for CS and have some basics like a good GPA, plus I've been doing some applied work in healthcare at a T3, expecti
@@ -392,7 +392,7 @@ d give me pointers that would be enormously appreciated! Thank you!!
 
      
  
-all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-02-0909
+all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-03-0910
 ```
 I didn’t have the opportunity to attend many conferences during my undergrad because they were usually expensive and req
 uired traveling. But I’ve recently started working as a backend SWE and definitely want to start attending more conferen
@@ -410,7 +410,7 @@ So, I just wanted to hear
 
      
  
-all -  [ Tough job market advice on how to proceed? ](https://www.reddit.com/r/computervision/comments/1atbsty/tough_job_market_advice_on_how_to_proceed/) , 2024-03-02-0909
+all -  [ Tough job market advice on how to proceed? ](https://www.reddit.com/r/computervision/comments/1atbsty/tough_job_market_advice_on_how_to_proceed/) , 2024-03-03-0910
 ```
 Fortunately I am currently employeed but searching for new opportunities.
 
@@ -443,7 +443,7 @@ mes I respond with idk don’t need to know right now and if I did I could look 
 
      
  
-all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-03-02-0909
+all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-03-03-0910
 ```
 Since SORA was teased, I've heard a lot of pro-AI folks dragging up old comments from anti-AI folks saying that AI is dy
 ing and will always be terrible, and this is entirely fair. But it's important to also remember that some of the critici
@@ -496,7 +496,7 @@ peared in ever-improving wagon wheels.
 
      
  
-all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-03-02-0909
+all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-03-03-0910
 ```
 Hi I have these research conferences that are of my interest! (Area: Applied AI and Social NLP)
 
@@ -517,7 +517,7 @@ uld be much appreciated!
 
      
  
-all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-03-02-0909
+all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-03-03-0910
 ```
 Hi!
 
@@ -546,7 +546,7 @@ Thanks in
 
      
  
-all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-03-02-0909
+all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-03-03-0910
 ```
 Hi!
 
@@ -575,7 +575,7 @@ Thanks in advance :)
 
      
  
-all -  [ Faith and Fate: Limits of Transformers on Compositionality [R] ](https://www.reddit.com/r/MachineLearning/comments/1amzb52/faith_and_fate_limits_of_transformers_on/) , 2024-03-02-0909
+all -  [ Faith and Fate: Limits of Transformers on Compositionality [R] ](https://www.reddit.com/r/MachineLearning/comments/1amzb52/faith_and_fate_limits_of_transformers_on/) , 2024-03-03-0910
 ```
 Edit: Kevin Murphy,  Francois Chollet, Vitaly Kurin and others recommended this paper (some very highly)
 
@@ -607,7 +607,7 @@ ent 'success' is just due to unreliable pattern matching / shortcut learning.'
 
      
  
-all -  [ [D] concerns about the series of works in reflexion(self-adjustment)-powered LLM agent ](https://www.reddit.com/r/MachineLearning/comments/1am3ior/d_concerns_about_the_series_of_works_in/) , 2024-03-02-0909
+all -  [ [D] concerns about the series of works in reflexion(self-adjustment)-powered LLM agent ](https://www.reddit.com/r/MachineLearning/comments/1am3ior/d_concerns_about_the_series_of_works_in/) , 2024-03-03-0910
 ```
 we see tons of works in LLM-based agent which can perform tasks on web applications such as webshop, [webarena](https://
 github.com/web-arena-x/webarena),  [agentbench](https://github.com/THUDM/AgentBench/tree/main)etc...
@@ -648,7 +648,7 @@ Would like to hear from you in view of academic and industry.
 
      
  
-all -  [ [R] Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning ](https://www.reddit.com/r/MachineLearning/comments/1am1v5f/r_long_is_more_for_alignment_a_simple_but/) , 2024-03-02-0909
+all -  [ [R] Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning ](https://www.reddit.com/r/MachineLearning/comments/1am1v5f/r_long_is_more_for_alignment_a_simple_but/) , 2024-03-03-0910
 ```
 **Title**: Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning
 
@@ -673,7 +673,7 @@ n fine-tuning.
 
      
  
-all -  [ [R] Persistent homology and topological data analysis helped robust detection of AI-generated texts ](https://www.reddit.com/r/MachineLearning/comments/1aky8xt/r_persistent_homology_and_topological_data/) , 2024-03-02-0909
+all -  [ [R] Persistent homology and topological data analysis helped robust detection of AI-generated texts ](https://www.reddit.com/r/MachineLearning/comments/1aky8xt/r_persistent_homology_and_topological_data/) , 2024-03-03-0910
 ```
 The main idea is that text data can be presented as points in some high-dimensional space. It can be assumed that the da
 taset fits into some surface in it. The problem is that such a surface may have fractal characteristics, so complex math
@@ -703,7 +703,7 @@ ublished in the proceedings of the NeurIPS 2023 conference.
 
      
  
-all -  [ IS THIS A GOOD ROADMAP TO LEARN PYTHON? ](https://www.reddit.com/r/learnpython/comments/1ak8v9p/is_this_a_good_roadmap_to_learn_python/) , 2024-03-02-0909
+all -  [ IS THIS A GOOD ROADMAP TO LEARN PYTHON? ](https://www.reddit.com/r/learnpython/comments/1ak8v9p/is_this_a_good_roadmap_to_learn_python/) , 2024-03-03-0910
 ```
 . Python Basics:  
 Resources:  
@@ -786,7 +786,7 @@ y, and edX.
 
      
  
-all -  [ IS THIS A GOOD ROADMAP FOR MASCHINE LEARNING? ](https://www.reddit.com/r/learnmachinelearning/comments/1ak8qxi/is_this_a_good_roadmap_for_maschine_learning/) , 2024-03-02-0909
+all -  [ IS THIS A GOOD ROADMAP FOR MASCHINE LEARNING? ](https://www.reddit.com/r/learnmachinelearning/comments/1ak8qxi/is_this_a_good_roadmap_for_maschine_learning/) , 2024-03-03-0910
 ```
  
 
@@ -890,7 +890,7 @@ Conferences like NeurIPS, ICML
 
      
  
-all -  [ Cape to Carthage: documentary about an all African, female-led AI research team rising against the o ](https://www.reddit.com/r/MachineLearning/comments/1ajkh13/cape_to_carthage_documentary_about_an_all_african/) , 2024-03-02-0909
+all -  [ Cape to Carthage: documentary about an all African, female-led AI research team rising against the o ](https://www.reddit.com/r/MachineLearning/comments/1ajkh13/cape_to_carthage_documentary_about_an_all_african/) , 2024-03-03-0910
 ```
 In the world of AI, Africa has a reputation for being a missing continent. Follow an underdog, female-led, all-African r
 esearch team as they compete with tech giants and top universities for a spot at the top international AI research confe
@@ -903,36 +903,7 @@ age/).
 
      
  
-all -  [ Actor Critic with q-function approximation not converging ](https://www.reddit.com/r/reinforcementlearning/comments/1aj2zey/actor_critic_with_qfunction_approximation_not/) , 2024-03-02-0909
-```
-Recently I have been trying to implement the actor critic described in this [paper](https://proceedings.neurips.cc/paper
-/1999/hash/6449f44a102fde848669bdd9eb6b76fa-Abstract.html).
-
-However, when using the cart pole v1 environment the agent 
-learns a little of the behavior but then sorta falls apart. Any ideas about incorrect implementation or alternative crit
-ic features would be much appreciated.
-
-I have also been playing with hyperparameters but no combination has worked well
- for me.
-
-[Code](https://drive.google.com/file/d/1CeZgjkrJH5biy9zeA7S9JjYm753kVNzl/view?usp=sharing)
-
-&#x200B;
-
-Edit: I 
-have realized that in the score function I should not take the sum of the outputs and instead should calculate the gradi
-ent for each action individually in a for loop. However, the agent still has poor performance.
-
-Edit2: For the score fun
-ction I use the gradients for all of the parameters in the model and performance has increased. I have also realized I m
-isunderstood the time variance described in the paper and have refactored the code to implement it correctly.  However, 
-there are still issues with convergence and the model becoming overconfident causing nan values.
-```
----
-
-     
- 
-all -  [ [D] Publishing Negative Results ](https://www.reddit.com/r/MachineLearning/comments/1aikp5f/d_publishing_negative_results/) , 2024-03-02-0909
+all -  [ [D] Publishing Negative Results ](https://www.reddit.com/r/MachineLearning/comments/1aikp5f/d_publishing_negative_results/) , 2024-03-03-0910
 ```
 I‘ve been working on a ML research project, and unfortunately, the results don‘t align with my hypothesis. I‘ve gotten n
 egative results.
@@ -949,7 +920,7 @@ ove successful?
 
      
  
-all -  [ AI alignment prize suggestion: Introduce AI Safety concepts into the ML community ](https://www.reddit.com/r/AIsafetyideas/comments/1aiglw9/ai_alignment_prize_suggestion_introduce_ai_safety/) , 2024-03-02-0909
+all -  [ AI alignment prize suggestion: Introduce AI Safety concepts into the ML community ](https://www.reddit.com/r/AIsafetyideas/comments/1aiglw9/ai_alignment_prize_suggestion_introduce_ai_safety/) , 2024-03-03-0910
 ```
 Recently, there have been several papers published at top ML conferences that introduced concepts from the AI safety com
 munity into the broader ML community. Such papers often define a problem, explain why it matters, sometimes formalise it
@@ -964,7 +935,7 @@ cept of AI alignment.
 
      
  
-all -  [ [D] questions on ICML 2024 submission timeline ](https://www.reddit.com/r/MachineLearning/comments/1ahxe7t/d_questions_on_icml_2024_submission_timeline/) , 2024-03-02-0909
+all -  [ [D] questions on ICML 2024 submission timeline ](https://www.reddit.com/r/MachineLearning/comments/1ahxe7t/d_questions_on_icml_2024_submission_timeline/) , 2024-03-03-0910
 ```
 Hello all!
 
@@ -985,7 +956,7 @@ thanks!
 
      
  
-all -  [ Picked up all these Tapes today! ](https://i.redd.it/pcbd29avx1gc1.jpeg) , 2024-03-02-0909
+all -  [ Picked up all these Tapes today! ](https://i.redd.it/pcbd29avx1gc1.jpeg) , 2024-03-03-0910
 ```
 Found this whole lot at VV for the grand total of $5.99! Lots of them still have the original Sony store tags on them!
 ```
@@ -993,7 +964,7 @@ Found this whole lot at VV for the grand total of $5.99! Lots of them still have
 
      
  
-all -  [ Academic journal or conference for AI safety ](https://www.reddit.com/r/AIsafetyideas/comments/1agmkg5/academic_journal_or_conference_for_ai_safety/) , 2024-03-02-0909
+all -  [ Academic journal or conference for AI safety ](https://www.reddit.com/r/AIsafetyideas/comments/1agmkg5/academic_journal_or_conference_for_ai_safety/) , 2024-03-03-0910
 ```
 To help boost the prestige of safety research, leading to more people starting the career.
 
@@ -1023,63 +994,12 @@ might focus on scientific novelty and complicated/'cool' papers, this conference
 
      
  
-all -  [ Research Advances in Transformer Time Series Forecasting Models ](https://www.reddit.com/r/deeplearning/comments/1ag4xfp/research_advances_in_transformer_time_series/) , 2024-03-02-0909
+all -  [ Research Advances in Transformer Time Series Forecasting Models ](https://www.reddit.com/r/deeplearning/comments/1ag4xfp/research_advances_in_transformer_time_series/) , 2024-03-03-0910
 ```
 Just published a new article describing [recent advances in the deep learning for time series](https://medium.com/deep-d
 ata-science/advances-in-deep-learning-for-time-series-forecasting-classification-winter-2024-a3fd31b875b0) forecasting a
 nd classification space. Specifically, discussed new research at Neurips and ICML and how it compared to baseline method
 s like DLinear. I also critiqued some problematic and flawed papers such as TimeGPT. 
-```
----
-
-     
- 
-all -  [ How much am I worth? ~Big Tech Specialty Research Scientist ](https://www.reddit.com/r/Salary/comments/1afrju3/how_much_am_i_worth_big_tech_specialty_research/) , 2024-03-02-0909
-```
-**Face value experience:**  
-I have a PhD in mathematical optimization, with expertise in signal processing, with public
-ized innovations in both theoretical (ICML) and applied (NeurIPS) machine learning. The latter publication within the la
-st 2 years. I have worked in govt contractor-like roles for the last 4-6 years, but for small scientific firms. 1-2 year
-s as a Senior Scientist, and next (currently) as a 'Research Professor' (95% applied research, 5% mentoring PhD candidat
-es). Intentional vagueness for anonymity. I have never worked in big tech except for a 5 month software engineering inte
-rnship (also related to ML).
-
-**The Position:**  
-I have reason to believe that a big-tech team is about to call me with
- an offer. It is a very specialized, secretive lab of about 20 people within one of the famous 'big tech' companies (ove
-r 80k employees) with a very high reputation in the ML field (top 3 depending who you ask). The lab is trying to build a
- product with sensors that use biometric signals that have never been commercialized before and requires signal-processi
-ng-tailored ML (learning invariances at the sensor level). 
-
-At the onsite, I came to really like the team and am convin
-ced this is my dream job. The position is 'research scientist' at the technical lead level, so I would be doing research
- but also setting the research direction for 2-3 other. I have experience leading a team of 3 and interfacing with many 
-tech leads to deploy real world systems, but not for very long, so this will be a promotion for me. I'm not sure how muc
-h they realize that.
-
-**The Issue:**  
-From my understanding, it is literally expected that I negotiate. This goes again
-st my nature (which is to thank them and say yes), so I'm anxiously searching podcasts and youtube videos for help under
-standing what I'm worth and what I should ask for/ how I should ask for it. But I'm not a software engineer or a general
-ized data scientist -- it's got this specialization aspect that may or may not be (but seems) important. I do not have a
-ny other offers (I'm not even applying anywhere else ATM, a friend of a friend on the team reached out to me about apply
-ing).
-
-**Other Random Factors That May Not Matter:**.
-
-*  I have the highest US security clearance an employer could hop
-e for a potential employee to have. No clue if this would be of use to the specific team--probably not. Not if anyone in
- the company would care but other big tech famously pay >50k bonuses to maintain the required lifestyle.
-* My current sa
-lary is between 175k-200k, I get so much PTO that I can hardly spend it all and it never expires, with VERY flexible wor
-k arrangement and the best job security you can hope for. In my view the job security and flexibility is comparatively g
-oing away (although it will be good for long-term resume) and I doubt I'll get nearly as much time off. In general I hav
-e it pretty laid back and I think this will increase my stress levels across the board which should be compensated for.
-
-
-**TL;DR:**  
-How much should I be aiming for? How should I distribute the target compensation across salary, sign on bo
-nus, stock, and wahtever else... (Ive never gotten a big tech offer)
 ```
 ---
 
