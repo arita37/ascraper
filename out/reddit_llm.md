@@ -1,5 +1,125 @@
  
-all -  [ This thing annoys me a lot. PlanAndExecute mistyping 'title' instead of 'query' when trying to use t ](https://www.reddit.com/gallery/1b7gjco) , 2024-03-06-0910
+all -  [ How to Improve RAG speed with OpenAI? ](https://www.reddit.com/r/LangChain/comments/1b87p0i/how_to_improve_rag_speed_with_openai/) , 2024-03-07-0908
+```
+I am using assistant api as agent in the LangChain framework. I’m using gpt4-0125-preview for this agent. The reason why
+ I use agent is because I do not want every query to search the database. And I find the assistant api agent is smarter 
+than the ReAct agent in terms of generating responses.
+
+I have only one tool for linking to a retrieval chain. When the 
+user asks certain question, the agent invokes a chain and pass query into the retrieval system. I pass in gpt-4-preview-
+0125 for the retrieval chain.
+To improve the retrieval process, I use multi-query to help generate sub questions from th
+e original questions to dig into the details. I use gpt3.5-1106 for the multi query retriever as this doesn’t require mu
+ch reasoning. So essentially,
+I use the assistant api(gpt-4-0125) as agent, gpt4-0125 for the retrieval chain and gpt3.5
+ 1106 as the multi query retriever.
+
+In terms of data preparation. I use manual chunking. By manual chunking I mean I ma
+nually gather relevant content into one ‘document’. This is because I see splitter does not consider context so it’s bet
+ter to do the chunking on my own. 
+
+The problem is that the average response time for 1000-2000 token is ranging from 10
+s to 30s. I tried using gpt3.5 as the agent in assistant api. Speed cuts down to 3-10s. But the generation is way worse.
+ This one I’m not sure why as I keep the gpt4-0125 in the retrieval chain. I assume the generation should be good…
+
+How 
+should I improve my architecture to enhance speed?
+
+
+```
+---
+
+     
+ 
+all -  [ How does indexing work? ](https://www.reddit.com/r/LangChain/comments/1b86gzl/how_does_indexing_work/) , 2024-03-07-0908
+```
+Does indexing happen sequentially in llamindex/langchain? I mean say I've a pdf containing images and text. When I store
+ the embeddings in the vector database, the order of text and images matters (text just below a fig. might be explaining
+ about the fig), so is it good to go with default implementation?
+```
+---
+
+     
+ 
+all -  [ Calling - Software Dev Beta Testers ](https://www.reddit.com/r/BetaTestersNeeded/comments/1b8165p/calling_software_dev_beta_testers/) , 2024-03-07-0908
+```
+We are starting Beta Testing of our Software AI platform in the next \~30 days. Feel free to join if your a Software Dev
+ with skill set in (and to be expanded on shortly): React, React Native, Serverless, Langchain, or Salesforce/APEX!
+
+[ht
+tps://activate.kodey.ai/beta-signup](https://activate.kodey.ai/beta-signup)
+```
+---
+
+     
+ 
+all -  [ React Native Langchain support? ](https://www.reddit.com/r/LangChain/comments/1b815jv/react_native_langchain_support/) , 2024-03-07-0908
+```
+React Native is incompatible with langchain, when are we going to get an update?
+
+i found this but there is no solution 
+even the one provided with langchain maintainer himself [https://stackoverflow.com/questions/77307779/react-native-issue
+-while-implementing-langchain/77313089#77313089?newreg=6af4405652b844fd81c2d0735b49c25f](https://stackoverflow.com/quest
+ions/77307779/react-native-issue-while-implementing-langchain/77313089#77313089?newreg=6af4405652b844fd81c2d0735b49c25f)
+
+```
+---
+
+     
+ 
+all -  [ Free courses and guides for learning Generative AI ](https://www.reddit.com/r/Entrepreneur/comments/1b7zurr/free_courses_and_guides_for_learning_generative_ai/) , 2024-03-07-0908
+```
+**Text-to-image focused resources:**
+
+* [*Free course is designed*](https://www.udemy.com/course/a-hands-on-guide-to-pra
+ctical-use-of-generative-ai/learn/lecture/42466882#overview) to demonstrate the practical applications of generative AI 
+for business owners, marketers, entrepreneurs and everyone who needs visual assets
+* [*Website*](https://stable-diffusio
+n-art.com/) with full of SD-focused resources
+* [*Blog*](https://followfoxai.substack.com/archive) to learn about fine-t
+uning and other interesting stuff
+
+**LLM focused resources:**
+
+* [Google free course](https://www.cloudskillsboost.googl
+e/paths/118) - this learning path provides an overview of generative AI concepts, from the fundamentals of large languag
+e models to responsible AI principles
+* [Scrimba free Course](https://scrimba.com/learn/buildaiapps) - Build AI Apps wit
+h ChatGPT, DALL-E and GPT-4
+* [The Foundational Model Certification](https://learn.activeloop.ai/courses/langchain) is y
+our essential gateway to mastering Large Language Models (LLMs) - from training to putting them in production
+* [Prompt 
+Engineering Guide](https://learnprompting.org/docs/intro)
+* [18 Lessons teaching everything](https://microsoft.github.io
+/generative-ai-for-beginners/#/)you need to know to start building Generative AI applications by Microsoft
+* [Deep Learn
+ing Fundamentals](https://lightning.ai/courses/deep-learning-fundamentals/) is a free course on learning deep learning u
+sing a modern open-source stack.
+* [Natural Language Processing](https://www.youtube.com/playlist?list=PLofp2YXfp7TZZ5c7
+HEChs0_wfEfewLDs7), a masters-level NLP course offered as part of the Masters of Computer Science Online at UT Austin
+
+W
+hat should I add?
+```
+---
+
+     
+ 
+all -  [ Calling - Software Dev Beta Testers ](https://www.reddit.com/r/beta_testers/comments/1b7z0yn/calling_software_dev_beta_testers/) , 2024-03-07-0908
+```
+We are starting Beta Testing of our Software AI platform in the next \~30 days. Feel free to join if your a Software Dev
+ with skill set in: React, React Native, Serverless, Langchain, or Salesforce/APEX!
+
+&#x200B;
+
+[https://activate.kodey.a
+i/beta-signup](https://activate.kodey.ai/beta-signup)
+```
+---
+
+     
+ 
+all -  [ Switch to and fro Claude-3 <—> GPT-4 by changing 2 lines of code ](https://i.redd.it/km0k8hnc1nmc1.gif) , 2024-03-07-0908
 ```
 
 ```
@@ -7,7 +127,87 @@ all -  [ This thing annoys me a lot. PlanAndExecute mistyping 'title' instead of
 
      
  
-all -  [ Autonomous agent framework comparison ](https://www.reddit.com/r/singularity/comments/1b7czo0/autonomous_agent_framework_comparison/) , 2024-03-06-0910
+all -  [ Autogen vs. LangGraph ](https://www.reddit.com/r/LangChain/comments/1b7q44y/autogen_vs_langgraph/) , 2024-03-07-0908
+```
+Which library comes out on top? I am building a multi-agent system in production but still have not decided which framew
+ork to use
+```
+---
+
+     
+ 
+all -  [ When implementing RAG, can I use various retrievers? ](https://www.reddit.com/r/LangChain/comments/1b7op5w/when_implementing_rag_can_i_use_various_retrievers/) , 2024-03-07-0908
+```
+hello! Are you doing well?
+
+&#x200B;
+
+Among the types of retrievers, I came across a total of four retriever methods: Mu
+lti, self, time, and parent.
+
+&#x200B;
+
+Is it possible to run multiple Retrievers in one project?
+
+&#x200B;
+
+For example
+, if we were to create a chatbot that answers school rules, would it be possible to use multiple Multi Query and Parent 
+functions at the same time?
+
+&#x200B;
+
+Or is it possible to use only one Retriver?
+
+&#x200B;
+
+If only one Retriever is a
+vailable, can you tell me why?
+```
+---
+
+     
+ 
+all -  [ Repo Size over 500mb ](https://www.reddit.com/r/nextjs/comments/1b7o0eq/repo_size_over_500mb/) , 2024-03-07-0908
+```
+I got a project that I'm working on, it been a pain keeping it below 500mb. I find it annoying that the projects get so 
+big, but then again i'm using MUI... What should I use instead?
+
+https://preview.redd.it/lp8vx88iimmc1.png?width=473&for
+mat=png&auto=webp&s=2f2a0849aff01060ec1a75223a666f1d99d4f49e
+```
+---
+
+     
+ 
+all -  [ Building my One-Man Media Team with AI Agents (Using Langchain & LangGraph) ](https://www.reddit.com/r/LangChain/comments/1b7mhy2/building_my_oneman_media_team_with_ai_agents/) , 2024-03-07-0908
+```
+Hey everyone, I wanted to share some recent work I did using Langchain and LangGraph to prototype an Agent pipeline for 
+generating a newsletter + tweets from scratch.
+
+Here's the link: [https://youtu.be/i71Rm-7oG4k?si=B4Z2hBbh386EbswC](http
+s://youtu.be/i71Rm-7oG4k?si=B4Z2hBbh386EbswC)
+
+Hope it helps.
+```
+---
+
+     
+ 
+all -  [ Why would OpenAI flag a newly created script with a '429 - rate exceeded' error, when I just created ](https://www.reddit.com/r/OpenAI/comments/1b7lk9u/why_would_openai_flag_a_newly_created_script_with/) , 2024-03-07-0908
+```
+Literally just created a simple langchain example. This was the result:
+
+RateLimitError: Error code: 429 - {'error': {'m
+essage': 'You exceeded your current quota, please check your plan and billing details. For more information on this erro
+r, read the docs: [https://platform.openai.com/docs/guides/error-codes/api-errors](https://platform.openai.com/docs/guid
+es/error-codes/api-errors).', 'type': 'insufficient\_quota', 'param': None, 'code': 'insufficient\_quota'}}
+```
+---
+
+     
+ 
+all -  [ Autonomous agent framework comparison ](https://www.reddit.com/r/singularity/comments/1b7czo0/autonomous_agent_framework_comparison/) , 2024-03-07-0908
 ```
 Does anyone have something that compares/contrasts the different autonomous agent frameworks out there these days (ie. l
 angchain, autogen, etc.). There seems to be so many floating around but hard to discern the pros and cons of each.
@@ -16,7 +216,7 @@ angchain, autogen, etc.). There seems to be so many floating around but hard to 
 
      
  
-all -  [ Confluence cleanup ](https://www.reddit.com/r/LangChain/comments/1b7byjo/confluence_cleanup/) , 2024-03-06-0910
+all -  [ Confluence cleanup ](https://www.reddit.com/r/LangChain/comments/1b7byjo/confluence_cleanup/) , 2024-03-07-0908
 ```
  Hello,
 
@@ -29,7 +229,7 @@ I would like to create a helper/copilot (chatbot) in the first place to identify
 
      
  
-all -  [ Seeking Advice for RAG App ](https://www.reddit.com/r/LangChain/comments/1b7b57n/seeking_advice_for_rag_app/) , 2024-03-06-0910
+all -  [ Seeking Advice for RAG App ](https://www.reddit.com/r/LangChain/comments/1b7b57n/seeking_advice_for_rag_app/) , 2024-03-07-0908
 ```
 Hello,
 
@@ -76,7 +276,7 @@ ely for your guidance and support!
 
      
  
-all -  [ Hirering full stack developer with Langchain knowledge ](https://www.reddit.com/r/LangChain/comments/1b7915m/hirering_full_stack_developer_with_langchain/) , 2024-03-06-0910
+all -  [ Hirering full stack developer with Langchain knowledge ](https://www.reddit.com/r/LangChain/comments/1b7915m/hirering_full_stack_developer_with_langchain/) , 2024-03-07-0908
 ```
 We are looking to hire a full stack developer to help us with ai projects. You must be excellent at these skills:
 Englis
@@ -90,7 +290,7 @@ If you are interested, please message us you resume at Team@dialogintelligens.dk
 
      
  
-all -  [ Llama plus text similarity ](https://www.reddit.com/r/LangChain/comments/1b7470g/llama_plus_text_similarity/) , 2024-03-06-0910
+all -  [ Llama plus text similarity ](https://www.reddit.com/r/LangChain/comments/1b7470g/llama_plus_text_similarity/) , 2024-03-07-0908
 ```
 Hello guys, i am extracting information about someone using llama and then using this information to compare it to a tex
 t of requirements. For example:
@@ -109,7 +309,7 @@ seem to find good info online.
 
      
  
-all -  [ Update: Langtrace Preview: An opensource LLM monitoring tool - achieving better cardinality compared ](https://www.reddit.com/r/LangChain/comments/1b6phov/update_langtrace_preview_an_opensource_llm/) , 2024-03-06-0910
+all -  [ Update: Langtrace Preview: An opensource LLM monitoring tool - achieving better cardinality compared ](https://www.reddit.com/r/LangChain/comments/1b6phov/update_langtrace_preview_an_opensource_llm/) , 2024-03-07-0908
 ```
 This is with regards to: [https://www.reddit.com/r/LangChain/comments/1b4s7cw/building\_a\_open\_source\_llm\_monitoring
 \_software/](https://www.reddit.com/r/LangChain/comments/1b4s7cw/building_a_open_source_llm_monitoring_software/)  
@@ -137,7 +337,7 @@ Feedback/comments/thoughts welcome
 
      
  
-all -  [ Local Models w/ M1 Pro? ](https://www.reddit.com/r/LangChain/comments/1b6n1k9/local_models_w_m1_pro/) , 2024-03-06-0910
+all -  [ Local Models w/ M1 Pro? ](https://www.reddit.com/r/LangChain/comments/1b6n1k9/local_models_w_m1_pro/) , 2024-03-07-0908
 ```
 Hello. 
 
@@ -153,7 +353,7 @@ Thanks!🙏
 
      
  
-all -  [ Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/machinelearningnews/comments/1b6k0s7/scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-06-0910
+all -  [ Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/machinelearningnews/comments/1b6k0s7/scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-07-0908
 ```
 Hello everyone,
 
@@ -179,7 +379,7 @@ news here - [https://news.ycombinator.com/item?id=39594588](https://news.ycombin
 
      
  
-all -  [ Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/MLQuestions/comments/1b6jzz7/scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-06-0910
+all -  [ Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/MLQuestions/comments/1b6jzz7/scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-07-0908
 ```
 Hello everyone,
 
@@ -205,7 +405,7 @@ news here - [https://news.ycombinator.com/item?id=39594588](https://news.ycombin
 
      
  
-all -  [ Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/mlops/comments/1b6jyl8/scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-06-0910
+all -  [ Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/mlops/comments/1b6jyl8/scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-07-0908
 ```
 Hello everyone,
 
@@ -231,7 +431,7 @@ ews here - [https://news.ycombinator.com/item?id=39594588](https://news.ycombina
 
      
  
-all -  [ [D] : Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/MachineLearning/comments/1b6jv56/d_scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-06-0910
+all -  [ [D] : Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/MachineLearning/comments/1b6jv56/d_scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-07-0908
 ```
 Hello everyone,
 
@@ -257,7 +457,7 @@ news here - [https://news.ycombinator.com/item?id=39594588](https://news.ycombin
 
      
  
-all -  [ Effective way to summarize 10k page documents ](https://www.reddit.com/r/LangChain/comments/1b6fiyt/effective_way_to_summarize_10k_page_documents/) , 2024-03-06-0910
+all -  [ Effective way to summarize 10k page documents ](https://www.reddit.com/r/LangChain/comments/1b6fiyt/effective_way_to_summarize_10k_page_documents/) , 2024-03-07-0908
 ```
 Hello,
 
@@ -285,7 +485,7 @@ Thanks!
 
      
  
-all -  [ Is using microsoft stack the only way to successfully build chatbots? ](https://www.reddit.com/r/generativeAI/comments/1b6fhb6/is_using_microsoft_stack_the_only_way_to/) , 2024-03-06-0910
+all -  [ Is using microsoft stack the only way to successfully build chatbots? ](https://www.reddit.com/r/generativeAI/comments/1b6fhb6/is_using_microsoft_stack_the_only_way_to/) , 2024-03-07-0908
 ```
 In my team, we have been trying to build chatbots using Langchain and Azure OpenAI models ( with the plan to move to ope
 n source models later hopefully), but for many different reasons it's not going well and not very successful. From my po
@@ -299,34 +499,7 @@ he only way to success?
 
      
  
-all -  [ Best Academic Papers on Using LLM's to Automate Development Tasks? ](https://www.reddit.com/r/LocalLLaMA/comments/1b6eww2/best_academic_papers_on_using_llms_to_automate/) , 2024-03-06-0910
-```
-Hi Everyone,
-
-I am currently working on automating some R&D-type tasks/workflows with LLM's - specifically open source o
-nes. I have been reading about Guidance, custom grammar files, and LMQL as methods to standardize the output of an LLM t
-o make it more suitable for chaining prompts.
-
-That being said, I think **conceptual** approaches to solving this issue 
-are equally - if not more - important. 
-
-So far, I have found this paper linked from the LangChain docs: [https://arxiv.
-org/abs/2210.03629](https://arxiv.org/abs/2210.03629), which describes the ReAct method of prompting.
-
-**What other nota
-ble advancements have been made in this arena?** 
-
-Also, are there any stand-out papers on utilizing fine-tuning in a sy
-stematic way to nudge models into more effectively working as agents? Specifically, improving the accuracy of returning 
-structured JSON responses? This seems like the golden ticket.
-
-Looking to start a good discussion on this. Thanks!
-```
----
-
-     
- 
-all -  [ How can I store the QA object? ](https://www.reddit.com/r/LangChain/comments/1b69l6p/how_can_i_store_the_qa_object/) , 2024-03-06-0910
+all -  [ How can I store the QA object? ](https://www.reddit.com/r/LangChain/comments/1b69l6p/how_can_i_store_the_qa_object/) , 2024-03-07-0908
 ```
 How can I store the QA object to preserve its state while implementing memory? For every question answered, we create a 
 new RetrievalQA object, which flushes the chat\_history. I'm creating a chatbot where multiple projects can be made, and
@@ -336,7 +509,7 @@ new RetrievalQA object, which flushes the chat\_history. I'm creating a chatbot 
 
      
  
-all -  [ Roast my resume. Or any suggestions for improvement. ](https://i.redd.it/2z238yga3bmc1.jpeg) , 2024-03-06-0910
+all -  [ Roast my resume. Or any suggestions for improvement. ](https://i.redd.it/2z238yga3bmc1.jpeg) , 2024-03-07-0908
 ```
 Hi everyone. My first post here. Please suggest improvements I can do in my resume.
 ```
@@ -344,7 +517,7 @@ Hi everyone. My first post here. Please suggest improvements I can do in my resu
 
      
  
-all -  [ TypeError: Object of type RetrievalQA is not JSON serializable ](https://www.reddit.com/r/LangChain/comments/1b67qnb/typeerror_object_of_type_retrievalqa_is_not_json/) , 2024-03-06-0910
+all -  [ TypeError: Object of type RetrievalQA is not JSON serializable ](https://www.reddit.com/r/LangChain/comments/1b67qnb/typeerror_object_of_type_retrievalqa_is_not_json/) , 2024-03-07-0908
 ```
 How to serialize QA object?
 ```
@@ -352,7 +525,7 @@ How to serialize QA object?
 
      
  
-all -  [ Best framework for LLM based applications in production ](https://www.reddit.com/r/LangChain/comments/1b67jkl/best_framework_for_llm_based_applications_in/) , 2024-03-06-0910
+all -  [ Best framework for LLM based applications in production ](https://www.reddit.com/r/LangChain/comments/1b67jkl/best_framework_for_llm_based_applications_in/) , 2024-03-07-0908
 ```
 We've been building LLM based tools for months, but I think that there should be efficient frameworks by now that actual
 ly add value. I tried langchain a while back but I felt like it was just an over complicated overhead where it was alway
@@ -375,7 +548,7 @@ ed crap?
 
      
  
-all -  [ How to use Rerankers in Langchain (both in Python and JS, but particularly in LangchainJS)? ](https://www.reddit.com/r/LangChain/comments/1b670b4/how_to_use_rerankers_in_langchain_both_in_python/) , 2024-03-06-0910
+all -  [ How to use Rerankers in Langchain (both in Python and JS, but particularly in LangchainJS)? ](https://www.reddit.com/r/LangChain/comments/1b670b4/how_to_use_rerankers_in_langchain_both_in_python/) , 2024-03-07-0908
 ```
 Hi 👋
 
@@ -392,7 +565,7 @@ How are you all doing it? 💬
 
      
  
-all -  [ Getting Error while storing QA object locally ](https://www.reddit.com/r/LangChain/comments/1b65y4h/getting_error_while_storing_qa_object_locally/) , 2024-03-06-0910
+all -  [ Getting Error while storing QA object locally ](https://www.reddit.com/r/LangChain/comments/1b65y4h/getting_error_while_storing_qa_object_locally/) , 2024-03-07-0908
 ```
 **I am storing QA object locally like this in PGVector:**
 
@@ -438,7 +611,7 @@ peError: unhashable type: 'dict
 
      
  
-all -  [ Frustrating problems with langchain/LLMs? ](https://www.reddit.com/r/LangChain/comments/1b64qb5/frustrating_problems_with_langchainllms/) , 2024-03-06-0910
+all -  [ Frustrating problems with langchain/LLMs? ](https://www.reddit.com/r/LangChain/comments/1b64qb5/frustrating_problems_with_langchainllms/) , 2024-03-07-0908
 ```
 Starting a thread on the most frustrating problems you’re facing with the use of Langchain or LLMs in your projects
 ```
@@ -446,7 +619,7 @@ Starting a thread on the most frustrating problems you’re facing with the use 
 
      
  
-all -  [ Fancy Resume? 🤔 ](https://i.redd.it/hw0i989te9mc1.jpeg) , 2024-03-06-0910
+all -  [ Fancy Resume? 🤔 ](https://i.redd.it/hw0i989te9mc1.jpeg) , 2024-03-07-0908
 ```
 I custom made this in Figma around a year back, now I want to update it. I was wondering if a resume like this would hav
 e any advantage over a traditional resume? I understand this would help in design related positions, but I will apply mo
@@ -456,7 +629,7 @@ stly to coding based positions. Also please provide any other feedback related t
 
      
  
-all -  [ Local RAG Chat with ollama, gradio and langchain - POC ](https://www.reddit.com/r/LocalLLaMA/comments/1b5uibf/local_rag_chat_with_ollama_gradio_and_langchain/) , 2024-03-06-0910
+all -  [ Local RAG Chat with ollama, gradio and langchain - POC ](https://www.reddit.com/r/LocalLLaMA/comments/1b5uibf/local_rag_chat_with_ollama_gradio_and_langchain/) , 2024-03-07-0908
 ```
 I built a proof of concept notebook to enable a locally hosted RAG chat with LLama. 
 
@@ -473,7 +646,7 @@ If anyone has any ideas on how to improve the similarity search, please let me k
 
      
  
-all -  [ Embedding model error while Loading to Chroma db ](https://www.reddit.com/r/LangChain/comments/1b5pb5u/embedding_model_error_while_loading_to_chroma_db/) , 2024-03-06-0910
+all -  [ Embedding model error while Loading to Chroma db ](https://www.reddit.com/r/LangChain/comments/1b5pb5u/embedding_model_error_while_loading_to_chroma_db/) , 2024-03-07-0908
 ```
 I am using openai embedding to convert the documents to embedding and post it to chroma db in external server.
 
@@ -496,7 +669,7 @@ I even tried custom embedding class but still facing the same error
 
      
  
-all -  [ Review my resume ](https://i.redd.it/k8gkr9km16mc1.jpeg) , 2024-03-06-0910
+all -  [ Review my resume ](https://i.redd.it/k8gkr9km16mc1.jpeg) , 2024-03-07-0908
 ```
 I have custom made it in Figma, I have to update it now with iOS experience wondering if this format reduces my hiring c
 hances or is a good refresh over traditional resumes?
@@ -505,7 +678,7 @@ hances or is a good refresh over traditional resumes?
 
      
  
-all -  [ Hi pretty new with txtai framework. I do have some questions ](https://www.reddit.com/r/txtai/comments/1b5evic/hi_pretty_new_with_txtai_framework_i_do_have_some/) , 2024-03-06-0910
+all -  [ Hi pretty new with txtai framework. I do have some questions ](https://www.reddit.com/r/txtai/comments/1b5evic/hi_pretty_new_with_txtai_framework_i_do_have_some/) , 2024-03-07-0908
 ```
 Currently finding a candidate again for my tinyllama project (trying to stay away from langchain), I already made my ini
 tial test with txtai but I do have questions
@@ -551,7 +724,7 @@ so yeap any help
 
      
  
-all -  [ How to reduce costs when chatting with database? ](https://www.reddit.com/r/LangChain/comments/1b5ecou/how_to_reduce_costs_when_chatting_with_database/) , 2024-03-06-0910
+all -  [ How to reduce costs when chatting with database? ](https://www.reddit.com/r/LangChain/comments/1b5ecou/how_to_reduce_costs_when_chatting_with_database/) , 2024-03-07-0908
 ```
 I want to reduce costs when chatting with my database. Below is how it works as of now;
 
@@ -655,7 +828,7 @@ But out of curiosity
 
      
  
-all -  [ Is there a software to monitor performance of open-source LLMs? ](https://www.reddit.com/r/LangChain/comments/1b5dscn/is_there_a_software_to_monitor_performance_of/) , 2024-03-06-0910
+all -  [ Is there a software to monitor performance of open-source LLMs? ](https://www.reddit.com/r/LangChain/comments/1b5dscn/is_there_a_software_to_monitor_performance_of/) , 2024-03-07-0908
 ```
 Hello. I have been playing around with a bunch open open-source LLMs, but they all vary in terms of quality of output an
 d response times. I'm wondering whether there is an open-source software to monitor the performance of such LLMs that I 
@@ -665,7 +838,7 @@ can integrate into my system.
 
      
  
-all -  [ Suggestion for robust RAG which can handel 5000 pages of pdf ](https://www.reddit.com/r/LangChain/comments/1b5d1m7/suggestion_for_robust_rag_which_can_handel_5000/) , 2024-03-06-0910
+all -  [ Suggestion for robust RAG which can handel 5000 pages of pdf ](https://www.reddit.com/r/LangChain/comments/1b5d1m7/suggestion_for_robust_rag_which_can_handel_5000/) , 2024-03-07-0908
 ```
 I'm working on a basic RAG which is really good with a snaller pdf like 15-20 pdf but as soon as i go about 50 or 100 th
 e reterival doesn't seem to be working good enough. Could you please suggest me some techniques which i can use to impro
@@ -693,7 +866,7 @@ Please Suggest me what else can i do or correct me if im doing anything wrong :)
 
      
  
-all -  [ Is there a good tutorial on how to setup a RAG stack application? ](https://www.reddit.com/r/LangChain/comments/1b54w8h/is_there_a_good_tutorial_on_how_to_setup_a_rag/) , 2024-03-06-0910
+all -  [ Is there a good tutorial on how to setup a RAG stack application? ](https://www.reddit.com/r/LangChain/comments/1b54w8h/is_there_a_good_tutorial_on_how_to_setup_a_rag/) , 2024-03-07-0908
 ```
 I'm an experienced software engineer new to anything involving LLM development. I've consistently believed in upskilling
  throughout my career, so I'm begining to explore how to integrate LLMs into an application. The goal is to do a learnin
@@ -714,66 +887,7 @@ Thanks in advance for any guidance you can offer.
 
      
  
-all -  [ Implementing RAG with Langchain on AWS Bedrock ](https://www.reddit.com/r/LangChain/comments/1b51f6n/implementing_rag_with_langchain_on_aws_bedrock/) , 2024-03-06-0910
-```
-Hello beautiful people,
-
-I am developing a financial chatbot using langchain and chromadb, I want to use llama2 on aws.
-
-
-Right now everything is on a local project on my machine, as I am going to move from gpt to llama (cost reduction), I w
-ant to use llama2 through Bedrock, is it doable to implement a RAG architecture with Langchain on that?
-
-
-```
----
-
-     
- 
-all -  [ How to cache LLM responses in Langchain recent versions ](https://www.reddit.com/r/LangChain/comments/1b4y6fb/how_to_cache_llm_responses_in_langchain_recent/) , 2024-03-06-0910
-```
-I making an FAQ bot using latest langchain version, and pgvector as my vector datastore.  
-I've looked for caching metho
-ds and most of them very old posts, and the example in the official documentation doesn't work. I've looked into GPTCach
-e and the project hasn't been active for a while.  
-I want to save some API calls and also improve response time for the
- repeated and similar questions.
-
-Can anyone point me to any projects, resources on how to cache LLM responses.   
-
-
-Tha
-nk you in advance
-```
----
-
-     
- 
-all -  [ Langchain for production  ](https://www.reddit.com/r/LangChain/comments/1b4y0pr/langchain_for_production/) , 2024-03-06-0910
-```
-Converting a streamlit based Langchain app with ChromaDB into a production ready app with Next js for a better UI. Apart
- from using FastAPI for asynchronous requests, how to achieve streaming within this framework? Also what are some low co
-st options for the entire dev stack, what other things should I take into considering while building this ?
-```
----
-
-     
- 
-all -  [ Finetuning LLM with own PDFs ](https://www.reddit.com/r/LangChain/comments/1b4wa9v/finetuning_llm_with_own_pdfs/) , 2024-03-06-0910
-```
-Hi,
-
-my company wants me to finetune an LLM with their own documents. I am aware of RAG an it is already running but i w
-ant to see if it is possible to finetune a LLM with raw pdfs? 
-
-So is it possible without a labeled dataset, just feedin
-g the texts from the pdfs? 
-```
----
-
-     
- 
-all -  [ [D] What Is Your LLM Tech Stack in Production? ](https://www.reddit.com/r/MachineLearning/comments/1b4sdru/d_what_is_your_llm_tech_stack_in_production/) , 2024-03-06-0910
+MachineLearning -  [ [D] What Is Your LLM Tech Stack in Production? ](https://www.reddit.com/r/MachineLearning/comments/1b4sdru/d_what_is_your_llm_tech_stack_in_production/) , 2024-03-07-0908
 ```
 Curious what everybody is using to implement LLM powered apps for production usage and your experience with these toolin
 gs and advice. 
@@ -815,62 +929,7 @@ Edit: correct model Llama2
 
      
  
-all -  [ Building a open source LLM monitoring software ](https://www.reddit.com/r/LangChain/comments/1b4s7cw/building_a_open_source_llm_monitoring_software/) , 2024-03-06-0910
-```
-I am building an open source LLM monitoring software. I know there are bunch of other tools out there. But, what are som
-e features you would like to see? I would like to solve for the ones that are not already solved by the other tools that
- exist today. 
-```
----
-
-     
- 
-all -  [ Maintain the chat history ](https://www.reddit.com/r/LangChain/comments/1b4rs0h/maintain_the_chat_history/) , 2024-03-06-0910
-```
-Hey guys, how to maintain the chat history?
-
-I am creating a chat bot with OpenAI API and LangChain in Django. I've chec
-ked LangChain, there are several Conversational Retrieval agents, but seems they're not what i need, because they requir
-es to save docs in vector db. I don’t need docs at all.
-
-I just want something like this on my chatbot UI:
-
-    To GPT: 
-hey, how are you? 
-    GPT:    I am doing good. 
-    To GPT: what did i ask you? 
-    GPT:    You asked me how i am doin
-g.
-
-I couldn't figure out how to achieve above from OpenAI and LangChain.
-
-Any similar project written in Django are muc
-h appreciated!
-```
----
-
-     
- 
-all -  [ Streaming with Langchain python and Next JS ](https://www.reddit.com/r/LangChain/comments/1b4r4nj/streaming_with_langchain_python_and_next_js/) , 2024-03-06-0910
-```
-Building an app with Langchain python  + ChromaDB + Next js. How can I perform streaming for the LLM responses? Also wha
-t should the rest of my architecture look like for a production ready system? Currently built a basic PoC with streamlit
- but I am trying to move it to a more production-like Proof of concept. 
-```
----
-
-     
- 
-all -  [ Reflection Agents ](https://www.reddit.com/r/LangChain/comments/1b4oydd/reflection_agents/) , 2024-03-06-0910
-```
-Hello everyone, is there any example using reflection agents to decide if an answer is adequate or not for the user but 
-using more than one tools afterwards? cause i cant find any such example
-```
----
-
-     
- 
-MachineLearning -  [ [D] Graphs + vectordbs? Need your input: Cognee.ai . AI Data Pipelines for Real-World Production (Pa ](https://www.reddit.com/r/MachineLearning/comments/1aweo71/d_graphs_vectordbs_need_your_input_cogneeai_ai/) , 2024-03-06-0910
+MachineLearning -  [ [D] Graphs + vectordbs? Need your input: Cognee.ai . AI Data Pipelines for Real-World Production (Pa ](https://www.reddit.com/r/MachineLearning/comments/1aweo71/d_graphs_vectordbs_need_your_input_cogneeai_ai/) , 2024-03-07-0908
 ```
 Hey there, Redditors!
 
@@ -939,7 +998,7 @@ Check out the
 
      
  
-MachineLearning -  [ [D] AI projects Suggestions ](https://www.reddit.com/r/MachineLearning/comments/1aunkmw/d_ai_projects_suggestions/) , 2024-03-06-0910
+MachineLearning -  [ [D] AI projects Suggestions ](https://www.reddit.com/r/MachineLearning/comments/1aunkmw/d_ai_projects_suggestions/) , 2024-03-07-0908
 ```
 Hi Everyone, I need a suggestion to create AI courses for students ( Hands-on AI projects). I am thinking about the late
 st AI trends such as Langchain, RAG, and vector databases. In each project, there can be multiple tasks, and the main th
@@ -955,7 +1014,7 @@ not be automatically tested. . em can verify if the length of the text is smalle
 
      
  
-MachineLearning -  [ Whats in your RAG setup? [D] ](https://www.reddit.com/r/MachineLearning/comments/1apcp2w/whats_in_your_rag_setup_d/) , 2024-03-06-0910
+MachineLearning -  [ Whats in your RAG setup? [D] ](https://www.reddit.com/r/MachineLearning/comments/1apcp2w/whats_in_your_rag_setup_d/) , 2024-03-07-0908
 ```
 What frameworks and libraries are you using in your RAG? 
 
@@ -976,7 +1035,7 @@ in to load document splitters and characters splitters for chunking
 
      
  
-deeplearning -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-03-06-0910
+deeplearning -  [ [D] WebVoyager: Navigating Digital Cosmos with LangGraph & Multimodal Models ](https://www.reddit.com/r/deeplearning/comments/1altlca/d_webvoyager_navigating_digital_cosmos_with/) , 2024-03-07-0908
 ```
 Embark on a journey through the digital cosmos with WebVoyager, a groundbreaking Large Multimodal Model (LMM) web agent 
 designed to navigate the vastness of the online universe. In collaboration with Langchain, WebVoyager represents a parad
