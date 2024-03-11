@@ -1,5 +1,13 @@
  
-all -  [ PhD admissions for CS feels like I am trying to win the Olympics or something. It's depressing ](https://www.reddit.com/r/gradadmissions/comments/1b6pllv/phd_admissions_for_cs_feels_like_i_am_trying_to/) , 2024-03-10-0911
+all -  [ LLM evaluation at scale with the NeurIPS Efficiency Challenge ](https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/) , 2024-03-11-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ PhD admissions for CS feels like I am trying to win the Olympics or something. It's depressing ](https://www.reddit.com/r/gradadmissions/comments/1b6pllv/phd_admissions_for_cs_feels_like_i_am_trying_to/) , 2024-03-11-0910
 ```
 Why are CS PhD admissions so so tough? I have a decent profile. 4/4 gpa, 2.5 years in a good industry Research lab. One 
 first author S-tier conference (Neurips) paper. 
@@ -24,15 +32,7 @@ BA, it shouldn't be so tough. This field is cooked. RIP to future candidates in 
 
      
  
-all -  [ 'Thinker: Learning to Plan and Act', Chung et al. (NeurIPS 2023) ](https://arxiv.org/abs/2307.14993) , 2024-03-10-0911
-```
-
-```
----
-
-     
- 
-all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-10-0911
+all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-11-0910
 ```
 I am graduating soon, and my Ph.D. research is about RL algorithms and their applications.  
 However, I failed to publis
@@ -53,7 +53,7 @@ y opportunities in startups, or other positions I have not explored yet.
 
      
  
-all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-10-0911
+all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-11-0910
 ```
 Hi colleagues,
 
@@ -78,7 +78,7 @@ I do understand that robotics conferences are a little
 
      
  
-all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-10-0911
+all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-11-0910
 ```
 I have stubborn texture and always get pimples on my chin area that just won’t go away anyone have tips or products that
  they use?TIA included what I use now thank you!!
@@ -87,7 +87,7 @@ I have stubborn texture and always get pimples on my chin area that just won’t
 
      
  
-all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-10-0911
+all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-11-0910
 ```
 [Paper](https://arxiv.org/abs/2311.17137). [Project website](https://intrinsic-lora.github.io/). I am not affiliated wit
 h the authors.
@@ -213,7 +213,7 @@ yes.
 
      
  
-all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-10-0911
+all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-11-0910
 ```
 Hi everyone!
 
@@ -239,7 +239,7 @@ t.com/link/1axeoqq/video/4exdgqd9q6kc1/player)
 
      
  
-all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-10-0911
+all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-11-0910
 ```
 Hi!
 
@@ -259,7 +259,7 @@ Any help would be appreciated! Thanks!
 
      
  
-all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-10-0911
+all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-11-0910
 ```
 GovAI was founded to help humanity navigate the transition to a world with advanced AI. Our first research agenda, publi
 shed in 2018, helped define and shape the nascent field of AI governance. Our team and affiliate community possess exper
@@ -314,7 +314,7 @@ obs.net/job/139016-research-scholar-technical-research/)
 
      
  
-all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-10-0911
+all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-11-0910
 ```
 I'm in the process of deciding on my masters thesis in Data Science. The professor that I have been communicating with o
 ffered me to join a team that would submit their research to NeurIPS. On the other hand, the topic of the research does 
@@ -328,7 +328,7 @@ onference in my CV, or do a topic that is more related to my field of interest? 
 
      
  
-all -  [ [D] Picking an ML lab as an undergraduate: big, established lab or small, focused lab? ](https://www.reddit.com/r/MachineLearning/comments/1avie4g/d_picking_an_ml_lab_as_an_undergraduate_big/) , 2024-03-10-0911
+all -  [ [D] Picking an ML lab as an undergraduate: big, established lab or small, focused lab? ](https://www.reddit.com/r/MachineLearning/comments/1avie4g/d_picking_an_ml_lab_as_an_undergraduate_big/) , 2024-03-11-0910
 ```
 Some background: I'm a third-year trying really hard for a PhD at a good school (a crapshoot, I know). I go to a solid s
 chool for CS and have some basics like a good GPA, plus I've been doing some applied work in healthcare at a T3, expecti
@@ -417,7 +417,7 @@ d give me pointers that would be enormously appreciated! Thank you!!
 
      
  
-all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-10-0911
+all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-11-0910
 ```
 I didn’t have the opportunity to attend many conferences during my undergrad because they were usually expensive and req
 uired traveling. But I’ve recently started working as a backend SWE and definitely want to start attending more conferen
@@ -435,7 +435,7 @@ So, I just wanted to hear
 
      
  
-all -  [ Tough job market advice on how to proceed? ](https://www.reddit.com/r/computervision/comments/1atbsty/tough_job_market_advice_on_how_to_proceed/) , 2024-03-10-0911
+all -  [ Tough job market advice on how to proceed? ](https://www.reddit.com/r/computervision/comments/1atbsty/tough_job_market_advice_on_how_to_proceed/) , 2024-03-11-0910
 ```
 Fortunately I am currently employeed but searching for new opportunities.
 
@@ -468,7 +468,7 @@ mes I respond with idk don’t need to know right now and if I did I could look 
 
      
  
-all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-03-10-0911
+all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-03-11-0910
 ```
 Since SORA was teased, I've heard a lot of pro-AI folks dragging up old comments from anti-AI folks saying that AI is dy
 ing and will always be terrible, and this is entirely fair. But it's important to also remember that some of the critici
@@ -521,7 +521,7 @@ peared in ever-improving wagon wheels.
 
      
  
-all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-03-10-0911
+all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-03-11-0910
 ```
 Hi I have these research conferences that are of my interest! (Area: Applied AI and Social NLP)
 
@@ -542,7 +542,7 @@ uld be much appreciated!
 
      
  
-all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-03-10-0911
+all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-03-11-0910
 ```
 Hi!
 
@@ -571,7 +571,7 @@ Thanks in
 
      
  
-all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-03-10-0911
+all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-03-11-0910
 ```
 Hi!
 
@@ -600,7 +600,7 @@ Thanks in advance :)
 
      
  
-all -  [ Faith and Fate: Limits of Transformers on Compositionality [R] ](https://www.reddit.com/r/MachineLearning/comments/1amzb52/faith_and_fate_limits_of_transformers_on/) , 2024-03-10-0911
+all -  [ Faith and Fate: Limits of Transformers on Compositionality [R] ](https://www.reddit.com/r/MachineLearning/comments/1amzb52/faith_and_fate_limits_of_transformers_on/) , 2024-03-11-0910
 ```
 Edit: Kevin Murphy,  Francois Chollet, Vitaly Kurin and others recommended this paper (some very highly)
 
@@ -627,72 +627,6 @@ y decay with increased task complexity.
 Kevin Murphy's summary: 'I like this paper. They prove that transformers a
 re guaranteed to suffer from compounding errors when doing long reasoning chains (as @ylecun has argued), and much appar
 ent 'success' is just due to unreliable pattern matching / shortcut learning.'
-```
----
-
-     
- 
-all -  [ [D] concerns about the series of works in reflexion(self-adjustment)-powered LLM agent ](https://www.reddit.com/r/MachineLearning/comments/1am3ior/d_concerns_about_the_series_of_works_in/) , 2024-03-10-0911
-```
-we see tons of works in LLM-based agent which can perform tasks on web applications such as webshop, [webarena](https://
-github.com/web-arena-x/webarena),  [agentbench](https://github.com/THUDM/AgentBench/tree/main)etc...
-
-also, we can find 
-following works on reflexion-based agent which intakes the feedbacks and errors from previous trials from the interactio
-ns with the environment. the typical work is  `Reflexion: Language Agents with Verbal Reinforcement Learning`
-
-within ea
-ch trial, the agent, or say, llm, digests the prompt which contains not only history from current trial but also the sys
-tem info or feedbacks or error messages from previous trials. The feedbacks could come from system setting or from anoth
-er more powerful LLM that can act as a super judge to give feedbacks.
-
-anyway, I do not think this is RL since there is 
-no learning process for the agent, but a concat of prompt.
-
-My primary concern is that is this label leakage ? The agent
- get feedbacks from the environment and with more trials, of course, the agent should have a more clear approach to the 
-final answer. So what is the point ?
-
-I see a post which shares my same concern:  [noahshinn/reflexion: \[NeurIPS 2023\]
- Reflexion: Language Agents with Verbal Reinforcement Learning (github.com)](https://github.com/noahshinn/reflexion/issu
-es/27)
-
-&#x200B;
-
-Would like to hear from you in view of academic and industry.
-
-&#x200B;
-
-&#x200B;
-
-&#x200B;
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ [R] Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning ](https://www.reddit.com/r/MachineLearning/comments/1am1v5f/r_long_is_more_for_alignment_a_simple_but/) , 2024-03-10-0911
-```
-**Title**: Long Is More for Alignment: A Simple but Tough-to-Beat Baseline for Instruction Fine-Tuning
-
-**Paper**: [http
-s://arxiv.org/abs/2402.04833](https://arxiv.org/abs/2402.04833)
-
-**Abstract**: There is a consensus that instruction fin
-e-tuning of LLMs requires high-quality data, but what are they? LIMA (NeurIPS 2023) and AlpaGasus (ICLR 2024) are state-
-of-the-art methods for selecting such high-quality examples, either via manual curation or using GPT-3.5-Turbo as a qual
-ity scorer. We show that the extremely simple baseline of selecting the 1,000 instructions with longest responses from s
-tandard datasets can consistently outperform these sophisticated methods according to GPT-4 and PaLM-2 as judges, while 
-remaining competitive on the OpenLLM benchmarks that test factual knowledge. We demonstrate this for several state-of-th
-e-art LLMs (Llama-2-7B, Llama-2-13B, and Mistral-7B) and datasets (Alpaca-52k and Evol-Instruct-70k). In addition, a lig
-htweight refinement of such long instructions can further improve the abilities of the fine-tuned LLMs, and allows us to
- obtain the 2nd highest-ranked Llama-2-7B-based model on AlpacaEval 2.0 while training on only 1,000 examples and no ext
-ra preference data. We also conduct a thorough analysis of our models to ensure that their enhanced performance is not s
-imply due to GPT-4's preference for longer responses, thus ruling out any artificial improvement. In conclusion, our fin
-dings suggest that fine-tuning on the longest instructions should be the default baseline for any research on instructio
-n fine-tuning.
 ```
 ---
 
