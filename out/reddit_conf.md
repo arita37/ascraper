@@ -1,5 +1,24 @@
  
-all -  [ LLM evaluation at scale with the NeurIPS Efficiency Challenge ](https://blog.mozilla.ai/exploring-llm-evaluation-at-scale-with-the-neurips-large-language-model-efficiency-challenge/) , 2024-03-12-0909
+all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-13-0909
+```
+As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
+ has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
+ 3-4 callbacks but they never converted to offers despite the interviews going well. All I can say is that the competiti
+on is unbelievably high, and the companies seem to be taking just 1 intern per team or none. Every position I am interes
+ted in requires a Ph.D. candidate or papers in conferences like ICML, NeurIPS, or CVPR on the exact niche area the team 
+works on. When there's a lack of jobs and an abundant supply of candidates, they can get choosy. But these are internshi
+ps we are talking about, things meant to be entry-level positions.
+
+Is it actually supposed to be this difficult? The wo
+rst part is that all the callbacks I got so far are through direct contact with the hiring manager. None of the regular 
+applications(even with referrals) gave me anything. As a final plea, if any of my fellow Redditors here have leads I'd r
+eally appreciate some help.
+```
+---
+
+     
+ 
+all -  [ America: The Country With The Most Innovation ](https://i.redd.it/mbye6uerusnc1.jpeg) , 2024-03-13-0909
 ```
 
 ```
@@ -7,7 +26,7 @@ all -  [ LLM evaluation at scale with the NeurIPS Efficiency Challenge ](https:/
 
      
  
-all -  [ PhD admissions for CS feels like I am trying to win the Olympics or something. It's depressing ](https://www.reddit.com/r/gradadmissions/comments/1b6pllv/phd_admissions_for_cs_feels_like_i_am_trying_to/) , 2024-03-12-0909
+all -  [ PhD admissions for CS feels like I am trying to win the Olympics or something. It's depressing ](https://www.reddit.com/r/gradadmissions/comments/1b6pllv/phd_admissions_for_cs_feels_like_i_am_trying_to/) , 2024-03-13-0909
 ```
 Why are CS PhD admissions so so tough? I have a decent profile. 4/4 gpa, 2.5 years in a good industry Research lab. One 
 first author S-tier conference (Neurips) paper. 
@@ -32,7 +51,7 @@ BA, it shouldn't be so tough. This field is cooked. RIP to future candidates in 
 
      
  
-all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-12-0909
+all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-13-0909
 ```
 I am graduating soon, and my Ph.D. research is about RL algorithms and their applications.  
 However, I failed to publis
@@ -53,7 +72,7 @@ y opportunities in startups, or other positions I have not explored yet.
 
      
  
-all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-12-0909
+all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-13-0909
 ```
 Hi colleagues,
 
@@ -78,7 +97,7 @@ I do understand that robotics conferences are a little
 
      
  
-all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-12-0909
+all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-13-0909
 ```
 I have stubborn texture and always get pimples on my chin area that just won’t go away anyone have tips or products that
  they use?TIA included what I use now thank you!!
@@ -87,7 +106,7 @@ I have stubborn texture and always get pimples on my chin area that just won’t
 
      
  
-all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-12-0909
+all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-13-0909
 ```
 [Paper](https://arxiv.org/abs/2311.17137). [Project website](https://intrinsic-lora.github.io/). I am not affiliated wit
 h the authors.
@@ -213,7 +232,7 @@ yes.
 
      
  
-all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-12-0909
+all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-13-0909
 ```
 Hi everyone!
 
@@ -239,7 +258,7 @@ t.com/link/1axeoqq/video/4exdgqd9q6kc1/player)
 
      
  
-all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-12-0909
+all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-13-0909
 ```
 Hi!
 
@@ -259,7 +278,7 @@ Any help would be appreciated! Thanks!
 
      
  
-all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-12-0909
+all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-13-0909
 ```
 GovAI was founded to help humanity navigate the transition to a world with advanced AI. Our first research agenda, publi
 shed in 2018, helped define and shape the nascent field of AI governance. Our team and affiliate community possess exper
@@ -314,7 +333,7 @@ obs.net/job/139016-research-scholar-technical-research/)
 
      
  
-all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-12-0909
+all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-13-0909
 ```
 I'm in the process of deciding on my masters thesis in Data Science. The professor that I have been communicating with o
 ffered me to join a team that would submit their research to NeurIPS. On the other hand, the topic of the research does 
@@ -328,96 +347,7 @@ onference in my CV, or do a topic that is more related to my field of interest? 
 
      
  
-all -  [ [D] Picking an ML lab as an undergraduate: big, established lab or small, focused lab? ](https://www.reddit.com/r/MachineLearning/comments/1avie4g/d_picking_an_ml_lab_as_an_undergraduate_big/) , 2024-03-12-0909
-```
-Some background: I'm a third-year trying really hard for a PhD at a good school (a crapshoot, I know). I go to a solid s
-chool for CS and have some basics like a good GPA, plus I've been doing some applied work in healthcare at a T3, expecti
-ng a first authorship at a top medical journal.
-
-But what I'm interested in machine learning itself, not necessarily its
- applications in a specific field where the cleverness comes from applications rather than new fundamental ideas.
-
-To th
-is end, I've been trying to find a new lab at my school (which will also serve as my home institution rec) to work on ha
-rdcore over this year. With help from the professor at the T3 I worked at, I shortlisted a bunch of professors, and my t
-op two picks have either guaranteed a position in the lab (Lab 1) or strongly implied it (Lab 2). The goal here is to pr
-epare myself well for a PhD, and so I think the advice that's usually given for PhD students trying to pick labs differs
- a bit from this.
-
-**Lab 1**  
-***Pros:***
-
-* This professor has worked with a few really famous people in AI/ML in the 
-past (so great connections with two top-top schools as well as in industry), has a huge lab, substantial experience, and
- exponential citation growth. Of course, publishes to top journals.
-* This is basically confirmed at this point.
-
-***Con
-s:***
-
-* Might it be harder to stand out and do good work? Huge lab, not directly working under the prof, rather I'm wor
-king under a PhD student and a postdoc. However, they've told me that they want to give me opportunities to succeed, not
- just do software engineering work but actually come up with ideas of my own. They said they didn't want to guarantee fi
-rst authorship, but did mention that if I worked full time over the summer (which I plan on doing), I'll be treated like
- just another PhD student and might have a chance at that. The PI did recommend I try to get a master's degree in a year
- via the integrated bachelor's-master's program, saying that 'research is nonlinear, it might be worth it to stick to it
- for another year rather than go to a mid-tier program', so yeah.
-* While I've been given flexibility to pick new projec
-ts within this huge lab, in general everything's sort of adjacent to my very specific research interests. I'm still very
- interested in the work and motivated to do cool stuff, but it's not perfectly there. (This is not really a con, but the
- concern might be in there being a slight mismatch in the work of my PhD's PI and what I might be working on).
-
-**Lab 2*
-*  
-***Pros:***
-
-* This professor has exponential citation growth and has research interests in my very specific area of
- interest. His lab hasn't really done a lot of work in that area though, so there might be opportunities there to really
- do good work?
-* Small lab, easier to stand out? There's been one (non-CS) student there and she has a few NeurIPS publi
-cations (second authorships) in her last year, as well as a first authorship to a decent journal. (I have no way of dete
-rmining this for the first lab.)
-
-***Cons:***
-
-* Seemingly limited connectedness, he's worked with some people from Deep
-mind and my school, but it doesn't seem to have a famous academic lineage like the professor from Lab 1.
-* Not yet sure 
-about tangible research opportunities - I might spend some time doing busywork from what she's indicated.
-* This specifi
-c area of work I'm interested in is really challenging (essentially building neuroscience-inspired alternatives to backp
-rop), and I don't know if it's way too ambitious to pursue it at this stage.
-
-**Other Options/Considerations**
-
-I can tr
-y to apply to other labs and see if there's anything better. Right now, the only consideration is a more junior professo
-r with similar connectedness and research focus as lab 1 (but a much smaller lab), but from what I've been told he's not
- actively recruiting and I might need to make a substantial effort to get in. There are also some very famous professors
- at my school, but they generally don't seem to be recruiting that much or willing to give opportunities to undergrads, 
-and a lot of them are in that retirement plateau.
-
-There's also an esteemed professor at my school that a PhD student re
-commended I'd contact, he's recently been getting interested in biologically-motivated AI, and so I might try contacting
- him as well. The concern there might be that by aspiring to some really, really difficult work, I might not have much t
-hat's tangible to show for it at the end of the process.
-
-Additionally, through my current professor at the T3 school, I
- might have an opportunity to co-author a review article about the research I'm really interested in with a very famous 
-professor (pioneer in AI). This is not confirmed at all, but it might affect how I think by complementing my work at my 
-own school. For one, it might make sense to go to lab 1 when I'm getting a chance to work on the stuff I really love in 
-parallel. On the other hand, his fame and the value that might bring to the rec letter might offset any lack of connecte
-dness the second lab might have. But again, none of this is confirmed and things could go wrong.
-
-The truth is, I don't 
-really know what I'm doing because I've never really been in this situation before. If someone with more experience coul
-d give me pointers that would be enormously appreciated! Thank you!!
-```
----
-
-     
- 
-all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-12-0909
+all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-13-0909
 ```
 I didn’t have the opportunity to attend many conferences during my undergrad because they were usually expensive and req
 uired traveling. But I’ve recently started working as a backend SWE and definitely want to start attending more conferen
@@ -435,7 +365,7 @@ So, I just wanted to hear
 
      
  
-all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-03-12-0909
+all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-03-13-0909
 ```
 Since SORA was teased, I've heard a lot of pro-AI folks dragging up old comments from anti-AI folks saying that AI is dy
 ing and will always be terrible, and this is entirely fair. But it's important to also remember that some of the critici
@@ -488,7 +418,7 @@ peared in ever-improving wagon wheels.
 
      
  
-all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-03-12-0909
+all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-03-13-0909
 ```
 Hi I have these research conferences that are of my interest! (Area: Applied AI and Social NLP)
 
@@ -509,7 +439,7 @@ uld be much appreciated!
 
      
  
-all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-03-12-0909
+all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-03-13-0909
 ```
 Hi!
 
@@ -538,7 +468,7 @@ Thanks in
 
      
  
-all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-03-12-0909
+all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-03-13-0909
 ```
 Hi!
 
