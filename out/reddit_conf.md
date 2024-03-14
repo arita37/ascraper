@@ -1,5 +1,37 @@
  
-all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-13-0909
+all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-03-14-0909
+```
+Hi,
+Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
+rch engineer in a public lab for ~2 years. They only offer temporary contracts and there is a limit to how long you can 
+work with these temporary contracts in France (you can try for the few research scientists positions but jts if you have
+ phd/post doc plus good publiching track and experience, so i need to move on).
+I didn't go for a phd and don't want to 
+now since I felt I didn't have the right motivation and didn't want to do it for the sake of it. Didn't see myself as a 
+researcher either publishing all my life. Research Engineer is a sweet spot.
+
+From internships/job, I've so far co-autho
+red 4 papers in computer vision conferences (neurips, iccv, cvpr, miccai) in the topics of 3d reconstruction and human m
+odeling. But that's pretty much the achievement which is probably meaningless for jobs in the industry. And thing is, I 
+feel my skill stack being also limited to research workflow might be little interesting to the industry (practical exper
+ience with only python vs c++ for example). 
+
+And i feel i should switch to industry (instead of another contract in a r
+esearch lab) since honestly, even though these papers might seem nothing, they take a lot of effort and work and the who
+le publishing cycle drains you mentally. And the compensation you get is really low I feel in these public labs (32k bru
+t).
+
+When I look around for jobs, I see mostly poorly defined descriptions but titled data scientist or mainly MLops. No
+thing specifically related to what ive done being needed. I have 7 months left on my contract. What should I start learn
+ing/doing or what could be an ideal focus for job search with such profile? Id like to stay in France and even in the sa
+me city near lyon since im a foreigner and i feel more settled due to having made friends and understanding the language
+. Your insights would be helpful. I feel very lost.
+```
+---
+
+     
+ 
+all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-14-0909
 ```
 As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
  has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
@@ -18,7 +50,7 @@ eally appreciate some help.
 
      
  
-all -  [ America: The Country With The Most Innovation ](https://i.redd.it/mbye6uerusnc1.jpeg) , 2024-03-13-0909
+all -  [ America: The Country With The Most Innovation ](https://i.redd.it/mbye6uerusnc1.jpeg) , 2024-03-14-0909
 ```
 
 ```
@@ -26,7 +58,7 @@ all -  [ America: The Country With The Most Innovation ](https://i.redd.it/mbye6
 
      
  
-all -  [ PhD admissions for CS feels like I am trying to win the Olympics or something. It's depressing ](https://www.reddit.com/r/gradadmissions/comments/1b6pllv/phd_admissions_for_cs_feels_like_i_am_trying_to/) , 2024-03-13-0909
+all -  [ PhD admissions for CS feels like I am trying to win the Olympics or something. It's depressing ](https://www.reddit.com/r/gradadmissions/comments/1b6pllv/phd_admissions_for_cs_feels_like_i_am_trying_to/) , 2024-03-14-0909
 ```
 Why are CS PhD admissions so so tough? I have a decent profile. 4/4 gpa, 2.5 years in a good industry Research lab. One 
 first author S-tier conference (Neurips) paper. 
@@ -51,7 +83,7 @@ BA, it shouldn't be so tough. This field is cooked. RIP to future candidates in 
 
      
  
-all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-13-0909
+all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-14-0909
 ```
 I am graduating soon, and my Ph.D. research is about RL algorithms and their applications.  
 However, I failed to publis
@@ -72,7 +104,7 @@ y opportunities in startups, or other positions I have not explored yet.
 
      
  
-all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-13-0909
+all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-14-0909
 ```
 Hi colleagues,
 
@@ -97,7 +129,7 @@ I do understand that robotics conferences are a little
 
      
  
-all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-13-0909
+all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-14-0909
 ```
 I have stubborn texture and always get pimples on my chin area that just won’t go away anyone have tips or products that
  they use?TIA included what I use now thank you!!
@@ -106,7 +138,7 @@ I have stubborn texture and always get pimples on my chin area that just won’t
 
      
  
-all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-13-0909
+all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-14-0909
 ```
 [Paper](https://arxiv.org/abs/2311.17137). [Project website](https://intrinsic-lora.github.io/). I am not affiliated wit
 h the authors.
@@ -232,7 +264,7 @@ yes.
 
      
  
-all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-13-0909
+all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-14-0909
 ```
 Hi everyone!
 
@@ -258,7 +290,7 @@ t.com/link/1axeoqq/video/4exdgqd9q6kc1/player)
 
      
  
-all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-13-0909
+all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-14-0909
 ```
 Hi!
 
@@ -278,7 +310,7 @@ Any help would be appreciated! Thanks!
 
      
  
-all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-13-0909
+all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-14-0909
 ```
 GovAI was founded to help humanity navigate the transition to a world with advanced AI. Our first research agenda, publi
 shed in 2018, helped define and shape the nascent field of AI governance. Our team and affiliate community possess exper
@@ -333,7 +365,7 @@ obs.net/job/139016-research-scholar-technical-research/)
 
      
  
-all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-13-0909
+all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-14-0909
 ```
 I'm in the process of deciding on my masters thesis in Data Science. The professor that I have been communicating with o
 ffered me to join a team that would submit their research to NeurIPS. On the other hand, the topic of the research does 
@@ -347,7 +379,7 @@ onference in my CV, or do a topic that is more related to my field of interest? 
 
      
  
-all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-13-0909
+all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-14-0909
 ```
 I didn’t have the opportunity to attend many conferences during my undergrad because they were usually expensive and req
 uired traveling. But I’ve recently started working as a backend SWE and definitely want to start attending more conferen
@@ -365,7 +397,7 @@ So, I just wanted to hear
 
      
  
-all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-03-13-0909
+all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-03-14-0909
 ```
 Since SORA was teased, I've heard a lot of pro-AI folks dragging up old comments from anti-AI folks saying that AI is dy
 ing and will always be terrible, and this is entirely fair. But it's important to also remember that some of the critici
@@ -418,7 +450,7 @@ peared in ever-improving wagon wheels.
 
      
  
-all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-03-13-0909
+all -  [ Research Conferences Guide! ](https://www.reddit.com/r/research/comments/1apl0c4/research_conferences_guide/) , 2024-03-14-0909
 ```
 Hi I have these research conferences that are of my interest! (Area: Applied AI and Social NLP)
 
@@ -434,64 +466,6 @@ them? What is the general norm of keeping up to date with them! ) If you know an
 uld be much appreciated!
 
 &#x200B;
-```
----
-
-     
- 
-all -  [ RA/Research Internships (post MEng, pre-doc) ](https://www.reddit.com/r/gradadmissions/comments/1aoa9b0/raresearch_internships_post_meng_predoc/) , 2024-03-13-0909
-```
-Hi!
-
-I am an Information Engineering student at Cambridge (UK) (BA,MEng). I realised late (early 3rd year) that I wanted
- to pursue a PhD in ML. After this, I did a MLR internship with a top prof (> 70 H-Index) at Caltech, where I got three 
-workshop papers (1 first author, two NeurIPS workshops). The issue is that this work was super low-hanging fruit, and ve
-ry applied. To get into a T10 ML PhD in the US (or even in the UK) atm, I am sure I will need more research experience (
-conference paper(s)) and another strong rec letter. As such, I decided to not apply for PhDs in this cycle - I am taking
- a year out to \*hopefully\* RA, and apply for the next cycle (2025 entry).
-
-I am aware that there are not many (or any?
-) programs in the US/UK/Europe that provide official RA-ships/positions for students who have graduated. Ad-hoc collabor
-ations and cold emailing are always possible - I will resort to this when it comes to it - but I was wondering if anyone
- has been in a similar position or have come across opportunities/ insights that might be useful in my situation. Genera
-l advice (or criticism) is also super appreciated.
-
-P.S. My MEng project will ideally go to some conference, and I have 
-a good academic record (top 3% of my class of 250+ with 9 academic awards/scholarships). I am interested in symbolic rea
-soning/robustness of large models. I am also more fundamental work, in statistical guarantees (inc. conformal prediction
-) for adversarial robustness, fairness and so on. Super happy to share my profile/cv/personal website via DM.
-
-Thanks in
- advance :)
-```
----
-
-     
- 
-all -  [ Research Assistantships (Pre-Doc, Post-MEng) ](https://www.reddit.com/r/learnmachinelearning/comments/1aoa5er/research_assistantships_predoc_postmeng/) , 2024-03-13-0909
-```
-Hi!
-
-I am an Information Engineering student at Cambridge (UK) (BA,MEng). I realised late (early 3rd year) that I wanted
- to pursue a PhD in ML. After this, I did a MLR internship with a top prof (> 70 H-Index) at Caltech, where I got three 
-workshop papers (1 first author, two NeurIPS workshops). The issue is that this work was **super low-hanging fruit**, an
-d very applied. To get into a T10 ML PhD in the US (or even in the UK) atm, I am sure I will need more research experien
-ce (conference paper(s)) and another strong rec letter. As such, I decided to not apply for PhDs in this cycle - I am ta
-king a year out to **\*hopefully\*** RA, and apply for the next cycle (2025 entry).
-
-I am aware that there are not many 
-**(or any?)** programs in the US/UK/Europe that provide official RA-ships/positions for students who have graduated. Ad-
-hoc collaborations and cold emailing are always possible - I will resort to this when it comes to it - but I was wonderi
-ng if anyone has been in a similar position or have come across opportunities/ insights that might be useful in my situa
-tion. General advice (or criticism) is also super appreciated.
-
-P.S. My MEng project will ideally go to some conference,
- and I have a good academic record (top 3% of my class of 250+ with 9 academic awards/scholarships). I am interested in 
-symbolic reasoning/robustness of large models. I am also more fundamental work, in statistical guarantees (inc. conforma
-l prediction) for adversarial robustness, fairness and so on. Super happy to share my profile/cv/personal website via DM
-.
-
-Thanks in advance :)
 ```
 ---
 
