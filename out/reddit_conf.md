@@ -1,5 +1,65 @@
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-03-19-0910
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-03-20-0909
+```
+Though I mailed to all authors, I couldn't receive any reply...
+
+&#x200B;
+
+I really enjoyed reading paper, “Compositiona
+l Visual Generation with Energy Based Models” (NeurIPS\`20; [https://arxiv.org/abs/2004.06030](https://arxiv.org/abs/200
+4.06030)).
+
+While I am following the idea in the paper, I am facing a problem in understanding the equation (8) in the p
+aper.
+
+According to the paper's notation, the EBM is defined as (1):
+
+[Eq. \(1\)](https://preview.redd.it/lnerbdlm58pc1.
+png?width=202&format=png&auto=webp&s=e7ce768304cafa8e0fb88202466ad7cf40d9d3e8)
+
+i.e.,, the *energy function*, E\_\\theta
+(x), is defined as the negative term on top of the exponent.
+
+&#x200B;
+
+In eq. (3) below, authors defines SGLD step for 
+acquiring samples from any energy based model (EBM).
+
+Next, according to 'concept disjunction' proposed by authors, the 
+union-ized probability densities are defined in (7), in the form of the exponential of log-sum-exp of different EBMs' *e
+nergy function*s.
+
+https://preview.redd.it/sas3f4yg58pc1.png?width=1005&format=png&auto=webp&s=2bb0aa67cf2767ede091102ce
+22965e8c8bdbe7c
+
+From (7), I understood that the unionized energy function is accordingly -logsumexp(-E(x|c1), ...),  
+t
+hus corresponding SGLD should have plus sign.  
+However, in the paper, authors stated the SGLD with ***minus sign***, an
+d I've lost...
+
+After looking through the official code implementation,   
+([https://github.com/yilundu/ebm\_composition
+ality/blob/c7ac54366d2d5a15f71871448bd720bf5b3eb82d/celeba\_combine.py#L150C9-L150C32](https://github.com/yilundu/ebm_co
+mpositionality/blob/c7ac54366d2d5a15f71871448bd720bf5b3eb82d/celeba_combine.py#L150C9-L150C32))  
+I found that the combi
+ned energy function derivation of mine ( E(x|\\cup\_i c\_i) ) seems to be correct,  
+according to the assignment of the 
+\`e\_pos\` variable in the code.
+
+&#x200B;
+
+Still, I'd like to acquire some clarification on this flow.  
+Can anybody sk
+im through this post and check my thought?
+
+Thank you in advance!
+```
+---
+
+     
+ 
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-03-20-0909
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -14,7 +74,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-03-19-0910
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-03-20-0909
 ```
 Hi everyone!
 
@@ -32,135 +92,7 @@ vileged environment, or are the manuscript-authors just lazy? How much faith do 
 
      
  
-all -  [ Unveiling the Complexity of Visual Recognition: MIT's Study Challenges AI Perception ](https://www.reddit.com/r/AIforBiz/comments/1bhnhu7/unveiling_the_complexity_of_visual_recognition/) , 2024-03-19-0910
-```
-In a groundbreaking study from the Massachusetts Institute of Technology's Computer Science and Artificial Intelligence 
-Laboratory ([MIT CSAIL](https://www.csail.mit.edu/node/2873)), researchers have introduced a novel perspective on the ca
-pabilities and limitations of artificial intelligence (AI) in image recognition. This research, spearheaded by MIT PhD s
-tudent David Mayo and his team, explores the intricacies of how AI systems perceive and interpret visual data, challengi
-ng our preconceived notions about machine vision and its comparison to human perceptual abilities.
-
-&#x200B;
-
-Introducin
-g Minimum Viewing Time (MVT)
-
-At the heart of this study is the development of a new metric termed 'Minimum Viewing Time
-' (MVT), designed to assess the complexity of image recognition tasks. MVT measures the time required for humans to accu
-rately identify an image, offering insights into the challenges faced by AI in processing complex visual information. Th
-is metric serves as a bridge to understand the gap between human and machine vision, particularly in recognizing images 
-that demand more extended viewing times for accurate identification.
-
-&#x200B;
-
-https://preview.redd.it/5568ybcsemnc1.pn
-g?width=1024&format=png&auto=webp&s=8f087df66da0acc8ecce87614a16417d31355a3d
-
-The research reveals that while AI models 
-exhibit high performance on standard datasets, they falter when confronted with images that are challenging for humans, 
-indicating significant disparities in AI's ability to process complex visual stimuli. By comparing AI's performance on b
-oth straightforward and intricate images, the MIT CSAIL team has illuminated the limitations of current AI models in mir
-roring human-like perception.
-
-&#x200B;
-
-Bridging AI and Human Vision
-
-The implications of this study extend far beyond 
-academic discourse, bearing significant potential for enhancing AI applications in critical fields such as healthcare. I
-n areas where precise interpretation of medical images is paramount, advancing AI's visual recognition capabilities coul
-d lead to breakthroughs in diagnostic accuracy and patient care. By delving into the neurological foundations of visual 
-recognition, the research aims to unravel the mechanisms through which our brains efficiently decode the visual world, p
-aving the way for AI systems that more closely resemble human perceptual processes.
-
-&#x200B;
-
-https://preview.redd.it/b
-g1at8ceemnc1.png?width=1125&format=png&auto=webp&s=b3f5cb669e7c060caaa7c2c37d1d07fe52d3147f
-
-This endeavor is not merely
- a scientific milestone but a crucial step toward developing more sophisticated and dependable AI vision systems capable
- of navigating the complexities inherent in real-world visual recognition tasks. The study challenges the prevailing bel
-ief that AI systems have outstripped human vision, highlighting the necessity for more realistic benchmarks and equitabl
-e comparisons between machine and human perception.
-
-&#x200B;
-
-A Call to Action for the AI Community
-
-As the findings ar
-e presented at the 2023 Conference on Neural Information Processing Systems (NeurIPS), the study serves as a clarion cal
-l to the AI research community. It urges a reevaluation of the methodologies employed in training and testing AI models,
- advocating for approaches that ensure AI systems are not merely proficient in executing simple tasks but are genuinely 
-equipped to tackle the subtleties and intricacies of real-world visual understanding.
-
-&#x200B;
-
-This research opens new
- pathways for AI exploration, emphasizing the importance of preparing AI systems for the complexities of visual recognit
-ion they will encounter outside laboratory settings. By fostering a more nuanced understanding of the parallels and dive
-rgences between AI and human vision, the study lays the groundwork for future innovations in AI technology.
-
-&#x200B;
-
-T
-he Path Forward: Realizing Human-like AI Vision Systems
-
-The MIT CSAIL team's research underscores a critical juncture i
-n AI development, highlighting the need for AI systems that can process visual information with the same depth and nuanc
-e as human observers. Achieving this level of sophistication in AI vision requires a concerted effort to develop algorit
-hms that not only mimic but also understand the underlying principles of human perception.
-
-&#x200B;
-
-To bridge the gap 
-between AI and human vision, future research must focus on integrating insights from neuroscience and cognitive psycholo
-gy into AI models. This interdisciplinary approach will be instrumental in creating AI systems that can interpret the wo
-rld around them as effectively as humans do, with the potential to revolutionize industries reliant on visual recognitio
-n, from autonomous vehicles to environmental monitoring.
-
-&#x200B;
-
-Moreover, this study emphasizes the ethical consider
-ations in AI development, advocating for transparency, fairness, and accountability in AI vision systems. As AI continue
-s to evolve, ensuring that these technologies serve the greater good while respecting human values and rights remains pa
-ramount.
-
-&#x200B;
-
-Embracing the Complexity of Visual Recognition
-
-The MIT CSAIL team's study is a testament to the ong
-oing journey of discovery and innovation in AI research. By challenging existing perceptions of AI's capabilities in vis
-ual recognition, the research not only sheds light on the current limitations of AI models but also charts a course for 
-future advancements that more closely align with human perceptual abilities.
-
-&#x200B;
-
-As we look to the future, the qu
-est to develop AI systems with human-like vision remains a formidable challenge, yet one that holds immense promise for 
-transforming our interaction with technology and the world. This study not only contributes to our understanding of AI a
-nd human vision but also inspires a renewed commitment to pushing the boundaries of what AI can achieve, ensuring that t
-he next generation of AI systems is ready to meet the complexities of the visual world head-on.
-
-&#x200B;
-
-The groundbre
-aking findings from MIT's CSAIL team on the Minimum Viewing Time (MVT) for image recognition have profound implications 
-for the business world, particularly in sectors where visual data plays a crucial role. For industries such as retail, s
-ecurity, and automotive, where accurate and swift image recognition is paramount, the insights into AI's visual processi
-ng challenges can drive the development of more advanced AI models. These enhanced models can significantly improve the 
-efficiency and reliability of tasks like inventory management through visual stock tracking, facial recognition systems 
-for enhanced security measures, and autonomous vehicle navigation systems that better mimic human perceptual processes. 
-By understanding and narrowing the gap between AI and human vision, [Use of AI in businesses](https://neuralpit.com) to 
-not only streamline operations but also open new avenues for innovation and service enhancement, ultimately leading to a
- competitive edge in the rapidly evolving digital marketplace.
-```
----
-
-     
- 
-all -  [ Towards General-Purpose In-Context Learning Agents ](https://www.reddit.com/r/AcceleratingAI/comments/1bfbbvj/towards_generalpurpose_incontext_learning_agents/) , 2024-03-19-0910
+all -  [ Towards General-Purpose In-Context Learning Agents ](https://www.reddit.com/r/AcceleratingAI/comments/1bfbbvj/towards_generalpurpose_incontext_learning_agents/) , 2024-03-20-0909
 ```
 **Paper**: [https://openreview.net/forum?id=eDZJTdUsfe](https://openreview.net/forum?id=eDZJTdUsfe)
 
@@ -188,7 +120,7 @@ as Reacher, Cartpole, or HalfCheetah that were not in the  meta-training distrib
 
      
  
-all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-03-19-0910
+all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-03-20-0909
 ```
 Hi,
 Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
@@ -220,7 +152,7 @@ me city near lyon since im a foreigner and i feel more settled due to having mad
 
      
  
-all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-19-0910
+all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-20-0909
 ```
 As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
  has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
@@ -239,7 +171,7 @@ eally appreciate some help.
 
      
  
-all -  [ America: The Country With The Most Innovation ](https://i.redd.it/mbye6uerusnc1.jpeg) , 2024-03-19-0910
+all -  [ America: The Country With The Most Innovation ](https://i.redd.it/mbye6uerusnc1.jpeg) , 2024-03-20-0909
 ```
 
 ```
@@ -247,7 +179,7 @@ all -  [ America: The Country With The Most Innovation ](https://i.redd.it/mbye6
 
      
  
-all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-19-0910
+all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-20-0909
 ```
 I am graduating soon, and my Ph.D. research is about RL algorithms and their applications.  
 However, I failed to publis
@@ -268,7 +200,7 @@ y opportunities in startups, or other positions I have not explored yet.
 
      
  
-all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-19-0910
+all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-20-0909
 ```
 Hi colleagues,
 
@@ -293,7 +225,7 @@ I do understand that robotics conferences are a little
 
      
  
-all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-19-0910
+all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-20-0909
 ```
 I have stubborn texture and always get pimples on my chin area that just won’t go away anyone have tips or products that
  they use?TIA included what I use now thank you!!
@@ -302,7 +234,7 @@ I have stubborn texture and always get pimples on my chin area that just won’t
 
      
  
-all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-19-0910
+all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-20-0909
 ```
 [Paper](https://arxiv.org/abs/2311.17137). [Project website](https://intrinsic-lora.github.io/). I am not affiliated wit
 h the authors.
@@ -428,7 +360,7 @@ yes.
 
      
  
-all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-19-0910
+all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-20-0909
 ```
 Hi everyone!
 
@@ -454,7 +386,7 @@ t.com/link/1axeoqq/video/4exdgqd9q6kc1/player)
 
      
  
-all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-19-0910
+all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-20-0909
 ```
 Hi!
 
@@ -474,7 +406,7 @@ Any help would be appreciated! Thanks!
 
      
  
-all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-19-0910
+all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-20-0909
 ```
 GovAI was founded to help humanity navigate the transition to a world with advanced AI. Our first research agenda, publi
 shed in 2018, helped define and shape the nascent field of AI governance. Our team and affiliate community possess exper
@@ -529,7 +461,7 @@ obs.net/job/139016-research-scholar-technical-research/)
 
      
  
-all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-19-0910
+all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-20-0909
 ```
 I'm in the process of deciding on my masters thesis in Data Science. The professor that I have been communicating with o
 ffered me to join a team that would submit their research to NeurIPS. On the other hand, the topic of the research does 
@@ -543,7 +475,7 @@ onference in my CV, or do a topic that is more related to my field of interest? 
 
      
  
-all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-19-0910
+all -  [ What conferences do you attend? Or wish you could? ](https://www.reddit.com/r/cscareerquestions/comments/1ati510/what_conferences_do_you_attend_or_wish_you_could/) , 2024-03-20-0909
 ```
 I didn’t have the opportunity to attend many conferences during my undergrad because they were usually expensive and req
 uired traveling. But I’ve recently started working as a backend SWE and definitely want to start attending more conferen
@@ -556,59 +488,6 @@ g if I’m missing major conferences within a category (or even missing categori
 
 So, I just wanted to hear
  from people which ones they’ve attended/would like to attend (regardless of location/virtual or not)
-```
----
-
-     
- 
-all -  [ Antis are right: image generative AI is fundamentally limited ](https://www.reddit.com/r/aiwars/comments/1at4xj0/antis_are_right_image_generative_ai_is/) , 2024-03-19-0910
-```
-Since SORA was teased, I've heard a lot of pro-AI folks dragging up old comments from anti-AI folks saying that AI is dy
-ing and will always be terrible, and this is entirely fair. But it's important to also remember that some of the critici
-sms of generative AI are very true.
-
-First, let me clarify my background. I'm a creative on the side, but my primary car
-eer has been in the software industry for the past 35+ years. I first worked with neural networks in the 1980s and thoug
-h I've never been on the front-lines of AI development myself, I've worked for AI companies and companies that have done
- AI work. I've had to deal with many issues surrounding AI software for large chunks of my career.
-
-Okay, my credentials
- being out of the way, generative AI as we currently use it is mostly based on two primary things:
-
-1. Transformers^1
-2.
- Diffusion models^2
-
-These two advances that were made fairly recently have revolutionized the field, and given us a mas
-sive step forward in the state of the art. But it is important to remember how limited these things are.
-
-AI currently h
-as no capacity for self-awareness, generating and utilizing long-term memory, emotional empathy or truly self-directed g
-oal setting. These are features of human brains that, as far as we are aware, are not merely features of training weight
-s in neural networks, and so, while these artificial neural networks can learn in a way very similar to human brains, th
-ere is a vast gulf in total capabilities.
-
-I've long speculated that we are 2-3 major breakthroughs (on par with transfo
-rmers) away from true parity with human minds, and that that process will probably take between 10 and 50 years. The gen
-erative AI that we have today will not be replacing humans because it fundamentally lacks many of the capabilities of hu
-mans in the workplace. It can't relate to others socially (which requires empathy); it can't effectively manage anyone (
-which requires long-term autonomous planning); it can't maintain a consistent context beyond its token limit (which requ
-ires long-term memory); etc.
-
-So when you see claims that AI will just replace artists or 'paper pushers' or any other r
-ole, stop and ask yourself if what is being suggested requires these additional capabilities. The ability to create disc
-onnected, but very pretty pictures/videos is not the same as being able to engage in the interactive process of creating
- art. Nor is the ability to pass multiple choice or even essay tests sufficient to manage a team of programmers, and the
-se capabilities will not magically appear in current AI models any more than the internal combustion engine magically ap
-peared in ever-improving wagon wheels.
-
-----
-
-^1 Vaswani, Ashish, et al. 'Attention is all you need.' Advances in neural
- information processing systems 30 (2017). https://arxiv.org/abs/1706.03762
-^2 Dhariwal, Prafulla, and Alexander Nichol.
- 'Diffusion models beat gans on image synthesis.' Advances in neural information processing systems 34 (2021): 8780-8794
-. https://proceedings.neurips.cc/paper_files/paper/2021/file/49ad23d1ec9fa4bd8d77d02681df5cfa-Paper.pdf
 ```
 ---
 
