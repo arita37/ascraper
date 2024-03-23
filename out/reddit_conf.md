@@ -1,5 +1,5 @@
  
-all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-03-22-0909
+all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-03-23-0909
 ```
 
 ```
@@ -7,7 +7,7 @@ all -  [ I am not aware that we have so many outstanding PhDs on the job market.
 
      
  
-all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-03-22-0909
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-03-23-0909
 ```
 Though I mailed to all authors, I couldn't receive any reply...
 
@@ -67,7 +67,7 @@ Thank you in advance!
 
      
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-03-22-0909
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-03-23-0909
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -82,7 +82,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-03-22-0909
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-03-23-0909
 ```
 Hi everyone!
 
@@ -100,7 +100,7 @@ vileged environment, or are the manuscript-authors just lazy? How much faith do 
 
      
  
-all -  [ Towards General-Purpose In-Context Learning Agents ](https://www.reddit.com/r/AcceleratingAI/comments/1bfbbvj/towards_generalpurpose_incontext_learning_agents/) , 2024-03-22-0909
+all -  [ Towards General-Purpose In-Context Learning Agents ](https://www.reddit.com/r/AcceleratingAI/comments/1bfbbvj/towards_generalpurpose_incontext_learning_agents/) , 2024-03-23-0909
 ```
 **Paper**: [https://openreview.net/forum?id=eDZJTdUsfe](https://openreview.net/forum?id=eDZJTdUsfe)
 
@@ -128,7 +128,7 @@ as Reacher, Cartpole, or HalfCheetah that were not in the  meta-training distrib
 
      
  
-all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-03-22-0909
+all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-03-23-0909
 ```
 Hi,
 Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
@@ -160,7 +160,7 @@ me city near lyon since im a foreigner and i feel more settled due to having mad
 
      
  
-all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-22-0909
+all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-23-0909
 ```
 As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
  has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
@@ -179,7 +179,7 @@ eally appreciate some help.
 
      
  
-all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-22-0909
+all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-23-0909
 ```
 I am graduating soon, and my Ph.D. research is about RL algorithms and their applications.  
 However, I failed to publis
@@ -200,7 +200,7 @@ y opportunities in startups, or other positions I have not explored yet.
 
      
  
-all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-22-0909
+all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-23-0909
 ```
 Hi colleagues,
 
@@ -225,7 +225,7 @@ I do understand that robotics conferences are a little
 
      
  
-all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-22-0909
+all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-23-0909
 ```
 I have stubborn texture and always get pimples on my chin area that just won’t go away anyone have tips or products that
  they use?TIA included what I use now thank you!!
@@ -234,7 +234,7 @@ I have stubborn texture and always get pimples on my chin area that just won’t
 
      
  
-all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-22-0909
+all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-23-0909
 ```
 [Paper](https://arxiv.org/abs/2311.17137). [Project website](https://intrinsic-lora.github.io/). I am not affiliated wit
 h the authors.
@@ -360,7 +360,7 @@ yes.
 
      
  
-all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-22-0909
+all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-23-0909
 ```
 Hi everyone!
 
@@ -386,7 +386,7 @@ t.com/link/1axeoqq/video/4exdgqd9q6kc1/player)
 
      
  
-all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-22-0909
+all -  [ Is there any trick to help peg-in-hole tasks converge? ](https://www.reddit.com/r/reinforcementlearning/comments/1aw8399/is_there_any_trick_to_help_peginhole_tasks/) , 2024-03-23-0909
 ```
 Hi!
 
@@ -401,75 +401,6 @@ BTW, are there any recommended open-source repos regarding peg-in-hole
 tasks?
 
 Any help would be appreciated! Thanks!
-```
----
-
-     
- 
-all -  [ [HIRING] Research Scholar (Technical Research) @ Centre for the Governance of AI in Oxford, UK (Hybr ](https://www.reddit.com/r/london_forhire/comments/1avlszu/hiring_research_scholar_technical_research_centre/) , 2024-03-22-0909
-```
-GovAI was founded to help humanity navigate the transition to a world with advanced AI. Our first research agenda, publi
-shed in 2018, helped define and shape the nascent field of AI governance. Our team and affiliate community possess exper
-tise in a wide variety of domains, including AI regulation, responsible development practices, compute governance, AI co
-mpany corporate governance, US-China relations, and AI progress forecasting.  
-GovAI researchers — particularly those wo
-rking within our Policy Team — have closely advised decision makers in government, industry, and civil society. Our rese
-archers have also published in top peer-reviewed journals and conferences, including International Organization, NeurIPS
-, and Science. Our alumni have gone on to roles in government, in both the US and UK; top AI companies, including DeepMi
-nd, OpenAI, and Anthropic; top think tanks, including the Centre for Security and Emerging Technology and RAND; and top 
-universities, including the University of Oxford and the University of Cambridge.  
-Although we are based in Oxford, Uni
-ted Kingdom — and currently have an especially large UK policy focus — we also have team members in the United States an
-d European Union.  
-‍  
-About the Role  
-Research Scholar is a one-year visiting position. It is designed to support the
- career development of AI governance researchers and practitioners — as well as to offer them an opportunity to do high-
-impact work.  
-As a Research Scholar, you will have freedom to pursue a wide range of styles of work. This could include
- conducting policy research, social science research, or technical research; engaging with and advising policymakers; or
- launching and managing applied projects.   
-For example, past and present Scholars have used the role to:  
-produce an 
-influential report on the benefits and risks of open-source AI;  
-conduct technical research into questions that bear on
- compute governance;  
-take part in the UK policy-making process as a part-time secondee in the UK government; and  
-lau
-nch a new organisation to facilitate international AI governance dialogues.  
-Over the course of the year, you will also
- deepen your understanding of the field, connect with a network of experts, and build your skills and professional profi
-le, all while working within an institutional home that offers both flexibility and support.  
-You will receive research
- supervision from a member of the GovAI team or network. The frequency of supervisor meetings and feedback will vary dep
-ending on supervisor availability, although once-a-week or once-every-two-weeks supervision meetings are typical. There 
-will also be a number of additional opportunities for Research Scholars to receive feedback, including internal work-in-
-progress seminars. You will receive further support from Emma Bluemke, GovAI's Research Manager.  
-Some Research Scholar
-s may also — depending on the focus of their work — take part in GovAI’s Policy Team, which is led by Markus Anderljung.
- Members of the GovAI Policy Team do an especially large amount of policy engagement and coordinate their work more subs
-tantially. They also have additional team meetings and retreats. While Policy Team members retain significant freedom to
- choose projects, there is also an expectation that a meaningful portion of their work will fit into the team’s joint pr
-iorities.
-
-**Read more / apply:** [**https://ai-jobs.net/job/139016-research-scholar-technical-research/**](https://ai-j
-obs.net/job/139016-research-scholar-technical-research/)
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Do a Master Thesis that can into NeurIPS? ](https://www.reddit.com/r/careerguidance/comments/1avj9ch/do_a_master_thesis_that_can_into_neurips/) , 2024-03-22-0909
-```
-I'm in the process of deciding on my masters thesis in Data Science. The professor that I have been communicating with o
-ffered me to join a team that would submit their research to NeurIPS. On the other hand, the topic of the research does 
-not perfectly align with my interests (i.e., Quantitative Finance).
-
-Should I pursue a thesis that would put a NeurIPS c
-onference in my CV, or do a topic that is more related to my field of interest? Would like to know people's opinions and
- experiences, thanks!
 ```
 ---
 
