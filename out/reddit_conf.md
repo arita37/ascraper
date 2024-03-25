@@ -1,5 +1,5 @@
  
-all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-03-24-0911
+all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-03-25-0910
 ```
 
 ```
@@ -7,7 +7,7 @@ all -  [ I am not aware that we have so many outstanding PhDs on the job market.
 
      
  
-all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-03-24-0911
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-03-25-0910
 ```
 Though I mailed to all authors, I couldn't receive any reply...
 
@@ -67,7 +67,7 @@ Thank you in advance!
 
      
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-03-24-0911
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-03-25-0910
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -82,7 +82,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-03-24-0911
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-03-25-0910
 ```
 Hi everyone!
 
@@ -100,35 +100,7 @@ vileged environment, or are the manuscript-authors just lazy? How much faith do 
 
      
  
-all -  [ Towards General-Purpose In-Context Learning Agents ](https://www.reddit.com/r/AcceleratingAI/comments/1bfbbvj/towards_generalpurpose_incontext_learning_agents/) , 2024-03-24-0911
-```
-**Paper**: [https://openreview.net/forum?id=eDZJTdUsfe](https://openreview.net/forum?id=eDZJTdUsfe)
-
-**Talk and slides**
-: [https://neurips.cc/virtual/2023/79880](https://neurips.cc/virtual/2023/79880)
-
-**Blog post**: [http://louiskirsch.com
-/glas](http://louiskirsch.com/glas)
-
-**Abstract**:
-
->Reinforcement Learning (RL) algorithms are usually hand-crafted, dr
-iven  by the research and engineering of humans. An alternative approach is to  automate this research process via meta-
-learning. A particularly  ambitious objective is to automatically discover new RL algorithms from  scratch that use in-c
-ontext learning to learn-how-to-learn entirely from  data while also generalizing to a wide range of environments. Those
- RL  algorithms are implemented entirely in neural networks, by conditioning  on previous experience from the environmen
-t, without any explicit  optimization-based routine at meta-test time. To achieve generalization,  this requires a broad
- task distribution of diverse and challenging  environments. Our Transformer-based **Generally Learning Agents** (**GLAs
-**) are  an important first step in this direction. Our GLAs are meta-trained  using supervised learning techniques on a
-n offline dataset with  experiences from RL environments that is augmented with random  projections to generate task div
-ersity. During meta-testing our agents  perform in-context meta-RL on entirely different robotic control  problems such 
-as Reacher, Cartpole, or HalfCheetah that were not in the  meta-training distribution.
-```
----
-
-     
- 
-all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-03-24-0911
+all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-03-25-0910
 ```
 Hi,
 Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
@@ -160,7 +132,7 @@ me city near lyon since im a foreigner and i feel more settled due to having mad
 
      
  
-all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-24-0911
+all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-25-0910
 ```
 As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
  has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
@@ -179,7 +151,7 @@ eally appreciate some help.
 
      
  
-all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-24-0911
+all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-25-0910
 ```
 I am graduating soon, and my Ph.D. research is about RL algorithms and their applications.  
 However, I failed to publis
@@ -200,7 +172,7 @@ y opportunities in startups, or other positions I have not explored yet.
 
      
  
-all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-24-0911
+all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-25-0910
 ```
 Hi colleagues,
 
@@ -225,7 +197,7 @@ I do understand that robotics conferences are a little
 
      
  
-all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-24-0911
+all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-25-0910
 ```
 I have stubborn texture and always get pimples on my chin area that just won’t go away anyone have tips or products that
  they use?TIA included what I use now thank you!!
@@ -234,7 +206,7 @@ I have stubborn texture and always get pimples on my chin area that just won’t
 
      
  
-all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-24-0911
+all -  [ [R] 'Generative Models: What do they know? Do they know things? Let's find out!'. Quote from paper:  ](https://www.reddit.com/r/MachineLearning/comments/1ay2b7u/r_generative_models_what_do_they_know_do_they/) , 2024-03-25-0910
 ```
 [Paper](https://arxiv.org/abs/2311.17137). [Project website](https://intrinsic-lora.github.io/). I am not affiliated wit
 h the authors.
@@ -355,32 +327,6 @@ and shadows fall on the surfaces of objects, giving them depth and shape so they
 r, the challenge they were addressing was how to get a computer to figure out these aspects—normals, depth, albedo, and 
 shading—from a 2D image, which would help it understand a scene in 3D, much like the way we see the world with our own e
 yes.
-```
----
-
-     
- 
-all -  [ Amorphous Fortress Online ](https://www.reddit.com/r/alife/comments/1axeoqq/amorphous_fortress_online/) , 2024-03-24-0911
-```
-Hi everyone!
-
-I'd like to introduce a research project my team and I have been working on that's inspired by the Sims an
-d Dwarf Fortress: [Amorphous Fortress Online](http://amorphous-fortress.xyz/index.php). It's an open-ended multi-agent s
-imulation / game engine where you can design FSM-based AI that interact with each other in a small environment.
-
-It's st
-ill a work in development and the site has a user guide to help you get familiar with the interface and a feedback form 
-to leave comments and report bugs. So far, we've published some research papers at a [ALIFE 2023](https://arxiv.org/pdf/
-2306.13169.pdf) workshop and in a [NeurIPS 2023 workshop](https://arxiv.org/pdf/2312.02231.pdf) based on our Python vers
-ion of the [engine](https://github.com/dipikarajesh18/amorphous-fortress).
-
-Check out the [promo video](https://www.yout
-ube.com/watch?v=ANoQkIgOa6c) and come design some fortresses!
-
-&#x200B;
-
-[Amorphous Fortress Online Promo](https://reddi
-t.com/link/1axeoqq/video/4exdgqd9q6kc1/player)
 ```
 ---
 
