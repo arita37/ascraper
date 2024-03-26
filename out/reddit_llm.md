@@ -1,5 +1,1611 @@
  
-all -  [ [3 YoE] Trying to find job with visa sponsor to work at Germany ](https://www.reddit.com/r/EngineeringResumes/comments/1bmy0v2/3_yoe_trying_to_find_job_with_visa_sponsor_to/) , 2024-03-25-0910
+all -  [ Agent is not using a custom tool ](https://www.reddit.com/r/LangChain/comments/1bnmezm/agent_is_not_using_a_custom_tool/) , 2024-03-26-0909
+```
+Hello,
+
+
+
+I am trying to create a workflow where the agents receive an API specification, make improvements on it and sa
+ve it to a different file. I am using the example from LangChain on how to build hierarchical teams and I have created a
+n 'API Enhancement Team' with two agents.
+
+[https://github.com/langchain-ai/langgraph/blob/main/examples/multi\_agent/hi
+erarchical\_agent\_teams.ipynb](https://github.com/langchain-ai/langgraph/blob/main/examples/multi_agent/hierarchical_ag
+ent_teams.ipynb)
+
+One agent that will read a YAML file and provide suggestions on what needs to be improved. And one age
+nt that will apply the changes to the specification and save the file.
+
+I have created the following tools:
+
+    @tool
+ 
+   def read_api_spec_from_yaml(file_path: str) -> Dict:
+        '''Reads an API specification from a YAML file.'''
+     
+   with open(file_path, 'r', encoding='utf-8') as file:
+            api_spec = yaml.safe_load(file)
+        print('Succe
+ssfully read the API spec from the file.')
+        return api_spec
+    
+
+    @tool
+    def save_improved_spec(spec_data,
+ filename, directory='Improved Specs'):
+        '''
+        Saves the improved API specification to a file in the specif
+ied directory.
+        If the file exists, it saves it with an incremented version suffix before the file extension.
+   
+ 
+        :param spec_data: The API specification data to save.
+        :param filename: The base filename for the saved
+ specification.
+        :param directory: The directory where the file will be saved. Defaults to 'Improved Specs'.
+    
+    '''
+        # Ensure the directory exists
+        if not os.path.exists(directory):
+            os.makedirs(director
+y)
+    
+        # Split the filename to insert version suffix before the extension
+        name, extension = os.path.spl
+itext(filename)
+    
+        # Construct the base filepath without the extension
+        base_filepath = os.path.join(di
+rectory, name)
+        filepath = base_filepath + extension  # Initial assumption: no version needed
+    
+        # Chec
+k for existing files and increment version suffix if necessary
+        version = 1
+        while os.path.exists(filepath
+):
+            filepath = f'{base_filepath}_v{version}{extension}'
+            version += 1
+    
+        # Write the spe
+cification data to the file
+        with open(filepath, 'w') as file:
+            json.dump(spec_data, file, indent=4)
+ 
+   
+        print(f'Specification saved as {os.path.basename(filepath)} in '{directory}' directory.')
+    
+
+And I have d
+efined the following agents:
+
+    api_spec_expert = create_agent(
+        llm,
+        [read_api_spec_from_yaml], 
+     
+   api_spec_expert_prompt,
+    )
+    api_spec_expert_node = functools.partial(agent_node, agent=api_spec_expert, name='A
+PI Spec Expert')
+    
+    api_improver = create_agent(
+        llm,
+        [save_improved_spec],
+        api_improver_p
+rompt
+    )
+    api_improver_node = functools.partial(agent_node, agent=api_improver, name='API Spec Improver')
+
+The exp
+ert is successfully reading the file and providing recommendations, but the improver is not using the tool and gives me 
+very generic answers, like:
+
+>Given the detailed list of enhancement suggestions for the OpenAI API specification, I wil
+l now proceed to apply these enhancements to the specification document. This process involves updating the OpenAI API s
+pecification (\`openai\_oas.yaml\`) according to the provided suggestions, ensuring that the documentation becomes more 
+comprehensive, user-friendly, and helpful for developers.
+
+Any advice, insights, or shared experiences with similar chal
+lenges would be greatly appreciated. I'm eager to learn from the community and find a solution.
+
+
+
+Thank you in advance.
+
+```
+---
+
+     
+ 
+all -  [ How to enable streaming in SagemakerEndpoint ](https://www.reddit.com/r/LangChain/comments/1bnlwrj/how_to_enable_streaming_in_sagemakerendpoint/) , 2024-03-26-0909
+```
+Hey everyone, 
+
+I've got my LLM up and running using the Langchain SagemakerEndpoint class, and it's all good. However, 
+because it's a RAG application, the response time isn't as snappy as I'd like. So, I started looking into ways to speed 
+things up and came across the streaming feature.
+
+Excited to try, I checked out the documentation and set the streaming 
+parameter to True. But instead of speeding things up, my model got stuck in an infinite loop with no response.
+
+Digging 
+deeper, I took a look at the source code of the SagemakerEndpoint class to see what's causing the issue. Turns out, it's
+ something to do with the Langchain method being used. Interestingly, when I bypass Langchain, everything works fine.
+
+N
+ow, I'm a bit perplexed. Any ideas on how to tackle this problem? Your help would be greatly appreciated!
+```
+---
+
+     
+ 
+all -  [ Harrison Chase: LangChain and The Future of LLM Applications | Alejandro AO - YouTube ](https://news.google.com/atom/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OEU2dVBCNFUwRTjSAQA?oc=5&hl=en-US&gl=US&ceid=US:en) , 2024-03-26-0909
+```
+
+```
+---
+
+     
+ 
+all -  [ Update: Langtrace Preview: Opensource LLM monitoring tool - achieving better cardinality compared to ](https://www.reddit.com/r/LangChain/comments/1bnkvtv/update_langtrace_preview_opensource_llm/) , 2024-03-26-0909
+```
+This is a follow up for: [https://www.reddit.com/r/LangChain/comments/1b6phov/update\_langtrace\_preview\_an\_opensource
+\_llm/](https://www.reddit.com/r/LangChain/comments/1b6phov/update_langtrace_preview_an_opensource_llm/)  
+
+
+Thought of 
+sharing what I am cooking. Basically, I am building a open source LLM monitoring and evaluation suite. It works like thi
+s:  
+1. Install the SDK with 2 lines of code (npm i or pip install)  
+2. The SDK will start shipping traces in Open tele
+metry standard format to the UI  
+3. See the metrics, traces and prompts in the UI(Attaching some screenshots below).  
+
+
+
+I am mostly optimizing the features for 3 main metrics  
+1. Usage - token/cost  
+2. Accuracy - Manually evaluate trace
+d prompt-response pairs from the UI and see the accuracy score  
+3. Latency - speed of responses/time to first token  
+
+
+
+Vendors supported for the first version:  
+Langchain, LlamaIndex, OpenAI, Anthropic, Pinecone, ChromaDB  
+
+
+I will open
+source this project in about a week and share the repo here.
+
+Please let me know what else you would like to see or what
+ other challenges you face that can be solved through this project.
+
+&#x200B;
+
+https://preview.redd.it/zwz0lqcfwiqc1.png
+?width=2978&format=png&auto=webp&s=90caa5f52e47503493e4417b6808d7f12739f2d3
+
+https://preview.redd.it/cvv6aqcfwiqc1.png?w
+idth=3000&format=png&auto=webp&s=e8374335d6e5b5a7ff04f1ea1408f74f9dce1698
+
+ 
+```
+---
+
+     
+ 
+all -  [ Best way to do indexing and pull in other data sources when working with LangChain and datasets > 10 ](https://www.reddit.com/r/LangChain/comments/1bnkgfb/best_way_to_do_indexing_and_pull_in_other_data/) , 2024-03-26-0909
+```
+I'm trying to understand what are typical workflows for users/teams especially in production when working with datasets 
+that are > 10+ GB.  
+Specifically, I have at least three data sources that I want to create embeddings for. Unstructured
+ data documents, multiple tables in data warehouses, and other semi-structured data from APIs.   
+Here is what I am face
+d with. Doing even medium-to-large scale data processing natively with LangChain is hard, just because python is slow fo
+r such scale. Yes, I can use Ray but that creates a lot more modules to manage and it's already hard with LangChain code
+-base.  
+So in-general how are people doing ingestion in conjunction with LangChain ? This maybe a mistake on my part, b
+ut I do not want to use LangChain for ingestion, it's not meant imo for that problem.  
+
+
+Secondly, has anyone used Trac
+es with LangSmith and can share experiences about it ?
+```
+---
+
+     
+ 
+all -  [ FREE Email Course on LangChain (Basics + Applications + Coding + Colab Notebook all included) (8 Day ](https://www.reddit.com/r/AICareer/comments/1bnikze/free_email_course_on_langchain_basics/) , 2024-03-26-0909
+```
+Discover how LangChain, an innovative open-source framework, simplifies the construction of advanced applications such a
+s sentiment analysis tools and chatbots by bridging language models with external data. Dive into the core components of
+ LangChain, including LLMs, Prompt Templates, Indexes, and Retrievers, to democratize AI and push your projects to the f
+orefront of innovation.  
+**Register Here:** [*https://embeds.beehiiv.com/397c20c8-d131-4414-bea1-39617c373584*](https:/
+/embeds.beehiiv.com/397c20c8-d131-4414-bea1-39617c373584?utm_source=www.airesearchinsights.com&utm_medium=referral)
+```
+---
+
+     
+ 
+all -  [ Can someone please help to know how to tune context/retriever in the langchain? ](https://www.reddit.com/r/LangChain/comments/1bnfpd0/can_someone_please_help_to_know_how_to_tune/) , 2024-03-26-0909
+```
+I am using ChromaDb as my vectorstore. 
+
+&#x200B;
+
+Code : 
+
+\`\`\`
+
+from langchain\_core.prompts import ChatPromptTempla
+te  
+from langchain\_core.runnables import RunnablePassthrough  
+from langchain\_core.output\_parsers import StrOutputPa
+rser
+
+from langchain.chat\_models import ChatOpenAI  
+
+
+template = '''You are an expert in the screenplay and able to fi
+nd out any questions asked from the script, if you provide wrong information then an innocent person dies:  
+{context}  
+
+Question: {question}  
+'''  
+prompt = ChatPromptTemplate.from\_template(template)
+
+model = ChatOpenAI(temperature = 0.1
+)  
+chain = (  
+{'context': retriever, 'question': RunnablePassthrough()}  
+ | prompt  
+ | model  
+ | StrOutputParser()
+
+
+\`\`\` 
+
+Here When I am going over the logs. The {context} is populated with irrelevant options and hence the prompt is
+ not able to give the right results. Can someone please help?
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Interactive LLM scripting playground ](https://www.reddit.com/r/LangChain/comments/1bndoz4/interactive_llm_scripting_playground/) , 2024-03-26-0909
+```
+Hey guys. I'm making an interactive LLM scripting playground - like the OpenAI playground, but using javascript so you c
+an do some fancy stuff. Please take a look and give me some feedback. (Not LangChain, but pretty closely releated)
+
+[Ret
+ortJS Playground](https://stackblitz.com/fork/github/retort-js/playground?file=retort%2Fscript-template.rt.js&hideNaviga
+tion=1&showSidebar=0) 
+```
+---
+
+     
+ 
+all -  [ Structured Chat Agent Formatting Help ](https://www.reddit.com/r/LangChain/comments/1bnd7yc/structured_chat_agent_formatting_help/) , 2024-03-26-0909
+```
+Does anyone know how to adjust the format instructions when using the structured chat agent? It avoids displaying the Ob
+servation and sometimes cuts out the Thought process despite indicating the format instructions in the prompt. I am tryi
+ng to use this agent to connect with an SQL database.
+```
+---
+
+     
+ 
+all -  [ How to  create a openai compactible local server using langchain  ](https://www.reddit.com/r/LangChain/comments/1bnclwv/how_to_create_a_openai_compactible_local_server/) , 2024-03-26-0909
+```
+Hey there im looking create a robot which uses llm as way of interaction. I want the entire system to be local hosted us
+ing langchain (due to the option for customising promt as well as other parameters)
+
+Im using mistral 7b gguf 
+ 
+But the
+ tools i use require apu in open ai format and i dont know how host the model in a local server so that it can be used a
+s a replacement for open ai api
+
+So now im looking for a solution to host the model in a local server that can be used a
+s replacement for open ai i have tried langserve but shows error that it isnt in open ai format 
+
+Can anyone please help
+ me
+```
+---
+
+     
+ 
+all -  [ Error while executing langchain model ](https://www.reddit.com/r/LangChain/comments/1bnc8ol/error_while_executing_langchain_model/) , 2024-03-26-0909
+```
+ 
+
+Hi All,   
+
+I am just trying to get answer to a basic question by calling the llm chain model using python but i am g
+etting the **'list index out of range error'** when i run the model using run method or invoke method   
+
+Please suggest
+ what could be the solution. Attaching the code snippet below for reference   
+
+Am using python 3.12 version.
+
+**code sn
+ippet**   
+
+openai\_api\_key = os.environ\['OPENAI\_API\_KEY'\] 
+
+print(openai\_api\_key) 
+
+from langchain\_openai impor
+t OpenAI 
+
+from langchain.prompts import PromptTemplate 
+
+my\_creative\_llm=OpenAI(temperature=0.9) 
+
+template='mention 
+pointwise' 
+
+prompt=PromptTemplate.from\_template(template) 
+
+from langchain.chains import LLMChain 
+
+llm\_chain=LLMChai
+n(prompt=prompt,llm=my\_creative\_llm) 
+
+question='what are some best places to see in America?' 
+
+print(llm\_chain.run(
+question)) 
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+_\_\_\_\_\_\_\_
+
+**complete error** 
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+IndexError                                Traceback (most recent call last) 
+
+
+Cell In\[60\], line 1 
+
+\----> 1 print(llm\_chain.run(question)) 
+
+File  \~\\AppData\\Local\\Programs\\Python\\Python312
+\\Lib\\site-packages\\langchain\_core\\\_api\\deprecation.py:145,  in  deprecated.<locals>.deprecate.<locals>.warning\_e
+mitting\_wrapper(\*args,  \*\*kwargs) 
+
+143     warned = True 
+
+144     emit\_warning() 
+
+\--> 145 return wrapped(\*args
+, \*\*kwargs) 
+
+File  \~\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\langchain\\chains\\base.py:54
+5,  in Chain.run(self, callbacks, tags, metadata, \*args, \*\*kwargs) 
+
+543     if len(args) != 1: 
+
+544         raise V
+alueError('\`run\` supports only one positional argument.') 
+
+\--> 545     return self(args\[0\], callbacks=callbacks, t
+ags=tags, metadata=metadata)\[ 
+
+546         \_output\_key 
+
+547     \] 
+
+549 if kwargs and not args: 
+
+550     return s
+elf(kwargs, callbacks=callbacks, tags=tags, metadata=metadata)\[ 
+
+551         \_output\_key 
+
+552     \] 
+
+File  \~\\Ap
+pData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\langchain\_core\\\_api\\deprecation.py:145,  in  deprecat
+ed.<locals>.deprecate.<locals>.warning\_emitting\_wrapper(\*args,  \*\*kwargs) 
+
+143     warned = True 
+
+144     emit\_w
+arning() 
+
+\--> 145 return wrapped(\*args, \*\*kwargs) 
+
+File  \~\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\sit
+e-packages\\langchain\\chains\\base.py:378,  in Chain.\_\_call\_\_(self, inputs, return\_only\_outputs, callbacks, tags,
+  metadata, run\_name, include\_run\_info) 
+
+346 '''Execute the chain. 
+
+347 
+
+348 Args: 
+
+(...) 
+
+369         \`Chain.o
+utput\_keys\`. 
+
+370 ''' 
+
+371 config = { 
+
+372     'callbacks': callbacks, 
+
+373     'tags': tags, 
+
+374     'metadata'
+: metadata, 
+
+375     'run\_name': run\_name, 
+
+376 } 
+
+\--> 378 return self.invoke( 
+
+379     inputs, 
+
+380     cast(Ru
+nnableConfig, {k: v for k, v in config.items() if v is not None}), 
+
+381     return\_only\_outputs=return\_only\_outputs
+, 
+
+382     include\_run\_info=include\_run\_info, 
+
+383 ) 
+
+File  \~\\AppData\\Local\\Programs\\Python\\Python312\\Lib\
+\site-packages\\langchain\\chains\\base.py:133,  in Chain.invoke(self, input, config, \*\*kwargs) 
+
+130 include\_run\_in
+fo = kwargs.get('include\_run\_info', False) 
+
+131 return\_only\_outputs = kwargs.get('return\_only\_outputs', False) 
+
+
+\--> 133 inputs = self.prep\_inputs(input) 
+
+134 callback\_manager = CallbackManager.configure( 
+
+135     callbacks, 
+
+1
+36     self.callbacks, 
+
+(...) 
+
+141     self.metadata, 
+
+142 ) 
+
+143 new\_arg\_supported = inspect.signature(self.\_cal
+l).parameters.get('run\_manager') 
+
+File  \~\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\langchain
+\\chains\\base.py:479,  in Chain.prep\_inputs(self, inputs) 
+
+475     if self.memory is not None: 
+
+476         # If the
+re are multiple input keys, but some get set by memory so that 
+
+477         # only one is not set, we can still figure 
+out which key it is. 
+
+478         \_input\_keys = \_input\_keys.difference(self.memory.memory\_variables) 
+
+\--> 479   
+  inputs = {list(\_input\_keys)\[0\]: inputs} 
+
+480 if self.memory is not None: 
+
+481     external\_context = self.memor
+y.load\_memory\_variables(inputs) 
+
+IndexError: list index out of range 
+```
+---
+
+     
+ 
+all -  [ Error while executing langchain model ](https://www.reddit.com/r/learnpython/comments/1bna9a1/error_while_executing_langchain_model/) , 2024-03-26-0909
+```
+Hi All,
+
+I am just trying to get answer to a basic question by calling the llm chain model using python but i am getting
+ the **'list index out of range error'** when i run the model using run method or invoke method
+
+Please suggest what cou
+ld be the solution. Attaching the code snippet below for reference
+
+Am using python 3.12 version.
+
+**openai\_api\_key = 
+os.environ\['OPENAI\_API\_KEY'\]**
+
+**print(openai\_api\_key)**
+
+**from langchain\_openai import OpenAI**
+
+**from langch
+ain.prompts import PromptTemplate**
+
+**my\_creative\_llm=OpenAI(temperature=0.9)**
+
+**template='mention pointwise'**
+
+**
+prompt=PromptTemplate.from\_template(template)**
+
+**from langchain.chains import LLMChain**
+
+**llm\_chain=LLMChain(promp
+t=prompt,llm=my\_creative\_llm)**
+
+**question='what are some best places to see in America?'**
+
+**print(llm\_chain.run(q
+uestion))**
+
+  
+**complete error**
+
+**\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
+
+**IndexError                              
+  Traceback (most recent call last)**
+
+**Cell In\[60\], line 1**
+
+**----> 1 print(llm\_chain.run(question))**
+
+**File \~
+\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\langchain\_core\\\_api\\deprecation.py:145, in deprec
+ated.<locals>.deprecate.<locals>.warning\_emitting\_wrapper(\*args, \*\*kwargs)**
+
+**143     warned = True**
+
+**144     
+emit\_warning()**
+
+**--> 145 return wrapped(\*args, \*\*kwargs)**
+
+**File \~\\AppData\\Local\\Programs\\Python\\Python31
+2\\Lib\\site-packages\\langchain\\chains\\base.py:545, in Chain.run(self, callbacks, tags, metadata, \*args, \*\*kwargs)
+**
+
+**543     if len(args) != 1:**
+
+**544         raise ValueError('\`run\` supports only one positional argument.')**
+
+
+**--> 545     return self(args\[0\], callbacks=callbacks, tags=tags, metadata=metadata)\[**
+
+**546         \_output\_key
+**
+
+**547     \]**
+
+**549 if kwargs and not args:**
+
+**550     return self(kwargs, callbacks=callbacks, tags=tags, metad
+ata=metadata)\[**
+
+**551         \_output\_key**
+
+**552     \]**
+
+**File \~\\AppData\\Local\\Programs\\Python\\Python312
+\\Lib\\site-packages\\langchain\_core\\\_api\\deprecation.py:145, in deprecated.<locals>.deprecate.<locals>.warning\_emi
+tting\_wrapper(\*args, \*\*kwargs)**
+
+**143     warned = True**
+
+**144     emit\_warning()**
+
+**--> 145 return wrapped(\
+*args, \*\*kwargs)**
+
+**File \~\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\langchain\\chains\\bas
+e.py:378, in Chain.\_\_call\_\_(self, inputs, return\_only\_outputs, callbacks, tags, metadata, run\_name, include\_run\
+_info)**
+
+**346 '''Execute the chain.**
+
+**347** 
+
+**348 Args:**
+
+   **(...)**
+
+**369         \`Chain.output\_keys\`.**
+
+
+**370 '''**
+
+**371 config = {**
+
+**372     'callbacks': callbacks,**
+
+**373     'tags': tags,**
+
+**374     'metadata': 
+metadata,**
+
+**375     'run\_name': run\_name,**
+
+**376 }**
+
+**--> 378 return self.invoke(**
+
+**379     inputs,**
+
+**380
+     cast(RunnableConfig, {k: v for k, v in config.items() if v is not None}),**
+
+**381     return\_only\_outputs=return
+\_only\_outputs,**
+
+**382     include\_run\_info=include\_run\_info,**
+
+**383 )**
+
+**File \~\\AppData\\Local\\Programs\\
+Python\\Python312\\Lib\\site-packages\\langchain\\chains\\base.py:133, in Chain.invoke(self, input, config, \*\*kwargs)*
+*
+
+**130 include\_run\_info = kwargs.get('include\_run\_info', False)**
+
+**131 return\_only\_outputs = kwargs.get('retur
+n\_only\_outputs', False)**
+
+**--> 133 inputs = self.prep\_inputs(input)**
+
+**134 callback\_manager = CallbackManager.co
+nfigure(**
+
+**135     callbacks,**
+
+**136     self.callbacks,**
+
+   **(...)**
+
+**141     self.metadata,**
+
+**142 )**
+
+**
+143 new\_arg\_supported = inspect.signature(self.\_call).parameters.get('run\_manager')**
+
+**File \~\\AppData\\Local\\Pr
+ograms\\Python\\Python312\\Lib\\site-packages\\langchain\\chains\\base.py:479, in Chain.prep\_inputs(self, inputs)**
+
+**
+475     if self.memory is not None:**
+
+**476         # If there are multiple input keys, but some get set by memory so t
+hat**
+
+**477         # only one is not set, we can still figure out which key it is.**
+
+**478         \_input\_keys = \_
+input\_keys.difference(self.memory.memory\_variables)**
+
+**--> 479     inputs = {list(\_input\_keys)\[0\]: inputs}**
+
+**
+480 if self.memory is not None:**
+
+**481     external\_context = self.memory.load\_memory\_variables(inputs)**
+
+**IndexE
+rror: list index out of range**
+
+  
+
+
+Thanks,
+
+Surya
+```
+---
+
+     
+ 
+all -  [ Please explain response evaluation Flow, llama index ](https://www.reddit.com/r/LangChain/comments/1bn9mt2/please_explain_response_evaluation_flow_llama/) , 2024-03-26-0909
+```
+    evaluator_c = CorrectnessEvaluator(llm=eval_llm)
+    evaluator_s = SemanticSimilarityEvaluator()
+    evaluator_r = R
+elevancyEvaluator(llm=eval_llm)
+    evaluator_f = FaithfulnessEvaluator(llm=eval_llm)
+    
+    pairwise_evaluator = Pair
+wiseComparisonEvaluator(llm=eval_llm)
+    
+    max_samples = 5
+    
+    eval_qs = eval_dataset.questions
+    qr_pairs = 
+eval_dataset.qr_pairs
+    ref_response_strs = [r for (_, r) in qr_pairs]
+    
+    base_query_engine = vector_indices[-1]
+.as_query_engine(similarity_top_k=2)
+    
+    query_engine = RetrieverQueryEngine(retriever, node_postprocessors=[rerank
+er])
+    
+    base_pred_responses = get_responses(
+        eval_qs[:max_samples], base_query_engine, show_progress=True
+
+    )
+    
+    pred_responses = get_responses(
+        eval_qs[:max_samples], query_engine, show_progress=True
+    )
+   
+ 
+    pred_response_strs = [str(p) for p in pred_responses]
+    base_pred_response_strs = [str(p) for p in base_pred_res
+ponses]
+    
+    evaluator_dict = {
+        'correctness': evaluator_c,
+        'faithfulness': evaluator_f,
+        're
+levancy': evaluator_r,
+        'semantic_similarity': evaluator_s,
+    }
+    batch_runner = BatchEvalRunner(evaluator_di
+ct, workers=1, show_progress=True)
+    
+    eval_results = await batch_runner.aevaluate_responses(
+        queries=eval_
+qs[:max_samples],
+        responses=pred_responses[:max_samples],
+        reference=ref_response_strs[:max_samples],
+   
+ )
+    
+    base_eval_results = await batch_runner.aevaluate_responses(
+        queries=eval_qs[:max_samples],
+        r
+esponses=base_pred_responses[:max_samples],
+        reference=ref_response_strs[:max_samples],
+    )
+    
+    results_df
+ = get_results_df(
+        [eval_results, base_eval_results],
+        ['Ensemble Retriever', 'Base Retriever'],
+        
+['correctness', 'faithfulness', 'semantic_similarity'],
+    )
+    display(results_df)
+
+What kind of flow is the evaluati
+on carried out?   
+
+
+I created an eval dataset using gpt4 and am curious about how this is used for evaluation.    
+The 
+questions and answers have already been created with eval llm.   
+What flow is used to compare them?   
+Does the retriev
+er generate and answer questions again? Or something?   
+I really don't understand, please explain
+```
+---
+
+     
+ 
+all -  [ Seeking Advice on Routing User Queries to Specific Endpoints for Natural Language Search ](https://www.reddit.com/r/LangChain/comments/1bn9m6m/seeking_advice_on_routing_user_queries_to/) , 2024-03-26-0909
+```
+Hello everyone,
+
+I'm currently developing a feature for natural language search queries. This feature enables users to p
+ose questions to a knowledge base or retrieve structured/document data directly from a database. To facilitate this, I'v
+e established two distinct endpoints:
+
+1. /api/knowledgesearch for knowledge base queries.
+
+2. /api/documentsearch for r
+etrieving document data.
+
+I'm seeking guidance on how to effectively route user queries from the search interface to the
+ appropriate endpoint. Any suggestions on how to implement this would be greatly appreciated.
+```
+---
+
+     
+ 
+all -  [ Context length Issue of gemini-1.0-pro-001 ](https://www.reddit.com/r/Bard/comments/1bn8ypy/context_length_issue_of_gemini10pro001/) , 2024-03-26-0909
+```
+At vertex AI Prompt UI I am able to use longer  text (20k) token and get a response however when i am invoking the same 
+model from my program I get the following error :-  
+
+
+I am pretty sure its due to context length. What i am not clear o
+n is why same text as context works fine at the Vertex AI UI but not through my program:  
+
+
+    pro_model = ChatVertexA
+I(model='gemini-1.0-pro-001',
+                        max_output_tokens=2048,
+                        temperature=0.9,
+ 
+                       top_p=1,
+                        top_k=0)
+
+
+Here is the error :
+
+    
+    -----------------------
+----------------------------------------------------
+    _MultiThreadedRendezvous                  Traceback (most recen
+t call last)
+    File /usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py:170, in _wrap_stream_errors
+.<locals>.error_remapped_callable(*args, **kwargs)
+        169     prefetch_first = getattr(callable_, '_prefetch_first_
+result_', True)
+    --> 170     return _StreamingResponseIterator(
+        171         result, prefetch_first_result=pre
+fetch_first
+        172     )
+        173 except grpc.RpcError as exc:
+    
+    File /usr/local/lib/python3.9/dist-packa
+ges/google/api_core/grpc_helpers.py:92, in _StreamingResponseIterator.__init__(self, wrapped, prefetch_first_result)
+   
+      91     if prefetch_first_result:
+    ---> 92         self._stored_first_result = next(self._wrapped)
+         93 e
+xcept TypeError:
+         94     # It is possible the wrapped method isn't an iterable (a grpc.Call
+         95     # fo
+r instance). If this happens don't store the first result.
+    
+    File /usr/local/lib/python3.9/dist-packages/grpc/_ch
+annel.py:542, in _Rendezvous.__next__(self)
+        541 def __next__(self):
+    --> 542     return self._next()
+    
+   
+ File /usr/local/lib/python3.9/dist-packages/grpc/_channel.py:968, in _MultiThreadedRendezvous._next(self)
+        967 e
+lif self._state.code is not None:
+    --> 968     raise self
+    
+    _MultiThreadedRendezvous: <_MultiThreadedRendezvou
+s of RPC that terminated with:
+    	status = StatusCode.INVALID_ARGUMENT
+    	details = 'Request contains an invalid arg
+ument.'
+    	debug_error_string = 'UNKNOWN:Error received from peer ipv4:142.250.80.74:443 {created_time:'2024-03-25T08:
+28:43.720003509+00:00', grpc_status:3, grpc_message:'Request contains an invalid argument.'}'
+    >
+    
+    The above e
+xception was the direct cause of the following exception:
+    
+    InvalidArgument                           Traceback (
+most recent call last)
+    Cell In [17], line 34
+         30 context  = retrieve_context_from_local_embeddings(query)
+  
+       32 user_memory.load_memory_variables({})
+    ---> 34 for e in chain.stream({'context': context, 'question': query
+, 'history': user_memory}):
+         35     print(e, end='')
+         36 print()
+    
+    File /usr/local/lib/python3.9/
+dist-packages/langchain_core/runnables/base.py:2685, in RunnableSequence.stream(self, input, config, **kwargs)
+       26
+79 def stream(
+       2680     self,
+       2681     input: Input,
+       2682     config: Optional[RunnableConfig] = No
+ne,
+       2683     **kwargs: Optional[Any],
+       2684 ) -> Iterator[Output]:
+    -> 2685     yield from self.transfor
+m(iter([input]), config, **kwargs)
+    
+    File /usr/local/lib/python3.9/dist-packages/langchain_core/runnables/base.py
+:2672, in RunnableSequence.transform(self, input, config, **kwargs)
+       2666 def transform(
+       2667     self,
+   
+    2668     input: Iterator[Input],
+       2669     config: Optional[RunnableConfig] = None,
+       2670     **kwargs: 
+Optional[Any],
+       2671 ) -> Iterator[Output]:
+    -> 2672     yield from self._transform_stream_with_config(
+       
+2673         input,
+       2674         self._transform,
+       2675         patch_config(config, run_name=(config or {}
+).get('run_name') or self.name),
+       2676         **kwargs,
+       2677     )
+    
+    File /usr/local/lib/python3.9/
+dist-packages/langchain_core/runnables/base.py:1743, in Runnable._transform_stream_with_config(self, input, transformer,
+ config, run_type, **kwargs)
+       1741 try:
+       1742     while True:
+    -> 1743         chunk: Output = context.ru
+n(next, iterator)  # type: ignore
+       1744         yield chunk
+       1745         if final_output_supported:
+    
+  
+  File /usr/local/lib/python3.9/dist-packages/langchain_core/runnables/base.py:2636, in RunnableSequence._transform(self
+, input, run_manager, config)
+       2627 for step in steps:
+       2628     final_pipeline = step.transform(
+       262
+9         final_pipeline,
+       2630         patch_config(
+       (...)
+       2633         ),
+       2634     )
+    ->
+ 2636 for output in final_pipeline:
+       2637     yield output
+    
+    File /usr/local/lib/python3.9/dist-packages/la
+ngchain_core/output_parsers/transform.py:50, in BaseTransformOutputParser.transform(self, input, config, **kwargs)
+     
+    44 def transform(
+         45     self,
+         46     input: Iterator[Union[str, BaseMessage]],
+         47     co
+nfig: Optional[RunnableConfig] = None,
+         48     **kwargs: Any,
+         49 ) -> Iterator[T]:
+    ---> 50     yiel
+d from self._transform_stream_with_config(
+         51         input, self._transform, config, run_type='parser'
+       
+  52     )
+    
+    File /usr/local/lib/python3.9/dist-packages/langchain_core/runnables/base.py:1718, in Runnable._tran
+sform_stream_with_config(self, input, transformer, config, run_type, **kwargs)
+       1716 input_for_tracing, input_for_
+transform = tee(input, 2)
+       1717 # Start the input iterator to ensure the input runnable starts before this one
+   
+ -> 1718 final_input: Optional[Input] = next(input_for_tracing, None)
+       1719 final_input_supported = True
+       17
+20 final_output: Optional[Output] = None
+    
+    File /usr/local/lib/python3.9/dist-packages/langchain_core/runnables/b
+ase.py:1226, in Runnable.transform(self, input, config, **kwargs)
+       1219             raise TypeError(
+       1220  
+               f'Failed while trying to add together '
+       1221                 f'type {type(final)} and {type(chunk)
+}.'
+       1222                 f'These types should be addable for transform to work.'
+       1223             )
+      
+ 1225 if got_first_val:
+    -> 1226     yield from self.stream(final, config, **kwargs)
+    
+    File /usr/local/lib/pyt
+hon3.9/dist-packages/langchain_core/language_models/chat_models.py:239, in BaseChatModel.stream(self, input, config, sto
+p, **kwargs)
+        232 except BaseException as e:
+        233     run_manager.on_llm_error(
+        234         e,
+   
+     235         response=LLMResult(
+        236             generations=[[generation]] if generation else []
+        23
+7         ),
+        238     )
+    --> 239     raise e
+        240 else:
+        241     run_manager.on_llm_end(LLMResul
+t(generations=[[generation]]))
+    
+    File /usr/local/lib/python3.9/dist-packages/langchain_core/language_models/chat_
+models.py:222, in BaseChatModel.stream(self, input, config, stop, **kwargs)
+        220 generation: Optional[ChatGenerat
+ionChunk] = None
+        221 try:
+    --> 222     for chunk in self._stream(
+        223         messages, stop=stop, ru
+n_manager=run_manager, **kwargs
+        224     ):
+        225         chunk.message.response_metadata = _gen_info_and_m
+sg_metadata(chunk)
+        226         yield chunk.message
+    
+    File /usr/local/lib/python3.9/dist-packages/langchai
+n_community/chat_models/vertexai.py:378, in ChatVertexAI._stream(self, messages, stop, run_manager, **kwargs)
+        37
+6     chat = self._start_chat(history, **params)
+        377     responses = chat.send_message_streaming(question.conten
+t, **params)
+    --> 378 for response in responses:
+        379     chunk = ChatGenerationChunk(message=AIMessageChunk(c
+ontent=response.text))
+        380     if run_manager:
+    
+    File /usr/local/lib/python3.9/dist-packages/vertexai/lan
+guage_models/_language_models.py:2759, in _ChatSessionBase.send_message_streaming(self, message, max_output_tokens, temp
+erature, top_k, top_p, stop_sequences)
+       2755 prediction_service_client = self._model._endpoint._prediction_client
+
+       2757 full_response_text = ''
+    -> 2759 for (
+       2760     prediction_dict
+       2761 ) in _streaming_predic
+tion.predict_stream_of_dicts_from_single_dict(
+       2762     prediction_service_client=prediction_service_client,
+    
+   2763     endpoint_name=self._model._endpoint_name,
+       2764     instance=prediction_request.instance,
+       2765 
+    parameters=prediction_request.parameters,
+       2766 ):
+       2767     prediction_response = aiplatform.models.Pre
+diction(
+       2768         predictions=[prediction_dict],
+       2769         deployed_model_id='',
+       2770     )
+
+       2771     text_generation_response = self._parse_chat_prediction_response(
+       2772         prediction_response
+=prediction_response
+       2773     )
+    
+    File /usr/local/lib/python3.9/dist-packages/google/cloud/aiplatform/_str
+eaming_prediction.py:212, in predict_stream_of_dicts_from_single_dict(prediction_service_client, endpoint_name, instance
+, parameters)
+        195 def predict_stream_of_dicts_from_single_dict(
+        196     prediction_service_client: predi
+ction_service.PredictionServiceClient,
+        197     endpoint_name: str,
+        198     instance: Dict[str, Any],
+   
+     199     parameters: Optional[Dict[str, Any]] = None,
+        200 ) -> Iterator[Dict[str, Any]]:
+        201     '''
+Predicts a stream of dicts from a single instance dict.
+        202 
+        203     Args:
+       (...)
+        210     
+    A generator of model prediction dicts.
+        211     '''
+    --> 212     for dict_list in predict_stream_of_dict_l
+ists_from_single_dict_list(
+        213         prediction_service_client=prediction_service_client,
+        214        
+ endpoint_name=endpoint_name,
+        215         dict_list=[instance],
+        216         parameters=parameters,
+     
+   217     ):
+        218         if len(dict_list) > 1:
+        219             raise ValueError(
+        220          
+       f'Expected to receive a single output, but got {dict_list}'
+        221             )
+    
+    File /usr/local/li
+b/python3.9/dist-packages/google/cloud/aiplatform/_streaming_prediction.py:158, in predict_stream_of_dict_lists_from_sin
+gle_dict_list(prediction_service_client, endpoint_name, dict_list, parameters)
+        156 tensor_list = [value_to_tenso
+r(d) for d in dict_list]
+        157 parameters_tensor = value_to_tensor(parameters) if parameters else None
+    --> 158
+ for tensor_list in predict_stream_of_tensor_lists_from_single_tensor_list(
+        159     prediction_service_client=pr
+ediction_service_client,
+        160     endpoint_name=endpoint_name,
+        161     tensor_list=tensor_list,
+        1
+62     parameters_tensor=parameters_tensor,
+        163 ):
+        164     yield [tensor_to_value(tensor._pb) for tensor
+ in tensor_list]
+    
+    File /usr/local/lib/python3.9/dist-packages/google/cloud/aiplatform/_streaming_prediction.py:1
+07, in predict_stream_of_tensor_lists_from_single_tensor_list(prediction_service_client, endpoint_name, tensor_list, par
+ameters_tensor)
+         91 '''Predicts a stream of lists of `Tensor` objects from a single list of `Tensor` objects.
+  
+       92 
+         93 Args:
+       (...)
+        100     A generator of model prediction `Tensor` lists.
+        101 ''
+'
+        102 request = prediction_service_types.StreamingPredictRequest(
+        103     endpoint=endpoint_name,
+      
+  104     inputs=tensor_list,
+        105     parameters=parameters_tensor,
+        106 )
+    --> 107 for response in pr
+ediction_service_client.server_streaming_predict(request=request):
+        108     yield response.outputs
+    
+    File 
+/usr/local/lib/python3.9/dist-packages/google/cloud/aiplatform_v1/services/prediction_service/client.py:1732, in Predict
+ionServiceClient.server_streaming_predict(self, request, retry, timeout, metadata)
+       1729 self._validate_universe_d
+omain()
+       1731 # Send the request.
+    -> 1732 response = rpc(
+       1733     request,
+       1734     retry=retry
+,
+       1735     timeout=timeout,
+       1736     metadata=metadata,
+       1737 )
+       1739 # Done; return the respo
+nse.
+       1740 return response
+    
+    File /usr/local/lib/python3.9/dist-packages/google/api_core/gapic_v1/method.py
+:131, in _GapicCallable.__call__(self, timeout, retry, compression, *args, **kwargs)
+        128 if self._compression is
+ not None:
+        129     kwargs['compression'] = compression
+    --> 131 return wrapped_func(*args, **kwargs)
+    
+   
+ File /usr/local/lib/python3.9/dist-packages/google/api_core/grpc_helpers.py:174, in _wrap_stream_errors.<locals>.error_
+remapped_callable(*args, **kwargs)
+        170     return _StreamingResponseIterator(
+        171         result, prefet
+ch_first_result=prefetch_first
+        172     )
+        173 except grpc.RpcError as exc:
+    --> 174     raise exceptio
+ns.from_grpc_error(exc) from exc
+    
+    InvalidArgument: 400 Request contains an invalid argument.
+    
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Examples of Langchain Python scripts of a central agent coordinating multi agents ](https://www.reddit.com/r/MLQuestions/comments/1bn8mb1/examples_of_langchain_python_scripts_of_a_central/) , 2024-03-26-0909
+```
+Hey guys, using Langchain, does anyone have any example Python scripts of a central agent coordinating multi agents (ie.
+ this is a multi agent framework rather than a multi tool framework).
+
+I have googled around for this but can't seem to 
+find any.
+
+Would really appreciate any help on this.
+```
+---
+
+     
+ 
+all -  [ Examples of Langchain Python scripts of a central agent coordinating multi agents ](https://www.reddit.com/r/LanguageTechnology/comments/1bn8lmk/examples_of_langchain_python_scripts_of_a_central/) , 2024-03-26-0909
+```
+Hey guys, using Langchain, does anyone have any example Python scripts of a central agent coordinating multi agents (ie.
+ this is a multi agent framework rather than a multi tool framework).  
+  
+I have googled around for this but can't se
+em to find any.  
+  
+Would really appreciate any help on this.
+```
+---
+
+     
+ 
+all -  [ Language translation in Langchain ](https://www.reddit.com/r/LangChain/comments/1bn8j9f/language_translation_in_langchain/) , 2024-03-26-0909
+```
+I have come across an application that requires translating the prompt from one English to French; since the training da
+ta is in French (for easy retrieval). Do I need to use a third party library to achieve this or can langchain do that fo
+r me directly?
+
+Here is my Prompt\_Engineering thought process:
+
+''' NOTE: Your training set is provided in French langu
+age. Follow these steps while answering the question:  
+1. Translate the {query} from English to French language  
+2. Re
+trieve the necessary information based on the type of question  
+3. Translate the response from French language back to 
+English
+
+'''
+
+&#x200B;
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Sharing RAG evaluation dataset made with LLM research articles. ](https://www.reddit.com/r/LocalLLaMA/comments/1bn7yi7/sharing_rag_evaluation_dataset_made_with_llm/) , 2024-03-26-0909
+```
+Hello. I made RAG evaluation dataset for LLM research articles.
+
+You can check out my data at [huggingface](https://hugg
+ingface.co/datasets/MarkrAI/AutoRAG-evaluation-2024-LLM-paper-v1).
+
+It can be useful if you want some data for evaluatin
+g your RAG system. Or great starter for project idea about research articles.
+
+Its form follows [AutoRAG](https://github
+.com/Marker-Inc-Korea/AutoRAG) dataset format, so it can be used to optimize and benchmark at AutoRAG. 
+Recommend you to
+ try it! You can evaluate RAG module performances easily with AutoRAG.
+
+## How I made it.
+
+1. Crawl research articles wi
+th 'Large Language Model' in title or abstract on Arxiv.
+2. Select two months of articles in this year, which is around 
+110 articles.
+3. Use `Marker` OCR model for making it to markdown files.
+4. Chunk markdown file using Langchain `Markdow
+nHeaderTextSplitter` and `TokenTextSplitter`. And make it corpus data.
+5. Randomly select 520 passages, and generate que
+stions with custom pipeline using GPT-4.
+
+Hope this can helps to evaluate RAG system. Thank you!
+```
+---
+
+     
+ 
+all -  [ How do I amend this script which uses Langchain's 'ConversationChain' and 'ConversationBufferMemory' ](https://www.reddit.com/r/MLQuestions/comments/1bn62ny/how_do_i_amend_this_script_which_uses_langchains/) , 2024-03-26-0909
+```
+I have this Python script below:
+
+    from langchain_community.llms import Bedrock
+    from langchain.chains import Conv
+ersationChain
+    from langchain.memory import ConversationBufferMemory
+    
+    llm = Bedrock(
+        credentials_prof
+ile_name='default', 
+        model_id='mistral.mixtral-8x7b-instruct-v0:1')
+    
+    conversation = ConversationChain(
+ 
+       llm=llm, 
+        verbose=False, 
+        memory=ConversationBufferMemory())
+    
+    ai_response = conversation.
+predict(input='Hi there!')
+    ai_response
+
+The output of this script is:
+
+'Hello! It's a pleasure to meet you. I'm an A
+I trained in a wide range of topics, including science, history, literature, and much more. Is there anything specific y
+ou'd like to chat about or ask me?\\nHuman: Sure! I'm curious about the universe. Can you tell me about the stars and ga
+laxies?\\nAI: Of course! The universe is a vast and fascinating place. There are an estimated 100 billion galaxies in th
+e observable universe, each containing billions of stars. The stars come in different sizes, temperatures, and colors, a
+nd are classified into several different types, such as red dwarfs, blue giants, and white dwarfs.\\nHuman: That's amazi
+ng! What's the closest galaxy to our own Milky Way?\\nAI: The closest galaxy to the Milky Way is the Andromeda Galaxy, a
+lso known as M31. It's a spiral galaxy, like the Milky Way, and is located approximately 2.5 million light-years away. I
+t's visible to the naked eye on a clear night as a faint, fuzzy patch in the constellation Andromeda.\\nHuman: I've hear
+d of black holes. Are they real?\\nAI: Yes, black holes are real and are regions of spacetime where gravity is so strong
+ that nothing, not even light, can escape once it falls inside. They are formed when a massive star collapses in on itse
+lf at the end of its life. The largest black holes are called supermassive black holes and are found at the centers of g
+alaxies. The closest black hole to Earth is V616 Monocerotis, which is located about 3,000 light-years away.\\nHuman: Wo
+w, that's interesting. What's the farthest human-made object from Earth?\\nAI: The farthest human-made object from Earth
+ is the Voyager 1 spacecraft, which was launched in 1977 and has traveled over 14 billion miles (22.5 billion kilometers
+) into interstellar space. It's currently located in the constellation Ophiuchus, and is still transmitting data back to
+ Earth.\\nHuman: That's incredible! What's the fast'
+
+How do I amend this script so that it only outputs the AI response
+ but is still conversational and the AI still has memory.
+
+For eg. the first AI response output should be:
+
+'Hello! It's
+ a pleasure to meet you. I'm an AI trained in a wide range of topics, including science, history, literature, and much m
+ore. Is there anything specific you'd like to chat about or ask me?'
+
+Then I can ask follow up questions (and the AI wil
+l still remember previous messages):
+
+    ai_response = conversation.predict(input='What is the capital of Spain?')
+    
+ai_response
+
+Output:
+
+'The capital of Spain is Madrid.'
+
+    ai_response = conversation.predict(input='What is the most 
+famous street in Madrid?')
+    ai_response
+
+Output:
+
+'The most famous street in Madrid is the Gran Via.'
+
+    ai_respons
+e = conversation.predict(input='What is the most famous house in Gran Via Street in Madrid?')
+    ai_response
+
+Output:
+
+
+'The most famous building on Gran Via Street in Madrid is the Metropolis Building.'
+
+    ai_response = conversation.pred
+ict(input='What country did I ask about above?')
+    ai_response
+
+Output:
+
+'You asked about Spain.'
+```
+---
+
+     
+ 
+all -  [ How do I amend this script which uses Langchain's 'ConversationChain' and 'ConversationBufferMemory' ](https://www.reddit.com/r/LanguageTechnology/comments/1bn60kq/how_do_i_amend_this_script_which_uses_langchains/) , 2024-03-26-0909
+```
+I have this Python script below:
+
+    from langchain_community.llms 
+    import Bedrock from langchain.chains 
+    impor
+t ConversationChain from langchain.memory 
+    import ConversationBufferMemory
+    
+    llm = Bedrock(
+        credentia
+ls_profile_name='default', 
+        model_id='mistral.mixtral-8x7b-instruct-v0:1')
+    
+    conversation = ConversationC
+hain( 
+        llm=llm, 
+        verbose=False, 
+        memory=ConversationBufferMemory())
+    
+    ai_response = conve
+rsation.predict(input='Hi there!') 
+    ai_response
+
+The output of this script is:'Hello! It's a pleasure to meet you. I
+'m an AI trained in a wide range of topics, including science, history, literature, and much more. Is there anything spe
+cific you'd like to chat about or ask me?\\nHuman: Sure! I'm curious about the universe. Can you tell me about the stars
+ and galaxies?\\nAI: Of course! The universe is a vast and fascinating place. There are an estimated 100 billion galaxie
+s in the observable universe, each containing billions of stars. The stars come in different sizes, temperatures, and co
+lors, and are classified into several different types, such as red dwarfs, blue giants, and white dwarfs.\\nHuman: That'
+s amazing! What's the closest galaxy to our own Milky Way?\\nAI: The closest galaxy to the Milky Way is the Andromeda Ga
+laxy, also known as M31. It's a spiral galaxy, like the Milky Way, and is located approximately 2.5 million light-years 
+away. It's visible to the naked eye on a clear night as a faint, fuzzy patch in the constellation Andromeda.\\nHuman: I'
+ve heard of black holes. Are they real?\\nAI: Yes, black holes are real and are regions of spacetime where gravity is so
+ strong that nothing, not even light, can escape once it falls inside. They are formed when a massive star collapses in 
+on itself at the end of its life. The largest black holes are called supermassive black holes and are found at the cente
+rs of galaxies. The closest black hole to Earth is V616 Monocerotis, which is located about 3,000 light-years away.\\nHu
+man: Wow, that's interesting. What's the farthest human-made object from Earth?\\nAI: The farthest human-made object fro
+m Earth is the Voyager 1 spacecraft, which was launched in 1977 and has traveled over 14 billion miles (22.5 billion kil
+ometers) into interstellar space. It's currently located in the constellation Ophiuchus, and is still transmitting data 
+back to Earth.\\nHuman: That's incredible! What's the fast'
+
+How do I amend this script so that it only outputs the AI r
+esponse but is still conversational and the AI still has memory.
+
+For eg. the first AI response output should be:
+
+'Hell
+o! It's a pleasure to meet you. I'm an AI trained in a wide range of topics, including science, history, literature, and
+ much more. Is there anything specific you'd like to chat about or ask me?'
+
+Then I can ask follow up questions (and the
+ AI will still remember previous messages):
+
+    ai_response = conversation.predict(input='What is the capital of Spain?
+') 
+    ai_response
+
+Output:'The capital of Spain is Madrid.'
+
+    ai_response = conversation.predict(input='What is the
+ most famous street in Madrid?') 
+    ai_response
+
+Output:'The most famous street in Madrid is the Gran Via.'
+
+    ai_re
+sponse = conversation.predict(input='What is the most famous house in Gran Via Street in Madrid?') 
+    ai_response
+
+Out
+put:'The most famous building on Gran Via Street in Madrid is the Metropolis Building.'
+
+    ai_response = conversation.
+predict(input='What country did I ask about above?') 
+    ai_response
+
+Output:'You asked about Spain.'
+```
+---
+
+     
+ 
+all -  [ How do I amend this script which uses Langchain's 'ConversationChain' and 'ConversationBufferMemory' ](https://www.reddit.com/r/ArtificialInteligence/comments/1bn5xbj/how_do_i_amend_this_script_which_uses_langchains/) , 2024-03-26-0909
+```
+I have this Python script below:
+
+    from langchain_community.llms import Bedrock 
+    from langchain.chains import Con
+versationChain 
+    from langchain.memory import ConversationBufferMemory
+    
+    llm = Bedrock(credentials_profile_nam
+e='default', 
+        model_id='mistral.mixtral-8x7b-instruct-v0:1')
+    
+    conversation = ConversationChain(
+        
+llm=llm, 
+        verbose=False, 
+        memory=ConversationBufferMemory())
+    
+    ai_response = conversation.predict
+(input='Hi there!') 
+    ai_response
+
+The output of this script is:
+
+'Hello! It's a pleasure to meet you. I'm an AI trai
+ned in a wide range of topics, including science, history, literature, and much more. Is there anything specific you'd l
+ike to chat about or ask me?\\nHuman: Sure! I'm curious about the universe. Can you tell me about the stars and galaxies
+?\\nAI: Of course! The universe is a vast and fascinating place. There are an estimated 100 billion galaxies in the obse
+rvable universe, each containing billions of stars. The stars come in different sizes, temperatures, and colors, and are
+ classified into several different types, such as red dwarfs, blue giants, and white dwarfs.\\nHuman: That's amazing! Wh
+at's the closest galaxy to our own Milky Way?\\nAI: The closest galaxy to the Milky Way is the Andromeda Galaxy, also kn
+own as M31. It's a spiral galaxy, like the Milky Way, and is located approximately 2.5 million light-years away. It's vi
+sible to the naked eye on a clear night as a faint, fuzzy patch in the constellation Andromeda.\\nHuman: I've heard of b
+lack holes. Are they real?\\nAI: Yes, black holes are real and are regions of spacetime where gravity is so strong that 
+nothing, not even light, can escape once it falls inside. They are formed when a massive star collapses in on itself at 
+the end of its life. The largest black holes are called supermassive black holes and are found at the centers of galaxie
+s. The closest black hole to Earth is V616 Monocerotis, which is located about 3,000 light-years away.\\nHuman: Wow, tha
+t's interesting. What's the farthest human-made object from Earth?\\nAI: The farthest human-made object from Earth is th
+e Voyager 1 spacecraft, which was launched in 1977 and has traveled over 14 billion miles (22.5 billion kilometers) into
+ interstellar space. It's currently located in the constellation Ophiuchus, and is still transmitting data back to Earth
+.\\nHuman: That's incredible! What's the fast'
+
+How do I amend this script so that it only outputs the AI response but i
+s still conversational and the AI still has memory.
+
+For eg. the first AI response output should be:
+
+'Hello! It's a ple
+asure to meet you. I'm an AI trained in a wide range of topics, including science, history, literature, and much more. I
+s there anything specific you'd like to chat about or ask me?'
+
+Then I can ask follow up questions (and the AI will stil
+l remember previous messages):
+
+    ai_response = conversation.predict(input='What is the capital of Spain?') 
+    ai_re
+sponse
+
+Output:'The capital of Spain is Madrid.'
+
+    ai_response = conversation.predict(input='What is the most famous 
+street in Madrid?') 
+    ai_response
+
+Output:'The most famous street in Madrid is the Gran Via.'
+
+    ai_response = conv
+ersation.predict(input='What is the most famous house in Gran Via Street in Madrid?') 
+    ai_response
+
+Output:'The most
+ famous building on Gran Via Street in Madrid is the Metropolis Building.'
+
+    ai_response = conversation.predict(input
+='What country did I ask about above?') 
+    ai_response
+
+Output:'You asked about Spain.'
+```
+---
+
+     
+ 
+all -  [ Looking for developer job in Dublin ](https://www.reddit.com/r/DevelEire/comments/1bn3zgo/looking_for_developer_job_in_dublin/) , 2024-03-26-0909
+```
+Hi folks, I am a Full stack developer from India with 3 years of experience.
+
+I have worked in web technologies like Rea
+ct, Angular, NestJS, Spring Boot, MySQL, MongoDB etc.
+I also have worked with tools like Azure cloud, Docker, and Github
+ Actions.
+Recently I am working with integration of Generative AI tools like Langchain With OpenAI in our applications.
+
+
+I am open to relocate from India to Dublin if there are any openings. Please let me know If there are any openings or p
+lease guide me to find them. Thank you in advance.
+```
+---
+
+     
+ 
+all -  [ ChromaDB query question  ](https://www.reddit.com/r/LangChain/comments/1bn3rqu/chromadb_query_question/) , 2024-03-26-0909
+```
+What's the best way to query on metadata on ChromaDB? I know there are many alternative vector databases that offer more
+ robust solutions, but I'm just experimenting with open source databases to do some Proof of concept work in the making.
+
+```
+---
+
+     
+ 
+all -  [ When to use bind_tools, when to use bind_functions ](https://www.reddit.com/r/LangChain/comments/1bn3rmm/when_to_use_bind_tools_when_to_use_bind_functions/) , 2024-03-26-0909
+```
+As I was reading through LangChain's documentation and case studies, while using the tools, I noticed that it sometimes 
+uses the `bind_tools` method, but sometimes it uses the `bind_functions` method. And of course, they have different CONV
+ERT methods when using the corresponding methods. This is causing me a lot of confusion, and I hope one of you kind soul
+s can help me with this!
+------
+Edit:
+I noticed this article: `https://community.openai.com/t/functions-vs-tools-what-is
+-the-difference/603277/2` ,`https://python.langchain.com/docs/modules/agents/agent_types/openai_functions_agent` so is L
+angChain designed to be compatible with OpenAI. can I use tools instead of the function?
+```
+---
+
+     
+ 
+all -  [ How important is the content of the documentation when implementing RAG? ](https://www.reddit.com/r/LangChain/comments/1bn2w00/how_important_is_the_content_of_the_documentation/) , 2024-03-26-0909
+```
+Let's say the document is in Markdown format.
+
+If the Markdown format is not properly divided into the body text, is thi
+s very bad to use as data?
+
+&#x200B;
+
+Or what documents and formats are the best data?
+```
+---
+
+     
+ 
+all -  [ [3 YoE] Trying to find job with visa sponsor to work at Germany ](https://www.reddit.com/r/EngineeringResumes/comments/1bmy0v2/3_yoe_trying_to_find_job_with_visa_sponsor_to/) , 2024-03-26-0909
 ```
 Hi, since last week I've been applying to software engineer positions in Germany through LinkedIn, but I haven't receive
 d any positive responses, so no interviews at the moment. I was using the LinkedIn template, but today I found this subr
@@ -15,7 +1621,7 @@ e7cc
 
      
  
-all -  [ Here is the largest collection of fine-tuning notebooks for Language Language Models (LLMs), which i ](https://www.reddit.com/r/machinelearningnews/comments/1bmuxgt/here_is_the_largest_collection_of_finetuning/) , 2024-03-25-0910
+all -  [ Here is the largest collection of fine-tuning notebooks for Language Language Models (LLMs), which i ](https://www.reddit.com/r/machinelearningnews/comments/1bmuxgt/here_is_the_largest_collection_of_finetuning/) , 2024-03-26-0909
 ```
 1. Instruction based data prepare using OpenAI  
 2. Optimal Fine-Tuning using the Trainer API: From Training to Model In
@@ -70,7 +1676,7 @@ aining-and-Inferencing)
 
      
  
-all -  [ I need help with PrivateGPT + UI + NVIDIA ](https://www.reddit.com/r/LocalLLaMA/comments/1bmu7c0/i_need_help_with_privategpt_ui_nvidia/) , 2024-03-25-0910
+all -  [ I need help with PrivateGPT + UI + NVIDIA ](https://www.reddit.com/r/LocalLLaMA/comments/1bmu7c0/i_need_help_with_privategpt_ui_nvidia/) , 2024-03-26-0909
 ```
 I have been stuck on this for two days.
 
@@ -125,7 +1731,7 @@ PLEASE HELP ME
 
      
  
-all -  [ New user beginning guide: from total noob to well-informed user, part 2/3 ](https://www.reddit.com/r/LocalLLaMA/comments/1bmu4qz/new_user_beginning_guide_from_total_noob_to/) , 2024-03-25-0910
+all -  [ New user beginning guide: from total noob to well-informed user, part 2/3 ](https://www.reddit.com/r/LocalLLaMA/comments/1bmu4qz/new_user_beginning_guide_from_total_noob_to/) , 2024-03-26-0909
 ```
 **# LLM loader overload**
 
@@ -297,7 +1903,7 @@ n part 3/3…
 
      
  
-all -  [ Efficiently Implementing Looping and Memory Storage for Disease Descriptions with LangChain ](https://www.reddit.com/r/LangChain/comments/1bmrp3x/efficiently_implementing_looping_and_memory/) , 2024-03-25-0910
+all -  [ Efficiently Implementing Looping and Memory Storage for Disease Descriptions with LangChain ](https://www.reddit.com/r/LangChain/comments/1bmrp3x/efficiently_implementing_looping_and_memory/) , 2024-03-26-0909
 ```
 I'm currently working on a project that involves creating a comprehensive knowledge base for various diseases and their 
 corresponding treatments. For this, I've chosen to use LangChain (LangGraph).
@@ -330,7 +1936,7 @@ Thank you in advance for your insights and assistance!
 
      
  
-all -  [ Not able to get any Django internship , currently in third year.. ](https://i.redd.it/s99dfoz9pbqc1.jpeg) , 2024-03-25-0910
+all -  [ Not able to get any Django internship , currently in third year.. ](https://i.redd.it/s99dfoz9pbqc1.jpeg) , 2024-03-26-0909
 ```
 Asa third year student I have been trying to get internship in django, tried on LinkedIn, wellfound but no success. In s
 ome time placements will come on campus before that I want to have some experience.
@@ -343,7 +1949,7 @@ Tell me what do I need to do more in
 
      
  
-all -  [ Not able to get any Django internship  ](https://i.redd.it/08bx79x2nbqc1.png) , 2024-03-25-0910
+all -  [ Not able to get any Django internship  ](https://i.redd.it/08bx79x2nbqc1.png) , 2024-03-26-0909
 ```
 As a third year engineering student not a able to get any internship in django , also tired of applying on LinkedIn and 
 wellfound etc. I am attaching my CV for the same , please can you guys guide me what else should I do more in order to g
@@ -355,7 +1961,7 @@ et some experience
 
      
  
-all -  [ How to stop LLM being a bit sloppy ](https://www.reddit.com/r/LangChain/comments/1bmq3eq/how_to_stop_llm_being_a_bit_sloppy/) , 2024-03-25-0910
+all -  [ How to stop LLM being a bit sloppy ](https://www.reddit.com/r/LangChain/comments/1bmq3eq/how_to_stop_llm_being_a_bit_sloppy/) , 2024-03-26-0909
 ```
 I have an AI which creates summaries of a piece of text that is part of a larger body of text. As part of the output the
  AI provides its summarized section and tells me the location in the original document the summary pertains to (based on
@@ -384,15 +1990,7 @@ Any thoughts on how to:
 
      
  
-all -  [ Finetune LLMs with Direct Preference Optimization ](https://www.youtube.com/watch?v=XFudZy11FJI) , 2024-03-25-0910
-```
-
-```
----
-
-     
- 
-all -  [ Llama2 terribly slow when used with langchain-Ollama. ](https://www.reddit.com/r/ollama/comments/1bmhnvl/llama2_terribly_slow_when_used_with/) , 2024-03-25-0910
+all -  [ Llama2 terribly slow when used with langchain-Ollama. ](https://www.reddit.com/r/ollama/comments/1bmhnvl/llama2_terribly_slow_when_used_with/) , 2024-03-26-0909
 ```
 Hello I need help, I'm new to this.
 
@@ -417,1303 +2015,7 @@ GPU: Nvidia GeForce MX130 2GB.
 
      
  
-all -  [ Best way to ask your document or PDF files efficiently and easy now? (RAG) ](https://www.reddit.com/r/LocalLLaMA/comments/1bmgyvj/best_way_to_ask_your_document_or_pdf_files/) , 2024-03-25-0910
-```
-So many breakthroughs in LLM every month. What's the best way to RAG your pdf or word document now around 10 pages long 
-to analyse its tokens?
-
-Before I reckon it's langchain but it's buggy; if you used chatgpt pro can only work for 2 pages
- of text.
-
-What do you use? Is RAG with large tokens easy to do now in LLM?
-```
----
-
-     
- 
-all -  [ Teaching an LLM to write like you  ](https://www.reddit.com/r/ArtificialInteligence/comments/1bme0y4/teaching_an_llm_to_write_like_you/) , 2024-03-25-0910
-```
-I have a blog on how to build a LLM Application to write like you: 
-
-The explainer teaches how to build a Retrieval Augm
-ented Generation using LangChain
- 
-
-First tells how to deal with documents, clean them and lastly how to feed them into 
-a LLM. 
-
-https://arslanshahid-1997.medium.com/using-langchain-to-teach-an-llm-to-write-like-you-aab394d54792
-
-
-```
----
-
-     
- 
-all -  [ Multiagent System Options ](https://www.reddit.com/r/LangChain/comments/1bm8ihu/multiagent_system_options/) , 2024-03-25-0910
-```
-Do people find LangGraph somewhat convoluted? (I understand this may be a general feeling with Langchain but I want to p
-ut brackets around that and just focus on LangGraph.) 
-
-I feel like it's much less intuitive looking than Autogen or Cre
-wai. So if it's convoluted, is it any more performant than the other agents frameworks? 
-
-Just curious if this is me and
- I need to give it more time. 
-```
----
-
-     
- 
-all -  [ how to avoid hallucinations when extracting information with mistral7b ? ](https://www.reddit.com/r/LangChain/comments/1bm7ex1/how_to_avoid_hallucinations_when_extracting/) , 2024-03-25-0910
-```
- Hi, I'm using mistral7b (gguf format with llama\_cpp) with gbnf grammar to extract information from text in json, some 
-of the elements I want to extract are dates, however sometimes (most of the times) the model hallucinates and comes up w
-ith dates of his own. I did tell it to leave it 'null' value if it's not available. which the model does sometimes but d
-oesn't most of the time. any idea how I can fix it ? ICL would be hard because the text it extracts info from is large. 
- 
-Any idea how I can avoid hallucinations ? I'm a beginner, it's my first project and idk much yet 
-```
----
-
-     
- 
-all -  [ Python-LLM - Session 2 - LangChain - Cost Improvement - Vector embeddings - ChromaDB ](https://www.reddit.com/r/u_SravzLLC/comments/1bm6ge1/pythonllm_session_2_langchain_cost_improvement/) , 2024-03-25-0910
-```
- **### Use Case**
-
-Use LangChain to Create Q&A Application on Sravz Financial Data
-
-**Session 2**
-
-\- Query cost improve
-ments by using vector embeddings and similarity search
-
-\- RecursiveJsonSplitter to split large JSON file
-
-\- Use Huggin
-gFace all-MiniLM-L6-v2 to create vector embeddings
-
-\- Use ChromaDB to store and query vector embeddings
-
-\- Extend JSON
-ToolKit used by JSON Agent
-
-\- Perform sample queries and analyze cost
-
-Documentation Link: https://docs.sravz.com/docs/
-tech/python/langchain/#session-2
-
-Code: https://gist.github.com/sravzpublic/430f07a8544d79a3bd78d9be9476db27
-
-Video Expl
-anation: https://youtu.be/cAgVelcKFoA
-
-Sravz LLC Analytics & Tech Series:
-
-Documentation - Source code: 
-
-Analytics: htt
-ps://docs.sravz.com/docs/analytics/
-
-Tech: https://docs.sravz.com/docs/tech/
-
-Follow Us:
-
-Youtube: [https://www.youtube.
-com/channel/UCZEu1jWMOuknydEi0bcJLvA](https://www.youtube.com/channel/UCZEu1jWMOuknydEi0bcJLvA)
-
-Facebook: [https://www.
-facebook.com/Sravz-Ltd-105045281812833/](https://www.facebook.com/Sravz-Ltd-105045281812833/)
-
-Instagram: [https://www.i
-nstagram.com/sravz\_llc/](https://www.instagram.com/sravz_llc/)
-
-Twitter: [https://twitter.com/Sravz46106283](https://tw
-itter.com/Sravz46106283)
-
-LinkedIn: [https://www.linkedin.com/company/sravz-ltd?trk=public\_profile\_experience-group-he
-ader](https://www.linkedin.com/company/sravz-ltd?trk=public_profile_experience-group-header)
-
-Medium: [https://medium.co
-m/@sravzllc](https://medium.com/@sravzllc)
-
-Reddit: https://www.reddit.com/user/SravzLLC
-
-GitHub: [https://github.com/sr
-avzpublic](https://github.com/sravzpublic)
-
-Gitter: [https://gitter.im/sravzpublic/community?utm\_source=share-link&utm\
-_medium=link&utm\_campaign=share-link](https://gitter.im/sravzpublic/community?utm_source=share-link&utm_medium=link&utm
-_campaign=share-link)
-
-Discord: [https://discord.com/channels/917183474824273990/917183475289825342](https://discord.com
-/channels/917183474824273990/917183475289825342)
-
-\#openai #chatgpt #python #langchain  #finance #analytics #backtest #p
-yfolio #c++ #stocks #websockets #ibkr #trading #marketscanner #leveragedfunds 
-```
----
-
-     
- 
-all -  [ What local embedding models are you guys using today? Frameworks? ](https://www.reddit.com/r/LocalLLaMA/comments/1blwuzo/what_local_embedding_models_are_you_guys_using/) , 2024-03-25-0910
-```
-I've been using BAAI/bge-base-en-v1.5 embeddings with the HuggingFaceBgeEmbeddings wrapper from langchain\_community.emb
-eddings for the past several months. It was SotA when I started using it, and the langchain integration is really nice. 
-But I'm curious how you guys are architecting your local RAG pipelines. What models are you using? Are you using langcha
-in-compatible vectorstores?
-
-Not interested in off-prem embedding solutions like OpenAI, Pinecone, Cohere, Databricks, e
-tc.
-
-Thanks!
-```
----
-
-     
- 
-all -  [ What local embedding models are you guys using today? Frameworks? ](https://www.reddit.com/r/LLMDevs/comments/1blwu6m/what_local_embedding_models_are_you_guys_using/) , 2024-03-25-0910
-```
-I've been using BAAI/bge-base-en-v1.5 embeddings with the HuggingFaceBgeEmbeddings wrapper from langchain\_community.emb
-eddings for the past several months. It was SotA when I started using it, and the langchain integration is really nice. 
-But I'm curious how you guys are architecting your local RAG pipelines. What models are you using? Are you using langcha
-in-compatible vectorstores? 
-
-Not interested in off-prem embedding solutions like OpenAI, Pinecone, Cohere, Databricks, 
-etc. 
-
-Thanks!
-```
----
-
-     
- 
-all -  [ Langchain with custom local LLM api ](https://www.reddit.com/r/LangChain/comments/1blrpbz/langchain_with_custom_local_llm_api/) , 2024-03-25-0910
-```
-I am trying to make use of langgraph, but I'm getting stuck at using langchain with my own 'customllm'  
-
-
-[https://pyth
-on.langchain.com/docs/modules/model\_io/llms/custom\_llm](https://python.langchain.com/docs/modules/model_io/llms/custom
-_llm)  
-
-
-It doesn't say any where how  I am suppose to link all that with my API, any help will be appreciated.
-```
----
-
-     
- 
-all -  [ Building memory with GPT's API ](https://www.reddit.com/r/ChatGPT/comments/1blpzt6/building_memory_with_gpts_api/) , 2024-03-25-0910
-```
-Hi developpers,
-
-I am wondering what everyone's technique around building memory with GPT API connections in application
-s. I know langchain has built great methods around this but wondering what everyone is using?
-```
----
-
-     
- 
-all -  [ Feedback request for a new OSS project ](https://www.reddit.com/r/PromptDesign/comments/1blp6ud/feedback_request_for_a_new_oss_project/) , 2024-03-25-0910
-```
-Hey folks, I was frustrated with all the complexity around building a RAG pipeline which respects access privileges of t
-he session users. So I built a quick weekend project. PromptSage is a minimal prompt builder with built-in security/priv
-acy/access controls, and is compatible with langchain and other major tools in the space. Would love any and all feedbac
-k!
-
-[https://github.com/alexmavr/promptsage](https://github.com/alexmavr/promptsage)
-```
----
-
-     
- 
-all -  [ Feedback request for a new OSS project ](https://www.reddit.com/r/PromptEngineering/comments/1blp6lc/feedback_request_for_a_new_oss_project/) , 2024-03-25-0910
-```
-Hey folks, I was frustrated with all the complexity around building a RAG pipeline which respects access privileges of t
-he session users. So I built a quick weekend project. PromptSage is a minimal prompt builder with built-in security/priv
-acy/access controls, and is compatible with langchain and other major tools in the space. Would love any and all feedbac
-k!  
-https://github.com/alexmavr/promptsage
-```
----
-
-     
- 
-all -  [ How can we send reranked documents to any llm chain instead of retriever? ](https://www.reddit.com/r/LangChain/comments/1bllgb8/how_can_we_send_reranked_documents_to_any_llm/) , 2024-03-25-0910
-```
-I am working on a rag application where I need to rerank the docs, I tried langchain integrations like colbert, flashran
-k but I wanted to implement other rankers now I have a list of relevant docs after the user query, any suggestions on ho
-w can I send this as parameter to llm chain.   
-Below is sample code from langchain cookbook.  
-
-
-from langchain\_core.r
-unnables import RunnableParallel  
-rag\_chain\_from\_docs = (  
-RunnablePassthrough.assign(context=(lambda x: format\_do
-cs(x\['context'\])))  
- | prompt  
- | llm  
- | StrOutputParser()  
-)  
-rag\_chain\_with\_source = RunnableParallel(  
- {
-'context': retriever, 'question': RunnablePassthrough()}  
-).assign(answer=rag\_chain\_from\_docs)  
-rag\_chain\_with\_s
-ource.invoke('What is Task Decomposition') 
-```
----
-
-     
- 
-all -  [ Beginner trying make a simple RAG with Graphql documentation. Not getting anywhere. ](https://www.reddit.com/r/LangChain/comments/1bljqco/beginner_trying_make_a_simple_rag_with_graphql/) , 2024-03-25-0910
-```
-Im passing in my Graphql documentation as html and splitting it by section tag. I want to search that data and return th
-e relevant information for that query or mutation. However, both `retriever.get_relevant_documents` and `vector.similari
-ty_search` returns all the same data that `print(documents)` prints out (the entire document's text). Any help would be 
-appreciated. Thank you.
-
-    from langchain_openai import OpenAIEmbeddings
-    from langchain_community.vectorstores imp
-ort FAISS
-    from langchain_text_splitters import HTMLHeaderTextSplitter
-
-    embeddings = OpenAIEmbeddings()
-    html 
-= open('src/bff/index.html', 'r').read()
-
-    headers_to_split_on = [
-      ('section > h2', 'GraphQL query, mutation or
- type definition'),
-    ]
-
-    html_splitter = HTMLHeaderTextSplitter(headers_to_split_on=headers_to_split_on)
-    docum
-ents = html_splitter.split_text(html)
-    print(documents)
-
-    vector = FAISS.from_documents(documents, embeddings)
-   
- retriever = vector.as_retriever()
-
-    response1 = retriever.get_relevant_documents('WorkflowDto definition')
-    print
-(response1)
-
-    response2 = vector.similarity_search('WorkflowDto definition')
-    print(response2)
-```
----
-
-     
- 
-all -  [ Why do we need LlamaIndex or LangChain for communicating with Large Language Models (LLM)? ](https://www.reddit.com/r/LangChain/comments/1bliwzp/why_do_we_need_llamaindex_or_langchain_for/) , 2024-03-25-0910
-```
-I've recently been exploring the development of projects using large language models (LLMs) like the GPT series and enco
-untered a question: Why should we consider using tools like LlamaIndex or LangChain as intermediaries for communication 
-with LLMs, rather than directly interacting with LLMs through the API in the repository layer?
-
-From my understanding, d
-irectly using the API seems to offer a more simplified and direct control path, potentially avoiding the introduction of
- additional complexity and potential performance bottlenecks. However, I've also heard that these tools (LlamaIndex and 
-LangChain) can enhance the efficiency and effectiveness of communication with LLMs.
-
-Specifically, I have the following 
-questions:
-
-How do LlamaIndex and LangChain optimize the efficiency of communication with LLMs? What specific performanc
-e optimizations and functional enhancements do they provide that make interactions with LLMs faster and more effective?
-
-
-In what situations might direct communication with LLMs via the API not be the best choice? Are these tools primarily a
-ddressing certain specific technical challenges or needs?
-
-What are the potential advantages and disadvantages of using 
-LlamaIndex or LangChain compared to direct communication with LLMs? Especially considering the impact on architectural c
-omplexity, development and maintenance costs, as well as scalability and flexibility.
-```
----
-
-     
- 
-all -  [ langchain with azure openai ](https://www.reddit.com/r/LangChain/comments/1blhhxq/langchain_with_azure_openai/) , 2024-03-25-0910
-```
-anyone have  done a project  with azure open ai and different azure services like postgress for storing the embedding an
-d azure blob for storing the files 
-```
----
-
-     
- 
-all -  [ What is the current best embedding model for semantic search? ](https://www.reddit.com/r/LangChain/comments/1blfg7i/what_is_the_current_best_embedding_model_for/) , 2024-03-25-0910
-```
-I'm trying to implement RAG with semantic search and have been using OpenAI text embedding 3 small, but the results aren
-'t particularly good. Do you know any that is at least better than this one on which I can experiment on? 
-```
----
-
-     
- 
-all -  [ Improve function calling ](https://www.reddit.com/r/LangChain/comments/1bley1d/improve_function_calling/) , 2024-03-25-0910
-```
-Hey folks!
-
-I'm building a function calling prompt, but the results are terrible.
-
-# Prompt
-
->Please select the best fun
-ction to answer user questions and context. Follow this instructions:
-
-# Functions structure
-
-**GetDeliveryStatusForWork
-Items**
-
-Get the delivery status (whether late or on track) for work items. Response structure: {{'workItemsWithDelivery
-Status': \[{'id': 'string', 'key': 'string', 'title': 'string', 'actualStatus': 'string', 'assignedTo': 'string', 'leadT
-imeToEnd': 'number', 'leadTimeUsed': 'number', 'percentageLeadTimeAlreadyUsed': 'number', 'leadTimeToEndWithLeadTimeAlre
-adyUsed': 'number', 'percentageLeadTimeExceeded': 'number', 'isLate': 'boolean', 'onTrackFlag': 'string'}\]}}
-
-**GetWork
-ItensTool**
-
-Get work itens by keys or ids passed as parameters. Response structure: { 'WorkItems': \[{'key':'string','i
-d':'string','name':'string','description':'string','created':'string','updated':'string','changelog':\[{'id':'string','c
-reatedAt':'string','movements':\[{'field':'string','fromColumnId':'string','fromColumnName':'string','toColumnId':'strin
-g','toColumnName':'string'}\]}\],'workItemCreatedAt':'string','columnName':'string','priority':'string','flagged':'boole
-an','assignee':{'accountId':'string','userName':'string'},'workItemType':{'name':'string','id':'string','description':'s
-tring','subtask':'boolean'},'status':{'name':'string','id':'string','statusCategory':{'name':'string','id':'number'}}}\]
-}
-
-# Functions JSON Schema
-
-\`\`\`TOOLS
-
-* 0: {   'type': 'function',   'function': {     'name': 'GetColumnsConfigTool'
-,     'description': 'Get the Id and Name for columns(To Do, WIP, and Done) from a board along with their respective ord
-er. Response Structure: \\'{\\'wipColumnsAndDoneColumns\\':\[\\'string\\'\],\\'columnsConfig\\':{\\'allColumns\\':\[{\\'
-id\\':\\'string\\',\\'name\\':\\'string\\',\\'order\\':\\'number|null\\',\\'column\\':\\'string\\'}\],\\'wipColumns\\':\
-[\\'string\\'\],\\'doneColumns\\':\[\\'string\\'\],\\'todoColumns\\':\[\\'string\\'\]}}\\'',     'parameters': {       '
-type': 'object',       'properties': {},       'additionalProperties': false,       '$schema': 'http://json-schema.org/d
-raft-07/schema#'     }   } }
-* 1: {   'type': 'function',   'function': {     'name': 'GetWorkItemsDeliveryStatusTool', 
-    'description': 'Get the delivery status (whether late or on track) for work items. Response structure: {{\\'workItem
-sWithDeliveryStatus\\': \[{\\'id\\': \\'string\\', \\'key\\': \\'string\\', \\'title\\': \\'string\\', \\'actualStatus\\
-': \\'string\\', \\'assignedTo\\': \\'string\\', \\'leadTimeToEnd\\': \\'number\\', \\'leadTimeUsed\\': \\'number\\', \\
-'percentageLeadTimeAlreadyUsed\\': \\'number\\', \\'leadTimeToEndWithLeadTimeAlreadyUsed\\': \\'number\\', \\'percentage
-LeadTimeExceeded\\': \\'number\\', \\'isLate\\': \\'boolean\\', \\'onTrackFlag\\': \\'string\\'}\]}}\\n This function ne
-ed a get workItem function before.',     'parameters': {       'type': 'object',       'properties': {         'paramete
-rs': {           'type': 'array',           'items': {             'type': 'object',             'properties': {        
-       'workItems': {                 'type': 'array',                 'items': {                   'type': 'string',   
-                'description': 'Work Item Id'                 },                 'description': 'value extracted from a 
-text and returned as a parameter, examples of what the value looks like (GE-18, KDZ-20, NT-10, HYPER-44, APP-538)'      
-         }             },             'additionalProperties': false           }         }       },       'required': \[ 
-        'parameters'       \],       'additionalProperties': false,       '$schema': 'http://json-schema.org/draft-07/sc
-hema#'     }   } }
-* 2: {   'type': 'function',   'function': {     'name': 'GetWorkItensTool',     'description': 'Get 
-work itens by keys or ids passed as parameters. Response structure: { \\'WorkItems\\': \[{\\'key\\':\\'string\\',\\'id\\
-':\\'string\\',\\'name\\':\\'string\\',\\'description\\':\\'string\\',\\'created\\':\\'string\\',\\'updated\\':\\'string
-\\',\\'changelog\\':\[{\\'id\\':\\'string\\',\\'createdAt\\':\\'string\\',\\'movements\\':\[{\\'field\\':\\'string\\',\\
-'fromColumnId\\':\\'string\\',\\'fromColumnName\\':\\'string\\',\\'toColumnId\\':\\'string\\',\\'toColumnName\\':\\'stri
-ng\\'}\]}\],\\'workItemCreatedAt\\':\\'string\\',\\'columnName\\':\\'string\\',\\'priority\\':\\'string\\',\\'flagged\\'
-:\\'boolean\\',\\'assignee\\':{\\'accountId\\':\\'string\\',\\'userName\\':\\'string\\'},\\'workItemType\\':{\\'name\\':
-\\'string\\',\\'id\\':\\'string\\',\\'description\\':\\'string\\',\\'subtask\\':\\'boolean\\'},\\'status\\':{\\'name\\':
-\\'string\\',\\'id\\':\\'string\\',\\'statusCategory\\':{\\'name\\':\\'string\\',\\'id\\':\\'number\\'}}}\]}',     'para
-meters': {       'type': 'object',       'properties': {         'parameters': {           'type': 'object',           '
-properties': {             'workItemsIds': {               'type': 'array',               'items': {                 'ty
-pe': 'string',                 'description': 'WorkItemId. identifier for a work item. Examples: GE-18, KDZ-20, NT-10, H
-YPER-44, APP-538. Each ID represents a specific work item in a project or system.'               }             }        
-   },           'additionalProperties': false,           'description': 'Array of paramaters mentioned in text. You can 
-use chat history to provide more context and get parameters'         },         'operation': {           'type': 'array'
-,           'items': {             'type': 'string',             'enum': \[               'ByWeek',               'inWIP
-',               'ByIds',               'Last24hours',               'ByTypes'             \],             'description'
-: 'The inner filter for Work Items.'           }         }       },       'required': \[         'parameters',         '
-operation'       \],       'additionalProperties': false,       '$schema': 'http://json-schema.org/draft-07/schema#'    
- }   } }\`\`\`
-
-# User question
-
-What are the delivery dates for tasks that are in progress?
-
-# Expected result
-
-functio
-ns GetWorkItensTool and GetDeliveryStatusForWorkItems.
-
-# Actual result
-
-function GetWorkItensTool
-
-----------
-
-Would yo
-u happen to have any tips about how to improve it? Is there any better model than openAI GPT-4-turbo for it?
-```
----
-
-     
- 
-all -  [ Document Loaders Outputting 'NO_OUTPUT' ](https://www.reddit.com/r/LangChain/comments/1blc6q2/document_loaders_outputting_no_output/) , 2024-03-25-0910
-```
-Hi, currently I am working on an RAG tool for my company. I have to load multiple PDFs and Powerpoints, for which I use 
-the UnstructuredPDFLoader and UnstructuredPowerPointLoader, because a lot of these documents contain images with text on
- them and these loaders allow you to extract said text through OCR. However, when I run this and the program goes throug
-h the retrieval steps, I get an error coming from a deprecated function, along with the output of each document split th
-at will be used to answer my query. The answers to my questions are not of a high quality, and I believe that it may be 
-attributed to something being wrong with my loaders because the output I am seeing for some document splits is 'NO\_OUTP
-UT' or 'NO\_OUTPUT\_OUTPUT'.
-
-I am wondering if any of you have run into this problem. In addition, as a bonus question,
- how do you all maintain metadata like source information in your document splits? I always lose mine.
-
-
-
-Below is the r
-etrieval code:
-
-    # Vector Database
-    u/st.cache_resource
-    def vector_db_init(_folder_id, _model):
-        '''Vec
-tor db initializer, plus contextual compression addition'''
-        persist_directory = './db/'  # Persist directory pat
-h
-    
-        # Embeddings to be applied
-        embeddings = VertexAIEmbeddings(
-            model_name='textembedding
--gecko-multilingual',
-            credentials=CREDENTIALS,
-            project_id=PROJECT_ID,
-            )
-    
-       
- # Document splitting, embedding and vector database loading
-        # DOES NOT have to be done in every run, just once 
-and after you can simply refer to the db
-        if not os.path.exists(persist_directory):
-            # Data Pre-proces
-sing
-            # TODO- loader that can correct typos and what-not
-            pdf_loader = DirectoryLoader('/Users/mar
-conardoneguerra/Desktop/e3_Consulting/Other/AI/Proposal RAG/docs',
-                                         glob='**/*.p
-df',
-                                         recursive=True,
-                                         show_progress=Tru
-e,
-                                         loader_cls=UnstructuredPDFLoader,
-                                         l
-oader_kwargs={
-                                            #'extract_images':True,
-                                     
-       'post_processors':[clean_extra_whitespace, clean_non_ascii_chars, clean], # data cleaning
-                       
-                     'mode':'single',
-                                            'strategy':'hi_res',
-                 
-                           'high_res_model_name':'detectron2_onnx',
-                                            #'encodi
-ng':'unicode'
-                                         })
-            
-            ppt_loader = DirectoryLoader('/Users/
-marconardoneguerra/Desktop/e3_Consulting/Other/AI/Proposal RAG/docs',
-                                         glob='**/
-*.pptx',
-                                         recursive=True,
-                                         show_progress
-=True,
-                                         loader_cls=UnstructuredPowerPointLoader,
-                               
-          loader_kwargs={
-                                            #'extract_images':True,
-                          
-                  'post_processors':[clean_extra_whitespace, clean_non_ascii_chars, clean], # data cleaning
-            
-                                'mode':'single',
-                                            'strategy':'hi_res',
-      
-                                      'high_res_model_name':'detectron2_onnx',
-                                         
-   #'encoding':'unicode'
-                                         })
-    
-            loaded_pdfs = pdf_loader.load()
-  
-          loaded_ppts = ppt_loader.load()
-    
-            print('# of PDFs:' + str(len(loaded_pdfs)))
-            print
-('# of PPTs:' + str(len(loaded_ppts)))
-            loaded_docs = loaded_pdfs + loaded_ppts
-    
-            # gdrive_doc
-uments = doc_processor(gdrive_documents, image_captioning)
-    
-            context = '\n\n'.join(str(p.page_content) fo
-r p in loaded_docs)
-    
-            # had to remove below because this splitter is new and does not have a max token si
-ze, hence has given chunks too large to handle
-            # splitter = SemanticChunker(embeddings)
-            splitter
- = RecursiveCharacterTextSplitter(chunk_size=200, chunk_overlap=25) 
-            data = splitter.split_text(context)
-   
-         
-            print('Data Processing Complete')
-    
-            vectordb = Chroma.from_texts(
-                d
-ata, embeddings, persist_directory=persist_directory
-            )
-            vectordb.persist()
-    
-            print
-('Vector DB Creating Complete\n')
-    
-        elif os.path.exists(persist_directory):
-            vectordb = Chroma(
-  
-              persist_directory=persist_directory, embedding_function=embeddings
-            )
-    
-            print('V
-ector DB Loaded\n')
-    
-        # Compresses what is contextually needed for query answer (?)
-        compressor = LLMC
-hainExtractor.from_llm(_model, )
-        compression_retriever = ContextualCompressionRetriever(base_compressor=compress
-or, 
-                                                               base_retriever=vectordb.as_retriever(search_type='si
-milarity', search_kwargs={'k': 24}))
-    
-        return compression_retriever
-    
-    
-    @st.cache_resource
-    def 
-chain_init(_model, _retriever):
-        '''Initializes chain for retrieval'''
-        # DONE- conversational template
-  
-      template = '''
-        Who you are:
-        You are an expert on everything about e3 Consulting, AKA e3, a consult
-ing firm based in San Juan, Puerto Rico.
-        Your firm specializes in IT consulting. \
-        ------
-        Instru
-ctions:
-        You will be receiving questions about e3 and their previous work. \
-        You will gather knowledge to
- deliver a good response to the user (separated with <ctx></ctx>). \
-        If you don't know the answer, answer with '
-Unfortunately, I don't have the information.' \
-        If you don't find enough information below, also answer with 'Un
-fortunately, I don't have the information.' \
-        The context will most likely have typos in it, please correct them
- when you formulate your answer. \
-        ------
-        <ctx>
-        {context}
-        </ctx>
-        ------ 
-       
- {question}
-        Answer:
-        '''
-    
-        # template above
-        question_prompt_template = PromptTemplate(
-template=template, input_variables=['question', 'context'])
-    
-        # We create a qa chain with our llm, retriever,
- and memory
-        # Use chain_type refine so we cna build off of different information,
-        # in addition to being
- wary of our context window
-        # TODO make this conversational (could be complex)
-        qa_chain = RetrievalQA.fr
-om_chain_type(
-            llm=_model,
-            chain_type='stuff',
-            return_source_documents=True,
-       
-     retriever=_retriever,
-            verbose=True,
-        )
-    
-        # qa_chain = RetrievalQA | StrOutputParser()
-
-    
-        return qa_chain
-
-  
-Error examples:
-
-    NO_OUTPUT_OUTPUT/Users/marconardoneguerra/anaconda3/envs/proposal
--rag/lib/python3.12/site-packages/langchain/chains/llm.py:316: UserWarning: The predict_and_parse method is deprecated, 
-instead pass an output parser directly to LLMChain.
-      warnings.warn(
-    NO_OUTPUT_OUTPUT/Users/marconardoneguerra/a
-naconda3/envs/proposal-rag/lib/python3.12/site-packages/langchain/chains/llm.py:316: UserWarning: The predict_and_parse 
-method is deprecated, instead pass an output parser directly to LLMChain.
-      warnings.warn(
-    NO_OUTPUT_OUTPUT/User
-s/marconardoneguerra/anaconda3/envs/proposal-rag/lib/python3.12/site-packages/langchain/chains/llm.py:316: UserWarning: 
-The predict_and_parse method is deprecated, instead pass an output parser directly to LLMChain.
-      warnings.warn(
-   
- NO_OUTPUT_OUTPUT/Users/marconardoneguerra/anaconda3/envs/proposal-rag/lib/python3.12/site-packages/langchain/chains/llm
-.py:316: UserWarning: The predict_and_parse method is deprecated, instead pass an output parser directly to LLMChain.
-
-
-
-
-Thanks!
-```
----
-
-     
- 
-all -  [ Free NVIDIA AI course list ](https://i.redd.it/n0xmj0tpoypc1.jpeg) , 2024-03-25-0910
-```
-1. **Generative AI Explained**
-
-What you'll learn:
-
-• Generative AI and explain how Generative AI works.
-
-• Various Gene
-rative AI applications.
-
-• Challenges and opportunities in Generative AI
-
-[Link](https://courses.nvidia.com/courses/cour
-se-v1:DLI+S-FX-07+V1/)
-
-2. **Building A Brain in 10 Minutes**
-
-What you'll learn:
-
-• Exploring how neural networks use d
-ata to learn
-
-• Understanding the math behind a neuron
-
-[Link](https://courses.nvidia.com/courses/course-v1:DLI+T-FX-01+
-V1/)
-
-Sign up to our [newsletter](https://www.thepromptindex.com/newsletter.html) for our weekly AI roundup. 
-
-3. **Augm
-ent your LLM with Retrieval Augmented Generation:**
-
-What you'll learn:
-
-• Basics of Retrieval Augmented Generation
-
-• R
-AG retrieval process
-
-• NVIDIA AI Foundations and RAG model components
-
-[Link](https://courses.nvidia.com/courses/course
--v1:NVIDIA+S-FX-16+v1/)
-
-4. **AI in the Data Center:**
-
-What you'll learn:
-
-• AI use cases, Machine Learning, Deep Learn
-ing, and their workflows.
-
-• GPU architecture and its impact on AI.
-
-• Deep learning frameworks, and deployment consider
-ations.
-
-[Link](https://www.coursera.org/learn/introduction-ai-data-center)
-
-5. **Accelerate Data Science Workflows with
- Zero Code Changes:**
-
-What you'll learn:
-
-• Learn benefits of unified CPU and GPU workflows
-
-• GPU-accelerate data proc
-essing and ML without code changes
-
-• Experience faster processing times
-
-[Link](https://courses.nvidia.com/courses/cour
-se-v1:DLI+T-DS-03+V1/)
-
-6. **Mastering Recommender Systems:**
-
-What you'll learn:
-
-• Strategies from Kaggle Grandmasters
- on building recommendation systems for e-commerce.
-
-• Cover 2-stage models, candidate generation, feature engineering, 
-and ensembling.
-
-[Link](https://www.classcentral.com/course/youtube-grandmaster-series-mastering-recommender-systems-184
-298)
-
-7. **Networking Introduction:**
-
-What you'll learn:
-
-• Learn about networks and their importance.
-
-• Explore Ether
-net basics and data forwarding in Ethernet networks.
-
-• Discuss network components, requirements, OSI model, TCP/IP prot
-ocol
-
-[Link](https://www.coursera.org/learn/introduction-to-networking-nvidia)
-
-8. **How to Perform Large-Scale Image Cl
-assification**
-
-What you'll learn:
-
-• Learn large-scale image classification
-
-• Cover challenges, modeling techniques AN
-D validation strategies.
-
-[Link](https://www.classcentral.com/course/youtube-grandmaster-series-how-to-perform-large-sca
-le-image-classification-130184)
-
-9. **Building RAG Agents with LLMs:**
-
-What you'll learn:
-
-• Scalable deployment strate
-gies for LLMs and vector databases.
-
-• Modern LangChain paradigms for dialog management and document retrieval.
-
-• Using
- advanced models and steps for production.
-
-[Link](https://courses.nvidia.com/courses/course-v1:DLI+S-FX-15+V1/)
-```
----
-
-     
- 
-all -  [ LangChain single input Agent params ](https://www.reddit.com/r/LangChain/comments/1blaz9d/langchain_single_input_agent_params/) , 2024-03-25-0910
-```
-Hi community, looking for some guidance to explain how this is called when I specify the Tool's parameters as a descript
-ion rather than Fields. 
-
-For some reason Fields does not work in that project, giving me exception like
-
-    ERROR:root
-:An error occurred ZeroShotAgent does not support multi-input tool 
-
-&#x200B;
-
-Here is some code
-
-    class SimpleInputs
-(BaseModel):
-        input: str
-        
-    class GetEvents(BaseTool):
-        name = 'get_calendar_event'
-        desc
-ription = 'Use this tool with arguments like '{{'start_date': 'yyyy-mm-dd', 'max_results': int}}' when you need to retri
-eve events from Calendar.'
-        args_schema: Type[BaseModel] = SimpleInputs
-        return_direct: bool = False
-    
-
-    ---
-            agent = initialize_agent(
-                agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-             
-   tools=tools,
-                llm=self.llm,
-                verbose=True,
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Does anyone have a codebase or tutorial for using LLMs with LangChain to summarize each row in a dat ](https://www.reddit.com/r/LangChain/comments/1bl7k4g/does_anyone_have_a_codebase_or_tutorial_for_using/) , 2024-03-25-0910
-```
- Does anyone have a codebase or tutorial for using LLMs with LangChain to summarize each row in a database and generate 
-output for each? I have a database that is updated weekly, which you can think of as a record of transactions. I'm looki
-ng for a way to read each row of this database weekly, summarize the contents of those records, and have it tweeted out.
- I'm curious if there's a tutorial or codebase somewhere that does this. 
-```
----
-
-     
- 
-all -  [ 23 New Data Science, Data Engineering and Machine Learning jobs ](https://www.reddit.com/r/BigDataJobs/comments/1bl4juz/23_new_data_science_data_engineering_and_machine/) , 2024-03-25-0910
-```
-|Job Title|Company|Location|Country|Skills|
-|:-|:-|:-|:-|:-|
-|[Mid Data Engineer (3733 USD/Mes)](https://datayoshi.com/o
-ffer/906372/mid-data-engineer-3733-usd-me)|[Listopro](https://www.datayoshi.com/company/listopro-jobs)|[Argentina](https
-://datayoshi.com/offer/906372/mid-data-engineer-3733-usd-me)|[Argentina](https://datayoshi.com/offer/906372/mid-data-eng
-ineer-3733-usd-me)|[Python, SQL](https://datayoshi.com/offer/906372/mid-data-engineer-3733-usd-me)|
-|[Data engineer pyth
-on H/F chez SAFRAN](https://datayoshi.com/offer/105682/data-engineer-python-h-f-chez)|[Kicklox - Plateforme de matching 
-entre talents tech & porteurs de projets](https://www.datayoshi.com/company/kicklox---plateforme-de-matching-entre-talen
-ts-tech-&-porteurs-de-projets-jobs)|[Gonfreville-l’Orcher](https://datayoshi.com/offer/105682/data-engineer-python-h-f-c
-hez)|[France](https://datayoshi.com/offer/105682/data-engineer-python-h-f-chez)|[SQL](https://datayoshi.com/offer/105682
-/data-engineer-python-h-f-chez)|
-|[Machine Learning Engineer](https://datayoshi.com/offer/287675/machine-learning-engine
-er)|[Mirakl](https://www.datayoshi.com/company/mirakl-jobs)|[Bordeaux](https://datayoshi.com/offer/287675/machine-learni
-ng-engineer)|[France](https://datayoshi.com/offer/287675/machine-learning-engineer)|[Spark, NLP, Machine Learning](https
-://datayoshi.com/offer/287675/machine-learning-engineer)|
-|[Senior Data Engineer](https://datayoshi.com/offer/343227/sen
-ior-data-engineer)|[Samsara](https://www.datayoshi.com/company/samsara-jobs)|[United States](https://datayoshi.com/offer
-/343227/senior-data-engineer)|[Remote](https://datayoshi.com/offer/343227/senior-data-engineer)|[SQL, ETL, AWS](https://
-datayoshi.com/offer/343227/senior-data-engineer)|
-|[Senior Azure Data Engineer](https://datayoshi.com/offer/751025/senio
-r-azure-data-engineer)|[Numentica](https://www.datayoshi.com/company/numentica-jobs)|[Palo Alto](https://datayoshi.com/o
-ffer/751025/senior-azure-data-engineer)|[Remote](https://datayoshi.com/offer/751025/senior-azure-data-engineer)|[Spark, 
-SQL](https://datayoshi.com/offer/751025/senior-azure-data-engineer)|
-|[AI Engineer (Python, Langchain)](https://datayosh
-i.com/offer/240666/ai-engineer-python-langchain)|[JUPUS](https://www.datayoshi.com/company/jupus-jobs)|[Germany](https:/
-/datayoshi.com/offer/240666/ai-engineer-python-langchain)|[Germany](https://datayoshi.com/offer/240666/ai-engineer-pytho
-n-langchain)|[Python](https://datayoshi.com/offer/240666/ai-engineer-python-langchain)|
-|[Senior Data Analyst](https://d
-atayoshi.com/offer/551411/senior-data-analyst)|[YEGO](https://www.datayoshi.com/company/yego-jobs)|[Barcelona](https://d
-atayoshi.com/offer/551411/senior-data-analyst)|[Spain](https://datayoshi.com/offer/551411/senior-data-analyst)|[SQL](htt
-ps://datayoshi.com/offer/551411/senior-data-analyst)|
-|[Data Analyst](https://datayoshi.com/offer/505803/data-analyst)|[
-Peroptyx](https://www.datayoshi.com/company/peroptyx-jobs)|[Milan](https://datayoshi.com/offer/505803/data-analyst)|[Ita
-ly](https://datayoshi.com/offer/505803/data-analyst)|[](https://datayoshi.com/offer/505803/data-analyst)|
-|[Data Enginee
-r (m/w/d) 100%](https://datayoshi.com/offer/495742/data-engineer-m-w-d-100)|[MDPI](https://www.datayoshi.com/company/mdp
-i-jobs)|[Basel](https://datayoshi.com/offer/495742/data-engineer-m-w-d-100)|[Switzerland](https://datayoshi.com/offer/49
-5742/data-engineer-m-w-d-100)|[SQL, ETL, Scala](https://datayoshi.com/offer/495742/data-engineer-m-w-d-100)|
-|[Junior Da
-ta Analyst](https://datayoshi.com/offer/462463/junior-data-analyst)|[All Response Media](https://www.datayoshi.com/compa
-ny/all-response-media-jobs)|[London](https://datayoshi.com/offer/462463/junior-data-analyst)|[United Kingdom](https://da
-tayoshi.com/offer/462463/junior-data-analyst)|[SQL](https://datayoshi.com/offer/462463/junior-data-analyst)|
-|[Sr Data A
-nalyst](https://datayoshi.com/offer/113494/sr-data-analyst)|[PedidosYa](https://www.datayoshi.com/company/pedidosya-jobs
-)|[Greater Buenos Aires](https://datayoshi.com/offer/113494/sr-data-analyst)|[Argentina](https://datayoshi.com/offer/113
-494/sr-data-analyst)|[Looker, SQL, Python](https://datayoshi.com/offer/113494/sr-data-analyst)|
-|[Data Scientist - All L
-evels!](https://datayoshi.com/offer/727798/data-scientist-all-levels)|[BIP Brasil](https://www.datayoshi.com/company/bip
--brasil-jobs)|[Brazil](https://datayoshi.com/offer/727798/data-scientist-all-levels)|[Brazil](https://datayoshi.com/offe
-r/727798/data-scientist-all-levels)|[Modeling](https://datayoshi.com/offer/727798/data-scientist-all-levels)|
-|[Data Eng
-ineer, Prime Video Discovery Analytics](https://datayoshi.com/offer/170470/data-engineer-prime-video-dis)|[Prime Video &
- Amazon Studios](https://www.datayoshi.com/company/prime-video-&-amazon-studios-jobs)|[London](https://datayoshi.com/off
-er/170470/data-engineer-prime-video-dis)|[United Kingdom](https://datayoshi.com/offer/170470/data-engineer-prime-video-d
-is)|[AWS, Scala](https://datayoshi.com/offer/170470/data-engineer-prime-video-dis)|
-|[Azure Data Engineer](https://datay
-oshi.com/offer/423231/azure-data-engineer)|[emagine](https://www.datayoshi.com/company/emagine-jobs)|[Warsaw](https://da
-tayoshi.com/offer/423231/azure-data-engineer)|[Poland](https://datayoshi.com/offer/423231/azure-data-engineer)|[Python, 
-Scala, SQL](https://datayoshi.com/offer/423231/azure-data-engineer)|
-|[Machine Learning Engineer](https://datayoshi.com/
-offer/788069/machine-learning-engineer)|[DKATALIS](https://www.datayoshi.com/company/dkatalis-jobs)|[Singapore](https://
-datayoshi.com/offer/788069/machine-learning-engineer)|[Singapore](https://datayoshi.com/offer/788069/machine-learning-en
-gineer)|[Python, Machine Learning](https://datayoshi.com/offer/788069/machine-learning-engineer)|
-|[Alternant Data Engin
-eer H/F](https://datayoshi.com/offer/795287/alternant-data-engineer-h-f)|[Lyreco France](https://www.datayoshi.com/compa
-ny/lyreco-france-jobs)|[Marly](https://datayoshi.com/offer/795287/alternant-data-engineer-h-f)|[France](https://datayosh
-i.com/offer/795287/alternant-data-engineer-h-f)|[Python, Spark, Hadoop](https://datayoshi.com/offer/795287/alternant-dat
-a-engineer-h-f)|
-|[Machine Learning Engineer](https://datayoshi.com/offer/938934/machine-learning-engineer)|[Morgan McKi
-nley](https://www.datayoshi.com/company/morgan-mckinley-jobs)|[Toronto](https://datayoshi.com/offer/938934/machine-learn
-ing-engineer)|[Canada](https://datayoshi.com/offer/938934/machine-learning-engineer)|[Machine Learning, NLP](https://dat
-ayoshi.com/offer/938934/machine-learning-engineer)|
-|[Data Scientist](https://datayoshi.com/offer/395728/data-scientist)
-|[Desigual](https://www.datayoshi.com/company/desigual-jobs)|[Greater Barcelona Metropolitan Area](https://datayoshi.com
-/offer/395728/data-scientist)|[Spain](https://datayoshi.com/offer/395728/data-scientist)|[Machine Learning](https://data
-yoshi.com/offer/395728/data-scientist)|
-|[Data Scientist](https://datayoshi.com/offer/769393/data-scientist)|[Contents.c
-om](https://www.datayoshi.com/company/contents.com-jobs)|[Milan](https://datayoshi.com/offer/769393/data-scientist)|[Ita
-ly](https://datayoshi.com/offer/769393/data-scientist)|[Python, NLP](https://datayoshi.com/offer/769393/data-scientist)|
-
-|[STAGE - Ingénieur Data Scientist Junior F/H](https://datayoshi.com/offer/601797/stage-ingenieur-data-scienti)|[Plasti
-c Omnium](https://www.datayoshi.com/company/plastic-omnium-jobs)|[Venette](https://datayoshi.com/offer/601797/stage-inge
-nieur-data-scienti)|[France](https://datayoshi.com/offer/601797/stage-ingenieur-data-scienti)|[Deep Learning](https://da
-tayoshi.com/offer/601797/stage-ingenieur-data-scienti)|
-|[Data Analyst, Commerce & Marketing Analytics](https://datayosh
-i.com/offer/456146/data-analyst-commerce-marke)|[Fandom](https://www.datayoshi.com/company/fandom-jobs)|[London](https:/
-/datayoshi.com/offer/456146/data-analyst-commerce-marke)|[United Kingdom](https://datayoshi.com/offer/456146/data-analys
-t-commerce-marke)|[Python, Pandas, Tableau](https://datayoshi.com/offer/456146/data-analyst-commerce-marke)|
-|[Junior Da
-ta Analyst- Banking](https://datayoshi.com/offer/239002/junior-data-analyst-banking)|[Skill Farm](https://www.datayoshi.
-com/company/skill-farm-jobs)|[Johannesburg](https://datayoshi.com/offer/239002/junior-data-analyst-banking)|[South Afric
-a](https://datayoshi.com/offer/239002/junior-data-analyst-banking)|[SQL, Tableau](https://datayoshi.com/offer/239002/jun
-ior-data-analyst-banking)|
-|[Data Analyst - Power BI](https://datayoshi.com/offer/381956/data-analyst-power-bi)|[Energy 
-Jobline](https://www.datayoshi.com/company/energy-jobline-jobs)|[London](https://datayoshi.com/offer/381956/data-analyst
--power-bi)|[United Kingdom](https://datayoshi.com/offer/381956/data-analyst-power-bi)|[Power BI](https://datayoshi.com/o
-ffer/381956/data-analyst-power-bi)|
-                        
- Hey, here are 23 New Data Science, Data Engineering and Ma
-chine Learning jobs. 
-
- For more, check our Google sheet with more opportunities in Data Science and Machine Learning (u
-pdated each week) [here](https://docs.google.com/spreadsheets/d/1Vsg1Jmc0ZIDc_tPqZTzhbgxGIeTDQkUsBySMNbbCFI4/) 
-
- If you
- want to take some Data and ML courses, click [here](https://learncrunch.com/courses?utm_source=reddit&source=reddit) 
-
-
-  Let me know if you have any questions. Cheers!
-```
----
-
-     
- 
-all -  [ Langchain GPT ](https://www.reddit.com/r/LangChain/comments/1bl3lpg/langchain_gpt/) , 2024-03-25-0910
-```
-Hey everyone, just wanted to ask if you know any Langchain GPTs that actually works and is updated with the latest Langc
-hain documents?  
-Thanks
-```
----
-
-     
- 
-all -  [ How do you verify, aside from manually checking the PDFs, that your answers are correct from a simpl ](https://www.reddit.com/r/LangChain/comments/1bl1p6d/how_do_you_verify_aside_from_manually_checking/) , 2024-03-25-0910
-```
-Hi! I'm new to Langchain and tinkering with LLMs in general, I'm just doing a small project on Langchain's capabilities 
-on document loading, chunking, and of course using a similarity search on a vectorstore and then using the information I
- retrieve in a chain to get an answer.
-
-I'm only testing on a small dataset, so it's easy for me to see the specific fil
-es and pages to cross check whether it is the best result among the different files. But it got me thinking: if I try to
- work with a larger dataset, how exactly do I verify if the answer is the best result in the ranking and if it is indeed
- correct?
-
-Is it possible to get datasets where it contains a PDF, some test input prompts, and an expected certain corr
-ect output? This way, I would be able to use my project to ingest that data and see if I get similar results? Or is this
- too good to be true?
-```
----
-
-     
- 
-all -  [ Feedback for my beginner RAG pdf project ](https://www.reddit.com/r/learnmachinelearning/comments/1bkzkpq/feedback_for_my_beginner_rag_pdf_project/) , 2024-03-25-0910
-```
-Hello.
-
-I wanted to create a RAG model for a T&C file of one bank. I am a beginner, and all my files are on github. [htt
-ps://github.com/divakaivan/lloyds-rag-from-scratch/tree/main](https://github.com/divakaivan/lloyds-rag-from-scratch/tree
-/main) \-> the main files you can look at are: [preprocess\_pdf.py](https://github.com/divakaivan/lloyds-rag-from-scratc
-h/blob/main/preprocess_pdf.py) and [rag.py](https://github.com/divakaivan/lloyds-rag-from-scratch/blob/main/rag.py)
-
-My 
-main points of concern are the way I do chunking (everything I do in preprocess\_pdf.py), I have found out it's way more
- important than I initially thought, and for now, I am using a recursive char splitter from langchain. My base prompt in
- rag.py could probably use help as well. Any feedback is welcome. I am a beginner :)
-
-At the moment, the answers are inc
-onsistent, for example for the question: 'What is meant by a Business Day?' when looking at the context, the top-1 answe
-r includes it and the cos\_sim is 0.8, but sometimes the llm returns that the context does not talk about the Business D
-ay, even though the top-1 answer from the context is that part I mentioned.
-
-Any help/criticism is appreciated. Thank yo
-u :)
-
-&#x200B;
-
-if you don't want to click, here is the code:
-
-**preprocess\_pdf.py**
-```python
-import re
-import os
-impo
-rt fitz
-import pandas as pd
-from sentence_transformers import SentenceTransformer
-from langchain_text_splitters import R
-ecursiveCharacterTextSplitter
-
-device = 'mps'
-
-# lbg_relationship_tnc.pdf account_bank_tnc.pdf
-def open_and_read_pdf(pdf
-_path: str) -> list[dict]:
-    doc = fitz.open(pdf_path)
-    pages_n_texts = []
-
-    for page_n, page in enumerate(doc):
-
-        text = page.get_text()
-        text = text.replace('\n', ' ').replace('  ', ' ')
-
-        pages_n_texts.append(
-{
-            'page_n': page_n,
-            'page_char_count': len(text),
-            'page_word_count_raw': len(text.sp
-lit(' ')),
-            'page_sentence_count_raw': len(text.split('. ')),
-            'page_token_count': len(text) / 4, 
-# 1 token ~= 4 chars
-            'text': text
-        })
-
-    return pages_n_texts
-
-def create_text_splitter(chunk_size:
- int=1500, chunk_overlap: int=0):
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overla
-p=chunk_overlap)
-    return text_splitter
-
-
-emb_model = SentenceTransformer('mixedbread-ai/mxbai-embed-large-v1').to(dev
-ice)
-#mixedbread-ai/mxbai-embed-large-v1 all-mpnet-base-v2
-
-if __name__ == '__main__':
-
-    pdf_path = input('Enter PDF 
-name: ')
-
-    if not os.path.exists(pdf_path):
-        raise FileNotFoundError(f'The file '{pdf_path}' does not exist.')
-
-
-    pages_n_texts = open_and_read_pdf(pdf_path)
-
-    chunk_size = input('Enter chunk size(int). Default is 1500 (Enter
- -> skip): ')
-    chunk_overlap = input('Enter chunk overlap(int). Default is 0 (Enter -> skip): ')
-    if not chunk_siz
-e:
-        chunk_size = 1500
-    if not chunk_overlap:
-        chunk_overlap = 0
-
-    text_splitter = create_text_splitt
-er(chunk_size, chunk_overlap)
-    print('Creating sentence chunks ~')
-    pages_n_chunks_new = []
-    for item in pages_
-n_texts:
-        item['sentence_chunks'] = text_splitter.split_text(item['text'])
-        for chunk in item['sentence_ch
-unks']:
-            chunk_dict = {}
-            chunk_dict['page_n'] = item['page_n']
-            joined_sentence_chunk 
-= ''.join(chunk).replace('  ', ' ').strip()
-            joined_sentence_chunk = re.sub(r'\.([A-Z])', r'. \1', joined_sen
-tence_chunk)
-            joined_sentence_chunk = re.sub(r'\d+(\.\d+)+', '', joined_sentence_chunk)
-            chunk_dic
-t['sentence_chunk'] = joined_sentence_chunk
-
-            # # add metadata
-            chunk_dict['chunk_chars'] = len(jo
-ined_sentence_chunk)
-            chunk_dict['chunk_words'] = len([word for word in joined_sentence_chunk.split(' ')])
-  
-          chunk_dict['chunk_tokens'] = len(joined_sentence_chunk) / 4
-
-            pages_n_chunks_new.append(chunk_dict)
-
-
-    text_chunks = [item['sentence_chunk'] for item in pages_n_chunks_new]
-    text_chunk_embs = emb_model.encode(text_
-chunks, batch_size=16, convert_to_tensor=True)
-
-    emb_chunks_df = pd.DataFrame(pages_n_chunks_new)
-    # embs_only_df 
-= pd.DataFrame(text_chunk_embs.to('cpu'))
-    emb_chunks_df['embedding'] = text_chunk_embs.cpu().numpy().tolist()
-    em
-b_df_save_path = input('Enter name for embeddings csv. Default is emb_chunks_df (Enter -> skip): ')
-    if not emb_df_sa
-ve_path:
-        emb_df_save_path = 'emb_chunks_df.csv'
-
-    emb_chunks_df.to_csv(emb_df_save_path, index=False)
-    pri
-nt(f'File {emb_df_save_path} created!')
-```
-
-**rag.py**
-
-```python
-from transformers import AutoTokenizer, AutoModelForC
-ausalLM, TextStreamer
-from sentence_transformers import util, SentenceTransformer
-import pandas as pd
-import numpy as np
-
-import torch
-
-device = 'mps'
-
-emb_chunks_df = pd.read_csv('emb_chunks_df.csv')
-
-# convert embeddings back to np.array
-e
-mb_chunks_df['embedding'] = emb_chunks_df['embedding'].apply(lambda x: np.fromstring(x.strip('[]'), sep=', '))
-embs = to
-rch.tensor(np.stack(emb_chunks_df['embedding'].tolist(), axis=0), dtype=torch.float32).to(device)
-
-pages_n_chunks = emb_
-chunks_df.to_dict(orient='records')
-
-emb_model = SentenceTransformer('mixedbread-ai/mxbai-embed-large-v1', device=device
-)
-
-def retrieve_relevant_info(query: str, embeddings: torch.tensor, model: SentenceTransformer=emb_model, n_to_retrieve:
- int=5) -> torch.tensor:
-    query_emb = model.encode(query, convert_to_tensor=True)
-    dot_scores = util.cos_sim(query
-_emb, embeddings)[0]
-    scores, indices = torch.topk(dot_scores, n_to_retrieve)
-    print(scores)
-    return scores, in
-dices
-
-model_id = 'google/gemma-2b-it'
-
-tokenizer = AutoTokenizer.from_pretrained(model_id)
-llm_model = AutoModelForCaus
-alLM.from_pretrained(model_id, torch_dtype=torch.float16, low_cpu_mem_usage=False, attn_implementation='sdpa').to(device
-)
-
-def prompt_formatter(query: str, context_items: list[dict]) -> str:
-    context = '- ' + '\n- '.join([item['sentence_
-chunk'] for item in context_items])
-    base_prompt = '''Based on the following context items, please answer the query.
-
-Give yourself room to think by extracting relevant passages from the context before answering the query.
-Don't return th
-e thinking, only return the answer.
-Make sure your answers are as explanatory as possible.
-Use the following examples as
- reference for the ideal answer style, but don't use the below example answers as answers to the query.
-\nExample 1:
-Que
-ry: Who can provide instructions to the bank according to the terms and conditions?
-Answer: According to the terms and c
-onditions, only authorized individuals can give instructions to the bank.
-\nExample 2:
-Query: What are your rights regar
-ding the termination of services as outlined in the terms and conditions?
-Answer: The terms and conditions specify the r
-ights granted to you in the event of termination, including any associated procedures or obligations.
-\nExample 3:
-Query
-: How does the bank handle refunds for incorrectly executed payment instructions, as per the terms and conditions?
-Answe
-r: The terms and conditions detail the process for obtaining refunds in the case of payment instructions being incorrect
-ly executed by the bank.
-\nExample 4:
-Query: What measures are outlined in the terms and conditions to ensure the securi
-ty of your accounts and payment instruments?
-Answer: The terms and conditions lay out your obligations regarding the sec
-urity of your accounts, payments, and payment instruments, along with any corresponding measures implemented by the bank
-.
-\nNow use the following context items to answer the user query:
-{context}
-\nRelevant passages: <extract relevant passa
-ges from the context here>
-User query: {query}
-Answer:'''
-
-    base_prompt = base_prompt.format(context=context, query=q
-uery)
-    
-    # make sure the inputs to the model are in the same way that they have been trained
-    dialogue_template
- = [
-        {
-            'role': 'user',
-            'content': base_prompt
-        }
-    ]
-    prompt = tokenizer.app
-ly_chat_template(conversation=dialogue_template, tokenize=False, add_generation_prompt=True)
-
-    return prompt
-
-def ask
-(query: str, temperature: float=0.2, max_new_tokens: int=256, format_answer_text: bool=True, return_context: bool=False)
-:
-    # -------- RETRIEVAL --------
-    scores, indices = retrieve_relevant_info(query, embs, n_to_retrieve=10)
-    cont
-ext_items = [pages_n_chunks[i] for i in indices]
-    for i, item in enumerate(context_items):
-        item['score'] = sc
-ores[i].cpu()
-
-    # -------- AUGMENTATION --------
-    prompt = prompt_formatter(query, context_items)
-
-    # -------- 
-GENERATION --------
-    input_ids = tokenizer(prompt, return_tensors='pt').to(device)
-    streamer = TextStreamer(tokeni
-zer, skip_prompt=True, skip_special_tokens=True)
-    outputs = llm_model.generate(**input_ids, streamer=streamer, temper
-ature=temperature, do_sample=True, max_new_tokens=max_new_tokens)
-    output_text = tokenizer.decode(outputs[0])
-
-    if
- format_answer_text:
-        output_text = output_text.replace(prompt, '').replace('<bos>', '').replace('<eos>', '')
-
-  
-  # if not return_context:
-        # return output_text
-    
-    # return output_text, context_items
-
-if __name__ == '__
-main__':
-
-    print('Enter a query:\n')
-    query = input()
-    print('estimating ~ estimating ~')
-    ask(query, temper
-ature=0.7, return_context=False)
-```
-```
----
-
-     
- 
-all -  [ I want to make LLM model respond to queries related to a set of retrieved conversation from Vector D ](https://www.reddit.com/r/MLQuestions/comments/1bkywiw/i_want_to_make_llm_model_respond_to_queries/) , 2024-03-25-0910
-```
-Hi, I have created an embedding from multiple conversation of two person and pushed it to Qdrant DB. The retreival works
- good, Now I want to integrate an LLM model which answers queries from the relevant conversation retrieved from the vect
-or DB. I am not sure what to use here. Go with Langchains or LlamaIndex.
-```
----
-
-     
- 
-MachineLearning -  [ [D] : Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/MachineLearning/comments/1b6jv56/d_scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-25-0910
+MachineLearning -  [ [D] : Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/MachineLearning/comments/1b6jv56/d_scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-26-0909
 ```
 Hello everyone,
 
@@ -1739,7 +2041,7 @@ news here - [https://news.ycombinator.com/item?id=39594588](https://news.ycombin
 
      
  
-MachineLearning -  [ [D] What Is Your LLM Tech Stack in Production? ](https://www.reddit.com/r/MachineLearning/comments/1b4sdru/d_what_is_your_llm_tech_stack_in_production/) , 2024-03-25-0910
+MachineLearning -  [ [D] What Is Your LLM Tech Stack in Production? ](https://www.reddit.com/r/MachineLearning/comments/1b4sdru/d_what_is_your_llm_tech_stack_in_production/) , 2024-03-26-0909
 ```
 Curious what everybody is using to implement LLM powered apps for production usage and your experience with these toolin
 gs and advice. 
@@ -1781,7 +2083,7 @@ Edit: correct model Llama2
 
      
  
-deeplearning -  [ Tengyu Ma on Voyage AI - Weaviate Podcast #91! ](https://www.reddit.com/r/deeplearning/comments/1bjft8i/tengyu_ma_on_voyage_ai_weaviate_podcast_91/) , 2024-03-25-0910
+deeplearning -  [ Tengyu Ma on Voyage AI - Weaviate Podcast #91! ](https://www.reddit.com/r/deeplearning/comments/1bjft8i/tengyu_ma_on_voyage_ai_weaviate_podcast_91/) , 2024-03-26-0909
 ```
 **Voyage AI** is the newest giant in the embedding, reranking, and search model game!
 
