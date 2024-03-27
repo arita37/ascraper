@@ -1,5 +1,433 @@
  
-all -  [ Agent is not using a custom tool ](https://www.reddit.com/r/LangChain/comments/1bnmezm/agent_is_not_using_a_custom_tool/) , 2024-03-26-0909
+all -  [ is there any available resourse for async langchain rag agents with hugginface models ](https://www.reddit.com/r/LangChain/comments/1bon5sl/is_there_any_available_resourse_for_async/) , 2024-03-27-0909
+```
+
+```
+---
+
+     
+ 
+all -  [ Codebase + External URL Context for LLM ](https://www.reddit.com/r/LangChain/comments/1bon41r/codebase_external_url_context_for_llm/) , 2024-03-27-0909
+```
+Sorry if this is obvious to most of you, I’m somewhat new. 
+
+My app is currently successfully, in order:
+- Getting URL c
+ontent with document loader
+- Getting file content from a GitHub codebase
+- Sending this to OpenAi model with a prompt
+-
+ Serving the response to my front end
+
+The issue is around token limitation. 
+
+I would love to be able to get the whole 
+codebase along with the reference URL content processed by the LLM and eventually return a single response to my fronten
+d, of course I hit the token limit fast. 
+
+I understand that text splitting and vector stores are the solution, I’ll get
+ my head around that.
+
+My question is, will I end up sending many requests and get many responses from the LLM?
+
+I don’t
+ mind many requests, but I don’t understand how I’ll get a single coherent response to my friend if it’s multiple LLM re
+sponses.
+
+Maybe I’m missing something obvious here. 
+```
+---
+
+     
+ 
+all -  [ Create your AI SaaS for chatbot creation in just one day! ](https://www.reddit.com/r/SaaS/comments/1bomme4/create_your_ai_saas_for_chatbot_creation_in_just/) , 2024-03-27-0909
+```
+As an AI developer deeply engaged in creating cutting-edge solutions, I've recently completed a significant project: a r
+eady-to-integrate API designed for advanced AI creation, tailored for seamless integration into any dashboard. This Adva
+nced AI Chatbot Builder API that use a variety of cutting edge technologies, including Langchain, FastAPI, Gemini, OpenA
+I GPT-4, Pinecone, and robust AI security measures, providing an advanced AI technology stack for any SaaS platform focu
+sed on customizable chatbot solutions. It's crafted to empower businesses and entrepreneurs to offer a scalable, compreh
+ensive chatbot building service, leveraging the latest in AI advancements.  
+I am looking to sell this API to those inte
+rested in developing an AI SaaS platform. The investment for this advanced API is **$10k**. Upon purchase, you will rece
+ive the API within one day, enabling a swift market entry. If you're interested in this opportunity, please reach out to
+ me at **jaberibraheem808@gmail.com**.  
+```
+---
+
+     
+ 
+all -  [ My Video on Memory Chatbots ](https://www.reddit.com/r/LangChain/comments/1bojn3b/my_video_on_memory_chatbots/) , 2024-03-27-0909
+```
+Hey guys, I just created a video on how to build chatbots with memory.
+
+Most of the examples on langchains website are w
+ith open api. I wanted to keep things open source so ise llama from huggingface.
+
+Hope you like it. Any feedback is welc
+ome.
+
+https://youtu.be/gNXBp3wttFU?si=GirGTqe7ThEUFSrx
+```
+---
+
+     
+ 
+all -  [ Round 2: Learning how RAG and Fine-Tuning works. Got some questions regarding LangChain commercial u ](https://www.reddit.com/r/LocalLLaMA/comments/1boj3zv/round_2_learning_how_rag_and_finetuning_works_got/) , 2024-03-27-0909
+```
+
+During the weekends I've been learning about RAG and Fine-Tuning.  So far I've focused on RAG, but had a few questions:
+
+
+1) Is RAG **always** a better option than fine-tuning when I need factual data that's not in the original model? 
+   
+
+2) What exactly does LangChain and LlamaIndex do? Can't I just use Chroma to query content and inject the queried data i
+nto the prompt, or it's a lot more complicated than just injecting additional content? 
+   
+3) Does anybody know of any 
+simplified code examples that show what LangChain and LlamaIndex do? I've found some Reddit post of people saying they r
+olled their implementation and that these frameworks are overkill, I'd love to learn too if that's the case! :)
+   
+4) I
+ see a lot of hate towards LangChain and most people seem to recommend LLamaIndex. Is the hate justified or is this hate
+ due to LangChain being more modular compared to LlamaIndex?
+   
+To be honest, so far LangChain seems to offer more copy
+ and paste examples I can learn from. I use it with **llama.cpp**
+   
+5) Is LangChain free for commercial use? I noticed
+ there's a *pricing* section on their website. I checked their GitHub profile and LangChain seems to be under an MIT lic
+ense. Better to know this before investing more time into it.
+ 
+6) Is LangChain and LlamaIndex only available in Python 
+or JavaScript? I was hoping to use it in c++ or rust.
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ RAGAS vs GISKARD RAG Evaluation ](https://www.reddit.com/r/LangChain/comments/1boiq77/ragas_vs_giskard_rag_evaluation/) , 2024-03-27-0909
+```
+Hi,
+
+my go to tool for RAG Evaluation has been RAGAS so far, but i am not always happy with rhe results. Now I saw a vid
+eo about GISKARD evaluation which also looks promising.
+
+So my question: has anybody some experiene wirh Giskard or both
+, and what do you like better?
+```
+---
+
+     
+ 
+all -  [ Summarize Long Text - Meeting Notes/Minutes ](https://www.reddit.com/r/LocalLLaMA/comments/1bofrq1/summarize_long_text_meeting_notesminutes/) , 2024-03-27-0909
+```
+I have been collecting meeting transcripts, and I would like to have summaries or meeting minutes created from them. Is 
+there a good local solution for doing something like this? I have come across recommendations for using 13b models/langc
+hain. No idea where to start but any help is greatly appreciated. 
+
+Right now, I have tried loading models into Koboldcp
+p with limited success. My ideal situation would be to upload a txt file and run a prompt for the AI to run on it to cre
+ate a summary of the document. Right now, I only have NVDIA 4gb VRAM and 16gb of system RAM. I know I will need to upgra
+de this going forward. 
+
+Anyone doing something like this that can give me some pointers?
+```
+---
+
+     
+ 
+all -  [ Not enough resources to run an LLM locally ](https://www.reddit.com/r/LangChain/comments/1bo8d5h/not_enough_resources_to_run_an_llm_locally/) , 2024-03-27-0909
+```
+I want to build RAG system with a chatbot using an LLM with LangChain framework.
+
+The problem is that I don't have enoug
+h resources to run an LLM locally. I guess I have two options:
+
+1. Looking for a free API that give good results
+
+2. Fin
+ding a free server-like platform to host an LLM
+
+For option 1, do you know some good APIs ?
+
+For option 2, I thought of 
+using Google Colab as a server but wasn't able to exchange messages between my local machine and Colab. I tried ngrok li
+brary but it didn't work. Is there any solution ?
+```
+---
+
+     
+ 
+all -  [ Multi-Agent Conversation using AutoGen and HuggingFace models ](https://www.reddit.com/r/LangChain/comments/1bo5zq9/multiagent_conversation_using_autogen_and/) , 2024-03-27-0909
+```
+Checkout this demo to understand autogen, a Multi-Agent Orchestration python package supporting AI Agents conversations 
+using HuggingFace models. https://youtu.be/NY4_jhPcicw?si=IV29lMJcQ8rvWVij
+```
+---
+
+     
+ 
+all -  [ stream open source LLM ](https://www.reddit.com/r/LangChain/comments/1bo30or/stream_open_source_llm/) , 2024-03-27-0909
+```
+how I can stream agent output using langchain when I use mistralai/Mistral-7B-Instruct-v0.2?
+```
+---
+
+     
+ 
+all -  [ How to Stream LCEL Chain with FastAPI and return source docs? ](https://www.reddit.com/r/LangChain/comments/1bo2k4r/how_to_stream_lcel_chain_with_fastapi_and_return/) , 2024-03-27-0909
+```
+Hi,
+
+I don't get it to run. I want to stream a LCEL RAG chain response using FastAPI. So my question would be how to str
+eam a LCEL chain response and how can I return the whole response, so the dict with the 'answer' and 'docs' keys, where 
+the retrieved docs are inside?
+
+&#x200B;
+
+Here is the code for my chain:
+
+`from langchain_community.vectorstores import 
+FAISS`  
+`from langchain_community.embeddings import HuggingFaceEmbeddings`
+
+`from langchain_core.prompts import PromptT
+emplate, ChatPromptTemplate`  
+`from langchain_core.runnables import RunnableParallel`
+
+`from operator import itemgetter
+`  
+`from typing import TypedDict`
+
+`from fastapi import FastAPI, File, UploadFile, HTTPException, Path, Query`
+
+`embedd
+ings = HuggingFaceEmbeddings(model_name='intfloat/multilingual-e5-large-instruct', model_kwargs={'device': 'mps'})`  
+`d
+b = FAISS.load_local('streamlit_vectorstores/vectorstores/db_maxiw_testfreitag', embeddings, allow_dangerous_deserializa
+tion=True)`
+
+`llm = build_llm(model_path)`
+
+`template = '''`  
+`Beantworte die Frage ausschließlich basierend auf folgen
+den Kontext auf Deutsch:`  
+`{context}`  
+`Frage: {question}`  
+`'''`  
+`ANSWER_PROMPT = ChatPromptTemplate.from_templat
+e(template)`  
+`class RagInput(TypedDict):`  
+ `question: str`  
+
+
+`final_chain = (`  
+ `RunnableParallel(`  
+ `context=
+(itemgetter('question') | db.as_retriever()),`  
+ `question=itemgetter('question')`  
+`) |`  
+ `RunnableParallel(`  
+ `a
+nswer=(ANSWER_PROMPT | llm),`  
+ `docs=itemgetter('context')`  
+`)`  
+`).with_types(input_type=RagInput)`
+
+&#x200B;
+
+`An
+d here my get-endpoint which does not work:`
+
+`u/app.get('/rag_lcel/')`  
+`async def fastapi_stream(question: str):`  
+ 
+`start_time = time.time()`  
+ `first_response = True`  
+ `for resp in final_chain.astream({'question': question}):`  
+ `
+if resp and first_response:`  
+ `# Calculate and print time after the first batch of text is streamed`  
+ `end_time = ti
+me.time()`  
+ `elapsed_time = round(end_time - start_time, 1)`  
+ `first_response = False`   
+ `yield f'(Response Time: 
+{elapsed_time} seconds)\n'`  
+ `yield resp` 
+```
+---
+
+     
+ 
+all -  [ Bug with structured-chat-zero-shot-react-description agent ](https://www.reddit.com/r/LangChain/comments/1bo2hpi/bug_with_structuredchatzeroshotreactdescription/) , 2024-03-27-0909
+```
+When conducting tests, the agent is able to determine the correct tool and parse the prompt to the correct inputs. Howev
+er, often times the agent will finish the chain prematurely without making any observations. 
+
+In my tests, all the prom
+pts have been kept the same and temperature=0. 
+
+I noticed if the agent were to successfully make an observation based o
+n the used tool, it will display this on the terminal.
+
+&#x200B;
+
+https://preview.redd.it/8e70hpm6zmqc1.png?width=506&fo
+rmat=png&auto=webp&s=07df769dc1b062a68c70c61d799ef009facf96a9
+
+Otherwise if it was going the end the chain prematurely i
+t would look like this.
+
+&#x200B;
+
+https://preview.redd.it/gft49igfzmqc1.png?width=532&format=png&auto=webp&s=2ab5f9d08f
+68c8c62bebe4565f35142f95055617
+
+Pardon me if I lack the understanding to solve this, but I am kinda at wits end. Thanks 
+in advance.
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Chat with RTX not opening ](https://www.reddit.com/r/techsupport/comments/1bo1j6p/chat_with_rtx_not_opening/) , 2024-03-27-0909
+```
+This may be a stupid question, but Chat with RTX is not opening properly; instead, I encounter a terminal with an error 
+message. I do not have python installed on my computer, and I cannot seem to install sentence-transformer 2.5.1.   
+Belo
+w is the error message, thanks for your help! :  
+\[03/25/2024-23:33:10\] You try to use a model that was created with v
+ersion 2.5.1, however, your version is 2.2.2. This might cause unexpected behavior or errors. In that case, try to updat
+e to the latest version.  
+╭─────────────────────────────── Traceback (most recent call last) ──────────────────────────
+──────╮  
+│ C:\\Users\\username\\AppData\\Local\\NVIDIA\\ChatWithRTX\\RAG\\trt-llm-rag-windows-main\\app.py:109 in      
+ │  
+│ <module>                                                                                         │  
+│           
+                                                                                       │  
+│   106 )                    
+                                                                      │  
+│   107                                       
+                                                     │  
+│   108 # create embeddings model object                       
+                                    │  
+│ ❱ 109 embed\_model = HuggingFaceEmbeddings(model\_name=embedded\_model)       
+                      │  
+│   110 service\_context = ServiceContext.from\_defaults(llm=llm, embed\_model=embed\_model,  
+         │  
+│   111 │   │   │   │   │   │   │   │   │   │   │      context\_window=model\_config\['max\_input\_to   │  
+
+│   112 │   │   │   │   │   │   │   │   │   │   │      chunk\_overlap=200)                          │  
+│              
+                                                                                    │  
+│ C:\\Users\\username\\AppData\\
+Local\\NVIDIA\\ChatWithRTX\\env\_nvd\_rag\\lib\\site-packages\\langchain\\embeddin │  
+│ gs\\huggingface.py:66 in \_\_in
+it\_\_                                                                 │  
+│                                            
+                                                      │  
+│    63 │   │   │   │   'Please install it with \`pip install 
+sentence-transformers\`.'              │  
+│    64 │   │   │   ) from exc                                               
+                      │  
+│    65 │   │                                                                                 
+     │  
+│ ❱  66 │   │   self.client = sentence\_transformers.SentenceTransformer(                           │  
+│    67
+ │   │   │   self.model\_name, cache\_folder=self.cache\_folder, \*\*self.model\_kwargs           │  
+│    68 │   │   ) 
+                                                                                 │  
+│    69                            
+                                                                │  
+│                                                   
+                                               │  
+│ C:\\Users\\username\\AppData\\Local\\NVIDIA\\ChatWithRTX\\env\_nvd\
+_rag\\lib\\site-packages\\sentence\_transform │  
+│ ers\\SentenceTransformer.py:95 in \_\_init\_\_                      
+                                  │  
+│                                                                                 
+                 │  
+│    92 │   │   │   │   │   │   │   │   │   │   use\_auth\_token=use\_auth\_token)                 
+    │  
+│    93 │   │   │                                                                                  │  
+│    94 │
+   │   │   if os.path.exists(os.path.join(model\_path, 'modules.json')):    #Load as Sen   │  
+│ ❱  95 │   │   │   │   m
+odules = self.\_load\_sbert\_model(model\_path)                               │  
+│    96 │   │   │   else:   #Load with
+ AutoModel                                                   │  
+│    97 │   │   │   │   modules = self.\_load\_auto\_mo
+del(model\_path)                                │  
+│    98                                                             
+                               │  
+│                                                                                    
+              │  
+│ C:\\Users\\username\\AppData\\Local\\NVIDIA\\ChatWithRTX\\env\_nvd\_rag\\lib\\site-packages\\sentenc
+e\_transform │  
+│ ers\\SentenceTransformer.py:840 in \_load\_sbert\_model                                              
+│  
+│                                                                                                  │  
+│   837 │   │
+   modules = OrderedDict()                                                            │  
+│   838 │   │   for module\_co
+nfig in modules\_config:                                               │  
+│   839 │   │   │   module\_class = import\_f
+rom\_string(module\_config\['type'\])                       │  
+│ ❱ 840 │   │   │   module = module\_class.load(os.path.
+join(model\_path, module\_config\['path'\]))    │  
+│   841 │   │   │   modules\[module\_config\['name'\]\] = module    
+                                    │  
+│   842 │   │                                                                   
+                   │  
+│   843 │   │   return modules                                                                   
+  │  
+│                                                                                                  │  
+│ C:\\Users
+\\username\\AppData\\Local\\NVIDIA\\ChatWithRTX\\env\_nvd\_rag\\lib\\site-packages\\sentence\_transform │  
+│ ers\\model
+s\\Pooling.py:120 in load                                                                │  
+│                          
+                                                                        │  
+│   117 │   │   with open(os.path.join(input
+\_path, 'config.json')) as fIn:                         │  
+│   118 │   │   │   config = json.load(fIn)                 
+                                       │  
+│   119 │   │                                                                
+                      │  
+│ ❱ 120 │   │   return Pooling(\*\*config)                                                    
+       │  
+│   121                                                                                            │  
+╰─────
+─────────────────────────────────────────────────────────────────────────────────────────────╯  
+TypeError: Pooling.\_\_
+init\_\_() got an unexpected keyword argument 'pooling\_mode\_weightedmean\_tokens'  
+Press any key to continue . . .  
+
+
+```
+---
+
+     
+ 
+all -  [ Accessing Local LLMs using Ollama  ](https://www.reddit.com/r/learnmachinelearning/comments/1bnz7vm/accessing_local_llms_using_ollama/) , 2024-03-27-0909
+```
+In my 150th blog post, I've discussed how to access local LLMs (including multi-modal) using Ollama without any codes an
+d integration with python and LangChain as well for building Generative AI applications: https://medium.com/data-science
+-in-your-pocket/local-llms-using-ollama-3f631b855e8f
+```
+---
+
+     
+ 
+all -  [ Agent is not using a custom tool ](https://www.reddit.com/r/LangChain/comments/1bnmezm/agent_is_not_using_a_custom_tool/) , 2024-03-27-0909
 ```
 Hello,
 
@@ -117,7 +545,7 @@ Thank you in advance.
 
      
  
-all -  [ How to enable streaming in SagemakerEndpoint ](https://www.reddit.com/r/LangChain/comments/1bnlwrj/how_to_enable_streaming_in_sagemakerendpoint/) , 2024-03-26-0909
+all -  [ How to enable streaming in SagemakerEndpoint ](https://www.reddit.com/r/LangChain/comments/1bnlwrj/how_to_enable_streaming_in_sagemakerendpoint/) , 2024-03-27-0909
 ```
 Hey everyone, 
 
@@ -139,15 +567,7 @@ ow, I'm a bit perplexed. Any ideas on how to tackle this problem? Your help woul
 
      
  
-all -  [ Harrison Chase: LangChain and The Future of LLM Applications | Alejandro AO - YouTube ](https://news.google.com/atom/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OEU2dVBCNFUwRTjSAQA?oc=5&hl=en-US&gl=US&ceid=US:en) , 2024-03-26-0909
-```
-
-```
----
-
-     
- 
-all -  [ Update: Langtrace Preview: Opensource LLM monitoring tool - achieving better cardinality compared to ](https://www.reddit.com/r/LangChain/comments/1bnkvtv/update_langtrace_preview_opensource_llm/) , 2024-03-26-0909
+all -  [ Update: Langtrace Preview: Opensource LLM monitoring tool - achieving better cardinality compared to ](https://www.reddit.com/r/LangChain/comments/1bnkvtv/update_langtrace_preview_opensource_llm/) , 2024-03-27-0909
 ```
 This is a follow up for: [https://www.reddit.com/r/LangChain/comments/1b6phov/update\_langtrace\_preview\_an\_opensource
 \_llm/](https://www.reddit.com/r/LangChain/comments/1b6phov/update_langtrace_preview_an_opensource_llm/)  
@@ -195,7 +615,7 @@ idth=3000&format=png&auto=webp&s=e8374335d6e5b5a7ff04f1ea1408f74f9dce1698
 
      
  
-all -  [ Best way to do indexing and pull in other data sources when working with LangChain and datasets > 10 ](https://www.reddit.com/r/LangChain/comments/1bnkgfb/best_way_to_do_indexing_and_pull_in_other_data/) , 2024-03-26-0909
+all -  [ Best way to do indexing and pull in other data sources when working with LangChain and datasets > 10 ](https://www.reddit.com/r/LangChain/comments/1bnkgfb/best_way_to_do_indexing_and_pull_in_other_data/) , 2024-03-27-0909
 ```
 I'm trying to understand what are typical workflows for users/teams especially in production when working with datasets 
 that are > 10+ GB.  
@@ -216,7 +636,7 @@ es with LangSmith and can share experiences about it ?
 
      
  
-all -  [ FREE Email Course on LangChain (Basics + Applications + Coding + Colab Notebook all included) (8 Day ](https://www.reddit.com/r/AICareer/comments/1bnikze/free_email_course_on_langchain_basics/) , 2024-03-26-0909
+all -  [ FREE Email Course on LangChain (Basics + Applications + Coding + Colab Notebook all included) (8 Day ](https://www.reddit.com/r/AICareer/comments/1bnikze/free_email_course_on_langchain_basics/) , 2024-03-27-0909
 ```
 Discover how LangChain, an innovative open-source framework, simplifies the construction of advanced applications such a
 s sentiment analysis tools and chatbots by bridging language models with external data. Dive into the core components of
@@ -229,7 +649,7 @@ orefront of innovation.
 
      
  
-all -  [ Can someone please help to know how to tune context/retriever in the langchain? ](https://www.reddit.com/r/LangChain/comments/1bnfpd0/can_someone_please_help_to_know_how_to_tune/) , 2024-03-26-0909
+all -  [ Can someone please help to know how to tune context/retriever in the langchain? ](https://www.reddit.com/r/LangChain/comments/1bnfpd0/can_someone_please_help_to_know_how_to_tune/) , 2024-03-27-0909
 ```
 I am using ChromaDb as my vectorstore. 
 
@@ -276,7 +696,7 @@ Here When I am going over the logs. The {context} is populated with irrelevant o
 
      
  
-all -  [ Interactive LLM scripting playground ](https://www.reddit.com/r/LangChain/comments/1bndoz4/interactive_llm_scripting_playground/) , 2024-03-26-0909
+all -  [ Interactive LLM scripting playground ](https://www.reddit.com/r/LangChain/comments/1bndoz4/interactive_llm_scripting_playground/) , 2024-03-27-0909
 ```
 Hey guys. I'm making an interactive LLM scripting playground - like the OpenAI playground, but using javascript so you c
 an do some fancy stuff. Please take a look and give me some feedback. (Not LangChain, but pretty closely releated)
@@ -289,7 +709,7 @@ tion=1&showSidebar=0)
 
      
  
-all -  [ Structured Chat Agent Formatting Help ](https://www.reddit.com/r/LangChain/comments/1bnd7yc/structured_chat_agent_formatting_help/) , 2024-03-26-0909
+all -  [ Structured Chat Agent Formatting Help ](https://www.reddit.com/r/LangChain/comments/1bnd7yc/structured_chat_agent_formatting_help/) , 2024-03-27-0909
 ```
 Does anyone know how to adjust the format instructions when using the structured chat agent? It avoids displaying the Ob
 servation and sometimes cuts out the Thought process despite indicating the format instructions in the prompt. I am tryi
@@ -299,7 +719,7 @@ ng to use this agent to connect with an SQL database.
 
      
  
-all -  [ How to  create a openai compactible local server using langchain  ](https://www.reddit.com/r/LangChain/comments/1bnclwv/how_to_create_a_openai_compactible_local_server/) , 2024-03-26-0909
+all -  [ How to  create a openai compactible local server using langchain  ](https://www.reddit.com/r/LangChain/comments/1bnclwv/how_to_create_a_openai_compactible_local_server/) , 2024-03-27-0909
 ```
 Hey there im looking create a robot which uses llm as way of interaction. I want the entire system to be local hosted us
 ing langchain (due to the option for customising promt as well as other parameters)
@@ -320,7 +740,7 @@ Can anyone please help
 
      
  
-all -  [ Error while executing langchain model ](https://www.reddit.com/r/LangChain/comments/1bnc8ol/error_while_executing_langchain_model/) , 2024-03-26-0909
+all -  [ Error while executing langchain model ](https://www.reddit.com/r/LangChain/comments/1bnc8ol/error_while_executing_langchain_model/) , 2024-03-27-0909
 ```
  
 
@@ -522,7 +942,7 @@ IndexError: list index out of range
 
      
  
-all -  [ Error while executing langchain model ](https://www.reddit.com/r/learnpython/comments/1bna9a1/error_while_executing_langchain_model/) , 2024-03-26-0909
+all -  [ Error while executing langchain model ](https://www.reddit.com/r/learnpython/comments/1bna9a1/error_while_executing_langchain_model/) , 2024-03-27-0909
 ```
 Hi All,
 
@@ -726,7 +1146,7 @@ Surya
 
      
  
-all -  [ Please explain response evaluation Flow, llama index ](https://www.reddit.com/r/LangChain/comments/1bn9mt2/please_explain_response_evaluation_flow_llama/) , 2024-03-26-0909
+all -  [ Please explain response evaluation Flow, llama index ](https://www.reddit.com/r/LangChain/comments/1bn9mt2/please_explain_response_evaluation_flow_llama/) , 2024-03-27-0909
 ```
     evaluator_c = CorrectnessEvaluator(llm=eval_llm)
     evaluator_s = SemanticSimilarityEvaluator()
@@ -814,7 +1234,7 @@ I really don't understand, please explain
 
      
  
-all -  [ Seeking Advice on Routing User Queries to Specific Endpoints for Natural Language Search ](https://www.reddit.com/r/LangChain/comments/1bn9m6m/seeking_advice_on_routing_user_queries_to/) , 2024-03-26-0909
+all -  [ Seeking Advice on Routing User Queries to Specific Endpoints for Natural Language Search ](https://www.reddit.com/r/LangChain/comments/1bn9m6m/seeking_advice_on_routing_user_queries_to/) , 2024-03-27-0909
 ```
 Hello everyone,
 
@@ -834,7 +1254,7 @@ I'm seeking guidance on how to effectively route user queries from the search in
 
      
  
-all -  [ Context length Issue of gemini-1.0-pro-001 ](https://www.reddit.com/r/Bard/comments/1bn8ypy/context_length_issue_of_gemini10pro001/) , 2024-03-26-0909
+all -  [ Context length Issue of gemini-1.0-pro-001 ](https://www.reddit.com/r/Bard/comments/1bn8ypy/context_length_issue_of_gemini10pro001/) , 2024-03-27-0909
 ```
 At vertex AI Prompt UI I am able to use longer  text (20k) token and get a response however when i am invoking the same 
 model from my program I get the following error :-  
@@ -1198,7 +1618,7 @@ ns.from_grpc_error(exc) from exc
 
      
  
-all -  [ Examples of Langchain Python scripts of a central agent coordinating multi agents ](https://www.reddit.com/r/MLQuestions/comments/1bn8mb1/examples_of_langchain_python_scripts_of_a_central/) , 2024-03-26-0909
+all -  [ Examples of Langchain Python scripts of a central agent coordinating multi agents ](https://www.reddit.com/r/MLQuestions/comments/1bn8mb1/examples_of_langchain_python_scripts_of_a_central/) , 2024-03-27-0909
 ```
 Hey guys, using Langchain, does anyone have any example Python scripts of a central agent coordinating multi agents (ie.
  this is a multi agent framework rather than a multi tool framework).
@@ -1212,7 +1632,7 @@ Would really appreciate any help on this.
 
      
  
-all -  [ Examples of Langchain Python scripts of a central agent coordinating multi agents ](https://www.reddit.com/r/LanguageTechnology/comments/1bn8lmk/examples_of_langchain_python_scripts_of_a_central/) , 2024-03-26-0909
+all -  [ Examples of Langchain Python scripts of a central agent coordinating multi agents ](https://www.reddit.com/r/LanguageTechnology/comments/1bn8lmk/examples_of_langchain_python_scripts_of_a_central/) , 2024-03-27-0909
 ```
 Hey guys, using Langchain, does anyone have any example Python scripts of a central agent coordinating multi agents (ie.
  this is a multi agent framework rather than a multi tool framework).  
@@ -1226,7 +1646,7 @@ Would really appreciate any help on this.
 
      
  
-all -  [ Language translation in Langchain ](https://www.reddit.com/r/LangChain/comments/1bn8j9f/language_translation_in_langchain/) , 2024-03-26-0909
+all -  [ Language translation in Langchain ](https://www.reddit.com/r/LangChain/comments/1bn8j9f/language_translation_in_langchain/) , 2024-03-27-0909
 ```
 I have come across an application that requires translating the prompt from one English to French; since the training da
 ta is in French (for easy retrieval). Do I need to use a third party library to achieve this or can langchain do that fo
@@ -1252,7 +1672,7 @@ English
 
      
  
-all -  [ Sharing RAG evaluation dataset made with LLM research articles. ](https://www.reddit.com/r/LocalLLaMA/comments/1bn7yi7/sharing_rag_evaluation_dataset_made_with_llm/) , 2024-03-26-0909
+all -  [ Sharing RAG evaluation dataset made with LLM research articles. ](https://www.reddit.com/r/LocalLLaMA/comments/1bn7yi7/sharing_rag_evaluation_dataset_made_with_llm/) , 2024-03-27-0909
 ```
 Hello. I made RAG evaluation dataset for LLM research articles.
 
@@ -1285,7 +1705,7 @@ Hope this can helps to evaluate RAG system. Thank you!
 
      
  
-all -  [ How do I amend this script which uses Langchain's 'ConversationChain' and 'ConversationBufferMemory' ](https://www.reddit.com/r/MLQuestions/comments/1bn62ny/how_do_i_amend_this_script_which_uses_langchains/) , 2024-03-26-0909
+all -  [ How do I amend this script which uses Langchain's 'ConversationChain' and 'ConversationBufferMemory' ](https://www.reddit.com/r/MLQuestions/comments/1bn62ny/how_do_i_amend_this_script_which_uses_langchains/) , 2024-03-27-0909
 ```
 I have this Python script below:
 
@@ -1378,7 +1798,7 @@ Output:
 
      
  
-all -  [ How do I amend this script which uses Langchain's 'ConversationChain' and 'ConversationBufferMemory' ](https://www.reddit.com/r/LanguageTechnology/comments/1bn60kq/how_do_i_amend_this_script_which_uses_langchains/) , 2024-03-26-0909
+all -  [ How do I amend this script which uses Langchain's 'ConversationChain' and 'ConversationBufferMemory' ](https://www.reddit.com/r/LanguageTechnology/comments/1bn60kq/how_do_i_amend_this_script_which_uses_langchains/) , 2024-03-27-0909
 ```
 I have this Python script below:
 
@@ -1462,7 +1882,7 @@ Output:'You asked about Spain.'
 
      
  
-all -  [ How do I amend this script which uses Langchain's 'ConversationChain' and 'ConversationBufferMemory' ](https://www.reddit.com/r/ArtificialInteligence/comments/1bn5xbj/how_do_i_amend_this_script_which_uses_langchains/) , 2024-03-26-0909
+all -  [ How do I amend this script which uses Langchain's 'ConversationChain' and 'ConversationBufferMemory' ](https://www.reddit.com/r/ArtificialInteligence/comments/1bn5xbj/how_do_i_amend_this_script_which_uses_langchains/) , 2024-03-27-0909
 ```
 I have this Python script below:
 
@@ -1546,7 +1966,7 @@ Output:'You asked about Spain.'
 
      
  
-all -  [ Looking for developer job in Dublin ](https://www.reddit.com/r/DevelEire/comments/1bn3zgo/looking_for_developer_job_in_dublin/) , 2024-03-26-0909
+all -  [ Looking for developer job in Dublin ](https://www.reddit.com/r/DevelEire/comments/1bn3zgo/looking_for_developer_job_in_dublin/) , 2024-03-27-0909
 ```
 Hi folks, I am a Full stack developer from India with 3 years of experience.
 
@@ -1564,7 +1984,7 @@ lease guide me to find them. Thank you in advance.
 
      
  
-all -  [ ChromaDB query question  ](https://www.reddit.com/r/LangChain/comments/1bn3rqu/chromadb_query_question/) , 2024-03-26-0909
+all -  [ ChromaDB query question  ](https://www.reddit.com/r/LangChain/comments/1bn3rqu/chromadb_query_question/) , 2024-03-27-0909
 ```
 What's the best way to query on metadata on ChromaDB? I know there are many alternative vector databases that offer more
  robust solutions, but I'm just experimenting with open source databases to do some Proof of concept work in the making.
@@ -1574,448 +1994,7 @@ What's the best way to query on metadata on ChromaDB? I know there are many alte
 
      
  
-all -  [ When to use bind_tools, when to use bind_functions ](https://www.reddit.com/r/LangChain/comments/1bn3rmm/when_to_use_bind_tools_when_to_use_bind_functions/) , 2024-03-26-0909
-```
-As I was reading through LangChain's documentation and case studies, while using the tools, I noticed that it sometimes 
-uses the `bind_tools` method, but sometimes it uses the `bind_functions` method. And of course, they have different CONV
-ERT methods when using the corresponding methods. This is causing me a lot of confusion, and I hope one of you kind soul
-s can help me with this!
-------
-Edit:
-I noticed this article: `https://community.openai.com/t/functions-vs-tools-what-is
--the-difference/603277/2` ,`https://python.langchain.com/docs/modules/agents/agent_types/openai_functions_agent` so is L
-angChain designed to be compatible with OpenAI. can I use tools instead of the function?
-```
----
-
-     
- 
-all -  [ How important is the content of the documentation when implementing RAG? ](https://www.reddit.com/r/LangChain/comments/1bn2w00/how_important_is_the_content_of_the_documentation/) , 2024-03-26-0909
-```
-Let's say the document is in Markdown format.
-
-If the Markdown format is not properly divided into the body text, is thi
-s very bad to use as data?
-
-&#x200B;
-
-Or what documents and formats are the best data?
-```
----
-
-     
- 
-all -  [ [3 YoE] Trying to find job with visa sponsor to work at Germany ](https://www.reddit.com/r/EngineeringResumes/comments/1bmy0v2/3_yoe_trying_to_find_job_with_visa_sponsor_to/) , 2024-03-26-0909
-```
-Hi, since last week I've been applying to software engineer positions in Germany through LinkedIn, but I haven't receive
-d any positive responses, so no interviews at the moment. I was using the LinkedIn template, but today I found this subr
-eddit, read the wiki, and built this CV. I'm looking for opinions about what I can improve, add, or remove. Thanks. 
-
-&#
-x200B;
-
-https://preview.redd.it/gutl5kv03dqc1.png?width=5100&format=png&auto=webp&s=429af78669a024347a0087c103d90a08bce7
-e7cc
-```
----
-
-     
- 
-all -  [ Here is the largest collection of fine-tuning notebooks for Language Language Models (LLMs), which i ](https://www.reddit.com/r/machinelearningnews/comments/1bmuxgt/here_is_the_largest_collection_of_finetuning/) , 2024-03-26-0909
-```
-1. Instruction based data prepare using OpenAI  
-2. Optimal Fine-Tuning using the Trainer API: From Training to Model In
-ference  
-3. Efficient Fine-tuning and inference LLMs with PEFT and LoRA  
-4. Efficient Fine-tuning and inference LLMs A
-ccelerate  
-5. Efficient Fine-tuning with T5  
-6. Train Large Language Models with LoRA and Hugging Face  
-7. Fine-Tune 
-Your Own Llama 2 Model in a Colab Notebook  
-8. Guanaco Chatbot Demo with LLaMA-7B Model  
-9. PEFT Finetune Bloom 560m t
-agger  
-10. Finetune Meta OPT-6-1b\_Model\_bnb\_peft  
-11. Finetune Falcon-7b with BNB Self Supervised Training  
-12. Fi
-neTune LLaMa2 with QLoRa  
-13. Stable Vicuna 13B 8bit in Colab  
-14. GPT-Neo-X 20B bnb2bit training  
-15. MPT instruct 3
-0B Model Training  
-16. RLHF\_Training\_for\_CustomDataset\_for\_AnyModel  
-17. Fine tuning Microsoft\_Phi\_1\_5b on cus
-tom dataset(dialogstudio)  
-18. Finetuning OpenAI GPT3.5 Turbo  
-19. Finetuning Mistral-7b FineTuning Model using Autotr
-ain-advanced. special shoutout to its creator [🚀 Abhishek Thakur](https://www.linkedin.com/in/ACoAAAL1AE0BCC3EHeSe-q9ul8
-j33fC3gKHb1lc) (GPU Poor No More)! 🤗  
-20. RAG LangChain Tutorial  
-21. Mistral AI Finetuning using SftTrainer.  
-22. Mi
-stral DPO Trainer  
-23. LLM Sharding  
-24. Integrating Unstructured and Graph Knowledge with Neo4j and LangChain for Enh
-anced Question  
-25. vLLM Benchmarking  
-26. Milvus Vector Database  
-27. LLM Decoding Strategies  
-28. Peft QLora SageM
-aker Training  
-29. Optimize Single Model SageMaker Endpoint  
-30. Multi Adapter Inference  
-31. Inf2 LLM SM Deployment
-
-
-Github: [https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Training-
-and-Inferencing](https://github.com/ghimiresunil/LLM-PowerHouse-A-Curated-Guide-for-Large-Language-Models-with-Custom-Tr
-aining-and-Inferencing)
-```
----
-
-     
- 
-all -  [ I need help with PrivateGPT + UI + NVIDIA ](https://www.reddit.com/r/LocalLLaMA/comments/1bmu7c0/i_need_help_with_privategpt_ui_nvidia/) , 2024-03-26-0909
-```
-I have been stuck on this for two days.
-
-Here's my setup:Ryzen 5900x, 128gb RAM
-
-2x RTX 3060 12gb (24gb VRAM total)
-
-&#x
-200B;
-
-I am trying to run privateGPT so that I can have it analyze my documents and I can ask it questions.
-
-I would lov
-e to use the UI feature and ALSO use nvidia gpu.
-
-However, it seems like if i run the NVIDIA code:
-
-    $env:CMAKE_ARGS=
-'-DLLAMA_CUBLAS=on';
-    poetry run pip install --force-reinstall --no-cache-dir llama-cpp-python
-
-&#x200B;
-
-it uninstal
-ls everything that the UI code installs:
-
-    poetry install --extras 'ui'
-
-I genuinely have no idea what to do.
-
-&#x200
-B;
-
-I also have tried using chatdocs, but everytime i try to install it it just keeps installing different verions of it
-s dependencies:
-
-    Downloading langchain-0.0.242-py3-none-any.whl.metadata (14 kB) Downloading langchain-0.0.240-py3-n
-one-any.whl.metadata (14 kB) Downloading 
-    langchain-0.0.239-py3-none-any.whl.metadata (14 kB) Downloading 
-    langc
-hain-0.0.238-py3-none-any.whl.metadata (14 kB) Downloading langchain-0.0.237-py3-none-any.whl.metadata (14 kB) Collectin
-g langsmith<0.0.11,>=0.0.10 (from langchain>=0.0.181->chatdocs) Downloading langsmith-0.0.10-py3-none-any.whl.metadata (
-8.7 kB) Collecting langchain>=0.0.181 (from chatdocs) Downloading langchain-0.0.236-py3-none-any.whl.metadata (14 kB) Do
-wnloading langchain-0.0.235-py3-none-any.whl.metadata (14 kB) Collecting langsmith<0.0.8,>=0.0.7 (from langchain>=0.0.18
-1->chatdocs) Downloading langsmith-0.0.7-py3-none-any.whl.metadata (8.6 kB) Collecting langchain>=0.0.181 (from chatdocs
-) Downloading langchain-0.0.234-py3-none-any.whl.metadata (14 kB) Collecting langsmith<0.0.6,>=0.0.5 (from langchain>=0.
-0.181->chatdocs) Downloading langsmith-0.0.5-py3-none-any.whl.metadata (8.6 kB)
-
-PLEASE HELP ME
-```
----
-
-     
- 
-all -  [ New user beginning guide: from total noob to well-informed user, part 2/3 ](https://www.reddit.com/r/LocalLLaMA/comments/1bmu4qz/new_user_beginning_guide_from_total_noob_to/) , 2024-03-26-0909
-```
-**# LLM loader overload**
-
-There are many LLM loaders/engines, most of them rely on llama.cpp, but you don’t have to wor
-ry about it for now. You can find many other “easy” options here, for example:
-
-[https://www.reddit.com/r/LocalLLaMA/com
-ments/12s71wm/easy\_guide\_to\_run\_models\_on\_cpugpu\_for\_noobs\_like/](https://www.reddit.com/r/LocalLLaMA/comments/
-12s71wm/easy_guide_to_run_models_on_cpugpu_for_noobs_like/)
-
-[https://www.reddit.com/r/LocalLLaMA/comments/1am0p48/revie
-w\_of\_10\_ways\_to\_run\_llms\_locally/](https://www.reddit.com/r/LocalLLaMA/comments/1am0p48/review_of_10_ways_to_run_
-llms_locally/) (great post!)
-
-That last one makes an excellent point I will keep emphasizing through this post: “there i
-s no single right answer \[which one\] you should pick. \[There are\] few aspects \[…\] between these tools, and you can
- decide which aspect you care about” and lists questions to consider helping you decide which one is right for you.
-
-If 
-you know how to set up a Python environment, clone git repository, get dependencies, compile yourself (or want to learn 
-how to do those things), then these are the best to get started “developing something on your own”:
-
-[https://github.com
-/ggerganov/llama.cpp/](https://github.com/ggerganov/llama.cpp/) (it does have a web GUI, see documentation)
-
-[https://gi
-thub.com/oobabooga/text-generation-webui/](https://github.com/oobabooga/text-generation-webui/)
-
-If you feel brave, like
- to tinker, and experiment, or don't like “double-click here” and “click next” technology, there are plenty of other opt
-ions for you:
-
-[https://www.reddit.com/r/LocalLLaMA/comments/1847qt6/llm\_webui\_recommendations/](https://www.reddit.co
-m/r/LocalLLaMA/comments/1847qt6/llm_webui_recommendations/)
-
-[https://www.reddit.com/r/LocalLLaMA/comments/16eoozu/best\
-_software\_webgui/](https://www.reddit.com/r/LocalLLaMA/comments/16eoozu/best_software_webgui/)
-
-But really, don’t go ov
-erboard, for now, it is just a waste of time. If LM Studio, or GPT4All, or Jan, or Ollama works for you and does what yo
-u want, I recommend stopping. But if you want to get to a more “advanced level”, you’ll need to learn how to run other o
-ptions eventually. But don’t worry about it for now, I’ll tell you when. (C)
-
-**# Loader/engine and quantization**
-
-What
- are the differences between vLLM, llama.cpp, and others? Do you always have to use these frameworks? Are they used only
- to load the quantized model?
-
-Let's start with an analogy: a JPG file by itself is not very useful. You need some softw
-are to display its content and then different software to change (edit) it. MS Paint is perfectly fine for both, and the
-re are 100s of other options. But you know, I’m not a computer-graphic-photo-editor-expert, just give me the best! Great
-, here is Adobe Photoshop, $1000 please. Even if it were free, I bet 99% of users would be very unhappy with Photoshop. 
-But you wanted the best, and here it is, so stop complaining!
-
-LLM is just a big binary file which contains a particular
- type of neural network (Transformer) in a particular format (Torch, TensorFlow, …). So yes, you need some software that
- will load LLM and allow you to interact with it, just like you need a graphic viewer to see a JPG file, and another sof
-tware to edit it (or software that does both).
-
-But still, you ask, what is it about LLM + Torch + GPU that makes it so 
-special? Recall matrix-matrix multiplication, or inversion, or factorization. Anything bigger than 3×3 is a pain in the 
-ass to do manually, and it is only 18 (9×2) numbers! Now imagine you have to multiply (or invert, or factor) two matrice
-s, say 1Mx1M. The “best” library to do that on a CPU is BLAS (+LAPACK for other matrix operations), but this is just for
- “normal” 2D matrices. Now generalize that to 3D, 4D, any-D matrices. It is completely doable in NumPy and SciPy (which 
-themselves call BLAS+LAPACK), but Torch was developed specifically for that purpose (operating on multi-D arrays), and i
-t turns out the GPU does it much better (faster) than the CPU. Neural networks (not only Transformer) need to do a lot o
-f matrix-matrix and matrix-vector operations (in 3-,4-,5-D). So LLM + Torch + GPU is not necessary in theoretical sense,
- but it is necessary in practical sense to get results (trained LLM) in days-to-weeks instead of months-to-years. To see
- what it takes to train a new LLM from scratch, see “Creating Parameters” on this blog, it is not for the faint of heart
- (or poor):
-
-[https://christophergs.com/blog/intro-to-large-language-models-llms](https://christophergs.com/blog/intro-t
-o-large-language-models-llms)
-
-Llama.cpp is great, and most software (all I listed earlier: LM Studio, Jan, GPT4All, Oll
-ama) use that. I haven't used vLLM, but it is the same purpose: “Easy, fast, and cheap LLM serving for everyone” (quote 
-from their webpage).
-
-Llama.cpp can load the full model, but if you are “home user” (like me) this is irrelevant, see “R
-equirements and inference speed” section. Yes, you can load 30-70B model into RAM (assuming enough RAM), and it will wor
-k, but it will be too slow for practical use. If you really want to run a full model, it is much more efficient to rent 
-a GPU from an AI cloud provider, there are other posts on how to do that and what are good practical options.
-
-Quantizat
-ion is another giant topic. “Running your first inference” section describes the easiest and fastest way to get started:
- CPU/RAM + GUI loader based on llama.cpp + GGUF. If you have to optimize for RAM/VRAM, start with 4bit. There is no poin
-t discussing full/bigger models unless you have tons of VRAM (see “Requirements and inference speed” section). Even in t
-hat case, if you are a beginner, you should start with something small, fast, and easy. Once you figure out how it works
-, go for whatever your hardware can support. There are excellent posts with all the info you need to get started:
-
-[http
-s://www.reddit.com/r/LocalLLaMA/comments/1anb2fz/guide\_to\_choosing\_quants\_and\_engines/](https://www.reddit.com/r/Lo
-calLLaMA/comments/1anb2fz/guide_to_choosing_quants_and_engines/)
-
-[https://www.reddit.com/r/LocalLLaMA/comments/1ayd4xr/
-for\_those\_who\_dont\_know\_what\_different\_model/](https://www.reddit.com/r/LocalLLaMA/comments/1ayd4xr/for_those_who
-_dont_know_what_different_model/)
-
-But don’t worry about it for now, I’ll tell you when. (D)
-
-**# Deployment**
-
-What is 
-the best platform and best practices on the deployment phase? Do I need LLM available via API?
-
-Looking for “best” if yo
-u don’t even know what you are asking is a failing strategy. Photoshop is the best graphics software, yet I doubt most o
-f us would use it even if it was free.
-
-Yes, you’ll need LLM available via API. Llama.cpp does that, and loaders based o
-n it should be able to do that, just double-check documentation. LM Studio and Jan can run an API server which you can a
-ccess remotely (by “remotely” I mean through API call from the same or different computer on your home network), and bot
-h have ready to use examples in Python.
-
-At this point, you should go back to parts I marked (A), (B), (C), (D) and work
- to understand the rest. Search the web (see “Next steps” section), there are plenty of tutorials that show step-by-step
- instructions for different use cases.
-
-**# Orchestrator**
-
-LangChain seems to be the most popular, but is it the one to
- go for?
-
-Sure, you can go for LangChain. But before you get to that, first you need to be able to run your interference
-, and then run inference server, and then learn how to interact with that server via cURL, or Python, or Node.js (or som
-ething like that), then program chatbot so that it maintains conversation continuity, at least within a single chat sess
-ion. Memory and chat continuity is not automatic, LLM itself has no memory. Once you can do that, then start thinking ab
-out “orchestrator”.
-
-I find LangChain awkward and heavy for simple (conceptually) things. Somehow, it became very popula
-r and propagated through many popular LLM projects. I don't know why. But there are plenty of alternatives. I like, and 
-I used Microsoft’s AutoGen, it is great for an agent use case. Txtai looks great, I looked at their examples, they are c
-lear, there are many positive posts here with follow up from developers, I would start with that. There is LamaIndex, La
-ngroid (for agents), I haven’t used them, but I’m impressed by their documentation, tutorials, and practical examples. I
-'m sure there are many more.
-
-As this point, you should go back to parts I marked (A), (B), (C), (D) and work to underst
-and the rest. Search the web (see “Next steps” section), there are plenty of tutorials that show step-by-step instructio
-ns for different use cases. But first, you need to understand what you want the “orchestrator” to do, and then look for 
-software that allows you to do that, not the other way around.
-
-**# RAG (Retrieval-Augmented Generation)**
-
-Sounds cool,
- I want it!
-
-I assume that by RAG you mean chunking, embedding, store in vector database, then compare with prompt, and 
-add relevant chunks into the prompt as additional context. Until you are proficient in most of the above, then text embe
-dding, then vector database, then prompt manipulation, then a chatbot (that has conversation memory), my advice is not t
-o bother with your own implementation. There are plenty of options available to use:
-
-[https://www.reddit.com/r/LocalLLa
-MA/comments/18jimix/help\_me\_choose\_need\_local\_rag\_options\_for/](https://www.reddit.com/r/LocalLLaMA/comments/18ji
-mix/help_me_choose_need_local_rag_options_for/)
-
-I used GPT4All and several others from the list, they all work perfectl
-y fine, but some technical skills are needed, see “LLM loader overload” section.
-
-At this point, you should go back to p
-arts I marked (A), (B), (C), (D) and work to understand the rest. Search the web (see “Next steps” section), there are p
-lenty of tutorials that show step-by-step instructions for different use cases. But first, you need to understand what y
-ou want your “RAG” to do, and then look for software that allows you to do that, not the other way around.
-
-Continuing i
-n part 3/3… 
-```
----
-
-     
- 
-all -  [ Efficiently Implementing Looping and Memory Storage for Disease Descriptions with LangChain ](https://www.reddit.com/r/LangChain/comments/1bmrp3x/efficiently_implementing_looping_and_memory/) , 2024-03-26-0909
-```
-I'm currently working on a project that involves creating a comprehensive knowledge base for various diseases and their 
-corresponding treatments. For this, I've chosen to use LangChain (LangGraph).
-
-My challenge involves processing a list o
-f records, each associated with different diseases. The goal is to fetch the description of each disease from an externa
-l API and then store this information in a way that can be efficiently reused. Specifically, I want to avoid making repe
-ated API calls for diseases that have already been queried and instead, read their descriptions from a form of 'memory' 
-or cache.
-
-Given the unique capabilities of LangChain for managing knowledge and interacting with data, I'm looking for 
-advice on how to best implement this logic. The ideal solution would involve:
-
-1. Looping through a list of disease reco
-rds.
-2. Checking if the disease's description is already stored in memory (to prevent unnecessary API calls).
-3. If not 
-already stored, fetching the description from the API and then storing it in memory for future reference.
-4. Ensuring th
-at this process is efficient and aligns with the best practices for using LangChain and LangGraph.
-
-Could anyone provide
- guidance or examples on how to implement this kind of caching mechanism within the LangChain framework? I'm particularl
-y interested in how to use LangChain's features to manage state and memory efficiently, as well as any potential conside
-rations for maintaining performance and scalability.
-
-Thank you in advance for your insights and assistance!
-```
----
-
-     
- 
-all -  [ Not able to get any Django internship , currently in third year.. ](https://i.redd.it/s99dfoz9pbqc1.jpeg) , 2024-03-26-0909
-```
-Asa third year student I have been trying to get internship in django, tried on LinkedIn, wellfound but no success. In s
-ome time placements will come on campus before that I want to have some experience.
-Tell me what do I need to do more in
- order to get internship and also what else to standout from my college crowd for placement
-
-
-```
----
-
-     
- 
-all -  [ Not able to get any Django internship  ](https://i.redd.it/08bx79x2nbqc1.png) , 2024-03-26-0909
-```
-As a third year engineering student not a able to get any internship in django , also tired of applying on LinkedIn and 
-wellfound etc. I am attaching my CV for the same , please can you guys guide me what else should I do more in order to g
-et some experience
-
-
-```
----
-
-     
- 
-all -  [ How to stop LLM being a bit sloppy ](https://www.reddit.com/r/LangChain/comments/1bmq3eq/how_to_stop_llm_being_a_bit_sloppy/) , 2024-03-26-0909
-```
-I have an AI which creates summaries of a piece of text that is part of a larger body of text. As part of the output the
- AI provides its summarized section and tells me the location in the original document the summary pertains to (based on
- pg. num and line. num). 
-
-Each line in the orig. doc has a page and line number and the AI prompt outlines this is prov
-ided examples. Most of the time it gets the line number right in the output, however every now and then it will say the 
-summary belongs to a section of text a couple of lines off from where it actually has summarized in the original text. I
-ts never way off, just a little off every so often. Its really weird. 
-
-Any thoughts on how to:
-
-* Optimize? 
-* Check? 
-
-
-&#x200B;
-
-**Other relevant info:** 
-
-\- The text being summarized is short in length <5k tokens
-
-\- Using GPT4
-```
----
-
-     
- 
-all -  [ Llama2 terribly slow when used with langchain-Ollama. ](https://www.reddit.com/r/ollama/comments/1bmhnvl/llama2_terribly_slow_when_used_with/) , 2024-03-26-0909
-```
-Hello I need help, I'm new to this.
-
-Running Llama2 using Ollama on my laptop - It runs fine when used through the comma
-nd line. (Through ollama run llama2).
-
- But it is INSANELY slow when I try to use it with langchain\_community.llms - Ol
-lama in python. 
-
-HELP.
-
-System Specs:
-
-Processor: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz   2.11 GHz.
-
-RAM: 8.00 GB (
-7.78 GB usable).
-
-GPU: Nvidia GeForce MX130 2GB.
-```
----
-
-     
- 
-MachineLearning -  [ [D] : Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/MachineLearning/comments/1b6jv56/d_scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-26-0909
+MachineLearning -  [ [D] : Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/MachineLearning/comments/1b6jv56/d_scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-03-27-0909
 ```
 Hello everyone,
 
@@ -2041,7 +2020,7 @@ news here - [https://news.ycombinator.com/item?id=39594588](https://news.ycombin
 
      
  
-MachineLearning -  [ [D] What Is Your LLM Tech Stack in Production? ](https://www.reddit.com/r/MachineLearning/comments/1b4sdru/d_what_is_your_llm_tech_stack_in_production/) , 2024-03-26-0909
+MachineLearning -  [ [D] What Is Your LLM Tech Stack in Production? ](https://www.reddit.com/r/MachineLearning/comments/1b4sdru/d_what_is_your_llm_tech_stack_in_production/) , 2024-03-27-0909
 ```
 Curious what everybody is using to implement LLM powered apps for production usage and your experience with these toolin
 gs and advice. 
@@ -2083,7 +2062,7 @@ Edit: correct model Llama2
 
      
  
-deeplearning -  [ Tengyu Ma on Voyage AI - Weaviate Podcast #91! ](https://www.reddit.com/r/deeplearning/comments/1bjft8i/tengyu_ma_on_voyage_ai_weaviate_podcast_91/) , 2024-03-26-0909
+deeplearning -  [ Tengyu Ma on Voyage AI - Weaviate Podcast #91! ](https://www.reddit.com/r/deeplearning/comments/1bjft8i/tengyu_ma_on_voyage_ai_weaviate_podcast_91/) , 2024-03-27-0909
 ```
 **Voyage AI** is the newest giant in the embedding, reranking, and search model game!
 

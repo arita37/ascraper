@@ -1,5 +1,5 @@
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-03-26-0909
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-03-27-0909
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -51,7 +51,7 @@ he original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-03-26-0909
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-03-27-0909
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -103,7 +103,7 @@ the original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-03-26-0909
+all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-03-27-0909
 ```
 
 ```
@@ -111,7 +111,7 @@ all -  [ I am not aware that we have so many outstanding PhDs on the job market.
 
      
  
-all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-03-26-0909
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-03-27-0909
 ```
 Though I mailed to all authors, I couldn't receive any reply...
 
@@ -171,7 +171,7 @@ Thank you in advance!
 
      
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-03-26-0909
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-03-27-0909
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -186,7 +186,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-03-26-0909
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-03-27-0909
 ```
 Hi everyone!
 
@@ -204,7 +204,7 @@ vileged environment, or are the manuscript-authors just lazy? How much faith do 
 
      
  
-all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-03-26-0909
+all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-03-27-0909
 ```
 Hi,
 Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
@@ -236,7 +236,7 @@ me city near lyon since im a foreigner and i feel more settled due to having mad
 
      
  
-all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-26-0909
+all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-03-27-0909
 ```
 As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
  has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
@@ -255,7 +255,7 @@ eally appreciate some help.
 
      
  
-all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-26-0909
+all -  [ People with no top-tier ML papers, where are you working at? ](https://www.reddit.com/r/reinforcementlearning/comments/1b1suv1/people_with_no_toptier_ml_papers_where_are_you/) , 2024-03-27-0909
 ```
 I am graduating soon, and my Ph.D. research is about RL algorithms and their applications.  
 However, I failed to publis
@@ -276,7 +276,7 @@ y opportunities in startups, or other positions I have not explored yet.
 
      
  
-all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-26-0909
+all -  [ Postdoc requirements ](https://www.reddit.com/r/PhD/comments/1b1i5vr/postdoc_requirements/) , 2024-03-27-0909
 ```
 Hi colleagues,
 
@@ -296,15 +296,6 @@ ference, which have vision section), will these publications be considered for a
 ntioned top-tier computer vision only conferences are accepted?  
 I do understand that robotics conferences are a little
  less competitive, but still they are top-tier and peer-reviewed. 
-```
----
-
-     
- 
-all -  [ Help! ](https://www.reddit.com/gallery/1az9fpc) , 2024-03-26-0909
-```
-I have stubborn texture and always get pimples on my chin area that just won’t go away anyone have tips or products that
- they use?TIA included what I use now thank you!!
 ```
 ---
 
