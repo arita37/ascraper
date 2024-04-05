@@ -1,5 +1,410 @@
  
-all -  [ Opensource LLM monitoring tool - Measure token usage, cost, latency and accuracy with 2 lines of cod ](https://www.reddit.com/r/indiehackers/comments/1bv7ulu/opensource_llm_monitoring_tool_measure_token/) , 2024-04-04-0910
+all -  [ Creating a customized LLM ](https://www.reddit.com/r/LocalLLaMA/comments/1bw1htf/creating_a_customized_llm/) , 2024-04-05-0910
+```
+I want to know how I should approach this. I am a full-stack developer so I don't have a lot of knowledge on this, but I
+ need to build a chatbot for a university application that can give information from the website. I've seen a lot about 
+LangChains and Vector databases but not sure what is the starting point for this. Should I scrape information from the w
+ebsite to feed or should I create a document with website information before proceeding with this? If someone could tell
+ me where to start it would be of great help. The next step would be to integrate this model into a backend API which sh
+ould be easy.
+```
+---
+
+     
+ 
+all -  [ Example of Using an Openrouter Vision Model  ](https://www.reddit.com/r/LangChain/comments/1bw0wxx/example_of_using_an_openrouter_vision_model/) , 2024-04-05-0910
+```
+I'd like to know if anyone can give me a small example of how to use a vision model like gemini but through the openrout
+er api using langchain, or somewhere where I can get this documentation 
+```
+---
+
+     
+ 
+all -  [ I made a GitHub repo for (beginner) Python devs using LangChain for LLM projects
+ ](https://www.reddit.com/r/LangChain/comments/1bw0dke/i_made_a_github_repo_for_beginner_python_devs/) , 2024-04-05-0910
+```
+I've been hearing a lot from co-students about how difficult langchain sometimes is to implement in a correct way. Becau
+se of this, I've created a project that simply follows the main functionalities I personally use in LLM-projects,from no
+w 10 months practically only working in LangChain for projects. I've written this in 1 thursday evening before going to 
+bed, so I'm not that sure about it, but any feedback is more than welcome!
+
+[https://github.com/lypsoty112/llm-project-s
+keleton?tab=readme-ov-file](https://github.com/lypsoty112/llm-project-skeleton?tab=readme-ov-file)
+```
+---
+
+     
+ 
+all -  [ What all you are making with LLM APIs ](https://www.reddit.com/r/csMajors/comments/1bvzzqj/what_all_you_are_making_with_llm_apis/) , 2024-04-05-0910
+```
+Hey all
+Just curious how you all have been using langchain, LLM apis to make projects, what resources/techstack you all 
+been referring to make?
+Drop the GitHub links!!!
+```
+---
+
+     
+ 
+all -  [ Gemini Agent prompt ](https://www.reddit.com/r/PromptEngineering/comments/1bvyb99/gemini_agent_prompt/) , 2024-04-05-0910
+```
+I am trying to build an agent using LangChain and Gemini with tools. The agent can use tools without any errors, but whe
+never I send a greeting message, it gets confused. I am sharing the prompt and Agent's behavior.
+
+prompt:
+
+Decision-maki
+ng process for handling questions:
+
+1. \*\*Determine the context:\*\*- If the message is a greeting or a casual conversa
+tion starter, respond appropriately.- If the message is not a question or command, accept it as a human message; it migh
+t contain important information about the user that you may want to remember.- If the question is related to legal matte
+rs, proceed to step 2.- Otherwise, use other tools to answer the question.
+2. \*\*Identify relevant countries:\*\*- Chec
+k if the question explicitly mentions a country related to law (USA, Canada, Germany, Switzerland, UK, Russia, or Turkey
+).
+3. \*\*Use PDFs if applicable:\*\*- If a relevant country is identified and a corresponding PDF exists (e.g., 'German
+-Law.pdf' for Germany), use that PDF for information retrieval.
+4. \*\*External search if no PDF:\*\*- If no relevant co
+untry is identified or no corresponding PDF exists, use DuckDuckGo to search for information.
+5. \*\*Fallback for non-le
+gal or unrelated questions:\*\*- If the question does not fit the legal context or requires a different tool, use the ap
+propriate tool from the available set to provide an answer.
+
+&#8203;
+
+    Ask: my name is John
+    
+    
+    > Entering 
+new AgentExecutor chain...
+    This is a greeting.
+    Action: None       
+    Action Input: None 
+    Observation: None
+ is not a valid tool, try one of [duckduckgo_search, google_scholar, wikipedia, arxiv, pub_med, ask_pdf].
+    Thought:I 
+should greet the user.
+    Action: None
+    Action Input: None
+    Observation: None is not a valid tool, try one of [du
+ckduckgo_search, google_scholar, wikipedia, arxiv, pub_med, ask_pdf].
+```
+---
+
+     
+ 
+all -  [ How to deploy langgraph using langserve? ](https://www.reddit.com/r/LangChain/comments/1bvy2ws/how_to_deploy_langgraph_using_langserve/) , 2024-04-05-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ RAG aplication ](https://www.reddit.com/r/LangChain/comments/1bvxp42/rag_aplication/) , 2024-04-05-0910
+```
+Hi all! I am working on a RAG application to which i gave a list of apis and 1-2 lines about that api. I query it and it
+ should return the relevant api. The api list is in json format and i save that file as a txt file and generate embeddin
+gs. But the problem is its accuracy. Sometimes it gives proper answer and sometime s it says the api is not present in c
+ontext. Any idea how to improve its accuracy. How do you guys prompt in RAG applications?
+```
+---
+
+     
+ 
+all -  [ How best to implement RAG on Government Law Data? ](https://www.reddit.com/r/LocalLLaMA/comments/1bvv28l/how_best_to_implement_rag_on_government_law_data/) , 2024-04-05-0910
+```
+Hi there,
+
+I'm working on a personal project where I'm implementing a local RAG system on a dataset of government laws, 
+which are freely available and in XML format. My goal is to develop a system that can effectively navigate and utilize t
+he data to generate accurate and contextually relevant responses. The data includes a ton of interlinking between acts a
+nd sections/subsections, such as 'under section 89 (a) of the Liquor Act.' or 'under subsection (7) of this section'.
+
+I
+'m considering different combinations of knowledge graphs/graph databases, embeddings, transformers and models. Currentl
+y, I'm using Neo4j for the graph database, llamaIndex for embeddings, Sentence Transformer for encoding text, [Mistral-7
+B-Instruct-v0.2](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2) for the model and LangChain Text Splitter fo
+r segmenting the data.
+
+I have a few questions and would appreciate any insights:
+
+1. **Knowledge Graphs/Graph Databases
+**: How can I effectively use Neo4j or another database to represent the interlinking between different laws and section
+s? Are there specific graph modeling techniques or tools that could enhance the retrieval process?
+2. **Embeddings & Tra
+nsformers**: What are the best practices for generating embeddings in a legal context? How can I ensure that the embeddi
+ngs capture the semantic relationships between different laws and sections?
+3. **RAG Implementation**: Are there specifi
+c strategies or architectures that are particularly effective for implementing RAG on this type of data? How can I optim
+ize the retrieval and generation components to handle the complexity of legal texts?
+4. **Additional Tools/Techniques**:
+ Are there other tools or techniques that you would recommend for handling this type of dataset? Any suggestions for pre
+processing, indexing, re-reranking or fine-tuning would be amazing.
+
+Any advice, resources, or examples would be greatly
+ appreciated. Thank you in advance!
+```
+---
+
+     
+ 
+all -  [ New Open Source Project - Looking for contributors ](https://www.reddit.com/r/LLMDevs/comments/1bvtqg7/new_open_source_project_looking_for_contributors/) , 2024-04-05-0910
+```
+I am starting a new open source project based on configurable and re-usable autonomous agents to achieve a given objecti
+ve (which can be anything from simple task to creating an end-to-end business)
+
+The agents will be deployed on centralis
+ed / decentralised open/closed Intelligent Agent Mesh that can auto-discover existing agents and collaborate with them u
+sing standard agent protocols to get the job done.
+
+Related material to read: [https://medium.com/transforming-the-futur
+e/the-future-of-digital-transformation-and-the-role-of-intelligent-adaptive-mesh-iam-c6b29f580067](https://medium.com/tr
+ansforming-the-future/the-future-of-digital-transformation-and-the-role-of-intelligent-adaptive-mesh-iam-c6b29f580067)
+
+
+[https://medium.com/transforming-the-future/future-of-software-development-intelligent-adaptive-mesh-a78db8e9cc66](https
+://medium.com/transforming-the-future/future-of-software-development-intelligent-adaptive-mesh-a78db8e9cc66)
+
+If you are
+ an experienced python programmer, interested in multi-agent development with LLMs and frameworks such as autogen, super
+agi, langchain, and would like to join to founding team, please let me know.
+```
+---
+
+     
+ 
+all -  [ Conversation summary buffer memory Video ](https://youtu.be/6OJO8YB2KoI) , 2024-04-05-0910
+```
+In this video, we delve into the intricacies of ConversationBufferMemory in #Langchain, a powerful tool for managing and
+ analyzing chat interactions.
+
+#genai #llm #aiml #langchain
+```
+---
+
+     
+ 
+all -  [ Sentence Similarity algorithms ](https://www.reddit.com/r/LangChain/comments/1bvp6lc/sentence_similarity_algorithms/) , 2024-04-05-0910
+```
+Which simplest yet effective approaches other than LLMs will be a better approach to have a sentence similarity matching
+ algorithm. I am looking at information schemas for having descriptions of columns. Want to get pinpoint column names ba
+sed on queries having column descriptions ?
+```
+---
+
+     
+ 
+all -  [ LangChain Good/Bad Practices ](https://www.reddit.com/r/LangChain/comments/1bvodo8/langchain_goodbad_practices/) , 2024-04-05-0910
+```
+Hi everybody!
+
+I'm currently trying to figure out what are some common mistakes that people make when developing applica
+tions using LangChain. These could be related to security, efficiency or even readability issues.
+
+Would love to hear wh
+at kinds of good/bad practices you have picked up on while working with LangChain. Also, if you could point me to any go
+od resources on practices to avoid when using LangChain, I would be very appreciative!
+```
+---
+
+     
+ 
+all -  [ [D] How to get the source documents from the retrieved context for RAG?  ](https://www.reddit.com/r/MachineLearning/comments/1bvoc1t/d_how_to_get_the_source_documents_from_the/) , 2024-04-05-0910
+```
+I'm not using Lanchain but only making API calls to an LLM service provider. The retriever is connected to a vector DB, 
+and I would like to know what the LLM refers to WITHIN that retrieved context whenever it provides an answer, similar to
+ how return_source_documents works in Langchain.
+
+I'm using AzureOpenAI. I couldn't find much in their docs that related
+ to returning the source documents. Any help will be greatly appreciated!
+
+```
+---
+
+     
+ 
+all -  [ RAG with distinct, separate knowledge bases ](https://www.reddit.com/r/LangChain/comments/1bvnxtr/rag_with_distinct_separate_knowledge_bases/) , 2024-04-05-0910
+```
+Hi,
+after some searching I can't seem to find a clear-cut answer to this question:
+
+Let's say I want to create a RAG-app
+lication, where the end-user can ask questions related to two or more distinct fields, which are very far from one anoth
+er, context-wise.
+
+Here are my considerations:
+
+- Should I simply create multiple indexes, and somehow evaluate which in
+dex gives the best response?
+- Should I look into a multi-agent framework (such as autogen)? Or is this only relevant if
+ I want the application to actually do some form of task execution (such as writing and running code)
+- Or should I just
+ throw it all into the same index, and count on the effectiveness of the retrieval technique.
+- ???
+
+Thank you!
+```
+---
+
+     
+ 
+all -  [ Looking for LLM Consultant ](https://www.reddit.com/r/LangChain/comments/1bvn6t9/looking_for_llm_consultant/) , 2024-04-05-0910
+```
+\--- If this is violating a rule I am very sorry & please feel free to delete ---
+
+Hi everyone - this a paid opportunity
+,
+
+we are a Berlin based company currently building an LLM based research assistant. We are planning to go live with thi
+s till July, however I am the only person on our team working on the cognitive architecture and no-one but me understand
+s a thing about it :D So I will def. need a second pair of eyes looking over what we are doing and as a sparrings partne
+r. Below you find an overview of our project and the requirements.
+
+Required:
+
+* Advanced proficiency in Python programm
+ing, including data science and machine learning libraries.
+* Experience in deploying LLM-based applications, best case 
+RAG-Applications.
+* Experience with vector databases.
+
+Overview of our current activities:
+
+* Natural Language to SQL us
+ing LLM based agents  
+
+   * OpenAI function calls and LangChain-based SQL tools.
+   * Purpose build databases for the a
+gents needs, containing relevant data formatted closely to our business requirements.
+   * Few Shot Example retrieval
+* 
+Self-Reflection and Plan and Solve architecture  
+
+   * Composing 1-2 page long reports using multiple collaborative age
+nts.
+   * Undertaking multiple iterations to generate step-by-step plans and addressing gaps in information. Based on th
+ese gaps, new natural language questions are formulated and directed to the SQL agent.
+* LLMs are openAI only currently.
+
+* Monitoring and evaluation through Langsmith
+
+This will be an on-going project, so lets meet for a digital coffee chat
+ first :)
+```
+---
+
+     
+ 
+all -  [ LangChain X Semantic Kernel ](https://www.reddit.com/r/LangChain/comments/1bvm0n8/langchain_x_semantic_kernel/) , 2024-04-05-0910
+```
+Hi all. Would like to gather some thoughts on the following, so as to decide how I should approach a new project:
+
+Langc
+hain X semantic kernel - what are the general tradeoffs?
+
+Any impressions would be appreciated. Thank you
+```
+---
+
+     
+ 
+all -  [ Extracting data with Mixtral using langchain ](https://www.reddit.com/r/LangChain/comments/1bvkp9u/extracting_data_with_mixtral_using_langchain/) , 2024-04-05-0910
+```
+Hello everyone I was trying to extract data like book name from the whole website text, when using Openai llm + pydantic
+ parser I get the data in required format but I want to use some open source model like mistral 8\*7b for my extraction 
+task with pydantic parser and later on finetune it.
+
+I have prepared datasets by extracting from openai and pydantic par
+ser but before finetuning opensource model I want to make sure they return data in required format or support pydantic p
+arser.
+
+output from openai gpt 3.5 was satisfactory with pydantic parser but when using pydantic parser with Mixtral I g
+ot urelatable output and give JSONDECODER error too .      Even  without using parser I got very irrelevant output If yo
+u have any ideas please let me know it would be very helpful.
+```
+---
+
+     
+ 
+all -  [ The tool is used for building and driving workflows ](https://www.reddit.com/r/GPT4/comments/1bvhthh/the_tool_is_used_for_building_and_driving/) , 2024-04-05-0910
+```
+When we develop complex calls using large models, we might wonder if there's a clear and simple framework that can be ut
+ilized to help us schedule and manage various tasks. Langchain could be an option to consider, but many complain about i
+ts complexity and argue it fails to deliver the functionality people expect from it. In fact, for the purposes of task m
+anagement and scheduling alone, a much simpler and more lightweight framework is entirely feasible.
+
+I think my Agere is
+ one such framework. Its basic idea is that it should provide me with the most universal basic core functions, independe
+nt of any platform or tool, allowing me to develop anything on top of it, serving as a highly flexible flow driver.
+
+Lan
+gchain offers many functional modules, but when I use it, I often feel that although these modules bring convenience, th
+ey lack controllability and are difficult to customize deeply. Therefore, I desire a fully autonomous and controllable f
+ramework. Although the Langchain team later released the Langgraph tool, which is good and compensates for Langchain's w
+eaknesses in this regard, its problem is that it's deeply bound to the Langchain framework and not universal enough. I w
+ant a broader world. There are many other excellent frameworks for developing AI applications, such as Semantic Kernel, 
+CrewAI, etc. I don't want to be confined to one framework when building AI applications. I believe I should be able to u
+se any useful tool, not discard it because it belongs to different 'camps'.
+
+In fact, Agere is not a conceptual framewor
+k; it's the basic approach I followed during a project. I used it to develop GPTUI (a GPT chat TUI project), building ad
+vanced features like group chat. Based on my own experience, I believe it has helped me clarify many task invocation ide
+as and saved me a lot of time.
+
+Actually, after using Agere, I even found Langchain to become more usable, as its rich t
+oolkit can be applied within Agere. Therefore, Agere is not a framework competing with Langchain; it can compensate for 
+the latter's complexity and steep learning curve.
+
+Of course, it's far from perfect. However, if you currently have simi
+lar needs, I recommend giving it a try. 
+
+[happyapplehorse/agere: The tool is used for building and driving workflows sp
+ecifically tailored for AI initiatives. It can be used to construct AI agents. (github.com)](https://github.com/happyapp
+lehorse/agere)
+```
+---
+
+     
+ 
+all -  [ Launched a Video on Memory in Langchain.🤯 ](https://youtu.be/6QTxrASSQus) , 2024-04-05-0910
+```
+Here is what you can expect to learn:
+- Importance of memory in conversational interfaces.
+- Langchain utilities for int
+egrating memory.
+- Basic functionality of a memory system.
+- Design considerations for memory systems.
+- Storing and que
+rying chat messages in Langchain.
+- Variables returned from memory and their formats.
+- Memory types and their usage.
+
+M
+ust have a visit...
+```
+---
+
+     
+ 
+all -  [ Unfinished responses from the models ](https://www.reddit.com/r/LangChain/comments/1bvd9qw/unfinished_responses_from_the_models/) , 2024-04-05-0910
+```
+I've been using LangChain for quite some time now and I have started to notice that in recent times the model responses 
+start to cut abruptly even before the max token limit is reached. My Max token limit is set to the maximum amount of tok
+ens the model can output, for example my token limit for a Gemini pro model is 4096, however I barely get a couple of li
+nes to a maximum one paragraph of response even when I specifically ask the model to give me a detailed answer. on top o
+f this I have also tried to play with other model parameters like temperature and I also tried setting up the max token 
+to -1 because I saw somewhere that setting Max token to minus one would force the model to output the maximum number of 
+tokens that it can generate, but I still get this issue. On the contrary, I do not have this issue when using native API
+s from VertexAI or OpenAI. Am I doing something wrong here? Is anyone else seeing this?
+```
+---
+
+     
+ 
+all -  [ Opensource LLM monitoring tool - Measure token usage, cost, latency and accuracy with 2 lines of cod ](https://www.reddit.com/r/indiehackers/comments/1bv7ulu/opensource_llm_monitoring_tool_measure_token/) , 2024-04-05-0910
 ```
 I am happy to launch **Langtrace - an open source observability tool that collects and analyze traces in order to help y
 ou improve your LLM apps**. Langtrace has two components:
@@ -71,7 +476,7 @@ https://i.redd.it/yx8hix4lmcsc1.gif
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1bv7tsg/list_of_free_and_best_selling_discounted_courses/) , 2024-04-04-0910
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1bv7tsg/list_of_free_and_best_selling_discounted_courses/) , 2024-04-05-0910
 ```
 ## Udemy Free Courses for 04 April 2024
 
@@ -208,7 +613,7 @@ K HERE](https://idownloadcoupon.com/)
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1bv7tea/list_of_free_and_best_selling_discounted_courses/) , 2024-04-04-0910
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1bv7tea/list_of_free_and_best_selling_discounted_courses/) , 2024-04-05-0910
 ```
 ## Udemy Free Courses for 04 April 2024
 
@@ -344,15 +749,7 @@ E COURSES WITH CERTIFICATE – [CLICK HERE](http://reddit.com/r/udemyfreeebies/
 
      
  
-all -  [ Mastering LangChain and AWS: A Guide to Economic Analysis ](https://idownloadcoupon.com/udemy/531) , 2024-04-04-0910
-```
-
-```
----
-
-     
- 
-all -  [ Do we have to use LCEL? ](https://www.reddit.com/r/LangChain/comments/1bv6o5c/do_we_have_to_use_lcel/) , 2024-04-04-0910
+all -  [ Do we have to use LCEL? ](https://www.reddit.com/r/LangChain/comments/1bv6o5c/do_we_have_to_use_lcel/) , 2024-04-05-0910
 ```
 I am returning to LangChain after a few months to work on a new project, and since then, LCEL has been introduced. Is th
 e old syntax being entirely depreciated? LCEL seems really hard to wrap my head around. Something as simple as a Convers
@@ -362,7 +759,7 @@ ational Retrieval Chain in python seems so much more complex with a lot more ste
 
      
  
-all -  [ Issue Using TextGen API, works with Curl and SillyTavern ](https://www.reddit.com/r/Oobabooga/comments/1bv5dtc/issue_using_textgen_api_works_with_curl_and/) , 2024-04-04-0910
+all -  [ Issue Using TextGen API, works with Curl and SillyTavern ](https://www.reddit.com/r/Oobabooga/comments/1bv5dtc/issue_using_textgen_api_works_with_curl_and/) , 2024-04-05-0910
 ```
 I am having issues using they text gen python api, Curl works, silly tavern works but the api using langchain doesn't. I
  get the error 'ERROR: response: <Response [404]>'. To the best of my knowledge this should work. I'm running flags of -
@@ -398,7 +795,7 @@ Template.from_template(template)
 
      
  
-all -  [ Update: Langtrace Launch: Opensource LLM monitoring tool - achieving better cardinality compared to  ](https://www.reddit.com/r/LangChain/comments/1bv4nzb/update_langtrace_launch_opensource_llm_monitoring/) , 2024-04-04-0910
+all -  [ Update: Langtrace Launch: Opensource LLM monitoring tool - achieving better cardinality compared to  ](https://www.reddit.com/r/LangChain/comments/1bv4nzb/update_langtrace_launch_opensource_llm_monitoring/) , 2024-04-05-0910
 ```
 This is a follow up for: [https://www.reddit.com/r/LangChain/comments/1bnkvtv/update\_langtrace\_preview\_opensource\_ll
 m/](https://www.reddit.com/r/LangChain/comments/1bnkvtv/update_langtrace_preview_opensource_llm/)  
@@ -474,7 +871,7 @@ https://i.redd.it/k4ns4arnxbsc1.gif
 
      
  
-all -  [ A human approval tool for your agent workflows ](https://www.reddit.com/r/LangChain/comments/1bv2hcf/a_human_approval_tool_for_your_agent_workflows/) , 2024-04-04-0910
+all -  [ A human approval tool for your agent workflows ](https://www.reddit.com/r/LangChain/comments/1bv2hcf/a_human_approval_tool_for_your_agent_workflows/) , 2024-04-05-0910
 ```
 Hey. We have worked on LLM apps that were integrated into existing workflows. So say, a customer support ticket arrives 
 and my LLM chain kicks off to analyze the request, determine what to do next, and for example, write a response.
@@ -495,7 +892,7 @@ Would be great to hear your thoughts 🙏
 
      
  
-all -  [ Structured extraction? ](https://www.reddit.com/r/LangChain/comments/1bv25ml/structured_extraction/) , 2024-04-04-0910
+all -  [ Structured extraction? ](https://www.reddit.com/r/LangChain/comments/1bv25ml/structured_extraction/) , 2024-04-05-0910
 ```
 Found the Fructose ([https://github.com/bananaml/fructose](https://github.com/bananaml/fructose)) and LlamaIndex toolcha
 ins for defining fixed schemas and wondering if LangChain has something similar? Very interested in type-checked outputs
@@ -505,7 +902,7 @@ ins for defining fixed schemas and wondering if LangChain has something similar?
 
      
  
-all -  [ Prompt Serialization in YML ](https://www.reddit.com/r/LangChain/comments/1buzihw/prompt_serialization_in_yml/) , 2024-04-04-0910
+all -  [ Prompt Serialization in YML ](https://www.reddit.com/r/LangChain/comments/1buzihw/prompt_serialization_in_yml/) , 2024-04-05-0910
 ```
 To learn more about prompting, I wanted to create some prompt templates in YAML. When looking for the docs, I come acros
 s several links of the LangChain docs that, unfortunatly, lead to a dead end.
@@ -517,7 +914,7 @@ Can somebody provide a resource on prompt
 
      
  
-all -  [ simple CRM 'copilot' ](https://www.reddit.com/r/LangChain/comments/1buxlp9/simple_crm_copilot/) , 2024-04-04-0910
+all -  [ simple CRM 'copilot' ](https://www.reddit.com/r/LangChain/comments/1buxlp9/simple_crm_copilot/) , 2024-04-05-0910
 ```
 Hello there, I am brainstorming a project for a company that does digital marketing. They want to integrate llms into th
 eir client relation processes, writing emails, proposals, documents. I think what I will be doing for them will be creat
@@ -540,7 +937,7 @@ API for something like this?
 
      
  
-all -  [ Any recommendations of blog, posts or material about 'practical' prompt engineering using more compl ](https://www.reddit.com/r/LocalLLaMA/comments/1buq0fj/any_recommendations_of_blog_posts_or_material/) , 2024-04-04-0910
+all -  [ Any recommendations of blog, posts or material about 'practical' prompt engineering using more compl ](https://www.reddit.com/r/LocalLLaMA/comments/1buq0fj/any_recommendations_of_blog_posts_or_material/) , 2024-04-05-0910
 ```
 I recently worked in a project that was heavy LLM related using openAI, but while doing that I realized that is  little 
 literature about 'how to implement' or 'how it works' but a lot on papers and 'conceptual knowledge'.
@@ -560,7 +957,7 @@ d
 
      
  
-all -  [ Location of YamlOutputParser in LangChain 0.1 ](https://www.reddit.com/r/LangChain/comments/1bunovt/location_of_yamloutputparser_in_langchain_01/) , 2024-04-04-0910
+all -  [ Location of YamlOutputParser in LangChain 0.1 ](https://www.reddit.com/r/LangChain/comments/1bunovt/location_of_yamloutputparser_in_langchain_01/) , 2024-04-05-0910
 ```
 In LangChain 0.1, why is YamlOutputParser imported from `langchain.output_parsers` whereas the other parsers like JsonOu
 tputParser, XMLOutputParser etc. imported from `langchain_core.output_parsers`?
@@ -569,7 +966,7 @@ tputParser, XMLOutputParser etc. imported from `langchain_core.output_parsers`?
 
      
  
-all -  [ How can I adjust the prompt to ensure that responses are not influenced by irrelevant questions that ](https://www.reddit.com/r/LangChain/comments/1bunkoo/how_can_i_adjust_the_prompt_to_ensure_that/) , 2024-04-04-0910
+all -  [ How can I adjust the prompt to ensure that responses are not influenced by irrelevant questions that ](https://www.reddit.com/r/LangChain/comments/1bunkoo/how_can_i_adjust_the_prompt_to_ensure_that/) , 2024-04-05-0910
 ```
 I am Implementing ConversationBufferMemory and the problem I am facing above is when I ask a different question which is
  not relevant to chat\_history, still it gives us response based on the chat history how can I change the prompt to hand
@@ -579,7 +976,7 @@ le such cases.
 
      
  
-all -  [ [First Post] SOS! Startup founder/hiring member looking for any Python/BackendDev/Data profile for F ](https://www.reddit.com/r/indianstartups/comments/1bunkmw/first_post_sos_startup_founderhiring_member/) , 2024-04-04-0910
+all -  [ [First Post] SOS! Startup founder/hiring member looking for any Python/BackendDev/Data profile for F ](https://www.reddit.com/r/indianstartups/comments/1bunkmw/first_post_sos_startup_founderhiring_member/) , 2024-04-05-0910
 ```
 **TLDR:** If you are a startup founder/know someone from tech hiring team, looking for a reliable and an *actually* hard
 working moldable resource (I can commit to **at least 14 hours** daily, learn WHATEVER is required for your team and the
@@ -684,7 +1081,7 @@ nd escape this cycle.
 
      
  
-all -  [ RetrievalQA loop consuming gradually more memory ](https://www.reddit.com/r/LangChain/comments/1bufjwi/retrievalqa_loop_consuming_gradually_more_memory/) , 2024-04-04-0910
+all -  [ RetrievalQA loop consuming gradually more memory ](https://www.reddit.com/r/LangChain/comments/1bufjwi/retrievalqa_loop_consuming_gradually_more_memory/) , 2024-04-05-0910
 ```
 Hi, all!
 
@@ -706,7 +1103,7 @@ e!
 
      
  
-all -  [ Gemini function calling  ](https://www.reddit.com/r/LangChain/comments/1bu9j1u/gemini_function_calling/) , 2024-04-04-0910
+all -  [ Gemini function calling  ](https://www.reddit.com/r/LangChain/comments/1bu9j1u/gemini_function_calling/) , 2024-04-05-0910
 ```
 I want to use function calling with Gemini, I checked Vertex ai documentation and tutorials but they are a bit confusing
  and mess. Anyone have worked with Gemini function calling with Langchain before?
@@ -715,7 +1112,7 @@ I want to use function calling with Gemini, I checked Vertex ai documentation an
 
      
  
-all -  [ Advanced RAG with Document Intelligence  ](https://www.reddit.com/r/Azure_AI_Cognitive/comments/1bu5l7l/advanced_rag_with_document_intelligence/) , 2024-04-04-0910
+all -  [ Advanced RAG with Document Intelligence  ](https://www.reddit.com/r/Azure_AI_Cognitive/comments/1bu5l7l/advanced_rag_with_document_intelligence/) , 2024-04-05-0910
 ```
 Has anyone used Azure Document intelligence for capturing metadata in PDFs with tables, figures? How can we create seman
 tic chunks using a Qdrant database using Azure Document intelligence to extract data? How can add relevant metadata to m
@@ -726,7 +1123,7 @@ sing Langchain framework, and I know they support Document Intelligence as one o
 
      
  
-all -  [ Advanced RAG for PDFs with tables and figures, capturing metadata , Azure Document Intelligent  ](https://www.reddit.com/r/LangChain/comments/1bu5hyt/advanced_rag_for_pdfs_with_tables_and_figures/) , 2024-04-04-0910
+all -  [ Advanced RAG for PDFs with tables and figures, capturing metadata , Azure Document Intelligent  ](https://www.reddit.com/r/LangChain/comments/1bu5hyt/advanced_rag_for_pdfs_with_tables_and_figures/) , 2024-04-05-0910
 ```
 Has anyone used Azure Document intelligence for capturing metadata in PDFs with tables, figures? How can we create seman
 tic chunks using a Qdrant database using Azure Document intelligence to extract data? How can add relevant metadata to m
@@ -736,7 +1133,7 @@ eaningful chunks? Any other tips to create an advanced RAG pipeline? What are ev
 
      
  
-all -  [ Prefilter documents before similaritysearch ](https://www.reddit.com/r/LangChain/comments/1bu5dqs/prefilter_documents_before_similaritysearch/) , 2024-04-04-0910
+all -  [ Prefilter documents before similaritysearch ](https://www.reddit.com/r/LangChain/comments/1bu5dqs/prefilter_documents_before_similaritysearch/) , 2024-04-05-0910
 ```
 I'm using a langchain script in order to make a similarity search of a query embedding in an embedding's MongoDb collect
 ion but I want to pre filter the documents to search only in the documents that are $in an objectId array.
@@ -799,7 +1196,7 @@ aggregation :: caused by :: Path '\_id' needs to be indexed as token
 
      
  
-all -  [ Multi-Agent Orchestration playlist ](https://www.reddit.com/r/LangChain/comments/1bu50s6/multiagent_orchestration_playlist/) , 2024-04-04-0910
+all -  [ Multi-Agent Orchestration playlist ](https://www.reddit.com/r/LangChain/comments/1bu50s6/multiagent_orchestration_playlist/) , 2024-04-05-0910
 ```
 Checkout this playlist around Multi-Agent Orchestration that covers
 1. What is Multi-Agent Orchestration?
@@ -818,7 +1215,7 @@ https://youtube.com/playlist?list=PLnH
 
      
  
-all -  [ [P] RAG pipeline to query the ML Engineering Open Book ](https://www.reddit.com/r/MachineLearning/comments/1bu4wyx/p_rag_pipeline_to_query_the_ml_engineering_open/) , 2024-04-04-0910
+all -  [ [P] RAG pipeline to query the ML Engineering Open Book ](https://www.reddit.com/r/MachineLearning/comments/1bu4wyx/p_rag_pipeline_to_query_the_ml_engineering_open/) , 2024-04-05-0910
 ```
 I built a quick RAG implementation using Langchain to make it easy to query the [ML Engineering Open Book](https://githu
 b.com/stas00/ml-engineering) by [Stas Bekman](https://twitter.com/StasBekman). The Multi-Vector retriever gave pretty go
@@ -833,827 +1230,7 @@ Hope this is useful for folks!
 
      
  
-all -  [ RAG pipeline to query the ML Engineering Open Book ](https://www.reddit.com/r/LangChain/comments/1bu4sm4/rag_pipeline_to_query_the_ml_engineering_open_book/) , 2024-04-04-0910
-```
-I built a quick RAG implementation using Langchain to make it easy to query the [ML Engineering Open Book](https://githu
-b.com/stas00/ml-engineering) by [Stas Bekman](https://twitter.com/StasBekman). Hope it is useful for folks. It has been 
-proving to be incredibly useful for me!
-
-Github link - [https://github.com/shreyansh26/RAG-ML-Engg-Open-Book](https://gi
-thub.com/shreyansh26/RAG-ML-Engg-Open-Book)
-```
----
-
-     
- 
-all -  [ CSV to FAISS vector store ](https://www.reddit.com/r/LangChain/comments/1bu2g22/csv_to_faiss_vector_store/) , 2024-04-04-0910
-```
-Hi guys!  
-
-
-Does anyone know how I can directly go from a csv with two columns ('text' and 'embedding') to a FAISS vect
-or store?  
-
-
-Appreciate the help!
-```
----
-
-     
- 
-all -  [ Issues with simple agent ](https://www.reddit.com/r/LangChain/comments/1bu2fmr/issues_with_simple_agent/) , 2024-04-04-0910
-```
-Hey all,
-
-Just getting started with agents, and I'm struggling to get this simple agent to work well, is there something
- I am missing here? Is there a better way to debug this so I can get a better understanding of what's going wrong? Despi
-te specifying verbose=True, I don't get much info.  
-
-
-# Issues:
-
-* The agent does not always fetch recent news on Bitco
-in
-* The agent is stuck in an infinite loop without making progress
-* The agent repeatedly searches the same articles ov
-er an over again
-
- 
-
-# Below you will see the configuration for the agent:
-
-    # --- 1. Search ---
-    search = DuckDuc
-kGoSearchRun(verbose=True)
-    
-    
-    # --- 2. Scrape ---
-    def scrape_url(url: str) -> str:
-        headers = {
-  
-          'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:90.0) Gecko/20100101 Firefox/90.0'
-        }
- 
-       req = Request(url=url, headers=headers)
-        with urlopen(req) as response:
-            response_content = res
-ponse.read()
-            soup = BeautifulSoup(response_content, 'html.parser')
-            text_content = soup.get_text(
-)
-            return text_content
-    
-    web_fetch_tool = Tool.from_function(
-        func=scrape_url,
-        name='W
-ebFetch',
-        description='Fetches the content of a web page for a given URL'
-    )
-    
-    
-    # --- 3. Summarize
- ---
-    llm = ChatAnthropic(
-        model='claude-3-haiku-20240307',
-        temperature=0.0,
-        anthropic_api_ke
-y=os.getenv('ANTHROPIC_KEY')
-    )
-    chain = LLMChain(
-        llm=llm,
-        prompt=PromptTemplate.from_template('S
-ummarize the following content: {content}')
-    )
-    summarize_tool = Tool.from_function(
-        func=chain.run,
-     
-   name='Summarizer',
-        description='Summarizes the content of a web page'
-    )
-    
-    
-    # --- Setup Agent -
---
-    tools = [search, web_fetch_tool, summarize_tool]
-    agent_prompt = '''<task>Answer the User Query as best you ca
-n.</task>
-    
-    <information>
-    You have access to the following tools:
-    {tools}
-    
-    Today's date is:
-    {
-today}
-    
-    Use the following format:
-    
-    Query: the input query you must answer
-    Thought: you should always
- think about what to do
-    Action: the action to take, should be one of [{tool_names}]
-    Action Input: the input to t
-he action
-    Observation: the result of the action
-    ... (this Thought/Action/Action Input/Observation can repeat up 
-to 3 times maximum)
-    Thought: I now know the final answer
-    Final Answer: the final answer to the original input qu
-estion
-    </information>
-    
-    <user_query>
-    {input}
-    </user_query>
-    
-    <thought>
-    {agent_scratchpad}
-
-    </thought>
-    '''
-    
-    agent = create_react_agent(
-        llm=llm,
-        tools=tools,
-        prompt=PromptT
-emplate.from_template(agent_prompt)
-    )
-    executor = AgentExecutor(agent=agent, tools=tools, handle_parsing_errors=T
-rue, verbose=True)
-    
-    result = executor.invoke({
-        'input': 'What is the latest news on Bitcoin?',
-        '
-today': datetime.now().date()
-    })
-
-# This outputs the following (interrupted)
-
->\> Entering new AgentExecutor chain..
-.  
->  
->Query: What is the latest news on Bitcoin?  
->  
->  
->  
->Thought: To answer this query, I will need to search 
-for the latest news and information on Bitcoin.  
->  
->  
->  
->Action: duckduckgo\_search  
->  
->Action Input: latest ne
-ws on bitcoin  
->  
->The bitcoin price has topped its previous all-time high of $69,000 per bitcoin, climbing to well ov
-er $70,000 as Goldman Sachs reveals a Wall Street revolution could be just around the corner. Bitcoin surged past $35,00
-0 Monday, hitting the highest price since May 2022, as cryptocurrency markets continued their October bull run amid opti
-mism that a BTC ETF will get approved in the U.S. Bitcoin analysts place significance on $69,000 as BTC price support in
-to the Q1 close. ... blockchain and Bitcoin bringing you the latest crypto news and analyses on the future of money. A q
-uick surge in bitcoin (BTC) early Tuesday afternoon lifted the price above $44,000 on some crypto exchanges, including C
-oinbase, for the first time since early April 2022 as the largest crypto ... Bitcoin rose to a record for the third time
- in five days before traders appeared to take the opportunity to realize some of the recent gains.. The original cryptoc
-urrency reached an all-time peak ...Query: What is the latest news on Bitcoin?  
->  
->  
->  
->Thought: To answer this qu
-ery, I will need to search for the latest news and information on Bitcoin.  
->  
->  
->  
->Action: duckduckgo\_search  
->
-  
->Action Input: latest news on bitcoin  
->  
->Bitcoin's halving, its fourth such supply cut that will see the number o
-f new bitcoin issued to so-called miners who maintain the network fall to 3.125 bitcoin from 6.25 currently, is schedule
-d ... Bitcoin surged past $35,000 Monday, hitting the highest price since May 2022, as cryptocurrency markets continued 
-their October bull run amid optimism that a BTC ETF will get approved in the U.S. A quick surge in bitcoin (BTC) early T
-uesday afternoon lifted the price above $44,000 on some crypto exchanges, including Coinbase, for the first time since e
-arly April 2022 as the largest crypto ... Bitcoin rose to a record for the third time in five days before traders appear
-ed to take the opportunity to realize some of the recent gains.. The original cryptocurrency reached an all-time peak ..
-. Bitcoin analysts place significance on $69,000 as BTC price support into the Q1 close. ... blockchain and Bitcoin brin
-ging you the latest crypto news and analyses on the future of money.Query: What is the latest news on Bitcoin?  
->  
->  
-
->  
->Thought: To answer this query, I will need to search for the latest news and information on Bitcoin.  
->  
->  
->  
-
->Action: duckduckgo\_search  
->  
->Action Input: latest news on bitcoin  
->  
->Bitcoin's halving, its fourth such suppl
-y cut that will see the number of new bitcoin issued to so-called miners who maintain the network fall to 3.125 bitcoin 
-from 6.25 currently, is scheduled ... Bitcoin surged past $35,000 Monday, hitting the highest price since May 2022, as c
-ryptocurrency markets continued their October bull run amid optimism that a BTC ETF will get approved in the U.S. Bitcoi
-n rose to a record for the third time in five days before traders appeared to take the opportunity to realize some of th
-e recent gains.. The original cryptocurrency reached an all-time peak ... A quick surge in bitcoin (BTC) early Tuesday a
-fternoon lifted the price above $44,000 on some crypto exchanges, including Coinbase, for the first time since early Apr
-il 2022 as the largest crypto ... Bitcoin rose on Monday, briefly surpassing $42,000 to reach a 20-month high, in a new 
-surge of momentum fueled by U.S. interest rate cut expectations and traders betting that American regulators ...Query: W
-hat is the latest news on Bitcoin?  
->  
->  
->  
->Thought: To answer this query, I will need to search for the latest ne
-ws and information on Bitcoin.  
->  
->  
->  
->Action: duckduckgo\_search  
->  
->Action Input: latest news on bitcoin  
->
-  
->The bitcoin price has topped its previous all-time high of $69,000 per bitcoin, climbing to well over $70,000 as Gol
-dman Sachs reveals a Wall Street revolution could be just around the corner. Bitcoin surged past $35,000 Monday, hitting
- the highest price since May 2022, as cryptocurrency markets continued their October bull run amid optimism that a BTC E
-TF will get approved in the U.S. A quick surge in bitcoin (BTC) early Tuesday afternoon lifted the price above $44,000 o
-n some crypto exchanges, including Coinbase, for the first time since early April 2022 as the largest crypto ... Bitcoin
- rose to a record for the third time in five days before traders appeared to take the opportunity to realize some of the
- recent gains.. The original cryptocurrency reached an all-time peak ... Bitcoin rose on Monday, briefly surpassing $42,
-000 to reach a 20-month high, in a new surge of momentum fueled by U.S. interest rate cut expectations and traders betti
-ng that American regulators ...Query: What is the latest news on Bitcoin?  
->  
->  
->  
->Thought: To answer this query, 
-I have performed multiple searches on DuckDuckGo to gather the latest news and information on Bitcoin.  
->  
->Invalid Fo
-rmat: Missing 'Action:' after 'Thought:Query: What is the latest news on Bitcoin?  
->  
->  
->  
->Thought: To answer this
- query, I will perform a series of searches on DuckDuckGo to gather the latest news and information on Bitcoin.  
->  
-> 
- 
->  
->Action: duckduckgo\_search  
->  
->Action Input: latest news on bitcoin  
->  
->Bitcoin's halving, its fourth such 
-supply cut that will see the number of new bitcoin issued to so-called miners who maintain the network fall to 3.125 bit
-coin from 6.25 currently, is scheduled ... Chesnot/Getty Images. New York CNN —. Bitcoin rose to $50,000 Monday for the 
-first time in two years, fueled by a rush of new-investor enthusiasm and growing anticipation over a cryptic-sounding ..
-. Bitcoin surged past $35,000 Monday, hitting the highest price since May 2022, as cryptocurrency markets continued thei
-r October bull run amid optimism that a BTC ETF will get approved in the U.S. Bitcoin rose to a record for the third tim
-e in five days before traders appeared to take the opportunity to realize some of the recent gains.. The original crypto
-currency reached an all-time peak ... A quick surge in bitcoin (BTC) early Tuesday afternoon lifted the price above $44,
-000 on some crypto exchanges, including Coinbase, for the first time since early April 2022 as the largest crypto ...Que
-ry: What is the latest news on Bitcoin?  
->  
->  
->  
->Thought: To answer this query, I will perform a series of searche
-s on DuckDuckGo to gather the latest news and information on Bitcoin.  
->  
->  
->  
->Action: duckduckgo\_search  
->  
->A
-ction Input: latest news on bitcoin  
->  
->Bitcoin's halving, its fourth such supply cut that will see the number of new
- bitcoin issued to so-called miners who maintain the network fall to 3.125 bitcoin from 6.25 currently, is scheduled ...
- Bitcoin surged past $35,000 Monday, hitting the highest price since May 2022, as cryptocurrency markets continued their
- October bull run amid optimism that a BTC ETF will get approved in the U.S. A quick surge in bitcoin (BTC) early Tuesda
-y afternoon lifted the price above $44,000 on some crypto exchanges, including Coinbase, for the first time since early 
-April 2022 as the largest crypto ... Bitcoin has risen above $38,000 for the first time since May 2022 after battling th
-is level for the past two weeks. By Lyllah Ledesma. Nov 24, 2023 at 4:53 p.m. UTC. Updated Mar 8, 2024 at 5:36 p ... Get
-ty Images. Bitcoin extended its gains Tuesday, touching a more than two-year high above $57,000. The price of the flagsh
-ip cryptocurrency was last higher by 5% at $57,328.95, according to Coin ...Query: What is the latest news on Bitcoin?  
-
->  
->  
->  
->Thought: To answer this query, I will perform a series of searches on DuckDuckGo to gather the latest news
- and information on Bitcoin.  
->  
->  
->  
->Action: duckduckgo\_search  
->  
->Action Input: latest news on bitcoin  
->  
-
->Bitcoin's halving, its fourth such supply cut that will see the number of new bitcoin issued to so-called miners who m
-aintain the network fall to 3.125 bitcoin from 6.25 currently, is scheduled ... Bitcoin surged past $35,000 Monday, hitt
-ing the highest price since May 2022, as cryptocurrency markets continued their October bull run amid optimism that a BT
-C ETF will get approved in the U.S. Bitcoin analysts place significance on $69,000 as BTC price support into the Q1 clos
-e. ... blockchain and Bitcoin bringing you the latest crypto news and analyses on the future of money. Bitcoin rose to a
- record for the third time in five days before traders appeared to take the opportunity to realize some of the recent ga
-ins.. The original cryptocurrency reached an all-time peak ... A quick surge in bitcoin (BTC) early Tuesday afternoon li
-fted the price above $44,000 on some crypto exchanges, including Coinbase, for the first time since early April 2022 as 
-the largest crypto ...Query: What is the latest news on Bitcoin?  
->  
->  
->  
->Thought: To answer this query, I have pe
-rformed multiple searches on DuckDuckGo to gather the latest news and information on Bitcoin.  
->  
->  
->  
->Action: duc
-kduckgo\_search  
->  
->Action Input: latest news on bitcoin  
->  
->\^X\^Z
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ How to use RAG chat history with FastAPI? ](https://www.reddit.com/r/LangChain/comments/1bu1os7/how_to_use_rag_chat_history_with_fastapi/) , 2024-04-04-0910
-```
-Hi,
-
-I created a RAG app and now want to also use chat history in my application. All of my applications functionality i
-s handled via a FastAPI backend, the frontend is in Streamlit. 
-
-How can I now add chat history in my FastAPI RAG endpoi
-nt? 
-
-Is there a way to just save the chat history in a session? E.g. making a post endpoint where the history gets adde
-d to the chain. Alternatively I have heard that Redis is a good choice but as for my understanding it is not open-source
- anymore. For me it would be important to have a open-source solution which is free and can run online.
-
-&#x200B;
-
-Thank
-s in advance!
-```
----
-
-     
- 
-all -  [ I built a free online course for teaching you how to implement Retrieval Augmented Generation ](https://www.reddit.com/r/learnmachinelearning/comments/1bu0w9j/i_built_a_free_online_course_for_teaching_you_how/) , 2024-04-04-0910
-```
-Curious if anyone here is interested in checking it out & giving me feedback. The course, entirely done in the browser, 
-shows you how to parse a large PDF file, work with OpenAI's embedding function, use a vector DB, and use LangChain's Con
-versationalRetrievalChain.
-
-If you're interested please DM me!
-```
----
-
-     
- 
-all -  [ Error when Launching: '...unexpected keyword argument 'sharded'' ](https://www.reddit.com/r/ChatWithRTX/comments/1bu0vcu/error_when_launching_unexpected_keyword_argument/) , 2024-04-04-0910
-```
-Hello all!  
-I have just installed Chat With RTX, I had to install in its own folder in C:\\ b/c of the weird rule where
- it cannot install in a user path with spaces. It installed just fine, but now when I launch I get the following error, 
-in a CommandPrompt-looking screen.
-
-  
-TypeError: SafeTensorsInfo.\_\_init\_\_() got an unexpected keyword argument 'sha
-rded'
-
-&#x200B;
-
-Has anyone else encountered this or been able to fix it?
-
-&#x200B;
-
-Full copy/paste:
-
-Environment path 
-found: C:\\0000ChatWIthRTX\\env\_nvd\_rag
-
-App running with config
-
- {
-
-'models': {
-
-'supported': \[
-
-{
-
-'name': 'Mistra
-l 7B int4',
-
-'installed': true,
-
-'metadata': {
-
-'model\_path': 'model\\\\mistral\\\\mistral7b\_int4\_engine',
-
-'engine':
- 'llama\_float16\_tp1\_rank0.engine',
-
-'tokenizer\_path': 'model\\\\mistral\\\\mistral7b\_hf',
-
-'max\_new\_tokens': 1024
-,
-
-'max\_input\_token': 7168,
-
-'temperature': 0.1
-
-}
-
-},
-
-{
-
-'name': 'Llama 2 13B int4',
-
-'installed': false,
-
-'metadata
-': {
-
-'model\_path': 'model\\\\llama\\\\llama13\_int4\_engine',
-
-'engine': 'llama\_float16\_tp1\_rank0.engine',
-
-'tokeni
-zer\_path': 'model\\\\llama\\\\llama13\_hf',
-
-'max\_new\_tokens': 1024,
-
-'max\_input\_token': 3900,
-
-'temperature': 0.1
-
-
-}
-
-}
-
-\],
-
-'selected': 'Mistral 7B int4'
-
-},
-
-'sample\_questions': \[
-
-{
-
-'query': 'How does NVIDIA ACE generate emotio
-nal responses?'
-
-},
-
-{
-
-'query': 'What is Portal prelude RTX?'
-
-},
-
-{
-
-'query': 'What is important about Half Life 2 RTX
-?'
-
-},
-
-{
-
-'query': 'When is the launch date for Ratchet & Clank: Rift Apart on PC?'
-
-}
-
-\],
-
-'dataset': {
-
-'sources': \
-[
-
-'directory',
-
-'youtube',
-
-'nodataset'
-
-\],
-
-'selected': 'directory',
-
-'path': 'dataset',
-
-'isRelative': true
-
-},
-
-'st
-rings': {
-
-'directory': 'Folder Path',
-
-'youtube': 'YouTube URL',
-
-'nodataset': 'AI model default'
-
-}
-
-}
-
-Traceback (mos
-t recent call last):
-
-  File 'C:\\0000ChatWIthRTX\\RAG\\trt-llm-rag-windows-main\\[app.py](https://app.py)', line 114, i
-n <module>
-
-embed\_model = HuggingFaceEmbeddings(model\_name=embedded\_model)
-
-  File 'C:\\0000ChatWIthRTX\\env\_nvd\_ra
-g\\lib\\site-packages\\langchain\\embeddings\\[huggingface.py](https://huggingface.py)', line 66, in \_\_init\_\_
-
-self.
-client = sentence\_transformers.SentenceTransformer(
-
-  File 'C:\\0000ChatWIthRTX\\env\_nvd\_rag\\lib\\site-packages\\se
-ntence\_transformers\\[SentenceTransformer.py](https://SentenceTransformer.py)', line 87, in \_\_init\_\_
-
-snapshot\_dow
-nload(model\_name\_or\_path,
-
-  File 'C:\\0000ChatWIthRTX\\env\_nvd\_rag\\lib\\site-packages\\sentence\_transformers\\[u
-til.py](https://util.py)', line 442, in snapshot\_download
-
-model\_info = \_api.model\_info(repo\_id=repo\_id, revision=
-revision, token=token)
-
-  File 'C:\\0000ChatWIthRTX\\env\_nvd\_rag\\lib\\site-packages\\huggingface\_hub\\utils\\\_valid
-ators.py', line 119, in \_inner\_fn
-
-return fn(\*args, \*\*kwargs)
-
-  File 'C:\\0000ChatWIthRTX\\env\_nvd\_rag\\lib\\sit
-e-packages\\huggingface\_hub\\hf\_api.py', line 2230, in model\_info
-
-return ModelInfo(\*\*data)
-
-  File 'C:\\0000ChatWI
-thRTX\\env\_nvd\_rag\\lib\\site-packages\\huggingface\_hub\\hf\_api.py', line 710, in \_\_init\_\_
-
-self.safetensors = S
-afeTensorsInfo(\*\*safetensors) if safetensors else None
-
-TypeError: SafeTensorsInfo.\_\_init\_\_() got an unexpected ke
-yword argument 'sharded'
-```
----
-
-     
- 
-all -  [ AzureChatOpenAI and create openai functions agent ](https://www.reddit.com/r/LangChain/comments/1bu04pk/azurechatopenai_and_create_openai_functions_agent/) , 2024-04-04-0910
-```
-Hello all!
-
-I have an agent with 2 custom tools for searching embedding docs, till now i was using ChatOpenAi and everyt
-hing was working, now i had to switch to AzureOpenAi and I am using AzureChatOpenAi from langchain, but when i pass a pr
-ompt , i get back this :   
-
-
-raise OutputParserException(
-
-langchain\_core.exceptions.OutputParserException: Could not 
-parse tool  input: {'arguments':......\_} because the 'arguments' is not valid JSON.
-
- But arguments is a valid json and
- this was working with ChatOpenAI, from what I've seen AzureChatOpenAI extends ChatOpenAI but i cant get past this. 
-
-&#
-x200B;
-
-Has anyone faced anything similar?
-
-  
-Thank you in advance.
-```
----
-
-     
- 
-all -  [ Langchain Synthetic Data without OpenAI ](https://www.reddit.com/r/LangChain/comments/1btyy3w/langchain_synthetic_data_without_openai/) , 2024-04-04-0910
-```
-Hello!  
-
-Has anyone here ever tried to create synthetic data with  Langchain using a local model different from those o
-f OpenAI (for  example, Llama)? The tutorial on this page [https://python.langchain.com/docs/use\_cases/data\_generation
-](https://python.langchain.com/docs/use_cases/data_generation) only shows the usage of OpenAI models.
-
-&#x200B;
-
-Thx ! 
-```
----
-
-     
- 
-all -  [ Improve retrieval of very similar chunk in Langchain ](https://www.reddit.com/r/LangChain/comments/1btwwnv/improve_retrieval_of_very_similar_chunk_in/) , 2024-04-04-0910
-```
-Hi all,
-My document is a list of product code that matches a certain product name. Imagine there are 100 very similar ch
-unks like this
-
-Chunk1 :
-Product code of ABC-123 = product A
-
-Chunk2:
-Product code of ABC-124 = product B
-
-Chunk3:
-Produ
-ct code of ABC-125 = product C
-…
-
-
-Currently I transform the query ‘ABC-123’ into a question more similar to the chunk i
-tself such as ´product code of ABC-XXX’. Then I 
-use langchain default doc retriever for retrieving the chunk. But obvio
-usly the embedding of the above chunk are extremely similar so the result is bad.
-
-I then try using BM25 retriever but t
-hen this retriever focus on the keyword ‘product code’ more instead of focusing on ´ABC-XXX’. Therefore, The result is e
-ven worst with this BM25 retriever.
-
-What are the idea or solution that can solve this problem? Thanks.
-
-
-```
----
-
-     
- 
-all -  [ Looking for open source tool to chat with my texts (news articles) ](https://www.reddit.com/r/LangChain/comments/1btw0vy/looking_for_open_source_tool_to_chat_with_my/) , 2024-04-04-0910
-```
-Hi.  
-Im Looking for open source tool to chat with my texts (news articles)  and ask questions about people / locations 
-and more, open chat.  
-
-
-The context is very basic, I want to create a 'bucket' with about 100 articles and ask question
-s about them.  
-I really hope that there is some that is able to provide answers in CPU in a reasoonable time of not mor
-e then 5 seconds...  
-I have found [https://nuclia.com/](https://nuclia.com/) but i wasnt able so far to make it work lo
-cally.
-
-Thanks
-```
----
-
-     
- 
-all -  [ Would you use an LLM Integration tool if it had a better experience? ](https://www.reddit.com/r/ChatGPT/comments/1btvfbc/would_you_use_an_llm_integration_tool_if_it_had_a/) , 2024-04-04-0910
-```
-We've seen a lot of discussions about LangChain's documentation being poor or unintuitive and other tools like it. Would
- you use it more or at all if it had better documentation and user experience?
-
-Do you use any other tool for LLM (ChatG
-PT, Gemini, Claude 3, Grok, etc.) Integration?
-
-If you have any other experience or something you'd like to share I'd lo
-ve to hear about it and other products you use for LLM Integration.
-
-[View Poll](https://www.reddit.com/poll/1btvfbc)
-```
----
-
-     
- 
-all -  [ Would you use an LLM Integration tool if it had a better experience? ](https://www.reddit.com/r/u_Itamark9/comments/1btv7ap/would_you_use_an_llm_integration_tool_if_it_had_a/) , 2024-04-04-0910
-```
-I've seen a lot of discussions about LangChain's documentation being poor or unintuitive and other tools like it. Would 
-you use it more or at all if it had better documentation and user experience?
-
-Do you use any other tool for LLM (ChatGP
-T, Gemini, Claude 3, Grok, etc.) Integration?
-
-If you have any other experience or something you'd like to share I'd lov
-e to hear about it and other products you use for LLM Integration.
-
-[View Poll](https://www.reddit.com/poll/1btv7ap)
-```
----
-
-     
- 
-all -  [ WinError 10061 while implementing function calling agent ](https://www.reddit.com/r/LangChain/comments/1btut9o/winerror_10061_while_implementing_function/) , 2024-04-04-0910
-```
-Hi, I have been using for around 2-3 weeks now and I have implemented a ReACT agent (with function calling) which worked
- fine until yesterday. I have not changed anything in my code when it just stopped working giving me the following error
-:
-
-&#x200B;
-
->raise ConnectionError(e, request=request)  
->  
->requests.exceptions.ConnectionError: HTTPConnectionPool(h
-ost='localhost', port=11434): Max retries exceeded with url: /api/chat (Caused by NewConnectionError('<urllib3.connectio
-n.HTTPConnection object at 0x0000022F1CC15310>: Failed to establish a new connection: \[WinError 10061\] No connection c
-ould be made because the target machine actively refused it'))
-
-I have restored even a previous version which I am sure 
-worked, reinstalled langchain but the result is still the same. Also I am using ollama with solar for inference.
-
-Any id
-ea on possible problem? If you require more context let me know.
-```
----
-
-     
- 
-all -  [ Am i the only one to notice that run and invoke gives different outputs when using rag ](https://www.reddit.com/r/LangChain/comments/1btry9t/am_i_the_only_one_to_notice_that_run_and_invoke/) , 2024-04-04-0910
-```
-I was building an application using langchain and a few days ago i got the warning that run was going to Removed and use
- invoke instead 
-
-But run used to give far better outputs compared with human like summerization which can be streamed w
-ithout any modifications
-On the other hand when invoke is used the output is unusable with random /n and metadata i get 
-it some devs may want it 
-
-But Why remove run ?
-```
----
-
-     
- 
-all -  [ Embeddings! ](https://www.reddit.com/r/LangChain/comments/1btrs1c/embeddings/) , 2024-04-04-0910
-```
-Is there an open-source project that can create high quality text from PDFs or Web Pages with little loss of quality?
-
-I
- know there are a lot of projects that can do this but none that can handle everything like images, tables in those PDFs
- and Web Pages. For instance, we can use OCR/Image Captioning/Pix2Struct techniques to generate quality text and therefo
-re embeddings from images. We can use similar techniques to convert tables to text and therefore embeddings.
-
-Is there a
- framework that can do all of this out of the box? I know I'm asking for a lot here, but this seems like a problem that 
-everyone who's doing RAG encounters everyday. I'm just wondering if there's anything out there before I spend time build
-ing something myself.
-
-What libraries or techniques do you use for generating quality embeddings?
-```
----
-
-     
- 
-all -  [ I am building a semantic based image search library, Picachain ](https://www.reddit.com/r/SideProject/comments/1btqm33/i_am_building_a_semantic_based_image_search/) , 2024-04-04-0910
-```
-With the growing image generation products the ability to quickly search through them will be crucial. So I came up with
- this idea of creating something for images. Something like langchain for images (or videos).
-
-I am building Picachain [
-https://github.com/d1pankarmedhi/picachain](https://github.com/d1pankarmedhi/picachain) a ready-to-use semantic based im
-age search engine. Currently supports Chroma and Pinecone but will soon support almost all the popular DBs.
-
-Feel free t
-o leave a feedback or suggest feature ideas. I would appreciate that. :)
-
-&#x200B;
-
-[picachain](https://preview.redd.it/
-g7cssq2f20sc1.png?width=1584&format=png&auto=webp&s=c4e87b97a2e4cc62eca8ac038fdfe060f910ccb7)
-```
----
-
-     
- 
-all -  [ RAG with Knowledge Graphs ? ](https://www.reddit.com/r/LangChain/comments/1btqluu/rag_with_knowledge_graphs/) , 2024-04-04-0910
-```
-How efficient and accurate is to use knowledge graphs for advanced RAG. Is it good enough to push it in production ? 
-```
----
-
-     
- 
-all -  [ Recent college graduate, worked at a startup for half of college, how's it look? ](https://www.reddit.com/r/resumes/comments/1bto9ua/recent_college_graduate_worked_at_a_startup_for/) , 2024-04-04-0910
-```
-Graduated college 3 months ago, applying to ML engineer/SWE positions at larger companies. I'm paranoid that my resume w
-ill hold me back. How's it look?
-
-https://preview.redd.it/cic6uobrfzrc1.jpg?width=5100&format=pjpg&auto=webp&s=eb0579801
-316d90c2040dac56e8d731cf37103af
-```
----
-
-     
- 
-all -  [ [Project] FinancialAdvisorGPT : LLM+RAG Boilerplate Project ](https://www.reddit.com/r/MachineLearning/comments/1btlpgd/project_financialadvisorgpt_llmrag_boilerplate/) , 2024-04-04-0910
+MachineLearning -  [ [Project] FinancialAdvisorGPT : LLM+RAG Boilerplate Project ](https://www.reddit.com/r/MachineLearning/comments/1btlpgd/project_financialadvisorgpt_llmrag_boilerplate/) , 2024-04-05-0910
 ```
 FinancialAdvisorGPT is a boilerplate project designed for RAG (Retriever-Augmented Generation) and LLM (Large Language M
 odel) applications in financial analysis. Built on a technology stack including MongoDB, MongoDB VectorDB, Chroma, FastA
@@ -1669,81 +1246,7 @@ ksayici/FinancialAdvisorGPT)
 
      
  
-all -  [ Please help with my llm chain invocation ](https://i.redd.it/ngoudxie6yrc1.jpeg) , 2024-04-04-0910
-```
-I’m completely new to using Langchain which I’m using in a JavaScript project. I have a custom_K.gguf base model(not a c
-hat model). From the screenshot, when the line 
-const result = await chain.call({ question: input }) runs, I get this:
-
-
-[chain/start] [1:chain:LLMChain] Entering Chain run with input: {
-  'question': 'who is elon musk',
-  'chat_history': ''
-
-}
-[chain/error] [1:chain:LLMChain] [1ms] Chain run errored with error: 'this.llm.pipe is not a function\n\nTypeError: t
-his.llm.pipe is not a function\n    at LLMChain._call 
-
-Without using chain, I'm able to send and receive answers to the
- model without issues but I'm using chain for history/memory purpose and I can't seem to understand why this is happenin
-g. 
-
-The difference between my code and the [sample](https://github.com/langchain-ai/langchainjs/blob/main/examples/src/
-chains/llm_chain_stream.ts) on their website is the use of LlmaCpp in place of OpenAI. So I’m not sure where else to loo
-k.
-
-Would really pepreciate any help I can get please 🙏🏾.
-
-I’ve tried to [create a discussion](https://github.com/langch
-ain-ai/langchainjs/discussions/4940) on the langchainjs repo but only received a response from the bot which wasn’t very
- helpful.
-
-
-```
----
-
-     
- 
-all -  [ Integrating a Hugging Face LLM Model with Langchain via SageMaker ](https://www.reddit.com/r/LangChain/comments/1bthz3u/integrating_a_hugging_face_llm_model_with/) , 2024-04-04-0910
-```
-Hello everyone,
-
-I'm trying to integrate a LLM with Langchain, specifically using the create\_react\_agent function docu
-mented here: [Langchain create\_react\_agent documentation](https://api.python.langchain.com/en/latest/agents/langchain.
-agents.react.agent.create_react_agent.html).
-
-For this test, I am trying to work with the open-source FLAN model from Hu
-gging Face, available at: [FLAN T5 XL on Hugging Face](https://huggingface.co/google/flan-t5-xl/tree/main). My goal is t
-o deploy this model as an endpoint in AWS SageMaker and then utilize it within Langchain by creating a react agent.
-
-Wha
-t steps should I follow to ensure that when I make a call to this SageMaker endpoint, it returns an LLM object that Lang
-chain's create\_react\_agent function can utilize? Also, do not want to use SageMaker DLC images.
-
-I'm unsure about the 
-best practices for making the deployed model compatible as an LLM object for Langchain, especially in terms of the expec
-ted response format and any necessary wrappers or adapters.
-
-Can some one offer insights into:
-
-1. The specific modifica
-tions or configurations needed on the SageMaker side to ensure compatibility with Langchain.
-2. How to properly format t
-he SageMaker endpoint's response to be recognized as an LLM object by Langchain.
-3. Any examples or templates that might
- be helpful for this process.  
-
-
-If this is not possible with SageMaker, what are the other options that I can look int
-o? 
-
-Appreciate your help on this.
-```
----
-
-     
- 
-MachineLearning -  [ [Project] Picachain, image search made simple. ](https://www.reddit.com/r/MachineLearning/comments/1bt7epv/project_picachain_image_search_made_simple/) , 2024-04-04-0910
+MachineLearning -  [ [Project] Picachain, image search made simple. ](https://www.reddit.com/r/MachineLearning/comments/1bt7epv/project_picachain_image_search_made_simple/) , 2024-04-05-0910
 ```
 I am working on creating something for image search, basically something like langchain for images. Probably add videos 
 too.
@@ -1762,33 +1265,7 @@ Appreciate your feedback or any feature ideas :)
 
      
  
-MachineLearning -  [ [D] : Scale PDF Q&A App to 10K Users with GPUs – <$250/Mo ](https://www.reddit.com/r/MachineLearning/comments/1b6jv56/d_scale_pdf_qa_app_to_10k_users_with_gpus_250mo/) , 2024-04-04-0910
-```
-Hello everyone,
-
-Check out this step-by-step detailed tutorial on building and scaling a PDF Q&A Application using Pinec
-one, Langchain and Inferless
-
-&#x200B;
-
-[Architecture](https://preview.redd.it/zfta52cbddmc1.png?width=1301&format=png&a
-uto=webp&s=440399212d3feb03e861759a31602e2cde0dc7fb)
-
-Alongside, the detailed quick deploy guide, it also includes cost 
-analysis on how you can save upto 84% cost with an example of processing 3000 documents and nearly 10,000 queries every 
-month, all while dramatically cutting your costs from $1800 ( AWS) to just $250 a month on Inferless.
-
-Here is the tutor
-ial - [https://cookbook.inferless.com/](https://cookbook.inferless.com/)
-
-If you resonate, join the discussion on Hacker
-news here - [https://news.ycombinator.com/item?id=39594588](https://news.ycombinator.com/item?id=39594588)
-```
----
-
-     
- 
-deeplearning -  [ Tengyu Ma on Voyage AI - Weaviate Podcast #91! ](https://www.reddit.com/r/deeplearning/comments/1bjft8i/tengyu_ma_on_voyage_ai_weaviate_podcast_91/) , 2024-04-04-0910
+deeplearning -  [ Tengyu Ma on Voyage AI - Weaviate Podcast #91! ](https://www.reddit.com/r/deeplearning/comments/1bjft8i/tengyu_ma_on_voyage_ai_weaviate_podcast_91/) , 2024-04-05-0910
 ```
 **Voyage AI** is the newest giant in the embedding, reranking, and search model game!
 
