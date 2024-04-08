@@ -1,5 +1,110 @@
  
-all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-07-0911
+all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-08-0910
+```
+NeurIPS24 is nearby and I've got a paper that got rejected last year at ICLR (5/5/6/3). While I'm addressing the feedbac
+k from last conference (method was received positively, but they asked for more experimentation), I'm still unsure wheth
+er the paper is strong enough to make it to an A\* conference such as NeurIPS. Also, to be honest, I've been working on 
+it for almost a year and I feel I want to wrap this up already and look at other ideas.
+
+&#x200B;
+
+I was wondering which
+ is better from these two:  
+
+
+* Submitting to a workshop at NeurIPS or similar (ICLR, ICML..). I assume this should be 
+doable with my paper given the feedback at ICLR but I don't know if that's correct?
+* Aiming for a conference paper in a
+ 'lower-tier' venue such as AISTATS, IJCAI or similar. I assume this is more difficult to pull off than the workshop pap
+er at NeurIPS but again I'm just guessing?
+
+I am still not a PhD student, but I'm applying for PhDs regularly. Therefore
+ I am kinda looking for the option that (in case my paper goes through) would give me more leverage as a PhD candidate i
+n my future applications. 
+```
+---
+
+     
+ 
+all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-08-0910
+```
+Hi all, this is going to be a somewhat long post. I am at a crossroads in my career and I highly appreciate any and all 
+advice and pointers you can provide. Below I am going to describe my situation, but all my thoughts are a bit hazy and s
+o don't shy away from offering your opinions even on topics that I am not asking for advice directly.
+
+**My background:*
+* I came to the US from another country to do my PhD. My PhD is in Mechanical Engineering (ME) in a solid (but not, say,
+ top 20) university. Before starting my PhD, I did my BS and MS in Aerospace Engineering and worked in 2 aerospace compa
+nies in my country for 4 years before coming here. Even though my PhD is in ME, I would say my PhD research is more in M
+L than ME. I developed ML tools to solve problems in ME, basically. I am finalizing my PhD this year. At the risk of sou
+nding arrogant, I will say that I am a very accomplished PhD student. My publication record is much higher than my peers
+ and I have won numerous awards, fellowships, grants etc. I mention these because later on in this thread when I say I a
+m trying to go into a research scientist in ML position in big tech, you will know that I have some things on my CV that
+ make me believe I will (or should) be taken seriously.
+
+As I said I had a job before coming here and I had a somewhat c
+omfortable life. The 2 reasons that I decided to start a PhD were 1) life is much better in the US and a PhD would give 
+me a solid path to come here, and 2) I realized that my job is extremely boring and my brain was rotting away. I needed 
+to challenge myself and I found that challenge in academia. After four years of working in the industry (2 different eng
+ineering companies), I fully realized that I belong in academia doing research.
+
+That was until 1-2 years ago. Around 1-
+2 years ago I started questioning if this much commitment to get an academic position is even worth it. In my field, the
+ academic market is *extremely* oversaturated. Most open faculty positions get 250+ applications, with 50+ serious appli
+cations, out of which 10-20 are shortlisted who all have 3-5 years of postdoc on top of their PhD. I am questioning if s
+ubjecting myself to 3-5 years of postdoc with shit pay and high stress and moving from state to state for my next postdo
+c every year is worth it. Plus, I have a family and I have an obligation towards my family (and parents) and instead of 
+this pipe dream I should be looking for a solid job with a good pay.
+
+**My current situation:** So, I started looking fo
+r jobs. But jobs in ME or related fields sound very boring to me. I fully know that I will regret it if I go into an eng
+ineering position. And once I go there, it is virtually impossible to come back to academia. Then I will have to endure 
+a very miserable life for the rest of my life. On the other hand, I really like ML. I can see myself doing ML for the re
+st of my life. If I can do research in ML and get a good pay, then that is literally heaven for me. Because 1) it combin
+es my interests: research and ML, 2) it solves my problems (good pay), and 3) it leaves open the option to come back to 
+academia later on even if I dislike it (if I can publish papers while away, I can still come back). So, I can't stress h
+ow much I want a research scientist position in ML. The problem is, I have no background or training in computer science
+. And my ML research is mostly 'applied ML', if that makes sense. My research is ML in nature, but not the kind of ML th
+at companies need (say NLP, LLMs, image processing, etc). Rather, my research involves using ML for science. Therefore, 
+probably, it will be very hard to convince companies to take my application to these positions seriously.
+
+So after all 
+this reflection, earlier this year I started applying for industry positions in ML. I didn't have much of a hope when ap
+plying, but I still applied for the heck of it. But to my extreme surprise, a FAANG company offered to interview me for 
+a Research Scientist in ML position! This was huuuge for me, and filled me with self confidence. I put everything aside 
+to do some leetcode (because, as I said, I have no CS background and these leetcode-type problems are very new to me). I
+ passed the screening round and went into full loop. I kept leetcoding and rigorously preparing for the ML system design
+ and behavioral interviews. I thought I had done well in all of my interviews, but to my dismay they rejected my applica
+tion at the end. This was a huge bummer for me. I was one step away from my dream job and I failed. And to make it worse
+, this company was the only company to even interview me, all the other companies (10s of non-FAANG) companies that I ap
+plied to, outright rejected me (which was surprising to be honest).
+
+**What now?:** I apologize for the extremely long p
+ost with my entire life story. I don't even know what I am saying or what questions I am asking clearly, but whatever it
+ is, providing my full background may help. All I know at this point is I am in shambles. Maybe I am aiming too high and
+ it was completely expected for this one chance to end up in failure. But I have no idea what I am going to do now. Mayb
+e I have become myopic from hoping/looking at this company for so long. But right now, I feel like I should either becom
+e a research scientist in ML or nothing at all. In my opinion, **the biggest obstacle in all of this is: I am looking fo
+r a job in big tech where I can do research and publish which extremely limits my choices.** There are only 4-5 companie
+s in the world that have these kinds of posts and those companies are so prestigious that they have no shortage of prope
+r ML researchers applying to their posts. I think it is a miracle that I even got this one interview.
+
+So I guess my mos
+t important question to you guys is: **With my background in mind, what is the shortest path for me to obtain a research
+ scientist position in ML?** My current plan is to start a postdoc but use my postdoc to publish a paper in NeurIPS/ICML
+/ICLR (or at least aim for this) just to show potential recruiters that even though my PhD is in ME, I have what it take
+s to do the research scientist jobs.
+
+Thank you for looking at my post.
+
+TLDR: Delusional (?) ME PhD graduate who thinks
+ he is worthy of a research position in pure ML with those amazing FAANG salaries asking how he can get to his dream.
+```
+---
+
+     
+ 
+all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-08-0910
 ```
 International student from India. Currently doing my second bachelor's from an IIT in Data Science, and I have a Physics
  Honors degree from a Tier 2 college. 
@@ -30,7 +135,7 @@ chool but now I'm a bit nervous to apply as my cgpa is low, but can my research 
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-07-0911
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-08-0910
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -82,7 +187,7 @@ he original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-07-0911
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-08-0910
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -134,7 +239,7 @@ the original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-04-07-0911
+all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-04-08-0910
 ```
 
 ```
@@ -142,7 +247,7 @@ all -  [ I am not aware that we have so many outstanding PhDs on the job market.
 
      
  
-all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-07-0911
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-08-0910
 ```
 Though I mailed to all authors, I couldn't receive any reply...
 
@@ -202,7 +307,7 @@ Thank you in advance!
 
      
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-07-0911
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-08-0910
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -217,7 +322,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-07-0911
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-08-0910
 ```
 Hi everyone!
 
@@ -235,7 +340,7 @@ vileged environment, or are the manuscript-authors just lazy? How much faith do 
 
      
  
-all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-04-07-0911
+all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-04-08-0910
 ```
 Hi,
 Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
@@ -267,7 +372,7 @@ me city near lyon since im a foreigner and i feel more settled due to having mad
 
      
  
-all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-04-07-0911
+all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-04-08-0910
 ```
 As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
  has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
