@@ -1,5 +1,5 @@
  
-all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-08-0910
+all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-09-0910
 ```
 NeurIPS24 is nearby and I've got a paper that got rejected last year at ICLR (5/5/6/3). While I'm addressing the feedbac
 k from last conference (method was received positively, but they asked for more experimentation), I'm still unsure wheth
@@ -26,7 +26,7 @@ n my future applications.
 
      
  
-all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-08-0910
+all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-09-0910
 ```
 Hi all, this is going to be a somewhat long post. I am at a crossroads in my career and I highly appreciate any and all 
 advice and pointers you can provide. Below I am going to describe my situation, but all my thoughts are a bit hazy and s
@@ -104,7 +104,7 @@ TLDR: Delusional (?) ME PhD graduate who thinks
 
      
  
-all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-08-0910
+all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-09-0910
 ```
 International student from India. Currently doing my second bachelor's from an IIT in Data Science, and I have a Physics
  Honors degree from a Tier 2 college. 
@@ -135,7 +135,7 @@ chool but now I'm a bit nervous to apply as my cgpa is low, but can my research 
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-08-0910
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-09-0910
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -187,7 +187,7 @@ he original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-08-0910
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-09-0910
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -239,7 +239,7 @@ the original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-04-08-0910
+all -  [ I am not aware that we have so many outstanding PhDs on the job market. ](https://i.redd.it/egc3me1vkjpc1.png) , 2024-04-09-0910
 ```
 
 ```
@@ -247,7 +247,7 @@ all -  [ I am not aware that we have so many outstanding PhDs on the job market.
 
      
  
-all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-08-0910
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-09-0910
 ```
 Though I mailed to all authors, I couldn't receive any reply...
 
@@ -307,7 +307,7 @@ Thank you in advance!
 
      
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-08-0910
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-09-0910
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -322,7 +322,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-08-0910
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-09-0910
 ```
 Hi everyone!
 
@@ -340,7 +340,7 @@ vileged environment, or are the manuscript-authors just lazy? How much faith do 
 
      
  
-all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-04-08-0910
+all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-04-09-0910
 ```
 Hi,
 Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
@@ -372,7 +372,7 @@ me city near lyon since im a foreigner and i feel more settled due to having mad
 
      
  
-all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-04-08-0910
+all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-04-09-0910
 ```
 As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
  has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
