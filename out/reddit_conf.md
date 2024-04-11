@@ -1,5 +1,157 @@
  
-all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-10-0910
+all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-11-0910
+```
+I'm an undergrad doing research (no previous publications). My advisor and I have been busy with other work and have not
+ gotten significant time to work on our project. While we've written most of the code, we have some parts left and have 
+not started running any experiments (though we know the steps forward and have a relatively organized research plan). We
+ plan to submit to NeurIPS '24; should we cave in and try submitting at ICLR instead (September deadline)? Is it worth g
+oing all-in on these next few weeks? 
+```
+---
+
+     
+ 
+all -  [ Would a workshop paper be considered a spike? ](https://www.reddit.com/r/ApplyingToCollege/comments/1c0zd9o/would_a_workshop_paper_be_considered_a_spike/) , 2024-04-11-0910
+```
+Journal and conference papers are more recognized, but I wonder how workshop papers are viewed. e.g. NeurIps workshop.
+```
+---
+
+     
+ 
+all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-11-0910
+```
+FAR AI is seeking applications for a skilled Technical Lead to spearhead the delivery of our technical AI safety researc
+h and red-teaming projects.
+
+**About Us**
+
+FAR AI is a technical AI research non-profit, focused on ensuring the safe de
+velopment and deployment of frontier AI technologies.
+
+Since starting in July 2022, FAR has grown to 12 FTE, produced 13
+ academic papers, hosted events for some of the world’s leading AI & computer science researchers, and opened our AI saf
+ety focused co-working space which is home to around 40 members.
+
+**About FAR Research**
+
+Our research team likes to mov
+e fast. We explore promising research directions in AI safety and scale up only those showing a high potential for impac
+t. Unlike other AI safety labs that take a bet on a single research direction, FAR aims to pursue a diverse portfolio of
+ projects. We also put our research into practice through red-teaming engagements with frontier AI developers.
+
+Our curr
+ent focus areas are building a *science of robustness* (e.g. finding vulnerabilities in superhuman Go AIs), finding more
+ effective approaches to *value alignment* (e.g. training from language feedback), and *model evaluation* (e.g. inverse 
+scaling and codebook features).
+
+**Other FAR Projects**
+
+To build a flourishing field of AI safety research, we host tar
+geted workshops and events, and operate a co-working space in Berkeley, called FAR Labs. Our previous events include the
+ *International Dialogue for AI Safety* that brought together prominent scientists (including 2 Turing Award winners) fr
+om around the globe, culminating in a public statement calling for global action on AI safety research and governance. W
+e recently hosted the New Orleans Alignment Workshop for over 140 researchers from academia and industry to learn about 
+AI safety and find collaborators. For more information on FAR AI’s activities, please visit our latest post.
+
+**About th
+e Role**
+
+Our research projects are focussed on ensuring the safe and responsible development of advanced artificial int
+elligence systems. As a Technical Lead at FAR AI you will be crucial to driving the quality and execution of these proje
+cts to new heights, helping shaping the future of AI safety.
+
+You will work in tandem with Research Scientists, Advisors
+ and Engineers both within and outside FAR, providing technical guidance and project stewardship.
+
+**Key responsibilitie
+s:**
+
+* **Technical Leadership and Execution**. Be FAR’s point-of-contact for all technical matters related to our resea
+rch projects.
+* **Strategic Guidance**. Play a key role in the development and direction of technical research projects.
+
+* **Hands-on Leadership**. Lead by example with active involvement in coding, debugging and project development.
+* **In
+novation**. Run scientific experiments and contribute to the development of scalable implementations of machine learning
+ algorithms. You will be credited as an author in submissions to peer reviewed venues (e.g. NeurIPS, ICLR, JMLR)
+* **Res
+earch Collaboration**. Work closely with Research Scientists to convert theoretical models into practical experiments. F
+oster strong relationships with collaborators from various academic labs and research institutions, facilitating the exc
+hange of ideas and methodologies.
+* **Mentorship and Team Development**. Guide and support the professional growth of th
+e engineering team.
+* **Learning and Development**. Pursue continual development of your skills. You will have an opport
+unity in the role to develop your research taste and high-level views on AI safety research by collaborating with our Re
+search Team. We are excited to support our team to grow in other areas, and will have a dedicated Learning & Development
+ budget.
+
+**About You**
+
+You should be excited to help make AI systems safe. You are expected to have a minimum of 5 yea
+rs experience in software development OR 3 years (PhD equivalent) experience with Machine Learning methodologies.
+
+It is
+ essential that you have a:
+
+* Track record of delivering technical projects, ideally in a startup or research environme
+nt
+* Strong technical expertise in software engineering, with proficiency in at least one object-oriented programming la
+nguages (preferably Python).
+* Are results-oriented and motivated by impactful research.
+* Excellent ability to communic
+ate complex technical concepts and lead collaborative efforts.
+
+It is preferable that you have:
+
+* Experience with machi
+ne learning methodologies and frameworks like PyTorch or TensorFlow.
+* Familiarity with operating system internals and d
+istributed systems.
+* Familiarity with basic linear algebra, calculus, vector probability, and statistics.
+* Publication
+s or open-source software contributions.
+
+**About the Projects**
+
+As a Technical Lead you would drive engineering excell
+ence across multiple projects, with examples below:
+
+* Scaling laws for prompt injections. Will advances in capabilities
+ from increasing model and data scale help resolve prompt injections or “jailbreaks” in language models, or is progress 
+in average-case performance orthogonal to worst-case robustness?
+* Robustness of advanced AI systems. Explore adversaria
+l training, architectural improvements and other changes to deep learning systems to improve their robustness. We are ex
+ploring this both in zero-sum board games and language models.
+* Mechanistic interpretability for mesa-optimization. Dev
+elop techniques to identify internal planning in models to effectively audit the “goals” of models in addition to their 
+external behavior.
+* Redteaming of frontier models. Apply our research insights to test for vulnerabilities and limitati
+ons of frontier AI models prior to deployment.
+
+**Logistics**
+
+You will be an employee of FAR AI, a 501(c)(3) research n
+on-profit.
+
+* Location: Both remote and in-person (Berkeley, CA) are possible. We sponsor visas for in-person employees,
+ and can also hire remotely in most countries.
+* Hours: Full-time (40 hours/week).
+* Compensation: $125,000-$250,000/yea
+r\* depending on experience and location. We will also pay for work-related travel and equipment expenses. We offer cate
+red lunch and dinner at our offices in Berkeley. \**For exceptional candidates with an outstanding track record we may b
+e able to offer additional compensation.*
+* Application process: A 90-minute programming assessment, 2 1-hour interviews
+, and a 1-2 week paid work trial. If you are not available for a work trial we may be able to find alternative ways of t
+esting your fit.
+
+**Please apply!** If you have any questions about the role, please do get in touch at *hello@far.ai.*
+```
+---
+
+     
+ 
+all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-11-0910
 ```
 
 ```
@@ -7,7 +159,7 @@ all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical 
 
      
  
-all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-10-0910
+all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-11-0910
 ```
 NeurIPS24 is nearby and I've got a paper that got rejected last year at ICLR (5/5/6/3). While I'm addressing the feedbac
 k from last conference (method was received positively, but they asked for more experimentation), I'm still unsure wheth
@@ -34,7 +186,7 @@ n my future applications.
 
      
  
-all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-10-0910
+all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-11-0910
 ```
 Hi all, this is going to be a somewhat long post. I am at a crossroads in my career and I highly appreciate any and all 
 advice and pointers you can provide. Below I am going to describe my situation, but all my thoughts are a bit hazy and s
@@ -112,7 +264,7 @@ TLDR: Delusional (?) ME PhD graduate who thinks
 
      
  
-all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-10-0910
+all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-11-0910
 ```
 International student from India. Currently doing my second bachelor's from an IIT in Data Science, and I have a Physics
  Honors degree from a Tier 2 college. 
@@ -143,7 +295,7 @@ chool but now I'm a bit nervous to apply as my cgpa is low, but can my research 
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-10-0910
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-11-0910
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -195,7 +347,7 @@ he original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-10-0910
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-11-0910
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -247,7 +399,7 @@ the original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-10-0910
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-11-0910
 ```
 Though I mailed to all authors, I couldn't receive any reply...
 
@@ -307,7 +459,7 @@ Thank you in advance!
 
      
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-10-0910
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-11-0910
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -322,7 +474,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-10-0910
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-11-0910
 ```
 Hi everyone!
 
@@ -340,7 +492,7 @@ vileged environment, or are the manuscript-authors just lazy? How much faith do 
 
      
  
-all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-04-10-0910
+all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-04-11-0910
 ```
 Hi,
 Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
@@ -372,7 +524,7 @@ me city near lyon since im a foreigner and i feel more settled due to having mad
 
      
  
-all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-04-10-0910
+all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-04-11-0910
 ```
 As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
  has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
