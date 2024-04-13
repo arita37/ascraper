@@ -1,5 +1,87 @@
  
-all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-12-0910
+all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-04-13-0909
+```
+Folks on Twitter seem not to like the idea at least the rationale. I tend to agree with them because we are pushing ever
+yone to have a research paper so as to be considered 'someone'
+```
+---
+
+     
+ 
+all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-04-13-0909
+```
+Profile:
+
+* Tier 1 school BA+Master's. Originally physics major turned engineering. In exams, I ranked close to the top 
+of my cohort, but only in my final year. Other years more like an avg student, mostly because I couldn't do more than th
+e bare minimum as I kept pinballing around doing a very broad spread of things. Due to the way courses worked, I ended u
+p having to do waaaay more work than any sane person should have and basically did the BA+Master's degree in 3 years. Th
+is was because I'm indecisive to a fault. My last year was basically just a CS degree: taking ML, software and hardware 
+courses. The years previous were irrelevant for CS - fluid mechanics, thermodynamics, control theory, signal processing,
+ linear algebra and general fundamentals in all aspects of engineering. I also spent a year doing sciences.
+* I'm more c
+onfident that I can get a PhD at a tier 2/3 place and currently have a 'safety offer'.
+* Published workshop paper at Neu
+rIPS 2023. Got a NeurIPS 2024 submission in the pipeline. I'm currently taking a (gap) year out and been chaining togeth
+er research internships/programs.
+* I'm interested in quite niche topics - reasoning in ML learning machines i.e. how ca
+n we make them reason multi-step and more like humans, more robustly, be Turing complete, etc. Why do models fail to gen
+eralise, how do causal interventions white-boxing help with this? And of course this all links to model editing, knowled
+ge graphs, model unlearning/pruning and explainability. I'm also a big fan of (useful) ML theory and 'science of deep le
+arning'. I suspect I would not want to work with profs who just pattern match some 20 year old technique to ML and call 
+it a day, or only do Bayesian/statistical ML. I also think I want to dedicate more time to learning computational learni
+ng theory, areas of pure mathematics and formal logic during my PhD.
+* I don't really care for things like RL, making mo
+dels 'more efficient', computer vision or ML for medicine/neuro ML.
+
+So now the question is; I want to get into a tier 1
+ PhD sometime over the next few years. Other than publishing, what else can I do to get into a tier 1 PhD? Everything se
+ems in the right direction, except my major is not ideal (on paper) and despite a high final GPA, my CGPA or equivalent 
+is not the best (but I have a good reason, and my school didn't have grade inflation). I can't afford a Master's because
+ I would be an international student. Would cold emailing to ask to RA be a good idea?
+```
+---
+
+     
+ 
+all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-04-13-0909
+```
+I'm in Windows.
+
+I downloaded and extracted  seamless4mt_medium l.ggml
+
+What tò do now ?
+```
+---
+
+     
+ 
+all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-04-13-0909
+```
+NeurIPS 2024 Adds a New Paper Track for High School Students
+
+https://neurips.cc/Conferences/2024/CallforHighSchoolProje
+cts
+
+> The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024) is an interdisciplina
+ry conference that brings together researchers in machine learning, neuroscience, statistics, optimization, computer vis
+ion, natural language processing, life sciences, natural sciences, social sciences, and other adjacent fields. 
+
+> This 
+year, we invite high school students to submit research papers on the topic of machine learning for social impact.  A su
+bset of finalists will be selected to present their projects virtually and will have their work spotlighted on the NeurI
+PS homepage.  In addition, the leading authors of up to five winning projects will be invited to attend an award ceremon
+y at NeurIPS 2024 in Vancouver.  
+
+> Each submission must describe independent work wholly performed by the high school 
+student authors.  We expect each submission to highlight either demonstrated positive social impact or the potential for
+ positive social impact using machine learning.
+```
+---
+
+     
+ 
+all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-13-0909
 ```
 I'm an undergrad doing research (no previous publications). My advisor and I have been busy with other work and have not
  gotten significant time to work on our project. While we've written most of the code, we have some parts left and have 
@@ -11,7 +93,7 @@ oing all-in on these next few weeks?
 
      
  
-all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-12-0910
+all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-13-0909
 ```
 FAR AI is seeking applications for a skilled Technical Lead to spearhead the delivery of our technical AI safety researc
 h and red-teaming projects.
@@ -143,7 +225,7 @@ esting your fit.
 
      
  
-all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-12-0910
+all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-13-0909
 ```
 
 ```
@@ -151,7 +233,7 @@ all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical 
 
      
  
-all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-12-0910
+all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-13-0909
 ```
 NeurIPS24 is nearby and I've got a paper that got rejected last year at ICLR (5/5/6/3). While I'm addressing the feedbac
 k from last conference (method was received positively, but they asked for more experimentation), I'm still unsure wheth
@@ -178,7 +260,7 @@ n my future applications.
 
      
  
-all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-12-0910
+all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-13-0909
 ```
 Hi all, this is going to be a somewhat long post. I am at a crossroads in my career and I highly appreciate any and all 
 advice and pointers you can provide. Below I am going to describe my situation, but all my thoughts are a bit hazy and s
@@ -256,7 +338,7 @@ TLDR: Delusional (?) ME PhD graduate who thinks
 
      
  
-all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-12-0910
+all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-13-0909
 ```
 International student from India. Currently doing my second bachelor's from an IIT in Data Science, and I have a Physics
  Honors degree from a Tier 2 college. 
@@ -287,7 +369,7 @@ chool but now I'm a bit nervous to apply as my cgpa is low, but can my research 
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-12-0910
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-13-0909
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -339,7 +421,7 @@ he original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-12-0910
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-13-0909
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -391,7 +473,7 @@ the original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-12-0910
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-13-0909
 ```
 Though I mailed to all authors, I couldn't receive any reply...
 
@@ -451,7 +533,7 @@ Thank you in advance!
 
      
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-12-0910
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-13-0909
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -466,7 +548,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-12-0910
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-13-0909
 ```
 Hi everyone!
 
@@ -484,7 +566,7 @@ vileged environment, or are the manuscript-authors just lazy? How much faith do 
 
      
  
-all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-04-12-0910
+all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-04-13-0909
 ```
 Hi,
 Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
@@ -511,25 +593,6 @@ thing specifically related to what ive done being needed. I have 7 months left o
 ing/doing or what could be an ideal focus for job search with such profile? Id like to stay in France and even in the sa
 me city near lyon since im a foreigner and i feel more settled due to having made friends and understanding the language
 . Your insights would be helpful. I feel very lost.
-```
----
-
-     
- 
-all -  [ ML Internships aren't supposed to be this difficult to get - Rant ](https://www.reddit.com/r/cscareerquestions/comments/1bd940o/ml_internships_arent_supposed_to_be_this/) , 2024-04-12-0910
-```
-As an international master's student, I'm on the verge of quitting my search as my internship hunt for the past 8 months
- has practically given 0 offers. I've applied to over 600 postings (every single ML/DS posting that has come). I did get
- 3-4 callbacks but they never converted to offers despite the interviews going well. All I can say is that the competiti
-on is unbelievably high, and the companies seem to be taking just 1 intern per team or none. Every position I am interes
-ted in requires a Ph.D. candidate or papers in conferences like ICML, NeurIPS, or CVPR on the exact niche area the team 
-works on. When there's a lack of jobs and an abundant supply of candidates, they can get choosy. But these are internshi
-ps we are talking about, things meant to be entry-level positions.
-
-Is it actually supposed to be this difficult? The wo
-rst part is that all the callbacks I got so far are through direct contact with the hiring manager. None of the regular 
-applications(even with referrals) gave me anything. As a final plea, if any of my fellow Redditors here have leads I'd r
-eally appreciate some help.
 ```
 ---
 
