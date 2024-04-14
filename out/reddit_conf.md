@@ -1,5 +1,67 @@
  
-all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-04-13-0909
+all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-04-14-0914
+```
+**TL;DR** I come from an average family and worked hard to put myself through college, driven by my passion for research
+ and innovation. Despite having multiple first-author papers in top ML conferences, contributing to open-source projects
+, and making industry impact, I'm struggling to get into a PhD program. I've been rejected by top universities and feel 
+lost and exhausted. I'm starting to doubt myself and wonder if a strong research background is not enough without the ri
+ght connections or family background. I'm considering giving up on my dream of pursuing a PhD and doing meaningful resea
+rch.
+
+I have published many  research papers so far as the first author in top-tier conferences and workshops like EMNLP
+, NeurIPS, ACM, and ACL. My research has been honored as the Best NLP Researcher by my company. I actively contribute to
+ open-source projects, including PyTorch and HuggingFace, and have implemented other tools and frameworks (aggregating \
+[x\]0k+ stars on GitHub). My research papers are crossing \[x\]00+ citations and an h-index of \[x\]. All have been peer
+-reviewed.
+
+I wrote these papers entirely on my own, without any supervision or guidance. From conceptualizing the initi
+al idea to writing the code, conducting experiments, refining the model, and ultimately writing the paper, I handled eve
+ry aspect of the research process independently. As a first-generation college graduate, there was no publication cultur
+e in my company. So, I read papers, made annotated notes, and experimented with new ideas. The first paper took me a yea
+r to publish because I didn't know what to write, even though the results of my idea were state-of-the-art. I went throu
+gh more than 600 papers in two months to find the pattern and learn how to write papers.
+
+**Now, here's the problem:**
+
+
+I want to pursue a PhD, but for me, it's not just a way to get a degree and land a job at top companies to earn more mon
+ey. I am less inclined towards financial gains. I want to pursue a PhD to have a better environment for research, build 
+a strong network with whom I can brainstorm ideas, receive constructive feedback, collaborate on projects and contributi
+ng something meaningful to civilization from my knowledge.
+
+However, coming from a small city, it has been quite challen
+ging. I don't know how to approach professors, and frankly, I am not very good at reaching out to people. I tried talkin
+g to a few professors over email, but they didn't reply. I also applied to CMU, Stanford, and a few other universities b
+ut got rejected.
+
+I am feeling a bit exhausted. I know it's not the end of the world, but doing all this alone and tryin
+g to find a good college just to do some quality research - is it really that hard?
+
+I have seen many posts on Reddit in
+ this channel where people mention that they didn't get admitted because they don't have first-author papers, or they qu
+estion why universities are asking for first-author papers. I've also read that if you have a first-author paper, you're
+ already set. Is that true?
+
+If so, where am I going wrong? I have a strong research profile, and even companies like Me
+ta and Google are using my research and methods, but I still can't find a good professor for my PhD. Either I am mistake
+n, or those who claim that having a first-author paper will get you into a top college are wrong.
+
+Personally, I have lo
+st hope. I've started believing that you can only get into a good college if you have some academic background in your f
+amily because they will guide you on where to apply and what to write. Or, if you have strong academic connections, you'
+ll be accepted directly based on referrals. Unfortunately, I don't have either of these. I feel like I'm stuck in this m
+atrix, and people are so complex to understand. Why can't it be straightforward? If I get rejected from all universities
+, they should at least provide a reason. The only reason I received was that due to an overwhelming response, they could
+n't accept me.
+
+I'm not feeling angry, but I am confused. I have started doubting myself.  I'm wondering what I'm doing 
+wrong. I feel like I should quit research.
+```
+---
+
+     
+ 
+all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-04-14-0914
 ```
 Folks on Twitter seem not to like the idea at least the rationale. I tend to agree with them because we are pushing ever
 yone to have a research paper so as to be considered 'someone'
@@ -8,7 +70,7 @@ yone to have a research paper so as to be considered 'someone'
 
      
  
-all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-04-13-0909
+all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-04-14-0914
 ```
 Profile:
 
@@ -44,7 +106,7 @@ is not the best (but I have a good reason, and my school didn't have grade infla
 
      
  
-all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-04-13-0909
+all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-04-14-0914
 ```
 I'm in Windows.
 
@@ -56,7 +118,7 @@ What tò do now ?
 
      
  
-all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-04-13-0909
+all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-04-14-0914
 ```
 NeurIPS 2024 Adds a New Paper Track for High School Students
 
@@ -81,7 +143,7 @@ student authors.  We expect each submission to highlight either demonstrated pos
 
      
  
-all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-13-0909
+all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-14-0914
 ```
 I'm an undergrad doing research (no previous publications). My advisor and I have been busy with other work and have not
  gotten significant time to work on our project. While we've written most of the code, we have some parts left and have 
@@ -93,7 +155,7 @@ oing all-in on these next few weeks?
 
      
  
-all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-13-0909
+all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-14-0914
 ```
 FAR AI is seeking applications for a skilled Technical Lead to spearhead the delivery of our technical AI safety researc
 h and red-teaming projects.
@@ -225,7 +287,7 @@ esting your fit.
 
      
  
-all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-13-0909
+all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-14-0914
 ```
 
 ```
@@ -233,7 +295,7 @@ all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical 
 
      
  
-all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-13-0909
+all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-14-0914
 ```
 NeurIPS24 is nearby and I've got a paper that got rejected last year at ICLR (5/5/6/3). While I'm addressing the feedbac
 k from last conference (method was received positively, but they asked for more experimentation), I'm still unsure wheth
@@ -260,7 +322,7 @@ n my future applications.
 
      
  
-all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-13-0909
+all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-14-0914
 ```
 Hi all, this is going to be a somewhat long post. I am at a crossroads in my career and I highly appreciate any and all 
 advice and pointers you can provide. Below I am going to describe my situation, but all my thoughts are a bit hazy and s
@@ -338,7 +400,7 @@ TLDR: Delusional (?) ME PhD graduate who thinks
 
      
  
-all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-13-0909
+all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-14-0914
 ```
 International student from India. Currently doing my second bachelor's from an IIT in Data Science, and I have a Physics
  Honors degree from a Tier 2 college. 
@@ -369,7 +431,7 @@ chool but now I'm a bit nervous to apply as my cgpa is low, but can my research 
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-13-0909
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-14-0914
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -421,7 +483,7 @@ he original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-13-0909
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-14-0914
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -473,7 +535,7 @@ the original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-13-0909
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-14-0914
 ```
 Though I mailed to all authors, I couldn't receive any reply...
 
@@ -533,7 +595,7 @@ Thank you in advance!
 
      
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-13-0909
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-14-0914
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -548,7 +610,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-13-0909
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-14-0914
 ```
 Hi everyone!
 
@@ -561,38 +623,6 @@ re larger resolutions than just 32x32. it's also my impression that almost all o
 on larger scale data. But given how often I encounter this situation, I have to wonder: am  I just working in a very pri
 vileged environment, or are the manuscript-authors just lazy? How much faith do you have in papers that only evaluate on
  MNIST and CIFAR10?
-```
----
-
-     
- 
-all -  [ 2 yoe in research labs only in computer vision. What should be my next steps? ](https://www.reddit.com/r/cscareerquestionsEU/comments/1bdslud/2_yoe_in_research_labs_only_in_computer_vision/) , 2024-04-13-0909
-```
-Hi,
-Based in France. I have a masters where I did 2 internships in a good research lab and then started working as resea
-rch engineer in a public lab for ~2 years. They only offer temporary contracts and there is a limit to how long you can 
-work with these temporary contracts in France (you can try for the few research scientists positions but jts if you have
- phd/post doc plus good publiching track and experience, so i need to move on).
-I didn't go for a phd and don't want to 
-now since I felt I didn't have the right motivation and didn't want to do it for the sake of it. Didn't see myself as a 
-researcher either publishing all my life. Research Engineer is a sweet spot.
-
-From internships/job, I've so far co-autho
-red 4 papers in computer vision conferences (neurips, iccv, cvpr, miccai) in the topics of 3d reconstruction and human m
-odeling. But that's pretty much the achievement which is probably meaningless for jobs in the industry. And thing is, I 
-feel my skill stack being also limited to research workflow might be little interesting to the industry (practical exper
-ience with only python vs c++ for example). 
-
-And i feel i should switch to industry (instead of another contract in a r
-esearch lab) since honestly, even though these papers might seem nothing, they take a lot of effort and work and the who
-le publishing cycle drains you mentally. And the compensation you get is really low I feel in these public labs (32k bru
-t).
-
-When I look around for jobs, I see mostly poorly defined descriptions but titled data scientist or mainly MLops. No
-thing specifically related to what ive done being needed. I have 7 months left on my contract. What should I start learn
-ing/doing or what could be an ideal focus for job search with such profile? Id like to stay in France and even in the sa
-me city near lyon since im a foreigner and i feel more settled due to having made friends and understanding the language
-. Your insights would be helpful. I feel very lost.
 ```
 ---
 
