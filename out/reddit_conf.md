@@ -1,5 +1,39 @@
  
-all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-04-14-0914
+all -  [ Looking for good recruiters with contacts in Berlin ](https://www.reddit.com/r/cscareerquestionsEU/comments/1c3olv1/looking_for_good_recruiters_with_contacts_in/) , 2024-04-15-1128
+```
+Throwaway account for obvious reasons.
+
+I am working in a FAANG company, 10+YoE, papers at ICML/NeurIPS/.. and I am look
+ing to move to Berlin. I would like to get in touch with professionals that can help me finding the right position given
+ my experience.
+
+I am currently under the impression that local companies have low pay ranges and most hire jr/mid-level
+ folks. 
+
+Do you have any contact? Any place where I can eventually go over the summer to build some network? (I don't n
+eed to rush)
+```
+---
+
+     
+ 
+all -  [ Looking for a good headhunter (Berlin) ](https://www.reddit.com/r/MachineLearningJobs/comments/1c3oit2/looking_for_a_good_headhunter_berlin/) , 2024-04-15-1128
+```
+I am working in a FAANG company, 10YoE, papers at ICML/NeurIPS/.. and I am looking to move to Berlin. I would like to ge
+t in touch with professionals that can help me finding the right position given my experience.
+
+Do you have any contact?
+
+
+
+
+This is a throwaway account for obvious reasons.
+```
+---
+
+     
+ 
+all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-04-15-1128
 ```
 **TL;DR** I come from an average family and worked hard to put myself through college, driven by my passion for research
  and innovation. Despite having multiple first-author papers in top ML conferences, contributing to open-source projects
@@ -61,7 +95,7 @@ wrong. I feel like I should quit research.
 
      
  
-all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-04-14-0914
+all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-04-15-1128
 ```
 Folks on Twitter seem not to like the idea at least the rationale. I tend to agree with them because we are pushing ever
 yone to have a research paper so as to be considered 'someone'
@@ -70,7 +104,7 @@ yone to have a research paper so as to be considered 'someone'
 
      
  
-all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-04-14-0914
+all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-04-15-1128
 ```
 Profile:
 
@@ -106,7 +140,7 @@ is not the best (but I have a good reason, and my school didn't have grade infla
 
      
  
-all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-04-14-0914
+all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-04-15-1128
 ```
 I'm in Windows.
 
@@ -118,7 +152,7 @@ What tò do now ?
 
      
  
-all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-04-14-0914
+all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-04-15-1128
 ```
 NeurIPS 2024 Adds a New Paper Track for High School Students
 
@@ -143,7 +177,7 @@ student authors.  We expect each submission to highlight either demonstrated pos
 
      
  
-all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-14-0914
+all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-15-1128
 ```
 I'm an undergrad doing research (no previous publications). My advisor and I have been busy with other work and have not
  gotten significant time to work on our project. While we've written most of the code, we have some parts left and have 
@@ -155,7 +189,7 @@ oing all-in on these next few weeks?
 
      
  
-all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-14-0914
+all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-15-1128
 ```
 FAR AI is seeking applications for a skilled Technical Lead to spearhead the delivery of our technical AI safety researc
 h and red-teaming projects.
@@ -287,7 +321,7 @@ esting your fit.
 
      
  
-all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-14-0914
+all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-15-1128
 ```
 
 ```
@@ -295,7 +329,7 @@ all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical 
 
      
  
-all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-14-0914
+all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-15-1128
 ```
 NeurIPS24 is nearby and I've got a paper that got rejected last year at ICLR (5/5/6/3). While I'm addressing the feedbac
 k from last conference (method was received positively, but they asked for more experimentation), I'm still unsure wheth
@@ -322,7 +356,7 @@ n my future applications.
 
      
  
-all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-14-0914
+all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-15-1128
 ```
 Hi all, this is going to be a somewhat long post. I am at a crossroads in my career and I highly appreciate any and all 
 advice and pointers you can provide. Below I am going to describe my situation, but all my thoughts are a bit hazy and s
@@ -400,7 +434,7 @@ TLDR: Delusional (?) ME PhD graduate who thinks
 
      
  
-all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-14-0914
+all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-15-1128
 ```
 International student from India. Currently doing my second bachelor's from an IIT in Data Science, and I have a Physics
  Honors degree from a Tier 2 college. 
@@ -431,7 +465,7 @@ chool but now I'm a bit nervous to apply as my cgpa is low, but can my research 
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-14-0914
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-15-1128
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -483,7 +517,7 @@ he original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-14-0914
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-15-1128
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -535,7 +569,7 @@ the original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-14-0914
+all -  [ [D] simple typos or errors in my understanding?! ](https://www.reddit.com/r/MachineLearning/comments/1bicphu/d_simple_typos_or_errors_in_my_understanding/) , 2024-04-15-1128
 ```
 Though I mailed to all authors, I couldn't receive any reply...
 
@@ -595,7 +629,7 @@ Thank you in advance!
 
      
  
-all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-14-0914
+all -  [ Stanford MS/CS 2024 - REJECTED ](https://www.reddit.com/r/gradadmissions/comments/1bhwguc/stanford_mscs_2024_rejected/) , 2024-04-15-1128
 ```
 I unfortunately got denied from Online Stanford MS in CS Today. I was fairly confident in my application. I had 4.00/4.0
 0 GPA (ranked 1st in my graduation class from decent US college), ML Engineer at FAANG, published a paper in NeurIPS. My
@@ -610,7 +644,7 @@ Maybe next year I will try again :/
 
      
  
-all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-14-0914
+all -  [ [D] papers that only evaluate on cifar10 ](https://www.reddit.com/r/MachineLearning/comments/1bhp54a/d_papers_that_only_evaluate_on_cifar10/) , 2024-04-15-1128
 ```
 Hi everyone!
 
