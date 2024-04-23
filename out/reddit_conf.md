@@ -1,5 +1,48 @@
  
-all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-04-22-0911
+all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-04-23-0910
+```
+Hi there,
+
+I recently finished a paper that I submitted to an EAMT workshop through OpenReviews. That workshop is going 
+to have published proceedings. I was wondering if I still was allowed to submit my paper to EMNLP 2024. I checked [https
+://aclrollingreview.org/cfp#multiple-submission-policy](https://aclrollingreview.org/cfp#multiple-submission-policy) and
+ they say this:
+
+'ARR + Other Venue: ARR precludes multiple submissions. ARR will not consider any paper that is under r
+eview in a journal or another conference at the time of submission, and submitted papers must not be submitted elsewhere
+ during the ARR review period. This policy covers all journals and refereed and archival conferences and workshops witho
+ut exception (e.g., TACL, Computational Linguistics, IJCAI, SIGIR, AAAI, ICASSP, ICML, NeurIPS, etc). In addition, we wi
+ll not consider any paper that overlaps significantly in content or results with papers that will be (or have been) publ
+ished elsewhere, without exception.'
+
+What do they mean exactly by 'refeered and archival conferences and workshops'? Do
+es this apply to my case?
+```
+---
+
+     
+ 
+all -  [ Trying to apply to SWE roles with ~2 yoe ](https://www.reddit.com/r/resumes/comments/1cafk0z/trying_to_apply_to_swe_roles_with_2_yoe/) , 2024-04-23-0910
+```
+I am trying to apply for SWE roles with this resume, but i am not getting any interviews even with referrals, what am I 
+doing wrong?
+
+  
+I am in India. Should I not put my experiences and publications from when I was in college and, do and 
+put newer projects that are more inline with an SWE job?
+
+Any review would be much appreciated
+
+https://preview.redd.it/
+llt2fyac72wc1.png?width=1238&format=png&auto=webp&s=0ed95debcc5b526143acf295f2f95c24eee1d2c0
+
+
+```
+---
+
+     
+ 
+all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-04-23-0910
 ```
 I understand the derivation of -div and grad being adjoint operators, but then shouldn't equality hold between 'integral
  of (norm of gradient)\^2' and '-1 \* integral of laplacian \* function' ? Where did the negative go in the equality?
@@ -19,7 +62,7 @@ x)
 
      
  
-all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-04-22-0911
+all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-04-23-0910
 ```
 Used to receive invitation by this time of the year. Maybe I am forgotten.
 ```
@@ -27,7 +70,7 @@ Used to receive invitation by this time of the year. Maybe I am forgotten.
 
      
  
-all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-04-22-0911
+all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-04-23-0910
 ```
 Maybe I'm a bit paranoid but I'm a little worried about how future employers (e.g. FAANG) might view a CS PhD in computa
 tional biology (and instead I may be a 'better fit' for big pharma/biotech post-graduation).
@@ -55,7 +98,7 @@ ly be an issue in reality?)
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-04-22-0911
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-04-23-0910
 ```
 
 myquals : MTech AI from IISc. My motivation for writing this post comes from an earlier post in r/GATEtard titled, ['Do
@@ -143,7 +186,7 @@ ant to learn and understand the topics you love deeply.
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-04-22-0911
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-04-23-0910
 ```
 I am from the 2021-23 batch of MTech AI at IISc. My motivation for writing this post comes from an earlier post in this 
 subreddit titled, 'Do not join MTECH AI if you have other options like CSA (currently in IISC).' TLDR at the bottom.
@@ -230,7 +273,7 @@ eeply.
 
      
  
-all -  [ Looking for good recruiters with contacts in Berlin ](https://www.reddit.com/r/cscareerquestionsEU/comments/1c3olv1/looking_for_good_recruiters_with_contacts_in/) , 2024-04-22-0911
+all -  [ Looking for good recruiters with contacts in Berlin ](https://www.reddit.com/r/cscareerquestionsEU/comments/1c3olv1/looking_for_good_recruiters_with_contacts_in/) , 2024-04-23-0910
 ```
 Throwaway account for obvious reasons.
 
@@ -248,7 +291,7 @@ eed to rush)
 
      
  
-all -  [ Looking for a good headhunter (Berlin) ](https://www.reddit.com/r/MachineLearningJobs/comments/1c3oit2/looking_for_a_good_headhunter_berlin/) , 2024-04-22-0911
+all -  [ Looking for a good headhunter (Berlin) ](https://www.reddit.com/r/MachineLearningJobs/comments/1c3oit2/looking_for_a_good_headhunter_berlin/) , 2024-04-23-0910
 ```
 I am working in a FAANG company, 10YoE, papers at ICML/NeurIPS/.. and I am looking to move to Berlin. I would like to ge
 t in touch with professionals that can help me finding the right position given my experience.
@@ -264,7 +307,7 @@ This is a throwaway account for obvious reasons.
 
      
  
-all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-04-22-0911
+all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-04-23-0910
 ```
 **TL;DR** I come from an average family and worked hard to put myself through college, driven by my passion for research
  and innovation. Despite having multiple first-author papers in top ML conferences, contributing to open-source projects
@@ -326,7 +369,7 @@ wrong. I feel like I should quit research.
 
      
  
-all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-04-22-0911
+all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-04-23-0910
 ```
 Folks on Twitter seem not to like the idea at least the rationale. I tend to agree with them because we are pushing ever
 yone to have a research paper so as to be considered 'someone'
@@ -335,7 +378,7 @@ yone to have a research paper so as to be considered 'someone'
 
      
  
-all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-04-22-0911
+all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-04-23-0910
 ```
 Profile:
 
@@ -371,7 +414,7 @@ is not the best (but I have a good reason, and my school didn't have grade infla
 
      
  
-all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-04-22-0911
+all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-04-23-0910
 ```
 I'm in Windows.
 
@@ -383,7 +426,7 @@ What tò do now ?
 
      
  
-all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-04-22-0911
+all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-04-23-0910
 ```
 NeurIPS 2024 Adds a New Paper Track for High School Students
 
@@ -408,7 +451,7 @@ student authors.  We expect each submission to highlight either demonstrated pos
 
      
  
-all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-22-0911
+all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-23-0910
 ```
 I'm an undergrad doing research (no previous publications). My advisor and I have been busy with other work and have not
  gotten significant time to work on our project. While we've written most of the code, we have some parts left and have 
@@ -420,7 +463,7 @@ oing all-in on these next few weeks?
 
      
  
-all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-22-0911
+all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-23-0910
 ```
 FAR AI is seeking applications for a skilled Technical Lead to spearhead the delivery of our technical AI safety researc
 h and red-teaming projects.
@@ -552,7 +595,7 @@ esting your fit.
 
      
  
-all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-22-0911
+all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical Linear Algebra for ML ](https://neurips.cc/virtual/2023/tutorial/73954) , 2024-04-23-0910
 ```
 
 ```
@@ -560,7 +603,7 @@ all -  [ NeurIPS 2023: Recent and Upcoming Developments in Randomized Numerical 
 
      
  
-all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-22-0911
+all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-23-0910
 ```
 NeurIPS24 is nearby and I've got a paper that got rejected last year at ICLR (5/5/6/3). While I'm addressing the feedbac
 k from last conference (method was received positively, but they asked for more experimentation), I'm still unsure wheth
@@ -587,7 +630,7 @@ n my future applications.
 
      
  
-all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-22-0911
+all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-23-0910
 ```
 Hi all, this is going to be a somewhat long post. I am at a crossroads in my career and I highly appreciate any and all 
 advice and pointers you can provide. Below I am going to describe my situation, but all my thoughts are a bit hazy and s
@@ -665,7 +708,7 @@ TLDR: Delusional (?) ME PhD graduate who thinks
 
      
  
-all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-22-0911
+all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-23-0910
 ```
 International student from India. Currently doing my second bachelor's from an IIT in Data Science, and I have a Physics
  Honors degree from a Tier 2 college. 
@@ -696,7 +739,7 @@ chool but now I'm a bit nervous to apply as my cgpa is low, but can my research 
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-22-0911
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/machinelearningnews/comments/1bnsuxg/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-23-0910
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
@@ -748,7 +791,7 @@ he original paper is [here](https://arxiv.org/pdf/2403.07183.pdf).
 
      
  
-all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-22-0911
+all -  [ [R] Up to 17% of Recent AI Conference Peer Reviews Written by ChatGPT ](https://www.reddit.com/r/MachineLearning/comments/1bnsuea/r_up_to_17_of_recent_ai_conference_peer_reviews/) , 2024-04-23-0910
 ```
 A new study has uncovered that a significant fraction of peer reviews for top AI conferences in 2023-2024 likely include
 d substantial AI-generated content from models like ChatGPT.
