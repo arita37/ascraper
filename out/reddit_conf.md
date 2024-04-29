@@ -1,5 +1,126 @@
  
-all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](https://www.youtube.com/watch?v=GtveKYXYo_0) , 2024-04-28-0911
+all -  [ LLMs Or What Even Are Those? ](https://www.reddit.com/r/LangChain/comments/1cff5pa/llms_or_what_even_are_those/) , 2024-04-29-0910
+```
+**Large Language Models**, or LLMs, are advanced AI systems that enhance text prediction to an exceptional level — imagi
+ne the autocorrect & text prediction on your phone, but far more sophisticated.
+
+When you type 'I am going to the...', y
+our phone might suggest words like 'store' or 'gym.', based on the words you wrote before. LLMs operate similarly, but o
+n a much larger scale, using vast amounts of text to predict and generate language accurately.
+
+**The Core Pillars of LL
+Ms are:**
+
+* **Transformer Models** - the backbone of most LLMs, these models process data by breaking down input text i
+nto smaller parts (tokens) and analyzing the relationships between them. This helps the model understand and generate la
+nguage based on the context provided.Just like our brain uses neurons to process and relay information, transformer mode
+ls use tokens to process and generate language, making sense of the input based on context.
+* **Training** - LLMs learn 
+by consuming vast amounts of text data, from websites like Wikipedia to books and articles. This training allows them to
+ understand language patterns and context, and, as a result, generate better text.It’s just like reading hundreds of boo
+ks to enhance your knowledge and master a subject, we feed LLMs with text data from diverse sources like Wikipedia and v
+arious books to help them learn, though with a small caveat — LLMs can do this anywhere from 100-1000 times *faster* tha
+n us.
+* **Fine-tuning** - after their initial training, LLMs can be fine-tuned with specific data sets to perform tasks 
+like translation, content generation, or even coding.With fine-tuning, you’re giving your little helper a specific role 
+& legend to fill — for example, 'Sir Code-a-lot”, who, after his rigorous initial training, is now sharpening the specif
+ic skills needed to slay the mighty dragons in the C++ Language.
+
+And if you want to see how different your autocorrect 
+& text prediction on your phone is from actual Large Language Models – then here’s a cool visual showing the sheer scale
+ of the various GPT LLMs Essentially, LLMs predict what comes next, depending on the context & your input. If you’re a p
+rogrammer and you’re writing code in Python, and use an LLM-powered code editor, the model understands every line of cod
+e you’ve written and suggests the next one accurately!
+
+**The History of LLMs & Transformers**
+
+The evolution of LLMs (*
+*Large Language Models**) began with the introduction of the Transformer model by Google at NeurIPS 2017. 
+
+This model i
+ntroduced a new approach called 'attention mechanisms' that improves how machines understand the context within text. Ba
+sically, a Transformer allows the model to focus on different parts of the input data at different times, improving its 
+ability to generate accurate and contextually appropriate responses.
+
+This model led to significant developments such as
+ BERT and GPT models. GPT models, starting from GPT-1 to the latest iterations like GPT-3.5 and GPT-4, have significantl
+y advanced in capabilities, achieving tasks that range from simple text generation to complex decision-making and proble
+m-solving tasks.
+
+And you know what’s the best part about LLMs becoming mainstream? 
+
+Nearly every SaaS company is lever
+aging them by building apps to solve the problems we creators & entrepreneurs face daily – responding to emails, schedul
+ing meetings, finding time for family and leisure, data entry, everything you could imagine — there’s an LLM-based tool 
+for it now.
+```
+---
+
+     
+ 
+all -  [ LLMs Or What Even Are Those? ](https://www.reddit.com/r/SillyTavernAI/comments/1cff3la/llms_or_what_even_are_those/) , 2024-04-29-0910
+```
+**Large Language Models**, or LLMs, are advanced AI systems that enhance text prediction to an exceptional level — imagi
+ne the autocorrect & text prediction on your phone, but far more sophisticated.  
+  
+When you type 'I am going to the...
+', your phone might suggest words like 'store' or 'gym.', based on the words you wrote before. LLMs operate similarly, b
+ut on a much larger scale, using vast amounts of text to predict and generate language accurately.
+
+**The Core Pillars o
+f LLMs are:**
+
+* **Transformer Models** - the backbone of most LLMs, these models process data by breaking down input te
+xt into smaller parts (tokens) and analyzing the relationships between them. This helps the model understand and generat
+e language based on the context provided.Just like our brain uses neurons to process and relay information, transformer 
+models use tokens to process and generate language, making sense of the input based on context.
+
+* **Training** - LLMs l
+earn by consuming vast amounts of text data, from websites like Wikipedia to books and articles. This training allows th
+em to understand language patterns and context, and, as a result, generate better text.It’s just like reading hundreds o
+f books to enhance your knowledge and master a subject, we feed LLMs with text data from diverse sources like Wikipedia 
+and various books to help them learn, though with a small caveat — LLMs can do this anywhere from 100-1000 times *faster
+* than us.
+* **Fine-tuning** - after their initial training, LLMs can be fine-tuned with specific data sets to perform t
+asks like translation, content generation, or even coding.With fine-tuning, you’re giving your little helper a specific 
+role & legend to fill — for example, 'Sir Code-a-lot”, who, after his rigorous initial training, is now sharpening the s
+pecific skills needed to slay the mighty dragons in the C++ Language.
+
+And if you want to see how different your autocor
+rect & text prediction on your phone is from actual Large Language Models – then here’s a cool visual showing the sheer 
+scale of the various GPT LLMs Essentially, LLMs predict what comes next, depending on the context & your input. If you’r
+e a programmer and you’re writing code in Python, and use an LLM-powered code editor, the model understands every line o
+f code you’ve written and suggests the next one accurately!
+
+# The History of LLMs & Transformers
+
+The evolution of LLMs
+ (**Large Language Models**) began with the introduction of the Transformer model by Google at NeurIPS 2017. 
+
+This mode
+l introduced a new approach called 'attention mechanisms' that improves how machines understand the context within text.
+ Basically, a Transformer allows the model to focus on different parts of the input data at different times, improving i
+ts ability to generate accurate and contextually appropriate responses.
+
+This model led to significant developments such
+ as BERT and GPT models. GPT models, starting from GPT-1 to the latest iterations like GPT-3.5 and GPT-4, have significa
+ntly advanced in capabilities, achieving tasks that range from simple text generation to complex decision-making and pro
+blem-solving tasks.
+
+And you know what’s the best part about LLMs becoming mainstream? 
+
+Nearly every SaaS company is le
+veraging them by building apps to solve the problems we creators & entrepreneurs face daily – responding to emails, sche
+duling meetings, finding time for family and leisure, data entry, everything you could imagine — there’s an LLM-based to
+ol for it now.
+
+
+```
+---
+
+     
+ 
+all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](https://www.youtube.com/watch?v=GtveKYXYo_0) , 2024-04-29-0910
 ```
 
 ```
@@ -7,7 +128,7 @@ all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](http
 
      
  
-all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-04-28-0911
+all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-04-29-0910
 ```
 [https://www.norange.io/projects/paper\_scorer/](https://www.norange.io/projects/paper_scorer/)
 
@@ -49,7 +170,7 @@ I also discussed this topic in a series of [tweets](https://x.com/nikitadurasov/
 
      
  
-all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-04-28-0911
+all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-04-29-0910
 ```
 I entered the Computer Science PhD program at our school 3 years ago (I'm in USA). I did not have a masters, they had a 
 combined program thingie. I did all of the masters courses so I can master out now, but I have 0 papers. My advisorwhen 
@@ -94,7 +215,7 @@ motivation is money. I've been told PhD matters when it comes to hiring but I do
 
      
  
-all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-04-28-0911
+all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-04-29-0910
 ```
 Hi there,
 
@@ -117,7 +238,7 @@ es this apply to my case?
 
      
  
-all -  [ Trying to apply to SWE roles with ~2 yoe ](https://www.reddit.com/r/resumes/comments/1cafk0z/trying_to_apply_to_swe_roles_with_2_yoe/) , 2024-04-28-0911
+all -  [ Trying to apply to SWE roles with ~2 yoe ](https://www.reddit.com/r/resumes/comments/1cafk0z/trying_to_apply_to_swe_roles_with_2_yoe/) , 2024-04-29-0910
 ```
 I am trying to apply for SWE roles with this resume, but i am not getting any interviews even with referrals, what am I 
 doing wrong?
@@ -137,7 +258,7 @@ llt2fyac72wc1.png?width=1238&format=png&auto=webp&s=0ed95debcc5b526143acf295f2f9
 
      
  
-all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-04-28-0911
+all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-04-29-0910
 ```
 I understand the derivation of -div and grad being adjoint operators, but then shouldn't equality hold between 'integral
  of (norm of gradient)\^2' and '-1 \* integral of laplacian \* function' ? Where did the negative go in the equality?
@@ -157,7 +278,7 @@ x)
 
      
  
-all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-04-28-0911
+all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-04-29-0910
 ```
 Used to receive invitation by this time of the year. Maybe I am forgotten.
 ```
@@ -165,7 +286,7 @@ Used to receive invitation by this time of the year. Maybe I am forgotten.
 
      
  
-all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-04-28-0911
+all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-04-29-0910
 ```
 Maybe I'm a bit paranoid but I'm a little worried about how future employers (e.g. FAANG) might view a CS PhD in computa
 tional biology (and instead I may be a 'better fit' for big pharma/biotech post-graduation).
@@ -193,7 +314,7 @@ ly be an issue in reality?)
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-04-28-0911
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-04-29-0910
 ```
 
 myquals : MTech AI from IISc. My motivation for writing this post comes from an earlier post in r/GATEtard titled, ['Do
@@ -281,7 +402,7 @@ ant to learn and understand the topics you love deeply.
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-04-28-0911
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-04-29-0910
 ```
 I am from the 2021-23 batch of MTech AI at IISc. My motivation for writing this post comes from an earlier post in this 
 subreddit titled, 'Do not join MTECH AI if you have other options like CSA (currently in IISC).' TLDR at the bottom.
@@ -368,41 +489,7 @@ eeply.
 
      
  
-all -  [ Looking for good recruiters with contacts in Berlin ](https://www.reddit.com/r/cscareerquestionsEU/comments/1c3olv1/looking_for_good_recruiters_with_contacts_in/) , 2024-04-28-0911
-```
-Throwaway account for obvious reasons.
-
-I am working in a FAANG company, 10+YoE, papers at ICML/NeurIPS/.. and I am look
-ing to move to Berlin. I would like to get in touch with professionals that can help me finding the right position given
- my experience.
-
-I am currently under the impression that local companies have low pay ranges and most hire jr/mid-level
- folks. 
-
-Do you have any contact? Any place where I can eventually go over the summer to build some network? (I don't n
-eed to rush)
-```
----
-
-     
- 
-all -  [ Looking for a good headhunter (Berlin) ](https://www.reddit.com/r/MachineLearningJobs/comments/1c3oit2/looking_for_a_good_headhunter_berlin/) , 2024-04-28-0911
-```
-I am working in a FAANG company, 10YoE, papers at ICML/NeurIPS/.. and I am looking to move to Berlin. I would like to ge
-t in touch with professionals that can help me finding the right position given my experience.
-
-Do you have any contact?
-
-
-
-
-This is a throwaway account for obvious reasons.
-```
----
-
-     
- 
-all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-04-28-0911
+all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-04-29-0910
 ```
 **TL;DR** I come from an average family and worked hard to put myself through college, driven by my passion for research
  and innovation. Despite having multiple first-author papers in top ML conferences, contributing to open-source projects
@@ -464,7 +551,7 @@ wrong. I feel like I should quit research.
 
      
  
-all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-04-28-0911
+all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-04-29-0910
 ```
 Folks on Twitter seem not to like the idea at least the rationale. I tend to agree with them because we are pushing ever
 yone to have a research paper so as to be considered 'someone'
@@ -473,7 +560,7 @@ yone to have a research paper so as to be considered 'someone'
 
      
  
-all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-04-28-0911
+all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-04-29-0910
 ```
 Profile:
 
@@ -509,7 +596,7 @@ is not the best (but I have a good reason, and my school didn't have grade infla
 
      
  
-all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-04-28-0911
+all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-04-29-0910
 ```
 I'm in Windows.
 
@@ -521,7 +608,7 @@ What tò do now ?
 
      
  
-all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-04-28-0911
+all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-04-29-0910
 ```
 NeurIPS 2024 Adds a New Paper Track for High School Students
 
@@ -546,7 +633,7 @@ student authors.  We expect each submission to highlight either demonstrated pos
 
      
  
-all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-28-0911
+all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-04-29-0910
 ```
 I'm an undergrad doing research (no previous publications). My advisor and I have been busy with other work and have not
  gotten significant time to work on our project. While we've written most of the code, we have some parts left and have 
@@ -558,7 +645,7 @@ oing all-in on these next few weeks?
 
      
  
-all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-28-0911
+all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-04-29-0910
 ```
 FAR AI is seeking applications for a skilled Technical Lead to spearhead the delivery of our technical AI safety researc
 h and red-teaming projects.
@@ -690,7 +777,7 @@ esting your fit.
 
      
  
-all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-28-0911
+all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-04-29-0910
 ```
 NeurIPS24 is nearby and I've got a paper that got rejected last year at ICLR (5/5/6/3). While I'm addressing the feedbac
 k from last conference (method was received positively, but they asked for more experimentation), I'm still unsure wheth
@@ -717,7 +804,7 @@ n my future applications.
 
      
  
-all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-28-0911
+all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-04-29-0910
 ```
 Hi all, this is going to be a somewhat long post. I am at a crossroads in my career and I highly appreciate any and all 
 advice and pointers you can provide. Below I am going to describe my situation, but all my thoughts are a bit hazy and s
@@ -795,7 +882,7 @@ TLDR: Delusional (?) ME PhD graduate who thinks
 
      
  
-all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-28-0911
+all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-04-29-0910
 ```
 International student from India. Currently doing my second bachelor's from an IIT in Data Science, and I have a Physics
  Honors degree from a Tier 2 college. 

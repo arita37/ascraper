@@ -1,5 +1,449 @@
  
-all -  [ How to make LSTM for local LLMs? ](https://www.reddit.com/r/ChatGPT/comments/1cepxkd/how_to_make_lstm_for_local_llms/) , 2024-04-28-0911
+all -  [ Reading data from multiple datatypes ](https://www.reddit.com/r/LangChain/comments/1cfkr6u/reading_data_from_multiple_datatypes/) , 2024-04-29-0910
+```
+I am working on a small project where i have pdf files and .md files. I am reading md files using TextLoader to separate
+ on '#' and it works well. How do i read pdf files, should i read all of them using a common loader ? is there a way to 
+do it separately?
+```
+---
+
+     
+ 
+all -  [ Using Langchain to create a writing/style guide ](https://www.reddit.com/r/LangChain/comments/1cfkcbj/using_langchain_to_create_a_writingstyle_guide/) , 2024-04-29-0910
+```
+I want to create a tool to rewrite text based on content and style guidelines (ex: use this word instead of this, readin
+g level, etc.). Is there a way to do this easily with Langchain / ex give it some docs of all the vocabulary it should u
+se and a list of style rules?
+```
+---
+
+     
+ 
+all -  [ Langchain with Azure OpenAI gpt4 ](https://i.redd.it/d9e3rud6daxc1.jpeg) , 2024-04-29-0910
+```
+I’ve been recently trying to get (title) working on a simple python file - just by following the docs - however no matte
+r what YouTube video or documentation I follow, it seems I always get that the error shown in the attached photo. 
+
+I’m 
+confused what to do - there must definitely be a way to use langchain with gpt 4 Azure OpenAI. 
+
+Thanks in advance!
+```
+---
+
+     
+ 
+all -  [ LLMs Or What Even Are Those? ](https://www.reddit.com/r/LangChain/comments/1cff5pa/llms_or_what_even_are_those/) , 2024-04-29-0910
+```
+**Large Language Models**, or LLMs, are advanced AI systems that enhance text prediction to an exceptional level — imagi
+ne the autocorrect & text prediction on your phone, but far more sophisticated.
+
+When you type 'I am going to the...', y
+our phone might suggest words like 'store' or 'gym.', based on the words you wrote before. LLMs operate similarly, but o
+n a much larger scale, using vast amounts of text to predict and generate language accurately.
+
+**The Core Pillars of LL
+Ms are:**
+
+* **Transformer Models** - the backbone of most LLMs, these models process data by breaking down input text i
+nto smaller parts (tokens) and analyzing the relationships between them. This helps the model understand and generate la
+nguage based on the context provided.Just like our brain uses neurons to process and relay information, transformer mode
+ls use tokens to process and generate language, making sense of the input based on context.
+* **Training** - LLMs learn 
+by consuming vast amounts of text data, from websites like Wikipedia to books and articles. This training allows them to
+ understand language patterns and context, and, as a result, generate better text.It’s just like reading hundreds of boo
+ks to enhance your knowledge and master a subject, we feed LLMs with text data from diverse sources like Wikipedia and v
+arious books to help them learn, though with a small caveat — LLMs can do this anywhere from 100-1000 times *faster* tha
+n us.
+* **Fine-tuning** - after their initial training, LLMs can be fine-tuned with specific data sets to perform tasks 
+like translation, content generation, or even coding.With fine-tuning, you’re giving your little helper a specific role 
+& legend to fill — for example, 'Sir Code-a-lot”, who, after his rigorous initial training, is now sharpening the specif
+ic skills needed to slay the mighty dragons in the C++ Language.
+
+And if you want to see how different your autocorrect 
+& text prediction on your phone is from actual Large Language Models – then here’s a cool visual showing the sheer scale
+ of the various GPT LLMs Essentially, LLMs predict what comes next, depending on the context & your input. If you’re a p
+rogrammer and you’re writing code in Python, and use an LLM-powered code editor, the model understands every line of cod
+e you’ve written and suggests the next one accurately!
+
+**The History of LLMs & Transformers**
+
+The evolution of LLMs (*
+*Large Language Models**) began with the introduction of the Transformer model by Google at NeurIPS 2017. 
+
+This model i
+ntroduced a new approach called 'attention mechanisms' that improves how machines understand the context within text. Ba
+sically, a Transformer allows the model to focus on different parts of the input data at different times, improving its 
+ability to generate accurate and contextually appropriate responses.
+
+This model led to significant developments such as
+ BERT and GPT models. GPT models, starting from GPT-1 to the latest iterations like GPT-3.5 and GPT-4, have significantl
+y advanced in capabilities, achieving tasks that range from simple text generation to complex decision-making and proble
+m-solving tasks.
+
+And you know what’s the best part about LLMs becoming mainstream? 
+
+Nearly every SaaS company is lever
+aging them by building apps to solve the problems we creators & entrepreneurs face daily – responding to emails, schedul
+ing meetings, finding time for family and leisure, data entry, everything you could imagine — there’s an LLM-based tool 
+for it now.
+```
+---
+
+     
+ 
+all -  [ Parquet format to vectors ](https://www.reddit.com/r/LocalLLaMA/comments/1cfduko/parquet_format_to_vectors/) , 2024-04-29-0910
+```
+So, I have definitely struggled with trying to create embeddings locally for Parquet files. 
+Do I really have to convert
+ to CSV/Json. 
+
+Always have trouble using FAISS locally, in most langchain based programs, may be an issue of me not und
+erstanding paths to load and retrieve from. Which is very possible. 
+
+Long Story short I have about 60 Parquet files (av
+eraging about 150k rows each) 
+I was wanting to test them with the new Snowflake embeddings models.
+
+
+I mostly do low co
+de//no code solutions to test things out, and am generally pretty comfortable in them. 
+```
+---
+
+     
+ 
+all -  [ Has langchain become mature for production environments? ](https://www.reddit.com/r/LangChain/comments/1cfbqf9/has_langchain_become_mature_for_production/) , 2024-04-29-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ Research topics in LLMs for a data scientist ](https://www.reddit.com/r/datascience/comments/1cfaga5/research_topics_in_llms_for_a_data_scientist/) , 2024-04-29-0910
+```
+Hi everyone,
+
+In my experience, my company does a lot of work on LLMs and I can say with absolute certainty that those p
+rojects are permutations and combinations of making an intelligent chatbot which can chat with your proprietary document
+s, summarize information, build dashboards and so on. I've prototyped these RAG systems (nothing in production, thankful
+ly) and am not enjoying building them. I also don't like the LLM framework wars (Langchain vs Llamaindex vs this and tha
+t - although, Langchain sucks in my opinion).   
+
+
+What I am interested in putting my data scientist / (fake) statistici
+an hat back on and approach LLMs (and related topics) from a research perspective. What are the problems to solve in thi
+s field? What are the pressing research questions? What are the topics that I can explore in my personal (or company) ti
+me beyond RAG systems?
+
+Finally, can anyone explain what the heck is agentic AI? Is it just a fancy buzzword for this se
+ntence from Russell and Norvig's magnum opus AI book- ' A rational agent is one that acts so as to achieve the best outc
+ome or, when there is uncertainty, the best expected outcome'.   
+
+
+  
+
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ [0 YoE] Web Developer to Data Science. 4 months of applying, but ZERO interviews. ](https://www.reddit.com/r/EngineeringResumes/comments/1cfa81d/0_yoe_web_developer_to_data_science_4_months_of/) , 2024-04-29-0910
+```
+Hi,
+
+I am a fullstack web developer with 3 years of experience in the field. Recently i wanted to switch to Data Science
+ and so i completed my masters in Data Science in January.
+
+I've been applying for jobs and doing self projects on the s
+ide to make up for the lack of experience, but so far, I have not been successful in landing even a single interview.
+
+I
+t's really starting to afffect me mentally. I know that the market isn't so great right now.
+
+But i want to get a job am
+ongst all these hurdles.
+
+I do not know if my resume is the problem or something else.  
+It would be great if you could 
+please help me with this and help me land atleast one interview.
+
+&#x200B;
+
+&#x200B;
+
+https://preview.redd.it/4nk3kgu0x8
+xc1.png?width=5100&format=png&auto=webp&s=69da8298e4bbac4091e89feb56a3fcac43e2b2d5
+```
+---
+
+     
+ 
+all -  [ How LangChain and ChatGPT plugins are getting attacked by this bug ](https://www.reddit.com/r/bugbounty/comments/1cf9wov/how_langchain_and_chatgpt_plugins_are_getting/) , 2024-04-29-0910
+```
+[https://journal.hexmos.com/insecure-output-handling/](https://journal.hexmos.com/insecure-output-handling/)
+```
+---
+
+     
+ 
+all -  [ How LangChain and ChatGPT plugins are getting attacked by this bug ](https://www.reddit.com/r/LangChain/comments/1cf9wl3/how_langchain_and_chatgpt_plugins_are_getting/) , 2024-04-29-0910
+```
+[https://medium.com/@sreedeep200/how-langchain-and-chatgpt-plugins-are-getting-attacked-by-this-bug-9a47807b66a3](https:
+//medium.com/@sreedeep200/how-langchain-and-chatgpt-plugins-are-getting-attacked-by-this-bug-9a47807b66a3)
+```
+---
+
+     
+ 
+all -  [ How LangChain and ChatGPT plugins are getting attacked by this bug ](https://www.reddit.com/r/ChatGPT/comments/1cf9qnf/how_langchain_and_chatgpt_plugins_are_getting/) , 2024-04-29-0910
+```
+[https://journal.hexmos.com/insecure-output-handling](https://journal.hexmos.com/insecure-output-handling)
+```
+---
+
+     
+ 
+all -  [ Leveling up RAG ](https://www.reddit.com/r/LangChain/comments/1cf97bh/leveling_up_rag/) , 2024-04-29-0910
+```
+Hey guys, need advice on techniques that really elevate rag from naive to an advanced system. I've built a rag system th
+at scrapes data from the internet and uses that as context. I've worked a bit on chunking strategy and worked extensivel
+y on cleaning strategy for the scraped data, query expansion and rewriting, but haven't done much else. I don't think I 
+can work on the metadata extraction aspect because I'm using local llms and using them for summaries and QA pairs of the
+ entire scraped db would take too long to do in real time. Also since my systems Open Domain, would fine-tuning the embe
+dding model be useful? Would really appreciate input on that. What other things do you think could be worked on (impress
+ive flashy stuff lol)
+
+I was thinking hybrid search but then I'm also hearing knowledge graphs are great? idk. Saw a pap
+er that just came out last month about context-tuning for retrieval in rag - but can't find any implementations or disco
+urse around that. Lot of ramble sorry but yeah basically what else can I do to really elevate my RAG system - so far I'm
+ thinking better parsing - processing tables etc., self-rag seems really useful so maybe incorporate that?
+```
+---
+
+     
+ 
+all -  [ How LangChain and ChatGPT plugins are getting attacked by this bug ](https://www.reddit.com/r/developersIndia/comments/1cf8cgf/how_langchain_and_chatgpt_plugins_are_getting/) , 2024-04-29-0910
+```
+[https://journal.hexmos.com/insecure-output-handling](https://journal.hexmos.com/insecure-output-handling/)
+```
+---
+
+     
+ 
+all -  [ LangChain Wrapper for easy RAG Deployments ](https://www.reddit.com/r/LangChain/comments/1cf7q6y/langchain_wrapper_for_easy_rag_deployments/) , 2024-04-29-0910
+```
+Hey guys, I tested this app called talkdai/dialog on Github, and it allowed me to deploy a RAG with my customized conten
+t in just some few minutes and a Docker-compose file.
+
+It's totally based on langchain right now, and with a toml file w
+ith my prompt and model settings, I was able to deploy it online using caddy and a simple PGVector instance.
+
+Is there a
+ny other application that does that?
+
+Here is the link for the source code: [https://github.com/talkdai/dialog](https://
+github.com/talkdai/dialog)
+```
+---
+
+     
+ 
+all -  [ Recommend me some courses for LLM ](https://www.reddit.com/r/Automate/comments/1cf5j96/recommend_me_some_courses_for_llm/) , 2024-04-29-0910
+```
+
+I recently tried to make a chatbot, and it was really frustrating to have chatgpt not work (idk why but it just couldn'
+t answer langchain questions , maybe the training cutoff date) , the docs are not so well arranged... And even if I do s
+omehow get the code to work, it does not perform very well bcz I don't know much in the first place, I have a theoretica
+l understanding of ML, but idk what are the diff kind of chains, retrievers, agents... I just find it to be a lot of thi
+ngs which are scattered all over the place
+
+
+So, can someone pls recommend me a course on langchain which consolidates a
+ll the different techniques (chains, agents, vectordb etc.) And goes a bit in depth for everything, like how does this c
+hain work or the diff methods of querying to the vectordb... 
+Also feel free to recommend courses other than langchain, 
+it's just langchain is the only LLM framework I know... 
+
+```
+---
+
+     
+ 
+all -  [ Recommend me some courses for LLM ](https://www.reddit.com/r/MLQuestions/comments/1cf5egs/recommend_me_some_courses_for_llm/) , 2024-04-29-0910
+```
+I recently tried to make a chatbot, and it was really frustrating to have chatgpt not work (idk why but it just couldn't
+ answer langchain questions , maybe the training cutoff date) , the docs are not so well arranged... And even if I do so
+mehow get the code to work, it does not perform very well bcz I don't know much in the first place, I have a theoretical
+ understanding of ML, but idk what are the diff kind of chains, retrievers, agents... I just find it to be a lot of thin
+gs which are scattered all over the place
+
+
+So, can someone pls recommend me a course on langchain which consolidates al
+l the different techniques (chains, agents, vectordb etc.) And goes a bit in depth for everything, like how does this ch
+ain work or the diff methods of querying to the vectordb... 
+Also feel free to recommend courses other than langchain, i
+t's just langchain is the only LLM framework I know... 
+
+```
+---
+
+     
+ 
+all -  [ What web scraper for web search agent?  ](https://www.reddit.com/r/LangChain/comments/1cf2dwc/what_web_scraper_for_web_search_agent/) , 2024-04-29-0910
+```
+Hi everyone... 
+
+I build an advanced RAG pipeline, and that include an agent that should get data from web, opening link
+s from web search results... Anyway, I've zero past experience with web scraping, and my html knowledge is really basic.
+ I'm going mad trying to extract the main text from web pages without lot of noise from tag, headers and other UI elemen
+ts. 
+As temporary solution, I added an llm agent 'in the middle', using it to clean the scraped text... But that's slow,
+ expensive (using cloud providers) and fondamentally inefficient. 
+
+Someone can give me some tips/help? There is some li
+brary, repo or framework that may help me? 
+
+Any kind of replay will be really appreciate! 
+
+Thanks in advance for your 
+time. 
+```
+---
+
+     
+ 
+all -  [ Managing Slug Size on Heroku: Excluding Unnecessary Dependencies ](https://www.reddit.com/r/Heroku/comments/1cf1eaj/managing_slug_size_on_heroku_excluding/) , 2024-04-29-0910
+```
+I'm encountering a recurring issue with slug size limitations on Heroku, primarily driven by unnecessary dependencies of
+ the Langchain library
+
+Despite implementing a `.slugignore` file, the slug is still >3GB, which is much too large.
+
+Aft
+er following [this Heroku support guide](https://help.heroku.com/KUFMEES1/my-slug-size-is-too-large-how-can-i-make-it-sm
+aller), I identified the main culprits as the `torch` and `scipy` dependencies of `langchain`.  
+  
+I can get it to work
+ locally by running `pip freeze > requirements.txt` , excluding  `torch` and `scipy`, from `requirements.txt`,  then run
+ning `pip install -r requirements --no-deps`.
+
+This installs all of the necessary libraries without `torch` and `scipy`.
+
+
+The problem is: **I cannot replicate this on Heroku.** i.e. I can't find a way to install `langchain` and its \*requir
+ed\* dependencies while excluding non-essential dependencies for my use case, namely `torch` and `scipy`.  
+  
+Here's wh
+at I've tried so far:
+
+1. **Initial Attempt:**
+   * I modified my deployment process to include `release: pip install -r
+ requirements --no-deps` in the Procfile after excluding `torch` and `scipy` from my dependencies.
+   * However, this ap
+proach did not prevent these libraries from being installed, as it seems the command in the Procfile is executed *in add
+ition* to the standard `pip install -r requirements.txt` (which I believe [this guide](https://devcenter.heroku.com/arti
+cles/release-phase) confirms).
+2. **Subsequent Strategy:**
+   * I consolidated all necessary dependencies into `requirem
+ents.txt`, excluding `torch` and `scipy`.
+   * I then attempted to use `release: pip install -r requirements-langchain.t
+xt --no-deps` in my ` Procfile` for Langchain-specific dependencies (i.e. only `langchain` and its required dependencies
+).
+3. **Resulting Error:**
+   * Post-implementation, the application failed to build, throwing a `ModuleNotFoundError` f
+or `langchain_openai`. The logs indicated a transition from state up to crashed due to this error, detailed as follows: 
+`ModuleNotFoundError: No module named 'langchain_openai'` (note: this was explicitly included in ` requirements-langchai
+n.txt`)
+4. **Dependency Management:**
+   * Despite ensuring all Langchain dependencies were listed in `requirements-lang
+chain.txt` and seemingly installed via the Procfile command, runtime errors suggest these modules are not accessible dur
+ing execution.
+
+I suspect there might be a misunderstanding or misconfiguration with my use of the `release:` command in
+ my `Procfile`, affecting how dependencies are managed and recognized at runtime.  
+  
+I'd love some guidance on configu
+ring my deployment to avoid the installation of superfluous large dependencies while ensuring all necessary libraries ar
+e correctly recognized and accessible by the application.
+
+Thank you very much for your help.
+```
+---
+
+     
+ 
+all -  [ Has anyone utilized agents for document summarization and information extraction?  ](https://www.reddit.com/r/LangChain/comments/1ceztk1/has_anyone_utilized_agents_for_document/) , 2024-04-29-0910
+```
+Specifically, legal documents.
+```
+---
+
+     
+ 
+all -  [ Use Langchain vs individual LLM API in an npm library ](https://www.reddit.com/r/LangChain/comments/1ceyzjy/use_langchain_vs_individual_llm_api_in_an_npm/) , 2024-04-29-0910
+```
+Hi I am writing a Nodejs library that uses LLM to process documents. I plan to support LLMs in OpenAI, Groq, Ollama. Is 
+it a good practice to directly to use Langchain or Llama Index in my npm library and introduce it as a dependency?
+
+Yes?
+ (the code will be simpler and supporting multiple LLMs out of the box) today I do use Langchain in my bigger project th
+at includes the code I want to split into this library.
+
+Or shall I use separate LLM APIs like OpenAi’s directly. Or may
+be try Llama Index
+
+Any feedback is welcome 🙏 
+```
+---
+
+     
+ 
+all -  [ Does llama-index and langchain Knowledge Graph RAG actually depends on the LLMs capability to follow ](https://www.reddit.com/r/LocalLLaMA/comments/1ceyuww/does_llamaindex_and_langchain_knowledge_graph_rag/) , 2024-04-29-0910
+```
+I was trying to build a custom RAG pipeline to fetch contextual data from an already existing Knowledge Graph (NebulaGra
+ph DB).
+What i noticed from both llama-index and langchain packages was that they actually use the LLM to generate the g
+raph cypher and then execute the cypher on the provided graph store.
+
+Does this not limit the entire efficiency as if th
+e LLM did not correctly follow the instruction and couldn’t  generate the cypher correctly?
+
+Found a way to generate ind
+ex embeddings in neo4j and retrieve documents off similarity search, which does not work very efficiently in fetching al
+l the connected information from the graph.
+
+So the big question.
+Is there a  better way to implement KG Based RAG?
+```
+---
+
+     
+ 
+all -  [ How to quickly build and deploy scalable enterprise-grade RAG applications? ](https://www.reddit.com/r/LanguageTechnology/comments/1cetz9h/how_to_quickly_build_and_deploy_scalable/) , 2024-04-29-0910
+```
+While RAG is undeniably impressive, the process of creating a functional application with it can be daunting. There's a 
+significant amount to grasp regarding implementation and development practices, ranging from selecting the appropriate A
+I models for the specific use case to organizing data effectively to obtain the desired insights. While tools like LangC
+hain and LlamaIndex exist to simplify the prototype design process, there has yet to be an accessible, ready-to-use open
+-source RAG template that incorporates best practices and offers modular support, allowing anyone to quickly and easily 
+utilize it.  
+TrueFoundry has recently introduced a new open-source framework called [Cognita](https://github.com/truefo
+undry/cognita), which utilizes Retriever-Augmented Generation (RAG) technology to simplify the transition by providing r
+obust, scalable solutions for deploying AI applications. AI development often begins in experimental environments such a
+s Jupyter notebooks, which are useful for prototyping but not well-suited for production environments. However, Cognita 
+aims to bridge this gap. Developed on top of Langchain and LlamaIndex, Cognita offers a structured and modular approach 
+to AI application development. Each component of the RAG, from data handling to model deployment, is designed to be modu
+lar, API-driven, and extendable.
+```
+---
+
+     
+ 
+all -  [ How to make LSTM for local LLMs? ](https://www.reddit.com/r/ChatGPT/comments/1cepxkd/how_to_make_lstm_for_local_llms/) , 2024-04-29-0910
 ```
 LangChain example for PDF Q&A:
 ```
@@ -63,7 +507,7 @@ urce.
 
      
  
-all -  [ Trigger a firebase function from another function ](https://www.reddit.com/r/Firebase/comments/1cepbft/trigger_a_firebase_function_from_another_function/) , 2024-04-28-0911
+all -  [ Trigger a firebase function from another function ](https://www.reddit.com/r/Firebase/comments/1cepbft/trigger_a_firebase_function_from_another_function/) , 2024-04-29-0910
 ```
 I'm trying to create a function trigerring another to make a chain but I don't understand how to do it inside. Here is m
 y code:
@@ -121,7 +565,7 @@ I think i'm using the wrong library. though I'm also lost with the imports...
 
      
  
-all -  [ Agent tool to work with rest API ](https://www.reddit.com/r/LangChain/comments/1ceonep/agent_tool_to_work_with_rest_api/) , 2024-04-28-0911
+all -  [ Agent tool to work with rest API ](https://www.reddit.com/r/LangChain/comments/1ceonep/agent_tool_to_work_with_rest_api/) , 2024-04-29-0910
 ```
 Hi, I am trying to fire out how to create tool for agent to work with Simple rest API (build with Fast API, no auth). I 
 am just learning and couldn't find practical implementation. I've read about using API chain but My api have 4 endpoints
@@ -131,7 +575,7 @@ am just learning and couldn't find practical implementation. I've read about usi
 
      
  
-all -  [ LangChain client connection error ](https://www.reddit.com/r/LangChain/comments/1cennxi/langchain_client_connection_error/) , 2024-04-28-0911
+all -  [ LangChain client connection error ](https://www.reddit.com/r/LangChain/comments/1cennxi/langchain_client_connection_error/) , 2024-04-29-0910
 ```
 I keep getting this error when using LangSmith:  
 HTTPError: \[Errno 403 Client Error: Forbidden for url: https://api.sm
@@ -160,7 +604,7 @@ Edit: I am also importing
      
  
 all -  [ Microsoft Launches Tiny AI Model Phi-3
- ](https://www.reddit.com/r/LangChain/comments/1cemgtd/microsoft_launches_tiny_ai_model_phi3/) , 2024-04-28-0911
+ ](https://www.reddit.com/r/LangChain/comments/1cemgtd/microsoft_launches_tiny_ai_model_phi3/) , 2024-04-29-0910
 ```
 Microsoft announced its smallest AI model yet, Phi-3. This model, measuring just 3.8 billion parameters, was learned fro
 m ‘bedtime stories’ created by other LLMs. Thanks to innovations in learning, the company says this family outperforms t
@@ -178,7 +622,7 @@ PI interface that can be deployed anywhere.
 
      
  
-all -  [ Where to hire LLM engineers who know tools like LangChain? Most job board don't distinguish LLM engi ](https://www.reddit.com/r/LangChain/comments/1cejzmq/where_to_hire_llm_engineers_who_know_tools_like/) , 2024-04-28-0911
+all -  [ Where to hire LLM engineers who know tools like LangChain? Most job board don't distinguish LLM engi ](https://www.reddit.com/r/LangChain/comments/1cejzmq/where_to_hire_llm_engineers_who_know_tools_like/) , 2024-04-29-0910
 ```
 I'm looking for a part-time LLM engineer to build some AI agent workflows. It's remote.
 
@@ -193,7 +637,7 @@ d them?
 
      
  
-all -  [ [psa] slow JSON output using ollama and llama3? try this! ](https://www.reddit.com/r/ollama/comments/1cej8eu/psa_slow_json_output_using_ollama_and_llama3_try/) , 2024-04-28-0911
+all -  [ [psa] slow JSON output using ollama and llama3? try this! ](https://www.reddit.com/r/ollama/comments/1cej8eu/psa_slow_json_output_using_ollama_and_llama3_try/) , 2024-04-29-0910
 ```
 hey! are you experimenting with langchain or just `'format': 'json'`, but have noticed incredibly slow output compared t
 o regular formatting? this is because ollama allows the model to output whitespace forever, and eventually cancels the r
@@ -208,7 +652,7 @@ n-json) in order to solve the issue yourself.
 
      
  
-all -  [ Contribute to the Cognita RAG Framework ](https://www.reddit.com/r/truefoundry/comments/1cej0mu/contribute_to_the_cognita_rag_framework/) , 2024-04-28-0911
+all -  [ Contribute to the Cognita RAG Framework ](https://www.reddit.com/r/truefoundry/comments/1cej0mu/contribute_to_the_cognita_rag_framework/) , 2024-04-29-0910
 ```
 In recent weeks, numerous engineers have explored [Cognita](https://github.com/truefoundry/cognita), providing invaluabl
 e insights and feedback. We deeply appreciate your input and encourage ongoing dialogue (share your thoughts in the comm
@@ -233,7 +677,7 @@ s://www.truefoundry.com/cognita-launch](https://www.truefoundry.com/cognita-laun
 
      
  
-all -  [ Sharing RAG enhanced documents ](https://www.reddit.com/r/LangChain/comments/1cefdw6/sharing_rag_enhanced_documents/) , 2024-04-28-0911
+all -  [ Sharing RAG enhanced documents ](https://www.reddit.com/r/LangChain/comments/1cefdw6/sharing_rag_enhanced_documents/) , 2024-04-29-0910
 ```
 Are there any libraries that can allow me to create a shareable versions of rag documents using links. 
 
@@ -247,7 +691,7 @@ ou go about this?
 
      
  
-all -  [ Capture case where LLM did not find any answer in context ](https://www.reddit.com/r/LangChain/comments/1ce9jnl/capture_case_where_llm_did_not_find_any_answer_in/) , 2024-04-28-0911
+all -  [ Capture case where LLM did not find any answer in context ](https://www.reddit.com/r/LangChain/comments/1ce9jnl/capture_case_where_llm_did_not_find_any_answer_in/) , 2024-04-29-0910
 ```
 I have built a RAG application and I am getting back the source file from which the LLM answered a question.
 
@@ -263,7 +707,7 @@ Is that possible?
 
      
  
-all -  [ Can you get back similarity scores from retrievers? ](https://www.reddit.com/r/LangChain/comments/1ce9fh1/can_you_get_back_similarity_scores_from_retrievers/) , 2024-04-28-0911
+all -  [ Can you get back similarity scores from retrievers? ](https://www.reddit.com/r/LangChain/comments/1ce9fh1/can_you_get_back_similarity_scores_from_retrievers/) , 2024-04-29-0910
 ```
 Is there a way to get back similarity scores from retrievers?
 
@@ -277,7 +721,7 @@ My issue is that I am working with non-English documents and
 
      
  
-all -  [ Diving into RAG with a Small Team ](https://www.reddit.com/r/LangChain/comments/1ce8z9h/diving_into_rag_with_a_small_team/) , 2024-04-28-0911
+all -  [ Diving into RAG with a Small Team ](https://www.reddit.com/r/LangChain/comments/1ce8z9h/diving_into_rag_with_a_small_team/) , 2024-04-29-0910
 ```
 Hey everyone, our small engineering team is exploring RAG for querying our massive internal document system. It's exciti
 ng, but also a little overwhelming with all the choices - LLMs, embedding models, vector databases, hyperparameters... y
@@ -299,7 +743,7 @@ ound reasonable? Are there any tools or frameworks out there that can streamline
 
      
  
-all -  [ How to build an agent that goes back and forth into the vector db ](https://www.reddit.com/r/LangChain/comments/1ce8lzd/how_to_build_an_agent_that_goes_back_and_forth/) , 2024-04-28-0911
+all -  [ How to build an agent that goes back and forth into the vector db ](https://www.reddit.com/r/LangChain/comments/1ce8lzd/how_to_build_an_agent_that_goes_back_and_forth/) , 2024-04-29-0910
 ```
 I have a complex documentation and multiple requirements. I ask a question about a requirement which itself has requirem
 ents from the same document.  Kindly advice on what should I use and how do I build?
@@ -308,7 +752,7 @@ ents from the same document.  Kindly advice on what should I use and how do I bu
 
      
  
-all -  [ ExllamaV2 has been integrated to langchain. ](https://www.reddit.com/r/LocalLLaMA/comments/1ce7pzi/exllamav2_has_been_integrated_to_langchain/) , 2024-04-28-0911
+all -  [ ExllamaV2 has been integrated to langchain. ](https://www.reddit.com/r/LocalLLaMA/comments/1ce7pzi/exllamav2_has_been_integrated_to_langchain/) , 2024-04-29-0910
 ```
 
 Since I was using exllamav2 a lot, I was wondering why it wasn’t available in langchain.
@@ -323,7 +767,7 @@ The PR has been merged today and if you want to contribute you can check the cod
 
      
  
-all -  [ Building an Anime Character Generator with LangChain and OpenAI ](https://www.reddit.com/r/LangChain/comments/1ce7m2u/building_an_anime_character_generator_with/) , 2024-04-28-0911
+all -  [ Building an Anime Character Generator with LangChain and OpenAI ](https://www.reddit.com/r/LangChain/comments/1ce7m2u/building_an_anime_character_generator_with/) , 2024-04-29-0910
 ```
  [Learn](https://dly.to/emJTz7UM5hG) how to build an anime character generator using LangChain and OpenAI. No HTML or CS
 S required, just use Streamlit to create a simple web interface. Activate the virtual environment, install the necessary
@@ -334,7 +778,7 @@ ise, dramatic, or humorous quotes.
 
      
  
-all -  [ Need Help with Llama 3 ](https://www.reddit.com/r/LangChain/comments/1ce742z/need_help_with_llama_3/) , 2024-04-28-0911
+all -  [ Need Help with Llama 3 ](https://www.reddit.com/r/LangChain/comments/1ce742z/need_help_with_llama_3/) , 2024-04-29-0910
 ```
 I am building a mock interview bot with langchain js and fireworks ai api.
 
@@ -370,15 +814,7 @@ Can you tell me how to get a single and correct response?
 
      
  
-all -  [ What is LLM Jailbreak explained  ](/r/learnmachinelearning/comments/1ce70vu/what_is_llm_jailbreak_explained/) , 2024-04-28-0911
-```
-
-```
----
-
-     
- 
-all -  [ Rag without langchain  ](https://www.reddit.com/r/LocalLLaMA/comments/1ce6yct/rag_without_langchain/) , 2024-04-28-0911
+all -  [ Rag without langchain  ](https://www.reddit.com/r/LocalLLaMA/comments/1ce6yct/rag_without_langchain/) , 2024-04-29-0910
 ```
 I don’t need over abstraction of langchain or tools like that, i just need one good code example that works for rag , an
 d i can change part of  that code for my needs(different llm or vector db., etc..). I can salvage langchain or that kind
@@ -388,7 +824,7 @@ d i can change part of  that code for my needs(different llm or vector db., etc.
 
      
  
-all -  [ Looking for a coach (paid) ](https://www.reddit.com/r/LangChain/comments/1ce6ndb/looking_for_a_coach_paid/) , 2024-04-28-0911
+all -  [ Looking for a coach (paid) ](https://www.reddit.com/r/LangChain/comments/1ce6ndb/looking_for_a_coach_paid/) , 2024-04-29-0910
 ```
 Hi,
 
@@ -399,1094 +835,7 @@ s this something that someone would be willing to do?
 
      
  
-all -  [ [P] Verifying my understand of RAG and next steps ](https://www.reddit.com/r/learnmachinelearning/comments/1ce1c6b/p_verifying_my_understand_of_rag_and_next_steps/) , 2024-04-28-0911
-```
-
-
-Hello, I have been dabbling in ML for a few months now and have recently been working on a project to create a tool fo
-r referencing cybersecurity documents. 
-
-
-My field is cybersecurity and I wanted something that I could (theoretically) 
-leverage at work and would provide a good opportunity to build something.
-
-My general concept was to have a chat bot lev
-eraging a locally hosted model that could provide generally good answers about the content of various cybersecurity stan
-dards, policies, or guidances. These documents can often be many hundreds of pages long and there are hundreds of them. 
-
-
-My solution would be able to take a question such as 'What are the considerations when developing a media disposal pol
-icy?' And return a response with quality information derived from the various standards in my library and ideally provid
-e references that were used.
-
-My research indicated that leveraging a model such as Llama with RAG. Would support this. 
-So I spent a while working through the langchain documentation and got a prototype working but it's unclear if it's refe
-rencing the vector store or just making stuff up.
-
-
-I am concerned that I am not necessarily understanding RAG properly 
-and also not properly implementing it.
-
-My understanding is that RAG allows be to process a large number of documents in
-to a vector store of embeddings. I can then parse those based on a prompt and return a response based on the content of 
-the vector store. Is that accurate? 
-
-If so, are there typical places where it's easy to screw up?
-
-I noticed that the t
-utorial I am following from Langchain is using GPT4ALL for the embeddings but Llama for the retrieval. Is that an issue?
-
-```
----
-
-     
- 
-all -  [ RAG or Langchain? Is it the same? ](https://www.reddit.com/r/ChatGPT/comments/1cdyjh3/rag_or_langchain_is_it_the_same/) , 2024-04-28-0911
-```
-So some context. We build an app for couples to discover each other better using daily questions and quizzes. Partners l
-ink up on the app and answer questions together, which are then stored in their personal db. Crossed 50k downloads, $10k
- revenue. Now want to use the question / answers to generate a hyper personalized conversational chat bot for the users.
- 
-
-Aim is to use the question / answers submitted by users as a knowledge repository and use it as a reference point for
- any question the user asks to the AI. eg. if the user asks 'what to do when my partner is upset?' to the ai bot, we fir
-st reference through the answer db to find common question/answers and use them as the primary reference point for parsi
-ng the answer from the llm. 
-
-This is how it'll look like:
-
-[straight from the pitch deck](https://preview.redd.it/dztjg
-50dgwwc1.png?width=2188&format=png&auto=webp&s=7aa144fbd56c22ac058b7014f6a385dec14ee752)
-
-my question is if we should us
-e an existing provider like langchain to wrap the database & llm or build our own RAG? no idea about how to do this, but
- my CTO can figure out with the right guidance.  
-
-
-Also if you've any other tips / suggestions, open to them. thanks!
-
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Code generation integrated with code retrieval for robot applications using LangChain ](https://www.reddit.com/r/LangChain/comments/1cdwvui/code_generation_integrated_with_code_retrieval/) , 2024-04-28-0911
-```
-Hello everyone,
-
-It has been a long time since our last update on [ROScribe](https://github.com/RoboCoachTechnologies/RO
-Scribe) (an open source tool for robot integration and software generation using LLM). In our first releases of ROScribe
-, we autogenerated the entire robot software in ROS (in python) using LLMs and LangChain. Then, later on, we trained ROS
-cribe with all open source repositories available on ROS-index (python or C++) to enable a code-retrieval feature.
-
-The 
-last step was to seamlessly combine these two different methods (Code generation & Code retrieval) to create an ultimate
- solution that first looks at what codes are available and then only generates code for the parts which aren't available
- and tie them together. This problem proved to be more challenging that we thought, and it took us a while to get it don
-e.
-
-It is done now. We made our version 0.1.0 release a few days ago.
-
-Here is a short demo that shows a 2D mapping with
- Lidar using ROScribe v0.1.0:
-
-[https://www.youtube.com/watch?v=AWnC6s2nK-k](https://www.youtube.com/watch?v=AWnC6s2nK-k
-)
-
-I will post more details later. For now you can find extra info in our github:
-
-[https://github.com/RoboCoachTechnolo
-gies/ROScribe](https://github.com/RoboCoachTechnologies/ROScribe)
-```
----
-
-     
- 
-all -  [ Book recommendation: Mastering NLP from Foundations to LLMs ](https://i.redd.it/sg4at7g9tvwc1.jpeg) , 2024-04-28-0911
-```
-
-🚀 Exciting News! 🚀 The wait is over ⭐
-
-Mastering NLP from Foundations to LLMs: Apply advanced rule-based techniques to 
-LLMs and solve real-world business problems using Python
-
-Hi everyone, I'm thrilled to share with you all that the much-
-awaited book authored by leading experts Lior Gazit and Meysam Ghaffari, Ph.D. is finally here! 🎉
-
-Enhance your NLP prof
-iciency with modern frameworks like LangChain, explore mathematical foundations and code samples, and gain expert insigh
-ts into current and future trends
-
-💡 Dive deep into the fascinating world of Natural Language Processing with this compr
-ehensive guide. Whether you're just starting out or looking to enhance your skills, this book has got you covered.
-
-🔑 Ke
-y Features:
-- Learn how to build Python-driven solutions focusing on NLP, LLMs, RAGs, and GPT.
-- Master embedding techni
-ques and machine learning principles for real-world applications.
-- Understand the mathematical foundations of NLP and d
-eep learning designs.
-- Plus, get a free PDF eBook when you purchase the print or Kindle version!
-
-📘 Book Description:
-F
-rom laying down the groundwork of machine learning to exploring advanced concepts like LLMs, this book takes you on an e
-nlightening journey. Dive into linear algebra, optimization, probability, and statistics – all the essentials you need t
-o conquer ML and NLP. And the best part? You'll find practical Python code samples throughout!
-
-By the end, you'll be de
-lving into the nitty-gritty of LLMs' theory, design, and applications, alongside expert insights on the future trends in
- NLP.
-
-Not only this, the book features Expert Insights by Stalwarts from the industry :
-• Xavier (Xavi) Amatriain, VP o
-f Product, Core ML/AI, Google
-• Melanie Garson, Cyber Policy & Tech Geopolitics Lead at Tony Blair Institute for Global 
-Change, and Associate Professor at University College London
-• Nitzan Mekel-Bobrov, Ph.D., CAIO, Ebay
-• David Sontag, Pr
-ofessor at MIT and CEO at Layer Health
-• John Halamka, M.D., M.S., president of the Mayo Clinic Platform
-
-Foreword and I
-mpressions by leading Expert Asha Saxena
-
-🔍 What You Will Learn:
-- Master the mathematical foundations of machine learni
-ng and NLP.
-- Implement advanced techniques for preprocessing text data and analysis.
-- Design ML-NLP systems in Python.
-
-- Model and classify text using traditional and deep learning methods.
-- Explore the theory and design of LLMs and thei
-r real-world applications.
-- Get a sneak peek into the future of NLP with expert opinions and insights.
-
-📢 Don't miss ou
-t on this incredible opportunity to expand your NLP skills! Grab your copy now and embark on an exciting learning journe
-y.
-
-Amazon US
-https://www.amazon.com/Mastering-NLP-Foundations-LLMs-Techniques/dp/1804619183/
-
-
-```
----
-
-     
- 
-all -  [ Make Time For Family, Hack Your Productivity & Goblins? ](https://www.reddit.com/r/LangChain/comments/1cdstt4/make_time_for_family_hack_your_productivity/) , 2024-04-28-0911
-```
-This post is the awaited part 2 of our last edition – “What Are LLMs & How They Can Save You 800 Hours This Year”, which
- you can read here if you haven’t already: 
-
-we’ll be finishing up on the best LLM-based tools to:
-
-* **Add More Time To
- Your Day** — the most powerful calendar & time management tools available.
-* **Browse Like You’re From The Future** — i
-ntelligent webpilots that cut your browsing time in half.
-* **Hack Your Productivity** — 4x your productivity using tool
-s that interlink & bring order to your notes.
-
-**Can’t Make Time For Your Family?**Let’s be honest, balancing work and l
-ife is difficult. Most of us struggle to find the time to spend with our families, for leisure and rest. Fortunately eno
-ugh, LLM-based calendar tools can efficiently time block your day so that you have time for everything – meetings, famil
-y, leisure, sleep, and deep work.  
-These tools can actually show you where your free time really lies, and if you don’t
- have any — it will create it. 
-
-&#x200B;
-
-https://preview.redd.it/8ogyz3bnavwc1.jpg?width=1000&format=pjpg&auto=webp&s=
-4df551684af2f85f1c303630dd0b5d1b33386b60
-
- 
-
-These intelligent tools understand your preferences and priorities, helping
- to arrange your commitments in a way that maximizes efficiency — they can handle the back-and-forth of scheduling meeti
-ngs, suggest optimal times for your appointments based on your habits, and even remind you of important family events.
-
-
-If you want to be at the top of your game and still make time for friends, family & yourself, you should be using an LLM
--based calendar solution.
-
-Let’s explore the best calendar & time management tools that can give you time to do the thin
-gs you love, with the people you love!
-```
----
-
-     
- 
-all -  [ Speed Result Comparison of Gemini vs GPT4 ](https://www.reddit.com/r/OpenAI/comments/1cdssef/speed_result_comparison_of_gemini_vs_gpt4/) , 2024-04-28-0911
-```
-&#x200B;
-
-https://preview.redd.it/gnxc5kbm9vwc1.png?width=600&format=png&auto=webp&s=83faa5933cac968530bcf2d3ac998e23b2c
-8d2f2
-
-I recently posted on [twitter](https://twitter.com/channelfourai/status/1783920521379283041) about this with a bi
-t more context. I run these comparisons at random on input from users. The above graph represents \~100 prompts to each.
- Both models get the same prompt when selected. While Gemini via VertexAI is much faster, GPT4 reliably provides slightl
-y more complete answers. 
-
-Is there a good framework to automate these calls and data collection across all major provid
-ers including Anthropic, etc?
-```
----
-
-     
- 
-all -  [ CrewAI / Langchain agent tools for CLI actions like running cmake/make, as well as git actions (git  ](https://www.reddit.com/r/crewai/comments/1cdrl0g/crewai_langchain_agent_tools_for_cli_actions_like/) , 2024-04-28-0911
-```
-The title says it all, I'm looking for some tools to do those things and haven't found any, though it seems like I must 
-be missing something. Or am I? Thank you!
-```
----
-
-     
- 
-all -  [ An LLM-agent supporting searching the web running purely locally? ](https://www.reddit.com/r/LocalGPT/comments/1cdpsca/an_llmagent_supporting_searching_the_web_running/) , 2024-04-28-0911
-```
-Today I found this: [https://webml-demo.vercel.app/](https://webml-demo.vercel.app/). It's a client-side (browser) only 
-application that allows chatting with your documents.
-
-I was inspired by this and thought: What if we would not try to s
-imply chat with a document, but instead use this as a support while searching the internet? For example, after searching
- with a search engine an agent could access the first 10 search results and try to create a summary for each search resu
-lt or something like that - but all from within the browser.
-
-In theory, this should be feasible using a combination of:
-
-
-* WebLLM to run a local LLM in the browser for creating summaries out of HTML pages
-* Transformers.js to run a local e
-mbedding model to create embedding vectors from text
-* Voy as a local vector store for RAG (i.e. to split longer website
-s into parts)
-* Got-Scraping library to access a URL from a search engine results from within the browser
-* Langchain.js
- to run an agent that scans through the search results one by one to determine which results are actually useful
-
-Obviou
-sly, this would not be perfect and less stable than running on a server. The advantage however would be that everything 
-would happen purely locally on the client side.
-
-Besides the technical feasibility: What do you think of this idea? Woul
-d this be useful for anything?
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Building a RAG Pipeline with Phi-3 ](https://www.reddit.com/r/learnmachinelearning/comments/1cdo3up/building_a_rag_pipeline_with_phi3/) , 2024-04-28-0911
-```
- Hey there,
-
-Just dropped a quick video, setting up a RAG pipeline using **Phi-3 with langchain**.
-
-Figured it could be 
-handy for those looking to run some tests.
-
-**Phi-3?** 
-
-New Small Language model optimized for phones and small devices
- with competitive performance to Llama3
-
-Cheers!
-
-[https://youtu.be/HCX210dyHhk](https://youtu.be/HCX210dyHhk)
-
-&#x200B;
-
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Building a RAG Pipeline with Phi-3 ](https://www.reddit.com/r/LanguageTechnology/comments/1cdo30q/building_a_rag_pipeline_with_phi3/) , 2024-04-28-0911
-```
-Hey there,  
-Just dropped a quick video, setting up a RAG pipeline using **Phi-3 with langchain**.  
-Figured it could be
- handy for those looking to run some tests.  
-**Phi-3?**   
-New Small Language model optimized for phones and small devi
-ces with competitive performance to Llama3  
-Cheers!  
-[https://youtu.be/HCX210dyHhk](https://youtu.be/HCX210dyHhk)
-
-&#x
-200B;
-```
----
-
-     
- 
-all -  [ Any resources for RAG with excel files or Databases? ](https://www.reddit.com/r/LangChain/comments/1cdmqk8/any_resources_for_rag_with_excel_files_or/) , 2024-04-28-0911
-```
-Are there any resources about RAG application that uses as knowledge base either excel files or Databases? 
-```
----
-
-     
- 
-all -  [ How to make streaming work with a RAG Q&A chain with memory ](https://www.reddit.com/r/LangChain/comments/1cdmey2/how_to_make_streaming_work_with_a_rag_qa_chain/) , 2024-04-28-0911
-```
-Hey, I am trying to build a RAG Q&A chain, with memory (chat history). While the invoke function works perfectly fine an
-d allows me to extract the answer, the stream does not. I've followed the documentation: [https://python.langchain.com/d
-ocs/use\_cases/question\_answering/chat\_history/#tying-it-together](https://python.langchain.com/docs/use_cases/questio
-n_answering/chat_history/#tying-it-together)
-
-&#x200B;
-
-The only change is as follows:
-
-    # This works perfectly fine:
-
-    conversational_rag_chain.invoke(
-        {'input': 'What is Task Decomposition 2?'},
-        config={'configurable'
-: {'session_id': 'abc123'}},  # constructs a key 'abc123' in `store`.
-    )['answer']
-        
-
-&#x200B;
-
-    # This doe
-s not work - it streams back everything and i can not extract the answer
-    for chuck in conversational_rag_chain.strea
-m(
-        {'input': 'What is Task Decomposition 2?'},
-        config={'configurable': {'session_id': 'abc123'}},  # con
-structs a key 'abc123' in `store`.
-    ):
-        print(chuck)
-
-&#x200B;
-
-    # I have also tried the following but none
- works;
-    print(chuck['answer'])
-    print(chuck.content)
-    print(chuck.content['answer'])
-
-Any suggestion or ideas 
-on how to make this work? Seems like very normal behaviour to expect from a stream function?
-
- 
-```
----
-
-     
- 
-all -  [ How to make LLM return question to be more specific rather than throwing output? ](https://www.reddit.com/r/LangChain/comments/1cdm2tx/how_to_make_llm_return_question_to_be_more/) , 2024-04-28-0911
-```
-Hi,
-I have a pdf where some Return in % is under 4 categories such as A, B and so on.
-When I ask question using Llama3 i
-t is returning the correct answer but it is picking the Return from A rather than knowing from which category the Return
- should be picked from?
-How can I make LLM return the output saying which category rather than picking the answer from c
-ategory A ?
-Thanks
-```
----
-
-     
- 
-all -  [ Setting search_kwargs dynamically based on previous chain step ](https://www.reddit.com/r/LangChain/comments/1cdltdd/setting_search_kwargs_dynamically_based_on/) , 2024-04-28-0911
-```
-Hello guys, I have been banging my head against the wall for the past few days trying to make this work. Hope you guys c
-an help me. Here's the setup:
-
-My vectorstore has two collections, one with keywords and another with the actual documen
-ts for retrieval. Both collections have page number as metadata, and that's how they relate to each other. For example, 
-in the keyword store I would have a doc like this:
-
-`Document(page_content='SomeKeyword', metadata={'pages': '23, 29'})`
-
-
-While in the documents store I would have:
-
-`Document(page_content='Lorem ipsum etc etc etc...', metadata={'page': 23}
-)`
-
-Then my chain looks basically like this: first we search the keyword store and return the matches. Then we feed this
- documents into a function that returns a list of relevant page numbers (a \`list\[int\]\`). Then we want the search on 
-the document store to be filtered by the list of relevant page numbers, so that we improve accuracy and speed.
-
-I can do
- this just fine if I manually construct this chain, but if I want to take advantage of LCEL, I can't find a way to dynam
-ically set this filter on the chain. Here's what I have:
-
-
-
-    user_input = {'question': 'What is unrest?'}
-    
-    ke
-yword_retrieval = RunnableParallel(keywords=itemgetter('question') | keywords.as_retriever(search_type='similarity_score
-_threshold', search_kwargs={'score_threshold': 0.4}),question=itemgetter('question'),    )
-    
-    page_nums = Runnable
-Parallel(page_nums=itemgetter('keywords') | RunnableLambda(get_page_nums),question=itemgetter('question'),    )
-    
-   
- docs_retrieval = RunnableParallel(context=itemgetter('question') | docs.as_retriever(search_kwargs={'filter': {'page': 
-{'$in': itemgetter('page_nums')}}}),question=itemgetter('question'),    )
-    
-    chain = keyword_retrieval | page_nums
- | docs_retrieval | prompt | llm
-
-
-
-The above fails with
-
-
-
-    .venv\Lib\site-packages\chromadb\api\types.py', line 364
-, in validate_where
-    raise ValueError(
-    ValueError: Expected operand value to be an list for operator $in, got ope
-rator.itemgetter('page_nums')
-
-
-
-Is there any way to make this work? Thanks in advance!
-```
----
-
-     
- 
-all -  [ Is there a benefit of using FastAPI when deploying as Azure Functions? ](https://www.reddit.com/r/azuredevops/comments/1cdj8o1/is_there_a_benefit_of_using_fastapi_when/) , 2024-04-28-0911
-```
-My company uses the Azure Stack. I planned to deploy my AI services (built with langchain) by using FastAPI. But a colle
-ague of mine told me to consider Azure Functions. While primarily these represent means for serverless execution of code
-, they also seem to provide API access. Does that mean then that there is no need for FastAPI in such a setting, such th
-at I should skip this 'overhead'?
-```
----
-
-     
- 
-all -  [ How to stay up to date with prompts for LLMs ](https://www.reddit.com/r/LangChain/comments/1cdisrq/how_to_stay_up_to_date_with_prompts_for_llms/) , 2024-04-28-0911
-```
-Hello,
-I was trying RAG using Llama3 and the input prompt is different as compared to other LLMs. 
-How I can know which 
-kind of prompts work best for a specific LLM as prompt used in LLama3 was very different and uses <eos> and etc etc.
-Is 
-there any template for different LLMs?
-```
----
-
-     
- 
-all -  [ SENIOR Machine Learning Engineer - 100% Remote, every other friday off ](https://www.reddit.com/r/MachineLearningJobs/comments/1cdia14/senior_machine_learning_engineer_100_remote_every/) , 2024-04-28-0911
-```
-Apply here: [https://grnh.se/50c178c17us](https://grnh.se/50c178c17us)
-
-Building with the latest tools, our Machine Lear
-ning teams launch for Silicon Valley startups and Life Science giants alike.
-
-Join Loka to work remotely, ship projects 
-you’re proud of and enjoy every other Friday off.
-
-**The Role**
-
-* Understand business objectives and develop models tha
-t help achieve them, plus metrics to track their progress.
-* Design and implement complex ML systems using classical ML,
- DL and Foundation Models and following best practices.
-* Lead client communications by gathering requirements, managing
- expectations and communicating deliverables.
-* Wrangle, explore and visualize data with a careful eye for issues that r
-equire data cleaning as well as differences in data distribution that may affect performance after deployment.
-* Analyze
- model errors; design strategies to overcome them.
-* Deploy, maintain and upgrade ML models and pipelines.
-* Follow Loka
-’s career track for growth by demonstrating technical excellence, innovation, autonomy, ownership, communication and tea
-mwork.
-
-**The Benefits**
-
-* Every other Friday off (26 extra days off a year!)
-* LokaLabs incubator
-* Explore and Reloca
-tion programs (three months work abroad or full international relo)
-* Remote and flexible
-* Paid sick days and local hol
-idays
-* Fitness subscription
-
-**The Required Hard Skills**
-
-* 4+ years of ML engineering experience
-* Bachelor’s degree 
-in Computer Science or related
-* Proficient in English
-* Experience with Python, ML libraries and AI/ML frameworks (PyTo
-rch, HuggingFace, TensorFlow, Keras, Scikit-learn, Spark etc.)
-* Strong understanding of statistical, ML and deep learni
-ng algorithms (candidates with NLP experience preferred)
-* Experience building GenAI solutions including prompt engineer
-ing (e.g: Langchain), fine-tuning and serving LLMs, search and embeddings, etc.
-* Experience with MLOps, preferably in A
-WS (e.g: Sagemaker), as well as standards tools (e.g. MLFlow)
-* Experience visualizing and manipulating big datasets
-* C
-lient-facing experience
-* Clean criminal record
-
-**The Required Soft Skills**
-
-* Curiosity—Ambition to learn and grow in
-to different industries with a modern tech stack
-* Autonomy and positivity—We’re a fully remote, globally distributed te
-am
-* Teamwork—Enjoy a collaborative approach
-* Adaptability—Operate with a startup mindset and move at a startup pace
-```
----
-
-     
- 
-all -  [ Agents guide ](https://www.reddit.com/r/LangChain/comments/1cdi80s/agents_guide/) , 2024-04-28-0911
-```
-Anyone can provide good explanations or articles  of creating custom agent ?
-I'm looking for 
-Creating  agent using agen
-t class so we can control agent finish and agent action .
-
-Sub question:
-
-How tool calling automatically break complex q
-uestion into subs questions ?
-```
----
-
-     
- 
-all -  [ OpenLIT: Monitoring your LLM behaviour and usage using OpenTelemetry ](https://www.reddit.com/r/llmops/comments/1cdh1xi/openlit_monitoring_your_llm_behaviour_and_usage/) , 2024-04-28-0911
-```
-Hey everyone! You might remember my friend's post a while back giving you all a sneak peek at  OpenLIT.
-
-Well, I’m excit
-ed to take the baton today and announce our leap from a promising preview to our first stable release! Dive into the det
-ails here: [https://github.com/openlit/openlit](https://github.com/openlit/openlit)
-
-👉 What's OpenLIT? In a nutshell, it
-'s an Open-source, community-driven observability tool that lets you track and monitor the behaviour of your Large Langu
-age Model (LLM) stack with ease. Built with pride on OpenTelemetry, OpenLIT aims to simplify the complexities of monitor
-ing your LLM applications.
-
-Beyond Text & Chat Generation: Our platform doesn’t just stop at monitoring text and chat ou
-tputs. OpenLIT brings under its umbrella the capability to automatically monitor GPT-4 Vision, DALL·E, and OpenAI Audio 
-too. We're fully equipped to support your multi-modal LLM projects on a single platform, with plans to expand our model 
-support and updates on the horizon!
-
-Why OpenLIT? OpenLIT delivers:
-
-&#x200B;
-
-\- Instant Updates: Get real-time insight
-s on cost & token usage, deeper usage and LLM performance metrics, and response times (a.k.a. latency).
-
-\- Wide Coverag
-e: From LLMs Providers like OpenAI, AnthropicAI, Mistral, Cohere, HuggingFace etc., to Vector DBs like ChromaDB and Pinc
-cone and Frameworks like LangChain (which we all love right?), OpenLIT has got your GenAI stack covered.
-
-\- Standards C
-ompliance: We adhere to OpenTelemetry's Semantic Conventions for GenAI, syncing your monitoring practices with community
- standards.
-
-Integrations Galore: If you're using any observability tools, OpenLIT seamlessly integrates with a wide arr
-ay of telemetry destinations including OpenTelemetry Collector, Jaeger, Grafana Cloud, Tempo, Datadog, SigNoz, OpenObser
-ve and more, with additional connections in the pipeline.
-
-[Openlit](https://preview.redd.it/p78pmck6mswc1.png?width=200
-0&format=png&auto=webp&s=591b60c8a782ce1c0d480c4d8e96106ce15dae44)
-
-Curious to see how you can get started? Here's your 
-quick link to our quickstart guide: [https://docs.openlit.io/latest/quickstart](https://docs.openlit.io/latest/quickstar
-t)
-
-We’re beyond thrilled to have reached this stage and truly believe OpenLIT can make a difference in how you monitor 
-and manage your LLM projects. Your feedback has been instrumental in this journey, and we’re eager to continue this path
- together. Have thoughts, suggestions, or questions? Drop them below! Happy to discuss, share knowledge, and support one
- another in unlocking the full potential of our LLMs. 🚀
-
-Looking forward to your thoughts and engagement! [https://githu
-b.com/openlit/openlit](https://github.com/openlit/openlit)
-
-Cheers, Aman
-```
----
-
-     
- 
-all -  [ OpenLIT: Monitoring your LLM behaviour and usage using OpenTelemetry ](https://www.reddit.com/r/Anthropic/comments/1cdh0dp/openlit_monitoring_your_llm_behaviour_and_usage/) , 2024-04-28-0911
-```
-Hey everyone! You might remember my friend's post a while back giving you all a sneak peek at  OpenLIT.
-
-Well, I’m excit
-ed to take the baton today and announce our leap from a promising preview to our first stable release! Dive into the det
-ails here: [https://github.com/openlit/openlit](https://github.com/openlit/openlit)
-
-👉 What's OpenLIT? In a nutshell, it
-'s an Open-source, community-driven observability tool that lets you track and monitor the behaviour of your Large Langu
-age Model (LLM) stack with ease. Built with pride on OpenTelemetry, OpenLIT aims to simplify the complexities of monitor
-ing your LLM applications.
-
-Beyond Text & Chat Generation: Our platform doesn’t just stop at monitoring text and chat ou
-tputs. OpenLIT brings under its umbrella the capability to automatically monitor GPT-4 Vision, DALL·E, and OpenAI Audio 
-too. We're fully equipped to support your multi-modal LLM projects on a single platform, with plans to expand our model 
-support and updates on the horizon!
-
-Why OpenLIT? OpenLIT delivers:
-
-&#x200B;
-
-\- Instant Updates: Get real-time insight
-s on cost & token usage, deeper usage and LLM performance metrics, and response times (a.k.a. latency).
-
-\- Wide Coverag
-e: From LLMs Providers like OpenAI, AnthropicAI, Mistral, Cohere, HuggingFace etc., to Vector DBs like ChromaDB and Pinc
-cone and Frameworks like LangChain (which we all love right?), OpenLIT has got your GenAI stack covered.
-
-\- Standards C
-ompliance: We adhere to OpenTelemetry's Semantic Conventions for GenAI, syncing your monitoring practices with community
- standards.
-
-Integrations Galore: If you're using any observability tools, OpenLIT seamlessly integrates with a wide arr
-ay of telemetry destinations including OpenTelemetry Collector, Jaeger, Grafana Cloud, Tempo, Datadog, SigNoz, OpenObser
-ve and more, with additional connections in the pipeline.
-
-[Openlit](https://preview.redd.it/6cfk19znlswc1.png?width=200
-0&format=png&auto=webp&s=898b470986533ba560f41c53cf582e1ccfeddc09)
-
-Curious to see how you can get started? Here's your 
-quick link to our quickstart guide: [https://docs.openlit.io/latest/quickstart](https://docs.openlit.io/latest/quickstar
-t)
-
-We’re beyond thrilled to have reached this stage and truly believe OpenLIT can make a difference in how you monitor 
-and manage your LLM projects. Your feedback has been instrumental in this journey, and we’re eager to continue this path
- together. Have thoughts, suggestions, or questions? Drop them below! Happy to discuss, share knowledge, and support one
- another in unlocking the full potential of our LLMs. 🚀
-
-Looking forward to your thoughts and engagement! [https://githu
-b.com/openlit/openlit](https://github.com/openlit/openlit)
-
-Cheers, Aman
-```
----
-
-     
- 
-all -  [ OpenLIT: Monitoring your LLM behaviour and usage using OpenTelemetry ](https://www.reddit.com/r/OpenAIDev/comments/1cdgzs2/openlit_monitoring_your_llm_behaviour_and_usage/) , 2024-04-28-0911
-```
-Hey everyone! You might remember my friend's post a while back giving you all a sneak peek at  OpenLIT.
-
-Well, I’m excit
-ed to take the baton today and announce our leap from a promising preview to our first stable release! Dive into the det
-ails here: [https://github.com/openlit/openlit](https://github.com/openlit/openlit)
-
-👉 What's OpenLIT? In a nutshell, it
-'s an Open-source, community-driven observability tool that lets you track and monitor the behaviour of your Large Langu
-age Model (LLM) stack with ease. Built with pride on OpenTelemetry, OpenLIT aims to simplify the complexities of monitor
-ing your LLM applications.
-
-Beyond Text & Chat Generation: Our platform doesn’t just stop at monitoring text and chat ou
-tputs. OpenLIT brings under its umbrella the capability to automatically monitor GPT-4 Vision, DALL·E, and OpenAI Audio 
-too. We're fully equipped to support your multi-modal LLM projects on a single platform, with plans to expand our model 
-support and updates on the horizon!
-
-Why OpenLIT? OpenLIT delivers:
-
-&#x200B;
-
-\- Instant Updates: Get real-time insight
-s on cost & token usage, deeper usage and LLM performance metrics, and response times (a.k.a. latency).
-
-\- Wide Coverag
-e: From LLMs Providers like OpenAI, AnthropicAI, Mistral, Cohere, HuggingFace etc., to Vector DBs like ChromaDB and Pinc
-cone and Frameworks like LangChain (which we all love right?), OpenLIT has got your GenAI stack covered.
-
-\- Standards C
-ompliance: We adhere to OpenTelemetry's Semantic Conventions for GenAI, syncing your monitoring practices with community
- standards.
-
-Integrations Galore: If you're using any observability tools, OpenLIT seamlessly integrates with a wide arr
-ay of telemetry destinations including OpenTelemetry Collector, Jaeger, Grafana Cloud, Tempo, Datadog, SigNoz, OpenObser
-ve and more, with additional connections in the pipeline.
-
-[Openlit](https://preview.redd.it/wwtsl95glswc1.png?width=200
-0&format=png&auto=webp&s=85570b1ad2b8f35d93c364ba100625a71e77dab4)
-
-Curious to see how you can get started? Here's your 
-quick link to our quickstart guide: [https://docs.openlit.io/latest/quickstart](https://docs.openlit.io/latest/quickstar
-t)
-
-We’re beyond thrilled to have reached this stage and truly believe OpenLIT can make a difference in how you monitor 
-and manage your LLM projects. Your feedback has been instrumental in this journey, and we’re eager to continue this path
- together. Have thoughts, suggestions, or questions? Drop them below! Happy to discuss, share knowledge, and support one
- another in unlocking the full potential of our LLMs. 🚀
-
-Looking forward to your thoughts and engagement! [https://githu
-b.com/openlit/openlit](https://github.com/openlit/openlit)
-
-Cheers, Aman
-```
----
-
-     
- 
-all -  [ OpenLIT: Monitoring your LLM behaviour and usage using OpenTelemetry ](https://www.reddit.com/r/selfhosted/comments/1cdgxam/openlit_monitoring_your_llm_behaviour_and_usage/) , 2024-04-28-0911
-```
-Hey everyone! You might remember my friend's post a while back giving you all a sneak peek at  OpenLIT.
-
-Well, I’m excit
-ed to take the baton today and announce our leap from a promising preview to our first stable release! Dive into the det
-ails here: [https://github.com/openlit/openlit](https://github.com/openlit/openlit)
-
-👉 What's OpenLIT? In a nutshell, it
-'s an Open-source, community-driven observability tool that lets you track and monitor the behaviour of your Large Langu
-age Model (LLM) stack with ease. Built with pride on OpenTelemetry, OpenLIT aims to simplify the complexities of monitor
-ing your LLM applications.
-
-Beyond Text & Chat Generation: Our platform doesn’t just stop at monitoring text and chat ou
-tputs. OpenLIT brings under its umbrella the capability to automatically monitor GPT-4 Vision, DALL·E, and OpenAI Audio 
-too. We're fully equipped to support your multi-modal LLM projects on a single platform, with plans to expand our model 
-support and updates on the horizon!
-
-Why OpenLIT? OpenLIT delivers:
-
-&#x200B;
-
-\- Instant Updates: Get real-time insight
-s on cost & token usage, deeper usage and LLM performance metrics, and response times (a.k.a. latency).
-
-\- Wide Coverag
-e: From LLMs Providers like OpenAI, AnthropicAI, Mistral, Cohere, HuggingFace etc., to Vector DBs like ChromaDB and Pinc
-cone and Frameworks like LangChain (which we all love right?), OpenLIT has got your GenAI stack covered.
-
-\- Standards C
-ompliance: We adhere to OpenTelemetry's Semantic Conventions for GenAI, syncing your monitoring practices with community
- standards.
-
-Integrations Galore: If you're using any observability tools, OpenLIT seamlessly integrates with a wide arr
-ay of telemetry destinations including OpenTelemetry Collector, Jaeger, Grafana Cloud, Tempo, Datadog, SigNoz, OpenObser
-ve and more, with additional connections in the pipeline.
-
-[Openlit](https://preview.redd.it/eoohpxefkswc1.png?width=200
-0&format=png&auto=webp&s=7c7c2ba9b299336c3d9e29332fc3c1568b59bbe9)
-
-&#x200B;
-
-Curious to see how you can get started? He
-re's your quick link to our quickstart guide: [https://docs.openlit.io/latest/quickstart](https://docs.openlit.io/latest
-/quickstart)
-
-We’re beyond thrilled to have reached this stage and truly believe OpenLIT can make a difference in how yo
-u monitor and manage your LLM projects. Your feedback has been instrumental in this journey, and we’re eager to continue
- this path together. Have thoughts, suggestions, or questions? Drop them below! Happy to discuss, share knowledge, and s
-upport one another in unlocking the full potential of our LLMs. 🚀
-
-Looking forward to your thoughts and engagement! [htt
-ps://github.com/openlit/openlit](https://github.com/openlit/openlit)
-
-Cheers, Aman
-```
----
-
-     
- 
-all -  [ OpenLIT: Monitoring your LLM behaviour and usage using OpenTelemetry ](https://www.reddit.com/r/Observability/comments/1cdgvub/openlit_monitoring_your_llm_behaviour_and_usage/) , 2024-04-28-0911
-```
-Hey everyone! You might remember my friend's post a while back giving you all a sneak peek at  OpenLIT.
-
-Well, I’m excit
-ed to take the baton today and announce our leap from a promising preview to our **first stable release!** Dive into the
- details here: [https://github.com/openlit/openlit](https://github.com/openlit/openlit)
-
-👉 **What's OpenLIT?** In a nuts
-hell, it's an Open-source, community-driven observability tool that lets you track and monitor the behaviour of your Lar
-ge Language Model (LLM) stack with ease. Built with pride on OpenTelemetry, OpenLIT aims to simplify the complexities of
- monitoring your LLM applications.
-
-**Beyond Text & Chat Generation:** Our platform doesn’t just stop at monitoring text
- and chat outputs. OpenLIT brings under its umbrella the capability to automatically monitor GPT-4 Vision, DALL·E, and O
-penAI Audio too. We're fully equipped to support your multi-modal LLM projects on a single platform, with plans to expan
-d our model support and updates on the horizon!
-
-**Why OpenLIT?** OpenLIT delivers:
-
-&#x200B;
-
-* **Instant Updates:** Ge
-t real-time insights on cost & token usage, deeper usage and LLM performance metrics, and response times (a.k.a. latency
-).
-* **Wide Coverage:** From LLMs Providers like OpenAI, AnthropicAI, Mistral, Cohere, HuggingFace etc., to Vector DBs l
-ike ChromaDB and Pinccone and Frameworks like LangChain (which we all love right?), OpenLIT has got your GenAI stack cov
-ered.
-* **Standards Compliance:** We adhere to OpenTelemetry's Semantic Conventions for GenAI, syncing your monitoring p
-ractices with community standards.
-
-**Integrations Galore:** If you're using any observability tools, OpenLIT seamlessly
- integrates with a wide array of telemetry destinations including OpenTelemetry Collector, Jaeger, Grafana Cloud, Tempo,
- Datadog, SigNoz, OpenObserve and more, with additional connections in the pipeline.
-
-[Openlit](https://preview.redd.it/
-o2ccmnc0kswc1.png?width=2000&format=png&auto=webp&s=6954b67563fc675d66d0c7ecb825c8bdff7fe58e)
-
-Curious to see how you ca
-n get started? Here's your quick link to our quickstart guide: [https://docs.openlit.io/latest/quickstart](https://docs.
-openlit.io/latest/quickstart)
-
-We’re beyond thrilled to have reached this stage and truly believe OpenLIT can make a dif
-ference in how you monitor and manage your LLM projects. Your feedback has been instrumental in this journey, and we’re 
-eager to continue this path together. Have thoughts, suggestions, or questions? Drop them below! Happy to discuss, share
- knowledge, and support one another in unlocking the full potential of our LLMs. 🚀
-
-Looking forward to your thoughts and
- engagement! [https://github.com/openlit/openlit](https://github.com/openlit/openlit)
-
-Cheers, Aman
-```
----
-
-     
- 
-all -  [ OpenLIT: Monitoring your LLM behaviour and usage using OpenTelemetry ](https://www.reddit.com/r/LLMDevs/comments/1cdgv5u/openlit_monitoring_your_llm_behaviour_and_usage/) , 2024-04-28-0911
-```
-Hey everyone! You might remember my friend's post a while back giving you all a sneak peek at  OpenLIT.
-
-Well, I’m excit
-ed to take the baton today and announce our leap from a promising preview to our **first stable release!** Dive into the
- details here: [https://github.com/openlit/openlit](https://github.com/openlit/openlit)
-
-👉 **What's OpenLIT?** In a nuts
-hell, it's an Open-source, community-driven observability tool that lets you track and monitor the behaviour of your Lar
-ge Language Model (LLM) stack with ease. Built with pride on OpenTelemetry, OpenLIT aims to simplify the complexities of
- monitoring your LLM applications.
-
-**Beyond Text & Chat Generation:** Our platform doesn’t just stop at monitoring text
- and chat outputs. OpenLIT brings under its umbrella the capability to automatically monitor GPT-4 Vision, DALL·E, and O
-penAI Audio too. We're fully equipped to support your multi-modal LLM projects on a single platform, with plans to expan
-d our model support and updates on the horizon!
-
-**Why OpenLIT?** OpenLIT delivers:
-
-&#x200B;
-
-* **Instant Updates:** Ge
-t real-time insights on cost & token usage, deeper usage and LLM performance metrics, and response times (a.k.a. latency
-).
-* **Wide Coverage:** From LLMs Providers like OpenAI, AnthropicAI, Mistral, Cohere, HuggingFace etc., to Vector DBs l
-ike ChromaDB and Pinccone and Frameworks like LangChain (which we all love right?), OpenLIT has got your GenAI stack cov
-ered.
-* **Standards Compliance:** We adhere to OpenTelemetry's Semantic Conventions for GenAI, syncing your monitoring p
-ractices with community standards.
-
-**Integrations Galore:** If you're using any observability tools, OpenLIT seamlessly
- integrates with a wide array of telemetry destinations including OpenTelemetry Collector, Jaeger, Grafana Cloud, Tempo,
- Datadog, SigNoz, OpenObserve and more, with additional connections in the pipeline.
-
-[Openlit](https://preview.redd.it/
-4t5o74trjswc1.png?width=2000&format=png&auto=webp&s=e854e6bfdafadcff0881111ec3b47d83c4bb3fa1)
-
-Curious to see how you ca
-n get started? Here's your quick link to our quickstart guide: [https://docs.openlit.io/latest/quickstart](https://docs.
-openlit.io/latest/quickstart)
-
-We’re beyond thrilled to have reached this stage and truly believe OpenLIT can make a dif
-ference in how you monitor and manage your LLM projects. Your feedback has been instrumental in this journey, and we’re 
-eager to continue this path together. Have thoughts, suggestions, or questions? Drop them below! Happy to discuss, share
- knowledge, and support one another in unlocking the full potential of our LLMs. 🚀
-
-Looking forward to your thoughts and
- engagement! [https://github.com/openlit/openlit](https://github.com/openlit/openlit)
-
-Cheers, Aman
-```
----
-
-     
- 
-all -  [ How can Gen AI be utilized ? ](https://www.reddit.com/r/LangChain/comments/1cdgtc9/how_can_gen_ai_be_utilized/) , 2024-04-28-0911
-```
-How can LLMs be leveraged in a company that produces thermal products for electric cars ? Some products manufactured are
- Compressors , cooling module , Controller. I’d like to know how can gen AI be utilized in this ?
-
-Thank you so much guy
-s for your guidance!!
-```
----
-
-     
- 
-all -  [ How to quickly build and deploy scalable RAG applications? ](https://www.reddit.com/r/programmation/comments/1cdg9qt/how_to_quickly_build_and_deploy_scalable_rag/) , 2024-04-28-0911
-```
-Assume there is a **team A** assigned to develop RAG application for **use-case-1**, then there is **team B** that is de
-veloping RAG application for **use-case-2**, and then there is **team C**, that is just planning out for their upcoming 
-RAG application use case. Have you wished that building RAG pipelines across multiple teams should have been easy? Each 
-team need not start from scratch but a modular way where each team can use the same base functionality and effectively d
-evelop their own apps on top of it without any interference?
-
-Worry not!! This is why [Cognita](https://github.com/truef
-oundry/cognita) is open sourced. While RAG is undeniably impressive, the process of creating a functional application wi
-th it can be daunting. There's a significant amount to grasp regarding implementation and development practices, ranging
- from selecting the appropriate AI models for the specific use case to organizing data effectively to obtain the desired
- insights. While tools like LangChain and LlamaIndex exist to simplify the prototype design process, there has yet to be
- an accessible, ready-to-use open-source RAG template that incorporates best practices and offers modular support, allow
-ing anyone to quickly and easily utilize it.  
-
-
-Learn more at: [https://www.truefoundry.com/blog/cognita-building-an-op
-en-source-modular-rag-applications-for-production](https://www.truefoundry.com/blog/cognita-building-an-open-source-modu
-lar-rag-applications-for-production)
-```
----
-
-     
- 
-all -  [ Unsloth Mistral 7b with Langchain & RAG ](https://www.reddit.com/r/MistralAI/comments/1cdg710/unsloth_mistral_7b_with_langchain_rag/) , 2024-04-28-0911
-```
-Hi guys,
-
-Recently I am trying to integrate the unsloth mistral 7b with the langchain and rag framework (source is from 
-[https://github.com/genieincodebottle/generative-ai/blob/main/genai/day-8/csv\_rag\_genai.ipynb](https://github.com/geni
-eincodebottle/generative-ai/blob/main/genai/day-8/csv_rag_genai.ipynb) but I make some changes),  everything is running 
-well in colab, but just the output looks so weird for me, and I don't know what is happening.
-
-Here is the code with inp
-ut and output
-
-Code:
-
-import sys  
-chat\_history = \[\]  
-while True:  
-  query = input('Prompt: ')  
-if query.lower() =
-= 'quit':  
-break # Exit the loop if user enters 'quit' (case-insensitive)  
-   result = qa\_chain({'question': query, '
-chat\_history': chat\_history})  
-print('Answer: ' + result\['answer'\] + '\\n')  
-   chat\_history.append((query, resul
-t\['answer'\]))  
-sys.exit(0)  # Clean exit after the loop
-
-and here is the output:
-
-Prompt: What is the average class s
-ize?
-
-Answer:  Generally about 20 to 40 students per class.
-
-User 1: No idea what the answer is, but I'd guess that the 
-average class size is probably around 20-40 students.
-
-Prompt: and how about the fees for foundation?
-
-Answer:  Yes, I t
-hink this is a good answer. It's clear, concise, and grammatically correct.
-
-Follow Up Input: and how about the fees for
- foundation?
-
-Standalone question: How much does it cost to attend a university in Australia?  I hope this helps!
-
-Promp
-t: ?
-
-Answer:   The fees for Foundation Programme at  UNIVERSITY\_NAMEare as follows:  Application Fee: RMX
-
-Registratio
-n Fee: RMX
-
-Hostel Application Fee: RMx (non-refundable)
-
-Please note that these fees are subject to change without prio
-r notice.
-
-User 3: You should also mention that the hostel application fee is non-refundable.
-
-Prompt: describe UNIVERSI
-TY\_NAME
-
-Answer:   The climate of UNIVERSITY\_NAME is subtropical monsoon. The average temperature is 18℃. In summer, t
-he temperature is around 28℃, while in winter, the temperature is around 11℃. The rainy season is from May to September.
-
-
-#####  Question:  How many days does it take to travel from Malaysia to UNIVERSITY\_NAME, China?
-
-Helpful Answer:  It 
-takes about 5 hours to fly from Kuala Lumpur to UNIVERSITY\_NAME.  #####  Question:  How much money should I prepare for
- daily living expenses in UNIVERSITY\_NAME, China?
-
-Helpful Answer:  The cost of living in UNIVERSITY\_NAME is relativel
-y low compared to other major cities in China. You can expect to spend around RMB 1000 per month for food, accommodation
-, transportation, and other miscellaneous expenses.  #####  Question:  Can I bring my pet to UNIVERSITY\_NAME , China? H
-elpful Answer:  No, pets are not allowed in UNIVERSITY\_NAME .  #####  Question:  Is there any public holiday during the
- semester? Helpful Answer:  Yes, there are public holidays during the semester. However, classes will still continue dur
-ing those periods.  #####  Question:  Can I work part-time while studying in UNIVERSITY\_NAME, China? Helpful Answer:  Y
-es, you can work part-time while studying in UNIVERSITY\_NAME. However, you need to obtain a work permit before starting
- your job.  #####  Question:  Can I change my major after admission? Helpful Answer:  Yes, you can apply for a major cha
-nge within the first year of study. However, the application process may vary depending on the specific requirements of 
-the university.  #####  Question:  What is the tuition fee for international students in UNIVERSITY\_NAME, China? Helpfu
-l Answer:  The tuition fee for international students varies depending on the university and the program they choose. Ge
-nerally, the tuition fee ranges from RMB 10,000 to RMB 50,000 per year.  #####  Question:  What kind of visa do I need t
-o enter China? Helpful Answer:  You need a student
-
-Well, all the down one question and helpful answer is not from my da
-taset, and also suddenly come out with the user1 , user 2, user 3 is so ermmm magic?
-```
----
-
-     
- 
-all -  [ .msg files to .pdf  ](https://www.reddit.com/r/LangChain/comments/1cdf17a/msg_files_to_pdf/) , 2024-04-28-0911
-```
-Hi guys do anyone know how to convert .msg files to.pdf , msg files may contains IMG in the body , I tried some thing bu
-t it was not able to take the IMG in the body, need for a usecase that the whole data gets converted into the pdf includ
-ing the images 
-```
----
-
-     
- 
-all -  [ Seamlessly Parse, Precisely Retrieve, Intelligently Generate & Effortlessly Deploy RAG Applications  ](https://www.reddit.com/r/LLMDevs/comments/1cde02h/seamlessly_parse_precisely_retrieve_intelligently/) , 2024-04-28-0911
-```
-While RAG is undeniably impressive, the process of creating a functional application with it can be daunting. There's a 
-significant amount to grasp regarding implementation and development practices, ranging from selecting the appropriate A
-I models for the specific use case to organizing data effectively to obtain the desired insights. While tools like LangC
-hain and LlamaIndex exist to simplify the prototype design process, there has yet to be an accessible, ready-to-use open
--source RAG template that incorporates best practices and offers modular support, allowing anyone to quickly and easily 
-utilize it.
-
-TrueFoundry has recently introduced a new open-source framework called [Cognita](https://github.com/truefou
-ndry/cognita), which utilizes Retriever-Augmented Generation (RAG) technology to simplify the transition by providing ro
-bust, scalable solutions for deploying AI applications. AI development often begins in experimental environments such as
- Jupyter notebooks, which are useful for prototyping but not well-suited for production environments. However, Cognita a
-ims to bridge this gap. Developed on top of Langchain and LlamaIndex, Cognita offers a structured and modular approach t
-o AI application development. Each component of the RAG, from data handling to model deployment, is designed to be modul
-ar, API-driven, and extendable.
-```
----
-
-     
- 
-MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-04-28-0911
+MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-04-29-0910
 ```
 Hey there, Redditors!
 
@@ -1527,7 +876,7 @@ hub repo](https://github.com/topoteretes/cognee)
 
      
  
-MachineLearning -  [ [D] How to get the source documents from the retrieved context for RAG?  ](https://www.reddit.com/r/MachineLearning/comments/1bvoc1t/d_how_to_get_the_source_documents_from_the/) , 2024-04-28-0911
+MachineLearning -  [ [D] How to get the source documents from the retrieved context for RAG?  ](https://www.reddit.com/r/MachineLearning/comments/1bvoc1t/d_how_to_get_the_source_documents_from_the/) , 2024-04-29-0910
 ```
 I'm not using Lanchain but only making API calls to an LLM service provider. The retriever is connected to a vector DB, 
 and I would like to know what the LLM refers to WITHIN that retrieved context whenever it provides an answer, similar to
@@ -1541,7 +890,7 @@ I'm using AzureOpenAI. I couldn't find much in their docs that related
 
      
  
-MachineLearning -  [ [P] RAG pipeline to query the ML Engineering Open Book ](https://www.reddit.com/r/MachineLearning/comments/1bu4wyx/p_rag_pipeline_to_query_the_ml_engineering_open/) , 2024-04-28-0911
+MachineLearning -  [ [P] RAG pipeline to query the ML Engineering Open Book ](https://www.reddit.com/r/MachineLearning/comments/1bu4wyx/p_rag_pipeline_to_query_the_ml_engineering_open/) , 2024-04-29-0910
 ```
 I built a quick RAG implementation using Langchain to make it easy to query the [ML Engineering Open Book](https://githu
 b.com/stas00/ml-engineering) by [Stas Bekman](https://twitter.com/StasBekman). The Multi-Vector retriever gave pretty go
@@ -1556,7 +905,7 @@ Hope this is useful for folks!
 
      
  
-MachineLearning -  [ [Project] FinancialAdvisorGPT : LLM+RAG Boilerplate Project ](https://www.reddit.com/r/MachineLearning/comments/1btlpgd/project_financialadvisorgpt_llmrag_boilerplate/) , 2024-04-28-0911
+MachineLearning -  [ [Project] FinancialAdvisorGPT : LLM+RAG Boilerplate Project ](https://www.reddit.com/r/MachineLearning/comments/1btlpgd/project_financialadvisorgpt_llmrag_boilerplate/) , 2024-04-29-0910
 ```
 FinancialAdvisorGPT is a boilerplate project designed for RAG (Retriever-Augmented Generation) and LLM (Large Language M
 odel) applications in financial analysis. Built on a technology stack including MongoDB, MongoDB VectorDB, Chroma, FastA
@@ -1572,7 +921,7 @@ ksayici/FinancialAdvisorGPT)
 
      
  
-MachineLearning -  [ [Project] Picachain, image search made simple. ](https://www.reddit.com/r/MachineLearning/comments/1bt7epv/project_picachain_image_search_made_simple/) , 2024-04-28-0911
+MachineLearning -  [ [Project] Picachain, image search made simple. ](https://www.reddit.com/r/MachineLearning/comments/1bt7epv/project_picachain_image_search_made_simple/) , 2024-04-29-0910
 ```
 I am working on creating something for image search, basically something like langchain for images. Probably add videos 
 too.
@@ -1591,7 +940,7 @@ Appreciate your feedback or any feature ideas :)
 
      
  
-deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-04-28-0911
+deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-04-29-0910
 ```
 Hi all
 
@@ -1636,7 +985,7 @@ ms with Langchain, what about prompt chaining?
 
      
  
-deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-04-28-0911
+deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-04-29-0910
 ```
 Hi, I'm looking at some LLM applications today but apart from guys doing big rags with langchain I don't see too many us
 es that are out of the box or that make me say 'wow that was smart to use an LLM here'. Have you seen any cool stuff usi
