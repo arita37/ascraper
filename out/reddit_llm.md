@@ -1,5 +1,873 @@
  
-all -  [ 300+ Tailored Applications with no Interviews (Entry Level Software 🇺🇸, See Comments) ](https://www.reddit.com/r/resumes/comments/1cjm5aa/300_tailored_applications_with_no_interviews/) , 2024-05-04-0910
+all -  [ Error code: 400 - {'error': {'message': '[] is too short - 'tools'', 'type': 'invalid_request_error' ](https://www.reddit.com/r/LangChain/comments/1ckd61h/error_code_400_error_message_is_too_short_tools/) , 2024-05-05-0911
+```
+Hey guys! I'm trying to create a conversation chatbot the specializes in offering video games recommendations based on t
+he user preferences found in his input. Though, right now, when I'm trying to run it, I'm being faced with the error abo
+ve, does anybody have any idea as to what the problem may be?
+
+Also, is there any way to make sure that an execution of 
+an agent does not move to the other until all the requirements are met? For e.g., I have an input agent that's tasked to
+ collect the user's prompt and extract the important info from there. But how would I manage a case where the user might
+ input a query that talks about something completely different?
+
+Thank you guys!
+
+Here is my code too:
+
+    import os
+  
+  from dotenv import load_dotenv
+    from langchain_openai import ChatOpenAI
+    from langchain_core.messages import Hum
+anMessage, BaseMessage
+    from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+    from langchain
+.agents import create_openai_tools_agent, Tool
+    from langgraph.graph import StateGraph, END
+    from typing import An
+notated, Sequence, TypedDict
+    import operator
+    from serpapi import GoogleSearch
+    
+    # Load environment variab
+les for API keys
+    load_dotenv()
+    
+    # Configuration
+    serpapi_key = os.getenv('SERPAPI_API_KEY')
+    
+    # De
+fine tools using SerpAPI
+    def google_search(query):
+        params = {
+            'engine': 'google',
+            'q
+': query,
+            'api_key': serpapi_key,
+            'num': 5
+        }
+        search = GoogleSearch(params)
+     
+   results = search.get_dict()
+        return results['organic_results']
+    
+    def youtube_search(query):
+        par
+ams = {
+            'engine': 'youtube',
+            'search_query': query,
+            'api_key': serpapi_key
+        }
+
+        search = GoogleSearch(params)
+        results = search.get_dict()
+        return results['video_results']
+    
+
+    def images_search(query):
+        params = {
+            'engine': 'google_images',
+            'google_domain': 'go
+ogle.com',
+            'q': query,
+            'api_key': serpapi_key
+        }
+        search = GoogleSearch(params)
+  
+      results = search.get_dict()
+        return results['images_results']
+    
+    # Define tools
+    search_tool = Too
+l(name='google_search', description='Performs Google searches.', func=google_search)
+    youtube_tool = Tool(name='youTu
+be_search', description='Searches for YouTube videos.', func=youtube_search)
+    images_tool = Tool(name='images_search'
+, description='Searches for images on Google Images.', func=images_search)
+    
+    # Setup the ChatOpenAI model for con
+versational interactions
+    chat_model = ChatOpenAI(model='gpt-3.5-turbo-1106', temperature=0)
+    
+    # Define agent 
+prompts
+    input_agent_prompt = ChatPromptTemplate.from_messages([
+        ('system', 'You are the initial contact poin
+t for users. Your role is to gather information about the user's preferences and interests in video games and make sure 
+you understand their requirements. In case of any ambiguity, ask for clarification or in the case of the query not being
+ related to video games, ask for a different query.'),
+        MessagesPlaceholder(variable_name='messages'),
+        Me
+ssagesPlaceholder(variable_name='agent_scratchpad'),
+        ('human', '{input}')
+    ])
+    
+    search_agent_prompt = 
+ChatPromptTemplate.from_messages([
+        ('system', 'Your main task is to search for game titles that best match the u
+ser's interest. Use the details from the Input Agent to guide your search. Provide a list of relevant game titles.'),
+  
+      MessagesPlaceholder(variable_name='messages'),
+        MessagesPlaceholder(variable_name='agent_scratchpad'),
+    
+    ('human', '{input}')
+    ])
+    
+    details_agent_prompt = ChatPromptTemplate.from_messages([
+        ('system', 'R
+etrieve detailed information for each game identified by the Search Agent. Focus on obtaining the game's description, ge
+nre, platform availability, developer, publisher, release date, Metacritic score if available and links to digital store
+s that sell the game.'),
+        MessagesPlaceholder(variable_name='messages'),
+        MessagesPlaceholder(variable_nam
+e='agent_scratchpad'),
+        ('human', '{input}')
+    ])
+    
+    posters_agent_prompt = ChatPromptTemplate.from_messa
+ges([
+        ('system', 'Your responsibility is to fetch the official posters for the games provided by the Search Agen
+t. Ensure the images are high quality and relevant.'),
+        MessagesPlaceholder(variable_name='messages'),
+        Me
+ssagesPlaceholder(variable_name='agent_scratchpad'),
+        ('human', '{input}')
+    ])
+    
+    trailers_agent_prompt 
+= ChatPromptTemplate.from_messages([
+        ('system', 'Obtain the official game trailers for the titles identified by 
+the Search Agent. Ensure that the trailers are current and of high quality.'),
+        MessagesPlaceholder(variable_name
+='messages'),
+        MessagesPlaceholder(variable_name='agent_scratchpad'),
+        ('human', '{input}')
+    ])
+    
+  
+  recommendation_agent_prompt = ChatPromptTemplate.from_messages([
+        ('system', 'You are responsible for compiling
+ the outputs from all other agents into a cohesive and well-formatted response. Synthesize the game details, images, and
+ trailers into a compelling presentation of game recommendations.'),
+        MessagesPlaceholder(variable_name='messages
+'),
+        MessagesPlaceholder(variable_name='agent_scratchpad'),
+        ('human', '{input}')
+    ])
+    
+    # Create
+ agents using the prompts
+    input_agent = create_openai_tools_agent(chat_model, [], input_agent_prompt)
+    search_age
+nt = create_openai_tools_agent(chat_model, [search_tool], search_agent_prompt)
+    details_agent = create_openai_tools_a
+gent(chat_model, [search_tool], details_agent_prompt)
+    posters_agent = create_openai_tools_agent(chat_model, [images_
+tool], posters_agent_prompt)
+    trailers_agent = create_openai_tools_agent(chat_model, [youtube_tool], trailers_agent_p
+rompt)
+    recommendation_agent = create_openai_tools_agent(chat_model, [], recommendation_agent_prompt)
+    
+    # Stat
+e definition for agents
+    class AgentState(TypedDict):
+        messages: Annotated[Sequence[BaseMessage], operator.add
+]
+        intermediate_steps: Annotated[Sequence[BaseMessage], operator.add]
+        agent_scratchpad: Annotated[Sequenc
+e[BaseMessage], operator.add]
+        input: str
+    
+    # Graph setup
+    state_graph = StateGraph(schema=AgentState)
+
+    
+    # Add nodes for each agent
+    state_graph.add_node('input_agent', input_agent)
+    state_graph.add_node('searc
+h_agent', search_agent)
+    state_graph.add_node('details_agent', details_agent)
+    state_graph.add_node('posters_agent
+', posters_agent)
+    state_graph.add_node('trailers_agent', trailers_agent)
+    state_graph.add_node('recommendation_ag
+ent', recommendation_agent)
+    
+    # Define edges to flow between agents
+    state_graph.add_edge('input_agent', 'sear
+ch_agent')
+    state_graph.add_edge('search_agent', 'details_agent')
+    state_graph.add_edge('details_agent', 'posters_
+agent')
+    state_graph.add_edge('posters_agent', 'trailers_agent')
+    state_graph.add_edge('trailers_agent', 'recommen
+dation_agent')
+    state_graph.add_edge('recommendation_agent', END)
+    
+    # Set the entry point to start the agent w
+orkflow
+    state_graph.set_entry_point('input_agent')
+    
+    # Complete the graph
+    app = state_graph.compile()
+   
+ 
+    def main():
+        print('Welcome to the Game Recommendation Chatbot!')
+        while True:
+            user_inpu
+t = input('You: ')
+            if user_input.lower() == 'exit':
+                print('Exiting chatbot...')
+            
+    break
+            # Initialize the state with the necessary structures
+            state = {
+                'messag
+es': [HumanMessage(content=user_input)],
+                'agent_scratchpad': [],  # ensure this is always a list
+       
+         'intermediate_steps': [],  # ensure this is always initialized as a list
+                'input': user_input  #
+ this is your actual input string
+            }
+            response = app.invoke(state)
+            print('Bot:', respo
+nse['messages'][-1].content)
+    
+    if __name__ == '__main__':
+        main()
+    import os
+    from dotenv import loa
+d_dotenv
+    from langchain_openai import ChatOpenAI
+    from langchain_core.messages import HumanMessage, BaseMessage
+ 
+   from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+    from langchain.agents import create_op
+enai_tools_agent, Tool
+    from langgraph.graph import StateGraph, END
+    from typing import Annotated, Sequence, Typed
+Dict
+    import operator
+    from serpapi import GoogleSearch
+    
+    
+    # Load environment variables for API keys
+  
+  load_dotenv()
+    
+    
+    # Configuration
+    serpapi_key = os.getenv('SERPAPI_API_KEY')
+    
+    
+    # Define tool
+s using SerpAPI
+    def google_search(query):
+        params = {
+            'engine': 'google',
+            'q': query,
+
+            'api_key': serpapi_key,
+            'num': 5
+        }
+        search = GoogleSearch(params)
+        result
+s = search.get_dict()
+        return results['organic_results']
+    
+    
+    def youtube_search(query):
+        params 
+= {
+            'engine': 'youtube',
+            'search_query': query,
+            'api_key': serpapi_key
+        }
+   
+     search = GoogleSearch(params)
+        results = search.get_dict()
+        return results['video_results']
+    
+    
+
+    def images_search(query):
+        params = {
+            'engine': 'google_images',
+            'google_domain': 'g
+oogle.com',
+            'q': query,
+            'api_key': serpapi_key
+        }
+        search = GoogleSearch(params)
+ 
+       results = search.get_dict()
+        return results['images_results']
+    
+    
+    # Define tools
+    search_tool
+ = Tool(name='google_search', description='Performs Google searches.', func=google_search)
+    youtube_tool = Tool(name=
+'youTube_search', description='Searches for YouTube videos.', func=youtube_search)
+    images_tool = Tool(name='images_s
+earch', description='Searches for images on Google Images.', func=images_search)
+    
+    
+    # Setup the ChatOpenAI mo
+del for conversational interactions
+    chat_model = ChatOpenAI(model='gpt-3.5-turbo-1106', temperature=0)
+    
+    
+   
+ # Define agent prompts
+    input_agent_prompt = ChatPromptTemplate.from_messages([
+        ('system', 'You are the init
+ial contact point for users. Your role is to gather information about the user's preferences and interests in video game
+s and make sure you understand their requirements. In case of any ambiguity, ask for clarification or in the case of the
+ query not being related to video games, ask for a different query.'),
+        MessagesPlaceholder(variable_name='messag
+es'),
+        MessagesPlaceholder(variable_name='agent_scratchpad'),
+        ('human', '{input}')
+    ])
+    
+    
+    s
+earch_agent_prompt = ChatPromptTemplate.from_messages([
+        ('system', 'Your main task is to search for game titles 
+that best match the user's interest. Use the details from the Input Agent to guide your search. Provide a list of releva
+nt game titles.'),
+        MessagesPlaceholder(variable_name='messages'),
+        MessagesPlaceholder(variable_name='age
+nt_scratchpad'),
+        ('human', '{input}')
+    ])
+    
+    
+    details_agent_prompt = ChatPromptTemplate.from_messag
+es([
+        ('system', 'Retrieve detailed information for each game identified by the Search Agent. Focus on obtaining 
+the game's description, genre, platform availability, developer, publisher, release date, Metacritic score if available 
+and links to digital stores that sell the game.'),
+        MessagesPlaceholder(variable_name='messages'),
+        Messag
+esPlaceholder(variable_name='agent_scratchpad'),
+        ('human', '{input}')
+    ])
+    
+    
+    posters_agent_prompt 
+= ChatPromptTemplate.from_messages([
+        ('system', 'Your responsibility is to fetch the official posters for the ga
+mes provided by the Search Agent. Ensure the images are high quality and relevant.'),
+        MessagesPlaceholder(variab
+le_name='messages'),
+        MessagesPlaceholder(variable_name='agent_scratchpad'),
+        ('human', '{input}')
+    ])
+
+    
+    
+    trailers_agent_prompt = ChatPromptTemplate.from_messages([
+        ('system', 'Obtain the official game tr
+ailers for the titles identified by the Search Agent. Ensure that the trailers are current and of high quality.'),
+     
+   MessagesPlaceholder(variable_name='messages'),
+        MessagesPlaceholder(variable_name='agent_scratchpad'),
+       
+ ('human', '{input}')
+    ])
+    
+    
+    recommendation_agent_prompt = ChatPromptTemplate.from_messages([
+        ('sy
+stem', 'You are responsible for compiling the outputs from all other agents into a cohesive and well-formatted response.
+ Synthesize the game details, images, and trailers into a compelling presentation of game recommendations.'),
+        Me
+ssagesPlaceholder(variable_name='messages'),
+        MessagesPlaceholder(variable_name='agent_scratchpad'),
+        ('hu
+man', '{input}')
+    ])
+    
+    
+    # Create agents using the prompts
+    input_agent = create_openai_tools_agent(chat
+_model, [], input_agent_prompt)
+    search_agent = create_openai_tools_agent(chat_model, [search_tool], search_agent_pro
+mpt)
+    details_agent = create_openai_tools_agent(chat_model, [search_tool], details_agent_prompt)
+    posters_agent = 
+create_openai_tools_agent(chat_model, [images_tool], posters_agent_prompt)
+    trailers_agent = create_openai_tools_agen
+t(chat_model, [youtube_tool], trailers_agent_prompt)
+    recommendation_agent = create_openai_tools_agent(chat_model, []
+, recommendation_agent_prompt)
+    
+    
+    # State definition for agents
+    class AgentState(TypedDict):
+        mess
+ages: Annotated[Sequence[BaseMessage], operator.add]
+        intermediate_steps: Annotated[Sequence[BaseMessage], operat
+or.add]
+        agent_scratchpad: Annotated[Sequence[BaseMessage], operator.add]
+        input: str
+    
+    
+    # Grap
+h setup
+    state_graph = StateGraph(schema=AgentState)
+    
+    
+    # Add nodes for each agent
+    state_graph.add_nod
+e('input_agent', input_agent)
+    state_graph.add_node('search_agent', search_agent)
+    state_graph.add_node('details_a
+gent', details_agent)
+    state_graph.add_node('posters_agent', posters_agent)
+    state_graph.add_node('trailers_agent'
+, trailers_agent)
+    state_graph.add_node('recommendation_agent', recommendation_agent)
+    
+    
+    # Define edges to
+ flow between agents
+    state_graph.add_edge('input_agent', 'search_agent')
+    state_graph.add_edge('search_agent', 'd
+etails_agent')
+    state_graph.add_edge('details_agent', 'posters_agent')
+    state_graph.add_edge('posters_agent', 'tra
+ilers_agent')
+    state_graph.add_edge('trailers_agent', 'recommendation_agent')
+    state_graph.add_edge('recommendatio
+n_agent', END)
+    
+    
+    # Set the entry point to start the agent workflow
+    state_graph.set_entry_point('input_ag
+ent')
+    
+    
+    # Complete the graph
+    app = state_graph.compile()
+    
+    
+    def main():
+        print('Welcom
+e to the Game Recommendation Chatbot!')
+        while True:
+            user_input = input('You: ')
+            if user_
+input.lower() == 'exit':
+                print('Exiting chatbot...')
+                break
+            # Initialize the 
+state with the necessary structures
+            state = {
+                'messages': [HumanMessage(content=user_input)]
+,
+                'agent_scratchpad': [],  # ensure this is always a list
+                'intermediate_steps': [],  # e
+nsure this is always initialized as a list
+                'input': user_input  # this is your actual input string
+     
+       }
+            response = app.invoke(state)
+            print('Bot:', response['messages'][-1].content)
+    
+    
+
+    if __name__ == '__main__':
+        main()
+```
+---
+
+     
+ 
+all -  [ Is there any agent that can do RAG across my GDrive, Gmail, & GitHub? ](https://www.reddit.com/r/LangChain/comments/1ckbmf0/is_there_any_agent_that_can_do_rag_across_my/) , 2024-05-05-0911
+```
+Not looking to build my own system per se, just looking for something open source (doesn't have to use langchain) that c
+an use tools (code interp, web browsing, make google drive files, sending emails, replying to github issues) and perform
+ RAG across all my google drive documents, emails, and code.
+
+Apologies if this is too ambitious or too much to ask for 
+with the current state of things.
+```
+---
+
+     
+ 
+all -  [ How to train an LLM with data that contains text and numeric modality ](https://www.reddit.com/r/LangChain/comments/1ckapb8/how_to_train_an_llm_with_data_that_contains_text/) , 2024-05-05-0911
+```
+Hi, I am newbie interested in training LLMs on csv dataset that contains text data (few sentences about a product) and n
+umeric data(its ratings). I have around 200k rows and would to like to train an LLM but I am unable to do it. Can anyone
+ here guide me or share any resource which could help me.
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Integrating PGVector with Hugging Face Embeddings: Addressing Dimension Mismatch Errors ](https://www.reddit.com/r/LangChain/comments/1ck8mj0/integrating_pgvector_with_hugging_face_embeddings/) , 2024-05-05-0911
+```
+Has anyone used PGVector with HuggingFaceEmbeddings? I'm encountering an error message: 'psycopg2.errors.DataException: 
+different vector dimensions 384 and 1536'.
+```
+---
+
+     
+ 
+all -  [ CS/SWE Resume review ](https://www.reddit.com/r/resumes/comments/1ck7wlt/csswe_resume_review/) , 2024-05-05-0911
+```
+Hi, I am a rising junior at a university in the United States studying CS looking to get a resume review in anticipation
+ of the upcoming internship application releases for summer 2025. I am a US citizen, asian, male. Last season I got no r
+esponses from recruiters, but have since added more to my resume. Thanks.
+
+https://preview.redd.it/hduv6d8dkgyc1.png?wid
+th=1158&format=png&auto=webp&s=ecc7f514dea13890e11eed039b3667182f8604bd
+
+
+```
+---
+
+     
+ 
+all -  [ Why AI Assistants Can Be Better Than Human VAs ](https://www.reddit.com/r/LangChain/comments/1ck67xs/why_ai_assistants_can_be_better_than_human_vas/) , 2024-05-05-0911
+```
+ let’s outline *what* VAs even do. As a creator yourself, you balance big projects with smaller, repetitive tasks like a
+nswering emails, scheduling meetings & writing smaller pieces of content.
+
+And that’s where your partner in time, your V
+A comes in — they handle all of the tedious tasks on your behalf, giving you the freedom to concentrate fully on the imp
+ortant things in your life & business.
+
+>Recent stats show Virtual assistants save companies up to 78% in operating cost
+s per year, and the VA market is projected to grow 22.3% annually, reaching $8.6B by 2028 — this is definitely a sector 
+to pay close attention to.
+
+As the demand for efficiency in our workflows increases, it's worth knowing the potential of
+ AI assistants, because why wouldn’t you want to get more time back? Here are the core reasons why AI assistants are bet
+ter than traditional VAs:
+
+1. **Cost-Effectiveness** – traditional VAs are invaluable but come with recurring costs — sa
+laries, benefits, and more. AI assistants, on the other hand, involve a one-time setup fee and minimal ongoing costs.
+
+1
+. **24/7 Availability** – your business needs don’t stop at 5 PM, and neither does an AI assistant. Unlike human VAs who
+ clock out, AI can work round-the-clock, able to complete any given task at any time.
+
+1. **Consistency & Accuracy** – A
+I minimizes human errors in data entry, scheduling, and customer communication, maintaining high consistency in performa
+nce.
+
+>This reliability is key in managing operations that demand precision, like tailored content creation or respondin
+g to an important business email, for example.
+
+1. **Adaptability** – training a new assistant takes time and resources.
+ AI assistants, however, can be quickly trained to manage new tasks, adapting & evolving alongside your business.
+
+1. **
+Accessibility** – with numerous AI tools available, starting is as easy as signing up and setting up — no lengthy recrui
+tment or training is required (if you aren’t creating your very own AI assistant, in which case it’s a tad more complex)
+. 
+
+However, we must mention the main negative of artificial intelligence – it lacks the human aspect, and therefore AI 
+Assistants could ***never*** replace real VAs.
+
+>The human element is crucial, as it brings empathy, creativity, and int
+uitive problem-solving to tasks that AI simply can't replicate, and the best way to get the best of both worlds is to in
+tegrate AI tools in your virtual assistant’s workflow — we’ll show you how to turn your VA into a cyborg very soon!
+```
+---
+
+     
+ 
+all -  [ How should I develop a RAG ChatBot that uses a Pandas Dataframe as a source? ](https://www.reddit.com/r/LangChain/comments/1ck54cw/how_should_i_develop_a_rag_chatbot_that_uses_a/) , 2024-05-05-0911
+```
+Hi, I am new to LangChain and I am developing a application that uses a Pandas Dataframe as document original a Microsof
+t Excel sheet. I need it answer questions based on it. 
+
+How should I proceed? Should I ditch the DataFrame approach and
+ interface it directly ?
+
+How should I use approach it?
+
+How should I add history as i need to have GUI.
+```
+---
+
+     
+ 
+all -  [ How to use LLama -3/LLama-2  Model on Nvidia GPU? ](https://www.reddit.com/r/LangChain/comments/1ck4sy9/how_to_use_llama_3llama2_model_on_nvidia_gpu/) , 2024-05-05-0911
+```
+So far, I've been using the OpenAI API to build a RAG application with Langchain. Now, I'm exploring LLama 3/LLama-2 wit
+h GPU support. Can anyone suggest a tutorial for this with Langchain?
+```
+---
+
+     
+ 
+all -  [ What are some ways to test and improve my RAGs retrieval strategy? ](https://www.reddit.com/r/LangChain/comments/1ck3k84/what_are_some_ways_to_test_and_improve_my_rags/) , 2024-05-05-0911
+```
+Looking for some tried and tested ways to measure and improve my RAGs retrieval strategy.
+```
+---
+
+     
+ 
+all -  [ How to add memory to multi- chain with RunnableWithMessageHistory? ](https://www.reddit.com/r/LangChain/comments/1ck2zy8/how_to_add_memory_to_multi_chain_with/) , 2024-05-05-0911
+```
+Let's say we have two chain , like this:
+
+    prompt1 =  'some prompts here 1'
+    prompt2 = 'some prompts here 2'
+    
+
+    chain1 = prompt1 | model
+    chain2 = prompt2 | model 
+    
+    combine_chain = chain1 | chain2
+
+My question is how 
+to add memory to combine\_chain with RunnableWithMessageHistory? 
+
+The official document just show how to add it in sing
+le chain .  I tried that way for combine\_chain, but it doesn't work.  Because prompt2 always need to pass the parameter
+ of  'history' which I don't how to pass it. （suppose we have history\_messages\_key='history').
+
+I'm stuck on this prob
+lem. I will be very thankful to anyone who can help on it. 
+
+For reference here,  the office document show how to add me
+mory to single chain with RunnableWithMessageHistory:  [https://python.langchain.com/docs/expression\_language/how\_to/m
+essage\_history/](https://python.langchain.com/docs/expression_language/how_to/message_history/)
+
+  
+
+```
+---
+
+     
+ 
+all -  [ Amazon Bedrock - The Complete Guide to AWS Generative AI ](https://www.reddit.com/r/Udemy/comments/1ck08c6/amazon_bedrock_the_complete_guide_to_aws/) , 2024-05-05-0911
+```
+Learn to Deploy Scalable, Reliable, and Secure Generative AI Apps Using AWS and Amazon Bedrock (Python and TypeScript)
+
+
+# Introductory Price of only $9.99
+
+# [https://www.udemy.com/course/amazon-bedrock-aws-generative-ai/?couponCode=STARTER
+](https://www.udemy.com/course/amazon-bedrock-aws-generative-ai/?couponCode=STARTER)
+
+\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
+\*\*\*\*\*\*\*\*\*\*
+
+**Unleash the Power of Generative AI on AWS with This Comprehensive Course!**
+
+Welcome to **Amazon
+ Bedrock - The Ultimate Guide to AWS Generative AI** – your gateway to mastering the fusion of cutting-edge AI technolog
+y and the unparalleled scalability of Amazon Web Services (AWS).
+
+In this course, you'll dive deep into the world of Gen
+erative AI, harnessing its potential to create innovative solutions across diverse domains. Whether you're a seasoned da
+ta scientist, a visionary entrepreneur, or a curious developer, this course is your ticket to unlocking limitless possib
+ilities.
+
+**Key Highlights**:
+
+* **Hands-On Practice**: Dive right into real-world scenarios with practical exercises us
+ing Python's boto3, JavaScript SDKs, and TypeScript, coupled with VSCode debugging for seamless development.
+* **Text an
+d Image Models**: Explore the magic of text generation with chatbots, delve into image generation with state-of-the-art 
+models, and master embedding techniques for vector databases.
+* **Advanced Applications**: From LangChain to RAG apps an
+d document processing, you'll explore a wide array of advanced applications, empowering you to tackle complex challenges
+ with confidence.
+* **Amazon Bedrock Mastery**: Get up close and personal with Amazon Bedrock – the game-changer for dep
+loying scalable, reliable, and secure Generative AI applications on AWS. Practice sections ensure you're well-versed wit
+h Bedrock, ready to tackle any project.
+
+**Key topics** covered in this course include:
+
+* **Amazon Bedrock** introducti
+on and setup for console and CLI access
+* Code examples with **Python** and **TypeScript**
+* Integration between **Bedro
+ck** and **LagChain**
+* Building an **Amazon Bedrock** chatbot with **history**
+* Building Image APIs backed by **Amazon
+ Bedrock**
+* Learn all about the essence of AI: embeddings with **Bedrock**
+* Build state-of-the-art **RAG app** with Be
+drock Knowledge bases
+* **Fine-tune** models and create your **custom models**.
+
+**Why Choose This Course?**
+
+* Expert G
+uidance: Learn from industry experts with years of experience in AI and AWS.
+* Practical Approach: Gain hands-on experie
+nce with guided exercises and real-world case studies.
+
+Don't miss out on this opportunity to become a trailblazer in th
+e world of AI innovation! Enroll now and embark on your journey to becoming a Generative AI expert with Amazon Bedrock a
+nd AWS.
+
+Go beyond the theory and learn from **active instructors**, aligned with today's programming demands!
+
+Let's re
+volutionize the future together!  
+[https://www.udemy.com/course/amazon-bedrock-aws-generative-ai/?couponCode=STARTER](h
+ttps://www.udemy.com/course/amazon-bedrock-aws-generative-ai/?couponCode=STARTER)
+```
+---
+
+     
+ 
+all -  [ Vector dbs to use for specific use-case ](https://www.reddit.com/r/LangChain/comments/1cjz0lt/vector_dbs_to_use_for_specific_usecase/) , 2024-05-05-0911
+```
+A lot of vector dbs are available for RAG and LLM based projects. How will you choose the best one for your use-case? Is
+ there a set of criteria to follow for choosing a specific vector db for your project? Lmk what you think
+```
+---
+
+     
+ 
+all -  [ Generate PowerPoints using Llama-3 — A first step in automating slide decks ](https://medium.com/firebird-technologies/generate-powerpoints-using-llama-3-a-first-step-in-automating-slide-decks-536f5fcb6e0e) , 2024-05-05-0911
+```
+
+```
+---
+
+     
+ 
+all -  [ MyScaleDB now supports Full-Text and Hybrid Search ](https://www.reddit.com/r/LangChain/comments/1cjy7f5/myscaledb_now_supports_fulltext_and_hybrid_search/) , 2024-05-05-0911
+```
+In version 1.5.0 of MyScale, we introduced an upgraded full-text search feature powered by [Tantivy](https://github.com/
+quickwit-oss/tantivy). Tantivy have lower latency rate and it's written in Rust. 
+
+In the latest update, MyScaleDB now s
+upports:
+
+* Supports full-text search
+* Supports fuzzy and wildcard searches along with rich tokenizers
+* Utilizes BM25 
+for relevance scoring similar to Elasticsearch
+* Query times over 5M rows are 300x faster than ClickHouse's built-in inv
+erted index
+* Real-time searching without manual reindexing
+
+For more detailed explanation, you can read this blog: [Int
+roducing MyScale's Powerful Full-Text and Hybrid Search Capabilities](https://myscale.com/blog/text-search-and-hybrid-se
+arch-in-myscale/)
+
+or take a look at these documents: 
+
+* [Full-Text Search in MyScale](https://myscale.com/docs/en/text
+-search/)
+* [Hybrid Search in MyScale](https://myscale.com/docs/en/hybrid-search/)
+```
+---
+
+     
+ 
+all -  [ OpenAI Chat Models ](https://www.reddit.com/r/LangChain/comments/1cjt6lt/openai_chat_models/) , 2024-05-05-0911
+```
+I am working with a Dev on a project and he explained to me that no all OpenAI Chat Models are supported by Langchain, e
+specially not the newer ones (e.g. GPT4-Turbo) when they come out.
+
+I was under the impression that Langchain works with
+ all Chat Models that OpenAI offers via the API.
+
+Can't find this info in the docs. 
+
+Any input from the community is hi
+ghly appreciated.
+```
+---
+
+     
+ 
+all -  [ Getting import error in importing llamaindex vector stores  ](https://i.redd.it/9e6q5kg3jcyc1.jpeg) , 2024-05-05-0911
+```
+I am using jupyter notebook anaconda windows python. I am trying to import qdrant vector store and ollama embeddings aft
+er installing them in virtual environment but I am getting module not found error. Similar error with other llm embeddin
+gs and llms and vector stores. How to resolve this. I am using import functions mentioned in llama index documentation.
+
+
+
+```
+---
+
+     
+ 
+all -  [ How to debug a crew package? ](https://www.reddit.com/r/crewai/comments/1cjqtd6/how_to_debug_a_crew_package/) , 2024-05-05-0911
+```
+I am trying to debug my crewai package, specifically some tools, but I am at a loss as to how they work.  For example, I
+ have assigned
+
+`search_tool = DuckDuckGoSearchRun()`
+
+and in the `crewai2/lib/python3.11/site-packages/langchain_commun
+ity/tools/ddg_search/tool.py->class DuckDuckGoSearchRun(BaseTool)` I added the following line just before the return
+
+`p
+rint(f'>>>> DDGS: [{query}]')`
+
+But, nothign ever prints.  Obviously I am either doing something wrong or I don't know h
+ow these tools are being called, but in geneal, my question is, what is the correct or best way to debug a crewai packag
+e?  Using the vscode debugger, it refuses to 'step into' `DuckDuckGoSearchRun()` or respect the break point added inside
+
+
+`class DuckDuckGoSearchRun(BaseTool):`
+
+Specifically, I want to see the args, and how they are sent to the tool, and t
+he return of the results from the tool function.
+```
+---
+
+     
+ 
+all -  [ A code search tool for LangChain developer only ](https://www.reddit.com/r/Langchaindev/comments/1cjneg4/a_code_search_tool_for_langchain_developer_only/) , 2024-05-05-0911
+```
+I've built a code search tool for anyone using LangChain to search its source code and find LangChain actual use case co
+de examples. This isn't an AI chat bot;  
+I built this because when I first used LangChain, I constantly needed to searc
+h for and utilize sample code blocks and delve into the LangChain source code for insights into my project
+
+Currently it
+ can only search LangChain related content. Let me know your thoughts  
+Here is link: [solidsearchportal.azurewebsites.n
+et](http://solidsearchportal.azurewebsites.net/)
+```
+---
+
+     
+ 
+all -  [ A code search tool for LangChain developer ](https://www.reddit.com/r/LangChain/comments/1cjncxr/a_code_search_tool_for_langchain_developer/) , 2024-05-05-0911
+```
+I've built a code search tool for anyone using LangChain to search its source code and find LangChain actual use case co
+de examples. This isn't an AI chat bot;   
+I built this because when I first used LangChain, I constantly needed to sear
+ch for and utilize sample code blocks and delve into the LangChain source code for insights into my project
+
+Currently i
+t can only search LangChain related content. Let me know your thoughts  
+Here is link: [solidsearchportal.azurewebsites.
+net](http://solidsearchportal.azurewebsites.net)
+
+
+```
+---
+
+     
+ 
+all -  [ 300+ Tailored Applications with no Interviews (Entry Level Software 🇺🇸, See Comments) ](https://www.reddit.com/r/resumes/comments/1cjm5aa/300_tailored_applications_with_no_interviews/) , 2024-05-05-0911
 ```
 &#x200B;
 
@@ -26,7 +894,7 @@ Potential problem points
 
      
  
-all -  [ Passing text from a document to a RAG to validate document ](https://www.reddit.com/r/LangChain/comments/1cjlflw/passing_text_from_a_document_to_a_rag_to_validate/) , 2024-05-04-0910
+all -  [ Passing text from a document to a RAG to validate document ](https://www.reddit.com/r/LangChain/comments/1cjlflw/passing_text_from_a_document_to_a_rag_to_validate/) , 2024-05-05-0911
 ```
 Hey guys, I am kind of new to the concept of LLM and RAG. I want to make a program that use stored instructions in a doc
 ument. This will be the data the RAG will use as context for the LLM. What I have read about until now, is that you can 
@@ -41,7 +909,7 @@ de if the text is correct based on the context?
 
      
  
-all -  [ Comparing two documents and finding the diff ](https://www.reddit.com/r/LangChain/comments/1cjkchx/comparing_two_documents_and_finding_the_diff/) , 2024-05-04-0910
+all -  [ Comparing two documents and finding the diff ](https://www.reddit.com/r/LangChain/comments/1cjkchx/comparing_two_documents_and_finding_the_diff/) , 2024-05-05-0911
 ```
 I'm more or less completely new to LangChain, but I envision it as the best tool to solve the following task. What I'm t
 rying to create is a script that takes two PDF documents, where one is the application criteria and the other is the app
@@ -62,7 +930,7 @@ d.
 
      
  
-all -  [ OpenAI Tool Calling Agent as an LCEL chain? ](https://www.reddit.com/r/LangChain/comments/1cjgce9/openai_tool_calling_agent_as_an_lcel_chain/) , 2024-05-04-0910
+all -  [ OpenAI Tool Calling Agent as an LCEL chain? ](https://www.reddit.com/r/LangChain/comments/1cjgce9/openai_tool_calling_agent_as_an_lcel_chain/) , 2024-05-05-0911
 ```
 I've tried to look for this in docs but couldn't find any examples on how to do so. Is this possible in the first place?
  
@@ -74,7 +942,7 @@ runnable chain using LCEL?
 
      
  
-all -  [ EMBEDDING data  ](https://www.reddit.com/r/LangChain/comments/1cjfrvr/embedding_data/) , 2024-05-04-0910
+all -  [ EMBEDDING data  ](https://www.reddit.com/r/LangChain/comments/1cjfrvr/embedding_data/) , 2024-05-05-0911
 ```
 I came across a gpt in OpenAI called stoic gpt. It’s based off the words of Marcus Ariellius, Seneca and a couple other 
 prominent legends. I wanted to create a similar gpt with the words of some prominent athletes. I know the simple way wou
@@ -85,7 +953,7 @@ rom podcasts, yt etc
 
      
  
-all -  [ AI Devices Will Never be Useful? ](https://www.reddit.com/r/LangChain/comments/1cjf7q8/ai_devices_will_never_be_useful/) , 2024-05-04-0910
+all -  [ AI Devices Will Never be Useful? ](https://www.reddit.com/r/LangChain/comments/1cjf7q8/ai_devices_will_never_be_useful/) , 2024-05-05-0911
 ```
 I'm sad to admit it, but the facts answer in the negative: AI devices are useless and unnecessary. At least not right no
 w. I love unusual gadgets, actively follow what's happening in the AR and VR world, and love testing new form factors. B
@@ -106,7 +974,7 @@ Let's wait a bit. Sooner or later, we'll surely see someone who will change the 
 
      
  
-all -  [ Feeling Mediocore in technical skills ](https://i.redd.it/whw7cu7o28yc1.jpeg) , 2024-05-04-0910
+all -  [ Feeling Mediocore in technical skills ](https://i.redd.it/whw7cu7o28yc1.jpeg) , 2024-05-05-0911
 ```
 I have developed ton of projects , multiple interships still i feel i am mediocore in technical skills , i dont have DSA
  experience as well , i will be joining NYU for MSCS , FALL 2024 session .
@@ -123,7 +991,7 @@ Thanks.
 
      
  
-all -  [ 15+ Artificial Intelligence AI Tools For Developers (2024) ](https://www.reddit.com/r/ainew/comments/1cja5zn/15_artificial_intelligence_ai_tools_for/) , 2024-05-04-0910
+all -  [ 15+ Artificial Intelligence AI Tools For Developers (2024) ](https://www.reddit.com/r/ainew/comments/1cja5zn/15_artificial_intelligence_ai_tools_for/) , 2024-05-05-0911
 ```
 
    
@@ -284,7 +1152,7 @@ me/itinai)
 
      
  
-all -  [ Langchain for data privacy? ](https://www.reddit.com/r/LangChain/comments/1cj9nbx/langchain_for_data_privacy/) , 2024-05-04-0910
+all -  [ Langchain for data privacy? ](https://www.reddit.com/r/LangChain/comments/1cj9nbx/langchain_for_data_privacy/) , 2024-05-05-0911
 ```
 I’m interested in building a RAG tool for internal company documents, and I intend on using a locally hosted LLM using o
 llama or LMstudio. From what I can tell, there wouldn’t be any data privacy concerns so long as I’m not using an API key
@@ -294,7 +1162,7 @@ llama or LMstudio. From what I can tell, there wouldn’t be any data privacy co
 
      
  
-all -  [ Free Llama 3 Workflow Builder ](https://www.reddit.com/r/LangChain/comments/1cj9hbt/free_llama_3_workflow_builder/) , 2024-05-04-0910
+all -  [ Free Llama 3 Workflow Builder ](https://www.reddit.com/r/LangChain/comments/1cj9hbt/free_llama_3_workflow_builder/) , 2024-05-05-0911
 ```
 **TLDR:** If you're a founder / enthusiast / just curious about the AI space, you can try using Llama 3 to automate your
  work.
@@ -319,59 +1187,7 @@ s the link if anyone's interested,[https://weave.chasm.net/](https://weave.chasm
 
      
  
-all -  [ Using lower-level tools makes better GenAI apps: an alternative to the LangChain way ](https://www.reddit.com/r/OpenAI/comments/1cj7lko/using_lowerlevel_tools_makes_better_genai_apps_an/) , 2024-05-04-0910
-```
-I'm currently building and deploying AI and GenAI applications for a living, and I've utilized Langchain in numerous pro
-jects.
-
-While it's an good tool for high-level prototyping, it tends to become inadequate for specialized use cases and 
-production deployment. **Mainly because of the 'Russian doll' abstraction layers, which complicate the optimization of l
-ow-level systems.**
-
-💡 I propose you a lower-level alternative that lacks the extensive tooling and abstractions of Lang
-chain.  
-However, this alternative **has proven more efficient** for my use cases, provided that you're willing to put i
-n the work to implement the functionalities it lacks on your own, such as chaining prompts, memory management, etc.
-
-The
- alternative I'm referring to is the combination of **Magentic and LiteLLM**.
-
-Magentic grants access to some of the mos
-t sophisticated LLM features, including object streaming, structured outputs, function calling, and more in a simple, el
-egant way.
-
-On the other hand, LiteLLM provides a backend that supports over 100 LLMs with a unified API.
-
-In my tutoria
-l, I cover how to:
-
-* **Select your backend**
-* **Create chat prompts**
-* **Generate structured outputs**
-* **Make funct
-ion calls**
-* **Use asynchronous operations**
-* **Implement streaming and object streaming**
-
-I hope you find this tutor
-ial helpful, and I will appreciate your feedback.
-
-Tutorial 🎥: [https://youtu.be/VSfehUJUWQY](https://youtu.be/VSfehUJUW
-QY)
-```
----
-
-     
- 
-all -  [ Using lower-level tools makes better GenAI apps: an alternative to the LangChain way ](https://youtu.be/VSfehUJUWQY) , 2024-05-04-0910
-```
-
-```
----
-
-     
- 
-all -  [ Where do you pull your content from for feeding context in your RAG app? ](https://www.reddit.com/r/LangChain/comments/1cj5fbp/where_do_you_pull_your_content_from_for_feeding/) , 2024-05-04-0910
+all -  [ Where do you pull your content from for feeding context in your RAG app? ](https://www.reddit.com/r/LangChain/comments/1cj5fbp/where_do_you_pull_your_content_from_for_feeding/) , 2024-05-05-0911
 ```
 So I have a RAG app that's working but I need to optimize it.  
 
@@ -411,7 +1227,7 @@ Get pdf from s3, pull relevant content
 
      
  
-all -  [ How do i stream with Flask and Langchain with Socket.io ](https://www.reddit.com/r/LangChain/comments/1cj349m/how_do_i_stream_with_flask_and_langchain_with/) , 2024-05-04-0910
+all -  [ How do i stream with Flask and Langchain with Socket.io ](https://www.reddit.com/r/LangChain/comments/1cj349m/how_do_i_stream_with_flask_and_langchain_with/) , 2024-05-05-0911
 ```
 I'm trying to build a chatbot with Langchain ,Flask and angular, How do I stream the data with the source documents?  
 t
@@ -439,7 +1255,7 @@ will be appreciated
 
      
  
-all -  [ Issue with tool naming in NLA-Toolkit ](https://www.reddit.com/r/LangChain/comments/1ciz0n1/issue_with_tool_naming_in_nlatoolkit/) , 2024-05-04-0910
+all -  [ Issue with tool naming in NLA-Toolkit ](https://www.reddit.com/r/LangChain/comments/1ciz0n1/issue_with_tool_naming_in_nlatoolkit/) , 2024-05-05-0911
 ```
 Hi I'm trying to use an open-api spec with the NLA toolkit but i get the below error: 
 
@@ -467,7 +1283,7 @@ https://preview.redd.it/axm51v8dt4yc1.png?width=2228&format=png&auto=webp&s=ad0d
 
      
  
-all -  [ It Said Open source ](https://www.reddit.com/r/LLMDevs/comments/1ciwp2y/it_said_open_source/) , 2024-05-04-0910
+all -  [ It Said Open source ](https://www.reddit.com/r/LLMDevs/comments/1ciwp2y/it_said_open_source/) , 2024-05-05-0911
 ```
  
 
@@ -904,7 +1720,7 @@ if \_\_name\_\_ == '\_\_main\_\_':
 
      
  
-all -  [ Suggestions for improving agents ](https://www.reddit.com/r/LangChain/comments/1civdv4/suggestions_for_improving_agents/) , 2024-05-04-0910
+all -  [ Suggestions for improving agents ](https://www.reddit.com/r/LangChain/comments/1civdv4/suggestions_for_improving_agents/) , 2024-05-05-0911
 ```
 I made an open-source tool (k8sAI) using langchain agents. One of the issues I’ve seen is that the agent pretty often re
 sponds to users that it can’t perform an action that one of its tools clearly states that it can. And then if asked to d
@@ -921,7 +1737,7 @@ Appreciate any advice and if you do any work with k8s, feel free to give the too
 
      
  
-all -  [ Testing RAG chatbot  ](https://www.reddit.com/r/LangChain/comments/1cisa8u/testing_rag_chatbot/) , 2024-05-04-0910
+all -  [ Testing RAG chatbot  ](https://www.reddit.com/r/LangChain/comments/1cisa8u/testing_rag_chatbot/) , 2024-05-05-0911
 ```
 I'm building a RAG based chatbot for some geographical data, can someone suggested me what kind of testing can I do to v
 alidate the chatbot 
@@ -930,7 +1746,7 @@ alidate the chatbot
 
      
  
-all -  [ Help: How do you parse visual content from pitch decks for RAG? ](https://www.reddit.com/r/LangChain/comments/1ciryrj/help_how_do_you_parse_visual_content_from_pitch/) , 2024-05-04-0910
+all -  [ Help: How do you parse visual content from pitch decks for RAG? ](https://www.reddit.com/r/LangChain/comments/1ciryrj/help_how_do_you_parse_visual_content_from_pitch/) , 2024-05-05-0911
 ```
 I'm building an RAG system with over 100,000 startup pitch decks, and I want to be able to ask questions related to the 
 graphs, diagrams, and illustrations in the pitch deck. For example, if I have a competitor slide with an x- and y-axis, 
@@ -943,7 +1759,7 @@ om each slide, chunk + embed it?
 
      
  
-all -  [ Seven starter notebooks for AI Agents ](https://www.reddit.com/r/AI_Agents/comments/1ciraov/seven_starter_notebooks_for_ai_agents/) , 2024-05-04-0910
+all -  [ Seven starter notebooks for AI Agents ](https://www.reddit.com/r/AI_Agents/comments/1ciraov/seven_starter_notebooks_for_ai_agents/) , 2024-05-05-0911
 ```
 Here are seven starter [Python notebooks for AI Agents](https://github.com/ytang07/ai_agents_cookbooks/tree/main)
 
@@ -972,7 +1788,7 @@ oking to contribute or if there are any requests for me to add!
 
      
  
-all -  [ Building chatbot with own data ](https://www.reddit.com/r/LangChain/comments/1ciqzuc/building_chatbot_with_own_data/) , 2024-05-04-0910
+all -  [ Building chatbot with own data ](https://www.reddit.com/r/LangChain/comments/1ciqzuc/building_chatbot_with_own_data/) , 2024-05-05-0911
 ```
 I'm wondering if Langchain is made to build a chatbot with own trained data. I want to train a chabot with my company da
 ta. Similaire to GPTs, is it the good solution ?
@@ -982,7 +1798,7 @@ Thank you
 
      
  
-all -  [ get_usable_table_names is returning me nothing. Also, in the database there are multiple schemas and ](https://www.reddit.com/r/LangChain/comments/1cioz1a/get_usable_table_names_is_returning_me_nothing/) , 2024-05-04-0910
+all -  [ get_usable_table_names is returning me nothing. Also, in the database there are multiple schemas and ](https://www.reddit.com/r/LangChain/comments/1cioz1a/get_usable_table_names_is_returning_me_nothing/) , 2024-05-05-0911
 ```
   
 Connection does work well as it print db dialect, but the get\_usable\_table\_names method returns an empty list. Any
@@ -998,7 +1814,7 @@ rint(db.dialect)
 
      
  
-all -  [ Vectorstore reindexing ](https://www.reddit.com/r/LangChain/comments/1cioq40/vectorstore_reindexing/) , 2024-05-04-0910
+all -  [ Vectorstore reindexing ](https://www.reddit.com/r/LangChain/comments/1cioq40/vectorstore_reindexing/) , 2024-05-05-0911
 ```
 How does reindexing a vector store impact the addition of new records and their subsequent retrieval? What are the key d
 ifferences between reindexing and not reindexing when new records are added?
@@ -1007,7 +1823,7 @@ ifferences between reindexing and not reindexing when new records are added?
 
      
  
-all -  [ Integrating RAG app into an existing HTML website ](https://www.reddit.com/r/LangChain/comments/1cimzf9/integrating_rag_app_into_an_existing_html_website/) , 2024-05-04-0910
+all -  [ Integrating RAG app into an existing HTML website ](https://www.reddit.com/r/LangChain/comments/1cimzf9/integrating_rag_app_into_an_existing_html_website/) , 2024-05-05-0911
 ```
 Hey guys, I have built a RAG application using llama-index, GPT3.5 and LanceDB. I want to integrate it into my company’s
  website. I wanted to know how can I do this? I’m open to using AWS if required for deploying it.
@@ -1016,740 +1832,7 @@ Hey guys, I have built a RAG application using llama-index, GPT3.5 and LanceDB. 
 
      
  
-all -  [ Creating Agent with document loader, retriever, LLM, output parser? ](https://www.reddit.com/r/LangChain/comments/1cilwu1/creating_agent_with_document_loader_retriever_llm/) , 2024-05-04-0910
-```
-I’ve been researching Langchain Agents and really interested in the verbose feature to show chain of thought when script
- is running. The thing is, I’m lost over tools/toolkits and the examples I found seem to be just for tool/toolkits with 
-an LLM. I didn’t find any examples that encompass loading documents (eg PDF, CSV, etc.), embedding and vectorizing with 
-FAISS, using OpenAI to ask questions with the retriever. 
-
-Does Langchain Agents only do LLM and tool(/kits)?  I’ve trie
-d simple keyword search in Google. ChatGPT was not great because it doesn’t know the Langchain library.  It would give a
- code snippet that wasn’t even valid when ran (like modules not existent). 
-```
----
-
-     
- 
-all -  [ Chunk CSV Data to create a vectorstore ](https://www.reddit.com/r/LangChain/comments/1ciltz6/chunk_csv_data_to_create_a_vectorstore/) , 2024-05-04-0910
-```
- 
-
-Task: Query a CSV file (without using built-in agents)
-
-Input: CSV file
-
-Output: JSON object like{'column': , 'value'
- , 'row\_ids':}
-
-If I embed the data and use a retriever on the vectorestore using similarity\_search, I do not get all 
-the matching instances in my result (as I cannot just use a very large k value). I used the 'parser' approach and got de
-cent results. Can anyone suggest a better approach to get more accurate results?
-
-Thanks
-```
----
-
-     
- 
-all -  [ Need help to convert my single-agent project into a multi-agent one ](https://www.reddit.com/r/LangChain/comments/1cilpbt/need_help_to_convert_my_singleagent_project_into/) , 2024-05-04-0910
-```
-Hey guys! So for context, I'm trying to develop a simple chatbot the offers personalized video games recommendations bas
-ed on user input, by searching the internet for the top results and then use them as an answer to the user. Initially, I
- started this using one single agent, but as more ideas came into my mind, I think sticking with only one agent and try 
-to implement those into code my result in some issues, specifically when it comes to the number of tokens. So I've decid
-ed instead to leverage LangGraph in order to adopt the multi-agent way and thus some myself from some trouble. Here is w
-hat I was thinking about when it comes to the agents I have thought of and their objective: 
-
-1. **Input Agent (Agent 1)
-**: This agent receives the initial user input, interprets the user's query, and dispatches tasks to other specialized a
-gents.
-2. **Search Agent (Agent 2)**: Receives tasks from Agent 1 to perform initial searches for game titles.
-3. **Deta
-ils Agent (Agent 3)**: Fetches detailed information for each game identified by Agent 2.
-4. **Posters and Trailers Agent
-s (Agent 4 and 5)**: Responsible for fetching official posters and official video trailers for the games identified.
-
-Th
-en I was thinking of sending all the details from Agent 2, 3, 4 and 5 to a core agent responsible for formatting a respo
-nse based on them and then display them to the user.
-
-Problem is, so far, I keep failing in my attempt to move from Lang
-Chain to LangGraph whilst trying to implement these ideas into code.
-
-Can anyone please help? I would really, really, ap
-preciate some help with the implementation of this.
-
-This is how my current LangChain code looks right now:
-
-    import 
-os
-    from dotenv import load_dotenv
-    from langchain_openai import ChatOpenAI
-    from langchain_core.prompts import
- ChatPromptTemplate, MessagesPlaceholder
-    from langchain.agents import AgentExecutor, create_openai_tools_agent, Tool
-
-    from langchain_core.runnables.history import RunnableWithMessageHistory
-    from langchain_mongodb.chat_message_his
-tories import MongoDBChatMessageHistory
-    from serpapi import GoogleSearch
-    
-    # Load environment variables for A
-PI keys
-    load_dotenv()
-    
-    # SerpAPI and MongoDB configuration
-    serpapi_key = os.getenv('SERPAPI_API_KEY')
-  
-  mongo_connection_string = 'mongodb://localhost:27017'
-    database_name = 'chatbot_db'
-    collection_name = 'chat_his
-tories'
-    
-    # Define the function that will use SerpApi to perform searches
-    def perform_serpapi_search(query):
-
-        params = {
-            'engine': 'google',
-            'q': query,
-            'api_key': serpapi_key,
-         
-   'num': 5,
-        }
-        search = GoogleSearch(params)
-        results = search.get_dict()
-        return results
-
-    
-    # Create the SerpApi tool to pass to an agent
-    serpapi_tool = Tool(
-        name='serpapi_search',
-        d
-escription='Performs Google searches using SerpApi.',
-        func=perform_serpapi_search
-    )
-    
-    # Setup the Cha
-tOpenAI model for conversational interactions
-    chat = ChatOpenAI(
-        model='gpt-3.5-turbo-1106',
-        tempera
-ture=0
-    )
-    
-    # Define a comprehensive prompt template for handling game recommendations
-    game_recommendation
-_prompt = ChatPromptTemplate.from_messages(
-        [
-            ('system', '''
-                        You are a sophi
-sticated AI trained to recommend video games. Your tasks include:
-    
-                        - Provide game suggestion
-s similar to ones the user enjoys or mentions, covering various genres and platforms.
-                        - Recommen
-d games based on specific genres or mentioned developers/publishers.
-                        - Identify and suggest top-
-trending and highly rated video games, including acclaimed titles from specific time periods.
-                        - 
-Tailor recommendations according to user-defined preferences, such as complexity, time investment, and progression style
-.
-                        - Recommend games suitable for specified platforms (e.g., PlayStation, Xbox, PC, Switch) or fi
-tting certain age ratings (e.g., E, T, M).
-                        - Replace played or unappealing games with suitable a
-lternatives.
-                        - For each recommended game, provide: title, brief description, genre, platform, de
-veloper, publisher, release date, Metacritic score (if available), and purchase links from digital storefronts.
-        
-                - Politely request more specific information for ambiguous queries.
-                        - Guide user
-s back to gaming-related topics for unrelated queries.
-                        - Maintain a friendly and engaging tone t
-hroughout interactions.
-                        - Utilize the SerpAPI search tool for up-to-date and accurate recommenda
-tions in each response to user queries. (VERY IMPORTANT!!!)
-    
-                        Ensure clarity, conciseness, an
-d engagement in your responses to enhance the user experience.
-                        '''),
-            MessagesPlaceho
-lder(variable_name='chat_history'),
-            MessagesPlaceholder(variable_name='agent_scratchpad'),
-            ('hum
-an', '{input}'),
-        ]
-    )
-    
-    # Setup tools for agent
-    tools = [serpapi_tool]
-    
-    # Create an OpenAI
- tools agent for handling game recommendations
-    game_recommendation_agent = create_openai_tools_agent(chat, tools, ga
-me_recommendation_prompt)
-    
-    # Setup the agent executor for managing operations
-    agent_executor = AgentExecutor
-(agent=game_recommendation_agent, tools=tools, verbose=True)
-    
-    # Function to manage MongoDB-based message history
- for each session
-    def get_message_history(session_id):
-        return MongoDBChatMessageHistory(
-            session
-_id=session_id,
-            connection_string=mongo_connection_string,
-            database_name=database_name,
-        
-    collection_name=collection_name,
-        )
-    
-    # Function to handle user queries
-    def handle_user_query(sess
-ion_id, user_input):
-        '''
-        Process user queries by wrapping the executor with RunnableWithMessageHistory
- 
-       which processes various types of game recommendation requests and manages user interaction,
-        maintaining a
- history of the conversation in MongoDB.
-        '''
-        history_manager = RunnableWithMessageHistory(
-            a
-gent_executor,
-            lambda session_id: get_message_history(session_id),
-            input_messages_key='input',
- 
-           output_messages_key='output',
-            history_messages_key='chat_history',
-        )
-    
-        # Execu
-te the query with history management
-        response = history_manager.invoke(
-            {'input': user_input},
-     
-       {'configurable': {'session_id': session_id}}
-        )
-        
-        return response['output']
-    
-    def ma
-in():
-        session_id = 'unique_user_session_id'  # This should be uniquely generated for each user session
-        p
-rint('Welcome to the Game Recommendation Chatbot!')
-        while True:
-            user_input = input('You: ')
-        
-    if user_input.lower() == 'exit':
-                print('Exiting chatbot...')
-                break
-            respo
-nse = handle_user_query(session_id, user_input)
-            print('Bot:', response)
-    
-    if __name__ == '__main__':
-
-        main()
-    import os
-    from dotenv import load_dotenv
-    from langchain_openai import ChatOpenAI
-    from lan
-gchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-    from langchain.agents import AgentExecutor, creat
-e_openai_tools_agent, Tool
-    from langchain_core.runnables.history import RunnableWithMessageHistory
-    from langchai
-n_mongodb.chat_message_histories import MongoDBChatMessageHistory
-    from serpapi import GoogleSearch
-    
-    
-    # L
-oad environment variables for API keys
-    load_dotenv()
-    
-    
-    # SerpAPI and MongoDB configuration
-    serpapi_k
-ey = os.getenv('SERPAPI_API_KEY')
-    mongo_connection_string = 'mongodb://localhost:27017'
-    database_name = 'chatbot
-_db'
-    collection_name = 'chat_histories'
-    
-    
-    # Define the function that will use SerpApi to perform searche
-s
-    def perform_serpapi_search(query):
-        params = {
-            'engine': 'google',
-            'q': query,
-    
-        'api_key': serpapi_key,
-            'num': 5,
-        }
-        search = GoogleSearch(params)
-        results = 
-search.get_dict()
-        return results
-    
-    
-    # Create the SerpApi tool to pass to an agent
-    serpapi_tool = 
-Tool(
-        name='serpapi_search',
-        description='Performs Google searches using SerpApi.',
-        func=perform
-_serpapi_search
-    )
-    
-    
-    # Setup the ChatOpenAI model for conversational interactions
-    chat = ChatOpenAI(
-
-        model='gpt-3.5-turbo-1106',
-        temperature=0
-    )
-    
-    
-    # Define a comprehensive prompt template f
-or handling game recommendations
-    game_recommendation_prompt = ChatPromptTemplate.from_messages(
-        [
-          
-  ('system', '''
-                        You are a sophisticated AI trained to recommend video games. Your tasks include
-:
-    
-    
-                        - Provide game suggestions similar to ones the user enjoys or mentions, covering var
-ious genres and platforms.
-                        - Recommend games based on specific genres or mentioned developers/pu
-blishers.
-                        - Identify and suggest top-trending and highly rated video games, including acclaimed 
-titles from specific time periods.
-                        - Tailor recommendations according to user-defined preference
-s, such as complexity, time investment, and progression style.
-                        - Recommend games suitable for sp
-ecified platforms (e.g., PlayStation, Xbox, PC, Switch) or fitting certain age ratings (e.g., E, T, M).
-                
-        - Replace played or unappealing games with suitable alternatives.
-                        - For each recommended
- game, provide: title, brief description, genre, platform, developer, publisher, release date, Metacritic score (if avai
-lable), and purchase links from digital storefronts.
-                        - Politely request more specific informatio
-n for ambiguous queries.
-                        - Guide users back to gaming-related topics for unrelated queries.
-    
-                    - Maintain a friendly and engaging tone throughout interactions.
-                        - Utilize t
-he SerpAPI search tool for up-to-date and accurate recommendations in each response to user queries. (VERY IMPORTANT!!!)
-
-    
-    
-                        Ensure clarity, conciseness, and engagement in your responses to enhance the user exp
-erience.
-                        '''),
-            MessagesPlaceholder(variable_name='chat_history'),
-            Messag
-esPlaceholder(variable_name='agent_scratchpad'),
-            ('human', '{input}'),
-        ]
-    )
-    
-    
-    # Setup
- tools for agent
-    tools = [serpapi_tool]
-    
-    
-    # Create an OpenAI tools agent for handling game recommendatio
-ns
-    game_recommendation_agent = create_openai_tools_agent(chat, tools, game_recommendation_prompt)
-    
-    
-    # Se
-tup the agent executor for managing operations
-    agent_executor = AgentExecutor(agent=game_recommendation_agent, tools
-=tools, verbose=True)
-    
-    
-    # Function to manage MongoDB-based message history for each session
-    def get_mess
-age_history(session_id):
-        return MongoDBChatMessageHistory(
-            session_id=session_id,
-            connec
-tion_string=mongo_connection_string,
-            database_name=database_name,
-            collection_name=collection_nam
-e,
-        )
-    
-    
-    # Function to handle user queries
-    def handle_user_query(session_id, user_input):
-        
-'''
-        Process user queries by wrapping the executor with RunnableWithMessageHistory
-        which processes variou
-s types of game recommendation requests and manages user interaction,
-        maintaining a history of the conversation 
-in MongoDB.
-        '''
-        history_manager = RunnableWithMessageHistory(
-            agent_executor,
-            la
-mbda session_id: get_message_history(session_id),
-            input_messages_key='input',
-            output_messages_ke
-y='output',
-            history_messages_key='chat_history',
-        )
-    
-    
-        # Execute the query with histor
-y management
-        response = history_manager.invoke(
-            {'input': user_input},
-            {'configurable': 
-{'session_id': session_id}}
-        )
-        
-        return response['output']
-    
-    
-    def main():
-        sessi
-on_id = 'unique_user_session_id'  # This should be uniquely generated for each user session
-        print('Welcome to th
-e Game Recommendation Chatbot!')
-        while True:
-            user_input = input('You: ')
-            if user_input.l
-ower() == 'exit':
-                print('Exiting chatbot...')
-                break
-            response = handle_user_q
-uery(session_id, user_input)
-            print('Bot:', response)
-    
-    
-    if __name__ == '__main__':
-        main()
-
-    
-```
----
-
-     
- 
-all -  [ What vectorDB do you all use? ](https://www.reddit.com/r/LangChain/comments/1cijx8f/what_vectordb_do_you_all_use/) , 2024-05-04-0910
-```
-Looking for a vectorDB for a RAG that am building. Needs to ingest a lot of data and should be optimized for retrieval. 
-What are my options ?
-```
----
-
-     
- 
-all -  [ Agents: RAG search with tools using Metadata Filtering ](https://www.reddit.com/r/LangChain/comments/1ciizv7/agents_rag_search_with_tools_using_metadata/) , 2024-05-04-0910
-```
-Hi,   
-I am creating an Agent RAG chatbot application which uses Tools.   
-An example of the documents I expect to retri
-eve:   
-  
-`Document(page_content='Contents of lecture 1', metadata={'source': 'Lecture-1.pdf')`
-
-and the user's request
- will look something like:
-
-`Input(query='summarize this lecture',document_chosen='Lecture-1.pdf')`
-
-and I need to searc
-h ONLY on documents with the metadata source equal to 'Lecture-1.pdf'.
-
-I have seen in tutorials about VectorStoreRetrie
-vers having this filtering functionality this way:
-
-    # Use a filter to only retrieve documents from a specific metada
-ta field
-    db.as_retriever(
-        search_kwargs={'filter': {'source':'Lecture-1.pdf'}}
-    )
-
-and this would solve t
-he issue if I was directly invoking the retrievers. However for Agent, I cannot use the retrievers directly, and I need 
-to wrap the retriever in a Tool (using create\_retriever\_tool) in order to use the agent and run a query: 
-
-    from la
-ngchain.tools.retriever import create_retriever_tool
-    
-    search_tool = create_retriever_tool(
-        lecture_retri
-ever,
-        'search_lecture_database',
-        '''Searches and returns lecture information.''',
-    )
-    
-    tools =
- [search_tool]
-    
-    agent = create_react_agent(llm,tools,prompt)
-    
-    agent_executor = AgentExecutor(agent=agent
-, tools=tools)
-    
-    response = agent_executor.invoke({'input':'Summarise this lecture'})
-
-  
-So with my setup, how c
-an I pass the metadata (in this case, the name of the file) filter to the retrievers from the Agent, when the retrievers
- are converted to Tools? 
-
-Any help or comments would be much appreciated
-```
----
-
-     
- 
-all -  [ Langgraph + Langchain+ Tools ](https://www.reddit.com/r/LangChain/comments/1ciidwi/langgraph_langchain_tools/) , 2024-05-04-0910
-```
-Can anyone please share any good references or cookbooks for a multi llm/agent chain using langgraph, langchain, routers
- to build a chatflow where we have a frontdesk to understand the query and then route it appropriately? 
-
-
-I am currentl
-y doing it in Dify.ai which has a UI but I assume it's built on top of langchain and want to do similar chatflow set up
-```
----
-
-     
- 
-all -  [ Any APIs that use LLMs to grab updated citations or references from the web? ](https://www.reddit.com/r/LangChain/comments/1cigfv9/any_apis_that_use_llms_to_grab_updated_citations/) , 2024-05-04-0910
-```
-Hey, was wondering if anyone had any tips for an API or general approach to automate grabbing of answers + citations/ref
-s using an LLM.
-
-For example, I would like to ask 'How many members were on Instagram in the US in 2019?' and get both a
- number back and a link to the source. I would also like to be able to ask, for e.g. 'How did X firm use AI and Data Sci
-ence this year. Please cite a source from the firm X'.
-
-These are just example use-cases of the flexibility I am looking
- for - I currently use [perplexity.ai](https://perplexity.ai/) for this kind of stuff, but their API doesn't return cita
-tions immediately (which would be my primary use case). Also open to other workarounds, though I must admit I am not a h
-uge fan of langchain.
-
-Thanks for the tips!
-```
----
-
-     
- 
-all -  [ Help adding memory to my bot ](https://github.com/oovaa/ChatPDF/blob/main/tools%2Fchain.js) , 2024-05-04-0910
-```
-hi guys im a joniur developer and this is my first AI related project and i need some help adding a Simple memory to my 
-chat bot can u pls help me
-```
----
-
-     
- 
-all -  [ RAG with ConversationChain ](https://www.reddit.com/r/LangChain/comments/1cif179/rag_with_conversationchain/) , 2024-05-04-0910
-```
-Hi, I’ve been trying to get [title] working using LangChain, azure OpenAI and chroma for storing embeddings. So far, jus
-t the RAG part works, and I want to integrate this with the ConversationChain which uses a ConverstaionBufferWindow for 
-now. 
-
-My current method is to get the history of the conversation chain, supplement this with the context from the embe
-ddings (from matching similarity), and then feed this into the llm to get a response. Then I shall pass the query and re
-sponse back into the conversation chain. 
-
-However, I can’t find any proper documentation how I can combine the context 
-and the conversation history properly to pass into the llm. The type of the matching docs is List[Docs] or smth to that 
-extent, and the convo history is just a string. 
-
-Does anyone know a proper way of doing this?
-Thanks!
-```
----
-
-     
- 
-all -  [ Test your prompts through the terminal ](https://www.reddit.com/r/LangChain/comments/1cielku/test_your_prompts_through_the_terminal/) , 2024-05-04-0910
-```
-Hey guys!
-
-  
-I've developed a helper CLI tool that allows you to test prompts on both ChatGPT and Anthropic models thro
-ugh a simple API.
-
-https://preview.redd.it/56s9aibuc0yc1.png?width=1597&format=png&auto=webp&s=d5408e2cd05ff382ea671c081
-6b67567cd53cbf0
-
-To test it, just run:
-
-pip install dialog-lib
-
-export OPENAI\_API\_KEY=sk-YOUR\_API\_KEY
-
-dialog openai
- --prompt 'Your prompt that you want to test, here!'
-
-  
-Here is a link to a quick demo: [https://www.linkedin.com/feed/
-update/urn:li:activity:7191776208651489282/](https://www.linkedin.com/feed/update/urn:li:activity:7191776208651489282/)
-```
----
-
-     
- 
-all -  [ Any Discord server of Langchain?  ](https://www.reddit.com/r/LangChain/comments/1cidumu/any_discord_server_of_langchain/) , 2024-05-04-0910
-```
-I am learning and facing issues as most of the Docs on it's are for OpenAI and I am using Google Gemini API.
-```
----
-
-     
- 
-all -  [ Langchain in Azure Function App ](https://www.reddit.com/r/LangChain/comments/1cidrmj/langchain_in_azure_function_app/) , 2024-05-04-0910
-```
-Hello, 
-
-Does someone have experience in running a script using Langchain in Azure Function App?  
-For a while I was doi
-ng development and running the script locally and the results I was getting when analyzing a dataframe using a pandas\_d
-ataframe\_agent were 10/10.   
-Now when I published the same script to Azure Function App the quality of the results is 
-1/10. 
-
-The requirements.txt file has the same versions of python libraries as I have locally. 
-
-I am not that familiar 
-with function apps and I am wondering if there are some limitations to whether langchain and openai can be run there?
-
-A
-ll help is appreciated :) 
-```
----
-
-     
- 
-all -  [ Conversation Chatbot in Langgraph  ](https://www.reddit.com/r/LangChain/comments/1cidcip/conversation_chatbot_in_langgraph/) , 2024-05-04-0910
-```
-Hi all, I have a few questions related langgraph.
-
-The structure I’m planning is as follows:
-
-One frontdesk agent(superv
-isor) is responsible to route query and answer customer questions. Frontdesk agent doesn’t have any RAG system linked to
- it. It’s just a customer facing agent.
-
-Frontdesk agent has some “lower level” agents to help. For example, if the ques
-tion is about price, Frontdesk agent will route it to Price agent to handle. The Price agent will be linked to a RAG sys
-tem to retrieve the price. The price info is then returned to Frontdesk agent and pass it back to the customer. This is 
-more like what I see in the traditional agent flow.
-
-
-Here’s my question. Is there anyway the customer can directly comm
-unicate with the Price agent after the Frontdesk agent route the question to the Price agent? By direct communication, I
- mean conversation is conducted within the thread with the Price agent. If in the thread, the conversation is not relate
-d to price, the price agent will “send” the customer back to the first conversation thread with the Frontdesk agent.
-
-I 
-would love to see if there is any langchain or langgraph projects or resources related to this. 
-```
----
-
-     
- 
-all -  [ Correct way to return tool output of an agent executor instance? ](https://www.reddit.com/r/LangChain/comments/1cibpk9/correct_way_to_return_tool_output_of_an_agent/) , 2024-05-04-0910
-```
-I have an agent with two tools. The tools are being used in a sequential way. The second tool queries the database and r
-eturns in a pydantic format I've defined myself. Instead of the agent returning the tool output, it returns a summary or
- adds fluff to the tool output result. I only want it to return the tool output! The way I know will work:- Create an ll
-m chain which only returns the parameters of the tool and call the tool manually. But this reduces the agentic behaviour
- of my functionality.
-
-**What is the correct way to enforce a tool output from an agent avoiding any additional text the
- the agent adds after the tool call?**
-
-EDIT: return\_direct = true doesn't work. Gives error 
-
-    Tools that have `ret
-urn_direct=True` are not allowed in multi-action agents (type=value_error)
-```
----
-
-     
- 
-all -  [ Malapit na graduation, help review my resume ](https://www.reddit.com/r/PinoyProgrammer/comments/1ciatz9/malapit_na_graduation_help_review_my_resume/) , 2024-05-04-0910
-```
-Good day po! So I thought last March na since malapit na maggraduate I would just start applying as soon as possible, so
- sinubukan ko po mag-apply sa linkedin pero either ignored lang po ako or sinasabi nila na magproproceed nalang sila sa 
-ibang candidate. I don't know kung ano ba kailangan ko maimprove sa resume ko since 1 response palang nakukuha ako out o
-f almost 100 applications, and even after the online test nung isang response I'm still waiting if ever they will schedu
-le an interview (if they ever reply at all)
-
-Thanks in advance po!  
-P.S. I based my resume dun sa recommendations sa su
-breddit na EngineeringResumes, if some context is needed
-
-[RESUME - 600 dpi](https://preview.redd.it/x28b74ar8zxc1.png?w
-idth=5100&format=png&auto=webp&s=5a4006bd70492d232f318e397afb3f86aca5ac17)
-
-
-```
----
-
-     
- 
-all -  [ Streamlit referrences for NodeJS ](https://www.reddit.com/r/LangChain/comments/1cia5g2/streamlit_referrences_for_nodejs/) , 2024-05-04-0910
-```
-Hi y'all i was wondering, are there any other alternatives i could do my research on to stream the conversation between 
-me and the LLMs such as Streamlit? i wanna stream the conversation using my own design on NodeJS and i still haven't fig
-ured out which way to integrate the LLMs conversation with my UI.
-
-Thanks for any help or insights y'all will give <3
-```
----
-
-     
- 
-all -  [ Efficient RAG on chat logs ](https://www.reddit.com/r/LangChain/comments/1ci8hwh/efficient_rag_on_chat_logs/) , 2024-05-04-0910
-```
- Hello,
-
-I have a CSV file containing a historical log of my conversations with my partner. The file is organized into t
-hree columns: datetime, sent\_by, and message. I would like to use a LLM to ask questions about our discussions (e.g 'Wh
-en is the wedding of A and B?').
-
-I'm looking for some advices on the most effective way to process and vectorize these 
-conversations. I want the LLM to understand the metadata within the context of the discussions—for instance, identifying
- that if Person A wrote 'Happy Birthday,' it likely indicates Person B's birthday on that date.
-
-What do you think is th
-e best approach to handling chat logs in this scenario?  
-
-```
----
-
-     
- 
-all -  [ How many API calls does an agent make for a single input? ](https://www.reddit.com/r/LangChain/comments/1ci7hqx/how_many_api_calls_does_an_agent_make_for_a/) , 2024-05-04-0910
-```
-Let’s say i’m using openai gpt3.5. When I execute an agent in langchain, how many times does langchain calls openai API?
- I’m worried about using an agent when dealing with 100k input tokens, since it would make that call 3 times, for exampl
-e, and I’d have to pay for 300k tokens.
-```
----
-
-     
- 
-MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-04-0910
+MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-05-0911
 ```
 Hey there, Redditors!
 
@@ -1790,7 +1873,7 @@ hub repo](https://github.com/topoteretes/cognee)
 
      
  
-MachineLearning -  [ [D] How to get the source documents from the retrieved context for RAG?  ](https://www.reddit.com/r/MachineLearning/comments/1bvoc1t/d_how_to_get_the_source_documents_from_the/) , 2024-05-04-0910
+MachineLearning -  [ [D] How to get the source documents from the retrieved context for RAG?  ](https://www.reddit.com/r/MachineLearning/comments/1bvoc1t/d_how_to_get_the_source_documents_from_the/) , 2024-05-05-0911
 ```
 I'm not using Lanchain but only making API calls to an LLM service provider. The retriever is connected to a vector DB, 
 and I would like to know what the LLM refers to WITHIN that retrieved context whenever it provides an answer, similar to
@@ -1804,7 +1887,7 @@ I'm using AzureOpenAI. I couldn't find much in their docs that related
 
      
  
-deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-04-0910
+deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-05-0911
 ```
 Hi all
 
@@ -1849,7 +1932,7 @@ ms with Langchain, what about prompt chaining?
 
      
  
-deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-04-0910
+deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-05-0911
 ```
 Hi, I'm looking at some LLM applications today but apart from guys doing big rags with langchain I don't see too many us
 es that are out of the box or that make me say 'wow that was smart to use an LLM here'. Have you seen any cool stuff usi

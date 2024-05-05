@@ -1,5 +1,106 @@
  
-all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-04-0910
+all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-05-0911
+```
+As a Founding AI Engineer, you'll play a critical role in the development and scaling of our agents infrastructure, goin
+g all the way from data ingestion to building state-of-the-art action-taking architectures. If you have a strong bias to
+ action, thrive on ambiguity and desire to own problems end-to-end, we’d love to hear from you.  
+Things you can work on
+  
+Work with researchers to translate the latest in state-of-the-art automation and reasoning methods to working code.  
+
+Devise and implement ground-truth data collection techniques for fine-tuning generative action models.  
+Implement pipe
+lines for processing and constructing reference datasets and tools for solving goals.  
+Build end-to-end machine learnin
+g models that power self-improving agents.  
+Implement public and private knowledge graphs for generative models.  
+Thin
+gs we look for  
+Evidence of exceptional ability.  
+Experience with generative model architectures, including Retrieval 
+Augmented Generation, Graph Learning, AI agents and tree-search augmented LLMs.  
+Experience building scalable data appl
+ications with Python.  
+Full-stack ML development experience.  
+Publications in top deep learning venues (ICLR, NeurIPS,
+ ICML, CCVPR).  
+Experience building fast-changing enterprise software in a high-growth environment.  
+
+
+**Read more / a
+pply:** [**https://ai-jobs.net/job/198951-founding-ai-engineer-agents/**](https://ai-jobs.net/job/198951-founding-ai-eng
+ineer-agents/)
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-05-0911
+```
+As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
+l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
+rong bias to action, thrive on ambiguity and desire to own problems end-to-end, we’d love to hear from you.  
+Example pr
+ojects  
+Work with researchers to extend our generative model prompting architecture.  
+Take part in implementing our gr
+ound-truth data collection platform that powers the fine-tuning of generative action models.  
+Extend our reference tool
+s and datasets and integrate them into our automated reasoning systems.  
+Things we look for  
+Evidence of exceptional a
+bility.  
+Real world ML development experience.  
+Publications in top deep learning venues (ICLR, NeurIPS, ICML, CCVPR).
+  
+Plus: Experience with generative model architectures, including Retrieval Augmented Generation, Graph Learning, AI ag
+ents and tree-search augmented LLMs.
+
+&#x200B;
+
+**Read more / apply:** [**https://ai-jobs.net/job/198461-ai-engineer-int
+ern-agents/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-05-0911
+```
+As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
+l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
+rong bias to action, thrive on ambiguity and desire to own problems end-to-end, we’d love to hear from you.  
+Example pr
+ojects  
+Work with researchers to extend our generative model prompting architecture.  
+Take part in implementing our gr
+ound-truth data collection platform that powers the fine-tuning of generative action models.  
+Extend our reference tool
+s and datasets and integrate them into our automated reasoning systems.  
+Things we look for  
+Evidence of exceptional a
+bility.  
+Real world ML development experience.  
+Publications in top deep learning venues (ICLR, NeurIPS, ICML, CCVPR).
+  
+Plus: Experience with generative model architectures, including Retrieval Augmented Generation, Graph Learning, AI ag
+ents and tree-search augmented LLMs.
+
+  
+**Read more / apply:** [**https://ai-jobs.net/job/198461-ai-engineer-intern-age
+nts/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-05-0911
 ```
 I have some papers in top venus myself, but whenever I sit down and be brutually honest with myself. I feel my work is g
 ood but it is just not that impactful, like one more brick in the wall.
@@ -10,7 +111,7 @@ tful as 'Attention is all you need' for example.
 
      
  
-all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-04-0910
+all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-05-0911
 ```
 Hello everyone, today the ICML results are out, congratulations to all those who have papers accepted here. I'm not an a
 cademic myself, but sometimes I read papers at these conferences for work, and it's really interesting. I just have a qu
@@ -23,7 +124,7 @@ roughout your 5 years of PhD and almost only achieve in the final years of your 
 
      
  
-all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-04-0910
+all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-05-0911
 ```
 Hi,
 
@@ -40,7 +141,7 @@ erience during my master's and bachelor's, combinatorial optimization is always 
 
      
  
-all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-04-0910
+all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-05-0911
 ```
 https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c3b61ddfd5b5dcbdab63a2645fc7a4cb145b
 
@@ -50,7 +151,7 @@ https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c
 
      
  
-all -  [ LLMs Or What Even Are Those? ](https://www.reddit.com/r/LangChain/comments/1cff5pa/llms_or_what_even_are_those/) , 2024-05-04-0910
+all -  [ LLMs Or What Even Are Those? ](https://www.reddit.com/r/LangChain/comments/1cff5pa/llms_or_what_even_are_those/) , 2024-05-05-0911
 ```
 **Large Language Models**, or LLMs, are advanced AI systems that enhance text prediction to an exceptional level — imagi
 ne the autocorrect & text prediction on your phone, but far more sophisticated.
@@ -109,7 +210,7 @@ for it now.
 
      
  
-all -  [ LLMs Or What Even Are Those? ](https://www.reddit.com/r/perplexity_ai/comments/1cff39r/llms_or_what_even_are_those/) , 2024-05-04-0910
+all -  [ LLMs Or What Even Are Those? ](https://www.reddit.com/r/perplexity_ai/comments/1cff39r/llms_or_what_even_are_those/) , 2024-05-05-0911
 ```
 **Large Language Models**, or LLMs, are advanced AI systems that enhance text prediction to an exceptional level — imagi
 ne the autocorrect & text prediction on your phone, but far more sophisticated.  
@@ -171,7 +272,7 @@ ol for it now.
 
      
  
-all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](https://www.youtube.com/watch?v=GtveKYXYo_0) , 2024-05-04-0910
+all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](https://www.youtube.com/watch?v=GtveKYXYo_0) , 2024-05-05-0911
 ```
 
 ```
@@ -179,7 +280,7 @@ all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](http
 
      
  
-all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-04-0910
+all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-05-0911
 ```
 [https://www.norange.io/projects/paper\_scorer/](https://www.norange.io/projects/paper_scorer/)
 
@@ -221,7 +322,7 @@ I also discussed this topic in a series of [tweets](https://x.com/nikitadurasov/
 
      
  
-all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-04-0910
+all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-05-0911
 ```
 I entered the Computer Science PhD program at our school 3 years ago (I'm in USA). I did not have a masters, they had a 
 combined program thingie. I did all of the masters courses so I can master out now, but I have 0 papers. My advisorwhen 
@@ -266,7 +367,7 @@ motivation is money. I've been told PhD matters when it comes to hiring but I do
 
      
  
-all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-04-0910
+all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-05-0911
 ```
 Hi there,
 
@@ -289,7 +390,7 @@ es this apply to my case?
 
      
  
-all -  [ Trying to apply to SWE roles with ~2 yoe ](https://www.reddit.com/r/resumes/comments/1cafk0z/trying_to_apply_to_swe_roles_with_2_yoe/) , 2024-05-04-0910
+all -  [ Trying to apply to SWE roles with ~2 yoe ](https://www.reddit.com/r/resumes/comments/1cafk0z/trying_to_apply_to_swe_roles_with_2_yoe/) , 2024-05-05-0911
 ```
 I am trying to apply for SWE roles with this resume, but i am not getting any interviews even with referrals, what am I 
 doing wrong?
@@ -309,7 +410,7 @@ llt2fyac72wc1.png?width=1238&format=png&auto=webp&s=0ed95debcc5b526143acf295f2f9
 
      
  
-all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-04-0910
+all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-05-0911
 ```
 I understand the derivation of -div and grad being adjoint operators, but then shouldn't equality hold between 'integral
  of (norm of gradient)\^2' and '-1 \* integral of laplacian \* function' ? Where did the negative go in the equality?
@@ -329,7 +430,7 @@ x)
 
      
  
-all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-04-0910
+all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-05-0911
 ```
 Used to receive invitation by this time of the year. Maybe I am forgotten.
 ```
@@ -337,7 +438,7 @@ Used to receive invitation by this time of the year. Maybe I am forgotten.
 
      
  
-all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-04-0910
+all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-05-0911
 ```
 Maybe I'm a bit paranoid but I'm a little worried about how future employers (e.g. FAANG) might view a CS PhD in computa
 tional biology (and instead I may be a 'better fit' for big pharma/biotech post-graduation).
@@ -365,7 +466,7 @@ ly be an issue in reality?)
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-04-0910
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-05-0911
 ```
 
 myquals : MTech AI from IISc. My motivation for writing this post comes from an earlier post in r/GATEtard titled, ['Do
@@ -453,7 +554,7 @@ ant to learn and understand the topics you love deeply.
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-04-0910
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-05-0911
 ```
 I am from the 2021-23 batch of MTech AI at IISc. My motivation for writing this post comes from an earlier post in this 
 subreddit titled, 'Do not join MTECH AI if you have other options like CSA (currently in IISC).' TLDR at the bottom.
@@ -540,7 +641,7 @@ eeply.
 
      
  
-all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-05-04-0910
+all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-05-05-0911
 ```
 **TL;DR** I come from an average family and worked hard to put myself through college, driven by my passion for research
  and innovation. Despite having multiple first-author papers in top ML conferences, contributing to open-source projects
@@ -602,7 +703,7 @@ wrong. I feel like I should quit research.
 
      
  
-all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-05-04-0910
+all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-05-05-0911
 ```
 Folks on Twitter seem not to like the idea at least the rationale. I tend to agree with them because we are pushing ever
 yone to have a research paper so as to be considered 'someone'
@@ -611,7 +712,7 @@ yone to have a research paper so as to be considered 'someone'
 
      
  
-all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-05-04-0910
+all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-05-05-0911
 ```
 Profile:
 
@@ -647,7 +748,7 @@ is not the best (but I have a good reason, and my school didn't have grade infla
 
      
  
-all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-05-04-0910
+all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-05-05-0911
 ```
 I'm in Windows.
 
@@ -659,7 +760,7 @@ What tò do now ?
 
      
  
-all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-05-04-0910
+all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-05-05-0911
 ```
 NeurIPS 2024 Adds a New Paper Track for High School Students
 
@@ -684,7 +785,7 @@ student authors.  We expect each submission to highlight either demonstrated pos
 
      
  
-all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-05-04-0910
+all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-05-05-0911
 ```
 I'm an undergrad doing research (no previous publications). My advisor and I have been busy with other work and have not
  gotten significant time to work on our project. While we've written most of the code, we have some parts left and have 
@@ -696,7 +797,7 @@ oing all-in on these next few weeks?
 
      
  
-all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-05-04-0910
+all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-05-05-0911
 ```
 FAR AI is seeking applications for a skilled Technical Lead to spearhead the delivery of our technical AI safety researc
 h and red-teaming projects.
@@ -828,7 +929,7 @@ esting your fit.
 
      
  
-all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-05-04-0910
+all -  [ [R] A* venue workshop paper vs lower-rated venue conference paper ](https://www.reddit.com/r/MachineLearning/comments/1byg2n5/r_a_venue_workshop_paper_vs_lowerrated_venue/) , 2024-05-05-0911
 ```
 NeurIPS24 is nearby and I've got a paper that got rejected last year at ICLR (5/5/6/3). While I'm addressing the feedbac
 k from last conference (method was received positively, but they asked for more experimentation), I'm still unsure wheth
@@ -855,7 +956,7 @@ n my future applications.
 
      
  
-all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-05-04-0910
+all -  [ Career advice for someone hoping to transition to big tech ML after a PhD in ML for science? ](https://www.reddit.com/r/cscareerquestions/comments/1bxt76g/career_advice_for_someone_hoping_to_transition_to/) , 2024-05-05-0911
 ```
 Hi all, this is going to be a somewhat long post. I am at a crossroads in my career and I highly appreciate any and all 
 advice and pointers you can provide. Below I am going to describe my situation, but all my thoughts are a bit hazy and s
@@ -928,37 +1029,6 @@ Thank you for looking at my post.
 
 TLDR: Delusional (?) ME PhD graduate who thinks
  he is worthy of a research position in pure ML with those amazing FAANG salaries asking how he can get to his dream.
-```
----
-
-     
- 
-all -  [ Profile Evaluation for MS Fall 2025 ](https://www.reddit.com/r/MSCS/comments/1bxbjl6/profile_evaluation_for_ms_fall_2025/) , 2024-05-04-0910
-```
-International student from India. Currently doing my second bachelor's from an IIT in Data Science, and I have a Physics
- Honors degree from a Tier 2 college. 
-
-CGPA - 8.73/10 in Physics Honors and 8/10 in Data Science
-
-Research Experience -
- 4 research internships in AI/ML: 1 at a startup, one at IIIT Hyderabad and one in Singapore (SIPGA) and one upcoming in
- Japan next year
-
-Research Papers - 2 top conference published papers (CVPR and NeurIPS) 
-
-Industry Internships - 2 inte
-rnships at Fortune 100 companies (one as a business analyst and the second one as a data scientist)
-
-I took GRE recently
- and scored 334 (Q-169, V-165, AWA- 4.5)
-
-TOEFL - yet to take
-
-LORs - all three would be from research supervisors
-
-I wa
-nt to target ML, AI and CS grad programmes. Any suggestions on which unis could be safe schools? Also, CMU is my dream s
-chool but now I'm a bit nervous to apply as my cgpa is low, but can my research experience and gre make up for it?  
 ```
 ---
 
