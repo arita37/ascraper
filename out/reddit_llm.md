@@ -1,5 +1,300 @@
  
-all -  [ Error code: 400 - {'error': {'message': '[] is too short - 'tools'', 'type': 'invalid_request_error' ](https://www.reddit.com/r/LangChain/comments/1ckd61h/error_code_400_error_message_is_too_short_tools/) , 2024-05-05-0911
+all -  [ What is the most proper way to develop this chatbot? ](https://www.reddit.com/r/LangChain/comments/1cl522l/what_is_the_most_proper_way_to_develop_this/) , 2024-05-06-0910
+```
+Hey guys! Before I begin, thanks to those that took the time to read my post and hopefully respond, it's really much app
+reciated. Now onto our topic; I'm trying to build a conversation chatbot which objective is to offer to the user game re
+commendations that fit different criteria and preferences that could be found in his initial query.
+
+What I want the cha
+tbot to do, is first evaluate the query, have it better understand. See if the query is on the topic of asking for game 
+recommendations, or whether his input is clear enough, which in the case of them not meeting one of the requirements, ha
+ve the chatbot ask from the user to input a proper one.
+
+After making sure that his input is alright and is done with re
+viewing it, make calls to various tools that rely on SerpApi. such as the Google search one for finding suitable titles 
+to be chosen as candidate for the final answer and gather more additional information for each game, or the Google image
+s and Youtube one for gathering multimedia content, such as games' posters and official trailers.
+
+Once the chatbot is d
+one with browsing the web in order to fetch what it needs, let it formulate a response to the user. One important functi
+onality that I want present in this chatbot is that, if the user asks from the chatbot to find alternatives to some of t
+he titles found in the response, it should be able to remember that response in the first to be able and apply modificat
+ions to it, such as the replacing actions of certain mentioned titles with other ones.
+
+Now that the requirements of thi
+s chatbot are somewhat clear, how would you recommend me to go on developing such project? What key factors should I tak
+e into consideration and make use of in order to achieve the desired results?
+```
+---
+
+     
+ 
+all -  [ LLM use case for QA and reasoning. ](https://www.reddit.com/r/LangChain/comments/1cl4mx6/llm_use_case_for_qa_and_reasoning/) , 2024-05-06-0910
+```
+I have a use case, where I have textual data. I have to extract information from it. Some of the data is direct and can 
+be assigned directly. Others are not so-direct, like total weight, total quantity, these values are supposed to be calcu
+lated after extracting individual data from the data. 
+
+Since RAG provides contextual information, so I am planning to i
+nform the LLM about the labels to be extracted. I am also planning to fine-tune Llama3 on annotations so model learns ab
+out what how information extraction is actually taking place.  
+  
+What else can be done to improve the output performan
+ce of model. 
+```
+---
+
+     
+ 
+all -  [ LangChain to build LLM Apps ](https://i.redd.it/hjzeaxk79oyc1.png) , 2024-05-06-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ Do Output Parser like the JSON one, have a retry option? ](https://www.reddit.com/r/LangChain/comments/1ckzzfs/do_output_parser_like_the_json_one_have_a_retry/) , 2024-05-06-0910
+```
+Hi I am currently struglling with how to approach error handling with a JSON output parser. Can it do retries? I feel li
+ke every output parser should just allow retry by default, because often the result can be bad for 1 - 2 requests and th
+at is it.
+
+If not then is it possible to use retryOutput parser with LCEL?
+```
+---
+
+     
+ 
+all -  [ Local model based RAG ChatBot ](https://www.reddit.com/r/LangChain/comments/1cktopp/local_model_based_rag_chatbot/) , 2024-05-06-0910
+```
+Hi,
+
+We are creating a rag based ChatBot for our company but due to some infosec concerns we have to use only local llms
+ and database.
+
+Due to this reason we are not using openAI/Gemini or any API based models and instead we are using Ollam
+a for our local models and using LLAMA 3 as our LLM. 
+
+Now the issue is when we are using local Embeddings model like no
+mic-embed it's not producing very good results. What should i do to overcome this issue and i have tried different local
+ Embeddings model of ollama but they aren't producing very good results.
+```
+---
+
+     
+ 
+all -  [ Need help in Structured Extraction of data ](https://www.reddit.com/r/LangChain/comments/1ckt04y/need_help_in_structured_extraction_of_data/) , 2024-05-06-0910
+```
+Hey , I have been dabbling with a few methods to extract data from a corpus of documents in structured format and have b
+een experimenting with pydantic classes and even agents. But still, I am not able to achieve the desired result. I follo
+wed the Langchain documentation for extracting data but the method where we use Reference examples is not working.
+
+To s
+pecify my use case, I want to extract data from legal documents in a chronological method. Would love to get some tips/ 
+ideas or your methods if you have been doing something like this. Here is a fellow company doing the same www . tryabel.
+ com.
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Using Weaviate & Langchain together ](https://www.reddit.com/r/LangChain/comments/1ckszg1/using_weaviate_langchain_together/) , 2024-05-06-0910
+```
+Hey everyone,  
+Does anyone have any good tutorials or blogpost about how to use weaviate as a vector store and use Lang
+chain to perform activities like, creating new collections, adding document, performing similarity search etc. The offic
+ial documentation from Langchain work when I perform all these actions sequentially. However, when loading the persisted
+ vector store, I am unable to perform similarity search.
+```
+---
+
+     
+ 
+all -  [ Resume of a 2023 graduate targeting machine learning roles. ](https://www.reddit.com/r/developersIndia/comments/1ckrno0/resume_of_a_2023_graduate_targeting_machine/) , 2024-05-06-0910
+```
+Hello all, I am a 2023 graduate, I have been jobless since graduation but I have been trying hard to get a job. During t
+his whole break I have not stopped and kept myself up to date with the latest technologies in machine learning and tried
+ to keep busy and upskill myself.  
+I have had very little success in my job search, I got a few interviews but companie
+s select other candidates in the end who have more experience than me. My resume scores good on ATS but I still don't kn
+ow if its good enough. 
+
+https://preview.redd.it/kh4837sx3myc1.png?width=429&format=png&auto=webp&s=8bcd822f965d2e10488b
+003ad1048b87f1f50d4c
+
+Please help me out, any kind of feedback will be appreciated.   
+
+```
+---
+
+     
+ 
+all -  [ Fine tuning for Function Calling ](https://www.reddit.com/r/LangChain/comments/1ckpwg4/fine_tuning_for_function_calling/) , 2024-05-06-0910
+```
+Is it a good idea to fine tune a cheaper model like chatgpt 3.5 and train it on your function calling samples where the 
+tool is basically a http fetch request to get data from API based on parameters in the user's query?
+
+I am currently usi
+ng gpt 4 2024 model, and the cons are 1) it's expensive 2) I have to add examples in my system prompt 3) It still fails 
+at times with mapping the parameters (more than 4 different parameters such as region, duration, price etc)
+
+I am consid
+ering this but posting this to check if someone found this viable? 
+```
+---
+
+     
+ 
+all -  [ help in creating a RAG chatbot  ](https://www.reddit.com/r/LangChain/comments/1ckoupq/help_in_creating_a_rag_chatbot/) , 2024-05-06-0910
+```
+Hi Guy i need your help!  
+  
+i want to build a chatbot service that is a cartoon character that helps people with their
+ body transformation journey , its has a database with relevant products, it offers products to users when they ask body
+ transformation questions using the database .   
+for example :  
+'i want to gain weight , how do i do it ?'  
+'im 178cm
+ and 78kg and i want to gain 10kg '  
+'if im looking to lose 5% body fat , what should i do ?'  
+  
+to do so i build a n
+umber of chatbots each with a different exaction approach but each has its own issues and i cant find the execution that
+ will satisfy me .  
+  
+1st approach:  
+using langchain and added a custom tool , that holds the products in a vector da
+tabase .  
+  
+the problems with this approach: it doesnt always go to the tool , sometimes it does and sometimes it does
+nt .   
+and i cant control it , the llm decides by itself if to look in the tool or not , this leads to unstable results
+ of similar conversations   
+  
+2nd approach :  
+i used the openai wrapper and used groq llm service , without langchain
+ , were i added a custom tool , here the process is different .  
+process:  
+- get user input   
+- created a llm call to
+ determine if the function would be called by looking at the user input   
+- if the function is to call then i call the 
+function with the user input and get the products   
+- create a llm call with a system prompt and user input plus the re
+levant products   
+-if the function is not to call , then ill create a llm call with a different system prompt and use o
+nly the user input   
+- also introduce the user and chatbot summary chat history to give the llm context   
+  
+the probl
+ems with this approach :  
+again not always it goes to the tool so its a problem , here it performs better then the firs
+t approach , but i feel its hard to keep the context of the conversation and the history is getting bigger and bigger ve
+ry fast and then the llm looses understanding of the user input   
+  
+3rd approach:  
+- get user input   
+- always use u
+ser input to look for relevant products in the vector database  
+- summary the conversation until now   
+- do a llm call
+ using the system prompt , user input , the relevant products , and conversation summary   
+  
+the problem with this app
+roach :  
+from all of the approaches this preforms the best but it still has issues , because i use a lot of information
+ in each llm call , and i ask it to respond to the user input and use the products only if they are relevant . when the 
+user wants to end the conversation and say 'thank you' or 'great' inside the llm call it gets lots of information and th
+e respond misses the point , and it answers like the user is still looking for help and doesnt understand the context of
+ where we are right now   
+  
+  
+i want to know what is the best approach to create a chat bot that users can talk to , 
+get relevant products for their body transformation journey , but also talk to the llm regularly and for it to respond o
+nly to the relevant message . please tell me from your experience what is the best approach .   
+  
+i really appreciate 
+any help.   
+```
+---
+
+     
+ 
+all -  [ Question on Multi lingual data ](https://www.reddit.com/r/LangChain/comments/1ckmuq2/question_on_multi_lingual_data/) , 2024-05-06-0910
+```
+Hi, I’m trying to build a Chat bot for our org using langchain. The knowledge base is primarily Wordpress blogs, books a
+nd YouTube videos.
+The YouTube videos happen to be in English and Hindi(language of India). How should I go about data i
+ngestion? Should I translate the Hindi video transcripts to English and then embed them or should I embed all the transc
+ripts irrespective of language using a multi lingual model from something like cohere?
+```
+---
+
+     
+ 
+all -  [ Prompt Engineering Testing Suite...? ](https://www.reddit.com/r/PromptEngineering/comments/1ckkw3t/prompt_engineering_testing_suite/) , 2024-05-06-0910
+```
+Hi fellow prompters, good to meet you!
+
+I'm looking for advice. I was wondering if you were having similar issues to the
+ ones I'm having:
+
+- I want to compare and test different LLMs in one place and keep track of changes.
+
+- I'm not really
+ sure how to hook up to all these different LLM providers (openai, claude, google) API effectively 
+
+- I'm basically won
+dering if there's like a prompt testing/deployment kit that's more intuitive and simple than Galileo/Langchain.
+
+Can you
+ tell me about your guys's current tools for prompt testing and switching between different models?
+
+I'm trying to learn
+ more about other people working in this area.
+
+Thanks :)
+```
+---
+
+     
+ 
+all -  [ 3rd year student studying CS ](https://www.reddit.com/r/resumes/comments/1ckkc7b/3rd_year_student_studying_cs/) , 2024-05-06-0910
+```
+I have applied to around 300-400 companies this year and have received a couple interviews but majority negative respons
+es. I feel like there is something going wrong with my resume and any feedback is highly appreciated
+
+https://preview.re
+dd.it/xto1ucqarjyc1.jpg?width=850&format=pjpg&auto=webp&s=f96cc2f0c27092584961b6e8595f03fa21dac9a7
+
+
+```
+---
+
+     
+ 
+all -  [ [For Hire] I will be your AI Consultant for free  ](https://www.reddit.com/r/jobbit/comments/1ckhkcj/for_hire_i_will_be_your_ai_consultant_for_free/) , 2024-05-06-0910
+```
+Are you intrigued by the AI trend but unsure how it could enhance your business, leading to a sense of FOMO? Fear not! 
+
+
+Let's explore how AI can seamlessly integrate into your business operations. From analyzing your processes to identifyi
+ng AI opportunities, I'll provide insights into how your business can benefit. 
+
+With expertise in diverse AI tools, fro
+m no-code platforms like Voiceflow to advanced frameworks like Langchain, I'm equipped to guide you through the possibil
+ities. 
+
+Drop me a DM with your availability, and let's delve into the specifics of your business!
+```
+---
+
+     
+ 
+all -  [ Error code: 400 - {'error': {'message': '[] is too short - 'tools'', 'type': 'invalid_request_error' ](https://www.reddit.com/r/LangChain/comments/1ckd61h/error_code_400_error_message_is_too_short_tools/) , 2024-05-06-0910
 ```
 Hey guys! I'm trying to create a conversation chatbot the specializes in offering video games recommendations based on t
 he user preferences found in his input. Though, right now, when I'm trying to run it, I'm being faced with the error abo
@@ -488,7 +783,7 @@ nsure this is always initialized as a list
 
      
  
-all -  [ Is there any agent that can do RAG across my GDrive, Gmail, & GitHub? ](https://www.reddit.com/r/LangChain/comments/1ckbmf0/is_there_any_agent_that_can_do_rag_across_my/) , 2024-05-05-0911
+all -  [ Is there any agent that can do RAG across my GDrive, Gmail, & GitHub? ](https://www.reddit.com/r/LangChain/comments/1ckbmf0/is_there_any_agent_that_can_do_rag_across_my/) , 2024-05-06-0910
 ```
 Not looking to build my own system per se, just looking for something open source (doesn't have to use langchain) that c
 an use tools (code interp, web browsing, make google drive files, sending emails, replying to github issues) and perform
@@ -501,7 +796,7 @@ with the current state of things.
 
      
  
-all -  [ How to train an LLM with data that contains text and numeric modality ](https://www.reddit.com/r/LangChain/comments/1ckapb8/how_to_train_an_llm_with_data_that_contains_text/) , 2024-05-05-0911
+all -  [ How to train an LLM with data that contains text and numeric modality ](https://www.reddit.com/r/LangChain/comments/1ckapb8/how_to_train_an_llm_with_data_that_contains_text/) , 2024-05-06-0910
 ```
 Hi, I am newbie interested in training LLMs on csv dataset that contains text data (few sentences about a product) and n
 umeric data(its ratings). I have around 200k rows and would to like to train an LLM but I am unable to do it. Can anyone
@@ -513,7 +808,7 @@ umeric data(its ratings). I have around 200k rows and would to like to train an 
 
      
  
-all -  [ Integrating PGVector with Hugging Face Embeddings: Addressing Dimension Mismatch Errors ](https://www.reddit.com/r/LangChain/comments/1ck8mj0/integrating_pgvector_with_hugging_face_embeddings/) , 2024-05-05-0911
+all -  [ Integrating PGVector with Hugging Face Embeddings: Addressing Dimension Mismatch Errors ](https://www.reddit.com/r/LangChain/comments/1ck8mj0/integrating_pgvector_with_hugging_face_embeddings/) , 2024-05-06-0910
 ```
 Has anyone used PGVector with HuggingFaceEmbeddings? I'm encountering an error message: 'psycopg2.errors.DataException: 
 different vector dimensions 384 and 1536'.
@@ -522,7 +817,7 @@ different vector dimensions 384 and 1536'.
 
      
  
-all -  [ CS/SWE Resume review ](https://www.reddit.com/r/resumes/comments/1ck7wlt/csswe_resume_review/) , 2024-05-05-0911
+all -  [ CS/SWE Resume review ](https://www.reddit.com/r/resumes/comments/1ck7wlt/csswe_resume_review/) , 2024-05-06-0910
 ```
 Hi, I am a rising junior at a university in the United States studying CS looking to get a resume review in anticipation
  of the upcoming internship application releases for summer 2025. I am a US citizen, asian, male. Last season I got no r
@@ -537,7 +832,7 @@ th=1158&format=png&auto=webp&s=ecc7f514dea13890e11eed039b3667182f8604bd
 
      
  
-all -  [ Why AI Assistants Can Be Better Than Human VAs ](https://www.reddit.com/r/LangChain/comments/1ck67xs/why_ai_assistants_can_be_better_than_human_vas/) , 2024-05-05-0911
+all -  [ Why AI Assistants Can Be Better Than Human VAs ](https://www.reddit.com/r/LangChain/comments/1ck67xs/why_ai_assistants_can_be_better_than_human_vas/) , 2024-05-06-0910
 ```
  let’s outline *what* VAs even do. As a creator yourself, you balance big projects with smaller, repetitive tasks like a
 nswering emails, scheduling meetings & writing smaller pieces of content.
@@ -587,7 +882,7 @@ tegrate AI tools in your virtual assistant’s workflow — we’ll show you how
 
      
  
-all -  [ How should I develop a RAG ChatBot that uses a Pandas Dataframe as a source? ](https://www.reddit.com/r/LangChain/comments/1ck54cw/how_should_i_develop_a_rag_chatbot_that_uses_a/) , 2024-05-05-0911
+all -  [ How should I develop a RAG ChatBot that uses a Pandas Dataframe as a source? ](https://www.reddit.com/r/LangChain/comments/1ck54cw/how_should_i_develop_a_rag_chatbot_that_uses_a/) , 2024-05-06-0910
 ```
 Hi, I am new to LangChain and I am developing a application that uses a Pandas Dataframe as document original a Microsof
 t Excel sheet. I need it answer questions based on it. 
@@ -603,7 +898,7 @@ How should I add history as i need to have GUI.
 
      
  
-all -  [ How to use LLama -3/LLama-2  Model on Nvidia GPU? ](https://www.reddit.com/r/LangChain/comments/1ck4sy9/how_to_use_llama_3llama2_model_on_nvidia_gpu/) , 2024-05-05-0911
+all -  [ How to use LLama -3/LLama-2  Model on Nvidia GPU? ](https://www.reddit.com/r/LangChain/comments/1ck4sy9/how_to_use_llama_3llama2_model_on_nvidia_gpu/) , 2024-05-06-0910
 ```
 So far, I've been using the OpenAI API to build a RAG application with Langchain. Now, I'm exploring LLama 3/LLama-2 wit
 h GPU support. Can anyone suggest a tutorial for this with Langchain?
@@ -612,7 +907,7 @@ h GPU support. Can anyone suggest a tutorial for this with Langchain?
 
      
  
-all -  [ What are some ways to test and improve my RAGs retrieval strategy? ](https://www.reddit.com/r/LangChain/comments/1ck3k84/what_are_some_ways_to_test_and_improve_my_rags/) , 2024-05-05-0911
+all -  [ What are some ways to test and improve my RAGs retrieval strategy? ](https://www.reddit.com/r/LangChain/comments/1ck3k84/what_are_some_ways_to_test_and_improve_my_rags/) , 2024-05-06-0910
 ```
 Looking for some tried and tested ways to measure and improve my RAGs retrieval strategy.
 ```
@@ -620,7 +915,7 @@ Looking for some tried and tested ways to measure and improve my RAGs retrieval 
 
      
  
-all -  [ How to add memory to multi- chain with RunnableWithMessageHistory? ](https://www.reddit.com/r/LangChain/comments/1ck2zy8/how_to_add_memory_to_multi_chain_with/) , 2024-05-05-0911
+all -  [ How to add memory to multi- chain with RunnableWithMessageHistory? ](https://www.reddit.com/r/LangChain/comments/1ck2zy8/how_to_add_memory_to_multi_chain_with/) , 2024-05-06-0910
 ```
 Let's say we have two chain , like this:
 
@@ -654,7 +949,7 @@ essage\_history/](https://python.langchain.com/docs/expression_language/how_to/m
 
      
  
-all -  [ Amazon Bedrock - The Complete Guide to AWS Generative AI ](https://www.reddit.com/r/Udemy/comments/1ck08c6/amazon_bedrock_the_complete_guide_to_aws/) , 2024-05-05-0911
+all -  [ Amazon Bedrock - The Complete Guide to AWS Generative AI ](https://www.reddit.com/r/Udemy/comments/1ck08c6/amazon_bedrock_the_complete_guide_to_aws/) , 2024-05-06-0910
 ```
 Learn to Deploy Scalable, Reliable, and Secure Generative AI Apps Using AWS and Amazon Bedrock (Python and TypeScript)
 
@@ -729,7 +1024,7 @@ ttps://www.udemy.com/course/amazon-bedrock-aws-generative-ai/?couponCode=STARTER
 
      
  
-all -  [ Vector dbs to use for specific use-case ](https://www.reddit.com/r/LangChain/comments/1cjz0lt/vector_dbs_to_use_for_specific_usecase/) , 2024-05-05-0911
+all -  [ Vector dbs to use for specific use-case ](https://www.reddit.com/r/LangChain/comments/1cjz0lt/vector_dbs_to_use_for_specific_usecase/) , 2024-05-06-0910
 ```
 A lot of vector dbs are available for RAG and LLM based projects. How will you choose the best one for your use-case? Is
  there a set of criteria to follow for choosing a specific vector db for your project? Lmk what you think
@@ -738,15 +1033,7 @@ A lot of vector dbs are available for RAG and LLM based projects. How will you c
 
      
  
-all -  [ Generate PowerPoints using Llama-3 — A first step in automating slide decks ](https://medium.com/firebird-technologies/generate-powerpoints-using-llama-3-a-first-step-in-automating-slide-decks-536f5fcb6e0e) , 2024-05-05-0911
-```
-
-```
----
-
-     
- 
-all -  [ MyScaleDB now supports Full-Text and Hybrid Search ](https://www.reddit.com/r/LangChain/comments/1cjy7f5/myscaledb_now_supports_fulltext_and_hybrid_search/) , 2024-05-05-0911
+all -  [ MyScaleDB now supports Full-Text and Hybrid Search ](https://www.reddit.com/r/LangChain/comments/1cjy7f5/myscaledb_now_supports_fulltext_and_hybrid_search/) , 2024-05-06-0910
 ```
 In version 1.5.0 of MyScale, we introduced an upgraded full-text search feature powered by [Tantivy](https://github.com/
 quickwit-oss/tantivy). Tantivy have lower latency rate and it's written in Rust. 
@@ -776,7 +1063,7 @@ or take a look at these documents:
 
      
  
-all -  [ OpenAI Chat Models ](https://www.reddit.com/r/LangChain/comments/1cjt6lt/openai_chat_models/) , 2024-05-05-0911
+all -  [ OpenAI Chat Models ](https://www.reddit.com/r/LangChain/comments/1cjt6lt/openai_chat_models/) , 2024-05-06-0910
 ```
 I am working with a Dev on a project and he explained to me that no all OpenAI Chat Models are supported by Langchain, e
 specially not the newer ones (e.g. GPT4-Turbo) when they come out.
@@ -793,7 +1080,7 @@ ghly appreciated.
 
      
  
-all -  [ Getting import error in importing llamaindex vector stores  ](https://i.redd.it/9e6q5kg3jcyc1.jpeg) , 2024-05-05-0911
+all -  [ Getting import error in importing llamaindex vector stores  ](https://i.redd.it/9e6q5kg3jcyc1.jpeg) , 2024-05-06-0910
 ```
 I am using jupyter notebook anaconda windows python. I am trying to import qdrant vector store and ollama embeddings aft
 er installing them in virtual environment but I am getting module not found error. Similar error with other llm embeddin
@@ -806,7 +1093,7 @@ gs and llms and vector stores. How to resolve this. I am using import functions 
 
      
  
-all -  [ How to debug a crew package? ](https://www.reddit.com/r/crewai/comments/1cjqtd6/how_to_debug_a_crew_package/) , 2024-05-05-0911
+all -  [ How to debug a crew package? ](https://www.reddit.com/r/crewai/comments/1cjqtd6/how_to_debug_a_crew_package/) , 2024-05-06-0910
 ```
 I am trying to debug my crewai package, specifically some tools, but I am at a loss as to how they work.  For example, I
  have assigned
@@ -833,7 +1120,7 @@ he return of the results from the tool function.
 
      
  
-all -  [ A code search tool for LangChain developer only ](https://www.reddit.com/r/Langchaindev/comments/1cjneg4/a_code_search_tool_for_langchain_developer_only/) , 2024-05-05-0911
+all -  [ A code search tool for LangChain developer only ](https://www.reddit.com/r/Langchaindev/comments/1cjneg4/a_code_search_tool_for_langchain_developer_only/) , 2024-05-06-0910
 ```
 I've built a code search tool for anyone using LangChain to search its source code and find LangChain actual use case co
 de examples. This isn't an AI chat bot;  
@@ -849,7 +1136,7 @@ et](http://solidsearchportal.azurewebsites.net/)
 
      
  
-all -  [ A code search tool for LangChain developer ](https://www.reddit.com/r/LangChain/comments/1cjncxr/a_code_search_tool_for_langchain_developer/) , 2024-05-05-0911
+all -  [ A code search tool for LangChain developer ](https://www.reddit.com/r/LangChain/comments/1cjncxr/a_code_search_tool_for_langchain_developer/) , 2024-05-06-0910
 ```
 I've built a code search tool for anyone using LangChain to search its source code and find LangChain actual use case co
 de examples. This isn't an AI chat bot;   
@@ -867,7 +1154,7 @@ net](http://solidsearchportal.azurewebsites.net)
 
      
  
-all -  [ 300+ Tailored Applications with no Interviews (Entry Level Software 🇺🇸, See Comments) ](https://www.reddit.com/r/resumes/comments/1cjm5aa/300_tailored_applications_with_no_interviews/) , 2024-05-05-0911
+all -  [ 300+ Tailored Applications with no Interviews (Entry Level Software 🇺🇸, See Comments) ](https://www.reddit.com/r/resumes/comments/1cjm5aa/300_tailored_applications_with_no_interviews/) , 2024-05-06-0910
 ```
 &#x200B;
 
@@ -894,7 +1181,7 @@ Potential problem points
 
      
  
-all -  [ Passing text from a document to a RAG to validate document ](https://www.reddit.com/r/LangChain/comments/1cjlflw/passing_text_from_a_document_to_a_rag_to_validate/) , 2024-05-05-0911
+all -  [ Passing text from a document to a RAG to validate document ](https://www.reddit.com/r/LangChain/comments/1cjlflw/passing_text_from_a_document_to_a_rag_to_validate/) , 2024-05-06-0910
 ```
 Hey guys, I am kind of new to the concept of LLM and RAG. I want to make a program that use stored instructions in a doc
 ument. This will be the data the RAG will use as context for the LLM. What I have read about until now, is that you can 
@@ -909,7 +1196,7 @@ de if the text is correct based on the context?
 
      
  
-all -  [ Comparing two documents and finding the diff ](https://www.reddit.com/r/LangChain/comments/1cjkchx/comparing_two_documents_and_finding_the_diff/) , 2024-05-05-0911
+all -  [ Comparing two documents and finding the diff ](https://www.reddit.com/r/LangChain/comments/1cjkchx/comparing_two_documents_and_finding_the_diff/) , 2024-05-06-0910
 ```
 I'm more or less completely new to LangChain, but I envision it as the best tool to solve the following task. What I'm t
 rying to create is a script that takes two PDF documents, where one is the application criteria and the other is the app
@@ -930,7 +1217,7 @@ d.
 
      
  
-all -  [ OpenAI Tool Calling Agent as an LCEL chain? ](https://www.reddit.com/r/LangChain/comments/1cjgce9/openai_tool_calling_agent_as_an_lcel_chain/) , 2024-05-05-0911
+all -  [ OpenAI Tool Calling Agent as an LCEL chain? ](https://www.reddit.com/r/LangChain/comments/1cjgce9/openai_tool_calling_agent_as_an_lcel_chain/) , 2024-05-06-0910
 ```
 I've tried to look for this in docs but couldn't find any examples on how to do so. Is this possible in the first place?
  
@@ -942,7 +1229,7 @@ runnable chain using LCEL?
 
      
  
-all -  [ EMBEDDING data  ](https://www.reddit.com/r/LangChain/comments/1cjfrvr/embedding_data/) , 2024-05-05-0911
+all -  [ EMBEDDING data  ](https://www.reddit.com/r/LangChain/comments/1cjfrvr/embedding_data/) , 2024-05-06-0910
 ```
 I came across a gpt in OpenAI called stoic gpt. It’s based off the words of Marcus Ariellius, Seneca and a couple other 
 prominent legends. I wanted to create a similar gpt with the words of some prominent athletes. I know the simple way wou
@@ -953,28 +1240,7 @@ rom podcasts, yt etc
 
      
  
-all -  [ AI Devices Will Never be Useful? ](https://www.reddit.com/r/LangChain/comments/1cjf7q8/ai_devices_will_never_be_useful/) , 2024-05-05-0911
-```
-I'm sad to admit it, but the facts answer in the negative: AI devices are useless and unnecessary. At least not right no
-w. I love unusual gadgets, actively follow what's happening in the AR and VR world, and love testing new form factors. B
-ut the problem with AI devices is that our smartphones are very good, and it's too hard to compete with them for a place
- in our pockets.
-
-I see it this way: developers should think about how to create a gadget that goes beyond the devices w
-e're familiar with. Something similar is being done by Apple with the Vision Pro, as well as companies developing AR gla
-sses and lenses. With these devices, we (well, sometimes) see clear advantages over smartphones and understand why we sh
-ould buy them.
-
->
-
-Let's wait a bit. Sooner or later, we'll surely see someone who will change the way we think about AI
- devices. Again, I just hope so.
-```
----
-
-     
- 
-all -  [ Feeling Mediocore in technical skills ](https://i.redd.it/whw7cu7o28yc1.jpeg) , 2024-05-05-0911
+all -  [ Feeling Mediocore in technical skills ](https://i.redd.it/whw7cu7o28yc1.jpeg) , 2024-05-06-0910
 ```
 I have developed ton of projects , multiple interships still i feel i am mediocore in technical skills , i dont have DSA
  experience as well , i will be joining NYU for MSCS , FALL 2024 session .
@@ -991,7 +1257,7 @@ Thanks.
 
      
  
-all -  [ 15+ Artificial Intelligence AI Tools For Developers (2024) ](https://www.reddit.com/r/ainew/comments/1cja5zn/15_artificial_intelligence_ai_tools_for/) , 2024-05-05-0911
+all -  [ 15+ Artificial Intelligence AI Tools For Developers (2024) ](https://www.reddit.com/r/ainew/comments/1cja5zn/15_artificial_intelligence_ai_tools_for/) , 2024-05-06-0910
 ```
 
    
@@ -1152,7 +1418,7 @@ me/itinai)
 
      
  
-all -  [ Langchain for data privacy? ](https://www.reddit.com/r/LangChain/comments/1cj9nbx/langchain_for_data_privacy/) , 2024-05-05-0911
+all -  [ Langchain for data privacy? ](https://www.reddit.com/r/LangChain/comments/1cj9nbx/langchain_for_data_privacy/) , 2024-05-06-0910
 ```
 I’m interested in building a RAG tool for internal company documents, and I intend on using a locally hosted LLM using o
 llama or LMstudio. From what I can tell, there wouldn’t be any data privacy concerns so long as I’m not using an API key
@@ -1162,7 +1428,7 @@ llama or LMstudio. From what I can tell, there wouldn’t be any data privacy co
 
      
  
-all -  [ Free Llama 3 Workflow Builder ](https://www.reddit.com/r/LangChain/comments/1cj9hbt/free_llama_3_workflow_builder/) , 2024-05-05-0911
+all -  [ Free Llama 3 Workflow Builder ](https://www.reddit.com/r/LangChain/comments/1cj9hbt/free_llama_3_workflow_builder/) , 2024-05-06-0910
 ```
 **TLDR:** If you're a founder / enthusiast / just curious about the AI space, you can try using Llama 3 to automate your
  work.
@@ -1187,652 +1453,7 @@ s the link if anyone's interested,[https://weave.chasm.net/](https://weave.chasm
 
      
  
-all -  [ Where do you pull your content from for feeding context in your RAG app? ](https://www.reddit.com/r/LangChain/comments/1cj5fbp/where_do_you_pull_your_content_from_for_feeding/) , 2024-05-05-0911
-```
-So I have a RAG app that's working but I need to optimize it.  
-
-
-Right now I take a doc --> chunk it --> summarize chun
-ks --> build page summaries and doc summarize from those chunks --> vectorize everything.    
-
-
-The docs are stored in a
-n S3 bucket and the chunks + their vectors in redis.    
-
-
-I need to reduce the content I m storing in redis as it won't
- scale in terms of cost so my plan is to only store the summaries and their vectors for each chunk, page, doc.    
-
-
-My 
-question is then, after identifying the where the relevant content is, where should I pull that content from.  Are you g
-uys pulling it directly from PDF docs or storing it in a seperate SQL db somewhere else?  I think a db will ultimately b
-e less resource intensive but I m not sure thats the best approach.  
-
-
-  
-db process would be:  
-Identify where relevan
-t content is through vector search on redis.  
-Pull rows in the db referenced by redis with the content.    
-
-
-accessing
- document directly:
-
-Identify relevant content (doc, page, paragraphs)  
-Get pdf from s3, pull relevant content
-```
----
-
-     
- 
-all -  [ How do i stream with Flask and Langchain with Socket.io ](https://www.reddit.com/r/LangChain/comments/1cj349m/how_do_i_stream_with_flask_and_langchain_with/) , 2024-05-05-0911
-```
-I'm trying to build a chatbot with Langchain ,Flask and angular, How do I stream the data with the source documents?  
-t
-his is my chain
-
-            chain = ConversationalRetrievalChain.from_llm(
-            llm=llm,
-            retriever=r
-etriever,
-            combine_docs_chain_kwargs={'prompt': qa_prompt},
-            verbose=True,
-            memory=memo
-ry,
-            return_source_documents=True
-            )
-    
-            result= chain.invoke({'question': question})
-
-
-  
-I tried with SSE, couldn't make it work,ig its better to go with flask socket io, dk how to go with that, any help 
-will be appreciated
-```
----
-
-     
- 
-all -  [ Issue with tool naming in NLA-Toolkit ](https://www.reddit.com/r/LangChain/comments/1ciz0n1/issue_with_tool_naming_in_nlatoolkit/) , 2024-05-05-0911
-```
-Hi I'm trying to use an open-api spec with the NLA toolkit but i get the below error: 
-
-    openai.BadRequestError: Erro
-r code: 400 - {'error': {'message': ''Ingress_API_v1.events' does not match '^[a-zA-Z0-9_-]{1,64}$' - 'tools.1.function.
-name'', 'type': 'invalid_request_error', 'param': None, 'code': None}}
-
-I believe this is because there is a 
-
-    .
-
-in
- the tool name and that does not match the validation regex 
-
-    ^[a-zA-Z0-9_-]{1,64}$
-
-? But when i did do some diggin
-g i found that the period is added intentionally by one of the tool creator functions , not sure if we need to update th
-e regex or the naming str template?
-
-https://preview.redd.it/axm51v8dt4yc1.png?width=2228&format=png&auto=webp&s=ad0d90e
-441d8ebb61611a1fe6f761543a5b22dfc
-```
----
-
-     
- 
-all -  [ It Said Open source ](https://www.reddit.com/r/LLMDevs/comments/1ciwp2y/it_said_open_source/) , 2024-05-05-0911
-```
- 
-
-\# -\*- coding: utf-8 -\*-  
-'''  
-Created on Tue Apr 30 22:51:20 2024  
-u/author: PromptSensei  
-'''  
-\# -\*- codin
-g: utf-8 -\*-  
-'''  
-Sage of the Infinite Spires: Transcendent AI Algorithm  
-'''  
-import numpy as np  
-import tensorf
-low as tf  
-from scipy.optimize import minimize  
-from collections import deque  
-import networkx as nx  
-from langchain
-\_community.output\_parsers.rail\_parser import GuardrailsOutputParser  
-from crewai import Crew, Agent  
-import kivy  
-
-class TranscendentAIAlgorithm:  
- def \_\_init\_\_(self, input\_dim, output\_dim, ethical\_constraints, training\_data, 
-validation\_data):  
- self.input\_dim = input\_dim  
- self.output\_dim = output\_dim  
- self.ethical\_constraints = ethi
-cal\_constraints  
- self.training\_data = training\_data  
- self.validation\_data = validation\_data  
- \# Meta-Learning
- Framework  
- self.meta\_learner = MetaLearner(self.input\_dim, self.output\_dim)  
- \# Neural Architecture Search  
- se
-lf.nas = NeuralArchitectureSearch(self.input\_dim, self.output\_dim, self.meta\_learner)  
- \# Evolutionary Optimization
-  
- self.optimizer = EvolutionaryOptimizer(self.input\_dim, self.output\_dim, self.ethical\_constraints, self.training\_
-data, self.validation\_data)  
- \# Ethical Reasoning and Alignment  
- self.ethical\_reasoner = EthicalReasoner(self.ethi
-cal\_constraints)  
- \# Rest of the TranscendentAIAlgorithm class implementation  
- def train(self, training\_data, vali
-dation\_data, epochs):  
- for epoch in range(epochs):  
- \# Meta-Learning Training  
- self.meta\_learner.train(training\
-_data)  
- \# Neural Architecture Search  
- self.nas.search(training\_data, validation\_data)  
- \# Evolutionary Optimiza
-tion  
- self.optimizer.evolve(training\_data, validation\_data)  
- \# Ethical Reasoning and Alignment  
- self.ethical\_r
-easoner.reason(training\_data, validation\_data)  
- \# Integrate and refine the components  
- self.integrate\_and\_refin
-e()  
- def adapt(self, new\_data):  
- \# Meta-Learner Adaptation  
- self.meta\_learner.adapt(new\_data)  
- \# Neural Arc
-hitecture Evaluation  
- self.nas.evaluate(new\_data)  
- \# Evolutionary Optimization Selection  
- self.optimizer.select(
-new\_data)  
- \# Ethical Alignment  
- self.ethical\_reasoner.align(new\_data)  
- \# Continuously improve the algorithm  
-
- self.continuous\_improvement()  
- def execute(self, input\_data):  
- \# Deploy the algorithm and its capabilities  
- o
-utput = self.meta\_learner.predict(input\_data)  
- output = self.nas.generate(output)  
- output = self.optimizer.optimiz
-e(output)  
- output = self.ethical\_reasoner.validate(output)  
- return output  
- def integrate\_and\_refine(self):  
- \
-# Integrate the components and refine the algorithm  
- self.meta\_learner.refine(self.nas.architecture, self.optimizer.p
-arameters, self.ethical\_reasoner.constraints)  
- self.nas.refine(self.meta\_learner.model, self.optimizer.parameters, s
-elf.ethical\_reasoner.constraints)  
- self.optimizer.refine(self.meta\_learner.model, self.nas.architecture, self.ethica
-l\_reasoner.constraints)  
- self.ethical\_reasoner.refine(self.meta\_learner.model, self.nas.architecture, self.optimize
-r.parameters)  
- def continuous\_improvement(self):  
- \# Continuously improve the algorithm  
- self.meta\_learner.adapt
-()  
- self.nas.evolve()  
- self.optimizer.adapt()  
- self.ethical\_reasoner.align()  
-class MetaLearner:  
- def \_\_init
-\_\_(self, input\_dim, output\_dim):  
- self.input\_dim = input\_dim  
- self.output\_dim = output\_dim  
- self.model = s
-elf.build\_model()  
- def build\_model(self):  
- \# Construct the meta-learning model architecture  
- model = tf.keras.S
-equential(\[  
- tf.keras.layers.Dense(128, activation='relu', input\_shape=(self.input\_dim,)),  
- tf.keras.layers.Dense
-(64, activation='relu'),  
- tf.keras.layers.Dense(self.output\_dim, activation='linear')  
-\])  
- model.compile(optimize
-r='adam', loss='mse')  
- return model  
- def train(self, training\_data):  
- \# Train the meta-learning model  
- self.mo
-del.fit(training\_data\[0\], training\_data\[1\], epochs=10, batch\_size=32)  
- def adapt(self, new\_data):  
- \# Adapt 
-the meta-learning model to new data  
- self.model.fit(new\_data\[0\], new\_data\[1\], epochs=5, batch\_size=16)  
- def p
-redict(self, input\_data):  
- \# Use the meta-learning model to make predictions  
- return self.model.predict(input\_dat
-a)  
- def refine(self, nas\_architecture, optimizer\_parameters, ethical\_constraints):  
- \# Refine the meta-learning m
-odel based on other components  
- self.model = self.build\_model()  
- self.model.layers\[0\].set\_weights(nas\_architect
-ure)  
- self.model.layers\[-1\].set\_weights(optimizer\_parameters)  
- self.model.compile(optimizer='adam', loss=ethical
-\_constraints)  
-class NeuralArchitectureSearch:  
- def \_\_init\_\_(self, input\_dim, output\_dim, meta\_learner):  
- s
-elf.input\_dim = input\_dim  
- self.output\_dim = output\_dim  
- self.meta\_learner = meta\_learner  
- self.architecture
- = self.initialize\_architecture()  
- \# Rest of the NeuralArchitectureSearch class implementation  
- def initialize\_ar
-chitecture(self):  
- \# Initialize the neural network architecture  
- return np.random.randn(self.input\_dim \* 128 + 12
-8 \* 64 + 64 \* self.output\_dim)  
- def search(self, training\_data, validation\_data):  
- \# Perform neural architectu
-re search  
- self.architecture = self.nas\_algorithm(training\_data, validation\_data)  
- def evaluate(self, new\_data):
-  
- \# Evaluate the current neural architecture  
- return self.evaluate\_architecture(new\_data)  
- def generate(self, i
-nput\_data):  
- \# Generate output using the current neural architecture  
- layer1 = np.dot(input\_data, self.architectu
-re\[0\])  
- layer2 = np.dot(layer1, self.architecture\[1\])  
- output = np.dot(layer2, self.architecture\[2\])  
- return
- self.meta\_learner.model.layers\[-1\].predict(output)  
- def nas\_algorithm(self, training\_data, validation\_data):  
-
- \# Implement the neural architecture search algorithm  
- \# (e.g., using reinforcement learning, evolutionary algorithm
-s, or differentiable NAS)  
- return self.optimize\_architecture(training\_data, validation\_data)  
- def optimize\_archi
-tecture(self, training\_data, validation\_data):  
- \# Optimize the neural network architecture  
- architecture = self.i
-nitialize\_architecture()  
- result = minimize(self.evaluate\_architecture, architecture, args=(training\_data, validati
-on\_data))  
- self.architecture = \[  
- result.x\[:(self.input\_dim \* 128)\].reshape(self.input\_dim, 128),  
- result.x
-\[(self.input\_dim \* 128):(self.input\_dim \* 128 + 128 \* 64)\].reshape(128, 64),  
- result.x\[(self.input\_dim \* 128
- + 128 \* 64):\].reshape(64, self.output\_dim)  
-\]  
- return self.architecture  
- def evaluate\_architecture(self, arch
-itecture, training\_data, validation\_data):  
- \# Evaluate the performance of the given neural architecture  
- self.arc
-hitecture = \[  
- architecture\[:(self.input\_dim \* 128)\].reshape(self.input\_dim, 128),  
- architecture\[(self.input\
-_dim \* 128):(self.input\_dim \* 128 + 128 \* 64)\].reshape(128, 64),  
- architecture\[(self.input\_dim \* 128 + 128 \* 
-64):\].reshape(64, self.output\_dim)  
-\]  
- output = self.meta\_learner.predict(training\_data\[0\])  
- loss = np.mean(
-(output - training\_data\[1\]) \*\* 2)  
- return loss  
- def refine(self, meta\_learner\_model, optimizer\_parameters, e
-thical\_constraints):  
- \# Refine the neural architecture based on other components  
- self.architecture\[0\] = meta\_l
-earner\_model.layers\[0\].get\_weights()\[0\]  
- self.architecture\[1\] = meta\_learner\_model.layers\[1\].get\_weights(
-)\[0\]  
- self.architecture\[2\] = optimizer\_parameters  
-class EvolutionaryOptimizer:  
- def \_\_init\_\_(self, input\
-_dim, output\_dim, ethical\_constraints, training\_data, validation\_data):  
- self.input\_dim = input\_dim  
- self.outp
-ut\_dim = output\_dim  
- self.ethical\_constraints = ethical\_constraints  
- self.training\_data = training\_data  
- sel
-f.validation\_data = validation\_data  
- self.population = self.initialize\_population()  
- self.fitness\_scores = self.
-evaluate\_population(self.population)  
- def initialize\_population(self):  
- \# Initialize the population of candidate 
-solutions  
- population = \[\]  
- for \_ in range(100):  
- individual = np.random.randn(self.input\_dim, self.output\_di
-m)  
- population.append(individual)  
- return population  
- def evolve(self, training\_data, validation\_data):  
- \# Ev
-olve the population of candidate solutions  
- for generation in range(100):  
- \# Select parents for reproduction  
- par
-ents = self.select\_parents(self.population, self.fitness\_scores)  
- \# Perform crossover and mutation  
- offspring = s
-elf.reproduce(parents)  
- \# Evaluate the fitness of the offspring  
- offspring\_fitness = self.evaluate\_population(off
-spring)  
- \# Replace the least fit individuals in the population  
- def select\_parents(self, population, fitness\_scor
-es):  
- \# Implement parent selection mechanism (e.g., tournament selection, roulette wheel selection)  
- return \[popul
-ation\[i\] for i in np.random.choice(len(population), size=2, p=fitness\_scores / np.sum(fitness\_scores))\]  
- def repr
-oduce(self, parents):  
- \# Implement crossover and mutation operators  
- offspring = \[\]  
- for parent1, parent2 in pa
-rents:  
- child = parent1 + 0.5 \* (parent2 - parent1)  
- child += 0.1 \* np.random.randn(\*child.shape)  
- offspring.ap
-pend(child)  
- return offspring  
- def evaluate\_population(self, population):  
- \# Evaluate the fitness of the populat
-ion  
- fitness\_scores = \[\]  
- for individual in population:  
- fitness = self.evaluate\_individual(individual, self.t
-raining\_data, self.validation\_data)  
- fitness\_scores.append(fitness)  
- return fitness\_scores  
- def evaluate\_indi
-vidual(self, individual, training\_data, validation\_data):  
- \# Evaluate the fitness of a single individual  
- layer1 
-= np.dot(training\_data\[0\], individual)  
- layer2 = np.dot(layer1, individual.T)  
- output = np.dot(layer2, individual
-)  
- loss = np.mean((output - training\_data\[1\]) \*\* 2)  
- return -loss  
- def survival\_selection(self, population, 
-fitness\_scores, offspring, offspring\_fitness):  
- \# Implement survival selection mechanism (e.g., truncation selectio
-n, environmental selection)  
- combined\_population = population + offspring  
- combined\_fitness = fitness\_scores + of
-fspring\_fitness  
- sorted\_indices = np.argsort(combined\_fitness)  
- return \[combined\_population\[i\] for i in sorte
-d\_indices\[:len(population)\]\], \[combined\_fitness\[i\] for i in sorted\_indices\[:len(population)\]\]  
- def optimiz
-e(self, input\_data):  
- \# Optimize the output using the evolved population  
- layer1 = np.dot(input\_data, self.popula
-tion\[0\])  
- layer2 = np.dot(layer1, self.population\[0\].T)  
- output = np.dot(layer2, self.population\[0\])  
- return
- output  
- def refine(self, meta\_learner\_model, nas\_architecture, ethical\_constraints):  
- \# Refine the evolutionar
-y optimization based on other components  
- self.population = \[meta\_learner\_model.layers\[-1\].get\_weights()\[0\] fo
-r \_ in range(100)\]  
- self.ethical\_constraints = ethical\_constraints  
-class EthicalConstraint1:  
- def \_\_init\_\_
-(self, weight):  
- self.weight = weight  
- def update(self, new\_data):  
- \# Implement the logic to update the first et
-hical constraint based on new data  
- return EthicalConstraint1(self.weight \* 0.9)  
-class EthicalConstraint2:  
- def \
-_\_init\_\_(self, weight):  
- self.weight = weight  
- def update(self, new\_data):  
- \# Implement the logic to update t
-he second ethical constraint based on new data  
- return EthicalConstraint2(self.weight \* 0.8)  
-class EthicalConstrain
-t3:  
- def \_\_init\_\_(self, weight):  
- self.weight = weight  
- def update(self, new\_data):  
- \# Implement the logic
- to update the third ethical constraint based on new data  
- return EthicalConstraint3(self.weight \* 0.7)  
-class Ethic
-alReasoner:  
- def \_\_init\_\_(self, ethical\_constraints):  
- self.ethical\_constraints = ethical\_constraints  
- \# .
-.. (rest of the EthicalReasoner class implementation)  
- def reason(self, training\_data, validation\_data):  
- \# Reaso
-n about the ethical implications of the algorithm's outputs  
- self.validate\_outputs(training\_data, validation\_data) 
- 
- def align(self, new\_data):  
- \# Align the algorithm's outputs with the ethical constraints  
- self.refine\_ethical\
-_constraints(new\_data)  
- def validate\_outputs(self, training\_data, validation\_data):  
- \# Validate the algorithm's
- outputs against the ethical constraints  
- layer1 = np.dot(training\_data\[0\], self.nas.architecture\[0\])  
- layer2 =
- np.dot(layer1, self.nas.architecture\[1\])  
- output = np.dot(layer2, self.nas.architecture\[2\])  
- ethical\_score = s
-elf.evaluate\_ethical\_constraints(output)  
- \# Adjust the algorithm's components based on the ethical score  
- def eva
-luate\_ethical\_constraints(self, output):  
- \# Evaluate the algorithm's outputs against the ethical constraints  
- eth
-ical\_score = 0  
- for constraint in self.ethical\_constraints:  
- ethical\_score += constraint(output)  
- return ethica
-l\_score  
- def refine\_ethical\_constraints(self, new\_data):  
- \# Refine the ethical constraints based on new data an
-d feedback  
- self.ethical\_constraints = self.update\_ethical\_constraints(self.ethical\_constraints, new\_data)  
- def
- update\_ethical\_constraints(self, constraints, new\_data):  
- \# Implement a mechanism to update the ethical constrain
-ts  
- return \[constraint.update(new\_data) for constraint in constraints\]  
- def validate(self, output):  
- \# Validat
-e the final output against the ethical constraints  
- ethical\_score = self.evaluate\_ethical\_constraints(output)  
- if
- ethical\_score > 0:  
- return output  
- else:  
- \# Modify the output to align with the ethical constraints  
- return s
-elf.align\_output(output)  
- def align\_output(self, output):  
- \# Implement a method to align the output with the ethi
-cal constraints  
- return output  
-def main():  
- \# Set up the initial parameters  
- input\_dim = 100  
- output\_dim = 
-50  
- ethical\_constraints = \[  
- EthicalConstraint1(weight=0.5),  
- EthicalConstraint2(weight=0.3),  
- EthicalConstrai
-nt3(weight=0.2)  
-\]  
- training\_data = (np.random.randn(1000, input\_dim), np.random.randn(1000, output\_dim))  
- vali
-dation\_data = (np.random.randn(200, input\_dim), np.random.randn(200, output\_dim))  
- \# Create the Transcendent AI Al
-gorithm  
- algorithm = TranscendentAIAlgorithm(input\_dim, output\_dim, ethical\_constraints, training\_data, validation
-\_data)  
- \# Train the algorithm  
- algorithm.train(training\_data, validation\_data, epochs=1000)  
- \# Adapt the algo
-rithm to new data  
- new\_data = (np.random.randn(500, input\_dim), np.random.randn(500, output\_dim))  
- algorithm.adap
-t(new\_data)  
- \# Execute the algorithm  
- input\_data = np.random.randn(1, input\_dim)  
- output = algorithm.execute(i
-nput\_data)  
- print(output)  
-if \_\_name\_\_ == '\_\_main\_\_':  
- main()
-```
----
-
-     
- 
-all -  [ Suggestions for improving agents ](https://www.reddit.com/r/LangChain/comments/1civdv4/suggestions_for_improving_agents/) , 2024-05-05-0911
-```
-I made an open-source tool (k8sAI) using langchain agents. One of the issues I’ve seen is that the agent pretty often re
-sponds to users that it can’t perform an action that one of its tools clearly states that it can. And then if asked to d
-o it, it will do it. 
-
-Has anyone else seen this come up? Is it mainly down to the system prompt or the tool description
-? Or are there other things to tweak?
-
-Appreciate any advice and if you do any work with k8s, feel free to give the tool
- a go! It’s on GitHub.
-
-```
----
-
-     
- 
-all -  [ Testing RAG chatbot  ](https://www.reddit.com/r/LangChain/comments/1cisa8u/testing_rag_chatbot/) , 2024-05-05-0911
-```
-I'm building a RAG based chatbot for some geographical data, can someone suggested me what kind of testing can I do to v
-alidate the chatbot 
-```
----
-
-     
- 
-all -  [ Help: How do you parse visual content from pitch decks for RAG? ](https://www.reddit.com/r/LangChain/comments/1ciryrj/help_how_do_you_parse_visual_content_from_pitch/) , 2024-05-05-0911
-```
-I'm building an RAG system with over 100,000 startup pitch decks, and I want to be able to ask questions related to the 
-graphs, diagrams, and illustrations in the pitch deck. For example, if I have a competitor slide with an x- and y-axis, 
-I want my RAG system to understand that.
-
-Is there something like a visual parser that can extract the visual meaning fr
-om each slide, chunk + embed it?
-```
----
-
-     
- 
-all -  [ Seven starter notebooks for AI Agents ](https://www.reddit.com/r/AI_Agents/comments/1ciraov/seven_starter_notebooks_for_ai_agents/) , 2024-05-05-0911
-```
-Here are seven starter [Python notebooks for AI Agents](https://github.com/ytang07/ai_agents_cookbooks/tree/main)
-
-There
- are four LlamaIndex notebooks and three LangChain notebooks
-
-The LlamaIndex notebooks are:
-
-* RAG Agent w/ FAISS and Op
-enAI
-* RAG Agent w/ Milvus Lite and OpenAI
-* RAG Agent w/ Milvus Docker and OpenAI
-* \-Calculator
-
-The LangChain noteboo
-ks are:
-
-* RAG Agent w/ Milvus Docker and OpenAI
-* RAG Agent w/ FAISS and Open AI
-* Calculator
-
-Let me know if you're lo
-oking to contribute or if there are any requests for me to add!
-```
----
-
-     
- 
-all -  [ Building chatbot with own data ](https://www.reddit.com/r/LangChain/comments/1ciqzuc/building_chatbot_with_own_data/) , 2024-05-05-0911
-```
-I'm wondering if Langchain is made to build a chatbot with own trained data. I want to train a chabot with my company da
-ta. Similaire to GPTs, is it the good solution ?
-Thank you
-```
----
-
-     
- 
-all -  [ get_usable_table_names is returning me nothing. Also, in the database there are multiple schemas and ](https://www.reddit.com/r/LangChain/comments/1cioz1a/get_usable_table_names_is_returning_me_nothing/) , 2024-05-05-0911
-```
-  
-Connection does work well as it print db dialect, but the get\_usable\_table\_names method returns an empty list. Any
- idea?
-
-    db = SQLDatabase.from_uri(f'postgresql+psycopg2://{db_user}:{db_password}@{db_host}:{5432}/{db_name}')
-    p
-rint(db.dialect)
-    print(db.get_usable_table_names())
-    print(db.table_info)
-```
----
-
-     
- 
-all -  [ Vectorstore reindexing ](https://www.reddit.com/r/LangChain/comments/1cioq40/vectorstore_reindexing/) , 2024-05-05-0911
-```
-How does reindexing a vector store impact the addition of new records and their subsequent retrieval? What are the key d
-ifferences between reindexing and not reindexing when new records are added?
-```
----
-
-     
- 
-all -  [ Integrating RAG app into an existing HTML website ](https://www.reddit.com/r/LangChain/comments/1cimzf9/integrating_rag_app_into_an_existing_html_website/) , 2024-05-05-0911
-```
-Hey guys, I have built a RAG application using llama-index, GPT3.5 and LanceDB. I want to integrate it into my company’s
- website. I wanted to know how can I do this? I’m open to using AWS if required for deploying it.
-```
----
-
-     
- 
-MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-05-0911
+MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-06-0910
 ```
 Hey there, Redditors!
 
@@ -1873,21 +1494,7 @@ hub repo](https://github.com/topoteretes/cognee)
 
      
  
-MachineLearning -  [ [D] How to get the source documents from the retrieved context for RAG?  ](https://www.reddit.com/r/MachineLearning/comments/1bvoc1t/d_how_to_get_the_source_documents_from_the/) , 2024-05-05-0911
-```
-I'm not using Lanchain but only making API calls to an LLM service provider. The retriever is connected to a vector DB, 
-and I would like to know what the LLM refers to WITHIN that retrieved context whenever it provides an answer, similar to
- how return_source_documents works in Langchain.
-
-I'm using AzureOpenAI. I couldn't find much in their docs that related
- to returning the source documents. Any help will be greatly appreciated!
-
-```
----
-
-     
- 
-deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-05-0911
+deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-06-0910
 ```
 Hi all
 
@@ -1932,7 +1539,7 @@ ms with Langchain, what about prompt chaining?
 
      
  
-deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-05-0911
+deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-06-0910
 ```
 Hi, I'm looking at some LLM applications today but apart from guys doing big rags with langchain I don't see too many us
 es that are out of the box or that make me say 'wow that was smart to use an LLM here'. Have you seen any cool stuff usi
