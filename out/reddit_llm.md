@@ -1,5 +1,538 @@
  
-all -  [ Smart AI voice assistant + connect to the internet ](https://www.reddit.com/r/ArtificialInteligence/comments/1clxtb8/smart_ai_voice_assistant_connect_to_the_internet/) , 2024-05-07-0910
+all -  [ Using LangChain agents to create a multi-agent platform that creates robot softwares ](https://www.reddit.com/r/LangChain/comments/1cmquwv/using_langchain_agents_to_create_a_multiagent/) , 2024-05-08-0909
+```
+When using LLMs for your generative AI needs, it's best to think of the LLM as a person rather than as a traditional AI 
+engine. You can train and tune an LLM and give it memory to create an agent. The LLM-agent can act like a domain-expert 
+for whatever domain you've trained and equipped it for. Using one agent to solve a complex problem is not the optimum so
+lution. Much like how a project manager breaks a complex project into different tasks and assigns different individuals 
+with different skills and trainings to manage each task, a multi-agent solution, where each agent has different capabili
+ties and  trainings, can be applied to a complex problem.                                                    
+
+In our ca
+se, we want to automatically generate the entire robot software (for any given robot description) in ROS (Robot Operatin
+g System);  In order to do so, first, we need to understand the overall design of the robot (a.k.a the ROS graph) and th
+en for each ROS node we need to know if the LLM should generate the code, or if the LLM can fetch a suitable code from o
+nline open-source repositories (a.k.a. RAG: Retrieval Augmented Generation). Each of these steps can be handled by diffe
+rent agents which have different sets of tools at their disposal. The following figure shows how we are doing this:
+
+[Ro
+bot software generation using four collaborating agents each responsible for a different part of the problem, each equip
+ped with different toolsets.](https://preview.redd.it/qcvb8y98c3zc1.png?width=1570&format=png&auto=webp&s=5f4072288e470f
+d9e2d946e471f35e4c2dff1f94)
+
+This is a free and open-source tool that we have released. We named it [ROScribe](https://g
+ithub.com/RoboCoachTechnologies/ROScribe). Please checkout our [repository](https://github.com/RoboCoachTechnologies/ROS
+cribe) for more information and give us a star if you like what you see. :) 
+```
+---
+
+     
+ 
+all -  [ Ingesting hundreds of csv files, loading them into a knowledge graph (RAG) then use LLM chatbot to q ](https://www.reddit.com/r/LangChain/comments/1cmpkyl/ingesting_hundreds_of_csv_files_loading_them_into/) , 2024-05-08-0909
+```
+I want to ingest hundreds of csv files, all the column data is   
+different except for them sharing a similar column rel
+ated to state. So I  
+ am able to capture the location of the data observations and relate   
+them to other data. The da
+ta is mostly pertaining to demographics like   
+economics, age, race, income, education, and health related outcomes. I 
+  
+need a general way to ingest all these csv files and load them into a   
+knowledge graph, then use OpenAI to send a c
+ypher query to the knowledge  
+ graph to gain context of the user's question and then return an answer.  
+ A question mi
+ght be 'What is the highest mortality rate in the country   
+and what might be causing this?' or 'Tell me counties with 
+the lowest   
+morbidity rates and why they might be lower than average'. I was   
+thinking I could use vector embeddings
+ as well for matching columns   
+together and clustering the data. Im just wondering what the best way to  
+ construct t
+he graph will be so that the LLM can easily traverse it and   
+get the correct information back to the user. What is the
+ best way to   
+set all this up? Does it make sense to construct a knowledge graph here   
+so that LLM has context.  
+  
+  
+Could use advice on how to set something up like this.  
+    
+Thanks  
+  
+  
+    
+  
+  
+  
+  
+```
+---
+
+     
+ 
+all -  [ [1.5 YoE] Recent Master's Graduate in Computer Science Seeking Full-Time SDE or Data Science/ML role ](https://www.reddit.com/r/EngineeringResumes/comments/1cmp18k/15_yoe_recent_masters_graduate_in_computer/) , 2024-05-08-0909
+```
+So i have 1.5 years of experience as a full time software developer in .Net, C#, C++ techstack, I recently graduated fro
+m masters in computer science , during my tenure as a student, i worked as a Graduate Student Assistant and my role chan
+ged from Software developer in the first year to a data science role in the second year of my masters and so i keep chan
+ging the first part of the experience section between Software developer and data science role and its part time job i.e
+ the work at my university.
+
+I have applied to over 1200 jobs and still didnt get any call backs. I am completely depres
+sed and dont understand whats wrong with my resume. I need help
+
+https://preview.redd.it/6yvelif313zc1.png?width=4961&fo
+rmat=png&auto=webp&s=c6d6a4dfa54998b71521fb7c6d502051b2b0684d
+
+
+```
+---
+
+     
+ 
+all -  [ Langchain is legacy in Vercel AI SDK, how to still use Langchain in a stable and futureproof way? ](https://www.reddit.com/r/nextjs/comments/1cmkd6r/langchain_is_legacy_in_vercel_ai_sdk_how_to_still/) , 2024-05-08-0909
+```
+I just saw that Langchain is now a legacy provider. How can i still use Langchain with the Vercel AI SDK for my NextJS a
+pps in a futureproof way. On the website it says, that the legacy providers are not recommended for new projects.
+```
+---
+
+     
+ 
+all -  [ Langtrace - Added support for Prompt Playground ](https://www.reddit.com/r/LangChain/comments/1cmk0dn/langtrace_added_support_for_prompt_playground/) , 2024-05-08-0909
+```
+Hey all,
+
+  
+We just added support for prompt playground. The goal of this feature is to help you test and iterate on yo
+ur prompts from a single view across different combinations of models and model settings. 
+
+- Support for OpenAI, Anthro
+pic, Cohere and Groq
+
+- Side by side comparison view.
+
+- Comprehensive API settings tab to tweak and iterate on your pro
+mpts with different combinations of settings and models. 
+
+  
+Please check it out and let me know if you have any feedba
+ck.
+
+[https://langtrace.ai/](https://langtrace.ai/)
+
+[https://github.com/Scale3-Labs/langtrace](https://github.com/Scale
+3-Labs/langtrace)
+
+https://reddit.com/link/1cmk0dn/video/y0tve9hb02zc1/player
+
+  
+
+```
+---
+
+     
+ 
+all -  [ Torn between Data Science and Game Dev ](https://www.reddit.com/r/gamedev/comments/1cmjfpe/torn_between_data_science_and_game_dev/) , 2024-05-08-0909
+```
+Im really torn between either pursuing game dev or Data Science (Modeling and Analysis). My interest in coding and devel
+oping started with game dev a few years ago but I switched to DS when it came to my formal education. 
+
+I have experienc
+e in both fields and I'm fairly decent in both. However, my main motivation for going into DS was how brutal the game de
+v industry was a few years ago (I was young and naiive, thought ds is better but it's really all the same). 
+
+Another ke
+y factor that I took into account is that my country isn't the best for either fields so I'm mostly tied to remote work 
+and DS seemed the better option there.
+
+Do you guys suggest I stick with Data Science (am diving into LangChain and gene
+rative Ai rn as well) or slowly transition back to Game Dev?
+
+P. S: I did look into combining my game dev experience wit
+h ds expertise for Game related analyst work but again, remotely working in a position like that seems improbable. 
+```
+---
+
+     
+ 
+all -  [ Why Should We Keep an Eye Out for YC Batches?
+ ](https://www.reddit.com/r/LangChain/comments/1cmiclo/why_should_we_keep_an_eye_out_for_yc_batches/) , 2024-05-08-0909
+```
+Just to clarify, if you want to be the first to know about trends in the startup world, you have to keep an eye on what'
+s going on inside Y Combinator. This incubator has extensive experience with startups. You may know Stripe, Airbnb, Drop
+box, Reddit, and Twitch among its alumni. And I'm sure YC won't slow down.
+
+According to Garry Tan (President and CEO of
+ YC), **the 260 companies** in the W24 cohort were selected from over **27,000** applications. The acceptance rate for s
+tartups was less than **1%**! And AI was the biggest topic, with over **85 companies** calling themselves 'AI Startups' 
+and over **180 mentioning** machine learning in their demos.
+```
+---
+
+     
+ 
+all -  [ Mastering LangChain and AWS: A Guide to Economic Analysis ($84.99 to FREE) ](https://www.jucktion.com/f/udemy-coupon/mastering-langchain-and-aws-a-guide-to-economic-analysis-$84-99-to-fre-328915/) , 2024-05-08-0909
+```
+
+```
+---
+
+     
+ 
+all -  [ Python library to deploy LLM chat bots fast?
+ ](https://www.reddit.com/r/LangChain/comments/1cmdxyi/python_library_to_deploy_llm_chat_bots_fast/) , 2024-05-08-0909
+```
+Here is a simple code snippet on how to use the Cycls chatbot library
+
+    main.py
+    from cycls import App
+    
+    ap
+p = App(secret='sk-secret',
+              handler='@handler-name')
+    
+    @app
+    def entry_point(context):
+        #
+ Capture the received message
+        received_message = context.message.content.text
+        # Reply back with a simple
+ message
+        context.send.text(f'Received message: {received_message}')
+    
+    app.publish()
+
+This is a simplified
+ example but when you run [main.py](http://main.py), the chatbot immediately gets deployed with a public url and a chat 
+interface. This has helped me a huge deal with testing while developing chatbots.   
+Here are the docs: [https://docs.cy
+cls.com/getting-started](https://docs.cycls.com/getting-started) [ ](https://docs.cycls.com/getting-started)
+```
+---
+
+     
+ 
+all -  [ Passing the output of function calling to RedisChatHistory in LCEL ](https://www.reddit.com/r/LangChain/comments/1cmdvls/passing_the_output_of_function_calling_to/) , 2024-05-08-0909
+```
+HI 
+
+I have a RunnableWithMessageHistory and agent\_executor to create a chatbot agent with tools to fetch data from an 
+API and then Redis to story chat history. 
+
+I see that the RunnableWithMessageHistory is not recording the raw response 
+of the function calling to the chat history. How do I solve for this?
+
+I have been reading the API docs but couldn't fin
+d anything. 
+```
+---
+
+     
+ 
+all -  [ ARC - A nimble framework for ai agent creation! ](https://www.reddit.com/r/Kotlin/comments/1cmdqfe/arc_a_nimble_framework_for_ai_agent_creation/) , 2024-05-08-0909
+```
+Hello r/Kotlin
+
+I'm thrilled to introduce ARC, a new Kotlin framework for building AI Agents which takes the overhead of
+f AI Agent creation. ARC is designed with simplicity and minimalism at its core.
+
+It’s been a very tough journey braving
+ so many questions from doubters on why not langchain or python etc.  u/Pat_Wlan has so many scars to show as he led thi
+s module and is the core committer 🔥❤️🔥. This has been the result of our learnings from developing multi-agent systems t
+hat are deployed in production at Deutsche Telekom.
+
+**What sets ARC apart?**
+
+* **Minimal Dependencies:** We've kept AR
+C lean, ensuring that you only bring into your project what you truly need. No more bloat or extraneous libraries that h
+og resources and complicate your builds!
+* **Focused on Kotlin's Strengths:** ARC is built to maximize Kotlin's features
+ such as DSL.
+* **Interoperable by Design:** While ARC doesn't use langchain or springAI, it's designed to play well wit
+h them. You're free to integrate AI functionalities or other libraries as you see fit, making ARC a flexible choice for 
+a wide array of projects.
+* **Community-Centered:** ARC is open-source and community-driven, with the aim of evolving th
+rough your insights and contributions. We believe in the power of collective intelligence and are excited to see how the
+ framework grows with your input.
+* **Flexible** ARC is meant to be architecture agnostic. It doesn’t matter whether you
+ are building microservices, a CLI or something else altogether.
+
+We would like to get your feedback on this small endea
+vor we took, braving so many questions internally on why not langchain or python etc .   
+Would be great if you could ch
+eck it out and help us make it 🚀🔥🚀.
+
+Using the [arc-spring-init](https://github.com/lmos-ai/arc-spring-init) repository 
+combined with your OpenAI-API Key you can create agents within seconds!
+
+Project: [ARC](https://github.com/lmos-ai/arc),
+ dive into the [docs](https://lmos-ai.github.io/arc/) 📖
+
+We're looking forward to your valuable feedback.
+
+Thanks ❤️!
+```
+---
+
+     
+ 
+all -  [ Langchain for Q&A + RAG? ](https://www.reddit.com/r/LocalLLaMA/comments/1cmafor/langchain_for_qa_rag/) , 2024-05-08-0909
+```
+I want to make a Q&A + RAG application.
+Is langchain still a good choice?
+
+I have never worked with it but it seems a bi
+t bloated? And it seems to abstract a lot of details away such that it’s difficult to really understand what’s going on 
+under the hood?
+
+I could be completely wrong though. 
+
+What’s your recommended stack for Q&A + RAG chatbot applications?
+
+
+```
+---
+
+     
+ 
+all -  [ Is llama2 multimodal? ](https://www.reddit.com/r/LangChain/comments/1cm9e3l/is_llama2_multimodal/) , 2024-05-08-0909
+```
+How can we pass images or base64 to llama2 and ask certain questions like describe this image??
+```
+---
+
+     
+ 
+all -  [ Combined Embeddings  ](https://www.reddit.com/r/LangChain/comments/1cm8oek/combined_embeddings/) , 2024-05-08-0909
+```
+I am developing my own Rag.
+Using the text_splitter there is a performance tradeoff for the chunk size and chunk overlap
+ parameters. Short chunks may not include all desired context, long chunks may hallucinate or cause info loss. Has anyon
+e tried to embed twice the same document with multiple and different splitters? 
+Are there noticeable advantages / disad
+vantages?
+
+```
+---
+
+     
+ 
+all -  [ Yet Another RAG Tutorial ](https://www.reddit.com/r/webdev/comments/1cm7nuw/yet_another_rag_tutorial/) , 2024-05-08-0909
+```
+I was itching for a hands-on project, something I could build in just a few hours. So, I decided to experiment with Lang
+Chain and vector databases to create a RAG conversation application.
+
+Figured I'd share my experience with you. Check it
+ out and lemme know what you think:
+
+[https://genezio.com/blog/langchain-genezio-project](https://genezio.com/blog/langc
+hain-genezio-project)
+```
+---
+
+     
+ 
+all -  [ Kernel crashing when using Langsmith Evaluation ](https://www.reddit.com/r/LangChain/comments/1cm7lbr/kernel_crashing_when_using_langsmith_evaluation/) , 2024-05-08-0909
+```
+Hello, could you assist me? I'm encountering difficulties with Langsmith's evaluation process. I'm able to evaluate my c
+ontext using 'cont\_qa', but when I attempt to incorporate additional evaluators such as 'accuracy', my kernel crashes i
+f there's more than one element in my dataset. Interestingly, when there's only one element, it works perfectly. I'm see
+king guidance on how to address this issue. Below is the code I'm using
+
+    import langsmith
+    from langchain import 
+chat_models, prompts, smith
+    from langchain.schema import output_parser
+    
+    
+    # Define your runnable or chain
+ below.
+    prompt = prompts.ChatPromptTemplate.from_messages(
+      [
+        ('system', 'You are a helpful AI assistan
+t.'),
+        ('human', '{question}')
+      ]
+    )
+    
+    
+    # Define the evaluators to apply
+    eval_config = smi
+th.RunEvalConfig(
+        evaluators=[
+            'cot_qa',
+            smith.RunEvalConfig.LabeledCriteria('harmfulnes
+s'),
+            smith.RunEvalConfig.LabeledCriteria('relevance'),
+            smith.RunEvalConfig.LabeledCriteria('help
+fulness')
+        ],
+        custom_evaluators=[],
+        eval_llm=chat_models.ChatOpenAI(model='gpt-4', temperature=0)
+
+    )
+    
+    client = langsmith.Client()
+    chain_results = client.run_on_dataset(
+        dataset_name=dataset_name
+,
+        llm_or_chain_factory=open_ai_rag,
+        evaluation=eval_config,
+        concurrency_level=5,
+        verbose
+=True,
+    )
+```
+---
+
+     
+ 
+all -  [ Create a real world RAG chat app with Langchain LCEL ](https://www.reddit.com/r/LangChain/comments/1cm5ktx/create_a_real_world_rag_chat_app_with_langchain/) , 2024-05-08-0909
+```
+Hello everyone,
+
+Just finished writing a post on how to create real world application using Langchain.  
+I talk about :
+
+
+* Langchain LCEL
+* How to create composition of multiple chains.
+* How to integrate user parameters like output type or
+ specified vector store in chains.
+* How to use configuration to change the prompt and the retriever at run time.
+
+Check
+ it out: [Link](https://www.metadocs.co/2024/05/07/create-a-complex-rag-chat-app-with-langchain-lcel/).
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Error Following Langchain/Vertex AI Reasoning Engine Docs ](https://www.reddit.com/r/LangChain/comments/1cm2lvb/error_following_langchainvertex_ai_reasoning/) , 2024-05-08-0909
+```
+Hello everyone, I'm trying to follow this example I found in the Vertex AI documentation.
+
+[https://cloud.google.com/ver
+tex-ai/generative-ai/docs/reasoning-engine/develop](https://cloud.google.com/vertex-ai/generative-ai/docs/reasoning-engi
+ne/develop)
+
+I'm following the steps carefully, but when I try:
+
+    response = agent.query(
+
+input='What is the exchang
+e rate from US dollars to Swedish currency?' )
+
+I receive the following error:
+
+    {
+    	'name': 'KeyError',
+    	'mes
+sage': ''agent'',
+    	'stack': '---------------------------------------------------------------------------
+    KeyErro
+r                                  Traceback (most recent call last)
+    Cell In[92], line 1
+    ----> 1 response = agen
+t.query(
+          2     input=\'What is the exchange rate from US dollars to Swedish currency?\'
+          3 )
+    
+   
+ File /opt/homebrew/lib/python3.11/site-packages/vertexai/preview/reasoning_engines/templates/langchain.py:439, in Langc
+hainAgent.query(self, input, config, **kwargs)
+        437     input = {\'input\': input}
+        438 if not self._runna
+ble:
+    --> 439     self.set_up()
+        440 return langchain_load_dump.dumpd(
+        441     self._runnable.invoke(i
+nput=input, config=config, **kwargs)
+        442 )
+    
+    File /opt/homebrew/lib/python3.11/site-packages/vertexai/pre
+view/reasoning_engines/templates/langchain.py:400, in LangchainAgent.set_up(self)
+        398     self._llm = self._llm.
+bind(functions=self._tools)
+        399 self._agent = self._prompt | self._llm | self._output_parser
+    --> 400 self._a
+gent_executor = AgentExecutor(
+        401     agent=self._agent,
+        402     tools=self._tools,
+        403     **s
+elf._agent_executor_kwargs,
+        404 )
+        405 runnable = self._agent_executor
+        406 if has_history:
+    
+ 
+   File /opt/homebrew/lib/python3.11/site-packages/langchain/load/serializable.py:97, in Serializable.__init__(self, **k
+wargs)
+         96 def __init__(self, **kwargs: Any) -> None:
+    ---> 97     super().__init__(**kwargs)
+         98    
+ self._lc_kwargs = kwargs
+    
+    File /opt/homebrew/lib/python3.11/site-packages/pydantic/v1/main.py:339, in BaseModel
+.__init__(__pydantic_self__, **data)
+        333 \'\'\'
+        334 Create a new model by parsing and validating input d
+ata from keyword arguments.
+        335 
+        336 Raises ValidationError if the input data cannot be parsed to form a
+ valid model.
+        337 \'\'\'
+        338 # Uses something other than `self` the first arg to allow \'self\' as a set
+table attribute
+    --> 339 values, fields_set, validation_error = validate_model(__pydantic_self__.__class__, data)
+   
+     340 if validation_error:
+        341     raise validation_error
+    
+    File /opt/homebrew/lib/python3.11/site-pac
+kages/pydantic/v1/main.py:1102, in validate_model(model, input_data, cls)
+       1100     continue
+       1101 try:
+    
+-> 1102     values = validator(cls_, values)
+       1103 except (ValueError, TypeError, AssertionError) as exc:
+       1
+104     errors.append(ErrorWrapper(exc, loc=ROOT_KEY))
+    
+    File /opt/homebrew/lib/python3.11/site-packages/langchai
+n/agents/agent.py:881, in AgentExecutor.validate_tools(cls, values)
+        878 ()
+        879 def validate_tools(cls, v
+alues: Dict) -> Dict:
+        880     \'\'\'Validate that tools are compatible with agent.\'\'\'
+    --> 881     agent =
+ values[\'agent\']
+        882     tools = values[\'tools\']
+        883     allowed_tools = agent.get_allowed_tools()
+ 
+   
+    KeyError: 'agent''
+    }
+
+Has anyone else encountered this error while working with Vertex AI? If so, how did yo
+u resolve it? Any tips or tricks would be greatly appreciated!
+
+UPDATE:
+
+I fix it downgrading the langchain-core version
+ from  0.1.51 to 0.1.50!!!
+```
+---
+
+     
+ 
+all -  [ Smart AI voice assistant + connect to the internet ](https://www.reddit.com/r/ArtificialInteligence/comments/1clxtb8/smart_ai_voice_assistant_connect_to_the_internet/) , 2024-05-08-0909
 ```
 I continue my experiment building a smart AI voice assistant. This time I'm adding an ability to google for an answer. 
 
@@ -18,19 +551,7 @@ tion history. Currently exploring LangChain ecosystem.
 
      
  
-all -  [ Does LLAMA 3 8B instruct have a system message token limit? ](https://www.reddit.com/r/LocalLLaMA/comments/1clxg2o/does_llama_3_8b_instruct_have_a_system_message/) , 2024-05-07-0910
-```
-I'm working on a project and wanted to test out LLama 3 8B instruct gguf using langchain+llama-cpp-python on my local ma
-chine. However, it's not been a smooth ride. I had to first fix the one word 'assistant' response it gave. Now I'm notic
-ing another 'bug' where it responds with incoherent texts that make no sense, if the system message token length is abov
-e approx 500+ (haven't thoroughly tested to know the threshold). It is fine with much less system token input. Am I craz
-y or is there some bug?
-```
----
-
-     
- 
-all -  [ Enhancing Local LLM's Understanding of Technical Documents ](https://www.reddit.com/r/LangChain/comments/1clui48/enhancing_local_llms_understanding_of_technical/) , 2024-05-07-0910
+all -  [ Enhancing Local LLM's Understanding of Technical Documents ](https://www.reddit.com/r/LangChain/comments/1clui48/enhancing_local_llms_understanding_of_technical/) , 2024-05-08-0909
 ```
 Hi
 
@@ -65,15 +586,7 @@ Thanks
 
      
  
-all -  [ Is my Resume bad or just the market (or both)? I've been getting pretty much no motion in the job ma ](https://i.redd.it/4epu27e3xuyc1.png) , 2024-05-07-0910
-```
-
-```
----
-
-     
- 
-all -  [ problem with multiple rag questions ](https://www.reddit.com/r/LangChain/comments/1clmt84/problem_with_multiple_rag_questions/) , 2024-05-07-0910
+all -  [ problem with multiple rag questions ](https://www.reddit.com/r/LangChain/comments/1clmt84/problem_with_multiple_rag_questions/) , 2024-05-08-0909
 ```
 hi, if i run my code for rag made with python and langchain,the firtst time everything goes well and in the second quest
 ion it spits out this error:
@@ -90,7 +603,7 @@ ValueError: Missing some
 
      
  
-all -  [ Local LLM and LangChain/lida ](https://www.reddit.com/r/LocalLLaMA/comments/1clm4e3/local_llm_and_langchainlida/) , 2024-05-07-0910
+all -  [ Local LLM and LangChain/lida ](https://www.reddit.com/r/LocalLLaMA/comments/1clm4e3/local_llm_and_langchainlida/) , 2024-05-08-0909
 ```
 Hi all, I'm just getting started with playing around with LLMs. I'm trying to follow tutorials for building a CSV chatbo
 t using Langchain and lida to do some analysis and visualizations. From what I can find online, both Langchain's create\
@@ -101,7 +614,7 @@ _csv\_agenet and lida require OpenAI's chatGPT. Is it possible to use these two 
 
      
  
-all -  [ Starting out with Langchain SQL: some questions ](https://www.reddit.com/r/LangChain/comments/1clj3k0/starting_out_with_langchain_sql_some_questions/) , 2024-05-07-0910
+all -  [ Starting out with Langchain SQL: some questions ](https://www.reddit.com/r/LangChain/comments/1clj3k0/starting_out_with_langchain_sql_some_questions/) , 2024-05-08-0909
 ```
 Hi,
 
@@ -129,7 +642,7 @@ If I can provide any more context, I'd be happy to do so. Thanks in advance.
 
      
  
-all -  [ Is it possible to get different similarity search results with same vector database on different mac ](https://www.reddit.com/r/vectordatabase/comments/1clg3rk/is_it_possible_to_get_different_similarity_search/) , 2024-05-07-0910
+all -  [ Is it possible to get different similarity search results with same vector database on different mac ](https://www.reddit.com/r/vectordatabase/comments/1clg3rk/is_it_possible_to_get_different_similarity_search/) , 2024-05-08-0909
 ```
 Hi, recently while I was building a RAG Chatbot I came through an issue i.e below is the code I executed on 4 different 
 machines(laptops)
@@ -157,7 +670,7 @@ t.
 
      
  
-all -  [ Is it possible to get different similarity search results with same vector database on different mac ](https://www.reddit.com/r/LangChain/comments/1clfwla/is_it_possible_to_get_different_similarity_search/) , 2024-05-07-0910
+all -  [ Is it possible to get different similarity search results with same vector database on different mac ](https://www.reddit.com/r/LangChain/comments/1clfwla/is_it_possible_to_get_different_similarity_search/) , 2024-05-08-0909
 ```
   
 Hi, recently while I was building a RAG Chatbot I came through an issue i.e below is the code I executed on 4 differe
@@ -187,7 +700,7 @@ utput.
 
      
  
-all -  [ 'GPT to perform 10x with my private knowledge' ](https://www.reddit.com/r/LangChain/comments/1clfhnk/gpt_to_perform_10x_with_my_private_knowledge/) , 2024-05-07-0910
+all -  [ 'GPT to perform 10x with my private knowledge' ](https://www.reddit.com/r/LangChain/comments/1clfhnk/gpt_to_perform_10x_with_my_private_knowledge/) , 2024-05-08-0909
 ```
 ['GPT to perform 10x with my private knowledge' - Local Agentic RAG w/- PDF , Website - Here is how (youtube.com)](https
 ://www.youtube.com/watch?v=5ModxAjKI3w&t=915s)
@@ -196,7 +709,7 @@ all -  [ 'GPT to perform 10x with my private knowledge' ](https://www.reddit.com
 
      
  
-all -  [ DSPy, a no prompt alternate for LangChain  ](https://www.reddit.com/r/LangChain/comments/1cldnq3/dspy_a_no_prompt_alternate_for_langchain/) , 2024-05-07-0910
+all -  [ DSPy, a no prompt alternate for LangChain  ](https://www.reddit.com/r/LangChain/comments/1cldnq3/dspy_a_no_prompt_alternate_for_langchain/) , 2024-05-08-0909
 ```
 DSPy is an alternate for LangChain, mainly for programmers to build GenAI apps without any prompt engineering by user. C
 heckout this beginner friendly tutorial to know the basics of DSPy to get started : 
@@ -207,7 +720,7 @@ EMVC1c7c174uR
 
      
  
-all -  [ Langchain Multi user api/app ](https://www.reddit.com/r/LangChain/comments/1clcva5/langchain_multi_user_apiapp/) , 2024-05-07-0910
+all -  [ Langchain Multi user api/app ](https://www.reddit.com/r/LangChain/comments/1clcva5/langchain_multi_user_apiapp/) , 2024-05-08-0909
 ```
 Has anyone here tried to do a multiuser app? Does langchain support it out of the box with configuration, or is this som
 ething that needs to be done on my own? It seems that loading several langchain agents takes quite a bit of time which m
@@ -225,7 +738,7 @@ they trigger Pandas/Excel processes which can take 30 seconds up to a 1 minute.
 
      
  
-all -  [ Long response time for Mistral 7b ](https://www.reddit.com/r/MistralAI/comments/1clcjle/long_response_time_for_mistral_7b/) , 2024-05-07-0910
+all -  [ Long response time for Mistral 7b ](https://www.reddit.com/r/MistralAI/comments/1clcjle/long_response_time_for_mistral_7b/) , 2024-05-08-0909
 ```
 Hi guys, currently I am using filipealmeida/Mistral-7B-Instruct-v0.1-sharded with 4 bits quantization as my RAG model wi
 th LangChain framework in Google Colab and has successfully utilize it, however the whole response time take really a lo
@@ -236,7 +749,7 @@ r pipeline?
 
      
  
-all -  [ Building simple reasoning agents without frameworks like Llamaindex or Langchain.  ](https://www.reddit.com/r/LocalLLaMA/comments/1clc6lz/building_simple_reasoning_agents_without/) , 2024-05-07-0910
+all -  [ Building simple reasoning agents without frameworks like Llamaindex or Langchain.  ](https://www.reddit.com/r/LocalLLaMA/comments/1clc6lz/building_simple_reasoning_agents_without/) , 2024-05-08-0909
 ```
 Hi everyone, 
 
@@ -264,7 +777,7 @@ API or function calling? I hope so. I'm kinda new to this and will appreciate an
 
      
  
-all -  [ langchain response in particular format ](https://www.reddit.com/r/Langchaindev/comments/1cl8hfg/langchain_response_in_particular_format/) , 2024-05-07-0910
+all -  [ langchain response in particular format ](https://www.reddit.com/r/Langchaindev/comments/1cl8hfg/langchain_response_in_particular_format/) , 2024-05-08-0909
 ```
 how to write a prompt which does the work of greeting by introducing it self and another prompt for giving question answ
 ers with memory added into it.kindly give the code and the prompt stacking approch using selfquery retrieval.
@@ -273,7 +786,7 @@ ers with memory added into it.kindly give the code and the prompt stacking appro
 
      
  
-all -  [ What are your current go to libraries? ](https://www.reddit.com/r/LocalLLaMA/comments/1cl6lx3/what_are_your_current_go_to_libraries/) , 2024-05-07-0910
+all -  [ What are your current go to libraries? ](https://www.reddit.com/r/LocalLLaMA/comments/1cl6lx3/what_are_your_current_go_to_libraries/) , 2024-05-08-0909
 ```
 There is a lot to keep up with and I was wanting to get an idea of what people are finding useful right now. Specificall
 y, programming libraries, not UI's.
@@ -307,7 +820,7 @@ ith (not really committed to use any one of them yet).
 
      
  
-all -  [ What is the most proper way to develop this chatbot? ](https://www.reddit.com/r/LangChain/comments/1cl522l/what_is_the_most_proper_way_to_develop_this/) , 2024-05-07-0910
+all -  [ What is the most proper way to develop this chatbot? ](https://www.reddit.com/r/LangChain/comments/1cl522l/what_is_the_most_proper_way_to_develop_this/) , 2024-05-08-0909
 ```
 Hey guys! Before I begin, thanks to those that took the time to read my post and hopefully respond, it's really much app
 reciated. Now onto our topic; I'm trying to build a conversation chatbot which objective is to offer to the user game re
@@ -337,7 +850,7 @@ e into consideration and make use of in order to achieve the desired results?
 
      
  
-all -  [ LLM use case for QA and reasoning. ](https://www.reddit.com/r/LangChain/comments/1cl4mx6/llm_use_case_for_qa_and_reasoning/) , 2024-05-07-0910
+all -  [ LLM use case for QA and reasoning. ](https://www.reddit.com/r/LangChain/comments/1cl4mx6/llm_use_case_for_qa_and_reasoning/) , 2024-05-08-0909
 ```
 I have a use case, where I have textual data. I have to extract information from it. Some of the data is direct and can 
 be assigned directly. Others are not so-direct, like total weight, total quantity, these values are supposed to be calcu
@@ -354,7 +867,7 @@ ce of model.
 
      
  
-all -  [ Do Output Parser like the JSON one, have a retry option? ](https://www.reddit.com/r/LangChain/comments/1ckzzfs/do_output_parser_like_the_json_one_have_a_retry/) , 2024-05-07-0910
+all -  [ Do Output Parser like the JSON one, have a retry option? ](https://www.reddit.com/r/LangChain/comments/1ckzzfs/do_output_parser_like_the_json_one_have_a_retry/) , 2024-05-08-0909
 ```
 Hi I am currently struglling with how to approach error handling with a JSON output parser. Can it do retries? I feel li
 ke every output parser should just allow retry by default, because often the result can be bad for 1 - 2 requests and th
@@ -366,7 +879,7 @@ If not then is it possible to use retryOutput parser with LCEL?
 
      
  
-all -  [ Local model based RAG ChatBot ](https://www.reddit.com/r/LangChain/comments/1cktopp/local_model_based_rag_chatbot/) , 2024-05-07-0910
+all -  [ Local model based RAG ChatBot ](https://www.reddit.com/r/LangChain/comments/1cktopp/local_model_based_rag_chatbot/) , 2024-05-08-0909
 ```
 Hi,
 
@@ -384,7 +897,7 @@ mic-embed it's not producing very good results. What should i do to overcome thi
 
      
  
-all -  [ Need help in Structured Extraction of data ](https://www.reddit.com/r/LangChain/comments/1ckt04y/need_help_in_structured_extraction_of_data/) , 2024-05-07-0910
+all -  [ Need help in Structured Extraction of data ](https://www.reddit.com/r/LangChain/comments/1ckt04y/need_help_in_structured_extraction_of_data/) , 2024-05-08-0909
 ```
 Hey , I have been dabbling with a few methods to extract data from a corpus of documents in structured format and have b
 een experimenting with pydantic classes and even agents. But still, I am not able to achieve the desired result. I follo
@@ -401,7 +914,7 @@ Thanks!
 
      
  
-all -  [ Using Weaviate & Langchain together ](https://www.reddit.com/r/LangChain/comments/1ckszg1/using_weaviate_langchain_together/) , 2024-05-07-0910
+all -  [ Using Weaviate & Langchain together ](https://www.reddit.com/r/LangChain/comments/1ckszg1/using_weaviate_langchain_together/) , 2024-05-08-0909
 ```
 Hey everyone,  
 Does anyone have any good tutorials or blogpost about how to use weaviate as a vector store and use Lang
@@ -413,7 +926,7 @@ ial documentation from Langchain work when I perform all these actions sequentia
 
      
  
-all -  [ Resume of a 2023 graduate targeting machine learning roles. ](https://www.reddit.com/r/developersIndia/comments/1ckrno0/resume_of_a_2023_graduate_targeting_machine/) , 2024-05-07-0910
+all -  [ Resume of a 2023 graduate targeting machine learning roles. ](https://www.reddit.com/r/developersIndia/comments/1ckrno0/resume_of_a_2023_graduate_targeting_machine/) , 2024-05-08-0909
 ```
 Hello all, I am a 2023 graduate, I have been jobless since graduation but I have been trying hard to get a job. During t
 his whole break I have not stopped and kept myself up to date with the latest technologies in machine learning and tried
@@ -432,7 +945,7 @@ Please help me out, any kind of feedback will be appreciated.
 
      
  
-all -  [ Fine tuning for Function Calling ](https://www.reddit.com/r/LangChain/comments/1ckpwg4/fine_tuning_for_function_calling/) , 2024-05-07-0910
+all -  [ Fine tuning for Function Calling ](https://www.reddit.com/r/LangChain/comments/1ckpwg4/fine_tuning_for_function_calling/) , 2024-05-08-0909
 ```
 Is it a good idea to fine tune a cheaper model like chatgpt 3.5 and train it on your function calling samples where the 
 tool is basically a http fetch request to get data from API based on parameters in the user's query?
@@ -448,7 +961,7 @@ ering this but posting this to check if someone found this viable?
 
      
  
-all -  [ help in creating a RAG chatbot  ](https://www.reddit.com/r/LangChain/comments/1ckoupq/help_in_creating_a_rag_chatbot/) , 2024-05-07-0910
+all -  [ help in creating a RAG chatbot  ](https://www.reddit.com/r/LangChain/comments/1ckoupq/help_in_creating_a_rag_chatbot/) , 2024-05-08-0909
 ```
 Hi Guy i need your help!  
   
@@ -523,7 +1036,7 @@ any help.
 
      
  
-all -  [ Question on Multi lingual data ](https://www.reddit.com/r/LangChain/comments/1ckmuq2/question_on_multi_lingual_data/) , 2024-05-07-0910
+all -  [ Question on Multi lingual data ](https://www.reddit.com/r/LangChain/comments/1ckmuq2/question_on_multi_lingual_data/) , 2024-05-08-0909
 ```
 Hi, I’m trying to build a Chat bot for our org using langchain. The knowledge base is primarily Wordpress blogs, books a
 nd YouTube videos.
@@ -535,7 +1048,7 @@ ripts irrespective of language using a multi lingual model from something like c
 
      
  
-all -  [ Prompt Engineering Testing Suite...? ](https://www.reddit.com/r/PromptEngineering/comments/1ckkw3t/prompt_engineering_testing_suite/) , 2024-05-07-0910
+all -  [ Prompt Engineering Testing Suite...? ](https://www.reddit.com/r/PromptEngineering/comments/1ckkw3t/prompt_engineering_testing_suite/) , 2024-05-08-0909
 ```
 Hi fellow prompters, good to meet you!
 
@@ -562,7 +1075,7 @@ Thanks :)
 
      
  
-all -  [ 3rd year student studying CS ](https://www.reddit.com/r/resumes/comments/1ckkc7b/3rd_year_student_studying_cs/) , 2024-05-07-0910
+all -  [ 3rd year student studying CS ](https://www.reddit.com/r/resumes/comments/1ckkc7b/3rd_year_student_studying_cs/) , 2024-05-08-0909
 ```
 I have applied to around 300-400 companies this year and have received a couple interviews but majority negative respons
 es. I feel like there is something going wrong with my resume and any feedback is highly appreciated
@@ -576,7 +1089,7 @@ dd.it/xto1ucqarjyc1.jpg?width=850&format=pjpg&auto=webp&s=f96cc2f0c27092584961b6
 
      
  
-all -  [ [For Hire] I will be your AI Consultant for free  ](https://www.reddit.com/r/jobbit/comments/1ckhkcj/for_hire_i_will_be_your_ai_consultant_for_free/) , 2024-05-07-0910
+all -  [ [For Hire] I will be your AI Consultant for free  ](https://www.reddit.com/r/jobbit/comments/1ckhkcj/for_hire_i_will_be_your_ai_consultant_for_free/) , 2024-05-08-0909
 ```
 Are you intrigued by the AI trend but unsure how it could enhance your business, leading to a sense of FOMO? Fear not! 
 
@@ -594,746 +1107,7 @@ Drop me a DM with your availability, and let's delve into the specifics of your 
 
      
  
-all -  [ Error code: 400 - {'error': {'message': '[] is too short - 'tools'', 'type': 'invalid_request_error' ](https://www.reddit.com/r/LangChain/comments/1ckd61h/error_code_400_error_message_is_too_short_tools/) , 2024-05-07-0910
-```
-Hey guys! I'm trying to create a conversation chatbot the specializes in offering video games recommendations based on t
-he user preferences found in his input. Though, right now, when I'm trying to run it, I'm being faced with the error abo
-ve, does anybody have any idea as to what the problem may be?
-
-Also, is there any way to make sure that an execution of 
-an agent does not move to the other until all the requirements are met? For e.g., I have an input agent that's tasked to
- collect the user's prompt and extract the important info from there. But how would I manage a case where the user might
- input a query that talks about something completely different?
-
-Thank you guys!
-
-Here is my code too:
-
-    import os
-  
-  from dotenv import load_dotenv
-    from langchain_openai import ChatOpenAI
-    from langchain_core.messages import Hum
-anMessage, BaseMessage
-    from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-    from langchain
-.agents import create_openai_tools_agent, Tool
-    from langgraph.graph import StateGraph, END
-    from typing import An
-notated, Sequence, TypedDict
-    import operator
-    from serpapi import GoogleSearch
-    
-    # Load environment variab
-les for API keys
-    load_dotenv()
-    
-    # Configuration
-    serpapi_key = os.getenv('SERPAPI_API_KEY')
-    
-    # De
-fine tools using SerpAPI
-    def google_search(query):
-        params = {
-            'engine': 'google',
-            'q
-': query,
-            'api_key': serpapi_key,
-            'num': 5
-        }
-        search = GoogleSearch(params)
-     
-   results = search.get_dict()
-        return results['organic_results']
-    
-    def youtube_search(query):
-        par
-ams = {
-            'engine': 'youtube',
-            'search_query': query,
-            'api_key': serpapi_key
-        }
-
-        search = GoogleSearch(params)
-        results = search.get_dict()
-        return results['video_results']
-    
-
-    def images_search(query):
-        params = {
-            'engine': 'google_images',
-            'google_domain': 'go
-ogle.com',
-            'q': query,
-            'api_key': serpapi_key
-        }
-        search = GoogleSearch(params)
-  
-      results = search.get_dict()
-        return results['images_results']
-    
-    # Define tools
-    search_tool = Too
-l(name='google_search', description='Performs Google searches.', func=google_search)
-    youtube_tool = Tool(name='youTu
-be_search', description='Searches for YouTube videos.', func=youtube_search)
-    images_tool = Tool(name='images_search'
-, description='Searches for images on Google Images.', func=images_search)
-    
-    # Setup the ChatOpenAI model for con
-versational interactions
-    chat_model = ChatOpenAI(model='gpt-3.5-turbo-1106', temperature=0)
-    
-    # Define agent 
-prompts
-    input_agent_prompt = ChatPromptTemplate.from_messages([
-        ('system', 'You are the initial contact poin
-t for users. Your role is to gather information about the user's preferences and interests in video games and make sure 
-you understand their requirements. In case of any ambiguity, ask for clarification or in the case of the query not being
- related to video games, ask for a different query.'),
-        MessagesPlaceholder(variable_name='messages'),
-        Me
-ssagesPlaceholder(variable_name='agent_scratchpad'),
-        ('human', '{input}')
-    ])
-    
-    search_agent_prompt = 
-ChatPromptTemplate.from_messages([
-        ('system', 'Your main task is to search for game titles that best match the u
-ser's interest. Use the details from the Input Agent to guide your search. Provide a list of relevant game titles.'),
-  
-      MessagesPlaceholder(variable_name='messages'),
-        MessagesPlaceholder(variable_name='agent_scratchpad'),
-    
-    ('human', '{input}')
-    ])
-    
-    details_agent_prompt = ChatPromptTemplate.from_messages([
-        ('system', 'R
-etrieve detailed information for each game identified by the Search Agent. Focus on obtaining the game's description, ge
-nre, platform availability, developer, publisher, release date, Metacritic score if available and links to digital store
-s that sell the game.'),
-        MessagesPlaceholder(variable_name='messages'),
-        MessagesPlaceholder(variable_nam
-e='agent_scratchpad'),
-        ('human', '{input}')
-    ])
-    
-    posters_agent_prompt = ChatPromptTemplate.from_messa
-ges([
-        ('system', 'Your responsibility is to fetch the official posters for the games provided by the Search Agen
-t. Ensure the images are high quality and relevant.'),
-        MessagesPlaceholder(variable_name='messages'),
-        Me
-ssagesPlaceholder(variable_name='agent_scratchpad'),
-        ('human', '{input}')
-    ])
-    
-    trailers_agent_prompt 
-= ChatPromptTemplate.from_messages([
-        ('system', 'Obtain the official game trailers for the titles identified by 
-the Search Agent. Ensure that the trailers are current and of high quality.'),
-        MessagesPlaceholder(variable_name
-='messages'),
-        MessagesPlaceholder(variable_name='agent_scratchpad'),
-        ('human', '{input}')
-    ])
-    
-  
-  recommendation_agent_prompt = ChatPromptTemplate.from_messages([
-        ('system', 'You are responsible for compiling
- the outputs from all other agents into a cohesive and well-formatted response. Synthesize the game details, images, and
- trailers into a compelling presentation of game recommendations.'),
-        MessagesPlaceholder(variable_name='messages
-'),
-        MessagesPlaceholder(variable_name='agent_scratchpad'),
-        ('human', '{input}')
-    ])
-    
-    # Create
- agents using the prompts
-    input_agent = create_openai_tools_agent(chat_model, [], input_agent_prompt)
-    search_age
-nt = create_openai_tools_agent(chat_model, [search_tool], search_agent_prompt)
-    details_agent = create_openai_tools_a
-gent(chat_model, [search_tool], details_agent_prompt)
-    posters_agent = create_openai_tools_agent(chat_model, [images_
-tool], posters_agent_prompt)
-    trailers_agent = create_openai_tools_agent(chat_model, [youtube_tool], trailers_agent_p
-rompt)
-    recommendation_agent = create_openai_tools_agent(chat_model, [], recommendation_agent_prompt)
-    
-    # Stat
-e definition for agents
-    class AgentState(TypedDict):
-        messages: Annotated[Sequence[BaseMessage], operator.add
-]
-        intermediate_steps: Annotated[Sequence[BaseMessage], operator.add]
-        agent_scratchpad: Annotated[Sequenc
-e[BaseMessage], operator.add]
-        input: str
-    
-    # Graph setup
-    state_graph = StateGraph(schema=AgentState)
-
-    
-    # Add nodes for each agent
-    state_graph.add_node('input_agent', input_agent)
-    state_graph.add_node('searc
-h_agent', search_agent)
-    state_graph.add_node('details_agent', details_agent)
-    state_graph.add_node('posters_agent
-', posters_agent)
-    state_graph.add_node('trailers_agent', trailers_agent)
-    state_graph.add_node('recommendation_ag
-ent', recommendation_agent)
-    
-    # Define edges to flow between agents
-    state_graph.add_edge('input_agent', 'sear
-ch_agent')
-    state_graph.add_edge('search_agent', 'details_agent')
-    state_graph.add_edge('details_agent', 'posters_
-agent')
-    state_graph.add_edge('posters_agent', 'trailers_agent')
-    state_graph.add_edge('trailers_agent', 'recommen
-dation_agent')
-    state_graph.add_edge('recommendation_agent', END)
-    
-    # Set the entry point to start the agent w
-orkflow
-    state_graph.set_entry_point('input_agent')
-    
-    # Complete the graph
-    app = state_graph.compile()
-   
- 
-    def main():
-        print('Welcome to the Game Recommendation Chatbot!')
-        while True:
-            user_inpu
-t = input('You: ')
-            if user_input.lower() == 'exit':
-                print('Exiting chatbot...')
-            
-    break
-            # Initialize the state with the necessary structures
-            state = {
-                'messag
-es': [HumanMessage(content=user_input)],
-                'agent_scratchpad': [],  # ensure this is always a list
-       
-         'intermediate_steps': [],  # ensure this is always initialized as a list
-                'input': user_input  #
- this is your actual input string
-            }
-            response = app.invoke(state)
-            print('Bot:', respo
-nse['messages'][-1].content)
-    
-    if __name__ == '__main__':
-        main()
-    import os
-    from dotenv import loa
-d_dotenv
-    from langchain_openai import ChatOpenAI
-    from langchain_core.messages import HumanMessage, BaseMessage
- 
-   from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-    from langchain.agents import create_op
-enai_tools_agent, Tool
-    from langgraph.graph import StateGraph, END
-    from typing import Annotated, Sequence, Typed
-Dict
-    import operator
-    from serpapi import GoogleSearch
-    
-    
-    # Load environment variables for API keys
-  
-  load_dotenv()
-    
-    
-    # Configuration
-    serpapi_key = os.getenv('SERPAPI_API_KEY')
-    
-    
-    # Define tool
-s using SerpAPI
-    def google_search(query):
-        params = {
-            'engine': 'google',
-            'q': query,
-
-            'api_key': serpapi_key,
-            'num': 5
-        }
-        search = GoogleSearch(params)
-        result
-s = search.get_dict()
-        return results['organic_results']
-    
-    
-    def youtube_search(query):
-        params 
-= {
-            'engine': 'youtube',
-            'search_query': query,
-            'api_key': serpapi_key
-        }
-   
-     search = GoogleSearch(params)
-        results = search.get_dict()
-        return results['video_results']
-    
-    
-
-    def images_search(query):
-        params = {
-            'engine': 'google_images',
-            'google_domain': 'g
-oogle.com',
-            'q': query,
-            'api_key': serpapi_key
-        }
-        search = GoogleSearch(params)
- 
-       results = search.get_dict()
-        return results['images_results']
-    
-    
-    # Define tools
-    search_tool
- = Tool(name='google_search', description='Performs Google searches.', func=google_search)
-    youtube_tool = Tool(name=
-'youTube_search', description='Searches for YouTube videos.', func=youtube_search)
-    images_tool = Tool(name='images_s
-earch', description='Searches for images on Google Images.', func=images_search)
-    
-    
-    # Setup the ChatOpenAI mo
-del for conversational interactions
-    chat_model = ChatOpenAI(model='gpt-3.5-turbo-1106', temperature=0)
-    
-    
-   
- # Define agent prompts
-    input_agent_prompt = ChatPromptTemplate.from_messages([
-        ('system', 'You are the init
-ial contact point for users. Your role is to gather information about the user's preferences and interests in video game
-s and make sure you understand their requirements. In case of any ambiguity, ask for clarification or in the case of the
- query not being related to video games, ask for a different query.'),
-        MessagesPlaceholder(variable_name='messag
-es'),
-        MessagesPlaceholder(variable_name='agent_scratchpad'),
-        ('human', '{input}')
-    ])
-    
-    
-    s
-earch_agent_prompt = ChatPromptTemplate.from_messages([
-        ('system', 'Your main task is to search for game titles 
-that best match the user's interest. Use the details from the Input Agent to guide your search. Provide a list of releva
-nt game titles.'),
-        MessagesPlaceholder(variable_name='messages'),
-        MessagesPlaceholder(variable_name='age
-nt_scratchpad'),
-        ('human', '{input}')
-    ])
-    
-    
-    details_agent_prompt = ChatPromptTemplate.from_messag
-es([
-        ('system', 'Retrieve detailed information for each game identified by the Search Agent. Focus on obtaining 
-the game's description, genre, platform availability, developer, publisher, release date, Metacritic score if available 
-and links to digital stores that sell the game.'),
-        MessagesPlaceholder(variable_name='messages'),
-        Messag
-esPlaceholder(variable_name='agent_scratchpad'),
-        ('human', '{input}')
-    ])
-    
-    
-    posters_agent_prompt 
-= ChatPromptTemplate.from_messages([
-        ('system', 'Your responsibility is to fetch the official posters for the ga
-mes provided by the Search Agent. Ensure the images are high quality and relevant.'),
-        MessagesPlaceholder(variab
-le_name='messages'),
-        MessagesPlaceholder(variable_name='agent_scratchpad'),
-        ('human', '{input}')
-    ])
-
-    
-    
-    trailers_agent_prompt = ChatPromptTemplate.from_messages([
-        ('system', 'Obtain the official game tr
-ailers for the titles identified by the Search Agent. Ensure that the trailers are current and of high quality.'),
-     
-   MessagesPlaceholder(variable_name='messages'),
-        MessagesPlaceholder(variable_name='agent_scratchpad'),
-       
- ('human', '{input}')
-    ])
-    
-    
-    recommendation_agent_prompt = ChatPromptTemplate.from_messages([
-        ('sy
-stem', 'You are responsible for compiling the outputs from all other agents into a cohesive and well-formatted response.
- Synthesize the game details, images, and trailers into a compelling presentation of game recommendations.'),
-        Me
-ssagesPlaceholder(variable_name='messages'),
-        MessagesPlaceholder(variable_name='agent_scratchpad'),
-        ('hu
-man', '{input}')
-    ])
-    
-    
-    # Create agents using the prompts
-    input_agent = create_openai_tools_agent(chat
-_model, [], input_agent_prompt)
-    search_agent = create_openai_tools_agent(chat_model, [search_tool], search_agent_pro
-mpt)
-    details_agent = create_openai_tools_agent(chat_model, [search_tool], details_agent_prompt)
-    posters_agent = 
-create_openai_tools_agent(chat_model, [images_tool], posters_agent_prompt)
-    trailers_agent = create_openai_tools_agen
-t(chat_model, [youtube_tool], trailers_agent_prompt)
-    recommendation_agent = create_openai_tools_agent(chat_model, []
-, recommendation_agent_prompt)
-    
-    
-    # State definition for agents
-    class AgentState(TypedDict):
-        mess
-ages: Annotated[Sequence[BaseMessage], operator.add]
-        intermediate_steps: Annotated[Sequence[BaseMessage], operat
-or.add]
-        agent_scratchpad: Annotated[Sequence[BaseMessage], operator.add]
-        input: str
-    
-    
-    # Grap
-h setup
-    state_graph = StateGraph(schema=AgentState)
-    
-    
-    # Add nodes for each agent
-    state_graph.add_nod
-e('input_agent', input_agent)
-    state_graph.add_node('search_agent', search_agent)
-    state_graph.add_node('details_a
-gent', details_agent)
-    state_graph.add_node('posters_agent', posters_agent)
-    state_graph.add_node('trailers_agent'
-, trailers_agent)
-    state_graph.add_node('recommendation_agent', recommendation_agent)
-    
-    
-    # Define edges to
- flow between agents
-    state_graph.add_edge('input_agent', 'search_agent')
-    state_graph.add_edge('search_agent', 'd
-etails_agent')
-    state_graph.add_edge('details_agent', 'posters_agent')
-    state_graph.add_edge('posters_agent', 'tra
-ilers_agent')
-    state_graph.add_edge('trailers_agent', 'recommendation_agent')
-    state_graph.add_edge('recommendatio
-n_agent', END)
-    
-    
-    # Set the entry point to start the agent workflow
-    state_graph.set_entry_point('input_ag
-ent')
-    
-    
-    # Complete the graph
-    app = state_graph.compile()
-    
-    
-    def main():
-        print('Welcom
-e to the Game Recommendation Chatbot!')
-        while True:
-            user_input = input('You: ')
-            if user_
-input.lower() == 'exit':
-                print('Exiting chatbot...')
-                break
-            # Initialize the 
-state with the necessary structures
-            state = {
-                'messages': [HumanMessage(content=user_input)]
-,
-                'agent_scratchpad': [],  # ensure this is always a list
-                'intermediate_steps': [],  # e
-nsure this is always initialized as a list
-                'input': user_input  # this is your actual input string
-     
-       }
-            response = app.invoke(state)
-            print('Bot:', response['messages'][-1].content)
-    
-    
-
-    if __name__ == '__main__':
-        main()
-```
----
-
-     
- 
-all -  [ Is there any agent that can do RAG across my GDrive, Gmail, & GitHub? ](https://www.reddit.com/r/LangChain/comments/1ckbmf0/is_there_any_agent_that_can_do_rag_across_my/) , 2024-05-07-0910
-```
-Not looking to build my own system per se, just looking for something open source (doesn't have to use langchain) that c
-an use tools (code interp, web browsing, make google drive files, sending emails, replying to github issues) and perform
- RAG across all my google drive documents, emails, and code.
-
-Apologies if this is too ambitious or too much to ask for 
-with the current state of things.
-```
----
-
-     
- 
-all -  [ How to train an LLM with data that contains text and numeric modality ](https://www.reddit.com/r/LangChain/comments/1ckapb8/how_to_train_an_llm_with_data_that_contains_text/) , 2024-05-07-0910
-```
-Hi, I am newbie interested in training LLMs on csv dataset that contains text data (few sentences about a product) and n
-umeric data(its ratings). I have around 200k rows and would to like to train an LLM but I am unable to do it. Can anyone
- here guide me or share any resource which could help me.
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Integrating PGVector with Hugging Face Embeddings: Addressing Dimension Mismatch Errors ](https://www.reddit.com/r/LangChain/comments/1ck8mj0/integrating_pgvector_with_hugging_face_embeddings/) , 2024-05-07-0910
-```
-Has anyone used PGVector with HuggingFaceEmbeddings? I'm encountering an error message: 'psycopg2.errors.DataException: 
-different vector dimensions 384 and 1536'.
-```
----
-
-     
- 
-all -  [ CS/SWE Resume review ](https://www.reddit.com/r/resumes/comments/1ck7wlt/csswe_resume_review/) , 2024-05-07-0910
-```
-Hi, I am a rising junior at a university in the United States studying CS looking to get a resume review in anticipation
- of the upcoming internship application releases for summer 2025. I am a US citizen, asian, male. Last season I got no r
-esponses from recruiters, but have since added more to my resume. Thanks.
-
-https://preview.redd.it/hduv6d8dkgyc1.png?wid
-th=1158&format=png&auto=webp&s=ecc7f514dea13890e11eed039b3667182f8604bd
-
-
-```
----
-
-     
- 
-all -  [ Why AI Assistants Can Be Better Than Human VAs ](https://www.reddit.com/r/LangChain/comments/1ck67xs/why_ai_assistants_can_be_better_than_human_vas/) , 2024-05-07-0910
-```
- let’s outline *what* VAs even do. As a creator yourself, you balance big projects with smaller, repetitive tasks like a
-nswering emails, scheduling meetings & writing smaller pieces of content.
-
-And that’s where your partner in time, your V
-A comes in — they handle all of the tedious tasks on your behalf, giving you the freedom to concentrate fully on the imp
-ortant things in your life & business.
-
->Recent stats show Virtual assistants save companies up to 78% in operating cost
-s per year, and the VA market is projected to grow 22.3% annually, reaching $8.6B by 2028 — this is definitely a sector 
-to pay close attention to.
-
-As the demand for efficiency in our workflows increases, it's worth knowing the potential of
- AI assistants, because why wouldn’t you want to get more time back? Here are the core reasons why AI assistants are bet
-ter than traditional VAs:
-
-1. **Cost-Effectiveness** – traditional VAs are invaluable but come with recurring costs — sa
-laries, benefits, and more. AI assistants, on the other hand, involve a one-time setup fee and minimal ongoing costs.
-
-1
-. **24/7 Availability** – your business needs don’t stop at 5 PM, and neither does an AI assistant. Unlike human VAs who
- clock out, AI can work round-the-clock, able to complete any given task at any time.
-
-1. **Consistency & Accuracy** – A
-I minimizes human errors in data entry, scheduling, and customer communication, maintaining high consistency in performa
-nce.
-
->This reliability is key in managing operations that demand precision, like tailored content creation or respondin
-g to an important business email, for example.
-
-1. **Adaptability** – training a new assistant takes time and resources.
- AI assistants, however, can be quickly trained to manage new tasks, adapting & evolving alongside your business.
-
-1. **
-Accessibility** – with numerous AI tools available, starting is as easy as signing up and setting up — no lengthy recrui
-tment or training is required (if you aren’t creating your very own AI assistant, in which case it’s a tad more complex)
-. 
-
-However, we must mention the main negative of artificial intelligence – it lacks the human aspect, and therefore AI 
-Assistants could ***never*** replace real VAs.
-
->The human element is crucial, as it brings empathy, creativity, and int
-uitive problem-solving to tasks that AI simply can't replicate, and the best way to get the best of both worlds is to in
-tegrate AI tools in your virtual assistant’s workflow — we’ll show you how to turn your VA into a cyborg very soon!
-```
----
-
-     
- 
-all -  [ How should I develop a RAG ChatBot that uses a Pandas Dataframe as a source? ](https://www.reddit.com/r/LangChain/comments/1ck54cw/how_should_i_develop_a_rag_chatbot_that_uses_a/) , 2024-05-07-0910
-```
-Hi, I am new to LangChain and I am developing a application that uses a Pandas Dataframe as document original a Microsof
-t Excel sheet. I need it answer questions based on it. 
-
-How should I proceed? Should I ditch the DataFrame approach and
- interface it directly ?
-
-How should I use approach it?
-
-How should I add history as i need to have GUI.
-```
----
-
-     
- 
-all -  [ How to use LLama -3/LLama-2  Model on Nvidia GPU? ](https://www.reddit.com/r/LangChain/comments/1ck4sy9/how_to_use_llama_3llama2_model_on_nvidia_gpu/) , 2024-05-07-0910
-```
-So far, I've been using the OpenAI API to build a RAG application with Langchain. Now, I'm exploring LLama 3/LLama-2 wit
-h GPU support. Can anyone suggest a tutorial for this with Langchain?
-```
----
-
-     
- 
-all -  [ What are some ways to test and improve my RAGs retrieval strategy? ](https://www.reddit.com/r/LangChain/comments/1ck3k84/what_are_some_ways_to_test_and_improve_my_rags/) , 2024-05-07-0910
-```
-Looking for some tried and tested ways to measure and improve my RAGs retrieval strategy.
-```
----
-
-     
- 
-all -  [ How to add memory to multi- chain with RunnableWithMessageHistory? ](https://www.reddit.com/r/LangChain/comments/1ck2zy8/how_to_add_memory_to_multi_chain_with/) , 2024-05-07-0910
-```
-Let's say we have two chain , like this:
-
-    prompt1 =  'some prompts here 1'
-    prompt2 = 'some prompts here 2'
-    
-
-    chain1 = prompt1 | model
-    chain2 = prompt2 | model 
-    
-    combine_chain = chain1 | chain2
-
-My question is how 
-to add memory to combine\_chain with RunnableWithMessageHistory? 
-
-The official document just show how to add it in sing
-le chain .  I tried that way for combine\_chain, but it doesn't work.  Because prompt2 always need to pass the parameter
- of  'history' which I don't how to pass it. （suppose we have history\_messages\_key='history').
-
-I'm stuck on this prob
-lem. I will be very thankful to anyone who can help on it. 
-
-For reference here,  the office document show how to add me
-mory to single chain with RunnableWithMessageHistory:  [https://python.langchain.com/docs/expression\_language/how\_to/m
-essage\_history/](https://python.langchain.com/docs/expression_language/how_to/message_history/)
-
-  
-
-```
----
-
-     
- 
-all -  [ Amazon Bedrock - The Complete Guide to AWS Generative AI ](https://www.reddit.com/r/Udemy/comments/1ck08c6/amazon_bedrock_the_complete_guide_to_aws/) , 2024-05-07-0910
-```
-Learn to Deploy Scalable, Reliable, and Secure Generative AI Apps Using AWS and Amazon Bedrock (Python and TypeScript)
-
-
-# Introductory Price of only $9.99
-
-# [https://www.udemy.com/course/amazon-bedrock-aws-generative-ai/?couponCode=STARTER
-](https://www.udemy.com/course/amazon-bedrock-aws-generative-ai/?couponCode=STARTER)
-
-\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
-\*\*\*\*\*\*\*\*\*\*
-
-**Unleash the Power of Generative AI on AWS with This Comprehensive Course!**
-
-Welcome to **Amazon
- Bedrock - The Ultimate Guide to AWS Generative AI** – your gateway to mastering the fusion of cutting-edge AI technolog
-y and the unparalleled scalability of Amazon Web Services (AWS).
-
-In this course, you'll dive deep into the world of Gen
-erative AI, harnessing its potential to create innovative solutions across diverse domains. Whether you're a seasoned da
-ta scientist, a visionary entrepreneur, or a curious developer, this course is your ticket to unlocking limitless possib
-ilities.
-
-**Key Highlights**:
-
-* **Hands-On Practice**: Dive right into real-world scenarios with practical exercises us
-ing Python's boto3, JavaScript SDKs, and TypeScript, coupled with VSCode debugging for seamless development.
-* **Text an
-d Image Models**: Explore the magic of text generation with chatbots, delve into image generation with state-of-the-art 
-models, and master embedding techniques for vector databases.
-* **Advanced Applications**: From LangChain to RAG apps an
-d document processing, you'll explore a wide array of advanced applications, empowering you to tackle complex challenges
- with confidence.
-* **Amazon Bedrock Mastery**: Get up close and personal with Amazon Bedrock – the game-changer for dep
-loying scalable, reliable, and secure Generative AI applications on AWS. Practice sections ensure you're well-versed wit
-h Bedrock, ready to tackle any project.
-
-**Key topics** covered in this course include:
-
-* **Amazon Bedrock** introducti
-on and setup for console and CLI access
-* Code examples with **Python** and **TypeScript**
-* Integration between **Bedro
-ck** and **LagChain**
-* Building an **Amazon Bedrock** chatbot with **history**
-* Building Image APIs backed by **Amazon
- Bedrock**
-* Learn all about the essence of AI: embeddings with **Bedrock**
-* Build state-of-the-art **RAG app** with Be
-drock Knowledge bases
-* **Fine-tune** models and create your **custom models**.
-
-**Why Choose This Course?**
-
-* Expert G
-uidance: Learn from industry experts with years of experience in AI and AWS.
-* Practical Approach: Gain hands-on experie
-nce with guided exercises and real-world case studies.
-
-Don't miss out on this opportunity to become a trailblazer in th
-e world of AI innovation! Enroll now and embark on your journey to becoming a Generative AI expert with Amazon Bedrock a
-nd AWS.
-
-Go beyond the theory and learn from **active instructors**, aligned with today's programming demands!
-
-Let's re
-volutionize the future together!  
-[https://www.udemy.com/course/amazon-bedrock-aws-generative-ai/?couponCode=STARTER](h
-ttps://www.udemy.com/course/amazon-bedrock-aws-generative-ai/?couponCode=STARTER)
-```
----
-
-     
- 
-all -  [ Vector dbs to use for specific use-case ](https://www.reddit.com/r/LangChain/comments/1cjz0lt/vector_dbs_to_use_for_specific_usecase/) , 2024-05-07-0910
-```
-A lot of vector dbs are available for RAG and LLM based projects. How will you choose the best one for your use-case? Is
- there a set of criteria to follow for choosing a specific vector db for your project? Lmk what you think
-```
----
-
-     
- 
-MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-07-0910
+MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-08-0909
 ```
 Hey there, Redditors!
 
@@ -1374,7 +1148,7 @@ hub repo](https://github.com/topoteretes/cognee)
 
      
  
-deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-07-0910
+deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-08-0909
 ```
 Hi all
 
@@ -1419,7 +1193,7 @@ ms with Langchain, what about prompt chaining?
 
      
  
-deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-07-0910
+deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-08-0909
 ```
 Hi, I'm looking at some LLM applications today but apart from guys doing big rags with langchain I don't see too many us
 es that are out of the box or that make me say 'wow that was smart to use an LLM here'. Have you seen any cool stuff usi
