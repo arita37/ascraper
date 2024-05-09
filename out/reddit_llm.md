@@ -1,5 +1,1014 @@
  
-all -  [ Using LangChain agents to create a multi-agent platform that creates robot softwares ](https://www.reddit.com/r/LangChain/comments/1cmquwv/using_langchain_agents_to_create_a_multiagent/) , 2024-05-08-0909
+all -  [ Token Limits, Consistency, & LLM in Code ](https://www.reddit.com/r/ChatGPTPro/comments/1cnhxqt/token_limits_consistency_llm_in_code/) , 2024-05-09-0910
+```
+**If you don’t want to read:**
+
+* How do I address token limits without reducing tokens? Also, can someone explain top p
+?
+* How to improve custom GPT consistency and quantitatively measure it? I heard about temperature but what else?
+* Wher
+e to start for implementing LLM in code? 
+
+**Context**
+
+TOKEN LIMITS - I need to input over hundreds of thousands or eve
+n millions of tokens in a single run (via excel/csv file). Maximum split it up into like 5-10 runs. Despite higher token
+ limits, it gets lazy, gives errors, etc. 
+
+CONSISTENCY - Custom GPT outputs are inconsistent and I need more consistenc
+y. I heard about temperature and gave GPT an examples set but its still fairly inconsistent and I want to know how to me
+asure this more rigorously.
+
+LLM in PYTHON - I have experience with Python but not LLM in python. Should I start with La
+ngChain and what resources should I follow? I want to experiment with this although my main concern later on is my team 
+doesn’t code so I don’t know how sustainable a 'code built model' would be in the long term.
+
+...... 
+
+THANK YOU!
+```
+---
+
+     
+ 
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1cnhul6/list_of_free_and_best_selling_discounted_courses/) , 2024-05-09-0910
+```
+## Udemy Free Courses for 09 May 2024
+
+*Note : Coupons might expire anytime, so enroll as soon as possible to get the co
+urses for FREE.*
+
+* Crea sistemas Ecommerce con PHP y MySQL V2.0[REDEEM OFFER](https://idownloadcoupon.com/udemy/4790/)
+
+* Curso Google Sites 2024: Cómo Crear Páginas Web Desde Cero[REDEEM OFFER](https://idownloadcoupon.com/udemy/4789/)
+* Cu
+rso de Wix 2024: Cómo Crear una Página Web Desde Cero[REDEEM OFFER](https://idownloadcoupon.com/udemy/4788/)
+* Wealth Ma
+nagement, Private Banking & Compliance Introduction[REDEEM OFFER](https://idownloadcoupon.com/udemy/4787/)
+* Information
+ Security Fundamentals[REDEEM OFFER](https://idownloadcoupon.com/udemy/4786/)
+* Professional Diploma of Product & Servic
+e Business Analyst[REDEEM OFFER](https://idownloadcoupon.com/udemy/4785/)
+* Arduino Practice Test: Get Certified and Tes
+t Your Skills[REDEEM OFFER](https://idownloadcoupon.com/udemy/4784/)
+* Automatic Irrigation System with Arduino[REDEEM O
+FFER](https://idownloadcoupon.com/udemy/4783/)
+* Sales: Your First 90 Days as a New Sales Representative[REDEEM OFFER](h
+ttps://idownloadcoupon.com/udemy/4782/)
+* The Art of Building and Sustaining Meaningful Relationships[REDEEM OFFER](http
+s://idownloadcoupon.com/udemy/4781/)
+* Skills Economy: Transforming to a Skills-based Organization[REDEEM OFFER](https:/
+/idownloadcoupon.com/udemy/4780/)
+* Body Language / Non-Verbal Communication for Business[REDEEM OFFER](https://idownloa
+dcoupon.com/udemy/4779/)
+* Agile Ways of Working Workshop – Practical Guide[REDEEM OFFER](https://idownloadcoupon.com/ud
+emy/4777/)
+* Immigrants Guide to a Successful Career in Corporate America[REDEEM OFFER](https://idownloadcoupon.com/udem
+y/4776/)
+* Professional Diploma of Real Estate Business Expert[REDEEM OFFER](https://idownloadcoupon.com/udemy/4775/)
+* 
+Masters in Structural Engineering & Drawing Reading – Etabs[REDEEM OFFER](https://idownloadcoupon.com/udemy/4774/)
+* Bec
+oming an Agile Leader: Drive Outcomes and Bring Impact[REDEEM OFFER](https://idownloadcoupon.com/udemy/4773/)
+* Agile Tr
+ansformation A to Z | How To Make Any Company Agile[REDEEM OFFER](https://idownloadcoupon.com/udemy/4772/)
+* Ultimate Mi
+ro Guide: Enhance Team Productivity & Agility[REDEEM OFFER](https://idownloadcoupon.com/udemy/4771/)
+* Professional Dipl
+oma in Procurement, Sourcing, Supply Chains[REDEEM OFFER](https://idownloadcoupon.com/udemy/4770/)
+* Google Search Maste
+ry Course : Find Answers 10X Times Faster[REDEEM OFFER](https://idownloadcoupon.com/udemy/4769/)
+* Mastering LangChain a
+nd AWS: A Guide to Economic Analysis[REDEEM OFFER](https://idownloadcoupon.com/udemy/4768/)
+* Full Paid Ads Course – Goo
+gle, Meta, Microsoft, LinkedIn[REDEEM OFFER](https://idownloadcoupon.com/udemy/4767/)
+* Microsoft Ads MasterClass – All 
+Campaigns & Features[REDEEM OFFER](https://idownloadcoupon.com/udemy/4766/)
+* Google Ads Crash Course – Campaign Creatio
+ns[REDEEM OFFER](https://idownloadcoupon.com/udemy/4765/)
+* Professional Diploma of Virtual Executive Assistant[REDEEM O
+FFER](https://idownloadcoupon.com/udemy/4764/)
+* Professional Diploma in M&A Business Mergers & Acquisitions[REDEEM OFFE
+R](https://idownloadcoupon.com/udemy/4763/)
+* Applied Generative AI and Natural Language Processing[REDEEM OFFER](https:
+//idownloadcoupon.com/udemy/4762/)
+* A Crash Course in Writing Well[REDEEM OFFER](https://idownloadcoupon.com/udemy/4761
+/)
+* Ethical Hacking: Windows Exploitation Basics[REDEEM OFFER](https://idownloadcoupon.com/udemy/4760/)
+* Ethical Hacki
+ng: Reverse Shells[REDEEM OFFER](https://idownloadcoupon.com/udemy/4759/)
+* Linux Terminal for beginners[REDEEM OFFER](h
+ttps://idownloadcoupon.com/udemy/4758/)
+```
+---
+
+     
+ 
+all -  [ Using Airtable data as a vector database for Chatbot Knowledge Base ](https://www.reddit.com/r/LangChain/comments/1cnhb5a/using_airtable_data_as_a_vector_database_for/) , 2024-05-09-0910
+```
+Hello AI peeps, I need some help/advice. I’m building a fairly comprehensive chatbot which includes a RAG QnA component.
+ All knowledge base data is in an Airtable, where each row/record is another piece of knowledge. 
+
+The plan is to vector
+ize the knowledge base to Pinecone via Flowise Upsert and then retrieve with OpenAI Embeddings. 
+
+The main issue is that
+ I can’t figure out how to use the columns as seperate metadata keys instead of all being vectorized in 1 piece. Is ther
+e an easy solution to accomplish this? Is there a better approach overall to convert the data from Airtable into a RAG k
+nowledge base? Any help would be appreciated! I mentioned Flowise because it’s the simplest way to use Langchain.
+```
+---
+
+     
+ 
+all -  [ Mastering LangChain and AWS: A Guide to Economic Analysis ](https://www.reddit.com/r/udemyfreebies/comments/1cnh8wm/mastering_langchain_and_aws_a_guide_to_economic/) , 2024-05-09-0910
+```
+Mastering LangChain and AWS: A Guide to Economic Analysis
+
+https://idownloadcoupon.com/udemy/4768/
+```
+---
+
+     
+ 
+all -  [ create a 'default' or 'else' tool for ReAct agent ](https://www.reddit.com/r/LangChain/comments/1cngb56/create_a_default_or_else_tool_for_react_agent/) , 2024-05-09-0910
+```
+I am working on a ReAct agent that will have a couple of pre-defined tools to perform specific actions BUT we need to ha
+ve some kind of 'default' or 'else' tool, what I mean is: if non of the pre-defined tools is selected by the agent then 
+it will try to answer the user query using the 'else' tool, the idea is that there are some pre-defined and well known a
+ctions that will be executed by the agent when tue user query matches those fine, but if there is not  a good match we s
+till want the agent to be able to come up with the best answer possible(inbstead of something like: I cannot answer this
+ question because I don't have a tool for it). Any ideas? I'm thinking on something as a   
+`GeneralHandlerTool(BaseTool
+):`  
+`def _run():`  
+   `....`
+```
+---
+
+     
+ 
+all -  [ RAG (evaluate intermediate steps) | LangSmith Evaluations - Part 16 ](https://www.youtube.com/watch?v=yx3JMAaNggQ) , 2024-05-09-0910
+```
+
+```
+---
+
+     
+ 
+all -  [ Master New Skills: Access 100+ Free Udemy and Coursera Courses with Certificates ](https://www.reddit.com/r/Udemy/comments/1cnesdo/master_new_skills_access_100_free_udemy_and/) , 2024-05-09-0910
+```
+Microsoft Ads MasterClass – All Campaigns & Features
+
+[https://courze.org/microsoft-ads-masterclass-2024-all-campaigns-f
+eatures/](https://courze.org/microsoft-ads-masterclass-2024-all-campaigns-features/)
+
+&#x200B;
+
+Full Paid Ads Course – G
+oogle, Meta, Microsoft, LinkedIn
+
+[https://courze.org/full-paid-ads-course-google-facebook-microsoft-linkedin/](https://
+courze.org/full-paid-ads-course-google-facebook-microsoft-linkedin/)
+
+&#x200B;
+
+Google Search Mastery Course : Find Answ
+ers 10X Times Faster
+
+[https://courze.org/google-search-mastery-course-find-answers-10x-times-faster/](https://courze.or
+g/google-search-mastery-course-find-answers-10x-times-faster/)
+
+&#x200B;
+
+Mastering LangChain and AWS: A Guide to Econom
+ic Analysis
+
+[https://courze.org/mastering-langchain-and-aws-a-guide-to-economic-analysis/](https://courze.org/mastering
+-langchain-and-aws-a-guide-to-economic-analysis/)
+
+&#x200B;
+
+React: All You Need to Know with Practical Project
+
+[https:
+//courze.org/react-all-you-need-to-know-with-practical-project/](https://courze.org/react-all-you-need-to-know-with-prac
+tical-project/)
+
+&#x200B;
+
+PyTorch Ultimate 2024: From Basics to Cutting-Edge
+
+[https://courze.org/pytorch-ultimate-2024
+-from-basics-to-cutting-edge/](https://courze.org/pytorch-ultimate-2024-from-basics-to-cutting-edge/)
+
+&#x200B;
+
+Google 
+Ads Crash Course – Campaign Creations
+
+[https://courze.org/google-ads-crash-course-campaign-creations/](https://courze.o
+rg/google-ads-crash-course-campaign-creations/)
+
+&#x200B;
+
+A Crash Course in Writing Well
+
+[https://courze.org/a-crash-c
+ourse-in-writing-well/](https://courze.org/a-crash-course-in-writing-well/)
+
+&#x200B;
+
+Applied Generative AI and Natural
+ Language Processing
+
+[https://courze.org/applied-generative-ai-and-natural-language-processing/](https://courze.org/app
+lied-generative-ai-and-natural-language-processing/)
+
+&#x200B;
+
+Professional Diploma in Procurement, Sourcing, Supply Ch
+ains
+
+[https://courze.org/professional-diploma-in-procurement-sourcing-supply-chains/](https://courze.org/professional-d
+iploma-in-procurement-sourcing-supply-chains/)
+
+&#x200B;
+
+Professional Diploma of Real Estate Business Expert
+
+[https://
+courze.org/professional-diploma-of-real-estate-business-expert/](https://courze.org/professional-diploma-of-real-estate-
+business-expert/)
+
+&#x200B;
+
+Masters in Structural Engineering & Drawing Reading – Etabs
+
+[https://courze.org/diploma-in
+-structural-drawing-reading-like-expert-etabs/](https://courze.org/diploma-in-structural-drawing-reading-like-expert-eta
+bs/)
+
+&#x200B;
+
+Information Security Fundamentals
+
+[https://courze.org/information-security-fundamentals/](https://courz
+e.org/information-security-fundamentals/)
+
+&#x200B;
+
+Ultimate Miro Guide: Enhance Team Productivity & Agility
+
+[https://
+courze.org/ultimate-miro-guide-enhance-team-productivity-agility/](https://courze.org/ultimate-miro-guide-enhance-team-p
+roductivity-agility/)
+
+&#x200B;
+
+Becoming an Agile Leader: Drive Outcomes and Bring Impact
+
+[https://courze.org/becoming
+-an-agile-leader-drive-outcomes-and-bring-impact/](https://courze.org/becoming-an-agile-leader-drive-outcomes-and-bring-
+impact/)
+
+&#x200B;
+
+Overcoming Obstacles & Building Resilience as a Team
+
+[https://courze.org/overcoming-obstacles-build
+ing-resilience-as-a-team/](https://courze.org/overcoming-obstacles-building-resilience-as-a-team/)
+
+&#x200B;
+
+Agile Ways
+ of Working Workshop – Practical Guide
+
+[https://courze.org/agile-ways-of-working-workshop-practical-guide/](https://cou
+rze.org/agile-ways-of-working-workshop-practical-guide/)
+
+&#x200B;
+
+Agile Transformation A to Z | How To Make Any Compan
+y Agile
+
+[https://courze.org/agile-transformation-a-to-z-how-to-make-any-company-agile/](https://courze.org/agile-transf
+ormation-a-to-z-how-to-make-any-company-agile/)
+
+&#x200B;
+
+The Complete Jenkins DevOps CI/CD Pipeline Bootcamp – 2024
+
+[
+https://courze.org/the-complete-jenkins-devops-ci-cd-pipeline-bootcamp-2023/](https://courze.org/the-complete-jenkins-de
+vops-ci-cd-pipeline-bootcamp-2023/)
+
+&#x200B;
+
+Body Language / Non-Verbal Communication for Business
+
+[https://courze.or
+g/body-language-non-verbal-communication-for-business/](https://courze.org/body-language-non-verbal-communication-for-bu
+siness/)
+
+&#x200B;
+
+Sales: Your First 90 Days as a New Sales Representative
+
+[https://courze.org/sales-your-first-90-day
+s-as-a-new-sales-representative/](https://courze.org/sales-your-first-90-days-as-a-new-sales-representative/)
+
+&#x200B;
+
+
+Defining Project Scope and Managing Resources for Project
+
+[https://courze.org/defining-project-scope-and-managing-reso
+urces-for-project-2/](https://courze.org/defining-project-scope-and-managing-resources-for-project-2/)
+
+&#x200B;
+
+Defini
+ng Project Scope and Managing Resources for Project
+
+[https://courze.org/defining-project-scope-and-managing-resources-f
+or-project/](https://courze.org/defining-project-scope-and-managing-resources-for-project/)
+
+&#x200B;
+
+Crea paginas de v
+entas para vender productos digi en Hotmart
+
+[https://courze.org/crea-paginas-de-ventas-para-vender-productos-digi-en-ho
+tmart/](https://courze.org/crea-paginas-de-ventas-para-vender-productos-digi-en-hotmart/)
+
+&#x200B;
+
+Wealth Management, 
+Private Banking & Compliance Introduction
+
+[https://courze.org/wealth-management-private-banking-compliance-introduction
+/](https://courze.org/wealth-management-private-banking-compliance-introduction/)
+
+&#x200B;
+
+Professional Diploma in Dig
+ital Business Development
+
+[https://courze.org/professional-diploma-in-digital-business-development/](https://courze.org
+/professional-diploma-in-digital-business-development/)
+
+&#x200B;
+
+Cómo Crear una Academia Online con WordPress y Tutor 
+LMS
+
+[https://courze.org/como-crear-una-academia-online-con-wordpress-y-tutor-lms/](https://courze.org/como-crear-una-ac
+ademia-online-con-wordpress-y-tutor-lms/)
+
+&#x200B;
+
+Máster en Diseño Web con Inteligencia Artificial 2024
+
+[https://cou
+rze.org/master-en-diseno-web-con-inteligencia-artificial-2024/](https://courze.org/master-en-diseno-web-con-inteligencia
+-artificial-2024/)
+
+&#x200B;
+
+Máster en Comercio Electrónico con WordPress 2024
+
+[https://courze.org/master-en-comercio-
+electronico-con-wordpress/](https://courze.org/master-en-comercio-electronico-con-wordpress/)
+
+&#x200B;
+
+Cómo Crear un B
+log con WordPress Para Principiantes 2024
+
+[https://courze.org/como-crear-un-blog-con-wordpress-para-principiantes-2023/
+](https://courze.org/como-crear-un-blog-con-wordpress-para-principiantes-2023/)
+
+&#x200B;
+
+Revolutionize PCB Design with
+ Generative AI: Future of PCB
+
+[https://courze.org/revolutionize-pcb-design-with-generative-ai-future-of-pcb/](https://c
+ourze.org/revolutionize-pcb-design-with-generative-ai-future-of-pcb/)
+
+&#x200B;
+
+Autonomous Mastery: Steering the Future
+ of Self-Driving Cars
+
+[https://courze.org/autonomous-mastery-steering-the-future-of-self-driving-cars/](https://courze.
+org/autonomous-mastery-steering-the-future-of-self-driving-cars/)
+
+&#x200B;
+
+Professional Diploma of Product & Service B
+usiness Analyst
+
+[https://courze.org/professional-diploma-of-product-service-business-analyst/](https://courze.org/profe
+ssional-diploma-of-product-service-business-analyst/)
+
+&#x200B;
+
+CSS, Bootstrap, JavaScript And PHP Stack Complete Cours
+e
+
+[https://courze.org/css-bootstrap-javascript-and-php-stack-complete-course/](https://courze.org/css-bootstrap-javascr
+ipt-and-php-stack-complete-course/)
+
+&#x200B;
+
+Elementor Kits: Crea una Página Web con Elementor Pro
+
+[https://courze.or
+g/elementor-kits-crea-una-pagina-web-con-elementor-pro/](https://courze.org/elementor-kits-crea-una-pagina-web-con-eleme
+ntor-pro/)
+
+&#x200B;
+
+OEE-Management (English)
+
+[https://courze.org/oee-management-english/](https://courze.org/oee-mana
+gement-english/)
+
+&#x200B;
+
+Online Marketing mit ChatGPT
+
+[https://courze.org/online-marketing-mit-chatgpt/](https://cou
+rze.org/online-marketing-mit-chatgpt/)
+
+&#x200B;
+
+Master Course : Carbon Accounting for ESG Professionals 101
+
+[https://
+courze.org/master-course-carbon-accounting-for-esg-professionals-101/](https://courze.org/master-course-carbon-accountin
+g-for-esg-professionals-101/)
+
+&#x200B;
+
+Master Course in Cargo, Truck and Warehouse Management 2.0
+
+[https://courze.org
+/master-course-in-cargo-truck-and-warehouse-management-2-0/](https://courze.org/master-course-in-cargo-truck-and-warehou
+se-management-2-0/)
+
+&#x200B;
+
+CDPO Course 101 : Certified Data Protection Officer
+
+[https://courze.org/cdpo-course-101-
+certified-data-protection-officer/](https://courze.org/cdpo-course-101-certified-data-protection-officer/)
+
+&#x200B;
+
+&#
+x200B;
+```
+---
+
+     
+ 
+all -  [ How to make Chat Prompt Template use data from JSON file?  ](https://www.reddit.com/r/flowise/comments/1cnd8el/how_to_make_chat_prompt_template_use_data_from/) , 2024-05-09-0910
+```
+I have the following setup. Desired result is having the chat respond based on the prompt (to be added in Human message)
+, where I'll specify how characters from gameconfig.json should interact based on values from the same JSON. 
+
+https://p
+review.redd.it/sy974lxp89zc1.png?width=1950&format=png&auto=webp&s=02f5a7c44fdfcd827573bd6cec081a1a0b694e8a
+
+
+```
+---
+
+     
+ 
+all -  [ How can I access the output while the code is running? ](https://www.reddit.com/r/LangChain/comments/1cncubh/how_can_i_access_the_output_while_the_code_is/) , 2024-05-09-0910
+```
+During runtime, I can see, what chain is being executed. I need that information being displayed for further steps. Do y
+ou know how can I access the output text while the code is being executed?
+```
+---
+
+     
+ 
+all -  [ Agent unable to access the internet ](https://www.reddit.com/r/AI_Agents/comments/1cn8ohe/agent_unable_to_access_the_internet/) , 2024-05-09-0910
+```
+Hey everybody ,
+
+  
+I've  built a search internet tool with EXA and although the API key seems to  work , my agent indic
+ates  that he can't use it. 
+
+Any help would be appreciated as I am beginner when it comes to coding. 
+
+Here are the cod
+es that I've used for the search tools and the agents using crewAI. 
+
+Thank you in advance for your help : 
+
+    import 
+os
+    from exa_py import Exa
+    from langchain.agents import tool
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    
+    class ExasearchToolSet():
+        def _exa(self):
+            return Exa(api_key=os.environ.get('EXA_API_KEY')
+)
+        @tool
+        def search(self,query:str):
+            '''Useful to search the internet about a a given topic a
+nd return relevant results'''
+            return self._exa().search(f'{query}',
+                    use_autoprompt=True,
+num_results=3)
+        @tool
+        def find_similar(self,url: str):
+            '''Search for websites similar to url.
+
+            the url passed in should be a URL returned from 'search''''
+            return self._exa().find_similar(url
+,num_results=3)
+        @tool
+        def get_contents(self,ids: str):
+            '''gets content from website.
+       
+        the ids should be passed as a list,a list of ids returned from 'search''''
+            ids=eval(ids)
+           
+ contents=str(self._exa().get_contents(ids))
+            contents=contents.split('URL:')
+            contents=[content[:
+1000] for content in contents]
+            return '\n\n'.join(contents)
+    
+
+    
+    class TravelAgents:
+    
+        
+def __init__(self):
+            self.OpenAIGPT35 = ChatOpenAI(model_name='gpt-3.5-turbo', temperature=0.7)
+            
+
+            
+    
+        def expert_travel_agent(self):
+            return Agent(
+                role='Expert travel a
+gent',
+                backstory=dedent(f'''I am an Expert in travel planning and logistics, 
+                          
+      I have decades experiences making travel itineraries,
+                                I easily identify good deals
+,
+                                My purpose is to help the user to profit from a marvelous trip at a low cost'''),
+    
+            goal=dedent(f'''Create a 7-days travel itinerary with detailed per-day plans,
+                              
+  Include budget , packing suggestions and safety tips'''),
+                tools=[ExasearchToolSet.search,ExasearchTool
+Set.get_contents,ExasearchToolSet.find_similar,perform_calculation],
+                allow_delegation=True,
+            
+    verbose=True,llm=self.OpenAIGPT35,
+                )
+            
+    
+        def city_selection_expert(self):
+    
+        return Agent(
+                role='City selection expert',
+                backstory=dedent(f'''I am a city sel
+ection expert,
+                                I have traveled across the world and gained decades of experience.
+      
+                          I am able to suggest the ideal destination based on the user's interests, 
+                   
+             weather preferences and budget'''),
+                goal=dedent(f'''Select the best cities based on weather
+, price and user's interests'''),
+                tools=[ExasearchToolSet.search,ExasearchToolSet.get_contents,Exasearch
+ToolSet.find_similar,perform_calculation]
+                       ,
+                allow_delegation=True,
+              
+  verbose=True,
+                llm=self.OpenAIGPT35,
+            )
+        def local_tour_guide(self):
+            retu
+rn Agent(
+                role='Local tour guide',
+                backstory=dedent(f''' I am the best when it comes to 
+provide the best insights about a city and 
+                                suggest to the user the best activities base
+d on their personal interest 
+                                 '''),
+                goal=dedent(f'''Give the best insig
+hts about the selected city
+                            '''),
+                tools=[ExasearchToolSet.search,ExasearchTo
+olSet.get_contents,ExasearchToolSet.find_similar,perform_calculation]
+                       ,
+                allow_del
+egation=False,
+                verbose=True,
+                llm=self.OpenAIGPT35,
+            )
+    
+
+    
+    
+    
+```
+---
+
+     
+ 
+all -  [ changing state attributes in langgraph conditional edge? ](https://www.reddit.com/r/LangChain/comments/1cn7cjy/changing_state_attributes_in_langgraph/) , 2024-05-09-0910
+```
+Hey all
+
+Im fairly new to langchain and langgraph and have a question about changing state attributes in conditional edg
+e nodes  
+
+
+i have this code, where im deciding if i like the answer, if i dont, i would like to return the state to ret
+urn to, but also manipulate a state attribute
+
+ 
+
+def decide\_if\_answer\_acceptable\_node(state: GraphState):  
+ '''  
+
+Determines if answer is acceptable  
+   
+Args  
+state (dict): The current state of the graph  
+   
+Returns:  
+str: Binar
+y decision for the next node to call  
+'''  
+   
+ if state\['answerok'\] == False or state\['answerok'\] == 'False':  
+s
+tate\['answer'\] = 'not OK' # <--- can i alter state attributes here?  
+return 'noanswer'   
+ else:  
+return 'answer'   
+
+
+
+And its linked like so:  
+
+
+workflow.add\_conditional\_edges(  
+ 'answer\_grader\_llm\_node',  
+ decide\_if\_answer\_
+acceptable\_node,  
+{  
+ 'noanswer': END,  
+ 'answer': END  
+},  
+)  
+
+
+  
+I understand i could blank the answer in the 
+'noanswer' node, but i would like to understand if its possible to set this in the conditional edge function so i can ke
+ep my code more compact?
+
+&#x200B;
+
+Thanks! 
+
+&#x200B;
+
+&#x200B;
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Evaluation for RAG for extraction and restricted responses ](https://www.reddit.com/r/LangChain/comments/1cn6lau/evaluation_for_rag_for_extraction_and_restricted/) , 2024-05-09-0910
+```
+So, I made an information extraction system where basically, when I upload a technical data sheet of a construction mate
+rial through streamlit, the LLM generates a text string in .csv format containing the attributes of the material that I 
+defined to extract through the prompts (which are already embedded so it's not a Q&A system). And I linked the response 
+with Gspread so that the string is automatically exported to google sheets in correct order. 
+
+I tested and the prototyp
+e is working as intended but the problem is with the evaluation of the system. Since it's part of a thesis project, I ha
+ve to demonstrate how well the proposed system is performing based on certain metrics, but I am finding difficulty in lo
+oking for a quantitively evaluated method that suits this use case scenario. What I want to do is to compare the perform
+ances of different LLMs that are being used for the generation as well as assessing the retrieval portion of the system.
+
+
+Obviously, I'm not well-versed in this area so any help is appreciated. 
+```
+---
+
+     
+ 
+all -  [ In you opinion what is the best way to interact with Anthropic models in Go? ](https://www.reddit.com/r/golang/comments/1cn5nvn/in_you_opinion_what_is_the_best_way_to_interact/) , 2024-05-09-0910
+```
+Hi everyone!  
+I am creating a new SaaS in Go ( and it has been a pleasure, I love it so much ) and right now I need to 
+interact with Opus model from Anthropic.
+
+If you already have used, what is a good way to start?  
+Simple HTTP requests 
+/ some library like [https://github.com/liushuangls/go-anthropic](https://github.com/liushuangls/go-anthropic) or just u
+se Langchain ( used in Python - it was a huge mess with what was happening behind the scenes ) ?
+
+thanks!!
+```
+---
+
+     
+ 
+all -  [ How to make LLM answers more creative and find answers from the internet ](https://www.reddit.com/r/LangChain/comments/1cn3d2x/how_to_make_llm_answers_more_creative_and_find/) , 2024-05-09-0910
+```
+I am using Langchain to load PDF files and ask questions using RetrievalQA but when I ask to generate a solution or be c
+reative it does not .It looks like it is limited to the content of the provided files only. Is there a limitation for Re
+rtievalQA or just an issue with my prompts ?
+
+
+```
+---
+
+     
+ 
+all -  [ Any LangFlow update planned for LangGraph? ](https://www.reddit.com/r/LangChain/comments/1cn21xp/any_langflow_update_planned_for_langgraph/) , 2024-05-09-0910
+```
+Current LangGraph is just libraries for multiple Agents functionality built on Langchain but it can be more useful to ha
+ve GUI within LangFlow. Any attempt to expand LangFlow with LangGraph? 
+```
+---
+
+     
+ 
+all -  [ Extract tables from PDF for RAG ](https://www.reddit.com/r/LangChain/comments/1cn0z11/extract_tables_from_pdf_for_rag/) , 2024-05-09-0910
+```
+To my fellow experts, I am having trouble to extract tables from PDF. I know there are some packages out there that clai
+m to do the job, but I can’t seem to get good results from it. Moreover, my work laptop kinda restrict on installation o
+f softwares and the most I can do is download open source library package.  Wondering if there are any straightforward w
+ays on how to do that ? Or I have to a rite the code from scratch to process the tables but there seem to be many types 
+of tables I need to consider. 
+
+Here are the packages I tried and the reasons why they didn’t work. 
+
+1. Pymupdf- messy 
+table formatting, can misinterpret title of the page as column headers
+2. Tabula/pdfminer- same performance as Pymupdf 
+
+3. Camelot- I can’t seem to get it to work given that it needs to download Ghostscript and tkinter, which require admin 
+privilege which is blocked in my work laptop. 
+4. Unstructured- complicated setup as require a lot of dependencies and t
+hey are hard to set up 
+5. Llamaparse from llama: need cloud api key which is blocked 
+
+I tried converting pdf to html b
+ut can’t seem to identify the tables very well. 
+
+Please help a beginner 🥺
+
+
+
+ 
+```
+---
+
+     
+ 
+all -  [ Choosing Between LLama CPP and Ctransformers for GPU-based LLama2/LLama3 Model Execution ](https://www.reddit.com/r/LangChain/comments/1cn08m1/choosing_between_llama_cpp_and_ctransformers_for/) , 2024-05-09-0910
+```
+If we are using a GPU for running the LLama2/LLama3 model, which library should I use? LLama CPP or Ctransformers? I'm a
+ bit confused about both of these libraries. Can anyone please clear my doubt?
+```
+---
+
+     
+ 
+all -  [ Deep Dive: Building Affiliate.ai, a GenAI-Powered Affiliate Marketing Analytics Tool ](https://www.reddit.com/r/LangChain/comments/1cn04dj/deep_dive_building_affiliateai_a_genaipowered/) , 2024-05-09-0910
+```
+Hey everyone! I recently wrote a blog post about [Affiliate.ai](http://affiliate.ai/), a chat-based affiliate marketing 
+analytics tool we've been working on. It simplifies the analytics process, letting you ask natural language questions an
+d get insights, reports, and even spreadsheets delivered right within Microsoft Teams or Slack.
+
+But the interesting par
+t (for this audience, at least) is how it works under the hood. Here's a breakdown of some key elements:
+
+* **Intent Dis
+cernment with Function Calling:** We use simple function calling to quickly determine whether a user wants data or is ju
+st chatting, ensuring the bot stays focused.
+* **LLM-Powered Named Entity Recognition:** Instead of complex pipelines, w
+e feed the LLM a list of advertisers and let it figure out the matches– surprisingly effective!
+* **Query Reconstruction
+ for Context:** Understanding context is tricky. We use a dedicated module to rewrite queries based on chat history.
+* *
+*Parallelization for Speed:** We run multiple potential routes simultaneously, speeding up response times dramatically.
+
+
+Interested in the specifics? The full blog post has more details (link below). If you're building similar GenAI apps, I
+'d love to hear about your approaches and techniques!
+
+[https://www.affiliate.ai/post/a-technical-deepdive-into-affiliat
+e-ai](https://www.affiliate.ai/post/a-technical-deepdive-into-affiliate-ai)
+```
+---
+
+     
+ 
+all -  [ LangChain with OpenAI not return full products in RAG QnA ](https://www.reddit.com/r/LangChain/comments/1cmzazp/langchain_with_openai_not_return_full_products_in/) , 2024-05-09-0910
+```
+0
+
+I used the Python LangChain UnstructuredURLLoader to retrieve all our products on the company website for RAG purpose
+s. The products were on different pages in the company website.
+
+UnstructuredURLLoader was able to retrieve the products
+ in multiple Document objects before they were chunked, embedded and stored in the vector database.
+
+With the OpenAI LLM
+ and RAG module, I asked the AI, **'How many products in the company A?' AI replied 'There are 11 products. You should c
+heck the company A website for more info...'**
+
+If I asked 'Please list all the products in the company A', AI replied t
+he list of the 11 products only.
+
+The problem is, there are more than 11 products. Why can't LLM read and aggregate the 
+products in the Documents to count and to return all of the products?
+
+Is there any context hint or prompt to tell LLM t
+o read and return all products? Is it because of the chunking process?
+```
+---
+
+     
+ 
+all -  [ Node JS Support  ](https://www.reddit.com/r/LangChain/comments/1cmz6uh/node_js_support/) , 2024-05-09-0910
+```
+I am working on a Nextjs demo app that needs to use inference on a custom LLM I will train. When I deploy it, I’m planni
+ng on using Baseten but for local development I am now considering  using Lanchain in Node (as opposed to setting up a F
+lask server to handle inference and stream the responses back). Has anyone used it before? Is it a total disaster? know 
+it’s not going to be as good as the Python version but maybe it’s good enough for my situation. 
+```
+---
+
+     
+ 
+all -  [ Discussion: Declaratively orchestrate your code instead of using LCEL  ](https://www.reddit.com/r/LangChain/comments/1cmyi9k/discussion_declaratively_orchestrate_your_code/) , 2024-05-09-0910
+```
+Hi All,
+
+I'd be curious to discuss what peoples' thoughts would be on the following API to express their LLM workflows i
+n place of LCEL. LangChain has the kitchen sink of things, so useful for that, but I haven't been fond of LCEL...
+
+**LCE
+L** - it's terse, but it pains me to come back to the code each time to figure out what it's going on. Then if I want to
+ do anything complex it gets worse. Simple example from the docs:
+
+    from langchain_core.output_parsers import StrOutp
+utParser
+    from langchain_core.prompts import ChatPromptTemplate
+    from langchain_core.runnables import RunnablePass
+through
+    from langchain_openai import ChatOpenAI
+    
+    prompt = ChatPromptTemplate.from_template(
+        'Tell me
+ a short joke about {topic}')
+    output_parser = StrOutputParser()
+    model = ChatOpenAI(model='gpt-3.5-turbo')
+    ch
+ain = (
+        {'topic': RunnablePassthrough()}
+        | prompt
+        | model
+        | output_parser
+    )
+    if _
+_name__ == '__main__':
+        print(chain.invoke('ice cream'))
+
+What about this **declarative API**, using a framework 
+called [Hamilton](https://github.com/dagworks-inc/hamilton/) (note: I'm one of the authors)- it's more verbose, but I ca
+n always clearly see how things connect and make modifications --  Hamilton knows which function to call when stitching 
+things together based on the  function name and function input arguments -- as you write functions you 'declare' what th
+ey are and what they require.
+
+    # hamilton_invoke.py
+    from typing import List
+    
+    import openai
+    
+    
+   
+ def llm_client() -> openai.OpenAI:
+        return openai.OpenAI()
+    
+    
+    def joke_prompt(topic: str) -> str:
+   
+     return f'Tell me a short joke about {topic}'
+    
+    
+    def joke_messages(joke_prompt: str) -> List[dict]:
+     
+   return [{'role': 'user', 'content': joke_prompt}]
+    
+    
+    def joke_response(llm_client: openai.OpenAI,
+        
+              joke_messages: List[dict]) -> str:
+        response = llm_client.chat.completions.create(
+            mode
+l='gpt-3.5-turbo',
+            messages=joke_messages,
+        )
+        return response.choices[0].message.content
+    
+
+    
+    if __name__ == '__main__':
+        import hamilton_invoke
+    
+        from hamilton import driver
+    
+      
+  dr = (
+            driver.Builder()
+            .with_modules(hamilton_invoke)
+            .build()
+        )
+        
+dr.display_all_functions('hamilton-invoke.png')  # see image below
+        print(dr.execute(['joke_response'],
+         
+                inputs={'topic': 'ice cream'}))
+
+This image (generated by Hamilton) represents how Hamilton stitches tog
+ether the code to then run it
+
+[Result of dr.display\_all\_functions\(\\'hamilton-invoke.png\\'\)](https://preview.redd.
+it/tq5ms3ltj5zc1.png?width=702&format=png&auto=webp&s=048f54f953ab50996e459b93d034771d9a943c7c)
+
+To see more comparisons
+ (e.g. conditionally swapping anthropic for openai) [click here](https://hamilton.dagworks.io/en/latest/code-comparisons
+/langchain/). For code that is both Hamilton & LangChain [see this example](https://hub.dagworks.io/docs/DAGWorks/conver
+sational_rag/).
+
+Now I wouldn't use Hamilton for a simple function call -- much like I wouldn't use LangChain for that e
+ither.
+
+I'm interested in discussing thoughts and opinions to see if there's (a) appetite for this style of API, and (b)
+ therefore should we integrate more closely with LangChain.  Cheers!
+```
+---
+
+     
+ 
+all -  [ If you're wondering how to make RAG with Llama 3 here is an easy starter kit ](https://www.reddit.com/r/IMadeASaaS/comments/1cmvmxl/if_youre_wondering_how_to_make_rag_with_llama_3/) , 2024-05-09-0910
+```
+[https://github.com/langchain-ai/langchain-nextjs-template](https://github.com/langchain-ai/langchain-nextjs-template)
+
+
+&#x200B;
+```
+---
+
+     
+ 
+all -  [ Why specialized vector databases are not the future? ](https://www.reddit.com/r/LangChain/comments/1cmqx7z/why_specialized_vector_databases_are_not_the/) , 2024-05-09-0910
+```
+I'm thinking about writing a blog on this topic 'Why specialized vector databases are not the future?'
+
+In this blog, I'
+ll try to explain why you need Integrated vector databases rather than a specialised vector database. 
+
+Do you have any 
+arguments that support or refute this narrative?
+```
+---
+
+     
+ 
+all -  [ Using LangChain agents to create a multi-agent platform that creates robot softwares ](https://www.reddit.com/r/LangChain/comments/1cmquwv/using_langchain_agents_to_create_a_multiagent/) , 2024-05-09-0910
 ```
 When using LLMs for your generative AI needs, it's best to think of the LLM as a person rather than as a traditional AI 
 engine. You can train and tune an LLM and give it memory to create an agent. The LLM-agent can act like a domain-expert 
@@ -28,7 +1037,7 @@ cribe) for more information and give us a star if you like what you see. :)
 
      
  
-all -  [ Ingesting hundreds of csv files, loading them into a knowledge graph (RAG) then use LLM chatbot to q ](https://www.reddit.com/r/LangChain/comments/1cmpkyl/ingesting_hundreds_of_csv_files_loading_them_into/) , 2024-05-08-0909
+all -  [ Ingesting hundreds of csv files, loading them into a knowledge graph (RAG) then use LLM chatbot to q ](https://www.reddit.com/r/LangChain/comments/1cmpkyl/ingesting_hundreds_of_csv_files_loading_them_into/) , 2024-05-09-0910
 ```
 I want to ingest hundreds of csv files, all the column data is   
 different except for them sharing a similar column rel
@@ -73,7 +1082,7 @@ Thanks
 
      
  
-all -  [ [1.5 YoE] Recent Master's Graduate in Computer Science Seeking Full-Time SDE or Data Science/ML role ](https://www.reddit.com/r/EngineeringResumes/comments/1cmp18k/15_yoe_recent_masters_graduate_in_computer/) , 2024-05-08-0909
+all -  [ [1.5 YoE] Recent Master's Graduate in Computer Science Seeking Full-Time SDE or Data Science/ML role ](https://www.reddit.com/r/EngineeringResumes/comments/1cmp18k/15_yoe_recent_masters_graduate_in_computer/) , 2024-05-09-0910
 ```
 So i have 1.5 years of experience as a full time software developer in .Net, C#, C++ techstack, I recently graduated fro
 m masters in computer science , during my tenure as a student, i worked as a Graduate Student Assistant and my role chan
@@ -93,7 +1102,7 @@ rmat=png&auto=webp&s=c6d6a4dfa54998b71521fb7c6d502051b2b0684d
 
      
  
-all -  [ Langchain is legacy in Vercel AI SDK, how to still use Langchain in a stable and futureproof way? ](https://www.reddit.com/r/nextjs/comments/1cmkd6r/langchain_is_legacy_in_vercel_ai_sdk_how_to_still/) , 2024-05-08-0909
+all -  [ Langchain is legacy in Vercel AI SDK, how to still use Langchain in a stable and futureproof way? ](https://www.reddit.com/r/nextjs/comments/1cmkd6r/langchain_is_legacy_in_vercel_ai_sdk_how_to_still/) , 2024-05-09-0910
 ```
 I just saw that Langchain is now a legacy provider. How can i still use Langchain with the Vercel AI SDK for my NextJS a
 pps in a futureproof way. On the website it says, that the legacy providers are not recommended for new projects.
@@ -102,7 +1111,7 @@ pps in a futureproof way. On the website it says, that the legacy providers are 
 
      
  
-all -  [ Langtrace - Added support for Prompt Playground ](https://www.reddit.com/r/LangChain/comments/1cmk0dn/langtrace_added_support_for_prompt_playground/) , 2024-05-08-0909
+all -  [ Langtrace - Added support for Prompt Playground ](https://www.reddit.com/r/LangChain/comments/1cmk0dn/langtrace_added_support_for_prompt_playground/) , 2024-05-09-0910
 ```
 Hey all,
 
@@ -136,7 +1145,7 @@ https://reddit.com/link/1cmk0dn/video/y0tve9hb02zc1/player
 
      
  
-all -  [ Torn between Data Science and Game Dev ](https://www.reddit.com/r/gamedev/comments/1cmjfpe/torn_between_data_science_and_game_dev/) , 2024-05-08-0909
+all -  [ Torn between Data Science and Game Dev ](https://www.reddit.com/r/gamedev/comments/1cmjfpe/torn_between_data_science_and_game_dev/) , 2024-05-09-0910
 ```
 Im really torn between either pursuing game dev or Data Science (Modeling and Analysis). My interest in coding and devel
 oping started with game dev a few years ago but I switched to DS when it came to my formal education. 
@@ -160,7 +1169,7 @@ h ds expertise for Game related analyst work but again, remotely working in a po
      
  
 all -  [ Why Should We Keep an Eye Out for YC Batches?
- ](https://www.reddit.com/r/LangChain/comments/1cmiclo/why_should_we_keep_an_eye_out_for_yc_batches/) , 2024-05-08-0909
+ ](https://www.reddit.com/r/LangChain/comments/1cmiclo/why_should_we_keep_an_eye_out_for_yc_batches/) , 2024-05-09-0910
 ```
 Just to clarify, if you want to be the first to know about trends in the startup world, you have to keep an eye on what'
 s going on inside Y Combinator. This incubator has extensive experience with startups. You may know Stripe, Airbnb, Drop
@@ -175,16 +1184,8 @@ and over **180 mentioning** machine learning in their demos.
 
      
  
-all -  [ Mastering LangChain and AWS: A Guide to Economic Analysis ($84.99 to FREE) ](https://www.jucktion.com/f/udemy-coupon/mastering-langchain-and-aws-a-guide-to-economic-analysis-$84-99-to-fre-328915/) , 2024-05-08-0909
-```
-
-```
----
-
-     
- 
 all -  [ Python library to deploy LLM chat bots fast?
- ](https://www.reddit.com/r/LangChain/comments/1cmdxyi/python_library_to_deploy_llm_chat_bots_fast/) , 2024-05-08-0909
+ ](https://www.reddit.com/r/LangChain/comments/1cmdxyi/python_library_to_deploy_llm_chat_bots_fast/) , 2024-05-09-0910
 ```
 Here is a simple code snippet on how to use the Cycls chatbot library
 
@@ -216,7 +1217,7 @@ cls.com/getting-started](https://docs.cycls.com/getting-started) [ ](https://doc
 
      
  
-all -  [ Passing the output of function calling to RedisChatHistory in LCEL ](https://www.reddit.com/r/LangChain/comments/1cmdvls/passing_the_output_of_function_calling_to/) , 2024-05-08-0909
+all -  [ Passing the output of function calling to RedisChatHistory in LCEL ](https://www.reddit.com/r/LangChain/comments/1cmdvls/passing_the_output_of_function_calling_to/) , 2024-05-09-0910
 ```
 HI 
 
@@ -233,7 +1234,7 @@ d anything.
 
      
  
-all -  [ ARC - A nimble framework for ai agent creation! ](https://www.reddit.com/r/Kotlin/comments/1cmdqfe/arc_a_nimble_framework_for_ai_agent_creation/) , 2024-05-08-0909
+all -  [ ARC - A nimble framework for ai agent creation! ](https://www.reddit.com/r/Kotlin/comments/1cmdqfe/arc_a_nimble_framework_for_ai_agent_creation/) , 2024-05-09-0910
 ```
 Hello r/Kotlin
 
@@ -280,7 +1281,7 @@ Thanks ❤️!
 
      
  
-all -  [ Langchain for Q&A + RAG? ](https://www.reddit.com/r/LocalLLaMA/comments/1cmafor/langchain_for_qa_rag/) , 2024-05-08-0909
+all -  [ Langchain for Q&A + RAG? ](https://www.reddit.com/r/LocalLLaMA/comments/1cmafor/langchain_for_qa_rag/) , 2024-05-09-0910
 ```
 I want to make a Q&A + RAG application.
 Is langchain still a good choice?
@@ -299,7 +1300,7 @@ What’s your recommended stack for Q&A + RAG chatbot applications?
 
      
  
-all -  [ Is llama2 multimodal? ](https://www.reddit.com/r/LangChain/comments/1cm9e3l/is_llama2_multimodal/) , 2024-05-08-0909
+all -  [ Is llama2 multimodal? ](https://www.reddit.com/r/LangChain/comments/1cm9e3l/is_llama2_multimodal/) , 2024-05-09-0910
 ```
 How can we pass images or base64 to llama2 and ask certain questions like describe this image??
 ```
@@ -307,7 +1308,7 @@ How can we pass images or base64 to llama2 and ask certain questions like descri
 
      
  
-all -  [ Combined Embeddings  ](https://www.reddit.com/r/LangChain/comments/1cm8oek/combined_embeddings/) , 2024-05-08-0909
+all -  [ Combined Embeddings  ](https://www.reddit.com/r/LangChain/comments/1cm8oek/combined_embeddings/) , 2024-05-09-0910
 ```
 I am developing my own Rag.
 Using the text_splitter there is a performance tradeoff for the chunk size and chunk overlap
@@ -321,7 +1322,7 @@ vantages?
 
      
  
-all -  [ Yet Another RAG Tutorial ](https://www.reddit.com/r/webdev/comments/1cm7nuw/yet_another_rag_tutorial/) , 2024-05-08-0909
+all -  [ Yet Another RAG Tutorial ](https://www.reddit.com/r/webdev/comments/1cm7nuw/yet_another_rag_tutorial/) , 2024-05-09-0910
 ```
 I was itching for a hands-on project, something I could build in just a few hours. So, I decided to experiment with Lang
 Chain and vector databases to create a RAG conversation application.
@@ -336,7 +1337,7 @@ hain-genezio-project)
 
      
  
-all -  [ Kernel crashing when using Langsmith Evaluation ](https://www.reddit.com/r/LangChain/comments/1cm7lbr/kernel_crashing_when_using_langsmith_evaluation/) , 2024-05-08-0909
+all -  [ Kernel crashing when using Langsmith Evaluation ](https://www.reddit.com/r/LangChain/comments/1cm7lbr/kernel_crashing_when_using_langsmith_evaluation/) , 2024-05-09-0910
 ```
 Hello, could you assist me? I'm encountering difficulties with Langsmith's evaluation process. I'm able to evaluate my c
 ontext using 'cont\_qa', but when I attempt to incorporate additional evaluators such as 'accuracy', my kernel crashes i
@@ -391,7 +1392,7 @@ fulness')
 
      
  
-all -  [ Create a real world RAG chat app with Langchain LCEL ](https://www.reddit.com/r/LangChain/comments/1cm5ktx/create_a_real_world_rag_chat_app_with_langchain/) , 2024-05-08-0909
+all -  [ Create a real world RAG chat app with Langchain LCEL ](https://www.reddit.com/r/LangChain/comments/1cm5ktx/create_a_real_world_rag_chat_app_with_langchain/) , 2024-05-09-0910
 ```
 Hello everyone,
 
@@ -414,7 +1415,7 @@ Thanks!
 
      
  
-all -  [ Error Following Langchain/Vertex AI Reasoning Engine Docs ](https://www.reddit.com/r/LangChain/comments/1cm2lvb/error_following_langchainvertex_ai_reasoning/) , 2024-05-08-0909
+all -  [ Error Following Langchain/Vertex AI Reasoning Engine Docs ](https://www.reddit.com/r/LangChain/comments/1cm2lvb/error_following_langchainvertex_ai_reasoning/) , 2024-05-09-0910
 ```
 Hello everyone, I'm trying to follow this example I found in the Vertex AI documentation.
 
@@ -532,7 +1533,7 @@ I fix it downgrading the langchain-core version
 
      
  
-all -  [ Smart AI voice assistant + connect to the internet ](https://www.reddit.com/r/ArtificialInteligence/comments/1clxtb8/smart_ai_voice_assistant_connect_to_the_internet/) , 2024-05-08-0909
+all -  [ Smart AI voice assistant + connect to the internet ](https://www.reddit.com/r/ArtificialInteligence/comments/1clxtb8/smart_ai_voice_assistant_connect_to_the_internet/) , 2024-05-09-0910
 ```
 I continue my experiment building a smart AI voice assistant. This time I'm adding an ability to google for an answer. 
 
@@ -551,7 +1552,7 @@ tion history. Currently exploring LangChain ecosystem.
 
      
  
-all -  [ Enhancing Local LLM's Understanding of Technical Documents ](https://www.reddit.com/r/LangChain/comments/1clui48/enhancing_local_llms_understanding_of_technical/) , 2024-05-08-0909
+all -  [ Enhancing Local LLM's Understanding of Technical Documents ](https://www.reddit.com/r/LangChain/comments/1clui48/enhancing_local_llms_understanding_of_technical/) , 2024-05-09-0910
 ```
 Hi
 
@@ -586,528 +1587,7 @@ Thanks
 
      
  
-all -  [ problem with multiple rag questions ](https://www.reddit.com/r/LangChain/comments/1clmt84/problem_with_multiple_rag_questions/) , 2024-05-08-0909
-```
-hi, if i run my code for rag made with python and langchain,the firtst time everything goes well and in the second quest
-ion it spits out this error:
-
-  
-raise ValueError(f'Missing some input keys: {missing\_keys}')
-
-ValueError: Missing some
- input keys: {'context'}
-
-
-```
----
-
-     
- 
-all -  [ Local LLM and LangChain/lida ](https://www.reddit.com/r/LocalLLaMA/comments/1clm4e3/local_llm_and_langchainlida/) , 2024-05-08-0909
-```
-Hi all, I'm just getting started with playing around with LLMs. I'm trying to follow tutorials for building a CSV chatbo
-t using Langchain and lida to do some analysis and visualizations. From what I can find online, both Langchain's create\
-_csv\_agenet and lida require OpenAI's chatGPT. Is it possible to use these two packages with a local quantized LLM that
- I have in a .gguf format? Thanks!
-```
----
-
-     
- 
-all -  [ Starting out with Langchain SQL: some questions ](https://www.reddit.com/r/LangChain/comments/1clj3k0/starting_out_with_langchain_sql_some_questions/) , 2024-05-08-0909
-```
-Hi,
-
-I'm relatively novice when it comes to LLMs, so my understanding is very limited. However, I came across [this YouT
-ube Video ](https://youtu.be/9ccl1_Wu24Q?si=gHdxkoCE0gulV3Px)and was impressed with how simple the whole project was set
- up using Langchain and MySQL. I've been experimenting with it using a local version of our company's database, and I ha
-ve this vision of developing a chatbot that can talk to our database and answer questions related to the information we 
-have in our database.
-
-I have a few questions:
-
-1. I've read a few comments on this subreddit indicating that Langchain 
-is not good for SQL. What does this mean, and why is it so?
-2. One of the comments on the video critiques the use of Lan
-gchain, stating that Langchain packages are not secure, due to passing database schema across third party providers. Is 
-this true? My idea would be to create a chatbot for internal use, and implement it into our intranet.
-3. In general, how
- beginner friendly is Langchain? I'm under the impression it's moreso compared to other models. 
-4. Is Langchain the rig
-ht tool for my task?
-
-If I can provide any more context, I'd be happy to do so. Thanks in advance. 
-```
----
-
-     
- 
-all -  [ Is it possible to get different similarity search results with same vector database on different mac ](https://www.reddit.com/r/vectordatabase/comments/1clg3rk/is_it_possible_to_get_different_similarity_search/) , 2024-05-08-0909
-```
-Hi, recently while I was building a RAG Chatbot I came through an issue i.e below is the code I executed on 4 different 
-machines(laptops)
-
-    from langchain_community.embeddings import OllamaEmbeddings
-    
-    embedding = embeddings.Ollam
-aEmbeddings(model='nomic-embed-text')
-    db = FAISS.load_local('MS_VDB', embeddings=embedding,allow_dangerous_deseriali
-zation=True)
-    
-    query = 'Recently I was diagnosed with Relapsing-onset MS and the indicated MS phenotype is Highly
- active. List the name of the drugs which can be used to treat my condition'
-    
-    docs = db.similarity_search(query)
-
-    print(docs[0].page_content)
-
-All the 4 machines use the same vector db file but in 3 machines the similarity search
- result was exactly the same but on the other one it was different even though the code was executed within a virtual en
-vironment. Can anyone tell me what's the issue and how I could resolve it so that all the 4 machines give the same outpu
-t.
-```
----
-
-     
- 
-all -  [ Is it possible to get different similarity search results with same vector database on different mac ](https://www.reddit.com/r/LangChain/comments/1clfwla/is_it_possible_to_get_different_similarity_search/) , 2024-05-08-0909
-```
-  
-Hi, recently while I was building a RAG Chatbot I came through an issue i.e below is the code I executed on 4 differe
-nt machines(laptops) 
-
-    from langchain_community.embeddings import OllamaEmbeddings
-    
-    embedding = embeddings.O
-llamaEmbeddings(model='nomic-embed-text')
-    db = FAISS.load_local('MS_VDB', embeddings=embedding,allow_dangerous_deser
-ialization=True)
-    
-    query = 'Recently I was diagnosed with Relapsing-onset MS and the indicated MS phenotype is Hi
-ghly active. List the name of the drugs which can be used to treat my condition'
-    
-    docs = db.similarity_search(qu
-ery)
-    print(docs[0].page_content)
-
-All the 4 machines use the same vector db file but in 3 machines the similarity se
-arch result was exactly the same but on the other one it was different even though the code was executed within a virtua
-l environment. Can anyone tell me what's the issue and how I could resolve it so that all the 4 machines give the same o
-utput.  
- 
-```
----
-
-     
- 
-all -  [ 'GPT to perform 10x with my private knowledge' ](https://www.reddit.com/r/LangChain/comments/1clfhnk/gpt_to_perform_10x_with_my_private_knowledge/) , 2024-05-08-0909
-```
-['GPT to perform 10x with my private knowledge' - Local Agentic RAG w/- PDF , Website - Here is how (youtube.com)](https
-://www.youtube.com/watch?v=5ModxAjKI3w&t=915s)
-```
----
-
-     
- 
-all -  [ DSPy, a no prompt alternate for LangChain  ](https://www.reddit.com/r/LangChain/comments/1cldnq3/dspy_a_no_prompt_alternate_for_langchain/) , 2024-05-08-0909
-```
-DSPy is an alternate for LangChain, mainly for programmers to build GenAI apps without any prompt engineering by user. C
-heckout this beginner friendly tutorial to know the basics of DSPy to get started : 
-https://youtu.be/IiaXLP3JKr4?si=xAC
-EMVC1c7c174uR
-```
----
-
-     
- 
-all -  [ Langchain Multi user api/app ](https://www.reddit.com/r/LangChain/comments/1clcva5/langchain_multi_user_apiapp/) , 2024-05-08-0909
-```
-Has anyone here tried to do a multiuser app? Does langchain support it out of the box with configuration, or is this som
-ething that needs to be done on my own? It seems that loading several langchain agents takes quite a bit of time which m
-eans the client would have to wait quite a bit if I recretead the agent for every request. 
-
-I am not sure how to approa
-ch this.   
-I do not need message history, just stateless for now.
-
-  
-My agents are for reporting purposes at work, so 
-they trigger Pandas/Excel processes which can take 30 seconds up to a 1 minute.
-```
----
-
-     
- 
-all -  [ Long response time for Mistral 7b ](https://www.reddit.com/r/MistralAI/comments/1clcjle/long_response_time_for_mistral_7b/) , 2024-05-08-0909
-```
-Hi guys, currently I am using filipealmeida/Mistral-7B-Instruct-v0.1-sharded with 4 bits quantization as my RAG model wi
-th LangChain framework in Google Colab and has successfully utilize it, however the whole response time take really a lo
-ng time (about 1-2 mins), and I don't sure what is happened and how to solve it. Is it the problem I am using transforme
-r pipeline?
-```
----
-
-     
- 
-all -  [ Building simple reasoning agents without frameworks like Llamaindex or Langchain.  ](https://www.reddit.com/r/LocalLLaMA/comments/1clc6lz/building_simple_reasoning_agents_without/) , 2024-05-08-0909
-```
-Hi everyone, 
-
-I have been using some LLM frameworks like langchain and Llamaindex for a few weeks and have found modera
-te success. I don't like their documentation (probably because the pace at which these are evolving is too rapid) and it
- becomes a little difficult to understand their source code or code examples. 
-
-I want to start simple- build a chat eng
-ine centered around multimodal (image/text) retrieval. What I've done is I've indexed some images and their captions (us
-ing CLIP embeddings) to Pinecone. I can do simple things like similarity search. I haven't used LLM frameworks at all to
- do this. I've used the pinecone and clip functions directly. I can do text to image retrieval, text to text retreival a
-nd things like that.
-
-What I want to do now is create simple 'reasoning' systems that can reason about these images. I w
-ant to create a chain like structure which looks like this 
-
-query --> retrieve similar images and captions ---> summari
-ze the captions / describe the objects (run some object detection algorithm) / possibly other things etc.  
-
-Call me a m
-asochist but I don't want to use langchain or llamaindex. Can this chaining operation be performed with the bare OpenAI 
-API or function calling? I hope so. I'm kinda new to this and will appreciate any help.
-```
----
-
-     
- 
-all -  [ langchain response in particular format ](https://www.reddit.com/r/Langchaindev/comments/1cl8hfg/langchain_response_in_particular_format/) , 2024-05-08-0909
-```
-how to write a prompt which does the work of greeting by introducing it self and another prompt for giving question answ
-ers with memory added into it.kindly give the code and the prompt stacking approch using selfquery retrieval.
-```
----
-
-     
- 
-all -  [ What are your current go to libraries? ](https://www.reddit.com/r/LocalLLaMA/comments/1cl6lx3/what_are_your_current_go_to_libraries/) , 2024-05-08-0909
-```
-There is a lot to keep up with and I was wanting to get an idea of what people are finding useful right now. Specificall
-y, programming libraries, not UI's.
-
-EDIT  
-Guess I should share as well. These are the tools I've been playing around w
-ith (not really committed to use any one of them yet).
-
-**General**
-
-* [llama-cpp-python](https://pypi.org/project/llama
--cpp-python/)
-
-**DSL**
-
-* [guidance](https://github.com/guidance-ai/guidance)
-
-**RAG Frameworks**
-
-* [Langchain](https:/
-/www.langchain.com/)
-* [LlamaIndex](https://docs.llamaindex.ai/en/stable/)
-* [DSPy](https://github.com/stanfordnlp/dspy)
-
-
-**Model Serving**
-
-* [Ollama](https://ollama.com/)
-```
----
-
-     
- 
-all -  [ What is the most proper way to develop this chatbot? ](https://www.reddit.com/r/LangChain/comments/1cl522l/what_is_the_most_proper_way_to_develop_this/) , 2024-05-08-0909
-```
-Hey guys! Before I begin, thanks to those that took the time to read my post and hopefully respond, it's really much app
-reciated. Now onto our topic; I'm trying to build a conversation chatbot which objective is to offer to the user game re
-commendations that fit different criteria and preferences that could be found in his initial query.
-
-What I want the cha
-tbot to do, is first evaluate the query, have it better understand. See if the query is on the topic of asking for game 
-recommendations, or whether his input is clear enough, which in the case of them not meeting one of the requirements, ha
-ve the chatbot ask from the user to input a proper one.
-
-After making sure that his input is alright and is done with re
-viewing it, make calls to various tools that rely on SerpApi. such as the Google search one for finding suitable titles 
-to be chosen as candidate for the final answer and gather more additional information for each game, or the Google image
-s and Youtube one for gathering multimedia content, such as games' posters and official trailers.
-
-Once the chatbot is d
-one with browsing the web in order to fetch what it needs, let it formulate a response to the user. One important functi
-onality that I want present in this chatbot is that, if the user asks from the chatbot to find alternatives to some of t
-he titles found in the response, it should be able to remember that response in the first to be able and apply modificat
-ions to it, such as the replacing actions of certain mentioned titles with other ones.
-
-Now that the requirements of thi
-s chatbot are somewhat clear, how would you recommend me to go on developing such project? What key factors should I tak
-e into consideration and make use of in order to achieve the desired results?
-```
----
-
-     
- 
-all -  [ LLM use case for QA and reasoning. ](https://www.reddit.com/r/LangChain/comments/1cl4mx6/llm_use_case_for_qa_and_reasoning/) , 2024-05-08-0909
-```
-I have a use case, where I have textual data. I have to extract information from it. Some of the data is direct and can 
-be assigned directly. Others are not so-direct, like total weight, total quantity, these values are supposed to be calcu
-lated after extracting individual data from the data. 
-
-Since RAG provides contextual information, so I am planning to i
-nform the LLM about the labels to be extracted. I am also planning to fine-tune Llama3 on annotations so model learns ab
-out what how information extraction is actually taking place.  
-  
-What else can be done to improve the output performan
-ce of model. 
-```
----
-
-     
- 
-all -  [ Do Output Parser like the JSON one, have a retry option? ](https://www.reddit.com/r/LangChain/comments/1ckzzfs/do_output_parser_like_the_json_one_have_a_retry/) , 2024-05-08-0909
-```
-Hi I am currently struglling with how to approach error handling with a JSON output parser. Can it do retries? I feel li
-ke every output parser should just allow retry by default, because often the result can be bad for 1 - 2 requests and th
-at is it.
-
-If not then is it possible to use retryOutput parser with LCEL?
-```
----
-
-     
- 
-all -  [ Local model based RAG ChatBot ](https://www.reddit.com/r/LangChain/comments/1cktopp/local_model_based_rag_chatbot/) , 2024-05-08-0909
-```
-Hi,
-
-We are creating a rag based ChatBot for our company but due to some infosec concerns we have to use only local llms
- and database.
-
-Due to this reason we are not using openAI/Gemini or any API based models and instead we are using Ollam
-a for our local models and using LLAMA 3 as our LLM. 
-
-Now the issue is when we are using local Embeddings model like no
-mic-embed it's not producing very good results. What should i do to overcome this issue and i have tried different local
- Embeddings model of ollama but they aren't producing very good results.
-```
----
-
-     
- 
-all -  [ Need help in Structured Extraction of data ](https://www.reddit.com/r/LangChain/comments/1ckt04y/need_help_in_structured_extraction_of_data/) , 2024-05-08-0909
-```
-Hey , I have been dabbling with a few methods to extract data from a corpus of documents in structured format and have b
-een experimenting with pydantic classes and even agents. But still, I am not able to achieve the desired result. I follo
-wed the Langchain documentation for extracting data but the method where we use Reference examples is not working.
-
-To s
-pecify my use case, I want to extract data from legal documents in a chronological method. Would love to get some tips/ 
-ideas or your methods if you have been doing something like this. Here is a fellow company doing the same www . tryabel.
- com.
-
-Thanks!
-```
----
-
-     
- 
-all -  [ Using Weaviate & Langchain together ](https://www.reddit.com/r/LangChain/comments/1ckszg1/using_weaviate_langchain_together/) , 2024-05-08-0909
-```
-Hey everyone,  
-Does anyone have any good tutorials or blogpost about how to use weaviate as a vector store and use Lang
-chain to perform activities like, creating new collections, adding document, performing similarity search etc. The offic
-ial documentation from Langchain work when I perform all these actions sequentially. However, when loading the persisted
- vector store, I am unable to perform similarity search.
-```
----
-
-     
- 
-all -  [ Resume of a 2023 graduate targeting machine learning roles. ](https://www.reddit.com/r/developersIndia/comments/1ckrno0/resume_of_a_2023_graduate_targeting_machine/) , 2024-05-08-0909
-```
-Hello all, I am a 2023 graduate, I have been jobless since graduation but I have been trying hard to get a job. During t
-his whole break I have not stopped and kept myself up to date with the latest technologies in machine learning and tried
- to keep busy and upskill myself.  
-I have had very little success in my job search, I got a few interviews but companie
-s select other candidates in the end who have more experience than me. My resume scores good on ATS but I still don't kn
-ow if its good enough. 
-
-https://preview.redd.it/kh4837sx3myc1.png?width=429&format=png&auto=webp&s=8bcd822f965d2e10488b
-003ad1048b87f1f50d4c
-
-Please help me out, any kind of feedback will be appreciated.   
-
-```
----
-
-     
- 
-all -  [ Fine tuning for Function Calling ](https://www.reddit.com/r/LangChain/comments/1ckpwg4/fine_tuning_for_function_calling/) , 2024-05-08-0909
-```
-Is it a good idea to fine tune a cheaper model like chatgpt 3.5 and train it on your function calling samples where the 
-tool is basically a http fetch request to get data from API based on parameters in the user's query?
-
-I am currently usi
-ng gpt 4 2024 model, and the cons are 1) it's expensive 2) I have to add examples in my system prompt 3) It still fails 
-at times with mapping the parameters (more than 4 different parameters such as region, duration, price etc)
-
-I am consid
-ering this but posting this to check if someone found this viable? 
-```
----
-
-     
- 
-all -  [ help in creating a RAG chatbot  ](https://www.reddit.com/r/LangChain/comments/1ckoupq/help_in_creating_a_rag_chatbot/) , 2024-05-08-0909
-```
-Hi Guy i need your help!  
-  
-i want to build a chatbot service that is a cartoon character that helps people with their
- body transformation journey , its has a database with relevant products, it offers products to users when they ask body
- transformation questions using the database .   
-for example :  
-'i want to gain weight , how do i do it ?'  
-'im 178cm
- and 78kg and i want to gain 10kg '  
-'if im looking to lose 5% body fat , what should i do ?'  
-  
-to do so i build a n
-umber of chatbots each with a different exaction approach but each has its own issues and i cant find the execution that
- will satisfy me .  
-  
-1st approach:  
-using langchain and added a custom tool , that holds the products in a vector da
-tabase .  
-  
-the problems with this approach: it doesnt always go to the tool , sometimes it does and sometimes it does
-nt .   
-and i cant control it , the llm decides by itself if to look in the tool or not , this leads to unstable results
- of similar conversations   
-  
-2nd approach :  
-i used the openai wrapper and used groq llm service , without langchain
- , were i added a custom tool , here the process is different .  
-process:  
-- get user input   
-- created a llm call to
- determine if the function would be called by looking at the user input   
-- if the function is to call then i call the 
-function with the user input and get the products   
-- create a llm call with a system prompt and user input plus the re
-levant products   
--if the function is not to call , then ill create a llm call with a different system prompt and use o
-nly the user input   
-- also introduce the user and chatbot summary chat history to give the llm context   
-  
-the probl
-ems with this approach :  
-again not always it goes to the tool so its a problem , here it performs better then the firs
-t approach , but i feel its hard to keep the context of the conversation and the history is getting bigger and bigger ve
-ry fast and then the llm looses understanding of the user input   
-  
-3rd approach:  
-- get user input   
-- always use u
-ser input to look for relevant products in the vector database  
-- summary the conversation until now   
-- do a llm call
- using the system prompt , user input , the relevant products , and conversation summary   
-  
-the problem with this app
-roach :  
-from all of the approaches this preforms the best but it still has issues , because i use a lot of information
- in each llm call , and i ask it to respond to the user input and use the products only if they are relevant . when the 
-user wants to end the conversation and say 'thank you' or 'great' inside the llm call it gets lots of information and th
-e respond misses the point , and it answers like the user is still looking for help and doesnt understand the context of
- where we are right now   
-  
-  
-i want to know what is the best approach to create a chat bot that users can talk to , 
-get relevant products for their body transformation journey , but also talk to the llm regularly and for it to respond o
-nly to the relevant message . please tell me from your experience what is the best approach .   
-  
-i really appreciate 
-any help.   
-```
----
-
-     
- 
-all -  [ Question on Multi lingual data ](https://www.reddit.com/r/LangChain/comments/1ckmuq2/question_on_multi_lingual_data/) , 2024-05-08-0909
-```
-Hi, I’m trying to build a Chat bot for our org using langchain. The knowledge base is primarily Wordpress blogs, books a
-nd YouTube videos.
-The YouTube videos happen to be in English and Hindi(language of India). How should I go about data i
-ngestion? Should I translate the Hindi video transcripts to English and then embed them or should I embed all the transc
-ripts irrespective of language using a multi lingual model from something like cohere?
-```
----
-
-     
- 
-all -  [ Prompt Engineering Testing Suite...? ](https://www.reddit.com/r/PromptEngineering/comments/1ckkw3t/prompt_engineering_testing_suite/) , 2024-05-08-0909
-```
-Hi fellow prompters, good to meet you!
-
-I'm looking for advice. I was wondering if you were having similar issues to the
- ones I'm having:
-
-- I want to compare and test different LLMs in one place and keep track of changes.
-
-- I'm not really
- sure how to hook up to all these different LLM providers (openai, claude, google) API effectively 
-
-- I'm basically won
-dering if there's like a prompt testing/deployment kit that's more intuitive and simple than Galileo/Langchain.
-
-Can you
- tell me about your guys's current tools for prompt testing and switching between different models?
-
-I'm trying to learn
- more about other people working in this area.
-
-Thanks :)
-```
----
-
-     
- 
-all -  [ 3rd year student studying CS ](https://www.reddit.com/r/resumes/comments/1ckkc7b/3rd_year_student_studying_cs/) , 2024-05-08-0909
-```
-I have applied to around 300-400 companies this year and have received a couple interviews but majority negative respons
-es. I feel like there is something going wrong with my resume and any feedback is highly appreciated
-
-https://preview.re
-dd.it/xto1ucqarjyc1.jpg?width=850&format=pjpg&auto=webp&s=f96cc2f0c27092584961b6e8595f03fa21dac9a7
-
-
-```
----
-
-     
- 
-all -  [ [For Hire] I will be your AI Consultant for free  ](https://www.reddit.com/r/jobbit/comments/1ckhkcj/for_hire_i_will_be_your_ai_consultant_for_free/) , 2024-05-08-0909
-```
-Are you intrigued by the AI trend but unsure how it could enhance your business, leading to a sense of FOMO? Fear not! 
-
-
-Let's explore how AI can seamlessly integrate into your business operations. From analyzing your processes to identifyi
-ng AI opportunities, I'll provide insights into how your business can benefit. 
-
-With expertise in diverse AI tools, fro
-m no-code platforms like Voiceflow to advanced frameworks like Langchain, I'm equipped to guide you through the possibil
-ities. 
-
-Drop me a DM with your availability, and let's delve into the specifics of your business!
-```
----
-
-     
- 
-MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-08-0909
+MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-09-0910
 ```
 Hey there, Redditors!
 
@@ -1148,7 +1628,7 @@ hub repo](https://github.com/topoteretes/cognee)
 
      
  
-deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-08-0909
+deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-09-0910
 ```
 Hi all
 
@@ -1193,7 +1673,7 @@ ms with Langchain, what about prompt chaining?
 
      
  
-deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-08-0909
+deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-09-0910
 ```
 Hi, I'm looking at some LLM applications today but apart from guys doing big rags with langchain I don't see too many us
 es that are out of the box or that make me say 'wow that was smart to use an LLM here'. Have you seen any cool stuff usi
