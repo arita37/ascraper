@@ -1,5 +1,52 @@
  
-all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-11-0910
+all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-12-0911
+```
+VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
+h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
+viding clear goals to measure the progress and importance of $VRSSF's research and development endeavors. 
+
+The company 
+plans to use this roadmap this year to monitor its AI progress. Basically, it wants to check whether its approach can be
+ as good as or better than advanced AI models on various industry tests, all while using less data and energy.  
+
+By mee
+ting these benchmarks, VERSES can prove that they can create AI that is better, cheaper, and faster. The end goal is to 
+get their AI into more hands through their Genius Platform. 
+
+Research Roadmap Highlights: 
+
+VERSES’ research roadmap ha
+s 3 benchmarks: Classification and generation tasks, Atari 10k Challenge, and NeurIPS 2024 Melting Pot Challenge 
+
+The f
+irst benchmark, Classification and generation tasks, focuses on proving VRSSF's approach is better at tasks like recogni
+zing images and creating new ones. By utilizing advanced Bayesian inference techniques, they are trying to show that the
+ir method has the ability to outperform traditional deep learning methods. This test is important because it shows wheth
+er VERSES can make top-quality AI while being more efficient.  
+
+The second benchmark, the Atari 10k Challenge, is all a
+bout testing VERSES' AI skills in playing video games. Unlike conventional methods that need a lot of gameplay data, VER
+SES is trying to play video games almost like a human but with way less practice. $VRSSF is using active inference to he
+lp their AI be super adaptable. And by doing this, they're hoping to raise the bar for how well AI can perform in gaming
+ 
+
+Lastly, there’s the NeurIPS 2024 Melting Pot Challenge. This is all about testing how well VERSES' can handle tricky 
+situations where lots of different AI systems need to work together. $VRSSF wants to show that their AI can understand t
+hese complicated situations and work smoothly with other AI systems. Through the use of active inference and explicit re
+presentational structures, VERSES aims to become a leader in creating AI systems that can collaborate effectively and ta
+ckle complex problems together. 
+
+$VRSSF publicly released this roadmap so the public can track their progress. The road
+map can be accessed here: www.verses.ai/rd-overview 
+
+Note: this is not financial advice please do your own research bef
+ore investing.
+```
+---
+
+     
+ 
+all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-12-0911
 ```
 Hi, I'm a first year student in ece and wanted to ask how I can get involved in ai and ml research? I know the first ste
 p usually involves securing a grant through NSERC or smthg similar and reaching out to profs, but does anyone know how y
@@ -14,7 +61,7 @@ ow there are some cool startups that I've been trying to become involved in, and
 
      
  
-all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-11-0910
+all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-12-0911
 ```
 As a Founding AI Engineer, you'll play a critical role in the development and scaling of our agents infrastructure, goin
 g all the way from data ingestion to building state-of-the-art action-taking architectures. If you have a strong bias to
@@ -52,7 +99,7 @@ ineer-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-11-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-12-0911
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -84,7 +131,7 @@ ern-agents/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-11-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-12-0911
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -115,7 +162,7 @@ nts/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-11-0910
+all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-12-0911
 ```
 I have some papers in top venus myself, but whenever I sit down and be brutually honest with myself. I feel my work is g
 ood but it is just not that impactful, like one more brick in the wall.
@@ -126,7 +173,7 @@ tful as 'Attention is all you need' for example.
 
      
  
-all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-11-0910
+all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-12-0911
 ```
 Hello everyone, today the ICML results are out, congratulations to all those who have papers accepted here. I'm not an a
 cademic myself, but sometimes I read papers at these conferences for work, and it's really interesting. I just have a qu
@@ -139,7 +186,7 @@ roughout your 5 years of PhD and almost only achieve in the final years of your 
 
      
  
-all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-11-0910
+all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-12-0911
 ```
 Hi,
 
@@ -156,7 +203,7 @@ erience during my master's and bachelor's, combinatorial optimization is always 
 
      
  
-all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-11-0910
+all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-12-0911
 ```
 https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c3b61ddfd5b5dcbdab63a2645fc7a4cb145b
 
@@ -166,7 +213,7 @@ https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c
 
      
  
-all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](https://www.youtube.com/watch?v=GtveKYXYo_0) , 2024-05-11-0910
+all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](https://www.youtube.com/watch?v=GtveKYXYo_0) , 2024-05-12-0911
 ```
 
 ```
@@ -174,7 +221,7 @@ all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](http
 
      
  
-all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-11-0910
+all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-12-0911
 ```
 [https://www.norange.io/projects/paper\_scorer/](https://www.norange.io/projects/paper_scorer/)
 
@@ -216,7 +263,7 @@ I also discussed this topic in a series of [tweets](https://x.com/nikitadurasov/
 
      
  
-all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-11-0910
+all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-12-0911
 ```
 I entered the Computer Science PhD program at our school 3 years ago (I'm in USA). I did not have a masters, they had a 
 combined program thingie. I did all of the masters courses so I can master out now, but I have 0 papers. My advisorwhen 
@@ -261,7 +308,7 @@ motivation is money. I've been told PhD matters when it comes to hiring but I do
 
      
  
-all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-11-0910
+all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-12-0911
 ```
 Hi there,
 
@@ -284,7 +331,7 @@ es this apply to my case?
 
      
  
-all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-11-0910
+all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-12-0911
 ```
 I understand the derivation of -div and grad being adjoint operators, but then shouldn't equality hold between 'integral
  of (norm of gradient)\^2' and '-1 \* integral of laplacian \* function' ? Where did the negative go in the equality?
@@ -304,7 +351,7 @@ x)
 
      
  
-all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-11-0910
+all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-12-0911
 ```
 Used to receive invitation by this time of the year. Maybe I am forgotten.
 ```
@@ -312,7 +359,7 @@ Used to receive invitation by this time of the year. Maybe I am forgotten.
 
      
  
-all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-11-0910
+all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-12-0911
 ```
 Maybe I'm a bit paranoid but I'm a little worried about how future employers (e.g. FAANG) might view a CS PhD in computa
 tional biology (and instead I may be a 'better fit' for big pharma/biotech post-graduation).
@@ -340,7 +387,7 @@ ly be an issue in reality?)
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-11-0910
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-12-0911
 ```
 
 myquals : MTech AI from IISc. My motivation for writing this post comes from an earlier post in r/GATEtard titled, ['Do
@@ -428,7 +475,7 @@ ant to learn and understand the topics you love deeply.
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-11-0910
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-12-0911
 ```
 I am from the 2021-23 batch of MTech AI at IISc. My motivation for writing this post comes from an earlier post in this 
 subreddit titled, 'Do not join MTECH AI if you have other options like CSA (currently in IISC).' TLDR at the bottom.
@@ -515,7 +562,7 @@ eeply.
 
      
  
-all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-05-11-0910
+all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-05-12-0911
 ```
 **TL;DR** I come from an average family and worked hard to put myself through college, driven by my passion for research
  and innovation. Despite having multiple first-author papers in top ML conferences, contributing to open-source projects
@@ -577,7 +624,7 @@ wrong. I feel like I should quit research.
 
      
  
-all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-05-11-0910
+all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-05-12-0911
 ```
 Folks on Twitter seem not to like the idea at least the rationale. I tend to agree with them because we are pushing ever
 yone to have a research paper so as to be considered 'someone'
@@ -586,7 +633,7 @@ yone to have a research paper so as to be considered 'someone'
 
      
  
-all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-05-11-0910
+all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-05-12-0911
 ```
 Profile:
 
@@ -622,7 +669,7 @@ is not the best (but I have a good reason, and my school didn't have grade infla
 
      
  
-all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-05-11-0910
+all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-05-12-0911
 ```
 I'm in Windows.
 
@@ -634,7 +681,7 @@ What tò do now ?
 
      
  
-all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-05-11-0910
+all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-05-12-0911
 ```
 NeurIPS 2024 Adds a New Paper Track for High School Students
 
@@ -654,150 +701,6 @@ y at NeurIPS 2024 in Vancouver.
 > Each submission must describe independent work wholly performed by the high school 
 student authors.  We expect each submission to highlight either demonstrated positive social impact or the potential for
  positive social impact using machine learning.
-```
----
-
-     
- 
-all -  [ [R] NeurIPS '24 - No experiments yet ](https://www.reddit.com/r/MachineLearning/comments/1c10364/r_neurips_24_no_experiments_yet/) , 2024-05-11-0910
-```
-I'm an undergrad doing research (no previous publications). My advisor and I have been busy with other work and have not
- gotten significant time to work on our project. While we've written most of the code, we have some parts left and have 
-not started running any experiments (though we know the steps forward and have a relatively organized research plan). We
- plan to submit to NeurIPS '24; should we cave in and try submitting at ICLR instead (September deadline)? Is it worth g
-oing all-in on these next few weeks? 
-```
----
-
-     
- 
-all -  [ FAR AI hiring Technical Lead (AI Safety) in Berkeley, California, United States ](https://www.reddit.com/r/AIJobHub/comments/1c0va3k/far_ai_hiring_technical_lead_ai_safety_in/) , 2024-05-11-0910
-```
-FAR AI is seeking applications for a skilled Technical Lead to spearhead the delivery of our technical AI safety researc
-h and red-teaming projects.
-
-**About Us**
-
-FAR AI is a technical AI research non-profit, focused on ensuring the safe de
-velopment and deployment of frontier AI technologies.
-
-Since starting in July 2022, FAR has grown to 12 FTE, produced 13
- academic papers, hosted events for some of the world’s leading AI & computer science researchers, and opened our AI saf
-ety focused co-working space which is home to around 40 members.
-
-**About FAR Research**
-
-Our research team likes to mov
-e fast. We explore promising research directions in AI safety and scale up only those showing a high potential for impac
-t. Unlike other AI safety labs that take a bet on a single research direction, FAR aims to pursue a diverse portfolio of
- projects. We also put our research into practice through red-teaming engagements with frontier AI developers.
-
-Our curr
-ent focus areas are building a *science of robustness* (e.g. finding vulnerabilities in superhuman Go AIs), finding more
- effective approaches to *value alignment* (e.g. training from language feedback), and *model evaluation* (e.g. inverse 
-scaling and codebook features).
-
-**Other FAR Projects**
-
-To build a flourishing field of AI safety research, we host tar
-geted workshops and events, and operate a co-working space in Berkeley, called FAR Labs. Our previous events include the
- *International Dialogue for AI Safety* that brought together prominent scientists (including 2 Turing Award winners) fr
-om around the globe, culminating in a public statement calling for global action on AI safety research and governance. W
-e recently hosted the New Orleans Alignment Workshop for over 140 researchers from academia and industry to learn about 
-AI safety and find collaborators. For more information on FAR AI’s activities, please visit our latest post.
-
-**About th
-e Role**
-
-Our research projects are focussed on ensuring the safe and responsible development of advanced artificial int
-elligence systems. As a Technical Lead at FAR AI you will be crucial to driving the quality and execution of these proje
-cts to new heights, helping shaping the future of AI safety.
-
-You will work in tandem with Research Scientists, Advisors
- and Engineers both within and outside FAR, providing technical guidance and project stewardship.
-
-**Key responsibilitie
-s:**
-
-* **Technical Leadership and Execution**. Be FAR’s point-of-contact for all technical matters related to our resea
-rch projects.
-* **Strategic Guidance**. Play a key role in the development and direction of technical research projects.
-
-* **Hands-on Leadership**. Lead by example with active involvement in coding, debugging and project development.
-* **In
-novation**. Run scientific experiments and contribute to the development of scalable implementations of machine learning
- algorithms. You will be credited as an author in submissions to peer reviewed venues (e.g. NeurIPS, ICLR, JMLR)
-* **Res
-earch Collaboration**. Work closely with Research Scientists to convert theoretical models into practical experiments. F
-oster strong relationships with collaborators from various academic labs and research institutions, facilitating the exc
-hange of ideas and methodologies.
-* **Mentorship and Team Development**. Guide and support the professional growth of th
-e engineering team.
-* **Learning and Development**. Pursue continual development of your skills. You will have an opport
-unity in the role to develop your research taste and high-level views on AI safety research by collaborating with our Re
-search Team. We are excited to support our team to grow in other areas, and will have a dedicated Learning & Development
- budget.
-
-**About You**
-
-You should be excited to help make AI systems safe. You are expected to have a minimum of 5 yea
-rs experience in software development OR 3 years (PhD equivalent) experience with Machine Learning methodologies.
-
-It is
- essential that you have a:
-
-* Track record of delivering technical projects, ideally in a startup or research environme
-nt
-* Strong technical expertise in software engineering, with proficiency in at least one object-oriented programming la
-nguages (preferably Python).
-* Are results-oriented and motivated by impactful research.
-* Excellent ability to communic
-ate complex technical concepts and lead collaborative efforts.
-
-It is preferable that you have:
-
-* Experience with machi
-ne learning methodologies and frameworks like PyTorch or TensorFlow.
-* Familiarity with operating system internals and d
-istributed systems.
-* Familiarity with basic linear algebra, calculus, vector probability, and statistics.
-* Publication
-s or open-source software contributions.
-
-**About the Projects**
-
-As a Technical Lead you would drive engineering excell
-ence across multiple projects, with examples below:
-
-* Scaling laws for prompt injections. Will advances in capabilities
- from increasing model and data scale help resolve prompt injections or “jailbreaks” in language models, or is progress 
-in average-case performance orthogonal to worst-case robustness?
-* Robustness of advanced AI systems. Explore adversaria
-l training, architectural improvements and other changes to deep learning systems to improve their robustness. We are ex
-ploring this both in zero-sum board games and language models.
-* Mechanistic interpretability for mesa-optimization. Dev
-elop techniques to identify internal planning in models to effectively audit the “goals” of models in addition to their 
-external behavior.
-* Redteaming of frontier models. Apply our research insights to test for vulnerabilities and limitati
-ons of frontier AI models prior to deployment.
-
-**Logistics**
-
-You will be an employee of FAR AI, a 501(c)(3) research n
-on-profit.
-
-* Location: Both remote and in-person (Berkeley, CA) are possible. We sponsor visas for in-person employees,
- and can also hire remotely in most countries.
-* Hours: Full-time (40 hours/week).
-* Compensation: $125,000-$250,000/yea
-r\* depending on experience and location. We will also pay for work-related travel and equipment expenses. We offer cate
-red lunch and dinner at our offices in Berkeley. \**For exceptional candidates with an outstanding track record we may b
-e able to offer additional compensation.*
-* Application process: A 90-minute programming assessment, 2 1-hour interviews
-, and a 1-2 week paid work trial. If you are not available for a work trial we may be able to find alternative ways of t
-esting your fit.
-
-**Please apply!** If you have any questions about the role, please do get in touch at *hello@far.ai.*
 ```
 ---
 

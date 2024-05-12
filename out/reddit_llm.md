@@ -1,5 +1,439 @@
  
-all -  [ What's the scoop on serialization? It's all over the show with LangChain ](https://www.reddit.com/r/LangChain/comments/1cp3y1l/whats_the_scoop_on_serialization_its_all_over_the/) , 2024-05-11-0910
+all -  [ Is it possible to change agent prompt based on user question after the agent is already created? ](https://www.reddit.com/r/LangChain/comments/1cpsg8f/is_it_possible_to_change_agent_prompt_based_on/) , 2024-05-12-0911
+```
+I was following the [LangChain SQL Documentation](https://python.langchain.com/v0.1/docs/use_cases/sql/agents/). So far 
+I'm using Few shot prompt template as the prompt for the agent.
+
+    agent = create_sql_agent(
+        llm=self.llm,
+   
+     db=self.db,
+        prompt=self.few_shot_prompt,
+        verbose=True,
+        agent_type='openai-tools',
+        t
+op_k=10,
+    )
+
+Now what I want to do is
+
+1. Create a chain that creates a custom prompt based on user question
+2. Then 
+pass that custom prompt created by the chain to the agent to use when I invoke it
+
+I've created the chain like this
+
+   
+ rg = RunnableParallel(
+            {
+                'input': lambda x: x['input'],
+                'dialect': lambda x
+: x['dialect'],
+                'top_k': lambda x: x['top_k'],
+                'tables': self.table_extraction_chain,
+  
+          }
+        ).assign(prompt=self.few_shot_prompt)
+
+can I pipe in the Agent here somehow to use the custom prompt
+?
+```
+---
+
+     
+ 
+all -  [ Problem with heavy documents ](https://www.reddit.com/r/LangChain/comments/1cps3s5/problem_with_heavy_documents/) , 2024-05-12-0911
+```
+Hello, I am a beginner in LLM and LangChain, and I am developing a small application that allows me to query PDF documen
+ts with my OpenAI API. Everything works well so far with the PDFs. I am able to query the PDFs. If the question is out o
+f context, it shows that the information is not in the PDF, otherwise, it displays the information. So, everything is go
+ing well at the moment, but the problem is that with documents that are a bit longer, 100 pages or more, I really have p
+roblems because I can't even load them to query them. So, what should I do?
+```
+---
+
+     
+ 
+all -  [ [P] Open source library to scrape PDFs, YouTube, URLs, Presentations, etc for API-hosted vision-lang ](https://www.reddit.com/r/MachineLearning/comments/1cpnlqe/p_open_source_library_to_scrape_pdfs_youtube_urls/) , 2024-05-12-0911
+```
+[Here I will share an open source library](https://thepi.pe/) you can use to extract text and visual unstructured data f
+rom files, webpages, youtube videos, etc to immediately feed the results into API-hosted vision language models (like GP
+T-4-Vision or Gemini). I made this simple tool because I was unable to get vision functionality with other extraction fr
+ameworks like unstructuredio, langchain exctractors, document layout analysis models, etc,
+
+Cheers & have fun!
+```
+---
+
+     
+ 
+all -  [ Generate python functions automatically from openapi.json? ](https://www.reddit.com/r/openBB/comments/1cpkkb4/generate_python_functions_automatically_from/) , 2024-05-12-0911
+```
+If I run the REST server locally, I can get an openapi spec via http://127.0.0.1:8000/openapi.json .
+
+which tools can pa
+rse the json and generate a python function or sub for each endpoint?
+
+I tried a couple with a custom python parser and 
+I can generate a working function like the below from the json below, but wondering if anyone has done a proper job with
+ good docstrings and parameters and defaults? 
+
+tried the bravado module which should take an openai spec and turn it in
+to REST get requests, didn't parse the JSON correctly, and openapi-python-client also failed.
+
+wanted to experiment with
+ langchain agents talking to openai, anthropic etc., and make a tool for e.g. all the equity endpoints that take a symbo
+l. could also inspect the obb functions and docstrings. basically wondering if there is a standard way to do this sort o
+f metaprogramming with the openbb platform.
+
+    def equity_price_quote(symbol):
+       '''the latest quote for a given 
+stock. Quote includes price, volume, and other data.'''
+
+      retval = None
+      retlist = obb.equity.price.quote(symb
+ol).results
+      if retlist and type(retlist is list):
+        retval = retlist[0].model_dump_json()
+      return retva
+l 
+
+json:
+
+        '/api/v1/equity/price/quote': {
+            'get': {
+                'tags': [
+                    'e
+quity'
+                ],
+                'summary': 'Quote',
+                'description': 'Get the latest quote for a
+ given stock. Quote includes price, volume, and other data.',
+                'operationId': 'equity_price_quote',
+     
+           'parameters': [
+                    {
+                        'name': 'provider',
+                        'in
+': 'query',
+                        'required': true,
+                        'schema': {
+                            'e
+num': [
+                                'cboe',
+                                'fmp',
+                                '
+intrinio',
+                                'tmx',
+                                'tradier',
+                           
+     'yfinance'
+                            ],
+                            'type': 'string',
+                           
+ 'title': 'Provider'
+                        }
+                    },
+                    {
+                        'nam
+e': 'symbol',
+                        'in': 'query',
+                        'required': true,
+                        '
+schema': {
+                            'type': 'string',
+                            'description': 'Symbol to get data 
+for. Multiple comma separated items allowed for provider(s): cboe, fmp, intrinio, tmx, tradier, yfinance.',
+            
+                'multiple_items_allowed': [
+                                'cboe',
+                                'fmp
+',
+                                'intrinio',
+                                'tmx',
+                                't
+radier',
+                                'yfinance'
+                            ],
+                            'title': 
+'Symbol'
+                        },
+                        'description': 'Symbol to get data for. Multiple comma separ
+ated items allowed for provider(s): cboe, fmp, intrinio, tmx, tradier, yfinance.'
+                    },
+               
+     {
+                        'name': 'use_cache',
+                        'in': 'query',
+                        'requ
+ired': false,
+                        'schema': {
+                            'type': 'boolean',
+                       
+     'title': 'cboe',
+                            'description': 'When True, the company directories will be cached for 
+24 hours and are used to validate symbols. The results of the function are not cached. Set as False to bypass. (provider
+: cboe)',
+                            'default': true
+                        },
+                        'description': 
+'When True, the company directories will be cached for 24 hours and are used to validate symbols. The results of the fun
+ction are not cached. Set as False to bypass. (provider: cboe)'
+                    },
+                    {
+           
+             'name': 'source',
+                        'in': 'query',
+                        'required': false,
+       
+                 'schema': {
+                            'enum': [
+                                'iex',
+              
+                  'bats',
+                                'bats_delayed',
+                                'utp_delayed',
+
+                                'cta_a_delayed',
+                                'cta_b_delayed',
+                     
+           'intrinio_mx',
+                                'intrinio_mx_plus',
+                                'delayed_s
+ip'
+                            ],
+                            'type': 'string',
+                            'title': 'i
+ntrinio',
+                            'description': 'Source of the data. (provider: intrinio)',
+                       
+     'default': 'iex'
+                        },
+                        'description': 'Source of the data. (provider: 
+intrinio)'
+                    }
+                ],
+                'responses': {
+                    '200': {
+        
+                'description': 'Successful Response',
+                        'content': {
+                            '
+application/json': {
+                                'schema': {
+                                    '$ref': '#/componen
+ts/schemas/OBBject_EquityQuote'
+                                }
+                            }
+                        
+}
+                    },
+                    '404': {
+                        'description': 'Not found'
+               
+     },
+                    '400': {
+                        'description': 'No Results Found',
+                        
+'content': {
+                            'application/json': {
+                                'schema': {
+             
+                       '$ref': '#/components/schemas/OpenBBErrorResponse'
+                                }
+            
+                }
+                        }
+                    },
+                    '500': {
+                        
+'description': 'Internal Error',
+                        'content': {
+                            'application/json': {
+
+                                'schema': {
+                                    '$ref': '#/components/schemas/OpenBBErro
+rResponse'
+                                }
+                            }
+                        }
+                   
+ },
+                    '422': {
+                        'description': 'Validation Error',
+                        'con
+tent': {
+                            'application/json': {
+                                'schema': {
+                 
+                   '$ref': '#/components/schemas/HTTPValidationError'
+                                }
+                
+            }
+                        }
+                    }
+                },
+                'model': 'EquityQuote',
+
+                'examples': [
+                    {
+                        'scope': 'api',
+                        'pa
+rameters': {
+                            'symbol': 'AAPL',
+                            'provider': 'fmp'
+               
+         },
+                        'provider': 'fmp'
+                    }
+                ]
+            }
+        },
+```
+---
+
+     
+ 
+all -  [ GPT3.5 tool calling more accurately than Claude haiku. ](https://www.reddit.com/r/LangChain/comments/1cpjgn1/gpt35_tool_calling_more_accurately_than_claude/) , 2024-05-12-0911
+```
+Using the same prompt, GPT 3.5 seems more likely to use tools correctly all the time whereas Claude haiku needs better p
+rompting to achieve tool calling? Even so, it misses out a good number of times. 
+
+For eg. I don’t even have to mention 
+any tools in the gpt prompt but I have to mention in for haiku to even work. Putting the tool description and query work
+s enough for gpt.
+
+E.g a tool parameter for “rag vector query” correctly abstracts the query to keywords but haiku dumps
+ the entire question in. GPT is also able to infer from history and use tools (eg, tell me more) while haiku just plain 
+responds saying it has no more data. 
+
+Am I using anything wrong? Everyone is saying haiku is smarter and all.. main rea
+son I am trying it out is that it is cheaper, potentially allowing for more documents to stuff in. 
+```
+---
+
+     
+ 
+all -  [ Voice generation ](https://www.reddit.com/r/LangChain/comments/1cpcwcg/voice_generation/) , 2024-05-12-0911
+```
+Hey there, Is there any way to generate a voice?   
+I found some impressive tools out there, but wish they were integrat
+ed with langchain like this one: [https://github.com/jasonppy/VoiceCraft](https://github.com/jasonppy/VoiceCraft)
+```
+---
+
+     
+ 
+all -  [ Resume For Data Scientist / Machine Learning Engineer Review ](https://i.redd.it/ofwbm2tsxqzc1.png) , 2024-05-12-0911
+```
+
+```
+---
+
+     
+ 
+all -  [ [P] LLMinator: A Llama.cpp + Gradio based opensource Chatbot to run llms locally(cpu/cuda) directly  ](https://www.reddit.com/r/MachineLearning/comments/1cpbgd1/p_llminator_a_llamacpp_gradio_based_opensource/) , 2024-05-12-0911
+```
+Hi I am currently working on a context-aware streaming chatbot based on Llama.cpp, Gradio, Langchain, Transformers. LLMi
+nator can pull LLMs directly from HF & run them locally on cuda or cpu.
+
+I am looking for recommendations & help from op
+ensource community to grow this further.
+
+**Github Repo:** [https://github.com/Aesthisia/LLMinator](https://github.com/A
+esthisia/LLMinator)
+
+**Goal:** To help developers with kickstarter code/tool to run LLMs.
+
+https://preview.redd.it/fnzja
+7rjwqzc1.png?width=1846&format=png&auto=webp&s=a62c43614d63e82156fef8722b986b051cc1795b
+
+**Features:**
+
+* Context-aware 
+Chatbot.
+* Inbuilt code syntax highlighting.
+* Load any LLM repo directly from HuggingFace.
+* Supports both CPU & Cuda m
+odes.
+* Load & Offload saved models.
+* Command Line Args
+* API Access(Soon to be available)
+
+Any review or feedback is a
+ppreciated.
+```
+---
+
+     
+ 
+all -  [ Function/tool calling on non-OpenAI models? ](https://www.reddit.com/r/LangChain/comments/1cpagwd/functiontool_calling_on_nonopenai_models/) , 2024-05-12-0911
+```
+I have a Next.js application that requires RAG (Specifically web search) with multiple open source models. Is there a wa
+y to get them to work with function/tool calling?
+```
+---
+
+     
+ 
+all -  [ Agent to generate Charts based on the user's prompt ](https://www.reddit.com/r/LangChain/comments/1cp9gqj/agent_to_generate_charts_based_on_the_users_prompt/) , 2024-05-12-0911
+```
+https://preview.redd.it/4738d3i5aqzc1.png?width=723&format=png&auto=webp&s=89b493a6fc2271d489b0df2e6faddd3bf4a19f43
+
+Hi 
+Guys, I have a RAG for csv file, the data is about temperature sensors and apps usage percentage in a phone. I was able 
+to use azure gpt 4 and generate a textual response. Since we have a csv file, I want the llm to also generate a graph al
+ong with the textual response. Please tell me how to code this up.   
+  
+
+```
+---
+
+     
+ 
+all -  [ Tutorial on Langchain that doesn't rely on an online service? ](https://www.reddit.com/r/learnprogramming/comments/1cp5udf/tutorial_on_langchain_that_doesnt_rely_on_an/) , 2024-05-12-0911
+```
+Like every tutorials use langchain with an online service, but I would like to build a llm or a simple chatbot with a cr
+appy offline llm that we can run offline. Is there anything like it? I searched and it seems that there's nothing like i
+t and it's basically a pipe dream.
+```
+---
+
+     
+ 
+all -  [ (Code included) I did a workshop on long-term selective memory for LLM applications recently ](https://www.reddit.com/r/LangChain/comments/1cp5q9p/code_included_i_did_a_workshop_on_longterm/) , 2024-05-12-0911
+```
+Good to be back making content for y’all.
+
+Video: [https://www.youtube.com/watch?v=RkWor1BZOn0](https://www.youtube.com/
+watch?v=RkWor1BZOn0)
+
+Code: [https://colab.research.google.com/drive/18\_L\_OX4YPlAHdQCSMfRgjTE9aSOEl-6l?usp=sharing](ht
+tps://colab.research.google.com/drive/18_L_OX4YPlAHdQCSMfRgjTE9aSOEl-6l?usp=sharing)
+
+Let me know in the comments what y
+ou liked / didn’t like about this and I’ll make it better next time.
+
+or if you need clarifications, I‘m happy to answer
+ to the best of my ability.
+```
+---
+
+     
+ 
+all -  [ Getting Answers from GPT based on document ](https://www.reddit.com/r/ChatGPT/comments/1cp4mt7/getting_answers_from_gpt_based_on_document/) , 2024-05-12-0911
+```
+Using the api how to give a large amount of information then receive answers from the given data. 
+
+What is the best, mo
+st cost efficient solution.
+Assistants API? Langchain?
+```
+---
+
+     
+ 
+all -  [ What's the scoop on serialization? It's all over the show with LangChain ](https://www.reddit.com/r/LangChain/comments/1cp3y1l/whats_the_scoop_on_serialization_its_all_over_the/) , 2024-05-12-0911
 ```
 Hi am I doing something wrong?
 
@@ -21,7 +455,7 @@ ization?
 
      
  
-all -  [ Ai generated ad that was on my feed ](https://i.redd.it/doitcfsajozc1.jpeg) , 2024-05-11-0910
+all -  [ Ai generated ad that was on my feed ](https://i.redd.it/doitcfsajozc1.jpeg) , 2024-05-12-0911
 ```
 How lazy is a company to use AI?
 ```
@@ -29,19 +463,7 @@ How lazy is a company to use AI?
 
      
  
-all -  [ Getting Answers from GPT based on document ](https://www.reddit.com/r/OpenAI/comments/1cp0tzk/getting_answers_from_gpt_based_on_document/) , 2024-05-11-0910
-```
-Using the api how to give a large amount of information then receive answers from the given data. 
-
-What is the best, mo
-st cost efficient solution.
-Assistants API? Langchain?
-```
----
-
-     
- 
-all -  [ how to get LLM to infer dates from a json file or text file? ](https://www.reddit.com/r/LangChain/comments/1coz2io/how_to_get_llm_to_infer_dates_from_a_json_file_or/) , 2024-05-11-0910
+all -  [ how to get LLM to infer dates from a json file or text file? ](https://www.reddit.com/r/LangChain/comments/1coz2io/how_to_get_llm_to_infer_dates_from_a_json_file_or/) , 2024-05-12-0911
 ```
 im currently using mistral-small in my project, i want to create a chatbot that can give answers about the weather in th
 e future, so i have a huge json file that i want to feed to the model as a vector embedding and then let the user ask th
@@ -136,7 +558,7 @@ please help me!
 
      
  
-all -  [ LangChain 0.2 prerelease ](https://www.reddit.com/r/LangChain/comments/1coyy48/langchain_02_prerelease/) , 2024-05-11-0910
+all -  [ LangChain 0.2 prerelease ](https://www.reddit.com/r/LangChain/comments/1coyy48/langchain_02_prerelease/) , 2024-05-12-0911
 ```
 hi all! we're gearing up for a release of langchain 0.2. The main change is no longer depending on langchain-community (
 this will increase modularity, decrease size of package, make more secure). We're also adding in a new docs structure an
@@ -150,7 +572,7 @@ te any feedback :)
 
      
  
-all -  [ Library that automatically creates a UI for your chatbot? ](https://www.reddit.com/r/LangChain/comments/1cot1we/library_that_automatically_creates_a_ui_for_your/) , 2024-05-11-0910
+all -  [ Library that automatically creates a UI for your chatbot? ](https://www.reddit.com/r/LangChain/comments/1cot1we/library_that_automatically_creates_a_ui_for_your/) , 2024-05-12-0911
 ```
 [Cycls](https://docs.cycls.com/getting-started) Python library significantly simplifies the development of AI chatbots f
 or developers, particularly those who specialize in backend development and may find creating user interfaces tiring. Th
@@ -169,7 +591,7 @@ ocesses. This feature is especially valuable for speeding up deployment and redu
 
      
  
-all -  [ duckduckgo_search with langchain ](https://www.reddit.com/r/duckduckgo/comments/1coso6p/duckduckgo_search_with_langchain/) , 2024-05-11-0910
+all -  [ duckduckgo_search with langchain ](https://www.reddit.com/r/duckduckgo/comments/1coso6p/duckduckgo_search_with_langchain/) , 2024-05-12-0911
 ```
 am using duckduckgo\_search with langchain community , it was working fine but am getting rate limit error i have alread
 y tried to upgrade but still the same error . is there any one who can tell me why
@@ -178,7 +600,7 @@ y tried to upgrade but still the same error . is there any one who can tell me w
 
      
  
-all -  [ Nomic embeddings with Ollama using Langchain up to Pinecone ](https://www.reddit.com/r/ollama/comments/1corjsr/nomic_embeddings_with_ollama_using_langchain_up/) , 2024-05-11-0910
+all -  [ Nomic embeddings with Ollama using Langchain up to Pinecone ](https://www.reddit.com/r/ollama/comments/1corjsr/nomic_embeddings_with_ollama_using_langchain_up/) , 2024-05-12-0911
 ```
 Anyone attempted this yet?  I have a lot of familiarity using open AI embeddings up to Pinecone and I want to switch to 
 Nomic. 
@@ -192,7 +614,7 @@ ush up embeddings and text and metadata in the format that I’m used to with Op
 
      
  
-all -  [ Would LC be a good platform for building a LLM-based chat which builds user profiles? ](https://www.reddit.com/r/LangChain/comments/1cooqdx/would_lc_be_a_good_platform_for_building_a/) , 2024-05-11-0910
+all -  [ Would LC be a good platform for building a LLM-based chat which builds user profiles? ](https://www.reddit.com/r/LangChain/comments/1cooqdx/would_lc_be_a_good_platform_for_building_a/) , 2024-05-12-0911
 ```
 Would LC be a good <framework> for building a LLM-based chat which builds user profiles?
 
@@ -206,7 +628,7 @@ ing this?
 
      
  
-all -  [ Just a question on LCEL vs RetrievalQA ](https://www.reddit.com/r/LangChain/comments/1colp4k/just_a_question_on_lcel_vs_retrievalqa/) , 2024-05-11-0910
+all -  [ Just a question on LCEL vs RetrievalQA ](https://www.reddit.com/r/LangChain/comments/1colp4k/just_a_question_on_lcel_vs_retrievalqa/) , 2024-05-12-0911
 ```
 Hi all, in the previous version of code, I had something like this:
 
@@ -241,7 +663,7 @@ metadata = metadata  
 
      
  
-all -  [ Phi3 text2sql ](https://www.reddit.com/r/LangChain/comments/1colhlx/phi3_text2sql/) , 2024-05-11-0910
+all -  [ Phi3 text2sql ](https://www.reddit.com/r/LangChain/comments/1colhlx/phi3_text2sql/) , 2024-05-12-0911
 ```
 Has anyone tried phi3 for text2sql in postgres? I am trying and can't generate a correct query
 ```
@@ -249,7 +671,7 @@ Has anyone tried phi3 for text2sql in postgres? I am trying and can't generate a
 
      
  
-all -  [ [For Hire] Programmer/Web Developer/IT Consultant (Python, PHP, AI, etc.) ](https://www.reddit.com/r/forhire/comments/1cola2g/for_hire_programmerweb_developerit_consultant/) , 2024-05-11-0910
+all -  [ [For Hire] Programmer/Web Developer/IT Consultant (Python, PHP, AI, etc.) ](https://www.reddit.com/r/forhire/comments/1cola2g/for_hire_programmerweb_developerit_consultant/) , 2024-05-12-0911
 ```
 To get in contact, please message me, I don't use the chat thing and might miss you or reply very late. Then we can swit
 ch to email/discord/telegram or whatever else. Apologies for starting with this, but many missed it when it was lower.
@@ -327,7 +749,7 @@ Please note: I am not a designer. To make it clear, it means zero aesthetic sens
 
      
  
-all -  [ How to deploy langchain chatbot (agent) using flask api and identify and manage unique user conversa ](https://www.reddit.com/r/learnpython/comments/1col188/how_to_deploy_langchain_chatbot_agent_using_flask/) , 2024-05-11-0910
+all -  [ How to deploy langchain chatbot (agent) using flask api and identify and manage unique user conversa ](https://www.reddit.com/r/learnpython/comments/1col188/how_to_deploy_langchain_chatbot_agent_using_flask/) , 2024-05-12-0911
 ```
 Hi, guys. I've made a langchain chatbot agent and I want to deploy it as a simple flask app.  
 I'm not sure, how the uni
@@ -344,7 +766,7 @@ one more thing, how the agent memory would be specified per user session in depl
 
      
  
-all -  [ Function Calling + RAG + Langchain Tool Calling Agent + REDIS Memory ](https://www.reddit.com/r/LangChain/comments/1cokru8/function_calling_rag_langchain_tool_calling_agent/) , 2024-05-11-0910
+all -  [ Function Calling + RAG + Langchain Tool Calling Agent + REDIS Memory ](https://www.reddit.com/r/LangChain/comments/1cokru8/function_calling_rag_langchain_tool_calling_agent/) , 2024-05-12-0911
 ```
 Tell me if this idea is feasible and how I can pull this off
 
@@ -364,7 +786,7 @@ n python better using knowledge graphs and making it answer follow up questions 
 
      
  
-all -  [ How to deploy langchain chatbot (agent) using flask api and identify and manage unique user conversa ](https://www.reddit.com/r/LangChain/comments/1cokd2v/how_to_deploy_langchain_chatbot_agent_using_flask/) , 2024-05-11-0910
+all -  [ How to deploy langchain chatbot (agent) using flask api and identify and manage unique user conversa ](https://www.reddit.com/r/LangChain/comments/1cokd2v/how_to_deploy_langchain_chatbot_agent_using_flask/) , 2024-05-12-0911
 ```
 Hi, guys. I've made a langchain chatbot agent and I want to deploy it as a simple flask app.  
 I'm not sure, how the uni
@@ -382,7 +804,7 @@ one more thing, how the agent memory would be specified per user session in depl
 
      
  
-all -  [ Profile Review ](https://i.redd.it/0dwb8qutwjzc1.jpeg) , 2024-05-11-0910
+all -  [ Profile Review ](https://i.redd.it/0dwb8qutwjzc1.jpeg) , 2024-05-12-0911
 ```
 Thoughts on my profile? Trying to land full-stack AI jobs. Interested in any feedback, even if it’s brutal as long as it
 ’s actionable.
@@ -391,7 +813,7 @@ Thoughts on my profile? Trying to land full-stack AI jobs. Interested in any fee
 
      
  
-all -  [ Evaluation Models - GPT-3.5 vs. GPT 4 Turbo ](https://www.reddit.com/r/LangChain/comments/1coj65b/evaluation_models_gpt35_vs_gpt_4_turbo/) , 2024-05-11-0910
+all -  [ Evaluation Models - GPT-3.5 vs. GPT 4 Turbo ](https://www.reddit.com/r/LangChain/comments/1coj65b/evaluation_models_gpt35_vs_gpt_4_turbo/) , 2024-05-12-0911
 ```
 hey guys
 
@@ -404,7 +826,7 @@ hink 3.5 is good enough to evaluate the outcomes?
 
      
  
-all -  [ LLAMA2 (and Other Models) Engaging in Self-Dialogue: Asking and Answering Its Own Questions ](https://www.reddit.com/r/LLMDevs/comments/1coigub/llama2_and_other_models_engaging_in_selfdialogue/) , 2024-05-11-0910
+all -  [ LLAMA2 (and Other Models) Engaging in Self-Dialogue: Asking and Answering Its Own Questions ](https://www.reddit.com/r/LLMDevs/comments/1coigub/llama2_and_other_models_engaging_in_selfdialogue/) , 2024-05-12-0911
 ```
 I am using Langchain + different LLM models ('Llama-2-7b-chat-hf', 'Mistral-7B-Instruct-v0.2', ...)..
 
@@ -456,7 +878,7 @@ it/cprggyrahjzc1.png?width=1458&format=png&auto=webp&s=2b9b230a3123d415b7015c713
 
      
  
-all -  [ How to add JsonOutputParser with RunnableWithMessageHistory? ](https://www.reddit.com/r/LangChain/comments/1cofbkc/how_to_add_jsonoutputparser_with/) , 2024-05-11-0910
+all -  [ How to add JsonOutputParser with RunnableWithMessageHistory? ](https://www.reddit.com/r/LangChain/comments/1cofbkc/how_to_add_jsonoutputparser_with/) , 2024-05-12-0911
 ```
 This my code
 
@@ -500,7 +922,7 @@ So can anyone help this?
 
      
  
-all -  [ A Daily chronicle of AI Innovations May 09th 2024: 🤖 OpenAI posts Model Spec revealing how it wants  ](https://readaloudforme.com/index_subscribers) , 2024-05-11-0910
+all -  [ A Daily chronicle of AI Innovations May 09th 2024: 🤖 OpenAI posts Model Spec revealing how it wants  ](https://readaloudforme.com/index_subscribers) , 2024-05-12-0911
 ```
 A Daily chronicle of AI Innovations May 09th 2024: 
 🤖 OpenAI posts Model Spec revealing how it wants AI to behave 
@@ -711,7 +1133,7 @@ tation Technical Program Manager
 
      
  
-all -  [ How can I go about creating knowledge graphs from chunks of a document? ](https://www.reddit.com/r/LangChain/comments/1codtrj/how_can_i_go_about_creating_knowledge_graphs_from/) , 2024-05-11-0910
+all -  [ How can I go about creating knowledge graphs from chunks of a document? ](https://www.reddit.com/r/LangChain/comments/1codtrj/how_can_i_go_about_creating_knowledge_graphs_from/) , 2024-05-12-0911
 ```
 I want to improve the quality of retrieval for my RAG application. I have a knowledge base with multiple pdfs and docs, 
 and currently I'm using basic recursive splitter with overlap for creating chunks. This is not the most effective way, a
@@ -739,7 +1161,7 @@ Any thoughts on this would be appreciated. Thanks!
 
      
  
-all -  [ Iterating hundreds of csv file headers, trying to find the best way to identify related headers usin ](https://www.reddit.com/r/LangChain/comments/1code3k/iterating_hundreds_of_csv_file_headers_trying_to/) , 2024-05-11-0910
+all -  [ Iterating hundreds of csv file headers, trying to find the best way to identify related headers usin ](https://www.reddit.com/r/LangChain/comments/1code3k/iterating_hundreds_of_csv_file_headers_trying_to/) , 2024-05-12-0911
 ```
 I have a Neo4j graph that's populated with common category nodes, and sub-nodes. These all have labels and names, other 
 than that there is no data stored inside the properties. I want to find a way to identify related headers for that parti
@@ -754,7 +1176,7 @@ ontext and return answers.
 
      
  
-all -  [ LangChain SQL & Mistral ](https://www.reddit.com/r/LangChain/comments/1cod9zr/langchain_sql_mistral/) , 2024-05-11-0910
+all -  [ LangChain SQL & Mistral ](https://www.reddit.com/r/LangChain/comments/1cod9zr/langchain_sql_mistral/) , 2024-05-12-0911
 ```
 Hi guys,
 
@@ -794,7 +1216,7 @@ How if i want just only the final answer? How can I get it? print(result\[Answer
 
      
  
-all -  [ Vectorsearch for chat history? ](https://www.reddit.com/r/LangChain/comments/1coaa4f/vectorsearch_for_chat_history/) , 2024-05-11-0910
+all -  [ Vectorsearch for chat history? ](https://www.reddit.com/r/LangChain/comments/1coaa4f/vectorsearch_for_chat_history/) , 2024-05-12-0911
 ```
 Hi guys,
 I'm working on a chatbot for our company and we use ChatGPT 4 as an LLM. To keep the costs per request low, I i
@@ -814,7 +1236,7 @@ t way to go, what are you guys using?
 
      
  
-all -  [ LangChain ReAct Argumentation Agent ](https://www.reddit.com/r/LangChain/comments/1co86cn/langchain_react_argumentation_agent/) , 2024-05-11-0910
+all -  [ LangChain ReAct Argumentation Agent ](https://www.reddit.com/r/LangChain/comments/1co86cn/langchain_react_argumentation_agent/) , 2024-05-12-0911
 ```
 Hello,
 
@@ -924,7 +1346,7 @@ Please advise me if I'm using the ReAct pattern incorrectly. Thank you for your 
 
      
  
-all -  [ Llama3 slow inference ](https://www.reddit.com/r/learnmachinelearning/comments/1co759v/llama3_slow_inference/) , 2024-05-11-0910
+all -  [ Llama3 slow inference ](https://www.reddit.com/r/learnmachinelearning/comments/1co759v/llama3_slow_inference/) , 2024-05-12-0911
 ```
 I'm currently using llama3 for a rag app. I'm using ollama and langchain's chatollama function to run inference. Prompti
 ng the model takes between 10 to 30 seconds to return a json response. Is there any way to significantly reduce this inf
@@ -937,7 +1359,7 @@ ps. Is there a Mojo implementation of llama3 available?
 
      
  
-all -  [ RAG Retrieval Evaluation ](https://www.reddit.com/r/LangChain/comments/1co5cl1/rag_retrieval_evaluation/) , 2024-05-11-0910
+all -  [ RAG Retrieval Evaluation ](https://www.reddit.com/r/LangChain/comments/1co5cl1/rag_retrieval_evaluation/) , 2024-05-12-0911
 ```
 Hey,
 
@@ -991,7 +1413,7 @@ Thanks!
 
      
  
-all -  [ Langchain openai FINE TUNING ](https://www.reddit.com/r/LangChain/comments/1co28ib/langchain_openai_fine_tuning/) , 2024-05-11-0910
+all -  [ Langchain openai FINE TUNING ](https://www.reddit.com/r/LangChain/comments/1co28ib/langchain_openai_fine_tuning/) , 2024-05-12-0911
 ```
 I tried to do fine tuning in openai for limit the topics that my model can to speak, but the model runs bad, for example
  the result has seen like this:
@@ -1021,7 +1443,7 @@ How can I fix it ?
 
      
  
-all -  [ Langchain allways return 429 error; este limit ](https://www.reddit.com/r/LangChain/comments/1co213w/langchain_allways_return_429_error_este_limit/) , 2024-05-11-0910
+all -  [ Langchain allways return 429 error; este limit ](https://www.reddit.com/r/LangChain/comments/1co213w/langchain_allways_return_429_error_este_limit/) , 2024-05-12-0911
 ```
 I have an llm built with langchain, OPENAI and qdrant; in production run well but in my local my app allways return 429 
 error; I changed 5 times my tokens, I added 50$ more to my OPENAI account; but the issue persist.
@@ -1034,15 +1456,7 @@ issue ?
 
      
  
-all -  [ Looking for name of Mac App Switcher from this youtube video ](https://i.redd.it/yjt42vl79fzc1.png) , 2024-05-11-0910
-```
-
-```
----
-
-     
- 
-all -  [ Limitations with existing prompt management tools?  ](https://www.reddit.com/r/LangChain/comments/1co09cc/limitations_with_existing_prompt_management_tools/) , 2024-05-11-0910
+all -  [ Limitations with existing prompt management tools?  ](https://www.reddit.com/r/LangChain/comments/1co09cc/limitations_with_existing_prompt_management_tools/) , 2024-05-12-0911
 ```
 Hey y’all 🙌🏼 I’ve been using some prompt management tools (Humanloop and Braintrust Data) for a few of my recent project
 s. Overall, they’re powerful tools but I’ve hit a few snags that make me wonder if a better tool can be built. 
@@ -1063,7 +1477,7 @@ some! 🫶🏼
 
      
  
-all -  [ Rag response always includes reference to document  ](https://www.reddit.com/r/LangChain/comments/1cnxfnz/rag_response_always_includes_reference_to_document/) , 2024-05-11-0910
+all -  [ Rag response always includes reference to document  ](https://www.reddit.com/r/LangChain/comments/1cnxfnz/rag_response_always_includes_reference_to_document/) , 2024-05-12-0911
 ```
 My org has this usecase to build a rag to answer questions. In rag works great given that I given it a lot of instructio
 ns(prompts). One demand that rag isn't able to fullfill is to never mention document reference in the response.
@@ -1090,7 +1504,7 @@ t Langchain
 
      
  
-all -  [ WooCommerce AI Chatbots / AI Agents ](https://www.reddit.com/r/wpsolr/comments/1cnve15/woocommerce_ai_chatbots_ai_agents/) , 2024-05-11-0910
+all -  [ WooCommerce AI Chatbots / AI Agents ](https://www.reddit.com/r/wpsolr/comments/1cnve15/woocommerce_ai_chatbots_ai_agents/) , 2024-05-12-0911
 ```
 We are looking to extend our [WooCommerce plugin](https://www.wpsolr.com/wpsolr-enterprise/) with AI ChatBots / AI Agent
 s.  
@@ -1105,7 +1519,7 @@ Contact me if you have any use cases in mind.
 
      
  
-all -  [ Hi guys,what is the use of parameter K in ConversationEntityMemory? ](https://www.reddit.com/r/LangChain/comments/1cnu7zh/hi_guyswhat_is_the_use_of_parameter_k_in/) , 2024-05-11-0910
+all -  [ Hi guys,what is the use of parameter K in ConversationEntityMemory? ](https://www.reddit.com/r/LangChain/comments/1cnu7zh/hi_guyswhat_is_the_use_of_parameter_k_in/) , 2024-05-12-0911
 ```
 [https://api.python.langchain.com/en/latest/memory/langchain.memory.entity.ConversationEntityMemory.html](https://api.py
 thon.langchain.com/en/latest/memory/langchain.memory.entity.ConversationEntityMemory.html)
@@ -1119,7 +1533,7 @@ https://preview.redd.it/ufmg
 
      
  
-all -  [ Need help choosing LLM ops tool for prompt versioning ](https://www.reddit.com/r/llmops/comments/1cntvp0/need_help_choosing_llm_ops_tool_for_prompt/) , 2024-05-11-0910
+all -  [ Need help choosing LLM ops tool for prompt versioning ](https://www.reddit.com/r/llmops/comments/1cntvp0/need_help_choosing_llm_ops_tool_for_prompt/) , 2024-05-12-0911
 ```
 We are a fairly big group with an already mature MLops stack, but LLMOps has been pretty hard.
 
@@ -1171,7 +1585,7 @@ o intrusive, then it is not a good LLMOps tools. Decorators & a listerner is the
 
      
  
-all -  [ Having a hard time with templates  ](https://github.com/oovaa/ChatPDF/blob/main/exper%2Fcommandr.js) , 2024-05-11-0910
+all -  [ Having a hard time with templates  ](https://github.com/oovaa/ChatPDF/blob/main/exper%2Fcommandr.js) , 2024-05-12-0911
 ```
 Hey everyone, I'm diving into LangChain and AI for the first time, so please bear with me as I navigate through this lea
 rning curve. 
@@ -1188,506 +1602,7 @@ can provide!
 
      
  
-all -  [ Prompt Engineering on Phi3-mini-4K-instruct Model ](https://www.reddit.com/r/LangChain/comments/1cntf8t/prompt_engineering_on_phi3mini4kinstruct_model/) , 2024-05-11-0910
-```
-Hi,
-
-I'm performing prompt engineering for my Phi3-mini-4K-instruct model and I'm using Anything LLM for my front end ap
-plication.
-
-The thing is i want my model to only answer query from the context data provided (PDFs) and Don't give any a
-nswers from his own knowledge or external source. The prompt I'm giving is:
-
-' ' 'You are an assistant for question answ
-ering tasks. use the following pieces of retrieved context to answer the question. If the answer isn't present in the kn
-owledge base, refrain from providing an answer based on your own knowledge. Instead of answer to such question, indicate
- that relevant information isn't available. Use three sentences maximum to keep the answer concise' ' '
-
-After this prom
-opt I'm still getting answers for the questions which are irrelevant and from outside of the knowledge base provided.
-```
----
-
-     
- 
-all -  [ React to typescript ](https://www.reddit.com/r/OpenAI/comments/1cnsnmq/react_to_typescript/) , 2024-05-11-0910
-```
-I have access to gpt 4 models in azure openai platform, can i convert react 18.2.0 code to typescript 4.9.5 using langch
-ain and azure openai gpt 4 model.
- I know langchain is not necessary for conversion, but the data cut off for gpt 4 mode
-l is 2021 and the latest version might not be used for train the gpt4 model. So do i have any option to use any langchai
-n tool like chains or agent for this conversion as the model might need external agent support.
-```
----
-
-     
- 
-all -  [ Langchain agents - tools for intent classification  ](https://www.reddit.com/r/LangChain/comments/1cnqsxj/langchain_agents_tools_for_intent_classification/) , 2024-05-11-0910
-```
-Building an LLM app and using Unstructured for parsing data. From the vector store, have can I create a conversational a
-gent that has 2 tools for intent classification? I want to create an agent so that according to user query in my applica
-tion, the backend either returns a conversational output (chat) + shows sources or for some other type of user queries i
-t returns only documents (no chat) akin to a generic Google search. After I create these two tools, I also want addition
-al tools for the agent to recognize whether the user query is a simple greeting or whether there is any abusive language
- in the query. Any approaches, suggestions or examples would be helpful.
-
-Thanks!
-```
----
-
-     
- 
-all -  [ 100 Free Courses with Certification on Udemy and Coursera ](https://www.reddit.com/r/Udemy/comments/1cnp62d/100_free_courses_with_certification_on_udemy_and/) , 2024-05-11-0910
-```
-Travel Writing: How to become a Travel Writer
-
-[https://courze.org/travel-writing-how-to-become-a-travel-writer/](https:
-//courze.org/travel-writing-how-to-become-a-travel-writer/)
-
-&#x200B;
-
-Microsoft Azure: Hands On Training: AZ-900 AZ-104
- and AZ-305
-
-[https://courze.org/az-104-microsoft-azure-hands-on-labs/](https://courze.org/az-104-microsoft-azure-hands-
-on-labs/)
-
-&#x200B;
-
-Docker MasterClass : Docker – Compose – SWARM – DevOps 2024
-
-[https://courze.org/docker-masterclass
--docker-compose-swarm-devops-2024/](https://courze.org/docker-masterclass-docker-compose-swarm-devops-2024/)
-
-&#x200B;
-
-
-Python Complete Course For Python Beginners
-
-[https://courze.org/python-complete-course-for-python-beginners/](https://c
-ourze.org/python-complete-course-for-python-beginners/)
-
-&#x200B;
-
-Foundations of Web Development: CSS, Bootstrap, JS, R
-eact
-
-[https://courze.org/foundations-of-web-development-css-bootstrap-js-react/](https://courze.org/foundations-of-web-
-development-css-bootstrap-js-react/)
-
-&#x200B;
-
-Business Process Simplification
-
-[https://courze.org/business-process-si
-mplification/](https://courze.org/business-process-simplification/)
-
-&#x200B;
-
-Root Cause Analysis: Certification
-
-[http
-s://courze.org/rca-root-cause-analysis/](https://courze.org/rca-root-cause-analysis/)
-
-&#x200B;
-
-Professional Diploma of
- Product Owner
-
-[https://courze.org/professional-diploma-of-product-owner/](https://courze.org/professional-diploma-of-p
-roduct-owner/)
-
-&#x200B;
-
-Agile Planning and OKRs: Transforming Your Project Outcomes
-
-[https://courze.org/agile-plannin
-g-and-okrs-transforming-your-project-outcomes/](https://courze.org/agile-planning-and-okrs-transforming-your-project-out
-comes/)
-
-&#x200B;
-
-Agile Customer Research and Data-Driven Decision Making
-
-[https://courze.org/data-driven-customer-res
-earch-unlock-business-success/](https://courze.org/data-driven-customer-research-unlock-business-success/)
-
-&#x200B;
-
-Le
-arn Maven from beginner to advanced
-
-[https://courze.org/learn-maven-from-beginner-to-advanced/](https://courze.org/lear
-n-maven-from-beginner-to-advanced/)
-
-&#x200B;
-
-Professional Diploma of Finance Business Partner
-
-[https://courze.org/pro
-fessional-diploma-of-finance-business-partner/](https://courze.org/professional-diploma-of-finance-business-partner/)
-
-&
-#x200B;
-
-Professional Diploma of Marketing Manager Business Partner
-
-[https://courze.org/professional-diploma-of-marketi
-ng-manager-business-partner/](https://courze.org/professional-diploma-of-marketing-manager-business-partner/)
-
-&#x200B;
-
-
-Diploma of Microsoft Dynamics 365 CRM Business Architect
-
-[https://courze.org/diploma-of-microsoft-dynamics-365-crm-bus
-iness-architect/](https://courze.org/diploma-of-microsoft-dynamics-365-crm-business-architect/)
-
-&#x200B;
-
-Professional 
-Diploma of Virtual Executive Assistant
-
-[https://courze.org/professional-diploma-of-virtual-executive-assistant/](https:
-//courze.org/professional-diploma-of-virtual-executive-assistant/)
-
-&#x200B;
-
-Professional Diploma in M&A Business Merge
-rs & Acquisitions
-
-[https://courze.org/professional-diploma-in-ma-business-mergers-acquisitions/](https://courze.org/pro
-fessional-diploma-in-ma-business-mergers-acquisitions/)
-
-&#x200B;
-
-Microsoft Ads MasterClass – All Campaigns & Features
-
-
-[https://courze.org/microsoft-ads-masterclass-2024-all-campaigns-features/](https://courze.org/microsoft-ads-masterclas
-s-2024-all-campaigns-features/)
-
-&#x200B;
-
-Full Paid Ads Course – Google, Meta, Microsoft, LinkedIn
-
-[https://courze.org
-/full-paid-ads-course-google-facebook-microsoft-linkedin/](https://courze.org/full-paid-ads-course-google-facebook-micro
-soft-linkedin/)
-
-&#x200B;
-
-Mastering LangChain and AWS: A Guide to Economic Analysis
-
-[https://courze.org/mastering-lang
-chain-and-aws-a-guide-to-economic-analysis/](https://courze.org/mastering-langchain-and-aws-a-guide-to-economic-analysis
-/)
-
-&#x200B;
-
-PyTorch Ultimate 2024: From Basics to Cutting-Edge
-
-[https://courze.org/pytorch-ultimate-2024-from-basics-
-to-cutting-edge/](https://courze.org/pytorch-ultimate-2024-from-basics-to-cutting-edge/)
-
-&#x200B;
-
-Google Ads Crash Cou
-rse – Campaign Creations
-
-[https://courze.org/google-ads-crash-course-campaign-creations/](https://courze.org/google-ads
--crash-course-campaign-creations/)
-
-&#x200B;
-
-A Crash Course in Writing Well
-
-[https://courze.org/a-crash-course-in-writ
-ing-well/](https://courze.org/a-crash-course-in-writing-well/)
-
-&#x200B;
-
-Applied Generative AI and Natural Language Pro
-cessing
-
-[https://courze.org/applied-generative-ai-and-natural-language-processing/](https://courze.org/applied-generati
-ve-ai-and-natural-language-processing/)
-
-&#x200B;
-
-Professional Diploma in Procurement, Sourcing, Supply Chains
-
-[https:
-//courze.org/professional-diploma-in-procurement-sourcing-supply-chains/](https://courze.org/professional-diploma-in-pro
-curement-sourcing-supply-chains/)
-
-&#x200B;
-
-Professional Diploma of Real Estate Business Expert
-
-[https://courze.org/pr
-ofessional-diploma-of-real-estate-business-expert/](https://courze.org/professional-diploma-of-real-estate-business-expe
-rt/)
-
-&#x200B;
-
-Masters in Structural Engineering & Drawing Reading – Etabs
-
-[https://courze.org/diploma-in-structural-d
-rawing-reading-like-expert-etabs/](https://courze.org/diploma-in-structural-drawing-reading-like-expert-etabs/)
-
-&#x200B
-;
-
-Information Security Fundamentals
-
-[https://courze.org/information-security-fundamentals/](https://courze.org/informa
-tion-security-fundamentals/)
-
-&#x200B;
-
-Ultimate Miro Guide: Enhance Team Productivity & Agility
-
-[https://courze.org/ul
-timate-miro-guide-enhance-team-productivity-agility/](https://courze.org/ultimate-miro-guide-enhance-team-productivity-a
-gility/)
-
-&#x200B;
-
-Becoming an Agile Leader: Drive Outcomes and Bring Impact
-
-[https://courze.org/becoming-an-agile-lea
-der-drive-outcomes-and-bring-impact/](https://courze.org/becoming-an-agile-leader-drive-outcomes-and-bring-impact/)
-
-&#x
-200B;
-
-Overcoming Obstacles & Building Resilience as a Team
-
-[https://courze.org/overcoming-obstacles-building-resilienc
-e-as-a-team/](https://courze.org/overcoming-obstacles-building-resilience-as-a-team/)
-
-&#x200B;
-
-Agile Ways of Working W
-orkshop – Practical Guide
-
-[https://courze.org/agile-ways-of-working-workshop-practical-guide/](https://courze.org/agile
--ways-of-working-workshop-practical-guide/)
-
-&#x200B;
-
-Agile Transformation A to Z | How To Make Any Company Agile
-
-[htt
-ps://courze.org/agile-transformation-a-to-z-how-to-make-any-company-agile/](https://courze.org/agile-transformation-a-to
--z-how-to-make-any-company-agile/)
-
-&#x200B;
-
-Body Language / Non-Verbal Communication for Business
-
-[https://courze.org
-/body-language-non-verbal-communication-for-business/](https://courze.org/body-language-non-verbal-communication-for-bus
-iness/)
-
-&#x200B;
-
-Sales: Your First 90 Days as a New Sales Representative
-
-[https://courze.org/sales-your-first-90-days
--as-a-new-sales-representative/](https://courze.org/sales-your-first-90-days-as-a-new-sales-representative/)
-
-&#x200B;
-
-
-Defining Project Scope and Managing Resources for Project
-
-[https://courze.org/defining-project-scope-and-managing-resou
-rces-for-project/](https://courze.org/defining-project-scope-and-managing-resources-for-project/)
-
-&#x200B;
-
-Crea pagina
-s de ventas para vender productos digi en Hotmart
-
-[https://courze.org/crea-paginas-de-ventas-para-vender-productos-digi
--en-hotmart/](https://courze.org/crea-paginas-de-ventas-para-vender-productos-digi-en-hotmart/)
-
-&#x200B;
-
-Wealth Manage
-ment, Private Banking & Compliance Introduction
-
-[https://courze.org/wealth-management-private-banking-compliance-introd
-uction/](https://courze.org/wealth-management-private-banking-compliance-introduction/)
-
-&#x200B;
-
-Professional Diploma 
-in Digital Business Development
-
-[https://courze.org/professional-diploma-in-digital-business-development/](https://cour
-ze.org/professional-diploma-in-digital-business-development/)
-
-&#x200B;
-
-&#x200B;
-```
----
-
-     
- 
-all -  [ Token Limits, Consistency, & LLM in Code ](https://www.reddit.com/r/ChatGPTPro/comments/1cnhxqt/token_limits_consistency_llm_in_code/) , 2024-05-11-0910
-```
-**If you don’t want to read:**
-
-* How do I address token limits without reducing tokens? Also, can someone explain top p
-?
-* How to improve custom GPT consistency and quantitatively measure it? I heard about temperature but what else?
-* Wher
-e to start for implementing LLM in code? 
-
-**Context**
-
-TOKEN LIMITS - I need to input over hundreds of thousands or eve
-n millions of tokens in a single run (via excel/csv file). Maximum split it up into like 5-10 runs. Despite higher token
- limits, it gets lazy, gives errors, etc. 
-
-CONSISTENCY - Custom GPT outputs are inconsistent and I need more consistenc
-y. I heard about temperature and gave GPT an examples set but its still fairly inconsistent and I want to know how to me
-asure this more rigorously.
-
-LLM in PYTHON - I have experience with Python but not LLM in python. Should I start with La
-ngChain and what resources should I follow? I want to experiment with this although my main concern later on is my team 
-doesn’t code so I don’t know how sustainable a 'code built model' would be in the long term.
-
-...... 
-
-THANK YOU!
-```
----
-
-     
- 
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1cnhul6/list_of_free_and_best_selling_discounted_courses/) , 2024-05-11-0910
-```
-## Udemy Free Courses for 09 May 2024
-
-*Note : Coupons might expire anytime, so enroll as soon as possible to get the co
-urses for FREE.*
-
-* Crea sistemas Ecommerce con PHP y MySQL V2.0[REDEEM OFFER](https://idownloadcoupon.com/udemy/4790/)
-
-* Curso Google Sites 2024: Cómo Crear Páginas Web Desde Cero[REDEEM OFFER](https://idownloadcoupon.com/udemy/4789/)
-* Cu
-rso de Wix 2024: Cómo Crear una Página Web Desde Cero[REDEEM OFFER](https://idownloadcoupon.com/udemy/4788/)
-* Wealth Ma
-nagement, Private Banking & Compliance Introduction[REDEEM OFFER](https://idownloadcoupon.com/udemy/4787/)
-* Information
- Security Fundamentals[REDEEM OFFER](https://idownloadcoupon.com/udemy/4786/)
-* Professional Diploma of Product & Servic
-e Business Analyst[REDEEM OFFER](https://idownloadcoupon.com/udemy/4785/)
-* Arduino Practice Test: Get Certified and Tes
-t Your Skills[REDEEM OFFER](https://idownloadcoupon.com/udemy/4784/)
-* Automatic Irrigation System with Arduino[REDEEM O
-FFER](https://idownloadcoupon.com/udemy/4783/)
-* Sales: Your First 90 Days as a New Sales Representative[REDEEM OFFER](h
-ttps://idownloadcoupon.com/udemy/4782/)
-* The Art of Building and Sustaining Meaningful Relationships[REDEEM OFFER](http
-s://idownloadcoupon.com/udemy/4781/)
-* Skills Economy: Transforming to a Skills-based Organization[REDEEM OFFER](https:/
-/idownloadcoupon.com/udemy/4780/)
-* Body Language / Non-Verbal Communication for Business[REDEEM OFFER](https://idownloa
-dcoupon.com/udemy/4779/)
-* Agile Ways of Working Workshop – Practical Guide[REDEEM OFFER](https://idownloadcoupon.com/ud
-emy/4777/)
-* Immigrants Guide to a Successful Career in Corporate America[REDEEM OFFER](https://idownloadcoupon.com/udem
-y/4776/)
-* Professional Diploma of Real Estate Business Expert[REDEEM OFFER](https://idownloadcoupon.com/udemy/4775/)
-* 
-Masters in Structural Engineering & Drawing Reading – Etabs[REDEEM OFFER](https://idownloadcoupon.com/udemy/4774/)
-* Bec
-oming an Agile Leader: Drive Outcomes and Bring Impact[REDEEM OFFER](https://idownloadcoupon.com/udemy/4773/)
-* Agile Tr
-ansformation A to Z | How To Make Any Company Agile[REDEEM OFFER](https://idownloadcoupon.com/udemy/4772/)
-* Ultimate Mi
-ro Guide: Enhance Team Productivity & Agility[REDEEM OFFER](https://idownloadcoupon.com/udemy/4771/)
-* Professional Dipl
-oma in Procurement, Sourcing, Supply Chains[REDEEM OFFER](https://idownloadcoupon.com/udemy/4770/)
-* Google Search Maste
-ry Course : Find Answers 10X Times Faster[REDEEM OFFER](https://idownloadcoupon.com/udemy/4769/)
-* Mastering LangChain a
-nd AWS: A Guide to Economic Analysis[REDEEM OFFER](https://idownloadcoupon.com/udemy/4768/)
-* Full Paid Ads Course – Goo
-gle, Meta, Microsoft, LinkedIn[REDEEM OFFER](https://idownloadcoupon.com/udemy/4767/)
-* Microsoft Ads MasterClass – All 
-Campaigns & Features[REDEEM OFFER](https://idownloadcoupon.com/udemy/4766/)
-* Google Ads Crash Course – Campaign Creatio
-ns[REDEEM OFFER](https://idownloadcoupon.com/udemy/4765/)
-* Professional Diploma of Virtual Executive Assistant[REDEEM O
-FFER](https://idownloadcoupon.com/udemy/4764/)
-* Professional Diploma in M&A Business Mergers & Acquisitions[REDEEM OFFE
-R](https://idownloadcoupon.com/udemy/4763/)
-* Applied Generative AI and Natural Language Processing[REDEEM OFFER](https:
-//idownloadcoupon.com/udemy/4762/)
-* A Crash Course in Writing Well[REDEEM OFFER](https://idownloadcoupon.com/udemy/4761
-/)
-* Ethical Hacking: Windows Exploitation Basics[REDEEM OFFER](https://idownloadcoupon.com/udemy/4760/)
-* Ethical Hacki
-ng: Reverse Shells[REDEEM OFFER](https://idownloadcoupon.com/udemy/4759/)
-* Linux Terminal for beginners[REDEEM OFFER](h
-ttps://idownloadcoupon.com/udemy/4758/)
-```
----
-
-     
- 
-all -  [ Using Airtable data as a vector database for Chatbot Knowledge Base ](https://www.reddit.com/r/LangChain/comments/1cnhb5a/using_airtable_data_as_a_vector_database_for/) , 2024-05-11-0910
-```
-Hello AI peeps, I need some help/advice. I’m building a fairly comprehensive chatbot which includes a RAG QnA component.
- All knowledge base data is in an Airtable, where each row/record is another piece of knowledge. 
-
-The plan is to vector
-ize the knowledge base to Pinecone via Flowise Upsert and then retrieve with OpenAI Embeddings. 
-
-The main issue is that
- I can’t figure out how to use the columns as seperate metadata keys instead of all being vectorized in 1 piece. Is ther
-e an easy solution to accomplish this? Is there a better approach overall to convert the data from Airtable into a RAG k
-nowledge base? Any help would be appreciated! I mentioned Flowise because it’s the simplest way to use Langchain.
-```
----
-
-     
- 
-all -  [ Mastering LangChain and AWS: A Guide to Economic Analysis ](https://www.reddit.com/r/udemyfreebies/comments/1cnh8wm/mastering_langchain_and_aws_a_guide_to_economic/) , 2024-05-11-0910
-```
-Mastering LangChain and AWS: A Guide to Economic Analysis
-
-https://idownloadcoupon.com/udemy/4768/
-```
----
-
-     
- 
-all -  [ create a 'default' or 'else' tool for ReAct agent ](https://www.reddit.com/r/LangChain/comments/1cngb56/create_a_default_or_else_tool_for_react_agent/) , 2024-05-11-0910
-```
-I am working on a ReAct agent that will have a couple of pre-defined tools to perform specific actions BUT we need to ha
-ve some kind of 'default' or 'else' tool, what I mean is: if non of the pre-defined tools is selected by the agent then 
-it will try to answer the user query using the 'else' tool, the idea is that there are some pre-defined and well known a
-ctions that will be executed by the agent when tue user query matches those fine, but if there is not  a good match we s
-till want the agent to be able to come up with the best answer possible(inbstead of something like: I cannot answer this
- question because I don't have a tool for it). Any ideas? I'm thinking on something as a   
-`GeneralHandlerTool(BaseTool
-):`  
-`def _run():`  
-   `....`
-```
----
-
-     
- 
-MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-11-0910
+MachineLearning -  [ [D] Self-optimizing deterministic LLM memory using dspy, neo4j and vector databases. Need your input ](https://www.reddit.com/r/MachineLearning/comments/1cakjaf/d_selfoptimizing_deterministic_llm_memory_using/) , 2024-05-12-0911
 ```
 Hey there, Redditors!
 
@@ -1728,7 +1643,7 @@ hub repo](https://github.com/topoteretes/cognee)
 
      
  
-deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-11-0910
+deeplearning -  [ Seeking Advice: Solving Data Challenges with Large Language Models (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1ca4nc1/seeking_advice_solving_data_challenges_with_large/) , 2024-05-12-0911
 ```
 Hi all
 
@@ -1773,7 +1688,7 @@ ms with Langchain, what about prompt chaining?
 
      
  
-deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-11-0910
+deeplearning -  [ Share the Coolest Out of The Box LLM Applications That Made You Say 'Wow that was smart' ](https://www.reddit.com/r/deeplearning/comments/1c9e6dj/share_the_coolest_out_of_the_box_llm_applications/) , 2024-05-12-0911
 ```
 Hi, I'm looking at some LLM applications today but apart from guys doing big rags with langchain I don't see too many us
 es that are out of the box or that make me say 'wow that was smart to use an LLM here'. Have you seen any cool stuff usi
