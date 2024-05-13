@@ -1,5 +1,52 @@
  
-all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-12-0911
+all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/pennystocks/comments/1cpxq1l/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-13-0910
+```
+VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
+h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
+viding clear goals to measure the progress and importance of $VRSSF's research and development endeavors. 
+
+The company 
+plans to use this roadmap this year to monitor its AI progress. Basically, it wants to check whether its approach can be
+ as good as or better than advanced AI models on various industry tests, all while using less data and energy.  
+
+By mee
+ting these benchmarks, VERSES can prove that they can create AI that is better, cheaper, and faster. The end goal is to 
+get their AI into more hands through their Genius Platform. 
+
+Research Roadmap Highlights: 
+
+VERSES’ research roadmap ha
+s 3 benchmarks: Classification and generation tasks, Atari 10k Challenge, and NeurIPS 2024 Melting Pot Challenge 
+
+The f
+irst benchmark, Classification and generation tasks, focuses on proving VRSSF's approach is better at tasks like recogni
+zing images and creating new ones. By utilizing advanced Bayesian inference techniques, they are trying to show that the
+ir method has the ability to outperform traditional deep learning methods. This test is important because it shows wheth
+er VERSES can make top-quality AI while being more efficient.  
+
+The second benchmark, the Atari 10k Challenge, is all a
+bout testing VERSES' AI skills in playing video games. Unlike conventional methods that need a lot of gameplay data, VER
+SES is trying to play video games almost like a human but with way less practice. $VRSSF is using active inference to he
+lp their AI be super adaptable. And by doing this, they're hoping to raise the bar for how well AI can perform in gaming
+ 
+
+Lastly, there’s the NeurIPS 2024 Melting Pot Challenge. This is all about testing how well VERSES' can handle tricky 
+situations where lots of different AI systems need to work together. $VRSSF wants to show that their AI can understand t
+hese complicated situations and work smoothly with other AI systems. Through the use of active inference and explicit re
+presentational structures, VERSES aims to become a leader in creating AI systems that can collaborate effectively and ta
+ckle complex problems together. 
+
+$VRSSF publicly released this roadmap so the public can track their progress. The road
+map can be accessed here: [https://www.verses.ai/rd-overview](https://www.verses.ai/rd-overview) 
+
+Note: this is not fin
+ancial advice please do your own research before investing. 
+```
+---
+
+     
+ 
+all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-13-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -46,7 +93,7 @@ ore investing.
 
      
  
-all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-12-0911
+all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-13-0910
 ```
 Hi, I'm a first year student in ece and wanted to ask how I can get involved in ai and ml research? I know the first ste
 p usually involves securing a grant through NSERC or smthg similar and reaching out to profs, but does anyone know how y
@@ -61,7 +108,7 @@ ow there are some cool startups that I've been trying to become involved in, and
 
      
  
-all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-12-0911
+all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-13-0910
 ```
 As a Founding AI Engineer, you'll play a critical role in the development and scaling of our agents infrastructure, goin
 g all the way from data ingestion to building state-of-the-art action-taking architectures. If you have a strong bias to
@@ -99,7 +146,7 @@ ineer-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-12-0911
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-13-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -131,7 +178,7 @@ ern-agents/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-12-0911
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-13-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -162,7 +209,7 @@ nts/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-12-0911
+all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-13-0910
 ```
 I have some papers in top venus myself, but whenever I sit down and be brutually honest with myself. I feel my work is g
 ood but it is just not that impactful, like one more brick in the wall.
@@ -173,7 +220,7 @@ tful as 'Attention is all you need' for example.
 
      
  
-all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-12-0911
+all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-13-0910
 ```
 Hello everyone, today the ICML results are out, congratulations to all those who have papers accepted here. I'm not an a
 cademic myself, but sometimes I read papers at these conferences for work, and it's really interesting. I just have a qu
@@ -186,7 +233,7 @@ roughout your 5 years of PhD and almost only achieve in the final years of your 
 
      
  
-all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-12-0911
+all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-13-0910
 ```
 Hi,
 
@@ -203,7 +250,7 @@ erience during my master's and bachelor's, combinatorial optimization is always 
 
      
  
-all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-12-0911
+all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-13-0910
 ```
 https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c3b61ddfd5b5dcbdab63a2645fc7a4cb145b
 
@@ -213,7 +260,7 @@ https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c
 
      
  
-all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](https://www.youtube.com/watch?v=GtveKYXYo_0) , 2024-05-12-0911
+all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](https://www.youtube.com/watch?v=GtveKYXYo_0) , 2024-05-13-0910
 ```
 
 ```
@@ -221,7 +268,7 @@ all -  [ [ML News] Devin exposed | NeurIPS track for high school students ](http
 
      
  
-all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-12-0911
+all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-13-0910
 ```
 [https://www.norange.io/projects/paper\_scorer/](https://www.norange.io/projects/paper_scorer/)
 
@@ -263,7 +310,7 @@ I also discussed this topic in a series of [tweets](https://x.com/nikitadurasov/
 
      
  
-all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-12-0911
+all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-13-0910
 ```
 I entered the Computer Science PhD program at our school 3 years ago (I'm in USA). I did not have a masters, they had a 
 combined program thingie. I did all of the masters courses so I can master out now, but I have 0 papers. My advisorwhen 
@@ -308,7 +355,7 @@ motivation is money. I've been told PhD matters when it comes to hiring but I do
 
      
  
-all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-12-0911
+all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-13-0910
 ```
 Hi there,
 
@@ -331,7 +378,7 @@ es this apply to my case?
 
      
  
-all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-12-0911
+all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-13-0910
 ```
 I understand the derivation of -div and grad being adjoint operators, but then shouldn't equality hold between 'integral
  of (norm of gradient)\^2' and '-1 \* integral of laplacian \* function' ? Where did the negative go in the equality?
@@ -351,7 +398,7 @@ x)
 
      
  
-all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-12-0911
+all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-13-0910
 ```
 Used to receive invitation by this time of the year. Maybe I am forgotten.
 ```
@@ -359,7 +406,7 @@ Used to receive invitation by this time of the year. Maybe I am forgotten.
 
      
  
-all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-12-0911
+all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-13-0910
 ```
 Maybe I'm a bit paranoid but I'm a little worried about how future employers (e.g. FAANG) might view a CS PhD in computa
 tional biology (and instead I may be a 'better fit' for big pharma/biotech post-graduation).
@@ -387,7 +434,7 @@ ly be an issue in reality?)
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-12-0911
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-13-0910
 ```
 
 myquals : MTech AI from IISc. My motivation for writing this post comes from an earlier post in r/GATEtard titled, ['Do
@@ -475,7 +522,7 @@ ant to learn and understand the topics you love deeply.
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-12-0911
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-13-0910
 ```
 I am from the 2021-23 batch of MTech AI at IISc. My motivation for writing this post comes from an earlier post in this 
 subreddit titled, 'Do not join MTECH AI if you have other options like CSA (currently in IISC).' TLDR at the bottom.
@@ -562,7 +609,7 @@ eeply.
 
      
  
-all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-05-12-0911
+all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-05-13-0910
 ```
 **TL;DR** I come from an average family and worked hard to put myself through college, driven by my passion for research
  and innovation. Despite having multiple first-author papers in top ML conferences, contributing to open-source projects
@@ -624,7 +671,7 @@ wrong. I feel like I should quit research.
 
      
  
-all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-05-12-0911
+all -  [ ICYMI: NeurIPS has a high school track. ](https://www.reddit.com/r/LocalLLaMA/comments/1c2e043/icymi_neurips_has_a_high_school_track/) , 2024-05-13-0910
 ```
 Folks on Twitter seem not to like the idea at least the rationale. I tend to agree with them because we are pushing ever
 yone to have a research paper so as to be considered 'someone'
@@ -633,7 +680,7 @@ yone to have a research paper so as to be considered 'someone'
 
      
  
-all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-05-12-0911
+all -  [ Maximising chances of going to tier 1 university for ML PhD ](https://www.reddit.com/r/gradadmissions/comments/1c2ch8e/maximising_chances_of_going_to_tier_1_university/) , 2024-05-13-0910
 ```
 Profile:
 
@@ -669,7 +716,7 @@ is not the best (but I have a good reason, and my school didn't have grade infla
 
      
  
-all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-05-12-0911
+all -  [ Error launch console ](https://i.redd.it/hhhq872931uc1.jpeg) , 2024-05-13-0910
 ```
 I'm in Windows.
 
@@ -681,7 +728,7 @@ What tò do now ?
 
      
  
-all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-05-12-0911
+all -  [ [News] NeurIPS 2024 Adds a New Paper Track for High School Students ](https://www.reddit.com/r/MachineLearning/comments/1c1zesl/news_neurips_2024_adds_a_new_paper_track_for_high/) , 2024-05-13-0910
 ```
 NeurIPS 2024 Adds a New Paper Track for High School Students
 
