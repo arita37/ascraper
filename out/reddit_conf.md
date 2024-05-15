@@ -1,5 +1,114 @@
  
-all -  [ [D] Neurips 2024 submissions ](https://www.reddit.com/r/MachineLearning/comments/1crahli/d_neurips_2024_submissions/) , 2024-05-14-0910
+all -  [ [D] Any reason not to submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1cs6p6j/d_any_reason_not_to_submit_to_neurips/) , 2024-05-15-0910
+```
+As we all know, abstracts are due tomorrow. I'm on the fence on being able to finish a strong submission in a week. I kn
+ow that I can always withdraw if reviews are bad (or if I don't feel like I have a strong submission in a week when it's
+ due), but I'm worried that there might be a trace of the submission left online which future reviewers would be able to
+ google. Can anyone confirm that this is only the case if you don't withdraw and instead submit a rebuttal that results 
+in a rejection? If you withdraw from openreview, is any trace of it left online? Do you have to do some trick where you 
+edit and scrub your submission before withdrawing? I know submission results are stochastic, so I'd like to know when, i
+f ever, submitting is a strategic blunder.
+```
+---
+
+     
+ 
+all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/Wealthsimple_Penny/comments/1crv28d/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-05-15-0910
+```
+VERSES AI ($VERS), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a research
+ roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by prov
+iding clear goals to measure the progress and importance of $VERS's research and development endeavors. 
+
+The company pl
+ans to use this roadmap this year to monitor its AI progress. Basically, it wants to check whether its approach can be a
+s good as or better than advanced AI models on various industry tests, all while using less data and energy.  
+
+By meeti
+ng these benchmarks, VERSES can prove that they can create AI that is better, cheaper, and faster. The end goal is to ge
+t their AI into more hands through their Genius Platform. 
+
+Research Roadmap Highlights: 
+
+VERSES’ research roadmap has 
+3 benchmarks: Classification and generation tasks, Atari 10k Challenge, and NeurIPS 2024 Melting Pot Challenge 
+
+The fir
+st benchmark, Classification and generation tasks, focuses on proving VERS's approach is better at tasks like recognizin
+g images and creating new ones. By utilizing advanced Bayesian inference techniques, they are trying to show that their 
+method has the ability to outperform traditional deep learning methods. This test is important because it shows whether 
+VERSES can make top-quality AI while being more efficient.  
+
+The second benchmark, the Atari 10k Challenge, is all abou
+t testing VERSES' AI skills in playing video games. Unlike conventional methods that need a lot of gameplay data, VERSES
+ is trying to play video games almost like a human but with way less practice. $VERS is using active inference to help t
+heir AI be super adaptable. And by doing this, they're hoping to raise the bar for how well AI can perform in gaming 
+
+L
+astly, there’s the NeurIPS 2024 Melting Pot Challenge. This is all about testing how well VERSES' can handle tricky situ
+ations where lots of different AI systems need to work together. $VERS wants to show that their AI can understand these 
+complicated situations and work smoothly with other AI systems. Through the use of active inference and explicit represe
+ntational structures, VERSES aims to become a leader in creating AI systems that can collaborate effectively and tackle 
+complex problems together. 
+
+$VERS publicly released this roadmap so the public can track their progress. The roadmap ca
+n be accessed here: www.verses.ai/rd-overview 
+
+Note: this is not financial advice please do your own research before in
+vesting.
+```
+---
+
+     
+ 
+all -  [ AskScience AMA Series: I am a computer scientist at the University of Maryland. My research focus is ](https://www.reddit.com/r/askscience/comments/1crpcaj/askscience_ama_series_i_am_a_computer_scientist/) , 2024-05-15-0910
+```
+Hi Reddit! I am a computer scientist from the University of Maryland here to answer your questions about artificial inte
+lligence.
+
+**Furong Huang** is an Assistant Professor in the Department of Computer Science at the University of Marylan
+d. She specializes in trustworthy machine learning, AI for sequential decision-making, and generative AI and focuses on 
+applying foundational principles to solve practical challenges in contemporary computing.
+
+Dr. Huang develops efficient,
+ robust, scalable, sustainable, ethical and responsible machine learning algorithms that operate effectively in real-wor
+ld settings. She has also made significant strides in sequential decision-making, aiming to develop algorithms that not 
+only optimize performance but also adhere to ethical and safety standards. She is recognized for her contributions with 
+awards including best paper awards, the MIT Technology Review Innovators Under 35 Asia Pacific, the MLconf Industry Impa
+ct Research Award, the NSF CRII Award, the Microsoft Accelerate Foundation Models Research award, the Adobe Faculty Rese
+arch Award, three JP Morgan Faculty Research Awards and Finalist of AI in Research - AI researcher of the year for Women
+ in AI Awards North America.
+
+**Souradip Chakraborty** is a third-year computer science Ph.D. student at the University 
+of Maryland advised by Dr. Furong Huang. He works on the foundations of trustworthy reinforcement learning with a focus 
+on developing safe, reliable, deployable and provable RL methods for real-world applications. He has co-authored top-tie
+r publications and U.S. patents in artificial intelligence and machine learning. Recently he received an Outstanding Pap
+er Award (TSRML workshop at Neurips 2022) and Outstanding Reviewer Awards at Neurips 2022, Neurips 2023 and AISTATS 2023
+.
+
+**Mucong Ding** is a fifth-year Ph.D. student in computer science at the University of Maryland, advised by Dr. Furon
+g Huang. His work broadly encompasses data efficiency, learning efficiency, graph and geometric machine learning and gen
+erative modeling. His recent research focuses on designing a more unified and efficient framework for AI alignment and i
+mproving their generalizability to solve human-level challenging problems. He has published in top-tier conferences, and
+ some of his work has been recognized for oral presentations and spotlight papers.
+
+We'll be on from **2 to 4 p.m. ET (1
+8-20 UT)** - ask us anything!
+
+Other links:
+
++ Website: https://furong-huang.com/
++ Google Scholar page: https://scholar
+.google.com/citations?user=13yyuCcAAAAJ&hl=en
++ Q&A on whether AI-generated content is detectable: https://cmns.umd.edu/
+news-events/news/ai-generated-content-actually-detectable
+
+Username: /u/umd-science
+```
+---
+
+     
+ 
+all -  [ [D] Neurips 2024 submissions ](https://www.reddit.com/r/MachineLearning/comments/1crahli/d_neurips_2024_submissions/) , 2024-05-15-0910
 ```
 I just submitted an abstract to Neurips 2024. I was so impressed with my self for being two days early, and yet, my pape
 r ID is over 7000. In the past I recall paper IDs were incremented as openreview received more submissions. Surely, this
@@ -9,7 +118,7 @@ r ID is over 7000. In the past I recall paper IDs were incremented as openreview
 
      
  
-all -  [ Chances for MS AI/MS Robotics for Spring '25? ](https://www.reddit.com/r/MSCS/comments/1cr6dg4/chances_for_ms_aims_robotics_for_spring_25/) , 2024-05-14-0910
+all -  [ Chances for MS AI/MS Robotics for Spring '25? ](https://www.reddit.com/r/MSCS/comments/1cr6dg4/chances_for_ms_aims_robotics_for_spring_25/) , 2024-05-15-0910
 ```
 
 Hey folks,
@@ -35,7 +144,7 @@ Thanks!
 
      
  
-all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/Baystreetbets/comments/1cr11x8/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-14-0910
+all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/Baystreetbets/comments/1cr11x8/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-15-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -82,7 +191,7 @@ ancial advice please do your own research before investing. 
 
      
  
-all -  [ Postei e sai correndo... ](https://i.redd.it/mqggtai0n60d1.jpeg) , 2024-05-14-0910
+all -  [ Postei e sai correndo... ](https://i.redd.it/mqggtai0n60d1.jpeg) , 2024-05-15-0910
 ```
 
 ```
@@ -90,7 +199,7 @@ all -  [ Postei e sai correndo... ](https://i.redd.it/mqggtai0n60d1.jpeg) , 2024
 
      
  
-all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/pennystocks/comments/1cpxq1l/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-14-0910
+all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/pennystocks/comments/1cpxq1l/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-15-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -137,7 +246,7 @@ ancial advice please do your own research before investing. 
 
      
  
-all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-14-0910
+all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-15-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -184,7 +293,7 @@ ore investing.
 
      
  
-all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-14-0910
+all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-15-0910
 ```
 Hi, I'm a first year student in ece and wanted to ask how I can get involved in ai and ml research? I know the first ste
 p usually involves securing a grant through NSERC or smthg similar and reaching out to profs, but does anyone know how y
@@ -199,7 +308,7 @@ ow there are some cool startups that I've been trying to become involved in, and
 
      
  
-all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-14-0910
+all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-15-0910
 ```
 As a Founding AI Engineer, you'll play a critical role in the development and scaling of our agents infrastructure, goin
 g all the way from data ingestion to building state-of-the-art action-taking architectures. If you have a strong bias to
@@ -237,7 +346,7 @@ ineer-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-14-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-15-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -269,7 +378,7 @@ ern-agents/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-14-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-15-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -300,7 +409,7 @@ nts/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-14-0910
+all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-15-0910
 ```
 I have some papers in top venus myself, but whenever I sit down and be brutually honest with myself. I feel my work is g
 ood but it is just not that impactful, like one more brick in the wall.
@@ -311,7 +420,7 @@ tful as 'Attention is all you need' for example.
 
      
  
-all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-14-0910
+all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-15-0910
 ```
 Hello everyone, today the ICML results are out, congratulations to all those who have papers accepted here. I'm not an a
 cademic myself, but sometimes I read papers at these conferences for work, and it's really interesting. I just have a qu
@@ -324,7 +433,7 @@ roughout your 5 years of PhD and almost only achieve in the final years of your 
 
      
  
-all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-14-0910
+all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-15-0910
 ```
 Hi,
 
@@ -341,7 +450,7 @@ erience during my master's and bachelor's, combinatorial optimization is always 
 
      
  
-all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-14-0910
+all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-15-0910
 ```
 https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c3b61ddfd5b5dcbdab63a2645fc7a4cb145b
 
@@ -351,7 +460,7 @@ https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c
 
      
  
-all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-14-0910
+all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-15-0910
 ```
 [https://www.norange.io/projects/paper\_scorer/](https://www.norange.io/projects/paper_scorer/)
 
@@ -393,7 +502,7 @@ I also discussed this topic in a series of [tweets](https://x.com/nikitadurasov/
 
      
  
-all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-14-0910
+all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-15-0910
 ```
 I entered the Computer Science PhD program at our school 3 years ago (I'm in USA). I did not have a masters, they had a 
 combined program thingie. I did all of the masters courses so I can master out now, but I have 0 papers. My advisorwhen 
@@ -438,7 +547,7 @@ motivation is money. I've been told PhD matters when it comes to hiring but I do
 
      
  
-all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-14-0910
+all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-15-0910
 ```
 Hi there,
 
@@ -461,7 +570,7 @@ es this apply to my case?
 
      
  
-all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-14-0910
+all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-15-0910
 ```
 I understand the derivation of -div and grad being adjoint operators, but then shouldn't equality hold between 'integral
  of (norm of gradient)\^2' and '-1 \* integral of laplacian \* function' ? Where did the negative go in the equality?
@@ -481,7 +590,7 @@ x)
 
      
  
-all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-14-0910
+all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-15-0910
 ```
 Used to receive invitation by this time of the year. Maybe I am forgotten.
 ```
@@ -489,7 +598,7 @@ Used to receive invitation by this time of the year. Maybe I am forgotten.
 
      
  
-all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-14-0910
+all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-15-0910
 ```
 Maybe I'm a bit paranoid but I'm a little worried about how future employers (e.g. FAANG) might view a CS PhD in computa
 tional biology (and instead I may be a 'better fit' for big pharma/biotech post-graduation).
@@ -517,7 +626,7 @@ ly be an issue in reality?)
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-14-0910
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-15-0910
 ```
 
 myquals : MTech AI from IISc. My motivation for writing this post comes from an earlier post in r/GATEtard titled, ['Do
@@ -605,7 +714,7 @@ ant to learn and understand the topics you love deeply.
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-14-0910
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-15-0910
 ```
 I am from the 2021-23 batch of MTech AI at IISc. My motivation for writing this post comes from an earlier post in this 
 subreddit titled, 'Do not join MTECH AI if you have other options like CSA (currently in IISC).' TLDR at the bottom.
@@ -687,68 +796,6 @@ cifically the MTech AI program if you fall under one of the following:
 * You want to try your hand at research.
 * You want to learn and understand the topics you love d
 eeply.
-```
----
-
-     
- 
-all -  [ [D] Multiple first-author papers in top ML conferences, but still struggling to get into a PhD progr ](https://www.reddit.com/r/MachineLearning/comments/1c2pnam/d_multiple_firstauthor_papers_in_top_ml/) , 2024-05-14-0910
-```
-**TL;DR** I come from an average family and worked hard to put myself through college, driven by my passion for research
- and innovation. Despite having multiple first-author papers in top ML conferences, contributing to open-source projects
-, and making industry impact, I'm struggling to get into a PhD program. I've been rejected by top universities and feel 
-lost and exhausted. I'm starting to doubt myself and wonder if a strong research background is not enough without the ri
-ght connections or family background. I'm considering giving up on my dream of pursuing a PhD and doing meaningful resea
-rch.
-
-I have published many  research papers so far as the first author in top-tier conferences and workshops like EMNLP
-, NeurIPS, ACM, and ACL. My research has been honored as the Best NLP Researcher by my company. I actively contribute to
- open-source projects, including PyTorch and HuggingFace, and have implemented other tools and frameworks (aggregating \
-[x\]0k+ stars on GitHub). My research papers are crossing \[x\]00+ citations and an h-index of \[x\]. All have been peer
--reviewed.
-
-I wrote these papers entirely on my own, without any supervision or guidance. From conceptualizing the initi
-al idea to writing the code, conducting experiments, refining the model, and ultimately writing the paper, I handled eve
-ry aspect of the research process independently. As a first-generation college graduate, there was no publication cultur
-e in my company. So, I read papers, made annotated notes, and experimented with new ideas. The first paper took me a yea
-r to publish because I didn't know what to write, even though the results of my idea were state-of-the-art. I went throu
-gh more than 600 papers in two months to find the pattern and learn how to write papers.
-
-**Now, here's the problem:**
-
-
-I want to pursue a PhD, but for me, it's not just a way to get a degree and land a job at top companies to earn more mon
-ey. I am less inclined towards financial gains. I want to pursue a PhD to have a better environment for research, build 
-a strong network with whom I can brainstorm ideas, receive constructive feedback, collaborate on projects and contributi
-ng something meaningful to civilization from my knowledge.
-
-However, coming from a small city, it has been quite challen
-ging. I don't know how to approach professors, and frankly, I am not very good at reaching out to people. I tried talkin
-g to a few professors over email, but they didn't reply. I also applied to CMU, Stanford, and a few other universities b
-ut got rejected.
-
-I am feeling a bit exhausted. I know it's not the end of the world, but doing all this alone and tryin
-g to find a good college just to do some quality research - is it really that hard?
-
-I have seen many posts on Reddit in
- this channel where people mention that they didn't get admitted because they don't have first-author papers, or they qu
-estion why universities are asking for first-author papers. I've also read that if you have a first-author paper, you're
- already set. Is that true?
-
-If so, where am I going wrong? I have a strong research profile, and even companies like Me
-ta and Google are using my research and methods, but I still can't find a good professor for my PhD. Either I am mistake
-n, or those who claim that having a first-author paper will get you into a top college are wrong.
-
-Personally, I have lo
-st hope. I've started believing that you can only get into a good college if you have some academic background in your f
-amily because they will guide you on where to apply and what to write. Or, if you have strong academic connections, you'
-ll be accepted directly based on referrals. Unfortunately, I don't have either of these. I feel like I'm stuck in this m
-atrix, and people are so complex to understand. Why can't it be straightforward? If I get rejected from all universities
-, they should at least provide a reason. The only reason I received was that due to an overwhelming response, they could
-n't accept me.
-
-I'm not feeling angry, but I am confused. I have started doubting myself.  I'm wondering what I'm doing 
-wrong. I feel like I should quit research.
 ```
 ---
 
