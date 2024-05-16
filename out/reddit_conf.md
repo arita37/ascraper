@@ -1,5 +1,37 @@
  
-all -  [ [D] Any reason not to submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1cs6p6j/d_any_reason_not_to_submit_to_neurips/) , 2024-05-15-0910
+all -  [ Why is AI for medical imaging, such as histopathology, such a saturated area? And why is AI for mole ](https://www.reddit.com/r/learnmachinelearning/comments/1csvuiv/why_is_ai_for_medical_imaging_such_as/) , 2024-05-16-0910
+```
+I work on projects involving AI for biomedical research, and something that shocks me is why there are so many papers/pr
+ojects involving AI for medical imaging, especially computational pathology (or radiology)? Is it because of the demand 
+in this area (i.e. histopathology for hospitals doing biopsies on patients)?
+
+Why I'm confused is that histopathology, s
+uch as whole-slide image analysis, is such a resource-intensive problem - a typical WSI (Whole-Slide Image) takes up to 
+\~10GBs to load, and so training a model could take days to even weeks. That is not to mention that you have to convert 
+the images to smaller patches and then apply methods like multiple-instance learning to aggregate the image embeddings f
+rom each patch to get a final prediction. And then you have to look at which patches are important towards the disease (
+via something like attention maps), and then you need a domain expert/expertise to understand whether the model is focus
+ing on the right parts of the image towards a prediction. 
+
+And yet there's so many papers published in this field since
+ \~2020, probably in the order of thousands, spanning conferences and journals like NeurIPS/ICLR/ICML, CVPR/ECCV/ICCV, M
+ICCAI (which is dedicated to medical imaging), Nature, etc. I wonder if this is because a lot of people coming from the 
+computer vision area wanted a more difficult problem to tackle (involving non-natural images?)
+
+And then I'm also confus
+ed why there's much, much, much less work being done in ML for molecular biology, especially DNA/RNA/epigenomics (exclud
+ing protein structure/folding)? It seems for molecular biology almost all the focus seems to be on protein folding/struc
+ture with the new AlphaFold 3, but other than that RNA/DNA/epigenomics has been largely ignored? i.e. there has been onl
+y a very recent wave of papers for single-cell RNA sequencing foundation models like scGPT/Geneformer/etc in late 2023 t
+o early 2024? Is it because there is much more domain knowledge needed to do good analysis in molecular biological modal
+ities, and less people have that? Even though molecular biological datasets (esp. RNA sequencing) are often much less co
+mputationally intensive than medical imaging, like histopathology?
+```
+---
+
+     
+ 
+all -  [ [D] Any reason not to submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1cs6p6j/d_any_reason_not_to_submit_to_neurips/) , 2024-05-16-0910
 ```
 As we all know, abstracts are due tomorrow. I'm on the fence on being able to finish a strong submission in a week. I kn
 ow that I can always withdraw if reviews are bad (or if I don't feel like I have a strong submission in a week when it's
@@ -13,7 +45,7 @@ f ever, submitting is a strategic blunder.
 
      
  
-all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/Wealthsimple_Penny/comments/1crv28d/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-05-15-0910
+all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/Wealthsimple_Penny/comments/1crv28d/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-05-16-0910
 ```
 VERSES AI ($VERS), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a research
  roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by prov
@@ -60,7 +92,7 @@ vesting.
 
      
  
-all -  [ AskScience AMA Series: I am a computer scientist at the University of Maryland. My research focus is ](https://www.reddit.com/r/askscience/comments/1crpcaj/askscience_ama_series_i_am_a_computer_scientist/) , 2024-05-15-0910
+all -  [ AskScience AMA Series: I am a computer scientist at the University of Maryland. My research focus is ](https://www.reddit.com/r/askscience/comments/1crpcaj/askscience_ama_series_i_am_a_computer_scientist/) , 2024-05-16-0910
 ```
 Hi Reddit! I am a computer scientist from the University of Maryland here to answer your questions about artificial inte
 lligence.
@@ -108,7 +140,7 @@ Username: /u/umd-science
 
      
  
-all -  [ [D] Neurips 2024 submissions ](https://www.reddit.com/r/MachineLearning/comments/1crahli/d_neurips_2024_submissions/) , 2024-05-15-0910
+all -  [ [D] Neurips 2024 submissions ](https://www.reddit.com/r/MachineLearning/comments/1crahli/d_neurips_2024_submissions/) , 2024-05-16-0910
 ```
 I just submitted an abstract to Neurips 2024. I was so impressed with my self for being two days early, and yet, my pape
 r ID is over 7000. In the past I recall paper IDs were incremented as openreview received more submissions. Surely, this
@@ -118,33 +150,7 @@ r ID is over 7000. In the past I recall paper IDs were incremented as openreview
 
      
  
-all -  [ Chances for MS AI/MS Robotics for Spring '25? ](https://www.reddit.com/r/MSCS/comments/1cr6dg4/chances_for_ms_aims_robotics_for_spring_25/) , 2024-05-15-0910
-```
-
-Hey folks,
-
-I'm looking to apply for an MS in AI or Robotics for Spring 2025 and need some advice on my chances. Here’s
- my background:
-
-Graduated in : 2020
-College: IIIT,tier-2
-CGPA: 5.62
-Work Experience: 4 years as an AI Engineer at Dell,
- now a Research Engineer
-Research: Working on 2 papers for NeurIPS
-GRE: Scored 330 in March
-IELTS: Currently preparing f
-or it
-I'm really into control systems, hardware, AI, and robotics. Do you think I have a shot? Any tips to improve my ap
-plication would be super helpful. I really need genuine advice, guys, please!
-
-Thanks!
-```
----
-
-     
- 
-all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/Baystreetbets/comments/1cr11x8/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-15-0910
+all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/Baystreetbets/comments/1cr11x8/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-16-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -191,7 +197,7 @@ ancial advice please do your own research before investing. 
 
      
  
-all -  [ Postei e sai correndo... ](https://i.redd.it/mqggtai0n60d1.jpeg) , 2024-05-15-0910
+all -  [ Postei e sai correndo... ](https://i.redd.it/mqggtai0n60d1.jpeg) , 2024-05-16-0910
 ```
 
 ```
@@ -199,7 +205,7 @@ all -  [ Postei e sai correndo... ](https://i.redd.it/mqggtai0n60d1.jpeg) , 2024
 
      
  
-all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/pennystocks/comments/1cpxq1l/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-15-0910
+all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/pennystocks/comments/1cpxq1l/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-16-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -246,7 +252,7 @@ ancial advice please do your own research before investing. 
 
      
  
-all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-15-0910
+all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-16-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -293,7 +299,7 @@ ore investing.
 
      
  
-all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-15-0910
+all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-16-0910
 ```
 Hi, I'm a first year student in ece and wanted to ask how I can get involved in ai and ml research? I know the first ste
 p usually involves securing a grant through NSERC or smthg similar and reaching out to profs, but does anyone know how y
@@ -308,7 +314,7 @@ ow there are some cool startups that I've been trying to become involved in, and
 
      
  
-all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-15-0910
+all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-16-0910
 ```
 As a Founding AI Engineer, you'll play a critical role in the development and scaling of our agents infrastructure, goin
 g all the way from data ingestion to building state-of-the-art action-taking architectures. If you have a strong bias to
@@ -346,7 +352,7 @@ ineer-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-15-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-16-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -378,7 +384,7 @@ ern-agents/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-15-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-16-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -409,7 +415,7 @@ nts/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-15-0910
+all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-16-0910
 ```
 I have some papers in top venus myself, but whenever I sit down and be brutually honest with myself. I feel my work is g
 ood but it is just not that impactful, like one more brick in the wall.
@@ -420,7 +426,7 @@ tful as 'Attention is all you need' for example.
 
      
  
-all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-15-0910
+all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-16-0910
 ```
 Hello everyone, today the ICML results are out, congratulations to all those who have papers accepted here. I'm not an a
 cademic myself, but sometimes I read papers at these conferences for work, and it's really interesting. I just have a qu
@@ -433,7 +439,7 @@ roughout your 5 years of PhD and almost only achieve in the final years of your 
 
      
  
-all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-15-0910
+all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-16-0910
 ```
 Hi,
 
@@ -450,7 +456,7 @@ erience during my master's and bachelor's, combinatorial optimization is always 
 
      
  
-all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-15-0910
+all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-16-0910
 ```
 https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c3b61ddfd5b5dcbdab63a2645fc7a4cb145b
 
@@ -460,7 +466,7 @@ https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c
 
      
  
-all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-15-0910
+all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-16-0910
 ```
 [https://www.norange.io/projects/paper\_scorer/](https://www.norange.io/projects/paper_scorer/)
 
@@ -502,7 +508,7 @@ I also discussed this topic in a series of [tweets](https://x.com/nikitadurasov/
 
      
  
-all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-15-0910
+all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-16-0910
 ```
 I entered the Computer Science PhD program at our school 3 years ago (I'm in USA). I did not have a masters, they had a 
 combined program thingie. I did all of the masters courses so I can master out now, but I have 0 papers. My advisorwhen 
@@ -547,7 +553,7 @@ motivation is money. I've been told PhD matters when it comes to hiring but I do
 
      
  
-all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-15-0910
+all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-16-0910
 ```
 Hi there,
 
@@ -570,7 +576,7 @@ es this apply to my case?
 
      
  
-all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-15-0910
+all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-16-0910
 ```
 I understand the derivation of -div and grad being adjoint operators, but then shouldn't equality hold between 'integral
  of (norm of gradient)\^2' and '-1 \* integral of laplacian \* function' ? Where did the negative go in the equality?
@@ -590,7 +596,7 @@ x)
 
      
  
-all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-15-0910
+all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-16-0910
 ```
 Used to receive invitation by this time of the year. Maybe I am forgotten.
 ```
@@ -598,7 +604,7 @@ Used to receive invitation by this time of the year. Maybe I am forgotten.
 
      
  
-all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-15-0910
+all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-16-0910
 ```
 Maybe I'm a bit paranoid but I'm a little worried about how future employers (e.g. FAANG) might view a CS PhD in computa
 tional biology (and instead I may be a 'better fit' for big pharma/biotech post-graduation).
@@ -626,7 +632,7 @@ ly be an issue in reality?)
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-15-0910
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-16-0910
 ```
 
 myquals : MTech AI from IISc. My motivation for writing this post comes from an earlier post in r/GATEtard titled, ['Do
@@ -714,7 +720,7 @@ ant to learn and understand the topics you love deeply.
 
      
  
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-15-0910
+all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-16-0910
 ```
 I am from the 2021-23 batch of MTech AI at IISc. My motivation for writing this post comes from an earlier post in this 
 subreddit titled, 'Do not join MTECH AI if you have other options like CSA (currently in IISC).' TLDR at the bottom.
