@@ -1,5 +1,30 @@
  
-all -  [ Why is AI for medical imaging, such as histopathology, such a saturated area? And why is AI for mole ](https://www.reddit.com/r/learnmachinelearning/comments/1csvuiv/why_is_ai_for_medical_imaging_such_as/) , 2024-05-16-0910
+all -  [ [D] Neurips checklist Questions  ](https://www.reddit.com/r/MachineLearning/comments/1ctatc6/d_neurips_checklist_questions/) , 2024-05-17-0910
+```
+I had a doubt about the Neurips 2024 checklist questions. 
+
+The instructions relating to checklist says: 'All submission
+s must be in PDF format, and in a single PDF file include, in this order, (1) the submitted paper; (2) optional technica
+l appendices that support the paper with additional proofs, derivations, or results; (3) the NeurIPS paper checklist. '
+
+
+It is also mentioned that 'The checklist is included in the LateX style file or the NeurIPS 2024 template on Overleaf.'
+
+
+However, when I'm trying to open the link 'NeurIPS 2024 template on Overleaf', it is showing as 'Project Not Found' in
+ the overleaf website. 
+
+So, how are folks accessing and adding the checklist that needs to added at the end of the pape
+r? 
+
+Also, while submitting the abstract in openreview there was no checklist questions. I could submit the abstract and
+ still can view and edit the submission. Hopefully the abstract submission has gone through correctly. 
+```
+---
+
+     
+ 
+all -  [ Why is AI for medical imaging, such as histopathology, such a saturated area? And why is AI for mole ](https://www.reddit.com/r/learnmachinelearning/comments/1csvuiv/why_is_ai_for_medical_imaging_such_as/) , 2024-05-17-0910
 ```
 I work on projects involving AI for biomedical research, and something that shocks me is why there are so many papers/pr
 ojects involving AI for medical imaging, especially computational pathology (or radiology)? Is it because of the demand 
@@ -31,7 +56,7 @@ mputationally intensive than medical imaging, like histopathology?
 
      
  
-all -  [ [D] Any reason not to submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1cs6p6j/d_any_reason_not_to_submit_to_neurips/) , 2024-05-16-0910
+all -  [ [D] Any reason not to submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1cs6p6j/d_any_reason_not_to_submit_to_neurips/) , 2024-05-17-0910
 ```
 As we all know, abstracts are due tomorrow. I'm on the fence on being able to finish a strong submission in a week. I kn
 ow that I can always withdraw if reviews are bad (or if I don't feel like I have a strong submission in a week when it's
@@ -45,7 +70,7 @@ f ever, submitting is a strategic blunder.
 
      
  
-all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/Wealthsimple_Penny/comments/1crv28d/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-05-16-0910
+all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/Wealthsimple_Penny/comments/1crv28d/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-05-17-0910
 ```
 VERSES AI ($VERS), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a research
  roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by prov
@@ -92,7 +117,7 @@ vesting.
 
      
  
-all -  [ AskScience AMA Series: I am a computer scientist at the University of Maryland. My research focus is ](https://www.reddit.com/r/askscience/comments/1crpcaj/askscience_ama_series_i_am_a_computer_scientist/) , 2024-05-16-0910
+all -  [ AskScience AMA Series: I am a computer scientist at the University of Maryland. My research focus is ](https://www.reddit.com/r/askscience/comments/1crpcaj/askscience_ama_series_i_am_a_computer_scientist/) , 2024-05-17-0910
 ```
 Hi Reddit! I am a computer scientist from the University of Maryland here to answer your questions about artificial inte
 lligence.
@@ -140,7 +165,7 @@ Username: /u/umd-science
 
      
  
-all -  [ [D] Neurips 2024 submissions ](https://www.reddit.com/r/MachineLearning/comments/1crahli/d_neurips_2024_submissions/) , 2024-05-16-0910
+all -  [ [D] Neurips 2024 submissions ](https://www.reddit.com/r/MachineLearning/comments/1crahli/d_neurips_2024_submissions/) , 2024-05-17-0910
 ```
 I just submitted an abstract to Neurips 2024. I was so impressed with my self for being two days early, and yet, my pape
 r ID is over 7000. In the past I recall paper IDs were incremented as openreview received more submissions. Surely, this
@@ -150,7 +175,7 @@ r ID is over 7000. In the past I recall paper IDs were incremented as openreview
 
      
  
-all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/Baystreetbets/comments/1cr11x8/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-16-0910
+all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/Baystreetbets/comments/1cr11x8/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-17-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -197,7 +222,7 @@ ancial advice please do your own research before investing. 
 
      
  
-all -  [ Postei e sai correndo... ](https://i.redd.it/mqggtai0n60d1.jpeg) , 2024-05-16-0910
+all -  [ Postei e sai correndo... ](https://i.redd.it/mqggtai0n60d1.jpeg) , 2024-05-17-0910
 ```
 
 ```
@@ -205,7 +230,7 @@ all -  [ Postei e sai correndo... ](https://i.redd.it/mqggtai0n60d1.jpeg) , 2024
 
      
  
-all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/pennystocks/comments/1cpxq1l/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-16-0910
+all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/pennystocks/comments/1cpxq1l/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-17-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -252,7 +277,7 @@ ancial advice please do your own research before investing. 
 
      
  
-all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-16-0910
+all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-17-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -299,7 +324,7 @@ ore investing.
 
      
  
-all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-16-0910
+all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-17-0910
 ```
 Hi, I'm a first year student in ece and wanted to ask how I can get involved in ai and ml research? I know the first ste
 p usually involves securing a grant through NSERC or smthg similar and reaching out to profs, but does anyone know how y
@@ -314,7 +339,7 @@ ow there are some cool startups that I've been trying to become involved in, and
 
      
  
-all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-16-0910
+all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-17-0910
 ```
 As a Founding AI Engineer, you'll play a critical role in the development and scaling of our agents infrastructure, goin
 g all the way from data ingestion to building state-of-the-art action-taking architectures. If you have a strong bias to
@@ -352,7 +377,7 @@ ineer-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-16-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-17-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -384,7 +409,7 @@ ern-agents/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-16-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-17-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -415,7 +440,7 @@ nts/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-16-0910
+all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-17-0910
 ```
 I have some papers in top venus myself, but whenever I sit down and be brutually honest with myself. I feel my work is g
 ood but it is just not that impactful, like one more brick in the wall.
@@ -426,7 +451,7 @@ tful as 'Attention is all you need' for example.
 
      
  
-all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-16-0910
+all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-17-0910
 ```
 Hello everyone, today the ICML results are out, congratulations to all those who have papers accepted here. I'm not an a
 cademic myself, but sometimes I read papers at these conferences for work, and it's really interesting. I just have a qu
@@ -439,7 +464,7 @@ roughout your 5 years of PhD and almost only achieve in the final years of your 
 
      
  
-all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-16-0910
+all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-17-0910
 ```
 Hi,
 
@@ -456,7 +481,7 @@ erience during my master's and bachelor's, combinatorial optimization is always 
 
      
  
-all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-16-0910
+all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-17-0910
 ```
 https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c3b61ddfd5b5dcbdab63a2645fc7a4cb145b
 
@@ -466,7 +491,7 @@ https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c
 
      
  
-all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-16-0910
+all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-17-0910
 ```
 [https://www.norange.io/projects/paper\_scorer/](https://www.norange.io/projects/paper_scorer/)
 
@@ -508,7 +533,7 @@ I also discussed this topic in a series of [tweets](https://x.com/nikitadurasov/
 
      
  
-all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-16-0910
+all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-17-0910
 ```
 I entered the Computer Science PhD program at our school 3 years ago (I'm in USA). I did not have a masters, they had a 
 combined program thingie. I did all of the masters courses so I can master out now, but I have 0 papers. My advisorwhen 
@@ -553,7 +578,7 @@ motivation is money. I've been told PhD matters when it comes to hiring but I do
 
      
  
-all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-16-0910
+all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-17-0910
 ```
 Hi there,
 
@@ -576,7 +601,7 @@ es this apply to my case?
 
      
  
-all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-16-0910
+all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-17-0910
 ```
 I understand the derivation of -div and grad being adjoint operators, but then shouldn't equality hold between 'integral
  of (norm of gradient)\^2' and '-1 \* integral of laplacian \* function' ? Where did the negative go in the equality?
@@ -596,7 +621,7 @@ x)
 
      
  
-all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-16-0910
+all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-17-0910
 ```
 Used to receive invitation by this time of the year. Maybe I am forgotten.
 ```
@@ -604,7 +629,7 @@ Used to receive invitation by this time of the year. Maybe I am forgotten.
 
      
  
-all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-16-0910
+all -  [ Worried about employers' view on CS PhD in computational biology ](https://www.reddit.com/r/labrats/comments/1c6hnym/worried_about_employers_view_on_cs_phd_in/) , 2024-05-17-0910
 ```
 Maybe I'm a bit paranoid but I'm a little worried about how future employers (e.g. FAANG) might view a CS PhD in computa
 tional biology (and instead I may be a 'better fit' for big pharma/biotech post-graduation).
@@ -627,181 +652,6 @@ in comp bio (since for the time it takes to publish 1 journal paper in a biology
 
 Any thoughts (e.g. maybe I shouldn't be worried since this might not actual
 ly be an issue in reality?)
-```
----
-
-     
- 
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/Indian_Academia/comments/1c4l31n/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-16-0910
-```
-
-myquals : MTech AI from IISc. My motivation for writing this post comes from an earlier post in r/GATEtard titled, ['Do
- not join MTECH AI if you have other options like CSA (currently in IISC).'](https://www.reddit.com/r/GATEtard/comments/
-1bcwx0a/do_not_join_mtech_ai_if_you_have_other_options/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&u
-tm_content=share_button) TLDR at the bottom.
-
-First, I will address a few things in reply to the post:
-
-* Three batches 
-have graduated from this program, which initially started in 2019. I am from the third batch, and the previous post's OP
- is from the program's fifth batch.
-* The curriculum of MTech AI was reformed recently, and now, students have more flex
-ibility in taking non-AI courses. You can opt for more AI courses if you are interested in AI.
-* All students from my ba
-tch who applied for placements got a job (not 80%, as OP wrote in the comments). The current batch might have a lower pl
-acement percentage, but the [response in this comment](https://www.reddit.com/r/GATEtard/comments/1bcwx0a/comment/kvrc5n
-b/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) addresses the current placem
-ent scenario very well. I can confirm this for my batch as well. I have batchmates (MTech AI and MTech CDS) selected by 
-MasterCard, Target, Well Fargo, etc. I would love to see OP reply to this comment. :)
-* In the comments, the OP mentions
- that the newer generative AI companies are demanding MLOps skills, but the IISc curriculum completely ignores them. As 
-far as I remember, there were no courses on MLOps when I was a student. So anyway, MLOps skills need to be developed out
-side of courses.
-* Before proceeding, I suggest prospective applicants read [this LinkedIn article](https://www.linkedin
-.com/pulse/mtech-ai-iisc-based-my-2-years-program-saurabh-shrivastava/) as well if they need to become more familiar wit
-h the course structure of MTech AI.
-
-I joined the program in 2021 for two main reasons: I knew I wanted to pursue AI, an
-d I knew I wanted to go into research and do a Ph.D. When I started the program, I had some research experience in NLP, 
-and I already understood the basics of ML. However, as time passed at IISc, I understood each topic more deeply. Not onl
-y this but the knowledge and comprehensibility that I gained from the math courses also made it easier for me to underst
-and any new concepts and research papers very quickly. These courses also helped me with my research. So, the math you l
-earned from these courses makes you a better ML researcher/engineer in the long run. Although training a model is the 'e
-asiest part,' you still require knowledge of what libraries you are importing, why something is not working, what you ca
-n do to make it work, etc. I do not believe I could have done the impactful research I did based only on my understandin
-g from my BTech if I had not joined MTech AI.
-
-As for the research part, I do not need to say much about IISc as a resea
-rch institute. The evidence is out there. If you are interested in making impactful research contributions, IISc provide
-s you with a platform to do so. Apart from getting a deeper understanding of topics, I also learned more about the resea
-rch process in general. This included learning to identify and define research questions, formulate hypotheses, and desi
-gn experiments or studies that would yield meaningful and impactful results. I have developed skills to lead multiple re
-search projects at the same time. Furthermore, students at IISc can collaborate with leading experts in various fields, 
-providing invaluable insights into different methodologies and approaches to problem-solving. IISc's resources and suppo
-rtive environment enable the students to develop essential research skills such as data collection and analysis, critica
-l thinking, and effective communication of complex ideas. In my own experience, delving into research at IISc has been t
-ransformative. I've been a part of a constantly changing environment where people are naturally curious and where limits
- are constantly being pushed. The journey has helped me learn more about the world and given me the tools to confidently
- and wisely handle its many challenges.
-
-Besides research, IISc also provides opportunities to pursue PhD in India and p
-repares you for a PhD abroad. Most of the professors at IISc are PhDs and postdocs from prestigious universities abroad.
- They have academic collaborations all over the world. Their recommendations can get you into terrific labs abroad in yo
-ur field of choice. You also have the option to extend your MTech to a Ph.D. at the end of the second year now. Nowadays
-, many Ph.D. fellowships, such as Google Ph.D. fellowship, Microsoft research Ph.D. fellowship, Qualcomm innovation fell
-owship, PMRF, etc, are awarded to many Ph.D. students at IISc. These fellowships provide a better stipend and more funds
- for students to travel internationally and present at various international conferences such as NeurIPS, ICLR, ICML, CV
-PR, ECCV, EMNLP, ACL, etc, to name a few.
-
-I never thought that I would be able to publish in NeurIPS in my lifetime, bu
-t it did happen. I never thought I would get to travel and present my research to researchers from whom I have learned t
-he subjects and whom I look up to. I am joining a Ph.D. program at a Top 20 university in August 2024. I was able to ach
-ieve this by joining MTech AI at IISc.
-
-In conclusion, IISc is more than just about placements. Join if you have a genui
-ne interest in your field of choice. Many other blogs, Quora Answers, etc., discuss why a person should join IISc. I sug
-gest prospective applicants to take a look at that as well.
-
-To the OP of the previous post: Do not make sweeping claims
-. You can write a review or personal experiences. Directly saying 'Do not do x' creates a negativity bias in the minds o
-f readers.
-
-TLDR :
-
-I would say join IISc and specifically the MTech AI program if you fall under one of the following:
-
-
-* You are already sure you want to have a career in AI moving forward.
-* You want to try your hand at research.
-* You w
-ant to learn and understand the topics you love deeply.
-```
----
-
-     
- 
-all -  [ A review of MTech AI at IISc (MTech AI recent grad). ](https://www.reddit.com/r/GATEtard/comments/1c4b78u/a_review_of_mtech_ai_at_iisc_mtech_ai_recent_grad/) , 2024-05-16-0910
-```
-I am from the 2021-23 batch of MTech AI at IISc. My motivation for writing this post comes from an earlier post in this 
-subreddit titled, 'Do not join MTECH AI if you have other options like CSA (currently in IISC).' TLDR at the bottom.
-
-Fi
-rst, I will address a few things in reply to the post:
-
-* Three batches have graduated from this program, which initiall
-y started in 2019. I am from the third batch, and the previous post's OP is from the program's fifth batch.
-* The curric
-ulum of MTech AI was reformed recently, and now, students have more flexibility in taking non-AI courses. You can opt fo
-r more AI courses if you are interested in AI.
-* All students from my batch who applied for placements got a job (not 80
-%, as OP wrote in the comments). The current batch might have a lower placement percentage, but the [response in this co
-mment](https://www.reddit.com/r/GATEtard/comments/1bcwx0a/comment/kvrc5nb/?utm_source=share&utm_medium=web3x&utm_name=we
-b3xcss&utm_term=1&utm_content=share_button) addresses the current placement scenario very well. I can confirm this for m
-y batch as well. I have batchmates (MTech AI and MTech CDS) selected by MasterCard, Target, Well Fargo, etc. I would lov
-e to see OP reply to this comment. :)
-* In the comments, the OP mentions that the newer generative AI companies are dema
-nding MLOps skills, but the IISc curriculum completely ignores them. As far as I remember, there were no courses on MLOp
-s when I was a student. So anyway, MLOps skills need to be developed outside of courses.
-
-Before proceeding, I suggest p
-rospective applicants read [this LinkedIn article](https://www.linkedin.com/pulse/mtech-ai-iisc-based-my-2-years-program
--saurabh-shrivastava/) as well if they need to become more familiar with the course structure of MTech AI.
-
-I joined the
- program in 2021 for two main reasons: I knew I wanted to pursue AI, and I knew I wanted to go into research and do a Ph
-.D. When I started the program, I had some research experience in NLP, and I already understood the basics of ML. Howeve
-r, as time passed at IISc, I understood each topic more deeply. Not only this but the knowledge and comprehensibility th
-at I gained from the math courses also made it easier for me to understand any new concepts and research papers very qui
-ckly. These courses also helped me with my research. So, the math you learned from these courses makes you a better ML r
-esearcher/engineer in the long run. Although training a model is the 'easiest part,' you still require knowledge of what
- libraries you are importing, why something is not working, what you can do to make it work, etc. I do not believe I cou
-ld have done the impactful research I did based only on my understanding from my BTech if I had not joined MTech AI.
-
-As
- for the research part, I do not need to say much about IISc as a research institute. The evidence is out there. If you 
-are interested in making impactful research contributions, IISc provides you with a platform to do so. Apart from gettin
-g a deeper understanding of topics, I also learned more about the research process in general. This included learning to
- identify and define research questions, formulate hypotheses, and design experiments or studies that would yield meanin
-gful and impactful results. I have developed skills to lead multiple research projects at the same time. Furthermore, st
-udents at IISc can collaborate with leading experts in various fields, providing invaluable insights into different meth
-odologies and approaches to problem-solving. IISc's resources and supportive environment enable the students to develop 
-essential research skills such as data collection and analysis, critical thinking, and effective communication of comple
-x ideas. In my own experience, delving into research at IISc has been transformative. I've been a part of a constantly c
-hanging environment where people are naturally curious and where limits are constantly being pushed. The journey has hel
-ped me learn more about the world and given me the tools to confidently and wisely handle its many challenges.
-
-Besides 
-research, IISc also provides opportunities to pursue PhD in India and prepares you for a PhD abroad. Most of the profess
-ors at IISc are PhDs and postdocs from prestigious universities abroad. They have academic collaborations all over the w
-orld. Their recommendations can get you into terrific labs abroad in your field of choice. You also have the option to e
-xtend your MTech to a Ph.D. at the end of the second year now. Nowadays, many Ph.D. fellowships, such as Google Ph.D. fe
-llowship, Microsoft research Ph.D. fellowship, Qualcomm innovation fellowship, PMRF, etc, are awarded to many Ph.D. stud
-ents at IISc. These fellowships provide a better stipend and more funds for students to travel internationally and prese
-nt at various international conferences such as NeurIPS, ICLR, ICML, CVPR, ECCV, EMNLP, ACL, etc, to name a few.
-
-I neve
-r thought that I would be able to publish in NeurIPS in my lifetime, but it did happen. I never thought I would get to t
-ravel and present my research to researchers from whom I have learned the subjects and whom I look up to. I am joining a
- Ph.D. program at a Top 20 university in August 2024. I was able to achieve this by joining MTech AI at IISc.
-
-In conclu
-sion, IISc is more than just about placements. Join if you have a genuine interest in your field of choice. Many other b
-logs, Quora Answers, etc., discuss why a person should join IISc. I suggest prospective applicants to take a look at tha
-t as well.
-
-To the OP of the previous post: Do not make sweeping claims. You can write a review or personal experiences.
- Directly saying 'Do not do x' creates a negativity bias in the minds of readers.
-
-TLDR :
-
-I would say join IISc and spe
-cifically the MTech AI program if you fall under one of the following:
-
-* You are already sure you want to have a career
- in AI moving forward.
-* You want to try your hand at research.
-* You want to learn and understand the topics you love d
-eeply.
 ```
 ---
 
