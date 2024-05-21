@@ -1,5 +1,187 @@
  
-all -  [ [D] Culture of Recycling Old Conference Submissions in ML ](https://www.reddit.com/r/MachineLearning/comments/1cvp0x8/d_culture_of_recycling_old_conference_submissions/) , 2024-05-20-0910
+all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
+ ](https://www.reddit.com/r/kanpur/comments/1cwa3qt/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-05-21-0910
+```
+Greetings!
+
+Lucknow AI Labs is organizing a Gen AI Hackathon. The community aims to foster a vibrant research culture in
+ Lucknow and empower students to publish their work in prestigious conferences such as ACL, ACM, and NeurIPS, even durin
+g their undergraduate studies.
+
+You can read more about the vision behind Lucknow AI Labs. [https://lucknowai.github.io/
+](https://lucknowai.github.io/)
+
+We are a group of dedicated researchers with extensive experience in publishing at top-
+tier conferences. Our mission is to facilitate and guide aspiring researchers in Lucknow who are seeking collaboration a
+nd support to advance their research careers.
+
+In addition to the **Gen AI Hackathon** ([https://www.commudle.com/commun
+ities/tfug-lucknow/events/hack-to-crack](https://www.commudle.com/communities/tfug-lucknow/events/hack-to-crack)), we ar
+e also organizing the **Gen AI Awadh Summit** ([https://www.commudle.com/communities/tfug-lucknow/events/gen-ai-awadh-su
+mmit](https://www.commudle.com/communities/tfug-lucknow/events/gen-ai-awadh-summit)). During this summit, we will explor
+e cutting-edge topics such as fine-tuning GEMMA, prompt engineering, RAG (Retrieval Augmented Generation), and more.
+
+We
+ invite you to join us, share your knowledge, and learn from the experts in the field.
+
+Please note that Lucknow AI Labs
+ is an independent initiative led by a group of scholars and researchers. Our primary goal is to nurture the AI research
+ community in Lucknow. If you would like to contribute, we encourage you to do so through mentoring or providing resourc
+es that can benefit students and researchers in the AI domain.
+
+https://preview.redd.it/rau0q0kyej1d1.png?width=1920&for
+mat=png&auto=webp&s=8f49b22c78e16399f92194c3551303474022e65a
+
+
+```
+---
+
+     
+ 
+all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
+ ](https://www.reddit.com/r/developers_lucknow/comments/1cwa3gc/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-05-21-0910
+```
+Greetings!
+
+Lucknow AI Labs is organizing a Gen AI Hackathon. The community aims to foster a vibrant research culture in
+ Lucknow and empower students to publish their work in prestigious conferences such as ACL, ACM, and NeurIPS, even durin
+g their undergraduate studies.
+
+You can read more about the vision behind Lucknow AI Labs. [https://lucknowai.github.io/
+](https://lucknowai.github.io/)
+
+We are a group of dedicated researchers with extensive experience in publishing at top-
+tier conferences. Our mission is to facilitate and guide aspiring researchers in Lucknow who are seeking collaboration a
+nd support to advance their research careers.
+
+In addition to the **Gen AI Hackathon** ([https://www.commudle.com/commun
+ities/tfug-lucknow/events/hack-to-crack](https://www.commudle.com/communities/tfug-lucknow/events/hack-to-crack)), we ar
+e also organizing the **Gen AI Awadh Summit** ([https://www.commudle.com/communities/tfug-lucknow/events/gen-ai-awadh-su
+mmit](https://www.commudle.com/communities/tfug-lucknow/events/gen-ai-awadh-summit)). During this summit, we will explor
+e cutting-edge topics such as fine-tuning GEMMA, prompt engineering, RAG (Retrieval Augmented Generation), and more.
+
+We
+ invite you to join us, share your knowledge, and learn from the experts in the field.
+
+Please note that Lucknow AI Labs
+ is an independent initiative led by a group of scholars and researchers. Our primary goal is to nurture the AI research
+ community in Lucknow. If you would like to contribute, we encourage you to do so through mentoring or providing resourc
+es that can benefit students and researchers in the AI domain.
+
+https://preview.redd.it/g61lajfuej1d1.png?width=1920&for
+mat=png&auto=webp&s=80313475aa3a531609364a0d487a61a733f55877
+
+
+```
+---
+
+     
+ 
+all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
+ ](https://www.reddit.com/r/LucknowUniversity/comments/1cwa2sh/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-05-21-0910
+```
+Greetings!
+
+Lucknow AI Labs is organizing a Gen AI Hackathon. The community aims to foster a vibrant research culture in
+ Lucknow and empower students to publish their work in prestigious conferences such as ACL, ACM, and NeurIPS, even durin
+g their undergraduate studies.
+
+You can read more about the vision behind Lucknow AI Labs. [https://lucknowai.github.io/
+](https://lucknowai.github.io/)
+
+We are a group of dedicated researchers with extensive experience in publishing at top-
+tier conferences. Our mission is to facilitate and guide aspiring researchers in Lucknow who are seeking collaboration a
+nd support to advance their research careers.
+
+In addition to the **Gen AI Hackathon** ([https://www.commudle.com/commun
+ities/tfug-lucknow/events/hack-to-crack](https://www.commudle.com/communities/tfug-lucknow/events/hack-to-crack)), we ar
+e also organizing the **Gen AI Awadh Summit** ([https://www.commudle.com/communities/tfug-lucknow/events/gen-ai-awadh-su
+mmit](https://www.commudle.com/communities/tfug-lucknow/events/gen-ai-awadh-summit)). During this summit, we will explor
+e cutting-edge topics such as fine-tuning GEMMA, prompt engineering, RAG (Retrieval Augmented Generation), and more.
+
+We
+ invite you to join us, share your knowledge, and learn from the experts in the field.
+
+Please note that Lucknow AI Labs
+ is an independent initiative led by a group of scholars and researchers. Our primary goal is to nurture the AI research
+ community in Lucknow. If you would like to contribute, we encourage you to do so through mentoring or providing resourc
+es that can benefit students and researchers in the AI domain.
+
+https://preview.redd.it/k95x0bekej1d1.png?width=1920&for
+mat=png&auto=webp&s=b64f71dfea4921355b3bb281ccf4cf5b06871190
+
+
+```
+---
+
+     
+ 
+all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
+ ](https://www.reddit.com/r/lucknow/comments/1cwa0gu/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-05-21-0910
+```
+Greetings!
+
+Lucknow AI Labs is organizing a Gen AI Hackathon. The community aims to foster a vibrant research culture in
+ Lucknow and empower students to publish their work in prestigious conferences such as ACL, ACM, and NeurIPS, even durin
+g their undergraduate studies.
+
+You can read more about the vision behind Lucknow AI Labs. [https://lucknowai.github.io/
+](https://lucknowai.github.io/)
+
+We are a group of dedicated researchers with extensive experience in publishing at top-
+tier conferences. Our mission is to facilitate and guide aspiring researchers in Lucknow who are seeking collaboration a
+nd support to advance their research careers.
+
+In addition to the **Gen AI Hackathon** (https://www.commudle.com/communi
+ties/tfug-lucknow/events/hack-to-crack), we are also organizing the **Gen AI Awadh Summit** (https://www.commudle.com/co
+mmunities/tfug-lucknow/events/gen-ai-awadh-summit). During this summit, we will explore cutting-edge topics such as fine
+-tuning GEMMA, prompt engineering, RAG (Retrieval Augmented Generation), and more.
+
+We invite you to join us, share your
+ knowledge, and learn from the experts in the field.
+
+Please note that Lucknow AI Labs is an independent initiative led 
+by a group of scholars and researchers. Our primary goal is to nurture the AI research community in Lucknow. If you woul
+d like to contribute, we encourage you to do so through mentoring or providing resources that can benefit students and r
+esearchers in the AI domain.
+
+As part of our community engagement initiatives, we regularly host AMA (Ask Me Anything) s
+essions over the weekends. These sessions provide a fantastic opportunity for anyone to interact with experts, ask quest
+ions, and gain insights into various aspects of AI and related fields.
+
+To join our WhatsApp group and Discord server, p
+lease visit our website at [https://lucknowai.github.io/](https://lucknowai.github.io/).
+
+We would greatly appreciate it
+ if you could help us spread the word by sharing this information in other relevant subreddits and groups. As our accoun
+t is newly created, we are currently facing limitations in posting to other communities ourselves.
+
+https://preview.redd
+.it/oxz0fmhtdj1d1.png?width=1920&format=png&auto=webp&s=6cc4f32667d5fa9d957f883563e4325dd09aac99
+```
+---
+
+     
+ 
+all -  [ [D] Why are non technical people leading AI? ](https://www.reddit.com/r/MachineLearning/comments/1cw5dby/d_why_are_non_technical_people_leading_ai/) , 2024-05-21-0910
+```
+Why do non-technical figures lead the charge in AI? Pichai, Nadella, Fidji (Open AI board member), Altman, Murati, and m
+any other VPs of AI in FAANG. Despite never coding, they hold sway in AI. Meanwhile, those coding and publishing groundb
+reaking work are often stuck at lower levels. 
+
+What's the deal? Why isn't the industry recognizing those publishing at 
+Neurips, EMNLP, CVPR, or the masterminds behind creations like GPT, Gemini, or Claude? They seem to be hidden in the sha
+dows. 
+
+What's your take on this?
+
+
+```
+---
+
+     
+ 
+all -  [ [D] Culture of Recycling Old Conference Submissions in ML ](https://www.reddit.com/r/MachineLearning/comments/1cvp0x8/d_culture_of_recycling_old_conference_submissions/) , 2024-05-21-0910
 ```
 I work on statistical ML. I notice that many people (including myself and those that I review) often recycle their submi
 ssions for ML conferences.
@@ -30,7 +212,7 @@ What do folks think about it?
 
      
  
-all -  [ This Will Be NeurIPS in 2026 ](https://i.redd.it/1ibbavmp391d1.png) , 2024-05-20-0910
+all -  [ This Will Be NeurIPS in 2026 ](https://i.redd.it/1ibbavmp391d1.png) , 2024-05-21-0910
 ```
 
 ```
@@ -38,7 +220,7 @@ all -  [ This Will Be NeurIPS in 2026 ](https://i.redd.it/1ibbavmp391d1.png) , 2
 
      
  
-all -  [ NeurIPS Submission Question ](https://www.reddit.com/r/MLQuestions/comments/1cudjmn/neurips_submission_question/) , 2024-05-20-0910
+all -  [ NeurIPS Submission Question ](https://www.reddit.com/r/MLQuestions/comments/1cudjmn/neurips_submission_question/) , 2024-05-21-0910
 ```
 I am an undergrad submitting to NeurIPS for the first time. I saw there was only one form, so I filled the abstract and 
 saw it was saved. But I didn't submit as it required the full pdf, and I thought it was due later.
@@ -51,7 +233,7 @@ bstract submission is strict)
 
      
  
-all -  [ [D] Real chances to be accepted in NeurIPS 2024 - Other conferences ](https://www.reddit.com/r/MachineLearning/comments/1ctv9li/d_real_chances_to_be_accepted_in_neurips_2024/) , 2024-05-20-0910
+all -  [ [D] Real chances to be accepted in NeurIPS 2024 - Other conferences ](https://www.reddit.com/r/MachineLearning/comments/1ctv9li/d_real_chances_to_be_accepted_in_neurips_2024/) , 2024-05-21-0910
 ```
 Hey!
 
@@ -77,7 +259,7 @@ Thank you!
 
      
  
-all -  [ Why is AI for medical imaging, such as histopathology, such a saturated area? And why is AI for mole ](https://www.reddit.com/r/learnmachinelearning/comments/1csvuiv/why_is_ai_for_medical_imaging_such_as/) , 2024-05-20-0910
+all -  [ Why is AI for medical imaging, such as histopathology, such a saturated area? And why is AI for mole ](https://www.reddit.com/r/learnmachinelearning/comments/1csvuiv/why_is_ai_for_medical_imaging_such_as/) , 2024-05-21-0910
 ```
 I work on projects involving AI for biomedical research, and something that shocks me is why there are so many papers/pr
 ojects involving AI for medical imaging, especially computational pathology (or radiology)? Is it because of the demand 
@@ -109,7 +291,7 @@ mputationally intensive than medical imaging, like histopathology?
 
      
  
-all -  [ [D] Any reason not to submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1cs6p6j/d_any_reason_not_to_submit_to_neurips/) , 2024-05-20-0910
+all -  [ [D] Any reason not to submit to NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1cs6p6j/d_any_reason_not_to_submit_to_neurips/) , 2024-05-21-0910
 ```
 As we all know, abstracts are due tomorrow. I'm on the fence on being able to finish a strong submission in a week. I kn
 ow that I can always withdraw if reviews are bad (or if I don't feel like I have a strong submission in a week when it's
@@ -123,7 +305,7 @@ f ever, submitting is a strategic blunder.
 
      
  
-all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/Wealthsimple_Penny/comments/1crv28d/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-05-20-0910
+all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/Wealthsimple_Penny/comments/1crv28d/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-05-21-0910
 ```
 VERSES AI ($VERS), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a research
  roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by prov
@@ -170,7 +352,7 @@ vesting.
 
      
  
-all -  [ AskScience AMA Series: I am a computer scientist at the University of Maryland. My research focus is ](https://www.reddit.com/r/askscience/comments/1crpcaj/askscience_ama_series_i_am_a_computer_scientist/) , 2024-05-20-0910
+all -  [ AskScience AMA Series: I am a computer scientist at the University of Maryland. My research focus is ](https://www.reddit.com/r/askscience/comments/1crpcaj/askscience_ama_series_i_am_a_computer_scientist/) , 2024-05-21-0910
 ```
 Hi Reddit! I am a computer scientist from the University of Maryland here to answer your questions about artificial inte
 lligence.
@@ -218,7 +400,7 @@ Username: /u/umd-science
 
      
  
-all -  [ [D] Neurips 2024 submissions ](https://www.reddit.com/r/MachineLearning/comments/1crahli/d_neurips_2024_submissions/) , 2024-05-20-0910
+all -  [ [D] Neurips 2024 submissions ](https://www.reddit.com/r/MachineLearning/comments/1crahli/d_neurips_2024_submissions/) , 2024-05-21-0910
 ```
 I just submitted an abstract to Neurips 2024. I was so impressed with my self for being two days early, and yet, my pape
 r ID is over 7000. In the past I recall paper IDs were incremented as openreview received more submissions. Surely, this
@@ -228,7 +410,7 @@ r ID is over 7000. In the past I recall paper IDs were incremented as openreview
 
      
  
-all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/Baystreetbets/comments/1cr11x8/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-20-0910
+all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/Baystreetbets/comments/1cr11x8/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-21-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -275,7 +457,7 @@ ancial advice please do your own research before investing. 
 
      
  
-all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/pennystocks/comments/1cpxq1l/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-20-0910
+all -  [ $VRSSF Releases Research Roadmap - New AI Standards ](https://www.reddit.com/r/pennystocks/comments/1cpxq1l/vrssf_releases_research_roadmap_new_ai_standards/) , 2024-05-21-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -322,7 +504,7 @@ ancial advice please do your own research before investing. 
 
      
  
-all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-20-0910
+all -  [ VERSES AI ($VRSSF) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallstreetbets/comments/1cp6x6p/verses_ai_vrssf_sets_new_standards_in_ai_with/) , 2024-05-21-0910
 ```
 VERSES AI ($VRSSF), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a researc
 h roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by pro
@@ -369,7 +551,7 @@ ore investing.
 
      
  
-all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-20-0910
+all -  [ How to leverage research opportunities in AI/ML as a student in Undergrad? ](https://www.reddit.com/r/UofT/comments/1cl4eks/how_to_leverage_research_opportunities_in_aiml_as/) , 2024-05-21-0910
 ```
 Hi, I'm a first year student in ece and wanted to ask how I can get involved in ai and ml research? I know the first ste
 p usually involves securing a grant through NSERC or smthg similar and reaching out to profs, but does anyone know how y
@@ -384,7 +566,7 @@ ow there are some cool startups that I've been trying to become involved in, and
 
      
  
-all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-20-0910
+all -  [ [HIRING][USD 100K - 180K+] Founding AI Engineer, Agents in New York ](https://www.reddit.com/r/PythonJobs/comments/1cjw1ec/hiringusd_100k_180k_founding_ai_engineer_agents/) , 2024-05-21-0910
 ```
 As a Founding AI Engineer, you'll play a critical role in the development and scaling of our agents infrastructure, goin
 g all the way from data ingestion to building state-of-the-art action-taking architectures. If you have a strong bias to
@@ -422,7 +604,7 @@ ineer-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-20-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/PythonJobs/comments/1cjvzhv/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-21-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -454,7 +636,7 @@ ern-agents/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-20-0910
+all -  [ [HIRING][USD 60K - 96K] AI Engineer Intern, Agents in New York (Flexibility to work remotely for exc ](https://www.reddit.com/r/NYCjobs/comments/1cjvze8/hiringusd_60k_96k_ai_engineer_intern_agents_in/) , 2024-05-21-0910
 ```
 As an AI Engineer Intern, you’ll have the opportunity to build a state of the art experience in building generative mode
 l architectures. We’ll support you in owning a challenging end-to-end generative model focused problem. If you have a st
@@ -485,7 +667,7 @@ nts/**](https://ai-jobs.net/job/198461-ai-engineer-intern-agents/)
 
      
  
-all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-20-0910
+all -  [ [D] Something I always think about, for top conferences like ICML, NeurIPS, CVPR,..etc. How many pap ](https://www.reddit.com/r/MachineLearning/comments/1cin6s8/d_something_i_always_think_about_for_top/) , 2024-05-21-0910
 ```
 I have some papers in top venus myself, but whenever I sit down and be brutually honest with myself. I feel my work is g
 ood but it is just not that impactful, like one more brick in the wall.
@@ -496,7 +678,7 @@ tful as 'Attention is all you need' for example.
 
      
  
-all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-20-0910
+all -  [ [D] Why do juniors (undergraduates or first- to second-year PhD students) have so many papers at maj ](https://www.reddit.com/r/MachineLearning/comments/1cidsz7/d_why_do_juniors_undergraduates_or_first_to/) , 2024-05-21-0910
 ```
 Hello everyone, today the ICML results are out, congratulations to all those who have papers accepted here. I'm not an a
 cademic myself, but sometimes I read papers at these conferences for work, and it's really interesting. I just have a qu
@@ -509,7 +691,7 @@ roughout your 5 years of PhD and almost only achieve in the final years of your 
 
      
  
-all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-20-0910
+all -  [ Combinatorial Optimization in OR? ](https://www.reddit.com/r/OperationsResearch/comments/1cg8ysh/combinatorial_optimization_in_or/) , 2024-05-21-0910
 ```
 Hi,
 
@@ -526,7 +708,7 @@ erience during my master's and bachelor's, combinatorial optimization is always 
 
      
  
-all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-20-0910
+all -  [ Does anyone know a method to solve this problem? (besides installing a new version of comfyui) ](https://www.reddit.com/r/comfyui/comments/1cfsu8x/does_anyone_know_a_method_to_solve_this_problem/) , 2024-05-21-0910
 ```
 https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c3b61ddfd5b5dcbdab63a2645fc7a4cb145b
 
@@ -536,7 +718,7 @@ https://preview.redd.it/zjwgov5pedxc1.png?width=800&format=png&auto=webp&s=f998c
 
      
  
-all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-20-0910
+all -  [ [R] I made an app to predict ICML paper acceptance from reviews ](https://www.reddit.com/r/MachineLearning/comments/1cbwsr2/r_i_made_an_app_to_predict_icml_paper_acceptance/) , 2024-05-21-0910
 ```
 [https://www.norange.io/projects/paper\_scorer/](https://www.norange.io/projects/paper_scorer/)
 
@@ -578,7 +760,7 @@ I also discussed this topic in a series of [tweets](https://x.com/nikitadurasov/
 
      
  
-all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-20-0910
+all -  [ Should I Keep Trying or Master Out? ](https://www.reddit.com/r/PhD/comments/1caz9rx/should_i_keep_trying_or_master_out/) , 2024-05-21-0910
 ```
 I entered the Computer Science PhD program at our school 3 years ago (I'm in USA). I did not have a masters, they had a 
 combined program thingie. I did all of the masters courses so I can master out now, but I have 0 papers. My advisorwhen 
@@ -623,7 +805,7 @@ motivation is money. I've been told PhD matters when it comes to hiring but I do
 
      
  
-all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-20-0910
+all -  [ Submitting to EMNLP after submitting to a workshop? ](https://www.reddit.com/r/LanguageTechnology/comments/1caktsl/submitting_to_emnlp_after_submitting_to_a_workshop/) , 2024-05-21-0910
 ```
 Hi there,
 
@@ -646,7 +828,7 @@ es this apply to my case?
 
      
  
-all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-20-0910
+all -  [ Confusion about gradient and divergence as adjoint operators ](https://www.reddit.com/r/askmath/comments/1c9lpzo/confusion_about_gradient_and_divergence_as/) , 2024-05-21-0910
 ```
 I understand the derivation of -div and grad being adjoint operators, but then shouldn't equality hold between 'integral
  of (norm of gradient)\^2' and '-1 \* integral of laplacian \* function' ? Where did the negative go in the equality?
@@ -661,14 +843,6 @@ I understand the derivation of -div and grad being adjoint operators, but then s
 page 5 in the middl
 e of the page (reddit removed my post when I put a screenshot and I'm not sure how to type the manifold integral in late
 x)
-```
----
-
-     
- 
-all -  [ [D] Is neurips reviewer invitation email out this year? ](https://www.reddit.com/r/MachineLearning/comments/1c7p5ic/d_is_neurips_reviewer_invitation_email_out_this/) , 2024-05-20-0910
-```
-Used to receive invitation by this time of the year. Maybe I am forgotten.
 ```
 ---
 
