@@ -1,5 +1,571 @@
  
-all -  [ How could I just return the final answer from SQL Agent? ](https://www.reddit.com/r/LangChain/comments/1czv6k8/how_could_i_just_return_the_final_answer_from_sql/) , 2024-05-25-0910
+all -  [ Help! 'Recursion limit' when trying to use chain with 'llm.bind_tools' - LangGraph ](https://www.reddit.com/r/LangChain/comments/1d0om4f/help_recursion_limit_when_trying_to_use_chain/) , 2024-05-26-0911
+```
+Hey guys. I'm trying to get comfortable with LangGraph in an attempt to then develop a chatbot based on this framework. 
+ 
+When trying to test the idea of a node in my chatbot, I found myself faced with this error.  
+Could somebody please he
+lp me understand what's wrong with my code and how can I solve this problem?  
+I would be truly thankful!
+
+The code:
+
+  
+  from typing import Annotated, List
+    from langchain_openai import ChatOpenAI
+    from langchain_community.tools.tavi
+ly_search import TavilySearchResults
+    from langchain_core.prompts import ChatPromptTemplate, PromptTemplate
+    from 
+langchain_core.messages import BaseMessage
+    from typing_extensions import TypedDict
+    
+    from langgraph.graph imp
+ort StateGraph, END
+    from langgraph.graph.message import add_messages
+    from langgraph.prebuilt import ToolNode, to
+ols_condition
+    
+    # Define AgentState class with the proper typing
+    class AgentState(TypedDict):
+        message
+s: Annotated[List[BaseMessage], add_messages]
+        query: str
+        games: List[str]
+    
+    # Initialize the tool
+ and LLM
+    tool = TavilySearchResults(max_results=3)
+    tools = [tool]
+    llm = ChatOpenAI(model='gpt-3.5-turbo', te
+mperature=0)
+    llm_with_tools = llm.bind_tools(tools)
+    
+    # Define the function for the game title search
+    def
+ game_title_search(state: AgentState):
+        game_search_prompt = PromptTemplate(
+        template='''You are part of 
+a chatbot that provides personalized video game recommendations based on user preferences. \n
+        Your task is to se
+arch for video games that match the user query, using the Tavily API. \n
+        Only return the titles of the games. \n
+
+        The number of games to return is limited to 5. \n\n
+    
+        The results provided will look as follows (Pyt
+hon list): \n
+        ['game_title_1', 'game_title_2', 'game_title_3', ...]
+    
+        User Query: {query}''',
+       
+ input_variables=['query'],
+    )
+        game_search = game_search_prompt | llm_with_tools
+    
+        game_search_res
+ult = game_search.invoke({'query': state['query']})
+    
+        return {'messages': [game_search_result]} # Also, I nee
+d to extract the game titles from the tool's results and update the state attribute 'games' - how can I do this?
+    
+  
+  # Build the graph
+    graph_builder = StateGraph(AgentState)
+    graph_builder.add_node('game_search', game_title_sear
+ch)
+    
+    tool_node = ToolNode(tools=[tool])
+    graph_builder.add_node('tools', tool_node)
+    
+    graph_builder.ad
+d_conditional_edges(
+        'game_search',
+        tools_condition,
+    )
+    
+    graph_builder.add_edge('tools', 'gam
+e_search')
+    graph_builder.set_entry_point('game_search')
+    graph = graph_builder.compile()
+    
+    # Define the in
+itial state
+    input_state = {
+        'messages': [],
+        'query': '',
+        'games': []
+    }
+    
+    user_inp
+ut = 'What games are similar to The Witcher 3?'
+    input_state['query'] = user_input
+    input_state['messages'] = [('u
+ser', user_input)]
+    
+    output = graph.invoke(input_state, config={'recursion_limit': 50})
+    print(output)
+    
+  
+  
+    
+```
+---
+
+     
+ 
+all -  [ LangChain JS Arbitrary File Read Vulnerability ](https://evren.ninja/langchain-afr-vulnerability.html) , 2024-05-26-0911
+```
+
+```
+---
+
+     
+ 
+all -  [ How do you go about creating a RAG chatbot using Graph and Vector on internal documents? ](https://www.reddit.com/r/LangChain/comments/1d0j0hc/how_do_you_go_about_creating_a_rag_chatbot_using/) , 2024-05-26-0911
+```
+When you are making RAG chatbots using Graph and Vectors how are you storing the internal data? What’s the general appro
+ach?
+
+For example, say you are asked to ingest all your companies files, like word docs PDFs and everything in between. 
+If you use RAG with Graph and Vector embeddedings where are you storing the data from the documents? I’m curious what th
+e general approach is to chunking, tokenizing, and embedding are?
+
+If you had to ingest your companies documents using a
+ RAG, Graph, and vector approach how would you set this up? What would the schema be of the Graph, where would the vecto
+rs be stored?
+
+Thanks
+```
+---
+
+     
+ 
+all -  [ Help me improve my resume! I will soon be entering 4th yr and placement season is also coming so if  ](https://www.reddit.com/gallery/1d0i1ac) , 2024-05-26-0911
+```
+I will be entering my 4th yr soon! Any suggestions in terms of projects, internship or certificates or anything else I w
+ill be grateful!
+1st is AI/ML based resume and 2nd is for dev roles.
+```
+---
+
+     
+ 
+all -  [ I fixed my resume as per the feedback, looking for review  ](https://www.reddit.com/r/resumes/comments/1d0fade/i_fixed_my_resume_as_per_the_feedback_looking_for/) , 2024-05-26-0911
+```
+I have made the fixes mentioned and looking for feedback, so that I dont lose on opportunities unlike last time. I have 
+exhausted so many of the opportunities already. Also if someone can share their resume which worked for them that would 
+be helpful in making fixes. 
+
+https://preview.redd.it/jidd3f5hjl2d1.png?width=5100&format=png&auto=webp&s=5f1f31565ecde0
+8c35d200931f6d5351a0faaecf
+
+https://preview.redd.it/cjdq3d5hjl2d1.png?width=5100&format=png&auto=webp&s=7155c618bc5bacbd
+66646f650fcbb357cd122bdb
+
+ 
+```
+---
+
+     
+ 
+all -  [ [11 YOE]Took advice from this here and fixed my resume, looking for review before making application ](https://www.reddit.com/r/EngineeringResumes/comments/1d0f6lp/11_yoetook_advice_from_this_here_and_fixed_my/) , 2024-05-26-0911
+```
+I have fixed the resume as per the wiki and feedback from the community, can someone review it so that I can make job ap
+plication. Also if someone can share their resume which worked for them or had high success rate that would be helpful. 
+
+
+https://preview.redd.it/3wbgxupbil2d1.png?width=5100&format=png&auto=webp&s=21699d699274f4921fa18748fb6a9abd0905b24c
+
+
+https://preview.redd.it/q3oplv5cil2d1.png?width=5100&format=png&auto=webp&s=d1fc08c81ac59890e11c873a2a8c345ee657a4f6
+
+
+```
+---
+
+     
+ 
+all -  [ How to ignore retrieval step (RAG) when it is not necessary ](https://www.reddit.com/r/LangChain/comments/1d0e7ov/how_to_ignore_retrieval_step_rag_when_it_is_not/) , 2024-05-26-0911
+```
+Hello,
+I am trying to create a chatbot using Langchain where I am using RetrievalQA and OpenAI API. I need to create cha
+ins where if the user asks a question which is unrelated to the context, basically retrieve from a document provided, th
+e chatbot should bypass the retrieval steps and just answer the query directly. And if it asks related questions it shou
+ld apply RAG and retrieve the relevant info to answer the questions.
+I am totally stuck here and don’t know how to move 
+forward. Any help will be appreciated. 
+
+Code:
+
+llm = ChatOpenAI(
+    api_key= api_key,  
+    # openai_api_key= os.envir
+on['OPENAI_API_KEY'],  
+    model_name='gpt-4o' 
+    
+)
+template = '''
+Use the following context provided (delimited by 
+<ctx></ctx>),
+answer the questions properly and the chat history (delimited by <hs></hs>) to answer the questions from t
+he user. 
+If they are asking questions not related to the context, skip performing RAG and just straight up answer their
+ query':
+------
+<ctx>
+{context}
+</ctx>
+------
+<hs>
+{history}
+</hs>
+------
+{question}
+Answer:
+'''
+prompt = PromptTemplate
+(
+    input_variables=['history', 'context', 'question'],
+    template=template,
+)
+
+memory = ConversationBufferMemory(
+ 
+   memory_key='history',
+    input_key='question'
+)
+
+qa = RetrievalQA.from_chain_type(
+    llm=llm,
+    chain_type='stuf
+f',
+    retriever=vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': 20}),
+    verbose=True,
+    cha
+in_type_kwargs={
+        'verbose': True,
+        'prompt': prompt,
+        'memory': memory,
+    }
+)
+```
+---
+
+     
+ 
+all -  [ Gemini 1.5 pro and flash ](https://www.reddit.com/r/googlecloud/comments/1d0dzd4/gemini_15_pro_and_flash/) , 2024-05-26-0911
+```
+Anyone else finding responses are either too verbose or not verbose at all? It seems to miss important points in my retr
+ieved documents sometimes and other times just throws everything in. Formatting of gpt4 versus 1.5 pro also seems a litt
+le better.
+I think flash is comparable (if not a little better than gpt3.5)
+Im using vertex ai through langchain tho not
+ sure if that is where the issue comes from.
+Would appreciate any pointers or ideas of how get better performance out of
+ gemini. 
+```
+---
+
+     
+ 
+all -  [ Artificial Intelligence
+
+Generative AI Agents Developer Contest by NVIDIA and LangChain
+Enter to win ](https://i.redd.it/qlqthudt1l2d1.jpeg) , 2024-05-26-0911
+```
+The push is for LangChain agents, but I think accept other tools.
+```
+---
+
+     
+ 
+all -  [ Which requirements for manager_llm in CrewAI hierarchical process? ](https://www.reddit.com/r/crewai/comments/1d0cby8/which_requirements_for_manager_llm_in_crewai/) , 2024-05-26-0911
+```
+I want to implement a CrewAI agent team using a hierarchical process and I want to use for the manager_llm the groq mode
+l “mixtral-8x7b-32768”.
+
+For that I want to adapt this code:
+
+from langchain_openai import ChatOpenAI
+from crewai import
+ Crew, Process, Agent
+
+# Agents are defined with attributes for backstory, cache, and verbose mode
+researcher = Agent(
+ 
+   role='Researcher',
+    goal='Conduct in-depth analysis',
+    backstory='Experienced data analyst with a knack for unc
+overing hidden trends.',
+    cache=True,
+    verbose=False,
+    # tools=[]  # This can be optionally specified; defaults
+ to an empty list
+)
+writer = Agent(
+    role='Writer',
+    goal='Create engaging content',
+    backstory='Creative write
+r passionate about storytelling in technical domains.',
+    cache=True,
+    verbose=False,
+    # tools=[]  # Optionally 
+specify tools; defaults to an empty list
+)
+
+# Establishing the crew with a hierarchical process and additional configura
+tions
+project_crew = Crew(
+    tasks=[...],  # Tasks to be delegated and executed under the manager's supervision
+    ag
+ents=[researcher, writer],
+    manager_llm=ChatOpenAI(temperature=0, model='gpt-4'),  # Mandatory for hierarchical proce
+ss
+    process=Process.hierarchical,  # Specifies the hierarchical management approach
+    memory=True,  # Enable memory
+ usage for enhanced task execution
+)
+
+
+To this code:
+
+from langchain_openai import ChatOpenAI
+from crewai import Crew, P
+rocess, Agent
+
+# Agents are defined with attributes for backstory, cache, and verbose mode
+researcher = Agent(
+    role=
+'Researcher',
+    goal='Conduct in-depth analysis',
+    backstory='Experienced data analyst with a knack for uncovering 
+hidden trends.',
+    cache=True,
+    verbose=False,
+    # tools=[]  # This can be optionally specified; defaults to an e
+mpty list
+)
+writer = Agent(
+    role='Writer',
+    goal='Create engaging content',
+    backstory='Creative writer passio
+nate about storytelling in technical domains.',
+    cache=True,
+    verbose=False,
+    # tools=[]  # Optionally specify 
+tools; defaults to an empty list
+)
+
+# Establishing the crew with a hierarchical process and additional configurations
+pr
+oject_crew = Crew(
+    tasks=[...],  # Tasks to be delegated and executed under the manager's supervision
+    agents=[re
+searcher, writer],
+
+   manager_llm=ChatGroq(temperature=0, model='mixtral-8x7b-32768'),  # Mandatory for hierarchical pr
+ocess
+
+    process=Process.hierarchical,  # Specifies the hierarchical management approach
+    memory=True,  # Enable me
+mory usage for enhanced task execution
+)
+
+
+Will this work with model “mixtral-8x7b-32768”? And with model “LLaMA3 70b”?
+
+
+(Or with other groq models? See https://console.groq.com/docs/models)
+
+
+Nothing is mentioned about the requirements for
+ the manager_llm in the docs:
+
+https://crewai.com/how-to/Hierarchical/
+
+
+
+
+```
+---
+
+     
+ 
+all -  [ Is there anyway to prevent AgentExecutor.astream_events() streaming intermediate steps? ](https://www.reddit.com/r/LangChain/comments/1d0b3zs/is_there_anyway_to_prevent_agentexecutorastream/) , 2024-05-26-0911
+```
+Hello everyone, need some pointer here.  Is there a way to exclude intermediate steps when streaming the events with Age
+ntExecutor? I only want the agent to stream the final output without streaming the intermediate steps (Observations).
+
+S
+o I'm using create\_tool\_calling\_agent() to create an agent and passing multiple tools. And one of the tool itself act
+ually is using langchain csv agent. When the agent using this particular tool, it start to stream the intermediate obser
+vation steps in my chat application, which is weird for my user point of view. I want to exclude all the intermediate st
+eps from this tool.
+
+When I was using  langchain==0.1.16, it behave exactly what I wanted, which it won't stream any out
+put or intermediate steps from the tool that using langchain csv agent. After I upgrade it to  0.2.1, it started to stre
+am intermediate steps.
+
+Here's some example code I have:
+
+    async def chat_stream(...) -> str:
+        prompt = ChatPr
+omptTemplate.from_messages(...)
+        tools = [query_data_from_csv]
+        llm = ChatOpenAI(...)
+    
+        agent =
+ create_tool_calling_agent(llm, tools, prompt)
+        
+        agent_executor = AgentExecutor(agent=agent, tools=tools,
+ handle_parsing_errors=True)
+    
+        
+        return agent_executor.astream_events(..., version='v2')
+    
+    @ to
+ol
+    def query_data_from_csv(question: str, csv_url: str) -> str:
+        '''Tool to query and interact with data in C
+SV format.'''
+    
+        ai_agent = create_csv_agent(
+            ChatOpenAI(temperature=0, model='gpt-4-turbo'),
+    
+        csv_url,
+            agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+            return_intermediate_steps=Fal
+se
+        )
+    
+        return ai_agent.invoke(question)
+
+Your help is greatly appreciated. Thank you.
+```
+---
+
+     
+ 
+all -  [ Here's how Notion helps me rock every area of my life ](https://www.reddit.com/r/Notion/comments/1d04zmb/heres_how_notion_helps_me_rock_every_area_of_my/) , 2024-05-26-0911
+```
+My first post here and I would like to share my small achievement with you all.  
+A short backstory, I used to forget ab
+out most of the things, no ambition and a lot of mindless scrolling. I had this habit of living in denial. One day, Afte
+r hitting my lowest, I decided I want to change the way I live
+
+It started with a simple idea, I am gonna stay active on
+ reddit and twitter, up-skill and build a personal brand, then it became completely overwhelming, and I was this close t
+o quit.
+
+I am an organisational freak and I was familiar with importance of building a second brain and I decided to mak
+e one for myself. This right here, was a game-changer for me, boosting my productivity and desire to grow.
+
+I made 3 dat
+abases
+
+Days, Journal, Task and Projects database
+
+Any thought that comes to my mind, I make sure to put it on the Task 
+Database. I have configured a button, clicking on it inserts and opens a blank page in task database. This has made me a
+ pretty long list of all tasks / thoughts that comes up in my mind. This solves one problem, of me not have to remember 
+stuff.
+
+Add Journal, helps me to journal effectively from the same page, I have the whole day at glance.
+
+Then, when I s
+tart to plan my next day, I add a record to days database. For this, I have made a template, which shows me a holistic o
+verview of my tasks (now, next and later) along with due date. Thanks to Solt Wagner for this GTD template which helped 
+me in setting up this template  
+
+
+[My Peek at Today's Day page](https://preview.redd.it/x40hcac4ei2d1.png?width=890&for
+mat=png&auto=webp&s=7f5b837cbd34c1a937038d4188aa195b58275dab)
+
+Then when I have set some time over a weekend, where I go
+ through my task database I update properties and relevancy. All this is again configured by a button, so I only have to
+ click on it and it updates the properties. (Again Thank You Solt)
+
+For each day, I now do not have to see all the pendi
+ng tasks, rather I just see the tasks that I have decided to do today.  
+
+
+I also have a reosurces and notes database, w
+here I store every important link I find on the web using web extension. For any course/study/blog I go through, I make 
+sure to write it in my notes database.
+
+&#x200B;
+
+This has honestly contributed a lot to my life and brought peace to my
+ mind. I am sharing this so that if others who are there on the same boat as me can take insights and have a space for t
+hem.
+
+Thank you for reading.  
+If you liked it, please upvote :)
+```
+---
+
+     
+ 
+all -  [ Has langchain been updated with Gpt4o?  ](https://www.reddit.com/r/LangChain/comments/1d03y7b/has_langchain_been_updated_with_gpt4o/) , 2024-05-26-0911
+```
+I wanted to know if the chain method and ChatOpenAI from langchain\_openai supports gpt4o image inputs and if there are 
+any guides out there showing us how to use it? 
+```
+---
+
+     
+ 
+all -  [ Connect LLM to SQL database with LangChain SQLChain ](https://i.redd.it/g4rv5w1ach2d1.png) , 2024-05-26-0911
+```
+My new article about 'Connect LLM to SQL database with LangChain SQLChain'
+
+Link [ https://sahraouis-organization.gitboo
+k.io/connect-llm-to-sql-database-with-langchain/ ]
+
+Of course it is not fine-tuned yet to be an expert but he's good eno
+ugh
+```
+---
+
+     
+ 
+all -  [ My debut technical book on Generative AI makes it to O'Reilly & Packt ](https://www.reddit.com/r/developersIndia/comments/1d015lc/my_debut_technical_book_on_generative_ai_makes_it/) , 2024-05-26-0911
+```
+I'm elated to share that my debut technical book, 'LangChain in your Pocket: Beginner's Guide to Building Generative AI 
+Applications using LLMs,' has been re-published by Packt Publications and is now available on the official website of Pa
+ckt, Barnes & Noble, and the most coveted, O'Reilly. A big thanks to the community for helping me make it a successful d
+ebut.
+
+https://preview.redd.it/6swlem85ah2d1.png?width=1080&format=png&auto=webp&s=9d55a21e7c9cd038536b5a56f31c1beabd804
+313
+
+https://preview.redd.it/ehmrmp85ah2d1.png?width=1080&format=png&auto=webp&s=58230b18ce4264c3c1eff32b14751ac06258e15
+5
+
+
+```
+---
+
+     
+ 
+all -  [ My LangChain book now available on Packt and O'Reilly ](https://www.reddit.com/r/LangChain/comments/1d00vla/my_langchain_book_now_available_on_packt_and/) , 2024-05-26-0911
+```
+I'm glad to share that my debut book, '**LangChain in your Pocket: Beginner's Guide to Building Generative AI Applicatio
+ns using LLMs,**' has been republished by Packt and is now available on their official website and partner publications 
+like O'Reilly, Barnes & Noble, etc. A big thanks for the support! The first version is still available on Amazon
+
+https:
+//preview.redd.it/5b0trmcl7h2d1.png?width=1080&format=png&auto=webp&s=6f12126f846d5fc174768628ebc42c9921017687
+
+https://
+preview.redd.it/4xdgzk9l7h2d1.png?width=1080&format=png&auto=webp&s=bfe4aac06ce89bff475a415b8c0091f830ba10e3
+```
+---
+
+     
+ 
+all -  [ How could I just return the final answer from SQL Agent? ](https://www.reddit.com/r/LangChain/comments/1czv6k8/how_could_i_just_return_the_final_answer_from_sql/) , 2024-05-26-0911
 ```
 Im planning to do an endpoint that given a user question it makes the underlying work to get the query and i would like 
 to only receive the final answer as im going to show it on a Streamlit chat app. Any idea on how to extract only that?
@@ -8,7 +574,7 @@ to only receive the final answer as im going to show it on a Streamlit chat app.
 
      
  
-all -  [ Gemini api embedding error with langchain please help ](https://www.reddit.com/r/developersIndia/comments/1czsbmf/gemini_api_embedding_error_with_langchain_please/) , 2024-05-25-0910
+all -  [ Gemini api embedding error with langchain please help ](https://www.reddit.com/r/developersIndia/comments/1czsbmf/gemini_api_embedding_error_with_langchain_please/) , 2024-05-26-0911
 ```
 Does anyone know how to solve error from Gemini api with langchain for embedding. I'm using it to get context from an Ex
 cel sheet but I'm facing this error: Deadline Exceeded or this one ValueError: Expected each embedding in the embeddings
@@ -18,15 +584,7 @@ cel sheet but I'm facing this error: Deadline Exceeded or this one ValueError: E
 
      
  
-all -  [ Guide to build RAG ecosystem on Node Server ](https://denuwanhimangahettiarachchi.medium.com/build-gen-ai-llm-rag-api-ecosystem-on-a-node-server-99d4a04e50fa) , 2024-05-25-0910
-```
-
-```
----
-
-     
- 
-all -  [ Fresher. Need advice on which role to take in my company ](https://www.reddit.com/r/developersIndia/comments/1czroy7/fresher_need_advice_on_which_role_to_take_in_my/) , 2024-05-25-0910
+all -  [ Fresher. Need advice on which role to take in my company ](https://www.reddit.com/r/developersIndia/comments/1czroy7/fresher_need_advice_on_which_role_to_take_in_my/) , 2024-05-26-0911
 ```
 I'm currently an intern at my company. It's a finance company. I work for the tech dept. 
 
@@ -48,7 +606,7 @@ ing or should I just take a different role or try outside?
 
      
  
-all -  [ Attempt to be Forward-looking on a New Project ](https://www.reddit.com/r/LangChain/comments/1czronv/attempt_to_be_forwardlooking_on_a_new_project/) , 2024-05-25-0910
+all -  [ Attempt to be Forward-looking on a New Project ](https://www.reddit.com/r/LangChain/comments/1czronv/attempt_to_be_forwardlooking_on_a_new_project/) , 2024-05-26-0911
 ```
 I'm new to LLMs, but I'm planning to build an application that answers technical questions about my API using a RAG syst
 em based on my tech docs (e.g., 'how can I configure the API request to wait for the response and to retry if the reques
@@ -77,7 +635,7 @@ ny guidance and/or pitfalls to avoid :-)
 
      
  
-all -  [ What evaluation tools/methods do you use? ](https://www.reddit.com/r/LangChain/comments/1czpsmq/what_evaluation_toolsmethods_do_you_use/) , 2024-05-25-0910
+all -  [ What evaluation tools/methods do you use? ](https://www.reddit.com/r/LangChain/comments/1czpsmq/what_evaluation_toolsmethods_do_you_use/) , 2024-05-26-0911
 ```
 Looking to understand what evaluation tools/methods people like and use the most?
 
@@ -88,7 +646,7 @@ ll/1czpsmq)
 
      
  
-all -  [ What should I use to run LLM locally? ](https://www.reddit.com/r/LocalLLaMA/comments/1czny3r/what_should_i_use_to_run_llm_locally/) , 2024-05-25-0910
+all -  [ What should I use to run LLM locally? ](https://www.reddit.com/r/LocalLLaMA/comments/1czny3r/what_should_i_use_to_run_llm_locally/) , 2024-05-26-0911
 ```
 I want to run this artificial intelligence model locally:
 
@@ -111,7 +669,7 @@ ture I will use should be suitable for preparing APIs in google cloud. so no oll
 
      
  
-all -  [ Infosys Certified Applied Generative AI Professional Answers List ](https://www.reddit.com/r/infosysuntold/comments/1cznjs0/infosys_certified_applied_generative_ai/) , 2024-05-25-0910
+all -  [ Infosys Certified Applied Generative AI Professional Answers List ](https://www.reddit.com/r/infosysuntold/comments/1cznjs0/infosys_certified_applied_generative_ai/) , 2024-05-26-0911
 ```
 Last week, I successfully completed the Infosys Certified Generative AI Professional - Intermediate exam, and I'm thrill
 ed to share my experience and some insights with all of you!
@@ -240,7 +798,7 @@ sapp.com/channel/0029VaFbeOvC6Zvd2rsGkb10
 
      
  
-all -  [ Infosys Certified Generative AI Professional - Intermediate Answers List ](https://www.reddit.com/r/infosysuntold/comments/1czncwv/infosys_certified_generative_ai_professional/) , 2024-05-25-0910
+all -  [ Infosys Certified Generative AI Professional - Intermediate Answers List ](https://www.reddit.com/r/infosysuntold/comments/1czncwv/infosys_certified_generative_ai_professional/) , 2024-05-26-0911
 ```
 Last week, I successfully completed the Infosys Certified Generative AI Professional - Intermediate exam, and I'm thrill
 ed to share my experience and some insights with all of you!
@@ -320,7 +878,7 @@ dates [https://whatsapp.com/channel/0029VaFbeOvC6Zvd2rsGkb10](https://whatsapp.c
 
      
  
-all -  [ I'm sure we can implement Function Calling ](https://www.reddit.com/r/Oobabooga/comments/1czmsf3/im_sure_we_can_implement_function_calling/) , 2024-05-25-0910
+all -  [ I'm sure we can implement Function Calling ](https://www.reddit.com/r/Oobabooga/comments/1czmsf3/im_sure_we_can_implement_function_calling/) , 2024-05-26-0911
 ```
 Hi,
 
@@ -353,7 +911,7 @@ he approach correct ? Did someone already tried this ?
 
      
  
-all -  [ # Supabase Auth with SSR: AI Integration and Chat Enhancements 🚀 ](https://www.reddit.com/r/nextjs/comments/1czi13m/supabase_auth_with_ssr_ai_integration_and_chat/) , 2024-05-25-0910
+all -  [ # Supabase Auth with SSR: AI Integration and Chat Enhancements 🚀 ](https://www.reddit.com/r/nextjs/comments/1czi13m/supabase_auth_with_ssr_ai_integration_and_chat/) , 2024-05-26-0911
 ```
 I've updated my project that combines Supabase's SSR authentication with Next.js 14 and Material-UI. This release focuse
 s on AI integration, chat improvements, and user experience enhancements. The project is designed with simplicity in min
@@ -431,7 +989,7 @@ n unchanged, improving overall performance.
 
      
  
-all -  [ AI Agent for monitoring Snowflake Costs! ](https://www.reddit.com/r/LangChain/comments/1czfe4s/ai_agent_for_monitoring_snowflake_costs/) , 2024-05-25-0910
+all -  [ AI Agent for monitoring Snowflake Costs! ](https://www.reddit.com/r/LangChain/comments/1czfe4s/ai_agent_for_monitoring_snowflake_costs/) , 2024-05-26-0911
 ```
 Hey folks! My team recently worked on building this bot to help orgs monitor and even forecast costs on the Snowflake Da
 ta Warehouse. We used LangChain, Streamlit, Snowflake Arctic + Cortex and GPT 4 Turbo for this. 
@@ -447,7 +1005,7 @@ Would love to get inputs on this!
 
      
  
-all -  [ # Supabase Auth with SSR: AI Integration and Chat Enhancements 🚀 ](https://www.reddit.com/r/Supabase/comments/1czeylu/supabase_auth_with_ssr_ai_integration_and_chat/) , 2024-05-25-0910
+all -  [ # Supabase Auth with SSR: AI Integration and Chat Enhancements 🚀 ](https://www.reddit.com/r/Supabase/comments/1czeylu/supabase_auth_with_ssr_ai_integration_and_chat/) , 2024-05-26-0911
 ```
 I've updated my project that combines Supabase's SSR authentication with Next.js 14 and Material-UI. This release focuse
 s on AI integration, chat improvements, and user experience enhancements. The project is designed with simplicity in min
@@ -519,7 +1077,7 @@ ary re-renders of the component when its props remain unchanged, improving overa
 
      
  
-all -  [ Internet search for ai agent only returning a short snippet  ](https://www.reddit.com/r/AI_Agents/comments/1czdxnh/internet_search_for_ai_agent_only_returning_a/) , 2024-05-25-0910
+all -  [ Internet search for ai agent only returning a short snippet  ](https://www.reddit.com/r/AI_Agents/comments/1czdxnh/internet_search_for_ai_agent_only_returning_a/) , 2024-05-26-0911
 ```
 Hey I gave the ai agent which I made on crewai the ability to search internet using serper api but it is only giving a s
 hort snippet while I want the full content from the websites , I think I might need a web scrapper like firecrawl but ho
@@ -531,7 +1089,7 @@ ools for beginners that helped you in making tools
 
      
  
-all -  [ LangGraph Essentials: Create Your First Graph with Ease! ](https://www.reddit.com/r/LangChain/comments/1czdcpz/langgraph_essentials_create_your_first_graph_with/) , 2024-05-25-0910
+all -  [ LangGraph Essentials: Create Your First Graph with Ease! ](https://www.reddit.com/r/LangChain/comments/1czdcpz/langgraph_essentials_create_your_first_graph_with/) , 2024-05-26-0911
 ```
 [https://youtu.be/gflsu\_6R\_8g](https://youtu.be/gflsu_6R_8g)
 ```
@@ -539,7 +1097,7 @@ all -  [ LangGraph Essentials: Create Your First Graph with Ease! ](https://www.
 
      
  
-all -  [ How I got the DDGS, Exa, Serper, SerAPI searches working. ](https://www.reddit.com/r/crewai/comments/1czb1qz/how_i_got_the_ddgs_exa_serper_serapi_searches/) , 2024-05-25-0910
+all -  [ How I got the DDGS, Exa, Serper, SerAPI searches working. ](https://www.reddit.com/r/crewai/comments/1czb1qz/how_i_got_the_ddgs_exa_serper_serapi_searches/) , 2024-05-26-0911
 ```
 No one has been able to explain why the search tools DDGS, Exa, and SerpAPI never worked, and Serper rarely worked. Whil
 e suggestions to change my LLM and bump my tokens were good, that only made things worse. I looked into it more, and thi
@@ -686,7 +1244,7 @@ ll.search,
 
      
  
-all -  [ Vector Embedding and RAG Platforms ](https://www.reddit.com/r/LangChain/comments/1cz9zga/vector_embedding_and_rag_platforms/) , 2024-05-25-0910
+all -  [ Vector Embedding and RAG Platforms ](https://www.reddit.com/r/LangChain/comments/1cz9zga/vector_embedding_and_rag_platforms/) , 2024-05-26-0911
 ```
 Hey all, looking to learn :)
 
@@ -699,7 +1257,7 @@ technologies that will have to be updated as the methods progress. Thanks!
 
      
  
-all -  [ Caching in LLM Apps ](https://www.reddit.com/r/LangChain/comments/1cz3ls8/caching_in_llm_apps/) , 2024-05-25-0910
+all -  [ Caching in LLM Apps ](https://www.reddit.com/r/LangChain/comments/1cz3ls8/caching_in_llm_apps/) , 2024-05-26-0911
 ```
 Which is your favourite caching technique in LLM Applications. 
 Is it in memory or something else.
@@ -710,7 +1268,7 @@ tion you like the most and why for a scalable and reliable application.
 
      
  
-all -  [ ReAct Agent with 0.3 instruct ](https://www.reddit.com/r/MistralAI/comments/1cz2gbb/react_agent_with_03_instruct/) , 2024-05-25-0910
+all -  [ ReAct Agent with 0.3 instruct ](https://www.reddit.com/r/MistralAI/comments/1cz2gbb/react_agent_with_03_instruct/) , 2024-05-26-0911
 ```
 Hi upgraded my Langchain ReAct agent with the new 0.3 model that dropped yesterday and wow!
 
@@ -729,7 +1287,7 @@ Also, if you have a good prompt to ensure that the agent visits a website is the
 
      
  
-all -  [ Is there a better way to get this json into my vectordb? (ollama, chromadb, gp4allembeddings) ](https://www.reddit.com/r/LocalLLaMA/comments/1cz1e2f/is_there_a_better_way_to_get_this_json_into_my/) , 2024-05-25-0910
+all -  [ Is there a better way to get this json into my vectordb? (ollama, chromadb, gp4allembeddings) ](https://www.reddit.com/r/LocalLLaMA/comments/1cz1e2f/is_there_a_better_way_to_get_this_json_into_my/) , 2024-05-26-0911
 ```
 I've been working on a simple chatbot, it responds to inquiries in intercom and in telegram. It makes a database of info
 rmation to pull from based on current support articles in Intercom. It worked pretty well with 150 articles, but as I've
@@ -1108,7 +1666,7 @@ rectly, i thought it would be straightforward in json format but the bad outputs
 
      
  
-all -  [ why two different kinds of messages? ](https://www.reddit.com/r/LangChain/comments/1cyz7kw/why_two_different_kinds_of_messages/) , 2024-05-25-0910
+all -  [ why two different kinds of messages? ](https://www.reddit.com/r/LangChain/comments/1cyz7kw/why_two_different_kinds_of_messages/) , 2024-05-26-0911
 ```
 langchain\_core.messages.human.HumanMessage
 
@@ -1121,7 +1679,7 @@ r when using langchain and found out two kinds of messages. Why?
 
      
  
-all -  [ [11 YOE] Unable To Get Any Tech Interviews With This Resume, What Am I Doing Wrong? ](https://www.reddit.com/r/resumes/comments/1cyyw3b/11_yoe_unable_to_get_any_tech_interviews_with/) , 2024-05-25-0910
+all -  [ [11 YOE] Unable To Get Any Tech Interviews With This Resume, What Am I Doing Wrong? ](https://www.reddit.com/r/resumes/comments/1cyyw3b/11_yoe_unable_to_get_any_tech_interviews_with/) , 2024-05-26-0911
 ```
 https://preview.redd.it/gt05zrf5r72d1.png?width=5100&format=png&auto=webp&s=0745fdbb4f38cd6b4aa6c0104bb949b857496d8a
 
@@ -1141,7 +1699,7 @@ ing a lot of tech jargon, could it be that? Please suggest me fixes. What am I d
 
      
  
-all -  [ [11 YOE] I have Tech and Tech management experience in startups, but cant get an interview. ](https://www.reddit.com/r/EngineeringResumes/comments/1cyyiyu/11_yoe_i_have_tech_and_tech_management_experience/) , 2024-05-25-0910
+all -  [ [11 YOE] I have Tech and Tech management experience in startups, but cant get an interview. ](https://www.reddit.com/r/EngineeringResumes/comments/1cyyiyu/11_yoe_i_have_tech_and_tech_management_experience/) , 2024-05-26-0911
 ```
 I have been looking for AI/ML, Backend Full stack, SWE and Product roles but cant seem to get interview calls, what am I
  doing wrong? I have been suggested to include the exact tech work I did to avoid looking inexperienced, and hence ended
@@ -1162,806 +1720,7 @@ uto=webp&s=69e881cfc736d8856a65fe6160c5ee6f23821ba7
 
      
  
-all -  [ ParentDocumentRetriever.add_document function with 'ids' parameter - can't fix an error ](https://www.reddit.com/r/LangChain/comments/1cytwsx/parentdocumentretrieveradd_document_function_with/) , 2024-05-25-0910
-```
-    from langchain.embeddings import OpenAIEmbeddings
-    from langchain.retrievers import ParentDocumentRetriever
-    f
-rom langchain.schema import Document
-    from langchain.storage import InMemoryStore
-    from langchain.text_splitter im
-port RecursiveCharacterTextSplitter
-    from langchain.vectorstores.chroma import Chroma
-    
-    vectorstore = Chroma(
-
-        collection_name='full_documents',
-        embedding_function=OpenAIEmbeddings()
-    )
-    store = InMemoryStore(
-)
-    
-    docs = [Document(page_content=txt, metadata={'id': id}) for txt, id in [('aaaaaa', 1), ('bbbbbb', 2)]]
-    Pa
-rentDocumentRetriever(
-        vectorstore=vectorstore,
-        docstore=store,
-        id_key='id',
-        parent_spli
-tter=RecursiveCharacterTextSplitter(
-            chunk_size = 2,
-            chunk_overlap  = 0,
-            length_func
-tion = len,
-            add_start_index = True,
-        ),
-        child_splitter=RecursiveCharacterTextSplitter(
-      
-      chunk_size = 1,
-            chunk_overlap  = 0,
-            length_function = len,
-            add_start_index = T
-rue,
-        ),
-    ).add_documents(docs,ids=[doc.metadata['id'] for doc in docs])from langchain.embeddings import OpenA
-IEmbeddings
-    from langchain.retrievers import ParentDocumentRetriever
-    from langchain.schema import Document
-    f
-rom langchain.storage import InMemoryStore
-    from langchain.text_splitter import RecursiveCharacterTextSplitter
-    fr
-om langchain.vectorstores.chroma import Chroma
-    
-    vectorstore = Chroma(
-        collection_name='full_documents',
-
-        embedding_function=OpenAIEmbeddings()
-    )
-    store = InMemoryStore()
-    
-    docs = [Document(page_content=t
-xt, metadata={'id': id}) for txt, id in [('aaaaaa', 1), ('bbbbbb', 2)]]
-    ParentDocumentRetriever(
-        vectorstore
-=vectorstore,
-        docstore=store,
-        id_key='id',
-        parent_splitter=RecursiveCharacterTextSplitter(
-     
-       chunk_size = 2,
-            chunk_overlap  = 0,
-            length_function = len,
-            add_start_index = 
-True,
-        ),
-        child_splitter=RecursiveCharacterTextSplitter(
-            chunk_size = 1,
-            chunk_ov
-erlap  = 0,
-            length_function = len,
-            add_start_index = True,
-        ),
-    ).add_documents(docs,i
-ds=[doc.metadata['id'] for doc in docs])
-
-The error :
-
-    ValueError: Got uneven list of documents and ids. If `ids` is
- provided, should be same length as `documents`.
-
-     
-
-  
-The size of documents list and ids list are nevertheless equ
-al, i don't understand this error  
-  
-
-```
----
-
-     
- 
-all -  [ How can I properly use tools within a chain in LangGraph? ](https://www.reddit.com/r/LangChain/comments/1cyt7uf/how_can_i_properly_use_tools_within_a_chain_in/) , 2024-05-25-0910
-```
-Hey guys! I'm trying to develop a chatbot that offers video games recommendations based on user input.  
-Problem is, I'm
- stuck at the chain which objective is to use Tavily API tool to search for video games' titles that fit the user's crit
-eria.
-
-Here's what I've tried:
-
-    # Game Title Search
-    prompt = PromptTemplate(
-        template='''You are part of
- a chatbot that provides personalized video game recommendations based on user preferences. \n
-        Your task is to s
-earch for the top 5 video games that match the user query. \n
-        Only return the titles of the games. \n\n
-    
-   
-     User Query: {query}''',
-        input_variables=['query'],
-    )
-    
-    game_title_search = prompt | llm.bind_too
-ls(tools)
-    
-    QUERY = '''What games are similar to Skyrim?'''
-    
-    result = game_title_search.invoke({'query': 
-QUERY})
-    print(result)
-
-Problem is, when I print result it gives me this instead of the response that I'm expecting (
-which are the video games' titles:
-
-`content='' additional_kwargs={'tool_calls': [{'id': 'call_xJGybVhCtBAYGHyNkEE04U1c'
-, 'function': {'arguments': '{'query':'games similar to Skyrim'}', 'name': 'tavily_search_results_json'}, 'type': 'funct
-ion'}]} response_metadata={'token_usage': {'completion_tokens': 21, 'prompt_tokens': 141, 'total_tokens': 162}, 'model_n
-ame': 'gpt-3.5-turbo-1106', 'system_fingerprint': None, 'finish_reason': 'tool_calls', 'logprobs': None} id='run-c7c3309
-4-2173-43d8-9e9a-319c80265f57-0' tool_calls=[{'name': 'tavily_search_results_json', 'args': {'query': 'games similar to 
-Skyrim'}, 'id': 'call_xJGybVhCtBAYGHyNkEE04U1c'}]`
-
-How can I solve this and use the tools alongside the ChatModel and t
-he PromptTemplate to achieve what I want?
-```
----
-
-     
- 
-all -  [ Does unifying the infrastructure code and the application code in a single interface contribute to t ](https://www.reddit.com/r/devops/comments/1cyru9j/does_unifying_the_infrastructure_code_and_the/) , 2024-05-25-0910
-```
-Hey everyone! I'm currently developing a tool called [Pluto](https://github.com/pluto-lang/pluto), which offers a unifie
-d programming interface that enables developers to seamlessly integrate infrastructure code with application code. I bel
-ieve this approach could revolutionize the way we develop cloud-native applications, making the process more efficient a
-nd streamlined. I'm curious to hear your thoughts on this matter. Do you think this is a step in the right direction for
- cloud-native app development? Your input would be greatly appreciated!
-
-For a real-world example of how Pluto can be ut
-ilized, I recommend checking out this article: [How to Bridge the Last Mile in LangChain Application Development](https:
-//pluto-lang.vercel.app/blogs/240515-develop-ai-app-in-new-paradigm). It demonstrates how Pluto can be used to simplify 
-the development process of a LangChain app.
-
-Thanks in advance for your feedback!
-```
----
-
-     
- 
-all -  [ Does unifying the infrastructure code and the application code in a single interface contribute to t ](https://www.reddit.com/r/u_Zheng_SJ/comments/1cyrrfh/does_unifying_the_infrastructure_code_and_the/) , 2024-05-25-0910
-```
-Hey everyone! I'm currently developing a tool called [Pluto](https://github.com/pluto-lang/pluto), which offers a unifie
-d programming interface that enables developers to seamlessly integrate infrastructure code with application code. I bel
-ieve this approach could revolutionize the way we develop cloud-native applications, making the process more efficient a
-nd streamlined. I'm curious to hear your thoughts on this matter. Do you think this is a step in the right direction for
- cloud-native app development? Your input would be greatly appreciated!
-
-For a real-world example of how Pluto can be ut
-ilized, I recommend checking out this article: [How to Bridge the Last Mile in LangChain Application Development](https:
-//blog.stackademic.com/how-to-bridge-the-last-mile-in-langchain-application-development-e4734ca07169). It demonstrates h
-ow Pluto can be used to simplify the development process of a LangChain app.
-
-Thanks in advance for your feedback!
-```
----
-
-     
- 
-all -  [ Parsing solutions for PDF ](https://www.reddit.com/r/LangChain/comments/1cyplp8/parsing_solutions_for_pdf/) , 2024-05-25-0910
-```
-Been struggling with parsing pdf with complex layout, table, imagines.
-
-The option that I am testing is multi modal vect
-or, based on unstructured library for pdf extraction. 
-
-I recently discovered llamaparse proprietary solution. Excluding
- the facts that isn't open source and limited for commercial use. Would it perform better then the unstructured approach
- for parsing?
-
-
-```
----
-
-     
- 
-all -  [ What are some ways to enforce structured outputs from LLMs not in your control beyond basic promptin ](https://www.reddit.com/r/LangChain/comments/1cyp7ij/what_are_some_ways_to_enforce_structured_outputs/) , 2024-05-25-0910
-```
-Hi!
-
-I'm currently facing this issue of trying to get an XML out of a model and I use that XML structure to extract and 
-format a document that I generate but, no matter how I prompt the model, or even, using different calls generate the ans
-wer and to structure it into the required format, sometimes going through different stages of structuring (like first ju
-st bullet points, then try to only put stuff into a basic XML format before going into nested.), it still sometimes gene
-rate an answer that's not structured.
-
-I included retries on those calls hoping that the model in its second generation 
-would structure the output correctly but often this doesn't work.
-
-I was wondering how the community handles this issue 
-or if there are creative ways you stumbled upon that deal well with it.
-
-I have seen in the past some libraries that for
-ce the generation in some kind of way like the grammars from llama-cpp, or outlines. Maybe there was guidance as well. B
-ut I don't think they work with LLMs from providers. I'm facing this problem with mistral-large.
-
-
-```
----
-
-     
- 
-all -  [ Need help and knowledge in deployment ](https://www.reddit.com/r/AWS_cloud/comments/1cyp7c6/need_help_and_knowledge_in_deployment/) , 2024-05-25-0910
-```
-Hi all,
-
-New user of aws here.
-
-I have a python script of an LLM model using bedrock, langchain libraries and streamlit 
-for frontend along with the requirements.txt file. I have saved it jnto a repository in CodeCommit and I am aware of two
- different ways to deploy it.
-
-1). The CI/CD pipeline format using the respective services CodeCommit, CodeBuild, CodeDe
-ploy, CodePipeline etc. but the problem is it is more suitable for a node.js or proper website project with multiple fil
-es instead of a single python script. I found the portion of creating an appspec.yml or buildspec.yml file very complex 
-for a single python script and I was not able to find any tutorial on how to do it as well.
-
-2). The 2nd method is to wr
-ite some commands on the terminal of an amazon linux machine on the EC2 server instance, I have successfully deployed a 
-model using these method on the provided public IP but the problem is if I commit changes in the repository, it does not
- reflect in the EC2 instance even after rebooting the instance. the only way to make the changes reflect is to terminate
- the instance and create a new one, which is very time-consuming.
-
-I would like to know if anyone can guide me in using 
-the first method for a single python script or can help in having the changes reflect in the ec2 server as that is what 
-will make ec2 method of deployment a CI/CD method.
-```
----
-
-     
- 
-all -  [ Need help in deployment on AWS ](https://www.reddit.com/r/aws/comments/1cyp6ce/need_help_in_deployment_on_aws/) , 2024-05-25-0910
-```
-Hi all,
-
-New user of aws here.
-
-I have a python script of an LLM model using bedrock, langchain libraries and streamlit 
-for frontend along with the requirements.txt file. I have saved it jnto a repository in CodeCommit and I am aware of two
- different ways to deploy it.
-
-1). The CI/CD pipeline format using the respective services CodeCommit, CodeBuild, CodeDe
-ploy, CodePipeline etc.  but the problem is it is more suitable for a node.js or proper website project with multiple fi
-les instead of a single python script. I found the portion of creating an appspec.yml or buildspec.yml file very complex
- for a single python script and I was not able to find any tutorial on how to do it as well.
-
-2).  The 2nd method is to 
-write some commands on the terminal of an amazon linux machine on the EC2 server instance, I have successfully deployed 
-a model using these method on the provided public IP but the problem is if I commit changes in the repository, it does n
-ot reflect in the EC2 instance even after rebooting the instance. the only way to make the changes reflect is to termina
-te the instance  and create a new one, which is very time-consuming.
-
-I would like to know if anyone can guide me in usi
-ng the first method for a single python script or can help in having the  changes reflect in the ec2 server as that is w
-hat will make ec2 method of deployment a CI/CD method.
-```
----
-
-     
- 
-all -  [ How can I get the csv_agent to return the complete results from its Observation? ](https://www.reddit.com/r/LangChain/comments/1cyoeho/how_can_i_get_the_csv_agent_to_return_the/) , 2024-05-25-0910
-```
-I'm using create\_csv\_agent to get a csv parsing agent to analyze and return a list of items that meets the criteria. T
-he agent handles the questions fine and I can see the correct results printed out in its Observations. However it doesn'
-t include the list of items in the final output. How can I get around this?
-```
----
-
-     
- 
-all -  [ I'm new to this and I need help for my RAG ](https://www.reddit.com/r/LangChain/comments/1cynhl3/im_new_to_this_and_i_need_help_for_my_rag/) , 2024-05-25-0910
-```
-Hey I am doing an internship and my boss asked me to build a RAG that can read financial documents (pdf) and create a LL
-M that, with a query, answers based on these documents. I was using BGE as the embedding model and ollama with llama2 fo
-r the LLM. My problem is that I was using google collab with the free GPU but once it reaches the limit, I can't keep cr
-eating the embeddings. Is there any FREE solution for this? Thank you and sorry for my inexperience.
-```
----
-
-     
- 
-all -  [ For those struggling with API function calls ](https://www.reddit.com/r/LangChain/comments/1cyn34y/for_those_struggling_with_api_function_calls/) , 2024-05-25-0910
-```
-What worked for me was to create small modular functions out of one big function with different parameters. I broke down
- my API for the bot to use into smaller, modular endpoints with maximum of two parameters each. 
-
-I have been able to us
-e gpt-3.5 to get satisfactory outputs without fails. 
-```
----
-
-     
- 
-all -  [ Help Needed: To find total number of results ?  ](https://www.reddit.com/r/LangChain/comments/1cylb81/help_needed_to_find_total_number_of_results/) , 2024-05-25-0910
-```
-Hi Guys,  
-I am exploring LangChain, and stuck at one issue, Needed your help!!
-
-I am trying to get total number of empt
-y parking spots available in csv, but I see we can only define k value in retriever,
-
-Is there a way to ignore k value a
-nd give full matching result ?
-
-Here is my code: [Langchain/apps/find\_parking/parking\_spots.ipynb at main · DastanIqba
-l/Langchain · GitHub](https://github.com/DastanIqbal/Langchain/blob/main/apps/find_parking/parking_spots.ipynb)
-
-Thanks
-```
----
-
-     
- 
-all -  [ Simple choice selection ](https://www.reddit.com/r/LangChain/comments/1cykpbu/simple_choice_selection/) , 2024-05-25-0910
-```
-Looking to return only a specific choice with langchain using an ollama model and couldn't get the langchoice example to
- work. 
-For example, How would I classify a bank transaction description if the only possible classification choices to 
-choose from are: taxes, transfer, or payment?
-```
----
-
-     
- 
-all -  [ Best stack for RAG? ](https://www.reddit.com/r/LangChain/comments/1cyjfap/best_stack_for_rag/) , 2024-05-25-0910
-```
-We’re building a RAG based application which works on internal documents. We’re experimenting with OpenAI for embedding 
-models, Milvus (Zilliz cloud) for embedding storage and similarity search, Postgres for all other data and AWS for hosti
-ng.
-
-Our main priorities are:
-- being fast to market
-- above average performance
-- costs that don’t scale exponentially 
-with scale
-- being scalable so we don’t have to refactor all of the code, if we achieve any scale
-```
----
-
-     
- 
-all -  [ What features do you want in the local AI systems? ](https://github.com/yukiarimo/yuna-ai/issues/91) , 2024-05-25-0910
-```
-Hello guys! I’m a creator of Yuna AI. I need some ideas and suggestions on what we can implement. Here’s our list:
-
-# Yu
-na AI Current Project Status:
-
-## What's Working in Yuna:
-
-- [x] User Auth System
-- [x] Multiple Chat Histories
-- [x] In
-dividual Message Deleting
-- [x] History Editing
-- [x] Full History Management (Import/Export, Edit)
-- [x] Custom Message
-s
-- [x] Audio Transcription
-- [x] Video In-Audio Transcription
-- [x] Web Search
-- [x] Web Q&A (a.k.a LangChain)
-- [x] Im
-age Transcription and Image Q&A
-- [x] Kanojo Character Customization
-- [x] Prompt Customization
-- [x] Kanojo and Prompt 
-Template Export/Import System
-- [x] Audio Calls with TTS feedback
-- [x] Modes for native and fast inferences. Llama CPP 
-+ LM Studio and Siri TTS + Coqui TTS
-- [x] Basic Diffusion Single File Inference
-- [x] Landing Page
-- [x] Dark Mode
-- [x
-] Gesture Control (alpha)
-
-## What's NOT Working in Yuna (but will be in the future):
-
-- [ ] 2D/3D Taking Head Animation
-s for Video Calls
-- [ ] Full LangChain Support for PDF, Audio, and Video Q&A
-- [ ] RP LSTM
-- [ ] Kanojo Connect with Mul
-tiple Kanojo in a Single Chat
-- [ ] Himitsu Copilot
-- [ ] Himitsu Copiloting System
-- [ ] Himitsu Actions
-- [ ] History 
-Collections
-- [ ] Advanced Web Search
-- [ ] Saved Messages (Notes)
-- [ ] Pseudo APIs
-- [ ] Light Mode and Automatic Mode
-
-- [ ] Browser Extension
-- [ ] Server Config Saver Per User
-- [ ] Explore News Tab
-- [ ] WebGPU PWA Mobile WASM
-- [ ] Mo
-del WebUI Manager
-- [ ] Offline Viewer
-- [ ] YUI (Yuna's Unified UI)
-- [ ] Yuna AI Creator Studio
-- [ ] Naked Mode
-- [ ]
- Training
-- [ ] Additional Advanced Models for Art, Uta, and More
-- [ ] Emotional Profile
-- [ ] Settings
-- [ ] Multiling
-ual Chats
-- [ ] LoRAs
-- [ ] Publish Share Link
-
-Feel free to share everything you can think of, even if it exists in any
- other project!
-```
----
-
-     
- 
-all -  [ Need Help Understanding Why My Language Model Chain Isn't Producing Results ](https://www.reddit.com/r/LangChain/comments/1cyhm4y/need_help_understanding_why_my_language_model/) , 2024-05-25-0910
-```
-I'm working on a project that involves using a language model chain to process questions and generate responses. However
-, I've encountered an issue where the chain seems to get stuck at the invocation stage without producing any results.
-
-*
-*Background:**
-
-* I'm using a Python script that involves various components such as document loaders, embeddings, text 
-splitters, vector stores, retrievers, prompts, parsers, and language models.
-* The script is designed to load a PDF docu
-ment, split it into chunks, add the chunks to a vector database, initialize a language model, and then retrieve relevant
- information based on input questions.
-
-**Problem:**
-
-* Despite setting up the chain correctly and providing a question 
-to the system, it seems to get stuck at the invocation stage without producing any results.
-* I've checked the logs, and
- everything seems to be initialized and processed correctly up to the invocation step.
-
-**Code:**
-
-    from langchain_co
-mmunity.document_loaders import UnstructuredPDFLoader
-    from langchain_community.document_loaders import OnlinePDFLoad
-er
-    from langchain_community.embeddings import OllamaEmbeddings
-    from langchain_text_splitters import RecursiveCha
-racterTextSplitter
-    from langchain_community.vectorstores import Chroma
-    from langchain.prompts import ChatPromptT
-emplate, PromptTemplate
-    from langchain_core.output_parsers import StrOutputParser
-    from langchain_community.chat_
-models import ChatOllama
-    from langchain_core.runnables import RunnablePassthrough
-    from langchain_core.tracers im
-port ConsoleCallbackHandler
-    from langchain.retrievers.multi_query import MultiQueryRetriever
-    import asyncio
-    
-
-    # Use raw string notation for the file path
-    local_path = r'C:/Users/User/zven/WEF_The_Global_Cooperation_Barome
-ter_2024.pdf'
-    
-    # Load local PDF file
-    if local_path:
-        try:
-            loader = UnstructuredPDFLoader(
-file_path=local_path)
-            data = loader.load()
-            print('PDF loaded successfully.')
-        except Exce
-ption as e:
-            print(f'Error loading PDF: {e}')
-            data = None
-    else:
-        print('Upload a PDF f
-ile')
-        data = None
-    
-    if data:
-        # Split and chunk text
-        text_splitter = RecursiveCharacterTex
-tSplitter(chunk_size=7500, chunk_overlap=100)
-        chunks = text_splitter.split_documents(data)
-        print(f'Docum
-ent split into {len(chunks)} chunks.')
-        print(data[0].page_content)
-        
-        # Add to vector database
-   
-     try:
-            vector_db = Chroma.from_documents(
-                documents=chunks, 
-                embedding=Ol
-lamaEmbeddings(model='nomic-embed-text', show_progress=True),
-                collection_name='local-rag'
-            )
-
-            print('Chunks added to vector database.')
-        except Exception as e:
-            print(f'Error adding ch
-unks to vector database: {e}')
-    
-        # Initialize LLM from Ollama
-        local_model = 'Mistral'
-        try:
-  
-          llm = ChatOllama(model=local_model)
-            print('LLM initialized successfully.')
-        except Exceptio
-n as e:
-            print(f'Error initializing LLM: {e}')
-    
-        # Define query prompt template
-        QUERY_PROM
-PT = PromptTemplate(
-            input_variables=['question'],
-            template='''You are an AI language model assi
-stant. Your task is to generate five
-            different versions of the given user question to retrieve relevant docu
-ments from
-            a vector database. By generating multiple perspectives on the user question, your
-            goa
-l is to help the user overcome some of the limitations of the distance-based
-            similarity search. Provide thes
-e alternative questions separated by newlines.
-            Original question: {question}'''
-        )
-    
-        # Ini
-tialize retriever
-        try:
-            retriever = MultiQueryRetriever.from_llm(
-                vector_db.as_retrie
-ver(), 
-                llm,
-                prompt=QUERY_PROMPT
-            )
-            print('Retriever initialized 
-successfully.')
-        except Exception as e:
-            print(f'Error initializing retriever: {e}')
-    
-        # De
-fine RAG prompt template
-        template = '''Answer the question based ONLY on the following context:
-        {context
-}
-        Question: {question}
-        '''
-        print('Template: ', template)
-        prompt = ChatPromptTemplate.fro
-m_template(template)
-        print('Prompt: ', prompt)
-    
-        chain = (
-            {'context': retriever, 'questi
-on': RunnablePassthrough()}
-            | prompt
-            | llm
-            | StrOutputParser()
-        )
-        pri
-nt(chain)
-        # Print the chain setup
-        print('Chain setup completed.')
-    
-    async def run_chain():
-      
-  try:
-            print('Invoking chain...')
-            # Invoke the chain with a question
-            result = await 
-chain.ainvoke(
-                {'question': 'What are the 5 pillars of global cooperation?'},
-                config={'c
-allbacks': [ConsoleCallbackHandler()]}  # 30 seconds timeout
-            )
-            print('Chain invoked successfully
-.')
-            print('Result:', result)
-            # Print the answer if it exists
-            if 'answer' in result:
-
-                print('Answer:', result['answer'])
-        except asyncio.TimeoutError:
-            print('Chain invocat
-ion timed out.')
-        except Exception as e:
-            print(f'Error invoking chain: {e}')
-    
-    # Run the chain
-
-    asyncio.run(run_chain())
-    
-    # Delete all collections in the db
-    vector_db.delete_collection()
-    
-
->
-
-Out
-put when I Run it:  
-OllamaEmbeddings: 100%|████████████████████████████████████████████████████████████████| 11/11 \[05
-:16<00:00, 28.77s/it\]
-
-Chunks added to vector database.
-
-LLM initialized successfully.
-
-Retriever initialized successfu
-lly.
-
-Template:  Answer the question based ONLY on the following context:
-
-{context}
-
-Question: {question}
-
-Prompt:  inp
-ut\_variables=\['context', 'question'\] messages=\[HumanMessagePromptTemplate(prompt=PromptTemplate(input\_variables=\['
-context', 'question'\], template='Answer the question based ONLY on the following context:\\n    {context}\\n    Questio
-n: {question}\\n    '))\]
-
-first={
-
-context: MultiQueryRetriever(retriever=VectorStoreRetriever(tags=\['Chroma', 'Ollama
-Embeddings'\], vectorstore=<langchain\_community.vectorstores.chroma.Chroma object at 0x0000016DB7450390>), llm\_chain=L
-LMChain(prompt=PromptTemplate(input\_variables=\['question'\], template='You are an AI language model assistant. Your ta
-sk is to generate five\\n        different versions of the given user question to retrieve relevant documents from\\n   
-     a vector database. By generating multiple perspectives on the user question, your\\n        goal is to help the use
-r overcome some of the limitations of the distance-based\\n        similarity search. Provide these alternative question
-s separated by newlines.\\n        Original question: {question}'), llm=ChatOllama(model='Mistral'), output\_parser=Line
-ListOutputParser())),
-
-question: RunnablePassthrough()
-
-} middle=\[ChatPromptTemplate(input\_variables=\['context', 'que
-stion'\], messages=\[HumanMessagePromptTemplate(prompt=PromptTemplate(input\_variables=\['context', 'question'\], templa
-te='Answer the question based ONLY on the following context:\\n    {context}\\n    Question: {question}\\n    '))\]), Ch
-atOllama(model='Mistral')\] last=StrOutputParser()
-
-Chain setup completed.
-
-Invoking chain...
-
-\[chain/start\] \[chain:R
-unnableSequence\] Entering Chain run with input:
-
-{
-
-'question': 'What are the 5 pillars of global cooperation?'
-
-}
-
-\[c
-hain/start\] \[chain:RunnableSequence > chain:RunnableParallel<context,question>\] Entering Chain run with input:
-
-{
-
-'q
-uestion': 'What are the 5 pillars of global cooperation?'
-
-}
-
-\[chain/start\] \[chain:RunnableSequence > chain:RunnableP
-arallel<context,question> > chain:RunnablePassthrough\] Entering Chain run with input:
-
-{
-
-'question': 'What are the 5 p
-illars of global cooperation?'
-
-}
-
-\[chain/start\] \[chain:RunnableSequence > chain:RunnableParallel<context,question> >
- retriever:Retriever > chain:LLMChain\] Entering Chain run with input:
-
-{
-
-'question': {
-
-'question': 'What are the 5 pi
-llars of global cooperation?'
-
-}
-
-}\[chain/end\] \[chain:RunnableSequence > chain:RunnableParallel<context,question> > c
-hain:RunnablePassthrough\] \[16ms\] Exiting Chain run with output:
-
-{
-
-'question': 'What are the 5 pillars of global coo
-peration?'
-
-}
-
-\[llm/start\] \[chain:RunnableSequence > chain:RunnableParallel<context,question> > retriever:Retriever >
- chain:LLMChain > llm:ChatOllama\] Entering LLM run with input:
-
-{
-
-'prompts': \[
-
-'Human: You are an AI language model 
-assistant. Your task is to generate five\\n        different versions of the given user question to retrieve relevant do
-cuments from\\n        a vector database. By generating multiple perspectives on the user question, your\\n        goal 
-is to help the user overcome some of the limitations of the distance-based\\n        similarity search. Provide these al
-ternative questions separated by newlines.\\n        Original question: {'question': 'What are the 5 pillars of global c
-ooperation?'}'
-
-\]
-
-}
-```
----
-
-     
- 
-all -  [ Problems with json and enum parser ](https://www.reddit.com/r/LangChain/comments/1cyh8zq/problems_with_json_and_enum_parser/) , 2024-05-25-0910
-```
-Langchain's enum and json parser just dont work and I can't figure out why. For example, here is my code below:
-
-https:/
-/preview.redd.it/smzg0411z22d1.png?width=741&format=png&auto=webp&s=26b6ef00927afc4a1a9e6c8e6bf297dfea96d56f
-
-Where pred
-iction is an enum with increase, decrease or no change. When I try it, I get this error:
-
-https://preview.redd.it/3lp1jv
-g6z22d1.png?width=1451&format=png&auto=webp&s=b41bdf522394561581dc924abe167898aa19edeb
-
-Which gives the correct answer a
-s decreased, but not as an enum. The same happens when I try this with the json parser, it adds unneccessary text around
- the dictionary so langchain doesnt read the output as a dictionary. Is there a fix for this?
-```
----
-
-     
- 
-all -  [ A question regarding ](https://www.reddit.com/r/LangChain/comments/1cycid7/a_question_regarding/) , 2024-05-25-0910
-```
-I have a use case where I have bunch of notes for a college class and I want to generate flash cards for them. Now I kno
-w RAG is used to fetch most closest file from database and answer based on that, however in my case, all the notes shoul
-d be loaded. So would RAG be applicable in this case. I can also just load all data in but that would probably run out o
-f tokens quickly
-```
----
-
-     
- 
-all -  [ ChatCompletionRequest in AgentExecutor ](https://www.reddit.com/r/LangChain/comments/1cy9zxh/chatcompletionrequest_in_agentexecutor/) , 2024-05-25-0910
-```
-I was checking out the function calling capability of the new Mistral model and was wondering how to integrate this into
- a ReAct agent flow that uses AgentExecutor. 
-
-[https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3](https://huggi
-ngface.co/mistralai/Mistral-7B-Instruct-v0.3)
-
-  
-Anyone got any hints? 
-```
----
-
-     
- 
-MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-05-25-0910
+MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-05-26-0911
 ```
 Hey r/MachineLearning, I published a new article where I built an observable semantic research paper application.
 
@@ -1988,7 +1747,7 @@ reemrasul/semantic_research_engine)
 
      
  
-MachineLearning -  [ [P] LLMinator: A Llama.cpp + Gradio based opensource Chatbot to run llms locally(cpu/cuda) directly  ](https://www.reddit.com/r/MachineLearning/comments/1cpbgd1/p_llminator_a_llamacpp_gradio_based_opensource/) , 2024-05-25-0910
+MachineLearning -  [ [P] LLMinator: A Llama.cpp + Gradio based opensource Chatbot to run llms locally(cpu/cuda) directly  ](https://www.reddit.com/r/MachineLearning/comments/1cpbgd1/p_llminator_a_llamacpp_gradio_based_opensource/) , 2024-05-26-0911
 ```
 Hi I am currently working on a context-aware streaming chatbot based on Llama.cpp, Gradio, Langchain, Transformers. LLMi
 nator can pull LLMs directly from HF & run them locally on cuda or cpu.
