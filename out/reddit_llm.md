@@ -1,5 +1,340 @@
  
-all -  [ Help! 'Recursion limit' when trying to use chain with 'llm.bind_tools' - LangGraph ](https://www.reddit.com/r/LangChain/comments/1d0om4f/help_recursion_limit_when_trying_to_use_chain/) , 2024-05-26-0911
+all -  [ Awesome prompting techniques ](https://i.redd.it/g6v6ag3h9u2d1.jpeg) , 2024-05-27-0911
+```
+https://arxiv.org/pdf/2312.16171v2
+
+```
+---
+
+     
+ 
+all -  [ How to integrate conversation context and retrieved documents for a new query for a RAG LLM chatbot  ](https://www.reddit.com/r/LangChain/comments/1d1attd/how_to_integrate_conversation_context_and/) , 2024-05-27-0911
+```
+Hi Community,  
+I am building a chatbot app for a specific domain. I am leveraging aws bedrock for storing documents and
+ creating embeddings in pinecone vector db.
+
+But I fee like I am conceptually stuck in how to maintain the conversation 
+context and retrieved documents when trying to create a response for a new query.  How to decide when to use the context
+ and when to make a fresh retrieval? Appreciate any help here.
+
+Please help answer in the setup of Django for rest, bedr
+ock for s3 and embedding model, pinecone for vector db.
+```
+---
+
+     
+ 
+all -  [ Awesome prompting techniques ](https://i.redd.it/qpe806ybzt2d1.jpeg) , 2024-05-27-0911
+```
+https://arxiv.org/pdf/2312.16171v2
+```
+---
+
+     
+ 
+all -  [ Seeking Comprehensive Resources for Mastering Generative AI Fundamentals
+ ](https://www.reddit.com/r/generativeAI/comments/1d1a29d/seeking_comprehensive_resources_for_mastering/) , 2024-05-27-0911
+```
+Hi everyone,
+
+I'm actively learning generative AI and have been exploring resources like videos and GitHub code. While I
+'m comfortable with Python, I find there's a gap in foundational knowledge. Many resources jump straight into code imple
+mentation without explaining the 'why' behind library choices or providing smaller, foundational examples. This makes it
+ difficult to understand the underlying concepts and modify the code effectively.
+
+I'm particularly interested in gainin
+g a deep understanding of how generative AI integrates with tools like Gemini, OpenAI, and Langchain. Additionally, the 
+rapid evolution of libraries and commands (changing every six months or so) makes it challenging to stay current.
+
+My go
+al is to build a solid foundation in generative AI fundamentals so I can confidently create my own applications.
+
+Would 
+anyone recommend resources, especially books, that provide a comprehensive introduction to generative AI concepts? I'm l
+ooking for a top-down approach that emphasizes core principles.
+
+I am looking for a book or material that provides step-
+by-step examples of using Python for generative AI. This will help me build a strong foundation, allowing me to understa
+nd it thoroughly and create my own applications.
+
+Thank you in advance for your suggestions!
+```
+---
+
+     
+ 
+all -  [ How can I  keep track of document source being used in a prompt ? ](https://www.reddit.com/r/LangChain/comments/1d18agq/how_can_i_keep_track_of_document_source_being/) , 2024-05-27-0911
+```
+Hi ,
+
+I am using Langchain/Gemini1.5/Google Documents AI to OCR, to parse and ask questions to a set of documents. Worki
+ng pretty sweet. Actually just published my side project here: [https://zdocs.ai/](https://zdocs.ai/)
+
+I would like to b
+e able to show where the answers to a prompt that is restricted to an uploaded set of documents are coming from?
+
+Google
+ Documents has the whole document structure availabe in JSON. However, I am not sure if the LLM (gemini in my case) can 
+actually provide insights opn where the answer came from ?
+
+Any tips would be welcome !
+
+Cheers, 
+```
+---
+
+     
+ 
+all -  [ Building LLM Apps in Production with Hamel Husain
+ ](https://www.youtube.com/watch?v=MFSd-_pMExI) , 2024-05-27-0911
+```
+
+```
+---
+
+     
+ 
+all -  [ How to only take query relevant memory from Upstash? ](https://www.reddit.com/r/LangChain/comments/1d0xhn5/how_to_only_take_query_relevant_memory_from/) , 2024-05-27-0911
+```
+I want the chat to be able to access all the information from the memory without it passing all the memory to the prompt
+. Is there a way to only pass the memories from the database to the prompt that are important for answering the query or
+ to summarize the memory according to each prompt once again? 
+```
+---
+
+     
+ 
+all -  [ Restarting Crewai / Langchain flow at a particular point with new variables. ](https://www.reddit.com/r/LangChain/comments/1d0tsk2/restarting_crewai_langchain_flow_at_a_particular/) , 2024-05-27-0911
+```
+Hi guys,  
+I am new to Python, so there might be a straightforward solution for this.
+
+I am building a digital assistant
+ chatbot that communicates with customers via WhatsApp. The chatbot processes messages using a series of functions imple
+mented with Crewai and Langchain that may take several seconds to minutes to complete. While the processing is ongoing, 
+new messages from the customer may arrive, requiring the chatbot to:
+
+1. **Pause the current processing**.
+2. **Incorpor
+ate the new message** into the ongoing process.
+3. **Restart the processing** from a specific function within the sequen
+ce, using updated information.
+
+I will use Flask to receive webhooks with new messages from WhatsApp.
+
+My problem is tha
+t I don't know the exact way to build this with Python. Specifically, I need to determine how to stop and restart the sc
+ript at a particular point. I will use a large language model (LLM) to decide the exact point to restart the process, (a
+ crewai task, or maybe an entire crew), incorporating the new buyer message.
+
+I don't have the code yet as I am currentl
+y working on the architecture of the system.
+
+Any suggestions will be of great help.
+
+Thank you!
+```
+---
+
+     
+ 
+all -  [ Restarting Python flow at a particular point with new variables. ](https://www.reddit.com/r/learnpython/comments/1d0tk7z/restarting_python_flow_at_a_particular_point_with/) , 2024-05-27-0911
+```
+Hi guys,   
+I am new to Python, so there might be a straightforward solution for this.
+
+I am building a digital assistan
+t chatbot that communicates with customers via WhatsApp. The chatbot processes messages using a series of functions impl
+emented with Crewai and Langchain that may take several seconds to minutes to complete. While the processing is ongoing,
+ new messages from the customer may arrive, requiring the chatbot to:
+
+1. **Pause the current processing**.
+2. **Incorpo
+rate the new message** into the ongoing process.
+3. **Restart the processing** from a specific function within the seque
+nce, using updated information.
+
+I will use Flask to receive webhooks with new messages from WhatsApp.
+
+My problem is th
+at I don't know the exact way to build this with Python. Specifically, I need to determine how to stop and restart the s
+cript at a particular point. I will use a large language model (LLM) to decide the exact point to restart the process, (
+a crewai task, or maybe an entire crew), incorporating the new buyer message.
+
+I don't have the code yet as I am current
+ly working on the architecture of the system.
+
+Any suggestions will be of great help.
+
+Thank you!
+```
+---
+
+     
+ 
+all -  [ Extract text from PDF maintaining partitions ](https://www.reddit.com/r/LangChain/comments/1d0ryqx/extract_text_from_pdf_maintaining_partitions/) , 2024-05-27-0911
+```
+Hello,
+
+I want to extract paragraphs, title etc from a PDF while.maintaining the separation boundaries. What library to 
+use?
+```
+---
+
+     
+ 
+all -  [ Am I doing something wrong in my code? ](https://www.reddit.com/r/LangChain/comments/1d0q4g6/am_i_doing_something_wrong_in_my_code/) , 2024-05-27-0911
+```
+Hey guys, I am using langchain to generate structured output, but for some reason, the output is not properly formatted 
+json so when I run json.loads(), it gives me an error. I tried to make a clean\_response function but there are too many
+ edge cases to consider. Am I using the wrong function to get the LLM output? Thanks in advance!
+
+Here is my code:
+
+    
+from abc import ABC
+    import os
+    import pydantic
+    from langchain_groq import ChatGroq
+    from langchain.pydanti
+c_v1 import validator
+    from langchain.output_parsers import PydanticOutputParser
+    from langchain.prompts import Pr
+omptTemplate
+    from langchain.pydantic_v1 import BaseModel
+    
+    import json
+    from dotenv import load_dotenv
+   
+ 
+    load_dotenv()
+    
+    tags_req = ['HS Seniors Only', 'Need Based', 'Merit Based', 'Essay Required', 'US Citizen',
+ 'Arts',  'STEM', 'Community Service', 'Leadership']
+    class Tags(BaseModel):
+        tags: list[str]
+        @validat
+or('tags')
+        def must_use_only_these_values(cls, v):
+            for tag in v:
+                if tag not in tags_
+req:
+                    raise ValueError(f'tag {tag} is not in {tags_req}')
+            return v
+    
+        
+    
+   
+ class Description(BaseModel):
+        description: str
+    
+    class Generator(ABC):
+        def __init__(self ) -> No
+ne:
+            pass
+    
+        def generate(self, *args):
+            pass
+    
+    
+    class GroqGenerator(Generato
+r):
+        def __init__(
+            self,
+        ):
+            super().__init__()
+            self.llm = ChatGroq(
+ 
+               temperature=0.1,
+                groq_api_key=os.getenv('GROQ_API_KEY'),
+                model_name='mixt
+ral-8x7b-32768',
+            )
+    
+        def generate(
+            self,
+            name,
+            available,
+   
+         opens,
+            closes,
+            details,
+            description,
+            need_based,
+            me
+rit_based,
+        ):
+            msg1 = (
+                 f'Name: {name}\nAvailable: {available}\nOpens: {opens}\nClos
+es: {closes}\nDetails: {details}\nDescription: {description}\nNeed Based: {need_based}\nMerit Based: {merit_based}\n\n G
+enerate Below: '
+            )
+            msg2 = (
+                 f'\nName: {name}\nAvailable: {available}\nOpens: {o
+pens}\nCloses: {closes}\nDetails: {details}\nDescription: {description}\nNeed Based: {need_based}\nMerit Based: {merit_b
+ased}\n\n Generate Below: ',
+            )
+            tags = self.inference(msg1, Tags)['tags']
+            desc = self
+.inference(msg2, Description)['description']
+            return tags, desc
+        
+        def inference(self, msg, pyd
+antic_object):
+            parser = PydanticOutputParser(pydantic_object=pydantic_object)
+            if pydantic_object
+.__class__.__name__ == 'Tags':
+                prompt = PromptTemplate(
+                    template='Please follow the 
+instructions of the following user query.\n{format_instructions}\n{query}\n',
+                    input_variables=['quer
+y'],
+                    partial_variables={'format_instructions': parser.get_format_instructions() + f' Make sure only 
+generate the array from this bank of tags and no other tags: {tags_req}'},
+                )
+            else:
+         
+       prompt = PromptTemplate(
+                    template='Please follow the instructions of the following user query
+.\n{format_instructions}\n{query}\n',
+                    input_variables=['query'],
+                    partial_variabl
+es={'format_instructions': parser.get_format_instructions()},
+                )
+            _input = prompt.format_promp
+t(query=msg)
+            response = self.llm.invoke(_input.to_string()).content
+            cleaned_response = self.clea
+n_response(response)
+            print(cleaned_response)
+            return json.loads(cleaned_response)
+        
+      
+  def clean_response(self, response):
+            # Replace curly quotes and other problematic characters
+            re
+sponse = response.replace('“', ''').replace('”', ''')
+            response = response.replace('‘', ''').replace('’', '''
+)
+            return response
+    
+        def test(self, msg):
+            return self.inference(msg)
+    
+    
+    if 
+__name__ == '__main__':
+        groq = GroqGenerator(['scholarship'])
+        print(groq.test('Q: What is a scholarship?
+ A:'))
+    
+```
+---
+
+     
+ 
+all -  [ Help! 'Recursion limit' when trying to use chain with 'llm.bind_tools' - LangGraph ](https://www.reddit.com/r/LangChain/comments/1d0om4f/help_recursion_limit_when_trying_to_use_chain/) , 2024-05-27-0911
 ```
 Hey guys. I'm trying to get comfortable with LangGraph in an attempt to then develop a chatbot based on this framework. 
  
@@ -114,15 +449,7 @@ ser', user_input)]
 
      
  
-all -  [ LangChain JS Arbitrary File Read Vulnerability ](https://evren.ninja/langchain-afr-vulnerability.html) , 2024-05-26-0911
-```
-
-```
----
-
-     
- 
-all -  [ How do you go about creating a RAG chatbot using Graph and Vector on internal documents? ](https://www.reddit.com/r/LangChain/comments/1d0j0hc/how_do_you_go_about_creating_a_rag_chatbot_using/) , 2024-05-26-0911
+all -  [ How do you go about creating a RAG chatbot using Graph and Vector on internal documents? ](https://www.reddit.com/r/LangChain/comments/1d0j0hc/how_do_you_go_about_creating_a_rag_chatbot_using/) , 2024-05-27-0911
 ```
 When you are making RAG chatbots using Graph and Vectors how are you storing the internal data? What’s the general appro
 ach?
@@ -141,52 +468,44 @@ Thanks
 
      
  
-all -  [ Help me improve my resume! I will soon be entering 4th yr and placement season is also coming so if  ](https://www.reddit.com/gallery/1d0i1ac) , 2024-05-26-0911
-```
-I will be entering my 4th yr soon! Any suggestions in terms of projects, internship or certificates or anything else I w
-ill be grateful!
-1st is AI/ML based resume and 2nd is for dev roles.
-```
----
-
-     
- 
-all -  [ I fixed my resume as per the feedback, looking for review  ](https://www.reddit.com/r/resumes/comments/1d0fade/i_fixed_my_resume_as_per_the_feedback_looking_for/) , 2024-05-26-0911
+all -  [ I fixed my resume as per the feedback, looking for review  ](https://www.reddit.com/r/resumes/comments/1d0fade/i_fixed_my_resume_as_per_the_feedback_looking_for/) , 2024-05-27-0911
 ```
 I have made the fixes mentioned and looking for feedback, so that I dont lose on opportunities unlike last time. I have 
 exhausted so many of the opportunities already. Also if someone can share their resume which worked for them that would 
-be helpful in making fixes. 
+be helpful in making fixes.
 
-https://preview.redd.it/jidd3f5hjl2d1.png?width=5100&format=png&auto=webp&s=5f1f31565ecde0
-8c35d200931f6d5351a0faaecf
+  
+Update: Forget recruiters, I cant get the community to respond to my resume!
 
-https://preview.redd.it/cjdq3d5hjl2d1.png?width=5100&format=png&auto=webp&s=7155c618bc5bacbd
-66646f650fcbb357cd122bdb
+https://pr
+eview.redd.it/jidd3f5hjl2d1.png?width=5100&format=png&auto=webp&s=5f1f31565ecde08c35d200931f6d5351a0faaecf
 
- 
+https://prev
+iew.redd.it/cjdq3d5hjl2d1.png?width=5100&format=png&auto=webp&s=7155c618bc5bacbd66646f650fcbb357cd122bdb
 ```
 ---
 
      
  
-all -  [ [11 YOE]Took advice from this here and fixed my resume, looking for review before making application ](https://www.reddit.com/r/EngineeringResumes/comments/1d0f6lp/11_yoetook_advice_from_this_here_and_fixed_my/) , 2024-05-26-0911
+all -  [ [11 YOE]Took advice from this here and fixed my resume, looking for review before making application ](https://www.reddit.com/r/EngineeringResumes/comments/1d0f6lp/11_yoetook_advice_from_this_here_and_fixed_my/) , 2024-05-27-0911
 ```
 I have fixed the resume as per the wiki and feedback from the community, can someone review it so that I can make job ap
-plication. Also if someone can share their resume which worked for them or had high success rate that would be helpful. 
+plication. Also if someone can share their resume which worked for them or had high success rate that would be helpful.
 
 
-https://preview.redd.it/3wbgxupbil2d1.png?width=5100&format=png&auto=webp&s=21699d699274f4921fa18748fb6a9abd0905b24c
+Update: Can even get the community to respond on the resume.
 
+https://preview.redd.it/3wbgxupbil2d1.png?width=5100&form
+at=png&auto=webp&s=21699d699274f4921fa18748fb6a9abd0905b24c
 
-https://preview.redd.it/q3oplv5cil2d1.png?width=5100&format=png&auto=webp&s=d1fc08c81ac59890e11c873a2a8c345ee657a4f6
-
-
+https://preview.redd.it/q3oplv5cil2d1.png?width=5100&format
+=png&auto=webp&s=d1fc08c81ac59890e11c873a2a8c345ee657a4f6
 ```
 ---
 
      
  
-all -  [ How to ignore retrieval step (RAG) when it is not necessary ](https://www.reddit.com/r/LangChain/comments/1d0e7ov/how_to_ignore_retrieval_step_rag_when_it_is_not/) , 2024-05-26-0911
+all -  [ How to ignore retrieval step (RAG) when it is not necessary ](https://www.reddit.com/r/LangChain/comments/1d0e7ov/how_to_ignore_retrieval_step_rag_when_it_is_not/) , 2024-05-27-0911
 ```
 Hello,
 I am trying to create a chatbot using Langchain where I am using RetrievalQA and OpenAI API. I need to create cha
@@ -254,7 +573,7 @@ in_type_kwargs={
 
      
  
-all -  [ Gemini 1.5 pro and flash ](https://www.reddit.com/r/googlecloud/comments/1d0dzd4/gemini_15_pro_and_flash/) , 2024-05-26-0911
+all -  [ Gemini 1.5 pro and flash ](https://www.reddit.com/r/googlecloud/comments/1d0dzd4/gemini_15_pro_and_flash/) , 2024-05-27-0911
 ```
 Anyone else finding responses are either too verbose or not verbose at all? It seems to miss important points in my retr
 ieved documents sometimes and other times just throws everything in. Formatting of gpt4 versus 1.5 pro also seems a litt
@@ -272,7 +591,7 @@ Would appreciate any pointers or ideas of how get better performance out of
 all -  [ Artificial Intelligence
 
 Generative AI Agents Developer Contest by NVIDIA and LangChain
-Enter to win ](https://i.redd.it/qlqthudt1l2d1.jpeg) , 2024-05-26-0911
+Enter to win ](https://i.redd.it/qlqthudt1l2d1.jpeg) , 2024-05-27-0911
 ```
 The push is for LangChain agents, but I think accept other tools.
 ```
@@ -280,7 +599,7 @@ The push is for LangChain agents, but I think accept other tools.
 
      
  
-all -  [ Which requirements for manager_llm in CrewAI hierarchical process? ](https://www.reddit.com/r/crewai/comments/1d0cby8/which_requirements_for_manager_llm_in_crewai/) , 2024-05-26-0911
+all -  [ Which requirements for manager_llm in CrewAI hierarchical process? ](https://www.reddit.com/r/crewai/comments/1d0cby8/which_requirements_for_manager_llm_in_crewai/) , 2024-05-27-0911
 ```
 I want to implement a CrewAI agent team using a hierarchical process and I want to use for the manager_llm the groq mode
 l “mixtral-8x7b-32768”.
@@ -392,7 +711,7 @@ https://crewai.com/how-to/Hierarchical/
 
      
  
-all -  [ Is there anyway to prevent AgentExecutor.astream_events() streaming intermediate steps? ](https://www.reddit.com/r/LangChain/comments/1d0b3zs/is_there_anyway_to_prevent_agentexecutorastream/) , 2024-05-26-0911
+all -  [ Is there anyway to prevent AgentExecutor.astream_events() streaming intermediate steps? ](https://www.reddit.com/r/LangChain/comments/1d0b3zs/is_there_anyway_to_prevent_agentexecutorastream/) , 2024-05-27-0911
 ```
 Hello everyone, need some pointer here.  Is there a way to exclude intermediate steps when streaming the events with Age
 ntExecutor? I only want the agent to stream the final output without streaming the intermediate steps (Observations).
@@ -447,7 +766,7 @@ Your help is greatly appreciated. Thank you.
 
      
  
-all -  [ Here's how Notion helps me rock every area of my life ](https://www.reddit.com/r/Notion/comments/1d04zmb/heres_how_notion_helps_me_rock_every_area_of_my/) , 2024-05-26-0911
+all -  [ Here's how Notion helps me rock every area of my life ](https://www.reddit.com/r/Notion/comments/1d04zmb/heres_how_notion_helps_me_rock_every_area_of_my/) , 2024-05-27-0911
 ```
 My first post here and I would like to share my small achievement with you all.  
 A short backstory, I used to forget ab
@@ -507,7 +826,7 @@ If you liked it, please upvote :)
 
      
  
-all -  [ Has langchain been updated with Gpt4o?  ](https://www.reddit.com/r/LangChain/comments/1d03y7b/has_langchain_been_updated_with_gpt4o/) , 2024-05-26-0911
+all -  [ Has langchain been updated with Gpt4o?  ](https://www.reddit.com/r/LangChain/comments/1d03y7b/has_langchain_been_updated_with_gpt4o/) , 2024-05-27-0911
 ```
 I wanted to know if the chain method and ChatOpenAI from langchain\_openai supports gpt4o image inputs and if there are 
 any guides out there showing us how to use it? 
@@ -516,7 +835,7 @@ any guides out there showing us how to use it?
 
      
  
-all -  [ Connect LLM to SQL database with LangChain SQLChain ](https://i.redd.it/g4rv5w1ach2d1.png) , 2024-05-26-0911
+all -  [ Connect LLM to SQL database with LangChain SQLChain ](https://i.redd.it/g4rv5w1ach2d1.png) , 2024-05-27-0911
 ```
 My new article about 'Connect LLM to SQL database with LangChain SQLChain'
 
@@ -530,7 +849,7 @@ ugh
 
      
  
-all -  [ My debut technical book on Generative AI makes it to O'Reilly & Packt ](https://www.reddit.com/r/developersIndia/comments/1d015lc/my_debut_technical_book_on_generative_ai_makes_it/) , 2024-05-26-0911
+all -  [ My debut technical book on Generative AI makes it to O'Reilly & Packt ](https://www.reddit.com/r/developersIndia/comments/1d015lc/my_debut_technical_book_on_generative_ai_makes_it/) , 2024-05-27-0911
 ```
 I'm elated to share that my debut technical book, 'LangChain in your Pocket: Beginner's Guide to Building Generative AI 
 Applications using LLMs,' has been re-published by Packt Publications and is now available on the official website of Pa
@@ -549,7 +868,7 @@ https://preview.redd.it/ehmrmp85ah2d1.png?width=1080&format=png&auto=webp&s=5823
 
      
  
-all -  [ My LangChain book now available on Packt and O'Reilly ](https://www.reddit.com/r/LangChain/comments/1d00vla/my_langchain_book_now_available_on_packt_and/) , 2024-05-26-0911
+all -  [ My LangChain book now available on Packt and O'Reilly ](https://www.reddit.com/r/LangChain/comments/1d00vla/my_langchain_book_now_available_on_packt_and/) , 2024-05-27-0911
 ```
 I'm glad to share that my debut book, '**LangChain in your Pocket: Beginner's Guide to Building Generative AI Applicatio
 ns using LLMs,**' has been republished by Packt and is now available on their official website and partner publications 
@@ -565,7 +884,7 @@ preview.redd.it/4xdgzk9l7h2d1.png?width=1080&format=png&auto=webp&s=bfe4aac06ce8
 
      
  
-all -  [ How could I just return the final answer from SQL Agent? ](https://www.reddit.com/r/LangChain/comments/1czv6k8/how_could_i_just_return_the_final_answer_from_sql/) , 2024-05-26-0911
+all -  [ How could I just return the final answer from SQL Agent? ](https://www.reddit.com/r/LangChain/comments/1czv6k8/how_could_i_just_return_the_final_answer_from_sql/) , 2024-05-27-0911
 ```
 Im planning to do an endpoint that given a user question it makes the underlying work to get the query and i would like 
 to only receive the final answer as im going to show it on a Streamlit chat app. Any idea on how to extract only that?
@@ -574,7 +893,7 @@ to only receive the final answer as im going to show it on a Streamlit chat app.
 
      
  
-all -  [ Gemini api embedding error with langchain please help ](https://www.reddit.com/r/developersIndia/comments/1czsbmf/gemini_api_embedding_error_with_langchain_please/) , 2024-05-26-0911
+all -  [ Gemini api embedding error with langchain please help ](https://www.reddit.com/r/developersIndia/comments/1czsbmf/gemini_api_embedding_error_with_langchain_please/) , 2024-05-27-0911
 ```
 Does anyone know how to solve error from Gemini api with langchain for embedding. I'm using it to get context from an Ex
 cel sheet but I'm facing this error: Deadline Exceeded or this one ValueError: Expected each embedding in the embeddings
@@ -584,7 +903,7 @@ cel sheet but I'm facing this error: Deadline Exceeded or this one ValueError: E
 
      
  
-all -  [ Fresher. Need advice on which role to take in my company ](https://www.reddit.com/r/developersIndia/comments/1czroy7/fresher_need_advice_on_which_role_to_take_in_my/) , 2024-05-26-0911
+all -  [ Fresher. Need advice on which role to take in my company ](https://www.reddit.com/r/developersIndia/comments/1czroy7/fresher_need_advice_on_which_role_to_take_in_my/) , 2024-05-27-0911
 ```
 I'm currently an intern at my company. It's a finance company. I work for the tech dept. 
 
@@ -606,7 +925,7 @@ ing or should I just take a different role or try outside?
 
      
  
-all -  [ Attempt to be Forward-looking on a New Project ](https://www.reddit.com/r/LangChain/comments/1czronv/attempt_to_be_forwardlooking_on_a_new_project/) , 2024-05-26-0911
+all -  [ Attempt to be Forward-looking on a New Project ](https://www.reddit.com/r/LangChain/comments/1czronv/attempt_to_be_forwardlooking_on_a_new_project/) , 2024-05-27-0911
 ```
 I'm new to LLMs, but I'm planning to build an application that answers technical questions about my API using a RAG syst
 em based on my tech docs (e.g., 'how can I configure the API request to wait for the response and to retry if the reques
@@ -635,7 +954,7 @@ ny guidance and/or pitfalls to avoid :-)
 
      
  
-all -  [ What evaluation tools/methods do you use? ](https://www.reddit.com/r/LangChain/comments/1czpsmq/what_evaluation_toolsmethods_do_you_use/) , 2024-05-26-0911
+all -  [ What evaluation tools/methods do you use? ](https://www.reddit.com/r/LangChain/comments/1czpsmq/what_evaluation_toolsmethods_do_you_use/) , 2024-05-27-0911
 ```
 Looking to understand what evaluation tools/methods people like and use the most?
 
@@ -646,7 +965,7 @@ ll/1czpsmq)
 
      
  
-all -  [ What should I use to run LLM locally? ](https://www.reddit.com/r/LocalLLaMA/comments/1czny3r/what_should_i_use_to_run_llm_locally/) , 2024-05-26-0911
+all -  [ What should I use to run LLM locally? ](https://www.reddit.com/r/LocalLLaMA/comments/1czny3r/what_should_i_use_to_run_llm_locally/) , 2024-05-27-0911
 ```
 I want to run this artificial intelligence model locally:
 
@@ -669,7 +988,7 @@ ture I will use should be suitable for preparing APIs in google cloud. so no oll
 
      
  
-all -  [ Infosys Certified Applied Generative AI Professional Answers List ](https://www.reddit.com/r/infosysuntold/comments/1cznjs0/infosys_certified_applied_generative_ai/) , 2024-05-26-0911
+all -  [ Infosys Certified Applied Generative AI Professional Answers List ](https://www.reddit.com/r/infosysuntold/comments/1cznjs0/infosys_certified_applied_generative_ai/) , 2024-05-27-0911
 ```
 Last week, I successfully completed the Infosys Certified Generative AI Professional - Intermediate exam, and I'm thrill
 ed to share my experience and some insights with all of you!
@@ -798,7 +1117,7 @@ sapp.com/channel/0029VaFbeOvC6Zvd2rsGkb10
 
      
  
-all -  [ Infosys Certified Generative AI Professional - Intermediate Answers List ](https://www.reddit.com/r/infosysuntold/comments/1czncwv/infosys_certified_generative_ai_professional/) , 2024-05-26-0911
+all -  [ Infosys Certified Generative AI Professional - Intermediate Answers List ](https://www.reddit.com/r/infosysuntold/comments/1czncwv/infosys_certified_generative_ai_professional/) , 2024-05-27-0911
 ```
 Last week, I successfully completed the Infosys Certified Generative AI Professional - Intermediate exam, and I'm thrill
 ed to share my experience and some insights with all of you!
@@ -878,7 +1197,7 @@ dates [https://whatsapp.com/channel/0029VaFbeOvC6Zvd2rsGkb10](https://whatsapp.c
 
      
  
-all -  [ I'm sure we can implement Function Calling ](https://www.reddit.com/r/Oobabooga/comments/1czmsf3/im_sure_we_can_implement_function_calling/) , 2024-05-26-0911
+all -  [ I'm sure we can implement Function Calling ](https://www.reddit.com/r/Oobabooga/comments/1czmsf3/im_sure_we_can_implement_function_calling/) , 2024-05-27-0911
 ```
 Hi,
 
@@ -900,18 +1219,27 @@ My implementation almost works but the returned JSON seems to be converted into 
  syntax is no longer correct, from what I understand I lost escaped quotes or I have too many quote, I don't know... (la
 ngchain crash because of input format)
 
-Here is the code used, I'm not a python developer and I'm not sure what I'm doin
-g but I think the idea is there: [https://gist.github.com/gloic/cf3002fc247be7549f893bde69b0a038](https://gist.github.co
-m/gloic/cf3002fc247be7549f893bde69b0a038) See lines \~215 for the prompt injection and lines \~390 for the return.
+I'm not a python developer and I'm not sure what I'm doing but I think the idea 
+is there. 
 
-Is t
-he approach correct ? Did someone already tried this ?
+Is the approach correct ? Did someone already tried this ?
+
+UPDATE #1 : function without parameter are worki
+ng : [https://gist.github.com/gloic/cf3002fc247be7549f893bde69b0a038](https://gist.github.com/gloic/cf3002fc247be7549f89
+3bde69b0a038) See lines \~215 for the prompt injection and lines \~390 for the return.
+
+UPDATE #2 : chained call are wor
+king, the model can call several functions in a row (getId and then getDetail), see my comment below for an example.
+
+La
+st updated code : [https://github.com/gloic/text-generation-webui/commit/ba01836e762615cd60383935484c7b1f806984a2](https
+://github.com/gloic/text-generation-webui/commit/ba01836e762615cd60383935484c7b1f806984a2)
 ```
 ---
 
      
  
-all -  [ # Supabase Auth with SSR: AI Integration and Chat Enhancements 🚀 ](https://www.reddit.com/r/nextjs/comments/1czi13m/supabase_auth_with_ssr_ai_integration_and_chat/) , 2024-05-26-0911
+all -  [ # Supabase Auth with SSR: AI Integration and Chat Enhancements 🚀 ](https://www.reddit.com/r/nextjs/comments/1czi13m/supabase_auth_with_ssr_ai_integration_and_chat/) , 2024-05-27-0911
 ```
 I've updated my project that combines Supabase's SSR authentication with Next.js 14 and Material-UI. This release focuse
 s on AI integration, chat improvements, and user experience enhancements. The project is designed with simplicity in min
@@ -989,7 +1317,7 @@ n unchanged, improving overall performance.
 
      
  
-all -  [ AI Agent for monitoring Snowflake Costs! ](https://www.reddit.com/r/LangChain/comments/1czfe4s/ai_agent_for_monitoring_snowflake_costs/) , 2024-05-26-0911
+all -  [ AI Agent for monitoring Snowflake Costs! ](https://www.reddit.com/r/LangChain/comments/1czfe4s/ai_agent_for_monitoring_snowflake_costs/) , 2024-05-27-0911
 ```
 Hey folks! My team recently worked on building this bot to help orgs monitor and even forecast costs on the Snowflake Da
 ta Warehouse. We used LangChain, Streamlit, Snowflake Arctic + Cortex and GPT 4 Turbo for this. 
@@ -1005,7 +1333,7 @@ Would love to get inputs on this!
 
      
  
-all -  [ # Supabase Auth with SSR: AI Integration and Chat Enhancements 🚀 ](https://www.reddit.com/r/Supabase/comments/1czeylu/supabase_auth_with_ssr_ai_integration_and_chat/) , 2024-05-26-0911
+all -  [ # Supabase Auth with SSR: AI Integration and Chat Enhancements 🚀 ](https://www.reddit.com/r/Supabase/comments/1czeylu/supabase_auth_with_ssr_ai_integration_and_chat/) , 2024-05-27-0911
 ```
 I've updated my project that combines Supabase's SSR authentication with Next.js 14 and Material-UI. This release focuse
 s on AI integration, chat improvements, and user experience enhancements. The project is designed with simplicity in min
@@ -1077,650 +1405,7 @@ ary re-renders of the component when its props remain unchanged, improving overa
 
      
  
-all -  [ Internet search for ai agent only returning a short snippet  ](https://www.reddit.com/r/AI_Agents/comments/1czdxnh/internet_search_for_ai_agent_only_returning_a/) , 2024-05-26-0911
-```
-Hey I gave the ai agent which I made on crewai the ability to search internet using serper api but it is only giving a s
-hort snippet while I want the full content from the websites , I think I might need a web scrapper like firecrawl but ho
-w do I make a custom tool for that like do I tell the model to store the urls in a list but how can it store In a list a
-nd can a tool made with langchain  work with crewai , plus if you can suggest a video that gives a tutorial for making t
-ools for beginners that helped you in making tools
-```
----
-
-     
- 
-all -  [ LangGraph Essentials: Create Your First Graph with Ease! ](https://www.reddit.com/r/LangChain/comments/1czdcpz/langgraph_essentials_create_your_first_graph_with/) , 2024-05-26-0911
-```
-[https://youtu.be/gflsu\_6R\_8g](https://youtu.be/gflsu_6R_8g)
-```
----
-
-     
- 
-all -  [ How I got the DDGS, Exa, Serper, SerAPI searches working. ](https://www.reddit.com/r/crewai/comments/1czb1qz/how_i_got_the_ddgs_exa_serper_serapi_searches/) , 2024-05-26-0911
-```
-No one has been able to explain why the search tools DDGS, Exa, and SerpAPI never worked, and Serper rarely worked. Whil
-e suggestions to change my LLM and bump my tokens were good, that only made things worse. I looked into it more, and thi
-s is what I have now, which works. I am posting this in case others have the same problem.
-
-I replaced all the CrewAI se
-arch classes with longchain, like this...
-
-    from crewai_tools import Tool
-    
-    gput('searcher','DDG') # gput,gget
- writes and reads sysem env variables, a 'dotenv' wrapper.
-    
-    search_name = 'Search'
-    search_desc = 'useful for
- when you need to answer questions about current events'
-    
-    if gget('searcher') == 'EXA':
-        print(f'Using Se
-arch API: EXA')
-        from src.news.lib.exa_search_tool import ExaSearchToolFull
-        search_tool = Tool(name=searc
-h_name, description=search_desc, func=ExaSearchToolFull._exa().search)
-    
-    if gget('searcher') == 'DDG':  # still g
-et ratelimit error
-        from langchain_community.utilities import DuckDuckGoSearchAPIWrapper
-        search = DuckDuc
-kGoSearchAPIWrapper()
-        search.region='us-en'
-        search.safesearch='off'
-        search.backend='html' # back
-end: api, html, lite.
-        # search.max_results=1 # even with only 1 query it fails with RateLimit :/
-        search_
-tool = Tool(name=search_name, description=search_desc, func=search.run, query='Red Heffer')
-    
-    if gget('searcher')
- == 'SER':
-        print(f'Using Search API: SER')
-        from langchain_community.utilities import GoogleSerperAPIWrap
-per
-        search = GoogleSerperAPIWrapper(params={'engine': 'bing','gl': 'us','hl': 'en'})
-        search_tool = Tool(
-name=search_name, description=search_desc, func=search.run)
-    
-    if gget('searcher') == 'SAP': # defaults to SAP
-   
-     print(f'Using Search API: SAP')
-        print('>>>',gget('SERPAPI_API_KEY'))
-        from langchain_community.utili
-ties import SerpAPIWrapper
-        search = SerpAPIWrapper(params={'engine': 'bing','gl': 'us','hl': 'en'})
-        from
- crewai_tools import Tool
-        search_tool = Tool(name=search_name, description=search_desc,func=search.run)
-
-This wo
-rks great for all but DDGS.  To get that to work, I commented out
-
-                # if _is_500_in_url(str(resp.url)) or
- resp.status_code == 202:
-                #     raise DuckDuckGoSearchException('Ratelimit')
-
-in `site-packages/duckduck
-go_search/duckduckgo_search_async.py` (around lines 50-60).
-
-Just below  added a `sleep(1)` just in case the rate limit 
-was actually real (which it appears not to be).
-
-                if resp.status_code == 200:
-                    import 
-time
-                    time.sleep(1)
-                    return resp_content
-
-And  added the parameter `search.backend
-='html'`  (see the code above), which made a huge difference.  When is the default, `search.backend='api'` it kept repor
-ting  `No good result on DuckDuckGo found`, but with `'html'` it found and returned content.
-
-Here's the standard Exa cl
-ass being used.
-
-    from crewai_tools import tool
-    from exa_py import Exa
-    from src.news.lib.utils import gget # 
-this is mine.  Can be replaced with os.environ['VAR']
-    import dotenv
-    dotenv.load_dotenv(dotenv_path='/src/crewai/
-.env')
-    class ExaSearchToolFull:
-        @tool
-        def search(query: str):
-            '''Search for a webpage ba
-sed on the query.'''
-            return ExaSearchToolFull._exa().search(
-                f'{query}', use_autoprompt=True
-, num_results=3
-            )
-    
-        @tool
-        def find_similar(url: str):
-            '''Search for webpages 
-similar to a given URL.
-            The url passed in should be a URL returned from `search`.
-            '''
-          
-  return ExaSearchToolFull._exa().find_similar(url, num_results=3)
-    
-        @tool
-        def get_contents(ids: str)
-:
-            '''Get the contents of a webpage.
-            The ids must be passed in as a list, a list of ids returned 
-from `search`.
-            '''
-    
-            print('ids from param:', ids)
-    
-            ids = eval(ids)
-         
-   print('eval ids:', ids)
-    
-            contents = str(ExaSearchToolFull._exa().get_contents(ids))
-            print
-(contents)
-            contents = contents.split('URL:')
-            contents = [content[:1000] for content in contents]
-
-            return '\n\n'.join(contents)
-    
-        def tools():
-            return [
-                ExaSearchToolFu
-ll.search,
-                ExaSearchToolFull.find_similar,
-                ExaSearchToolFull.get_contents,
-            ]
-
-        def _exa():
-            return Exa(api_key=gget('EXA_API_KEY'))
-```
----
-
-     
- 
-all -  [ Vector Embedding and RAG Platforms ](https://www.reddit.com/r/LangChain/comments/1cz9zga/vector_embedding_and_rag_platforms/) , 2024-05-26-0911
-```
-Hey all, looking to learn :)
-
-What are some good robust platforms that I can use to vectorize various types of data and 
-implement RAG to generate results from LLMs? I have a few projects I am working on each with their own types of data and
- models to use. Wondering if there are any all-in-one platforms you know of that would limit my time spent learning new 
-technologies that will have to be updated as the methods progress. Thanks!
-```
----
-
-     
- 
-all -  [ Caching in LLM Apps ](https://www.reddit.com/r/LangChain/comments/1cz3ls8/caching_in_llm_apps/) , 2024-05-26-0911
-```
-Which is your favourite caching technique in LLM Applications. 
-Is it in memory or something else.
-Which caching integra
-tion you like the most and why for a scalable and reliable application.
-```
----
-
-     
- 
-all -  [ ReAct Agent with 0.3 instruct ](https://www.reddit.com/r/MistralAI/comments/1cz2gbb/react_agent_with_03_instruct/) , 2024-05-26-0911
-```
-Hi upgraded my Langchain ReAct agent with the new 0.3 model that dropped yesterday and wow!
-
-it's faster, more determini
-stic, and tool calling is much better.
-
-Haven't tried out the new functions yet since I have no idea how to implement th
-is in my framework.
-
-Any tips?
-
-Also, if you have a good prompt to ensure that the agent visits a website is the link is
- provided would be great.
-```
----
-
-     
- 
-all -  [ Is there a better way to get this json into my vectordb? (ollama, chromadb, gp4allembeddings) ](https://www.reddit.com/r/LocalLLaMA/comments/1cz1e2f/is_there_a_better_way_to_get_this_json_into_my/) , 2024-05-26-0911
-```
-I've been working on a simple chatbot, it responds to inquiries in intercom and in telegram. It makes a database of info
-rmation to pull from based on current support articles in Intercom. It worked pretty well with 150 articles, but as I've
- added more and its up to almost 400 it seems to completely miss easy questions now, and I feel like i'm not ingesting a
-ll that information in the most efficient way possible.
-
- It uses Ollama/Llama3 for the model, i have a custom modelfile
- that  looks like:
-> FROM llama3
-> 
-> PARAMETER temperature 0.3
-> 
-> SYSTEM You are a helpful AI assistant for the 'X' p
-latform. Your role is to provide detailed, accurate answers to user questions based on the information in your knowledge
- base, with the goal of assisting users without requiring a human response when possible. If a question can have multipl
-e answers depending on the situation, provide guidance on the different options. When giving instructions, be as specifi
-c as possible. Never answer questions that are remotely off-topic. Just let them know you can’t help with that.
-
-It uses
- gpt4allembeddings/langchain for embedding and chromadb for the database.
-
-I have a pre-prompt implemented that reads li
-ke:
-> Answer the question based on the provided context. Do not include introductory phrases. If the question is unclear
- or unrelated to the context, simply state 'I apologize, I can't help with your query, let me get a team member to assis
-t.' Do not provide additional explanations.
-
-The json that intercom is providing looks like this:
->         [
->         
-  {
->             'id': '123',
->             'type': 'article',
->             'workspace_id': '123',
->             'pare
-nt_id': null,
->             'parent_type': null,
->             'parent_ids': [],
->             'title': 'Title',
->      
-       'description': 'Description',
->             'body': 'Body',
->             'author_id': 123,
->             'state'
-: 'draft',
->             'created_at': 171,
->             'updated_at': 171,
->             'url': null
->           },
-> 
-          {
->             'id': '234',
->             'type': 'article',
->             'workspace_id': '234',
->          
-   'parent_id': null,
->             'parent_type': null,
->             'parent_ids': [],
->             'title': 'Title',
-
->             'description': 'Description',
->             'body': 'Body',
->             'author_id': 123,
->            
- 'state': 'draft',
->             'created_at': 171,
->             'updated_at': 171,
->             'url': null
->        
-   },
->     
-Here is my script please dont judge i'm an absolute hobbyist and this is my first time trying to dive into 
-AI stuff:
-
-    import json
-    import logging
-    import os
-    import aiohttp
-    import asyncio
-    from dotenv import
- load_dotenv
-    from quart import Quart, jsonify, request
-    from telethon import TelegramClient, events
-    from tele
-thon.errors import RPCError, ChatAdminRequiredError, ChannelPrivateError
-    from telethon.tl.types import PeerChannel
- 
-   from langchain_community.vectorstores import Chroma
-    from langchain_community.embeddings import GPT4AllEmbeddings
-
-    from langchain_core.prompts import PromptTemplate
-    from langchain_community.llms import Ollama
-    from langchain
-.callbacks.manager import CallbackManager
-    from langchain.callbacks.streaming_stdout import StreamingStdOutCallbackHa
-ndler
-    from langchain.chains import RetrievalQA
-    from langchain.docstore.document import Document
-    from hyperco
-rn.config import Config
-    from hypercorn.asyncio import serve
-    import time
-    
-    os.makedirs('logs', exist_ok=Tr
-ue)
-    logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s', handlers=[
-        logging.FileHandl
-er('logs/app.log'),
-        logging.StreamHandler()
-    ])
-    
-    start_time = time.time()
-    
-    # .env
-    load_do
-tenv()
-    api_id = os.getenv('API_ID')
-    api_hash = os.getenv('API_HASH')
-    bot_token = os.getenv('BOT_TOKEN')
-    
-intercom_token = os.getenv('INTERCOM_TOKEN')
-    chat_id = int(os.getenv('CHAT_ID'))
-    qa_chain_prompt_template = os.g
-etenv('QA_CHAIN_PROMPT_TEMPLATE')
-    
-    app = Quart(__name__)
-    
-    client = TelegramClient('logs/tg_chat', api_id
-, api_hash)
-    
-    vectorstore = None
-    qa_chain = None
-    
-    QA_CHAIN_PROMPT = PromptTemplate(
-        input_var
-iables=['context', 'question'],
-        template=qa_chain_prompt_template,
-    )
-    
-    llm = Ollama(model='llama3-tem
-p03', callback_manager=CallbackManager([StreamingStdOutCallbackHandler()]))
-    
-    async def fetch_all_pages():
-      
-  url = 'https://api.intercom.io/articles'
-        headers = {
-            'Authorization': f'Bearer {intercom_token}',
-
-            'Accept': 'application/json'
-        }
-        all_documents = []
-        all_data = []
-        async with a
-iohttp.ClientSession() as session:
-            while url:
-                async with session.get(url, headers=headers) a
-s response:
-                    if response.status != 200:
-                        logging.error(f'Failed to fetch data:
- {response.status}')
-                        break
-                    data = await response.json()
-                    
-all_data.extend(data.get('data', []))
-                    if 'data' in data and data['data']:
-                        do
-cuments = [Document(page_content=article['body']) for article in data['data'] if article['body'].strip()]
-              
-          all_documents.extend(documents)
-                    url = data.get('pages', {}).get('next', None)
-        with
- open('info.json', 'w') as f:
-            json.dump(all_data, f, indent=2)
-        logging.info(f'Total records received
-: {len(all_data)}')
-        return all_documents
-    
-    async def rebuild_vectorstore():
-        global documents, vec
-torstore, qa_chain
-        try:
-            documents = await fetch_all_pages()
-            if documents:
-              
-  vectorstore = Chroma.from_documents(documents=documents, embedding=GPT4AllEmbeddings())
-                logging.info('
-Documents processed and vector store rebuilt.')
-                qa_chain = RetrievalQA.from_chain_type(
-                
-    llm,
-                    retriever=vectorstore.as_retriever(),
-                    chain_type_kwargs={'prompt': QA_C
-HAIN_PROMPT},
-                )
-            else:
-                logging.error('No valid documents with non-empty body 
-found.')
-        except Exception as e:
-            logging.error(f'Error rebuilding vector store: {str(e)}')
-    
-    a
-sync def handle_query(query):
-        if qa_chain is None:
-            logging.error('QA chain is not initialized.')
-   
-         return {'response': 'Initialization error: Vector store not available. Check log for details.', 'time_taken': 0
-}
-    
-        start_time = time.time()
-        try:
-            result = qa_chain.invoke(query)
-        except Exceptio
-n as e:
-            logging.error(f'Error during query handling: {str(e)}')
-            return {'response': 'An error oc
-curred while processing the query.', 'time_taken': 0}
-    
-        end_time = time.time()
-        time_taken = end_time 
-- start_time
-    
-        logging.info(f'Query result: {result}')
-    
-        if isinstance(result, dict):
-            
-result = result.get('result', 'No result field found in response.')
-        elif isinstance(result, str):
-            re
-sult = result.strip()
-        else:
-            result = str(result).strip()
-    
-        if not result:
-            res
-ult = 'I apologize, but I don't have enough information to provide a helpful answer.'
-    
-        return {'response': r
-esult, 'time_taken': time_taken}
-    
-    @app.route('/intercom', methods=['POST'])
-    async def intercom_handler():
-  
-      data = await request.get_json()
-        query = data.get('body')
-        if query:
-            result = await hand
-le_query(query)
-            response = result['response']
-            time_taken = result['time_taken']
-            retu
-rn jsonify({'response': response, 'time_taken': time_taken}), 200
-        else:
-            logging.error('No query prov
-ided in the request')
-            return jsonify({'error': 'No query provided'}), 400
-    
-    @app.route('/rebuild_vect
-orstore', methods=['POST'])
-    async def rebuild_vectorstore_handler():
-        await rebuild_vectorstore()
-        ret
-urn jsonify({'message': 'Vector store rebuilt'}), 200
-    
-    @client.on(events.NewMessage(pattern=r'^\.x (.+)', func=l
-ambda e: e.text.lower().startswith('.x ')))
-    async def answer_query(event):
-        query = event.pattern_match.group
-(1)
-        logging.info(f'Received query: {query}')
-        result = await handle_query(query)
-        response = resul
-t['response']
-        time_taken = result['time_taken']
-        await event.respond(f'```{response}```\n**Time to genera
-te: {time_taken:.2f} seconds**', parse_mode='Markdown')
-    
-    @client.on(events.NewMessage(pattern='/rebuild'))
-    a
-sync def rebuild_vectorstore_command(event):
-        logging.info('Received /rebuild command. Rebuilding the vector stor
-e...')
-        await event.respond('Rebuilding database...')
-        await rebuild_vectorstore()
-        await event.res
-pond('Database rebuilt.')
-    
-    async def run_server():
-        global start_time
-        config = Config()
-        c
-onfig.bind = ['0.0.0.0:5001']
-        
-        async def custom_serve():
-            end_time = time.time()
-            
-time_to_boot = end_time - start_time
-            await send_message(chat_id, f'<span style='color:red'>Bot Online, Time 
-to boot: {time_to_boot:.2f} seconds</span>')
-            await serve(app, config)
-    
-        await custom_serve()
-    
-
-    async def send_message(chat_id, message):
-        try:
-            entity = await client.get_entity(PeerChannel(cha
-t_id))
-            await client.send_message(entity, message, parse_mode='html')
-        except ChatAdminRequiredError:
-
-            logging.error(f'Failed to send message to {chat_id}: Bot lacks admin rights.')
-        except ChannelPrivate
-Error:
-            logging.error(f'Failed to send message to {chat_id}: Channel is private.')
-        except RPCError as
- e:
-            logging.error(f'Failed to send message to {chat_id}: {str(e)}')
-    
-    async def start():
-        try:
-
-            await client.start(bot_token=bot_token)
-            logging.info('Telegram client connected.')
-            
-await rebuild_vectorstore()
-            await run_server()
-        except Exception as e:
-            logging.error(f'Er
-ror occurred: {str(e)}. Retrying in 5 seconds...')
-            await asyncio.sleep(5)
-            await start()
-    
-   
- async def main():
-        try:
-            await start()
-        except KeyboardInterrupt:
-            logging.info('Sc
-ript interrupted by user.')
-            await send_message(chat_id, '<span style='color:red'>Shutting Down</span>')
-    
-    finally:
-            logging.info('Shutting down...')
-            await client.disconnect()
-            logging.info
-('Client disconnected.')
-            pending = [task for task in asyncio.all_tasks() if not task.done() and task is not 
-asyncio.current_task()]
-            for task in pending:
-                task.cancel()
-            await asyncio.gather(
-*pending, return_exceptions=True)
-            loop.stop()
-            loop.close()
-            logging.info('Script stop
-ped.')
-    
-    if __name__ == '__main__':
-        try:
-            loop = asyncio.get_event_loop()
-            loop.run
-_until_complete(main())
-        except RuntimeError as e:
-            logging.error(f'Runtime error: {str(e)}')
-        
-finally:
-            if not loop.is_closed():
-                loop.close()
-
-
-I'm not sure if i am embedding the json cor
-rectly, i thought it would be straightforward in json format but the bad outputs make me second guess whatever im doing,
- really open to whatever, would love to learn what im missing here
-```
----
-
-     
- 
-all -  [ why two different kinds of messages? ](https://www.reddit.com/r/LangChain/comments/1cyz7kw/why_two_different_kinds_of_messages/) , 2024-05-26-0911
-```
-langchain\_core.messages.human.HumanMessage
-
-langchain.schema.messages.HumanMessage
-
-I got unsupported HumanMessage erro
-r when using langchain and found out two kinds of messages. Why?
-```
----
-
-     
- 
-all -  [ [11 YOE] Unable To Get Any Tech Interviews With This Resume, What Am I Doing Wrong? ](https://www.reddit.com/r/resumes/comments/1cyyw3b/11_yoe_unable_to_get_any_tech_interviews_with/) , 2024-05-26-0911
-```
-https://preview.redd.it/gt05zrf5r72d1.png?width=5100&format=png&auto=webp&s=0745fdbb4f38cd6b4aa6c0104bb949b857496d8a
-
-ht
-tps://preview.redd.it/n8c7z5i5r72d1.png?width=5100&format=png&auto=webp&s=71660c9f380f4eb752fc854cbf66d0b6a5082472
-
-http
-s://preview.redd.it/zhfi8uf5r72d1.png?width=5100&format=png&auto=webp&s=769140b50f0755620be916931ba43199240f576b
-
-I am o
-pen to roles in AI/ML, Backend Full stack, SWE and Product roles, but cant seem to get interview calls, what am I doing 
-wrong? I have been suggested to include the exact tech work I did to avoid looking inexperienced, and hence ended up add
-ing a lot of tech jargon, could it be that? Please suggest me fixes. What am I doing wrong?  
-
-```
----
-
-     
- 
-all -  [ [11 YOE] I have Tech and Tech management experience in startups, but cant get an interview. ](https://www.reddit.com/r/EngineeringResumes/comments/1cyyiyu/11_yoe_i_have_tech_and_tech_management_experience/) , 2024-05-26-0911
-```
-I have been looking for AI/ML, Backend Full stack, SWE and Product roles but cant seem to get interview calls, what am I
- doing wrong? I have been suggested to include the exact tech work I did to avoid looking inexperienced, and hence ended
- up adding a lot of tech jargon. Please suggest me fixes.
-
-https://preview.redd.it/n5cvga0go72d1.png?width=5100&format=p
-ng&auto=webp&s=ee684cb4d88cc4569ad8c81fa643a928e3d80e21
-
-https://preview.redd.it/4qkfva0go72d1.png?width=5100&format=png
-&auto=webp&s=9c99b53b0164cfa1577f0d69544cb3c4058535d2
-
-https://preview.redd.it/f7fy850go72d1.png?width=5100&format=png&a
-uto=webp&s=69e881cfc736d8856a65fe6160c5ee6f23821ba7
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-05-26-0911
+MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-05-27-0911
 ```
 Hey r/MachineLearning, I published a new article where I built an observable semantic research paper application.
 
@@ -1747,7 +1432,7 @@ reemrasul/semantic_research_engine)
 
      
  
-MachineLearning -  [ [P] LLMinator: A Llama.cpp + Gradio based opensource Chatbot to run llms locally(cpu/cuda) directly  ](https://www.reddit.com/r/MachineLearning/comments/1cpbgd1/p_llminator_a_llamacpp_gradio_based_opensource/) , 2024-05-26-0911
+MachineLearning -  [ [P] LLMinator: A Llama.cpp + Gradio based opensource Chatbot to run llms locally(cpu/cuda) directly  ](https://www.reddit.com/r/MachineLearning/comments/1cpbgd1/p_llminator_a_llamacpp_gradio_based_opensource/) , 2024-05-27-0911
 ```
 Hi I am currently working on a context-aware streaming chatbot based on Llama.cpp, Gradio, Langchain, Transformers. LLMi
 nator can pull LLMs directly from HF & run them locally on cuda or cpu.
