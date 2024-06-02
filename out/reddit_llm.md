@@ -1,5 +1,316 @@
  
-all -  [ RAG Decisión ](https://www.reddit.com/r/LangChain/comments/1d59ax3/rag_decisión/) , 2024-06-01-0956
+all -  [ Return only used documents ](https://www.reddit.com/r/LangChain/comments/1d5xa86/return_only_used_documents/) , 2024-06-02-0956
+```
+In my RAG LLM I want to return the documents used to produce the answer. I don't want ALL the documents, but just the on
+e or two that open ai used to produce the answer. 
+
+Example
+
+Question: what day is today? 
+
+Documents retrieved 
+- doc1 
+chunk1: on that day the sky was red
+- doc2 chunk15: today is Saturday 
+- doc3 chunk666: my name is Michael and I was bor
+n two days before my wife 
+
+Answer: today it's Saturday (doc2) 
+
+With returning source documents, my context contains al
+l three documents, but just doc2 have been used to answer the question. 
+
+At the moment I'm asking open ai to put a sepa
+rator at the end of the question and write a json with the doc index (from 1 to 5), and then pick the context[index], bu
+t it's not as robust as I like. 
+
+Any suggestions? 
+```
+---
+
+     
+ 
+all -  [ How would you design the supervisor in the following diagram? ](https://i.redd.it/qbhzq8tt204d1.jpeg) , 2024-06-02-0956
+```
+
+```
+---
+
+     
+ 
+all -  [ How can I get cumulative answer after analysing 1000s of articles? ](https://www.reddit.com/r/LangChain/comments/1d5slpr/how_can_i_get_cumulative_answer_after_analysing/) , 2024-06-02-0956
+```
+Hi all, I am new to building RAG application. I have no idea about how to make the LLM to answer with all the knowledge 
+about 1000s of articles. Let's say I have 1000s of success stories about various businesses, now I want LLM to craft a w
+inning strategy.
+```
+---
+
+     
+ 
+all -  [ langchain with vision browser ](https://www.reddit.com/r/LangChain/comments/1d5sc9r/langchain_with_vision_browser/) , 2024-06-02-0956
+```
+anyone used langchain with browser automation and gpt4o?
+```
+---
+
+     
+ 
+all -  [ Faster LLM Inference using Groq and Langchain Streaming ](https://www.reddit.com/r/LangChain/comments/1d5sb5s/faster_llm_inference_using_groq_and_langchain/) , 2024-06-02-0956
+```
+Fast LLM RAG inference using Groq and Langchain Streaming.  
+  
+Groq is introducing a new, simpler processing architectu
+re designed specifically for the performance requirements of machine learning applications and other compute-intensive w
+orkloads. The simpler hardware also saves developer resources by eliminating the need for profiling, and also makes it e
+asier to deploy AI solutions at scale.  
+  
+Resource: [https://www.youtube.com/watch?v=frMdOL8knqg](https://www.youtube.
+com/watch?v=frMdOL8knqg)
+```
+---
+
+     
+ 
+all -  [ [P] Superfast RAG: Langchain Streaming and Groq ](https://www.reddit.com/r/MachineLearning/comments/1d5s9g4/p_superfast_rag_langchain_streaming_and_groq/) , 2024-06-02-0956
+```
+  
+Fast LLM RAG inference using Groq and Langchain Streaming.  
+  
+Groq is introducing a new, simpler processing archite
+cture designed specifically for the performance requirements of machine learning applications and other compute-intensiv
+e workloads. The simpler hardware also saves developer resources by eliminating the need for profiling, and also makes i
+t easier to deploy AI solutions at scale.  
+  
+Resource: [https://www.youtube.com/watch?v=frMdOL8knqg](https://www.youtu
+be.com/watch?v=frMdOL8knqg)
+```
+---
+
+     
+ 
+all -  [ What are the different ways we can load llama model into Langchain ? ](https://www.reddit.com/r/LangChain/comments/1d5qcgw/what_are_the_different_ways_we_can_load_llama/) , 2024-06-02-0956
+```
+No Body 
+
+I guess you understood what is mean..
+
+out of these i only knew about LlamaCpp
+```
+---
+
+     
+ 
+all -  [  This week in AI - all the Major AI developments in a nutshell  ](https://www.reddit.com/r/learnmachinelearning/comments/1d5ohkx/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-06-02-0956
+```
+1. **The Simulation** (formerly Fable Studio) launched ***Showrunner***, a platform for users to create TV shows with AI
+, dubbing it the 'Netflix of AI'. With just a 10-15 word prompt, users can generate scenes and episodes of 2-16 minutes,
+ complete with AI dialogue, voices, editing, shot types, characters, and story development. Fable released a research pa
+per last year on their SHOW-1 model and AI Showrunner Agents that can write, produce, direct, cast, edit, voice and anim
+ate episodes of AI TV \[Details\].
+2. **Mistral AI** introduced ***Codestral***, a 22B open-weight generative AI model e
+xplicitly designed for code generation tasks. With its larger context window of 32k, Codestral outperforms CodeLlama 70B
+, Llama 3 70B and DeepSeek Coder 33B. Codestral is licensed under the *new Mistral AI Non-Production License.* It is acc
+essible through Le Chat, La Plateforme and is integrated into LlamaIndex and LangChain \[Details | Hugging Face\].
+3. **
+Cartesia** introduced ***Sonic***, a low-latency voice model that generates lifelike speech. The co-founders of Cartesia
+ had created the state space model architecture. Sonic creates high quality lifelike speech for any voice with a model l
+atency of 135ms—the fastest for a model of this class. Details on the new architecture will be released in a separate re
+port. Sonic is released with a web playground and a low latency API \[Details\].
+4. **AI4Finance** Foundation released *
+**FinRobot***, a novel open-source AI agent platform supporting multiple financially specialized AI agents, each powered
+ by LLM \[Details\].
+5. **IEIT-Yuan** released ***Yuan2.0-M32***, a Mixture-of-Experts (MoE) language model with 32 expe
+rts, of which 2 are active. Yuan 2.0-M32 is trained from scratch with 2000B token and has surpassed Llama3-70B on the MA
+TH and ARC-Challenge benchmark \[Details\].
+6. **llama3v**: a new SOTA vision model that is powered by Llama3 8B and sig
+lip-so400m and trained with under $500. It outperforms LLaVA, the current open-source SOTA vision language model. llama3
+v features comparable vision abilities of models close to 100x larger in size like GPT4v, Gemini Ultra, and Claude Opus 
+\[Details | Hugging Face\].
+7. **LLM360** released ***K2,*** a fully-reproducible 65 billion parameters large language m
+odel outperforming Llama 2 70B using 35% less compute. K2 is fully transparent - LLM360 open-sourced all artifacts, incl
+uding code, data, model checkpoints, intermediate results, and more \[Details\].
+8. **Perplexity AI** released a new too
+l ***Perplexity Pages***, enabling users to create comprehensive, visually appealing content on any topic. Users can typ
+e in a topic and receive a structured draft instantly. Perplexity Pages offers the flexibility to create a page as a sep
+arate entity, similar to writing a document with full internet access, or you can continue asking questions on Perplexit
+y and convert them into the Page format with a one-click convert button \[Details\].
+9. **Open-Sora** is now on V1.1.0. 
+This open-source project aims to reproduce Sora OpenAI’s text-to-video (T2V) model Sora. v1.1.0 significantly enhances v
+ideo generation quality and text control capabilities \[Details\].
+10. **Multimodal Art Projection (M-A-P)** Research re
+leased ***MAP-Neo***, a bilingual language model with 7B parameters trained from scratch on 4.5T tokens. MAP-Neo is the 
+first fully open-sourced bilingual LLM with comparable performance compared to existing state-of-the-art LLMs \[Details\
+].
+11. All **ChatGPT** Free users can now use browse, vision, data analysis, file uploads, and GPTs, earlier available t
+o only pro subscribers \[Details\].
+12. **Higgsfield** introduced ***NOVA-1*** text to video model that provides markete
+rs with precise control. Companies can train a custom version of the NOVA-1 model using their product and brand assets \
+[Details\].
+13. **ByteDance** introduced ***INSTADRAG***, a rapid approach enabling high quality drag-based image editin
+g in ∼ 1 second. Code will be released in 2-4 weeks \[Details\].
+14. **Suno** announced v3.5, which is now available to 
+all users. It lets you make 4 minute songs, provides full song in a single generation and featres improved song structur
+e and vocal flow. Make a song from any sound feature coming soon \[Details\].
+15. **6079** announced AI Prize Fight, a f
+irst-of-its-kind street fighting esports competition where teams will go head-to-head training AI agents for the champio
+nship belt. Registration will begin the week of June 3rd \[Details\].
+16. **Scale** released the ***SEAL Leaderboards***
+, which rank frontier LLMs using curated private datasets that can’t be gamed. The initial domains covered include Codin
+g, Instruction Following, Math and Multilinguality \[Details\].
+17. Researchers released ***AutoCoder***, a code LLM tha
+t outperforms GPT-4 Turbo and GPT-4o on the HumanEval benchmark. It’s code interpreter can install external packages ins
+tead of limiting to built-in packages tasks. The base model is deepseeker-coder \[Details\]. 
+18. **Microsoft** launched
+ Copilot for Telegram - a personal generative AI assistant powered by GPT model and Bing Search, available within Telegr
+am \[Details\].
+19. **LMSYS Chatbot Arena Leaderboard** update: Gemini 1.5 Pro/Advanced at #2, closing in on GPT-4o. Gem
+ini 1.5 Flash at #9, outperforming Llama-3-70b and nearly reaching GPT-4-0125 \[Link\].
+20. **Udio** introduced Udio-130
+, a new music generation model capable of two-minute generations and new features \[Details\].
+21. Tools are now availab
+le in **HuggingChat**. Tools open up a wide range of new possibilities, allowing the model to determine when a tool is n
+eeded, which tool to use, and what arguments to pass (via function calling) \[Details\].
+22. **SambaNova's** Samba-1 Tur
+bo has set a new record for large language model inference performance in recent benchmarking by Artificial Analysis. Sa
+mba-1 Turbo runs Llama 3 8B at 1000 tokens per second (t/s) on just 16 chips, and can concurrently host up to 1000 Llama
+3 checkpoints on a single 16-socket SN40L node. This is the fastest speed for serving Llama 3, while maintaining full pr
+ecision at a lower cost \[Details\].
+23. **GitHub** announced the 2024 cohort for its GitHub Accelerator program, featur
+ing 11 open-source AI projects \[Details\].
+24. **Opera** browser has integrated Google’s Gemini AI models into its exis
+ting Aria AI extension. Aria, released last year, acts like an AI assistant to answer user queries, write code, and perf
+orm other tasks \[Details\].
+25. Tool use, which enables Claude to interact with external tools and APIs, is now general
+ly available across the entire Claude 3 model family on the Anthropic Messages API, Amazon Bedrock, and Google Cloud's V
+ertex AI \[Details\].
+26. Google adds new built-in AI-powered features to Chromebook \[Details\].
+27. Gemini is now avai
+lable in Chrome DevTools to help devs understand errors and warnings better with AI \[Details\].
+
+Source: AI Brews - Lin
+ks removed from this post due to auto-delete, but they are present in the [newsletter](https://aibrews.com/). it's free 
+to join, sent only once a week with bite-sized news, learning resources and selected tools. Thanks!
+```
+---
+
+     
+ 
+all -  [ selfqueryretriever.from_llm() ](https://www.reddit.com/r/LangChain/comments/1d5lhsg/selfqueryretrieverfrom_llm/) , 2024-06-02-0956
+```
+Can anyone explain me parameters of this function some of the parameters is 'structured_query_translator', 'chain_kwargs
+',
+'enable_limit', 'kwargs'. 
+Thanks
+```
+---
+
+     
+ 
+all -  [ Any updates to the agents scene? ](https://www.reddit.com/r/LocalLLaMA/comments/1d5hnqk/any_updates_to_the_agents_scene/) , 2024-06-02-0956
+```
+So I have been busy with works these couple of weeks, what is the feedback for agents libs
+
+Last time I checked there wa
+s some promising projects but with some drawbacks (personal opinion)
+
+- Langchain agents were complicated and over engin
+eered
+
+- crewAI and Autogen felt like vision tunneled on some goals and thus hard to extend to other use cases, plus bei
+ng only tested against openAI's GPT4 I find it less reliable with local LLMs. (I am not even talking about the aggressiv
+e tracing and telemetry)
+```
+---
+
+     
+ 
+all -  [ which are the 'clone' libraries to Spring AI? ](https://www.reddit.com/r/llmops/comments/1d5d8n6/which_are_the_clone_libraries_to_spring_ai/) , 2024-06-02-0956
+```
+There are libraries like [https://spring.io/projects/spring-ai#overview](https://spring.io/projects/spring-ai#overview) 
+for other languages?   
+I'm not require it, but is there any framework to work for these things in other languages?
+
+I h
+ave seen [https://www.litellm.ai/](https://www.litellm.ai/) but IDK. Also, It is a mixture between dspy, langchain, llam
+aindex, huggingface, and who knows what more frameworks that sounds relevant but who knows
+```
+---
+
+     
+ 
+all -  [ Was Typesense removed from LangchainJS 0.2? It  ](https://www.reddit.com/r/LangChain/comments/1d5bnf8/was_typesense_removed_from_langchainjs_02_it/) , 2024-06-02-0956
+```
+I followed the tutorial on langchain for 0.2 for setting up Typesense but it just won't find it.
+
+[https://i.imgur.com/8
+yPyU90.png](https://i.imgur.com/8yPyU90.png)
+
+My package.json looks like this:
+
+    {
+      'name': 'vite-react-typescri
+pt-starter',
+      'private': true,
+      'version': '0.0.1',
+      'type': 'module',
+      'scripts': {
+        'dev': 
+'nodemon -w src/server -x tsx src/server/main.ts',
+        'start': 'cross-env NODE_ENV=production tsx src/server/main.t
+s',
+        'build': 'vite build',
+        'test': 'vitest'
+      },
+      'dependencies': {
+        '@langchain/communi
+ty': '^0.2.4',
+        '@langchain/openai': '^0.1.0',
+        '@langchain/weaviate': '^0.0.4',
+        'cross-env': '^7.
+0.3',
+        'dotenv': '^16.4.5',
+        'express': '^4.18.2',
+        'langchain': '^0.1.0',
+        'puppeteer': '^1
+9.11.1',
+        'react': '^18.2.0',
+        'react-dom': '^18.2.0',
+        'tsx': '^4.3.0',
+        'typescript': '^5.
+3.2',
+        'typesense': '^1.8.2',
+        'vite-express': '*',
+        'weaviate': '^0.0.14',
+        'weaviate-ts-cl
+ient': '^2.2.0'
+      },
+      'devDependencies': {
+        '@types/express': '^4.17.21',
+        '@types/node': '^20.9.
+3',
+        '@types/react': '^18.0.38',
+        '@types/react-dom': '^18.2.16',
+        '@vitejs/plugin-react': '^4.2.0'
+,
+        'nodemon': '^3.0.1',
+        'vite': '^5.0.2',
+        'vitest': '^1.6.0'
+      }
+    }
+    
+
+
+
+  
+Am I missin
+g something?
+```
+---
+
+     
+ 
+all -  [ RAG Decisión ](https://www.reddit.com/r/LangChain/comments/1d59ax3/rag_decisión/) , 2024-06-02-0956
 ```
 I have a RAG system with a Vector DB (Miley’s) everything is working fine. However now the business want to summarize an
 d translate the documents inside our Knowledge Base. So, we know how to summarize the documents or translate it, the pro
@@ -12,7 +323,7 @@ doing it?
 
      
  
-all -  [ How to stream the last message (final response) in LangGraph? ](https://www.reddit.com/r/LangChain/comments/1d54v75/how_to_stream_the_last_message_final_response_in/) , 2024-06-01-0956
+all -  [ How to stream the last message (final response) in LangGraph? ](https://www.reddit.com/r/LangChain/comments/1d54v75/how_to_stream_the_last_message_final_response_in/) , 2024-06-02-0956
 ```
 Hey guys! Does anyone have any idea as to how I can stream **ONLY** the last message (which should also be the response 
 received by the user) generated by my sequence of agents? I'm trying to build an UI for my LangGraph chatbot using Chain
@@ -23,7 +334,7 @@ th that, please? Thank you!
 
      
  
-all -  [ About to start my new grad job search, just wanted some criticism and advice! ](https://www.reddit.com/r/resumes/comments/1d5421v/about_to_start_my_new_grad_job_search_just_wanted/) , 2024-06-01-0956
+all -  [ About to start my new grad job search, just wanted some criticism and advice! ](https://www.reddit.com/r/resumes/comments/1d5421v/about_to_start_my_new_grad_job_search_just_wanted/) , 2024-06-02-0956
 ```
 https://preview.redd.it/gx7qkjh2dt3d1.png?width=1106&format=png&auto=webp&s=ee7865b9b11495098ee5e7e7d2979b3c1471462b
 
@@ -37,7 +348,7 @@ grad swe positions!
 
      
  
-all -  [ Best resources on Evaluation / Agents and Tools ](https://www.reddit.com/r/LangChain/comments/1d53me9/best_resources_on_evaluation_agents_and_tools/) , 2024-06-01-0956
+all -  [ Best resources on Evaluation / Agents and Tools ](https://www.reddit.com/r/LangChain/comments/1d53me9/best_resources_on_evaluation_agents_and_tools/) , 2024-06-02-0956
 ```
 I am facing an issue of agent not being able to pick the appropriate tool for the appropriate response?
 
@@ -51,7 +362,7 @@ tter ways to evaluate my prompts.
 
      
  
-all -  [ Have you gone to prod? ](https://www.reddit.com/r/LangChain/comments/1d521s1/have_you_gone_to_prod/) , 2024-06-01-0956
+all -  [ Have you gone to prod? ](https://www.reddit.com/r/LangChain/comments/1d521s1/have_you_gone_to_prod/) , 2024-06-02-0956
 ```
 Have any of you successfully deployed langchain in prod? As in actually getting money for a saas business of some sort? 
 Tell me your experience? Whats your usecase and what Lang product did you use? 
@@ -60,7 +371,7 @@ Tell me your experience? Whats your usecase and what Lang product did you use?
 
      
  
-all -  [ Limiting memory in Langchain RunnableWithMessageHistory ](https://www.reddit.com/r/RagAI/comments/1d51qjr/limiting_memory_in_langchain/) , 2024-06-01-0956
+all -  [ Limiting memory in Langchain RunnableWithMessageHistory ](https://www.reddit.com/r/RagAI/comments/1d51qjr/limiting_memory_in_langchain/) , 2024-06-02-0956
 ```
 I am using RunnableWithMessageHistory for an application that needs sources and chat history. But unlike ConversationBuf
 ferWindowMemory there is no way to limit memory in RunnableWithMessageHistory, any way I can limit the chat history to a
@@ -72,7 +383,7 @@ ferWindowMemory there is no way to limit memory in RunnableWithMessageHistory, a
 
      
  
-all -  [ Can Crew AI agents execute a task based on instructions written in a document? ](https://www.reddit.com/r/crewai/comments/1d519qk/can_crew_ai_agents_execute_a_task_based_on/) , 2024-06-01-0956
+all -  [ Can Crew AI agents execute a task based on instructions written in a document? ](https://www.reddit.com/r/crewai/comments/1d519qk/can_crew_ai_agents_execute_a_task_based_on/) , 2024-06-02-0956
 ```
 Here is my use case:
 
@@ -233,7 +544,7 @@ P.S.: I have also reported this
 
      
  
-all -  [ Cant retrieve tables and how can i pass metadata? ](https://www.reddit.com/r/LangChain/comments/1d4y683/cant_retrieve_tables_and_how_can_i_pass_metadata/) , 2024-06-01-0956
+all -  [ Cant retrieve tables and how can i pass metadata? ](https://www.reddit.com/r/LangChain/comments/1d4y683/cant_retrieve_tables_and_how_can_i_pass_metadata/) , 2024-06-02-0956
 ```
 I am using Langchain's SQL Agent to execute queries in natural language on my MS-SQL database. Here is my code:
 
@@ -286,7 +597,7 @@ etadata' parameter is not accepted.
 
      
  
-all -  [ Langsmith - Get Test Results Python SDK ](https://www.reddit.com/r/LangChain/comments/1d4xmvw/langsmith_get_test_results_python_sdk/) , 2024-06-01-0956
+all -  [ Langsmith - Get Test Results Python SDK ](https://www.reddit.com/r/LangChain/comments/1d4xmvw/langsmith_get_test_results_python_sdk/) , 2024-06-02-0956
 ```
 Hey guys, due to suboptimal documentation, I really struggle to get the results of a evaluation via the langsmith client
 . If someone could help, that would be amazing!
@@ -315,7 +626,7 @@ be amazing if you have an answer, I cannot imagine I am the only one with that p
 
      
  
-all -  [ This week in AI - all the Major AI developments in a nutshell ](https://www.reddit.com/r/StableDiffusion/comments/1d4x69j/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-06-01-0956
+all -  [ This week in AI - all the Major AI developments in a nutshell ](https://www.reddit.com/r/StableDiffusion/comments/1d4x69j/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-06-02-0956
 ```
 1. **The Simulation** (formerly Fable Studio) launched ***Showrunner***, a platform for users to create TV shows with AI
 , dubbing it the 'Netflix of AI'. With just a 10-15 word prompt, users can generate scenes and episodes of 2-16 minutes,
@@ -412,7 +723,7 @@ to join, sent only once a week with bite-sized news, learning resources and sele
 
      
  
-all -  [ This week in AI - all the Major AI developments in a nutshell ](https://www.reddit.com/r/ArtificialInteligence/comments/1d4x3sg/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-06-01-0956
+all -  [ This week in AI - all the Major AI developments in a nutshell ](https://www.reddit.com/r/ArtificialInteligence/comments/1d4x3sg/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-06-02-0956
 ```
 1. **The Simulation** (formerly Fable Studio) launched ***Showrunner***, a platform for users to create TV shows with AI
 , dubbing it the 'Netflix of AI'. With just a 10-15 word prompt, users can generate scenes and episodes of 2-16 minutes,
@@ -507,7 +818,7 @@ nce a week with bite-sized news, learning resources and selected tools. Thanks!
 
      
  
-all -  [ We need you! FOSS local machine LLM client ](https://www.reddit.com/r/u__Wilielmus_/comments/1d4x38l/we_need_you_foss_local_machine_llm_client/) , 2024-06-01-0956
+all -  [ We need you! FOSS local machine LLM client ](https://www.reddit.com/r/u__Wilielmus_/comments/1d4x38l/we_need_you_foss_local_machine_llm_client/) , 2024-06-02-0956
 ```
 # Hello everyone!
 
@@ -539,7 +850,7 @@ If the answer is yes
 
      
  
-all -  [ log analyzer using llm ](https://www.reddit.com/r/LangChain/comments/1d4tmdo/log_analyzer_using_llm/) , 2024-06-01-0956
+all -  [ log analyzer using llm ](https://www.reddit.com/r/LangChain/comments/1d4tmdo/log_analyzer_using_llm/) , 2024-06-02-0956
 ```
 Hi
 
@@ -559,7 +870,7 @@ Can
      
  
 all -  [ Join Us in Developing a Flutter Client for Mattermost with AI-Generated Code! 🚀
- ](https://www.reddit.com/r/FlutterDev/comments/1d4t671/join_us_in_developing_a_flutter_client_for/) , 2024-06-01-0956
+ ](https://www.reddit.com/r/FlutterDev/comments/1d4t671/join_us_in_developing_a_flutter_client_for/) , 2024-06-02-0956
 ```
 Hi Flutter Devs!
 
@@ -619,13 +930,13 @@ stions in the comments. Looking forward to collaborating with you!
 Best,
 
 Prince  
-Alippo
+VP Engineering, Alippo
 ```
 ---
 
      
  
-all -  [ Langchain with Llama.cpp not Llama.cpp-python ](https://www.reddit.com/r/LangChain/comments/1d4t3du/langchain_with_llamacpp_not_llamacpppython/) , 2024-06-01-0956
+all -  [ Langchain with Llama.cpp not Llama.cpp-python ](https://www.reddit.com/r/LangChain/comments/1d4t3du/langchain_with_llamacpp_not_llamacpppython/) , 2024-06-02-0956
 ```
 I'm using Langchain with LLama.cpp-python because it I was the fastest solution I found out.
 
@@ -640,15 +951,7 @@ ma.cpp-python.
 
      
  
-all -  [ Why learn LangChain (as a JavaScript developer)? ](https://www.js-craft.io/blog/learn-langchain-javascript-developer/) , 2024-06-01-0956
-```
-
-```
----
-
-     
- 
-all -  [ Getting completely ignored by employers, What wrong with my resume ?  ](https://www.reddit.com/r/resumes/comments/1d4rbw4/getting_completely_ignored_by_employers_what/) , 2024-06-01-0956
+all -  [ Getting completely ignored by employers, What wrong with my resume ?  ](https://www.reddit.com/r/resumes/comments/1d4rbw4/getting_completely_ignored_by_employers_what/) , 2024-06-02-0956
 ```
 I have applied to at least 25 places for an internship this summer and I keep getting rejected or ignored. If anyone cou
 ld help me fix my resume lemme know.
@@ -662,7 +965,7 @@ https://preview.redd.it/jwxcodosaq3d1.png?width=713&format=png&auto=webp&s=52594
 
      
  
-all -  [ Long running time for document retrieval with ollama3  ](https://www.reddit.com/r/LangChain/comments/1d4p6t9/long_running_time_for_document_retrieval_with/) , 2024-06-01-0956
+all -  [ Long running time for document retrieval with ollama3  ](https://www.reddit.com/r/LangChain/comments/1d4p6t9/long_running_time_for_document_retrieval_with/) , 2024-06-02-0956
 ```
 Hi,
 
@@ -678,7 +981,7 @@ Thanks
 
      
  
-all -  [ Is LangChain usable? ](https://www.reddit.com/r/LocalLLaMA/comments/1d4p1t6/is_langchain_usable/) , 2024-06-01-0956
+all -  [ Is LangChain usable? ](https://www.reddit.com/r/LocalLLaMA/comments/1d4p1t6/is_langchain_usable/) , 2024-06-02-0956
 ```
 I don’t know you, but when I build an LLM app for a client LangChain is always more of a hassle to get started than just
  writing the ‘supporting’ code myself.
@@ -692,7 +995,7 @@ Anyone
 
      
  
-all -  [ I'm trying out a new tool and I need some help ](https://www.reddit.com/r/LangChain/comments/1d4o9yr/im_trying_out_a_new_tool_and_i_need_some_help/) , 2024-06-01-0956
+all -  [ I'm trying out a new tool and I need some help ](https://www.reddit.com/r/LangChain/comments/1d4o9yr/im_trying_out_a_new_tool_and_i_need_some_help/) , 2024-06-02-0956
 ```
 I need a way to ingest 10 PDFs containing financial information and then I need to able to ask an LLM to make me custom 
 charts and graphs based on the data there is in those 10PDFs. need the LLM to have context of all 120 PDFs or it to do a
@@ -702,7 +1005,7 @@ charts and graphs based on the data there is in those 10PDFs. need the LLM to ha
 
      
  
-all -  [ Famous YouTube Personality Finance Chat Bot ](https://www.reddit.com/r/LangChain/comments/1d4ngwg/famous_youtube_personality_finance_chat_bot/) , 2024-06-01-0956
+all -  [ Famous YouTube Personality Finance Chat Bot ](https://www.reddit.com/r/LangChain/comments/1d4ngwg/famous_youtube_personality_finance_chat_bot/) , 2024-06-02-0956
 ```
 ## Famous YouTube Personality Finance Chat Bot ##
 ----------
@@ -725,7 +1028,7 @@ tain chat history in PG Vector
 
      
  
-all -  [ Am I the only one langgraph docs suck? ](https://www.reddit.com/r/ArtificialInteligence/comments/1d4lxrv/am_i_the_only_one_langgraph_docs_suck/) , 2024-06-01-0956
+all -  [ Am I the only one langgraph docs suck? ](https://www.reddit.com/r/ArtificialInteligence/comments/1d4lxrv/am_i_the_only_one_langgraph_docs_suck/) , 2024-06-02-0956
 ```
 I find langchain interesting to use as I’ve build some initial small pet projects off it but a lot of learning has been 
 done by reading articles and watching some videos. Watching anything put out by landchain is far too complex. They just 
@@ -739,7 +1042,7 @@ ould be appreciated
 
      
  
-all -  [ Preprocessing using directoryloader ](https://www.reddit.com/r/LangChain/comments/1d4ihev/preprocessing_using_directoryloader/) , 2024-06-01-0956
+all -  [ Preprocessing using directoryloader ](https://www.reddit.com/r/LangChain/comments/1d4ihev/preprocessing_using_directoryloader/) , 2024-06-02-0956
 ```
 I am using directoryloader to load pdfs but I need to process them and remove certain words that are found in them. 
 
@@ -753,7 +1056,7 @@ I could convert the Document into a dict and process but then how do I convert i
 
      
  
-all -  [ Question about manual testing on LangSmith hub ](https://www.reddit.com/r/LangChain/comments/1d4d5mp/question_about_manual_testing_on_langsmith_hub/) , 2024-06-01-0956
+all -  [ Question about manual testing on LangSmith hub ](https://www.reddit.com/r/LangChain/comments/1d4d5mp/question_about_manual_testing_on_langsmith_hub/) , 2024-06-02-0956
 ```
 Hi folks, I was just wondering if there is a feature on the langSmith where we can manually evaluate the inputs/outputs 
 of our LLM. On the documentation they talk about how there can be manual evaluators that can be set up but I can't seem 
@@ -767,7 +1070,7 @@ thanks in advance
 
      
  
-all -  [ How to resolve ModuleNotFoundError ](https://www.reddit.com/r/learnpython/comments/1d4c5q2/how_to_resolve_modulenotfounderror/) , 2024-06-01-0956
+all -  [ How to resolve ModuleNotFoundError ](https://www.reddit.com/r/learnpython/comments/1d4c5q2/how_to_resolve_modulenotfounderror/) , 2024-06-02-0956
 ```
 Hi guys, I need help resolving the ModelNotFoundError after installing the library from the command line. I can see the 
 library on the pip list, but if I run my code, I get the error below. 
@@ -804,7 +1107,7 @@ ModuleNotFoundError: No module named 'langchain\_community
 
      
  
-all -  [ Is there a tool or website for showing the best stack to do a particular thing and examples. ](https://www.reddit.com/r/webdev/comments/1d4babf/is_there_a_tool_or_website_for_showing_the_best/) , 2024-06-01-0956
+all -  [ Is there a tool or website for showing the best stack to do a particular thing and examples. ](https://www.reddit.com/r/webdev/comments/1d4babf/is_there_a_tool_or_website_for_showing_the_best/) , 2024-06-02-0956
 ```
 Is there a website or repo list that shows off the best stack to do a particular thing?
 
@@ -828,7 +1131,7 @@ etc
 
      
  
-all -  [ Help on creating a ChatBot for in-app private data ](https://www.reddit.com/r/LangChain/comments/1d4a55w/help_on_creating_a_chatbot_for_inapp_private_data/) , 2024-06-01-0956
+all -  [ Help on creating a ChatBot for in-app private data ](https://www.reddit.com/r/LangChain/comments/1d4a55w/help_on_creating_a_chatbot_for_inapp_private_data/) , 2024-06-02-0956
 ```
 Hello, I'm very new to LLMs and I got confused on how to proceed. At the moment I want to use LanChain and ChatGPT.
 
@@ -849,7 +1152,7 @@ re - RAG, Agent, OpenAI Function calling.
 
      
  
-all -  [ RAG relation between documents ](https://www.reddit.com/r/LangChain/comments/1d49off/rag_relation_between_documents/) , 2024-06-01-0956
+all -  [ RAG relation between documents ](https://www.reddit.com/r/LangChain/comments/1d49off/rag_relation_between_documents/) , 2024-06-02-0956
 ```
 I have a list of json objects that have a module name and a link to a file. I have this files downloaded. However when I
  query something about a module name, it only retrieves that json object and does not retrieve the file associated with 
@@ -860,7 +1163,7 @@ there a better way?
 
      
  
-all -  [ RAG Me Up - easy RAG ](https://www.reddit.com/r/LocalLLaMA/comments/1d48l95/rag_me_up_easy_rag/) , 2024-06-01-0956
+all -  [ RAG Me Up - easy RAG ](https://www.reddit.com/r/LocalLLaMA/comments/1d48l95/rag_me_up_easy_rag/) , 2024-06-02-0956
 ```
 After doing RAG for quite a while, we figured we'd open source our generic framework with some lessons learned so far, c
 heck it out: [https://github.com/UnderstandLingBV/RAGMeUp](https://github.com/UnderstandLingBV/RAGMeUp)
@@ -888,7 +1191,7 @@ there's lots more to come.
 
      
  
-all -  [ CopilotKit v0.9.0 (MIT) - open source framework for in-app AI Copilots & agents ](https://www.reddit.com/r/OpenAI/comments/1d48jqp/copilotkit_v090_mit_open_source_framework_for/) , 2024-06-01-0956
+all -  [ CopilotKit v0.9.0 (MIT) - open source framework for in-app AI Copilots & agents ](https://www.reddit.com/r/OpenAI/comments/1d48jqp/copilotkit_v090_mit_open_source_framework_for/) , 2024-06-02-0956
 ```
 Hi everyone,
 
@@ -924,7 +1227,7 @@ ed under MIT license and self hosted. We're still looking for more things to add
 
      
  
-all -  [ [AskJS] Build a QA Bot for your documentation with Langchain ](https://www.reddit.com/r/javascript/comments/1d44v34/askjs_build_a_qa_bot_for_your_documentation_with/) , 2024-06-01-0956
+all -  [ [AskJS] Build a QA Bot for your documentation with Langchain ](https://www.reddit.com/r/javascript/comments/1d44v34/askjs_build_a_qa_bot_for_your_documentation_with/) , 2024-06-02-0956
 ```
 **TL;DR**
 
@@ -951,7 +1254,7 @@ Read the full article [here](https://wingla.ng/qa-bot).
 
      
  
-all -  [ Crewai x Langchain ](https://www.reddit.com/r/crewai/comments/1d447tj/crewai_x_langchain/) , 2024-06-01-0956
+all -  [ Crewai x Langchain ](https://www.reddit.com/r/crewai/comments/1d447tj/crewai_x_langchain/) , 2024-06-02-0956
 ```
 Hi everyone!
 
@@ -962,373 +1265,7 @@ Does anyone know any documentation/reference on how to best integrate langchain 
 
      
  
-all -  [ Langchain lemonai tool ](https://www.reddit.com/r/LangChain/comments/1d44719/langchain_lemonai_tool/) , 2024-06-01-0956
-```
-Hi everyone! I'm trying to wrap my head around how I could integrate lemonai agents into my workflow. It says that it in
-tegrates with `Airtable`, `Hubspot`, `Discord`, `Notion`, `Slack` and `Github`. It sounds super powerful and i was wonde
-ring if you had any feedback ?
-```
----
-
-     
- 
-all -  [ Rag with AWS Neptune ](https://www.reddit.com/r/LangChain/comments/1d42rsd/rag_with_aws_neptune/) , 2024-06-01-0956
-```
-I am looking for tutorial/repo on RAG with Neptune for graph data
-```
----
-
-     
- 
-all -  [ CrewAI on open webui ](https://www.reddit.com/r/crewai/comments/1d42p41/crewai_on_open_webui/) , 2024-06-01-0956
-```
-Created a crew with 4 local lammas and been trying to use open webui without succes. 
-
-    import openai
-    from langch
-ain_community.llms import Ollama
-    from crewai import Agent, Task, Crew, Process
-    from flask import Flask, request,
- jsonify
-    import threading
-    
-    # Define the models
-    model1 = Ollama(model='starcoder2:latest')
-    model2 = O
-llama(model='deepseek-coder:latest')
-    model3 = Ollama(model='codegemma:2b')
-    model4 = Ollama(model='codellama')
-  
-  
-    # Define the agents with their respective goals and backstories
-    classifier1 = Agent(
-        role='Code Perfo
-rmance Optimizer',
-        goal='Optimize the provided code for performance, fixing efficiency issues such as unnecessar
-y nested loops, high-cost operations, and opportunities for parallelization or optimization.',
-        backstory='Prof. 
-OptiCode is an expert in high-performance computing, specializing in squeezing out every bit of performance from complex
- code.',
-        verbose=True,
-        allow_delegation=False,
-        llm=model1
-    )
-    
-    classifier2 = Agent(
-  
-      role='Code Readability Enhancer',
-        goal='Enhance the readability of the provided code, making changes to va
-riable names, function structures, and comments.',
-        backstory='Dr. CleanCode excels in making complex code more h
-uman-readable, bridging the gap between human language and programming languages.',
-        verbose=True,
-        allow_
-delegation=False,
-        llm=model2
-    )
-    
-    classifier3 = Agent(
-        role='SOLID Principles Verifier',
-     
-   goal='Ensure the provided code adheres to SOLID principles, making necessary adjustments and improvements.',
-        
-backstory='Solidus helps developers ensure their code adheres to high standards of software engineering, making it robus
-t and maintainable.',
-        verbose=True,
-        allow_delegation=False,
-        llm=model3
-    )
-    
-    classifier
-4 = Agent(
-        role='Code Correctness Verifier',
-        goal='Verify the correctness of the provided code, ensuring
- it meets requirements, identifying logical errors, and finalizing the code.',
-        backstory='DebugMaster has an ext
-ensive database of coding errors and a keen understanding of code logic, ensuring every piece of code it reviews is flaw
-less.',
-        verbose=True,
-        allow_delegation=False,
-        llm=model4
-    )
-    
-    # Define the tasks for e
-ach agent
-    agent1_task = Task(
-        description='Analyze and optimize the code for performance, identifying and fi
-xing efficiency issues, and apply improvements.',
-        agent=classifier1,
-        expected_output='Enhanced code with
- performance improvements.'
-    )
-    
-    agent2_task = Task(
-        description='Enhance the readability of the code,
- making changes to variable names, function structures, and comments.',
-        agent=classifier2,
-        expected_outp
-ut='Enhanced code with improved readability.'
-    )
-    
-    agent3_task = Task(
-        description='Ensure the code ad
-heres to SOLID principles, making necessary adjustments and improvements.',
-        agent=classifier3,
-        expected_
-output='Enhanced code adhering to SOLID principles.'
-    )
-    
-    agent4_task = Task(
-        description='Verify the 
-correctness of the code, ensuring it meets requirements, identifying logical errors, and finalizing the code.',
-        
-agent=classifier4,
-        expected_output='Fully corrected and verified code.'
-    )
-    
-    # Create the crew with ag
-ents and tasks in sequence
-    crew = Crew(
-        agents=[classifier1, classifier2, classifier3, classifier4],
-       
- tasks=[agent1_task, agent2_task, agent3_task, agent4_task],
-        process=Process.sequential
-    )
-    
-    # Initial
-ize Flask app
-    app = Flask(__name__)
-    
-    @app.route('/api/models', methods=['GET'])
-    def list_models():
-     
-   return jsonify({
-            'models': [
-                {'name': 'crewai_code_optimizer', 'description': 'A model th
-at optimizes code through various stages.'}
-            ]
-        })
-    
-    @app.route('/api/models/crewai_code_optimi
-zer', methods=['POST'])
-    def handle_models():
-        data = request.json
-        initial_code = data.get('code', '')
-
-        
-        if not initial_code:
-            return jsonify({'error': 'No code provided'}), 400
-    
-        initi
-al_task = Task(
-            description='This is the initial task to provide the code to be analyzed.',
-            agen
-t=classifier1,
-            expected_output=initial_code,
-        )
-    
-        # Add the initial task to the crew
-     
-   crew.tasks.insert(0, initial_task)
-    
-        # Kick off the process
-        output = crew.kickoff()
-    
-        #
- Remove the initial task after processing
-        crew.tasks.pop(0)
-    
-        return jsonify({'enhanced_code': output
-})
-    
-    def run_flask():
-        app.run(host='0.0.0.0', port=5003)
-    
-    def run_chat():
-        while True:
-   
-         initial_code = input('Please input the code to be analyzed (or type 'exit' to quit):\n')
-            if initial
-_code.lower() == 'exit':
-                break
-    
-            initial_task = Task(
-                description='This i
-s the initial task to provide the code to be analyzed.',
-                agent=classifier1,
-                expected_out
-put=initial_code,
-            )
-    
-            # Add the initial task to the crew
-            crew.tasks.insert(0, ini
-tial_task)
-    
-            # Kick off the process
-            output = crew.kickoff()
-            print(output)
-    
-  
-          # Remove the initial task after processing
-            crew.tasks.pop(0)
-    
-    if __name__ == '__main__':
- 
-       # Run Flask in a separate thread
-        flask_thread = threading.Thread(target=run_flask)
-        flask_thread.s
-tart()
-    
-        # Run the chat interface
-        run_chat()
-    
-    
-    
-
-Can anyone give me a hint on where I'm m
-aking a mistake?  
-
-```
----
-
-     
- 
-all -  [ How to deploy a finetuned model on a private server? ](https://www.reddit.com/r/LocalLLaMA/comments/1d405va/how_to_deploy_a_finetuned_model_on_a_private/) , 2024-06-01-0956
-```
-I have a project where I need to fine-tune a Large Language Model (LLM) such as LLAMA3 for a specific task and then depl
-oy it on the company's server as a chatbot to recommend 'questionnaires / surveys' based on studies described by the use
-rs.
-
-As I am new to working with LLMs, I need some guidance. Here is my planned approach:
-
-1. Obtain a base model and tr
-ain it on my dataset using a fine-tuning method like QLoRa.
-2. Save the trained model and convert it into a GGFU file us
-ing LLAMA.cpp, allowing for local testing. (I'm planning to using langchain at this step)
-3. Once the model is tested an
-d verified, create an API that enables users to interact with the model.
-4. Develop a Docker image of the application, w
-hich will consist of the API at this stage.
-5. Deploy the API on the company’s private server using the Docker image and
- connect it to our website.
-
-Is this the correct approach to achieve my goal? Thank you for your help.
-```
----
-
-     
- 
-all -  [ AI agent for identifying longest running queries and optimizing them on Snowflake ](https://www.reddit.com/r/snowflake/comments/1d3yhea/ai_agent_for_identifying_longest_running_queries/) , 2024-06-01-0956
-```
-Hello everyone! My team has created a Snowflake query optimization agent, and we wanted to share it with you all to get 
-ideas/feedback on how to improve it and identify other use cases for it. Meet Snow-Wise!
-
-**What it does:**
-
-* Identifie
-s the longest running tasks
-* Offers immediate optimization suggestions
-* Shares query logs to verify improvements
-
-We u
-sed Snowflake Arctic, Cortex, Langchain, Python, OpenAI, and Streamlit to build it. So far, we've seen a 50% reduction i
-n latency for some of our warehouse queries with the help of Snow-Wise.
-
-Here is the [demo video](https://www.loom.com/s
-hare/119282ca006d4792873d38d86dc23f69) put together by u/imshubham31. The [GitHub repo](https://github.com/HousewareHQ/s
-now-wise) has more details if you want to check it out.
-
-Would love to hear your thoughts and feedback!
-```
----
-
-     
- 
-all -  [ Is Elastic search better than ChromaDB? ](https://www.reddit.com/r/LangChain/comments/1d3xtlq/is_elastic_search_better_than_chromadb/) , 2024-06-01-0956
-```
-So, I am working on a RAG framework and for that I am currently using ChromaDB with all-MiniLM-L6-v2 embedding function.
- But one of my colleague suggested using Elastic Search for they mentioned it is much faster and accurate. So I did my o
-wn testing and found that for top_k=5, ES is 100% faster than ChromaDB. For all top_k values, ES is performing much fast
-er. Also for top_k = 5, ES retrieved current document link 37% times accurately than ChromaDB. 
-
-However, when I read th
-ings online, it is mentioned that ChromaDB is faster and is used by many companies as their go to vectordb. What do you 
-think could be the possible reason for this? Is there anything that I can use to improve ChromaDB's performance and accu
-racy?
-```
----
-
-     
- 
-all -  [ Would you use this instead of Perplexity? ](https://www.reddit.com/r/perplexity_ai/comments/1d3upmf/would_you_use_this_instead_of_perplexity/) , 2024-06-01-0956
-```
-I'm building a General purpose AI Copilot (Bind AI) with ability to switch between GPT-4o, Claude 3 Opus, Command R and 
-a few other models, it carries over the chat history when you switch models. We just added 'Web Search', similar to Perp
-lexity it can research the web and provide a summarized answer. You can generate code and execute the code (simple stuff
- which does not require multiple files to execute)
-
-I wanted get feedback from this community, as you guys use multiple 
-tools along with Perplexity:
-
-1. Would you find this useful, in addition *or* as a replacement to Perplexity, Phind, MS 
-Copilot or similar?
-2. If not, why not, what could make this more useful?
-
-If you're interested to know the inner workin
-gs, we're using a prompt template + Langchain Agents/Tools which interacts with the web. We experimented with quite a fe
-w APIs for search retrieval (Bing search, Brave, Google search via SERPapi, Tavily). It is fairly easy to get something 
-working, however, it does require implementing agentic workflows and tool routing to get better responses, esp. for case
-s where you don't actually need to search the web (recent models such as GPT-4o do fairly well without internet search).
- We also noticed that, better models do better job synthesizing the information from search results, we compared 4o, Com
-mand R, Haiku, Mixtral, GPT 3.5. (I might write a blog post on this, I had posted a comment on a sub-reddit recently). W
-e're not yet integrated with Mistral Codestral which just came out today.
-
-**Edit**: Removed the links, since I got the 
-feedback I was looking for.
-
-If you're curious, you can google for 'Bind AI' and find the link.
-```
----
-
-     
- 
-all -  [ GCP Vector Search as Vector Database? ](https://www.reddit.com/r/LangChain/comments/1d3tx3f/gcp_vector_search_as_vector_database/) , 2024-06-01-0956
-```
-I'm looking for a vector database that can scale - around 500m+ embeddings. I want to know how GCP Vector Search compare
-s to other solutions such as QDrant and Milvus. Seems like GCP Vector Search is super easy to get started and has high p
-erformance. I'm not sure why more people aren't talking about it.
-```
----
-
-     
- 
-all -  [ Question about chatbot and chat message history with vector db ](https://www.reddit.com/r/LangChain/comments/1d3ok4l/question_about_chatbot_and_chat_message_history/) , 2024-06-01-0956
-```
-Basically I am creating an app in which you are able to chat with the openai and I want to store the last 7 times or 7 d
-ays worth of message history from user. Now the problem is if i plainly save the chat messages then it takes up a lot of
- token size. I tried using the conversation summary buffer and all kinds of memory but either they were also resulting i
-n a lot of tokens or did not give as expected output.
-
-My question is that is there a way that once the user is done wit
-h the chat I can store the chat in a vector db and then whenever a user chats with the AI again it first checks the vect
-or db for a reference of that object and returns related data and then my open ai llm with a specified prompt and the da
-ta collected give a response whereas if there is no data found speific to the object then my llm plainly uses the prompt
- I have given it?
-
-Kindly give me if there are any other ways to do it 
-
-My tech stack is  
-Frontend Flutter, Backend Py
-thon therefore it would be easy for me to attach langchain to python and just push requests from my app to my hosted api
- using python. 
-
-Thanks
-```
----
-
-     
- 
-MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-06-01-0956
+MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-06-02-0956
 ```
 Hey r/MachineLearning, I published a new article where I built an observable semantic research paper application.
 
@@ -1355,7 +1292,7 @@ reemrasul/semantic_research_engine)
 
      
  
-MachineLearning -  [ [P] LLMinator: A Llama.cpp + Gradio based opensource Chatbot to run llms locally(cpu/cuda) directly  ](https://www.reddit.com/r/MachineLearning/comments/1cpbgd1/p_llminator_a_llamacpp_gradio_based_opensource/) , 2024-06-01-0956
+MachineLearning -  [ [P] LLMinator: A Llama.cpp + Gradio based opensource Chatbot to run llms locally(cpu/cuda) directly  ](https://www.reddit.com/r/MachineLearning/comments/1cpbgd1/p_llminator_a_llamacpp_gradio_based_opensource/) , 2024-06-02-0956
 ```
 Hi I am currently working on a context-aware streaming chatbot based on Llama.cpp, Gradio, Langchain, Transformers. LLMi
 nator can pull LLMs directly from HF & run them locally on cuda or cpu.
