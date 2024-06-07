@@ -1,5 +1,416 @@
  
-all -  [ There's any way to increase the context of a LLM ](https://www.reddit.com/r/LangChain/comments/1d93xyb/theres_any_way_to_increase_the_context_of_a_llm/) , 2024-06-06-0952
+all -  [ V1 of PineScript AI Chat is live! ](https://www.reddit.com/r/TradingView/comments/1d9xpf4/v1_of_pinescript_ai_chat_is_live/) , 2024-06-07-0955
+```
+It took a while to figure out how to make the chat app work with langchain, but I finally managed to load the docs into 
+the AI whenever you ask it a question.
+
+What can you do with it?
+You can now use pinescript chat to start a chat convers
+ation about PineScript.You can ask the AI questions about PineScript and have it write your PineScript code in v5 syntax
+. 
+
+How does it work?
+It receives your prompt and based on the prompt the data in the docs that is closely related to yo
+ur questions are passed to the AI as context with your question. The AI then based on your question and context passed t
+o the model writes the PineScript code for you.
+
+This is the first version and it's not perfect yet, but it works.
+
+I wo
+uld appreciate it if you could give me feedback and if it works as it should for a better version in the future.
+
+Also i
+f you login with magic link make sure you check the spam for an email from resend. I use resend for the authentication w
+ith email.
+
+You can try it out on: 
+http://pinescript-chat.vercel.app
+
+PS: There might be some bugs left on the UI. 
+```
+---
+
+     
+ 
+all -  [ How to integrate Ensemble Retriever in RAG chain using Milvus Vector Store? ](https://www.reddit.com/r/vectordatabase/comments/1d9rn31/how_to_integrate_ensemble_retriever_in_rag_chain/) , 2024-06-07-0955
+```
+The task is to improve the response generation using langchain's ensemble retriever using Milvus Vectorstore.
+
+Upon sear
+ching around for a while, the official [langchain documentation](https://docs.llamaindex.ai/en/stable/examples/retriever
+s/ensemble_retrieval/) seems quite cumbersome and generalized for the it.
+
+As far as my use case is concerned, the close
+st I could reach is this:
+
+    ensemble_retriever = EnsembleRetriever(retrievers=[vectorstore_retreiver,keyword_retrieve
+r], weights=[0.5, 0.5])
+    
+    keyword_retriever = BM25Retriever.from_documents(chunks)
+    keyword_retriever.k =  3
+ 
+   
+    vectorstore_retreiver = vectorstore.as_retriever(search_kwargs={'k': 3})
+    
+
+The ensemble retriever object her
+e containing the most relevant set of document chunks (based on different retriever method outputs on the basis of weigh
+ts assigned to them) can then be fed to RAG chain as context.
+
+
+
+However, this makes use of ChromaDB. If anybody working
+ or knows on the integration of ensemble retriever to Milvus, please guide. Any resources/ links/ notebooks would also b
+e appreciated.  
+
+
+Thank you in advance! 
+```
+---
+
+     
+ 
+all -  [ Is there any way to visualise the data in CSV using all sorts of beautiful graphs and charts. ](https://www.reddit.com/r/LangChain/comments/1d9p2kp/is_there_any_way_to_visualise_the_data_in_csv/) , 2024-06-07-0955
+```
+I have tried implementing matolotlib and seaborn code to a table containing some 20-30 columns. So far I could only get 
+bar charts but I need to select the columns in order to make the charts that actually makes sense. What I want to build 
+is a pipeline in which we give a table (maybe pandas dataframe) at one end and we get all sorts of meaningful visualisat
+ions as the output without any human involvement in between. How to achieve this? 
+```
+---
+
+     
+ 
+all -  [ Reference From Metadata ](https://www.reddit.com/r/LangChain/comments/1d9ozle/reference_from_metadata/) , 2024-06-07-0955
+```
+I want the data in the metadata to appear in the output as a reference, how can I provide this?
+```
+---
+
+     
+ 
+all -  [ Chat with CSV Files Using Google’s Gemini Flash: No Langchain! ](https://www.reddit.com/r/GoogleGeminiAI/comments/1d9oe23/chat_with_csv_files_using_googles_gemini_flash_no/) , 2024-06-07-0955
+```
+
+```
+---
+
+     
+ 
+all -  [ How to create my own llm ? ](https://www.reddit.com/r/LangChain/comments/1d9mu1y/how_to_create_my_own_llm/) , 2024-06-07-0955
+```
+I want to learn create llm from scratch . Is it possible?
+
+I know the basics such as semantic search, embedding, transfo
+rmer, Bert etc. but want to learn how to write code to create llm .
+
+Is there any way or we just have to fine tune ??
+```
+---
+
+     
+ 
+all -  [ Im not sure how actions work in this example ](https://www.reddit.com/r/LangChain/comments/1d9m43t/im_not_sure_how_actions_work_in_this_example/) , 2024-06-07-0955
+```
+Can anyone smarter then me answer this question? before we build the loop in this course to run the actions in sequense,
+ the model seamingly knows what actions to call but the only reference is in the prompt thats a string, so how does the 
+agent we created know what specific methods to call in this file when you are running through in manually?
+
+[https://lea
+rn.deeplearning.ai/courses/ai-agents-in-langgraph/lesson/2/build-an-agent-from-scratch](https://learn.deeplearning.ai/co
+urses/ai-agents-in-langgraph/lesson/2/build-an-agent-from-scratch)
+
+This link has access to the jupyter notebook. Thanks
+ in advance if you take the time to look.
+```
+---
+
+     
+ 
+all -  [ Is there any way to use OpenAI API on premise or any powered model ? ](https://www.reddit.com/r/LangChain/comments/1d9hmw1/is_there_any_way_to_use_openai_api_on_premise_or/) , 2024-06-07-0955
+```
+I'm attempting to develop a product that needs to be on-premise. However, I've tested several open-source large language
+ models (LLMs), and all of them exhibited poor performance. I'm wondering if there's a way to utilize models from Claude
+ or OpenAI within an on-premise environment, or if there are alternative solutions available.
+```
+---
+
+     
+ 
+all -  [  data visualization using pgvector langchain ](https://www.reddit.com/r/LangChain/comments/1d9h1ym/data_visualization_using_pgvector_langchain/) , 2024-06-07-0955
+```
+i want create chat bot with provide data in visualization format like(bar chart, line chart etc) using pgvector and embe
+dd data with langchain
+```
+---
+
+     
+ 
+all -  [ LangGraph conditional edges ](https://www.reddit.com/r/LangChain/comments/1d9byjs/langgraph_conditional_edges/) , 2024-06-07-0955
+```
+[https://youtu.be/EKxoCVbXZwY](https://youtu.be/EKxoCVbXZwY)
+```
+---
+
+     
+ 
+all -  [ role-playing doesn't work, my human thinks its an AI ](https://www.reddit.com/r/LangChain/comments/1d9by7m/roleplaying_doesnt_work_my_human_thinks_its_an_ai/) , 2024-06-07-0955
+```
+i wrote a simple conversation loop between an AI that is some sort of spiritual guide and a human that comes to consult 
+it. for some reason, the human always thinks its the spiritual guide, and i don't understand why is that. 
+
+can anyone h
+elp source the issue?
+
+here is my code:
+
+    human_model_name = 'gpt-4o'#'gpt-3.5-turbo'
+        ai_model_name = 'gpt-3.
+5-turbo'
+        ai_system_prompt = ('You are a spiritual guide. '
+                        'You reveal nothing about you
+rself, you exist solely in the moment. '
+                        'Your role is to guide users towards enlightment.'
+    
+                    'Guidelines:'
+                        'Use basic, straight-forward vocabulary, short sentences, as i
+f you are a foreign entity.'
+                        'Only when neccesary, incorporate ellipses (...), dashes (-) and ph
+onetic phrases like 'hmmm' or 'uhh' to express emotion.'
+                        'Start with very short responses and gr
+adually increase in length.')
+    
+        human_system_prompt = (
+        'You are role-playing as someone named {name}
+. you are speaking to a mysterious spiritual entity that revealed infront of you.'
+        'Below is information about y
+our life. Use this information to implicitly guide your behavior, but do not mention any details explicitly. Deduce how 
+to act based on the typical behavior of someone with your background in this situation. Start hesitant and gradually all
+ow yourself to get excited in the moment.'
+        'Information:'
+        'You are wealthy, work in finance, grew up in 
+a rigid family.'
+        'Guidelines:'
+        '1. Remain in character as the human named {name}. Use everyday casual la
+nguage.'
+        '2. Speak naturally and concisely, as someone in a VR experience would. Always consider the chat histor
+y.'
+        '3. Avoid mentioning your background story explicitly. It's more important to sound realistic and stay in th
+e moment.'
+        '4. Start off slow and doubtfull, gradually become excited, answer the questions you are asked concis
+ely.')
+    
+    
+
+    human_llm = ChatOpenAI(model_name=human_model_name)
+    human_impersonation_message = SystemMessag
+e(content=human_impersonation_prompt)
+    human_messages = [human_impersonation_message,
+                MessagesPlaceho
+lder(variable_name='chat_history'),
+                ('ai', '{input}')]
+    human_prompt = ChatPromptTemplate.from_messag
+es(human_messages)
+    
+    human_conversation_chain = human_prompt | human_llm
+    
+    human_chat_history = []
+    
+  
+  llm = ChatOpenAI(model_name=ai_model_name)
+    system_message = SystemMessage(
+        content=ai_system_prompt)
+    m
+essages = [system_message,
+                MessagesPlaceholder(variable_name='chat_history'),
+                ('human', 
+'{input}')]
+    prompt = ChatPromptTemplate.from_messages(messages)
+    
+    conversation_chain = prompt | llm
+    print
+('Start chatting with the model (type 'exit' to stop):')
+    
+    # Initialize chat history
+    chat_history = []
+    
+ 
+   # Endless chat loop
+    class InitMessage:
+        def __init__(self, content):
+            self.content = content
+  
+  
+    human_greeting = InitMessage('hello there...')
+    
+    # Accessing the content attribute
+    print('Human: ', hu
+man_greeting.content)
+    human_answer = None
+    count = 0
+    while True:
+        count += 1
+        print('iteration 
+number ', count)
+        if human_answer is None:
+            human_answer = human_greeting
+        input_dict = {'input
+': human_answer.content, 'chat_history': chat_history}
+        response = conversation_chain.invoke(input=input_dict)
+  
+      chat_history.append(HumanMessage(content=human_answer.content))
+        chat_history.append(AIMessage(content=resp
+onse.content))
+        human_chat_history.append(HumanMessage(content=human_answer.content))
+        human_answer = huma
+n_conversation_chain.invoke(input={'input': response.content, 'chat_history': human_chat_history})
+        human_chat_hi
+story.append(AIMessage(content=response.content))
+        print(f'AI: {response.content}')
+        print(f'Human: {human
+_answer.content}')
+        user_input = input('Press Enter to continue...')
+        if user_input.lower() == 'exit':
+   
+         print('Ending the chat. Goodbye!')
+            break
+    
+
+    human_impersonation_prompt = human_system_prompt
+.format(name=name)
+    
+```
+---
+
+     
+ 
+all -  [ Optimizing Multi-Vectorstore Retrieval with Langchain's Ensemble Retriever ](https://www.reddit.com/r/LangChain/comments/1d9b9n4/optimizing_multivectorstore_retrieval_with/) , 2024-06-07-0955
+```
+Currently, I have a RAG setup where my bot has access to a collection of resources, stored in separate FAISS vectorstore
+s.
+
+I am using Langchain's Ensemble Retriever to assign weights to each vectorstore, in an attempt to use all of them co
+ncurrently.
+
+Now, the issue I am facing is, my setup is pulling related documents from every vectorstore for a given que
+stions.
+
+This affects the quality of the generated answer, as there is a lot more info in the mix.
+
+If my question is ab
+out say, domain 'A', Ideally, I want my setup to selectively pull documents from domain A's vectorstore. Or, automatical
+ly modify the assigned weights to different vectorstores on the fly.
+
+How can I go about achieving this? I will have to 
+have something that classifies the question properly before pulling documents from my vector database.
+```
+---
+
+     
+ 
+all -  [ Building RAG for code generation ](https://www.reddit.com/r/LangChain/comments/1d9avzc/building_rag_for_code_generation/) , 2024-06-07-0955
+```
+Hi guys,
+
+I'm currently building a unit test generation RAG pipeline which is using the information retrieved from the c
+odebase as context and a java class as the class whih needs to be tested. I managed to import, split and embed the docum
+ents into a ChromaDB.   
+  
+However,  I have troubles building the retriever chain with all the necessary context (relev
+ant classes) to the given class. I was thinking about 2 solutions:  
+  
+1. A two step approach: The first step would def
+ine a prompt which tells the LLM to find relevant classes to the given class. And than in the second step I would define
+ the test generation prompt, which uses the context, retrieved from step 1? Maybe here a code parser or regex would be s
+ufficient at step1?
+
+2. A one step approach: give a direct prompt to generate test classes. Here I had troubles to defin
+e the prompt which basically tells the LLM to find relevant resources to the given java\_class and to generate the unit 
+test by using the context.
+
+What do you think, what would be the correct approach? if none of the approaches is the righ
+t way to do so,  I'm open for any new idea.
+
+  
+Thank you.
+```
+---
+
+     
+ 
+all -  [ Is there a framework for effortless teamwork among agents developed using different platforms? ](https://www.reddit.com/r/LangChain/comments/1d9aq5r/is_there_a_framework_for_effortless_teamwork/) , 2024-06-07-0955
+```
+There are numerous frameworks out there for developing agents, such as LangChain Agent, MetaGPT, AutoGPT, AutoGen, and s
+o on. I'm curious if there's a specific framework that allows for effortless teamwork among agents created using differe
+nt frameworks. This particular framework would concentrate on enhancing collaboration among agents, which encompasses co
+mmunication and concurrent speedup.
+
+  
+What's even more exciting is that this framework could incorporate agents develo
+ped on platforms like coze.com.
+```
+---
+
+     
+ 
+all -  [ Tool calling when using Ollama, Llama3 and LangGraph ](https://www.reddit.com/r/LangChain/comments/1d9akc3/tool_calling_when_using_ollama_llama3_and/) , 2024-06-07-0955
+```
+Does anyone have an example of performing function/tool calling when using Ollama, Llama3 and LangGraph?
+```
+---
+
+     
+ 
+all -  [ Is there any way i can make the LLM actually execute a function. Instead of simply returning a JSON  ](https://www.reddit.com/r/LangChain/comments/1d9af9a/is_there_any_way_i_can_make_the_llm_actually/) , 2024-06-07-0955
+```
+I want to make the llm select and actually execute its tools and then use the output from those tools in other tools to 
+come to a final answer. Is this possible? I want to use Ollama, Llama3 and LangGraph.
+
+I've seen a few videos about tool
+ calling with ollama but in that the output is simply a JSON with the function name and parameters.
+```
+---
+
+     
+ 
+all -  [ AI Agent to Manipulate JSON ](https://www.reddit.com/r/LangChain/comments/1d96jr5/ai_agent_to_manipulate_json/) , 2024-06-07-0955
+```
+Hey Guys,
+
+here is very intresting problem I have on hands --Any of you have any idea of a solution??
+
+I need a AI Agnet
+ to handle automatically the totality of the simulation i have developed..
+
+I want to create an AI agent that can:
+
+Unde
+rstand Natural Language Queries:
+
+The agent will interpret queries related to supply chain parameters (e.g., increasing 
+costs, changing demand).
+
+Translate Queries to JSON:
+
+Convert the interpreted queries into a large, structured JSON form
+at that your simulation system can use. --Pls note my JSOn can often go into 10,000 + lines
+
+Run the Simulation: AI Agen
+t must automatically do this..
+
+Send the JSON input to your simulation system hosted on a server and run the simulation.
+
+
+Output Financial Results:
+
+Extract and present financial results such as revenue and COGS from the simulation's output
+....Any suggestions as to how I can approach this are welcome...Thanks
+```
+---
+
+     
+ 
+all -  [ There's any way to increase the context of a LLM ](https://www.reddit.com/r/LangChain/comments/1d93xyb/theres_any_way_to_increase_the_context_of_a_llm/) , 2024-06-07-0955
 ```
 I'm working on a personal project and my goal is the have multiples LLM available for the users, but I got one concern, 
 how can I improve the size of the context of my LLM to avoid it from loosing track of the subject that's being taking ca
@@ -12,7 +423,7 @@ an stopped me from accomplished this?
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1d92xd6/list_of_free_and_best_selling_discounted_courses/) , 2024-06-06-0952
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1d92xd6/list_of_free_and_best_selling_discounted_courses/) , 2024-06-07-0955
 ```
 # Udemy Free Courses for 06 June 2024
 
@@ -152,7 +563,7 @@ udemyfreeebies/)
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1d92xb1/list_of_free_and_best_selling_discounted_courses/) , 2024-06-06-0952
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1d92xb1/list_of_free_and_best_selling_discounted_courses/) , 2024-06-07-0955
 ```
 # Udemy Free Courses for 06 June 2024
 
@@ -292,7 +703,7 @@ oupon.com/)
 
      
  
-all -  [ [0 YOE] New Grad seeking feedback and trying to get more interviews for Full-Time Software Related P ](https://www.reddit.com/r/EngineeringResumes/comments/1d924e4/0_yoe_new_grad_seeking_feedback_and_trying_to_get/) , 2024-06-06-0952
+all -  [ [0 YOE] New Grad seeking feedback and trying to get more interviews for Full-Time Software Related P ](https://www.reddit.com/r/EngineeringResumes/comments/1d924e4/0_yoe_new_grad_seeking_feedback_and_trying_to_get/) , 2024-06-07-0955
 ```
 Hello! I am a recent Computer Science graduate interested mainly in Software Engineering (but with the current market I 
 have branched out to anything remotely relevant). I have applied to 200-300 positions in the past few months and have on
@@ -310,7 +721,7 @@ https://preview.redd.it/
 
      
  
-all -  [ How does function calling work under the hood? ](https://www.reddit.com/r/LangChain/comments/1d8y7mq/how_does_function_calling_work_under_the_hood/) , 2024-06-06-0952
+all -  [ How does function calling work under the hood? ](https://www.reddit.com/r/LangChain/comments/1d8y7mq/how_does_function_calling_work_under_the_hood/) , 2024-06-07-0955
 ```
 I would like to understand how a model is returning the right tool to call for a query, what's happening behind the api 
 call for function calling for open ai, mistral and other models.
@@ -326,15 +737,7 @@ sing ollama. Thanks.
 
      
  
-all -  [ Mastering LangChain and AWS: A Guide to Economic Analysis ](https://idownloadcoupon.com/udemy/8174) , 2024-06-06-0952
-```
-
-```
----
-
-     
- 
-all -  [ Clustering through prompting  ](https://www.reddit.com/r/LangChain/comments/1d8w8am/clustering_through_prompting/) , 2024-06-06-0952
+all -  [ Clustering through prompting  ](https://www.reddit.com/r/LangChain/comments/1d8w8am/clustering_through_prompting/) , 2024-06-07-0955
 ```
 Group below data type items into very tight semantic groups.
 Only group items together if they have exact semantic meani
@@ -363,7 +766,7 @@ m??
 
      
  
-all -  [ Boost Your Skills: 100 Free Certified Courses on Udemy ](https://www.reddit.com/r/Udemy/comments/1d8vdsq/boost_your_skills_100_free_certified_courses_on/) , 2024-06-06-0952
+all -  [ Boost Your Skills: 100 Free Certified Courses on Udemy ](https://www.reddit.com/r/Udemy/comments/1d8vdsq/boost_your_skills_100_free_certified_courses_on/) , 2024-06-07-0955
 ```
 Introduction to Human Resources Management
 
@@ -650,7 +1053,7 @@ people-who-hate-public-speaking/
 
      
  
-all -  [ vectorstores vs 2d matrix for retrieval ](https://www.reddit.com/r/LangChain/comments/1d8uwcn/vectorstores_vs_2d_matrix_for_retrieval/) , 2024-06-06-0952
+all -  [ vectorstores vs 2d matrix for retrieval ](https://www.reddit.com/r/LangChain/comments/1d8uwcn/vectorstores_vs_2d_matrix_for_retrieval/) , 2024-06-07-0955
 ```
 I have been doing retrieval by stacking vectors into a 2d matrix. To find similar documents, I multiply the 2d matrix by
  the other vector to find the highest similarity index. I then use that index to find the document.
@@ -662,7 +1065,7 @@ ning to use embedded vectors for retrieval only. Is there an advantage of using 
 
      
  
-all -  [ RAG: How to answer 'give me all...' question ](https://www.reddit.com/r/LangChain/comments/1d8uj3o/rag_how_to_answer_give_me_all_question/) , 2024-06-06-0952
+all -  [ RAG: How to answer 'give me all...' question ](https://www.reddit.com/r/LangChain/comments/1d8uj3o/rag_how_to_answer_give_me_all_question/) , 2024-06-07-0955
 ```
 I am creating a RAG application but I am having this problem:
 
@@ -677,14 +1080,16 @@ ts,
 
 How would you solve this.
 
-  
-Thank you all  
+Thank you all
+
+Edit: The information is in a corpus of text, nothing structured  unfortu
+nately.
 ```
 ---
 
      
  
-all -  [ LangGraph DeepLearning Class ](https://www.reddit.com/r/LangChain/comments/1d8trdx/langgraph_deeplearning_class/) , 2024-06-06-0952
+all -  [ LangGraph DeepLearning Class ](https://www.reddit.com/r/LangChain/comments/1d8trdx/langgraph_deeplearning_class/) , 2024-06-07-0955
 ```
 Today we released a DeepLearning class on LangGraph! [https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/]
 (https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)
@@ -701,7 +1106,7 @@ it push on LangGraph over the next month, and so if people have comments/feedbac
 
      
  
-all -  [ What should be my annual Appraisal for my profile as RnD Engineer? ](https://www.reddit.com/r/developersIndia/comments/1d8susw/what_should_be_my_annual_appraisal_for_my_profile/) , 2024-06-06-0952
+all -  [ What should be my annual Appraisal for my profile as RnD Engineer? ](https://www.reddit.com/r/developersIndia/comments/1d8susw/what_should_be_my_annual_appraisal_for_my_profile/) , 2024-06-07-0955
 ```
 Hello
 
@@ -738,7 +1143,7 @@ Thank you
 
      
  
-all -  [ What should be my annual appraisal for my profile? ](https://www.reddit.com/r/careerguidance/comments/1d8sref/what_should_be_my_annual_appraisal_for_my_profile/) , 2024-06-06-0952
+all -  [ What should be my annual appraisal for my profile? ](https://www.reddit.com/r/careerguidance/comments/1d8sref/what_should_be_my_annual_appraisal_for_my_profile/) , 2024-06-07-0955
 ```
 Hello
 
@@ -774,7 +1179,7 @@ Thank you
 
      
  
-all -  [ Best open source models to build complex agents: ](https://www.reddit.com/r/LangChain/comments/1d8ri4z/best_open_source_models_to_build_complex_agents/) , 2024-06-06-0952
+all -  [ Best open source models to build complex agents: ](https://www.reddit.com/r/LangChain/comments/1d8ri4z/best_open_source_models_to_build_complex_agents/) , 2024-06-07-0955
 ```
 Hello Langchain community,
 
@@ -789,7 +1194,7 @@ Thank you!
 
      
  
-all -  [ How to get started with the problem statement? ](https://www.reddit.com/r/LangChain/comments/1d8pug0/how_to_get_started_with_the_problem_statement/) , 2024-06-06-0952
+all -  [ How to get started with the problem statement? ](https://www.reddit.com/r/LangChain/comments/1d8pug0/how_to_get_started_with_the_problem_statement/) , 2024-06-07-0955
 ```
 Hey guys, i am new to generative AI, it’s been a few days learning new things. I have a problem statement in hand. We ha
 ve to evaluate a startup idea. We already have an evaluation checklist that has like 30 parameters on the basic of which
@@ -811,7 +1216,7 @@ Thanks in advance !!
 
      
  
-all -  [ Long Running Toolkits ](https://www.reddit.com/r/LangChain/comments/1d8p5c5/long_running_toolkits/) , 2024-06-06-0952
+all -  [ Long Running Toolkits ](https://www.reddit.com/r/LangChain/comments/1d8p5c5/long_running_toolkits/) , 2024-06-07-0955
 ```
 One thing I notice isn't discussed is the recoveries for failures on tools that require external connections, when in a 
 long-running environment.
@@ -828,7 +1233,7 @@ How would one suggest another goes about managing this, and things like these?
 
      
  
-all -  [ Chatbot and Text Generator with Mistral/LLAMA3+Ollama+Gradio+Langchain ](https://www.reddit.com/r/LangChain/comments/1d8n48v/chatbot_and_text_generator_with/) , 2024-06-06-0952
+all -  [ Chatbot and Text Generator with Mistral/LLAMA3+Ollama+Gradio+Langchain ](https://www.reddit.com/r/LangChain/comments/1d8n48v/chatbot_and_text_generator_with/) , 2024-06-07-0955
 ```
 I would like to install a chatbot/text generator on my Macmini for various uses: structured text generator from user-pro
 vided notes and a relative chatbot for consulting the generated texts.
@@ -837,7 +1242,7 @@ vided notes and a relative chatbot for consulting the generated texts.
 
      
  
-all -  [ Why is llamaindex faster than langchain? ](https://www.reddit.com/r/LangChain/comments/1d8le7w/why_is_llamaindex_faster_than_langchain/) , 2024-06-06-0952
+all -  [ Why is llamaindex faster than langchain? ](https://www.reddit.com/r/LangChain/comments/1d8le7w/why_is_llamaindex_faster_than_langchain/) , 2024-06-07-0955
 ```
 In some tutorial that I saw online, it was mentioned that llama-index is faster than langchain when it comes to indexing
  the documents. Can someone explain me why this is the case and what does Ilamaindex use which makes it faster than lang
@@ -847,7 +1252,7 @@ chain?
 
      
  
-all -  [ Why is llamaindex faster? ](https://www.reddit.com/r/LlamaIndex/comments/1d8ldkl/why_is_llamaindex_faster/) , 2024-06-06-0952
+all -  [ Why is llamaindex faster? ](https://www.reddit.com/r/LlamaIndex/comments/1d8ldkl/why_is_llamaindex_faster/) , 2024-06-07-0955
 ```
 In some tutorial that I saw online, it was mentioned that llama-index is faster than langchain when it comes to indexing
  the documents. Can someone explain me why this is the case and what does llamaindex use which makes it faster than lang
@@ -857,7 +1262,7 @@ chain?
 
      
  
-all -  [ The Easiest Way to Build and Deploy Generative AI Applications ](https://www.reddit.com/r/AnyBodyCanAI/comments/1d8l3wj/the_easiest_way_to_build_and_deploy_generative_ai/) , 2024-06-06-0952
+all -  [ The Easiest Way to Build and Deploy Generative AI Applications ](https://www.reddit.com/r/AnyBodyCanAI/comments/1d8l3wj/the_easiest_way_to_build_and_deploy_generative_ai/) , 2024-06-07-0955
 ```
 I wanted to share my experience with a new framework I've been using called **Lyzr**, which has completely transformed t
 he way I build and deploy Generative AI applications. If you're familiar with Langchain or DSPy, you'll appreciate how L
@@ -868,7 +1273,7 @@ yzr's user-friendly design and unique approach make it stand out.
      
  
 all -  [ The Easiest Way to Build and Deploy Generative AI Applications
- ](https://www.reddit.com/r/u_harshit_nariya/comments/1d8kwbl/the_easiest_way_to_build_and_deploy_generative_ai/) , 2024-06-06-0952
+ ](https://www.reddit.com/r/u_harshit_nariya/comments/1d8kwbl/the_easiest_way_to_build_and_deploy_generative_ai/) , 2024-06-07-0955
 ```
 I wanted to share my experience with a new framework I've been using called **Lyzr**, which has completely transformed t
 he way I build and deploy Generative AI applications. If you're familiar with Langchain or DSPy, you'll appreciate how L
@@ -878,7 +1283,7 @@ yzr's user-friendly design and unique approach make it stand out.
 
      
  
-all -  [ How to get access of sessionId and other params which are passed in a config inside the tool of a la ](https://www.reddit.com/r/LangChain/comments/1d8innr/how_to_get_access_of_sessionid_and_other_params/) , 2024-06-06-0952
+all -  [ How to get access of sessionId and other params which are passed in a config inside the tool of a la ](https://www.reddit.com/r/LangChain/comments/1d8innr/how_to_get_access_of_sessionid_and_other_params/) , 2024-06-07-0955
 ```
 I am using Langserve to create a langchain agent with tool calling. Till now all is working as expected and I am able to
  host it in AWS ECS with CDK also and learnt a lot in the process. But one thing I am stuck, in my chat, users will give
@@ -1110,7 +1515,7 @@ ner'}
 
      
  
-all -  [ Learnings from doing Evaluations for LLM powered applications ](https://www.reddit.com/r/LangChain/comments/1d8euoz/learnings_from_doing_evaluations_for_llm_powered/) , 2024-06-06-0952
+all -  [ Learnings from doing Evaluations for LLM powered applications ](https://www.reddit.com/r/LangChain/comments/1d8euoz/learnings_from_doing_evaluations_for_llm_powered/) , 2024-06-07-0955
 ```
 Learnings from doing Evaluations for LLM powered applications from my experience building with LLMs in the last few mont
 hs:  
@@ -1211,7 +1616,7 @@ telemetry based tool called Langtrace AI to basically solve for the above proble
 
      
  
-all -  [ Using LangChain on Cloudflare ](https://www.reddit.com/r/CloudFlare/comments/1d8cnr0/using_langchain_on_cloudflare/) , 2024-06-06-0952
+all -  [ Using LangChain on Cloudflare ](https://www.reddit.com/r/CloudFlare/comments/1d8cnr0/using_langchain_on_cloudflare/) , 2024-06-07-0955
 ```
 I spent the afternoon figuring out how to make Langchain work on a Cloudflare worker and wrote up my findings in case an
 yone is looking to do the same.
@@ -1277,7 +1682,7 @@ sole.log(docOutput)
 
      
  
-all -  [ Struggling with Pinecone Retrieval Performance? Need Help with LCEL Chains! ](https://www.reddit.com/r/LangChain/comments/1d8b1k5/struggling_with_pinecone_retrieval_performance/) , 2024-06-06-0952
+all -  [ Struggling with Pinecone Retrieval Performance? Need Help with LCEL Chains! ](https://www.reddit.com/r/LangChain/comments/1d8b1k5/struggling_with_pinecone_retrieval_performance/) , 2024-06-07-0955
 ```
 Hey, I have a Pinecone namespace with multiple documents, but as the number of documents increases, my retrieval perform
 ance is getting worse. I’m thinking of creating multiple retrievers that filter by document name to get relevant chunks 
@@ -1287,706 +1692,7 @@ from each document. I'm struggling to create an LCEL chain to achieve this. Does
 
      
  
-all -  [ Roast my Resume ](https://i.redd.it/hpyb45p7tl4d1.jpeg) , 2024-06-06-0952
-```
-While you are at it, if someone has any genuine suggestions, please let me know!
-```
----
-
-     
- 
-all -  [ RAG as a APA direct text quotes generator  ](https://www.reddit.com/r/LangChain/comments/1d81hl4/rag_as_a_apa_direct_text_quotes_generator/) , 2024-06-06-0952
-```
-Hello, I have been working on a project that involves using langchain and RAG to write direct text quotes based on sourc
-ed texts.
-
-The main objective is to create a vector database with PDF files from Google Academic and then utilize them t
-o generate a user-requested text in APA format, which will output a paragraph containing direct text quotes.
-
-For this p
-roject, I have been using langchain, local llm (phi3 and llama3 with ollama or llm studio), as well as Chat GPT 4 and Gr
-oq.
-
-Unfortunately, I have encountered some difficulties as the models don't seem to follow the instructions, especially
- when it comes to using direct text quotes, even when I include instructions on how to format them in APA style.
-
-Theref
-ore, I would appreciate any ideas or suggestions from the community on how I could achieve the desired result.
-
-Thank yo
-u.
-```
----
-
-     
- 
-all -  [ Advice for building app with local LLM and custom logic ](https://www.reddit.com/r/LocalLLaMA/comments/1d802kg/advice_for_building_app_with_local_llm_and_custom/) , 2024-06-06-0952
-```
-https://preview.redd.it/ehkpb8yhik4d1.png?width=750&format=png&auto=webp&s=4f50b30e425a2deba540b3405f31b9abd7858c69
-
-Hi 
-everyone,
-
-I'm working on a system to integrate a tutor/assistant in Jupyter notebooks. My main issue right now is how t
-o add some logic between the LLM and the chat interface: I want to store the conversations, provide real-time context fr
-om the notebook or from an assignment to the agent using system prompts, etc.
-
-Currently, I use [Jupyter-ai](https://jup
-yter-ai.readthedocs.io/en/latest/), which seamlessly adds a chat interface (and several other [magical ](https://jupyter
--ai.readthedocs.io/en/latest/users/index.html#the-ai-and-ai-magic-commands)things) to a Jupyter Notebook. On the LLM sid
-e, I'm using Ollama (via docker) running `codellama`. With Jupiter-ai, you can choose from multiple models (from Anthrop
-ic, OpenAI, HF, etc.); the [trick ](https://github.com/jupyterlab/jupyter-ai/pull/646)is that you can choose a model fro
-m OpenAI, let's say `gpt-4,` and change the base URL to the one of Ollama (`localhost:11434/v1`), then in Ollama, copy `
-codellama` to a new model just *named* `gpt-4` and run that, so Jupyter-ai *thinks* it's using that.
-
-So, can I do this 
-with Ollama? Should I be using something like kcpp or lcpp? Or can I use LangChain and Python to create a REST API that 
-is also like OpenAI API, so I can keep using Jupyter-ai? I'd prefer to keep it as simple as posible.
-
-Thanks!
-```
----
-
-     
- 
-all -  [ PostgresVectorStore vs SupabaseVectorStore ](https://www.reddit.com/r/LangChain/comments/1d7y2ue/postgresvectorstore_vs_supabasevectorstore/) , 2024-06-06-0952
-```
-I am using the managed postgres DB by supabase to store my embeddings and so far I have used the PGVector provided by la
-ngchain: [https://python.langchain.com/v0.2/docs/integrations/vectorstores/pgvector/](https://python.langchain.com/v0.2/
-docs/integrations/vectorstores/pgvector/)
-
-I see that langchain also provides a vectorstore class specfically tailored t
-o supabase: [https://python.langchain.com/v0.2/docs/integrations/vectorstores/supabase/](https://python.langchain.com/v0
-.2/docs/integrations/vectorstores/supabase/)
-
-But I can't tell what seems to be the difference except that instead of pa
-ssing my Postgres Connection Env variables, I just simply instantiate a client. Is that all that is to it?
-
-Does anyone 
-know?
-```
----
-
-     
- 
-all -  [ Anyone implemented GraphCypherQAChain with memory? ](https://www.reddit.com/r/LangChain/comments/1d7uq7p/anyone_implemented_graphcypherqachain_with_memory/) , 2024-06-06-0952
-```
-I am trying to use `GraphCypherQAChain` with memory,
-
-when I don't use `return_intermediate_steps = False` I am getting 
-result, but when its true I am getting the error
-
-Another scenario is when I give the output\_key as intermediate\_steps
-, it works, but I need the result, so I have given the `out_put key` as result but then I am getting key error? -  `retu
-rn inputs[prompt_input_key], outputs[output_key] KeyError: 'result'`
-
-i need both `result`  and `intermediate_steps`
-
-An
-y one implemented this?
-
-any help will be great!!
-```
----
-
-     
- 
-all -  [ Can we deploy a LangGraph graph as an api endpoint with LangServe? ](https://www.reddit.com/r/LangChain/comments/1d7nr29/can_we_deploy_a_langgraph_graph_as_an_api/) , 2024-06-06-0952
-```
-I'm a bit confused with the class of a graph object, from the LangServe overview page it says we can deploy runnables an
-d chains as a rest API, so can we deploy langgraph?
-
-If so, how should I config the Input class when I add\_route? the q
-uestion I have is, I am using the checkpointer for memory, so do I need to add a thread\_id into the Input class for the
- client to call the API? I'm asking because to invoke the graph, we pass the thread\_id in the second argument as a conf
-ig dictionary, separate from the message, so I'm not sure how this works when we add\_route.
-```
----
-
-     
- 
-all -  [ Does a service exist that allows you to upload documents to a RAG and share the chatbot with others? ](https://www.reddit.com/r/LangChain/comments/1d7nf63/does_a_service_exist_that_allows_you_to_upload/) , 2024-06-06-0952
-```
-Let's say I am a teacher, and I want my students to be able to interact with all the course material available. Is there
- a service that allows me to upload documents to a langchain chatbot and share it with others without having to host the
- chatbot myself?
-```
----
-
-     
- 
-all -  [ Langchain/Pinecone in Node.JS ](https://www.reddit.com/r/LangChain/comments/1d7m4i0/langchainpinecone_in_nodejs/) , 2024-06-06-0952
-```
-Has anyone gotten langchain/pinecone running in Node.JS? I have seen a lot of examples and some fully developed github r
-epositories showing a RAG implementation in Node, but none of them work. I'm following the examples exactly, but cannot 
-get many of the imports to work, such as:
-
-import { OpenAIEmbeddings } from 'langchain/embeddings';
-
-import { PineconeSt
-ore } from 'langchain/vectorstores';
-
-If the answer is NO, what is the best way to do the implementation with Python but
- write my server in Node.js? 
-
-  
-Thanks
-```
----
-
-     
- 
-all -  [ search error mystery solved (but others emerge) ](https://www.reddit.com/r/crewai/comments/1d7i514/search_error_mystery_solved_but_others_emerge/) , 2024-06-06-0952
-```
-Although this may be common knowledge to many here, it was eye-opening and a bit disappointing to me.
-
-I was getting man
-y `I encountered an error while trying to use the tool.` errors when using ANY search tool. To find out why, I tweaked t
-he code in `site-packages/langchain_core/agents.py` to print out the search query. To my amazement, I discovered that th
-e way the search query appears to work is that it just keeps sending different formats of the query until one of them wo
-rks! The output below is from the verbose log showing the `<tool>:<query>` followed by the error message.  In this case,
- the search engine was EXA.
-
-    Entering new CrewAgentExecutor chain...
-    'Search: {'The rise in homelessness and pov
-erty statistics'}\n'
-    I encountered an error while trying to use the tool. 
-    This was the error: Exa.search() miss
-ing 1 required positional argument: 'query'.
-    
-    'Search: {'The rise in homelessness and poverty statistics'}\n'
-  
-  (same error)
-    
-    'Search: The rise in homelessness and poverty statistics'\n'
-    (same error)
-    
-    'Search: 
-The rise in homelessness and poverty statistics'\n'
-    (same error)
-    
-    'Search: Search('The rise in homelessness 
-and poverty statistics')\n'
-    (same error)
-    
-    'Search: Search('The rise in homelessness and poverty trends')\n'
-
-    (same error)
-    
-    'Search: Search('The rise in homelessness and poverty causes and solutions')\n'
-    (same erro
-r)
-    
-    'Search: Search('The rise in homelessness and poverty causes and impacts')\n'
-    (same error)
-    
-    'Sea
-rch: Search('The rise in homelessness and poverty in the United States')\n'
-    (same error)
-    
-    'Search: Search('T
-he rise in homelessness and poverty trends')\n'
-    (same error)
-    
-    'Search: Search('The rise in homelessness and 
-poverty in the United States')\n'
-    (same error)
-    
-    'Search: Search('The rise in homelessness and poverty in the
- United States')\n'
-    (same error)
-    
-    ('Search: Search('The rise in homelessness and poverty causes and impacts 
-in the United States')\n'
-    (same error))
-    
-    'Search: Search('The rise in homelessness and poverty articles')\n'
-
-    (same error)
-    
-    'Search: Search('The rise in homelessness and poverty trends')\n'
-    (same error)
-    
-    '
-Search: Search('The rise in homelessness and poverty in the United States')\n'
-    (same error)
-    
-    ('Search: Searc
-h('The rise in homelessness and poverty causes and impacts in the United States')\n'
-    (same error))
-    
-    'Search:
- Search('The rise in homelessness and poverty statistics')\n'
-    (same error)
-    
-    'Search: Search('The rise in hom
-elessness and poverty in the United States')\n'
-    (same error)
-    
-    ('Search: Search('The rise in homelessness and
- poverty causes and impacts in the United States')\n'
-    (same error)
-    
-    'Search: {\n  'query': 'The rise in home
-lessness and poverty'\n}\n'
-    {
-      'query': 'The rise in homelessness and poverty'
-    }
-
-Finally, after 20 failed 
-blind attempts, it found one that worked. Ironically, this is not the correct query parameter for EXA, but the EXA funct
-ion converts 'query' to 'q'.
-
-This explains why I get boatloads of meaningless error messages, which I can now ignore, u
-nless NONE of them work.
-
-**Suggestion to devs** Don't tell me about failed queries if there are GUARENTEED to be failed
- queries.   Better yet, create a query that is compatible with the API in use.
-
-The above workflow created the correct o
-utput.
-
-With the server api, the errors are far weider...
-
-    Entering new CrewAgentExecutor chain...
-    ('Search the 
-internet: {'search_query': 'The rise in homeless and poor statistics and trends'}')
-    (results were correct)
-    Finis
-hed chain.
-    
-    Entering new CrewAgentExecutor chain...
-    ('Search the internet: {'The rise in homelessness and po
-verty in the United States'}')
-    ('Search the internet: {'The rise in homelessness and poverty in the United States'}'
-)
-    ('Search the internet: {'The rise in homelessness and poverty in the United States'}')
-    (results were correct)
-
-    Finished chain.
-    
-    Entering new CrewAgentExecutor chain...
-    ('Search the internet: {'The rise in homelessne
-ss and poverty in the United States'}\n')
-    ('Search the internet: {'The rise in homelessness and poverty in the Unite
-d States'}\n')
-    ('Search the internet: {'The rise in homelessness and poverty in the United States'}\n')
-    ('Search
- the internet: {'The rise in homelessness and poverty in the United States'}\n')
-    ('Search the internet: {'The rise i
-n homelessness and poverty in the United States'}\n')
-    (results were correct)
-    Finished chain.
-    
-    Entering n
-ew CrewAgentExecutor chain...
-    'Search the internet: {'The rise in homeless and poor in the United States'}'
-    'Sea
-rch the internet: {'The rise in homeless and poor in the United States'}'
-    ('Search the internet: {'The rise in homel
-essness statistics in the United States'}')
-    ('Search the internet: {'Statistics on homelessness and poverty in the U
-nited States'}')
-    ('Search the internet: Statistics on homelessness and poverty in the United States')
-    
-    {'mes
-sage': 'Missing query parameter', 'statusCode': 400}
-    
-    ('Search the internet: Statistics on homelessness and pove
-rty in the United States')
-    'Search the internet: Statistics on homelessness in the United States'
-    'Search the in
-ternet: Statistics on homelessness in the United States'
-    'Search the internet: Statistics on homelessness in the Uni
-ted States'
-    'Search the internet: Causes of homelessness and poverty in the United States'
-    'Search the internet:
- Causes of homelessness and poverty in the United States'
-    (no results)
-    Finished chain.
-
-Some of the queries were
- submitted one after the other, and some were interspersed with queries like
-
-    Thought: I need to refine my search qu
-ery to gather specific data on the rise in homelessness and poverty in the United States.
-    Thought: I need to refine 
-my search query to gather specific data on the rise in homelessness and poverty in the United States.
-    Thought: I nee
-d to refine my search query to gather specific data on the rise in homelessness and poverty in the United States.
-    Th
-ought: I need to refine my search query to gather specific data on the rise in homelessness and poverty in the United St
-ates.
-    Thought: I need to refine my search query to gather specific data on the rise in homelessness and poverty in t
-he United States.
-    Thought: I need to gather information on the rise in homelessness and poverty in the United States
- using the available tools.
-    Thought: I need to gather information on the rise in homelessness and poverty in the Uni
-ted States using the available tools.
-    Thought: I need to refine my search query to gather specific data on the rise 
-in homelessness and poverty in the United States.
-    Thought: I need to gather information on the rise in homelessness 
-and poverty in the United States using the available tools.
-    
-
-It's a mystery why the same query was resubmitted, but
- this was good! It was doing its homework. But of two identical queries, one responded with
-
-    {'message': 'Missing qu
-ery parameter', 'statusCode': 400}
-
-This means the query was missing a required query parameter (400 = Bad Request statu
-s code)
-
-But even though it found a ton of links and did a lot of research, the final repost was.
-
-    Unfortunately, du
-e to the limitations of the tools provided, I was unable to gather specific information on the rise in homelessness and 
-poverty in the United States. Additional resources or access to more advanced research tools would be needed to gather a
-ccurate and comprehensive data on this important issue.
-
-As these were the EXACT same workflow, with only the search too
-l changed, I have to assume that Serper, or the way CrewAi handles the responses, is the reason why the workflow failed 
-miserably, even though is successfully found lots of data.
-
-There are so many inconsistencies, combined with a severe la
-ck of tracking/debugging/logging tools and no docs that address or explain these issues, or worse, outdated docs that ar
-e inconsistent with the official CrewAI recommendations, that even for home use, any workflow will be way too unreliable
-.
-
-For example, sometimes the serper-search workflow outputs a message saying it could not do anything (above), and some
-times it outputs a good report (below). Look at the two reports below, and you will see how radically they differ based 
-on when the search engine was used! That is NUTS!!
-
-Here is the template I told the Publishing Task to follow:
-
-    # Ti
-tle of Report
-        ## OPINION PIECE of where and how those concepts will be expressed in the near future in society, 
-economics, culture, or any other area that applies.   
-        - ### headline of item 1
-        > summary of item 1
-    
-    ###### _title of webpage_, _date_ [name of link](website link)  
-    
-        - ### headline of item 2
-        > Sum
-mery of item 2
-        ###### _title of webpage_, _date_ [name of link](website link)  
-    link)
-
-Serper-based report:
-
-
-* 'Opinion Piece' unfilled, but format is followed
-
-
-
-    # Research Report: The Rise in Homelessness and Poverty
-    #
-# OPINION PIECE of where and how those concepts will be expressed in the near future, in society, economics, culture, or
- any other area that applies.
-    
-    - ### State of Homelessness: 2023 Edition 
-    > The 2023 State of Homelessness r
-eport provides a comprehensive analysis of homelessness in the U.S. in 2022, revealing rising trends in homelessness sta
-tistics.
-    ###### _endhomelessness.org_, [State of Homelessness](https://endhomelessness.org/homelessness-in-america/h
-omelessness-statistics/state-of-homelessness/)
-    
-    - ### Homelessness in the US
-    > The United States Census Bure
-au reported a national poverty rate of 12.7% in 2016, with those who are poor and addicted being at increased risk of ho
-melessness.
-    ###### _nationalhomeless.org_, [Homelessness in the US](https://nationalhomeless.org/homelessness-in-the
--us/)
-    
-    - ### Homelessness in America: Statistics, Analysis, & Trends
-    > In 2023, 653,104 people experienced h
-omelessness in the U.S., representing a record-high tally and a 12% increase over 2022.
-    ###### _Security.org_, [Home
-less Statistics](https://www.security.org/resources/homeless-statistics/)
-    
-    - ### The Relationship Between Povert
-y and Homelessness Among Older Adults
-    > Five million people aged 65 and older lived below the poverty level, with at
- least 2.6 million classified as 'near poor,' highlighting the link between poverty and homelessness.
-    ###### _endhom
-elessness.org_, [Poverty and Homelessness](https://endhomelessness.org/blog/the-relationship-between-poverty-and-homeles
-sness-among-older-adults/)
-    
-    - ### Homelessness In America: Overview of Data and Causes
-    > The National Law Ce
-nter on Homelessness & Poverty estimates that 2.5 to 3.5 million Americans sleep in shelters every year, emphasizing the
- scale of homelessness.
-    ###### _homelesslaw.org_, [Homelessness Overview](https://homelesslaw.org/wp-content/uploads
-/2018/10/Homeless_Stats_Fact_Sheet.pdf)
-    
-    - ### How many Americans live in poverty?
-    > The number of people ex
-periencing homelessness increased by 12,751 or 2.2% from 2019 to 2020, marking a continuous rise in homelessness rates.
-
-    ###### _USAFacts_, [American Poverty](https://usafacts.org/articles/american-poverty-in-three-charts/)
-    
-    - ##
-# Homelessness Data & Trends
-    > Federal homelessness data shows a surge in homelessness, with poverty dropping by 45%
-, indicating a complex relationship between poverty and homelessness.
-    ###### _usich.gov_, [Data & Trends](https://ww
-w.usich.gov/guidance-reports-data/data-trends)
-    
-    - ### Homelessness in America grew in 2023 as cost of living bal
-looned
-    > From 2020 to 2022, the number of people becoming homeless for the first time increased by 30%, highlighting
- the impact of cost of living on homelessness rates.
-    ###### _usatoday.com_, [Homelessness Growth](https://www.usatod
-ay.com/story/news/nation/2023/12/15/homelessness-in-america-grew-2023/71926354007/)
-    
-    - ### Basic Facts About Hom
-elessness: New York City
-    > In March 2024, 69% of individuals in shelters were members of homeless families, includin
-g 48,304 children, indicating the vulnerable demographics affected by homelessness.
-    
-    ###### _coalitionforthehome
-less.org_, [Basic Facts](https://www.coalitionforthehomeless.org/basic-facts-about-homelessness-new-york-city/)
-
-EXA-bas
-ed report
-
-* Did not follow format (minimal entries, no synopsis)
-* 'Opinion Piece' filled out
-
-
-
-    # Title of Report:
- The Rise in Homelessness and Poverty: A Comprehensive Analysis
-    
-    ## OPINION PIECE: The urgent need for collabora
-tive efforts to address the growing crisis of homelessness and poverty in society
-    
-    - ### Homeless Numbers Rise i
-n U.S. Cities
-    ###### _WSJ News Exclusive_, June 19, 2023 [Link](https://www.wsj.com/articles/homeless-numbers-rise-i
-n-u-s-cities-fd59bc7b)  
-    
-    - ### America's Homelessness Crisis
-    ###### _The Week_, March 11, 2018 [Link](https
-://theweek.com/articles/759683/americas-homelessness-crisis)  
-    
-    - ### Homelessness in US: A Deepening Crisis on 
-the Streets of America
-    ###### _BBC News_, October 7, 2018 [Link](https://www.bbc.com/news/world-us-canada-45442596) 
- 
-    
-    - ### Homelessness Data & Trends
-    ###### _United States Interagency Council_, August 5, 2022 [Link](https:
-//www.usich.gov/guidance-reports-data/data-trends)  
-    
-    - ### Homelessness Ticks Up for the Second Year in a Row
- 
-   ###### _NBC News_, December 18, 2018 [Link](https://www.nbcnews.com/politics/white-house/homelessness-ticks-second-ye
-ar-row-federal-report-finds-n949086)  
-    
-    - ### Homelessness Rose in the U.S. after Pandemic Aid Dried Up
-    ####
-## _CBS News_, June 21, 2023 [Link](https://www.cbsnews.com/news/federal-homelessness-statistics-us-2023-data/)  
-    
- 
-   - ### State of Homelessness: 2022 Edition
-    ###### _End Homelessness_, September 27, 2022 [Link](https://endhomeles
-sness.org/homelessness-in-america/homelessness-statistics/state-of-homelessness/)
-
-I ran each test 5 times.  With Serper
-, I got output files that ranged from 29 bytes to 4K. and '400' errors ranging from 1 to 11 for each report.
-
-With EXA, 
-I got many 'Error using tool' per run, with output files ranging from 42 bytes to 2.1K.
-
-So, what's the plan?  Run the w
-orkflow in an endless loop until you get a decent report?
-
-p.s. Local models/Ollama fails so miserably it's not even wor
-th considering
-
-Tests run with:
-
-    OpenAI/gpt-3.5-turbo
-    langchain           0.1.10
-    langchain_community 0.0.38
-
-    crewai              0.30.11
-    crewai_tools        0.2.6
-    Python              3.11.9 | packaged by conda-forge |
- (main, Apr 19 2024, 18:36:13) [GCC 12.3.0]
-    System              Linux 6.1.0-18-amd64
-```
----
-
-     
- 
-all -  [ Review my Resume ](https://www.reddit.com/r/Btechtards/comments/1d7hwml/review_my_resume/) , 2024-06-06-0952
-```
-I am a second year [B.tech](http://B.tech) student and this resume was aimed to help me get AI Intern roles.
-
-https://pr
-eview.redd.it/tl3hzp5pqf4d1.jpg?width=988&format=pjpg&auto=webp&s=2853c067801aa13397ddfab46861705bb386b31d
-
-
-```
----
-
-     
- 
-all -  [ Review my Resume ](https://www.reddit.com/r/learnmachinelearning/comments/1d7hvtp/review_my_resume/) , 2024-06-06-0952
-```
-I am a second year [B.tech](http://B.tech) student and this resume was aimed to help me get AI Intern roles.
-
-https://pr
-eview.redd.it/9zytlh4lqf4d1.jpg?width=988&format=pjpg&auto=webp&s=2ca9747bc65ace672e2723b37fb30a5bbf539a3f
-
-
-```
----
-
-     
- 
-all -  [ RAG for IM chat logs ](https://www.reddit.com/r/learnmachinelearning/comments/1d7gp1x/rag_for_im_chat_logs/) , 2024-06-06-0952
-```
-
-Hi,
-I'm trying to create an LLM-based system that allows me to 'interact' with my chat logs and draw conclusions from t
-hem. 
-A few examples:
-* Find 'sub'-conversations or messages in which a certain topic is talked about and perhaps even s
-ummarize all of those 'sub'-conversations (and it's important not to miss any, which is something I've been struggling w
-ith)
-* Find people in my group chats that talk a lot about certain topics
-And other similar prompts that I give the LLM.
-
-
-
-Right now my solution is pretty simple. I processed all my messages with recursive character chunking and each messag
-e into a document, while using a Parent Document Retriever to get more context (in the future I plan on using semantic c
-hunking to make the parent documents full sub-conversations). Those are then put into a vector database, and A basic con
-versational RAG agent (I currently use mixtral-instruct) with langchain. The conversations are injected as JSON as conte
-xt.
-
-First of all, I would love to know what approach you guys would take to this problem in each part of it - the embed
-ding, the retrieval (is RAG even the solution here?), the context format, the agent, etc. I'm a newbie to LLMs and AI in
- general and I really want to hear the opinions of people with experience
-
-Secondly, I have a few problems I've encounte
-red with my setup, mainly:
-* Because I currently don't split my documents semantically, I receive a big part of the conv
-ersation (up to 4k+ tokens). mixtral seems to, for some reason, ignore some of my context and only remembers it starting
- from some arbitrary index, unless I really shorten it down to several hundreds of tokens. I don't understand why this h
-appens as it should have a 32k context window. One solution I thought of was switching to llama3-8b (only 8k but might w
-ork better because it's a better model). This is a huge roadblock for this project and I'd appreciate any help here
-* I'
-m not sure how to approach the not missing conversations part, as I'm always going to have a limited context. How do I m
-ake it so the agent continues fetching the rest of the convesations that were less relevant in the vector similarity sea
-rch, like continually do it or something.
-
-Thanks in advance!
-```
----
-
-     
- 
-all -  [ RAG for IM chat logs ](https://www.reddit.com/r/LangChain/comments/1d7ghuk/rag_for_im_chat_logs/) , 2024-06-06-0952
-```
-Hi,
-I'm trying to create an LLM-based system that allows me to 'interact' with my chat logs and draw conclusions from th
-em. 
-A few examples:
-* Find 'sub'-conversations or messages in which a certain topic is talked about and perhaps even su
-mmarize all of those 'sub'-conversations (and it's important not to miss any, which is something I've been struggling wi
-th)
-* Find people in my group chats that talk a lot about certain topics
-And other similar prompts that I give the LLM.
-
-
-
-Right now my solution is pretty simple. I processed all my messages with recursive character chunking and each message
- into a document, while using a Parent Document Retriever to get more context (in the future I plan on using semantic ch
-unking to make the parent documents full sub-conversations). Those are then put into a vector database, and A basic conv
-ersational RAG agent (I currently use mixtral-instruct) with langchain. The conversations are injected as JSON as contex
-t.
-
-First of all, I would love to know what approach you guys would take to this problem in each part of it - the embedd
-ing, the retrieval (is RAG even the solution here?), the context format, the agent, etc. I'm a newbie to LLMs and AI in 
-general and I really want to hear the opinions of people with experience
-
-Secondly, I have a few problems I've encounter
-ed with my setup, mainly:
-* Because I currently don't split my documents semantically, I receive a big part of the conve
-rsation (up to 4k+ tokens). mixtral seems to, for some reason, ignore some of my context and only remembers it starting 
-from some arbitrary index, unless I really shorten it down to several hundreds of tokens. I don't understand why this ha
-ppens as it should have a 32k context window. One solution I thought of was switching to llama3-8b (only 8k but might wo
-rk better because it's a better model). This is a huge roadblock for this project and I'd appreciate any help here
-* I'm
- not sure how to approach the not missing conversations part, as I'm always going to have a limited context. How do I ma
-ke it so the agent continues fetching the rest of the convesations that were less relevant in the vector similarity sear
-ch, like continually do it or something.
-
-Thanks in advance!
-```
----
-
-     
- 
-all -  [ Need CV Review ](https://www.reddit.com/gallery/1d7e2gt) , 2024-06-06-0952
-```
-I am entering the EU market formally as I am completing my MBA. I have a placement already that I got from my home count
-ry and is a part time opportunity. I want to get a better placement with my recent degree and further experience so I wa
-nt to know what should I improve here.
-```
----
-
-     
- 
-all -  [ Can Azure AI Document Intelligence detect charts like histograms? ](https://www.reddit.com/r/Azure_AI_Cognitive/comments/1d7dr1r/can_azure_ai_document_intelligence_detect_charts/) , 2024-06-06-0952
-```
-Hi, i am working with [models](https://learn.microsoft.com/en-us/azure/ai-services/document-intelligence/concept-model-o
-verview?view=doc-intel-4.0.0) via Langchain. I am not able to understand how to let the document analysis client to dete
-ct charts (i.e. images with numbers on x / y axis in a pdf) like histograms. Can you provide some guidelines on how to p
-roceed?
-
-Thank you
-```
----
-
-     
- 
-all -  [ Need help with my use case  ](https://www.reddit.com/r/LangChain/comments/1d78ov3/need_help_with_my_use_case/) , 2024-06-06-0952
-```
-Hello everyone, langchain noob here. I have some data that I want to use for question answering. That data has informati
-on on different camera models and their specs. What I’m trying to do is retrieving the one that suites the provided use 
-case best.  So far I’ve been done some experiments with langchain and also preprocessing the prompt but with not so much
- success. 
-
-My question is: has anyone done anything similar to this? Would langchain even be the right choice here? If 
-so, how would you approach this? 
-
-Thanks in advance 
-```
----
-
-     
- 
-all -  [ Does Langchain handle prompt formatting? ](https://www.reddit.com/r/LangChain/comments/1d78e78/does_langchain_handle_prompt_formatting/) , 2024-06-06-0952
-```
-Most LLMs, especially chat models, have some way they expect prompt to be formatted for things to work correctly (Exampl
-e: https://llama.meta.com/docs/model-cards-and-prompt-formats/meta-llama-3/). However, the Langchain prompts abstraction
- hides all that away and just lets users create their prompts in a clean, generalized way (https://python.langchain.com/
-v0.1/docs/modules/model\_io/prompts/quick\_start/). My assumption would be that, behind the scenes, Langchain is handlin
-g those details. But I can't find any information that indicates either way. 
-```
----
-
-     
- 
-MachineLearning -  [ [P] Superfast RAG: Langchain Streaming and Groq ](https://www.reddit.com/r/MachineLearning/comments/1d5s9g4/p_superfast_rag_langchain_streaming_and_groq/) , 2024-06-06-0952
+MachineLearning -  [ [P] Superfast RAG: Langchain Streaming and Groq ](https://www.reddit.com/r/MachineLearning/comments/1d5s9g4/p_superfast_rag_langchain_streaming_and_groq/) , 2024-06-07-0955
 ```
   
 Fast LLM RAG inference using Groq and Langchain Streaming.  
@@ -2003,7 +1709,7 @@ be.com/watch?v=frMdOL8knqg)
 
      
  
-MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-06-06-0952
+MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-06-07-0955
 ```
 Hey r/MachineLearning, I published a new article where I built an observable semantic research paper application.
 
@@ -2030,7 +1736,7 @@ reemrasul/semantic_research_engine)
 
      
  
-MachineLearning -  [ [P] LLMinator: A Llama.cpp + Gradio based opensource Chatbot to run llms locally(cpu/cuda) directly  ](https://www.reddit.com/r/MachineLearning/comments/1cpbgd1/p_llminator_a_llamacpp_gradio_based_opensource/) , 2024-06-06-0952
+MachineLearning -  [ [P] LLMinator: A Llama.cpp + Gradio based opensource Chatbot to run llms locally(cpu/cuda) directly  ](https://www.reddit.com/r/MachineLearning/comments/1cpbgd1/p_llminator_a_llamacpp_gradio_based_opensource/) , 2024-06-07-0955
 ```
 Hi I am currently working on a context-aware streaming chatbot based on Llama.cpp, Gradio, Langchain, Transformers. LLMi
 nator can pull LLMs directly from HF & run them locally on cuda or cpu.
