@@ -1,5 +1,880 @@
  
-all -  [ How does this LangChain agent correctly identify the tool to use? ](https://www.reddit.com/r/LangChain/comments/1ddr9hj/how_does_this_langchain_agent_correctly_identify/) , 2024-06-12-0954
+all -  [ Review my resume, not getting any calls ](https://www.reddit.com/r/resumes/comments/1dehi9a/review_my_resume_not_getting_any_calls/) , 2024-06-13-0953
+```
+https://preview.redd.it/kbr9xd1hg76d1.jpg?width=1080&format=pjpg&auto=webp&s=e32bbba25f324d01f797f323f50ca4e7479dc3b8
+
+H
+i, Please review my resume. I am not getting any calls. I have been applying for jobs since March 
+```
+---
+
+     
+ 
+all -  [ Need Help to make langchain chatbot ](https://www.reddit.com/r/LangChain/comments/1deh52g/need_help_to_make_langchain_chatbot/) , 2024-06-13-0953
+```
+I have to make llm chatbit using open ai on flask. 
+Help me to make this. 
+```
+---
+
+     
+ 
+all -  [ [P] I'm tired of LangChain, so I made a simple open-source alternative with support for tool using a ](https://www.reddit.com/r/MachineLearning/comments/1deffo8/p_im_tired_of_langchain_so_i_made_a_simple/) , 2024-06-13-0953
+```
+[https://github.com/piEsposito/tiny-ai-client](https://github.com/piEsposito/tiny-ai-client)
+
+The motivation for buildin
+g tiny-ai-client comes from a frustration with Langchain, that became bloated, hard to use and poorly documented - and t
+akes inspiraton from [simpleaichat](https://github.com/minimaxir/simpleaichat/tree/main), but adds support to vision, to
+ols and more LLM providers aside from OpenAI (Gemini, Anthropic - with Groq and Mistral on the pipeline.)
+
+I'm building 
+this to to continue what simpleaichat started and not to ride on hype, raise money or whatever, but to help people do 2 
+things: build AI apps as easily as possible and switching LLMs without needing to use Langchain.
+
+This is a minimally vi
+able version of the package, with support to vision, tools and async calls. There are a lot of improvements to be done, 
+but even at its current state, tiny-ai-client has generally improved my interactions with LLMs and has been used in prod
+uction with success.
+
+Let me know what you think: there are still a few bugs that may need fixing, but all the examples 
+work and are easy to be be adapted to your use case.
+```
+---
+
+     
+ 
+all -  [ Build a QA Bot for your documentation with Langchain ](https://www.reddit.com/r/developersIndia/comments/1dedwwg/build_a_qa_bot_for_your_documentation_with/) , 2024-06-13-0953
+```
+Build an AI-powered Q&A bot for your website documentation using Wing TypeScript, Next.js, and Langchain.  
+  
+-  Create
+ a user-friendly Next.js app to accept questions and URLs  
+-  Set up a Wing TypeScript backend to handle all the reques
+ts  
+-  Incorporate Langchain for AI-driven answers by scraping and analyzing documentation using RAG  
+-  Complete conn
+ection between frontend input and AI-processed responses.
+
+Check out the full article [here](https://wingla.ng/qa-bot).
+```
+---
+
+     
+ 
+all -  [ AI / LLMs in your Obsidian - what's actually been useful for you? ](https://www.reddit.com/r/ObsidianMD/comments/1dedmeu/ai_llms_in_your_obsidian_whats_actually_been/) , 2024-06-13-0953
+```
+There's a bunch of new plug ins available and with projects like PrivateGPT or LangChain it's easy to start talking with
+ your own data.
+
+  
+But...
+
+  
+**What has been the most useful way of using LLMs within your Vault?**
+
+  
+I've been work
+ing on a flow that takes stuff that I read/ learned this week and summarizing it to form the draft I can use as a weekly
+ newsletter for learning in public. 
+
+It's not there yet, and I still edit/ write the content. But the initial draft and
+ summarization of my highlights has been helpful. So I see:
+
+
+
+Source 1
+
+- takeaway
+
+- takeaway
+
+Source 2
+
+..
+
+
+
+
+```
+---
+
+     
+ 
+all -  [ Building Devops AI Assistant with Langchain, Ollama, and PostgreSQL ](https://docs.rapidapp.io/blog/building-devops-ai-assistant-with-langchain-ollama-and-postgresql) , 2024-06-13-0953
+```
+
+```
+---
+
+     
+ 
+all -  [ Roast my Resume ](https://www.reddit.com/r/resumes/comments/1deblue/roast_my_resume/) , 2024-06-13-0953
+```
+Been trying to get a Software Engineering Internship for a year now, but with over 200 applications submitted, my interv
+iew rate was 1%. I am a Software Developer niching out into DevOps, AI, and AWS System Design infrastructure, because I 
+feel everyone just knows Software Development nowadays. I really want to lock in a Software Engineering Internship by ne
+xt summer so please give me all the criticism you got.
+
+https://preview.redd.it/y9hx8cq7966d1.png?width=647&format=png&a
+uto=webp&s=45fe513c46fdc8a6eca7bd2909a9e1ad0e0f4bd2
+
+
+```
+---
+
+     
+ 
+all -  [ Need Help Implementing Supervisor with LangGraph ](https://www.reddit.com/r/LangChain/comments/1deaviw/need_help_implementing_supervisor_with_langgraph/) , 2024-06-13-0953
+```
+Hey everyone,
+
+I'm working on a Supervisor with LangGraph for a company internship. My mentor has asked me to create thr
+ee Agents: 'Question Agent', 'Answer Agent', and 'Summarizer Agent'. The input is a PDF, which I need to split by page a
+nd add each page to a vectorial database for later use. Each agent will also save its outputs in the vectorial POSTGRES 
+database. Here's a rough idea of the structure:
+
+**Questions Table**
+
+* id (Primary Key)
+* question (Text)
+* embedding (
+Vector)
+* document\_id (Integer)
+* page\_number (Integer)
+
+**Answers Table**
+
+* id (Primary Key)
+* answer (Text)
+* embed
+ding (Vector)
+* document\_id (Integer)
+* page\_number (Integer)
+* question\_id (Foreign Key to Questions table)
+
+**Summa
+ries Table**
+
+* id (Primary Key)
+* summary (Text)
+* embedding (Vector)
+* document\_id (Integer)
+* page\_number (Integer)
+
+
+**Documents Table**
+
+* id (Primary Key)
+* summary (Text)
+* document\_id (Integer)
+* number\_of\_pages (Integer)
+
+The w
+orkflow is something like this:
+
+1. Load the document (sanitize the text, embed it, save in 'Documents')
+2. Make a summa
+ry of each page (save in 'Summaries')
+3. Generate questions for each page (save in 'Questions')
+4. Answer all the questi
+ons generated by the Question Agent, considering the context of the page (save in 'Answers')
+
+**My biggest question is:*
+* what tools and agents should I implement for this? Most resources I've found online use tools like Tavily Search and P
+ython REPL, which aren't really helpful for my case. I need to use the Supervisor since it's a project requirement, and 
+I'm a bit confused about the implementation details, since this would be very easy to implement with simple chains, and 
+the only solution I could come up with is tooless agents...?
+
+Any advice or pointers would be greatly appreciated! Thank
+s!
+```
+---
+
+     
+ 
+all -  [ Open-source implementation of Meta’s TestGen–LLM - CodiumAI ](https://www.reddit.com/r/LangChain/comments/1deals9/opensource_implementation_of_metas_testgenllm/) , 2024-06-13-0953
+```
+In Feb 2024, Meta published a paper introducing TestGen-LLM, a tool for automated unit test generation using LLMs, but d
+idn’t release the TestGen-LLM code.The following blog shows how CodiumAI created the first open-source implementation - 
+Cover-Agent, based on Meta's approach: [We created the first open-source implementation of Meta’s TestGen–LLM](https://w
+ww.codium.ai/blog/we-created-the-first-open-source-implementation-of-metas-testgen-llm/)
+
+The tool is implemented as fol
+lows:
+
+1. Receive the following user inputs (Source File for code under test, Existing Test Suite to enhance, Coverage R
+eport, Build/Test Command
+Code coverage target and maximum iterations to run, Additional context and prompting options)
+
+2. Generate more tests in the same style
+3. Validate those tests using your runtime environment - Do they build and pass
+?
+4. Ensure that the tests add value by reviewing metrics such as increased code coverage
+5. Update existing Test Suite 
+and Coverage Report
+6. Repeat until code reaches criteria: either code coverage threshold met, or reached the maximum nu
+mber of iterations
+```
+---
+
+     
+ 
+all -  [ Error with tool calling while using Gemini Pro ](https://www.reddit.com/r/LangChain/comments/1de99jx/error_with_tool_calling_while_using_gemini_pro/) , 2024-06-13-0953
+```
+Hi all, 
+
+I get an 'An error occurred: Multiple function calls are not currently supported' while using Gemini Pro .  
+A
+nyone had the same issue?
+
+Using:
+
+    llm = ChatGoogleGenerativeAI(temperature=0, model='gemini-pro')
+    llm.bind_tool
+s(tools)
+```
+---
+
+     
+ 
+all -  [ A serious security issue with GPT4o ](https://www.reddit.com/r/LangChain/comments/1de7ar1/a_serious_security_issue_with_gpt4o/) , 2024-06-13-0953
+```
+Last week we came across a serious security issue with GPT4o. In both ChatGPT and OpenAI APIs. Until OpenAI fixes it, we
+ manage to fix from our side. We would like to share it with the community. We implemented it in LlamaIndex but should b
+e easy to implement using Langchain as well.  
+This is the medium article about the fix - [https://medium.com/@deltaarun
+a/fixing-a-serious-security-issue-in-gpt4o-api-via-llamaindex-4aa1368b5d2f](https://medium.com/@deltaaruna/fixing-a-seri
+ous-security-issue-in-gpt4o-api-via-llamaindex-4aa1368b5d2f)
+
+This is the medium article about the issue - [https://medi
+um.com/@deltaaruna/how-anyone-can-hack-chatgpt-aa7959684ef0](https://medium.com/@deltaaruna/how-anyone-can-hack-chatgpt-
+aa7959684ef0)
+```
+---
+
+     
+ 
+all -  [ Best Open Source Model to being to fine tune for Algebra/Geometry? ](https://www.reddit.com/r/LLMDevs/comments/1de6z6u/best_open_source_model_to_being_to_fine_tune_for/) , 2024-06-13-0953
+```
+Looking to make an open source LLM a textbook you can talk to.  I'm a teacher and currently knee deep into langchain, py
+thon, and ollama for now.  But before I start this mess (not even sure this will work), what is the best model to begin 
+with that is focused on solving math problems.  I'm going to use RAG and train it on some textbooks (how I feed it the i
+nformation successfully I'm also trying to figure out now, not to mention can i even train it using past conversations a
+nd fine tune on my NVIDIA 3070).  But any recommendations?  Want to help my kids next year and give them the best possib
+le experience to learn.  I'm didn't go to college for this but I've taught myself python, langchain, and other long word
+s so far so how hard can it be...?
+```
+---
+
+     
+ 
+all -  [ Deploy Langgraph in Google Cloud? ](https://www.reddit.com/r/LangChain/comments/1de6u3j/deploy_langgraph_in_google_cloud/) , 2024-06-13-0953
+```
+I have been searching extensively but haven't found any guide on deploying a Langgraph runnable with Google Cloud.   
+  
+
+Currently, I am using an Reasoning Engine (Vertex AI) with the LangchainAgent template (from Google Cloud documentation
+)  
+  
+Now, I tried to deploy my custom Reasoning Engine agent based on Langgraph and I can't.   
+  
+I would greatly app
+reciate any kind of help.   
+  
+Regards.   
+  
+PD: Langchain image to bait.
+
+https://preview.redd.it/03fqi0fm856d1.jpg?w
+idth=1024&format=pjpg&auto=webp&s=0bab82582504720db2d45a2d82cbec2aad0981a6
+
+
+```
+---
+
+     
+ 
+all -  [ Help regarding application specific chatbot ](https://www.reddit.com/r/LangChain/comments/1de6133/help_regarding_application_specific_chatbot/) , 2024-06-13-0953
+```
+I have been given a requirement from my company to look into and try to comeup with a chatbot that would be integrated i
+nto the web application.
+Specifically, we have a list of Companies and their details like name, what they do, their reve
+nues, etc. and some uploaded pdf files that contain more information regarding the company.
+So the chatbot will be integ
+rated into the details page of the companies. User could then ask any question regarding the company and the chatbot sho
+uld provide a relevant answer for that company.
+
+I am fairly new to this, but was able to find out that we can use RAG f
+or achieving this, wherein we take all the data and embed it in a vector database. Then fetch relevant vectors per the q
+uestion asked and provide it as context to the LLM for answer.
+
+However the issue is that some of the data of the compan
+y can change with time.
+
+Is there a way to do it so that the pdf data can use vector store, but the rest of the data can
+ be obtained from API calls?
+That way, we will always have the most recent data of the company, but also have the additi
+onal data from the pdf docs?
+
+How would all these things fit?
+How would the decision be made when to use data from vecto
+r database or when to fetch data from API?
+
+Do you guys have any experience with something like this or any recommendati
+ons or resources where I can look into for this project?
+
+That would be very helpful.
+```
+---
+
+     
+ 
+all -  [ Google study says fine-tuning an LLM linearly increases hallucinations? 😐 ](https://www.reddit.com/r/LangChain/comments/1de5ury/google_study_says_finetuning_an_llm_linearly/) , 2024-06-13-0953
+```
+They prepare a QA task to observe hallucinations, on both Known examples (training instances similar to the info that th
+e model has seen during its initial training) and Unknown examples (that introduce new info that the model hasn't been e
+xposed to before).
+
+They see that:
+
+1. Unknown examples in the fine-tuning dataset bring down performance, the more you 
+train, because of overfitting. They lead to hallucinations and reduce accuracy. Known examples positively impact perform
+ance.
+
+2. Early stopping helps avoid this, which might mean that Unknown examples are neutral in shorter training.
+
+3. T
+he slower fitting of Unknown examples also indicates that models struggle to acquire new knowledge through fine-tuning.
+
+
+Paper: [https://arxiv.org/pdf/2405.05904](https://arxiv.org/pdf/2405.05904)
+
+
+
+I share high quality AI updates and tuto
+rials daily.
+
+If you like this post and want to stay updated on latest AI research, you can check out: [https://linktr.e
+e/sarthakrastogi](https://linktr.ee/sarthakrastogi) or my Twitter: [https://x.com/sarthakai](https://x.com/sarthakai)
+```
+---
+
+     
+ 
+all -  [ LangChain/Next.js chatbot displaying incorrect sources ](https://www.reddit.com/r/LangChain/comments/1de50ah/langchainnextjs_chatbot_displaying_incorrect/) , 2024-06-13-0953
+```
+I'm building a chatbot using `LangChain`, `Next.js`,and `CosmosDB` (vector store). My implementation is based on [this](
+https://github.com/langchain-ai/langchain-nextjs-template/blob/main/app/api/chat/retrieval/route.ts). I'm trying to disp
+lay the source documents used by the LLM in my UI, but I'm facing two issues:
+
+1. Source documents not displaying: Despi
+te using a **StreamingTextResponse** to send the source information in the headers as JSON chunks (see code snippet belo
+w), they don't show up in my UI. There are no console errors.
+2. Incorrect sources: When some source documents do appear
+, they are not the ones actually used by the LLM or contain unrelated information.
+
+Here's the part supposed to return t
+he sources:
+
+    import { NextRequest, NextResponse } from 'next/server';
+    import { Message as VercelChatMessage, Str
+eamingTextResponse } from 'ai';import { AzureCosmosDBVectorStore } from '@langchain/community/vectorstores/azure_cosmosd
+b';
+    import {
+      AzureOpenAIEmbeddings,
+      AzureChatOpenAI,
+    } from '@langchain/azure-openai';
+    import { 
+PromptTemplate } from '@langchain/core/prompts';
+    import { Document } from '@langchain/core/documents';
+    import { 
+RunnableSequence } from '@langchain/core/runnables';
+    import {
+      BytesOutputParser,
+      StringOutputParser,
+   
+ } from '@langchain/core/output_parsers';
+    
+    const combineDocumentsFn = (docs: Document[]) => {
+      const serial
+izedDocs = docs.map((doc) => doc.pageContent);
+      return serializedDocs.join('\n\n');
+    };
+    
+    const formatVer
+celMessages = (chatHistory: VercelChatMessage[]) => {
+      const formattedDialogueTurns = chatHistory.map((message) => 
+{
+        if (message.role === 'user') {
+          return `Human: ${message.content}`;
+        } else if (message.role =
+== 'assistant') {
+          return `Assistant: ${message.content}`;
+        } else {
+          return `${message.role}: 
+${message.content}`;
+        }
+      });
+      return formattedDialogueTurns.join('\n');
+    };
+    
+    const CONDENSE_
+QUESTION_TEMPLATE = `Given the following conversation and a follow up question, rephrase the follow up question to be a 
+standalone question, in its original language.<chat_history>
+      {chat_history}
+    </chat_history>
+    
+    Follow Up
+ Input: {question}
+    Standalone question:`;
+    const condenseQuestionPrompt = PromptTemplate.fromTemplate(
+      COND
+ENSE_QUESTION_TEMPLATE
+    );
+    
+    const ANSWER_TEMPLATE = `Answer the question based only on the following context 
+and chat history:
+    <context>
+      {context}
+    </context>
+    <chat_history>
+      {chat_history}
+    </chat_histor
+y>
+    
+    Question: {question}
+    `;
+    const answerPrompt = PromptTemplate.fromTemplate(ANSWER_TEMPLATE);
+    
+    
+export async function POST(req: NextRequest) {
+      try {
+        const body = await req.json();
+        const messages
+ = body.messages ?? [];
+        const previousMessages = messages.slice(0, -1);
+        const currentMessageContent = me
+ssages[messages.length - 1].content;
+    
+        const vectorstore = new AzureCosmosDBVectorStore(
+          new AzureO
+penAIEmbeddings(),
+          {
+            databaseName: process.env.DB_NAME,
+            collectionName: process.env.DB
+_COLLECTION_NAME,
+          }
+        );
+    
+        const model = new AzureChatOpenAI({
+          azureOpenAIEndpoint:
+ process.env.AZURE_OPENAI_API_ENDPOINT,
+          azureOpenAIApiKey: process.env.AZURE_OPENAI_API_KEY,
+          azureOp
+enAIApiDeploymentName:
+            process.env.AZURE_OPENAI_API_DEPLOYMENT_NAME,
+          modelName: process.env.AZURE_
+OPENAI_MODEL_NAME,
+        });
+        const standaloneQuestionChain = RunnableSequence.from([
+          condenseQuestio
+nPrompt,
+          model,
+          new StringOutputParser(),
+        ]);
+    
+        let resolveWithDocuments: (value:
+ Document[]) => void;
+        const documentPromise = new Promise<Document[]>((resolve) => {
+          resolveWithDocume
+nts = resolve;
+        });
+    
+        const retriever = vectorstore.asRetriever({
+          callbacks: [
+            {
+
+              handleRetrieverEnd(documents) {
+                resolveWithDocuments(documents);
+              },
+       
+     },
+          ],
+        });
+    
+        const retrievalChain = retriever.pipe(combineDocumentsFn);
+    
+        co
+nst answerChain = RunnableSequence.from([
+          {
+            context: RunnableSequence.from([
+              (input)
+ => input.question,
+              retrievalChain,
+            ]),
+            chat_history: (input) => input.chat_histor
+y,
+            question: (input) => input.question,
+          },
+          answerPrompt,
+          model,
+        ]);
+  
+  
+        const conversationalRetrievalQAChain = RunnableSequence.from([
+          {
+            question: standaloneQu
+estionChain,
+            chat_history: (input) => input.chat_history,
+          },
+          answerChain,
+          new 
+BytesOutputParser(),
+        ]);
+    
+        const stream = await conversationalRetrievalQAChain.stream({
+          que
+stion: currentMessageContent,
+          chat_history: formatVercelMessages(previousMessages),
+        });
+    
+        c
+onst documents = await documentPromise;
+        console.log('documents ', documents.length);
+        const serializedSou
+rces = Buffer.from(
+          JSON.stringify(
+            documents.map((doc) => {
+              return {
+              
+  pageContent: doc.pageContent.slice(0, 50) + '...',
+                metadata: doc.metadata,
+              };
+          
+  })
+          )
+        ).toString('base64');
+        const sourceMetadata = documents.map((doc) => ({
+          title:
+ doc.metadata.title, // Or whatever metadata you want
+          url: doc.metadata.url,
+        }));
+    
+        return 
+new StreamingTextResponse(stream, {
+          headers: {
+            'x-message-index': (previousMessages.length + 1).to
+String(),
+            'x-message-sources': serializedSources,
+          },
+        });
+      } catch (e: any) {
+        
+return NextResponse.json({ error: e.message }, { status: e.status ?? 500 });
+      }
+    }
+    
+
+So my questions:
+
+1. Is
+ my approach to streaming source documents via **StreamingTextResponse** wrong?
+2. How can I ensure I'm associating the 
+correct source documents with each LLM response?
+3. What debugging techniques can I use to pinpoint where the source inf
+ormation is getting lost or mismatched?  
+```
+---
+
+     
+ 
+all -  [ Local Source Code Indexing & Querying with RAG ](https://www.reddit.com/r/LangChain/comments/1de4yz8/local_source_code_indexing_querying_with_rag/) , 2024-06-13-0953
+```
+I'm currently working on a local codebase and was using Cody to ask questions from my local code base context. But was w
+ondering if there is an open-source project that's similar. Ideally, the tool would:
+
+* Index all project files
+* Retrie
+ve specific code snippets from all files or tell about specific local variables
+* Use as Chatbot?
+
+Document loaders and 
+file embeddings could work but I'm not sure on how to handle function interdependencies. Do I need to also additionally 
+pass AST for it to organize it better? Not really sure on what direction to take?
+
+Anyone has tried something similar? W
+hat approach did you take? and how was the result?
+```
+---
+
+     
+ 
+all -  [ What are the biggest problems you're facing while building AI apps? ](https://www.reddit.com/r/ChatGPT/comments/1de32az/what_are_the_biggest_problems_youre_facing_while/) , 2024-06-13-0953
+```
+I've just started building an AI app using ChatGPT + Langchain set-up. I've been facing a number of recurring pain point
+s and I'm genuinely curious if the rest of you are facing similar issues. I'm purposely not mentioning the issues I'm fa
+cing, because I don't want to bias the answers / keep the discussion as open as possible. What are the biggest issues / 
+pain points you're struggling with while building AI apps?
+```
+---
+
+     
+ 
+all -  [ How to Speed Up Execution with OpenAI GPT-4o in Multi-Agent System? ](https://www.reddit.com/r/crewai/comments/1de2mdr/how_to_speed_up_execution_with_openai_gpt4o_in/) , 2024-06-13-0953
+```
+**Hey everyone,**
+
+I've been working on a multi-agent system using OpenAI's GPT-4o model, but I'm running into performan
+ce issues. The execution time is longer than I'd like, even though I've set `max_iter` to 2 for each agent. but i have u
+ser groq its fast but i need solution for gpt-4o or openAI api only !
+
+**Here's a brief overview of my setup:**
+
+1. **Qu
+estioning Agent**: Designed to ask relevant questions to gather information from the user.
+2. **Validation Agent**: Ensu
+res the questions generated by the Questioning Agent are of high quality.
+3. **Crew**: Manages the agents and tasks, exe
+cuting them hierarchically.
+
+Here's a snippet of my code for context:
+
+  
+`import os`
+
+`from crewai import Agent, Task, 
+Crew, Process`
+
+`from langchain_openai import ChatOpenAI`
+
+
+
+`os.environ['OPENAI_API_KEY'] = 'MY_KEY'`
+
+`llm = ChatOpenA
+I(`
+
+`model='gpt-4o',`
+
+`temperature=0.1,`
+
+`)`
+
+
+
+`number_of_questions = 10`
+
+
+
+`questioning_agent = Agent(`
+
+`role='Qu
+estioning Agent',`
+
+`goal='Ask relevant questions to gather information and clarify user needs here is how you should re
+spond :- {sys-prompt}',`
+
+`verbose=True,`
+
+`max_iter=2,`
+
+`llm = llm,`
+
+`memory=False,`
+
+`backstory=('Your AI guide for 
+asking insightful questions. I'm designed to help users clarify their goals and needs by asking targeted questions. My g
+oal is to gather information, identify patterns, and provide a personalized learning experience. I'll ask questions that
+ are open-ended, relevant, and designed to encourage the user to provide detailed responses. I'll also use the user's re
+sponses to ask follow-up questions, ensuring that I gather all the necessary information to provide a comprehensive lear
+ning experience.'),`
+
+`allow_delegation=True`
+
+`)`
+
+
+
+`validation_agent = Agent(`
+
+`role='Validation Agent',`
+
+`goal='Va
+lidate {val-prompt} and check does it follow this format:-{for}',`
+
+`verbose=True,`
+
+`max_iter = 2,`
+
+`llm = llm,`
+
+`mem
+ory=False,`
+
+`backstory=('Your AI guide for ensuring question quality. I'm responsible for reviewing the questions gener
+ated by the Questioning Agent and providing feedback on their relevance, clarity, and effectiveness. My goal is to ensur
+e that the questions are useful, concise, and easy to understand. I'll review the questions for grammar, syntax, and spe
+lling, as well as their ability to gather useful information from the user. I'll provide feedback on the questions, sugg
+esting improvements or changes as needed, to ensure that they meet the highest standards of quality and effectiveness.')
+,`
+
+`allow_delegation=True`
+
+`)`
+
+
+
+`questioning_task = Task(`
+
+`description=('Ask a series of questions to gather infor
+mation about the user's learning goals, preferences, and needs. The questions should be open-ended, relevant, and design
+ed to encourage the user to provide detailed responses. The questions should also be tailored to the user's specific goa
+ls and needs, taking into account their level of expertise, learning style, and desired outcomes. Here is What User situ
+ation : {user}'),`
+
+`expected_output='A set of relevant, well-crafted questions that gather useful information about the
+ user.You respond should be like this \n{for}',`
+
+`agent=questioning_agent,`
+
+`async_execution=False`
+
+`)`
+
+
+
+`validatio
+n_task = Task(`
+
+`description=('Review the generated questions for quality, relevance, and effectiveness. Provide feedba
+ck on the questions, suggesting improvements or changes as needed. The feedback should be detailed and constructive, pro
+viding specific examples and suggestions for improvement. The goal is to ensure that the questions are of the highest qu
+ality, and that they will gather useful information from the user.'),`
+
+`expected_output='A validate the question if que
+stions are correct the output it. Always output in json in this format {for}. Remember output should be JSON Always and 
+in this format {for} and it should have {num} questions',`
+
+`agent=validation_agent,`
+
+`async_execution=False`
+
+`)`
+
+
+
+`
+crew = Crew(`
+
+`agents=[questioning_agent, validation_agent],`
+
+`tasks=[questioning_task, validation_task],`
+
+`process=P
+rocess.hierarchical,`
+
+`manager_llm = llm,`
+
+`cache=True,`
+
+`)`
+
+
+
+`user_input = {`
+
+`'What do you want to learn?': 'MER
+N Stack Web dev',`
+
+`'What is your level?': 'beginner',`
+
+`'Do you have any specific goals or outcomes you want to achie
+ve by learning?': 'I just wanna learn MERN stack web dev'`
+
+`}`
+
+`number_of_questions = 10`
+
+`result = crew.kickoff(inpu
+ts={'sys-prompt':questioning_system_prompt,'val-prompt':validation_system_prompt,'user':user_input,'for':format_p,'num':
+number_of_questions})`
+
+`print(result)`
+
+
+
+  
+**Question**: How can I optimize this setup to reduce the execution time? 
+Any tips on improving performance with OpenAI's API or the overall agent management would be greatly appreciated.
+
+Thank
+s in advance!
+```
+---
+
+     
+ 
+all -  [ Good Tutorials For RAG with Structured State and Output?  ](https://www.reddit.com/r/LangChain/comments/1de095x/good_tutorials_for_rag_with_structured_state_and/) , 2024-06-13-0953
+```
+Hey guys!
+
+So I’ve been looking at a lot of tutorials to build a basic RAG search which does the following:
+
+1. Takes th
+e user query and put it into the state “user_query”
+2. Searches the internet for results. These results are then populat
+ed as text in the state “internet_search_results” field with the url and title of the text
+3.  Does the same but searche
+s the local database and populates the state “local_search_results” field with the post ID and title of the search resul
+ts. 
+4. Then passes the state with the information above into a summariser function which uses GPT 3.5 to return structu
+red output with the following fields: (i) the text response, (ii) an array of the sources which include the title, the t
+ype (web search or local post), and either the url or the post ID. 
+
+
+I’m at a loss on this as can’t find any good tutor
+ials for this. 
+
+
+```
+---
+
+     
+ 
+all -  [ Question regarding limitation of agent use ](https://www.reddit.com/r/LangChain/comments/1ddyhkq/question_regarding_limitation_of_agent_use/) , 2024-06-13-0953
+```
+I am not a software engineer but an enthusiast of RAG and LLM agents. I wanted to know where is the real bottleneck in b
+uilding an agent who would build documents based on chat that I am currently having with an LLM based chat interface and
+ embed the chat text using embedding models and store it in vector db for the user to search in later? 
+```
+---
+
+     
+ 
+all -  [ Production Ready Unstructured Text to Knowledge Graph ](https://www.reddit.com/r/LangChain/comments/1ddvywe/production_ready_unstructured_text_to_knowledge/) , 2024-06-13-0953
+```
+I'm working on a use case that relies on very robust knowledge graph construction and I wanted to know if any startups/c
+ompanies/open-source have built either free or paid production ready solutions for the unstructured text to knowledge gr
+aph pipeline.
+
+UPDATE:
+
+Diffbot seems to have a pretty good API that is compatiable with Llama Index and Langchain
+
+this
+ tutorial for Llama Index was released the same day I posted this and looks promising: [https://www.llamaindex.ai/blog/c
+ustomizing-property-graph-index-in-llamaindex](https://www.llamaindex.ai/blog/customizing-property-graph-index-in-llamai
+ndex)​
+
+And Here is one for Langchain [Diffbot | 🦜️🔗 LangChain](https://python.langchain.com/v0.1/docs/integrations/grap
+hs/diffbot/)​
+```
+---
+
+     
+ 
+all -  [ How does this LangChain agent correctly identify the tool to use? ](https://www.reddit.com/r/LangChain/comments/1ddr9hj/how_does_this_langchain_agent_correctly_identify/) , 2024-06-13-0953
 ```
 In this [Medium article](https://medium.com/ama-tech-blog/combining-langchain-and-llamaindex-to-build-your-first-agentic
 -rag-system-6e8e2e7825e7), the agent has three tools:
@@ -33,7 +908,7 @@ How does the agent know that question is out-of-scope for the 'uber_10k' retriev
 
      
  
-all -  [ Errors loading `langchain_anthropic` ](https://www.reddit.com/r/LangChain/comments/1ddort5/errors_loading_langchain_anthropic/) , 2024-06-12-0954
+all -  [ Errors loading `langchain_anthropic` ](https://www.reddit.com/r/LangChain/comments/1ddort5/errors_loading_langchain_anthropic/) , 2024-06-13-0953
 ```
 Recently when I try to do `import langchain_anthropic` I have been getting errors like this:
 ```
@@ -109,7 +984,7 @@ Checking, it looks like I have `langchain-anthropic==0.1.13`
 
      
  
-all -  [ [Student] Looking for advice on resume and upcoming search, interested in product and software devel ](https://www.reddit.com/r/EngineeringResumes/comments/1ddoopc/student_looking_for_advice_on_resume_and_upcoming/) , 2024-06-12-0954
+all -  [ [Student] Looking for advice on resume and upcoming search, interested in product and software devel ](https://www.reddit.com/r/EngineeringResumes/comments/1ddoopc/student_looking_for_advice_on_resume_and_upcoming/) , 2024-06-13-0953
 ```
 I'm a U.S. citizen and an upcoming senior at Cal State University, getting ready to dive into the job search. Currently 
 located in the Bay Area, I attend a Cal-State near a major tech hub, which has provided me with some fantastic opportuni
@@ -136,7 +1011,7 @@ https://preview.redd.it/lf38t9on806d1.png?width=5100&format=png&auto=webp&s=89a0
 
      
  
-all -  [ Rate my resume and tell me if this is good enough for Data/Business Analyst positions. ](https://i.redd.it/imr71o0t306d1.jpeg) , 2024-06-12-0954
+all -  [ Rate my resume and tell me if this is good enough for Data/Business Analyst positions. ](https://i.redd.it/imr71o0t306d1.jpeg) , 2024-06-13-0953
 ```
 Please guide me on what all should be added/removed. Also, can I apply for senior roles? 
 ```
@@ -144,7 +1019,7 @@ Please guide me on what all should be added/removed. Also, can I apply for senio
 
      
  
-all -  [ Python Projects ](https://www.reddit.com/r/learnpython/comments/1ddo02e/python_projects/) , 2024-06-12-0954
+all -  [ Python Projects ](https://www.reddit.com/r/learnpython/comments/1ddo02e/python_projects/) , 2024-06-13-0953
 ```
 Any suggestions about where I can find some python projects with langchain, flask ?
 ```
@@ -152,7 +1027,7 @@ Any suggestions about where I can find some python projects with langchain, flas
 
      
  
-all -  [ Full stack starter ](https://www.reddit.com/r/LangChain/comments/1ddm4a1/full_stack_starter/) , 2024-06-12-0954
+all -  [ Full stack starter ](https://www.reddit.com/r/LangChain/comments/1ddm4a1/full_stack_starter/) , 2024-06-13-0953
 ```
 I’m looking for a chatbot frontend with citations, that utilizes a fast api/langserve backend. Anyone have good suggesti
 ons? 
@@ -161,7 +1036,7 @@ ons?
 
      
  
-all -  [ Newbie question: Langgraph and authenticated tools ](https://www.reddit.com/r/LangChain/comments/1ddl2k0/newbie_question_langgraph_and_authenticated_tools/) , 2024-06-12-0954
+all -  [ Newbie question: Langgraph and authenticated tools ](https://www.reddit.com/r/LangChain/comments/1ddl2k0/newbie_question_langgraph_and_authenticated_tools/) , 2024-06-13-0953
 ```
 Hello, as a learning side project I am trying to have a simple Agent that queries an authenticated external API.  Authen
 tication is with a standard Bearer token.
@@ -195,7 +1070,7 @@ So I am at a loss, my Agent is roughly working but is very slow!   Are there any
 
      
  
-all -  [ Chroma DB taking extremely long time to create. ](https://www.reddit.com/r/LangChain/comments/1ddk9b1/chroma_db_taking_extremely_long_time_to_create/) , 2024-06-12-0954
+all -  [ Chroma DB taking extremely long time to create. ](https://www.reddit.com/r/LangChain/comments/1ddk9b1/chroma_db_taking_extremely_long_time_to_create/) , 2024-06-13-0953
 ```
 So this is my first time ever hearing about vector databases - I know very little about them and I'm running into some t
 rouble with a simple rag script I threw together.
@@ -246,15 +1121,7 @@ om_documents(documents=splits, embedding=embeddings)
 
      
  
-all -  [ Boost a QA Bot for your documentation with Langchain ](https://wingla.ng/qa-bot) , 2024-06-12-0954
-```
-
-```
----
-
-     
- 
-all -  [ rerank-ts: TypeScript Library for Improving Search Results in RAG Applications  ](https://www.reddit.com/r/LangChain/comments/1ddhd9t/rerankts_typescript_library_for_improving_search/) , 2024-06-12-0954
+all -  [ rerank-ts: TypeScript Library for Improving Search Results in RAG Applications  ](https://www.reddit.com/r/LangChain/comments/1ddhd9t/rerankts_typescript_library_for_improving_search/) , 2024-06-13-0953
 ```
 Hi folks, we built a TypeScript library to improve search results in RAG Applications. If you are building a RAG applica
 tion on top of vector indexes, re-ranking search results will always improve LLM's  response synthesis. We implemented t
@@ -273,7 +1140,7 @@ ally well to re-rank ~100 results. We get latency of around 1 second with Llama3
 
      
  
-all -  [ Is there a way to add multisteps/continuation in langgraph? ](https://www.reddit.com/r/LangChain/comments/1ddg11m/is_there_a_way_to_add_multistepscontinuation_in/) , 2024-06-12-0954
+all -  [ Is there a way to add multisteps/continuation in langgraph? ](https://www.reddit.com/r/LangChain/comments/1ddg11m/is_there_a_way_to_add_multistepscontinuation_in/) , 2024-06-13-0953
 ```
 Is there a way to implement multistep operations in LangGraph? Specifically, I'm looking to perform a series of modifica
 tions where one step directly influences the next. For instance, I want to first remove the background of an image in th
@@ -292,7 +1159,7 @@ is greatly appreciated :))
 
      
  
-all -  [ Calculating LLM costs before sending requests? ](https://www.reddit.com/r/LangChain/comments/1ddft47/calculating_llm_costs_before_sending_requests/) , 2024-06-12-0954
+all -  [ Calculating LLM costs before sending requests? ](https://www.reddit.com/r/LangChain/comments/1ddft47/calculating_llm_costs_before_sending_requests/) , 2024-06-13-0953
 ```
 Using langchain sometimes feels like gambling with costs to me. I never really know how much my requests would actually 
 cost when I send it. I know there are detailed charts which we should read, but who really does? Instead I wanted to ask
@@ -306,7 +1173,7 @@ ct... Like a package which calculates your LLM costs before the requests, depend
 
      
  
-all -  [ Chainlit translation in a rag system  ](https://www.reddit.com/r/LangChain/comments/1ddfqps/chainlit_translation_in_a_rag_system/) , 2024-06-12-0954
+all -  [ Chainlit translation in a rag system  ](https://www.reddit.com/r/LangChain/comments/1ddfqps/chainlit_translation_in_a_rag_system/) , 2024-06-13-0953
 ```
 I use chainlit as UI in my rag system, the first qst passes ok, but when i inser the second one it translated automaticl
 y to english.
@@ -317,7 +1184,7 @@ he translations folder. Deletion of en-US.json  doesn't work (it is generated ea
 
      
  
-all -  [ How to deal with this collaboration  ](https://www.reddit.com/r/SaaS/comments/1ddfn99/how_to_deal_with_this_collaboration/) , 2024-06-12-0954
+all -  [ How to deal with this collaboration  ](https://www.reddit.com/r/SaaS/comments/1ddfn99/how_to_deal_with_this_collaboration/) , 2024-06-13-0953
 ```
 So I contacted a company who owns a content API for travel holidays and asked them if they could allow access for me to 
 build AI solutions on top it. 
@@ -352,7 +1219,7 @@ t the SaaS on their cloud.
 
      
  
-all -  [ Multiple ways to get to the same result w/ RAG ](https://www.reddit.com/r/LangChain/comments/1dddjew/multiple_ways_to_get_to_the_same_result_w_rag/) , 2024-06-12-0954
+all -  [ Multiple ways to get to the same result w/ RAG ](https://www.reddit.com/r/LangChain/comments/1dddjew/multiple_ways_to_get_to_the_same_result_w_rag/) , 2024-06-13-0953
 ```
 So, I'm building this simple rag pipeline with langchain and ollama that takes in a PDF document and returns it's summar
 y as bulletpoints.
@@ -405,7 +1272,7 @@ n parameters etc. Ins't there a way to standardize this workflow according to yo
 
      
  
-all -  [ Deploying Langserve in ECS with CDK ](https://www.reddit.com/r/LangChain/comments/1ddb6qz/deploying_langserve_in_ecs_with_cdk/) , 2024-06-12-0954
+all -  [ Deploying Langserve in ECS with CDK ](https://www.reddit.com/r/LangChain/comments/1ddb6qz/deploying_langserve_in_ecs_with_cdk/) , 2024-06-13-0953
 ```
 Hi guys I was struggling for quite sometime on how to host Langserve in AWS ECS. So prepared this two repos
 
@@ -426,7 +1293,7 @@ autoscale added, as I dont know how to do it myself in ecs, will update when I g
 
      
  
-all -  [ Best way forward and vector db for an AI RAG system for CVs ranking using query and some metadata  ](https://www.reddit.com/r/LangChain/comments/1dd8ssq/best_way_forward_and_vector_db_for_an_ai_rag/) , 2024-06-12-0954
+all -  [ Best way forward and vector db for an AI RAG system for CVs ranking using query and some metadata  ](https://www.reddit.com/r/LangChain/comments/1dd8ssq/best_way_forward_and_vector_db_for_an_ai_rag/) , 2024-06-13-0953
 ```
 Hi guys, 
 I'm working on this project where initially we have 700 csvs to be ingested and build a poc with some ui for q
@@ -446,7 +1313,7 @@ ping in mind the production use case and scaling to more pdfs
 
      
  
-all -  [ How do i parse a call to multiple tools ](https://www.reddit.com/r/LangChain/comments/1dd6poy/how_do_i_parse_a_call_to_multiple_tools/) , 2024-06-12-0954
+all -  [ How do i parse a call to multiple tools ](https://www.reddit.com/r/LangChain/comments/1dd6poy/how_do_i_parse_a_call_to_multiple_tools/) , 2024-06-13-0953
 ```
 When a single tool is to be used this is the output I get from Llama3 is:{'arguments': {}, 'name': 'check\_location'}
 
@@ -488,7 +1355,7 @@ How do i parse the above?
 
      
  
-all -  [ Can I use LangChain with Indian opensource LLMs? ](https://www.reddit.com/r/LangChain/comments/1dd6poq/can_i_use_langchain_with_indian_opensource_llms/) , 2024-06-12-0954
+all -  [ Can I use LangChain with Indian opensource LLMs? ](https://www.reddit.com/r/LangChain/comments/1dd6poq/can_i_use_langchain_with_indian_opensource_llms/) , 2024-06-13-0953
 ```
 I am a beginner so this might be a pretty basic question. I wanted to know if I can use LangChain framework with LLMs ot
 her than openai's GPT. My use case is related to regional languages in India so I was going to use **BharatGPT by** [**C
@@ -498,7 +1365,7 @@ oRover.ai**](http://CoRover.ai) or **AI4Bharat** an opensource AI model?
 
      
  
-all -  [ What vector db should I choose for 100m pages of text? ](https://www.reddit.com/r/LangChain/comments/1dcyc6i/what_vector_db_should_i_choose_for_100m_pages_of/) , 2024-06-12-0954
+all -  [ What vector db should I choose for 100m pages of text? ](https://www.reddit.com/r/LangChain/comments/1dcyc6i/what_vector_db_should_i_choose_for_100m_pages_of/) , 2024-06-13-0953
 ```
 For context my vector db research started today from 0 knowledge and I feel absolutely unqualified to be making this dec
 ision but here we are.
@@ -529,7 +1396,7 @@ en't heard many recommending it as the best except for its usability and ease of
 
      
  
-all -  [ How to handle ambiguous column names when converting Text-to-SQL in SQL Agent? ](https://www.reddit.com/r/LangChain/comments/1dcvnzv/how_to_handle_ambiguous_column_names_when/) , 2024-06-12-0954
+all -  [ How to handle ambiguous column names when converting Text-to-SQL in SQL Agent? ](https://www.reddit.com/r/LangChain/comments/1dcvnzv/how_to_handle_ambiguous_column_names_when/) , 2024-06-13-0953
 ```
 **I have 2 cases of ambiguity** 
 
@@ -562,7 +1429,7 @@ n if the descriptions are different, we cannot make sense from the question. Nee
 
      
  
-all -  [ What are you studying, courses are you taken, personal project are you working on to keep up with th ](https://www.reddit.com/r/datascience/comments/1dcudnn/what_are_you_studying_courses_are_you_taken/) , 2024-06-12-0954
+all -  [ What are you studying, courses are you taken, personal project are you working on to keep up with th ](https://www.reddit.com/r/datascience/comments/1dcudnn/what_are_you_studying_courses_are_you_taken/) , 2024-06-13-0953
 ```
 If you are working with classic ML and basic statistics in your current job, and new jobs require knowledge of LLMs and 
 RAG based system with knowledge in langchain and prompt engineering, How can I land a job then?
@@ -571,2007 +1438,7 @@ RAG based system with knowledge in langchain and prompt engineering, How can I l
 
      
  
-all -  [ What markup language, if any, does PyPDFLoader extract equations as? ](https://www.reddit.com/r/LangChain/comments/1dcs5k0/what_markup_language_if_any_does_pypdfloader/) , 2024-06-12-0954
-```
-So, as the title says, for equations in a PDF, what markup language does the module PyPDFLoader use to represent math eq
-uations? For example, it extracted an equation from the document as  '\n( )\n101\n10RMNT\nHH+−\n=' . Is that some sort o
-f markup language, or is it just gibberish?
-```
----
-
-     
- 
-all -  [ Has Anyone Integrated Langgraph with Google Vertex AI Reasoning Engine? ](https://www.reddit.com/r/LangChain/comments/1dcqnw9/has_anyone_integrated_langgraph_with_google/) , 2024-06-12-0954
-```
-Hi everyone,
-
-I'm currently working on a project where I've been using Langchain Agent Template from Reasoning Engine Do
-cs. Recently, I came across Langgraph and now I want to try it to leverage its multi-agent functionality.
-
-I'd like to k
-now if anyone here has experience integrating Langgraph with Google Vertex AI Reasoning Engine.
-
-I've already tested the
- reasoning engine locally, but I encounter issues when running the set\_up method on the deployed version in the reasoni
-ng engine. I just want to know if anyone has experience doing this.
-
-Thanks in advance!
-```
----
-
-     
- 
-all -  [ How to get AI Agent to do follow up questions and remember/apply previous request/arguments?
- ](https://www.reddit.com/r/LangChain/comments/1dcprk4/how_to_get_ai_agent_to_do_follow_up_questions_and/) , 2024-06-12-0954
-```
-Here is my project repo: [https://github.com/saminkhan1/realtor-project](https://github.com/saminkhan1/realtor-project)
-
-
-I am building a AI agent using langgraph that talks to a SQL database to get information about real estate data. The qu
-estions were:
-
-1. What properties are available in New York?
-2. Show me houses with at least 3 bedrooms and 2 bathrooms.
-
-3. Do you have any properties under $500,000?
-
-It knew I was looking for houses in NY for the second question, but in t
-he third it didn't understand I want houses in NY, 3 bed 2 bath and less then 500k it only searched for houses in NY und
-er 500k.
-
-================================ Human Message =================================
-
-What properties are availabl
-e in New York?
-
-================================== Ai Message ==================================
-
-Here are some properti
-es available in New York:
-
-1. Price: $175,000
-   * Beds: 3
-   * Baths: 1
-   * Acre Lot: 60
-   * Address: 553526 Berlin, 
-New York, 12022
-   * House Size: 1176 sqft
-2. Price: $425,000
-   * Beds: 3
-   * Baths: 2
-   * Acre Lot: 2.02
-   * Addres
-s: 263302 Claverack, New York, 12521
-   * House Size: 1600 sqft
-   * Previous Sold Date: November 24, 2021
-3. Price: $22
-5,000
-   * Beds: 4
-   * Baths: 2
-   * Acre Lot: 0.24
-   * Address: 871278 Copake, New York, 12521
-   * House Size: 1239 
-sqft
-   * Previous Sold Date: February 1, 2018
-4. Price: $419,000
-   * Beds: 3
-   * Baths: 3
-   * Acre Lot: 1.9
-   * Add
-ress: 286373 Copake, New York, 12516
-   * House Size: 1800 sqft
-
-Let me know if you need more information or if you have
- any specific preferences.
-
-================================ Human Message =================================
-
-Show me ho
-uses with at least 3 bedrooms and 2 bathrooms.
-
-================================== Ai Message ==========================
-========
-
-Here are houses in New York with at least 3 bedrooms and 2 bathrooms:
-
-1. Price: $425,000
-   * Beds: 3
-   * Ba
-ths: 2
-   * Acre Lot: 2.02
-   * Address: 263302 Claverack, New York, 12521
-   * House Size: 1600 sqft
-   * Previous Sold
- Date: November 24, 2021
-2. Price: $225,000
-   * Beds: 4
-   * Baths: 2
-   * Acre Lot: 0.24
-   * Address: 871278 Copake, 
-New York, 12521
-   * House Size: 1239 sqft
-   * Previous Sold Date: February 1, 2018
-3. Price: $419,000
-   * Beds: 3
-   
-* Baths: 3
-   * Acre Lot: 1.9
-   * Address: 286373 Copake, New York, 12516
-   * House Size: 1800 sqft
-4. Price: $365,000
-
-   * Beds: 3
-   * Baths: 2
-   * Acre Lot: 2.0
-   * Address: 78544 Copake, New York, 12517
-   * House Size: 1482 sqft
-
-L
-et me know if you would like more details or if you have any specific preferences.
-
-================================ Hum
-an Message =================================
-
-Do you have any properties under $500,000?
-
-==============================
-==== Ai Message ==================================
-
-I found some properties in New York under $500,000:
-
-1. Price: $175,
-000
-   * Beds: 3
-   * Baths: 1
-   * Acre Lot: 60.0
-   * Address: 553526 Berlin, New York, 12022
-   * House Size: 1176 sq
-ft
-2. Price: $425,000
-   * Beds: 3
-   * Baths: 2
-   * Acre Lot: 2.02
-   * Address: 263302 Claverack, New York, 12521
-   
-* House Size: 1600 sqft
-   * Previous Sold Date: November 24, 2021
-3. Price: $225,000
-   * Beds: 4
-   * Baths: 2
-   * Ac
-re Lot: 0.24
-   * Address: 871278 Copake, New York, 12521
-   * House Size: 1239 sqft
-   * Previous Sold Date: February 1
-, 2018
-4. Price: $419,000
-   * Beds: 3
-   * Baths: 3
-   * Acre Lot: 1.9
-   * Address: 286373 Copake, New York, 12516
-   
-* House Size: 1800 sqft
-5. Price: $365,000
-   * Beds: 3
-   * Baths: 2
-   * Acre Lot: 2.0
-   * Address: 78544 Copake, New
- York, 12517
-   * House Size: 1482 sqft
-
-Let me know if you need more information on any of these properties or if you h
-ave any specific preferences.
-```
----
-
-     
- 
-all -  [ anyone interested in collaboration? ](https://www.reddit.com/r/LangChain/comments/1dcpmw4/anyone_interested_in_collaboration/) , 2024-06-12-0954
-```
-Hey Folks,
-
-  
-I wanted to ping the community to see if anyone would be interested in joining a few of us in our generat
-ive AI project. We're trying to set up pipelines to help companies utilize RAG pipelines. 
-
-  
-I don't want to waste any
-one's time either. To be transparent, we're actively seeking and courting investors, so we can't offer monetary compensa
-tion until that happens. However, with the current investment in Gen AI and with what we're building, I'm confident this
- won't be the case for long. We're happy to cover essential development costs and resources as needed. I know that sound
-s all just promises, but I want to be as upfront as possible. 
-
-  
-Feel free to DM me if interested! 
-```
----
-
-     
- 
-all -  [ How do I improve context retrieved? ](https://www.reddit.com/r/LangChain/comments/1dcnfb7/how_do_i_improve_context_retrieved/) , 2024-06-12-0954
-```
-Hey everyone, I am a Comp. Sci. student and I am using LangChain for one of my projects. I am working with transcription
- of a video. I was storing each speech segment as text and speaker and timestamp as metadata to a Chroma collection.
-
-Ho
-wever, I have two problems:
-- I couldn't manage to filter by speaker. I tried adding filter=[{speaker: speaker_1}] to re
-triever and also self query retriever but both did not work
-- Some context's are omitted due to how I store data. For ex
-ample, if speaker_1 asks 'Where were you ar yesterday?' and speaker_2 says 'at home'. When I query where was speaker_2 a
-t yesterday, I see that speaker_1's question is retrieved as context but not the answer, so I cannot get the answer. 
-
-I
- also did not want to include the last part of the previous sentence as it would make the timestamp accuracy problematic
- which is important for my project. I may add each previous sentence as metadata but I don't know if this is way to go. 
-Any ideas?
-```
----
-
-     
- 
-all -  [ PDF Table Extraction, the Definitive Guide (+ gmft release!) ](https://www.reddit.com/r/LangChain/comments/1dclawv/pdf_table_extraction_the_definitive_guide_gmft/) , 2024-06-12-0954
-```
-People of r/LangChain, 
-
-Like many of you ([1](https://www.reddit.com/r/LocalLLaMA/comments/1am3fz8/how_to_recover_docum
-ent_structure_and_plain_text/)) ([2](https://www.reddit.com/r/LangChain/comments/1cn0z11/extract_tables_from_pdf_for_rag
-/)) ([3](https://www.reddit.com/r/LangChain/comments/17c7g9b/anyone_worked_on_reading_pdf_with_tables/)), I have been se
-arching for a reasonable way to extract precious tables from pdfs for RAG for quite some time. Despite this seemingly si
-mple problem, I've been surprised at just how unsolved this problem is. Despite a ton of options (see below), surprising
-ly few of them 'just work'. Some users have even suggested paid APIs like Mathpix and Adobe Extract.
-
-In an effort to co
-nsolidate all the options out there, I've made a guide for many existing pdf table extraction options, with links to qui
-ckstarts, Colab Notebooks, and github repos. I've written [colab notebooks](https://drive.google.com/drive/u/0/folders/1
-14bWRj5H4aE-BA5UKH9S5ol8LC6vhqfR) that let you extract tables using methods like pdfplumber, pymupdf, nougat, open-parse
-, deepdoctection, surya, and unstructured. To be as objective as possible, I've also compared the options with the same 
-3 papers: [PubTables-1M (tatr)](https://arxiv.org/abs/2110.00061), the classic [Attention](https://arxiv.org/abs/1706.03
-762) paper, and a [very challenging nmr table](http://ccc.chem.pitt.edu/wipf/Web/NMR_Impurities.pdf).
-
-# gmft release
-
-O
-n top of this, I'm thrilled to announce [gmft](https://github.com/conjuncts/gmft) (**g**ive **m**e the **f**ormatted **t
-**ables), a deep table recognition relying on Microsoft's TATR. Partially written out of exasperation, it is about an *o
-rder of magnitude faster* than most deep competitors like nougat, open-parse, unstructured and deepdoctection. It runs o
-n **cpu** (!) at around 1.381 s/page; it additionally takes ~0.945s for each table converted to df. The reason why it's 
-so fast is that gmft does not rerun OCR. In many cases, the existing OCR is already good or even better than tesseract o
-r other OCR software, so there is no need for expensive OCR. But gmft still allows for OCR downstream by outputting an i
-mage of the cropped table.
-
-I also think gmft's quality is unparalleled, especially in terms of value alignment to row/c
-olumn header! It's easiest to see the results ([colab](https://colab.research.google.com/drive/1fEqsTdKcO5RNPV_b2v9cB4Y5
-We9Kv-hR)) ([github](https://github.com/conjuncts/gmft/blob/main/notebooks/bulk_extract.ipynb)) for yourself. I invite t
-he reader to explore all the notebooks to survey your own use cases and compare see each option's strengths and weakness
-es.
-
-Some weaknesses of gmft include no rotated table support (yet), false positives when rotated, and a current lack of
- support for multi-indexes (multiple row headers). However, gmft's major strength is alignment. Because of the underlyin
-g algorithm, values are usually correctly aligned to their row or column header, even when there are other issues with T
-ATR. This is in contrast with other options like unstructured, open-parse, which may fail first on alignment. Anecdotall
-y, I've personally extracted ~4000 pdfs with gmft on cpu, and (barring occassional header issues) the quality is excelle
-nt. Again, take a look at [this notebook](https://colab.research.google.com/drive/1fEqsTdKcO5RNPV_b2) for the table qual
-ity.
-
-# Comparison
-
-All the quickstarts that I have made/modified are in [this google drive folder](https://drive.google
-.com/drive/u/0/folders/114bWRj5H4aE-BA5UKH9S5ol8LC6vhqfR); the installations should all work with google colab.
-
-The mos
-t up-to-date table of all comparisons is [here](https://docs.google.com/spreadsheets/d/12IhxHZbYF71dPl32PQpF_6pg9e9S8f9W
-4sTHt-B0KTg/edit#gid=0); my calculations for throughput is [here](https://docs.google.com/spreadsheets/d/12IhxHZbYF71dPl
-32PQpF_6pg9e9S8f9W4sTHt-B0KTg/edit#gid=39227585).
-
-I have undoubtedly missed some options. In particular, I have not had
- the chance to evaluate paddleocr. As a stopgap, see [this](https://medium.com/@malshanCS/automating-table-data-extracti
-on-tools-and-techniques-for-efficiency-a29df313cbda#629d) writeup. If you'd like an option added to the table, please le
-t me know!
-
-## Table
-[See google sheets!](https://docs.google.com/spreadsheets/d/12IhxHZbYF71dPl32PQpF_6pg9e9S8f9W4sTHt-
-B0KTg/edit#gid=0) Table is too big for reddit to format.
-```
----
-
-     
- 
-all -  [ Agentic RAG with Different Vector Stores ](https://www.reddit.com/r/LangChain/comments/1dcjs4r/agentic_rag_with_different_vector_stores/) , 2024-06-12-0954
-```
-I am looking to build a RAG chatbot. My data-sources are classified into about 3 specific domains, and I want my RAG bot
- to know the difference between these domains and query only the necessary datasets, depending on the query.
-
-I primaril
-y work with Langchain and have embedded all my data-sources into a FAISS vector database (I tried ChromaDB, but found be
-tter results with FAISS, lmk if you have better suggestions).  
-  
-I used several of Langchain's retrievers, like the Mu
-ltiVectorRetriever, a BM25 retriever and even tried pooling everything together with an EnsembleRetriever.
-
-Though I get
- 'passable' responses, more often than not, the model gets confused by the several retrieved documents. For a given quer
-y, my FAISS retriever pulls relevant documents from all the available data sources (as they are embedded in the same vec
-torstore). These data sources corrupt the quality of the generated response, as my LLM is now summarizing a document fro
-m domain B, when the question was clearly about domain A.
-
-I understand that I cant expect perfect results from any RAG 
-architecture, but I feel like a lot of my current issues will be solved if I figure out a way to teach the model to know
- the difference between the different data sources.
-
-I considered metadata filtering (with PGVector in Langchain), but a
-m pretty sure that this wont work, as my data-sources aren't metadata rich.  The only metadata I could have is the domai
-n key.
-
-So, what if I embed my different domains in different vector databases and use a Langchain agent function call t
-o have the LLM selectively retrieve docs from each vectorstore depending on the question? I will probably be making more
- LLM calls and have some latency, but is this feasible?
-```
----
-
-     
- 
-all -  [ Same program gives different results when executed directly compared to when executed as a function ](https://www.reddit.com/r/ollama/comments/1dcihxu/same_program_gives_different_results_when/) , 2024-06-12-0954
-```
-Here is a program i've created using Ollama, LangGraph and Llama3:
-
-    from langchain_community.chat_models import Chat
-Ollama
-    from langchain_core.output_parsers import JsonOutputParser
-    from langchain_core.prompts import PromptTempl
-ate
-    from langchain_community.chat_models import ChatOllama
-    from langchain_core.output_parsers import JsonOutputP
-arser
-    from langchain_core.prompts import PromptTemplate
-    from langgraph.graph import END, StateGraph
-    from ppr
-int import pprint
-    from langchain_core.output_parsers import StrOutputParser
-    from typing import TypedDict
-    imp
-ort mod
-    from langchain.tools.render import render_text_description
-    
-    
-    
-    
-    local_llm = 'llama3:8b'
- 
-   
-    
-    tools = [mod.check_calendar,mod.check_location,mod.send_message,mod.receive_call,mod.getContactInfo,mod.mut
-e]
-    rendered_tools = render_text_description(tools)
-    print(rendered_tools)
-    
-    from operator import itemgette
-r
-    
-    
-    def tool_chain(model_output):
-        tool_map = {tool.name: tool for tool in tools}
-        chosen_tool
- = tool_map[model_output['name']]
-        return itemgetter('arguments') | chosen_tool
-    
-    
-    contextllm = ChatOl
-lama(model=local_llm, format='json', temperature=0)
-    
-    prompt = PromptTemplate(
-        template='''<|begin_of_tex
-t|><|start_header_id|>system<|end_header_id|> You are a helpful agent who will answer the user's question to the best of
- your abilities using one or more of the tools available to you\n
-        You have access to the following tools. Here i
-s the name and description of the tools:%s\n
-        Return the name and input of the tool to use.
-        Return your r
-esponse as a JSON blob with 'name' and 'arguments' keys.
-        The value associated with the 'arguments' key should be
- a dictionary of parameters.
-        You are not allowed to return blank results
-         <|eot_id|><|start_header_id|>u
-ser<|end_header_id|>
-         {inp}. Who is calling?\n
-         <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-        '''%rendered_tools,
-        input_variables=['inp'],
-    )
-    
-    contextgatherer_chain = prompt | contextllm 
-| JsonOutputParser() | tool_chain
-    
-    
-    
-    actionllm = ChatOllama(model=local_llm, format='json', temperature=
-0)
-    prompt = PromptTemplate(
-        template='''<|begin_of_text|><|start_header_id|>system<|end_header_id|> You are 
-a helpful agent who will select which tool is to be used depending on the context provided by the user and some rules.\n
-
-        You have access to the following tools. Here is the name and description of the tools:%s\n
-        Return the n
-ame and input of the tool to use.
-        Return your response as a JSON blob with 'name' and 'arguments' keys.
-        
-The value associated with the 'arguments' key should be a dictionary of parameters.
-        You are not allowed to retur
-n blank results
-         <|eot_id|><|start_header_id|>user<|end_header_id|>
-         Context:{context}\n
-         {inp}.
-\n\n
-        Rules for tool calling:\n
-        If the caller is 'Kau', the tool to be used is 'receive_call'\n
-        I
-f the caller is 'Priya', the tool to be used is 'send_message'\n
-        For all other numbers, the tool to be used is '
-mute'\n
-         <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-        '''%rendered_tools,
-        input_varia
-bles=['context','inp'],
-    )
-    
-    actiontaker_chain = prompt | actionllm | JsonOutputParser() 
-    
-    
-    class 
-GraphState(TypedDict):
-        '''
-        Represents the state of our graph.
-    
-        Attributes:
-            input
-: User input
-            generation: LLM generation
-            cl: Contact list
-            rs: Relationship list
-     
-       cal: Calendar
-            ct: Current time
-        '''
-        
-        input:str
-        generation: str
-       
- cl:str
-        rs:str
-        cal:str
-        ct:str
-        con:str
-    
-    
-    def callhandler(state):
-        '''
-
-        Gathers the context and determines whether to receive the call or send a message 
-    
-        Args:
-           
- state (dict): The current graph state
-    
-        Returns:
-            state (dict): Whether to send a message, receiv
-e the call, or mute the call
-        '''
-    
-        print('---HANDLING---')
-        i = state['input']
-        c=state
-['con']
-    
-    
-        res1 = contextgatherer_chain.invoke({'inp':i})
-        res2 = actiontaker_chain.invoke({'conte
-xt':res1,'inp':i})
-        return {'generation': res2}
-    
-    
-    
-    workflow = StateGraph(GraphState)
-    workflow
-.add_node('callhandler', callhandler) 
-    workflow.set_entry_point('callhandler')
-    workflow.add_edge('callhandler',E
-ND)
-    app = workflow.compile()
-    
-    
-    e='incoming call from +911234567890'inputs = {'input': e}
-    for output 
-in app.stream(inputs):
-        for key, value in output.items():
-            pprint(f'Finished running: {key}:')
-       
-     pprint(value['generation'])
-
-The output for the above is:
-
----HANDLING---
-
-'Finished running: callhandler:'
-
-{'argu
-ments': {'message': '', 'recipient': '+911234567890'},
-
-'name': 'send\_message'}
-
-When i try to run the same program by 
-enclosing the entire thing as a function( as i want to import this into another file) like this:
-
-    def PA():
-        
-from langchain_community.chat_models import ChatOllama
-        from langchain_core.output_parsers import JsonOutputParse
-r
-        from langchain_core.prompts import PromptTemplate
-        from langchain_community.chat_models import ChatOlla
-ma
-        from langchain_core.output_parsers import JsonOutputParser
-        from langchain_core.prompts import PromptT
-emplate
-        from langgraph.graph import END, StateGraph
-        from pprint import pprint
-        from langchain_cor
-e.output_parsers import StrOutputParser
-        from typing import TypedDict
-        import mod
-        from langchain.t
-ools.render import render_text_description
-    
-    
-    
-    
-        local_llm = 'llama3:8b'
-    
-    
-        tools =
- [mod.check_calendar,mod.check_location,mod.send_message,mod.receive_call,mod.getContactInfo,mod.mute]
-        rendered_
-tools = render_text_description(tools)
-        print(rendered_tools)
-    
-        from operator import itemgetter
-    
- 
-   
-        def tool_chain(model_output):
-            tool_map = {tool.name: tool for tool in tools}
-            chosen_
-tool = tool_map[model_output['name']]
-            return itemgetter('arguments') | chosen_tool
-    
-    
-        context
-llm = ChatOllama(model=local_llm, format='json', temperature=0)
-    
-        prompt = PromptTemplate(
-            templa
-te='''<|begin_of_text|><|start_header_id|>system<|end_header_id|> You are a helpful agent who will answer the user's que
-stion to the best of your abilities using one or more of the tools available to you\n
-            You have access to the
- following tools. Here is the name and description of the tools:%s\n
-            Return the name and input of the tool t
-o use.
-            Return your response as a JSON blob with 'name' and 'arguments' keys.
-            The value associate
-d with the 'arguments' key should be a dictionary of parameters.
-            You are not allowed to return blank results
-
-            <|eot_id|><|start_header_id|>user<|end_header_id|>
-            {inp}. Who is calling?\n
-            <|eot_i
-d|><|start_header_id|>assistant<|end_header_id|>
-            '''%rendered_tools,
-            input_variables=['inp'],
-  
-      )
-    
-        contextgatherer_chain = prompt | contextllm | JsonOutputParser() | tool_chain
-    
-    
-    
-      
-  actionllm = ChatOllama(model=local_llm, format='json', temperature=0)
-        prompt = PromptTemplate(
-            tem
-plate='''<|begin_of_text|><|start_header_id|>system<|end_header_id|> You are a helpful agent who will select which tool 
-is to be used depending on the context provided by the user and some rules.\n
-            You have access to the followi
-ng tools. Here is the name and description of the tools:%s\n
-            Return the name and input of the tool to use.
- 
-           Return your response as a JSON blob with 'name' and 'arguments' keys.
-            The value associated with t
-he 'arguments' key should be a dictionary of parameters.
-            You are not allowed to return blank results
-       
-     <|eot_id|><|start_header_id|>user<|end_header_id|>
-            Context:{context}\n
-            {inp}.\n\n
-         
-   Rules for tool calling:\n
-            If the caller is 'Kau', the tool to be used is 'receive_call'\n
-            If 
-the caller is 'Priya', the tool to be used is 'send_message'\n
-            For all other numbers, the tool to be used is
- 'mute'\n
-            <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-            '''%rendered_tools,
-          
-  input_variables=['context','inp'],
-        )
-    
-        actiontaker_chain = prompt | actionllm | JsonOutputParser() 
-
-    
-    
-        class GraphState(TypedDict):
-            '''
-            Represents the state of our graph.
-    
-    
-        Attributes:
-                input: User input
-                generation: LLM generation
-                cl: Con
-tact list
-                rs: Relationship list
-                cal: Calendar
-                ct: Current time
-         
-   '''
-            
-            input:str
-            generation: str
-            cl:str
-            rs:str
-            
-cal:str
-            ct:str
-            con:str
-    
-    
-        def callhandler(state):
-            '''
-            Gat
-hers the context and determines whether to receive the call or send a message 
-    
-            Args:
-                st
-ate (dict): The current graph state
-    
-            Returns:
-                state (dict): Whether to send a message, r
-eceive the call, or mute the call
-            '''
-    
-            print('---HANDLING---')
-            i = state['input'
-]
-            c=state['con']
-    
-    
-            res1 = contextgatherer_chain.invoke({'inp':i})
-            res2 = act
-iontaker_chain.invoke({'context':res1,'inp':i})
-            return {'generation': res2}
-    
-    
-    
-        workflow 
-= StateGraph(GraphState)
-        workflow.add_node('callhandler', callhandler) 
-        workflow.set_entry_point('callha
-ndler')
-        workflow.add_edge('callhandler',END)
-        app = workflow.compile()
-    
-    
-        file1=open('cont
-actlist','r')
-        file2=open('relationships','r')
-        file3=open('calendar','r')
-        s1=file1.read()
-       
- s2=file2.read()
-        s3=file3.read()
-        curt='11:00.'
-        e='incoming call from +911234567890'
-        f=s1
-+'\n\n'+s2+'\n\n'+s3+'\n\n'+curt+'\n\n'+e
-        print(f)
-        inputs = {'input': e}
-        for output in app.strea
-m(inputs):
-            for key, value in output.items():
-                pprint(f'Finished running: {key}:')
-           
-     pprint(value['generation'])
-    
-    PA()
-
-The output i get is:
-
----HANDLING---
-
-'Finished running: callhandler:'
-
-
-{'arguments': {'caller': '+911234567890'}, 'name': 'receive\_call'}
-
-Here is the 'mod' file in which ive defined the too
-ls available to the LLM:
-
-    import os
-    from langchain_core.tools import tool
-    from typing import Annotated, Sequ
-ence, TypedDict
-    from langchain.agents import AgentExecutor, create_react_agent
-    from langchain_core.messages impo
-rt BaseMessage, HumanMessage
-    from langchain_openai import ChatOpenAI
-    from langchain_core.runnables import Runnab
-lePassthrough
-    from langchain_core.output_parsers import StrOutputParser
-    from langchain_core.prompts import ChatP
-romptTemplate, MessagesPlaceholder
-    from langchain.output_parsers.openai_functions import JsonOutputFunctionsParser
- 
-   import functools
-    from langgraph.graph import StateGraph, END
-    import operator
-    import openai
-    import tim
-e
-    import random
-    from langchain_community.chat_models import ChatOllama
-    from langchain_core.output_parsers im
-port JsonOutputParser
-    from langchain_core.prompts import PromptTemplate
-    from langchain_core.runnables import Run
-nable
-    from langchain_core.exceptions import OutputParserException
-    from langchain.tools.render import render_text
-_description_and_args
-    from pprint import pprint
-    
-    
-    
-    u/tool
-    def check_calendar() -> str:
-        '
-''Retrieve the list of current events from the user's calender. This tool must be used only if the 'context' provided by
- the user is empty'''
-        file=open('calendar','r')
-        s=file.read()
-        return s
-    
-    u/tool
-    def g
-etContactInfo()->str:
-        '''Retreive the the user's contact list to determine who is calling when given an unknown 
-number'''
-        file=open('contactlist','r')
-        s=file.read()
-        return s
-    
-    @tool
-    def check_locat
-ion() -> str:
-        '''Retrieve the current location of the user. This tool must be used only if the 'context' provide
-d by the user is empty'''
-        return 'your location is Bengaluru'
-    
-    @tool
-    def send_message(recipient: str
-, message: str) -> str:
-        '''Send a text message to the specified recipient with the provided message content. Thi
-s tool must be used only if the 'context' provided by the user is not empty'''
-        return f'Sent message to {recipie
-nt}: {message}'
-    
-    @tool
-    def make_call(recipient: str) -> str:
-        '''Initiate  a phone call to the specif
-ied recipient. This tool must be used only if the 'context' provided by the user is not empty'''
-        return f'Callin
-g {recipient}...'
-    
-    @tool
-    def receive_call(caller: str) -> str:
-        '''Handle an incoming phone call from
- the specified caller. This tool must be used only if the 'context' provided by the user is not empty'''
-        return 
-f'Receiving call from {caller}...'
-    
-    @tool
-    def op1(f:int,s:int)->dict:
-        '''adds f and s'''
-        ret
-urn {'answer':f*s}
-    @tool
-    def op2(f:int,s:int)->dict:
-        '''subtracts f and s'''
-        return {'answer':f*
-s}
-    
-    @tool
-    def getWeather(city:str):
-        '''returns the weather in 'city'''
-        return 'cloudy'
-    
-
-    @tool
-    def mute():
-        '''Mute an incoming call'''
-        return
-
-I have my reasons for structuring it this 
-way.
-
-Can someone please tell me why I'm getting different outputs?
-```
----
-
-     
- 
-all -  [ Same program gives different results when executed directly compared to when executed as a function ](https://www.reddit.com/r/learnpython/comments/1dcihe2/same_program_gives_different_results_when/) , 2024-06-12-0954
-```
-Here is a program i've created using Ollama, LangGraph and Llama3:
-
-Version 1
-
-    from langchain_community.chat_models 
-import ChatOllama
-    from langchain_core.output_parsers import JsonOutputParser
-    from langchain_core.prompts import 
-PromptTemplate
-    from langchain_community.chat_models import ChatOllama
-    from langchain_core.output_parsers import 
-JsonOutputParser
-    from langchain_core.prompts import PromptTemplate
-    from langgraph.graph import END, StateGraph
- 
-   from pprint import pprint
-    from langchain_core.output_parsers import StrOutputParser
-    from typing import TypedD
-ict
-    import mod
-    from langchain.tools.render import render_text_description
-    
-    
-    
-    
-    local_llm = 'l
-lama3:8b'
-    
-    
-    tools = [mod.check_calendar,mod.check_location,mod.send_message,mod.receive_call,mod.getContactI
-nfo,mod.mute]
-    rendered_tools = render_text_description(tools)
-    print(rendered_tools)
-    
-    from operator impor
-t itemgetter
-    
-    
-    def tool_chain(model_output):
-        tool_map = {tool.name: tool for tool in tools}
-        
-chosen_tool = tool_map[model_output['name']]
-        return itemgetter('arguments') | chosen_tool
-    
-    
-    contextl
-lm = ChatOllama(model=local_llm, format='json', temperature=0)
-    
-    prompt = PromptTemplate(
-        template='''<|b
-egin_of_text|><|start_header_id|>system<|end_header_id|> You are a helpful agent who will answer the user's question to 
-the best of your abilities using one or more of the tools available to you\n
-        You have access to the following to
-ols. Here is the name and description of the tools:%s\n
-        Return the name and input of the tool to use.
-        Re
-turn your response as a JSON blob with 'name' and 'arguments' keys.
-        The value associated with the 'arguments' ke
-y should be a dictionary of parameters.
-        You are not allowed to return blank results
-         <|eot_id|><|start_h
-eader_id|>user<|end_header_id|>
-         {inp}. Who is calling?\n
-         <|eot_id|><|start_header_id|>assistant<|end_h
-eader_id|>
-        '''%rendered_tools,
-        input_variables=['inp'],
-    )
-    
-    contextgatherer_chain = prompt | 
-contextllm | JsonOutputParser() | tool_chain
-    
-    
-    
-    actionllm = ChatOllama(model=local_llm, format='json', t
-emperature=0)
-    prompt = PromptTemplate(
-        template='''<|begin_of_text|><|start_header_id|>system<|end_header_id
-|> You are a helpful agent who will select which tool is to be used depending on the context provided by the user and so
-me rules.\n
-        You have access to the following tools. Here is the name and description of the tools:%s\n
-        R
-eturn the name and input of the tool to use.
-        Return your response as a JSON blob with 'name' and 'arguments' key
-s.
-        The value associated with the 'arguments' key should be a dictionary of parameters.
-        You are not allow
-ed to return blank results
-         <|eot_id|><|start_header_id|>user<|end_header_id|>
-         Context:{context}\n
-    
-     {inp}.\n\n
-        Rules for tool calling:\n
-        If the caller is 'Kau', the tool to be used is 'receive_call'\
-n
-        If the caller is 'Priya', the tool to be used is 'send_message'\n
-        For all other numbers, the tool to b
-e used is 'mute'\n
-         <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-        '''%rendered_tools,
-        
-input_variables=['context','inp'],
-    )
-    
-    actiontaker_chain = prompt | actionllm | JsonOutputParser() 
-    
-    
-
-    class GraphState(TypedDict):
-        '''
-        Represents the state of our graph.
-    
-        Attributes:
-      
-      input: User input
-            generation: LLM generation
-            cl: Contact list
-            rs: Relationship
- list
-            cal: Calendar
-            ct: Current time
-        '''
-        
-        input:str
-        generation: 
-str
-        cl:str
-        rs:str
-        cal:str
-        ct:str
-        con:str
-    
-    
-    def callhandler(state):
- 
-       '''
-        Gathers the context and determines whether to receive the call or send a message 
-    
-        Args:
-
-            state (dict): The current graph state
-    
-        Returns:
-            state (dict): Whether to send a mess
-age, receive the call, or mute the call
-        '''
-    
-        print('---HANDLING---')
-        i = state['input']
-    
-    c=state['con']
-    
-    
-        res1 = contextgatherer_chain.invoke({'inp':i})
-        res2 = actiontaker_chain.inv
-oke({'context':res1,'inp':i})
-        return {'generation': res2}
-    
-    
-    
-    workflow = StateGraph(GraphState)
- 
-   workflow.add_node('callhandler', callhandler) 
-    workflow.set_entry_point('callhandler')
-    workflow.add_edge('cal
-lhandler',END)
-    app = workflow.compile()
-    
-    
-    e='incoming call from +911234567890'inputs = {'input': e}
-    
-for output in app.stream(inputs):
-        for key, value in output.items():
-            pprint(f'Finished running: {key}
-:')
-            pprint(value['generation'])
-
-The output for the above is:
-
----HANDLING---
-
-'Finished running: callhandle
-r:'
-
-{'arguments': {'message': '', 'recipient': '+911234567890'},
-
-'name': 'send\_message'}
-
-  
-
-
-When i try to run the 
-exact same code by enclosing the entire thing as a function called PA( as i want to import this into another file) like 
-this:
-
-Version 2
-
-    def PA():
-      #Exact same code as above
-    PA()
-
-The output i get is:
-
----HANDLING---
-
-'Finishe
-d running: callhandler:'
-
-{'arguments': {'caller': '+911234567890'}, 'name': 'receive\_call'}
-
-  
-
-
-For reference, here 
-is the 'mod' file in which I've defined the tools available to the LLM:
-
-    import os
-    from langchain_core.tools imp
-ort tool
-    from typing import Annotated, Sequence, TypedDict
-    from langchain.agents import AgentExecutor, create_re
-act_agent
-    from langchain_core.messages import BaseMessage, HumanMessage
-    from langchain_openai import ChatOpenAI
-
-    from langchain_core.runnables import RunnablePassthrough
-    from langchain_core.output_parsers import StrOutputPars
-er
-    from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
-    from langchain.output_parsers.open
-ai_functions import JsonOutputFunctionsParser
-    import functools
-    from langgraph.graph import StateGraph, END
-    i
-mport operator
-    import openai
-    import time
-    import random
-    from langchain_community.chat_models import ChatO
-llama
-    from langchain_core.output_parsers import JsonOutputParser
-    from langchain_core.prompts import PromptTempla
-te
-    from langchain_core.runnables import Runnable
-    from langchain_core.exceptions import OutputParserException
-   
- from langchain.tools.render import render_text_description_and_args
-    from pprint import pprint
-    
-    
-    
-    u/
-tool
-    def check_calendar() -> str:
-        '''Retrieve the list of current events from the user's calender. This tool
- must be used only if the 'context' provided by the user is empty'''
-        file=open('calendar','r')
-        s=file.re
-ad()
-        return s
-    
-    u/tool
-    def getContactInfo()->str:
-        '''Retreive the the user's contact list to 
-determine who is calling when given an unknown number'''
-        file=open('contactlist','r')
-        s=file.read()
-    
-    return s
-    
-    u/tool
-    def check_location() -> str:
-        '''Retrieve the current location of the user. This
- tool must be used only if the 'context' provided by the user is empty'''
-        return 'your location is Bengaluru'
-  
-  
-    u/tool
-    def send_message(recipient: str, message: str) -> str:
-        '''Send a text message to the specified
- recipient with the provided message content. This tool must be used only if the 'context' provided by the user is not e
-mpty'''
-        return f'Sent message to {recipient}: {message}'
-    
-    u/tool
-    def make_call(recipient: str) -> st
-r:
-        '''Initiate  a phone call to the specified recipient. This tool must be used only if the 'context' provided b
-y the user is not empty'''
-        return f'Calling {recipient}...'
-    
-    @tool
-    def receive_call(caller: str) -> 
-str:
-        '''Handle an incoming phone call from the specified caller. This tool must be used only if the 'context' pr
-ovided by the user is not empty'''
-        return f'Receiving call from {caller}...'
-    
-    @tool
-    def op1(f:int,s:
-int)->dict:
-        '''adds f and s'''
-        return {'answer':f*s}
-    @tool
-    def op2(f:int,s:int)->dict:
-        '
-''subtracts f and s'''
-        return {'answer':f*s}
-    
-    @tool
-    def getWeather(city:str):
-        '''returns the
- weather in 'city'''
-        return 'cloudy'
-    
-    @tool
-    def mute():
-        '''Mute an incoming call'''
-        
-return
-
-I have my reasons for structuring it this way.
-
-Can someone please tell me why I'm getting different outputs in 
-version 1 and version 2?
-```
----
-
-     
- 
-all -  [ Same program gives different results when executed directly and when executed as a function ](https://www.reddit.com/r/LangChain/comments/1dci6cs/same_program_gives_different_results_when/) , 2024-06-12-0954
-```
-Here is a program i've created using Ollama, LangGraph and Llama3:
-
-    from langchain_community.chat_models import Chat
-Ollama
-    from langchain_core.output_parsers import JsonOutputParser
-    from langchain_core.prompts import PromptTempl
-ate
-    from langchain_community.chat_models import ChatOllama
-    from langchain_core.output_parsers import JsonOutputP
-arser
-    from langchain_core.prompts import PromptTemplate
-    from langgraph.graph import END, StateGraph
-    from ppr
-int import pprint
-    from langchain_core.output_parsers import StrOutputParser
-    from typing import TypedDict
-    imp
-ort mod
-    from langchain.tools.render import render_text_description
-    
-    
-    
-    
-    local_llm = 'llama3:8b'
- 
-   
-    
-    tools = [mod.check_calendar,mod.check_location,mod.send_message,mod.receive_call,mod.getContactInfo,mod.mut
-e]
-    rendered_tools = render_text_description(tools)
-    print(rendered_tools)
-    
-    from operator import itemgette
-r
-    
-    
-    def tool_chain(model_output):
-        tool_map = {tool.name: tool for tool in tools}
-        chosen_tool
- = tool_map[model_output['name']]
-        return itemgetter('arguments') | chosen_tool
-    
-    
-    contextllm = ChatOl
-lama(model=local_llm, format='json', temperature=0)
-    
-    prompt = PromptTemplate(
-        template='''<|begin_of_tex
-t|><|start_header_id|>system<|end_header_id|> You are a helpful agent who will answer the user's question to the best of
- your abilities using one or more of the tools available to you\n
-        You have access to the following tools. Here i
-s the name and description of the tools:%s\n
-        Return the name and input of the tool to use.
-        Return your r
-esponse as a JSON blob with 'name' and 'arguments' keys.
-        The value associated with the 'arguments' key should be
- a dictionary of parameters.
-        You are not allowed to return blank results
-         <|eot_id|><|start_header_id|>u
-ser<|end_header_id|>
-         {inp}. Who is calling?\n
-         <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-
-        '''%rendered_tools,
-        input_variables=['inp'],
-    )
-    
-    contextgatherer_chain = prompt | contextllm 
-| JsonOutputParser() | tool_chain
-    
-    
-    
-    actionllm = ChatOllama(model=local_llm, format='json', temperature=
-0)
-    prompt = PromptTemplate(
-        template='''<|begin_of_text|><|start_header_id|>system<|end_header_id|> You are 
-a helpful agent who will select which tool is to be used depending on the context provided by the user and some rules.\n
-
-        You have access to the following tools. Here is the name and description of the tools:%s\n
-        Return the n
-ame and input of the tool to use.
-        Return your response as a JSON blob with 'name' and 'arguments' keys.
-        
-The value associated with the 'arguments' key should be a dictionary of parameters.
-        You are not allowed to retur
-n blank results
-         <|eot_id|><|start_header_id|>user<|end_header_id|>
-         Context:{context}\n
-         {inp}.
-\n\n
-        Rules for tool calling:\n
-        If the caller is 'Kau', the tool to be used is 'receive_call'\n
-        I
-f the caller is 'Priya', the tool to be used is 'send_message'\n
-        For all other numbers, the tool to be used is '
-mute'\n
-         <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-        '''%rendered_tools,
-        input_varia
-bles=['context','inp'],
-    )
-    
-    actiontaker_chain = prompt | actionllm | JsonOutputParser() 
-    
-    
-    class 
-GraphState(TypedDict):
-        '''
-        Represents the state of our graph.
-    
-        Attributes:
-            input
-: User input
-            generation: LLM generation
-            cl: Contact list
-            rs: Relationship list
-     
-       cal: Calendar
-            ct: Current time
-        '''
-        
-        input:str
-        generation: str
-       
- cl:str
-        rs:str
-        cal:str
-        ct:str
-        con:str
-    
-    
-    def callhandler(state):
-        '''
-
-        Gathers the context and determines whether to receive the call or send a message 
-    
-        Args:
-           
- state (dict): The current graph state
-    
-        Returns:
-            state (dict): Whether to send a message, receiv
-e the call, or mute the call
-        '''
-    
-        print('---HANDLING---')
-        i = state['input']
-        c=state
-['con']
-    
-    
-        res1 = contextgatherer_chain.invoke({'inp':i})
-        res2 = actiontaker_chain.invoke({'conte
-xt':res1,'inp':i})
-        return {'generation': res2}
-    
-    
-    
-    workflow = StateGraph(GraphState)
-    workflow
-.add_node('callhandler', callhandler) 
-    workflow.set_entry_point('callhandler')
-    workflow.add_edge('callhandler',E
-ND)
-    app = workflow.compile()
-    
-    
-    e='incoming call from +911234567890'inputs = {'input': e}
-    for output 
-in app.stream(inputs):
-        for key, value in output.items():
-            pprint(f'Finished running: {key}:')
-       
-     pprint(value['generation'])
-
-The output for the above is:
-
----HANDLING---
-
-'Finished running: callhandler:'
-
-{'argu
-ments': {'message': '', 'recipient': '+911234567890'},
-
-'name': 'send\_message'}
-
-When i try to run the same program by 
-enclosing the entire thing as a function( as i want to import this into another file) like this:
-
-    def PA():
-        
-from langchain_community.chat_models import ChatOllama
-        from langchain_core.output_parsers import JsonOutputParse
-r
-        from langchain_core.prompts import PromptTemplate
-        from langchain_community.chat_models import ChatOlla
-ma
-        from langchain_core.output_parsers import JsonOutputParser
-        from langchain_core.prompts import PromptT
-emplate
-        from langgraph.graph import END, StateGraph
-        from pprint import pprint
-        from langchain_cor
-e.output_parsers import StrOutputParser
-        from typing import TypedDict
-        import mod
-        from langchain.t
-ools.render import render_text_description
-    
-    
-    
-    
-        local_llm = 'llama3:8b'
-    
-    
-        tools =
- [mod.check_calendar,mod.check_location,mod.send_message,mod.receive_call,mod.getContactInfo,mod.mute]
-        rendered_
-tools = render_text_description(tools)
-        print(rendered_tools)
-    
-        from operator import itemgetter
-    
- 
-   
-        def tool_chain(model_output):
-            tool_map = {tool.name: tool for tool in tools}
-            chosen_
-tool = tool_map[model_output['name']]
-            return itemgetter('arguments') | chosen_tool
-    
-    
-        context
-llm = ChatOllama(model=local_llm, format='json', temperature=0)
-    
-        prompt = PromptTemplate(
-            templa
-te='''<|begin_of_text|><|start_header_id|>system<|end_header_id|> You are a helpful agent who will answer the user's que
-stion to the best of your abilities using one or more of the tools available to you\n
-            You have access to the
- following tools. Here is the name and description of the tools:%s\n
-            Return the name and input of the tool t
-o use.
-            Return your response as a JSON blob with 'name' and 'arguments' keys.
-            The value associate
-d with the 'arguments' key should be a dictionary of parameters.
-            You are not allowed to return blank results
-
-            <|eot_id|><|start_header_id|>user<|end_header_id|>
-            {inp}. Who is calling?\n
-            <|eot_i
-d|><|start_header_id|>assistant<|end_header_id|>
-            '''%rendered_tools,
-            input_variables=['inp'],
-  
-      )
-    
-        contextgatherer_chain = prompt | contextllm | JsonOutputParser() | tool_chain
-    
-    
-    
-      
-  actionllm = ChatOllama(model=local_llm, format='json', temperature=0)
-        prompt = PromptTemplate(
-            tem
-plate='''<|begin_of_text|><|start_header_id|>system<|end_header_id|> You are a helpful agent who will select which tool 
-is to be used depending on the context provided by the user and some rules.\n
-            You have access to the followi
-ng tools. Here is the name and description of the tools:%s\n
-            Return the name and input of the tool to use.
- 
-           Return your response as a JSON blob with 'name' and 'arguments' keys.
-            The value associated with t
-he 'arguments' key should be a dictionary of parameters.
-            You are not allowed to return blank results
-       
-     <|eot_id|><|start_header_id|>user<|end_header_id|>
-            Context:{context}\n
-            {inp}.\n\n
-         
-   Rules for tool calling:\n
-            If the caller is 'Kau', the tool to be used is 'receive_call'\n
-            If 
-the caller is 'Priya', the tool to be used is 'send_message'\n
-            For all other numbers, the tool to be used is
- 'mute'\n
-            <|eot_id|><|start_header_id|>assistant<|end_header_id|>
-            '''%rendered_tools,
-          
-  input_variables=['context','inp'],
-        )
-    
-        actiontaker_chain = prompt | actionllm | JsonOutputParser() 
-
-    
-    
-        class GraphState(TypedDict):
-            '''
-            Represents the state of our graph.
-    
-    
-        Attributes:
-                input: User input
-                generation: LLM generation
-                cl: Con
-tact list
-                rs: Relationship list
-                cal: Calendar
-                ct: Current time
-         
-   '''
-            
-            input:str
-            generation: str
-            cl:str
-            rs:str
-            
-cal:str
-            ct:str
-            con:str
-    
-    
-        def callhandler(state):
-            '''
-            Gat
-hers the context and determines whether to receive the call or send a message 
-    
-            Args:
-                st
-ate (dict): The current graph state
-    
-            Returns:
-                state (dict): Whether to send a message, r
-eceive the call, or mute the call
-            '''
-    
-            print('---HANDLING---')
-            i = state['input'
-]
-            c=state['con']
-    
-    
-            res1 = contextgatherer_chain.invoke({'inp':i})
-            res2 = act
-iontaker_chain.invoke({'context':res1,'inp':i})
-            return {'generation': res2}
-    
-    
-    
-        workflow 
-= StateGraph(GraphState)
-        workflow.add_node('callhandler', callhandler) 
-        workflow.set_entry_point('callha
-ndler')
-        workflow.add_edge('callhandler',END)
-        app = workflow.compile()
-    
-    
-        file1=open('cont
-actlist','r')
-        file2=open('relationships','r')
-        file3=open('calendar','r')
-        s1=file1.read()
-       
- s2=file2.read()
-        s3=file3.read()
-        curt='11:00.'
-        e='incoming call from +911234567890'
-        f=s1
-+'\n\n'+s2+'\n\n'+s3+'\n\n'+curt+'\n\n'+e
-        print(f)
-        inputs = {'input': e}
-        for output in app.strea
-m(inputs):
-            for key, value in output.items():
-                pprint(f'Finished running: {key}:')
-           
-     pprint(value['generation'])
-    
-    PA()
-
-The output i get is:
-
----HANDLING---
-
-'Finished running: callhandler:'
-
-
-{'arguments': {'caller': '+911234567890'}, 'name': 'receive\_call'}
-
-Here is the 'mod' file in which ive defined the too
-ls available to the LLM:
-
-    import os
-    from langchain_core.tools import tool
-    from typing import Annotated, Sequ
-ence, TypedDict
-    from langchain.agents import AgentExecutor, create_react_agent
-    from langchain_core.messages impo
-rt BaseMessage, HumanMessage
-    from langchain_openai import ChatOpenAI
-    from langchain_core.runnables import Runnab
-lePassthrough
-    from langchain_core.output_parsers import StrOutputParser
-    from langchain_core.prompts import ChatP
-romptTemplate, MessagesPlaceholder
-    from langchain.output_parsers.openai_functions import JsonOutputFunctionsParser
- 
-   import functools
-    from langgraph.graph import StateGraph, END
-    import operator
-    import openai
-    import tim
-e
-    import random
-    from langchain_community.chat_models import ChatOllama
-    from langchain_core.output_parsers im
-port JsonOutputParser
-    from langchain_core.prompts import PromptTemplate
-    from langchain_core.runnables import Run
-nable
-    from langchain_core.exceptions import OutputParserException
-    from langchain.tools.render import render_text
-_description_and_args
-    from pprint import pprint
-    
-    
-    
-    u/tool
-    def check_calendar() -> str:
-        '
-''Retrieve the list of current events from the user's calender. This tool must be used only if the 'context' provided by
- the user is empty'''
-        file=open('calendar','r')
-        s=file.read()
-        return s
-    
-    @tool
-    def ge
-tContactInfo()->str:
-        '''Retreive the the user's contact list to determine who is calling when given an unknown n
-umber'''
-        file=open('contactlist','r')
-        s=file.read()
-        return s
-    
-    @tool
-    def check_locati
-on() -> str:
-        '''Retrieve the current location of the user. This tool must be used only if the 'context' provided
- by the user is empty'''
-        return 'your location is Bengaluru'
-    
-    @tool
-    def send_message(recipient: str,
- message: str) -> str:
-        '''Send a text message to the specified recipient with the provided message content. This
- tool must be used only if the 'context' provided by the user is not empty'''
-        return f'Sent message to {recipien
-t}: {message}'
-    
-    @tool
-    def make_call(recipient: str) -> str:
-        '''Initiate  a phone call to the specifi
-ed recipient. This tool must be used only if the 'context' provided by the user is not empty'''
-        return f'Calling
- {recipient}...'
-    
-    @tool
-    def receive_call(caller: str) -> str:
-        '''Handle an incoming phone call from 
-the specified caller. This tool must be used only if the 'context' provided by the user is not empty'''
-        return f
-'Receiving call from {caller}...'
-    
-    @tool
-    def op1(f:int,s:int)->dict:
-        '''adds f and s'''
-        retu
-rn {'answer':f*s}
-    @tool
-    def op2(f:int,s:int)->dict:
-        '''subtracts f and s'''
-        return {'answer':f*s
-}
-    
-    @tool
-    def getWeather(city:str):
-        '''returns the weather in 'city'''
-        return 'cloudy'
-    
- 
-   @tool
-    def mute():
-        '''Mute an incoming call'''
-        return
-
-I have my reasons for structuring it this w
-ay.
-
-Can someone please tell me why I'm getting different outputs?
-```
----
-
-     
- 
-all -  [ An Ultimate Guide to Run Any LLM Locally
- ](https://www.reddit.com/r/u_thetechrobot_/comments/1dci1h0/an_ultimate_guide_to_run_any_llm_locally/) , 2024-06-12-0954
-```
-Although ChatGPT, Claude.ai, and Phind are examples of chatbots that might be useful, consumers might not want their pri
-vate information to be handled by third parties. Download and execute a large language model (LLM) on your computer to p
-revent this. This enables you to test out novel specialized models for language translation and text-to-speech, such as 
-SeamlessM4T and Meta’s Code Llama series. With the correct tools and minimum hardware requirements, operating your own L
-LM is simple. it has an Intel i9 CPU, 64GB of RAM, and a 12GB Nvidia GeForce GPU on a Dell PC. While it might take some 
-effort to find the right model for your work and desktop hardware, ChatGPT and Claude.ai can yield better results. It’s 
-important to remember that open-source models will probably continue to advance and that industry observers anticipate a
- closing gap between them and the leaders in the commercial sector.
-
-# Use GPT4All to run a chatbot locally
-
-GPT4All is 
-a desktop chatbot that operates locally and does not transfer information elsewhere. It provides options for models that
- operate on your system and is compatible with Windows, macOS, and Ubuntu. The program lets users download around ten mo
-dels for non-local use, like Meta AI’s Llama-2–7B conversation and OpenAI’s GPT-3.5 and GPT-4. The chatbot interface is 
-simple and intuitive, with options for copying a chat to a clipboard and making a response.
-
-The GPT4All chat interface 
-is clear and simple to use. A new beta LocalDocs plugin lets users “chat” with their documents locally. Enabling it in t
-he Settings > Plugins tab enables users to build collections based on a certain folder path. The plugin is still under d
-evelopment but may improve as open-source models become more powerful. GPT4All also includes interfaces for Python, Node
-, a command-line interface (CLI), and a server mode that lets users communicate with the local LLM using an HTTP API sim
-ilar to OpenAI’s.
-
-# LLMs in the command line
-
-LLM by Simon Willison provides an easy method to obtain and utilize open-
-source LLMs on your system. It needs Python installation but does not require Python code. LLM uses OpenAI models by def
-ault, but it can also run with plugins such as gpt4all, llama, the MLC project, and MPT-30B. To submit a query to a loca
-l LLM, enter the command llm install model-name. If the GPT4All model does not already exist on your local machine, the 
-LLM tool will download it automatically and display a progress bar in the terminal. You may also create aliases for mode
-ls in LLM. The LLM plugin for Meta’s Llama models needs more configuration than GPT4All. The software also includes a qu
-ery flag and tools for creating text embeddings.
-
-Llama models for your computer
-
-**1. Hugging Face and Transformers**
-
-
-Hugging Face is the Machine Learning and AI counterpart of Docker Hub, with an astonishing number of open-source models 
-available. Fortunately, Hugging Face routinely assesses the models and provides a scoreboard to assist users in selectin
-g the finest models available.
-
-Hugging Face also includes transformers, a Python module for operating an LLM locally. T
-he following example employs the library to run an older GPT-2 Microsoft/DialoGPT-medium model. The Transformers will up
-load the model on the first run, allowing you to interact with it five times. The script also requires PyTorch to be ins
-talled.
-
-Transformers provide automatic model downloads and code snippets for testing and learning, but they demand a go
-od grasp of machine learning and natural language processing, as well as coding and configuration expertise.
-
-**2. LangC
-hain**
-
-Another option for running LLM locally is LangChain. Langchain is a Python framework for developing AI apps. It 
-provides frameworks and middleware to let you build an AI app on top of one of its current models. For example, the foll
-owing code asks one inquiry about the Microsoft/DialoGPT-medium model. LangChain simplifies model management and provide
-s important AI application development facilities, but its speed is restricted and involves coding the programme’s logic
- or building an appropriate UI.
-
-**3. Llama.cpp**
-
-Llama.cpp is a C and C++ inference engine designed for Apple hardware
- that runs Meta’s Llama2 models. It outperforms Python-based solutions, supports big models, and enables cross-language 
-bindings for AI applications. It does, however, need tool creation and has limited support for models.
-
-**4. Llama File*
-*
-
-Mozilla’s Llamafile is a user-friendly alternative to executing LLMs, noted for its portability and ability to genera
-te single-file executables. It improves performance and can incorporate a model in a single executable file. However, th
-e project remains in its early stages, and only Llama.cpp-compatible models are supported.
-
-**5. Ollama**
-
-Ollama is a f
-ar more user-friendly replacement than Llama.cpp and Llamafile, which require downloading an app. It supports llama and 
-vicuña models and is quick. However, it has a restricted model library, is unable to reuse models, lacks LLM configurabl
-e features, and is not currently accessible on Windows.
-
-# Conclusion
-
-Your needs and experience will influence the tool
- you choose for local learning management (LLM). There are other choices available, including user-friendly GPT4ALL, tec
-hnical Llama.cpp, and Python-based solutions. Open-source approaches are becoming increasingly popular because they prov
-ide users greater control over their data and privacy. These models are likely to compete more effectively with ChatGPT 
-offerings.
-```
----
-
-     
- 
-all -  [ Can i change the way my output looks in creat sql agent ? ](https://www.reddit.com/r/LangChain/comments/1dchs6s/can_i_change_the_way_my_output_looks_in_creat_sql/) , 2024-06-12-0954
-```
-I want my output in the below format, but the sql agent throws an error saying that 
-
-ValueError: An output parsing erro
-r occurred. In order to pass this error back to the agent and have it try again, pass \`handle\_parsing\_errors=True\` t
-o the AgentExecutor. This is the error: Could not parse LLM output: 
-
-\`### Sql Query  
-\`\`\`sql  
-SELECT   
-frcst\_amt
-\_in\_gc AS targeted\_budget,  
-actl\_cst\_in\_gc AS actual\_budget,  
-(actl\_cst\_in\_gc - frcst\_amt\_in\_gc) AS devia
-tion  
-FROM   
-prcur\_frcst\_fact\_TEST  
-\`\`\`  
-  
-### Result  
-| targeted\_budget | actual\_budget | deviation      
-    |  
-|-----------------|----------------|--------------------|  
-| 59.82           | 304.41         | 244.58         
-    |  
-| 178.53          | 2.56           | -175.97            |  
-  
-  
-  
-  
-### Summarized Insights from query  
-The
- query results show the targeted budget, actual budget, and the deviation for each record in the \`prcur\_frcst\_fact\` 
-table. The deviations indicate the difference between the actual cost and the forecasted amount. Positive deviations ind
-icate that the actual cost exceeded the forecasted amount, while negative deviations indicate that the actual cost was l
-ess than the forecasted amount.  
-  
-### Next Steps  
-1. \*\*Analyze Deviations\*\*: Identify the records with the highe
-st positive and negative deviations to understand the reasons behind significant budget variances.  
-2. \*\*Budget Adjus
-tment\*\*: Use the insights from the deviations to adjust future budget forecasts and improve accuracy.  
-3. \*\*Cost Co
-ntrol\*\*: Implement measures to control costs and reduce deviations, especially for records with high positive deviatio
-ns.  
-4. \*\*Further Segmentation\*\*: Segment the data by different dimensions (e.g., geography, vendor, material) to g
-ain deeper insights into budget performance across different segments.  
-5. \*\*Historical Comparison\*\*: Compare the c
-urrent period's deviations with historical data to identify trends and patterns in budget performance.\`
-```
----
-
-     
- 
-all -  [ Comparing pdfs through similarity search ](https://www.reddit.com/r/LangChain/comments/1dch46a/comparing_pdfs_through_similarity_search/) , 2024-06-12-0954
-```
-I have a bunch of pdfs. Pages could go from 1 to 100 in each pdf. I want to do a similarity search on this set of pdfs w
-ith some content (query) and order them based on score (ascending order cosine similarity. Most relevant ones at the top
-).
-
-Issue is while I can use pypdf loader and embeddings to create docs and store them in a vectorstore, How do I aggreg
-ate score for a whole pdf? Lets say page 3 of pdf 25 has relevant content. But how I do I compare the whole pdf to anoth
-er pdf and order them based on similarity? Thanks!
-
-Ps: Here I am storing each page as a document. No splitter used. If 
-I want to embedd whole pdf it might be too much text. I am kind of stuck here.
-```
----
-
-     
- 
-all -  [ Knowledge search for enterprise - build v.s buy ](https://www.reddit.com/r/vectordatabase/comments/1dcgq4v/knowledge_search_for_enterprise_build_vs_buy/) , 2024-06-12-0954
-```
-Hi everyone,
-
-I'm currently working on a project that would do some kind of an enterprise search for my company. The req
-uirements are pretty basic - having an AI chatbot for the company's employees, that would provide information about comp
-any's information.
-
-On the technical side, I'd have to ingest multiple data sources (Slack, Confluence, Notion, Google D
-ocs, etc) into a single VectorDB (planned on using ChromaDB) and then do a basic RAG.
-
-I was thinking of building it mys
-elf with Langchain/LlamaIndex, but I was wondering what the community thinks about it. These days, there are lots of pro
-ducts (Glean, Guru, etc) and open source projects (Quivr, AnythingLLM, etc) that does this.
-
-What do you think are the m
-ain considerations for this? I'd like to learn what are the things that I should look out for when deciding whether to b
-uild v.s buy a solution.
-```
----
-
-     
- 
-all -  [ Enterprise knowledge search - Build v.s Buy ](https://www.reddit.com/r/LangChain/comments/1dcgokb/enterprise_knowledge_search_build_vs_buy/) , 2024-06-12-0954
-```
-Hi everyone,
-
-I'm currently working on a project that would do some kind of an enterprise search for my company. The req
-uirements are pretty basic - having an AI chatbot for the company's employees, that would provide information about comp
-any's information.
-
-On the technical side, I'd have to ingest multiple data sources (Slack, Confluence, Notion, Google D
-ocs, etc) into a single VectorDB (planned on using ChromaDB) and then do a basic RAG.
-
-I was thinking of 'building' it m
-yself with Langchain, but I was wondering what the community thinks about it. These days, there are lots of products (Gl
-ean, Guru, etc) and open source projects (Quivr, AnythingLLM, etc) that does this.
-
-What do you think are the main consi
-derations for this? I'd like to learn what are the things that I should look out for when deciding whether to build v.s 
-buy a solution.
-```
----
-
-     
- 
-all -  [ Bad request error from openai ](https://www.reddit.com/r/LangChain/comments/1dcg8lz/bad_request_error_from_openai/) , 2024-06-12-0954
-```
-openai.BadRequestError: Error code: 400 - {'error': {'message': 'An assistant message with 'tool_calls' must be followed
- by tool messages responding to each 'tool_call_id'. The following tool_call_ids did not have response messages: call_wd
-vsPX0sM6va49zF12nUIPm6', 'type': 'invalid_request_error', 'param': 'messages.[95].role', 'code': None}}
-I am using two t
-ools each tool is used for retriever.but I used this in agent .
-For tools I used create_retrival_tool
-For agents I used 
-create_openai_ agent
-If any body about how to resolve this error please give me information 
-```
----
-
-     
- 
-all -  [ What is the best LLM to run function calling in Ollama? ](https://www.reddit.com/r/ollama/comments/1dcbivu/what_is_the_best_llm_to_run_function_calling_in/) , 2024-06-12-0954
-```
-I have Nvidia 3090 (24gb vRAM) on my PC and I want to implement function calling with ollama as building applications wi
-th ollama is easier when using Langchain. 
-
-I have tried llama3-8b and phi3-3.8b for using function calling. Their perfo
-rmance is not great. Llama3-8b is good but often mixes up with multiple tool calls.
-
-I have also tried nous Hermes’ llam
-a3-8b (full model 16gb) however when running it through ollama function calling is not supported. Is there a resource fo
-r this someone can help me with? 
-
-Is there a fine tuned LLM model with good instructions on how to implement function c
-alling with ollama available. 
-
-Any help will be appreciated and TIA. 
-```
----
-
-     
- 
-all -  [ Do your worst, roast my resume ](https://www.reddit.com/r/resumes/comments/1dc1x9r/do_your_worst_roast_my_resume/) , 2024-06-12-0954
-```
-looking for a job as an entry level machine learning engineer, did not get any calls so far.
-
-https://preview.redd.it/l9
-ul0gbukl5d1.png?width=775&format=png&auto=webp&s=ed55284c9c5a24a0cc8fc2cb9bf96bbdb1608f59
-```
----
-
-     
- 
-all -  [ Partial Markdown and JSON response ](https://www.reddit.com/r/LangChain/comments/1dc1pjv/partial_markdown_and_json_response/) , 2024-06-12-0954
-```
-Hi,
-
-I am currently exploring Langchain. We want our users to be able to ask questions about upcoming events in our vect
-orstore. This works really good. 
-
-By we want the LLM to respond with something that is a mix between regular text/markd
-own but with links to the events etc. 
-
-Something like the Arc browser when it searches for you. It automatically adds l
-inks to certain topics, places, bars etc.
-
-How could I achieve something like this? All resources all welcome :)
-```
----
-
-     
- 
-all -  [ Customer bot tutorial issue ](https://www.reddit.com/r/LangChain/comments/1dbzvk5/customer_bot_tutorial_issue/) , 2024-06-12-0954
-```
-https://youtu.be/b3XsvoFWp4c?si=2Y7eBx2_MobnzOno
-
-Has anyone tried the multi agent workflow in the tutorial?
-I find that
- if the user query is only a single intent. It could route to the correct place and get the response without problem.
-
-H
-owever, if the user query got multiple intent: like booking hotel and booking car at the same time: The agent in the boo
-king hotel might think it has tool to book the car as well although it doesn’t, especially when car booking workflow and
- tool have been invoked before this multiple intent query. I’m guessing the problem is likely because all workflow can s
-hare state where some part of the state has the history of invoking car booking tool before. So the agent in hotel booki
-ng workflow sees it and think it also has this car booking tool.
-
-Sometimes the flow might works when the hotel-booking 
-agent answers the hotel booking part then invoke CompleteOrEscalate tool which is to pass the dialog back to the primary
- assistant and reroute the query again to car booking workflow.However, the CompleteOrEscalate tool is not properly invo
-ked as the agent prefer invoking the imaginary tool as stated above.
-
-
-They have added the entry node to help this probl
-em but still it doesn’t work well at least for OpenAI GPT4. Is there an upgraded version Chatbot flow to solve this issu
-e? 
-
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [P] Superfast RAG: Langchain Streaming and Groq ](https://www.reddit.com/r/MachineLearning/comments/1d5s9g4/p_superfast_rag_langchain_streaming_and_groq/) , 2024-06-12-0954
+MachineLearning -  [ [P] Superfast RAG: Langchain Streaming and Groq ](https://www.reddit.com/r/MachineLearning/comments/1d5s9g4/p_superfast_rag_langchain_streaming_and_groq/) , 2024-06-13-0953
 ```
   
 Fast LLM RAG inference using Groq and Langchain Streaming.  
@@ -2588,7 +1455,7 @@ be.com/watch?v=frMdOL8knqg)
 
      
  
-MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-06-12-0954
+MachineLearning -  [ [R] Building an Observable arXiv RAG Chatbot with LangChain, Chainlit, and Literal AI ](https://www.reddit.com/r/MachineLearning/comments/1crwh0q/r_building_an_observable_arxiv_rag_chatbot_with/) , 2024-06-13-0953
 ```
 Hey r/MachineLearning, I published a new article where I built an observable semantic research paper application.
 
@@ -2615,7 +1482,7 @@ reemrasul/semantic_research_engine)
 
      
  
-deeplearning -  [ How to finetune? ](https://www.reddit.com/r/deeplearning/comments/1daio0h/how_to_finetune/) , 2024-06-12-0954
+deeplearning -  [ How to finetune? ](https://www.reddit.com/r/deeplearning/comments/1daio0h/how_to_finetune/) , 2024-06-13-0953
 ```
 Can someone guide me to some resource how can I finetune an open source llm or some library (like langchain) on unstruct
 ured data (example: news articles on cricket) So that model can answer a question (like When did India won world Cup?)
