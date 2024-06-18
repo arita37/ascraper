@@ -1,5 +1,39 @@
  
-all -  [ Does Research But Applying Comp Sci. Am I cooked? ](https://www.reddit.com/r/chanceme/comments/1dhf1sa/does_research_but_applying_comp_sci_am_i_cooked/) , 2024-06-17-0955
+all -  [ [Vote] Paper nomination for upcoming week ](https://www.reddit.com/r/CVPaper/comments/1dhxjau/vote_paper_nomination_for_upcoming_week/) , 2024-06-18-0911
+```
+Hello everyone!
+
+For our **next computer vision paper read**, the paper drop and voting period starts today.
+
+The nomina
+tion will be continued **for one week**. This post will be in contest mode which will hide the vote scores and randomize
+ the order of the comments.
+
+Please drop a paper of your interest and upvote the paper that you are interested in readin
+g.
+
+**Rules for nomination:**
+
+* Only papers from **top-tier computer vision venues** such as CVPR, ECCV / ICCV, NeurIPS
+, BMVC
+* **No self-promotion**
+* Comment by sharing the paper in the form **paper name with link - publication venue & y
+ear, with keywords if possible**, e.g. [Fast R-CNN](https://openaccess.thecvf.com/content_iccv_2015/html/Girshick_Fast_R
+-CNN_ICCV_2015_paper.html) \- ICCV 2015, Keywords: Object detection
+* You can share a previous paper from voting **only 
+if it has not been selected for reading (see** [Wiki page](https://www.reddit.com/r/CVPaper/wiki/index/)**)**
+
+Reading p
+eriod for the selected paper will start next week. The  comments not complying with these guidelines will be removed.
+
+H
+appy voting!
+```
+---
+
+     
+ 
+all -  [ Does Research But Applying Comp Sci. Am I cooked? ](https://www.reddit.com/r/chanceme/comments/1dhf1sa/does_research_but_applying_comp_sci_am_i_cooked/) , 2024-06-18-0911
 ```
 **Demographics:** Male, White, CA, Semi-Competitive School, hooks (legacy to penn/berkeley dont think it matters)
 
@@ -95,7 +129,7 @@ Safety:
 
      
  
-all -  [ [D] Is OOD generalization still a future in the LLM era? ](https://www.reddit.com/r/MachineLearning/comments/1dh1eox/d_is_ood_generalization_still_a_future_in_the_llm/) , 2024-06-17-0955
+all -  [ [D] Is OOD generalization still a future in the LLM era? ](https://www.reddit.com/r/MachineLearning/comments/1dh1eox/d_is_ood_generalization_still_a_future_in_the_llm/) , 2024-06-18-0911
 ```
 I think OOD generalization is an important issue because it pulls in the distance from reality. But I am concerned that 
 recent conferences like ICLR, ICML, NeurIPS etc. don't have many people working on this problem. And check out some OOD 
@@ -106,7 +140,7 @@ f some difficulties in this field that people stopped studying it. Or is it beca
 
      
  
-all -  [ [D] is it inadvisable to improve the internal workings of a model at review time? ](https://www.reddit.com/r/MachineLearning/comments/1ddjyx0/d_is_it_inadvisable_to_improve_the_internal/) , 2024-06-17-0955
+all -  [ [D] is it inadvisable to improve the internal workings of a model at review time? ](https://www.reddit.com/r/MachineLearning/comments/1ddjyx0/d_is_it_inadvisable_to_improve_the_internal/) , 2024-06-18-0911
 ```
 I submitted a paper to NeurIPS with a model using mamba blocks. However, even before submitting the manuscript to openre
 view, I had in mind some tweaks or ideas that I could try to improve the results. Now, after the recent release of mamba
@@ -128,7 +162,7 @@ What would you do in that situation?
 
      
  
-all -  [ Loss ou Gain ](https://i.redd.it/ufqv3vck3z5d1.jpeg) , 2024-06-17-0955
+all -  [ Loss ou Gain ](https://i.redd.it/ufqv3vck3z5d1.jpeg) , 2024-06-18-0911
 ```
 E aí galera?
 ```
@@ -136,7 +170,7 @@ E aí galera?
 
      
  
-all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1dcjs8b/vote_paper_nomination_for_our_next_read/) , 2024-06-17-0955
+all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1dcjs8b/vote_paper_nomination_for_our_next_read/) , 2024-06-18-0911
 ```
 Hello everyone!
 
@@ -170,7 +204,7 @@ Happy voting!
 
      
  
-all -  [ chance an asian male in cs legacy applicant ](https://www.reddit.com/r/chanceme/comments/1dancfv/chance_an_asian_male_in_cs_legacy_applicant/) , 2024-06-17-0955
+all -  [ chance an asian male in cs legacy applicant ](https://www.reddit.com/r/chanceme/comments/1dancfv/chance_an_asian_male_in_cs_legacy_applicant/) , 2024-06-18-0911
 ```
 **Demographics:** Asian, Male, Competitive High School in MD, Upper Middle Class, Rising Senior
 
@@ -348,7 +382,7 @@ My comments arent
 
      
  
-all -  [ Chances of admission into PhD Computer Science ](https://www.reddit.com/r/gradadmissions/comments/1da1zhy/chances_of_admission_into_phd_computer_science/) , 2024-06-17-0955
+all -  [ Chances of admission into PhD Computer Science ](https://www.reddit.com/r/gradadmissions/comments/1da1zhy/chances_of_admission_into_phd_computer_science/) , 2024-06-18-0911
 ```
 I graduated from U of T with a 3.25 GPA. My undergrad was in Computer Science and Mathematics. My 3rd and 4th year progr
 am course GPA average was 3.49 (so pretty much only Math and CS courses, no electives)
@@ -378,7 +412,7 @@ e Stanford or MIT?
 
      
  
-all -  [ [R] Are you a reviewer for NeurIPS'24? Please read this ](https://www.reddit.com/r/MachineLearning/comments/1d9o8tn/r_are_you_a_reviewer_for_neurips24_please_read/) , 2024-06-17-0955
+all -  [ [R] Are you a reviewer for NeurIPS'24? Please read this ](https://www.reddit.com/r/MachineLearning/comments/1d9o8tn/r_are_you_a_reviewer_for_neurips24_please_read/) , 2024-06-18-0911
 ```
 Hello!
 
@@ -419,7 +453,7 @@ wer' acknowledgements.
 
      
  
-all -  [ [D] ICML Participation Grant Decisions ](https://www.reddit.com/r/MachineLearning/comments/1d9h8z3/d_icml_participation_grant_decisions/) , 2024-06-17-0955
+all -  [ [D] ICML Participation Grant Decisions ](https://www.reddit.com/r/MachineLearning/comments/1d9h8z3/d_icml_participation_grant_decisions/) , 2024-06-18-0911
 ```
 Hey all,
 
@@ -439,7 +473,7 @@ vote to help circulate the post and get more transparency (at least here) in the
 
      
  
-all -  [ How knowledgeable are AOs on research publications or venues? ](https://www.reddit.com/r/ApplyingToCollege/comments/1d9382a/how_knowledgeable_are_aos_on_research/) , 2024-06-17-0955
+all -  [ How knowledgeable are AOs on research publications or venues? ](https://www.reddit.com/r/ApplyingToCollege/comments/1d9382a/how_knowledgeable_are_aos_on_research/) , 2024-06-18-0911
 ```
 I'm pretty sure they would know the IEEE or Nature, but would they know about a conference like ICLR or some NeurIPS wor
 kshop?
@@ -448,7 +482,7 @@ kshop?
 
      
  
-all -  [ Graduate School Application Advice Needed: Profile Evaluation and University Suggestions (Fall 2025) ](https://www.reddit.com/r/gradadmissions/comments/1d8kcwj/graduate_school_application_advice_needed_profile/) , 2024-06-17-0955
+all -  [ Graduate School Application Advice Needed: Profile Evaluation and University Suggestions (Fall 2025) ](https://www.reddit.com/r/gradadmissions/comments/1d8kcwj/graduate_school_application_advice_needed_profile/) , 2024-06-18-0911
 ```
 Hey everyone,
 
@@ -540,7 +574,7 @@ Thanks!
 
      
  
-all -  [ Conference/Journal for Operations Research suggestions ](https://www.reddit.com/r/OperationsResearch/comments/1d7vtod/conferencejournal_for_operations_research/) , 2024-06-17-0955
+all -  [ Conference/Journal for Operations Research suggestions ](https://www.reddit.com/r/OperationsResearch/comments/1d7vtod/conferencejournal_for_operations_research/) , 2024-06-18-0911
 ```
 Hi guys,
 
@@ -569,7 +603,7 @@ wonder if there are centralized ones that most usually refer to. For example in 
 
      
  
-all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1d7fgxp/vote_paper_nomination_for_our_next_read/) , 2024-06-17-0955
+all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1d7fgxp/vote_paper_nomination_for_our_next_read/) , 2024-06-18-0911
 ```
 Hello everyone!
 
@@ -602,7 +636,7 @@ Happy voting!
 
      
  
-all -  [ Graduate School Application Advice Needed: Profile Evaluation and University Suggestions (Fall 2025) ](https://www.reddit.com/r/MSCS/comments/1d6p7zd/graduate_school_application_advice_needed_profile/) , 2024-06-17-0955
+all -  [ Graduate School Application Advice Needed: Profile Evaluation and University Suggestions (Fall 2025) ](https://www.reddit.com/r/MSCS/comments/1d6p7zd/graduate_school_application_advice_needed_profile/) , 2024-06-18-0911
 ```
 Hey everyone,
 
@@ -694,7 +728,7 @@ Thanks!
 
      
  
-all -  [ [R] LLM Merging Competition: Building LLMs Efficiently through Merging (NeurIPS 2024 Challenge) ](https://www.reddit.com/r/MachineLearning/comments/1d67ydm/r_llm_merging_competition_building_llms/) , 2024-06-17-0955
+all -  [ [R] LLM Merging Competition: Building LLMs Efficiently through Merging (NeurIPS 2024 Challenge) ](https://www.reddit.com/r/MachineLearning/comments/1d67ydm/r_llm_merging_competition_building_llms/) , 2024-06-18-0911
 ```
 Website of NeurIPS 2024 Challenge: https://llm-merging.github.io/
 
@@ -730,7 +764,7 @@ https://github.com/llm-merging/LLM-Merging
 
      
  
-all -  [ Thoughts on Self-Organized and Growing Neural Network Paper? ](https://www.reddit.com/r/DeepLearningPapers/comments/1d671ap/thoughts_on_selforganized_and_growing_neural/) , 2024-06-17-0955
+all -  [ Thoughts on Self-Organized and Growing Neural Network Paper? ](https://www.reddit.com/r/DeepLearningPapers/comments/1d671ap/thoughts_on_selforganized_and_growing_neural/) , 2024-06-18-0911
 ```
 Hey, just read this paper:  
 [https://proceedings.neurips.cc/paper\_files/paper/2019/file/1e6e0a04d20f50967c64dac2d639a5
@@ -746,7 +780,7 @@ a seems interesting.
 
      
  
-all -  [ [D] ML Conferences and Organization Metrics ](https://www.reddit.com/r/MachineLearning/comments/1d4shqn/d_ml_conferences_and_organization_metrics/) , 2024-06-17-0955
+all -  [ [D] ML Conferences and Organization Metrics ](https://www.reddit.com/r/MachineLearning/comments/1d4shqn/d_ml_conferences_and_organization_metrics/) , 2024-06-18-0911
 ```
 I feel like many would consider NeurIPS, ICLR, ICML, etc as important venues in the field of ML. Even outside of ML, Neu
 rIPS and ICLR have [the #9 and #10 highest H-index of any venues](https://scholar.google.com/citations?view_op=top_venue
@@ -765,7 +799,7 @@ Learning', a journal which [ranks #2 on SCImago instead](https://www.scimagojr.
 
      
  
-all -  [ [R] Machine learning introspection ](https://www.reddit.com/r/MachineLearning/comments/1d4dx88/r_machine_learning_introspection/) , 2024-06-17-0955
+all -  [ [R] Machine learning introspection ](https://www.reddit.com/r/MachineLearning/comments/1d4dx88/r_machine_learning_introspection/) , 2024-06-18-0911
 ```
 While 'introspection' is not well-defined in AI, it does have a long history - mainly to equip machines with human intui
 tion for problem solving, with Newell and Simon's 'General Problem Solver' (1958) being an early example. According to [
@@ -807,7 +841,7 @@ aDs&t=2517s](https://preview.redd.it/95dyxv88km3d1.png?width=1280&format=png&aut
 
      
  
-all -  [ [D] Neurips2024 Desk rejection ](https://www.reddit.com/r/u_Working-Egg-3424/comments/1d3e0pi/d_neurips2024_desk_rejection/) , 2024-06-17-0955
+all -  [ [D] Neurips2024 Desk rejection ](https://www.reddit.com/r/u_Working-Egg-3424/comments/1d3e0pi/d_neurips2024_desk_rejection/) , 2024-06-18-0911
 ```
 Did you get the result of the desk rejection for NeurIPS 2024? I made my first submission this time, and I wonder if I c
 an check it on the OpenReview.
@@ -816,7 +850,7 @@ an check it on the OpenReview.
 
      
  
-all -  [ How well known is MILA in the US/Bay Area? ](https://www.reddit.com/r/csMajors/comments/1d38xha/how_well_known_is_mila_in_the_usbay_area/) , 2024-06-17-0955
+all -  [ How well known is MILA in the US/Bay Area? ](https://www.reddit.com/r/csMajors/comments/1d38xha/how_well_known_is_mila_in_the_usbay_area/) , 2024-06-18-0911
 ```
 MILA is the Montreal-based AI lab founded by Yoshua Bengio, in collaboration with the University of Montreal and McGill 
 University.
@@ -838,7 +872,7 @@ https://preview.redd.it/8o01ip7rcc3d1.png?width=982&format=png&auto=webp&s=ca5f8
 
      
  
-all -  [ [D] NeurIPS 2024 Desk Rejection ](https://www.reddit.com/r/MachineLearning/comments/1d2phaw/d_neurips_2024_desk_rejection/) , 2024-06-17-0955
+all -  [ [D] NeurIPS 2024 Desk Rejection ](https://www.reddit.com/r/MachineLearning/comments/1d2phaw/d_neurips_2024_desk_rejection/) , 2024-06-18-0911
 ```
 I forgot the checklist so my submission was just desk rejected. Honestly, I didn't know about the checklist because I us
 ed the latex template from my submission last year and just changed the style file from neurips\_2023.sty to neurips\_20
@@ -848,7 +882,7 @@ ed the latex template from my submission last year and just changed the style fi
 
      
  
-all -  [ [Vote] First paper nomination starts! ](https://www.reddit.com/r/CVPaper/comments/1d1q49z/vote_first_paper_nomination_starts/) , 2024-06-17-0955
+all -  [ [Vote] First paper nomination starts! ](https://www.reddit.com/r/CVPaper/comments/1d1q49z/vote_first_paper_nomination_starts/) , 2024-06-18-0911
 ```
 Hello everyone!
 
@@ -877,7 +911,7 @@ Happy voting!
 
      
  
-all -  [ Internship Opportunity ](https://www.reddit.com/r/CollegeAdmissions/comments/1czxefp/internship_opportunity/) , 2024-06-17-0955
+all -  [ Internship Opportunity ](https://www.reddit.com/r/CollegeAdmissions/comments/1czxefp/internship_opportunity/) , 2024-06-18-0911
 ```
 We are currently seeking interns for our AI lab headed by ML researchers at CMU. Our lab’s research has been published a
 t a top ML conference (NeurIPS) and has since been endorsed by leaders from Microsoft, Amazon, and Stanford. Commerciall
@@ -889,7 +923,7 @@ on form.  
 
      
  
-all -  [ Internship Opportunity ](https://www.reddit.com/r/HighSchoolInternships/comments/1czbi7c/internship_opportunity/) , 2024-06-17-0955
+all -  [ Internship Opportunity ](https://www.reddit.com/r/HighSchoolInternships/comments/1czbi7c/internship_opportunity/) , 2024-06-18-0911
 ```
 We are currently seeking interns for our AI lab headed by ML researchers at CMU. Our lab’s research has been published a
 t a top ML conference (NeurIPS) and has since been endorsed by leaders from Microsoft, Amazon, and Stanford. Commerciall
@@ -905,7 +939,7 @@ Application: [https://forms.gle/gs2riFyJ9Xme8Ux69](https://forms.gle/gs2riFyJ9Xm
 
      
  
-all -  [ Modern LLM/LMM mimarisi için okuma listesi ](https://www.reddit.com/r/CodingTR/comments/1cyox1z/modern_llmlmm_mimarisi_için_okuma_listesi/) , 2024-06-17-0955
+all -  [ Modern LLM/LMM mimarisi için okuma listesi ](https://www.reddit.com/r/CodingTR/comments/1cyox1z/modern_llmlmm_mimarisi_için_okuma_listesi/) , 2024-06-18-0911
 ```
 Merhabalar, buradaki bir gönderiye yorum olarak aşağıdaki listeyi paylaşmıştım ama gönderi silinmiş.
 
@@ -966,7 +1000,7 @@ df/nihms-1570579.pdf)
 
      
  
-all -  [ CS AI PhD chances ](https://www.reddit.com/r/gradadmissions/comments/1cxpfji/cs_ai_phd_chances/) , 2024-06-17-0955
+all -  [ CS AI PhD chances ](https://www.reddit.com/r/gradadmissions/comments/1cxpfji/cs_ai_phd_chances/) , 2024-06-18-0911
 ```
 Hi all,
 
@@ -1002,7 +1036,7 @@ s.
 
      
  
-all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallcapsociety/comments/1cxi2hx/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-06-17-0955
+all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallcapsociety/comments/1cxi2hx/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-06-18-0911
 ```
 VERSES AI ($VERS), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a research
  roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by prov
@@ -1050,7 +1084,7 @@ r own research before investing.
      
  
 all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
- ](https://www.reddit.com/r/kanpur/comments/1cwa3qt/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-17-0955
+ ](https://www.reddit.com/r/kanpur/comments/1cwa3qt/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-18-0911
 ```
 Greetings!
 
@@ -1089,7 +1123,7 @@ mat=png&auto=webp&s=8f49b22c78e16399f92194c3551303474022e65a
      
  
 all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
- ](https://www.reddit.com/r/developers_lucknow/comments/1cwa3gc/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-17-0955
+ ](https://www.reddit.com/r/developers_lucknow/comments/1cwa3gc/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-18-0911
 ```
 Greetings!
 
@@ -1128,7 +1162,7 @@ mat=png&auto=webp&s=80313475aa3a531609364a0d487a61a733f55877
      
  
 all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
- ](https://www.reddit.com/r/LucknowUniversity/comments/1cwa2sh/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-17-0955
+ ](https://www.reddit.com/r/LucknowUniversity/comments/1cwa2sh/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-18-0911
 ```
 Greetings!
 
@@ -1167,7 +1201,7 @@ mat=png&auto=webp&s=b64f71dfea4921355b3bb281ccf4cf5b06871190
      
  
 all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
- ](https://www.reddit.com/r/lucknow/comments/1cwa0gu/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-17-0955
+ ](https://www.reddit.com/r/lucknow/comments/1cwa0gu/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-18-0911
 ```
 Greetings!
 
@@ -1213,7 +1247,7 @@ https://preview.redd
 
      
  
-all -  [ [D] Why are non technical people leading AI? ](https://www.reddit.com/r/MachineLearning/comments/1cw5dby/d_why_are_non_technical_people_leading_ai/) , 2024-06-17-0955
+all -  [ [D] Why are non technical people leading AI? ](https://www.reddit.com/r/MachineLearning/comments/1cw5dby/d_why_are_non_technical_people_leading_ai/) , 2024-06-18-0911
 ```
 Why do non-technical figures lead the charge in AI? Pichai, Nadella, Fidji (Open AI board member), Altman, Murati, and m
 any other VPs of AI in FAANG. Despite never coding, they hold sway in AI. Meanwhile, those coding and publishing groundb
@@ -1231,7 +1265,7 @@ What's your take on this?
 
      
  
-all -  [ [D] Culture of Recycling Old Conference Submissions in ML ](https://www.reddit.com/r/MachineLearning/comments/1cvp0x8/d_culture_of_recycling_old_conference_submissions/) , 2024-06-17-0955
+all -  [ [D] Culture of Recycling Old Conference Submissions in ML ](https://www.reddit.com/r/MachineLearning/comments/1cvp0x8/d_culture_of_recycling_old_conference_submissions/) , 2024-06-18-0911
 ```
 I work on statistical ML. I notice that many people (including myself and those that I review) often recycle their submi
 ssions for ML conferences.
@@ -1262,48 +1296,9 @@ What do folks think about it?
 
      
  
-all -  [ This Will Be NeurIPS in 2026 ](https://i.redd.it/1ibbavmp391d1.png) , 2024-06-17-0955
+all -  [ This Will Be NeurIPS in 2026 ](https://i.redd.it/1ibbavmp391d1.png) , 2024-06-18-0911
 ```
 
-```
----
-
-     
- 
-all -  [ NeurIPS Submission Question ](https://www.reddit.com/r/MLQuestions/comments/1cudjmn/neurips_submission_question/) , 2024-06-17-0955
-```
-I am an undergrad submitting to NeurIPS for the first time. I saw there was only one form, so I filled the abstract and 
-saw it was saved. But I didn't submit as it required the full pdf, and I thought it was due later.
-
-Now, my registration
- has disappeared, so I emailed the PCs. Do you think I have any hope of still submitting at this point? (I heard their a
-bstract submission is strict)
-```
----
-
-     
- 
-all -  [ [D] Real chances to be accepted in NeurIPS 2024 - Other conferences ](https://www.reddit.com/r/MachineLearning/comments/1ctv9li/d_real_chances_to_be_accepted_in_neurips_2024/) , 2024-06-17-0955
-```
-Hey!
-
-This is my first time submitting to NeurIPS.
-
-Does anyone know when the reviews are visible to the authors? August
-, or is it possible that earlier? If we have really bad reviews... The best thing is to exit the submission path, right?
- In that case, which alternatives do you recommend on those dates?
-
-My topic is NN reliability, but I am always undercon
-fident about my research and I always think that it is not enough, more if I think in a conference as Neurips. Do you th
-ink that everybody submits good papers or is there a large quantity of rubbish papers? I read a lot of bad opinions here
- about the reviewing process... So, I am a little afraid.
-
-This year, there are 20000ish submissions. So, I don't know w
-hat to do, if continue the submission or submit to another conference. As the gap that I am filling is clear, I am sure 
-that others are covering that gap and submitting it to NeurIPS. Is there any other conference that outputs the results f
-irst than NeurIPS? I am trying to think in a smart way. So hard to be a researcher...
-
-Thank you!
 ```
 ---
 
