@@ -1,5 +1,182 @@
  
-all -  [ [Vote] Paper nomination for upcoming week ](https://www.reddit.com/r/CVPaper/comments/1dhxjau/vote_paper_nomination_for_upcoming_week/) , 2024-06-19-0911
+all -  [ What does it take to get a paper accepted in good venues like ACL, EMNLP, neurIPS  in main Conferenc ](https://www.reddit.com/r/learnmachinelearning/comments/1djvh1q/what_does_it_take_to_get_a_paper_accepted_in_good/) , 2024-06-20-0910
+```
+This is my first year as a PhD student and I am currently attending the Naacl conference in Mexico with a poster attache
+d to a workshop and I definitely want my next papers to pass in for conferences in such venues. But I am still confused 
+on how the depth of the experiments should be.  it feels like you have to be associated with cliche labs in order to get
+ in...
+
+Well, any comments and suggestions will be helpful
+```
+---
+
+     
+ 
+all -  [ How To Become AI Engineer In 2024 ](https://www.reddit.com/r/u_seowithumang/comments/1djoya3/how_to_become_ai_engineer_in_2024/) , 2024-06-20-0910
+```
+Becoming an AI engineer in 2024 involves a combination of education, practical experience, and staying current with the 
+latest advancements in the field. Here’s a comprehensive guide to help you on your journey:
+
+# 1. Educational Background
+
+
+* **Undergraduate Degree**: Start with a bachelor's degree in a relevant field such as Computer Science, Data Science,
+ Mathematics, Statistics, or Electrical Engineering.
+* **Core Courses**: Focus on courses like machine learning, data st
+ructures and algorithms, probability and statistics, linear algebra, and computer programming.
+
+# 2. Advanced Education 
+(Optional)
+
+* **Master's Degree**: Consider pursuing a master's degree in AI, Machine Learning, Data Science, or a relat
+ed field. This can provide deeper knowledge and open up more advanced career opportunities.
+* **Ph.D.**: For roles in re
+search or academia, a Ph.D. in a related field is often required.
+
+# 3. Skill Development
+
+* **Programming Languages**: 
+Master languages commonly used in AI such as Python, R, and Java. Python is particularly important due to its extensive 
+libraries for AI and machine learning.
+* **Machine Learning Frameworks**: Gain proficiency in popular frameworks and lib
+raries such as TensorFlow, PyTorch, Keras, and scikit-learn.
+* **Mathematics**: Strengthen your understanding of linear 
+algebra, calculus, probability, and statistics, as these are foundational for machine learning algorithms.
+
+# 4. Practic
+al Experience
+
+* **Projects**: Build a portfolio of AI projects. This could include work done during your coursework, pe
+rsonal projects, or contributions to open-source projects.
+* **Internships**: Gain practical experience through internsh
+ips at tech companies, research labs, or startups.
+* **Competitions**: Participate in online competitions like Kaggle to
+ practice solving real-world AI problems and to showcase your skills.
+
+# 5. Certifications
+
+* **Online Courses and Certi
+fications**: Enroll in courses from platforms like Coursera, edX, Udacity, and others. Notable programs include the AI s
+pecializations from Stanford University, MIT, and the University of Washington.
+* **Professional Certifications**: Consi
+der certifications such as Google’s Professional Machine Learning Engineer, Microsoft Certified: Azure AI Engineer Assoc
+iate, or IBM AI Engineering Professional Certificate.
+
+# 6. Networking and Community Involvement
+
+* **Conferences and Me
+etups**: Attend AI conferences (e.g., NeurIPS, ICML) and local meetups to network with professionals and stay updated on
+ the latest research and trends.
+* **Online Communities**: Join forums and online communities like Reddit, Stack Overflo
+w, and LinkedIn groups focused on AI and machine learning.
+
+# 7. Stay Current
+
+* **Research Papers**: Regularly read res
+earch papers from journals and conferences to keep up with new discoveries and methodologies.
+* **News and Blogs**: Foll
+ow AI news sites, blogs, and thought leaders on social media.
+
+# 8. Career Pathway
+
+* **Entry-Level Positions**: Start i
+n roles such as Data Scientist, Machine Learning Engineer, or AI Researcher.
+* **Progression**: As you gain experience, 
+you can move into senior roles, such as Senior AI Engineer, AI Architect, or AI Project Manager.
+* **Specializations**: 
+Consider specializing in subfields like Natural Language Processing (NLP), Computer Vision, Robotics, or Reinforcement L
+earning.
+
+# 9. Soft Skills
+
+* **Problem-Solving**: Develop strong problem-solving abilities to tackle complex AI challen
+ges.
+* **Communication**: Enhance your ability to communicate technical concepts to non-technical stakeholders.
+* **Coll
+aboration**: Work effectively in multidisciplinary teams, often collaborating with data scientists, engineers, and busin
+ess analysts.
+
+# 
+```
+---
+
+     
+ 
+all -  [ What does it take to get a paper accepted in ACL, EMNLP or NeurIps? ](https://www.reddit.com/r/airesearch/comments/1djkugt/what_does_it_take_to_get_a_paper_accepted_in_acl/) , 2024-06-20-0910
+```
+Well, this will be my third paper and it is published in NAACL as a poster, not yet get into the main conference. For th
+ose who got into main conferences of those well known venues what are the main things that put you there? Sorry this is 
+my first year PhD so I am kind of noob at this. 
+
+```
+---
+
+     
+ 
+all -  [ Seeking advice for changing research area and reapplying to a different PhD program ](https://www.reddit.com/r/gradadmissions/comments/1djbdne/seeking_advice_for_changing_research_area_and/) , 2024-06-20-0910
+```
+Hi everyone! Thank you so much for taking the time to read my post. This is going to be long but I didn't know how to ma
+ke it any shorter so here it goes.
+
+So, at the moment, I am at the end of my first year in a CS PhD program in a decent-
+ish state school in the United States. I had initially done my applications with Quantum Complexity/Quantum Simulations 
+in mind but 2 things have changed/ refined/ put me back to my initial interests. 1. The only professor I wanted to work 
+with -- the only quantum prof -- said he doesn't have funding and the department is super weird in that it dislikes if a
+dvisors are not funding you research; this also means no summer funding which is a huge bummer as an international stude
+nt. 2. While reading a lot of quantum papers across different subareas I found myself gravitate towards algorithmic prob
+lems/ problems related to simulations etc that have both theory and applied parts, and also because I personally cannot 
+just be satisfied with theory (I realized) and want applied parts as well and in quantum everything at the moment is at 
+the mercy of experimental physicists (wish I did physics).
+
+However, this isn't a drastic turn because my original inter
+ests lied in problems in the realm of applied mathematics -- numerical methods, PDEs, etc. but couldn't pursue it becaus
+e no one was doing it at my UG institution. No one was doing quantum either but I just taught it to myself in the hopes 
+that my UG advisor will follow through with his word of connecting me with his friends working in quantum research which
+ did not happen for one reason or another (bygones are bygones) and I basically ended up applying for a PhD without an L
+OR from a guy who does work in the field which led me to being wait-listed at most of my top choices.
+
+Now, I am looking
+ to move to working in algorithms, numerical linear algebra and on problems that relate to scientific computing. However
+, the BIG issue is no one even does algorithms at the institution where I am at..like there is barely any theory.  This 
+led to some bad mental health state for the a couple months at the start of the year -- being in a department where you 
+are not interested in anyone's work. However, I was able to get out of it and started to researching and studying things
+ on my own. I was always interested in Ising models, spin glasses, and phase transitions etc and I have been studying up
+ on literature that build up from graph theory and connect to topics in statistical mechanics. I am also trying to find 
+research avenues in areas related to algorithms and simulation of many-body systems. There are lots of exciting work aro
+und using continuous methods in optimization which appears to be very interesting and I am studying up and building up m
+y background so I can better interface with those works. At the moment, I am studying from these set of lecture notes: [
+https://stellar.mit.edu/S/course/18/sp18/18.408/index.html](https://stellar.mit.edu/S/course/18/sp18/18.408/index.html) 
+. Some of the work that have me interested are: [https://arxiv.org/pdf/2303.00709](https://arxiv.org/pdf/2303.00709); [h
+ttps://arxiv.org/pdf/2208.10959](https://arxiv.org/pdf/2208.10959); [https://arxiv.org/pdf/1611.00755](https://arxiv.org
+/pdf/1611.00755); [https://dl.acm.org/doi/pdf/10.1145/3564246.3585142](https://dl.acm.org/doi/pdf/10.1145/3564246.358514
+2);  https://arxiv.org/pdf/2211.03963.
+
+So, at the moment I am reading up from various lecture notes to get familiar wit
+h the literature so I can start reading papers and maybe come up with idea (at least that is the plan now), and I am als
+o starting to contribute to Julia since the Julia lab looks like the optimal place with the type of interests I have. Ob
+viously, I will have to manage all this while I manage my graduate school requirements at my current institution.
+
+I wou
+ld love it if I could work with somebody or work under someone as an RA doing research and building up my research profi
+le in these areas.. I guess we'll see.
+
+I am basically looking for advice on if folks here feel if this is a good/optima
+l way to go about it or there are other things that I should do. I am also attaching my cv with the post so you could ge
+t an idea of my background. I really wish I had some theory work to show for but it just didn't happen because no one at
+ my UG uni was doing it. Obviously, I could have tried harder to connect to people back then but I guess it's okay.. I r
+eally want do some good research under advisors whose work I admire and it would be great if you folks would be kind eno
+ugh to give me some pointers.
+
+https://preview.redd.it/ueao9fwvqg7d1.jpg?width=2550&format=pjpg&auto=webp&s=aed5df0fcfff
+19a59dcf1b3b90b79d15252ff78d
+
+
+```
+---
+
+     
+ 
+all -  [ [Vote] Paper nomination for upcoming week ](https://www.reddit.com/r/CVPaper/comments/1dhxjau/vote_paper_nomination_for_upcoming_week/) , 2024-06-20-0910
 ```
 Hello everyone!
 
@@ -33,7 +210,7 @@ appy voting!
 
      
  
-all -  [ Does Research But Applying Comp Sci. Am I cooked? ](https://www.reddit.com/r/chanceme/comments/1dhf1sa/does_research_but_applying_comp_sci_am_i_cooked/) , 2024-06-19-0911
+all -  [ Does Research But Applying Comp Sci. Am I cooked? ](https://www.reddit.com/r/chanceme/comments/1dhf1sa/does_research_but_applying_comp_sci_am_i_cooked/) , 2024-06-20-0910
 ```
 **Demographics:** Male, White, CA, Semi-Competitive School, hooks (legacy to penn/berkeley dont think it matters)
 
@@ -129,7 +306,7 @@ Safety:
 
      
  
-all -  [ [D] Is OOD generalization still a future in the LLM era? ](https://www.reddit.com/r/MachineLearning/comments/1dh1eox/d_is_ood_generalization_still_a_future_in_the_llm/) , 2024-06-19-0911
+all -  [ [D] Is OOD generalization still a future in the LLM era? ](https://www.reddit.com/r/MachineLearning/comments/1dh1eox/d_is_ood_generalization_still_a_future_in_the_llm/) , 2024-06-20-0910
 ```
 I think OOD generalization is an important issue because it pulls in the distance from reality. But I am concerned that 
 recent conferences like ICLR, ICML, NeurIPS etc. don't have many people working on this problem. And check out some OOD 
@@ -140,7 +317,7 @@ f some difficulties in this field that people stopped studying it. Or is it beca
 
      
  
-all -  [ [D] is it inadvisable to improve the internal workings of a model at review time? ](https://www.reddit.com/r/MachineLearning/comments/1ddjyx0/d_is_it_inadvisable_to_improve_the_internal/) , 2024-06-19-0911
+all -  [ [D] is it inadvisable to improve the internal workings of a model at review time? ](https://www.reddit.com/r/MachineLearning/comments/1ddjyx0/d_is_it_inadvisable_to_improve_the_internal/) , 2024-06-20-0910
 ```
 I submitted a paper to NeurIPS with a model using mamba blocks. However, even before submitting the manuscript to openre
 view, I had in mind some tweaks or ideas that I could try to improve the results. Now, after the recent release of mamba
@@ -162,7 +339,7 @@ What would you do in that situation?
 
      
  
-all -  [ Loss ou Gain ](https://i.redd.it/ufqv3vck3z5d1.jpeg) , 2024-06-19-0911
+all -  [ Loss ou Gain ](https://i.redd.it/ufqv3vck3z5d1.jpeg) , 2024-06-20-0910
 ```
 E aí galera?
 ```
@@ -170,7 +347,7 @@ E aí galera?
 
      
  
-all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1dcjs8b/vote_paper_nomination_for_our_next_read/) , 2024-06-19-0911
+all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1dcjs8b/vote_paper_nomination_for_our_next_read/) , 2024-06-20-0910
 ```
 Hello everyone!
 
@@ -204,7 +381,7 @@ Happy voting!
 
      
  
-all -  [ chance an asian male in cs legacy applicant ](https://www.reddit.com/r/chanceme/comments/1dancfv/chance_an_asian_male_in_cs_legacy_applicant/) , 2024-06-19-0911
+all -  [ chance an asian male in cs legacy applicant ](https://www.reddit.com/r/chanceme/comments/1dancfv/chance_an_asian_male_in_cs_legacy_applicant/) , 2024-06-20-0910
 ```
 **Demographics:** Asian, Male, Competitive High School in MD, Upper Middle Class, Rising Senior
 
@@ -382,7 +559,7 @@ My comments arent
 
      
  
-all -  [ Chances of admission into PhD Computer Science ](https://www.reddit.com/r/gradadmissions/comments/1da1zhy/chances_of_admission_into_phd_computer_science/) , 2024-06-19-0911
+all -  [ Chances of admission into PhD Computer Science ](https://www.reddit.com/r/gradadmissions/comments/1da1zhy/chances_of_admission_into_phd_computer_science/) , 2024-06-20-0910
 ```
 I graduated from U of T with a 3.25 GPA. My undergrad was in Computer Science and Mathematics. My 3rd and 4th year progr
 am course GPA average was 3.49 (so pretty much only Math and CS courses, no electives)
@@ -412,7 +589,7 @@ e Stanford or MIT?
 
      
  
-all -  [ [R] Are you a reviewer for NeurIPS'24? Please read this ](https://www.reddit.com/r/MachineLearning/comments/1d9o8tn/r_are_you_a_reviewer_for_neurips24_please_read/) , 2024-06-19-0911
+all -  [ [R] Are you a reviewer for NeurIPS'24? Please read this ](https://www.reddit.com/r/MachineLearning/comments/1d9o8tn/r_are_you_a_reviewer_for_neurips24_please_read/) , 2024-06-20-0910
 ```
 Hello!
 
@@ -453,7 +630,7 @@ wer' acknowledgements.
 
      
  
-all -  [ [D] ICML Participation Grant Decisions ](https://www.reddit.com/r/MachineLearning/comments/1d9h8z3/d_icml_participation_grant_decisions/) , 2024-06-19-0911
+all -  [ [D] ICML Participation Grant Decisions ](https://www.reddit.com/r/MachineLearning/comments/1d9h8z3/d_icml_participation_grant_decisions/) , 2024-06-20-0910
 ```
 Hey all,
 
@@ -473,7 +650,7 @@ vote to help circulate the post and get more transparency (at least here) in the
 
      
  
-all -  [ How knowledgeable are AOs on research publications or venues? ](https://www.reddit.com/r/ApplyingToCollege/comments/1d9382a/how_knowledgeable_are_aos_on_research/) , 2024-06-19-0911
+all -  [ How knowledgeable are AOs on research publications or venues? ](https://www.reddit.com/r/ApplyingToCollege/comments/1d9382a/how_knowledgeable_are_aos_on_research/) , 2024-06-20-0910
 ```
 I'm pretty sure they would know the IEEE or Nature, but would they know about a conference like ICLR or some NeurIPS wor
 kshop?
@@ -482,7 +659,7 @@ kshop?
 
      
  
-all -  [ Graduate School Application Advice Needed: Profile Evaluation and University Suggestions (Fall 2025) ](https://www.reddit.com/r/gradadmissions/comments/1d8kcwj/graduate_school_application_advice_needed_profile/) , 2024-06-19-0911
+all -  [ Graduate School Application Advice Needed: Profile Evaluation and University Suggestions (Fall 2025) ](https://www.reddit.com/r/gradadmissions/comments/1d8kcwj/graduate_school_application_advice_needed_profile/) , 2024-06-20-0910
 ```
 Hey everyone,
 
@@ -574,7 +751,7 @@ Thanks!
 
      
  
-all -  [ Conference/Journal for Operations Research suggestions ](https://www.reddit.com/r/OperationsResearch/comments/1d7vtod/conferencejournal_for_operations_research/) , 2024-06-19-0911
+all -  [ Conference/Journal for Operations Research suggestions ](https://www.reddit.com/r/OperationsResearch/comments/1d7vtod/conferencejournal_for_operations_research/) , 2024-06-20-0910
 ```
 Hi guys,
 
@@ -603,7 +780,7 @@ wonder if there are centralized ones that most usually refer to. For example in 
 
      
  
-all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1d7fgxp/vote_paper_nomination_for_our_next_read/) , 2024-06-19-0911
+all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1d7fgxp/vote_paper_nomination_for_our_next_read/) , 2024-06-20-0910
 ```
 Hello everyone!
 
@@ -636,7 +813,7 @@ Happy voting!
 
      
  
-all -  [ Graduate School Application Advice Needed: Profile Evaluation and University Suggestions (Fall 2025) ](https://www.reddit.com/r/MSCS/comments/1d6p7zd/graduate_school_application_advice_needed_profile/) , 2024-06-19-0911
+all -  [ Graduate School Application Advice Needed: Profile Evaluation and University Suggestions (Fall 2025) ](https://www.reddit.com/r/MSCS/comments/1d6p7zd/graduate_school_application_advice_needed_profile/) , 2024-06-20-0910
 ```
 Hey everyone,
 
@@ -728,7 +905,7 @@ Thanks!
 
      
  
-all -  [ [R] LLM Merging Competition: Building LLMs Efficiently through Merging (NeurIPS 2024 Challenge) ](https://www.reddit.com/r/MachineLearning/comments/1d67ydm/r_llm_merging_competition_building_llms/) , 2024-06-19-0911
+all -  [ [R] LLM Merging Competition: Building LLMs Efficiently through Merging (NeurIPS 2024 Challenge) ](https://www.reddit.com/r/MachineLearning/comments/1d67ydm/r_llm_merging_competition_building_llms/) , 2024-06-20-0910
 ```
 Website of NeurIPS 2024 Challenge: https://llm-merging.github.io/
 
@@ -764,7 +941,7 @@ https://github.com/llm-merging/LLM-Merging
 
      
  
-all -  [ Thoughts on Self-Organized and Growing Neural Network Paper? ](https://www.reddit.com/r/DeepLearningPapers/comments/1d671ap/thoughts_on_selforganized_and_growing_neural/) , 2024-06-19-0911
+all -  [ Thoughts on Self-Organized and Growing Neural Network Paper? ](https://www.reddit.com/r/DeepLearningPapers/comments/1d671ap/thoughts_on_selforganized_and_growing_neural/) , 2024-06-20-0910
 ```
 Hey, just read this paper:  
 [https://proceedings.neurips.cc/paper\_files/paper/2019/file/1e6e0a04d20f50967c64dac2d639a5
@@ -780,7 +957,7 @@ a seems interesting.
 
      
  
-all -  [ [D] ML Conferences and Organization Metrics ](https://www.reddit.com/r/MachineLearning/comments/1d4shqn/d_ml_conferences_and_organization_metrics/) , 2024-06-19-0911
+all -  [ [D] ML Conferences and Organization Metrics ](https://www.reddit.com/r/MachineLearning/comments/1d4shqn/d_ml_conferences_and_organization_metrics/) , 2024-06-20-0910
 ```
 I feel like many would consider NeurIPS, ICLR, ICML, etc as important venues in the field of ML. Even outside of ML, Neu
 rIPS and ICLR have [the #9 and #10 highest H-index of any venues](https://scholar.google.com/citations?view_op=top_venue
@@ -799,7 +976,7 @@ Learning', a journal which [ranks #2 on SCImago instead](https://www.scimagojr.
 
      
  
-all -  [ [R] Machine learning introspection ](https://www.reddit.com/r/MachineLearning/comments/1d4dx88/r_machine_learning_introspection/) , 2024-06-19-0911
+all -  [ [R] Machine learning introspection ](https://www.reddit.com/r/MachineLearning/comments/1d4dx88/r_machine_learning_introspection/) , 2024-06-20-0910
 ```
 While 'introspection' is not well-defined in AI, it does have a long history - mainly to equip machines with human intui
 tion for problem solving, with Newell and Simon's 'General Problem Solver' (1958) being an early example. According to [
@@ -841,7 +1018,7 @@ aDs&t=2517s](https://preview.redd.it/95dyxv88km3d1.png?width=1280&format=png&aut
 
      
  
-all -  [ [D] Neurips2024 Desk rejection ](https://www.reddit.com/r/u_Working-Egg-3424/comments/1d3e0pi/d_neurips2024_desk_rejection/) , 2024-06-19-0911
+all -  [ [D] Neurips2024 Desk rejection ](https://www.reddit.com/r/u_Working-Egg-3424/comments/1d3e0pi/d_neurips2024_desk_rejection/) , 2024-06-20-0910
 ```
 Did you get the result of the desk rejection for NeurIPS 2024? I made my first submission this time, and I wonder if I c
 an check it on the OpenReview.
@@ -850,7 +1027,7 @@ an check it on the OpenReview.
 
      
  
-all -  [ How well known is MILA in the US/Bay Area? ](https://www.reddit.com/r/csMajors/comments/1d38xha/how_well_known_is_mila_in_the_usbay_area/) , 2024-06-19-0911
+all -  [ How well known is MILA in the US/Bay Area? ](https://www.reddit.com/r/csMajors/comments/1d38xha/how_well_known_is_mila_in_the_usbay_area/) , 2024-06-20-0910
 ```
 MILA is the Montreal-based AI lab founded by Yoshua Bengio, in collaboration with the University of Montreal and McGill 
 University.
@@ -872,7 +1049,7 @@ https://preview.redd.it/8o01ip7rcc3d1.png?width=982&format=png&auto=webp&s=ca5f8
 
      
  
-all -  [ [D] NeurIPS 2024 Desk Rejection ](https://www.reddit.com/r/MachineLearning/comments/1d2phaw/d_neurips_2024_desk_rejection/) , 2024-06-19-0911
+all -  [ [D] NeurIPS 2024 Desk Rejection ](https://www.reddit.com/r/MachineLearning/comments/1d2phaw/d_neurips_2024_desk_rejection/) , 2024-06-20-0910
 ```
 I forgot the checklist so my submission was just desk rejected. Honestly, I didn't know about the checklist because I us
 ed the latex template from my submission last year and just changed the style file from neurips\_2023.sty to neurips\_20
@@ -882,7 +1059,7 @@ ed the latex template from my submission last year and just changed the style fi
 
      
  
-all -  [ [Vote] First paper nomination starts! ](https://www.reddit.com/r/CVPaper/comments/1d1q49z/vote_first_paper_nomination_starts/) , 2024-06-19-0911
+all -  [ [Vote] First paper nomination starts! ](https://www.reddit.com/r/CVPaper/comments/1d1q49z/vote_first_paper_nomination_starts/) , 2024-06-20-0910
 ```
 Hello everyone!
 
@@ -911,7 +1088,7 @@ Happy voting!
 
      
  
-all -  [ Internship Opportunity ](https://www.reddit.com/r/CollegeAdmissions/comments/1czxefp/internship_opportunity/) , 2024-06-19-0911
+all -  [ Internship Opportunity ](https://www.reddit.com/r/CollegeAdmissions/comments/1czxefp/internship_opportunity/) , 2024-06-20-0910
 ```
 We are currently seeking interns for our AI lab headed by ML researchers at CMU. Our lab’s research has been published a
 t a top ML conference (NeurIPS) and has since been endorsed by leaders from Microsoft, Amazon, and Stanford. Commerciall
@@ -923,7 +1100,7 @@ on form.  
 
      
  
-all -  [ Internship Opportunity ](https://www.reddit.com/r/HighSchoolInternships/comments/1czbi7c/internship_opportunity/) , 2024-06-19-0911
+all -  [ Internship Opportunity ](https://www.reddit.com/r/HighSchoolInternships/comments/1czbi7c/internship_opportunity/) , 2024-06-20-0910
 ```
 We are currently seeking interns for our AI lab headed by ML researchers at CMU. Our lab’s research has been published a
 t a top ML conference (NeurIPS) and has since been endorsed by leaders from Microsoft, Amazon, and Stanford. Commerciall
@@ -939,7 +1116,7 @@ Application: [https://forms.gle/gs2riFyJ9Xme8Ux69](https://forms.gle/gs2riFyJ9Xm
 
      
  
-all -  [ Modern LLM/LMM mimarisi için okuma listesi ](https://www.reddit.com/r/CodingTR/comments/1cyox1z/modern_llmlmm_mimarisi_için_okuma_listesi/) , 2024-06-19-0911
+all -  [ Modern LLM/LMM mimarisi için okuma listesi ](https://www.reddit.com/r/CodingTR/comments/1cyox1z/modern_llmlmm_mimarisi_için_okuma_listesi/) , 2024-06-20-0910
 ```
 Merhabalar, buradaki bir gönderiye yorum olarak aşağıdaki listeyi paylaşmıştım ama gönderi silinmiş.
 
@@ -1000,7 +1177,7 @@ df/nihms-1570579.pdf)
 
      
  
-all -  [ CS AI PhD chances ](https://www.reddit.com/r/gradadmissions/comments/1cxpfji/cs_ai_phd_chances/) , 2024-06-19-0911
+all -  [ CS AI PhD chances ](https://www.reddit.com/r/gradadmissions/comments/1cxpfji/cs_ai_phd_chances/) , 2024-06-20-0910
 ```
 Hi all,
 
@@ -1036,7 +1213,7 @@ s.
 
      
  
-all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallcapsociety/comments/1cxi2hx/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-06-19-0911
+all -  [ VERSES AI ($VERS) Sets New Standards in AI with Benchmark Tests ](https://www.reddit.com/r/smallcapsociety/comments/1cxi2hx/verses_ai_vers_sets_new_standards_in_ai_with/) , 2024-06-20-0910
 ```
 VERSES AI ($VERS), a cognitive computing company, is continuing to make big strides in AI. They’ve introduced a research
  roadmap that outlines the key milestones and benchmarks. This roadmap could revolutionize the development of AI by prov
@@ -1084,7 +1261,7 @@ r own research before investing.
      
  
 all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
- ](https://www.reddit.com/r/kanpur/comments/1cwa3qt/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-19-0911
+ ](https://www.reddit.com/r/kanpur/comments/1cwa3qt/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-20-0910
 ```
 Greetings!
 
@@ -1123,7 +1300,7 @@ mat=png&auto=webp&s=8f49b22c78e16399f92194c3551303474022e65a
      
  
 all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
- ](https://www.reddit.com/r/developers_lucknow/comments/1cwa3gc/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-19-0911
+ ](https://www.reddit.com/r/developers_lucknow/comments/1cwa3gc/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-20-0910
 ```
 Greetings!
 
@@ -1162,7 +1339,7 @@ mat=png&auto=webp&s=80313475aa3a531609364a0d487a61a733f55877
      
  
 all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
- ](https://www.reddit.com/r/LucknowUniversity/comments/1cwa2sh/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-19-0911
+ ](https://www.reddit.com/r/LucknowUniversity/comments/1cwa2sh/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-20-0910
 ```
 Greetings!
 
@@ -1201,7 +1378,7 @@ mat=png&auto=webp&s=b64f71dfea4921355b3bb281ccf4cf5b06871190
      
  
 all -  [ Pioneering AI Research in Lucknow: Gen AI Hackathon and Awadh Summit by Lucknow AI Labs
- ](https://www.reddit.com/r/lucknow/comments/1cwa0gu/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-19-0911
+ ](https://www.reddit.com/r/lucknow/comments/1cwa0gu/pioneering_ai_research_in_lucknow_gen_ai/) , 2024-06-20-0910
 ```
 Greetings!
 
@@ -1247,7 +1424,7 @@ https://preview.redd
 
      
  
-all -  [ [D] Why are non technical people leading AI? ](https://www.reddit.com/r/MachineLearning/comments/1cw5dby/d_why_are_non_technical_people_leading_ai/) , 2024-06-19-0911
+all -  [ [D] Why are non technical people leading AI? ](https://www.reddit.com/r/MachineLearning/comments/1cw5dby/d_why_are_non_technical_people_leading_ai/) , 2024-06-20-0910
 ```
 Why do non-technical figures lead the charge in AI? Pichai, Nadella, Fidji (Open AI board member), Altman, Murati, and m
 any other VPs of AI in FAANG. Despite never coding, they hold sway in AI. Meanwhile, those coding and publishing groundb
@@ -1260,37 +1437,6 @@ dows.
 What's your take on this?
 
 
-```
----
-
-     
- 
-all -  [ [D] Culture of Recycling Old Conference Submissions in ML ](https://www.reddit.com/r/MachineLearning/comments/1cvp0x8/d_culture_of_recycling_old_conference_submissions/) , 2024-06-19-0911
-```
-I work on statistical ML. I notice that many people (including myself and those that I review) often recycle their submi
-ssions for ML conferences.
-
-E.g., if their papers got rejected by ICML, they submit to NeurIPS, and later to ICLR (or UA
-I/AISTATS which are also top in my field). If they did not get into ICML/NeurIPS/ICLR after 2\~3 times, they would submi
-t them to AAAI/IJCAI/TMLR/ICDM, journals like T-NNLS/T-KDD/NN/Neurocomputing, or domain-specific venues like LoG/CoLLAs/
-AABI. After all these, if the paper still did not get accepted, they then simply put them or arXiv. I believe this might
- also be the case for CV/NLP.
-
-As a reviewer, I often encounter conference submissions where the authors resubmit withou
-t really taking into account the previous reviews provided. Sometimes they do incorporate the reviews when resubmitting-
--but sometimes the work may just be not at the level of Tier 1 conferences but they just keep resubmitting and hoping th
-at they can accepted by chance.
-
-I think that this is consuming a lot of reviewers' time from the community to keep revi
-ewing the same submissions (especially given that NeurIPS hits 20k submission id; I expect to see many resubmissions). T
-his is perhaps also one of the reason TMLR was born (to emphasize correctness instead of novelty).
-
-I do understand argu
-ments like 'the quality of research is more important than the publication venues' or 'OpenAI often simply just put thei
-r papers like GPT-X on arXiv these days'. However, students or junior researchers also need publications in their career
-, including myself. 
-
-What do folks think about it?
 ```
 ---
 
