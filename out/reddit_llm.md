@@ -1,5 +1,479 @@
  
-all -  [ GraphDB RAG w/ LangChain to find fees ](https://www.reddit.com/r/LangChain/comments/1doiikb/graphdb_rag_w_langchain_to_find_fees/) , 2024-06-26-0910
+all -  [ How do I map a user query and response with a certain set of predefined tasks using output parsers?  ](https://www.reddit.com/r/LangChain/comments/1dpcfh2/how_do_i_map_a_user_query_and_response_with_a/) , 2024-06-27-0911
+```
+So I have a doubt, I figured out how to get responses back in a certain format using the Json output parsers. I want to 
+know how I can map a response to an intent. Like I want to create an AI Agent. So if the query is 'hey I wanna change my
+ password I think I forgot it' it should map it to a task 'reset password'
+```
+---
+
+     
+ 
+all -  [ Add context to create_sql_agent ](https://www.reddit.com/r/LangChain/comments/1dpbl5e/add_context_to_create_sql_agent/) , 2024-06-27-0911
+```
+Hello I am using create_sql_agent to query a SQL server database. The problem is for some reason the agent does not know
+ that it has to use SQL server dialect from the beginning and also does not know the column names.
+
+Is there a way to pr
+ovide this initial context to the prompt?
+
+This is my code:
+    llm = ChatOpenAI(model='gpt-3.5-turbo-0125', temperature
+=0)
+toolkit = SQLDatabaseToolkit(db=db, llm=llm)
+agent_executor = create_sql_agent(
+    llm=llm,
+    toolkit=toolkit,
+  
+  verbose=True,
+    agent_type=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+)
+
+    
+```
+---
+
+     
+ 
+all -  [ How we Chunk - turning PDF's into hierarchical structure for RAG ](https://www.reddit.com/r/LangChain/comments/1dpbc4g/how_we_chunk_turning_pdfs_into_hierarchical/) , 2024-06-27-0911
+```
+Hey all,
+
+We've spent a lot of time building new techniques for parsing and searching PDFs. They've lead to a significan
+t improvement in our RAG search and I wanted to share what we've learned.
+
+**Some examples:**
+
+Table - SEC Docs are noto
+riously hard for PDF -> tables. We tried the top results on google & some opensource thins not a single one succeeded on
+ this table. 
+
+Couple examples of who we looked at:
+
+* ilovepdf
+* Adobe
+* Gonitro
+* PDFtables
+* OCR 2 Edit
+* microsoft/t
+able-transformer-structure-recognition
+
+Results - our result (can be accurately converted into CSV,MD,JSON)
+
+https://pre
+view.redd.it/5wju5gedmy8d1.png?width=1035&format=png&auto=webp&s=2a336bd0e1af14760fbb5ca4291284c99edaa27e
+
+
+
+Example: id
+entifying headers, paragraphs, lists/list items (purple), and ignoring the 'junk' at the top aka the table of contents i
+n the header.
+
+ 
+
+https://preview.redd.it/ix7747bjmy8d1.png?width=1018&format=png&auto=webp&s=ea0b65ae6a35581d955da28235
+3ff63509602a38
+
+
+
+**Why did we do this?**
+
+W ran into a bunch of issues with existing approaches that boils down to one 
+thing: hallucinations often happen because the chunk doesn't provide enough information.
+
+* chunking by word count doesn
+'t work. It often chunks mid-paragraph or sentence.
+* Chunking by sentence or paragraph doesn't work. If the answer span
+s 2-3 paragraphs, you still are SOL.
+* Semantic chunking is better but still fail quite often on lists or 'somewhat' dif
+ferent pieces of info.
+* LLM's deal better with structured/semi-structured data, i.e. knowing what you're sending it is 
+a header, paragraph list etc., makes the model perform better.
+* Headers often aren't included because they're too far a
+way from the relevant vector, although often times headers contain important information.
+
+
+
+**What are we doing differe
+nt?** 
+
+We are dynamically generating chunks when a search happens, sending headers & sub-headers to the LLM along with 
+the chunk/chunks that were relevant to the search.
+
+Example of how this is helpful: you have 7 documents that talk about
+ how to reset a device, and the header says the device name, but it isn't talked about the paragraphs. The 7 chunks that
+ talked about how to reset a device would come back, but the LLM wouldn't know which one was relevant to which product. 
+That is, unless the chunk happened to include both the paragraphs and the headers, which often times in our experience, 
+it doesn't.
+
+This is a simplified version of what our structure looks like:
+
+    {
+      'type': 'Root',
+      'children
+': [
+        {
+          'type': 'Header',
+          'text': 'How to reset an iphone',
+          'children': [
+         
+   {
+              'type': 'Header',
+              'text': 'iphone 10 reset',
+              'children': [
+              
+  { 'type': 'Paragraph', 'text': 'Example Paragraph.' },
+                { 
+                  'type': 'List',
+          
+        'children': [
+                    'Item 1',
+                    'Item 2',
+                    'Item 3'
+         
+         ]
+                }
+              ]
+            },
+            {
+              'type': 'Header',
+              
+'text': 'iphone 11 reset',
+              'children': [
+                { 'type': 'Paragraph', 'text': 'Example Paragraph
+ 2' },
+                { 
+                  'type': 'Table',
+                  'children': [
+                    { 'type
+': 'TableCell', 'row': 0, 'col': 0, 'text': 'Column 1'},
+                    { 'type': 'TableCell', 'row': 0, 'col': 1, 
+'text': 'Column 2'},
+                    { 'type': 'TableCell', 'row': 0, 'col': 2, 'text': 'Column 3'},
+               
+     
+                    { 'type': 'TableCell', 'row': 1, 'col': 0, 'text': 'Row 1, Cell 1'},
+                    { 'ty
+pe': 'TableCell', 'row': 1, 'col': 1, 'text': 'Row 1, Cell 2'},
+                    { 'type': 'TableCell', 'row': 1, 'co
+l': 2, 'text': 'Row 1, Cell 3'}
+                  ]
+                }
+              ]
+            }
+          ]
+        
+}
+      ]
+    }
+    
+
+**How do we get PDF's into this format?**
+
+At a high level, we are identifying different portions 
+of PDF's based on PDF metadata and heuristics. This helps solve three problems:
+
+1. OCR can often mis-identify letters/n
+umbers, or entirely crop out words. 
+2. Most other companies are trying to use OCR/ML models to identify layout elements
+, which seems to work decent on data it's seen before but fails pretty hard unexpectedly. When it fails, it's a black bo
+x. For example, Microsoft released a paper a few days ago saying they trained a model on over 500M documents and still f
+ails on a bunch of use cases that we have working
+3. We can look at layout, font analysis etc. throughout the entire doc
+ allowing us to understand the 'structure' of the document more. We'll talk about this more when looking at font classes
+
+
+**How?**
+
+First, we extract tables. We use a small OCR model to identify bounding boxes, then we do use white space an
+alysis to find cells. This is the only portion of OCR we use (we're looking at doing line analysis but have punted on th
+at thus far.) We have found OCR to poorly identify cells on more complex tables, and often turn a 4 into a 5 or a 8 into
+ a 2 etc.
+
+When we find a table, we find characters that we believe to be a cell based on distance between each other, t
+rying to read the table as a human would. An example would be 1345 would be a 'cell' or text block, where 1    345 would
+ be two text blocks due to the distance between them. A re-occurring theme is white space can get you pretty far.
+
+Secon
+d, we extract character data from the PDF:
+
+* **Fonts**: Information about the fonts used in the document, including the
+ font name, type (e.g., TrueType, Type 1), and embedded font files.
+* **Character Positions:** The exact bounding box of
+ each character on the page.
+* **Character Color:** PDFs usually give this correctly, and when it's wrong it's still goo
+d enough
+
+PDFs provide a other metadata, but we found them to either be inaccurate or not necessary:
+
+* **Content Stream
+s:** Sequences of instructions that describe the content of the page, including text, images, and vector graphics. We fo
+und these to be surprisingly inaccurate. Newline characters inserted in the middle of words, characters and words placed
+ out of order, and whitespace is handled really inconsistently (more below)
+* **Annotations:** Information about interac
+tive elements such as links, form fields, and comments. There are useful details here that we may use in the future, but
+, again, a lot of PDF tools generate these incorrectly.
+
+Third, we strip out all space, newline, and other invisible cha
+racters. We do whitespace analysis to build words from individual characters. 
+
+**After extracting PDF metadata:**
+
+We e
+xtract out character locations, font sizes, and fonts. We then do multiple passes of whitespace analysis and clustering 
+algorithms to find groups, then try to identify what category they fall into based on heuristics. We used to rely more h
+eavily on clustering (DBScan specifically), but found that simpler whitespace analysis often outperformed it. 
+
+* If you
+ look at a PDF and see only a handful of characters, let's say 1% that are font 32, color blue, and each time they're id
+entified together it's only 2-3 words it's likely a header. 
+* Now you see 2% are font 28, red, it's probably a sub-head
+er. (That is if the font spans multiple pages.) If it instead is only in a single location, it's most likely something i
+mportant in the text that the author wants us to 'flag'. 
+* This makes font analysis across the document important, and 
+another reason we stay away from OCR
+* If, the document is 80% font 12, black. It's probably 'normal text.' Normal text 
+needs to be categorized into two different formats, one is paragraphs, the other is bullet points/lists. 
+* For bullet p
+oints we look primarily at the white space, identifying that there's a significant amount of white space, often follow b
+y a bullet point, number, or dash. 
+* For paragraphs, we text together in a 'normal' format without bullet points, tradi
+tionally spanning a majority of the document.
+* Junk detection. A lot of PDF's have junk in them. An example would be a 
+header that's at the top of every single document, or a footer on every document saying who wrote it, the page number et
+c. This junk otherwise is sent to the chunking algorithm meaning you can often have random information mid-paragraph. We
+ generate character ngram vectors and cluster then based on L1 distance (rather than cosine). That lets us find variatio
+ns like 'Page 1', 'Page 2', etc. If those appear in roughly the same location on more than 20-35% of pages, it's likely 
+just repeat junk.
+
+  
+
+
+The product is still in beta so if you're actively trying to solve this, or a similar problem, w
+e're letting people use it for free, in exchange for feedback.
+
+Have additional questions? Shoot!
+
+
+```
+---
+
+     
+ 
+all -  [ Versioning RAG ](https://www.reddit.com/r/LangChain/comments/1dp9m83/versioning_rag/) , 2024-06-27-0911
+```
+How are people versioning their RAG pipelines? 
+
+I've found that with context which changes/needs frequent updates, we n
+eed some type of versioning strategy. 
+
+Has anyone else run into this?
+```
+---
+
+     
+ 
+all -  [ Are there any RAG successful real production use cases out there? ](https://www.reddit.com/r/LangChain/comments/1dp7p9j/are_there_any_rag_successful_real_production_use/) , 2024-06-27-0911
+```
+Hello, people. I am a veteran programmer who is new to AI and its business use cases.
+
+I am fascinated by it, and I am n
+ow working on a small prototype for a client. It is an out-of-the-book RAG case:
+
+* \~1.5K 1-page PDFs with product spec
+s.
+* Build a chatbot to ask questions about the products.
+
+In our team, we are making great progress in the basic setup.
+ The PDFs are indexed in a VectorDB and we are able to use GPT4 to interact with the VectorDB data and generate human fr
+iendly answers.
+
+But there is a lot to improve about the generated recomendations, conclusions, filtering, best results,
+ ...
+
+All the tutorials and documentation we are seeing end up here, in the basic setup. And don't go further in the det
+ails and improvements needed to go to 'production' level. Further more, I have seen that many people on this community a
+nd others are mentioning their dissapointment with the actual state of the technology and their abandom of building a RA
+G architecture.
+
+I just want a confirmation that it is possible. That some of you have managed to build a RAG architectu
+re that is used satisfactorily in production. Is this the case? :)
+```
+---
+
+     
+ 
+all -  [ Use Vanna.ai for text-to-SQL much more reliable than othe r orchestration solutions, here is how to  ](https://arslanshahid-1997.medium.com/build-a-text-to-sql-chatbot-with-claude-sonnet-3-5-621a5bf9f922) , 2024-06-27-0911
+```
+
+```
+---
+
+     
+ 
+all -  [ Evaluating Open Source LLM for RAG ](https://www.reddit.com/r/LangChain/comments/1dowgnt/evaluating_open_source_llm_for_rag/) , 2024-06-27-0911
+```
+I've been working on RAG and LLM, and I've developed something I think you'll find useful: BeyondLLM.
+
+It's a tool I've 
+created to simplify the process of building advanced AI applications. With just a few lines of code, you can dive into R
+etrieval-Augmented Generation and Large Language Models. Plus, it's open source!
+
+Now, here's the latest update: BeyondL
+LM now includes additional features:
+
+* Fine Tune Embeddings: Customize your model's embeddings for improved performance
+.
+* Observability: Easily monitor your model's performance.
+* Groq LLM: Experience faster inference times for low latenc
+y applications.
+
+If you're interested, you can check out BeyondLLM on GitHub: [BeyondLLM GitHub](https://github.com/aipl
+anethub/beyondllm/)
+```
+---
+
+     
+ 
+all -  [ How to automate form filling using LLM ? ](https://www.reddit.com/r/LangChain/comments/1dovvd2/how_to_automate_form_filling_using_llm/) , 2024-06-27-0911
+```
+So, I want to automate the form-filling section. For example, here I am taking Redmine. that is basically a chatbot that
+ will interact with the user and change values in afield according to the input given by the user. for now, I have plann
+ed to create a text-to-JSON chatbot using some free open-source LLM that will help the user change the fields by changin
+g the natural language entered by the user to JSON format, which will be sent to execute, and the user can see the field
+s be changed accordingly. 
+
+so, how can I implement something like this?
+```
+---
+
+     
+ 
+all -  [ How to use Recursive URL Loader with Playwright/Puppeteer? ](https://www.reddit.com/r/LangChain/comments/1doudja/how_to_use_recursive_url_loader_with/) , 2024-06-27-0911
+```
+Hello, I'm building a RAG app with Langchain.js. It's my first time using LLM framework, thus first time using Langchain
+ too. I'm currently using the Recursive URL Loader integration to recursively fetch data from websites. And, behave as I
+ wanted, but I have some issue with websites using modern frontend frameworks. So, I tried the Playwright Langchain inte
+gration (I'm a bit familiar with Playwright), and it's work on the desired websites, but as you guess, it only works on 
+one page. So my question is there is an integration that do both? Handling JS and recursively browse the website, or how
+ can I combine the two to achieve my goal? I'm open to alternative solution using Puppeteer or even Python example.
+
+Thi
+s is how I use the Recursive URL Loader:
+
+    import { RecursiveUrlLoader } from '@langchain/community/document_loaders/
+web/recursive_url';
+    import { compile } from 'html-to-text';
+    
+    export async function loadWebsite(url: string, 
+excludeDirs?: string[]) {
+      const compiledConvert = compile({ wordwrap: 130 }); // returns (text: string) => string;
+
+    
+      const loader = new RecursiveUrlLoader(url, {
+        extractor: compiledConvert,
+        maxDepth: 1,
+      
+  excludeDirs,
+        preventOutside: true,
+      });
+    
+      return loader.load();
+    }
+
+And, this is my Playwrigh
+t attempt:
+
+    import { PlaywrightWebBaseLoader } from '@langchain/community/document_loaders/web/playwright';
+    impo
+rt { MozillaReadabilityTransformer } from '@langchain/community/document_transformers/mozilla_readability';
+    import {
+ RunnableSequence } from '@langchain/core/runnables';
+    import { RecursiveCharacterTextSplitter } from '@langchain/tex
+tsplitters';
+    
+    export async function loadWebsite(url: string) {
+      const loader = new PlaywrightWebBaseLoader(
+url, {
+        launchOptions: {
+          chromiumSandbox: false,
+        },
+      });
+    
+      const documents = awai
+t loader.load();
+    
+      const transformChain = RunnableSequence.from([
+        RecursiveCharacterTextSplitter.fromLa
+nguage('html'),
+        new MozillaReadabilityTransformer(),
+      ]);
+    
+      return transformChain.invoke(documents
+);
+    }
+
+Thanks for reading!  
+
+```
+---
+
+     
+ 
+all -  [ Multi GPU support ](https://www.reddit.com/r/LangChain/comments/1doszle/multi_gpu_support/) , 2024-06-27-0911
+```
+I want to host my app on AWS with multiple GPUs. I tried Llama-Index, but they do not support multi-GPU setups as far as
+ I know. How can I run Hugging Face models on multiple GPUs?
+```
+---
+
+     
+ 
+all -  [ LangGraph integration with bedrock ](https://www.reddit.com/r/LangChain/comments/1dosz4u/langgraph_integration_with_bedrock/) , 2024-06-27-0911
+```
+Anyone knows if LangGraph integrates with Bedrock and what are the capabilties. I am quite new to this and I was followi
+ng the langChain youtube series on LangGraph and they used a lot of OpenAI Functions so I wanted to know if it was possi
+ble to do the same with Bedrock models?
+```
+---
+
+     
+ 
+all -  [ Should I Use LangChain for Building a Chatbot with OpenAI Assistant API? ](https://www.reddit.com/r/LangChain/comments/1dosb9q/should_i_use_langchain_for_building_a_chatbot/) , 2024-06-27-0911
+```
+I'm creating a chatbot using the OpenAI Assistant API and considering LangChain. Should I use it?
+
+What are the pros and
+ cons?
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Alternatives to Pydantic Data Model for Output Parsers. ](https://www.reddit.com/r/LangChain/comments/1dolptc/alternatives_to_pydantic_data_model_for_output/) , 2024-06-27-0911
+```
+I am working on a project where user injects a JSON/YAML/XML file as structured desired for output formatting and able t
+o generate output by giving that structure to LLM.
+
+So far I was coding all the data models as per user's requirements i
+nto a Pydantic Class and using `PydanticOutputParser()`  to pass the structure information into prompt. I want to upgrad
+e this feature and let user provide structure in JSON/YAML/XML (for testing I am thinking of doing with JSON) instead of
+ my manually adding different data models. 
+
+Langchain's abstractions makes it very complicated to implement changes, I 
+wanted to test my hypothesis before investing time to code something of this kind. 
+
+  
+Any help would be much appreciat
+ed, Thanks!
+```
+---
+
+     
+ 
+all -  [ GraphDB RAG w/ LangChain to find fees ](https://www.reddit.com/r/LangChain/comments/1doiikb/graphdb_rag_w_langchain_to_find_fees/) , 2024-06-27-0911
 ```
 I have a document, such as this [one](https://www.xpo.com/cdn/download_files/s1/p2831/CNWY_199-AI.2.pdf), that describes
  the costs one can expect with a shipment, and throughout describe other fees that may come up depending on a specific s
@@ -16,7 +490,7 @@ aybe abandoning using a graph DB and go back to a traditional vectorDB, with a R
 
      
  
-all -  [ Need help with streaming agent output and am I going crazy or did langchain documentation just chang ](https://www.reddit.com/r/LangChain/comments/1dohi7o/need_help_with_streaming_agent_output_and_am_i/) , 2024-06-26-0910
+all -  [ Need help with streaming agent output and am I going crazy or did langchain documentation just chang ](https://www.reddit.com/r/LangChain/comments/1dohi7o/need_help_with_streaming_agent_output_and_am_i/) , 2024-06-27-0911
 ```
 Right now, my chat app involves users making a post request to an endpoint from my fastapi server.
 
@@ -100,15 +574,7 @@ u/hwchase17 would greattttly appreciate any
 
      
  
-all -  [ Legal Semantic Search w LangChain, Pineccone and Next.js - full source code  ](https://docs.pinecone.io/examples/sample-apps/legal-semantic-search) , 2024-06-26-0910
-```
-
-```
----
-
-     
- 
-all -  [ Multi-Agent Conversational Graph Designs ](https://www.reddit.com/r/LangChain/comments/1dogdy8/multiagent_conversational_graph_designs/) , 2024-06-26-0910
+all -  [ Multi-Agent Conversational Graph Designs ](https://www.reddit.com/r/LangChain/comments/1dogdy8/multiagent_conversational_graph_designs/) , 2024-06-27-0911
 ```
 # Preamble
 
@@ -378,7 +844,7 @@ Does anyone have experiences with these in LangGraph?
 
      
  
-all -  [ How to get started? ](https://www.reddit.com/r/LangChain/comments/1doefau/how_to_get_started/) , 2024-06-26-0910
+all -  [ How to get started? ](https://www.reddit.com/r/LangChain/comments/1doefau/how_to_get_started/) , 2024-06-27-0911
 ```
 Hi
 
@@ -411,7 +877,7 @@ ast! 😂
 
      
  
-all -  [ Creating a prompt template for RAG chain ](https://www.reddit.com/r/LangChain/comments/1doecqa/creating_a_prompt_template_for_rag_chain/) , 2024-06-26-0910
+all -  [ Creating a prompt template for RAG chain ](https://www.reddit.com/r/LangChain/comments/1doecqa/creating_a_prompt_template_for_rag_chain/) , 2024-06-27-0911
 ```
 Using the following prompt template in building a RAG based QnA application:
 
@@ -447,7 +913,7 @@ Thank You
 
      
  
-all -  [ RAG system on 3 different CSV. Any suggestions? ](https://www.reddit.com/r/LangChain/comments/1dod2o3/rag_system_on_3_different_csv_any_suggestions/) , 2024-06-26-0910
+all -  [ RAG system on 3 different CSV. Any suggestions? ](https://www.reddit.com/r/LangChain/comments/1dod2o3/rag_system_on_3_different_csv_any_suggestions/) , 2024-06-27-0911
 ```
 Hi everyone!
 
@@ -469,7 +935,7 @@ What do you suggest I do?
 
      
  
-all -  [ How can I search for a specific value in a column in a vector database without performing a semantic ](https://www.reddit.com/r/LangChain/comments/1dob8va/how_can_i_search_for_a_specific_value_in_a_column/) , 2024-06-26-0910
+all -  [ How can I search for a specific value in a column in a vector database without performing a semantic ](https://www.reddit.com/r/LangChain/comments/1dob8va/how_can_i_search_for_a_specific_value_in_a_column/) , 2024-06-27-0911
 ```
 I am trying to implement a Sentence Window Retrieval method in Langchain. The best way i can figure out how to do it is 
 to perform semantic similarity and return a chunk\_id along with the page\_content. I then want to retrieve documents fr
@@ -480,7 +946,7 @@ a specific value, rather than a similarity search?
 
      
  
-all -  [ Custom Moderation GPT 4 Model ](https://www.reddit.com/r/LangChain/comments/1do8d7m/custom_moderation_gpt_4_model/) , 2024-06-26-0910
+all -  [ Custom Moderation GPT 4 Model ](https://www.reddit.com/r/LangChain/comments/1do8d7m/custom_moderation_gpt_4_model/) , 2024-06-27-0911
 ```
 Hi community, I have some problems with my model; I used GPT-4 for do a health model with RAG; I require that my model d
 oesn't speak about: financial, techonology... I want my model only can speak about health topics.
@@ -504,7 +970,7 @@ help me pls!
 
      
  
-all -  [ Any news on when langgraph checkpointing returns to langchain-postgres? ](https://www.reddit.com/r/LangChain/comments/1do889i/any_news_on_when_langgraph_checkpointing_returns/) , 2024-06-26-0910
+all -  [ Any news on when langgraph checkpointing returns to langchain-postgres? ](https://www.reddit.com/r/LangChain/comments/1do889i/any_news_on_when_langgraph_checkpointing_returns/) , 2024-06-27-0911
 ```
 Title says it all. PostgresSaver was deprecated and removed from langchain-postgres. Are there any plans on updating thi
 s or should we just stick to sqlite?
@@ -514,7 +980,7 @@ s or should we just stick to sqlite?
 
      
  
-all -  [ Open-source AI Voice Agent with OpenAI ](https://www.reddit.com/r/LangChain/comments/1do81l5/opensource_ai_voice_agent_with_openai/) , 2024-06-26-0910
+all -  [ Open-source AI Voice Agent with OpenAI ](https://www.reddit.com/r/LangChain/comments/1do81l5/opensource_ai_voice_agent_with_openai/) , 2024-06-27-0911
 ```
 I have built an open-source AI agent which can handle voice calls and respond back in real-time. Can be used for many us
 e-cases such as sales calls, customer support etc.
@@ -527,7 +993,7 @@ Link to project :- [https://github.com/Anil-matcha/AI-Voice-Agent
 
      
  
-all -  [ Chatbot that talks to SQL ](https://www.reddit.com/r/LangChain/comments/1do5f9p/chatbot_that_talks_to_sql/) , 2024-06-26-0910
+all -  [ Chatbot that talks to SQL ](https://www.reddit.com/r/LangChain/comments/1do5f9p/chatbot_that_talks_to_sql/) , 2024-06-27-0911
 ```
 I have limited experience with LangChain and LLMs, primarily building simple chatbots with Retrieval-Augmented Generatio
 n (RAG). Currently, I'm helping a friend build a WhatsApp chatbot that retrieves its answers from a SQL database. I've b
@@ -547,7 +1013,7 @@ Given these challenges, I'm looking for advice, ideas, and any relevant experien
 
      
  
-all -  [ Is there any way i can integrate ollama, langchain and llama3 into a mobile simulator? ](https://www.reddit.com/r/LangChain/comments/1do4qmi/is_there_any_way_i_can_integrate_ollama_langchain/) , 2024-06-26-0910
+all -  [ Is there any way i can integrate ollama, langchain and llama3 into a mobile simulator? ](https://www.reddit.com/r/LangChain/comments/1do4qmi/is_there_any_way_i_can_integrate_ollama_langchain/) , 2024-06-27-0911
 ```
 Basically I've built one use case on linux desktop to simulate an AI personal assistant on the mobile phone which can au
 tomate various actions. My use case is basically that when an incoming call comes, the personal assistant determines the
@@ -566,7 +1032,7 @@ y this on a mobile simulator?
 
      
  
-all -  [ Effieicent way to do WebBaseLoader for a list of 70k urls ](https://www.reddit.com/r/LangChain/comments/1do409j/effieicent_way_to_do_webbaseloader_for_a_list_of/) , 2024-06-26-0910
+all -  [ Effieicent way to do WebBaseLoader for a list of 70k urls ](https://www.reddit.com/r/LangChain/comments/1do409j/effieicent_way_to_do_webbaseloader_for_a_list_of/) , 2024-06-27-0911
 ```
 Hello,
 
@@ -580,7 +1046,7 @@ y I can make it faster without hitting limits?
 
      
  
-all -  [ Some thoughts after developing with ChatGPT for 15 months. ](https://www.reddit.com/r/ChatGPTCoding/comments/1do2y50/some_thoughts_after_developing_with_chatgpt_for/) , 2024-06-26-0910
+all -  [ Some thoughts after developing with ChatGPT for 15 months. ](https://www.reddit.com/r/ChatGPTCoding/comments/1do2y50/some_thoughts_after_developing_with_chatgpt_for/) , 2024-06-27-0911
 ```
 # Revolutionizing Software Development: My Journey with Large Language Models
 
@@ -683,7 +1149,7 @@ t workflow to the next level.
 
      
  
-all -  [ AWS Bedrock - Building LLM using a knowledge base ](https://www.reddit.com/r/LangChain/comments/1do2odx/aws_bedrock_building_llm_using_a_knowledge_base/) , 2024-06-26-0910
+all -  [ AWS Bedrock - Building LLM using a knowledge base ](https://www.reddit.com/r/LangChain/comments/1do2odx/aws_bedrock_building_llm_using_a_knowledge_base/) , 2024-06-27-0911
 ```
 hi
 
@@ -705,7 +1171,7 @@ hain directly?
 
      
  
-all -  [ AWS Bedrock - Building LLM using a knowledge base ](https://www.reddit.com/r/LLMDevs/comments/1do2mo2/aws_bedrock_building_llm_using_a_knowledge_base/) , 2024-06-26-0910
+all -  [ AWS Bedrock - Building LLM using a knowledge base ](https://www.reddit.com/r/LLMDevs/comments/1do2mo2/aws_bedrock_building_llm_using_a_knowledge_base/) , 2024-06-27-0911
 ```
 Hi
 
@@ -727,7 +1193,7 @@ hain directly?
 
      
  
-all -  [ AWS Bedrock - Building LLM using a knowledge base ](https://www.reddit.com/r/aws/comments/1do2lnc/aws_bedrock_building_llm_using_a_knowledge_base/) , 2024-06-26-0910
+all -  [ AWS Bedrock - Building LLM using a knowledge base ](https://www.reddit.com/r/aws/comments/1do2lnc/aws_bedrock_building_llm_using_a_knowledge_base/) , 2024-06-27-0911
 ```
 # hi
 
@@ -749,7 +1215,7 @@ gchain directly ?
 
      
  
-all -  [ Make RAG chatapp faster ](https://www.reddit.com/r/ollama/comments/1do2glk/make_rag_chatapp_faster/) , 2024-06-26-0910
+all -  [ Make RAG chatapp faster ](https://www.reddit.com/r/ollama/comments/1do2glk/make_rag_chatapp_faster/) , 2024-06-27-0911
 ```
 I am developing a chat application for troubleshoot manual (all data in troubleshoot blogs) for an product. I am using m
 istral and mxbai-embed-large of embeddings. Suggest me some good architecture/techniques of RAG for faster response. I h
@@ -759,7 +1225,7 @@ ave used langchain for initial implementation but not constrain.
 
      
  
-all -  [ similarity search with relevancy score ](https://www.reddit.com/r/ChatGPT/comments/1do1j9g/similarity_search_with_relevancy_score/) , 2024-06-26-0910
+all -  [ similarity search with relevancy score ](https://www.reddit.com/r/ChatGPT/comments/1do1j9g/similarity_search_with_relevancy_score/) , 2024-06-27-0911
 ```
 # similarity search with relevancy score
 
@@ -776,7 +1242,7 @@ t be the chunk containing answer has the highest score? in spite of this i get t
 
      
  
-all -  [ similarity search with relevancy score ](https://www.reddit.com/r/generativeAI/comments/1do1iwo/similarity_search_with_relevancy_score/) , 2024-06-26-0910
+all -  [ similarity search with relevancy score ](https://www.reddit.com/r/generativeAI/comments/1do1iwo/similarity_search_with_relevancy_score/) , 2024-06-27-0911
 ```
 1) I want to know is 'similarity search with relevancy score' and 'similarity search with score' same?
 
@@ -791,7 +1257,7 @@ ighest score? in spite of this i get the answer right every time
 
      
  
-all -  [ Unable to delete vectors from Serverless Pinecone for specific source files (like a.pdf) ](https://www.reddit.com/r/LangChain/comments/1do0d7y/unable_to_delete_vectors_from_serverless_pinecone/) , 2024-06-26-0910
+all -  [ Unable to delete vectors from Serverless Pinecone for specific source files (like a.pdf) ](https://www.reddit.com/r/LangChain/comments/1do0d7y/unable_to_delete_vectors_from_serverless_pinecone/) , 2024-06-27-0911
 ```
 Hi, I'm unable to delete vectors for a specific source using metadata filtering with serverless pinecone as this feature
  is not available with serverless pinecone. And the other architecture of pinecone is not free, so I'm using serverless 
@@ -818,7 +1284,7 @@ width=1844&format=png&auto=webp&s=c4ecf51d149179459ed2042f1694d5fee7ec462b
 
      
  
-all -  [ Fresher, Specialized in Data Science, AI and ML. Where to apply?  ](https://www.reddit.com/r/developersIndia/comments/1dnzdgx/fresher_specialized_in_data_science_ai_and_ml/) , 2024-06-26-0910
+all -  [ Fresher, Specialized in Data Science, AI and ML. Where to apply?  ](https://www.reddit.com/r/developersIndia/comments/1dnzdgx/fresher_specialized_in_data_science_ai_and_ml/) , 2024-06-27-0911
 ```
 I've been trying to seek a job, but unable to apply efficiently.
 
@@ -850,7 +1316,7 @@ EDIT: Do you know any telegram/discord groups that notify about job postings/hir
 
      
  
-all -  [ Could anyone please refer me for any relevant openings at your company? I have 2.5 years of experien ](https://www.reddit.com/r/developersIndia/comments/1dnz1vh/could_anyone_please_refer_me_for_any_relevant/) , 2024-06-26-0910
+all -  [ Could anyone please refer me for any relevant openings at your company? I have 2.5 years of experien ](https://www.reddit.com/r/developersIndia/comments/1dnz1vh/could_anyone_please_refer_me_for_any_relevant/) , 2024-06-27-0911
 ```
 https://preview.redd.it/enppdystsn8d1.png?width=1506&format=png&auto=webp&s=6ecdcfca681d4a43b79140efde0937286e40eb79
 
@@ -860,7 +1326,7 @@ https://preview.redd.it/enppdystsn8d1.png?width=1506&format=png&auto=webp&s=6ecd
 
      
  
-all -  [ Please take a look at my resume and provide feedback. I haven't received any interview calls in the  ](https://www.reddit.com/r/developersIndia/comments/1dnyws1/please_take_a_look_at_my_resume_and_provide/) , 2024-06-26-0910
+all -  [ Please take a look at my resume and provide feedback. I haven't received any interview calls in the  ](https://www.reddit.com/r/developersIndia/comments/1dnyws1/please_take_a_look_at_my_resume_and_provide/) , 2024-06-27-0911
 ```
 https://preview.redd.it/hygmumoarn8d1.png?width=1506&format=png&auto=webp&s=aae2f17b2ab16b73bdd33b0cfd60775b03eec907
 
@@ -870,7 +1336,7 @@ https://preview.redd.it/hygmumoarn8d1.png?width=1506&format=png&auto=webp&s=aae2
 
      
  
-all -  [ [2 YOE] Machine Learning Engineer That's In Need of a Resume Review ](https://www.reddit.com/r/resumes/comments/1dnuya4/2_yoe_machine_learning_engineer_thats_in_need_of/) , 2024-06-26-0910
+all -  [ [2 YOE] Machine Learning Engineer That's In Need of a Resume Review ](https://www.reddit.com/r/resumes/comments/1dnuya4/2_yoe_machine_learning_engineer_thats_in_need_of/) , 2024-06-27-0911
 ```
 Hi everyone,
 
@@ -889,7 +1355,7 @@ c4a1b8e9bda009b81a0335ea3766155
 
      
  
-all -  [ 0% Callback rate so far in USA! ](https://www.reddit.com/r/resumes/comments/1dnqd15/0_callback_rate_so_far_in_usa/) , 2024-06-26-0910
+all -  [ 0% Callback rate so far in USA! ](https://www.reddit.com/r/resumes/comments/1dnqd15/0_callback_rate_so_far_in_usa/) , 2024-06-27-0911
 ```
 Applied to over 580+ application for Data Analyst and Data Scientist role over US region. No call backs yet. Need your h
 elp!
@@ -903,7 +1369,7 @@ https://preview.redd.it/9nlx9qtnil8d1.png?width=688&format=png&auto=webp&s=26c61
 
      
  
-all -  [ How to build efficient RAG with codebase? ](https://www.reddit.com/r/LangChain/comments/1dnos9r/how_to_build_efficient_rag_with_codebase/) , 2024-06-26-0910
+all -  [ How to build efficient RAG with codebase? ](https://www.reddit.com/r/LangChain/comments/1dnos9r/how_to_build_efficient_rag_with_codebase/) , 2024-06-27-0911
 ```
 I have tried parsing AST of codebase to create function signatures and body and embedded it in vector database. What wou
 ld be the best way to prepare the codebase? 
@@ -912,7 +1378,7 @@ ld be the best way to prepare the codebase?
 
      
  
-all -  [ Handling private data without self-hosting etc. ](https://www.reddit.com/r/LangChain/comments/1dno1ll/handling_private_data_without_selfhosting_etc/) , 2024-06-26-0910
+all -  [ Handling private data without self-hosting etc. ](https://www.reddit.com/r/LangChain/comments/1dno1ll/handling_private_data_without_selfhosting_etc/) , 2024-06-27-0911
 ```
 Is there a way to handle private data, like user input from a form without anonymouzation (eg presidio) and especially w
 hile using the regular openai API?
@@ -921,506 +1387,7 @@ hile using the regular openai API?
 
      
  
-all -  [ [HELP] Parallel function calling with Langgraph and Gemini 1.5 Pro ](https://www.reddit.com/r/LangChain/comments/1dnmeuy/help_parallel_function_calling_with_langgraph_and/) , 2024-06-26-0910
-```
-Hey everyone,
-
-I'm currently working on a project involving LangGraph and Gemini Pro 1.5 (Vertex AI).
-
-Gemini is not ret
-urning multiple function calls for parallel execution. I need to make several tool calls (e.g., for different months). H
-owever, it processes these calls sequentially, one at a time, which significantly increases the response time and costs 
-due to token usage. For instance, if I need data for four months, it will:
-
-1. Make the first tool call
-2. Wait for the 
-response
-3. Make the second tool call
-4. Wait for the response
-5. And so on...
-
-Previously, I had implemented parallel f
-unction calling with LangChain's `AgentExecutor` class, where the agent would make all the necessary calls simultaneousl
-y, wait for all responses, and then process them together. This parallel calling mechanism has stopped working with Lang
-Graph. Maybe because now the prompt is much larger than before?
-
-Any tips or advice?
-
-Thanks in advance for your help!
-```
----
-
-     
- 
-all -  [ LangGraph + Streamlit State Management ](https://www.reddit.com/r/LangChain/comments/1dngwkn/langgraph_streamlit_state_management/) , 2024-06-26-0910
-```
-Has anyone implemented a working streamlit app with LangGraph? I am having issues with state management between the two.
- If anyone has implemented the LangGraph tutorial chatbot in streamlit, please let me know
-```
----
-
-     
- 
-all -  [ Testing sales agent ](https://www.reddit.com/r/LangChain/comments/1dngjfm/testing_sales_agent/) , 2024-06-26-0910
-```
-Hey! Pretty new to this. I'm building a sales agent that can help with e.g. lead identification, enrichment, personalise
-d outbound email messaging, updating our CRM. I want to test it pretty rigorously before we start using it. What is the 
-best way to do something like automated regression testing for an agent, i.e. building a dataset of tasks with 'correct'
- answers where I can see how the agent performs after I make any changes? I could build this from scratch but I feel lik
-e most of the tasks are fairly generic and was wondering if there are available datasets or how others have approached t
-his problem 
-```
----
-
-     
- 
-all -  [ What's the best way to build AI Agents? LangChain or Semantic Kernel? ](https://www.reddit.com/r/build5nines/comments/1dnenml/whats_the_best_way_to_build_ai_agents_langchain/) , 2024-06-26-0910
-```
-As with all solutions, you should use the right tool for the job. However, when just starting out you can usually pick t
-he tool for the job. Python is extremely popular in the AI / data science space, and C# is popular in the Microsoft worl
-d. In your experience, do you think it's better to use [Python and LangChain to build AI Agents](https://build5nines.com
-/introduction-to-building-ai-agents-with-langchain-and-python/), or use [C# and Microsoft Semantic Kernel to build AI Ag
-ents](https://build5nines.com/introduction-to-building-ai-agents-with-microsoft-semantic-kernel/)?
-
-I'm curious what you
-r opinions and experiences are.
-
-  
-
-```
----
-
-     
- 
-all -  [ Need advice in Structuring JSON Output in Langgraph for Chatbot ](https://www.reddit.com/r/LangChain/comments/1dna58k/need_advice_in_structuring_json_output_in/) , 2024-06-26-0910
-```
-I’m working on a chatbot that interacts with an internal API, such as searching for items based on user queries. The out
-put needs to be in a structured JSON format that I can pass to the front end. Here’s the desired structure:
-  
-```json
-{
-
-  'type': 'message',
-  'message': 'Here is an item matching your search criteria',
-  'data': [
-    { 'item': 1, 'id': '
-abc123' },
-    { 'item': 2, 'id': 'def456' },
-    ...
-  ]
-}
-```
-
-I’m struggling with extracting the assistant “message” 
-and the item data (including the item ID) from the tools. I need to pass the data (e.g. item id) so then the front end c
-an process it and display a custom view (card view) of items. My attempts to inject a Pydantic model and explicitly prom
-pt to output a structured format haven’t been successful so far. 
-
-I am thinking to set up a specific node at the end of
- the graph to parse the assistant’s output, but I found that the assistant keeps discarding item details such as item id
- (even after I explicitly prompt not to do so). Is there a better approach to achieve this? Any advice or insights would
- be greatly appreciated!
-
-=======
-
-**EDIT**: 
-I've experimented with injecting few-shot examples into format\_instructor
- and it has been successful so far, although there are instances where it didn't produce the desired output. Here's what
- I do (might be helpful for someone facing a similar issue):
-
-1. I defined an output schema and include some examples of
- the desired output inside it. I found this method in [langgraph customer support tutorial](https://langchain-ai.github.
-io/langgraph/tutorials/customer-support/customer-support/#assistants)
-
-```python
-class OutputMessage(BaseModel):
-    '''
-Output message schema. Contains the text message generated from chatbot and the data to be displayed to the user (if any
-).'''
-    type: Literal['message', 'search_item', 'get_item_detail'] = Field(..., description='The type of the output me
-ssage')
-    message: str = Field(..., description='The text message to be displayed to the user')
-    data: List = Field
-([], description='The data to be displayed to the user')
-    
-    class Config:
-        schema_extra = {
-            'ex
-ample': {
-                'type': 'message',
-                'output': 'I can help you search item and stuff',
-         
-       'data': []
-            },
-            'example2': {
-                'type': 'search_item',
-                'outpu
-t': 'Here are items that might be fit your query',
-                'data': [
-                    {
-                     
-   'id': 1,
-                        'title': 'Item 1'
-                    },
-                    {
-                     
-   'id': 2,
-                        'title': 'Item 2',
-                    }
-                ]
-            }
-          #
- Add another example
-```
-
-Next, I inject the schema into the system prompt
-
-```python
-parser = PydanticOutputParser(pyda
-ntic_object=OutputMessage)
-
-system_prompt = '''
-Your system prompt...
-You can only response with valid and directly pars
-able json. Your output must be based on this schema:\n{format_instructions}
-'''
-
-primary_assistant_prompt = ChatPromptTe
-mplate.from_messages(
-    [
-        ('system', system_prompt),
-        ('placeholder', '{messages}'),
-    ]
-).partial(fo
-rmat_instructions=parser.get_format_instructions())
-```
-
-It's not perfect, because sometimes it doesn't follow the forma
-t, but I've managed to improve it by removing unnecessary prompts. If there are better implementations or some ways to e
-nhance it further, I'd greatly appreciate your insight. Many thanks for the help guys, It's been really helpful.
-```
----
-
-     
- 
-all -  [ Number of concurrent connections has exceeded your rate limit with Anthropic with Langchain ](https://www.reddit.com/r/LangChain/comments/1dn9ytb/number_of_concurrent_connections_has_exceeded/) , 2024-06-26-0910
-```
-I am using FastAPI with langchain I am using `aconvert_to_graph_documents` which Asynchronously convert a sequence of do
-cuments into graph documents.  
-  
-I am not able to use Langchain's ChatAnthropic in async manner, I tried using semapho
-re but keep getting   
-anthropic.RateLimitError saying Number of concurrent connections has exceeded your rate limit.
-
-I
-s there no way set this to a reasonable number?
-```
----
-
-     
- 
-all -  [ What strategies can we use to enhance LLM responses besides fine-tuning and prompt engineering? ](https://www.reddit.com/r/LangChain/comments/1dn7p4h/what_strategies_can_we_use_to_enhance_llm/) , 2024-06-26-0910
-```
-Aside from using better or larger models and employing fine-tuning, how else can we achieve improved responses from mode
-ls?
-
-p.s, I'm extremely new to this space, so any answers would be appreciated. 
-```
----
-
-     
- 
-all -  [ How do i parse tool calls? ](https://www.reddit.com/r/LangChain/comments/1dn6yaw/how_do_i_parse_tool_calls/) , 2024-06-26-0910
-```
-Here is the function I'm using to execute tool calls:
-
-    def single_tool_parser(model_output):
-        tool_map = {too
-l.name: tool for tool in tools}
-        chosen_tool = tool_map[model_output['name']]
-        return itemgetter('argument
-s') | chosen_tool
-
-**Method 1:**
-
-The above code works if i do something like this:
-
-example\_chain = prompt | llm | Jso
-nOutputParser() | single\_tool\_parser
-
-res=example\_chain.invoke(..........)
-
-print(res) //output of tool
-
-**Method 2**
-
-
-However if i try to do this:
-
-example\_chain = prompt | llm | JsonOutputParser()
-
-res=example\_chain.invoke(..........
-)
-
-res2=single \_tool\_parser(res)
-
-Upon doing print(res2), here's what i get:
-
-first=RunnableLambda(itemgetter('argumen
-ts')) last=StructuredTool(name='mute', description='Mute an incoming call\\n    : param caller: The name of the caller t
-o be muted', args\_schema=<class 'pydantic.v1.main.muteSchema'>, func=<function mute at 0x7f5b1403b380>)
-
-How can i get 
-method 2 to work?
-
-Note: The tool I'm using is called 'mute'. I've also tried doing  res2=res | single\_tool\_parser, bu
-t i get an error saying: unsupported operand type(s) for |: 'dict' and 'function'.
-
-Im using Llama3 with Ollama
-```
----
-
-     
- 
-all -  [ Creating a Knowledge Graph from Chat History Using LangChain: Seeking Advice ](https://www.reddit.com/r/LangChain/comments/1dn55j1/creating_a_knowledge_graph_from_chat_history/) , 2024-06-26-0910
-```
-I've compiled a history of chats between a user and an AI assistant in JSON format. Here’s a snippet of how the chat dat
-a looks:
-
-    '2024-06-23': [
-        {
-            'role': 'user',
-            'message': 'Hello! Can you suggest some 
-tourist places to visit in Paris?',
-            'time': '2024-06-23T15:30:00Z'
-        },
-        {
-            'role': 
-'assistant',
-            'message': 'Hello! Paris is a beautiful city with many wonderful places to visit. Here are some
- top tourist attractions: ...',
-            'time': '2024-06-23T15:32:00Z'
-        }
-    ]
-
-I’m planning to create a det
-ailed knowledge graph, and I'm debating between two approaches for structuring the documents: creating a document for ea
-ch interaction or aggregating all interactions for each date into a single document. Currently, I lean towards the forme
-r to capture more granularity in the analysis. Here’s how I’m setting up my documents using LangChain:
-
-    from langcha
-in.docstore.document import Document
-    import json
-    
-    def load_conversations_from_json(file_path):
-        docs 
-= []
-        
-        with open(file_path, 'r', encoding='utf-8') as file:
-            chat_data = json.load(file)
-     
-   
-        for date, messages in chat_data.items():
-            for message in messages:
-                role = message
-['role']
-                text = message['message']
-                time = message['time']
-                
-             
-   # Create a document with the conversation
-                metadata = {
-                    'date': date,
-            
-        'time': time,
-                    'role': role
-                }
-                docs.append(Document(page_conte
-nt=text, metadata=metadata))
-        
-        return docs
-    
-    conversations = load_conversations_from_json('chat_hi
-story.json')
-
-I’m considering using `LLMGraphTransformer` from LangChain to convert these documents into graph documents
-. Do you recommend creating a specific prompt for this task? Here’s a simple prompt I’m considering:
-
-    from langchain
-.prompts import ChatPromptTemplate
-    
-    kg_prompt = ChatPromptTemplate.from_template('''
-    You are an AI that cons
-tructs knowledge graphs from chat histories. 
-    Your task is to identify key entities and the relationships between th
-em based on the provided conversation. 
-    
-    Please proceed with the extraction based on the conversation provided.
-
-    ''')
-
-How beneficial is it to use the `allowed_nodes` and `allowed_relationships` parameters in `LLMGraphTransformer
-`? Which model would you recommend for the LLM? Currently, I’m using `gpt-4o`.
-
-I’d appreciate any advice or insights on
- optimizing this process for creating a comprehensive knowledge graph. Thank you!
-```
----
-
-     
- 
-all -  [ Python-LLM - Session 4 - LangChain - Multi Agent - Supervisor - Agent - Query Mutual Funds Data ](https://www.reddit.com/r/u_SravzLLC/comments/1dmxfue/pythonllm_session_4_langchain_multi_agent/) , 2024-06-26-0910
-```
-**# Use Case**
-
-Use LangChain Multi Agent: Supervisor Agent (JSON & Pandas Agents) to Query Mutual Funds Data
-
-
-
-**## Se
-ssion 4**
-
-- LangSmith - debug LangGraph.
-
-- Relevant document search update - make the documents more relevant.
-
-- Add 
-code = filename to all the objects recursively
-
-- Integrate AWS S3 with JSONSplitter.
-
-- In JSON Agent remove tools not 
-used by the graph, this will prevent looping
-
-- Remove pandas agent and use Python REPL agent.
-
-- LangChain pandas agent
- hard codes a data frame and forwards to python repl agent, instead of that just provide the python repl agent.
-
-- Sampl
-e Queries
-
-
-
-
-
-Documentation Link: [https://docs.sravz.com/docs/tech/python/langchain/#session-4](https://docs.sravz.com
-/docs/tech/python/langchain/#session-4)
-
-Source Code: [https://gist.github.com/sravzpublic/534dbb3695180a5deca4df6cd0c11
-8f4](https://gist.github.com/sravzpublic/534dbb3695180a5deca4df6cd0c118f4)
-
-Video Explanation: [https://youtu.be/oJ0lk6c
-dxos](https://youtu.be/oJ0lk6cdxos)
-
-
-
-Sravz LLC Training Series:
-
-Analytics - [https://docs.sravz.com/docs/analytics/](
-https://docs.sravz.com/docs/analytics/)
-
-Tech - [https://docs.sravz.com/docs/tech/](https://docs.sravz.com/docs/tech/)
-
-
-
-
-#cpp #c++  #cors   #boost #beast  #http #cmake #make #python #langchain #openai #llm
-```
----
-
-     
- 
-all -  [ Langchain Textloader does not load all of the text ](https://www.reddit.com/r/LLMDevs/comments/1dmwhxk/langchain_textloader_does_not_load_all_of_the_text/) , 2024-06-26-0910
-```
-I've gotten so far with my programming, but this little issue is holding me back from moving on creating my open source 
-LLM to chat with text files.  When I call Textloader like this, I only get to see 844 out of like 12000 words in the ori
-ginal text file.  No funny characters in the text file, I checked.  Was going to go through the whole tokenizing, embedd
-ing, vectorstore process...but...why the H\*\*\* can't the loader load the entire text?  Can someone please help a rooki
-e out here?  I even did it in a shorter way just loading it in one line of code but i did this the longer way to see if 
-there were any other issues :(.  
-
-    with open('textfile.txt', 'rb') as f:
-        rawdata = f.read()
-    result = cha
-rdet.detect(rawdata)
-    encoding = result['encoding']
-    
-    loader = TextLoader('pdf1.txt', encoding=encoding)
-    d
-ocument = loader.load()
-    
-```
----
-
-     
- 
-all -  [ Recommendation for re-ranker model on retrieved results?  ](https://www.reddit.com/r/LangChain/comments/1dmuxu9/recommendation_for_reranker_model_on_retrieved/) , 2024-06-26-0910
-```
-Looking for a cost effective approach that doesn’t suck
-```
----
-
-     
- 
-all -  [ Optimize and configure integration classes wit **kwargs ](https://www.reddit.com/r/LangChain/comments/1dmtf4a/optimize_and_configure_integration_classes_wit/) , 2024-06-26-0910
-```
-Although the plenty of integrations make our life easier if committed to langchain, it is disproportionally more difficu
-lt to optimize and configure their paramaters and especially the \*\*kwargs. I understand that these usually refer to th
-e underlying package that the langchain class wraps around.
-
-All docs have vanilla params and when some further configur
-ation is needed or even explored then things become a bit of a pain.
-
-The only way so far to find what \*\*kwargs are av
-ailable for the integrations I use is to go deep in the langchain code to see whether these might be finally passed, rea
-d the wrapped package documentation and also do extensive google search as it is not just the kwargs but also the syntax
- to pass them on (eg dict).
-
-I guess this is not a big deal for a seasoned developer, but is there an easier way to do t
-his, especially in the LLM era?
-```
----
-
-     
- 
-all -  [ Looking for ideas: How to handle parallel tool calls in LangGraph? ](https://www.reddit.com/r/LangChain/comments/1dmtcyn/looking_for_ideas_how_to_handle_parallel_tool/) , 2024-06-26-0910
-```
-I'm looking for some high-level advice around **LangGraph** and was hoping that this community might have some creative 
-ideas.
-
-I've been playing with LangGraph and I love how it lets you control the flow of a conversation. But **I'm strugg
-ling with how to design a graph in light of parallel tool calling**.
-
-Background: So, let's say I have a state that repr
-esents the first 'stage' of a dialogue with an Agent. Once that stage is complete, I want the dialogue to move to the se
-cond stage. (Each stage is represented as a state.) I have a tool called 'CompleteOrEscalate' (based on the LangGraph tu
-torials) that the LLM can use when it thinks that the task for stage 1 is complete. I also have a second tool called 'To
-FAQ' which can be used if the user asks a question that is not directly related to stage 1's task. So, stage 1 can condi
-tionally transition to two other stages/states, depending on what the user says. This works great, *most of the time*.
-
-
-But an issue arises when a user says something that causes the LLM to invoke more than one tool (i.e. the LLM is suggest
-ing that we make more than one transition out of a state). For example, if the purpose of stage 1 is to confirm the user
-'s name, and the user says, 'Yes, I'm John Smith. And I have a question about ...' That input both completes the task (c
-onfirming the user's name) AND contains a question (requiring an FAQ response). So, with parallel tool calling enabled t
-he LLM returns both tool calls (CompleteOrEscalate and ToFAQ). This is actually pretty cool, but I'm not sure how to han
-dle this situation in the conditional transition?
-
-I've considered turning off parallel tool calling. This would force t
-he LLM to call only one tool at a time. But it seems like a waste of tokens/time not to allow the LLM to return *both/al
-l* tool calls.
-
-Am I thinking about this all wrong? Is there a better way to handle this situation? TIA for any suggesti
-ons or thoughts you may have.
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [P] Seeking Feedback on My GenAI Job Fit Project - New to LangChain/LangGraph ](https://www.reddit.com/r/MachineLearning/comments/1dgns9p/p_seeking_feedback_on_my_genai_job_fit_project/) , 2024-06-26-0910
+MachineLearning -  [ [P] Seeking Feedback on My GenAI Job Fit Project - New to LangChain/LangGraph ](https://www.reddit.com/r/MachineLearning/comments/1dgns9p/p_seeking_feedback_on_my_genai_job_fit_project/) , 2024-06-27-0911
 ```
 Hi all,
 
@@ -1444,7 +1411,7 @@ nk : [https://github.com/DAVEinside/GenAI\_Job\_Fit](https://github.com/DAVEinsi
 
      
  
-MachineLearning -  [ [P] I'm tired of LangChain, so I made a simple open-source alternative with support for tool using a ](https://www.reddit.com/r/MachineLearning/comments/1deffo8/p_im_tired_of_langchain_so_i_made_a_simple/) , 2024-06-26-0910
+MachineLearning -  [ [P] I'm tired of LangChain, so I made a simple open-source alternative with support for tool using a ](https://www.reddit.com/r/MachineLearning/comments/1deffo8/p_im_tired_of_langchain_so_i_made_a_simple/) , 2024-06-27-0911
 ```
 [https://github.com/piEsposito/tiny-ai-client](https://github.com/piEsposito/tiny-ai-client)
 
@@ -1469,7 +1436,7 @@ work and are easy to be be adapted to your use case.
 
      
  
-MachineLearning -  [ [P] Superfast RAG: Langchain Streaming and Groq ](https://www.reddit.com/r/MachineLearning/comments/1d5s9g4/p_superfast_rag_langchain_streaming_and_groq/) , 2024-06-26-0910
+MachineLearning -  [ [P] Superfast RAG: Langchain Streaming and Groq ](https://www.reddit.com/r/MachineLearning/comments/1d5s9g4/p_superfast_rag_langchain_streaming_and_groq/) , 2024-06-27-0911
 ```
   
 Fast LLM RAG inference using Groq and Langchain Streaming.  
@@ -1486,7 +1453,7 @@ be.com/watch?v=frMdOL8knqg)
 
      
  
-deeplearning -  [ What is ReAct Prompting? the most important piece in agentic frameworks ](https://www.reddit.com/gallery/1djk4nk) , 2024-06-26-0910
+deeplearning -  [ What is ReAct Prompting? the most important piece in agentic frameworks ](https://www.reddit.com/gallery/1djk4nk) , 2024-06-27-0911
 ```
 “What is ReAct Prompting? the most important piece in agentic frameworks” - A quick read from Mastering LLM (Large Langu
 age Model) 'Coffee Break Concepts' Vol.6
@@ -1507,7 +1474,7 @@ ts' series and we will include those topics in upcoming weeks.
 
      
  
-deeplearning -  [ How to finetune? ](https://www.reddit.com/r/deeplearning/comments/1daio0h/how_to_finetune/) , 2024-06-26-0910
+deeplearning -  [ How to finetune? ](https://www.reddit.com/r/deeplearning/comments/1daio0h/how_to_finetune/) , 2024-06-27-0911
 ```
 Can someone guide me to some resource how can I finetune an open source llm or some library (like langchain) on unstruct
 ured data (example: news articles on cricket) So that model can answer a question (like When did India won world Cup?)
