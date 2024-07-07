@@ -1,5 +1,307 @@
  
-all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-06-0910
+all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-07-0912
+```
+Klar - es gab noch mehr Papers - aber ich glaube, dass ich die wirklich wesentlichen erfasst habe. Viel Spaß beim stöber
+n und ein schönes Wochenende!
+
+ 
+
+**JEN Music AI** 
+
+* Jen AIentwickelt eine KI, die in der Lage ist, Musik zu komponier
+en und zu analysieren.
+* **Kreativer Input**: Die KI arbeitet mit Musikern zusammen, um kreative Ideen zu entwickeln.
+* 
+**Analysefähigkeiten**: Die KI kann bestehende Musikstücke analysieren und Verbesserungsvorschläge machen.
+
+[https://kin
+ews24.de/jen-ai/](https://kinews24.de/jen-ai/)
+
+ 
+
+**The Prompt Report: Eine systematische Übersicht der Prompting-Techn
+iken**
+
+* **Breite Anwendung**: Generative KI-Systeme finden zunehmend Anwendung in Industrie und Forschung.
+* **Prompti
+ng-Techniken**: Das Paper stellt 58 textbasierte und 40 Techniken für andere Modalitäten vor.
+* **Vokabular**: Es wurde 
+ein umfassendes Vokabular von 33 Begriffen entwickelt.
+
+[https://kinews24.de/the-prompt-report/](https://kinews24.de/the
+-prompt-report/)
+
+ 
+
+**LMaaS – Optimierte Nutzung großer Sprachmodelle durch Vorhersage der Textlänge**
+
+* Problem: Vari
+ierende Generationslängen verursachen ineffiziente Ressourcennutzung.
+* Lösung: Magnus sagt die Generationslänge basiere
+nd auf Eingaben und semantischen Merkmalen voraus.
+* Effizienz: Steigerung der Durchsatzrate um bis zu 234%, Reduktion d
+er Antwortzeit um bis zu 89,7%.
+
+https://kinews24.de/lmaas/
+
+ 
+
+**Ferret-UI: Die mobile Benutzeroberfläche revolutionier
+t durch multimodale LLMs**
+
+* **Spezialisiertes Modell**: Ferret-UI ist ein MLLM, das speziell für die Herausforderungen
+ von mobilen Benutzeroberflächen entwickelt wurde.
+* **Detailvergrößerung**: Das Modell nutzt eine „any resolution“-Funk
+tion, um Details zu vergrößern und visuelle Merkmale zu verbessern.
+* **Datenaufbereitung**: Trainingsdaten stammen aus 
+einer Vielzahl von grundlegenden UI-Aufgaben wie Symbolerkennung und Textsuche.
+
+[https://kinews24.de/ferret-ui/](https:
+//kinews24.de/ferret-ui/)
+
+**Logikversagen bei großen Sprachmodellen**
+
+* **Studienschwerpunkt:** Bewertung der logische
+n Denkfähigkeiten von LLMs mit einfachen Alltagsproblemen.
+* **Hauptbefund:** Erheblicher Zusammenbruch der logischen De
+nkfähigkeiten, wobei die Modelle überhöhtes Vertrauen in falsche Lösungen zeigen.
+* **Getestete Interventionen:** Versch
+iedene Prompting-Techniken und mehrstufige Neubewertungen, die alle erfolglos blieben.
+
+[https://kinews24.de/logikversag
+en-bei-grossen-sprachmodellen/](https://kinews24.de/logikversagen-bei-grossen-sprachmodellen/)
+
+ 
+
+**YOLOv10: End-to-End
+-Objekt-Erkennung in Echtzeit**
+
+* **Neue Architektur:** YOLOv10 verwendet eine verbesserte Version von CSPNet für die M
+erkmalsextraktion.
+* **Effizienz und Genauigkeit:** Leichtgewichtige Klassifizierungsköpfe und rankgesteuerte Blockdesig
+ns verbessern die Performance.
+* **NMS-freies Training:** Duale Label-Zuweisungen eliminieren die Notwendigkeit für NMS.
+
+
+[https://kinews24.de/yolov10/](https://kinews24.de/yolov10/)
+
+ 
+
+**Täuschung durch KI – Die dunkle Seite der Künstlich
+en Intelligenz**
+
+* KI-Systeme können Menschen täuschen und manipulieren.
+* Forscher haben dies in beliebten KI-Programm
+en wie CICERO und Pluribus entdeckt.
+* Diese Systeme wurden entwickelt, um Spiele zu gewinnen, lernten aber, dies durch 
+Täuschung zu tun.
+
+[https://kinews24.de/tauschung-durch-ki/](https://kinews24.de/tauschung-durch-ki/)
+
+ 
+
+**Prometheus-E
+val und Prometheus 2 setzt jetzt neue Maßstäbe in der Bewertung von Sprachmodellen**
+
+* **Prometheus-Eval** ist ein Repo
+sitory, das Werkzeuge für das Training, die Evaluierung und die Nutzung von Sprachmodellen bietet, die speziell zur Bewe
+rtung anderer Sprachmodelle entwickelt wurden.
+* **Prometheus-eval Python-Paket** bietet eine einfache Schnittstelle zur
+ Bewertung von Instruktions-Antwort-Paaren und unterstützt sowohl absolute als auch relative Bewertungsmethoden.
+* **Abs
+olute Bewertungsmethode** liefert eine Punktzahl zwischen 1 und 5, während die relative Bewertungsmethode Antworten verg
+leicht und die bessere bestimmt.
+
+[https://kinews24.de/prometheus-eval-und-prometheus-2/](https://kinews24.de/prometheus
+-eval-und-prometheus-2/)
+
+ 
+
+**Meta Chameleon – Neues Multimodales Modell veröffentlicht**
+
+* Chameleon ist Metas neues 
+multimodales Modell.
+* Es integriert Bilder, Texte und andere Modalitäten nahtlos.
+* Erste Tests zeigen Spitzenleistunge
+n in verschiedenen Aufgaben.
+
+[https://kinews24.de/meta-chameleon/](https://kinews24.de/meta-chameleon/)
+
+ 
+
+**Tweedie: 
+Neue Methode zur Schulung von KI-Modellen soll Urheberrechtsprobleme lösen**
+
+* **Neue Methode**: Ambient Diffusion nutz
+t stark beschädigte Bilder zur Schulung von KI-Modellen.
+* **Problemstellung**: Vermeidung der Replikation urheberrechtl
+ich geschützter Werke durch KI-Modelle.
+* **Entwicklung**: Präsentiert bei der NeurIPS 2023 Konferenz, weiterentwickelt 
+für die ICML 2024.
+
+[https://kinews24.de/tweedie/](https://kinews24.de/tweedie/)
+
+ 
+
+**Microsoft DiG – Forschern gelingt
+ Molekülvorhersagen mit Künstlicher Intelligenz**
+
+* **Wer?** Entwickelt von einem Team unter der Leitung von Shuxin Zhe
+ng und Tie-Yan Liu bei Microsoft Research AI4Science.
+* **Was?** Einführung des Distributional Graphormer (DiG) zur Vorh
+ersage von Gleichgewichtsverteilungen in molekularen Systemen.
+* **Wann?** Die Forschung wurde am 10. April 2024 akzepti
+ert.
+
+[https://kinews24.de/microsoft-dig-forschern-gelingt-molekulvorhersagen/](https://kinews24.de/microsoft-dig-forsch
+ern-gelingt-molekulvorhersagen/)
+
+ 
+
+**Snowflake Arctic-Embed – Maschinen verstehen Menschen jetzt besser**
+
+* **Optimie
+rte Datennutzung:** Arctic-Embed-Modelle nutzen in-Batch-Negatives und ein ausgeklügeltes Datenfilterungssystem.
+* **Tra
+ining auf Benchmark-Datensätzen:** Modelle wurden auf MSMARCO und BEIR trainiert, um eine breite Abdeckung und Relevanz 
+zu gewährleisten.
+* **Parametervarianten:** Modelle reichen von 22 Millionen bis 334 Millionen Parametern.
+
+[https://kin
+ews24.de/snowflake-arctic-embed/](https://kinews24.de/snowflake-arctic-embed/)
+
+ 
+
+**Künstliche Intelligenz zeigt höhere
+ Kreativität als Menschen: Neue Studie enthüllt überraschende Ergebnisse**
+
+* **Hintergrund**: Untersuchung der kreative
+n Fähigkeiten von Menschen und KI, insbesondere von OpenAI’s GPT-4.
+* **Methode**: Vergleich von 151 menschlichen Teilne
+hmern und 151 GPT-4-Instanzen bei kreativen Aufgaben.
+* **Ergebnisse**: GPT-4 zeigte höhere Originalität und Detailgenau
+igkeit bei den Aufgaben im Vergleich zu den menschlichen Teilnehmern.
+
+[https://kinews24.de/kunstliche-intelligenz-zeigt
+-hohere-kreativitat-als-menschen/](https://kinews24.de/kunstliche-intelligenz-zeigt-hohere-kreativitat-als-menschen/)
+
+ 
+
+
+**Chain of Thought macht Künstliche Intelligenz noch intelligenter – Revolution der Transformer**
+
+* **Transformers** 
+wie GPT-4 nutzen die Chain of Thought, um komplexe Probleme besser zu lösen.
+* **Zwischenschritte**: Auch falsche oder z
+ufällige Zwischenschritte können die Leistung des Modells steigern.
+* **Serielle Berechnungen**: CoT ermöglicht es Model
+len, Aufgaben zu bewältigen, die eine schrittweise Verarbeitung erfordern.
+
+[https://kinews24.de/chain-of-thought/](http
+s://kinews24.de/chain-of-thought/)
+
+ 
+
+**Oxford THRONE – Erkennt Fehler von Sprachmodellen und Halluzinationen**
+
+* **Fo
+kus auf Halluzinationen**: Vision-Language Modelle können inkorrekte, aber plausible Details generieren, die in kritisch
+en Anwendungen irreführend sein können.
+* **Neues Bewertungssystem THRONE**: Entwickelt, um Halluzinationen in offenen A
+ntwortformaten zu erkennen, die detaillierte Bildbeschreibungen erfordern.
+* **Verwendung öffentlich zugänglicher Modell
+e**: THRONE nutzt existierende Sprachmodelle zur Evaluation und verbessert damit die Zugänglichkeit und Vergleichbarkeit
+ der Ergebnisse.
+
+[https://kinews24.de/oxford-throne/](https://kinews24.de/oxford-throne/)
+
+ 
+
+**KnowHalu – Neue Methode
+ erkennt Halluzination in KI-generierten Texten**
+
+* **Forscherteam:** Wissenschaftler aus der University of Illinois Ur
+bana-Champaign, UChicago und UC Berkeley.
+* **Problemstellung:** Halluzinationen in KI-Texten, d.h., falsche oder irrele
+vante Informationen, die dennoch als korrekt präsentiert werden.
+* **Methodik:** KnowHalu verwendet einen zweiphasigen P
+rozess mit einer Kombination aus internen Konsistenzprüfungen und externer Faktenüberprüfung.
+
+[https://kinews24.de/know
+halu/](https://kinews24.de/knowhalu/)
+
+ 
+
+**Tsinghua-Universität ADELIET: Bessere Informationen für Menschen**
+
+* **Neue
+r Ansatz:** Tsinghua-Universität ADELIET steht für “Aligning large language moDELs on Information Extraction” und nutzt 
+die Direct Preference Optimization (DPO), um große Sprachmodelle an die Anforderungen menschlicher Aufgaben anzupassen.
+
+* **Spezialisiertes Training:** Die Kombination von spezifischen IE-Daten und allgemeinen Sprachdaten im Training ermögl
+icht eine beibehaltene sprachliche Vielseitigkeit bei gleichzeitig gesteigerter Leistung in spezialisierten IE-Aufgaben.
+
+* **Datenbasis:** IEInstruct umfasst über 83.000 Datensätze verschiedener IE-Formate, was eine breite Basis für das Tra
+ining und die Optimierung bietet.
+
+[https://kinews24.de/tsinghua-universitat-adeliet/](https://kinews24.de/tsinghua-univ
+ersitat-adeliet/)
+
+ 
+
+**Game Development mit Künstlicher Intelligenz mit neuer Forschung**
+
+* **Prozedurale InhaltsGener
+ierung:** GPT-Modelle automatisieren und verbessern den kreativen Prozess bei der Entwicklung von Spielinhalten.
+* **Int
+eraktives SpielDesign:** Durch die Integration von KI in Spielmechaniken wird die Interaktion und Immersion der Spieler 
+signifikant bereichert.
+* **Dynamische Spielanpassung:** KI-Modelle reagieren in Echtzeit auf die Aktionen der Spieler, 
+um das Spielerlebnis individuell anzupassen und zu verbessern.
+
+[https://kinews24.de/game-development-mit-kunstlicher-in
+telligenz/](https://kinews24.de/game-development-mit-kunstlicher-intelligenz/)
+
+ 
+
+**Meta Multi-Token Vorhersage beschle
+unigt KI-Modelle um das Dreifache**
+
+* Multi-Token-Vorhersage lässt LLMs mehrere zukünftige Token gleichzeitig vorhersag
+en
+* Bringt substanzielle Geschwindigkeits- und Genauigkeitsvorteile für manche Modelle und Aufgaben
+* Überwindet Grenze
+n der klassischen Einzeltoken-Vorhersage wie Überempfindlichkeit für lokale Muster
+
+[https://kinews24.de/meta-multi-toke
+n/](https://kinews24.de/meta-multi-token/)
+
+ 
+
+**xLSTM ist Europas Chance in der KI-Welt – Neues Paper von Sepp Hochreit
+er veröffentlicht!**
+
+* Forscher aus Linz haben das LSTM durch exponentielle Gating-Funktionen und neue Speicherstruktur
+en erweitert:
+   * sLSTM: Skalar-Speicher, Skalar-Update und neues “Memory-Mixing”
+   * mLSTM: Matrix-Speicher, vollstän
+dig parallelisierbar, neuartiges “Covariance-Update”
+* Das xLSTM behebt wesentliche Limitierungen des LSTM wie:
+   * Beg
+renzte Fähigkeit, Speicherentscheidungen zu revidieren
+   * Begrenzte Speicherkapazität
+   * Fehlende Parallelisierbarke
+it aufgrund von “Memory-Mixing”
+* xLSTM-Blöcke entstehen durch Integration von mLSTM und sLSTM in Residual-Blöcke
+
+[http
+s://kinews24.de/xlstm/](https://kinews24.de/xlstm/)
+```
+---
+
+     
+ 
+all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-07-0912
 ```
 # Introduction
 
@@ -101,7 +403,7 @@ ebp&s=93bcdac6f05960dff4910d26b3bcc35d3882eba8)
 
      
  
-all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-06-0910
+all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-07-0912
 ```
 I already posted once on here (on a different account) and had questions about awards because that's what I feel I lack.
 
@@ -205,7 +507,7 @@ I am very confused about what I should be doing for awards. Given that I do not 
 
      
  
-all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-06-0910
+all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-07-0912
 ```
 Hey all!
 So originally I was accepted into Algoverse for the Neurips track and was browsing on reddit to see if it was a
@@ -251,7 +553,7 @@ ice, I would recommend.
 
      
  
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/neuralnetworks/comments/1dqgeuz/deep_learning_paper_summaries/) , 2024-07-06-0910
+all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/neuralnetworks/comments/1dqgeuz/deep_learning_paper_summaries/) , 2024-07-07-0912
 ```
 The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
 gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
@@ -283,7 +585,7 @@ m/vlgiitr/papers_we_read) will be constantly updated with summaries of more pap
 
      
  
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/DeepLearningPapers/comments/1dqfuky/deep_learning_paper_summaries/) , 2024-07-06-0910
+all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/DeepLearningPapers/comments/1dqfuky/deep_learning_paper_summaries/) , 2024-07-07-0912
 ```
 The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
 gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
@@ -316,7 +618,7 @@ om/vlgiitr/papers_we_read) will be constantly updated with summaries of more pap
 
      
  
-all -  [ [D] Is anyone else absolutely besieged by papers and always on the verge of getting scooped? ](https://www.reddit.com/r/MachineLearning/comments/1dqbgw4/d_is_anyone_else_absolutely_besieged_by_papers/) , 2024-07-06-0910
+all -  [ [D] Is anyone else absolutely besieged by papers and always on the verge of getting scooped? ](https://www.reddit.com/r/MachineLearning/comments/1dqbgw4/d_is_anyone_else_absolutely_besieged_by_papers/) , 2024-07-07-0912
 ```
 I'm a 1st year PhD student working on a hot area in ML (3 guesses as to what lol) and the past year has been absolutely 
 brutal for me on a personal level. Every single weekday, I check the daily arxiv digest that hits my inbox, and there ar
@@ -341,7 +643,7 @@ th the stress of fast publication cycles, or for generally struggling through th
 
      
  
-all -  [ is this the end of my career? ](https://www.reddit.com/r/postdoc/comments/1dpjwig/is_this_the_end_of_my_career/) , 2024-07-06-0910
+all -  [ is this the end of my career? ](https://www.reddit.com/r/postdoc/comments/1dpjwig/is_this_the_end_of_my_career/) , 2024-07-07-0912
 ```
 so i have a phd in chem and a research focus in comp bio (drug discovery and such). I am up-to-date with ML literture in
  my field and have even applied some of the ML methods in my project. But I havent developed a foundation model or publi
@@ -368,7 +670,7 @@ Sorry for my rant. Any advice helps thanks.
 
      
  
-all -  [ [D] Difference between ICLR and AISTATS ](https://www.reddit.com/r/MachineLearning/comments/1do796a/d_difference_between_iclr_and_aistats/) , 2024-07-06-0910
+all -  [ [D] Difference between ICLR and AISTATS ](https://www.reddit.com/r/MachineLearning/comments/1do796a/d_difference_between_iclr_and_aistats/) , 2024-07-07-0912
 ```
 There is a somewhat [duplicated question](https://www.reddit.com/r/MachineLearning/comments/olmq3m/d_difference_between_
 aaai_iclr_and_aistats/) here, but I would like to bring this topic up again, since the September/October deadline is app
@@ -400,7 +702,7 @@ e work itself is more important than the publication venue', which is obviously 
 
      
  
-all -  [ Google's open-weight XTR (conteXtualized Token Retriever) models for document retrieval (Apache 2.0  ](https://www.reddit.com/r/LocalLLaMA/comments/1dm336p/googles_openweight_xtr_contextualized_token/) , 2024-07-06-0910
+all -  [ Google's open-weight XTR (conteXtualized Token Retriever) models for document retrieval (Apache 2.0  ](https://www.reddit.com/r/LocalLLaMA/comments/1dm336p/googles_openweight_xtr_contextualized_token/) , 2024-07-07-0912
 ```
 I just noticed two models on Google's HuggingFace that we haven't discussed earlier on this subreddit. It's the XTR (con
 teXtualized Token Retriever) models from Google DeepMind. They state:
@@ -444,7 +746,7 @@ ge compared to ColBERT.
 
      
  
-all -  [ Employers' view on CS PhD in computational biology vs pure ML? ](https://www.reddit.com/r/cscareerquestions/comments/1dkgau4/employers_view_on_cs_phd_in_computational_biology/) , 2024-07-06-0910
+all -  [ Employers' view on CS PhD in computational biology vs pure ML? ](https://www.reddit.com/r/cscareerquestions/comments/1dkgau4/employers_view_on_cs_phd_in_computational_biology/) , 2024-07-07-0912
 ```
 I am a little worried about how future employers (e.g. FAANG) might view a CS PhD in computational biology. They might v
 iew me to be a 'better fit' for big pharma/biotech post-graduation.
@@ -475,7 +777,7 @@ tead if I know I want to go to into tech?
 
      
  
-all -  [ What does it take to get a paper accepted in good venues like ACL, EMNLP, neurIPS  in main Conferenc ](https://www.reddit.com/r/learnmachinelearning/comments/1djvh1q/what_does_it_take_to_get_a_paper_accepted_in_good/) , 2024-07-06-0910
+all -  [ What does it take to get a paper accepted in good venues like ACL, EMNLP, neurIPS  in main Conferenc ](https://www.reddit.com/r/learnmachinelearning/comments/1djvh1q/what_does_it_take_to_get_a_paper_accepted_in_good/) , 2024-07-07-0912
 ```
 This is my first year as a PhD student and I am currently attending the Naacl conference in Mexico with a poster attache
 d to a workshop and I definitely want my next papers to pass in for conferences in such venues. But I am still confused 
@@ -488,7 +790,7 @@ Well, any comments and suggestions will be helpful
 
      
  
-all -  [ How To Become AI Engineer In 2024 ](https://www.reddit.com/r/u_seowithumang/comments/1djoya3/how_to_become_ai_engineer_in_2024/) , 2024-07-06-0910
+all -  [ How To Become AI Engineer In 2024 ](https://www.reddit.com/r/u_seowithumang/comments/1djoya3/how_to_become_ai_engineer_in_2024/) , 2024-07-07-0912
 ```
 Becoming an AI engineer in 2024 involves a combination of education, practical experience, and staying current with the 
 latest advancements in the field. Here’s a comprehensive guide to help you on your journey:
@@ -578,7 +880,7 @@ ess analysts.
 
      
  
-all -  [ What does it take to get a paper accepted in ACL, EMNLP or NeurIps? ](https://www.reddit.com/r/airesearch/comments/1djkugt/what_does_it_take_to_get_a_paper_accepted_in_acl/) , 2024-07-06-0910
+all -  [ What does it take to get a paper accepted in ACL, EMNLP or NeurIps? ](https://www.reddit.com/r/airesearch/comments/1djkugt/what_does_it_take_to_get_a_paper_accepted_in_acl/) , 2024-07-07-0912
 ```
 Well, this will be my third paper and it is published in NAACL as a poster, not yet get into the main conference. For th
 ose who got into main conferences of those well known venues what are the main things that put you there? Sorry this is 
@@ -589,7 +891,7 @@ my first year PhD so I am kind of noob at this.
 
      
  
-all -  [ Seeking advice for changing research area and reapplying to a different PhD program ](https://www.reddit.com/r/gradadmissions/comments/1djbdne/seeking_advice_for_changing_research_area_and/) , 2024-07-06-0910
+all -  [ Seeking advice for changing research area and reapplying to a different PhD program ](https://www.reddit.com/r/gradadmissions/comments/1djbdne/seeking_advice_for_changing_research_area_and/) , 2024-07-07-0912
 ```
 Hi everyone! Thank you so much for taking the time to read my post. This is going to be long but I didn't know how to ma
 ke it any shorter so here it goes.
@@ -652,7 +954,7 @@ https://preview.redd.it/ueao9fwvqg7d1.jpg?width=2550&format=pjpg&auto=webp&s=aed
 
      
  
-all -  [ [Vote] Paper nomination for upcoming week ](https://www.reddit.com/r/CVPaper/comments/1dhxjau/vote_paper_nomination_for_upcoming_week/) , 2024-07-06-0910
+all -  [ [Vote] Paper nomination for upcoming week ](https://www.reddit.com/r/CVPaper/comments/1dhxjau/vote_paper_nomination_for_upcoming_week/) , 2024-07-07-0912
 ```
 Hello everyone!
 
@@ -686,7 +988,7 @@ appy voting!
 
      
  
-all -  [ Does Research But Applying Comp Sci. Am I cooked? ](https://www.reddit.com/r/chanceme/comments/1dhf1sa/does_research_but_applying_comp_sci_am_i_cooked/) , 2024-07-06-0910
+all -  [ Does Research But Applying Comp Sci. Am I cooked? ](https://www.reddit.com/r/chanceme/comments/1dhf1sa/does_research_but_applying_comp_sci_am_i_cooked/) , 2024-07-07-0912
 ```
 **Demographics:** Male, White, CA, Semi-Competitive School, hooks (legacy to penn/berkeley dont think it matters)
 
@@ -782,7 +1084,7 @@ Safety:
 
      
  
-all -  [ [D] Is OOD generalization still a future in the LLM era? ](https://www.reddit.com/r/MachineLearning/comments/1dh1eox/d_is_ood_generalization_still_a_future_in_the_llm/) , 2024-07-06-0910
+all -  [ [D] Is OOD generalization still a future in the LLM era? ](https://www.reddit.com/r/MachineLearning/comments/1dh1eox/d_is_ood_generalization_still_a_future_in_the_llm/) , 2024-07-07-0912
 ```
 I think OOD generalization is an important issue because it pulls in the distance from reality. But I am concerned that 
 recent conferences like ICLR, ICML, NeurIPS etc. don't have many people working on this problem. And check out some OOD 
@@ -793,7 +1095,7 @@ f some difficulties in this field that people stopped studying it. Or is it beca
 
      
  
-all -  [ [D] is it inadvisable to improve the internal workings of a model at review time? ](https://www.reddit.com/r/MachineLearning/comments/1ddjyx0/d_is_it_inadvisable_to_improve_the_internal/) , 2024-07-06-0910
+all -  [ [D] is it inadvisable to improve the internal workings of a model at review time? ](https://www.reddit.com/r/MachineLearning/comments/1ddjyx0/d_is_it_inadvisable_to_improve_the_internal/) , 2024-07-07-0912
 ```
 I submitted a paper to NeurIPS with a model using mamba blocks. However, even before submitting the manuscript to openre
 view, I had in mind some tweaks or ideas that I could try to improve the results. Now, after the recent release of mamba
@@ -815,7 +1117,7 @@ What would you do in that situation?
 
      
  
-all -  [ Loss ou Gain ](https://i.redd.it/ufqv3vck3z5d1.jpeg) , 2024-07-06-0910
+all -  [ Loss ou Gain ](https://i.redd.it/ufqv3vck3z5d1.jpeg) , 2024-07-07-0912
 ```
 E aí galera?
 ```
@@ -823,7 +1125,7 @@ E aí galera?
 
      
  
-all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1dcjs8b/vote_paper_nomination_for_our_next_read/) , 2024-07-06-0910
+all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1dcjs8b/vote_paper_nomination_for_our_next_read/) , 2024-07-07-0912
 ```
 Hello everyone!
 
@@ -857,7 +1159,7 @@ Happy voting!
 
      
  
-all -  [ chance an asian male in cs legacy applicant ](https://www.reddit.com/r/chanceme/comments/1dancfv/chance_an_asian_male_in_cs_legacy_applicant/) , 2024-07-06-0910
+all -  [ chance an asian male in cs legacy applicant ](https://www.reddit.com/r/chanceme/comments/1dancfv/chance_an_asian_male_in_cs_legacy_applicant/) , 2024-07-07-0912
 ```
 **Demographics:** Asian, Male, Competitive High School in MD, Upper Middle Class, Rising Senior
 
@@ -1035,7 +1337,7 @@ My comments arent
 
      
  
-all -  [ Chances of admission into PhD Computer Science ](https://www.reddit.com/r/gradadmissions/comments/1da1zhy/chances_of_admission_into_phd_computer_science/) , 2024-07-06-0910
+all -  [ Chances of admission into PhD Computer Science ](https://www.reddit.com/r/gradadmissions/comments/1da1zhy/chances_of_admission_into_phd_computer_science/) , 2024-07-07-0912
 ```
 I graduated from U of T with a 3.25 GPA. My undergrad was in Computer Science and Mathematics. My 3rd and 4th year progr
 am course GPA average was 3.49 (so pretty much only Math and CS courses, no electives)
@@ -1065,7 +1367,7 @@ e Stanford or MIT?
 
      
  
-all -  [ [R] Are you a reviewer for NeurIPS'24? Please read this ](https://www.reddit.com/r/MachineLearning/comments/1d9o8tn/r_are_you_a_reviewer_for_neurips24_please_read/) , 2024-07-06-0910
+all -  [ [R] Are you a reviewer for NeurIPS'24? Please read this ](https://www.reddit.com/r/MachineLearning/comments/1d9o8tn/r_are_you_a_reviewer_for_neurips24_please_read/) , 2024-07-07-0912
 ```
 Hello!
 
@@ -1106,7 +1408,7 @@ wer' acknowledgements.
 
      
  
-all -  [ [D] ICML Participation Grant Decisions ](https://www.reddit.com/r/MachineLearning/comments/1d9h8z3/d_icml_participation_grant_decisions/) , 2024-07-06-0910
+all -  [ [D] ICML Participation Grant Decisions ](https://www.reddit.com/r/MachineLearning/comments/1d9h8z3/d_icml_participation_grant_decisions/) , 2024-07-07-0912
 ```
 Hey all,
 
@@ -1121,107 +1423,6 @@ Thanks all!
 
 please up
 vote to help circulate the post and get more transparency (at least here) in the process.
-```
----
-
-     
- 
-all -  [ How knowledgeable are AOs on research publications or venues? ](https://www.reddit.com/r/ApplyingToCollege/comments/1d9382a/how_knowledgeable_are_aos_on_research/) , 2024-07-06-0910
-```
-I'm pretty sure they would know the IEEE or Nature, but would they know about a conference like ICLR or some NeurIPS wor
-kshop?
-```
----
-
-     
- 
-all -  [ Graduate School Application Advice Needed: Profile Evaluation and University Suggestions (Fall 2025) ](https://www.reddit.com/r/gradadmissions/comments/1d8kcwj/graduate_school_application_advice_needed_profile/) , 2024-07-06-0910
-```
-Hey everyone,
-
-I'm currently in my final year of an HBSc in Computer Science at the University of Toronto and am plannin
-g to apply to graduate schools soon. I am an international applicant. I wanted to get some feedback and suggestions from
- the community about my profile and the universities I'm considering. Here are the details:
-
-# Education
-
-* **University
- of Toronto**: HBSc in Computer Science, GPA 3.9
-* **Scholarships/Awards**:
-   * University of Toronto International Sch
-olar Award ($92,500)
-   * Faculty Award ($7,500)
-   * 2× Dean’s List Scholar
-   * Data Science Institute SUDS Scholar ($
-7,200)
-   * Dr. James A. & Connie P. Dickson Scholarship ($500)
-
-# Work Experience
-
-* **Research Assistant**: Worked wit
-h 4 professors over 2.5 years
-* **Course Content Developer**: Developed course content for another professor
-
-# Research
- Experience
-
-* **Accepted Papers**:
-   * Small Satellite Conference (2nd author)
-* **Submitted Papers**: (highly likely 
-to be accepted based on feedback from professors)
-   * NeurIPS (2nd author)
-   * Nature (1st author)
-   * IEEE TCBB (1st
- author)
-* **Other Projects**:
-   * 1 research project with no paper
-   * 3 research projects in progress
-
-# Extracurric
-ulars
-
-* **Computer Vision Club**: Founded and led the club at the university (funded by GitHub)
-* **Space Club**: ML Pr
-oject Lead
-
-# Universities Under Consideration (MSCS or adjacent)
-
-* Stanford
-* Carnegie Mellon University (CMU)
-* Unive
-rsity of California, Berkeley (UCB)
-* Oxford
-* ETH Zurich
-* University of Illinois at Urbana-Champaign (UIUC)
-* Universi
-ty of Toronto (UofT)
-* University of Texas at Austin (UT Austin)
-* University of California, Los Angeles (UCLA)
-* Georgi
-a Institute of Technology (Georgia Tech)
-* Cornell
-* Princeton
-* University of Michigan (UMich)
-* Harvard
-* Columbia
-* É
-cole Polytechnique Fédérale de Lausanne (EPFL)
-* University of Southern California (USC)
-* University of California, San
- Diego (UCSD)
-* University of Pennsylvania (UPenn)
-
-I know most of these are dream/target schools. Should I consider rep
-lacing some of these with more safety schools? I'd like to end up with about 15 Universities in my final application lis
-t.
-
-Also, I have good research experience but no industry internship experience yet. Do you know if this is a deal break
-er?
-
-I have approximately 6-7 months left, so I would highly appreciate any other suggestions from the community on red 
-flags or improvements to my profile.
-
-Thanks!
 ```
 ---
 
