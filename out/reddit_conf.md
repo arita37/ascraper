@@ -1,5 +1,5 @@
  
-all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-07-0912
+all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-08-0911
 ```
 Klar - es gab noch mehr Papers - aber ich glaube, dass ich die wirklich wesentlichen erfasst habe. Viel Spaß beim stöber
 n und ein schönes Wochenende!
@@ -301,7 +301,7 @@ s://kinews24.de/xlstm/](https://kinews24.de/xlstm/)
 
      
  
-all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-07-0912
+all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-08-0911
 ```
 # Introduction
 
@@ -403,7 +403,7 @@ ebp&s=93bcdac6f05960dff4910d26b3bcc35d3882eba8)
 
      
  
-all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-07-0912
+all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-08-0911
 ```
 I already posted once on here (on a different account) and had questions about awards because that's what I feel I lack.
 
@@ -507,7 +507,7 @@ I am very confused about what I should be doing for awards. Given that I do not 
 
      
  
-all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-07-0912
+all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-08-0911
 ```
 Hey all!
 So originally I was accepted into Algoverse for the Neurips track and was browsing on reddit to see if it was a
@@ -553,7 +553,7 @@ ice, I would recommend.
 
      
  
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/neuralnetworks/comments/1dqgeuz/deep_learning_paper_summaries/) , 2024-07-07-0912
+all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/neuralnetworks/comments/1dqgeuz/deep_learning_paper_summaries/) , 2024-07-08-0911
 ```
 The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
 gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
@@ -585,7 +585,7 @@ m/vlgiitr/papers_we_read) will be constantly updated with summaries of more pap
 
      
  
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/DeepLearningPapers/comments/1dqfuky/deep_learning_paper_summaries/) , 2024-07-07-0912
+all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/DeepLearningPapers/comments/1dqfuky/deep_learning_paper_summaries/) , 2024-07-08-0911
 ```
 The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
 gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
@@ -618,7 +618,7 @@ om/vlgiitr/papers_we_read) will be constantly updated with summaries of more pap
 
      
  
-all -  [ [D] Is anyone else absolutely besieged by papers and always on the verge of getting scooped? ](https://www.reddit.com/r/MachineLearning/comments/1dqbgw4/d_is_anyone_else_absolutely_besieged_by_papers/) , 2024-07-07-0912
+all -  [ [D] Is anyone else absolutely besieged by papers and always on the verge of getting scooped? ](https://www.reddit.com/r/MachineLearning/comments/1dqbgw4/d_is_anyone_else_absolutely_besieged_by_papers/) , 2024-07-08-0911
 ```
 I'm a 1st year PhD student working on a hot area in ML (3 guesses as to what lol) and the past year has been absolutely 
 brutal for me on a personal level. Every single weekday, I check the daily arxiv digest that hits my inbox, and there ar
@@ -643,7 +643,7 @@ th the stress of fast publication cycles, or for generally struggling through th
 
      
  
-all -  [ is this the end of my career? ](https://www.reddit.com/r/postdoc/comments/1dpjwig/is_this_the_end_of_my_career/) , 2024-07-07-0912
+all -  [ is this the end of my career? ](https://www.reddit.com/r/postdoc/comments/1dpjwig/is_this_the_end_of_my_career/) , 2024-07-08-0911
 ```
 so i have a phd in chem and a research focus in comp bio (drug discovery and such). I am up-to-date with ML literture in
  my field and have even applied some of the ML methods in my project. But I havent developed a foundation model or publi
@@ -670,7 +670,7 @@ Sorry for my rant. Any advice helps thanks.
 
      
  
-all -  [ [D] Difference between ICLR and AISTATS ](https://www.reddit.com/r/MachineLearning/comments/1do796a/d_difference_between_iclr_and_aistats/) , 2024-07-07-0912
+all -  [ [D] Difference between ICLR and AISTATS ](https://www.reddit.com/r/MachineLearning/comments/1do796a/d_difference_between_iclr_and_aistats/) , 2024-07-08-0911
 ```
 There is a somewhat [duplicated question](https://www.reddit.com/r/MachineLearning/comments/olmq3m/d_difference_between_
 aaai_iclr_and_aistats/) here, but I would like to bring this topic up again, since the September/October deadline is app
@@ -702,7 +702,7 @@ e work itself is more important than the publication venue', which is obviously 
 
      
  
-all -  [ Google's open-weight XTR (conteXtualized Token Retriever) models for document retrieval (Apache 2.0  ](https://www.reddit.com/r/LocalLLaMA/comments/1dm336p/googles_openweight_xtr_contextualized_token/) , 2024-07-07-0912
+all -  [ Google's open-weight XTR (conteXtualized Token Retriever) models for document retrieval (Apache 2.0  ](https://www.reddit.com/r/LocalLLaMA/comments/1dm336p/googles_openweight_xtr_contextualized_token/) , 2024-07-08-0911
 ```
 I just noticed two models on Google's HuggingFace that we haven't discussed earlier on this subreddit. It's the XTR (con
 teXtualized Token Retriever) models from Google DeepMind. They state:
@@ -746,7 +746,7 @@ ge compared to ColBERT.
 
      
  
-all -  [ Employers' view on CS PhD in computational biology vs pure ML? ](https://www.reddit.com/r/cscareerquestions/comments/1dkgau4/employers_view_on_cs_phd_in_computational_biology/) , 2024-07-07-0912
+all -  [ Employers' view on CS PhD in computational biology vs pure ML? ](https://www.reddit.com/r/cscareerquestions/comments/1dkgau4/employers_view_on_cs_phd_in_computational_biology/) , 2024-07-08-0911
 ```
 I am a little worried about how future employers (e.g. FAANG) might view a CS PhD in computational biology. They might v
 iew me to be a 'better fit' for big pharma/biotech post-graduation.
@@ -777,7 +777,7 @@ tead if I know I want to go to into tech?
 
      
  
-all -  [ What does it take to get a paper accepted in good venues like ACL, EMNLP, neurIPS  in main Conferenc ](https://www.reddit.com/r/learnmachinelearning/comments/1djvh1q/what_does_it_take_to_get_a_paper_accepted_in_good/) , 2024-07-07-0912
+all -  [ What does it take to get a paper accepted in good venues like ACL, EMNLP, neurIPS  in main Conferenc ](https://www.reddit.com/r/learnmachinelearning/comments/1djvh1q/what_does_it_take_to_get_a_paper_accepted_in_good/) , 2024-07-08-0911
 ```
 This is my first year as a PhD student and I am currently attending the Naacl conference in Mexico with a poster attache
 d to a workshop and I definitely want my next papers to pass in for conferences in such venues. But I am still confused 
@@ -790,7 +790,7 @@ Well, any comments and suggestions will be helpful
 
      
  
-all -  [ How To Become AI Engineer In 2024 ](https://www.reddit.com/r/u_seowithumang/comments/1djoya3/how_to_become_ai_engineer_in_2024/) , 2024-07-07-0912
+all -  [ How To Become AI Engineer In 2024 ](https://www.reddit.com/r/u_seowithumang/comments/1djoya3/how_to_become_ai_engineer_in_2024/) , 2024-07-08-0911
 ```
 Becoming an AI engineer in 2024 involves a combination of education, practical experience, and staying current with the 
 latest advancements in the field. Here’s a comprehensive guide to help you on your journey:
@@ -880,7 +880,7 @@ ess analysts.
 
      
  
-all -  [ What does it take to get a paper accepted in ACL, EMNLP or NeurIps? ](https://www.reddit.com/r/airesearch/comments/1djkugt/what_does_it_take_to_get_a_paper_accepted_in_acl/) , 2024-07-07-0912
+all -  [ What does it take to get a paper accepted in ACL, EMNLP or NeurIps? ](https://www.reddit.com/r/airesearch/comments/1djkugt/what_does_it_take_to_get_a_paper_accepted_in_acl/) , 2024-07-08-0911
 ```
 Well, this will be my third paper and it is published in NAACL as a poster, not yet get into the main conference. For th
 ose who got into main conferences of those well known venues what are the main things that put you there? Sorry this is 
@@ -891,7 +891,7 @@ my first year PhD so I am kind of noob at this.
 
      
  
-all -  [ Seeking advice for changing research area and reapplying to a different PhD program ](https://www.reddit.com/r/gradadmissions/comments/1djbdne/seeking_advice_for_changing_research_area_and/) , 2024-07-07-0912
+all -  [ Seeking advice for changing research area and reapplying to a different PhD program ](https://www.reddit.com/r/gradadmissions/comments/1djbdne/seeking_advice_for_changing_research_area_and/) , 2024-07-08-0911
 ```
 Hi everyone! Thank you so much for taking the time to read my post. This is going to be long but I didn't know how to ma
 ke it any shorter so here it goes.
@@ -954,7 +954,7 @@ https://preview.redd.it/ueao9fwvqg7d1.jpg?width=2550&format=pjpg&auto=webp&s=aed
 
      
  
-all -  [ [Vote] Paper nomination for upcoming week ](https://www.reddit.com/r/CVPaper/comments/1dhxjau/vote_paper_nomination_for_upcoming_week/) , 2024-07-07-0912
+all -  [ [Vote] Paper nomination for upcoming week ](https://www.reddit.com/r/CVPaper/comments/1dhxjau/vote_paper_nomination_for_upcoming_week/) , 2024-07-08-0911
 ```
 Hello everyone!
 
@@ -988,7 +988,7 @@ appy voting!
 
      
  
-all -  [ Does Research But Applying Comp Sci. Am I cooked? ](https://www.reddit.com/r/chanceme/comments/1dhf1sa/does_research_but_applying_comp_sci_am_i_cooked/) , 2024-07-07-0912
+all -  [ Does Research But Applying Comp Sci. Am I cooked? ](https://www.reddit.com/r/chanceme/comments/1dhf1sa/does_research_but_applying_comp_sci_am_i_cooked/) , 2024-07-08-0911
 ```
 **Demographics:** Male, White, CA, Semi-Competitive School, hooks (legacy to penn/berkeley dont think it matters)
 
@@ -1084,7 +1084,7 @@ Safety:
 
      
  
-all -  [ [D] Is OOD generalization still a future in the LLM era? ](https://www.reddit.com/r/MachineLearning/comments/1dh1eox/d_is_ood_generalization_still_a_future_in_the_llm/) , 2024-07-07-0912
+all -  [ [D] Is OOD generalization still a future in the LLM era? ](https://www.reddit.com/r/MachineLearning/comments/1dh1eox/d_is_ood_generalization_still_a_future_in_the_llm/) , 2024-07-08-0911
 ```
 I think OOD generalization is an important issue because it pulls in the distance from reality. But I am concerned that 
 recent conferences like ICLR, ICML, NeurIPS etc. don't have many people working on this problem. And check out some OOD 
@@ -1095,7 +1095,7 @@ f some difficulties in this field that people stopped studying it. Or is it beca
 
      
  
-all -  [ [D] is it inadvisable to improve the internal workings of a model at review time? ](https://www.reddit.com/r/MachineLearning/comments/1ddjyx0/d_is_it_inadvisable_to_improve_the_internal/) , 2024-07-07-0912
+all -  [ [D] is it inadvisable to improve the internal workings of a model at review time? ](https://www.reddit.com/r/MachineLearning/comments/1ddjyx0/d_is_it_inadvisable_to_improve_the_internal/) , 2024-07-08-0911
 ```
 I submitted a paper to NeurIPS with a model using mamba blocks. However, even before submitting the manuscript to openre
 view, I had in mind some tweaks or ideas that I could try to improve the results. Now, after the recent release of mamba
@@ -1117,7 +1117,7 @@ What would you do in that situation?
 
      
  
-all -  [ Loss ou Gain ](https://i.redd.it/ufqv3vck3z5d1.jpeg) , 2024-07-07-0912
+all -  [ Loss ou Gain ](https://i.redd.it/ufqv3vck3z5d1.jpeg) , 2024-07-08-0911
 ```
 E aí galera?
 ```
@@ -1125,7 +1125,7 @@ E aí galera?
 
      
  
-all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1dcjs8b/vote_paper_nomination_for_our_next_read/) , 2024-07-07-0912
+all -  [ [Vote] Paper nomination for our next read ](https://www.reddit.com/r/CVPaper/comments/1dcjs8b/vote_paper_nomination_for_our_next_read/) , 2024-07-08-0911
 ```
 Hello everyone!
 
@@ -1159,7 +1159,7 @@ Happy voting!
 
      
  
-all -  [ chance an asian male in cs legacy applicant ](https://www.reddit.com/r/chanceme/comments/1dancfv/chance_an_asian_male_in_cs_legacy_applicant/) , 2024-07-07-0912
+all -  [ chance an asian male in cs legacy applicant ](https://www.reddit.com/r/chanceme/comments/1dancfv/chance_an_asian_male_in_cs_legacy_applicant/) , 2024-07-08-0911
 ```
 **Demographics:** Asian, Male, Competitive High School in MD, Upper Middle Class, Rising Senior
 
@@ -1337,7 +1337,7 @@ My comments arent
 
      
  
-all -  [ Chances of admission into PhD Computer Science ](https://www.reddit.com/r/gradadmissions/comments/1da1zhy/chances_of_admission_into_phd_computer_science/) , 2024-07-07-0912
+all -  [ Chances of admission into PhD Computer Science ](https://www.reddit.com/r/gradadmissions/comments/1da1zhy/chances_of_admission_into_phd_computer_science/) , 2024-07-08-0911
 ```
 I graduated from U of T with a 3.25 GPA. My undergrad was in Computer Science and Mathematics. My 3rd and 4th year progr
 am course GPA average was 3.49 (so pretty much only Math and CS courses, no electives)
@@ -1362,67 +1362,6 @@ ng compiler optimizations. Can anyone evaluate my chances of getting into a PhD 
 
 Also top schools lik
 e Stanford or MIT?
-```
----
-
-     
- 
-all -  [ [R] Are you a reviewer for NeurIPS'24? Please read this ](https://www.reddit.com/r/MachineLearning/comments/1d9o8tn/r_are_you_a_reviewer_for_neurips24_please_read/) , 2024-07-07-0912
-```
-Hello!
-
-I am currently serving as an area chair (AC) for [NeurIPS'24](https://neurips.cc/). The number of submissions is
- extremely high, and assigning qualified reviewers to these papers is tough.
-
-**Why is it tough**, you may ask. At a hig
-h-level, it's because we, as AC, have not enough information to gauge whether a paper is assigned to _a sufficient numbe
-r_ (at least 3) of _qualified reviewers_ (i.e., individuals who can deliver an informative assessment of the paper). Ind
-eed, as AC, we can only use the following criteria to decide whether to assign a reviewer to any given paper: (i) their 
-bids; (ii) the 'affinity' score; (iii) their personal OpenReview profile. However
-
-* Only a fraction of those who signed
- up as reviewers have bid on the papers. To give an idea, among the papers in my stack, 30% had no reviewer who bid on t
-hem; actually, most of the papers had only 3-4 bids (not necessarily 'positive'). 
-* When no bids are entered, the next 
-indicator is the 'affinity' score. However, this metric is computed in an automatic way and works poorly (besides, one m
-ay be an expert of a domain but they may be unwilling to review a certain paper, e.g., due to personal bias).
-* The last
- indicator we can use is the 'background' of the reviewer, but this requires us (i.e., the ACs) to manually check the Op
-enReview profile of each reviewer---which is time consuming. To make things worse, for this year's NeurIPS there is a (r
-elatively) high number of reviewers who are undergrads or MS students, and whose OpenReview's profile is _completely emp
-ty_.
-
-Due to the above, I am writing this post to _ask for your cooperation_. If you're a reviewer for NeurIPS, **please
- ensure that your OpenReview profile is up to date**. If you are an undergrad/MS student, please include a link to a web
-page that can show if you have any expertise in reviewing, or if you work in a lab with some 'expert researchers' (who c
-an potentially help you by giving tips on how to review). The same also applies for PhD students or PostDocs: ensure tha
-t the information available on OpenReview reflects your expertise and preferences.
-
-Bottom line: you have accepted to se
-rve as a reviewer of (arguably the top) a premier ML conference. **Please, take this duty seriously.** If you are assign
-ed to the right papers, you will be able to provide more helpful reviews and the reviewing process will also be smoother
-. Helpful reviews are useful to the authors and to the ACs. By doing a good job, you may even be awarded with 'top revie
-wer' acknowledgements.
-```
----
-
-     
- 
-all -  [ [D] ICML Participation Grant Decisions ](https://www.reddit.com/r/MachineLearning/comments/1d9h8z3/d_icml_participation_grant_decisions/) , 2024-07-07-0912
-```
-Hey all,
-
-The ICML travel grant decisions were out earlier today. I am creating this thread in an effort to understand t
-heir criteria in the selection process. Are there people/ students who were actually selected? It was really disappointi
-ng to see that I was not awarded not even the registration fee waiver that was the default in other conferences (neurips
-/ iclr) I was presenting in the past.
-
-Sharing your thoughts and experience would be invaluable.
-
-Thanks all!
-
-please up
-vote to help circulate the post and get more transparency (at least here) in the process.
 ```
 ---
 
