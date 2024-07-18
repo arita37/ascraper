@@ -1,5 +1,673 @@
  
-all -  [ Practical Applications of Pythia in LLM Contexts: Chatbots, RAG Systems, and Summarization ](https://www.reddit.com/r/pythia/comments/1e52lyy/practical_applications_of_pythia_in_llm_contexts/) , 2024-07-17-0911
+all -  [ I spent a few days aggregating LLM performance metrics, token cost, and context size with all source ](https://thepi.pe/evals) , 2024-07-18-0911
+```
+
+```
+---
+
+     
+ 
+all -  [ langchain, instructor, or something else for my use case? ](https://www.reddit.com/r/LangChain/comments/1e5wf7u/langchain_instructor_or_something_else_for_my_use/) , 2024-07-18-0911
+```
+I am currently building a streamlit app from 'scratch' without any llm libraries, just using api calls to openrouter and
+ pinecone, along with some custom classes to handle the app's state management, conversation history, context truncation
+ etc.
+
+The basic idea of the app is to chat with an LLM to develop a marketing targeting campaign. 
+
+It starts with an a
+pi call to perplexity to research a company and receive back a target audience description. This is passed to a multi-tu
+rn chain of thought refining and eventually outputting valid json that includes targeted and excluded 'hypothetical data
+ segments' for a marketing campaign. These are hypothetical descriptions of data segments that might be available on an 
+advertising data marketplace like 'coffee enthusiasts' or 'parents with children under 18' etc.
+
+Once the initial audien
+ce plan is generated, there is an opportunity for a user to 'chat' with the plan. It is similar to the claude artifact s
+ystem where your comments lead to changes in a 'document'. In this case the document is stored as json, and it updates a
+ user interface with the set of included and excluded segments displayed as clickable boxes. There also a few buttons wh
+ich basically construct predefined prompts that can be sent to the llm, asking it to change the document in particular w
+ays.  
+  
+Once the hypothetical plan is developed, there is an api call to pinecone where I have a vector store of \~500
+k actual audience segments so that each hypothetical segment returns an actual segment with a reranking function to pick
+ the best one.
+
+The part that is getting difficult to manage in this 'from scratch' way is the user feedback on the json
+ audience plan. Often it works great, but there are certain moments where the LLM returns JSON in a format not expected 
+by the UI-renderer. I am presently patching all these as they come up via both prompt engineering and output parsing stu
+ff, but it feels a bit hard to maintain, especially if we want to add features. If anyone has made it this far into the 
+post I would love to hear advice on how to make this app more maintainable... a few possibilities I might pursue are the
+ following:  
+1. Any time the expected json is not met, manually send the llm a message indicating the needed format, al
+ong with conversation history, and then parse its response for the correct json. The needed format could be stored as pa
+rt of the app's state so it can be returned easily to the llm at any time.  
+2. Implement instructor to more easily mana
+ge the data validation and retries  
+3. rebuild using langchain  
+4. any other ideas?
+
+  
+Thanks so much for reading.
+```
+---
+
+     
+ 
+all -  [ 100% in browser LLM using langchain and WebLLM ](https://www.reddit.com/r/LangChain/comments/1e5sp47/100_in_browser_llm_using_langchain_and_webllm/) , 2024-07-18-0911
+```
+https://youtu.be/MHuvSuK2dnY?si=qtHWZlmNom7E-RtS
+```
+---
+
+     
+ 
+all -  [ How do you structure the conversation? ](https://www.reddit.com/r/LangChain/comments/1e5s323/how_do_you_structure_the_conversation/) , 2024-07-18-0911
+```
+What additional supporting frameworks do you use in order to structure the conversation ? Is the only alternative Langra
+ph ?
+```
+---
+
+     
+ 
+all -  [ Question about langchain api calls ](https://www.reddit.com/r/LangChain/comments/1e5ricy/question_about_langchain_api_calls/) , 2024-07-18-0911
+```
+I am using langchain chain class for summarization. When I invoke() the chain for summarization, where do the computatio
+ns occur? In my deployment compute or where the LLM I am using is hosted? Pretty confused about it since I need to alloc
+ate enough memory for doing some summarization task and I’m unsure of it. I know invoke() is I/O bound but that being sa
+id does the  resource allocation for my API deployment that calls langchain chain() matter? 
+```
+---
+
+     
+ 
+all -  [ Optimal RAG for text-2-sql ](https://www.reddit.com/r/LangChain/comments/1e5pe1a/optimal_rag_for_text2sql/) , 2024-07-18-0911
+```
+I'm building a simple text-2-sql application leveraging Llama-3-7B model on bedrock. My db is on postgresql . The schema
+ is fairly complex with 25 tables with an average of 10 columns per table. The tables have primary key, foreign key and 
+unique key setup. 
+
+At the moment, I have exported the schema for each table as a document and have pushed it into vecto
+r db as a collection. Similarly, I've summarised each table's schema with added context and pushed the same into vector 
+db as another collection too. The vectorDB I am using is ChromaDB. the n\_results I've set is 4 and the similarity searc
+h algo is cosine similarity. 
+
+My Prompt instructs the model to consider the tables and the summarises along with a few 
+sanitisation techniques and then generate a sql query. 
+
+The challenge and the difficulty I am facing is that when I typ
+e in a query that is simple user english, the RAG fetches 4 most common tables. And sometime it often assume Join with k
+eys/column name that are diverse and do not match. And sometimes, it just hallucinaties. 
+
+To keep my context window in 
+check, I simply can't feed the 8-10 relevant schemas from the vectorDB. Is there a way I can mitigate the challenges and
+ modify my RAG to suit my usecase. 
+
+Thanks in advance
+
+
+```
+---
+
+     
+ 
+all -  [ Solving the out-of-context chunk problem for RAG ](https://www.reddit.com/r/LangChain/comments/1e5le9h/solving_the_outofcontext_chunk_problem_for_rag/) , 2024-07-18-0911
+```
+Many of the problems developers face with RAG come down to this: Individual chunks don’t contain sufficient context to b
+e properly used by the retrieval system or the LLM. This leads to the inability to answer seemingly simple questions and
+, more worryingly, hallucinations.
+
+Examples of this problem
+
+* Chunks oftentimes refer to their subject via implicit re
+ferences and pronouns. This causes them to not be retrieved when they should be, or to not be properly understood by the
+ LLM.
+* Individual chunks oftentimes don’t contain the complete answer to a question. The answer may be scattered across
+ a few adjacent chunks.
+* Adjacent chunks presented to the LLM out of order cause confusion and can lead to hallucinatio
+ns.
+* Naive chunking can lead to text being split “mid-thought” leaving neither chunk with useful context.
+* Individual 
+chunks oftentimes only make sense in the context of the entire section or document, and can be misleading when read on t
+heir own.
+
+# What would a solution look like?
+
+We’ve found that there are two methods that together solve the bulk of th
+ese problems.
+
+**Contextual chunk headers**
+
+The idea here is to add in higher-level context to the chunk by prepending 
+a chunk header. This chunk header could be as simple as just the document title, or it could use a combination of docume
+nt title, a concise document summary, and the full hierarchy of section and sub-section titles.
+
+**Chunks -> segments**
+
+
+Large chunks provide better context to the LLM than small chunks, but they also make it harder to precisely retrieve sp
+ecific pieces of information. Some queries (like simple factoid questions) are best handled by small chunks, while other
+ queries (like higher-level questions) require very large chunks. What we really need is a more dynamic system that can 
+retrieve short chunks when that's all that's needed, but can also retrieve very large chunks when required. How do we do
+ that?
+
+# Break the document into sections
+
+Information about the section a chunk comes from can provide important conte
+xt, so our first step will be to break the document into semantically cohesive sections. There are many ways to do this,
+ but we’ll use a semantic sectioning approach. This works by annotating the document with line numbers and then promptin
+g an LLM to identify the starting and ending lines for each “semantically cohesive section.” These sections should be an
+ywhere from a few paragraphs to a few pages long. These sections will then get broken into smaller chunks if needed.
+
+We
+’ll use Nike’s 2023 10-K to illustrate this. Here are the first 10 sections we identified:
+
+https://preview.redd.it/8ux5
+h0drl3dd1.png?width=1260&format=png&auto=webp&s=be590f246f7e06d387e1f0a6952b19b0222c209d
+
+# Add contextual chunk headers
+
+
+https://preview.redd.it/ow83jnzsl3dd1.png?width=1200&format=png&auto=webp&s=f59e39f143ee8510559ec105fdd0f585ac395786
+
+
+The purpose of the chunk header is to add context to the chunk text. Rather than using the chunk text by itself when emb
+edding and reranking the chunk, we use the concatenation of the chunk header and the chunk text, as shown in the image a
+bove. This helps the ranking models (embeddings and rerankers) retrieve the correct chunks, even when the chunk text its
+elf has implicit references and pronouns that make it unclear what it’s about. For this example, we just use the documen
+t title and the section title as context. But there are many ways to do this. We’ve also seen great results with using a
+ concise document summary as the chunk header, for example.
+
+Let’s see how much of an impact the chunk header has for th
+e chunk shown above.
+
+https://preview.redd.it/y1xux1ful3dd1.png?width=1352&format=png&auto=webp&s=27397c923761da40c91fee
+4e9406d3a40ba15219
+
+# Chunks -> segments
+
+Now let’s run a query and visualize chunk relevance across the entire document
+. We’ll use the query “Nike stock-based compensation expenses.”
+
+https://preview.redd.it/6df9gflwl3dd1.png?width=1001&fo
+rmat=png&auto=webp&s=1e3a2e9c8fc360d98e2fbb3a6934f8320b89317e
+
+In the plot above, the x-axis represents the chunk index.
+ The first chunk in the document has index 0, the next chunk has index 1, etc. There are 483 chunks in total for this do
+cument. The y-axis represents the relevance of each chunk to the query. Viewing it this way lets us see how relevant chu
+nks tend to be clustered in one or more sections of a document. For this query we can see that there’s a cluster of rele
+vant chunks around index 400, which likely indicates there’s a multi-page section of the document that covers the topic 
+we’re interested in. Not all queries will have clusters of relevant chunks like this. Queries for specific pieces of inf
+ormation where the answer is likely to be contained in a single chunk may just have one or two isolated chunks that are 
+relevant.
+
+**What can we do with these clusters of relevant chunks?**
+
+The core idea is that clusters of relevant chunks
+, in their original contiguous form, provide much better context to the LLM than individual chunks can. Now for the hard
+ part: how do we actually identify these clusters?
+
+If we can calculate chunk values in such a way that the value of a s
+egment is just the sum of the values of its constituent chunks, then finding the optimal segment is a version of the max
+imum subarray problem, for which a solution can be found relatively easily. How do we define chunk values in such a way?
+ We'll start with the idea that highly relevant chunks are good, and irrelevant chunks are bad. We already have a good m
+easure of chunk relevance (shown in the plot above), on a scale of 0-1, so all we need to do is subtract a constant thre
+shold value from it. This will turn the chunk value of irrelevant chunks to a negative number, while keeping the values 
+of relevant chunks positive. We call this the `irrelevant_chunk_penalty`. A value around 0.2 seems to work well empirica
+lly. Lower values will bias the results towards longer segments, and higher values will bias them towards shorter segmen
+ts.
+
+For this query, the algorithm identifies chunks 397-410 as the most relevant segment of text from the document. It 
+also identifies chunk 362 as sufficiently relevant to include in the results. Here is what the first segment looks like:
+
+
+https://preview.redd.it/2irxe9nyl3dd1.png?width=2684&format=png&auto=webp&s=395a06fdad66e57fab10fd67c8c44786c663d4ad
+
+
+This looks like a great result. Let’s zoom in on the chunk relevance plot for this segment.
+
+https://preview.redd.it/2fg
+uxao0m3dd1.png?width=1001&format=png&auto=webp&s=a5a25959a000b7013869a17215c1b762f5a42f7e
+
+Looking at the content of eac
+h of these chunks, it's clear that chunks 397-401 are highly relevant, as expected. But looking closely at chunks 402-40
+4 (this is the section about stock options), we can see they're actually also relevant, despite being marked as irreleva
+nt by our ranking model. This is a common theme: chunks that are marked as not relevant, but are sandwiched between high
+ly relevant chunks, are oftentimes quite relevant. In this case, the chunks were about stock option valuation, so while 
+they weren't explicitly discussing stock-based compensation expenses (which is what we were searching for), in the conte
+xt of the surrounding chunks it's clear that they are actually relevant. So in addition to providing more complete conte
+xt to the LLM, this method of dynamically constructing segments of relevant text also makes our retrieval system less se
+nsitive to mistakes made by the ranking model.
+
+# Try it for yourself
+
+If you want to give these methods a try, we’ve op
+en-sourced a retrieval engine that implements these methods, called [dsRAG](https://github.com/D-Star-AI/dsRAG). You can
+ also play around with the [iPython notebook](https://github.com/D-Star-AI/dsRAG/blob/main/examples/dsRAG_motivation.ipy
+nb) we used to run these examples and generate the plots. And if you want to use this with LangChain, we have a [LangCha
+in custom retriever](https://github.com/D-Star-AI/dsRAG/blob/main/integrations/langchain_retriever.py) implementation as
+ well.
+```
+---
+
+     
+ 
+all -  [ Evaluate RAG pipelines ](https://www.reddit.com/r/LangChain/comments/1e5jw84/evaluate_rag_pipelines/) , 2024-07-18-0911
+```
+New tool for evaluating RAG pipelines with local models
+
+I've released a RagRelevanceEvaluator that works with open-sour
+ce models. Key features:
+
+- Test chunk sizes and top K retrieval settings
+- Get relevance scores for retrieved passages
+
+- No external API needed - uses fine tuned local models
+- Integrates with LangChain or other orchestrators
+
+Great for op
+timizing RAG performance locally. Helps tune parameters and compare configurations objectively.
+
+Runs completely locally
+ for quick iteration without API costs or privacy concerns.
+
+GitHub: https://github.com/grounded-ai/grounded_ai
+HuggingF
+ace: https://huggingface.co/grounded-ai
+```
+---
+
+     
+ 
+all -  [ The Prompt Report: A Systematic Survey of Prompting Techniques ](https://www.reddit.com/r/LangChain/comments/1e5fyq9/the_prompt_report_a_systematic_survey_of/) , 2024-07-18-0911
+```
+'The Prompt Report: A Systematic Survey of Prompting Techniques' offers a detailed review of prompting techniques in AI.
+ It introduces a taxonomy of 33 terms, 58 textual and 40 multimodal techniques. The study covers terminology, safety, ev
+aluation, and practical applications across various languages and modalities. It also discusses the evolution and challe
+nges of prompting in AI, emphasizing its importance in the development of generative models. The report aims to standard
+ize prompting practices and address existing gaps in the literature.
+```
+---
+
+     
+ 
+all -  [ Need Help with Llama3 and Ollama RAG. ](https://www.reddit.com/r/ollama/comments/1e5eyfy/need_help_with_llama3_and_ollama_rag/) , 2024-07-18-0911
+```
+I'm a very newbie to RAG applications and I'm trying to create a Retrieval-Augmented Generation (RAG) system using Llama
+3 and Ollama. I followed some tutorials on youtube, but for some reason every time I run the code, the embeddings get cr
+eated(as shown in the progress bar), and nothing happens. Nothing after is getting executed. 
+
+Here's my code.
+
+
+
+    fr
+om langchain_community.document_loaders import TextLoader
+    from langchain_text_splitters import RecursiveCharacterTex
+tSplitter
+    from langchain.schema.document import Document
+    from langchain_community.embeddings import OllamaEmbedd
+ings
+    from langchain_community.vectorstores import Chroma
+    from langchain_community.chat_models import ChatOllama
+
+    from langchain.prompts import ChatPromptTemplate
+    from langchain.schema.runnable import RunnablePassthrough
+    f
+rom langchain.schema.output_parser import StrOutputParser
+    import ollama
+    
+    # Load data
+    loader = TextLoader
+('Framer-motion.txt')
+    data = loader.load()
+    
+    # Split data
+    text_splitter = RecursiveCharacterTextSplitter(
+chunk_size=7500, chunk_overlap=100)
+    splits = text_splitter.split_documents(data)
+    
+    # Generate embeddings
+    
+print('Generating embeddings...')
+    embeddings = OllamaEmbeddings(model='llama3', show_progress=True)
+    vectorStore 
+= Chroma.from_documents(documents=splits, embedding=embeddings)
+    
+    # Define the LLM function
+    def Ollama_llm(qu
+estion, context):
+        formatted_prompt = f'Question: {question}\n\nContext: {context}'
+        try:
+            resp
+onse = ollama.chat(model='llama3', messages=[{'role':'user', 'content':formatted_prompt}])
+            return response['
+message']['content']
+        except Exception as e:
+            print(f'Error in Ollama_llm: {e}')
+            return No
+ne
+    
+    # Define the retriever
+    retriever = vectorStore.as_retriever()
+    
+    # Combine retrieved documents
+   
+ def combine_docs(docs):
+        return '\n\n'.join(doc.page_content for doc in docs)
+    
+    # Define the RAG chain fu
+nction
+    def rag_chain(question):
+        print('Retrieving documents...')
+        try:
+            retrieved_docs = r
+etriever.invoke(question)
+            print(f'Retrieved {len(retrieved_docs)} documents.')
+            formatted_context
+ = combine_docs(retrieved_docs)
+            return Ollama_llm(question, formatted_context)
+        except Exception as e
+:
+            print(f'Error in rag_chain: {e}')
+            return None
+    
+    print('Embeddings done')
+    result = r
+ag_chain('What is the text about?')
+    
+    if result:
+        print(result)
+    else:
+        print('No result returne
+d.')
+    
+    
+    
+
+https://preview.redd.it/43pfa7wq42dd1.png?width=1113&format=png&auto=webp&s=ce75a3d664e37ed012ef59d
+d1da5c2e68c6d3443
+
+  
+Can anybody please tell me where/what I'm doing wrong? 
+
+  
+Thank you.
+
+  
+
+```
+---
+
+     
+ 
+all -  [ Problematic integration of a session's ChatMessageHistory in PDF RAG app  ](https://www.reddit.com/r/LangChain/comments/1e5ey22/problematic_integration_of_a_sessions/) , 2024-07-18-0911
+```
+Hi , I'm new to AI and currently developing a PDF RAG app . I've attached a code snippet below .
+
+    # Initialize store
+ if not in session state
+    if 'store' not in st.session_state:
+        st.session_state.store = {}
+    
+    ### Statef
+ully manage chat history ###
+    store = {}
+    
+    def get_session_history(session_id: str) -> BaseChatMessageHistory:
+
+        if session_id not in st.session_state.store:
+            st.session_state.store[session_id] = ChatMessageHistor
+y()
+        return st.session_state.store[session_id]
+    
+    
+    # generate response 
+    def generate_response(promp
+t: str) :
+        contextualize_q_system_prompt = (
+            'Given a chat history and the latest user question '
+   
+         'which might reference context in the chat history, '
+            'formulate a standalone question which can be
+ understood '
+            'without the chat history. Do NOT answer the question, '
+            'just reformulate it if n
+eeded and otherwise return it as is.'
+        )
+        
+        contextualize_q_prompt = ChatPromptTemplate.from_messag
+es(
+            [
+                ('system', contextualize_q_system_prompt),
+                MessagesPlaceholder('chat_h
+istory'),
+                ('human', '{input}'),
+            ]
+        )
+    
+        compression_retriever = reRanker()
+
+    
+        history_aware_retriever = create_history_aware_retriever(
+            llm, compression_retriever, contextua
+lize_q_prompt
+        )
+    
+        system_prompt = (
+            'You are an assistant for question-answering tasks. '
+
+            'Use the following pieces of retrieved context to answer '
+            'the question. If you don't know the
+ answer, say that you '
+            'don't know.'
+            '\n\n'
+            '{context}'
+        )
+    
+        chat
+Prompt = ChatPromptTemplate.from_messages(
+            [
+                ('system', system_prompt),
+                Mess
+agesPlaceholder('chat_history'),
+                ('human', '{input}'),
+            ]
+        )
+        
+        question
+_answer_chain = create_stuff_documents_chain(llm, chatPrompt)
+    
+        rag_chain = create_retrieval_chain(history_aw
+are_retriever, question_answer_chain)
+    
+        conversational_rag_chain = RunnableWithMessageHistory(
+            ra
+g_chain,
+            get_session_history,
+            input_messages_key='input',
+            output_messages_key='answe
+r',
+            history_messages_key='chat_history',
+        )
+        
+        for chunk in conversational_rag_chain.st
+ream(input={'input': prompt},config={'configurable': {'session_id': 'uniqueValue1234'}}):
+            answer_chunk = chu
+nk.get('answer')
+            if answer_chunk:
+                yield answer_chunk
+    
+    
+    # Render chat history
+   
+ session_id = 'uniqueValue1234'  # Define your session ID
+    
+    if 'chat_history' not in st.session_state:
+        st
+.session_state.chat_history = []
+    
+    # Conversation History
+    for message in st.session_state.chat_history:
+     
+   if isinstance(message,HumanMessage):
+            with st.chat_message('Human'):
+                st.markdown(message.c
+ontent)
+        else:
+            with st.chat_message('AI'):
+                st.markdown(message.content)
+    
+    
+   
+ prompt = st.chat_input('Hey, What's up?')
+    
+    if prompt is not None and prompt !='' :
+        st.session_state.cha
+t_history.append(HumanMessage(prompt))
+        with st.chat_message('Human'):
+            st.markdown(prompt)
+    
+     
+   if len(pc.list_indexes()) == 0:
+            st.error('Please upload some files first!')
+        else:
+            wit
+h st.chat_message('AI'):
+                ai_response = st.write_stream(generate_response(prompt))
+    
+            st.se
+ssion_state.chat_history.append(AIMessage(ai_response))
+    
+
+In this code I have 2 session states 'store' and 'chat\_hi
+story' .  
+  
+The 'store' will have a key 'session\_id' and its value is the Chat History for the session . This contain
+s a list of Human and AI messages .   
+  
+This is maintained on its own , I didn't write code for this , this is maybe a
+ side effect of 'create\_retriever\_chain' , 'create\_stuff\_documents\_chain' and 'create\_history\_aware\_retriever' c
+lasses that I've used . Whenever , I ask a question from LLM , the question along with the response gets stored on its o
+wn .
+
+Now , on the other hand , I manage 'chat\_history' myself . I append user's query to it , then after LLM gives me 
+response , I append it as well .
+
+You can see that I've code for rendering Conversation History ( using chat\_history )
+
+
+    # Conversation History
+    for message in st.session_state.chat_history:
+        if isinstance(message,HumanMessage
+):
+            with st.chat_message('Human'):
+                st.markdown(message.content)
+        else:
+            wit
+h st.chat_message('AI'):
+                st.markdown(message.content)
+
+This looks unnecessary , I think there should be 
+a way to render Conversation History using the 'store' because this store has 'session\_id' and this 'session\_id' value
+ is the chat history for that session .  
+  
+I've tried to build logic to get this but no success so far , can anybody g
+uide me ?
+```
+---
+
+     
+ 
+all -  [ State of the art about LLMs and Databases ](https://www.reddit.com/r/LangChain/comments/1e5dmbf/state_of_the_art_about_llms_and_databases/) , 2024-07-18-0911
+```
+Which is the state-of-the-art in LLMs and Databases?
+
+Which one is better in your experience: 
+
+* text-to-SQL 
+* pandasa
+i 
+* Database to vector database and RAG
+* Another tool
+```
+---
+
+     
+ 
+all -  [ Can I build a chatbot that uses just around 10 small txt files on my web page that uses only Vanilla ](https://www.reddit.com/r/LangChain/comments/1e5cex5/can_i_build_a_chatbot_that_uses_just_around_10/) , 2024-07-18-0911
+```
+Sorry if the question is dumb, but I'm a beginner in this, and all tutorials I can find are using either Node.js or Next
+.js.  
+Thank you!
+```
+---
+
+     
+ 
+all -  [ How to use StructuredTool class from Langchain in Langraph ](https://www.reddit.com/r/LangChain/comments/1e5bgzh/how_to_use_structuredtool_class_from_langchain_in/) , 2024-07-18-0911
+```
+I want to to use Tools (explicitly defined as classes) when adding them as a node in the graph.
+
+Currently we just have 
+tools mentioned as functions and use RunnableLambda like below  
+
+graph\_builder.add\_node(node\_name, RunnableLambda(to
+ol) | (lambda observation : {'observation' : observation} )
+```
+---
+
+     
+ 
+all -  [ How do you choose a model? ](https://www.reddit.com/r/LangChain/comments/1e5b9f7/how_do_you_choose_a_model/) , 2024-07-18-0911
+```
+When you are starting a new project, how do you choose which model you are going to use? 
+
+Even when we look at only tex
+t generation models, there are so many and things change every day. What do you go with? and how do you decide?
+```
+---
+
+     
+ 
+all -  [ Langchain Help ](https://www.reddit.com/r/LangChain/comments/1e5b6ba/langchain_help/) , 2024-07-18-0911
+```
+Sorry for the potentially dumb question and lack of understanding probably.
+
+  
+I want to make an app and be able to fee
+d and LLM csv and json data via RAG, and continue to use the model afterwards without having to re-feed the model older 
+data each time. How can I save my model and reuse it continuously?
+
+If you have any recommended resources for me to use 
+or go through.
+```
+---
+
+     
+ 
+all -  [ Free hosting with 3GB? ](https://www.reddit.com/r/flask/comments/1e5azl0/free_hosting_with_3gb/) , 2024-07-18-0911
+```
+I made a simple RAG app that uses an external LLM API, but the dependencies itself cross 2GB(llamaindex/langchain/huggin
+gface). Is there any free option to host it? Or is there any way I can implement this functionality with more lightweigh
+t libraries?
+```
+---
+
+     
+ 
+all -  [ What's your biggest holdup in taking AI to production?
+ ](https://www.reddit.com/r/LangChain/comments/1e54hjr/whats_your_biggest_holdup_in_taking_ai_to/) , 2024-07-18-0911
+```
+I figured it'd be interesting to get input from different people and industries on this. There are probably a million re
+asons out there, from lack of executive buy-in to inconsistent RAG results. What are the current roadblocks everyones fa
+cing?
+```
+---
+
+     
+ 
+all -  [ Practical Applications of Pythia in LLM Contexts: Chatbots, RAG Systems, and Summarization ](https://www.reddit.com/r/pythia/comments/1e52lyy/practical_applications_of_pythia_in_llm_contexts/) , 2024-07-18-0911
 ```
 https://preview.redd.it/7pz9aa0teycd1.png?width=1920&format=png&auto=webp&s=701ca9ff431570cebcee5407258f16d19e97b136
 
@@ -280,7 +948,7 @@ rag-systems-and-summarization)
 
      
  
-all -  [ GenAI for automatic insights from data ](https://www.reddit.com/r/LangChain/comments/1e4xjhu/genai_for_automatic_insights_from_data/) , 2024-07-17-0911
+all -  [ GenAI for automatic insights from data ](https://www.reddit.com/r/LangChain/comments/1e4xjhu/genai_for_automatic_insights_from_data/) , 2024-07-18-0911
 ```
 Was wondering what tools exist for generating automatic insights from data. For example you feed in a large data set and
  based on the context of the data set a genAI tool is able to tell you insights positive or negative that are useful. Th
@@ -292,7 +960,7 @@ f how to do something like this from scratch.
 
      
  
-all -  [ creating SEO assistants using LLMs, RAG, GraphRAG/knowledge graph ](https://www.reddit.com/r/TechSEO/comments/1e4swxs/creating_seo_assistants_using_llms_rag/) , 2024-07-17-0911
+all -  [ creating SEO assistants using LLMs, RAG, GraphRAG/knowledge graph ](https://www.reddit.com/r/TechSEO/comments/1e4swxs/creating_seo_assistants_using_llms_rag/) , 2024-07-18-0911
 ```
 I published yesterday an article on Search Engine Journal about a POC that we developed for creating an SEO assistant.
 
@@ -317,7 +985,7 @@ And you, do you think - as I do - that this type of assistant is the future of S
 
      
  
-all -  [ Is There Any Reliable Agentic Tool? ](https://www.reddit.com/r/LangChain/comments/1e4s6xt/is_there_any_reliable_agentic_tool/) , 2024-07-17-0911
+all -  [ Is There Any Reliable Agentic Tool? ](https://www.reddit.com/r/LangChain/comments/1e4s6xt/is_there_any_reliable_agentic_tool/) , 2024-07-18-0911
 ```
 Hey everyone,
 
@@ -337,15 +1005,7 @@ I'd really appreciate any recommendations or advice you can offer.
 
      
  
-all -  [ Graph RAG + LangChain  ](/r/ArtificialInteligence/comments/1e4rsr6/graph_rag_codes_explained/) , 2024-07-17-0911
-```
-
-```
----
-
-     
- 
-all -  [ GraphRAG+ LangChain  ](https://www.reddit.com/r/Langchaindev/comments/1e4rwpp/graphrag_langchain/) , 2024-07-17-0911
+all -  [ GraphRAG+ LangChain  ](https://www.reddit.com/r/Langchaindev/comments/1e4rwpp/graphrag_langchain/) , 2024-07-18-0911
 ```
 GraphRAG is an advanced RAG system that uses Knowledge Graphs instead of Vector DBs improving retrieval. Check out the i
 mplementation using GraphQAChain in this video : https://youtu.be/wZHkeon42Aw
@@ -354,7 +1014,7 @@ mplementation using GraphQAChain in this video : https://youtu.be/wZHkeon42Aw
 
      
  
-all -  [ Graph with a for loop ](https://www.reddit.com/r/LangChain/comments/1e4rcha/graph_with_a_for_loop/) , 2024-07-17-0911
+all -  [ Graph with a for loop ](https://www.reddit.com/r/LangChain/comments/1e4rcha/graph_with_a_for_loop/) , 2024-07-18-0911
 ```
 Hi,
 
@@ -382,7 +1042,7 @@ ct', 'collect')  # collect everything
 
      
  
-all -  [ Which vectorstore should I choose? ](https://www.reddit.com/r/LangChain/comments/1e4r8an/which_vectorstore_should_i_choose/) , 2024-07-17-0911
+all -  [ Which vectorstore should I choose? ](https://www.reddit.com/r/LangChain/comments/1e4r8an/which_vectorstore_should_i_choose/) , 2024-07-18-0911
 ```
 In my use case, the most important thing is accuracy, of retrieved documents from them
 
@@ -396,7 +1056,7 @@ Keeping these two things in mind, which one should I go with?
 
      
  
-all -  [ Q&A RAG over tabular data ](https://www.reddit.com/r/LangChain/comments/1e4pqgn/qa_rag_over_tabular_data/) , 2024-07-17-0911
+all -  [ Q&A RAG over tabular data ](https://www.reddit.com/r/LangChain/comments/1e4pqgn/qa_rag_over_tabular_data/) , 2024-07-18-0911
 ```
 Hello dear community,
 
@@ -427,7 +1087,7 @@ Kind regards
 
      
  
-all -  [ 🔥 Apify is hiring Backend engineer for an AI/LLM team (Python / TypeScript) ](https://www.reddit.com/r/devjobspro/comments/1e4pnnk/apify_is_hiring_backend_engineer_for_an_aillm/) , 2024-07-17-0911
+all -  [ 🔥 Apify is hiring Backend engineer for an AI/LLM team (Python / TypeScript) ](https://www.reddit.com/r/devjobspro/comments/1e4pnnk/apify_is_hiring_backend_engineer_for_an_aillm/) , 2024-07-18-0911
 ```
 # 🔥 Apify is hiring Backend engineer for an AI/LLM team (Python / TypeScript)
 
@@ -454,7 +1114,7 @@ Hybrid
 
      
  
-all -  [ New here - how do I surface and save historical threads of agent actions and conversations in langgr ](https://www.reddit.com/r/LangChain/comments/1e4masy/new_here_how_do_i_surface_and_save_historical/) , 2024-07-17-0911
+all -  [ New here - how do I surface and save historical threads of agent actions and conversations in langgr ](https://www.reddit.com/r/LangChain/comments/1e4masy/new_here_how_do_i_surface_and_save_historical/) , 2024-07-18-0911
 ```
 I've set up a dict of main and sub questions(the answer for each feeds into the next) that build on an initial user requ
 est. 
@@ -477,7 +1137,7 @@ Sorry if this is basic- still learning.
 
      
  
-all -  [ How do I stream my output using ? ](https://www.reddit.com/r/LangChain/comments/1e4lnd5/how_do_i_stream_my_output_using/) , 2024-07-17-0911
+all -  [ How do I stream my output using ? ](https://www.reddit.com/r/LangChain/comments/1e4lnd5/how_do_i_stream_my_output_using/) , 2024-07-18-0911
 ```
      if prompt := st.chat_input('Hey, What's up?'):
         if len(pc.list_indexes()) == 0:
@@ -579,7 +1239,7 @@ g feature instead .
 
      
  
-all -  [ How to deal with multiple states? ](https://www.reddit.com/r/LangChain/comments/1e4l92y/how_to_deal_with_multiple_states/) , 2024-07-17-0911
+all -  [ How to deal with multiple states? ](https://www.reddit.com/r/LangChain/comments/1e4l92y/how_to_deal_with_multiple_states/) , 2024-07-18-0911
 ```
 I'm using supervisor graph and various agent graphs. How do pass state within nodes of child graph and parent graph? I c
 ouldn't get what [documentation](https://langchain-ai.github.io/langgraph/how-tos/subgraph/) was trying to say.
@@ -588,7 +1248,7 @@ ouldn't get what [documentation](https://langchain-ai.github.io/langgraph/how-to
 
      
  
-all -  [ Langgraph: best practices for multiple steps graph ](https://www.reddit.com/r/LangChain/comments/1e4l74f/langgraph_best_practices_for_multiple_steps_graph/) , 2024-07-17-0911
+all -  [ Langgraph: best practices for multiple steps graph ](https://www.reddit.com/r/LangChain/comments/1e4l74f/langgraph_best_practices_for_multiple_steps_graph/) , 2024-07-18-0911
 ```
 Hi! As mentioned before, I have built a langgraph with a supervisor agent and two specialised agents. My question is: wh
 at are the best practices for having some of these agents working in multiple steps? For example: one of the agents will
@@ -608,7 +1268,7 @@ Do any of you have experience with this
 
      
  
-all -  [ GPT-Instagram : Instagram Viral Posts with user own personality ](https://www.reddit.com/r/LangChain/comments/1e4k0is/gptinstagram_instagram_viral_posts_with_user_own/) , 2024-07-17-0911
+all -  [ GPT-Instagram : Instagram Viral Posts with user own personality ](https://www.reddit.com/r/LangChain/comments/1e4k0is/gptinstagram_instagram_viral_posts_with_user_own/) , 2024-07-18-0911
 ```
 As a weekend project created a Multi Agent AI app in Next.js, LangChain.js & LangGraph.js to simulate a Marketing depart
 ment to recommend Instagram Viral Posts with user own personality.
@@ -626,7 +1286,7 @@ https://reddit.com/link/1e4k0is/video
 
      
  
-all -  [ Developer looking for exciting opportunities ](https://www.reddit.com/r/Entrepreneur/comments/1e4jsp6/developer_looking_for_exciting_opportunities/) , 2024-07-17-0911
+all -  [ Developer looking for exciting opportunities ](https://www.reddit.com/r/Entrepreneur/comments/1e4jsp6/developer_looking_for_exciting_opportunities/) , 2024-07-18-0911
 ```
 I'm basically a react native developer with 1 year of experience in app and web development. Altho I'm doing my average 
 job right now, I'm dying to work on something real exciting that will help me learn quite alot of things and explore. I 
@@ -645,7 +1305,7 @@ n help 😅
 
      
  
-all -  [ An open source hub for top python functions that could be used as custom tools for AI projects. ](https://www.reddit.com/r/LocalLLaMA/comments/1e4jb76/an_open_source_hub_for_top_python_functions_that/) , 2024-07-17-0911
+all -  [ An open source hub for top python functions that could be used as custom tools for AI projects. ](https://www.reddit.com/r/LocalLLaMA/comments/1e4jb76/an_open_source_hub_for_top_python_functions_that/) , 2024-07-18-0911
 ```
 Hey LocalLLamas,
 
@@ -706,7 +1366,7 @@ n functions in your local llm tools.
 
      
  
-all -  [ LangGraph  ](https://www.reddit.com/r/AIFromChina/comments/1e4ir2v/langgraph/) , 2024-07-17-0911
+all -  [ LangGraph  ](https://www.reddit.com/r/AIFromChina/comments/1e4ir2v/langgraph/) , 2024-07-18-0911
 ```
 LangGraph aims to overcome the major limitation of traditional LangChain chains - that they lack looping at runtime. Thi
 s problem can be easily addressed by introducing a graph structure, as graphs can easily introduce loops into chains, wh
@@ -728,7 +1388,7 @@ Welcome to follow: [https://aidisruption.substack.com/](https://aidisruption.su
 
      
  
-all -  [ Langgraph Human in the loop in Production ](https://www.reddit.com/r/LangChain/comments/1e4hays/langgraph_human_in_the_loop_in_production/) , 2024-07-17-0911
+all -  [ Langgraph Human in the loop in Production ](https://www.reddit.com/r/LangChain/comments/1e4hays/langgraph_human_in_the_loop_in_production/) , 2024-07-18-0911
 ```
 Are there anyone who has successfully done langgraph with human in the loop in production? How does that work? 
 ```
@@ -736,7 +1396,7 @@ Are there anyone who has successfully done langgraph with human in the loop in p
 
      
  
-all -  [ How should I set up my multimodal chatbot? ](https://www.reddit.com/r/LangChain/comments/1e4gvl1/how_should_i_set_up_my_multimodal_chatbot/) , 2024-07-17-0911
+all -  [ How should I set up my multimodal chatbot? ](https://www.reddit.com/r/LangChain/comments/1e4gvl1/how_should_i_set_up_my_multimodal_chatbot/) , 2024-07-18-0911
 ```
 As of now I have a chatbot (OpenAI embeddings & chat model) that can take in text/pdf files and answer questions about t
 hem using embeddings and a vectorDB. I was wondering if it would be plausible to embed an image into the vectorDB, and u
@@ -749,7 +1409,7 @@ appreciated !
 
      
  
-all -  [ How do Graph RAG search for relevant nodes? ](https://www.reddit.com/r/LangChain/comments/1e4c1j5/how_do_graph_rag_search_for_relevant_nodes/) , 2024-07-17-0911
+all -  [ How do Graph RAG search for relevant nodes? ](https://www.reddit.com/r/LangChain/comments/1e4c1j5/how_do_graph_rag_search_for_relevant_nodes/) , 2024-07-18-0911
 ```
 Hi everyone, I have been reading around about Graph RAG lately. I don’t quite understand how the retriever searches for 
 “relevant entities”? I have thought of exact full text search, but they would not be quite effective when the entities c
@@ -762,269 +1422,7 @@ lly appreciate your help!
 
      
  
-all -  [ MarkdownTextSplitter ](https://www.reddit.com/r/LangChain/comments/1e47vwu/markdowntextsplitter/) , 2024-07-17-0911
-```
-This LangChain tool is a little naive- it is just a text splitter with charLength and overlap size. Does anyone know of 
-a compatible splitter that can breakdown a Markdown based on header sections and other elements (eg, lists, code, tables
-)??
-```
----
-
-     
- 
-all -  [ Default search method in ChromDB while performing similarity_search() ](https://www.reddit.com/r/LangChain/comments/1e4059d/default_search_method_in_chromdb_while_performing/) , 2024-07-17-0911
-```
-What is the default search metric while using:
-
-    similarity_search()
-
-Also, can I explicitly give my own metrics, wha
-t are the other metrics available for ChromaDB?
-```
----
-
-     
- 
-all -  [ [HELP/ IDEAS NEEDED] I have a llama 2 chat model working locally i want the model to take a CSV file ](https://www.reddit.com/r/LangChain/comments/1e3yv1o/help_ideas_needed_i_have_a_llama_2_chat_model/) , 2024-07-17-0911
-```
-So I have a llama 2 7b chat model on my machine running locally, what I want to do is that the model takes a CSV file as
- input the file can contain anything ranging from text, numbers, shareholder info, etc., process the file and gives out 
-text in a particular paragraph form that makes sense, I tried asking multiple GPT's but I couldn't get anywhere 
-
-So if 
-any of you esteemed AI engineers could help a frustrated college student it would mean a lot 
-```
----
-
-     
- 
-all -  [ Biggest RAG Hurdles for Beginners? ](https://www.reddit.com/r/LangChain/comments/1e3ygh6/biggest_rag_hurdles_for_beginners/) , 2024-07-17-0911
-```
-Hey Everyone,
-
-I'm curious what the group thinks are the biggest pain points for devs getting started with RAG? My list 
-would be:  
-
-* **hallucination**: especially with complex docs
-* **eval**: there are tools to score completions vs retri
-evals, but what about the rest of the RAG pipeline where the problems actually occur. 
-* **complexity:** many pieces of 
-the pipeline to master (parse, extract, convert to LLM friendly data, chunk, embed, create metadata for context, search,
- rerank, etc) and lots of theories on best approach to each one. 
-
-What's everyone else dealing with?
-
-
-```
----
-
-     
- 
-all -  [ AzureChatOpenAI not working ](https://www.reddit.com/r/LangChain/comments/1e3w7l9/azurechatopenai_not_working/) , 2024-07-17-0911
-```
-I am trying to get \`AzureChatOpenAI\` to work, but keep getting \`openai.NotFoundError: Error code: 404 - {'error': {'c
-ode': '404', 'message': 'Resource not found'}}
-
-\` 
-
-It works if I use \`AzureOpenAI\`. However, the issue with this is 
-I got the following error
-
-\`\`\`  
-raise ValueError(
-
-ValueError: OpenAIChat currently only supports single prompt, got
-  
-\`\`\`
-
-I am trying a simple tutorial to use \`load\_summarize\_chain\`
-
-  
-Does anyone have any idea?
-```
----
-
-     
- 
-all -  [ Cost Prediction of nvidia nim nv-embed-v1 ](https://www.reddit.com/r/LangChain/comments/1e3w5lq/cost_prediction_of_nvidia_nim_nvembedv1/) , 2024-07-17-0911
-```
-I am creating a RAG application based on legal texts. I have documents approx. 80 million tokens long. As you know for R
-AG application I need to embed documents first.
-
-Formerly I was using openai embeddings *text-embedding-3-large* model b
-ut it will cost 10k$. For better outputs and lower cost I want to switch *Nvidia nim nv-embed-v1* but I have never hoste
-d an AI model before so I cannot predict approx. cost.
-
-I will be glad if you guys can share any source for hosting AI m
-odels, calculating Host Cost and maybe tell me which one is cheaper *text-embedding-3-large* or *Nvidia nim nv-embed-v1*
-?
-
-Thank you.
-```
----
-
-     
- 
-all -  [ Integration of RAGAS Evaluation with Langserve ](https://www.reddit.com/r/LangChain/comments/1e3u619/integration_of_ragas_evaluation_with_langserve/) , 2024-07-17-0911
-```
-Hey everyone, I am looking to integrate ragas scoring for every api call made to a langserve endpoint. Does anyone have 
-any references or thoughts on how one can do this. I am planning to further log these metrics into langsmith to track th
-e performance over time
-```
----
-
-     
- 
-all -  [ How to use LangChain with a custom endpoint? ](https://www.reddit.com/r/LangChain/comments/1e3rl5d/how_to_use_langchain_with_a_custom_endpoint/) , 2024-07-17-0911
-```
-Hello! So I have an endpoint on which my trained model is deployed. How can I use this with LangChain? endpoint\_url = '
----------/chat'
-
-Can someone please give me the wrapper code, I am so confused because I already have this model and I d
-ont know how to use this with LangChain. I want to utilize the ConversationBufferMemory method to retain context.
-
-For b
-ackground, I am using this endpoint for a Webex chatbot.
-```
----
-
-     
- 
-all -  [ [Experiment] Good chunking will lead you to the better RAG performance ](https://www.reddit.com/r/LangChain/comments/1e3q2lb/experiment_good_chunking_will_lead_you_to_the/) , 2024-07-17-0911
-```
-Yes, chunking document in RAG is important. But, how much? I got curious and ran a experiment to see how chunking method
- will effect to the RAG performance.
-
-[The diagram of the experiment](https://preview.redd.it/krnc1j0fancd1.png?width=28
-94&format=png&auto=webp&s=a045b1d5ed51e6d721adc1112805e2bea5968dae)
-
-I selected total five chunking method. I ran exact 
-same RAG pipeline with different chunking method and measure the answer quality. It was Korean document with 40 question
-s.
-
-# The five chunking method
-
-- No Chunk : PDF page itself is the chunk.  
-- Token Splitter  
-- Recursive Splitter  
--
- Window Splitter : comes from [LlamaIndex](https://docs.llamaindex.ai/en/stable/examples/node_postprocessor/MetadataRepl
-acementDemo/) : passage merge after retrieval  
-- Semantic Splitter : used openai embedding
-
-I used G-eval as a LLM-eval
- metric. And I used [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG) to quickly run the RAG experiment. (The G-eva
-l range is 1 to 5)
-
-Plus, since the G-eval is not perfect metric, I checked all question and answers manually and measur
-e the factualness of the RAG answers. 
-
-If the answer was perfect, I gave 1. If the RAG system said 'don't know', I gave
- 0. If there was hallucination, I gave -1. And the answer might be vague, then I gave 0.5.
-
-# Result
-
-|Metric Result|No 
-Chunk|Token Splitter|Recursive Splitter|Window Splitter|Semantic Splitter|
-|:-|:-|:-|:-|:-|:-|
-|G-eval|2.4706 |3.3529 |3
-.1176 |3.3529 |**3.7647**|
-|Human Eval|0.3529   |0.6471|0.4706|0.5882 |**0.7941**|
-
-Both G-eval and human eval, the sema
-ntic splitter performs best. The score is quite different, and its impact is quite big. Find the right chunking is essen
-tial to build great RAG system.
-
-# Limitation
-
-Since I used only 40 questions, and human eval was performed only on the 
-17 questions, the statistic needs to be larger for more precise result. 
-
----
-
-This experiment took only a few hours, th
-anks to the [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG/). You can optimize and run the experiment easily usin
-g it. It is open-source project so feel free to use it on your RAG project.
-```
----
-
-     
- 
-all -  [ Chroma db , results size ](https://www.reddit.com/r/LangChain/comments/1e3q18k/chroma_db_results_size/) , 2024-07-17-0911
-```
-Hello everyone, so I have this problem puzzling, i have a simple rag app to chat with my pdf files, and i use crhoma as 
-the vector db, i am using cosine for saving the documents and threshold for retrieving the most relevant ones, my proble
-m is i have to provide a n\_results for chroma, otherwise the default is returning 4 documents,  my problem is if i prov
-ide 500 results, it will always provide 500 results, no matter how relevant they are, i wonder is there a smart way to a
-djust the search results each time? cause sometimes 500 results might be too big , sometimes it might be low, so i might
- lose information, also returning 500 results has some other drawbacks as well, as the app is becoming very slow, not to
- mention the token size limit.
-
-Thank you in advance!
-```
----
-
-     
- 
-all -  [ Finetuning ColBERT reranker ](https://www.reddit.com/r/LangChain/comments/1e3plel/finetuning_colbert_reranker/) , 2024-07-17-0911
-```
-Hello. Has anybody tried finetuning ColBERT models? Did it help you? How much data do you need to finetune it well? 
-```
----
-
-     
- 
-all -  [ ReAct issues ](https://www.reddit.com/r/LangChain/comments/1e3p6pf/react_issues/) , 2024-07-17-0911
-```
-Hi everyone!
-
-I'm working with langchain to create a RAG-ReAct agent with job candidates CVs. Right now I'm having two m
-ain issues: some degree of hallucination (even though I have my llm temperature set to 0; I guess you can't elude it com
-pletely with llms) and tool management. My question is about this one.
-
-I've created my tools with the Tool class, and t
-ried with different queries explicitely designed to use several of them in the same process, but I keep getting my agent
- to stop its output after using the first tool. 
-
-For example, if I ask it to first look for people with experience in H
-adoop and then calculate for each of them how many years of experience they have in the field (I have a tool designed fo
-r basic info search and one designed for calculating periods of time), it will output a list with an answer to the first
- question, but will forget the second one.
-
-I've tried with prompting: nothing. I've also tried with setting return_dire
-ct to False, but it gets an excesive tokens error.
-
-I'm using create_react_agent function and AgentExecutor class with a
-n OpenAI call.
-
-My prompt is based on [this one](https://smith.langchain.com/hub/hwchase17/react) from langchain hub. 
-
-
-Any help would be appreciated, since I keep getting stucked and I've run out of ideas. Thanks a lot!
-```
----
-
-     
- 
-all -  [ How important is CODING?? ](https://www.reddit.com/r/learnmachinelearning/comments/1e3oho2/how_important_is_coding/) , 2024-07-17-0911
-```
-I know all basic fundamentals of Python(variables, function, list, set, tuples, class etc..)  
-But I just don't know how
- much emphasis should be given to coding.
-
-Because I think what's more important is what we're doing with the code. Beca
-use just to make a Neural network, using Tensorflow we do this in one way, using Pytorch in another way(different syntax
-), while Maths behind this is same...
-All the things that we used in Langchain to make a GenAI app, now within a year co
-ding syntax is changed a lot.
-
-I just don' t know
-```
----
-
-     
- 
-MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-07-17-0911
+MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-07-18-0911
 ```
 We completely underestimated this one tbh, thought it would be much more straight forward. But we've done it now and doc
 umented how step by step [in this article series](https://medium.com/p/5828a1ea43a3).
@@ -1044,7 +1442,7 @@ f a better way to do it?
 
      
  
-MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-07-17-0911
+MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-07-18-0911
 ```
 Hi everyone!
 
@@ -1090,7 +1488,7 @@ e/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-
 
      
  
-deeplearning -  [ Llama 3 not running on GPU ](https://www.reddit.com/r/deeplearning/comments/1dptxsr/llama_3_not_running_on_gpu/) , 2024-07-17-0911
+deeplearning -  [ Llama 3 not running on GPU ](https://www.reddit.com/r/deeplearning/comments/1dptxsr/llama_3_not_running_on_gpu/) , 2024-07-18-0911
 ```
 I dont know much theory about RAG but i need to implement it for a project.  
 **I want to run llama3 on my GPU to get fa
@@ -1118,7 +1516,7 @@ This code goes not use my GPU but my CPU and RAM usage is high.
 
      
  
-deeplearning -  [ What is ReAct Prompting? the most important piece in agentic frameworks ](https://www.reddit.com/gallery/1djk4nk) , 2024-07-17-0911
+deeplearning -  [ What is ReAct Prompting? the most important piece in agentic frameworks ](https://www.reddit.com/gallery/1djk4nk) , 2024-07-18-0911
 ```
 “What is ReAct Prompting? the most important piece in agentic frameworks” - A quick read from Mastering LLM (Large Langu
 age Model) 'Coffee Break Concepts' Vol.6
