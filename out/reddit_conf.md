@@ -1,5 +1,5 @@
  
-all -  [ [CfP] The NeurIPS 2024 Creative AI Track ](https://groups.google.com/g/ml-news/c/I4P7Fzl5p38) , 2024-07-20-0911
+all -  [ [CfP] The NeurIPS 2024 Creative AI Track ](https://groups.google.com/g/ml-news/c/I4P7Fzl5p38) , 2024-07-21-0912
 ```
 
 ```
@@ -7,7 +7,7 @@ all -  [ [CfP] The NeurIPS 2024 Creative AI Track ](https://groups.google.com/g/
 
      
  
-all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-07-20-0911
+all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-07-21-0912
 ```
 The sentences quoted in the post title are from *Reuters* article [Exclusive: OpenAI working on new reasoning technology
  under code name ‘Strawberry’](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-t
@@ -44,7 +44,7 @@ etic.
 
      
  
-all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-07-20-0911
+all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-07-21-0912
 ```
 [New episode of Imbue's Generally Intelligent podcast](https://imbue.com/podcast/2024-07-11-podcast-episode-36-ari-morco
 s/) with Ari Morcos*,* CEO of [DatologyAI](https://www.datologyai.com), which makes training deep learning models more p
@@ -76,7 +76,7 @@ Highlights and referenced papers](https://imbue.com/podcast/2024-02-08-podcast-e
 
      
  
-all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-07-20-0911
+all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-07-21-0912
 ```
 \[FIXED\] Hi! I have recently begun using arc as my primary browser (still transitioning) but one thing I can't get over
  is that PDFs sometimes invert colors completely and I'm not sure how to fix it. I thought it had to do with the light/d
@@ -91,7 +91,7 @@ https://preview.redd.it/tlc1cdn62cbd1.png?width=
 
      
  
-all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-07-20-0911
+all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-07-21-0912
 ```
 **Introduction**
 
@@ -189,7 +189,7 @@ e emerges. Is this the echo of creation... or the birth of something entirely ot
 
      
  
-all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-07-20-0911
+all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-07-21-0912
 ```
 [The moment we stopped understanding AI \[AlexNet\]](https://www.youtube.com/watch?v=UZDiGooFs54)
 
@@ -386,7 +386,7 @@ ibing our architecture, brother, not just theirs!
 
      
  
-all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-20-0911
+all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-21-0912
 ```
 Klar - es gab noch mehr Papers - aber ich glaube, dass ich die wirklich wesentlichen erfasst habe. Viel Spaß beim stöber
 n und ein schönes Wochenende!
@@ -688,7 +688,7 @@ s://kinews24.de/xlstm/](https://kinews24.de/xlstm/)
 
      
  
-all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-20-0911
+all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-21-0912
 ```
 # Introduction
 
@@ -790,7 +790,7 @@ ebp&s=93bcdac6f05960dff4910d26b3bcc35d3882eba8)
 
      
  
-all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-20-0911
+all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-21-0912
 ```
 I already posted once on here (on a different account) and had questions about awards because that's what I feel I lack.
 
@@ -894,7 +894,7 @@ I am very confused about what I should be doing for awards. Given that I do not 
 
      
  
-all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-20-0911
+all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-21-0912
 ```
 Hey all!
 So originally I was accepted into Algoverse for the Neurips track and was browsing on reddit to see if it was a
@@ -940,7 +940,7 @@ ice, I would recommend.
 
      
  
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/neuralnetworks/comments/1dqgeuz/deep_learning_paper_summaries/) , 2024-07-20-0911
+all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/neuralnetworks/comments/1dqgeuz/deep_learning_paper_summaries/) , 2024-07-21-0912
 ```
 The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
 gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
@@ -972,7 +972,7 @@ m/vlgiitr/papers_we_read) will be constantly updated with summaries of more pap
 
      
  
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/DeepLearningPapers/comments/1dqfuky/deep_learning_paper_summaries/) , 2024-07-20-0911
+all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/DeepLearningPapers/comments/1dqfuky/deep_learning_paper_summaries/) , 2024-07-21-0912
 ```
 The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
 gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
@@ -1005,7 +1005,7 @@ om/vlgiitr/papers_we_read) will be constantly updated with summaries of more pap
 
      
  
-all -  [ [D] Is anyone else absolutely besieged by papers and always on the verge of getting scooped? ](https://www.reddit.com/r/MachineLearning/comments/1dqbgw4/d_is_anyone_else_absolutely_besieged_by_papers/) , 2024-07-20-0911
+all -  [ [D] Is anyone else absolutely besieged by papers and always on the verge of getting scooped? ](https://www.reddit.com/r/MachineLearning/comments/1dqbgw4/d_is_anyone_else_absolutely_besieged_by_papers/) , 2024-07-21-0912
 ```
 I'm a 1st year PhD student working on a hot area in ML (3 guesses as to what lol) and the past year has been absolutely 
 brutal for me on a personal level. Every single weekday, I check the daily arxiv digest that hits my inbox, and there ar
@@ -1030,7 +1030,7 @@ th the stress of fast publication cycles, or for generally struggling through th
 
      
  
-all -  [ is this the end of my career? ](https://www.reddit.com/r/postdoc/comments/1dpjwig/is_this_the_end_of_my_career/) , 2024-07-20-0911
+all -  [ is this the end of my career? ](https://www.reddit.com/r/postdoc/comments/1dpjwig/is_this_the_end_of_my_career/) , 2024-07-21-0912
 ```
 so i have a phd in chem and a research focus in comp bio (drug discovery and such). I am up-to-date with ML literture in
  my field and have even applied some of the ML methods in my project. But I havent developed a foundation model or publi
@@ -1057,7 +1057,7 @@ Sorry for my rant. Any advice helps thanks.
 
      
  
-all -  [ [D] Difference between ICLR and AISTATS ](https://www.reddit.com/r/MachineLearning/comments/1do796a/d_difference_between_iclr_and_aistats/) , 2024-07-20-0911
+all -  [ [D] Difference between ICLR and AISTATS ](https://www.reddit.com/r/MachineLearning/comments/1do796a/d_difference_between_iclr_and_aistats/) , 2024-07-21-0912
 ```
 There is a somewhat [duplicated question](https://www.reddit.com/r/MachineLearning/comments/olmq3m/d_difference_between_
 aaai_iclr_and_aistats/) here, but I would like to bring this topic up again, since the September/October deadline is app
@@ -1089,7 +1089,7 @@ e work itself is more important than the publication venue', which is obviously 
 
      
  
-all -  [ Google's open-weight XTR (conteXtualized Token Retriever) models for document retrieval (Apache 2.0  ](https://www.reddit.com/r/LocalLLaMA/comments/1dm336p/googles_openweight_xtr_contextualized_token/) , 2024-07-20-0911
+all -  [ Google's open-weight XTR (conteXtualized Token Retriever) models for document retrieval (Apache 2.0  ](https://www.reddit.com/r/LocalLLaMA/comments/1dm336p/googles_openweight_xtr_contextualized_token/) , 2024-07-21-0912
 ```
 I just noticed two models on Google's HuggingFace that we haven't discussed earlier on this subreddit. It's the XTR (con
 teXtualized Token Retriever) models from Google DeepMind. They state:
@@ -1133,7 +1133,7 @@ ge compared to ColBERT.
 
      
  
-all -  [ Employers' view on CS PhD in computational biology vs pure ML? ](https://www.reddit.com/r/cscareerquestions/comments/1dkgau4/employers_view_on_cs_phd_in_computational_biology/) , 2024-07-20-0911
+all -  [ Employers' view on CS PhD in computational biology vs pure ML? ](https://www.reddit.com/r/cscareerquestions/comments/1dkgau4/employers_view_on_cs_phd_in_computational_biology/) , 2024-07-21-0912
 ```
 I am a little worried about how future employers (e.g. FAANG) might view a CS PhD in computational biology. They might v
 iew me to be a 'better fit' for big pharma/biotech post-graduation.
@@ -1159,183 +1159,6 @@ to train a big model. Most of the time, my models are simple NN, random forest, 
 Any thoughts? 
 Maybe I shouldn't be worried since this might not actually be an issue in reality? Should I do a more ML-focused PhD ins
 tead if I know I want to go to into tech?
-```
----
-
-     
- 
-all -  [ What does it take to get a paper accepted in good venues like ACL, EMNLP, neurIPS  in main Conferenc ](https://www.reddit.com/r/learnmachinelearning/comments/1djvh1q/what_does_it_take_to_get_a_paper_accepted_in_good/) , 2024-07-20-0911
-```
-This is my first year as a PhD student and I am currently attending the Naacl conference in Mexico with a poster attache
-d to a workshop and I definitely want my next papers to pass in for conferences in such venues. But I am still confused 
-on how the depth of the experiments should be.  it feels like you have to be associated with cliche labs in order to get
- in...
-
-Well, any comments and suggestions will be helpful
-```
----
-
-     
- 
-all -  [ How To Become AI Engineer In 2024 ](https://www.reddit.com/r/u_seowithumang/comments/1djoya3/how_to_become_ai_engineer_in_2024/) , 2024-07-20-0911
-```
-Becoming an AI engineer in 2024 involves a combination of education, practical experience, and staying current with the 
-latest advancements in the field. Here’s a comprehensive guide to help you on your journey:
-
-# 1. Educational Background
-
-
-* **Undergraduate Degree**: Start with a bachelor's degree in a relevant field such as Computer Science, Data Science,
- Mathematics, Statistics, or Electrical Engineering.
-* **Core Courses**: Focus on courses like machine learning, data st
-ructures and algorithms, probability and statistics, linear algebra, and computer programming.
-
-# 2. Advanced Education 
-(Optional)
-
-* **Master's Degree**: Consider pursuing a master's degree in AI, Machine Learning, Data Science, or a relat
-ed field. This can provide deeper knowledge and open up more advanced career opportunities.
-* **Ph.D.**: For roles in re
-search or academia, a Ph.D. in a related field is often required.
-
-# 3. Skill Development
-
-* **Programming Languages**: 
-Master languages commonly used in AI such as Python, R, and Java. Python is particularly important due to its extensive 
-libraries for AI and machine learning.
-* **Machine Learning Frameworks**: Gain proficiency in popular frameworks and lib
-raries such as TensorFlow, PyTorch, Keras, and scikit-learn.
-* **Mathematics**: Strengthen your understanding of linear 
-algebra, calculus, probability, and statistics, as these are foundational for machine learning algorithms.
-
-# 4. Practic
-al Experience
-
-* **Projects**: Build a portfolio of AI projects. This could include work done during your coursework, pe
-rsonal projects, or contributions to open-source projects.
-* **Internships**: Gain practical experience through internsh
-ips at tech companies, research labs, or startups.
-* **Competitions**: Participate in online competitions like Kaggle to
- practice solving real-world AI problems and to showcase your skills.
-
-# 5. Certifications
-
-* **Online Courses and Certi
-fications**: Enroll in courses from platforms like Coursera, edX, Udacity, and others. Notable programs include the AI s
-pecializations from Stanford University, MIT, and the University of Washington.
-* **Professional Certifications**: Consi
-der certifications such as Google’s Professional Machine Learning Engineer, Microsoft Certified: Azure AI Engineer Assoc
-iate, or IBM AI Engineering Professional Certificate.
-
-# 6. Networking and Community Involvement
-
-* **Conferences and Me
-etups**: Attend AI conferences (e.g., NeurIPS, ICML) and local meetups to network with professionals and stay updated on
- the latest research and trends.
-* **Online Communities**: Join forums and online communities like Reddit, Stack Overflo
-w, and LinkedIn groups focused on AI and machine learning.
-
-# 7. Stay Current
-
-* **Research Papers**: Regularly read res
-earch papers from journals and conferences to keep up with new discoveries and methodologies.
-* **News and Blogs**: Foll
-ow AI news sites, blogs, and thought leaders on social media.
-
-# 8. Career Pathway
-
-* **Entry-Level Positions**: Start i
-n roles such as Data Scientist, Machine Learning Engineer, or AI Researcher.
-* **Progression**: As you gain experience, 
-you can move into senior roles, such as Senior AI Engineer, AI Architect, or AI Project Manager.
-* **Specializations**: 
-Consider specializing in subfields like Natural Language Processing (NLP), Computer Vision, Robotics, or Reinforcement L
-earning.
-
-# 9. Soft Skills
-
-* **Problem-Solving**: Develop strong problem-solving abilities to tackle complex AI challen
-ges.
-* **Communication**: Enhance your ability to communicate technical concepts to non-technical stakeholders.
-* **Coll
-aboration**: Work effectively in multidisciplinary teams, often collaborating with data scientists, engineers, and busin
-ess analysts.
-
-# 
-```
----
-
-     
- 
-all -  [ What does it take to get a paper accepted in ACL, EMNLP or NeurIps? ](https://www.reddit.com/r/airesearch/comments/1djkugt/what_does_it_take_to_get_a_paper_accepted_in_acl/) , 2024-07-20-0911
-```
-Well, this will be my third paper and it is published in NAACL as a poster, not yet get into the main conference. For th
-ose who got into main conferences of those well known venues what are the main things that put you there? Sorry this is 
-my first year PhD so I am kind of noob at this. 
-
-```
----
-
-     
- 
-all -  [ Seeking advice for changing research area and reapplying to a different PhD program ](https://www.reddit.com/r/gradadmissions/comments/1djbdne/seeking_advice_for_changing_research_area_and/) , 2024-07-20-0911
-```
-Hi everyone! Thank you so much for taking the time to read my post. This is going to be long but I didn't know how to ma
-ke it any shorter so here it goes.
-
-So, at the moment, I am at the end of my first year in a CS PhD program in a decent-
-ish state school in the United States. I had initially done my applications with Quantum Complexity/Quantum Simulations 
-in mind but 2 things have changed/ refined/ put me back to my initial interests. 1. The only professor I wanted to work 
-with -- the only quantum prof -- said he doesn't have funding and the department is super weird in that it dislikes if a
-dvisors are not funding you research; this also means no summer funding which is a huge bummer as an international stude
-nt. 2. While reading a lot of quantum papers across different subareas I found myself gravitate towards algorithmic prob
-lems/ problems related to simulations etc that have both theory and applied parts, and also because I personally cannot 
-just be satisfied with theory (I realized) and want applied parts as well and in quantum everything at the moment is at 
-the mercy of experimental physicists (wish I did physics).
-
-However, this isn't a drastic turn because my original inter
-ests lied in problems in the realm of applied mathematics -- numerical methods, PDEs, etc. but couldn't pursue it becaus
-e no one was doing it at my UG institution. No one was doing quantum either but I just taught it to myself in the hopes 
-that my UG advisor will follow through with his word of connecting me with his friends working in quantum research which
- did not happen for one reason or another (bygones are bygones) and I basically ended up applying for a PhD without an L
-OR from a guy who does work in the field which led me to being wait-listed at most of my top choices.
-
-Now, I am looking
- to move to working in algorithms, numerical linear algebra and on problems that relate to scientific computing. However
-, the BIG issue is no one even does algorithms at the institution where I am at..like there is barely any theory.  This 
-led to some bad mental health state for the a couple months at the start of the year -- being in a department where you 
-are not interested in anyone's work. However, I was able to get out of it and started to researching and studying things
- on my own. I was always interested in Ising models, spin glasses, and phase transitions etc and I have been studying up
- on literature that build up from graph theory and connect to topics in statistical mechanics. I am also trying to find 
-research avenues in areas related to algorithms and simulation of many-body systems. There are lots of exciting work aro
-und using continuous methods in optimization which appears to be very interesting and I am studying up and building up m
-y background so I can better interface with those works. At the moment, I am studying from these set of lecture notes: [
-https://stellar.mit.edu/S/course/18/sp18/18.408/index.html](https://stellar.mit.edu/S/course/18/sp18/18.408/index.html) 
-. Some of the work that have me interested are: [https://arxiv.org/pdf/2303.00709](https://arxiv.org/pdf/2303.00709); [h
-ttps://arxiv.org/pdf/2208.10959](https://arxiv.org/pdf/2208.10959); [https://arxiv.org/pdf/1611.00755](https://arxiv.org
-/pdf/1611.00755); [https://dl.acm.org/doi/pdf/10.1145/3564246.3585142](https://dl.acm.org/doi/pdf/10.1145/3564246.358514
-2);  https://arxiv.org/pdf/2211.03963.
-
-So, at the moment I am reading up from various lecture notes to get familiar wit
-h the literature so I can start reading papers and maybe come up with idea (at least that is the plan now), and I am als
-o starting to contribute to Julia since the Julia lab looks like the optimal place with the type of interests I have. Ob
-viously, I will have to manage all this while I manage my graduate school requirements at my current institution.
-
-I wou
-ld love it if I could work with somebody or work under someone as an RA doing research and building up my research profi
-le in these areas.. I guess we'll see.
-
-I am basically looking for advice on if folks here feel if this is a good/optima
-l way to go about it or there are other things that I should do. I am also attaching my cv with the post so you could ge
-t an idea of my background. I really wish I had some theory work to show for but it just didn't happen because no one at
- my UG uni was doing it. Obviously, I could have tried harder to connect to people back then but I guess it's okay.. I r
-eally want do some good research under advisors whose work I admire and it would be great if you folks would be kind eno
-ugh to give me some pointers.
-
-https://preview.redd.it/ueao9fwvqg7d1.jpg?width=2550&format=pjpg&auto=webp&s=aed5df0fcfff
-19a59dcf1b3b90b79d15252ff78d
-
-
 ```
 ---
 

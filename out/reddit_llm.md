@@ -1,5 +1,113 @@
  
-all -  [ Persists documents on ParentDocumentRetrieval ](https://www.reddit.com/r/LangChain/comments/1e7h5ea/persists_documents_on_parentdocumentretrieval/) , 2024-07-20-0911
+all -  [ Top enhancements to try once you have a vanilla RAG set-up with a text vector database? ](/r/LocalLLaMA/comments/1e84de2/top_enhancements_to_try_once_you_have_a_vanilla/) , 2024-07-21-0912
+```
+
+```
+---
+
+     
+ 
+all -  [ Infinity surpasses 1k Github stars & new inference package launch - `pip install embed`  ](https://www.reddit.com/r/LocalLLaMA/comments/1e83cah/infinity_surpasses_1k_github_stars_new_inference/) , 2024-07-21-0912
+```
+Today, I am launching [https://github.com/michaelfeil/embed](https://github.com/michaelfeil/embed) (MIT). After launchin
+g the async framework for OpenAI compatible embedding, re-ranking, clip and classification requests.
+
+[https://github.co
+m/michaelfeil/infinity](https://github.com/michaelfeil/infinity) recently hit 1000 Github stars & \~300 PRs/Issues/Discu
+ssions. A learning is that the ecosystem (llamaindex, langchain, others) are not ready for asynchronous usage. As a resu
+lt, I am launching a more streamlined version with a synchronous API that returns synchronous futures on each method. 
+
+
+Features:  
+- Runs on AMD, CUDA and CPU, via torch or onnx. Automatically chooses optimal settings (e.g. O-4, FA2)  
+- O
+ptions for int8/fp8 weight-only quantization   
+- embedding quantization [https://huggingface.co/blog/embedding-quantiza
+tion](https://huggingface.co/blog/embedding-quantization) 
+```
+---
+
+     
+ 
+all -  [ Hey guys I know we all hate langchain but I have a question  ](https://www.reddit.com/r/datascience/comments/1e7xtww/hey_guys_i_know_we_all_hate_langchain_but_i_have/) , 2024-07-21-0912
+```
+I’m building a chat bot . And since the data is in a data warehouse,  it’s in a table . Do you think retrieval methods p
+erform better when the data is in a text format, just a docs file or it works just the same on a tabular data too and cs
+v or parquet format. And I’m planning on using llama index or langchain. Thank you 
+```
+---
+
+     
+ 
+all -  [ [D] Embedding generation in production? How are you doing it? ](https://www.reddit.com/r/MachineLearning/comments/1e7xt6k/d_embedding_generation_in_production_how_are_you/) , 2024-07-21-0912
+```
+
+
+For those building production RAG pipelines, how are you generating embeddings. More than which model, I'm interested 
+in how your deploying it. Are you calling the openai/vertex API endpoint directly? Using langchain/llamaindex wrappers? 
+Using vectordb  classes? Or some other way?
+```
+---
+
+     
+ 
+all -  [ Has anyone been able to use ChatAnthropicVertex tool calling? ](https://www.reddit.com/r/ClaudeAI/comments/1e7qksc/has_anyone_been_able_to_use_chatanthropicvertex/) , 2024-07-21-0912
+```
+Seems there are a lot of bugs in it's implementation. bind_tools with ChatAnthropicVertex is literally unusable because 
+it doesn't return finish_reason. Tool calls are also incorrect. Have you been able to use it. #langchain #VertexAi
+```
+---
+
+     
+ 
+all -  [ Is learning langchain worth it?  ](https://www.reddit.com/r/learnmachinelearning/comments/1e7pj1l/is_learning_langchain_worth_it/) , 2024-07-21-0912
+```
+Hello, 
+
+I recently heard about langchain(ik I'm late) but I read briefly about it, and understood it is used for creati
+ng genAi apps. But most of the reddit review is pretty negative for this library. 
+
+So is it worth it to learn and creat
+e projects using this or no
+```
+---
+
+     
+ 
+all -  [ This sums up my experience with all LLM orchestration frameworks ](https://i.redd.it/xwlgql6idmdd1.jpeg) , 2024-07-21-0912
+```
+Langchain in a nutshell. 
+```
+---
+
+     
+ 
+all -  [ Search for data across entire text files ](https://www.reddit.com/r/LangChain/comments/1e7pcxp/search_for_data_across_entire_text_files/) , 2024-07-21-0912
+```
+I'm having problems building my system.
+
+Let's say I have one (or more pdf files), I load, splitters, chunking, clean da
+ta,... and then save it to a vector database (qdrant). I can query its data quite well with knowledge questions located 
+somewhere in the files.
+
+But suppose in my data file is a list of about 1000 products distributed on many different page
+s, is there any way I can solve the question: 'How many products are there?' Are not?
+
+Or ask 'List all the major and mi
+nor headings in the file' and it can answer correctly if there is no table of contents available.
+
+My problem is that I 
+can't read the whole document when putting it in the context part of LLM, because it's too long if k is increased in the
+ retrievers part, and I also don't think it can completely satisfy the context content because Maybe it is still left so
+mewhere in other segments if k is fixed?
+
+If anyone has any ideas or solutions, please help me.
+```
+---
+
+     
+ 
+all -  [ Persists documents on ParentDocumentRetrieval ](https://www.reddit.com/r/LangChain/comments/1e7h5ea/persists_documents_on_parentdocumentretrieval/) , 2024-07-21-0912
 ```
 Is there any way to persists the parent documents in the ParentDocumentRetrieval?  
 All the tutorials I see use the InMe
@@ -10,7 +118,7 @@ moryStore, but I'd like to persist the parent documents in a redis database or a
 
      
  
-all -  [ Deploy Langgraph in Google Cloud? ](https://www.reddit.com/r/LangChain/comments/1e7em5x/deploy_langgraph_in_google_cloud/) , 2024-07-20-0911
+all -  [ Deploy Langgraph in Google Cloud? ](https://www.reddit.com/r/LangChain/comments/1e7em5x/deploy_langgraph_in_google_cloud/) , 2024-07-21-0912
 ```
 Hello everyone. Has anyone deployed Langgraph in Google Cloud services? Currently, I've created my own method to do it u
 sing the Reasoning Engine, but I am a newbie in cloud services. I want to know if there is a better way to do it
@@ -19,7 +127,7 @@ sing the Reasoning Engine, but I am a newbie in cloud services. I want to know i
 
      
  
-all -  [ Bind functions with Ollama model from ChatOpenAI. ](https://www.reddit.com/r/LangChain/comments/1e7cvzl/bind_functions_with_ollama_model_from_chatopenai/) , 2024-07-20-0911
+all -  [ Bind functions with Ollama model from ChatOpenAI. ](https://www.reddit.com/r/LangChain/comments/1e7cvzl/bind_functions_with_ollama_model_from_chatopenai/) , 2024-07-21-0912
 ```
 I want to bind some functions into a llm, I'm using the ChatOpenAI wrapper to connect to a Ollama llama3 model locally, 
 I have this code:
@@ -88,7 +196,7 @@ Could anyone help me here? Thanks :)
 
      
  
-all -  [ What’s the Best Python Library for Extracting Text from PDFs? ](https://www.reddit.com/r/LangChain/comments/1e7cntq/whats_the_best_python_library_for_extracting_text/) , 2024-07-20-0911
+all -  [ What’s the Best Python Library for Extracting Text from PDFs? ](https://www.reddit.com/r/LangChain/comments/1e7cntq/whats_the_best_python_library_for_extracting_text/) , 2024-07-21-0912
 ```
 Hello everyone, I hope you're all doing well! I’m currently on the lookout for a library that can extract text in paragr
 aph chunks from PDFs. For instance, I need it to pull out the Introduction with all its paragraphs separately, the Concl
@@ -99,17 +207,7 @@ tions? Thanks!
 
      
  
-all -  [ Currently in 7th semester (batch 2021-2025) of my Comp Sci BTech, Rate my resume.  ](https://www.reddit.com/r/developersIndia/comments/1e7bitj/currently_in_7th_semester_batch_20212025_of_my/) , 2024-07-20-0911
-```
-https://preview.redd.it/k0qpss2bwidd1.png?width=5949&format=png&auto=webp&s=0b7351c0e1242a9723992c67a40d687c2095eece
-
-
-```
----
-
-     
- 
-all -  [ Steaming Hot AI Tools 2024-2025 ](https://www.reddit.com/r/LLMoney/comments/1e79lk4/steaming_hot_ai_tools_20242025/) , 2024-07-20-0911
+all -  [ Steaming Hot AI Tools 2024-2025 ](https://www.reddit.com/r/LLMoney/comments/1e79lk4/steaming_hot_ai_tools_20242025/) , 2024-07-21-0912
 ```
 # Super Index
 
@@ -441,7 +539,7 @@ nAI-sublime-text): Sublime Text 4 AI assistant plugin with Ollama support
 
      
  
-all -  [ Using Langchain runnables and running into pydantic errors ](https://www.reddit.com/r/LangChain/comments/1e77ye2/using_langchain_runnables_and_running_into/) , 2024-07-20-0911
+all -  [ Using Langchain runnables and running into pydantic errors ](https://www.reddit.com/r/LangChain/comments/1e77ye2/using_langchain_runnables_and_running_into/) , 2024-07-21-0912
 ```
 Hi Y'all,  
 I encounter this issue with running langchain runnables and it can't get input\_schema. To replicate this us
@@ -459,7 +557,7 @@ t=png&auto=webp&s=dcfb12069db3cf22268725f921c36a3c5a09ab27
 
      
  
-all -  [ Using astram_events on langgraph with parallel chains ](https://www.reddit.com/r/LangChain/comments/1e77fkx/using_astram_events_on_langgraph_with_parallel/) , 2024-07-20-0911
+all -  [ Using astram_events on langgraph with parallel chains ](https://www.reddit.com/r/LangChain/comments/1e77fkx/using_astram_events_on_langgraph_with_parallel/) , 2024-07-21-0912
 ```
 Hi everybody. I am trying to streaming the response of a langgraph. With astream\_events is it possible to choose in the
  metadata the node we want to stream the response, and in my case is of course the last node. The problem is that the ch
@@ -472,7 +570,7 @@ d up. Has anyone already tried to build a graph with parallel indipendent chains
 
      
  
-all -  [ Rag, response json parsed ](https://www.reddit.com/r/LangChain/comments/1e73y4n/rag_response_json_parsed/) , 2024-07-20-0911
+all -  [ Rag, response json parsed ](https://www.reddit.com/r/LangChain/comments/1e73y4n/rag_response_json_parsed/) , 2024-07-21-0912
 ```
 hi.
 im actually working on a rag projet, that suppose to take a CV in entry and recommand a list of job according to the
@@ -487,7 +585,7 @@ n.
 
      
  
-all -  [ LangGraph Stability ](https://www.reddit.com/r/LangChain/comments/1e73gzj/langgraph_stability/) , 2024-07-20-0911
+all -  [ LangGraph Stability ](https://www.reddit.com/r/LangChain/comments/1e73gzj/langgraph_stability/) , 2024-07-21-0912
 ```
 Is LangGraph production-ready?
 
@@ -527,7 +625,7 @@ Is LangGraph stable? Or still in heavy development?
 
      
  
-all -  [ Suggestions on my resume ](https://i.redd.it/qxsm0uat2hdd1.jpeg) , 2024-07-20-0911
+all -  [ Suggestions on my resume ](https://i.redd.it/qxsm0uat2hdd1.jpeg) , 2024-07-21-0912
 ```
 I have been working as a data scientist for sometime now after studying some things online and then started getting a fo
 rmal education from IITM to grasp more in depth knowledge on the same. Now I’m looking for a job switch from being a con
@@ -541,7 +639,7 @@ or feedback.
 
      
  
-all -  [ LangGraph-GUI: Self-hosted Visual Editor for Node-Edge Graphs with Reactflow & Ollama ](https://www.reddit.com/r/LangChain/comments/1e72vpe/langgraphgui_selfhosted_visual_editor_for/) , 2024-07-20-0911
+all -  [ LangGraph-GUI: Self-hosted Visual Editor for Node-Edge Graphs with Reactflow & Ollama ](https://www.reddit.com/r/LangChain/comments/1e72vpe/langgraphgui_selfhosted_visual_editor_for/) , 2024-07-21-0912
 ```
 Hi everyone,
 
@@ -580,7 +678,7 @@ ng for dummy](https://github.com/LangGraph-GUI/LangGraph-learn)
 
      
  
-all -  [ 'Attention Isn’t All You Need' ](https://www.reddit.com/r/LangChain/comments/1e72ayj/attention_isnt_all_you_need/) , 2024-07-20-0911
+all -  [ 'Attention Isn’t All You Need' ](https://www.reddit.com/r/LangChain/comments/1e72ayj/attention_isnt_all_you_need/) , 2024-07-21-0912
 ```
 You've probably heard about Mistral's groundbreaking release of Codestral Mamba, a 7B parameter model. But why all the h
 ype over a 7B model when we have giants like GPT-4? Well, it's not just about size this time – it's about architecture. 
@@ -632,15 +730,7 @@ ng 📚
 
      
  
-all -  [ Enhancing Performance with C/C++ Code Execution for Langchain Agents ](https://medium.com/@dtunai/enhancing-performance-with-c-c-code-execution-for-langchain-agents-a8974c4000f5?source=friends_link&sk=ca01eac71cabe1cbf4048bcab373ab87) , 2024-07-20-0911
-```
-
-```
----
-
-     
- 
-all -  [ how to instruct GPT4 to format text?  ](https://www.reddit.com/r/LangChain/comments/1e71886/how_to_instruct_gpt4_to_format_text/) , 2024-07-20-0911
+all -  [ how to instruct GPT4 to format text?  ](https://www.reddit.com/r/LangChain/comments/1e71886/how_to_instruct_gpt4_to_format_text/) , 2024-07-21-0912
 ```
 how do you do it? I would like the reponse to be properly formatted in markdown for example. This does work somewhat but
  it still uses some non-unicode formatting for example: '\\( LAF,max \\geq 45 \\)' instead of using '≥'. Even with one-s
@@ -654,7 +744,7 @@ sk? Any suggestions? How do you solve this?
 
      
  
-all -  [ How to use Langchain with Portkey AI? (I'm beginner with LLMs) ](https://www.reddit.com/r/LangChain/comments/1e7093e/how_to_use_langchain_with_portkey_ai_im_beginner/) , 2024-07-20-0911
+all -  [ How to use Langchain with Portkey AI? (I'm beginner with LLMs) ](https://www.reddit.com/r/LangChain/comments/1e7093e/how_to_use_langchain_with_portkey_ai_im_beginner/) , 2024-07-21-0912
 ```
 Hello,
 
@@ -669,7 +759,7 @@ ite confused here, would appreciate any input on this topic. Thanks!
 
      
  
-all -  [ Arabic PDF RAG ](https://www.reddit.com/r/LangChain/comments/1e6zj3b/arabic_pdf_rag/) , 2024-07-20-0911
+all -  [ Arabic PDF RAG ](https://www.reddit.com/r/LangChain/comments/1e6zj3b/arabic_pdf_rag/) , 2024-07-21-0912
 ```
 Helllo guys, i am trying to create a PDF chatbot using Huggingface models. Open source embeddings and Open source LLM. H
 ave anyone does this before  or have similar kind of project ? I would be grateful if you help me . 
@@ -678,7 +768,7 @@ ave anyone does this before  or have similar kind of project ? I would be gratef
 
      
  
-all -  [ How to trace cost of RAGAS? ( I am using LANGFUSE) ](https://www.reddit.com/r/LangChain/comments/1e6yz2y/how_to_trace_cost_of_ragas_i_am_using_langfuse/) , 2024-07-20-0911
+all -  [ How to trace cost of RAGAS? ( I am using LANGFUSE) ](https://www.reddit.com/r/LangChain/comments/1e6yz2y/how_to_trace_cost_of_ragas_i_am_using_langfuse/) , 2024-07-21-0912
 ```
 I use this code and decorator ***observe()*** to trace ragas cost. However, as you can see the result below. Total cost 
 is 0$ for function ***score\_with\_ragas()***
@@ -784,192 +874,438 @@ scores[m.name])
 
      
  
-all -  [ Why my RAG is a bad RAG ? ](https://www.reddit.com/r/LangChain/comments/1e6yskw/why_my_rag_is_a_bad_rag/) , 2024-07-20-0911
+all -  [ Why my RAG is a bad RAG ? ](https://www.reddit.com/r/LangChain/comments/1e6yskw/why_my_rag_is_a_bad_rag/) , 2024-07-21-0912
 ```
+    import streamlit as st
+    import os 
+    from langchain_openai import ChatOpenAI 
+    from langchain_core.messages 
+import HumanMessage, AIMessage, SystemMessage
+    from dotenv import load_dotenv 
+    from llama_parse import LlamaParse
+ 
+    from langchain_community.document_loaders import UnstructuredMarkdownLoader 
+    from langchain.text_splitter impo
+rt RecursiveCharacterTextSplitter  
+    from langchain_openai import OpenAIEmbeddings
+    
+    from pinecone import Pine
+cone, ServerlessSpec  
+    from langchain_pinecone import PineconeVectorStore  
+    from langchain.retrievers import Con
+textualCompressionRetriever
+    from cohere.client import Client as CohereClient
+    from langchain_cohere import Cohere
+Rerank  
+    from langchain.chains import create_retrieval_chain
+    from langchain.memory import ConversationSummaryMem
+ory
+    from langchain_core.prompts import ChatPromptTemplate
+    from langchain.chains.combine_documents import create_
+stuff_documents_chain
+    from langchain.chains import create_history_aware_retriever
+    from langchain_core.prompts im
+port MessagesPlaceholder
+    from langchain_core.chat_history import BaseChatMessageHistory
+    from langchain_community
+.chat_message_histories import ChatMessageHistory
+    from langchain_core.runnables.history import RunnableWithMessageHi
+story
+    
+    import asyncio
+    import joblib
+    import nest_asyncio
+    
+    load_dotenv()
+    
+    nest_asyncio.app
+ly()
+    
+    # clear console function
+    def cls():
+        os.system('cls' if os.name=='nt' else 'clear')
+    
+    # 
+OpenAI setup
+    openai_api_key = os.getenv('OPENAI_API_KEY')
+    llm = ChatOpenAI(
+        api_key=openai_api_key,
+    
+    temperature=0,
+        model='gpt-3.5-turbo-0125',
+        streaming=True,
+    )
+    
+    # Pinecone setup (for vect
+or storage)
+    api_key_pinecone = os.getenv('PINECONE_API_KEY')
+    pc = Pinecone(api_key=api_key_pinecone)
+    
+    # 
+Cohere setup (for reranking)
+    cohere_api_key = os.getenv('COHERE_API_KEY')
+    cohere_client = CohereClient(api_key=c
+ohere_api_key)
+    
+    # Cohere model API key and configuration
+    embeddings = OpenAIEmbeddings(model='text-embedding
+-3-large')
+    
+    # Initialize Pinecone Vector Store
+    vectorStore = PineconeVectorStore(index_name='rag-newchatmode
+l', embedding=embeddings)
+    
+    # Creating pkl string (required for llamaParser to work efficiently)
+    def create_p
+kl_string(filename):
+        file_name, extension = os.path.splitext(filename)
+        new_string = file_name + '.pkl'
+ 
+       return new_string
+    
+    # Loading and Parsing Data with the help of LlamaParse
+    def load_or_parse_data(file
+_name):
+        # LlamaParse creates a pkl file
+        # PDF -> pkl -> md -> vector 
+        changed_file_ext = create_
+pkl_string(file_name)
+        data_file = f'data/{changed_file_ext}'
+    
+        if os.path.exists(data_file):
+        
+    # Load the parsed data from the file
+            parsed_data = joblib.load(data_file)
+        else:
+            # Pe
+rform the parsing step and store the result in llama_parse_documents
+            parsingInstructionUber10k = '''The prov
+ided document is unstructured
+            It contains many tables, text, image and list.
+            Try to be precise w
+hile answering the questions'''
+            parser = LlamaParse(
+                api_key='llamaparse-api-key',
+         
+       result_type='markdown', # we want md file back
+                parsing_instruction=parsingInstructionUber10k,
+   
+             max_timeout=5000,
+            )
+            llama_parse_documents = parser.load_data(f'PDF_PATH/{file_name}
+')
+            # Save the parsed data to a file
+            print('Saving the parse results in .pkl format ..........')
+
+            joblib.dump(llama_parse_documents, f'data/{file_name}')
+    
+            # Set the parsed data to the variab
+le
+            parsed_data = llama_parse_documents
+    
+        return parsed_data
+    
+    # Create vector database
+   
+ def create_vector_database(file_name):
+        '''
+        Creates a vector database using document loaders and embeddi
+ngs.
+    
+        This function loads urls,
+        splits the loaded documents into chunks, transforms them into embedd
+ings using OllamaEmbeddings,
+        and finally persists the embeddings into a Chroma vector database.
+        '''
+    
+    print(file_name)
+        # Call the function to either load or parse the data
+        llama_parse_documents = load_o
+r_parse_data(file_name)
+        with open('data/output.md', 'w', encoding='utf-8') as f:
+            for doc in llama_pa
+rse_documents:
+                f.write(doc.text + '\n')
+    
+        markdown_path = 'data/output.md'
+        print('mar
+kdown_path', markdown_path)
+        loader = UnstructuredMarkdownLoader(markdown_path, encoding='utf-8')
+    
+        do
+cuments = loader.load()
+    
+        # Split loaded documents into chunks
+        text_splitter = RecursiveCharacterText
+Splitter(chunk_size=1000, chunk_overlap=100)
+        docs = text_splitter.split_documents(documents)
+    
+        # Prep
+are texts and metadatas
+        texts = [d.page_content for d in docs]
+        metadatas = [d.metadata for d in docs]
+  
+  
+        # Inserting to index
+        PineconeVectorStore.from_texts(
+            texts, embeddings, index_name='rag-n
+ewchatmodel', metadatas=metadatas
+        )
+    
+        print('Vector DB created successfully !')
+        return
+    
+ 
+   async def convert_to_vector(file_path, file_name):
+        index_name = 'rag-newchatmodel'
+        # Check if the ind
+ex exists
+        existing_indexes = pc.list_indexes()
+        if existing_indexes and existing_indexes[0].name == index
+_name:
+            # Delete the old index
+            pc.delete_index(index_name)
+            existing_indexes = pc.list
+_indexes()
+    
+        # Create a new data
+        pc.create_index(
+            name=index_name,
+            dimension=
+3072,
+            metric='cosine',
+            spec=ServerlessSpec(cloud='aws', region='us-east-1'),
+        )
+        c
+reate_vector_database(file_name)
+    
+    # PDF files directory (to save PDF files to local db)
+    save_folder = 'PDF_P
+ATH'
+    
+    if 'file_uploader_key' not in st.session_state:
+        st.session_state['file_uploader_key'] = 0
+    
+   
+ if 'uploaded_files' not in st.session_state:
+        st.session_state['uploaded_files'] = []
+    
+    # File uploader i
+n the sidebar (Streamlit's PDF uploader widget)
+    files = st.sidebar.file_uploader(
+        'Upload File', type=['pdf'
+], accept_multiple_files=True,key=st.session_state['file_uploader_key'],
+    )
+    
+    if files:
+        for uploaded_f
+ile in files:
+            if not os.path.exists(save_folder):
+                os.makedirs(save_folder)
+    
+            
+file_path = os.path.join(save_folder, uploaded_file.name)
+            with open(file_path, mode='wb') as w:
+            
+    w.write(uploaded_file.getvalue())
+                file_name = uploaded_file.name
+                asyncio.run(convert
+_to_vector(file_path, file_name))
+                st.sidebar.success(f'File {uploaded_file.name} uploaded successfully!'
+)
+                st.session_state['file_uploader_key'] += 1
+            st.rerun()
+    
+    # Function to list files in
+ a directory
+    def list_files_in_directory(directory):
+        if os.path.exists(directory):
+            return os.lis
+tdir(directory)
+        return []
+    
+    # Display the list of uploaded files with delete buttons
+    st.sidebar.write
+('### Uploaded Files:')
+    uploaded_files_list = list_files_in_directory(save_folder)
+    
+    # Function to delete a f
+ile
+    def delete_file(file_path):
+        if os.path.exists(file_path):
+            os.remove(file_path)
+    
+    for 
+file in uploaded_files_list:
+        file_path = os.path.join(save_folder, file)
+        col1, col2 = st.sidebar.columns
+([3, 1])
+        col1.write(file)
+        if col2.button('❌', key=file):
+            delete_file(file_path)
+            
+st.rerun()  # Refresh the app to update the file list
+    
     # Reranker 
     def reRanker():
-        compressor = CohereRerank(client=cohere_client)
-        compression_retrieve
-r = ContextualCompressionRetriever(
-            base_compressor=compressor,
-            base_retriever=vectorStore.as_re
-triever(
+        compressor = Cohe
+reRerank(client=cohere_client)
+        compression_retriever = ContextualCompressionRetriever(
+            base_compress
+or=compressor,
+            base_retriever=vectorStore.as_retriever(
                 search_kwargs={'k': 5},
-            ),
+            
+),
         )
         return compression_retriever
     
-    
-# Initialize store if not in session state
-    if 'store' not in st.session_state:
+    # Initialize store if not in session state
+    if 'store' not
+ in st.session_state:
         st.session_state.store = {}
- 
-   
+    
     ### Statefully manage chat history ###
     store = {}
+
     
-    def get_session_history(session_id: str) -> BaseC
-hatMessageHistory:
-        if session_id not in st.session_state.store:
-            st.session_state.store[session_id] =
- ChatMessageHistory()
-        return st.session_state.store[session_id]
+    def get_session_history(session_id: str) -> BaseChatMessageHistory:
+        if session_id not in st.session_st
+ate.store:
+            st.session_state.store[session_id] = ChatMessageHistory()
+        return st.session_state.store[s
+ession_id]
     
     contextualize_q_system_prompt = (
+        'Given a chat history and the latest user question '
      
-   'Given a chat history and the latest user question '
-        'which might reference context in the chat history, '
-  
-      'formulate a standalone question which can be understood '
-        'without the chat history. Do NOT answer the qu
-estion, '
-        'just reformulate it if needed and otherwise return it as is.'
+   'which might reference context in the chat history, '
+        'formulate a standalone question which can be understoo
+d '
+        'without the chat history. Do NOT answer the question, '
+        'just reformulate it if needed and otherwis
+e return it as is.'
     )
         
-    contextualize_q_prom
-pt = ChatPromptTemplate.from_messages(
+    contextualize_q_prompt = ChatPromptTemplate.from_messages(
         [
-            ('system', contextualize_q_system_prompt),
-            Mess
-agesPlaceholder('chat_history'),
-            ('human', '{input}'),
-        ]
-    )
-    
-    compression_retriever = reRa
-nker()
-    
-    history_aware_retriever = create_history_aware_retriever(
-        llm, compression_retriever, contextual
-ize_q_prompt
-    )
-    
-    
-    
-    system_prompt = (
-        'You are an assistant for question-answering tasks speci
-fically about the provided PDF documents.' 
-        'Use ONLY the following pieces of retrieved context to answer the qu
-estion.' 
-        'Provide answers exactly as they are written in the PDF, quoting or paraphrasing text directly from th
-e provided context.' 
-        'If you can't find the answer in the given context, say 'I'm sorry, but I couldn't find in
-formation about that in the provided PDF documents.' ' 
-        ' Do not use any external knowledge.'
-        '\n\n'
-   
-     '{context}'
-    ) 
-    
-    chatPrompt = ChatPromptTemplate.from_messages(
-        [
-            ('system', system_
-prompt),
+            
+('system', contextualize_q_system_prompt),
             MessagesPlaceholder('chat_history'),
-            ('human', '{input}'),
+            ('human', '{inpu
+t}'),
+        ]
+    )
+    
+    compression_retriever = reRanker()
+    
+    history_aware_retriever = create_history_awar
+e_retriever(
+        llm, compression_retriever, contextualize_q_prompt
+    )
+    
+    
+    # After 19 July
+    system_p
+rompt = (
+        'You are an assistant for question-answering tasks specifically about the provided PDF documents.' 
+  
+      'Follow the prompt STRICTLY but DO ensure that you don't answer any question out of context.'
+        'Use ONLY th
+e following pieces of retrieved context to answer the question.' 
+        'Provide answers exactly as they are written i
+n the PDF, quoting or paraphrasing text directly from the provided context.' 
+        'If you can't find the answer in t
+he given context, say 'I'm sorry, but I couldn't find information about that in the provided PDF documents.' ' 
+        
+' Do not use any external knowledge.'
+        '\n\n'
+        '{context}'
+    )
+    
+    chatPrompt = ChatPromptTemplate.
+from_messages(
+        [
+            ('system', system_prompt),
+            MessagesPlaceholder('chat_history'),
+       
+     ('human', '{input}'),
         ]
     )
         
-   
- question_answer_chain = create_stuff_documents_chain(llm, chatPrompt)
+    question_answer_chain = create_stuff_documents_chain(llm, chatPr
+ompt)
     
-    rag_chain = create_retrieval_chain(histo
-ry_aware_retriever, question_answer_chain)
+    rag_chain = create_retrieval_chain(history_aware_retriever, question_answer_chain)
     
-    conversational_rag_chain = RunnableWithMessageHistory(
-        rag_c
-hain,
+    conversationa
+l_rag_chain = RunnableWithMessageHistory(
+        rag_chain,
         get_session_history,
-        input_messages_key='input',
+        input_messages_key='in
+put',
         output_messages_key='answer',
-        his
-tory_messages_key='chat_history',
+        history_messages_key='chat_history',
     )
     
     
-    # generate response 
+    # generate 
+response 
     def generate_response(prompt: str) :
-    
-    for chunk in conversational_rag_chain.stream(input={'input': prompt},config={'configurable': {'session_id': 'uniqueV
-alue1234'}}):
+        for chunk in conversational_rag_chain.stream(input={'input': 
+prompt},config={'configurable': {'session_id': 'gaurav'}}):
             answer_chunk = chunk.get('answer')
-            if answer_chunk:
-                yield answer_c
-hunk
+            i
+f answer_chunk:
+                yield answer_chunk
     
     
     # Render chat history
-    session_id = 'uniqueValue1234'  # Define your session ID
+    session_id = 'gaurav'  # Defi
+ne your session ID
     
-    if 'chat_
-history' not in st.session_state:
+    if 'chat_history' not in st.session_state:
         st.session_state.chat_history = []
     
-    # Conversation History
-    for mes
-sage in st.session_state.chat_history:
+ 
+   # Conversation History
+    for message in st.session_state.chat_history:
         if isinstance(message,HumanMessage):
-            with st.chat_message('Hu
-man'):
+
+            with st.chat_message('Human'):
                 st.markdown(message.content)
         else:
-            with st.chat_message('AI'):
-              
-  st.markdown(message.content)
+            with 
+st.chat_message('AI'):
+                st.markdown(message.content)
     
     
-    prompt = st.chat_input('Hey, What's up?')
+    prompt = st.chat_input('Hey, What's up
+?')
     
-    if prompt is not None an
-d prompt !='' :
+    if prompt is not None and prompt !='' :
         st.session_state.chat_history.append(HumanMessage(prompt))
-        with st.chat_message('Human')
-:
+
+        with st.chat_message('Human'):
             st.markdown(prompt)
     
         if len(pc.list_indexes()) == 0:
-            st.error('Please upload some 
-files first!')
+    
+        st.error('Please upload some files first!')
         else:
             with st.chat_message('AI'):
-                ai_response = st.write_stream(gener
-ate_response(prompt))
+              
+  ai_response = st.write_stream(generate_response(prompt))
     
-            st.session_state.chat_history.append(AIMessage(ai_response))
+            st.session_state.chat_history.append(AIMessa
+ge(ai_response))
     
-
-
-
-For those se
-eing my post first time , Hi , I'm a web dev learning AI , currently developing a PDF RAG app.   
-  
-I want the answer t
-o my queries should come from pdf only . If there is no answer for a query , AI should return something like ' Answer is
- not in the provided document ... etc ' .
-
-current state of my app is that sometimes it fails to answer questions from m
-y pdf which are present in the pdf and sometimes it answers general questions that it shouldn't answer .
-
-I've a system 
-prompt in which I asked AI to not give answers of any other questions outside pdf . 
-
-But it's not working .
-
-Now ,
-
-Is 
-my code OK ? What did I do wrong ?
-
-Is system prompt alone not enough to stop RAG from giving answers to general questio
-ns  ?
-
-What is the way to stop it from answering general questions ? Do I need to use Agents for this ?
 ```
 ---
 
      
  
-all -  [ PSA: LangGraph removed the support for self hosting ](https://www.reddit.com/r/LangChain/comments/1e6xli4/psa_langgraph_removed_the_support_for_self_hosting/) , 2024-07-20-0911
+all -  [ PSA: LangGraph removed the support for self hosting ](https://www.reddit.com/r/LangChain/comments/1e6xli4/psa_langgraph_removed_the_support_for_self_hosting/) , 2024-07-21-0912
 ```
 Heads up, folks! If you're considering LangGraph for your projects, especially for production, here's something you need
  to know. LangGraph has recently removed the option to self-host. This means you can only use their cloud platform from 
@@ -1005,7 +1341,7 @@ elf-hosting options or more control over your production environment.
 
      
  
-all -  [ Routing Use of Langchain Application ](https://www.reddit.com/r/LangChain/comments/1e6x8mb/routing_use_of_langchain_application/) , 2024-07-20-0911
+all -  [ Routing Use of Langchain Application ](https://www.reddit.com/r/LangChain/comments/1e6x8mb/routing_use_of_langchain_application/) , 2024-07-21-0912
 ```
 HI
 
@@ -1021,7 +1357,7 @@ ere any tutorial on youtube which really create something which we actually use 
 
      
  
-all -  [ Retreiving Metadata from Documents ](https://www.reddit.com/r/LangChain/comments/1e6vqw0/retreiving_metadata_from_documents/) , 2024-07-20-0911
+all -  [ Retreiving Metadata from Documents ](https://www.reddit.com/r/LangChain/comments/1e6vqw0/retreiving_metadata_from_documents/) , 2024-07-21-0912
 ```
 Hi, I am able to upload the pdf file using the unstrucutred loader and query the PDf file, but I ask something like, Can
  you mention the source file to LLM? It is not answering.
@@ -1048,7 +1384,7 @@ Is there any way to do it?
 
      
  
-all -  [ Please roast my Resume, current MSCS student graduating May/December 2025 looking for internship/ful ](https://www.reddit.com/r/resumes/comments/1e6vfps/please_roast_my_resume_current_mscs_student/) , 2024-07-20-0911
+all -  [ Please roast my Resume, current MSCS student graduating May/December 2025 looking for internship/ful ](https://www.reddit.com/r/resumes/comments/1e6vfps/please_roast_my_resume_current_mscs_student/) , 2024-07-21-0912
 ```
 Please help me improve my resume. I just started looking for internships/full-times but haven't landed any interviews ye
 t.
@@ -1062,7 +1398,7 @@ b48d11d90)
 
      
  
-all -  [ Guide to create a RAG Agent ](https://www.reddit.com/r/LangChain/comments/1e6umwn/guide_to_create_a_rag_agent/) , 2024-07-20-0911
+all -  [ Guide to create a RAG Agent ](https://www.reddit.com/r/LangChain/comments/1e6umwn/guide_to_create_a_rag_agent/) , 2024-07-21-0912
 ```
 **Introduction**
 
@@ -1098,7 +1434,7 @@ ing web searches and generating research reports, making it a valuable tool for 
 
      
  
-all -  [ Analyze failure modes in code ](https://www.reddit.com/r/LangChain/comments/1e6sdyi/analyze_failure_modes_in_code/) , 2024-07-20-0911
+all -  [ Analyze failure modes in code ](https://www.reddit.com/r/LangChain/comments/1e6sdyi/analyze_failure_modes_in_code/) , 2024-07-21-0912
 ```
 My company has a support team to which we want to transition our application to. My task is to automate the process of c
 reating the FMEA document. 
@@ -1114,7 +1450,7 @@ ombined the two. Also when it is making some observations that sounds useful but
      
  
 all -  [ Why GPT 4o Mini not be the foundation of Agentic Workflows?
- ](https://www.reddit.com/r/LangChain/comments/1e6pizc/why_gpt_4o_mini_not_be_the_foundation_of_agentic/) , 2024-07-20-0911
+ ](https://www.reddit.com/r/LangChain/comments/1e6pizc/why_gpt_4o_mini_not_be_the_foundation_of_agentic/) , 2024-07-21-0912
 ```
 [There’s been a huge rise in papers on LLM-based agents in the two years,](https://arxiv.org/abs/2309.07864) showing obv
 ious benefits in output quality and complexity of the task that can be handled. There are 2 obvious problems:
@@ -1140,7 +1476,7 @@ oundation-of-agentic-workflows-7fd189138da4) )
 
      
  
-all -  [ Seeking help and referrals for jobs in Pune ](https://www.reddit.com/r/pune/comments/1e6jnhl/seeking_help_and_referrals_for_jobs_in_pune/) , 2024-07-20-0911
+all -  [ Seeking help and referrals for jobs in Pune ](https://www.reddit.com/r/pune/comments/1e6jnhl/seeking_help_and_referrals_for_jobs_in_pune/) , 2024-07-21-0912
 ```
 I have been searching for jobs for almost a couple of months now. I had been working in a startup previously due to whic
 h I opted out for placement scenario in our college. Although, I had to let go of the startup due to a lot of unresolvab
@@ -1164,7 +1500,7 @@ ea2f496f8ca6cf199fadf4d82d61f573c34
 
      
  
-all -  [ Building a RAG with LlamaIndex vs Langchain ](https://www.reddit.com/r/LocalLLaMA/comments/1e6ir2f/building_a_rag_with_llamaindex_vs_langchain/) , 2024-07-20-0911
+all -  [ Building a RAG with LlamaIndex vs Langchain ](https://www.reddit.com/r/LocalLLaMA/comments/1e6ir2f/building_a_rag_with_llamaindex_vs_langchain/) , 2024-07-21-0912
 ```
 **What did I build?**
 
@@ -1232,7 +1568,7 @@ rength lies in code that helps you achieve efficient indexing and querying.|Lang
 
      
  
-all -  [ Using create_pandas_dataframe_agent as a tool ](https://www.reddit.com/r/LangChain/comments/1e6hrjb/using_create_pandas_dataframe_agent_as_a_tool/) , 2024-07-20-0911
+all -  [ Using create_pandas_dataframe_agent as a tool ](https://www.reddit.com/r/LangChain/comments/1e6hrjb/using_create_pandas_dataframe_agent_as_a_tool/) , 2024-07-21-0912
 ```
 Are you able to create a tool using create\_pandas\_dataframe\_agent?
 
@@ -1250,7 +1586,7 @@ Any help would be greatly appreciated. Thanks in advance!
 
      
  
-all -  [ IP address range filter for RAG ](https://www.reddit.com/r/LangChain/comments/1e6hls9/ip_address_range_filter_for_rag/) , 2024-07-20-0911
+all -  [ IP address range filter for RAG ](https://www.reddit.com/r/LangChain/comments/1e6hls9/ip_address_range_filter_for_rag/) , 2024-07-21-0912
 ```
 I have two indexes with my pinecone vector databases, one has the sensitive and private data of my org, while other has 
 embeddings related to open data.
@@ -1275,7 +1611,7 @@ Looking forward for the views.
 
      
  
-all -  [ Where can i start learning Langchain? ](https://www.reddit.com/r/LangChain/comments/1e6gyij/where_can_i_start_learning_langchain/) , 2024-07-20-0911
+all -  [ Where can i start learning Langchain? ](https://www.reddit.com/r/LangChain/comments/1e6gyij/where_can_i_start_learning_langchain/) , 2024-07-21-0912
 ```
 As the title suggests , please recommend a tutorial  / course to implement a RAG.  
 I wnat to query a large csv data set
@@ -1285,7 +1621,7 @@ I wnat to query a large csv data set
 
      
  
-all -  [ How to integrate python project to a website ](https://www.reddit.com/r/learnmachinelearning/comments/1e6gava/how_to_integrate_python_project_to_a_website/) , 2024-07-20-0911
+all -  [ How to integrate python project to a website ](https://www.reddit.com/r/learnmachinelearning/comments/1e6gava/how_to_integrate_python_project_to_a_website/) , 2024-07-21-0912
 ```
 Hii ,
 I have created a simple chatbot using langchain , it extracts text from pdf , creates a vector data base and then 
@@ -1297,7 +1633,7 @@ I have no prior experience of web development.Please anyone guide me.
 
      
  
-all -  [ How to implement a RAG with different data sources  ](https://www.reddit.com/r/LangChain/comments/1e6g04p/how_to_implement_a_rag_with_different_data_sources/) , 2024-07-20-0911
+all -  [ How to implement a RAG with different data sources  ](https://www.reddit.com/r/LangChain/comments/1e6g04p/how_to_implement_a_rag_with_different_data_sources/) , 2024-07-21-0912
 ```
 I'm implementing a RAG with mongo and SQL as data connectors. Each store different entities of data. Now, I want to retr
 ieve data based on question asked by user. I tried an approach initially.
@@ -1312,7 +1648,7 @@ nd main issue is it is taking so much time. Is there any better and efficient me
 
      
  
-all -  [ The best way to create ask your document RAG system ](https://www.reddit.com/r/LangChain/comments/1e6eqrb/the_best_way_to_create_ask_your_document_rag/) , 2024-07-20-0911
+all -  [ The best way to create ask your document RAG system ](https://www.reddit.com/r/LangChain/comments/1e6eqrb/the_best_way_to_create_ask_your_document_rag/) , 2024-07-21-0912
 ```
 Hello guys, I am working on project for chatting with your documents (PDF mostly), so i built a basic RAG system using l
 angchain, Unstructured for extraction, qdrant db for indexing and Nvidia qa embedding for embedding, and it’s good but i
@@ -1323,7 +1659,7 @@ help me and tell me some advanced approaches for chatting with your pdf, and mak
 
      
  
-all -  [ Does anyone know why `from langchain_google_vertexai import VertexAIEmbeddings` is so slow?  ](https://www.reddit.com/r/GoogleGeminiAI/comments/1e6egdj/does_anyone_know_why_from_langchain_google/) , 2024-07-20-0911
+all -  [ Does anyone know why `from langchain_google_vertexai import VertexAIEmbeddings` is so slow?  ](https://www.reddit.com/r/GoogleGeminiAI/comments/1e6egdj/does_anyone_know_why_from_langchain_google/) , 2024-07-21-0912
 ```
 It frequently takes 3+ secs to load or it's stuck on it intermittently.  
 ```
@@ -1331,7 +1667,7 @@ It frequently takes 3+ secs to load or it's stuck on it intermittently.
 
      
  
-all -  [ Different Output when using SentenceSplitter/TokenTextSplitter on Document and raw text ](https://www.reddit.com/r/LlamaIndex/comments/1e6d6pe/different_output_when_using/) , 2024-07-20-0911
+all -  [ Different Output when using SentenceSplitter/TokenTextSplitter on Document and raw text ](https://www.reddit.com/r/LlamaIndex/comments/1e6d6pe/different_output_when_using/) , 2024-07-21-0912
 ```
     token_splitter = TokenTextSplitter(chunk_size=50, chunk_overlap=5)
     
@@ -1379,7 +1715,7 @@ e some standardized parameters when constructing ChatModels:
 
      
  
-all -  [ VectorDB vs SerpAPI ](https://www.reddit.com/r/LangChain/comments/1e6bz6y/vectordb_vs_serpapi/) , 2024-07-20-0911
+all -  [ VectorDB vs SerpAPI ](https://www.reddit.com/r/LangChain/comments/1e6bz6y/vectordb_vs_serpapi/) , 2024-07-21-0912
 ```
 I am implementing RAG using two separate approaches: one with Vector DB and another with Serp API. I have found that Ser
 p API is better at capturing the context of the query. I would like to know the use cases for when to use Vector DB and 
@@ -1389,7 +1725,7 @@ when to use Serp API for document search. I know perplexity uses only Serp API a
 
      
  
-all -  [ How can i create Medical RAG chatbot.  ](https://www.reddit.com/r/LangChain/comments/1e6bic0/how_can_i_create_medical_rag_chatbot/) , 2024-07-20-0911
+all -  [ How can i create Medical RAG chatbot.  ](https://www.reddit.com/r/LangChain/comments/1e6bic0/how_can_i_create_medical_rag_chatbot/) , 2024-07-21-0912
 ```
 Hello!
  
@@ -1411,7 +1747,7 @@ Thank you!
 
      
  
-all -  [ Can I access a URL documentation using Langchain/ Anthropic API? ](https://www.reddit.com/r/ClaudeAI/comments/1e6b04j/can_i_access_a_url_documentation_using_langchain/) , 2024-07-20-0911
+all -  [ Can I access a URL documentation using Langchain/ Anthropic API? ](https://www.reddit.com/r/ClaudeAI/comments/1e6b04j/can_i_access_a_url_documentation_using_langchain/) , 2024-07-21-0912
 ```
 hi
 
@@ -1424,7 +1760,7 @@ m the vector db and then access the URL documentation as well. Has anyone tried 
      
  
 all -  [ Template to use Microsoft SharePoint as a data source for Enterprise RAG pipelines
- ](https://www.reddit.com/r/LangChain/comments/1e6aby5/template_to_use_microsoft_sharepoint_as_a_data/) , 2024-07-20-0911
+ ](https://www.reddit.com/r/LangChain/comments/1e6aby5/template_to_use_microsoft_sharepoint_as_a_data/) , 2024-07-21-0912
 ```
 Hi r/langchain,
 
@@ -1467,255 +1803,7 @@ ties and indexing techniques
 
      
  
-all -  [ Je li itko ugrađivao AI Chatbota na svoje stranice? Potrebno mi je par savjeta ](https://www.reddit.com/r/CroIT/comments/1e69tlb/je_li_itko_ugrađivao_ai_chatbota_na_svoje/) , 2024-07-20-0911
-```
-Ovako, dobio sam od šefa zadatak da ako je moguće ugradim neki mali chatbot na 'policies' stranice. Tu ima nekih 20ak ma
-lih txt file-ova iz kojih bi AI trebao učiti i davati odgovore korisnicima, kao npr, 'how do you apply taxes' ili slično
-. Stranice su obične html statičke stranice hostane na AWS S3.
-
-Malo sam istraživao, i koliko vidim moguće je sa Langcha
-in.js frameworkom uraditi nešto slično, ali mi je  potreban savjet od nekoga iskusnijeg, npr. koji Chat model koristiti 
-(Open AI, Web LLM...), hostati neku AWS lambda funkciju koja će komunicirati sa modelom, ili napraviti svoj neki server,
- ili pak pokušavati trenirati neki svoj model... SVI savjeti su dobrodošli jer nisam baš iskusan sa AI.
-
-Hvala!
-```
----
-
-     
- 
-all -  [ eparser parsing to sqllite ](https://www.reddit.com/r/LangChain/comments/1e67x37/eparser_parsing_to_sqllite/) , 2024-07-20-0911
-```
-I'm looking for examples of Python code that demonstrate parsing Excel files into SQLite databases using eparser. I've c
-ome across the Excelparser package, but I'm unsure how to use it as the documentation primarily provides shell prompts r
-ather than Python code examples.
-```
----
-
-     
- 
-all -  [ Measuring relevance of the knowledge base to user questions ](https://www.reddit.com/r/LangChain/comments/1e67ods/measuring_relevance_of_the_knowledge_base_to_user/) , 2024-07-20-0911
-```
-Hello,
-
-I have a document that explains finance policies and processes of some company. The goal is to build a chatbot u
-sing RAG framework upon that document to serve employees who have queries related to financial issues.  
-  
-I got sample
- questions from stack-holders and I made them as a criteria to measure the chatbot performance. What I noticed is that s
-ample questions are slightly complex and do not have direct answers in the document. The retrieved context via semantic 
-similarity search does not get the desired part of the document so the answers are incorrect or misleading.   
-  
-So, I 
-am wondering if the document is not suitable to answer user questions or not. How to measure the relevance of the docume
-nt content to user questions?! what kind of preprocessing I  may do on the document to fix that issue.  
-  
-What made me
- more confused is that when I uploaded the document on chatgpt and tried to ask the same questions, it was able to answe
-r questions correctly. This made me think of the chatgpt method to process documents and answer questions based on them?
- I think it is not using embedding and similarity search as I do!
-
-I have tried different techniques like parent documen
-t retrieval and multi-representation indexing but still have the problem of capturing wrong parts of the document!
-
-I am
- using OpenAi Embedding and gpt-3.5-turbo.
-```
----
-
-     
- 
-all -  [ GraphRAG ](https://www.reddit.com/r/LangChain/comments/1e66e9r/graphrag/) , 2024-07-20-0911
-```
-I've been noticing more and more people are using GraphRAG instead of embedding and vector databases...is it really help
-ful or just the hype?
-```
----
-
-     
- 
-all -  [ (Code included) If you're doing RAG and your search queries are sometimes very specific, then you wa ](https://www.reddit.com/r/LangChain/comments/1e65b82/code_included_if_youre_doing_rag_and_your_search/) , 2024-07-20-0911
-```
-I gave a workshop recently and managed to record it
-
-You can do hybrid search (e.g combining similarity search with keyw
-ords search - your traditional search) in many ways and not just in Pinecone or Weaviate.
-
-You can even do your own setu
-p of hybrid search in Postgres too (with Supabase, for example)
-
-Here's the video: [https://www.youtube.com/watch?v=d\_W
-wEdxyuGs](https://www.youtube.com/watch?v=d_WwEdxyuGs)
-
-Here's the Jupyter notebook: [https://github.com/trancethehuman/
-ai-workshop-code/blob/main/Hybrid\_Search\_Workshop.ipynb](https://github.com/trancethehuman/ai-workshop-code/blob/main/
-Hybrid_Search_Workshop.ipynb)
-
-  
-Enjoy.
-```
----
-
-     
- 
-all -  [ PDF RAG app is giving answer of general questions , I don't want it to . What is wrong with my code  ](https://www.reddit.com/r/LangChain/comments/1e635xo/pdf_rag_app_is_giving_answer_of_general_questions/) , 2024-07-20-0911
-```
-I'm developing a PDF RAG app . You can see the code below .
-
-    def reRanker():
-        compressor = CohereRerank(clien
-t=cohere_client)
-        compression_retriever = ContextualCompressionRetriever(
-            base_compressor=compressor,
-
-            base_retriever=vectorStore.as_retriever(
-                search_kwargs={'k': 5},
-            ),
-        )
- 
-       return compression_retriever
-    
-    if 'store' not in st.session_state:
-        st.session_state.store = {}
-   
- 
-    store = {}
-    
-    def get_session_history(session_id: str) -> BaseChatMessageHistory:
-        if session_id not 
-in st.session_state.store:
-            st.session_state.store[session_id] = ChatMessageHistory()
-        return st.sessi
-on_state.store[session_id]
-    
-    contextualize_q_system_prompt = (
-        'Given a chat history and the latest user 
-question '
-        'which might reference context in the chat history, '
-        'formulate a standalone question which 
-can be understood '
-        'without the chat history. Do NOT answer the question, '
-        'just reformulate it if nee
-ded and otherwise return it as is.'
-    )
-    contextualize_q_prompt = ChatPromptTemplate.from_messages(
-        [
-     
-       ('system', contextualize_q_system_prompt),
-            MessagesPlaceholder('chat_history'),
-            ('human',
- '{input}'),
-        ]
-    )
-    
-    compression_retriever = reRanker()
-    
-    history_aware_retriever = create_histo
-ry_aware_retriever(
-        llm, compression_retriever, contextualize_q_prompt
-    )
-    
-    system_prompt = (
-        
-'You are an assistant for question-answering tasks. '
-        'Use the following pieces of retrieved context to answer '
-
-        'the question. If you don't know the answer, say that you '
-        'don't know. Use three sentences maximum an
-d keep the '
-        'answer concise.'
-        '\n\n'
-        '{context}'
-    )
-    
-    chatPrompt = ChatPromptTemplate
-.from_messages(
-        [
-            ('system', system_prompt),
-            MessagesPlaceholder('chat_history'),
-      
-      ('human', '{input}'),
-        ]
-    )
-    
-    question_answer_chain = create_stuff_documents_chain(llm, chatPromp
-t)
-    rag_chain = create_retrieval_chain(history_aware_retriever, question_answer_chain)
-    conversational_rag_chain =
- RunnableWithMessageHistory(
-        rag_chain,
-        get_session_history,
-        input_messages_key='input',
-       
- output_messages_key='answer',
-        history_messages_key='chat_history',
-    )
-    
-    def generate_response(prompt:
- str) :
-        for chunk in conversational_rag_chain.stream(input={'input': prompt},config={'configurable': {'session_i
-d': 'uniqueValue1234'}}):
-            answer_chunk = chunk.get('answer')
-            if answer_chunk:
-                yi
-eld answer_chunk
-        
-    session_id = 'uniqueValue1234'
-    
-    if 'chat_history' not in st.session_state:
-       
- st.session_state.chat_history = []
-    
-    for message in st.session_state.chat_history:
-        if isinstance(message
-,HumanMessage):
-            with st.chat_message('Human'):
-                st.markdown(message.content)
-        else:
-  
-          with st.chat_message('AI'):
-                st.markdown(message.content)
-    
-    
-    prompt = st.chat_input(
-'Hey, What's up?')
-    
-    if prompt is not None and prompt !='' :
-        st.session_state.chat_history.append(HumanMe
-ssage(prompt))
-        with st.chat_message('Human'):
-            st.markdown(prompt)
-    
-        if len(pc.list_indexe
-s()) == 0:
-            st.error('Please upload some files first!')
-        else:
-            with st.chat_message('AI'):
-
-                ai_response = st.write_stream(generate_response(prompt))
-    
-            st.session_state.chat_history
-.append(AIMessage(ai_response))
-    
-
-Now , I ask my RAG app questions related to the pdf . It gives answer as I expect 
-, chat history is also working . LLM is able to refer to previous conversation in the session .
-
-Now , I ask a general q
-uestion in my prompt . Sometimes , I get the response ' I don't know ' but other times it is returning the answer like C
-hatGPT . I want my app to limit response to PDF only . 
-
-https://preview.redd.it/j6nvl2fek7dd1.png?width=1497&format=png
-&auto=webp&s=a8de42944ac67dbb14ad61675edd3765e4833896
-
-A screenshot of my problem :  
-
-```
----
-
-     
- 
-MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-07-20-0911
+MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-07-21-0912
 ```
 We completely underestimated this one tbh, thought it would be much more straight forward. But we've done it now and doc
 umented how step by step [in this article series](https://medium.com/p/5828a1ea43a3).
@@ -1735,7 +1823,7 @@ f a better way to do it?
 
      
  
-MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-07-20-0911
+MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-07-21-0912
 ```
 Hi everyone!
 
@@ -1781,7 +1869,7 @@ e/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-
 
      
  
-deeplearning -  [ Llama 3 not running on GPU ](https://www.reddit.com/r/deeplearning/comments/1dptxsr/llama_3_not_running_on_gpu/) , 2024-07-20-0911
+deeplearning -  [ Llama 3 not running on GPU ](https://www.reddit.com/r/deeplearning/comments/1dptxsr/llama_3_not_running_on_gpu/) , 2024-07-21-0912
 ```
 I dont know much theory about RAG but i need to implement it for a project.  
 **I want to run llama3 on my GPU to get fa
@@ -1804,27 +1892,6 @@ This code goes not use my GPU but my CPU and RAM usage is high.
 
 **My gpu usage is 
 0%** , i have a Nvidia GeForce RTX 3050 Laptop GPU GDDR6 @ 4GB (128 bits)
-```
----
-
-     
- 
-deeplearning -  [ What is ReAct Prompting? the most important piece in agentic frameworks ](https://www.reddit.com/gallery/1djk4nk) , 2024-07-20-0911
-```
-“What is ReAct Prompting? the most important piece in agentic frameworks” - A quick read from Mastering LLM (Large Langu
-age Model) 'Coffee Break Concepts' Vol.6
-
-This document deeps dive into the ReAct Prompting method and why it's importan
-t:
-1. Limitations of LLM
-2. Why ReAct prompting matters?
-3. How ReAct Works?
-4. LangChain Implementation
-5. Why Prompt w
-ithin agentic frameworks Matters?
-
-Comment below on which topic you want to understand next in this 'Coffee Break Concep
-ts' series and we will include those topics in upcoming weeks.
 ```
 ---
 
