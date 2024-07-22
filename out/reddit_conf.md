@@ -1,5 +1,5 @@
  
-all -  [ [CfP] The NeurIPS 2024 Creative AI Track ](https://groups.google.com/g/ml-news/c/I4P7Fzl5p38) , 2024-07-21-0912
+all -  [ [CfP] The NeurIPS 2024 Creative AI Track ](https://groups.google.com/g/ml-news/c/I4P7Fzl5p38) , 2024-07-22-0911
 ```
 
 ```
@@ -7,7 +7,7 @@ all -  [ [CfP] The NeurIPS 2024 Creative AI Track ](https://groups.google.com/g/
 
      
  
-all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-07-21-0912
+all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-07-22-0911
 ```
 The sentences quoted in the post title are from *Reuters* article [Exclusive: OpenAI working on new reasoning technology
  under code name ‘Strawberry’](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-t
@@ -44,7 +44,7 @@ etic.
 
      
  
-all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-07-21-0912
+all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-07-22-0911
 ```
 [New episode of Imbue's Generally Intelligent podcast](https://imbue.com/podcast/2024-07-11-podcast-episode-36-ari-morco
 s/) with Ari Morcos*,* CEO of [DatologyAI](https://www.datologyai.com), which makes training deep learning models more p
@@ -76,7 +76,7 @@ Highlights and referenced papers](https://imbue.com/podcast/2024-02-08-podcast-e
 
      
  
-all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-07-21-0912
+all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-07-22-0911
 ```
 \[FIXED\] Hi! I have recently begun using arc as my primary browser (still transitioning) but one thing I can't get over
  is that PDFs sometimes invert colors completely and I'm not sure how to fix it. I thought it had to do with the light/d
@@ -91,7 +91,7 @@ https://preview.redd.it/tlc1cdn62cbd1.png?width=
 
      
  
-all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-07-21-0912
+all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-07-22-0911
 ```
 **Introduction**
 
@@ -189,7 +189,7 @@ e emerges. Is this the echo of creation... or the birth of something entirely ot
 
      
  
-all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-07-21-0912
+all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-07-22-0911
 ```
 [The moment we stopped understanding AI \[AlexNet\]](https://www.youtube.com/watch?v=UZDiGooFs54)
 
@@ -386,7 +386,7 @@ ibing our architecture, brother, not just theirs!
 
      
  
-all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-21-0912
+all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-22-0911
 ```
 Klar - es gab noch mehr Papers - aber ich glaube, dass ich die wirklich wesentlichen erfasst habe. Viel Spaß beim stöber
 n und ein schönes Wochenende!
@@ -688,7 +688,7 @@ s://kinews24.de/xlstm/](https://kinews24.de/xlstm/)
 
      
  
-all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-21-0912
+all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-22-0911
 ```
 # Introduction
 
@@ -790,7 +790,7 @@ ebp&s=93bcdac6f05960dff4910d26b3bcc35d3882eba8)
 
      
  
-all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-21-0912
+all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-22-0911
 ```
 I already posted once on here (on a different account) and had questions about awards because that's what I feel I lack.
 
@@ -894,7 +894,7 @@ I am very confused about what I should be doing for awards. Given that I do not 
 
      
  
-all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-21-0912
+all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-22-0911
 ```
 Hey all!
 So originally I was accepted into Algoverse for the Neurips track and was browsing on reddit to see if it was a
@@ -940,7 +940,7 @@ ice, I would recommend.
 
      
  
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/neuralnetworks/comments/1dqgeuz/deep_learning_paper_summaries/) , 2024-07-21-0912
+all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/neuralnetworks/comments/1dqgeuz/deep_learning_paper_summaries/) , 2024-07-22-0911
 ```
 The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
 gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
@@ -972,7 +972,7 @@ m/vlgiitr/papers_we_read) will be constantly updated with summaries of more pap
 
      
  
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/DeepLearningPapers/comments/1dqfuky/deep_learning_paper_summaries/) , 2024-07-21-0912
+all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/DeepLearningPapers/comments/1dqfuky/deep_learning_paper_summaries/) , 2024-07-22-0911
 ```
 The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
 gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
@@ -1005,7 +1005,7 @@ om/vlgiitr/papers_we_read) will be constantly updated with summaries of more pap
 
      
  
-all -  [ [D] Is anyone else absolutely besieged by papers and always on the verge of getting scooped? ](https://www.reddit.com/r/MachineLearning/comments/1dqbgw4/d_is_anyone_else_absolutely_besieged_by_papers/) , 2024-07-21-0912
+all -  [ [D] Is anyone else absolutely besieged by papers and always on the verge of getting scooped? ](https://www.reddit.com/r/MachineLearning/comments/1dqbgw4/d_is_anyone_else_absolutely_besieged_by_papers/) , 2024-07-22-0911
 ```
 I'm a 1st year PhD student working on a hot area in ML (3 guesses as to what lol) and the past year has been absolutely 
 brutal for me on a personal level. Every single weekday, I check the daily arxiv digest that hits my inbox, and there ar
@@ -1030,7 +1030,7 @@ th the stress of fast publication cycles, or for generally struggling through th
 
      
  
-all -  [ is this the end of my career? ](https://www.reddit.com/r/postdoc/comments/1dpjwig/is_this_the_end_of_my_career/) , 2024-07-21-0912
+all -  [ is this the end of my career? ](https://www.reddit.com/r/postdoc/comments/1dpjwig/is_this_the_end_of_my_career/) , 2024-07-22-0911
 ```
 so i have a phd in chem and a research focus in comp bio (drug discovery and such). I am up-to-date with ML literture in
  my field and have even applied some of the ML methods in my project. But I havent developed a foundation model or publi
@@ -1057,7 +1057,7 @@ Sorry for my rant. Any advice helps thanks.
 
      
  
-all -  [ [D] Difference between ICLR and AISTATS ](https://www.reddit.com/r/MachineLearning/comments/1do796a/d_difference_between_iclr_and_aistats/) , 2024-07-21-0912
+all -  [ [D] Difference between ICLR and AISTATS ](https://www.reddit.com/r/MachineLearning/comments/1do796a/d_difference_between_iclr_and_aistats/) , 2024-07-22-0911
 ```
 There is a somewhat [duplicated question](https://www.reddit.com/r/MachineLearning/comments/olmq3m/d_difference_between_
 aaai_iclr_and_aistats/) here, but I would like to bring this topic up again, since the September/October deadline is app
@@ -1089,7 +1089,7 @@ e work itself is more important than the publication venue', which is obviously 
 
      
  
-all -  [ Google's open-weight XTR (conteXtualized Token Retriever) models for document retrieval (Apache 2.0  ](https://www.reddit.com/r/LocalLLaMA/comments/1dm336p/googles_openweight_xtr_contextualized_token/) , 2024-07-21-0912
+all -  [ Google's open-weight XTR (conteXtualized Token Retriever) models for document retrieval (Apache 2.0  ](https://www.reddit.com/r/LocalLLaMA/comments/1dm336p/googles_openweight_xtr_contextualized_token/) , 2024-07-22-0911
 ```
 I just noticed two models on Google's HuggingFace that we haven't discussed earlier on this subreddit. It's the XTR (con
 teXtualized Token Retriever) models from Google DeepMind. They state:
@@ -1128,37 +1128,6 @@ oken retrieval allows XTR to rank candidates only using the retrieved tokens rat
 pular BEIR benchmark, XTR advances the state-of-the-art by 2.8 nDCG@10 without any distillation. Detailed analysis confi
 rms our decision to revisit the token retrieval stage, as XTR demonstrates much better recall of the token retrieval sta
 ge compared to ColBERT.
-```
----
-
-     
- 
-all -  [ Employers' view on CS PhD in computational biology vs pure ML? ](https://www.reddit.com/r/cscareerquestions/comments/1dkgau4/employers_view_on_cs_phd_in_computational_biology/) , 2024-07-21-0912
-```
-I am a little worried about how future employers (e.g. FAANG) might view a CS PhD in computational biology. They might v
-iew me to be a 'better fit' for big pharma/biotech post-graduation.
-
-I became interested in the comp bio side of things 
-research-wise as it is more meaningful, but from a career standpoint, I am getting a little nervous from a flexibility s
-tandpoint (e.g. if I want to go back into big tech after graduation). Since we publish computational approaches for biol
-ogy, albeit very heavily in biology/medicine-related journals (e.g. Nature Comm, Nature BioE/Genetics/Medicine/etc, Geno
-me Biology) (and much less in ML conferences like NeurIPS ICML ICLR CVPR), it 'seems' as if we are much less productive 
-than other CS labs from big tech companies. I have heard in general CS that is not comp bio, people seem to treat confer
-ence and journal papers roughly equally, while in biology people treat journal papers much more heavily since they take 
-longer to publish and require more experimental rigor.
-
-Specifically, it seems that students from other labs regularly p
-ublish \~3-4 conference papers a year from top ML venues, whereas we only get <1 journal publication a year (which is re
-ally good for non-ML fields, but somehow in ML people seem to be 'playing the publication count' game). I am personally 
-a little worried that big tech companies like FAANG won't understand the time and rigor needed for journal publications 
-in comp bio (since for the time it takes to publish 1 journal paper in a biology venue (with peer review+revisions+etc),
- one could publish 2-4 ML papers if lucky). Furthermore, I am not researching pure ML, but ML applied to biology data, a
-nd most ML applied to biology data is not a fancy Deep Learning model since they are not much biological data available 
-to train a big model. Most of the time, my models are simple NN, random forest, and logistic regression.
-
-Any thoughts? 
-Maybe I shouldn't be worried since this might not actually be an issue in reality? Should I do a more ML-focused PhD ins
-tead if I know I want to go to into tech?
 ```
 ---
 
