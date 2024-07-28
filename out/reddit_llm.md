@@ -1,5 +1,119 @@
  
-all -  [ More than a year of unemployment and freelancer. 300 applications. No response. Please roast my resu ](https://i.redd.it/7i7vwt2hwxed1.png) , 2024-07-27-0910
+all -  [ How can I stream only the final result from a agent in streamlit  ](https://www.reddit.com/r/LangChain/comments/1eduao5/how_can_i_stream_only_the_final_result_from_a/) , 2024-07-28-0912
+```
+Sorry if this question is too basic. New to this so trying to learn. 
+
+
+
+So this Is what I did. Created a basic agent wi
+th few random tools. Added Memory to it using RunnableWithMessageHistory. 
+
+
+
+`llm = ChatOpenAI(model_name = 'gpt-3.5-tu
+rbo', temperature = 0)`
+
+`tools = [click_new_image, visual_question_answer, question_answer, previous_pic]`
+
+`prompt = C
+hatPromptTemplate.from_messages(`
+
+`[`
+
+`('system', 'You are a very powerful assistant who can take pictures and answer 
+questions about them. If the query is regarding an older pic, then answer directly instead of taking a new pic.'),`
+
+`Me
+ssagesPlaceholder(variable_name='history'),`
+
+`('user', '{input}'),`
+
+`MessagesPlaceholder(variable_name='agent_scratchp
+ad'),`
+
+`]`
+
+`)`
+
+`agent = create_tool_calling_agent(llm, tools, prompt)`
+
+`agent_executor = AgentExecutor(agent=agent, 
+tools=tools, verbose = True)`
+
+`store = {}`
+
+  
+`agent_executor_w_memory = RunnableWithMessageHistory(`
+
+`agent_executor
+,`
+
+`get_session_history,`
+
+`input_messages_key='input',`
+
+`history_messages_key='history',`
+
+`)`
+
+  
+To run this I did 
+( In Streamlit ) - 
+
+`if prompt := st.chat_input():`
+
+`st.chat_message('user').write(prompt)`
+
+`with st.chat_message('as
+sistant'):`
+
+`response = agent_executor_w_memory.invoke(`
+
+`{'input': prompt},`
+
+`config=config,`
+
+`)`
+
+`st.write(respon
+se['output'])`
+
+  
+But this won't stream( typing effect) the output, it will just give the final output at once. I want 
+to stream the output. Only the last response, not the intermediate steps. 
+
+  
+Ps- Can I also stream the intermediate st
+ep result( we could iterate through the stream and print chunks but that will also not stream( typing effect)) ? or like
+ tools it call too? ( Asking just to learn more, not needed as of now) 
+```
+---
+
+     
+ 
+all -  [ ML model demo tool?  ](https://www.reddit.com/r/LangChain/comments/1edtzrx/ml_model_demo_tool/) , 2024-07-28-0912
+```
+Hey guys,
+
+My buddy and I are working on a tool that lets you preview your ML models in a presentable environment before
+ deployment. I had my models set up on Google Colab, but it wasn’t easy for the team to review it. It also isn’t very pr
+esentable to clients.
+
+So we want to create a demo environment that’s super simple to share and present models before ha
+nding off to devops. Thinking about adding some sort of feedback system too.
+
+We’re still figuring out the details, so w
+e’d love to get your takes on this. In your experience, what features would’ve helped you? Currently we have charts and 
+collaboration features in mind.
+
+Thanks! (my dm is open! we can’t be the only ones having this problem right)
+
+```
+---
+
+     
+ 
+all -  [ Created an AI voice agents product .. give it a try. I am using Twilio for phone numbers... The resu ](https://workhub.ai/ai-voice-agent/) , 2024-07-28-0912
 ```
 
 ```
@@ -7,7 +121,91 @@ all -  [ More than a year of unemployment and freelancer. 300 applications. No r
 
      
  
-all -  [ Any ML dev tools that you know ](https://www.reddit.com/r/SmythOS/comments/1ecxhjm/any_ml_dev_tools_that_you_know/) , 2024-07-27-0910
+all -  [ I’m trying to connect databricks table to langchain ](https://www.reddit.com/r/LangChain/comments/1edr19y/im_trying_to_connect_databricks_table_to_langchain/) , 2024-07-28-0912
+```
+I’m trying to use the SQLDatabase.from_databricks and I’m getting a weird error 'value error: invalid literal for int() 
+with base 10:'' '
+
+I used the warehouse_id and not cluster_id. Please helpppp
+```
+---
+
+     
+ 
+all -  [ Lack of APIs ](https://www.reddit.com/r/LangChain/comments/1edkn7p/lack_of_apis/) , 2024-07-28-0912
+```
+Hey guys,
+
+I have a general question for those of you developing agentic AI systems. Have you had the problem of a servi
+ce not having an API and how did you solve it (i.e., how did you define the 'tool' to be used by the LLM)? A simple exam
+ple: I want my personal AI assistant to purchase groceries for me, but there's no API provided by the supermarket. How c
+an I achieve that?
+
+  
+Do you think this is another reason why AI agents are still not in use for tasks that are not cri
+tical (thus, it's fine if they're not 100% reliable), but could be very useful in our daily lives?
+
+
+Edit: by “simple ex
+ample”, I meant “simple use case”, not that it’s easy to implement
+```
+---
+
+     
+ 
+all -  [ How can I use RAGAS without OpenAI key? ](https://www.reddit.com/r/LangChain/comments/1ed9rhu/how_can_i_use_ragas_without_openai_key/) , 2024-07-28-0912
+```
+Please point to some reference of using RAGAS with local models
+```
+---
+
+     
+ 
+all -  [ will TS ever surpass Python for generative AI development? ](https://www.reddit.com/r/LangChain/comments/1ed9kiw/will_ts_ever_surpass_python_for_generative_ai/) , 2024-07-28-0912
+```
+have you guys seen any trends or evidence that could potentially show a turn for TypeScript?
+```
+---
+
+     
+ 
+all -  [ Using Langchain for a small-scale web-app ](https://www.reddit.com/r/LangChain/comments/1ed8seg/using_langchain_for_a_smallscale_webapp/) , 2024-07-28-0912
+```
+Hey guys,
+
+Recently I have familiarized myself with Langchain quite a bit. I was hoping to make a basic web-app, for a c
+lass of less than 100 people, as a personal project. 
+
+Unfortunately, while I do know JavaScript, Python, CSS, and HTML.
+ I am unfamiliar with the structure behind such an application. Until now I have built some local CLI applications while
+ using APIs (DeepSeek is crazy cheap and nice but might need an alternative because they also use API accessed data).
+
+W
+here can I host a website, or a local easier llm like llama with it, or any options I can use with Langchain chain APIs?
+ Also should I host an open-source LLM somewhere or depend on APIs?
+
+There is just so much information that I cannot fin
+d anything concrete over it, please help :')
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ What's the difference between bind_tools and bind_functions? ](https://www.reddit.com/r/LangChain/comments/1ed6cmm/whats_the_difference_between_bind_tools_and_bind/) , 2024-07-28-0912
+```
+I've seen in lots of tutorials from the langchain/langraph documentation using bind\_tools and bind\_functions.  
+But I 
+haven't yet understood the difference between them and where to use each one.  
+Also, do they both work with all chat mo
+dels?
+```
+---
+
+     
+ 
+all -  [ Any ML dev tools that you know ](https://www.reddit.com/r/SmythOS/comments/1ecxhjm/any_ml_dev_tools_that_you_know/) , 2024-07-28-0912
 ```
 Since I found SmythOS, I was kind of disappointed in myself that I had not known that this platform existed, I am going 
 to list a number of dev tools and platforms in the AI and ML space that you might find useful, you can add your favorite
@@ -30,7 +228,7 @@ Continue the list.
 
      
  
-all -  [ LangGraph RAG w/ CoT Sequential Decomposition ](https://www.reddit.com/r/LangChain/comments/1ecwyuk/langgraph_rag_w_cot_sequential_decomposition/) , 2024-07-27-0910
+all -  [ LangGraph RAG w/ CoT Sequential Decomposition ](https://www.reddit.com/r/LangChain/comments/1ecwyuk/langgraph_rag_w_cot_sequential_decomposition/) , 2024-07-28-0912
 ```
 Hi all, 
 
@@ -55,7 +253,7 @@ Appreciate any help!
 
      
  
-all -  [ Rising Junior looking to break into consulting. Roast my resume! ](https://www.reddit.com/r/resumes/comments/1ecwcsv/rising_junior_looking_to_break_into_consulting/) , 2024-07-27-0910
+all -  [ Rising Junior looking to break into consulting. Roast my resume! ](https://www.reddit.com/r/resumes/comments/1ecwcsv/rising_junior_looking_to_break_into_consulting/) , 2024-07-28-0912
 ```
 This is the resume I'll be using to apply for internships next summer. Any advice? Be brutally honest
 
@@ -68,7 +266,7 @@ edd.it/eniadcf5xwed1.jpg?width=2550&format=pjpg&auto=webp&s=132710efbbf635032430
 
      
  
-all -  [ RAG provenance computation ](https://www.reddit.com/r/LangChain/comments/1ecw305/rag_provenance_computation/) , 2024-07-27-0910
+all -  [ RAG provenance computation ](https://www.reddit.com/r/LangChain/comments/1ecw305/rag_provenance_computation/) , 2024-07-28-0912
 ```
 https://preview.redd.it/4ld6chb9vwed1.png?width=1052&format=png&auto=webp&s=fe05dfd00ac3b7e109b70ba612a003e096a9fa63
 
@@ -104,7 +302,7 @@ tion' and you can use it with any OS LLM on any given dataset.
 
      
  
-all -  [ Tool Calling Agent not actually calling tools ](https://www.reddit.com/r/LangChain/comments/1ecvnfk/tool_calling_agent_not_actually_calling_tools/) , 2024-07-27-0910
+all -  [ Tool Calling Agent not actually calling tools ](https://www.reddit.com/r/LangChain/comments/1ecvnfk/tool_calling_agent_not_actually_calling_tools/) , 2024-07-28-0912
 ```
 Hey guys,
 
@@ -197,7 +395,7 @@ ow. Thanks.
 
      
  
-all -  [ AskItRight: PDFs Query Fullstack Application (RAG Ollama, LangChain, ChromaDB ) ](https://www.reddit.com/r/LangChain/comments/1ecuq2g/askitright_pdfs_query_fullstack_application_rag/) , 2024-07-27-0910
+all -  [ AskItRight: PDFs Query Fullstack Application (RAG Ollama, LangChain, ChromaDB ) ](https://www.reddit.com/r/LangChain/comments/1ecuq2g/askitright_pdfs_query_fullstack_application_rag/) , 2024-07-28-0912
 ```
 Hello Reddit!
 
@@ -255,7 +453,7 @@ k is welcome:)
 
      
  
-all -  [ Problemas al usar fastapi y langchain_google_cloud_sql_pg en Cloud Run (GCP) ](https://www.reddit.com/r/programacion/comments/1ecubkg/problemas_al_usar_fastapi_y_langchain_google/) , 2024-07-27-0910
+all -  [ Problemas al usar fastapi y langchain_google_cloud_sql_pg en Cloud Run (GCP) ](https://www.reddit.com/r/programacion/comments/1ecubkg/problemas_al_usar_fastapi_y_langchain_google/) , 2024-07-28-0912
 ```
 Buenas, quería consultar si a alguno le ha pasado esto porque ya entre google, yo y gpt no le encontramos la vuelta.
 
@@ -335,7 +533,7 @@ evision vuelve a funcionar, pero lo mismo, un par de hs y se cae
 
      
  
-all -  [ seeking ideas on how to overcome limitation of context awareness in similarity search and fusion rag ](https://www.reddit.com/r/LangChain/comments/1ecuavd/seeking_ideas_on_how_to_overcome_limitation_of/) , 2024-07-27-0910
+all -  [ seeking ideas on how to overcome limitation of context awareness in similarity search and fusion rag ](https://www.reddit.com/r/LangChain/comments/1ecuavd/seeking_ideas_on_how_to_overcome_limitation_of/) , 2024-07-28-0912
 ```
 In my personal project, I originally plan to use rag fusion to match resumes and job descriptions (preprocessed by summa
 rizing with llm). Right now I'm stuck on how to overcome limitation of context awareness in embeddings and semantic/simi
@@ -364,7 +562,7 @@ mplementation of fusion rag will identify similar keywords, but fail to recogniz
      
  
 all -  [ For those of you developing Agent or Multi Agent applications, what's missing?
- ](https://www.reddit.com/r/AI_Agents/comments/1ectggp/for_those_of_you_developing_agent_or_multi_agent/) , 2024-07-27-0910
+ ](https://www.reddit.com/r/AI_Agents/comments/1ectggp/for_those_of_you_developing_agent_or_multi_agent/) , 2024-07-28-0912
 ```
 I tried Crew, Autogen and Langchain, but the results still aren't that great without spending a lot of time building and
  testing custom tools for each application.
@@ -375,7 +573,7 @@ Would love to know your thoughts and personal experience on this.
 
      
  
-all -  [ Vllm + dolphin-2.6-mistral + langchain ](https://www.reddit.com/r/LangChain/comments/1ectcut/vllm_dolphin26mistral_langchain/) , 2024-07-27-0910
+all -  [ Vllm + dolphin-2.6-mistral + langchain ](https://www.reddit.com/r/LangChain/comments/1ectcut/vllm_dolphin26mistral_langchain/) , 2024-07-28-0912
 ```
 Hi, i am new to langchain and i hope somebody here can help me understand some basics.
 
@@ -405,7 +603,7 @@ Thanks
 
      
  
-all -  [ Resume review ](https://www.reddit.com/gallery/1ecsa0w) , 2024-07-27-0910
+all -  [ Resume review ](https://www.reddit.com/gallery/1ecsa0w) , 2024-07-28-0912
 ```
 Please help me summarize my resume
 I am 2024 PG passout student I have 2 years of internship exp and 2 years of teaching
@@ -416,7 +614,7 @@ My cv is too big please help me summarize
 
      
  
-all -  [ Unleashing Git Commit Insights with JetBrains Git Assistant Plugin ](https://www.reddit.com/r/pycharm/comments/1ecrmgh/unleashing_git_commit_insights_with_jetbrains_git/) , 2024-07-27-0910
+all -  [ Unleashing Git Commit Insights with JetBrains Git Assistant Plugin ](https://www.reddit.com/r/pycharm/comments/1ecrmgh/unleashing_git_commit_insights_with_jetbrains_git/) , 2024-07-28-0912
 ```
 Git Assistant is a powerful IntelliJ IDEA plugin that provides users with powerful Commits analysis tools through the Gi
 t Assistant Insights window in the right-side tool window.
@@ -470,7 +668,7 @@ assistant](https://plugins.jetbrains.com/plugin/24154-git-assistant)
 
      
  
-all -  [ How to get token costs per request  ](https://www.reddit.com/r/LangChain/comments/1ecqmk7/how_to_get_token_costs_per_request/) , 2024-07-27-0910
+all -  [ How to get token costs per request  ](https://www.reddit.com/r/LangChain/comments/1ecqmk7/how_to_get_token_costs_per_request/) , 2024-07-28-0912
 ```
 I have developed a tool calling llm using OpenAI's GPT-3.5-turbo-1106, integrated with LangSmith and LangGraph. I follow
 ed the official documentation to track token usage but encountered issues:
@@ -490,7 +688,7 @@ rovides token usage in their UI, I need to access this information programmatica
 
      
  
-all -  [ Why does LangChain's BaseModel sometimes output a copy of the Pydantic field description instead of  ](https://www.reddit.com/r/LangChain/comments/1ecqk1q/why_does_langchains_basemodel_sometimes_output_a/) , 2024-07-27-0910
+all -  [ Why does LangChain's BaseModel sometimes output a copy of the Pydantic field description instead of  ](https://www.reddit.com/r/LangChain/comments/1ecqk1q/why_does_langchains_basemodel_sometimes_output_a/) , 2024-07-28-0912
 ```
 Hi everyone,
 
@@ -535,7 +733,7 @@ Thanks in advance!
 
      
  
-all -  [ Unleashing Git Commit Insights with JetBrains Git Assistant Plugin ](https://www.reddit.com/r/IntelliJIDEA/comments/1ecq3dp/unleashing_git_commit_insights_with_jetbrains_git/) , 2024-07-27-0910
+all -  [ Unleashing Git Commit Insights with JetBrains Git Assistant Plugin ](https://www.reddit.com/r/IntelliJIDEA/comments/1ecq3dp/unleashing_git_commit_insights_with_jetbrains_git/) , 2024-07-28-0912
 ```
 Git Assistant is a powerful IntelliJ IDEA plugin that provides users with powerful Commits analysis tools through the Gi
 t Assistant Insights window in the right-side tool window.
@@ -576,21 +774,20 @@ stribution of code contributions across different time zones is visualized, maki
 https://preview.redd.it/5wkc95rrmved1.png?width=3024&format=png&auto=webp&s=8bf2ebf23a1e6d1655e2dcdc95b79e26
 09a0a4db
 
-  
-In the Project View panel, the analysis of hot files and hot directories is presented, helping developers b
-etter understand the recently changed files and directories in the project.
+In the Project View panel, the analysis of hot files and hot directories is presented, helping developers bett
+er understand the recently changed files and directories in the project.
 
-https://preview.redd.it/22vbpzttmved1.png?w
-idth=3024&format=png&auto=webp&s=93bf17479d3744cdb38e14c22a794d241fc94738
+https://preview.redd.it/yd63m7t813fd1.png?widt
+h=3024&format=png&auto=webp&s=5a9add14c9ea7e931f0c3725f5a18f2063a66b16
 
-[https://plugins.jetbrains.com/plugin/24154-g
-it-assistant](https://plugins.jetbrains.com/plugin/24154-git-assistant)
+[https://plugins.jetbrains.com/plugin/24154-git-
+assistant](https://plugins.jetbrains.com/plugin/24154-git-assistant)
 ```
 ---
 
      
  
-all -  [ GPT-4o-mini is terribly slow today. Anyone else facing this issue? ](https://www.reddit.com/r/LangChain/comments/1ecoex7/gpt4omini_is_terribly_slow_today_anyone_else/) , 2024-07-27-0910
+all -  [ GPT-4o-mini is terribly slow today. Anyone else facing this issue? ](https://www.reddit.com/r/LangChain/comments/1ecoex7/gpt4omini_is_terribly_slow_today_anyone_else/) , 2024-07-28-0912
 ```
 https://preview.redd.it/hmxu408raved1.png?width=170&format=png&auto=webp&s=5bbc2d537d3c183ab7e684f0457754f38a967083
 
@@ -605,7 +802,7 @@ tency on GPT-4o-mini is terrible today. It is taking 96 seconds and above for si
 
      
  
-all -  [ What tools are you using with your AI agents? ](https://www.reddit.com/r/LangChain/comments/1ecn0fq/what_tools_are_you_using_with_your_ai_agents/) , 2024-07-27-0910
+all -  [ What tools are you using with your AI agents? ](https://www.reddit.com/r/LangChain/comments/1ecn0fq/what_tools_are_you_using_with_your_ai_agents/) , 2024-07-28-0912
 ```
 I'm playing around with Crew, Autogen and LangChain wanted to know what tools are best suited for Multi Agent applicatio
 ns, where to find them or if I need to build them myself. 
@@ -614,7 +811,7 @@ ns, where to find them or if I need to build them myself.
 
      
  
-all -  [ Build a chatbot by using Rag or openai gpt API? ](https://www.reddit.com/r/LangChain/comments/1eck671/build_a_chatbot_by_using_rag_or_openai_gpt_api/) , 2024-07-27-0910
+all -  [ Build a chatbot by using Rag or openai gpt API? ](https://www.reddit.com/r/LangChain/comments/1eck671/build_a_chatbot_by_using_rag_or_openai_gpt_api/) , 2024-07-28-0912
 ```
 I plan to build a chatbot to answer those product information. But I don't know which one to use, RAG or openai gpt?
 
@@ -630,7 +827,7 @@ If you want to build a
 
      
  
-all -  [ I built a chatbot for Confluence and Jira documents. How do I improve on its performance and respons ](https://www.reddit.com/r/LocalLLaMA/comments/1ecjgvt/i_built_a_chatbot_for_confluence_and_jira/) , 2024-07-27-0910
+all -  [ I built a chatbot for Confluence and Jira documents. How do I improve on its performance and respons ](https://www.reddit.com/r/LocalLLaMA/comments/1ecjgvt/i_built_a_chatbot_for_confluence_and_jira/) , 2024-07-28-0912
 ```
 Here are the components or the chatbot's workflow:
 
@@ -697,7 +894,7 @@ ing these and other frameworks if it helps improve upon the response quality and
 
      
  
-all -  [ Memory leak in Langserve app ](https://www.reddit.com/r/LangChain/comments/1ecimvn/memory_leak_in_langserve_app/) , 2024-07-27-0910
+all -  [ Memory leak in Langserve app ](https://www.reddit.com/r/LangChain/comments/1ecimvn/memory_leak_in_langserve_app/) , 2024-07-28-0912
 ```
 I'm hosting a langserve app. The app is quite simple, but there seems to be a memory leak. Any ideas on why this is happ
 ening?
@@ -786,7 +983,7 @@ Any ideas what could be causing the leak?
 
      
  
-all -  [ The (proposal) trends for Devoxx Belgium 2024 ](https://i.redd.it/cb7biig6ated1.jpeg) , 2024-07-27-0910
+all -  [ The (proposal) trends for Devoxx Belgium 2024 ](https://i.redd.it/cb7biig6ated1.jpeg) , 2024-07-28-0912
 ```
 ChatGPT generated the following keyword cloud for #Devoxx Belgium 2024 submitted proposals. 
 The keywords are generated 
@@ -796,7 +993,7 @@ The keywords are generated
 
      
  
-all -  [ Python : Opentelemetry - Filtering PII Data from Logs ](https://www.reddit.com/r/OpenTelemetry/comments/1ececxi/python_opentelemetry_filtering_pii_data_from_logs/) , 2024-07-27-0910
+all -  [ Python : Opentelemetry - Filtering PII Data from Logs ](https://www.reddit.com/r/OpenTelemetry/comments/1ececxi/python_opentelemetry_filtering_pii_data_from_logs/) , 2024-07-28-0912
 ```
 Hello,
 
@@ -903,7 +1100,7 @@ ttribute 'set\_attribute'. Did you mean: '\_attributes'?
 
      
  
-all -  [ What kind of setup is needed to load an app’s source code into the “context” of an LLM to better out ](https://www.reddit.com/r/LocalLLM/comments/1ecdjmm/what_kind_of_setup_is_needed_to_load_an_apps/) , 2024-07-27-0910
+all -  [ What kind of setup is needed to load an app’s source code into the “context” of an LLM to better out ](https://www.reddit.com/r/LocalLLM/comments/1ecdjmm/what_kind_of_setup_is_needed_to_load_an_apps/) , 2024-07-28-0912
 ```
 I’m a developer but only have limited experience with LLMs. Mostly using the Chat GPT API, and langchain + Pinecone for 
 RAG.
@@ -919,7 +1116,7 @@ its smaller models.
 
      
  
-all -  [ Vision Analysis  ](https://www.reddit.com/r/LangChain/comments/1ec8c4e/vision_analysis/) , 2024-07-27-0910
+all -  [ Vision Analysis  ](https://www.reddit.com/r/LangChain/comments/1ec8c4e/vision_analysis/) , 2024-07-28-0912
 ```
 I'm labeling and taking screenshot of webpages that I then send to 4V to analyze. Basically, the labeling creates border
 s around html elements then I ask GPT to determine if there is a popup or if there are elements at certain places on the
@@ -937,7 +1134,7 @@ Note that this flow is
 
      
  
-all -  [ How are you creating agentic tasks/workflows? ](https://www.reddit.com/r/ChatGPT/comments/1ec7oel/how_are_you_creating_agentic_tasksworkflows/) , 2024-07-27-0910
+all -  [ How are you creating agentic tasks/workflows? ](https://www.reddit.com/r/ChatGPT/comments/1ec7oel/how_are_you_creating_agentic_tasksworkflows/) , 2024-07-28-0912
 ```
 For all of you that are actively building things with llm capabilities: What tools are you using? What is the hardest pa
 rt of building useful and effective agentic solutions for you? 
@@ -949,7 +1146,7 @@ ate paid options, etc. what are you using and how do you feel about it?
 
      
  
-all -  [ How do you build agentic workflows? ](https://www.reddit.com/r/LocalLLaMA/comments/1ec7kzy/how_do_you_build_agentic_workflows/) , 2024-07-27-0910
+all -  [ How do you build agentic workflows? ](https://www.reddit.com/r/LocalLLaMA/comments/1ec7kzy/how_do_you_build_agentic_workflows/) , 2024-07-28-0912
 ```
 For those of you building, interested in building, or even experts in building them: what are you using? Have you found 
 something that solves the boring part and lets you build? 
@@ -961,7 +1158,7 @@ nd what is your opinion on the available tools?
 
      
  
-all -  [ Using Milvus/RAG as metadata store ](https://www.reddit.com/r/LangChain/comments/1ec02w8/using_milvusrag_as_metadata_store/) , 2024-07-27-0910
+all -  [ Using Milvus/RAG as metadata store ](https://www.reddit.com/r/LangChain/comments/1ec02w8/using_milvusrag_as_metadata_store/) , 2024-07-28-0912
 ```
 I've metadata( like table structure, column details, data types) of RDBMS and other sources currently stored in MYSQL da
 tabase. I want to build  a simple bot that answers queries from data engineers and analytics like '
@@ -985,7 +1182,7 @@ N.B : Some of the tables can have 500 columns also.
 
      
  
-all -  [ How to build agent with local llm ](https://www.reddit.com/r/LangChain/comments/1ebundi/how_to_build_agent_with_local_llm/) , 2024-07-27-0910
+all -  [ How to build agent with local llm ](https://www.reddit.com/r/LangChain/comments/1ebundi/how_to_build_agent_with_local_llm/) , 2024-07-28-0912
 ```
 I'm new to langchain and currently learning the official \[tutorial\](https://python.langchain.com/v0.2/docs/tutorials/a
 gents/). I have tried Ollama and llama.cpp, but none of them can finish the tutorial.
@@ -1006,7 +1203,7 @@ lama.cpp?
 
      
  
-all -  [ Improving output of Azure Gpt 4 vision model , ignoring part of text present in image ](https://www.reddit.com/r/LangChain/comments/1ebt2gl/improving_output_of_azure_gpt_4_vision_model/) , 2024-07-27-0910
+all -  [ Improving output of Azure Gpt 4 vision model , ignoring part of text present in image ](https://www.reddit.com/r/LangChain/comments/1ebt2gl/improving_output_of_azure_gpt_4_vision_model/) , 2024-07-28-0912
 ```
 Hi I am trying to extract information from  purchase orders PDFs with different formats , when conventional py libraries
  didn't extract the data the way I wanted I resorted to Azure Gpt 4 vision model and converted the pages of my pdf as im
@@ -1019,7 +1216,7 @@ or help would be much appreciated.
 
      
  
-all -  [ Udemy Free Courses for 25 July 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1ebsti2/udemy_free_courses_for_25_july_2024/) , 2024-07-27-0910
+all -  [ Udemy Free Courses for 25 July 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1ebsti2/udemy_free_courses_for_25_july_2024/) , 2024-07-28-0912
 ```
 # Udemy Free Courses for 25 July 2024
 
@@ -1191,7 +1388,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE
 
      
  
-all -  [ Video RAM Problems on a server with a Rtx 4000 20gb ](https://www.reddit.com/r/LangChain/comments/1ebsdbv/video_ram_problems_on_a_server_with_a_rtx_4000/) , 2024-07-27-0910
+all -  [ Video RAM Problems on a server with a Rtx 4000 20gb ](https://www.reddit.com/r/LangChain/comments/1ebsdbv/video_ram_problems_on_a_server_with_a_rtx_4000/) , 2024-07-28-0912
 ```
 Hey I don't know if this is the right sub. I rented a server that uses a Rtx 4000 with 20gb. I tried to get models like 
 mistral or llamma to run on it but it fails to generate answers because it runs out of memory. Are there anyways to redu
@@ -1201,7 +1398,7 @@ ce the amount of memory needed? Or other ways to solve this problem?
 
      
  
-all -  [ SemanticChunker for very large text ](https://www.reddit.com/r/LangChain/comments/1ebs25f/semanticchunker_for_very_large_text/) , 2024-07-27-0910
+all -  [ SemanticChunker for very large text ](https://www.reddit.com/r/LangChain/comments/1ebs25f/semanticchunker_for_very_large_text/) , 2024-07-28-0912
 ```
 I use Semantic Chunker from this tutorial: [https://python.langchain.com/v0.2/docs/how\_to/semantic-chunker/](https://py
 thon.langchain.com/v0.2/docs/how_to/semantic-chunker/)
@@ -1221,7 +1418,7 @@ n later.'}}
 
      
  
-all -  [ Why does EmbeddingStoreContentRetriever Not output directly Score in Java Langchain ?  ](https://www.reddit.com/r/LangChain/comments/1ebo69l/why_does_embeddingstorecontentretriever_not/) , 2024-07-27-0910
+all -  [ Why does EmbeddingStoreContentRetriever Not output directly Score in Java Langchain ?  ](https://www.reddit.com/r/LangChain/comments/1ebo69l/why_does_embeddingstorecontentretriever_not/) , 2024-07-28-0912
 ```
 Why does EmbeddingStoreContentRetriever Not output directly Score in Java Langchain ?   
   
@@ -1261,7 +1458,7 @@ tion<Query, Double> minScoreProvider;`
 
      
  
-all -  [ Ai interviewer technique ](https://www.reddit.com/r/LangChain/comments/1ebnkqo/ai_interviewer_technique/) , 2024-07-27-0910
+all -  [ Ai interviewer technique ](https://www.reddit.com/r/LangChain/comments/1ebnkqo/ai_interviewer_technique/) , 2024-07-28-0912
 ```
 I want to explore how these website with ai interviewer works like do they only works on the audio or they process the v
 ideo also realtime. It is very fascinating to me. 
@@ -1272,7 +1469,7 @@ hts.
 
      
  
-all -  [  A Comprehensive Guide: Boosting EHR Efficiency with LangChain.js ](https://www.reddit.com/r/u_bluebashllc/comments/1ebng9f/a_comprehensive_guide_boosting_ehr_efficiency/) , 2024-07-27-0910
+all -  [  A Comprehensive Guide: Boosting EHR Efficiency with LangChain.js ](https://www.reddit.com/r/u_bluebashllc/comments/1ebng9f/a_comprehensive_guide_boosting_ehr_efficiency/) , 2024-07-28-0912
 ```
 LangChain.js is a robust JavaScript library for working with language models like GPT-3. It simplifies text generation, 
 summarization, and information extraction, making it a perfect fit for enhancing EHR systems.The healthcare industry has
@@ -1333,434 +1530,7 @@ f a patient's medical history
 
      
  
-all -  [ Salesforecasting using AI models / LLM ](https://www.reddit.com/r/LangChain/comments/1ebm8ss/salesforecasting_using_ai_models_llm/) , 2024-07-27-0910
-```
-Hello all, Have anyone among here done sales forecasting using LLMs ?  
-For eg: I have monthly sales data of last 2 year
-s and i want to predict the monthly sales of upcoming year.  
-What would be the best way to do it ?
-
-If anyone has code 
-snippet, I would be happy to look at it.  
-I welcome ML/DL approach as well but since my dataset is very low what would 
-be the best idea ?
-
-
-```
----
-
-     
- 
-all -  [ Not able to figure out Agents with Chat History ](https://www.reddit.com/r/LangChain/comments/1eblbm7/not_able_to_figure_out_agents_with_chat_history/) , 2024-07-27-0910
-```
-Here's my chain, but looks something wrong. Earlier without the code of agents part, it was working well with chat histo
-ry.
-
-Any help is appreciated.
-
-    def _prepare_chain(self):
-            contextualize_q_system_prompt = (
-             
-   'Given a chat history and the latest user question '
-                'which might reference context in the chat histo
-ry, '
-                'formulate a standalone question which can be understood '
-                'without the chat histo
-ry. Do NOT answer the question, '
-                'just reformulate it if needed and otherwise return it as is.'
-       
-     )
-    
-            _llm = self.llm
-            if self.tools:
-                _llm = self.llm.bind_tools(self.tools
-)
-    
-            contextualize_q_prompt = ChatPromptTemplate.from_messages(
-                [
-                    ('sy
-stem', contextualize_q_system_prompt),
-                    MessagesPlaceholder('chat_history'),
-                    ('hu
-man', '{input}'),
-                ]
-            )
-    
-            history_aware_retriever = create_history_aware_retrie
-ver(
-                _llm, self.retriever, contextualize_q_prompt
-            )
-    
-            ### Answer question ###
-
-            system_prompt = (
-                '{base_prompt}'
-                'Act like a support person who loves help
-ing customers. '
-                'Use the following pieces of retrieved context to answer '
-                'the questio
-n. If you don't know the answer, say that you '
-                'don't know. Use three sentences maximum and keep the '
-
-                'answer concise.'
-                '\n\n'
-                '{context}'
-            )
-    
-            ANSW
-ER_PROMPT = PromptTemplate.from_template(system_prompt)
-    
-            qa_prompt = ChatPromptTemplate.from_messages(
- 
-               [
-                    ('system', system_prompt),
-                    MessagesPlaceholder('chat_history'),
-
-                    ('human', '{question}'),
-                ]
-            )
-    
-            question_answer_chain = c
-reate_stuff_documents_chain(_llm, qa_prompt)
-    
-            retrieval_chain = create_retrieval_chain(history_aware_ret
-riever, question_answer_chain)
-    
-            _runnable = (
-                RunnablePassthrough.assign(
-              
-      agent_scratchpad=lambda x: format_to_openai_tool_messages(x['intermediate_steps'])
-                )
-             
-   | retrieval_chain
-                | _llm
-                | OpenAIToolsAgentOutputParser()
-            )
-    
-        
-    _agent = RunnableAgent(runnable=_runnable)
-    
-            _output = RunnableParallel(
-                answer=Agent
-Executor(agent=_agent, tools=self.tools),
-                sources=history_aware_retriever | self._extract_sources
-      
-      )
-    
-            rag_chain = RunnablePassthrough.assign(
-                input=lambda x: x['question']) | _outpu
-t | RunnableLambda(self.log_chain)
-    
-            conversational_rag_chain = RunnableWithMessageHistory(
-             
-   rag_chain,
-                self.get_session_history,
-                input_messages_key='question',
-                h
-istory_messages_key='chat_history',
-                output_messages_key='answer',
-            )
-    
-            return 
-conversational_rag_chain
-```
----
-
-     
- 
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1ebdd7x/list_of_free_and_best_selling_discounted_courses/) , 2024-07-27-0910
-```
-# Udemy Free Courses for 25 July 2024
-
-Note : Coupons might expire anytime, so enroll as soon as possible to get the cou
-rses for FREE.
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11803/)Learn Basics of Obsidian: Mastering Study Not
-es
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11804/)Learn Basics of Obsidian: Mastering Study Notes in Arabic
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11805/)Complete Generative AI Course With Langchain and Huggingface
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11806/)Building Gen AI App 12+ Hands-on Projects with Gemini Pro
-* [
-REDEEM OFFER ](https://idownloadcoupon.com/udemy/11807/)AWS Business Essentials – The Business Value of AWS \[2024\]
-* [
-REDEEM OFFER ](https://idownloadcoupon.com/udemy/11808/)Basics of Obsidian: The Canvas Plugin in Arabic
-* [REDEEM OFFER 
-](https://idownloadcoupon.com/udemy/11809/)Learn Python for Data Science for Beginners in Arabic
-* [REDEEM OFFER ](https
-://idownloadcoupon.com/udemy/11810/)Learn Basics of Obsidian: The Canvas Plugin
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/11811/)زد من انتاجيتك عن طريق برنامج اوبسيديان
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11812/)R 
-Programming for Complete Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11813/)Improve your Productivity 
-by using Obsidian
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11814/)Management Information Systems Student’s Jo
-urney
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11815/)Learn Obsidian from Scratch
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/11816/)Learn Python for Data Science for Complete Beginners
-* [REDEEM OFFER ](https://idownload
-coupon.com/udemy/11799/)TRADING META TRANSACTION
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11798/)Menguasai Go
-ogle Ads untuk Pemula hingga Mahir 2024
-* WAX Blockchain Game Front-End w/ React, Redux & Saga Part 3
-* [REDEEM OFFER](h
-ttps://idownloadcoupon.com/udemy/11797/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11796/)Learn Expert Systems
- for BI and Business Analytics
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11795/)Starting with IoT Simulations
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11800/)Diseño UX Potenciado por la Ciencia de los Hábitos
-* [REDEEM 
-OFFER ](https://idownloadcoupon.com/udemy/11801/)WAX Blockchain Game Front-End w/ React, Redux & Saga Part 1
-* [REDEEM O
-FFER ](https://idownloadcoupon.com/udemy/11794/)Executive Diploma of Chief Technology Officer
-* [REDEEM OFFER ](https://
-idownloadcoupon.com/udemy/11793/)400 Tableau Interview Questions Practice Test
-* [REDEEM OFFER ](https://idownloadcoupon
-.com/udemy/11792/)AI For Warehouse Management Certificate Odoo 17 Program
-* [REDEEM OFFER ](https://idownloadcoupon.com/
-udemy/11791/)Control of Manufacturing Processes with Odoo 17 AI-Powered
-* [REDEEM OFFER ](https://idownloadcoupon.com/ud
-emy/11790/)Six Sigma Green Belt Practice Exam
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11789/)From Zero to He
-ro: Master Microservices with ASP.NET Core
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11237/)Social Media Maste
-ry 2023| Increase Customer Conversion Rate
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/3570/)Professional Diplom
-a in Agile and Scrum
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8176/)Microsoft Excel – Beginner to Advance wit
-h Example
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2649/)Migra un Sitio Web de WordPress a otro Dominio o Hos
-ting
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/4070/)Excel VBA / Makros Programmierung. Automatisierung mit Ex
-cel
-* Mastering ChatGPT (AI) and PowerPoint presentation
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/8200/)
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/2807/)Cómo Crear una Página web con WordPress y Elementor 2024
-* [REDEEM 
-OFFER ](https://idownloadcoupon.com/udemy/11012/)TOEFL Preparation: Listening Section
-* [REDEEM OFFER ](https://idownloa
-dcoupon.com/udemy/8980/)Complete SmartPhone Graphic Design – 3 in 1 Course
-* [REDEEM OFFER ](https://idownloadcoupon.com
-/udemy/2646/)Cómo Crear una Tienda Online con WordPress y WooCommerce
-* [REDEEM OFFER ](https://idownloadcoupon.com/udem
-y/2799/)WP Rocket 2024: Mejora la Velocidad de Carga en WordPress
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10
-597/)Web3 Development Essentials
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11788/)Parallel Computing in Julia
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11787/)Professional Diploma in Public Relations and PR Management
-* 
-[REDEEM OFFER ](https://idownloadcoupon.com/udemy/11786/)SAFe® 6.0: From Zero to Hero in Scaled Agile Framework®
-* [REDE
-EM OFFER ](https://idownloadcoupon.com/udemy/11785/)Comprehensive Machine Learning Practice Test: Skill Mastery
-* [REDEE
-M OFFER ](https://idownloadcoupon.com/udemy/9811/)Ethically Hack the Planet Part 4
-* [REDEEM OFFER ](https://idownloadco
-upon.com/udemy/10543/)350+ CSS Practice Tests & Interview Questions \[April. 2024\]
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/10085/)Master Ruby Scripting with (Practice test only) for Hacking
-* [REDEEM OFFER ](https://idownloadco
-upon.com/udemy/10786/)Computer Science MetaBootcamp: Beginner to Intermediate 2024
-* [REDEEM OFFER ](https://idownloadco
-upon.com/udemy/10827/)Google Ads 2024: How to Drive Sales With PPC!
-
-GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CL
-ICK HERE](https://idownloadcoupon.com/)
-```
----
-
-     
- 
-all -  [ How to return similarity scores using retriever.get_relevant_documents(query) ](https://www.reddit.com/r/LangChain/comments/1eb5r0v/how_to_return_similarity_scores_using/) , 2024-07-27-0910
-```
-Hi I want to do metadata filtering first and then retrieve the document  
-Code:
-
-    langchain_chroma = Chroma(
-        
-        client=self.persistent_client,
-                collection_name=self.COLLECTION_NAME,
-                embedding_f
-unction=self.embedding_function  # Use the variable containing the collection name
-            )
-
-    retriever = langch
-ain_chroma.as_retriever(search_type='similarity',search_kwargs={'k': 1, 'filter': cond}) 
-    query = 'What is patient f
-amily Medical history in reverse cronological order?'
-    res = retriever.get_relevant_documents(query)
-    res
-
-This is
- not returning scores, Whereas If use ,  
-
-
-    res = langchain_chroma.similarity_search_with_score(query)
-
-then i am ge
-tting score as well but how to do metadata filtering here?
-
-
-
-
-
-  
-
-```
----
-
-     
- 
-all -  [ Langchain vs LlamaIndex ](https://www.reddit.com/r/LlamaIndex/comments/1eb25ir/langchain_vs_llamaindex/) , 2024-07-27-0910
-```
-Hello guys I wondering what are the differences between Langchain and LlamaIndex? I am not asking about what’s best but 
-I want to know when to use each one? Can you give me some advices and tips?
-Thank you
-```
----
-
-     
- 
-all -  [ LangChain VS LangGraph: Git ](https://www.reddit.com/r/LangChain/comments/1eb19ri/langchain_vs_langgraph_git/) , 2024-07-27-0910
-```
-At the time of posting,
-
-LangChain repository's `master` branch is
-
-```
-Cloning into 'langchain'...
-remote: Enumerating 
-objects: 137116, done.
-remote: Counting objects: 100% (5275/5275), done.
-remote: Compressing objects: 100% (481/481), do
-ne.
-remote: Total 137116 (delta 5003), reused 4829 (delta 4794), pack-reused 131841
-Receiving objects: 100% (137116/1371
-16), 224.32 MiB | 4.70 MiB/s, done.
-Resolving deltas: 100% (101282/101282), done.
-Updating files: 100% (7595/7595), done
-.
-```
-
-and LangGraph repository's `main` branch is
-
-```
-Cloning into 'langgraph'...
-remote: Enumerating objects: 10436, 
-done.
-remote: Counting objects: 100% (1815/1815), done.
-remote: Compressing objects: 100% (1015/1015), done.
-remote: Tot
-al 10436 (delta 1090), reused 1371 (delta 774), pack-reused 8621
-Receiving objects: 100% (10436/10436), 327.76 MiB | 3.1
-3 MiB/s, done.
-Resolving deltas: 100% (6828/6828), done.
-```
-
-For comparision, this is React's `main` brach is
-
-```
-Clon
-ing into 'react'...
-remote: Enumerating objects: 326918, done.
-remote: Counting objects: 100% (813/813), done.
-remote: C
-ompressing objects: 100% (324/324), done.
-remote: Total 326918 (delta 470), reused 718 (delta 422), pack-reused 326105
-R
-eceiving objects: 100% (326918/326918), 532.16 MiB | 5.97 MiB/s, done.
-Resolving deltas: 100% (232896/232896), done.
-```
-
-and it doesn't even have rich text files like .ipynb.
-
-There are couple of observations.
-1. Maintaining an open-source 
-repository with Jupyter Notebooks is not for easy, I think. Any updates to libraries used need notebooks to rerun and re
-flect latest outputs. Even if there is no change in output, the git diff changes drastically. I have heard about nbdime 
-but have no idea about it.
-2. LangGraph repo is bigger in size than LangChain after decompressing.
-   ```
-   du -sh lang
-graph
-   475M	langgraph
-   
-   du -sh langchain
-   459M	langchain```
-   This size by du depends on multiple factors, blo
-ck size being on of them.
-
-What did you find interesting? Do share more insights and fun facts about the projects!
-```
----
-
-     
- 
-all -  [ Reverting back to planning node based on a condition ](https://www.reddit.com/r/LangChain/comments/1eazoaz/reverting_back_to_planning_node_based_on_a/) , 2024-07-27-0910
-```
-I am trying to make a planning agent using langgraph in which we can revert back to the planner node using conditions fr
-om other agent nodes . I am stuck on the reverting back function.
-```
----
-
-     
- 
-all -  [ Request for Guidance  ](https://www.reddit.com/r/LangChain/comments/1eayrtc/request_for_guidance/) , 2024-07-27-0910
-```
-Hi all. I am an LLM enthusiast trying to use GGUF version of Llama 3.1 for summarisation task. 
-
-I am using Q4_K_M model
- from this repo:
-MaziyarPanahi/Meta-Llama-3.1-8B-Instruct-GGUF
-Link: https://huggingface.co/MaziyarPanahi/Meta-Llama-3.1
--8B-Instruct-GGUF
-
-I used the following code to load the model:
-```
-from langchain_community.llms import LlamaCpp
-from l
-angchain_core.callbacks import CallbackManager, StreamingStdOutCallbackHandler
-
-callback_manager = CallbackManager([Stre
-amingStdOutCallbackHandler()])
-n_gpu_layers = -1  
-n_batch = 2048 
-
-# Make sure the model path is correct for your syste
-m!
-llm = LlamaCpp(
-    model_path='./Meta-Llama-3.1-8B-Instruct.Q4_K_M.gguf',
-    n_gpu_layers=n_gpu_layers,
-    n_ctx =
- 32768,
-    rope_freq_scale=0.25,
-    temperature = 0,
-    n_batch=n_batch,
-    callback_manager=callback_manager,
-    v
-erbose=True,  # Verbose is required to pass to the callback manager
-)
-```
-
-When I pass long inputs to this model and ins
-truct it to summarise it, it just blabbers with random and repitive texts/numbers.
-
-How do I resolve this. Requesting fo
-r guidance.
-
-(PS: Tried Rope_freq_scale with values 0.125, 0.25, 1, 4, 8. But they were not so good, even comparing to t
-he above results)
-```
----
-
-     
- 
-MachineLearning -  [ [D] Embedding generation in production? How are you doing it? ](https://www.reddit.com/r/MachineLearning/comments/1e7xt6k/d_embedding_generation_in_production_how_are_you/) , 2024-07-27-0910
+MachineLearning -  [ [D] Embedding generation in production? How are you doing it? ](https://www.reddit.com/r/MachineLearning/comments/1e7xt6k/d_embedding_generation_in_production_how_are_you/) , 2024-07-28-0912
 ```
 
 
@@ -1772,7 +1542,7 @@ Using vectordb  classes? Or some other way?
 
      
  
-MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-07-27-0910
+MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-07-28-0912
 ```
 We completely underestimated this one tbh, thought it would be much more straight forward. But we've done it now and doc
 umented how step by step [in this article series](https://medium.com/p/5828a1ea43a3).
@@ -1792,7 +1562,7 @@ f a better way to do it?
 
      
  
-MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-07-27-0910
+MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-07-28-0912
 ```
 Hi everyone!
 
@@ -1838,7 +1608,7 @@ e/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-
 
      
  
-deeplearning -  [ Llama 3 not running on GPU ](https://www.reddit.com/r/deeplearning/comments/1dptxsr/llama_3_not_running_on_gpu/) , 2024-07-27-0910
+deeplearning -  [ Llama 3 not running on GPU ](https://www.reddit.com/r/deeplearning/comments/1dptxsr/llama_3_not_running_on_gpu/) , 2024-07-28-0912
 ```
 I dont know much theory about RAG but i need to implement it for a project.  
 **I want to run llama3 on my GPU to get fa
