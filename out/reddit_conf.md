@@ -1,5 +1,146 @@
  
-all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-07-29-0911
+all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-07-30-0911
+```
+Does anyone know when the reviews will be released? The NeurIPS website states that the rebuttal starts on July 30th any
+where on Earth, and it’s already July 30th in our time zone!
+```
+---
+
+     
+ 
+all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-07-30-0911
+```
+Hello!
+
+For those who would be interested in taking part in weather forecasting challenge I would like to let you know a
+bout the [~Weather4cast 2024~ ](https://weather4cast.net/)[~Challenge~ ](https://weather4cast.net/)that we are organisin
+g at the NeurIPS 2024 Competition Track.
+
+The competition focuses on topics of high impact and practical value for our s
+ociety – predicting future weather and changes of our environment. We provide satellite and radar data covering most of 
+the Europe and we ask the participants to develop models that could predict extreme precipitation events.
+
+This year, on
+ the road to foundation models, **we move from basic rainfall prediction to testing generalisation performance and emerg
+ent capabilities of probabilistic models** on a set of downstream tasks, such as cumulative rainfall and the prediction 
+of rare extreme weather events. We provide an order of magnitude more hi-resolution data for training on multiple scales
+.
+
+To solve the competition task you will need to apply spatio-temporal modelling to complex dynamic systems and demonst
+rate the  temporal and spatial transfer learning of your models under strong distributional shifts! Finally, you will ad
+dress a super-resolution challenge where you need to predict future hi-res rain radar of ground-based weather stations f
+rom broader satellite sensor images!
+
+For more details about the competition please check out our website:    
+ 👉 [~http
+s://weather4cast.net/~](https://weather4cast.net/)
+
+Join our Forums and discuss the competition challenges!  
+ 👉 [~https
+://weather4cast.net/neurips2024/forums/~](https://weather4cast.net/neurips2024/forums/)
+
+If you have any questions about
+ our challenge, please ask here! I will be happy to answer!
+
+Aleksandra
+```
+---
+
+     
+ 
+all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-07-30-0911
+```
+Google Sheets: [LINK](https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ1UI_V4CqX9jVnlMD7SYGxYj3W3M3WtLD2AhXtCtiWQB1O3_
+gKq4s0orohHv5Zm-SB7d0lkvW8vPI/pubhtml)
+
+Excel file: [LINK](https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ1UI_V4CqX9
+jVnlMD7SYGxYj3W3M3WtLD2AhXtCtiWQB1O3_gKq4s0orohHv5Zm-SB7d0lkvW8vPI/pub?output=xlsx)
+
+  
+---
+
+I compiled a spreadsheet of
+ all papers from the ICLR, ICML, and NeurIPS conferences. It only contains data from 2023 (+ 2024 for ICLR). Thought it 
+might be useful to someone else as well.
+
+Contains the following columns (title, authors, abstract, and conference are a
+lways filled in, others not):
+
+|Title|Authors|Abstract|Conference|pdf|Poster|Slides|OpenReview|JMLR|
+|:-|:-|:-|:-|:-|:-|
+:-|:-|:-|
+
+```
+---
+
+     
+ 
+all -  [ [CFP] NeurIPS 24 Workshop: ML with New Compute Paradigms (MLNCP) ](https://groups.google.com/g/ml-news/c/iM3x7gzvhyk) , 2024-07-30-0911
+```
+
+```
+---
+
+     
+ 
+all -  [ [P] Invitation to join the Weather4cast 2024 Challenge at NeurIPS2024 
+ ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-07-30-0911
+```
+Hello!
+
+**⛈️ ⚡** **We are organising the** [**Weather4cast 2024** ](https://weather4cast.net/)[**Challenge** ](https://w
+eather4cast.net/)**at the NeurIPS 2024 Competition Track and we invite to you to join our competition! ⚡⛈️**  
+
+The comp
+etition focuses on topics of high impact and practical value for our society – predicting future weather and changes of 
+our environment.
+
+This year, on the road to foundation models, **we move from basic rainfall prediction to testing gener
+alisation performance and emergent capabilities of probabilistic models** on a set of downstream tasks, such as cumulati
+ve rainfall and the prediction of rare extreme weather events. We provide an order of magnitude more hi-resolution data 
+for training on multiple scales.
+
+✅ Apply spatio-temporal modelling to complex dynamic systems! 
+
+✅ Get access to unique
+ large-scale data and demonstrate temporal and spatial transfer learning under strong distributional shifts!
+
+✅ Address 
+a super-resolution challenge where you need to predict future hi-res rain radar of ground-based weather stations from br
+oader satellite sensor images!
+
+For more details about the competition please check out our website:    
+👉 [https://weat
+her4cast.net/](https://weather4cast.net/)
+
+Join our Forums and discuss the competition challenges!  
+👉 [https://weather4
+cast.net/neurips2024/forums/](https://weather4cast.net/neurips2024/forums/)
+
+**Competition timeline:** 
+
+**18 June**  – 
+Dataset release  &  Start of competition announcement  
+**14 July** – STAGE1 Cumulative rainfall Test Set release & Lead
+erboard open.  
+**5 August** – STAGE2 Extreme Precipitation Events Test Set release & Leaderboard open.  
+**6 October** 
+ **(midnight AoE)**  – Test dataset submission deadline.  
+**9 October** – Invitation to submit conference abstracts and
+ code  
+**16 October** **(midnight AoE)**  – Deadline for abstract and code submissions   
+**25 October** – Acceptance n
+otification
+
+If you have any questions about our challenge, please ask! I will be happy to answer!
+
+Aleksandra
+```
+---
+
+     
+ 
+all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-07-30-0911
 ```
 From a poster at ICML today—wonder how good the submissions will be!
 ```
@@ -7,7 +148,7 @@ From a poster at ICML today—wonder how good the submissions will be!
 
      
  
-all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-07-29-0911
+all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-07-30-0911
 ```
 I reviewed the video clip, but it only covers a small fraction of the explanation we need. Are you looking for this spec
 ific one, or should we dive into another? I'm excited to get your input and move forward with this 
@@ -16,15 +157,7 @@ ific one, or should we dive into another? I'm excited to get your input and move
 
      
  
-all -  [ [CfP] The NeurIPS 2024 Creative AI Track ](https://groups.google.com/g/ml-news/c/I4P7Fzl5p38) , 2024-07-29-0911
-```
-
-```
----
-
-     
- 
-all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-07-29-0911
+all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-07-30-0911
 ```
 The sentences quoted in the post title are from *Reuters* article [Exclusive: OpenAI working on new reasoning technology
  under code name ‘Strawberry’](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-t
@@ -61,7 +194,7 @@ etic.
 
      
  
-all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-07-29-0911
+all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-07-30-0911
 ```
 [New episode of Imbue's Generally Intelligent podcast](https://imbue.com/podcast/2024-07-11-podcast-episode-36-ari-morco
 s/) with Ari Morcos*,* CEO of [DatologyAI](https://www.datologyai.com), which makes training deep learning models more p
@@ -93,7 +226,7 @@ Highlights and referenced papers](https://imbue.com/podcast/2024-02-08-podcast-e
 
      
  
-all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-07-29-0911
+all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-07-30-0911
 ```
 \[FIXED\] Hi! I have recently begun using arc as my primary browser (still transitioning) but one thing I can't get over
  is that PDFs sometimes invert colors completely and I'm not sure how to fix it. I thought it had to do with the light/d
@@ -108,7 +241,7 @@ https://preview.redd.it/tlc1cdn62cbd1.png?width=
 
      
  
-all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-07-29-0911
+all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-07-30-0911
 ```
 **Introduction**
 
@@ -206,7 +339,7 @@ e emerges. Is this the echo of creation... or the birth of something entirely ot
 
      
  
-all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-07-29-0911
+all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-07-30-0911
 ```
 [The moment we stopped understanding AI \[AlexNet\]](https://www.youtube.com/watch?v=UZDiGooFs54)
 
@@ -403,7 +536,7 @@ ibing our architecture, brother, not just theirs!
 
      
  
-all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-29-0911
+all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-30-0911
 ```
 Klar - es gab noch mehr Papers - aber ich glaube, dass ich die wirklich wesentlichen erfasst habe. Viel Spaß beim stöber
 n und ein schönes Wochenende!
@@ -705,7 +838,7 @@ s://kinews24.de/xlstm/](https://kinews24.de/xlstm/)
 
      
  
-all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-29-0911
+all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-30-0911
 ```
 # Introduction
 
@@ -807,7 +940,7 @@ ebp&s=93bcdac6f05960dff4910d26b3bcc35d3882eba8)
 
      
  
-all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-29-0911
+all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-30-0911
 ```
 I already posted once on here (on a different account) and had questions about awards because that's what I feel I lack.
 
@@ -911,7 +1044,7 @@ I am very confused about what I should be doing for awards. Given that I do not 
 
      
  
-all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-29-0911
+all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-30-0911
 ```
 Hey all!
 So originally I was accepted into Algoverse for the Neurips track and was browsing on reddit to see if it was a
@@ -952,96 +1085,6 @@ project with Umich, I didn’t get in but it was cool to see.
 
 Overall: Happy with my experience, if you don’t mind the pr
 ice, I would recommend.
-```
----
-
-     
- 
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/neuralnetworks/comments/1dqgeuz/deep_learning_paper_summaries/) , 2024-07-29-0911
-```
-The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
-gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
-
-* DreamBooth: Fine Tuning Tex
-t-to-Image Diffusion Models for Subject-Driven Generation, CVPR'23 [https://github.com/vlgiitr/papers\_we\_read/blob/mas
-ter/summaries/DreamBooth.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/DreamBooth.md)
-* Segment An
-ything, ICCV'23 [https://github.com/vlgiitr/papers\_we\_read/blob/master/summaries/Segment\_Anything.md](https://github.
-com/vlgiitr/papers_we_read/blob/master/summaries/Segment_Anything.md)
-* An Image is Worth One Word: Personalizing Text-t
-o-Image Generation using Textual Inversion, ICVR'23 [https://github.com/vlgiitr/papers\_we\_read/blob/master/summaries/T
-extual\_inversion.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Textual_inversion.md)
-* Photoreali
-stic Text-to-Image Diffusion Models with Deep Language Understanding, NIPS'22 [https://github.com/vlgiitr/papers\_we\_re
-ad/blob/master/summaries/imagen.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/imagen.md)
-* An Imag
-e is Worth 16X16 Words: Transformers for Image Recognition at Scale, ICLR'21 [https://github.com/vlgiitr/papers\_we\_rea
-d/blob/master/summaries/Vision\_Transformer.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Vision_T
-ransformer.md)
-* Big Bird: Transformers for Longer Sequences, NIPS'20 [https://github.com/vlgiitr/papers\_we\_read/blob/
-master/summaries/Big\_Bird\_Transformers.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Big_Bird_Tr
-ansformers.md)
-
-If you found the summaries useful you can contribute summaries of your own. The [repo](https://github.co
-m/vlgiitr/papers_we_read) will be constantly updated with summaries of more papers from leading conferences.
-```
----
-
-     
- 
-all -  [ Deep Learning Paper Summaries ](https://www.reddit.com/r/DeepLearningPapers/comments/1dqfuky/deep_learning_paper_summaries/) , 2024-07-29-0911
-```
-The Vision Language Group at IIT Roorkee has written comprehensive summaries of deep learning papers from various presti
-gious conferences like NeurIPS, CVPR, ICCV, ICML 2016-24. A few notable examples include:
-
-* DreamBooth: Fine Tuning Tex
-t-to-Image Diffusion Models for Subject-Driven Generation, CVPR'23 [https://github.com/vlgiitr/papers\_we\_read/blob/mas
-ter/summaries/DreamBooth.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/DreamBooth.md)
-* Segment An
-ything, ICCV'23 [https://github.com/vlgiitr/papers\_we\_read/blob/master/summaries/Segment\_Anything.md](https://github.
-com/vlgiitr/papers_we_read/blob/master/summaries/Segment_Anything.md)
-* An Image is Worth One Word: Personalizing Text-t
-o-Image Generation using Textual Inversion, ICVR'23 [https://github.com/vlgiitr/papers\_we\_read/blob/master/summaries/T
-extual\_inversion.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Textual_inversion.md)
-* Photoreali
-stic Text-to-Image Diffusion Models with Deep Language Understanding, NIPS'22 [https://github.com/vlgiitr/papers\_we\_re
-ad/blob/master/summaries/imagen.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/imagen.md)
-* An Imag
-e is Worth 16X16 Words: Transformers for Image Recognition at Scale, ICLR'21 [https://github.com/vlgiitr/papers\_we\_rea
-d/blob/master/summaries/Vision\_Transformer.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Vision_T
-ransformer.md)
-* Big Bird: Transformers for Longer Sequences, NIPS'20 [https://github.com/vlgiitr/papers\_we\_read/blob/
-master/summaries/Big\_Bird\_Transformers.md](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Big_Bird_Tr
-ansformers.md)
-
-If you found the summaries useful you can contribute summaries of your own. The 
-[repo](https://github.c
-om/vlgiitr/papers_we_read) will be constantly updated with summaries of more papers from leading conferences.
-```
----
-
-     
- 
-all -  [ [D] Is anyone else absolutely besieged by papers and always on the verge of getting scooped? ](https://www.reddit.com/r/MachineLearning/comments/1dqbgw4/d_is_anyone_else_absolutely_besieged_by_papers/) , 2024-07-29-0911
-```
-I'm a 1st year PhD student working on a hot area in ML (3 guesses as to what lol) and the past year has been absolutely 
-brutal for me on a personal level. Every single weekday, I check the daily arxiv digest that hits my inbox, and there ar
-e consistently always 3-5 new papers that are relevant to my topic, especially recently given that everyone is now relea
-sing their Neurips submissions.
-
-No paper has directly scooped what I've been working on so far, but there were so many 
-near-misses lately that I'm worried that either (a) it's only a matter of time, and I should work even faster to get a p
-reprint out; or (b) even if I do get a paper out in the near future, it's one among a dozen similar titles that it won't
- get much traction. Some papers even have my advisor's name on them since she is a Big Famous Professor and is very amen
-able to collaboration (I sometimes think because she pitches the same ideas to multiple people, there is inevitably some
- local scooping going on). These circumstances drive up my anxiety, since I feel that speed is really the best comparati
-ve advantage here; it's all speed iteration from idea generation to execution to publication.
-
-IDK, I felt like I was so
- prolific and accomplished and ahead of the curve as an undergrad, and now it's been a year and I'm still struggling to 
-get a meaningful and novel idea out....is anyone else in the same boat? Does anyone have helpful advice...for dealing wi
-th the stress of fast publication cycles, or for generally struggling through the early years of research, or for how to
- think faster and better? Thanks for listening to my (possibly hideously naive) rant....
 ```
 ---
 
