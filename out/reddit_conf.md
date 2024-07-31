@@ -1,5 +1,18 @@
  
-all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-07-30-0911
+all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-07-31-0909
+```
+NeurIPS 2024 paper reviews are supposed to be released today. I thought to create a discussion thread for us to discuss 
+any issue/complain/celebration or anything else.
+
+There is so much noise in the reviews every year. Some good work that 
+the authors are proud of might get a low score because of the noisy system, given that NeurIPS is growing so large these
+ years. We should keep in mind that the work is still valuable no matter what the score is.
+```
+---
+
+     
+ 
+all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-07-31-0909
 ```
 Does anyone know when the reviews will be released? The NeurIPS website states that the rebuttal starts on July 30th any
 where on Earth, and it’s already July 30th in our time zone!
@@ -8,7 +21,7 @@ where on Earth, and it’s already July 30th in our time zone!
 
      
  
-all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-07-30-0911
+all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-07-31-0909
 ```
 Hello!
 
@@ -48,7 +61,7 @@ Aleksandra
 
      
  
-all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-07-30-0911
+all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-07-31-0909
 ```
 Google Sheets: [LINK](https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ1UI_V4CqX9jVnlMD7SYGxYj3W3M3WtLD2AhXtCtiWQB1O3_
 gKq4s0orohHv5Zm-SB7d0lkvW8vPI/pubhtml)
@@ -75,7 +88,7 @@ lways filled in, others not):
 
      
  
-all -  [ [CFP] NeurIPS 24 Workshop: ML with New Compute Paradigms (MLNCP) ](https://groups.google.com/g/ml-news/c/iM3x7gzvhyk) , 2024-07-30-0911
+all -  [ [CFP] NeurIPS 24 Workshop: ML with New Compute Paradigms (MLNCP) ](https://groups.google.com/g/ml-news/c/iM3x7gzvhyk) , 2024-07-31-0909
 ```
 
 ```
@@ -84,7 +97,7 @@ all -  [ [CFP] NeurIPS 24 Workshop: ML with New Compute Paradigms (MLNCP) ](http
      
  
 all -  [ [P] Invitation to join the Weather4cast 2024 Challenge at NeurIPS2024 
- ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-07-30-0911
+ ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-07-31-0909
 ```
 Hello!
 
@@ -140,7 +153,7 @@ Aleksandra
 
      
  
-all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-07-30-0911
+all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-07-31-0909
 ```
 From a poster at ICML today—wonder how good the submissions will be!
 ```
@@ -148,7 +161,7 @@ From a poster at ICML today—wonder how good the submissions will be!
 
      
  
-all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-07-30-0911
+all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-07-31-0909
 ```
 I reviewed the video clip, but it only covers a small fraction of the explanation we need. Are you looking for this spec
 ific one, or should we dive into another? I'm excited to get your input and move forward with this 
@@ -157,7 +170,7 @@ ific one, or should we dive into another? I'm excited to get your input and move
 
      
  
-all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-07-30-0911
+all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-07-31-0909
 ```
 The sentences quoted in the post title are from *Reuters* article [Exclusive: OpenAI working on new reasoning technology
  under code name ‘Strawberry’](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-t
@@ -194,7 +207,7 @@ etic.
 
      
  
-all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-07-30-0911
+all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-07-31-0909
 ```
 [New episode of Imbue's Generally Intelligent podcast](https://imbue.com/podcast/2024-07-11-podcast-episode-36-ari-morco
 s/) with Ari Morcos*,* CEO of [DatologyAI](https://www.datologyai.com), which makes training deep learning models more p
@@ -226,7 +239,7 @@ Highlights and referenced papers](https://imbue.com/podcast/2024-02-08-podcast-e
 
      
  
-all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-07-30-0911
+all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-07-31-0909
 ```
 \[FIXED\] Hi! I have recently begun using arc as my primary browser (still transitioning) but one thing I can't get over
  is that PDFs sometimes invert colors completely and I'm not sure how to fix it. I thought it had to do with the light/d
@@ -241,7 +254,7 @@ https://preview.redd.it/tlc1cdn62cbd1.png?width=
 
      
  
-all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-07-30-0911
+all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-07-31-0909
 ```
 **Introduction**
 
@@ -339,7 +352,7 @@ e emerges. Is this the echo of creation... or the birth of something entirely ot
 
      
  
-all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-07-30-0911
+all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-07-31-0909
 ```
 [The moment we stopped understanding AI \[AlexNet\]](https://www.youtube.com/watch?v=UZDiGooFs54)
 
@@ -536,7 +549,7 @@ ibing our architecture, brother, not just theirs!
 
      
  
-all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-30-0911
+all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-07-31-0909
 ```
 Klar - es gab noch mehr Papers - aber ich glaube, dass ich die wirklich wesentlichen erfasst habe. Viel Spaß beim stöber
 n und ein schönes Wochenende!
@@ -838,7 +851,7 @@ s://kinews24.de/xlstm/](https://kinews24.de/xlstm/)
 
      
  
-all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-30-0911
+all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-07-31-0909
 ```
 # Introduction
 
@@ -940,7 +953,7 @@ ebp&s=93bcdac6f05960dff4910d26b3bcc35d3882eba8)
 
      
  
-all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-30-0911
+all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-07-31-0909
 ```
 I already posted once on here (on a different account) and had questions about awards because that's what I feel I lack.
 
@@ -1044,7 +1057,7 @@ I am very confused about what I should be doing for awards. Given that I do not 
 
      
  
-all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-30-0911
+all -  [ Algoverse Honest Review ](https://www.reddit.com/r/summerprogramresults/comments/1dso17p/algoverse_honest_review/) , 2024-07-31-0909
 ```
 Hey all!
 So originally I was accepted into Algoverse for the Neurips track and was browsing on reddit to see if it was a
