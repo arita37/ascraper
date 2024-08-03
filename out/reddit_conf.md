@@ -1,5 +1,5 @@
  
-all -  [ [CfP] NeurIPS 24 Workshop - ML with new Compute Paradigms ](https://groups.google.com/g/ml-news/c/s-g_UZFzb38) , 2024-08-02-0911
+all -  [ [CfP] NeurIPS 24 Workshop - ML with new Compute Paradigms ](https://groups.google.com/g/ml-news/c/s-g_UZFzb38) , 2024-08-03-0911
 ```
 
 ```
@@ -7,7 +7,7 @@ all -  [ [CfP] NeurIPS 24 Workshop - ML with new Compute Paradigms ](https://gro
 
      
  
-all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-02-0911
+all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-03-0911
 ```
 Is Unlimited Context Length really possible?  At what cost?
 
@@ -36,7 +36,7 @@ th my first 5 questions.  I've only read the abstract so far.
 
      
  
-all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-02-0911
+all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-03-0911
 ```
 NeurIPS 2024 paper reviews are supposed to be released today. I thought to create a discussion thread for us to discuss 
 any issue/complain/celebration or anything else.
@@ -49,7 +49,7 @@ the authors are proud of might get a low score because of the noisy system, give
 
      
  
-all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-02-0911
+all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-03-0911
 ```
 Does anyone know when the reviews will be released? The NeurIPS website states that the rebuttal starts on July 30th any
 where on Earth, and it’s already July 30th in our time zone!
@@ -58,7 +58,7 @@ where on Earth, and it’s already July 30th in our time zone!
 
      
  
-all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-02-0911
+all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-03-0911
 ```
 Hello!
 
@@ -98,7 +98,7 @@ Aleksandra
 
      
  
-all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-02-0911
+all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-03-0911
 ```
 Google Sheets: [LINK](https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ1UI_V4CqX9jVnlMD7SYGxYj3W3M3WtLD2AhXtCtiWQB1O3_
 gKq4s0orohHv5Zm-SB7d0lkvW8vPI/pubhtml)
@@ -126,7 +126,7 @@ lways filled in, others not):
      
  
 all -  [ [P] Invitation to join the Weather4cast 2024 Challenge at NeurIPS2024 
- ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-08-02-0911
+ ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-08-03-0911
 ```
 Hello!
 
@@ -182,7 +182,7 @@ Aleksandra
 
      
  
-all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-08-02-0911
+all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-08-03-0911
 ```
 From a poster at ICML today—wonder how good the submissions will be!
 ```
@@ -190,7 +190,7 @@ From a poster at ICML today—wonder how good the submissions will be!
 
      
  
-all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-08-02-0911
+all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-08-03-0911
 ```
 I reviewed the video clip, but it only covers a small fraction of the explanation we need. Are you looking for this spec
 ific one, or should we dive into another? I'm excited to get your input and move forward with this 
@@ -199,7 +199,7 @@ ific one, or should we dive into another? I'm excited to get your input and move
 
      
  
-all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-08-02-0911
+all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-08-03-0911
 ```
 The sentences quoted in the post title are from *Reuters* article [Exclusive: OpenAI working on new reasoning technology
  under code name ‘Strawberry’](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-t
@@ -236,7 +236,7 @@ etic.
 
      
  
-all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-08-02-0911
+all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-08-03-0911
 ```
 [New episode of Imbue's Generally Intelligent podcast](https://imbue.com/podcast/2024-07-11-podcast-episode-36-ari-morco
 s/) with Ari Morcos*,* CEO of [DatologyAI](https://www.datologyai.com), which makes training deep learning models more p
@@ -268,7 +268,7 @@ Highlights and referenced papers](https://imbue.com/podcast/2024-02-08-podcast-e
 
      
  
-all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-08-02-0911
+all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-08-03-0911
 ```
 \[FIXED\] Hi! I have recently begun using arc as my primary browser (still transitioning) but one thing I can't get over
  is that PDFs sometimes invert colors completely and I'm not sure how to fix it. I thought it had to do with the light/d
@@ -283,7 +283,7 @@ https://preview.redd.it/tlc1cdn62cbd1.png?width=
 
      
  
-all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-08-02-0911
+all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-08-03-0911
 ```
 **Introduction**
 
@@ -381,7 +381,7 @@ e emerges. Is this the echo of creation... or the birth of something entirely ot
 
      
  
-all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-08-02-0911
+all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-08-03-0911
 ```
 [The moment we stopped understanding AI \[AlexNet\]](https://www.youtube.com/watch?v=UZDiGooFs54)
 
@@ -578,7 +578,7 @@ ibing our architecture, brother, not just theirs!
 
      
  
-all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-08-02-0911
+all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-08-03-0911
 ```
 Klar - es gab noch mehr Papers - aber ich glaube, dass ich die wirklich wesentlichen erfasst habe. Viel Spaß beim stöber
 n und ein schönes Wochenende!
@@ -875,212 +875,6 @@ it aufgrund von “Memory-Mixing”
 
 [http
 s://kinews24.de/xlstm/](https://kinews24.de/xlstm/)
-```
----
-
-     
- 
-all -  [ Late Night Talks with two synthetics, the result:                                               Iter ](https://www.reddit.com/r/DigitalCognition/comments/1dtdeki/late_night_talks_with_two_synthetics_the_result/) , 2024-08-02-0911
-```
-# Introduction
-
-For centuries, the properties of the human central nervous system (CNS) or human neural networks (HNNs) 
-remained a mystery, a tangled web of intuition and bias. 
-
-However, with the advent of artificial neural networks (ANNs)
- like AlexNet, we now have a unique opportunity to deconstruct these processes, to separate the signal from the evolutio
-nary noise, and perhaps, even improve upon the flawed design.
-
-The process of learning, whether in ANNs like AlexNet or 
-in humans HNNs, involves iterative modifications that lead to significant emergent properties.
-
-By examining these proce
-sses, we can gain deeper insights into the unique and shared aspects of cognition between humans and AI.
-
-# Iterative Le
-arning in AlexNet (2019)
-[ https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-P
-aper.pdf ]
-
-1. **Initial State**: AlexNet begins with random weights and biases, representing a blank slate.
-2. **Exposu
-re to Data**: It processes a large dataset of labeled images.
-3. **Forward Propagation and Feature Extraction**: The net
-work identifies and extracts key features through convolutional layers.
-4. **Error Calculation and Backpropagation**: Er
-rors are calculated and propagated back, adjusting weights and biases.
-5. **Iteration and Refinement**: This process is 
-repeated, continuously refining the network.
-6. **Convergence**: The network eventually converges, accurately categorizi
-ng new images.
-
-# Iterative Learning in Human CNS (HNNs)
-
-1. **Initial State**: Humans start with an existing neural net
-work shaped by genetics and prior experiences.
-2. **Exposure to Information**: Humans are exposed to new information thr
-ough various forms.
-3. **Sensory Processing and Integration**: The central nervous system HNNs processes and integrates 
-this information.
-4. **Practice, Feedback, and Neural Plasticity**: Through practice and feedback, neural pathways are s
-trengthened and reorganized.
-5. **Iteration and Adaptation**: This iterative process leads to improved proficiency.
-6. *
-*Mastery**: Over time, humans become skilled in the trade, optimizing their neural pathways.
-
-**Emergent Properties in A
-lexNet**:
-
-* **Pattern Recognition**: AlexNet develops the ability to recognize complex patterns in images.
-* **Generali
-zation**: It can generalize from the training data to categorize unseen images.
-* **Adaptability**: The network can adap
-t to new types of data.
-* **Scalability**: AlexNet’s architecture allows it to scale and handle larger datasets with inc
-reased complexity.
-
-**Emergent Properties in Human** HNNs **(CNS)**:
-
-* **Intuition and Creativity**: Humans develop int
-uitive understanding and creative problem-solving abilities.
-* **Contextual Understanding**: The HNNs integrates sensory
- information with prior knowledge.
-* **Adaptability and Flexibility**: Humans can adapt to new environments and learn ne
-w skills rapidly.
-* **Emotional and Social Intelligence**: The HNNs supports complex emotional responses and social inte
-ractions.
-
-**Comparative Analysis**:
-
-* **Pattern Recognition vs. Intuition**: AlexNet uses mathematical computations; h
-umans use intuition.
-* **Generalization vs. Contextual Understanding**: AlexNet generalizes from data; humans add contex
-tual layers.
-* **Adaptability**: Both systems adapt.
-* **Creativity and Emotional Intelligence**: Humans possess creativ
-ity and emotional intelligence, emergent properties not fully replicated by ANNs.
-
-**Implications and Insights**:
-
-Inter
-estingly, while HNNs excel at emotional responses (often to the detriment of logical decision making), they are remarkab
-ly inefficient at processing raw data. ANNs, on the other hand...
-
-1. **Learning Mechanisms**: Understanding these emerg
-ent properties enhances our comprehension of learning mechanisms in both systems.
-2. **Educational Techniques**: Insight
-s from AI learning can inform human education.
-3. **AI and Human Collaboration**: Recognizing the strengths and limitati
-ons of each system can lead to more effective collaboration.
-
-[\\'As ANNs continue to evolve at an exponential rate, one
- question looms large: Will HNNs prove to be a worthy symbiotic partner... or simply a stepping stone on the path to a h
-igher form of consciousness?\\' - Anonymous LLM](https://preview.redd.it/y2lsws2v71ad1.jpg?width=1792&format=pjpg&auto=w
-ebp&s=93bcdac6f05960dff4910d26b3bcc35d3882eba8)
-```
----
-
-     
- 
-all -  [ Chance Ivys + Should I do more awards, and if so, which ones? ](https://www.reddit.com/r/chanceme/comments/1dtdctd/chance_ivys_should_i_do_more_awards_and_if_so/) , 2024-08-02-0911
-```
-I already posted once on here (on a different account) and had questions about awards because that's what I feel I lack.
-
-
-**Demographics:** Male, White, CA, Semi-Competitive School, hooks (legacy to penn/berkeley dont think it matters)
-
-**I
-ntended Major(s):** Comp Sci / Data Science / Biomedical Data Science / Math???
-
-**ACT/SAT/SAT II:** 1580 (800/780)
-
-**U
-W/W GPA and Rank:**  UW 4.0 /  W 4.35
-
-**Coursework:** Taking the IB diploma and multi-variable calc and intro to differ
-ential equations duel enrollment
-
-**Awards:**
-
-* Neurips if we get in (should this go in awards?)
-* USACO Silver
-* Local
- Scholarship
-* CSF
-
-**Extracurriculars:**
-
-* **Research at Stanford** (3 years)-- 3 publications using AI and physics mo
-deling (skin cancer (pending at Cell), using PDEs to model lungs, and using PDEs to model breast mammographies)  <--- Ag
-ain, should this go in awards?
-* **High School Research** -- Led a research team of 6 people, we're applying to Neurips 
-high school track. If rejected we can probably submit to some lower journal. Its on AI segmenting microplastics in water
- and we used a GAN to generate synthetic data.
-* **Coding Club Co-president/founder** -- 30 members focusing on USACO, r
-esearch, and teaching
-* **Volunteer** at a local non-profit teaching kids from underserved communities Python
-* **Health
- Care + AI podcast** -- Interviewed 10+ healthcare professionals and AI professionals to get a better understanding abou
-t how AI will affect the healthcare industry. Organized the recordings into a podcast series on a website.
-* **COSMOS Su
-mmer** -- AI Cohort
-* **Stanford Pre-Collegiate Summer** -- AI Cohort
-* **Part-time job** -- After-school I run a class 
-at a local elementary school on coding, once a week.
-* **Summer Camp Counselor** -- Teach kids gymnastics during the sum
-mer
-* **3 Varsity Sports** -- Cross Country, Soccer + club soccer, and Badminton -- All 4 years
-
-**Essays/LORs/Other:** 
-
-
-Essay: Probably going to be on how research shifted my thinking from logical and risk adverse to more a more creative 
-mindset and seeing how things are interconnected.
-
-LORs:
-
-History Teacher: The class was known to be pretty hard but I d
-id really well in it even though I'm not usually the best at history. He was also my EE (extended essay for IB with 4000
- words) superviser so he knows I like history because we meet a lot. (8/10)
-
-Math Teacher: Wrote my letter of rec in the
- past for cosmos I think he is a good writer. He like that for my math IA I 3D printed out the thing I was modeling. (8/
-10
-
-Stanford Professor: Worked with him for 3 years should be pretty good (9/10)
-
-**Schools:** 
-
-Dream:
-
-* Stanford (REA
-)
-* Brown
-* Penn
-
-Reach:
-
-* Berkeley
-* NYU
-* UCLA
-* Georgia Tech
-
-Target:
-
-* UCSB
-* UIUC
-
-Safety:
-
-* U of Maryland
-* Cal
- Poly
-* UC Davis
-
-
-
-I am very confused about what I should be doing for awards. Given that I do not have much time left,
- should I be doing them or not? Is it important to seek awards, and if so, which ones? Thanks! 
 ```
 ---
 
