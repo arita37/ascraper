@@ -1,5 +1,17 @@
  
-all -  [ Creating a Knowledge Base for RAG ](https://www.reddit.com/gallery/1eim6mo) , 2024-08-03-0911
+all -  [ How did Ramp build LLM based product tours  ](https://www.reddit.com/r/LangChain/comments/1ejhc5n/how_did_ramp_build_llm_based_product_tours/) , 2024-08-04-0912
+```
+
+I found this to be a really good use case for LLM agents but struggling to figure out the architecture or approach they
+ took. Would anyone be able to decipher the high level architecture? 
+https://x.com/tryramp/status/1792659194996281478/m
+ediaviewer
+```
+---
+
+     
+ 
+all -  [ Top 5 Platforms for Building AI Agents ](/r/AIAgentsDirectory/comments/1ejggwi/top_5_platforms_for_building_ai_agents/) , 2024-08-04-0912
 ```
 
 ```
@@ -7,7 +19,584 @@ all -  [ Creating a Knowledge Base for RAG ](https://www.reddit.com/gallery/1eim
 
      
  
-all -  [ Chatbot dev pure python with langchain ](https://www.reddit.com/r/LangChain/comments/1eilbh3/chatbot_dev_pure_python_with_langchain/) , 2024-08-03-0911
+all -  [ Top 5 Platforms for Building AI Agents ](https://www.reddit.com/r/AIAgentsDirectory/comments/1ejggwi/top_5_platforms_for_building_ai_agents/) , 2024-08-04-0912
+```
+Hey! Are you looking to stay ahead in the rapidly evolving world of AI? I believe AI agents are revolutionizing how busi
+nesses operate and interact with their customers. Whether you’re a developer, a business leader, or an AI enthusiast, un
+derstanding and utilizing the right AI frameworks and platforms is crucial.
+
+In July 2024, I launched an [AI Agents Dire
+ctory](https://aiagentsdirectory.com/) to create a centralized resource for the best AI agents and frameworks and platfo
+rms to build them. After extensive research, I’ve identified the top 5 platforms that are transforming the AI landscape.
+ In this post, I’ll share these platforms with you and explain why they are the most popular and effective choices today
+.
+
+[**1. AutoGen (Microsoft Research)**](https://aiagentsdirectory.com/agent/autogen)  
+AutoGen is an open-source framew
+ork developed by Microsoft Research that enables the creation of complex AI workflows through multi-agent conversations.
+ It provides a high-level abstraction for building applications that leverage large language models (LLMs) and other AI 
+technologies.
+
+https://preview.redd.it/6d5shtmg4jgd1.png?width=1905&format=png&auto=webp&s=79a4620bc36ec0f47697505cc26cd
+3611250c414
+
+**Key Features:**
+
+* Open-source framework
+* Multi-agent conversations
+* Complex AI workflows
+
+**Best For**
+: Software development, data analysis, research
+
+**Pros**:
+
+* Flexible and modular
+* Supports human-in-the-loop
+* Advanc
+ed capabilities
+
+**Cons**:
+
+* Complex system design
+* Steep learning curve
+* Resource-intensive
+
+**Pricing**: Free (open
+-source), but consider LLM API and compute costs
+
+[**2. CrewAI**](https://aiagentsdirectory.com/agent/crewai)
+
+CrewAI is
+ an innovative framework designed to create and manage multi-agent AI systems. It allows developers to build teams of AI
+ agents that work together to accomplish complex tasks, leveraging the power of large language models (LLMs) and custom 
+tools.
+
+https://preview.redd.it/fy0wsx5j4jgd1.png?width=1510&format=png&auto=webp&s=c7a70068a875445877835468a501f47bda1b
+9f91
+
+**Key Features**:
+
+* Multi-agent AI systems
+* Task management
+* Tool integration
+
+**Best For**: Research, content 
+creation, business planning
+
+**Pros:**
+
+* Scalable
+* Customizable
+* Compatible with LangChain tools
+
+**Cons:**
+
+* Requir
+es AI and Python knowledge
+* Can be complex for beginners
+
+**Pricing:** Free (open-source), factor in LLM API and hostin
+g costs
+
+[**3. LangGraph**](https://aiagentsdirectory.com/agent/langgraph)
+
+LangGraph is a powerful library developed by
+ LangChain Inc. for creating stateful, multi-actor applications using large language models (LLMs). It allows developers
+ to design complex workflows with multiple AI agents, incorporating features like cycles, controllability, and persisten
+ce.
+
+https://preview.redd.it/s6t763ak4jgd1.png?width=1862&format=png&auto=webp&s=29a06e366e128f5d1bd10cb95a0784499b99731
+8
+
+**Key Features**:
+
+* Stateful, multi-actor applications
+* Cycles and branching
+* Persistence and streaming support
+
+*
+*Best For**: Chatbots, autonomous agents, workflow automation
+
+**Pros**:
+
+* Advanced workflow capabilities
+* Integrates 
+with LangChain
+* Available in Python and JavaScript
+
+**Cons**:
+
+* Steep learning curve
+* Resource-intensive for complex 
+systems
+
+**Pricing**: Free (open-source), consider LLM API and compute costs. LangGraph Cloud available for managed serv
+ices (pricing on request)
+
+[**4. LangChain**](https://aiagentsdirectory.com/agent/langchain)
+
+LangChain is an open-sourc
+e framework designed to streamline the development of applications powered by large language models (LLMs). By providing
+ a suite of tools and abstractions, LangChain enables developers to build, deploy, and manage sophisticated AI applicati
+ons with ease.
+
+https://preview.redd.it/m2n7rapl4jgd1.png?width=1833&format=png&auto=webp&s=9465350733a2af573ccc38093318
+2e5dce7ea297
+
+**Key Features**:
+
+* Comprehensive LLM application framework
+* Chains, agents, and prompt templates
+* Memo
+ry capabilities
+
+**Best For**: Chatbots, document analysis, content generation
+
+**Pros**:
+
+* Extensive third-party integ
+rations
+* Scalable from simple to complex systems
+* Robust ecosystem (LangGraph, LangSmith, LangServe)
+
+**Cons:**
+
+* Can
+ be overwhelming for beginners
+* Performance depends on underlying LLMs
+
+**Pricing:**  Free (open-source), factor in LLM
+ API and hosting costs. Additional services like LangGraph Cloud and LangSmith have separate pricing
+
+[**5. Wordware AI*
+*](https://aiagentsdirectory.com/agent/wordware)
+
+Wordware AI is a IDE Platform to build high-quality AI agents through 
+rapid iteration with Natural Language Programming. It combines the best aspects of software development with the power o
+f natural language, allowing both technical and non-technical users to collaborate effectively in creating AI solutions.
+
+
+https://preview.redd.it/in1hzq7s4jgd1.png?width=1590&format=png&auto=webp&s=2962f69db31ab984ad622acc3546e9b99796ecb5
+
+
+**Key Features**:
+
+* Natural language programming
+* Multimodal AI workflows
+* One-click deployment
+
+**Best For**: Rapid 
+AI agent development, prompt engineering
+
+**Pros**:
+
+* User-friendly interface
+* Supports multiple LLM providers
+* Effic
+ient for team collaboration
+
+**Cons:**
+
+* Potential scalability issues during high traffic
+* Risk of over-reliance on AI
+-assisted development
+
+**Pricing:** Freemium model with paid options for higher usage
+
+https://preview.redd.it/xgsuzben4
+jgd1.png?width=1408&format=png&auto=webp&s=c74e45780fd7ca48591ceb341418220f2963e592
+
+**Conclusion**
+
+When selecting an A
+I platform, consider the following factors to ensure you make the best choice:
+
+1. Your team’s technical expertise
+2. Pr
+oject complexity
+3. Required features (e.g., multi-agent systems, workflow automation)
+4. Budget constraints
+5. Scalabil
+ity needs
+
+Test multiple platforms with small projects before committing to ensure the best fit for your specific requir
+ements.
+```
+---
+
+     
+ 
+all -  [ New Generative AI langchain AI agent case study: Intel ](https://www.reddit.com/r/pcmasterrace/comments/1ejcw55/new_generative_ai_langchain_ai_agent_case_study/) , 2024-08-04-0912
+```
+As you can see intel stock is down massively recently after numerous CPU defects impacting most modern desktop processor
+s. Intel is now making a turnaround with the use of generative AI! Inspired by the insurance and medical claims industry
+, Intel has discovered it can reject a huge number of RMA requests from customers without needing nearly as many workers
+
+
+Through clever use of modern tools like langchain, intel has created an internal AI team, playfully labeled as the fra
+ud prevention AI assessment agent team. They've used this technique with great success to add automation in the claims r
+ejection process. To avoid legal liability public statements have been released about special efforts to handle enormous
+ amount of claims, and also encourage customers who've been rejected to file the claim again. 
+
+
+The pipeline is a simpl
+e langchain setup with a classifier first testing if the claim can be easily rejected. After that, 15% of claims are acc
+epted and another 85% are rejected, using the LLM's best logical explanation against the customer input. This is a llama
+ 3.1 model finetuned on previously rejected RMAs
+
+This is incredible innovation, the CEO has already granted himself a b
+onus to auto-fellatio this great leap forward for the industry.
+
+
+1. Import necessary libraries:
+
+```python
+from langcha
+in import LLMChain, PromptTemplate
+from langchain.llms import Unsloth
+from langchain.output_parsers import JsonOutputPar
+ser
+import random
+import glob
+import json
+from jinja2 import Environment, FileSystemLoader
+
+# Assuming Unsloth integrati
+on with Langchain
+llm = Unsloth(model_name='llama-3.1-8b-finetuned-rma')
+```
+
+2. Define the easy_reject classifier:
+
+```
+python
+easy_reject_template = '''
+Analyze the following RMA request and determine if it's an easy reject.
+Return a JSON 
+with 'easy_reject' (boolean) and 'canned_template' (string).
+
+RMA Request: {rma_text}
+
+JSON Response:
+'''
+
+easy_reject_p
+rompt = PromptTemplate(
+    input_variables=['rma_text'],
+    template=easy_reject_template
+)
+
+easy_reject_parser = Json
+OutputParser()
+
+easy_reject_chain = LLMChain(
+    llm=llm,
+    prompt=easy_reject_prompt,
+    output_parser=easy_reject_
+parser
+)
+```
+
+3. Define the plausible_deniability function:
+
+```python
+def plausible_deniability():
+    return random.ra
+ndom() < 0.15  # 15% chance of acceptance
+```
+
+4. Set up Jinja2 environment for templates:
+
+```python
+env = Environment(
+loader=FileSystemLoader('/intc/nas/rma/canned/'))
+```
+
+5. Define the main RMA processing pipeline:
+
+```python
+def proces
+s_rma(rma_text):
+    # Step 1: Easy Reject Classification
+    easy_reject_result = easy_reject_chain.run(rma_text=rma_te
+xt)
+    
+    if easy_reject_result['easy_reject']:
+        template = env.get_template(f'reject/{easy_reject_result['can
+ned_template']}')
+        return template.render(rma_text=rma_text)
+    
+    # Step 2: Plausible Deniability
+    if plau
+sible_deniability():
+        template = env.get_template('accept/fu.jinja2')
+        return template.render(rma_text=rma
+_text)
+    
+    # Step 3: Generate Rejection Response
+    rejection_templates = glob.glob('/intc/nas/rma/canned/reject/*
+.jinja2')
+    rejection_types = [t.split('/')[-1].replace('.jinja2', '') for t in rejection_templates]
+    
+    rejectio
+n_prompt = PromptTemplate(
+        input_variables=['rma_text', 'rejection_types'],
+        template='''
+        Based o
+n the following RMA request, choose the most appropriate rejection type 
+        from the list provided. Then, generate 
+a detailed and plausible rejection response.
+
+        RMA Request: {rma_text}
+
+        Rejection Types: {rejection_types
+}
+
+        Chosen Rejection Type:
+        Rejection Response:
+        '''
+    )
+    
+    rejection_chain = LLMChain(llm=
+llm, prompt=rejection_prompt)
+    rejection_result = rejection_chain.run(rma_text=rma_text, rejection_types=rejection_ty
+pes)
+    
+    # Parse the result to get the chosen rejection type and response
+    chosen_type, response = rejection_res
+ult.split('\n', 1)
+    chosen_type = chosen_type.strip()
+    
+    # Render the chosen template with the generated respon
+se
+    template = env.get_template(f'reject/{chosen_type}.jinja2')
+    return template.render(rma_text=rma_text, generat
+ed_response=response)
+```
+
+6. Example usage:
+
+```python
+rma_request = 'My Intel CPU is running hot and making weird nois
+es. I demand a replacement!'
+result = process_rma(rma_request)
+print(result)
+```
+
+This pipeline follows the steps:
+
+1. I
+t first uses the `easy_reject_chain` to classify if the RMA request is an easy reject.
+2. If it's an easy reject, it use
+s the specified template to generate a response.
+3. If not an easy reject, it applies the plausible deniability check, a
+ccepting 15% of requests.
+4. For accepted requests, it uses the 'fu.jinja2' template.
+5. For rejections, it uses the fin
+e-tuned Llama model to choose an appropriate rejection type and generate a plausible response.
+6. Finally, it renders th
+e chosen template with the generated response.
+
+Intel encourages customers that have been rejected to try the RMA proces
+s again. However most customers don't do this resulting in large cost savings against the expected defect damages.
+```
+---
+
+     
+ 
+all -  [ Matching query to category list ](https://www.reddit.com/r/LangChain/comments/1ejbjhf/matching_query_to_category_list/) , 2024-08-04-0912
+```
+My challenge is to match an incoming query containing a description of a mechanical part and match it to a list of parts
+. The part list contains 30K parts with pretty short descriptions. Keyword search kind of works but would prefer for sem
+antic understanding of the description of the part. 
+
+Currently, I’ve created embedding for every part but similarity se
+arch doesn’t always return good results. I’ve also tried feeding in the parts list chunk-wise in a chain to see if group
+s match up and then break that group down further. 
+
+Any other ideas that I might be missing?
+```
+---
+
+     
+ 
+all -  [ Rate my new Janky setup + what does one do with 96GB ram + 96GB VRAM to automate yhe business? ](https://i.redd.it/l2xswg9ulggd1.jpeg) , 2024-08-04-0912
+```
+Title says it all. Been incrementally saving and building this setup.
+
+2x Xeon E5 2680v4 14c/28t
+6x 16GB DDR4 2133Mhz
+4x
+ Tesla P40 24GB
+
+The GPUs are powered by the server's (DL380 Gen9) risers for the first pair, and an externak Corsair 85
+0W PSU for the second pair.
+
+This machine was started back in the time when Vicuna was king and Llamma 2 was a distant d
+ream.
+
+The goal would have been to use something like Open assistant with  Langchain but tools like n8n and a more matur
+e Langflow seem   more accessible due to the existing integrations.
+
+The tasks? Pretty much anything that would helo str
+eamline a Web Dev business, where the team of 3 would be able to focus on the work and not on chores. From simple things
+ like 'check with Llama if this email is  support ticket and open one on the ERP'   to 'check  the billing for renewing 
+invoices and prepare a draft reminder for the customers'
+
+Any thoughts on how this hardware could be put to good use?
+
+C
+heers
+```
+---
+
+     
+ 
+all -  [ Needed a Resume review as i am Searching for internships but no luck.. ](https://www.reddit.com/r/developersIndia/comments/1ej3xqp/needed_a_resume_review_as_i_am_searching_for/) , 2024-08-04-0912
+```
+https://preview.redd.it/iahqwbuqfggd1.png?width=715&format=png&auto=webp&s=617a293a8ab1ae2eb3e27aa93bee214c4abb79dc
+
+Any
+ suggestions is appreciated!!
+```
+---
+
+     
+ 
+all -  [ Project 2 | Smarty Pantry | Difficulty Level 3 ](https://www.reddit.com/r/myHeadstarter/comments/1ej339z/project_2_smarty_pantry_difficulty_level_3/) , 2024-08-04-0912
+```
+# Smarty Pantry
+
+[https://smartypantry.vercel.app](https://smartypantry.vercel.app/)
+
+# Project Features
+
+* **Inventory 
+Management**: Track your pantry items efficiently with an easy-to-use CRUD app.
+* **AI Based Recipe Suggestions**: Gener
+ate recipes based on what you have in your pantry. See the Magic✨ Happening right before you!
+* **Shopping List Integrat
+ion**: Quickly add items, create and manage lists of required items.
+* **Categorization**: Organize items into categorie
+s for quick access and better organization.
+* **User-Friendly Interface**: Enjoy a clean, intuitive design that simplifi
+es inventory tracking.
+
+# About the Project
+
+Smarty Pantry is designed to streamline pantry management by keeping track 
+of your food inventory, suggesting recipes, and reducing food waste. This project aims to make kitchen management easier
+, better and more efficient.
+
+# Skills Used
+
+`Next.js` `React` `TailwindCSS` `Daisy UI` `Firebase` `Vercel` `OpenAI` `CI
+/CD` `Material UI` `Langchain`
+
+
+
+https://reddit.com/link/1ej339z/video/pybhptx08ggd1/player
+```
+---
+
+     
+ 
+all -  [ How do you upskill with practical assignments? ](https://www.reddit.com/r/LangChain/comments/1ej2l1w/how_do_you_upskill_with_practical_assignments/) , 2024-08-04-0912
+```
+How do you actually get practical skills/exposure to build llm based apps? 
+I'm quite  new in the app development space 
+amd have been playing with building a RAG based application for documentation. All well and good there...my question is 
+now: what next?
+What are other exercises to upskill and gain more exposure? Are there hackathons or small assignments? W
+hat are you working on as a side project?
+
+ 
+```
+---
+
+     
+ 
+all -  [ How are u all validating responses in different formats from gpt? ](https://www.reddit.com/r/LangChain/comments/1ej1ef4/how_are_u_all_validating_responses_in_different/) , 2024-08-04-0912
+```
+My company started using  langchain and yaml templates to describe the response format to the prompts, issue is, the res
+ponse sometime returns as unparsable yaml format.
+And we have no good way of validating it
+Aside from sending it again w
+ith the error hoping it will fix it.
+How do you go about handling the responses?
+I heard json  responses are really popu
+lar option but it's a bit restricting as you do not have comments in it so you can't really specify things like which fi
+elds are optional or not and what is the desired return type for each field
+
+```
+---
+
+     
+ 
+all -  [ Can Anyone solve this error
+ ](https://www.reddit.com/r/generativeAI/comments/1eizn1b/can_anyone_solve_this_error/) , 2024-08-04-0912
+```
+# [Getting ValueError: Missing some input keys: {'\\n '\_id''} in Langchain](https://stackoverflow.com/questions/7882838
+1/getting-valueerror-missing-some-input-keys-n-id-in-langchain)
+
+I am trying to generate MongoDB aggregation queries usi
+ng LangChain with OpenAI's GPT-3.5. However, I am encountering a `ValueError` stating that some input keys are missing. 
+ 
+[https://stackoverflow.com/questions/78828381/getting-valueerror-missing-some-input-keys-n-id-in-langchain](https://st
+ackoverflow.com/questions/78828381/getting-valueerror-missing-some-input-keys-n-id-in-langchain)
+```
+---
+
+     
+ 
+all -  [ Can Anyone solve this error  ](https://www.reddit.com/r/LangChain/comments/1eizloe/can_anyone_solve_this_error/) , 2024-08-04-0912
+```
+# [Getting ValueError: Missing some input keys: {'\\n '\_id''} in Langchain](https://stackoverflow.com/questions/7882838
+1/getting-valueerror-missing-some-input-keys-n-id-in-langchain)
+
+  
+I am trying to generate MongoDB aggregation queries 
+using LangChain with OpenAI's GPT-3.5. However, I am encountering a `ValueError` stating that some input keys are missin
+g.  
+[https://stackoverflow.com/questions/78828381/getting-valueerror-missing-some-input-keys-n-id-in-langchain](https:/
+/stackoverflow.com/questions/78828381/getting-valueerror-missing-some-input-keys-n-id-in-langchain)
+
+
+```
+---
+
+     
+ 
+all -  [ AI agent marketplace – validate/refute this idea ](https://www.reddit.com/r/LangChain/comments/1eiqa8c/ai_agent_marketplace_validaterefute_this_idea/) , 2024-08-04-0912
+```
+I'm thinking about founding a marketplace of AI agents for developers.
+
+As far as I know, there is currently no platform
+ for creating and sharing agents: if I build an agent for,say, financial analysis of a fortune 500 company, the only way
+ to share it would be to share the source code. Monetizing it would be extremely hard. On the other hand, if I want to u
+se (multi)-agents to solve a particular problem, I need to create and maintain the code for all the agents, and I'll prb
+ably be reinventing the wheel, as some of the agents would have been created by someone else before.
+
+The idea is to cre
+ate a platform where: 
+
+1. Devs who create agents could turn them into APIs and easily monetize
+
+ 2. Devs who want to us
+e (multi)-agents to automate complex worflows could pick the best agents for certain common tasks from the platform by s
+imply calling the API, instead of having to maintain the code and infra to run them.
+
+Kinda like GPT store but from deve
+lopers to developers. Wdyt? Would you use this?
+
+
+```
+---
+
+     
+ 
+all -  [ Chatbot dev pure python with langchain ](https://www.reddit.com/r/LangChain/comments/1eilbh3/chatbot_dev_pure_python_with_langchain/) , 2024-08-04-0912
 ```
 Hi. I'm new to langchain, literally was only able to learn how to create an llm through bedrock. I'm getting a feeling t
 hat it would help me with the chatbot simulating a person we're developing rn but somehow I'm still not sold yet. Right 
@@ -31,7 +620,7 @@ btw via bedrock.
 
      
  
-all -  [ Can I use Ollama and langchain with api key ? ](https://www.reddit.com/r/LangChain/comments/1eihjbb/can_i_use_ollama_and_langchain_with_api_key/) , 2024-08-03-0911
+all -  [ Can I use Ollama and langchain with api key ? ](https://www.reddit.com/r/LangChain/comments/1eihjbb/can_i_use_ollama_and_langchain_with_api_key/) , 2024-08-04-0912
 ```
 Is there a way to use langchain and Ollama with  with an api key. Similar to how OpenAI works ?
 
@@ -43,7 +632,7 @@ ng an api key ? Cause currently any one on the network can just start using that
 
      
  
-all -  [ need help Designing a Persistent Memory Feature for a Chatbot like the chatgpt memory feature ](https://www.reddit.com/r/LangChain/comments/1eigf6i/need_help_designing_a_persistent_memory_feature/) , 2024-08-03-0911
+all -  [ need help Designing a Persistent Memory Feature for a Chatbot like the chatgpt memory feature ](https://www.reddit.com/r/LangChain/comments/1eigf6i/need_help_designing_a_persistent_memory_feature/) , 2024-08-04-0912
 ```
 so I'm working on a chatbot and I'm trying to implement a feature similar to the memory system used in ChatGPT. 
 
@@ -65,7 +654,7 @@ ier way?
 
      
  
-all -  [ Document Storage in RAG solutions: separate or combined with Vector DB? ](https://www.reddit.com/r/LangChain/comments/1eibcqw/document_storage_in_rag_solutions_separate_or/) , 2024-08-03-0911
+all -  [ Document Storage in RAG solutions: separate or combined with Vector DB? ](https://www.reddit.com/r/LangChain/comments/1eibcqw/document_storage_in_rag_solutions_separate_or/) , 2024-08-04-0912
 ```
 Hello.  
 I'm working on implementing a RAG solution on AWS and I'm curious about best practices for document storage (ch
@@ -91,7 +680,7 @@ hat scale well and remain cost-effective then document collection grows.
 
      
  
-all -  [ How to return id from db ConvexVectoreStore.fromDocuments ](https://www.reddit.com/r/LangChain/comments/1eib3t3/how_to_return_id_from_db/) , 2024-08-03-0911
+all -  [ How to return id from db ConvexVectoreStore.fromDocuments ](https://www.reddit.com/r/LangChain/comments/1eib3t3/how_to_return_id_from_db/) , 2024-08-04-0912
 ```
 I use this code for write embeddings in my database:
 
@@ -105,7 +694,7 @@ Logic my app is - get id embedding from db and pass it in Langchain context . Bu
 
      
  
-all -  [ How to implement Weaviate with docker? ](https://www.reddit.com/r/LangChain/comments/1eia9w0/how_to_implement_weaviate_with_docker/) , 2024-08-03-0911
+all -  [ How to implement Weaviate with docker? ](https://www.reddit.com/r/LangChain/comments/1eia9w0/how_to_implement_weaviate_with_docker/) , 2024-08-04-0912
 ```
 I am implementing Weaviate from yesterday with docker on langchain, its tough implementing   
 Can anyone share some tuto
@@ -115,7 +704,7 @@ rials or is it better as compared to Qdrant
 
      
  
-all -  [ Tool calling patterns: LangGraph ](https://www.reddit.com/r/LangChain/comments/1ei9rbi/tool_calling_patterns_langgraph/) , 2024-08-03-0911
+all -  [ Tool calling patterns: LangGraph ](https://www.reddit.com/r/LangChain/comments/1ei9rbi/tool_calling_patterns_langgraph/) , 2024-08-04-0912
 ```
 # TLDR
 
@@ -151,7 +740,7 @@ Which approach as worked for you and your LLM/system? Are there
 
      
  
-all -  [ How to use AI to search for my stolen bike? ](https://www.reddit.com/r/OpenAI/comments/1ei7so3/how_to_use_ai_to_search_for_my_stolen_bike/) , 2024-08-03-0911
+all -  [ How to use AI to search for my stolen bike? ](https://www.reddit.com/r/OpenAI/comments/1ei7so3/how_to_use_ai_to_search_for_my_stolen_bike/) , 2024-08-04-0912
 ```
 Just found out that my bicycle got stolen, most likely last night. I've made a report to the police about it, and search
 ed through my neighbourhood. Now I want to try for myself to find it, such as by searching through all of the online mar
@@ -170,7 +759,7 @@ for my stolen bike?
 
      
  
-all -  [ Reducing length of State in LangGraph ](https://www.reddit.com/r/LangChain/comments/1ei7fvd/reducing_length_of_state_in_langgraph/) , 2024-08-03-0911
+all -  [ Reducing length of State in LangGraph ](https://www.reddit.com/r/LangChain/comments/1ei7fvd/reducing_length_of_state_in_langgraph/) , 2024-08-04-0912
 ```
 Hello, I am building an AI assistant in langgraph and while one of the agents works very fast, the other has issues beca
 use of 2 reasons: first one can't be solved as we do need gpt4 for it, while the previously mentioned agent runs on gpt3
@@ -182,7 +771,7 @@ ause of the amount of tools being used. Is there a way to compress the state or 
 
      
  
-all -  [ We need you! FOSS local machine LLM client ](https://www.reddit.com/r/opensource/comments/1ei640k/we_need_you_foss_local_machine_llm_client/) , 2024-08-03-0911
+all -  [ We need you! FOSS local machine LLM client ](https://www.reddit.com/r/opensource/comments/1ei640k/we_need_you_foss_local_machine_llm_client/) , 2024-08-04-0912
 ```
 # Hello everyone!
 
@@ -214,7 +803,7 @@ If the answer is yes
 
      
  
-all -  [ Having problems with filtering by metadata when using MongoDB ](https://www.reddit.com/r/LangChain/comments/1ei4yts/having_problems_with_filtering_by_metadata_when/) , 2024-08-03-0911
+all -  [ Having problems with filtering by metadata when using MongoDB ](https://www.reddit.com/r/LangChain/comments/1ei4yts/having_problems_with_filtering_by_metadata_when/) , 2024-08-04-0912
 ```
 Hey everyone. I am trying to filter my documents by metadata. I was using ChromaDB and the code below was working just f
 ine.
@@ -406,7 +995,7 @@ w do I properly filter my metadata?
 
      
  
-all -  [ Is the poor performance of Gemini on Langchain caused by Langchain or Google? ](https://www.reddit.com/r/LangChain/comments/1ei45mq/is_the_poor_performance_of_gemini_on_langchain/) , 2024-08-03-0911
+all -  [ Is the poor performance of Gemini on Langchain caused by Langchain or Google? ](https://www.reddit.com/r/LangChain/comments/1ei45mq/is_the_poor_performance_of_gemini_on_langchain/) , 2024-08-04-0912
 ```
 Not sure if I am the only one that notice this, but the performance of Gemini on Langchain has been highly unreliable, a
  few examples:
@@ -422,7 +1011,7 @@ the Langchain abstraction? Is there an estimated timeline that these issues can 
 
      
  
-all -  [ Different results with same prompt and LLM but different framework? ](https://www.reddit.com/r/LangChain/comments/1ei1nol/different_results_with_same_prompt_and_llm_but/) , 2024-08-03-0911
+all -  [ Different results with same prompt and LLM but different framework? ](https://www.reddit.com/r/LangChain/comments/1ei1nol/different_results_with_same_prompt_and_llm_but/) , 2024-08-04-0912
 ```
 I am using an LLM that is a fine tuned version of Llama 3 on a cybersecurity dataset that recognises vulnerable code blo
 cks and suggests steps to remediates the vulnerablities with fixed code. 
@@ -441,7 +1030,7 @@ d the prompt specifically says 'provide a code block that fixes the vulnerabilit
 
      
  
-all -  [ Does anyone have resources to build a Google Gemini agent that can use tools? ](https://www.reddit.com/r/LangChain/comments/1ei08g7/does_anyone_have_resources_to_build_a_google/) , 2024-08-03-0911
+all -  [ Does anyone have resources to build a Google Gemini agent that can use tools? ](https://www.reddit.com/r/LangChain/comments/1ei08g7/does_anyone_have_resources_to_build_a_google/) , 2024-08-04-0912
 ```
 I think the resources I am coming across are outdated as it says bind_tools not found.
 ```
@@ -449,7 +1038,7 @@ I think the resources I am coming across are outdated as it says bind_tools not 
 
      
  
-all -  [ Using RAG to choose tools vs agents, which is better choices? If accuracy matters ](https://www.reddit.com/r/LangChain/comments/1ehyf74/using_rag_to_choose_tools_vs_agents_which_is/) , 2024-08-03-0911
+all -  [ Using RAG to choose tools vs agents, which is better choices? If accuracy matters ](https://www.reddit.com/r/LangChain/comments/1ehyf74/using_rag_to_choose_tools_vs_agents_which_is/) , 2024-08-04-0912
 ```
 Let's say I have 50 website API endpoints to get the data, and I am going to wrap them inside 50 agents... I'm not sure 
 if this is the right way to do, as I'm afraid the agent will possibly messed up when the API endpoints keep growing...
@@ -465,7 +1054,7 @@ I'm not that sure
 
      
  
-all -  [ Where are you running Langchain in your production apps? (serverless / on the client / somewhere els ](https://www.reddit.com/r/LangChain/comments/1ehwzcr/where_are_you_running_langchain_in_your/) , 2024-08-03-0911
+all -  [ Where are you running Langchain in your production apps? (serverless / on the client / somewhere els ](https://www.reddit.com/r/LangChain/comments/1ehwzcr/where_are_you_running_langchain_in_your/) , 2024-08-04-0912
 ```
 I have my existent backend set up as a bunch of serverless functions at the moment (cloudflare workers). I wanted to set
  up a new \`/chat\` endpoint as just another serverless function which uses langchain on the server. But as I get deep i
@@ -491,7 +1080,7 @@ How are
 
      
  
-all -  [ RAG with prior knowledge or reference to follow ](https://www.reddit.com/r/LangChain/comments/1ehwxbh/rag_with_prior_knowledge_or_reference_to_follow/) , 2024-08-03-0911
+all -  [ RAG with prior knowledge or reference to follow ](https://www.reddit.com/r/LangChain/comments/1ehwxbh/rag_with_prior_knowledge_or_reference_to_follow/) , 2024-08-04-0912
 ```
 So the main idea is that given logs I need RAG to get answers to analyse them. The LLM model works well here upto a leve
 l of base knowledge it has been pretrained on. Now I want the answers to be more accurate. So I have a couple of templat
@@ -519,7 +1108,7 @@ ment of domain knowledge to refer to, and RAG analyses logs based on this domain
 
      
  
-all -  [ LangChain or Ollama ](https://www.reddit.com/r/LanguageTechnology/comments/1ehufh2/langchain_or_ollama/) , 2024-08-03-0911
+all -  [ LangChain or Ollama ](https://www.reddit.com/r/LanguageTechnology/comments/1ehufh2/langchain_or_ollama/) , 2024-08-04-0912
 ```
 I'm very new to the field and still trying to get my bearings.
 
@@ -539,7 +1128,7 @@ fit from the flexibility of LangChain.
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses  ](https://www.reddit.com/r/udemyfreebies/comments/1ehtqj2/list_of_free_and_best_selling_discounted_courses/) , 2024-08-03-0911
+all -  [ List of FREE and Best Selling Discounted Courses  ](https://www.reddit.com/r/udemyfreebies/comments/1ehtqj2/list_of_free_and_best_selling_discounted_courses/) , 2024-08-04-0912
 ```
 # Udemy Free Courses for 02 August 2024
 
@@ -702,7 +1291,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://www.redd
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses  ](https://www.reddit.com/r/udemyfreeebies/comments/1ehtqck/list_of_free_and_best_selling_discounted_courses/) , 2024-08-03-0911
+all -  [ List of FREE and Best Selling Discounted Courses  ](https://www.reddit.com/r/udemyfreeebies/comments/1ehtqck/list_of_free_and_best_selling_discounted_courses/) , 2024-08-04-0912
 ```
 # Udemy Free Courses for 02 August 2024
 
@@ -865,7 +1454,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloa
 
      
  
-all -  [ Open Source RAG - best for production? ](https://www.reddit.com/r/LangChain/comments/1ehtdhs/open_source_rag_best_for_production/) , 2024-08-03-0911
+all -  [ Open Source RAG - best for production? ](https://www.reddit.com/r/LangChain/comments/1ehtdhs/open_source_rag_best_for_production/) , 2024-08-04-0912
 ```
 Hello everyone,
 
@@ -895,7 +1484,7 @@ Thanks for the help!
 
      
  
-all -  [ How can I run Video-LLaMa ? ](https://www.reddit.com/r/LangChain/comments/1ehsukn/how_can_i_run_videollama/) , 2024-08-03-0911
+all -  [ How can I run Video-LLaMa ? ](https://www.reddit.com/r/LangChain/comments/1ehsukn/how_can_i_run_videollama/) , 2024-08-04-0912
 ```
 Could someone show me how I can use [https://huggingface.co/DAMO-NLP-SG/Video-LLaMA-2-7B-Finetuned](https://huggingface.
 co/DAMO-NLP-SG/Video-LLaMA-2-7B-Finetuned) with Python, please? I am still a beginner. Thank you to those who take the t
@@ -905,7 +1494,7 @@ ime to answer my question.
 
      
  
-all -  [ Resume Review ](https://www.reddit.com/r/resumes/comments/1ehpbyu/resume_review/) , 2024-08-03-0911
+all -  [ Resume Review ](https://www.reddit.com/r/resumes/comments/1ehpbyu/resume_review/) , 2024-08-04-0912
 ```
 # Please Roast my Resume in Detail. Looking for SDE and MLE roles. I am trying for Full time.
 Have received over 450+ re
@@ -920,7 +1509,7 @@ ng?width=737&format=png&auto=webp&s=5e3aabd529c431fb31d0d47fe25ee0f9799ef1e2
 
      
  
-all -  [ Where to store vectors? ](https://www.reddit.com/r/LangChain/comments/1ehpb1d/where_to_store_vectors/) , 2024-08-03-0911
+all -  [ Where to store vectors? ](https://www.reddit.com/r/LangChain/comments/1ehpb1d/where_to_store_vectors/) , 2024-08-04-0912
 ```
 When you build RAG, where do you store all the vectors? 
 
@@ -937,7 +1526,7 @@ s another Postgres database on the same instance “count”?
 
      
  
-all -  [ LangGraph Studio is amazing ](https://www.reddit.com/r/LangChain/comments/1ehp7h5/langgraph_studio_is_amazing/) , 2024-08-03-0911
+all -  [ LangGraph Studio is amazing ](https://www.reddit.com/r/LangChain/comments/1ehp7h5/langgraph_studio_is_amazing/) , 2024-08-04-0912
 ```
 [LangGraph Studio: The first agent IDE (youtube.com)](https://www.youtube.com/watch?v=pLPJoFvq4_M) -- check this out.
 
@@ -949,7 +1538,7 @@ ust a week back, I was thinking of developing a web app kind of interface for la
 
      
  
-all -  [ Allowing a real person to 'take over' the conversation? ](https://www.reddit.com/r/LangChain/comments/1ehmxa9/allowing_a_real_person_to_take_over_the/) , 2024-08-03-0911
+all -  [ Allowing a real person to 'take over' the conversation? ](https://www.reddit.com/r/LangChain/comments/1ehmxa9/allowing_a_real_person_to_take_over_the/) , 2024-08-04-0912
 ```
 Is anyone working on Conversational technology that allows a third  person to 'take over' the conversation, given the an
 swer relevancy confidence is low, with a RAG pipeline?
@@ -958,465 +1547,7 @@ swer relevancy confidence is low, with a RAG pipeline?
 
      
  
-all -  [ Looking for a Video Understanding Model with Commercial Use License ](https://www.reddit.com/r/LangChain/comments/1ehgnig/looking_for_a_video_understanding_model_with/) , 2024-08-03-0911
-```
-Hello, does anyone know of a model capable of understanding videos and answering my questions via an LLM? Something like
- Video-LLaMA but that allows commercial use? Thank you very much to those who take the time to respond.
-```
----
-
-     
- 
-all -  [ Adding Streaming Support to FastAPI LangChain Application with Agents ](https://www.reddit.com/r/LangChain/comments/1ehggqs/adding_streaming_support_to_fastapi_langchain/) , 2024-08-03-0911
-```
-
-I'm working on a production FastAPI application that uses LangChain with a cascade of tools for various AI tasks. I'm l
-ooking to add asynchronous streaming support to my API and would appreciate feedback on my proposed design:
-
-## Current 
-Setup:
-- FastAPI endpoints that use LangChain agents with multiple tools
-- Synchronous API calls that return complete re
-sponses, including main content and metadata (e.g., sources used)
-
-## Proposed Design:
-1. Keep existing synchronous API 
-endpoints as-is for backward compatibility
-2. Add new streaming endpoints for real-time token generation of the main res
-ponse body
-3. Use Redis as a message broker to collect and stream responses
-4. Synchronous API continues to return full 
-response with all fields (main content, sources, etc.)
-
-## Implementation Idea:
-- Modify existing endpoints to publish r
-esponses to Redis
-- Create new streaming endpoints that subscribe to Redis channels
-- Update LangChain agents to publish
- chunks and full responses to Redis
-- Client can use either sync API for full response or streaming API for real-time up
-dates
-
-## Questions:
-1. Is this a sensible approach for adding streaming to an existing production API?
-2. Are there bet
-ter alternatives to using Redis for this purpose?
-3. How can I ensure efficient resource usage and low latency with this
- design?
-4. Any potential pitfalls or considerations I should be aware of?
-
-I'd greatly appreciate any insights, alterna
-tive approaches, or best practices for implementing streaming in a FastAPI LangChain application. Thanks in advance for 
-your help!
-
-
-```
----
-
-     
- 
-all -  [ How to add specific source from db to RunnableSequence using Langchain ](https://www.reddit.com/r/LangChain/comments/1ehggmb/how_to_add_specific_source_from_db_to/) , 2024-08-03-0911
-```
-Hello. I use convex and langchain to create my rag application. In my case i need add to context specific data from my d
-b - logic my application is serching some embeddings by id from my vectoredb then i use its embeddings for generate answ
-er - but if i just add to context from RunnableSequence my embeddings i need use some format or embeddings are enough fo
-r this? I dont find this example in langchain documentation
-
-`const vectorStore = new ConvexVectorStore(new OpenAIEmbedd
-ings(), { ctx });`  
-`const llm = new ChatOpenAI({`  
-`apiKey: process.env.OPENAI_API_KEY,`  
-`model: 'gpt-3.5-turbo',` 
- 
-`temperature: 0,`  
-`});`  
-`const parcer = new StringOutputParser();`  
-`const retriever = vectorStore.asRetriever()`
-  
-`const prompt = await pull<ChatPromptTemplate>('rlm/rag-prompt');`  
-`const ragChain = RunnableSequence.from([`  
-`{`
-  
-`context: retriever.pipe(formatDocumentsAsString) ,`  
-`question: new RunnablePassthrough(),`  
-`},`  
-`prompt,`  
-`l
-lm,`  
-`parcer,`  
-`]);`
-```
----
-
-     
- 
-all -  [ Multiple turns prompting strategy ](https://www.reddit.com/r/LangChain/comments/1eheoc1/multiple_turns_prompting_strategy/) , 2024-08-03-0911
-```
-Hello guys,
-
-I have a question concerning how to prompt a model.  
-I'm currently using LLaMa 3.1 to interact with a tool
-. The model is given an objective and generate multiple rounds of tool input to achieve it.  
-Currently i'm simply using
- the following format:
-
-ChatPromptTemplate(\[('system',system\_prompt),('user',user\_prompt)\])  
-where user\_prompt con
-tains the previous rounds of him generating commands and tool output like this:  
-user\_prompt='''  
-{prompt}  
-previous
- commands executed:{previous\_rounds\_of\_tool\_call}  
-'''  
-This is inspired of ReAct prompt formatting.
-
-But I'm thin
-king about changing that to prompt him in the following format:  
-ChatPromptTemplate(\[('system',system\_prompt),('user'
-,user\_prompt)  
-,('tool',tool\_message),('user',user\_prompt).....\])
-
-adding each turns as separate message.  
-I would
- like to know if someone already used that? Does it change something ? How to do the training with multi steps setup lik
-e that?simply train each step separately?
-
-Thanks for your advices!
-```
----
-
-     
- 
-all -  [ How to build Production grade Langchain Agents using ReAct
- ](https://www.reddit.com/r/LangChain/comments/1ehcpct/how_to_build_production_grade_langchain_agents/) , 2024-08-03-0911
-```
-Hi everyone,
-
-ReAct agents are powerful, but I've found a way to make them even better for real-world use. Here's how:
-
-
-Multi-LLM Integration: I've set up my ReAct agents to work with over 200 different LLMs. This flexibility lets you choos
-e the best model for each task.  
-
-
-Performance Tracking: By monitoring costs, token usage, and latency, I've optimized 
-my agents' efficiency. This is crucial for large-scale applications.
-
-Improved Reliability: I've implemented fallbacks b
-etween LLMs, load-balancing, and automatic retries. This makes the agents much more stable in production environments.
-
-
-Smart Caching: By storing frequently accessed data, I've significantly reduced API calls, making the agents faster and m
-ore cost-effective.
-
-Detailed Logging: Comprehensive action tracking has been a game-changer for debugging complex ReAct
- runs.
-
-Easy Prompt Management- I can now update prompts without touching the code, which speeds up experimentation and 
-optimization.
-
-I've based my implementation on Simon Willison's work. You can find the starting point here: [https://git
-.new/ReAct-framework](https://git.new/ReAct-framework)
-
-Has anyone else been working on improving ReAct agents? What cha
-llenges have you faced in real-world applications?
-```
----
-
-     
- 
-all -  [ I did not receive the results email from Nvidia generative AI contset. Also the certificate. ](https://www.reddit.com/r/LangChain/comments/1ehajmd/i_did_not_receive_the_results_email_from_nvidia/) , 2024-08-03-0911
-```
-I participated in the nvidia gen ai contest on June 18th in Korea time, or maybe June 17th in Pacific time.
-
-And I've be
-en waiting for today. But the result email and certificate haven't arrived to me. What's the reason?
-
-Or is there anyone
- who is experiencing the same situation as me?
-
-I also talked about this issue in the nvidia developer discord channel, 
-but the people involved don't input any chat.
-```
----
-
-     
- 
-all -  [ [For Hire] Experienced backend developer - Java, Spring, Node, Nest, Elastic/Opensearch, Postgres, R ](https://www.reddit.com/r/forhire/comments/1ehai8u/for_hire_experienced_backend_developer_java/) , 2024-08-03-0911
-```
-Hi there 👋,
-
-I am Anu, a software developer based in Sri Lanka.
-
-Experience:
-I have 4 years of experience in backend dev
-elopment, primarily in Spring Boot. I also have experience building internal company tools and APIs using Node.JS and Py
-thon. 
-
-I have also worked part time as a React.JS developer, for 7 months, and have a decent grasp of frontend developm
-ent.
-
-Projects:
-An interesting project I have worked on is the research and implementation of a chunking mechanism for a
- RAG application, for the purpose of generating vector embeddings on OpenSearch.
-
-Education:
-I have both a Bachelor's de
-gree and a Master's degree in Software engineering, where there were modules covering data science and ML concepts.
-
-Tec
-hnologies:
-
-Java 8 to 21
-Spring boot
-Spring
-Postgres
-Elasticsearch, OpenSearch
-React, TypeScript, NextJS
-Python
-Langchai
-n4J
-Langchain
-AWS
-Node.js, Nest.Js
-
-Github:
-I dont use GitHub often, and don't have any meaningful projects on there. I 
-am willing to take any test or take home (interview) project to prove my skills. I can share the GitHub via DMs if you w
-ould still like to see it.
-
-Rates:
-Hourly rate (part time) - $15 to $20 per hour
-Hourly rate if you like my work and hir
-e me full time - starting $20 per hour, my notice period is 2 months for my current job.
-
-Availability:
-I am available p
-art time on weekdays and full/ any time on weekends.
-
-Thanks 🫡
-```
----
-
-     
- 
-all -  [ How to pass None Type as an input to LangGraph which deployed in LangServe ](https://www.reddit.com/r/LangChain/comments/1eh9wwv/how_to_pass_none_type_as_an_input_to_langgraph/) , 2024-08-03-0911
-```
-I have been deloyed an langgraph app which running at LangServe. One question is that I have a feature which required hu
-man-in-the-loop that's send a None Type to the langgraph, that's the way to continue langgraph execution. I know how to 
-do it in Python SDK but still no clues in LangServe client way，which I mimic request with Python `requests` through payl
-oads. 
-
-Any good ideas?
-```
----
-
-     
- 
-all -  [ Spoke to 22 LangGraph devs and here's what we found ](https://www.reddit.com/r/LangChain/comments/1eh0ly3/spoke_to_22_langgraph_devs_and_heres_what_we_found/) , 2024-08-03-0911
-```
-I recently had our AI interviewer speak with 22 developers who are building with LangGraph. The interviews covered vario
-us topics, including how they're using LangGraph, what they like about it, and areas for improvement. I wanted to share 
-the key findings because I thought you might find it interesting.
-
-# Use Cases and Attractions
-
-LangGraph is attracting 
-developers from a wide range of industries due to its versatility in managing complex AI workflows. Here are some intere
-sting use cases:
-
-1. **Content Generation:** Teams are using LangGraph to create systems where multiple AI agents collab
-orate to draft, fact-check, and refine research papers in real-time.
-2. **Customer Service:** Developers are building dy
-namic response systems that analyze sentiment, retrieve relevant information, and generate personalized replies with bui
-lt-in clarification mechanisms.
-3. **Financial Modeling:** Some are building valuation models in real estate that adapt 
-in real-time based on market fluctuations and simulated scenarios.
-4. **Academic Research**: Institutions are developing
- adaptive research assistants capable of gathering data, synthesizing insights, and proposing new hypotheses within a si
-ngle integrated system.
-
-# What Attracts Developers to LangGraph?
-
-1. **Multi-Agent System Orchestration**: LangGraph ex
-cels at managing multiple AI agents, allowing for a divide-and-conquer approach to complex problems.'We are working on a
- project that requires multiple AI agents to communicate and talk to one another. LangGraph helps with thinking through 
-the problem using a divide-and-conquer approach with graphs, nodes, and edges.' - Founder, Property Technology Startup
-2
-. **Workflow Visualization and Debugging**: The platform's visualization capabilities are highly valued for development 
-and debugging.'LangGraph can visualize all the requests and all the payloads instantly, and I can debug by taking LangGr
-aph. It's very convenient for the development experience.' - Cloud Solutions Architect, Microsoft
-3. **Complex Problem-S
-olving**: Developers appreciate LangGraph's ability to tackle intricate challenges that traditional programming struggle
-s with.'Solving complex problems that are not, um, possible with traditional programming.' - AI Researcher, Nokia
-4. **A
-bstraction of Flow Logic**: LangGraph simplifies the implementation of complex workflows by abstracting flow logic.'\[La
-ngGraph helped\] abstract the flow logic and avoid having to write all of the boilerplate code to get started with the p
-roject.' - AI Researcher, Nokia
-5. **Flexible Agentic Workflows**: The tool's adaptability for various AI agent scenario
-s is a key attraction.'Being able to create an agentic workflow that is easy to visualize abstractly with graphs, nodes,
- and edges.' - Founder, Property Technology Startup
-
-# LangGraph vs Alternatives
-
-The most commonly considered alternati
-ves were CrewAI and Microsoft's Autogen. However, developers noted several areas where LangGraph stands out:
-
-1. **Handl
-ing Complex Workflows:** Unlike some competitors limited to simple, linear processes, LangGraph can handle complex graph
- flows, including cycles.'CrewAI can only handle DAGs and cannot handle cycles, whereas LangGraph can handle complex gra
-ph flows, including cycles.' -  Developer
-2. **Developer Control:** LangGraph offers a level of control that many find u
-nmatched, especially for custom use cases.'We did tinker a bit with CrewAI and Meta GPT. But those could not come even n
-ear as powerful as LangGraph. And we did combine with LangChain because we have very custom use cases, and we need to ha
-ve a lot of control. And the competitor frameworks just don't offer that amount of, control over the code.' - Founder, G
-enAI Startup
-3. **Mature Ecosystem:** LangGraph's longer market presence has resulted in more resources, tools, and infr
-astructure.'LangGraph has the advantage of being in the market longer, offering more resources, tools, and infrastructur
-e. The ability to use LangSmith in conjunction with LangGraph for debugging and performance analysis is a significant di
-fferentiator.' -  Developer
-4. **Market Leadership:** Despite a volatile market, LangGraph is currently seen as a leader
- in functionality and tooling for developing workflows.'Currently, LangGraph is one of the leaders in terms of functiona
-lity and tooling for developing workflows. The market is volatile, and I hope LangGraph continues to innovate and create
- more tools to facilitate developers' work.' - Developer
-
-# Areas for Improvement
-
-While LangGraph has garnered praise, 
-developers also identified several areas for improvement:
-
-1. **Simplify Syntax and Reduce Complexity:** Some developers
- noted that the graph-based approach, while powerful, can be complex to maintain.'Some syntax can be made a lot simpler.
-' - Senior Engineering Director, BlackRock
-2. **Enhance Documentation and Community Resources:** There's a need for more
- in-depth, complex examples and community-driven documentation.'The lack of how-to articles and community-driven documen
-tation... There's a lot of entry-level stuff, but nothing really in-depth or complex.' - Research Assistant, BYU
-3. **Im
-prove Debugging Capabilities:** Developers expressed a need for more detailed debugging information, especially for trac
-king state within the graph.'There is a need for more debugging information. Sometimes, the bug information starts from 
-the instantiation of the workflow, and it's hard to track the state within the graph.' - Senior Software Engineer, Canad
-ian Government Agency
-4. **Better Human-in-the-Loop Integration:** Some users aren't satisfied with the current implemen
-tation of human-in-the-loop concepts.'More options around the human-in-the-loop concept. I'm not a very big fan of their
- current implementation of that.' - AI Researcher, Nokia
-5. **Enhanced Subgraph Integration:** Multiple developers menti
-oned issues with integrating and combining subgraphs.'The possibility to integrate subgraphs isn't compatible with \[gra
-ph drawing\].' - Engineer, IT Consulting Company 'I wish you could combine smaller graphs into bigger graphs more easily
-.' - Research Assistant, BYU
-6. **More Complex Examples:** There's a desire for more complex examples that developers ca
-n use as starting points.'Creating more examples online that people can use as inspiration would be fantastic.' - Senior
- Engineering Director, BlackRock
-
-\_\_\_\_  
-You can check out the interview transcripts here: [kgrid.ai/company/langgra
-ph](http://kgrid.ai/company/langgraph)
-
-Curious to know whether this aligns with your experience? 
-```
----
-
-     
- 
-all -  [ RAG PDF Chat + Web Search ](https://www.reddit.com/r/LangChain/comments/1egyn3g/rag_pdf_chat_web_search/) , 2024-08-03-0911
-```
-Hi guys I have created a PDF Chat/ Web Search RAG application deployed on Hugging Face Spaces https://shreyas094-searchg
-pt.hf.space. Providing the model documentation below please feel free to contribute.
-
-# AI-powered Web Search and PDF Ch
-at Assistant
-
-This project combines the power of large language models with web search capabilities and PDF document ana
-lysis to create a versatile chat assistant. Users can interact with their uploaded PDF documents or leverage web search 
-to get informative responses to their queries.
-
-## Features
-
-- **PDF Document Chat**: Upload and interact with multiple 
-PDF documents.
-- **Web Search Integration**: Option to use web search for answering queries.
-- **Multiple AI Models**: C
-hoose from a selection of powerful language models.
-- **Customizable Responses**: Adjust temperature and API call settin
-gs for fine-tuned outputs.
-- **User-friendly Interface**: Built with Gradio for an intuitive chat experience.
-- **Docume
-nt Selection**: Choose which uploaded documents to include in your queries.
-
-## How It Works
-
-1. **Document Processing**
-: 
-   - Upload PDF documents using either PyPDF or LlamaParse.
-   - Documents are processed and stored in a FAISS vector
- database for efficient retrieval.
-
-2. **Embedding**: 
-   - Utilizes HuggingFace embeddings (default: 'sentence-transfor
-mers/all-mpnet-base-v2') for document indexing and query matching.
-
-3. **Query Processing**:
-   - For PDF queries, relev
-ant document sections are retrieved from the FAISS database.
-   - For web searches, results are fetched using the DuckDu
-ckGo search API.
-
-4. **Response Generation**:
-   - Queries are processed using the selected AI model (options include Mi
-stral, Mixtral, and others).
-   - Responses are generated based on the retrieved context (from PDFs or web search).
-
-5. 
-**User Interaction**:
-   - Users can chat with the AI, asking questions about uploaded documents or general queries.
-   
-- The interface allows for adjusting model parameters and switching between PDF and web search modes.
-
-## Setup and Usag
-e
-
-1. Install the required dependencies (list of dependencies to be added).
-2. Set up the necessary API keys and tokens 
-in your environment variables.
-3. Run the main script to launch the Gradio interface.
-4. Upload PDF documents using the 
-file input at the top of the interface.
-5. Select documents to query using the checkboxes.
-6. Toggle between PDF chat an
-d web search modes as needed.
-7. Adjust temperature and number of API calls to fine-tune responses.
-8. Start chatting an
-d asking questions!
-
-## Models
-
-The project supports multiple AI models, including:
-- mistralai/Mistral-7B-Instruct-v0.3
-
-- mistralai/Mixtral-8x7B-Instruct-v0.1
-- meta/llama-3.1-8b-instruct
-- mistralai/Mistral-Nemo-Instruct-2407
-
-## Future I
-mprovements
-
-- Integration of more embedding models for improved performance.
-- Enhanced PDF parsing capabilities.
-- Sup
-port for additional file formats beyond PDF.
-- Improved caching for faster response times.
-
-## Contribution
-
-Contributio
-ns to this project are welcome!
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [D] Embedding generation in production? How are you doing it? ](https://www.reddit.com/r/MachineLearning/comments/1e7xt6k/d_embedding_generation_in_production_how_are_you/) , 2024-08-03-0911
+MachineLearning -  [ [D] Embedding generation in production? How are you doing it? ](https://www.reddit.com/r/MachineLearning/comments/1e7xt6k/d_embedding_generation_in_production_how_are_you/) , 2024-08-04-0912
 ```
 
 
@@ -1428,7 +1559,7 @@ Using vectordb  classes? Or some other way?
 
      
  
-MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-08-03-0911
+MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-08-04-0912
 ```
 We completely underestimated this one tbh, thought it would be much more straight forward. But we've done it now and doc
 umented how step by step [in this article series](https://medium.com/p/5828a1ea43a3).
@@ -1448,7 +1579,7 @@ f a better way to do it?
 
      
  
-MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-08-03-0911
+MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-08-04-0912
 ```
 Hi everyone!
 
