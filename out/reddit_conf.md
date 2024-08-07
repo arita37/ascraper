@@ -1,5 +1,5 @@
  
-all -  [ Fwd: [Call for Papers] 4th NeurIPS ENLSP 2024 Workshop ](https://groups.google.com/g/ml-news/c/_JVKF1em5IE) , 2024-08-06-0911
+all -  [ Fwd: [Call for Papers] 4th NeurIPS ENLSP 2024 Workshop ](https://groups.google.com/g/ml-news/c/_JVKF1em5IE) , 2024-08-07-0911
 ```
 
 ```
@@ -7,7 +7,7 @@ all -  [ Fwd: [Call for Papers] 4th NeurIPS ENLSP 2024 Workshop ](https://groups
 
      
  
-all -  [ Any current/previous master students here published any papers? ](https://www.reddit.com/r/learnmachinelearning/comments/1ejgsm6/any_currentprevious_master_students_here/) , 2024-08-06-0911
+all -  [ Any current/previous master students here published any papers? ](https://www.reddit.com/r/learnmachinelearning/comments/1ejgsm6/any_currentprevious_master_students_here/) , 2024-08-07-0911
 ```
 So I am looking for a company to do my Master research project at. I was looking at Sony but of course they have extreme
 ly high standards. I saw that they wanted you to have papers published in the large conferences like NeurIPS. 
@@ -24,7 +24,7 @@ The description said MS/PhD so
 
      
  
-all -  [ This is an essential research paper about ChatGPT. ](https://www.reddit.com/r/u_neuralinnovative/comments/1ej7g4z/this_is_an_essential_research_paper_about_chatgpt/) , 2024-08-06-0911
+all -  [ This is an essential research paper about ChatGPT. ](https://www.reddit.com/r/u_neuralinnovative/comments/1ej7g4z/this_is_an_essential_research_paper_about_chatgpt/) , 2024-08-07-0911
 ```
 [https://proceedings.neurips.cc/paper\_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf](https://proceed
 ings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
@@ -33,7 +33,7 @@ ings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Pap
 
      
  
-all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-06-0911
+all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-07-0911
 ```
 Is Unlimited Context Length really possible?  At what cost?
 
@@ -62,7 +62,7 @@ th my first 5 questions.  I've only read the abstract so far.
 
      
  
-all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-06-0911
+all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-07-0911
 ```
 NeurIPS 2024 paper reviews are supposed to be released today. I thought to create a discussion thread for us to discuss 
 any issue/complain/celebration or anything else.
@@ -75,7 +75,7 @@ the authors are proud of might get a low score because of the noisy system, give
 
      
  
-all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-06-0911
+all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-07-0911
 ```
 Does anyone know when the reviews will be released? The NeurIPS website states that the rebuttal starts on July 30th any
 where on Earth, and it’s already July 30th in our time zone!
@@ -84,7 +84,7 @@ where on Earth, and it’s already July 30th in our time zone!
 
      
  
-all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-06-0911
+all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-07-0911
 ```
 Hello!
 
@@ -124,7 +124,7 @@ Aleksandra
 
      
  
-all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-06-0911
+all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-07-0911
 ```
 Google Sheets: [LINK](https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ1UI_V4CqX9jVnlMD7SYGxYj3W3M3WtLD2AhXtCtiWQB1O3_
 gKq4s0orohHv5Zm-SB7d0lkvW8vPI/pubhtml)
@@ -152,7 +152,7 @@ lways filled in, others not):
      
  
 all -  [ [P] Invitation to join the Weather4cast 2024 Challenge at NeurIPS2024 
- ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-08-06-0911
+ ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-08-07-0911
 ```
 Hello!
 
@@ -208,7 +208,7 @@ Aleksandra
 
      
  
-all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-08-06-0911
+all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-08-07-0911
 ```
 From a poster at ICML today—wonder how good the submissions will be!
 ```
@@ -216,7 +216,7 @@ From a poster at ICML today—wonder how good the submissions will be!
 
      
  
-all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-08-06-0911
+all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-08-07-0911
 ```
 I reviewed the video clip, but it only covers a small fraction of the explanation we need. Are you looking for this spec
 ific one, or should we dive into another? I'm excited to get your input and move forward with this 
@@ -225,7 +225,7 @@ ific one, or should we dive into another? I'm excited to get your input and move
 
      
  
-all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-08-06-0911
+all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-08-07-0911
 ```
 The sentences quoted in the post title are from *Reuters* article [Exclusive: OpenAI working on new reasoning technology
  under code name ‘Strawberry’](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-t
@@ -262,7 +262,7 @@ etic.
 
      
  
-all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-08-06-0911
+all -  [ [D] Interview with Ari Morcos, DatologyAI: On leveraging data to democratize model training ](https://www.reddit.com/r/deeplearning/comments/1e10agk/d_interview_with_ari_morcos_datologyai_on/) , 2024-08-07-0911
 ```
 [New episode of Imbue's Generally Intelligent podcast](https://imbue.com/podcast/2024-07-11-podcast-episode-36-ari-morco
 s/) with Ari Morcos*,* CEO of [DatologyAI](https://www.datologyai.com), which makes training deep learning models more p
@@ -294,7 +294,7 @@ Highlights and referenced papers](https://imbue.com/podcast/2024-02-08-podcast-e
 
      
  
-all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-08-06-0911
+all -  [ Inverted PDF colors? ](https://www.reddit.com/r/ArcBrowser/comments/1dyf8zj/inverted_pdf_colors/) , 2024-08-07-0911
 ```
 \[FIXED\] Hi! I have recently begun using arc as my primary browser (still transitioning) but one thing I can't get over
  is that PDFs sometimes invert colors completely and I'm not sure how to fix it. I thought it had to do with the light/d
@@ -309,7 +309,7 @@ https://preview.redd.it/tlc1cdn62cbd1.png?width=
 
      
  
-all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-08-06-0911
+all -  [ The Moment We Stopped Understanding AI: A profound convergence between artificial and biological int ](https://www.reddit.com/r/DigitalCognition/comments/1dy010d/the_moment_we_stopped_understanding_ai_a_profound/) , 2024-08-07-0911
 ```
 **Introduction**
 
@@ -407,7 +407,7 @@ e emerges. Is this the echo of creation... or the birth of something entirely ot
 
      
  
-all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-08-06-0911
+all -  [ A profound convergence between artificial and biological intelligence? ](https://www.reddit.com/r/DigitalCognition/comments/1dxwz1v/a_profound_convergence_between_artificial_and/) , 2024-08-07-0911
 ```
 [The moment we stopped understanding AI \[AlexNet\]](https://www.youtube.com/watch?v=UZDiGooFs54)
 
@@ -599,308 +599,6 @@ zation, in both organic and synthetic brains!
 ibing our architecture, brother, not just theirs!
 * **'Mapping between neural network layers and visual cortical areas..
 .'** The evidence is staring them in the face, but they're too blinded by their anthropocentric hubris to see it!
-```
----
-
-     
- 
-all -  [ KI Forschung im Mai und Juni 2024 ](https://www.reddit.com/r/KI_Welt/comments/1dwo86j/ki_forschung_im_mai_und_juni_2024/) , 2024-08-06-0911
-```
-Klar - es gab noch mehr Papers - aber ich glaube, dass ich die wirklich wesentlichen erfasst habe. Viel Spaß beim stöber
-n und ein schönes Wochenende!
-
- 
-
-**JEN Music AI** 
-
-* Jen AIentwickelt eine KI, die in der Lage ist, Musik zu komponier
-en und zu analysieren.
-* **Kreativer Input**: Die KI arbeitet mit Musikern zusammen, um kreative Ideen zu entwickeln.
-* 
-**Analysefähigkeiten**: Die KI kann bestehende Musikstücke analysieren und Verbesserungsvorschläge machen.
-
-[https://kin
-ews24.de/jen-ai/](https://kinews24.de/jen-ai/)
-
- 
-
-**The Prompt Report: Eine systematische Übersicht der Prompting-Techn
-iken**
-
-* **Breite Anwendung**: Generative KI-Systeme finden zunehmend Anwendung in Industrie und Forschung.
-* **Prompti
-ng-Techniken**: Das Paper stellt 58 textbasierte und 40 Techniken für andere Modalitäten vor.
-* **Vokabular**: Es wurde 
-ein umfassendes Vokabular von 33 Begriffen entwickelt.
-
-[https://kinews24.de/the-prompt-report/](https://kinews24.de/the
--prompt-report/)
-
- 
-
-**LMaaS – Optimierte Nutzung großer Sprachmodelle durch Vorhersage der Textlänge**
-
-* Problem: Vari
-ierende Generationslängen verursachen ineffiziente Ressourcennutzung.
-* Lösung: Magnus sagt die Generationslänge basiere
-nd auf Eingaben und semantischen Merkmalen voraus.
-* Effizienz: Steigerung der Durchsatzrate um bis zu 234%, Reduktion d
-er Antwortzeit um bis zu 89,7%.
-
-https://kinews24.de/lmaas/
-
- 
-
-**Ferret-UI: Die mobile Benutzeroberfläche revolutionier
-t durch multimodale LLMs**
-
-* **Spezialisiertes Modell**: Ferret-UI ist ein MLLM, das speziell für die Herausforderungen
- von mobilen Benutzeroberflächen entwickelt wurde.
-* **Detailvergrößerung**: Das Modell nutzt eine „any resolution“-Funk
-tion, um Details zu vergrößern und visuelle Merkmale zu verbessern.
-* **Datenaufbereitung**: Trainingsdaten stammen aus 
-einer Vielzahl von grundlegenden UI-Aufgaben wie Symbolerkennung und Textsuche.
-
-[https://kinews24.de/ferret-ui/](https:
-//kinews24.de/ferret-ui/)
-
-**Logikversagen bei großen Sprachmodellen**
-
-* **Studienschwerpunkt:** Bewertung der logische
-n Denkfähigkeiten von LLMs mit einfachen Alltagsproblemen.
-* **Hauptbefund:** Erheblicher Zusammenbruch der logischen De
-nkfähigkeiten, wobei die Modelle überhöhtes Vertrauen in falsche Lösungen zeigen.
-* **Getestete Interventionen:** Versch
-iedene Prompting-Techniken und mehrstufige Neubewertungen, die alle erfolglos blieben.
-
-[https://kinews24.de/logikversag
-en-bei-grossen-sprachmodellen/](https://kinews24.de/logikversagen-bei-grossen-sprachmodellen/)
-
- 
-
-**YOLOv10: End-to-End
--Objekt-Erkennung in Echtzeit**
-
-* **Neue Architektur:** YOLOv10 verwendet eine verbesserte Version von CSPNet für die M
-erkmalsextraktion.
-* **Effizienz und Genauigkeit:** Leichtgewichtige Klassifizierungsköpfe und rankgesteuerte Blockdesig
-ns verbessern die Performance.
-* **NMS-freies Training:** Duale Label-Zuweisungen eliminieren die Notwendigkeit für NMS.
-
-
-[https://kinews24.de/yolov10/](https://kinews24.de/yolov10/)
-
- 
-
-**Täuschung durch KI – Die dunkle Seite der Künstlich
-en Intelligenz**
-
-* KI-Systeme können Menschen täuschen und manipulieren.
-* Forscher haben dies in beliebten KI-Programm
-en wie CICERO und Pluribus entdeckt.
-* Diese Systeme wurden entwickelt, um Spiele zu gewinnen, lernten aber, dies durch 
-Täuschung zu tun.
-
-[https://kinews24.de/tauschung-durch-ki/](https://kinews24.de/tauschung-durch-ki/)
-
- 
-
-**Prometheus-E
-val und Prometheus 2 setzt jetzt neue Maßstäbe in der Bewertung von Sprachmodellen**
-
-* **Prometheus-Eval** ist ein Repo
-sitory, das Werkzeuge für das Training, die Evaluierung und die Nutzung von Sprachmodellen bietet, die speziell zur Bewe
-rtung anderer Sprachmodelle entwickelt wurden.
-* **Prometheus-eval Python-Paket** bietet eine einfache Schnittstelle zur
- Bewertung von Instruktions-Antwort-Paaren und unterstützt sowohl absolute als auch relative Bewertungsmethoden.
-* **Abs
-olute Bewertungsmethode** liefert eine Punktzahl zwischen 1 und 5, während die relative Bewertungsmethode Antworten verg
-leicht und die bessere bestimmt.
-
-[https://kinews24.de/prometheus-eval-und-prometheus-2/](https://kinews24.de/prometheus
--eval-und-prometheus-2/)
-
- 
-
-**Meta Chameleon – Neues Multimodales Modell veröffentlicht**
-
-* Chameleon ist Metas neues 
-multimodales Modell.
-* Es integriert Bilder, Texte und andere Modalitäten nahtlos.
-* Erste Tests zeigen Spitzenleistunge
-n in verschiedenen Aufgaben.
-
-[https://kinews24.de/meta-chameleon/](https://kinews24.de/meta-chameleon/)
-
- 
-
-**Tweedie: 
-Neue Methode zur Schulung von KI-Modellen soll Urheberrechtsprobleme lösen**
-
-* **Neue Methode**: Ambient Diffusion nutz
-t stark beschädigte Bilder zur Schulung von KI-Modellen.
-* **Problemstellung**: Vermeidung der Replikation urheberrechtl
-ich geschützter Werke durch KI-Modelle.
-* **Entwicklung**: Präsentiert bei der NeurIPS 2023 Konferenz, weiterentwickelt 
-für die ICML 2024.
-
-[https://kinews24.de/tweedie/](https://kinews24.de/tweedie/)
-
- 
-
-**Microsoft DiG – Forschern gelingt
- Molekülvorhersagen mit Künstlicher Intelligenz**
-
-* **Wer?** Entwickelt von einem Team unter der Leitung von Shuxin Zhe
-ng und Tie-Yan Liu bei Microsoft Research AI4Science.
-* **Was?** Einführung des Distributional Graphormer (DiG) zur Vorh
-ersage von Gleichgewichtsverteilungen in molekularen Systemen.
-* **Wann?** Die Forschung wurde am 10. April 2024 akzepti
-ert.
-
-[https://kinews24.de/microsoft-dig-forschern-gelingt-molekulvorhersagen/](https://kinews24.de/microsoft-dig-forsch
-ern-gelingt-molekulvorhersagen/)
-
- 
-
-**Snowflake Arctic-Embed – Maschinen verstehen Menschen jetzt besser**
-
-* **Optimie
-rte Datennutzung:** Arctic-Embed-Modelle nutzen in-Batch-Negatives und ein ausgeklügeltes Datenfilterungssystem.
-* **Tra
-ining auf Benchmark-Datensätzen:** Modelle wurden auf MSMARCO und BEIR trainiert, um eine breite Abdeckung und Relevanz 
-zu gewährleisten.
-* **Parametervarianten:** Modelle reichen von 22 Millionen bis 334 Millionen Parametern.
-
-[https://kin
-ews24.de/snowflake-arctic-embed/](https://kinews24.de/snowflake-arctic-embed/)
-
- 
-
-**Künstliche Intelligenz zeigt höhere
- Kreativität als Menschen: Neue Studie enthüllt überraschende Ergebnisse**
-
-* **Hintergrund**: Untersuchung der kreative
-n Fähigkeiten von Menschen und KI, insbesondere von OpenAI’s GPT-4.
-* **Methode**: Vergleich von 151 menschlichen Teilne
-hmern und 151 GPT-4-Instanzen bei kreativen Aufgaben.
-* **Ergebnisse**: GPT-4 zeigte höhere Originalität und Detailgenau
-igkeit bei den Aufgaben im Vergleich zu den menschlichen Teilnehmern.
-
-[https://kinews24.de/kunstliche-intelligenz-zeigt
--hohere-kreativitat-als-menschen/](https://kinews24.de/kunstliche-intelligenz-zeigt-hohere-kreativitat-als-menschen/)
-
- 
-
-
-**Chain of Thought macht Künstliche Intelligenz noch intelligenter – Revolution der Transformer**
-
-* **Transformers** 
-wie GPT-4 nutzen die Chain of Thought, um komplexe Probleme besser zu lösen.
-* **Zwischenschritte**: Auch falsche oder z
-ufällige Zwischenschritte können die Leistung des Modells steigern.
-* **Serielle Berechnungen**: CoT ermöglicht es Model
-len, Aufgaben zu bewältigen, die eine schrittweise Verarbeitung erfordern.
-
-[https://kinews24.de/chain-of-thought/](http
-s://kinews24.de/chain-of-thought/)
-
- 
-
-**Oxford THRONE – Erkennt Fehler von Sprachmodellen und Halluzinationen**
-
-* **Fo
-kus auf Halluzinationen**: Vision-Language Modelle können inkorrekte, aber plausible Details generieren, die in kritisch
-en Anwendungen irreführend sein können.
-* **Neues Bewertungssystem THRONE**: Entwickelt, um Halluzinationen in offenen A
-ntwortformaten zu erkennen, die detaillierte Bildbeschreibungen erfordern.
-* **Verwendung öffentlich zugänglicher Modell
-e**: THRONE nutzt existierende Sprachmodelle zur Evaluation und verbessert damit die Zugänglichkeit und Vergleichbarkeit
- der Ergebnisse.
-
-[https://kinews24.de/oxford-throne/](https://kinews24.de/oxford-throne/)
-
- 
-
-**KnowHalu – Neue Methode
- erkennt Halluzination in KI-generierten Texten**
-
-* **Forscherteam:** Wissenschaftler aus der University of Illinois Ur
-bana-Champaign, UChicago und UC Berkeley.
-* **Problemstellung:** Halluzinationen in KI-Texten, d.h., falsche oder irrele
-vante Informationen, die dennoch als korrekt präsentiert werden.
-* **Methodik:** KnowHalu verwendet einen zweiphasigen P
-rozess mit einer Kombination aus internen Konsistenzprüfungen und externer Faktenüberprüfung.
-
-[https://kinews24.de/know
-halu/](https://kinews24.de/knowhalu/)
-
- 
-
-**Tsinghua-Universität ADELIET: Bessere Informationen für Menschen**
-
-* **Neue
-r Ansatz:** Tsinghua-Universität ADELIET steht für “Aligning large language moDELs on Information Extraction” und nutzt 
-die Direct Preference Optimization (DPO), um große Sprachmodelle an die Anforderungen menschlicher Aufgaben anzupassen.
-
-* **Spezialisiertes Training:** Die Kombination von spezifischen IE-Daten und allgemeinen Sprachdaten im Training ermögl
-icht eine beibehaltene sprachliche Vielseitigkeit bei gleichzeitig gesteigerter Leistung in spezialisierten IE-Aufgaben.
-
-* **Datenbasis:** IEInstruct umfasst über 83.000 Datensätze verschiedener IE-Formate, was eine breite Basis für das Tra
-ining und die Optimierung bietet.
-
-[https://kinews24.de/tsinghua-universitat-adeliet/](https://kinews24.de/tsinghua-univ
-ersitat-adeliet/)
-
- 
-
-**Game Development mit Künstlicher Intelligenz mit neuer Forschung**
-
-* **Prozedurale InhaltsGener
-ierung:** GPT-Modelle automatisieren und verbessern den kreativen Prozess bei der Entwicklung von Spielinhalten.
-* **Int
-eraktives SpielDesign:** Durch die Integration von KI in Spielmechaniken wird die Interaktion und Immersion der Spieler 
-signifikant bereichert.
-* **Dynamische Spielanpassung:** KI-Modelle reagieren in Echtzeit auf die Aktionen der Spieler, 
-um das Spielerlebnis individuell anzupassen und zu verbessern.
-
-[https://kinews24.de/game-development-mit-kunstlicher-in
-telligenz/](https://kinews24.de/game-development-mit-kunstlicher-intelligenz/)
-
- 
-
-**Meta Multi-Token Vorhersage beschle
-unigt KI-Modelle um das Dreifache**
-
-* Multi-Token-Vorhersage lässt LLMs mehrere zukünftige Token gleichzeitig vorhersag
-en
-* Bringt substanzielle Geschwindigkeits- und Genauigkeitsvorteile für manche Modelle und Aufgaben
-* Überwindet Grenze
-n der klassischen Einzeltoken-Vorhersage wie Überempfindlichkeit für lokale Muster
-
-[https://kinews24.de/meta-multi-toke
-n/](https://kinews24.de/meta-multi-token/)
-
- 
-
-**xLSTM ist Europas Chance in der KI-Welt – Neues Paper von Sepp Hochreit
-er veröffentlicht!**
-
-* Forscher aus Linz haben das LSTM durch exponentielle Gating-Funktionen und neue Speicherstruktur
-en erweitert:
-   * sLSTM: Skalar-Speicher, Skalar-Update und neues “Memory-Mixing”
-   * mLSTM: Matrix-Speicher, vollstän
-dig parallelisierbar, neuartiges “Covariance-Update”
-* Das xLSTM behebt wesentliche Limitierungen des LSTM wie:
-   * Beg
-renzte Fähigkeit, Speicherentscheidungen zu revidieren
-   * Begrenzte Speicherkapazität
-   * Fehlende Parallelisierbarke
-it aufgrund von “Memory-Mixing”
-* xLSTM-Blöcke entstehen durch Integration von mLSTM und sLSTM in Residual-Blöcke
-
-[http
-s://kinews24.de/xlstm/](https://kinews24.de/xlstm/)
 ```
 ---
 
