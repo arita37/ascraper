@@ -1,5 +1,919 @@
  
-all -  [ [1 YoE, Data and Policy Analyst, Data Engineer or Data Scientist Policy, United States] ](https://www.reddit.com/r/resumes/comments/1emqxqk/1_yoe_data_and_policy_analyst_data_engineer_or/) , 2024-08-08-0911
+all -  [ Text Similarity between News article titles ](https://www.reddit.com/r/LangChain/comments/1enksd4/text_similarity_between_news_article_titles/) , 2024-08-09-0911
+```
+I am nearly 500 articles scraped and am currently trying to group them by what stories are the same. For this, I wanted 
+to use text similarity to check how similar the titles are. For example
+
+Britons in Lebanon could be evacuated by more  
+ 
+Britons in Lebanon on standby for evacuation 
+
+are the same story by with different wording. Obviously, in this case i
+ts very obvious and something like Jacquard Index could be used. But in other scenarious it gets more complicated. Diffe
+rent wording but the same story.  
+Using this site [https://similarity-demo.newscatcherapi.com/](https://similarity-demo
+.newscatcherapi.com/) I checked that cosine and word2Vec has the highest success. I checked an implementation of word2Ve
+c and you need to build a model just to check the similarity. I have to process near 500 titles and group them, theres a
+lready a lot of computation involved and I need to grab this data in real time. Is there a way to check the similarity w
+ithout having to do it from scratch ?
+
+  
+If anyone can suggest a better way please let me know
+
+  
+
+```
+---
+
+     
+ 
+all -  [ Seeking In-Depth Information on Perplexity's Sonar Models: System Messages, Context Handling, and AP ](https://www.reddit.com/r/LangChain/comments/1enk44f/seeking_indepth_information_on_perplexitys_sonar/) , 2024-08-09-0911
+```
+Is there any documentation about Sonar models beyond what's provided in the Perplexity docs?
+
+I'm seeking more informati
+on about the differences in behavior between the 'system message,' prompt, and/or first user request. From what I unders
+tand, the query is generated based on the 'user' message, and query generation ignores the 'system' message. So what exa
+ctly is the purpose of this 'system' message? The examples typically use short 3-4 word phrases, but do Sonar models sup
+port more complex system instructions (similar to the models they're trained on)?
+
+Additionally, how do online models ha
+ndle multi-turn conversations? What context is used for query generation and RAG? I understand these models are intended
+ for single-turn interactions, with 'chat' versions available for multi-turn conversations.
+
+This leads to my question a
+bout context length. The online model claims a 128K context, but this seems unattainable in practice. If the user messag
+e is too long, query generation becomes less effective and retrieves less relevant results. Higher context can't even be
+ achieved with multi-turn chats, as the quality drops significantly.
+
+It's worth noting that the number of tokens provid
+ed to the model as 'sources' is generally in the range of 2-3K globally, but often much less depending on the complexity
+ of the question (via the API).
+
+Does anyone have insights into these issues? Could someone from the staff please point 
+me towards more detailed information?
+
+Thanks in advance! 
+```
+---
+
+     
+ 
+all -  [ How do you tackle a “time aware” RAG use case? ](https://www.reddit.com/r/LangChain/comments/1enk2hx/how_do_you_tackle_a_time_aware_rag_use_case/) , 2024-08-09-0911
+```
+Hey y’all!
+
+I’m working through a RAG solution (not my first) and stumbled into a problem I hadn’t thought of yet: retri
+eving documents based on time. 
+
+The idea is that you could ask “Provide a summary of what happened in the past 24 hours
+?” or “I was out for 5 weeks, what did I miss?”
+
+The documents in the vectordb (pgvector for now) are diverse and made u
+p of knowledge bases and ticketing systems. 
+
+Q&A with similarity is easy. This time thing threw me for a loop. 
+
+Best I
+ could up with so far is having the time/date of the article saved in something like epoch form in the metadata then, ha
+ve one LLM asses the user’s request and if it has a time range, respond in JSON format with start/end values. And then, 
+filter on the date value on the metadata. 
+
+I saw timescale but haven’t done a bunch of research on it yet. I’ve also se
+en document retrieval with time decay. That looks interesting. 
+
+Just curious if any of you have had this problem and so
+lved it already?
+
+Thanks and cheers!
+```
+---
+
+     
+ 
+all -  [ 🧰 agent-service-toolkit: Full toolkit for running agent as a service built with LangGraph, FastAPI a ](https://www.reddit.com/r/LangChain/comments/1engrgq/agentservicetoolkit_full_toolkit_for_running/) , 2024-08-09-0911
+```
+🧰 Introducing agent-service-toolkit, a new open source toolkit for running an AI agent as a service using LangGraph, Fas
+tAPI and Streamlit.
+
+* View the repo: [https://github.com/JoshuaC215/agent-service-toolkit](https://github.com/JoshuaC21
+5/agent-service-toolkit)
+* Try the app: [https://agent-service-toolkit.streamlit.app/](https://agent-service-toolkit.str
+eamlit.app/)
+* Watch the video: [https://www.youtube.com/watch?v=VqQti9nGoe4](https://www.youtube.com/watch?v=VqQti9nGoe
+4)
+
+I wanted to build a few agents for personal projects using the Compound AI Systems approach, and found that LangGrap
+h is the most advanced framework with the features I needed today. But serving and interacting with the agent was painfu
+l and complicated unless I wanted to use LangGraph Cloud (still in closed beta), and that wouldn't support my own infras
+tructure.
+
+I built agent-service-toolkit to solve this problem so I can focus on just the agent logic and core AI system
+s for my projects in the future. It uses async-first and FastAPI to be blazing fast and production-ready, with a Streaml
+it app for easy sharing and rapid iteration.
+
+[Architecture](https://preview.redd.it/bj51l3w65ihd1.png?width=1619&format
+=png&auto=webp&s=1519d1fbe5f8c1a796c4a5b023d7b107cde40c5c)
+
+[App in action](https://preview.redd.it/h5fbanv75ihd1.png?wi
+dth=1276&format=png&auto=webp&s=52a483eb644c9c540d870845ebb4baac316f2bd9)
+
+
+```
+---
+
+     
+ 
+all -  [ LLM Evals with open-source CROWDLAB ](https://www.reddit.com/r/LangChain/comments/1engmlq/llm_evals_with_opensource_crowdlab/) , 2024-08-09-0911
+```
+A couple years ago, we [announced](https://www.reddit.com/r/MachineLearning/comments/xwf38u/r_announcing_crowdlab_openso
+urce_tools_for_data/) open-source CROWDLAB for multiannotator labels. We've now seen that these annotator algorithms are
+ also useful for LLM Evals in RAG applications, and wrote a short tutorial on how to do so: https://cleanlab.ai/blog/tea
+m-llm-evals/. Hope you find it useful, and would love to know what folks are using for LLM Evals! 
+```
+---
+
+     
+ 
+all -  [ How do I find a job? ](https://www.reddit.com/r/careerguidance/comments/1enghf7/how_do_i_find_a_job/) , 2024-08-09-0911
+```
+I am really frustrated these days. I am a Full Stack Web Developer having experience in PHP, JS, Python Frameworks I hav
+e also worked with langchain but the issue is I just don’t know if i am good enough I can’t get that confidence to overc
+ome the fear’s I have.
+
+Any suggestions on how to improve? And yea I am currently focusing on my DevOps skills too.
+```
+---
+
+     
+ 
+all -  [ What are your biggest challenges in RAG? ](https://www.reddit.com/r/LangChain/comments/1ene81o/what_are_your_biggest_challenges_in_rag/) , 2024-08-09-0911
+```
+Out of curiosity - what do you struggle most with when it comes to doing RAG (properly)? There are so many frameworks, r
+epos and solutions out there these days that for most challenges there seems to be an out-of-the-box solution, so what's
+ left? Does not have to be confined to just Langchain.
+```
+---
+
+     
+ 
+all -  [ Dubbi su offerta post-tirocinio universitario (probabile co.co.co.) ](https://www.reddit.com/r/ItaliaCareerAdvice/comments/1encn3s/dubbi_su_offerta_posttirocinio_universitario/) , 2024-08-09-0911
+```
+tl;dr: l'azienda con cui ho fatto il tirocinio in università mi offre un co.co.co. in un ruolo diverso da quello svolto 
+durante il tirocinio. Consigli?
+
+Per chi avesse voglia di leggere: ho appena terminato la triennale (Informatica). Ho sv
+olto i 6 CFU obbligatori di tirocinio presso una certa azienda, occupandomi di analisi dati e sviluppo di un sistema di 
+raccomandazione, da cui ho anche scritto la tesi, e con una già accennata possibilità di assunzione post-laurea. Tengo a
+ specificare che si parla di sud Italia.
+
+Veniamo al dunque: qualche giorno fa mi propongono questo 'contratto di collab
+orazione' (a questo punto credo sia proprio un co.co.co.) da 30h/settimana, quasi full-remote e orario a detta loro TOTA
+LMENTE flessibile. Questo per permettermi di lavorare e studiare (magistrale) contemporaneamente. 
+
+I miei dubbi:
+
+1. Il
+ ruolo che mi hanno proposto è abbastanza differente da quello che ho fatto durante il tirocinio (data science/ML, se co
+sì si può definire) e, soprattutto, è qualcosa in cui io sono praticamente bianco (sviluppo di un gestionale ERP in Java
+, mentre io sto cercando di specializzarmi in appunto data science e machine learning/deep learning). Si dà il caso che 
+l'unica mia esperienza con Java sia stato un corso di ingegneria del software da 9 CFU, mentre con Python e librerie var
+ie (pandas, scikit-learn, langchain ecc.) mi senta molto più sicuro, anche se ancora ad un livello junior. Secondo il vo
+stro parere, quanto è probabile che mi forniscano un minimo di formazione (anche un senior che mi segua, non per forza u
+n corso) piuttosto che sia lasciato a me stesso a leggere il loro codice e cercare tutorial su internet? Sempre a detta 
+loro, potrei ritrovarmi comunque a dover integrare 'l'AI', qualunque cosa significhi, in questo progetto.
+
+2. Il 'contra
+tto di collaborazione'. Cercando su internet e anche su questo sub, mi sembra che questo tipo di contratto sia considera
+to uno dei peggiori, in pratica peggio di una fake partita IVA, dato che è legale. Assumendo che l'orario sia veramente 
+flessibile (nel senso che potenzialmente potrei fare 5h di queste 30 anche dalle 22 alle 3 di notte, ad esempio), questi
+ tipi di contratti sono così tanto svantaggiosi per il lavoratore?
+
+3. Non mi hanno ancora parlato di RAL (lo faranno so
+ltanto se esprimo parere positivo nell'approfondire la valutazione di quest'offerta): quanto potrei realisticamente aspe
+ttarmi?
+
+4. Se volessi proseguire in campo data science o AI (in generale), magari cercando di applicare per qualche int
+ernship in aziende grandi nell'ambito, come verrebbe vista un'esperienza completamente scollegata da ciò? L'alternativa 
+sarebbe comunque non avere nessuna esperienza lavorativa da mettere nel CV.
+
+
+Vi ringrazio in anticipo per i consigli
+
+
+```
+---
+
+     
+ 
+all -  [ Token indices sequence length is longer than the specified maximum sequence length for this model (2 ](https://www.reddit.com/r/LangChain/comments/1enbsrw/token_indices_sequence_length_is_longer_than_the/) , 2024-08-09-0911
+```
+Hello Community,
+
+  
+I am trying to summarize using map\_reduce implementation and I have a text file that has \~78000 t
+oken(according to Open AI tokenizer) and I am using mistralai/Mistral-7B-Instruct-v0.3 model through huggingface inferen
+ce and I run into the above error and the ouputs gets cut off in the middle. Can you please advice how to fix this? The 
+model has a context length of 32K but I am not sure why the error says 1024 tokens. Here is the full error  
+Token indic
+es sequence length is longer than the specified maximum sequence length for this model (20098 > 1024). Running this sequ
+ence through the model will result in indexing errors.  
+Here is the code  
+
+
+from langchain.chains.combine\_documents.s
+tuff import StuffDocumentsChain
+
+from langchain.chains.llm import LLMChain
+
+from langchain.prompts import PromptTemplate
+
+
+from langchain.schema.document import Document
+
+from langchain.chains.combine\_documents.stuff import StuffDocumentsCh
+ain
+
+from langchain.chains.llm import LLMChain
+
+from langchain.prompts import PromptTemplate
+
+from langchain.chains.summ
+arize import load\_summarize\_chain
+
+#type the code to be ready for tomorrow:
+
+from langchain.chains import MapReduceDoc
+umentsChain, ReduceDocumentsChain
+
+
+
+
+
+
+
+
+
+# Map
+
+map\_template = '''<s>\[INST\]Please write a clear and concise summary
+ for the following text.\[/INST\]
+
+Text:
+
+  '{docs}'</s>
+
+  \[INST\] Summary:\[/INST\]
+
+
+
+ '''
+
+map\_prompt = PromptTemp
+late.from\_template(map\_template)
+
+map\_chain = LLMChain(llm=api\_llm, prompt=map\_prompt)
+
+
+
+# Reduce
+
+reduce\_templat
+e =  '''<s>\[INST\]Below are the summaries of multiple segments of a document. Please combine these summaries to form a 
+meaningful final summary.\[/INST\]
+
+Text:
+
+  '{doc\_summaries}'</s>
+
+  \[INST\] Summary:\[/INST\]
+
+
+
+ '''
+
+reduce\_promp
+t = PromptTemplate.from\_template(reduce\_template)
+
+
+
+# Run chain
+
+reduce\_chain = LLMChain(llm=api\_llm, prompt=reduce
+\_prompt)
+
+
+
+# Takes a list of documents, combines them into a single string, and passes this to an LLMChain
+
+combine\_d
+ocuments\_chain = StuffDocumentsChain(
+
+llm\_chain=reduce\_chain, document\_variable\_name='doc\_summaries'
+
+)
+
+
+
+# Comb
+ines and iteratively reduces the mapped documents
+
+reduce\_documents\_chain = ReduceDocumentsChain(
+
+# This is final cha
+in that is called.
+
+combine\_documents\_chain=combine\_documents\_chain,
+
+# If documents exceed context for \`StuffDocum
+entsChain\`
+
+collapse\_documents\_chain=combine\_documents\_chain,
+
+# The maximum number of tokens to group documents in
+to.
+
+token\_max=4000,
+
+)
+
+
+
+# Combining documents by mapping a chain over them, then combining results
+
+map\_reduce\_cha
+in = MapReduceDocumentsChain(
+
+# Map chain
+
+llm\_chain=map\_chain,
+
+# Reduce chain
+
+reduce\_documents\_chain=reduce\_doc
+uments\_chain,
+
+# The variable name in the llm\_chain to put the documents in
+
+document\_variable\_name='docs',
+
+# Retur
+n the results of the map steps in the output
+
+return\_intermediate\_steps=True,
+
+)
+
+
+
+#text\_splitter = CharacterTextSpl
+itter.from\_tiktoken\_encoder(
+
+#    chunk\_size=1000, chunk\_overlap=0
+
+#)
+
+#split\_docs = text\_splitter.split\_docume
+nts(docs)
+
+splitter = RecursiveCharacterTextSplitter(chunk\_size=4000, chunk\_overlap=200,length\_function = len)
+
+chunk
+s = splitter.create\_documents(\[text\])
+
+
+
+result=map\_reduce\_chain.invoke(chunks)
+
+print(result\['output\_text'\])
+
+
+```
+---
+
+     
+ 
+all -  [ Multimodal RAG Explainer: 3 Paths to Integrating Text, Images and Audio in RAG, Which One is Best? ](https://www.reddit.com/r/LangChain/comments/1enbqew/multimodal_rag_explainer_3_paths_to_integrating/) , 2024-08-09-0911
+```
+https://preview.redd.it/h283ore4zghd1.png?width=1600&format=png&auto=webp&s=16b9c6a5b9cdbe1c5107b886cb1769fa364e2917
+
+Hi
+ All,
+
+This post is a adaptation of a Multimodal episode of RAG Masters, a weekly Youtube show I do with Daniel Warfield
+.  Each week we explore a different topic to help engineers build better RAG.  Some times we know a lot. Sometimes we're
+ learning as we go, just like everyone.
+
+The show is here if you want to check it out, but I'll keep posting a lot of th
+e content here regardless.
+
+[https://www.youtube.com/watch?v=ZetGV7gtyQw](https://www.youtube.com/watch?v=ZetGV7gtyQw)
+
+
+Also, my shop [EyeLevel.ai](http://EyeLevel.ai) has some kick ass tools for building advanced RAG in just a few API call
+s with SOTA accuracy. The APIs are especially good with complex documents.
+
+Ok, on to the post.
+
+# What is Multimodal RA
+G?
+
+Multimodal RAG is an advanced extension of traditional Retrieval-Augmented Generation systems. Classic RAG involves 
+a retrieval engine that searches a database of text documents to find relevant information and injects this data into a 
+prompt for a language model to generate a response. Multimodal RAG expands this by including non-text data types, which 
+enhances the model's ability to understand and generate responses based on a more comprehensive set of inputs.
+
+Taking m
+ultimodal inputs allows for RAG engineers to build a more complex retrieval engine that can ask a store of information a
+bout information across different mediums. This means that the retrieval engine can grab data from various sources—wheth
+er text, images, audio, or video—and use that information to answer a query. For instance, an expert's audio commentary 
+on the Eiffel Tower can be retrieved alongside text and image data to provide a more holistic response that anchors the 
+answer in the data provided.
+
+# How Multimodal RAG Works
+
+The mechanics of Multimodal RAG involve transforming different
+ data types into a structured data format like vectors that a model can process. This allows the model to retrieve and g
+enerate information across multiple modalities seamlessly.
+
+Once these data types are encoded into vectors, they can be 
+stored in a vector space or similar storage vehicle, enabling the model to find relevant information regardless of the o
+riginal data type. This process could involve clustering similar data and separating dissimilar data, making it easier t
+o retrieve the most pertinent information for a given query.
+
+# Three Approaches to Multimodal RAG
+
+Implementing Multimo
+dal RAG can be approached in a few distinct ways, each with its advantages and challenges. The three main methods includ
+e using a single multimodal model, employing a grounded modality approach, and utilizing multiple encoders.
+
+# Single Mu
+ltimodal Model
+
+[Image: Multimodal RAG diagram depicting the storage of Audio, Image, and Text encodings to answer a use
+r query.](https://preview.redd.it/7hdmvcfj0hhd1.png?width=960&format=png&auto=webp&s=ce25486892694d6110e70084d6042ea1d2f
+c604f)
+
+This approach uses a unified model trained to encode different types of data (text, images, audio) into a common
+ vector space. The model can then perform retrieval and generation across these different data types seamlessly. A singl
+e multimodal approach tends to be one of the most common approaches people talk about when they talk about multimodal RA
+G.
+
+This method simplifies the process but relies heavily on the model’s ability to accurately encode and retrieve multi
+modal data. However, if the model is well-trained, it can store and retrieve similar information across different modali
+ties effectively.
+
+Google is a great example of using a single multimodal mode.
+
+
+# Grounded Modality (Text-Based)
+
+In t
+his approach, all data types are converted into text descriptions before being encoded and stored. This method leverages
+ the strength of text-based models but may involve some loss of information during the conversion process.
+
+Turning all 
+data types into one modality creates a unified set of information for the model to retrieve, and today’s models are stro
+ngest on text. That’s not to say in the future there won't be models that are better suited for other modalities. And th
+at future might be months not years. But for today’s powerhouse models, they started out as text machines and that is st
+ill where they are strongest.
+
+This approach allows the use of robust text-based models for encoding and retrieval, maki
+ng it a practical solution for environments where text is the primary data type.
+
+# Multiple Encoders
+
+[Image: A Multimo
+dal RAG diagram that relies on separately aligned models to handle different modalities from a user query.](https://prev
+iew.redd.it/3wmxg7yl0hhd1.png?width=960&format=png&auto=webp&s=80a2501a4c0b4c349fd93578c1c528c37848c97d)
+
+This method em
+ploys separate models to encode different data types. Each type of data (audio, images, text) is processed by its respec
+tive model, and the results are integrated later in the retrieval process. Passing them through a set of encoders that c
+an play nicely together creates an environment where each model and encoder can be fine-tuned to play to its particular 
+strengths. 
+
+This approach allows for specialized encoding but increases complexity in managing multiple models. It offe
+rs the flexibility to use the best model for each data type, enhancing the accuracy and relevance of the retrieved infor
+mation. But often it can be the most difficult to implement and maintain due to the increased complexity of inputs and o
+utputs. 
+
+With the emergence of powerful models that are starting to outperform other models in specific modalities, thi
+s approach to multimodal RAG may grow in popularity.
+
+# Challenges and Considerations
+
+Implementing Multimodal RAG comes
+ with its own set of challenges, such as handling temporal changes in data and ensuring the accuracy of the retrieval an
+d generation process. 
+
+Temporal changes, like the varying appearances of the Eiffel Tower over time, pose a significant
+ challenge. Ensuring that the retrieved information is temporally accurate and relevant requires sophisticated handling 
+of metadata and context which can be even more challenging when trying to pull data from multiple modalities like images
+ and audio.
+
+Another consideration is the balance between using a single unified model and multiple specialized models. 
+While a single model offers simplicity, multiple models provide more tailored encoding for different data types. This de
+cision depends on the specific application and the need for flexibility.
+
+# Practical Applications and Future Prospects
+
+
+Multimodal RAG holds immense potential for various practical applications, from enhancing search engines to improving A
+I-driven personal assistants. By integrating multiple data types, these systems can provide richer, more nuanced respons
+es, improving user experience and satisfaction.
+
+Looking forward, the field of Multimodal RAG is poised for significant 
+advancements. As models continue to improve and new techniques are developed, the ability to effectively integrate and l
+everage multiple data types will become increasingly crucial. This progress will open up new opportunities for powerful 
+applications and improved AI performance.
+
+# Conclusion
+
+Multimodal RAG represents a significant advancement in AI, as i
+t can enable richer and more contextually accurate information retrieval and generation that grounds the model in the tr
+uth of the data across modalities. While the field continues to evolve, the various approaches to implementing Multimoda
+l RAG offer different trade-offs between simplicity, flexibility, and complexity. As technology progresses, the ability 
+to effectively integrate and leverage multiple data types will be crucial for developing advanced AI applications.
+
+Full
+ Episode:  
+[https://www.youtube.com/watch?v=ZetGV7gtyQw](https://www.youtube.com/watch?v=ZetGV7gtyQw)
+
+# 
+```
+---
+
+     
+ 
+all -  [ Documentation seems confusing ](https://www.reddit.com/r/LangChain/comments/1enaock/documentation_seems_confusing/) , 2024-08-09-0911
+```
+Hello everybody! I have just started langchain and am going through documentation and it seems very confusing. 
+I am als
+o having trouble with prompts.
+Could you please suggest a good starting point? 
+Sorry if this has been posted before.
+```
+---
+
+     
+ 
+all -  [ What are the current limitations of LangChain4j compared to the Python version ](https://www.reddit.com/r/LangChain/comments/1enagg9/what_are_the_current_limitations_of_langchain4j/) , 2024-08-09-0911
+```
+I'm a Java developer interested in getting into AI software development. I see there's a ton of info on LangChain for Py
+thon, but not as much on LangChain4j for Java. Should I dive into Python and start developing with it, or can I learn fr
+om the langchain docs (and youtube videos) and then apply that knowledge to Java (just with different syntax)? Any advic
+e?
+```
+---
+
+     
+ 
+all -  [ [3 YoE] [Canada] Not hearing back from Machine Learning Engineering or Data Science Jobs I applied t ](https://www.reddit.com/r/EngineeringResumes/comments/1en8yqn/3_yoe_canada_not_hearing_back_from_machine/) , 2024-08-09-0911
+```
+\[3 YoE\] \[Canada\] Not hearing back from Machine Learning Engineering or Data Science Jobs I applied to. Please help.
+
+
+&#x200B;
+
+• What positions/roles/industries are you targeting? 
+
+MLE (ambitious), Data Scientist, Business Analyst (Wor
+st Case Scenario)
+
+  
+• Where are you located and what locations are you applying to jobs in?
+
+Montreal, applying to ope
+nings in Canada
+
+  
+• Are you only applying to local jobs? Remote only? Are you willing to relocate?
+
+Willing to relocat
+e but visa is a complication for options beyond canada
+
+  
+• Tell us about your background and current employment situat
+ion
+
+Ex Management consultant with a bachelor in mechanical and masters in data science ('Management Analytics'). Have b
+een working as a data scientist for the past one year (some parts contract, some part internship)
+
+  
+• Tell us about yo
+ur job-hunting situation and challenges you've encountered
+
+Radio Silence from postings I have been applying to. Radio s
+ilence from recruiters I reached out to on LinkedIn
+
+  
+• Tell us why you're seeking help. (i.e., just fine-tuning, not 
+getting called back for interviews, etc.)
+
+Not getting called back for interviews
+
+  
+• Is there a particular section on
+ your resume you’d like feedback on?
+
+Experience bullet points, structure, 'what am i missing that is leading me to not 
+get any interviews??'
+
+  
+• Is your citizenship status and visa situation playing a role in your job search?
+
+I don't th
+ink so. I am on PGWP.
+
+https://preview.redd.it/kl2iqd44lghd1.png?width=5100&format=png&auto=webp&s=4d1d1759600cbf6df0964
+46f9d388ef958ce25b0
+```
+---
+
+     
+ 
+all -  [ Key Contributors and Insights in Git Project Modules ](https://i.redd.it/nni4zbkqjghd1.jpeg) , 2024-08-09-0911
+```
+You might want to know who the main contributors are for those modules in the project directory over a certain period.
+
+
+Although the layout is not perfect yet. (who knows how to align the TopN authors to the right).
+
+Look at https://plugins
+.jetbrains.com/plugin/24154-git-assistant
+```
+---
+
+     
+ 
+all -  [ Not sure what LLM to use for for your RAG system? Here's a price/size/performance comparison of ever ](https://thepi.pe/evals) , 2024-08-09-0911
+```
+
+```
+---
+
+     
+ 
+all -  [ Text-2-SQL-Pandas Pipeline: HOW DO I BUILD THIS! ](https://www.reddit.com/r/LangChain/comments/1en87i9/text2sqlpandas_pipeline_how_do_i_build_this/) , 2024-08-09-0911
+```
+[https://www.reddit.com/r/LangChain/comments/1e5pe1a/optimal\_rag\_for\_text2sql/?utm\_source=share&utm\_medium=web3x&ut
+m\_name=web3xcss&utm\_term=1&utm\_content=share\_button](https://www.reddit.com/r/LangChain/comments/1e5pe1a/optimal_rag
+_for_text2sql/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)  
+  
+I built a w
+orking text-2-SQL pipeline that runs queries on million of records. 20+ tables. It leverages Claude 3.5 sonnet and gets 
+the work done 7/10 very well on a few complex prompts, multiple joins and conditional clauses.  At the infra level, the 
+database has been modified to create and include a few views that would help make much more sense of the data. 
+
+Now, I 
+am in charge of building an analysis agent on top of it. 
+
+Here's what I was thinking: I'll have the text-2-sql agent tr
+anslate to query, retrieve the tabular information from the database and return the final table before applying any cond
+itions or other arithmetic operations. And then pass on the resulting table to pandas agent along with the originally as
+ked question. 
+
+And then the pandas agent cook. But, I'm not a 100% sure whether this is the ideal approach. OR if there
+ is any other way to work with this. Lemme know if you have any thoughts!
+```
+---
+
+     
+ 
+all -  [ Langfuse for LLM tracing for beginners  ](https://www.reddit.com/r/LangChain/comments/1en73et/langfuse_for_llm_tracing_for_beginners/) , 2024-08-09-0911
+```
+Langfuse is a free alternate for Langsmith for Generative AI based applications for debugging and tracing. This video ex
+plains how to get Started with Langfuse : https://youtu.be/fIQIfIK6v0o?si=hzeG4matNCCZ9Bt_
+```
+---
+
+     
+ 
+all -  [ RAG system to detect small talk ](https://www.reddit.com/r/LangChain/comments/1en5h33/rag_system_to_detect_small_talk/) , 2024-08-09-0911
+```
+In a RAG system, how do you avoid the bot to go retrieve information when the questions are just small talk? For example
+ the user says “Hi how are you?” And the bot goes and triggers all the RAG logic and gets all the information and makes 
+a lot of drama and it replies “good thanks for asking” hahah anybody dealing with this issue?
+```
+---
+
+     
+ 
+all -  [ ML Engineer (1 YOE) looking for an open opportunity  ](https://www.reddit.com/r/Entrepreneur/comments/1en3r4e/ml_engineer_1_yoe_looking_for_an_open_opportunity/) , 2024-08-09-0911
+```
+
+
+
+
+Hi folks. I am a Machine Learning Engineer looking for open opportunities in Bangalore. I have 1 year of experience 
+in developing and deploying ML solutions convering basic ML fundamentals like regression models and data analysis to bui
+lding RAG applications using vector DB and Langchain. I have worked in shaping ideas into POCs using Machine Learning an
+d Deep Learning. 
+
+My tech stack includes Python, Jupyter Notebook, Sci-kit Learn, Langchain, Vector DB, fine-tuning LLM
+s for specific use cases.
+
+I am also experienced in developing & deploying the end to end LLM applications to AWS cloud.
+ I am passionate about ML.
+
+Any leads would be appreciated. 
+Thank You 
+```
+---
+
+     
+ 
+all -  [ output a table in rag ](https://www.reddit.com/r/LangChain/comments/1en2wxt/output_a_table_in_rag/) , 2024-08-09-0911
+```
+hi guys, I want my rag (when asked) to output and print a table that is dynamically generated according to the question 
+and context. What is the way to do it?
+```
+---
+
+     
+ 
+all -  [ ML Engineer (1 YOE) looking for an open opportunity  ](https://www.reddit.com/r/LangChain/comments/1en1s8v/ml_engineer_1_yoe_looking_for_an_open_opportunity/) , 2024-08-09-0911
+```
+
+
+Hi folks. I am a Machine Learning Engineer looking for open opportunities in Bangalore. I have 1 year of experience in
+ developing and deploying ML solutions convering basic ML fundamentals like regression models and data analysis to build
+ing RAG applications using vector DB and Langchain. I have worked in shaping ideas into POCs using Machine Learning and 
+Deep Learning. 
+
+My tech stack includes Python, Jupyter Notebook, Sci-kit Learn, Langchain, Vector DB, fine-tuning LLMs 
+for specific use cases.
+
+I am also experienced in developing & deploying the end to end LLM applications to AWS cloud. I
+ am passionate about ML.
+
+Any leads would be appreciated. 
+Thank You 
+```
+---
+
+     
+ 
+all -  [ Russian response when generating summary using langchain and openai ](https://www.reddit.com/r/LangChain/comments/1en1mx5/russian_response_when_generating_summary_using/) , 2024-08-09-0911
+```
+Hey all,
+I have been trying to use Langchain Summarization chain with Open ai, it does summarises the document but it tr
+anslates it to english. 
+
+And the same llm works, fine for RAG or normal llm.invoke. It is giving me answer in English, 
+but only for Summarization it is sending me russian response.
+
+
+Please help
+```
+---
+
+     
+ 
+all -  [ Anomaly detection in dynamic knowledge graphs ](https://www.reddit.com/r/learnmachinelearning/comments/1en1cwk/anomaly_detection_in_dynamic_knowledge_graphs/) , 2024-08-09-0911
+```
+Hi everyone,
+
+I’m currently working on a project that involves creating dynamic knowledge graphs, and I’m looking for so
+me advice on how to detect anomalies. Specifically, I’m interested in identifying anomalies between entities such as cha
+racters and event dates.
+
+For now, I’m generating graphs using LangChain Graph, GPT-4 Turbo, and Neo4j. However, I’m rel
+atively new to the field of knowledge graphs and would greatly appreciate any guidance or resources you could share.
+```
+---
+
+     
+ 
+all -  [ Anomaly detection in dynamic knowledge graphs ](https://www.reddit.com/r/MLQuestions/comments/1en1680/anomaly_detection_in_dynamic_knowledge_graphs/) , 2024-08-09-0911
+```
+Hi everyone,
+
+I’m currently working on a project that involves creating dynamic knowledge graphs, and I’m looking for so
+me advice on how to detect anomalies. Specifically, I’m interested in identifying anomalies between entities such as cha
+racters and event dates.
+
+For now, I’m generating graphs using LangChain Graph, GPT-4 Turbo, and Neo4j. However, I’m rel
+atively new to the field of knowledge graphs and would greatly appreciate any guidance or resources you could share.
+
+```
+---
+
+     
+ 
+all -  [ Langgraph with AWS Bedrock ](https://www.reddit.com/r/LangChain/comments/1en13pm/langgraph_with_aws_bedrock/) , 2024-08-09-0911
+```
+Hi folks!
+
+Just wanted to know, has anyone have worked with langgraph for supervisor agentic framework using AWS Bedrock
+ models like Mistral large or Claude 3.5.
+For me, any model I use from AWS Bedrock with Agents it's giving 'Validation E
+rror while calling InvokeModel operation' although I am giving correct prompt format for the models.
+
+Please help me on 
+this, inform me if you need more information.
+Thanks in advance.
+
+```
+---
+
+     
+ 
+all -  [ Creating a prompt in Langchain hub ](https://www.reddit.com/r/LangChain/comments/1en0h86/creating_a_prompt_in_langchain_hub/) , 2024-08-09-0911
+```
+Hey guys, i'm trying to create a prompt in langchain hub from an already existing public prompt by just copying and past
+ing its content into a new prompt. This is the first prompt I'm trying to create and it seems though I tried to duplicat
+e the original prompt, My prompt is different from the original prompt.  
+Here's the link to my prompt: [https://smith.l
+angchain.com/hub/smtabatabaie/gps](https://smith.langchain.com/hub/smtabatabaie/gps)  
+And here's the original prompt: [
+https://smith.langchain.com/hub/smtabatabaie/web-voyager](https://smith.langchain.com/hub/smtabatabaie/web-voyager)  
+My
+ prompt has a 'ChatOpenAI' whereas the original prompt doesn't have this section. And also my prompt has 'scratchpad' as
+ input whereas the original prompt doesn't consider 'scratchpad' as an input when I print the prompt in my python script
+.  
+Also in my script when I pull and use the original prompt, it works without any problem. But when i pull and use my 
+prompt, it shows me the following error about hitting the maximum context length:  
+  
+'openai.BadRequestError: Error co
+de: 400 - {'error': {'message': 'This model's maximum context length is 128000 tokens. However, your messages resulted i
+n 473683 tokens. Please reduce the length of the messages.', 'type': 'invalid\_request\_error', 'param': 'messages', 'co
+de': 'context\_length\_exceeded'}}'  
+  
+Would really appreciate if you have any idea what's causing this.  
+Thanks very
+ much.
+```
+---
+
+     
+ 
+all -  [ Trying to build a Natural Language to SQL model using langchain's 'create_sql_query_chain'. ](https://www.reddit.com/r/LangChain/comments/1emxori/trying_to_build_a_natural_language_to_sql_model/) , 2024-08-09-0911
+```
+Can anyone tell me some ways to pass down the schema of the table to the chain, I am passing it in query checker(referen
+ce below) but could not make a full chain to pass it initially too.  
+#https://python.langchain.com/v0.1/docs/use\_cases
+/sql/query\_checking/
+
+  
+Good thing is the schema of my table is fixed so is there any other method you folks having in
+ mind which can enable me make a fully local genAI text-to-SQL model.
+```
+---
+
+     
+ 
+all -  [ Gemini Zero shot prompt/function call, any help? ](https://www.reddit.com/r/LangChain/comments/1emvqkj/gemini_zero_shot_promptfunction_call_any_help/) , 2024-08-09-0911
+```
+Yo using langflow, a no code editor built off of langchain (I know this is a langchain server, but the problem should be
+ mirrored in langchain), currently trying to run a zero shot agent with Gemini, using a tool call agent, 
+
+integrating o
+penAI works perfectly fine, but with Gemini, I get the error code in my image, any pointers in the right direction would
+ be great,
+
+Here is the 2 components & how they link (took other components out for simplicity)  
+[https://www.loom.com/
+share/61e4cd93166445bea7af0a962500af29?sid=8c9b0cc3-195e-4fef-a6b8-922670c52f95](https://www.loom.com/share/61e4cd931664
+45bea7af0a962500af29?sid=8c9b0cc3-195e-4fef-a6b8-922670c52f95)
+
+Any pointers would be amazing
+
+
+```
+---
+
+     
+ 
+all -  [ Give me suggestions on how to present myself, I am not getting any calls. ](https://i.redd.it/61gym7jjvchd1.png) , 2024-08-09-0911
+```
+More context, at my current team I am a single developer I build anything coding related stuff, done so many automations
+ and created modules, created dashboards from logging. Now we are at a point nothing much development needs from my side
+ so my client pivoted my to work on GenAI, I worked similarly on some web dev projects required for infra but they were 
+scrapped in mid dev. Right now I have done the demos and published streamlit apps for the GenAI one's internally. I am t
+he type of developer who isn't bound to single vertical I would say, I can pickup anything quickly that involves python 
+and I have been doing. Idk I am not getting any calls or any responses and I feel depressed, I want to move away from he
+re since I am sick of doing everything alone and I am not sure if I am designing everything the right way and I don't ge
+t enough critique and also scared that when I am gonna join a team I would fail miserably. 
+```
+---
+
+     
+ 
+all -  [ Looking for someone who's good at making gptbots using langchain ](https://www.reddit.com/r/ProgrammingBuddies/comments/1emsc62/looking_for_someone_whos_good_at_making_gptbots/) , 2024-08-09-0911
+```
+Hi everyone,
+
+Is there anyone who knows how to make a general gptbot using python for general documents? I am instructed
+ by a company to create a gptbot using lanchain and I don't know anything about it. Is there anyone who's willing to hel
+p me out?
+```
+---
+
+     
+ 
+all -  [ [1 YoE, Data and Policy Analyst, Data Engineer or Data Scientist Policy, United States] ](https://www.reddit.com/r/resumes/comments/1emqxqk/1_yoe_data_and_policy_analyst_data_engineer_or/) , 2024-08-09-0911
 ```
 Hi everyone! I am a rising 4th year and will be graduating UCLA in June 2025. I am looking for entry level positions tha
 t are focused around Data Engineering, Data Science, or Data Analytics. I currently work in a Polciy lab so it would be 
@@ -20,7 +934,7 @@ sbhd1.png?width=850&format=png&auto=webp&s=e546296a994a3caf65dddc709d79ba35df40d
 
      
  
-all -  [ Best free model for Chatbot, document analysis, text summarization  ](https://www.reddit.com/r/LargeLanguageModels/comments/1emqq3e/best_free_model_for_chatbot_document_analysis/) , 2024-08-08-0911
+all -  [ Best free model for Chatbot, document analysis, text summarization  ](https://www.reddit.com/r/LargeLanguageModels/comments/1emqq3e/best_free_model_for_chatbot_document_analysis/) , 2024-08-09-0911
 ```
 We have a Postgres database hosted on AWS where we have all our data. We would like to implement a chatbot that users ca
 n use to answer questions about our data. 
@@ -51,7 +965,7 @@ blished models that are implemented and maintained by reputable companies becaus
 
      
  
-all -  [ How to handle error with OpenAI ](https://www.reddit.com/r/AutoGenAI/comments/1empqh9/how_to_handle_error_with_openai/) , 2024-08-08-0911
+all -  [ How to handle error with OpenAI ](https://www.reddit.com/r/AutoGenAI/comments/1empqh9/how_to_handle_error_with_openai/) , 2024-08-09-0911
 ```
 Hello, I'm currently creating a groupchat, I'm only using the Assistant agent and an user proxy agent, the assistants ha
 ve a conversation retrieval chain from langchain and using FAISS for the vector store
@@ -196,24 +1110,7 @@ this error persistently.', 'type': 'model_error', 'param': None, 'code': None}}
 
      
  
-all -  [ New Grad, roast my resume on ease of readability, updates, downgrades…  #hiringhustle . ](https://i.redd.it/fokajxnpkbhd1.jpeg) , 2024-08-08-0911
-```
-
-```
----
-
-     
- 
-all -  [ Local Langchain LLaVa 1.5 VQA Agent ](https://www.reddit.com/r/LocalLLaMA/comments/1empdfy/local_langchain_llava_15_vqa_agent/) , 2024-08-08-0911
-```
-Has anyone attempted a local langchain VQA Agent using LLaVa 1.5? I've been struggling along to get this thing working a
-nd any insight/tutorials you may have referenced would be uuuugggeeee help.
-```
----
-
-     
- 
-all -  [ Where can I get my code reviewed? ](https://www.reddit.com/r/LangChain/comments/1emiqo5/where_can_i_get_my_code_reviewed/) , 2024-08-08-0911
+all -  [ Where can I get my code reviewed? ](https://www.reddit.com/r/LangChain/comments/1emiqo5/where_can_i_get_my_code_reviewed/) , 2024-08-09-0911
 ```
 Hello,
 
@@ -235,7 +1132,7 @@ Thanks in advance.
 
      
  
-all -  [ [Discussion] LLM use cases ](https://www.reddit.com/r/LangChain/comments/1emgi8p/discussion_llm_use_cases/) , 2024-08-08-0911
+all -  [ [Discussion] LLM use cases ](https://www.reddit.com/r/LangChain/comments/1emgi8p/discussion_llm_use_cases/) , 2024-08-09-0911
 ```
 Other than chatbot what are the other use cases the LLM or open source hugging face models are used for? 
 ```
@@ -243,7 +1140,7 @@ Other than chatbot what are the other use cases the LLM or open source hugging f
 
      
  
-all -  [ How can I help you build more reliable AI products faster? ](https://www.reddit.com/r/LangChain/comments/1emfs9w/how_can_i_help_you_build_more_reliable_ai/) , 2024-08-08-0911
+all -  [ How can I help you build more reliable AI products faster? ](https://www.reddit.com/r/LangChain/comments/1emfs9w/how_can_i_help_you_build_more_reliable_ai/) , 2024-08-09-0911
 ```
 Hey everybody,
 
@@ -274,7 +1171,7 @@ est issues that you're facing when building AI products?
 
      
  
-all -  [ How To Build Your Retrieval Augmented Generation (RAG) Using Open-source Tools: LangChain, LLAMA 3,  ](https://www.reddit.com/r/deeplearning/comments/1emdotx/how_to_build_your_retrieval_augmented_generation/) , 2024-08-08-0911
+all -  [ How To Build Your Retrieval Augmented Generation (RAG) Using Open-source Tools: LangChain, LLAMA 3,  ](https://www.reddit.com/r/deeplearning/comments/1emdotx/how_to_build_your_retrieval_augmented_generation/) , 2024-08-09-0911
 ```
 
 
@@ -298,7 +1195,7 @@ decompass00.substack.com/p/build-open-source-rag-langchain-llm-llama-chroma)
 
      
  
-all -  [ Specialized Web Search  ](https://www.reddit.com/r/LangChain/comments/1emdose/specialized_web_search/) , 2024-08-08-0911
+all -  [ Specialized Web Search  ](https://www.reddit.com/r/LangChain/comments/1emdose/specialized_web_search/) , 2024-08-09-0911
 ```
 Hi Folks, I am really new here. I am working on a multi-agent project where each agent would look up information on a se
 t of select predefined websites. I am hoping to use web search to do it. Is there a way for me search articles related t
@@ -308,7 +1205,7 @@ o a specific topic on a specific website using web search?
 
      
  
-all -  [ using retrieval_chain as a tool for an agent ](https://www.reddit.com/r/LangChain/comments/1emd7m3/using_retrieval_chain_as_a_tool_for_an_agent/) , 2024-08-08-0911
+all -  [ using retrieval_chain as a tool for an agent ](https://www.reddit.com/r/LangChain/comments/1emd7m3/using_retrieval_chain_as_a_tool_for_an_agent/) , 2024-08-09-0911
 ```
 i've developped a rag application using langchain with the retrieval chain that combines history retriever and documents
  chain, and it performs pretty good .   
@@ -322,7 +1219,7 @@ same rag chain as a tool for the agent ?**
 
      
  
-all -  [ Advice on where to host LangChain.js REST API function for Q&A chatbot for my docs ](https://www.reddit.com/r/LangChain/comments/1em997z/advice_on_where_to_host_langchainjs_rest_api/) , 2024-08-08-0911
+all -  [ Advice on where to host LangChain.js REST API function for Q&A chatbot for my docs ](https://www.reddit.com/r/LangChain/comments/1em997z/advice_on_where_to_host_langchainjs_rest_api/) , 2024-08-09-0911
 ```
 I need to build a simple chatbot for my documentation pages. I need advice on where to host it, currently I adjusted it 
 for Supabase edge function and Supabase vector store because it's free and deployed all over the world, but if I exceed 
@@ -337,7 +1234,7 @@ ny requests.
 
      
  
-all -  [ How to return langfuse trace_id when using Langserve stream? ](https://www.reddit.com/r/LangChain/comments/1em7aik/how_to_return_langfuse_trace_id_when_using/) , 2024-08-08-0911
+all -  [ How to return langfuse trace_id when using Langserve stream? ](https://www.reddit.com/r/LangChain/comments/1em7aik/how_to_return_langfuse_trace_id_when_using/) , 2024-08-09-0911
 ```
 I have very simple code **Langserve** with **langfuse\_handler**.
 
@@ -371,7 +1268,7 @@ I want return to client my trace\_id of Langfuse. Do you have any ideas to do th
 
      
  
-all -  [ Rate my resume (for entry level Backend/ AI Positions) ](https://www.reddit.com/r/developersIndia/comments/1em5sgu/rate_my_resume_for_entry_level_backend_ai/) , 2024-08-08-0911
+all -  [ Rate my resume (for entry level Backend/ AI Positions) ](https://www.reddit.com/r/developersIndia/comments/1em5sgu/rate_my_resume_for_entry_level_backend_ai/) , 2024-08-09-0911
 ```
 https://preview.redd.it/rjvssx8a37hd1.png?width=661&format=png&auto=webp&s=b8bd0d1a4720c4cd39afa6ca21a9797d4dd37680
 
@@ -385,7 +1282,7 @@ any tips for cold emailing and applying to jobs is welcome because I
 
      
  
-all -  [ Support with Langchain.js for free inference ](https://www.reddit.com/r/LangChain/comments/1em3muc/support_with_langchainjs_for_free_inference/) , 2024-08-08-0911
+all -  [ Support with Langchain.js for free inference ](https://www.reddit.com/r/LangChain/comments/1em3muc/support_with_langchainjs_for_free_inference/) , 2024-08-09-0911
 ```
 I am fairly new to Langchain and wanted to seek out some advice for free methods of using LLMs to just do some basic pro
 mpting for a web application. The prompting is just providing some music artists and asking the LLM to think of potentia
@@ -410,167 +1307,102 @@ Thanks !
 
      
  
-all -  [ RAG and KNOWLEDGE GRAPH ](https://www.reddit.com/r/LangChain/comments/1em3b9p/rag_and_knowledge_graph/) , 2024-08-08-0911
+MachineLearning -  [ [R] [D] Langchain Evaluation with BeyondLLM
+ ](https://www.reddit.com/r/MachineLearning/comments/1eki1fv/r_d_langchain_evaluation_with_beyondllm/) , 2024-08-09-0911
 ```
-hi there i am learning about rag with knowledge graph any proper documentation from where i can get the reference any th
-ing would be helpful 
-```
----
+Hey everyone! Just came across a new feature of Beyond LLM that can evaluate Langchain RAG pipelines! It provides contex
+t relevancy, answer relevancy, and groundedness. Check out the code snippet I’m sharing—perfect for testing your RAG pip
+elines! For more info, be sure to check it out on GitHub [here](https://github.com/aiplanethub/beyondllm/blob/main/cookb
+ook/evaluate_langchain_rag_pipeline_beyondllm.ipynb).
 
-     
- 
-all -  [ Chromadb issues ](https://www.reddit.com/r/LangChain/comments/1ely226/chromadb_issues/) , 2024-08-08-0911
-```
-Has anyone come across an issue with chroma as a vector store where it can’t handle a large K unless it’s “warmed up”?
+https://preview.redd.it/172m1y3dvsgd1.png?width=3972&format=png&a
+uto=webp&s=63d5b0f41f0e46a58e7a2d5fb0d2bbc4384b3b1d
 
 
-Have a db with about 30k docs in it each about a paragraph long. I need to return the top 100 or so as part of a larger 
-ranking process. When I first load the db though if I don’t start with a k size of 5 and work my way up it consistently 
-errors out with “cannot return the results in a contiguous 2d array. Probably ef or M is too small”. I’ve tried changing
- the hnsw parameters when creating the collection but nothing seems to give. 
 ```
 ---
 
      
  
-all -  [ Seeking help with creating CLI for 'non-programmers' (LLMs) ](https://www.reddit.com/r/ArtificialInteligence/comments/1elrl0l/seeking_help_with_creating_cli_for_nonprogrammers/) , 2024-08-08-0911
+MachineLearning -  [ [D] Embedding generation in production? How are you doing it? ](https://www.reddit.com/r/MachineLearning/comments/1e7xt6k/d_embedding_generation_in_production_how_are_you/) , 2024-08-09-0911
 ```
-***TL;DR*** What is the best way to convert user input into sequence of commands and their corresponding parameters? Lik
-e, imagine you are not a programmer and there is a console app with a CLI, but, well, you don't know the structure and t
-he syntax of commands. And you don't want to know. YBut! You have a locally running instance of llama3.1 -- or whatever 
-open LLM is out there now -- and you can ask it to create a CLI command for you. What would you do to accomplish that?
 
 
-**Intro**
-
-A little bit of context. I'm working on a project that targets scientists as end users. It has some UI using 
-which it's possible to do all sort of things the lab workers would like to do. But recently the projects product owner d
-ecided that it would be cool to have a small chat window that is accessable basically everywhere throughout the applicat
-ion UI in which 'lives' a bot that can accept some input from a user and do what is requested. The pool of commands is f
-inite and predefined.
-
-**The issue**
-
-So, putting details aside, the main issue to be solved is parsing user input (unst
-ructured and possible incomplete data) to some structured form. In general, each and every user input should be transfor
-med into a data structure that represents a sequence of commands with their parameters, for example:
-
-User input: Please
-, create X with param1 set to value1 and param2 equal to value2
-
-Desired output:
-
-    create_x --param1 value1 --param2 
-value2
-
-In this example, there is only one command, but in real life the request can represent a sequence of N commands,
- and they may depend on each other (sequence of execution does matter)
-
-**What I've tried so far**
-
-I have an 'experimen
-t' environment: a python project with `ollama` and `langchain` installed. The main model I test is llama3.1-instruct wit
-h 5bit quantization. (I'm sort of limited with hardware resourses, so XXB parameter models do not fit).
-
-Up until now, I
-'ve tried to achieve what I want with prompting in different forms, but in general I do the following:
-
-As the very firs
-t message in the chat, I create a 'system' one which explain what commands are there. The format is the following (I rep
-laced original data not to expose the context more, so it's very generic)
-
-    <scope>
-        <models>
-            <mod
-el name='entityA'>
-                <field name='uniqueId' type='string' description='unique identifier for entityA'/>
-  
-              <field name='label' type='string' description='label for entityA'/>
-                <field name='category'
- type='enum' possible-value='alpha, beta, gamma, delta'/>
-            </model>
-            <model name='entityB'>
-      
-          <field name='uniqueId' description='unique identifier for entityB'/>
-                <field name='entityAIds' 
-type='array' description='identifiers of entityAs associated with this entityB'/>
-            </model>
-        </models>
-
-        <commands>
-            <command name='create_entityA' description='creates an instance of entityA'>
-           
-     <param name='uniqueId' type='string' description='unique identifier for entityA'/>
-                <param name='lab
-el' type='string' description='label for entityA' required='true'/>
-                <param name='category' type='enum' p
-ossible-values='alpha, beta, gamma, delta'
-                       description='category of entityA (one value from the p
-ossible values list)' required='true'/>
-            </command>
-            <command name='remove_entityA' description='r
-emoves an instance of entityA by its unique identifier'>
-                <param name='uniqueId' description='unique iden
-tifier of the entityA to be removed'
-                       required='true'/>
-            </command>
-            <comman
-d name='create_entityB'>
-                <param name='label' description='label for entityB'/>
-            </command>
-  
-          <command name='link_entityAs_to_entityB'
-                     description='associates instances of entityA wit
-h a specific entityB based on the provided unique identifier of entityB'>
-                <param name='uniqueId' descrip
-tion='unique identifier of the entityB to which entityAs should be associated'
-                       required='true'/>
-
-                <param name='entityAIds'
-                       description='an array of unique identifiers of entityAs 
-to associate with the entityB'
-                       type='array'
-                       required='true'/>
-            
-</command>
-            <command name='navigate' description='indicates that a user wants to go to a specific section of 
-the platform'>
-                <param name='section' possible-values='entitiesA, entitiesB, configuration' required='tru
-e'/>
-            </command>
-            <command name='support' description='should be executed when a user seeks assist
-ance on available functions'/>
-        </commands>
-    </scope>
-
-So, now the model is provided with some context. Then, 
-also in the 'system' message I:
-
-* 'tell' the model that user input should be converted into a sequence of commands alon
-g with the corresponding parameters, all of this is described in the XML above
-* describe the desired output format
-* tr
-y to enforce some restriction and cover edge cases
-
-**The question part**
-
-*Is this approach* ***viable***\*?\*
-
-If yes,
- maybe there are some ***ways to improve it***?
-
-If not, *what would be* ***the alternative***?
-
-So far I don't see how 
-to apply fine tuning here
-
-Thank you in advance!
+For those building production RAG pipelines, how are you generating embeddings. More than which model, I'm interested 
+in how your deploying it. Are you calling the openai/vertex API endpoint directly? Using langchain/llamaindex wrappers? 
+Using vectordb  classes? Or some other way?
 ```
 ---
 
      
  
-all -  [ Need help with creating CLI for 'non-programmers' (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1elrfgm/need_help_with_creating_cli_for_nonprogrammers/) , 2024-08-08-0911
+MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-08-09-0911
+```
+We completely underestimated this one tbh, thought it would be much more straight forward. But we've done it now and doc
+umented how step by step [in this article series](https://medium.com/p/5828a1ea43a3).
+
+A bit of context, we're building 
+a mini free AI Agent that auto-generates manually customisable plots, so the user can basically style however they want.
+ It needs to be cost effective and efficient, so we thought about how to do it and tested a couple other ways.
+
+https://
+preview.redd.it/cmly0a6bhwbd1.png?width=640&format=png&auto=webp&s=be1f5b2853e744adcaf8013e6d43b43f6be89617
+
+We plan on 
+releasing the project open source, so all feedback welcome! Is anyone else doing this and has any feedback? or do know o
+f a better way to do it?
+```
+---
+
+     
+ 
+MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-08-09-0911
+```
+Hi everyone!
+
+I've created a mini series on how to build a real time AI application using Django, LangChain and Celery.
+
+
+Free knowledge - posting it in here for anyone working on something similar and had the same blockers I had when buildi
+ng.
+
+Let me know what you think on how I could potentially improve this architecture.
+
+Part 1
+
+[https://medium.com/towar
+dsdev/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-601dff7ada79](https://medium.
+com/towardsdev/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-601dff7ada79)
+
+Part 
+2
+
+[https://medium.com/towardsdev/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-5
+828a1ea43a3](https://medium.com/towardsdev/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time
+-django-5828a1ea43a3)
+
+Part 3
+
+[https://medium.com/towardsdev/how-to-set-up-django-from-scratch-with-celery-channels-red
+is-docker-real-time-django-8e73c7b6b4c8](https://medium.com/towardsdev/how-to-set-up-django-from-scratch-with-celery-cha
+nnels-redis-docker-real-time-django-8e73c7b6b4c8)
+
+Part 4
+
+[https://medium.com/towardsdev/how-to-set-up-django-from-scra
+tch-with-celery-channels-redis-docker-real-time-django-c090c300517a](https://medium.com/towardsdev/how-to-set-up-django-
+from-scratch-with-celery-channels-redis-docker-real-time-django-c090c300517a)
+
+Part 5  
+[https://medium.com/@cubode/how-
+to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-0845eb7e083c](https://medium.com/@cubod
+e/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-0845eb7e083c)
+```
+---
+
+     
+ 
+deeplearning -  [ Need help with creating CLI for 'non-programmers' (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1elrfgm/need_help_with_creating_cli_for_nonprogrammers/) , 2024-08-09-0911
 ```
 ***TL;DR*** What is the best way to convert user input into sequence of commands and their corresponding parameters? Lik
 e, imagine you are not a programmer and there is a console app with a CLI, but, well, you don't know the structure and t
@@ -703,946 +1535,6 @@ So far I don't see how to apply fine tuning here
 
 T
 hank you in advance!
-```
----
-
-     
- 
-all -  [ Need help with CLI for 'non-programmers' (LLMs, but maybe it's a wrong choice) ](https://www.reddit.com/r/neuralnetworks/comments/1elre7x/need_help_with_cli_for_nonprogrammers_llms_but/) , 2024-08-08-0911
-```
-***TL;DR*** What is the best way to convert user input into sequence of commands and their corresponding parameters? Lik
-e, imagine you are not a programmer and there is a console app with a CLI, but, well, you don't know the structure and t
-he syntax of commands. And you don't want to know. YBut! You have a locally running instance of llama3.1 -- or whatever 
-open LLM is out there now -- and you can ask it to create a CLI command for you. What would you do to accomplish that?
-
-
-**Intro**
-
-A little bit of context. I'm working on a project that targets scientists as end users. It has some UI using 
-which it's possible to do all sort of things the lab workers would like to do. But recently the projects product owner d
-ecided that it would be cool to have a small chat window that is accessable basically everywhere throughout the applicat
-ion UI in which 'lives' a bot that can accept some input from a user and do what is requested. The pool of commands is f
-inite and predefined.
-
-**The issue**
-
-So, putting details aside, the main issue to be solved is parsing user input (unst
-ructured and possible incomplete data) to some structured form. In general, each and every user input should be transfor
-med into a data structure that represents a sequence of commands with their parameters, for example:
-
-User input: Please
-, create X with param1 set to value1 and param2 equal to value2
-
-Desired output:
-
-    create_x --param1 value1 --param2 
-value2
-
-In this example, there is only one command, but in real life the request can represent a sequence of N commands,
- and they may depend on each other (sequence of execution does matter)
-
-**What I've tried so far**
-
-I have an 'experimen
-t' environment: a python project with `ollama` and `langchain` installed. The main model I test is llama3.1-instruct wit
-h 5bit quantization. (I'm sort of limited with hardware resourses, so XXB parameter models do not fit).
-
-Up until now, I
-'ve tried to achieve what I want with prompting in different forms, but in general I do the following:
-
-As the very firs
-t message in the chat, I create a 'system' one which explain what commands are there. The format is the following (I rep
-laced original data not to expose the context more, so it's very generic): 
-
-```xml
-<scope>
-    <models>
-        <model 
-name='entityA'>
-            <field name='uniqueId' type='string' description='unique identifier for entityA'/>
-         
-   <field name='label' type='string' description='label for entityA'/>
-            <field name='category' type='enum' po
-ssible-value='alpha, beta, gamma, delta'/>
-        </model>
-        <model name='entityB'>
-            <field name='uniq
-ueId' description='unique identifier for entityB'/>
-            <field name='entityAIds' type='array' description='ident
-ifiers of entityAs associated with this entityB'/>
-        </model>
-    </models>
-    <commands>
-        <command name='
-create_entityA' description='creates an instance of entityA'>
-            <param name='uniqueId' type='string' descripti
-on='unique identifier for entityA'/>
-            <param name='label' type='string' description='label for entityA' requi
-red='true'/>
-            <param name='category' type='enum' possible-values='alpha, beta, gamma, delta'
-                
-   description='category of entityA (one value from the possible values list)' required='true'/>
-        </command>
-    
-    <command name='remove_entityA' description='removes an instance of entityA by its unique identifier'>
-            <p
-aram name='uniqueId' description='unique identifier of the entityA to be removed'
-                   required='true'/>
- 
-       </command>
-        <command name='create_entityB'>
-            <param name='label' description='label for entityB
-'/>
-        </command>
-        <command name='link_entityAs_to_entityB'
-                 description='associates instanc
-es of entityA with a specific entityB based on the provided unique identifier of entityB'>
-            <param name='uniq
-ueId' description='unique identifier of the entityB to which entityAs should be associated'
-                   required=
-'true'/>
-            <param name='entityAIds'
-                   description='an array of unique identifiers of entityAs
- to associate with the entityB'
-                   type='array'
-                   required='true'/>
-        </command>
-
-        <command name='navigate' description='indicates that a user wants to go to a specific section of the platform'>
-
-            <param name='section' possible-values='entitiesA, entitiesB, configuration' required='true'/>
-        </comm
-and>
-        <command name='support' description='should be executed when a user seeks assistance on available functions
-'/>
-    </commands>
-</scope>
-
-```
-
-So, now the model is provided with some context. Then, also in the 'system' message I
-:
-
-* 'tell' the model that user input should be converted into a sequence of commands along with the corresponding param
-eters, all of this is described in the XML above
-* describe the desired output format
-* try to enforce some restriction 
-and cover edge cases
-
-**The question part**
-
-*Is this approach* ***viable***\*?\*
-
-If yes, maybe there are some ***ways 
-to improve it***?
-
-If not, *what would be* ***the alternative***?
-
-So far I don't see how to apply fine tuning here
-
-Tha
-nk you in advance!
-```
----
-
-     
- 
-all -  [ Need help with CLI for 'non-programmers' ](https://www.reddit.com/r/LLMDevs/comments/1elrd9v/need_help_with_cli_for_nonprogrammers/) , 2024-08-08-0911
-```
-***TL;DR*** What is the best way to convert user input into sequence of commands and their corresponding parameters? Lik
-e, imagine you are not a programmer and there is a console app with a CLI, but, well, you don't know the structure and t
-he syntax of commands. And you don't want to know. YBut! You have a locally running instance of llama3.1 -- or whatever 
-open LLM is out there now -- and you can ask it to create a CLI command for you. What would you do to accomplish that?
-
-
-**Intro**
-
-A little bit of context. I'm working on a project that targets scientists as end users. It has some UI using 
-which it's possible to do all sort of things the lab workers would like to do. But recently the projects product owner d
-ecided that it would be cool to have a small chat window that is accessable basically everywhere throughout the applicat
-ion UI in which 'lives' a bot that can accept some input from a user and do what is requested. The pool of commands is f
-inite and predefined.
-
-**The issue**
-
-So, putting details aside, the main issue to be solved is parsing user input (unst
-ructured and possible incomplete data) to some structured form. In general, each and every user input should be transfor
-med into a data structure that represents a sequence of commands with their parameters, for example:
-
-User input: Please
-, create X with param1 set to value1 and param2 equal to value2
-
-Desired output:
-
-    create_x --param1 value1 --param2 
-value2
-
-In this example, there is only one command, but in real life the request can represent a sequence of N commands,
- and they may depend on each other (sequence of execution does matter)
-
-**What I've tried so far**
-
-I have an 'experimen
-t' environment: a python project with `ollama` and `langchain` installed. The main model I test is llama3.1-instruct wit
-h 5bit quantization. (I'm sort of limited with hardware resourses, so XXB parameter models do not fit).
-
-Up until now, I
-'ve tried to achieve what I want with prompting in different forms, but in general I do the following:
-
-As the very firs
-t message in the chat, I create a 'system' one which explain what commands are there. The format is the following (I rep
-laced original data not to expose the context more, so it's very generic)
-
-```xml
-<scope>
-    <models>
-        <model na
-me='entityA'>
-            <field name='uniqueId' type='string' description='unique identifier for entityA'/>
-           
- <field name='label' type='string' description='label for entityA'/>
-            <field name='category' type='enum' poss
-ible-value='alpha, beta, gamma, delta'/>
-        </model>
-        <model name='entityB'>
-            <field name='unique
-Id' description='unique identifier for entityB'/>
-            <field name='entityAIds' type='array' description='identif
-iers of entityAs associated with this entityB'/>
-        </model>
-    </models>
-    <commands>
-        <command name='cr
-eate_entityA' description='creates an instance of entityA'>
-            <param name='uniqueId' type='string' description
-='unique identifier for entityA'/>
-            <param name='label' type='string' description='label for entityA' require
-d='true'/>
-            <param name='category' type='enum' possible-values='alpha, beta, gamma, delta'
-                  
- description='category of entityA (one value from the possible values list)' required='true'/>
-        </command>
-      
-  <command name='remove_entityA' description='removes an instance of entityA by its unique identifier'>
-            <par
-am name='uniqueId' description='unique identifier of the entityA to be removed'
-                   required='true'/>
-   
-     </command>
-        <command name='create_entityB'>
-            <param name='label' description='label for entityB'/
->
-        </command>
-        <command name='link_entityAs_to_entityB'
-                 description='associates instances
- of entityA with a specific entityB based on the provided unique identifier of entityB'>
-            <param name='unique
-Id' description='unique identifier of the entityB to which entityAs should be associated'
-                   required='t
-rue'/>
-            <param name='entityAIds'
-                   description='an array of unique identifiers of entityAs t
-o associate with the entityB'
-                   type='array'
-                   required='true'/>
-        </command>
-  
-      <command name='navigate' description='indicates that a user wants to go to a specific section of the platform'>
-  
-          <param name='section' possible-values='entitiesA, entitiesB, configuration' required='true'/>
-        </comman
-d>
-        <command name='support' description='should be executed when a user seeks assistance on available functions'/
->
-    </commands>
-</scope>
-```
-
-
-So, now the model is provided with some context. Then, also in the 'system' message I:
-
-
-* 'tell' the model that user input should be converted into a sequence of commands along with the corresponding paramet
-ers, all of this is described in the XML above
-* describe the desired output format
-* try to enforce some restriction an
-d cover edge cases
-
-**The question part**
-
-*Is this approach* ***viable***\*?\*
-
-If yes, maybe there are some ***ways to
- improve it***?
-
-If not, *what would be* ***the alternative***?
-
-So far I don't see how to apply fine tuning here
-
-Thank
- you in advance!
-```
----
-
-     
- 
-all -  [ What is the best document loader for PDFs? And other docs in general? ](https://www.reddit.com/r/LangChain/comments/1elr7sr/what_is_the_best_document_loader_for_pdfs_and/) , 2024-08-08-0911
-```
-Based on some advice I got, I started using AWS Textract ($$$) for PDFs and unstructured (local/free) for all other doc 
-types such as docx and html. 
-
-My textract bill is getting a bit out of hand and I was wondering if there are any better
- services out there that can interpret things like tables and stuff from PDFs and other docs well?
-
-Quality is my number
- one concern but cost is also important.
-
-Looking to replace textract but also wanted to check to see if unstructured is
- still considered the best for other doc types.
-```
----
-
-     
- 
-all -  [ ML Engineer (1 YOE) looking for an open opportunity  ](https://www.reddit.com/r/developersIndia/comments/1elpxbz/ml_engineer_1_yoe_looking_for_an_open_opportunity/) , 2024-08-08-0911
-```
-Hi folks. I am a Machine Learning Engineer looking for open opportunities in Bangalore. I have 1 year of experience in d
-eveloping and deploying ML solutions convering basic ML fundamentals like regression models and data analysis to buildin
-g RAG applications using vector DB and Langchain. I have worked in shaping ideas into POCs using Machine Learning and De
-ep Learning. 
-
-My tech stack includes Python, Jupyter Notebook, Sci-kit Learn, Langchain, Vector DB, fine-tuning LLMs fo
-r specific use cases.
-
-I am also experienced in developing & deploying the end to end LLM applications to AWS cloud. I a
-m passionate about ML.
-
-Any leads would be appreciated. 
-Thank You 
-```
----
-
-     
- 
-all -  [ How to track number of LLM calls in a ReAct agent ](https://www.reddit.com/r/LangChain/comments/1elpms2/how_to_track_number_of_llm_calls_in_a_react_agent/) , 2024-08-08-0911
-```
-I'm working on a ReAct agent(created with langchain.agents.create\_react\_agent) and we are creating an evaluation and m
-onitoring tool for it to analyze and understand agent behavior, performance, latency, bottlenecks, etc. We have already 
-some metrics, but I'm looking for the best practices or recommended techniques to calculate:
-
-* Number of LLM calls: giv
-en the agent will do it's reasoning/acting cycle doing LLM calls internally we want to measure the number of calls.
-* Du
-ration per LLM call: we also want to measure the duration per call.
-
-One of the goals is to understand where to focus wh
-en doing improvements, for example: 
-
-1. improving tools descriptions, inputs etc to reduce the number of LLM calls.
-2. 
-Performing model optimization and endpoint tuning to reduce latency per call.
-
-**Note:** due to internal constraints we 
-are not  using langsmith and preferably the solution should be independent of the model used(given we will evaluate diff
-erent models and we want the metrics for all of them).
-
-Any other suggested metrics are appreciated.
-
-The question is: *
-*what is the recommended way to achieve this?** (I have in mind thing like callbacks like the **on\_llm\_end** and addin
-g a counter but not sure if this is the recommended way or maybe there is something out of the box).
-```
----
-
-     
- 
-all -  [ Sharing my project that was built on Langchain: An all-in-one AI that integrates the best foundation ](https://www.reddit.com/r/LangChain/comments/1ellpk9/sharing_my_project_that_was_built_on_langchain_an/) , 2024-08-08-0911
-```
-Hey everyone I want to share a Langchain-based project that I have been working on for the last few months — [JENOVA](ht
-tps://www.jenova.ai/), an AI (similar to ChatGPT) that integrates the best foundation models and tools into one seamless
- experience.
-
-**AI is advancing too fast for most people to follow.** New state-of-the-art models emerge constantly, eac
-h with unique strengths and specialties. Currently:
-
-* Claude 3.5 Sonnet is the best at reasoning, math, and coding.
-* G
-emini 1.5 Pro excels in business/financial analysis and language translations.
-* Llama 3.1 405B is most performative in 
-roleplaying and creativity.
-* GPT-4o is most knowledgeable in areas such as art, entertainment, and travel.
-
-This rapidl
-y changing and fragmenting AI landscape is leading to the following problems for consumers:
-
-* **Awareness Gap:** Most p
-eople are unaware of the latest models and their specific strengths, and are often paying for AI (e.g. ChatGPT) that is 
-suboptimal for their tasks.
-* **Constant Switching:** Due to constant changes in SOTA models, consumers have to frequent
-ly switch their preferred AI and subscription.
-* **User Friction:** Switching AI results in significant user experience 
-disruptions, such as losing chat histories or critical features such as web browsing.
-
-JENOVA is built to solve this.
-
-*
-*When you ask JENOVA a question, it automatically routes your query to the model that can provide the optimal answer (bu
-ilt on top of Langchain).** For example, if your first question is about coding, then Claude 3.5 Sonnet will respond. If
- your second question is about tourist spots in Tokyo, then GPT-4o will respond. All this happens seamlessly in the back
-ground.
-
-JENOVA's model ranking is continuously updated to incorporate the latest AI models and performance benchmarks, 
-ensuring you are always using the best models for your specific needs.
-
-In addition to the best AI models, JENOVA also p
-rovides you with an expanding suite of the most useful tools, starting with:
-
-* **Web browsing** for real-time informati
-on (performs surprisingly well, nearly on par with Perplexity)
-* **Multi-format document analysis** including PDF, Word,
- Excel, PowerPoint, and more
-* **Image interpretation** for visual tasks
-
-Your privacy is very important to us. Your con
-versations and data are never used for training, either by us or by third-party AI providers.
-
-Try it out at [**www.jeno
-va.ai**](https://www.jenova.ai/)
-
-**Update:** JENOVA might be running into some issues with web search/browsing right no
-w due to very high demand.
-```
----
-
-     
- 
-all -  [ Retrieving all embeddings from an Azure Ai Search instance ](https://www.reddit.com/r/LangChain/comments/1elllb7/retrieving_all_embeddings_from_an_azure_ai_search/) , 2024-08-08-0911
-```
-Hi Guys,
-
-I am working on an issue and can't seem to figure it out. I want to retrieve all the embeddings that are store
-d in a Azure AI Search instance.
-
-  
-At this moment i'm trying it like this:
-
-`# Create a SearchClient instance`
-
-`endpo
-int = SEARCH_ENDPOINT`  
-`search_client = SearchClient(endpoint=endpoint, index_name=index_name, credential=AzureKeyCred
-ential(api_key))`
-
-`# Formulate a search request`  
-`search_text = '*'`    
-`select_fields = '*'` 
-
-`# Execute the searc
-h`  
-`results = search_client.search(search_text, select=select_fields)`
-
-`print(results)`
-
-  
-However, this return me t
-he following:
-
-{'content': 'RANDOM CONTENT',   
-'metadata':   
-'{'source': 'DOC SOURCE,  
- 'page': 0,  
- 'start\_index':
- 4}',  
- 'id': 'OTQ4MTUwOWYtNTFiNC00NTViLWE0MzQtNTJlYjQxZDJiMmI0',  
- '@search.score': 1.0, '@search.reranker\_score': N
-one,   
-'@search.highlights': None,  
-'@search.captions': None}
-
-  
-However not the embeddings. Can anybody help me?
-```
----
-
-     
- 
-all -  [ Extracting insights from conversational transcripts ](https://www.reddit.com/r/LangChain/comments/1elldx1/extracting_insights_from_conversational/) , 2024-08-08-0911
-```
-I am trying to build an application that analyses all my transcripts and answer user question based on the context by pe
-rforming similarity search. I am loading all my transcripts into vector database(in my case milvus) and storing them as 
-embeddings, along with the metadata of the transcripts. I am using rag retrieval process to get the answer, but I didn't
- get the expected output on most cases. Any better way of doing this, any suggestions on choosing the appropriate embedd
-ings and dimensions.
-```
----
-
-     
- 
-all -  [ II'll set up your SaaS (Landing page + Stripe, Supabase, Email/Google Auth, and Email Automation int ](https://www.reddit.com/r/SaaSIdeas/comments/1ellaxz/iill_set_up_your_saas_landing_page_stripe/) , 2024-08-08-0911
-```
-As the title says, if you have a SaaS idea and you are looking to make it real quick, I can help you get started. 🚀
-
-You
-’ll receive the full code of your new SaaS App. This includes:
-
-* Landing page template that is easy to modify according
- to your needs.
-* Integration with Stripe, Supabase, Email Authentication, Google Authentication, PostHog (super OP Anal
-ytics platform for your website, if u haven't used this b4, why not??) 🔒📊
-* If you’re building an AI application, I can 
-set up a Flask backend with OpenAI and Langchain Integration.
-* Tech Stack: React, Next.js, Tailwind, TS, Python, Flask 
-💻
-
-These integrations are a MUST when building your own SaaS application, and honestly, it takes so f\*\*\*ing long to s
-et them up. So let me help you.
-
-Just trying to gauge interest 🙂 DM me
-```
----
-
-     
- 
-all -  [ I'll set up your SaaS (Landing page + Stripe, Supabase, Email/Google Auth, and Email Automation inte ](https://www.reddit.com/r/SaaS/comments/1ell4v6/ill_set_up_your_saas_landing_page_stripe_supabase/) , 2024-08-08-0911
-```
-As the title says, if you have a SaaS idea and you are looking to make it real quick, I can help you get started. 🚀
-
-You
-’ll receive the full code of your new SaaS App. This includes:
-
-• Landing page template that is easy to modify according
- to your needs. 
-
-• Integration with Stripe, Supabase, Email Authentication, Google Authentication, PostHog (super OP An
-alytics platform for your website, if u haven't used this b4, why not??) 🔒📊
-
-• If you’re building an AI application, I c
-an set up a Flask backend with OpenAI and Langchain Integration. 
-
-• Tech Stack: React, Next.js, Tailwind, TS, Python, F
-lask 💻
-
-These integrations are a MUST when building your own SaaS application, and honestly, it takes so f\*\*\*ing long
- to set them up. So let me help you.
-
-Just trying to gauge interest 🙂 DM me
-```
----
-
-     
- 
-all -  [ WeaviateHybridSearchRetriever with filters? ](https://www.reddit.com/r/LangChain/comments/1elk3g2/weaviatehybridsearchretriever_with_filters/) , 2024-08-08-0911
-```
-I am currently building a Q&A interface with Streamlit and Langchain. Our initial vector database was in Pinecone. We ha
-ve documents about the same topic, but different industries. Pure embedding search is not optimal, as it will match the 
-same concepts across industries. So, we build a simple selector option where users pick their industry, and then ask the
- question. In pinecone each industry had their own namespace, we then simply filter on this:
-
-    vectorstore = Pinecone
-VectorStore(index_name=index_name, embedding=embeddings, namespace=namespace)
-    
-    retriever = vectorstore.as_retrie
-ver(search_type='similarity', search_kwargs={'k': 3})
-
-Hybrid search with pinecone is not as convenient as with Weaviate
-, and since we noticed beter performance with hybrid search we are switching to Weaviate. The downside is that filters a
-re not so clear for the Weaviate retriever. 
-
-    retriever = WeaviateHybridSearchRetriever(
-            client=client,
-
-            index_name=WEAVIATE_INDEX_NAME,
-            text_key='page_content',
-            k=5,
-            alpha=0.75
-,
-            attributes=['file_name', 'industry],
-            create_schema_if_missing=False,
-        )
-
-Our Langchain 
-Chain looks similar to this ( [https://github.com/langchain-ai/langchain/blob/master/templates/hybrid-search-weaviate/hy
-brid\_search\_weaviate/chain.py](https://github.com/langchain-ai/langchain/blob/master/templates/hybrid-search-weaviate/
-hybrid_search_weaviate/chain.py) ):
-
-    # RAG prompt
-    template = '''Answer the question based only on the following 
-context:
-    {context}
-    Question: {question}
-    '''
-    prompt = ChatPromptTemplate.from_template(template)
-    
-   
- # RAG
-    model = ChatOpenAI()
-    chain = (
-        RunnableParallel({'context': retriever, 'question': RunnablePassth
-rough()})
-        | prompt
-        | model
-        | StrOutputParser()
-    )
-
-The docs do show this:
-
-    retriever.invo
-ke(
-        'AI integration in society',
-        where_filter={
-            'path': ['author'],
-            'operator': 
-'Equal',
-            'valueString': 'Prof. Jonathan K. Sterling',
-        },
-    )
-
-[https://python.langchain.com/v0.2/d
-ocs/integrations/retrievers/weaviate-hybrid/](https://python.langchain.com/v0.2/docs/integrations/retrievers/weaviate-hy
-brid/)
-
-Does anyone know how/where to add the `where_filter` parameter for Weaviate hybrid search in the Chain?
-
-[](http
-s://github.com/langchain-ai/langchain/blob/master/templates/hybrid-search-weaviate/hybrid_search_weaviate/chain.py)
-```
----
-
-     
- 
-all -  [ Help Desk RAG Documentation New Link? [LangGraph] ](https://www.reddit.com/r/LangChain/comments/1elilnx/help_desk_rag_documentation_new_link_langgraph/) , 2024-08-08-0911
-```
-I've been keeping my eye on the LangGraph documentation, there was one titled 'Help Desk RAG' or 'Make a Help Desk Agent
- with RAG' or something. This was back when the documentation also showed a 'Design Patterns' category for the graphs.
-
-
-
-
-I'm finally ready to start the tutorial but it has all but vanished. I only see about 6 other RAG based links. All of 
-which are long, and with names that don't really indicate the differences. (Corrective RAG, Self-RAG, Agentic RAG...)
-
- 
- 
-I may end up spending the time diving into them all eventually, but would anyone know which one specifically used to b
-e the 'Help Desk RAG'?
-```
----
-
-     
- 
-all -  [ Multimodal AI Assistant Integrated with WhatsApp ](https://www.reddit.com/r/betatests/comments/1elibnc/multimodal_ai_assistant_integrated_with_whatsapp/) , 2024-08-08-0911
-```
-Hey fellow tech enthusiasts !
-
-I made an AI assistant integrated with WhatsApp, using Langchain and a combination of fun
-ctions and tools. Let me introduce to you, Simone !
-
-My objective is to make AI seamlessly integrated to our daily life,
- including those that are not even interested in downloading the OpenAI, Claude or any other AI apps. That's why I've go
-ne in favor of a WhatsApp integration, which allows for seamless incorporation into daily life.
-
-Users can interact with
- Simone as they would with any contact, making AI assistance feel more natural and accessible. I realized that myself, a
- developer and tech-oriented user, find it very enjoyable.
-
-Key Features:
-
-* Multilingual support
-* Voice message capabi
-lity (text-to-speech and speech-to-text)
-* Web search and content summarization
-* Image analysis and generation
-* Locati
-on-based services (directions, place info)
-* PDF and YouTube transcript reading
-
-I'm particularly interested in hearing 
-about:
-
-* How the WhatsApp integration affects user experience: Is it a positive or negative point for you?
-* The useful
-ness of different features in day-to-day scenarios: What would you use it for?
-* Performance, response time and hallucin
-ations: If you tried it, did you like it?
-* Privacy concerns and how we might address them: Would you feel comfortable d
-iscussing any issues you may have with such a bot?
-* Do you think it may be of any use for you or one of your friends?
-*
- What features would make you consider using an AI assistant through WhatsApp?
-* I want Simone to feel 'human-like' but 
-I had mixed feedback on that side. What are your thoughts?
-
-I'm after genuine opinions to help refine and improve Simone
-. All feedback, positive or critical, is valuable.
-
-For those of you that want to try it, just ask in comments and I'll 
-share the link/WhatsApp number.
-
-I spend several hours outside every day handing out flyers to people and asking for the
-ir opinion. I hope it will be less painful through Reddit 😅
-
-Thanks for your insights!
-
-# How can I try it?
-
-* Visit [Si
-mone.app](http://Simone.app) to get more information
-* OR Send a WhatsApp Message to +33 7 66 25 95 58
-
-No registration 
-needed.
-```
----
-
-     
- 
-all -  [ Run local LLM on CPU. how Bad would would it be compared to GPUs ](https://www.reddit.com/r/LangChain/comments/1eli67w/run_local_llm_on_cpu_how_bad_would_would_it_be/) , 2024-08-08-0911
-```
-I wanted to ask, if I want to run local LLMs only on CPU.
-
-I do not have access to GPUs and wanted to ask how much slowe
-r CPU would be, compared to GPU.
-
-I would love to run a small Open Source LLM only on CPUs to read 500 pages PDFs and be
- able to ask it questions.
-
-
-```
----
-
-     
- 
-all -  [ LLM answer to the question  -  context for answer did not even provide ](https://www.reddit.com/r/LangChain/comments/1eli48o/llm_answer_to_the_question_context_for_answer_did/) , 2024-08-08-0911
-```
-My application logic is - i give some text from database, and using this context generated answer.But if i ask something
- but its dont exist in context - LLm still answer me. Why?.Here my code  
-
-    const prompt = await pull<ChatPromptTempl
-ate>('rlm/rag-prompt');
-    
-      const ragChain = await createStuffDocumentsChain({
-        llm,
-        prompt:prompt
-,
-        outputParser: parcer,
-      });
-      const stream = await ragChain.stream({
-        question:question,
-      
-  context: [
-          new Document({
-            pageContent: text as string,
-          }),
-        ],
-      });
-    
-```
----
-
-     
- 
-all -  [ Beginner: Advice on Extremely Ambitious Agent-Based Long-Horizon Storytelling ](https://www.reddit.com/r/LangChain/comments/1eli34m/beginner_advice_on_extremely_ambitious_agentbased/) , 2024-08-08-0911
-```
-**Context:** I have an ambitious idea about using agents for long-horizon text-only storytelling but have limited techni
-cal knowledge. I hope more experienced individuals can offer input on feasibility and potential challenges.
-
-**Project O
-verview:** My goal is to create very detailed, long form AI roleplaying software where users aren't just reading a novel
-, they are the protagonist. In my experience, AI can produce passable prose (Claude 3.5), but it struggles with story pr
-ogression and planning, often resulting in circular narratives. To address this, I plan to use agents to create a detail
-ed plot outline based on a user-supplied premise. The AI will narrate, and the user will act as the protagonist. Every t
-ime the protagonist acts, the AI will follow a series of escalating questions to assess and rewrite the outline as neede
-d to keep the story cohesive:
-
-1. Does this fit with the next planned beat? If yes, the writer AI continues; if not,
-2. 
-Does this fit with the scene? If yes, rewrite the beat; if not,
-3. Does this fit with the chapter outline? If yes, rewri
-te the scene and beat; if not,
-4. Does this fit with the arc?
-
-This way, the story always has an outline to stay on trac
-k but can pivot as needed based on the protagonist's actions.
-
-**Assumptions:**
-
-1. Using a series of repeating agents, 
-AI can generate and refine variations of a user-supplied premise into hyper-specific instructions. AI-written content of
-ten lacks specificity, which I plan to address through careful prompting and QA agents.
-2. I can break up the long horiz
-on task of impromptu novel writing (AI roleplaying) into discrete chunks I can hand off to specific agents that will onl
-y see their little section of the walled garden. This feels risky because different sections might need to know about ea
-ch other to be cohesive and it could be hard to predict what that shared knowledge pool might need to be without making 
-it so large the cost and wait time balloon beyond toleration.
-3. That this won’t run afoul of the bitter lesson - where 
-I have to get so granular I stray into deterministic logic which is inherently limiting and better solved with waiting f
-or GPT-4.5.
-4. I can get the response time from user input to the next beat written to a tolerable experience. I plan to
- make what I can run concurrently and use a bag of tricks to lessen the perceived waiting time.
-
-The plot outline to kee
-p things on track is table stakes for me. My real goal is far more ambitious (and far-fetched) about making the characte
-rs come alive:
-
-* Give all / many of the characters encountered their own AI which fully fleshes out their backstory, go
-als, personality, outlook, relationships with other AI characters, and gives them agency to pursue those minor/major goa
-ls as the book unfolds. The events other characters set in motion will be experienced by the protagonist whether it’s br
-eaking and entering or being crabby in a conversation because they get hangry and it’s lunch time.
-* Create true repercu
-ssions for actions the protagonist or other characters take. If the protagonist as a student is rude, the AI controlling
- the teacher will assign detention, the unpleasantness determined by the AI of the teacher administering the detention 
-
-
-I know a tiny amount of code (enough to hard code Towers of Hanoi in terminal) and with AI’s help, have Open Router hoo
-ked up to a local python program in VS Code where it writes to a local document. I plan to create tons of little documen
-ts the agents will write/read to. In my day job I work at a startup as a UX designer, have lots of  senior engineering F
-AANG friends and have played extensively with AI, particularly with storytelling including programs like Sudowrite and N
-ovelcrafter. 
-
-I haven’t yet messed with agents. What do you predict will be the hardest parts of this project and what 
-are the odds of success? I suspect the programming will be simple, the prompting will be finicky, the lag challenging an
-d the cost fairly high even with GPT-4o mini. Even if I succeed, the output will probably be average until GPT-4.5 comes
- along.
-```
----
-
-     
- 
-all -  [ [0 YoE, Unemployed, Machine Learning Engineer/Data Analyst/Data Scientist, Europe] ](https://www.reddit.com/r/resumes/comments/1elh46a/0_yoe_unemployed_machine_learning_engineerdata/) , 2024-08-08-0911
-```
-It's my first resume and my only experience is the contracts and gigs I got from Upwork. Most of my experience is relate
-d to ml eng./data analytics and I don't know what's wrong with my resume. Any help is  appreciated, thanks.
-
-https://pre
-view.redd.it/gdve8o26k1hd1.png?width=1656&format=png&auto=webp&s=e1088df17a4b2e432295dce907908c06e73c7d2a
-
-  
-
-```
----
-
-     
- 
-all -  [ Intermittent Human Interaction Is Missing ](https://www.reddit.com/r/crewai/comments/1elf90o/intermittent_human_interaction_is_missing/) , 2024-08-08-0911
-```
-Crewai agents are able to gather feedbacks from human only once at the end. It's incompatible to handle langchain's huma
-n input with the retrieval tools. Has anyone worked on this already?
-```
----
-
-     
- 
-all -  [ Internship oppurtunity for 2nd/3rd year students in LLM domain ](https://www.reddit.com/r/developersIndia/comments/1elf8pd/internship_oppurtunity_for_2nd3rd_year_students/) , 2024-08-08-0911
-```
-Hey guys
-My company is in need for interns who can actively work in LLM and SLM based projects.
-Tech stack required: Pyt
-hon, Tensorflow, Langchain/Llamaindex
-The candidate should able to use open source models and fine-tune them
-Anyone inte
-rested can put in their questions in the comment section or ping me. 
-
-Location: Work From Home(If you are in Pune, you 
-can come to the office as well)
-Work experience: Fresher
-
-*This is an unpaid internship hence perfect for students who a
-re still studying*
-```
----
-
-     
- 
-MachineLearning -  [ [R] [D] Langchain Evaluation with BeyondLLM
- ](https://www.reddit.com/r/MachineLearning/comments/1eki1fv/r_d_langchain_evaluation_with_beyondllm/) , 2024-08-08-0911
-```
-Hey everyone! Just came across a new feature of Beyond LLM that can evaluate Langchain RAG pipelines! It provides contex
-t relevancy, answer relevancy, and groundedness. Check out the code snippet I’m sharing—perfect for testing your RAG pip
-elines! For more info, be sure to check it out on GitHub [here](https://github.com/aiplanethub/beyondllm/blob/main/cookb
-ook/evaluate_langchain_rag_pipeline_beyondllm.ipynb).
-
-https://preview.redd.it/172m1y3dvsgd1.png?width=3972&format=png&a
-uto=webp&s=63d5b0f41f0e46a58e7a2d5fb0d2bbc4384b3b1d
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [D] Embedding generation in production? How are you doing it? ](https://www.reddit.com/r/MachineLearning/comments/1e7xt6k/d_embedding_generation_in_production_how_are_you/) , 2024-08-08-0911
-```
-
-
-For those building production RAG pipelines, how are you generating embeddings. More than which model, I'm interested 
-in how your deploying it. Are you calling the openai/vertex API endpoint directly? Using langchain/llamaindex wrappers? 
-Using vectordb  classes? Or some other way?
-```
----
-
-     
- 
-MachineLearning -  [ [D] Is Anyone Else Setting Up Real-Time Django Workers for their AI Application? What's the best way ](https://www.reddit.com/r/MachineLearning/comments/1e0qens/d_is_anyone_else_setting_up_realtime_django/) , 2024-08-08-0911
-```
-We completely underestimated this one tbh, thought it would be much more straight forward. But we've done it now and doc
-umented how step by step [in this article series](https://medium.com/p/5828a1ea43a3).
-
-A bit of context, we're building 
-a mini free AI Agent that auto-generates manually customisable plots, so the user can basically style however they want.
- It needs to be cost effective and efficient, so we thought about how to do it and tested a couple other ways.
-
-https://
-preview.redd.it/cmly0a6bhwbd1.png?width=640&format=png&auto=webp&s=be1f5b2853e744adcaf8013e6d43b43f6be89617
-
-We plan on 
-releasing the project open source, so all feedback welcome! Is anyone else doing this and has any feedback? or do know o
-f a better way to do it?
-```
----
-
-     
- 
-MachineLearning -  [ [P] Real Time AI Workers Web Application ](https://www.reddit.com/r/MachineLearning/comments/1dzryk9/p_real_time_ai_workers_web_application/) , 2024-08-08-0911
-```
-Hi everyone!
-
-I've created a mini series on how to build a real time AI application using Django, LangChain and Celery.
-
-
-Free knowledge - posting it in here for anyone working on something similar and had the same blockers I had when buildi
-ng.
-
-Let me know what you think on how I could potentially improve this architecture.
-
-Part 1
-
-[https://medium.com/towar
-dsdev/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-601dff7ada79](https://medium.
-com/towardsdev/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-601dff7ada79)
-
-Part 
-2
-
-[https://medium.com/towardsdev/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-5
-828a1ea43a3](https://medium.com/towardsdev/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time
--django-5828a1ea43a3)
-
-Part 3
-
-[https://medium.com/towardsdev/how-to-set-up-django-from-scratch-with-celery-channels-red
-is-docker-real-time-django-8e73c7b6b4c8](https://medium.com/towardsdev/how-to-set-up-django-from-scratch-with-celery-cha
-nnels-redis-docker-real-time-django-8e73c7b6b4c8)
-
-Part 4
-
-[https://medium.com/towardsdev/how-to-set-up-django-from-scra
-tch-with-celery-channels-redis-docker-real-time-django-c090c300517a](https://medium.com/towardsdev/how-to-set-up-django-
-from-scratch-with-celery-channels-redis-docker-real-time-django-c090c300517a)
-
-Part 5  
-[https://medium.com/@cubode/how-
-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-0845eb7e083c](https://medium.com/@cubod
-e/how-to-set-up-django-from-scratch-with-celery-channels-redis-docker-real-time-django-0845eb7e083c)
 ```
 ---
 
