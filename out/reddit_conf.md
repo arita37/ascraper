@@ -1,5 +1,27 @@
  
-all -  [ What the PhD?! ](https://www.reddit.com/r/AskAcademia/comments/1eq3ewf/what_the_phd/) , 2024-08-13-0911
+all -  [ [D] How to make figures for your paper? ](https://www.reddit.com/r/MachineLearning/comments/1er14hq/d_how_to_make_figures_for_your_paper/) , 2024-08-14-0911
+```
+Although I have papers in some top venues (IJCAI, ACL, etc.), I tend to receive poor reviews initially, leading to a cyc
+le of resubmissions before finally getting accepted. While some reviews at top conferences can be really poor, I can't b
+lame everything on the reviewers. Since receiving the NeurIPS reviews this year, I've been reflecting on what I can impr
+ove in my approach to avoid these frustrating cycles of resubmission.
+
+My reviewers often mention that my papers read we
+ll and are easy to follow, but they aren't impressed by the novelty. I understand that since I don't work with LLMs or o
+ther trendy topics, reviewers usually don't seem to grasp the importance of the task I'm working on or the method itself
+.
+
+In improving my approach, I want to start with the figures. I usually use [draw.io](http://draw.io), but this often r
+esults in unimpressive figures, reminiscent of those seen in papers from the 2000s. What tools are you all using to crea
+te more polished figures? I understand that a tool is just a medium for expression and shouldn't limit what I want to ac
+hieve, but I still want to know how you make good figures that encapsulate your work concisely and give reviewers a bett
+er understanding of what you're doing.
+```
+---
+
+     
+ 
+all -  [ What the PhD?! ](https://www.reddit.com/r/AskAcademia/comments/1eq3ewf/what_the_phd/) , 2024-08-14-0911
 ```
 So I recently broke up with a Research Scientist who works at Google Deepmind. However, the time I spent with him, I lov
 ed the work he was doing and the immense rush we both got from the cutting edge innovations he was working on. I am a ma
@@ -16,7 +38,7 @@ HELP!!!!!
 
      
  
-all -  [ What the PhD?! ](https://www.reddit.com/r/PhD/comments/1eq3cwr/what_the_phd/) , 2024-08-13-0911
+all -  [ What the PhD?! ](https://www.reddit.com/r/PhD/comments/1eq3cwr/what_the_phd/) , 2024-08-14-0911
 ```
 So I recently broke up with a Research Scientist who works at Google Deepmind. However, the time I spent with him, I lov
 ed the work he was doing and the immense rush we both got from the cutting edge innovations he was working on. I am a ma
@@ -33,7 +55,7 @@ HELP!!!!!
 
      
  
-all -  [ [D] How is your neurips discussion period going? ](https://www.reddit.com/r/MachineLearning/comments/1eowx75/d_how_is_your_neurips_discussion_period_going/) , 2024-08-13-0911
+all -  [ [D] How is your neurips discussion period going? ](https://www.reddit.com/r/MachineLearning/comments/1eowx75/d_how_is_your_neurips_discussion_period_going/) , 2024-08-14-0911
 ```
 How is your neurips discussion period going? 
 
@@ -43,7 +65,7 @@ Any funny anecdotes?
 
      
  
-all -  [ [CfP] NeurIPS Workshop on Bayesian Decision-making and Uncertainty ](https://groups.google.com/g/ml-news/c/L6D6Ltdiwvk) , 2024-08-13-0911
+all -  [ [CfP] NeurIPS Workshop on Bayesian Decision-making and Uncertainty ](https://groups.google.com/g/ml-news/c/L6D6Ltdiwvk) , 2024-08-14-0911
 ```
 
 ```
@@ -51,7 +73,7 @@ all -  [ [CfP] NeurIPS Workshop on Bayesian Decision-making and Uncertainty ](ht
 
      
  
-all -  [ [D] NeurIPS 2024 Dataset & Benchmarking Track ](https://www.reddit.com/r/MachineLearning/comments/1enzi7r/d_neurips_2024_dataset_benchmarking_track/) , 2024-08-13-0911
+all -  [ [D] NeurIPS 2024 Dataset & Benchmarking Track ](https://www.reddit.com/r/MachineLearning/comments/1enzi7r/d_neurips_2024_dataset_benchmarking_track/) , 2024-08-14-0911
 ```
 Any idea folks when the reviews will be out?
 ```
@@ -59,7 +81,7 @@ Any idea folks when the reviews will be out?
 
      
  
-all -  [ [D] NeurIPS 24 Dataset Track Reviews ](https://www.reddit.com/r/MachineLearning/comments/1ent5sa/d_neurips_24_dataset_track_reviews/) , 2024-08-13-0911
+all -  [ [D] NeurIPS 24 Dataset Track Reviews ](https://www.reddit.com/r/MachineLearning/comments/1ent5sa/d_neurips_24_dataset_track_reviews/) , 2024-08-14-0911
 ```
 Dataset and benchmarks track reviews are supposed to come out today after the delay.
 
@@ -70,7 +92,7 @@ ned by this compared to the main track but this can serve as a discussion thread
 
      
  
-all -  [ [D] Are Neurips 2024 rebuttal viewable to reviewers now? ](https://www.reddit.com/r/MachineLearning/comments/1emc004/d_are_neurips_2024_rebuttal_viewable_to_reviewers/) , 2024-08-13-0911
+all -  [ [D] Are Neurips 2024 rebuttal viewable to reviewers now? ](https://www.reddit.com/r/MachineLearning/comments/1emc004/d_are_neurips_2024_rebuttal_viewable_to_reviewers/) , 2024-08-14-0911
 ```
 This should have happened a couple of hours ago, but the papers I reviewed still only show the original reviews only, no
  rebuttals. What’s going on?
@@ -79,7 +101,7 @@ This should have happened a couple of hours ago, but the papers I reviewed still
 
      
  
-all -  [ Any current/previous master students here published any papers? ](https://www.reddit.com/r/learnmachinelearning/comments/1ejgsm6/any_currentprevious_master_students_here/) , 2024-08-13-0911
+all -  [ Any current/previous master students here published any papers? ](https://www.reddit.com/r/learnmachinelearning/comments/1ejgsm6/any_currentprevious_master_students_here/) , 2024-08-14-0911
 ```
 So I am looking for a company to do my Master research project at. I was looking at Sony but of course they have extreme
 ly high standards. I saw that they wanted you to have papers published in the large conferences like NeurIPS. 
@@ -96,7 +118,7 @@ The description said MS/PhD so
 
      
  
-all -  [ This is an essential research paper about ChatGPT. ](https://www.reddit.com/r/u_neuralinnovative/comments/1ej7g4z/this_is_an_essential_research_paper_about_chatgpt/) , 2024-08-13-0911
+all -  [ This is an essential research paper about ChatGPT. ](https://www.reddit.com/r/u_neuralinnovative/comments/1ej7g4z/this_is_an_essential_research_paper_about_chatgpt/) , 2024-08-14-0911
 ```
 [https://proceedings.neurips.cc/paper\_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf](https://proceed
 ings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
@@ -105,7 +127,7 @@ ings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Pap
 
      
  
-all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-13-0911
+all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-14-0911
 ```
 Is Unlimited Context Length really possible?  At what cost?
 
@@ -134,7 +156,7 @@ th my first 5 questions.  I've only read the abstract so far.
 
      
  
-all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-13-0911
+all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-14-0911
 ```
 NeurIPS 2024 paper reviews are supposed to be released today. I thought to create a discussion thread for us to discuss 
 any issue/complain/celebration or anything else.
@@ -147,7 +169,7 @@ the authors are proud of might get a low score because of the noisy system, give
 
      
  
-all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-13-0911
+all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-14-0911
 ```
 Does anyone know when the reviews will be released? The NeurIPS website states that the rebuttal starts on July 30th any
 where on Earth, and it’s already July 30th in our time zone!
@@ -156,7 +178,7 @@ where on Earth, and it’s already July 30th in our time zone!
 
      
  
-all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-13-0911
+all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-14-0911
 ```
 Hello!
 
@@ -196,7 +218,7 @@ Aleksandra
 
      
  
-all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-13-0911
+all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-14-0911
 ```
 Google Sheets: [LINK](https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ1UI_V4CqX9jVnlMD7SYGxYj3W3M3WtLD2AhXtCtiWQB1O3_
 gKq4s0orohHv5Zm-SB7d0lkvW8vPI/pubhtml)
@@ -224,7 +246,7 @@ lways filled in, others not):
      
  
 all -  [ [P] Invitation to join the Weather4cast 2024 Challenge at NeurIPS2024 
- ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-08-13-0911
+ ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-08-14-0911
 ```
 Hello!
 
@@ -280,7 +302,7 @@ Aleksandra
 
      
  
-all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-08-13-0911
+all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-08-14-0911
 ```
 From a poster at ICML today—wonder how good the submissions will be!
 ```
@@ -288,7 +310,7 @@ From a poster at ICML today—wonder how good the submissions will be!
 
      
  
-all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-08-13-0911
+all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-08-14-0911
 ```
 I reviewed the video clip, but it only covers a small fraction of the explanation we need. Are you looking for this spec
 ific one, or should we dive into another? I'm excited to get your input and move forward with this 
@@ -297,7 +319,7 @@ ific one, or should we dive into another? I'm excited to get your input and move
 
      
  
-all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-08-13-0911
+all -  [ New sentences in updated Reuters article about OpenAI's 'Strawberry': 'A different source briefed on ](https://www.reddit.com/r/OpenAI/comments/1e42a1p/new_sentences_in_updated_reuters_article_about/) , 2024-08-14-0911
 ```
 The sentences quoted in the post title are from *Reuters* article [Exclusive: OpenAI working on new reasoning technology
  under code name ‘Strawberry’](https://www.reuters.com/technology/artificial-intelligence/openai-working-new-reasoning-t
