@@ -1,5 +1,144 @@
  
-all -  [ This is amazing : ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shiftin ](https://www.reddit.com/gallery/1evl7vl) , 2024-08-19-0912
+all -  [ LLM myths dispelled ](https://www.reddit.com/r/LocalLLaMA/comments/1ew9y5c/llm_myths_dispelled/) , 2024-08-20-0911
+```
+We presently seem close to the peak of another Gartner [hype curve](https://en.wikipedia.org/wiki/Gartner_hype_cycle), o
+f which this is the fifth in my career. This times it's 'AI' and 'LLMs' in particular. It thus seems proper to help leve
+l set *expectations* on this tech for newcomers who may not yet fully understand what the technology is, what sort of pr
+oblem it is *designed* to solve, and which are consequently and inherently precluded. There is a lot of misconception pr
+esently being perpetuated through media, PR statements, rumors, and even in non critiqued papers such as on [Arxiv](http
+s://arxiv.org/) and other repositories. The aim is to quickly level set expectations and help people choose *the right t
+ool for the job*. Specifically, what sort of task *this* kind of tool is suited for, and which it is not.
+
+Below is a su
+mmary of what I believe are the 10 most significant properties and facts to understand when considering using an LLM for
+ a task. They are the gists of  other authorities in the field (Yann LeCun and Subbarao Kambhampati in particular) so I 
+take no credit for their clarity.
+
+1. LLMs are not reasoning systems. They are sophisticated [n-gram](https://en.wikiped
+ia.org/wiki/N-gram) models that excel at capturing language distributions but fail at instance-level correctness and fac
+tuality. This limitation stems from their fundamental architecture as probabilistic models that learn distributions, not
+ instances. Increasing the size of the model or the training data does not overcome this constraint.
+2. LLMs cannot perf
+orm logical reasoning or deductive closure. They fail at basic logical inference and transitive closure tasks beyond the
+ir training distribution.
+3. Generating grammatically correct text does not indicate understanding or reasoning capabili
+ties. LLMs excel at style but fail at guaranteeing content accuracy.
+4. LLMs' performance on standardized tests or speci
+fic tasks does not indicate general reasoning ability. Their success stems from exposure to similar problems in their tr
+aining data, not from true understanding.
+5. Self-reflection or self-criticism in LLMs worsens performance. External ver
+ification is necessary for improving outputs.
+6. Chain-of-thought prompting and similar techniques do not enable LLMs to
+ generalize procedural knowledge. They can only replicate the precise patterns and examples they were trained on. Slight
+ deviation from the specific training examples, even within the same problem space, leads to failure.
+7. LLMs cannot rel
+iably verify their own outputs. They hallucinate false errors and miss actual errors, making self-verification impossibl
+e.
+8. 'Emergent abilities' in LLMs are not truly emergent. These capabilities are explained by the presence of relevant 
+information in the training data, not by the model developing new skills.
+9. Increasing model size or parameter count do
+es not lead to true reasoning capabilities. The fundamental limitations of the LLM architecture persist regardless of sc
+ale.
+10. LLMs are powerful tools for idea generation and creative tasks, but they cannot be relied upon for tasks requir
+ing guaranteed correctness or reasoning. They must be combined with external verifiers and symbolic systems for such tas
+ks.
+
+So in conclusion; LLMs are fundamentally generative models that learn and replicate distributions. They excel at ca
+pturing distributional properties like language style but are inherently incapable of handling instance-level properties
+ such as factual accuracy. This limitation is architectural, not a matter of scale. No amount of additional training dat
+a or computational power will enable LLMs to reliably deal with facts or perform true reasoning. They are and will remai
+n probabilistic language models, not fact-checking or logical reasoning systems.
+
+If your interest was piqued and you wa
+nt to dive deeper into the evidence, logic, experiments, observations, facts and conclusions backing these statements, h
+ere are a some papers to sate your curiosity:
+
+* [Can Large Language Models Reason and Plan?](https://arxiv.org/abs/2403
+.04121)
+* [Large Language Models Still Can’t Plan (A Benchmark for LLMs on Planning and Reasoning about Change)](https:/
+/openreview.net/pdf?id=wUU-7XTL5XO)
+* [On the planning abilities of large language models-a critical investigation](http
+s://proceedings.neurips.cc/paper_files/paper/2023/file/efb2072a358cefb75886a315a6fcf880-Paper-Conference.pdf)
+* [Leverag
+ing pre-trained large language models to construct and utilize world models for model-based task planning](https://proce
+edings.neurips.cc/paper_files/paper/2023/file/f9f54762cbb4fe4dbffdd4f792c31221-Paper-Conference.pdf)
+* [Gpt-4 doesn't kn
+ow it's wrong: An analysis of iterative prompting for reasoning problems](https://arxiv.org/pdf/2310.12397)
+
+If you are 
+more into videos, you can start with these.
+
+* [LLMs and reasoning - Kambhampati](https://www.youtube.com/watch?v=y1WnHp
+edi2A)
+* [A Realistic Look at Large Language Models - Jodie Burchell](https://www.youtube.com/watch?v=Pv0cfsastFs)
+
+Yann
+ LeCun similarly have some talks and writings on the same topic, and some general ideas on potential future directions s
+uch as [joint embeddings](https://arxiv.org/abs/2301.08243) and similar world model notions where concepts are separated
+ from language to allow patterns to be learned more abstractly. This is a tiny step away from LLMs, but is still a distr
+ibution centric path, which would need *other* ingredients as compliment in order to address the gaps that Kambhampati o
+utlined. The point is, that a new *significant breakthrough* needs to be reached in order to address reasoning. The tran
+sformer architecture that underpins all current SOTA LLMs has taken us as far as it can for what it was design to do; to
+ model *form*. Facts and reasoning requires something else and there are no clear answers yet as to what option may emer
+ge as the next *defacto answer* to those problems. The answer is likely many years away given [prior AI research leaps](
+https://postimg.cc/K3rzHV9n).
+```
+---
+
+     
+ 
+all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-08-20-0911
+```
+🚀 Llama-3.1-Storm-8B has arrived! Our new 8B LLM pushes the boundaries of what's possible with smaller language models.
+
+
+[Llama-3.1-Storm-8B Model Performance](https://preview.redd.it/nsae3t1kmnjd1.png?width=7170&format=png&auto=webp&s=239e
+2d373deb77d133b8cc38e29c65b5b29ae1ac)
+
+**Key strengths:**
+
+* Improved Instruction Following: IFEval Strict (+3.93%)
+* En
+hanced Knowledge-driven QA: GPQA (+7.21%), MMLU-Pro (+0.55%), AGIEval (+3.77%)
+* Better Reasoning Capabilities: ARC-C (+
+3.92%), MuSR (+2.77%), BBH (+1.67%), AGIEval (+3.77%)
+* Superior Agentic Abilities:  BFCL Overall Acc (+7.92%), BFCL AST
+ Summary (+12.32%)
+* Reduced Hallucinations:  TruthfulQA (+9%)
+
+**Applications:**
+
+* Perfect for GPU-Poor AI developers.
+ Build Smarter Chatbots, QA Systems, Reasoning Applications, and Agentic Workflows today! Llama-3.1 derivative, so resea
+rch & commercial-friendly!
+* For startups building AI-powered products.
+* For researchers exploring methods to further p
+ush model performance.
+
+Built on our winning recipe in NeurIPS LLM Efficiency Challenge. Learn more: [https://huggingfac
+e.co/blog/akjindal53244/llama31-storm8b](https://huggingface.co/blog/akjindal53244/llama31-storm8b)  
+  
+Start building 
+with Llama-3.1-Storm-8B (available in BF16, Neural Magic FP8, and GGUF) today: [https://huggingface.co/collections/akjin
+dal53244/storm-66ba6c96b7e24ecb592787a9](https://huggingface.co/collections/akjindal53244/storm-66ba6c96b7e24ecb592787a9
+)  
+  
+Integration guides for HF, vLLM, and Lightening AI LitGPT: [https://huggingface.co/akjindal53244/Llama-3.1-Storm-
+8B#%F0%9F%92%BB-how-to-use-the-model](https://huggingface.co/akjindal53244/Llama-3.1-Storm-8B#%F0%9F%92%BB-how-to-use-th
+e-model)
+
+Llama-3.1-Storm-8B is our most valuable contribution so far towards the open-source community. If you resonate
+ with our work and want to be a part of the journey, **we're seeking both computational resources and innovative collabo
+rators to push LLMs further!**
+
+X/Twitter announcement: [https://x.com/akjindal53244/status/1825578737074843802](https:/
+/x.com/akjindal53244/status/1825578737074843802)
+```
+---
+
+     
+ 
+all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/gallery/1evpkur) , 2024-08-20-0911
 ```
 
 ```
@@ -7,7 +146,122 @@ all -  [ This is amazing : ResShift: Efficient Diffusion Model for Image Super-r
 
      
  
-all -  [ Yurtdışı - Türkiye ](https://www.reddit.com/r/CodingTR/comments/1evhsx5/yurtdışı_türkiye/) , 2024-08-19-0912
+all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-08-20-0911
+```
+**ResShift:** Efficient Diffusion Model for Image Super-resolution by Residual Shifting (NeurIPS 2023, Spotlight)
+
+Offic
+ial Repo : [https://github.com/zsyOAOA/ResShift](https://github.com/zsyOAOA/ResShift)
+
+I have developed a very advanced 
+Gradio APP.
+
+**Developed APP Scripts and Installers :** [**https://www.patreon.com/posts/110331752**](https://www.patreo
+n.com/posts/110331752)
+
+# Features
+
+
+
+* It supports following tasks:
+* Real-world image super-resolution
+* Bicubic (resi
+ze by Matlab) image super-resolution
+* Blind Face Restoration
+* Automatically saving all generated image with same name 
++ numbering if necessary
+* Randomize seed feature for each generation
+* Batch image processing - give input and output f
+older paths and it batch process all images and saves
+* 1-Click to install on Windows, RunPod, Massed Compute and Kaggle
+ (free account)
+
+
+
+# Windows Requirements
+
+
+
+* Python 3.10, FFmpeg, Cuda 11.8, C++ tools and Git
+* If it doesn't work ma
+ke sure to below tutorial and install everything exactly as shown in this below tutorial
+* [https://youtu.be/-NjNy7afOQ0
+](https://youtu.be/-NjNy7afOQ0)
+
+
+
+# How to Install on Windows
+
+
+
+* Make sure that you have the above requirements
+* Ext
+ract files into a folder like c:/reshift\_v1
+* Double click Windows\_Install.bat and it will automatically install every
+thing for you with an isolated virtual environment folder (VENV)
+* After that double click Windows\_Start\_app.bat and s
+tart the app
+* When you first time use a task it will download necessary models (all under 500 MB) into accurate folders
+
+* If during download it fails, file gets corrupted sadly it doesn't verify that so delete files inside weights and rest
+art
+
+
+
+# How to Install on RunPod, Massed Compute, Kaggle
+
+
+
+* Follow the Massed\_Compute\_Instructions\_READ.txt and Ru
+npod\_Instructions\_READ.txt
+* For Kaggle follow the notebook written steps
+* An example video of how to use my RunPod, 
+Massed Compute scripts and Kaggle notebook can be seen below watch it to learn
+* [https://youtu.be/wG7oPp01COg](https://
+youtu.be/wG7oPp01COg)
+
+
+
+# Some Screenshots
+
+https://preview.redd.it/4i5kfpbuvijd1.png?width=3659&format=png&auto=webp&s
+=68d600cb86c856ab987fabf21238ee25d7cf3c93
+
+https://preview.redd.it/3q82htcuvijd1.png?width=3732&format=png&auto=webp&s=d
+abec8b84c0762a1ec535479ddd077eab56a1040
+
+https://preview.redd.it/07jnnobuvijd1.png?width=3842&format=png&auto=webp&s=0f0
+b8a82890d816d0703fc2d65b5917b26cfe153
+
+https://preview.redd.it/z5d5lpbuvijd1.png?width=3842&format=png&auto=webp&s=01061
+bba6840a4013ba3ea75fd03b78f2d522931
+
+https://preview.redd.it/jh2ovxcuvijd1.png?width=3842&format=png&auto=webp&s=baab64f
+a4a59d6001282ab3d462ce26492fbe05a
+
+https://preview.redd.it/i3fgvucuvijd1.png?width=3842&format=png&auto=webp&s=089727493
+ad526dfbdd46ec52b5f27da448979fc
+
+https://preview.redd.it/anqj4zcuvijd1.png?width=3842&format=png&auto=webp&s=c4c2119fe01
+2b2508d8556d905ddbe08e7056b90
+
+https://preview.redd.it/bsxe0wcuvijd1.png?width=2000&format=png&auto=webp&s=647d5982c0ac4
+9dd880823eca00b4869799b8676
+
+https://preview.redd.it/8yvuvtbuvijd1.png?width=1984&format=png&auto=webp&s=72d2a3fb24ce08b
+70206f027f2af335fa4539215
+
+# 
+
+
+
+# 
+```
+---
+
+     
+ 
+all -  [ Yurtdışı - Türkiye ](https://www.reddit.com/r/CodingTR/comments/1evhsx5/yurtdışı_türkiye/) , 2024-08-20-0911
 ```
 Selam herkese,
 
@@ -54,7 +308,7 @@ er büyük şirketlerde Research Engineer olarak işe girmekte çok büyük + sa
 
      
  
-all -  [ [N] NeurIPS 2024 review analyzer ](https://www.reddit.com/r/MachineLearning/comments/1etd10k/n_neurips_2024_review_analyzer/) , 2024-08-19-0912
+all -  [ [N] NeurIPS 2024 review analyzer ](https://www.reddit.com/r/MachineLearning/comments/1etd10k/n_neurips_2024_review_analyzer/) , 2024-08-20-0911
 ```
 Hi there,
 
@@ -80,7 +334,7 @@ https://preview.redd.it/2zzxtomsnxid1.png?width=1044&format=png&auto=webp&s=665a
 
      
  
-all -  [ [D] Reviewer 2 - NeurIPS  ](https://www.reddit.com/r/MachineLearning/comments/1etb4qh/d_reviewer_2_neurips/) , 2024-08-19-0912
+all -  [ [D] Reviewer 2 - NeurIPS  ](https://www.reddit.com/r/MachineLearning/comments/1etb4qh/d_reviewer_2_neurips/) , 2024-08-20-0911
 ```
 The NeurIPS rebuttal period is finally over. How is everyone’s review? 
 
@@ -96,7 +350,7 @@ reviewer 2.
 
      
  
-all -  [ thoughts on genAI for goods procurement and insights? ](https://www.reddit.com/r/Distributors/comments/1esdj0n/thoughts_on_genai_for_goods_procurement_and/) , 2024-08-19-0912
+all -  [ thoughts on genAI for goods procurement and insights? ](https://www.reddit.com/r/Distributors/comments/1esdj0n/thoughts_on_genai_for_goods_procurement_and/) , 2024-08-20-0911
 ```
 There's been a lot of talk about genAI, but most of it has been hand wavy. Imo, there's only a few things GenAI is usefu
 l for. Communications, making decisions (reading PDFs, emails, etc and triggering actions), and insights (+ transforming
@@ -125,7 +379,7 @@ Curious to get get your thoughts/feedback! Please lmk if you have questions & ca
 
      
  
-all -  [ exploring genAI for material procurement insights and automation ](https://www.reddit.com/r/procurement/comments/1esd1u4/exploring_genai_for_material_procurement_insights/) , 2024-08-19-0912
+all -  [ exploring genAI for material procurement insights and automation ](https://www.reddit.com/r/procurement/comments/1esd1u4/exploring_genai_for_material_procurement_insights/) , 2024-08-20-0911
 ```
 There's been a lot of talk about genAI, but most of it has been hand wavy. Imo, there's only a few things GenAI is usefu
 l for. Communications, making decisions (reading PDFs, emails, etc and triggering actions), and insights (+ transforming
@@ -157,7 +411,7 @@ I'd love to get your thoughts! Please lmk if you have questions & call me out if
 
      
  
-all -  [ [D] NeurIPS 2024 Tickets ](https://www.reddit.com/r/MachineLearning/comments/1es1qpw/d_neurips_2024_tickets/) , 2024-08-19-0912
+all -  [ [D] NeurIPS 2024 Tickets ](https://www.reddit.com/r/MachineLearning/comments/1es1qpw/d_neurips_2024_tickets/) , 2024-08-20-0911
 ```
 Is there anyway I can get NeurIPS 2024 tickets for free or any form of scholarship that I can apply to ? I really want t
 o attend the conference but 900$ + travel + acco will get too expensive for me and my company is not going to reimburse 
@@ -167,7 +421,7 @@ it. Any help will be appreciated.
 
      
  
-all -  [ [D] How to make figures for your paper? ](https://www.reddit.com/r/MachineLearning/comments/1er14hq/d_how_to_make_figures_for_your_paper/) , 2024-08-19-0912
+all -  [ [D] How to make figures for your paper? ](https://www.reddit.com/r/MachineLearning/comments/1er14hq/d_how_to_make_figures_for_your_paper/) , 2024-08-20-0911
 ```
 Although I have papers in some top venues (IJCAI, ACL, etc.), I tend to receive poor reviews initially, leading to a cyc
 le of resubmissions before finally getting accepted. While some reviews at top conferences can be really poor, I can't b
@@ -189,7 +443,7 @@ er understanding of what you're doing.
 
      
  
-all -  [ What the PhD?! ](https://www.reddit.com/r/AskAcademia/comments/1eq3ewf/what_the_phd/) , 2024-08-19-0912
+all -  [ What the PhD?! ](https://www.reddit.com/r/AskAcademia/comments/1eq3ewf/what_the_phd/) , 2024-08-20-0911
 ```
 So I recently broke up with a Research Scientist who works at Google Deepmind. However, the time I spent with him, I lov
 ed the work he was doing and the immense rush we both got from the cutting edge innovations he was working on. I am a ma
@@ -206,7 +460,7 @@ HELP!!!!!
 
      
  
-all -  [ What the PhD?! ](https://www.reddit.com/r/PhD/comments/1eq3cwr/what_the_phd/) , 2024-08-19-0912
+all -  [ What the PhD?! ](https://www.reddit.com/r/PhD/comments/1eq3cwr/what_the_phd/) , 2024-08-20-0911
 ```
 So I recently broke up with a Research Scientist who works at Google Deepmind. However, the time I spent with him, I lov
 ed the work he was doing and the immense rush we both got from the cutting edge innovations he was working on. I am a ma
@@ -223,7 +477,7 @@ HELP!!!!!
 
      
  
-all -  [ [D] How is your neurips discussion period going? ](https://www.reddit.com/r/MachineLearning/comments/1eowx75/d_how_is_your_neurips_discussion_period_going/) , 2024-08-19-0912
+all -  [ [D] How is your neurips discussion period going? ](https://www.reddit.com/r/MachineLearning/comments/1eowx75/d_how_is_your_neurips_discussion_period_going/) , 2024-08-20-0911
 ```
 How is your neurips discussion period going? 
 
@@ -233,7 +487,7 @@ Any funny anecdotes?
 
      
  
-all -  [ [D] NeurIPS 2024 Dataset & Benchmarking Track ](https://www.reddit.com/r/MachineLearning/comments/1enzi7r/d_neurips_2024_dataset_benchmarking_track/) , 2024-08-19-0912
+all -  [ [D] NeurIPS 2024 Dataset & Benchmarking Track ](https://www.reddit.com/r/MachineLearning/comments/1enzi7r/d_neurips_2024_dataset_benchmarking_track/) , 2024-08-20-0911
 ```
 Any idea folks when the reviews will be out?
 ```
@@ -241,7 +495,7 @@ Any idea folks when the reviews will be out?
 
      
  
-all -  [ [D] NeurIPS 24 Dataset Track Reviews ](https://www.reddit.com/r/MachineLearning/comments/1ent5sa/d_neurips_24_dataset_track_reviews/) , 2024-08-19-0912
+all -  [ [D] NeurIPS 24 Dataset Track Reviews ](https://www.reddit.com/r/MachineLearning/comments/1ent5sa/d_neurips_24_dataset_track_reviews/) , 2024-08-20-0911
 ```
 Dataset and benchmarks track reviews are supposed to come out today after the delay.
 
@@ -252,7 +506,7 @@ ned by this compared to the main track but this can serve as a discussion thread
 
      
  
-all -  [ [D] Are Neurips 2024 rebuttal viewable to reviewers now? ](https://www.reddit.com/r/MachineLearning/comments/1emc004/d_are_neurips_2024_rebuttal_viewable_to_reviewers/) , 2024-08-19-0912
+all -  [ [D] Are Neurips 2024 rebuttal viewable to reviewers now? ](https://www.reddit.com/r/MachineLearning/comments/1emc004/d_are_neurips_2024_rebuttal_viewable_to_reviewers/) , 2024-08-20-0911
 ```
 This should have happened a couple of hours ago, but the papers I reviewed still only show the original reviews only, no
  rebuttals. What’s going on?
@@ -261,7 +515,7 @@ This should have happened a couple of hours ago, but the papers I reviewed still
 
      
  
-all -  [ Any current/previous master students here published any papers? ](https://www.reddit.com/r/learnmachinelearning/comments/1ejgsm6/any_currentprevious_master_students_here/) , 2024-08-19-0912
+all -  [ Any current/previous master students here published any papers? ](https://www.reddit.com/r/learnmachinelearning/comments/1ejgsm6/any_currentprevious_master_students_here/) , 2024-08-20-0911
 ```
 So I am looking for a company to do my Master research project at. I was looking at Sony but of course they have extreme
 ly high standards. I saw that they wanted you to have papers published in the large conferences like NeurIPS. 
@@ -278,7 +532,7 @@ The description said MS/PhD so
 
      
  
-all -  [ This is an essential research paper about ChatGPT. ](https://www.reddit.com/r/u_neuralinnovative/comments/1ej7g4z/this_is_an_essential_research_paper_about_chatgpt/) , 2024-08-19-0912
+all -  [ This is an essential research paper about ChatGPT. ](https://www.reddit.com/r/u_neuralinnovative/comments/1ej7g4z/this_is_an_essential_research_paper_about_chatgpt/) , 2024-08-20-0911
 ```
 [https://proceedings.neurips.cc/paper\_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf](https://proceed
 ings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
@@ -287,7 +541,7 @@ ings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Pap
 
      
  
-all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-19-0912
+all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-20-0911
 ```
 Is Unlimited Context Length really possible?  At what cost?
 
@@ -316,7 +570,7 @@ th my first 5 questions.  I've only read the abstract so far.
 
      
  
-all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-19-0912
+all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-20-0911
 ```
 NeurIPS 2024 paper reviews are supposed to be released today. I thought to create a discussion thread for us to discuss 
 any issue/complain/celebration or anything else.
@@ -329,7 +583,7 @@ the authors are proud of might get a low score because of the noisy system, give
 
      
  
-all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-19-0912
+all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-20-0911
 ```
 Does anyone know when the reviews will be released? The NeurIPS website states that the rebuttal starts on July 30th any
 where on Earth, and it’s already July 30th in our time zone!
@@ -338,7 +592,7 @@ where on Earth, and it’s already July 30th in our time zone!
 
      
  
-all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-19-0912
+all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-20-0911
 ```
 Hello!
 
@@ -378,7 +632,7 @@ Aleksandra
 
      
  
-all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-19-0912
+all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-20-0911
 ```
 Google Sheets: [LINK](https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ1UI_V4CqX9jVnlMD7SYGxYj3W3M3WtLD2AhXtCtiWQB1O3_
 gKq4s0orohHv5Zm-SB7d0lkvW8vPI/pubhtml)
@@ -406,7 +660,7 @@ lways filled in, others not):
      
  
 all -  [ [P] Invitation to join the Weather4cast 2024 Challenge at NeurIPS2024 
- ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-08-19-0912
+ ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-08-20-0911
 ```
 Hello!
 
@@ -462,7 +716,7 @@ Aleksandra
 
      
  
-all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-08-19-0912
+all -  [ NeurIPS 2024 Watermarking Competition ](https://erasinginvisible.github.io/) , 2024-08-20-0911
 ```
 From a poster at ICML today—wonder how good the submissions will be!
 ```
@@ -470,7 +724,7 @@ From a poster at ICML today—wonder how good the submissions will be!
 
      
  
-all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-08-19-0912
+all -  [ NEURIPS VS ICML ](https://youtu.be/E_qYa0OKFok?feature=shared) , 2024-08-20-0911
 ```
 I reviewed the video clip, but it only covers a small fraction of the explanation we need. Are you looking for this spec
 ific one, or should we dive into another? I'm excited to get your input and move forward with this 
