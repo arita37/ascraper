@@ -1,5 +1,80 @@
  
-all -  [ [NeurIPS 2024 workshop] Call for Papers for the Algorithmic Fairness through the lens of Metrics and ](https://groups.google.com/g/ml-news/c/lywuU-eLuKQ) , 2024-08-26-0912
+all -  [ [D] Deep-Learning theory ](https://www.reddit.com/r/MachineLearning/comments/1f233t6/d_deeplearning_theory/) , 2024-08-27-0912
+```
+I'm starting my Master's soon and I want to work/research in theoretical ML or any field that provides a deeper understa
+nding of ML beyond empirical stuff. I find most new/popular papers are about Generative AI (image generation, or LLMs), 
+and I'm looking into something more general. I want to understand the theory behind AI and it's hard to find any cool pa
+pers that look into it. I'd like to know if you guys can guide my search into theoretical ML and if it's fun to look int
+o it. 
+
+some papers I found recently that fall into this are: 
+
+*  [Automatic Data Curation for Self-Supervised Learning
+: A Clustering-Based Approach](https://arxiv.org/html/2405.15613v1)
+* [Learning by Reconstruction Produces Uninformative
+ Features For Perception](https://arxiv.org/pdf/2402.11337)
+* [An Information-Theoretic Perspective on Variance-Invarian
+ce-Covariance Regularization](https://proceedings.neurips.cc/paper_files/paper/2023/file/6b1d4c03391b0aa6ddde0b807a78c95
+0-Paper-Conference.pdf)
+```
+---
+
+     
+ 
+all -  [ Advice Needed: Choosing MS or PhD in AI and Shortlisting Grad Schools (Profile & Goals Inside) ](https://www.reddit.com/r/gradadmissions/comments/1f1zmzq/advice_needed_choosing_ms_or_phd_in_ai_and/) , 2024-08-27-0912
+```
+Hello Everyone,
+
+I'm seeking advice on selecting potential graduate schools and whether to pursue an MS or PhD, especial
+ly given the rapid advancements and uncertainty in the AI industry. My long-term (currently) goal is to work for a few y
+ears after grad school and then return to India, so I prefer to avoid taking on substantial debt. I'm currently shortlis
+ting programs in the USA, Canada, UK, and Germany and preparing for the GRE and TOEFL.
+
+Profile:
+
+* Education: 
+   * 202
+3 [B.Tech](http://B.Tech) (Bachelor/Undergrad) in Computer Science from a Tier-3 university in India
+   * CGPA: 8.25/10 
+(I recognize this could have been better, I regret it)
+* Work Experience:
+   * I have been working as a Data Scientist a
+t a start-up based in India since graduation.
+* Research: 
+   * Two main conference papers are under review (EMNLP/AAAI)
+, with one likely to be rejected
+   * 6 published workshop papers (\~CVPR/ICCV/NeurIPS/AAAI/ICLR) across diverse domains
+
+   * 2 shared task papers (COLING/ACL) \[not any value, I assume\]
+* \[Note: I am the 1st/2nd author on about 50% of th
+ese papers; for the rest, I am the 3rd or 4th author.
+* Internships (during Undergrad):
+   * Three months at an MNC R&D 
+wing India Office.
+   * Six months for my Bachelor's thesis at a Top 30 QS CS ranking university.
+   * Three 2-month int
+ernships at small-scale start-ups
+   * 1-year collaboration with a lab at an IIT (though the project did not lead to a p
+ublication, so the professor most probably will decline to provide a LOR)
+* Letters of Recommendation:
+   * One strong (
+Assistant Professor from a top 50 school; my Bachelor's thesis advisor)
+   * One moderate (Associate Professor from my h
+ome university with a good reputation in his domain)
+   * 1-2 decent (Course professors under whom I completed a project
+ and took 1-2 courses)
+
+
+
+
+
+
+```
+---
+
+     
+ 
+all -  [ [NeurIPS 2024 workshop] Call for Papers for the Algorithmic Fairness through the lens of Metrics and ](https://groups.google.com/g/ml-news/c/lywuU-eLuKQ) , 2024-08-27-0912
 ```
 
 ```
@@ -7,7 +82,7 @@ all -  [ [NeurIPS 2024 workshop] Call for Papers for the Algorithmic Fairness th
 
      
  
-all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-08-26-0912
+all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-08-27-0912
 ```
 🚀 Llama-3.1-Storm-8B has arrived! Our new 8B LLM pushes the boundaries of what's possible with smaller language models.
 
@@ -63,7 +138,7 @@ ttps://x.com/akjindal53244/status/1825578737074843802)
 
      
  
-all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-08-26-0912
+all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-08-27-0912
 ```
 **ResShift:** Efficient Diffusion Model for Image Super-resolution by Residual Shifting (NeurIPS 2023, Spotlight)
 
@@ -178,7 +253,7 @@ https://preview.redd.it/8yvuvtbuvijd1.png?width=1984&format=png&auto=webp&s=72d2
 
      
  
-all -  [ Yurtdışı - Türkiye ](https://www.reddit.com/r/CodingTR/comments/1evhsx5/yurtdışı_türkiye/) , 2024-08-26-0912
+all -  [ Yurtdışı - Türkiye ](https://www.reddit.com/r/CodingTR/comments/1evhsx5/yurtdışı_türkiye/) , 2024-08-27-0912
 ```
 Selam herkese,
 
@@ -225,7 +300,7 @@ er büyük şirketlerde Research Engineer olarak işe girmekte çok büyük + sa
 
      
  
-all -  [ [N] NeurIPS 2024 review analyzer ](https://www.reddit.com/r/MachineLearning/comments/1etd10k/n_neurips_2024_review_analyzer/) , 2024-08-26-0912
+all -  [ [N] NeurIPS 2024 review analyzer ](https://www.reddit.com/r/MachineLearning/comments/1etd10k/n_neurips_2024_review_analyzer/) , 2024-08-27-0912
 ```
 Hi there,
 
@@ -251,7 +326,7 @@ https://preview.redd.it/2zzxtomsnxid1.png?width=1044&format=png&auto=webp&s=665a
 
      
  
-all -  [ [D] Reviewer 2 - NeurIPS  ](https://www.reddit.com/r/MachineLearning/comments/1etb4qh/d_reviewer_2_neurips/) , 2024-08-26-0912
+all -  [ [D] Reviewer 2 - NeurIPS  ](https://www.reddit.com/r/MachineLearning/comments/1etb4qh/d_reviewer_2_neurips/) , 2024-08-27-0912
 ```
 The NeurIPS rebuttal period is finally over. How is everyone’s review? 
 
@@ -267,7 +342,7 @@ reviewer 2.
 
      
  
-all -  [ thoughts on genAI for goods procurement and insights? ](https://www.reddit.com/r/Distributors/comments/1esdj0n/thoughts_on_genai_for_goods_procurement_and/) , 2024-08-26-0912
+all -  [ thoughts on genAI for goods procurement and insights? ](https://www.reddit.com/r/Distributors/comments/1esdj0n/thoughts_on_genai_for_goods_procurement_and/) , 2024-08-27-0912
 ```
 There's been a lot of talk about genAI, but most of it has been hand wavy. Imo, there's only a few things GenAI is usefu
 l for. Communications, making decisions (reading PDFs, emails, etc and triggering actions), and insights (+ transforming
@@ -296,7 +371,7 @@ Curious to get get your thoughts/feedback! Please lmk if you have questions & ca
 
      
  
-all -  [ exploring genAI for material procurement insights and automation ](https://www.reddit.com/r/procurement/comments/1esd1u4/exploring_genai_for_material_procurement_insights/) , 2024-08-26-0912
+all -  [ exploring genAI for material procurement insights and automation ](https://www.reddit.com/r/procurement/comments/1esd1u4/exploring_genai_for_material_procurement_insights/) , 2024-08-27-0912
 ```
 There's been a lot of talk about genAI, but most of it has been hand wavy. Imo, there's only a few things GenAI is usefu
 l for. Communications, making decisions (reading PDFs, emails, etc and triggering actions), and insights (+ transforming
@@ -328,7 +403,7 @@ I'd love to get your thoughts! Please lmk if you have questions & call me out if
 
      
  
-all -  [ [D] NeurIPS 2024 Tickets ](https://www.reddit.com/r/MachineLearning/comments/1es1qpw/d_neurips_2024_tickets/) , 2024-08-26-0912
+all -  [ [D] NeurIPS 2024 Tickets ](https://www.reddit.com/r/MachineLearning/comments/1es1qpw/d_neurips_2024_tickets/) , 2024-08-27-0912
 ```
 Is there anyway I can get NeurIPS 2024 tickets for free or any form of scholarship that I can apply to ? I really want t
 o attend the conference but 900$ + travel + acco will get too expensive for me and my company is not going to reimburse 
@@ -338,7 +413,7 @@ it. Any help will be appreciated.
 
      
  
-all -  [ [D] How to make figures for your paper? ](https://www.reddit.com/r/MachineLearning/comments/1er14hq/d_how_to_make_figures_for_your_paper/) , 2024-08-26-0912
+all -  [ [D] How to make figures for your paper? ](https://www.reddit.com/r/MachineLearning/comments/1er14hq/d_how_to_make_figures_for_your_paper/) , 2024-08-27-0912
 ```
 Although I have papers in some top venues (IJCAI, ACL, etc.), I tend to receive poor reviews initially, leading to a cyc
 le of resubmissions before finally getting accepted. While some reviews at top conferences can be really poor, I can't b
@@ -360,7 +435,7 @@ er understanding of what you're doing.
 
      
  
-all -  [ What the PhD?! ](https://www.reddit.com/r/AskAcademia/comments/1eq3ewf/what_the_phd/) , 2024-08-26-0912
+all -  [ What the PhD?! ](https://www.reddit.com/r/AskAcademia/comments/1eq3ewf/what_the_phd/) , 2024-08-27-0912
 ```
 So I recently broke up with a Research Scientist who works at Google Deepmind. However, the time I spent with him, I lov
 ed the work he was doing and the immense rush we both got from the cutting edge innovations he was working on. I am a ma
@@ -377,7 +452,7 @@ HELP!!!!!
 
      
  
-all -  [ What the PhD?! ](https://www.reddit.com/r/PhD/comments/1eq3cwr/what_the_phd/) , 2024-08-26-0912
+all -  [ What the PhD?! ](https://www.reddit.com/r/PhD/comments/1eq3cwr/what_the_phd/) , 2024-08-27-0912
 ```
 So I recently broke up with a Research Scientist who works at Google Deepmind. However, the time I spent with him, I lov
 ed the work he was doing and the immense rush we both got from the cutting edge innovations he was working on. I am a ma
@@ -394,7 +469,7 @@ HELP!!!!!
 
      
  
-all -  [ [D] How is your neurips discussion period going? ](https://www.reddit.com/r/MachineLearning/comments/1eowx75/d_how_is_your_neurips_discussion_period_going/) , 2024-08-26-0912
+all -  [ [D] How is your neurips discussion period going? ](https://www.reddit.com/r/MachineLearning/comments/1eowx75/d_how_is_your_neurips_discussion_period_going/) , 2024-08-27-0912
 ```
 How is your neurips discussion period going? 
 
@@ -404,7 +479,7 @@ Any funny anecdotes?
 
      
  
-all -  [ [D] NeurIPS 2024 Dataset & Benchmarking Track ](https://www.reddit.com/r/MachineLearning/comments/1enzi7r/d_neurips_2024_dataset_benchmarking_track/) , 2024-08-26-0912
+all -  [ [D] NeurIPS 2024 Dataset & Benchmarking Track ](https://www.reddit.com/r/MachineLearning/comments/1enzi7r/d_neurips_2024_dataset_benchmarking_track/) , 2024-08-27-0912
 ```
 Any idea folks when the reviews will be out?
 ```
@@ -412,7 +487,7 @@ Any idea folks when the reviews will be out?
 
      
  
-all -  [ [D] NeurIPS 24 Dataset Track Reviews ](https://www.reddit.com/r/MachineLearning/comments/1ent5sa/d_neurips_24_dataset_track_reviews/) , 2024-08-26-0912
+all -  [ [D] NeurIPS 24 Dataset Track Reviews ](https://www.reddit.com/r/MachineLearning/comments/1ent5sa/d_neurips_24_dataset_track_reviews/) , 2024-08-27-0912
 ```
 Dataset and benchmarks track reviews are supposed to come out today after the delay.
 
@@ -423,7 +498,7 @@ ned by this compared to the main track but this can serve as a discussion thread
 
      
  
-all -  [ [D] Are Neurips 2024 rebuttal viewable to reviewers now? ](https://www.reddit.com/r/MachineLearning/comments/1emc004/d_are_neurips_2024_rebuttal_viewable_to_reviewers/) , 2024-08-26-0912
+all -  [ [D] Are Neurips 2024 rebuttal viewable to reviewers now? ](https://www.reddit.com/r/MachineLearning/comments/1emc004/d_are_neurips_2024_rebuttal_viewable_to_reviewers/) , 2024-08-27-0912
 ```
 This should have happened a couple of hours ago, but the papers I reviewed still only show the original reviews only, no
  rebuttals. What’s going on?
@@ -432,7 +507,7 @@ This should have happened a couple of hours ago, but the papers I reviewed still
 
      
  
-all -  [ Any current/previous master students here published any papers? ](https://www.reddit.com/r/learnmachinelearning/comments/1ejgsm6/any_currentprevious_master_students_here/) , 2024-08-26-0912
+all -  [ Any current/previous master students here published any papers? ](https://www.reddit.com/r/learnmachinelearning/comments/1ejgsm6/any_currentprevious_master_students_here/) , 2024-08-27-0912
 ```
 So I am looking for a company to do my Master research project at. I was looking at Sony but of course they have extreme
 ly high standards. I saw that they wanted you to have papers published in the large conferences like NeurIPS. 
@@ -449,7 +524,7 @@ The description said MS/PhD so
 
      
  
-all -  [ This is an essential research paper about ChatGPT. ](https://www.reddit.com/r/u_neuralinnovative/comments/1ej7g4z/this_is_an_essential_research_paper_about_chatgpt/) , 2024-08-26-0912
+all -  [ This is an essential research paper about ChatGPT. ](https://www.reddit.com/r/u_neuralinnovative/comments/1ej7g4z/this_is_an_essential_research_paper_about_chatgpt/) , 2024-08-27-0912
 ```
 [https://proceedings.neurips.cc/paper\_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf](https://proceed
 ings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
@@ -458,7 +533,7 @@ ings.neurips.cc/paper_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Pap
 
      
  
-all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-26-0912
+all -  [ [D] Is Unlimited Context Length really possible?:  'Unlimiformer' author discusses NeurIPS paper Fri ](https://www.reddit.com/r/MachineLearning/comments/1egqitt/d_is_unlimited_context_length_really_possible/) , 2024-08-27-0912
 ```
 Is Unlimited Context Length really possible?  At what cost?
 
@@ -487,7 +562,7 @@ th my first 5 questions.  I've only read the abstract so far.
 
      
  
-all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-26-0912
+all -  [ [D] NeurIPS 2024 Paper Reviews ](https://www.reddit.com/r/MachineLearning/comments/1efscr2/d_neurips_2024_paper_reviews/) , 2024-08-27-0912
 ```
 NeurIPS 2024 paper reviews are supposed to be released today. I thought to create a discussion thread for us to discuss 
 any issue/complain/celebration or anything else.
@@ -500,7 +575,7 @@ the authors are proud of might get a low score because of the noisy system, give
 
      
  
-all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-26-0912
+all -  [ [D] Neurips'24 review release time? ](https://www.reddit.com/r/MachineLearning/comments/1ef1var/d_neurips24_review_release_time/) , 2024-08-27-0912
 ```
 Does anyone know when the reviews will be released? The NeurIPS website states that the rebuttal starts on July 30th any
 where on Earth, and it’s already July 30th in our time zone!
@@ -509,7 +584,7 @@ where on Earth, and it’s already July 30th in our time zone!
 
      
  
-all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-26-0912
+all -  [ Prediction of extreme precipitation events: Weather4cast 2024 Challenge at NeurIPS2024   ](https://www.reddit.com/r/weather/comments/1eew41m/prediction_of_extreme_precipitation_events/) , 2024-08-27-0912
 ```
 Hello!
 
@@ -549,7 +624,7 @@ Aleksandra
 
      
  
-all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-26-0912
+all -  [ Here's a list of all papers from ICLR ('23, '24), ICML ('23), NeurIPS ('23) ](https://www.reddit.com/r/learnmachinelearning/comments/1eeueny/heres_a_list_of_all_papers_from_iclr_23_24_icml/) , 2024-08-27-0912
 ```
 Google Sheets: [LINK](https://docs.google.com/spreadsheets/d/e/2PACX-1vRQ1UI_V4CqX9jVnlMD7SYGxYj3W3M3WtLD2AhXtCtiWQB1O3_
 gKq4s0orohHv5Zm-SB7d0lkvW8vPI/pubhtml)
@@ -571,63 +646,6 @@ lways filled in, others not):
 |:-|:-|:-|:-|:-|:-|
 :-|:-|:-|
 
-```
----
-
-     
- 
-all -  [ [P] Invitation to join the Weather4cast 2024 Challenge at NeurIPS2024 
- ](https://www.reddit.com/r/MachineLearning/comments/1eco7l5/p_invitation_to_join_the_weather4cast_2024/) , 2024-08-26-0912
-```
-Hello!
-
-**⛈️ ⚡** **We are organising the** [**Weather4cast 2024** ](https://weather4cast.net/)[**Challenge** ](https://w
-eather4cast.net/)**at the NeurIPS 2024 Competition Track and we invite to you to join our competition! ⚡⛈️**  
-
-The comp
-etition focuses on topics of high impact and practical value for our society – predicting future weather and changes of 
-our environment.
-
-This year, on the road to foundation models, **we move from basic rainfall prediction to testing gener
-alisation performance and emergent capabilities of probabilistic models** on a set of downstream tasks, such as cumulati
-ve rainfall and the prediction of rare extreme weather events. We provide an order of magnitude more hi-resolution data 
-for training on multiple scales.
-
-✅ Apply spatio-temporal modelling to complex dynamic systems! 
-
-✅ Get access to unique
- large-scale data and demonstrate temporal and spatial transfer learning under strong distributional shifts!
-
-✅ Address 
-a super-resolution challenge where you need to predict future hi-res rain radar of ground-based weather stations from br
-oader satellite sensor images!
-
-For more details about the competition please check out our website:    
-👉 [https://weat
-her4cast.net/](https://weather4cast.net/)
-
-Join our Forums and discuss the competition challenges!  
-👉 [https://weather4
-cast.net/neurips2024/forums/](https://weather4cast.net/neurips2024/forums/)
-
-**Competition timeline:** 
-
-**18 June**  – 
-Dataset release  &  Start of competition announcement  
-**14 July** – STAGE1 Cumulative rainfall Test Set release & Lead
-erboard open.  
-**5 August** – STAGE2 Extreme Precipitation Events Test Set release & Leaderboard open.  
-**6 October** 
- **(midnight AoE)**  – Test dataset submission deadline.  
-**9 October** – Invitation to submit conference abstracts and
- code  
-**16 October** **(midnight AoE)**  – Deadline for abstract and code submissions   
-**25 October** – Acceptance n
-otification
-
-If you have any questions about our challenge, please ask! I will be happy to answer!
-
-Aleksandra
 ```
 ---
 
