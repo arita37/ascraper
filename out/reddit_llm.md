@@ -1,47 +1,367 @@
  
-all -  [ [1 YoE] Looking for feedback on my 2 resumes. Targeting Entry-level Software and Machine Learning En ](https://www.reddit.com/r/EngineeringResumes/comments/1f3o0zb/1_yoe_looking_for_feedback_on_my_2_resumes/) , 2024-08-29-0912
+all -  [ You can reduce the cost and latency of your LLM app with Semantic Caching ](https://www.reddit.com/r/LLMDevs/comments/1f4h9xf/you_can_reduce_the_cost_and_latency_of_your_llm/) , 2024-08-30-0912
 ```
-I've been working at a bank in Canada since March after I finished my courses in December, however, I would like to work
- in an actual tech company.  
+Hey everyone,
 
-I want to target Software Development Roles, although I would prefer Machine Learning rol
-es or a mix of both. I have two resumes, one for SWE and another for ML. **In the whole time I have applied I've never g
-otten interviews for ML roles**. I assume I probably need a Masters degree and publications, but I want to get my perman
-ent residence first before applying to Masters as I am not a citizen of Canada.
+Today, I'd like to share a powerful technique to drastically cut costs and improve user experience in LLM
+ applications: S**emantic Caching**.  
+This method is particularly valuable for apps using OpenAI's API or similar langu
+age models.
 
-My ML resume has two pages as it has mo
-re keywords for the AI parser.
+The Challenge with AI Chat Applications As AI chat apps scale to thousands of users, two significant issues
+ emerge:
 
-Looking for jobs anywhere in Canada/USA.
+1. Exploding Costs: API calls can become expensive at scale.
+2. Response Time: Repeated API calls for similar 
+queries slow down the user experience.
 
-Also I have a couple of project ideas I want t
-o implement but haven't had the time and I might as well target AI roles. One is a sort of Scrum Master AI Agent where I
- plan to use LangChain, LangGraph, Vector Databases and LLMs to help me break down my projects into tasks and sprints.  
+**Semantic caching addresses both these challenges effectively.**
+
+Understanding
+ Semantic Caching Traditional caching stores exact key-value pairs, which isn't ideal for natural language queries. Sema
+ntic caching, on the other hand, understands the meaning behind queries.
+
+(🎥 I've created a YouTube video with a hands-o
+n implementation if you're interested: [https://youtu.be/eXeY-HFxF1Y](https://youtu.be/eXeY-HFxF1Y) *)*
+
+# How It Works:
+
+
+1. Stores the essence of questions and their answers
+2. Recognizes similar queries, even if worded differently
+3. Reus
+es stored responses for semantically similar questions
+
+The result? Fewer API calls, lower costs, and faster response ti
+mes.
+
+Key Components of Semantic Caching
+
+1. Embeddings: Vector representations capturing the semantics of sentences
+2. 
+Vector Databases: Store and retrieve these embeddings efficiently
+
+The Process:
+
+1. Calculate embeddings for new user qu
+eries
+2. Search the vector database for similar embeddings
+3. If a close match is found, return the associated cached re
+sponse
+4. If no match, make an API call and cache the new result
+
+Implementing Semantic Caching with GPT-Cache GPT-Cache
+ is a user-friendly library that simplifies semantic caching implementation. It integrates with popular tools like LangC
+hain and works seamlessly with OpenAI's API.
+
+# Basic Implementation:
+
+    from gptcache import cache
+    from gptcache.
+adapter import openai
+    
+    cache.init()
+    cache.set_openai_key()
+
+# Tradeoffs
+
+Benefits of Semantic Caching
+
+1. Co
+st Reduction: Fewer API calls mean lower expenses
+2. Improved Speed: Cached responses are delivered instantly
+3. Scalabi
+lity: Handle more users without proportional cost increase
+
+Potential Pitfalls and Considerations
+
+1. Time-Sensitive Que
+ries: Be cautious with caching dynamic information
+2. Storage Costs: While API costs decrease, storage needs may increas
+e
+3. Similarity Threshold: Careful tuning is needed to balance cache hits and relevance
+
+# Conclusion
+
+Conclusion Semant
+ic caching is a game-changer for AI chat applications, offering significant cost savings and performance improvements.  
+
+Implement it to can scale your AI applications more efficiently and provide a better user experience.
+
+Happy hacking : 
+)
+```
+---
+
+     
  
-The other idea is a knowledge management AI agent that builds a knowledge base/documentation from all discussions I ha
-ve with ChatGPT. It would use AWS, Pinecone, LangChain and perhaps MongoDB. I thought the keywords would look good on my
- resume. 
+all -  [ LLM-3D Print: Large Language Models To Monitor and Control 3D Printing
+ ](https://www.reddit.com/r/LangChain/comments/1f4gehi/llm3d_print_large_language_models_to_monitor_and/) , 2024-08-30-0912
+```
+**Not my work so cant answer technical questions but I think this might belong here. Want to know if something like this
+ can be made using langchain?** As someone who is a 3D printing hobbyist and work with LLMs this is super exciting.
 
-Any feedback is appreciated :) 
-
-I would particularly appreciate feedback regarding which sections to include
-/remove for my AI resume, which I might use to target both AI+SWE roles.
-
-PS: I know I should include a brief header on 
-the second page of my AI resume.
-
+I j
+ust came across an interesting paper that explores a **Multi-Agent LLM Framework** for autonomous 3D printing, and I had
+ to share it here. This framework uses multiple Large Language Models (LLMs), ChatGPT4 in this case, each acting as its 
+own intelligent agent, to manage different aspects of the 3D printing process. It’s pretty cool how they’ve set it up! 
 
 
-[SDE Resume](https://preview.redd.it/lc1mlhdgphld1.png?width=4961&format=png&auto=we
-bp&s=287ab06d12f26673cfe0b68da9a2c85062acd12b)
+[https://arxiv.org/abs/2408.14307](https://arxiv.org/abs/2408.14307)
 
 
 
-[AI Resume page 1](https://preview.redd.it/64o0j84nphld1.jpg?width=496
-1&format=pjpg&auto=webp&s=df558e04616402f940c1ad94128e8cc7729dcc16)
+Overall it seems actually useful use-case for L
+LMs, and not just another LLM RAG or question/ans bot. Would love to hear thoughts on other potential applications using
+ langchain.
+```
+---
 
-[AI resume page 2](https://preview.redd.it/813f984n
-phld1.jpg?width=4961&format=pjpg&auto=webp&s=f0688272667d735079d5808a21c3037dac471810)
+     
+ 
+all -  [ Senior Machine Learning Engineer Role Available! ](https://www.reddit.com/r/MLjobs/comments/1f4fmz0/senior_machine_learning_engineer_role_available/) , 2024-08-30-0912
+```
+Are you an experienced machine learning engineer with a passion for building advanced AI solutions? **Loka**, a leading 
+tech consultancy based in Silicon Valley, is looking for a skilled Senior Machine Learning Engineer to join our dynamic 
+team!  
+  
+**Required Hard Skills:**
+
+* 4+ years of ML engineering experience
+* Bachelor’s degree in Computer Science or
+ related
+* Experience with Python, ML libraries and AI/ML frameworks (PyTorch, HuggingFace, TensorFlow, etc.)
+* Experien
+ce building GenAI solutions using LLMs, including frameworks like LangChain and LlamaIndex, prompt engineering, fine-tun
+ing and serving models, and implementing common patterns like RAG and NLQ
+* Client-facing experience
+* Familiarity with 
+containerization and orchestration tools
+
+**Interested? For the full job description and to apply, check the link:** [ht
+tps://app7.greenhouse.io/intern.../applications/4074124007](https://app7.greenhouse.io/internal_job_board/applications/4
+074124007?fbclid=IwZXh0bgNhZW0CMTAAAR06V-GNkc9hMT1r6Osq5i5K_vwJe9fyR7QlrYoBh2WjDG7eEeVndqNOTkE_aem_3I3k2aRgVQw7kCMgXq5-p
+w)  
+
+```
+---
+
+     
+ 
+all -  [ Domain specific Agentic RAG with LangChain and LangGraph ](https://www.reddit.com/r/LangChain/comments/1f4drgh/domain_specific_agentic_rag_with_langchain_and/) , 2024-08-30-0912
+```
+Hello everyone,
+
+I just finished a new blog post on how to add domain specific data to RAG using Agents and make a smart
+er Corrective RAG.
+
+Here's the link: [https://www.metadocs.co/2024/08/29/simple-domain-specific-corrective-rag-with-lang
+chain-and-langgraph/](https://www.metadocs.co/2024/08/29/simple-domain-specific-corrective-rag-with-langchain-and-langgr
+aph/)
+
+Have a nice read
+```
+---
+
+     
+ 
+all -  [ Implementing LangChain with OpenAI: Tool Calling and Streaming Output ](https://www.reddit.com/r/LangChain/comments/1f4d5pf/implementing_langchain_with_openai_tool_calling/) , 2024-08-30-0912
+```
+
+
+Hi everyone,
+
+I’m exploring how to implement LangChain 2.0 with OpenAI’s models and I’m particularly interested in usi
+ng tool calling and streaming output features.
+
+Does anyone have experience or examples of how to set up LangChain with 
+OpenAI for:
+
+	1.	Tool Calling: How to configure LangChain to call external tools or APIs using OpenAI’s chat models?
+	2.
+	Streaming Output: Steps to enable and handle streaming output for real-time interactions?
+
+Any guidance, code snippets,
+ or resources would be greatly appreciated. Thanks!
+```
+---
+
+     
+ 
+all -  [ Most commonly used HuggingFaceEmbedding models ](https://www.reddit.com/r/LangChain/comments/1f4b4fa/most_commonly_used_huggingfaceembedding_models/) , 2024-08-30-0912
+```
+Which HuggingFaceEmbeddings models do you guys use the most for your various GenAI RAG projects?
+```
+---
+
+     
+ 
+all -  [ Open Source AI Agent for Developer Relations ](https://www.reddit.com/r/LangChain/comments/1f4atex/open_source_ai_agent_for_developer_relations/) , 2024-08-30-0912
+```
+We just launched on Product Hunt and Open Sourced our AI Agent that assists with managing developer relations. We built 
+the Agent using LangGraph Studio, and we cannot recommend it enough. The OSS repo can also be a good starting point to m
+ake dev focussed Agents! Any feedback welcome :)
+
+[https://www.producthunt.com/posts/develyn](https://www.producthunt.co
+m/posts/develyn)  
+
+
+[https://github.com/openfunnel/develyn](https://github.com/openfunnel/develyn)
+
+https://preview.red
+d.it/dc880zz3knld1.png?width=1920&format=png&auto=webp&s=eb7f6265216b2a3cc761d3a4db84dfee708f279a
+```
+---
+
+     
+ 
+all -  [ For those using Langchain4j what DB and data persistence library are you using? ](https://www.reddit.com/r/LangChain/comments/1f4a0y5/for_those_using_langchain4j_what_db_and_data/) , 2024-08-30-0912
+```
+
+```
+---
+
+     
+ 
+all -  [ How to extract textual data from Excel and PPTs and store in vector db for RAG? ](https://www.reddit.com/r/LangChain/comments/1f48zch/how_to_extract_textual_data_from_excel_and_ppts/) , 2024-08-30-0912
+```
+I would also need to store metadata to give citations of my queried result, like the file_name, sheet_name, row_id/colum
+n_id or slide numbers in case of PPTs.
+
+Read somewhere to read the files as pandas df and store in SQL database and run 
+query agents on top of it. That is not an option. Need to use vector DB and RAG.
+```
+---
+
+     
+ 
+all -  [ Data hub for LLMs and RAG ](https://www.reddit.com/r/LLMDevs/comments/1f48kf3/data_hub_for_llms_and_rag/) , 2024-08-30-0912
+```
+Is there a provider where I can connect multiple data sources like for example google drive and sharepoint via single si
+gn on and then use the complete data from all sources to create a RAG Chatbot with langchain?
+```
+---
+
+     
+ 
+all -  [ Extensive open source RAG tutorials is getting viral ](https://github.com/NirDiamant/RAG_Techniques) , 2024-08-30-0912
+```
+Hi all,
+
+Sharing a repo I was working on for a while. 
+
+It’s open-source and includes many different strategies for RAG 
+(currently 23), including tutorials, and visualizations.
+
+This is great learning and reference material.  
+Open issues, 
+suggest more strategies, and use as needed.
+
+It got very popular - 5K stars within a month!
+
+Enjoy!
+```
+---
+
+     
+ 
+all -  [ Fitness chatbot  ](https://www.reddit.com/r/LocalLLaMA/comments/1f45sti/fitness_chatbot/) , 2024-08-30-0912
+```
+I want to make a personalized fitness chat bot using langchain so I was hoping anyone could help me with data or any adv
+ice in general.
+Thank you 
+```
+---
+
+     
+ 
+all -  [ How can we restrict Database tables for particular users ](https://www.reddit.com/r/LangChain/comments/1f43iht/how_can_we_restrict_database_tables_for/) , 2024-08-30-0912
+```
+I have fine-tuned a META LLAMA 3.1 to generate SQL queries based on our schema. This model is integrated with LangChain'
+s SQL chain to execute the query and provide the final response.
+
+Now, what I want to achieve is to implement permission
+s or restrictions based on user roles. Currently, the model gives output to all users, irrespective of any restrictions.
+ For example, if HR users access this, they should only be able to query HR-related tables. Similarly, accounts users sh
+ould only access accounts-related tables.
+
+We can retrieve these user roles from the logged-in user information in ERPNe
+xt, as it is integrated into our system.
+```
+---
+
+     
+ 
+all -  [ How to use OpenAI's Assistants API with LangChain? ](https://www.reddit.com/r/LangChain/comments/1f42rtg/how_to_use_openais_assistants_api_with_langchain/) , 2024-08-30-0912
+```
+I didn't find any wrapper or guide for using OpenAI's Assistants API in Langchain which has Code Interpreter, Websearch 
+and file storage. How to use it? Is it a separate thing entirely?
+
+EDIT: \[Solved\] Import from `langchain.agents.openai
+_assistant.base.OpenAIAssistantRunnable`. So it wasn't in docs, but in API Reference [here](https://python.langchain.com
+/v0.2/api_reference/langchain/agents/langchain.agents.openai_assistant.base.OpenAIAssistantRunnable.html#langchain.agent
+s.openai_assistant.base.OpenAIAssistantRunnable).
+```
+---
+
+     
+ 
+all -  [ AI agents hype or real?  ](https://www.reddit.com/r/LangChain/comments/1f4264n/ai_agents_hype_or_real/) , 2024-08-30-0912
+```
+I see it everywhere, news talking about the next new thing. Langchain talks about it in any conference they go to. Many 
+other companies also arguing this is the next big thing. 
+
+I want to believe it sounds great in paper. I tried a few thi
+ngs myself with existing frameworks and even my own code but LLMs seem to break all the time, hallucinate in most workfl
+ows, failed to plan, failed on classification tasks for choosing the right tool and failed to store and retrieve data su
+ccessfully, either using non structure vector databases or structured sql databases.
+
+Feels like the wild west with ever
+yone trying many different solutions. I want to know if anyone had much success here in actually creating AI agents that
+ do work in production.
+
+I would define an ai agent as :
+- AI can pick its own course of action with the available tools
+
+- AI can successfully remember , retrieve and store previous information.
+- AI can plan the next steps ahead and can as
+k for help for humans when it gets stuck successfully.
+- AI can self improve and learn from mistakes.
+```
+---
+
+     
+ 
+all -  [ Any personal projects? ](https://www.reddit.com/r/LangChain/comments/1f40lxr/any_personal_projects/) , 2024-08-30-0912
+```
+Has anyone made or planning to make any interesting or useful personal projects using LangChain?
+I am trying to teach La
+ngChain some office juniors and want to assign them a fun personal project. 
+```
+---
+
+     
+ 
+all -  [ sql data to embeddings? ](https://www.reddit.com/r/Rag/comments/1f3zp2r/sql_data_to_embeddings/) , 2024-08-30-0912
+```
+Hi all - I'm early in my learning process about using LLMs with rag prompts, and at a high level it all is making sense.
+  Ultimately, I'm looking for an architectural understanding of a RAG solution, since an operating assistant still might
+ not hit the best practices.
+
+I have a working assistant that references log data using OpenAI's assistant API, referenc
+ing the data via file attachments. There are some limitations on the size of the data with this approach, so I've been f
+ollowing this langchain tutorial on RAG with sql queries:  [https://python.langchain.com/v0.2/docs/tutorials/qa\_chat\_h
+istory/](https://python.langchain.com/v0.2/docs/tutorials/qa_chat_history/)
+
+  
+You'll note that this tutorial dynamical
+ly builds a query based on table schema info, then runs said query to extract data. But how does this work?  Is all the 
+data returned from the query turned to an embedding behind the scenes? 
+
+Is my understanding of embeddings even correct 
+in that your text data (from documents, sql queries, web pages, wherever) is converted to a vector store and persisted (
+somewhere) for reference by the LLM when evaluating the prompt? Once persisted, the LLM can intelligently search the vec
+tor store, thereby keeping the size of the prompt within the token limits?
 
 
 ```
@@ -49,7 +369,187 @@ phld1.jpg?width=4961&format=pjpg&auto=webp&s=f0688272667d735079d5808a21c3037dac4
 
      
  
-all -  [ Sending the entire conversation on each call to the LLM ](https://www.reddit.com/r/LangChain/comments/1f3nqud/sending_the_entire_conversation_on_each_call_to/) , 2024-08-29-0912
+all -  [ Which langchain model provider for a Q for Business app? ](https://www.reddit.com/r/aws/comments/1f3z5x6/which_langchain_model_provider_for_a_q_for/) , 2024-08-30-0912
+```
+So, you can build apps via q for business, and under the hood it uses bedrock right, but the q for business bit does do 
+some extra processing. (Seems it directs your request to different models)
+
+is it possible to integrate that directly to
+ langchain? if not, does the q for business app expose the bedrock endpoints that are trained on your docs, so you can t
+hen build a langchain app?
+```
+---
+
+     
+ 
+all -  [ Where can I find people to chat with about langchain / LLM app development? ](https://www.reddit.com/r/LangChain/comments/1f3ymw8/where_can_i_find_people_to_chat_with_about/) , 2024-08-30-0912
+```
+I sadly don't know many other people in my real life who are working on langchain / LLM based apps and agents.  I'd like
+ to find more people working on this sort of thing to learn from, chat with, and have some kind of community.  Any tips?
+
+
+So far I checked out langchain's Discord.  It didn't look super active, and it seemed focused on Langchain itself -- w
+hich makes sense, but I'm more interested in what we can do with these apps.
+
+I've also of course checked here and got s
+ome great answers to a question.  So maybe this is the answer.  Just wondering if there are more good places I can go to
+ connect with people working on this stuff.
+```
+---
+
+     
+ 
+all -  [ Looking for Open-Source LangChain Apps with a Well-Structured Codebase ](https://www.reddit.com/r/LangChain/comments/1f3xskm/looking_for_opensource_langchain_apps_with_a/) , 2024-08-30-0912
+```
+Hi all,
+
+I'm currently exploring LangChain and would love to see some open-source projects that utilize it effectively. 
+I'm particularly interested in examples that showcase good coding patterns and practices. If anyone has come across any 
+well-structured LangChain apps or repositories, I'd greatly appreciate it if you could share them. Thanks!
+```
+---
+
+     
+ 
+all -  [ [0 YoE, Fresher, SWE, India] ](https://i.redd.it/g1rpwfkp6kld1.jpeg) , 2024-08-30-0912
+```
+I am hoping to apply for tech companies for swe roles this december, please review my CV and suggest if any changes are 
+to be done in the formatting, vocabulary, project description and anything.
+Thanks in Advance!
+```
+---
+
+     
+ 
+all -  [ We created FloAI and created a support agent using it ](https://www.reddit.com/r/LangChain/comments/1f3wpi0/we_created_floai_and_created_a_support_agent/) , 2024-08-30-0912
+```
+We ([rootflo](https://rootflo.ai)) have been toying around AI for a while now. After doing a couple of smaller projects 
+we understood the importance of using AI to maximize the efficiency of AI automation. That's when we tried out some avai
+lable frameworks like auto-gen and crew-ai.
+
+Trying out some of the existing frameworks, we felt limited by their capabi
+lities and lack of control. This is when we tried to come up with out own framework for building agentic AI bots/agents.
+ The thought was around composability where we want to make components like Lego blocks that can come together to create
+ bigger structures. The inspiration came from some good whitepapers, and talks from a few veterans in the AI space like 
+AndrewNg. We used langGraph as the underlying backend but will plan extensibility.
+
+I would like some feedback from the 
+community, and ideas that we can pursue that you see are some of the shortcomings of the current frameworks out there. H
+ere a support agent implemented using FloAI: [https://medium.com/rootflo/build-an-agentic-ai-customer-support-bot-using-
+floai-533660fb9c9b](https://medium.com/rootflo/build-an-agentic-ai-customer-support-bot-using-floai-533660fb9c9b)
+
+
+
+Pro
+ject URL: [https://github.com/rootflo/flo-ai](https://github.com/rootflo/flo-ai)
+
+Some inspirations:
+
+[https://arxiv.org
+/abs/2308.08155](https://arxiv.org/abs/2308.08155)  
+[https://arxiv.org/abs/2305.04091](https://arxiv.org/abs/2305.04091
+)  
+[https://arxiv.org/abs/2403.14403](https://arxiv.org/abs/2403.14403)  
+[https://www.youtube.com/watch?v=sal78ACtGTc]
+(https://www.youtube.com/watch?v=sal78ACtGTc)
+```
+---
+
+     
+ 
+all -  [ how to use map reduce chain type with gemini models using chatgooglegenerativeai ](https://www.reddit.com/r/u_Apprehensive_Diet644/comments/1f3v2iy/how_to_use_map_reduce_chain_type_with_gemini/) , 2024-08-30-0912
+```
+    model_name == 'GEMINI-1.5-FLASH':
+            model = ChatGoogleGenerativeAI(model='gemini-1.5-flash',
+             
+                              google_api_key=GOOGLE_API_KEY,
+                                           temperature=0,
+ 
+                                          top_p=0.95
+            )
+    
+    
+
+I'm using custom callback function to get 
+streaming responses by appending token by token in a queue. on\_llm\_new\_token using this event. As chatgooglegenerativ
+eai does not have streaming parameter which I can set to True, so how should I get streaming responses from Gemini model
+s using map reduce chain\_type. I'm using langchain's default map\_reduce chain for this?
+
+Can anyone help me with this?
+
+
+.invoke(), .stream(), .run() I tried using this for calling gemini
+
+    map_reduce_chain = load_qa_chain(model, chain_
+type='map_reduce')              
+     data = map_reduce_chain.invoke({
+                        'input_documents': new_do
+cs,
+                        'question': query,
+                        'prompt': HTML_PROMPT_TEMPLATE.format(context=tot
+al_text, question=query)                 
+                       
+                    })
+    
+
+I'm getting the answer in
+ data\['output\_text'\] but not able to stream the answer token by token
+```
+---
+
+     
+ 
+all -  [ Million Parameter Models ](https://www.reddit.com/r/LangChain/comments/1f3ucqe/million_parameter_models/) , 2024-08-30-0912
+```
+Hello,   
+If you've tried any million param open-source models for finetuning tasks like JSON generation or intent class
+ification, Please share the model which you had used1
+```
+---
+
+     
+ 
+all -  [ RAG + Internet demo ](https://www.reddit.com/r/LangChain/comments/1f3tqy9/rag_internet_demo/) , 2024-08-30-0912
+```
+I tried enabling internet access for my RAG application which can be helpful in multiple ways like 1) validate your data
+ with internet 2) add extra info over your context,etc. Do checkout the full tutorial here : https://youtu.be/nOuE_oAWxm
+s
+```
+---
+
+     
+ 
+all -  [ proper nouns ](https://www.reddit.com/r/LangChain/comments/1f3r8w7/proper_nouns/) , 2024-08-30-0912
+```
+My chunks are a few sentences. sometimes a user might just say something short like 'who was jones'. 
+
+Jones is mentione
+d in some chunks, but it is not matching. How to handle proper nouns like this?
+```
+---
+
+     
+ 
+all -  [ RAG api with speech input & output? ](https://www.reddit.com/r/Rag/comments/1f3pu54/rag_api_with_speech_input_output/) , 2024-08-30-0912
+```
+I have been exploring some langchain and openai solutions, but finding a few things a bit complicated as per my need. So
+ my question is, are there any APIs or services you guys know of that can take my speech as input and respond with a spe
+ech/voice on my RAG?
+```
+---
+
+     
+ 
+all -  [ Delete thread by id ](https://www.reddit.com/r/LangChain/comments/1f3p5ph/delete_thread_by_id/) , 2024-08-30-0912
+```
+I have a graph with a SqliteSaver as a Checkpointer (memory). Is there any way I can delete a thread of messages by its 
+id? Or how can I manage the memory?
+```
+---
+
+     
+ 
+all -  [ Sending the entire conversation on each call to the LLM ](https://www.reddit.com/r/LangChain/comments/1f3nqud/sending_the_entire_conversation_on_each_call_to/) , 2024-08-30-0912
 ```
 Hello community. I am new to the world of LLMs and am building a system that uses them to help build a job descriptor as
 istant within my company. 
@@ -68,7 +568,7 @@ Thank you!
 
      
  
-all -  [ Having problem with Langsmith about making a new project ](https://www.reddit.com/r/LangChain/comments/1f3nhiu/having_problem_with_langsmith_about_making_a_new/) , 2024-08-29-0912
+all -  [ Having problem with Langsmith about making a new project ](https://www.reddit.com/r/LangChain/comments/1f3nhiu/having_problem_with_langsmith_about_making_a_new/) , 2024-08-30-0912
 ```
 Hello Bros,
 
@@ -103,15 +603,7 @@ ou in advance
 
      
  
-all -  [ RAG – How I moved from Re-ranking to Classifier-based Filtering ](/r/Rag/comments/1f3b4sc/rag_how_i_moved_from_reranking_to_classifierbased/) , 2024-08-29-0912
-```
-
-```
----
-
-     
- 
-all -  [ Cohere Reranker - Pros and Cons? ](https://www.reddit.com/r/LangChain/comments/1f3h9vk/cohere_reranker_pros_and_cons/) , 2024-08-29-0912
+all -  [ Cohere Reranker - Pros and Cons? ](https://www.reddit.com/r/LangChain/comments/1f3h9vk/cohere_reranker_pros_and_cons/) , 2024-08-30-0912
 ```
 Tell me, is the CoHere Reranker a universal cure-all? Is it a must-have for RAG? Or does it have its drawbacks? I know i
 t's used in Notion's search, and I must say, their search is pretty impressive.
@@ -126,7 +618,7 @@ he quality of the results.
 
      
  
-all -  [ We used LangChain & CrewAI to build an open-source tool for automating pentesting with AI agents ](https://www.reddit.com/r/LangChain/comments/1f3gp8r/we_used_langchain_crewai_to_build_an_opensource/) , 2024-08-29-0912
+all -  [ We used LangChain & CrewAI to build an open-source tool for automating pentesting with AI agents ](https://www.reddit.com/r/LangChain/comments/1f3gp8r/we_used_langchain_crewai_to_build_an_opensource/) , 2024-08-30-0912
 ```
 Hi everyone,
 
@@ -161,7 +653,7 @@ Thank you for reading
 
      
  
-all -  [ [0 YoE, Unemployed, Software Engineering Intern, India] ](https://www.reddit.com/r/resumes/comments/1f3fr5t/0_yoe_unemployed_software_engineering_intern_india/) , 2024-08-29-0912
+all -  [ [0 YoE, Unemployed, Software Engineering Intern, India] ](https://www.reddit.com/r/resumes/comments/1f3fr5t/0_yoe_unemployed_software_engineering_intern_india/) , 2024-08-30-0912
 ```
 https://preview.redd.it/b3a1qcy1ufld1.png?width=5100&format=png&auto=webp&s=fa15554455c7d432797f81e9ca2c704e7c7a8139
 
@@ -176,7 +668,7 @@ Any other suggestions?
 
      
  
-all -  [ RAG PDFs and other documents easily with this open-source library ](https://www.reddit.com/r/opensource/comments/1f3cql0/rag_pdfs_and_other_documents_easily_with_this/) , 2024-08-29-0912
+all -  [ RAG PDFs and other documents easily with this open-source library ](https://www.reddit.com/r/opensource/comments/1f3cql0/rag_pdfs_and_other_documents_easily_with_this/) , 2024-08-30-0912
 ```
 Ragable is an open-source library to help you build RAG apps faster. The library takes care of bare essentials such as:
 
@@ -201,7 +693,7 @@ ld really appreciate your support! Thank you!
 
      
  
-all -  [ Know of any Agents that build Agents? ](https://www.reddit.com/r/LangChain/comments/1f3cbsk/know_of_any_agents_that_build_agents/) , 2024-08-29-0912
+all -  [ Know of any Agents that build Agents? ](https://www.reddit.com/r/LangChain/comments/1f3cbsk/know_of_any_agents_that_build_agents/) , 2024-08-30-0912
 ```
 Does anybody know examples of someone who's successfully used agents to build agents?
 
@@ -217,7 +709,7 @@ e/how to look.
 
      
  
-all -  [ Gpt4 vision equivalent in AWS bedrock? ](https://www.reddit.com/r/LangChain/comments/1f3c26c/gpt4_vision_equivalent_in_aws_bedrock/) , 2024-08-29-0912
+all -  [ Gpt4 vision equivalent in AWS bedrock? ](https://www.reddit.com/r/LangChain/comments/1f3c26c/gpt4_vision_equivalent_in_aws_bedrock/) , 2024-08-30-0912
 ```
 Hi I am going to start exploring models on AWS bedrock , one of my use cases involves text extraction from images , I ha
 d used GPT4 vision for it , do we have any equivalent model in bedrock?
@@ -226,7 +718,7 @@ d used GPT4 vision for it , do we have any equivalent model in bedrock?
 
      
  
-all -  [ How to Optimize Your RAG Application to Address Latency Issues  ](https://www.reddit.com/r/LangChain/comments/1f3b41v/how_to_optimize_your_rag_application_to_address/) , 2024-08-29-0912
+all -  [ How to Optimize Your RAG Application to Address Latency Issues  ](https://www.reddit.com/r/LangChain/comments/1f3b41v/how_to_optimize_your_rag_application_to_address/) , 2024-08-30-0912
 ```
 What strategies can be used to optimize your RAG application for latency issues?
 ```
@@ -234,7 +726,7 @@ What strategies can be used to optimize your RAG application for latency issues?
 
      
  
-all -  [ Questions on Deciding Chunk Size for RAG Applications ](https://www.reddit.com/r/LangChain/comments/1f3b2ti/questions_on_deciding_chunk_size_for_rag/) , 2024-08-29-0912
+all -  [ Questions on Deciding Chunk Size for RAG Applications ](https://www.reddit.com/r/LangChain/comments/1f3b2ti/questions_on_deciding_chunk_size_for_rag/) , 2024-08-30-0912
 ```
 When should you use larger chunk sizes, and when are smaller chunk sizes more appropriate?
 ```
@@ -242,7 +734,7 @@ When should you use larger chunk sizes, and when are smaller chunk sizes more ap
 
      
  
-all -  [ Best local model to translate novel ](https://www.reddit.com/r/LocalLLM/comments/1f3b07e/best_local_model_to_translate_novel/) , 2024-08-29-0912
+all -  [ Best local model to translate novel ](https://www.reddit.com/r/LocalLLM/comments/1f3b07e/best_local_model_to_translate_novel/) , 2024-08-30-0912
 ```
 Any recommendation?
 Condition is below
@@ -256,7 +748,7 @@ Prefer to langchain compatible.
 
      
  
-all -  [ Issue when implementing RAG - Rerank system ](https://www.reddit.com/r/LangChain/comments/1f38qax/issue_when_implementing_rag_rerank_system/) , 2024-08-29-0912
+all -  [ Issue when implementing RAG - Rerank system ](https://www.reddit.com/r/LangChain/comments/1f38qax/issue_when_implementing_rag_rerank_system/) , 2024-08-30-0912
 ```
 * **Context**:
 
@@ -348,7 +840,7 @@ ank model without ground truth? Maybe some suggestion is also welcomed.
 
      
  
-all -  [ 10 Free Resources on LLMs ](https://www.reddit.com/r/ArtificialInteligence/comments/1f3719f/10_free_resources_on_llms/) , 2024-08-29-0912
+all -  [ 10 Free Resources on LLMs ](https://www.reddit.com/r/ArtificialInteligence/comments/1f3719f/10_free_resources_on_llms/) , 2024-08-30-0912
 ```
 The world of Large Language Models (LLMs) is filled with noise and every day there are random courses, cheat sheets, and
  tools that can make beginners even more confused about the whole field. Do they start with fine-tuning language models,
@@ -366,7 +858,7 @@ s://www.statology.org/10-free-resources-on-llms/)
 
      
  
-all -  [ I want to build a data analysis agent  ](https://www.reddit.com/r/LangChain/comments/1f368jy/i_want_to_build_a_data_analysis_agent/) , 2024-08-29-0912
+all -  [ I want to build a data analysis agent  ](https://www.reddit.com/r/LangChain/comments/1f368jy/i_want_to_build_a_data_analysis_agent/) , 2024-08-30-0912
 ```
 When I upload a csv file, I want llm to parse the csv file and analyze the data according to the user prompt or show a d
 ata visualization such as a plot. 
@@ -378,1056 +870,7 @@ ic?
 
      
  
-all -  [ Why I am getting empty retrieved docs for my queries. ](https://www.reddit.com/r/LangChain/comments/1f353ol/why_i_am_getting_empty_retrieved_docs_for_my/) , 2024-08-29-0912
-```
-I have uploaded my data using 
-
-    loader = PyPDFLoader(pdf_path)
-            data = loader.load()
-    
-            tex
-t_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
-            docs = text_splitter.split_d
-ocuments(data)
-    
-            texts = [doc.page_content for doc in docs]  # Extract page content
-            embedding
-s = model.encode(texts)  # Create embeddings
-    
-            pinecone_data = []
-            chunk_size = 100  # Define 
-chunk size for upserts
-            for i, (embedding, doc) in enumerate(zip(embeddings, docs)):
-                meta = {
-
-                    'Text': doc.page_content,
-                    'Source': doc.metadata.get('source'),
-               
-     'Page': doc.metadata.get('page')
-                }
-                pinecone_data.append((str(i), embedding.tolist()
-, meta))
-    
-    
-                # If the chunk size is reached, upsert to Pinecone
-                if len(pinecone_da
-ta) >= chunk_size:
-                    index.upsert(vectors=pinecone_data)
-                    pinecone_data = []  # Res
-et list after upserting
-    loader = PyPDFLoader(pdf_path)
-            data = loader.load()
-    
-    
-            text_s
-plitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
-            docs = text_splitter.split_docu
-ments(data)
-    
-    
-            texts = [doc.page_content for doc in docs]  # Extract page content
-            embeddi
-ngs = model.encode(texts)  # Create embeddings
-    
-    
-            pinecone_data = []
-            chunk_size = 100  # 
-Define chunk size for upserts
-            for i, (embedding, doc) in enumerate(zip(embeddings, docs)):
-                m
-eta = {
-                    'Text': doc.page_content,
-                    'Source': doc.metadata.get('source'),
-        
-            'Page': doc.metadata.get('page')
-                }
-                pinecone_data.append((str(i), embedding.t
-olist(), meta))
-    
-    
-    
-                # If the chunk size is reached, upsert to Pinecone
-                if len
-(pinecone_data) >= chunk_size:
-                    index.upsert(vectors=pinecone_data)
-                    pinecone_data
- = []  # Reset list after upserting
-
-Now when I query my model that is hosted on Runpod serverless using the   
-
-
-    cu
-stom_llm = CustomRunpodLLM(
-        base_url='https://api.runpod.ai/v2/-/openai/v1',
-        model_name='openchat/opench
-at-3.5-1210',
-        api_key=''
-    )
-    
-    # Example usage with LangChain's RetrievalQA
-    qa_custom = RetrievalQA
-.from_chain_type(
-        llm=custom_llm,
-        chain_type='stuff',
-        retriever=vector_store.as_retriever()
-    
-)
-    def get_response(query):
-        # Step 1: Retrieve relevant context from vector store
-        retrieved_docs = ve
-ctor_store.as_retriever().get_relevant_documents(query)
-        
-        # Step 2: Construct a prompt with the retrieved
- documents
-        # Concatenate the retrieved content with the query to create a more informative prompt
-        contex
-t = '\n\n'.join([doc.page_content for doc in retrieved_docs])
-        prompt = f'Context:\n{context}\n\nQuery:\n{query}'
-
-        print = retrieved_docs
-        # Step 3: Pass the prompt to the custom LLM and get the response
-        respons
-e = custom_llm(prompt)
-        
-        return response
-    
-    # Example usage
-    query = 'ВНУТРЕННИЕ АДМИНИСТРАТИВНЫ
-Е ПРОЦЕДУРЫ ГОСУДАРСТВЕННЫХ ОРГАНОВ'
-    response = get_response(query)
-    
-    # Print the retrieved and generated res
-ponse
-    print(response)  # This will print the answer based on the retrieved context
-
-
-
-I always get
-
-https://preview.
-redd.it/timj5yeb9dld1.png?width=582&format=png&auto=webp&s=e3a629e1cf9e610a7a2f221ad75068c034a02270
-
-The data is upserte
-d like this
-
-https://preview.redd.it/wi9ndueg9dld1.png?width=1572&format=png&auto=webp&s=6c278619ee621ff1c74ad017943a532
-2a8d3a8b2
-
-
-```
----
-
-     
- 
-all -  [ Why does langchain use breakpoints for Human-in-the-loop actions? ](https://www.reddit.com/r/LangChain/comments/1f33w2y/why_does_langchain_use_breakpoints_for/) , 2024-08-29-0912
-```
-I was looking for best practices for integrating user input into a workflow and found this page - [Wait for user input](
-https://langchain-ai.github.io/langgraph/how-tos/human_in_the_loop/wait-user-input/). It goes through a bunch of steps t
-o set up a breakpoint.
-
-  
-Can someone explain why they go to all this trouble? A node can contain any code and it has a
-ccess to the shared state. Why not just make a simple node, for example, that calls python's input(), does any necessary
- processing and updates the state. 
-
-  
-I feel like I'm missing something here.
-```
----
-
-     
- 
-all -  [ Using pipe symbols to combine multiple chains ](https://www.reddit.com/r/LangChain/comments/1f33n8y/using_pipe_symbols_to_combine_multiple_chains/) , 2024-08-29-0912
-```
-https://preview.redd.it/ps8kkaxlqcld1.png?width=627&format=png&auto=webp&s=e0cf183c78b51fa74f11e0c93cac6a65ba23c088
-
-How
- would this code look like without using LLMChain and SequentialChain since those are deprecated. I tried creating a sin
-gle chain with pipe symbols. But I am getting multiple errors when combing two chains together.
-```
----
-
-     
- 
-all -  [ pdf parsing  ](https://www.reddit.com/r/LangChain/comments/1f2ykin/pdf_parsing/) , 2024-08-29-0912
-```
-What is the best known pdf parser (or parsing method) for multi-language files
-```
----
-
-     
- 
-all -  [ [FOR HIRE] I will code you almost everything in Python, for an affordable price. ](https://www.reddit.com/r/DoneDirtCheap/comments/1f2uz70/for_hire_i_will_code_you_almost_everything_in/) , 2024-08-29-0912
-```
-Hey there! I'm Diego,
-
-Are you drowning in boring tasks or dreaming up with exciting projects? Let me bring some coding 
-magic to the table with Python.
-
-With over 4 years of experience, I've worked in a variety of projects, including automa
-tion, chatbots, APIs, web development, web scraping, and more!
-
-# What can I do for you?
-
-* **Automate the boring stuff*
-*: Say goodbye to repetitive tasks!
-* **Build Chatbots**: Want a digital buddy? I can make that happen.
-* **Build your w
-eb app:** Time to build the next big thing together.
-* **Grab data from websites**: Web scraping made easy.
-* **Work wit
-h AI**: Using cool stuff like Langchain or the Chat-GPT API.
-
-If you believe you have something that I could do for you,
- please place a $bid and send me the details of the project. As always, the price depends, but It's usually from 15$ to 
-20$ for simple or intermediate projects.
-```
----
-
-     
- 
-all -  [ How could I perform RAG with data in CSV Text Format? ](https://www.reddit.com/r/LangChain/comments/1f2sv3t/how_could_i_perform_rag_with_data_in_csv_text/) , 2024-08-29-0912
-```
-I've got a csv file of quotes in relation to jurisprudence. Basing my code off of ChatGPT's API, I want to retain conver
-sational functionality and if the user asks a question, the AI should return the exact result as it is from the database
- (ranked by similarity) along with a brief explanation. I tried vectorizing with a couple different things, some of whic
-h were good but ultimately weren't close enough to the level of precision I wanted. After researching a bit, I thought o
-f simply having ChatGPT pull it out of the csv file in plaintext but is that at all possible?
-```
----
-
-     
- 
-all -  [ How to use RAG for Markdown tables ](https://www.reddit.com/r/LangChain/comments/1f2n9bn/how_to_use_rag_for_markdown_tables/) , 2024-08-29-0912
-```
-Hi everyone,
-
-I’m working on a RAG project where I need to retrieve and embed both Markdown tables and free text from Qd
-rant. The data comes from PDF documents and I've already converted the tables of the PDF documents into Markdown tables 
-for the knowledge base.
-
-I need an effective way to retrieve tables stored in Qdrant or any other technologies when need
-ed. I'm worried normal embedding wouldn't work properly for not free text such as tables.
-
-I’m currently using LangChain
- for data processing. Any guidance on integrating Qdrant and LangChain to achieve this, or alternative approaches and to
-ols that might simplify the process, would be greatly appreciated.
-
-Thanks in advance for your help!
-```
----
-
-     
- 
-all -  [ Needing help to pick the right toolset for extracting Data from advertising brochures and parsing it ](https://www.reddit.com/r/LangChain/comments/1f2n3rv/needing_help_to_pick_the_right_toolset_for/) , 2024-08-29-0912
-```
-Hey, i hope this is the right sub.
-
-  
-A customer asked me to develop an ai tool that takes advertising brochures, scans
- through them and extracts information about the products and then parses them into structured data. At first i thought 
-about classic OCR but in my first testings the results weren't that good, probably because of the rather complex layouts
- in those kind of documents (i've attached an example). I did some research on ai ocr but i am not really sure what to u
-se or if this is even the right approach. Maybe ocr models arent even the best approach, maybe there are  image analysis
- models that are better suited for this?  
-My idea is to use an ai model to extract the data and then chain it with anot
-her llm that outputs the data in a structured way.   
-
-
-Do you guys have any ideas how to approach this? Any help is ver
-y welcomed!
-
-https://preview.redd.it/q5ieka6ws8ld1.png?width=434&format=png&auto=webp&s=177f29dd503549a26017675985bee92c
-e6a2c197
-
-  
-
-```
----
-
-     
- 
-all -  [ Chatbot with conversational flow ](https://www.reddit.com/r/LangChain/comments/1f2mi9s/chatbot_with_conversational_flow/) , 2024-08-29-0912
-```
-Good afternoon. 
-I am studying about implementing a chatbot that follows a conversational flow. I am from Brazil and I d
-o not know if this is the correct translation. 
-But I need the chatbot to answer customer questions and also ask questio
-ns about topic X, then Z, then Z for example, guiding the customer in the conversation. 
-
-Any light on what to research 
-to implement something along these lines? I appreciate it.
-```
----
-
-     
- 
-all -  [ OllamaUi with LangSmith ](https://www.reddit.com/r/LangChain/comments/1f2m4m8/ollamaui_with_langsmith/) , 2024-08-29-0912
-```
-Hi, is that any way to connect OllamaUi with LangSmith to evaluate the model performance? Or there is any other tracing 
-system that can be used?
-```
----
-
-     
- 
-all -  [ Looking for researchers and members of AI development teams to participate in a user study in suppor ](https://www.reddit.com/r/LangChain/comments/1f2jmwh/looking_for_researchers_and_members_of_ai/) , 2024-08-29-0912
-```
-We are looking for researchers and members of AI development teams who are at least 18 years old with 2+ years in the so
-ftware development field to take an anonymous survey in support of my research at the University of Maine. This may take
- 20-30  minutes and will survey your viewpoints on the challenges posed by the future development of AI systems in your 
-industry. If you would like to participate, please read the following recruitment page before continuing to the survey. 
-Upon completion of the survey, you can be entered in a raffle for a $25 amazon gift card.
-
-[https://docs.google.com/docu
-ment/d/1Jsry\_aQXIkz5ImF-Xq\_QZtYRKX3YsY1\_AJwVTSA9fsA/edit](https://docs.google.com/document/d/1Jsry_aQXIkz5ImF-Xq_QZtY
-RKX3YsY1_AJwVTSA9fsA/edit)
-```
----
-
-     
- 
-all -  [ New book! AI Apps with LangChain, by Roberto Infante ](https://www.reddit.com/r/LangChain/comments/1f2hueg/new_book_ai_apps_with_langchain_by_roberto_infante/) , 2024-08-29-0912
-```
-Hello everyone and thank you for letting me post this.
-
-We have recently released a new book that I would love to share 
-with the community: AI Apps with LangChain, by Roberto Infante.  
-  
-📚 Our latest MEAP (Manning Early Access Program) re
-lease includes clear diagrams and numerous code samples to guide you in building useful LangChain-based AI apps. The boo
-k will help you develop effective LLM-powered projects, such as a simple document summarization tool, a reliable web-bas
-ed research assistant, a semantic search chatbot, and advanced RAG.
-
-[AI Apps with LangChain, by Roberto Infante](https:
-//preview.redd.it/sx94fyxtp7ld1.jpg?width=718&format=pjpg&auto=webp&s=c57a8ac8fea5280367917b48e0f0de6ec07b749d)
-
-About t
-he book (from the website):  
-***AI Apps with LangChain*** demystifies the most complex techniques of building LLM-based
- applications, including deploying open-source LLMs locally and fine-tuning them for specific applications. You’ll start
- from the ground up: LLM architecture, how to adapt them to your needs, and the advanced prompt engineering techniques y
-ou’ll need to succeed. From there, you’ll quickly move on to developing effective LLM-powered projects—from a simple too
-l to summarize documents, to a research assistant that can reliably use the web, a semantic search chatbot, and implemen
-ting advanced Retrieval Augmented Generation.
-
-About the author:  
-**Roberto Infante** has been developing software prof
-essionally for over 25 years, primarily for financial institutions including investment banks, asset managers, brokers, 
-and exchanges. He currently leads quantitative development for the treasury department of a hedge fund.
-
-🚀 Take action n
-ow! Save 50% with code reinfante50: [https://mng.bz/M172](https://shortener.manning.com/M172)
-
-📖 Get into the book: [htt
-ps://mng.bz/gAzR](https://shortener.manning.com/gAzR)
-
-📹 Check out this video to find out: [https://mng.bz/aVgJ](https:/
-/shortener.manning.com/aVgJ)
-
-I hope you like the book. Any feedback is more than welcome! As the book is still developi
-ng, all comments are precious.
-
-Cheers,
-```
----
-
-     
- 
-all -  [ Using ArliAI with HuggingFace and Langchain ](https://www.reddit.com/r/ArliAI/comments/1f2hn2m/using_arliai_with_huggingface_and_langchain/) , 2024-08-29-0912
-```
-Hello all, I want to use arli ai as the llm endpoint for the app I build using huggingface and langchain. I know it is p
-ossible probably, but I couldn't find out how to use arli ai with them. Can anyone please help? I saw the part 'Huggingf
-ace Chat-UIHuggingface Chat-UI' at [https://www.arliai.com/quick-start](https://www.arliai.com/quick-start), but couldn'
-t figure out where to use this codeblock. Please help.
-```
----
-
-     
- 
-all -  [ We responded to all your feedbacks on my earlier Langchain project sharing on r/Langchain!! — JENOVA ](https://www.reddit.com/r/LangChain/comments/1f2hfl5/we_responded_to_all_your_feedbacks_on_my_earlier/) , 2024-08-29-0912
-```
-Hey r/Langchain, a few weeks ago I shared my Langchain project [JENOVA](https://www.jenova.ai/) in this [post](https://w
-ww.reddit.com/r/LangChain/comments/1ellpk9/sharing_my_project_that_was_built_on_langchain_an/), which received 12k views
- and 90% upvote rate. To quickly describe what JENOVA does, it's an all-in-one AI assistant that intelligently routes yo
-ur queries to the foundation model (e.g. GPT, Claude, Gemini) that can provide the answer and is complemented with tools
- such as web browsing and document upload.
-
- In that post many of you gave some extremely useful feedback and suggestion
-s for the project, and just this weekend we rolled out some major improvements in response your feedback:
-
-* **By far th
-e #1 biggest feedback from users is to show what models JENOVA used to generate each response.** We delivered by display
-ing the model underneath each JENOVA response appears when you hover over the message on desktop/tap the message on mobi
-le. This way JENOVA can maintain its design philosophy of simplicity/cleanness while also providing the requested techni
-cal information.
-
-https://preview.redd.it/zatk6ydjn7ld1.png?width=1179&format=png&auto=webp&s=d3f43ce156972fe84712e1ff97
-413e166a8e25b2
-
-* **Whenever JENOVA references the information from the internet, it will now always cite the source and
- include the hyperlink.**
-
-https://preview.redd.it/8tgkq8vln7ld1.png?width=1179&format=png&auto=webp&s=31e363d6154b495db
-d99d531a575aaacac59d2f0
-
-* On the mobile web version of JENOVA, whenever you hit enter in the input box, it will create 
-a new line rather than send message (one of the best quality of life improvements for mobile AI experience).
-* We reduce
-d the likelihood that JENOVA performs unnecessary web search.
-* You can now enter message in the input box and attached 
-files while JENOVA is still processing its response.
-* Added detection mechanism where if one provider's LLM goes down (
-e.g. Claude API went down last week), we can quickly switch to another provider's LLM to ensure service continuation.
-* 
-We fixed the issue where every time new code was deployed, users are automatically signed out.
-* Added sample prompts on
- the new chat page.
-* Another big feedback was to add login options other than Google SSO (mainly regular email sign in)
-, we haven't had the capacity to implement this yet but it is on our soon-to-do list.
-
-Over the past week there had been
- long periods where the response speed of JENOVA was very slow. This slowness was caused by instability of Claude API. W
-e're monitoring this situation closely and it seems that in the past 24 hour Claude API has been relatively stable and f
-ast.
-
-Thanks for your support and we welcome any other feedbacks and suggestions! Also please join our growing Reddit co
-mmunity at !!
-```
----
-
-     
- 
-all -  [ Best framework for RAG? ](https://www.reddit.com/r/Rag/comments/1f2gy6z/best_framework_for_rag/) , 2024-08-29-0912
-```
-I am planning to build a RAG web app, but I am confused about which one should I go for. For my web app I will be workin
-g on JavaScript mainly, so should I build my own RAG system in javascript or use third party library like lanchchain or 
-llamaindex using python?
-
-Many people here on Reddit suggest avoiding wrappers like langchain and use your own RAG syste
-m, if so, then should I build my own text splitter, loaders, retrievers and other parts of RAG or use some parts from la
-ngchain and build some myself?
-
-How do you guys build your RAG apps, especially that can scale well? What database do yo
-u use? I am use postgresql with pgvector.
-```
----
-
-     
- 
-all -  [ Exciting Udemy Free Courses for 27 August 2024! ](https://www.reddit.com/r/udemyfreeebies/comments/1f2f8f7/exciting_udemy_free_courses_for_27_august_2024/) , 2024-08-29-0912
-```
-# Udemy Free Courses for 27 August 2024
-
-Note : Coupons might expire anytime, so enroll as soon as possible to get the c
-ourses for FREE.
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13777/)Personalized Ayurvedic Diet
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/13776/)Chinese culture, customs, and business etiquette
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/13778/)Dart Mastery – Become a Dart Master From Zero to Hero
-* [REDEEM OFFER ](https://idownloa
-dcoupon.com/udemy/9732/)Professional Diploma in Business English and Communications
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/10680/)Javascript Practicals Crash Course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13313/)Boo
-st Focus: Ayurvedic Concentration Improvement Certificate
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8296/)Glob
-al Career Development, Job Search, Interviewing Skills
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/196/)SAT Digi
-tal English Prep Course | Reading, Writing, Language
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/9828/)Python Fo
-r Beginners Course In-Depth
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13773/)Market Research | Market Dynamics
-, Estimation
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13772/)Cloud-native Microservices with Quarkus
-* [REDEE
-M OFFER ](https://idownloadcoupon.com/udemy/13774/)Java Fundamentals Course For Beginners
-* [REDEEM OFFER ](https://idow
-nloadcoupon.com/udemy/10852/)Microsoft Excel : Mastering Data Analysis with Pivot Table
-* [REDEEM OFFER ](https://idownl
-oadcoupon.com/udemy/12733/)Ayurvedic Daily Routine: Dinacharya Certification Course
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/2055/)Mastering Ansible Automation for Network Engineers
-* [REDEEM OFFER ](https://idownloadcoupon.com/u
-demy/12971/)The Complete Python Bootcamp from Zero to Expert
-* Negotiation A-Z – Inside Secrets from a Master Negotiator
-
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/9114/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13309/)Ad
-vanced Certification in Ayurveda: Master Core Principles
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11850/)Soci
-al Media Graphics Design and Video Editing with Canva
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8018/)Excel – 
-Microsoft Excel Course Beginner to Expert 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13534/)Break into Pro
-duct Management: Insider’s Blueprint to PM
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11012/)TOEFL Preparation:
- Listening Section
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10248/)ChatGPT: Earning Money With ChatGPT – Easy
- Way For Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/12054/)Ultimate Microsoft Excel With Data Analysi
-s
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8879/)The Ultimate SQL Bootcamp : Go From Zero to Hero
-* [REDEEM O
-FFER ](https://idownloadcoupon.com/udemy/10220/)Mastering C & C++ Programming: From Fundamentals to Advanced
-* [REDEEM O
-FFER ](https://idownloadcoupon.com/udemy/13308/)Advanced Ayurvedic Nutrition Certification Program – Level 1
-* [REDEEM O
-FFER ](https://idownloadcoupon.com/udemy/8265/)Complete jQuery Course: Learn From Beginner To Advanced
-* [REDEEM OFFER ]
-(https://idownloadcoupon.com/udemy/13766/)Beyond Coding-Tools
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13767/
-)220-1101 (Core 1): CompTIA A Practice test 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13768/)Data Visuali
-zation in Excel: All Excel Charts and Graphs
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13769/)220-1102 (Core 2
-): CompTIA A Practice test 2024
-* Zero to Hero in LangChain: Build GenAI apps using LangChain
-* [REDEEM OFFER](https://i
-downloadcoupon.com/udemy/13770/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13771/)C-level management: 20 model
-s for business operations (1/5)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13319/)Snowflake Snowpark API for Py
-thon: Master Class with Project
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13613/)7 steps to entrepreneurship: 
-A complete business plan (PRO)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/12282/)PostgreSQL Bootcamp : Complete
- Beginner to Advanced Course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11787/)Professional Diploma in Public R
-elations and PR Management
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/12429/)Master Your Voice: Public Speaking
- Made Easy
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/7415/)Python for Data Science: Python Programming & Data 
-Analysis
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11407/)IELTS Pro: Reading | Writing | Listening | Speaking
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10858/)Django Masterclass: Get Started With Django Web Development
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5528/)Power BI for HR: Visualize HR data using Power BI
-* [REDEEM OFF
-ER ](https://idownloadcoupon.com/udemy/10878/)Comprehensive Cloud Computing Practice Test: Skills Mastery
-* [REDEEM OFFE
-R ](https://idownloadcoupon.com/udemy/11794/)Executive Diploma of Chief Technology Officer
-* [REDEEM OFFER ](https://ido
-wnloadcoupon.com/udemy/8089/)Master Course : Business Cold Calling & Lead Generation 2.0
-* [REDEEM OFFER ](https://idown
-loadcoupon.com/udemy/2967/)Integrated Management Strategies: Product, Sales, & Risk 3.0
-* [REDEEM OFFER ](https://idownl
-oadcoupon.com/udemy/8912/)Advanced PowerPoint Course For Professional and Job Success
-* AWS Essentials: A Complete Begin
-ner’s Guide
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/13762/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/ude
-my/13765/)Technical Analysis and Swing Trading
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13763/)Selenium Webdr
-iver Automation Testing \[Live Projects 2024\]
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5546/)Master Course i
-n Snow Removal, Snow Plowing Services
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5618/)Foundations of Forex Mar
-kets & Commodity Markets – 101 Level
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5613/)Salesforce Certified Data
- Cloud Consultant -101 level course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5619/)Global Derivative Contract
-s, Bonds & Mutual Funds 101 level
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5611/)Floral Business, Flower Shop
- & Bouquet Business 2.0
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8091/)Disruptive thinking, Improving and Pro
-totyping Solutions 2.0
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8961/)Mastering Executive Presentations 3.0
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/6722/)CodeIgniter 4 for 2024: Build Real Estate Management System
-* [
-REDEEM OFFER ](https://idownloadcoupon.com/udemy/5620/)Master Course -Tour Operator, Car Rentals & Leasing Business
-* [R
-EDEEM OFFER ](https://idownloadcoupon.com/udemy/12472/)Advanced Diploma in Technology Management
-* [REDEEM OFFER ](https
-://idownloadcoupon.com/udemy/12362/)Smart Work Strategies for Business, IT
-* [REDEEM OFFER ](https://idownloadcoupon.com
-/udemy/5614/)Universal Project Management Excellence 5.0
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8093/)Share
-holders, Stakeholders and Investors Relations 2.0
-* Master Course in Laundry and Dry Cleaning Business 2.0
-* [REDEEM OFF
-ER](https://idownloadcoupon.com/udemy/5617/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/1188/)Essential Canva f
-or Graphics Design to Boost Productivity
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5610/)Nursery, Preschool & 
-Kids Play School Management
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13757/)Ace the PSM I Scrum Master Certif
-ication Exam: Mock Tests
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13759/)Build a WordPress Powered Amazon Aff
-iliate Site on NGINX
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13758/)Bestselling T-shirt Design Masterclass f
-or Non-Designers
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2534/)Linode: Web Server and Database Foundations
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10065/)Philosophy and Foundations of Artificial Intelligence (AI)
-* [
-REDEEM OFFER ](https://idownloadcoupon.com/udemy/3570/)Professional Diploma in Agile and Scrum
-* [REDEEM OFFER ](https:/
-/idownloadcoupon.com/udemy/685/)Configure NGINX on a Cloud Server: Digital Ocean & AWS
-* [REDEEM OFFER ](https://idownlo
-adcoupon.com/udemy/9874/)Linode: Build a Scalable Blog App using PHP & MySQL DB
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/2418/)Cloud Computing Essentials: Linode, Linux, and LAMP Stack
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/13229/)JavaScript Fundamentals to Advanced: Full Stack Development
-* [REDEEM OFFER ](https://idownloadcoupon.com
-/udemy/11456/)Mastering Sales Negotiation for High-Value Deals
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/12711
-/)Adobe Illustrator Course For Beginner
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10066/)AI & Cognitive Scienc
-e: Bridging Minds and Machines
-* Strategic Business Development
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/13333
-/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/4465/)CapCut Video Editing for Social Media Beginner to Pro
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/12575/)Advanced Technical Analysis for Stock, Forex, Crypto Trading
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/3351/)Linode: Deploy Scalable React Web Apps on the Cloud
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/8223/)AWS and Linode: The Ultimate Guide to Cloud Computing \[IaaS\]
-* [REDEEM OFFE
-R ](https://idownloadcoupon.com/udemy/8626/)AWS & React: Deploy an Auto-Scaling E-Commerce App with ELB
-* [REDEEM OFFER 
-](https://idownloadcoupon.com/udemy/6215/)Linode: Build and Deploy Responsive Websites on the Cloud
-* [REDEEM OFFER ](ht
-tps://idownloadcoupon.com/udemy/13755/)Formulating Long-Term Business Strategy: Effective Planning
-* [REDEEM OFFER ](htt
-ps://idownloadcoupon.com/udemy/13753/)Digital Transformation in Business: Essential Models
-* [REDEEM OFFER ](https://ido
-wnloadcoupon.com/udemy/13752/)Mastering Business Strategy Execution: Key Concepts
-* [REDEEM OFFER ](https://idownloadcou
-pon.com/udemy/13754/)Driving Innovation: Key Concepts for Business Development
-* [REDEEM OFFER ](https://idownloadcoupon
-.com/udemy/13751/)Sustainable Business: Core Strategies for Growth
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/1
-3750/)Python Machine Learning: From Beginner to Pro
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13748/)Foundatio
-ns of Business Strategy: Gain Competitive Advantage
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13747/)Foundatio
-ns of Strategic Partnerships: Building Alliances
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13749/)Strategic Bu
-siness Growth: Key Development Insights
-* WordPress Designs with Free Elementor 2024
-* [REDEEM OFFER](https://idownloadc
-oupon.com/udemy/13744/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13745/)Global Market Entry: Foundations of S
-uccessful Expansion
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13746/)Project Management Inputs and Outputs (PM
-I PMP)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/6758/)Create & Sell Online Courses using WordPress LMS
-* [RED
-EEM OFFER ](https://idownloadcoupon.com/udemy/6761/)Create and Sell Digital Art using AI \[Passive Income\]
-* [REDEEM OF
-FER ](https://idownloadcoupon.com/udemy/4836/)Building AI Saas Apps / AI Tools with \[No Code\] x ChatGPT
-* [REDEEM OFFE
-R ](https://idownloadcoupon.com/udemy/6759/)Convert Websites into Mobile Apps (No coding)
-* [REDEEM OFFER ](https://idow
-nloadcoupon.com/udemy/6757/)Build, Train & Sell AI Chatbots \[No-code x Chat GPT\]
-* [REDEEM OFFER ](https://idownloadco
-upon.com/udemy/4829/)Build, Host & Manage WordPress Websites using AI \[10Web\]
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/13742/)Technical Analysis Masterclass how to use Technical Analysis
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/13739/)AWS Certified Data Engineer – Associate – Hands On Exams
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/13738/)Web 3.0, Blockchain, Smart Contracts
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11282/)Master Co
-use in Hyperlocal Marketing 2.0
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/4849/)Start a Profitable AI Automati
-on Agency \[Full Course 2024\]
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13740/)Learn Content Writing using AI
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10257/)Learn Graphic Design using Canva & Start Freelancing
-* The C
-omplete Manager: Management Skills Guide for Beginners
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/13741/)
-* [RED
-EEM OFFER ](https://idownloadcoupon.com/udemy/4848/)Shopify SEO 2024: Boost Store Traffic & Conversions using AI
-* [REDE
-EM OFFER ](https://idownloadcoupon.com/udemy/10118/)Learn Web Design using WordPress & Start Freelancing
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/13723/)Implementation of Occupational Health and Safety in Industry
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/4804/)Start A Successful Print on Demand Business with Teespring
-* [REDEEM OFFER ](
-https://idownloadcoupon.com/udemy/4840/)Print on Demand 2023: From Zero to Profitable Business
-* [REDEEM OFFER ](https:/
-/idownloadcoupon.com/udemy/8132/)Project Development Using JAVA for Beginners – 2024
-* [REDEEM OFFER ](https://idownload
-coupon.com/udemy/6752/)Start a Profitable Affiliate Coupons Website -Passive Income
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/4847/)Develop AI Apps, Automations & Chatbots \[No-code x ChatGPT\]
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/13734/)Learn Python for Data Science for Complete Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/13735/)Advanced Facebook
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13736/)Master the Future of Microco
-ntrollers with STM32 ARM Course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13730/)Complete Bootstrap Masterclas
-s For Responsive Website Design
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13731/)R Programming for Complete Be
-ginners
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13728/)React Interview: Top 200 Questions (Hindi)(with PDF)(
-2024)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13729/)AutoCAD 2D Floor Plan From Beginner To Advanced Level.
-
-
-GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloadcoupon.com/)
-```
----
-
-     
- 
-all -  [ Exciting Udemy Free Courses for 27 August 2024! ](https://www.reddit.com/r/udemyfreebies/comments/1f2f89f/exciting_udemy_free_courses_for_27_august_2024/) , 2024-08-29-0912
-```
-# Udemy Free Courses for 27 August 2024
-
-Note : Coupons might expire anytime, so enroll as soon as possible to get the c
-ourses for FREE.
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13777/)Personalized Ayurvedic Diet
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/13776/)Chinese culture, customs, and business etiquette
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/13778/)Dart Mastery – Become a Dart Master From Zero to Hero
-* [REDEEM OFFER ](https://idownloa
-dcoupon.com/udemy/9732/)Professional Diploma in Business English and Communications
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/10680/)Javascript Practicals Crash Course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13313/)Boo
-st Focus: Ayurvedic Concentration Improvement Certificate
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8296/)Glob
-al Career Development, Job Search, Interviewing Skills
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/196/)SAT Digi
-tal English Prep Course | Reading, Writing, Language
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/9828/)Python Fo
-r Beginners Course In-Depth
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13773/)Market Research | Market Dynamics
-, Estimation
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13772/)Cloud-native Microservices with Quarkus
-* [REDEE
-M OFFER ](https://idownloadcoupon.com/udemy/13774/)Java Fundamentals Course For Beginners
-* [REDEEM OFFER ](https://idow
-nloadcoupon.com/udemy/10852/)Microsoft Excel : Mastering Data Analysis with Pivot Table
-* [REDEEM OFFER ](https://idownl
-oadcoupon.com/udemy/12733/)Ayurvedic Daily Routine: Dinacharya Certification Course
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/2055/)Mastering Ansible Automation for Network Engineers
-* [REDEEM OFFER ](https://idownloadcoupon.com/u
-demy/12971/)The Complete Python Bootcamp from Zero to Expert
-* Negotiation A-Z – Inside Secrets from a Master Negotiator
-
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/9114/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13309/)Ad
-vanced Certification in Ayurveda: Master Core Principles
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11850/)Soci
-al Media Graphics Design and Video Editing with Canva
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8018/)Excel – 
-Microsoft Excel Course Beginner to Expert 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13534/)Break into Pro
-duct Management: Insider’s Blueprint to PM
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11012/)TOEFL Preparation:
- Listening Section
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10248/)ChatGPT: Earning Money With ChatGPT – Easy
- Way For Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/12054/)Ultimate Microsoft Excel With Data Analysi
-s
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8879/)The Ultimate SQL Bootcamp : Go From Zero to Hero
-* [REDEEM O
-FFER ](https://idownloadcoupon.com/udemy/10220/)Mastering C & C++ Programming: From Fundamentals to Advanced
-* [REDEEM O
-FFER ](https://idownloadcoupon.com/udemy/13308/)Advanced Ayurvedic Nutrition Certification Program – Level 1
-* [REDEEM O
-FFER ](https://idownloadcoupon.com/udemy/8265/)Complete jQuery Course: Learn From Beginner To Advanced
-* [REDEEM OFFER ]
-(https://idownloadcoupon.com/udemy/13766/)Beyond Coding-Tools
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13767/
-)220-1101 (Core 1): CompTIA A Practice test 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13768/)Data Visuali
-zation in Excel: All Excel Charts and Graphs
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13769/)220-1102 (Core 2
-): CompTIA A Practice test 2024
-* Zero to Hero in LangChain: Build GenAI apps using LangChain
-* [REDEEM OFFER](https://i
-downloadcoupon.com/udemy/13770/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13771/)C-level management: 20 model
-s for business operations (1/5)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13319/)Snowflake Snowpark API for Py
-thon: Master Class with Project
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13613/)7 steps to entrepreneurship: 
-A complete business plan (PRO)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/12282/)PostgreSQL Bootcamp : Complete
- Beginner to Advanced Course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11787/)Professional Diploma in Public R
-elations and PR Management
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/12429/)Master Your Voice: Public Speaking
- Made Easy
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/7415/)Python for Data Science: Python Programming & Data 
-Analysis
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11407/)IELTS Pro: Reading | Writing | Listening | Speaking
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10858/)Django Masterclass: Get Started With Django Web Development
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5528/)Power BI for HR: Visualize HR data using Power BI
-* [REDEEM OFF
-ER ](https://idownloadcoupon.com/udemy/10878/)Comprehensive Cloud Computing Practice Test: Skills Mastery
-* [REDEEM OFFE
-R ](https://idownloadcoupon.com/udemy/11794/)Executive Diploma of Chief Technology Officer
-* [REDEEM OFFER ](https://ido
-wnloadcoupon.com/udemy/8089/)Master Course : Business Cold Calling & Lead Generation 2.0
-* [REDEEM OFFER ](https://idown
-loadcoupon.com/udemy/2967/)Integrated Management Strategies: Product, Sales, & Risk 3.0
-* [REDEEM OFFER ](https://idownl
-oadcoupon.com/udemy/8912/)Advanced PowerPoint Course For Professional and Job Success
-* AWS Essentials: A Complete Begin
-ner’s Guide
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/13762/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/ude
-my/13765/)Technical Analysis and Swing Trading
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13763/)Selenium Webdr
-iver Automation Testing \[Live Projects 2024\]
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5546/)Master Course i
-n Snow Removal, Snow Plowing Services
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5618/)Foundations of Forex Mar
-kets & Commodity Markets – 101 Level
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5613/)Salesforce Certified Data
- Cloud Consultant -101 level course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5619/)Global Derivative Contract
-s, Bonds & Mutual Funds 101 level
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5611/)Floral Business, Flower Shop
- & Bouquet Business 2.0
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8091/)Disruptive thinking, Improving and Pro
-totyping Solutions 2.0
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8961/)Mastering Executive Presentations 3.0
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/6722/)CodeIgniter 4 for 2024: Build Real Estate Management System
-* [
-REDEEM OFFER ](https://idownloadcoupon.com/udemy/5620/)Master Course -Tour Operator, Car Rentals & Leasing Business
-* [R
-EDEEM OFFER ](https://idownloadcoupon.com/udemy/12472/)Advanced Diploma in Technology Management
-* [REDEEM OFFER ](https
-://idownloadcoupon.com/udemy/12362/)Smart Work Strategies for Business, IT
-* [REDEEM OFFER ](https://idownloadcoupon.com
-/udemy/5614/)Universal Project Management Excellence 5.0
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/8093/)Share
-holders, Stakeholders and Investors Relations 2.0
-* Master Course in Laundry and Dry Cleaning Business 2.0
-* [REDEEM OFF
-ER](https://idownloadcoupon.com/udemy/5617/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/1188/)Essential Canva f
-or Graphics Design to Boost Productivity
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/5610/)Nursery, Preschool & 
-Kids Play School Management
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13757/)Ace the PSM I Scrum Master Certif
-ication Exam: Mock Tests
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13759/)Build a WordPress Powered Amazon Aff
-iliate Site on NGINX
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13758/)Bestselling T-shirt Design Masterclass f
-or Non-Designers
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2534/)Linode: Web Server and Database Foundations
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10065/)Philosophy and Foundations of Artificial Intelligence (AI)
-* [
-REDEEM OFFER ](https://idownloadcoupon.com/udemy/3570/)Professional Diploma in Agile and Scrum
-* [REDEEM OFFER ](https:/
-/idownloadcoupon.com/udemy/685/)Configure NGINX on a Cloud Server: Digital Ocean & AWS
-* [REDEEM OFFER ](https://idownlo
-adcoupon.com/udemy/9874/)Linode: Build a Scalable Blog App using PHP & MySQL DB
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/2418/)Cloud Computing Essentials: Linode, Linux, and LAMP Stack
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/13229/)JavaScript Fundamentals to Advanced: Full Stack Development
-* [REDEEM OFFER ](https://idownloadcoupon.com
-/udemy/11456/)Mastering Sales Negotiation for High-Value Deals
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/12711
-/)Adobe Illustrator Course For Beginner
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10066/)AI & Cognitive Scienc
-e: Bridging Minds and Machines
-* Strategic Business Development
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/13333
-/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/4465/)CapCut Video Editing for Social Media Beginner to Pro
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/12575/)Advanced Technical Analysis for Stock, Forex, Crypto Trading
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/3351/)Linode: Deploy Scalable React Web Apps on the Cloud
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/8223/)AWS and Linode: The Ultimate Guide to Cloud Computing \[IaaS\]
-* [REDEEM OFFE
-R ](https://idownloadcoupon.com/udemy/8626/)AWS & React: Deploy an Auto-Scaling E-Commerce App with ELB
-* [REDEEM OFFER 
-](https://idownloadcoupon.com/udemy/6215/)Linode: Build and Deploy Responsive Websites on the Cloud
-* [REDEEM OFFER ](ht
-tps://idownloadcoupon.com/udemy/13755/)Formulating Long-Term Business Strategy: Effective Planning
-* [REDEEM OFFER ](htt
-ps://idownloadcoupon.com/udemy/13753/)Digital Transformation in Business: Essential Models
-* [REDEEM OFFER ](https://ido
-wnloadcoupon.com/udemy/13752/)Mastering Business Strategy Execution: Key Concepts
-* [REDEEM OFFER ](https://idownloadcou
-pon.com/udemy/13754/)Driving Innovation: Key Concepts for Business Development
-* [REDEEM OFFER ](https://idownloadcoupon
-.com/udemy/13751/)Sustainable Business: Core Strategies for Growth
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/1
-3750/)Python Machine Learning: From Beginner to Pro
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13748/)Foundatio
-ns of Business Strategy: Gain Competitive Advantage
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13747/)Foundatio
-ns of Strategic Partnerships: Building Alliances
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13749/)Strategic Bu
-siness Growth: Key Development Insights
-* WordPress Designs with Free Elementor 2024
-* [REDEEM OFFER](https://idownloadc
-oupon.com/udemy/13744/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13745/)Global Market Entry: Foundations of S
-uccessful Expansion
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13746/)Project Management Inputs and Outputs (PM
-I PMP)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/6758/)Create & Sell Online Courses using WordPress LMS
-* [RED
-EEM OFFER ](https://idownloadcoupon.com/udemy/6761/)Create and Sell Digital Art using AI \[Passive Income\]
-* [REDEEM OF
-FER ](https://idownloadcoupon.com/udemy/4836/)Building AI Saas Apps / AI Tools with \[No Code\] x ChatGPT
-* [REDEEM OFFE
-R ](https://idownloadcoupon.com/udemy/6759/)Convert Websites into Mobile Apps (No coding)
-* [REDEEM OFFER ](https://idow
-nloadcoupon.com/udemy/6757/)Build, Train & Sell AI Chatbots \[No-code x Chat GPT\]
-* [REDEEM OFFER ](https://idownloadco
-upon.com/udemy/4829/)Build, Host & Manage WordPress Websites using AI \[10Web\]
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/13742/)Technical Analysis Masterclass how to use Technical Analysis
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/13739/)AWS Certified Data Engineer – Associate – Hands On Exams
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/13738/)Web 3.0, Blockchain, Smart Contracts
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/11282/)Master Co
-use in Hyperlocal Marketing 2.0
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/4849/)Start a Profitable AI Automati
-on Agency \[Full Course 2024\]
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13740/)Learn Content Writing using AI
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/10257/)Learn Graphic Design using Canva & Start Freelancing
-* The C
-omplete Manager: Management Skills Guide for Beginners
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/13741/)
-* [RED
-EEM OFFER ](https://idownloadcoupon.com/udemy/4848/)Shopify SEO 2024: Boost Store Traffic & Conversions using AI
-* [REDE
-EM OFFER ](https://idownloadcoupon.com/udemy/10118/)Learn Web Design using WordPress & Start Freelancing
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/13723/)Implementation of Occupational Health and Safety in Industry
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/4804/)Start A Successful Print on Demand Business with Teespring
-* [REDEEM OFFER ](
-https://idownloadcoupon.com/udemy/4840/)Print on Demand 2023: From Zero to Profitable Business
-* [REDEEM OFFER ](https:/
-/idownloadcoupon.com/udemy/8132/)Project Development Using JAVA for Beginners – 2024
-* [REDEEM OFFER ](https://idownload
-coupon.com/udemy/6752/)Start a Profitable Affiliate Coupons Website -Passive Income
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/4847/)Develop AI Apps, Automations & Chatbots \[No-code x ChatGPT\]
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/13734/)Learn Python for Data Science for Complete Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/13735/)Advanced Facebook
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13736/)Master the Future of Microco
-ntrollers with STM32 ARM Course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13730/)Complete Bootstrap Masterclas
-s For Responsive Website Design
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13731/)R Programming for Complete Be
-ginners
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13728/)React Interview: Top 200 Questions (Hindi)(with PDF)(
-2024)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/13729/)AutoCAD 2D Floor Plan From Beginner To Advanced Level.
-
-
-GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://www.reddit.com/r/udemyfreeebies)
-```
----
-
-     
- 
-all -  [ Latency issue in llm  ](https://www.reddit.com/r/LangChain/comments/1f2ekcj/latency_issue_in_llm/) , 2024-08-29-0912
-```
-How can we reduce the latency of llm call , currently I am getting a response in 40-50 seconds which is very high how ca
-n I reduce the latency of the response ?
-```
----
-
-     
- 
-all -  [ Is this the best way to query db? ](https://www.reddit.com/r/LangChain/comments/1f2d9rz/is_this_the_best_way_to_query_db/) , 2024-08-29-0912
-```
-Recently found out about korvus by postgresml. It is like building an AI agent that queries db and find most relevant co
-ntents by writing SQL queries. Have you tried it? Is it better than langchain-sql agent?
-```
----
-
-     
- 
-all -  [ Why phi3 mini not following the prompt? ](https://www.reddit.com/r/LangChain/comments/1f2bysp/why_phi3_mini_not_following_the_prompt/) , 2024-08-29-0912
-```
-I created a RAG pipeline using phi3 from ollama. But even if the context is not relevant to the query the model is reply
-ing from its own knowledge. I tried guiding it by giving examples and also changing prompts but no help. Any one having 
-any good prompt for rag? may be have experienced creating rag using phi3? I really need some help.
-```
----
-
-     
- 
-all -  [ What methods do I have for 'improving' the output of an LLM that returns a structured JSON? ](https://www.reddit.com/r/LangChain/comments/1f2aus3/what_methods_do_i_have_for_improving_the_output/) , 2024-08-29-0912
-```
-I am making a website where the UI is populated by text generated by an LLM through structured JSON, where each attribut
-e given is a specific text field in the UI. The LLM returns structured JSON given a theme, and so far I have used OpenAI
-'s API. However, the LLM usually returns quite generic and unsatisfactory output. 
-
-I have a few examples (around 15) of
- theme-expected JSON output pairings. How should I incorporate these examples into the LLM? The first thought I had woul
-d be to include these examples in the pre-prompt, but I feel like so many tokens would downgrade the performance a bit. 
-The other idea would be to fine-tune the LLM using these examples, but I don't know if 15 is enough examples to make a d
-ifference. Can LangChain help in any way? I thought also of using the LangChain context, where the examples are sent int
-o an embedding space and the most appropriate one is retrieved after a query to feed into the LLM pre-prompt, but even i
-n this case I don't know how much better the output would be.
-
-Just to clarify, it's of course difficult to say that the
- LLM output is 'bad' or 'generic' but what I mean is that it is quite far from what I would expect it to return.
-```
----
-
-     
- 
-all -  [ How to debug prompts? ](https://www.reddit.com/r/LlamaIndex/comments/1f2apo9/how_to_debug_prompts/) , 2024-08-29-0912
-```
-Hello! I am using langchain and the OpenAI API (sometimes with gpt4-o, sometimes with local LLMs exposing this API via O
-llama), and I am a bit concerned with the different chat formats that different LLMs are fine tuned with. I am thinking 
-about special tokens like `<|start\_header\_id|>` and things like that. Not all LLMs are created equal. So I would like 
-to have the option (with langchain and openai API) to visualize the full prompt that the LLM is receiving. The problem w
-ith having so many abstraction layers is that this is not easy to achieve, and I am struggling with it. I would like to 
-know if anyone has a nice way of dealing with this problem. There is a solution that should work, but I hope I don't nee
-d to go that far, which is creating a proxy server that listens to the requests, logs them and redirects them as they go
- to the real openai API endpoint. 
-
-Thanks in advance!
-```
----
-
-     
- 
-all -  [ ATS Resume Checker system using LangGraph  ](https://www.reddit.com/r/LangChain/comments/1f26n49/ats_resume_checker_system_using_langgraph/) , 2024-08-29-0912
-```
-I tried developing a ATS Resume system which checks a pdf resume on 5 criteria (which have further sub criteria) and fin
-ally gives a rating on a scale of 1-10 for the resume using Multi-Agent Orchestration and LangGraph. Checkout the demo a
-nd code explanation here : https://youtu.be/2q5kGHsYkeU
-```
----
-
-     
- 
-MachineLearning -  [ [P] using GPT4o with langchain/chroma for sports analysis  ](https://www.reddit.com/r/MachineLearning/comments/1enuzlp/p_using_gpt4o_with_langchainchroma_for_sports/) , 2024-08-29-0912
+MachineLearning -  [ [P] using GPT4o with langchain/chroma for sports analysis  ](https://www.reddit.com/r/MachineLearning/comments/1enuzlp/p_using_gpt4o_with_langchainchroma_for_sports/) , 2024-08-30-0912
 ```
 Hi all, I'm working on a side project that helps with sports analysis for historical games, which in turn will help with
  sports betting. Currently I've been only focused on MLB because I wanted to see how the use case would pan out.
@@ -1456,7 +899,7 @@ me.
      
  
 MachineLearning -  [ [R] [D] Langchain Evaluation with BeyondLLM
- ](https://www.reddit.com/r/MachineLearning/comments/1eki1fv/r_d_langchain_evaluation_with_beyondllm/) , 2024-08-29-0912
+ ](https://www.reddit.com/r/MachineLearning/comments/1eki1fv/r_d_langchain_evaluation_with_beyondllm/) , 2024-08-30-0912
 ```
 Hey everyone! Just came across a new feature of Beyond LLM that can evaluate Langchain RAG pipelines! It provides contex
 t relevancy, answer relevancy, and groundedness. Check out the code snippet I’m sharing—perfect for testing your RAG pip
@@ -1472,7 +915,7 @@ uto=webp&s=63d5b0f41f0e46a58e7a2d5fb0d2bbc4384b3b1d
 
      
  
-deeplearning -  [ Creating a project on NLP ](https://www.reddit.com/r/deeplearning/comments/1ey2e85/creating_a_project_on_nlp/) , 2024-08-29-0912
+deeplearning -  [ Creating a project on NLP ](https://www.reddit.com/r/deeplearning/comments/1ey2e85/creating_a_project_on_nlp/) , 2024-08-30-0912
 ```
 So me and my friend completed the ML and DL specialization by AndrewNg, and were just gonna get started on a project. We
  decided to make a academic assistant. So basically what this does is a user can upload a PDF,text file or any other sup
@@ -1502,7 +945,7 @@ Appreciate any resourceful comment 😊
 
      
  
-deeplearning -  [ How To Build Your Retrieval Augmented Generation (RAG) Using Open-source Tools: LangChain, LLAMA 3,  ](https://www.reddit.com/r/deeplearning/comments/1emdotx/how_to_build_your_retrieval_augmented_generation/) , 2024-08-29-0912
+deeplearning -  [ How To Build Your Retrieval Augmented Generation (RAG) Using Open-source Tools: LangChain, LLAMA 3,  ](https://www.reddit.com/r/deeplearning/comments/1emdotx/how_to_build_your_retrieval_augmented_generation/) , 2024-08-30-0912
 ```
 
 
@@ -1526,7 +969,7 @@ decompass00.substack.com/p/build-open-source-rag-langchain-llm-llama-chroma)
 
      
  
-deeplearning -  [ Need help with creating CLI for 'non-programmers' (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1elrfgm/need_help_with_creating_cli_for_nonprogrammers/) , 2024-08-29-0912
+deeplearning -  [ Need help with creating CLI for 'non-programmers' (LLMs) ](https://www.reddit.com/r/deeplearning/comments/1elrfgm/need_help_with_creating_cli_for_nonprogrammers/) , 2024-08-30-0912
 ```
 ***TL;DR*** What is the best way to convert user input into sequence of commands and their corresponding parameters? Lik
 e, imagine you are not a programmer and there is a console app with a CLI, but, well, you don't know the structure and t
