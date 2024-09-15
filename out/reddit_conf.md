@@ -1,5 +1,5 @@
  
-all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-14-0911
+all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-15-0913
 ```
 Hey. It is the time of the year where everyone's excited for our upcoming session. Welcome to UCSD and I hope you are do
 ing great. As a senior, I have been exposed to various handy tools to navigate college life. Here are my recommendations
@@ -52,7 +52,7 @@ t. Have fun. Went through 4 years and a lot of memories.
 
      
  
-all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-14-0911
+all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-15-0913
 ```
 Hey, everyone.  
 Sorry for asking a noob question.  
@@ -67,7 +67,7 @@ ere any deadline we have to maintain for this kind of scenario. The main review 
 
      
  
-all -  [ [CfP] NeurIPS 2024 Workshop on Adaptive Foundation Models ](https://groups.google.com/g/ml-news/c/Mgb4dflkxqY) , 2024-09-14-0911
+all -  [ [CfP] NeurIPS 2024 Workshop on Adaptive Foundation Models ](https://groups.google.com/g/ml-news/c/Mgb4dflkxqY) , 2024-09-15-0913
 ```
 
 ```
@@ -75,7 +75,7 @@ all -  [ [CfP] NeurIPS 2024 Workshop on Adaptive Foundation Models ](https://gro
 
      
  
-all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-14-0911
+all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-15-0913
 ```
 Hi everyone, 
 
@@ -107,7 +107,7 @@ encountered other similar cases ?
 
      
  
-all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-14-0911
+all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-15-0913
 ```
 I've been studying a \[paper\]\[1\] (Smoothness, Low-Noise and Fast Rates) on the impact of smoothness on the convergenc
 e rate of online-to-batch conversion, specifically Theorem 2, which provides a bound on the average regret in the contex
@@ -183,7 +183,7 @@ ckexchange.com/questions/4966362/derivation-of-the-upper-bound-of-the-average-re
 
      
  
-all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-14-0911
+all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-15-0913
 ```
 I'm an incoming Math+CS freshman at a decent research uni and I've been looking at some labs at my school. I've been loo
 king at the profiles of students accepted to top ml grad schools and a lot of them, on top of having near-perfect GPAs, 
@@ -204,7 +204,7 @@ Does it always feel this daunting, and is their anything I can do to increase
 
      
  
-all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-14-0911
+all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-15-0913
 ```
 Hello,
 
@@ -231,7 +231,7 @@ PS: Not here for farming anything just genuinely confused and exhausted.
 
      
  
-all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-14-0911
+all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-15-0913
 ```
 I'm in the process of realistically accessing my chances for an MBA post my service. I would request any feedback and/or
  guidance on it. I was considering T15.
@@ -259,7 +259,7 @@ Thanks
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-14-0911
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-15-0913
 ```
 # Best AI Writing Detectors in 2024
 
@@ -606,7 +606,7 @@ ors** also function as **plagiarism checkers**. Lastly, these tools can enhance 
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-14-0911
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-15-0913
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1153,7 +1153,7 @@ i-generated content** can be improved
 
      
  
-all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-14-0911
+all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-15-0913
 ```
 Interested in ML research? Apply to Cornell University Artificial Intelligence (CUAI)!
 
@@ -1192,7 +1192,7 @@ advisors!
 
      
  
-all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-14-0911
+all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-15-0913
 ```
 This semester I am in a Neural Networks class and I need to do a project. The project is a 1h presentation of a semi-rec
 ent NeurIPS/ICLM/COLT paper (or similar) + a 30min presentation of some numerical experiments (computations) of the pape
@@ -1211,7 +1211,7 @@ stion. That would be much appreciated :)
 
      
  
-all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-14-0911
+all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-15-0913
 ```
 What is the rule for updating your paper during the rebuttal/discussions phase for a conference?  
 Some conferences expl
@@ -1241,7 +1241,7 @@ rs: is it better if the author makes the changes and uploads new version of the 
 
      
  
-all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-14-0911
+all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-15-0913
 ```
 [https://www.reddit.com/r/clickup/comments/11pid2g/drag\_and\_drop\_tasks\_from\_list\_view\_to\_the\_clickup/](https://
 www.reddit.com/r/clickup/comments/11pid2g/drag_and_drop_tasks_from_list_view_to_the_clickup/)
@@ -1268,7 +1268,7 @@ https://preview.redd.it/s5j00wxo8gld1.png?width=960&format=png&auto
 
      
  
-all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-14-0911
+all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-15-0913
 ```
 Hey everyone,
 
@@ -1352,7 +1352,7 @@ Thanks!
 
      
  
-all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-09-14-0911
+all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-09-15-0913
 ```
 🚀 Llama-3.1-Storm-8B has arrived! Our new 8B LLM pushes the boundaries of what's possible with smaller language models.
 
@@ -1408,7 +1408,7 @@ ttps://x.com/akjindal53244/status/1825578737074843802)
 
      
  
-all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-09-14-0911
+all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-09-15-0913
 ```
 **ResShift:** Efficient Diffusion Model for Image Super-resolution by Residual Shifting (NeurIPS 2023, Spotlight)
 
@@ -1523,7 +1523,7 @@ https://preview.redd.it/8yvuvtbuvijd1.png?width=1984&format=png&auto=webp&s=72d2
 
      
  
-all -  [ Yurtdışı - Türkiye ](https://www.reddit.com/r/CodingTR/comments/1evhsx5/yurtdışı_türkiye/) , 2024-09-14-0911
+all -  [ Yurtdışı - Türkiye ](https://www.reddit.com/r/CodingTR/comments/1evhsx5/yurtdışı_türkiye/) , 2024-09-15-0913
 ```
 Selam herkese,
 
@@ -1570,7 +1570,7 @@ er büyük şirketlerde Research Engineer olarak işe girmekte çok büyük + sa
 
      
  
-all -  [ [N] NeurIPS 2024 review analyzer ](https://www.reddit.com/r/MachineLearning/comments/1etd10k/n_neurips_2024_review_analyzer/) , 2024-09-14-0911
+all -  [ [N] NeurIPS 2024 review analyzer ](https://www.reddit.com/r/MachineLearning/comments/1etd10k/n_neurips_2024_review_analyzer/) , 2024-09-15-0913
 ```
 Hi there,
 
@@ -1596,7 +1596,7 @@ https://preview.redd.it/2zzxtomsnxid1.png?width=1044&format=png&auto=webp&s=665a
 
      
  
-all -  [ [D] Reviewer 2 - NeurIPS  ](https://www.reddit.com/r/MachineLearning/comments/1etb4qh/d_reviewer_2_neurips/) , 2024-09-14-0911
+all -  [ [D] Reviewer 2 - NeurIPS  ](https://www.reddit.com/r/MachineLearning/comments/1etb4qh/d_reviewer_2_neurips/) , 2024-09-15-0913
 ```
 The NeurIPS rebuttal period is finally over. How is everyone’s review? 
 
@@ -1607,77 +1607,6 @@ ictory statements, and can’t even understand the difference between training d
 s explaining the difference. Finally, the reviewer left an incorrect statement about the paper and disappeared. Typical 
 reviewer 2. 
 
-```
----
-
-     
- 
-all -  [ thoughts on genAI for goods procurement and insights? ](https://www.reddit.com/r/Distributors/comments/1esdj0n/thoughts_on_genai_for_goods_procurement_and/) , 2024-09-14-0911
-```
-There's been a lot of talk about genAI, but most of it has been hand wavy. Imo, there's only a few things GenAI is usefu
-l for. Communications, making decisions (reading PDFs, emails, etc and triggering actions), and insights (+ transforming
- large amounts of data into human readable text).
-
-I'm trying to build something of value with Endflow which aims to be 
-the AI hub for material procurement insights and actions. What it does:
-
-1. Automation: Removes a lot of manual parts of
- the end-to-end purchase order process. Such as automated follow up schedules for open POs, matching invoice to PO to pa
-cking slip, grief rack RCA, creating evidence-backed AI vendor scorecards, etc.
-2. Insights: When you should consider re
-placing a vendor, POs we deem as at risk, parts consolidation and volume discounts, other supply chain risks, etc.
-3. Da
-ta: Keeps your ERP/Excel clean and up to date which keeps the demand forecast accurate.
-
-I previously ran a manufacturin
-g services business as well being on the founding AI team of a couple startups (including at AutoGPT) and publishing AI 
-research at the largest US AI conference (NeurIPS). I'm now trying to combine the two into a product that adds genuine v
-alue.
-
-Curious to get get your thoughts/feedback! Please lmk if you have questions & call me out if you have concerns :)
-
-```
----
-
-     
- 
-all -  [ exploring genAI for material procurement insights and automation ](https://www.reddit.com/r/procurement/comments/1esd1u4/exploring_genai_for_material_procurement_insights/) , 2024-09-14-0911
-```
-There's been a lot of talk about genAI, but most of it has been hand wavy. Imo, there's only a few things GenAI is usefu
-l for. Communications, making decisions (reading PDFs, emails, etc and triggering actions), and insights (+ transforming
- large amounts of data into human readable text).
-
-I'm applying the technology with [https://endflow.com](https://endflo
-w.com) which is the AI hub for material procurement insights and actions. What Endflow does;
-
-1. Automation: Removes a l
-ot of manual parts of the end-to-end purchase order process. Such as ensuring PO confirmation and handling discrepancies
-, automated following up schedules for open POs, matching invoice to PO to packing slip, grief rack RCA, creating eviden
-ce-backed AI vendor scorecards, etc. Benefits are not just reducing errors and manual work, but also shortening PO cycle
-, reducing vendor and production delay risk, and improving visibility. 
-2. Insights: From this data we can notify you wh
-en you should consider replacing/meeting with a vendor (ex. high lead time variance and low timeliness). Others include 
-any POs we deem as at risk, saving money based on parts consolidation and volume discounts, other supply chain risks, et
-c.
-3. Data: Keeps your ERP/Excel clean and up to date which keeps the demand forecast accurate. No surprise emails that 
-slip through the cracks because we monitor your inbox with AI.
-
-I previously ran a manufacturing services business (endf
-lowautomation.com) as well being on the founding AI team of a couple startups (including at AutoGPT) and publishing AI r
-esearch at the largest US AI conference (NeurIPS). I'm now trying to combine the two into a product that adds genuine va
-lue.
-
-I'd love to get your thoughts! Please lmk if you have questions & call me out if you have concerns :)
-```
----
-
-     
- 
-all -  [ [D] NeurIPS 2024 Tickets ](https://www.reddit.com/r/MachineLearning/comments/1es1qpw/d_neurips_2024_tickets/) , 2024-09-14-0911
-```
-Is there anyway I can get NeurIPS 2024 tickets for free or any form of scholarship that I can apply to ? I really want t
-o attend the conference but 900$ + travel + acco will get too expensive for me and my company is not going to reimburse 
-it. Any help will be appreciated.
 ```
 ---
 
