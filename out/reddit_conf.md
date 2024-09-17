@@ -1,5 +1,14 @@
  
-all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-16-0913
+all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-17-0910
+```
+Would I be able to submit to both neurips solar and coling 2025? Coling’s policy is no journals or conferences but solar
+ is a workshop and it allows dual submission.
+```
+---
+
+     
+ 
+all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-17-0910
 ```
 Hey. It is the time of the year where everyone's excited for our upcoming session. Welcome to UCSD and I hope you are do
 ing great. As a senior, I have been exposed to various handy tools to navigate college life. Here are my recommendations
@@ -52,7 +61,7 @@ t. Have fun. Went through 4 years and a lot of memories.
 
      
  
-all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-16-0913
+all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-17-0910
 ```
 Hey, everyone.  
 Sorry for asking a noob question.  
@@ -67,7 +76,7 @@ ere any deadline we have to maintain for this kind of scenario. The main review 
 
      
  
-all -  [ [CfP] NeurIPS 2024 Workshop on Adaptive Foundation Models ](https://groups.google.com/g/ml-news/c/Mgb4dflkxqY) , 2024-09-16-0913
+all -  [ [CfP] NeurIPS 2024 Workshop on Adaptive Foundation Models ](https://groups.google.com/g/ml-news/c/Mgb4dflkxqY) , 2024-09-17-0910
 ```
 
 ```
@@ -75,7 +84,7 @@ all -  [ [CfP] NeurIPS 2024 Workshop on Adaptive Foundation Models ](https://gro
 
      
  
-all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-16-0913
+all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-17-0910
 ```
 Hi everyone, 
 
@@ -107,7 +116,7 @@ encountered other similar cases ?
 
      
  
-all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-16-0913
+all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-17-0910
 ```
 I've been studying a \[paper\]\[1\] (Smoothness, Low-Noise and Fast Rates) on the impact of smoothness on the convergenc
 e rate of online-to-batch conversion, specifically Theorem 2, which provides a bound on the average regret in the contex
@@ -183,7 +192,7 @@ ckexchange.com/questions/4966362/derivation-of-the-upper-bound-of-the-average-re
 
      
  
-all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-16-0913
+all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-17-0910
 ```
 I'm an incoming Math+CS freshman at a decent research uni and I've been looking at some labs at my school. I've been loo
 king at the profiles of students accepted to top ml grad schools and a lot of them, on top of having near-perfect GPAs, 
@@ -204,7 +213,7 @@ Does it always feel this daunting, and is their anything I can do to increase
 
      
  
-all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-16-0913
+all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-17-0910
 ```
 Hello,
 
@@ -231,7 +240,7 @@ PS: Not here for farming anything just genuinely confused and exhausted.
 
      
  
-all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-16-0913
+all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-17-0910
 ```
 I'm in the process of realistically accessing my chances for an MBA post my service. I would request any feedback and/or
  guidance on it. I was considering T15.
@@ -259,7 +268,7 @@ Thanks
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-16-0913
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-17-0910
 ```
 # Best AI Writing Detectors in 2024
 
@@ -606,7 +615,7 @@ ors** also function as **plagiarism checkers**. Lastly, these tools can enhance 
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-16-0913
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-17-0910
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1153,7 +1162,7 @@ i-generated content** can be improved
 
      
  
-all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-16-0913
+all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-17-0910
 ```
 Interested in ML research? Apply to Cornell University Artificial Intelligence (CUAI)!
 
@@ -1192,7 +1201,7 @@ advisors!
 
      
  
-all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-16-0913
+all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-17-0910
 ```
 This semester I am in a Neural Networks class and I need to do a project. The project is a 1h presentation of a semi-rec
 ent NeurIPS/ICLM/COLT paper (or similar) + a 30min presentation of some numerical experiments (computations) of the pape
@@ -1211,7 +1220,7 @@ stion. That would be much appreciated :)
 
      
  
-all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-16-0913
+all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-17-0910
 ```
 What is the rule for updating your paper during the rebuttal/discussions phase for a conference?  
 Some conferences expl
@@ -1241,7 +1250,7 @@ rs: is it better if the author makes the changes and uploads new version of the 
 
      
  
-all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-16-0913
+all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-17-0910
 ```
 [https://www.reddit.com/r/clickup/comments/11pid2g/drag\_and\_drop\_tasks\_from\_list\_view\_to\_the\_clickup/](https://
 www.reddit.com/r/clickup/comments/11pid2g/drag_and_drop_tasks_from_list_view_to_the_clickup/)
@@ -1268,7 +1277,7 @@ https://preview.redd.it/s5j00wxo8gld1.png?width=960&format=png&auto
 
      
  
-all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-16-0913
+all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-17-0910
 ```
 Hey everyone,
 
@@ -1352,7 +1361,7 @@ Thanks!
 
      
  
-all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-09-16-0913
+all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-09-17-0910
 ```
 🚀 Llama-3.1-Storm-8B has arrived! Our new 8B LLM pushes the boundaries of what's possible with smaller language models.
 
@@ -1408,7 +1417,7 @@ ttps://x.com/akjindal53244/status/1825578737074843802)
 
      
  
-all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-09-16-0913
+all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-09-17-0910
 ```
 **ResShift:** Efficient Diffusion Model for Image Super-resolution by Residual Shifting (NeurIPS 2023, Spotlight)
 
@@ -1523,7 +1532,7 @@ https://preview.redd.it/8yvuvtbuvijd1.png?width=1984&format=png&auto=webp&s=72d2
 
      
  
-all -  [ Yurtdışı - Türkiye ](https://www.reddit.com/r/CodingTR/comments/1evhsx5/yurtdışı_türkiye/) , 2024-09-16-0913
+all -  [ Yurtdışı - Türkiye ](https://www.reddit.com/r/CodingTR/comments/1evhsx5/yurtdışı_türkiye/) , 2024-09-17-0910
 ```
 Selam herkese,
 
@@ -1565,48 +1574,6 @@ ektördeki rekabet ve bir sonraki kariyer adımlarınız hakkında ne düşünü
 3) Sizce biraz çalışmaktan yorulmuş ol
 mama rağmen kendimi motive edip NeurIPS tarzı yerlerde makale yayınlatabilmek için sıkı çalışmalı mıyım? Bu tarz makalel
 er büyük şirketlerde Research Engineer olarak işe girmekte çok büyük + sağlıyor.
-```
----
-
-     
- 
-all -  [ [N] NeurIPS 2024 review analyzer ](https://www.reddit.com/r/MachineLearning/comments/1etd10k/n_neurips_2024_review_analyzer/) , 2024-09-16-0913
-```
-Hi there,
-
-I created a tool to analyze your NeurIPS 2024 review scores and your chance of acceptance based on historical
- data.
-
-  
-Please try out the tool at: [https://scienhub.com/review-analyzer/neurips](https://scienhub.com/review-analyz
-er/neurips)
-
-  
-Screenshots:
-
-https://preview.redd.it/3g5li04snxid1.png?width=1072&format=png&auto=webp&s=f80ea86a942f69
-1659348e36ed67c69c36acea29
-
-https://preview.redd.it/2zzxtomsnxid1.png?width=1044&format=png&auto=webp&s=665aadf7ff8cb7f0
-224018535c21f0f46648d8e2
-
-
-```
----
-
-     
- 
-all -  [ [D] Reviewer 2 - NeurIPS  ](https://www.reddit.com/r/MachineLearning/comments/1etb4qh/d_reviewer_2_neurips/) , 2024-09-16-0913
-```
-The NeurIPS rebuttal period is finally over. How is everyone’s review? 
-
-I had the worst experience ever with one review
-er. For the initial comments, he/she only wrote a short paragraph asking a bunch of questions that can be easily answere
-d by the content of the paper, then put a score of 3 and a confidence of 4. For the rebuttal, this reviewer gave contrad
-ictory statements, and can’t even understand the difference between training data and testing data. I spent two good day
-s explaining the difference. Finally, the reviewer left an incorrect statement about the paper and disappeared. Typical 
-reviewer 2. 
-
 ```
 ---
 
