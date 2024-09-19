@@ -1,5 +1,27 @@
  
-all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-18-0912
+all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-19-0912
+```
+Qualifications: B. Tech. CSE (Tier-3 private college)   
+YOE: 1  
+Summary: I want to know how I can contribute to resear
+ch and get papers published in the top international publications like ICML, NeurIPS, ICCV, CVPR etc. My fundamentals in
+ subjects like Deep Learning and Computer Vision are quite strong, and I was wondering how I can get into research, and 
+what the process looks like. I am guessing I need to talk to professors at some of the top institutes like IIITs/IITs? H
+ow do I start, I'd really appreciate some feedback regarding this.
+```
+---
+
+     
+ 
+all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-19-0912
+```
+
+```
+---
+
+     
+ 
+all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-19-0912
 ```
 Would I be able to submit to both neurips solar and coling 2025? Coling’s policy is no journals or conferences but solar
  is a workshop and it allows dual submission.
@@ -8,7 +30,7 @@ Would I be able to submit to both neurips solar and coling 2025? Coling’s poli
 
      
  
-all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-18-0912
+all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-19-0912
 ```
 Hey. It is the time of the year where everyone's excited for our upcoming session. Welcome to UCSD and I hope you are do
 ing great. As a senior, I have been exposed to various handy tools to navigate college life. Here are my recommendations
@@ -61,7 +83,7 @@ t. Have fun. Went through 4 years and a lot of memories.
 
      
  
-all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-18-0912
+all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-19-0912
 ```
 Hey, everyone.  
 Sorry for asking a noob question.  
@@ -76,15 +98,7 @@ ere any deadline we have to maintain for this kind of scenario. The main review 
 
      
  
-all -  [ [CfP] NeurIPS 2024 Workshop on Adaptive Foundation Models ](https://groups.google.com/g/ml-news/c/Mgb4dflkxqY) , 2024-09-18-0912
-```
-
-```
----
-
-     
- 
-all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-18-0912
+all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-19-0912
 ```
 Hi everyone, 
 
@@ -116,7 +130,7 @@ encountered other similar cases ?
 
      
  
-all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-18-0912
+all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-19-0912
 ```
 I've been studying a \[paper\]\[1\] (Smoothness, Low-Noise and Fast Rates) on the impact of smoothness on the convergenc
 e rate of online-to-batch conversion, specifically Theorem 2, which provides a bound on the average regret in the contex
@@ -192,7 +206,7 @@ ckexchange.com/questions/4966362/derivation-of-the-upper-bound-of-the-average-re
 
      
  
-all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-18-0912
+all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-19-0912
 ```
 I'm an incoming Math+CS freshman at a decent research uni and I've been looking at some labs at my school. I've been loo
 king at the profiles of students accepted to top ml grad schools and a lot of them, on top of having near-perfect GPAs, 
@@ -213,7 +227,7 @@ Does it always feel this daunting, and is their anything I can do to increase
 
      
  
-all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-18-0912
+all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-19-0912
 ```
 Hello,
 
@@ -240,7 +254,7 @@ PS: Not here for farming anything just genuinely confused and exhausted.
 
      
  
-all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-18-0912
+all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-19-0912
 ```
 I'm in the process of realistically accessing my chances for an MBA post my service. I would request any feedback and/or
  guidance on it. I was considering T15.
@@ -268,7 +282,7 @@ Thanks
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-18-0912
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-19-0912
 ```
 # Best AI Writing Detectors in 2024
 
@@ -615,7 +629,7 @@ ors** also function as **plagiarism checkers**. Lastly, these tools can enhance 
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-18-0912
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-19-0912
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1162,7 +1176,7 @@ i-generated content** can be improved
 
      
  
-all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-18-0912
+all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-19-0912
 ```
 Interested in ML research? Apply to Cornell University Artificial Intelligence (CUAI)!
 
@@ -1201,7 +1215,7 @@ advisors!
 
      
  
-all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-18-0912
+all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-19-0912
 ```
 This semester I am in a Neural Networks class and I need to do a project. The project is a 1h presentation of a semi-rec
 ent NeurIPS/ICLM/COLT paper (or similar) + a 30min presentation of some numerical experiments (computations) of the pape
@@ -1220,7 +1234,7 @@ stion. That would be much appreciated :)
 
      
  
-all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-18-0912
+all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-19-0912
 ```
 What is the rule for updating your paper during the rebuttal/discussions phase for a conference?  
 Some conferences expl
@@ -1250,7 +1264,7 @@ rs: is it better if the author makes the changes and uploads new version of the 
 
      
  
-all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-18-0912
+all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-19-0912
 ```
 [https://www.reddit.com/r/clickup/comments/11pid2g/drag\_and\_drop\_tasks\_from\_list\_view\_to\_the\_clickup/](https://
 www.reddit.com/r/clickup/comments/11pid2g/drag_and_drop_tasks_from_list_view_to_the_clickup/)
@@ -1277,7 +1291,7 @@ https://preview.redd.it/s5j00wxo8gld1.png?width=960&format=png&auto
 
      
  
-all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-18-0912
+all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-19-0912
 ```
 Hey everyone,
 
@@ -1361,7 +1375,7 @@ Thanks!
 
      
  
-all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-09-18-0912
+all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-09-19-0912
 ```
 🚀 Llama-3.1-Storm-8B has arrived! Our new 8B LLM pushes the boundaries of what's possible with smaller language models.
 
@@ -1417,7 +1431,7 @@ ttps://x.com/akjindal53244/status/1825578737074843802)
 
      
  
-all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-09-18-0912
+all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-09-19-0912
 ```
 **ResShift:** Efficient Diffusion Model for Image Super-resolution by Residual Shifting (NeurIPS 2023, Spotlight)
 
@@ -1527,53 +1541,6 @@ https://preview.redd.it/8yvuvtbuvijd1.png?width=1984&format=png&auto=webp&s=72d2
 
 
 # 
-```
----
-
-     
- 
-all -  [ Yurtdışı - Türkiye ](https://www.reddit.com/r/CodingTR/comments/1evhsx5/yurtdışı_türkiye/) , 2024-09-18-0912
-```
-Selam herkese,
-
-Üç temel sorum olacak, fikirlerinizi gerçekten merak ediyorum. (TLDR aşağıda)
-
-Bu sene UK'de Data Scienc
-e master'ı yapacağım (top 100 bir okul), bilgisayar mühendisliğinden yeni mezun oldum fakat 2 seneye yakın sektörde iş t
-ecrübem var. Hali hazırda Türkiye'de bir işim var ve memur maaşı seviyesinde bir maaş alıyorum. Master'dan sonra UK ya d
-a Amerika'da 1-2 sene çalışıp hem okul masrafını karşılayıp hem de biraz tecrübe edinip, çok ısınamazsam dönerim temel p
-lanımdı. Fakat genel olarak ne daha mantıklı hiç kafamda oturtamadığını farkettim. Yurtdışına 'alışsam' bile FAANG tarzı
- çok büyük firmalarda çalışmadıktan sonra Türkiye'den remote çalışmanın (2.5-3.5k$ net aylık) yurtdışında nereden baksam
- (4-6k$ net aylık) orta-üst arası net bir maaşa eşit olduğunu düşünüyorum (olay sadece para değil biliyorum iş/yaşam koş
-ulları olarak da konuşabiliriz). Açıkçası bunun üstünde maaşlar da hele şuan sektördeki rekabeti ve piyasayı düşününce g
-özüme zor geliyor. Günün sonunda aynı parayı biriktirebileceksem de yurtdışında birkaç sene durup alışmadıysam dönmek da
-ha mantıklı geliyor. Ama sizce maaşlar 'gerçek anlamda' daha fazla olur mu yurtdışında ya da TR'den remote iş kovalamak 
-da bir o kadar imkansız mı? UK'de net olarak ayda 7-8k$ alabileceğim senior pozisyonlar var ama (çok rekabetçi) öte yand
-an bir dairenin kirası neredeyse 2.5k$ Londra'da. Amerika'da da gidip Seattle, SF falan yaşadığımda da aynı şeyler olaca
-k. Yani bana şöyle geliyor: ultra yüksek maaş skalası ve pahalı yer, yüksek maaş ama pahalı yer, ortalama maaş ve ortala
-ma masraf, yurtdışında seçeneklerim bunlarmış gibi. Ve FAANG hariç diğer seçenekler mantıksızmış gibi hissediyorum. FAAN
-G tarzı bir yer için de biraz kafayı kırıp çok ekstra çalışmak lazım sanırım. Üniversitenin başından beri kendimi gelişt
-irmeye çalışıyorum, 3. sınıfta işe girdim, mezun olmadan tam zamanlı çalışmaya başladım. Benden çok çok iyi pozisyon ve 
-maaşlarda başlayan arkadaşlarım da var benden kötü olanları da var ama günün sonunda ben elimdekinden çok memnun değilim
- hep sıkı çalıştım, dereceyle iyi bir üniversiteden mezun oldum fakat günün sonunda elimde olan sadece bir 'memur maaşı'
-. Master'dan sonra belki Türkiye'de hayalimdeki maaşları yine alamayacağım, yurtdışında da aynı şekilde (sektör malum). 
-Master'da NeurIPS tarzı yerlerde paper kovalayıp ya da sağlam projeler yapıp son bir sağlam koşu yapmam gerekiyor gibi h
-issediyorum bu konuda ne düşünüyorsunuz? Ve siz genel olarak sektördeki rekabete karşı ne yapıyorsunuz?
-
-  
-TLDR:
-
-1) Si
-zce Türkiye ile Yurtdışında yazılımcı olarak çalışmak için (default olarak Türkiye'de yaşamanın size daha tercih edilebi
-lir geldiğini varsayalım) ne tür farklar olmalı maaş ve iş koşulları açısından?
-
-2) Üniversiteden/Yazılım'a ilk atıldığı
- süreden beri çok sıkı çalışıp istediğini alamadığını düşünen ya da çok çalışıp istediğini aldığını düşünen arkadaşlar s
-ektördeki rekabet ve bir sonraki kariyer adımlarınız hakkında ne düşünüyorsunuz?
-
-3) Sizce biraz çalışmaktan yorulmuş ol
-mama rağmen kendimi motive edip NeurIPS tarzı yerlerde makale yayınlatabilmek için sıkı çalışmalı mıyım? Bu tarz makalel
-er büyük şirketlerde Research Engineer olarak işe girmekte çok büyük + sağlıyor.
 ```
 ---
 
