@@ -1,5 +1,56 @@
  
-all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-19-0912
+all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-09-20-0912
+```
+We're excited to announce the NeurIPS competition '**Erasing the Invisible: A Stress-Test Challenge for Image Watermarks
+**' running from **September 16 to November 5**. This is your chance to test your skills in a cutting-edge domain and wi
+n a share of our $6000 prize pool!
+
+# Competition Overview
+
+This competition is divided into **two tracks: Black Box Tra
+ck and Beige Box Track**. It aims to validate the robustness of image watermarks under varying visibility conditions and
+ attacker knowledge. Competitors will attempt to remove invisible watermarks while maintaining the quality of the images
+. Evaluations will be based on two criteria: the effectiveness of watermark removal and the preservation of image qualit
+y.
+
+# 🔗 Important Dates:
+
+▶️ **Submission phase:** Sep 16 - Nov 5  
+▶️ **Registration and submissions close:** Nov 5  
+▶
+️ **Winning team announcement:** Nov 20
+
+# 🌐 More Info & Registration:
+
+▶️ **Website:** [http://erasinginvisible.github.
+io](http://erasinginvisible.github.io/)  
+▶️ **Hosted on Codabench:**  
+⏩ **Beige-Box Track:** [codabench.org/competitio
+ns/3821](https://codabench.org/competitions/3821/)  
+⏩ **Black-Box Track:** [codabench.org/competitions/3857](https://co
+dabench.org/competitions/3857/)
+
+# 💡 Why Participate?
+
+* **Test your skills** in a real-world, cutting-edge domain.
+* **
+Validate watermark robustness** under various conditions.
+* **Collaborate** with a global community of researchers and p
+ractitioners.
+* **Earn your share of $6000** (and counting as more sponsors join)!
+
+# 💰 Prize Pool: $6000 (and growing!)
+
+
+Want to **sponsor** the competition? Reach out to us at:  
+📧 [erasinginvisible@googlegroups.com](mailto:erasinginvisib
+le@googlegroups.com) or [furongh@umd.edu](mailto:furongh@umd.edu)
+```
+---
+
+     
+ 
+all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-20-0912
 ```
 Qualifications: B. Tech. CSE (Tier-3 private college)   
 YOE: 1  
@@ -13,7 +64,7 @@ ow do I start, I'd really appreciate some feedback regarding this.
 
      
  
-all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-19-0912
+all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-20-0912
 ```
 
 ```
@@ -21,7 +72,7 @@ all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https:/
 
      
  
-all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-19-0912
+all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-20-0912
 ```
 Would I be able to submit to both neurips solar and coling 2025? Coling’s policy is no journals or conferences but solar
  is a workshop and it allows dual submission.
@@ -30,7 +81,7 @@ Would I be able to submit to both neurips solar and coling 2025? Coling’s poli
 
      
  
-all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-19-0912
+all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-20-0912
 ```
 Hey. It is the time of the year where everyone's excited for our upcoming session. Welcome to UCSD and I hope you are do
 ing great. As a senior, I have been exposed to various handy tools to navigate college life. Here are my recommendations
@@ -83,7 +134,7 @@ t. Have fun. Went through 4 years and a lot of memories.
 
      
  
-all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-19-0912
+all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-20-0912
 ```
 Hey, everyone.  
 Sorry for asking a noob question.  
@@ -98,7 +149,7 @@ ere any deadline we have to maintain for this kind of scenario. The main review 
 
      
  
-all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-19-0912
+all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-20-0912
 ```
 Hi everyone, 
 
@@ -130,7 +181,7 @@ encountered other similar cases ?
 
      
  
-all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-19-0912
+all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-20-0912
 ```
 I've been studying a \[paper\]\[1\] (Smoothness, Low-Noise and Fast Rates) on the impact of smoothness on the convergenc
 e rate of online-to-batch conversion, specifically Theorem 2, which provides a bound on the average regret in the contex
@@ -206,7 +257,7 @@ ckexchange.com/questions/4966362/derivation-of-the-upper-bound-of-the-average-re
 
      
  
-all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-19-0912
+all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-20-0912
 ```
 I'm an incoming Math+CS freshman at a decent research uni and I've been looking at some labs at my school. I've been loo
 king at the profiles of students accepted to top ml grad schools and a lot of them, on top of having near-perfect GPAs, 
@@ -227,7 +278,7 @@ Does it always feel this daunting, and is their anything I can do to increase
 
      
  
-all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-19-0912
+all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-20-0912
 ```
 Hello,
 
@@ -254,7 +305,7 @@ PS: Not here for farming anything just genuinely confused and exhausted.
 
      
  
-all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-19-0912
+all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-20-0912
 ```
 I'm in the process of realistically accessing my chances for an MBA post my service. I would request any feedback and/or
  guidance on it. I was considering T15.
@@ -282,7 +333,7 @@ Thanks
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-19-0912
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-20-0912
 ```
 # Best AI Writing Detectors in 2024
 
@@ -629,7 +680,7 @@ ors** also function as **plagiarism checkers**. Lastly, these tools can enhance 
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-19-0912
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-20-0912
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1176,7 +1227,7 @@ i-generated content** can be improved
 
      
  
-all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-19-0912
+all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-20-0912
 ```
 Interested in ML research? Apply to Cornell University Artificial Intelligence (CUAI)!
 
@@ -1215,7 +1266,7 @@ advisors!
 
      
  
-all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-19-0912
+all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-20-0912
 ```
 This semester I am in a Neural Networks class and I need to do a project. The project is a 1h presentation of a semi-rec
 ent NeurIPS/ICLM/COLT paper (or similar) + a 30min presentation of some numerical experiments (computations) of the pape
@@ -1234,7 +1285,7 @@ stion. That would be much appreciated :)
 
      
  
-all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-19-0912
+all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-20-0912
 ```
 What is the rule for updating your paper during the rebuttal/discussions phase for a conference?  
 Some conferences expl
@@ -1264,7 +1315,7 @@ rs: is it better if the author makes the changes and uploads new version of the 
 
      
  
-all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-19-0912
+all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-20-0912
 ```
 [https://www.reddit.com/r/clickup/comments/11pid2g/drag\_and\_drop\_tasks\_from\_list\_view\_to\_the\_clickup/](https://
 www.reddit.com/r/clickup/comments/11pid2g/drag_and_drop_tasks_from_list_view_to_the_clickup/)
@@ -1291,7 +1342,7 @@ https://preview.redd.it/s5j00wxo8gld1.png?width=960&format=png&auto
 
      
  
-all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-19-0912
+all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-20-0912
 ```
 Hey everyone,
 
@@ -1370,177 +1421,6 @@ tly appreciated!
 # Open to other alternative suggestions too!
 
 Thanks!
-```
----
-
-     
- 
-all -  [ Llama-3.1-Storm-8B has arrived! A new 8B parameter LLM that outperforms Meta Llama-3.1-8B-Instruct a ](https://www.reddit.com/r/LocalLLaMA/comments/1ew7kwu/llama31storm8b_has_arrived_a_new_8b_parameter_llm/) , 2024-09-19-0912
-```
-🚀 Llama-3.1-Storm-8B has arrived! Our new 8B LLM pushes the boundaries of what's possible with smaller language models.
-
-
-[Llama-3.1-Storm-8B Model Performance](https://preview.redd.it/nsae3t1kmnjd1.png?width=7170&format=png&auto=webp&s=239e
-2d373deb77d133b8cc38e29c65b5b29ae1ac)
-
-  
-**Update: Model is available on Ollama:** [https://www.reddit.com/r/LocalLLaMA
-/comments/1exik30/llama31storm8b\_model\_is\_available\_on\_ollama/](https://www.reddit.com/r/LocalLLaMA/comments/1exik3
-0/llama31storm8b_model_is_available_on_ollama/)  
-  
-**Key strengths:**
-
-* Improved Instruction Following: IFEval Strict
- (+3.93%)
-* Enhanced Knowledge-driven QA: GPQA (+7.21%), MMLU-Pro (+0.55%), AGIEval (+3.77%)
-* Better Reasoning Capabili
-ties: ARC-C (+3.92%), MuSR (+2.77%), BBH (+1.67%), AGIEval (+3.77%)
-* Superior Agentic Abilities:  BFCL Overall Acc (+7.
-92%), BFCL AST Summary (+12.32%)
-* Reduced Hallucinations:  TruthfulQA (+9%)
-
-**Applications:**
-
-* Perfect for GPU-Poor 
-AI developers. Build Smarter Chatbots, QA Systems, Reasoning Applications, and Agentic Workflows today! Llama-3.1 deriva
-tive, so research & commercial-friendly!
-* For startups building AI-powered products.
-* For researchers exploring method
-s to further push model performance.
-
-Built on our winning recipe in NeurIPS LLM Efficiency Challenge. Learn more: [http
-s://huggingface.co/blog/akjindal53244/llama31-storm8b](https://huggingface.co/blog/akjindal53244/llama31-storm8b)
-
-Start
- building with Llama-3.1-Storm-8B (available in BF16, Neural Magic FP8, and GGUF) today: [https://huggingface.co/collect
-ions/akjindal53244/storm-66ba6c96b7e24ecb592787a9](https://huggingface.co/collections/akjindal53244/storm-66ba6c96b7e24e
-cb592787a9)
-
-Integration guides for HF, vLLM, and Lightening AI LitGPT: [https://huggingface.co/akjindal53244/Llama-3.1-
-Storm-8B#%F0%9F%92%BB-how-to-use-the-model](https://huggingface.co/akjindal53244/Llama-3.1-Storm-8B#%F0%9F%92%BB-how-to-
-use-the-model)
-
-Llama-3.1-Storm-8B is our most valuable contribution so far towards the open-source community. If you re
-sonate with our work and want to be a part of the journey, **we're seeking both computational resources and innovative c
-ollaborators to push LLMs further!**
-
-X/Twitter announcement: [https://x.com/akjindal53244/status/1825578737074843802](h
-ttps://x.com/akjindal53244/status/1825578737074843802)
-```
----
-
-     
- 
-all -  [ ResShift 1-Click Windows, RunPod, Massed Compute, Kaggle Installers with Amazing Gradio APP and Batc ](https://www.reddit.com/r/SECourses/comments/1evpk7c/resshift_1click_windows_runpod_massed_compute/) , 2024-09-19-0912
-```
-**ResShift:** Efficient Diffusion Model for Image Super-resolution by Residual Shifting (NeurIPS 2023, Spotlight)
-
-Offic
-ial Repo : [https://github.com/zsyOAOA/ResShift](https://github.com/zsyOAOA/ResShift)
-
-I have developed a very advanced 
-Gradio APP.
-
-**Developed APP Scripts and Installers :** [**https://www.patreon.com/posts/110331752**](https://www.patreo
-n.com/posts/110331752)
-
-# Features
-
-
-
-* It supports following tasks:
-* Real-world image super-resolution
-* Bicubic (resi
-ze by Matlab) image super-resolution
-* Blind Face Restoration
-* Automatically saving all generated image with same name 
-+ numbering if necessary
-* Randomize seed feature for each generation
-* Batch image processing - give input and output f
-older paths and it batch process all images and saves
-* 1-Click to install on Windows, RunPod, Massed Compute and Kaggle
- (free account)
-
-
-
-# Windows Requirements
-
-
-
-* Python 3.10, FFmpeg, Cuda 11.8, C++ tools and Git
-* If it doesn't work ma
-ke sure to below tutorial and install everything exactly as shown in this below tutorial
-* [https://youtu.be/-NjNy7afOQ0
-](https://youtu.be/-NjNy7afOQ0)
-
-
-
-# How to Install on Windows
-
-
-
-* Make sure that you have the above requirements
-* Ext
-ract files into a folder like c:/reshift\_v1
-* Double click Windows\_Install.bat and it will automatically install every
-thing for you with an isolated virtual environment folder (VENV)
-* After that double click Windows\_Start\_app.bat and s
-tart the app
-* When you first time use a task it will download necessary models (all under 500 MB) into accurate folders
-
-* If during download it fails, file gets corrupted sadly it doesn't verify that so delete files inside weights and rest
-art
-
-
-
-# How to Install on RunPod, Massed Compute, Kaggle
-
-
-
-* Follow the Massed\_Compute\_Instructions\_READ.txt and Ru
-npod\_Instructions\_READ.txt
-* For Kaggle follow the notebook written steps
-* An example video of how to use my RunPod, 
-Massed Compute scripts and Kaggle notebook can be seen below watch it to learn
-* [https://youtu.be/wG7oPp01COg](https://
-youtu.be/wG7oPp01COg)
-
-
-
-# Some Screenshots
-
-https://preview.redd.it/4i5kfpbuvijd1.png?width=3659&format=png&auto=webp&s
-=68d600cb86c856ab987fabf21238ee25d7cf3c93
-
-https://preview.redd.it/3q82htcuvijd1.png?width=3732&format=png&auto=webp&s=d
-abec8b84c0762a1ec535479ddd077eab56a1040
-
-https://preview.redd.it/07jnnobuvijd1.png?width=3842&format=png&auto=webp&s=0f0
-b8a82890d816d0703fc2d65b5917b26cfe153
-
-https://preview.redd.it/z5d5lpbuvijd1.png?width=3842&format=png&auto=webp&s=01061
-bba6840a4013ba3ea75fd03b78f2d522931
-
-https://preview.redd.it/jh2ovxcuvijd1.png?width=3842&format=png&auto=webp&s=baab64f
-a4a59d6001282ab3d462ce26492fbe05a
-
-https://preview.redd.it/i3fgvucuvijd1.png?width=3842&format=png&auto=webp&s=089727493
-ad526dfbdd46ec52b5f27da448979fc
-
-https://preview.redd.it/anqj4zcuvijd1.png?width=3842&format=png&auto=webp&s=c4c2119fe01
-2b2508d8556d905ddbe08e7056b90
-
-https://preview.redd.it/bsxe0wcuvijd1.png?width=2000&format=png&auto=webp&s=647d5982c0ac4
-9dd880823eca00b4869799b8676
-
-https://preview.redd.it/8yvuvtbuvijd1.png?width=1984&format=png&auto=webp&s=72d2a3fb24ce08b
-70206f027f2af335fa4539215
-
-# 
-
-
-
-# 
 ```
 ---
 
