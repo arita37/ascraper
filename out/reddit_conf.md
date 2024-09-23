@@ -1,5 +1,5 @@
  
-all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-09-22-0914
+all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-09-23-0913
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -50,7 +50,7 @@ e accessible to both beginners and experts in the field.
 
      
  
-all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-09-22-0914
+all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-09-23-0913
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -127,7 +127,7 @@ erts in the field.
 
      
  
-all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-09-22-0914
+all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-09-23-0913
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -167,7 +167,7 @@ By contributing, you'll help make advanced research more accessible to both begi
 
      
  
-all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-09-22-0914
+all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-09-23-0913
 ```
 **The Vision Language Group at IIT Roorkee** has put together an awesome repository of **comprehensive summaries** for d
 eep learning papers from top conferences like **NeurIPS, CVPR, ICCV, ICML (2016-2024)**. These summaries break down key 
@@ -204,7 +204,7 @@ Happy reading! 🎉
 
      
  
-all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-09-22-0914
+all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-09-23-0913
 ```
 We're excited to announce the NeurIPS competition '**Erasing the Invisible: A Stress-Test Challenge for Image Watermarks
 **' running from **September 16 to November 5**. This is your chance to test your skills in a cutting-edge domain and wi
@@ -255,7 +255,7 @@ le@googlegroups.com) or [furongh@umd.edu](mailto:furongh@umd.edu)
 
      
  
-all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-22-0914
+all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-23-0913
 ```
 Qualifications: B. Tech. CSE (Tier-3 private college)   
 YOE: 1  
@@ -269,7 +269,7 @@ ow do I start, I'd really appreciate some feedback regarding this.
 
      
  
-all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-22-0914
+all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-23-0913
 ```
 
 ```
@@ -277,7 +277,7 @@ all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https:/
 
      
  
-all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-22-0914
+all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-23-0913
 ```
 Would I be able to submit to both neurips solar and coling 2025? Coling’s policy is no journals or conferences but solar
  is a workshop and it allows dual submission.
@@ -286,7 +286,7 @@ Would I be able to submit to both neurips solar and coling 2025? Coling’s poli
 
      
  
-all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-22-0914
+all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-23-0913
 ```
 Hey. It is the time of the year where everyone's excited for our upcoming session. Welcome to UCSD and I hope you are do
 ing great. As a senior, I have been exposed to various handy tools to navigate college life. Here are my recommendations
@@ -339,7 +339,7 @@ t. Have fun. Went through 4 years and a lot of memories.
 
      
  
-all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-22-0914
+all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-23-0913
 ```
 Hey, everyone.  
 Sorry for asking a noob question.  
@@ -354,7 +354,7 @@ ere any deadline we have to maintain for this kind of scenario. The main review 
 
      
  
-all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-22-0914
+all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-23-0913
 ```
 Hi everyone, 
 
@@ -386,7 +386,7 @@ encountered other similar cases ?
 
      
  
-all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-22-0914
+all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-23-0913
 ```
 I've been studying a \[paper\]\[1\] (Smoothness, Low-Noise and Fast Rates) on the impact of smoothness on the convergenc
 e rate of online-to-batch conversion, specifically Theorem 2, which provides a bound on the average regret in the contex
@@ -462,7 +462,7 @@ ckexchange.com/questions/4966362/derivation-of-the-upper-bound-of-the-average-re
 
      
  
-all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-22-0914
+all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-23-0913
 ```
 I'm an incoming Math+CS freshman at a decent research uni and I've been looking at some labs at my school. I've been loo
 king at the profiles of students accepted to top ml grad schools and a lot of them, on top of having near-perfect GPAs, 
@@ -483,7 +483,7 @@ Does it always feel this daunting, and is their anything I can do to increase
 
      
  
-all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-22-0914
+all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-23-0913
 ```
 Hello,
 
@@ -510,7 +510,7 @@ PS: Not here for farming anything just genuinely confused and exhausted.
 
      
  
-all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-22-0914
+all -  [ Military Pilot  ](https://www.reddit.com/r/MBA/comments/1f78nqc/military_pilot/) , 2024-09-23-0913
 ```
 I'm in the process of realistically accessing my chances for an MBA post my service. I would request any feedback and/or
  guidance on it. I was considering T15.
@@ -538,7 +538,7 @@ Thanks
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-22-0914
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-23-0913
 ```
 # Best AI Writing Detectors in 2024
 
@@ -885,7 +885,7 @@ ors** also function as **plagiarism checkers**. Lastly, these tools can enhance 
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-22-0914
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-23-0913
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1432,7 +1432,7 @@ i-generated content** can be improved
 
      
  
-all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-22-0914
+all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-23-0913
 ```
 Interested in ML research? Apply to Cornell University Artificial Intelligence (CUAI)!
 
@@ -1471,7 +1471,7 @@ advisors!
 
      
  
-all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-22-0914
+all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-23-0913
 ```
 This semester I am in a Neural Networks class and I need to do a project. The project is a 1h presentation of a semi-rec
 ent NeurIPS/ICLM/COLT paper (or similar) + a 30min presentation of some numerical experiments (computations) of the pape
@@ -1490,7 +1490,7 @@ stion. That would be much appreciated :)
 
      
  
-all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-22-0914
+all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-23-0913
 ```
 What is the rule for updating your paper during the rebuttal/discussions phase for a conference?  
 Some conferences expl
@@ -1520,7 +1520,7 @@ rs: is it better if the author makes the changes and uploads new version of the 
 
      
  
-all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-22-0914
+all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-23-0913
 ```
 [https://www.reddit.com/r/clickup/comments/11pid2g/drag\_and\_drop\_tasks\_from\_list\_view\_to\_the\_clickup/](https://
 www.reddit.com/r/clickup/comments/11pid2g/drag_and_drop_tasks_from_list_view_to_the_clickup/)
@@ -1547,7 +1547,7 @@ https://preview.redd.it/s5j00wxo8gld1.png?width=960&format=png&auto
 
      
  
-all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-22-0914
+all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-23-0913
 ```
 Hey everyone,
 
