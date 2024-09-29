@@ -1,5 +1,21 @@
  
-all -  [ Post-PhD Education for Quant ](https://www.reddit.com/r/quantfinance/comments/1fpewtu/postphd_education_for_quant/) , 2024-09-28-0912
+all -  [ Merit of high level research publication ](https://www.reddit.com/r/ApplyingToCollege/comments/1fr97j4/merit_of_high_level_research_publication/) , 2024-09-29-0914
+```
+How much will a first-author **workshop** paper acceptance (not main conference) at a prestigious venue like NeurIPS (1s
+t one): [https://scholar.google.com/citations?view\_op=top\_venues&hl=en&vq=eng\_artificialintelligence](https://scholar
+.google.com/citations?view_op=top_venues&hl=en&vq=eng_artificialintelligence) boost an Asian CS kids chances at top coll
+eges?
+
+Would this be considered on the same tier as ISEF or something of the sort. Is this enough to somewhat guarantee 
+admission into a top 10?
+
+Thanks
+```
+---
+
+     
+ 
+all -  [ Post-PhD Education for Quant ](https://www.reddit.com/r/quantfinance/comments/1fpewtu/postphd_education_for_quant/) , 2024-09-29-0914
 ```
 Please don't downvote. I already asked before in r/quant but you have to do that in a weekly thread and it's often hard 
 to get any answers. (I've never gotten a reply to date.) There doesn't seem to be rules against this kind of post in thi
@@ -97,7 +113,7 @@ nted as opposed to SWE-heavy (quant dev and the like)
 
      
  
-all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-09-28-0912
+all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-09-29-0914
 ```
 We're excited to share that our paper on BricksRL, a library of RL algorithms that can be trained and deployed on afford
 able, custom LEGO robots, has been accepted at NeurIPS 2024 as a spotlight paper!
@@ -141,7 +157,7 @@ https://preview.redd.it/1ghfs9t9l0rd1.jpg?width=2006&format=pjpg&auto=webp&s=86
 
      
  
-all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-09-28-0912
+all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-09-29-0914
 ```
 My initial reviewers addressed some weaknesses & concerns, but these were resolved in my rebuttals. They acknowledged an
 d raised their score. 
@@ -154,7 +170,7 @@ ything I can do to fix this program chair review?
 
      
  
-all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-09-28-0912
+all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-09-29-0914
 ```
 Hey everyone! Just a heads up that the NeurIPS 2024 decisions notification is set for September 26, 2024, at 3:00 AM CES
 T. I thought it’d be cool to create a thread where we can talk about it.
@@ -163,7 +179,7 @@ T. I thought it’d be cool to create a thread where we can talk about it.
 
      
  
-all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-09-28-0912
+all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-09-29-0914
 ```
 My goal with graduate school is to set myself up to launch a company that produces a system of swarm robots that coopera
 te to efficiently assemble orbital infrastructure; I believe the space industry is in the process of taking off and such
@@ -201,7 +217,7 @@ s in particular, what do you think best aligns with my goals? Thank you for any 
 
      
  
-all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-09-28-0912
+all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-09-29-0914
 ```
 Azalia Mirhoseini (CS) and Amin Saberi (Math) are jointly seeking a Post-Doc to join the [Scaling Intelligence Lab](http
 s://scalingintelligence.stanford.edu/pubs/) at Stanford, which focuses on the development of 'scalable and self-improvin
@@ -240,7 +256,7 @@ bl7I/edit)
 
      
  
-all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-09-28-0912
+all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-09-29-0914
 ```
 Hi folks!
 
@@ -272,7 +288,7 @@ Thanks for all the insight!
 
      
  
-all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-09-28-0912
+all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-09-29-0914
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -323,7 +339,7 @@ e accessible to both beginners and experts in the field.
 
      
  
-all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-09-28-0912
+all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-09-29-0914
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -400,7 +416,7 @@ erts in the field.
 
      
  
-all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-09-28-0912
+all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-09-29-0914
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -440,7 +456,7 @@ By contributing, you'll help make advanced research more accessible to both begi
 
      
  
-all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-09-28-0912
+all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-09-29-0914
 ```
 **The Vision Language Group at IIT Roorkee** has put together an awesome repository of **comprehensive summaries** for d
 eep learning papers from top conferences like **NeurIPS, CVPR, ICCV, ICML (2016-2024)**. These summaries break down key 
@@ -477,7 +493,7 @@ Happy reading! 🎉
 
      
  
-all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-09-28-0912
+all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-09-29-0914
 ```
 We're excited to announce the NeurIPS competition '**Erasing the Invisible: A Stress-Test Challenge for Image Watermarks
 **' running from **September 16 to November 5**. This is your chance to test your skills in a cutting-edge domain and wi
@@ -528,7 +544,7 @@ le@googlegroups.com) or [furongh@umd.edu](mailto:furongh@umd.edu)
 
      
  
-all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-28-0912
+all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-29-0914
 ```
 Qualifications: B. Tech. CSE (Tier-3 private college)   
 YOE: 1  
@@ -542,7 +558,7 @@ ow do I start, I'd really appreciate some feedback regarding this.
 
      
  
-all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-28-0912
+all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-29-0914
 ```
 
 ```
@@ -550,7 +566,7 @@ all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https:/
 
      
  
-all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-28-0912
+all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-29-0914
 ```
 Would I be able to submit to both neurips solar and coling 2025? Coling’s policy is no journals or conferences but solar
  is a workshop and it allows dual submission.
@@ -559,7 +575,7 @@ Would I be able to submit to both neurips solar and coling 2025? Coling’s poli
 
      
  
-all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-28-0912
+all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-29-0914
 ```
 Hey. It is the time of the year where everyone's excited for our upcoming session. Welcome to UCSD and I hope you are do
 ing great. As a senior, I have been exposed to various handy tools to navigate college life. Here are my recommendations
@@ -612,7 +628,7 @@ t. Have fun. Went through 4 years and a lot of memories.
 
      
  
-all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-28-0912
+all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-29-0914
 ```
 Hey, everyone.  
 Sorry for asking a noob question.  
@@ -627,7 +643,7 @@ ere any deadline we have to maintain for this kind of scenario. The main review 
 
      
  
-all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-28-0912
+all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-29-0914
 ```
 Hi everyone, 
 
@@ -659,7 +675,7 @@ encountered other similar cases ?
 
      
  
-all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-28-0912
+all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-29-0914
 ```
 I've been studying a \[paper\]\[1\] (Smoothness, Low-Noise and Fast Rates) on the impact of smoothness on the convergenc
 e rate of online-to-batch conversion, specifically Theorem 2, which provides a bound on the average regret in the contex
@@ -735,7 +751,7 @@ ckexchange.com/questions/4966362/derivation-of-the-upper-bound-of-the-average-re
 
      
  
-all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-28-0912
+all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-29-0914
 ```
 I'm an incoming Math+CS freshman at a decent research uni and I've been looking at some labs at my school. I've been loo
 king at the profiles of students accepted to top ml grad schools and a lot of them, on top of having near-perfect GPAs, 
@@ -756,7 +772,7 @@ Does it always feel this daunting, and is their anything I can do to increase
 
      
  
-all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-28-0912
+all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-29-0914
 ```
 Hello,
 
@@ -783,7 +799,7 @@ PS: Not here for farming anything just genuinely confused and exhausted.
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-28-0912
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-29-0914
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1130,7 +1146,7 @@ ors** also function as **plagiarism checkers**. Lastly, these tools can enhance 
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-28-0912
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-29-0914
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1677,7 +1693,7 @@ i-generated content** can be improved
 
      
  
-all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-28-0912
+all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-29-0914
 ```
 Interested in ML research? Apply to Cornell University Artificial Intelligence (CUAI)!
 
@@ -1716,7 +1732,7 @@ advisors!
 
      
  
-all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-28-0912
+all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-29-0914
 ```
 This semester I am in a Neural Networks class and I need to do a project. The project is a 1h presentation of a semi-rec
 ent NeurIPS/ICLM/COLT paper (or similar) + a 30min presentation of some numerical experiments (computations) of the pape
@@ -1735,7 +1751,7 @@ stion. That would be much appreciated :)
 
      
  
-all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-28-0912
+all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-29-0914
 ```
 What is the rule for updating your paper during the rebuttal/discussions phase for a conference?  
 Some conferences expl
@@ -1760,117 +1776,6 @@ on of the paper.*.. *As per you suggestion, we made changes on page 2 in the rev
 So is it th
 at authors just ignore the official statements from the conferences and decide to upload revisions? Also for the reviewe
 rs: is it better if the author makes the changes and uploads new version of the paper during the rebuttal phase?
-```
----
-
-     
- 
-all -  [ Drag tasks into calendar ](https://www.reddit.com/r/clickup/comments/1f3hsa5/drag_tasks_into_calendar/) , 2024-09-28-0912
-```
-[https://www.reddit.com/r/clickup/comments/11pid2g/drag\_and\_drop\_tasks\_from\_list\_view\_to\_the\_clickup/](https://
-www.reddit.com/r/clickup/comments/11pid2g/drag_and_drop_tasks_from_list_view_to_the_clickup/)
-
-  
-I'm looking to follow 
-up on this. I would like to be able to drag my tasks (from a drop down view) into a slot in the calendar.
-
-  
-Maybe this
- can be done by creating a View which is List + Calendar. If this is the case, we should be able to drag tasks into the 
-Calendar, and schedule it.
-
-  
-And we can have this work for mobile also. Amazing Marvin has a view like the below, wher
-e you can drop down and drag a task into your week.
-
-https://preview.redd.it/s5j00wxo8gld1.png?width=960&format=png&auto
-=webp&s=10ac1daac8baa43dfb814772f9eb4c1284ae3056
-
-
-```
----
-
-     
- 
-all -  [ Seeking Guidance on Breaking into ML Research & Publishing Papers ](https://www.reddit.com/r/MLQuestions/comments/1f35lyl/seeking_guidance_on_breaking_into_ml_research/) , 2024-09-28-0912
-```
-Hey everyone,
-
-# Getting into a good ML Job
-
-I want to get into a good research position to gain exposure to ML research
- from top ML research companies in the world to gain exposure and work on smaller specific niche startups to solve some 
-problems. Now the problem is that I ONLY have a *CS&E degree in Computer Engineering*, in contrast to a 5-10 year experi
-enced PhD principal research engineer-like position in a company that insists on getting a PhD candidate only. These com
-panies often insist on hiring PhD graduates because they bring a deep level of expertise and a proven track record in re
-search.
-
-# Problems with PhD
-
-When it comes to pursuing a PhD, I’m running into another set of challenges. Top universit
-ies around the world typically admit students based on impressive resumes - which include achievements like - (1) awards
- from prestigious conferences, (2) published research papers, and (3) strong letters of recommendation from prominent pr
-ofessors and there's a lot of competition too. Unfortunately, my situation is quite different.
-
-My college school was a 
-very ordinary one - I don't think we have some of the world's most prominent teachers who can write referrals or strong 
-endorsements and I never had any award in my life before in an ML or Academic degree before (at least the prominent ones
-) to show them. I haven’t received any major awards in Machine Learning or academia that could make my application stand
- out. This puts me at a disadvantage compared to the top candidates, who often have resumes filled with numerous accolad
-es, dozens of published papers in collaboration with renowned researchers, and strong recommendations from leading figur
-es in the field. Moreover, I don’t currently have a mentor or an experienced individual to guide me through the process 
-of achieving these goals. This lack of mentorship adds to the pressure I’m feeling, as I’m trying to compete against som
-e of the best and brightest minds who have had access to far more resources and support.  
-To complicate things further,
- I live in a small town, and as the only child of retired parents, I have financial responsibilities to support them. Th
-is means I can’t afford to be away for an extended period, such as the 5-6 years it typically takes to complete a PhD in
- the US or Europe. Given my family obligations, pursuing a long-term PhD abroad is not a feasible option for me.
-
-# My c
-urrent approach to solving the mess - getting a PhD
-
-I’m in a small town, supporting retired parents, so I can’t commit 
-to a long PhD abroad. So I had only two axes out of three where I seem to improve myself - *one is to write some good pa
-pers into top journals (like ICML, ICLR, NeurIPS, etc) and maintain a good GitHub repo as a good engineer.* 
-
-My GitHub 
-is by far average in attendance, but it is somewhat satisfactorily good enough and I trust my skills here - I can write 
-implementations from papers and optimize and compile them enough for real-world deployments, and optimizers. I'm good wi
-th reading papers and getting them on code quickly. Have a good idea of meta-programming and how big libraries work and 
-can easily get along with the codebase or port models across platforms/frameworks.
-
-My current plan is *to improve my pr
-ofile by publishing papers in top conferences like ICML, ICLR, and NeurIPS, and maintaining a strong GitHub repo*. Now t
-he problem is writing papers. I'm all okay with writing a few papers as a lone author. I understand it is very difficult
- to get the first paper into conferences like ICLR, and NeurIPS in a single go, **but** **I'm open to all feedback and l
-earnings all along and other adjacent papers from where I can learn things easily.**
-
-# Need Suggestion - Are there rela
-ted papers/areas/fields that'd help me?
-
-Currently, I've compute restrictions and have been carrying out with free resou
-rces. So, I've some limitations in the areas - more aligned towards theoretical problems than actual practical ones (tha
-t require more compute and resources!), although I can work in any area related to language processing or computer visio
-n.
-
-I’m limited by compute resources, so I’m focusing on more theoretical areas. **So, I'm open to all the suggestions f
-or the areas where I can work with less compute and isn't very hard to start.** I've found a few areas like:
-
-1. Interpr
-etability of the transformer-based language models - using probability circuits, and custom languages to interpret their
- hidden mechanism and workings. 
-2. Problem-solving using instructions (Tree-of-Thoughts, Chain-of-Thoughts, etc) - thei
-r theoretical analysis, study and different variations. 
-3. Interpretation or eval aspects of Language models - their em
-ergent abilities, locality, etc.
-
-I’m worried about being too theoretical, as big ML orgs lean towards practical work. A
-ny advice on how to proceed, or suggestions for areas that are less compute-intensive but still impactful, would be grea
-tly appreciated!
-
-# Open to other alternative suggestions too!
-
-Thanks!
 ```
 ---
 
