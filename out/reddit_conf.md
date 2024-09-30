@@ -1,5 +1,132 @@
  
-all -  [ Merit of high level research publication ](https://www.reddit.com/r/ApplyingToCollege/comments/1fr97j4/merit_of_high_level_research_publication/) , 2024-09-29-0914
+all -  [ [R] optimizing transformers ](https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/) , 2024-09-30-0913
+```
+Hello, I’m currently aiming to work on optimizing transformer models, specifically in multi-view images and/or cross-att
+ention networks. I've noticed that cross-attention layers add up a lot of parameters, which can slow down the training p
+rocess. I’m exploring ways to reduce the computational complexity to increase the speed (for now and subsequently withou
+t sacrificing too much performance sometime later). I'm starting to look into:
+
+1. low-rank matrix factorization - I’ve 
+been reading about how it can be applied to reduce the size of the projection matrices (e.g., the projq, projk, projv in
+ cross-attention). Does anyone have experience using low-rank factorization specifically in cross-attention mechanisms?
+
+2. other param reduction techniques - Aside from low-rank factorization, are there other methods I could explore for red
+ucing the number of parameters in transformer models, like sparsity and pruning—do you have recommendations or experienc
+es with these?
+3. overcoming redundancy in multi-view scenarios - Given the multi-view nature of my problem, I suspect t
+here’s some redundancy in how cross-attention processes the different views. Has anyone worked on reducing redundancy ac
+ross views in transformer-based networks? What techniques worked best for you?
+
+I’m starting to look into CVPR, NEURIPS,
+ ECCV, etc, but any insights, advise, experiences, or papers you can share would be greatly appreciated! Thanks in advan
+ce!
+```
+---
+
+     
+ 
+all -  [ 人大附高中生中NeurIPS，入选高中赛道Spotlight，顶会真卷到中学了 ](https://www.reddit.com/r/real_China_irl/comments/1fs0z7a/人大附高中生中neurips入选高中赛道spotlight顶会真卷到中学了/) , 2024-09-30-0913
+```
+NeurIPS 2024放榜，人大附中有高中生一作入选。
+
+今年，NeurIPS率先把AI顶会卷到了高中里，正式面向高中生征集论文，还为此专门设置了高中生赛道（High School Projects Track）。
+
+现在结果终于出炉，北
+京大学计算机学院的张铭教授分享了一则入围消息：
+
+人大附中吴悠，有一篇一作论文入选该赛道，还被选为了Spotlight Project。
+
+
+
+论文题为《Vision-Braille：An End-to-End Tool for Chine
+se Braille Image-to-Text Translation》，提出了一种中文盲文图像到文本的端到端翻译工具。
+
+据张铭教授介绍，吴悠在2022年高一加入她的课题组时，就提出了这个项目的想法。
+
+
+
+# 端到端中文盲文图像到文本
+翻译工具
+
+具体来说，该项目基于谷歌的mT5模型，采用Curriculum Learning（课程学习）方法微调出了一个盲文翻译模型。
+
+
+
+其中的难点主要包括几个方面：
+
+缺少数据集：中文盲文翻译数据集非常稀缺，数据的采集也比较困难，需要
+耗费大量人力。
+
+盲文数据的特殊性：盲文通过最多三个单元格来表示每个汉字的发音，即声母、韵母和音调。但在实际使用中，盲文使用者通常会省略大部分声调符号，这给盲文翻译带来了挑战。
+
+同音字混淆：中文中存在大量同音字，并且由于声调符号经常被省略
+，同音字的区分变得更加困难。
+
+为此，论文作者们首先构建了一组中文-盲文数据集，包括Chinese-Braille-Full-Tone、Chinese-Braille-No-Tone和Chinese-Braille-10per-Tone。
+
+
+作者从莱比锡数据集中收集了100万个不同的中文句子，使用中文盲文在线平台提供的工具，将收集到的中文句子转换为“全音”盲文。
+
+而后，为了模拟真实世界中盲文使用者省略声调的情况，作者识别出这些盲文中代表声调的部分，并随机去除了其中90%的声
+调，创建Chinese-Braille-10per-Tone以反映现实世界中中文盲文的使用情况。
+
+数据按照8:1:1的比例被划分为训练集、验证集和测试集。
+
+
+
+训练方法方面，作者使用RetinaNet来执行盲文OCR任务，将盲文图像转换
+为数字盲文字符。
+
+接着，采用课程学习策略——即从简单到复杂地安排训练任务，分三个阶段微调了多语言Transformer模型mT5：
+
+第一阶段：使用Chinese-Braille-Full-Tone数据集作为训练的简单部分，让模型学习基本
+的翻译规则。这个数据集中的盲文包含完整的声调信息。
+
+第二阶段：使用Chinese-Braille-No-Tone数据集，让模型在没有声调信息的情况下，学会根据上下文猜测正确的中文字符。
+
+第三阶段：使用Chinese-Braille-10
+per-Tone数据集，让模型更好地适应实际应用场景。
+
+实验结果显示，在验证集和测试集上，该模型的BLEU得分分别达到了62.4和62.3，显著提高了盲文翻译的准确度。
+
+论文作者已经放出了项目Demo，效果是酱婶的，感兴趣的小伙伴们可以
+戳文末链接自行测试：
+
+
+
+（正确答案：不过，对于自己外向的性格，埃托奥说，“这就是真实的我，我不会为此改变。）
+
+该项目是在吴悠高三时完成。张铭教授透露，他目前已进入康奈尔大学就读计算机和生物医药工程专业。
+
+论文致谢中提到，吴悠主要是在
+张铭教授博士生、论文第二作者袁野的指导下完成了这项研究。
+
+张铭，北京大学计算机学院教授，博士生导师，研究领域包括文本挖掘、知识图谱、图神经网络和计算机教育研究等。她合作发表的科研学术论文曾获ICML 2014最佳论文、ICDM 2022最
+佳论文提名等荣誉。Google Scholar显示，她的论文引用量接近2万，h指数为48。
+
+# NeurIPS高中生赛道
+
+NeurIPS是今年刚设的“高中生赛道”，主要征集“机器学习的社会影响”方向的论文。
+
+
+
+公告是这样写的：
+
+>
+
+
+详细来说，就是允许高中生们找外部导师来合作完成项目，但必须把导师以及合作者的贡献，和高中生作者的贡献区分开来。
+
+公告中还规定了，作者需要提交高中在读证明，所有补充材料均应完全由作者完成，包括视频、Demo、海报、网站或源代码。
+
+值得
+一提的是，其他顶会也有积极接触和影响高中生的趋势。
+```
+---
+
+     
+ 
+all -  [ Merit of high level research publication ](https://www.reddit.com/r/ApplyingToCollege/comments/1fr97j4/merit_of_high_level_research_publication/) , 2024-09-30-0913
 ```
 How much will a first-author **workshop** paper acceptance (not main conference) at a prestigious venue like NeurIPS (1s
 t one): [https://scholar.google.com/citations?view\_op=top\_venues&hl=en&vq=eng\_artificialintelligence](https://scholar
@@ -15,7 +142,7 @@ Thanks
 
      
  
-all -  [ Post-PhD Education for Quant ](https://www.reddit.com/r/quantfinance/comments/1fpewtu/postphd_education_for_quant/) , 2024-09-29-0914
+all -  [ Post-PhD Education for Quant ](https://www.reddit.com/r/quantfinance/comments/1fpewtu/postphd_education_for_quant/) , 2024-09-30-0913
 ```
 Please don't downvote. I already asked before in r/quant but you have to do that in a weekly thread and it's often hard 
 to get any answers. (I've never gotten a reply to date.) There doesn't seem to be rules against this kind of post in thi
@@ -113,7 +240,7 @@ nted as opposed to SWE-heavy (quant dev and the like)
 
      
  
-all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-09-29-0914
+all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-09-30-0913
 ```
 We're excited to share that our paper on BricksRL, a library of RL algorithms that can be trained and deployed on afford
 able, custom LEGO robots, has been accepted at NeurIPS 2024 as a spotlight paper!
@@ -157,7 +284,7 @@ https://preview.redd.it/1ghfs9t9l0rd1.jpg?width=2006&format=pjpg&auto=webp&s=86
 
      
  
-all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-09-29-0914
+all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-09-30-0913
 ```
 My initial reviewers addressed some weaknesses & concerns, but these were resolved in my rebuttals. They acknowledged an
 d raised their score. 
@@ -170,7 +297,7 @@ ything I can do to fix this program chair review?
 
      
  
-all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-09-29-0914
+all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-09-30-0913
 ```
 Hey everyone! Just a heads up that the NeurIPS 2024 decisions notification is set for September 26, 2024, at 3:00 AM CES
 T. I thought it’d be cool to create a thread where we can talk about it.
@@ -179,7 +306,7 @@ T. I thought it’d be cool to create a thread where we can talk about it.
 
      
  
-all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-09-29-0914
+all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-09-30-0913
 ```
 My goal with graduate school is to set myself up to launch a company that produces a system of swarm robots that coopera
 te to efficiently assemble orbital infrastructure; I believe the space industry is in the process of taking off and such
@@ -217,7 +344,7 @@ s in particular, what do you think best aligns with my goals? Thank you for any 
 
      
  
-all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-09-29-0914
+all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-09-30-0913
 ```
 Azalia Mirhoseini (CS) and Amin Saberi (Math) are jointly seeking a Post-Doc to join the [Scaling Intelligence Lab](http
 s://scalingintelligence.stanford.edu/pubs/) at Stanford, which focuses on the development of 'scalable and self-improvin
@@ -256,7 +383,7 @@ bl7I/edit)
 
      
  
-all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-09-29-0914
+all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-09-30-0913
 ```
 Hi folks!
 
@@ -288,7 +415,7 @@ Thanks for all the insight!
 
      
  
-all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-09-29-0914
+all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-09-30-0913
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -339,7 +466,7 @@ e accessible to both beginners and experts in the field.
 
      
  
-all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-09-29-0914
+all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-09-30-0913
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -416,7 +543,7 @@ erts in the field.
 
      
  
-all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-09-29-0914
+all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-09-30-0913
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -456,7 +583,7 @@ By contributing, you'll help make advanced research more accessible to both begi
 
      
  
-all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-09-29-0914
+all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-09-30-0913
 ```
 **The Vision Language Group at IIT Roorkee** has put together an awesome repository of **comprehensive summaries** for d
 eep learning papers from top conferences like **NeurIPS, CVPR, ICCV, ICML (2016-2024)**. These summaries break down key 
@@ -493,7 +620,7 @@ Happy reading! 🎉
 
      
  
-all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-09-29-0914
+all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-09-30-0913
 ```
 We're excited to announce the NeurIPS competition '**Erasing the Invisible: A Stress-Test Challenge for Image Watermarks
 **' running from **September 16 to November 5**. This is your chance to test your skills in a cutting-edge domain and wi
@@ -544,7 +671,7 @@ le@googlegroups.com) or [furongh@umd.edu](mailto:furongh@umd.edu)
 
      
  
-all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-29-0914
+all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-30-0913
 ```
 Qualifications: B. Tech. CSE (Tier-3 private college)   
 YOE: 1  
@@ -558,7 +685,7 @@ ow do I start, I'd really appreciate some feedback regarding this.
 
      
  
-all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-29-0914
+all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-30-0913
 ```
 
 ```
@@ -566,7 +693,7 @@ all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https:/
 
      
  
-all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-29-0914
+all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-30-0913
 ```
 Would I be able to submit to both neurips solar and coling 2025? Coling’s policy is no journals or conferences but solar
  is a workshop and it allows dual submission.
@@ -575,7 +702,7 @@ Would I be able to submit to both neurips solar and coling 2025? Coling’s poli
 
      
  
-all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-29-0914
+all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-30-0913
 ```
 Hey. It is the time of the year where everyone's excited for our upcoming session. Welcome to UCSD and I hope you are do
 ing great. As a senior, I have been exposed to various handy tools to navigate college life. Here are my recommendations
@@ -628,7 +755,7 @@ t. Have fun. Went through 4 years and a lot of memories.
 
      
  
-all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-29-0914
+all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-30-0913
 ```
 Hey, everyone.  
 Sorry for asking a noob question.  
@@ -643,7 +770,7 @@ ere any deadline we have to maintain for this kind of scenario. The main review 
 
      
  
-all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-29-0914
+all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-30-0913
 ```
 Hi everyone, 
 
@@ -675,7 +802,7 @@ encountered other similar cases ?
 
      
  
-all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-29-0914
+all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-30-0913
 ```
 I've been studying a \[paper\]\[1\] (Smoothness, Low-Noise and Fast Rates) on the impact of smoothness on the convergenc
 e rate of online-to-batch conversion, specifically Theorem 2, which provides a bound on the average regret in the contex
@@ -751,7 +878,7 @@ ckexchange.com/questions/4966362/derivation-of-the-upper-bound-of-the-average-re
 
      
  
-all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-29-0914
+all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-30-0913
 ```
 I'm an incoming Math+CS freshman at a decent research uni and I've been looking at some labs at my school. I've been loo
 king at the profiles of students accepted to top ml grad schools and a lot of them, on top of having near-perfect GPAs, 
@@ -772,7 +899,7 @@ Does it always feel this daunting, and is their anything I can do to increase
 
      
  
-all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-29-0914
+all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-30-0913
 ```
 Hello,
 
@@ -799,7 +926,7 @@ PS: Not here for farming anything just genuinely confused and exhausted.
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-29-0914
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-30-0913
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1146,7 +1273,7 @@ ors** also function as **plagiarism checkers**. Lastly, these tools can enhance 
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-29-0914
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-30-0913
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1693,7 +1820,7 @@ i-generated content** can be improved
 
      
  
-all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-29-0914
+all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-30-0913
 ```
 Interested in ML research? Apply to Cornell University Artificial Intelligence (CUAI)!
 
@@ -1727,55 +1854,6 @@ Finally, we will be holding an information session if applicants express enough 
 Check out our website 
 [cuai.github.io](https://cuai.github.io/) for more information, a list of past publications, and our affiliated faculty/
 advisors!
-```
----
-
-     
- 
-all -  [ [P] In need of paper suggestions. ](https://www.reddit.com/r/MachineLearning/comments/1f4fgr8/p_in_need_of_paper_suggestions/) , 2024-09-29-0914
-```
-This semester I am in a Neural Networks class and I need to do a project. The project is a 1h presentation of a semi-rec
-ent NeurIPS/ICLM/COLT paper (or similar) + a 30min presentation of some numerical experiments (computations) of the pape
-r.
-
-The thing is that this is a second course on Machine Learning from the same professor and he recommends that it has 
-to be related to the presentation we did last semester. In my case it was this: [https://arxiv.org/pdf/1705.07809](https
-://arxiv.org/pdf/1705.07809) which are bounds on the generalization using mutual information. The problem is that this p
-aper is too theoretical and is difficult to do numerical experiments.
-
-The professor agreed with me and suggested to do 
-something related to **algorithmic stability** and generalization instead. So I'm asking here if any of you have a sugge
-stion. That would be much appreciated :)
-```
----
-
-     
- 
-all -  [ [D] Updating paper during the rebuttal/discussion phase of a conference ](https://www.reddit.com/r/MachineLearning/comments/1f43dwv/d_updating_paper_during_the_rebuttaldiscussion/) , 2024-09-29-0914
-```
-What is the rule for updating your paper during the rebuttal/discussions phase for a conference?  
-Some conferences expl
-icitly say that this is not allowed.
-
-[NeurIPS Authors FAQ: ](https://neurips.cc/Conferences/2024/PaperInformation/NeurI
-PS-FAQ)  
-***Can we upload a revision of our paper during the rebuttal/discussion period?*** *No revisions are allowed u
-ntil the camera-ready stage.*
-
-[ICML Author instruction: ](https://icml.cc/Conferences/2024/AuthorInstructions)
-
-*There 
-is no option to upload a revised version of the paper during the author feedback period. Upon the acceptance of the pape
-r, it is up to the authors to include any changes to improve the paper (without essentially changing its content, compar
-ed to what the reviewers have seen) in the final, camera ready version of the paper.*
-
-However, when looking into papers
- on OpenReview from previous years, in the rebuttal answers many authors say: *We updated and uploaded the revised versi
-on of the paper.*.. *As per you suggestion, we made changes on page 2 in the revised version of the paper.*
-
-So is it th
-at authors just ignore the official statements from the conferences and decide to upload revisions? Also for the reviewe
-rs: is it better if the author makes the changes and uploads new version of the paper during the rebuttal phase?
 ```
 ---
 
