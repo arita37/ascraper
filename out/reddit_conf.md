@@ -1,5 +1,306 @@
  
-all -  [ [R] optimizing transformers ](https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/) , 2024-09-30-0913
+all -  [ Bringing Learning to Rank to Reddit - LTR modeling ](https://www.reddit.com/r/RedditEng/comments/1ft1tkw/bringing_learning_to_rank_to_reddit_ltr_modeling/) , 2024-10-01-0914
+```
+*Written by Sahand Akbari.*
+
+In the previous series of articles in the learning to rank series, we looked at how we set 
+up the [training data](https://www.reddit.com/r/RedditEng/comments/191nhka/bringing_learning_to_rank_to_reddit_search_go
+als/) for the ranking model, how we did [feature engineering](https://www.reddit.com/r/RedditEng/comments/191nhka/bringi
+ng_learning_to_rank_to_reddit_search_goals/), and [optimized our Solr clusters](https://www.reddit.com/r/RedditEng/comme
+nts/1efartq/bringing_learning_to_rank_to_reddit_search/) to efficiently run LTR at scale. In this post we will look at l
+earning to rank ML modeling, specifically how to create an effective objective function. 
+
+To recap, imagine we have the
+ following training data for a given query.
+
+|Query|Post ID|Post Title|F1: Terms matching post title|F2: Terms matching 
+posts body text|F3: Votes|Engagement Grade|
+|:-|:-|:-|:-|:-|:-|:-|
+|Cat memes|p1|Funny cat memes|2|1|30|0.9|
+|Cat memes|
+p2|Cat memes ?|2|2|1|0.5|
+|Cat memes|p3|Best wireless headphones|0|0|100|0|
+
+For simplicity, imagine our features in our
+ data are defined per each query-post pair and they are:
+
+* F1: Terms in the query matching the post title
+* F2: Terms i
+n the query matching the post body
+* F3: number of votes for this post
+
+Engagement grade is our label per query-post pai
+r. It represents our estimation of how relevant the post is for the given query. Let’s say it’s a value between 0 and 1 
+where 1 means the post is highly relevant and 0 means it’s completely irrelevant. Imagine we calculate the engagement gr
+ade by looking at the past week's data for posts redditors have interacted with and discarding posts with no user intera
+ction. We also add some irrelevant posts by randomly sampling a post id for a given query (i.e [negative sampling](https
+://www.reddit.com/r/RedditEng/comments/191nhka/bringing_learning_to_rank_to_reddit_search_goals/)). The last row in the 
+table above is a negative sample. Given this data, we define an engagement-based grade as our labels: click through rate
+ (CTR) for each query-post pair defined by ratio of total number of clicks on the post for the given query divided by to
+tal number of times redditors viewed that specific query-post pair.
+
+Now that we have our features and labels ready, we 
+can start training the LTR model. The goal of an LTR model is to predict a relevance score for each query-post pair such
+ that more relevant posts are ranked higher than less relevant posts. Since we don’t know the “true relevance” of a post
+, we approximate the true relevance with our engagement grade.
+
+One approach to predicting a relevance score for each qu
+ery-post is to train a supervised model which takes as input the features and learns to predict the engagement grade dir
+ectly.  In other words, we train a model so that its predictions are as close as possible to the engagement grade. We’ll
+ look closer at how that can be done. But first, let’s review a few concepts regarding supervised learning. If you alrea
+dy know how supervised learning and gradient descent work, feel free to skip to the next section.
+
+# Machine Learning cr
+ash course – Supervised Learning and Gradient Descent
+
+Imagine we have `d` features ordered in a vector (array) `x = [x1
+, x2, …, xd]`and a label `g`(grade). 
+
+Also for simplicity imagine that our model is a linear model that takes the input
+ `x` and predicts `y` as output:
+
+https://preview.redd.it/947okib4ezrd1.png?width=1096&format=png&auto=webp&s=9dc8a5656a
+a9ff520b42179259284c7273ca82e4
+
+We want to penalize the model when `y` is different from `g`. So we define a Loss functi
+on that measures that difference. An example loss function is squared error loss `(y-g)^2`. The closer `y` is to `g` the
+ smaller the loss is. 
+
+In training, we don’t have just one sample `(x, g)` but several thousands (or millions) of sampl
+es. Our goal is to change the weights `w` in a way that makes the loss function over all samples as small as possible.
+
+
+In the case of our simple problem and loss function we can have a [closed-form solution](https://en.wikipedia.org/wiki/C
+losed-form_expression) to this optimization problem, however for more complex loss functions and for practical reasons s
+uch as training on large amounts of data, there might not be an efficient closed-form solution. As long as the loss func
+tion is end-to-end differentiable and has other desired mathematical properties, one general way of solving this optimiz
+ation problem is using [stochastic gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) where we make a ser
+ies of small changes to weights `w` of the model. These changes are determined by the negative of the gradient of the lo
+ss function `L`. In other words, we take a series of small steps in the direction that minimizes `L`. This direction is 
+approximated at each step by taking the negative gradient of `L` with respect to `w` on a small subset of our dataset. 
+
+
+At the end of training, we have found a `w` that minimizes our Loss function to an acceptable degree, which means that 
+our predictions `y` are as close as possible to our labels `g` as measured by `L`. If some conditions hold, and we’ve tr
+ained a model that has learned true patterns in the data rather than the noise in the data, we'll be able to generalize 
+these predictions. In other words, we’ll be able to predict with reasonable accuracy on unseen data (samples not in our 
+training data).
+
+One thing to remember here is that the choice of weights `w` or more generally the model architecture (
+we could have a more complex model with millions or billions of weights) allows us to determine how to get from inputs t
+o the predictions. And the choice of loss function `L` allows us to determine what (objective) we want to optimize and h
+ow we define an accurate prediction with respect to our labels. 
+
+# Learning to rank loss functions
+
+Now that we got tha
+t out of the way, let’s discuss choices of architecture and loss. For simplicity, we assume we have a linear model. A li
+near model is chosen only for demonstration and we can use any other type of model (in our framework, it can be any end 
+to end differentiable model since we are using stochastic gradient descent as our optimization algorithm).
+
+https://prev
+iew.redd.it/xb09p119fzrd1.png?width=1096&format=png&auto=webp&s=a4914f2e67883df40b1fc5d75ad45287f895faa4
+
+An example los
+s function is `(y-g)^2`. The closer `y` is to `g` on average, the smaller the loss is. This is called a pointwise loss f
+unction, because it is defined for a single query-document sample. 
+
+While these types of loss functions allow our model
+ output to approximate the exact labels values (grades), this is not our primary concern in ranking. Our goal is to pred
+ict scores that produce the correct *rankings* regardless of the exact value of the *scores* (model predictions). For th
+is reason, [learning to rank](https://en.wikipedia.org/wiki/Learning_to_rank) differs from classification and regression
+ tasks which aim to approximate the label values directly. For the example data above, for the query “cat memes”, the ra
+nking produced by the labels is \[p1 - p2 - p3\]. An Ideal LTR loss function should penalize the predictions that produc
+e rankings that differ from the ranking above and reward the predictions that result in similar rankings.
+
+*Side Note: U
+sually in Machine learning models, loss functions express the “loss” or “cost” of making predictions, where cost of maki
+ng the right predictions is zero. So lower values of loss mean better predictions and we aim to minimize the loss.*
+
+*Pa
+irwise* loss functions allow us to express the correctness of the ranking between a pair of documents for a given query 
+by comparing the rankings produced by the model with rankings produced by the labels given a pair of documents. In the d
+ata above for example, p1 should be ranked higher than p2 as its engagement grade is higher. If our model prediction is 
+consistent, i.e. the predicted score for p1 is higher than p2, we don’t penalize the model. On the other hand, if p1’s s
+core is higher than p2, the loss function assigns a penalty.
+
+https://preview.redd.it/dp3ohw2nfzrd1.png?width=940&format
+=png&auto=webp&s=0e7d3eca8ce5d981bb68e98c405daaac08f99d75
+
+Loss for a given query `q` is defined as the sum of pairwise 
+losses for all pairs of documents `i,j`.
+
+`1(g_i > g_j)` is an indicator function. It evaluates to 1 when `g_i > g_j` an
+d to 0 otherwise. This means that if the grade of document `i` is larger than the grade of document `j`, the contributio
+n of `i,j` to loss is equal to `max(0, 1 - (y_i - y_j)).` In other words, if `g_i > g_j`, loss decreases as `(y_i - y_j)
+` increases because our model is ranking document `i` higher than document `j`. Loss increases when the model prediction
+ for document `j` is higher than document `i`. 
+
+One downside of using pairwise loss is the increase in computational co
+mplexity relative to pointwise solutions. For each query, we need to calculate the pairwise loss for distinct document p
+airs. For a query with `D` corresponding posts, the computation complexity is `O(D^2)` while for a pointwise solution it
+ is `O(D)`. In practice, we usually choose a predefined number of document pairs rather than calculating the loss for al
+l possible pairs.
+
+In summary, we calculate how much the pairwise difference of our model scores for a pair of documents
+ matches the relative ranking of the documents by labels (which one is better according to our grades). Then we sum the 
+loss for all such pairs to get the loss for the query. The loss of a given dataset of queries can be defined as the aggr
+egation of loss for each queries. 
+
+Having defined the loss function `L` and our model `f(x)`, our optimization algorith
+m (stochastic gradient descent) finds the optimal weights of the model (`w` and `b`)  that minimizes the loss for a set 
+of queries and corresponding documents. 
+
+In addition to pointwise and pairwise ranking loss functions, there's another 
+category known as *listwise*. Listwise ranking loss functions assess the entire ranked list, assigning non-zero loss to 
+any permutation that deviates from the ideal order. Loss increases with the degree of divergence. 
+
+These functions prov
+ide the most accurate formulation of the ranking problem, however, to compute a loss based on order of the ranked list, 
+the list needs to be sorted. Sorting is a non-differentiable and non-[convex](https://en.wikipedia.org/wiki/Convex_funct
+ion) function. This makes the gradient based optimization methods a non-viable solution. [Many studies](http://icml2008.
+cs.helsinki.fi/papers/167.pdf) have sought to create approximate listwise losses by either [directly](https://proceeding
+s.neurips.cc/paper/2021/file/b5200c6107fc3d41d19a2b66835c3974-Paper.pdf) approximating sorting with a differentiable fun
+ction or by defining an [approximate loss](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/SoftRankW
+sdm08Submitted.pdf) that penalizes deviations from the ideal permutation order. The other challenge with listwise approa
+ches is computationally complexity as these approaches need to maintain a model of permutation distribution which is fac
+torial in nature. In practice, there is usually a tradeoff between degree of approximation and computational complexity.
+
+
+For learning to rank at Reddit Search, we used a weighted pairwise loss called [LambdaRank](https://www.microsoft.com/
+en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf). The shortcoming of the pairwise hinge loss function defin
+ed above is that different pairs of documents are treated the same whereas in search ranking we usually care more about 
+higher ranked documents. LambdaRank defines a pairwise weight (i.e. LambdaWeight), dependent on positions of the documen
+ts, to assign an importance weight for each comparison. Our pairwise hinge loss with lambda weight becomes: 
+
+https://pr
+eview.redd.it/a70xg8f6hzrd1.png?width=1036&format=png&auto=webp&s=5f383fc396bd1328027b458ba20a41336df3b3e2
+
+There are di
+fferent ways to define the importance of comparisons. We use [NDCG lambda weight](https://www.tensorflow.org/ranking/api
+_docs/python/tfr/keras/losses/NDCGLambdaWeight) which calculates a weight proportionate to the degree of change in [NDCG
+](https://en.wikipedia.org/wiki/Discounted_cumulative_gain) after a swap is made in the comparison.
+
+*Side Note: We stil
+l need to sort the ranking list in order to calculate the LambdaWeight and since sorting is not a differentiable operati
+on, we must calculate the LambdaWeight component without gradients. In tensorflow, we can use* [*tf.stop\_gradient*](htt
+ps://github.com/tensorflow/ranking/blob/c46cede726fd453e0aaa6097871d23dc8e465bdc/tensorflow_ranking/python/losses_impl.p
+y#L882) *to achieve this.*
+
+One question that remains: how did we choose `f(x)`? We opted for a dense neural network (i.
+e. multi-layer perceptron). Solr supports the Dense Neural network architecture in the [Solr LTR plugin](https://solr.ap
+ache.org/docs/8_7_0/solr-ltr/org/apache/solr/ltr/model/NeuralNetworkModel.html) and we used [tensorflow-ranking](https:/
+/www.tensorflow.org/ranking) for training the ranker and exporting to the Solr LTR format. Practically, this allowed us 
+to use the tensorflow ecosystem for training and experimentation and running LTR at scale within Solr. While gradient bo
+osted trees such as [LambdaMart](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/MSR-TR-2010-82.pdf)
+ are popular architectures for learning to rank, using end-to-end differentiable neural networks allows us to have a mor
+e extensible architecture by enabling only minimal modifications to the optimization algorithm (i.e. stochastic gradient
+ descent) when adding new differentiable components to the model (such as semantic embeddings).   
+
+We have our model! S
+o how do we use it? 
+
+Imagine the user searches for “dog memes”. We have never seen this query and corresponding documen
+ts in our training data. This means that we don’t have any engagement grades. Our model trained by the Pairwise loss, ca
+n now predict scores for each query - document pair.  Sorting the model scores in a descending order will result in a ra
+nking of documents that will be returned to the user. 
+
+
+
+|Query|Post ID|Post Title|F1: Terms matching post title|F2: Te
+rms matching posts body|F3: Votes|Engagement Grade|Model Predicted Score|
+|:-|:-|:-|:-|:-|:-|:-|:-|
+|dog memes|p1|Funny 
+dog memes|2|1|30|?|10.5|
+|dog memes|p2|Dog memes|2|2|1|?|3.2|
+|dog memes|p3|Best restaurant in town?|0|0|100|?|0.1|
+
+# C
+onclusion
+
+In this post, we explored how learning-to-rank (LTR) objectives can be used to train a ranking model for sear
+ch results. We examined various LTR loss functions and discussed how we structure training data to train a ranking model
+ for Reddit Search. A good model produces rankings that put relevant documents at the top. How can we measure if a model
+ is predicting good rankings? We would need to define what “good” means and how to measure better rankings. This is some
+thing we aim to discuss in a future blog post. So stay tuned!
+```
+---
+
+     
+ 
+all -  [ MSCS FALL'25 Profile evaluation ](https://www.reddit.com/r/MSCS/comments/1ft08a6/mscs_fall25_profile_evaluation/) , 2024-10-01-0914
+```
+# Country:
+
+- From Pakistan
+
+# Undergraduate University:
+
+- Not good ranked  
+- CGPA: 3.43 / 4.0  
+- No Undergrad Thesis
+, a Final year project  
+- GRE (Not given, want to apply to unis which do not require GRE)
+
+# Industry Experience:
+
+- 3+
+ years total as a ML Engineer  
+- 1 internship at a startup  
+- working in a silicon valley startup as DeepLearning Engi
+neer for the past year  
+- AI Fellow at PI School of AI
+
+# Research Experience:
+
+- Research Collaborator at MIT Media La
+b, 1 paper published at NeurIPS, 1 under-review at ICLR. (I am not leading author in both)  
+- AI Research/Pre-doctoral 
+fellow at Fatima Fellowship (On-going, probably will publish my work by Dec)
+
+# Considering the following UNIs as they d
+o not require GRE in MS:
+
+- umass amherst  
+- john hopkins  
+- Virginia Tech  
+- Texas A&M  
+- ohio state  
+- uni of min
+nisota  
+- Darmouth  
+- UNC Walmington  
+- NorthEastern  
+- NorthWetern
+```
+---
+
+     
+ 
+all -  [ [D] Resources for staying updated on recent papers ](https://www.reddit.com/r/MachineLearning/comments/1fsx8q2/d_resources_for_staying_updated_on_recent_papers/) , 2024-10-01-0914
+```
+Hello, I’m looking for time-saving ways to stay updated on the latest research papers from conferences like CVPR, ECCV, 
+NeurIPS, ICML, and journals like TPAMI. I know these conferences/journals publish cutting-edge work, but keeping track o
+f all the new papers gets overwhelming at times. I’m interested in resources that summarize or highlight the most signif
+icant papers, like blogs, newsletters, or curated lists. Does anyone know of any:
+
+1. blogs or newsletters that regularl
+y cover the latest papers from these conferences and journals
+2. twitter discussions, subreddits, medium blogs, or perso
+nal websites run by researchers who highlight or summarize key papers (I've heard about paperswithcode and 2-minute pape
+rs but are they quick with such newly published papers?)
+3. curated paper repositories (github or any websites) where pe
+ople organize papers based on recent conferences/journals?
+
+I’m particularly interested in resources that focus on compu
+ter vision, neural network architectures, and their optimization. I’d appreciate any suggestions or tips. Thanks in adva
+nce!
+```
+---
+
+     
+ 
+all -  [ [R] optimizing transformers ](https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/) , 2024-10-01-0914
 ```
 Hello, I’m currently aiming to work on optimizing transformer models, specifically in multi-view images and/or cross-att
 ention networks. I've noticed that cross-attention layers add up a lot of parameters, which can slow down the training p
@@ -25,7 +326,7 @@ ce!
 
      
  
-all -  [ 人大附高中生中NeurIPS，入选高中赛道Spotlight，顶会真卷到中学了 ](https://www.reddit.com/r/real_China_irl/comments/1fs0z7a/人大附高中生中neurips入选高中赛道spotlight顶会真卷到中学了/) , 2024-09-30-0913
+all -  [ 人大附高中生中NeurIPS，入选高中赛道Spotlight，顶会真卷到中学了 ](https://www.reddit.com/r/real_China_irl/comments/1fs0z7a/人大附高中生中neurips入选高中赛道spotlight顶会真卷到中学了/) , 2024-10-01-0914
 ```
 NeurIPS 2024放榜，人大附中有高中生一作入选。
 
@@ -126,7 +427,7 @@ NeurIPS是今年刚设的“高中生赛道”，主要征集“机器学习的�
 
      
  
-all -  [ Merit of high level research publication ](https://www.reddit.com/r/ApplyingToCollege/comments/1fr97j4/merit_of_high_level_research_publication/) , 2024-09-30-0913
+all -  [ Merit of high level research publication ](https://www.reddit.com/r/ApplyingToCollege/comments/1fr97j4/merit_of_high_level_research_publication/) , 2024-10-01-0914
 ```
 How much will a first-author **workshop** paper acceptance (not main conference) at a prestigious venue like NeurIPS (1s
 t one): [https://scholar.google.com/citations?view\_op=top\_venues&hl=en&vq=eng\_artificialintelligence](https://scholar
@@ -142,7 +443,7 @@ Thanks
 
      
  
-all -  [ Post-PhD Education for Quant ](https://www.reddit.com/r/quantfinance/comments/1fpewtu/postphd_education_for_quant/) , 2024-09-30-0913
+all -  [ Post-PhD Education for Quant ](https://www.reddit.com/r/quantfinance/comments/1fpewtu/postphd_education_for_quant/) , 2024-10-01-0914
 ```
 Please don't downvote. I already asked before in r/quant but you have to do that in a weekly thread and it's often hard 
 to get any answers. (I've never gotten a reply to date.) There doesn't seem to be rules against this kind of post in thi
@@ -240,7 +541,7 @@ nted as opposed to SWE-heavy (quant dev and the like)
 
      
  
-all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-09-30-0913
+all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-10-01-0914
 ```
 We're excited to share that our paper on BricksRL, a library of RL algorithms that can be trained and deployed on afford
 able, custom LEGO robots, has been accepted at NeurIPS 2024 as a spotlight paper!
@@ -284,7 +585,7 @@ https://preview.redd.it/1ghfs9t9l0rd1.jpg?width=2006&format=pjpg&auto=webp&s=86
 
      
  
-all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-09-30-0913
+all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-10-01-0914
 ```
 My initial reviewers addressed some weaknesses & concerns, but these were resolved in my rebuttals. They acknowledged an
 d raised their score. 
@@ -297,7 +598,7 @@ ything I can do to fix this program chair review?
 
      
  
-all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-09-30-0913
+all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-10-01-0914
 ```
 Hey everyone! Just a heads up that the NeurIPS 2024 decisions notification is set for September 26, 2024, at 3:00 AM CES
 T. I thought it’d be cool to create a thread where we can talk about it.
@@ -306,7 +607,7 @@ T. I thought it’d be cool to create a thread where we can talk about it.
 
      
  
-all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-09-30-0913
+all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-10-01-0914
 ```
 My goal with graduate school is to set myself up to launch a company that produces a system of swarm robots that coopera
 te to efficiently assemble orbital infrastructure; I believe the space industry is in the process of taking off and such
@@ -344,7 +645,7 @@ s in particular, what do you think best aligns with my goals? Thank you for any 
 
      
  
-all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-09-30-0913
+all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-10-01-0914
 ```
 Azalia Mirhoseini (CS) and Amin Saberi (Math) are jointly seeking a Post-Doc to join the [Scaling Intelligence Lab](http
 s://scalingintelligence.stanford.edu/pubs/) at Stanford, which focuses on the development of 'scalable and self-improvin
@@ -383,7 +684,7 @@ bl7I/edit)
 
      
  
-all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-09-30-0913
+all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-10-01-0914
 ```
 Hi folks!
 
@@ -415,7 +716,7 @@ Thanks for all the insight!
 
      
  
-all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-09-30-0913
+all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-10-01-0914
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -466,7 +767,7 @@ e accessible to both beginners and experts in the field.
 
      
  
-all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-09-30-0913
+all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-10-01-0914
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -543,7 +844,7 @@ erts in the field.
 
      
  
-all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-09-30-0913
+all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-10-01-0914
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -583,7 +884,7 @@ By contributing, you'll help make advanced research more accessible to both begi
 
      
  
-all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-09-30-0913
+all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-10-01-0914
 ```
 **The Vision Language Group at IIT Roorkee** has put together an awesome repository of **comprehensive summaries** for d
 eep learning papers from top conferences like **NeurIPS, CVPR, ICCV, ICML (2016-2024)**. These summaries break down key 
@@ -620,7 +921,7 @@ Happy reading! 🎉
 
      
  
-all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-09-30-0913
+all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-10-01-0914
 ```
 We're excited to announce the NeurIPS competition '**Erasing the Invisible: A Stress-Test Challenge for Image Watermarks
 **' running from **September 16 to November 5**. This is your chance to test your skills in a cutting-edge domain and wi
@@ -671,7 +972,7 @@ le@googlegroups.com) or [furongh@umd.edu](mailto:furongh@umd.edu)
 
      
  
-all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-09-30-0913
+all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-10-01-0914
 ```
 Qualifications: B. Tech. CSE (Tier-3 private college)   
 YOE: 1  
@@ -685,7 +986,7 @@ ow do I start, I'd really appreciate some feedback regarding this.
 
      
  
-all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-09-30-0913
+all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https://groups.google.com/g/ml-news/c/URCyANyWxGA) , 2024-10-01-0914
 ```
 
 ```
@@ -693,7 +994,7 @@ all -  [ [Call for papers] Safe Generative AI Workshop at NeurIPS 2024 ](https:/
 
      
  
-all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-09-30-0913
+all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-10-01-0914
 ```
 Would I be able to submit to both neurips solar and coling 2025? Coling’s policy is no journals or conferences but solar
  is a workshop and it allows dual submission.
@@ -702,7 +1003,7 @@ Would I be able to submit to both neurips solar and coling 2025? Coling’s poli
 
      
  
-all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-09-30-0913
+all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-10-01-0914
 ```
 Hey. It is the time of the year where everyone's excited for our upcoming session. Welcome to UCSD and I hope you are do
 ing great. As a senior, I have been exposed to various handy tools to navigate college life. Here are my recommendations
@@ -755,7 +1056,7 @@ t. Have fun. Went through 4 years and a lot of memories.
 
      
  
-all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-09-30-0913
+all -  [ [D] Updated Paper submission [NeurIPS 2024 Workshop] ](https://www.reddit.com/r/MachineLearning/comments/1fex05d/d_updated_paper_submission_neurips_2024_workshop/) , 2024-10-01-0914
 ```
 Hey, everyone.  
 Sorry for asking a noob question.  
@@ -770,7 +1071,7 @@ ere any deadline we have to maintain for this kind of scenario. The main review 
 
      
  
-all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-09-30-0913
+all -  [ [D] Cold Diffusion: Inverting Arbitrary Image Transforms Without Noise ](https://www.reddit.com/r/MachineLearning/comments/1fec2jq/d_cold_diffusion_inverting_arbitrary_image/) , 2024-10-01-0914
 ```
 Hi everyone, 
 
@@ -802,7 +1103,7 @@ encountered other similar cases ?
 
      
  
-all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-09-30-0913
+all -  [ Derivation of the upper bound of the average regret of online-to-batch conversion in H-smoothness ](https://www.reddit.com/r/mathematics/comments/1fbn724/derivation_of_the_upper_bound_of_the_average/) , 2024-10-01-0914
 ```
 I've been studying a \[paper\]\[1\] (Smoothness, Low-Noise and Fast Rates) on the impact of smoothness on the convergenc
 e rate of online-to-batch conversion, specifically Theorem 2, which provides a bound on the average regret in the contex
@@ -878,7 +1179,7 @@ ckexchange.com/questions/4966362/derivation-of-the-upper-bound-of-the-average-re
 
      
  
-all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-09-30-0913
+all -  [ How on earth do you get research published as a undergraduate? ](https://www.reddit.com/r/learnmachinelearning/comments/1f96iax/how_on_earth_do_you_get_research_published_as_a/) , 2024-10-01-0914
 ```
 I'm an incoming Math+CS freshman at a decent research uni and I've been looking at some labs at my school. I've been loo
 king at the profiles of students accepted to top ml grad schools and a lot of them, on top of having near-perfect GPAs, 
@@ -899,7 +1200,7 @@ Does it always feel this daunting, and is their anything I can do to increase
 
      
  
-all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-09-30-0913
+all -  [ CS PhD Fall 24 Profile Review ](https://www.reddit.com/r/gradadmissions/comments/1f7gor1/cs_phd_fall_24_profile_review/) , 2024-10-01-0914
 ```
 Hello,
 
@@ -926,7 +1227,7 @@ PS: Not here for farming anything just genuinely confused and exhausted.
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-30-0913
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65zku/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-10-01-0914
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1273,7 +1574,7 @@ ors** also function as **plagiarism checkers**. Lastly, these tools can enhance 
 
      
  
-all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-09-30-0913
+all -  [ The Best AI Content Detectors of 2024: Top Tools for Accurate Detection ](https://www.reddit.com/r/aitoolsnews/comments/1f65wby/the_best_ai_content_detectors_of_2024_top_tools/) , 2024-10-01-0914
 ```
 # Best AI Writing Detectors in 2024
 
@@ -1820,7 +2121,7 @@ i-generated content** can be improved
 
      
  
-all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-09-30-0913
+all -  [ CUAI Applications for FALL 2024 are OPEN!  ](https://www.reddit.com/r/Cornell/comments/1f5shry/cuai_applications_for_fall_2024_are_open/) , 2024-10-01-0914
 ```
 Interested in ML research? Apply to Cornell University Artificial Intelligence (CUAI)!
 
