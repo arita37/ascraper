@@ -1,5 +1,4192 @@
  
-all -  [ Can anyone help me to get first full time job please  ](https://i.redd.it/cndhtqa9czsd1.jpeg) , 2024-10-06-0914
+all -  [ October 6, 2024 - 367 Free It Software Udemy Courses ](https://www.reddit.com/r/udemyfreebies/comments/1fxrjul/october_6_2024_367_free_it_software_udemy_courses/) , 2024-10-07-0913
+```
+1. CompTIA Security+ (SY0-701) Practice Test: Boost Your Exam
+
+https://www.easylearn.ing/course/sy0-701-exam-preparation
+
+
+
+
+2. QuickBooks Online (QBO) Bookkeeping With Bank Feeds
+
+https://www.easylearn.ing/course/quickbooks-online-bank-feed
+s-course
+
+
+
+3. AutoCAD Electrical 2024: A Tutorial Series
+
+https://www.easylearn.ing/course/autocad-electrical-2024-tuto
+rial
+
+
+
+4. Certified Artificial Intelligence Practical Exam Preparation
+
+https://www.easylearn.ing/course/ai-certificati
+on-prep-course
+
+
+
+5. Advanced Python : Boost Your Career & Earning & FREE eBook!
+
+https://www.easylearn.ing/course/advan
+ced-python-course
+
+
+
+6. VMware Cloud Foundation Administrator 2024 Practice Exam
+
+https://www.easylearn.ing/course/vmwar
+e-cloud-foundation-administrator-exam-prep
+
+
+
+7. Learn Cyber Security From Scratch: Practical Guide
+
+https://www.easylea
+rn.ing/course/learn-cyber-security-online
+
+
+
+8. PSPO II - Product Owner Level II (PSPO 2) Mock Exams
+
+https://www.easyle
+arn.ing/course/pspo-ii-mock-exams
+
+
+
+9. SPS - Scaled Scrum - Nexus - Certification Practice Exams
+
+https://www.easylearn
+.ing/course/scaled-scrum-nexus-practice-exams
+
+
+
+10. Learn Arduino by Building 26 Projects!
+
+https://www.easylearn.ing/c
+ourse/arduino-projects
+
+
+
+11. MS Certified: Azure Developer Associate AZ-204 Practice exam
+
+https://www.easylearn.ing/co
+urse/az-204-practice-exams
+
+
+
+12. Master the Terraform Associate (003) Certification Exam
+
+https://www.easylearn.ing/cou
+rse/terraform-associate-exam-preparation
+
+
+
+13. Preparing for CKA: Mastering Kubernetes Deep Dive
+
+https://www.easylearn
+.ing/course/kubernetes-cka-certification
+
+
+
+14. AWS Solutions Architect Associate Prep: Practice Tests
+
+https://www.easy
+learn.ing/course/saa-c03-practice-exam-questions
+
+
+
+15. Veeam Certified Architect (VMCA) v12.1 | Practice Exams 2024
+
+ht
+tps://www.easylearn.ing/course/veeam-certified-architect-vmca-v12-1-practice-exams
+
+
+
+16. DevOps for Data Scientists: Co
+ntainers for Data Science
+
+https://www.easylearn.ing/course/data-science-devops-course
+
+
+
+17. Mastering Time Series Anal
+ysis and Forecasting with Python
+
+https://www.easylearn.ing/course/arima-sarima-python
+
+
+
+18. Accounting Certification E
+xam , Odoo 17 Certification
+
+https://www.easylearn.ing/course/odoo-17-accounting-certification-course
+
+
+
+19. Curso De Py
+thon 3 Desde Cero Para Novatos
+
+https://www.easylearn.ing/course/curso-python-3-cero-novatos
+
+
+
+20. Python Certification
+ - The Next Level Python
+
+https://www.easylearn.ing/course/python-certification-hindi
+
+
+
+21. Python Project for Basics D
+ata Analysis
+
+https://www.easylearn.ing/course/data-analysis-with-python-project
+
+
+
+22. Become SAP Ariba Certified Consu
+ltant Spend Analysis
+
+https://www.easylearn.ing/course/sap-ariba-spend-analysis-course
+
+
+
+23. Photoshop Express - Master
+ing Adobe Photoshop In 2 Hours
+
+https://www.easylearn.ing/course/photoshop-express-course
+
+
+
+24. Veeam Certified Archite
+ct (VMCA) v12.1 Practice Exam - 2024
+
+https://www.easylearn.ing/course/veeam-certified-architect-vmca-v12-1-practice-exa
+m
+
+
+
+25. DP-900 Microsoft Azure Data Fundamentals Certification Exams
+
+https://www.easylearn.ing/course/dp-900-certifica
+tion
+
+
+
+26. Transform Your Arduino into Automatic Coin Operated Machine
+
+https://www.easylearn.ing/course/arduino-weight
+-machine
+
+
+
+27. PIC Microcontroller: Garage Door System Ultrasonic Sensor
+
+https://www.easylearn.ing/course/garage-door-
+system-pic-microcontroller
+
+
+
+28. AI-900 Azure AI Fundamentals
+
+https://www.easylearn.ing/course/ai-900-practice-questio
+ns
+
+
+
+29. Azure Developer Associate AZ-204
+
+https://www.easylearn.ing/course/azure-developer-associate-az-204-practice-t
+ests
+
+
+
+30. Microsoft Azure Data Fundamentals DP900 Practice
+
+https://www.easylearn.ing/course/azure-data-fundamentals-d
+p900-practice-tests
+
+
+
+31. Oracle Cloud Infrastructure Architect Professional - Exams
+
+https://www.easylearn.ing/course/
+oracle-cloud-infrastructure-architect-professional-exam-prep
+
+
+
+32. AWS Certified DevOps Engineer Professional Practice 
+Exams
+
+https://www.easylearn.ing/course/aws-devops-engineer-professional-practice-exams
+
+
+
+33. Microsoft Certified: Azur
+e Security Engineer Associate Exams
+
+https://www.easylearn.ing/course/azure-security-engineer-associate-certification
+
+
+
+
+34. Salesforce Certified Platform Developer II - Mock Exams
+
+https://www.easylearn.ing/course/salesforce-platform-devel
+oper-ii-mock-exams
+
+
+
+35. Super way to Learn Arduino | Creative
+
+https://www.easylearn.ing/course/learn-arduino-programm
+ing
+
+
+
+36. Reverse Engineering 4: Software Protection
+
+https://www.easylearn.ing/course/reverse-engineering-software-pro
+tection
+
+
+
+37. MS-900: Microsoft 365 Certified: Fundamentals - Mock Exams
+
+https://www.easylearn.ing/course/ms-900-pract
+ice-exams
+
+
+
+38. DP-900: Azure Data Fundamentals DP900 Practice Test Oct 2024
+
+https://www.easylearn.ing/course/dp-900-p
+ractice-tests
+
+
+
+39. Complete Network Hacking Course 2024 - Beginner to Advanced
+
+https://www.easylearn.ing/course/wifi-
+hacking-course
+
+
+
+40. Brain computer interface with deep learning
+
+https://www.easylearn.ing/course/brain-computer-inter
+face-deep-learning
+
+
+
+41. 500+ SAS Interview Questions Practice Test
+
+https://www.easylearn.ing/course/sas-interview-que
+stions-practice-test
+
+
+
+42. Ultimate PRTG Network Monitoring with Full Lab GNS3
+
+https://www.easylearn.ing/course/prtg-n
+etwork-monitoring-course
+
+
+
+43. NodeJS Masterclass (Express, MongoDB, OpenAI) - 2024 Ready!
+
+https://www.easylearn.ing/c
+ourse/nodejs-masterclass
+
+
+
+44. Flutter Masterclass (Dart, APIs, Firebase & More) - 2024
+
+https://www.easylearn.ing/cour
+se/flutter-course-2024
+
+
+
+45. AI-900 Azure AI Fundamentals Practice Tests | Azure AI 2024
+
+https://www.easylearn.ing/cou
+rse/ai-900-azure-ai-fundamentals-practice-tests
+
+
+
+46. AZ-900 Practice Tests for Microsoft Azure Fundamentals 2024
+
+http
+s://www.easylearn.ing/course/azure-fundamentals-exam-prep
+
+
+
+47. AZ-400 Practice Tests: Microsoft Azure DevOps Solutions
+ Exam
+
+https://www.easylearn.ing/course/microsoft-azure-devops-solutions-exam
+
+
+
+48. Azure AI-050: Generative AI Solutio
+ns with Azure OpenAI
+
+https://www.easylearn.ing/course/azure-ai-fundamentals-generative-ai
+
+
+
+49. AI-102 Microsoft Azure
+ AI Engineer Associate Exam
+
+https://www.easylearn.ing/course/ai-102-exam-preparation
+
+
+
+50. Ms Certified: Azure AI Fund
+amentals AI-900 Practice Exam
+
+https://www.easylearn.ing/course/azure-ai-fundamentals-ai-900-exam-prep
+
+
+
+51. AZ-900 - M
+icrosoft Azure Fundamentals - شرح بالعربي
+
+https://www.easylearn.ing/course/az-900-azure-fundamentals-arabic
+
+
+
+52. CISC
+O CCNA 200-301 Practice Exams (6) + Explanations
+
+https://www.easylearn.ing/course/cisco-ccna-200-301-practice-exams
+
+
+
+
+53. CompTIA Security+ 701 Practice Exam (2024)
+
+https://www.easylearn.ing/course/sy0-701-practice-test
+
+
+
+54. Web-Based 
+Embedded System Simulator
+
+https://www.easylearn.ing/course/web-based-embedded-simulator
+
+
+
+55. CompTia Network+ N10-009
+ Practice Exam (2024)
+
+https://www.easylearn.ing/course/comptia-network-plus-n10-009-practice-exam
+
+
+
+56. Arduino Home S
+ecurity System
+
+https://www.easylearn.ing/course/arduino-home-security-system
+
+
+
+57. Debugging Javascript / NodeJS
+
+http
+s://www.easylearn.ing/course/javascript-debugging-course
+
+
+
+58. Python desde Principiante hasta Nivel Ingeniería
+
+https:
+//www.easylearn.ing/course/curso-python-principiante-profesional
+
+
+
+59. \[DEA-C01 | ARA-C01\] Snowflake Advanced Certifi
+cation Prep
+
+https://www.easylearn.ing/course/snowflake-advanced-certification-prep
+
+
+
+60. CISSP Certification exam - Se
+curity Professional 2024 Part 1
+
+https://www.easylearn.ing/course/cissp-certification-exam-prep
+
+
+
+61. Python Programmin
+g Language (Practice Projects)
+
+https://www.easylearn.ing/course/practical-python-projects
+
+
+
+62. DP-600 Certification M
+icrosoft Fabric - Tests Pratiques 2024
+
+https://www.easylearn.ing/course/microsoft-fabric-dp-600-certification
+
+
+
+63. An
+tivirus Evasion - Hard Core
+
+https://www.easylearn.ing/course/antivirus-evasion-masterclass
+
+
+
+64. AWS Certified Solutio
+n Architect Associate  SAA-C03 \[HINDI\]
+
+https://www.easylearn.ing/course/aws-certified-solutions-architect-associate-s
+aa-c03-exam-prep-hindi
+
+
+
+65. AWS Certified SysOps Administrator Associate SOA-C02 \[2024\]
+
+https://www.easylearn.ing/c
+ourse/aws-sysops-administrator-associate-soa-c02-certification
+
+
+
+66. Beginner's Exam Practice Guide for SHRM-SCP Certif
+ication
+
+https://www.easylearn.ing/course/shrm-scp-exam-practice-guide
+
+
+
+67. DevOps Bootcamp: CI/CD, Automation, and Cl
+oud Mastery\[Hindi\]
+
+https://www.easylearn.ing/course/devops-bootcamp-hindi
+
+
+
+68. AWS Certified SysOps Administrator A
+ssociate SOA-C02 \[HINDI\]
+
+https://www.easylearn.ing/course/aws-sysops-administrator-associate-soa-c02-exam-prep-hindi
+
+
+
+
+69. Ultimate AWS Certified Solutions Architect Associate SAA-C03
+
+https://www.easylearn.ing/course/aws-certified-solu
+tions-architect-associate-saa-c03
+
+
+
+70. Introduction to Linux Shell Scripting in Hindi
+
+https://www.easylearn.ing/cours
+e/linux-shell-scripting-hindi
+
+
+
+71. Securing Your Ubuntu Environment: Best Practices
+
+https://www.easylearn.ing/course/
+ubuntu-security-guide
+
+
+
+72. Ethical Hacking: Crypto 101
+
+https://www.easylearn.ing/course/ethical-hacking-cryptography
+
+
+
+
+73. Learn Advanced RAG : Vector to Graph RAG wth LangChain Neo4j
+
+https://www.easylearn.ing/course/rag-course
+
+
+
+74. 
+5 Real-Time Use Cases using Machine Learning
+
+https://www.easylearn.ing/course/real-world-machine-learning
+
+
+
+75. AWS Ce
+rtified Data Engineer Associate DEA-C01 Practice Exam
+
+https://www.easylearn.ing/course/aws-data-engineer-associate-prac
+tice-exam
+
+
+
+76. \[NEW\] Salesforce Certified AI Associate | Practice Exams
+
+https://www.easylearn.ing/course/salesforce
+-certified-ai-associate-practice-exams
+
+
+
+77. Aprende Hacking Ético: Protege y Penetra Redes
+
+https://www.easylearn.ing/
+course/cybersecurity-expert
+
+
+
+78. Veeam Certified Engineer (VMCE v12) - Exam Practice Tests 24
+
+https://www.easylearn.i
+ng/course/veeam-vmce-v12-certification
+
+
+
+79. Visualizing Sensors Data
+
+https://www.easylearn.ing/course/sensor-data-vis
+ualization-esp32
+
+
+
+80. Line Follower Robot: Master Robotics with Precision and Code
+
+https://www.easylearn.ing/course/l
+ine-follower-robot-arduino
+
+
+
+81. Python Design Patterns: Complete Guide \[2024 Edition\]
+
+https://www.easylearn.ing/cou
+rse/python-design-patterns-mastery
+
+
+
+82. DevOps Bootcamp: CI/CD, Automation, and Cloud Mastery
+
+https://www.easylearn.i
+ng/course/devops-bootcamp
+
+
+
+83. DevOps : CI/CD with Jenkins in Hindi
+
+https://www.easylearn.ing/course/devops-jenkins-c
+ourse-hindi
+
+
+
+84. Ansible for the Absolute Beginner - DevOps in Hindi
+
+https://www.easylearn.ing/course/ansible-devops-
+beginner-hindi
+
+
+
+85. Learn DevOps: Infrastructure Automation With Terraform\[2024\]
+
+https://www.easylearn.ing/course/l
+earn-terraform-aws-infrastructure-automation
+
+
+
+86. AWS Certified Solution Architect-Associate Practice Tests
+
+https://w
+ww.easylearn.ing/course/aws-certified-solutions-architect-associate-practice-tests
+
+
+
+87. Introduction to SafeTest - A N
+etflix-backed Automation Tool
+
+https://www.easylearn.ing/course/safetest-course
+
+
+
+88. Get Started with Salesforce - For
+ Absolute beginners
+
+https://www.easylearn.ing/course/salesforce-beginner-course
+
+
+
+89. AWS Certified Data Engineer - As
+sociate (DEA-C01) Exam Guide
+
+https://www.easylearn.ing/course/aws-certified-data-engineer-associate-practice-exams
+
+
+
+9
+0. Mastering the AWS Certified AI Practitioner Exam
+
+https://www.easylearn.ing/course/aif-c01-practice-questions
+
+
+
+91. 
+Ms Azure Administrator Associate - AZ-104 Practice Exam
+
+https://www.easylearn.ing/course/az-104-practice-exams
+
+
+
+92. 1
+500 New CompTIA IT Fundamentals ITF+ FC0-U61 Practice Exams
+
+https://www.easylearn.ing/course/comptia-it-fundamentals-pr
+actice-exams
+
+
+
+93. Certified Kubernetes Security Specialist Masterclass
+
+https://www.easylearn.ing/course/kubernetes-se
+curity-specialist-training
+
+
+
+94. AWS Certified Cloud Practitioner
+
+https://www.easylearn.ing/course/aws-cloud-fundament
+als
+
+
+
+95. FOCP Exam: Dominate with Practice & Expertise (2024 Edition)
+
+https://www.easylearn.ing/course/focp-exam-prac
+tice-tests
+
+
+
+96. Comprehensive ISTQB Foundation Level Exam Certification Prep
+
+https://www.easylearn.ing/course/istqb-f
+oundation-level-exam-prep
+
+
+
+97. Ultimate ISTQB AI Testing Exam Certification 2024
+
+https://www.easylearn.ing/course/ist
+qb-ai-testing-certification-exam
+
+
+
+98. PSK I : Professional Scrum with Kanban Test - Exam 2024
+
+https://www.easylearn.i
+ng/course/psk-i-exam-prep
+
+
+
+99. PSPO 1 Exam+1200QS & Explanations
+
+https://www.easylearn.ing/course/pspo-1-exam-prep
+
+
+
+
+100. Certified Scrum Master Certification - CSM - Practice Tests
+
+https://www.easylearn.ing/course/csm-exam-prep-course
+
+
+
+
+101. ASQ Certification Exam Prep: 6 Practice Tests
+
+https://www.easylearn.ing/course/asq-certification-exam-prep
+
+
+
+
+102. Scaled Professional Scrum ( SPS ) Exam - Test 2024
+
+https://www.easylearn.ing/course/scaled-professional-scrum-sps-
+exam-preparation
+
+
+
+103. PSPO 2 -Product Owner Level 2 Practice Exam - Test 2024
+
+https://www.easylearn.ing/course/pspo-
+2-practice-exams
+
+
+
+104. Master FOCP Exam Prep: 6 Updated Practice Tests
+
+https://www.easylearn.ing/course/focp-exam-pre
+p-course
+
+
+
+105. ITIL 4 DPI Exam Success Guide: 6 Practice Tests\\Questions
+
+https://www.easylearn.ing/course/itil-4-dpi
+-certification-exam-prep
+
+
+
+106. Ultimate AMLS Exam Prep: 6 Practice Tests
+
+https://www.easylearn.ing/course/amls-exam-p
+rep
+
+
+
+107. CSM Exam+600QS & Explanations
+
+https://www.easylearn.ing/course/csm-exam-practice-tests
+
+
+
+108. ITIL 4 HVIT 
+Exam Mastery: 6 Practice Tests & Explanations
+
+https://www.easylearn.ing/course/itil-4-hvit-certification-exam
+
+
+
+109. P
+rofessional Agile Leadership Exam +1200 Questions
+
+https://www.easylearn.ing/course/professional-agile-leadership-exam
+
+
+
+
+110. 6 Updated Practice Tests: IASSC Exam Prep \[2024\]
+
+https://www.easylearn.ing/course/iassc-exam-prep-2024
+
+
+
+111.
+ P3O Certification Exam Prep: 6 Practice Tests \[2024\]
+
+https://www.easylearn.ing/course/p3o-practice-tests
+
+
+
+112. Odo
+o 17 Certification Exam Preparation
+
+https://www.easylearn.ing/course/odoo-17-certification-exam-preparation
+
+
+
+113. MSP
+ Certification Exam Prep: 6 Practice Tests
+
+https://www.easylearn.ing/course/msp-exam-practice-tests
+
+
+
+114. Master the 
+SPS Exam 2024: Comprehensive Certification Prep
+
+https://www.easylearn.ing/course/sps-exam-prep-course
+
+
+
+115. Scrum Dev
+eloper Certification - PSD -  Practice Test - Exams
+
+https://www.easylearn.ing/course/psd-exam-practice-tests
+
+
+
+116. IT
+IL 4 CDS Exam Prep: 6 Full Practice Tests with & Questions
+
+https://www.easylearn.ing/course/itil-4-cds-exam-prep
+
+
+
+117
+. Salesforce Advanced Administrator ADM-301 Mock Exams | 2024
+
+https://www.easylearn.ing/course/salesforce-advanced-admi
+nistrator-adm-301-practice-exams
+
+
+
+118. Blueprint For Successful  Microservices & API Implementation
+
+https://www.easyl
+earn.ing/course/microservices-api-deployment-declarative-configuration
+
+
+
+119. Comprehensive C# Programming Practice Tes
+t: Code Mastery
+
+https://www.easylearn.ing/course/c-sharp-programming-practice-test
+
+
+
+120. Salesforce Marketing Cloud E
+mail/Admin/Consultant Training
+
+https://www.easylearn.ing/course/salesforce-marketing-cloud-certification-training
+
+
+
+12
+1. Python for Scientific Research
+
+https://www.easylearn.ing/course/python-for-scientific-research
+
+
+
+122. AWS Certified
+ Machine Learning Engineer - Associate | Exams
+
+https://www.easylearn.ing/course/aws-certified-machine-learning-engineer
+-associate-exam-prep
+
+
+
+123. Master CDPSE: Certified Data Privacy Solutions Engineer
+
+https://www.easylearn.ing/course/c
+dpse-certification-course
+
+
+
+124. Network Mastery for Ethical Hackers
+
+https://www.easylearn.ing/course/ethical-hacking-
+network-security
+
+
+
+125. Burp Suite Mastery: From Beginner to Advanced
+
+https://www.easylearn.ing/course/burp-suite-mast
+ery
+
+
+
+126. PMI-PBA Exam Ready: Practice Tests for Business Analysts
+
+https://www.easylearn.ing/course/pmi-pba-exam-prep
+
+
+
+
+127. Word Wizard : Using Microsoft Word Like a Pro in 2024
+
+https://www.easylearn.ing/course/word-for-beginners-adva
+nced
+
+
+
+128. Practice Tests | AWS Certified Solutions Architect Associate
+
+https://www.easylearn.ing/course/aws-solution
+s-architect-associate-practice-tests
+
+
+
+129. ChatGPT & IA : Formation complète ChatGPT, Dall-e
+
+https://www.easylearn.in
+g/course/chatgpt-formation-complete
+
+
+
+130. \[New\]  VMware Certified Professional - VCP-DTM Practice Exam
+
+https://www.
+easylearn.ing/course/vcp-dtm-practice-exams
+
+
+
+131. New Microsoft AZ-900: Microsoft Azure Fundamentals Practice
+
+https:/
+/www.easylearn.ing/course/azure-fundamentals-practice-tests
+
+
+
+132. \[New\] - AZ-104 Microsoft Azure Administrator-Pract
+ice Test
+
+https://www.easylearn.ing/course/microsoft-azure-administrator-practice-exams
+
+
+
+133. Google Cloud Network Eng
+ineer (PCNE) Full Practice Exams
+
+https://www.easylearn.ing/course/google-cloud-network-engineer-pcne-certification
+
+
+
+1
+34. SC-400 Certification Challenge: Essential Practice Tests
+
+https://www.easylearn.ing/course/sc-400-certification-prac
+tice-tests
+
+
+
+135. Mastering GitLab Building Continuous Integration Pipelines
+
+https://www.easylearn.ing/course/gitlab-c
+i-cd-course
+
+
+
+136. AWS Certified DevOps Engineer - Professional DOP-C02
+
+https://www.easylearn.ing/course/aws-devops-en
+gineer-professional-dop-c02-practice-exam
+
+
+
+137. Windows 10 Services Administration and Troubleshooting
+
+https://www.ea
+sylearn.ing/course/windows-10-services-administration
+
+
+
+138. CCNA (Cisco Certified Network Associate) Practice Exams 20
+24
+
+https://www.easylearn.ing/course/ccna-practice-exams
+
+
+
+139. CompTIA A+ Pro-Level Exam Practice: 1500 Questions
+
+htt
+ps://www.easylearn.ing/course/comptia-a-plus-practice-exam
+
+
+
+140. CompTIA ITF+ Ultimate Exam Guide: Practice Questions
+
+
+https://www.easylearn.ing/course/comptia-itf-plus-practice-tests
+
+
+
+141. CompTIA Security+ Practice Exams: Questions & 
+Answers
+
+https://www.easylearn.ing/course/comptia-security-plus-certification-prep
+
+
+
+142. Exam Prep for CompTIA Network
++ 2024
+
+https://www.easylearn.ing/course/comptia-network-plus-certification-prep
+
+
+
+143. Salesforce Marketing Cloud Deve
+loper: Practice Exams
+
+https://www.easylearn.ing/course/salesforce-marketing-cloud-developer-certification
+
+
+
+144. GCP G
+oogle Associate Cloud Engineer: Certification Prep
+
+https://www.easylearn.ing/course/gcp-associate-cloud-engineer-certif
+ication-prep
+
+
+
+145. GCP Cloud Data Engineer: Ultimate Certification Prep
+
+https://www.easylearn.ing/course/gcp-cloud-da
+ta-engineer-certification
+
+
+
+146. Ultimate Exam Guide for Test Automation Engineer
+
+https://www.easylearn.ing/course/tes
+t-automation-engineer-certification
+
+
+
+147. Salesforce Associate Certification: 6 Full Practice Exams
+
+https://www.easyl
+earn.ing/course/salesforce-associate-practice-exams
+
+
+
+148. Complete Exam Preparation for Automotive Software Tester
+
+ht
+tps://www.easylearn.ing/course/automotive-software-tester-certification-course
+
+
+
+149. Salesforce Marketing Cloud Admini
+strator: Practice Tests
+
+https://www.easylearn.ing/course/salesforce-marketing-cloud-administrator-practice-tests
+
+
+
+150
+. AWS Certified Developer Associate Practice Exams
+
+https://www.easylearn.ing/course/aws-developer-associate-practice-te
+sts
+
+
+
+151. Ultimate GCP Cloud DevOps Engineer Exam Preparation
+
+https://www.easylearn.ing/course/gcp-cloud-devops-engin
+eer-exam-preparation
+
+
+
+152. Study Guide for Mobile Application Tester
+
+https://www.easylearn.ing/course/mobile-app-test
+er-certification
+
+
+
+153. Complete Exam Preparation for Advanced Level Test Analyst
+
+https://www.easylearn.ing/course/adv
+anced-level-test-analyst-certification
+
+
+
+154. GCP Cloud Developer Exam Prep with Multi Practice Questions
+
+https://www.
+easylearn.ing/course/gcp-cloud-developer-exam-prep
+
+
+
+155. Salesforce Certified AI Associate: 6 Full Practice Exams
+
+htt
+ps://www.easylearn.ing/course/salesforce-ai-associate-practice-exams
+
+
+
+156. GCP CDL Exam Preparation: Tests with Explan
+ations
+
+https://www.easylearn.ing/course/gcp-data-engineer-exam-prep
+
+
+
+157. Expert-Level Preparation for CompTIA Linux+
+
+
+https://www.easylearn.ing/course/linux-plus-exam-prep
+
+
+
+158. In-Depth Knowledge for Advanced Level Test Manager: Test
+s
+
+https://www.easylearn.ing/course/advanced-test-manager-certification
+
+
+
+159. Mastery Through Practice for CompTIA CyS
+A+
+
+https://www.easylearn.ing/course/comptia-cysap-practice-tests
+
+
+
+160. Salesforce Certified Administrator: 6 Practice
+ Exams
+
+https://www.easylearn.ing/course/salesforce-certified-administrator-practice-exams
+
+
+
+161. Salesforce Certified 
+Platform Developer 1: Exam Preparation
+
+https://www.easylearn.ing/course/salesforce-platform-developer-1-certification
+
+
+
+
+162. Step-by-Step Mastery for Agile Tester: Practice Tests
+
+https://www.easylearn.ing/course/agile-tester-certificatio
+n-practice-tests
+
+
+
+163. Exam Practice for Automotive Software Tester
+
+https://www.easylearn.ing/course/automotive-softw
+are-tester-certification-practice
+
+
+
+164. Salesforce Certified Business Analyst: Exam Preparation
+
+https://www.easylearn
+.ing/course/salesforce-business-analyst-certification-practice-exams
+
+
+
+165. Salesforce Marketing Cloud Consultant: Expe
+rt Certification
+
+https://www.easylearn.ing/course/salesforce-marketing-cloud-consultant-certification-prep
+
+
+
+166. Sale
+sforce Email Specialist: Complete Certification Prep
+
+https://www.easylearn.ing/course/salesforce-email-specialist-certi
+fication-course
+
+
+
+167. GCP Cloud Security Engineer Exam Prep with Practice Tests
+
+https://www.easylearn.ing/course/gcp-
+cloud-security-engineer-certification
+
+
+
+168. GCP Cloud Network Engineer Exam Prep with Practice Tests
+
+https://www.easy
+learn.ing/course/gcp-cloud-network-engineer-exam-prep
+
+
+
+169. Master the GCP Cloud Architect Exam: 6 Practice tests
+
+htt
+ps://www.easylearn.ing/course/gcp-cloud-architect-exam-preparation
+
+
+
+170. GCP Machine Learning Engineer Exam Prep with 
+Practice Tests
+
+https://www.easylearn.ing/course/google-cloud-ml-engineer-certification-practice-tests
+
+
+
+171. ServiceNo
+w Certified System Administrator(CSA) Practice Exam
+
+https://www.easylearn.ing/course/csa-certification-practice-test
+
+
+
+
+172. AWS Certified Cloud Practitioner Practice Exams CLF-C02
+
+https://www.easylearn.ing/course/aws-cloud-practitioner-c
+ertification
+
+
+
+173. Exam Prep for Salesforce Certified Platform Developer 1 2024
+
+https://www.easylearn.ing/course/sale
+sforce-platform-developer-1-exam-prep
+
+
+
+174. Ultimate Exam Guide for Salesforce Marketing Cloud Developer
+
+https://www.
+easylearn.ing/course/salesforce-marketing-cloud-developer-exam
+
+
+
+175. Ultimate Exam Guide for GCP Google Associate Clou
+d Engineer
+
+https://www.easylearn.ing/course/google-cloud-associate-certification-prep
+
+
+
+176. AZ-204 Exam Certification
+: 6 Practice Tests (+730 Q\\A)
+
+https://www.easylearn.ing/course/azure-development-certification
+
+
+
+177. AZ-900: Essenti
+al 6 Practice Tests & Insights for Azure
+
+https://www.easylearn.ing/course/az-900-practice-exams
+
+
+
+178. Anti-Money Laun
+dering (AML) Exam Prep
+
+https://www.easylearn.ing/course/cams-certification-exam-prep
+
+
+
+179. Mastering the GCP Machine 
+Learning Engineer Exam: 6 Tests
+
+https://www.easylearn.ing/course/gcp-machine-learning-engineer-exam-prep
+
+
+
+180. Exam P
+rep for Salesforce Certified AI Associate 2024
+
+https://www.easylearn.ing/course/salesforce-ai-associate-exam-prep
+
+
+
+18
+1. Comprehensive Exam Prep for Salesforce Associate 2024
+
+https://www.easylearn.ing/course/salesforce-associate-exam-pre
+p
+
+
+
+182. Exam Prep for Salesforce Certified Business Analyst 2024
+
+https://www.easylearn.ing/course/salesforce-certifie
+d-business-analyst-exam-prep
+
+
+
+183. AZ-305: Expert Practice Tests & Comprehensive Guide to Azure
+
+https://www.easylearn
+.ing/course/az-305-practice-tests
+
+
+
+184. Mastery Through Practice for GCP Cloud Architect 2024
+
+https://www.easylearn.i
+ng/course/gcp-cloud-architect-exam-mastery
+
+
+
+185. Ultimate Exam Guide for AMLS Certification 2024
+
+https://www.easylear
+n.ing/course/amls-certification-exam-prep
+
+
+
+186. Master AZ-400 Exam with our 6 Question Practice Tests
+
+https://www.eas
+ylearn.ing/course/az-400-practice-tests
+
+
+
+187. Mastering the GCP Cloud Security Engineer Exam: 6 Tests
+
+https://www.eas
+ylearn.ing/course/gcp-cloud-security-engineer-practice-tests
+
+
+
+188. Expert-Level Preparation for GCP Cloud Digital Lead
+er 2024
+
+https://www.easylearn.ing/course/gcp-cloud-digital-leader-practice-tests
+
+
+
+189. AI-102 Exam Certification: Pra
+ctice Tests\\Questions 2024
+
+https://www.easylearn.ing/course/ai-102-exam-practice-tests
+
+
+
+190. Web Hacking For Beginne
+rs
+
+https://www.easylearn.ing/course/web-security-beginner-guide
+
+
+
+191. Linux-Grundlagen meistern: Projekte & ausführli
+che Erklärung
+
+https://www.easylearn.ing/course/linux-basics-master
+
+
+
+192. OCI 2024 Data Science Professional (1Z0-1110
+-24) Prep Exams
+
+https://www.easylearn.ing/course/oci-data-science-professional-exam-prep
+
+
+
+193. Program Management Pro
+fessional (PgMP) Practice Exam 2024
+
+https://www.easylearn.ing/course/pgmp-practice-exam
+
+
+
+194. PSPO II Certification: 
+6 Full Practice Tests & Explanations
+
+https://www.easylearn.ing/course/pspo-ii-certification-practice-tests
+
+
+
+195. Comp
+TIA IT Fundamentals ITF+ Practice Exam (2024)
+
+https://www.easylearn.ing/course/comptia-it-fundamentals-itf-plus-practic
+e-exams
+
+
+
+196. PSM I Certification: 6  Practice Exams | Up-to-Date Content
+
+https://www.easylearn.ing/course/psm-i-cert
+ification-practice-exams
+
+
+
+197. AZ-204 Practice Tests with Full Explanations
+
+https://www.easylearn.ing/course/az-204-e
+xam-preparation
+
+
+
+198. CSM Certification Prep: Comprehensive Practice Tests & Guide
+
+https://www.easylearn.ing/course/c
+ertified-scrum-master-practice-tests
+
+
+
+199. PRINCE2 Agile Foundation Prep: 6 Updated Practice Tests
+
+https://www.easyle
+arn.ing/course/prince2-agile-foundation-practice-tests
+
+
+
+200. PSK Exam+700QS & Explanations
+
+https://www.easylearn.ing/
+course/psk-exam-prep
+
+
+
+201. AZ-400 Exam Certification +100QS  2024
+
+https://www.easylearn.ing/course/az-400-exam-certif
+ication
+
+
+
+202. MSP Certification Prep: Practice Tests & Exam Questions
+
+https://www.easylearn.ing/course/msp-certificat
+ion-exam-prep
+
+
+
+203. ITIL 4 DSV Practice Tests & Exam Simulations W\\ Explanations
+
+https://www.easylearn.ing/course/it
+il-4-dsv-certification-course
+
+
+
+204. SFS Exam Preparation: 6 Updated Mock Exams\\Practice Tests
+
+https://www.easylearn.
+ing/course/sfs-certification-prep-course
+
+
+
+205. PSD Certification Prep: Practice Tests & Real Exam Questions
+
+https://w
+ww.easylearn.ing/course/psd-certification-prep
+
+
+
+206. ITIL 4 HVIT Certification Prep: 6 Practice Tests \[2024\]
+
+https:
+//www.easylearn.ing/course/itil-4-hvit-certification-prep
+
+
+
+207. SPS Exam Prep: 6 Practice Tests & Comprehensive Study 
+Guide
+
+https://www.easylearn.ing/course/sps-exam-prep
+
+
+
+208. AI-900: 6 Practice Tests with Detailed Explanations
+
+https
+://www.easylearn.ing/course/ai-900-practice-tests
+
+
+
+209. Master the AZ-900 with 400+ Practice Questions 2024
+
+https://w
+ww.easylearn.ing/course/microsoft-azure-fundamentals-az-900-exam-prep
+
+
+
+210. AZ-500: 6 Updated Practice Tests with Expl
+anations
+
+https://www.easylearn.ing/course/az-500-practice-tests
+
+
+
+211. AI-102: 6 Practice Tests with Questions & Expla
+nations
+
+https://www.easylearn.ing/course/ai-102-practice-tests
+
+
+
+212. PSPO I Certification: 6 Full Practice Tests + Ex
+planations
+
+https://www.easylearn.ing/course/pspo-i-certification-practice-tests
+
+
+
+213. ITIL 4 DPI Practice Tests & Exa
+m Simulations
+
+https://www.easylearn.ing/course/itil-4-dpi-practice-tests
+
+
+
+214. AZ-305 Exam Certification 2024
+
+https:
+//www.easylearn.ing/course/az-305-exam-preparation-course
+
+
+
+215. ITIL 4 CDS Certification Prep: Practice Tests &  Simul
+ations
+
+https://www.easylearn.ing/course/itil-4-cds-certification-prep
+
+
+
+216. PSM II Certification: 6 Full Practice Tes
+ts \[2024\]
+
+https://www.easylearn.ing/course/psm-ii-certification-practice-tests
+
+
+
+217. PAL I Certification: 6 Full Pr
+actice Tests 2024
+
+https://www.easylearn.ing/course/pal-i-certification-practice-tests
+
+
+
+218. Certified Information Sys
+tems Auditor (CISA) Mock Test 2024
+
+https://www.easylearn.ing/course/cisa-practice-questions
+
+
+
+219. PgMP® Certification
+ Success: Essential Practice Tests
+
+https://www.easylearn.ing/course/pgmp-exam-preparation-course
+
+
+
+220. Master 1Z0-908
+ MySQL 8.0 Database Administrator Training
+
+https://www.easylearn.ing/course/mysql-8-0-database-administrator-certificat
+ion
+
+
+
+221. 5x PCEP-30-02 Python Certification Practice Test 2024 - 2025
+
+https://www.easylearn.ing/course/pcep-30-02-py
+thon-certification
+
+
+
+222. Entry Certificate Business Analysis (IIBA ECBA) Mock Exams
+
+https://www.easylearn.ing/course/
+iiba-ecba-mock-exams
+
+
+
+223. C\_TS414\_2023 SAP QM Preparation Test \[Sept 2024 Updated\]
+
+https://www.easylearn.ing/cou
+rse/sap-c\_ts414\_2023-qm-certification-practice-tests
+
+
+
+224. AWS Certified Data Analytics Exam Prep: Practice Tests
+
+h
+ttps://www.easylearn.ing/course/aws-certified-data-analytics-exam-prep
+
+
+
+225. Computer Basics
+
+https://www.easylearn.in
+g/course/computer-fundamentals-hindi
+
+
+
+226. C\_BW4H\_2404 Certification Practice Test \[Sept 2024 Updated\]
+
+https://ww
+w.easylearn.ing/course/sap-c\_bw4h\_2404-certification-practice-tests
+
+
+
+227. Python & Gen AI Basics: Transition from Ja
+va in Just 15 days
+
+https://www.easylearn.ing/course/python-generative-ai-java-transition
+
+
+
+228. Foundations of Web Dev
+elopment: CSS, Bootstrap, JS, React
+
+https://www.easylearn.ing/course/css-course-for-beginners
+
+
+
+229. GST Success: Esse
+ntial Practice Tests for Practitioners
+
+https://www.easylearn.ing/course/gst-practitioner-exam-practice-tests
+
+
+
+230. CI
+SA Exam Questions for 2023 - 06 FULL HARD TEST
+
+https://www.easylearn.ing/course/cisa-exam-practice-questions
+
+
+
+231. Sa
+lesforce Certified Admin (ADM 201 | ADM-201) Tests | 2024
+
+https://www.easylearn.ing/course/adm-201-practice-tests
+
+
+
+23
+2. Scaled Professional Scrum ( SPS ) Practice Test -Update 2023
+
+https://www.easylearn.ing/course/scaled-professional-sc
+rum-sps-practice-test
+
+
+
+233. Basics of Practical GenAI
+
+https://www.easylearn.ing/course/arabic-genai-course
+
+
+
+234. Ce
+rtified Kubernetes Administrator Ultimate Masterclass
+
+https://www.easylearn.ing/course/certified-kubernetes-administrat
+or-exam-preparation
+
+
+
+235. Certified Kubernetes Application Developer Masterclass
+
+https://www.easylearn.ing/course/kub
+ernetes-application-development-ckad-exam
+
+
+
+236. AWS Certified Data Engineer - Associate - Hands On + Exams
+
+https://ww
+w.easylearn.ing/course/aws-certified-data-engineer-associate-training
+
+
+
+237. Agile Scrum for Beginners & Scrum Master C
+ertification
+
+https://www.easylearn.ing/course/agile-scrum-master-certification
+
+
+
+238. Mock Exam - Certified Performanc
+e Tester con JMeter (CPTJM)
+
+https://www.easylearn.ing/course/cptjm-mock-exams
+
+
+
+239. REST APIs Development With Java -
+ API CRUD Operation
+
+https://www.easylearn.ing/course/rest-api-development-java
+
+
+
+240. Azure Administrator AZ-104: Esse
+ntial Practice Tests
+
+https://www.easylearn.ing/course/azure-administrator-certification-practice
+
+
+
+241. Master Linux B
+asics: With Easy Projects & Deep explanation.
+
+https://www.easylearn.ing/course/linux-basics-course
+
+
+
+242. E\_S4CPE\_24
+05 Certification Practice Test \[Sept 2024 Updated\]
+
+https://www.easylearn.ing/course/e-s4cpe-2405-certification-practi
+ce-test
+
+
+
+243. ISACA Certified Information Systems Auditor (CISA) Prep Exam
+
+https://www.easylearn.ing/course/cisa-exam
+-prep
+
+
+
+244. Learn SQL from Scratch : SQL Tutorial
+
+https://www.easylearn.ing/course/learn-sql-hindi
+
+
+
+245. El curso m
+ás Básico de JavaScript, desde cero
+
+https://www.easylearn.ing/course/curso-javascript-cero
+
+
+
+246. ITIL 4 DSV Exam Cert
+ification 2024
+
+https://www.easylearn.ing/course/itil-4-dsv-exam-certification
+
+
+
+247. Complete Study Guide 2024: CompTI
+A Network+ Certification
+
+https://www.easylearn.ing/course/comptia-network-plus-certification-guide
+
+
+
+248. Ultimate Pre
+p Guide\\Tests 2024: ITIL 4 CDS Certification
+
+https://www.easylearn.ing/course/itil-4-cds-certification-exam-prep
+
+
+
+24
+9. Ultimate Prep Guide\\Tests 2024: PRINCE2 Agile Foundation
+
+https://www.easylearn.ing/course/prince2-agile-foundation-
+exam-prep
+
+
+
+250. Complete Study Guide 2024: CompTIA Linux+ Certification
+
+https://www.easylearn.ing/course/comptia-linu
+x-plus-certification
+
+
+
+251. Ultimate Prep Guide\\Tests 2024: P3O Certification
+
+https://www.easylearn.ing/course/p3o-ce
+rtification-exam-prep
+
+
+
+252. 6 Practice Exams 2024: CompTIA ITF+ Certification
+
+https://www.easylearn.ing/course/compti
+a-itf-certification-exam-prep
+
+
+
+253. Ultimate Prep Guide\\Tests 2024: ITIL 4 HVIT Certification
+
+https://www.easylearn.
+ing/course/itil-4-hvit-certification-2024
+
+
+
+254. Practice Tests 2024: CompTIA A+ Certification
+
+https://www.easylearn.i
+ng/course/comptia-a-plus-certification-practice-tests
+
+
+
+255. Complete Study Guide 2024: CompTIA CySA+ Certification
+
+ht
+tps://www.easylearn.ing/course/comptia-cySA-certification
+
+
+
+256. Ultimate Prep Guide\\Tests 2024: Tableau Desktop Speci
+alist
+
+https://www.easylearn.ing/course/tableau-desktop-specialist-certification-prep
+
+
+
+257. 6 Practice Exams 2024: Tab
+leau Desktop Certified Associa
+
+https://www.easylearn.ing/course/tableau-desktop-certified-associate-exam-prep
+
+
+
+258. M
+aster ITIL 4 DPI in 2024: 6 Updated Practice Exams
+
+https://www.easylearn.ing/course/itil-4-dpi-certification-course
+
+
+
+
+259. 6 Practice Tests 2024: CompTIA Security+ Certification
+
+https://www.easylearn.ing/course/comptia-security-plus-cert
+ification-2024
+
+
+
+260. Comprehensive Exam Prep 2024: SFS Certification
+
+https://www.easylearn.ing/course/salesforce-fiel
+d-service-certification-exam-prep
+
+
+
+261. Comprehensive Exam Prep 2024: SPS Certification - Tests
+
+https://www.easylearn
+.ing/course/sps-certification-exam-prep-2024
+
+
+
+262. Mastery Through Practice 2024 for PSPO 1 Certification
+
+https://www
+.easylearn.ing/course/pspo-1-certification-exam-prep
+
+
+
+263. Challenge Your Skills with our 6 Practice Tests for PSM 1
+
+
+https://www.easylearn.ing/course/psm-1-practice-tests
+
+
+
+264. Comprehensive Exam Prep 2024: CSM Certification
+
+https://w
+ww.easylearn.ing/course/csm-exam-prep-2024
+
+
+
+265. Ultimate Exam Guide 2024 for PSM 2 Certification
+
+https://www.easylea
+rn.ing/course/psm-2-certification-exam-prep
+
+
+
+266. All-Inclusive Prep Course 2024 for PSPO 2 Certification
+
+https://www
+.easylearn.ing/course/pspo-2-certification-exam-prep
+
+
+
+267. Cyber Defender's Journey: Virus  Detection and Elimination
+
+
+https://www.easylearn.ing/course/computer-virus-basics
+
+
+
+268. Database Management System Excellence: Module - 2
+
+https
+://www.easylearn.ing/course/database-management-systems-basics
+
+
+
+269. Mastering Azure: AZ-104 Administrator Practice Te
+sts
+
+https://www.easylearn.ing/course/az-104-practice-tests
+
+
+
+270. C\_SIGPM\_2403 SAP Signavio Practice Test \[Sept 202
+4 Updated\]
+
+https://www.easylearn.ing/course/sap-signavio-c\_sigpm\_2403-practice-test
+
+
+
+271. C\_CPE\_16 Backend Devel
+oper Prep Test \[Sept 2024 Updated\]
+
+https://www.easylearn.ing/course/sap-certified-associate-backend-developer-exam
+
+
+
+
+272. C\_SAC\_2415 Certification Prep Test \[Sept 2024 Updated\]
+
+https://www.easylearn.ing/course/c-sac-2415-certificat
+ion-practice-tests
+
+
+
+273. Professional Agile Leadership PAL / PAL-I Practice Exams
+
+https://www.easylearn.ing/course/
+pal-i-practice-exams
+
+
+
+274. Master IIBA BABOK v3 KA's for ECBA, CCBA, CBAP Mock Tests
+
+https://www.easylearn.ing/course
+/iiba-babok-v3-certification-practice-tests
+
+
+
+275. Complete Machine Learning Project Using YOLOv9 From Scratch
+
+https:/
+/www.easylearn.ing/course/yolo-v9-object-detection
+
+
+
+276. \[NEW\] Git & GitHub Certification - Practice Exam 2024 !
+
+ht
+tps://www.easylearn.ing/course/git-github-certification-practice-exam-2024
+
+
+
+277. Azue AZ-900 | AZ 900 Practice Test Ex
+am - Latest Questions
+
+https://www.easylearn.ing/course/az-900-practice-test-exam
+
+
+
+278. Professional Scrum Master PSM 
+2 / PSM2 Practice Exams
+
+https://www.easylearn.ing/course/psm-2-practice-exams
+
+
+
+Deals number 279 to 367 can be found 
+on:
+
+https://www.easylearn.ing/
+
+
+```
+---
+
+     
+ 
+all -  [ LangChain and Anthropic ](https://www.reddit.com/r/LangChain/comments/1fxoxuk/langchain_and_anthropic/) , 2024-10-07-0913
+```
+To make an api call to anthropic from my understanding u your need: 
+
+from langchain_anthropic import ChatAnthropic
+mode
+l = ChatAnthropic(model='claude-3-opus-20240229')
+
+I have the API key setup in the .env file and the important is done c
+orrectly. But it’s giving an error saying I need model name, timeout, api key. But the documentation says you just need 
+to put the model. Does anyone knows why is this a problem?
+
+```
+---
+
+     
+ 
+all -  [ GitHub Issue resolution with RAG ](https://www.reddit.com/r/LangChain/comments/1fxosw0/github_issue_resolution_with_rag/) , 2024-10-07-0913
+```
+Hey guys,
+
+I recently made a a RAG-based github extension that responds directly to created 'issues' in github repositor
+ies with a detailed overview of files and changes to make to resolve the issue. I see this as being particularly helpful
+ for industry repositories where the codebases are quite big issues are frequently used.
+
+Would love to know what you th
+ink of the concept!
+
+Can sign up for the waitlist here: https://trysherpa.bot/
+```
+---
+
+     
+ 
+all -  [ Langchain and Knowledge Graph extraction ](https://www.reddit.com/r/LangChain/comments/1fxnhqj/langchain_and_knowledge_graph_extraction/) , 2024-10-07-0913
+```
+I’m trying to use Langchain to go through about 500k docs in total doing entity and relationship extractions. 
+
+Before u
+sing Langchain it was really quick but not very thorough or reliable. 
+
+Now using 3 chains (one for entities, one for re
+lationships, one for checking if anything is missed and adding if so)
+
+However now it’s soooo slow. Using Azure GPT inst
+ance should be able to do 100 rpm. Any advice?
+
+Edit : new to this so let me know if this is a completely bad approach!
+```
+---
+
+     
+ 
+all -  [ Bolt.new: AI-Powered Full-Stack Web Development in the Browser ](https://www.reddit.com/r/LangChain/comments/1fxljup/boltnew_aipowered_fullstack_web_development_in/) , 2024-10-07-0913
+```
+[https://hub.docker.com/r/mickysharam/bolt-ai](https://hub.docker.com/r/mickysharam/bolt-ai)
+```
+---
+
+     
+ 
+all -  [ October 6, 2024 - 996 Top Free Udemy Course Deals on easylearn.ing ](https://www.reddit.com/r/udemyfreebies/comments/1fxen9s/october_6_2024_996_top_free_udemy_course_deals_on/) , 2024-10-07-0913
+```
+1. CompTIA Security+ (SY0-701) Practice Test: Boost Your Exam
+
+https://www.easylearn.ing/course/sy0-701-exam-preparation
+
+
+
+
+2. Mastering Mortgage Advisory: From Basics to Expertise
+
+https://www.easylearn.ing/course/mortgage-advisor-course
+
+
+
+
+3. Global Trade Finance Mastery: Tools| Risks| Strategies
+
+https://www.easylearn.ing/course/global-trade-finance-maste
+ry
+
+
+
+4. Corporate Banking: Products| Loans| Relationship Management
+
+https://www.easylearn.ing/course/corporate-banking
+-course
+
+
+
+5. The Complete Python Bootcamp From Zero to Master
+
+https://www.easylearn.ing/course/python-data-science-mac
+hine-learning-course
+
+
+
+6. QuickBooks Online Multiple Currencies
+
+https://www.easylearn.ing/course/quickbooks-online-mul
+ticurrency-accounting
+
+
+
+7. QuickBooks Online (QBO) Bookkeeping With Bank Feeds
+
+https://www.easylearn.ing/course/quickb
+ooks-online-bank-feeds-course
+
+
+
+8. QuickBooks Desktop Multiple Currencies
+
+https://www.easylearn.ing/course/quickbooks-
+desktop-multicurrency-accounting
+
+
+
+9. AutoCAD Electrical 2024: A Tutorial Series
+
+https://www.easylearn.ing/course/auto
+cad-electrical-2024-tutorial
+
+
+
+10. 3Bedrom Bungalow SketchUp from basic to advance Free version
+
+https://www.easylearn.
+ing/course/sketch-up-free-bungalow-design
+
+
+
+11. Certified Artificial Intelligence Practical Exam Preparation
+
+https://w
+ww.easylearn.ing/course/ai-certification-prep-course
+
+
+
+12. Advanced Python : Boost Your Career & Earning & FREE eBook!
+
+
+https://www.easylearn.ing/course/advanced-python-course
+
+
+
+13. How to Earn from Photography: Absolute Beginners Guide
+
+
+https://www.easylearn.ing/course/photography-income-guide
+
+
+
+14. VMware Cloud Foundation Administrator 2024 Practice Exa
+m
+
+https://www.easylearn.ing/course/vmware-cloud-foundation-administrator-exam-prep
+
+
+
+15. Learn Cyber Security From Scr
+atch: Practical Guide
+
+https://www.easylearn.ing/course/learn-cyber-security-online
+
+
+
+16. Wordpress Web Development for
+ Absolute Beginner Zero to Hero
+
+https://www.easylearn.ing/course/wordpress-website-development-beginner
+
+
+
+17. PSPO II 
+- Product Owner Level II (PSPO 2) Mock Exams
+
+https://www.easylearn.ing/course/pspo-ii-mock-exams
+
+
+
+18. SPS - Scaled Sc
+rum - Nexus - Certification Practice Exams
+
+https://www.easylearn.ing/course/scaled-scrum-nexus-practice-exams
+
+
+
+19. 19
+ Generative AI Real Time Projects End to End
+
+https://www.easylearn.ing/course/generative-ai-projects
+
+
+
+20. API REST co
+n PHP  y MYSQL
+
+https://www.easylearn.ing/course/api-rest-php-mysql
+
+
+
+21. Beyond Paper: Mastering AR Business Cards
+
+ht
+tps://www.easylearn.ing/course/ar-business-cards
+
+
+
+22. Learn Arduino by Building 26 Projects!
+
+https://www.easylearn.in
+g/course/arduino-projects
+
+
+
+23. MS Certified: Azure Developer Associate AZ-204 Practice exam
+
+https://www.easylearn.ing
+/course/az-204-practice-exams
+
+
+
+24. Master the Terraform Associate (003) Certification Exam
+
+https://www.easylearn.ing/
+course/terraform-associate-exam-preparation
+
+
+
+25. Preparing for CKA: Mastering Kubernetes Deep Dive
+
+https://www.easyle
+arn.ing/course/kubernetes-cka-certification
+
+
+
+26. AWS Solutions Architect Associate Prep: Practice Tests
+
+https://www.e
+asylearn.ing/course/saa-c03-practice-exam-questions
+
+
+
+27. LEARN TO TRADE & INVEST- LIVE CLASS (HINDI)
+
+https://www.easy
+learn.ing/course/hindi-trading-investing-course
+
+
+
+28. Veeam Certified Architect (VMCA) v12.1 | Practice Exams 2024
+
+htt
+ps://www.easylearn.ing/course/veeam-certified-architect-vmca-v12-1-practice-exams
+
+
+
+29. SQL for Everyone Transform Data
+ into Insights
+
+https://www.easylearn.ing/course/sql-for-everyone
+
+
+
+30. Full Stack Data Science & Machine Learning Boot
+Camp Course
+
+https://www.easylearn.ing/course/data-science-bootcamp
+
+
+
+31. Mastering Deep Learning for Generative AI
+
+ht
+tps://www.easylearn.ing/course/generative-ai-deep-learning-course
+
+
+
+32. Python Powerhouse Gen AI From Basics to Advance
+d Programming
+
+https://www.easylearn.ing/course/python-generative-ai-course
+
+
+
+33. Data Analysis and Business Intelligen
+ce with Python & SQL
+
+https://www.easylearn.ing/course/data-analysis-business-intelligence-python-sql
+
+
+
+34. Mastering A
+ptitude: A Comprehensive Guide to Problem Solving
+
+https://www.easylearn.ing/course/aptitude-test-mastery
+
+
+
+35. Unlock 
+Your Data Superpowers Zero to Data Analyst Hero
+
+https://www.easylearn.ing/course/data-analysis-training
+
+
+
+36. DevOps f
+or Data Scientists: Containers for Data Science
+
+https://www.easylearn.ing/course/data-science-devops-course
+
+
+
+37. Unlo
+ck Your Potential: Exploring the Power of Chat GPT
+
+https://www.easylearn.ing/course/chatgpt-conversational-ai-course
+
+
+
+
+38. Python for Absolute Beginners Learn Programming from scratch
+
+https://www.easylearn.ing/course/python-virtual-assis
+tant-course
+
+
+
+39. Building AI Projects Machine Learning & Deep Learning
+
+https://www.easylearn.ing/course/ai-projects-m
+achine-learning-deep-learning
+
+
+
+40. Applied Time Series Analysis and Forecasting in Python
+
+https://www.easylearn.ing/c
+ourse/data-science-time-series
+
+
+
+41. Advanced DataBricks -Data Warehouse Performance Optimization
+
+https://www.easylear
+n.ing/course/databricks-data-warehouse-optimization
+
+
+
+42. Machine Learning A-Z From Foundations to Deployment
+
+https://
+www.easylearn.ing/course/machine-learning-a-z
+
+
+
+43. Mastering Time Series Analysis and Forecasting with Python
+
+https:/
+/www.easylearn.ing/course/arima-sarima-python
+
+
+
+44. Complete Machine Learning With Real-World Deployment
+
+https://www.e
+asylearn.ing/course/deep-learning-course
+
+
+
+45. Python Test Development:From the Ground Up to Advanced Level
+
+https://ww
+w.easylearn.ing/course/python-test-development-course
+
+
+
+46. QuickBooks Online: Streamline US Tax Deductions
+
+https://ww
+w.easylearn.ing/course/quickbooks-online-tax-deductions
+
+
+
+47. Regressions & Correlation
+
+https://www.easylearn.ing/cour
+se/regression-correlation-course
+
+
+
+48. Solar Cell Technology
+
+https://www.easylearn.ing/course/solar-cell-technology-co
+urse
+
+
+
+49. HR with Odoo 17 AI-Powered Policies and Procedures Manual
+
+https://www.easylearn.ing/course/odoo-17-hr-cours
+e
+
+
+
+50. Supply Chain Operations Specialization, PLM,Odoo 17 Planning
+
+https://www.easylearn.ing/course/supply-chain-ope
+rations-specialization
+
+
+
+51. CRM , E-commerce Website Exam ,Odoo 17 Certification
+
+https://www.easylearn.ing/course/odo
+o-17-certification-course
+
+
+
+52. Manufacturing ‎Certification Exam , Odoo 17 Certification
+
+https://www.easylearn.ing/co
+urse/odoo-17-manufacturing-certification
+
+
+
+53. Accounting Certification Exam , Odoo 17 Certification
+
+https://www.easyl
+earn.ing/course/odoo-17-accounting-certification-course
+
+
+
+54. Accounting and auditing with artificial intelligence-Odoo
+ 17
+
+https://www.easylearn.ing/course/accounting-auditing-artificial-intelligence
+
+
+
+55. Total Quality Management: Certi
+fication
+
+https://www.easylearn.ing/course/total-quality-management-certification
+
+
+
+56. Taller Literario (2da parte): C
+ómo Escribir Profesionalmente
+
+https://www.easylearn.ing/course/taller-literario-escritura-creativa
+
+
+
+57. Curso De Pyth
+on 3 Desde Cero Para Novatos
+
+https://www.easylearn.ing/course/curso-python-3-cero-novatos
+
+
+
+58. Theory of Constraints:
+ Certification
+
+https://www.easylearn.ing/course/theory-of-constraints-certification-course
+
+
+
+59. Python Certification 
+- The Next Level Python
+
+https://www.easylearn.ing/course/python-certification-hindi
+
+
+
+60. Python Project for Basics Da
+ta Analysis
+
+https://www.easylearn.ing/course/data-analysis-with-python-project
+
+
+
+61. Angular
+
+https://www.easylearn.in
+g/course/angular-course-hindi
+
+
+
+62. Become SAP Ariba Certified Consultant Spend Analysis
+
+https://www.easylearn.ing/cou
+rse/sap-ariba-spend-analysis-course
+
+
+
+63. Photoshop Express - Mastering Adobe Photoshop In 2 Hours
+
+https://www.easylea
+rn.ing/course/photoshop-express-course
+
+
+
+64. Veeam Certified Architect (VMCA) v12.1 Practice Exam - 2024
+
+https://www.e
+asylearn.ing/course/veeam-certified-architect-vmca-v12-1-practice-exam
+
+
+
+65. ChatBot de IA para Wordpress: Para Princip
+iantes y Avanzados
+
+https://www.easylearn.ing/course/chatbots-ia-wordpress
+
+
+
+66. DP-900 Microsoft Azure Data Fundamenta
+ls Certification Exams
+
+https://www.easylearn.ing/course/dp-900-certification
+
+
+
+67. Éducation Financière
+
+https://www.e
+asylearn.ing/course/education-financiere-independance
+
+
+
+68. Transform Your Arduino into Automatic Coin Operated Machine
+
+
+https://www.easylearn.ing/course/arduino-weight-machine
+
+
+
+69. PIC Microcontroller: Garage Door System Ultrasonic Sens
+or
+
+https://www.easylearn.ing/course/garage-door-system-pic-microcontroller
+
+
+
+70. AI-900 Azure AI Fundamentals
+
+https:/
+/www.easylearn.ing/course/ai-900-practice-questions
+
+
+
+71. Azure Developer Associate AZ-204
+
+https://www.easylearn.ing/c
+ourse/azure-developer-associate-az-204-practice-tests
+
+
+
+72. Microsoft Azure Data Fundamentals DP900 Practice
+
+https://w
+ww.easylearn.ing/course/azure-data-fundamentals-dp900-practice-tests
+
+
+
+73. Canva Magic Studio AI Tools for Quick, Easy 
+Content Creation
+
+https://www.easylearn.ing/course/canva-ai-design
+
+
+
+74. Fire Up Creativity in Your Child
+
+https://www.
+easylearn.ing/course/child-creativity-course
+
+
+
+75. Ultimate Adobe Photoshop for Beginners - Zero to Hero
+
+https://www.e
+asylearn.ing/course/photoshop-tutorial-for-beginners
+
+
+
+76. Oracle Cloud Infrastructure Architect Professional - Exams
+
+
+https://www.easylearn.ing/course/oracle-cloud-infrastructure-architect-professional-exam-prep
+
+
+
+77. 350+ Exercises - Py
+thon Programming Mega Pack - OOP
+
+https://www.easylearn.ing/course/python-oop-exercises
+
+
+
+78. Calculus: Applications of
+ Derivatives
+
+https://www.easylearn.ing/course/calculus-applications-derivatives
+
+
+
+79. Full Stack Data Science Develope
+r Course from scratch
+
+https://www.easylearn.ing/course/full-stack-data-science-developer-course
+
+
+
+80. AWS Certified De
+vOps Engineer Professional Practice Exams
+
+https://www.easylearn.ing/course/aws-devops-engineer-professional-practice-ex
+ams
+
+
+
+81. Coding for everybody: Full stack development course
+
+https://www.easylearn.ing/course/coding-for-everyone-cou
+rse
+
+
+
+82. Microsoft Certified: Azure Security Engineer Associate Exams
+
+https://www.easylearn.ing/course/azure-security
+-engineer-associate-certification
+
+
+
+83. Data Scientist Certification: Test Your Skills with Tests
+
+https://www.easylear
+n.ing/course/data-scientist-certification-practice-tests
+
+
+
+84. Salesforce Certified Platform Developer II - Mock Exams
+
+
+https://www.easylearn.ing/course/salesforce-platform-developer-ii-mock-exams
+
+
+
+85. Data Science Bootcamp in Python: 25
+0+ Exercises to Master
+
+https://www.easylearn.ing/course/python-data-science-bootcamp
+
+
+
+86. Super way to Learn Arduino 
+| Creative
+
+https://www.easylearn.ing/course/learn-arduino-programming
+
+
+
+87. Learn Python + JavaScript + Microsoft SQL 
+for Data science
+
+https://www.easylearn.ing/course/python-javascript-sql-data-science-course
+
+
+
+88. Lean Problem Solving
+: Creative Solutions for Teams & Leaders
+
+https://www.easylearn.ing/course/creative-problem-solving
+
+
+
+89. Reverse Engin
+eering 4: Software Protection
+
+https://www.easylearn.ing/course/reverse-engineering-software-protection
+
+
+
+90. MS-900: M
+icrosoft 365 Certified: Fundamentals - Mock Exams
+
+https://www.easylearn.ing/course/ms-900-practice-exams
+
+
+
+91. Basics 
+of the Arabic Language
+
+https://www.easylearn.ing/course/arabic-language-course-beginners
+
+
+
+92. Fullstack web developme
+nt : CSS JavaScript and PHP Mastery
+
+https://www.easylearn.ing/course/css-javascript-php-mysql
+
+
+
+93. DP-900: Azure Data
+ Fundamentals DP900 Practice Test Oct 2024
+
+https://www.easylearn.ing/course/dp-900-practice-tests
+
+
+
+94. Complete Netwo
+rk Hacking Course 2024 - Beginner to Advanced
+
+https://www.easylearn.ing/course/wifi-hacking-course
+
+
+
+95. Technical Ana
+lysis Mastery: Successful Trading Strategies
+
+https://www.easylearn.ing/course/technical-analysis-trading
+
+
+
+96. Perspec
+tive Management: Foundations of Leadership Excellence
+
+https://www.easylearn.ing/course/perspective-management-leadershi
+p-excellence
+
+
+
+97. Investment Management & Technical Analysis: A Trading Guide
+
+https://www.easylearn.ing/course/invest
+ment-management-technical-analysis-indian-stock-market
+
+
+
+98. Time Management for Stress Management
+
+https://www.easylea
+rn.ing/course/time-management-stress-reduction
+
+
+
+99. Brain computer interface with deep learning
+
+https://www.easylearn
+.ing/course/brain-computer-interface-deep-learning
+
+
+
+100. 500+ SAS Interview Questions Practice Test
+
+https://www.easyl
+earn.ing/course/sas-interview-questions-practice-test
+
+
+
+101. Ultimate PRTG Network Monitoring with Full Lab GNS3
+
+https
+://www.easylearn.ing/course/prtg-network-monitoring-course
+
+
+
+102. PHP with MySQL: Build 7 PHP and MySQL Projects
+
+https
+://www.easylearn.ing/course/build-php-mysql-projects
+
+
+
+103. Security Awareness Training - CyberSecurity for Everyone!
+
+
+https://www.easylearn.ing/course/cybersecurity-for-everyone
+
+
+
+104. RPA Project: Identify the process to automate
+
+https
+://www.easylearn.ing/course/identify-right-process-automate
+
+
+
+105. NodeJS Masterclass (Express, MongoDB, OpenAI) - 2024
+ Ready!
+
+https://www.easylearn.ing/course/nodejs-masterclass
+
+
+
+106. Flutter Masterclass (Dart, APIs, Firebase & More) -
+ 2024
+
+https://www.easylearn.ing/course/flutter-course-2024
+
+
+
+107. RPA Project: Process Definition Document (PDD)
+
+http
+s://www.easylearn.ing/course/rpa-project-management-pdd
+
+
+
+108. Trading from A to Z: forex, crypto, stock proven strateg
+y !
+
+https://www.easylearn.ing/course/forex-trading-course
+
+
+
+109. Complete Italian Course : Conversation Lessons for Be
+ginners
+
+https://www.easylearn.ing/course/learn-italian-conversation-beginner
+
+
+
+110. تعلم التحليل الأساسي في التداول في
+ سوق العملات
+
+https://www.easylearn.ing/course/تحليل-اساسي-فوركس
+
+
+
+111. AI-900 Azure AI Fundamentals Practice Tests | A
+zure AI 2024
+
+https://www.easylearn.ing/course/ai-900-azure-ai-fundamentals-practice-tests
+
+
+
+112. AZ-900 Practice Tests
+ for Microsoft Azure Fundamentals 2024
+
+https://www.easylearn.ing/course/azure-fundamentals-exam-prep
+
+
+
+113. AZ-400 Pra
+ctice Tests: Microsoft Azure DevOps Solutions Exam
+
+https://www.easylearn.ing/course/microsoft-azure-devops-solutions-ex
+am
+
+
+
+114. Azure AI-050: Generative AI Solutions with Azure OpenAI
+
+https://www.easylearn.ing/course/azure-ai-fundamenta
+ls-generative-ai
+
+
+
+115. AI-102 Microsoft Azure AI Engineer Associate Exam
+
+https://www.easylearn.ing/course/ai-102-exam
+-preparation
+
+
+
+116. Ms Certified: Azure AI Fundamentals AI-900 Practice Exam
+
+https://www.easylearn.ing/course/azure-ai
+-fundamentals-ai-900-exam-prep
+
+
+
+117. AZ-900 - Microsoft Azure Fundamentals - شرح بالعربي
+
+https://www.easylearn.ing/co
+urse/az-900-azure-fundamentals-arabic
+
+
+
+118. CISCO CCNA 200-301 Practice Exams (6) + Explanations
+
+https://www.easylear
+n.ing/course/cisco-ccna-200-301-practice-exams
+
+
+
+119. CompTIA Security+ 701 Practice Exam (2024)
+
+https://www.easylearn
+.ing/course/sy0-701-practice-test
+
+
+
+120. Web-Based Embedded System Simulator
+
+https://www.easylearn.ing/course/web-base
+d-embedded-simulator
+
+
+
+121. CompTia Network+ N10-009 Practice Exam (2024)
+
+https://www.easylearn.ing/course/comptia-net
+work-plus-n10-009-practice-exam
+
+
+
+122. Arduino Home Security System
+
+https://www.easylearn.ing/course/arduino-home-secu
+rity-system
+
+
+
+123. Debugging Javascript / NodeJS
+
+https://www.easylearn.ing/course/javascript-debugging-course
+
+
+
+124. 
+Projektmanagement: Produktivität und Mindset für Erfolg
+
+https://www.easylearn.ing/course/projektmanagement-kurs
+
+
+
+125.
+ Power Electronics for Electric Vehicles
+
+https://www.easylearn.ing/course/electric-vehicle-power-electronics
+
+
+
+126. Py
+thon desde Principiante hasta Nivel Ingeniería
+
+https://www.easylearn.ing/course/curso-python-principiante-profesional
+
+
+
+
+127. Crear un ecommerce FULLSTACK PHP y MySQL - Tienda Online
+
+https://www.easylearn.ing/course/ecommerce-development-
+php-mysql
+
+
+
+128. \[DEA-C01 | ARA-C01\] Snowflake Advanced Certification Prep
+
+https://www.easylearn.ing/course/snowflak
+e-advanced-certification-prep
+
+
+
+129. The Expert’s Secret to Mobile Application Testing \[2024\]
+
+https://www.easylearn.
+ing/course/mobile-testing-training
+
+
+
+130. CISSP Certification exam - Security Professional 2024 Part 1
+
+https://www.eas
+ylearn.ing/course/cissp-certification-exam-prep
+
+
+
+131. Python Programming Language (Practice Projects)
+
+https://www.eas
+ylearn.ing/course/practical-python-projects
+
+
+
+132. Problem Solving with C programming language
+
+https://www.easylearn.i
+ng/course/c-programming-problem-solving
+
+
+
+133. DP-600 Certification Microsoft Fabric - Tests Pratiques 2024
+
+https://ww
+w.easylearn.ing/course/microsoft-fabric-dp-600-certification
+
+
+
+134. Advance Professional Course in Steel Commercial (Pa
+rt-II)
+
+https://www.easylearn.ing/course/steel-commercial-building-design-part-2
+
+
+
+135. Unlock the Secrets of Polynomia
+ls: Command On Algebra
+
+https://www.easylearn.ing/course/master-algebra-polynomials
+
+
+
+136. ChatGPT for Construction Man
+agers
+
+https://www.easylearn.ing/course/chatgpt-construction-management
+
+
+
+137. Antivirus Evasion - Hard Core
+
+https://w
+ww.easylearn.ing/course/antivirus-evasion-masterclass
+
+
+
+138. JavaScript Fundamentals for Absolute Beginners
+
+https://ww
+w.easylearn.ing/course/javascript-basics-course
+
+
+
+139. 600+ Design Patterns Interview Questions Practice Test
+
+https://
+www.easylearn.ing/course/design-patterns-interview-questions
+
+
+
+140. AWS Certified Solution Architect Associate  SAA-C03
+ \[HINDI\]
+
+https://www.easylearn.ing/course/aws-certified-solutions-architect-associate-saa-c03-exam-prep-hindi
+
+
+
+141.
+ تعلم نطق اللغة الإنجليزية - صوتيات اللغة
+
+https://www.easylearn.ing/course/تعلم-نطق-اللغة-الإنجليزية
+
+
+
+142. AWS Certif
+ied SysOps Administrator Associate SOA-C02 \[2024\]
+
+https://www.easylearn.ing/course/aws-sysops-administrator-associate
+-soa-c02-certification
+
+
+
+143. Beginner's Exam Practice Guide for SHRM-SCP Certification
+
+https://www.easylearn.ing/cour
+se/shrm-scp-exam-practice-guide
+
+
+
+144. RPA Project: Gathering requirements
+
+https://www.easylearn.ing/course/rpa-requir
+ements-gathering
+
+
+
+145. 1400+ Deep Learning Interview Questions and Practice Tests
+
+https://www.easylearn.ing/course/de
+ep-learning-interview-questions
+
+
+
+146. \[New\] 750+ Excel Interview Questions and Practice Tests
+
+https://www.easylearn
+.ing/course/excel-interview-practice
+
+
+
+147. \[NEW\] 1100+ Git Interview Questions and Practice Tests
+
+https://www.easyl
+earn.ing/course/git-interview-questions
+
+
+
+148. DevOps Bootcamp: CI/CD, Automation, and Cloud Mastery\[Hindi\]
+
+https://
+www.easylearn.ing/course/devops-bootcamp-hindi
+
+
+
+149. AWS Certified SysOps Administrator Associate SOA-C02 \[HINDI\]
+
+h
+ttps://www.easylearn.ing/course/aws-sysops-administrator-associate-soa-c02-exam-prep-hindi
+
+
+
+150. Ultimate AWS Certifie
+d Solutions Architect Associate SAA-C03
+
+https://www.easylearn.ing/course/aws-certified-solutions-architect-associate-sa
+a-c03
+
+
+
+151. Introduction to Linux Shell Scripting in Hindi
+
+https://www.easylearn.ing/course/linux-shell-scripting-hin
+di
+
+
+
+152. Securing Your Ubuntu Environment: Best Practices
+
+https://www.easylearn.ing/course/ubuntu-security-guide
+
+
+
+1
+53. Create Space Invaders with Python PyGame
+
+https://www.easylearn.ing/course/space-invaders-python
+
+
+
+154. OOP Design 
+Patterns in Python
+
+https://www.easylearn.ing/course/oop-design-patterns-python
+
+
+
+155. Ethical Hacking: Crypto 101
+
+htt
+ps://www.easylearn.ing/course/ethical-hacking-cryptography
+
+
+
+156. Machine Learning Intro for Python Developers
+
+https:/
+/www.easylearn.ing/course/machine-learning-python-beginner
+
+
+
+157. RPA Project: Mapping the process(es)
+
+https://www.eas
+ylearn.ing/course/rpa-process-mapping
+
+
+
+158. \[New\] 1300+ Computer Vision Interview Practice Questions
+
+https://www.ea
+sylearn.ing/course/computer-vision-interview-questions
+
+
+
+159. 960+ Cryptography Interview Questions and Practice Tests
+
+
+https://www.easylearn.ing/course/cryptography-interview-questions
+
+
+
+160. Learn Advanced RAG : Vector to Graph RAG wth 
+LangChain Neo4j
+
+https://www.easylearn.ing/course/rag-course
+
+
+
+161. 5 Real-Time Use Cases using Machine Learning
+
+https
+://www.easylearn.ing/course/real-world-machine-learning
+
+
+
+162. AWS Certified Data Engineer Associate DEA-C01 Practice E
+xam
+
+https://www.easylearn.ing/course/aws-data-engineer-associate-practice-exam
+
+
+
+163. \[NEW\] Salesforce Certified AI 
+Associate | Practice Exams
+
+https://www.easylearn.ing/course/salesforce-certified-ai-associate-practice-exams
+
+
+
+164. Ap
+rende Hacking Ético: Protege y Penetra Redes
+
+https://www.easylearn.ing/course/cybersecurity-expert
+
+
+
+165. JavaScript 1
+0 Projects in 10 Days Course for Beginners
+
+https://www.easylearn.ing/course/javascript-web-development-10-projects
+
+
+
+1
+66. Build Convai Artificial Intelligence AR App With Unity3D.
+
+https://www.easylearn.ing/course/unity3d-ar-course
+
+
+
+167
+. Comprehensive Financial Statement : A Practical Assessment
+
+https://www.easylearn.ing/course/financial-statement-asses
+sment-course
+
+
+
+168. Veeam Certified Engineer (VMCE v12) - Exam Practice Tests 24
+
+https://www.easylearn.ing/course/veea
+m-vmce-v12-certification
+
+
+
+169. Prompt Engineering and RAG for Software Engineers
+
+https://www.easylearn.ing/course/pro
+mpt-engineering-for-software-engineers
+
+
+
+170. Visualizing Sensors Data
+
+https://www.easylearn.ing/course/sensor-data-vi
+sualization-esp32
+
+
+
+171. Ultimate Generative Persuasion: Sell and Present w/ ChatGPT
+
+https://www.easylearn.ing/course/
+chatgpt-persuasion-course
+
+
+
+172. Sistema Punto de Venta con PHP, MVC, POO y MySQL
+
+https://www.easylearn.ing/course/cur
+so-php-sistema-ventas
+
+
+
+173. Line Follower Robot: Master Robotics with Precision and Code
+
+https://www.easylearn.ing/co
+urse/line-follower-robot-arduino
+
+
+
+174. Solid Principles for Clean Code Programming & Architecture
+
+https://www.easylea
+rn.ing/course/solid-principles-clean-code-architecture
+
+
+
+175. React Hook Form: The Complete Guide with React (2024)
+
+ht
+tps://www.easylearn.ing/course/react-hook-form-guide
+
+
+
+176. ESRI ArcGIS Online : Formation Pratique (4 en 1 )
+
+https://
+www.easylearn.ing/course/formation-arcgis-online
+
+
+
+177. SVM for Beginners: Support Vector Machines in R Studio
+
+https:/
+/www.easylearn.ing/course/svm-beginner-guide
+
+
+
+178. Introduction to C#, easy and clear explanation.
+
+https://www.easyle
+arn.ing/course/master-c-sharp
+
+
+
+179. Python Design Patterns: Complete Guide \[2024 Edition\]
+
+https://www.easylearn.ing
+/course/python-design-patterns-mastery
+
+
+
+180. Climate Change Explained: Causes, Consequences and Solutions
+
+https://www
+.easylearn.ing/course/climate-change-explained
+
+
+
+181. Advanced Excel - مهارات اكسل متقدمة
+
+https://www.easylearn.ing/co
+urse/excel-chatgpt-integration
+
+
+
+182. 9 TO 5 wealth Creation :Blueprint to create wealth
+
+https://www.easylearn.ing/cou
+rse/9-to-5-wealth-creation
+
+
+
+183. PHP with MySQL: Build Complete Forum with Admin Panel
+
+https://www.easylearn.ing/cour
+se/php-mysql-forum-admin-panel
+
+
+
+184. Lean Manufacturing Academy: Certified Master Lean Course.
+
+https://www.easylearn.
+ing/course/lean-manufacturing-certification
+
+
+
+185. QuickBooks Desktop vs QBO Multiple Currencies
+
+https://www.easylearn
+.ing/course/quickbooks-desktop-qbo-multiple-currencies
+
+
+
+186. Python, Java and PHP Essentials: Complete Coding Bootcamp
+
+
+https://www.easylearn.ing/course/python-java-php-bootcamp
+
+
+
+187. Mastering C & C++ Programming: From Fundamentals to 
+Advanced
+
+https://www.easylearn.ing/course/c-programming-fundamentals
+
+
+
+188. DevOps Bootcamp: CI/CD, Automation, and Cl
+oud Mastery
+
+https://www.easylearn.ing/course/devops-bootcamp
+
+
+
+189. DevOps : CI/CD with Jenkins in Hindi
+
+https://www.
+easylearn.ing/course/devops-jenkins-course-hindi
+
+
+
+190. GitLab CI: Pipelines, CI/CD and DevOps for Beginners
+
+https://w
+ww.easylearn.ing/course/gitlab-ci-cd-devops
+
+
+
+191. Ansible for the Absolute Beginner - DevOps in Hindi
+
+https://www.eas
+ylearn.ing/course/ansible-devops-beginner-hindi
+
+
+
+192. Learn DevOps: Infrastructure Automation With Terraform\[2024\]
+
+
+https://www.easylearn.ing/course/learn-terraform-aws-infrastructure-automation
+
+
+
+193. AWS Certified Solution Architect-
+Associate Practice Tests
+
+https://www.easylearn.ing/course/aws-certified-solutions-architect-associate-practice-tests
+
+
+
+
+194. Introduction to SafeTest - A Netflix-backed Automation Tool
+
+https://www.easylearn.ing/course/safetest-course
+
+
+
+1
+95. Get Started with Salesforce - For Absolute beginners
+
+https://www.easylearn.ing/course/salesforce-beginner-course
+
+
+
+
+196. Developing a digital business growth strategy
+
+https://www.easylearn.ing/course/digital-business-growth-strategy
+
+
+
+
+197. AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide
+
+https://www.easylearn.ing/course/aws-certified-data
+-engineer-associate-practice-exams
+
+
+
+198. Mastering the AWS Certified AI Practitioner Exam
+
+https://www.easylearn.ing/c
+ourse/aif-c01-practice-questions
+
+
+
+199. Construye tu Propio Sistema POS con PHP 8 y MySQL
+
+https://www.easylearn.ing/co
+urse/curso-php-mysql-pos
+
+
+
+200. ChatGPT for Academic Research
+
+https://www.easylearn.ing/course/chatgpt-academic-resear
+ch
+
+
+
+201. Ms Azure Administrator Associate - AZ-104 Practice Exam
+
+https://www.easylearn.ing/course/az-104-practice-exa
+ms
+
+
+
+202. \[NEW\] 1500 Master SQL: Interview Questions - Practice Tests
+
+https://www.easylearn.ing/course/master-sql-in
+terview-questions
+
+
+
+203. 1500 New CompTIA IT Fundamentals ITF+ FC0-U61 Practice Exams
+
+https://www.easylearn.ing/course
+/comptia-it-fundamentals-practice-exams
+
+
+
+204. Certified Kubernetes Security Specialist Masterclass
+
+https://www.easyle
+arn.ing/course/kubernetes-security-specialist-training
+
+
+
+205. AWS Certified Cloud Practitioner
+
+https://www.easylearn.i
+ng/course/aws-cloud-fundamentals
+
+
+
+206. Python Web Development: Building Interactive Websites
+
+https://www.easylearn.in
+g/course/python-web-development-course
+
+
+
+207. FOCP Exam: Dominate with Practice & Expertise (2024 Edition)
+
+https://www
+.easylearn.ing/course/focp-exam-practice-tests
+
+
+
+208. Salesforce Marketing Cloud Consultant Practice Test 2024
+
+https:/
+/www.easylearn.ing/course/salesforce-marketing-cloud-certification-practice-exams
+
+
+
+209. Comprehensive ISTQB Foundation
+ Level Exam Certification Prep
+
+https://www.easylearn.ing/course/istqb-foundation-level-exam-prep
+
+
+
+210. Ultimate ISTQB
+ AI Testing Exam Certification 2024
+
+https://www.easylearn.ing/course/istqb-ai-testing-certification-exam
+
+
+
+211. PSK I 
+: Professional Scrum with Kanban Test - Exam 2024
+
+https://www.easylearn.ing/course/psk-i-exam-prep
+
+
+
+212. PSPO 1 Exam+
+1200QS & Explanations
+
+https://www.easylearn.ing/course/pspo-1-exam-prep
+
+
+
+213. Certified Scrum Master Certification - 
+CSM - Practice Tests
+
+https://www.easylearn.ing/course/csm-exam-prep-course
+
+
+
+214. ASQ Certification Exam Prep: 6 Pract
+ice Tests
+
+https://www.easylearn.ing/course/asq-certification-exam-prep
+
+
+
+215. Scaled Professional Scrum ( SPS ) Exam -
+ Test 2024
+
+https://www.easylearn.ing/course/scaled-professional-scrum-sps-exam-preparation
+
+
+
+216. PSPO 2 -Product Owne
+r Level 2 Practice Exam - Test 2024
+
+https://www.easylearn.ing/course/pspo-2-practice-exams
+
+
+
+217. Master FOCP Exam Pre
+p: 6 Updated Practice Tests
+
+https://www.easylearn.ing/course/focp-exam-prep-course
+
+
+
+218. ITIL 4 DPI Exam Success Guid
+e: 6 Practice Tests\\Questions
+
+https://www.easylearn.ing/course/itil-4-dpi-certification-exam-prep
+
+
+
+219. Ultimate AML
+S Exam Prep: 6 Practice Tests
+
+https://www.easylearn.ing/course/amls-exam-prep
+
+
+
+220. CSM Exam+600QS & Explanations
+
+ht
+tps://www.easylearn.ing/course/csm-exam-practice-tests
+
+
+
+221. ITIL 4 HVIT Exam Mastery: 6 Practice Tests & Explanations
+
+
+https://www.easylearn.ing/course/itil-4-hvit-certification-exam
+
+
+
+222. Professional Agile Leadership Exam +1200 Quest
+ions
+
+https://www.easylearn.ing/course/professional-agile-leadership-exam
+
+
+
+223. 6 Updated Practice Tests: IASSC Exam P
+rep \[2024\]
+
+https://www.easylearn.ing/course/iassc-exam-prep-2024
+
+
+
+224. P3O Certification Exam Prep: 6 Practice Test
+s \[2024\]
+
+https://www.easylearn.ing/course/p3o-practice-tests
+
+
+
+225. Odoo 17 Certification Exam Preparation
+
+https://
+www.easylearn.ing/course/odoo-17-certification-exam-preparation
+
+
+
+226. MSP Certification Exam Prep: 6 Practice Tests
+
+h
+ttps://www.easylearn.ing/course/msp-exam-practice-tests
+
+
+
+227. Master the SPS Exam 2024: Comprehensive Certification Pr
+ep
+
+https://www.easylearn.ing/course/sps-exam-prep-course
+
+
+
+228. Scrum Developer Certification - PSD -  Practice Test -
+ Exams
+
+https://www.easylearn.ing/course/psd-exam-practice-tests
+
+
+
+229. ITIL 4 CDS Exam Prep: 6 Full Practice Tests wit
+h & Questions
+
+https://www.easylearn.ing/course/itil-4-cds-exam-prep
+
+
+
+230. Diseño 3D para Videojuegos con Blender
+
+htt
+ps://www.easylearn.ing/course/curso-blender-modelado-3d-videojuegos
+
+
+
+231. Decision Trees, Random Forests, Bagging & XG
+Boost: R Studio
+
+https://www.easylearn.ing/course/decision-trees-r-studio
+
+
+
+232. The Complete Android & Kotlin App Deve
+lopment A-Z Bootcamp
+
+https://www.easylearn.ing/course/android-app-development-kotlin-bootcamp
+
+
+
+233. Como Vender en AM
+AZON FBA Completo Paso a Paso, Español 2025
+
+https://www.easylearn.ing/course/curso-amazon-fba-espanol
+
+
+
+234. Personal 
+Finance #11-Stock Investment -Equity Investments
+
+https://www.easylearn.ing/course/stock-investment-guide
+
+
+
+235. Organi
+c Digital Marketing: The Updated 2024 Masterclass
+
+https://www.easylearn.ing/course/youtube-marketing-mastery
+
+
+
+236. Sa
+lesforce Advanced Administrator ADM-301 Mock Exams | 2024
+
+https://www.easylearn.ing/course/salesforce-advanced-administ
+rator-adm-301-practice-exams
+
+
+
+237. React & Next.js: From Beginner to Pro in No Time
+
+https://www.easylearn.ing/course/
+react-nextjs-course
+
+
+
+238. Blueprint For Successful  Microservices & API Implementation
+
+https://www.easylearn.ing/cour
+se/microservices-api-deployment-declarative-configuration
+
+
+
+239. Harnessing AI and Machine Learning for Geospatial Anal
+ysis
+
+https://www.easylearn.ing/course/geospatial-analysis-ai
+
+
+
+240. Master JavaScript, HTML, and CSS with 30 Projects 
+in 30 Days
+
+https://www.easylearn.ing/course/30-projects-in-30-days
+
+
+
+241. Complete Payroll Management in Excel &TALLY 
+ERP9 &TallyPrime
+
+https://www.easylearn.ing/course/payroll-management-excel-tally
+
+
+
+242. Elementor Hosting 2024: Crea u
+na Tienda Online con WordPress
+
+https://www.easylearn.ing/course/elementor-hosting-wordpress-tienda-online
+
+
+
+243. Compr
+ehensive C# Programming Practice Test: Code Mastery
+
+https://www.easylearn.ing/course/c-sharp-programming-practice-test
+
+
+
+
+244. Proyecto Java NetBeans: Control de Versiones con Git, GitHub
+
+https://www.easylearn.ing/course/curso-git-github-
+netbeans-java
+
+
+
+245. Salesforce Marketing Cloud Email/Admin/Consultant Training
+
+https://www.easylearn.ing/course/sales
+force-marketing-cloud-certification-training
+
+
+
+246. Seven Quality Control Tools to improve everyday performance.
+
+https
+://www.easylearn.ing/course/quality-control-tools
+
+
+
+247. Aprende WPF y MAUI desde CERO usando C#
+
+https://www.easylearn
+.ing/course/curso-wpf-maui-c-sharp
+
+
+
+248. 17 in 1: Complete Personal Transformation Masterclass
+
+https://www.easylearn.
+ing/course/personal-transformation-masterclass
+
+
+
+249. Python for Scientific Research
+
+https://www.easylearn.ing/course/
+python-for-scientific-research
+
+
+
+250. Master Content Creation : Become a paid Content Creator
+
+https://www.easylearn.in
+g/course/content-creation-mastery
+
+
+
+251. AWS Certified Machine Learning Engineer - Associate | Exams
+
+https://www.easyl
+earn.ing/course/aws-certified-machine-learning-engineer-associate-exam-prep
+
+
+
+252. Master CDPSE: Certified Data Privacy
+ Solutions Engineer
+
+https://www.easylearn.ing/course/cdpse-certification-course
+
+
+
+253. Network Mastery for Ethical Hac
+kers
+
+https://www.easylearn.ing/course/ethical-hacking-network-security
+
+
+
+254. Burp Suite Mastery: From Beginner to Adv
+anced
+
+https://www.easylearn.ing/course/burp-suite-mastery
+
+
+
+255. PMI-PBA Exam Ready: Practice Tests for Business Analy
+sts
+
+https://www.easylearn.ing/course/pmi-pba-exam-prep
+
+
+
+256. Supercharging your business with AI tools
+
+https://www.e
+asylearn.ing/course/ai-for-business-growth
+
+
+
+257. Comment ne plus échouer ? Le système de la réussite
+
+https://www.easy
+learn.ing/course/reussir-guide-ultime-potentiel
+
+
+
+258. CSO Chief Security Officer Executive Certification
+
+https://www.
+easylearn.ing/course/cso-certification-assessment
+
+
+
+259. Word Wizard : Using Microsoft Word Like a Pro in 2024
+
+https:/
+/www.easylearn.ing/course/word-for-beginners-advanced
+
+
+
+260. Practice Tests | AWS Certified Solutions Architect Associa
+te
+
+https://www.easylearn.ing/course/aws-solutions-architect-associate-practice-tests
+
+
+
+261. Build Your English A2 to B
+1 through Story-Based Learning
+
+https://www.easylearn.ing/course/english-a2-b1-course
+
+
+
+262. Finanzmodellierung: Vollst
+ändiger Finanzkurs in Excel
+
+https://www.easylearn.ing/course/finanzmodellierung-excel-kurs
+
+
+
+263. Financial Modeling: 
+Complete Finance Course on Excel
+
+https://www.easylearn.ing/course/financial-modeling-course-excel
+
+
+
+264. Modelagem Fin
+anceira, Finanças e Gestão financeira no Excel
+
+https://www.easylearn.ing/course/modelagem-financeira-excel
+
+
+
+265. Mode
+lización financiera: curso completo de finanzas en Excel
+
+https://www.easylearn.ing/course/curso-modelacion-financiera-e
+xcel
+
+
+
+266. Email Etiquette: Essential Skill for Corporate Communication
+
+https://www.easylearn.ing/course/email-etique
+tte-corporate-communication
+
+
+
+267. The Ultimate Google Tag Manager Course: Beginner to Advanced
+
+https://www.easylearn.
+ing/course/learn-google-tag-manager
+
+
+
+268. Tech Lead & Staff Engineer Survival Primer in 75 mins
+
+https://www.easylearn
+.ing/course/tech-lead-mastery
+
+
+
+269. Financial Modeling on Excel Complete finance course on Excel
+
+https://www.easylear
+n.ing/course/financial-modeling-excel-course
+
+
+
+270. ChatGPT & IA : Formation complète ChatGPT, Dall-e
+
+https://www.easy
+learn.ing/course/chatgpt-formation-complete
+
+
+
+271. \[New\]  VMware Certified Professional - VCP-DTM Practice Exam
+
+http
+s://www.easylearn.ing/course/vcp-dtm-practice-exams
+
+
+
+272. Matlab course for wireless communication engineering
+
+https:
+//www.easylearn.ing/course/matlab-course-ofdm-noma
+
+
+
+273. New Microsoft AZ-900: Microsoft Azure Fundamentals Practice
+
+
+https://www.easylearn.ing/course/azure-fundamentals-practice-tests
+
+
+
+274. \[New\] - AZ-104 Microsoft Azure Administrato
+r-Practice Test
+
+https://www.easylearn.ing/course/microsoft-azure-administrator-practice-exams
+
+
+
+275. New Business Anal
+yst Certification (PMI-PBA)
+
+https://www.easylearn.ing/course/pmi-pba-certification-prep
+
+
+
+276. Google Cloud Network En
+gineer (PCNE) Full Practice Exams
+
+https://www.easylearn.ing/course/google-cloud-network-engineer-pcne-certification
+
+
+
+
+277. Sales Crash Course - B2B Sales Skills & Business Development
+
+https://www.easylearn.ing/course/b2b-sales-training
+
+
+
+
+278. SC-400 Certification Challenge: Essential Practice Tests
+
+https://www.easylearn.ing/course/sc-400-certification-p
+ractice-tests
+
+
+
+279. IBM watsonx Generative AI Engineer Associate - Exams
+
+https://www.easylearn.ing/course/ibm-watsonx
+-generative-ai-engineer-associate-exam-prep
+
+
+
+280. Mastering GitLab Building Continuous Integration Pipelines
+
+https://
+www.easylearn.ing/course/gitlab-ci-cd-course
+
+
+
+281. Data Analytics Masters - From Basics To Advanced
+
+https://www.easyl
+earn.ing/course/data-analytics-masterclass
+
+
+
+282. Basic Electronics - Test your knowledge. (Multiple Choice)
+
+https://w
+ww.easylearn.ing/course/electronics-fundamentals-quiz
+
+
+
+283. AWS Certified DevOps Engineer - Professional DOP-C02
+
+http
+s://www.easylearn.ing/course/aws-devops-engineer-professional-dop-c02-practice-exam
+
+
+
+284. Windows 10 Services Administ
+ration and Troubleshooting
+
+https://www.easylearn.ing/course/windows-10-services-administration
+
+
+
+285. CCNA (Cisco Cert
+ified Network Associate) Practice Exams 2024
+
+https://www.easylearn.ing/course/ccna-practice-exams
+
+
+
+Deals number 286 t
+o 996 can be found on:
+
+https://www.easylearn.ing/
+
+
+```
+---
+
+     
+ 
+all -  [ How I want to combine my passion for soccer with data analysis and AI - your opinion ](https://www.reddit.com/r/computervision/comments/1fxabx6/how_i_want_to_combine_my_passion_for_soccer_with/) , 2024-10-07-0913
+```
+Hello everyone,
+
+I have been working as a freelancer in the field of data analysis for about a year now and during this 
+time I have intensively acquired Python and Langchain, with which I have already implemented some smaller projects. My p
+rofessional background, however, is in soccer, where I worked for many years as a youth coach and video analyst for prof
+essional teams.
+
+Recently, I have been thinking hard about how I can combine my passion for soccer with my current skill
+s in data and AI. I find computer vision projects in soccer particularly exciting, for example for tactical analysis, pl
+ayer development or training optimization.
+
+The areas of application in this field are extremely diverse and I am convin
+ced that there is a growing market and strong demand for this. However, as I am still new to this area, I would be very 
+happy to receive your feedback and assessments - especially regarding the current market and possible entry points.
+
+Bes
+t regards from Brazil/Germany
+
+Philipp
+```
+---
+
+     
+ 
+all -  [ [Feedback Needed] 🤖 SparkPrompt - Prompt Engineering Simulator  ](https://www.reddit.com/r/ChatGPT/comments/1fx8oj3/feedback_needed_sparkprompt_prompt_engineering/) , 2024-10-07-0913
+```
+Hey everyone! 👋 I’ve built SparkPrompt, a tool that generates, evaluates, and refines prompts using LangChain and the Ge
+mini API. Whether you're an educator, researcher, or just need creative prompts, this tool has you covered!
+
+You just ne
+ed a Gemini API key, which you can get for free from Google AI Studio to use this application!
+
+Try it here: [SparkPromp
+t](https://sparkprompt.streamlit.app/) 
+
+Looking for feedback on:
+
+1. Usability
+
+2. Functionality
+
+3. Suggestions for im
+provement
+
+
+Feel free to check the ReadMe for how to use the tool on GitHub: [SparkPrompt Repo](https://github.com/Nitin
+-Sagar-B/SparkPrompt)
+
+Thank you so much for your valuable time and I look forward to your feedback!
+```
+---
+
+     
+ 
+all -  [ [Feedback needed] 🤖 SparkPrompt - Prompt Writing Simulator ](https://www.reddit.com/r/aipromptprogramming/comments/1fx8meu/feedback_needed_sparkprompt_prompt_writing/) , 2024-10-07-0913
+```
+Hey everyone! 👋 I’ve built SparkPrompt, a tool that generates, evaluates, and refines prompts using LangChain and the Ge
+mini API. Whether you're an educator, researcher, or just need creative prompts, this tool has you covered!
+
+You just ne
+ed a Gemini API key, which you can get for free from Google AI Studio to use this application!
+
+Try it here: [SparkPromp
+t](https://sparkprompt.streamlit.app/) 
+
+Looking for feedback on:
+
+1. Usability
+
+2. Functionality
+
+3. Suggestions for im
+provement
+
+
+
+Feel free to check the ReadMe for how to use the tool on GitHub: [SparkPrompt Repo](https://github.com/Niti
+n-Sagar-B/SparkPrompt)
+```
+---
+
+     
+ 
+all -  [ Philosophy major looking for dev helper ](https://www.reddit.com/r/LLMDevs/comments/1fx4m47/philosophy_major_looking_for_dev_helper/) , 2024-10-07-0913
+```
+Hi ! I am currently a research assistant working on a RAG project to test quality, response elements and validity of dif
+ferent models when answering philosophy related questions. As of now the plan the project logic is closely related to th
+e one presented in *An Automatic Ontology Generation Framework with An Organizational Perspective* \[[Elnagar (2020)](ht
+tps://arxiv.org/pdf/2201.05910)\]. The gist of it as far as I understood is to generate a knowledge graph from an unstru
+ctured corpus, from which we make domain-specific ontology. 
+
+
+
+This two-step program has a bunch of advantages detailed
+ in the paper but one specific to this research project is to allow for hybrid KG and ontology generation, for domain-sp
+ecific experts to be involved in knowledge integration. This is important in philosophy since discussed relations are of
+ten very abstract. It would also be useful to monitor the evolution of semantic networks in the knowledge graph as in *A
+rchitecture and evolution of semantic networks in mathematics texts* \[[Christianson et. al (2020)](https://www.research
+gate.net/publication/343288312_Architecture_and_evolution_of_semantic_networks_in_mathematics_texts)\]. 
+
+
+
+As of now th
+e corpus has been manually collected, but future implementations of this project may include a module that collects key 
+text of a domain from anna's archive API or something adjacent. I did try making some stuff up in a notebook and succeed
+ed in some basic things, like word-cloud generation and [semantic hyper-graphs](https://graphbrain.net/). 
+
+
+
+However, I
+ would like for this project to move faster than I alone can do it, hence this post. I am a philosophy major and I simpl
+y have too much stuff to figure out that is trivial to most of you, I don't even know how to use langchain ffs. I would 
+still like to be highly involved in the process since I love to learn and it's important to me to get better at these th
+ings. 
+
+
+
+Depending on affinities this may or may not evolves in a longer collaborative relationship since I often use c
+ode-adjacent ideas in my personal research *à la* Peter Naur, but this is beside the point for this post. Please contact
+ me at [shrekrequiem@proton.me](mailto:shrekrequiem@proton.me) if you are interested. If this isn't the place for this I
+ would also be highly thankful to redirect me to other subreddits or online spaces where this would be more appropriate.
+ 
+```
+---
+
+     
+ 
+all -  [ Can anyone help me to get first full time job please  ](https://i.redd.it/cndhtqa9czsd1.jpeg) , 2024-10-07-0913
 ```
 
 ```
@@ -7,7 +4194,7 @@ all -  [ Can anyone help me to get first full time job please  ](https://i.redd.
 
      
  
-all -  [ Question About Agent Toolkits and Contributing to Agent tools ](https://www.reddit.com/r/LangChain/comments/1fwuyty/question_about_agent_toolkits_and_contributing_to/) , 2024-10-06-0914
+all -  [ Question About Agent Toolkits and Contributing to Agent tools ](https://www.reddit.com/r/LangChain/comments/1fwuyty/question_about_agent_toolkits_and_contributing_to/) , 2024-10-07-0913
 ```
 For context, I'm basically a beginner at the LangChain codebase and want to find ways to contribute towards open source.
  Currently, I'm looking into contributing a Spotify tool for agents to use, but had a question about the file structure.
@@ -23,7 +4210,7 @@ tly, and why would some of the implemented tools need them compared to others?
 
      
  
-all -  [ How I deployed a NestJS task in as a Lambda to react to S3 events ](https://www.reddit.com/r/nestjs/comments/1fwu316/how_i_deployed_a_nestjs_task_in_as_a_lambda_to/) , 2024-10-06-0914
+all -  [ How I deployed a NestJS task in as a Lambda to react to S3 events ](https://www.reddit.com/r/nestjs/comments/1fwu316/how_i_deployed_a_nestjs_task_in_as_a_lambda_to/) , 2024-10-07-0913
 ```
 I'm working on a RAG application using nestjs, exposing an API to a vuejs application. One huge part of a RAG is about i
 ngesting the data.  
@@ -66,7 +4253,7 @@ you guys have any recommendations about this approach?
 
      
  
-all -  [ Simulation and CI/CD for agents ](https://www.reddit.com/r/LangChain/comments/1fws0mw/simulation_and_cicd_for_agents/) , 2024-10-06-0914
+all -  [ Simulation and CI/CD for agents ](https://www.reddit.com/r/LangChain/comments/1fws0mw/simulation_and_cicd_for_agents/) , 2024-10-07-0913
 ```
 Is anyone building CI/CD and for agents? Agents break all the time due to changes in models, nodes, functions etc. Testi
 ng manually for different cases is hard if you have a wide range of inputs the agent is supposed to handle. 
@@ -76,7 +4263,7 @@ ng manually for different cases is hard if you have a wide range of inputs the a
      
  
 all -  [ [Open source] r/RAG's official resource to help navigate the flood of RAG frameworks
- ](https://www.reddit.com/r/LangChain/comments/1fwqp07/open_source_rrags_official_resource_to_help/) , 2024-10-06-0914
+ ](https://www.reddit.com/r/LangChain/comments/1fwqp07/open_source_rrags_official_resource_to_help/) , 2024-10-07-0913
 ```
 Hey everyone!
 
@@ -121,7 +4308,7 @@ NTRIBUTING.md](https://github.com/Andrew-Jang/RAGHub/blob/main/CONTRIBUTING.md) 
 
      
  
-all -  [ October 5, 2024 - 960 Top Free Udemy Course Deals (Live updates) ](https://www.reddit.com/r/udemyfreebies/comments/1fwn7sd/october_5_2024_960_top_free_udemy_course_deals/) , 2024-10-06-0914
+all -  [ October 5, 2024 - 960 Top Free Udemy Course Deals (Live updates) ](https://www.reddit.com/r/udemyfreebies/comments/1fwn7sd/october_5_2024_960_top_free_udemy_course_deals/) , 2024-10-07-0913
 ```
 1. QuickBooks Online: Streamline US Tax Deductions
 
@@ -2159,7 +6346,7 @@ w.easylearn.ing/
 
      
  
-all -  [ Should I use an agentic framework to build multi-agent infrastructure. ](https://www.reddit.com/r/LocalLLaMA/comments/1fw8dwx/should_i_use_an_agentic_framework_to_build/) , 2024-10-06-0914
+all -  [ Should I use an agentic framework to build multi-agent infrastructure. ](https://www.reddit.com/r/LocalLLaMA/comments/1fw8dwx/should_i_use_an_agentic_framework_to_build/) , 2024-10-07-0913
 ```
 I want to build a llm-application, but IDK if I should use something like langchain (or an alternative) vs writing my ow
 n AI agents, and tools. What would be better in your opinions? And how should I go about it??
@@ -2170,7 +6357,7 @@ n AI agents, and tools. What would be better in your opinions? And how should I 
 
      
  
-all -  [ Why is it not standard for OpenAI and other libraries to offer API reference docs in an AI-friendly  ](https://www.reddit.com/r/OpenAI/comments/1fw7vta/why_is_it_not_standard_for_openai_and_other/) , 2024-10-06-0914
+all -  [ Why is it not standard for OpenAI and other libraries to offer API reference docs in an AI-friendly  ](https://www.reddit.com/r/OpenAI/comments/1fw7vta/why_is_it_not_standard_for_openai_and_other/) , 2024-10-07-0913
 ```
 **Edit:** I misspoke, and it's really the *library reference* (for me, `openai-python`) that I want this for.
 
@@ -2194,7 +6381,7 @@ te. (You could bring your own API key, the project wouldn't have to pay.)
 
      
  
-all -  [ How to access modules in other parts of the repo when dynamically loading? ](https://www.reddit.com/r/learnpython/comments/1fw6kvr/how_to_access_modules_in_other_parts_of_the_repo/) , 2024-10-06-0914
+all -  [ How to access modules in other parts of the repo when dynamically loading? ](https://www.reddit.com/r/learnpython/comments/1fw6kvr/how_to_access_modules_in_other_parts_of_the_repo/) , 2024-10-07-0913
 ```
 Hi all, got a bit of a conundrum here trying to get dynamic module loading with importlib to work properly 
 
@@ -2382,7 +6569,7 @@ e}')
 
      
  
-all -  [ Advanced LLM parsing is the key to advanced AI applications. ](https://www.reddit.com/r/datascience/comments/1fw5k23/advanced_llm_parsing_is_the_key_to_advanced_ai/) , 2024-10-06-0914
+all -  [ Advanced LLM parsing is the key to advanced AI applications. ](https://www.reddit.com/r/datascience/comments/1fw5k23/advanced_llm_parsing_is_the_key_to_advanced_ai/) , 2024-10-07-0913
 ```
 In my experience, when people consider applying LLMs to a project they often fall into two camps:
 
@@ -2425,7 +6612,7 @@ I'm curious what LLM parsing tricks you employ
 
      
  
-all -  [ a way to chunk large txt file or HTML ](https://www.reddit.com/r/LangChain/comments/1fw2125/a_way_to_chunk_large_txt_file_or_html/) , 2024-10-06-0914
+all -  [ a way to chunk large txt file or HTML ](https://www.reddit.com/r/LangChain/comments/1fw2125/a_way_to_chunk_large_txt_file_or_html/) , 2024-10-07-0913
 ```
 Hi
 
@@ -2439,7 +6626,7 @@ any ideas folks?
 
      
  
-all -  [ Postgresql Checkpointer on LangGraphJS ](https://www.reddit.com/r/LangChain/comments/1fw0ifo/postgresql_checkpointer_on_langgraphjs/) , 2024-10-06-0914
+all -  [ Postgresql Checkpointer on LangGraphJS ](https://www.reddit.com/r/LangChain/comments/1fw0ifo/postgresql_checkpointer_on_langgraphjs/) , 2024-10-07-0913
 ```
 I am doing some research and initial setup for implementing an agentic system on a large production application and am t
 rying to find information on whether the Postgresql checkpointing system is currently implemented for LangGraphJS. 
@@ -2454,16 +6641,20 @@ Thanks!
 
      
  
-all -  [ Need resource for RAG agent in LangGraph ](https://www.reddit.com/r/LangChain/comments/1fvzoh6/need_resource_for_rag_agent_in_langgraph/) , 2024-10-06-0914
+all -  [ Need resource for RAG agent in LangGraph ](https://www.reddit.com/r/LangChain/comments/1fvzoh6/need_resource_for_rag_agent_in_langgraph/) , 2024-10-07-0913
 ```
 I am looking to build rag agent in Langgraph, so if anyone has resources or learning material apart from official docume
 ntion then please share it. 
+
+From the future:- I got a blog post which explains the concepts in simple terms so here is
+ the link for it: https://medium.com/@pankaj_pandey/implementing-agentic-retrieval-augmented-generation-rag-with-langgra
+ph-b9687b3ab177 
 ```
 ---
 
      
  
-all -  [ I created a discord server to discuss agentic systems engineering ](https://www.reddit.com/r/LangChain/comments/1fvz82r/i_created_a_discord_server_to_discuss_agentic/) , 2024-10-06-0914
+all -  [ I created a discord server to discuss agentic systems engineering ](https://www.reddit.com/r/LangChain/comments/1fvz82r/i_created_a_discord_server_to_discuss_agentic/) , 2024-10-07-0913
 ```
 Hey guys, I created a discord channels for developers building AI agents (using any framework or none). Join if you're i
 nterested in learning and sharing with the community: [https://discord.gg/nRgm5DbH](https://discord.gg/nRgm5DbH)
@@ -2472,7 +6663,7 @@ nterested in learning and sharing with the community: [https://discord.gg/nRgm5D
 
      
  
-all -  [ Using ChatOpenAI with LangGraph.js to Build a Personal Assistant AI Agent ](https://www.reddit.com/r/LangChain/comments/1fvyhb9/using_chatopenai_with_langgraphjs_to_build_a/) , 2024-10-06-0914
+all -  [ Using ChatOpenAI with LangGraph.js to Build a Personal Assistant AI Agent ](https://www.reddit.com/r/LangChain/comments/1fvyhb9/using_chatopenai_with_langgraphjs_to_build_a/) , 2024-10-07-0913
 ```
 Made a beginner guide on how to use LangGraph and ChatGpt to create an AI Agent that acts as a personal assistant 👉 [htt
 ps://www.js-craft.io/blog/chatopenai-langgraph-js-ai-agent/](https://www.js-craft.io/blog/chatopenai-langgraph-js-ai-age
@@ -2484,7 +6675,7 @@ Please let me know your thoughts :)
 
      
  
-all -  [ Speaker Diarization for audio with multiple languages ](https://www.reddit.com/r/LangChain/comments/1fvvr5r/speaker_diarization_for_audio_with_multiple/) , 2024-10-06-0914
+all -  [ Speaker Diarization for audio with multiple languages ](https://www.reddit.com/r/LangChain/comments/1fvvr5r/speaker_diarization_for_audio_with_multiple/) , 2024-10-07-0913
 ```
 I have a call record with two people speaking in combination of languages like english, telugu and hindi. How to diarize
  it. I tried pyannote models available in the huggingface. It's not working well and I'm not getting any accurate result
@@ -2494,7 +6685,7 @@ s. What are the available options and how to proceed further
 
      
  
-all -  [ advice from people working in tech from early 2000 ](https://www.reddit.com/r/codingbootcamp/comments/1fvvfhk/advice_from_people_working_in_tech_from_early_2000/) , 2024-10-06-0914
+all -  [ advice from people working in tech from early 2000 ](https://www.reddit.com/r/codingbootcamp/comments/1fvvfhk/advice_from_people_working_in_tech_from_early_2000/) , 2024-10-07-0913
 ```
 guys as someone with 15+ yoe, I want to ask others who have experience, what advice would you give to the young new grad
 s and those who are looking into the SWE and data careers?   
@@ -2541,7 +6732,7 @@ Take care!
 
      
  
-all -  [ Hybrid retrieval on Postgres - (sub)second latency on ~30M documents ](https://www.reddit.com/r/LangChain/comments/1fvunhv/hybrid_retrieval_on_postgres_subsecond_latency_on/) , 2024-10-06-0914
+all -  [ Hybrid retrieval on Postgres - (sub)second latency on ~30M documents ](https://www.reddit.com/r/LangChain/comments/1fvunhv/hybrid_retrieval_on_postgres_subsecond_latency_on/) , 2024-10-07-0913
 ```
 We had been looking for open source ways to scale out our hybrid retrieval in Langchain beyond the capability of the def
 ault Milvus/FAISS vector store with the default in-memory BM25 indexing but we couldn't find any proper alternative.
@@ -2567,7 +6758,7 @@ roduction](https://github.com/AI-Commandos/RAGMeUp/blob/main/README.md#using-pos
 
      
  
-all -  [ RAG Tabular Type Data ](https://www.reddit.com/r/Rag/comments/1fvtfr2/rag_tabular_type_data/) , 2024-10-06-0914
+all -  [ RAG Tabular Type Data ](https://www.reddit.com/r/Rag/comments/1fvtfr2/rag_tabular_type_data/) , 2024-10-07-0913
 ```
 I want to create a Chroma Vector Store using Langchain from pdf documents, but what's happening is that my pdf contain s
 ome tabular data, now when I am querying AI model for table data, It is not able to identify it. 
@@ -2579,7 +6770,7 @@ ique or library for reading tabular data perfectly in order to create vector sto
 
      
  
-all -  [ Real estate llm ](https://www.reddit.com/r/LangChain/comments/1fvt4d3/real_estate_llm/) , 2024-10-06-0914
+all -  [ Real estate llm ](https://www.reddit.com/r/LangChain/comments/1fvt4d3/real_estate_llm/) , 2024-10-07-0913
 ```
 Has anybody has any idea how to build a real estate llm which scans through various real estate listings in real time an
 d notify the user about the listing if it is profitable investment. I have not much experience in langchain can anyone t
@@ -2589,7 +6780,7 @@ ell me is it possible
 
      
  
-all -  [ What are some hobby projects that you've built with langchain? ](https://www.reddit.com/r/LangChain/comments/1fvqjpu/what_are_some_hobby_projects_that_youve_built/) , 2024-10-06-0914
+all -  [ What are some hobby projects that you've built with langchain? ](https://www.reddit.com/r/LangChain/comments/1fvqjpu/what_are_some_hobby_projects_that_youve_built/) , 2024-10-07-0913
 ```
 I'm looking to build some hobby projects with LangChain for teaching people.
 
@@ -2600,7 +6791,7 @@ mediate project ideas using LangChain that would be fun to build for beginners.
 
      
  
-all -  [ AI Agent Marketplaces ](https://www.reddit.com/r/LangChain/comments/1fvj04p/ai_agent_marketplaces/) , 2024-10-06-0914
+all -  [ AI Agent Marketplaces ](https://www.reddit.com/r/LangChain/comments/1fvj04p/ai_agent_marketplaces/) , 2024-10-07-0913
 ```
 We're seeing a rising trend in companies trying to build AI agent marketplaces. I think it'll only be a few more months 
 until someone figures out how to do it at scale. What do you guys think will be the most important features on these mar
@@ -2610,7 +6801,7 @@ ketplaces that will make them beneficial for creators?
 
      
  
-all -  [ How to create a manual LLM chain for Conservational RAG? ](https://www.reddit.com/r/LangChain/comments/1fvf9vw/how_to_create_a_manual_llm_chain_for/) , 2024-10-06-0914
+all -  [ How to create a manual LLM chain for Conservational RAG? ](https://www.reddit.com/r/LangChain/comments/1fvf9vw/how_to_create_a_manual_llm_chain_for/) , 2024-10-07-0913
 ```
 It might be a noob question, I want to create a llm chain something like
 
@@ -2675,7 +6866,7 @@ nse['answer']))  
 
      
  
-all -  [ text-embedding-004 from Gemini is not available on LangChain ](https://www.reddit.com/r/LangChain/comments/1fvf4hk/textembedding004_from_gemini_is_not_available_on/) , 2024-10-06-0914
+all -  [ text-embedding-004 from Gemini is not available on LangChain ](https://www.reddit.com/r/LangChain/comments/1fvf4hk/textembedding004_from_gemini_is_not_available_on/) , 2024-10-07-0913
 ```
 I am trying to use Gemini's [text-embedding-004](https://ai.google.dev/gemini-api/docs/embeddings) model in LangChain ho
 wever LangChain only supports text-embedding-001 according to this [doc](https://python.langchain.com/docs/integrations/
@@ -2687,7 +6878,7 @@ pported. I am just curious why LangChain only supports 001, which is not mention
 
      
  
-all -  [ Langfuse vs Helicone for prompt managing and experimentation. ](https://www.reddit.com/r/LangChain/comments/1fv8bcj/langfuse_vs_helicone_for_prompt_managing_and/) , 2024-10-06-0914
+all -  [ Langfuse vs Helicone for prompt managing and experimentation. ](https://www.reddit.com/r/LangChain/comments/1fv8bcj/langfuse_vs_helicone_for_prompt_managing_and/) , 2024-10-07-0913
 ```
 Those two services seem to be the most advanced and actively developed solutions for this. I am not sure which way to go
 , especially since Langfuse's architecture will soon be very similar than that of Helicone's, see [https://github.com/or
@@ -2703,7 +6894,7 @@ d one or another similar tool?
 
      
  
-all -  [ Help me prioritize my tech stack. ](https://www.reddit.com/r/developersPak/comments/1fv7oo5/help_me_prioritize_my_tech_stack/) , 2024-10-06-0914
+all -  [ Help me prioritize my tech stack. ](https://www.reddit.com/r/developersPak/comments/1fv7oo5/help_me_prioritize_my_tech_stack/) , 2024-10-07-0913
 ```
 I want to learn
 
@@ -2747,7 +6938,7 @@ s to become a full stack expert developer and it is a dream.
 
      
  
-all -  [ Has anyone gotten Langchain RetirevalQA to work with ChatAnthropic? ](https://www.reddit.com/r/LangChain/comments/1fv7k4w/has_anyone_gotten_langchain_retirevalqa_to_work/) , 2024-10-06-0914
+all -  [ Has anyone gotten Langchain RetirevalQA to work with ChatAnthropic? ](https://www.reddit.com/r/LangChain/comments/1fv7k4w/has_anyone_gotten_langchain_retirevalqa_to_work/) , 2024-10-07-0913
 ```
 I developed my application with OpenAI RAG and sold huge things to the business on how our arch can switch between Claud
 e and GPT on runtime. 
@@ -2763,7 +6954,7 @@ chain packages where people have made this work would be greatly appreciated!
 
      
  
-all -  [ AI-Powered RFP Document Comparison and Gap Analysis with Interactive Chat (openai,llamaindex,langcha ](https://www.reddit.com/r/OpenAI/comments/1fv4i0m/aipowered_rfp_document_comparison_and_gap/) , 2024-10-06-0914
+all -  [ AI-Powered RFP Document Comparison and Gap Analysis with Interactive Chat (openai,llamaindex,langcha ](https://www.reddit.com/r/OpenAI/comments/1fv4i0m/aipowered_rfp_document_comparison_and_gap/) , 2024-10-07-0913
 ```
 Hey everyone! 👋
 
@@ -2799,7 +6990,7 @@ ponse-analyzer](https://github.com/lesteroliver911/openai-rfp-response-analyzer)
 
      
  
-all -  [ Llama 3.2: A brief analysis of vision capabilities ](https://www.reddit.com/r/LangChain/comments/1fv4i0d/llama_32_a_brief_analysis_of_vision_capabilities/) , 2024-10-06-0914
+all -  [ Llama 3.2: A brief analysis of vision capabilities ](https://www.reddit.com/r/LangChain/comments/1fv4i0d/llama_32_a_brief_analysis_of_vision_capabilities/) , 2024-10-07-0913
 ```
 Thanks to the open-source gods! Meta finally released the multi-modal language models. There are two models: a small 11B
  one and a mid-sized 90B one.
@@ -2847,151 +7038,7 @@ nce and what use cases you plan on using it for.
 
      
  
-all -  [ Stock Insights with AI Agent-Powered Analysis With Lyzr Agent API ](https://www.reddit.com/r/LangChain/comments/1fv47sq/stock_insights_with_ai_agentpowered_analysis_with/) , 2024-10-06-0914
-```
-Hi everyone! I've just created an app that elevates stock analysis by integrating FastAPI and Lyzr Agent API. Get real-t
-ime data coupled with intelligent insights to make informed investment decisions. Check it out and let me know what you 
-think!
-
-Blog: [https://medium.com/@harshit\_56733/step-by-step-guide-to-build-an-ai-stock-analyst-with-fastapi-and-lyzr-
-agent-api-9d23dc9396c9](https://medium.com/@harshit_56733/step-by-step-guide-to-build-an-ai-stock-analyst-with-fastapi-a
-nd-lyzr-agent-api-9d23dc9396c9)
-```
----
-
-     
- 
-all -  [ Few shot learning with tool usage ](https://www.reddit.com/r/LangChain/comments/1fv44ld/few_shot_learning_with_tool_usage/) , 2024-10-06-0914
-```
-Hello,
-
-I'm building an agent using Claude 3.5 Sonnet as LLM. Does anyone have experience with few shot learning that in
-volves tool usage? How should I format the examples? Thank you!
-```
----
-
-     
- 
-all -  [ Paid internship test  ](https://i.redd.it/0uq2o1qbiisd1.png) , 2024-10-06-0914
-```
-Tommorow i got my paid internship test,he said he will have a test which will be some task of coding i will have to perf
-orm
-
-I wanna know what should i expect and should prepare for tommorow
-
-I have attached an image of my cv that contain m
-y skills
-```
----
-
-     
- 
-all -  [ Thoughts about OPEA? ](https://www.reddit.com/r/LangChain/comments/1fv2zw3/thoughts_about_opea/) , 2024-10-06-0914
-```
-Hello,
-
-I was looking for a 'production grade' deployment architecture for Langchain using microservices and stumbled up
-on [OPEA](https://opea.dev/), has anyone used/tried it? The architecture (below) seems quite interesting and you can use
- Lanchain in any of the microservice
-
-https://preview.redd.it/jo5409lw4isd1.png?width=881&format=png&auto=webp&s=9082ac5
-6cfa7edfe94ed6090753ace695a459c2b
-
-Both Intel, AMD, SAP and other big companies are in the project so it seems quite a b
-ig effort
-```
----
-
-     
- 
-all -  [ Cross-Paged Table PDFs for Extraction Testing (Vertical/Horizontal Splits/Handwritten) ](https://www.reddit.com/r/LangChain/comments/1fuz911/crosspaged_table_pdfs_for_extraction_testing/) , 2024-10-06-0914
-```
-Hey everyone,
-
-I'm working on a project to test and improve the extraction of tables from PDFs, especially when the tabl
-es are split across multiple pages. This includes tables that:
-
-* Are split **vertically** across pages (e.g., rows on o
-ne page, continued on the next).
-* Are split **horizontally** across pages (e.g., columns on one page, continued on the 
-next).
-
-If you have any PDFs with these types of cross-paged tables, I'd really appreciate it if you could share them wi
-th me. 
-
-Thanks in advance for your help!
-```
----
-
-     
- 
-all -  [ Streaming with LangGraph ](https://www.reddit.com/r/LangChain/comments/1fusj4e/streaming_with_langgraph/) , 2024-10-06-0914
-```
-I need my langgraph app to stream ai responses. But I can’t get CompiledStateGraph to stream out a response.
-
-.astream(s
-tream_mode=“messages”) almost works, except it just spit out everything in one go like .invoke
-
-Maybe .astream_event or 
-.astream_log might the solution? I need your help on this.
-
-Thanks 🙏 
-```
----
-
-     
- 
-all -  [ Newbie on langchain ](https://www.reddit.com/r/LangChain/comments/1fuqqf7/newbie_on_langchain/) , 2024-10-06-0914
-```
-Trying to understand why langchain is not overkill especially for basic PrompTemplate or OutputParser features. Anyone h
-ave a satisfying answer? 
-Do you use langchain for every kind of operation in tour project or do you also feel it’s an o
-verkill sometimes?
-```
----
-
-     
- 
-all -  [ Why use Flowise when n8n offers RAG and more? ](https://www.reddit.com/r/LangChain/comments/1fuqbmf/why_use_flowise_when_n8n_offers_rag_and_more/) , 2024-10-06-0914
-```
-I've used both Flowise and n8n to create my Chatbot that executes a RAG operation to answer the user's queries.
-
-The flo
-w executes an n8n HTTP POST request to Flowise that returns the LLM's response. The time to reaponse was around 6 second
-s. Too slow compared to using the native chatbox in Flowise (am I doing something wrong?)
-
-Then, I realized that I can d
-uplicate the RAG operation on n8n itself, ditching Flowise altogether. It worked.
-
-I'd love to know your opinions on whe
-ther n8n can replace Flowise completely. Am I missing the point of why Flowise is still relevant?
-```
----
-
-     
- 
-all -  [ Trying to Help With LLM Apps ](https://www.reddit.com/r/LangChain/comments/1fulbos/trying_to_help_with_llm_apps/) , 2024-10-06-0914
-```
-I just recently started building an LLM Application and was having difficulty knowing if my workflow was good enough for
- production without testing it many times.
-
-So I tried to build this tool that automatically evaluates my workflow befor
-e I even run it and have actually been able to get more reliable outputs way faster!
-
-https://preview.redd.it/c8acftj4kd
-sd1.png?width=3080&format=png&auto=webp&s=d0c9178ca17352a22944b5f4a28d254dec8028b5
-
-I wanted to share this with you guys
- to help anyone else having a similar problem. Please let me know if this is something you’d find useful and if you want
- to try it.
-
-Best of luck on creating your LLM Apps!
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-06-0914
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-07-0913
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -3020,7 +7067,7 @@ I'm sure some teams already have good systems for this, would appreciate pointer
 
      
  
-MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-06-0914
+MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-07-0913
 ```
 GitHub repo : [https://github.com/shaRk-033/web-agent](https://github.com/shaRk-033/web-agent)
 
@@ -3059,7 +7106,7 @@ hear them. :)
 
      
  
-MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-06-0914
+MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-07-0913
 ```
 How tightly coupled is an embedding model to a language model?
 
@@ -3079,7 +7126,7 @@ ama3.1 ingest the embeddings?
 
      
  
-MachineLearning -  [ [P] Review and suggest ideas for my chatbot ](https://www.reddit.com/r/MachineLearning/comments/1fb2mwl/p_review_and_suggest_ideas_for_my_chatbot/) , 2024-10-06-0914
+MachineLearning -  [ [P] Review and suggest ideas for my chatbot ](https://www.reddit.com/r/MachineLearning/comments/1fb2mwl/p_review_and_suggest_ideas_for_my_chatbot/) , 2024-10-07-0913
 ```
 Ok, so I am currently trying to build support chatbot with following technicalities 
 1. FastAPI for web server(Need to m
@@ -3119,29 +7166,7 @@ and reviews for the same. Thank you!!
 
      
  
-MachineLearning -  [ [P] Lessons from Retrieval Augmented Generation ](https://www.reddit.com/r/MachineLearning/comments/1f9tvg7/p_lessons_from_retrieval_augmented_generation/) , 2024-10-06-0914
-```
-I implemented Rag in my organization and just wrote a blog about what we learned here:   
-[https://www.b-yond.com/post/t
-ransforming-telco-troubleshooting-our-journey-building-telcogpt-with-rag](https://www.b-yond.com/post/transforming-telco
--troubleshooting-our-journey-building-telcogpt-with-rag)
-
-Hoping it would be helpful for those in this area. Covers rag 
-evaluation (ragas), sql db, langchain agents vs chains, weaviate vector db, hybrid search, reranking, and more.
-
-Some ad
-ditional insights on ranking and hybrid search here:
-
-[https://www.linkedin.com/posts/drzohaib\_transforming-telco-troub
-leshooting-our-journey-activity-7232072089837486081--Le1?utm\_source=share&utm\_medium=member\_android](https://www.link
-edin.com/posts/drzohaib_transforming-telco-troubleshooting-our-journey-activity-7232072089837486081--Le1?utm_source=shar
-e&utm_medium=member_android)
-```
----
-
-     
- 
-deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-06-0914
+deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-07-0913
 ```
 I want to implement a Code-RAG system on a code directory where I need to:
 
