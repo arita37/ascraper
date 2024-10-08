@@ -1,5 +1,759 @@
  
-all -  [ October 6, 2024 - 367 Free It Software Udemy Courses ](https://www.reddit.com/r/udemyfreebies/comments/1fxrjul/october_6_2024_367_free_it_software_udemy_courses/) , 2024-10-07-0913
+all -  [ [0 YoE, Software Engineering Student, Software Engineering Intern, United Kingdom] ](https://i.redd.it/lpmfed087ftd1.png) , 2024-10-08-0912
+```
+
+```
+---
+
+     
+ 
+all -  [ PgVector Vs Azure AI search Vs Pinecone Vs Weaviate  ](https://www.reddit.com/r/LangChain/comments/1fyk42u/pgvector_vs_azure_ai_search_vs_pinecone_vs/) , 2024-10-08-0912
+```
+Anyone have any idea on these ? And which one you would recommend ? 
+```
+---
+
+     
+ 
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1fyjcpk/list_of_free_and_best_selling_discounted_courses/) , 2024-10-08-0912
+```
+# Udemy Free Courses for 07 October 2024
+
+Note : Coupons might expire anytime, so enroll as soon as possible to get the 
+courses for FREE.
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17789/)Create An Animated Landing Page by HTML, C
+SS and JavaScript
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17788/)Business Development, Sales & Marketing Pro
+fessional Diploma
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17787/)Javascript and PHP : Ultimate Course For Be
+ginners
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17786/)Ultimate AWS Certified Solutions Architect Associate 
+(SAA)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17785/)Curso de Facebook para Negocios 2024 – Facebook Marketi
+ng
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17784/)Curso de Outlook 2024 (Hotmail) , ¡Desde Cero Hasta Expert
+o!
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17783/)Curso Blogger 2024: Cómo Crear un Blog Gratis Paso a Paso
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17782/)Curso de Google Drive 2024, ¡Desde Cero Hasta Experto!
+* [RED
+EEM OFFER ](https://idownloadcoupon.com/udemy/17781/)Curso Completo de Hacking Ético – Aprende Todo – 2024
+* [REDEEM OFF
+ER ](https://idownloadcoupon.com/udemy/17780/)Complete C# Programming Master Class
+* [REDEEM OFFER ](https://idownloadco
+upon.com/udemy/17779/)The Ultimate MySQL Crash Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17778/)Blender
+ Essential: From Beginner to 3D Masterclass
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17777/)The Complete T-Sh
+irt Design Toolkit: PS, AI & Canva
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17776/)Microsoft Office Mastery L
+earn Word Excel and PowerPoint
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17775/)Ultimate Guide to Canva T-Shir
+t Design: Mastery in T-Shirt
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17774/)Certified in Cybersecurity (CC) 
+Practice Questions 2024
+* Microsoft Word Mastery: Essential Skill for Job and Business
+* [REDEEM OFFER](https://idownloa
+dcoupon.com/udemy/17773/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17772/)The Complete Da Vinci Resolve Cours
+e: Beginner to Filmmaker
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17771/)AZ-700:Designing and Implementing Az
+ure Networking Solutions
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17770/)CEH v12 Certification Practice Quest
+ions 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17769/)AZ-900: Microsoft Azure Fundamentals Practice Quest
+ions 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17768/)YouTube “The Blueprint” How I made over 100k in Jus
+t 2 years
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17767/)Adobe Dreamweaver Mastery: Basics to Advanced Site 
+Creation
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17766/)Effective Delegation in Management: Boost Leadership
+ Skills
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17765/)Complete Ethical Hacking Course 2024 : Go From Zero t
+o Hero
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17764/)Entrepreneurship and Business Essentials
+* [REDEEM OFF
+ER ](https://idownloadcoupon.com/udemy/17763/)Comprehensive PrestaShop Training
+* [REDEEM OFFER ](https://idownloadcoupo
+n.com/udemy/17762/)JavaScript Masterclass for Beginner to Expert: Bootcamp
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/17761/)HTML CSS JavaScript Course for UI/UX Modern Web Developers
+* [REDEEM OFFER ](https://idownloadcoupon.com/u
+demy/17760/)Learn Python from Scratch : Python Programming
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17759/)50
+0+ SAS Interview Questions Practice Test
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17758/)Learn C# Coding Basi
+cs for Beginners: C# Fundamentals
+* Full Stack developer course for Web Applications: Bootcamp
+* [REDEEM OFFER](https://
+idownloadcoupon.com/udemy/17757/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17756/)Full Stack Web Development 
+Course 2024: Bootcamp
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17755/)Learn to Code Your HTML Website: Coding
+ for Kids & Beginners
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17754/)Learn to Code HTML & CSS for Responsive
+ Real-World Websites
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17753/)Learn C# Coding Intermediate: C# Classes
+, Methods and OOPs
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17752/)Excel Power Tools Master Formulas, Automat
+ion Data Analysis
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17751/)Mastering GitHub Copilot’s AI Assistance an
+d AI-Powered Code
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17750/)Criminology and Criminal Psychology | Certi
+fied CSI+ Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17749/)Logistic Regression in R Studio
+* [REDEEM OF
+FER ](https://idownloadcoupon.com/udemy/17748/)Agile Trainer Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/17747/)Entrepreneurship: Ideas, Market Analysis, Competitors, Place
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/17746/)Marketing Analytics: Forecasting Models with Excel
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/177
+45/)Data Visualization in Excel: All Excel Charts and Graphs
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17744/)
+Complete Linear Regression Analysis in Python
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17743/)Mastering ChatG
+PT: All ChatGPT Features and Functions
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17742/)Python for Data Scienc
+e: Python Programming & Data Analysis
+* ML for Business Managers: Build Regression model in R Studio
+* [REDEEM OFFER](ht
+tps://idownloadcoupon.com/udemy/17741/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17740/)QuickBooks Online Pay
+ments – Getting Paid Faster & Easier
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17739/)SQL Masterclass: SQL for
+ Data Analytics
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17738/)Bell Curve
+* [REDEEM OFFER ](https://idownloa
+dcoupon.com/udemy/17737/)Marketing Analytics: Pricing Strategies and Price Analytics
+* [REDEEM OFFER ](https://idownload
+coupon.com/udemy/17736/)Guitar Music Theory in Excel-Scales, Intervals, Modes & More
+* [REDEEM OFFER ](https://idownload
+coupon.com/udemy/17735/)Microsoft Excel Weekender Crash Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17734
+/)Logistic Regression in Python
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17733/)Zero to Hero in LangChain: Bu
+ild GenAI apps using LangChain
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17732/)Microsoft Office सीखें: Excel,
+ PowerPoint & Word in Hindi
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17731/)HR People Analytics
+* [REDEEM OFF
+ER ](https://idownloadcoupon.com/udemy/17730/)Microsoft Word in Hindi: हिंदी में सीखें MS Word
+* [REDEEM OFFER ](https:/
+/idownloadcoupon.com/udemy/17729/)Chatbot
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17728/)Side Hustle Mastery
+: 32 Ways to Earn Extra Income Online
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17727/)Level Up Your UI/UX: In
+teractive Design & Prototyping Figma
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17726/)ChatGPT in Hindi: हिंदी 
+में Complete ChatGPT guide
+* Visual Guitar Mastery
+* [REDEEM OFFER](https://idownloadcoupon.com/udemy/17725/)
+* [REDEEM 
+OFFER ](https://idownloadcoupon.com/udemy/17724/)Python for Data Science in Hindi (हिंदी)
+* [REDEEM OFFER ](https://idow
+nloadcoupon.com/udemy/17723/)Machine Learning with TensorFlow on Google Cloud
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/17722/)ChatGPT for Office Productivity: Use AI for 10X Productivity
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/17721/)Professional Diploma in Business Models Development
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/17720/)XK0-004: CompTIA Linux+ Practice test 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17719/)SK0-004: C
+ompTIA Server+ Practice test 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17718/)PT0-003: CompTIA PenTest+ P
+ractice test 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17717/)PT0-001: CompTIA PenTest+ Practice test 202
+4
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17716/)Valor temporal del dinero y presupuesto de capital
+* [REDEE
+M OFFER ](https://idownloadcoupon.com/udemy/17715/)Einstieg Excel Visual-Basic (VBA) für Controller
+* [REDEEM OFFER ](ht
+tps://idownloadcoupon.com/udemy/17714/)Marketing Strategy Development: Stand Out From the Crowd
+* [REDEEM OFFER ](https:
+//idownloadcoupon.com/udemy/17713/)Quiz Marketing Power: Generate Leads for Marketing Success
+* [REDEEM OFFER ](https://
+idownloadcoupon.com/udemy/17712/)Discover Google Gemini for Marketing Success
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/17711/)Link building. Build links that boost the site traffic!
+* [REDEEM OFFER ](https://idownloadcoupon.com/u
+demy/17710/)ChatGPT for Mastering Compelling Content
+
+GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https
+://idownloadcoupon.com/)
+```
+---
+
+     
+ 
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1fyjchx/list_of_free_and_best_selling_discounted_courses/) , 2024-10-08-0912
+```
+# Udemy Free Courses for 07 October 2024
+
+Note : Coupons might expire anytime, so enroll as soon as possible to get the 
+courses for FREE.
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17789/)Create An Animated Landing Page by HTML, C
+SS and JavaScript
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17788/)Business Development, Sales & Marketing Pro
+fessional Diploma
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17787/)Javascript and PHP : Ultimate Course For Be
+ginners
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17786/)Ultimate AWS Certified Solutions Architect Associate 
+(SAA)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17785/)Curso de Facebook para Negocios 2024 – Facebook Marketi
+ng
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17784/)Curso de Outlook 2024 (Hotmail) , ¡Desde Cero Hasta Expert
+o!
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17783/)Curso Blogger 2024: Cómo Crear un Blog Gratis Paso a Paso
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17782/)Curso de Google Drive 2024, ¡Desde Cero Hasta Experto!
+* [RED
+EEM OFFER ](https://idownloadcoupon.com/udemy/17781/)Curso Completo de Hacking Ético – Aprende Todo – 2024
+* [REDEEM OFF
+ER ](https://idownloadcoupon.com/udemy/17780/)Complete C# Programming Master Class
+* [REDEEM OFFER ](https://idownloadco
+upon.com/udemy/17779/)The Ultimate MySQL Crash Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17778/)Blender
+ Essential: From Beginner to 3D Masterclass
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17777/)The Complete T-Sh
+irt Design Toolkit: PS, AI & Canva
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17776/)Microsoft Office Mastery L
+earn Word Excel and PowerPoint
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17775/)Ultimate Guide to Canva T-Shir
+t Design: Mastery in T-Shirt
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17774/)Certified in Cybersecurity (CC) 
+Practice Questions 2024
+* Microsoft Word Mastery: Essential Skill for Job and Business
+* [REDEEM OFFER](https://idownloa
+dcoupon.com/udemy/17773/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17772/)The Complete Da Vinci Resolve Cours
+e: Beginner to Filmmaker
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17771/)AZ-700:Designing and Implementing Az
+ure Networking Solutions
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17770/)CEH v12 Certification Practice Quest
+ions 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17769/)AZ-900: Microsoft Azure Fundamentals Practice Quest
+ions 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17768/)YouTube “The Blueprint” How I made over 100k in Jus
+t 2 years
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17767/)Adobe Dreamweaver Mastery: Basics to Advanced Site 
+Creation
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17766/)Effective Delegation in Management: Boost Leadership
+ Skills
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17765/)Complete Ethical Hacking Course 2024 : Go From Zero t
+o Hero
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17764/)Entrepreneurship and Business Essentials
+* [REDEEM OFF
+ER ](https://idownloadcoupon.com/udemy/17763/)Comprehensive PrestaShop Training
+* [REDEEM OFFER ](https://idownloadcoupo
+n.com/udemy/17762/)JavaScript Masterclass for Beginner to Expert: Bootcamp
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/17761/)HTML CSS JavaScript Course for UI/UX Modern Web Developers
+* [REDEEM OFFER ](https://idownloadcoupon.com/u
+demy/17760/)Learn Python from Scratch : Python Programming
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17759/)50
+0+ SAS Interview Questions Practice Test
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17758/)Learn C# Coding Basi
+cs for Beginners: C# Fundamentals
+* Full Stack developer course for Web Applications: Bootcamp
+* [REDEEM OFFER](https://
+idownloadcoupon.com/udemy/17757/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17756/)Full Stack Web Development 
+Course 2024: Bootcamp
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17755/)Learn to Code Your HTML Website: Coding
+ for Kids & Beginners
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17754/)Learn to Code HTML & CSS for Responsive
+ Real-World Websites
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17753/)Learn C# Coding Intermediate: C# Classes
+, Methods and OOPs
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17752/)Excel Power Tools Master Formulas, Automat
+ion Data Analysis
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17751/)Mastering GitHub Copilot’s AI Assistance an
+d AI-Powered Code
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17750/)Criminology and Criminal Psychology | Certi
+fied CSI+ Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17749/)Logistic Regression in R Studio
+* [REDEEM OF
+FER ](https://idownloadcoupon.com/udemy/17748/)Agile Trainer Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/17747/)Entrepreneurship: Ideas, Market Analysis, Competitors, Place
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/17746/)Marketing Analytics: Forecasting Models with Excel
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/177
+45/)Data Visualization in Excel: All Excel Charts and Graphs
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17744/)
+Complete Linear Regression Analysis in Python
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17743/)Mastering ChatG
+PT: All ChatGPT Features and Functions
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17742/)Python for Data Scienc
+e: Python Programming & Data Analysis
+* ML for Business Managers: Build Regression model in R Studio
+* [REDEEM OFFER](ht
+tps://idownloadcoupon.com/udemy/17741/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17740/)QuickBooks Online Pay
+ments – Getting Paid Faster & Easier
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17739/)SQL Masterclass: SQL for
+ Data Analytics
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17738/)Bell Curve
+* [REDEEM OFFER ](https://idownloa
+dcoupon.com/udemy/17737/)Marketing Analytics: Pricing Strategies and Price Analytics
+* [REDEEM OFFER ](https://idownload
+coupon.com/udemy/17736/)Guitar Music Theory in Excel-Scales, Intervals, Modes & More
+* [REDEEM OFFER ](https://idownload
+coupon.com/udemy/17735/)Microsoft Excel Weekender Crash Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17734
+/)Logistic Regression in Python
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17733/)Zero to Hero in LangChain: Bu
+ild GenAI apps using LangChain
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17732/)Microsoft Office सीखें: Excel,
+ PowerPoint & Word in Hindi
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17731/)HR People Analytics
+* [REDEEM OFF
+ER ](https://idownloadcoupon.com/udemy/17730/)Microsoft Word in Hindi: हिंदी में सीखें MS Word
+* [REDEEM OFFER ](https:/
+/idownloadcoupon.com/udemy/17729/)Chatbot
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17728/)Side Hustle Mastery
+: 32 Ways to Earn Extra Income Online
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17727/)Level Up Your UI/UX: In
+teractive Design & Prototyping Figma
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17726/)ChatGPT in Hindi: हिंदी 
+में Complete ChatGPT guide
+* Visual Guitar Mastery
+* [REDEEM OFFER](https://idownloadcoupon.com/udemy/17725/)
+* [REDEEM 
+OFFER ](https://idownloadcoupon.com/udemy/17724/)Python for Data Science in Hindi (हिंदी)
+* [REDEEM OFFER ](https://idow
+nloadcoupon.com/udemy/17723/)Machine Learning with TensorFlow on Google Cloud
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/17722/)ChatGPT for Office Productivity: Use AI for 10X Productivity
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/17721/)Professional Diploma in Business Models Development
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/17720/)XK0-004: CompTIA Linux+ Practice test 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17719/)SK0-004: C
+ompTIA Server+ Practice test 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17718/)PT0-003: CompTIA PenTest+ P
+ractice test 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17717/)PT0-001: CompTIA PenTest+ Practice test 202
+4
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/17716/)Valor temporal del dinero y presupuesto de capital
+* [REDEE
+M OFFER ](https://idownloadcoupon.com/udemy/17715/)Einstieg Excel Visual-Basic (VBA) für Controller
+* [REDEEM OFFER ](ht
+tps://idownloadcoupon.com/udemy/17714/)Marketing Strategy Development: Stand Out From the Crowd
+* [REDEEM OFFER ](https:
+//idownloadcoupon.com/udemy/17713/)Quiz Marketing Power: Generate Leads for Marketing Success
+* [REDEEM OFFER ](https://
+idownloadcoupon.com/udemy/17712/)Discover Google Gemini for Marketing Success
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/17711/)Link building. Build links that boost the site traffic!
+* [REDEEM OFFER ](https://idownloadcoupon.com/u
+demy/17710/)ChatGPT for Mastering Compelling Content
+
+GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https
+://www.reddit.com/r/udemyfreeebies/)
+```
+---
+
+     
+ 
+all -  [ NaturalAgents - notion-style editor to easily create AI Agents ](https://www.reddit.com/r/developer/comments/1fyfwbi/naturalagents_notionstyle_editor_to_easily_create/) , 2024-10-08-0912
+```
+[NaturalAgents](https://github.com/NaturalAgents/NaturalAgents) is the easiest way to create AI Agents in a notion-style
+ editor. It's no-code and enables anyone to build sophisticated agents. It's current in its MVP state, but it fully open
+-source and will be actively maintained. 
+
+
+
+How this is different from other agent builders -
+
+1. No boilerplate code (
+imagine langchain for multiple agents)
+2. No code experience
+3. Can easily share and build with others
+4. Readable/organ
+ized agent outputs
+5. Abstracts agent communications without visual complexity (image large drag and drop flowcharts)
+
+W
+ould love to hear thoughts and feel free to reach out if you're interested in contributing!
+```
+---
+
+     
+ 
+all -  [ Help needed for ML Resume ](https://www.reddit.com/r/learnmachinelearning/comments/1fyfo3r/help_needed_for_ml_resume/) , 2024-10-08-0912
+```
+**Hey everyone!**
+
+This is my first post here. I graduated with a Computer Science degree in May and have been applying 
+for ML/Data Science roles for the last 8 months using my current resume. I’ve been interning for over a year now and wou
+ld love some feedback. I have a few questions:
+
+1. Since all of my experience is from an internship, would it be okay to
+ change my title to **Data Science Engineer** (I’ve been working full-time, but the company officially classifies me as 
+an intern to pay me less)?
+2. Are my **projects solid**? I haven’t updated my projects section in a while, and I’m wonde
+ring if my first full-stack project is still relevant. I also have several **MLOps and LLMOps projects** that I could ad
+d. Should I include them?
+3. Is it okay to **add additional projects**, or should I keep it concise?
+4. Is the **Extra-c
+urricular section** necessary for a Data Science/ML role?
+5. Any recommendations for **skills** or **certifications** I 
+should focus on? I’m currently doing the **AWS AI Practitioner course** but would appreciate more suggestions.
+
+Thanks i
+n advance for your help!
+
+https://preview.redd.it/nqsn96sttdtd1.png?width=755&format=png&auto=webp&s=9e6e27593aebb13a26d
+e3479e236a3c3c5e3b840
+
+
+```
+---
+
+     
+ 
+all -  [ Engineer interested in applying ai ](https://www.reddit.com/r/LangChain/comments/1fydav8/engineer_interested_in_applying_ai/) , 2024-10-08-0912
+```
+Have been a silent follower and a fan of this page.
+Although I have read some threads , il admit things go over my head,
+ an engineer fullstack , with exposure to ai as querying gpt.
+I realise that ai has matured in a way as if we can use ai
+ and connect it with various workflows to achieve interesting things , find answers ,help us figure out the questions.
+I
+ want to understand how I can connect ai to stuff, I understand langchain is what I gotta nlknow, but what else should I
+ know.
+Can the forum here please share references, of articles , blogs u think I should know as someone getting started 
+today with a fresh mind.
+Thank you for reading till here, do leave a comment
+```
+---
+
+     
+ 
+all -  [ Indexing 200 page book ](https://www.reddit.com/r/LangChain/comments/1fybevr/indexing_200_page_book/) , 2024-10-08-0912
+```
+Hi! I am new to RAG and I want to create an application in which I have to use RAG from 200 page book but I am not sure 
+how to chunk and index this book, can anyone please give me resources on how I can effectively chunk and index the book?
+ Thanks!
+```
+---
+
+     
+ 
+all -  [ Challenge of AI project for myself (Facing a problem)  ](https://www.reddit.com/r/LocalLLaMA/comments/1fyb5t0/challenge_of_ai_project_for_myself_facing_a/) , 2024-10-08-0912
+```
+Hi guys, so I will cut to the chase. I am new with AI field and it's ny holiday so I'm learning a bit (completed NLP til
+l BERT and GPT). 
+
+Since it's a holidays for me till next semester I'm trying to make an AI that can talk to various dat
+aset (able to did with csv, excel,  .db). I'm using the groqcloud api woth langchain library in python since its a bit f
+ree till now and using llama 3.0 8192 model which was wokring better than 3.1 for me (my personal experience). I wont sa
+y Im satisfied but it works. P.S: I tried Ollama Llama 3.0 8B but it works in terminal well but if I make a python scrip
+t and do api call it takes me 7mins to respond to me for 'Hello' in my potato laptop or might just be my learning was du
+mb. 
+
+I would really like an advice on this for my mistakes. (my potato laptop is intel core i7).
+
+Lastly, I'm saving th
+e datasets on my  sqlite file. I do need to work to make it in cloud but am a but lazy and dumb. Most importantlyI need 
+a suggestions on which backend is a good choice to save the user's chat. Because I implemented the edit feature and sinc
+e I have to save both previous responses and the chat corresponding to all edit version. So would like to get some advic
+e on that. My project setup right now is NextJS, python with flask api ans SQLite.
+```
+---
+
+     
+ 
+all -  [ Create AI agents with plain english in a Notion-style editor ](https://www.reddit.com/r/nocode/comments/1fyad93/create_ai_agents_with_plain_english_in_a/) , 2024-10-08-0912
+```
+Hi folks! 
+
+I'm building an open source notion-style editor to easily create and run Agentic workflows. This is an MVP o
+f sorts but will be actively building and maintaining. [Check out the repo](https://github.com/NaturalAgents/NaturalAgen
+ts)
+
+How this is different from other agent builders - 
+
+1. No boilerplate code (imagine langchain for multiple agents)
+
+2. No code experience
+3. Can easily share and build with others
+4. Readable/organized agent outputs
+5. Abstracts agent c
+ommunications without visual complexity (image large drag and drop flowcharts)
+
+
+
+Would love to hear thoughts and feel f
+ree to reach out if you're interested in contributing!
+```
+---
+
+     
+ 
+all -  [ Automating my todoist task using Langgraph ](https://www.reddit.com/r/LangChain/comments/1fy9ywr/automating_my_todoist_task_using_langgraph/) , 2024-10-08-0912
+```
+I am planning to make a AI agent that automatically add the task to my to do list application. For this I need to attach
+ the external tool like todoist (that I am using) to my agent but when I tried to search for todoist in langchain or and
+ Langgraph tool I didn't find any, so do I need to create a custom tools for it like hardcode the code for CRUD (Create,
+ Read, Update, Delete) or is there any other inbuilt library that I might not aware of? 
+```
+---
+
+     
+ 
+all -  [ Why is this taking so long?  ](https://www.reddit.com/r/Neo4j/comments/1fy840y/why_is_this_taking_so_long/) , 2024-10-08-0912
+```
+I'm digesting a .txt (less than 100kb) document using the following code.  
+
+My neo4j instance is active.    
+  
+The db 
+part of the code has taken 4 hours of running so far.  
+
+    from langchain_community.document_loaders import TextLoader
+
+    from langchain_text_splitters import CharacterTextSplitter
+    
+    loader = TextLoader('text.txt')
+    
+    docume
+nts = loader.load()
+    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+    docs = text_splitter
+.split_documents(documents)
+    
+
+    from langchain_community.document_loaders import TextLoader
+    from langchain_tex
+t_splitters import CharacterTextSplitter
+    
+    loader = TextLoader('text.txt')
+    
+    documents = loader.load()
+   
+ text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
+    docs = text_splitter.split_documents(docume
+nts)
+    
+
+    db = Neo4jVector.from_documents(
+        docs, ollama_emb, url=url, username=username, password=password
+
+    )
+```
+---
+
+     
+ 
+all -  [ [For Hire] Programmer/Web Developer/IT Consultant (Python, PHP, AI, etc.) ](https://www.reddit.com/r/forhire/comments/1fy5s0i/for_hire_programmerweb_developerit_consultant/) , 2024-10-08-0912
+```
+To get in contact, please message me, I don't use the chat thing and might miss you or reply very late. Then we can swit
+ch to email/discord/telegram or whatever else. Apologies for starting with this, but many missed it when it was lower.
+
+
+I'm a programmer/web developer with 15 years of professional experience. I am available for all sorts of programming and
+ web development tasks.
+
+I also offer consulting services. If you need something done, but don't know how exactly, I can
+ help. I'm an excellent researcher and I communicate well. I will work with you to find the best solution for your probl
+em.
+
+My services include, but are not limited to:
+
+* websites
+
+* desktop applications
+
+* AI integration (chatGPT API, la
+ngchain, whatever else turns up)
+
+* integration with APIs and other webservices
+
+* all kinds of scripts
+
+* task automati
+on
+
+* website optimization
+
+* debugging
+
+* plugins for existing software
+
+* bots (Reddit, Telegram, etc)
+
+* code audits
+
+
+If you're looking for someone to take care of a variety of different tasks, I can offer continuous support.
+
+My preferr
+ed environment is Python with Django, but I work with anything Python or PHP based. I have no problem with learning new 
+technologies that are needed for the project.
+
+Rate is $50/h.
+
+Portfolio:
+
+https://bdabkowski.yum.pl
+
+Satisfied customer
+s:
+
+https://www.reddit.com/r/testimonials/comments/2e8gqy/pos_uqui_need_a_backend_web_dev_look_no_further/
+
+https://www.
+reddit.com/r/testimonials/comments/7fsdze/pos_hiring_uqui_was_an_example_of_how_it_should/
+
+https://www.reddit.com/r/tes
+timonials/comments/80pu9l/pos_uqui_great_work_detailed_and_fast/
+
+https://www.reddit.com/r/testimonials/comments/b0nx68/
+uqui_is_a_hardworking_intelligent_honest_apps/
+
+https://www.reddit.com/r/testimonials/comments/j3mz3p/uqui_is_a_great_we
+b_development_consultant_with/
+
+https://www.reddit.com/r/testimonials/comments/v40ay3/pos_uqui_is_a_great_backend_dev_to
+_work_with/
+
+Please note: I am not a designer. To make it clear, it means zero aesthetic sense.
+```
+---
+
+     
+ 
+all -  [ [ 5 YOE, Data Scientist , Senior Data Scientist, Remote] ](https://i.redd.it/0gt0218xratd1.jpeg) , 2024-10-08-0912
+```
+Everyone could you please roast my resume for data scientist position.
+
+ALL opinions are much appreciated!
+
+
+```
+---
+
+     
+ 
+all -  [ Optimizing Prompt Usage for Search Agent with DSPy and Argilla** ](https://www.reddit.com/r/LocalLLaMA/comments/1fy2eqy/optimizing_prompt_usage_for_search_agent_with/) , 2024-10-08-0912
+```
+Hey LocalLLama
+
+I’ve been working on optimizing an **ArXiv agent** using **DSPy**, **Langchain tools**, and **Argilla**.
+ If you’re trying out agent this is a useful notebook.
+
+### The Problem
+I built an agent to search ArXiv papers and answ
+er questions using the ArXiv API. The key challenge here was **optimizing prompt usage** to make the agent better when f
+etching relevant answers from papers. 
+
+I also found that it was difficult to review the responses because the papers ar
+e long and detailed. Using a proper UI meant I could review in detail
+
+---
+
+### **How It Works:**
+
+1. **Agent Setup**: I
+ used **DSPy** to define a question-answer signature. The agent can now take in a paper ID and a question, then retrieve
+ answers from ArXiv using the tool.
+
+2. **Tool Interaction**: I gave it access to the **ArXiv API** as a tool. It search
+es for the correct paper and extracts the necessary info.
+
+3. **Optimization with AvatarOptimizer**: I optimized how the
+ agent **structures prompts** to the ArXiv API, so it better understands how to extract relevant answers. The **AvatarOp
+timizer** from DSPy helps improve tool usage, making the agent more efficient and accurate.
+
+4. **Evaluating in Argilla*
+*: To see the impact of optimization, I reviewed both the original and optimized versions of the agent in **Argilla**, w
+here I compared their outputs and ranked them.
+
+---
+
+### **Results:**
+After prompt optimization, the agent was better at
+ understanding questions and extracting accurate, relevant information from ArXiv. The optimized prompts made a big diff
+erence in the agent’s performance.
+
+---
+
+If you’re interested in building tool-using agents or optimizing prompts for AP
+Is, give it a try with DSPy! You can find the example [here](https://github.com/argilla-io/argilla-cookbook/blob/main/ds
+py_agent_arxiv_tools_prompt_optimization.ipynb). Feel free to ask any questions or share feedback!
+
+
+```
+---
+
+     
+ 
+all -  [ Automatically optimise your agent and RAG prompts with Avatar, DSPy, and Argilla ](https://www.reddit.com/r/LLMDevs/comments/1fy2dca/automatically_optimise_your_agent_and_rag_prompts/) , 2024-10-08-0912
+```
+Hey all! 👋
+
+Just wanted to share something cool I’ve been working on — optimizing an agent to search and analyze papers 
+from ArXiv using DSPy, Langchain, and Argilla. If you're into AI or NLP, this might interest you. 
+
+Here's the gist:
+
+# 
+What It’s About:
+
+I created a tool-using agent that can search ArXiv, grab papers, and answer questions about them. Usin
+g DSPy, we optimized how the agent uses tools (like the ArXiv API) to get better, faster results.
+
+# How It Works:
+
+1. S
+et up DSPy with Llama models to handle language tasks and interact with the ArXiv API.
+2. Train the agent using a QA dat
+aset from ArXiv papers (with a small subset for speed).
+3. Optimize with AvatarOptimizer, improving how the agent uses t
+ools to handle questions more effectively.
+4. Test in Argilla by comparing the original and optimized versions of the ag
+ent to see which performs better.
+
+# Results:
+
+After optimization, the agent was more accurate in retrieving and answeri
+ng questions from ArXiv. The improvements were clear when tested head-to-head!
+
+If you’re interested in trying it out, c
+heck out the [DSPy example notebook](https://github.com/argilla-io/argilla-cookbook/blob/main/dspy_agent_arxiv_tools_pro
+mpt_optimization.ipynb). Would love to hear your feedback!
+```
+---
+
+     
+ 
+all -  [ I want LLM to return output in JSON format without giving it a schema  ](https://www.reddit.com/r/LangChain/comments/1fy1yjq/i_want_llm_to_return_output_in_json_format/) , 2024-10-08-0912
+```
+Hi all , I'm working on a usecase where I want the LLM to return the output in JSON format .  
+But I don't want to limit
+ the number of keys , I don't want to define a schema .
+
+The workflow for my usecase is something like :
+
+1. LLM receive
+s a summary text .
+2. LLM has to find the key values from the text and return all those in a json format ( key-value pai
+r )
+3. There can be any number and type of keywords and their values for a given summary text .
+
+I'm using Langchain.js 
+, how can I build such a workflow ? what are the components that will be needed ?
+```
+---
+
+     
+ 
+all -  [ October 6, 2024 - 367 Free It Software Udemy Courses ](https://www.reddit.com/r/udemyfreebies/comments/1fxrjul/october_6_2024_367_free_it_software_udemy_courses/) , 2024-10-08-0912
 ```
 1. CompTIA Security+ (SY0-701) Practice Test: Boost Your Exam
 
@@ -1977,7 +2731,7 @@ https://www.easylearn.ing/
 
      
  
-all -  [ LangChain and Anthropic ](https://www.reddit.com/r/LangChain/comments/1fxoxuk/langchain_and_anthropic/) , 2024-10-07-0913
+all -  [ LangChain and Anthropic ](https://www.reddit.com/r/LangChain/comments/1fxoxuk/langchain_and_anthropic/) , 2024-10-08-0912
 ```
 To make an api call to anthropic from my understanding u your need: 
 
@@ -1994,7 +2748,7 @@ to put the model. Does anyone knows why is this a problem?
 
      
  
-all -  [ GitHub Issue resolution with RAG ](https://www.reddit.com/r/LangChain/comments/1fxosw0/github_issue_resolution_with_rag/) , 2024-10-07-0913
+all -  [ GitHub Issue resolution with RAG ](https://www.reddit.com/r/LangChain/comments/1fxosw0/github_issue_resolution_with_rag/) , 2024-10-08-0912
 ```
 Hey guys,
 
@@ -2011,7 +2765,7 @@ Can sign up for the waitlist here: https://trysherpa.bot/
 
      
  
-all -  [ Langchain and Knowledge Graph extraction ](https://www.reddit.com/r/LangChain/comments/1fxnhqj/langchain_and_knowledge_graph_extraction/) , 2024-10-07-0913
+all -  [ Langchain and Knowledge Graph extraction ](https://www.reddit.com/r/LangChain/comments/1fxnhqj/langchain_and_knowledge_graph_extraction/) , 2024-10-08-0912
 ```
 I’m trying to use Langchain to go through about 500k docs in total doing entity and relationship extractions. 
 
@@ -2030,15 +2784,7 @@ Edit : new to this so let me know if this is a completely bad approach!
 
      
  
-all -  [ Bolt.new: AI-Powered Full-Stack Web Development in the Browser ](https://www.reddit.com/r/LangChain/comments/1fxljup/boltnew_aipowered_fullstack_web_development_in/) , 2024-10-07-0913
-```
-[https://hub.docker.com/r/mickysharam/bolt-ai](https://hub.docker.com/r/mickysharam/bolt-ai)
-```
----
-
-     
- 
-all -  [ October 6, 2024 - 996 Top Free Udemy Course Deals on easylearn.ing ](https://www.reddit.com/r/udemyfreebies/comments/1fxen9s/october_6_2024_996_top_free_udemy_course_deals_on/) , 2024-10-07-0913
+all -  [ October 6, 2024 - 996 Top Free Udemy Course Deals on easylearn.ing ](https://www.reddit.com/r/udemyfreebies/comments/1fxen9s/october_6_2024_996_top_free_udemy_course_deals_on/) , 2024-10-08-0912
 ```
 1. CompTIA Security+ (SY0-701) Practice Test: Boost Your Exam
 
@@ -4057,7 +4803,7 @@ https://www.easylearn.ing/
 
      
  
-all -  [ How I want to combine my passion for soccer with data analysis and AI - your opinion ](https://www.reddit.com/r/computervision/comments/1fxabx6/how_i_want_to_combine_my_passion_for_soccer_with/) , 2024-10-07-0913
+all -  [ How I want to combine my passion for soccer with data analysis and AI - your opinion ](https://www.reddit.com/r/computervision/comments/1fxabx6/how_i_want_to_combine_my_passion_for_soccer_with/) , 2024-10-08-0912
 ```
 Hello everyone,
 
@@ -4083,7 +4829,7 @@ Philipp
 
      
  
-all -  [ [Feedback Needed] 🤖 SparkPrompt - Prompt Engineering Simulator  ](https://www.reddit.com/r/ChatGPT/comments/1fx8oj3/feedback_needed_sparkprompt_prompt_engineering/) , 2024-10-07-0913
+all -  [ [Feedback Needed] 🤖 SparkPrompt - Prompt Engineering Simulator  ](https://www.reddit.com/r/ChatGPT/comments/1fx8oj3/feedback_needed_sparkprompt_prompt_engineering/) , 2024-10-08-0912
 ```
 Hey everyone! 👋 I’ve built SparkPrompt, a tool that generates, evaluates, and refines prompts using LangChain and the Ge
 mini API. Whether you're an educator, researcher, or just need creative prompts, this tool has you covered!
@@ -4113,7 +4859,7 @@ Thank you so much for your valuable time and I look forward to your feedback!
 
      
  
-all -  [ [Feedback needed] 🤖 SparkPrompt - Prompt Writing Simulator ](https://www.reddit.com/r/aipromptprogramming/comments/1fx8meu/feedback_needed_sparkprompt_prompt_writing/) , 2024-10-07-0913
+all -  [ [Feedback needed] 🤖 SparkPrompt - Prompt Writing Simulator ](https://www.reddit.com/r/aipromptprogramming/comments/1fx8meu/feedback_needed_sparkprompt_prompt_writing/) , 2024-10-08-0912
 ```
 Hey everyone! 👋 I’ve built SparkPrompt, a tool that generates, evaluates, and refines prompts using LangChain and the Ge
 mini API. Whether you're an educator, researcher, or just need creative prompts, this tool has you covered!
@@ -4142,7 +4888,7 @@ n-Sagar-B/SparkPrompt)
 
      
  
-all -  [ Philosophy major looking for dev helper ](https://www.reddit.com/r/LLMDevs/comments/1fx4m47/philosophy_major_looking_for_dev_helper/) , 2024-10-07-0913
+all -  [ Philosophy major looking for dev helper ](https://www.reddit.com/r/LLMDevs/comments/1fx4m47/philosophy_major_looking_for_dev_helper/) , 2024-10-08-0912
 ```
 Hi ! I am currently a research assistant working on a RAG project to test quality, response elements and validity of dif
 ferent models when answering philosophy related questions. As of now the plan the project logic is closely related to th
@@ -4186,15 +4932,7 @@ ode-adjacent ideas in my personal research *à la* Peter Naur, but this is besid
 
      
  
-all -  [ Can anyone help me to get first full time job please  ](https://i.redd.it/cndhtqa9czsd1.jpeg) , 2024-10-07-0913
-```
-
-```
----
-
-     
- 
-all -  [ Question About Agent Toolkits and Contributing to Agent tools ](https://www.reddit.com/r/LangChain/comments/1fwuyty/question_about_agent_toolkits_and_contributing_to/) , 2024-10-07-0913
+all -  [ Question About Agent Toolkits and Contributing to Agent tools ](https://www.reddit.com/r/LangChain/comments/1fwuyty/question_about_agent_toolkits_and_contributing_to/) , 2024-10-08-0912
 ```
 For context, I'm basically a beginner at the LangChain codebase and want to find ways to contribute towards open source.
  Currently, I'm looking into contributing a Spotify tool for agents to use, but had a question about the file structure.
@@ -4210,7 +4948,7 @@ tly, and why would some of the implemented tools need them compared to others?
 
      
  
-all -  [ How I deployed a NestJS task in as a Lambda to react to S3 events ](https://www.reddit.com/r/nestjs/comments/1fwu316/how_i_deployed_a_nestjs_task_in_as_a_lambda_to/) , 2024-10-07-0913
+all -  [ How I deployed a NestJS task in as a Lambda to react to S3 events ](https://www.reddit.com/r/nestjs/comments/1fwu316/how_i_deployed_a_nestjs_task_in_as_a_lambda_to/) , 2024-10-08-0912
 ```
 I'm working on a RAG application using nestjs, exposing an API to a vuejs application. One huge part of a RAG is about i
 ngesting the data.  
@@ -4253,7 +4991,7 @@ you guys have any recommendations about this approach?
 
      
  
-all -  [ Simulation and CI/CD for agents ](https://www.reddit.com/r/LangChain/comments/1fws0mw/simulation_and_cicd_for_agents/) , 2024-10-07-0913
+all -  [ Simulation and CI/CD for agents ](https://www.reddit.com/r/LangChain/comments/1fws0mw/simulation_and_cicd_for_agents/) , 2024-10-08-0912
 ```
 Is anyone building CI/CD and for agents? Agents break all the time due to changes in models, nodes, functions etc. Testi
 ng manually for different cases is hard if you have a wide range of inputs the agent is supposed to handle. 
@@ -4263,7 +5001,7 @@ ng manually for different cases is hard if you have a wide range of inputs the a
      
  
 all -  [ [Open source] r/RAG's official resource to help navigate the flood of RAG frameworks
- ](https://www.reddit.com/r/LangChain/comments/1fwqp07/open_source_rrags_official_resource_to_help/) , 2024-10-07-0913
+ ](https://www.reddit.com/r/LangChain/comments/1fwqp07/open_source_rrags_official_resource_to_help/) , 2024-10-08-0912
 ```
 Hey everyone!
 
@@ -4308,7 +5046,7 @@ NTRIBUTING.md](https://github.com/Andrew-Jang/RAGHub/blob/main/CONTRIBUTING.md) 
 
      
  
-all -  [ October 5, 2024 - 960 Top Free Udemy Course Deals (Live updates) ](https://www.reddit.com/r/udemyfreebies/comments/1fwn7sd/october_5_2024_960_top_free_udemy_course_deals/) , 2024-10-07-0913
+all -  [ October 5, 2024 - 960 Top Free Udemy Course Deals (Live updates) ](https://www.reddit.com/r/udemyfreebies/comments/1fwn7sd/october_5_2024_960_top_free_udemy_course_deals/) , 2024-10-08-0912
 ```
 1. QuickBooks Online: Streamline US Tax Deductions
 
@@ -6346,7 +7084,7 @@ w.easylearn.ing/
 
      
  
-all -  [ Should I use an agentic framework to build multi-agent infrastructure. ](https://www.reddit.com/r/LocalLLaMA/comments/1fw8dwx/should_i_use_an_agentic_framework_to_build/) , 2024-10-07-0913
+all -  [ Should I use an agentic framework to build multi-agent infrastructure. ](https://www.reddit.com/r/LocalLLaMA/comments/1fw8dwx/should_i_use_an_agentic_framework_to_build/) , 2024-10-08-0912
 ```
 I want to build a llm-application, but IDK if I should use something like langchain (or an alternative) vs writing my ow
 n AI agents, and tools. What would be better in your opinions? And how should I go about it??
@@ -6357,7 +7095,7 @@ n AI agents, and tools. What would be better in your opinions? And how should I 
 
      
  
-all -  [ Why is it not standard for OpenAI and other libraries to offer API reference docs in an AI-friendly  ](https://www.reddit.com/r/OpenAI/comments/1fw7vta/why_is_it_not_standard_for_openai_and_other/) , 2024-10-07-0913
+all -  [ Why is it not standard for OpenAI and other libraries to offer API reference docs in an AI-friendly  ](https://www.reddit.com/r/OpenAI/comments/1fw7vta/why_is_it_not_standard_for_openai_and_other/) , 2024-10-08-0912
 ```
 **Edit:** I misspoke, and it's really the *library reference* (for me, `openai-python`) that I want this for.
 
@@ -6381,7 +7119,7 @@ te. (You could bring your own API key, the project wouldn't have to pay.)
 
      
  
-all -  [ How to access modules in other parts of the repo when dynamically loading? ](https://www.reddit.com/r/learnpython/comments/1fw6kvr/how_to_access_modules_in_other_parts_of_the_repo/) , 2024-10-07-0913
+all -  [ How to access modules in other parts of the repo when dynamically loading? ](https://www.reddit.com/r/learnpython/comments/1fw6kvr/how_to_access_modules_in_other_parts_of_the_repo/) , 2024-10-08-0912
 ```
 Hi all, got a bit of a conundrum here trying to get dynamic module loading with importlib to work properly 
 
@@ -6569,7 +7307,7 @@ e}')
 
      
  
-all -  [ Advanced LLM parsing is the key to advanced AI applications. ](https://www.reddit.com/r/datascience/comments/1fw5k23/advanced_llm_parsing_is_the_key_to_advanced_ai/) , 2024-10-07-0913
+all -  [ Advanced LLM parsing is the key to advanced AI applications. ](https://www.reddit.com/r/datascience/comments/1fw5k23/advanced_llm_parsing_is_the_key_to_advanced_ai/) , 2024-10-08-0912
 ```
 In my experience, when people consider applying LLMs to a project they often fall into two camps:
 
@@ -6612,7 +7350,7 @@ I'm curious what LLM parsing tricks you employ
 
      
  
-all -  [ a way to chunk large txt file or HTML ](https://www.reddit.com/r/LangChain/comments/1fw2125/a_way_to_chunk_large_txt_file_or_html/) , 2024-10-07-0913
+all -  [ a way to chunk large txt file or HTML ](https://www.reddit.com/r/LangChain/comments/1fw2125/a_way_to_chunk_large_txt_file_or_html/) , 2024-10-08-0912
 ```
 Hi
 
@@ -6626,7 +7364,7 @@ any ideas folks?
 
      
  
-all -  [ Postgresql Checkpointer on LangGraphJS ](https://www.reddit.com/r/LangChain/comments/1fw0ifo/postgresql_checkpointer_on_langgraphjs/) , 2024-10-07-0913
+all -  [ Postgresql Checkpointer on LangGraphJS ](https://www.reddit.com/r/LangChain/comments/1fw0ifo/postgresql_checkpointer_on_langgraphjs/) , 2024-10-08-0912
 ```
 I am doing some research and initial setup for implementing an agentic system on a large production application and am t
 rying to find information on whether the Postgresql checkpointing system is currently implemented for LangGraphJS. 
@@ -6641,7 +7379,7 @@ Thanks!
 
      
  
-all -  [ Need resource for RAG agent in LangGraph ](https://www.reddit.com/r/LangChain/comments/1fvzoh6/need_resource_for_rag_agent_in_langgraph/) , 2024-10-07-0913
+all -  [ Need resource for RAG agent in LangGraph ](https://www.reddit.com/r/LangChain/comments/1fvzoh6/need_resource_for_rag_agent_in_langgraph/) , 2024-10-08-0912
 ```
 I am looking to build rag agent in Langgraph, so if anyone has resources or learning material apart from official docume
 ntion then please share it. 
@@ -6654,7 +7392,7 @@ ph-b9687b3ab177
 
      
  
-all -  [ I created a discord server to discuss agentic systems engineering ](https://www.reddit.com/r/LangChain/comments/1fvz82r/i_created_a_discord_server_to_discuss_agentic/) , 2024-10-07-0913
+all -  [ I created a discord server to discuss agentic systems engineering ](https://www.reddit.com/r/LangChain/comments/1fvz82r/i_created_a_discord_server_to_discuss_agentic/) , 2024-10-08-0912
 ```
 Hey guys, I created a discord channels for developers building AI agents (using any framework or none). Join if you're i
 nterested in learning and sharing with the community: [https://discord.gg/nRgm5DbH](https://discord.gg/nRgm5DbH)
@@ -6663,7 +7401,7 @@ nterested in learning and sharing with the community: [https://discord.gg/nRgm5D
 
      
  
-all -  [ Using ChatOpenAI with LangGraph.js to Build a Personal Assistant AI Agent ](https://www.reddit.com/r/LangChain/comments/1fvyhb9/using_chatopenai_with_langgraphjs_to_build_a/) , 2024-10-07-0913
+all -  [ Using ChatOpenAI with LangGraph.js to Build a Personal Assistant AI Agent ](https://www.reddit.com/r/LangChain/comments/1fvyhb9/using_chatopenai_with_langgraphjs_to_build_a/) , 2024-10-08-0912
 ```
 Made a beginner guide on how to use LangGraph and ChatGpt to create an AI Agent that acts as a personal assistant 👉 [htt
 ps://www.js-craft.io/blog/chatopenai-langgraph-js-ai-agent/](https://www.js-craft.io/blog/chatopenai-langgraph-js-ai-age
@@ -6675,370 +7413,7 @@ Please let me know your thoughts :)
 
      
  
-all -  [ Speaker Diarization for audio with multiple languages ](https://www.reddit.com/r/LangChain/comments/1fvvr5r/speaker_diarization_for_audio_with_multiple/) , 2024-10-07-0913
-```
-I have a call record with two people speaking in combination of languages like english, telugu and hindi. How to diarize
- it. I tried pyannote models available in the huggingface. It's not working well and I'm not getting any accurate result
-s. What are the available options and how to proceed further
-```
----
-
-     
- 
-all -  [ advice from people working in tech from early 2000 ](https://www.reddit.com/r/codingbootcamp/comments/1fvvfhk/advice_from_people_working_in_tech_from_early_2000/) , 2024-10-07-0913
-```
-guys as someone with 15+ yoe, I want to ask others who have experience, what advice would you give to the young new grad
-s and those who are looking into the SWE and data careers?   
-  
-From my point of view:  I want to say that it's not wor
-th pursuing careers in software or data analytics anymore, the AI crushing it, I can replace 5-6 people in current busin
-ess that I work in, using Cursor Composer and Aider connected to sonnet3.5, and soon the o1 models will get upgraded to 
-real gpt5 which will nail the multi-file editing better than sonnet and opus which are already amazing, these 2 years ar
-e the last years of '6 figures' wages in tech, this is why: the number of businesses, existing and upcoming, is limited,
- and it will not grow all of a sudden to a x5 demand (x5 number of businesses need to appear), while the reduction in re
-quired head count of software and data peeps goes down x5 if not x10 (if we consider upcoming gpt5 and new anthropic rel
-eases in the next 2 years and link it into agents like [crew.ai](http://crew.ai/) and self written langchain (business s
-pecific agents) the headcount required to deliver the business goals goes down x10 easily, WHILE universities are still 
-full of upcoming SWEs and AI/ML data scientists, who are students now, and they'll be in the market too (in addition to 
-all self-taught folks from east europe, latam, asia, and their uni of course, who are looking for remote work) it's goin
-g to be a bloodbath, I can already hire engineers for 2-3k euro in Poland, Serbia, Asia, India, Mexico, who were until r
-ecently non-existent (before covid we had not much practice of such massive outsourcing as we do now, at the moment ever
-y business looking to cut costs and opens offices in Belgrade and Bucharest etc'). 
-
-The big tech swims in money so they
-'ll keep paying 6 figures for a while, to the most experienced leads and seniors, staff, directors, but it'll go down to
- 'back to reality' rates which are below 6 figures in the next 5-6 years as well, and the competition for the roles is a
-lready fierce. If you want to work routinely 10-12 hours a day, PLUS keep yourself up to date on latest tech and in good
- shape of algorithms (add 2-3 hours a week to keep yourself in shape) this career is for you, BUT high rates are no long
-er guaranteed for folks who want a quiet 9-5 office job. the more hardcore nerds like me, who have no life, no kids, no 
-hobbies, will keep the high paying jobs, but this shit is not for regular healthy people, so my sincere advice for young
- folks would be to stay away from SWE and try hardware networking, chip manufacturing, biology, space sciences, aerospac
-e (probably best niche in upcoming future), defense (obviously, but take care of karma so you don't end up in hell lol, 
-not worth the 6 figures), microbiology, medicine, ocean stuff, oil and gas and geo sciences maybe, agriculture science i
-n upcoming climate change might be good direction too since there's a lot of trouble in the sector that needs fixing, an
-d so on. just my sincere 2 cents :)))
-
-I hope this will help someone to make a good decision in life, you're welcome to 
-disagree and I know I might be completely wrong and 'new businesses and new use cases for SWEs will get created in the u
-pcoming golden age of AI' theory of the youtubers exists ('influencers' :D the ones who can't make $$ in tech and become
- youtubers to make ends meet, they aren't the best ones to listen to honestly, I'm sorry guys. but just think about it, 
-we're dying in tech jobs with 10-12 hour shifts already, who of us in a sane mind will be a youtube influencer in our fr
-ee time, for 5$ per 10000 views or smth? when our rates are 100-120$/hour at work, why would we do youtube?? don't liste
-n to these dummies, they're on youtube cos the job is too hard for them anyway).
-
-Take care! 
-```
----
-
-     
- 
-all -  [ Hybrid retrieval on Postgres - (sub)second latency on ~30M documents ](https://www.reddit.com/r/LangChain/comments/1fvunhv/hybrid_retrieval_on_postgres_subsecond_latency_on/) , 2024-10-07-0913
-```
-We had been looking for open source ways to scale out our hybrid retrieval in Langchain beyond the capability of the def
-ault Milvus/FAISS vector store with the default in-memory BM25 indexing but we couldn't find any proper alternative.
-
-Th
-at's why we have implemented this ourselves and are now releasing it for others to use:
-
-* Dense vector embedding search
- on Postgres through pgvector
-* Sparse BM25 search on Postgres through ParadeDB's pg\_search
-   * A custom retriever for
- the BM25 search
-* 1 Dockerfile that spins up a Postgres facilitating both
-
-We have benchmarked this on a dataset loadin
-g just shy of 30M chunks into Postgres with a hybrid search using BM25 and vector search and have achieved (sub)second r
-etrieval times.
-
-Check it out: [https://github.com/AI-Commandos/RAGMeUp/blob/main/README.md#using-postgres-adviced-for-p
-roduction](https://github.com/AI-Commandos/RAGMeUp/blob/main/README.md#using-postgres-adviced-for-production)
-```
----
-
-     
- 
-all -  [ RAG Tabular Type Data ](https://www.reddit.com/r/Rag/comments/1fvtfr2/rag_tabular_type_data/) , 2024-10-07-0913
-```
-I want to create a Chroma Vector Store using Langchain from pdf documents, but what's happening is that my pdf contain s
-ome tabular data, now when I am querying AI model for table data, It is not able to identify it. 
-
-So is there any techn
-ique or library for reading tabular data perfectly in order to create vector store
-```
----
-
-     
- 
-all -  [ Real estate llm ](https://www.reddit.com/r/LangChain/comments/1fvt4d3/real_estate_llm/) , 2024-10-07-0913
-```
-Has anybody has any idea how to build a real estate llm which scans through various real estate listings in real time an
-d notify the user about the listing if it is profitable investment. I have not much experience in langchain can anyone t
-ell me is it possible 
-```
----
-
-     
- 
-all -  [ What are some hobby projects that you've built with langchain? ](https://www.reddit.com/r/LangChain/comments/1fvqjpu/what_are_some_hobby_projects_that_youve_built/) , 2024-10-07-0913
-```
-I'm looking to build some hobby projects with LangChain for teaching people.
-
-Wondering if anyone has any beginner-inter
-mediate project ideas using LangChain that would be fun to build for beginners.
-```
----
-
-     
- 
-all -  [ AI Agent Marketplaces ](https://www.reddit.com/r/LangChain/comments/1fvj04p/ai_agent_marketplaces/) , 2024-10-07-0913
-```
-We're seeing a rising trend in companies trying to build AI agent marketplaces. I think it'll only be a few more months 
-until someone figures out how to do it at scale. What do you guys think will be the most important features on these mar
-ketplaces that will make them beneficial for creators?
-```
----
-
-     
- 
-all -  [ How to create a manual LLM chain for Conservational RAG? ](https://www.reddit.com/r/LangChain/comments/1fvf9vw/how_to_create_a_manual_llm_chain_for/) , 2024-10-07-0913
-```
-It might be a noob question, I want to create a llm chain something like
-
-llm | chat\_history | prompt | documents
-
-I'm 
-separately retrieving the documents from vectorstore, and filtering the retrieved documents based on my own logic for my
- usecase, and only the filtered documents I want to pass to my llm for generating response and keeping chat\_history (I'
-m aware of create\_stuff\_document and history\_aware\_retriever approach for conservational RAG, but in that approach I
- can't use my manual document filtering)
-
-EDIT- I FIGURED IT ABOUT
-
-    chat_history = []
-    
-    documents = [] # or a
-ny other document coming from different function
-    
-    prompt = ChatPromptTemplate.from_messages([
-        ('system',
- '''You are a Helpful Assistant
-            You will consider the provided context as well. <context> {context} </contex
-t>'''),
-        MessagesPlaceholder(variable_name='chat_history'),
-        ('human', '{input}')
-        ])
-    
-    rag_
-chain = (
-        {
-            'input': lambda x: x['input'],
-            'context': lambda x: documents,
-            '
-chat_history': lambda x: x['chat_history'],
-        }
-        | prompt
-        | llm
-        | StrOutputParser()
-    )
- 
-   
-    chain = RunnablePassthrough.assign(context=lambda x: documents, chat_history=lambda x: x['chat_history']).assign
-(
-        answer=rag_chain
-    )
-    
-    while True:
-        user_input = input()
-        if user_input in {'q', 'Q'}:
-
-            break
-        response = chain.invoke({'input': user_input, 'chat_history': chat_history})
-        print(res
-ponse)
-        chat_history.append(HumanMessage(content=user_input))
-        chat_history.append(AIMessage(content=respo
-nse['answer']))  
-    
-    
-```
----
-
-     
- 
-all -  [ text-embedding-004 from Gemini is not available on LangChain ](https://www.reddit.com/r/LangChain/comments/1fvf4hk/textembedding004_from_gemini_is_not_available_on/) , 2024-10-07-0913
-```
-I am trying to use Gemini's [text-embedding-004](https://ai.google.dev/gemini-api/docs/embeddings) model in LangChain ho
-wever LangChain only supports text-embedding-001 according to this [doc](https://python.langchain.com/docs/integrations/
-text_embedding/google_generative_ai/). I tried to change 001 to 004 but it returns error saying that the model is not su
-pported. I am just curious why LangChain only supports 001, which is not mentioned anywhere in the current doc of Google
-.
-```
----
-
-     
- 
-all -  [ Langfuse vs Helicone for prompt managing and experimentation. ](https://www.reddit.com/r/LangChain/comments/1fv8bcj/langfuse_vs_helicone_for_prompt_managing_and/) , 2024-10-07-0913
-```
-Those two services seem to be the most advanced and actively developed solutions for this. I am not sure which way to go
-, especially since Langfuse's architecture will soon be very similar than that of Helicone's, see [https://github.com/or
-gs/langfuse/discussions/1902](https://github.com/orgs/langfuse/discussions/1902) . The pricing of the non-self hosted ve
-rsions are quite comparable, however it seems that Helicone does offer model output caching, which means it pays basical
-ly by itself for our use case. On the other hand Langfuse seems to have a more comprehensive documentation and more self
- hosted centric development, not entirely sure.
-
-What are your experiences using one of those services? Can you recommen
-d one or another similar tool?
-```
----
-
-     
- 
-all -  [ Help me prioritize my tech stack. ](https://www.reddit.com/r/developersPak/comments/1fv7oo5/help_me_prioritize_my_tech_stack/) , 2024-10-07-0913
-```
-I want to learn
-
--Advance React
--Redux
-
-
--Node.Js
--Express.Js
--MongoDb
--MySQL
-
--nextJS
-
--Gsap
--Three.js
--Famermotion
-
--G
-raphQl
-
--Socket.io
--WebRtc
--WebGL
-
--TypeScript
-
--Jenkins
--Docker
--Kubernetes
-
--Langchain.js
--Rag
-
-I just have one year l
-eft then I have to start working in my FYP project. Prioritize this which are most most important in an order.
-My goal i
-s to become a full stack expert developer and it is a dream.
-```
----
-
-     
- 
-all -  [ Has anyone gotten Langchain RetirevalQA to work with ChatAnthropic? ](https://www.reddit.com/r/LangChain/comments/1fv7k4w/has_anyone_gotten_langchain_retirevalqa_to_work/) , 2024-10-07-0913
-```
-I developed my application with OpenAI RAG and sold huge things to the business on how our arch can switch between Claud
-e and GPT on runtime. 
-
-The only problem is I am getting issues like 'Cant Instantiate BaseLanguageModel without impleme
-ntation to abstract methods like agenerate_prompt'. I have made no changes, just using VoyageAI and new langchain_anthro
-pic package to use claude-3.5. Unable to understand where this issue is. 
-
-Any help, code references or versions of Lang
-chain packages where people have made this work would be greatly appreciated! 
-```
----
-
-     
- 
-all -  [ AI-Powered RFP Document Comparison and Gap Analysis with Interactive Chat (openai,llamaindex,langcha ](https://www.reddit.com/r/OpenAI/comments/1fv4i0m/aipowered_rfp_document_comparison_and_gap/) , 2024-10-07-0913
-```
-Hey everyone! 👋
-
-I've been working on this cool little web app called RFP Analyzer. It's basically a tool that helps you
- break down Request for Proposal (RFP) documents and your responses to them. Super handy if you're dealing with a lot of
- these in your work!
-
-[video screen recording of the rfp analyzer tool in action](https://reddit.com/link/1fv4i0m/video/
-jofsq8inpisd1/player)
-
-**What it does:**
-
-* You upload your RFP and response PDFs
-* It processes them and gives you a ne
-at summary
-* You can chat with an AI about the documents, so you can also use it to validate if your actually capturing 
-the data from the document correctly
-* It generates a report comparing the two
-
-**UI using web tech (Flask, HTMX, Alpine
-.js).**
-
-[Ui of the RFP Analyzer ](https://preview.redd.it/aany534goisd1.png?width=2880&format=png&auto=webp&s=b8e913a5b
-c761868a904636c9bb6da467822701a)
-
-I will soon open-sourced it on GitHub, so feel free to check it out, star it, or even 
-contribute if you're feeling generous! Feel free to ask questions :)
-
-[https://github.com/lesteroliver911/openai-rfp-res
-ponse-analyzer](https://github.com/lesteroliver911/openai-rfp-response-analyzer)
-```
----
-
-     
- 
-all -  [ Llama 3.2: A brief analysis of vision capabilities ](https://www.reddit.com/r/LangChain/comments/1fv4i0d/llama_32_a_brief_analysis_of_vision_capabilities/) , 2024-10-07-0913
-```
-Thanks to the open-source gods! Meta finally released the multi-modal language models. There are two models: a small 11B
- one and a mid-sized 90B one.
-
-The timing couldn't be any better, as I was looking for an open-access vision model for a
-n application I am building to replace GPT4o.
-
-So, I wanted to know if I can supplement GPT4o usage with Llama 3.2; thou
-gh I know it’s not a one-to-one replacement, I expected it to be good enough considering Llama 3 70b performance, and it
- didn’t disappoint.
-
-I tested the model on various tasks that I use daily,
-
-* General Image Understanding
-   * Image cap
-tioning
-   * counting objects
-   * identifying tools
-   * Plant disease identification
-* Medical report analysis
-* Text 
-extraction
-* Chart analysis
-
-Consider going through this article to dive deeper into the tests. [Meta Llama 3.2: A deep 
-dive into vision capabilities.:](https://composio.dev/blog/meta-llama-3-2-a-deep-dive-into-vision-capabilities/)
-
-# What
- did I feel about the model?
-
-The model is great and, indeed, a great addition to the open-source pantheon. It is excell
-ent for day-to-day use cases, and considering privacy and cost, it can be a potential replacement for GPT-4o for this ki
-nd of task.
-
-However, GPT-4o is still better for difficult tasks, such as medical imagery analysis, stock chart analysis
-, and similar tasks.
-
-I have yet to test them for getting the coordinates of objects in an image to create bounding boxe
-s. If you have done this, let me know what you found.
-
-Also, please comment on how you liked the model’s vision performa
-nce and what use cases you plan on using it for.
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-07-0913
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-08-0912
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -7067,7 +7442,7 @@ I'm sure some teams already have good systems for this, would appreciate pointer
 
      
  
-MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-07-0913
+MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-08-0912
 ```
 GitHub repo : [https://github.com/shaRk-033/web-agent](https://github.com/shaRk-033/web-agent)
 
@@ -7106,7 +7481,7 @@ hear them. :)
 
      
  
-MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-07-0913
+MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-08-0912
 ```
 How tightly coupled is an embedding model to a language model?
 
@@ -7126,7 +7501,7 @@ ama3.1 ingest the embeddings?
 
      
  
-MachineLearning -  [ [P] Review and suggest ideas for my chatbot ](https://www.reddit.com/r/MachineLearning/comments/1fb2mwl/p_review_and_suggest_ideas_for_my_chatbot/) , 2024-10-07-0913
+MachineLearning -  [ [P] Review and suggest ideas for my chatbot ](https://www.reddit.com/r/MachineLearning/comments/1fb2mwl/p_review_and_suggest_ideas_for_my_chatbot/) , 2024-10-08-0912
 ```
 Ok, so I am currently trying to build support chatbot with following technicalities 
 1. FastAPI for web server(Need to m
@@ -7166,7 +7541,7 @@ and reviews for the same. Thank you!!
 
      
  
-deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-07-0913
+deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-08-0912
 ```
 I want to implement a Code-RAG system on a code directory where I need to:
 
