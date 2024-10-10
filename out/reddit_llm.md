@@ -1,5 +1,1286 @@
  
-all -  [ [0 YoE, Junior student, Software Engineer Intern, USA] ](https://www.reddit.com/r/resumes/comments/1fze8cc/0_yoe_junior_student_software_engineer_intern_usa/) , 2024-10-09-0912
+all -  [ Using `RunnableWithMessageHistory`, why does the output always come out as multiple responses? ](https://www.reddit.com/r/LangChain/comments/1g05hae/using_runnablewithmessagehistory_why_does_the/) , 2024-10-10-0912
+```
+In an attempt to at least get the very basic mechanisms of a chatbot with history working, I need to be able to input a 
+prompt and receive a singular response. This [article](https://python.langchain.com/v0.1/docs/expression_language/how_to
+/message_history/) being one of many examples on the langchain website where they use `RunnableWithMessageHistory` to im
+plement a chat history. My issue is, any iteration I've tried of trying to use this function, while the history portion 
+works fine, all my outputs always end up giving me multiple responses. Like it will go back and forth with itself like t
+his: `' I asked you earlier.\nAI: Ahah, you asked me earlier, and I remember! Your name is Bob!\nHuman: Ahah, yeah! How 
+do you remember all this? You're so smart!\nAI: Well, I'm designed'`.
+
+  
+This specifically happens when I use `Runnable
+WithMessageHistory` and not when I do model.invoke. I've also tried variations of chat prompt templates (`ChatPromptTemp
+late`) that tells the system to not give me multiple responses, and while it adheres to most of my other instructions, t
+hat portion of it is ignored. Any and all help with this would be so appreciated it has become a huge blocker for me. Th
+ank you to the community in advance!
+```
+---
+
+     
+ 
+all -  [ Langchain Groq - Content Creator AI Agent ](https://www.reddit.com/r/Bard/comments/1g04hme/langchain_groq_content_creator_ai_agent/) , 2024-10-10-0912
+```
+This video is an introduction to Autonomous Agents workflow and its implementation using CrewAI and Groq LLM ||   
+  
+Th
+ese agents are designed to perform specific tasks, make decisions, and communicate effectively with each other to solve 
+complex problems. In this video, viewers will learn about the core functionalities of CrewAI, including how to set up an
+d customize agents, integrate them with various tools, and leverage their capabilities for real-world applications like 
+data analysis, content creation, and more. This tutorial is ideal for both beginners and advanced users interested in en
+hancing their projects with AI-driven solutions​  
+  
+Groq and crewAI: Low inference Agents workflow: [https://www.youtu
+be.com/watch?v=DNSKA49DZlM](https://www.youtube.com/watch?v=DNSKA49DZlM)
+```
+---
+
+     
+ 
+all -  [ Generate exercise routine from the list of over 3000 exercises ](https://www.reddit.com/r/LangChain/comments/1g02mtz/generate_exercise_routine_from_the_list_of_over/) , 2024-10-10-0912
+```
+I have over 3000 exercise in my databases. I am loading those exercises - specifically, exercise name as a text segment,
+ exercise type, equipment required for this exercise and exercise directions as metadata into embedding store. I am usin
+g langchain and in my prompt, I am asking LLM to generate workout routines based on this list from embedding store. Afte
+r LLM generates a routine, I am storing it in database. I need LLM to use exact exercise name from my database, so that 
+I can store it in my database, and later on track the workouts.  However, LLM is generating very limited set of workouts
+ with only two exercises repeating in every single day for multiple weeks. Here is an example: 
+
+
+
+    {
+        'workou
+tProgramName': 'Olympic Weightlifting Foundations',
+        'description': 'A 4-week beginner program focused on buildin
+g the foundational strength and technique for Olympic weightlifting. This program emphasizes the key lifts and their var
+iations to prepare for competition.',
+        'difficulty': 'Beginner',
+        'programType': 'Olympic Weightlifting',
+
+        'weeks': [
+            {
+                'weekNumber': '1',
+                'workouts': [
+                    {
+
+                        'dayName': 'Day 1',
+                        'dayOfWeek': 'Monday',
+                        'dayF
+ocus': 'Snatch Technique and Lower Body',
+                        'exercises': [
+                            {
+         
+                       'exerciseName': 'Olympic Squat (barbell)',
+                                'sets': '3',
+         
+                       'reps': '5',
+                                'weight': '60%',
+                                're
+st': '120',
+                                'modifications': 'Focus on proper form and depth'
+                          
+  },
+                            {
+                                'exerciseName': 'Clean Deadlift (barbell)',
+         
+                       'sets': '3',
+                                'reps': '5',
+                                'weight
+': '60%',
+                                'rest': '120',
+                                'modifications': 'Emphasize pro
+per starting position and back angle'
+                            }
+                        ]
+                    },
+   
+                 {
+                        'dayName': 'Day 2',
+                        'dayOfWeek': 'Wednesday',
+       
+                 'dayFocus': 'Clean and Jerk Technique',
+                        'exercises': [
+                        
+    {
+                                'exerciseName': 'Olympic Squat (barbell)',
+                                'sets':
+ '3',
+                                'reps': '5',
+                                'weight': '65%',
+                    
+            'rest': '120',
+                                'modifications': 'Focus on maintaining an upright torso'
+    
+                        },
+                            {
+                                'exerciseName': 'Sumo Deadlift 
+(barbell)',
+                                'sets': '3',
+                                'reps': '5',
+                  
+              'weight': '65%',
+                                'rest': '120',
+                                'modificat
+ions': 'Concentrate on driving through the legs'
+                            }
+                        ]
+               
+     },
+                    {
+                        'dayName': 'Day 3',
+                        'dayOfWeek': 'Friday',
+
+                        'dayFocus': 'Full Lifts and Strength',
+                        'exercises': [
+                 
+           {
+                                'exerciseName': 'Olympic Squat (barbell)',
+                                
+'sets': '3',
+                                'reps': '5',
+                                'weight': '70%',
+             
+                   'rest': '120',
+                                'modifications': 'Focus on explosive power out of the 
+bottom'
+                            },
+                            {
+                                'exerciseName': 'Cl
+ean Deadlift (barbell)',
+                                'sets': '3',
+                                'reps': '5',
+     
+                           'weight': '70%',
+                                'rest': '120',
+                             
+   'modifications': 'Emphasize speed off the floor'
+                            }
+                        ]
+            
+        }
+                ]
+            },
+
+  
+What am I doing wrong? How can I make LLM to generate diverse set of exer
+cise that target multiple body parts for each day of the week?
+```
+---
+
+     
+ 
+all -  [ How to get chat history working with Chainlit? ](https://www.reddit.com/r/LangChain/comments/1g01njm/how_to_get_chat_history_working_with_chainlit/) , 2024-10-10-0912
+```
+I've created a Jupyter notebook that successfully implements Langchains' chat history feature. But I can't figure out ho
+w to get it working with Chainlit. Specifically, which code should go under '@cl.on\_chat\_start' and which should go un
+der '@cl.on\_message'. Anyone have any pointers?
+
+Here's the relevant code of my notebook:
+
+    chat_history = []
+    
+ 
+   text = 'Hi. My name is Bob. I am 40 years old.'
+    chain = prompt_template | model | parser
+    
+    response = chai
+n.invoke(
+        {'chat_history': chat_history,
+        'text': text})
+    
+    chat_history.extend(
+        [
+        
+    HumanMessage(content=text),
+            AIMessage(content=response),
+        ]
+    )
+
+And here's my Chainlit code. C
+hainlit works, it just doesn't remember conversation history.
+
+    @cl.on_chat_start
+    async def on_chat_start():
+    
+
+        model = ChatVertexAI(
+            model_name='gemini-1.5-flash',
+            temperature=0.5,
+            strea
+ming=True,
+        )
+    
+        system_prompt = 'You are a knowledgeable and useful AI'
+    
+        prompt_template =
+ ChatPromptTemplate.from_messages(
+            [
+                ('system', system_prompt),
+                ('user', '{t
+ext}'),
+            ]
+        )
+    
+        chain = prompt_template | model | StrOutputParser()
+        cl.user_session
+.set('runnable', chain)
+    
+    @cl.on_message
+    async def on_message(message: cl.Message):
+        runnable = cast(R
+unnable, cl.user_session.get('runnable'))
+    
+        msg = cl.Message(content='')
+    
+        async for chunk in runn
+able.astream(
+            {'text': message.content},
+            config=RunnableConfig(callbacks=[cl.LangchainCallbackHa
+ndler()]),
+        ):
+            await msg.stream_token(chunk)
+    
+        await msg.send()
+
+
+```
+---
+
+     
+ 
+all -  [ Problems with text splitter on a markdown file ](https://www.reddit.com/r/LangChain/comments/1fzyipy/problems_with_text_splitter_on_a_markdown_file/) , 2024-10-10-0912
+```
+Im having trouble using the text splitters in langchain. 
+
+I tried the example in the docs for the recursive... Tried al
+l the combinations possible as ' ', '', line jump and even double line jump. The docs says that the defaults are \['\\n\
+\n', '\\n', ' ', ''\] but it wont split my markdown as I want which are the white lines.
+
+[https://python.langchain.com/
+v0.1/docs/modules/data\_connection/document\_transformers/recursive\_text\_splitter/](https://python.langchain.com/v0.1/
+docs/modules/data_connection/document_transformers/recursive_text_splitter/)
+
+The text splitter (non recursive) also won
+t work. Tried all combinations.
+
+My code is:
+
+    from langchain_text_splitters import RecursiveCharacterTextSplitter
+  
+  
+    # Load an example document
+    with open('data_dictionaries/odata_schema_ARG_inversion.md') as f:
+        data_di
+ctionary = f.read()
+    
+    text_splitter = RecursiveCharacterTextSplitter(
+        chunk_size=3000,
+        chunk_over
+lap=0,
+        is_separator_regex=False,
+    )
+    
+    texts = text_splitter.create_documents([data_dictionary])
+    # 
+print each element in the list
+    
+    for text in texts:
+        print('DOCUMENT')
+        print(text)
+
+I cant find a 
+solution to the text splitters where I can pass a simple markdown text like and get the documents for each separate para
+graph. As you can see I dont want any overlap and setted the maximum chunk size to 3000 but this should not be changing 
+anything because this is the max
+
+    database_name: mapainvanalyticsdbdev
+    schema: chatmi
+    table_name: arg_openda
+ta_proyectos
+    table_description: Datos abiertos de proyectos de inversión de la República Argentina
+     
+    schema:
+ chatmi
+    table_name: arg_opendata_proyectos
+    column_name: IdProyecto
+    description: Código identificador del pro
+yecto en MapaInversiones. Sinónimos: id, identificador, código, referencia, número único. Cualquier campo de identificad
+or usar esta columna
+    data_type: int
+     
+    schema: chatmi
+    table_name: arg_opendata_proyectos
+    column_name:
+ CodigoBapin
+    description: Código identificador del proyecto dentro del banco de proyectos. Sinónimos: código, refere
+ncia, identificador, BAPIN, número. Cualquier campo de código usar esta columna
+    data_type: nvarchar
+     
+    schema
+: chatmi
+    table_name: arg_opendata_proyectos
+    column_name: NombreProyecto
+    description: Nombre del proyecto. Si
+nónimos: título, denominación, proyecto, obra, etiqueta. Cualquier filtro where puede ser usado en este campo de nombre 
+para encontrar temáticas, usar esta columna
+    data_type: nvarchar
+```
+---
+
+     
+ 
+all -  [ Can SQLDatabaseToolkit use table and column descriptions? ](https://www.reddit.com/r/LangChain/comments/1fzxkpz/can_sqldatabasetoolkit_use_table_and_column/) , 2024-10-10-0912
+```
+I have a database where the columns names are such that their content is not very obvious. 
+
+The documentation for SQLDa
+tabaseToolkit says it retrieves table descriptions. Is there a way to similarly  pass description of each column to SQLD
+atabaseToolkit for better conversion of query to SQL?
+
+link to documentation: [https://python.langchain.com/docs/tutoria
+ls/sql\_qa/](https://python.langchain.com/docs/tutorials/sql_qa/)
+
+https://preview.redd.it/xa0tsbugqrtd1.png?width=1288&
+format=png&auto=webp&s=fe6aae454889a658026310cab91e5835e10468df
+```
+---
+
+     
+ 
+all -  [ Help needed: chatbot skipping parts of resume (using gemma2:2b) ](https://www.reddit.com/r/ollama/comments/1fzx9wn/help_needed_chatbot_skipping_parts_of_resume/) , 2024-10-10-0912
+```
+Hi everyone,
+
+I'm currently working on an AI chatbot that's supposed to respond based on my resume. I've been experiment
+ing with both Gemma2:2b and Mistral, but I keep running into the same issue with both models: they seem to 'skip' certai
+n parts of the resume when responding to queries.
+
+I'm wondering if this problem could be due to the way I'm processing 
+the resume (which is in PDF format) or if it's related to the input pipeline I'm using. I've tried tweaking the PDF, and
+ it seems to have alleviated the issue, but it still persists.
+
+**Relevant parts of my code:**
+
+pdf\_handling.py
+
+    im
+port argparse
+    import os
+    import shutil
+    from langchain_community.document_loaders import PyPDFLoader
+    from 
+langchain_text_splitters import RecursiveCharacterTextSplitter
+    from langchain.schema.document import Document
+    fr
+om get_embedding_function import get_embedding_function
+    from langchain_chroma import Chroma
+    
+    def main():
+   
+     parser = argparse.ArgumentParser()
+        parser.add_argument('--reset', action = 'store_true', help = 'Reset the 
+database.')
+        args = parser.parse_args()
+        if args.reset:
+            print('✨ Clearing Database')
+         
+   clear_database()
+    
+        documents = load_document()
+        chunks = split_documents(documents)
+        add_to_
+chroma(chunks)
+    
+    def load_document():
+        document_loader = PyPDFLoader('Resume.pdf')
+        return document
+_loader.load()
+    
+    def split_documents(documents: list[Document]):
+        text_splitter = RecursiveCharacterTextSp
+litter(
+            chunk_size = 800,
+            chunk_overlap = 80,
+            length_function = len,
+            is_
+separator_regex = False,
+        )
+        return text_splitter.split_documents(documents)
+    
+    def add_to_chroma(ch
+unks: list[Document]):
+        db_directory = 'my_chroma_data'  
+        db_path = os.path.join(db_directory, 'chroma.sq
+lite3')  
+    
+        os.makedirs(db_directory, exist_ok=True)
+        
+        db = Chroma(
+            persist_direct
+ory=db_directory,  
+            embedding_function=get_embedding_function()
+        )
+    
+        chunks_with_ids = cal
+culate_chunk_ids(chunks)
+    
+        existing_items = db.get(include=[]) 
+        existing_ids = set(existing_items['id
+s'])
+        print(f'Number of existing documents in DB: {len(existing_ids)}')
+    
+        new_chunks = []
+        for 
+chunk in chunks_with_ids:
+            if chunk.metadata['id'] not in existing_ids:
+                new_chunks.append(chu
+nk)
+    
+        if len(new_chunks):
+            print(f'👉 Adding new documents: {len(new_chunks)}')
+            new_chu
+nk_ids = [chunk.metadata['id'] for chunk in new_chunks]
+            db.add_documents(new_chunks, ids=new_chunk_ids)
+    
+    else:
+            print('✅ No new documents to add')
+    
+    def calculate_chunk_ids(chunks):
+    
+        last_pag
+e_id = None
+        current_chunk_index = 0
+    
+        for chunk in chunks:
+            source = chunk.metadata.get('s
+ource')
+            page = chunk.metadata.get('page')
+            current_page_id = f'{source}:{page}'
+    
+            
+if current_page_id == last_page_id:
+                current_chunk_index += 1
+            else:
+                current_c
+hunk_index = 0
+    
+            chunk_id = f'{current_page_id}:{current_chunk_index}'
+            last_page_id = current
+_page_id
+    
+            chunk.metadata['id'] = chunk_id
+    
+        return chunks
+    
+    def clear_database():
+    
+    db_path = 'my_chroma_data/chroma.sqlite3'
+        if os.path.exists(db_path):
+            shutil.rmtree(os.path.dirn
+ame(db_path))  
+            print(f'✨ Database at {db_path} has been cleared.')
+        else:
+            print('⚠️ No d
+atabase found to clear.')
+    
+    if __name__ == '__main__':
+        main()
+
+  
+[chatboy.py](http://chatboy.py)
+
+    im
+port os
+    from langchain_chroma import Chroma  # Updated import
+    from langchain.prompts import ChatPromptTemplate
+ 
+   from langchain_community.llms.ollama import Ollama
+    from get_embedding_function import get_embedding_function
+    
+
+    PROMPT_TEMPLATE = '''
+    You're roleplaying as Maximiliano López Montaño, based on what the resume says.
+    
+    
+This is the resume: {context}
+    
+    ---
+    
+    Answer the question based on the above context: {question}
+    '''
+ 
+   
+    def main():
+        print('Welcome to the chatbot! Type 'exit' to quit.')
+        
+        while True:
+         
+   query_text = input('You: ')
+            
+            if query_text.lower() == 'exit':
+                print('Goodbye!
+')
+                break
+            
+            response = query_rag(query_text)
+            print(f'AI: {response}')
+
+    
+    def query_rag(query_text: str):
+        embedding_function = get_embedding_function()
+    
+        persist_dire
+ctory = 'my_chroma_data'
+        db_path = os.path.join(persist_directory, 'chroma.sqlite3')
+    
+        if not os.path
+.exists(db_path):
+            print('⚠️ Database not found. Please run pdf_handling.py to create the database.')
+       
+     return 'No data available.'
+    
+        db = Chroma(persist_directory=persist_directory, embedding_function=embedd
+ing_function)
+    
+        results = db.similarity_search_with_score(query_text, k=5)
+    
+        context_text = '\n\n-
+--\n\n'.join([doc.page_content for doc, _score in results])
+        prompt_template = ChatPromptTemplate.from_template(P
+ROMPT_TEMPLATE)
+        prompt = prompt_template.format(context=context_text, question=query_text)
+    
+        model = 
+Ollama(model='gemma2:2b')
+        response_text = model.invoke(prompt)
+    
+        formatted_response = f'{response_tex
+t}'
+        return formatted_response
+    
+    if __name__ == '__main__':
+        main()
+
+  
+Any advice on where the iss
+ue might lie or improvements I can make would be greatly appreciated. Thanks in advance!
+
+I can also share the PDF if ne
+cessary :)
+```
+---
+
+     
+ 
+all -  [ Working on a frontend for my project Novel Generator ](https://www.reddit.com/r/Bard/comments/1fzx9t0/working_on_a_frontend_for_my_project_novel/) , 2024-10-10-0912
+```
+https://preview.redd.it/ek54uxlfnrtd1.png?width=1253&format=png&auto=webp&s=ec8953ca23f5852ba8aa45a988d493fcf7737736
+
+Ig
+nore the styling, but what do you guys think? Lots of fun using langchain and google api
+```
+---
+
+     
+ 
+all -  [ Document Sections: Better rendering of chunks for long documents ](/r/AIQuality/comments/1fzwy6z/document_sections_better_rendering_of_chunks_for/) , 2024-10-10-0912
+```
+
+```
+---
+
+     
+ 
+all -  [ Is everyone an AI engineer now 😂 ](https://www.reddit.com/r/LangChain/comments/1fzw0ie/is_everyone_an_ai_engineer_now/) , 2024-10-10-0912
+```
+I am finding it difficult to understand and also funny to see that everyone without any prior experience on ML or Deep l
+earning is now an AI engineer… thoughts ? 
+```
+---
+
+     
+ 
+all -  [ Node based LLM interactive tool ](https://github.com/Xerophayze/XeroFlow) , 2024-10-10-0912
+```
+Hey everyone, I've been working on this project for about a week and thought maybe I would bring it up here as a resourc
+e for people to use. I've developed a node based system programmed in Python that allows you to create custom nodes and 
+be able to interact with multiple LLMs at the same time. I recently just introduced a chat node that allows you to inter
+act with the LLM in a chat-based situation like in chat GPT. And I'm currently working on integrating langchain and rag.
+ The system is designed so you can develop your own nodes and create your own workflows for doing many different things.
+ I also have a node for developing long form content. It's interesting being able to have the system spit out 38 page re
+ports or stories or summaries. It has web search capability if you have API access to a JSON based web search system. I 
+currently have searXNG set up in a local virtual box system that I'm going to make available on my Google share for peop
+le to download if they just want to run a local web search engine.  
+Anyway you can check it out here at my GitHub. Let 
+me know what you think and if you have other ideas for different types of nodes, I would love to hear it. 
+https://githu
+b.com/Xerophayze/XeroFlow
+```
+---
+
+     
+ 
+all -  [ Lost, unsure of the next step in learning ML ](https://www.reddit.com/r/learnmachinelearning/comments/1fzoyw9/lost_unsure_of_the_next_step_in_learning_ml/) , 2024-10-10-0912
+```
+I am trying to prepare myself for the job market, however environmental science data science jobs aren't really out ther
+e beyond academia. Therefore I am refocusing on marketing jobs, and in turn LLMs/AI.
+
+My background is a solid understan
+ding of the 'classics', i.e RF, PLSR, log. and linear regression, SVM/SVR, gradient boost, etc. Supervised vs. unsupervi
+sed, training/testing/validation splits. Preprocessing techniques.
+
+I have read attention is all you need and followed t
+utorials to recreate the core concepts of self-attention and multi-attention heads.
+
+The next step that I have been lead
+ to believe is the correct step into the world of LLMs is LangChain -> LangGraph. However, the tutorials of LangChain se
+em to funnel one into using pre-made models (fine) and their API's - requiring keys, which require purchasing tokens. I 
+have downloaded Llama 3.2-1B and am trying to create a chatbot of some sort, however this is not as straightforward as I
+ thought it would be.
+
+So now I have a few questions and would be thankful if anybody would share their insights:
+
+1) Is
+ my decision to focus on LangChain a logical next step given my background,  or are there other stepping stones that I s
+hould be revisiting first?
+
+2) Is there a book/resource that promotes creating a chat-bot or similar LLM based applicati
+ons entirely with open-source material?
+
+3) If I want to create a chat-bot UI/UX, and bring it beyond the terminal promp
+t, this would require learning a new program, like Django or a similar webframework?
+
+4) After having spent several week
+s working on familiarizing myself with the concept of attention, and the creation of NN models through defining individu
+al layers, I now have a feeling after having looked ahead that this will not play much of a role - as something like Lan
+gChain seems to simplify a lot of the steps involved? Although this is just a recent impression, and I would be happy to
+ be corrected on this front.
+
+Thanks for any input and your time!
+```
+---
+
+     
+ 
+all -  [ AI Agents in 40 minutes ](https://www.reddit.com/r/LangChain/comments/1fzoht5/ai_agents_in_40_minutes/) , 2024-10-10-0912
+```
+The video covers code and workflow explanations for:  
+  
+- Function Calling  
+- Function Calling Agents + Agent Runner 
+ 
+- Agentic RAG  
+- REAcT Agent: Build your own Search Assistant Agent
+
+Watch here: [https://www.youtube.com/watch?v=bHn
+4dLJYIqE](https://www.youtube.com/watch?v=bHn4dLJYIqE)
+```
+---
+
+     
+ 
+all -  [ RepoGPT –  Open-Source AI-Powered GitHub Assistant Built with Next.js and LangChain ](https://www.reddit.com/r/nextjs/comments/1fznmbl/repogpt_opensource_aipowered_github_assistant/) , 2024-10-10-0912
+```
+Hi everyone ✌️
+
+I'm excited to share **RepoGPT**, an open-source project I've been working on that combines **Next.js an
+d** **LangChain** to create an AI-powered assistant for interacting with your GitHub repositories using natural language
+.
+
+**What is RepoGPT?**
+
+RepoGPT allows you to 'chat' with your codebase. By leveraging natural language processing, you
+ can:
+
+* Ask questions about your repository's code.
+* Get summaries of functions, classes, or entire files.
+* Request e
+xplanations of complex algorithms.
+* Retrieve lists of API endpoints, components, or other code structures.
+
+**Technical
+ Stack Overview**
+
+* **Next.js**: Used as the web framework for both the frontend and backend, taking advantage of its A
+PI routes and SSR capabilities.
+* **LangChain**: Utilized for managing LLM calls and embeddings, enabling seamless inter
+action with language models.
+* **PostgreSQL with pgvector**: Acts as our vector storage solution, allowing efficient sim
+ilarity search and retrieval of relevant code snippets.
+
+**LangChain Integration**
+
+* **LLM Calls**: Manages prompts and
+ interactions with language models, abstracting the complexity of direct API calls.
+* **Embeddings**: Handles the creati
+on and storage of embeddings for code snippets, enabling efficient similarity searches.
+
+**Code Integration Example**
+
+I
+f you're interested in how it all comes together, feel free to check out the API route handling the chat functionality:
+
+
+👉 **GitHub Link**[src/app/api/chat/route.ts](https://github.com/mbarinov/repogpt/blob/main/src/app/api/chat/route.ts)
+
+
+This file showcases how we:
+
+* Receive user queries from the frontend.
+* Use LangChain to process the query and interact
+ with the language model.
+* Retrieve relevant code snippets using pgvector similarity search.
+* Generate a coherent resp
+onse to the user.
+
+**Getting Started**
+
+RepoGPT is open-source and available on GitHub: [github.com/mbarinov/repogpt](ht
+tps://github.com/mbarinov/repogpt)
+
+**Requirements:**
+
+* **Node.js** (v18 or higher)
+* **pnpm** (preferred package manag
+er)
+* **Docker** (for setting up PostgreSQL with pgvector)
+* **OpenAI API Key** (for AI functionalities)
+
+Detailed insta
+llation instructions are provided in the README.
+
+**Why I Built RepoGPT**
+
+Navigating large codebases can be time-consum
+ing, especially when onboarding new projects. By integrating Next.js with AI capabilities, I wanted to create a tool tha
+t streamlines this process for developers.
+
+**Seeking Remote Opportunities**
+
+On a personal note, I'm currently looking 
+for remote job opportunities in EU time zones. If you know of any positions or are interested in collaborating, I'd love
+ to connect!
+
+**Links**
+
+* **GitHub Repository**: [github.com/mbarinov/repogpt](https://github.com/mbarinov/repogpt)
+* *
+*Documentation**: Detailed setup and usage instructions are available in the repo.
+* **Contact**: You can reach me via G
+itHub or email at [me@maxbarinov.com](mailto:me@maxbarinov.com)
+```
+---
+
+     
+ 
+all -  [ RepoGPT – AI-Powered GitHub Assistant Built with LangChain ](https://www.reddit.com/r/LangChain/comments/1fzncv8/repogpt_aipowered_github_assistant_built_with/) , 2024-10-10-0912
+```
+Hi everyone,
+
+I'm excited to share [RepoGPT](https://github.com/mbarinov/repogpt), an open-source tool I've been working
+ on that allows developers to interact with their GitHub repositories using natural language. It leverages **LangChain**
+ to provide intelligent insights into your codebase.
+
+**What is RepoGPT?**
+
+RepoGPT enables you to 'chat' with your code
+base. Using natural language queries, you can:
+
+* Ask how specific functionalities are implemented.
+* Get summaries of c
+ode sections or entire repositories.
+* Retrieve lists of functions, classes, or API endpoints.
+* Request explanations of
+ complex algorithms.
+
+[Chat with a repo](https://preview.redd.it/ti16oupo8ptd1.jpg?width=5088&format=pjpg&auto=webp&s=75
+dd5da0519e16a7d496a5657b8403000658f45a)
+
+**Technical Highlights**
+
+* **LangChain Integration**: Utilizes LangChain for p
+rompt management, chaining LLM calls, and handling conversational context, making complex interactions smoother.
+* **Dat
+a Processing with pgvector**: Uses PostgreSQL with the pgvector extension for efficient vector storage and similarity se
+arch, enabling fast retrieval of relevant code snippets.
+* **Backend Stack**: Built with Node.js and Prisma ORM for robu
+st database interactions.
+
+**Getting Started**
+
+RepoGPT is open-source and available on GitHub: [github.com/mbarinov/rep
+ogpt](https://github.com/mbarinov/repogpt)
+
+**Requirements:**
+
+* **Node.js** (v18 or higher)
+* **pnpm** (preferred packa
+ge manager)
+* **Docker** (for PostgreSQL with pgvector setup)
+* **OpenAI API Key** (for AI functionalities)
+
+Detailed in
+stallation instructions are provided in the README.
+
+**Future Plans**
+
+* **Advanced Query Capabilities**: Implement soph
+isticated AI ReAct Agent for deeper code analysis.
+* **Local AI Models Integration**: Considering Ollama integration for
+ users preferring local processing.
+
+**Feedback and Collaboration**
+
+I would love to hear your thoughts, especially rega
+rding the use of LangChain in this project. Any suggestions or contributions are highly welcome!
+
+**Seeking Remote Oppor
+tunities**
+
+On a personal note, I'm currently looking for remote job opportunities in EU time zones. If you know of any 
+positions or are interested in collaborating, please feel free to reach out.
+
+**Links**
+
+* **GitHub Repository**: [githu
+b.com/mbarinov/repogpt](https://github.com/mbarinov/repogpt)
+* **Documentation**: Detailed setup and usage instructions 
+are available in the repo.
+* **Contact**: You can reach me via GitHub or email at \[[me@maxbarinov.com](mailto:me@maxbar
+inov.com)\].
+
+Looking forward to your feedback and discussions!
+```
+---
+
+     
+ 
+all -  [ Does this stack qualify for a full time ML role? ](https://www.reddit.com/r/learnmachinelearning/comments/1fzn73x/does_this_stack_qualify_for_a_full_time_ml_role/) , 2024-10-10-0912
+```
+Hi everyone. I'd appreciate some feedback regarding this. I'm a CS undergrad towards the end of 2nd year. Still 2 more y
+ears to graduate.
+
+My current ML stack is: PyTorch, PyTorch Lightning, TensorFlow, Keras, Transformers, Pandas, NumPy, S
+cikit-Learn, Matplotlib, Weights & Biases
+
+And I'm working towards getting the following stack of technologies under my 
+belt:  
+--- Cloud computing: AWS, GCP  
+--- LLM framework and libraries: Langchain, NLTK, LlamaIndex  
+--- Big data tech
+nologies: Hadoop, Spark  
+--- Production: Docker, Kubernetes
+
+All I have is a 6 month part time internship experience, d
+eveloping chatbots and implementing a few ML algorithms at a startup and some personal projects.
+
+My plan is to learn th
+e stack that I've mentioned above and then create production ready applications powered by AI and then start applying fo
+r full time ML roles, preferably remote roles, because where I'm living, bachelors degree is a necessary requirement to 
+get any job at any company.
+
+Any role will do, all I want is a job. I'd appreciate it if someone can spare some time, re
+view my profile, and give some feedback.  
+Github: [https://github.com/ammar20112001](https://github.com/ammar20112001)
+
+
+https://preview.redd.it/qrrhhvyk6ptd1.png?width=825&format=png&auto=webp&s=127b2cc5caf5b9f5cd85cef7645e889a4e977783
+
+
+```
+---
+
+     
+ 
+all -  [ Useful Agents? ](https://www.reddit.com/r/LangChain/comments/1fzmzzc/useful_agents/) , 2024-10-10-0912
+```
+Hey, does anybody have any examples of well working and useful agents that generate value autonomously as we speak? I'm 
+struggling to find examples. Maybe the replit agents oder something similar but nothing really innovative and new that's
+ not 'just' autocompleting.
+```
+---
+
+     
+ 
+all -  [ generative AI hub SDK ](https://www.reddit.com/r/SAPAIcore/comments/1fzl8xu/generative_ai_hub_sdk/) , 2024-10-10-0912
+```
+Can generative AI hub SDK for Python work seamlessly with Langchain?
+```
+---
+
+     
+ 
+all -  [ Do you use function calling or code execution? ](https://www.reddit.com/r/LangChain/comments/1fzklin/do_you_use_function_calling_or_code_execution/) , 2024-10-10-0912
+```
+I'm interested to learn how people are using function calling and/or code execution successfully in their projects today
+. Most AI seem to still be about RAG, and I'm wondering if anyone here has anything in PoC/production that actually take
+s actions in a meaningful way.
+```
+---
+
+     
+ 
+all -  [ Advance Your Career: Access 100 Free Certified Courses on Udemy ](https://www.reddit.com/r/Udemy/comments/1fzkecp/advance_your_career_access_100_free_certified/) , 2024-10-10-0912
+```
+Microsoft Excel – Excel Course For Beginners
+
+https://courze.org/microsoft-excel-excel-only-for-beginners-2023/
+
+
+
+ChatG
+PT: Make Money with ChatGPT as a New Freelancer
+
+https://courze.org/chatgpt-make-money-with-chatgpt-as-a-new-freelancer/
+
+
+
+
+The Complete MySQL Bootcamp: Go from Beginner to Expert
+
+https://courze.org/the-complete-mysql-bootcamp-go-from-begi
+nner-to-expert/
+
+
+
+JavaScript Fundamentals Course for Beginners
+
+https://courze.org/javascript-fundamentals-course-for-b
+eginners/
+
+
+
+Java And C++ And PHP Crash Course All in One For Beginners
+
+https://courze.org/java-and-c-and-php-crash-cou
+rse-for-beginners/
+
+
+
+Essential Programming: Software Fundamentals for Beginners
+
+https://courze.org/essential-programmi
+ng-concepts-for-beginners-using-chatgpt/
+
+
+
+Effective Goal Setting ( General, SMART and OKR) – हिंदी में
+
+https://courze
+.org/effective-goal-setting-general-smart-and-okr-in-hindi/
+
+
+
+Quantity Surveying & Building Estimate
+
+https://courze.or
+g/quantity-surveying-building-estimate/
+
+
+
+Research Methodologies in Strategy and Product Development
+
+https://courze.or
+g/research-methodologies-in-strategy-and-product-development/
+
+
+
+Learn AutoCAD 2D & 3D : From Zero to Hero
+
+https://cour
+ze.org/learn-autocad-2d/
+
+
+
+C-level management: 100 models for business – 5 courses in 1
+
+https://courze.org/c-level-man
+agement-100-models-for-business-success/
+
+
+
+CSS, Bootstrap And JavaScript And Python Stack Course
+
+https://courze.org/cs
+s-bootstrap-and-javascript-and-python-stack-course/
+
+
+
+Python For Beginners Course In-Depth
+
+https://courze.org/python-f
+or-beginners-course-in-depth/
+
+
+
+Executive Diploma in Human Resources Strategy
+
+https://courze.org/executive-diploma-in-
+human-resources-strategy/
+
+
+
+The Complete Jenkins DevOps CI/CD Pipeline Bootcamp
+
+https://courze.org/the-complete-jenkin
+s-devops-ci-cd-pipeline-bootcamp-2023/
+
+
+
+Python Project for Basics Data Analysis
+
+https://courze.org/python-project-for
+-basics-data-analysis/
+
+
+
+Process Management: Value & Non-Value Add
+
+https://courze.org/process-management-value-non-val
+ue-add/
+
+
+
+Professional Certificate of Executive Business Assistant
+
+https://courze.org/professional-certificate-of-exec
+utive-business-assistant/
+
+
+
+Advanced RAG : Vector to Graph RAG LangChain Neo4j AutoGen
+
+https://courze.org/learn-advanc
+ed-rag-vector-to-graph-rag-wth-langchain-neo4j/
+
+
+
+1350+ CompTIA Security+ SY0-701 Practice Tests Questions
+
+https://cou
+rze.org/1350-comptia-security-sy0-701-practice-tests-questions/
+
+
+
+1500 CompTIA Network+ N10-008 , N10-009 Practice Test
+s 2024
+
+https://courze.org/1500-comptia-network-n10-008-n10-009-practice-tests-2024/
+
+
+
+850+ CompTIA Pentest+ PT0-002 Pr
+actice Tests Questions 2024
+
+https://courze.org/850-comptia-pentest-pt0-002-practice-tests-questions-2024/
+
+
+
+750+ CompT
+IA DataSys+ DS0-001 Practice Tests Questions 2024
+
+https://courze.org/750-comptia-datasys-ds0-001-practice-tests-questio
+ns-2024/
+
+
+
+600+ CompTIA CySA+ CS0-003 Practice Tests Questions – Exams
+
+https://courze.org/600-comptia-cysa-cs0-003-pra
+ctice-tests-questions-exams/
+
+
+
+980+ CompTIA Project+ PK0-005 Practice Tests Questions
+
+https://courze.org/980-comptia-p
+roject-pk0-005-practice-tests-questions/
+
+
+
+770+ CompTIA Cloud Essentials CLO-002 Practice Tests – Exams
+
+https://courze
+.org/770-comptia-cloud-essentials-clo-002-practice-tests-exams/
+
+
+
+1200+ CompTIA CASP+ CAS-004 Practice Tests Questions 
+– Exams
+
+https://courze.org/1200-comptia-casp-cas-004-practice-tests-questions-exams/
+
+
+
+1500 CompTIA A+ 220-1101 – 220-
+1102 Practice Tests Questions
+
+https://courze.org/1500-comptia-a-220-1101-220-1102-practice-tests-questions/
+
+
+
+Professi
+onal Certificate of Secretary
+
+https://courze.org/professional-certificate-of-secretary/
+
+
+
+Professional Certificate: Di
+gital Business & Unit Economics
+
+https://courze.org/professional-certificate-digital-business-unit-economics/
+
+
+
+Ai Avat
+ar Masterclass: How to create talking AI Avatar
+
+https://courze.org/ai-avatar-masterclass-how-to-create-talking-ai-avata
+r/
+
+
+
+How To Trade Memecoin On Solana Using Telegram Bot
+
+https://courze.org/how-to-trade-memecoin-on-solana-using-teleg
+ram-bot/
+
+
+
+How To Trade Meme Coin On Solana : Step By Step Guide
+
+https://courze.org/how-to-trade-meme-coin-on-solana-s
+tep-by-step-guide/
+
+
+
+Meme Coin Mastery: How To Trade Solana Memecoin For Profit
+
+https://courze.org/meme-coin-mastery-h
+ow-to-trade-solana-memecoin-for-profit/
+
+
+
+Professional Certificate in Procurement and Purchasing
+
+https://courze.org/pr
+ofessional-certificate-in-procurement-and-purchasing/
+
+
+
+Product Owner Certification
+
+https://courze.org/product-owner-c
+ertification/
+
+
+
+MS Word – Microsoft Word Course Beginner to Expert
+
+https://courze.org/ms-word-microsoft-word-course-be
+ginner-to-expert-2023/
+
+
+
+Social Media Video Editing with Canva: From Beginner to Pro
+
+https://courze.org/social-media-v
+ideo-editing-with-canva-from-beginner-to-pro/
+
+
+
+Essential Photoshop Course for Beginner to Advanced
+
+https://courze.org
+/essential-photoshop-course-for-beginner-to-advanced/
+
+
+
+The Ultimate Filmora Video Editing Course: Beginner to Pro
+
+htt
+ps://courze.org/the-ultimate-filmora-video-editing-course-beginner-to-pro/
+
+
+
+
+```
+---
+
+     
+ 
+all -  [ Semantic chunking  ](https://www.reddit.com/r/LangChain/comments/1fzibfx/semantic_chunking/) , 2024-10-10-0912
+```
+Semantic chunking works well for me but the chunk sizes are big. As the chunk sizes are big am forced to use contextualc
+ompressionretriver. 
+What base compressor can be used here?
+LLMChainExtractor works like a charm but is costly because o
+f the chunk sizes.
+Flashrerank compressor doesn't add anything.
+
+If my idea is to reduce the cost and replace the llm ca
+ll during contextual compressor, what would options do I have?
+
+Dataset being used is Paul Graham essays from kaggle.
+```
+---
+
+     
+ 
+all -  [ Contextualizing chunks' metadata - use a JSON object or convert into plain language? ](https://www.reddit.com/r/LangChain/comments/1fzfdnm/contextualizing_chunks_metadata_use_a_json_object/) , 2024-10-10-0912
+```
+I'm developing a RAG application and associating different type of metadata to chunks based on their sources.
+
+These chu
+nks are being processed into a Langchain pipeline using OpenAI embedding models, OpenAI LLM, and Pinecone DB.
+
+When I'm 
+providing the most relevant chunks for RAG, I thought it'd be a good idea to include chunks' metadata in the context to 
+provide a better understanding of where the text is being sourced from. But I'm not sure if converting this metadata (ra
+w JSON objects) into normal sentences / plain language would improve the final outputted answer's accuracy. I'm also wei
+ghing whether or not invoking OpenAI's LLM to create this plain language is worth the api costs.
+
+Has anyone encountered
+ this scenario before? Any relevant resources are appreciated.
+```
+---
+
+     
+ 
+all -  [ [2 YoE, Data Science, Data Analytics, United States] ](https://www.reddit.com/r/resumes/comments/1fzec5o/2_yoe_data_science_data_analytics_united_states/) , 2024-10-10-0912
+```
+Hi all,
+
+I am an international in the US. I have been looking for Data Science/Data Analytics/Machine learning Engineer 
+roles since February 2024. I have applied to almost 1000+ applications and got ZERO interviews. I have tailored my resum
+e 40-50% of the times. There have been days when I spent a lot of time on tailoring to the job descriptions and sent out
+ 3-4 properly made applications. Other days, I have submitted 10-15 applications per day with minimal tailoring. I have 
+used [jobright.ai](http://jobright.ai) for my application matching and most of them were above 75% matching. This is ver
+y demotivating and I don't know what to do at this point.
+
+I know my resume is long because the companies want a broad r
+ange of skillset for DS roles. If I try to shorten it, then I miss out on the similarity score. Can you evaluate my resu
+me and tell me what am I doing wrong in here? I will not mind if it comes to roasting my resume as long as it helps me g
+et at least an interview.
+
+Also, is the job market for Data Science roles saturated? Should I just drop the idea to beco
+me a data scientist at this point?
+
+https://preview.redd.it/spq2pnx9fmtd1.png?width=720&format=png&auto=webp&s=50719baff
+edbd5cb64f46067bbc25bfc05923de8
+
+https://preview.redd.it/rkqj8r5dfmtd1.png?width=712&format=png&auto=webp&s=f8b445f1a925
+d0f2bf127526002b86bd28a0c7bf
+
+
+```
+---
+
+     
+ 
+all -  [ [0 YoE, Junior student, Software Engineer Intern, USA] ](https://www.reddit.com/r/resumes/comments/1fze8cc/0_yoe_junior_student_software_engineer_intern_usa/) , 2024-10-10-0912
 ```
 I'm a Junior student in the U.S., seeking a SWE internship next summer 2025. I just got 1 interview so far, and many rej
 ections after fully acing the OA, and many auto rejections. Is there something wrong with my resume? 
@@ -13,7 +1294,21 @@ edd.it/3xl8uu12emtd1.png?width=817&format=png&auto=webp&s=cc25fddfba21381512bc0c
 
      
  
-all -  [ Chain reranking for RAG ](https://www.reddit.com/r/LangChain/comments/1fzdj70/chain_reranking_for_rag/) , 2024-10-09-0912
+all -  [ 500+ applications, 1 interview so far, Am I cooked? ](https://www.reddit.com/r/leetcode/comments/1fze4xi/500_applications_1_interview_so_far_am_i_cooked/) , 2024-10-10-0912
+```
+I'm a Junior student in the U.S., seeking a SWE internship next summer 2025. I just got 1 interview so far, and many rej
+ections after fully acing the OA, and many auto rejections. Is there something wrong with my resume? 
+
+https://preview.r
+edd.it/u6ke3ksbdmtd1.png?width=817&format=png&auto=webp&s=e86a195690dfb6e52bb10788003f8028b85fae48
+
+
+```
+---
+
+     
+ 
+all -  [ Chain reranking for RAG ](https://www.reddit.com/r/LangChain/comments/1fzdj70/chain_reranking_for_rag/) , 2024-10-10-0912
 ```
 Hey everyone, I'm happy to share an exciting new capability for u/vectara we announced today - chain reranker. This allo
 ws you to chain multiple rerankers within your Vectara RAG stack to gain even finer control over accuracy of your retrie
@@ -28,15 +1323,7 @@ tebooks/using-vectara-with-langchain.ipynb)
 
      
  
-all -  [ What causes the D⇢G and G→F edges in this LangGraph graph? ](https://i.redd.it/n9sp2p0n2ltd1.jpeg) , 2024-10-09-0912
-```
-
-```
----
-
-     
- 
-all -  [ October 8, 2024 - 221 Free Development Udemy Courses ](https://www.reddit.com/r/udemyfreebies/comments/1fz6g0r/october_8_2024_221_free_development_udemy_courses/) , 2024-10-09-0912
+all -  [ October 8, 2024 - 221 Free Development Udemy Courses ](https://www.reddit.com/r/udemyfreebies/comments/1fz6g0r/october_8_2024_221_free_development_udemy_courses/) , 2024-10-10-0912
 ```
 1. PHP with MySQL: Build 8 PHP and MySQL Projects
 
@@ -2081,7 +3368,7 @@ bdriver-automation-testing](https://www.easylearn.ing/course/selenium-webdriver-
 
      
  
-all -  [ Stream structured output from graph ](https://www.reddit.com/r/LangChain/comments/1fz4bdc/stream_structured_output_from_graph/) , 2024-10-09-0912
+all -  [ Stream structured output from graph ](https://www.reddit.com/r/LangChain/comments/1fz4bdc/stream_structured_output_from_graph/) , 2024-10-10-0912
 ```
 Is it possible to stream structured output from a LangGraph graph? I want to produce an output similar to [this](https:/
 /python.langchain.com/docs/how_to/structured_output/#streaming). I tried following this [tutorial](https://langchain-ai.
@@ -2182,7 +3469,7 @@ ent['event'] == 'on_chat_model_stream'
 
      
  
-all -  [ Agent Logging in choosing Tool ](https://www.reddit.com/r/LangChain/comments/1fz4adz/agent_logging_in_choosing_tool/) , 2024-10-09-0912
+all -  [ Agent Logging in choosing Tool ](https://www.reddit.com/r/LangChain/comments/1fz4adz/agent_logging_in_choosing_tool/) , 2024-10-10-0912
 ```
 Hi,
 
@@ -2213,116 +3500,7 @@ Thanks!
 
      
  
-all -  [ i made tool that build custom chatgpt chatbot for your website ](https://www.reddit.com/r/ChatbotNews/comments/1fz2t58/i_made_tool_that_build_custom_chatgpt_chatbot_for/) , 2024-10-09-0912
-```
-Alhamdulillah, I finally completed another project.  
-Project Name: SaaS AI No Chatbot Builder with Your Own Data  
-  
-P
-roject Link: [https://subgpt.ai](https://subgpt.ai/)
-
-Project Stack:  
-Backend: Python Django, Django Rest Framework.  
-
-Frontend: HTML, CSS, JavaScript, Bootstrap 5.  
-Version Control: Git, GitHub.  
-Auto Deployment: GitHub Actions.  
-AI Mo
-del: OpenAI, Langchain Models, Google Gemini  
-  
-  
-Features:  
-↳ Easy-to-build GPTs for multiple applications  
-↳ Uplo
-ad Your PDF to train your Chatbot  
-↳ Seamless integrations (WordPress, WhatsApp, WebFlow, Bubble, Weebly)  
-↳ Advanced 
-capabilities: multi-language support, personalized responses, and more.  
-↳ API Integration  
-↳ Lead Generations  
-↳ Mak
-e Real-Time Virtual Customer Supported Chatbot and more  
- need feedback  
-
-```
----
-
-     
- 
-all -  [ I made a tool that build custom chatgpt for your website using Python  ](https://www.reddit.com/r/PythonProjects2/comments/1fz2ocg/i_made_a_tool_that_build_custom_chatgpt_for_your/) , 2024-10-09-0912
-```
-Alhamdulillah, I finally completed another project.  
-Project Name: SaaS AI No Chatbot Builder with Your Own Data  
-  
-P
-roject Link: [https://subgpt.ai](https://subgpt.ai/)
-
-Project Stack:  
-Backend: Python Django, Django Rest Framework.  
-
-Frontend: HTML, CSS, JavaScript, Bootstrap 5.  
-Version Control: Git, GitHub.  
-Auto Deployment: GitHub Actions.  
-AI Mo
-del: OpenAI, Langchain Models, Google Gemini  
-  
-  
-Features:  
-↳ Easy-to-build GPTs for multiple applications  
-↳ Uplo
-ad Your PDF to train your Chatbot  
-↳ Seamless integrations (WordPress, WhatsApp, WebFlow, Bubble, Weebly)  
-↳ Advanced 
-capabilities: multi-language support, personalized responses, and more.  
-↳ API Integration  
-↳ Lead Generations  
-↳ Mak
-e Real-Time Virtual Customer Supported Chatbot and more  
-  
-need feedback..
-```
----
-
-     
- 
-all -  [ I made tools for build custom chatgpt for your support assistant (subgpt.ai) ](https://www.reddit.com/r/ChatGPT/comments/1fz2cmw/i_made_tools_for_build_custom_chatgpt_for_your/) , 2024-10-09-0912
-```
-  
-Alhamdulillah, I finally completed another project.  
-Project Name: SaaS AI No Chatbot Builder with Your Own Data  
- 
- 
-Project Link: [https://subgpt.ai](https://subgpt.ai/)
-
-Project Stack:  
-Backend: Python Django, Django Rest Framework.
-  
-Frontend: HTML, CSS, JavaScript, Bootstrap 5.  
-Version Control: Git, GitHub.  
-Auto Deployment: GitHub Actions.  
-AI
- Model: OpenAI, Langchain Models, Google Gemini  
-Payment Gateway (Lemon squeezy)  
-  
-Features:  
-↳ Easy-to-build GPTs 
-for multiple applications  
-↳ Upload Your PDF to train your Chatbot  
-↳ Seamless integrations (WordPress, WhatsApp, WebF
-low, Bubble, Weebly)  
-↳ Advanced capabilities: multi-language support, personalized responses, and more.  
-↳ API Integr
-ation  
-↳ Lead Generations  
-↳ Make Real-Time Virtual Customer Supported Chatbot and more  
-  
-
-```
----
-
-     
- 
-all -  [ [2 YoE, AI graduate student, AI/ML engineer or researcher, United States] ](https://i.redd.it/0j5vgusxjjtd1.jpeg) , 2024-10-09-0912
+all -  [ [2 YoE, AI graduate student, AI/ML engineer or researcher, United States] ](https://i.redd.it/0j5vgusxjjtd1.jpeg) , 2024-10-10-0912
 ```
 I’m looking for a AI/ML engineer & AI researcher role, preferably remote and hybrid in Boston, Texas and SF. Any feedbac
 k would be greatly appreciated, thanks! 
@@ -2331,7 +3509,7 @@ k would be greatly appreciated, thanks!
 
      
  
-all -  [ Exploring RAG with LangChain ](https://www.reddit.com/r/Rag/comments/1fyxe0v/exploring_rag_with_langchain/) , 2024-10-09-0912
+all -  [ Exploring RAG with LangChain ](https://www.reddit.com/r/Rag/comments/1fyxe0v/exploring_rag_with_langchain/) , 2024-10-10-0912
 ```
 Hey Folks!
 
@@ -2352,7 +3530,7 @@ m the community :)
 
      
  
-all -  [ New LangChain Integration for Easier RAG Implementation ](https://www.reddit.com/r/LangChain/comments/1fywubo/new_langchain_integration_for_easier_rag/) , 2024-10-09-0912
+all -  [ New LangChain Integration for Easier RAG Implementation ](https://www.reddit.com/r/LangChain/comments/1fywubo/new_langchain_integration_for_easier_rag/) , 2024-10-10-0912
 ```
 Hey everyone,  
   
@@ -2372,7 +3550,7 @@ ocs/langchain-ragie)
 
      
  
-all -  [ How to get langchain stream data without logs? ](https://www.reddit.com/r/LangChain/comments/1fywf5i/how_to_get_langchain_stream_data_without_logs/) , 2024-10-09-0912
+all -  [ How to get langchain stream data without logs? ](https://www.reddit.com/r/LangChain/comments/1fywf5i/how_to_get_langchain_stream_data_without_logs/) , 2024-10-10-0912
 ```
  am using langchain and cohere. It works fine whenever i used `invoke` with agent executor, but whenever i moved for str
 eaming and using `astream_events` i got extra data along with the response. Following is my sample code and response.
@@ -2415,7 +3593,7 @@ I need only an Answer or Grounded answer.
 
      
  
-all -  [ Gemini 1.5 Pro 002 model API Memory Problem ](https://www.reddit.com/r/u_CurseofDarkness66/comments/1fyunw5/gemini_15_pro_002_model_api_memory_problem/) , 2024-10-09-0912
+all -  [ Gemini 1.5 Pro 002 model API Memory Problem ](https://www.reddit.com/r/u_CurseofDarkness66/comments/1fyunw5/gemini_15_pro_002_model_api_memory_problem/) , 2024-10-10-0912
 ```
 I am actually creating custom code for integrating GoogleGenerativeAI and Langchain - Retrieval chains but I am facing p
 roblem during chaining . I am passing Image as well as Question and Answer Content . I am storing in List as a previous 
@@ -2570,7 +3748,7 @@ n-wise from image'
 
      
  
-all -  [ Confused about unit-testing ](https://www.reddit.com/r/LangChain/comments/1fyolo3/confused_about_unittesting/) , 2024-10-09-0912
+all -  [ Confused about unit-testing ](https://www.reddit.com/r/LangChain/comments/1fyolo3/confused_about_unittesting/) , 2024-10-10-0912
 ```
 Does anyone has a framework to testing LLM applications? Im looking for a way of testing LangGraph apps as Im starting a
  new project and I need a quick way of running unit tests (as you would do with jest or mocka) but Im confused..
@@ -2590,7 +3768,7 @@ Any ideas?
 
      
  
-all -  [ open sourced parsers for pdf containing mathematical equations ](https://www.reddit.com/r/LangChain/comments/1fynscu/open_sourced_parsers_for_pdf_containing/) , 2024-10-09-0912
+all -  [ open sourced parsers for pdf containing mathematical equations ](https://www.reddit.com/r/LangChain/comments/1fynscu/open_sourced_parsers_for_pdf_containing/) , 2024-10-10-0912
 ```
 as the title says I am looking for the parsers for extracting the mathematical expressions from it. Any suggestions or r
 ecommendations would be really helpful!
@@ -2599,7 +3777,7 @@ ecommendations would be really helpful!
 
      
  
-all -  [ PgVector Vs Azure AI search Vs Pinecone Vs Weaviate  ](https://www.reddit.com/r/LangChain/comments/1fyk42u/pgvector_vs_azure_ai_search_vs_pinecone_vs/) , 2024-10-09-0912
+all -  [ PgVector Vs Azure AI search Vs Pinecone Vs Weaviate  ](https://www.reddit.com/r/LangChain/comments/1fyk42u/pgvector_vs_azure_ai_search_vs_pinecone_vs/) , 2024-10-10-0912
 ```
 Anyone have any idea on these ? And which one you would recommend ? 
 ```
@@ -2607,7 +3785,7 @@ Anyone have any idea on these ? And which one you would recommend ?
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1fyjcpk/list_of_free_and_best_selling_discounted_courses/) , 2024-10-09-0912
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1fyjcpk/list_of_free_and_best_selling_discounted_courses/) , 2024-10-10-0912
 ```
 # Udemy Free Courses for 07 October 2024
 
@@ -2779,7 +3957,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1fyjchx/list_of_free_and_best_selling_discounted_courses/) , 2024-10-09-0912
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1fyjchx/list_of_free_and_best_selling_discounted_courses/) , 2024-10-10-0912
 ```
 # Udemy Free Courses for 07 October 2024
 
@@ -2951,7 +4129,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https
 
      
  
-all -  [ NaturalAgents - notion-style editor to easily create AI Agents ](https://www.reddit.com/r/developer/comments/1fyfwbi/naturalagents_notionstyle_editor_to_easily_create/) , 2024-10-09-0912
+all -  [ NaturalAgents - notion-style editor to easily create AI Agents ](https://www.reddit.com/r/developer/comments/1fyfwbi/naturalagents_notionstyle_editor_to_easily_create/) , 2024-10-10-0912
 ```
 [NaturalAgents](https://github.com/NaturalAgents/NaturalAgents) is the easiest way to create AI Agents in a notion-style
  editor. It's no-code and enables anyone to build sophisticated agents. It's current in its MVP state, but it fully open
@@ -2976,4559 +4154,7 @@ ould love to hear thoughts and feel free to reach out if you're interested in co
 
      
  
-all -  [ Help needed for ML Resume ](https://www.reddit.com/r/learnmachinelearning/comments/1fyfo3r/help_needed_for_ml_resume/) , 2024-10-09-0912
-```
-**Hey everyone!**
-
-This is my first post here. I graduated with a Computer Science degree in May and have been applying 
-for ML/Data Science roles for the last 8 months using my current resume. I’ve been interning for over a year now and wou
-ld love some feedback. I have a few questions:
-
-1. Since all of my experience is from an internship, would it be okay to
- change my title to **Data Science Engineer** (I’ve been working full-time, but the company officially classifies me as 
-an intern to pay me less)?
-2. Are my **projects solid**? I haven’t updated my projects section in a while, and I’m wonde
-ring if my first full-stack project is still relevant. I also have several **MLOps and LLMOps projects** that I could ad
-d. Should I include them?
-3. Is it okay to **add additional projects**, or should I keep it concise?
-4. Is the **Extra-c
-urricular section** necessary for a Data Science/ML role?
-5. Any recommendations for **skills** or **certifications** I 
-should focus on? I’m currently doing the **AWS AI Practitioner course** but would appreciate more suggestions.
-
-Thanks i
-n advance for your help!
-
-https://preview.redd.it/nqsn96sttdtd1.png?width=755&format=png&auto=webp&s=9e6e27593aebb13a26d
-e3479e236a3c3c5e3b840
-
-
-```
----
-
-     
- 
-all -  [ Engineer interested in applying ai ](https://www.reddit.com/r/LangChain/comments/1fydav8/engineer_interested_in_applying_ai/) , 2024-10-09-0912
-```
-Have been a silent follower and a fan of this page.
-Although I have read some threads , il admit things go over my head,
- an engineer fullstack , with exposure to ai as querying gpt.
-I realise that ai has matured in a way as if we can use ai
- and connect it with various workflows to achieve interesting things , find answers ,help us figure out the questions.
-I
- want to understand how I can connect ai to stuff, I understand langchain is what I gotta nlknow, but what else should I
- know.
-Can the forum here please share references, of articles , blogs u think I should know as someone getting started 
-today with a fresh mind.
-Thank you for reading till here, do leave a comment
-```
----
-
-     
- 
-all -  [ Indexing 200 page book ](https://www.reddit.com/r/LangChain/comments/1fybevr/indexing_200_page_book/) , 2024-10-09-0912
-```
-Hi! I am new to RAG and I want to create an application in which I have to use RAG from 200 page book but I am not sure 
-how to chunk and index this book, can anyone please give me resources on how I can effectively chunk and index the book?
- Thanks!
-```
----
-
-     
- 
-all -  [ Challenge of AI project for myself (Facing a problem)  ](https://www.reddit.com/r/LocalLLaMA/comments/1fyb5t0/challenge_of_ai_project_for_myself_facing_a/) , 2024-10-09-0912
-```
-Hi guys, so I will cut to the chase. I am new with AI field and it's ny holiday so I'm learning a bit (completed NLP til
-l BERT and GPT). 
-
-Since it's a holidays for me till next semester I'm trying to make an AI that can talk to various dat
-aset (able to did with csv, excel,  .db). I'm using the groqcloud api woth langchain library in python since its a bit f
-ree till now and using llama 3.0 8192 model which was wokring better than 3.1 for me (my personal experience). I wont sa
-y Im satisfied but it works. P.S: I tried Ollama Llama 3.0 8B but it works in terminal well but if I make a python scrip
-t and do api call it takes me 7mins to respond to me for 'Hello' in my potato laptop or might just be my learning was du
-mb. 
-
-I would really like an advice on this for my mistakes. (my potato laptop is intel core i7).
-
-Lastly, I'm saving th
-e datasets on my  sqlite file. I do need to work to make it in cloud but am a but lazy and dumb. Most importantlyI need 
-a suggestions on which backend is a good choice to save the user's chat. Because I implemented the edit feature and sinc
-e I have to save both previous responses and the chat corresponding to all edit version. So would like to get some advic
-e on that. My project setup right now is NextJS, python with flask api ans SQLite.
-```
----
-
-     
- 
-all -  [ Create AI agents with plain english in a Notion-style editor ](https://www.reddit.com/r/nocode/comments/1fyad93/create_ai_agents_with_plain_english_in_a/) , 2024-10-09-0912
-```
-Hi folks! 
-
-I'm building an open source notion-style editor to easily create and run Agentic workflows. This is an MVP o
-f sorts but will be actively building and maintaining. [Check out the repo](https://github.com/NaturalAgents/NaturalAgen
-ts)
-
-How this is different from other agent builders - 
-
-1. No boilerplate code (imagine langchain for multiple agents)
-
-2. No code experience
-3. Can easily share and build with others
-4. Readable/organized agent outputs
-5. Abstracts agent c
-ommunications without visual complexity (image large drag and drop flowcharts)
-
-
-
-Would love to hear thoughts and feel f
-ree to reach out if you're interested in contributing!
-```
----
-
-     
- 
-all -  [ Automating my todoist task using Langgraph ](https://www.reddit.com/r/LangChain/comments/1fy9ywr/automating_my_todoist_task_using_langgraph/) , 2024-10-09-0912
-```
-I am planning to make a AI agent that automatically add the task to my to do list application. For this I need to attach
- the external tool like todoist (that I am using) to my agent but when I tried to search for todoist in langchain or and
- Langgraph tool I didn't find any, so do I need to create a custom tools for it like hardcode the code for CRUD (Create,
- Read, Update, Delete) or is there any other inbuilt library that I might not aware of? 
-```
----
-
-     
- 
-all -  [ Why is this taking so long?  ](https://www.reddit.com/r/Neo4j/comments/1fy840y/why_is_this_taking_so_long/) , 2024-10-09-0912
-```
-I'm digesting a .txt (less than 100kb) document using the following code.  
-
-My neo4j instance is active.    
-  
-The db 
-part of the code has taken 4 hours of running so far.  
-
-    from langchain_community.document_loaders import TextLoader
-
-    from langchain_text_splitters import CharacterTextSplitter
-    
-    loader = TextLoader('text.txt')
-    
-    docume
-nts = loader.load()
-    text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
-    docs = text_splitter
-.split_documents(documents)
-    
-
-    from langchain_community.document_loaders import TextLoader
-    from langchain_tex
-t_splitters import CharacterTextSplitter
-    
-    loader = TextLoader('text.txt')
-    
-    documents = loader.load()
-   
- text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
-    docs = text_splitter.split_documents(docume
-nts)
-    
-
-    db = Neo4jVector.from_documents(
-        docs, ollama_emb, url=url, username=username, password=password
-
-    )
-```
----
-
-     
- 
-all -  [ [For Hire] Programmer/Web Developer/IT Consultant (Python, PHP, AI, etc.) ](https://www.reddit.com/r/forhire/comments/1fy5s0i/for_hire_programmerweb_developerit_consultant/) , 2024-10-09-0912
-```
-To get in contact, please message me, I don't use the chat thing and might miss you or reply very late. Then we can swit
-ch to email/discord/telegram or whatever else. Apologies for starting with this, but many missed it when it was lower.
-
-
-I'm a programmer/web developer with 15 years of professional experience. I am available for all sorts of programming and
- web development tasks.
-
-I also offer consulting services. If you need something done, but don't know how exactly, I can
- help. I'm an excellent researcher and I communicate well. I will work with you to find the best solution for your probl
-em.
-
-My services include, but are not limited to:
-
-* websites
-
-* desktop applications
-
-* AI integration (chatGPT API, la
-ngchain, whatever else turns up)
-
-* integration with APIs and other webservices
-
-* all kinds of scripts
-
-* task automati
-on
-
-* website optimization
-
-* debugging
-
-* plugins for existing software
-
-* bots (Reddit, Telegram, etc)
-
-* code audits
-
-
-If you're looking for someone to take care of a variety of different tasks, I can offer continuous support.
-
-My preferr
-ed environment is Python with Django, but I work with anything Python or PHP based. I have no problem with learning new 
-technologies that are needed for the project.
-
-Rate is $50/h.
-
-Portfolio:
-
-https://bdabkowski.yum.pl
-
-Satisfied customer
-s:
-
-https://www.reddit.com/r/testimonials/comments/2e8gqy/pos_uqui_need_a_backend_web_dev_look_no_further/
-
-https://www.
-reddit.com/r/testimonials/comments/7fsdze/pos_hiring_uqui_was_an_example_of_how_it_should/
-
-https://www.reddit.com/r/tes
-timonials/comments/80pu9l/pos_uqui_great_work_detailed_and_fast/
-
-https://www.reddit.com/r/testimonials/comments/b0nx68/
-uqui_is_a_hardworking_intelligent_honest_apps/
-
-https://www.reddit.com/r/testimonials/comments/j3mz3p/uqui_is_a_great_we
-b_development_consultant_with/
-
-https://www.reddit.com/r/testimonials/comments/v40ay3/pos_uqui_is_a_great_backend_dev_to
-_work_with/
-
-Please note: I am not a designer. To make it clear, it means zero aesthetic sense.
-```
----
-
-     
- 
-all -  [ Optimizing Prompt Usage for Search Agent with DSPy and Argilla** ](https://www.reddit.com/r/LocalLLaMA/comments/1fy2eqy/optimizing_prompt_usage_for_search_agent_with/) , 2024-10-09-0912
-```
-Hey LocalLLama
-
-I’ve been working on optimizing an **ArXiv agent** using **DSPy**, **Langchain tools**, and **Argilla**.
- If you’re trying out agent this is a useful notebook.
-
-### The Problem
-I built an agent to search ArXiv papers and answ
-er questions using the ArXiv API. The key challenge here was **optimizing prompt usage** to make the agent better when f
-etching relevant answers from papers. 
-
-I also found that it was difficult to review the responses because the papers ar
-e long and detailed. Using a proper UI meant I could review in detail
-
----
-
-### **How It Works:**
-
-1. **Agent Setup**: I
- used **DSPy** to define a question-answer signature. The agent can now take in a paper ID and a question, then retrieve
- answers from ArXiv using the tool.
-
-2. **Tool Interaction**: I gave it access to the **ArXiv API** as a tool. It search
-es for the correct paper and extracts the necessary info.
-
-3. **Optimization with AvatarOptimizer**: I optimized how the
- agent **structures prompts** to the ArXiv API, so it better understands how to extract relevant answers. The **AvatarOp
-timizer** from DSPy helps improve tool usage, making the agent more efficient and accurate.
-
-4. **Evaluating in Argilla*
-*: To see the impact of optimization, I reviewed both the original and optimized versions of the agent in **Argilla**, w
-here I compared their outputs and ranked them.
-
----
-
-### **Results:**
-After prompt optimization, the agent was better at
- understanding questions and extracting accurate, relevant information from ArXiv. The optimized prompts made a big diff
-erence in the agent’s performance.
-
----
-
-If you’re interested in building tool-using agents or optimizing prompts for AP
-Is, give it a try with DSPy! You can find the example [here](https://github.com/argilla-io/argilla-cookbook/blob/main/ds
-py_agent_arxiv_tools_prompt_optimization.ipynb). Feel free to ask any questions or share feedback!
-
-
-```
----
-
-     
- 
-all -  [ Automatically optimise your agent and RAG prompts with Avatar, DSPy, and Argilla ](https://www.reddit.com/r/LLMDevs/comments/1fy2dca/automatically_optimise_your_agent_and_rag_prompts/) , 2024-10-09-0912
-```
-Hey all! 👋
-
-Just wanted to share something cool I’ve been working on — optimizing an agent to search and analyze papers 
-from ArXiv using DSPy, Langchain, and Argilla. If you're into AI or NLP, this might interest you. 
-
-Here's the gist:
-
-# 
-What It’s About:
-
-I created a tool-using agent that can search ArXiv, grab papers, and answer questions about them. Usin
-g DSPy, we optimized how the agent uses tools (like the ArXiv API) to get better, faster results.
-
-# How It Works:
-
-1. S
-et up DSPy with Llama models to handle language tasks and interact with the ArXiv API.
-2. Train the agent using a QA dat
-aset from ArXiv papers (with a small subset for speed).
-3. Optimize with AvatarOptimizer, improving how the agent uses t
-ools to handle questions more effectively.
-4. Test in Argilla by comparing the original and optimized versions of the ag
-ent to see which performs better.
-
-# Results:
-
-After optimization, the agent was more accurate in retrieving and answeri
-ng questions from ArXiv. The improvements were clear when tested head-to-head!
-
-If you’re interested in trying it out, c
-heck out the [DSPy example notebook](https://github.com/argilla-io/argilla-cookbook/blob/main/dspy_agent_arxiv_tools_pro
-mpt_optimization.ipynb). Would love to hear your feedback!
-```
----
-
-     
- 
-all -  [ I want LLM to return output in JSON format without giving it a schema  ](https://www.reddit.com/r/LangChain/comments/1fy1yjq/i_want_llm_to_return_output_in_json_format/) , 2024-10-09-0912
-```
-Hi all , I'm working on a usecase where I want the LLM to return the output in JSON format .  
-But I don't want to limit
- the number of keys , I don't want to define a schema .
-
-The workflow for my usecase is something like :
-
-1. LLM receive
-s a summary text .
-2. LLM has to find the key values from the text and return all those in a json format ( key-value pai
-r )
-3. There can be any number and type of keywords and their values for a given summary text .
-
-I'm using Langchain.js 
-, how can I build such a workflow ? what are the components that will be needed ?
-```
----
-
-     
- 
-all -  [ October 6, 2024 - 367 Free It Software Udemy Courses ](https://www.reddit.com/r/udemyfreebies/comments/1fxrjul/october_6_2024_367_free_it_software_udemy_courses/) , 2024-10-09-0912
-```
-1. CompTIA Security+ (SY0-701) Practice Test: Boost Your Exam
-
-https://www.easylearn.ing/course/sy0-701-exam-preparation
-
-
-
-
-2. QuickBooks Online (QBO) Bookkeeping With Bank Feeds
-
-https://www.easylearn.ing/course/quickbooks-online-bank-feed
-s-course
-
-
-
-3. AutoCAD Electrical 2024: A Tutorial Series
-
-https://www.easylearn.ing/course/autocad-electrical-2024-tuto
-rial
-
-
-
-4. Certified Artificial Intelligence Practical Exam Preparation
-
-https://www.easylearn.ing/course/ai-certificati
-on-prep-course
-
-
-
-5. Advanced Python : Boost Your Career & Earning & FREE eBook!
-
-https://www.easylearn.ing/course/advan
-ced-python-course
-
-
-
-6. VMware Cloud Foundation Administrator 2024 Practice Exam
-
-https://www.easylearn.ing/course/vmwar
-e-cloud-foundation-administrator-exam-prep
-
-
-
-7. Learn Cyber Security From Scratch: Practical Guide
-
-https://www.easylea
-rn.ing/course/learn-cyber-security-online
-
-
-
-8. PSPO II - Product Owner Level II (PSPO 2) Mock Exams
-
-https://www.easyle
-arn.ing/course/pspo-ii-mock-exams
-
-
-
-9. SPS - Scaled Scrum - Nexus - Certification Practice Exams
-
-https://www.easylearn
-.ing/course/scaled-scrum-nexus-practice-exams
-
-
-
-10. Learn Arduino by Building 26 Projects!
-
-https://www.easylearn.ing/c
-ourse/arduino-projects
-
-
-
-11. MS Certified: Azure Developer Associate AZ-204 Practice exam
-
-https://www.easylearn.ing/co
-urse/az-204-practice-exams
-
-
-
-12. Master the Terraform Associate (003) Certification Exam
-
-https://www.easylearn.ing/cou
-rse/terraform-associate-exam-preparation
-
-
-
-13. Preparing for CKA: Mastering Kubernetes Deep Dive
-
-https://www.easylearn
-.ing/course/kubernetes-cka-certification
-
-
-
-14. AWS Solutions Architect Associate Prep: Practice Tests
-
-https://www.easy
-learn.ing/course/saa-c03-practice-exam-questions
-
-
-
-15. Veeam Certified Architect (VMCA) v12.1 | Practice Exams 2024
-
-ht
-tps://www.easylearn.ing/course/veeam-certified-architect-vmca-v12-1-practice-exams
-
-
-
-16. DevOps for Data Scientists: Co
-ntainers for Data Science
-
-https://www.easylearn.ing/course/data-science-devops-course
-
-
-
-17. Mastering Time Series Anal
-ysis and Forecasting with Python
-
-https://www.easylearn.ing/course/arima-sarima-python
-
-
-
-18. Accounting Certification E
-xam , Odoo 17 Certification
-
-https://www.easylearn.ing/course/odoo-17-accounting-certification-course
-
-
-
-19. Curso De Py
-thon 3 Desde Cero Para Novatos
-
-https://www.easylearn.ing/course/curso-python-3-cero-novatos
-
-
-
-20. Python Certification
- - The Next Level Python
-
-https://www.easylearn.ing/course/python-certification-hindi
-
-
-
-21. Python Project for Basics D
-ata Analysis
-
-https://www.easylearn.ing/course/data-analysis-with-python-project
-
-
-
-22. Become SAP Ariba Certified Consu
-ltant Spend Analysis
-
-https://www.easylearn.ing/course/sap-ariba-spend-analysis-course
-
-
-
-23. Photoshop Express - Master
-ing Adobe Photoshop In 2 Hours
-
-https://www.easylearn.ing/course/photoshop-express-course
-
-
-
-24. Veeam Certified Archite
-ct (VMCA) v12.1 Practice Exam - 2024
-
-https://www.easylearn.ing/course/veeam-certified-architect-vmca-v12-1-practice-exa
-m
-
-
-
-25. DP-900 Microsoft Azure Data Fundamentals Certification Exams
-
-https://www.easylearn.ing/course/dp-900-certifica
-tion
-
-
-
-26. Transform Your Arduino into Automatic Coin Operated Machine
-
-https://www.easylearn.ing/course/arduino-weight
--machine
-
-
-
-27. PIC Microcontroller: Garage Door System Ultrasonic Sensor
-
-https://www.easylearn.ing/course/garage-door-
-system-pic-microcontroller
-
-
-
-28. AI-900 Azure AI Fundamentals
-
-https://www.easylearn.ing/course/ai-900-practice-questio
-ns
-
-
-
-29. Azure Developer Associate AZ-204
-
-https://www.easylearn.ing/course/azure-developer-associate-az-204-practice-t
-ests
-
-
-
-30. Microsoft Azure Data Fundamentals DP900 Practice
-
-https://www.easylearn.ing/course/azure-data-fundamentals-d
-p900-practice-tests
-
-
-
-31. Oracle Cloud Infrastructure Architect Professional - Exams
-
-https://www.easylearn.ing/course/
-oracle-cloud-infrastructure-architect-professional-exam-prep
-
-
-
-32. AWS Certified DevOps Engineer Professional Practice 
-Exams
-
-https://www.easylearn.ing/course/aws-devops-engineer-professional-practice-exams
-
-
-
-33. Microsoft Certified: Azur
-e Security Engineer Associate Exams
-
-https://www.easylearn.ing/course/azure-security-engineer-associate-certification
-
-
-
-
-34. Salesforce Certified Platform Developer II - Mock Exams
-
-https://www.easylearn.ing/course/salesforce-platform-devel
-oper-ii-mock-exams
-
-
-
-35. Super way to Learn Arduino | Creative
-
-https://www.easylearn.ing/course/learn-arduino-programm
-ing
-
-
-
-36. Reverse Engineering 4: Software Protection
-
-https://www.easylearn.ing/course/reverse-engineering-software-pro
-tection
-
-
-
-37. MS-900: Microsoft 365 Certified: Fundamentals - Mock Exams
-
-https://www.easylearn.ing/course/ms-900-pract
-ice-exams
-
-
-
-38. DP-900: Azure Data Fundamentals DP900 Practice Test Oct 2024
-
-https://www.easylearn.ing/course/dp-900-p
-ractice-tests
-
-
-
-39. Complete Network Hacking Course 2024 - Beginner to Advanced
-
-https://www.easylearn.ing/course/wifi-
-hacking-course
-
-
-
-40. Brain computer interface with deep learning
-
-https://www.easylearn.ing/course/brain-computer-inter
-face-deep-learning
-
-
-
-41. 500+ SAS Interview Questions Practice Test
-
-https://www.easylearn.ing/course/sas-interview-que
-stions-practice-test
-
-
-
-42. Ultimate PRTG Network Monitoring with Full Lab GNS3
-
-https://www.easylearn.ing/course/prtg-n
-etwork-monitoring-course
-
-
-
-43. NodeJS Masterclass (Express, MongoDB, OpenAI) - 2024 Ready!
-
-https://www.easylearn.ing/c
-ourse/nodejs-masterclass
-
-
-
-44. Flutter Masterclass (Dart, APIs, Firebase & More) - 2024
-
-https://www.easylearn.ing/cour
-se/flutter-course-2024
-
-
-
-45. AI-900 Azure AI Fundamentals Practice Tests | Azure AI 2024
-
-https://www.easylearn.ing/cou
-rse/ai-900-azure-ai-fundamentals-practice-tests
-
-
-
-46. AZ-900 Practice Tests for Microsoft Azure Fundamentals 2024
-
-http
-s://www.easylearn.ing/course/azure-fundamentals-exam-prep
-
-
-
-47. AZ-400 Practice Tests: Microsoft Azure DevOps Solutions
- Exam
-
-https://www.easylearn.ing/course/microsoft-azure-devops-solutions-exam
-
-
-
-48. Azure AI-050: Generative AI Solutio
-ns with Azure OpenAI
-
-https://www.easylearn.ing/course/azure-ai-fundamentals-generative-ai
-
-
-
-49. AI-102 Microsoft Azure
- AI Engineer Associate Exam
-
-https://www.easylearn.ing/course/ai-102-exam-preparation
-
-
-
-50. Ms Certified: Azure AI Fund
-amentals AI-900 Practice Exam
-
-https://www.easylearn.ing/course/azure-ai-fundamentals-ai-900-exam-prep
-
-
-
-51. AZ-900 - M
-icrosoft Azure Fundamentals - شرح بالعربي
-
-https://www.easylearn.ing/course/az-900-azure-fundamentals-arabic
-
-
-
-52. CISC
-O CCNA 200-301 Practice Exams (6) + Explanations
-
-https://www.easylearn.ing/course/cisco-ccna-200-301-practice-exams
-
-
-
-
-53. CompTIA Security+ 701 Practice Exam (2024)
-
-https://www.easylearn.ing/course/sy0-701-practice-test
-
-
-
-54. Web-Based 
-Embedded System Simulator
-
-https://www.easylearn.ing/course/web-based-embedded-simulator
-
-
-
-55. CompTia Network+ N10-009
- Practice Exam (2024)
-
-https://www.easylearn.ing/course/comptia-network-plus-n10-009-practice-exam
-
-
-
-56. Arduino Home S
-ecurity System
-
-https://www.easylearn.ing/course/arduino-home-security-system
-
-
-
-57. Debugging Javascript / NodeJS
-
-http
-s://www.easylearn.ing/course/javascript-debugging-course
-
-
-
-58. Python desde Principiante hasta Nivel Ingeniería
-
-https:
-//www.easylearn.ing/course/curso-python-principiante-profesional
-
-
-
-59. \[DEA-C01 | ARA-C01\] Snowflake Advanced Certifi
-cation Prep
-
-https://www.easylearn.ing/course/snowflake-advanced-certification-prep
-
-
-
-60. CISSP Certification exam - Se
-curity Professional 2024 Part 1
-
-https://www.easylearn.ing/course/cissp-certification-exam-prep
-
-
-
-61. Python Programmin
-g Language (Practice Projects)
-
-https://www.easylearn.ing/course/practical-python-projects
-
-
-
-62. DP-600 Certification M
-icrosoft Fabric - Tests Pratiques 2024
-
-https://www.easylearn.ing/course/microsoft-fabric-dp-600-certification
-
-
-
-63. An
-tivirus Evasion - Hard Core
-
-https://www.easylearn.ing/course/antivirus-evasion-masterclass
-
-
-
-64. AWS Certified Solutio
-n Architect Associate  SAA-C03 \[HINDI\]
-
-https://www.easylearn.ing/course/aws-certified-solutions-architect-associate-s
-aa-c03-exam-prep-hindi
-
-
-
-65. AWS Certified SysOps Administrator Associate SOA-C02 \[2024\]
-
-https://www.easylearn.ing/c
-ourse/aws-sysops-administrator-associate-soa-c02-certification
-
-
-
-66. Beginner's Exam Practice Guide for SHRM-SCP Certif
-ication
-
-https://www.easylearn.ing/course/shrm-scp-exam-practice-guide
-
-
-
-67. DevOps Bootcamp: CI/CD, Automation, and Cl
-oud Mastery\[Hindi\]
-
-https://www.easylearn.ing/course/devops-bootcamp-hindi
-
-
-
-68. AWS Certified SysOps Administrator A
-ssociate SOA-C02 \[HINDI\]
-
-https://www.easylearn.ing/course/aws-sysops-administrator-associate-soa-c02-exam-prep-hindi
-
-
-
-
-69. Ultimate AWS Certified Solutions Architect Associate SAA-C03
-
-https://www.easylearn.ing/course/aws-certified-solu
-tions-architect-associate-saa-c03
-
-
-
-70. Introduction to Linux Shell Scripting in Hindi
-
-https://www.easylearn.ing/cours
-e/linux-shell-scripting-hindi
-
-
-
-71. Securing Your Ubuntu Environment: Best Practices
-
-https://www.easylearn.ing/course/
-ubuntu-security-guide
-
-
-
-72. Ethical Hacking: Crypto 101
-
-https://www.easylearn.ing/course/ethical-hacking-cryptography
-
-
-
-
-73. Learn Advanced RAG : Vector to Graph RAG wth LangChain Neo4j
-
-https://www.easylearn.ing/course/rag-course
-
-
-
-74. 
-5 Real-Time Use Cases using Machine Learning
-
-https://www.easylearn.ing/course/real-world-machine-learning
-
-
-
-75. AWS Ce
-rtified Data Engineer Associate DEA-C01 Practice Exam
-
-https://www.easylearn.ing/course/aws-data-engineer-associate-prac
-tice-exam
-
-
-
-76. \[NEW\] Salesforce Certified AI Associate | Practice Exams
-
-https://www.easylearn.ing/course/salesforce
--certified-ai-associate-practice-exams
-
-
-
-77. Aprende Hacking Ético: Protege y Penetra Redes
-
-https://www.easylearn.ing/
-course/cybersecurity-expert
-
-
-
-78. Veeam Certified Engineer (VMCE v12) - Exam Practice Tests 24
-
-https://www.easylearn.i
-ng/course/veeam-vmce-v12-certification
-
-
-
-79. Visualizing Sensors Data
-
-https://www.easylearn.ing/course/sensor-data-vis
-ualization-esp32
-
-
-
-80. Line Follower Robot: Master Robotics with Precision and Code
-
-https://www.easylearn.ing/course/l
-ine-follower-robot-arduino
-
-
-
-81. Python Design Patterns: Complete Guide \[2024 Edition\]
-
-https://www.easylearn.ing/cou
-rse/python-design-patterns-mastery
-
-
-
-82. DevOps Bootcamp: CI/CD, Automation, and Cloud Mastery
-
-https://www.easylearn.i
-ng/course/devops-bootcamp
-
-
-
-83. DevOps : CI/CD with Jenkins in Hindi
-
-https://www.easylearn.ing/course/devops-jenkins-c
-ourse-hindi
-
-
-
-84. Ansible for the Absolute Beginner - DevOps in Hindi
-
-https://www.easylearn.ing/course/ansible-devops-
-beginner-hindi
-
-
-
-85. Learn DevOps: Infrastructure Automation With Terraform\[2024\]
-
-https://www.easylearn.ing/course/l
-earn-terraform-aws-infrastructure-automation
-
-
-
-86. AWS Certified Solution Architect-Associate Practice Tests
-
-https://w
-ww.easylearn.ing/course/aws-certified-solutions-architect-associate-practice-tests
-
-
-
-87. Introduction to SafeTest - A N
-etflix-backed Automation Tool
-
-https://www.easylearn.ing/course/safetest-course
-
-
-
-88. Get Started with Salesforce - For
- Absolute beginners
-
-https://www.easylearn.ing/course/salesforce-beginner-course
-
-
-
-89. AWS Certified Data Engineer - As
-sociate (DEA-C01) Exam Guide
-
-https://www.easylearn.ing/course/aws-certified-data-engineer-associate-practice-exams
-
-
-
-9
-0. Mastering the AWS Certified AI Practitioner Exam
-
-https://www.easylearn.ing/course/aif-c01-practice-questions
-
-
-
-91. 
-Ms Azure Administrator Associate - AZ-104 Practice Exam
-
-https://www.easylearn.ing/course/az-104-practice-exams
-
-
-
-92. 1
-500 New CompTIA IT Fundamentals ITF+ FC0-U61 Practice Exams
-
-https://www.easylearn.ing/course/comptia-it-fundamentals-pr
-actice-exams
-
-
-
-93. Certified Kubernetes Security Specialist Masterclass
-
-https://www.easylearn.ing/course/kubernetes-se
-curity-specialist-training
-
-
-
-94. AWS Certified Cloud Practitioner
-
-https://www.easylearn.ing/course/aws-cloud-fundament
-als
-
-
-
-95. FOCP Exam: Dominate with Practice & Expertise (2024 Edition)
-
-https://www.easylearn.ing/course/focp-exam-prac
-tice-tests
-
-
-
-96. Comprehensive ISTQB Foundation Level Exam Certification Prep
-
-https://www.easylearn.ing/course/istqb-f
-oundation-level-exam-prep
-
-
-
-97. Ultimate ISTQB AI Testing Exam Certification 2024
-
-https://www.easylearn.ing/course/ist
-qb-ai-testing-certification-exam
-
-
-
-98. PSK I : Professional Scrum with Kanban Test - Exam 2024
-
-https://www.easylearn.i
-ng/course/psk-i-exam-prep
-
-
-
-99. PSPO 1 Exam+1200QS & Explanations
-
-https://www.easylearn.ing/course/pspo-1-exam-prep
-
-
-
-
-100. Certified Scrum Master Certification - CSM - Practice Tests
-
-https://www.easylearn.ing/course/csm-exam-prep-course
-
-
-
-
-101. ASQ Certification Exam Prep: 6 Practice Tests
-
-https://www.easylearn.ing/course/asq-certification-exam-prep
-
-
-
-
-102. Scaled Professional Scrum ( SPS ) Exam - Test 2024
-
-https://www.easylearn.ing/course/scaled-professional-scrum-sps-
-exam-preparation
-
-
-
-103. PSPO 2 -Product Owner Level 2 Practice Exam - Test 2024
-
-https://www.easylearn.ing/course/pspo-
-2-practice-exams
-
-
-
-104. Master FOCP Exam Prep: 6 Updated Practice Tests
-
-https://www.easylearn.ing/course/focp-exam-pre
-p-course
-
-
-
-105. ITIL 4 DPI Exam Success Guide: 6 Practice Tests\\Questions
-
-https://www.easylearn.ing/course/itil-4-dpi
--certification-exam-prep
-
-
-
-106. Ultimate AMLS Exam Prep: 6 Practice Tests
-
-https://www.easylearn.ing/course/amls-exam-p
-rep
-
-
-
-107. CSM Exam+600QS & Explanations
-
-https://www.easylearn.ing/course/csm-exam-practice-tests
-
-
-
-108. ITIL 4 HVIT 
-Exam Mastery: 6 Practice Tests & Explanations
-
-https://www.easylearn.ing/course/itil-4-hvit-certification-exam
-
-
-
-109. P
-rofessional Agile Leadership Exam +1200 Questions
-
-https://www.easylearn.ing/course/professional-agile-leadership-exam
-
-
-
-
-110. 6 Updated Practice Tests: IASSC Exam Prep \[2024\]
-
-https://www.easylearn.ing/course/iassc-exam-prep-2024
-
-
-
-111.
- P3O Certification Exam Prep: 6 Practice Tests \[2024\]
-
-https://www.easylearn.ing/course/p3o-practice-tests
-
-
-
-112. Odo
-o 17 Certification Exam Preparation
-
-https://www.easylearn.ing/course/odoo-17-certification-exam-preparation
-
-
-
-113. MSP
- Certification Exam Prep: 6 Practice Tests
-
-https://www.easylearn.ing/course/msp-exam-practice-tests
-
-
-
-114. Master the 
-SPS Exam 2024: Comprehensive Certification Prep
-
-https://www.easylearn.ing/course/sps-exam-prep-course
-
-
-
-115. Scrum Dev
-eloper Certification - PSD -  Practice Test - Exams
-
-https://www.easylearn.ing/course/psd-exam-practice-tests
-
-
-
-116. IT
-IL 4 CDS Exam Prep: 6 Full Practice Tests with & Questions
-
-https://www.easylearn.ing/course/itil-4-cds-exam-prep
-
-
-
-117
-. Salesforce Advanced Administrator ADM-301 Mock Exams | 2024
-
-https://www.easylearn.ing/course/salesforce-advanced-admi
-nistrator-adm-301-practice-exams
-
-
-
-118. Blueprint For Successful  Microservices & API Implementation
-
-https://www.easyl
-earn.ing/course/microservices-api-deployment-declarative-configuration
-
-
-
-119. Comprehensive C# Programming Practice Tes
-t: Code Mastery
-
-https://www.easylearn.ing/course/c-sharp-programming-practice-test
-
-
-
-120. Salesforce Marketing Cloud E
-mail/Admin/Consultant Training
-
-https://www.easylearn.ing/course/salesforce-marketing-cloud-certification-training
-
-
-
-12
-1. Python for Scientific Research
-
-https://www.easylearn.ing/course/python-for-scientific-research
-
-
-
-122. AWS Certified
- Machine Learning Engineer - Associate | Exams
-
-https://www.easylearn.ing/course/aws-certified-machine-learning-engineer
--associate-exam-prep
-
-
-
-123. Master CDPSE: Certified Data Privacy Solutions Engineer
-
-https://www.easylearn.ing/course/c
-dpse-certification-course
-
-
-
-124. Network Mastery for Ethical Hackers
-
-https://www.easylearn.ing/course/ethical-hacking-
-network-security
-
-
-
-125. Burp Suite Mastery: From Beginner to Advanced
-
-https://www.easylearn.ing/course/burp-suite-mast
-ery
-
-
-
-126. PMI-PBA Exam Ready: Practice Tests for Business Analysts
-
-https://www.easylearn.ing/course/pmi-pba-exam-prep
-
-
-
-
-127. Word Wizard : Using Microsoft Word Like a Pro in 2024
-
-https://www.easylearn.ing/course/word-for-beginners-adva
-nced
-
-
-
-128. Practice Tests | AWS Certified Solutions Architect Associate
-
-https://www.easylearn.ing/course/aws-solution
-s-architect-associate-practice-tests
-
-
-
-129. ChatGPT & IA : Formation complète ChatGPT, Dall-e
-
-https://www.easylearn.in
-g/course/chatgpt-formation-complete
-
-
-
-130. \[New\]  VMware Certified Professional - VCP-DTM Practice Exam
-
-https://www.
-easylearn.ing/course/vcp-dtm-practice-exams
-
-
-
-131. New Microsoft AZ-900: Microsoft Azure Fundamentals Practice
-
-https:/
-/www.easylearn.ing/course/azure-fundamentals-practice-tests
-
-
-
-132. \[New\] - AZ-104 Microsoft Azure Administrator-Pract
-ice Test
-
-https://www.easylearn.ing/course/microsoft-azure-administrator-practice-exams
-
-
-
-133. Google Cloud Network Eng
-ineer (PCNE) Full Practice Exams
-
-https://www.easylearn.ing/course/google-cloud-network-engineer-pcne-certification
-
-
-
-1
-34. SC-400 Certification Challenge: Essential Practice Tests
-
-https://www.easylearn.ing/course/sc-400-certification-prac
-tice-tests
-
-
-
-135. Mastering GitLab Building Continuous Integration Pipelines
-
-https://www.easylearn.ing/course/gitlab-c
-i-cd-course
-
-
-
-136. AWS Certified DevOps Engineer - Professional DOP-C02
-
-https://www.easylearn.ing/course/aws-devops-en
-gineer-professional-dop-c02-practice-exam
-
-
-
-137. Windows 10 Services Administration and Troubleshooting
-
-https://www.ea
-sylearn.ing/course/windows-10-services-administration
-
-
-
-138. CCNA (Cisco Certified Network Associate) Practice Exams 20
-24
-
-https://www.easylearn.ing/course/ccna-practice-exams
-
-
-
-139. CompTIA A+ Pro-Level Exam Practice: 1500 Questions
-
-htt
-ps://www.easylearn.ing/course/comptia-a-plus-practice-exam
-
-
-
-140. CompTIA ITF+ Ultimate Exam Guide: Practice Questions
-
-
-https://www.easylearn.ing/course/comptia-itf-plus-practice-tests
-
-
-
-141. CompTIA Security+ Practice Exams: Questions & 
-Answers
-
-https://www.easylearn.ing/course/comptia-security-plus-certification-prep
-
-
-
-142. Exam Prep for CompTIA Network
-+ 2024
-
-https://www.easylearn.ing/course/comptia-network-plus-certification-prep
-
-
-
-143. Salesforce Marketing Cloud Deve
-loper: Practice Exams
-
-https://www.easylearn.ing/course/salesforce-marketing-cloud-developer-certification
-
-
-
-144. GCP G
-oogle Associate Cloud Engineer: Certification Prep
-
-https://www.easylearn.ing/course/gcp-associate-cloud-engineer-certif
-ication-prep
-
-
-
-145. GCP Cloud Data Engineer: Ultimate Certification Prep
-
-https://www.easylearn.ing/course/gcp-cloud-da
-ta-engineer-certification
-
-
-
-146. Ultimate Exam Guide for Test Automation Engineer
-
-https://www.easylearn.ing/course/tes
-t-automation-engineer-certification
-
-
-
-147. Salesforce Associate Certification: 6 Full Practice Exams
-
-https://www.easyl
-earn.ing/course/salesforce-associate-practice-exams
-
-
-
-148. Complete Exam Preparation for Automotive Software Tester
-
-ht
-tps://www.easylearn.ing/course/automotive-software-tester-certification-course
-
-
-
-149. Salesforce Marketing Cloud Admini
-strator: Practice Tests
-
-https://www.easylearn.ing/course/salesforce-marketing-cloud-administrator-practice-tests
-
-
-
-150
-. AWS Certified Developer Associate Practice Exams
-
-https://www.easylearn.ing/course/aws-developer-associate-practice-te
-sts
-
-
-
-151. Ultimate GCP Cloud DevOps Engineer Exam Preparation
-
-https://www.easylearn.ing/course/gcp-cloud-devops-engin
-eer-exam-preparation
-
-
-
-152. Study Guide for Mobile Application Tester
-
-https://www.easylearn.ing/course/mobile-app-test
-er-certification
-
-
-
-153. Complete Exam Preparation for Advanced Level Test Analyst
-
-https://www.easylearn.ing/course/adv
-anced-level-test-analyst-certification
-
-
-
-154. GCP Cloud Developer Exam Prep with Multi Practice Questions
-
-https://www.
-easylearn.ing/course/gcp-cloud-developer-exam-prep
-
-
-
-155. Salesforce Certified AI Associate: 6 Full Practice Exams
-
-htt
-ps://www.easylearn.ing/course/salesforce-ai-associate-practice-exams
-
-
-
-156. GCP CDL Exam Preparation: Tests with Explan
-ations
-
-https://www.easylearn.ing/course/gcp-data-engineer-exam-prep
-
-
-
-157. Expert-Level Preparation for CompTIA Linux+
-
-
-https://www.easylearn.ing/course/linux-plus-exam-prep
-
-
-
-158. In-Depth Knowledge for Advanced Level Test Manager: Test
-s
-
-https://www.easylearn.ing/course/advanced-test-manager-certification
-
-
-
-159. Mastery Through Practice for CompTIA CyS
-A+
-
-https://www.easylearn.ing/course/comptia-cysap-practice-tests
-
-
-
-160. Salesforce Certified Administrator: 6 Practice
- Exams
-
-https://www.easylearn.ing/course/salesforce-certified-administrator-practice-exams
-
-
-
-161. Salesforce Certified 
-Platform Developer 1: Exam Preparation
-
-https://www.easylearn.ing/course/salesforce-platform-developer-1-certification
-
-
-
-
-162. Step-by-Step Mastery for Agile Tester: Practice Tests
-
-https://www.easylearn.ing/course/agile-tester-certificatio
-n-practice-tests
-
-
-
-163. Exam Practice for Automotive Software Tester
-
-https://www.easylearn.ing/course/automotive-softw
-are-tester-certification-practice
-
-
-
-164. Salesforce Certified Business Analyst: Exam Preparation
-
-https://www.easylearn
-.ing/course/salesforce-business-analyst-certification-practice-exams
-
-
-
-165. Salesforce Marketing Cloud Consultant: Expe
-rt Certification
-
-https://www.easylearn.ing/course/salesforce-marketing-cloud-consultant-certification-prep
-
-
-
-166. Sale
-sforce Email Specialist: Complete Certification Prep
-
-https://www.easylearn.ing/course/salesforce-email-specialist-certi
-fication-course
-
-
-
-167. GCP Cloud Security Engineer Exam Prep with Practice Tests
-
-https://www.easylearn.ing/course/gcp-
-cloud-security-engineer-certification
-
-
-
-168. GCP Cloud Network Engineer Exam Prep with Practice Tests
-
-https://www.easy
-learn.ing/course/gcp-cloud-network-engineer-exam-prep
-
-
-
-169. Master the GCP Cloud Architect Exam: 6 Practice tests
-
-htt
-ps://www.easylearn.ing/course/gcp-cloud-architect-exam-preparation
-
-
-
-170. GCP Machine Learning Engineer Exam Prep with 
-Practice Tests
-
-https://www.easylearn.ing/course/google-cloud-ml-engineer-certification-practice-tests
-
-
-
-171. ServiceNo
-w Certified System Administrator(CSA) Practice Exam
-
-https://www.easylearn.ing/course/csa-certification-practice-test
-
-
-
-
-172. AWS Certified Cloud Practitioner Practice Exams CLF-C02
-
-https://www.easylearn.ing/course/aws-cloud-practitioner-c
-ertification
-
-
-
-173. Exam Prep for Salesforce Certified Platform Developer 1 2024
-
-https://www.easylearn.ing/course/sale
-sforce-platform-developer-1-exam-prep
-
-
-
-174. Ultimate Exam Guide for Salesforce Marketing Cloud Developer
-
-https://www.
-easylearn.ing/course/salesforce-marketing-cloud-developer-exam
-
-
-
-175. Ultimate Exam Guide for GCP Google Associate Clou
-d Engineer
-
-https://www.easylearn.ing/course/google-cloud-associate-certification-prep
-
-
-
-176. AZ-204 Exam Certification
-: 6 Practice Tests (+730 Q\\A)
-
-https://www.easylearn.ing/course/azure-development-certification
-
-
-
-177. AZ-900: Essenti
-al 6 Practice Tests & Insights for Azure
-
-https://www.easylearn.ing/course/az-900-practice-exams
-
-
-
-178. Anti-Money Laun
-dering (AML) Exam Prep
-
-https://www.easylearn.ing/course/cams-certification-exam-prep
-
-
-
-179. Mastering the GCP Machine 
-Learning Engineer Exam: 6 Tests
-
-https://www.easylearn.ing/course/gcp-machine-learning-engineer-exam-prep
-
-
-
-180. Exam P
-rep for Salesforce Certified AI Associate 2024
-
-https://www.easylearn.ing/course/salesforce-ai-associate-exam-prep
-
-
-
-18
-1. Comprehensive Exam Prep for Salesforce Associate 2024
-
-https://www.easylearn.ing/course/salesforce-associate-exam-pre
-p
-
-
-
-182. Exam Prep for Salesforce Certified Business Analyst 2024
-
-https://www.easylearn.ing/course/salesforce-certifie
-d-business-analyst-exam-prep
-
-
-
-183. AZ-305: Expert Practice Tests & Comprehensive Guide to Azure
-
-https://www.easylearn
-.ing/course/az-305-practice-tests
-
-
-
-184. Mastery Through Practice for GCP Cloud Architect 2024
-
-https://www.easylearn.i
-ng/course/gcp-cloud-architect-exam-mastery
-
-
-
-185. Ultimate Exam Guide for AMLS Certification 2024
-
-https://www.easylear
-n.ing/course/amls-certification-exam-prep
-
-
-
-186. Master AZ-400 Exam with our 6 Question Practice Tests
-
-https://www.eas
-ylearn.ing/course/az-400-practice-tests
-
-
-
-187. Mastering the GCP Cloud Security Engineer Exam: 6 Tests
-
-https://www.eas
-ylearn.ing/course/gcp-cloud-security-engineer-practice-tests
-
-
-
-188. Expert-Level Preparation for GCP Cloud Digital Lead
-er 2024
-
-https://www.easylearn.ing/course/gcp-cloud-digital-leader-practice-tests
-
-
-
-189. AI-102 Exam Certification: Pra
-ctice Tests\\Questions 2024
-
-https://www.easylearn.ing/course/ai-102-exam-practice-tests
-
-
-
-190. Web Hacking For Beginne
-rs
-
-https://www.easylearn.ing/course/web-security-beginner-guide
-
-
-
-191. Linux-Grundlagen meistern: Projekte & ausführli
-che Erklärung
-
-https://www.easylearn.ing/course/linux-basics-master
-
-
-
-192. OCI 2024 Data Science Professional (1Z0-1110
--24) Prep Exams
-
-https://www.easylearn.ing/course/oci-data-science-professional-exam-prep
-
-
-
-193. Program Management Pro
-fessional (PgMP) Practice Exam 2024
-
-https://www.easylearn.ing/course/pgmp-practice-exam
-
-
-
-194. PSPO II Certification: 
-6 Full Practice Tests & Explanations
-
-https://www.easylearn.ing/course/pspo-ii-certification-practice-tests
-
-
-
-195. Comp
-TIA IT Fundamentals ITF+ Practice Exam (2024)
-
-https://www.easylearn.ing/course/comptia-it-fundamentals-itf-plus-practic
-e-exams
-
-
-
-196. PSM I Certification: 6  Practice Exams | Up-to-Date Content
-
-https://www.easylearn.ing/course/psm-i-cert
-ification-practice-exams
-
-
-
-197. AZ-204 Practice Tests with Full Explanations
-
-https://www.easylearn.ing/course/az-204-e
-xam-preparation
-
-
-
-198. CSM Certification Prep: Comprehensive Practice Tests & Guide
-
-https://www.easylearn.ing/course/c
-ertified-scrum-master-practice-tests
-
-
-
-199. PRINCE2 Agile Foundation Prep: 6 Updated Practice Tests
-
-https://www.easyle
-arn.ing/course/prince2-agile-foundation-practice-tests
-
-
-
-200. PSK Exam+700QS & Explanations
-
-https://www.easylearn.ing/
-course/psk-exam-prep
-
-
-
-201. AZ-400 Exam Certification +100QS  2024
-
-https://www.easylearn.ing/course/az-400-exam-certif
-ication
-
-
-
-202. MSP Certification Prep: Practice Tests & Exam Questions
-
-https://www.easylearn.ing/course/msp-certificat
-ion-exam-prep
-
-
-
-203. ITIL 4 DSV Practice Tests & Exam Simulations W\\ Explanations
-
-https://www.easylearn.ing/course/it
-il-4-dsv-certification-course
-
-
-
-204. SFS Exam Preparation: 6 Updated Mock Exams\\Practice Tests
-
-https://www.easylearn.
-ing/course/sfs-certification-prep-course
-
-
-
-205. PSD Certification Prep: Practice Tests & Real Exam Questions
-
-https://w
-ww.easylearn.ing/course/psd-certification-prep
-
-
-
-206. ITIL 4 HVIT Certification Prep: 6 Practice Tests \[2024\]
-
-https:
-//www.easylearn.ing/course/itil-4-hvit-certification-prep
-
-
-
-207. SPS Exam Prep: 6 Practice Tests & Comprehensive Study 
-Guide
-
-https://www.easylearn.ing/course/sps-exam-prep
-
-
-
-208. AI-900: 6 Practice Tests with Detailed Explanations
-
-https
-://www.easylearn.ing/course/ai-900-practice-tests
-
-
-
-209. Master the AZ-900 with 400+ Practice Questions 2024
-
-https://w
-ww.easylearn.ing/course/microsoft-azure-fundamentals-az-900-exam-prep
-
-
-
-210. AZ-500: 6 Updated Practice Tests with Expl
-anations
-
-https://www.easylearn.ing/course/az-500-practice-tests
-
-
-
-211. AI-102: 6 Practice Tests with Questions & Expla
-nations
-
-https://www.easylearn.ing/course/ai-102-practice-tests
-
-
-
-212. PSPO I Certification: 6 Full Practice Tests + Ex
-planations
-
-https://www.easylearn.ing/course/pspo-i-certification-practice-tests
-
-
-
-213. ITIL 4 DPI Practice Tests & Exa
-m Simulations
-
-https://www.easylearn.ing/course/itil-4-dpi-practice-tests
-
-
-
-214. AZ-305 Exam Certification 2024
-
-https:
-//www.easylearn.ing/course/az-305-exam-preparation-course
-
-
-
-215. ITIL 4 CDS Certification Prep: Practice Tests &  Simul
-ations
-
-https://www.easylearn.ing/course/itil-4-cds-certification-prep
-
-
-
-216. PSM II Certification: 6 Full Practice Tes
-ts \[2024\]
-
-https://www.easylearn.ing/course/psm-ii-certification-practice-tests
-
-
-
-217. PAL I Certification: 6 Full Pr
-actice Tests 2024
-
-https://www.easylearn.ing/course/pal-i-certification-practice-tests
-
-
-
-218. Certified Information Sys
-tems Auditor (CISA) Mock Test 2024
-
-https://www.easylearn.ing/course/cisa-practice-questions
-
-
-
-219. PgMP® Certification
- Success: Essential Practice Tests
-
-https://www.easylearn.ing/course/pgmp-exam-preparation-course
-
-
-
-220. Master 1Z0-908
- MySQL 8.0 Database Administrator Training
-
-https://www.easylearn.ing/course/mysql-8-0-database-administrator-certificat
-ion
-
-
-
-221. 5x PCEP-30-02 Python Certification Practice Test 2024 - 2025
-
-https://www.easylearn.ing/course/pcep-30-02-py
-thon-certification
-
-
-
-222. Entry Certificate Business Analysis (IIBA ECBA) Mock Exams
-
-https://www.easylearn.ing/course/
-iiba-ecba-mock-exams
-
-
-
-223. C\_TS414\_2023 SAP QM Preparation Test \[Sept 2024 Updated\]
-
-https://www.easylearn.ing/cou
-rse/sap-c\_ts414\_2023-qm-certification-practice-tests
-
-
-
-224. AWS Certified Data Analytics Exam Prep: Practice Tests
-
-h
-ttps://www.easylearn.ing/course/aws-certified-data-analytics-exam-prep
-
-
-
-225. Computer Basics
-
-https://www.easylearn.in
-g/course/computer-fundamentals-hindi
-
-
-
-226. C\_BW4H\_2404 Certification Practice Test \[Sept 2024 Updated\]
-
-https://ww
-w.easylearn.ing/course/sap-c\_bw4h\_2404-certification-practice-tests
-
-
-
-227. Python & Gen AI Basics: Transition from Ja
-va in Just 15 days
-
-https://www.easylearn.ing/course/python-generative-ai-java-transition
-
-
-
-228. Foundations of Web Dev
-elopment: CSS, Bootstrap, JS, React
-
-https://www.easylearn.ing/course/css-course-for-beginners
-
-
-
-229. GST Success: Esse
-ntial Practice Tests for Practitioners
-
-https://www.easylearn.ing/course/gst-practitioner-exam-practice-tests
-
-
-
-230. CI
-SA Exam Questions for 2023 - 06 FULL HARD TEST
-
-https://www.easylearn.ing/course/cisa-exam-practice-questions
-
-
-
-231. Sa
-lesforce Certified Admin (ADM 201 | ADM-201) Tests | 2024
-
-https://www.easylearn.ing/course/adm-201-practice-tests
-
-
-
-23
-2. Scaled Professional Scrum ( SPS ) Practice Test -Update 2023
-
-https://www.easylearn.ing/course/scaled-professional-sc
-rum-sps-practice-test
-
-
-
-233. Basics of Practical GenAI
-
-https://www.easylearn.ing/course/arabic-genai-course
-
-
-
-234. Ce
-rtified Kubernetes Administrator Ultimate Masterclass
-
-https://www.easylearn.ing/course/certified-kubernetes-administrat
-or-exam-preparation
-
-
-
-235. Certified Kubernetes Application Developer Masterclass
-
-https://www.easylearn.ing/course/kub
-ernetes-application-development-ckad-exam
-
-
-
-236. AWS Certified Data Engineer - Associate - Hands On + Exams
-
-https://ww
-w.easylearn.ing/course/aws-certified-data-engineer-associate-training
-
-
-
-237. Agile Scrum for Beginners & Scrum Master C
-ertification
-
-https://www.easylearn.ing/course/agile-scrum-master-certification
-
-
-
-238. Mock Exam - Certified Performanc
-e Tester con JMeter (CPTJM)
-
-https://www.easylearn.ing/course/cptjm-mock-exams
-
-
-
-239. REST APIs Development With Java -
- API CRUD Operation
-
-https://www.easylearn.ing/course/rest-api-development-java
-
-
-
-240. Azure Administrator AZ-104: Esse
-ntial Practice Tests
-
-https://www.easylearn.ing/course/azure-administrator-certification-practice
-
-
-
-241. Master Linux B
-asics: With Easy Projects & Deep explanation.
-
-https://www.easylearn.ing/course/linux-basics-course
-
-
-
-242. E\_S4CPE\_24
-05 Certification Practice Test \[Sept 2024 Updated\]
-
-https://www.easylearn.ing/course/e-s4cpe-2405-certification-practi
-ce-test
-
-
-
-243. ISACA Certified Information Systems Auditor (CISA) Prep Exam
-
-https://www.easylearn.ing/course/cisa-exam
--prep
-
-
-
-244. Learn SQL from Scratch : SQL Tutorial
-
-https://www.easylearn.ing/course/learn-sql-hindi
-
-
-
-245. El curso m
-ás Básico de JavaScript, desde cero
-
-https://www.easylearn.ing/course/curso-javascript-cero
-
-
-
-246. ITIL 4 DSV Exam Cert
-ification 2024
-
-https://www.easylearn.ing/course/itil-4-dsv-exam-certification
-
-
-
-247. Complete Study Guide 2024: CompTI
-A Network+ Certification
-
-https://www.easylearn.ing/course/comptia-network-plus-certification-guide
-
-
-
-248. Ultimate Pre
-p Guide\\Tests 2024: ITIL 4 CDS Certification
-
-https://www.easylearn.ing/course/itil-4-cds-certification-exam-prep
-
-
-
-24
-9. Ultimate Prep Guide\\Tests 2024: PRINCE2 Agile Foundation
-
-https://www.easylearn.ing/course/prince2-agile-foundation-
-exam-prep
-
-
-
-250. Complete Study Guide 2024: CompTIA Linux+ Certification
-
-https://www.easylearn.ing/course/comptia-linu
-x-plus-certification
-
-
-
-251. Ultimate Prep Guide\\Tests 2024: P3O Certification
-
-https://www.easylearn.ing/course/p3o-ce
-rtification-exam-prep
-
-
-
-252. 6 Practice Exams 2024: CompTIA ITF+ Certification
-
-https://www.easylearn.ing/course/compti
-a-itf-certification-exam-prep
-
-
-
-253. Ultimate Prep Guide\\Tests 2024: ITIL 4 HVIT Certification
-
-https://www.easylearn.
-ing/course/itil-4-hvit-certification-2024
-
-
-
-254. Practice Tests 2024: CompTIA A+ Certification
-
-https://www.easylearn.i
-ng/course/comptia-a-plus-certification-practice-tests
-
-
-
-255. Complete Study Guide 2024: CompTIA CySA+ Certification
-
-ht
-tps://www.easylearn.ing/course/comptia-cySA-certification
-
-
-
-256. Ultimate Prep Guide\\Tests 2024: Tableau Desktop Speci
-alist
-
-https://www.easylearn.ing/course/tableau-desktop-specialist-certification-prep
-
-
-
-257. 6 Practice Exams 2024: Tab
-leau Desktop Certified Associa
-
-https://www.easylearn.ing/course/tableau-desktop-certified-associate-exam-prep
-
-
-
-258. M
-aster ITIL 4 DPI in 2024: 6 Updated Practice Exams
-
-https://www.easylearn.ing/course/itil-4-dpi-certification-course
-
-
-
-
-259. 6 Practice Tests 2024: CompTIA Security+ Certification
-
-https://www.easylearn.ing/course/comptia-security-plus-cert
-ification-2024
-
-
-
-260. Comprehensive Exam Prep 2024: SFS Certification
-
-https://www.easylearn.ing/course/salesforce-fiel
-d-service-certification-exam-prep
-
-
-
-261. Comprehensive Exam Prep 2024: SPS Certification - Tests
-
-https://www.easylearn
-.ing/course/sps-certification-exam-prep-2024
-
-
-
-262. Mastery Through Practice 2024 for PSPO 1 Certification
-
-https://www
-.easylearn.ing/course/pspo-1-certification-exam-prep
-
-
-
-263. Challenge Your Skills with our 6 Practice Tests for PSM 1
-
-
-https://www.easylearn.ing/course/psm-1-practice-tests
-
-
-
-264. Comprehensive Exam Prep 2024: CSM Certification
-
-https://w
-ww.easylearn.ing/course/csm-exam-prep-2024
-
-
-
-265. Ultimate Exam Guide 2024 for PSM 2 Certification
-
-https://www.easylea
-rn.ing/course/psm-2-certification-exam-prep
-
-
-
-266. All-Inclusive Prep Course 2024 for PSPO 2 Certification
-
-https://www
-.easylearn.ing/course/pspo-2-certification-exam-prep
-
-
-
-267. Cyber Defender's Journey: Virus  Detection and Elimination
-
-
-https://www.easylearn.ing/course/computer-virus-basics
-
-
-
-268. Database Management System Excellence: Module - 2
-
-https
-://www.easylearn.ing/course/database-management-systems-basics
-
-
-
-269. Mastering Azure: AZ-104 Administrator Practice Te
-sts
-
-https://www.easylearn.ing/course/az-104-practice-tests
-
-
-
-270. C\_SIGPM\_2403 SAP Signavio Practice Test \[Sept 202
-4 Updated\]
-
-https://www.easylearn.ing/course/sap-signavio-c\_sigpm\_2403-practice-test
-
-
-
-271. C\_CPE\_16 Backend Devel
-oper Prep Test \[Sept 2024 Updated\]
-
-https://www.easylearn.ing/course/sap-certified-associate-backend-developer-exam
-
-
-
-
-272. C\_SAC\_2415 Certification Prep Test \[Sept 2024 Updated\]
-
-https://www.easylearn.ing/course/c-sac-2415-certificat
-ion-practice-tests
-
-
-
-273. Professional Agile Leadership PAL / PAL-I Practice Exams
-
-https://www.easylearn.ing/course/
-pal-i-practice-exams
-
-
-
-274. Master IIBA BABOK v3 KA's for ECBA, CCBA, CBAP Mock Tests
-
-https://www.easylearn.ing/course
-/iiba-babok-v3-certification-practice-tests
-
-
-
-275. Complete Machine Learning Project Using YOLOv9 From Scratch
-
-https:/
-/www.easylearn.ing/course/yolo-v9-object-detection
-
-
-
-276. \[NEW\] Git & GitHub Certification - Practice Exam 2024 !
-
-ht
-tps://www.easylearn.ing/course/git-github-certification-practice-exam-2024
-
-
-
-277. Azue AZ-900 | AZ 900 Practice Test Ex
-am - Latest Questions
-
-https://www.easylearn.ing/course/az-900-practice-test-exam
-
-
-
-278. Professional Scrum Master PSM 
-2 / PSM2 Practice Exams
-
-https://www.easylearn.ing/course/psm-2-practice-exams
-
-
-
-Deals number 279 to 367 can be found 
-on:
-
-https://www.easylearn.ing/
-
-
-```
----
-
-     
- 
-all -  [ LangChain and Anthropic ](https://www.reddit.com/r/LangChain/comments/1fxoxuk/langchain_and_anthropic/) , 2024-10-09-0912
-```
-To make an api call to anthropic from my understanding u your need: 
-
-from langchain_anthropic import ChatAnthropic
-mode
-l = ChatAnthropic(model='claude-3-opus-20240229')
-
-I have the API key setup in the .env file and the important is done c
-orrectly. But it’s giving an error saying I need model name, timeout, api key. But the documentation says you just need 
-to put the model. Does anyone knows why is this a problem?
-
-```
----
-
-     
- 
-all -  [ GitHub Issue resolution with RAG ](https://www.reddit.com/r/LangChain/comments/1fxosw0/github_issue_resolution_with_rag/) , 2024-10-09-0912
-```
-Hey guys,
-
-I recently made a a RAG-based github extension that responds directly to created 'issues' in github repositor
-ies with a detailed overview of files and changes to make to resolve the issue. I see this as being particularly helpful
- for industry repositories where the codebases are quite big issues are frequently used.
-
-Would love to know what you th
-ink of the concept!
-
-Can sign up for the waitlist here: https://trysherpa.bot/
-```
----
-
-     
- 
-all -  [ Langchain and Knowledge Graph extraction ](https://www.reddit.com/r/LangChain/comments/1fxnhqj/langchain_and_knowledge_graph_extraction/) , 2024-10-09-0912
-```
-I’m trying to use Langchain to go through about 500k docs in total doing entity and relationship extractions. 
-
-Before u
-sing Langchain it was really quick but not very thorough or reliable. 
-
-Now using 3 chains (one for entities, one for re
-lationships, one for checking if anything is missed and adding if so)
-
-However now it’s soooo slow. Using Azure GPT inst
-ance should be able to do 100 rpm. Any advice?
-
-Edit : new to this so let me know if this is a completely bad approach!
-```
----
-
-     
- 
-all -  [ October 6, 2024 - 996 Top Free Udemy Course Deals on easylearn.ing ](https://www.reddit.com/r/udemyfreebies/comments/1fxen9s/october_6_2024_996_top_free_udemy_course_deals_on/) , 2024-10-09-0912
-```
-1. CompTIA Security+ (SY0-701) Practice Test: Boost Your Exam
-
-https://www.easylearn.ing/course/sy0-701-exam-preparation
-
-
-
-
-2. Mastering Mortgage Advisory: From Basics to Expertise
-
-https://www.easylearn.ing/course/mortgage-advisor-course
-
-
-
-
-3. Global Trade Finance Mastery: Tools| Risks| Strategies
-
-https://www.easylearn.ing/course/global-trade-finance-maste
-ry
-
-
-
-4. Corporate Banking: Products| Loans| Relationship Management
-
-https://www.easylearn.ing/course/corporate-banking
--course
-
-
-
-5. The Complete Python Bootcamp From Zero to Master
-
-https://www.easylearn.ing/course/python-data-science-mac
-hine-learning-course
-
-
-
-6. QuickBooks Online Multiple Currencies
-
-https://www.easylearn.ing/course/quickbooks-online-mul
-ticurrency-accounting
-
-
-
-7. QuickBooks Online (QBO) Bookkeeping With Bank Feeds
-
-https://www.easylearn.ing/course/quickb
-ooks-online-bank-feeds-course
-
-
-
-8. QuickBooks Desktop Multiple Currencies
-
-https://www.easylearn.ing/course/quickbooks-
-desktop-multicurrency-accounting
-
-
-
-9. AutoCAD Electrical 2024: A Tutorial Series
-
-https://www.easylearn.ing/course/auto
-cad-electrical-2024-tutorial
-
-
-
-10. 3Bedrom Bungalow SketchUp from basic to advance Free version
-
-https://www.easylearn.
-ing/course/sketch-up-free-bungalow-design
-
-
-
-11. Certified Artificial Intelligence Practical Exam Preparation
-
-https://w
-ww.easylearn.ing/course/ai-certification-prep-course
-
-
-
-12. Advanced Python : Boost Your Career & Earning & FREE eBook!
-
-
-https://www.easylearn.ing/course/advanced-python-course
-
-
-
-13. How to Earn from Photography: Absolute Beginners Guide
-
-
-https://www.easylearn.ing/course/photography-income-guide
-
-
-
-14. VMware Cloud Foundation Administrator 2024 Practice Exa
-m
-
-https://www.easylearn.ing/course/vmware-cloud-foundation-administrator-exam-prep
-
-
-
-15. Learn Cyber Security From Scr
-atch: Practical Guide
-
-https://www.easylearn.ing/course/learn-cyber-security-online
-
-
-
-16. Wordpress Web Development for
- Absolute Beginner Zero to Hero
-
-https://www.easylearn.ing/course/wordpress-website-development-beginner
-
-
-
-17. PSPO II 
-- Product Owner Level II (PSPO 2) Mock Exams
-
-https://www.easylearn.ing/course/pspo-ii-mock-exams
-
-
-
-18. SPS - Scaled Sc
-rum - Nexus - Certification Practice Exams
-
-https://www.easylearn.ing/course/scaled-scrum-nexus-practice-exams
-
-
-
-19. 19
- Generative AI Real Time Projects End to End
-
-https://www.easylearn.ing/course/generative-ai-projects
-
-
-
-20. API REST co
-n PHP  y MYSQL
-
-https://www.easylearn.ing/course/api-rest-php-mysql
-
-
-
-21. Beyond Paper: Mastering AR Business Cards
-
-ht
-tps://www.easylearn.ing/course/ar-business-cards
-
-
-
-22. Learn Arduino by Building 26 Projects!
-
-https://www.easylearn.in
-g/course/arduino-projects
-
-
-
-23. MS Certified: Azure Developer Associate AZ-204 Practice exam
-
-https://www.easylearn.ing
-/course/az-204-practice-exams
-
-
-
-24. Master the Terraform Associate (003) Certification Exam
-
-https://www.easylearn.ing/
-course/terraform-associate-exam-preparation
-
-
-
-25. Preparing for CKA: Mastering Kubernetes Deep Dive
-
-https://www.easyle
-arn.ing/course/kubernetes-cka-certification
-
-
-
-26. AWS Solutions Architect Associate Prep: Practice Tests
-
-https://www.e
-asylearn.ing/course/saa-c03-practice-exam-questions
-
-
-
-27. LEARN TO TRADE & INVEST- LIVE CLASS (HINDI)
-
-https://www.easy
-learn.ing/course/hindi-trading-investing-course
-
-
-
-28. Veeam Certified Architect (VMCA) v12.1 | Practice Exams 2024
-
-htt
-ps://www.easylearn.ing/course/veeam-certified-architect-vmca-v12-1-practice-exams
-
-
-
-29. SQL for Everyone Transform Data
- into Insights
-
-https://www.easylearn.ing/course/sql-for-everyone
-
-
-
-30. Full Stack Data Science & Machine Learning Boot
-Camp Course
-
-https://www.easylearn.ing/course/data-science-bootcamp
-
-
-
-31. Mastering Deep Learning for Generative AI
-
-ht
-tps://www.easylearn.ing/course/generative-ai-deep-learning-course
-
-
-
-32. Python Powerhouse Gen AI From Basics to Advance
-d Programming
-
-https://www.easylearn.ing/course/python-generative-ai-course
-
-
-
-33. Data Analysis and Business Intelligen
-ce with Python & SQL
-
-https://www.easylearn.ing/course/data-analysis-business-intelligence-python-sql
-
-
-
-34. Mastering A
-ptitude: A Comprehensive Guide to Problem Solving
-
-https://www.easylearn.ing/course/aptitude-test-mastery
-
-
-
-35. Unlock 
-Your Data Superpowers Zero to Data Analyst Hero
-
-https://www.easylearn.ing/course/data-analysis-training
-
-
-
-36. DevOps f
-or Data Scientists: Containers for Data Science
-
-https://www.easylearn.ing/course/data-science-devops-course
-
-
-
-37. Unlo
-ck Your Potential: Exploring the Power of Chat GPT
-
-https://www.easylearn.ing/course/chatgpt-conversational-ai-course
-
-
-
-
-38. Python for Absolute Beginners Learn Programming from scratch
-
-https://www.easylearn.ing/course/python-virtual-assis
-tant-course
-
-
-
-39. Building AI Projects Machine Learning & Deep Learning
-
-https://www.easylearn.ing/course/ai-projects-m
-achine-learning-deep-learning
-
-
-
-40. Applied Time Series Analysis and Forecasting in Python
-
-https://www.easylearn.ing/c
-ourse/data-science-time-series
-
-
-
-41. Advanced DataBricks -Data Warehouse Performance Optimization
-
-https://www.easylear
-n.ing/course/databricks-data-warehouse-optimization
-
-
-
-42. Machine Learning A-Z From Foundations to Deployment
-
-https://
-www.easylearn.ing/course/machine-learning-a-z
-
-
-
-43. Mastering Time Series Analysis and Forecasting with Python
-
-https:/
-/www.easylearn.ing/course/arima-sarima-python
-
-
-
-44. Complete Machine Learning With Real-World Deployment
-
-https://www.e
-asylearn.ing/course/deep-learning-course
-
-
-
-45. Python Test Development:From the Ground Up to Advanced Level
-
-https://ww
-w.easylearn.ing/course/python-test-development-course
-
-
-
-46. QuickBooks Online: Streamline US Tax Deductions
-
-https://ww
-w.easylearn.ing/course/quickbooks-online-tax-deductions
-
-
-
-47. Regressions & Correlation
-
-https://www.easylearn.ing/cour
-se/regression-correlation-course
-
-
-
-48. Solar Cell Technology
-
-https://www.easylearn.ing/course/solar-cell-technology-co
-urse
-
-
-
-49. HR with Odoo 17 AI-Powered Policies and Procedures Manual
-
-https://www.easylearn.ing/course/odoo-17-hr-cours
-e
-
-
-
-50. Supply Chain Operations Specialization, PLM,Odoo 17 Planning
-
-https://www.easylearn.ing/course/supply-chain-ope
-rations-specialization
-
-
-
-51. CRM , E-commerce Website Exam ,Odoo 17 Certification
-
-https://www.easylearn.ing/course/odo
-o-17-certification-course
-
-
-
-52. Manufacturing ‎Certification Exam , Odoo 17 Certification
-
-https://www.easylearn.ing/co
-urse/odoo-17-manufacturing-certification
-
-
-
-53. Accounting Certification Exam , Odoo 17 Certification
-
-https://www.easyl
-earn.ing/course/odoo-17-accounting-certification-course
-
-
-
-54. Accounting and auditing with artificial intelligence-Odoo
- 17
-
-https://www.easylearn.ing/course/accounting-auditing-artificial-intelligence
-
-
-
-55. Total Quality Management: Certi
-fication
-
-https://www.easylearn.ing/course/total-quality-management-certification
-
-
-
-56. Taller Literario (2da parte): C
-ómo Escribir Profesionalmente
-
-https://www.easylearn.ing/course/taller-literario-escritura-creativa
-
-
-
-57. Curso De Pyth
-on 3 Desde Cero Para Novatos
-
-https://www.easylearn.ing/course/curso-python-3-cero-novatos
-
-
-
-58. Theory of Constraints:
- Certification
-
-https://www.easylearn.ing/course/theory-of-constraints-certification-course
-
-
-
-59. Python Certification 
-- The Next Level Python
-
-https://www.easylearn.ing/course/python-certification-hindi
-
-
-
-60. Python Project for Basics Da
-ta Analysis
-
-https://www.easylearn.ing/course/data-analysis-with-python-project
-
-
-
-61. Angular
-
-https://www.easylearn.in
-g/course/angular-course-hindi
-
-
-
-62. Become SAP Ariba Certified Consultant Spend Analysis
-
-https://www.easylearn.ing/cou
-rse/sap-ariba-spend-analysis-course
-
-
-
-63. Photoshop Express - Mastering Adobe Photoshop In 2 Hours
-
-https://www.easylea
-rn.ing/course/photoshop-express-course
-
-
-
-64. Veeam Certified Architect (VMCA) v12.1 Practice Exam - 2024
-
-https://www.e
-asylearn.ing/course/veeam-certified-architect-vmca-v12-1-practice-exam
-
-
-
-65. ChatBot de IA para Wordpress: Para Princip
-iantes y Avanzados
-
-https://www.easylearn.ing/course/chatbots-ia-wordpress
-
-
-
-66. DP-900 Microsoft Azure Data Fundamenta
-ls Certification Exams
-
-https://www.easylearn.ing/course/dp-900-certification
-
-
-
-67. Éducation Financière
-
-https://www.e
-asylearn.ing/course/education-financiere-independance
-
-
-
-68. Transform Your Arduino into Automatic Coin Operated Machine
-
-
-https://www.easylearn.ing/course/arduino-weight-machine
-
-
-
-69. PIC Microcontroller: Garage Door System Ultrasonic Sens
-or
-
-https://www.easylearn.ing/course/garage-door-system-pic-microcontroller
-
-
-
-70. AI-900 Azure AI Fundamentals
-
-https:/
-/www.easylearn.ing/course/ai-900-practice-questions
-
-
-
-71. Azure Developer Associate AZ-204
-
-https://www.easylearn.ing/c
-ourse/azure-developer-associate-az-204-practice-tests
-
-
-
-72. Microsoft Azure Data Fundamentals DP900 Practice
-
-https://w
-ww.easylearn.ing/course/azure-data-fundamentals-dp900-practice-tests
-
-
-
-73. Canva Magic Studio AI Tools for Quick, Easy 
-Content Creation
-
-https://www.easylearn.ing/course/canva-ai-design
-
-
-
-74. Fire Up Creativity in Your Child
-
-https://www.
-easylearn.ing/course/child-creativity-course
-
-
-
-75. Ultimate Adobe Photoshop for Beginners - Zero to Hero
-
-https://www.e
-asylearn.ing/course/photoshop-tutorial-for-beginners
-
-
-
-76. Oracle Cloud Infrastructure Architect Professional - Exams
-
-
-https://www.easylearn.ing/course/oracle-cloud-infrastructure-architect-professional-exam-prep
-
-
-
-77. 350+ Exercises - Py
-thon Programming Mega Pack - OOP
-
-https://www.easylearn.ing/course/python-oop-exercises
-
-
-
-78. Calculus: Applications of
- Derivatives
-
-https://www.easylearn.ing/course/calculus-applications-derivatives
-
-
-
-79. Full Stack Data Science Develope
-r Course from scratch
-
-https://www.easylearn.ing/course/full-stack-data-science-developer-course
-
-
-
-80. AWS Certified De
-vOps Engineer Professional Practice Exams
-
-https://www.easylearn.ing/course/aws-devops-engineer-professional-practice-ex
-ams
-
-
-
-81. Coding for everybody: Full stack development course
-
-https://www.easylearn.ing/course/coding-for-everyone-cou
-rse
-
-
-
-82. Microsoft Certified: Azure Security Engineer Associate Exams
-
-https://www.easylearn.ing/course/azure-security
--engineer-associate-certification
-
-
-
-83. Data Scientist Certification: Test Your Skills with Tests
-
-https://www.easylear
-n.ing/course/data-scientist-certification-practice-tests
-
-
-
-84. Salesforce Certified Platform Developer II - Mock Exams
-
-
-https://www.easylearn.ing/course/salesforce-platform-developer-ii-mock-exams
-
-
-
-85. Data Science Bootcamp in Python: 25
-0+ Exercises to Master
-
-https://www.easylearn.ing/course/python-data-science-bootcamp
-
-
-
-86. Super way to Learn Arduino 
-| Creative
-
-https://www.easylearn.ing/course/learn-arduino-programming
-
-
-
-87. Learn Python + JavaScript + Microsoft SQL 
-for Data science
-
-https://www.easylearn.ing/course/python-javascript-sql-data-science-course
-
-
-
-88. Lean Problem Solving
-: Creative Solutions for Teams & Leaders
-
-https://www.easylearn.ing/course/creative-problem-solving
-
-
-
-89. Reverse Engin
-eering 4: Software Protection
-
-https://www.easylearn.ing/course/reverse-engineering-software-protection
-
-
-
-90. MS-900: M
-icrosoft 365 Certified: Fundamentals - Mock Exams
-
-https://www.easylearn.ing/course/ms-900-practice-exams
-
-
-
-91. Basics 
-of the Arabic Language
-
-https://www.easylearn.ing/course/arabic-language-course-beginners
-
-
-
-92. Fullstack web developme
-nt : CSS JavaScript and PHP Mastery
-
-https://www.easylearn.ing/course/css-javascript-php-mysql
-
-
-
-93. DP-900: Azure Data
- Fundamentals DP900 Practice Test Oct 2024
-
-https://www.easylearn.ing/course/dp-900-practice-tests
-
-
-
-94. Complete Netwo
-rk Hacking Course 2024 - Beginner to Advanced
-
-https://www.easylearn.ing/course/wifi-hacking-course
-
-
-
-95. Technical Ana
-lysis Mastery: Successful Trading Strategies
-
-https://www.easylearn.ing/course/technical-analysis-trading
-
-
-
-96. Perspec
-tive Management: Foundations of Leadership Excellence
-
-https://www.easylearn.ing/course/perspective-management-leadershi
-p-excellence
-
-
-
-97. Investment Management & Technical Analysis: A Trading Guide
-
-https://www.easylearn.ing/course/invest
-ment-management-technical-analysis-indian-stock-market
-
-
-
-98. Time Management for Stress Management
-
-https://www.easylea
-rn.ing/course/time-management-stress-reduction
-
-
-
-99. Brain computer interface with deep learning
-
-https://www.easylearn
-.ing/course/brain-computer-interface-deep-learning
-
-
-
-100. 500+ SAS Interview Questions Practice Test
-
-https://www.easyl
-earn.ing/course/sas-interview-questions-practice-test
-
-
-
-101. Ultimate PRTG Network Monitoring with Full Lab GNS3
-
-https
-://www.easylearn.ing/course/prtg-network-monitoring-course
-
-
-
-102. PHP with MySQL: Build 7 PHP and MySQL Projects
-
-https
-://www.easylearn.ing/course/build-php-mysql-projects
-
-
-
-103. Security Awareness Training - CyberSecurity for Everyone!
-
-
-https://www.easylearn.ing/course/cybersecurity-for-everyone
-
-
-
-104. RPA Project: Identify the process to automate
-
-https
-://www.easylearn.ing/course/identify-right-process-automate
-
-
-
-105. NodeJS Masterclass (Express, MongoDB, OpenAI) - 2024
- Ready!
-
-https://www.easylearn.ing/course/nodejs-masterclass
-
-
-
-106. Flutter Masterclass (Dart, APIs, Firebase & More) -
- 2024
-
-https://www.easylearn.ing/course/flutter-course-2024
-
-
-
-107. RPA Project: Process Definition Document (PDD)
-
-http
-s://www.easylearn.ing/course/rpa-project-management-pdd
-
-
-
-108. Trading from A to Z: forex, crypto, stock proven strateg
-y !
-
-https://www.easylearn.ing/course/forex-trading-course
-
-
-
-109. Complete Italian Course : Conversation Lessons for Be
-ginners
-
-https://www.easylearn.ing/course/learn-italian-conversation-beginner
-
-
-
-110. تعلم التحليل الأساسي في التداول في
- سوق العملات
-
-https://www.easylearn.ing/course/تحليل-اساسي-فوركس
-
-
-
-111. AI-900 Azure AI Fundamentals Practice Tests | A
-zure AI 2024
-
-https://www.easylearn.ing/course/ai-900-azure-ai-fundamentals-practice-tests
-
-
-
-112. AZ-900 Practice Tests
- for Microsoft Azure Fundamentals 2024
-
-https://www.easylearn.ing/course/azure-fundamentals-exam-prep
-
-
-
-113. AZ-400 Pra
-ctice Tests: Microsoft Azure DevOps Solutions Exam
-
-https://www.easylearn.ing/course/microsoft-azure-devops-solutions-ex
-am
-
-
-
-114. Azure AI-050: Generative AI Solutions with Azure OpenAI
-
-https://www.easylearn.ing/course/azure-ai-fundamenta
-ls-generative-ai
-
-
-
-115. AI-102 Microsoft Azure AI Engineer Associate Exam
-
-https://www.easylearn.ing/course/ai-102-exam
--preparation
-
-
-
-116. Ms Certified: Azure AI Fundamentals AI-900 Practice Exam
-
-https://www.easylearn.ing/course/azure-ai
--fundamentals-ai-900-exam-prep
-
-
-
-117. AZ-900 - Microsoft Azure Fundamentals - شرح بالعربي
-
-https://www.easylearn.ing/co
-urse/az-900-azure-fundamentals-arabic
-
-
-
-118. CISCO CCNA 200-301 Practice Exams (6) + Explanations
-
-https://www.easylear
-n.ing/course/cisco-ccna-200-301-practice-exams
-
-
-
-119. CompTIA Security+ 701 Practice Exam (2024)
-
-https://www.easylearn
-.ing/course/sy0-701-practice-test
-
-
-
-120. Web-Based Embedded System Simulator
-
-https://www.easylearn.ing/course/web-base
-d-embedded-simulator
-
-
-
-121. CompTia Network+ N10-009 Practice Exam (2024)
-
-https://www.easylearn.ing/course/comptia-net
-work-plus-n10-009-practice-exam
-
-
-
-122. Arduino Home Security System
-
-https://www.easylearn.ing/course/arduino-home-secu
-rity-system
-
-
-
-123. Debugging Javascript / NodeJS
-
-https://www.easylearn.ing/course/javascript-debugging-course
-
-
-
-124. 
-Projektmanagement: Produktivität und Mindset für Erfolg
-
-https://www.easylearn.ing/course/projektmanagement-kurs
-
-
-
-125.
- Power Electronics for Electric Vehicles
-
-https://www.easylearn.ing/course/electric-vehicle-power-electronics
-
-
-
-126. Py
-thon desde Principiante hasta Nivel Ingeniería
-
-https://www.easylearn.ing/course/curso-python-principiante-profesional
-
-
-
-
-127. Crear un ecommerce FULLSTACK PHP y MySQL - Tienda Online
-
-https://www.easylearn.ing/course/ecommerce-development-
-php-mysql
-
-
-
-128. \[DEA-C01 | ARA-C01\] Snowflake Advanced Certification Prep
-
-https://www.easylearn.ing/course/snowflak
-e-advanced-certification-prep
-
-
-
-129. The Expert’s Secret to Mobile Application Testing \[2024\]
-
-https://www.easylearn.
-ing/course/mobile-testing-training
-
-
-
-130. CISSP Certification exam - Security Professional 2024 Part 1
-
-https://www.eas
-ylearn.ing/course/cissp-certification-exam-prep
-
-
-
-131. Python Programming Language (Practice Projects)
-
-https://www.eas
-ylearn.ing/course/practical-python-projects
-
-
-
-132. Problem Solving with C programming language
-
-https://www.easylearn.i
-ng/course/c-programming-problem-solving
-
-
-
-133. DP-600 Certification Microsoft Fabric - Tests Pratiques 2024
-
-https://ww
-w.easylearn.ing/course/microsoft-fabric-dp-600-certification
-
-
-
-134. Advance Professional Course in Steel Commercial (Pa
-rt-II)
-
-https://www.easylearn.ing/course/steel-commercial-building-design-part-2
-
-
-
-135. Unlock the Secrets of Polynomia
-ls: Command On Algebra
-
-https://www.easylearn.ing/course/master-algebra-polynomials
-
-
-
-136. ChatGPT for Construction Man
-agers
-
-https://www.easylearn.ing/course/chatgpt-construction-management
-
-
-
-137. Antivirus Evasion - Hard Core
-
-https://w
-ww.easylearn.ing/course/antivirus-evasion-masterclass
-
-
-
-138. JavaScript Fundamentals for Absolute Beginners
-
-https://ww
-w.easylearn.ing/course/javascript-basics-course
-
-
-
-139. 600+ Design Patterns Interview Questions Practice Test
-
-https://
-www.easylearn.ing/course/design-patterns-interview-questions
-
-
-
-140. AWS Certified Solution Architect Associate  SAA-C03
- \[HINDI\]
-
-https://www.easylearn.ing/course/aws-certified-solutions-architect-associate-saa-c03-exam-prep-hindi
-
-
-
-141.
- تعلم نطق اللغة الإنجليزية - صوتيات اللغة
-
-https://www.easylearn.ing/course/تعلم-نطق-اللغة-الإنجليزية
-
-
-
-142. AWS Certif
-ied SysOps Administrator Associate SOA-C02 \[2024\]
-
-https://www.easylearn.ing/course/aws-sysops-administrator-associate
--soa-c02-certification
-
-
-
-143. Beginner's Exam Practice Guide for SHRM-SCP Certification
-
-https://www.easylearn.ing/cour
-se/shrm-scp-exam-practice-guide
-
-
-
-144. RPA Project: Gathering requirements
-
-https://www.easylearn.ing/course/rpa-requir
-ements-gathering
-
-
-
-145. 1400+ Deep Learning Interview Questions and Practice Tests
-
-https://www.easylearn.ing/course/de
-ep-learning-interview-questions
-
-
-
-146. \[New\] 750+ Excel Interview Questions and Practice Tests
-
-https://www.easylearn
-.ing/course/excel-interview-practice
-
-
-
-147. \[NEW\] 1100+ Git Interview Questions and Practice Tests
-
-https://www.easyl
-earn.ing/course/git-interview-questions
-
-
-
-148. DevOps Bootcamp: CI/CD, Automation, and Cloud Mastery\[Hindi\]
-
-https://
-www.easylearn.ing/course/devops-bootcamp-hindi
-
-
-
-149. AWS Certified SysOps Administrator Associate SOA-C02 \[HINDI\]
-
-h
-ttps://www.easylearn.ing/course/aws-sysops-administrator-associate-soa-c02-exam-prep-hindi
-
-
-
-150. Ultimate AWS Certifie
-d Solutions Architect Associate SAA-C03
-
-https://www.easylearn.ing/course/aws-certified-solutions-architect-associate-sa
-a-c03
-
-
-
-151. Introduction to Linux Shell Scripting in Hindi
-
-https://www.easylearn.ing/course/linux-shell-scripting-hin
-di
-
-
-
-152. Securing Your Ubuntu Environment: Best Practices
-
-https://www.easylearn.ing/course/ubuntu-security-guide
-
-
-
-1
-53. Create Space Invaders with Python PyGame
-
-https://www.easylearn.ing/course/space-invaders-python
-
-
-
-154. OOP Design 
-Patterns in Python
-
-https://www.easylearn.ing/course/oop-design-patterns-python
-
-
-
-155. Ethical Hacking: Crypto 101
-
-htt
-ps://www.easylearn.ing/course/ethical-hacking-cryptography
-
-
-
-156. Machine Learning Intro for Python Developers
-
-https:/
-/www.easylearn.ing/course/machine-learning-python-beginner
-
-
-
-157. RPA Project: Mapping the process(es)
-
-https://www.eas
-ylearn.ing/course/rpa-process-mapping
-
-
-
-158. \[New\] 1300+ Computer Vision Interview Practice Questions
-
-https://www.ea
-sylearn.ing/course/computer-vision-interview-questions
-
-
-
-159. 960+ Cryptography Interview Questions and Practice Tests
-
-
-https://www.easylearn.ing/course/cryptography-interview-questions
-
-
-
-160. Learn Advanced RAG : Vector to Graph RAG wth 
-LangChain Neo4j
-
-https://www.easylearn.ing/course/rag-course
-
-
-
-161. 5 Real-Time Use Cases using Machine Learning
-
-https
-://www.easylearn.ing/course/real-world-machine-learning
-
-
-
-162. AWS Certified Data Engineer Associate DEA-C01 Practice E
-xam
-
-https://www.easylearn.ing/course/aws-data-engineer-associate-practice-exam
-
-
-
-163. \[NEW\] Salesforce Certified AI 
-Associate | Practice Exams
-
-https://www.easylearn.ing/course/salesforce-certified-ai-associate-practice-exams
-
-
-
-164. Ap
-rende Hacking Ético: Protege y Penetra Redes
-
-https://www.easylearn.ing/course/cybersecurity-expert
-
-
-
-165. JavaScript 1
-0 Projects in 10 Days Course for Beginners
-
-https://www.easylearn.ing/course/javascript-web-development-10-projects
-
-
-
-1
-66. Build Convai Artificial Intelligence AR App With Unity3D.
-
-https://www.easylearn.ing/course/unity3d-ar-course
-
-
-
-167
-. Comprehensive Financial Statement : A Practical Assessment
-
-https://www.easylearn.ing/course/financial-statement-asses
-sment-course
-
-
-
-168. Veeam Certified Engineer (VMCE v12) - Exam Practice Tests 24
-
-https://www.easylearn.ing/course/veea
-m-vmce-v12-certification
-
-
-
-169. Prompt Engineering and RAG for Software Engineers
-
-https://www.easylearn.ing/course/pro
-mpt-engineering-for-software-engineers
-
-
-
-170. Visualizing Sensors Data
-
-https://www.easylearn.ing/course/sensor-data-vi
-sualization-esp32
-
-
-
-171. Ultimate Generative Persuasion: Sell and Present w/ ChatGPT
-
-https://www.easylearn.ing/course/
-chatgpt-persuasion-course
-
-
-
-172. Sistema Punto de Venta con PHP, MVC, POO y MySQL
-
-https://www.easylearn.ing/course/cur
-so-php-sistema-ventas
-
-
-
-173. Line Follower Robot: Master Robotics with Precision and Code
-
-https://www.easylearn.ing/co
-urse/line-follower-robot-arduino
-
-
-
-174. Solid Principles for Clean Code Programming & Architecture
-
-https://www.easylea
-rn.ing/course/solid-principles-clean-code-architecture
-
-
-
-175. React Hook Form: The Complete Guide with React (2024)
-
-ht
-tps://www.easylearn.ing/course/react-hook-form-guide
-
-
-
-176. ESRI ArcGIS Online : Formation Pratique (4 en 1 )
-
-https://
-www.easylearn.ing/course/formation-arcgis-online
-
-
-
-177. SVM for Beginners: Support Vector Machines in R Studio
-
-https:/
-/www.easylearn.ing/course/svm-beginner-guide
-
-
-
-178. Introduction to C#, easy and clear explanation.
-
-https://www.easyle
-arn.ing/course/master-c-sharp
-
-
-
-179. Python Design Patterns: Complete Guide \[2024 Edition\]
-
-https://www.easylearn.ing
-/course/python-design-patterns-mastery
-
-
-
-180. Climate Change Explained: Causes, Consequences and Solutions
-
-https://www
-.easylearn.ing/course/climate-change-explained
-
-
-
-181. Advanced Excel - مهارات اكسل متقدمة
-
-https://www.easylearn.ing/co
-urse/excel-chatgpt-integration
-
-
-
-182. 9 TO 5 wealth Creation :Blueprint to create wealth
-
-https://www.easylearn.ing/cou
-rse/9-to-5-wealth-creation
-
-
-
-183. PHP with MySQL: Build Complete Forum with Admin Panel
-
-https://www.easylearn.ing/cour
-se/php-mysql-forum-admin-panel
-
-
-
-184. Lean Manufacturing Academy: Certified Master Lean Course.
-
-https://www.easylearn.
-ing/course/lean-manufacturing-certification
-
-
-
-185. QuickBooks Desktop vs QBO Multiple Currencies
-
-https://www.easylearn
-.ing/course/quickbooks-desktop-qbo-multiple-currencies
-
-
-
-186. Python, Java and PHP Essentials: Complete Coding Bootcamp
-
-
-https://www.easylearn.ing/course/python-java-php-bootcamp
-
-
-
-187. Mastering C & C++ Programming: From Fundamentals to 
-Advanced
-
-https://www.easylearn.ing/course/c-programming-fundamentals
-
-
-
-188. DevOps Bootcamp: CI/CD, Automation, and Cl
-oud Mastery
-
-https://www.easylearn.ing/course/devops-bootcamp
-
-
-
-189. DevOps : CI/CD with Jenkins in Hindi
-
-https://www.
-easylearn.ing/course/devops-jenkins-course-hindi
-
-
-
-190. GitLab CI: Pipelines, CI/CD and DevOps for Beginners
-
-https://w
-ww.easylearn.ing/course/gitlab-ci-cd-devops
-
-
-
-191. Ansible for the Absolute Beginner - DevOps in Hindi
-
-https://www.eas
-ylearn.ing/course/ansible-devops-beginner-hindi
-
-
-
-192. Learn DevOps: Infrastructure Automation With Terraform\[2024\]
-
-
-https://www.easylearn.ing/course/learn-terraform-aws-infrastructure-automation
-
-
-
-193. AWS Certified Solution Architect-
-Associate Practice Tests
-
-https://www.easylearn.ing/course/aws-certified-solutions-architect-associate-practice-tests
-
-
-
-
-194. Introduction to SafeTest - A Netflix-backed Automation Tool
-
-https://www.easylearn.ing/course/safetest-course
-
-
-
-1
-95. Get Started with Salesforce - For Absolute beginners
-
-https://www.easylearn.ing/course/salesforce-beginner-course
-
-
-
-
-196. Developing a digital business growth strategy
-
-https://www.easylearn.ing/course/digital-business-growth-strategy
-
-
-
-
-197. AWS Certified Data Engineer - Associate (DEA-C01) Exam Guide
-
-https://www.easylearn.ing/course/aws-certified-data
--engineer-associate-practice-exams
-
-
-
-198. Mastering the AWS Certified AI Practitioner Exam
-
-https://www.easylearn.ing/c
-ourse/aif-c01-practice-questions
-
-
-
-199. Construye tu Propio Sistema POS con PHP 8 y MySQL
-
-https://www.easylearn.ing/co
-urse/curso-php-mysql-pos
-
-
-
-200. ChatGPT for Academic Research
-
-https://www.easylearn.ing/course/chatgpt-academic-resear
-ch
-
-
-
-201. Ms Azure Administrator Associate - AZ-104 Practice Exam
-
-https://www.easylearn.ing/course/az-104-practice-exa
-ms
-
-
-
-202. \[NEW\] 1500 Master SQL: Interview Questions - Practice Tests
-
-https://www.easylearn.ing/course/master-sql-in
-terview-questions
-
-
-
-203. 1500 New CompTIA IT Fundamentals ITF+ FC0-U61 Practice Exams
-
-https://www.easylearn.ing/course
-/comptia-it-fundamentals-practice-exams
-
-
-
-204. Certified Kubernetes Security Specialist Masterclass
-
-https://www.easyle
-arn.ing/course/kubernetes-security-specialist-training
-
-
-
-205. AWS Certified Cloud Practitioner
-
-https://www.easylearn.i
-ng/course/aws-cloud-fundamentals
-
-
-
-206. Python Web Development: Building Interactive Websites
-
-https://www.easylearn.in
-g/course/python-web-development-course
-
-
-
-207. FOCP Exam: Dominate with Practice & Expertise (2024 Edition)
-
-https://www
-.easylearn.ing/course/focp-exam-practice-tests
-
-
-
-208. Salesforce Marketing Cloud Consultant Practice Test 2024
-
-https:/
-/www.easylearn.ing/course/salesforce-marketing-cloud-certification-practice-exams
-
-
-
-209. Comprehensive ISTQB Foundation
- Level Exam Certification Prep
-
-https://www.easylearn.ing/course/istqb-foundation-level-exam-prep
-
-
-
-210. Ultimate ISTQB
- AI Testing Exam Certification 2024
-
-https://www.easylearn.ing/course/istqb-ai-testing-certification-exam
-
-
-
-211. PSK I 
-: Professional Scrum with Kanban Test - Exam 2024
-
-https://www.easylearn.ing/course/psk-i-exam-prep
-
-
-
-212. PSPO 1 Exam+
-1200QS & Explanations
-
-https://www.easylearn.ing/course/pspo-1-exam-prep
-
-
-
-213. Certified Scrum Master Certification - 
-CSM - Practice Tests
-
-https://www.easylearn.ing/course/csm-exam-prep-course
-
-
-
-214. ASQ Certification Exam Prep: 6 Pract
-ice Tests
-
-https://www.easylearn.ing/course/asq-certification-exam-prep
-
-
-
-215. Scaled Professional Scrum ( SPS ) Exam -
- Test 2024
-
-https://www.easylearn.ing/course/scaled-professional-scrum-sps-exam-preparation
-
-
-
-216. PSPO 2 -Product Owne
-r Level 2 Practice Exam - Test 2024
-
-https://www.easylearn.ing/course/pspo-2-practice-exams
-
-
-
-217. Master FOCP Exam Pre
-p: 6 Updated Practice Tests
-
-https://www.easylearn.ing/course/focp-exam-prep-course
-
-
-
-218. ITIL 4 DPI Exam Success Guid
-e: 6 Practice Tests\\Questions
-
-https://www.easylearn.ing/course/itil-4-dpi-certification-exam-prep
-
-
-
-219. Ultimate AML
-S Exam Prep: 6 Practice Tests
-
-https://www.easylearn.ing/course/amls-exam-prep
-
-
-
-220. CSM Exam+600QS & Explanations
-
-ht
-tps://www.easylearn.ing/course/csm-exam-practice-tests
-
-
-
-221. ITIL 4 HVIT Exam Mastery: 6 Practice Tests & Explanations
-
-
-https://www.easylearn.ing/course/itil-4-hvit-certification-exam
-
-
-
-222. Professional Agile Leadership Exam +1200 Quest
-ions
-
-https://www.easylearn.ing/course/professional-agile-leadership-exam
-
-
-
-223. 6 Updated Practice Tests: IASSC Exam P
-rep \[2024\]
-
-https://www.easylearn.ing/course/iassc-exam-prep-2024
-
-
-
-224. P3O Certification Exam Prep: 6 Practice Test
-s \[2024\]
-
-https://www.easylearn.ing/course/p3o-practice-tests
-
-
-
-225. Odoo 17 Certification Exam Preparation
-
-https://
-www.easylearn.ing/course/odoo-17-certification-exam-preparation
-
-
-
-226. MSP Certification Exam Prep: 6 Practice Tests
-
-h
-ttps://www.easylearn.ing/course/msp-exam-practice-tests
-
-
-
-227. Master the SPS Exam 2024: Comprehensive Certification Pr
-ep
-
-https://www.easylearn.ing/course/sps-exam-prep-course
-
-
-
-228. Scrum Developer Certification - PSD -  Practice Test -
- Exams
-
-https://www.easylearn.ing/course/psd-exam-practice-tests
-
-
-
-229. ITIL 4 CDS Exam Prep: 6 Full Practice Tests wit
-h & Questions
-
-https://www.easylearn.ing/course/itil-4-cds-exam-prep
-
-
-
-230. Diseño 3D para Videojuegos con Blender
-
-htt
-ps://www.easylearn.ing/course/curso-blender-modelado-3d-videojuegos
-
-
-
-231. Decision Trees, Random Forests, Bagging & XG
-Boost: R Studio
-
-https://www.easylearn.ing/course/decision-trees-r-studio
-
-
-
-232. The Complete Android & Kotlin App Deve
-lopment A-Z Bootcamp
-
-https://www.easylearn.ing/course/android-app-development-kotlin-bootcamp
-
-
-
-233. Como Vender en AM
-AZON FBA Completo Paso a Paso, Español 2025
-
-https://www.easylearn.ing/course/curso-amazon-fba-espanol
-
-
-
-234. Personal 
-Finance #11-Stock Investment -Equity Investments
-
-https://www.easylearn.ing/course/stock-investment-guide
-
-
-
-235. Organi
-c Digital Marketing: The Updated 2024 Masterclass
-
-https://www.easylearn.ing/course/youtube-marketing-mastery
-
-
-
-236. Sa
-lesforce Advanced Administrator ADM-301 Mock Exams | 2024
-
-https://www.easylearn.ing/course/salesforce-advanced-administ
-rator-adm-301-practice-exams
-
-
-
-237. React & Next.js: From Beginner to Pro in No Time
-
-https://www.easylearn.ing/course/
-react-nextjs-course
-
-
-
-238. Blueprint For Successful  Microservices & API Implementation
-
-https://www.easylearn.ing/cour
-se/microservices-api-deployment-declarative-configuration
-
-
-
-239. Harnessing AI and Machine Learning for Geospatial Anal
-ysis
-
-https://www.easylearn.ing/course/geospatial-analysis-ai
-
-
-
-240. Master JavaScript, HTML, and CSS with 30 Projects 
-in 30 Days
-
-https://www.easylearn.ing/course/30-projects-in-30-days
-
-
-
-241. Complete Payroll Management in Excel &TALLY 
-ERP9 &TallyPrime
-
-https://www.easylearn.ing/course/payroll-management-excel-tally
-
-
-
-242. Elementor Hosting 2024: Crea u
-na Tienda Online con WordPress
-
-https://www.easylearn.ing/course/elementor-hosting-wordpress-tienda-online
-
-
-
-243. Compr
-ehensive C# Programming Practice Test: Code Mastery
-
-https://www.easylearn.ing/course/c-sharp-programming-practice-test
-
-
-
-
-244. Proyecto Java NetBeans: Control de Versiones con Git, GitHub
-
-https://www.easylearn.ing/course/curso-git-github-
-netbeans-java
-
-
-
-245. Salesforce Marketing Cloud Email/Admin/Consultant Training
-
-https://www.easylearn.ing/course/sales
-force-marketing-cloud-certification-training
-
-
-
-246. Seven Quality Control Tools to improve everyday performance.
-
-https
-://www.easylearn.ing/course/quality-control-tools
-
-
-
-247. Aprende WPF y MAUI desde CERO usando C#
-
-https://www.easylearn
-.ing/course/curso-wpf-maui-c-sharp
-
-
-
-248. 17 in 1: Complete Personal Transformation Masterclass
-
-https://www.easylearn.
-ing/course/personal-transformation-masterclass
-
-
-
-249. Python for Scientific Research
-
-https://www.easylearn.ing/course/
-python-for-scientific-research
-
-
-
-250. Master Content Creation : Become a paid Content Creator
-
-https://www.easylearn.in
-g/course/content-creation-mastery
-
-
-
-251. AWS Certified Machine Learning Engineer - Associate | Exams
-
-https://www.easyl
-earn.ing/course/aws-certified-machine-learning-engineer-associate-exam-prep
-
-
-
-252. Master CDPSE: Certified Data Privacy
- Solutions Engineer
-
-https://www.easylearn.ing/course/cdpse-certification-course
-
-
-
-253. Network Mastery for Ethical Hac
-kers
-
-https://www.easylearn.ing/course/ethical-hacking-network-security
-
-
-
-254. Burp Suite Mastery: From Beginner to Adv
-anced
-
-https://www.easylearn.ing/course/burp-suite-mastery
-
-
-
-255. PMI-PBA Exam Ready: Practice Tests for Business Analy
-sts
-
-https://www.easylearn.ing/course/pmi-pba-exam-prep
-
-
-
-256. Supercharging your business with AI tools
-
-https://www.e
-asylearn.ing/course/ai-for-business-growth
-
-
-
-257. Comment ne plus échouer ? Le système de la réussite
-
-https://www.easy
-learn.ing/course/reussir-guide-ultime-potentiel
-
-
-
-258. CSO Chief Security Officer Executive Certification
-
-https://www.
-easylearn.ing/course/cso-certification-assessment
-
-
-
-259. Word Wizard : Using Microsoft Word Like a Pro in 2024
-
-https:/
-/www.easylearn.ing/course/word-for-beginners-advanced
-
-
-
-260. Practice Tests | AWS Certified Solutions Architect Associa
-te
-
-https://www.easylearn.ing/course/aws-solutions-architect-associate-practice-tests
-
-
-
-261. Build Your English A2 to B
-1 through Story-Based Learning
-
-https://www.easylearn.ing/course/english-a2-b1-course
-
-
-
-262. Finanzmodellierung: Vollst
-ändiger Finanzkurs in Excel
-
-https://www.easylearn.ing/course/finanzmodellierung-excel-kurs
-
-
-
-263. Financial Modeling: 
-Complete Finance Course on Excel
-
-https://www.easylearn.ing/course/financial-modeling-course-excel
-
-
-
-264. Modelagem Fin
-anceira, Finanças e Gestão financeira no Excel
-
-https://www.easylearn.ing/course/modelagem-financeira-excel
-
-
-
-265. Mode
-lización financiera: curso completo de finanzas en Excel
-
-https://www.easylearn.ing/course/curso-modelacion-financiera-e
-xcel
-
-
-
-266. Email Etiquette: Essential Skill for Corporate Communication
-
-https://www.easylearn.ing/course/email-etique
-tte-corporate-communication
-
-
-
-267. The Ultimate Google Tag Manager Course: Beginner to Advanced
-
-https://www.easylearn.
-ing/course/learn-google-tag-manager
-
-
-
-268. Tech Lead & Staff Engineer Survival Primer in 75 mins
-
-https://www.easylearn
-.ing/course/tech-lead-mastery
-
-
-
-269. Financial Modeling on Excel Complete finance course on Excel
-
-https://www.easylear
-n.ing/course/financial-modeling-excel-course
-
-
-
-270. ChatGPT & IA : Formation complète ChatGPT, Dall-e
-
-https://www.easy
-learn.ing/course/chatgpt-formation-complete
-
-
-
-271. \[New\]  VMware Certified Professional - VCP-DTM Practice Exam
-
-http
-s://www.easylearn.ing/course/vcp-dtm-practice-exams
-
-
-
-272. Matlab course for wireless communication engineering
-
-https:
-//www.easylearn.ing/course/matlab-course-ofdm-noma
-
-
-
-273. New Microsoft AZ-900: Microsoft Azure Fundamentals Practice
-
-
-https://www.easylearn.ing/course/azure-fundamentals-practice-tests
-
-
-
-274. \[New\] - AZ-104 Microsoft Azure Administrato
-r-Practice Test
-
-https://www.easylearn.ing/course/microsoft-azure-administrator-practice-exams
-
-
-
-275. New Business Anal
-yst Certification (PMI-PBA)
-
-https://www.easylearn.ing/course/pmi-pba-certification-prep
-
-
-
-276. Google Cloud Network En
-gineer (PCNE) Full Practice Exams
-
-https://www.easylearn.ing/course/google-cloud-network-engineer-pcne-certification
-
-
-
-
-277. Sales Crash Course - B2B Sales Skills & Business Development
-
-https://www.easylearn.ing/course/b2b-sales-training
-
-
-
-
-278. SC-400 Certification Challenge: Essential Practice Tests
-
-https://www.easylearn.ing/course/sc-400-certification-p
-ractice-tests
-
-
-
-279. IBM watsonx Generative AI Engineer Associate - Exams
-
-https://www.easylearn.ing/course/ibm-watsonx
--generative-ai-engineer-associate-exam-prep
-
-
-
-280. Mastering GitLab Building Continuous Integration Pipelines
-
-https://
-www.easylearn.ing/course/gitlab-ci-cd-course
-
-
-
-281. Data Analytics Masters - From Basics To Advanced
-
-https://www.easyl
-earn.ing/course/data-analytics-masterclass
-
-
-
-282. Basic Electronics - Test your knowledge. (Multiple Choice)
-
-https://w
-ww.easylearn.ing/course/electronics-fundamentals-quiz
-
-
-
-283. AWS Certified DevOps Engineer - Professional DOP-C02
-
-http
-s://www.easylearn.ing/course/aws-devops-engineer-professional-dop-c02-practice-exam
-
-
-
-284. Windows 10 Services Administ
-ration and Troubleshooting
-
-https://www.easylearn.ing/course/windows-10-services-administration
-
-
-
-285. CCNA (Cisco Cert
-ified Network Associate) Practice Exams 2024
-
-https://www.easylearn.ing/course/ccna-practice-exams
-
-
-
-Deals number 286 t
-o 996 can be found on:
-
-https://www.easylearn.ing/
-
-
-```
----
-
-     
- 
-all -  [ How I want to combine my passion for soccer with data analysis and AI - your opinion ](https://www.reddit.com/r/computervision/comments/1fxabx6/how_i_want_to_combine_my_passion_for_soccer_with/) , 2024-10-09-0912
-```
-Hello everyone,
-
-I have been working as a freelancer in the field of data analysis for about a year now and during this 
-time I have intensively acquired Python and Langchain, with which I have already implemented some smaller projects. My p
-rofessional background, however, is in soccer, where I worked for many years as a youth coach and video analyst for prof
-essional teams.
-
-Recently, I have been thinking hard about how I can combine my passion for soccer with my current skill
-s in data and AI. I find computer vision projects in soccer particularly exciting, for example for tactical analysis, pl
-ayer development or training optimization.
-
-The areas of application in this field are extremely diverse and I am convin
-ced that there is a growing market and strong demand for this. However, as I am still new to this area, I would be very 
-happy to receive your feedback and assessments - especially regarding the current market and possible entry points.
-
-Bes
-t regards from Brazil/Germany
-
-Philipp
-```
----
-
-     
- 
-all -  [ [Feedback Needed] 🤖 SparkPrompt - Prompt Engineering Simulator  ](https://www.reddit.com/r/ChatGPT/comments/1fx8oj3/feedback_needed_sparkprompt_prompt_engineering/) , 2024-10-09-0912
-```
-Hey everyone! 👋 I’ve built SparkPrompt, a tool that generates, evaluates, and refines prompts using LangChain and the Ge
-mini API. Whether you're an educator, researcher, or just need creative prompts, this tool has you covered!
-
-You just ne
-ed a Gemini API key, which you can get for free from Google AI Studio to use this application!
-
-Try it here: [SparkPromp
-t](https://sparkprompt.streamlit.app/) 
-
-Looking for feedback on:
-
-1. Usability
-
-2. Functionality
-
-3. Suggestions for im
-provement
-
-
-Feel free to check the ReadMe for how to use the tool on GitHub: [SparkPrompt Repo](https://github.com/Nitin
--Sagar-B/SparkPrompt)
-
-Thank you so much for your valuable time and I look forward to your feedback!
-```
----
-
-     
- 
-all -  [ [Feedback needed] 🤖 SparkPrompt - Prompt Writing Simulator ](https://www.reddit.com/r/aipromptprogramming/comments/1fx8meu/feedback_needed_sparkprompt_prompt_writing/) , 2024-10-09-0912
-```
-Hey everyone! 👋 I’ve built SparkPrompt, a tool that generates, evaluates, and refines prompts using LangChain and the Ge
-mini API. Whether you're an educator, researcher, or just need creative prompts, this tool has you covered!
-
-You just ne
-ed a Gemini API key, which you can get for free from Google AI Studio to use this application!
-
-Try it here: [SparkPromp
-t](https://sparkprompt.streamlit.app/) 
-
-Looking for feedback on:
-
-1. Usability
-
-2. Functionality
-
-3. Suggestions for im
-provement
-
-
-
-Feel free to check the ReadMe for how to use the tool on GitHub: [SparkPrompt Repo](https://github.com/Niti
-n-Sagar-B/SparkPrompt)
-```
----
-
-     
- 
-all -  [ Philosophy major looking for dev helper ](https://www.reddit.com/r/LLMDevs/comments/1fx4m47/philosophy_major_looking_for_dev_helper/) , 2024-10-09-0912
-```
-Hi ! I am currently a research assistant working on a RAG project to test quality, response elements and validity of dif
-ferent models when answering philosophy related questions. As of now the plan the project logic is closely related to th
-e one presented in *An Automatic Ontology Generation Framework with An Organizational Perspective* \[[Elnagar (2020)](ht
-tps://arxiv.org/pdf/2201.05910)\]. The gist of it as far as I understood is to generate a knowledge graph from an unstru
-ctured corpus, from which we make domain-specific ontology. 
-
-
-
-This two-step program has a bunch of advantages detailed
- in the paper but one specific to this research project is to allow for hybrid KG and ontology generation, for domain-sp
-ecific experts to be involved in knowledge integration. This is important in philosophy since discussed relations are of
-ten very abstract. It would also be useful to monitor the evolution of semantic networks in the knowledge graph as in *A
-rchitecture and evolution of semantic networks in mathematics texts* \[[Christianson et. al (2020)](https://www.research
-gate.net/publication/343288312_Architecture_and_evolution_of_semantic_networks_in_mathematics_texts)\]. 
-
-
-
-As of now th
-e corpus has been manually collected, but future implementations of this project may include a module that collects key 
-text of a domain from anna's archive API or something adjacent. I did try making some stuff up in a notebook and succeed
-ed in some basic things, like word-cloud generation and [semantic hyper-graphs](https://graphbrain.net/). 
-
-
-
-However, I
- would like for this project to move faster than I alone can do it, hence this post. I am a philosophy major and I simpl
-y have too much stuff to figure out that is trivial to most of you, I don't even know how to use langchain ffs. I would 
-still like to be highly involved in the process since I love to learn and it's important to me to get better at these th
-ings. 
-
-
-
-Depending on affinities this may or may not evolves in a longer collaborative relationship since I often use c
-ode-adjacent ideas in my personal research *à la* Peter Naur, but this is beside the point for this post. Please contact
- me at [shrekrequiem@proton.me](mailto:shrekrequiem@proton.me) if you are interested. If this isn't the place for this I
- would also be highly thankful to redirect me to other subreddits or online spaces where this would be more appropriate.
- 
-```
----
-
-     
- 
-all -  [ Question About Agent Toolkits and Contributing to Agent tools ](https://www.reddit.com/r/LangChain/comments/1fwuyty/question_about_agent_toolkits_and_contributing_to/) , 2024-10-09-0912
-```
-For context, I'm basically a beginner at the LangChain codebase and want to find ways to contribute towards open source.
- Currently, I'm looking into contributing a Spotify tool for agents to use, but had a question about the file structure.
-
-
-Under `libs/community/langchain_community/tools` exists all the tools that I'm assuming an agent can use, but not all 
-of these tools have toolkits under `libs/community/langchain_community/agent_toolkits`.
-
-So What are these toolkits exac
-tly, and why would some of the implemented tools need them compared to others?
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-09-0912
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-10-0912
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -7557,7 +4183,7 @@ I'm sure some teams already have good systems for this, would appreciate pointer
 
      
  
-MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-09-0912
+MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-10-0912
 ```
 GitHub repo : [https://github.com/shaRk-033/web-agent](https://github.com/shaRk-033/web-agent)
 
@@ -7596,7 +4222,7 @@ hear them. :)
 
      
  
-MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-09-0912
+MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-10-0912
 ```
 How tightly coupled is an embedding model to a language model?
 
@@ -7616,7 +4242,7 @@ ama3.1 ingest the embeddings?
 
      
  
-deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-09-0912
+deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-10-0912
 ```
 I want to implement a Code-RAG system on a code directory where I need to:
 
