@@ -1,5 +1,254 @@
  
-all -  [ Profile evaluation and Uni shortlist help for Fall'25  ](https://www.reddit.com/r/MSCS/comments/1g144es/profile_evaluation_and_uni_shortlist_help_for/) , 2024-10-14-0913
+all -  [ Does Grokking show that Scale will be enough to get LLMs to AGI? ](https://www.reddit.com/r/ChatGPT/comments/1g3eati/does_grokking_show_that_scale_will_be_enough_to/) , 2024-10-15-0913
+```
+Currently, there has been a lot of debate about whether LLMs truly reason or just memorize their training data (see this
+ recent paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large 
+Language Models (arxiv.org)](https://arxiv.org/abs/2410.05229)).
+
+On the other hand, there have been numerous papers sho
+wing that models can generalize if trained beyond the point where they overfit, known as '**grokking**' ([Towards Unders
+tanding Grokking: An Effective Theory of Representation Learning (neurips.cc)](https://proceedings.neurips.cc/paper_file
+s/paper/2022/hash/dfc310e81992d2e4cedc09ac47eff13e-Abstract-Conference.html)).
+
+Based on grokking, we could argue that i
+f we just train current LLMs enough, they will always converge to generalization. Seemingly, **memorization is just a lo
+cal minimum** in which it can get stuck, and the true **global minimum is generalization**.
+
+How is this possible if mem
+orization is already giving near-perfect performance on the dataset for a **specific task**? Well, by looking at overall
+ performance as opposed to task-specific performance, you can imagine how generalizing helps the model increase its over
+all performance:
+
+1. Generalizations use less parameter space than memorization, which the model then can use for other 
+tasks, increasing its overall performance (reduction in effective dimension by generalization [\[2205.10343\] Towards Un
+derstanding Grokking: An Effective Theory of Representation Learning (arxiv.org)](https://arxiv.org/abs/2205.10343))
+2. 
+Generalizations from one task can increase the performance on another unrelated task, increasing its overall performance
+ (a recent paper shows that GPT models get better at chess and reasoning by looking at the emergent behavior of cellular
+ automata: [Intelligence at the Edge of Chaos (arxiv.org)](https://arxiv.org/html/2410.02536)).
+
+But then what happens i
+f we grok the model not on a specific task, but on **all its data**? We can imagine that it would just memorize the whol
+e dataset, without being incentivized to generalize since it now has near-perfect performance on the whole dataset. In t
+his case, where the **global minimum is memorization**, the model can still reach generalization by changing the loss la
+ndscape using **weight-decay / regularization**. Regularization punishes big weights, forcing the model to prefer simple
+r solutions, reducing the minima around memorization, while leaving the minima around generalization intact. This will g
+eneralize the new global minima.
+
+Considering this convergence towards generalization over training time, for both task-
+specific and overall performance, could we assume that scaling will logically make models generalize over time? In other
+ words, is scale really all we need to AGI? Or is there a flaw in my reasoning, grokking is not the end-all-be-all and w
+e will need new breakthroughs to get to AGI.
+```
+---
+
+     
+ 
+all -  [ Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/ArtificialInteligence/comments/1g3d6kf/will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-15-0913
+```
+Currently there has been a lot of debate whether LLMs truly reason or just memorize their training data (see this recent
+ paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Languag
+e Models (arxiv.org)](https://arxiv.org/abs/2410.05229)).
+
+On the other hand, there has been numerous papers showing tha
+t models can generalize, if trained beyond the point where they overfit, known as 'grokking' ([Towards Understanding Gro
+kking: An Effective Theory of Representation Learning (neurips.cc)](https://proceedings.neurips.cc/paper_files/paper/202
+2/hash/dfc310e81992d2e4cedc09ac47eff13e-Abstract-Conference.html)).
+
+Based on grokking, we could argue that if we just t
+rain current LLMs enough, they will always converge to generalization. Seemingly, memorization is just a local minima in
+ which it can get stuck, and the true global minima is generalization.
+
+How is this possible if memorization is already 
+giving near perfect performance on the dataset for a specific task? Well, by looking at overall performance opposed to t
+ask-specific performance, you can imagine how generalizing helps the model increase its overall performance:
+
+1. General
+izations use less parameter space than memorization, which the model then can use for other tasks, increasing its overal
+l performance (reduction in effective dimension by generalization [\[2205.10343\] Towards Understanding Grokking: An Eff
+ective Theory of Representation Learning (arxiv.org)](https://arxiv.org/abs/2205.10343))
+2. Generalizations from one tas
+k can increase the performance on another unrelated task, increasing its overall performance (recent paper shows that GP
+T models get better at chess and reasoning by looking at the emergent behaviour of cellular automata: [Intelligence at t
+he Edge of Chaos (arxiv.org)](https://arxiv.org/html/2410.02536)).
+
+But then what happens if we grok the model not on a 
+specific task, but on all its data? We can imagine that it would just memorize the whole dataset, without being incentiv
+ised to make generalization since it now has near perfect performance on the whole dataset. In this case, where the glob
+al minima is memorization, the model can still reach generalization by changing the loss landscape using weight-decay / 
+regularization. Regularization punishes big weights, forcing the model to prefer simpler solutions, reducing the minima 
+around memorization, while leaving the minima around generalization in tact. This will make generalization the new globa
+l minima.
+
+Considering this convergence towards generalization over training time, for both task-specific as overall per
+formance, could we assume that scaling will logically make models generalize over time? In other words, is scale really 
+all we need to AGI? 
+```
+---
+
+     
+ 
+all -  [ [D] Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/MachineLearning/comments/1g3cumr/d_will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-15-0913
+```
+Currently there has been a lot of debate whether LLMs truly reason or just memorize their training data (see this recent
+ paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Languag
+e Models (arxiv.org)](https://arxiv.org/abs/2410.05229)).
+
+On the other hand, there has been numerous papers showing tha
+t models can generalize, if trained beyond the point where they overfit, known as '**grokking**' ([Towards Understanding
+ Grokking: An Effective Theory of Representation Learning (neurips.cc)](https://proceedings.neurips.cc/paper_files/paper
+/2022/hash/dfc310e81992d2e4cedc09ac47eff13e-Abstract-Conference.html)).
+
+Based on grokking, we could argue that if we ju
+st train current LLMs enough, they will always converge to generalization. Seemingly, **memorization is just a local min
+ima** in which it can get stuck, and the true **global minima is generalization**.
+
+How is this possible if memorization
+ is already giving near perfect performance on the dataset for a **specific task**? Well, by looking at overall performa
+nce opposed to task-specific performance, you can imagine how generalizing helps the model increase its overall performa
+nce:
+
+1. Generalizations use less parameter space than memorization, which the model then can use for other tasks, incre
+asing its overall performance (reduction in effective dimension by generalization [\[2205.10343\] Towards Understanding 
+Grokking: An Effective Theory of Representation Learning (arxiv.org)](https://arxiv.org/abs/2205.10343))
+2. Generalizati
+ons from one task can increase the performance on another unrelated task, increasing its overall performance (recent pap
+er shows that GPT models get better at chess and reasoning by looking at the emergent behaviour of cellular automata: [I
+ntelligence at the Edge of Chaos (arxiv.org)](https://arxiv.org/html/2410.02536)).
+
+But then what happens if we grok the
+ model not on a specific task, but on **all its data**? We can imagine that it would just memorize the whole dataset, wi
+thout being incentivised to make generalization since it now has near perfect performance on the whole dataset. In this 
+case, where the **global minima is memorization**, the model can still reach generalization by changing the loss landsca
+pe using **weight-decay / regularization**. Regularization punishes big weights, forcing the model to prefer simpler sol
+utions, reducing the minima around memorization, while leaving the minima around generalization in tact. This will make 
+generalization the new global minima.
+
+Considering this convergence towards generalization over training time, for both 
+task-specific as overall performance, could we assume that scaling will logically make models generalize over time? In o
+ther words, is scale really all we need to AGI? Or is there a flaw in my reasoning, grokking is not the end-all-be-all a
+nd we will need new breakthroughs to get to AGI?
+```
+---
+
+     
+ 
+all -  [ University Recommendations for AI/ML Specialization in Europe ](https://www.reddit.com/r/learnmachinelearning/comments/1g39xgf/university_recommendations_for_aiml/) , 2024-10-15-0913
+```
+Hi everyone,
+
+I’m a 25-year-old ML Engineer from India with a Bachelor's in CS from a tier-3 college (8.56 CGPA). I have
+ 4 years of experience working in a French telecom organization, focusing on pure research projects. My work has led to 
+2 research papers (one at a main conference and one workshop paper) in IEEE NOMS, as well as a tutorial I presented at I
+CIN, Paris. Most of my research revolves around Reinforcement Learning (RL).
+
+# Career Goals:
+
+I aim to pursue a career 
+in intensive research roles in AI/ML. My long-term goal is to get a PhD in RL and control theory. However, I want to fir
+st build a solid foundation, especially in the underlying mathematics, by completing a master’s program in AI/ML.
+
+# Why
+ Europe?
+
+I’m leaning toward Europe over the US for a few reasons:
+
+* I plan to eventually live and work in Europe.
+* Pr
+oximity to family in India.
+* The lower cost of master’s programs.
+
+# Excluding the UK for Master's:
+
+I am not consideri
+ng the UK due to the shorter 1-year Master's program duration, which I feel may be insufficient, and the higher costs. I
+ may go to the UK if it is for a PhD.
+
+# What I’m Looking For:
+
+I'm seeking universities in Europe with strong internati
+onal reputations and rankings that can provide a good pathway to a PhD. So far, I’m considering:
+
+* University of Amster
+dam
+* ETH Zurich
+* EPFL
+
+I’ve been basing my choices on QS rankings and the number of publications these universities ha
+ve in key AI/ML conferences (e.g., NeurIPS, ICML).
+
+I am targeting Autumn 2025 admission. Considering the low acceptance
+ rates of ETH and EPFL and approaching deadlines for them. I’d love to hear any recommendations for other universities I
+ should consider.
+
+P.S. Can someone throw the light on whether I go for PhD directly or should pursue a master's first? 
+I feel if I go for PhD directly, I will be left with some knowledge gap.
+```
+---
+
+     
+ 
+all -  [ Chance an underperforming Asian ](https://www.reddit.com/r/chanceme/comments/1g35v1n/chance_an_underperforming_asian/) , 2024-10-15-0913
+```
+**Demographics**:
+
+* mid to low comp HS, 250 ish grad class
+* Asian
+* I play chess?
+* Econ or CS
+
+**GPA**: 3.7 W(Struggl
+ed with Depression and certain tendencies, bounced around therapist offices freshman sophomore year. Locked in and made 
+drastic improvements in gpa)
+
+No rank
+
+7 APs, 8 Tests
+
+SAT - 1510 composite
+
+**Awards**:
+
+* AP scholar with honors
+* hon
+or roll
+* Top 100 nationally ranked chess players In age groups for the past 4 years
+* USCF candidate master
+* top 1k [c
+hess.com](http://chess.com) rapid global?(idk if I want to add this)
+
+**ECs(nốt ordered yet):**
+
+* High School Chess lea
+gue president - 20+ schools, 100+ participants,  $1k+ raised
+* 1st author to Novel Ai paper - published and submitted to
+ conferences like Neurips + COLING
+* Chess Club president - 3 peat champion in regional league, top 5 teams in State
+* D
+ECA - 3x state qualifier
+* Motorola Solutions Intern - made a REST API for one of their apps in prod
+* Paid Chess coach 
+- Apart of non-profit group for underprivileged youth in chicago(not from there did remote)
+* Volunteer Chess Coach - vo
+lunteered apart of local chess academy, 200 ish hours over the 4 years
+* Wrestling - Varsity
+* SASA(south asian student 
+association) treasurer - raised 10k from sponsors and events, provided scholarships for the first year to south asian st
+udents
+* Inspirit AI scholars program(free) - Made Chess bot with GPT 4o capable of playing at an expert level
+
+**Colleg
+es**:  
+Udubs, Umass, Umich, UMD, UW Madison, BC, BU, NEU, Ohio State, Penn State, Purdue, IU, Vtech, UPitt, RIT, Bentle
+y
+
+Majors are varied between Econ or CS with focus in AI
+```
+---
+
+     
+ 
+all -  [ Profile evaluation and Uni shortlist help for Fall'25  ](https://www.reddit.com/r/MSCS/comments/1g144es/profile_evaluation_and_uni_shortlist_help_for/) , 2024-10-15-0913
 ```
 Hi everyone, I'm planning on applying to US Unis for Fall'25 intake, mainly for MS CS and probably MS DS in a few(not de
 cided on that yet) and would love to get any opinions on my chances/where to apply.
@@ -38,7 +287,7 @@ eally confused about my shortlist. Any help/advice regarding any aspects will be
 
      
  
-all -  [ NeurIPS 2024 Workshop on Creativity & Generative AI | NeurIPS 2024 Workshop on Generative AI and Cre ](https://creativity-ai.github.io/) , 2024-10-14-0913
+all -  [ NeurIPS 2024 Workshop on Creativity & Generative AI | NeurIPS 2024 Workshop on Generative AI and Cre ](https://creativity-ai.github.io/) , 2024-10-15-0913
 ```
 
 ```
@@ -46,7 +295,7 @@ all -  [ NeurIPS 2024 Workshop on Creativity & Generative AI | NeurIPS 2024 Work
 
      
  
-all -  [ Low Undergrad Gpa decent exp? concerned about my chances? Should I do Gre? ](https://www.reddit.com/r/gradadmissions/comments/1fzj4wb/low_undergrad_gpa_decent_exp_concerned_about_my/) , 2024-10-14-0913
+all -  [ Low Undergrad Gpa decent exp? concerned about my chances? Should I do Gre? ](https://www.reddit.com/r/gradadmissions/comments/1fzj4wb/low_undergrad_gpa_decent_exp_concerned_about_my/) , 2024-10-15-0913
 ```
 Hey guys  
 I am an undergrad in ECE at a top 5 school with a 3.37 GPA and internship experience at a FAANG company. I am
@@ -86,7 +335,7 @@ Would love to hear any feedback on my school list or
 
      
  
-all -  [ [Article] HiCoM: Hierarchical Coherent Motion for Dynamic Streamable Scenes with 3D Gaussian Splatti ](https://www.reddit.com/r/Scholar/comments/1fzgn8o/article_hicom_hierarchical_coherent_motion_for/) , 2024-10-14-0913
+all -  [ [Article] HiCoM: Hierarchical Coherent Motion for Dynamic Streamable Scenes with 3D Gaussian Splatti ](https://www.reddit.com/r/Scholar/comments/1fzgn8o/article_hicom_hierarchical_coherent_motion_for/) , 2024-10-15-0913
 ```
 NeurIPS [https://nips.cc/virtual/2024/poster/96081](https://nips.cc/virtual/2024/poster/96081)
 ```
@@ -94,7 +343,7 @@ NeurIPS [https://nips.cc/virtual/2024/poster/96081](https://nips.cc/virtual/2024
 
      
  
-all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/deeplearning/comments/1fy6enm/some_research_papers_we_read_recently/) , 2024-10-14-0913
+all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/deeplearning/comments/1fy6enm/some_research_papers_we_read_recently/) , 2024-10-15-0913
 ```
 Hey everyone, here is the list of papers we discussed and their summaries this week. If you find these summaries useful,
  feel free to contribute your own! The repo is constantly updated with new papers from major conferences, so it's a grea
@@ -126,7 +375,7 @@ y reading! 🎉
 
      
  
-all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/u_vlg_iitr/comments/1fy6a5e/some_research_papers_we_read_recently/) , 2024-10-14-0913
+all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/u_vlg_iitr/comments/1fy6a5e/some_research_papers_we_read_recently/) , 2024-10-15-0913
 ```
 Hey everyone, here is the list of papers we discussed and their summaries this week. If you find these summaries useful,
  feel free to contribute your own! The repo is constantly updated with new papers from major conferences, so it's a grea
@@ -159,7 +408,7 @@ appy reading! 🎉
 
      
  
-all -  [ [0 YoE, Student, ML Research/SWE Internship, USA] ](https://www.reddit.com/r/resumes/comments/1fy0sj4/0_yoe_student_ml_researchswe_internship_usa/) , 2024-10-14-0913
+all -  [ [0 YoE, Student, ML Research/SWE Internship, USA] ](https://www.reddit.com/r/resumes/comments/1fy0sj4/0_yoe_student_ml_researchswe_internship_usa/) , 2024-10-15-0913
 ```
 Hi! I've never made a resume before, so this one isn't ATS optimized yet, way too long, and imo very uninteresting for a
 n interviewer or recruiter to look at. I'm in my junior year, so it's the time to fix all that for internships and resea
@@ -187,7 +436,7 @@ a couple advisors. But im concerned that people will see i'm a student and and w
 
      
  
-all -  [ Are IEEE/CVF the top conferences for CV/Image Processing? ](https://www.reddit.com/r/computervision/comments/1fxfwpo/are_ieeecvf_the_top_conferences_for_cvimage/) , 2024-10-14-0913
+all -  [ Are IEEE/CVF the top conferences for CV/Image Processing? ](https://www.reddit.com/r/computervision/comments/1fxfwpo/are_ieeecvf_the_top_conferences_for_cvimage/) , 2024-10-15-0913
 ```
 As the title say, are IEEE/CVF to CV what ICLR, ICML, NeurIPS are to AI?
 ```
@@ -195,7 +444,7 @@ As the title say, are IEEE/CVF to CV what ICLR, ICML, NeurIPS are to AI?
 
      
  
-all -  [ approved I797-A but expired visa stamp; travel to Canada for 6 days? ](https://www.reddit.com/r/h1b/comments/1fx81is/approved_i797a_but_expired_visa_stamp_travel_to/) , 2024-10-14-0913
+all -  [ approved I797-A but expired visa stamp; travel to Canada for 6 days? ](https://www.reddit.com/r/h1b/comments/1fx81is/approved_i797a_but_expired_visa_stamp_travel_to/) , 2024-10-15-0913
 ```
 Hi, my H1-B visa stamp on my passport expired on Aug 6, 2023.
 
@@ -224,7 +473,7 @@ ll be via flight. Please advise.
 
      
  
-all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://www.reddit.com/r/learnmachinelearning/comments/1fwpt7r/consent_in_crisis_neurips_2024_paper_summary_via/) , 2024-10-14-0913
+all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://www.reddit.com/r/learnmachinelearning/comments/1fwpt7r/consent_in_crisis_neurips_2024_paper_summary_via/) , 2024-10-15-0913
 ```
 [https://www.youtube.com/watch?v=1I-ABssKrps](https://www.youtube.com/watch?v=1I-ABssKrps)
 ```
@@ -232,7 +481,7 @@ all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://w
 
      
  
-all -  [ LASR Labs (technical AIS research programme) applications open until Oct 27th ](https://www.reddit.com/r/ControlProblem/comments/1fw5k1d/lasr_labs_technical_ais_research_programme/) , 2024-10-14-0913
+all -  [ LASR Labs (technical AIS research programme) applications open until Oct 27th ](https://www.reddit.com/r/ControlProblem/comments/1fw5k1d/lasr_labs_technical_ais_research_programme/) , 2024-10-15-0913
 ```
 🚨**LASR Labs: Spring research programme in AI Safety** 🚨
 
@@ -274,7 +523,7 @@ We’re looking for candidates with \~2 years experience in relevant postgraduat
 
      
  
-all -  [ [D] Option to make NeurIPS rejected paper reviews public? ](https://www.reddit.com/r/MachineLearning/comments/1fvy0n4/d_option_to_make_neurips_rejected_paper_reviews/) , 2024-10-14-0913
+all -  [ [D] Option to make NeurIPS rejected paper reviews public? ](https://www.reddit.com/r/MachineLearning/comments/1fvy0n4/d_option_to_make_neurips_rejected_paper_reviews/) , 2024-10-15-0913
 ```
 The decision notification e-mail from NeurIPS mentioned that we would be offered the option to opt in to publicly releas
 ing reviews for a rejected paper and that instructions would follow in a few days.
@@ -289,7 +538,7 @@ t yet received any e-mail nor is there any author task to opt in. Since last yea
 
      
  
-all -  [ [R] Announcing the first series of Liquid Foundation Models (LFMs) – a new generation of generative  ](https://www.reddit.com/r/MachineLearning/comments/1fvgo7o/r_announcing_the_first_series_of_liquid/) , 2024-10-14-0913
+all -  [ [R] Announcing the first series of Liquid Foundation Models (LFMs) – a new generation of generative  ](https://www.reddit.com/r/MachineLearning/comments/1fvgo7o/r_announcing_the_first_series_of_liquid/) , 2024-10-15-0913
 ```
 https://www.liquid.ai/liquid-foundation-models
 
@@ -405,7 +654,7 @@ al networks [Wang et al. CoRL 2023], and the state-of-the-art dataset distillati
 
      
  
-all -  [ Bringing Learning to Rank to Reddit - LTR modeling ](https://www.reddit.com/r/RedditEng/comments/1ft1tkw/bringing_learning_to_rank_to_reddit_ltr_modeling/) , 2024-10-14-0913
+all -  [ Bringing Learning to Rank to Reddit - LTR modeling ](https://www.reddit.com/r/RedditEng/comments/1ft1tkw/bringing_learning_to_rank_to_reddit_ltr_modeling/) , 2024-10-15-0913
 ```
 *Written by Sahand Akbari.*
 
@@ -634,7 +883,7 @@ thing we aim to discuss in a future blog post. So stay tuned!
 
      
  
-all -  [ MSCS FALL'25 Profile evaluation ](https://www.reddit.com/r/MSCS/comments/1ft08a6/mscs_fall25_profile_evaluation/) , 2024-10-14-0913
+all -  [ MSCS FALL'25 Profile evaluation ](https://www.reddit.com/r/MSCS/comments/1ft08a6/mscs_fall25_profile_evaluation/) , 2024-10-15-0913
 ```
 # Country:
 
@@ -683,7 +932,7 @@ nisota
 
      
  
-all -  [ [D] Resources for staying updated on recent papers ](https://www.reddit.com/r/MachineLearning/comments/1fsx8q2/d_resources_for_staying_updated_on_recent_papers/) , 2024-10-14-0913
+all -  [ [D] Resources for staying updated on recent papers ](https://www.reddit.com/r/MachineLearning/comments/1fsx8q2/d_resources_for_staying_updated_on_recent_papers/) , 2024-10-15-0913
 ```
 Hello, I’m looking for time-saving ways to stay updated on the latest research papers from conferences like CVPR, ECCV, 
 NeurIPS, ICML, and journals like TPAMI. I know these conferences/journals publish cutting-edge work, but keeping track o
@@ -706,7 +955,7 @@ nce!
 
      
  
-all -  [ [R] optimizing transformers ](https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/) , 2024-10-14-0913
+all -  [ [R] optimizing transformers ](https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/) , 2024-10-15-0913
 ```
 Hello, I’m currently aiming to work on optimizing transformer models, specifically in multi-view images and/or cross-att
 ention networks. I've noticed that cross-attention layers add up a lot of parameters, which can slow down the training p
@@ -732,7 +981,7 @@ ce!
 
      
  
-all -  [ 人大附高中生中NeurIPS，入选高中赛道Spotlight，顶会真卷到中学了 ](https://www.reddit.com/r/real_China_irl/comments/1fs0z7a/人大附高中生中neurips入选高中赛道spotlight顶会真卷到中学了/) , 2024-10-14-0913
+all -  [ 人大附高中生中NeurIPS，入选高中赛道Spotlight，顶会真卷到中学了 ](https://www.reddit.com/r/real_China_irl/comments/1fs0z7a/人大附高中生中neurips入选高中赛道spotlight顶会真卷到中学了/) , 2024-10-15-0913
 ```
 NeurIPS 2024放榜，人大附中有高中生一作入选。
 
@@ -833,7 +1082,7 @@ NeurIPS是今年刚设的“高中生赛道”，主要征集“机器学习的�
 
      
  
-all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-10-14-0913
+all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-10-15-0913
 ```
 We're excited to share that our paper on BricksRL, a library of RL algorithms that can be trained and deployed on afford
 able, custom LEGO robots, has been accepted at NeurIPS 2024 as a spotlight paper!
@@ -877,7 +1126,7 @@ https://preview.redd.it/1ghfs9t9l0rd1.jpg?width=2006&format=pjpg&auto=webp&s=86
 
      
  
-all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-10-14-0913
+all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-10-15-0913
 ```
 My initial reviewers addressed some weaknesses & concerns, but these were resolved in my rebuttals. They acknowledged an
 d raised their score. 
@@ -890,7 +1139,7 @@ ything I can do to fix this program chair review?
 
      
  
-all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-10-14-0913
+all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-10-15-0913
 ```
 Hey everyone! Just a heads up that the NeurIPS 2024 decisions notification is set for September 26, 2024, at 3:00 AM CES
 T. I thought it’d be cool to create a thread where we can talk about it.
@@ -899,7 +1148,7 @@ T. I thought it’d be cool to create a thread where we can talk about it.
 
      
  
-all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-10-14-0913
+all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-10-15-0913
 ```
 My goal with graduate school is to set myself up to launch a company that produces a system of swarm robots that coopera
 te to efficiently assemble orbital infrastructure; I believe the space industry is in the process of taking off and such
@@ -937,7 +1186,7 @@ s in particular, what do you think best aligns with my goals? Thank you for any 
 
      
  
-all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-10-14-0913
+all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-10-15-0913
 ```
 Azalia Mirhoseini (CS) and Amin Saberi (Math) are jointly seeking a Post-Doc to join the [Scaling Intelligence Lab](http
 s://scalingintelligence.stanford.edu/pubs/) at Stanford, which focuses on the development of 'scalable and self-improvin
@@ -976,7 +1225,7 @@ bl7I/edit)
 
      
  
-all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-10-14-0913
+all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-10-15-0913
 ```
 Hi folks!
 
@@ -1008,7 +1257,7 @@ Thanks for all the insight!
 
      
  
-all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-10-14-0913
+all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-10-15-0913
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -1059,7 +1308,7 @@ e accessible to both beginners and experts in the field.
 
      
  
-all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-10-14-0913
+all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-10-15-0913
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -1136,7 +1385,7 @@ erts in the field.
 
      
  
-all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-10-14-0913
+all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-10-15-0913
 ```
 The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
 papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
@@ -1176,7 +1425,7 @@ By contributing, you'll help make advanced research more accessible to both begi
 
      
  
-all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-10-14-0913
+all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-10-15-0913
 ```
 **The Vision Language Group at IIT Roorkee** has put together an awesome repository of **comprehensive summaries** for d
 eep learning papers from top conferences like **NeurIPS, CVPR, ICCV, ICML (2016-2024)**. These summaries break down key 
@@ -1213,7 +1462,7 @@ Happy reading! 🎉
 
      
  
-all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-10-14-0913
+all -  [ [R] Erasing the Invisible: A Stress-Test Challenge for Image Watermarks (NeurIPS 2024 Competition) ](https://www.reddit.com/r/MachineLearning/comments/1fk90gj/r_erasing_the_invisible_a_stresstest_challenge/) , 2024-10-15-0913
 ```
 We're excited to announce the NeurIPS competition '**Erasing the Invisible: A Stress-Test Challenge for Image Watermarks
 **' running from **September 16 to November 5**. This is your chance to test your skills in a cutting-edge domain and wi
@@ -1264,7 +1513,7 @@ le@googlegroups.com) or [furongh@umd.edu](mailto:furongh@umd.edu)
 
      
  
-all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-10-14-0913
+all -  [ How to get into CS/AI related research and get a paper published in a top international publication  ](https://www.reddit.com/r/Indian_Academia/comments/1fjy5bt/how_to_get_into_csai_related_research_and_get_a/) , 2024-10-15-0913
 ```
 Qualifications: B. Tech. CSE (Tier-3 private college)   
 YOE: 1  
@@ -1278,63 +1527,10 @@ ow do I start, I'd really appreciate some feedback regarding this.
 
      
  
-all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-10-14-0913
+all -  [ [R] submitting to neurips and coling at the same time ](https://www.reddit.com/r/MachineLearning/comments/1fiivv5/r_submitting_to_neurips_and_coling_at_the_same/) , 2024-10-15-0913
 ```
 Would I be able to submit to both neurips solar and coling 2025? Coling’s policy is no journals or conferences but solar
  is a workshop and it allows dual submission.
-```
----
-
-     
- 
-all -  [ Navigating UCSD as a freshman ](https://www.reddit.com/r/u_TrainingResolution12/comments/1fg4ars/navigating_ucsd_as_a_freshman/) , 2024-10-14-0913
-```
-Hey. It is the time of the year where everyone's excited for our upcoming session. Welcome to UCSD and I hope you are do
-ing great. As a senior, I have been exposed to various handy tools to navigate college life. Here are my recommendations
-
-
-1. **Networking system**- **Discord, Slack, Instagram webpage** for the **clubs and classes** you are interested in. *
-*Piazza** good for reference to asking questions to the instructional team+class. **Cold email and Office hours** have w
-orked well in finding research jobs. **Linkedin** is great for having your online profile up top, highly recommend a pro
-fessional photograph. **X/Twitter** for following your latest research if you're into EE/AI/related fields. **Geisel, Cl
-asses, Intramural Sports and Greek Rush** are experiences that got me some good exposure to social aspects of campus (no
-t in a frat but made friends). For jobs **Handshake and Linkedin** is enough if you have a good portfolio going on. Look
- at accepted alumnis portfolio based on your goals and see what jobs fit your traits best. **Resident life events** too 
-are lit. Become a IA/SI leader. You'll have fun lol.
-2. **Offerup and Facebook Marketplace** are great for furniture and
- rentals. If you're a business nerd like me, you could also practice your negotiation skills there without anything at s
-take (LOL!). Other good things I found were **Styl App** and **Poshmark + thrift stores and stockx** if you're looking t
-o up your fashion game.
-3. **Notetaking**/**Information management-** A HIGHLY debated topic amongst students because pe
-n and paper models are outdated. I used **Apple Notes** combined with P**erplexity/Claude/GPT-4** for notetaking. The wo
-rkflow I follow is **lecture notes (typed or handwritten + screenshot)-> pdf textbook into perplexity/GPT and prompt to 
-follow textbook-> get key concepts and insights per lesson-> work on problems and use LLMs to see how and where each min
-i concept applies-> understand doubtful concepts in office hours and mail TAs/post on piazza-> reflect and add summary t
-o notes-> hold group study sessions to debate tougher questions and teach what you mastered to other students.**
-
-The wh
-ole process takes about 1 hour a day to 2 max per subject- benchmark-> math 142a. Perplexity is useful for getting searc
-h and images/videos directly from your notes and interacting with content on a deeper level, GPT is great for summary an
-d analysis. I strongly believe we should interface LLMs with learning and conventional instruction. Never rely on LLMs f
-or answers. Never cheat. libgen, **JSTOR, arXiv, nature science journal, neurIPS, internet archive** are some excellent 
-sources for articles. Geisel has some articles too that can be access with campus **VPNs.** My GPA went from a 3.2 to 4.
-0 with straight As thanks to this note taking system. It is like my second brain. I also met a few cool people this way,
- we learnt a lot together.
-
-4. **Hangouts**- The most subjective thing by far. Not a local. I intern full time rn so I b
-arely have time. The one activity i did choose was fitness and beaches because I can't keep up with studies otherwise. I
- go to 24 fitness or main gym. Ice rink close by or the mt soledad drive is a cool date idea for reference. Cool tidepoo
-ls nearby at LJ shores you can search instagram reels idk i randomly stumbled. There's some good cafes all around town g
-o on yelp. Surf spots are windansea and couple others. Convoy easily on top for asian food. Crazy bakeries and sweet sho
-ps all around little italy. Hillcrest welfare wednesdays you can do cool stuff. Indian food is good mira mesa side. Mexi
-can at Old town and near TJ. SDSU side has lit parties if you want go make friends there and get invited. PB amazing for
- food and party. Downtown has great museums. Seaworld and zoo, sd science center amazing. La Jolla Playhouse is cool. Ch
-e cafe is awesome. Gaslamp gastropubs go hard. SD padres games great hangouts you will make lots of friends. MMA PPV eve
-nts too. Weekend getaway for non locals they have a secret place at OB which I know lot of you will try goofy stuff. Rem
-ember if it takes a toll on your body and affects mental health then it is not worth it.
-
-Ah thank god for speech to tex
-t. Have fun. Went through 4 years and a lot of memories.
 ```
 ---
 

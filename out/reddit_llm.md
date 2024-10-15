@@ -1,5 +1,1171 @@
  
-all -  [ Do I need to pay for unit test with langsmith library? ](https://www.reddit.com/r/LangChain/comments/1g33fsy/do_i_need_to_pay_for_unit_test_with_langsmith/) , 2024-10-14-0913
+all -  [  Project Alice - v0.2 => open source platform for agentic workflows  ](https://www.reddit.com/r/LangChain/comments/1g3r1ol/project_alice_v02_open_source_platform_for/) , 2024-10-15-0913
+```
+Hello everyone! A few months ago I launch a project I'd been working on called Project Alice. And today I'm happy to sha
+re an incredible amount of progress, and excited to get people to try it out.
+
+To that effect, I've created a few videos
+ that show you how to install the platform and an overview of it:
+
+* [Part 1](https://www.youtube.com/watch?v=ojhcb9ADJq
+U) (11:38)
+* [Part 2](https://studio.youtube.com/video/oXGk6g_gPtU/edit) (8:38)
+
+Repository: [Link](https://github.com/M
+arianoMolina/project_alice)
+
+# What is it though?
+
+A free open source framework and platform for agentic workflows. It i
+ncludes a frontend, backend and a python logic module. It takes 5 minutes to install, no coding needed, and you get a fr
+ontend where you can create your own agents, chats, task/workflows, etc, run your tasks and/or chat with your agents. Yo
+u can use local models, or most of the most used API providers for AI generation.
+
+You don't need to know how to code at
+ all, but if you do, you have full flexibility to improve any aspect of it since its all open source. The platform has b
+een purposefully created so that it's code is comprehensible, easy to upgrade and improve. Frontend and backend are in T
+S, python module uses Pydantic almost to a pedantic level.
+
+It has a total of 22 apis at the moment:
+
+        OPENAI
+   
+     OPENAI_VISION
+        OPENAI_IMG_GENERATION
+        OPENAI_EMBEDDINGS
+        OPENAI_TTS
+        OPENAI_STT
+       
+ OPENAI_ASTT
+        AZURE
+        GEMINI
+        GEMINI_VISION
+        GEMINI_IMG_GEN => Google's sdk is broken atm
+   
+     MISTRAL
+        MISTRAL_VISION
+        MISTRAL_EMBEDDINGS
+        GEMINI_STT
+        GEMINI_EMBEDDINGS
+        COHE
+RE
+        GROQ
+        GROQ_VISION
+        GROQ_TTS
+        META
+        META_VISION
+        ANTHROPIC
+        ANTHROPI
+C_VISION
+        LM_STUDIO
+        LM_STUDIO_VISION
+        GOOGLE_SEARCH
+        REDDIT_SEARCH
+        WIKIPEDIA_SEARCH
+
+        EXA_SEARCH
+        ARXIV_SEARCH
+        GOOGLE_KNOWLEDGE_GRAPH
+
+And an uncountable number of models that you ca
+n deploy with it.
+
+It is going to keep getting better. If you think this is nice, wait until the next update drops. And 
+if you feel like helping out, I'd be super grateful. I'm about to tackle RAG and ReACT capabilities in my agents, and I'
+m sure a lot of people here have some experience with that. Maybe the idea of trying to come up with a (maybe industry?)
+ standard sounds interesting?
+
+Check out the videos if you want some help installing and understanding the frontend. Ask
+ me any questions otherwise!
+```
+---
+
+     
+ 
+all -  [ NaturalAgents - notion-style editor to easily create AI Agents ](https://www.reddit.com/r/OpenSourceAI/comments/1g3qsir/naturalagents_notionstyle_editor_to_easily_create/) , 2024-10-15-0913
+```
+[NaturalAgents](https://github.com/NaturalAgents/NaturalAgents) is the easiest way to create AI Agents in a notion-style
+ editor without code - using plain english and simple macros. It's fully open-source and will be actively maintained.
+
+H
+ow this is different from other agent builders -
+
+1. No boilerplate code (imagine langchain for multiple agents)
+2. No c
+ode experience
+3. Can easily share and build with others
+4. Readable/organized agent outputs
+5. Abstracts agent communic
+ations without visual complexity (image large drag and drop flowcharts)
+
+Would love to hear thoughts and feel free to re
+ach out if you're interested in contributing!
+```
+---
+
+     
+ 
+all -  [ Vector Store Usage for RAG ](https://www.reddit.com/r/LangChain/comments/1g3puzu/vector_store_usage_for_rag/) , 2024-10-15-0913
+```
+I'm a newbie building an RAG application for a simple documentation Q&A where the user enters the URL for a documentatio
+n and can ask questions on it. I understand I need a vector store for storing the embeddings. My question is would I nee
+d separate collections for every documentation. And if a user enters a documentation that already exists, should it be o
+verwritten with new embeddings?
+```
+---
+
+     
+ 
+all -  [ Does RAG Have a Scaling Problem? ](https://www.reddit.com/r/LlamaIndex/comments/1g3put2/does_rag_have_a_scaling_problem/) , 2024-10-15-0913
+```
+My team has been digging into the scalability of vector databases for RAG (Retrieval-Augmented Generation) systems, and 
+we feel we might be hitting some limits that aren’t being widely discussed.
+
+We tested Pinecone (using both LangChain an
+d LlamaIndex) out to 100K pages. We found those solutions started to lose search accuracy in as few as 10K pages. At 100
+K pages in the RAG, search accuracy dropped 10-12%.
+
+To be clear, we think this is a vector issue not an orchestrator is
+sue. Though we did find particular problems trying to scale LangChain ingestion because of Unstructured (more on the end
+ of the piece about that). 
+
+We also tested our approach at [EyeLevel.ai](http://eyelevel.ai/), which does not use vecto
+rs at all (I know it sounds crazy), and found only a 2% drop in search accuracy at 100K pages. And showed better accurac
+y by significant margins from the outset.
+
+I'm posting our research here to start a conversation on non-vector based app
+roaches to RAG. We think there's a big opportunity to do things differently that's still very compatible with orchestrat
+ors like LangChain.  We'd love to build a community around it. 
+
+**Here's our research below. I would love to know if an
+yone else is exploring non-vector approaches to RAG and of course your thoughts on the research.**
+
+**We explain the res
+earch and results on YT as well.**  
+[https://youtu.be/qV1Ab0qWyT8?si=dgPL21xAHeI2jXJo](https://youtu.be/qV1Ab0qWyT8?si=
+dgPL21xAHeI2jXJo)
+
+[Image: The chart shows accuracy loss at just 10,000 pages of content using a Pinecone vector databas
+e with both LangChain and Llamaindex-based RAG applications.  Conversely, EyeLevel's GroundX APIs for RAG show almost no
+ loss.](https://preview.redd.it/74oi00ko1sud1.png?width=1600&format=png&auto=webp&s=5f86d97d682631215832ab3f92b34c9641f8
+d3e9)
+
+# What’s Inside
+
+In this report, we will review how the test was constructed, the detailed findings, our theories
+ on why vector similarity search experienced challenges and suggested approaches to scale RAG without the performance hi
+t. We also encourage you to read our [prior research](https://www.eyelevel.ai/post/most-accurate-rag) in which EyeLevel’
+s GroundX APIs bested LangChain, Pinecone and Llamaindex based RAG systems by 50-120% on accuracy over 1,000 pages of co
+ntent.  
+
+The work was performed by Daniel Warfield, a data scientist and RAG engineer and Dr. Benjamin Fletcher, PhD, a
+ computer scientist and former senior engineer at IBM Watson. Both men work for EyeLevel.ai. The data, code and methods 
+of this test will be open sourced and available shortly. Others are invited to run the data and corroborate or challenge
+ these findings. 
+
+# Defining RAG 
+
+**Feel free to skip this section if you’re familiar with RAG.**  
+
+RAG stands for “R
+etrieval Augmented Generation”. When you ask a RAG system a query, RAG does the following steps: 
+
+1. Retrieval: Based o
+n the query from the user, the RAG system retrieves relevant knowledge from a set of documents. 
+2. Augmentation: The RA
+G system combines the retrieved information with the user query to construct a prompt. 
+3. Generation: The augmented pro
+mpt is passed to a large language model, generating the final output. 
+
+The implementation of these three steps can vary
+ wildly between RAG approaches. However, the objective is the same: to make a language model more useful by feeding it i
+nformation from real-world, relevant documents. 
+
+RAG allows a language model to reference application specific informat
+ion from human documents, allowing developers to build tailored and specific products 
+
+# Beyond The Tech Demo 
+
+When mo
+st developers begin experimenting with RAG they might grab a few documents, stick them into a RAG document store and be 
+blown away by the results. Like magic, many RAG systems can allow a language model to understand books, company document
+s, emails, and more. 
+
+However, as one continues experimenting with RAG, some difficulties begin to emerge. 
+
+1. Many do
+cuments are not purely textual. They might have images, tables, or complex formatting. While many RAG systems can parse 
+complex documents, the quality of parsing varies widely between RAG approaches. We explore the realities of parsing in[ 
+another article](https://www.eyelevel.ai/post/most-accurate-rag). 
+2. As a RAG system is exposed to more documents, it h
+as more opportunities to retrieve the wrong document, potentially causing a degradation in performance   
+3. Because of 
+technical complexity, the underlying non-determinism of language models, and the difficulty of profiling the performance
+ of LLM applications in real world settings, it can be difficult to predict the cost and level of effort of developing R
+AG applications. 
+
+In this article we’ll focus on the second and third problems listed above; performance degradation of
+ RAG at scale and difficulties of implementation 
+
+# The Test 
+
+To test how much larger document sets degrade the perfor
+mance of RAG systems, we first defined a set of 92 questions based on real-world documents.  
+
+[A few examples of the re
+al-world documents used in this test, which contain answers to our 92 questions. ](https://preview.redd.it/ojr3ab7s1sud1
+.png?width=1429&format=png&auto=webp&s=6ee3ce03d23a9ca0a35b181869c71a213d0da362)
+
+A few examples of the real-world docum
+ents used in this test, which contain answers to our 92 questions. 
+
+We then constructed four document sets to apply RAG
+ to. All four of these document sets contain the same 310 pages of documents which answer our 92 test questions. However
+, each document set also contains a different number of irrelevant pages from miscellaneous documents. We started with 1
+,000 pages and scaled up to 100,000 in our largest test. 
+
+[We asked the same questions based on the same set of documen
+ts \(blue\), but exposed the RAG system to varying amounts of unrelated documents \(red\). This diagram shows the number
+ of relevant pages in each document set, compared to the total size of each document set.](https://preview.redd.it/r9nhj
+ahv1sud1.png?width=1431&format=png&auto=webp&s=c09a05becc851cd1199fe39c92ee1753bc9f8950)
+
+We asked the same questions ba
+sed on the same set of documents (blue), but exposed the RAG system to varying amounts of unrelated documents (red). Thi
+s diagram shows the number of relevant pages in each document set, compared to the total size of each document set.
+
+An 
+ideal RAG system would, in theory, behave identically across all document sets, as all document sets contain the same an
+swers to the same questions. In practice, however, added information in a docstore can trick a RAG system into retrievin
+g the wrong context for a given query. The more documents there are, the more likely this is to happen. Therefore, RAG p
+erformance tends to degrade as the number of documents increases. 
+
+In this test we applied each of these three popular 
+RAG approaches to the four document sets mentioned above:
+
+* LangChain: a popular python library designed to abstract ce
+rtain LLM workflows. 
+* LlamaIndex: a popular python library which has advanced vector embedding capability, and advance
+d RAG functionality. 
+* EyeLevel’s GroundX: a feature complete retrieval engine built for RAG. 
+
+By applying each of the
+se RAG approaches to the four document sets, we can study the relative performance of each RAG approach at scale. 
+
+For 
+both LangChain and LlamaIndex we employed Pinecone as our vector store and OpenAI’s text-embedding-ada-002 for embedding
+. GroundX, being an all-in-one solution, was used in isolation up to the point of generation. All approaches used OpenAI
+'s gpt-4-1106-preview for the final generation of results. Results for each approach were evaluated as being true or fal
+se via human evaluation. 
+
+# The Effect of Scale on RAG 
+
+We ran the test as defined in the previous section and got the
+ following results. 
+
+[The performance of different RAG approaches varies greatly, both in base performance and the rate
+ of performance degradation at scale. We explore differences in base performance thoroughly in another article ](https:/
+/preview.redd.it/o0x2y1dx1sud1.png?width=1600&format=png&auto=webp&s=fe6ce89f4b7657de3221b0e5b93110ecca20c546)
+
+The perf
+ormance of different RAG approaches varies greatly, both in base performance and the rate of performance degradation at 
+scale. We explore differences in base performance thoroughly in another article 
+
+As can be seen in the figure above, th
+e rate at which RAG degrades in performance varies widely between RAG approaches. Based on these results one might expec
+t GroundX to degrade in performance by 2% per 100,000 documents, while LCPC and LI might degrade 10-12% per 100,000 docu
+ments. The reason for this difference in robustness to larger document sets, likely, has to do with the realities of usi
+ng vector search as the bedrock of a RAG system.  
+
+In theory a high dimensional vector space can hold a vast amount of 
+information. 100,000 in binary is 17 values long (11000011010100000). So, if we *only* use binary vectors with unit comp
+onents in a high dimensional vector space, we could store each page in our 100,000 page set with only a 17 dimensional s
+pace. Text-embedding-ada-002, which is the encoder used in this experiment, outputs a 1536-dimension vector. If one calc
+ulates 2\^1536 (effectively calculating how many things one could describe using only binary vectors in this space) the 
+result would be a number that’s significantly greater than the number of atoms in the known universe. Of course, actual 
+embeddings are not restricted to binary numbers; they can be expressed in decimal numbers of very high precision. Even r
+elatively small vector spaces can hold a vast amount of information. 
+
+The trick is, how do you get information into a v
+ector space *meaningfully*? RAG needs content to be placed in a vector space such that similar things can be searched, t
+hus the encoder has to practically organize information into useful regions. It’s our theory that modern encoders don’t 
+have what it takes to organize large sets of documents in these vector spaces, even if the vector spaces can theoretical
+ly fit a near infinite amount of information. The encoder can only put so much information into a vector space before th
+e vector space gets so cluttered that distance-based search is rendered non-performant. 
+
+[There is a big difference bet
+ween a space being able to fit information, and that information being meaningfully organized. ](https://preview.redd.it
+/inp40j1f2sud1.png?width=948&format=png&auto=webp&s=f7b0c838224196d7d0f24cb6db7abae3dbd8431d)
+
+There is a big difference
+ between a space being able to fit information, and that information being meaningfully organized. 
+
+EyeLevel’s GroundX 
+doesn’t use vector similarity as its core search strategy, but rather a tuned comparison based on the similarity of sema
+ntic objects. There are no vectors used in this approach. This is likely why GroundX exhibits superior performance in la
+rger document sets. 
+
+In this test we employed what is commonly referred to as “naive” RAG. LlamaIndex and LangChain all
+ow for many advanced RAG approaches, but they had little impact on performance and were harder to employ at larger scale
+s. We cover that in another article which will be released shortly.
+
+# The Surprising Technical Difficulty of Scale 
+
+Wh
+ile 100,000 pages seems like a lot, it’s actually a fairly small amount of information for industries like engineering, 
+law, and healthcare. Initially we imagined testing on much larger document sets, but while conducting this test we were 
+surprised by the practical difficulty of getting LangChain to work at scale; forcing us to reduce the scope of our test.
+ 
+
+To get RAG up and running for a set of PDF documents, the first step is to parse the content of those PDFs into some 
+sort of textual representation. LangChain uses libraries from [Unstructured.io](http://unstructured.io/) to perform pars
+ing on complex PDFs, which works seamlessly for small document sets. 
+
+Surprisingly, though, the speed of LangChain pars
+ing is incredibly slow. Based on our analysis it appears that Unstructured uses a variety of models to detect and parse 
+out key elements within a PDF. These models should employ GPU acceleration, but they don’t. That results in LangChain ta
+king days to parse a modestly sized set of documents, even on very large (and expensive) compute instances. To get LangC
+hain working we needed to reverse engineer portions of Unstructured and inject code to enable GPU utilization of these m
+odels. 
+
+It appears that this is a known issue in Unstructured, as seen in the notes below. As it stands, it presents si
+gnificant difficulty in scaling LangChain to larger document sets, given LangChain abstracts away fine grain control of 
+Unstructured. 
+
+https://preview.redd.it/zebe6lqg2sud1.png?width=1346&format=png&auto=webp&s=393cefee81ed7de8f8b936c0087b
+aa0c326fa1d0
+
+[**Source: Github**](https://github.com/Unstructured-IO/unstructured-inference/blob/64cd41c37fe4535702b3be
+9c6b58f380ca4c7edd/unstructured_inference/inference/layout.py#L175)
+
+We only made improvements to LangChain parsing up t
+o the point where this test became feasible. If you want to modify LangChain for faster parsing, here are some resources
+: 
+
+* The default directory loader of LangChain is Unstructured ([source1](https://python.langchain.com/v0.1/docs/module
+s/data_connection/document_loaders/file_directory/),[ source2](https://github.com/langchain-ai/langchain/blob/410e9add44
+43607618a75827afe1a676fcd7c0a7/libs/community/langchain_community/document_loaders/directory.py#L38)). 
+* Unstructured u
+ses “hi res” for the PDFs by default if text extraction cannot be performed on the document ([source1](https://github.co
+m/langchain-ai/langchain/blob/410e9add4443607618a75827afe1a676fcd7c0a7/libs/community/langchain_community/document_loade
+rs/directory.py#L38) ,[ source2](https://github.com/Unstructured-IO/unstructured/blob/23e570fc8ac71c5d1a5788dcb5b3a7a7a5
+7bf078/unstructured/partition/strategies.py#L103) ). Other options are available like “fast” and “OCR only”, which have 
+different processing intensities 
+* “Hi Res” involves: 
+   * Converting the pdf into images ([source](https://github.com
+/Unstructured-IO/unstructured/blob/23e570fc8ac71c5d1a5788dcb5b3a7a7a57bf078/unstructured/partition/pdf_image/pdfminer_pr
+ocessing.py#L36)) 
+   * Running a layout detection model to understand the layout of the documents ([source](https://git
+hub.com/Unstructured-IO/unstructured-inference/blob/76619ca66f47d013f6656fce775f6fddde5d36ae/unstructured_inference/mode
+ls/yolox.py#L3)). This model benefits greatly from GPU utilization, but does not leverage the GPU unless ONNX is install
+ed ([source](https://onnxruntime.ai/docs/get-started/with-python.html)) 
+   * OCR extraction using tesseract (by default
+) ([source](https://github.com/Unstructured-IO/unstructured/blob/23e570fc8ac71c5d1a5788dcb5b3a7a7a57bf078/unstructured/p
+artition/utils/config.py#L103)) which is a very compute intensive process ([source](https://github.com/tesseract-ocr/tes
+seract/issues/263)) 
+   * Running the page through a table layout model ([source](https://github.com/Unstructured-IO/uns
+tructured-inference/blob/76619ca66f47d013f6656fce775f6fddde5d36ae/unstructured_inference/models/tables.py#L140)) 
+
+While
+ our configuration efforts resulted in faster processing times, it was still too slow to be feasible for larger document
+ sets. To reduce time, we did “hi res” parsing on the relevant documents and “fast” parsing on documents which were irre
+levant to our questions. With this configuration, parsing 100,000 pages of documents took 8 hours. If we had applied “hi
+ res” to all documents, we imagine that parsing would have taken 31 days (at around 30 seconds per page). 
+
+At the end o
+f the day, this test took two senior engineers (one who’s worked at a directorial level at several AI companies, and a m
+ulti company CTO with decades of applied experience of AI at scale) several weeks to do the development necessary to wri
+te this article, largely because of the difficulty of applying LangChain to a modestly sized document set.  To get LangC
+hain working in a production setting, we estimate that the following efforts would be required: 
+
+* Tesseract would need
+ to be interfaced with in a way that is more compute and time efficient. This would likely require a high-performance CP
+U instance, and modifications to the LangChain source code. 
+* The layout and table models would need to be made to run 
+on a GPU instance 
+* To do both tasks in a cost-efficient manner, these tasks should probably be decoupled. However, thi
+s is not possible with the current abstraction of LangChain. 
+
+On top of using a unique technology which is highly perfo
+rmant, GroundX also abstracts virtually all of these technical difficulties behind an API. You upload your documents, th
+en search the results. That’s it. 
+
+If you want RAG to be even easier, one of the things that makes Eyelevel so compelli
+ng is the service aspect they provide to GroundX. You can work with Eyelevel as a partner to get GroundX working quickly
+ and performantly for large scale applications. 
+
+# Conclusion 
+
+When choosing a platform to build RAG applications, eng
+ineers must balance a variety of key metrics. The robustness of a system to maintain performance at scale is one of thos
+e critical metrics. In this head-to-head test on real-world documents, EyeLevel’s GroundX exhibited a heightened level o
+f performance at scale, beating LangChain and LlamaIndex. 
+
+Another key metric is efficiency at scale. As it turns out, 
+LangChain has significant implementation difficulties which can make the large-scale distribution of LangChain powered R
+AG difficult and costly. 
+
+Is this the last word? Certainly not. In future research, we will test various advanced RAG t
+echniques, additional RAG frameworks such as Amazon Q and GPTs and increasingly complex and multimodal data types. So st
+ay tuned. 
+
+If you’re curious about running these results yourself, please reach out to us at [info@eyelevel.ai.Vector](
+mailto:info@eyelevel.ai.Vector) databases, a key technology in building retrieval augmented generation or RAG applicatio
+ns, has a scaling problem that few are talking about. 
+
+According to new research by [EyeLevel.ai](https://www.eyelevel.
+ai/), an AI tools company, the precision of vector similarity search degrades in as few as 10,000 pages, reaching a 12% 
+performance hit by the 100,000-page mark.
+
+The research also tested [EyeLevel’s enterprise-grade RAG platform](https://w
+ww.eyelevel.ai/product/apis) which does not use vectors. EyeLevel lost only 2% accuracy at scale.
+
+The findings suggest 
+that while vector databases have become highly popular tools to build RAG and LLM-based applications, developers may fac
+e unexpected challenges as they shift from testing to production and attempt to scale their applications.  
+
+The work wa
+s performed by Daniel Warfield, a data scientist and RAG engineer and Dr. Benjamin Fletcher, PhD, a computer scientist a
+nd former senior engineer at IBM Watson. Both men work for EyeLevel.ai. The data, code and methods of this test will be 
+open sourced and available shortly. Others are invited to run the data and corroborate or challenge these findings. 
+
+My
+ team has been digging into the scalability of vector databases for RAG (Retrieval-Augmented Generation) systems, and we
+ feel we might be hitting some limits that aren’t being widely discussed.
+
+We tested Pinecone (using both LangChain and 
+LlamaIndex) out to 100K pages. We found those solutions started to lose search accuracy in as few as 10K pages. At 100K 
+pages in the RAG, search accuracy dropped 10-12%.
+
+We also tested our approach at [EyeLevel.ai](http://eyelevel.ai/), wh
+ich does not use vectors at all (I know it sounds crazy), and found only a 2% drop in search accuracy at 100K pages. And
+ showed better accuracy by significant margins from the outset.
+
+**Here's our research below. I would love to know if an
+yone else is exploring non-vector approaches to RAG and of course your thoughts on the research.**
+
+**We explain the res
+earch and results on YT as well.**  
+[https://youtu.be/qV1Ab0qWyT8?si=dgPL21xAHeI2jXJo](https://youtu.be/qV1Ab0qWyT8?si=
+dgPL21xAHeI2jXJo) 
+```
+---
+
+     
+ 
+all -  [ Gradio 5 - Building a Quick Chatbot UI for LangChain in python tutorial on Youtube ](https://www.reddit.com/r/Python/comments/1g3pac0/gradio_5_building_a_quick_chatbot_ui_for/) , 2024-10-15-0913
+```
+tutorial: [https://www.youtube.com/watch?v=u\_Xm3vgBQ9Y](https://www.youtube.com/watch?v=u_Xm3vgBQ9Y)
+
+
+
+colab: [https:/
+/colab.research.google.com/drive/1tq6h7yPmdX463xwA4hz31hen6Xh55MB-?usp=sharing#scrollTo=GQth439KJGG\_](https://colab.res
+earch.google.com/drive/1tq6h7yPmdX463xwA4hz31hen6Xh55MB-?usp=sharing#scrollTo=GQth439KJGG_)
+
+
+
+gradio 5 blog: [https://h
+uggingface.co/blog/gradio-5](https://huggingface.co/blog/gradio-5)
+
+
+
+gradio github: [https://github.com/gradio-app/grad
+io](https://github.com/gradio-app/gradio)
+```
+---
+
+     
+ 
+all -  [ Is it just me or the dependency resolution in Langchain is a nightmare. Everytime I integrate any LL ](https://www.reddit.com/r/LangChain/comments/1g3mriz/is_it_just_me_or_the_dependency_resolution_in/) , 2024-10-15-0913
+```
+
+```
+---
+
+     
+ 
+all -  [ I have a python codebase that uses streamlit, want to move to react for easier integration. ](https://www.reddit.com/r/LangChain/comments/1g3milz/i_have_a_python_codebase_that_uses_streamlit_want/) , 2024-10-15-0913
+```
+As the title states I've been working on a predominately python codebase with a lot of langchian concepts that have been
+ written in python and I want to migrate away from streamlit to some sort of react library, please do let me know if the
+re are any solutions availabel thank you.
+```
+---
+
+     
+ 
+all -  [ Python or Typescript for RAG? ](https://www.reddit.com/r/Rag/comments/1g3lgzy/python_or_typescript_for_rag/) , 2024-10-15-0913
+```
+I am working on a project for my Bachelor's thesis and want to build a Retrieval-Augmented Generation (RAG) system. For 
+Langchain and LlamaIndex, there are both Python and TypeScript versions available. I am new to this topic but would like
+ to set up a web application in the medium term, which will be programmed in Next.js later on. Since the project will ru
+n on a server, does the backend language really matter? Or should I stick to one language, since TypeScript can be used 
+in Next.js? The problem I see is that the documentation for Langchain and LlamaIndex in TypeScript is tiny compared to P
+ython. As a beginner in this field, will I still be able to manage with TypeScript? I would prefer not to get stuck, but
+ I would also like to cover my future projects. Another advantage would be that I could use the code for Obsidian plugin
+ development, which can also be done in TypeScript. What do you think? Thanks in advance!
+```
+---
+
+     
+ 
+all -  [ Has anyone seen AI agents working in production at scale? ](https://www.reddit.com/r/LocalLLaMA/comments/1g3jkct/has_anyone_seen_ai_agents_working_in_production/) , 2024-10-15-0913
+```
+Has anyone seen AI agents working in production at scale? 
+
+It doesn't matter if you're using the Swarm, langchain, or a
+ny other AI agent orchestration framework if the underlying issue is that AI agents too slow, too expensive, and too unr
+eliable. I wrote about [AI agent hype vs. reality](https://www.kadoa.com/blog/ai-agents-hype-vs-reality) a while ago, an
+d I don't think it has changed yet.
+
+>By combining tightly constrained LLMs, good evaluation data, human-in-the-loop ove
+rsight, and traditional engineering methods, we can achieve reliably good results for automating medium-complex tasks.
+
+
+>Will AI agents automate tedious repetitive work, such as web scraping, form filling, and data entry? Yes, absolutely.
+
+
+>Will AI agents autonomously book your vacation without your intervention? Unlikely, at least in the near future.
+
+What 
+are your real-world use cases and experiences?
+```
+---
+
+     
+ 
+all -  [ LangGraph 101 - Tutorial with Practical Example ](https://www.reddit.com/r/LangChain/comments/1g3i734/langgraph_101_tutorial_with_practical_example/) , 2024-10-15-0913
+```
+Hi folks!
+
+It's been a while but I just finished uploading my latest tutorial. I built a super simple, but extremely pow
+erful two-node LangGraph app that can retrieve data from my resume and a job description and then use the information to
+ respond to any question. It could for example:
+
+* Re-write parts or all of my resume to match the job description.
+* Ge
+nerate relevant interview questions and provide feedback.
+* Write job-specific cover letters.
+* etc.
+
+# [>>> Watch here 
+<<<](https://youtu.be/7KIrBjQTGLA)
+
+You get the idea! I know the official docs are somewhat complicated, and sometimes b
+roken, and a lot of people have a hard time starting out using LangGraph. If you're one of those people or just getting 
+started and want to learn more about the library, [check out the tutorial](https://youtu.be/7KIrBjQTGLA)!
+
+Cheers! :)
+```
+---
+
+     
+ 
+all -  [ Does RAG Have a Scaling Problem? ](https://www.reddit.com/r/Rag/comments/1g3h9w2/does_rag_have_a_scaling_problem/) , 2024-10-15-0913
+```
+My team has been digging into the scalability of vector databases for RAG (Retrieval-Augmented Generation) systems, and 
+we feel we might be hitting some limits that aren’t being widely discussed. 
+
+We tested Pinecone (using both LangChain a
+nd LlamaIndex) out to 100K pages. We found those solutions started to lose search accuracy in as few as 10K pages. At 10
+0K pages in the RAG, search accuracy dropped 10-12%.
+
+We also tested our approach at [EyeLevel.ai](http://EyeLevel.ai), 
+which does not use vectors at all (I know it sounds crazy), and found only a 2% drop in search accuracy at 100K pages. A
+nd showed better accuracy by significant margins from the outset. 
+
+**Here's our research below. I would love to know if
+ anyone else is exploring non-vector approaches to RAG and of course your thoughts on the research.** 
+
+**We explain the
+ research and results on YT as well.**   
+[**https://www.youtube.com/watch?v=qV1Ab0qWyT8**](https://www.youtube.com/watc
+h?v=qV1Ab0qWyT8)
+
+[Image: The chart shows accuracy loss at just 10,000 pages of content using a Pinecone vector database
+ with both LangChain and Llamaindex-based RAG applications.  Conversely, EyeLevel's GroundX APIs for RAG show almost no 
+loss.](https://preview.redd.it/3okwujg7fqud1.png?width=1600&format=png&auto=webp&s=dfe1b2bb38f6d4a0fc5e7798ebd60fa23df13
+c80)
+
+# What’s Inside
+
+In this report, we will review how the test was constructed, the detailed findings, our theories 
+on why vector similarity search experienced challenges and suggested approaches to scale RAG without the performance hit
+. We also encourage you to read our [prior research](https://www.eyelevel.ai/post/most-accurate-rag) in which EyeLevel’s
+ GroundX APIs bested LangChain, Pinecone and Llamaindex based RAG systems by 50-120% on accuracy over 1,000 pages of con
+tent.  
+
+The work was performed by Daniel Warfield, a data scientist and RAG engineer and Dr. Benjamin Fletcher, PhD, a 
+computer scientist and former senior engineer at IBM Watson. Both men work for EyeLevel.ai. The data, code and methods o
+f this test will beopen sourced and available shortly. Others are invited to run the data and corroborate or challenge t
+hese findings. 
+
+# Defining RAG 
+
+**Feel free to skip this section if you’re familiar with RAG.**  
+
+RAG stands for “Ret
+rieval Augmented Generation”. When you ask a RAG system a query, RAG does the following steps: 
+
+1. Retrieval: Based on 
+the query from the user, the RAG system retrieves relevant knowledge from a set of documents. 
+
+1. Augmentation: The RAG
+ system combines the retrieved information with the user query to construct a prompt. 
+
+1. Generation: The augmented pro
+mpt is passed to a large language model, generating the final output. 
+
+The implementation of these three steps can vary
+ wildly between RAG approaches. However, the objective is the same: to make a language model more useful by feeding it i
+nformation from real-world, relevant documents. 
+
+[RAG allows a language model to reference application specific informa
+tion from human documents, allowing developers to build tailored and specific products ](https://preview.redd.it/z5t4h8a
+cfqud1.png?width=1158&format=png&auto=webp&s=ce9d6e5ce5acb057243db14193f90f0a2072ccf2)
+
+# Beyond The Tech Demo 
+
+When mo
+st developers begin experimenting with RAG they might grab a few documents, stick them into a RAG document store and be 
+blown away by the results. Like magic, many RAG systems can allow a language model to understand books, company document
+s, emails, and more. 
+
+However, as one continues experimenting with RAG, some difficulties begin to emerge. 
+
+1. Many do
+cuments are not purely textual. They might have images, tables, or complex formatting. While many RAG systems can parse 
+complex documents, the quality of parsing varies widely between RAG approaches. We explore the realities of parsing in[ 
+another article](https://www.eyelevel.ai/post/most-accurate-rag). 
+
+1. As a RAG system is exposed to more documents, it 
+has more opportunities to retrieve the wrong document, potentially causing a degradation in performance   
+
+1. Because o
+f technical complexity, the underlying non-determinism of language models, and the difficulty of profiling the performan
+ce of LLM applications in real world settings, it can be difficult to predict the cost and level of effort of developing
+ RAG applications. 
+
+In this article we’ll focus on the second and third problems listed above; performance degradation 
+of RAG at scale and difficulties of implementation 
+
+# The Test 
+
+To test how much larger document sets degrade the perf
+ormance of RAG systems, we first defined a set of 92 questions based on real-world documents.  
+
+[A few examples of the 
+real-world documents used in this test, which contain answers to our 92 questions. ](https://preview.redd.it/vbm3jcxffqu
+d1.png?width=1429&format=png&auto=webp&s=9eed23eb6d7e0c6d8816063e7d3a9d86ad1848e8)
+
+We then constructed four document se
+ts to apply RAG to. All four of these document sets contain the same 310 pages of documents which answer our 92 test que
+stions. However, each document set also contains a different number of irrelevant pages from miscellaneous documents. We
+ started with 1,000 pages and scaled up to 100,000 in our largest test.   
+ 
+
+[We asked the same questions based on the 
+same set of documents \(blue\), but exposed the RAG system to varying amounts of unrelated documents \(red\). This diagr
+am shows the number of relevant pages in each document set, compared to the total size of each document set.](https://pr
+eview.redd.it/u4d6keqpfqud1.png?width=1431&format=png&auto=webp&s=b0161c312eca9b0633b5df58713f1ed92893cb30)
+
+An ideal RA
+G system would, in theory, behave identically across all document sets, as all document sets contain the same answers to
+ the same questions. In practice, however, added information in a docstore can trick a RAG system into retrieving the wr
+ong context for a given query. The more documents there are, the more likely this is to happen. Therefore, RAG performan
+ce tends to degrade as the number of documents increases. 
+
+In this test we applied each of these three popular RAG appr
+oaches to the four document sets mentioned above:
+
+* LangChain: a popular python library designed to abstract certain LL
+M workflows. 
+* LlamaIndex: a popular python library which has advanced vector embedding capability, and advanced RAG fu
+nctionality. 
+* EyeLevel’s GroundX: a feature complete retrieval engine built for RAG. 
+
+By applying each of these RAG a
+pproaches to the four document sets, we can study the relative performance of each RAG approach at scale. 
+
+For both Lan
+gChain and LlamaIndex we employed Pinecone as our vector store and OpenAI’s text-embedding-ada-002 for embedding. Ground
+X, being an all-in-one solution, was used in isolation up to the point of generation. All approaches used OpenAI's gpt-4
+-1106-preview for the final generation of results. Results for each approach were evaluated as being true or false via h
+uman evaluation. 
+
+# The Effect of Scale on RAG 
+
+We ran the test as defined in the previous section and got the followi
+ng results. 
+
+[The performance of different RAG approaches varies greatly, both in base performance and the rate of perf
+ormance degradation at scale. We explore differences in base performance thoroughly in another article ](https://preview
+.redd.it/f3uqn8vsfqud1.png?width=1600&format=png&auto=webp&s=69abb4cf7d224a523457ac0b769a6dc2ae0148c7)
+
+As can be seen i
+n the figure above, the rate at which RAG degrades in performance varies widely between RAG approaches. Based on these r
+esults one might expect GroundX to degrade in performance by 2% per 100,000 documents, while LCPC and LI might degrade 1
+0-12% per 100,000 documents. The reason for this difference in robustness to larger document sets, likely, has to do wit
+h the realities of using vector search as the bedrock of a RAG system.  
+
+In theory a high dimensional vector space can 
+hold a vast amount of information. 100,000 in binary is 17 values long (11000011010100000). So, if we *only* use binary 
+vectors with unit components in a high dimensional vector space, we could store each page in our 100,000 page set with o
+nly a 17 dimensional space. Text-embedding-ada-002, which is the encoder used in this experiment, outputs a 1536-dimensi
+on vector. If one calculates 2\^1536 (effectively calculating how many things one could describe using only binary vecto
+rs in this space) the result would be a number that’s significantly greater than the number of atoms in the known univer
+se. Of course, actual embeddings are not restricted to binary numbers; they can be expressed in decimal numbers of very 
+high precision. Even relatively small vector spaces can hold a vast amount of information. 
+
+The trick is, how do you ge
+t information into a vector space *meaningfully*? RAG needs content to be placed in a vector space such that similar thi
+ngs can be searched, thus the encoder has to practically organize information into useful regions. It’s our theory that 
+modern encoders don’t have what it takes to organize large sets of documents in these vector spaces, even if the vector 
+spaces can theoretically fit a near infinite amount of information. The encoder can only put so much information into a 
+vector space before the vector space gets so cluttered that distance-based search is rendered non-performant. 
+
+[There i
+s a big difference between a space being able to fit information, and that information being meaningfully organized. ](h
+ttps://preview.redd.it/uzbfvsyufqud1.png?width=948&format=png&auto=webp&s=5dc7fad4f9e976a595281bac95e34f64e472613a)
+
+Eye
+Level’s GroundX doesn’t use vector similarity as its core search strategy, but rather a tuned comparison based on the si
+milarity of semantic objects. There are no vectors used in this approach. This is likely why GroundX exhibits superior p
+erformance in larger document sets. 
+
+In this test we employed what is commonly referred to as “naive” RAG. LlamaIndex a
+nd LangChain allow for many advanced RAG approaches, but they had little impact on performance and were harder to employ
+ at larger scales. We cover that in another article which will be released shortly.
+
+# The Surprising Technical Difficul
+ty of Scale 
+
+While 100,000 pages seems like a lot, it’s actually a fairly small amount of information for industries li
+ke engineering, law, and healthcare. Initially we imagined testing on much larger document sets, but while conducting th
+is test we were surprised by the practical difficulty of getting LangChain to work at scale; forcing us to reduce the sc
+ope of our test. 
+
+To get RAG up and running for a set of PDF documents, the first step is to parse the content of those
+ PDFs into some sort of textual representation. LangChain uses libraries from [Unstructured.io](http://Unstructured.io) 
+to perform parsing on complex PDFs, which works seamlessly for small document sets. 
+
+Surprisingly, though, the speed of
+ LangChain parsing is incredibly slow. Based on our analysis it appears that Unstructured uses a variety of models to de
+tect and parse out key elements within a PDF. These models should employ GPU acceleration, but they don’t. That results 
+in LangChain taking days to parse a modestly sized set of documents, even on very large (and expensive) compute instance
+s. To get LangChain working we needed to reverse engineer portions of Unstructured and inject code to enable GPU utiliza
+tion of these models. 
+
+It appears that this is a known issue in Unstructured, as seen in the notes below. As it stands,
+ it presents significant difficulty in scaling LangChain to larger document sets, given LangChain abstracts away fine gr
+ain control of Unstructured. 
+
+https://preview.redd.it/dhchak3xfqud1.png?width=1346&format=png&auto=webp&s=2e1e6b84f79d8
+89c901f05140771f68bb0f00150
+
+[**Source: Github**](https://github.com/Unstructured-IO/unstructured-inference/blob/64cd41c
+37fe4535702b3be9c6b58f380ca4c7edd/unstructured_inference/inference/layout.py#L175)
+
+We only made improvements to LangCha
+in parsing up to the point where this test became feasible. If you want to modify LangChain for faster parsing, here are
+ some resources: 
+
+* The default directory loader of LangChain is Unstructured ([source1](https://python.langchain.com/v
+0.1/docs/modules/data_connection/document_loaders/file_directory/),[ source2](https://github.com/langchain-ai/langchain/
+blob/410e9add4443607618a75827afe1a676fcd7c0a7/libs/community/langchain_community/document_loaders/directory.py#L38)). 
+*
+ Unstructured uses “hi res” for the PDFs by default if text extraction cannot be performed on the document ([source1](ht
+tps://github.com/langchain-ai/langchain/blob/410e9add4443607618a75827afe1a676fcd7c0a7/libs/community/langchain_community
+/document_loaders/directory.py#L38) ,[ source2](https://github.com/Unstructured-IO/unstructured/blob/23e570fc8ac71c5d1a5
+788dcb5b3a7a7a57bf078/unstructured/partition/strategies.py#L103) ). Other options are available like “fast” and “OCR onl
+y”, which have different processing intensities 
+* “Hi Res” involves: 
+   * Converting the pdf into images ([source](htt
+ps://github.com/Unstructured-IO/unstructured/blob/23e570fc8ac71c5d1a5788dcb5b3a7a7a57bf078/unstructured/partition/pdf_im
+age/pdfminer_processing.py#L36)) 
+   * Running a layout detection model to understand the layout of the documents ([sour
+ce](https://github.com/Unstructured-IO/unstructured-inference/blob/76619ca66f47d013f6656fce775f6fddde5d36ae/unstructured
+_inference/models/yolox.py#L3)). This model benefits greatly from GPU utilization, but does not leverage the GPU unless 
+ONNX is installed ([source](https://onnxruntime.ai/docs/get-started/with-python.html)) 
+   * OCR extraction using tesser
+act (by default) ([source](https://github.com/Unstructured-IO/unstructured/blob/23e570fc8ac71c5d1a5788dcb5b3a7a7a57bf078
+/unstructured/partition/utils/config.py#L103)) which is a very compute intensive process ([source](https://github.com/te
+sseract-ocr/tesseract/issues/263)) 
+   * Running the page through a table layout model ([source](https://github.com/Unst
+ructured-IO/unstructured-inference/blob/76619ca66f47d013f6656fce775f6fddde5d36ae/unstructured_inference/models/tables.py
+#L140)) 
+
+While our configuration efforts resulted in faster processing times, it was still too slow to be feasible for 
+larger document sets. To reduce time, we did “hi res” parsing on the relevant documents and “fast” parsing on documents 
+which were irrelevant to our questions. With this configuration, parsing 100,000 pages of documents took 8 hours. If we 
+had applied “hi res” to all documents, we imagine that parsing would have taken 31 days (at around 30 seconds per page).
+ 
+
+At the end of the day, this test took two senior engineers (one who’s worked at a directorial level at several AI com
+panies, and a multi company CTO with decades of applied experience of AI at scale) several weeks to do the development n
+ecessary to write this article, largely because of the difficulty of applying LangChain to a modestly sized document set
+.  To get LangChain working in a production setting, we estimate that the following efforts would be required: 
+
+* Tesse
+ract would need to be interfaced with in a way that is more compute and time efficient. This would likely require a high
+-performance CPU instance, and modifications to the LangChain source code. 
+* The layout and table models would need to 
+be made to run on a GPU instance 
+* To do both tasks in a cost-efficient manner, these tasks should probably be decouple
+d. However, this is not possible with the current abstraction of LangChain. 
+
+On top of using a unique technology which 
+is highly performant, GroundX also abstracts virtually all of these technical difficulties behind an API. You upload you
+r documents, then search the results. That’s it. 
+
+If you want RAG to be even easier, one of the things that makes Eyele
+vel so compelling is the service aspect they provide to GroundX. You can work with Eyelevel as a partner to get GroundX 
+working quickly and performantly for large scale applications. 
+
+# Conclusion 
+
+When choosing a platform to build RAG ap
+plications, engineers must balance a variety of key metrics. The robustness of a system to maintain performance at scale
+ is one of those critical metrics. In this head-to-head test on real-world documents, EyeLevel’s GroundX exhibited a hei
+ghtened level of performance at scale, beating LangChain and LlamaIndex. 
+
+Another key metric is efficiency at scale. As
+ it turns out, LangChain has significant implementation difficulties which can make the large-scale distribution of Lang
+Chain powered RAG difficult and costly. 
+
+Is this the last word? Certainly not. In future research, we will test various
+ advanced RAG techniques, additional RAG frameworks such as Amazon Q and GPTs and increasingly complex and multimodal da
+ta types. So stay tuned. 
+
+If you’re curious about running these results yourself, please reach out to us at info@eyelev
+el.ai.Vector databases, a key technology in building retrieval augmented generation or RAG applications, has a scaling p
+roblem that few are talking about. 
+
+According to new research by [EyeLevel.ai](https://www.eyelevel.ai/), an AI tools c
+ompany, the precision of vector similarity search degrades in as few as 10,000 pages, reaching a 12% performance hit by 
+the 100,000-page mark.
+
+The research also tested [EyeLevel’s enterprise-grade RAG platform](https://www.eyelevel.ai/prod
+uct/apis) which does not use vectors. EyeLevel lost only 2% accuracy at scale.
+
+The findings suggest that while vector d
+atabases have become highly popular tools to build RAG and LLM-based applications, developers may face unexpected challe
+nges as they shift from testing to production and attempt to scale their applications.  
+
+The work was performed by Dani
+el Warfield, a data scientist and RAG engineer and Dr. Benjamin Fletcher, PhD, a computer scientist and former senior en
+gineer at IBM Watson. Both men work for EyeLevel.ai. The data, code and methods of this test will be open sourced and av
+ailable shortly. Others are invited to run the data and corroborate or challenge these findings. 
+```
+---
+
+     
+ 
+all -  [ Help scaling LLM classifications and validations ](https://www.reddit.com/r/LangChain/comments/1g3h1hd/help_scaling_llm_classifications_and_validations/) , 2024-10-15-0913
+```
+I'm working on an application that will classify 10 million records according to pretty well-defined standards. Ideally,
+ I'd classify them with a LLM and LangChain, then run validation on it to double check the classifications. Here's the i
+ssue: I'm a little lost. I've built smaller-scale RAG systems, but I have no idea how to do this at scale. Any help woul
+d be greatly appreciated.
+
+Big apologies if I shouldn't be posting the question here.
+```
+---
+
+     
+ 
+all -  [ Framework recommendation for a RAG project with LaTeX source files ](https://www.reddit.com/r/LangChain/comments/1g3gza0/framework_recommendation_for_a_rag_project_with/) , 2024-10-15-0913
+```
+Hi, I want to build a custom RAG application for question-answering on PDF files where I already have the LaTeX source.
+
+
+  
+The files have been parsed into LaTeX fragments and I have extracted metadata such as equation labels + LaTeX source
+, what LaTeX source corresponds to which pages, and so on. All of this data is stored in a database. Different user will
+ have access to different subsets of the LaTeX files.
+
+The AI component will be build into an existing website (django),
+ i.e. I would ideally like to answer questions such as:
+
+-  Can you explain concept Y (it should be answered by any part
+ of the material that has been made available)
+
+-  Can you tell me what this file is about (the request will contain the
+ file id)
+
+- Can you explain what this page is about? (the request will contain the file id and page number,; but the ap
+plication needs to understand that 'this page'  corresponds to the context associated with the file id and page number)
+
+
+
+
+My current approach uses django vectordb plus custom queries/chunking but this is not very good. Ideally I would like
+ an application where I can 'handfeed' it the LaTeX sources and metadata and use the library to do the RAG part. It is i
+mportant that it replies with references to relevant text (if any) and it should also function in conversational mode.
+
+
+I would like it to work with different endpoints and it is important that I can stream the response to the end-user (i.e
+. it should respond with an iterator or similar).
+
+Any guides or library recommendations would be highly appreciated!
+```
+---
+
+     
+ 
+all -  [ Similar tool like LangChain in GO ](https://www.reddit.com/r/golang/comments/1g3gqli/similar_tool_like_langchain_in_go/) , 2024-10-15-0913
+```
+Hey, I found this langChan tool from twitter. I'm more familiar to Golang, Does anyone know if there is alternative to t
+his in Golang  
+[https://python.langchain.com/docs/integrations/tools/](https://python.langchain.com/docs/integrations/t
+ools/)
+```
+---
+
+     
+ 
+all -  [ Multi-Hop Agent with Langchain, Llama3, and Human-in-the-Loop for the Google Frames Benchmark ](https://www.reddit.com/r/LocalLLaMA/comments/1g3g365/multihop_agent_with_langchain_llama3_and/) , 2024-10-15-0913
+```
+In this notebook, I walk through how to create an agent using Langchain to solve the complex **Google Frames Benchmark**
+ dataset. This agent leverages Wikipedia as a knowledge base to handle multi-hop reasoning tasks, with human reviewers p
+roviding feedback via **Argilla** to improve its performance.
+
+The **Frames-Benchmark** dataset is useful for building a
+nd testing multi-hop retrieval and reasoning models. It consists of 824 challenging questions that require information r
+etrieval from multiple Wikipedia articles (anywhere from 2 to 15 articles). These questions span diverse topics such as 
+history, science, and health and are labeled based on reasoning types—numerical, tabular, multiple constraints, temporal
+, and post-processing.
+
+The human-in-the-loop feedback through **Argilla** helps make the agent’s thought process more t
+ransparent and easier to refine with prompts.
+
+Baseline results for the dataset show an accuracy range from **41% with b
+asic prompting** to **66% for multi-step retrieval and reasoning**, indicating a lot of room for further improvements.
+
+
+[LINK TO THE NOTEBOOK](https://github.com/argilla-io/argilla-cookbook/blob/main/multihop_langchain_frames_benchmark.ipyn
+b)
+```
+---
+
+     
+ 
+all -  [ Build Your Own ChatGPT Clone with LangChain, Streamlit, and Ollama ](https://www.reddit.com/r/u_bluebashllc/comments/1g3ffq1/build_your_own_chatgpt_clone_with_langchain/) , 2024-10-15-0913
+```
+[Build Your Own ChatGPT Clone with LangChain, Streamlit, and Ollama](https://preview.redd.it/7dx6thfk1qud1.png?width=192
+0&format=png&auto=webp&s=423a0defa28fb16eb889b261d42c7864750d613e)
+
+Building your own [ChatGPT clone](https://www.blueba
+sh.co/blog/build-chatgpt-clone-ollama-langchain-streamlit-rag/) is now easier with tools like Ollama, LangChain, and Str
+eamlit RAG! Ollama provides an efficient way to run language models locally, while LangChain handles the integration and
+ orchestration of various AI components. Use **RAG with LangChain** to provide context to the bot—allowing the chatbot t
+o use information grabbed in real-time from uploaded files, offering far more accurate answers. Deploy the app by runnin
+g your Streamlit interface, and voilà—you’ve created your own personal ChatGPT-like chatbot for real-world use!
+
+**Impor
+tant Tools**
+
+**Ollama:** the central language model doing the talking.
+
+**Streamlit:** Easy framework for writing web a
+pplications. Could be helpful in building a front end for the chatbot.
+
+**LangChain:** It integrates RAG, whereby you al
+low your bot to retrieve information from other documents you have loaded.
+
+**How to Build:**
+
+**Set up environment**
+
+I
+nstall LangChain, Streamlit, and Ollama packages in your system.
+
+**Create an Interface on Streamlit:** This is where th
+e users will interact with the bot. There would be an uploading file feature where the users can upload files that will 
+be used to provide context to the bot.
+
+**Use RAG with LangChain:** The chatbot will use information grabbed in real-tim
+e from uploaded files through LangChain and give far more accurate answers.
+
+**Deploy the App:** Finally, you would just
+ run your Streamlit app, and voilà. You've created your own personal ChatGPT-like chatbot for use.
+```
+---
+
+     
+ 
+all -  [ create_csv_agent fails to work on llama 3.1 70b through ollama. Which open-source model is compatibl ](https://www.reddit.com/r/LangChain/comments/1g3ex5n/create_csv_agent_fails_to_work_on_llama_31_70b/) , 2024-10-15-0913
+```
+I need a private model that works well on create_csv_agent. Gpt-4o was doing wonders but I don't want to entrust my comp
+any's data to openai. I need a private in house model that can achieve this. What should I do? Which model worked for yo
+u guys?
+```
+---
+
+     
+ 
+all -  [ How do you currently handle tasks that your AI agents cannot complete? ](https://www.reddit.com/r/LangChain/comments/1g3en5x/how_do_you_currently_handle_tasks_that_your_ai/) , 2024-10-15-0913
+```
+What challenges or inefficiencies do you face when integrating human intervention?
+```
+---
+
+     
+ 
+all -  [ RAG metadata ](https://www.reddit.com/r/LangChain/comments/1g3d0vg/rag_metadata/) , 2024-10-15-0913
+```
+Hello everyone! 
+
+  
+I'm building a RAG agent in LangGraph for production scale. On a small text files I used to send th
+e whole content to the LLM so it generates some metadata about it, but for production level that won't be efficient beca
+use the PDF size could be large. On the other hand if I created the metadata from the PDF's chunks they will be meaning 
+less!! so how do you achieve that?
+
+Thanks in advance, great community. <3
+
+Co-founder, Shaareable Apps
+
+
+```
+---
+
+     
+ 
+all -  [  Major updates to XeroFlow node-based LLM tool ](https://www.reddit.com/r/ollama/comments/1g39vzo/major_updates_to_xeroflow_nodebased_llm_tool/) , 2024-10-15-0913
+```
+I just finished up a bunch of updates fixing issues dealing with the installer and a couple other minor issues in the pr
+ogram. If you're not familiar with this tool it is a node-based llm tool that allows you to set up workflows to interact
+ with and process data utilizing multiple llms. One of the updates it has now is it is able to utilize custom Vector dat
+abases utilizing RAG and Langchain.    
+For those of you who don't use Windows, just make sure you have python and pip i
+nstalled and install using the requirements.txt file, once this is done then you can just run the [main.py](http://main.
+py) file directly.
+
+check it out here: [https://github.com/Xerophayze/XeroFlow](https://github.com/Xerophayze/XeroFlow)
+
+
+https://preview.redd.it/3n41uzsx3oud1.png?width=752&format=png&auto=webp&s=b51db5d1e695a470f717bcbee12ac2c727424497
+
+ht
+tps://preview.redd.it/vh99khhq3oud1.png?width=1130&format=png&auto=webp&s=fe7d2b8216d295ce0fe6323f2d0623edd0c10acc
+
+http
+s://preview.redd.it/qshhx1iq3oud1.png?width=752&format=png&auto=webp&s=05bfb8aee6f3bd913ef68193947cd12e889d52bc
+
+https:/
+/preview.redd.it/pkxh0ghq3oud1.png?width=752&format=png&auto=webp&s=bb3ad0debd767995f625eafcb7e6023e35ba6e6a
+
+https://pr
+eview.redd.it/qe6m3ghq3oud1.png?width=857&format=png&auto=webp&s=5f6981fea7e4f314faed32ae4e451ad5fbcd1975
+
+
+```
+---
+
+     
+ 
+all -  [ Latest version of XeroFlow Node based LLM tool ](https://www.reddit.com/r/StableDiffusion/comments/1g39t3b/latest_version_of_xeroflow_node_based_llm_tool/) , 2024-10-15-0913
+```
+Hey everyone! Just fixed the issues with the installer for our tool. Make sure you have Python 3.10.9 installed; it shou
+ld come with pip, but if not, you may need to install it separately. Once that's set, run the `setup.bat` file to instal
+l all required dependencies—this may take a few minutes. When it’s done, you can launch the program by running `run.bat`
+.
+
+Also, I've left the API endpoints set up; just add your own API keys for OpenAI or Groq, and if you’re running a loca
+l install or have Ollama on your system, simply adjust the IP address or hostname in the URL for those APIs.
+
+This tool 
+includes a vector database utilizing RAG and Langchain, with a sample document (an 80-90k word sci-fi novel that was wri
+tten by the long form content node!) included in the database folder for you to check out. I'll be putting together a tu
+torial video soon, so stay tuned!  
+[https://github.com/Xerophayze/XeroFlow](https://github.com/Xerophayze/XeroFlow)
+
+ht
+tps://preview.redd.it/ccyzt0wp2oud1.png?width=1069&format=png&auto=webp&s=c6e27de025751899e508849e0fb1b9297921e7c2
+
+http
+s://preview.redd.it/c8xvguvp2oud1.png?width=1130&format=png&auto=webp&s=a7126f20e8c9844e0bf329ff6c7085ed8407a875
+
+https:
+//preview.redd.it/rft6bvvp2oud1.png?width=752&format=png&auto=webp&s=8cc31d58f5534c49c0ccc2e7a9709793cae2a919
+
+https://p
+review.redd.it/cv7p9gwp2oud1.png?width=752&format=png&auto=webp&s=5190ad7a57036e2fd037e248437d3ff8bf8f3ef5
+
+https://prev
+iew.redd.it/494kpuvp2oud1.png?width=857&format=png&auto=webp&s=a1e234ec05dc62b1820147e4f053d4a5a8ff3bd3
+
+
+```
+---
+
+     
+ 
+all -  [ Need help to create template for RAG app ](https://www.reddit.com/r/LangChain/comments/1g39p3h/need_help_to_create_template_for_rag_app/) , 2024-10-15-0913
+```
+I am creating a RAG application where I will be giving LLM a large set of responses array of objects where there will be
+ multiple questions and it's answer provided by the user.  
+For example :
+
+    { 'responses': [ 
+    { 'answers': [ 
+   
+   { 
+        'question': 'WHAT IS YOUR NAME',
+         'response': 'ABCD'
+       }, {
+       'question': 'What is your 
+AGE',
+       'response': '30' 
+      } 
+    ] },
+     { 'answers': [ 
+      { 'question': 'WHAT IS YOUR NAME',
+       'r
+esponse': 'ABCD'
+       },
+         { 'question': 'What is your AGE',
+           'response': '30'
+         } 
+      ] },
+
+      ...
+     ]
+    }
+
+This is my current template :-
+
+    Use the following pieces of context to answer the question.
+
+      If you don't know the answer, just say that you don't know, don't try to make up an answer.
+      Always say 'tha
+nks for asking!' at the end of the answer.
+      Don't provide any code for doing just provide the output.
+      Conside
+r the given context as document don't provide answer as a json data consider it as document.
+      which contain informa
+tion about all the responses for a particular form.
+      The answer to a particular question is inside the response fie
+ld, always provide the question along with response and make sure not to repeat the question.
+      The given context is
+ a array of user responses and each object is a response responded by a particular user.
+      Consider all the users re
+sponse before answering.
+      {context}
+    
+      Question: {question}
+      Helpful Answer:
+
+Also whenever I ask it q
+uestions it provides the answer on the basis of top 2 matches, if the number of questions are like 10, and If I ask it t
+o 'give me all the questions present in the form' it gives only 2.
+```
+---
+
+     
+ 
+all -  [ Do I need to pay for unit test with langsmith library? ](https://www.reddit.com/r/LangChain/comments/1g33fsy/do_i_need_to_pay_for_unit_test_with_langsmith/) , 2024-10-15-0913
 ```
 Pretty simple question I think?
 
@@ -21,7 +1187,7 @@ Thank you in advance!
 
      
  
-all -  [ Which framework between haystack, langchain and llamaindex, or others? ](https://www.reddit.com/r/Rag/comments/1g31urm/which_framework_between_haystack_langchain_and/) , 2024-10-14-0913
+all -  [ Which framework between haystack, langchain and llamaindex, or others? ](https://www.reddit.com/r/Rag/comments/1g31urm/which_framework_between_haystack_langchain_and/) , 2024-10-15-0913
 ```
 The use case is the following.
 Database: vector database with 10k scientific articles.
@@ -34,7 +1200,7 @@ Please let me know your advices!!
 
      
  
-all -  [ [Hiring][Remote] Software Engineer ](https://www.reddit.com/r/jobbit/comments/1g31h8x/hiringremote_software_engineer/) , 2024-10-14-0913
+all -  [ [Hiring][Remote] Software Engineer ](https://www.reddit.com/r/jobbit/comments/1g31h8x/hiringremote_software_engineer/) , 2024-10-15-0913
 ```
 * Full-time opportunity
 * Remote
@@ -59,7 +1225,7 @@ q)
 
      
  
-all -  [ [Hiring][Remote] Software Engineer ](https://www.reddit.com/r/RemoteJobHunters/comments/1g31erw/hiringremote_software_engineer/) , 2024-10-14-0913
+all -  [ [Hiring][Remote] Software Engineer ](https://www.reddit.com/r/RemoteJobHunters/comments/1g31erw/hiringremote_software_engineer/) , 2024-10-15-0913
 ```
 * Full-time opportunity
 * Remote 
@@ -84,7 +1250,7 @@ rq)
 
      
  
-all -  [ Idea: Interest in a competition model to build agents for businesses ](https://www.reddit.com/r/LangChain/comments/1g2zpr3/idea_interest_in_a_competition_model_to_build/) , 2024-10-14-0913
+all -  [ Idea: Interest in a competition model to build agents for businesses ](https://www.reddit.com/r/LangChain/comments/1g2zpr3/idea_interest_in_a_competition_model_to_build/) , 2024-10-15-0913
 ```
 Imagine there was a platform whereby a business spec for a workflow (e.g. creating facebook ads) was understood.
 
@@ -115,7 +1281,7 @@ m like this existed, would you be interested in participating?
 
      
  
-all -  [ All-In-One Tool for LLM Evaluation ](https://www.reddit.com/r/LangChain/comments/1g2z2q1/allinone_tool_for_llm_evaluation/) , 2024-10-14-0913
+all -  [ All-In-One Tool for LLM Evaluation ](https://www.reddit.com/r/LangChain/comments/1g2z2q1/allinone_tool_for_llm_evaluation/) , 2024-10-15-0913
 ```
 I was recently trying to build an app using LLMs but was having a lot of difficulty engineering my prompt to make sure i
 t worked in every case. 
@@ -133,7 +1299,7 @@ nd useful and if you want to try it and give feedback! Hope I could help in buil
 
      
  
-all -  [ Extracting Regex Patterns from Strings - Trying to Think of Techniques to Improve ](https://www.reddit.com/r/LangChain/comments/1g2y6o4/extracting_regex_patterns_from_strings_trying_to/) , 2024-10-14-0913
+all -  [ Extracting Regex Patterns from Strings - Trying to Think of Techniques to Improve ](https://www.reddit.com/r/LangChain/comments/1g2y6o4/extracting_regex_patterns_from_strings_trying_to/) , 2024-10-15-0913
 ```
 Recently I've been working on a project that requires me to generate a ton of regex patterns from a large amount of stri
 ngs. These strings can be in any form and may or may not have a pattern in them. An example of my use case would be tryi
@@ -162,7 +1328,7 @@ Thanks for any help!
 
      
  
-all -  [ Open-Source Embodied Agents from NASA/JPL ](https://youtu.be/mZTrSg7tEsA?si=r6_56O0O38lxQSaM) , 2024-10-14-0913
+all -  [ Open-Source Embodied Agents from NASA/JPL ](https://youtu.be/mZTrSg7tEsA?si=r6_56O0O38lxQSaM) , 2024-10-15-0913
 ```
 Hey r/robotics 👋
 
@@ -185,7 +1351,7 @@ We’d love to hear from you and are open to collaboration with the community. L
 
      
  
-all -  [ From Beginner to Problem-Solving Pro: The Ultimate Guide to Mastering Python ](https://www.reddit.com/r/BMSCE/comments/1g2qopn/from_beginner_to_problemsolving_pro_the_ultimate/) , 2024-10-14-0913
+all -  [ From Beginner to Problem-Solving Pro: The Ultimate Guide to Mastering Python ](https://www.reddit.com/r/BMSCE/comments/1g2qopn/from_beginner_to_problemsolving_pro_the_ultimate/) , 2024-10-15-0913
 ```
 
 
@@ -344,7 +1510,7 @@ e documentation and details for each library, making it easier to explore and in
 
      
  
-all -  [ Mastering Problem-Solving with Python: A Curated Path for the Driven ](https://www.reddit.com/r/DTU__Delhi/comments/1g2qebd/mastering_problemsolving_with_python_a_curated/) , 2024-10-14-0913
+all -  [ Mastering Problem-Solving with Python: A Curated Path for the Driven ](https://www.reddit.com/r/DTU__Delhi/comments/1g2qebd/mastering_problemsolving_with_python_a_curated/) , 2024-10-15-0913
 ```
 
 
@@ -503,15 +1669,7 @@ etails for each library, making it easier to explore and integrate them into you
 
      
  
-all -  [ For RAG Devs - langchain or llamaindex? ](/r/Rag/comments/1g2h7s8/for_rag_devs_langchain_or_llamaindex/) , 2024-10-14-0913
-```
-
-```
----
-
-     
- 
-all -  [ Generate <-> Validation for chat ](https://www.reddit.com/r/LangChain/comments/1g2n6tj/generate_validation_for_chat/) , 2024-10-14-0913
+all -  [ Generate <-> Validation for chat ](https://www.reddit.com/r/LangChain/comments/1g2n6tj/generate_validation_for_chat/) , 2024-10-15-0913
 ```
 I'm building a chatbot with langgraph. To reduce errors, I've created a validation node which works like 
 
@@ -532,7 +1690,7 @@ Facing trouble implementing this w.r.t storing history and getting the proper re
 
      
  
-all -  [ 401 Unauthorized Error with Jina AI Embeddings API in Flask App – Need Help Troubleshooting ](https://www.reddit.com/r/LangChain/comments/1g2mlon/401_unauthorized_error_with_jina_ai_embeddings/) , 2024-10-14-0913
+all -  [ 401 Unauthorized Error with Jina AI Embeddings API in Flask App – Need Help Troubleshooting ](https://www.reddit.com/r/LangChain/comments/1g2mlon/401_unauthorized_error_with_jina_ai_embeddings/) , 2024-10-15-0913
 ```
 Hey Redditors!
 
@@ -580,7 +1738,7 @@ Thanks in advance!
 
      
  
-all -  [ Text to SQL Public Chatbot ](https://www.reddit.com/r/LangChain/comments/1g2j6ro/text_to_sql_public_chatbot/) , 2024-10-14-0913
+all -  [ Text to SQL Public Chatbot ](https://www.reddit.com/r/LangChain/comments/1g2j6ro/text_to_sql_public_chatbot/) , 2024-10-15-0913
 ```
 Hello all,
 
@@ -594,7 +1752,7 @@ where not logged people can use it and looking for the security piece on it besi
 
      
  
-all -  [ What's the most efficient way to handle references like figures, tables or other sections in a RAG p ](https://i.redd.it/dsojnplzrgud1.png) , 2024-10-14-0913
+all -  [ What's the most efficient way to handle references like figures, tables or other sections in a RAG p ](https://i.redd.it/dsojnplzrgud1.png) , 2024-10-15-0913
 ```
  I could think of two ways and I'm currently implementing both. In my usecase, I'm converting all pages in a document ar
 e into image format and using a multimodal llm for querying. Once I retrieve a relevant image, if there are external ref
@@ -615,699 +1773,7 @@ rectly
 
      
  
-all -  [ I thought of a way to benefit from chain of thought prompting without using any extra tokens! ](https://www.reddit.com/r/LangChain/comments/1g2ihf5/i_thought_of_a_way_to_benefit_from_chain_of/) , 2024-10-14-0913
-```
-Ok this might not be anything new but it just struck me while working on a content moderation script just now that I can
- strucure my prompt like this:
-
-```
-You are a content moderator assistant blah blah...
-
-This is the text you will be mod
-erating:  
-  
-<input>  
-[...]
-</input>
-
-You task is to make sure it doesn't violate any of the following guidelines:
-
-[.
-..]
-  
-Instructions:
-  
-1. Carefully read the entire text.  
-2. Review each guideline and check if the text violates any
- of them.  
-3. For each violation:  
-   a. If the guideline requires removal, delete the violating content entirely.  
- 
-  b. If the guideline allows rewriting, modify the content to comply with the rule.  
-4. Ensure the resulting text maint
-ains coherence and flow.  
-etc...
-
-Output Format:
-  
-Return the result in this format:
-  
-<result>  
-[insert moderated t
-ext here]
-</result>
-
-<reasoning>  
-[insert reasoning for each change here]  
-</reasoning>
-
-```
-  
-Now the key part is th
-at I ask for the reasoning at the very end. Then when I make the api call, I pass the closing `</result>` tag as the **s
-top** option so as soon as it's encountered the generation stops:
-
-```
-const response = await model.chat.completions.cre
-ate({
-  model: 'meta-llama/llama-3.1-70b-instruct',
-  temperature: 1.0,
-  max_tokens: 1_500,
-  stop: '</result>',
-  mess
-ages: [
-    {
-      role: 'system',
-      content: prompt
-    }
-  ]
-});
-```
-
-My thinking here is that by structuring the
- prompt in this way (where you ask the model to explain itself) you beneft from it's 'chain of thought' nature and by cu
-tting it off at the stop word, you don't use the additional tokens you would have had to use otherwise. Essentially gett
-ing to keep your cake and eating it too!
-
-Is my thinking right here or am I missing something?
-```
----
-
-     
- 
-all -  [ For RAG Devs - langchain or llamaindex? ](https://www.reddit.com/r/LLMDevs/comments/1g2ha43/for_rag_devs_langchain_or_llamaindex/) , 2024-10-14-0913
-```
-I've started learning rag. Learnt vector data ases, chucking etc. now confused about which framework to use.
-```
----
-
-     
- 
-all -  [ For RAG Devs - langchain or llamaindex? ](https://www.reddit.com/r/Rag/comments/1g2h7s8/for_rag_devs_langchain_or_llamaindex/) , 2024-10-14-0913
-```
-I've started learning rag. Learnt vector databases, chucking etc. now confused about which framework to use.
-```
----
-
-     
- 
-all -  [ Langchain clinet connection error ](https://www.reddit.com/r/LangChain/comments/1g2b2w5/langchain_clinet_connection_error/) , 2024-10-14-0913
-```
-I keep getting this error when using LangSmith:  
-HTTPError: \[Errno 403 Client Error: Forbidden for url: [https://api.s
-mith.langchain.com/datasets\]](https://api.smith.langchain.com/datasets]) {'detail':'Forbidden'}
-
-    os.environ['LANGCH
-AIN_TRACING_V2'] = 'true'
-    os.environ['LANGCHAIN_ENDPOINT'] = 'https://api.smith.langchain.com'
-    os.environ['LANGC
-HAIN_API_KEY'] = os.getenv('LANGCHAIN_API_KEY')
-
-I have accessed the api\_keys.
-
-How do I fix this? Can someone please h
-elp?
-
-Edit: I am also importing
-
-    from langsmith import Client 
-    client = Client()
-
-Also when I set up langsmith w
-ith same steps in windows env it worked but now i am using linux environment so it's easier to later deploy on aws lambd
-a. Does this have to do anything with Linux environment?  
-
-```
----
-
-     
- 
-all -  [ What are you using for building & evaluating your LLM application? ](https://www.reddit.com/r/LocalLLaMA/comments/1g28kve/what_are_you_using_for_building_evaluating_your/) , 2024-10-14-0913
-```
-I have built the implementation of my LLM app in python, so it’s really just text and API calls and whatever complex wor
-kflows, chains, orchestration around the LLMs you can just program yourself. I’m curious what folks are doing out there,
- are they doing implementation themselves or using tools?
-
-I know there’s dozens of tools out there like Langchain, Hays
-tack, Adalflow, Flowise, Llamaindex, etc.
-
-At the end of the day these are just complex workflows, but I feel like I’m s
-pending more time debugging my code than just using something to iterate more quickly. 
-
-Especially around Evals. If I h
-ave the criteria to measure against such as unit tests and LLM as a judge. I just want a tool that can quickly send 100 
-or 1,000 inputs into my workflow then measure the results. All the eval tools I’ve looked at are for simple one prompts,
- if I have a complex DAG like workflow of multiple chains, steps, etc what’s a good tool for this out there?
-
-Is there a
-n LLM stack folks are using out there to make this quicker/easier? Or is doing this orchestration in code just the best 
-way for this.
-
-The closest (payed) thing I’ve seen for this is Vellum.
-```
----
-
-     
- 
-all -  [ ChatGPT API to remember some background info before conversation ](https://www.reddit.com/r/LangChain/comments/1g26gbz/chatgpt_api_to_remember_some_background_info/) , 2024-10-14-0913
-```
-Hi, I’d like to make my chatgpt api to remember some background info such as some pdf documents etc. Can I do this perma
-nently with the API, not having to feed with the data everytime?
-```
----
-
-     
- 
-all -  [ I have 2 User Manuals I would like to use to build an AI Help Bot ](https://www.reddit.com/r/LangChain/comments/1g24vha/i_have_2_user_manuals_i_would_like_to_use_to/) , 2024-10-14-0913
-```
-Hey Guys! I am fairly new  to the scene. I have been using OpenAI's api for this. However, with the manual being 500 pag
-es it seems to struggle every now and then. I would like to seek help and guidance on this. Any input helps. The goal is
- for the LLM to be able to take in questions and answer based on the manual. Is LangChain appropriate for this use case?
- Any veterans can give me a rough framework on how I should do this?
-```
----
-
-     
- 
-all -  [ A Generative AI Tool for Enhanced Documentation Clarity ](https://www.reddit.com/r/PythonProjects2/comments/1g2490b/a_generative_ai_tool_for_enhanced_documentation/) , 2024-10-14-0913
-```
-Hi everyone! I’m new to the world of Generative AI and currently exploring concepts like Large Language Models (LLMs) an
-d Langchain. I recently worked on an exciting project called [DelvInDocs.AI](https://github.com/hrithikkoduri/DelvInDocs
-.AI), aimed at enhancing the understandability of extensive documentation using Langchain, Open AI GPT and embeddings an
-d Activeloop's Deeplake for vector database.
-
-This tool scrapes information from all the parent and child links from the
- provided input base URLs of the documentation. Users can ask questions and receive tailored code snippets and cohesive 
-responses across various libraries (e.g., React, Node.js, Tailwind CSS, MongoDB). This streamlines the process of findin
-g relevant information from complex documentation and saves valuable development time.
-
-I’d love for you to check it out
- by cloning the GitHub Repo: \[ [https://github.com/hrithikkoduri/DelvInDocs.AI](https://github.com/hrithikkoduri/DelvIn
-Docs.AI) \]. 
-
-https://reddit.com/link/1g2490b/video/82pdp4botcud1/player
-
-
-```
----
-
-     
- 
-all -  [ Announcing Laravel Synapse v0.1.0 - Seamlessly Integrate AI Agents into Your Laravel Applications 🧠 ](https://www.reddit.com/r/laravel/comments/1g23vzj/announcing_laravel_synapse_v010_seamlessly/) , 2024-10-14-0913
-```
-Hey everyone! I'm excited to announce the release of \*\*Synapse v0.1.0\*\*, a new package that simplifies creating and 
-managing AI agents in Laravel apps. Inspired by Langchain and Saloon, Synapse allows you to build AI-driven applications
- with flexible, scalable agents.
-
-# Key Features:
-
-* \*\*Multiple AI Integrations\*\*: Out-of-the-box support for \*\*Op
-enAI\*\* and \*\*Claude\*\*.
-* \*\*Customizable Agent Lifecycle\*\*: Easily extend and modify the agent lifecycle with b
-uilt-in hooks.
-* \*\*Dynamic Prompts\*\*: Leverage Laravel’s Blade system to build highly dynamic, \`few-shot\` prompts.
-
-* \*\*Prebuilt Agents\*\*: Start quickly with prebuilt agents for popular integrations like OpenAI.
-* \*\*Custom Tools\
-*\*: Create custom tools that can interact with agents, make API calls, and more.
-
-Check out the documentation and get s
-tarted here: \[Synapse\](https://github.com/use-the-fork/synapse)
-
-Feel free to share your feedback or questions. I’m ex
-cited to see what the community builds with it!
-```
----
-
-     
- 
-all -  [ Front end tools ](https://www.reddit.com/r/LangChain/comments/1g22rxh/front_end_tools/) , 2024-10-14-0913
-```
-Which front end frameworks/tools you all been using ? 
-
-I am using React to create my interfaces because I really don't 
-like streamlit and the way to customized it. So I am wonder what you guys have been using.
-
-Also if you have good open-s
-ource things that helps you to accelerate the chat creation. I know we have some but sometimes they require you to deplo
-y in a single place and I want my interfaces to be deployed non matter where .
-```
----
-
-     
- 
-all -  [ Need help with learning how to make a rag!! ](https://www.reddit.com/r/learnmachinelearning/comments/1g21mr2/need_help_with_learning_how_to_make_a_rag/) , 2024-10-14-0913
-```
-I am building a rag that can read word documents and answer questions on said word documents. I want it to be able to ha
-ve chat history that will be saved to mongo db and for the output to contain the source from which document and page num
-ber it got the information from. I am also using google collab since my laptop cant run doom. So far this is the code I 
-have down:
-
-    from langchain_community.document_loaders import Docx2txtLoader
-    from langchain.text_splitter import 
-RecursiveCharacterTextSplitter
-    from langchain.chains import RetrievalQA
-    from langchain.vectorstores import Chrom
-a
-    from langchain.embeddings import HuggingFaceEmbeddings
-    from transformers import AutoModelForCausalLM, AutoToke
-nizer, pipeline
-    from langchain.llms import HuggingFacePipeline
-    from langchain.memory import ConversationBufferMe
-mory
-    from langchain_core.output_parsers import StrOutputParser
-    from langchain.prompts import PromptTemplate
-    
-from langchain_core.runnables import RunnablePassthrough
-    from pymongo import MongoClient
-    import os
-    import to
-rch
-    
-    # Load documents from local files
-    doc_paths = ['./Minecraft Basics for AI.docx', './Minecraft Mining fo
-r AI.docx']
-    all_documents = []
-    for doc_path in doc_paths:
-        if os.path.isfile(doc_path):
-            loade
-r = Docx2txtLoader(doc_path)
-            data = loader.load()
-            for page_num, doc in enumerate(data):
-        
-        doc.metadata = {'source': doc_path, 'page_number': page_num + 1}
-                all_documents.append(doc)
-     
-   else:
-            print(f'File {doc_path} does not exist.')
-    
-    # Create embeddings with a smaller, more efficie
-nt model
-    embeddings = HuggingFaceEmbeddings(model_name='sentence-transformers/all-MiniLM-L6-v2')
-    
-    # Create r
-etriever if there are valid documents
-    if all_documents:
-        text_splitter = RecursiveCharacterTextSplitter(chunk
-_size=1000, chunk_overlap=200)
-        splits = text_splitter.split_documents(all_documents)
-    
-        # Create the C
-hroma vector store
-        vectorstore = Chroma.from_documents(documents=splits, embedding=embeddings)
-    
-        # Cr
-eate a retriever
-        retriever = vectorstore.as_retriever(search_type='similarity', search_kwargs={'k': 6})
-    else
-:
-        print('No valid documents were loaded.')
-        retriever = None
-    
-    # Set up the LLM model with a small
-er model to reduce RAM usage
-    model_name = 'EleutherAI/gpt-neo-1.3B' 
-    tokenizer = AutoTokenizer.from_pretrained(m
-odel_name)
-    pipe = pipeline('text-generation', model=model_name, tokenizer=tokenizer, max_length=512, device='cuda' i
-f torch.cuda.is_available() else -1)  # Use GPU if available
-    llm = HuggingFacePipeline(pipeline=pipe)
-    
-    # Def
-ine the prompt template
-    prompt_template = '''
-    <|system|>
-    Answer the question based on your knowledge. Use th
-e following context to help:
-    
-    {context}
-    
-    </s>
-    <|user|>
-    {question}
-    </s>
-    <|assistant|>
-   
- '''
-    prompt = PromptTemplate(
-        input_variables=['context', 'question'],
-        template=prompt_template,
-   
- )
-    
-    # MongoDB setup
-    mongo_client = MongoClient('mongodb://localhost:27017/')
-    db = mongo_client['chat_his
-tory_db']
-    chat_collection = db['chats']
-    
-    # Setup conversation buffer memory
-    memory = ConversationBufferM
-emory(memory_key='chat_history', return_messages=True)
-    
-    # Set up the QA chain with document combiner
-    llm_cha
-in = prompt | llm | StrOutputParser()
-    rag_chain = {'context': retriever, 'question': RunnablePassthrough()} | llm_ch
-ain
-    
-    # Function to interact with the bot via terminal
-    def chat_with_bot():
-        print('Start chatting wit
-h the bot (type 'exit' to stop)')
-        while True:
-            user_input = input('You: ')
-            if user_input.
-lower() == 'exit':
-                break
-            response = rag_chain.run(user_input)
-            # Save chat histor
-y to MongoDB
-            chat_record = {
-                'user': user_input,
-                'bot': response,
-          
-  }
-            chat_collection.insert_one(chat_record)
-            # Display bot response
-            print(f'Bot: {res
-ponse}')
-    
-    if __name__ == '__main__':
-        chat_with_bot()
-    
-
-
-```
----
-
-     
- 
-all -  [ Please help a stressed out intern ](https://www.reddit.com/r/LangChain/comments/1g213oe/please_help_a_stressed_out_intern/) , 2024-10-14-0913
-```
-Hi everyone.
-
-Posting in this sub in hopes for some guidance. 
-I’m an intern for this startup company and i’ve been task
-ed to create a conversational ai agent for customer service.
-
-I’ve been banging my head against the wall for two weeks n
-ow reading the documentation and following so many tutorials and books, which many have become outdated now due to the d
-eprecation of a lot of things in langchain. Also, the head of the team quit a long time ago and due to budget reasons th
-ey’re hiring an intern (me lol) instead, so i have no subject matter expert to even guide or help me in any way. 
-
-Pleas
-e someone help me yall i’m legit desperate, tired, broke, dehydrated and trying my absolute best to land a job. 
-
-I just
- feel so lost. 
-
-Context: 
-
-We’re supposedly using pinecone as the vector db and i’ll put the documents and build the re
-spective knowledge base on it. 
-
-Obstacle 1: I don’t know how the knowledge base should look like. The document manuals 
-they have for company policies isn’t that good i think but yet again i have no caliber to judge whether this would be ok
-ay to finetune the llm on or not. Depending on the issue the customer is facing, the llm would either respond accordingl
-y or even call an api to get live info on the product shipping status.
-
-Onto langchain, the big boss. I’m so lost on whe
-ther i’m piecing the code correctly or not and the output isn’t really helping. 
-
-Obstacle 2: I first used “Conversation
-alRetreivalChain.from_llm “ after embedding one of their documents in a basic faiss db just to test the flow out. The ou
-tput was okay but now it’s deprecated and i’m trying to use “create_retreival_chain” and “create_history_aware_retreiver
-” but i cant seem to piece it to get the same output as before. 
-
-Tried following a walkthrough in their documentation, 
-wth is “create_retreiver_tool” and why is it a tool not a chain like the other? What’s the difference and idk which i sh
-ould use. 
-
-Obstacle 3: they deprecated “ConversationBufferMemory” and i’ve no idea now how to create an agent with memo
-ry.  Trying to piece everything together and i also tried using “create_stuff_documents_chain” but still can’t get the o
-utput to look like how it was when i used “ConversationalRetreivalChain”
-
-Obstacle 4: what are all these prompts? I woul
-d look at two tutorials that seem to be doing the same thing but one uses prompts and the other doesnt. I am honestly so
- confused at this point.
-
-I could go on and on but i think these are my major obstacles. 
-
-I would really appreciate jus
-t any guidance at this point, please.
-
-
-```
----
-
-     
- 
-all -  [ I built a completely autonomous AI employee using Langgraph ](https://www.reddit.com/r/LangChain/comments/1g1ze8u/i_built_a_completely_autonomous_ai_employee_using/) , 2024-10-14-0913
-```
-Hey, I'm Dhruv and I'm building The AI Agent Co. We just launched our first completely autonomous AI employee with a nov
-el UI to support AI-Human Interaction. Would love your feedback on it! You can check out our agent here: [travisaiagent.
-com](http://travisaiagent.com) (please try to view it on a laptop/desktop, haven't designed it for mobiles yet)
-```
----
-
-     
- 
-all -  [ Need some in-depth help! Opensearch vs. Pinecone ](https://www.reddit.com/r/Rag/comments/1g1xmtj/need_some_indepth_help_opensearch_vs_pinecone/) , 2024-10-14-0913
-```
-A bit of context:
-
-I have computer science background and I *have some knowledge of Machine learning* but still not as p
-rofound as you ;)
-
-That being said:
-
-Our usecase is to embed (vectorize)  documents -> and later based on queries retrie
-ve the most relevant document.
-
-Our current solution looks like:
-
-* embedding using Titan model on Bedrock
-* storing vec
-tors on Pinecone
-
-I am really eager to switch to Opensearch (you may ask why? we can discuss it in another thread :D).
-
-
-But my concern is that: Pinecone is so trendy, and it is essentially designed for vector databases; although it is not t
-he case for Opensearch.
-
-**What will I lose by switching from Pinecone to Opensearch?**
-
-my technical knowledge is limit
-ed and I would like to ask your opinion on it, please.
-
-(regarding the implementation: it is feasible using **knn\_vecto
-r** s of Opensearch, have read some documents and workshops on it: e.g. [link](https://python.langchain.com/docs/integra
-tions/vectorstores/opensearch/))
-
-Bests ;)
-```
----
-
-     
- 
-all -  [ A Generative AI Tool for Enhanced Documentation Clarity ](https://www.reddit.com/r/generativeAI/comments/1g1tesl/a_generative_ai_tool_for_enhanced_documentation/) , 2024-10-14-0913
-```
-Hi everyone! I’m new to the world of Generative AI and currently exploring concepts like Large Language Models (LLMs) an
-d Langchain. I recently worked on an exciting project called [**DelvInDocs.AI**](https://github.com/hrithikkoduri/DelvIn
-Docs.AI), aimed at enhancing the understandability of extensive documentation using Langchain, Open AI GPT and embedding
-s and Activeloop's Deeplake for vector database.
-
-This tool scrapes information from all the parent and child links from
- the provided input base URLs of the documentation. Users can ask questions and receive tailored code snippets and cohes
-ive responses across various libraries (e.g., React, Node.js, Tailwind CSS, MongoDB). This streamlines the process of fi
-nding relevant information from complex documentation and saves valuable development time.
-
-I’d love for you to check it
- out by cloning the GitHub Repo: \[ [https://github.com/hrithikkoduri/DelvInDocs.AI](https://github.com/hrithikkoduri/De
-lvInDocs.AI) \]. Any feedback, suggestions, and contributions through forking would be greatly appreciated
-
-https://redd
-it.com/link/1g1tesl/video/t9zhqp55j9ud1/player
-```
----
-
-     
- 
-all -  [ Memory choice in a chatbot ](https://www.reddit.com/r/LangChain/comments/1g1susv/memory_choice_in_a_chatbot/) , 2024-10-14-0913
-```
-I’m developing a chatbot and I was wondering what kind of memory state people use.
-Does ConversationBufferMemory without
- Window use a lot of overhead and decrease the response performance after a while?
-```
----
-
-     
- 
-all -  [ LangChain: Custom Function Streaming in BaseTool Not Working as Expected ](https://www.reddit.com/r/LangChain/comments/1g1sp5q/langchain_custom_function_streaming_in_basetool/) , 2024-10-14-0913
-```
-Fellow Redditors,
-
-I've asked this question on the LangChain Discord, but you know how it is—I usually get better respon
-ses here on Reddit. So, here goes...
-
-I'm encountering an issue with custom function streaming in LangChain's BaseTool u
-sing `astream_events`. Looking for insights or potential solutions.
-
-**Issue:**
-
-* Standard LangChain chain streaming wo
-rks fine.
-* In custom variation: `run_manager.on_text` calls don't stream events in real-time.
-* Events are collected by
- the tool before being sent, rather than streaming.
-
-**Goal:**
-
-* Achieve real-time event streaming from custom function
-, similar to standard LangChain chains.
-* Convert custom function to `RunnableLambda` for automatic callback handling.
-
-
-**Resources:**
-
-* Code example: [Gist](https://gist.github.com/sharrajesh/98238425679e648d3b15bb025c36ebeb)
-* GitHub iss
-ue: [#27299](https://github.com/langchain-ai/langchain/issues/27299)
-
-Environment: LangChain 0.2.16, Python 3.11.3
-
-Has 
-anyone encountered similar issues or have suggestions? Any input is appreciated.
-```
----
-
-     
- 
-all -  [ NaturalAgents - notion-style editor to easily create AI Agents ](https://www.reddit.com/r/LanguageTechnology/comments/1g1rzi2/naturalagents_notionstyle_editor_to_easily_create/) , 2024-10-14-0913
-```
-[NaturalAgents](https://github.com/NaturalAgents/NaturalAgents) is the easiest way to create AI Agents in a notion-style
- editor without code - using plain english and simple macros. It's fully open-source and will be actively maintained.
-
-H
-ow this is different from other agent builders -
-
-1. No boilerplate code (imagine langchain for multiple agents)
-2. No c
-ode experience
-3. Can easily share and build with others
-4. Readable/organized agent outputs
-5. Abstracts agent communic
-ations without visual complexity (image large drag and drop flowcharts)
-
-Would love to hear thoughts and feel free to re
-ach out if you're interested in contributing!
-```
----
-
-     
- 
-all -  [ Problem with passing private state between nodes ](https://www.reddit.com/r/LangChain/comments/1g1pufn/problem_with_passing_private_state_between_nodes/) , 2024-10-14-0913
-```
-I have some information from one node that I would like to be passed to another node without it being outputted when I r
-un 'return output'.
-
-I was following the tutorial here: [https://langchain-ai.github.io/langgraph/how-tos/pass\_private\
-_state/](https://langchain-ai.github.io/langgraph/how-tos/pass_private_state/)
-
-The tutorial works fine when it uses 'gr
-aph.invoke()'
-
-However, when I stream the state using 'graph.stream()', I am still able to see the outputs of each node,
- including the private state of node 1.
-
-Does anything have any suggestions on how to solve this issue?
-
-  
-
-```
----
-
-     
- 
-all -  [ OpenAI’s new framework for Agents. Why is Langgraph so complicated?  ](https://www.reddit.com/gallery/1g1pkki) , 2024-10-14-0913
-```
-Langgraph example for basic agent vs OpenAI’s new framework. I’d love to stick with langchain for agents but it’s too co
-mplicated to run and deploy without Langgraph cloud. 
-
-https://github.com/openai/swarm - Link 
-```
----
-
-     
- 
-all -  [ RAG frontend advice needed (Streamlit vs Nuxt) ](https://www.reddit.com/r/LangChain/comments/1g1kfj6/rag_frontend_advice_needed_streamlit_vs_nuxt/) , 2024-10-14-0913
-```
-Hey all,
-
-I have the task of building a RAG system for one of the company departments to use. They will upload their fil
-es and perform different tasks using agents. Now the requirement is that at least 11 people can use the system simultane
-ously, along with an admin panel and some accounts being used by multiple people at once. I have 3 options to build it:
-
-
-1. LC and Streamlit standalone app.  
-2. LC + FastAPI backend and Streamlit frontend  
-3. LC + FastAPI backend and Nuxt
- frontend
-
-My issue is that I don't have much experience building interfaces with Streamlit and from the very basic thin
-gs that I have used it for it seemed quite slow and unpleasant as far as UX goes (although I am no expert with it so I m
-ight very well be entirely responsible for the bad experience). So I am not sure how suitable Streamlit would be as a st
-andalone application as far as concurrence usage goes and stress/load capabilities. I believe the 3rd option would be th
-e best in terms of results, but the 1st and 2nd give the easiest maintenance as all would be python based.
-
-Could you sh
-are your opinions and advice please?
-
--------
-
-Edit:
-My boss wants to go more for the 1st and if not the 2nd option beca
-use of the easier maintenance as most guys on the team only use Python I guess. So the question of Streamlit's capabilit
-ies to handle the stress load is the most important one in terms of making the choice..
-```
----
-
-     
- 
-all -  [ What is all the buzz about agents about? How is it different from an app that makes multiple calls t ](https://www.reddit.com/r/LangChain/comments/1g1k3xl/what_is_all_the_buzz_about_agents_about_how_is_it/) , 2024-10-14-0913
-```
-I'm trying to keep myself up to date with LLM stuff after having built a few LLM apps on the side. I am starting to see 
-more and more people post about 'agents', but I can't quite figure out how an 'agent' differs from a regular software ap
-p that calls multiple APIs.
-
-
-
-The cynical side of me is thinking this is a buzzword, but I want to be a bit more open m
-inded...is there something more to agents than just an app that makes decisions to call different APIs based on the outp
-ut of an LLM? 
-```
----
-
-     
- 
-all -  [ How to stream Langgraph output from graph.stream into Streamlit??? ](https://www.reddit.com/r/LangChain/comments/1g1ja8j/how_to_stream_langgraph_output_from_graphstream/) , 2024-10-14-0913
-```
-I am trying to create a streamlit app using Langgraph in the backend, ollama for llm and a few tools. I got the code to 
-work properly in the terminal, and the output is being streamed. 
-
-When I plug this output into streamlit's write\_strea
-m function, it treats eavh token as one output. any help with this??
-
-The github repo is [https://github.com/PratikBhang
-ale/LangGraph-Chatbot](https://github.com/PratikBhangale/LangGraph-Chatbot)
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-14-0913
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-15-0913
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -1336,7 +1802,7 @@ I'm sure some teams already have good systems for this, would appreciate pointer
 
      
  
-MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-14-0913
+MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-15-0913
 ```
 GitHub repo : [https://github.com/shaRk-033/web-agent](https://github.com/shaRk-033/web-agent)
 
@@ -1375,7 +1841,7 @@ hear them. :)
 
      
  
-MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-14-0913
+MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-15-0913
 ```
 How tightly coupled is an embedding model to a language model?
 
@@ -1395,7 +1861,7 @@ ama3.1 ingest the embeddings?
 
      
  
-deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-14-0913
+deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-15-0913
 ```
 I want to implement a Code-RAG system on a code directory where I need to:
 
