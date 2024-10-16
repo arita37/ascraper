@@ -1,5 +1,1567 @@
  
-all -  [  Project Alice - v0.2 => open source platform for agentic workflows  ](https://www.reddit.com/r/LangChain/comments/1g3r1ol/project_alice_v02_open_source_platform_for/) , 2024-10-15-0913
+all -  [ Unable to get desired results with ChatPromptTemplate and Prompt Caching with Anthropic ](https://www.reddit.com/r/LangChain/comments/1g4ip6z/unable_to_get_desired_results_with/) , 2024-10-16-0913
+```
+I have a long prompt of instructions that performs as intended when I use PromptTemplate.  
+After reading about Prompt C
+aching, I tried to implement it with the ChatPromptTemplate, but it did not work as intended. The demo of prompt caching
+ uses a book as its context. I have a smaller context but specific instructions.  
+Tried fine-tuning the prompt, but the
+ model hallucinates badly.
+
+Example: When I ask a question, it does not use the same question to reason/generate the ans
+wer.
+```
+---
+
+     
+ 
+all -  [ Cisco Use Cases, ITSI Best Practices, and More New Articles from Splunk Lantern ](https://www.reddit.com/r/Splunk/comments/1g4g5wh/cisco_use_cases_itsi_best_practices_and_more_new/) , 2024-10-16-0913
+```
+[Splunk Lantern](https://lantern.splunk.com/) is a Splunk customer success center that provides advice from Splunk exper
+ts on valuable data insights, key use cases, and tips on managing Splunk more efficiently.
+
+We also host Getting Started
+ Guides for a range of Splunk products, a library of Product Tips, and [Data Descriptor](https://lantern.splunk.com/Data
+_Descriptors) articles that help you see everything that’s possible with data sources and data types in Splunk.
+
+This mo
+nth, we’re excited to share some articles that show you new ways to get Cisco and AppDynamics integrated with Splunk. We
+’ve also updated our  Definitive Guide to Best Practices for IT Service Intelligence (ITSI), and as usual, we’re sharing
+ all the rest of the use case, product tip, and data articles that we’ve published over the past month. Read on to find 
+out more.
+
+# Splunking with Cisco and AppDynamics
+
+  
+Here on the Splunk Lantern team we’ve been busy working with exper
+ts in Cisco, AppDynamics, and Spunk to develop articles that show how our products can work together. Here are some of t
+he most recent articles we’ve published, and keep watching out for more Cisco and AppD articles over the coming months!
+
+
+[Monitoring Cisco switches, routers, WLAN controllers and access points](https://lantern.splunk.com/Security/UCE/Founda
+tional_Visibility/Security_monitoring/Monitoring_Cisco_switches%2C_routers%2C_WLAN_controllers_and_access_points) shows 
+you how to create a comprehensive solution to monitor Cisco network devices in the Splunk platform or in Splunk Enterpri
+se Security. Learn how to get set up, create visualizations, and troubleshoot common problems in this new use case artic
+le.
+
+https://preview.redd.it/psocr3wu1zud1.png?width=781&format=png&auto=webp&s=d1d3ae3bbf9a8a299deaabf57d011e3d20f95bbd
+
+
+[Enabling Log Observer Connect for AppDynamics](https://lantern.splunk.com/Observability/Product_Tips/Log_Observer_Con
+nect/Enabling_Log_Observer_Connect_for_AppDynamics) teaches you how to configure Log Observer Connect for AppDynamics, a
+llowing you to access the right logs in Splunk Log Observer Connect with a single click, all while providing troubleshoo
+ting context from AppDynamics.
+
+Looking for more Cisco and AppDynamics use cases? Check out our [Cisco](https://lantern.
+splunk.com/Data_Descriptors/Cisco) and [AppDynamics](https://lantern.splunk.com/Data_Descriptors/AppDynamics) data descr
+iptor pages for more configuration information, use cases and product tips, and please let us know in the comments what 
+other articles you’d like to see!
+
+# ITSI Best Practices
+
+  
+The [Definitive Guide to Best Practices for IT Service Inte
+lligence](https://lantern.splunk.com/Observability/Product_Tips/IT_Service_Intelligence/The_definitive_guide_to_best_pra
+ctices_for_IT_Service_Intelligence) is a must-read resource for ITSI administrators, with essential guidelines that help
+ you to unlock the full potential of ITSI. We’ve just updated this resource with fresh articles to help you ensure optim
+al operations and exceptional end-user experiences.
+
+[Using dynamic entity rule configurations](https://lantern.splunk.c
+om/Observability/Product_Tips/IT_Service_Intelligence/Using_dynamic_entity_rule_configurations) is helpful for anyone wh
+o often adds or removes entities from their configurations. Learn how to create a rule configuration that updates immedi
+ately and without the need for service configuration changes, reducing the time and risk of error that can result from m
+anually reconfiguring entity filter rules.
+
+If you use the ITSI default aggregation policy, you might not know that you 
+shouldn’t be using this as your primary aggregation policy. Learn why and how to build policies that better fit your nee
+ds in [Utilizing policies other than the default policy](https://lantern.splunk.com/Observability/Product_Tips/IT_Servic
+e_Intelligence/Utilizing_policies_other_than_the_default_policy).
+
+[Building your own custom threshold templates](https:
+//lantern.splunk.com/Observability/Product_Tips/IT_Service_Intelligence/Building_your_own_custom_threshold_templates) sh
+ows you how to use and customize the 33 ITSI out-of-the-box thresholding templates with the ability to configure time po
+licies, choose different thresholding algorithms, and adjust sensitivity configurations.
+
+Finally, [Knowing proper adapt
+ive threshold configurations](https://lantern.splunk.com/Observability/Product_Tips/IT_Service_Intelligence/Knowing_prop
+er_adaptive_threshold_configurations) explains how to best use adaptive thresholding in the most effective way possible,
+ helping you to avoid confusing or noisy configurations.
+
+https://preview.redd.it/t1f068yv1zud1.png?width=783&format=png
+&auto=webp&s=c37852bd50bd239249bd19ce886a3f83789cd254
+
+These four new articles are just some of many articles in the [De
+finitive Guide to Best Practices for IT Service Intelligence](https://lantern.splunk.com/Observability/Product_Tips/IT_S
+ervice_Intelligence/The_definitive_guide_to_best_practices_for_IT_Service_Intelligence), so if you’re looking to improve
+ how you work with ITSI then don’t miss this helpful resource.
+
+# The Rest of This Month’s New Articles
+
+  
+Here’s every
+thing else we’ve published over the month:
+
+* [Maximizing performance with the latest Splunk platform capabilities](http
+s://lantern.splunk.com/Splunk_Platform/UCE/Security/Applying_the_differentiated_capabilities_of_the_Splunk_platform)
+* [
+Monitoring LangChain LLM applications with Splunk](https://lantern.splunk.com/Observability/UCE/Unified_Workflows/Enable
+_Self-Service_Observability/Monitoring_Langchain_LLM_Applications_with_Splunk_Observability_Cloud)
+* [Introduction to th
+e Splunk ACS Github Action CI/CD Starter](https://lantern.splunk.com/Splunk_Platform/Product_Tips/Administration/Introdu
+ction_to_the_Splunk_ACS_Github_Action_CI%2F%2FCD_Starter)
+* [Integrating Kubernetes and Splunk Observability Cloud](http
+s://lantern.splunk.com/Observability/UCE/Foundational_visibility/Optimize_Cloud/Integrating_Kubernetes_and_Splunk_Observ
+ability_Cloud)
+* [Expanding AWS log ingestion capabilities with custom logs in Splunk Data Manager](https://lantern.splu
+nk.com/Data_Descriptors/Amazon/Expanding_AWS_log_ingestion_capabilities_with_Splunk_Data_Manager_custom_logs)
+* [Using I
+ngest Processor to convert JSON logs into metrics](https://lantern.splunk.com/Splunk_Platform/Product_Tips/Extending_the
+_Platform/Using_Ingest_Processor_to_convert_JSON_logs_into_metrics)
+* [Using generative AI to write and explain SPL sear
+ches](https://lantern.splunk.com/Splunk_Platform/Product_Tips/Extending_the_Platform/Using_generative_AI_to_write_and_ex
+plain_SPL_searches)
+
+We hope you’ve found this update helpful. Thanks for reading!
+```
+---
+
+     
+ 
+all -  [ Is RAG Eval Even Possible? ](https://www.reddit.com/r/LangChain/comments/1g4fegp/is_rag_eval_even_possible/) , 2024-10-16-0913
+```
+I'm asking for a friend.
+
+Just kidding of course. I run an AI tools company, basically APIs for enterprise-grade RAG.  W
+e've seen a lot of eval tools, but nothing that actually evals the RAG pipeline.  Most seem focused on the last mile: co
+mparing completions to retrievals.
+
+**But RAG breaks down much earlier than that.**   
+Did we parse the doc correctly?  
+
+Did we extract correctly?  
+Did we chunk correctly?  
+Did we add proper metadata to the chunk?  
+How performant was the
+ search? How about the rerank?
+
+  
+Even simple things like how do you generate a correct QA set against a set of documen
+ts? That sounds simple. Just ask an LLM. But if you don't have the issues above done perfectly than your QA pairs can't 
+be relied upon. 
+
+For example, if your system doesn't perfectly extract a table from a document, then any QA pair built 
+on that table will be built on false data.
+
+If anyone is playing with tools that start to tackle these issues, would lov
+e your POV.
+```
+---
+
+     
+ 
+all -  [ Drag and Drop Platform for Agents ](https://www.reddit.com/r/LangChain/comments/1g4fc8e/drag_and_drop_platform_for_agents/) , 2024-10-16-0913
+```
+Hello,
+
+I've been using LangGraph as a library in python to try and build an agent, however my code got quite disorganiz
+ed and hard to debug, so I've been looking into platforms that have the same functionality, but in a diagram/drag and dr
+op interface.
+
+I've tried autogpt, flowise, langflow and n8n. However, they've all dropped short in functionality.
+
+Some
+ features that I want to use are: read file from my system, write file to my system, use those files for custom prompts,
+ display in chat an LLM response, wait for output from chat (so far, most of them had this), sequence controls (if/else,
+ loops), run multiple branches concurrently, simple memory system (not memory for chat messages, but sort of like variab
+les that you can save a message to, and later use it for something).
+
+Anybody has any suggestions for which platform has
+ most of these features and isn't that much of a pain to work with? It's very possible that one of the one I've tried ab
+ove is able to do what I want, but I just didn't figure out how, so feel free to correct me.
+
+Or, if you have any sugges
+tions for ways to use LangGraph in a more organized matter, whilst being easy to debug every step, please tell. What I m
+ean by debug every step, is to be able to see each LLM's response to figure out where a bad output happened.
+
+Thanks for
+ any input!
+```
+---
+
+     
+ 
+all -  [ OpenAI Realtime API with voice detection mode ](https://www.reddit.com/r/LangChain/comments/1g4dtc0/openai_realtime_api_with_voice_detection_mode/) , 2024-10-16-0913
+```
+Hi, has anyone implemented RealTime API with voice activation detection in langchain? Seems like we have to covert the i
+nput into audio file and process it through the API which doesn't give the user experience as in ChatGPT 'Advanced Voice
+ Mode'. 
+```
+---
+
+     
+ 
+all -  [ Does the PGVector integration work with SelfQueryRetriever? ](https://www.reddit.com/r/LangChain/comments/1g49k2m/does_the_pgvector_integration_work_with/) , 2024-10-16-0913
+```
+Hi all, I'm trying to make a self-querying retriever with my PGVector vector store, following the instructions found on 
+[the documentation](https://python.langchain.com/docs/integrations/retrievers/self_query/pgvector_self_query/) (what lit
+tle there is, unfortunately) but when I run the code, I can see on my LangSmith trace that the StructuredQueryOutputPars
+er receives the json-formatted input with a 'filter', but the output shows no value in the 'filter' key (not even NO\_FI
+LTER as it should be). Is this a known issue? I've seen around the web that there are a few months-old posts raising iss
+ues with the implementation but the code doesn't throw me any errors, and the documentation gives no explanations other 
+than the example code.
+```
+---
+
+     
+ 
+all -  [ need help creating binary file ](https://www.reddit.com/r/PythonLearning/comments/1g477gy/need_help_creating_binary_file/) , 2024-10-16-0913
+```
+I have created a python application which will help talk to databases but i am not able to create working binary file, t
+here are two files main-file and test_sql_1(second file)
+
+i have provided both here please help me create a binary file
+
+the installed pakages are 
+
+
+pip install qt-material PySide6 pandas cryptography langchain langchain-core langchain-comm
+unity langchain-google-genai  psycopg2 mysqlclient cx_Oracle pyodbc matplotlib
+
+all these are required
+**PLEASE HELP**
+e
+very time create a binary file and it is giveing error about pydantic
+leave it and help me create the binary file
+file-1
+
+```python
+import sys
+import json
+import os
+from PySide6.QtWidgets import (
+    QApplication,
+    QMainWindow,
+    QVBox
+Layout,
+    QWidget,
+    QListWidget,
+    QLineEdit,
+    QFormLayout,
+    QSplitter,
+    QPushButton,
+    QLabel,
+    QL
+istWidgetItem,
+    QHBoxLayout,
+    QRadioButton,
+    QButtonGroup,
+    QMessageBox,
+    QTextEdit,
+)
+
+import pandas as 
+pd
+from cryptography.fernet import Fernet
+from PySide6.QtCore import Qt, QThread, Signal
+from datetime import datetime
+f
+rom langchain_core.messages import AIMessage, HumanMessage
+from qt_material import apply_stylesheet
+import matplotlib
+im
+port test_sql_1 as langc
+
+CONFIG_FILE = 'db_credentials.json'  # Configuration file for storing DB credentials
+KEY_FILE 
+= 'secret.key'
+CHROMA_DB_FILE = 'chroma\chroma.sqlite3'
+
+
+# Worker class for handling database connection in a separate 
+thread
+class DatabaseConnectionWorker(QThread):
+    connection_result = Signal(
+        bool, object, object, object, ob
+ject, object, object, object
+    )
+
+    def __init__(self, host, dbname, user, password, port, api_key, db_type):
+      
+  super().__init__()
+        self.host = host
+        self.dbname = dbname
+        self.user = user
+        self.passwor
+d = password
+        self.port = port
+        self.api_key = api_key
+        self.db_type = db_type
+
+    def run(self):
+
+        try:
+            db_connection = langc.init_database(
+                self.user,
+                self.password,
+
+                self.host,
+                self.port,
+                self.dbname,
+                self.db_type,
+       
+     )
+            sql_model = langc.get_sql_chain(self.api_key)
+            explain_model = langc.get_response(self.api
+_key)
+            visual_model = langc.generate_plotly_code(self.api_key)
+            ehancer_model = langc.better_quest
+ion(self.api_key)
+            table_names = db_connection.get_usable_table_names()
+            table_names_description =
+ {
+                name: db_connection.get_table_info([name]) for name in table_names
+            }
+            print(ta
+ble_names)
+            self.connection_result.emit(
+                True,
+                db_connection,
+               
+ sql_model,
+                explain_model,
+                table_names_description,
+                visual_model,
+      
+          ehancer_model,
+                table_names,
+            )
+        except Exception as e:
+            print(f'E
+rror: {e}')
+            self.connection_result.emit(
+                False, None, None, None, None, None, None, None
+   
+         )  # Emit failure
+
+
+# Worker class for processing AI responses in a separate thread
+class AIProcessingWorkerSQL
+(QThread):
+    response_generated = Signal(
+        str, object, object
+    )  # Signal to send generated responses back
+
+
+    def __init__(self, sql_model, user_text, chat_history, db, schema, db_type):
+        super().__init__()
+        se
+lf.sql_model = sql_model
+        self.chat_history = chat_history
+        self.user_text = user_text
+        self.db = d
+b
+        self.data = None
+        self.schema = schema
+        self.sql_command = None
+        self.db_type = db_type
+
+
+    def db_run(self):
+        try:
+            self.data = self.db.run(self.sql_command, fetch='cursor').fetchall()
+    
+        return 'work done'
+        except Exception as e:
+            print(f'Error: {e}')
+            self.data = 'the 
+SQL query encountered an error'
+            return e
+
+    def run(self):
+        query_result = ''
+        for attempt i
+n range(5):
+            print('sql worker++++', attempt)
+            ai_response = self.sql_model.invoke(
+              
+  {
+                    'schema': self.schema,
+                    'chat_history': self.chat_history,
+                  
+  'question': self.user_text,
+                    'db_type': self.db_type,
+                }
+            )['text']
+     
+       ai_response = ai_response.replace('```sql', '').replace('```', '')
+            self.sql_command = ai_response
+   
+         query_result = self.db_run()
+
+            if query_result == 'work done':
+                break
+
+            ai
+_response = self.sql_model.invoke(
+                {
+                    'schema': self.schema,
+                    'cha
+t_history': self.chat_history,
+                    'question': 'For this question: '
+                    + str(self.user
+_text)
+                    + f' the query '{self.sql_command}' encountered an error: {query_result}',
+                  
+  'db_type': self.db_type,
+                }
+            )['text']
+            query_result = self.db_run()
+
+           
+ if query_result == 'work done':
+                break
+        print('sql worker++++', query_result)
+        self.respon
+se_generated.emit(ai_response, self.data, self.user_text)
+
+
+class AIProcessingWorkerExplain(QThread):
+    responce_gener
+ated = Signal(str)
+
+    def __init__(
+        self, explain_model, user_text, sql_command, data, chat_history, schema
+  
+  ):
+        super().__init__()
+        self.chat_history = chat_history
+        self.explain_model = explain_model
+    
+    self.user_text = user_text
+        self.sql_command = sql_command
+        self.data = data
+        self.schema = sch
+ema
+
+    def run(self):
+        formatted_string = self.explain_model.invoke(
+            {
+                'schema': se
+lf.schema,
+                'chat_history': self.chat_history,
+                'query': self.sql_command,
+               
+ 'question': self.user_text['enhanced_question'],
+                'response': self.data,
+            }
+        )['text']
+
+        self.responce_generated.emit(formatted_string)
+
+
+class AIProcessingWorkerUserExpresstion(QThread):
+    responce
+_ehancer_ = Signal(object)
+
+    def __init__(self, user_input, model, chat_history, schema):
+        super().__init__()
+
+        self.user_input = user_input
+        self.model = model
+        self.chat_history = chat_history
+        self.ta
+ble_names = schema
+
+    def clean_json(self, text):
+        return text.replace('```json', '').replace('```', '')
+
+    d
+ef run(self):
+        try:
+            for attempt in range(5):
+                response = self.model.invoke(
+          
+          {
+                        'user_input': self.user_input,
+                        'chat_history': self.chat_his
+tory,
+                        'tables': self.table_names,
+                    }
+                )['text']
+              
+  cleaned_response = self.clean_json(response)
+                print(cleaned_response)
+                print('user worke
+r')
+                try:
+                    result = json.loads(cleaned_response)
+                    self.responce_eha
+ncer_.emit(result)
+                    break
+                except json.JSONDecodeError as decode_error:
+              
+      # Retry with updated input if there's an error
+                    retry_input = f'Question: {self.user_input}, Re
+sponse: {cleaned_response}, Error: {decode_error}'
+                    retry_response = self.model.invoke(
+             
+           {
+                            'user_input': retry_input,
+                            'chat_history': self.cha
+t_history,
+                            'tables': self.table_names,
+                        }
+                    )['text
+']
+                    print('user text')
+                    cleaned_retry_response = self.clean_json(retry_response)
+ 
+                   result = json.loads(cleaned_retry_response)
+                    self.responce_ehancer_.emit(result)
+ 
+                   break
+
+        except Exception as e:
+            print(f'Error: {e}')
+            self.responce_ehan
+cer_.emit('User API key is invalid')
+
+
+class AIProcessingWorkerGraph(QThread):
+    responce_generated = Signal(str)
+
+   
+ def __init__(self, visual_model, user_text, data: pd.DataFrame, sql, complate=''):
+        super().__init__()
+        s
+elf.visual_model = visual_model
+        self.user_text = user_text
+        self.data = data
+        self.complate = comp
+late
+        self.sql_command = sql
+
+    def run(self):
+        formatted_string = self.visual_model.invoke(
+           
+ {
+                'question': str(self.user_text)
+                if self.complate == ''
+                else str(self.
+user_text) + ' do not for get that ' + self.complate,
+                'sql': self.sql_command,
+                'df_metad
+ata': self.data.dtypes,
+                'sample_data': self.data.head(),
+            }
+        )['text']
+        self.re
+sponce_generated.emit(
+            formatted_string.replace('```python', '').replace('```', '')
+        )
+
+
+class MainWi
+ndow(QMainWindow):
+    def __init__(self):
+        super(MainWindow, self).__init__()
+        self.setWindowTitle('GPT-l
+ike Chat with Database Connection')
+        self.sql_model = None
+        self.explain_model = None
+        self.mainLay
+out = QVBoxLayout()
+        self.message_used_for_sql = None
+        self.popup = None
+        self.db_schema = None
+   
+     self.db_connection = None
+        self.visual_model = None
+        self.sql_db_type = 'postgresql'
+        self.tex
+t_ehancer = None
+        self.db_tables_details = None
+        self.db_tables_names = None
+        self.key = self.load_
+key()
+        self.cipher_suite = Fernet(self.key)
+        self.db_document = None
+        # List widget for chat
+      
+  self.listWidget = QListWidget()
+        self.listWidget.setSelectionMode(QListWidget.NoSelection)
+        self.chatHis
+tory = []
+        self.screen_geometry = QApplication.primaryScreen().geometry()
+        # LineEdit for user input
+     
+   self.lineEdit = QLineEdit()
+        self.lineEdit.returnPressed.connect(self.update_chat)
+
+        self.mainLayout.ad
+dWidget(self.listWidget)
+        self.mainLayout.addWidget(self.lineEdit)
+
+        # Sidebar layout for database connect
+ion details
+        self.sidebarLayout = QVBoxLayout()
+
+        # Create a form layout for the database connection detai
+ls
+        formLayout = QFormLayout()
+        self.dbTypeGroup = QButtonGroup(self)
+        self.postgresRadio = QRadioB
+utton('PostgreSQL')
+        self.mysqlRadio = QRadioButton('MySQL')
+        self.sqliteRadio = QRadioButton('SQLite')
+  
+      self.oracleRadio = QRadioButton('Oracle')
+        self.mssqlRadio = QRadioButton('MSSQL')
+        self.dbTypeGroup
+.addButton(self.postgresRadio)
+        self.dbTypeGroup.addButton(self.mysqlRadio)
+        self.dbTypeGroup.addButton(se
+lf.sqliteRadio)
+        self.dbTypeGroup.addButton(self.oracleRadio)
+        self.dbTypeGroup.addButton(self.mssqlRadio)
+
+        self.postgresRadio.setChecked(True)
+
+        # Add radio buttons to form layout
+        db_first_layout = QHBox
+Layout()
+        db_first_layout.addWidget(self.postgresRadio)
+        db_first_layout.addWidget(self.mysqlRadio)
+      
+  db_first_layout.addWidget(self.sqliteRadio)
+        formLayout.addRow(QLabel('Database Type:'))
+        formLayout.add
+Row(db_first_layout)
+
+        db_second_layout = QHBoxLayout()
+        db_second_layout.addWidget(self.oracleRadio)
+    
+    db_second_layout.addWidget(self.mssqlRadio)
+        formLayout.addRow(db_second_layout)
+
+        # Connect radio but
+ton signals
+        self.postgresRadio.toggled.connect(
+            lambda: self.on_db_type_changed('postgresql')
+      
+  )
+        self.mysqlRadio.toggled.connect(lambda: self.on_db_type_changed('mysql'))
+        self.sqliteRadio.toggled.c
+onnect(lambda: self.on_db_type_changed('sqlite'))
+        self.oracleRadio.toggled.connect(lambda: self.on_db_type_chang
+ed('oracle'))
+
+        # Creating inputs for the connection details with empty default values
+        self.hostInput = Q
+LineEdit()
+        self.dbnameInput = QLineEdit()
+        self.userInput = QLineEdit()
+        self.passwordInput = QLin
+eEdit()
+        self.portInput = QLineEdit('5432')
+        self.apiKeyInput = QLineEdit()
+
+        # Adding input fields
+ to form layout
+        formLayout.addRow(QLabel('Host:'), self.hostInput)
+        formLayout.addRow(QLabel('Database Na
+me:'), self.dbnameInput)
+        formLayout.addRow(QLabel('User:'), self.userInput)
+        formLayout.addRow(QLabel('Pa
+ssword:'), self.passwordInput)
+        formLayout.addRow(QLabel('Port:'), self.portInput)
+        formLayout.addRow(QLab
+el('API Key:'), self.apiKeyInput)
+
+        # 'Connect' button
+        self.connectButton = QPushButton('Connect')
+      
+  self.connectButton.clicked.connect(self.connect_to_database)
+        formLayout.addRow(self.connectButton)
+
+        # 
+'Load Credentials' button
+        self.loadButton = QPushButton('Load Credentials')
+        self.loadButton.clicked.conn
+ect(self.load_credentials)
+        formLayout.addRow(self.loadButton)
+
+        # Status label to show connection result 
+(success or not connected)
+        self.statusLabel = QLabel('')
+        formLayout.addRow(self.statusLabel)
+
+        # 
+Add form layout to sidebar
+        self.sidebarLayout.addLayout(formLayout)
+
+        # Spacer to push the button to the 
+bottom
+        self.sidebarLayout.addStretch()
+
+        # Create Chat Button at the bottom
+        self.clearChatButton 
+= QPushButton('Clear Chat')
+        self.clearChatButton.clicked.connect(self.show_clear_chat_confirmation)
+        self
+.sidebarLayout.addWidget(self.clearChatButton)
+        # Sidebar widget
+        self.sidebarWidget = QWidget()
+        s
+elf.sidebarWidget.setLayout(self.sidebarLayout)
+
+        # Chat widget
+        self.chatWidget = QWidget()
+        self.
+chatWidget.setLayout(self.mainLayout)
+
+        # Using QSplitter to divide the sidebar and the main chat area
+        se
+lf.splitter = QSplitter(Qt.Horizontal)
+
+        # Add sidebar (with a minimum width) and chat widget
+        self.splitt
+er.addWidget(self.sidebarWidget)
+        self.splitter.addWidget(self.chatWidget)
+
+        # Setting sidebar size limita
+tions
+        self.sidebarWidget.setMinimumWidth(200)
+        self.sidebarWidget.setMaximumWidth(350)
+
+        # Control
+ the relative sizing - 1:4 means sidebar takes less space than chat
+        self.splitter.setStretchFactor(0, 1)
+       
+ self.splitter.setStretchFactor(1, 4)
+
+        # Create Toggle Button (Fixed on main layout, outside of sidebar)
+       
+ self.toggleSidebarButton = QPushButton('Close')
+        self.toggleSidebarButton.clicked.connect(self.toggle_sidebar)
+
+
+        # Create a layout to position the toggle button at the top-left corner
+        self.toggleLayout = QVBoxLayout()
+
+        self.toggleLayout.addWidget(self.toggleSidebarButton, alignment=Qt.AlignLeft)
+
+        # Create a wrapper widge
+t to hold the toggle button and the splitter
+        self.wrapperWidget = QWidget()
+        self.wrapperLayout = QVBoxLa
+yout()
+        self.wrapperLayout.addLayout(self.toggleLayout)  # Add toggle button layout
+        self.wrapperLayout.ad
+dWidget(self.splitter)  # Add the main splitter
+        self.wrapperWidget.setLayout(self.wrapperLayout)
+
+        # Set 
+the wrapper widget as the central widget
+        self.setCentralWidget(self.wrapperWidget)
+
+    def toggle_sidebar(self)
+:
+        # Check if sidebar is visible
+        if self.sidebarWidget.isVisible():
+            self.sidebarWidget.hide()
+
+            self.toggleSidebarButton.setText('Open')  # Change button text when hidden
+            self.splitter.setSiz
+es(
+                [0, self.width()]
+            )  # Sidebar hidden, chat takes full width
+        else:
+            s
+elf.sidebarWidget.show()
+            self.toggleSidebarButton.setText('Close')  # Reset button text when visible
+       
+     self.splitter.setSizes([400, self.width() - 200])  # Reset the sidebar width
+
+    def show_clear_chat_confirmation(
+self):
+        # Create a confirmation popup
+        confirmation = QMessageBox()
+        confirmation.setWindowTitle('C
+reate Chat')
+        confirmation.setText('Are you sure you want to clear?')
+        confirmation.setStandardButtons(QMe
+ssageBox.Yes | QMessageBox.No)
+        confirmation.setIcon(QMessageBox.Question)
+
+        # Check the user's response
+ 
+       result = confirmation.exec_()
+
+        if result == QMessageBox.Yes:
+            self.listWidget.clear()
+        
+    self.chatHistory = []
+
+    def on_db_type_changed(self, db_type):
+        self.sql_db_type = db_type
+
+    def update
+_chat(self):
+        if not self.sql_model:
+            self.add_message_user('Not connected to the database.')
+        
+    return
+
+        # Get the user's input
+        user_text = self.lineEdit.text()
+        self.lineEdit.clear()
+
+     
+   self.add_message_user(user_text)
+        self.message_used_for_sql = user_text
+        self.ehnace_user_text = AIProc
+essingWorkerUserExpresstion(
+            user_text,
+            self.text_ehancer,
+            self.chatHistory,
+       
+     self.db_tables_names,
+        )
+        self.ehnace_user_text.responce_ehancer_.connect(
+            self.user_expr
+esstion_after_ehnance
+        )
+
+        self.ehnace_user_text.start()
+
+    def user_expresstion_after_ehnance(self, use
+r_text):
+        if user_text == 'User API key is invalid':
+            self.statusLabel.setText('ERROR: While Connectin
+g to model')
+            self.statusLabel.setStyleSheet('color: red')
+            return
+        self.db_schema = ''
+   
+     for i in user_text['useful_tables']:
+            if i in self.db_tables_names:
+                self.db_schema += se
+lf.db_tables_details[i] + '\n'
+
+        # Start a separate thread to process AI response
+        self.ai_sql_worker = AI
+ProcessingWorkerSQL(
+            self.sql_model,
+            user_text,
+            self.chatHistory,
+            self.d
+b_connection,
+            self.db_schema,
+            self.sql_db_type,
+        )
+        self.ai_sql_worker.response_ge
+nerated.connect(self.add_ai_response)
+        self.ai_sql_worker.start()
+
+    def add_ai_response(self, ai_response, dat
+a, user_en):
+        if 'User API key is invalid' in ai_response:
+            self.statusLabel.setText(
+                
+'User API key is invalid',
+            )
+            self.statusLabel.setStyleSheet('color: red')
+            return
+   
+     self.add_ai_sql_message(ai_response, data, user_en)
+
+    def add_message_user(self, text):
+        message_widget =
+ QWidget()
+        message_layout = QHBoxLayout()
+        message_layout.setAlignment(Qt.AlignRight)
+        message_wid
+get.setLayout(message_layout)
+        message_layout.addWidget(QLabel(text))
+        list_item = QListWidgetItem()
+     
+   list_item.setSizeHint(message_widget.sizeHint())
+        self.listWidget.addItem(list_item)
+        self.listWidget.s
+etItemWidget(list_item, message_widget)
+        self.listWidget.scrollToBottom()
+
+    def add_ai_sql_message(self, text,
+ dataframe, user_en):
+        message_widget = QWidget()
+        message_layout = QHBoxLayout()
+        message_layout.s
+etAlignment(Qt.AlignLeft)
+        message_widget.setLayout(message_layout)
+        temp_var = QTextEdit()
+        temp_v
+ar.setMarkdown('```sql' + text + '```')
+        temp_var.setReadOnly(True)
+        temp_var.setMaximumSize(
+            
+int(self.screen_geometry.size().width() * 0.5),
+            self.screen_geometry.size().height(),
+        )
+        mess
+age_layout.addWidget(temp_var)
+        print(dataframe)
+        print(dataframe is not None)
+
+        action_button = No
+ne
+        action_button_graph = None
+
+        if dataframe is not None and dataframe != 'the sql query made a error':
+ 
+           action_button = self.create_button(
+                'Download', lambda: self.handle_action(dataframe)
+       
+     )
+            message_layout.addWidget(action_button)
+            action_button_graph = self.create_button(
+       
+         'Visualize',
+                lambda: self.handle_action_graph(
+                    pd.DataFrame(dataframe), use
+r_en, text
+                ),
+            )
+            message_layout.addWidget(action_button_graph)
+
+        # Event h
+andlers for button visibility
+        def show_buttons(event):
+            if action_button:
+                action_butt
+on.setVisible(True)
+            if action_button_graph:
+                action_button_graph.setVisible(True)
+
+        de
+f hide_buttons(event):
+            if action_button:
+                action_button.setVisible(False)
+            if acti
+on_button_graph:
+                action_button_graph.setVisible(False)
+
+        message_widget.enterEvent = show_buttons
+
+        message_widget.leaveEvent = hide_buttons
+        list_item = QListWidgetItem()
+        list_item.setSizeHint(me
+ssage_widget.sizeHint())
+        self.listWidget.addItem(list_item)
+        self.listWidget.setItemWidget(list_item, mes
+sage_widget)
+        self.listWidget.scrollToBottom()
+        if self.message_used_for_sql:
+            self.ai_explain_
+worker = AIProcessingWorkerExplain(
+                self.explain_model,
+                user_en,
+                text,
+ 
+               dataframe,
+                self.chatHistory,
+                self.db_schema,
+            )
+            se
+lf.chatHistory.append(HumanMessage(str(user_en)))
+            self.chatHistory.append(AIMessage(text))
+            self.
+ai_explain_worker.responce_generated.connect(
+                self.add_ai_explain_response
+            )
+
+            se
+lf.ai_explain_worker.start()
+            self.message_used_for_sql = None
+
+    def create_button(self, text, action):
+  
+      button = QPushButton(text)
+        button.setVisible(False)
+        button.clicked.connect(action)
+        return 
+button
+
+    def add_ai_explain_response(self, text):
+        message_widget = QWidget()
+        message_layout = (
+     
+       QVBoxLayout()
+        )  # Use QVBoxLayout for vertical stacking of content
+        message_layout.setAlignment(Q
+t.AlignLeft)
+        self.chatHistory.append(AIMessage(text))
+
+        message_label = QTextEdit()
+        # Display the
+ HTML content in the QTextEdit
+        message_label.setMarkdown(text)
+        message_label.setReadOnly(True)
+        m
+essage_label.adjustSize()
+
+        message_label.setMaximumSize(
+            int(self.screen_geometry.size().width() * 0
+.5),
+            self.screen_geometry.size().height(),
+        )
+        # ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        
+message_widget.setLayout(message_layout)
+        message_layout.addWidget(message_label)
+
+        list_item = QListWidge
+tItem()
+        list_item.setSizeHint(message_widget.sizeHint())
+        self.listWidget.addItem(list_item)
+        self
+.listWidget.setItemWidget(list_item, message_widget)
+        self.listWidget.scrollToBottom()
+
+    def handle_action_gra
+ph(self, df, user_en, sql):
+        self.graph_df = pd.DataFrame(df)
+        self.graph_user_en = user_en
+        self.g
+raph_sql = sql
+        self.run_graph_generation()
+
+    def run_graph_generation(self, complate=''):
+        self.graphg
+en = AIProcessingWorkerGraph(
+            self.visual_model,
+            self.graph_user_en,
+            self.graph_df,
+
+            self.graph_sql,
+            complate,
+        )
+        self.graphgen.responce_generated.connect(self.create
+_math_plot)
+        self.graphgen.start()
+
+    def create_math_plot(self, code):
+        try:
+            # Execute the 
+code
+            print(code)
+            local_scope = {'df': self.graph_df}
+            exec(code, {}, local_scope)
+   
+     except Exception as e:
+            print(code)
+            print(f'Error executing code: {e}')
+            # Log th
+e error
+            print(f'Error executing code: {e}')
+            # Retry the graph generation
+            self.run_gr
+aph_generation(str(e))
+
+    def handle_action(self, df):
+        print('Downloading data...')
+        try:
+            i
+f df is not pd.DataFrame:
+                df = pd.DataFrame(list(df))
+            # Convert timezone-aware datetime obje
+cts to timezone-unaware
+            for col in df.select_dtypes(include=['datetimetz']).columns:
+                df[col]
+ = df[col].apply(
+                    lambda x: x.strftime('%Y-%m-%d %H:%M:%S.%f %Z')
+                    if pd.notnull(
+x)
+                    else ''
+                )
+            for col in df.select_dtypes(include=['timedelta']).columns:
+
+                df[col] = df[col].apply(lambda x: str(x) if pd.notnull(x) else '')
+
+            # Print the DataFrame t
+o verify its content
+
+            timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+            excel_filename = f'do
+wnloaded_data_{timestamp}.xlsx'
+            with pd.ExcelWriter(excel_filename, engine='openpyxl') as writer:
+          
+      df.to_excel(writer, index=False)
+
+            print(f'Data downloaded successfully as '{excel_filename}'.')
+      
+      self.statusLabel.setText(
+                f'Data downloaded successfully as '{excel_filename}'.'
+            )
+   
+         self.statusLabel.setStyleSheet('color: green;')
+
+            # Open the downloaded Excel file (Windows-specific
+)
+            if os.name == 'nt':
+                os.startfile(excel_filename)
+            else:
+                print(f
+'Please open the file manually: {excel_filename}')
+
+        except Exception as e:
+            print(f'Error while downl
+oading data: {e}')
+            self.statusLabel.setText('Error downloading data.')
+            self.statusLabel.setStyle
+Sheet('color: red')
+
+    def connect_to_database(self):
+        self.statusLabel.setText('Connecting...')
+        self.s
+tatusLabel.setStyleSheet('color: orange;')
+        self.connectButton.setEnabled(False)
+        # Start the worker threa
+d to connect to the database
+        self.db_worker = DatabaseConnectionWorker(
+            self.hostInput.text(),
+     
+       self.dbnameInput.text(),
+            self.userInput.text(),
+            self.passwordInput.text(),
+            se
+lf.portInput.text(),
+            self.apiKeyInput.text(),
+            self.sql_db_type,
+        )
+        self.db_worker
+.connection_result.connect(self.on_connection_result)
+        self.db_worker.start()
+
+    def on_connection_result(
+    
+    self,
+        success,
+        db_connection,
+        sql_model,
+        explain_model,
+        table_info,
+        
+visual_model,
+        ehancer_model,
+        table_names,
+    ):
+        if success:
+            self.db_tables_details 
+= table_info
+            self.db_tables_names = table_names
+            self.db_connection = db_connection
+            s
+elf.sql_model = sql_model
+            self.explain_model = explain_model
+            self.visual_model = visual_model
+  
+          self.text_ehancer = ehancer_model
+            self.statusLabel.setText('Success')
+            self.statusLabel
+.setStyleSheet('color: green;')
+            # Save credentials after successful connection
+            self.save_credent
+ials()
+        else:
+            self.statusLabel.setText('Not Connected')
+            self.statusLabel.setStyleSheet('c
+olor: red')
+        self.connectButton.setEnabled(True)
+
+    def generate_key(self):
+        key = Fernet.generate_key()
+
+        with open(KEY_FILE, 'wb') as key_file:
+            key_file.write(key)
+
+    def load_key(self):
+        if not 
+os.path.exists(KEY_FILE):
+            self.generate_key()
+        with open(KEY_FILE, 'rb') as key_file:
+            ret
+urn key_file.read()
+
+    def encrypt(self, data):
+        return self.cipher_suite.encrypt(data.encode()).decode()
+
+    
+def decrypt(self, data):
+        return self.cipher_suite.decrypt(data.encode()).decode()
+
+    def save_credentials(self
+):
+        credentials = {
+            'host': self.hostInput.text(),
+            'dbname': self.dbnameInput.text(),
+   
+         'user': self.userInput.text(),
+            'password': self.passwordInput.text(),
+            'port': self.port
+Input.text(),
+            'api_key': self.apiKeyInput.text(),
+            'db_type': self.sql_db_type,
+        }
+       
+ encrypted_credentials = {k: self.encrypt(v) for k, v in credentials.items()}
+        with open(CONFIG_FILE, 'w') as f:
+
+            json.dump(encrypted_credentials, f)
+
+    def load_credentials(self):
+        if os.path.exists(CONFIG_FILE):
+
+            with open(CONFIG_FILE, 'r') as f:
+                encrypted_credentials = json.load(f)
+                cred
+entials = {
+                    k: self.decrypt(v) for k, v in encrypted_credentials.items()
+                }
+         
+       self.db_type = credentials.get('db_type', 'postgresql')
+                if self.db_type == 'postgresql':
+        
+            self.postgresRadio.setChecked(True)
+                elif self.db_type == 'mysql':
+                    self.m
+ysqlRadio.setChecked(True)
+                elif self.db_type == 'sqlite':
+                    self.sqliteRadio.setChecke
+d(True)
+                elif self.db_type == 'oracle':
+                    self.oracleRadio.setChecked(True)
+           
+     elif self.db_type == 'mssql':
+                    self.mssqlRadio.setChecked(True)
+                self.hostInput.s
+etText(credentials.get('host', ''))
+                self.dbnameInput.setText(credentials.get('dbname', ''))
+            
+    self.userInput.setText(credentials.get('user', ''))
+                self.passwordInput.setText(credentials.get('pass
+word', ''))
+                self.portInput.setText(credentials.get('port', '5432'))
+                self.apiKeyInput.set
+Text(credentials.get('api_key', ''))
+        else:
+            self.statusLabel.setText('No saved credentials found.')
+ 
+           self.statusLabel.setStyleSheet('color: red')
+
+    def save_chat_history(self):
+        with open('chat_histor
+y.json', 'w') as f:
+            json.dump([str(msg) for msg in self.chatHistory], f)
+
+    def closeEvent(self, event):
+ 
+       self.save_chat_history()
+        event.accept()
+
+
+app = QApplication(sys.argv)
+apply_stylesheet(app, theme='theam
+.xml')
+window = MainWindow()
+window.show()
+
+sys.exit(app.exec())
+```
+
+
+file-2(test_sql_1.py)
+```python
+from langchain_co
+re.prompts import PromptTemplate
+from langchain_community.utilities import SQLDatabase
+from langchain_google_genai impor
+t ChatGoogleGenerativeAI
+from langchain.chains import LLMChain
+
+
+def init_database(
+    user: str,
+    password: str,
+  
+  host: str,
+    port: str,
+    database: str,
+    db_type: str = 'postgresql',
+) -> SQLDatabase:
+    if db_type == 'pos
+tgresql':
+        db_uri = f'postgresql+psycopg2://{user}:{password}@{host}:{port}/{database}'
+    elif db_type == 'mysq
+l':
+        db_uri = f'mysql+mysqldb://{user}:{password}@{host}:{port}/{database}'
+    elif db_type == 'sqlite':
+       
+ db_uri = f'sqlite:///{database}'
+    elif db_type == 'oracle':
+        db_uri = f'oracle+cx_oracle://{user}:{password}@
+{host}:{port}/{database}'
+    elif db_type == 'mssql':
+        db_uri = f'mssql+pyodbc://{user}:{password}@{host}:{port}
+/{database}'
+    return SQLDatabase.from_uri(db_uri)
+
+
+def get_sql_chain(api_key):
+    print('sql_1')
+    template = Pro
+mptTemplate(
+        input_variables=['schema', 'chat_history', 'question', 'db_type'],
+        template='')
+    print('
+sql_2')
+    # llm = ChatMistralAI(model='codestral-2405', mistral_api_key=MINSTRAL_API_KEY)
+    llm = ChatGoogleGenerati
+veAI(
+        model='gemini-1.5-flash', google_api_key=api_key, temperature=0
+    )
+    chain = LLMChain(
+        llm=ll
+m,
+        prompt=template,
+    )
+
+    return chain
+
+
+def get_response(api_key):
+    print('nor_1')
+    template = Promp
+tTemplate(
+        input_variables=['schema', 'chat_history', 'query', 'question', 'response'],
+        template='')
+   
+ print('nor_2')
+    llm = ChatGoogleGenerativeAI(
+        model='gemini-1.5-flash', google_api_key=api_key, temperature=
+0.1
+    )
+    chain = LLMChain(llm=llm, prompt=template)
+    return chain
+
+
+def generate_plotly_code(api_key) -> str:
+  
+  print('plotly_1')
+    template = PromptTemplate(
+        input_variables=['question', 'sql', 'df_metadata', 'sample_da
+ta'],
+        template='')
+    print('plotly_2')
+    llm = ChatGoogleGenerativeAI(
+        model='gemini-1.5-flash', goo
+gle_api_key=api_key, temperature=0
+    )
+
+    chain = LLMChain(llm=llm, prompt=template)
+
+    return chain
+
+
+def better_
+question(api_key):
+    template = PromptTemplate(
+        input_variables=['user_input', 'chat_history', 'tables'],
+    
+    template=''
+        
+    )
+    llm = ChatGoogleGenerativeAI(
+        model='gemini-1.5-flash', google_api_key=api_ke
+y, temperature=0.1
+    )
+
+    chain = LLMChain(llm=llm, prompt=template)
+
+    return chain
+``` 
+```
+---
+
+     
+ 
+all -  [ What are the best practices for loading and splitting Confluence data into a vectorstore for RAG? ](https://www.reddit.com/r/LangChain/comments/1g46j4w/what_are_the_best_practices_for_loading_and/) , 2024-10-16-0913
+```
+Hello fellow developers,
+
+I'm working on a project that involves integrating our internal Confluence knowledge base with
+ a RAG system. I'm facing some challenges and would appreciate your insights:
+
+1. Splitting unstructured data:
+   * Init
+ially used a basic text splitter with overlapping (suboptimal results)
+   * Tried an HTML splitter, but it separates hea
+ders from text and cuts off important information - doesn't seem to be the best approach
+   * What's the most effective 
+approach for maintaining context and relevance?
+2. Dealing with outdated content:
+   * Our Confluence pages and spaces a
+ren't consistently updated
+   * How can we ensure our RAG system uses the most current information?<
+   * Do you have an
+y idea how to fix/improve the 'outdated' data problem?
+
+Has anyone tackled similar issues? I'd love to hear about your e
+xperiences and any best practices you've discovered.
+```
+---
+
+     
+ 
+all -  [ Astute RAG: Fixing RAG’s imperfect retrieval ](/r/AIQuality/comments/1g45nou/astute_rag_fixing_rags_imperfect_retrieval/) , 2024-10-16-0913
+```
+
+```
+---
+
+     
+ 
+all -  [ How can I add an extra column in the SQL agent response table ? ](https://www.reddit.com/r/LangChain/comments/1g45i24/how_can_i_add_an_extra_column_in_the_sql_agent/) , 2024-10-16-0913
+```
+Hello everyone , I'm learning about Langgraph agents and developing a project around it.   
+  
+It's an SQL agent and is 
+derived from here \[ [https://docs.smith.langchain.com/tutorials/Developers/agents#sql-agent](https://docs.smith.langcha
+in.com/tutorials/Developers/agents#sql-agent) \].  
+You can see one of the QnA below .    
+My SQL table 'Employee' has N
+ame , Location , Experience , Skills , Graduation , Post Graduation , PhD fields only that you guys can also see in the 
+AI response.
+
+[Chat with SQL agent](https://preview.redd.it/378uewfsnwud1.png?width=491&format=png&auto=webp&s=219a2738e
+e2e55de584a35de3804f2172dcb5cb6)
+
+  
+Now , I want to add a column 'Match %' when AI is returning the response to the use
+r so that when a user queries for candidate using the job description, he get a column 'Match %' that tells us how much 
+% does candidate match.  
+  
+How can I add this functionality ?
+```
+---
+
+     
+ 
+all -  [ How to stop generation during streaming? ](https://www.reddit.com/r/LangChain/comments/1g458w6/how_to_stop_generation_during_streaming/) , 2024-10-16-0913
+```
+I use astream\_events in python to stream model output. Now I want to terminate the model when running a specific tool. 
+Just stopping the streaming does not stop the generation and will save no computation costs.
+
+I tried stop sequences but
+ they only work when the model generates them itself, not when the tooloutput contains it. So how can I achieve this?
+```
+---
+
+     
+ 
+all -  [ Need help with understanding Langgraph :) ](https://www.reddit.com/r/LangChain/comments/1g43vje/need_help_with_understanding_langgraph/) , 2024-10-16-0913
+```
+I have enrolled in the Langgraph course from Langchain academy and I am in the verge of completion 🏁. I could understand
+ the concept of graph and states. 🙂
+
+But I have few doubts and that creates roadblocks in my learning journey. 😭
+
+1. Is 
+anything created via Langgraph is considered as Agents ? 
+
+2. Is Langgraph designed to work with web frameworks like Dja
+ngo, FastAPI or is it just a background process ? 
+
+3. How can I provide human input/feedback via UI to Langgraph (via h
+ttp request) ? (If integration with web frameworks is possible) 
+
+4. Is it something that needs to be deployed in Langch
+ain cloud and accessed via API ? 
+
+Please help me to understand and help of any kind would be greatly appreciated. 
+
+Tha
+nks in advance 🥲👍🏻
+```
+---
+
+     
+ 
+all -  [ Is hashing data before passing it as prompt to LLM a good practice? ](https://www.reddit.com/r/LocalLLaMA/comments/1g4359h/is_hashing_data_before_passing_it_as_prompt_to/) , 2024-10-16-0913
+```
+I have a tabular data and I am using langchain's create_csv_agent to query from it. This agent is perfect when used with
+ gpt-4o. 
+
+But there's one issue. I don't trust openai with my private data.
+
+Suppose I have a tabular data with column 
+names: [name, money, worth], and suppose one row is [skibbidi, 69, 420]; I plan to transform this row like [asd, 6, 8], 
+where asd, 6 and 8 map to the respective values. Basically numbers are still numbers and the hierarchy between these num
+bers is maintained(since 69 is less than 420 hence 69 = 6 and 420 = 8), the texts on the other hand are transformed into
+ some other text.
+
+Is this a good method to maintain data privacy?
+
+I don't have a GPU, and the small models I tested th
+rough ollama suck at generating dataframe queries. 
+
+
+```
+---
+
+     
+ 
+all -  [ What gets deployed into LangGraph Cloud? ](https://www.reddit.com/r/LangChain/comments/1g410ef/what_gets_deployed_into_langgraph_cloud/) , 2024-10-16-0913
+```
+I was reading over the LangGraph docs and wasn’t clear on what happens during deployment. 
+
+When you deploy a graph into
+ LangGraph Cloud, what do you get?
+
+An API endpoint you can interact with, or it just runs the Python code and reports b
+ack to LangSmith?
+
+How would human in the loop interaction work once the graph was deployed?
+
+Appreciate any insight!
+```
+---
+
+     
+ 
+all -  [ FloAI: A composable AI Agent Builder (looking for feedback) ](https://www.reddit.com/r/LangChain/comments/1g40v7h/floai_a_composable_ai_agent_builder_looking_for/) , 2024-10-16-0913
+```
+[Flo](https://github.com/rootflo/flo-ai) was born out of a need for a more streamlined and powerful solution for buildin
+g AI agentic workflows. While frameworks like **CrewAI** fell short in offering the flexibility developers needed, and L
+angGraph became a challenge to set up and run, Flo provides an ideal middle ground. It’s designed to be the “Keras for T
+ensorFlow” of agentic workflows, offering pre-built components for rapid prototyping while allowing deep control for cus
+tom, production-level systems. Whether you’re developing simple or intricate workflows, Flo makes AI composability easy 
+and powerful.
+
+With its flexible architecture, you can create teams of agents, leverage different router types, and buil
+d AI workflows that scale easily. Flo empowers developers to take control of their AI systems, making it a breeze to ada
+pt, prototype, and push the boundaries of agentic AI.
+
+Do check the repository and happy to take feedback: [https://gith
+ub.com/rootflo/flo-ai](https://github.com/rootflo/flo-ai).  
+Give us a star if you think what we plan to build is intere
+sting
+```
+---
+
+     
+ 
+all -  [  Project Alice - v0.2 => open source platform for agentic workflows  ](https://www.reddit.com/r/LangChain/comments/1g3r1ol/project_alice_v02_open_source_platform_for/) , 2024-10-16-0913
 ```
 Hello everyone! A few months ago I launch a project I'd been working on called Project Alice. And today I'm happy to sha
 re an incredible amount of progress, and excited to get people to try it out.
@@ -9,80 +1571,80 @@ To that effect, I've created a few videos
 
 * [Part 1](https://www.youtube.com/watch?v=ojhcb9ADJq
 U) (11:38)
-* [Part 2](https://studio.youtube.com/video/oXGk6g_gPtU/edit) (8:38)
+* [Part 2](https://www.youtube.com/watch?v=oXGk6g_gPtU) (8:38)
 
-Repository: [Link](https://github.com/M
-arianoMolina/project_alice)
+Repository: [Link](https://github.com/Mariano
+Molina/project_alice)
 
 # What is it though?
 
-A free open source framework and platform for agentic workflows. It i
-ncludes a frontend, backend and a python logic module. It takes 5 minutes to install, no coding needed, and you get a fr
-ontend where you can create your own agents, chats, task/workflows, etc, run your tasks and/or chat with your agents. Yo
-u can use local models, or most of the most used API providers for AI generation.
+A free open source framework and platform for agentic workflows. It include
+s a frontend, backend and a python logic module. It takes 5 minutes to install, no coding needed, and you get a frontend
+ where you can create your own agents, chats, task/workflows, etc, run your tasks and/or chat with your agents. You can 
+use local models, or most of the most used API providers for AI generation.
 
-You don't need to know how to code at
- all, but if you do, you have full flexibility to improve any aspect of it since its all open source. The platform has b
-een purposefully created so that it's code is comprehensible, easy to upgrade and improve. Frontend and backend are in T
-S, python module uses Pydantic almost to a pedantic level.
+You don't need to know how to code at all, 
+but if you do, you have full flexibility to improve any aspect of it since its all open source. The platform has been pu
+rposefully created so that it's code is comprehensible, easy to upgrade and improve. Frontend and backend are in TS, pyt
+hon module uses Pydantic almost to a pedantic level.
 
 It has a total of 22 apis at the moment:
 
         OPENAI
-   
-     OPENAI_VISION
+        O
+PENAI_VISION
         OPENAI_IMG_GENERATION
         OPENAI_EMBEDDINGS
         OPENAI_TTS
         OPENAI_STT
-       
- OPENAI_ASTT
+        OPENA
+I_ASTT
         AZURE
         GEMINI
         GEMINI_VISION
         GEMINI_IMG_GEN => Google's sdk is broken atm
-   
-     MISTRAL
+        M
+ISTRAL
         MISTRAL_VISION
         MISTRAL_EMBEDDINGS
         GEMINI_STT
         GEMINI_EMBEDDINGS
-        COHE
-RE
-        GROQ
+        COHERE
+   
+     GROQ
         GROQ_VISION
         GROQ_TTS
         META
         META_VISION
         ANTHROPIC
-        ANTHROPI
-C_VISION
+        ANTHROPIC_VISI
+ON
         LM_STUDIO
         LM_STUDIO_VISION
         GOOGLE_SEARCH
         REDDIT_SEARCH
         WIKIPEDIA_SEARCH
-
-        EXA_SEARCH
+     
+   EXA_SEARCH
         ARXIV_SEARCH
         GOOGLE_KNOWLEDGE_GRAPH
 
-And an uncountable number of models that you ca
-n deploy with it.
+And an uncountable number of models that you can depl
+oy with it.
 
-It is going to keep getting better. If you think this is nice, wait until the next update drops. And 
-if you feel like helping out, I'd be super grateful. I'm about to tackle RAG and ReACT capabilities in my agents, and I'
-m sure a lot of people here have some experience with that. Maybe the idea of trying to come up with a (maybe industry?)
- standard sounds interesting?
+It is going to keep getting better. If you think this is nice, wait until the next update drops. And if you
+ feel like helping out, I'd be super grateful. I'm about to tackle RAG and ReACT capabilities in my agents, and I'm sure
+ a lot of people here have some experience with that. Maybe the idea of trying to come up with a (maybe industry?) stand
+ard sounds interesting?
 
-Check out the videos if you want some help installing and understanding the frontend. Ask
- me any questions otherwise!
+Check out the videos if you want some help installing and understanding the frontend. Ask me an
+y questions otherwise!
 ```
 ---
 
      
  
-all -  [ NaturalAgents - notion-style editor to easily create AI Agents ](https://www.reddit.com/r/OpenSourceAI/comments/1g3qsir/naturalagents_notionstyle_editor_to_easily_create/) , 2024-10-15-0913
+all -  [ NaturalAgents - notion-style editor to easily create AI Agents ](https://www.reddit.com/r/OpenSourceAI/comments/1g3qsir/naturalagents_notionstyle_editor_to_easily_create/) , 2024-10-16-0913
 ```
 [NaturalAgents](https://github.com/NaturalAgents/NaturalAgents) is the easiest way to create AI Agents in a notion-style
  editor without code - using plain english and simple macros. It's fully open-source and will be actively maintained.
@@ -105,7 +1667,7 @@ ach out if you're interested in contributing!
 
      
  
-all -  [ Vector Store Usage for RAG ](https://www.reddit.com/r/LangChain/comments/1g3puzu/vector_store_usage_for_rag/) , 2024-10-15-0913
+all -  [ Vector Store Usage for RAG ](https://www.reddit.com/r/LangChain/comments/1g3puzu/vector_store_usage_for_rag/) , 2024-10-16-0913
 ```
 I'm a newbie building an RAG application for a simple documentation Q&A where the user enters the URL for a documentatio
 n and can ask questions on it. I understand I need a vector store for storing the embeddings. My question is would I nee
@@ -116,7 +1678,7 @@ verwritten with new embeddings?
 
      
  
-all -  [ Does RAG Have a Scaling Problem? ](https://www.reddit.com/r/LlamaIndex/comments/1g3put2/does_rag_have_a_scaling_problem/) , 2024-10-15-0913
+all -  [ Does RAG Have a Scaling Problem? ](https://www.reddit.com/r/LlamaIndex/comments/1g3put2/does_rag_have_a_scaling_problem/) , 2024-10-16-0913
 ```
 My team has been digging into the scalability of vector databases for RAG (Retrieval-Augmented Generation) systems, and 
 we feel we might be hitting some limits that aren’t being widely discussed.
@@ -452,39 +2014,7 @@ dgPL21xAHeI2jXJo)
 
      
  
-all -  [ Gradio 5 - Building a Quick Chatbot UI for LangChain in python tutorial on Youtube ](https://www.reddit.com/r/Python/comments/1g3pac0/gradio_5_building_a_quick_chatbot_ui_for/) , 2024-10-15-0913
-```
-tutorial: [https://www.youtube.com/watch?v=u\_Xm3vgBQ9Y](https://www.youtube.com/watch?v=u_Xm3vgBQ9Y)
-
-
-
-colab: [https:/
-/colab.research.google.com/drive/1tq6h7yPmdX463xwA4hz31hen6Xh55MB-?usp=sharing#scrollTo=GQth439KJGG\_](https://colab.res
-earch.google.com/drive/1tq6h7yPmdX463xwA4hz31hen6Xh55MB-?usp=sharing#scrollTo=GQth439KJGG_)
-
-
-
-gradio 5 blog: [https://h
-uggingface.co/blog/gradio-5](https://huggingface.co/blog/gradio-5)
-
-
-
-gradio github: [https://github.com/gradio-app/grad
-io](https://github.com/gradio-app/gradio)
-```
----
-
-     
- 
-all -  [ Is it just me or the dependency resolution in Langchain is a nightmare. Everytime I integrate any LL ](https://www.reddit.com/r/LangChain/comments/1g3mriz/is_it_just_me_or_the_dependency_resolution_in/) , 2024-10-15-0913
-```
-
-```
----
-
-     
- 
-all -  [ I have a python codebase that uses streamlit, want to move to react for easier integration. ](https://www.reddit.com/r/LangChain/comments/1g3milz/i_have_a_python_codebase_that_uses_streamlit_want/) , 2024-10-15-0913
+all -  [ I have a python codebase that uses streamlit, want to move to react for easier integration. ](https://www.reddit.com/r/LangChain/comments/1g3milz/i_have_a_python_codebase_that_uses_streamlit_want/) , 2024-10-16-0913
 ```
 As the title states I've been working on a predominately python codebase with a lot of langchian concepts that have been
  written in python and I want to migrate away from streamlit to some sort of react library, please do let me know if the
@@ -494,7 +2024,7 @@ re are any solutions availabel thank you.
 
      
  
-all -  [ Python or Typescript for RAG? ](https://www.reddit.com/r/Rag/comments/1g3lgzy/python_or_typescript_for_rag/) , 2024-10-15-0913
+all -  [ Python or Typescript for RAG? ](https://www.reddit.com/r/Rag/comments/1g3lgzy/python_or_typescript_for_rag/) , 2024-10-16-0913
 ```
 I am working on a project for my Bachelor's thesis and want to build a Retrieval-Augmented Generation (RAG) system. For 
 Langchain and LlamaIndex, there are both Python and TypeScript versions available. I am new to this topic but would like
@@ -509,7 +2039,7 @@ ython. As a beginner in this field, will I still be able to manage with TypeScri
 
      
  
-all -  [ Has anyone seen AI agents working in production at scale? ](https://www.reddit.com/r/LocalLLaMA/comments/1g3jkct/has_anyone_seen_ai_agents_working_in_production/) , 2024-10-15-0913
+all -  [ Has anyone seen AI agents working in production at scale? ](https://www.reddit.com/r/LocalLLaMA/comments/1g3jkct/has_anyone_seen_ai_agents_working_in_production/) , 2024-10-16-0913
 ```
 Has anyone seen AI agents working in production at scale? 
 
@@ -534,7 +2064,7 @@ are your real-world use cases and experiences?
 
      
  
-all -  [ LangGraph 101 - Tutorial with Practical Example ](https://www.reddit.com/r/LangChain/comments/1g3i734/langgraph_101_tutorial_with_practical_example/) , 2024-10-15-0913
+all -  [ LangGraph 101 - Tutorial with Practical Example ](https://www.reddit.com/r/LangChain/comments/1g3i734/langgraph_101_tutorial_with_practical_example/) , 2024-10-16-0913
 ```
 Hi folks!
 
@@ -561,7 +2091,7 @@ Cheers! :)
 
      
  
-all -  [ Does RAG Have a Scaling Problem? ](https://www.reddit.com/r/Rag/comments/1g3h9w2/does_rag_have_a_scaling_problem/) , 2024-10-15-0913
+all -  [ Does RAG Have a Scaling Problem? ](https://www.reddit.com/r/Rag/comments/1g3h9w2/does_rag_have_a_scaling_problem/) , 2024-10-16-0913
 ```
 My team has been digging into the scalability of vector databases for RAG (Retrieval-Augmented Generation) systems, and 
 we feel we might be hitting some limits that aren’t being widely discussed. 
@@ -861,7 +2391,7 @@ ailable shortly. Others are invited to run the data and corroborate or challenge
 
      
  
-all -  [ Help scaling LLM classifications and validations ](https://www.reddit.com/r/LangChain/comments/1g3h1hd/help_scaling_llm_classifications_and_validations/) , 2024-10-15-0913
+all -  [ Help scaling LLM classifications and validations ](https://www.reddit.com/r/LangChain/comments/1g3h1hd/help_scaling_llm_classifications_and_validations/) , 2024-10-16-0913
 ```
 I'm working on an application that will classify 10 million records according to pretty well-defined standards. Ideally,
  I'd classify them with a LLM and LangChain, then run validation on it to double check the classifications. Here's the i
@@ -874,7 +2404,7 @@ Big apologies if I shouldn't be posting the question here.
 
      
  
-all -  [ Framework recommendation for a RAG project with LaTeX source files ](https://www.reddit.com/r/LangChain/comments/1g3gza0/framework_recommendation_for_a_rag_project_with/) , 2024-10-15-0913
+all -  [ Framework recommendation for a RAG project with LaTeX source files ](https://www.reddit.com/r/LangChain/comments/1g3gza0/framework_recommendation_for_a_rag_project_with/) , 2024-10-16-0913
 ```
 Hi, I want to build a custom RAG application for question-answering on PDF files where I already have the LaTeX source.
 
@@ -913,7 +2443,7 @@ Any guides or library recommendations would be highly appreciated!
 
      
  
-all -  [ Similar tool like LangChain in GO ](https://www.reddit.com/r/golang/comments/1g3gqli/similar_tool_like_langchain_in_go/) , 2024-10-15-0913
+all -  [ Similar tool like LangChain in GO ](https://www.reddit.com/r/golang/comments/1g3gqli/similar_tool_like_langchain_in_go/) , 2024-10-16-0913
 ```
 Hey, I found this langChan tool from twitter. I'm more familiar to Golang, Does anyone know if there is alternative to t
 his in Golang  
@@ -924,7 +2454,7 @@ ools/)
 
      
  
-all -  [ Multi-Hop Agent with Langchain, Llama3, and Human-in-the-Loop for the Google Frames Benchmark ](https://www.reddit.com/r/LocalLLaMA/comments/1g3g365/multihop_agent_with_langchain_llama3_and/) , 2024-10-15-0913
+all -  [ Multi-Hop Agent with Langchain, Llama3, and Human-in-the-Loop for the Google Frames Benchmark ](https://www.reddit.com/r/LocalLLaMA/comments/1g3g365/multihop_agent_with_langchain_llama3_and/) , 2024-10-16-0913
 ```
 In this notebook, I walk through how to create an agent using Langchain to solve the complex **Google Frames Benchmark**
  dataset. This agent leverages Wikipedia as a knowledge base to handle multi-hop reasoning tasks, with human reviewers p
@@ -950,7 +2480,7 @@ b)
 
      
  
-all -  [ Build Your Own ChatGPT Clone with LangChain, Streamlit, and Ollama ](https://www.reddit.com/r/u_bluebashllc/comments/1g3ffq1/build_your_own_chatgpt_clone_with_langchain/) , 2024-10-15-0913
+all -  [ Build Your Own ChatGPT Clone with LangChain, Streamlit, and Ollama ](https://www.reddit.com/r/u_bluebashllc/comments/1g3ffq1/build_your_own_chatgpt_clone_with_langchain/) , 2024-10-16-0913
 ```
 [Build Your Own ChatGPT Clone with LangChain, Streamlit, and Ollama](https://preview.redd.it/7dx6thfk1qud1.png?width=192
 0&format=png&auto=webp&s=423a0defa28fb16eb889b261d42c7864750d613e)
@@ -994,7 +2524,7 @@ e from uploaded files through LangChain and give far more accurate answers.
 
      
  
-all -  [ create_csv_agent fails to work on llama 3.1 70b through ollama. Which open-source model is compatibl ](https://www.reddit.com/r/LangChain/comments/1g3ex5n/create_csv_agent_fails_to_work_on_llama_31_70b/) , 2024-10-15-0913
+all -  [ create_csv_agent fails to work on llama 3.1 70b through ollama. Which open-source model is compatibl ](https://www.reddit.com/r/LangChain/comments/1g3ex5n/create_csv_agent_fails_to_work_on_llama_31_70b/) , 2024-10-16-0913
 ```
 I need a private model that works well on create_csv_agent. Gpt-4o was doing wonders but I don't want to entrust my comp
 any's data to openai. I need a private in house model that can achieve this. What should I do? Which model worked for yo
@@ -1004,7 +2534,7 @@ u guys?
 
      
  
-all -  [ How do you currently handle tasks that your AI agents cannot complete? ](https://www.reddit.com/r/LangChain/comments/1g3en5x/how_do_you_currently_handle_tasks_that_your_ai/) , 2024-10-15-0913
+all -  [ How do you currently handle tasks that your AI agents cannot complete? ](https://www.reddit.com/r/LangChain/comments/1g3en5x/how_do_you_currently_handle_tasks_that_your_ai/) , 2024-10-16-0913
 ```
 What challenges or inefficiencies do you face when integrating human intervention?
 ```
@@ -1012,7 +2542,7 @@ What challenges or inefficiencies do you face when integrating human interventio
 
      
  
-all -  [ RAG metadata ](https://www.reddit.com/r/LangChain/comments/1g3d0vg/rag_metadata/) , 2024-10-15-0913
+all -  [ RAG metadata ](https://www.reddit.com/r/LangChain/comments/1g3d0vg/rag_metadata/) , 2024-10-16-0913
 ```
 Hello everyone! 
 
@@ -1032,7 +2562,7 @@ Co-founder, Shaareable Apps
 
      
  
-all -  [  Major updates to XeroFlow node-based LLM tool ](https://www.reddit.com/r/ollama/comments/1g39vzo/major_updates_to_xeroflow_nodebased_llm_tool/) , 2024-10-15-0913
+all -  [  Major updates to XeroFlow node-based LLM tool ](https://www.reddit.com/r/ollama/comments/1g39vzo/major_updates_to_xeroflow_nodebased_llm_tool/) , 2024-10-16-0913
 ```
 I just finished up a bunch of updates fixing issues dealing with the installer and a couple other minor issues in the pr
 ogram. If you're not familiar with this tool it is a node-based llm tool that allows you to set up workflows to interact
@@ -1065,7 +2595,7 @@ eview.redd.it/qe6m3ghq3oud1.png?width=857&format=png&auto=webp&s=5f6981fea7e4f31
 
      
  
-all -  [ Latest version of XeroFlow Node based LLM tool ](https://www.reddit.com/r/StableDiffusion/comments/1g39t3b/latest_version_of_xeroflow_node_based_llm_tool/) , 2024-10-15-0913
+all -  [ Latest version of XeroFlow Node based LLM tool ](https://www.reddit.com/r/StableDiffusion/comments/1g39t3b/latest_version_of_xeroflow_node_based_llm_tool/) , 2024-10-16-0913
 ```
 Hey everyone! Just fixed the issues with the installer for our tool. Make sure you have Python 3.10.9 installed; it shou
 ld come with pip, but if not, you may need to install it separately. Once that's set, run the `setup.bat` file to instal
@@ -1102,7 +2632,7 @@ iew.redd.it/494kpuvp2oud1.png?width=857&format=png&auto=webp&s=a1e234ec05dc62b18
 
      
  
-all -  [ Need help to create template for RAG app ](https://www.reddit.com/r/LangChain/comments/1g39p3h/need_help_to_create_template_for_rag_app/) , 2024-10-15-0913
+all -  [ Need help to create template for RAG app ](https://www.reddit.com/r/LangChain/comments/1g39p3h/need_help_to_create_template_for_rag_app/) , 2024-10-16-0913
 ```
 I am creating a RAG application where I will be giving LLM a large set of responses array of objects where there will be
  multiple questions and it's answer provided by the user.  
@@ -1165,7 +2695,7 @@ o 'give me all the questions present in the form' it gives only 2.
 
      
  
-all -  [ Do I need to pay for unit test with langsmith library? ](https://www.reddit.com/r/LangChain/comments/1g33fsy/do_i_need_to_pay_for_unit_test_with_langsmith/) , 2024-10-15-0913
+all -  [ Do I need to pay for unit test with langsmith library? ](https://www.reddit.com/r/LangChain/comments/1g33fsy/do_i_need_to_pay_for_unit_test_with_langsmith/) , 2024-10-16-0913
 ```
 Pretty simple question I think?
 
@@ -1187,7 +2717,7 @@ Thank you in advance!
 
      
  
-all -  [ Which framework between haystack, langchain and llamaindex, or others? ](https://www.reddit.com/r/Rag/comments/1g31urm/which_framework_between_haystack_langchain_and/) , 2024-10-15-0913
+all -  [ Which framework between haystack, langchain and llamaindex, or others? ](https://www.reddit.com/r/Rag/comments/1g31urm/which_framework_between_haystack_langchain_and/) , 2024-10-16-0913
 ```
 The use case is the following.
 Database: vector database with 10k scientific articles.
@@ -1200,7 +2730,7 @@ Please let me know your advices!!
 
      
  
-all -  [ [Hiring][Remote] Software Engineer ](https://www.reddit.com/r/jobbit/comments/1g31h8x/hiringremote_software_engineer/) , 2024-10-15-0913
+all -  [ [Hiring][Remote] Software Engineer ](https://www.reddit.com/r/jobbit/comments/1g31h8x/hiringremote_software_engineer/) , 2024-10-16-0913
 ```
 * Full-time opportunity
 * Remote
@@ -1225,7 +2755,7 @@ q)
 
      
  
-all -  [ [Hiring][Remote] Software Engineer ](https://www.reddit.com/r/RemoteJobHunters/comments/1g31erw/hiringremote_software_engineer/) , 2024-10-15-0913
+all -  [ [Hiring][Remote] Software Engineer ](https://www.reddit.com/r/RemoteJobHunters/comments/1g31erw/hiringremote_software_engineer/) , 2024-10-16-0913
 ```
 * Full-time opportunity
 * Remote 
@@ -1250,530 +2780,7 @@ rq)
 
      
  
-all -  [ Idea: Interest in a competition model to build agents for businesses ](https://www.reddit.com/r/LangChain/comments/1g2zpr3/idea_interest_in_a_competition_model_to_build/) , 2024-10-15-0913
-```
-Imagine there was a platform whereby a business spec for a workflow (e.g. creating facebook ads) was understood.
-
-Now le
-ts assume the business who was interested in creating an agent for this commonly repeated workflow didn't have the resou
-rces to do it and there wasn't a reasonable substitute already on the market.
-
-The super simple spec might look somethin
-g like:
-
-* **Objective**: from a list of 100 ideas, create five 10s video variants from supplied Napkin Pitches for each
-.
-* **Constraints:**
-   * At least 5 videos from the 500 created videos must pass a qualitative review and be selected
- 
-  * The total cost to me, the business, must be X or less
-   * The total time to generate must be Y or less
-
-Let's assum
-e this business offers a $2000 prize for the winning submission (as judged by performance against the constraints) under
- a fixed contest length duration (e.g. 2 weeks). If you won, you'd secure the prize and your source code would be made a
-vailable to the business + potentially made open for others to consume.
-
-Without knowing more, if a platform and paradig
-m like this existed, would you be interested in participating?
-```
----
-
-     
- 
-all -  [ All-In-One Tool for LLM Evaluation ](https://www.reddit.com/r/LangChain/comments/1g2z2q1/allinone_tool_for_llm_evaluation/) , 2024-10-15-0913
-```
-I was recently trying to build an app using LLMs but was having a lot of difficulty engineering my prompt to make sure i
-t worked in every case. 
-
-So I built this tool that automatically generates a test set and evaluates my model against it
- every time I change the prompt. The tool also creates an api for the model which logs and evaluates all calls made once
- deployed.
-
-https://reddit.com/link/1g2z2q1/video/a5nzxvqw2lud1/player
-
-Please let me know if this is something you'd fi
-nd useful and if you want to try it and give feedback! Hope I could help in building your LLM apps!
-```
----
-
-     
- 
-all -  [ Extracting Regex Patterns from Strings - Trying to Think of Techniques to Improve ](https://www.reddit.com/r/LangChain/comments/1g2y6o4/extracting_regex_patterns_from_strings_trying_to/) , 2024-10-15-0913
-```
-Recently I've been working on a project that requires me to generate a ton of regex patterns from a large amount of stri
-ngs. These strings can be in any form and may or may not have a pattern in them. An example of my use case would be tryi
-ng to extract all of the names of people from a sentence. I need to generate both the name and the reusable regex patter
-n required to extract the name in future strings. For example, in the string 'John Doe went to the store', the goal of t
-he system would be to extract 'John Doe' with a regex pattern of '\^\\s\*John\\s+Doe'. The regex pattern just needs to b
-e able to match to another sentence like 'I went to dinner with John Doe'. Both of those sentences would be able to be m
-atched from the regex pattern generated from the first pattern.
-
-There is a hidden complexity in that the sentence could
- be something like 'George walked his dog Max'. In this case, 'George' would be the desired extraction, rather than 'Max
-'.
-
-Right now, I am using two different LangChain functions to extract these patterns. One of them extracts the name wit
-h some simple prompt engineering as well as a couple few-shot examples of names and sentences. The other generates the r
-egex pattern with a similar approach of using some prompt engineering and few-shot examples.
-
-The problem that I am havi
-ng right now is that my accuracy has hit a ceiling. I am currently sitting at around 60% accuracy on the strings. Most o
-f the strings are incredibly complex and either have a ton of noise, or they have multiple names and determining which o
-ne is correct is non-trivial. Are there any techniques that could be used to help my use case?
-
-Thanks for any help!
-```
----
-
-     
- 
-all -  [ Open-Source Embodied Agents from NASA/JPL ](https://youtu.be/mZTrSg7tEsA?si=r6_56O0O38lxQSaM) , 2024-10-15-0913
-```
-Hey r/robotics 👋
-
-We recently shared a preprint of an upcoming IEEE article about ROSA: the Robot Operating System Agent
- (https://arxiv.org/abs/2410.06472).
-
-ROSA works with ROS/ROS2 and popular language models like GPT-4o and Llama3.1 to m
-ake it easy for humans to interact with robots using natural language. Check out the demo video to see what this new way
- of building and operating robots can do.
-
-The project is open-source and can be easily added to existing ROS/ROS2 proje
-cts. Just type ‘pip install jpl-rosa’ and you’ll be able to create an agent in a few lines of code. You can also customi
-ze the agent with Robot System Prompts and your own custom tools using the LangChain standard for tool creation. There a
-re lots of examples on the repository (https://github.com/nasa-jpl/rosa) and Wiki (https://github.com/nasa-jpl/rosa/wiki
-).
-
-We’d love to hear from you and are open to collaboration with the community. Let us know what you think!
-```
----
-
-     
- 
-all -  [ From Beginner to Problem-Solving Pro: The Ultimate Guide to Mastering Python ](https://www.reddit.com/r/BMSCE/comments/1g2qopn/from_beginner_to_problemsolving_pro_the_ultimate/) , 2024-10-15-0913
-```
-
-
-> If you want to become exceptional at something, you need the right guidance and a relentless focus on practice. Prob
-lem-solving with Python is no different. Whether you're a beginner or already have some Python experience, here’s a dist
-illed guide to the best resources that will take you from zero to hero.
-
----
-
-**Interactive Platforms: Learn by Doing**
-
-   - **LeetCode**: The go-to platform for sharpening your algorithmic skills. Problems range from easy to hard, perfect 
-for anyone targeting tech interviews or leveling up their problem-solving skills. 
-     - [Start Here](https://leetcode.
-com/problemset/all/?difficulty=EASY&page=1&tag=python)
-   
-   - **HackerRank**: Solid for beginners, offering a well-str
-uctured Python track. Good to build confidence before diving into harder challenges.
-     - [Explore Python Track](https
-://www.hackerrank.com/domains/tutorials/10-days-of-python)
-   
-   - **CodeSignal**: Ideal for those who want to challeng
-e themselves with real-world coding tests and company-specific problems.
-     - [Check it out](https://codesignal.com/)
-
-   
-   - **Codewars**: Solve community-created 'kata' and see how others think. A great way to learn different problem-s
-olving techniques.
-     - [Start solving](https://www.codewars.com/)
-
-**The Best Courses: From Concept to Code**
-   - **
-'Python for Everybody' by University of Michigan on Coursera**: More than just Python basics, this course teaches you ho
-w to think like a programmer.
-     - [Enroll for Free](https://www.coursera.org/specializations/python)
-   
-   - **'Mast
-ering Data Structures & Algorithms using Python' on Udemy**: Deep dive into solving complex problems with Python. Great 
-if you want to understand the 'why' behind each solution.
-     - [Course Link](https://www.udemy.com/course/python-for-d
-ata-structures-algorithms-and-interviews/)
-   
-   - **MIT's 'Computational Thinking using Python' on EdX**: Not just cod
-ing, but thinking like a computer scientist. Highly recommended for those who want to develop a strong foundation.
-     
-- [Learn More](https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python)
-
-**Essential Re
-ads: From Beginner to Pro**
-   - **'Python Programming: An Introduction to Computer Science' by John Zelle**: A clear an
-d practical introduction to Python and problem-solving.
-   - **'Automate the Boring Stuff with Python' by Al Sweigart**:
- Real-world examples make it easy to apply Python to everyday tasks.
-   - **'Elements of Programming Interviews in Pytho
-n'**: A no-nonsense guide to mastering interview-style problems.
-   - **'Python Crash Course' by Eric Matthes**: Packed 
-with hands-on exercises to quickly improve your coding and problem-solving.
-
-**Tutorials & Blogs: Sharpen Your Edge**
-  
- - **Real Python**: Clean, insightful tutorials on Python and algorithms. Great if you like to learn through reading.
-  
-   - [Visit Real Python](https://realpython.com/)
-   
-   - **GeeksforGeeks**: An extensive repository of problems, expla
-nations, and Python solutions.
-     - [Explore GeeksforGeeks](https://www.geeksforgeeks.org/python-programming-language/
-)
-   
-   - **LeetCode Discuss**: Community-driven solutions and problem-solving discussions, especially valuable for int
-erview prep.
-     - [Join the Community](https://leetcode.com/discuss/)
-
-**YouTube: Bite-sized Mastery**
-   - **Tech Wit
-h Tim**: Problem-solving tutorials, coding challenges, and practical examples.
-     - [Tech With Tim](https://www.youtub
-e.com/c/TechWithTim)
-   
-   - **CS Dojo**: Easy-to-follow explanations of algorithms with Python.
-     - [CS Dojo](https
-://youtube.com/@csdojo?si=lMjat_rv-c9FPqHM) 
-   
-   - **Kite**: Quick tutorials focusing on coding challenges.
-     - [K
-ite on YouTube](https://youtube.com/@kitehq?si=YuqpJYwBGpUDi3pt) 
-
-**Competitive Programming: Level Up Your Skills**
-   
-- **TopCoder**: For those who thrive on solving complex challenges against the clock.
-     - [TopCoder Python Track](htt
-ps://www.topcoder.com/)
-   
-   - **Codeforces**: Real-time contests that test your coding speed and efficiency.
-     - [
-Start Competing](https://codeforces.com/)
-   
-   - **Exercism.io**: Solve problems and get feedback from mentors—perfect
- if you value personal growth.
-     - [Join Exercism](https://exercism.io/tracks/python)
-
-**DSA Resources: Become Unstop
-pable**
-   - **NeetCode**: Curated problem sets and videos that make DSA simpler to understand.
-     - [NeetCode Resourc
-es](https://neetcode.io/)
-   
-   - **AlgoExpert**: If you can invest, this is gold. Get high-quality explanations and ch
-allenges.
-     - [Check out AlgoExpert](https://www.algoexpert.io/)
-   
-   - **'Introduction to Algorithms' (CLRS)**: A 
-classic. Pair it with Python and tackle the hardest problems.
-
----
-
-**The Truth About Mastery**: 
-> 'Learning to solve p
-roblems with Python is not just about syntax, it’s about developing a mind that can break down complexity into simplicit
-y. The key is practice, consistency, and a hunger for real understanding.' 
-
-You don’t need a hundred resources; you nee
-d focus. Pick a few from this list and dive deep. You'll be amazed at what you can achieve.
-
----
-
-This guide should be a
- helpful launchpad, whether you're aiming for coding interviews, leveling up for competitive programming, or just love s
-olving problems. What’s your favorite resource? Drop your go-to recommendations below!
-
-
-**Additional 🔗 to some of the l
-atest Python libraries :**
-
-- [Polars](https://www.pola.rs/)
-- [DuckDB](https://duckdb.org/)
-- [PyCaret](https://pycaret
-.gitbook.io/docs/)
-- [JAX](https://jax.readthedocs.io/en/latest/)
-- [LangChain](https://github.com/hwchase17/langchain)
-
-- [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
-- [Caffe2](https://caffe2.ai/)
-- [Transformers (Hugging Face)](
-https://github.com/huggingface/transformers)
-- [PyOD](https://pyod.readthedocs.io/en/latest/)
-- [Plotly](https://plotly.
-com/python/)
-- [Bokeh](https://docs.bokeh.org/en/latest/)
-- [Pydot](https://github.com/pydot/pydot) 
-
-These links provid
-e documentation and details for each library, making it easier to explore and integrate them into your projects.
-```
----
-
-     
- 
-all -  [ Mastering Problem-Solving with Python: A Curated Path for the Driven ](https://www.reddit.com/r/DTU__Delhi/comments/1g2qebd/mastering_problemsolving_with_python_a_curated/) , 2024-10-15-0913
-```
-
-
-> If you want to become exceptional at something, you need the right guidance and a relentless focus on practice. Prob
-lem-solving with Python is no different. Whether you're a beginner or already have some Python experience, here’s a dist
-illed guide to the best resources that will take you from zero to hero.
-
----
-
-**Interactive Platforms: Learn by Doing**
-
-   - **LeetCode**: The go-to platform for sharpening your algorithmic skills. Problems range from easy to hard, perfect 
-for anyone targeting tech interviews or leveling up their problem-solving skills. 
-     - [Start Here](https://leetcode.
-com/problemset/all/?difficulty=EASY&page=1&tag=python)
-   
-   - **HackerRank**: Solid for beginners, offering a well-str
-uctured Python track. Good to build confidence before diving into harder challenges.
-     - [Explore Python Track](https
-://www.hackerrank.com/domains/tutorials/10-days-of-python)
-   
-   - **CodeSignal**: Ideal for those who want to challeng
-e themselves with real-world coding tests and company-specific problems.
-     - [Check it out](https://codesignal.com/)
-
-   
-   - **Codewars**: Solve community-created 'kata' and see how others think. A great way to learn different problem-s
-olving techniques.
-     - [Start solving](https://www.codewars.com/)
-
-**The Best Courses: From Concept to Code**
-   - **
-'Python for Everybody' by University of Michigan on Coursera**: More than just Python basics, this course teaches you ho
-w to think like a programmer.
-     - [Enroll for Free](https://www.coursera.org/specializations/python)
-   
-   - **'Mast
-ering Data Structures & Algorithms using Python' on Udemy**: Deep dive into solving complex problems with Python. Great 
-if you want to understand the 'why' behind each solution.
-     - [Course Link](https://www.udemy.com/course/python-for-d
-ata-structures-algorithms-and-interviews/)
-   
-   - **MIT's 'Computational Thinking using Python' on EdX**: Not just cod
-ing, but thinking like a computer scientist. Highly recommended for those who want to develop a strong foundation.
-     
-- [Learn More](https://www.edx.org/course/introduction-to-computer-science-and-programming-using-python)
-
-**Essential Re
-ads: From Beginner to Pro**
-   - **'Python Programming: An Introduction to Computer Science' by John Zelle**: A clear an
-d practical introduction to Python and problem-solving.
-   - **'Automate the Boring Stuff with Python' by Al Sweigart**:
- Real-world examples make it easy to apply Python to everyday tasks.
-   - **'Elements of Programming Interviews in Pytho
-n'**: A no-nonsense guide to mastering interview-style problems.
-   - **'Python Crash Course' by Eric Matthes**: Packed 
-with hands-on exercises to quickly improve your coding and problem-solving.
-
-**Tutorials & Blogs: Sharpen Your Edge**
-  
- - **Real Python**: Clean, insightful tutorials on Python and algorithms. Great if you like to learn through reading.
-  
-   - [Visit Real Python](https://realpython.com/)
-   
-   - **GeeksforGeeks**: An extensive repository of problems, expla
-nations, and Python solutions.
-     - [Explore GeeksforGeeks](https://www.geeksforgeeks.org/python-programming-language/
-)
-   
-   - **LeetCode Discuss**: Community-driven solutions and problem-solving discussions, especially valuable for int
-erview prep.
-     - [Join the Community](https://leetcode.com/discuss/)
-
-**YouTube: Bite-sized Mastery**
-   - **Tech Wit
-h Tim**: Problem-solving tutorials, coding challenges, and practical examples.
-     - [Tech With Tim](https://www.youtub
-e.com/c/TechWithTim)
-   
-   - **CS Dojo**: Easy-to-follow explanations of algorithms with Python.
-     - [CS Dojo]( http
-s://youtube.com/@csdojo?si=lMjat_rv-c9FPqHM) 
-   
-   - **Kite**: Quick tutorials focusing on coding challenges.
-     - [
-Kite on YouTube](https://youtube.com/@kitehq?si=YuqpJYwBGpUDi3pt) 
-
-**Competitive Programming: Level Up Your Skills**
-  
- - **TopCoder**: For those who thrive on solving complex challenges against the clock.
-     - [TopCoder Python Track](ht
-tps://www.topcoder.com/)
-   
-   - **Codeforces**: Real-time contests that test your coding speed and efficiency.
-     - 
-[Start Competing](https://codeforces.com/)
-   
-   - **Exercism.io**: Solve problems and get feedback from mentors—perfec
-t if you value personal growth.
-     - [Join Exercism](https://exercism.io/tracks/python)
-
-**DSA Resources: Become Unsto
-ppable**
-   - **NeetCode**: Curated problem sets and videos that make DSA simpler to understand.
-     - [NeetCode Resour
-ces](https://neetcode.io/)
-   
-   - **AlgoExpert**: If you can invest, this is gold. Get high-quality explanations and c
-hallenges.
-     - [Check out AlgoExpert](https://www.algoexpert.io/)
-   
-   - **'Introduction to Algorithms' (CLRS)**: A
- classic. Pair it with Python and tackle the hardest problems.
-
----
-
-**The Truth About Mastery**: 
-> 'Learning to solve 
-problems with Python is not just about syntax, it’s about developing a mind that can break down complexity into simplici
-ty. The key is practice, consistency, and a hunger for real understanding.' 
-
-You don’t need a hundred resources; you ne
-ed focus. Pick a few from this list and dive deep. You'll be amazed at what you can achieve.
-
----
-
-This guide should be 
-a helpful launchpad, whether you're aiming for coding interviews, leveling up for competitive programming, or just love 
-solving problems. What’s your favorite resource? Drop your go-to recommendations below!
-
-
- **Latest Python libraries bel
-ow:**
-
-- [Polars](https://www.pola.rs/)
-- [DuckDB](https://duckdb.org/)
-- [PyCaret](https://pycaret.gitbook.io/docs/)
-- 
-[JAX](https://jax.readthedocs.io/en/latest/)
-- [LangChain](https://github.com/hwchase17/langchain)
-- [LightGBM](https://
-lightgbm.readthedocs.io/en/latest/)
-- [Caffe2](https://caffe2.ai/)
-- [Transformers (Hugging Face)](https://github.com/hu
-ggingface/transformers)
-- [PyOD](https://pyod.readthedocs.io/en/latest/)
-- [Plotly](https://plotly.com/python/)
-- [Bokeh
-](https://docs.bokeh.org/en/latest/)
-- [Pydot](https://github.com/pydot/pydot) 
-
-These links provide documentation and d
-etails for each library, making it easier to explore and integrate them into your projects.
-```
----
-
-     
- 
-all -  [ Generate <-> Validation for chat ](https://www.reddit.com/r/LangChain/comments/1g2n6tj/generate_validation_for_chat/) , 2024-10-15-0913
-```
-I'm building a chatbot with langgraph. To reduce errors, I've created a validation node which works like 
-
-- Generator n
-ode generates the response based on customer input
-
-- Then the generation is sent to a validator. If the validation is s
-uccessful, send the response to customers
-
-- Else, send the response back to generator with feedback to regenerate. 
-
-  
-
-Facing trouble implementing this w.r.t storing history and getting the proper response from validation. Has anyone done
- anything similar to this? 
-```
----
-
-     
- 
-all -  [ 401 Unauthorized Error with Jina AI Embeddings API in Flask App – Need Help Troubleshooting ](https://www.reddit.com/r/LangChain/comments/1g2mlon/401_unauthorized_error_with_jina_ai_embeddings/) , 2024-10-15-0913
-```
-Hey Redditors!
-
-I’m working on a Flask app that uses the Jina AI Embeddings API to process and embed document text. The 
-app runs fine locally, but when I try to query the Jina API for embeddings, I keep getting the following error in the lo
-gs:
-
-(did this in my env itself)
-
-https://preview.redd.it/3yt5h0052iud1.png?width=926&format=png&auto=webp&s=79eac415c74
-3aa93730b847317030ede9fab1be0
-
-It seems like the API request is being rejected due to an authorization issue, but I’m no
-t sure why, since I’m including the API key in the headers as a Bearer token. Here's the relevant part of my \`app.py\` 
-code where I make the request to Jina:
-
-https://preview.redd.it/vnb5w0a62iud1.png?width=812&format=png&auto=webp&s=64c25
-fa32f350c6807ee01766372d99ef0562342
-
-and hence this at the end
-
-https://preview.redd.it/kjkwrdx72iud1.png?width=1023&for
-mat=png&auto=webp&s=3a21d3b521520cb5e48c18b7c1d8622cb5135bdc
-
-Here’s what I’ve checked so far:
-
-1. API Key: I’ve confirm
-ed that my \`JINAAI\_API\_KEY\` is correct and stored in my environment variables.
-2. Flask App Setup: My Flask app runs
- successfully on \`localhost:5000\`, and I'm using ngrok to tunnel traffic externally.
-3. ngrok: The external URL works 
-fine for other routes, but the API request to Jina still fails with a 401 error.
-
-Any ideas on why this could be happeni
-ng? Could it be something with the API key, headers, or maybe an issue with the way I’m handling the request?
-
-Any advic
-e would be greatly appreciated!
-
-Thanks in advance!
-
-
-```
----
-
-     
- 
-all -  [ Text to SQL Public Chatbot ](https://www.reddit.com/r/LangChain/comments/1g2j6ro/text_to_sql_public_chatbot/) , 2024-10-15-0913
-```
-Hello all,
-
-have you ever implemented a public chatbot that is able to query the DB ? What are the guardrails you put in
- place to avoid data leaking and breachs? 
-
-I am thinking in a project where the chatbot will be available in a website 
-where not logged people can use it and looking for the security piece on it besides row leves securities in the db
-```
----
-
-     
- 
-all -  [ What's the most efficient way to handle references like figures, tables or other sections in a RAG p ](https://i.redd.it/dsojnplzrgud1.png) , 2024-10-15-0913
-```
- I could think of two ways and I'm currently implementing both. In my usecase, I'm converting all pages in a document ar
-e into image format and using a multimodal llm for querying. Once I retrieve a relevant image, if there are external ref
-erences,
-
-A. Do RAG once more to retrieve the reference.
-
-B. Identify all the references initially using the index page 
-and parse and store them separately in a folder as images
-
-With A, there are chances of RAG identifying just plain refer
-ences elsewhere and not the actual definition
-
-With B, there is a chance that some references might not be extracted cor
-rectly
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-15-0913
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-16-0913
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -1802,7 +2809,7 @@ I'm sure some teams already have good systems for this, would appreciate pointer
 
      
  
-MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-15-0913
+MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-16-0913
 ```
 GitHub repo : [https://github.com/shaRk-033/web-agent](https://github.com/shaRk-033/web-agent)
 
@@ -1841,7 +2848,7 @@ hear them. :)
 
      
  
-MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-15-0913
+MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-16-0913
 ```
 How tightly coupled is an embedding model to a language model?
 
@@ -1861,7 +2868,7 @@ ama3.1 ingest the embeddings?
 
      
  
-deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-15-0913
+deeplearning -  [ What is the best approach for Parsing and Retrieving Code Context Across Multiple Files in a Hierarc ](https://www.reddit.com/r/deeplearning/comments/1fh58oz/what_is_the_best_approach_for_parsing_and/) , 2024-10-16-0913
 ```
 I want to implement a Code-RAG system on a code directory where I need to:
 
