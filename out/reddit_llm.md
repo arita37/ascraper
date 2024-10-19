@@ -1,5 +1,712 @@
  
-all -  [ Why Langchain tools are fetching fake results? ](https://www.reddit.com/r/LangChain/comments/1g6521c/why_langchain_tools_are_fetching_fake_results/) , 2024-10-18-0912
+all -  [ Step-by-Step RAG 101 with Milvus, Ollama, LLama 3.2 and Langchain ](https://youtu.be/mLr69dmdYLg) , 2024-10-19-0912
+```
+
+```
+---
+
+     
+ 
+all -  [ LangChain with Azure Deployments ](https://www.reddit.com/r/LangChain/comments/1g6s8cw/langchain_with_azure_deployments/) , 2024-10-19-0912
+```
+Hello,
+
+I am working with a custom OpenAI deployment in Azure. I am able to connect with openAI libraries and retrieve d
+ata properly, but when trying with langchain, response generated are mostly gibberish.
+
+for example:  
+a simple hello wo
+rld, is printing all this:
+```
+llm.invoke('hello world!')
+
+' this is a test';\\nconsole.log(s);\\nvar l = s.split(' ');\
+\nconsole.log(l);\\n\`\`\`\\n#### 2. 代码测试\\n\\n直接在控制台运行即可，结果如下：\\n\\n!\[数组\](http://upload-images.jianshu.io/upload\_ima
+ge
+
+s/3251204-125c38a8b85b9f5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)\\n\\n#### 3. 遇到的问题\\n\\n1. 空格写成中文
+空格\\n2. \`split()\`方法名称错误写成\`split\`，导致报错\\n3. 未输出结果\\
+
+n\\n## 实验三：条件语句\\n\\n#### 1. 代码：\\n\\n\`\`\`javascript\\nvar a =
+ 37;\\nif (a>18){\\n    console.log('Yes');\\n} else {\\n    console.log('No');\\n}\\n\`\`\`\\n#### 2. 代码测试\\n\\n直接在控制台运
+行即
+
+可，结果如下：\\n\\n!\[条件语句\](http://upload-images.jianshu.io/upload\_images/3251204-9ddc083fca8ff6a4'
+```
+
+Anyway to resol
+ve this?
+```
+---
+
+     
+ 
+all -  [ Business Advice ](https://www.reddit.com/r/startups/comments/1g6qn84/business_advice/) , 2024-10-19-0912
+```
+Hello Community,
+I am looking to build out micro-saas out of RAG by combining both Software Engineering and AI principle
+s. I have actually build out the version 1 of backend, with following features.
+
+Features:
+- SSO login
+- Permission base
+d access control on data and quering
+- Support for multiple data connectors like drive, dropbox, confluence, s3, gcp, et
+c
+- Incremental indexing
+- Plug and play components for different parsers, dataloaders, retrievers, query mechanisms, et
+c
+- Single Gateway for your open and closed source models, embeddings, rerankers with rate limiting and token limiting.
+
+- Audit Trails
+- Open Telemetry for prompt logging, llm cost, vector db performance and gpu metrics
+
+More features comin
+g soon…
+
+Most importantly everything is built asynchronous, without heavy libraries like langchain or llamaindex. I am l
+ooking for community feedback to understand will these features be good for any business? If at all, is anyone intereste
+d to collaborate either in help secure funding, frontend work, help me get connected with other folks, etc? 
+Thank you!
+```
+---
+
+     
+ 
+all -  [ stuck on this? why is it generating a uuid ](https://www.reddit.com/r/LangChain/comments/1g6mfvv/stuck_on_this_why_is_it_generating_a_uuid/) , 2024-10-19-0912
+```
+    supabase: Client = create_client(supabase_key='', 
+                                     supabase_url='')
+    embeddi
+ngs = OpenAIEmbeddings()
+    
+    documents = [
+            Document(page_content='hello', metadata={'source': 1,'id':1}
+)
+        ]
+    vector_store = SupabaseVectorStore.from_documents(
+        documents,
+        embeddings,
+        client
+=supabase,
+        ids=[],
+        table_name='documents', 
+        query_name='match_documents',
+        chunk_size=500
+,
+    )   
+    
+
+receiving this error : postgrest.exceptions.APIError: {'code': '22P02', 'details': None, 'hint': None, 
+'message': 'invalid input syntax for type bigint: 'b5f7a5e3-20ae-4849-ad72-05187fe1ac4d''}
+```
+---
+
+     
+ 
+all -  [ Langchain docs chat ](https://www.reddit.com/r/LocalLLaMA/comments/1g6ly45/langchain_docs_chat/) , 2024-10-19-0912
+```
+now dont have to read many blogs and docs
+
+https://preview.redd.it/k4cvwb5nhjvd1.png?width=2880&format=png&auto=webp&s=c
+bc89c1622aaf81c6509bff0a0449ef19a87a212
+
+
+```
+---
+
+     
+ 
+all -  [ Building graph with separation of concern ](https://www.reddit.com/r/LangChain/comments/1g6ko8h/building_graph_with_separation_of_concern/) , 2024-10-19-0912
+```
+Has anyone built a langgraph graph with multiple nodes where each llm is assigned a very specific role? I've been able t
+o build one but it's becoming quite expensive. Want to discuss how to do this efficiently.
+```
+---
+
+     
+ 
+all -  [ Doctly: AI-Powered PDF to Markdown Parser ](https://www.reddit.com/r/LangChain/comments/1g6kjxl/doctly_aipowered_pdf_to_markdown_parser/) , 2024-10-19-0912
+```
+I’m one of the cofounders of [Doctly.ai](http://doctly.ai/), and I want to share our story. Doctly wasn’t originally mea
+nt to be a PDF-to-Markdown parser—we started by trying to feed complex PDFs into AI systems. One of the first natural st
+eps in many AI workflows is converting PDFs to either markdown or JSON. However, after testing all the available solutio
+ns (both proprietary and open-source), we realized none could handle the task without producing tons of errors, especial
+ly with complex PDFs and scanned documents. So, we decided to tackle this problem ourselves and built Doctly. While our 
+parser isn’t perfect, it far outpaces most others and excels at parsing text, tables, figures, and charts from PDFs with
+ high precision.While no solution is perfect, Doctly is leagues ahead of the competition when it comes to precision. Our
+ AI-driven parser excels at extracting text, tables, figures, and charts from even the most challenging PDFs. Doctly’s i
+ntelligent routing automatically selects the ideal model for each page, whether it’s simple text or a complex multi-colu
+mn layout, ensuring high accuracy with every document.  
+With our API and Python SDK, it’s incredibly easy to integrate 
+Doctly into your workflow. And as a thank-you for checking us out, we’re offering free credits so you can experience the
+ difference for yourself. Head over to[ ](https://doctly.ai/)[Doctly.ai](http://doctly.ai/), sign up, and see how it can
+ transform your document processing!
+
+**API Documentation:** To get started with Doctly, you’ll first need to create an 
+account on[ ](https://doctly.ai/)[Doctly.ai](http://doctly.ai/). Once you’ve signed up, you can generate an API key to s
+tart using our SDK or API. If you’d like to explore the API without setting up a key right away, you can also log in wit
+h your username and password to try it out directly. Just head to the[ Doctly API Docs](https://api.doctly.ai/docs), cli
+ck “Authorize” at the top, and enter your credentials or API key to start testing.
+
+**Python SDK:**[ GitHub SDK](https:/
+/github.com/doctly/doctly)
+```
+---
+
+     
+ 
+all -  [ LLM Pipelines on Frontend for Full Stack? ](https://www.reddit.com/r/LangChain/comments/1g6jv1b/llm_pipelines_on_frontend_for_full_stack/) , 2024-10-19-0912
+```
+I came to the LLM space from a data science background, so I've always had a belief that anything ML related is better d
+one in python. Over the past few months I've been building full stack apps that all look something like this:
+
+* vue.js 
+frontend, hosted on vercel
+* python flask backend, hosted separately on vercel serverless (same repo different deploymen
+t, if that makes sens)
+* The frontend gets some data from the user, makes a call to the backend to run some complex LLM 
+pipeline that takes \~20 seconds, and displays the response.
+
+The better I get at dealing with javascript and its unhing
+ed ecosystem, the more I realize that I might not need the backend at all. Moreover, **I'd be able to display intermedia
+te progress and steps while the user waits for the call to be completed**.
+
+It feels like blasphemy, but I'm probably go
+ing to start building out the LLM pipelines in javascript and calling the model APIs directly from the frontend. Managin
+g the communication between the backend and frontend in a serverless environment has been a major pain in the ass and go
+ing full js feels like the right move.
+
+Has anyone gone through something similar? Anything tips or things to look out f
+or would be greatly appreciated!
+```
+---
+
+     
+ 
+all -  [ My thoughts on the most popular frameworks today: crewAI, AutoGen, LangGraph, and OpenAI Swarm ](https://www.reddit.com/r/LangChain/comments/1g6i7cj/my_thoughts_on_the_most_popular_frameworks_today/) , 2024-10-19-0912
+```
+Hey!
+
+Just like the title says, I've tested and published videos and posts about these frameworks. Today, I want to shar
+e my **high-level view** about each framework and which could be the most suitable for your use case.
+
+You can [find the
+ \~8 min video on YouTube](https://youtu.be/2F-z9s4wgwk), but here's the gist of it:
+
+**AutoGen**
+
+AutoGen shines when i
+t comes to autonomous code generation. Agents can self-correct, re-write, execute, and produce impressive code, especial
+ly when it comes to solving programming challenges
+
+**crewAI**
+
+If you’re looking to get started quickly, CrewAI is prob
+ably the easiest. Great documentation, tons of examples, and a solid community.
+
+**LangGraph**
+
+LangGraph, to me, offers
+ more control and I feel that it's best suited for more complicated workflows, especially if you need Retrieval-Augmente
+d Generation (RAG) or are juggling multiple tools and scenarios.
+
+**OpenAI Swarm**
+
+OpenAI just released Swarm a few day
+s ago and I’m still testing it, but as they’ve said, it’s experimental. It's the simplest, cleanest, and most lightweigh
+t of the bunch—but that also means it comes with the most limitations. It’s not ready for production use; it’s more for 
+prototyping. Things could change quickly, though, since this space moves fast.
+
+I hope you find this useful.
+
+Cheers!
+```
+---
+
+     
+ 
+all -  [ Speed up a RAG question-answering system, at the steps vector database storage/load and LLM generati ](https://www.reddit.com/r/LangChain/comments/1g6h038/speed_up_a_rag_questionanswering_system_at_the/) , 2024-10-19-0912
+```
+I am working on a RAG question and answer system consisting of 2 .py files. The first .py loads a PDF document, does tex
+t chunking and embedding and saves it to disk using Faiss. The second .py file loads the locally stored vector index, do
+es a similarity search, takes the user query and generates an answer using open source LLM. The two are run in sequence.
+
+
+I noticed that reloading the stored embedding vectors is very time consuming. The similarity search has always been fa
+st, but it is also very time consuming to generate a response with LLM based on user query and retrieved text chunks sim
+ilar to the user query.
+
+These are my codes:
+
+load\_embed.py:
+
+`from langchain_community.document_loaders import PyPDFLo
+ader`
+
+`from semantic_text_splitter import TextSplitter`
+
+`from tokenizers import Tokenizer`
+
+`from langchain_experiment
+al.text_splitter import SemanticChunker # add to solve AttributeError: 'str' object has no attribute 'page_content'`
+
+`f
+rom langchain_huggingface import HuggingFaceEmbeddings # add to solve AttributeError: 'str' object has no attribute 'pag
+e_content'`
+
+`from langchain_community.embeddings import HuggingFaceBgeEmbeddings`
+
+`from langchain_community.vectorstor
+es import FAISS`
+
+`import re`
+
+`import time`
+
+
+
+`# Start the timer`
+
+`start_time = time.perf_counter()`
+
+
+
+`DB_FAISS_PAT
+H = 'vectorstore/db_faiss_bge-large-en-v1.5'`
+
+`loader=PyPDFLoader('//deesnasvm01/et/sdm/fem/0001_User_Temporary_Data/00
+01_USER_MISC/Yifan/Germany.pdf')`
+
+`docs=loader.load()`
+
+
+
+`# Maximum number of tokens in a chunk`
+
+`max_tokens = 150`
+
+
+`tokenizer = Tokenizer.from_pretrained('bert-base-uncased')`
+
+`splitter = TextSplitter.from_huggingface_tokenizer(tokeni
+zer, max_tokens)`
+
+
+
+`# Clean up each page's content`
+
+`def clean_text(text):`
+
+`text = text.strip()`
+
+`text = re.sub(r'
+\s+', ' ', text)` 
+
+`text = re.sub(r'(?<![.!?])\n+', ' ', text)`  
+
+`text = re.sub(r'-\s*\n\s*', '', text)`
+
+`text = re.
+sub(r'-\s+', '', text)`
+
+`return text`
+
+
+
+`# Concatenate all pages into a single string (otherweise ifor the next line: 
+TypeError: argument 'text': 'list' object cannot be converted to 'PyString')`
+
+`full_text = ' '.join([clean_text(page.pa
+ge_content) for page in docs])`
+
+`# Now pass the full text to the splitter`
+
+`text_chunks = splitter.chunks(full_text)`
+
+
+
+
+`hf_embeddings = HuggingFaceEmbeddings() # add to solve AttributeError: 'str' object has no attribute 'page_content'`
+
+
+`text_splitter = SemanticChunker(hf_embeddings) # add to solve AttributeError: 'str' object has no attribute 'page_con
+tent'`
+
+`text_chunks_docs = text_splitter.create_documents(text_chunks) # add to solve AttributeError: 'str' object has 
+no attribute 'page_content'`
+
+
+
+`# set up open source embedding model`
+
+`model_name = 'nomic-ai/nomic-embed-text-v1'`
+
+`
+model_kwargs = {`
+
+`'device': 'cpu',`
+
+`'trust_remote_code':True`
+
+`}`
+
+`encode_kwargs = {'normalize_embeddings': True}`
+
+
+
+
+`# store vector database (embedding index) locally for later reuse`
+
+`vectorstore = FAISS.from_documents(documents=t
+ext_chunks_docs, embedding = HuggingFaceBgeEmbeddings(`
+
+`model_name = model_name,`
+
+`model_kwargs = model_kwargs,`
+
+`en
+code_kwargs = encode_kwargs,`
+
+`)`
+
+`)`
+
+`vectorstore.save_local(DB_FAISS_PATH)`
+
+
+
+`# Stop the timer`
+
+`end_time = time
+.perf_counter()`
+
+`# Calculate the execution time`
+
+`execution_time = end_time - start_time`
+
+`print('Execution time:', 
+execution_time, 'seconds')`
+
+retrieve\_llm.py:
+
+`import time`
+
+`import streamlit as sl`
+
+`from langchain_community.llms 
+import CTransformers`
+
+`from langchain_community.embeddings import HuggingFaceBgeEmbeddings`
+
+`from langchain_community.
+vectorstores import FAISS`
+
+
+
+`# Start the total timer`
+
+`total_start_time = time.perf_counter()`
+
+
+
+`sl.header('welcome
+ to the 📝PDF bot')`
+
+`sl.write('🤖 You can chat by Entering your queries ')`
+
+`query=sl.text_input('Enter some text')`
+
+
+
+
+`if(query):`
+
+
+
+`# Timer for LLM initialization`
+
+`llm_start_time = time.perf_counter()`
+
+
+
+`config = {'gpu_layers':0, 
+'temperature':0.1, 'max_new_tokens': 2048, 'context_length': 4096}`
+
+`llm = CTransformers(model='TheBloke/Mistral-7B-Ins
+truct-v0.1-GGUF', model_type='llama', config=config)`
+
+
+
+`llm_end_time = time.perf_counter()`
+
+`print(f'LLM initialized 
+in {llm_end_time - llm_start_time:.2f} seconds')`
+
+
+
+`# Timer for embedding initialization`
+
+`embedding_start_time = tim
+e.perf_counter()`
+
+
+
+`model_name = 'BAAI/bge-large-en-v1.5'`
+
+`model_kwargs = {'device':'cpu'}`
+
+`encode_kwargs = {'norm
+alize_embeddings':True}`
+
+`embedding = HuggingFaceBgeEmbeddings(`
+
+`model_name = model_name,`
+
+`model_kwargs = model_kwa
+rgs,`
+
+`encode_kwargs = encode_kwargs,`
+
+`)`
+
+
+
+`embedding_end_time = time.perf_counter()`
+
+`print(f'Embeddings initiali
+zed in {embedding_end_time - embedding_start_time:.2f} seconds')`
+
+
+
+`# Timer for loading FAISS database`
+
+`faiss_start_
+time = time.perf_counter()`
+
+
+
+`DB_FAISS_PATH = 'vectorstore/db_faiss_bge-large-en-v1.5'`
+
+`db = FAISS.load_local(DB_FAI
+SS_PATH, embedding, allow_dangerous_deserialization=True)`
+
+
+
+`faiss_end_time = time.perf_counter()`
+
+`print(f'FAISS dat
+abase loaded in {faiss_end_time - faiss_start_time:.2f} seconds')`
+
+
+
+`from langchain.prompts import PromptTemplate`
+
+`f
+rom langchain.chains import RetrievalQA`
+
+
+
+`# Timer for QA chain setup`
+
+`chain_start_time = time.perf_counter()`  
+
+
+
+
+`template = '''Use the following pieces of context to answer the question. You are absolutely forbidden to answer with y
+our own knowledge. Give detailed answer of proper length. If you don't know the answer, just say that you don't know, do
+n't try to make up an answer. Keep the answer as concise as possible.`  
+
+`{context}`
+
+`Question: {question}`
+
+`Helpful 
+Answer:'''`
+
+
+
+`QA_CHAIN_PROMPT = PromptTemplate.from_template(template) # Run chain`
+
+`qa_chain = RetrievalQA.from_chai
+n_type(`
+
+`llm,`
+
+`retriever=db.as_retriever(search_kwargs={'k': 4}),`
+
+`return_source_documents=True,`
+
+`chain_type_kwa
+rgs={'prompt': QA_CHAIN_PROMPT}`
+
+`)`
+
+
+
+`chain_end_time = time.perf_counter()`
+
+`print(f'QA chain setup in {chain_end_t
+ime - chain_start_time:.2f} seconds')`
+
+
+
+`# Timer for executing the query`
+
+`query_start_time = time.perf_counter()`
+
+
+
+
+`results = qa_chain.invoke({'query': query})`
+
+`# print('Query: {} \nResults {} \nSource: {}'.format(results['query'], 
+results['result'], results['source_documents']))`
+
+`sl.write(results)`
+
+
+
+`query_end_time = time.perf_counter()`
+
+`print
+(f'Query processed in {query_end_time - query_start_time:.2f} seconds')`
+
+
+
+`# Stop the total timer`
+
+`total_end_time = 
+time.perf_counter()`
+
+`# Calculate total execution time`
+
+`total_execution_time = total_end_time - total_start_time`
+
+`p
+rint(f'Total execution time: {total_execution_time:.2f} seconds')`
+
+I wonder if there is a way to just reload the vector
+ database in the second file without having to set up the embedding models again? Also, how can I make my chosen LLM fas
+ter in generating answers?
+
+I appreciate your help and insights!
+
+
+
+
+```
+---
+
+     
+ 
+all -  [ Multi-agent supervisor langgrpah with multiple tools/agents getting confused.  ](https://www.reddit.com/r/LangChain/comments/1g6fbnb/multiagent_supervisor_langgrpah_with_multiple/) , 2024-10-19-0912
+```
+I was making a supervised agent using langgraph and was referring official doc and when i add more complexity it dosen't
+ work properly and i am also trying to figure out what is going wrong. I am also sharing file here if possible please ju
+st take a look and share your suggestion and changes :
+
+Official Doc one :  https://colab.research.google.com/drive/1KEe
+9YSTGDQopMuss3CSMHJ3VjDzzrGSh?usp=sharing
+
+My code: https://colab.research.google.com/drive/1iVK5hBsXRohpShLFDWzv8wxnwA6
+vd-4X?usp=sharing
+
+Here in my code I think my supervisor is getting confused with tools. 
+```
+---
+
+     
+ 
+all -  [ Used FloAI to create a composable Agentic AI Agent (Looking for feedback) ](https://www.reddit.com/r/LangChain/comments/1g6b3fx/used_floai_to_create_a_composable_agentic_ai/) , 2024-10-19-0912
+```
+At Rootflo, we've been building AI agents every day, which led us to create FloAI—designed for easy prototyping and comp
+osability.We wanted to explore Agentic RAG patterns, a dynamic approach to AI where agents collaborate to retrieve and g
+enerate relevant information in response to user queries.Check out our latest experiment with FloAI where we implemented
+ an Agentic RAG in minutes. We'd love to hear your thoughts!
+
+[https://medium.com/rootflo/build-an-agentic-rag-using-flo
+ai-in-minutes-0be260304c98](https://medium.com/rootflo/build-an-agentic-rag-using-floai-in-minutes-0be260304c98)
+```
+---
+
+     
+ 
+all -  [ What is the Langchain community? Is it some kind of experiment? ](https://www.reddit.com/r/LangChain/comments/1g69u6m/what_is_the_langchain_community_is_it_some_kind/) , 2024-10-19-0912
+```
+What is the Langchain community? Is it some kind of experiment?
+```
+---
+
+     
+ 
+all -  [ Would this RAG as a service be helpful? ](https://www.reddit.com/r/Rag/comments/1g69mma/would_this_rag_as_a_service_be_helpful/) , 2024-10-19-0912
+```
+Hello Community,
+I am looking to build out micro-saas out of RAG by combining both Software Engineering and AI principle
+s. Have build out the version 1 of backend, with following features.
+
+Features:
+- SSO login
+- Permission based access co
+ntrol on data and quering
+- Support for multiple data connectors like drive, dropbox, confluence, s3, gcp, etc
+- Increme
+ntal indexing
+- Plug and play components for different parsers, dataloaders, retrievers, query mechanisms, etc
+- Single 
+Gateway for your open and closed source models, embeddings, rerankers with rate limiting and token limiting.
+- Audit Tra
+ils
+- Open Telemetry for prompt logging, llm cost, vector db performance and gpu metrics
+
+More features coming soon…
+
+Mo
+st importantly everything is built asynchronous, without heavy libraries like langchain or llamaindex. I am looking for 
+community feedback to understand will these features be good for any business? If at all, is anyone interested to collab
+orate either in help secure funding, frontend work, help me get connected with other folks, etc? 
+Thank you!
+
+[View Poll
+](https://www.reddit.com/poll/1g69mma)
+```
+---
+
+     
+ 
+all -  [ All-In-One Tool for LLM Prompt Engineering (Beta Currently Running!) ](https://www.reddit.com/r/LangChain/comments/1g6902s/allinone_tool_for_llm_prompt_engineering_beta/) , 2024-10-19-0912
+```
+I was recently trying to build an app using LLM’s but was having a lot of difficulty engineering my prompt to make sure 
+it worked in every case while also having to keep track of what prompts did good on what.
+
+So I built this tool that aut
+omatically generates a test set and evaluates my model against it every time I change the prompt or a parameter. Given t
+he input schema, prompt, and output schema, the tool creates an api for the model which also logs and evaluates all call
+s made and adds them to the test set.
+
+https://reddit.com/link/1g6902s/video/zmujj59eofvd1/player
+
+I just coded up the B
+eta and I'm letting a small set of the first people to sign up try it out at [the-aether.com](http://the-aether.com) . P
+lease let me know if this is something you'd find useful and if you want to try it and give feedback! Hope I could help 
+in building your LLM apps!
+```
+---
+
+     
+ 
+all -  [ Multi-agent use cases ](https://www.reddit.com/r/LangChain/comments/1g67h8o/multiagent_use_cases/) , 2024-10-19-0912
+```
+Hey guys are there any multi-agent existing use cases that we can implement ?? Something in automotive , consumer goods,
+ manufacturing, healthcare domains .? Please share the resources  if you have any.
+```
+---
+
+     
+ 
+all -  [ Why Langchain tools are fetching fake results? ](https://www.reddit.com/r/LangChain/comments/1g6521c/why_langchain_tools_are_fetching_fake_results/) , 2024-10-19-0912
 ```
 I am building an AI agent with web searching functions in Langchain. However, almost all fetched web results are fake re
 sults (information was fake; url was fake; date was fake: today is 10/17, but the returned news showed date of 10/20). A
@@ -134,15 +841,7 @@ tes:...' (no specific publication date mentioned, but appears to be live updates
 
      
  
-all -  [ 5.5 h (4.7 stars)- LangChain Mastery: Build Powerful Generative AI Apps ](https://www.easylearn.ing/course/generative-ai-with-langchain) , 2024-10-18-0912
-```
-
-```
----
-
-     
- 
-all -  [ [Project] Are embeddings the best strategy to look for product matches in complex datasets? ](https://www.reddit.com/r/LangChain/comments/1g6140c/project_are_embeddings_the_best_strategy_to_look/) , 2024-10-18-0912
+all -  [ [Project] Are embeddings the best strategy to look for product matches in complex datasets? ](https://www.reddit.com/r/LangChain/comments/1g6140c/project_are_embeddings_the_best_strategy_to_look/) , 2024-10-19-0912
 ```
 I'm working on a project where I have a dataset of approximately 1000 combinations of product characteristics (like form
 at, page count, printing type, paper type, etc.). Although there is a lot of overlap, each row ultimately represents a u
@@ -167,7 +866,7 @@ If anyone has worked on similar problems or has suggestions on how to
 
      
  
-all -  [ ChatBot Evaluation Metric ](https://www.reddit.com/r/LangChain/comments/1g60yhx/chatbot_evaluation_metric/) , 2024-10-18-0912
+all -  [ ChatBot Evaluation Metric ](https://www.reddit.com/r/LangChain/comments/1g60yhx/chatbot_evaluation_metric/) , 2024-10-19-0912
 ```
 I am a 3rd year undergrad at IIT Bombay, India, and currently intern season is going on in our college and in my resume 
 I have things like RAG and Chatbot. In my last two interviews, I was asked question from my resume and puzzles (Brainste
@@ -191,7 +890,7 @@ iate any help.
 
      
  
-all -  [ Langchain: combining Rag for search and SQL to match ](https://www.reddit.com/r/LangChain/comments/1g60ty7/langchain_combining_rag_for_search_and_sql_to/) , 2024-10-18-0912
+all -  [ Langchain: combining Rag for search and SQL to match ](https://www.reddit.com/r/LangChain/comments/1g60ty7/langchain_combining_rag_for_search_and_sql_to/) , 2024-10-19-0912
 ```
 I have to create a chatbot that uses as input a command to carry out research and matches of Employees: in particular I 
 have a Rag in which I store the employee resume as a long text and I have a Postgress database used to check the availab
@@ -206,505 +905,7 @@ Thank you very much!
 
      
  
-all -  [ [October 18] Enroll Now: Free Udemy Course Available Today ](https://www.reddit.com/r/udemyfreebies/comments/1g5z5rg/october_18_enroll_now_free_udemy_course_available/) , 2024-10-18-0912
-```
-Python Programming for Beginners: Learn Python from Scratch
-
-[https://freewebcart.com/python-programming-for-beginners-l
-earn-python-from-scratch/](https://freewebcart.com/python-programming-for-beginners-learn-python-from-scratch/)
-
-&#x200B
-;
-
-Microsoft Excel - Advanced Formulas & Functions with GenAI
-
-[https://freewebcart.com/microsoft-excel-advanced-formula
-s-functions-with-genai/](https://freewebcart.com/microsoft-excel-advanced-formulas-functions-with-genai/)
-
-&#x200B;
-
-Exc
-el Charts- Data Visualization Secrets - Beginner to Pro
-
-[https://freewebcart.com/excel-charts-data-visualization-secret
-s-beginner-to-pro/](https://freewebcart.com/excel-charts-data-visualization-secrets-beginner-to-pro/)
-
-&#x200B;
-
-JavaScr
-ipt From Scratch ( Part 1 - Beginner Level)
-
-[https://freewebcart.com/javascript-from-scratch-part-1-beginner-level/](ht
-tps://freewebcart.com/javascript-from-scratch-part-1-beginner-level/)
-
-&#x200B;
-
-3D Printing with ' Ultimaker CURA Slice
-r- Start to finish'
-
-[https://freewebcart.com/3d-printing-with-ultimaker-cura-slicer-start-to-finish/](https://freewebca
-rt.com/3d-printing-with-ultimaker-cura-slicer-start-to-finish/)
-
-&#x200B;
-
-Learn ChatGPT, Midjourney, AI and Use it For 
-Passive Income
-
-[https://freewebcart.com/learn-chatgpt-midjourney-ai-and-use-it-for-passive-income/](https://freewebcart
-.com/learn-chatgpt-midjourney-ai-and-use-it-for-passive-income/)
-
-&#x200B;
-
-Zero to Hero in Ollama: Create Local LLM App
-lications
-
-[https://freewebcart.com/zero-to-hero-in-ollama-create-local-llm-applications/](https://freewebcart.com/zero-
-to-hero-in-ollama-create-local-llm-applications/)
-
-&#x200B;
-
-Adobe InDesign CC for Beginner to Advanced Masterclass
-
-[ht
-tps://freewebcart.com/adobe-indesign-cc-for-beginner-to-advanced-masterclass/](https://freewebcart.com/adobe-indesign-cc
--for-beginner-to-advanced-masterclass/)
-
-&#x200B;
-
-Advanced MS Word Excel PowerPoint Course for Job Success
-
-[https://fr
-eewebcart.com/advanced-ms-word-excel-powerpoint-course-for-job-success/](https://freewebcart.com/advanced-ms-word-excel-
-powerpoint-course-for-job-success/)
-
-&#x200B;
-
-The Complete Guide to Instagram Marketing for Businesses
-
-[https://freewe
-bcart.com/the-complete-guide-to-instagram-marketing-for-businesses/](https://freewebcart.com/the-complete-guide-to-insta
-gram-marketing-for-businesses/)
-
-&#x200B;
-
-The Complete T-Shirt Design Toolkit: PS, AI & Canva
-
-[https://freewebcart.com
-/the-complete-t-shirt-design-toolkit-ps-ai-canva/](https://freewebcart.com/the-complete-t-shirt-design-toolkit-ps-ai-can
-va/)
-
-&#x200B;
-
-Zero to Hero in LangChain: Build GenAI apps using LangChain
-
-[https://freewebcart.com/zero-to-hero-in-la
-ngchain-build-genai-apps-using-langchain/](https://freewebcart.com/zero-to-hero-in-langchain-build-genai-apps-using-lang
-chain/)
-
-&#x200B;
-
-Mastering HTML5 and CSS3 (Part 2 - Intermediate Level)
-
-[https://freewebcart.com/mastering-html5-and-
-css3-part-2-intermediate-level/](https://freewebcart.com/mastering-html5-and-css3-part-2-intermediate-level/)
-
-&#x200B;
-
-
-Mastering React: React Crash Course with Mini Projects
-
-[https://freewebcart.com/mastering-react-react-crash-course-wit
-h-mini-projects/](https://freewebcart.com/mastering-react-react-crash-course-with-mini-projects/)
-
-&#x200B;
-
-Python Cras
-h Course: Dive into Coding with Hands-On Projects
-
-[https://freewebcart.com/python-crash-dive-into-coding-with-hands-on-
-projects/](https://freewebcart.com/python-crash-dive-into-coding-with-hands-on-projects/)
-
-&#x200B;
-
-Python Complete Cou
-rse And Flask Framework, HTML Essentials
-
-[https://freewebcart.com/python-complete-course-and-flask-framework-html-essen
-tials/](https://freewebcart.com/python-complete-course-and-flask-framework-html-essentials/)
-
-&#x200B;
-
-Master Logo Desi
-gn with Photoshop Illustrator Zero to Pro
-
-[https://freewebcart.com/master-logo-design-with-photoshop-illustrator-zero-t
-o-pro/](https://freewebcart.com/master-logo-design-with-photoshop-illustrator-zero-to-pro/)
-
-&#x200B;
-
-Microsoft Ads Mas
-terClass - All Campaigns & Features
-
-[https://freewebcart.com/microsoft-ads-masterclass-2024-all-campaigns-features/](ht
-tps://freewebcart.com/microsoft-ads-masterclass-2024-all-campaigns-features/)
-
-&#x200B;
-
-Python Programming Complete Beg
-inners Course Bootcamp 2024
-
-[https://freewebcart.com/learn-python-from-scratch-its-usage-by-nasa-in-mars-rovers/](https
-://freewebcart.com/learn-python-from-scratch-its-usage-by-nasa-in-mars-rovers/)
-
-&#x200B;
-
-Object Oriented Programming i
-n C++ & Interview Preparation
-
-[https://freewebcart.com/object-oriented-programming-in-c-interview-preparation/](https:/
-/freewebcart.com/object-oriented-programming-in-c-interview-preparation/)
-
-&#x200B;
-
-2024 R Programming Bootcamp for Abs
-olute Beginners
-
-[https://freewebcart.com/2022-r-programming-bootcamp/](https://freewebcart.com/2022-r-programming-bootc
-amp/)
-
-&#x200B;
-
-Mastering Pointers in C : A Course on Efficient Programming
-
-[https://freewebcart.com/mastering-pointer
-s-in-c-a-course-on-efficient-programming/](https://freewebcart.com/mastering-pointers-in-c-a-course-on-efficient-program
-ming/)
-
-&#x200B;
-
-CSS, JavaScript,PHP And Python Programming All in One Course
-
-[https://freewebcart.com/css-javascriptp
-hp-and-python-programming-all-in-one-course/](https://freewebcart.com/css-javascriptphp-and-python-programming-all-in-on
-e-course/)
-
-&#x200B;
-
-How to Make AI Videos: Mastering AI Text-to-Video Creation
-
-[https://freewebcart.com/how-to-make-a
-i-videos-mastering-ai-text-to-video-creation/](https://freewebcart.com/how-to-make-ai-videos-mastering-ai-text-to-video-
-creation/)
-
-&#x200B;
-
-Master AI-Powered Chatbots, 24/7 Appointment Booking with AI
-
-[https://freewebcart.com/master-ai-p
-owered-chatbots-24-7-appointment-booking-with-ai/](https://freewebcart.com/master-ai-powered-chatbots-24-7-appointment-b
-ooking-with-ai/)
-
-&#x200B;
-
-Microsoft Excel - Beginner to Advance with Example
-
-[https://freewebcart.com/learn-excel-fro
-m-beginner-to-advance-with-example/](https://freewebcart.com/learn-excel-from-beginner-to-advance-with-example/)
-
-&#x200
-B;
-
-Mastering ChatGPT (AI) and PowerPoint presentation
-
-[https://freewebcart.com/mastering-chatgpt-ai-and-powerpoint-pre
-sentation/](https://freewebcart.com/mastering-chatgpt-ai-and-powerpoint-presentation/)
-
-&#x200B;
-
-Problem Solving with C
-++ programming language
-
-[https://freewebcart.com/problem-solving-with-c-programming-languages/](https://freewebcart.com
-/problem-solving-with-c-programming-languages/)
-
-&#x200B;
-
-JavaScript From Scratch ( Part 1 - Beginner Level)
-
-[https://
-freewebcart.com/javascript-from-scratch-part-1-beginner-level/](https://freewebcart.com/javascript-from-scratch-part-1-b
-eginner-level/)
-
-&#x200B;
-
-CentOS Linux and Ubuntu Linux: Managing Packages
-
-[https://freewebcart.com/centos-linux-and-u
-buntu-linux-managing-packages/](https://freewebcart.com/centos-linux-and-ubuntu-linux-managing-packages/)
-
-&#x200B;
-
-Mas
-tering HTML5 and CSS3 (Part 2 - Intermediate Level)
-
-[https://freewebcart.com/mastering-html5-and-css3-part-2-intermedia
-te-level/](https://freewebcart.com/mastering-html5-and-css3-part-2-intermediate-level/)
-
-&#x200B;
-
-Master of Essential C
-++ Programming Beginner to Advanced
-
-[https://freewebcart.com/master-of-essential-c-programming-beginner-to-advanced/](h
-ttps://freewebcart.com/master-of-essential-c-programming-beginner-to-advanced/)
-
-&#x200B;
-
-C# Test Automation Engineer -
- from Zero to Hero
-
-[https://freewebcart.com/c-test-automation-engineer-from-zero-to-hero/](https://freewebcart.com/c-te
-st-automation-engineer-from-zero-to-hero/)
-
-&#x200B;
-
-Build Complete PHP MySQL Food Ordering Ecommerce Store
-
-[https://f
-reewebcart.com/build-complete-2023-php-mysql-food-ordering-ecommerce-store/](https://freewebcart.com/build-complete-2023
--php-mysql-food-ordering-ecommerce-store/)
-
-&#x200B;
-
-Master Filmora: Editing, Motion Graphics, and Color Grading
-
-[http
-s://freewebcart.com/master-filmora-editing-motion-graphics-and-colorgrading/](https://freewebcart.com/master-filmora-edi
-ting-motion-graphics-and-colorgrading/)
-
-&#x200B;
-
-Social Media Video Editing With Premiere Pro Canva Filmora
-
-[https://
-freewebcart.com/social-media-video-editing-with-premiere-pro-canva-filmora/](https://freewebcart.com/social-media-video-
-editing-with-premiere-pro-canva-filmora/)
-
-&#x200B;
-
-Complete Python For Absolute Beginners
-
-[https://freewebcart.com/co
-mplete-python-2023-for-absolute-beginners/](https://freewebcart.com/complete-python-2023-for-absolute-beginners/)
-
-&#x20
-0B;
-
-Mastering Database Management with Knex.js and PostgreSQL
-
-[https://freewebcart.com/mastering-database-management-w
-ith-knex-js-and-postgresql/](https://freewebcart.com/mastering-database-management-with-knex-js-and-postgresql/)
-
-&#x200
-B;
-
-Learn UI UX Design Adobe XD : Learn User Experience Design
-
-[https://freewebcart.com/learn-ui-ux-design-adobe-xd-lea
-rn-user-experience-design/](https://freewebcart.com/learn-ui-ux-design-adobe-xd-learn-user-experience-design/)
-
-&#x200B;
-
-
-Excel Analytics: Linear Regression Analysis in MS Excel
-
-[https://freewebcart.com/excel-analytics-linear-regression-an
-alysis-in-ms-excel/](https://freewebcart.com/excel-analytics-linear-regression-analysis-in-ms-excel/)
-
-&#x200B;
-
-C# Mast
-ering Course For Beginners
-
-[https://freewebcart.com/c-mastering-course-for-beginners/](https://freewebcart.com/c-master
-ing-course-for-beginners/)
-
-&#x200B;
-
-Metasploit from Scratch: Beginner to Professional
-
-[https://freewebcart.com/metasp
-loit-from-scratch-beginner-to-professional/](https://freewebcart.com/metasploit-from-scratch-beginner-to-professional/)
-
-
-&#x200B;
-
-ChatGPT Masterclass: The Ultimate Beginner's Guide!
-
-[https://freewebcart.com/chatgpt-masterclass-the-ultimat
-e-beginners-guide/](https://freewebcart.com/chatgpt-masterclass-the-ultimate-beginners-guide/)
-
-&#x200B;
-
-Essential Micr
-osoft PowerPoint Course for Everyone
-
-[https://freewebcart.com/essential-microsoft-powerpoint-course-for-everyone/](http
-s://freewebcart.com/essential-microsoft-powerpoint-course-for-everyone/)
-
-&#x200B;
-
-Support Vector Machines in Python: S
-VM Concepts & Code
-
-[https://freewebcart.com/support-vector-machines-in-python-svm-concepts-code/](https://freewebcart.c
-om/support-vector-machines-in-python-svm-concepts-code/)
-
-&#x200B;
-
-Complete Video Editing Course With Motion Graphics
-
-
-[https://freewebcart.com/complete-video-editing-course-with-motion-graphics/](https://freewebcart.com/complete-video-edi
-ting-course-with-motion-graphics/)
-
-&#x200B;
-
-Complete Linear Regression Analysis in Python
-
-[https://freewebcart.com/co
-mplete-linear-regression-analysis-in-python/](https://freewebcart.com/complete-linear-regression-analysis-in-python/)
-
-&
-#x200B;
-
-Adobe Illustrator Course for Graphics Design
-
-[https://freewebcart.com/adobe-illustrator-course-for-graphics-de
-sign/](https://freewebcart.com/adobe-illustrator-course-for-graphics-design/)
-
-&#x200B;
-
-Adobe After Effect Essential: L
-earn Video Motion Animation
-
-[https://freewebcart.com/adobe-after-effect-essential-learn-video-motion-animation/](https:
-//freewebcart.com/adobe-after-effect-essential-learn-video-motion-animation/)
-
-&#x200B;
-
-SVM for Beginners: Support Vect
-or Machines in R Studio
-
-[https://freewebcart.com/svm-for-beginners-support-vector-machines-in-r-studio/](https://freewe
-bcart.com/svm-for-beginners-support-vector-machines-in-r-studio/)
-
-&#x200B;
-
-Filmora 11/X/9: Zero to Hero in Video Editi
-ng
-
-[https://freewebcart.com/filmora-9-and-x-zero-to-hero-in-video-editing-2021/](https://freewebcart.com/filmora-9-and-
-x-zero-to-hero-in-video-editing-2021/)
-
-&#x200B;
-
-Social Media Mastery 2023| Increase Customer Conversion Rate
-
-[https:/
-/freewebcart.com/social-media-mastery-increase-customer-conversion-rate/](https://freewebcart.com/social-media-mastery-i
-ncrease-customer-conversion-rate/)
-
-&#x200B;
-
-Build from Scratch a Modern REST API with PHP 8
-
-[https://freewebcart.com/
-build-a-modern-rest-api-with-php-8/](https://freewebcart.com/build-a-modern-rest-api-with-php-8/)
-
-&#x200B;
-
-Learn HTML 
-and CSS from Beginning to Advanced
-
-[https://freewebcart.com/learn-html-and-css-from-beginning-to-advanced/](https://fre
-ewebcart.com/learn-html-and-css-from-beginning-to-advanced/)
-
-&#x200B;
-
-Adobe Premiere Pro CC: Video Editing for Beginne
-rs
-
-[https://freewebcart.com/adobe-premiere-pro-cc-2021-video-editing-for-beginners/](https://freewebcart.com/adobe-prem
-iere-pro-cc-2021-video-editing-for-beginners/)
-
-&#x200B;
-
-Adobe Photoshop CC Complete Mastery Course Basic to Advanced
-
-
-[https://freewebcart.com/adobe-photoshop-cc-complete-mastery-course-basic-to-advanced/](https://freewebcart.com/adobe-ph
-otoshop-cc-complete-mastery-course-basic-to-advanced/)
-
-&#x200B;
-
-Best Online Video Editor InVideo : 5+ Real World Proje
-cts
-
-[https://freewebcart.com/best-online-video-editor-invideo-5-real-world-projects/](https://freewebcart.com/best-onli
-ne-video-editor-invideo-5-real-world-projects/)
-
-&#x200B;
-
-ChatGPT Prompt Engineering Mastery
-
-[https://freewebcart.com/
-chatgpt-prompt-engineering-mastery/](https://freewebcart.com/chatgpt-prompt-engineering-mastery/)
-
-&#x200B;
-
-Essential E
-xcel With Tips Trick Shortcuts and Job Success
-
-[https://freewebcart.com/essential-excel-with-tips-trick-shortcuts-and-j
-ob-success/](https://freewebcart.com/essential-excel-with-tips-trick-shortcuts-and-job-success/)
-
-&#x200B;
-
-Videoscribe 
-Whiteboard Animations : MasterClass With Project
-
-[https://freewebcart.com/videoscribe-whiteboard-animations-masterclass
--with-project/](https://freewebcart.com/videoscribe-whiteboard-animations-masterclass-with-project/)
-
-&#x200B;
-
-Build a 
-User Web App from Scratch with Vanilla PHP 8+
-
-[https://freewebcart.com/build-a-full-user-web-app-from-scratch-with-vani
-lla-php8/](https://freewebcart.com/build-a-full-user-web-app-from-scratch-with-vanilla-php8/)
-
-&#x200B;
-
-Build from Scra
-tch a Modern REST API with PHP 8
-
-[https://freewebcart.com/build-a-modern-rest-api-with-php-8/](https://freewebcart.com/
-build-a-modern-rest-api-with-php-8/)
-
-&#x200B;
-
-C++ And PHP Complete Course for C++ and PHP Beginners
-
-[https://freewebc
-art.com/c-and-php-complete-course-2023/](https://freewebcart.com/c-and-php-complete-course-2023/)
-```
----
-
-     
- 
-all -  [ Got rejected for a Placement Offer after interning. And even my Manager was shocked. ](https://www.reddit.com/r/developersIndia/comments/1g5w64g/got_rejected_for_a_placement_offer_after/) , 2024-10-18-0912
+all -  [ Got rejected for a Placement Offer after interning. And even my Manager was shocked. ](https://www.reddit.com/r/developersIndia/comments/1g5w64g/got_rejected_for_a_placement_offer_after/) , 2024-10-19-0912
 ```
 So few days back, The company (huge Product based MNC) after a whole month of review , extended their Pre Placement Offe
 rs to 2025 Undergraduates in which unfortunately I didn't get.
@@ -751,7 +952,7 @@ ge.
      
  
 all -  [ Appending Tool Messages to the Final Response in a ReAct Agent
- ](https://www.reddit.com/r/LangChain/comments/1g5so66/appending_tool_messages_to_the_final_response_in/) , 2024-10-18-0912
+ ](https://www.reddit.com/r/LangChain/comments/1g5so66/appending_tool_messages_to_the_final_response_in/) , 2024-10-19-0912
 ```
 I'm currently working on a ReAct agent using LangGraph, where I'm calling various endpoints (tools) to generate the fina
 l answer. My endpoints gives the final response in the tool message which has the required answer that I want. The agent
@@ -783,7 +984,7 @@ to include all the relevant fields from the tool-generated answers. I tried stru
 
      
  
-all -  [ AgentCraft Hackathon: Preperation Event Webinar 🚀 ](https://www.meetup.com/diamantai/events/304039632/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) , 2024-10-18-0912
+all -  [ AgentCraft Hackathon: Preperation Event Webinar 🚀 ](https://www.meetup.com/diamantai/events/304039632/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link) , 2024-10-19-0912
 ```
 Get ready for the upcoming AgentCraft Hackathon in conjunction with LangChain with this essential online preparation eve
 nt!
@@ -826,7 +1027,7 @@ Join the Meetup event now for all the details and to secure your spot
 
      
  
-all -  [ How to Get Token Usage with astream in LangGraph ](https://www.reddit.com/r/LangChain/comments/1g5nz5g/how_to_get_token_usage_with_astream_in_langgraph/) , 2024-10-18-0912
+all -  [ How to Get Token Usage with astream in LangGraph ](https://www.reddit.com/r/LangChain/comments/1g5nz5g/how_to_get_token_usage_with_astream_in_langgraph/) , 2024-10-19-0912
 ```
 Hey everyone,
 
@@ -879,7 +1080,7 @@ SOLVED: I just had to pass `stream_usage=True` to the LLM :D
 
      
  
-all -  [ How to improve the performance of retrieval-augmented generation (RAG) models on time-relevant queri ](https://www.reddit.com/r/LangChain/comments/1g5nrbk/how_to_improve_the_performance_of/) , 2024-10-18-0912
+all -  [ How to improve the performance of retrieval-augmented generation (RAG) models on time-relevant queri ](https://www.reddit.com/r/LangChain/comments/1g5nrbk/how_to_improve_the_performance_of/) , 2024-10-19-0912
 ```
 **Problem Statement:** RAG models prioritize similarity between query and context, but struggle with time-sensitive quer
 ies. I am using milvus, but open to other options as well. For instance:
@@ -906,7 +1107,7 @@ Any one have clue how to handle this problem?
 
      
  
-all -  [ Choosing the Best Multilingual LLM for RAG-based Multilingual Chatbot Development ](https://www.reddit.com/r/LangChain/comments/1g5nfrg/choosing_the_best_multilingual_llm_for_ragbased/) , 2024-10-18-0912
+all -  [ Choosing the Best Multilingual LLM for RAG-based Multilingual Chatbot Development ](https://www.reddit.com/r/LangChain/comments/1g5nfrg/choosing_the_best_multilingual_llm_for_ragbased/) , 2024-10-19-0912
 ```
 Hi everyone,
 
@@ -927,7 +1128,7 @@ ance for any insights or experiences you can share!
 
      
  
-all -  [ Udemy Free Courses for 17 October 2024 ](https://www.reddit.com/r/udemyfreebies/comments/1g5n48x/udemy_free_courses_for_17_october_2024/) , 2024-10-18-0912
+all -  [ Udemy Free Courses for 17 October 2024 ](https://www.reddit.com/r/udemyfreebies/comments/1g5n48x/udemy_free_courses_for_17_october_2024/) , 2024-10-19-0912
 ```
 # Udemy Free Courses for 17 October 2024
 
@@ -1167,7 +1368,7 @@ FICATE – [CLICK HERE](https://www.reddit.com/r/udemyfreeebies/)
 
      
  
-all -  [ Udemy Free Courses for 17 October 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1g5n46e/udemy_free_courses_for_17_october_2024/) , 2024-10-18-0912
+all -  [ Udemy Free Courses for 17 October 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1g5n46e/udemy_free_courses_for_17_october_2024/) , 2024-10-19-0912
 ```
 # Udemy Free Courses for 17 October 2024
 
@@ -1407,7 +1608,7 @@ FICATE – [CLICK HERE](https://idownloadcoupon.com/)
 
      
  
-all -  [ Gemini endpoint url ](https://www.reddit.com/r/LangChain/comments/1g5coqw/gemini_endpoint_url/) , 2024-10-18-0912
+all -  [ Gemini endpoint url ](https://www.reddit.com/r/LangChain/comments/1g5coqw/gemini_endpoint_url/) , 2024-10-19-0912
 ```
 Where can we find the endpoint URL to use the Gemini API key? Has anyone else encountered a similar issue while using th
 e Gemini API key?
@@ -1416,7 +1617,7 @@ e Gemini API key?
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1g5alz7/list_of_free_and_best_selling_discounted_courses/) , 2024-10-18-0912
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1g5alz7/list_of_free_and_best_selling_discounted_courses/) , 2024-10-19-0912
 ```
 # Udemy Free Courses for 17 October 2024
 
@@ -1654,7 +1855,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloa
 
      
  
-all -  [ [October 17] Enroll Now: Free Udemy Course Available Today ](https://www.reddit.com/r/udemyfreebies/comments/1g592jt/october_17_enroll_now_free_udemy_course_available/) , 2024-10-18-0912
+all -  [ [October 17] Enroll Now: Free Udemy Course Available Today ](https://www.reddit.com/r/udemyfreebies/comments/1g592jt/october_17_enroll_now_free_udemy_course_available/) , 2024-10-19-0912
 ```
 Python Programming for Beginners: Learn Python from Scratch
 
@@ -2223,7 +2424,7 @@ lete-course-2023/](https://freewebcart.com/c-and-php-complete-course-2023/)
 
      
  
-all -  [ Looking for some cool Project Ideas.  ](https://www.reddit.com/r/LangChain/comments/1g54rea/looking_for_some_cool_project_ideas/) , 2024-10-18-0912
+all -  [ Looking for some cool Project Ideas.  ](https://www.reddit.com/r/LangChain/comments/1g54rea/looking_for_some_cool_project_ideas/) , 2024-10-19-0912
 ```
 I recently got my hands dirty on langchain and langgraph, so i was thinking of making a project to know how much I know 
 and to practice what I learned. I was looking for some cool project ideas using langgraph and langchain, it should not h
@@ -2236,44 +2437,7 @@ Thank you in advance 🙌🙏🏻
 
      
  
-all -  [ [FOR HIRE] I will develop custom Salesforce solutions for you at an affordable price ](https://www.reddit.com/r/hiring/comments/1g53d0x/for_hire_i_will_develop_custom_salesforce/) , 2024-10-18-0912
-```
-Hey there! I'm David,
-
-Are you overwhelmed with repetitive tasks or dreaming up exciting Salesforce projects? Let me bri
-ng my expertise in Salesforce development to help you out!
-
-With over 7 years of experience, I've worked on a variety of
- projects, focusing on Flows, Lightning Web Components (LWC), and integrations.
-
-What can I do for you?
-
-* Build Custom 
-LWC: Create responsive components tailored to your needs, following the LDS from SF.
-
-* Automate Processes: Streamline y
-our workflows and eliminate manual tasks.
-
-* Integrate Systems: Seamlessly connect Salesforce with other platforms.
-
-* D
-evelop Innovative Solutions: From custom apps to unique features, let’s build something great together.
-
-* Work with AI:
- Using cool stuff like Langchain or the Chat-GPT API.
-
-If you believe you have something that I could do for you, please
- place a $bid and send me the details of the project. As always, the price depends, but It's usually from 50$ to 100$ fo
-r simple projects.
-
-
-
-```
----
-
-     
- 
-all -  [ What's the best framework for building productiin levwl RAG application? ](https://www.reddit.com/r/u_Tech_8976/comments/1g5310o/whats_the_best_framework_for_building_productiin/) , 2024-10-18-0912
+all -  [ What's the best framework for building productiin levwl RAG application? ](https://www.reddit.com/r/u_Tech_8976/comments/1g5310o/whats_the_best_framework_for_building_productiin/) , 2024-10-19-0912
 ```
 Langchain is good for prototyping but when it comes to production level RAG I found that langchain is not good enough. C
 an someone suggest some framework to build production level RAG application? What about llmaindex?
@@ -2282,7 +2446,7 @@ an someone suggest some framework to build production level RAG application? Wha
 
      
  
-all -  [ AI News this week ](https://www.reddit.com/r/brainscriblr/comments/1g52vqt/ai_news_this_week/) , 2024-10-18-0912
+all -  [ AI News this week ](https://www.reddit.com/r/brainscriblr/comments/1g52vqt/ai_news_this_week/) , 2024-10-19-0912
 ```
 ||
 ||
@@ -2314,7 +2478,7 @@ CN6omvNfJA) former OpenAI board member Karpathy suggested there should be more 
 
      
  
-all -  [ Challenges in Word Counting with Langchain and Qdrant ](https://www.reddit.com/r/Langchaindev/comments/1g51dlk/challenges_in_word_counting_with_langchain_and/) , 2024-10-18-0912
+all -  [ Challenges in Word Counting with Langchain and Qdrant ](https://www.reddit.com/r/Langchaindev/comments/1g51dlk/challenges_in_word_counting_with_langchain_and/) , 2024-10-19-0912
 ```
 I am developing a chatbot using Langchain and Qdrant, and I'm encountering challenges with tasks involving word counts. 
 For example, after vectorizing the book The Lord of the Rings, I ask the AI how many times the name 'Frodo' appears, or 
@@ -2338,418 +2502,7 @@ hod, or might there be something I’m missing in how the search is applied?
 
      
  
-all -  [ Challenges in Word Counting with Langchain and Qdran ](https://www.reddit.com/r/LangChain/comments/1g517g7/challenges_in_word_counting_with_langchain_and/) , 2024-10-18-0912
-```
-I am developing a chatbot using Langchain and Qdrant, and I'm encountering challenges with tasks involving word counts. 
-For example, after vectorizing the book *The Lord of the Rings*, I ask the AI how many times the name 'Frodo' appears, o
-r to list the main characters and how frequently their names are mentioned. I’ve read that word counting can be a limita
-tion of AI systems, but I’m unsure if this is a conceptual misunderstanding on my part or if there is a way to accomplis
-h this. Could someone clarify whether AI can reliably count words in vectorized documents, or if this is indeed a known 
-limitation?
-```
----
-
-     
- 
-all -  [ I built a Langchain Agent that can use any website as a custom tool ](https://www.reddit.com/r/AI_Agents/comments/1g4zlqr/i_built_a_langchain_agent_that_can_use_any/) , 2024-10-18-0912
-```
-Here is the repo if anyone is interested:
-
-[https://github.com/dendrite-systems/langchain-dendrite-example/tree/main](ht
-tps://github.com/dendrite-systems/langchain-dendrite-example/tree/main)
-
-It can go get OpenAI's API status, send emails,
- help search for conflicting trademarks and a few other random things :) 
-```
----
-
-     
- 
-all -  [ Laravelpy concept. Would you use this? ](https://www.reddit.com/r/laravel/comments/1g4z0nc/laravelpy_concept_would_you_use_this/) , 2024-10-18-0912
-```
-Hey Laravel Devs
-
-Been working on a concept for an opensource laravel package over the past few weeks (still in early st
-ages) it's called Laravelpy
-
-The concept is to be able to harness the power of Python in your Laravel Application, my go
-al is to achieve the following
-
-Run custom Python scripts using Laravel syntax e.g. Python::run('your/custom/pyton/scrip
-t.py')
-
-Have out of the box integrations with popular python libraries such as pandas, matplotlib, NumPy, LangChain just
- to name a few. (see work in progress for Pandas in the attached image)
-
-Upon installation have a Python virtual environ
-ment and manage pip install using artisan
-
-I have more ideas on how I could take this further but I wanted to get some i
-nitial feedback to see if anyone would use a package like this?
-
-[Concept of usage ](https://preview.redd.it/44r5xsunk5v
-d1.png?width=3768&format=png&auto=webp&s=a950057ea8f7ff0c3efc9143fd15358afd46898e)
-
-
-```
----
-
-     
- 
-all -  [ Realna plata?  ](https://www.reddit.com/r/programiranje/comments/1g4xe1e/realna_plata/) , 2024-10-18-0912
-```
-Pozdrav ljudi, zanima me realna plata za ovaj stack. Prave se vise SaaS projekata. 
-
-  
-1. React JS  
-2. Express JS  
-3.
- MongDB & PostgresSQL  
-4. LangChain (OpenAI Embeddings, LLM Chains etc)  
-5. Azure (Blog Storage, Embeddings Storage, I
-ndexing service, search service, Cognitive Services, Azure AI Studio) - Very Important.  
-6. And NPM Libraries in genera
-l (There are many used in this project)
-```
----
-
-     
- 
-all -  [ How I Started Learning Machine Learning ](https://www.reddit.com/r/learnmachinelearning/comments/1g4x299/how_i_started_learning_machine_learning/) , 2024-10-18-0912
-```
-Hello, everyone. As promised, I'll write a longer post about how I entered the world of ML, hoping it will help someone 
-shape their path. I'll include links to all the useful materials I used alongside the story, which you can use for learn
-ing.
-
-I like to call myself an AI Research Scientist who enjoys exploring new AI trends, delving deeper into understandi
-ng their background, and applying them to real products. This way, I try to connect science and entrepreneurship because
- I believe everything that starts as scientific research ends up 'on the shelves' as a product that solves a specific us
-er problem.
-
-I began my journey in ML in 2016 when it wasn't such a popular field. Everyone had heard of it, but few wer
-e applying it. I have several years of development experience and want to try my hand at ML. The first problem I encount
-ered was where to start - whether to learn mathematics, statistics, or something else. That's when I came across a name 
-and a course that completely changed my career.
-
-# Let's start
-
-You guessed it. It was Professor Andrew Ng and his globa
-lly popular Machine Learning course available on Coursera (I still have the certificate, hehe). This was also my first o
-fficial online course ever. Since that course no longer exists as it's been replaced by a new one, I recommend you check
- out:
-
-1. [Machine Learning (Stanford CS229)](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
-
-2. [Machine Learning Specialization](https://www.coursera.org/specializations/machine-learning-introduction)
-
-These two 
-courses start from the basics of ML and all the necessary calculus you need to know. Many always ask questions like whet
-her to learn linear algebra, statistics, or probability, but you don't need to know everything in depth. This knowledge 
-helps if you're a scientist developing a new architecture, but as an engineer, not really. You need to know some basics 
-to understand, such as how the backpropagation algorithm works.
-
-I know that Machine Learning (Stanford CS229) is a very
- long and arduous course, but it's the right start if you want to be really good at ML. In my time, I filled two thick n
-otebooks by hand while taking the course mentioned above.
-
-# TensorFlow and Keras
-
-After the course, I didn't know how t
-o apply my knowledge because I hadn't learned specifically how to code things. Then, I was looking for ways to learn how
- to code it. That's when I came across a popular framework called Keras, now part of TensorFlow. I started with a new co
-urse and acquiring practical knowledge:
-
-1. [Deep Learning Specialization](https://www.coursera.org/specializations/deep
--learning)
-2. [Deep Learning by Ian Goodfellow](https://www.deeplearningbook.org/)
-3. [Machine Learning Yearning by Andr
-ew Ng](https://info.deeplearning.ai/machine-learning-yearning-book)
-
-These resources above were my next step. I must adm
-it that I learned the most from that course and from the book Deep Learning by Ian Goodfellow because I like reading boo
-ks (although this one is quite difficult to read).
-
-# Learn by coding
-
-To avoid just learning, I went through various Gi
-tHub repositories that I manually retyped and learned that way. It may be an old-fashioned technique, but it helped me a
- lot. Now, most of those repositories don't exist, so I'll share some that I found to be good:
-
-1. [Really good Jupyter 
-notebooks that can teach you the basics of TensorFlow](https://github.com/mrdbourke/tensorflow-deep-learning)
-2. [Anothe
-r good repo for learning TF and Keras](https://github.com/codebasics/deep-learning-keras-tf-tutorial)
-
-# Master the chal
-lenge
-
-After mastering the basics in terms of programming in TF/Keras, I wanted to try solving some real problems. There
-'s no better place for that challenge than Kaggle and the popular Titanic dataset. Here, you can really find a bunch of 
-materials and simple examples of ML applications. Here are some of my favorites:
-
-1. [Titanic - Machine Learning from Di
-saster](https://www.kaggle.com/c/titanic/overview)
-2. [Home Credit Default Risk](https://www.kaggle.com/competitions/hom
-e-credit-default-risk/overview)
-3. [House Prices - Advanced Regression Techniques](https://www.kaggle.com/competitions/h
-ouse-prices-advanced-regression-techniques)
-4. [Two Sigma: Using News to Predict Stock Movements](https://www.kaggle.com
-/competitions/two-sigma-financial-news)
-
-I then decided to further develop my career in the direction of applying ML to 
-the stock market, first using predictions on time series and then using natural language processing. I've remained in th
-is field until today and will defend my doctoral dissertation soon.
-
-# How to deploy models
-
-To continue, before I move 
-on to the topic of specialization, we need to address the topic of deployment. Now that we've learned how to make some b
-asic models in Keras and how to use them, there are many ways and services, but I'll only mention what I use today. For 
-all my ML models, whether simple regression models or complex GPT models, I use FastAPI. It's a straightforward framewor
-k, and you can quickly create API endpoints. I'll share a few older and useful tutorials for beginners:
-
-1. [AI as an AP
-I tutorial series](https://www.youtube.com/watch?v=56qQNcHJxyQ)
-2. [A step-by-step guide](https://medium.com/@ganiyuabdu
-lwajeed2002/a-step-by-step-approach-to-building-a-fast-api-for-deep-learning-classification-projects-cbd2ea6bc2f2)
-3. [P
-roductizing an ML Model with FastAPI and Cloud Run](https://medium.com/semantixbr/deploy-an-ml-model-with-fastapi-and-cl
-oud-run-part-1-1a0b0f3b3a5d)
-
-Personally, I've deployed on various cloud providers, of which I would highlight GCP and A
-WS because they have everything needed for model deployment, and if you know how to use them, they can be quite cheap.
-
-
-# Chose your specialization
-
-The next step in developing my career, besides choosing finance as the primary area, was my
- specialization in the field of NLP. This happened in early 2020 when I started working with models based on the Transfo
-rmer architecture. The first model I worked with was BERT, and the first tasks were related to classifications. My recom
-mendations are to master the Transformer architecture well because 99% of today's LLM models are based on it. Here are s
-ome resources:
-
-1. [The legendary paper 'Attention Is All You Need'](https://proceedings.neurips.cc/paper_files/paper/20
-17/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
-2. [Hugging Face Course on Transformers](https://huggingface.co/lear
-n/nlp-course/chapter1/1)
-3. [Illustrated Guide to Transformers - Step by Step Explanation](https://towardsdatascience.co
-m/illustrated-guide-to-transformers-step-by-step-explanation-f74876522bc0)
-4. [Good repository](https://github.com/Niels
-Rogge/Transformers-Tutorials)
-5. [How large language models work, a visual intro to transformers](https://www.youtube.co
-m/watch?v=wjZofJX0v4M)
-
-After spending years using encoder-based Transformer models, I started learning GPT models. Good
- open-source models like Llama 2 then appear. Then, I started fine-tuning these models using the excellent Unsloth libra
-ry:
-
-1. [How to Finetune Llama-3 and Export to Ollama](https://docs.unsloth.ai/tutorials/how-to-finetune-llama-3-and-exp
-ort-to-ollama)
-2. [Fine-tune Llama 3.1 Ultra-Efficiently with Unsloth](https://huggingface.co/blog/mlabonne/sft-llama3)
-
-
-After that, I focused on studying various RAG techniques and developing Agent AI systems. This is now called AI enginee
-ring, and, as far as I can see, it has become quite popular. So I'll write more about that in another post, but here I'l
-l leave what I consider to be the three most famous representatives, i.e., their tutorials:
-
-1. [LangChain tutorial](htt
-ps://python.langchain.com/docs/tutorials/)
-2. [LangGraph tutorial](https://langchain-ai.github.io/langgraph/tutorials/)
-
-3. [CrewAI examples](https://github.com/crewAIInc/crewAI-examples)
-
-# Here I am today
-
-Thanks to the knowledge I've gene
-rated over all these years in the field of ML, I've developed and worked on numerous projects. The most significant publ
-icly available project is developing an agent AI system for well-being support, which I turned into a [mobile applicatio
-n](https://sintelly.com/download/). Also, my entire doctoral dissertation is related to applying ML to the stock market 
-in combination with the development of GPT models and reinforcement learning (more on that in a separate post). After lo
-ng 6 years, I've completed my dissertation, and now I'm just waiting for its defense. I'll share everything I'm working 
-on for the dissertation publicly [on the project](https://primoinvesting.com/), and in tutorials I'm preparing to write.
-
-
-If you're interested in these topics, I announce that I'll soon start with activities of publishing content on Medium 
-and a blog, but I'll share all of that here on Reddit as well. Now that I've gathered years of experience and knowledge 
-in this field, I'd like to share it with others and help as much as possible.
-
-If you have any questions, feel free to a
-sk them, and I'll try to answer all of them.
-
-Thank you for reading.
-```
----
-
-     
- 
-all -  [ Relevant file retrieval  ](https://www.reddit.com/r/LangChain/comments/1g4tsbo/relevant_file_retrieval/) , 2024-10-18-0912
-```
-I’m trying to implement what OpenAI Assistant API is doing when I feed it with some documents. 
-So if my question is rel
-ated to something on the documents that I have in a directory, it should take that into account; if not, it can provide 
-a general answer. Is embeddings only approach here? 
-```
----
-
-     
- 
-all -  [ [OFFER] I will develop custom Salesforce solutions for you at an affordable price ](https://www.reddit.com/r/slavelabour/comments/1g4tf5u/offer_i_will_develop_custom_salesforce_solutions/) , 2024-10-18-0912
-```
-Hey there! I'm David,
-
-Are you overwhelmed with repetitive tasks or dreaming up exciting Salesforce projects? Let me bri
-ng my expertise in Salesforce development to help you out!
-
-With over 7 years of experience, I've worked on a variety of
- projects, focusing on Flows, Lightning Web Components (LWC), and integrations.
-
-What can I do for you?
-
-* Build Custom 
-LWC: Create responsive components tailored to your needs, following the LDS from SF.
-* Automate Processes: Streamline yo
-ur workflows and eliminate manual tasks.
-* Integrate Systems: Seamlessly connect Salesforce with other platforms.
-* Deve
-lop Innovative Solutions: From custom apps to unique features, let’s build something great together.
-* Work with AI: Usi
-ng cool stuff like Langchain or the Chat-GPT API.
-
-If you believe you have something that I could do for you, please pla
-ce a $bid and send me the details of the project. As always, the price depends, but It's usually from 25$ to 50$ for sim
-ple projects.
-```
----
-
-     
- 
-all -  [ What is the best custom agent you made using langchain or langgraph? ](https://www.reddit.com/r/LangChain/comments/1g4sj37/what_is_the_best_custom_agent_you_made_using/) , 2024-10-18-0912
-```
-I just want to see it's effectiveness through your experience.
-
-I plan on creating a tool that queries on tabular data a
-nd tweak it to work fine on large open source models. If you have done something similar please let me know what it was.
-
-```
----
-
-     
- 
-all -  [ Technique beyond RecursiveCharacterTextSplitter for unstructured PDF RAG ](https://www.reddit.com/r/LocalLLaMA/comments/1g4rcji/technique_beyond_recursivecharactertextsplitter/) , 2024-10-18-0912
-```
-I built a local RAG using ollama, langchain and llama3.2, using a MultiQueryRetriever to parse through multiple PDF and 
-ask a set of identical questions for each.
-
-The accuracy is good but not perfect, and I have noticed that failures tend 
-to be happen on data that looks like a table in the PDF.
-
-For example:
-```
-----------------|----|
-Population 2023 | x  |
-
-Population 2024 | y  |
-Population 2025 | z  |
-----------------|----|
-```
-
-will show up in the chunks of RecursiveCharac
-terTextSplitter as 
-
-```
-Population 2023
-Population 2024
-Population 2025
-x
-y
-z
-```
-
-and the chat will either retrieve th
-e wrong information or not find the information at all. I would like to improve my PDF ingestion (chunking/splitting, ve
-ctor embeddings) to be able to more accurately retrieve the correct data. I have played around with the embedding model,
- chunk size and overlap, but those won't fix this issue.
-
-What techniques could I use to improve the layout of the chunk
-s stored in my vector database? Or should I look into a different technique altogether?
-
-Here is the current code regard
-ing indexing:
-
-```
-TEXT_EMBEDDING_MODEL = os.getenv('TEXT_EMBEDDING_MODEL', 'nomic-embed-text')
-
-def create_vector_embed
-dings_from_pdf(file):
-  # Ingest the PDF
-  loader = UnstructuredPDFLoader(file_path=file)
-  document_data = loader.load(
-)
-
-  # Vector Embeddings of PDF (split and chunking)
-  text_splitter = RecursiveCharacterTextSplitter(chunk_size=200, ch
-unk_overlap=50)
-  splits = text_splitter.split_documents(document_data)
-
-  # Add to vector database
-  embeddings = Ollam
-aEmbeddings(model=TEXT_EMBEDDING_MODEL, show_progress=False)
-  vector_db = Chroma.from_documents(
-    documents=splits,
-
-    embedding=embeddings
-  )
-  return vector_db
-```
-
-Thank you!
-```
----
-
-     
- 
-all -  [ How to chang database when using vector_store? ](https://www.reddit.com/r/LangChain/comments/1g4qe4z/how_to_chang_database_when_using_vector_store/) , 2024-10-18-0912
-```
-I wanna use my test\_db database in my milvus, but i donnnot find the way to change database as langchain.Milvus.vector\
-_store defaultly use the default database. 
-```
----
-
-     
- 
-all -  [ Using LangChain to manage visual models for editing 3D scenes ](https://www.reddit.com/r/LangChain/comments/1g4n12e/using_langchain_to_manage_visual_models_for/) , 2024-10-18-0912
-```
-An ECCV paper, Chat-Edit-3D, utilizes ChatGPT to drive (by LangChain) nearly 30 AI models and enable 3D scene editing.
-
-
-[https://github.com/Fangkang515/CE3D](https://github.com/Fangkang515/CE3D)
-
-https://reddit.com/link/1g4n12e/video/5j54cy
-ufl0vd1/player
-
-
-```
----
-
-     
- 
-all -  [ Unable to get desired results with ChatPromptTemplate and Prompt Caching with Anthropic ](https://www.reddit.com/r/LangChain/comments/1g4ip6z/unable_to_get_desired_results_with/) , 2024-10-18-0912
-```
-I have a long prompt of instructions that performs as intended when I use PromptTemplate.  
-After reading about Prompt C
-aching, I tried to implement it with the ChatPromptTemplate, but it did not work as intended. The demo of prompt caching
- uses a book as its context. I have a smaller context but specific instructions.  
-Tried fine-tuning the prompt, but the
- model hallucinates badly.
-
-Example: When I ask a question, it does not use the same question to reason/generate the ans
-wer.
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-18-0912
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-19-0912
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -2778,7 +2531,7 @@ I'm sure some teams already have good systems for this, would appreciate pointer
 
      
  
-MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-18-0912
+MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-19-0912
 ```
 GitHub repo : [https://github.com/shaRk-033/web-agent](https://github.com/shaRk-033/web-agent)
 
@@ -2817,7 +2570,7 @@ hear them. :)
 
      
  
-MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-18-0912
+MachineLearning -  [ [P] Swapping Embedding Models for an LLM ](https://www.reddit.com/r/MachineLearning/comments/1fktvbj/p_swapping_embedding_models_for_an_llm/) , 2024-10-19-0912
 ```
 How tightly coupled is an embedding model to a language model?
 
