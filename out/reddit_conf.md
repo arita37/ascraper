@@ -1,5 +1,17 @@
  
-all -  [ NLP/CogSci/Info programmes — worth applying to CS?  ](https://www.reddit.com/r/gradadmissions/comments/1g8bgm9/nlpcogsciinfo_programmes_worth_applying_to_cs/) , 2024-10-21-0913
+all -  [ Confused about where to submit the paper for a conference ](https://www.reddit.com/r/PhD/comments/1g8d9st/confused_about_where_to_submit_the_paper_for_a/) , 2024-10-22-0913
+```
+I started working on a specific category of power balance problem using reinforcement learning. RL in power quality is n
+ot new but I’m working on community of microgrids using RL which can help supply electricity to remote areas in developi
+ng countries so novelty is in how we formulate the optimization problem. My professor thinks it could be submitted to so
+me ASME conferences but I want to try my luck at ICML or NeurIPS. Do you think this paper is worthy of those conferences
+?
+```
+---
+
+     
+ 
+all -  [ NLP/CogSci/Info programmes — worth applying to CS?  ](https://www.reddit.com/r/gradadmissions/comments/1g8bgm9/nlpcogsciinfo_programmes_worth_applying_to_cs/) , 2024-10-22-0913
 ```
 Hi, 
 I have an undergrad double degree in CS + humanities from a good university in Europe, with ok but not super great 
@@ -15,7 +27,7 @@ gh candidate for straight CS programmes. There are however some professors in CS
 
      
  
-all -  [ Call for Papers: NeurIPS 2024 Affinity Workshop: Muslims in ML ](https://groups.google.com/g/ml-news/c/slCxJZQvkuc) , 2024-10-21-0913
+all -  [ Call for Papers: NeurIPS 2024 Affinity Workshop: Muslims in ML ](https://groups.google.com/g/ml-news/c/slCxJZQvkuc) , 2024-10-22-0913
 ```
 
 ```
@@ -23,7 +35,7 @@ all -  [ Call for Papers: NeurIPS 2024 Affinity Workshop: Muslims in ML ](https:
 
      
  
-all -  [ How to finish PhD within 3 years ? ](https://www.reddit.com/r/PhD/comments/1g7w95o/how_to_finish_phd_within_3_years/) , 2024-10-21-0913
+all -  [ How to finish PhD within 3 years ? ](https://www.reddit.com/r/PhD/comments/1g7w95o/how_to_finish_phd_within_3_years/) , 2024-10-22-0913
 ```
 I am about to start a PhD in mechanistic interpretability (subfield of explainable AI) in Germany. I worked in industry 
 before and am already 30 yo. I want to finish within 3 years. My graduation requirements are three journal papers. High 
@@ -47,7 +59,7 @@ pers in first year and network as much as possible in conference to find collabo
 
      
  
-all -  [ [R] Molecular Topological Profile (MOLTOP) - Simple and Strong Baseline for Molecular Graph Classifi ](https://www.reddit.com/r/MachineLearning/comments/1g7gj4m/r_molecular_topological_profile_moltop_simple_and/) , 2024-10-21-0913
+all -  [ [R] Molecular Topological Profile (MOLTOP) - Simple and Strong Baseline for Molecular Graph Classifi ](https://www.reddit.com/r/MachineLearning/comments/1g7gj4m/r_molecular_topological_profile_moltop_simple_and/) , 2024-10-22-0913
 ```
 Accepted at ECAI 2024 conference, ArXiv: [https://arxiv.org/abs/2407.12136](https://arxiv.org/abs/2407.12136)
 
@@ -99,7 +111,7 @@ s / answer any questions in the comments.
 
      
  
-all -  [ [D] Why do PhD Students in the US seem like overpowered final bosses  ](https://www.reddit.com/r/MachineLearning/comments/1g7dzkp/d_why_do_phd_students_in_the_us_seem_like/) , 2024-10-21-0913
+all -  [ [D] Why do PhD Students in the US seem like overpowered final bosses  ](https://www.reddit.com/r/MachineLearning/comments/1g7dzkp/d_why_do_phd_students_in_the_us_seem_like/) , 2024-10-22-0913
 ```
 Hello,
 
@@ -128,7 +140,7 @@ Thank you !
 
      
  
-all -  [ [5 YOE] Physics postdoc trying switch. ~100 applications, handful of interviews, no offers. ](https://www.reddit.com/r/EngineeringResumes/comments/1g60iw4/5_yoe_physics_postdoc_trying_switch_100/) , 2024-10-21-0913
+all -  [ [5 YOE] Physics postdoc trying switch. ~100 applications, handful of interviews, no offers. ](https://www.reddit.com/r/EngineeringResumes/comments/1g60iw4/5_yoe_physics_postdoc_trying_switch_100/) , 2024-10-22-0913
 ```
 Hi! My postdoc is expiring, and I've been looking for ML Engineer jobs. I'm also looking for ML Researcher roles. I've a
 pplied to 40+ places, with only a handful of interviews. Am I making any dumb errors as I'm trying to transition? I know
@@ -146,7 +158,7 @@ tqldvd1.png?width=5949&format=png&auto=webp&s=d36454ef7e65fae545a5bf7b8cf6baf745
 
      
  
-all -  [ How I Started Learning Machine Learning ](https://www.reddit.com/r/learnmachinelearning/comments/1g4x299/how_i_started_learning_machine_learning/) , 2024-10-21-0913
+all -  [ How I Started Learning Machine Learning ](https://www.reddit.com/r/learnmachinelearning/comments/1g4x299/how_i_started_learning_machine_learning/) , 2024-10-22-0913
 ```
 Hello, everyone. As promised, I'll write a longer post about how I entered the world of ML, hoping it will help someone 
 shape their path. I'll include links to all the useful materials I used alongside the story, which you can use for learn
@@ -313,7 +325,7 @@ Thank you for reading.
 
      
  
-all -  [ Does Grokking show that Scale will be enough to get LLMs to AGI? ](https://www.reddit.com/r/ChatGPT/comments/1g3eati/does_grokking_show_that_scale_will_be_enough_to/) , 2024-10-21-0913
+all -  [ Does Grokking show that Scale will be enough to get LLMs to AGI? ](https://www.reddit.com/r/ChatGPT/comments/1g3eati/does_grokking_show_that_scale_will_be_enough_to/) , 2024-10-22-0913
 ```
 Currently, there has been a lot of debate about whether LLMs truly reason or just memorize their training data (see this
  recent paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large 
@@ -358,7 +370,7 @@ e will need new breakthroughs to get to AGI.
 
      
  
-all -  [ Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/ArtificialInteligence/comments/1g3d6kf/will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-21-0913
+all -  [ Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/ArtificialInteligence/comments/1g3d6kf/will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-22-0913
 ```
 Currently there has been a lot of debate whether LLMs truly reason or just memorize their training data (see this recent
  paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Languag
@@ -402,7 +414,7 @@ all we need to AGI?
 
      
  
-all -  [ [D] Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/MachineLearning/comments/1g3cumr/d_will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-21-0913
+all -  [ [D] Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/MachineLearning/comments/1g3cumr/d_will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-22-0913
 ```
 Currently there has been a lot of debate whether LLMs truly reason or just memorize their training data (see this recent
  paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Languag
@@ -447,7 +459,7 @@ nd we will need new breakthroughs to get to AGI?
 
      
  
-all -  [ University Recommendations for AI/ML Specialization in Europe ](https://www.reddit.com/r/learnmachinelearning/comments/1g39xgf/university_recommendations_for_aiml/) , 2024-10-21-0913
+all -  [ University Recommendations for AI/ML Specialization in Europe ](https://www.reddit.com/r/learnmachinelearning/comments/1g39xgf/university_recommendations_for_aiml/) , 2024-10-22-0913
 ```
 Hi everyone,
 
@@ -502,7 +514,7 @@ I feel if I go for PhD directly, I will be left with some knowledge gap.
 
      
  
-all -  [ Chance an underperforming Asian ](https://www.reddit.com/r/chanceme/comments/1g35v1n/chance_an_underperforming_asian/) , 2024-10-21-0913
+all -  [ Chance an underperforming Asian ](https://www.reddit.com/r/chanceme/comments/1g35v1n/chance_an_underperforming_asian/) , 2024-10-22-0913
 ```
 **Demographics**:
 
@@ -562,7 +574,7 @@ Majors are varied between Econ or CS with focus in AI
 
      
  
-all -  [ Low Undergrad Gpa decent exp? concerned about my chances? Should I do Gre? ](https://www.reddit.com/r/gradadmissions/comments/1fzj4wb/low_undergrad_gpa_decent_exp_concerned_about_my/) , 2024-10-21-0913
+all -  [ Low Undergrad Gpa decent exp? concerned about my chances? Should I do Gre? ](https://www.reddit.com/r/gradadmissions/comments/1fzj4wb/low_undergrad_gpa_decent_exp_concerned_about_my/) , 2024-10-22-0913
 ```
 Hey guys  
 I am an undergrad in ECE at a top 5 school with a 3.37 GPA and internship experience at a FAANG company. I am
@@ -602,7 +614,7 @@ Would love to hear any feedback on my school list or
 
      
  
-all -  [ [Article] HiCoM: Hierarchical Coherent Motion for Dynamic Streamable Scenes with 3D Gaussian Splatti ](https://www.reddit.com/r/Scholar/comments/1fzgn8o/article_hicom_hierarchical_coherent_motion_for/) , 2024-10-21-0913
+all -  [ [Article] HiCoM: Hierarchical Coherent Motion for Dynamic Streamable Scenes with 3D Gaussian Splatti ](https://www.reddit.com/r/Scholar/comments/1fzgn8o/article_hicom_hierarchical_coherent_motion_for/) , 2024-10-22-0913
 ```
 NeurIPS [https://nips.cc/virtual/2024/poster/96081](https://nips.cc/virtual/2024/poster/96081)
 ```
@@ -610,7 +622,7 @@ NeurIPS [https://nips.cc/virtual/2024/poster/96081](https://nips.cc/virtual/2024
 
      
  
-all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/deeplearning/comments/1fy6enm/some_research_papers_we_read_recently/) , 2024-10-21-0913
+all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/deeplearning/comments/1fy6enm/some_research_papers_we_read_recently/) , 2024-10-22-0913
 ```
 Hey everyone, here is the list of papers we discussed and their summaries this week. If you find these summaries useful,
  feel free to contribute your own! The repo is constantly updated with new papers from major conferences, so it's a grea
@@ -642,7 +654,7 @@ y reading! 🎉
 
      
  
-all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/u_vlg_iitr/comments/1fy6a5e/some_research_papers_we_read_recently/) , 2024-10-21-0913
+all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/u_vlg_iitr/comments/1fy6a5e/some_research_papers_we_read_recently/) , 2024-10-22-0913
 ```
 Hey everyone, here is the list of papers we discussed and their summaries this week. If you find these summaries useful,
  feel free to contribute your own! The repo is constantly updated with new papers from major conferences, so it's a grea
@@ -675,7 +687,7 @@ appy reading! 🎉
 
      
  
-all -  [ [0 YoE, Student, ML Research/SWE Internship, USA] ](https://www.reddit.com/r/resumes/comments/1fy0sj4/0_yoe_student_ml_researchswe_internship_usa/) , 2024-10-21-0913
+all -  [ [0 YoE, Student, ML Research/SWE Internship, USA] ](https://www.reddit.com/r/resumes/comments/1fy0sj4/0_yoe_student_ml_researchswe_internship_usa/) , 2024-10-22-0913
 ```
 Hi! I've never made a resume before, so this one isn't ATS optimized yet, way too long, and imo very uninteresting for a
 n interviewer or recruiter to look at. I'm in my junior year, so it's the time to fix all that for internships and resea
@@ -703,7 +715,7 @@ a couple advisors. But im concerned that people will see i'm a student and and w
 
      
  
-all -  [ Are IEEE/CVF the top conferences for CV/Image Processing? ](https://www.reddit.com/r/computervision/comments/1fxfwpo/are_ieeecvf_the_top_conferences_for_cvimage/) , 2024-10-21-0913
+all -  [ Are IEEE/CVF the top conferences for CV/Image Processing? ](https://www.reddit.com/r/computervision/comments/1fxfwpo/are_ieeecvf_the_top_conferences_for_cvimage/) , 2024-10-22-0913
 ```
 As the title say, are IEEE/CVF to CV what ICLR, ICML, NeurIPS are to AI?
 ```
@@ -711,7 +723,7 @@ As the title say, are IEEE/CVF to CV what ICLR, ICML, NeurIPS are to AI?
 
      
  
-all -  [ approved I797-A but expired visa stamp; travel to Canada for 6 days? ](https://www.reddit.com/r/h1b/comments/1fx81is/approved_i797a_but_expired_visa_stamp_travel_to/) , 2024-10-21-0913
+all -  [ approved I797-A but expired visa stamp; travel to Canada for 6 days? ](https://www.reddit.com/r/h1b/comments/1fx81is/approved_i797a_but_expired_visa_stamp_travel_to/) , 2024-10-22-0913
 ```
 Hi, my H1-B visa stamp on my passport expired on Aug 6, 2023.
 
@@ -740,7 +752,7 @@ ll be via flight. Please advise.
 
      
  
-all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://www.reddit.com/r/learnmachinelearning/comments/1fwpt7r/consent_in_crisis_neurips_2024_paper_summary_via/) , 2024-10-21-0913
+all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://www.reddit.com/r/learnmachinelearning/comments/1fwpt7r/consent_in_crisis_neurips_2024_paper_summary_via/) , 2024-10-22-0913
 ```
 [https://www.youtube.com/watch?v=1I-ABssKrps](https://www.youtube.com/watch?v=1I-ABssKrps)
 ```
@@ -748,7 +760,7 @@ all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://w
 
      
  
-all -  [ LASR Labs (technical AIS research programme) applications open until Oct 27th ](https://www.reddit.com/r/ControlProblem/comments/1fw5k1d/lasr_labs_technical_ais_research_programme/) , 2024-10-21-0913
+all -  [ LASR Labs (technical AIS research programme) applications open until Oct 27th ](https://www.reddit.com/r/ControlProblem/comments/1fw5k1d/lasr_labs_technical_ais_research_programme/) , 2024-10-22-0913
 ```
 🚨**LASR Labs: Spring research programme in AI Safety** 🚨
 
@@ -790,7 +802,7 @@ We’re looking for candidates with \~2 years experience in relevant postgraduat
 
      
  
-all -  [ [D] Option to make NeurIPS rejected paper reviews public? ](https://www.reddit.com/r/MachineLearning/comments/1fvy0n4/d_option_to_make_neurips_rejected_paper_reviews/) , 2024-10-21-0913
+all -  [ [D] Option to make NeurIPS rejected paper reviews public? ](https://www.reddit.com/r/MachineLearning/comments/1fvy0n4/d_option_to_make_neurips_rejected_paper_reviews/) , 2024-10-22-0913
 ```
 The decision notification e-mail from NeurIPS mentioned that we would be offered the option to opt in to publicly releas
 ing reviews for a rejected paper and that instructions would follow in a few days.
@@ -805,7 +817,7 @@ t yet received any e-mail nor is there any author task to opt in. Since last yea
 
      
  
-all -  [ [R] Announcing the first series of Liquid Foundation Models (LFMs) – a new generation of generative  ](https://www.reddit.com/r/MachineLearning/comments/1fvgo7o/r_announcing_the_first_series_of_liquid/) , 2024-10-21-0913
+all -  [ [R] Announcing the first series of Liquid Foundation Models (LFMs) – a new generation of generative  ](https://www.reddit.com/r/MachineLearning/comments/1fvgo7o/r_announcing_the_first_series_of_liquid/) , 2024-10-22-0913
 ```
 https://www.liquid.ai/liquid-foundation-models
 
@@ -921,7 +933,7 @@ al networks [Wang et al. CoRL 2023], and the state-of-the-art dataset distillati
 
      
  
-all -  [ Bringing Learning to Rank to Reddit - LTR modeling ](https://www.reddit.com/r/RedditEng/comments/1ft1tkw/bringing_learning_to_rank_to_reddit_ltr_modeling/) , 2024-10-21-0913
+all -  [ Bringing Learning to Rank to Reddit - LTR modeling ](https://www.reddit.com/r/RedditEng/comments/1ft1tkw/bringing_learning_to_rank_to_reddit_ltr_modeling/) , 2024-10-22-0913
 ```
 *Written by Sahand Akbari.*
 
@@ -1150,7 +1162,7 @@ thing we aim to discuss in a future blog post. So stay tuned!
 
      
  
-all -  [ MSCS FALL'25 Profile evaluation ](https://www.reddit.com/r/MSCS/comments/1ft08a6/mscs_fall25_profile_evaluation/) , 2024-10-21-0913
+all -  [ MSCS FALL'25 Profile evaluation ](https://www.reddit.com/r/MSCS/comments/1ft08a6/mscs_fall25_profile_evaluation/) , 2024-10-22-0913
 ```
 # Country:
 
@@ -1199,7 +1211,7 @@ nisota
 
      
  
-all -  [ [D] Resources for staying updated on recent papers ](https://www.reddit.com/r/MachineLearning/comments/1fsx8q2/d_resources_for_staying_updated_on_recent_papers/) , 2024-10-21-0913
+all -  [ [D] Resources for staying updated on recent papers ](https://www.reddit.com/r/MachineLearning/comments/1fsx8q2/d_resources_for_staying_updated_on_recent_papers/) , 2024-10-22-0913
 ```
 Hello, I’m looking for time-saving ways to stay updated on the latest research papers from conferences like CVPR, ECCV, 
 NeurIPS, ICML, and journals like TPAMI. I know these conferences/journals publish cutting-edge work, but keeping track o
@@ -1222,7 +1234,7 @@ nce!
 
      
  
-all -  [ [R] optimizing transformers ](https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/) , 2024-10-21-0913
+all -  [ [R] optimizing transformers ](https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/) , 2024-10-22-0913
 ```
 Hello, I’m currently aiming to work on optimizing transformer models, specifically in multi-view images and/or cross-att
 ention networks. I've noticed that cross-attention layers add up a lot of parameters, which can slow down the training p
@@ -1248,7 +1260,7 @@ ce!
 
      
  
-all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-10-21-0913
+all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-10-22-0913
 ```
 We're excited to share that our paper on BricksRL, a library of RL algorithms that can be trained and deployed on afford
 able, custom LEGO robots, has been accepted at NeurIPS 2024 as a spotlight paper!
@@ -1292,7 +1304,7 @@ https://preview.redd.it/1ghfs9t9l0rd1.jpg?width=2006&format=pjpg&auto=webp&s=86
 
      
  
-all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-10-21-0913
+all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-10-22-0913
 ```
 My initial reviewers addressed some weaknesses & concerns, but these were resolved in my rebuttals. They acknowledged an
 d raised their score. 
@@ -1305,7 +1317,7 @@ ything I can do to fix this program chair review?
 
      
  
-all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-10-21-0913
+all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-10-22-0913
 ```
 Hey everyone! Just a heads up that the NeurIPS 2024 decisions notification is set for September 26, 2024, at 3:00 AM CES
 T. I thought it’d be cool to create a thread where we can talk about it.
@@ -1314,7 +1326,7 @@ T. I thought it’d be cool to create a thread where we can talk about it.
 
      
  
-all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-10-21-0913
+all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-10-22-0913
 ```
 My goal with graduate school is to set myself up to launch a company that produces a system of swarm robots that coopera
 te to efficiently assemble orbital infrastructure; I believe the space industry is in the process of taking off and such
@@ -1352,7 +1364,7 @@ s in particular, what do you think best aligns with my goals? Thank you for any 
 
      
  
-all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-10-21-0913
+all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-10-22-0913
 ```
 Azalia Mirhoseini (CS) and Amin Saberi (Math) are jointly seeking a Post-Doc to join the [Scaling Intelligence Lab](http
 s://scalingintelligence.stanford.edu/pubs/) at Stanford, which focuses on the development of 'scalable and self-improvin
@@ -1391,7 +1403,7 @@ bl7I/edit)
 
      
  
-all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-10-21-0913
+all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-10-22-0913
 ```
 Hi folks!
 
@@ -1418,211 +1430,6 @@ say, the Jane Street internship program, next year while I focus more on getting
 d I do something else with my life?
 
 Thanks for all the insight!
-```
----
-
-     
- 
-all -  [ Summaries Of Research Papers We Read ](https://www.reddit.com/r/deeplearning/comments/1fl4bzm/summaries_of_research_papers_we_read/) , 2024-10-21-0913
-```
-The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
-papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
-ise understanding of influential papers in fields such as computer vision, natural language processing, and machine lear
-ning. The collection is constantly growing, with new summaries added frequently. Here are a few notable examples:
-
-- **D
-reamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation**, CVPR'23  
-  [DreamBooth Summary](
-https://github.com/vlgiitr/papers_we_read/blob/master/summaries/DreamBooth.md)
-
-- **Segment Anything**, ICCV'23  
-  [Seg
-ment Anything Summary](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Segment_Anything.md)
-
-- **An Imag
-e is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion**, ICCV'23  
-  [Textual Inversion Su
-mmary](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Textual_inversion.md)
-
-- **Photorealistic Text-to
--Image Diffusion Models with Deep Language Understanding**, NIPS'22  
-  [Photorealistic Diffusion Summary](https://githu
-b.com/vlgiitr/papers_we_read/blob/master/summaries/imagen.md)
-
-- **An Image is Worth 16x16 Words: Transformers for Image
- Recognition at Scale**, ICLR'21  
-  [Vision Transformer Summary](https://github.com/vlgiitr/papers_we_read/blob/master/
-summaries/Vision_Transformer.md)
-
-- **Big Bird: Transformers for Longer Sequences**, NIPS'20  
-  [Big Bird Transformers 
-Summary](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Big_Bird_Transformers.md)
-
-The repository invit
-es contributions from the community. If you find the summaries helpful, you are encouraged to submit your own summaries 
-for research papers. The team aims to regularly update the collection with summaries of papers from upcoming conferences
- and key topics in deep learning and AI. 
-
-You can access the full repository and contribute here:  
-[Vision Language Gr
-oup Paper Summaries](https://github.com/vlgiitr/papers_we_read)
-
-By contributing, you'll help make advanced research mor
-e accessible to both beginners and experts in the field.
-```
----
-
-     
- 
-all -  [ [R] Some Research Papers We Read ](https://www.reddit.com/r/MachineLearning/comments/1fl4bi0/r_some_research_papers_we_read/) , 2024-10-21-0913
-```
-The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
-papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
-ise understanding of influential papers in fields such as computer vision, natural language processing, and machine lear
-ning. The collection is constantly growing, with new summaries added frequently. Here are a few notable examples:
-
-
-
-- \
-*\*DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation\*\*, CVPR'23  
-
-  \[DreamBooth S
-ummary\](https://github.com/vlgiitr/papers\_we\_read/blob/master/summaries/DreamBooth.md)
-
-
-
-- \*\*Segment Anything\*\*,
- ICCV'23  
-
-  \[Segment Anything Summary\](https://github.com/vlgiitr/papers\_we\_read/blob/master/summaries/Segment\_An
-ything.md)
-
-
-
-- \*\*An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion\*\*, ICCV
-'23  
-
-  \[Textual Inversion Summary\](https://github.com/vlgiitr/papers\_we\_read/blob/master/summaries/Textual\_invers
-ion.md)
-
-
-
-- \*\*Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding\*\*, NIPS'22  
-
-  \[Phot
-orealistic Diffusion Summary\](https://github.com/vlgiitr/papers\_we\_read/blob/master/summaries/imagen.md)
-
-
-
-- \*\*An 
-Image is Worth 16x16 Words: Transformers for Image Recognition at Scale\*\*, ICLR'21  
-
-  \[Vision Transformer Summary\]
-(https://github.com/vlgiitr/papers\_we\_read/blob/master/summaries/Vision\_Transformer.md)
-
-
-
-- \*\*Big Bird: Transforme
-rs for Longer Sequences\*\*, NIPS'20  
-
-  \[Big Bird Transformers Summary\](https://github.com/vlgiitr/papers\_we\_read/
-blob/master/summaries/Big\_Bird\_Transformers.md)
-
-
-
-The repository invites contributions from the community. If you fin
-d the summaries helpful, you are encouraged to submit your own summaries for research papers. The team aims to regularly
- update the collection with summaries of papers from upcoming conferences and key topics in deep learning and AI. 
-
-
-
-Yo
-u can access the full repository and contribute here:  
-
-\[Vision Language Group Paper Summaries\](https://github.com/vl
-giitr/papers\_we\_read)
-
-
-
-By contributing, you'll help make advanced research more accessible to both beginners and exp
-erts in the field.
-```
----
-
-     
- 
-all -  [ Summaries of some Research Papers we read! ](https://www.reddit.com/r/neuralnetworks/comments/1fl4al2/summaries_of_some_research_papers_we_read/) , 2024-10-21-0913
-```
-The Vision Language Group at IIT Roorkee has curated a repository of comprehensive summaries for deep learning research 
-papers from top-tier conferences like NeurIPS, CVPR, ICCV, ICML from 2016 to 2024. These summaries aim to provide a conc
-ise understanding of influential papers in fields such as computer vision, natural language processing, and machine lear
-ning. The collection is constantly growing, with new summaries added frequently. Here are a few notable examples:
-
-* **D
-reamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation**, CVPR'23 [DreamBooth Summary](http
-s://github.com/vlgiitr/papers_we_read/blob/master/summaries/DreamBooth.md)
-* **Segment Anything**, ICCV'23 [Segment Anyt
-hing Summary](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Segment_Anything.md)
-* **An Image is Worth
- One Word: Personalizing Text-to-Image Generation using Textual Inversion**, ICCV'23 [Textual Inversion Summary](https:/
-/github.com/vlgiitr/papers_we_read/blob/master/summaries/Textual_inversion.md)
-* **Photorealistic Text-to-Image Diffusio
-n Models with Deep Language Understanding**, NIPS'22 [Photorealistic Diffusion Summary](https://github.com/vlgiitr/paper
-s_we_read/blob/master/summaries/imagen.md)
-* **An Image is Worth 16x16 Words: Transformers for Image Recognition at Scal
-e**, ICLR'21 [Vision Transformer Summary](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Vision_Transfo
-rmer.md)
-* **Big Bird: Transformers for Longer Sequences**, NIPS'20 [Big Bird Transformers Summary](https://github.com/v
-lgiitr/papers_we_read/blob/master/summaries/Big_Bird_Transformers.md)
-
-The repository invites contributions from the com
-munity. If you find the summaries helpful, you are encouraged to submit your own summaries for research papers. The team
- aims to regularly update the collection with summaries of papers from upcoming conferences and key topics in deep learn
-ing and AI.
-
-You can access the full repository and contribute here:  
-[Vision Language Group Paper Summaries](https://g
-ithub.com/vlgiitr/papers_we_read)
-
-By contributing, you'll help make advanced research more accessible to both beginners
- and experts in the field.
-```
----
-
-     
- 
-all -  [ Comprehensive Summaries of Paper We Read ](https://www.reddit.com/r/u_vlg_iitr/comments/1fl48qg/comprehensive_summaries_of_paper_we_read/) , 2024-10-21-0913
-```
-**The Vision Language Group at IIT Roorkee** has put together an awesome repository of **comprehensive summaries** for d
-eep learning papers from top conferences like **NeurIPS, CVPR, ICCV, ICML (2016-2024)**. These summaries break down key 
-papers in computer vision, NLP, and machine learning—perfect if you want to stay updated without diving deep into the fu
-ll papers. Here are a few highlights:
-
-* **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Gen
-eration**, CVPR'23 👉 [Summary](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/DreamBooth.md)
-* **Segmen
-t Anything**, ICCV'23 👉 [Summary](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Segment_Anything.md)
-*
- **An Image is Worth One Word: Personalizing Text-to-Image Generation using Textual Inversion**, ICCV'23 👉 [Summary](htt
-ps://github.com/vlgiitr/papers_we_read/blob/master/summaries/Textual_inversion.md)
-* **Photorealistic Text-to-Image Diff
-usion Models with Deep Language Understanding**, NIPS'22 👉 [Summary](https://github.com/vlgiitr/papers_we_read/blob/mast
-er/summaries/imagen.md)
-* **An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale**, ICLR'21 👉 [Sum
-mary](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Vision_Transformer.md)
-* **Big Bird: Transformers 
-for Longer Sequences**, NIPS'20 👉 [Summary](https://github.com/vlgiitr/papers_we_read/blob/master/summaries/Big_Bird_Tra
-nsformers.md)
-
-If you find these summaries useful, feel free to contribute your own! The repo is constantly being update
-d with new papers from major conferences, so it's a great way to keep up with the latest in AI and deep learning.
-
-📂 **C
-heck out the full repo and contribute here**  
-[Vision Language Group Paper Summaries](https://github.com/vlgiitr/papers
-_we_read)
-
-Happy reading! 🎉
 ```
 ---
 
