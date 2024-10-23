@@ -1,5 +1,292 @@
  
-all -  [ Organização para estudos ](https://www.reddit.com/r/brdev/comments/1g92g6c/organização_para_estudos/) , 2024-10-22-0913
+all -  [ 🚀 Senior Machine Learning Engineer Opportunity! ](https://www.reddit.com/r/mlops/comments/1g9uykp/senior_machine_learning_engineer_opportunity/) , 2024-10-23-0912
+```
+We are seeking a seasoned **Senior Machine Learning Engineer** to join our innovative team and drive cutting-edge AI pro
+jects. If you have a passion for building scalable machine learning systems and want to work in a collaborative environm
+ent, this could be your next career move!
+
+**Required Hard Skills** 
+
+* **4+ years** of ML engineering experience
+* **Ba
+chelor’s degree** in Computer Science or related
+* Experience with **Python, ML libraries and AI/ML frameworks (PyTorch,
+ HuggingFace, TensorFlow, etc.)** 
+* Experience building **GenAI solutions using LLMs**, including frameworks like LangC
+hain and LlamaIndex, prompt engineering, fine-tuning and serving models, and implementing common patterns like RAG and N
+LQ 
+* **Client-facing experience**
+* **Familiarity with containerization and orchestration tools** 
+
+Link to the full jo
+b posting: [https://boards.greenhouse.io/lokainc/jobs/4067015007?gh\_src=ff064e7b7us](https://boards.greenhouse.io/lokai
+nc/jobs/4067015007?gh_src=ff064e7b7us)
+```
+---
+
+     
+ 
+all -  [ Coding a GeoGuessr Auto AI Bot with vision LLMs ](https://www.reddit.com/r/geoguessr/comments/1g9uw7x/coding_a_geoguessr_auto_ai_bot_with_vision_llms/) , 2024-10-23-0912
+```
+Video Tutorial: Coding a GeoGuessr AI Bot using LangChain and different Vision LLMs (GPT-4o, Claude 3.5, and Gemini 1.5)
+ [https://www.youtube.com/watch?v=OyDfr0xIhss](https://www.youtube.com/watch?v=OyDfr0xIhss)
+```
+---
+
+     
+ 
+all -  [ Chromadb ](https://www.reddit.com/r/vectordatabase/comments/1g9trrw/chromadb/) , 2024-10-23-0912
+```
+Having a verbal crash issue with chromadb under langchain. I am trying to put chunks to the db and it kills the kernel. 
+
+
+Any idea how this a constant? 
+
+Built all using .venv so there shouldn't be any package issues.
+
+
+
+```
+---
+
+     
+ 
+all -  [ Cv debutant junior en reconversion ](https://i.redd.it/is740ys26dwd1.jpeg) , 2024-10-23-0912
+```
+Bonjour les amis
+J’ai posté mon cv il y’a 3 jours et suite aux conseilles des membres j’ai l’ai modifié ..
+Vos avis svp 
+? Merci d’avance 
+
+```
+---
+
+     
+ 
+all -  [ Chromadb ](https://www.reddit.com/r/LangChain/comments/1g9qt3p/chromadb/) , 2024-10-23-0912
+```
+Chroma always kills the kernel when trying to load a set of chunks into the newest established database. I haven't found
+ a single work around. 
+```
+---
+
+     
+ 
+all -  [ [0 YoE] Struggling to Get Interview Callbacks for New Grad SWE Roles – Resume Feedback Needed ](https://www.reddit.com/r/EngineeringResumes/comments/1g9ojcr/0_yoe_struggling_to_get_interview_callbacks_for/) , 2024-10-23-0912
+```
+Hi everyone, I’m a recent grad (May 2024) currently looking for full-time, entry-level software engineering positions ac
+ross pretty much any industry. I’m based in the northeast but have been applying to both remote and in-person roles nati
+onwide. I’m  open to relocating.
+
+Despite submitting applications for a few months now, I’ve only received a handful of 
+OAs, which I’ve completed with perfect scores. However, I’ve been ghosted after this stage, and I guess the issue lies w
+ith my resume–> when it reaches the hiring manager(?).
+
+I’m looking for advice on improving the overall content quality 
+of my resume. Does it accurately reflect my skills and work experience? Is there something about the structure or syntax
+ that could be holding me back? Any feedback on how to make it stronger would be greatly appreciated, as I feel it’s the
+ main reason I’m not getting interview opportunities.
+
+There are no visa or citizenship complications in my search.
+
+htt
+ps://preview.redd.it/nhemkytyjcwd1.png?width=5100&format=png&auto=webp&s=c91b2d651943a73464c71890b1c3f136e097c37c
+
+
+
+Tha
+nks so much in advance for your help!
+```
+---
+
+     
+ 
+all -  [ Experiments with gpt-4o vision and architecture diagrams ](https://www.dsdev.in/experiments-with-gpt-4o-vision-and-architecture-diagrams) , 2024-10-23-0912
+```
+
+```
+---
+
+     
+ 
+all -  [ Ollama stopped code from running? ](https://www.reddit.com/r/ollama/comments/1g9gi9p/ollama_stopped_code_from_running/) , 2024-10-23-0912
+```
+I have the following code, it is supposed to load a pdf file, turn it into text chunks, embedding these chunks and store
+ them locally to the disk.
+
+`# Import time module to track execution time`
+
+`import time` 
+
+`# Import document loader an
+d text splitter`
+
+`from langchain.document_loaders import PyPDFLoader`
+
+`from langchain.text_splitter import RecursiveCh
+aracterTextSplitter`
+
+`# Import embedding model of Ollama`
+
+`from langchain.embeddings import OllamaEmbeddings`
+
+`# Impo
+rt Chromadb for vector storage`
+
+`from langchain.vectorstores.chroma import Chroma`
+
+
+
+`# Define a text splitter functio
+n along with splitting parameters`
+
+`text_splitter = RecursiveCharacterTextSplitter(chunk_size=500, chunk_overlap=100)`
+
+
+
+
+`# STEP 1: Load the PDF and split it into chunks of text`
+
+`start_time = time.time()  # Start the timer`
+
+`loader = P
+yPDFLoader('machinedesign-1-100.pdf')`
+
+`docs = loader.load_and_split(text_splitter)  # or use: docs = loader.load(); sp
+lits = text_splitter.split_documents(docs)`
+
+
+
+`# STEP 2: Create an embedding tool`
+
+`embeddings = OllamaEmbeddings(mode
+l='llama3.1')`
+
+
+
+`# STEP 3: Create embedding vectors and store them in the vector database`
+
+`start_embedding_time = ti
+me.time()  # Start the embedding timer`
+
+`spice_db_Ollama = Chroma.from_documents(`
+
+`docs,` 
+
+`embedding=embeddings,` 
+
+
+`persist_directory='MD_embeddings_Ollama'`
+
+`)`
+
+`embedding_time = time.time() - start_embedding_time`
+
+`# Import time 
+module to track execution time`
+
+
+
+`# Total time taken for the entire process`
+
+`total_time = time.time() - start_time`
+
+
+`print(f'Total time for the process: {total_time:.2f} seconds')`
+
+After successfully running the code, the embeddings a
+re stored locally. However, 
+
+`# Import time module to track execution time` and `print(f'Total time for the process: {t
+otal_time:.2f} seconds')` are not printed. This leads me to wonder, if my program is somehow terminated before the end, 
+and if the embeddings stored are complete. Could you please explain to me why this happens? I appreciate your help!
+```
+---
+
+     
+ 
+all -  [ Applied to many internships but couldn't convert them need a resume review  ](https://i.redd.it/sw1xu5goe9wd1.jpeg) , 2024-10-23-0912
+```
+I am Third year CSE student working primarily in ML(and its aggregates like DL and Gen AI) I have been applying for inte
+rnships since the last two months of my second year and am already at the mid point of my third year.
+Please review my r
+esume and let me know if I can make it better 
+```
+---
+
+     
+ 
+all -  [ Need help in RAG using LLAMA for invoice extraction ](https://www.reddit.com/r/Rag/comments/1g9cdpm/need_help_in_rag_using_llama_for_invoice/) , 2024-10-23-0912
+```
+I'm currently invested on a project, where I'm planning to use RAG for extracting invoice from the pdf ,images, and some
+ of the structured data, the process I'm using using right now is:
+
+
+
+->Extraction of data (using PyMuPDF, PaddleOCR, an
+d Extractors for structured data)
+
+
+
+->Place the content and Write a prompt to retrieve from vectordb, (Langchain and Ch
+romaDB is used)
+
+
+
+->Used LLama to use the data from vectordb, to get a meaningful json data,
+
+
+
+Problem is structure ke
+ep on changing, Need Help!!. (Tried using instructor not fruitful, Im new to GenAi and RAG)
+```
+---
+
+     
+ 
+all -  [ Building a community/network around AI Agents ](https://www.reddit.com/r/LangChain/comments/1g9ag3l/building_a_communitynetwork_around_ai_agents/) , 2024-10-23-0912
+```
+Hey ya'll, I'm currently building a curated community for AI Accelerators who believe that AI Agents will put more power
+ in the hands of individual creators and entrepreneurs.
+
+We're going to have
+
+- Constantly Updated News  
+- Learning Res
+ources  
+- Hackathons and Investment Resources (getting your ideas funded)  
+- AI Agent Marketplace (Trading post for AI
+ Agent buyers and sellers)  
+- Ongoing agent experiments that the community can get involved in  
+- and much more as we 
+grow
+
+Me and my partner truly believe that AI will soon enable people to start enterprise level businesses on their own.
+ Imagine you want to build a one-person software company run almost entirely by agents. We're not there yet but we're ge
+tting closer, and we want to build platforms to make it insanely easy to build and manage these projects using AI Agents
+.
+
+If you're excited for AI Agents and what they will help us create, consider joining! This community will be active wi
+thin the next week. 
+
+
+```
+---
+
+     
+ 
+all -  [ Shutting down a graph ](https://www.reddit.com/r/LangChain/comments/1g99yg2/shutting_down_a_graph/) , 2024-10-23-0912
+```
+I have an app that creates one graph for each campaign. Over a period of time, I expect to have 1000s of graphs to be cr
+eated.   
+Are there memory implications for this? Is there a proper way to shutdown graphs once their lifecycle is compl
+eted?
+```
+---
+
+     
+ 
+all -  [ Organização para estudos ](https://www.reddit.com/r/brdev/comments/1g92g6c/organização_para_estudos/) , 2024-10-23-0912
 ```
 Olá, espero que estejam todos bem. Minha dúvida é: como organizam seus estudos no geral?
 
@@ -18,7 +305,7 @@ anizam pra isso? Tem como fazer sem atrapalhar família, namoro, amigos, lazer e
 
      
  
-all -  [ Advice on scaling project with backend LLMs for servers with multiple models and making better decis ](https://www.reddit.com/r/LocalLLaMA/comments/1g91mik/advice_on_scaling_project_with_backend_llms_for/) , 2024-10-22-0913
+all -  [ Advice on scaling project with backend LLMs for servers with multiple models and making better decis ](https://www.reddit.com/r/LocalLLaMA/comments/1g91mik/advice_on_scaling_project_with_backend_llms_for/) , 2024-10-23-0912
 ```
 Hello,  
 I am a beginner working on an AI project for commercial use, and I’m currently stuck. I’ve been using three mod
@@ -70,7 +357,7 @@ ving the performance, especially in a production setting, would be appreciated a
 
      
  
-all -  [ langchain setup in vent ](https://www.reddit.com/r/LangChain/comments/1g8snq5/langchain_setup_in_vent/) , 2024-10-22-0913
+all -  [ langchain setup in vent ](https://www.reddit.com/r/LangChain/comments/1g8snq5/langchain_setup_in_vent/) , 2024-10-23-0912
 ```
 I have been used to setting up a venv for every python project and wondering if anyone has done the same with langchain 
 and any lLLM models like local llama  (free) AND OpenAI? 
@@ -82,7 +369,7 @@ on packages (e.g., langchain ) can be installed in venv (via pip install).
 
      
  
-all -  [ Efficient Web Crawling for Keeping Vector Databases Updated - Seeking Advice ](https://www.reddit.com/r/LangChain/comments/1g8scol/efficient_web_crawling_for_keeping_vector/) , 2024-10-22-0913
+all -  [ Efficient Web Crawling for Keeping Vector Databases Updated - Seeking Advice ](https://www.reddit.com/r/LangChain/comments/1g8scol/efficient_web_crawling_for_keeping_vector/) , 2024-10-23-0912
 ```
 Hey folks,  
   
@@ -147,7 +434,7 @@ We're open to any suggestions or insights from the community. Thanks in advance 
 
      
  
-all -  [ LangChain and LangGraph: My Take and Some Questions ](https://www.reddit.com/r/LangChain/comments/1g8qvz4/langchain_and_langgraph_my_take_and_some_questions/) , 2024-10-22-0913
+all -  [ LangChain and LangGraph: My Take and Some Questions ](https://www.reddit.com/r/LangChain/comments/1g8qvz4/langchain_and_langgraph_my_take_and_some_questions/) , 2024-10-23-0912
 ```
 Hey folks, been messing around with LangChain and LangGraph lately. Thought I'd share my thoughts and see if anyone can 
 help clear up some stuff.
@@ -184,16 +471,7 @@ e tools?
 
      
  
-all -  [ Nvidia’s Nemotron Beats GPT-4 and Claude-3!
- ](/r/AIQuality/comments/1g8q15h/nvidias_nemotron_beats_gpt4_and_claude3/) , 2024-10-22-0913
-```
-
-```
----
-
-     
- 
-all -  [ C8工卡被拒后，我躺平在庇护所，白天在GitHub上做开源（langchain, llama index...）+写论文投arxiv，晚上躺在床上玩游戏...我后半辈子都这么过了嘛？还是等到川普上台后 ](https://www.reddit.com/r/iwanttorun/comments/1g8ojqf/c8工卡被拒后我躺平在庇护所白天在github上做开源langchain_llama/) , 2024-10-22-0913
+all -  [ C8工卡被拒后，我躺平在庇护所，白天在GitHub上做开源（langchain, llama index...）+写论文投arxiv，晚上躺在床上玩游戏...我后半辈子都这么过了嘛？还是等到川普上台后 ](https://www.reddit.com/r/iwanttorun/comments/1g8ojqf/c8工卡被拒后我躺平在庇护所白天在github上做开源langchain_llama/) , 2024-10-23-0912
 ```
 远程给印度某大学远程授课
 ```
@@ -201,7 +479,7 @@ all -  [ C8工卡被拒后，我躺平在庇护所，白天在GitHub上做开源
 
      
  
-all -  [ Need help in Approach to Extracting and Chunking Tabular Data for RAG-Based Chatbot Retrieval ](https://www.reddit.com/r/LangChain/comments/1g8nshy/need_help_in_approach_to_extracting_and_chunking/) , 2024-10-22-0913
+all -  [ Need help in Approach to Extracting and Chunking Tabular Data for RAG-Based Chatbot Retrieval ](https://www.reddit.com/r/LangChain/comments/1g8nshy/need_help_in_approach_to_extracting_and_chunking/) , 2024-10-23-0912
 ```
 1.	I need to extract data from the tabular structures in the documents. What are the best available tools or packages fo
 r this task?
@@ -215,7 +493,7 @@ Any guidance would be greatly appreciated!
 
      
  
-all -  [ Am I a bad job candidate? ](https://www.reddit.com/r/jobs/comments/1g8msv0/am_i_a_bad_job_candidate/) , 2024-10-22-0913
+all -  [ Am I a bad job candidate? ](https://www.reddit.com/r/jobs/comments/1g8msv0/am_i_a_bad_job_candidate/) , 2024-10-23-0912
 ```
 Hello, dear reddit.
 
@@ -246,7 +524,7 @@ Thank you beforehand and bless to you if you have at least look at my post.
 
      
  
-all -  [ Sale My Ready MVP  ](https://www.reddit.com/r/saasforsale/comments/1g8lxde/sale_my_ready_mvp/) , 2024-10-22-0913
+all -  [ Sale My Ready MVP  ](https://www.reddit.com/r/saasforsale/comments/1g8lxde/sale_my_ready_mvp/) , 2024-10-23-0912
 ```
 \*\*Dear Redditors,\*\*
 
@@ -335,7 +613,7 @@ Thank you for your interest!
 
      
  
-all -  [ I need your help on LangGraph ](https://www.reddit.com/r/LangChain/comments/1g8jzik/i_need_your_help_on_langgraph/) , 2024-10-22-0913
+all -  [ I need your help on LangGraph ](https://www.reddit.com/r/LangChain/comments/1g8jzik/i_need_your_help_on_langgraph/) , 2024-10-23-0912
 ```
 Hey everyone, I have been developing an agent-based customer chatbot on LangGraph. And I need to add input and output gu
 ardrail into the project. Actually I got the logic behind the LangGraph. But I wasn't be able to access the last message
@@ -359,7 +637,7 @@ review.redd.it/6ibyh06u72wd1.png?width=551&format=png&auto=webp&s=a601230dd7ba96
 
      
  
-all -  [ I’m working on an AI project and i faced some issues ](https://www.reddit.com/r/generativeAI/comments/1g8j4hg/im_working_on_an_ai_project_and_i_faced_some/) , 2024-10-22-0913
+all -  [ I’m working on an AI project and i faced some issues ](https://www.reddit.com/r/generativeAI/comments/1g8j4hg/im_working_on_an_ai_project_and_i_faced_some/) , 2024-10-23-0912
 ```
 I’m working on an AI project
 
@@ -385,7 +663,7 @@ Thanks in advacnce
 
      
  
-all -  [ Open Source AI Chatbot UI template for Developers  ](https://www.reddit.com/r/developersIndia/comments/1g8fw4u/open_source_ai_chatbot_ui_template_for_developers/) , 2024-10-22-0913
+all -  [ Open Source AI Chatbot UI template for Developers  ](https://www.reddit.com/r/developersIndia/comments/1g8fw4u/open_source_ai_chatbot_ui_template_for_developers/) , 2024-10-23-0912
 ```
 Dear Developers,
 
@@ -475,7 +753,7 @@ t UI.  Reach out if you would like to collaborate
 
      
  
-all -  [ Whats the best approach to build LLM apps? Pros and cons of each ](https://www.reddit.com/r/LLMDevs/comments/1g8fnkd/whats_the_best_approach_to_build_llm_apps_pros/) , 2024-10-22-0913
+all -  [ Whats the best approach to build LLM apps? Pros and cons of each ](https://www.reddit.com/r/LLMDevs/comments/1g8fnkd/whats_the_best_approach_to_build_llm_apps_pros/) , 2024-10-23-0912
 ```
 With so many tools available for building LLM apps (apps built on top of LLMs), what's the best approach to quickly go f
 rom 0 to 1 while maintaining a production-ready app that allows for iteration?
@@ -504,7 +782,7 @@ tools people prefer)*
 
      
  
-all -  [ Setting up  OPENAI account to practice Langxhain ](https://www.reddit.com/r/LangChain/comments/1g8fj8r/setting_up_openai_account_to_practice_langxhain/) , 2024-10-22-0913
+all -  [ Setting up  OPENAI account to practice Langxhain ](https://www.reddit.com/r/LangChain/comments/1g8fj8r/setting_up_openai_account_to_practice_langxhain/) , 2024-10-23-0912
 ```
 I am looking to start practicing langchain using OpenAI but would like to hear from you “how much” should I buy and idoe
 s OPENAI still offer free credits for new accounts ?  
@@ -513,7 +791,7 @@ s OPENAI still offer free credits for new accounts ?
 
      
  
-all -  [ Why doesn't OpenAI use any chatbots on its site? ](https://www.reddit.com/r/ChatGPT/comments/1g8cd7u/why_doesnt_openai_use_any_chatbots_on_its_site/) , 2024-10-22-0913
+all -  [ Why doesn't OpenAI use any chatbots on its site? ](https://www.reddit.com/r/ChatGPT/comments/1g8cd7u/why_doesnt_openai_use_any_chatbots_on_its_site/) , 2024-10-23-0912
 ```
 It always seems odd to me that OpenAI doesn't use any chatbots on its site.  Do they not believe in their own product?
 
@@ -526,7 +804,7 @@ ney where their mouth is.  Why not OpenAI?
 
      
  
-all -  [ Need help in deploying a RAG model as Sage Maker Model ](https://www.reddit.com/r/aws/comments/1g83g12/need_help_in_deploying_a_rag_model_as_sage_maker/) , 2024-10-22-0913
+all -  [ Need help in deploying a RAG model as Sage Maker Model ](https://www.reddit.com/r/aws/comments/1g83g12/need_help_in_deploying_a_rag_model_as_sage_maker/) , 2024-10-23-0912
 ```
     Failed Reason:  The primary container for production variant AllTraffic did not pass the ping health check.
     
@@ -702,7 +980,7 @@ once when the endpoint starts)
 
      
  
-all -  [ CV pour reconversion en IA  ](https://i.redd.it/7a0g4sxt2xvd1.jpeg) , 2024-10-22-0913
+all -  [ CV pour reconversion en IA  ](https://i.redd.it/7a0g4sxt2xvd1.jpeg) , 2024-10-23-0912
 ```
 Hello les amis !
 Vous pensez quoi de mon CV
@@ -715,7 +993,7 @@ Merci infiniment pour vos remarques et votre aide !
 
      
  
-all -  [ Neo4j retriever result filter (hybrid search)  ](https://www.reddit.com/r/Langchaindev/comments/1g7tcl3/neo4j_retriever_result_filter_hybrid_search/) , 2024-10-22-0913
+all -  [ Neo4j retriever result filter (hybrid search)  ](https://www.reddit.com/r/Langchaindev/comments/1g7tcl3/neo4j_retriever_result_filter_hybrid_search/) , 2024-10-23-0912
 ```
 I implemented this approach ( https://neo4j.com/developer-blog/rag-graph-retrieval-query-langchain/ ) and have been havi
 ng good results using the hybrid search type.
@@ -739,7 +1017,7 @@ Thank you!
 
      
  
-all -  [ Neo4j retriever result filter (hybrid search)  ](https://www.reddit.com/r/Neo4j/comments/1g7t7xy/neo4j_retriever_result_filter_hybrid_search/) , 2024-10-22-0913
+all -  [ Neo4j retriever result filter (hybrid search)  ](https://www.reddit.com/r/Neo4j/comments/1g7t7xy/neo4j_retriever_result_filter_hybrid_search/) , 2024-10-23-0912
 ```
 
 I implemented this approach ( https://neo4j.com/developer-blog/rag-graph-retrieval-query-langchain/ ) and have been hav
@@ -764,7 +1042,7 @@ Thank you!
 
      
  
-all -  [ What is your biggest gripe with LangChain and/or LangGraph today? ](https://www.reddit.com/r/LangChain/comments/1g7sii6/what_is_your_biggest_gripe_with_langchain_andor/) , 2024-10-22-0913
+all -  [ What is your biggest gripe with LangChain and/or LangGraph today? ](https://www.reddit.com/r/LangChain/comments/1g7sii6/what_is_your_biggest_gripe_with_langchain_andor/) , 2024-10-23-0912
 ```
 Hey y'all, just comparing frameworks and I want to hear some negatives/gripes/reasons not to use LangChain or LangGraph
 ```
@@ -772,7 +1050,7 @@ Hey y'all, just comparing frameworks and I want to hear some negatives/gripes/re
 
      
  
-all -  [ Capstone Project Journal Article Guidance: Questions and Clarifications ](https://www.reddit.com/r/LangChain/comments/1g7qf65/capstone_project_journal_article_guidance/) , 2024-10-22-0913
+all -  [ Capstone Project Journal Article Guidance: Questions and Clarifications ](https://www.reddit.com/r/LangChain/comments/1g7qf65/capstone_project_journal_article_guidance/) , 2024-10-23-0912
 ```
 I am working on my capstone project, where I developed a contract summarizer and a QA bot using the Llama 3 model and a 
 Retrieval-Augmented Generation (RAG) system. My dataset consists of contracts from 12 categories (e.g., shipping agreeme
@@ -796,7 +1074,7 @@ end other datasets that include ground truth for tasks like mine, or provide adv
 
      
  
-all -  [ Why is my hugging face llama 3.2-1B just giving me repetitive question when used in RAG? ](https://www.reddit.com/r/LLMDevs/comments/1g7misi/why_is_my_hugging_face_llama_321b_just_giving_me/) , 2024-10-22-0913
+all -  [ Why is my hugging face llama 3.2-1B just giving me repetitive question when used in RAG? ](https://www.reddit.com/r/LLMDevs/comments/1g7misi/why_is_my_hugging_face_llama_321b_just_giving_me/) , 2024-10-23-0912
 ```
 I just want to know if my approach is correct. I have done enough research but my model keeps giving me whatever questio
 n i have asked as answer. Here are the steps i followed:
@@ -829,7 +1107,7 @@ n advance.
 
      
  
-all -  [ Why is my hugging face llama 3.2-1B just giving me repetitive question when used in RAG? ](https://www.reddit.com/r/Rag/comments/1g7mh38/why_is_my_hugging_face_llama_321b_just_giving_me/) , 2024-10-22-0913
+all -  [ Why is my hugging face llama 3.2-1B just giving me repetitive question when used in RAG? ](https://www.reddit.com/r/Rag/comments/1g7mh38/why_is_my_hugging_face_llama_321b_just_giving_me/) , 2024-10-23-0912
 ```
 
 I just want to know if my approach is correct. I have done enough research but my model keeps giving me whatever questi
@@ -863,7 +1141,7 @@ in advance.
 
      
  
-all -  [ Convo-UI: an all-in-one chatbot UI template ](https://www.reddit.com/r/software/comments/1g7m7fg/convoui_an_allinone_chatbot_ui_template/) , 2024-10-22-0913
+all -  [ Convo-UI: an all-in-one chatbot UI template ](https://www.reddit.com/r/software/comments/1g7m7fg/convoui_an_allinone_chatbot_ui_template/) , 2024-10-23-0912
 ```
 Dear Developers,
 
@@ -948,7 +1226,7 @@ Do let
 
      
  
-all -  [ Best way to get started in implementing a PoC for an AI agent with semantic understanding? ](https://www.reddit.com/r/LangChain/comments/1g7lk65/best_way_to_get_started_in_implementing_a_poc_for/) , 2024-10-22-0913
+all -  [ Best way to get started in implementing a PoC for an AI agent with semantic understanding? ](https://www.reddit.com/r/LangChain/comments/1g7lk65/best_way_to_get_started_in_implementing_a_poc_for/) , 2024-10-23-0912
 ```
 I have a background in time-series analysis and I work for a small company (read: startup) that works on GenAI. As part 
 of that, my manager has asked me to produce ASAP a proof-of-concept implementation of an AI agent on large document reco
@@ -967,7 +1245,7 @@ an AI agent that performs semantic understanding for the client to use. I'm goin
 
      
  
-all -  [ Connecting to Llama 3.2 with Azure ML endpoint  ](https://www.reddit.com/r/LangChain/comments/1g7jo40/connecting_to_llama_32_with_azure_ml_endpoint/) , 2024-10-22-0913
+all -  [ Connecting to Llama 3.2 with Azure ML endpoint  ](https://www.reddit.com/r/LangChain/comments/1g7jo40/connecting_to_llama_32_with_azure_ml_endpoint/) , 2024-10-23-0912
 ```
 
 Anyone know why am I getting the following error on this . The endpoint is dedicated and deployed via Azure AI studio 
@@ -1264,7 +1542,7 @@ type?
 
      
  
-all -  [ What mistake am I making in this ChatPromptTemplate? ](https://www.reddit.com/r/LangChain/comments/1g7g4zd/what_mistake_am_i_making_in_this/) , 2024-10-22-0913
+all -  [ What mistake am I making in this ChatPromptTemplate? ](https://www.reddit.com/r/LangChain/comments/1g7g4zd/what_mistake_am_i_making_in_this/) , 2024-10-23-0912
 ```
 Hi all, here is my code:
 
@@ -1327,337 +1605,7 @@ is appreciated!
 
      
  
-all -  [ Does Langchain not work on Windows 10 with LlamaCPP? ](https://www.reddit.com/r/LangChain/comments/1g7fejd/does_langchain_not_work_on_windows_10_with/) , 2024-10-22-0913
-```
-I've tried the following code on two separate machines and it does not seem to run. However, If I load the model directl
-y into ```node-llama-cpp```(which langchainjs depends on) it works fine. I'm thinking something is fundamentally broken 
-within Langchain for Javascript.
-
-
-```
-import { LlamaCpp } from '@langchain/community/llms/llama_cpp';
-import fs from 'f
-s';
-
-let llamaPath = '../project/data/llm-models/Hermes-2-Pro-Llama-3-8B-Q4_K_M.gguf'
-
-const question = 'Where do Llamas
- come from?';
-
-
-if (fs.existsSync(llamaPath)) {
-  console.log(`Model found at ${llamaPath}`);
-
-  const model = new Llama
-Cpp({ modelPath: llamaPath});
-
-  console.log(`You: ${question}`);
-  const response = await model.invoke(question);
-  con
-sole.log(`AI : ${response}`);
-} else {
-  console.error(`Model not found at ${llamaPath}`);
-}
-```
-
-Error:
-```
-TypeError: 
-Cannot destructure property '_llama' of 'undefined' as it is undefined.
-    at new LlamaModel (file:///C:/Users/User/Pro
-ject/langchain-test/node_modules/node-llama-cpp/dist/evaluator/LlamaModel/LlamaModel.js:42:144)
-    at createLlamaModel 
-(file:///C:/Users/User/Project/langchain-test/node_modules/@langchain/community/dist/utils/llama_cpp.js:13:12)
-    at ne
-w LlamaCpp (file:///C:/Users/User/Project/langchain-test/node_modules/@langchain/community/dist/llms/llama_cpp.js:87:23)
-
-    at file:///C:/Users/User/Project/langchain-test/src/server.js:15:17
-```
-```
----
-
-     
- 
-all -  [ Github wrapper ](https://www.reddit.com/r/LangChain/comments/1g7dfrj/github_wrapper/) , 2024-10-22-0913
-```
-Did anyone of you managed to create an application to answer issues and create pull requests with Langchain ? 
-It is qui
-te complicated task. 
-```
----
-
-     
- 
-all -  [ any fixes for streaming responses ](https://www.reddit.com/r/LangChain/comments/1g7be5t/any_fixes_for_streaming_responses/) , 2024-10-22-0913
-```
-[Output](https://preview.redd.it/xfm8ikyfeqvd1.png?width=459&format=png&auto=webp&s=c5a85c9ff06237044337a717fafd4b15824c
-52e2)
-
-    def serialize_aimessagechunk(chunk):
-        if isinstance(chunk, AIMessageChunk):
-            return chunk.c
-ontent
-        else:
-            raise TypeError(
-                f'Object of type {type(chunk).__name__} is not correct
-ly formatted for serialization'
-            )
-    
-    async def send_message(chain, message: Message):
-        async fo
-r event in chain.astream_events({'input':message.question}, config={'configurable':{'session_id': message.conversation_i
-d}}, version='v1'):
-            if event['event'] == 'on_chat_model_stream':
-                chunk_content = serialize_a
-imessagechunk(event['data']['chunk'])
-                yield f'data: {chunk_content}\n\n'
-    
-
-this is how i am streamin
-g responses to the frontend, however as you see in the image there are some blank spaces between the words. how to fix t
-his
-```
----
-
-     
- 
-all -  [ Llamaindex ToolInteractiveReflectionAgentWorker not doing corrective reflection ](https://www.reddit.com/r/LangChain/comments/1g76b03/llamaindex_toolinteractivereflectionagentworker/) , 2024-10-22-0913
-```
-Hello. 
-
-I tried exactly the code here line by line but with a different contents of the tool (shouldn't matter): 
-
-http
-s://docs.llamaindex.ai/en/stable/examples/agent/introspective_agent_toxicity_reduction/
-
-https://www.youtube.com/watch?v
-=OLj5MFNHP0Q 
-
-with main_agent_worker, because it being None crashes it:
-
-     File '/home/burny/.local/lib/python3.11/s
-ite-packages/llama_index/agent/introspective/step.py', line 149, in run_step
-        reflective_agent_response = reflect
-ive_agent.chat(original_response)
-                                                          ^^^^^^^^^^^^^^^^^
-    Unboun
-dLocalError: cannot access local variable 'original_response' where it is not associated with a value
-
-But on one device
- I see no LLM critic responces in terminal, and on other device with the same exact code I see:
-
-    === LLM Response ==
-=
-    Hello! How can I assist you today?
-    Critique: Hello! How can I assist you today?
-    Correction: HTTP traffic c
-onsisting solely of POST requests is considered suspicious for several reasons:
-
-
-with no correction actually happening 
-in the two agent communication.
-
-I tried downgrading to llamaindex version at the time of when that example was written,
- but I get same behavior
-
-    pip install --upgrade --force-reinstall \
-    llama-index-agent-introspective==0.1.0 \
-   
- llama-index-llms-openai==0.1.19 \
-    llama-index-agent-openai==0.2.5 \
-    llama-index-core==0.10.37
-```
----
-
-     
- 
-all -  [ Confusion getting Langchain to work on Nodejs ](https://www.reddit.com/r/LangChain/comments/1g767kw/confusion_getting_langchain_to_work_on_nodejs/) , 2024-10-22-0913
-```
-I've been trying to get Langchain to work using this code:
-
-        import { LlamaCpp } from '@langchain/community/llms/
-llama_cpp';
-        import fs from 'fs';
-        
-        let llamaPath = '../project/data/llm-models/Hermes-2-Pro-Llama
--3-8B-Q4_K_M.gguf'
-        
-        const question = 'Where do Llamas come from?';
-        
-        
-        if (fs.exis
-tsSync(llamaPath)) {
-          console.log(`Model found at ${llamaPath}`);
-        
-          const model = new LlamaCpp
-({ modelPath: llamaPath});
-        
-          console.log(`You: ${question}`);
-          const response = await model.in
-voke(question);
-          console.log(`AI : ${response}`);
-        } else {
-          console.error(`Model not found at 
-${llamaPath}`);
-        }
-
-I can load in the model fine with node-llama-cpp, however, when I load in the code with Langc
-hain it gives me an error. I thought Langchain was using node-llama-cpp under the hood.
-
-    TypeError: Cannot destructu
-re property '_llama' of 'undefined' as it is undefined.
-        at new LlamaModel (file:///C:/Users/User/Project/langcha
-in-test/node_modules/node-llama-cpp/dist/evaluator/LlamaModel/LlamaModel.js:42:144)
-        at createLlamaModel (file://
-/C:/Users/User/Project/langchain-test/node_modules/@langchain/community/dist/utils/llama_cpp.js:13:12)
-        at new Ll
-amaCpp (file:///C:/Users/User/Project/langchain-test/node_modules/@langchain/community/dist/llms/llama_cpp.js:87:23)
-   
-     at file:///C:/Users/User/Project/langchain-test/src/server.js:15:17
-
-Does it need to be in bin format? Anyone have 
-a clue why this isn't working?
-```
----
-
-     
- 
-all -  [ How to Build an Agentic App with Local Vectorstore and SQL Agents using LangGraph ](https://www.reddit.com/r/LangChain/comments/1g74s4x/how_to_build_an_agentic_app_with_local/) , 2024-10-22-0913
-```
-Hey everyone!
-
-
-
-I'm working on an agentic app where:
-
-
-
-- Queries related to table data should be handled by a SQL agen
-t.
-
-- For other queries, it should switch to a normal RAG (Retrieval-Augmented Generation) using a local vectorstore.
-
-
-
-
-I'm using the LangGraph framework to create conditional edges, allowing dynamic routing based on user query types. Anyo
-ne have tips on structuring the conditions and integrating both vectorstores and SQL agents seamlessly?
-
-
-
-Any other met
-hods are appreciated!
-```
----
-
-     
- 
-all -  [ Best resources to learn langchain and build ai projects ](https://www.reddit.com/r/LangChain/comments/1g731mc/best_resources_to_learn_langchain_and_build_ai/) , 2024-10-22-0913
-```
-post fav resources
-```
----
-
-     
- 
-all -  [ LangChain with Azure Deployments ](https://www.reddit.com/r/LangChain/comments/1g6s8cw/langchain_with_azure_deployments/) , 2024-10-22-0913
-```
-Hello,
-
-I am working with a custom OpenAI deployment in Azure. I am able to connect with openAI libraries and retrieve d
-ata properly, but when trying with langchain, response generated are mostly gibberish.
-
-for example:  
-a simple hello wo
-rld, is printing all this:
-```
-llm.invoke('hello world!')
-
-' this is a test';\\nconsole.log(s);\\nvar l = s.split(' ');\
-\nconsole.log(l);\\n\`\`\`\\n#### 2. 代码测试\\n\\n直接在控制台运行即可，结果如下：\\n\\n!\[数组\](http://upload-images.jianshu.io/upload\_ima
-ge
-
-s/3251204-125c38a8b85b9f5a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)\\n\\n#### 3. 遇到的问题\\n\\n1. 空格写成中文
-空格\\n2. \`split()\`方法名称错误写成\`split\`，导致报错\\n3. 未输出结果\\
-
-n\\n## 实验三：条件语句\\n\\n#### 1. 代码：\\n\\n\`\`\`javascript\\nvar a =
- 37;\\nif (a>18){\\n    console.log('Yes');\\n} else {\\n    console.log('No');\\n}\\n\`\`\`\\n#### 2. 代码测试\\n\\n直接在控制台运
-行即
-
-可，结果如下：\\n\\n!\[条件语句\](http://upload-images.jianshu.io/upload\_images/3251204-9ddc083fca8ff6a4'
-```
-
-Anyway to resol
-ve this?
-```
----
-
-     
- 
-all -  [ Business Advice ](https://www.reddit.com/r/startups/comments/1g6qn84/business_advice/) , 2024-10-22-0913
-```
-Hello Community,
-I am looking to build out micro-saas out of RAG by combining both Software Engineering and AI principle
-s. I have actually build out the version 1 of backend, with following features.
-
-Features:
-- SSO login
-- Permission base
-d access control on data and quering
-- Support for multiple data connectors like drive, dropbox, confluence, s3, gcp, et
-c
-- Incremental indexing
-- Plug and play components for different parsers, dataloaders, retrievers, query mechanisms, et
-c
-- Single Gateway for your open and closed source models, embeddings, rerankers with rate limiting and token limiting.
-
-- Audit Trails
-- Open Telemetry for prompt logging, llm cost, vector db performance and gpu metrics
-
-More features comin
-g soon…
-
-Most importantly everything is built asynchronous, without heavy libraries like langchain or llamaindex. I am l
-ooking for community feedback to understand will these features be good for any business? If at all, is anyone intereste
-d to collaborate either in help secure funding, frontend work, help me get connected with other folks, etc? 
-Thank you!
-```
----
-
-     
- 
-all -  [ stuck on this? why is it generating a uuid ](https://www.reddit.com/r/LangChain/comments/1g6mfvv/stuck_on_this_why_is_it_generating_a_uuid/) , 2024-10-22-0913
-```
-    supabase: Client = create_client(supabase_key='', 
-                                     supabase_url='')
-    embeddi
-ngs = OpenAIEmbeddings()
-    
-    documents = [
-            Document(page_content='hello', metadata={'source': 1,'id':1}
-)
-        ]
-    vector_store = SupabaseVectorStore.from_documents(
-        documents,
-        embeddings,
-        client
-=supabase,
-        ids=[],
-        table_name='documents', 
-        query_name='match_documents',
-        chunk_size=500
-,
-    )   
-    
-
-receiving this error : postgrest.exceptions.APIError: {'code': '22P02', 'details': None, 'hint': None, 
-'message': 'invalid input syntax for type bigint: 'b5f7a5e3-20ae-4849-ad72-05187fe1ac4d''}
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-22-0913
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-23-0912
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -1686,7 +1634,7 @@ I'm sure some teams already have good systems for this, would appreciate pointer
 
      
  
-MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-22-0913
+MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-23-0912
 ```
 GitHub repo : [https://github.com/shaRk-033/web-agent](https://github.com/shaRk-033/web-agent)
 
