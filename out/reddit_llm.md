@@ -1,5 +1,495 @@
  
-all -  [ 🚀 Senior Machine Learning Engineer Opportunity! ](https://www.reddit.com/r/mlops/comments/1g9uykp/senior_machine_learning_engineer_opportunity/) , 2024-10-23-0912
+all -  [ Resume Review Request for Data Analyst Position ](https://www.reddit.com/r/Resume/comments/1gakxrp/resume_review_request_for_data_analyst_position/) , 2024-10-24-0913
+```
+Hey everyone,
+
+I recently started applying for jobs and want to make sure my resume is up to the mark. I’m not entirely 
+sure if it effectively highlights my skills and experiences or if it’s aligned with what recruiters are looking for. Cou
+ld I get some feedback or advice on improving it? Any tips or suggestions would be super helpful!
+
+Thanks in advance!
+
+h
+ttps://preview.redd.it/actn0y45jkwd1.png?width=956&format=png&auto=webp&s=7901adf906591f788e15b3c6ddd47003414056b7
+
+
+```
+---
+
+     
+ 
+all -  [ Forget LangChain, CrewAI and AutoGen — Try This Framework and Never Look Back ](https://medium.com/generative-ai/forget-langchain-crewai-and-autogen-try-this-framework-and-never-look-back-e34e0b6c8068?sk=0e77bf707397ceb535981caab732f885) , 2024-10-24-0913
+```
+
+```
+---
+
+     
+ 
+all -  [ AutoGen v0.2.37 released ](https://www.reddit.com/r/AutoGenAI/comments/1gah8nn/autogen_v0237_released/) , 2024-10-24-0913
+```
+[New release: v0.2.37](https://github.com/microsoft/autogen/releases/tag/v0.2.37)
+
+# What's Changed
+
+* Use trusted publi
+sher for pypi release by [@jackgerrits](https://github.com/jackgerrits) in [\#3596](https://github.com/microsoft/autogen
+/pull/3596)
+* Fix typos in Cerebras doc by [@henrytwo](https://github.com/henrytwo) in [\#3590](https://github.com/micro
+soft/autogen/pull/3590)
+* Add blog post announcing the new architecture preview by [@jackgerrits](https://github.com/jac
+kgerrits) in [\#3599](https://github.com/microsoft/autogen/pull/3599)
+* Update PR link in blog post by [@jackgerrits](ht
+tps://github.com/jackgerrits) in [\#3602](https://github.com/microsoft/autogen/pull/3602)
+* Create CI to tag issues with
+ needs triage by [@jackgerrits](https://github.com/jackgerrits) in [\#3605](https://github.com/microsoft/autogen/pull/36
+05)
+* Update issue templates by [@jackgerrits](https://github.com/jackgerrits) in [\#3610](https://github.com/microsoft/
+autogen/pull/3610)
+* Fix small typo in the docs by [@jknaudt21](https://github.com/jknaudt21) in [\#3650](https://github
+.com/microsoft/autogen/pull/3650)
+* Update 0.2 CI to target branch, remove merge queue by [@jackgerrits](https://github.
+com/jackgerrits) in [\#3656](https://github.com/microsoft/autogen/pull/3656)
+* Update BaseUrl of docusaurus site by [@ja
+ckgerrits](https://github.com/jackgerrits) in [\#3658](https://github.com/microsoft/autogen/pull/3658)
+* Add announcemen
+t bar for 0.4 by [@jackgerrits](https://github.com/jackgerrits) in [\#3717](https://github.com/microsoft/autogen/pull/37
+17)
+* Update links on 0.2 website by [@jackgerrits](https://github.com/jackgerrits) in [\#3734](https://github.com/micro
+soft/autogen/pull/3734)
+* Function Calling Support for Gemini - Part 2 by [@luxzoli](https://github.com/luxzoli) in [\#3
+726](https://github.com/microsoft/autogen/pull/3726)
+* Fix [\#2643](https://github.com/microsoft/autogen/issues/2643) \-
+ groupchat model registration by [@Matteo-Frattaroli](https://github.com/Matteo-Frattaroli) in [\#2696](https://github.c
+om/microsoft/autogen/pull/2696)
+* Added a demonstartion notebook featuring the usage of Langchain with AutoGen by [@Kiru
+shikesh](https://github.com/Kirushikesh) in [\#3461](https://github.com/microsoft/autogen/pull/3461)
+* Autobuild Functio
+n calling by [@krishnashed](https://github.com/krishnashed) in [\#3238](https://github.com/microsoft/autogen/pull/3238)
+
+* Update Docs to Point to 0.4 by [@victordibia](https://github.com/victordibia) in [\#3764](https://github.com/microsoft
+/autogen/pull/3764)
+* Notebook on web crawling by [@WilliamEspegren](https://github.com/WilliamEspegren) in [\#2720](htt
+ps://github.com/microsoft/autogen/pull/2720)
+* Fix link to v0.4 documentation by [@ekzhu](https://github.com/ekzhu) in [
+\#3772](https://github.com/microsoft/autogen/pull/3772)
+* Remove path filter for website testing in 0.2 by [@jackgerrits
+](https://github.com/jackgerrits) in [\#3782](https://github.com/microsoft/autogen/pull/3782)
+* Fix broken image URL in 
+README by [@gagb](https://github.com/gagb) in [\#3776](https://github.com/microsoft/autogen/pull/3776)
+* Clarify stable 
+package name and version on home page by [@jackgerrits](https://github.com/jackgerrits) in [\#3775](https://github.com/m
+icrosoft/autogen/pull/3775)
+* Fix CTA button alignment in docs home page by [@victordibia](https://github.com/victordibi
+a) in [\#3788](https://github.com/microsoft/autogen/pull/3788)
+* K8s code executor by [@questcollector](https://github.c
+om/questcollector) in [\#3419](https://github.com/microsoft/autogen/pull/3419)
+* Add Couchbase Vector DB Example Noteboo
+k and Minor Bug Fix by [@lokesh-couchbase](https://github.com/lokesh-couchbase) in [\#3804](https://github.com/microsoft
+/autogen/pull/3804)
+* Add Zep ecosystem doc and notebook by [@danielchalef](https://github.com/danielchalef) in [\#3681]
+(https://github.com/microsoft/autogen/pull/3681)
+* \[bug\] Changes Text Cache Default to None by [@WaelKarkoub](https://
+github.com/WaelKarkoub) in [\#3872](https://github.com/microsoft/autogen/pull/3872)
+* \[bug\] Validates If The Role Tool
+ is Handled Correctly after Transforms by [@WaelKarkoub](https://github.com/WaelKarkoub) in [\#3875](https://github.com/
+microsoft/autogen/pull/3875)
+* \[CAP\] Abstraction of actor\_connector to go along with runtime factory and runtime abst
+raction by [@rajan-chari](https://github.com/rajan-chari) in [\#3296](https://github.com/microsoft/autogen/pull/3296)
+
+#
+ New Contributors
+
+* [@jknaudt21](https://github.com/jknaudt21) made their first contribution in [\#3650](https://github
+.com/microsoft/autogen/pull/3650)
+* [@Matteo-Frattaroli](https://github.com/Matteo-Frattaroli) made their first contribu
+tion in [\#2696](https://github.com/microsoft/autogen/pull/2696)
+* [@WilliamEspegren](https://github.com/WilliamEspegren
+) made their first contribution in [\#2720](https://github.com/microsoft/autogen/pull/2720)
+* [@questcollector](https://
+github.com/questcollector) made their first contribution in [\#3419](https://github.com/microsoft/autogen/pull/3419)
+* [
+@danielchalef](https://github.com/danielchalef) made their first contribution in [\#3681](https://github.com/microsoft/a
+utogen/pull/3681)
+
+**Full Changelog**: [v0.2.36...v0.2.37](https://github.com/microsoft/autogen/compare/v0.2.36...v0.2.3
+7)
+```
+---
+
+     
+ 
+all -  [ Best Approach to Building a Chatbot with Twitter Data Using LLMs (LLaMA 3.2)? ](https://www.reddit.com/r/datascienceproject/comments/1gafune/best_approach_to_building_a_chatbot_with_twitter/) , 2024-10-24-0913
+```
+**Hello everyone,**
+
+I'm currently working on analyzing customer support inquiries from various insurance companies and 
+generating questions from these tweets using LLaMA 3.2. The dataset includes both full conversation and tweet-level form
+ats, containing customer support inquiries.
+
+Now, I'm looking to take it a step further and build a chatbot that can:
+
+1
+. Answer customer queries based on the patterns found in the historical tweets. (Currently doing manually)
+2. Utilize th
+e questions I've already generated.
+3. Learn from ongoing interactions with users to improve its responses over time.
+
+G
+iven the data I have and my experience working with LLMs, what would be the best way to approach building this chatbot? 
+Here are a few specifics I'm curious about:
+
+* What framework or tools (open-source or otherwise) would work well for th
+is kind of chatbot development?
+* How can I integrate LLaMA 3.2 (or another model, if recommended) to handle real-time q
+uestion generation and answering?
+* How should I structure the chatbot's learning process to continuously improve its re
+sponses from new tweets or user interactions?
+
+Any suggestions on architecture, training strategies,RAGs or frameworks (
+like Rasa, Langchain, etc.) would be greatly appreciated. Thank you!
+
+
+```
+---
+
+     
+ 
+all -  [ Favorite langchain features? ](https://www.reddit.com/r/LangChain/comments/1gae0jp/favorite_langchain_features/) , 2024-10-24-0913
+```
+While there's some general langchain hate, I'd like to know what are your favorite things about langchain? Favorite feat
+ures, what makes your life easier, etc.?
+```
+---
+
+     
+ 
+all -  [ What is your favorite vector database that runs purely in a Python process ](https://www.reddit.com/r/LangChain/comments/1gadyp3/what_is_your_favorite_vector_database_that_runs/) , 2024-10-24-0913
+```
+I'm building a 'chat with your videos' desktop application and would like to run a vector database purely in application
+ code rather than running it in a stand-alone server.
+
+
+
+I've done some research and found these:
+
+* [Weaviate embedded]
+(https://weaviate.io/developers/weaviate/installation/embedded)
+* [FAISS](https://github.com/facebookresearch/faiss)
+* [
+Milvus Lite](https://milvus.io/docs/milvus_lite.md)
+
+Any other suggestions? Which is your favorite and why?
+```
+---
+
+     
+ 
+all -  [ Looking for an intern in Paris ](https://www.reddit.com/r/nextjs/comments/1gaawdm/looking_for_an_intern_in_paris/) , 2024-10-24-0913
+```
+Hey guys,
+
+We’re a team of 2 based in [Station F](https://stationf.co/) in Paris, and we’ve been working on our startup 
+for the past 6 months.
+
+We build a bunch of AI Agents to automate manual tasks on a specific issue related to HR. We are
+ an AI-first company, and work with best-in-class tech stack : Next, Neon, Inngest, Clerk, Shadcn, Langchain. Our infra 
+is serverless.
+
+We’re looking to hire an intern full stack rockstar who want to work on cutting edge tech. We have so ma
+ny interesting challenges ahead and a very ambitious roadmap, but our 4 arms are not enough.
+
+Feel free to dm me with yo
+ur GitHub profile link if your are in Paris or want to relocate.  
+Start date : ASAP
+
+Best
+```
+---
+
+     
+ 
+all -  [ External interaction with LangGraph ](https://www.reddit.com/r/LangChain/comments/1ga8guy/external_interaction_with_langgraph/) , 2024-10-24-0913
+```
+Hello everyone
+
+I've built an agent using LangGraph and I need to be able to call specific code  within it from the outs
+ide like an API endpoint.
+
+I've seen in the docs, for LangChain there's LangServe, what about LangGraph? Can I achieve t
+he same using LangGraph Cloud? 
+
+Thanks in advance,
+
+  
+co-founder Shaareable Apps
+```
+---
+
+     
+ 
+all -  [ How exactly does LLMGraphTransformer work? ](https://www.reddit.com/r/LangChain/comments/1ga70vg/how_exactly_does_llmgraphtransformer_work/) , 2024-10-24-0913
+```
+I am working on implementing knowledge graphs for RAG. I tried experimenting Microsofts's GraphRAG. Now i want to do usi
+ng Neo4j. How are documents indexed? and How are entities extracted. I found that they use LLM to extract entities, is t
+here a way I can find that prompt??
+
+And once entities are found out, how are duplicate entities handled? I really need 
+help.
+```
+---
+
+     
+ 
+all -  [ Guys, fckk my resume ](https://i.redd.it/fsdhqomy4hwd1.jpeg) , 2024-10-24-0913
+```
+Im keep applying for data science intern role, as my skillset but got no reply dont know what im missing. Suggest some c
+hanges and what other can i put, im willing to contribute in opensource but not sure about how to do with my current ski
+llset
+
+Thank you for the review
+Those freaking ai generating mediacore results
+```
+---
+
+     
+ 
+all -  [ How do you extract time metadata from question? ](https://www.reddit.com/r/LangChain/comments/1ga67mh/how_do_you_extract_time_metadata_from_question/) , 2024-10-24-0913
+```
+I have a RAG system that works great.
+
+The users wants to ask questions like 'what are the news of this month?', 'what i
+s the winner of the championship 2024?', and whatever.
+
+I though to put a chain BEFORE the retrieval, trying to extract 
+'time metadata' from the question, like 'date\_from' and 'date\_to', and then apply these filters to the retrieval query
+ based document metadata.
+
+I came up with a prompt like: 'today is %Y-%m-%d' + 'extract time metadata from the question.
+..bla bla'.
+
+Is this a good approach? Is there anything better i can do?
+```
+---
+
+     
+ 
+all -  [ Image Extraction Issue with WMF Format on Linux - Need Help Converting to PNG for OCR ](https://www.reddit.com/r/Rag/comments/1ga62v7/image_extraction_issue_with_wmf_format_on_linux/) , 2024-10-24-0913
+```
+Hi everyone,  
+I’m building a multimodal pipeline involving LLMs and OCR where my app processes PPT files, extracting te
+xt and images from slides. The app works perfectly in my local Windows environment, but images are extracted in WMF form
+at on an AWS Ubuntu instance. Unfortunately, Linux can’t handle this format natively, which is causing issues for prepro
+cessing (OCR) and further multimodal analysis.
+
+I’m looking for suggestions on efficiently converting WMF images to PNG 
+on Linux before feeding them into the OCR model within the LLM-driven multimodal architecture. Has anyone come across a 
+similar issue in a LocalLLM or LangChain setup? Do you have any recommendations for tools, libraries, or workflows to in
+tegrate this step into the pipeline? I appreciate any help you can provide.
+```
+---
+
+     
+ 
+all -  [ Final Year, Ideally looking for ML related FTE. Would love feedback on this Resume. ](https://www.reddit.com/r/developersIndia/comments/1ga5t7d/final_year_ideally_looking_for_ml_related_fte/) , 2024-10-24-0913
+```
+https://preview.redd.it/5wvdmub1ygwd1.png?width=580&format=png&auto=webp&s=64008ad4c4c5969e2b910f2370b225c6c39a035c
+
+
+```
+---
+
+     
+ 
+all -  [ The Most Affordable Search API for Scale. ](https://www.reddit.com/r/LangChain/comments/1ga4y55/the_most_affordable_search_api_for_scale/) , 2024-10-24-0913
+```
+So i am planning to create an AI Application, would like to know what do you guys prefer the best API, for an applicatio
+n, which has a small feature of gettting results from Internet.
+But the issue is that most Search API's are expensive (i
+n my opinion) for scale.
+
+I would really appreciate your recommendations.
+
+```
+---
+
+     
+ 
+all -  [ Request support on Jinja chat template for LLama3.1 and Llama3.2  ](https://www.reddit.com/r/LangChain/comments/1ga3dw3/request_support_on_jinja_chat_template_for/) , 2024-10-24-0913
+```
+I am trying to use vllm to serve llama 3.1 or 3.2 based on its outputs, to test which, I require a Jinja chat template
+
+
+I wrote one, but not sure whether it's right as I get gibberish symbols as output. I attach the Jinja template herewith.
+
+
+`<|begin_of_text|>
+{% for message in messages %}
+<|start_header_id|>{{ message['role'] }}<|end_header_id|>
+{{ message[
+'content'] }}<|eot_id|>
+{% endfor %}
+{% if add_generation_prompt and messages[-1]['role'] != 'assistant' %}
+<|start_head
+er_id|>assistant<|end_header_id|>
+{% endif %}`
+
+Please modify if I am wrong . Thanks in advance 
+```
+---
+
+     
+ 
+all -  [ [Student] Not getting any internship calls, please help me out ](https://www.reddit.com/r/EngineeringResumes/comments/1ga2qdo/student_not_getting_any_internship_calls_please/) , 2024-10-24-0913
+```
+https://preview.redd.it/5des7e5qvfwd1.png?width=5100&format=png&auto=webp&s=ee8a4c2816f7b933d001d1c9133024ed21f95210
+
+Hi
+ all,
+
+I'm currently based in the UK on a student visa and looking for software engineering roles at big tech (FAANG, et
+c.) as I approach graduation in 2026. I had an interview with Google last year and performed well in all three coding ro
+unds, but still got rejected. Since then, I haven't had much luck securing calls for interviews from FAANG companies.
+
+A
+ bit about my background:
+
+* I'm currently doing a year-long internship in my home country.
+* I have experience in web d
+evelopment and AI (I’ve worked with TensorFlow and trained models).
+* I'm also focusing on improving my technical skills
+ and projects in preparation for future applications.
+
+I’d really appreciate any feedback on my resume in terms of conte
+nt, structure, and overall strength. Is there something that could be holding me back from getting more interview calls 
+from big tech? Any advice on how to improve my chances would be helpful!
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Rag not able to search image with name. ](https://www.reddit.com/r/LangChain/comments/1ga1ptb/rag_not_able_to_search_image_with_name/) , 2024-10-24-0913
+```
+I have implemented a Multimodal Retrieval-Augmented Generation (RAG) application, utilizing models such as CLIP and BLIP
+, as well as multimodal models like GPT-4 Vision. While I am successfully able to retrieve images based on their content
+ and details, I am facing an issue when trying to retrieve or generate images based solely on their file names.
+
+For exa
+mple, if I have document with multiple cats nickname, their description and then their image and if I ask model for imag
+e of cat by their nickname, the system is not able to return the correct image. I've attempted various approaches, inclu
+ding different file formats like PDFs and documents, as well as integrating OCR (Optical Character Recognition) to extra
+ct text. Despite these efforts, I am still unable to generate the images using just their names. Could you provide guida
+nce on how to resolve this issue?
+
+Edit: I am using chromadb vector database.
+
+Here is how my document is Structured -
+T
+here is name and then description and then image of cat, again cat name then description and image and so on..
+
+```
+---
+
+     
+ 
+all -  [ [Langgraph] Passing instruction messages in the graph ](https://www.reddit.com/r/LangChain/comments/1ga0k5s/langgraph_passing_instruction_messages_in_the/) , 2024-10-24-0913
+```
+I'm building a complex graph where agent 1 analyzes the message from customer, chooses a strategy and informs the agent 
+2 how to proceed. 
+
+What I do today is convert the agent 1's message to Human message and pass it to agent 2. This works
+ with just 2 agents but when I started adding agents 3 & 4, the message conversion seems to confuse the AI. 
+
+Looking fo
+r strategies where I want to define something like this:
+
+<General System Prompt>
+
+<Specific feedback from a supervisor>
+
+
+<Message from the user + message history>. 
+
+What's the right way to implement this in Langgraph
+```
+---
+
+     
+ 
+all -  [ Claude's Coding Is Fantastic Right Now!  ](https://www.reddit.com/r/ClaudeAI/comments/1g9ynpo/claudes_coding_is_fantastic_right_now/) , 2024-10-24-0913
+```
+Just got home a short time ago after work, and I'm going back through some old prompts for several of my codebases and i
+t's just running through the problems like nothing.
+
+This is amazing.
+
+Can't wait to mess with the tools and langchain/l
+anggraph functions more this weekend. 
+```
+---
+
+     
+ 
+all -  [ AI agent for B2B research workflow - can pick tools on his own :) Upgrading to Langgraph soon ](https://www.reddit.com/r/LangChain/comments/1g9xq0a/ai_agent_for_b2b_research_workflow_can_pick_tools/) , 2024-10-24-0913
+```
+I built an AI agent for B2B research. It's all done with Langchain so far. I am upgrading to Langgraph soon to ensure my
+ AI agent can combine tools to build even better research workflows for my users (978 users so far).   
+  
+To get specif
+ic data points, the AI has to create intermediary steps, leveraging existing tools and combining them. 
+
+**E.g I want to
+ find companies in financial trouble.** 
+
+This datapoint does not exist. This is quite subjective. Ai will ask to clarif
+y.
+
+Then the AI agent has to objectivize this information and develop tangible evidence and signals from the internet to
+ help the users. 
+
+here are some of the steps the Ai agent would take: 
+
+**Here are 3 things the AI could suggest**  
+\-
+-> Glassdoor reviews
+
+\--> Press release
+
+\--> Suppliers complaints for late payments
+
+**Action items:** 
+
+Scrape that i
+nformation
+
+Find the appropriate taxonomy 
+
+Verify the quality 
+
+Apply the taxonomy based on the intelligence gathered. 
+
+
+Display the results. 
+
+===
+
+One thing I noticed function\_calling is NOT the way to go regarding tool selection. Espec
+ially if we want the Ai agent to be aware of thousands of tools, datapoints, and sources. 
+
+We are using context window 
+for that. Better results. 
+
+https://reddit.com/link/1g9xq0a/video/rk0gsrzchewd1/player
+
+
+```
+---
+
+     
+ 
+all -  [ 🚀 Senior Machine Learning Engineer Opportunity! ](https://www.reddit.com/r/mlops/comments/1g9uykp/senior_machine_learning_engineer_opportunity/) , 2024-10-24-0913
 ```
 We are seeking a seasoned **Senior Machine Learning Engineer** to join our innovative team and drive cutting-edge AI pro
 jects. If you have a passion for building scalable machine learning systems and want to work in a collaborative environm
@@ -26,16 +516,20 @@ nc/jobs/4067015007?gh_src=ff064e7b7us)
 
      
  
-all -  [ Coding a GeoGuessr Auto AI Bot with vision LLMs ](https://www.reddit.com/r/geoguessr/comments/1g9uw7x/coding_a_geoguessr_auto_ai_bot_with_vision_llms/) , 2024-10-23-0912
+all -  [ Coding a GeoGuessr Auto AI Bot with vision LLMs ](https://www.reddit.com/r/geoguessr/comments/1g9uw7x/coding_a_geoguessr_auto_ai_bot_with_vision_llms/) , 2024-10-24-0913
 ```
 Video Tutorial: Coding a GeoGuessr AI Bot using LangChain and different Vision LLMs (GPT-4o, Claude 3.5, and Gemini 1.5)
  [https://www.youtube.com/watch?v=OyDfr0xIhss](https://www.youtube.com/watch?v=OyDfr0xIhss)
+
+Disclaimer: this is not all
+owed games with Leaderboards, prizes or competitive against other people publicly! This video is only for educational pu
+rposes and to experiment LLMs capabilities :)
 ```
 ---
 
      
  
-all -  [ Chromadb ](https://www.reddit.com/r/vectordatabase/comments/1g9trrw/chromadb/) , 2024-10-23-0912
+all -  [ Chromadb ](https://www.reddit.com/r/vectordatabase/comments/1g9trrw/chromadb/) , 2024-10-24-0913
 ```
 Having a verbal crash issue with chromadb under langchain. I am trying to put chunks to the db and it kills the kernel. 
 
@@ -51,7 +545,7 @@ Built all using .venv so there shouldn't be any package issues.
 
      
  
-all -  [ Cv debutant junior en reconversion ](https://i.redd.it/is740ys26dwd1.jpeg) , 2024-10-23-0912
+all -  [ Cv debutant junior en reconversion ](https://i.redd.it/is740ys26dwd1.jpeg) , 2024-10-24-0913
 ```
 Bonjour les amis
 J’ai posté mon cv il y’a 3 jours et suite aux conseilles des membres j’ai l’ai modifié ..
@@ -63,7 +557,7 @@ Vos avis svp
 
      
  
-all -  [ Chromadb ](https://www.reddit.com/r/LangChain/comments/1g9qt3p/chromadb/) , 2024-10-23-0912
+all -  [ Chromadb ](https://www.reddit.com/r/LangChain/comments/1g9qt3p/chromadb/) , 2024-10-24-0913
 ```
 Chroma always kills the kernel when trying to load a set of chunks into the newest established database. I haven't found
  a single work around. 
@@ -72,7 +566,7 @@ Chroma always kills the kernel when trying to load a set of chunks into the newe
 
      
  
-all -  [ [0 YoE] Struggling to Get Interview Callbacks for New Grad SWE Roles – Resume Feedback Needed ](https://www.reddit.com/r/EngineeringResumes/comments/1g9ojcr/0_yoe_struggling_to_get_interview_callbacks_for/) , 2024-10-23-0912
+all -  [ [0 YoE] Struggling to Get Interview Callbacks for New Grad SWE Roles – Resume Feedback Needed ](https://www.reddit.com/r/EngineeringResumes/comments/1g9ojcr/0_yoe_struggling_to_get_interview_callbacks_for/) , 2024-10-24-0913
 ```
 Hi everyone, I’m a recent grad (May 2024) currently looking for full-time, entry-level software engineering positions ac
 ross pretty much any industry. I’m based in the northeast but have been applying to both remote and in-person roles nati
@@ -101,15 +595,7 @@ nks so much in advance for your help!
 
      
  
-all -  [ Experiments with gpt-4o vision and architecture diagrams ](https://www.dsdev.in/experiments-with-gpt-4o-vision-and-architecture-diagrams) , 2024-10-23-0912
-```
-
-```
----
-
-     
- 
-all -  [ Ollama stopped code from running? ](https://www.reddit.com/r/ollama/comments/1g9gi9p/ollama_stopped_code_from_running/) , 2024-10-23-0912
+all -  [ Ollama stopped code from running? ](https://www.reddit.com/r/ollama/comments/1g9gi9p/ollama_stopped_code_from_running/) , 2024-10-24-0913
 ```
 I have the following code, it is supposed to load a pdf file, turn it into text chunks, embedding these chunks and store
  them locally to the disk.
@@ -205,7 +691,7 @@ and if the embeddings stored are complete. Could you please explain to me why th
 
      
  
-all -  [ Applied to many internships but couldn't convert them need a resume review  ](https://i.redd.it/sw1xu5goe9wd1.jpeg) , 2024-10-23-0912
+all -  [ Applied to many internships but couldn't convert them need a resume review  ](https://i.redd.it/sw1xu5goe9wd1.jpeg) , 2024-10-24-0913
 ```
 I am Third year CSE student working primarily in ML(and its aggregates like DL and Gen AI) I have been applying for inte
 rnships since the last two months of my second year and am already at the mid point of my third year.
@@ -216,7 +702,7 @@ esume and let me know if I can make it better
 
      
  
-all -  [ Need help in RAG using LLAMA for invoice extraction ](https://www.reddit.com/r/Rag/comments/1g9cdpm/need_help_in_rag_using_llama_for_invoice/) , 2024-10-23-0912
+all -  [ Need help in RAG using LLAMA for invoice extraction ](https://www.reddit.com/r/Rag/comments/1g9cdpm/need_help_in_rag_using_llama_for_invoice/) , 2024-10-24-0913
 ```
 I'm currently invested on a project, where I'm planning to use RAG for extracting invoice from the pdf ,images, and some
  of the structured data, the process I'm using using right now is:
@@ -244,7 +730,7 @@ ep on changing, Need Help!!. (Tried using instructor not fruitful, Im new to Gen
 
      
  
-all -  [ Building a community/network around AI Agents ](https://www.reddit.com/r/LangChain/comments/1g9ag3l/building_a_communitynetwork_around_ai_agents/) , 2024-10-23-0912
+all -  [ Building a community/network around AI Agents ](https://www.reddit.com/r/LangChain/comments/1g9ag3l/building_a_communitynetwork_around_ai_agents/) , 2024-10-24-0913
 ```
 Hey ya'll, I'm currently building a curated community for AI Accelerators who believe that AI Agents will put more power
  in the hands of individual creators and entrepreneurs.
@@ -275,7 +761,7 @@ thin the next week.
 
      
  
-all -  [ Shutting down a graph ](https://www.reddit.com/r/LangChain/comments/1g99yg2/shutting_down_a_graph/) , 2024-10-23-0912
+all -  [ Shutting down a graph ](https://www.reddit.com/r/LangChain/comments/1g99yg2/shutting_down_a_graph/) , 2024-10-24-0913
 ```
 I have an app that creates one graph for each campaign. Over a period of time, I expect to have 1000s of graphs to be cr
 eated.   
@@ -286,7 +772,7 @@ eted?
 
      
  
-all -  [ Organização para estudos ](https://www.reddit.com/r/brdev/comments/1g92g6c/organização_para_estudos/) , 2024-10-23-0912
+all -  [ Organização para estudos ](https://www.reddit.com/r/brdev/comments/1g92g6c/organização_para_estudos/) , 2024-10-24-0913
 ```
 Olá, espero que estejam todos bem. Minha dúvida é: como organizam seus estudos no geral?
 
@@ -305,7 +791,7 @@ anizam pra isso? Tem como fazer sem atrapalhar família, namoro, amigos, lazer e
 
      
  
-all -  [ Advice on scaling project with backend LLMs for servers with multiple models and making better decis ](https://www.reddit.com/r/LocalLLaMA/comments/1g91mik/advice_on_scaling_project_with_backend_llms_for/) , 2024-10-23-0912
+all -  [ Advice on scaling project with backend LLMs for servers with multiple models and making better decis ](https://www.reddit.com/r/LocalLLaMA/comments/1g91mik/advice_on_scaling_project_with_backend_llms_for/) , 2024-10-24-0913
 ```
 Hello,  
 I am a beginner working on an AI project for commercial use, and I’m currently stuck. I’ve been using three mod
@@ -357,7 +843,7 @@ ving the performance, especially in a production setting, would be appreciated a
 
      
  
-all -  [ langchain setup in vent ](https://www.reddit.com/r/LangChain/comments/1g8snq5/langchain_setup_in_vent/) , 2024-10-23-0912
+all -  [ langchain setup in vent ](https://www.reddit.com/r/LangChain/comments/1g8snq5/langchain_setup_in_vent/) , 2024-10-24-0913
 ```
 I have been used to setting up a venv for every python project and wondering if anyone has done the same with langchain 
 and any lLLM models like local llama  (free) AND OpenAI? 
@@ -369,7 +855,7 @@ on packages (e.g., langchain ) can be installed in venv (via pip install).
 
      
  
-all -  [ Efficient Web Crawling for Keeping Vector Databases Updated - Seeking Advice ](https://www.reddit.com/r/LangChain/comments/1g8scol/efficient_web_crawling_for_keeping_vector/) , 2024-10-23-0912
+all -  [ Efficient Web Crawling for Keeping Vector Databases Updated - Seeking Advice ](https://www.reddit.com/r/LangChain/comments/1g8scol/efficient_web_crawling_for_keeping_vector/) , 2024-10-24-0913
 ```
 Hey folks,  
   
@@ -434,7 +920,7 @@ We're open to any suggestions or insights from the community. Thanks in advance 
 
      
  
-all -  [ LangChain and LangGraph: My Take and Some Questions ](https://www.reddit.com/r/LangChain/comments/1g8qvz4/langchain_and_langgraph_my_take_and_some_questions/) , 2024-10-23-0912
+all -  [ LangChain and LangGraph: My Take and Some Questions ](https://www.reddit.com/r/LangChain/comments/1g8qvz4/langchain_and_langgraph_my_take_and_some_questions/) , 2024-10-24-0913
 ```
 Hey folks, been messing around with LangChain and LangGraph lately. Thought I'd share my thoughts and see if anyone can 
 help clear up some stuff.
@@ -471,7 +957,7 @@ e tools?
 
      
  
-all -  [ C8工卡被拒后，我躺平在庇护所，白天在GitHub上做开源（langchain, llama index...）+写论文投arxiv，晚上躺在床上玩游戏...我后半辈子都这么过了嘛？还是等到川普上台后 ](https://www.reddit.com/r/iwanttorun/comments/1g8ojqf/c8工卡被拒后我躺平在庇护所白天在github上做开源langchain_llama/) , 2024-10-23-0912
+all -  [ C8工卡被拒后，我躺平在庇护所，白天在GitHub上做开源（langchain, llama index...）+写论文投arxiv，晚上躺在床上玩游戏...我后半辈子都这么过了嘛？还是等到川普上台后 ](https://www.reddit.com/r/iwanttorun/comments/1g8ojqf/c8工卡被拒后我躺平在庇护所白天在github上做开源langchain_llama/) , 2024-10-24-0913
 ```
 远程给印度某大学远程授课
 ```
@@ -479,7 +965,7 @@ all -  [ C8工卡被拒后，我躺平在庇护所，白天在GitHub上做开源
 
      
  
-all -  [ Need help in Approach to Extracting and Chunking Tabular Data for RAG-Based Chatbot Retrieval ](https://www.reddit.com/r/LangChain/comments/1g8nshy/need_help_in_approach_to_extracting_and_chunking/) , 2024-10-23-0912
+all -  [ Need help in Approach to Extracting and Chunking Tabular Data for RAG-Based Chatbot Retrieval ](https://www.reddit.com/r/LangChain/comments/1g8nshy/need_help_in_approach_to_extracting_and_chunking/) , 2024-10-24-0913
 ```
 1.	I need to extract data from the tabular structures in the documents. What are the best available tools or packages fo
 r this task?
@@ -493,7 +979,7 @@ Any guidance would be greatly appreciated!
 
      
  
-all -  [ Am I a bad job candidate? ](https://www.reddit.com/r/jobs/comments/1g8msv0/am_i_a_bad_job_candidate/) , 2024-10-23-0912
+all -  [ Am I a bad job candidate? ](https://www.reddit.com/r/jobs/comments/1g8msv0/am_i_a_bad_job_candidate/) , 2024-10-24-0913
 ```
 Hello, dear reddit.
 
@@ -524,1088 +1010,7 @@ Thank you beforehand and bless to you if you have at least look at my post.
 
      
  
-all -  [ Sale My Ready MVP  ](https://www.reddit.com/r/saasforsale/comments/1g8lxde/sale_my_ready_mvp/) , 2024-10-23-0912
-```
-\*\*Dear Redditors,\*\*
-
-
-
-I am looking to sell my ready MVP as I no longer have enough budget for marketing. I started 
-this SaaS project, [SubGPT.ai](http://SubGPT.ai), about seven months ago, and my total investment was around $20,000.
-
-(
-Its Chatbase Alternative)
-
-\*\*Project Features:\*\*
-
-1. No-code ChatGPT-like app builder for your website.
-
-2. Integrat
-ions with WhatsApp, WordPress, Webflow, Weebly, Wix, Notion, Facebook Messenger, and Instagram.
-
-3. Ability to embed any
- website.
-
-
-
-\*\*Use Cases:\*\*
-
-1. Lead Generation
-
-2. Customer Support
-
-3. Customer Engagement
-
-4. Boosting Sales
-
-
-
-\
-*\*Tech Stack:\*\*
-
-1. Python
-
-2. JavaScript
-
-3. WordPress theme for the homepage
-
-4. HTML, CSS
-
-5. Langchain
-
-
-
-\*\*Pay
-ment Gateway:\*\* Lemon Squeezy
-
-
-
-\*\*What You Get:\*\*
-
-1. Company Gmail account
-
-2. AWS hosting
-
-3. Transfer of WordP
-ress hosting
-
-4. LinkedIn company profile with over 350 followers
-
-5. Instagram account
-
-6. Threads account
-
-7. X (forme
-rly Twitter) page
-
-8. Facebook page
-
-
-
-\*\*Note:\*\* If you need support, my developer is available to help you build mo
-re features (for a fee). 
-
-
-
-Thank you for your interest!
-```
----
-
-     
- 
-all -  [ I need your help on LangGraph ](https://www.reddit.com/r/LangChain/comments/1g8jzik/i_need_your_help_on_langgraph/) , 2024-10-23-0912
-```
-Hey everyone, I have been developing an agent-based customer chatbot on LangGraph. And I need to add input and output gu
-ardrail into the project. Actually I got the logic behind the LangGraph. But I wasn't be able to access the last message
-s in the graph.
-
-At this point I have two questions.
-
-1-) How can I get the last message in the graph to check. 
-
-2-) Ca
-n I return a different message if the response contains toxic statements and how?
-
-Here is my State and keys.
-
-https://p
-review.redd.it/6ibyh06u72wd1.png?width=551&format=png&auto=webp&s=a601230dd7ba963347b8bd6a363b454b45c68e7e
-
-
-```
----
-
-     
- 
-all -  [ I’m working on an AI project and i faced some issues ](https://www.reddit.com/r/generativeAI/comments/1g8j4hg/im_working_on_an_ai_project_and_i_faced_some/) , 2024-10-23-0912
-```
-I’m working on an AI project
-
-Using mistral model since it is opensource
-Thought to use langchain but it is not free
-
-So
- came up with something called as OllamaLLM which is free of cost i hope everyone knows this.
-
-But when i have large dat
-a i am chunking the data and sending Many chunks in api calls it is taking hours
-
-But when i use request.post as api cal
-ls and sends thousands of chunks it takes like a minute or two to give the answer
-
-Anyone can tell why and how can i sol
-ve the problem 
-
-
-Thanks in advacnce
-```
----
-
-     
- 
-all -  [ Open Source AI Chatbot UI template for Developers  ](https://www.reddit.com/r/developersIndia/comments/1g8fw4u/open_source_ai_chatbot_ui_template_for_developers/) , 2024-10-23-0912
-```
-Dear Developers,
-
-I have created this repository to support your projects. This is not a product but a template that wil
-l **ease your workflow**.
-
-Here's the background:
-
-While working on a Retrieval-Augmented Generation (RAG) project, I fo
-und that no existing chat UI template offered all the features I needed. In response, I decided to build my own, incorpo
-rating those missing functionalities.
-
-Read more at Dev.to: [https://dev.to/ragharao314159/open-source-chatbot-ui-templa
-te-for-developers-5apk](https://dev.to/ragharao314159/open-source-chatbot-ui-template-for-developers-5apk)
-
-Chatbot UI: 
-[https://convo-ui.vercel.app](https://convo-ui.vercel.app/)
-
-Repository: [https://github.com/RaghaRao314159/Convo-UI](ht
-tps://github.com/RaghaRao314159/Convo-UI)
-
-**Key features included in both ConvoUI and TurboGPT:**
-
-1. **Multiple Chats/
-Conversations Support:** While Gradio is great, it only supports a single active conversation at a time. My template add
-resses this by storing multiple chats locally (via localStorage) and linking them to authentication keys.
-2. **Authentic
-ation:** The template integrates authentication using OpenAI API keys for security and access control.
-3. **Dark and Lig
-ht Mode:** This feature can adapt to system settings or be manually toggled in the UI, providing flexibility in appearan
-ce.
-
-**New features that I added:**
-
-1. **Markdown Table Parsing and Display:** Many existing chatbot UI templates strug
-gle with cleanly rendering markdown tables, including TurboGPT. My version resolves this, ensuring tables display as nea
-tly as they do in OpenAI's UI.
-2. **Custom Backend Model Integration:** Most chatbot UIs lack the ability to interact wi
-th custom backend models, as these typically require different object classes for communication compared to standard API
- calls. My template includes examples for calling backend models using Flask and Langserve. You can test this by selecti
-ng a backend model. Click to visit the [Backend Repo](https://github.com/RaghaRao314159/Convo-UI_backend).
-3. **Streamin
-g Chatbot Outputs:** While streaming outputs is straightforward with foundation models, it becomes complex when dealing 
-with backend servers. After extensive testing, I successfully implemented streaming capabilities for backend models in t
-his template. Unfortunately, pythonanywhere voids this and my backend is currently on pythonanywhere. I will move it to 
-another server in due time.
-
-
-
-***I hope this template helps you accelerate the development of your full-stack applicati
-ons. Do star this repo so more*** developers ***are aware of tools available to them.***  
-
-----------------------------
--------------------------------------------------------------
-
-**More resources on building chatbots**
-
-I have thoroughl
-y explored various approaches to building a fully custom Retrieval-Augmented Generation (RAG) LLM chatbot, and the resul
-ts of my work can be found in my [RAG repository](https://github.com/RaghaRao314159/AuditBot_backend). Unlike many other
- online resources, this repository offers a complete full-stack solution for developing a RAG chatbot.
-
-**For Frontend D
-evelopers:**
-
-I have included multiple UI options, from simple mockups to production-grade interfaces, along with the ne
-cessary code to integrate the frontend with the backend. The chat interface is a React application, similar to this one,
- utilizing LangServe. You can find the frontend code in the [AuditBot repository](https://github.com/RaghaRao314159/Audi
-tBot_frontend).
-
-**For Machine Learning Engineers:**
-
-I have conducted extensive experiments to improve the RAG framewor
-k, covering techniques such as HyDE, recursive retrieval, and others. Additionally, the repository provides implementati
-ons of frameworks like Langchain and LlamaIndex. It also includes setups for data stores, examples of prompt engineering
- with GuardRails, and much more.  
-  
-----------------------------------------------------------------------------------
--------  
-  
-**Feedback**
-
-Do let me know if you would like to see other additional features would be useful in a chatbo
-t UI.  Reach out if you would like to collaborate
-```
----
-
-     
- 
-all -  [ Whats the best approach to build LLM apps? Pros and cons of each ](https://www.reddit.com/r/LLMDevs/comments/1g8fnkd/whats_the_best_approach_to_build_llm_apps_pros/) , 2024-10-23-0912
-```
-With so many tools available for building LLM apps (apps built on top of LLMs), what's the best approach to quickly go f
-rom 0 to 1 while maintaining a production-ready app that allows for iteration?
-
-Here are some options:
-
-1. Direct API Th
-in Wrapper / Custom GPT/OpenAI API: Build directly on top of [OpenAI’s API](https://openai.com/product) for more control
- over your app’s functionality.
-2. Frameworks like [LangChain](https://www.langchain.com/) / [LlamaIndex](https://llamai
-ndex.ai/): These libraries simplify the integration of LLMs into your apps, providing building blocks for more complex w
-orkflows.
-3. Managed Platforms like [Lamatic](https://lamatic.ai/) / [Dify](https://dify.ai/) / [Flowise](https://flowis
-e.io/): If you prefer more out-of-the-box solutions that offer streamlined development and deployment.
-4. Editor-like To
-ols such as [Wordware](https://wordware.ai/) / [Writer](https://writer.com/) / [Athina](https://athina.ai/): Perfect for
- content-focused workflows or enhancing writing efficiency.
-5. No-Code Tools like [Respell](https://respell.ai/) / [n8n]
-(https://n8n.io/) / [Zapier](https://zapier.com/): Ideal for building automation and connecting LLMs without needing ext
-ensive coding skills.
-
-*(Disclaimer: I am a founder of [Lamatic](https://lamatic.ai/), understanding the space and what 
-tools people prefer)*
-```
----
-
-     
- 
-all -  [ Setting up  OPENAI account to practice Langxhain ](https://www.reddit.com/r/LangChain/comments/1g8fj8r/setting_up_openai_account_to_practice_langxhain/) , 2024-10-23-0912
-```
-I am looking to start practicing langchain using OpenAI but would like to hear from you “how much” should I buy and idoe
-s OPENAI still offer free credits for new accounts ?  
-```
----
-
-     
- 
-all -  [ Why doesn't OpenAI use any chatbots on its site? ](https://www.reddit.com/r/ChatGPT/comments/1g8cd7u/why_doesnt_openai_use_any_chatbots_on_its_site/) , 2024-10-23-0912
-```
-It always seems odd to me that OpenAI doesn't use any chatbots on its site.  Do they not believe in their own product?
-
-
-Especially for API users, a good chatbot with access to the docs is actually kind of useful.  Langchain does it with [ht
-tps://chat.langchain.com/](https://chat.langchain.com/) and, while it's not perfect, I respect them for putting their mo
-ney where their mouth is.  Why not OpenAI?
-```
----
-
-     
- 
-all -  [ Need help in deploying a RAG model as Sage Maker Model ](https://www.reddit.com/r/aws/comments/1g83g12/need_help_in_deploying_a_rag_model_as_sage_maker/) , 2024-10-23-0912
-```
-    Failed Reason:  The primary container for production variant AllTraffic did not pass the ping health check.
-    
-   
- I am making a model.tar.gz of this python script file, but when i try to deploy it in cloudformation yaml, the cloudwat
-ch logs just show that the libraries just keep on installing and importing no function, the endpoint is not being create
-d.
-    
-    below is my python file
-    
-    import os
-    import boto3
-    import faiss
-    import json
-    from transf
-ormers import pipeline, AutoTokenizer
-    from langchain_community.vectorstores import FAISS
-    from langchain_communit
-y.embeddings import HuggingFaceEmbeddings
-    from langchain.chains import RetrievalQA
-    from langchain.llms import Hu
-ggingFacePipeline
-    from langchain.text_splitter import CharacterTextSplitter
-    from langchain.schema import Documen
-t
-    import logging
-    
-    # Setting up logging
-    logging.basicConfig(level=logging.INFO)
-    
-    
-    s3 = boto3.
-client('s3')
-    HUGGINGFACE_TOKEN = os.getenv('HUGGINGFACE_TOKEN','my-token')
-    S3_BUCKET = os.getenv('S3_BUCKET', 'b
-ucket-name')
-    prefix = 'documents'
-    
-    model = None
-    
-    # Loading documents from S3 bucket
-    def load_doc
-uments_from_s3():
-        logging.info('Loading documents from S3...')
-        documents = []
-        response = s3.list
-_objects_v2(Bucket=S3_BUCKET, Prefix=prefix)
-        for obj in response.get('Contents', []):
-            s3_key = obj['
-Key']
-            if s3_key.endswith('.txt'):
-                file_obj = s3.get_object(Bucket=S3_BUCKET, Key=s3_key)
-   
-             file_content = file_obj['Body'].read().decode('utf-8')
-                documents.append(Document(page_conte
-nt=file_content, metadata={'source': s3_key}))
-        logging.info(f'Loaded {len(documents)} documents.')
-        retur
-n documents
-    
-    
-    # Building FAISS index from documents
-    def build_faiss_index(embeddings):
-        documents
- = load_documents_from_s3()
-        text_splitter = CharacterTextSplitter(chunk_size=1000, chunk_overlap=0)
-        docu
-ments = text_splitter.split_documents(documents)
-        vector_store = FAISS.from_documents(documents, embeddings)
-    
-    logging.info('FAISS index built successfully.')
-        return vector_store
-    
-    
-    # Initializing the model
- 
-   def initialize_rag_model():
-        
-        #Initialize HuggingFace embeddings
-        embeddings = HuggingFaceEmbed
-dings(model_name='sentence-transformers/all-MiniLM-L6-v2')
-    
-        vector_store = build_faiss_index(embeddings)
-   
-     retriever = vector_store.as_retriever(search_kwargs={'k': 1})
-    
-        tokenizer = AutoTokenizer.from_pretraine
-d('google/flan-t5-small',           use_auth_token=HUGGINGFACE_TOKEN)
-        generation_pipeline = pipeline(
-          
-  'text2text-generation',
-            model='google/flan-t5-small',
-            tokenizer=tokenizer,
-            max_new
-_tokens=200,
-            temperature=0.7,
-            top_k=50,
-            do_sample=True,
-            truncation=True,
-
-            pad_token_id=tokenizer.pad_token_id
-        )
-        llm = HuggingFacePipeline(pipeline=generation_pipelin
-e)
-    
-        #Set up the RetrievalQA chain
-        qa_chain = RetrievalQA.from_chain_type(
-            llm=llm, chain
-_type='refine', retriever=retriever, return_source_documents=True
-        )
-    
-        logging.info('RAG model initial
-ized.')
-        return qa_chain
-    
-    # Query handling function
-    def handle_query(query):
-        global model
-   
-     model = initialize_rag_model()
-        response = model(query)
-        return response
-    
-    def input_fn(input_
-data, content_type):
-        if content_type == 'application/json':
-            request = json.loads(input_data)
-       
-     return request['query']
-        else:
-            raise ValueError(f'Unsupported content type: {content_type}')
-   
- 
-    
-    def predict_fn(query, model):
-        logging.info(f'Handling query: {query}')
-        response = model(query
-)
-        return response
-    
-    
-    def output_fn(prediction, content_type):
-        if content_type == 'application
-/json':
-            
-            result = {
-                'query': prediction['query'],
-                'result': pred
-iction['result'],
-                'source_documents': [
-                    {'source': doc.metadata['source'], 'content'
-: doc.page_content}
-                    for doc in prediction['source_documents']
-                ]
-            }
-      
-      return json.dumps(result)
-        else:
-            raise ValueError(f'Unsupported content type: {content_type}')
-
-    
-    # Initialization method
-    def model_fn(model_dir):
-        global model
-        # Initialize the model (only 
-once when the endpoint starts)
-        if model is None:
-            model = initialize_rag_model()
-        return model
-
-```
----
-
-     
- 
-all -  [ CV pour reconversion en IA  ](https://i.redd.it/7a0g4sxt2xvd1.jpeg) , 2024-10-23-0912
-```
-Hello les amis !
-Vous pensez quoi de mon CV
-J’arrive pas à être contacté par les recruteurs
-Je me dis peut être c’est le
- CV qui bloque (si c’est ps le manque d’expérience)
-Merci infiniment pour vos remarques et votre aide !  
-```
----
-
-     
- 
-all -  [ Neo4j retriever result filter (hybrid search)  ](https://www.reddit.com/r/Langchaindev/comments/1g7tcl3/neo4j_retriever_result_filter_hybrid_search/) , 2024-10-23-0912
-```
-I implemented this approach ( https://neo4j.com/developer-blog/rag-graph-retrieval-query-langchain/ ) and have been havi
-ng good results using the hybrid search type.
-
-I’m wanting to apply result filtering for the retriever using value/s pas
-sed in when the chain is invoked. But, without rebuilding the chain as this is currently taking 4seconds which isn’t fea
-sible. 
-
-Has anyone managed/ know how to use a placeholder approach (similar to langchains prompts ) which allows a valu
-e to be passed into the retrieval query without rebuilding the chain? 
-
-Open to any other filtering methods people have 
-used!
-
-NOTE: using the hybrid search type restricted the filter approach in as_retriever() method, but the hybrid perfor
-ms much better so keen to maintain that. 
-
-Thank you!
-```
----
-
-     
- 
-all -  [ Neo4j retriever result filter (hybrid search)  ](https://www.reddit.com/r/Neo4j/comments/1g7t7xy/neo4j_retriever_result_filter_hybrid_search/) , 2024-10-23-0912
-```
-
-I implemented this approach ( https://neo4j.com/developer-blog/rag-graph-retrieval-query-langchain/ ) and have been hav
-ing good results using the hybrid search type.
-
-I’m wanting to apply result filtering for the retriever using value/s pa
-ssed in when the chain is invoked. But, without rebuilding the chain as this is currently taking 4seconds which isn’t fe
-asible. 
-
-Has anyone managed/ know how to use a placeholder approach (similar to langchains prompts ) which allows a val
-ue to be passed into the retrieval query without rebuilding the chain? 
-
-Open to any other filtering methods people have
- used!
-
-NOTE: using the hybrid search type restricted the filter approach in as_retriever() method, but the hybrid perfo
-rms much better so keen to maintain that. 
-
-Thank you!
-```
----
-
-     
- 
-all -  [ What is your biggest gripe with LangChain and/or LangGraph today? ](https://www.reddit.com/r/LangChain/comments/1g7sii6/what_is_your_biggest_gripe_with_langchain_andor/) , 2024-10-23-0912
-```
-Hey y'all, just comparing frameworks and I want to hear some negatives/gripes/reasons not to use LangChain or LangGraph
-```
----
-
-     
- 
-all -  [ Capstone Project Journal Article Guidance: Questions and Clarifications ](https://www.reddit.com/r/LangChain/comments/1g7qf65/capstone_project_journal_article_guidance/) , 2024-10-23-0912
-```
-I am working on my capstone project, where I developed a contract summarizer and a QA bot using the Llama 3 model and a 
-Retrieval-Augmented Generation (RAG) system. My dataset consists of contracts from 12 categories (e.g., shipping agreeme
-nts, IP agreements), each with 5 PDFs. I need guidance on the following aspects of my journal article:
-
-1. **Method Sele
-ction**: Should I continue using the RAG approach, or are there alternative methods I should explore?
-2. **Comparative A
-nalysis**: To enhance the content of my paper, should I include a comparison of different methods, models, or approaches
-? If so, what could I compare?
-3. **Evaluation Without Ground Truth**: Since I don't have ground truth data, how can I e
-ffectively evaluate my system? Should I use RAG-as-a-Service (RAGas) to generate a test set, or should I employ large la
-nguage models (LLMs) as judges?
-4. **Enhancing the Journal Article**: What additional components or methods can I incorp
-orate to strengthen my paper and make it more comprehensive?
-5. **Dataset and Ground Truth Suggestions**: Can you recomm
-end other datasets that include ground truth for tasks like mine, or provide advice on how to generate ground truth data
- for evaluation?
-```
----
-
-     
- 
-all -  [ Why is my hugging face llama 3.2-1B just giving me repetitive question when used in RAG? ](https://www.reddit.com/r/LLMDevs/comments/1g7misi/why_is_my_hugging_face_llama_321b_just_giving_me/) , 2024-10-23-0912
-```
-I just want to know if my approach is correct. I have done enough research but my model keeps giving me whatever questio
-n i have asked as answer. Here are the steps i followed:
-
-1. Load the pdf document into langchain.
-PDF is in format - q:
- and a:
-
-2. Use 'sentence-transformer/all-MiniLM-L6-v2'  for embedding and chroma as vector store
-
-3. Use 'meta-llama/Ll
-ama-3.2-1B' from huggingface.
-
-4. Generate a pipeline and a prompt like 'Answer only from document. If not just say i do
-n't know. Don't answer outside of document knowledge'
-
-5. Finally use langchain to get top documents, pass the question 
-and top docs as context to my llm and get response.
-
-As said, the response is either repetirive or same as my question. 
-Where am i going wrong?
-
-
-Note: I'm running all the above code in colab as my local machine is not so capable.
-
-Thanks i
-n advance.
-```
----
-
-     
- 
-all -  [ Why is my hugging face llama 3.2-1B just giving me repetitive question when used in RAG? ](https://www.reddit.com/r/Rag/comments/1g7mh38/why_is_my_hugging_face_llama_321b_just_giving_me/) , 2024-10-23-0912
-```
-
-I just want to know if my approach is correct. I have done enough research but my model keeps giving me whatever questi
-on i have asked as answer. Here are the steps i followed:
-
-1. Load the pdf document into langchain.
-PDF is in format - q
-: and a:
-
-2. Use 'sentence-transformer/all-MiniLM-L6-v2'  for embedding and chroma as vector store
-
-3. Use 'meta-llama/L
-lama-3.2-1B' from huggingface.
-
-4. Generate a pipeline and a prompt like 'Answer only from document. If not just say i d
-on't know. Don't answer outside of document knowledge'
-
-5. Finally use langchain to get top documents, pass the question
- and top docs as context to my llm and get response.
-
-As said, the response is either repetirive or same as my question.
- Where am i going wrong?
-
-
-Note: I'm running all the above code in colab as my local machine is not so capable.
-
-Thanks 
-in advance.
-```
----
-
-     
- 
-all -  [ Convo-UI: an all-in-one chatbot UI template ](https://www.reddit.com/r/software/comments/1g7m7fg/convoui_an_allinone_chatbot_ui_template/) , 2024-10-23-0912
-```
-Dear Developers,
-
-I have created this repository to support your projects. This is not a product but a template that wil
-l **ease your workflow**.
-
-Here's the background:
-
-While working on a Retrieval-Augmented Generation (RAG) project, I fo
-und that no existing chat UI template offered all the features I needed. In response, I decided to build my own, incorpo
-rating those missing functionalities.
-
-Chatbot UI: [https://convo-ui.vercel.app](https://convo-ui.vercel.app)
-
-Repositor
-y: [https://github.com/RaghaRao314159/Convo-UI](https://github.com/RaghaRao314159/Convo-UI)
-
-**Key features included in 
-both ConvoUI and TurboGPT:**
-
-1. **Multiple Chats/Conversations Support:** While Gradio is great, it only supports a sin
-gle active conversation at a time. My template addresses this by storing multiple chats locally (via localStorage) and l
-inking them to authentication keys.
-2. **Authentication:** The template integrates authentication using OpenAI API keys 
-for security and access control.
-3. **Dark and Light Mode:** This feature can adapt to system settings or be manually to
-ggled in the UI, providing flexibility in appearance.
-
-**New features that I added:**
-
-1. **Markdown Table Parsing and D
-isplay:** Many existing chatbot UI templates struggle with cleanly rendering markdown tables, including TurboGPT. My ver
-sion resolves this, ensuring tables display as neatly as they do in OpenAI's UI.
-2. **Custom Backend Model Integration:*
-* Most chatbot UIs lack the ability to interact with custom backend models, as these typically require different object 
-classes for communication compared to standard API calls. My template includes examples for calling backend models using
- Flask and Langserve. You can test this by selecting a backend model. Click to visit the [Backend Repo](https://github.c
-om/RaghaRao314159/Convo-UI_backend).
-3. **Streaming Chatbot Outputs:** While streaming outputs is straightforward with f
-oundation models, it becomes complex when dealing with backend servers. After extensive testing, I successfully implemen
-ted streaming capabilities for backend models in this template. Unfortunately, pythonanywhere voids this and my backend 
-is currently on pythonanywhere. I will move it to another server in due time.
-
-
-
-***I hope this template helps you accel
-erate the development of your full-stack applications.***
-
--------------------------------------------------------------
-----------------------------
-
-**More resources on building chatbots**
-
-I have thoroughly explored various approaches to 
-building a fully custom Retrieval-Augmented Generation (RAG) LLM chatbot, and the results of my work can be found in my 
-[RAG repository](https://github.com/RaghaRao314159/AuditBot_backend). Unlike many other online resources, this repositor
-y offers a complete full-stack solution for developing a RAG chatbot.
-
-**For Frontend Developers:**
-
-I have included mul
-tiple UI options, from simple mockups to production-grade interfaces, along with the necessary code to integrate the fro
-ntend with the backend. The chat interface is a React application, similar to this one, utilizing LangServe. You can fin
-d the frontend code in the [AuditBot repository](https://github.com/RaghaRao314159/AuditBot_frontend).
-
-**For Machine Le
-arning Engineers:**
-
-I have conducted extensive experiments to improve the RAG framework, covering techniques such as Hy
-DE, recursive retrieval, and others. Additionally, the repository provides implementations of frameworks like Langchain 
-and LlamaIndex. It also includes setups for data stores, examples of prompt engineering with GuardRails, and much more. 
- 
-  
------------------------------------------------------------------------------------------  
-  
-**Feedback**
-
-Do let
- me know if you would like to see other additional features would be useful in a chatbot UI. 
-```
----
-
-     
- 
-all -  [ Best way to get started in implementing a PoC for an AI agent with semantic understanding? ](https://www.reddit.com/r/LangChain/comments/1g7lk65/best_way_to_get_started_in_implementing_a_poc_for/) , 2024-10-23-0912
-```
-I have a background in time-series analysis and I work for a small company (read: startup) that works on GenAI. As part 
-of that, my manager has asked me to produce ASAP a proof-of-concept implementation of an AI agent on large document reco
-gnition ASAP - specifically, we have a meeting with a client wanting a PoC of an AI agent that you can ask questions to 
-about a corpus of text that the client uploads.
-
-Specifically, my manager has asked me to look into performing OCR on a 
-large document (~200 pages) and uploading it into a Chroma vector store, and implementing a question-answer system with 
-an AI agent that performs semantic understanding for the client to use. I'm going to be burning the midnight oil for the
- next few days so I'd like some advice on how to get started. Are there any tutorials or resources that I can deal with?
-
-
-(Note: I posted this on the machine learning sub, but it looks like it got quietly removed the instant of posting...)
-```
----
-
-     
- 
-all -  [ Connecting to Llama 3.2 with Azure ML endpoint  ](https://www.reddit.com/r/LangChain/comments/1g7jo40/connecting_to_llama_32_with_azure_ml_endpoint/) , 2024-10-23-0912
-```
-
-Anyone know why am I getting the following error on this . The endpoint is dedicated and deployed via Azure AI studio 
-
-
-ValueError: Error while formatting response payload for chat model of type  `AzureMLEndpointApiType.dedicated`. Are you
- using the right formatter for the deployed  model and endpoint type?
-
-### Code 
-‘’’
-from langchain_community.chat_model
-s.azureml_endpoint import (
-    AzureMLEndpointApiType,
-    CustomOpenAIChatContentFormatter,
-    AzureMLChatOnlineEndpo
-int
-)
-from langchain_core.messages import HumanMessage
-
-chat = AzureMLChatOnlineEndpoint(
-    endpoint_url='https://xxx.
-xxxx.inference.ml.azure.com/score',
-    endpoint_api_type=AzureMLEndpointApiType.dedicated,
-    content_formatter=Custom
-OpenAIChatContentFormatter(),
-    endpoint_api_key=os.getenv('AZURE_LLAMA_3_2_API_KEY'),
-    model_kwargs={'temperature'
-: 0}
-)
-
-response = chat.invoke(
-    [HumanMessage(content='Will the Collatz conjecture ever be solved?')]
-)
-print(respon
-se)
-‘’’
-
-
-## Error trace 
-
-‘’’
-
-Error                                  Traceback (most recent call last)
-File c:\POC\san
-dbox\notebooks-for-testing\.venv\Lib\site-packages\langchain_community\chat_models\azureml_endpoint.py:140, in CustomOpe
-nAIChatContentFormatter.format_response_payload(self, output, api_type)
-    [139](file:///C:/POC/sandbox/notebooks-for-t
-esting/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:139) try:
---> [140](file:///C:/POC/sa
-ndbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:140)     choice 
-= json.loads(output)['output']
-    [141](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_
-community/chat_models/azureml_endpoint.py:141) except (KeyError, IndexError, TypeError) as e:
-
-KeyError: 'output'
-
-The a
-bove exception was the direct cause of the following exception:
-
-ValueError                                Traceback (mo
-st recent call last)
-Cell In[63], [line 16](vscode-notebook-cell:?execution_count=63&line=16)
-      [6](vscode-notebook-
-cell:?execution_count=63&line=6) from langchain_core.messages import HumanMessage
-      [8](vscode-notebook-cell:?execut
-ion_count=63&line=8) chat = AzureMLChatOnlineEndpoint(
-      [9](vscode-notebook-cell:?execution_count=63&line=9)     en
-dpoint_url='https://xxx.xxx.inference.ml.azure.com/score',
-     [10](vscode-notebook-cell:?execution_count=63&line=10)  
-   endpoint_api_type=AzureMLEndpointApiType.dedicated,
-   (...)
-     [13](vscode-notebook-cell:?execution_count=63&line=
-13)     model_kwargs={'temperature': 0}
-     [14](vscode-notebook-cell:?execution_count=63&line=14) )
----> [16](vscode-n
-otebook-cell:?execution_count=63&line=16) response = chat.invoke(
-     [17](vscode-notebook-cell:?execution_count=63&lin
-e=17)     [HumanMessage(content='Will the Collatz conjecture ever be solved?')]
-     [18](vscode-notebook-cell:?executio
-n_count=63&line=18) )
-     [19](vscode-notebook-cell:?execution_count=63&line=19) print(response)
-
-File c:\POC\sandbox\n
-otebooks-for-testing\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py:284, in BaseChatModel.invoke(
-self, input, config, stop, **kwargs)
-    [273](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/lang
-chain_core/language_models/chat_models.py:273) def invoke(
-    [274](file:///C:/POC/sandbox/notebooks-for-testing/.venv/
-Lib/site-packages/langchain_core/language_models/chat_models.py:274)     self,
-    [275](file:///C:/POC/sandbox/notebook
-s-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:275)     input: LanguageModelInput,
-
-   (...)
-    [279](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/c
-hat_models.py:279)     **kwargs: Any,
-    [280](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/lan
-gchain_core/language_models/chat_models.py:280) ) -> BaseMessage:
-    [281](file:///C:/POC/sandbox/notebooks-for-testing
-/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:281)     config = ensure_config(config)
-    [282]
-(file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:282)
-     return cast(
-    [283](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language
-_models/chat_models.py:283)         ChatGeneration,
---> [284](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/sit
-e-packages/langchain_core/language_models/chat_models.py:284)         self.generate_prompt(
-    [285](file:///C:/POC/san
-dbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:285)             [self.
-_convert_input(input)],
-    [286](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/la
-nguage_models/chat_models.py:286)             stop=stop,
-    [287](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Li
-b/site-packages/langchain_core/language_models/chat_models.py:287)             callbacks=config.get('callbacks'),
-    [2
-88](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:2
-88)             tags=config.get('tags'),
-    [289](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/
-langchain_core/language_models/chat_models.py:289)             metadata=config.get('metadata'),
-    [290](file:///C:/POC
-/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:290)             ru
-n_name=config.get('run_name'),
-    [291](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_
-core/language_models/chat_models.py:291)             run_id=config.pop('run_id', None),
-    [292](file:///C:/POC/sandbox
-/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:292)             **kwargs,
-
-    [293](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_model
-s.py:293)         ).generations[0][0],
-    [294](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/la
-ngchain_core/language_models/chat_models.py:294)     ).message
-
-File c:\POC\sandbox\notebooks-for-testing\.venv\Lib\site
--packages\langchain_core\language_models\chat_models.py:784, in BaseChatModel.generate_prompt(self, prompts, stop, callb
-acks, **kwargs)
-    [776](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_m
-odels/chat_models.py:776) def generate_prompt(
-    [777](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-pac
-kages/langchain_core/language_models/chat_models.py:777)     self,
-    [778](file:///C:/POC/sandbox/notebooks-for-testin
-g/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:778)     prompts: list[PromptValue],
-   (...)
-  
-  [781](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.
-py:781)     **kwargs: Any,
-    [782](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core
-/language_models/chat_models.py:782) ) -> LLMResult:
-    [783](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/si
-te-packages/langchain_core/language_models/chat_models.py:783)     prompt_messages = [p.to_messages() for p in prompts]
-
---> [784](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_model
-s.py:784)     return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)
-
-File c:\POC\sandbox\noteb
-ooks-for-testing\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py:641, in BaseChatModel.generate(se
-lf, messages, stop, callbacks, tags, metadata, run_name, run_id, **kwargs)
-    [639](file:///C:/POC/sandbox/notebooks-fo
-r-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:639)         if run_managers:
-    [640](
-file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:640) 
-            run_managers[i].on_llm_error(e, response=LLMResult(generations=[]))
---> [641](file:///C:/POC/sandbox/noteboo
-ks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:641)         raise e
-    [642](file
-:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:642) flat
-tened_outputs = [
-    [643](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language
-_models/chat_models.py:643)     LLMResult(generations=[res.generations], llm_output=res.llm_output)  # type: ignore[list
--item]
-    [644](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/cha
-t_models.py:644)     for res in results
-    [645](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/l
-angchain_core/language_models/chat_models.py:645) ]
-    [646](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/sit
-e-packages/langchain_core/language_models/chat_models.py:646) llm_output = self._combine_llm_outputs([res.llm_output for
- res in results])
-
-File c:\POC\sandbox\notebooks-for-testing\.venv\Lib\site-packages\langchain_core\language_models\chat
-_models.py:631, in BaseChatModel.generate(self, messages, stop, callbacks, tags, metadata, run_name, run_id, **kwargs)
- 
-   [628](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models
-.py:628) for i, m in enumerate(messages):
-    [629](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages
-/langchain_core/language_models/chat_models.py:629)     try:
-    [630](file:///C:/POC/sandbox/notebooks-for-testing/.ven
-v/Lib/site-packages/langchain_core/language_models/chat_models.py:630)         results.append(
---> [631](file:///C:/POC/
-sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:631)             sel
-f._generate_with_cache(
-    [632](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/la
-nguage_models/chat_models.py:632)                 m,
-    [633](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/si
-te-packages/langchain_core/language_models/chat_models.py:633)                 stop=stop,
-    [634](file:///C:/POC/sandb
-ox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:634)                 run_
-manager=run_managers[i] if run_managers else None,
-    [635](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site
--packages/langchain_core/language_models/chat_models.py:635)                 **kwargs,
-    [636](file:///C:/POC/sandbox/
-notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:636)             )
-    [637]
-(file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:637)
-         )
-    [638](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/language_models
-/chat_models.py:638)     except BaseException as e:
-    [639](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/sit
-e-packages/langchain_core/language_models/chat_models.py:639)         if run_managers:
-
-File c:\POC\sandbox\notebooks-fo
-r-testing\.venv\Lib\site-packages\langchain_core\language_models\chat_models.py:853, in BaseChatModel._generate_with_cac
-he(self, messages, stop, run_manager, **kwargs)
-    [851](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-pa
-ckages/langchain_core/language_models/chat_models.py:851) else:
-    [852](file:///C:/POC/sandbox/notebooks-for-testing/.
-venv/Lib/site-packages/langchain_core/language_models/chat_models.py:852)     if inspect.signature(self._generate).param
-eters.get('run_manager'):
---> [853](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/
-language_models/chat_models.py:853)         result = self._generate(
-    [854](file:///C:/POC/sandbox/notebooks-for-test
-ing/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:854)             messages, stop=stop, run_mana
-ger=run_manager, **kwargs
-    [855](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_core/
-language_models/chat_models.py:855)         )
-    [856](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-pack
-ages/langchain_core/language_models/chat_models.py:856)     else:
-    [857](file:///C:/POC/sandbox/notebooks-for-testing
-/.venv/Lib/site-packages/langchain_core/language_models/chat_models.py:857)         result = self._generate(messages, st
-op=stop, **kwargs)
-
-File c:\POC\sandbox\notebooks-for-testing\.venv\Lib\site-packages\langchain_community\chat_models\az
-ureml_endpoint.py:280, in AzureMLChatOnlineEndpoint._generate(self, messages, stop, run_manager, **kwargs)
-    [274](fil
-e:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:27
-4) request_payload = self.content_formatter.format_messages_request_payload(
-    [275](file:///C:/POC/sandbox/notebooks-
-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:275)     messages, _model_kwargs
-, self.endpoint_api_type
-    [276](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_commun
-ity/chat_models/azureml_endpoint.py:276) )
-    [277](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-package
-s/langchain_community/chat_models/azureml_endpoint.py:277) response_payload = self.http_client.call(
-    [278](file:///C
-:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:278)    
- body=request_payload, run_manager=run_manager
-    [279](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-pac
-kages/langchain_community/chat_models/azureml_endpoint.py:279) )
---> [280](file:///C:/POC/sandbox/notebooks-for-testing/
-.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:280) generations = self.content_formatter.fo
-rmat_response_payload(
-    [281](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_communit
-y/chat_models/azureml_endpoint.py:281)     response_payload, self.endpoint_api_type
-    [282](file:///C:/POC/sandbox/not
-ebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:282) )
-    [283](file:///
-C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:283) re
-turn ChatResult(generations=[generations])
-
-File c:\POC\sandbox\notebooks-for-testing\.venv\Lib\site-packages\langchain_
-community\chat_models\azureml_endpoint.py:142, in CustomOpenAIChatContentFormatter.format_response_payload(self, output,
- api_type)
-    [140](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_model
-s/azureml_endpoint.py:140)         choice = json.loads(output)['output']
-    [141](file:///C:/POC/sandbox/notebooks-for-
-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:141)     except (KeyError, IndexErro
-r, TypeError) as e:
---> [142](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/c
-hat_models/azureml_endpoint.py:142)         raise ValueError(self.format_error_msg.format(api_type=api_type)) from e
-   
- [143](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endp
-oint.py:143)     return ChatGeneration(
-    [144](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/l
-angchain_community/chat_models/azureml_endpoint.py:144)         message=AIMessage(
-    [145](file:///C:/POC/sandbox/note
-books-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:145)             content=c
-hoice.strip(),
-    [146](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_m
-odels/azureml_endpoint.py:146)         ),
-    [147](file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages
-/langchain_community/chat_models/azureml_endpoint.py:147)         generation_info=None,
-    [148](file:///C:/POC/sandbox
-/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py:148)     )
-    [149](
-file:///C:/POC/sandbox/notebooks-for-testing/.venv/Lib/site-packages/langchain_community/chat_models/azureml_endpoint.py
-:149) if api_type == AzureMLEndpointApiType.serverless:
-
-ValueError: Error while formatting response payload for chat mo
-del of type  `AzureMLEndpointApiType.dedicated`. Are you using the right formatter for the deployed  model and endpoint 
-type?
-
-‘’’
-
-
-```
----
-
-     
- 
-all -  [ What mistake am I making in this ChatPromptTemplate? ](https://www.reddit.com/r/LangChain/comments/1g7g4zd/what_mistake_am_i_making_in_this/) , 2024-10-23-0912
-```
-Hi all, here is my code:
-
-    from langchain_ollama import ChatOllama
-    from langchain_experimental.tools import Pytho
-nAstREPLTool
-    from langchain_core.prompts import ChatPromptTemplate
-    from langchain.output_parsers.openai_tools im
-port JsonOutputToolsParser
-    
-    import pandas as pd
-    
-    df = pd.read_csv('sample.csv', header=0)
-    tool = Pyt
-honAstREPLTool(locals={'df': df})
-    
-    model_name = 'llama3.1:latest'
-    
-    llm_o = ChatOllama(temperature=0.7, m
-odel=model_name)
-    llm_with_tools = llm_o.bind_tools([tool], tool_choice=tool.name)
-    parser = JsonOutputToolsParser
-()
-    
-    system = f'You have access to a pandas dataframe df, and here is a sample {df.head()}'
-    
-    prompt = Cha
-tPromptTemplate.from_messages([('system', system), ('human', '{question}')])
-    
-    chain = prompt | llm_with_tools | 
-parser | tool
-    question = 'What's the correlation between A and B'
-    chain.invoke({'question': question})
-
-This is 
-throwing up this error:
-
-    ValidationError: 1 validation error for PythonInputs
-      Input should be a valid dictiona
-ry or instance of PythonInputs [type=model_type, input_value=[{'args': {'query': 'pd.m...pe': 'python_repl_ast'}], input
-_type=list]
-        For further information visit https://errors.pydantic.dev/2.8/v/model_type
-
-
-
-Look at this Github is
-sue page, [https://github.com/langchain-ai/langchain/issues/13681](https://github.com/langchain-ai/langchain/issues/1368
-1) it seems I'm making error in my ChatPrompt. I'm not able to see what is the mistake. 
-
-I'm adapting from this tutoria
-l [https://python.langchain.com/docs/how\_to/sql\_csv/](https://python.langchain.com/docs/how_to/sql_csv/)
-
-  
-Any help 
-is appreciated!
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-23-0912
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-24-0913
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -1634,7 +1039,7 @@ I'm sure some teams already have good systems for this, would appreciate pointer
 
      
  
-MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-23-0912
+MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-24-0913
 ```
 GitHub repo : [https://github.com/shaRk-033/web-agent](https://github.com/shaRk-033/web-agent)
 
