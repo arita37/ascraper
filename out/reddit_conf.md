@@ -1,5 +1,79 @@
  
-all -  [ New to Research - Need Info on Publications [R][D] ](https://www.reddit.com/r/MachineLearning/comments/1gaa3o8/new_to_research_need_info_on_publications_rd/) , 2024-10-24-0913
+all -  [ Paper summaries for some of our papers that recently got accepted in NeurIPS ](https://www.reddit.com/r/learnmachinelearning/comments/1gb78i9/paper_summaries_for_some_of_our_papers_that/) , 2024-10-25-0913
+```
+Hey everyone, here is the list of papers by our groups that got accepted recently in NeurIPS 2024; It is a proud moment 
+for us as an all-UG group; all the papers were published without any external support from the academia; here is a summa
+ry of our papers. We hope this inspires others to pursue AI and look into research as a perspective where we can work to
+gether, and all you require is the right guidance (not even necessarily a PhD or a professor). If you find these papers 
+useful and want to working/collabrating with us, feel free to connect with us!
+
+* Give me a hint: Can LLMs take a hint t
+o solve math problems? 👉 [Arxiv link](https://arxiv.org/abs/2410.05915)
+   * We propose improving LLM performance on adv
+anced math problems using 'hints,' inspired by human pedagogy. We also test the model's robustness to incorrect hints. O
+ur approach is evaluated on various LLMs using diverse problems from the MATH dataset, comparing it with one-shot, few-s
+hot, and chain of thought prompting.
+* Attention Shift: Steering AI Away from Unsafe Content 👉 [Arxiv link](https://arxi
+v.org/abs/2410.04447)
+   * This study explores methods to restrict unsafe content in generative models. We propose a nov
+el training-free approach using attention reweighing to remove unsafe concepts during inference. Our method is compared 
+to existing techniques, evaluated on direct and adversarial jailbreak prompts. We also discuss potential causes, limitat
+ions, and broader implications.
+* Unmasking the Veil: An Investigation into Concept Ablation for Privacy and Copyright P
+rotection in Images 👉 [Arxiv link](https://arxiv.org/abs/2406.12592v1)
+   * This paper extends the study of concept abla
+tion in pre-trained models, as introduced by Kumari et al. (2022). We reproduce results from various concept ablation te
+chniques and propose a novel variant, 'trademark ablation,' to address branded elements in model outputs. We also analyz
+e the model's limitations, behavior under ablation leakage prompts, and performance degradation on unrelated concepts.
+
+
+**The Vision Language Group at IIT Roorkee** has compiled an excellent repository of **comprehensive summaries** for dee
+p learning papers from top conferences like **NeurIPS, CVPR, ICCV, and ICML (2016-2024)**. These summaries break down ke
+y papers in computer vision, NLP, and machine learning—perfect if you want to stay updated without diving deep into the 
+full papers.
+```
+---
+
+     
+ 
+all -  [ Paper summaries for some of our papers that recently got accepted in NeurIPS ](https://www.reddit.com/r/u_vlg_iitr/comments/1gb6csa/paper_summaries_for_some_of_our_papers_that/) , 2024-10-25-0913
+```
+Hey everyone, here is the list of papers by our groups that got accepted recently in NeurIPS 2024; It is a proud moment 
+for us as an all-UG group; all the papers were published without any external support from the academia; here is a summa
+ry of our papers. We hope this inspires others to pursue AI and look into research as a perspective where we can work to
+gether, and all you require is the right guidance (not even necessarily a PhD or a professor). If you find these papers 
+useful and want to working/collabrating with us, feel free to connect with us! 
+
+* Give me a hint: Can LLMs take a hint 
+to solve math problems? 👉 [Arxiv link](https://arxiv.org/abs/2410.05915)
+   * We propose improving LLM performance on ad
+vanced math problems using 'hints,' inspired by human pedagogy. We also test the model's robustness to incorrect hints. 
+Our approach is evaluated on various LLMs using diverse problems from the MATH dataset, comparing it with one-shot, few-
+shot, and chain of thought prompting.
+* Attention Shift: Steering AI Away from Unsafe Content 👉 [Arxiv link](https://arx
+iv.org/abs/2410.04447)
+   * This study explores methods to restrict unsafe content in generative models. We propose a no
+vel training-free approach using attention reweighing to remove unsafe concepts during inference. Our method is compared
+ to existing techniques, evaluated on direct and adversarial jailbreak prompts. We also discuss potential causes, limita
+tions, and broader implications.
+* Unmasking the Veil: An Investigation into Concept Ablation for Privacy and Copyright 
+Protection in Images 👉 [Arxiv link](https://arxiv.org/abs/2406.12592v1)
+   * This paper extends the study of concept abl
+ation in pre-trained models, as introduced by Kumari et al. (2022). We reproduce results from various concept ablation t
+echniques and propose a novel variant, 'trademark ablation,' to address branded elements in model outputs. We also analy
+ze the model's limitations, behavior under ablation leakage prompts, and performance degradation on unrelated concepts.
+
+
+**The Vision Language Group at IIT Roorkee** has compiled an excellent repository of **comprehensive summaries** for de
+ep learning papers from top conferences like **NeurIPS, CVPR, ICCV, and ICML (2016-2024)**. These summaries break down k
+ey papers in computer vision, NLP, and machine learning—perfect if you want to stay updated without diving deep into the
+ full papers.
+```
+---
+
+     
+ 
+all -  [ New to Research - Need Info on Publications [R][D] ](https://www.reddit.com/r/MachineLearning/comments/1gaa3o8/new_to_research_need_info_on_publications_rd/) , 2024-10-25-0913
 ```
 I have been writing and publishing a few papers/journals in the field of AI for the last two years now, but I am really 
 not sure what the best journals and conferences are. In my case, I usually write a paper, and my professor, based on the
@@ -27,7 +101,120 @@ f it's Scopus-indexed, it is a good conference/journal).
 
      
  
-all -  [ GitHub - showlab/EvolveDirector: [NeurIPS 2024] EvolveDirector: Approaching Advanced Text-to-Image G ](https://github.com/showlab/EvolveDirector) , 2024-10-24-0913
+all -  [ [D] Responses to false accusations of plagiarism for Gaunt Tensor Product paper ](https://www.reddit.com/r/MachineLearning/comments/1ga12d8/d_responses_to_false_accusations_of_plagiarism/) , 2024-10-25-0913
+```
+I’m posting this on behalf of the authors of the paper. The first author tried to make a post about this, but the post g
+ot removed for some reason. The author reached out to me because I was one of the people defending them, so see below fo
+r the author writeup about the accusations.
+
+**TL;DR**: We're the authors of the Gaunt Tensor Product paper, and we want
+ to directly address the false plagiarism accusations against our work. Our main contribution, a new perspective on tens
+or products of irreducible representations (irreps) in machine learning and equivariant neural networks, is novel and or
+iginal. The claimed 'similarity' are actually algorithms from elementary math and CS courses, and are not the main contr
+ibution of our work: our independent implementation is clear if you look at our code, which is quite different because w
+e had a completely different application area in mind. On the other hand, our core contributions, including establishing
+ the connection between tensor products of irreps and integrals of products of spherical harmonics and various design pa
+radigms of equivariant operations, are completely omitted. There is an oversight of citation due to the gap between fiel
+ds (machine learning vs. graphics), but this is not plagiarism, and now that we know about this, we are updating the pap
+er with the citation and discussion accordingly. This is similar situation to areas such as neural ODEs, where the origi
+nal ideas were in engineering papers in the '90s, and not cited in ML papers (including the 2018 NeurIPS paper) until mu
+ch later. The anonymous accuser is selectively replying, omitting key details, and controlling the narrative.
+
+**More de
+tails below**:
+
+We are the authors of \['Enabling Efficient Equivariant Operations in the Fourier Basis via Gaunt Tensor
+ Products'\](https://openreview.net/forum?id=mhyQXJ6JsK) . We are creating a new post to clearly outline our responses t
+o the false accusations of plagiarism that we've received for the Gaunt Tensor Product paper in another thread. While we
+ have replied on that thread, the anonymous OP of that thread is selectively replying and omitting a lot of information 
+from our responses, and we don't think it is fair that they single-handedly control the narrative. Note that we never go
+t any emails or posts on OpenReview from the author, who has instead decided to anonymously post on here.
+
+Firstly, we w
+ould like to comprehensively respond to the false accusations again:
+
+\- **The contributions of our work**: as emphasize
+d in our paper, our main contribution in this work is the new perspective on tensor products of irreps, which is novel a
+nd original to the machine learning community (Equations 3 and 4). The whole Section 3.1 elaborates on how to establish 
+the connection between tensor products of irreps and integrals of products of spherical harmonics. Although the OP claim
+s 'However, it is important to note that this derivation accounts for less than one page of the nine-page paper.', the f
+act is that our establishment and derivation are based on a series of rigorous deductions with many efforts on building 
+a solid mathematical foundation including group theory and quantum mechanics (please refer to Appendix A.1-A.7, page 16-
+28), which is not straightforward and trivial to obtain. Without these efforts, we cannot establish such connections, le
+t alone the efficient algorithm. In the context of equivariant machine learning, this derivation presents significance t
+o refresh the understanding of basic equivariant operations, which cannot be omitted.
+
+\- **The similarities of the effi
+cient algorithms between our work and FSHP work**: Firstly, we would like to apologize that we did not cite the FSHP wor
+k in our submission, which is unintentional and due to the gap between these two communities (we are from the ML communi
+ty, and they are from graphics, and the paper was not known to us until recently). We will update the arXiv version of o
+ur paper asap by adding a discussion paragraph to carefully discuss the FSHP work and our work. **On the other hand, we 
+also would like to clarify that there does not exist any plagiarism behavior of the FFT algorithm**: after we figure out
+ the relation between the tensor product of irreps and integrals of the product of three spherical harmonics, it is rath
+er natural to connect it with products of spherical functions. Moreover, there exist classical results for efficient com
+putation of products of spherical functions, i.e., Convolution Theorem and FFT, which involve elementary knowledge that 
+can be learned in several undergraduate classes: (1) change of basis, which can be learned in linear algebra and signal 
+processing and is used in both paper to connect spherical harmonics and Fourier basis; (2) FFT, which is commonly taught
+ in signal processing and numerical computation classes and is used for acceleration. Due to the basicness of these math
+ematical tools, both works follow the standard way to formalize and present, which leads to similarity. As we said, this
+ cannot be misrepresented as plagiarism because we independently worked on this, and did not know about the other work u
+ntil later because of the different communities. This is similar to work in areas such as neural ODEs, where the origina
+l ideas were in engineering papers in the '90s, and not cited in ML papers (including the 2018 NeurIPS paper) until much
+ later.
+
+\- **The differences in implementation**: it is noteworthy that, as a work for the equivariant machine learning
+ community, it is not enough to simply propose an approach just for the tensor product operation. What we really care ab
+out is the various design paradigms of equivariant operations, which are built upon tensor products. In Section 3.3, we 
+categorize these paradigms into three classes in terms of their different characteristics and applied range. For each cl
+ass of equivariant operations, we carefully specialize our approach by combining their properties and considering the re
+strictions. For example, for the equivariant convolution, we figure out that we can further leverage eSCN/EquiformerV2's
+ findings to achieve further acceleration; for the equivariant many-body interactions, a divide-and-conquer approach is 
+natural, which is also generally taught in various CS courses and projects. There also exist different instantiation str
+ategies in modern equivariant networks when applying these classes of operations, please refer to the Discussion paragra
+ph in Section 3.3 and Appendix C. Simply proposing the efficient approach for tensor products is not feasible to these m
+entioned points. Without these additional efforts and contributions, the efficient algorithm is not practical to be used
+ for the equivariant machine learning community,  which cannot be omitted.
+
+\- There is quite a lot of literature in the
+ last few decades in the graphics community on this, and this is another general point is that work on the graphics comm
+unity on efficient algorithms is not heard of and/or undercited in the rotationally equivariant neural networks communit
+y, when these algorithms pop up in a lot of equivariant NN work. Additionally, this graphics paper is not in the field o
+f ML, and this algorithm is being applied to a completely different area, which is why we did not see it originally and 
+had an independent formalization. Perhaps an analogy here is that there are papers applying Transformers to different ar
+eas like vision instead of language, but this shouldn't be 'plagiarism' at all. Likewise, neural ODEs shouldn't be consi
+dered plagiarism of traditional ODE solvers simply because they are using the same method (and indeed, some of the origi
+nal ideas of neural ODEs were in engineering papers from the '90s, and not discovered/cited in ML papers until later bec
+ause of the different communities). One user on this thread also put it well that the concepts here like FFT are quite w
+ell-known: 'After skimming, my impression is that those are well known results from textbooks and signal processing cour
+ses that nobody bother to cite anymore. I could be wrong.'
+
+\- The implementation in the GTP paper is fairly different f
+rom the FSHP paper and was implemented independently because we derived our implementation based on being motivated by o
+ur specific application area of ML for molecular modeling: their code is in C++, doesn't support efficient computations 
+for lower rotation orders (L), and is not made for use with irreducible representations. This should be clear when you s
+ee the code.
+
+\- The main purpose of the Equiformerv2 experiment with the self-mix layer was a proof-of-concept to show 
+that such a self-mix layer can be implemented because of the Gaunt Tensor Product formulation. Without this formulation 
+(and using the more standard Clebsch-Gordan Tensor Product), it would have been very slow to add this layer (and not gre
+at from a memory usage perspective). This can be made more clear in the arXiv version.
+
+Secondly, we would like to point
+ out that the anonymous OP of that thread is selectively replying to posts, and omitting a lot of information (including
+ in how they are updating their own thread, they do not include all of the details of our responses). To us, the posts a
+lso seem LLM generated but you should draw your own conclusions. We also posted this new topic because the authors respo
+nses on the original thread are all folded, which cannot be directly seen by new readers.
+
+Finally, we appreciate that m
+any people have been commenting on the thread to defend us. These types of anonymous, sensational claims can have seriou
+s implications and to post anonymously on Reddit before emailing us or posting on OpenReview is really problematic. We h
+ope that you all read these threads carefully before jumping to conclusions.
+```
+---
+
+     
+ 
+all -  [ GitHub - showlab/EvolveDirector: [NeurIPS 2024] EvolveDirector: Approaching Advanced Text-to-Image G ](https://github.com/showlab/EvolveDirector) , 2024-10-25-0913
 ```
 
 ```
@@ -35,7 +222,7 @@ all -  [ GitHub - showlab/EvolveDirector: [NeurIPS 2024] EvolveDirector: Approac
 
      
  
-all -  [ facechain open source TopoFR face embedding model ! ](https://www.reddit.com/r/StableDiffusion/comments/1g98si0/facechain_open_source_topofr_face_embedding_model/) , 2024-10-24-0913
+all -  [ facechain open source TopoFR face embedding model ! ](https://www.reddit.com/r/StableDiffusion/comments/1g98si0/facechain_open_source_topofr_face_embedding_model/) , 2024-10-25-0913
 ```
 Our work \[TopoFR\](https://github.com/modelscope/facechain/tree/main/face\_module/TopoFR) got accepted to NeurIPS 2024,
  welcome to try it out !
@@ -44,7 +231,7 @@ Our work \[TopoFR\](https://github.com/modelscope/facechain/tree/main/face\_modu
 
      
  
-all -  [ Confused about where to submit the paper for a conference ](https://www.reddit.com/r/PhD/comments/1g8d9st/confused_about_where_to_submit_the_paper_for_a/) , 2024-10-24-0913
+all -  [ Confused about where to submit the paper for a conference ](https://www.reddit.com/r/PhD/comments/1g8d9st/confused_about_where_to_submit_the_paper_for_a/) , 2024-10-25-0913
 ```
 I started working on a specific category of power balance problem using reinforcement learning. RL in power quality is n
 ot new but I’m working on community of microgrids using RL which can help supply electricity to remote areas in developi
@@ -56,7 +243,7 @@ me ASME conferences but I want to try my luck at ICML or NeurIPS. Do you think t
 
      
  
-all -  [ How to finish PhD within 3 years ? ](https://www.reddit.com/r/PhD/comments/1g7w95o/how_to_finish_phd_within_3_years/) , 2024-10-24-0913
+all -  [ How to finish PhD within 3 years ? ](https://www.reddit.com/r/PhD/comments/1g7w95o/how_to_finish_phd_within_3_years/) , 2024-10-25-0913
 ```
 I am about to start a PhD in mechanistic interpretability (subfield of explainable AI) in Germany. I worked in industry 
 before and am already 30 yo. I want to finish within 3 years. My graduation requirements are three journal papers. High 
@@ -80,7 +267,7 @@ pers in first year and network as much as possible in conference to find collabo
 
      
  
-all -  [ [R] Molecular Topological Profile (MOLTOP) - Simple and Strong Baseline for Molecular Graph Classifi ](https://www.reddit.com/r/MachineLearning/comments/1g7gj4m/r_molecular_topological_profile_moltop_simple_and/) , 2024-10-24-0913
+all -  [ [R] Molecular Topological Profile (MOLTOP) - Simple and Strong Baseline for Molecular Graph Classifi ](https://www.reddit.com/r/MachineLearning/comments/1g7gj4m/r_molecular_topological_profile_moltop_simple_and/) , 2024-10-25-0913
 ```
 Accepted at ECAI 2024 conference, ArXiv: [https://arxiv.org/abs/2407.12136](https://arxiv.org/abs/2407.12136)
 
@@ -132,7 +319,7 @@ s / answer any questions in the comments.
 
      
  
-all -  [ [D] Why do PhD Students in the US seem like overpowered final bosses  ](https://www.reddit.com/r/MachineLearning/comments/1g7dzkp/d_why_do_phd_students_in_the_us_seem_like/) , 2024-10-24-0913
+all -  [ [D] Why do PhD Students in the US seem like overpowered final bosses  ](https://www.reddit.com/r/MachineLearning/comments/1g7dzkp/d_why_do_phd_students_in_the_us_seem_like/) , 2024-10-25-0913
 ```
 Hello,
 
@@ -161,7 +348,7 @@ Thank you !
 
      
  
-all -  [ [5 YOE] Physics postdoc trying switch. ~100 applications, handful of interviews, no offers. ](https://www.reddit.com/r/EngineeringResumes/comments/1g60iw4/5_yoe_physics_postdoc_trying_switch_100/) , 2024-10-24-0913
+all -  [ [5 YOE] Physics postdoc trying switch. ~100 applications, handful of interviews, no offers. ](https://www.reddit.com/r/EngineeringResumes/comments/1g60iw4/5_yoe_physics_postdoc_trying_switch_100/) , 2024-10-25-0913
 ```
 Hi! My postdoc is expiring, and I've been looking for ML Engineer jobs. I'm also looking for ML Researcher roles. I've a
 pplied to 40+ places, with only a handful of interviews. Am I making any dumb errors as I'm trying to transition? I know
@@ -179,7 +366,7 @@ tqldvd1.png?width=5949&format=png&auto=webp&s=d36454ef7e65fae545a5bf7b8cf6baf745
 
      
  
-all -  [ How I Started Learning Machine Learning ](https://www.reddit.com/r/learnmachinelearning/comments/1g4x299/how_i_started_learning_machine_learning/) , 2024-10-24-0913
+all -  [ How I Started Learning Machine Learning ](https://www.reddit.com/r/learnmachinelearning/comments/1g4x299/how_i_started_learning_machine_learning/) , 2024-10-25-0913
 ```
 Hello, everyone. As promised, I'll write a longer post about how I entered the world of ML, hoping it will help someone 
 shape their path. I'll include links to all the useful materials I used alongside the story, which you can use for learn
@@ -346,7 +533,7 @@ Thank you for reading.
 
      
  
-all -  [ Does Grokking show that Scale will be enough to get LLMs to AGI? ](https://www.reddit.com/r/ChatGPT/comments/1g3eati/does_grokking_show_that_scale_will_be_enough_to/) , 2024-10-24-0913
+all -  [ Does Grokking show that Scale will be enough to get LLMs to AGI? ](https://www.reddit.com/r/ChatGPT/comments/1g3eati/does_grokking_show_that_scale_will_be_enough_to/) , 2024-10-25-0913
 ```
 Currently, there has been a lot of debate about whether LLMs truly reason or just memorize their training data (see this
  recent paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large 
@@ -391,7 +578,7 @@ e will need new breakthroughs to get to AGI.
 
      
  
-all -  [ Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/ArtificialInteligence/comments/1g3d6kf/will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-24-0913
+all -  [ Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/ArtificialInteligence/comments/1g3d6kf/will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-25-0913
 ```
 Currently there has been a lot of debate whether LLMs truly reason or just memorize their training data (see this recent
  paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Languag
@@ -435,7 +622,7 @@ all we need to AGI?
 
      
  
-all -  [ [D] Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/MachineLearning/comments/1g3cumr/d_will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-24-0913
+all -  [ [D] Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/MachineLearning/comments/1g3cumr/d_will_scale_be_enough_to_get_llms_to_reason/) , 2024-10-25-0913
 ```
 Currently there has been a lot of debate whether LLMs truly reason or just memorize their training data (see this recent
  paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Languag
@@ -480,7 +667,7 @@ nd we will need new breakthroughs to get to AGI?
 
      
  
-all -  [ University Recommendations for AI/ML Specialization in Europe ](https://www.reddit.com/r/learnmachinelearning/comments/1g39xgf/university_recommendations_for_aiml/) , 2024-10-24-0913
+all -  [ University Recommendations for AI/ML Specialization in Europe ](https://www.reddit.com/r/learnmachinelearning/comments/1g39xgf/university_recommendations_for_aiml/) , 2024-10-25-0913
 ```
 Hi everyone,
 
@@ -535,7 +722,7 @@ I feel if I go for PhD directly, I will be left with some knowledge gap.
 
      
  
-all -  [ Chance an underperforming Asian ](https://www.reddit.com/r/chanceme/comments/1g35v1n/chance_an_underperforming_asian/) , 2024-10-24-0913
+all -  [ Chance an underperforming Asian ](https://www.reddit.com/r/chanceme/comments/1g35v1n/chance_an_underperforming_asian/) , 2024-10-25-0913
 ```
 **Demographics**:
 
@@ -595,7 +782,7 @@ Majors are varied between Econ or CS with focus in AI
 
      
  
-all -  [ Low Undergrad Gpa decent exp? concerned about my chances? Should I do Gre? ](https://www.reddit.com/r/gradadmissions/comments/1fzj4wb/low_undergrad_gpa_decent_exp_concerned_about_my/) , 2024-10-24-0913
+all -  [ Low Undergrad Gpa decent exp? concerned about my chances? Should I do Gre? ](https://www.reddit.com/r/gradadmissions/comments/1fzj4wb/low_undergrad_gpa_decent_exp_concerned_about_my/) , 2024-10-25-0913
 ```
 Hey guys  
 I am an undergrad in ECE at a top 5 school with a 3.37 GPA and internship experience at a FAANG company. I am
@@ -635,7 +822,7 @@ Would love to hear any feedback on my school list or
 
      
  
-all -  [ [Article] HiCoM: Hierarchical Coherent Motion for Dynamic Streamable Scenes with 3D Gaussian Splatti ](https://www.reddit.com/r/Scholar/comments/1fzgn8o/article_hicom_hierarchical_coherent_motion_for/) , 2024-10-24-0913
+all -  [ [Article] HiCoM: Hierarchical Coherent Motion for Dynamic Streamable Scenes with 3D Gaussian Splatti ](https://www.reddit.com/r/Scholar/comments/1fzgn8o/article_hicom_hierarchical_coherent_motion_for/) , 2024-10-25-0913
 ```
 NeurIPS [https://nips.cc/virtual/2024/poster/96081](https://nips.cc/virtual/2024/poster/96081)
 ```
@@ -643,7 +830,7 @@ NeurIPS [https://nips.cc/virtual/2024/poster/96081](https://nips.cc/virtual/2024
 
      
  
-all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/deeplearning/comments/1fy6enm/some_research_papers_we_read_recently/) , 2024-10-24-0913
+all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/deeplearning/comments/1fy6enm/some_research_papers_we_read_recently/) , 2024-10-25-0913
 ```
 Hey everyone, here is the list of papers we discussed and their summaries this week. If you find these summaries useful,
  feel free to contribute your own! The repo is constantly updated with new papers from major conferences, so it's a grea
@@ -675,7 +862,7 @@ y reading! 🎉
 
      
  
-all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/u_vlg_iitr/comments/1fy6a5e/some_research_papers_we_read_recently/) , 2024-10-24-0913
+all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/u_vlg_iitr/comments/1fy6a5e/some_research_papers_we_read_recently/) , 2024-10-25-0913
 ```
 Hey everyone, here is the list of papers we discussed and their summaries this week. If you find these summaries useful,
  feel free to contribute your own! The repo is constantly updated with new papers from major conferences, so it's a grea
@@ -708,7 +895,7 @@ appy reading! 🎉
 
      
  
-all -  [ [0 YoE, Student, ML Research/SWE Internship, USA] ](https://www.reddit.com/r/resumes/comments/1fy0sj4/0_yoe_student_ml_researchswe_internship_usa/) , 2024-10-24-0913
+all -  [ [0 YoE, Student, ML Research/SWE Internship, USA] ](https://www.reddit.com/r/resumes/comments/1fy0sj4/0_yoe_student_ml_researchswe_internship_usa/) , 2024-10-25-0913
 ```
 Hi! I've never made a resume before, so this one isn't ATS optimized yet, way too long, and imo very uninteresting for a
 n interviewer or recruiter to look at. I'm in my junior year, so it's the time to fix all that for internships and resea
@@ -736,7 +923,7 @@ a couple advisors. But im concerned that people will see i'm a student and and w
 
      
  
-all -  [ Are IEEE/CVF the top conferences for CV/Image Processing? ](https://www.reddit.com/r/computervision/comments/1fxfwpo/are_ieeecvf_the_top_conferences_for_cvimage/) , 2024-10-24-0913
+all -  [ Are IEEE/CVF the top conferences for CV/Image Processing? ](https://www.reddit.com/r/computervision/comments/1fxfwpo/are_ieeecvf_the_top_conferences_for_cvimage/) , 2024-10-25-0913
 ```
 As the title say, are IEEE/CVF to CV what ICLR, ICML, NeurIPS are to AI?
 ```
@@ -744,7 +931,7 @@ As the title say, are IEEE/CVF to CV what ICLR, ICML, NeurIPS are to AI?
 
      
  
-all -  [ approved I797-A but expired visa stamp; travel to Canada for 6 days? ](https://www.reddit.com/r/h1b/comments/1fx81is/approved_i797a_but_expired_visa_stamp_travel_to/) , 2024-10-24-0913
+all -  [ approved I797-A but expired visa stamp; travel to Canada for 6 days? ](https://www.reddit.com/r/h1b/comments/1fx81is/approved_i797a_but_expired_visa_stamp_travel_to/) , 2024-10-25-0913
 ```
 Hi, my H1-B visa stamp on my passport expired on Aug 6, 2023.
 
@@ -773,7 +960,7 @@ ll be via flight. Please advise.
 
      
  
-all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://www.reddit.com/r/learnmachinelearning/comments/1fwpt7r/consent_in_crisis_neurips_2024_paper_summary_via/) , 2024-10-24-0913
+all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://www.reddit.com/r/learnmachinelearning/comments/1fwpt7r/consent_in_crisis_neurips_2024_paper_summary_via/) , 2024-10-25-0913
 ```
 [https://www.youtube.com/watch?v=1I-ABssKrps](https://www.youtube.com/watch?v=1I-ABssKrps)
 ```
@@ -781,7 +968,7 @@ all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://w
 
      
  
-all -  [ LASR Labs (technical AIS research programme) applications open until Oct 27th ](https://www.reddit.com/r/ControlProblem/comments/1fw5k1d/lasr_labs_technical_ais_research_programme/) , 2024-10-24-0913
+all -  [ LASR Labs (technical AIS research programme) applications open until Oct 27th ](https://www.reddit.com/r/ControlProblem/comments/1fw5k1d/lasr_labs_technical_ais_research_programme/) , 2024-10-25-0913
 ```
 🚨**LASR Labs: Spring research programme in AI Safety** 🚨
 
@@ -823,7 +1010,7 @@ We’re looking for candidates with \~2 years experience in relevant postgraduat
 
      
  
-all -  [ [D] Option to make NeurIPS rejected paper reviews public? ](https://www.reddit.com/r/MachineLearning/comments/1fvy0n4/d_option_to_make_neurips_rejected_paper_reviews/) , 2024-10-24-0913
+all -  [ [D] Option to make NeurIPS rejected paper reviews public? ](https://www.reddit.com/r/MachineLearning/comments/1fvy0n4/d_option_to_make_neurips_rejected_paper_reviews/) , 2024-10-25-0913
 ```
 The decision notification e-mail from NeurIPS mentioned that we would be offered the option to opt in to publicly releas
 ing reviews for a rejected paper and that instructions would follow in a few days.
@@ -838,7 +1025,7 @@ t yet received any e-mail nor is there any author task to opt in. Since last yea
 
      
  
-all -  [ [R] Announcing the first series of Liquid Foundation Models (LFMs) – a new generation of generative  ](https://www.reddit.com/r/MachineLearning/comments/1fvgo7o/r_announcing_the_first_series_of_liquid/) , 2024-10-24-0913
+all -  [ [R] Announcing the first series of Liquid Foundation Models (LFMs) – a new generation of generative  ](https://www.reddit.com/r/MachineLearning/comments/1fvgo7o/r_announcing_the_first_series_of_liquid/) , 2024-10-25-0913
 ```
 https://www.liquid.ai/liquid-foundation-models
 
@@ -954,7 +1141,7 @@ al networks [Wang et al. CoRL 2023], and the state-of-the-art dataset distillati
 
      
  
-all -  [ Bringing Learning to Rank to Reddit - LTR modeling ](https://www.reddit.com/r/RedditEng/comments/1ft1tkw/bringing_learning_to_rank_to_reddit_ltr_modeling/) , 2024-10-24-0913
+all -  [ Bringing Learning to Rank to Reddit - LTR modeling ](https://www.reddit.com/r/RedditEng/comments/1ft1tkw/bringing_learning_to_rank_to_reddit_ltr_modeling/) , 2024-10-25-0913
 ```
 *Written by Sahand Akbari.*
 
@@ -1183,7 +1370,7 @@ thing we aim to discuss in a future blog post. So stay tuned!
 
      
  
-all -  [ MSCS FALL'25 Profile evaluation ](https://www.reddit.com/r/MSCS/comments/1ft08a6/mscs_fall25_profile_evaluation/) , 2024-10-24-0913
+all -  [ MSCS FALL'25 Profile evaluation ](https://www.reddit.com/r/MSCS/comments/1ft08a6/mscs_fall25_profile_evaluation/) , 2024-10-25-0913
 ```
 # Country:
 
@@ -1232,7 +1419,7 @@ nisota
 
      
  
-all -  [ [D] Resources for staying updated on recent papers ](https://www.reddit.com/r/MachineLearning/comments/1fsx8q2/d_resources_for_staying_updated_on_recent_papers/) , 2024-10-24-0913
+all -  [ [D] Resources for staying updated on recent papers ](https://www.reddit.com/r/MachineLearning/comments/1fsx8q2/d_resources_for_staying_updated_on_recent_papers/) , 2024-10-25-0913
 ```
 Hello, I’m looking for time-saving ways to stay updated on the latest research papers from conferences like CVPR, ECCV, 
 NeurIPS, ICML, and journals like TPAMI. I know these conferences/journals publish cutting-edge work, but keeping track o
@@ -1255,7 +1442,7 @@ nce!
 
      
  
-all -  [ [R] optimizing transformers ](https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/) , 2024-10-24-0913
+all -  [ [R] optimizing transformers ](https://www.reddit.com/r/MachineLearning/comments/1fsgz5i/r_optimizing_transformers/) , 2024-10-25-0913
 ```
 Hello, I’m currently aiming to work on optimizing transformer models, specifically in multi-view images and/or cross-att
 ention networks. I've noticed that cross-attention layers add up a lot of parameters, which can slow down the training p
@@ -1281,7 +1468,7 @@ ce!
 
      
  
-all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-10-24-0913
+all -  [ LEGO Meets AI: BricksRL Accepted at NeurIPS 2024! ](https://www.reddit.com/r/reinforcementlearning/comments/1fpebw9/lego_meets_ai_bricksrl_accepted_at_neurips_2024/) , 2024-10-25-0913
 ```
 We're excited to share that our paper on BricksRL, a library of RL algorithms that can be trained and deployed on afford
 able, custom LEGO robots, has been accepted at NeurIPS 2024 as a spotlight paper!
@@ -1325,7 +1512,7 @@ https://preview.redd.it/1ghfs9t9l0rd1.jpg?width=2006&format=pjpg&auto=webp&s=86
 
      
  
-all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-10-24-0913
+all -  [ [D] NeurIPS 2024 Review Question  ](https://www.reddit.com/r/MachineLearning/comments/1fpa7ua/d_neurips_2024_review_question/) , 2024-10-25-0913
 ```
 My initial reviewers addressed some weaknesses & concerns, but these were resolved in my rebuttals. They acknowledged an
 d raised their score. 
@@ -1338,7 +1525,7 @@ ything I can do to fix this program chair review?
 
      
  
-all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-10-24-0913
+all -  [ [D] - NeurIPS 2024 Decisions ](https://www.reddit.com/r/MachineLearning/comments/1foky4r/d_neurips_2024_decisions/) , 2024-10-25-0913
 ```
 Hey everyone! Just a heads up that the NeurIPS 2024 decisions notification is set for September 26, 2024, at 3:00 AM CES
 T. I thought it’d be cool to create a thread where we can talk about it.
@@ -1347,7 +1534,7 @@ T. I thought it’d be cool to create a thread where we can talk about it.
 
      
  
-all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-10-24-0913
+all -  [ Should I go for a masters, professional masters, or PhD? ](https://www.reddit.com/r/gradadmissions/comments/1foc03f/should_i_go_for_a_masters_professional_masters_or/) , 2024-10-25-0913
 ```
 My goal with graduate school is to set myself up to launch a company that produces a system of swarm robots that coopera
 te to efficiently assemble orbital infrastructure; I believe the space industry is in the process of taking off and such
@@ -1380,77 +1567,6 @@ s still a company I know I'll need more business knowhow to make it successful. 
 tartups, so I'm left deciding between a dual research-based MS/PhD and MBA OR pursuing a professional masters focused on
  entrepreneurship (see CMU's MSAII or MRSD programs) and getting out into the market faster. CMU, MIT, and Stanford alum
 s in particular, what do you think best aligns with my goals? Thank you for any feedback you can offer!
-```
----
-
-     
- 
-all -  [ Post-Doc Position in Intersection of LLMs/Reasoning/Data at Stanford Scaling Intelligence Lab ](https://www.reddit.com/r/CompSocial/comments/1fnnziy/postdoc_position_in_intersection_of/) , 2024-10-24-0913
-```
-Azalia Mirhoseini (CS) and Amin Saberi (Math) are jointly seeking a Post-Doc to join the [Scaling Intelligence Lab](http
-s://scalingintelligence.stanford.edu/pubs/) at Stanford, which focuses on the development of 'scalable and self-improvin
-g AI systems and methodologies towards the goal of AGI.' 
-
-The post-doc researcher would work with both professors to co
-ntribute to cutting-edge research at the intersection of language models, data, and reasoning. From the call:
-
->The post
-doc will be expected to help define the research questions of interest, and lead both empirical and methodological resea
-rch efforts towards publication, working together with student collaborators. Teaching is not required as part of this p
-osition.
-
->Required Qualifications: 
-
->\* Strong mathematical background, including expertise in one or more of the foll
-owing areas: machine learning, statistics, and algorithms.
-
->\* Ph.D. (or expected completion by Fall 2024) in computer 
-science, statistics, operations research, or related fields
-
->\* Prior experience working with data, including expertise
- with computational methods 
-
->\* Prior experience building ML systems, designing and running experiments in PyTorch or 
-JAX
-
->\* Strong publication record in top machine learning conferences (e.g. NeurIPS, ICML, ICLR). A strong background i
-n theory is a plus.   
-
-To learn more about the role and how to apply, visit: [https://docs.google.com/document/d/1SBfvF
-hLF4hSseTBybXRKJeRFMxqw4ahQ9f4Cf5Vbl7I/edit](https://docs.google.com/document/d/1SBfvFhLF4hSseTBybXRKJeRFMxqw4ahQ9f4Cf5V
-bl7I/edit)
-```
----
-
-     
- 
-all -  [ Looking at quant jobs from unconventional path ](https://www.reddit.com/r/FinancialCareers/comments/1fnefe2/looking_at_quant_jobs_from_unconventional_path/) , 2024-10-24-0913
-```
-Hi folks!
-
-I am very new to quant/fintech so please forgive me for my naivety and all the mistakes I make. I was doing a
-n MBBS (equivalent to a US MD) from India at one of the top med schools in the country and was so done with the people a
-nd culture that I dropped out recently and started a degree in Data Science at another top university in India (although
- my program is not considered competitive at all, I couldn't go via normal route because it usually takes years of prepa
-ration \~6-7 years to get into the traditional program). For now, I have \~4/4 gpa.
-
-I have been doing a lot of neurosci
-ence and have several publications concerning clinical data analyses (2), experimental neuroscience (1), one on dimensio
-nality reduction algo, submitting to neurips workshops this year (3), on a topic based on physics and neuroscience prese
-nting to neuroscience conference, math neuro conferences, a few other research experiences using neuroscience datasets, 
-etc. This year I am also joining a lab in Germany for research. I was previously a SURF at Caltech. And the list goes on
- in the direction that to me seems very tangential to quant jobs.
-
-For as long as I can remember I have been in love wit
-h neuroscience and machine learning and now I have begun to look towards more quantitative and complex ideas above neuro
-science and my first thought is either research in quantum computing (QML) or quant research jobs.
-
-I am probably being 
-super crazy thinking of even doing this, but I was wondering whether I have any chance of getting an interview at let's 
-say, the Jane Street internship program, next year while I focus more on getting research in ML/math this year. Or shoul
-d I do something else with my life?
-
-Thanks for all the insight!
 ```
 ---
 
