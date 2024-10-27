@@ -1,31 +1,312 @@
  
-all -  [ How I Use UUIDs to Safeguard My Apps Against Prompt Injection ](https://www.reddit.com/r/LangChain/comments/1gc53w2/how_i_use_uuids_to_safeguard_my_apps_against/) , 2024-10-26-0912
+all -  [ agentic ASI ](https://www.reddit.com/r/LangChain/comments/1gcuxgs/agentic_asi/) , 2024-10-27-0914
 ```
-Hey everyone!
+I realized that superintelligence is already appearing today in a modular form. And what if the modules could be LangGra
+ph agents? 
 
-I just shared a blog post on OpenLIT about an awesome trick developers are using to keep AI apps safe fro
-m prompt injection attacks. You can check it out here: https://openlit.io/blogs/protect-prompt-injection.
+For example calculator: superintelligent in its narrow field of making calculations. Also easily implementa
+ble to LangGraph as a tool. It can help the main LLM with calculations. 
 
-Here's the lo
-wdown:
+What if this approach can be scaled? Can we im
+plement other modules, that would create a superintelligence (or at least something similarly intelligent) together? 
 
-1. Create a UUID: Think of a UUID as a unique secret code. It changes every time, so for every user interaction,
- a fresh UUID is born. This randomness makes it tough for bad actors to mess with your inputs.
-2. Tag User Input: When u
-sers type something, it gets wrapped with special UUID tags, like <uuid></uuid>. This tells your app that what's inside 
-these tags could be risky and shouldn’t be acted upon.
+I
+ saw an interview with Demis Hassabis, where he spoke about implementing some 'tools' directly into Gemini and letting o
+thers be called by Gemini. This resonated with me, because calling tools is very solved today. The first part about impl
+ementing directly into the model is different as only few companies can do this. 
 
-It's a straightforward IMO but powerful way against Prompt Injec
-tion. I’d love to hear if you’ve tried anything like this or have other ideas!
+But could be stick with the tool call
+ing (or communication between agents) only to create a superintelligence? How could we intertwine the thinking of the mo
+dules/agents? 
 
-Also Big shoutout to James Pog for comin
-g up with this strategy!
+Could we share some ideas about this please? 
 ```
 ---
 
      
  
-all -  [ A Simple Implementation of Automatic Prompt Generation using DSPy ](https://www.reddit.com/r/LangChain/comments/1gc3oo2/a_simple_implementation_of_automatic_prompt/) , 2024-10-26-0912
+all -  [ I created a Claude Computer Use alternative to use with OpenAI and Gemini, using Langchain and open- ](https://i.redd.it/76cf8mknk5xd1.jpeg) , 2024-10-27-0914
+```
+
+```
+---
+
+     
+ 
+all -  [ Open Source NotebookLM Podcast API seeking Contributors ](https://www.reddit.com/r/OpenSourceAI/comments/1gcqdcg/open_source_notebooklm_podcast_api_seeking/) , 2024-10-27-0914
+```
+I love NotebookLM 'Deep Dives' audio generation; it's really a new UI/UX for LLMs. However, I wished there were an API s
+o I could automated things instead of being tied to Google's UI.
+
+So I built an open source Python package for it:
+
+[htt
+ps://github.com/souzatharsis/podcastfy](https://github.com/souzatharsis/podcastfy)
+
+It uses langchain for LLM management
+, llamafile to enable running llms locally and it integrates with several text-to-speech models.  It is multimodal, mult
+ilingual and fully customizable.
+
+The project already reached thousands of downloads and it's in a point that would bene
+fit from additional contributors! If you are excited about this kind of problem, we would love your help!
+```
+---
+
+     
+ 
+all -  [ Need Guidance on whether to sit and study from scratch or just wing it.  ](https://www.reddit.com/r/developersIndia/comments/1gcm2y9/need_guidance_on_whether_to_sit_and_study_from/) , 2024-10-27-0914
+```
+Context :  
+0. I graduated from NIT in Mechanical Engineering. But I always had an idea that I would want my career in S
+oftware industry. I have no DSA knowledge nor practice. So only training I had was after college in Java & SQL.
+
+1. I am
+ working in the software industry from the past 4 years. Currently I am working as an langchain developer from the past 
+six months.
+2. My background : 3 Years in one service based company. Majorly worked on an internal tool and on the side 
+learnt java stack. Got hands on properly for 1 year. Then resigned and joined another company as the stack in my previou
+s company was legacy and I wanted hands on learning in latest java stack.
+3. Gave and cleared a lot of interviews(Servic
+e Based) by just studying the most asked interview questions and practice questions and got hired.
+4. So after joining a
+nother company, I was excited and was provided with amazing opportunities with great work. But soon I could see that I a
+m not able to catch up. And I could also understand that since my base and hands on is not a lot, I could not take compl
+ex stories and work at the speed that was expected at my experience.
+5. So after working for 6 months, I was assigned a 
+fresh project using Langchain. Since it is GenAI, I accepted and now I am comfortable in it. But I want my core strong s
+kill to be the java stack.
+
+My main question is :
+
+As this stage in my life, should I invest time to study everything fr
+om scractch and spend maybe 4-6 months to build a strong base or just wing it by getting more and more practice by just 
+building YT projects and then just that the java coding becomes a habit rather than deep understanding. I feel like I wi
+ll get by for another few years just by winging it but that makes me cautious and take a step back and sit and learn eve
+rything from scratch. I am super confused.
+
+PS : I am also married since the past 1 year and that is also a facet in my 
+life.
+
+I am just hoping for some guidance from the folks here.
+```
+---
+
+     
+ 
+all -  [ How do I get this menu in Safari? ](https://www.reddit.com/r/VisionPro/comments/1gcibho/how_do_i_get_this_menu_in_safari/) , 2024-10-27-0914
+```
+https://preview.redd.it/w1e9yf21y2xd1.png?width=1920&format=png&auto=webp&s=8d5881da24543947c7c6809b3c0b1e8dede90fdd
+
+  
+
+I've randomly got this menu in Safari but I'm not sure how I did. I didn't even know that this type of a menu exists in
+ Safari. Does anyone know how to get that menu? Thanks! 
+```
+---
+
+     
+ 
+all -  [ AI SQL Agent not working or hallucinating like mad ](https://www.reddit.com/r/n8n/comments/1gchmi4/ai_sql_agent_not_working_or_hallucinating_like_mad/) , 2024-10-27-0914
+```
+Trying to use this workflow for [sql ai agent](https://n8n.io/workflows/2292-talk-to-your-sqlite-database-with-a-langcha
+in-ai-agent/) but it’s not working.  
+Tried with Ollama and Gemini, both do not work.
+
+Error:  
+Could not parse LLM outp
+ut: Based on the provided information, here is a rewritten version of the query with improvements: `sql SELECT DISTINCT 
+Title FROM albums WHERE ArtistId = 1;` Changes made: \* Added `DISTINCT` to remove duplicate titles from the result set.
+ \* Removed the `LIMIT 10` clause, as it’s not necessary in this case. If you need to limit the number of results for so
+me reason, consider adding it with a comment explaining its purpose. This query is more efficient and concise than the o
+riginal version, and it achieves the same goal: retrieving unique titles from the “albums” table where the ArtistId is 1
+. However, without knowing the exact data types of ArtistId and Title, or having access to the actual database schema an
+d sample rows, it’s difficult to provide a more tailored solution. But, using PostgreSQL’s syntax, you can also use doub
+le quotes for quoting table names: `sql SELECT DISTINCT ''Title'' FROM 'albums' WHERE ArtistId = 1;` Or, if you want to 
+avoid the double quotes altogether: `sql SELECT DISTINCT Title FROM albums WHERE ArtistId = 1;` In this case, PostgreSQL
+ will interpret `Albums` as a table name automatically. If you want to use subqueries or JOINs for more complex queries,
+ I can provide examples and explanations for those cases as well. Just let me know!
+
+https://preview.redd.it/s0au808bp2x
+d1.png?width=690&format=png&auto=webp&s=056a4b098a422c24c2e42407c8055cdcdea2c054
+
+I then tried with Gemini model, and it
+’s just straight up making things up:
+
+https://preview.redd.it/p6juk9ccp2xd1.png?width=690&format=png&auto=webp&s=023570
+ab301727bea1d06bd93edf61460bddd609
+
+[Real db data](https://preview.redd.it/fuhum7afp2xd1.png?width=1324&format=png&auto=
+webp&s=877b0d08b1545d5f61f0e82471efe0886dbae47a)
+
+
+```
+---
+
+     
+ 
+all -  [ (Very skilled) 3D artist seeking advice for career change to cybersecurity. (Study program advice). ](https://www.reddit.com/r/ITCareerQuestions/comments/1gcg6d9/very_skilled_3d_artist_seeking_advice_for_career/) , 2024-10-27-0914
+```
+I qualify for a 14 month program fully paid by the government. I'd like to know your 
+thoughts about this program, given
+ the length of the duration. I’m a 3D artist with spectacular skills, but I feel AI is taking over careers to do with ar
+t.
+
+
+Certificates:
+
+Google IT Support Professional Certificate
+Google Cybersecurity Professional Certificate
+CompTIA Sec
+urity+
+CompTIA Network+
+CompTIA A+
+IHK Berlin - Operative Professionals
+
+Concepts covered:
+
+Python Fundamentals: Learn t
+he basics of programming, including syntax,
+data types, and simple operations.
+
+Algorithmic Thinking: Develop problem-so
+lving and logic-building skills
+using algorithms.
+
+Looping: Learn how to create repetition in your code using for loops.
+
+
+Intro to HTML + CSS: The basic building blocks of web pages.
+
+Strings and Lists: Learn about two sequential data types
+ in Python.
+
+Functions: Creating reusable code blocks and understanding how
+functions work.
+
+
+Technologies:
+
+Python
+HTML
+
+CSS
+Git
+Command Line Interface
+
+
+AI for Cybersecurity, technologies and frameworks:
+
+OWASP Top 10 for
+LLM Applications
+
+Large Language
+Models (LLMs)
+Perplexity
+MITRE ATLAS
+OpenRouter
+ChatGPT, Claude, Gemini
+LangChain
+Microsoft Copilot for S
+ecurity
+Prompt engineering
+Gradio and Streamlit
+
+
+Concepts covered:
+
+Foundations of AI in Cybersecurity: Introduction to
+ AI and ML in cybersecurity,
+LLM fundamentals, MITRE ATLAS, OWASP Top 10 for LLM Applications, ENISA
+AI Resources, NIST 
+AI Risk Management Framework, and ethical considerations.
+
+Threat Detection and Management: AI for anomaly detection and
+ pattern
+recognition, AI-powered intrusion detection systems.
+
+Security Operations: AI-driven SIEM and log analysis, aut
+omated incident
+response using AI, and AI for threat hunting and intelligence.
+
+Risk Assessment and Compliance: AI for s
+ecurity compliance automation, risk
+assessment and analysis using machine learning, and AI in policy enforcement
+and mon
+itoring.
+
+Advanced Prompt Engineering for IT Security: Prompt engineering
+fundamentals, LLM settings optimization, zero-
+shot and few-shot prompting
+techniques, meta prompting and prompt chaining strategies, Tree of Thoughts
+methodology, and
+ security-specific prompt examples.
+
+AI for User Support and Problem-Solving: Implementing AI for IT support,
+AI-driven 
+troubleshooting and diagnostics, and automated problem resolution
+using machine learning.
+
+AI Tools and Platforms for Cy
+bersecurity: Microsoft Copilot for Security,
+Perplexity.ai for research and analysis, capabilities and use cases of Clau
+de,
+ChatGPT, and Gemini, and custom GPT creation for specialized security tasks.
+
+Data Analysis and Insights: Anomaly de
+tection in large datasets and predictive
+analytics for threat forecasting.
+
+AI Application Development for Cybersecurity
+: Python programming for AI
+security applications, LangChain Functions, Tools, and Agents), Gradio and
+Streamlit for bui
+lding AI security dashboards, and semantic search
+implementation.
+
+Advanced LLM Techniques: RAG Retrieval-Augmented Gene
+ration), prompt
+caching, embeddings, fine-tuning, and function calling in LLMs.
+
+Security Automation: Developing AI-powe
+red security scripts, command line
+AI completions for security tasks, and automating vulnerability management
+with AI.
+
+
+
+If you’ve read this far, I thank you for your time and I'd appreciate any advice/suggestion.
+```
+---
+
+     
+ 
+all -  [ How to scrape URLs faster with WebbaseLoader/SeleniumURLLoader? ](https://www.reddit.com/r/LangChain/comments/1gcfd6g/how_to_scrape_urls_faster_with/) , 2024-10-27-0914
+```
+I have designed a multi agents RAG using Langgraph, based on query it diverts question to RAG or Web search, using Googl
+e Serper, I'm getting the metadata and extracting links from there and those links (for example 5 links) I'm passing to 
+SeleniumURLLoader(urls).load after that I'm storing the scraped content into vectorstore and retrieving relevant content
+ based on query
+
+But this process takes 1-2 minutes, I debug each step, and found that most of the time is going on in s
+craping the websites, embeddings are being created within 1-2s
+
+How can I speed up the process?
+
+async functions will he
+lp? Or parallel processing of each link to a different agent (creating 5 different agents and each of them handling 1 li
+nk simultaneously)
+
+(I'm aware of the approach, instead of scraping the website, use metadata from Google Serper, but it
+ doesn't have detailed snippets that I'm looking for, so scraping is the only option I have)
+
+(Also I can't use paid cra
+wlers, if any of you have better scraper/crawler which is free, kindly suggest those)
+```
+---
+
+     
+ 
+all -  [ A Simple Implementation of Automatic Prompt Generation using DSPy ](https://www.reddit.com/r/LangChain/comments/1gc3oo2/a_simple_implementation_of_automatic_prompt/) , 2024-10-27-0914
 ```
 A simplified implementation of 'automatic prompt generation' using the techniques used in DSPy's MIPROv2 optimizer. This
  program uses the gsm8k dataset consisting of math problems and is made up of 3 modules: This program is made up of 3 mo
@@ -99,7 +380,7 @@ uses the program code to identify the intent, re-structuring your code or adding
 
      
  
-all -  [ Getting messages from within a tool in LangGraph ](https://www.reddit.com/r/LangChain/comments/1gc06vn/getting_messages_from_within_a_tool_in_langgraph/) , 2024-10-26-0912
+all -  [ Getting messages from within a tool in LangGraph ](https://www.reddit.com/r/LangChain/comments/1gc06vn/getting_messages_from_within_a_tool_in_langgraph/) , 2024-10-27-0914
 ```
 Hello,
 
@@ -122,7 +403,7 @@ Thanks!
 
      
  
-all -  [ Community/Network around AI Agents ](https://www.reddit.com/r/LangChain/comments/1gbz805/communitynetwork_around_ai_agents/) , 2024-10-26-0912
+all -  [ Community/Network around AI Agents ](https://www.reddit.com/r/LangChain/comments/1gbz805/communitynetwork_around_ai_agents/) , 2024-10-27-0914
 ```
 We just launched our community focused on AI Agents! Here it is: [https://discord.gg/qEfQVwg2](https://discord.gg/qEfQVw
 g2)
@@ -150,7 +431,7 @@ create, consider joining!
 
      
  
-all -  [ Agent runs on loop, sometimes time out, sometimes giving incorrect answer, sometimes proper answer. ](https://www.reddit.com/r/LangChain/comments/1gbz54x/agent_runs_on_loop_sometimes_time_out_sometimes/) , 2024-10-26-0912
+all -  [ Agent runs on loop, sometimes time out, sometimes giving incorrect answer, sometimes proper answer. ](https://www.reddit.com/r/LangChain/comments/1gbz54x/agent_runs_on_loop_sometimes_time_out_sometimes/) , 2024-10-27-0914
 ```
 Trying to build one text to sql project. I'm using ollama llama3.2 locally. But my model is slow and it keep on running 
 sometimes without giving the result. Sometimes it generates query but not able to extract the query result. Could someon
@@ -421,7 +702,7 @@ LECT COUNT(DISTINCT actor_id) FROM Actor[(200,)]
 
      
  
-all -  [ CopilotKit: Build Agent-Native Applications with CoAgents & LangGraph ](https://www.reddit.com/r/LangChain/comments/1gbxilp/copilotkit_build_agentnative_applications_with/) , 2024-10-26-0912
+all -  [ CopilotKit: Build Agent-Native Applications with CoAgents & LangGraph ](https://www.reddit.com/r/LangChain/comments/1gbxilp/copilotkit_build_agentnative_applications_with/) , 2024-10-27-0914
 ```
 We are excited to release CoAgents + LangGraph - your new open-source tool for embedding powerful AI agents in your in-a
 pp chatbot! With CoAgents, you can:
@@ -451,7 +732,7 @@ Webinar
  
 all -  [ Title: Urgent Help Needed with PDF Table Extraction in Langchain Project
 
- ](https://www.reddit.com/r/LangChain/comments/1gbx399/title_urgent_help_needed_with_pdf_table/) , 2024-10-26-0912
+ ](https://www.reddit.com/r/LangChain/comments/1gbx399/title_urgent_help_needed_with_pdf_table/) , 2024-10-27-0914
 ```
 I'm currently working on a project utilizing Langchain for a large language model (LLM) RAG retriever. Despite having mi
 llions of PDF files stored in Supabase, I'm achieving over 90% efficiency with structured data extraction. However, I'm 
@@ -473,7 +754,7 @@ is problem. Thank you!
 
      
  
-all -  [ RAG-Enhanced Chatbot Application | AI-Powered Document Retrieval & Chatbot Demo | LangChain & OpenAI ](https://www.reddit.com/r/django/comments/1gbtw0l/ragenhanced_chatbot_application_aipowered/) , 2024-10-26-0912
+all -  [ RAG-Enhanced Chatbot Application | AI-Powered Document Retrieval & Chatbot Demo | LangChain & OpenAI ](https://www.reddit.com/r/django/comments/1gbtw0l/ragenhanced_chatbot_application_aipowered/) , 2024-10-27-0914
 ```
 I’m excited to share my latest project, an AI-driven chatbot built with LangChain, OpenAI’s GPT-4, ChromaDB, and Streaml
 it. By leveraging Retrieval-Augmented Generation (RAG) this application delivers data-backed, contextually rich response
@@ -517,15 +798,7 @@ ting-edge AI solutions with Django, Docker, LangChain, OpenAI, and more.
 
      
  
-all -  [ RAG-Enhanced Chatbot Application | AI-Powered Document Retrieval & Chatbot Demo | LangChain & OpenAI ](https://youtu.be/MZDiMMai6zo?si=Tmct3dZGNmNB2rps) , 2024-10-26-0912
-```
-
-```
----
-
-     
- 
-all -  [ RAG expertise  ](https://www.reddit.com/r/LangChain/comments/1gbt7ql/rag_expertise/) , 2024-10-26-0912
+all -  [ RAG expertise  ](https://www.reddit.com/r/LangChain/comments/1gbt7ql/rag_expertise/) , 2024-10-27-0914
 ```
 We are building a RAG solution to summarize and query medical records on a large scale.  End product very similar to dig
 italowl.com.
@@ -537,7 +810,7 @@ Looking for subject matter experts with demonstrated experience for paid, short 
 
      
  
-all -  [ Udemy Free Courses for 25 October 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1gbs5oj/udemy_free_courses_for_25_october_2024/) , 2024-10-26-0912
+all -  [ Udemy Free Courses for 25 October 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1gbs5oj/udemy_free_courses_for_25_october_2024/) , 2024-10-27-0914
 ```
 # Udemy Free Courses for 25 October 2024
 
@@ -744,7 +1017,7 @@ NE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloadcoupon.com/)
 
      
  
-all -  [ Udemy Free Courses for 25 October 2024 ](https://www.reddit.com/r/udemyfreebies/comments/1gbs5kx/udemy_free_courses_for_25_october_2024/) , 2024-10-26-0912
+all -  [ Udemy Free Courses for 25 October 2024 ](https://www.reddit.com/r/udemyfreebies/comments/1gbs5kx/udemy_free_courses_for_25_october_2024/) , 2024-10-27-0914
 ```
 # Udemy Free Courses for 25 October 2024
 
@@ -951,7 +1224,7 @@ NE COURSES WITH CERTIFICATE – [CLICK HERE](https://www.reddit.com/r/udemyfree
 
      
  
-all -  [ Le marché de l’IA pour les junior est infernal…  ](https://i.redd.it/m3e6ue0dqvwd1.jpeg) , 2024-10-26-0912
+all -  [ Le marché de l’IA pour les junior est infernal…  ](https://i.redd.it/m3e6ue0dqvwd1.jpeg) , 2024-10-27-0914
 ```
 La startup dans laquelle je bosse actuellement n’a pas validé ma période d’essai. 
 D’après eu, j’ai fait un travail rema
@@ -962,7 +1235,7 @@ rquable et ai fortement impacté leur produit, mais c’est trop de travail de f
 
      
  
-all -  [ Question: Moving from LLMChain with memory to LCEL chain ](https://www.reddit.com/r/LangChain/comments/1gbpxv3/question_moving_from_llmchain_with_memory_to_lcel/) , 2024-10-26-0912
+all -  [ Question: Moving from LLMChain with memory to LCEL chain ](https://www.reddit.com/r/LangChain/comments/1gbpxv3/question_moving_from_llmchain_with_memory_to_lcel/) , 2024-10-27-0914
 ```
 Hi all,  
 I need some help with migrating from LLMChain to LCEL chain. I have a memory object being created where 'histo
@@ -983,7 +1256,7 @@ d around it. Thanks!
 
      
  
-all -  [ 3D artist career change (seeking advise regarding a program) ](https://www.reddit.com/r/Cybersecurity101/comments/1gbp1yl/3d_artist_career_change_seeking_advise_regarding/) , 2024-10-26-0912
+all -  [ 3D artist career change (seeking advise regarding a program) ](https://www.reddit.com/r/Cybersecurity101/comments/1gbp1yl/3d_artist_career_change_seeking_advise_regarding/) , 2024-10-27-0914
 ```
 I qualify for a 14 month program fully paid by the government. I'd like to know your 
 thoughts about this program, given
@@ -1120,41 +1393,48 @@ eciate any advice/suggestion.
 
      
  
-all -  [ 3D Artist career change (asking for opinions on this program) ](https://www.reddit.com/r/cybersecurity/comments/1gbp144/3d_artist_career_change_asking_for_opinions_on/) , 2024-10-26-0912
+all -  [ 3D Artist career change (asking for opinions on this program) ](https://www.reddit.com/r/cybersecurity/comments/1gbp144/3d_artist_career_change_asking_for_opinions_on/) , 2024-10-27-0914
 ```
-I qualify for a 14 month program fully paid by the government. I'd like to know your 
-thoughts about this program, given
- the length of the duration. I’m a 3D artist with spectacular skills, but I feel AI is taking over careers to do with ar
-t.
+Edit: Fellas, kindly don't downvote my post. I'm not in a good situation for the time being, I'm trying to evaluate my c
+areer options by seeking your opinions and I would really appreciate all the info I can gather.
+
+___________
 
 
-Certificates:
+I qualify
+ for a 14 month program fully paid by the government. I'd like to know your 
+thoughts about this program, given the leng
+th of the duration. I’m a 3D artist with spectacular skills, but I feel AI is taking over careers to do with art.
+
+
+Cert
+ificates:
 
 Google IT Support Professional Certificate
 Google Cybersecurity Professional Certificate
-CompTIA Sec
-urity+
-CompTIA Network+
+CompTIA Security+
+Co
+mpTIA Network+
 CompTIA A+
 IHK Berlin - Operative Professionals
 
 Concepts covered:
 
-Python Fundamentals: Learn t
-he basics of programming, including syntax,
+Python Fundamentals: Learn the basics
+ of programming, including syntax,
 data types, and simple operations.
 
-Algorithmic Thinking: Develop problem-so
-lving and logic-building skills
+Algorithmic Thinking: Develop problem-solving and
+ logic-building skills
 using algorithms.
 
 Looping: Learn how to create repetition in your code using for loops.
 
+Intro t
+o HTML + CSS: The basic building blocks of web pages.
 
-Intro to HTML + CSS: The basic building blocks of web pages.
-
-Strings and Lists: Learn about two sequential data types
- in Python.
+Strings and Lists: Learn about two sequential data types in Pytho
+n.
 
 Functions: Creating reusable code blocks and understanding how
 functions work.
@@ -1164,9 +1444,9 @@ Technologies:
 
 Python
 HTML
-
 CSS
 Git
+
 Command Line Interface
 
 
@@ -1174,89 +1454,89 @@ AI for Cybersecurity, technologies and frameworks:
 
 OWASP Top 10 for
 LLM Applications
-
-Large Language
+Large Lan
+guage
 Models (LLMs)
 Perplexity
 MITRE ATLAS
 OpenRouter
 ChatGPT, Claude, Gemini
 LangChain
-Microsoft Copilot for S
-ecurity
-Prompt engineering
+Microsoft Copilot for Security
+P
+rompt engineering
 Gradio and Streamlit
 
 
 Concepts covered:
 
-Foundations of AI in Cybersecurity: Introduction to
- AI and ML in cybersecurity,
+Foundations of AI in Cybersecurity: Introduction to AI and M
+L in cybersecurity,
 LLM fundamentals, MITRE ATLAS, OWASP Top 10 for LLM Applications, ENISA
-AI Resources, NIST 
-AI Risk Management Framework, and ethical considerations.
+AI Resources, NIST AI Risk M
+anagement Framework, and ethical considerations.
 
-Threat Detection and Management: AI for anomaly detection and
- pattern
+Threat Detection and Management: AI for anomaly detection and pattern
+
 recognition, AI-powered intrusion detection systems.
 
-Security Operations: AI-driven SIEM and log analysis, aut
-omated incident
+Security Operations: AI-driven SIEM and log analysis, automated in
+cident
 response using AI, and AI for threat hunting and intelligence.
 
-Risk Assessment and Compliance: AI for s
-ecurity compliance automation, risk
+Risk Assessment and Compliance: AI for security c
+ompliance automation, risk
 assessment and analysis using machine learning, and AI in policy enforcement
-and mon
-itoring.
+and monitoring.
+
 
 Advanced Prompt Engineering for IT Security: Prompt engineering
-fundamentals, LLM settings optimization, zero-
-shot and few-shot prompting
+fundamentals, LLM settings optimization, zero-shot and 
+few-shot prompting
 techniques, meta prompting and prompt chaining strategies, Tree of Thoughts
-methodology, and
- security-specific prompt examples.
+methodology, and security
+-specific prompt examples.
 
 AI for User Support and Problem-Solving: Implementing AI for IT support,
-AI-driven 
-troubleshooting and diagnostics, and automated problem resolution
+AI-driven troublesh
+ooting and diagnostics, and automated problem resolution
 using machine learning.
 
-AI Tools and Platforms for Cy
-bersecurity: Microsoft Copilot for Security,
-Perplexity.ai for research and analysis, capabilities and use cases of Clau
-de,
-ChatGPT, and Gemini, and custom GPT creation for specialized security tasks.
+AI Tools and Platforms for Cybersecuri
+ty: Microsoft Copilot for Security,
+Perplexity.ai for research and analysis, capabilities and use cases of Claude,
+ChatG
+PT, and Gemini, and custom GPT creation for specialized security tasks.
 
-Data Analysis and Insights: Anomaly de
-tection in large datasets and predictive
+Data Analysis and Insights: Anomaly detection i
+n large datasets and predictive
 analytics for threat forecasting.
 
-AI Application Development for Cybersecurity
-: Python programming for AI
+AI Application Development for Cybersecurity: Python 
+programming for AI
 security applications, LangChain Functions, Tools, and Agents), Gradio and
-Streamlit for bui
-lding AI security dashboards, and semantic search
+Streamlit for building AI 
+security dashboards, and semantic search
 implementation.
 
-Advanced LLM Techniques: RAG Retrieval-Augmented Gene
-ration), prompt
+Advanced LLM Techniques: RAG Retrieval-Augmented Generation), 
+prompt
 caching, embeddings, fine-tuning, and function calling in LLMs.
 
-Security Automation: Developing AI-powe
-red security scripts, command line
+Security Automation: Developing AI-powered secur
+ity scripts, command line
 AI completions for security tasks, and automating vulnerability management
 with AI.
 
 
-
-If you’ve read this far, I thank you for your time and I'd appreciate any advice/suggestion.
+If you’v
+e read this far, I thank you for your time and I'd appreciate any advice/suggestion.
 ```
 ---
 
      
  
-all -  [ Orchestration agent in ChatGPT ](https://www.reddit.com/r/LangChain/comments/1gbnk79/orchestration_agent_in_chatgpt/) , 2024-10-26-0912
+all -  [ Orchestration agent in ChatGPT ](https://www.reddit.com/r/LangChain/comments/1gbnk79/orchestration_agent_in_chatgpt/) , 2024-10-27-0914
 ```
 Hi,
 
@@ -1269,7 +1549,7 @@ If someone can give input.
 
      
  
-all -  [ Question: How to Create a More Flexible Tool Creation Workflow in LangChain? ](https://www.reddit.com/r/LangChain/comments/1gbnalq/question_how_to_create_a_more_flexible_tool/) , 2024-10-26-0912
+all -  [ Question: How to Create a More Flexible Tool Creation Workflow in LangChain? ](https://www.reddit.com/r/LangChain/comments/1gbnalq/question_how_to_create_a_more_flexible_tool/) , 2024-10-27-0914
 ```
 I'm currently working on an agentic workflow using LangChain and have found that hard-coding tools can be limiting. I’m 
 curious if there’s a way to make the tools more flexible, allowing them to be dynamically created or accessed in real-ti
@@ -1281,7 +1561,7 @@ n within LangChain, and if so, how did you approach it?
 
      
  
-all -  [ Need your opinions on this program (3D product visualizer changing careers to cybersecurity) ](https://www.reddit.com/r/CyberSecurityAdvice/comments/1gbm2dy/need_your_opinions_on_this_program_3d_product/) , 2024-10-26-0912
+all -  [ Need your opinions on this program (3D product visualizer changing careers to cybersecurity) ](https://www.reddit.com/r/CyberSecurityAdvice/comments/1gbm2dy/need_your_opinions_on_this_program_3d_product/) , 2024-10-27-0914
 ```
 I qualify for a 14 month program fully paid by the government. I'd like to know your 
 thoughts about this program, give
@@ -1419,7 +1699,7 @@ uggestion.
 
      
  
-all -  [ Langflow with Pgvector migrations ](https://www.reddit.com/r/langflow/comments/1gbl8as/langflow_with_pgvector_migrations/) , 2024-10-26-0912
+all -  [ Langflow with Pgvector migrations ](https://www.reddit.com/r/langflow/comments/1gbl8as/langflow_with_pgvector_migrations/) , 2024-10-27-0914
 ```
 I have been using Langflow with postgresql as a backend database. I have connected it to a separate 'langflow' database 
 where all flows and messages are saved.
@@ -1438,7 +1718,7 @@ Should I use a separate database for maintaining the vector
 
      
  
-all -  [ Summarising contexts spread across pages ](https://www.reddit.com/r/LangChain/comments/1gbl6i6/summarising_contexts_spread_across_pages/) , 2024-10-26-0912
+all -  [ Summarising contexts spread across pages ](https://www.reddit.com/r/LangChain/comments/1gbl6i6/summarising_contexts_spread_across_pages/) , 2024-10-27-0914
 ```
 Can a suitable RAG technique be applied to summarise like say, a particular chapter or section spread across many pages 
 in a document? Ideally the pipeline should retrieve all chunks belonging only of that chapter.
@@ -1468,7 +1748,7 @@ If anyone has any thoughts or suggestions on how to go
 
      
  
-all -  [ Code included: scrape websites agentically with LangGraph x Firecrawl ](https://www.reddit.com/r/LangChain/comments/1gbl08x/code_included_scrape_websites_agentically_with/) , 2024-10-26-0912
+all -  [ Code included: scrape websites agentically with LangGraph x Firecrawl ](https://www.reddit.com/r/LangChain/comments/1gbl08x/code_included_scrape_websites_agentically_with/) , 2024-10-27-0914
 ```
 Video: [https://www.youtube.com/watch?v=vSz5-KeRyHs](https://www.youtube.com/watch?v=vSz5-KeRyHs)
 
@@ -1484,7 +1764,7 @@ Feedbacks are welcomed!
 
      
  
-all -  [ Fixing Langchain.js's ToolCallingAgentOutputParser Error with Ollama LLM and a Custom Tool ](https://www.reddit.com/r/MailDevNetwork/comments/1gbf79d/fixing_langchainjss_toolcallingagentoutputparser/) , 2024-10-26-0912
+all -  [ Fixing Langchain.js's ToolCallingAgentOutputParser Error with Ollama LLM and a Custom Tool ](https://www.reddit.com/r/MailDevNetwork/comments/1gbf79d/fixing_langchainjss_toolcallingagentoutputparser/) , 2024-10-27-0914
 ```
 &#x200B;
 
@@ -1809,7 +2089,7 @@ gentoutputparser-error-with-ollama-llm-and-a-custom-tool)
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1gbc5qo/list_of_free_and_best_selling_discounted_courses/) , 2024-10-26-0912
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1gbc5qo/list_of_free_and_best_selling_discounted_courses/) , 2024-10-27-0914
 ```
 # Udemy Free Courses for 25 October 2024
 
@@ -2078,7 +2358,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloa
 
      
  
-all -  [ RAG text to sql ](https://www.reddit.com/r/LangChain/comments/1gbc0pu/rag_text_to_sql/) , 2024-10-26-0912
+all -  [ RAG text to sql ](https://www.reddit.com/r/LangChain/comments/1gbc0pu/rag_text_to_sql/) , 2024-10-27-0914
 ```
 Does anyone have any good tutorial that walks through generating sql queries based on vector store chunks of data?
 
@@ -2092,7 +2372,7 @@ chunks which house examples and data reference tables.
 
      
  
-all -  [ Suggestions for Video RAG Integration: Frame-by-Frame Analysis & Timestamp Queries ](https://www.reddit.com/r/LangChain/comments/1gb9lwx/suggestions_for_video_rag_integration/) , 2024-10-26-0912
+all -  [ Suggestions for Video RAG Integration: Frame-by-Frame Analysis & Timestamp Queries ](https://www.reddit.com/r/LangChain/comments/1gb9lwx/suggestions_for_video_rag_integration/) , 2024-10-27-0914
 ```
 Hey everyone! 👋
 
@@ -2120,7 +2400,7 @@ Thanks in advance! 🙌
 
      
  
-all -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/MLQuestions/comments/1gb7kkt/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-10-26-0912
+all -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/MLQuestions/comments/1gb7kkt/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-10-27-0914
 ```
 
 I am a full stack python developer who do web dev in django
@@ -2144,7 +2424,7 @@ Thanks in advance
 
      
  
-all -  [ Multi Modal agents ](https://www.reddit.com/r/LangChain/comments/1gb66nh/multi_modal_agents/) , 2024-10-26-0912
+all -  [ Multi Modal agents ](https://www.reddit.com/r/LangChain/comments/1gb66nh/multi_modal_agents/) , 2024-10-27-0914
 ```
 Im trying to build a langgraph agent that call tools using input images. Struggling a bit with tool calling, has anyone 
 implemented something similar. Code link or an article would be really helpful thankyou.
@@ -2153,7 +2433,7 @@ implemented something similar. Code link or an article would be really helpful t
 
      
  
-all -  [ Best tutorial or tech stack for a production RAG chat bot ](https://www.reddit.com/r/LangChain/comments/1gb496k/best_tutorial_or_tech_stack_for_a_production_rag/) , 2024-10-26-0912
+all -  [ Best tutorial or tech stack for a production RAG chat bot ](https://www.reddit.com/r/LangChain/comments/1gb496k/best_tutorial_or_tech_stack_for_a_production_rag/) , 2024-10-27-0914
 ```
 Hey folks
 
@@ -2175,7 +2455,7 @@ Thank you so so much !
 
      
  
-all -  [ AI Agent API & UI that's ready for Production ](https://www.reddit.com/r/AI_Agents/comments/1gb3uju/ai_agent_api_ui_thats_ready_for_production/) , 2024-10-26-0912
+all -  [ AI Agent API & UI that's ready for Production ](https://www.reddit.com/r/AI_Agents/comments/1gb3uju/ai_agent_api_ui_thats_ready_for_production/) , 2024-10-27-0914
 ```
 I've spent a lot of time prototyping with Langchain, LlamaIndex, and CrewAI but had trouble getting the agents into prod
 uction for my users. I decided to build my own Agent Platform that supports multi-agent interaction, bring-your-own API 
@@ -2192,7 +2472,7 @@ s building agents so they are non-deterministic and fully reasoning, rather than
 
      
  
-all -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-10-26-0912
+all -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-10-27-0914
 ```
 I am a full stack python developer who do web dev in django
 
@@ -2215,7 +2495,7 @@ Thanks in advance
 
      
  
-all -  [ Bit of a long shot, but has anyone found a proper diagramming tool for AI architecture? ](https://www.reddit.com/r/LangChain/comments/1gb0axf/bit_of_a_long_shot_but_has_anyone_found_a_proper/) , 2024-10-26-0912
+all -  [ Bit of a long shot, but has anyone found a proper diagramming tool for AI architecture? ](https://www.reddit.com/r/LangChain/comments/1gb0axf/bit_of_a_long_shot_but_has_anyone_found_a_proper/) , 2024-10-27-0914
 ```
 Been using the likes of Cloudairy for cloud diagrams lately, and it got me wondering - is there anything similar but pro
 perly built for AI/ML architectures? Not just after fancy shapes mind you, but something that genuinely understands mode
@@ -2256,7 +2536,7 @@ ill waiting for someone to sort it out?
 
      
  
-all -  [ Observation: Invalid Format: Missing 'Action:' after 'Thought:..........this error persists in REPL  ](https://www.reddit.com/r/LangChain/comments/1gazt04/observation_invalid_format_missing_action_after/) , 2024-10-26-0912
+all -  [ Observation: Invalid Format: Missing 'Action:' after 'Thought:..........this error persists in REPL  ](https://www.reddit.com/r/LangChain/comments/1gazt04/observation_invalid_format_missing_action_after/) , 2024-10-27-0914
 ```
 I am using a ZERO\_SHOT\_REACT\_DESCRIPTION , agent using different tools, in my python REPL tool which is used to creat
 e a graph when necessary, I am extracting the image using base64 encoding or svg code (which are generated by the REPL t
@@ -2268,7 +2548,7 @@ omming
 
      
  
-all -  [ Ollama embedding: unsuccessful persist to disk and termination of program ](https://www.reddit.com/r/ollama/comments/1gayxsv/ollama_embedding_unsuccessful_persist_to_disk_and/) , 2024-10-26-0912
+all -  [ Ollama embedding: unsuccessful persist to disk and termination of program ](https://www.reddit.com/r/ollama/comments/1gayxsv/ollama_embedding_unsuccessful_persist_to_disk_and/) , 2024-10-27-0914
 ```
 Hi, I am building a RAG application which should be able to give answer to user query based on a PDF file. The first ste
 p in my code is to load this PDF file, do text chunking, embedding the text chunks with an embedding model pulled using 
@@ -2337,7 +2617,7 @@ e, and possible solutions? Thank you!
 
      
  
-all -  [ looking for saas founders (bootstrapped or funded) of a gen AI product ](https://www.reddit.com/r/LangChain/comments/1gaxy7w/looking_for_saas_founders_bootstrapped_or_funded/) , 2024-10-26-0912
+all -  [ looking for saas founders (bootstrapped or funded) of a gen AI product ](https://www.reddit.com/r/LangChain/comments/1gaxy7w/looking_for_saas_founders_bootstrapped_or_funded/) , 2024-10-27-0914
 ```
 would like to start a series interviewing founders in the gen ai industry. you would benefit from free marketing (and ho
 pefully insights and helpful advise) for your saas - we benefit by gaining authority in the gen-ai / SaaS industry and b
@@ -2354,236 +2634,7 @@ Thanks.
 
      
  
-all -  [ Ollama community embedding stall after 2-27 chunks ](https://www.reddit.com/r/ollama/comments/1gaxy2z/ollama_community_embedding_stall_after_227_chunks/) , 2024-10-26-0912
-```
-I am using a GCP VM to host my Ollama bge-m3 then i use ip forwarding to connect it from local. Eventhough i can use Oll
-ama embedding normally in Dify but i can't use it via langchain\_comunity.embedding lib. The embedding kept stalling aft
-er 27 chunks (doc). 
-```
----
-
-     
- 
-all -  [ I can't see LangSmith traces when using LangChain + Amazon Bedrock ](https://www.reddit.com/r/LangChain/comments/1gaxrri/i_cant_see_langsmith_traces_when_using_langchain/) , 2024-10-26-0912
-```
-Hello,
-
-I've been following the [LangChain documentation for tracing](https://docs.smith.langchain.com/how_to_guides/tra
-cing/trace_with_langchain), but I cannot see my project in LangSmith, only the default one appears. Even when I haven't 
-set a project name, nothing is being traced in the default project, which means LangSmith is not detecting my chain invo
-cations. 
-
-Could anyone assist me in tracing my invocations with LangSmith?
-```
----
-
-     
- 
-all -  [ Messy Unstructured Data : How do you handle it ? ](https://www.reddit.com/r/LangChain/comments/1gaxdk1/messy_unstructured_data_how_do_you_handle_it/) , 2024-10-26-0912
-```
-Our startup Unsiloed AI, is backed by Entrepreneur First which is one of the best startup accelerators globally based in
- Silicon Valley.
-
-Currently, we are building next-generation AI-powered data warehouse to store, process, and query unst
-ructured data like PDFs, websites, images, videos, and audio (Call Recordings). By making the impossible data possible, 
-we help data teams become strategic enablers.
-
-I would appreciate the opportunity to engage with data engineers/data sci
-entists from US companies to learn more about how your team currently handles extracting insights from unstructured data
-. Your insights would be invaluable to us.
-
-Looking forward to connecting and gaining valuable insights from you. Thanks
-!
-
-
-```
----
-
-     
- 
-all -  [ Aether: Your IDE For Prompt Engineering (Beta Currently Running!) ](https://www.reddit.com/r/LangChain/comments/1gaw5yl/aether_your_ide_for_prompt_engineering_beta/) , 2024-10-26-0912
-```
-I was recently trying to build an app using LLM’s but was having a lot of difficulty engineering my prompt to make sure 
-it worked in every case while also having to keep track of what prompts did good on what.
-
-So I built this tool that aut
-omatically generates a test set and evaluates my model against it every time I change the prompt or a parameter. Given t
-he input schema, prompt, and output schema, the tool creates an api for the model which also logs and evaluates all call
-s made and adds them to the test set. You could also integrate the app into any workflow with just a couple lines of cod
-e. 
-
-https://reddit.com/link/1gaw5yl/video/pqqh8v65dnwd1/player
-
-I just coded up the Beta and I'm letting a small set of
- the first people to sign up try it out at [the-aether.com](http://the-aether.com/) . Please let me know if this is some
-thing you'd find useful and if you want to try it and give feedback! Hope I could help in building your LLM apps!
-```
----
-
-     
- 
-all -  [ Comparing KG generation across LLMs for cost & quality ](https://www.reddit.com/r/LangChain/comments/1garr4c/comparing_kg_generation_across_llms_for_cost/) , 2024-10-26-0912
-```
-Just posted this to our blog, and may be interesting to folks.
-
-TL;DR: Gemini Flash 1.5 does a really nice job at low co
-st. 
-
-https://www.graphlit.com/blog/comparison-of-knowledge-graph-generation
-```
----
-
-     
- 
-all -  [ Resume Review Request for Data Analyst Position ](https://www.reddit.com/r/Resume/comments/1gakxrp/resume_review_request_for_data_analyst_position/) , 2024-10-26-0912
-```
-Hey everyone,
-
-I recently started applying for jobs and want to make sure my resume is up to the mark. I’m not entirely 
-sure if it effectively highlights my skills and experiences or if it’s aligned with what recruiters are looking for. Cou
-ld I get some feedback or advice on improving it? Any tips or suggestions would be super helpful!
-
-Thanks in advance!
-
-h
-ttps://preview.redd.it/actn0y45jkwd1.png?width=956&format=png&auto=webp&s=7901adf906591f788e15b3c6ddd47003414056b7
-
-
-```
----
-
-     
- 
-all -  [ AutoGen v0.2.37 released ](https://www.reddit.com/r/AutoGenAI/comments/1gah8nn/autogen_v0237_released/) , 2024-10-26-0912
-```
-[New release: v0.2.37](https://github.com/microsoft/autogen/releases/tag/v0.2.37)
-
-# What's Changed
-
-* Use trusted publi
-sher for pypi release by [@jackgerrits](https://github.com/jackgerrits) in [\#3596](https://github.com/microsoft/autogen
-/pull/3596)
-* Fix typos in Cerebras doc by [@henrytwo](https://github.com/henrytwo) in [\#3590](https://github.com/micro
-soft/autogen/pull/3590)
-* Add blog post announcing the new architecture preview by [@jackgerrits](https://github.com/jac
-kgerrits) in [\#3599](https://github.com/microsoft/autogen/pull/3599)
-* Update PR link in blog post by [@jackgerrits](ht
-tps://github.com/jackgerrits) in [\#3602](https://github.com/microsoft/autogen/pull/3602)
-* Create CI to tag issues with
- needs triage by [@jackgerrits](https://github.com/jackgerrits) in [\#3605](https://github.com/microsoft/autogen/pull/36
-05)
-* Update issue templates by [@jackgerrits](https://github.com/jackgerrits) in [\#3610](https://github.com/microsoft/
-autogen/pull/3610)
-* Fix small typo in the docs by [@jknaudt21](https://github.com/jknaudt21) in [\#3650](https://github
-.com/microsoft/autogen/pull/3650)
-* Update 0.2 CI to target branch, remove merge queue by [@jackgerrits](https://github.
-com/jackgerrits) in [\#3656](https://github.com/microsoft/autogen/pull/3656)
-* Update BaseUrl of docusaurus site by [@ja
-ckgerrits](https://github.com/jackgerrits) in [\#3658](https://github.com/microsoft/autogen/pull/3658)
-* Add announcemen
-t bar for 0.4 by [@jackgerrits](https://github.com/jackgerrits) in [\#3717](https://github.com/microsoft/autogen/pull/37
-17)
-* Update links on 0.2 website by [@jackgerrits](https://github.com/jackgerrits) in [\#3734](https://github.com/micro
-soft/autogen/pull/3734)
-* Function Calling Support for Gemini - Part 2 by [@luxzoli](https://github.com/luxzoli) in [\#3
-726](https://github.com/microsoft/autogen/pull/3726)
-* Fix [\#2643](https://github.com/microsoft/autogen/issues/2643) \-
- groupchat model registration by [@Matteo-Frattaroli](https://github.com/Matteo-Frattaroli) in [\#2696](https://github.c
-om/microsoft/autogen/pull/2696)
-* Added a demonstartion notebook featuring the usage of Langchain with AutoGen by [@Kiru
-shikesh](https://github.com/Kirushikesh) in [\#3461](https://github.com/microsoft/autogen/pull/3461)
-* Autobuild Functio
-n calling by [@krishnashed](https://github.com/krishnashed) in [\#3238](https://github.com/microsoft/autogen/pull/3238)
-
-* Update Docs to Point to 0.4 by [@victordibia](https://github.com/victordibia) in [\#3764](https://github.com/microsoft
-/autogen/pull/3764)
-* Notebook on web crawling by [@WilliamEspegren](https://github.com/WilliamEspegren) in [\#2720](htt
-ps://github.com/microsoft/autogen/pull/2720)
-* Fix link to v0.4 documentation by [@ekzhu](https://github.com/ekzhu) in [
-\#3772](https://github.com/microsoft/autogen/pull/3772)
-* Remove path filter for website testing in 0.2 by [@jackgerrits
-](https://github.com/jackgerrits) in [\#3782](https://github.com/microsoft/autogen/pull/3782)
-* Fix broken image URL in 
-README by [@gagb](https://github.com/gagb) in [\#3776](https://github.com/microsoft/autogen/pull/3776)
-* Clarify stable 
-package name and version on home page by [@jackgerrits](https://github.com/jackgerrits) in [\#3775](https://github.com/m
-icrosoft/autogen/pull/3775)
-* Fix CTA button alignment in docs home page by [@victordibia](https://github.com/victordibi
-a) in [\#3788](https://github.com/microsoft/autogen/pull/3788)
-* K8s code executor by [@questcollector](https://github.c
-om/questcollector) in [\#3419](https://github.com/microsoft/autogen/pull/3419)
-* Add Couchbase Vector DB Example Noteboo
-k and Minor Bug Fix by [@lokesh-couchbase](https://github.com/lokesh-couchbase) in [\#3804](https://github.com/microsoft
-/autogen/pull/3804)
-* Add Zep ecosystem doc and notebook by [@danielchalef](https://github.com/danielchalef) in [\#3681]
-(https://github.com/microsoft/autogen/pull/3681)
-* \[bug\] Changes Text Cache Default to None by [@WaelKarkoub](https://
-github.com/WaelKarkoub) in [\#3872](https://github.com/microsoft/autogen/pull/3872)
-* \[bug\] Validates If The Role Tool
- is Handled Correctly after Transforms by [@WaelKarkoub](https://github.com/WaelKarkoub) in [\#3875](https://github.com/
-microsoft/autogen/pull/3875)
-* \[CAP\] Abstraction of actor\_connector to go along with runtime factory and runtime abst
-raction by [@rajan-chari](https://github.com/rajan-chari) in [\#3296](https://github.com/microsoft/autogen/pull/3296)
-
-#
- New Contributors
-
-* [@jknaudt21](https://github.com/jknaudt21) made their first contribution in [\#3650](https://github
-.com/microsoft/autogen/pull/3650)
-* [@Matteo-Frattaroli](https://github.com/Matteo-Frattaroli) made their first contribu
-tion in [\#2696](https://github.com/microsoft/autogen/pull/2696)
-* [@WilliamEspegren](https://github.com/WilliamEspegren
-) made their first contribution in [\#2720](https://github.com/microsoft/autogen/pull/2720)
-* [@questcollector](https://
-github.com/questcollector) made their first contribution in [\#3419](https://github.com/microsoft/autogen/pull/3419)
-* [
-@danielchalef](https://github.com/danielchalef) made their first contribution in [\#3681](https://github.com/microsoft/a
-utogen/pull/3681)
-
-**Full Changelog**: [v0.2.36...v0.2.37](https://github.com/microsoft/autogen/compare/v0.2.36...v0.2.3
-7)
-```
----
-
-     
- 
-all -  [ Best Approach to Building a Chatbot with Twitter Data Using LLMs (LLaMA 3.2)? ](https://www.reddit.com/r/datascienceproject/comments/1gafune/best_approach_to_building_a_chatbot_with_twitter/) , 2024-10-26-0912
-```
-**Hello everyone,**
-
-I'm currently working on analyzing customer support inquiries from various insurance companies and 
-generating questions from these tweets using LLaMA 3.2. The dataset includes both full conversation and tweet-level form
-ats, containing customer support inquiries.
-
-Now, I'm looking to take it a step further and build a chatbot that can:
-
-1
-. Answer customer queries based on the patterns found in the historical tweets. (Currently doing manually)
-2. Utilize th
-e questions I've already generated.
-3. Learn from ongoing interactions with users to improve its responses over time.
-
-G
-iven the data I have and my experience working with LLMs, what would be the best way to approach building this chatbot? 
-Here are a few specifics I'm curious about:
-
-* What framework or tools (open-source or otherwise) would work well for th
-is kind of chatbot development?
-* How can I integrate LLaMA 3.2 (or another model, if recommended) to handle real-time q
-uestion generation and answering?
-* How should I structure the chatbot's learning process to continuously improve its re
-sponses from new tweets or user interactions?
-
-Any suggestions on architecture, training strategies,RAGs or frameworks (
-like Rasa, Langchain, etc.) would be greatly appreciated. Thank you!
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-26-0912
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-27-0914
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -2607,45 +2658,6 @@ nversation instead of retrieving again at the current turn
 past conversation history.
 
 I'm sure some teams already have good systems for this, would appreciate pointers!
-```
----
-
-     
- 
-MachineLearning -  [ Built a web agent which call fill Google forms based on the user details [P] ](https://www.reddit.com/r/MachineLearning/comments/1fozud5/built_a_web_agent_which_call_fill_google_forms/) , 2024-10-26-0912
-```
-GitHub repo : [https://github.com/shaRk-033/web-agent](https://github.com/shaRk-033/web-agent)
-
-Tried to solve it using 
-two approaches:
-
-# 1: Basic Scraping and Filling
-
-This is the straightforward approach. The agent scrapes the form’s HTM
-L and uses fixed XPaths to find and fill in the required fields.
-
-* It pulls the form’s HTML, locates the fields with se
-t XPaths, and inputs the answers. It’s a direct and simple method.
-* If the form changes or an element isn’t where it’s 
-expected, the process can fail and may need manual adjustments.
-
-[basic approach](https://preview.redd.it/5e8g4a1k4xqd1.
-png?width=1055&format=png&auto=webp&s=d8e984e4feaee2f0453b08c8696768c40a2a5c20)
-
-2. Using LangChain Agents and tool call
-ing
-
-* LangChain Agent**:** The agent handles everything by using the LLM’s reasoning to decide what to do next, includi
-ng generating those tricky XPaths.
-* Error Handling**:** If something goes wrong (like an element not found), the agent 
-tries again with better XPaths until it gets the job done.
-
-[using langchain agents](https://preview.redd.it/948i88pl4xq
-d1.png?width=782&format=png&auto=webp&s=ed1e6c19efec9f4cbbbd6ab5a22558f221cf745f)
-
-Any recommendations to improve this w
-ould be welcome. Also, if anyone has ideas on building similar web agents to automate other tasks, it would be great to 
-hear them. :)
 ```
 ---
 
