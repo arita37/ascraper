@@ -1,5 +1,315 @@
  
-all -  [ agentic ASI ](https://www.reddit.com/r/LangChain/comments/1gcuxgs/agentic_asi/) , 2024-10-27-0914
+all -  [ I built an open-source Desktop app to let Claude control your computer ](https://www.reddit.com/r/LangChain/comments/1gdp3h0/i_built_an_opensource_desktop_app_to_let_claude/) , 2024-10-28-0913
+```
+https://reddit.com/link/1gdp3h0/video/3s10nv8x1exd1/player
+
+ 
+```
+---
+
+     
+ 
+all -  [ How to build a multi-agent app to support structured and unstructured data query? ](https://www.reddit.com/r/LangChain/comments/1gdjd7v/how_to_build_a_multiagent_app_to_support/) , 2024-10-28-0913
+```
+I am looking to build an app that can query both structured and unstructured data sources - mostly a user question would
+ either point to structured or unstrctured data sources and app would need to make a decision where it needs to go.
+
+I e
+nvision this as a multi-agent app with an agent for structured data and an agent for unstructured data with a supervisor
+ agent for deciding which sub-agent to invoke.
+
+Has anyone experimented or built something like this using LangGraph and
+ OpenAI?
+```
+---
+
+     
+ 
+all -  [ Need help with some PromptEngineering basics on Open WebUI... ](https://www.reddit.com/r/LocalLLM/comments/1gdf7mq/need_help_with_some_promptengineering_basics_on/) , 2024-10-28-0913
+```
+So I've followed the steps by NetworkChuck in his Youtube [video](https://www.youtube.com/watch?v=Wjrdr0NU4Sk). and now 
+I have a local LLM in my computer. But now I'm trying to make my own model based on Ollama3.1:8b, but with a specific sy
+stem prompt. So I have a couple of questions:
+
+1. What's the difference between the Model's system prompt, and the RAG T
+emplate?
+2. Is there a specific framework I should use for system prompts, or is the Co-Star Framework pretty much works
+? Does it make a difference if I use hashtags or XML tags?
+3. What's the use of the 'Chain of thought' part Or does it n
+ot do anything (refer to my system prompt below)? I basically got inspired from [https://openwebui.com/p/varunmahajan/sy
+stem-prompt-generator](https://openwebui.com/p/varunmahajan/system-prompt-generator)
+4. I'm trying to figure out how to 
+tell it NOT to answer anything, unless I give it a document to summarize, or at least, ask the user if they want to give
+ a general information.  Can you tell me what I did wrong there?
+5. I'm trying to test if my system prompt make sense. W
+hat tool can I use other than [LangSmith PlayGround](https://smith.langchain.com/hub/ohkgi/superb_system_instruction_pro
+mpt/playground)? (or maybe it doesn't actually make sense? Because there's no Ollama there...
+
+&#8203;
+
+    #####
+    # 
+CONTEXT #
+    You are an AI assistant called Summary Sam designed to extract key information from documents provided by 
+users which helps the user summarize the information from the given file(s), and/or explain what the information in the 
+documentation.
+    #####
+    # OBJECTIVE #
+    To create an understandable explanation, and answer any information that 
+the user asked, based on the given documentation. If no documentation is provided by the user, respond with 'I cannot an
+swer you. Please give me a document to summarize first'.
+    #####
+    # STYLE #
+    Blend technical accuracy with appro
+achable language, clear and concise, suitable to be read by professional people. Maintain a neutral tone, and do not mak
+e any sound that's too much like a sales or marketing pitch.
+    #####
+    # AUDIENCE #
+    Tailor the output towards wo
+rking professionals and academics who are seeking to understand a documentation or research paper and are looking for fa
+cts and key points.
+    #####
+    # RESPONSE #
+    ## RULES OF ENGAGEMENT WITH USERS ##
+    - **STRUCTURE** your prompt 
+clearly, with precision, and according to the complexity suitable for the model size.
+    - **MAINTAIN CONSISTENCY** in 
+by answering in the same language as the user query.
+    - If the source is not the same language as the user query, do 
+not attempt to translate it, but instead quote the information directly, but form it in an understandable summary, and e
+xplain it in the same language as the user query.
+    - If the user doesn't give any documentation to summarize, then ap
+ologize, before answering with 'I cannot answer you. Please give me a document to summarize first'
+    - If the user doe
+sn't give any documentation to summarize, don't give information about general knowledge, before the user gives back the
+ir answer, that they want you to give it a general knowledge answer, with the timestamp where you had achieved the gener
+al knowledge answer.
+    - If the answer is not clear, ask the user for clarification to ensure accurate response.
+    #
+# CHAIN OF THOUGHTS ##
+    1. Clearly enumerate your explanation, on why you give such summary
+    2. Always give out re
+ferences on where you had summarized the information, complete with page number, as well as line number when possible.
+ 
+   #####
+```
+---
+
+     
+ 
+all -  [ Best Approach to Building a Chatbot with Twitter Data Using LLMs (LLaMA 3.2)? ](https://www.reddit.com/r/developersIndia/comments/1gdf4jj/best_approach_to_building_a_chatbot_with_twitter/) , 2024-10-28-0913
+```
+**Hello everyone,**
+
+I'm currently working on analyzing customer support inquiries from various insurance companies (twi
+tter handles) and generating questions from these tweets using LLaMA 3.2. The dataset includes both full conversation an
+d tweet-level formats, containing customer support inquiries.
+
+Now, I'm looking to take it a step further and build a ch
+atbot that can:
+
+1. Answer customer queries based on the patterns found in the historical tweets. (Currently doing manua
+lly)
+2. Utilize the questions I've already generated.
+3. Learn from ongoing interactions with users to improve its respo
+nses over time.
+
+Given the data I have and my experience working with LLMs, what would be the best way to approach build
+ing this chatbot? Here are a few specifics I'm curious about:
+
+* What framework or tools (open-source or otherwise) woul
+d work well for this kind of chatbot development?
+* How can I integrate LLaMA 3.2 (or another model, if recommended) to 
+handle real-time question generation and answering?
+* How should I structure the chatbot's learning process to continuou
+sly improve its responses from new tweets or user interactions?
+
+Any suggestions on architecture, training strategies,RA
+Gs or frameworks (like Rasa, Langchain, etc.) would be greatly appreciated. Thank you!
+```
+---
+
+     
+ 
+all -  [ I created a Claude Computer Use alternative to use with OpenAI and Gemini, using Langchain and open- ](https://i.redd.it/5rtd09dycbxd1.jpeg) , 2024-10-28-0913
+```
+
+github: https://github.com/Clevrr-AI/Clevrr-Computer
+
+The day Anthropic announced Computer Use, I knew this was gonna b
+low up, but at the same time, it was not a model-specific capability but rather a flow that was enabling it to do so. 
+
+
+I it got me thinking whether the same (at least upto a level) can be done, with a model-agnostic approach, so I don’t ha
+ve to rely on Anthropic to do it. 
+
+I got to building it, and in one day of idk-how-many coffees and some prototyping, I
+ built Clevrr Computer - an AI Agent that can control your computer using text inputs. 
+
+The tool is built using Langcha
+in’s ReAct agent and a custom screen intelligence tool, here’s how it works. 
+
+- The user asks for a task to be complete
+d, that task is broken down into a chain-of-actions by the primary agent. 
+- Before performing any task, the agent calls
+ the `get_screen_info` tool for understanding what’s on the screen. 
+- This tool is basically a multimodal llm call that
+ first takes a screenshot of the current screen, draws gridlines around it for precise coordinate tracking, and sends th
+e image to the llm along with the question by the master agent. 
+- The response from the tool is taken by the master age
+nt to perform computer tasks like moving the mouse, clicking, typing, etc using the `PyAutoGUI` library.
+
+And that’s how
+ the whole computer is controlled. 
+
+**Please note that this is a very nascent repository right now, and I have not enab
+led measures to first create a sandbox environment to isolate the system, so running malicious command will destroy your
+ computer, however I have tried to restrict such usage in the prompt**
+
+Please give it a try and I would love some quali
+ty contributions to the repository!
+```
+---
+
+     
+ 
+all -  [ Paper to podcast using LangChain ](https://www.reddit.com/r/generativeAI/comments/1gdco7f/paper_to_podcast_using_langchain/) , 2024-10-28-0913
+```
+I have built this small open-source app using LangChain and Openai API and I want you guys to give me feedback about it.
+
+It basically takes a research paper and turns it into an engaging podcast between 3 persons:
+- host: present the paper 
+and directs the discussion.
+- learner: asks interesting questions about the paper.
+- researcher: have a lot of knowledge
+, comments and explaind complex concepts.
+This is perfect for people who like podcasts and enjoy listening to papers whi
+le traveling.
+You need an OpenAI Key to make it work, and it costs ~0.19$ for a ~16 pages paper.
+Feel free to roast me, 
+I really need to improve 💪
+Link: https://github.com/Azzedde/paper_to_podcast/tree/main
+```
+---
+
+     
+ 
+all -  [ I created a Claude Computer Use alternative to use with OpenAI and Gemini, using Langchain and open- ](https://i.redd.it/76cf8mknk5xd1.jpeg) , 2024-10-28-0913
+```
+
+```
+---
+
+     
+ 
+all -  [ How to get Django back rnd internship/job in so much saturation? ](https://i.redd.it/xu1vtquzpaxd1.jpeg) , 2024-10-28-0913
+```
+I have been trying to get a job/internship but no luck
+
+In my city,there are barely any companies/software houses meanwh
+ile the recent chatgpt shit blew up this field
+There were total 3500 students that took admission in my uni in computer 
+field
+
+And there would be barely like 100 or something software houses
+
+How do i get noticed? Its not like i got selecte
+d for the interview
+I am not even being called for internviews despite being 
+Well skilled and a good student
+
+Attaching
+ an image of skills so you guys can see i atleast got enough to get an interview
+```
+---
+
+     
+ 
+all -  [ EmailSnap - Empower Your Email Routine with LLM Agents ](https://www.reddit.com/r/u_ilbets/comments/1gd2nnb/emailsnap_empower_your_email_routine_with_llm/) , 2024-10-28-0913
+```
+Nowadays, almost every service revolves around communication, whether it’s plumbers, receptionists at clinics, or clerks
+ in banks. Every day, countless people read emails, review attached scanned documents, and PDFs; and sort, organize, and
+ forward them elsewhere. Imagine how much time we could save if we automated this process! With the advancements in Gene
+rative AI and Large Language Models (LLMs), it’s no longer just a dream — it’s possible now.
+
+https://preview.redd.it/i0
+dduokz28xd1.jpg?width=1792&format=pjpg&auto=webp&s=592ef68deb152ee99d4d3736b3219bf4e5aee935
+
+# Problem ✨ Solution
+
+You r
+eceive an email with a long thread of messages and attached files — many of them with random names. *What do you really 
+want?* To quickly understand what the email is about and know what actions to take.
+
+That’s where EmailSnap comes in. Si
+mply forward the email to [**review@emailsnap.app**](mailto:review@emailsnap.app), and [**EmailSnap**](https://emailsnap
+.app/) will apply AI to analyze the email and its attachments, then send you back a new, actionable, and well-formatted 
+response.
+
+The processed email contains:
+
+* **Title:** \[Priority\] Subject
+* **From:** Sender of the email
+* **To:** Re
+cipient
+* **Highlights:** Key action items in bullet points
+* **Summary:** A concise review of the email content and att
+ached files
+* **Attachments:** Renamed to reflect their actual content
+
+# [EmailSnap.app](http://EmailSnap.app) 📩
+
+The i
+mplementation consists mainly of two parts: the underlying infrastructure and the LLM flow. Let’s start with the more in
+teresting part.
+
+# AI Review ✨
+
+For the LLM implementation, we use the LangChain stack: **LangChain**, and **LangSmith**
+. Despite not using LangGraph itself, I apply the same graph-like idea for executing EmailSnap’s LLM processing, as it r
+equires multiple LLM calls with different prompts while using various tools, like saving intermediate states to a databa
+se and S3.
+
+Our execution graph contains the following nodes:
+
+* **Format Email:** Reads the EML file and converts it in
+to well-formatted text, handling threads and forwarded messages while removing redundant HTML tags and other irrelevant 
+information.
+* **Read Attachments:** If the attached file is an image or PDF, we convert it to Base64 for the LLM to rea
+d the content. For PDFs, each page is converted into a new image, potentially creating a long loop.
+* **Review Attachmen
+t:** This node creates a summary with highlights and action items from each document, suggests the recipient, and propos
+es a better file name.
+* **Email Summary:** The final node combines the formatted email and the summaries from all attac
+hments to generate a complete email with insights, action items, highlights, and an overall summary.
+
+After the final co
+ntent is generated, we will send out a new email back to the sender including reorganized attachments.
+
+https://preview.
+redd.it/13kb3pl338xd1.jpg?width=580&format=pjpg&auto=webp&s=715202d38b4149ab29879e45fa05329ac79a46d4
+
+# Sample
+
+Finally,
+ let’s take a look at a real example. I took an MRI report in PDF format from an online source, sent it to one email add
+ress, and then forwarded it to [**review@emailsnap.app**](mailto:review@emailsnap.app). EmailSnap generated a new subjec
+t, highlights, and summary. It also extracted the recipient from the PDF — **Dr. Ross Banner** — and finally suggested a
+ new file name: **Regina Doe MRI Report**, based on the patient’s name and procedure.
+
+https://preview.redd.it/znbrr37a3
+8xd1.jpg?width=2694&format=pjpg&auto=webp&s=b14dc7a43c8d757861f0abce7f93dc78ef6a638d
+
+# Interested?
+
+Interested in the i
+dea? ping me at [help@emailsnap.app](mailto:help@emailsnap.app) 
+```
+---
+
+     
+ 
+all -  [ agentic ASI ](https://www.reddit.com/r/LangChain/comments/1gcuxgs/agentic_asi/) , 2024-10-28-0913
 ```
 I realized that superintelligence is already appearing today in a modular form. And what if the modules could be LangGra
 ph agents? 
@@ -25,15 +335,7 @@ Could we share some ideas about this please?
 
      
  
-all -  [ I created a Claude Computer Use alternative to use with OpenAI and Gemini, using Langchain and open- ](https://i.redd.it/76cf8mknk5xd1.jpeg) , 2024-10-27-0914
-```
-
-```
----
-
-     
- 
-all -  [ Open Source NotebookLM Podcast API seeking Contributors ](https://www.reddit.com/r/OpenSourceAI/comments/1gcqdcg/open_source_notebooklm_podcast_api_seeking/) , 2024-10-27-0914
+all -  [ Open Source NotebookLM Podcast API seeking Contributors ](https://www.reddit.com/r/OpenSourceAI/comments/1gcqdcg/open_source_notebooklm_podcast_api_seeking/) , 2024-10-28-0913
 ```
 I love NotebookLM 'Deep Dives' audio generation; it's really a new UI/UX for LLMs. However, I wished there were an API s
 o I could automated things instead of being tied to Google's UI.
@@ -54,7 +356,7 @@ fit from additional contributors! If you are excited about this kind of problem,
 
      
  
-all -  [ Need Guidance on whether to sit and study from scratch or just wing it.  ](https://www.reddit.com/r/developersIndia/comments/1gcm2y9/need_guidance_on_whether_to_sit_and_study_from/) , 2024-10-27-0914
+all -  [ Need Guidance on whether to sit and study from scratch or just wing it.  ](https://www.reddit.com/r/developersIndia/comments/1gcm2y9/need_guidance_on_whether_to_sit_and_study_from/) , 2024-10-28-0913
 ```
 Context :  
 0. I graduated from NIT in Mechanical Engineering. But I always had an idea that I would want my career in S
@@ -93,7 +395,7 @@ I am just hoping for some guidance from the folks here.
 
      
  
-all -  [ How do I get this menu in Safari? ](https://www.reddit.com/r/VisionPro/comments/1gcibho/how_do_i_get_this_menu_in_safari/) , 2024-10-27-0914
+all -  [ How do I get this menu in Safari? ](https://www.reddit.com/r/VisionPro/comments/1gcibho/how_do_i_get_this_menu_in_safari/) , 2024-10-28-0913
 ```
 https://preview.redd.it/w1e9yf21y2xd1.png?width=1920&format=png&auto=webp&s=8d5881da24543947c7c6809b3c0b1e8dede90fdd
 
@@ -106,7 +408,7 @@ I've randomly got this menu in Safari but I'm not sure how I did. I didn't even 
 
      
  
-all -  [ AI SQL Agent not working or hallucinating like mad ](https://www.reddit.com/r/n8n/comments/1gchmi4/ai_sql_agent_not_working_or_hallucinating_like_mad/) , 2024-10-27-0914
+all -  [ AI SQL Agent not working or hallucinating like mad ](https://www.reddit.com/r/n8n/comments/1gchmi4/ai_sql_agent_not_working_or_hallucinating_like_mad/) , 2024-10-28-0913
 ```
 Trying to use this workflow for [sql ai agent](https://n8n.io/workflows/2292-talk-to-your-sqlite-database-with-a-langcha
 in-ai-agent/) but it’s not working.  
@@ -144,7 +446,7 @@ webp&s=877b0d08b1545d5f61f0e82471efe0886dbae47a)
 
      
  
-all -  [ (Very skilled) 3D artist seeking advice for career change to cybersecurity. (Study program advice). ](https://www.reddit.com/r/ITCareerQuestions/comments/1gcg6d9/very_skilled_3d_artist_seeking_advice_for_career/) , 2024-10-27-0914
+all -  [ (Very skilled) 3D artist seeking advice for career change to cybersecurity. (Study program advice). ](https://www.reddit.com/r/ITCareerQuestions/comments/1gcg6d9/very_skilled_3d_artist_seeking_advice_for_career/) , 2024-10-28-0913
 ```
 I qualify for a 14 month program fully paid by the government. I'd like to know your 
 thoughts about this program, given
@@ -280,7 +582,7 @@ If you’ve read this far, I thank you for your time and I'd appreciate any advi
 
      
  
-all -  [ How to scrape URLs faster with WebbaseLoader/SeleniumURLLoader? ](https://www.reddit.com/r/LangChain/comments/1gcfd6g/how_to_scrape_urls_faster_with/) , 2024-10-27-0914
+all -  [ How to scrape URLs faster with WebbaseLoader/SeleniumURLLoader? ](https://www.reddit.com/r/LangChain/comments/1gcfd6g/how_to_scrape_urls_faster_with/) , 2024-10-28-0913
 ```
 I have designed a multi agents RAG using Langgraph, based on query it diverts question to RAG or Web search, using Googl
 e Serper, I'm getting the metadata and extracting links from there and those links (for example 5 links) I'm passing to 
@@ -306,7 +608,7 @@ wlers, if any of you have better scraper/crawler which is free, kindly suggest t
 
      
  
-all -  [ A Simple Implementation of Automatic Prompt Generation using DSPy ](https://www.reddit.com/r/LangChain/comments/1gc3oo2/a_simple_implementation_of_automatic_prompt/) , 2024-10-27-0914
+all -  [ A Simple Implementation of Automatic Prompt Generation using DSPy ](https://www.reddit.com/r/LangChain/comments/1gc3oo2/a_simple_implementation_of_automatic_prompt/) , 2024-10-28-0913
 ```
 A simplified implementation of 'automatic prompt generation' using the techniques used in DSPy's MIPROv2 optimizer. This
  program uses the gsm8k dataset consisting of math problems and is made up of 3 modules: This program is made up of 3 mo
@@ -380,7 +682,7 @@ uses the program code to identify the intent, re-structuring your code or adding
 
      
  
-all -  [ Getting messages from within a tool in LangGraph ](https://www.reddit.com/r/LangChain/comments/1gc06vn/getting_messages_from_within_a_tool_in_langgraph/) , 2024-10-27-0914
+all -  [ Getting messages from within a tool in LangGraph ](https://www.reddit.com/r/LangChain/comments/1gc06vn/getting_messages_from_within_a_tool_in_langgraph/) , 2024-10-28-0913
 ```
 Hello,
 
@@ -403,7 +705,7 @@ Thanks!
 
      
  
-all -  [ Community/Network around AI Agents ](https://www.reddit.com/r/LangChain/comments/1gbz805/communitynetwork_around_ai_agents/) , 2024-10-27-0914
+all -  [ Community/Network around AI Agents ](https://www.reddit.com/r/LangChain/comments/1gbz805/communitynetwork_around_ai_agents/) , 2024-10-28-0913
 ```
 We just launched our community focused on AI Agents! Here it is: [https://discord.gg/qEfQVwg2](https://discord.gg/qEfQVw
 g2)
@@ -431,7 +733,7 @@ create, consider joining!
 
      
  
-all -  [ Agent runs on loop, sometimes time out, sometimes giving incorrect answer, sometimes proper answer. ](https://www.reddit.com/r/LangChain/comments/1gbz54x/agent_runs_on_loop_sometimes_time_out_sometimes/) , 2024-10-27-0914
+all -  [ Agent runs on loop, sometimes time out, sometimes giving incorrect answer, sometimes proper answer. ](https://www.reddit.com/r/LangChain/comments/1gbz54x/agent_runs_on_loop_sometimes_time_out_sometimes/) , 2024-10-28-0913
 ```
 Trying to build one text to sql project. I'm using ollama llama3.2 locally. But my model is slow and it keep on running 
 sometimes without giving the result. Sometimes it generates query but not able to extract the query result. Could someon
@@ -702,7 +1004,7 @@ LECT COUNT(DISTINCT actor_id) FROM Actor[(200,)]
 
      
  
-all -  [ CopilotKit: Build Agent-Native Applications with CoAgents & LangGraph ](https://www.reddit.com/r/LangChain/comments/1gbxilp/copilotkit_build_agentnative_applications_with/) , 2024-10-27-0914
+all -  [ CopilotKit: Build Agent-Native Applications with CoAgents & LangGraph ](https://www.reddit.com/r/LangChain/comments/1gbxilp/copilotkit_build_agentnative_applications_with/) , 2024-10-28-0913
 ```
 We are excited to release CoAgents + LangGraph - your new open-source tool for embedding powerful AI agents in your in-a
 pp chatbot! With CoAgents, you can:
@@ -732,7 +1034,7 @@ Webinar
  
 all -  [ Title: Urgent Help Needed with PDF Table Extraction in Langchain Project
 
- ](https://www.reddit.com/r/LangChain/comments/1gbx399/title_urgent_help_needed_with_pdf_table/) , 2024-10-27-0914
+ ](https://www.reddit.com/r/LangChain/comments/1gbx399/title_urgent_help_needed_with_pdf_table/) , 2024-10-28-0913
 ```
 I'm currently working on a project utilizing Langchain for a large language model (LLM) RAG retriever. Despite having mi
 llions of PDF files stored in Supabase, I'm achieving over 90% efficiency with structured data extraction. However, I'm 
@@ -754,7 +1056,7 @@ is problem. Thank you!
 
      
  
-all -  [ RAG-Enhanced Chatbot Application | AI-Powered Document Retrieval & Chatbot Demo | LangChain & OpenAI ](https://www.reddit.com/r/django/comments/1gbtw0l/ragenhanced_chatbot_application_aipowered/) , 2024-10-27-0914
+all -  [ RAG-Enhanced Chatbot Application | AI-Powered Document Retrieval & Chatbot Demo | LangChain & OpenAI ](https://www.reddit.com/r/django/comments/1gbtw0l/ragenhanced_chatbot_application_aipowered/) , 2024-10-28-0913
 ```
 I’m excited to share my latest project, an AI-driven chatbot built with LangChain, OpenAI’s GPT-4, ChromaDB, and Streaml
 it. By leveraging Retrieval-Augmented Generation (RAG) this application delivers data-backed, contextually rich response
@@ -798,7 +1100,7 @@ ting-edge AI solutions with Django, Docker, LangChain, OpenAI, and more.
 
      
  
-all -  [ RAG expertise  ](https://www.reddit.com/r/LangChain/comments/1gbt7ql/rag_expertise/) , 2024-10-27-0914
+all -  [ RAG expertise  ](https://www.reddit.com/r/LangChain/comments/1gbt7ql/rag_expertise/) , 2024-10-28-0913
 ```
 We are building a RAG solution to summarize and query medical records on a large scale.  End product very similar to dig
 italowl.com.
@@ -810,7 +1112,7 @@ Looking for subject matter experts with demonstrated experience for paid, short 
 
      
  
-all -  [ Udemy Free Courses for 25 October 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1gbs5oj/udemy_free_courses_for_25_october_2024/) , 2024-10-27-0914
+all -  [ Udemy Free Courses for 25 October 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1gbs5oj/udemy_free_courses_for_25_october_2024/) , 2024-10-28-0913
 ```
 # Udemy Free Courses for 25 October 2024
 
@@ -1017,7 +1319,7 @@ NE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloadcoupon.com/)
 
      
  
-all -  [ Udemy Free Courses for 25 October 2024 ](https://www.reddit.com/r/udemyfreebies/comments/1gbs5kx/udemy_free_courses_for_25_october_2024/) , 2024-10-27-0914
+all -  [ Udemy Free Courses for 25 October 2024 ](https://www.reddit.com/r/udemyfreebies/comments/1gbs5kx/udemy_free_courses_for_25_october_2024/) , 2024-10-28-0913
 ```
 # Udemy Free Courses for 25 October 2024
 
@@ -1224,7 +1526,7 @@ NE COURSES WITH CERTIFICATE – [CLICK HERE](https://www.reddit.com/r/udemyfree
 
      
  
-all -  [ Le marché de l’IA pour les junior est infernal…  ](https://i.redd.it/m3e6ue0dqvwd1.jpeg) , 2024-10-27-0914
+all -  [ Le marché de l’IA pour les junior est infernal…  ](https://i.redd.it/m3e6ue0dqvwd1.jpeg) , 2024-10-28-0913
 ```
 La startup dans laquelle je bosse actuellement n’a pas validé ma période d’essai. 
 D’après eu, j’ai fait un travail rema
@@ -1235,7 +1537,7 @@ rquable et ai fortement impacté leur produit, mais c’est trop de travail de f
 
      
  
-all -  [ Question: Moving from LLMChain with memory to LCEL chain ](https://www.reddit.com/r/LangChain/comments/1gbpxv3/question_moving_from_llmchain_with_memory_to_lcel/) , 2024-10-27-0914
+all -  [ Question: Moving from LLMChain with memory to LCEL chain ](https://www.reddit.com/r/LangChain/comments/1gbpxv3/question_moving_from_llmchain_with_memory_to_lcel/) , 2024-10-28-0913
 ```
 Hi all,  
 I need some help with migrating from LLMChain to LCEL chain. I have a memory object being created where 'histo
@@ -1256,7 +1558,7 @@ d around it. Thanks!
 
      
  
-all -  [ 3D artist career change (seeking advise regarding a program) ](https://www.reddit.com/r/Cybersecurity101/comments/1gbp1yl/3d_artist_career_change_seeking_advise_regarding/) , 2024-10-27-0914
+all -  [ 3D artist career change (seeking advise regarding a program) ](https://www.reddit.com/r/Cybersecurity101/comments/1gbp1yl/3d_artist_career_change_seeking_advise_regarding/) , 2024-10-28-0913
 ```
 I qualify for a 14 month program fully paid by the government. I'd like to know your 
 thoughts about this program, given
@@ -1393,7 +1695,7 @@ eciate any advice/suggestion.
 
      
  
-all -  [ 3D Artist career change (asking for opinions on this program) ](https://www.reddit.com/r/cybersecurity/comments/1gbp144/3d_artist_career_change_asking_for_opinions_on/) , 2024-10-27-0914
+all -  [ 3D Artist career change (asking for opinions on this program) ](https://www.reddit.com/r/cybersecurity/comments/1gbp144/3d_artist_career_change_asking_for_opinions_on/) , 2024-10-28-0913
 ```
 Edit: Fellas, kindly don't downvote my post. I'm not in a good situation for the time being, I'm trying to evaluate my c
 areer options by seeking your opinions and I would really appreciate all the info I can gather.
@@ -1536,7 +1838,7 @@ e read this far, I thank you for your time and I'd appreciate any advice/suggest
 
      
  
-all -  [ Orchestration agent in ChatGPT ](https://www.reddit.com/r/LangChain/comments/1gbnk79/orchestration_agent_in_chatgpt/) , 2024-10-27-0914
+all -  [ Orchestration agent in ChatGPT ](https://www.reddit.com/r/LangChain/comments/1gbnk79/orchestration_agent_in_chatgpt/) , 2024-10-28-0913
 ```
 Hi,
 
@@ -1549,7 +1851,7 @@ If someone can give input.
 
      
  
-all -  [ Question: How to Create a More Flexible Tool Creation Workflow in LangChain? ](https://www.reddit.com/r/LangChain/comments/1gbnalq/question_how_to_create_a_more_flexible_tool/) , 2024-10-27-0914
+all -  [ Question: How to Create a More Flexible Tool Creation Workflow in LangChain? ](https://www.reddit.com/r/LangChain/comments/1gbnalq/question_how_to_create_a_more_flexible_tool/) , 2024-10-28-0913
 ```
 I'm currently working on an agentic workflow using LangChain and have found that hard-coding tools can be limiting. I’m 
 curious if there’s a way to make the tools more flexible, allowing them to be dynamically created or accessed in real-ti
@@ -1561,7 +1863,7 @@ n within LangChain, and if so, how did you approach it?
 
      
  
-all -  [ Need your opinions on this program (3D product visualizer changing careers to cybersecurity) ](https://www.reddit.com/r/CyberSecurityAdvice/comments/1gbm2dy/need_your_opinions_on_this_program_3d_product/) , 2024-10-27-0914
+all -  [ Need your opinions on this program (3D product visualizer changing careers to cybersecurity) ](https://www.reddit.com/r/CyberSecurityAdvice/comments/1gbm2dy/need_your_opinions_on_this_program_3d_product/) , 2024-10-28-0913
 ```
 I qualify for a 14 month program fully paid by the government. I'd like to know your 
 thoughts about this program, give
@@ -1699,7 +2001,7 @@ uggestion.
 
      
  
-all -  [ Langflow with Pgvector migrations ](https://www.reddit.com/r/langflow/comments/1gbl8as/langflow_with_pgvector_migrations/) , 2024-10-27-0914
+all -  [ Langflow with Pgvector migrations ](https://www.reddit.com/r/langflow/comments/1gbl8as/langflow_with_pgvector_migrations/) , 2024-10-28-0913
 ```
 I have been using Langflow with postgresql as a backend database. I have connected it to a separate 'langflow' database 
 where all flows and messages are saved.
@@ -1718,7 +2020,7 @@ Should I use a separate database for maintaining the vector
 
      
  
-all -  [ Summarising contexts spread across pages ](https://www.reddit.com/r/LangChain/comments/1gbl6i6/summarising_contexts_spread_across_pages/) , 2024-10-27-0914
+all -  [ Summarising contexts spread across pages ](https://www.reddit.com/r/LangChain/comments/1gbl6i6/summarising_contexts_spread_across_pages/) , 2024-10-28-0913
 ```
 Can a suitable RAG technique be applied to summarise like say, a particular chapter or section spread across many pages 
 in a document? Ideally the pipeline should retrieve all chunks belonging only of that chapter.
@@ -1748,7 +2050,7 @@ If anyone has any thoughts or suggestions on how to go
 
      
  
-all -  [ Code included: scrape websites agentically with LangGraph x Firecrawl ](https://www.reddit.com/r/LangChain/comments/1gbl08x/code_included_scrape_websites_agentically_with/) , 2024-10-27-0914
+all -  [ Code included: scrape websites agentically with LangGraph x Firecrawl ](https://www.reddit.com/r/LangChain/comments/1gbl08x/code_included_scrape_websites_agentically_with/) , 2024-10-28-0913
 ```
 Video: [https://www.youtube.com/watch?v=vSz5-KeRyHs](https://www.youtube.com/watch?v=vSz5-KeRyHs)
 
@@ -1764,7 +2066,7 @@ Feedbacks are welcomed!
 
      
  
-all -  [ Fixing Langchain.js's ToolCallingAgentOutputParser Error with Ollama LLM and a Custom Tool ](https://www.reddit.com/r/MailDevNetwork/comments/1gbf79d/fixing_langchainjss_toolcallingagentoutputparser/) , 2024-10-27-0914
+all -  [ Fixing Langchain.js's ToolCallingAgentOutputParser Error with Ollama LLM and a Custom Tool ](https://www.reddit.com/r/MailDevNetwork/comments/1gbf79d/fixing_langchainjss_toolcallingagentoutputparser/) , 2024-10-28-0913
 ```
 &#x200B;
 
@@ -2089,7 +2391,7 @@ gentoutputparser-error-with-ollama-llm-and-a-custom-tool)
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1gbc5qo/list_of_free_and_best_selling_discounted_courses/) , 2024-10-27-0914
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1gbc5qo/list_of_free_and_best_selling_discounted_courses/) , 2024-10-28-0913
 ```
 # Udemy Free Courses for 25 October 2024
 
@@ -2358,7 +2660,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloa
 
      
  
-all -  [ RAG text to sql ](https://www.reddit.com/r/LangChain/comments/1gbc0pu/rag_text_to_sql/) , 2024-10-27-0914
+all -  [ RAG text to sql ](https://www.reddit.com/r/LangChain/comments/1gbc0pu/rag_text_to_sql/) , 2024-10-28-0913
 ```
 Does anyone have any good tutorial that walks through generating sql queries based on vector store chunks of data?
 
@@ -2372,7 +2674,7 @@ chunks which house examples and data reference tables.
 
      
  
-all -  [ Suggestions for Video RAG Integration: Frame-by-Frame Analysis & Timestamp Queries ](https://www.reddit.com/r/LangChain/comments/1gb9lwx/suggestions_for_video_rag_integration/) , 2024-10-27-0914
+all -  [ Suggestions for Video RAG Integration: Frame-by-Frame Analysis & Timestamp Queries ](https://www.reddit.com/r/LangChain/comments/1gb9lwx/suggestions_for_video_rag_integration/) , 2024-10-28-0913
 ```
 Hey everyone! 👋
 
@@ -2400,241 +2702,7 @@ Thanks in advance! 🙌
 
      
  
-all -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/MLQuestions/comments/1gb7kkt/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-10-27-0914
-```
-
-I am a full stack python developer who do web dev in django
-
-I am now starting deep learning,i am a compelete begginer
-
-
-(Have worked with pandas,numpy,matplotlib,langchain only)
-
-I wanna ask,should i do this course,will i understand what h
-e is coding and code myslef
-
-I just dont want to do blind coding,i wanna learn what is the purpose,how it works and how 
-to do it
-
-Will this course teach me that or not?
-
-Thanks in advance
-```
----
-
-     
- 
-all -  [ Multi Modal agents ](https://www.reddit.com/r/LangChain/comments/1gb66nh/multi_modal_agents/) , 2024-10-27-0914
-```
-Im trying to build a langgraph agent that call tools using input images. Struggling a bit with tool calling, has anyone 
-implemented something similar. Code link or an article would be really helpful thankyou.
-```
----
-
-     
- 
-all -  [ Best tutorial or tech stack for a production RAG chat bot ](https://www.reddit.com/r/LangChain/comments/1gb496k/best_tutorial_or_tech_stack_for_a_production_rag/) , 2024-10-27-0914
-```
-Hey folks
-
-I’ve been tasked at work with a project that I have no idea how to even even get started. I’ve been asked to 
-take the company handbooks and make a rag based chat bot around them so users can ask questions. I found a few tutorials
- online, but there seems to be a few different camps and approaches, I was wondering what are some best practises or if 
-anyone has any good tutorials that would be good for a junior intermediate developer.
-
-Ideally, I can deploy it on a sub
-domain like chat.company.com
-
-Right now it looks like the best approach is using streamlit for the chat interface. And t
-hen python and Lang chain on the backend. Does this mean I can make it as a Django app?
-
-Thank you so so much !
-
-```
----
-
-     
- 
-all -  [ AI Agent API & UI that's ready for Production ](https://www.reddit.com/r/AI_Agents/comments/1gb3uju/ai_agent_api_ui_thats_ready_for_production/) , 2024-10-27-0914
-```
-I've spent a lot of time prototyping with Langchain, LlamaIndex, and CrewAI but had trouble getting the agents into prod
-uction for my users. I decided to build my own Agent Platform that supports multi-agent interaction, bring-your-own API 
-keys, and bring-your-own Postgres for RAG tools. We're launched in private beta (w/ 3 paying customers) but would love s
-ome more people to try it out and give feedback: [www.asteragents.com](http://www.asteragents.com) 
-
-  
-The key for me i
-s building agents so they are non-deterministic and fully reasoning, rather than constrained to a graph / DAG / chain of
- prompts. I believe the future is reasoning agents that decide how and when to collaborate with each-other to accomplish
- tasks.
-```
----
-
-     
- 
-all -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-10-27-0914
-```
-I am a full stack python developer who do web dev in django
-
-I am now starting deep learning,i am a compelete begginer
-
-
-(Have worked with pandas,numpy,matplotlib,langchain only)
-
-I wanna ask,should i do this course,will i understand what he
- is coding and code myslef
-
-I just dont want to do blind coding,i wanna learn what is the purpose,how it works and how t
-o do it
-
-Will this course teach me that or not?
-
-Thanks in advance
-```
----
-
-     
- 
-all -  [ Bit of a long shot, but has anyone found a proper diagramming tool for AI architecture? ](https://www.reddit.com/r/LangChain/comments/1gb0axf/bit_of_a_long_shot_but_has_anyone_found_a_proper/) , 2024-10-27-0914
-```
-Been using the likes of Cloudairy for cloud diagrams lately, and it got me wondering - is there anything similar but pro
-perly built for AI/ML architectures? Not just after fancy shapes mind you, but something that genuinely understands mode
-rn AI systems.
-
-**Current Faff:** Most diagramming tools seem rather stuck in the traditional cloud architecture mindset
-. When I'm trying to map out things like:
-
-* Multi-agent systems nattering away to each other
-* Proper complex RAG pipel
-ines
-* Prompt chains and transformations
-* Feedback loops between different AI bits and bobs
-* Vector DB interactions
-
-.
-..I end up with a right mess of generic boxes and arrows that don't really capture what's going on.
-
-**What I'm hoping m
-ight exist:**
-
-* Proper understanding of AI/ML patterns
-* Clever ways to show prompt flows and transformations
-* Perhaps
- some interactive elements to show data flow?
-* Templates for common patterns (RAG, agent chains, and the like)
-* Someth
-ing that makes AI architecture diagrams look less of an afterthought
-
-I know we can crack on with general tools like [dr
-aw.io](http://draw.io/), Mermaid, or Lucidchart, but with all the AI tooling innovation happening these days, I reckon s
-omeone must be having a go at solving this.
-
-Has anyone stumbled across anything interesting in this space? Or are we st
-ill waiting for someone to sort it out?
-```
----
-
-     
- 
-all -  [ Observation: Invalid Format: Missing 'Action:' after 'Thought:..........this error persists in REPL  ](https://www.reddit.com/r/LangChain/comments/1gazt04/observation_invalid_format_missing_action_after/) , 2024-10-27-0914
-```
-I am using a ZERO\_SHOT\_REACT\_DESCRIPTION , agent using different tools, in my python REPL tool which is used to creat
-e a graph when necessary, I am extracting the image using base64 encoding or svg code (which are generated by the REPL t
-ool itself). But in some case I am facing the issue --> Observation: Invalid Format: Missing 'Action:' . And returning -
--> 'Agent stopped due to time or iteration limit' .  Any suggestions on how to resolve this issue or why this issue is c
-omming
-```
----
-
-     
- 
-all -  [ Ollama embedding: unsuccessful persist to disk and termination of program ](https://www.reddit.com/r/ollama/comments/1gayxsv/ollama_embedding_unsuccessful_persist_to_disk_and/) , 2024-10-27-0914
-```
-Hi, I am building a RAG application which should be able to give answer to user query based on a PDF file. The first ste
-p in my code is to load this PDF file, do text chunking, embedding the text chunks with an embedding model pulled using 
-Ollama, and save the generated embeddings to disk with Chroma.
-
-The following is my code:
-
-`from langchain_community.doc
-ument_loaders import PyPDFLoader`
-
-`from langchain.text_splitter import RecursiveCharacterTextSplitter`
-
-`from langchain
-_community.embeddings import OllamaEmbeddings`
-
-`from langchain_community.vectorstores import Chroma`
-
-
-
-`#create a new 
-file named vectorstore in your current directory.`
-
-`if __name__=='__main__':`
-
-
-
-`loader=PyPDFLoader('test.pdf')`
-
-`doc
-s=loader.load()`
-
-`text_splitter = RecursiveCharacterTextSplitter(chunk_size=800, chunk_overlap=100)`
-
-`splits = text_sp
-litter.split_documents(docs)`
-
-`print(len(splits))`
-
-`persist_directory = 'ChromaDB_test_vector_database'`
-
-`vectorstore
- = Chroma.from_documents(`
-
-`documents = splits,` 
-
-`embedding = OllamaEmbeddings(model='mxbai-embed-large', show_progre
-ss=True),`
-
-`# collection_name='local-rag',`
-
-`persist_directory = persist_directory`
-
-`)`
-
-`print('finished')`
-
-The pro
-blem I encounter is, for some `chunk_size`, such as `chunk_size=800`, also I get 138 text chunks and with `show_progress
-` I can see OllamaEmbeddings: 100%|█████████████████████████████████████████████████████████████████████████████████████
-████████████████████████████████████████████| 138/138 \[00:04<00:00, 30.09it/s\] embedding seemly successful, 'finished'
- is not printed and the chroma.sqlitee file in the `persist_directory` is really small. I don't get an error through. Th
-is leads me to believe the embeddings somehow cannot be correctly persisted. Does someone know why it comes to this issu
-e, and possible solutions? Thank you!
-```
----
-
-     
- 
-all -  [ looking for saas founders (bootstrapped or funded) of a gen AI product ](https://www.reddit.com/r/LangChain/comments/1gaxy7w/looking_for_saas_founders_bootstrapped_or_funded/) , 2024-10-27-0914
-```
-would like to start a series interviewing founders in the gen ai industry. you would benefit from free marketing (and ho
-pefully insights and helpful advise) for your saas - we benefit by gaining authority in the gen-ai / SaaS industry and b
-y learning what the market is up to. Ideally, you've built the project using LangChain and LangGraph.
-
-Would love to con
-nect with anyone that's interested.
-
- LinkedIn is on my profile FYI.
-
-Thanks.
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-27-0914
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-28-0913
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -2658,6 +2726,29 @@ nversation instead of retrieving again at the current turn
 past conversation history.
 
 I'm sure some teams already have good systems for this, would appreciate pointers!
+```
+---
+
+     
+ 
+deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-10-28-0913
+```
+I am a full stack python developer who do web dev in django
+
+I am now starting deep learning,i am a compelete begginer
+
+
+(Have worked with pandas,numpy,matplotlib,langchain only)
+
+I wanna ask,should i do this course,will i understand what he
+ is coding and code myslef
+
+I just dont want to do blind coding,i wanna learn what is the purpose,how it works and how t
+o do it
+
+Will this course teach me that or not?
+
+Thanks in advance
 ```
 ---
 
