@@ -1,5 +1,741 @@
  
-all -  [ Which open-source stack to use for WhatsApp AI customer service? (Concerned about relying solely on  ](https://www.reddit.com/r/LangChain/comments/1gfx4cz/which_opensource_stack_to_use_for_whatsapp_ai/) , 2024-10-31-0913
+all -  [ What is the other best alternative to LangGraph? ](https://www.reddit.com/r/LangChain/comments/1ggrqis/what_is_the_other_best_alternative_to_langgraph/) , 2024-11-01-0914
+```
+I am a software engineer with 5+ years of experience and decent experience with LangChain. Over the past week, I am buil
+ding a stock analyst agent on LangGraph, and the experience has been terrible.
+
+The documentation and tutorials make me 
+feel dumb, even simple tasks seem unnecessarily difficult, which has left me frustrated. I’ve decided not to proceed wit
+h LangGraph for the time being,I just can’t imagine using it to build 10-20 more nodes.
+
+Is there an alternative on the 
+market today that any of you are using? Ideally, something in async Python.
+```
+---
+
+     
+ 
+all -  [ Is this possible? ](https://www.reddit.com/r/LangChain/comments/1ggqtad/is_this_possible/) , 2024-11-01-0914
+```
+I have a JSON dataset of the format:
+[
+{
+key1: val1,
+key2: val2,
+key3: val3,
+...
+}
+{
+key1: val1,
+key2: val2,
+key3: val3
+
+...
+}
+...
+]
+
+There is data in one key which relates to another one.
+
+Is it possible to build a RAG chatbot, in such a wa
+y that it accepts dynamic inputs and gives answers based on the key.
+
+[1] For instance, let's say key1 is dog and key2 i
+s cat, the rag chatbot should detect from the chat input if it contains cat or dog and should return  the value based on
+ the key. If the chat message contains anything related to dog in it, it should return the answer from the dog key else 
+if the message has anything related to catch in it, it should return from the cat key.
+
+[2] The RAG model should also ge
+nerate outcome based on the following scenario: let's say if the value4 and value5 depends on what is given in value3.
+
+
+[3]Another case is, value5 and value6 are numbers. The chatbot RAG should make sure it provides information in such a wa
+y that if the user mentions any number and the number is in between value5 and value6, it should return the output from 
+value4 or value5 based on the logic in point [1]
+
+
+Could you guys please let me know if this is possible, cause i couldn
+'t find any example over the internet. 
+```
+---
+
+     
+ 
+all -  [ AWS certification for GenAI after AI practitioner? ](https://www.reddit.com/r/AWSCertifications/comments/1ggpbv2/aws_certification_for_genai_after_ai_practitioner/) , 2024-11-01-0914
+```
+Is there a good certification to do specifically for GenAI on AWS? I'm more interested in leveraging GenAI tools and not
+ on the usual route of ML sagemaker models etc.
+
+If not, what other certifications do you recommend tailored for GenAI? 
+I'm right now working with OpenAI and want to go deeper into aspects of finetuning, perhaps may langchain etc. 
+
+Sorry, 
+just posting a long question, but my intent is to get a certification while also working on my startup idea. Right now, 
+I'm mostly doing prompt engineering and some AWS plumbing and hence finding ways of expanding my horizons.
+```
+---
+
+     
+ 
+all -  [ Jupyter not honoring Conda environments? ](https://www.reddit.com/r/JupyterNotebooks/comments/1ggmaty/jupyter_not_honoring_conda_environments/) , 2024-11-01-0914
+```
+Hi all!
+
+I've been using jupyter on an off for a while, but I need to start using it a lot more regularly, and I need to
+ integrate with conda virtual environments.
+
+Working on a new ubuntu 24.04 install, I installed Anaconda, then created a
+ new virtual environment and installed jupyter:
+
+    conda create -n jupyter python=3.12
+    conda activate jupyter
+    
+pip install jupyterlab
+    jupyter lab
+    ... 
+
+So far so good, everything running as expected. So I then create anothe
+r conda environment for a new project and register it with jupyter via ipykernel.
+
+    conda create -n rag-llama3.2 pyth
+on=3.11
+    conda activate rag-llama3.2
+    python -m ipykernel install --user --name=rag-llama3.2
+
+The ipykernel part w
+as completely new to me, I was following a medium post: [https://medium.com/@nrk25693/how-to-add-your-conda-environment-
+to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084](https://medium.com/@nrk25693/how-to-add-your-conda-environment-to
+-your-jupyter-notebook-in-just-4-steps-abeab8b8d084)
+
+So I now have jupyter running in its own conda env, and a new env 
+to use for my project. This is where things get very strange. I jump in to the jupyter console, create a new notebook, a
+nd select the newly registered kernel from the dropdown, all seems fine. I start installing a few packages and writing a
+ little code:
+
+    ! pip install langchain-nomic
+    ! pip install -qU langchain-ollama
+    ! pip list | grep langchain
+
+    langchain-core            0.3.14
+    langchain-nomic           0.1.3
+    langchain-ollama          0.2.0
+
+Packages i
+nstalled, so I begin with an import:
+
+    # LLM using local Ollama
+    
+    ### LLM
+    from langchain_ollama import Cha
+tOllama
+    
+    local_llm = 'llama3.2:3b-instruct-fp16'
+    docker_host = 'http://127.0.0.1:11434'
+    
+    llm = ChatO
+llama(model=local_llm, temperature=0, api_base_url=docker_host)
+    llm_json_mode = ChatOllama(model=local_llm, temperat
+ure=0, format='json', api_base_url=docker_host)
+
+Computer says no!
+
+    ------------------------------------------------
+---------------------------
+    ModuleNotFoundError                       Traceback (most recent call last)
+    Cell In[
+4], line 4
+          1 # LLM using local Ollama
+          2 
+          3 ### LLM
+    ----> 4 from langchain_ollama impor
+t ChatOllama
+          6 local_llm = 'llama3.2:3b-instruct-fp16'
+          7 docker_host = 'http://127.0.0.1:11434'
+    
+
+    ModuleNotFoundError: No module named 'langchain_ollama'------------------------------------------------------------
+---------------
+    ModuleNotFoundError                       Traceback (most recent call last)
+    Cell In[4], line 4
+ 
+         1 # LLM using local Ollama
+          2 
+          3 ### LLM
+    ----> 4 from langchain_ollama import ChatOllama
+
+          6 local_llm = 'llama3.2:3b-instruct-fp16'
+          7 docker_host = 'http://127.0.0.1:11434'
+    
+    ModuleN
+otFoundError: No module named 'langchain_ollama'
+
+So the modules are installed, but I can't import them. At this point I
+ started hunting around and found a few commands to help identify the problem:
+
+    !jupyter kernelspec list --json
+    
+
+    {
+      'kernelspecs': {
+        'python3': {
+          'resource_dir': '/home/gjws/anaconda3/envs/jupyter/share/ju
+pyter/kernels/python3',
+          'spec': {
+            'argv': [
+              'python',
+              '-m',
+          
+    'ipykernel_launcher',
+              '-f',
+              '{connection_file}'
+            ],
+            'env': {},
+  
+          'display_name': 'Python 3 (ipykernel)',
+            'language': 'python',
+            'interrupt_mode': 'signa
+l',
+            'metadata': {
+              'debugger': true
+            }
+          }
+        },
+        'rag-llama3.2'
+: {
+          'resource_dir': '/home/gjws/.local/share/jupyter/kernels/rag-llama3.2',
+          'spec': {
+            'a
+rgv': [
+              '/home/gjws/anaconda3/envs/rag-llama3.2/bin/python',
+              '-Xfrozen_modules=off',
+       
+       '-m',
+              'ipykernel_launcher',
+              '-f',
+              '{connection_file}'
+            ],
+  
+          'env': {},
+            'display_name': 'rag-llama3.2',
+            'language': 'python',
+            'interrup
+t_mode': 'signal',
+            'metadata': {
+              'debugger': true
+            }
+          }
+        }
+      }
+
+    }
+    /home/gjws/anaconda3/envs/jupyter/bin/python{
+      'kernelspecs': {
+        'python3': {
+          'resource_
+dir': '/home/gjws/anaconda3/envs/jupyter/share/jupyter/kernels/python3',
+          'spec': {
+            'argv': [
+     
+         'python',
+              '-m',
+              'ipykernel_launcher',
+              '-f',
+              '{connectio
+n_file}'
+            ],
+            'env': {},
+            'display_name': 'Python 3 (ipykernel)',
+            'language
+': 'python',
+            'interrupt_mode': 'signal',
+            'metadata': {
+              'debugger': true
+          
+  }
+          }
+        },
+        'rag-llama3.2': {
+          'resource_dir': '/home/gjws/.local/share/jupyter/kernels/
+rag-llama3.2',
+          'spec': {
+            'argv': [
+              '/home/gjws/anaconda3/envs/rag-llama3.2/bin/pytho
+n',
+              '-Xfrozen_modules=off',
+              '-m',
+              'ipykernel_launcher',
+              '-f',
+  
+            '{connection_file}'
+            ],
+            'env': {},
+            'display_name': 'rag-llama3.2',
+      
+      'language': 'python',
+            'interrupt_mode': 'signal',
+            'metadata': {
+              'debugger': 
+true
+            }
+          }
+        }
+      }
+    }
+    
+    !which -a python
+    /home/gjws/anaconda3/envs/jupyter/b
+in/python
+
+So to my untrained eyes, jupyter is seeing both the jupyter conda environment and the rag-llama3.2 environmen
+t and getting confused.
+
+Now I don't know where to go.
+
+Have I done something fundamentally wrong?
+
+Should I NOT be runn
+ing jupyter in its own venv and just install it globally?
+
+Have I screwed up the ipykernel steps somewhere?
+
+Any help wo
+uld be much appreciated. I've been at this for hours and have hit a brick wall :(
+
+Thanks for taking the time to read al
+l this!!!
+```
+---
+
+     
+ 
+all -  [ Which version is better, the shorter or longer one? I've changed my carrer. ](https://www.reddit.com/r/resumes/comments/1ggm0mc/which_version_is_better_the_shorter_or_longer_one/) , 2024-11-01-0914
+```
+[Long Version](https://preview.redd.it/2ytulhse05yd1.png?width=1172&format=png&auto=webp&s=203467d1c9fb5b63f4b973c348b91
+eca6d7399bc)
+
+  
+
+
+[Short Version](https://preview.redd.it/8mff2rhk05yd1.png?width=1171&format=png&auto=webp&s=35bfbc3a5
+9e965629d49b174519825b4c3f3d94f)
+
+  
+The short version deletes my former experience and moves a 'Collaborative Project' 
+from 'Experience' to the 'Projects Highlights' section, where I leave only 3 projects. The long version has more info: m
+ore projects and more experience, with the collaborative project as an experience.
+
+I prefer the short one, because I pu
+t all the most important info on the first page, but I want to make sure that the info I don't show on this version is n
+ot THAT important.
+
+Any opinions?
+
+Thanks in advance.
+```
+---
+
+     
+ 
+all -  [ Anyone using LangGraph Cloud API? Seems like it’s Enterprise Only since yesterday based on a note in ](https://www.reddit.com/r/LangChain/comments/1ggg9mw/anyone_using_langgraph_cloud_api_seems_like_its/) , 2024-11-01-0914
+```
+
+```
+---
+
+     
+ 
+all -  [ ChatGPT Prompting Method ](https://www.reddit.com/r/PromptEngineering/comments/1ggfoax/chatgpt_prompting_method/) , 2024-11-01-0914
+```
+Not too long ago, people were posting ChatGPT prompts that made the chat window turned into an interactive q&a. It may h
+ave been connected with Langchain, but I can't seem to find any of those types of posts. Those types of prompts also oft
+en had emojis as part of its design and user interface. Does anyone remember what I'm talking about?
+```
+---
+
+     
+ 
+all -  [ 🌟 [Open Source] FlutterVoiceFriend – Open Source Voice Chatbot Framework for Flutter Devs! 🚀 ](https://www.reddit.com/r/FlutterDev/comments/1ggf4hw/open_source_fluttervoicefriend_open_source_voice/) , 2024-11-01-0914
+```
+Hey devs!
+
+A few months ago, I was searching everywhere for a voice chatbot framework to use with Flutter, especially af
+ter discovering that Langchain had been ported to Flutter. My goal was to create a **mindful self-compassion assistant f
+or kids**, but I couldn’t find any ready-made solution for the setup I had in mind. So, I decided to build my own and th
+en to open source it, this is a story behind **FlutterVoiceFriend**!
+
+**FlutterVoiceFriend is far from perfect, but I be
+lieve it can help others get started on their voice chatbot journey.**
+
+👉 [GitHub Repo: FlutterVoiceFriend](https://gith
+ub.com/jbpassot/flutter_voice_friend/)
+
+# What is FlutterVoiceFriend?
+
+It’s an open-source Flutter app framework that co
+mbines **Langchain, OpenAI for TTS/NLP**, and multiple Speech-to-Text (STT) options (including Deepgram for online and o
+ffline STT) to create **interactive, voice-driven chatbots**.
+
+# Why it Might Be Helpful 🚀:
+
+Whether you’re working on a
+ virtual assistant, educational companion, or a voice-driven game, FlutterVoiceFriend gives you a flexible starting poin
+t to create voice-based applications that are **fully customizable** and cross-platform.
+
+# Key Features:
+
+* **Voice-to-
+Voice Conversations**: Speak with the bot and get natural voice responses!
+* **Multiple Speech Recognition Options**: Bo
+th on-device and cloud STT, making it versatile for different environments and device capabilities.
+* **Natural Language
+ Processing**: Langchain + OpenAI models for creating more natural, nuanced dialogues.
+* **Customizable TTS**: Set up di
+fferent voices and languages to give your chatbot a unique “personality.”
+* **Built with Flutter**: Compatible across iO
+S, Android, and Web platforms from a single codebase.
+
+# The App That Started It All:
+
+Here’s the app I originally built
+ using this framework – [The Friend In Me](https://apps.apple.com/us/app/the-friend-in-me/id6605936938), a mindfulness c
+ompanion for kids.
+
+# Looking for Contributors!
+
+If you’re interested in building out features, writing tests, optimizin
+g for different use cases, or just want to contribute ideas, I’d love for you to get involved. Whether you’re a Flutter 
+guru or just excited to work with voice/chatbot tech, let’s make this better together!
+
+# Happy coding! 😊
+```
+---
+
+     
+ 
+all -  [ Production-ready and fast RAG Solution for Generating JSONs Based on PDF Documents my quick research ](https://www.reddit.com/r/LocalLLaMA/comments/1gge5bh/productionready_and_fast_rag_solution_for/) , 2024-11-01-0914
+```
+Hey everyone!
+
+I’m exploring options for a production-grade Retrieval-Augmented Generation (RAG) setup to generate JSON 
+data from documents. My goal is to get **accurate, commercial-ready outputs** as quickly as possible. I’m open to models
+, as long as the results are reliable and production-suited. After some research and help from GPT, I’ve narrowed down t
+o a few options and would appreciate insights or any advice based on experience.
+
+# Current Options Considered GPT table
+:
+
+https://preview.redd.it/azd7m59yg3yd1.png?width=899&format=png&auto=webp&s=0dd00c476aceeef1ddd56aa7ba0a3709c9bcf54a
+
+
+https://preview.redd.it/qtzbduuzg3yd1.png?width=795&format=png&auto=webp&s=31dded5c8a05fde171552ff9b6b4b8fff4e108f8
+
+Key
+ Priorities:
+
+* **Accuracy and production-readiness** for JSON outputs.
+* **Commercial use** licensing and support.
+* **
+Ease of scaling and deployment** for enterprise production (though I’m flexible on initial setup time if results are sol
+id).
+* I could pay
+
+AWS Bedrock seem like the best path for this, or would something else better fit my needs? Does anyo
+ne have experience with Bedrock in a production RAG workflow, or should I be looking deeper into SageMaker or an open-so
+urce alternative?
+
+It seems that Haystack would be nice for production, customization and then putting it on the cloud b
+ut with a bit more time investment.
+```
+---
+
+     
+ 
+all -  [ Are there any Local LLMs with COT capabilities? ](https://www.reddit.com/r/LangChain/comments/1ggcalv/are_there_any_local_llms_with_cot_capabilities/) , 2024-11-01-0914
+```
+Hi All,
+
+Been dabbing at Ollama to create a custom RAG hosted in local server (for security reasons). Now the client wan
+ts a Chain of Thought (COT) capability as well. Basically the client wants basic numerical functionality. For e.g. 'I am
+ doing 80 mph on I 80. What is the average speed here and how much slower or faster I am'.
+
+The data has details about a
+vg speed of I80. example 90 mph. So the RAG application should say 'I am 10mph slower than average speed.'
+
+Are there an
+y COT capable Local LLMs? If not any idea how to solve the above problem?
+```
+---
+
+     
+ 
+all -  [ Prod Level RAG Applications ](https://www.reddit.com/r/Rag/comments/1ggc76e/prod_level_rag_applications/) , 2024-11-01-0914
+```
+Hi everyone, I have been learning Rag for months and I have created some question-answering applications using LangChain
+ to add to my resume. But I am wondering in real life, in production level rag applications, what is the difference from
+ my local simple rag project? Which vectorstore do you use for your project, or embedding model? open source or api?
+
+  
+
+What are the biggest differences between production-level RAG applications and simple RAG projects on github? Are your 
+documents usually pdf or csv?
+
+Thank you.
+```
+---
+
+     
+ 
+all -  [ Using conda environments with Jupyter best practices? ](https://www.reddit.com/r/JupyterLab/comments/1gg9y4b/using_conda_environments_with_jupyter_best/) , 2024-11-01-0914
+```
+Hi all!
+
+I've been using jupyter on an off for a while, but I need to start using it a lot more regularly, and I need to
+ integrate with conda virtual environments. 
+
+Working on a new ubuntu 24.04 install, I installed Anaconda, then created 
+a new virtual environment and installed jupyter:
+
+    conda create -n jupyter python=3.12
+    conda activate jupyter
+   
+ pip install jupyterlab
+    jupyter lab
+    ... 
+    
+
+  
+So far so good, everything running as expected. So I then crea
+te another conda environment for a new project and register it with jupyter via ipykernel. 
+
+    conda create -n rag-lla
+ma3.2 python=3.11
+    conda activate rag-llama3.2
+    python -m ipykernel install --user --name=rag-llama3.2
+
+The ipyker
+nel part was completely new to me, I was following a medium post: [https://medium.com/@nrk25693/how-to-add-your-conda-en
+vironment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084](https://medium.com/@nrk25693/how-to-add-your-conda-envi
+ronment-to-your-jupyter-notebook-in-just-4-steps-abeab8b8d084)
+
+So I now have jupyter running in its own conda env, and 
+a new env to use for my project. This is where things get very strange. I jump in to the jupyter console, create a new n
+otebook, and select the newly registered kernel from the dropdown, all seems fine. I start installing a few packages and
+ writing a little code:
+
+    ! pip install langchain-nomic
+    ! pip install -qU langchain-ollama
+    ! pip list | grep 
+langchain
+    langchain-core            0.3.14
+    langchain-nomic           0.1.3
+    langchain-ollama          0.2.0
+
+
+  
+Packages installed, so I begin with an import:
+
+    # LLM using local Ollama
+    
+    ### LLM
+    from langchain_olla
+ma import ChatOllama
+    
+    local_llm = 'llama3.2:3b-instruct-fp16'
+    docker_host = 'http://127.0.0.1:11434'
+    
+  
+  llm = ChatOllama(model=local_llm, temperature=0, api_base_url=docker_host)
+    llm_json_mode = ChatOllama(model=local_
+llm, temperature=0, format='json', api_base_url=docker_host)
+
+Computer says no!
+
+    -----------------------------------
+----------------------------------------
+    ModuleNotFoundError                       Traceback (most recent call last)
+
+    Cell In[4], line 4
+          1 # LLM using local Ollama
+          2 
+          3 ### LLM
+    ----> 4 from langchain
+_ollama import ChatOllama
+          6 local_llm = 'llama3.2:3b-instruct-fp16'
+          7 docker_host = 'http://127.0.0.
+1:11434'
+    
+    ModuleNotFoundError: No module named 'langchain_ollama'-----------------------------------------------
+----------------------------
+    ModuleNotFoundError                       Traceback (most recent call last)
+    Cell In
+[4], line 4
+          1 # LLM using local Ollama
+          2 
+          3 ### LLM
+    ----> 4 from langchain_ollama impo
+rt ChatOllama
+          6 local_llm = 'llama3.2:3b-instruct-fp16'
+          7 docker_host = 'http://127.0.0.1:11434'
+   
+ 
+    ModuleNotFoundError: No module named 'langchain_ollama'
+
+So the modules are installed, but I can't import them. At
+ this point I started hunting around and found a few commands to help identify the problem:
+
+    !jupyter kernelspec lis
+t --json
+    
+    {
+      'kernelspecs': {
+        'python3': {
+          'resource_dir': '/home/gjws/anaconda3/envs/jup
+yter/share/jupyter/kernels/python3',
+          'spec': {
+            'argv': [
+              'python',
+              '-m
+',
+              'ipykernel_launcher',
+              '-f',
+              '{connection_file}'
+            ],
+            
+'env': {},
+            'display_name': 'Python 3 (ipykernel)',
+            'language': 'python',
+            'interrupt_
+mode': 'signal',
+            'metadata': {
+              'debugger': true
+            }
+          }
+        },
+        '
+rag-llama3.2': {
+          'resource_dir': '/home/gjws/.local/share/jupyter/kernels/rag-llama3.2',
+          'spec': {
+ 
+           'argv': [
+              '/home/gjws/anaconda3/envs/rag-llama3.2/bin/python',
+              '-Xfrozen_modules=
+off',
+              '-m',
+              'ipykernel_launcher',
+              '-f',
+              '{connection_file}'
+    
+        ],
+            'env': {},
+            'display_name': 'rag-llama3.2',
+            'language': 'python',
+        
+    'interrupt_mode': 'signal',
+            'metadata': {
+              'debugger': true
+            }
+          }
+     
+   }
+      }
+    }
+    /home/gjws/anaconda3/envs/jupyter/bin/python{
+      'kernelspecs': {
+        'python3': {
+       
+   'resource_dir': '/home/gjws/anaconda3/envs/jupyter/share/jupyter/kernels/python3',
+          'spec': {
+            'a
+rgv': [
+              'python',
+              '-m',
+              'ipykernel_launcher',
+              '-f',
+            
+  '{connection_file}'
+            ],
+            'env': {},
+            'display_name': 'Python 3 (ipykernel)',
+        
+    'language': 'python',
+            'interrupt_mode': 'signal',
+            'metadata': {
+              'debugger': tr
+ue
+            }
+          }
+        },
+        'rag-llama3.2': {
+          'resource_dir': '/home/gjws/.local/share/jup
+yter/kernels/rag-llama3.2',
+          'spec': {
+            'argv': [
+              '/home/gjws/anaconda3/envs/rag-llama
+3.2/bin/python',
+              '-Xfrozen_modules=off',
+              '-m',
+              'ipykernel_launcher',
+         
+     '-f',
+              '{connection_file}'
+            ],
+            'env': {},
+            'display_name': 'rag-llam
+a3.2',
+            'language': 'python',
+            'interrupt_mode': 'signal',
+            'metadata': {
+             
+ 'debugger': true
+            }
+          }
+        }
+      }
+    }
+    
+    !which -a python
+    /home/gjws/anaconda3/e
+nvs/jupyter/bin/python
+
+  
+So to my untrained eyes, jupyter is seeing both the jupyter conda environment and the rag-lla
+ma3.2 environment and getting confused.
+
+Now I don't know where to go. 
+
+Have I done something fundamentally wrong?
+
+Sho
+uld I NOT be running jupyter in its own venv and just install it globally?
+
+Have I screwed up the ipykernel steps somewh
+ere?
+
+  
+Any help would be much appreciated. I've been at this for hours and have hit a brick wall :(
+
+  
+Thanks for tak
+ing the time to read all this!!!
+```
+---
+
+     
+ 
+all -  [ Not able to connect to MS SQL Server Database using the tools of Crewai & Langchain. ](https://www.reddit.com/r/crewai/comments/1gg54xa/not_able_to_connect_to_ms_sql_server_database/) , 2024-11-01-0914
+```
+I've tried using NL2SQL tool of Crewai and even the SQLDatabaseToolkit of Langchain, but nothing worked. All of these an
+d the examples on the internet are either on SQLLite, Postgres or using MySQL which someone barely uses in their Product
+ion environment. No working example of someone using these tools with MS SQL. I'm able to connect directly using pyodbc 
+library, but I want the LLM powered agents to be able to connect and query the DB. Is there a better way of achieveing t
+his? Should I create a tool of my own using pyodbc? Has anyone tried connecting their LLM powered agents to their MS SQL
+ Database? I'd like to know how you did it?
+```
+---
+
+     
+ 
+all -  [ Which open-source stack to use for WhatsApp AI customer service? (Concerned about relying solely on  ](https://www.reddit.com/r/LangChain/comments/1gfx4cz/which_opensource_stack_to_use_for_whatsapp_ai/) , 2024-11-01-0914
 ```
 Hey fellow DS folks! 👋
 
@@ -35,7 +771,7 @@ Edit: For context, I'm specifically looking at building this for small/medium bu
 
      
  
-all -  [ [Student] Current Computer Engineering (ML Focus) Masters Student Applying to AI/ML internships, nee ](https://www.reddit.com/r/EngineeringResumes/comments/1gfu3k7/student_current_computer_engineering_ml_focus/) , 2024-10-31-0913
+all -  [ [Student] Current Computer Engineering (ML Focus) Masters Student Applying to AI/ML internships, nee ](https://www.reddit.com/r/EngineeringResumes/comments/1gfu3k7/student_current_computer_engineering_ml_focus/) , 2024-11-01-0914
 ```
 I'm doing my Masters in Computer Engineering with a heavy focus on machine learning, I was able to get an AI/ML internsh
 ip this summer, but I am trying to apply more places for 2025 and have been having very bad luck so far (no interviews).
@@ -66,7 +802,7 @@ https://preview
 
      
  
-all -  [ Getting Started with LangchainJS: Build a Flexible AI Prompt Service ](https://passarella.dev/p/getting-started-with-langchainjs-build-a-flexible-ai-prompt-service) , 2024-10-31-0913
+all -  [ Getting Started with LangchainJS: Build a Flexible AI Prompt Service ](https://passarella.dev/p/getting-started-with-langchainjs-build-a-flexible-ai-prompt-service) , 2024-11-01-0914
 ```
 Hey everyone, I wrote an article for those wanting to start with AI and LangchainJS. It's useful for personal projects o
 r new generative AI features at your work. In the article I quickly go through some basic Langchain concepts and build a
@@ -76,7 +812,7 @@ r new generative AI features at your work. In the article I quickly go through s
 
      
  
-all -  [ Vectorstore with advanced/versatile filtering ](https://www.reddit.com/r/LangChain/comments/1gfqghi/vectorstore_with_advancedversatile_filtering/) , 2024-10-31-0913
+all -  [ Vectorstore with advanced/versatile filtering ](https://www.reddit.com/r/LangChain/comments/1gfqghi/vectorstore_with_advancedversatile_filtering/) , 2024-11-01-0914
 ```
 Hi all
 
@@ -95,15 +831,7 @@ Any experience?
 
      
  
-all -  [ Making a Verbal AI Assistant With OpenAI, LangChain, and GroundX | RAG M... ](https://youtube.com/watch?v=BL2G3C3_RZU&si=sbS0mIB0-nZnUrug) , 2024-10-31-0913
-```
-
-```
----
-
-     
- 
-all -  [ RAG web app with local vector DB ](https://www.reddit.com/r/LangChain/comments/1gfolho/rag_web_app_with_local_vector_db/) , 2024-10-31-0913
+all -  [ RAG web app with local vector DB ](https://www.reddit.com/r/LangChain/comments/1gfolho/rag_web_app_with_local_vector_db/) , 2024-11-01-0914
 ```
 Use case: users of the web app will chat with their localhost vector DB which contains their own private data. 
 
@@ -114,7 +842,7 @@ n: are there alternatives to have a user interact with their own private data se
 
      
  
-all -  [ Doubt and worry for job security due to high hike switch and domain switch. Please give advice to a  ](https://www.reddit.com/r/developersIndia/comments/1gfn03m/doubt_and_worry_for_job_security_due_to_high_hike/) , 2024-10-31-0913
+all -  [ Doubt and worry for job security due to high hike switch and domain switch. Please give advice to a  ](https://www.reddit.com/r/developersIndia/comments/1gfn03m/doubt_and_worry_for_job_security_due_to_high_hike/) , 2024-11-01-0914
 ```
 Hello fellow developers, a youngling here with 1+ YOE in a Big4 company where i am not getting much work except some sql
  and vba macro tasks here and there. 
@@ -175,7 +903,7 @@ s
 
      
  
-all -  [ English Text to Sql to Data ](https://www.reddit.com/r/ChatGPTPro/comments/1gfkudf/english_text_to_sql_to_data/) , 2024-10-31-0913
+all -  [ English Text to Sql to Data ](https://www.reddit.com/r/ChatGPTPro/comments/1gfkudf/english_text_to_sql_to_data/) , 2024-11-01-0914
 ```
 I need to accept as input english text and return data from a DB. I’m trying to understand the distinct advantages of th
 e different tools available.
@@ -187,7 +915,7 @@ ble to add context and knowledge to the prompt?
 
      
  
-all -  [ What are best in class datasets to conduct Chain of Thought Fine-tuning? ](https://www.reddit.com/r/LangChain/comments/1gfk6tb/what_are_best_in_class_datasets_to_conduct_chain/) , 2024-10-31-0913
+all -  [ What are best in class datasets to conduct Chain of Thought Fine-tuning? ](https://www.reddit.com/r/LangChain/comments/1gfk6tb/what_are_best_in_class_datasets_to_conduct_chain/) , 2024-11-01-0914
 ```
 As the title says, I’d like to do some finetuning tasks with the goal of improving the chain of thought capability. For 
 this, what are commonly accepted or best-in-class datasets? 
@@ -198,7 +926,7 @@ Thanks for all your comments.
 
      
  
-all -  [ Where to find example of Llama2 code (no langchain) ](https://www.reddit.com/r/learnmachinelearning/comments/1gfijbe/where_to_find_example_of_llama2_code_no_langchain/) , 2024-10-31-0913
+all -  [ Where to find example of Llama2 code (no langchain) ](https://www.reddit.com/r/learnmachinelearning/comments/1gfijbe/where_to_find_example_of_llama2_code_no_langchain/) , 2024-11-01-0914
 ```
 Hi all, 
 
@@ -217,7 +945,7 @@ Do you have some autors or github repo of person who write good quality code an
 
      
  
-all -  [ How can I enable pagination like support for my SQL agent? ](https://www.reddit.com/r/LangChain/comments/1gfftuy/how_can_i_enable_pagination_like_support_for_my/) , 2024-10-31-0913
+all -  [ How can I enable pagination like support for my SQL agent? ](https://www.reddit.com/r/LangChain/comments/1gfftuy/how_can_i_enable_pagination_like_support_for_my/) , 2024-11-01-0914
 ```
 Hello everyone, I'm working on a Langgraph project i.e. an SQL agent. 
 
@@ -240,7 +968,7 @@ How can I enable pagination for my agent ?
 
      
  
-all -  [ Customer Support Template Generator: Create Response Templates from Past Tickets 📝 ](https://www.reddit.com/r/ArtificialMoney/comments/1gffgp6/customer_support_template_generator_create/) , 2024-10-31-0913
+all -  [ Customer Support Template Generator: Create Response Templates from Past Tickets 📝 ](https://www.reddit.com/r/ArtificialMoney/comments/1gffgp6/customer_support_template_generator_create/) , 2024-11-01-0914
 ```
 # 💡 The Idea
 
@@ -502,7 +1230,7 @@ ms - what worked and what didn't? What challenges did you face in maintaining te
 
      
  
-all -  [ AI Sales Call Analyzer: Review Sales Calls and Suggest Improvement Areas 📞 ](https://www.reddit.com/r/ArtificialMoney/comments/1gffb1h/ai_sales_call_analyzer_review_sales_calls_and/) , 2024-10-31-0913
+all -  [ AI Sales Call Analyzer: Review Sales Calls and Suggest Improvement Areas 📞 ](https://www.reddit.com/r/ArtificialMoney/comments/1gffb1h/ai_sales_call_analyzer_review_sales_calls_and/) , 2024-11-01-0914
 ```
 # 💡 The Idea
 
@@ -747,7 +1475,7 @@ worked in similar systems you've built? 👇
 
      
  
-all -  [ Does Anyone Use the Custom Models from Open-WebUI page? ](https://www.reddit.com/r/OpenWebUI/comments/1gfdbaz/does_anyone_use_the_custom_models_from_openwebui/) , 2024-10-31-0913
+all -  [ Does Anyone Use the Custom Models from Open-WebUI page? ](https://www.reddit.com/r/OpenWebUI/comments/1gfdbaz/does_anyone_use_the_custom_models_from_openwebui/) , 2024-11-01-0914
 ```
 I was browsing through the models section on the site, looking for something useful, and I am coming up empty. Now mind 
 you, I don't yet know how I want to use my environment yet. I just know I have it running pretty solid and fast and look
@@ -762,7 +1490,7 @@ sn't anything valuable that I am seeing.
 
      
  
-all -  [ Am I the only one struggling to understand langsmith UI? ](https://www.reddit.com/r/learnmachinelearning/comments/1gf9l8b/am_i_the_only_one_struggling_to_understand/) , 2024-10-31-0913
+all -  [ Am I the only one struggling to understand langsmith UI? ](https://www.reddit.com/r/learnmachinelearning/comments/1gf9l8b/am_i_the_only_one_struggling_to_understand/) , 2024-11-01-0914
 ```
 I was learning langchain and langsmith came up. But it is so hard to understand all the UI components of Langsmith and t
 he purpose of every element. Am I the only one who feels this way?
@@ -771,7 +1499,7 @@ he purpose of every element. Am I the only one who feels this way?
 
      
  
-all -  [ Testing the performance and accuracy of embedding models ](https://www.reddit.com/r/LangChain/comments/1gf7v9n/testing_the_performance_and_accuracy_of_embedding/) , 2024-10-31-0913
+all -  [ Testing the performance and accuracy of embedding models ](https://www.reddit.com/r/LangChain/comments/1gf7v9n/testing_the_performance_and_accuracy_of_embedding/) , 2024-11-01-0914
 ```
 I am building a simple RAG application. It's fairly simple because the data dump is not super huge (maximum 500 pages), 
 and the thing I am trying to build is a chatbot. I want to know how to test the performance of embedders and of the enti
@@ -784,7 +1512,7 @@ Thanks
 
      
  
-all -  [ Error during FAISS save_local due to __pydantic_private__ attribute  ](https://www.reddit.com/r/LangChain/comments/1gf4pyb/error_during_faiss_save_local_due_to_pydantic/) , 2024-10-31-0913
+all -  [ Error during FAISS save_local due to __pydantic_private__ attribute  ](https://www.reddit.com/r/LangChain/comments/1gf4pyb/error_during_faiss_save_local_due_to_pydantic/) , 2024-11-01-0914
 ```
 [GITHUB ISSUE LINK](https://github.com/langchain-ai/langchain/issues/27625#issue-2612696191)  
 I've been facing this err
@@ -856,7 +1584,7 @@ one please help me with this?
 
      
  
-all -  [ Unable to create a vector store. ](https://www.reddit.com/r/LangChain/comments/1gf3ddj/unable_to_create_a_vector_store/) , 2024-10-31-0913
+all -  [ Unable to create a vector store. ](https://www.reddit.com/r/LangChain/comments/1gf3ddj/unable_to_create_a_vector_store/) , 2024-11-01-0914
 ```
 I am trying to process a json datafile and  store it in my local as a vector store. I believe that i don't have sufficie
 nt memory requirements cause i tried exploring various techniques like async functions, multithreading and processing th
@@ -925,7 +1653,7 @@ ry=test_query, search_type='similarity')
 
      
  
-all -  [ I created a script to detect Prompt Injection but looking for feedback on it ](https://www.reddit.com/r/LangChain/comments/1gf0h0p/i_created_a_script_to_detect_prompt_injection_but/) , 2024-10-31-0913
+all -  [ I created a script to detect Prompt Injection but looking for feedback on it ](https://www.reddit.com/r/LangChain/comments/1gf0h0p/i_created_a_script_to_detect_prompt_injection_but/) , 2024-11-01-0914
 ```
 I recently posted an article about prompt injection and the community was very helpful in telling that the strategy just
  wouldn't work. So took some input from it and created the sample python script to detect Prompt Injection.
@@ -1235,7 +1963,7 @@ ual to Guardrails AI
 
      
  
-all -  [ Django and AI ](https://www.reddit.com/r/django/comments/1geztln/django_and_ai/) , 2024-10-31-0913
+all -  [ Django and AI ](https://www.reddit.com/r/django/comments/1geztln/django_and_ai/) , 2024-11-01-0914
 ```
 The AI boom has brought so many frameworks and tools to the python community but very few of them use Django as their ma
 in backbone. 
@@ -1260,7 +1988,7 @@ Also looking for contributors if anyone is interested :)
 
      
  
-all -  [ AI models not working with SQL agent most of the times ](https://www.reddit.com/r/LocalLLaMA/comments/1geztey/ai_models_not_working_with_sql_agent_most_of_the/) , 2024-10-31-0913
+all -  [ AI models not working with SQL agent most of the times ](https://www.reddit.com/r/LocalLLaMA/comments/1geztey/ai_models_not_working_with_sql_agent_most_of_the/) , 2024-11-01-0914
 ```
 Hi! 
 
@@ -1296,21 +2024,7 @@ Is it an LLM issue, or it's an issue on n8n's side (their implementation is bad)
 
      
  
-all -  [ Local server with function calling? ](https://www.reddit.com/r/LocalLLaMA/comments/1gezjug/local_server_with_function_calling/) , 2024-10-31-0913
-```
-I've been playing around a bit with function calling LLM's through Langchain with the OpenAI API.
-
-Is there any locally 
-running server that runs on Windows and supports the use of tools?
-
-I've tried KoboldCPP and Llama.cpp but they don't se
-em to support it yet.
-```
----
-
-     
- 
-all -  [ [Student] Graduating next year, can you review my first attempt at an external resume. ](https://www.reddit.com/r/EngineeringResumes/comments/1gex5k9/student_graduating_next_year_can_you_review_my/) , 2024-10-31-0913
+all -  [ [Student] Graduating next year, can you review my first attempt at an external resume. ](https://www.reddit.com/r/EngineeringResumes/comments/1gex5k9/student_graduating_next_year_can_you_review_my/) , 2024-11-01-0914
 ```
 In projects section I was a bit confused because there were many one off never to be updated again projects done by self
  and also through clubs/programs being run by our institute. So I have tried to club them up under one heading
@@ -1324,7 +2038,7 @@ preview.redd.it/73iju9l1qpxd1.jpg?width=5100&format=pjpg&auto=webp&s=1f0373523d2
 
      
  
-all -  [ Run a graph locally with docker ](https://www.reddit.com/r/LangChain/comments/1gewqtg/run_a_graph_locally_with_docker/) , 2024-10-31-0913
+all -  [ Run a graph locally with docker ](https://www.reddit.com/r/LangChain/comments/1gewqtg/run_a_graph_locally_with_docker/) , 2024-11-01-0914
 ```
 Hello everyone!
 
@@ -1351,7 +2065,7 @@ Thank you all.
 
      
  
-all -  [ Best tool(s)/libraries/approach: Loop through files, identify top sections based on prompt, parse in ](https://www.reddit.com/r/LangChain/comments/1geshia/best_toolslibrariesapproach_loop_through_files/) , 2024-10-31-0913
+all -  [ Best tool(s)/libraries/approach: Loop through files, identify top sections based on prompt, parse in ](https://www.reddit.com/r/LangChain/comments/1geshia/best_toolslibrariesapproach_loop_through_files/) , 2024-11-01-0914
 ```
 I am learning NLP by doing it. I am thinking of developing a project that I thought of doing at university and I wonder 
 what best combination of tools would be.
@@ -1394,7 +2108,7 @@ Could you recommend approach or tools to use to do this?
 
      
  
-all -  [ Relevance Revolution: How Re-ranking Transforms RAG Systems ](https://open.substack.com/pub/diamantai/p/relevance-revolution-how-re-ranking?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-10-31-0913
+all -  [ Relevance Revolution: How Re-ranking Transforms RAG Systems ](https://open.substack.com/pub/diamantai/p/relevance-revolution-how-re-ranking?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-11-01-0914
 ```
 TL;DR: If your AI's search results are missing the mark on complex queries, re-ranking can help. In RAG systems, re-rank
 ing reorders initial search results by deeply analyzing context and relevance using models like LLMs or Cross-Encoders. 
@@ -1406,7 +2120,7 @@ e your RAG system? Check out the full blog post! 🚀
 
      
  
-all -  [ saving a compiled graph  ](https://www.reddit.com/r/LangChain/comments/1geqidb/saving_a_compiled_graph/) , 2024-10-31-0913
+all -  [ saving a compiled graph  ](https://www.reddit.com/r/LangChain/comments/1geqidb/saving_a_compiled_graph/) , 2024-11-01-0914
 ```
 Hy , is there any way i could save my compiled graph from langgraph and then load it in some other environment ?
 
@@ -1416,7 +2130,7 @@ Hy , is there any way i could save my compiled graph from langgraph and then loa
 
      
  
-all -  [ Handling PDFs with Diagrams as Images ](https://www.reddit.com/r/LangChain/comments/1geq039/handling_pdfs_with_diagrams_as_images/) , 2024-10-31-0913
+all -  [ Handling PDFs with Diagrams as Images ](https://www.reddit.com/r/LangChain/comments/1geq039/handling_pdfs_with_diagrams_as_images/) , 2024-11-01-0914
 ```
 Hi guys, I need to use only open-source solutions and I need to extract all the information from pdfs. I am planning to 
 convert pages into images since they contain both image and text. And then use teserract to do ocr. Do you have any sugg
@@ -1426,7 +2140,7 @@ estions?
 
      
  
-all -  [ Class HuggingFaceEmbeddings remove endline '\n' in embed_documents function, why? ](https://www.reddit.com/r/LangChain/comments/1gepn38/class_huggingfaceembeddings_remove_endline_n_in/) , 2024-10-31-0913
+all -  [ Class HuggingFaceEmbeddings remove endline '\n' in embed_documents function, why? ](https://www.reddit.com/r/LangChain/comments/1gepn38/class_huggingfaceembeddings_remove_endline_n_in/) , 2024-11-01-0914
 ```
 I was using an embedding model named 'dangvantuan/vietnamese-embedding' on huggingface and it needed to tokenize before 
 using it, so I planned to override the class HuggingFaceEmbeddings to tokenize before embed documents. And then I discov
@@ -1472,7 +2186,7 @@ Thanks.
 
      
  
-all -  [ Docstore to use with FAISS ](https://www.reddit.com/r/LangChain/comments/1gekp6j/docstore_to_use_with_faiss/) , 2024-10-31-0913
+all -  [ Docstore to use with FAISS ](https://www.reddit.com/r/LangChain/comments/1gekp6j/docstore_to_use_with_faiss/) , 2024-11-01-0914
 ```
 I've been using Chroma both for my vector store and search and now I want to switch to FAISS but I'm not sure what docst
 ore to use with it. When I examined FAISS MRO I got to the Docstore class and I'm a bit confused as it seems like this c
@@ -1487,589 +2201,7 @@ https://preview.redd.it/inqs1dsi0mxd1.png?width=771&format=png&auto=webp&s=751db
 
      
  
-all -  [ Open Source NotebookLM API built with langchain ](https://www.reddit.com/r/LangChain/comments/1geh0gx/open_source_notebooklm_api_built_with_langchain/) , 2024-10-31-0913
-```
-Python package: [https://github.com/souzatharsis/podcastfy](https://github.com/souzatharsis/podcastfy)  
-Web app demo: [
-https://huggingface.co/spaces/thatupiso/Podcastfy.ai\_demo](https://huggingface.co/spaces/thatupiso/Podcastfy.ai_demo)
-```
----
-
-     
- 
-all -  [ Feel like LangGraph could benefit from having more advanced nodes  like those you find in Behavior T ](https://www.reddit.com/r/LangChain/comments/1gegibp/feel_like_langgraph_could_benefit_from_having/) , 2024-10-31-0913
-```
-[Unreal Engine](https://dev.epicgames.com/documentation/en-us/unreal-engine/behavior-tree-in-unreal-engine---overview#ba
-sicsofbehaviortrees)
-
-Eg; in Unreal Engine, they have nodes with various utilities. You can have a node 'type' that exec
-ute immediate child nodes in sequence whether each fails or not. Another where the sequence aborts if a child fail. A re
-peat-X-times node. A wait node. fail-over & interrupt branch (or whatever it is called), etc...
-```
----
-
-     
- 
-all -  [ [4 YoE, Unemployed, Data Analyst, Dallas] ](https://i.redd.it/5v75p2x9zjxd1.jpeg) , 2024-10-31-0913
-```
-I am international student who graduated in May 2024 and actively applying to jobs. Very few callbacks and interviews.
-P
-lease review my resume and give your feedback on it.
-Should I add more keywords to pass ATS? Does my resume seem technic
-al and consistent?
-```
----
-
-     
- 
-all -  [ Study guide using RAG ](https://www.reddit.com/r/LangChain/comments/1ge8zt7/study_guide_using_rag/) , 2024-10-31-0913
-```
-I'm a complete beginner, but I've been thinking about whether it's possible to create a system that takes a textbook and
- past exam papers to generate a study guide. The textbook is about 1,000 pages, while study guides are usually around 30
-0 pages. I’m not sure if an LLM can produce a full 300-page guide, but could we break it down into sections and combine 
-them to create a comprehensive study guide? Is this feasible? I don’t have an OpenAI API key, so I’m considering using G
-emini or local LLMs.
-I’m willing to learn everything needed to make this work, but I’m unsure if it’s feasible for me. A
-ny insights would be greatly appreciated. Thank you!
-
-
-```
----
-
-     
- 
-all -  [ LLM for creative writing ](https://www.reddit.com/r/LangChain/comments/1ge890j/llm_for_creative_writing/) , 2024-10-31-0913
-```
-Hey guys, 
-
-I'm creating a little application for creative writing and was wondering which LLM's you prefer. I'm current
-ly sticking to Claude 3.5 Sonnet, GPT4o is kind of comparable. What are your takes?
-```
----
-
-     
- 
-all -  [ Is there a framework like dify but where I can use a custom orchestrator instead? ](https://www.reddit.com/r/LocalLLaMA/comments/1ge7cei/is_there_a_framework_like_dify_but_where_i_can/) , 2024-10-31-0913
-```
-Hi everyone,  
-I would like to build an LLM app. I tried Dify and it's awesome but LLM orchestration isn't flexible enou
-gh for what I need.  
-
-It is perfect for the interface/frontend, API integration, monitoring and management, knowledge m
-anagement.
-
-I am wondering if there is a quick way to build a similar platform with open tools.  
-For example: weaviate 
-+ langchain + langfuse + openwebui...
-
-I am a little bit lost on this. I would be grateful for any help, thank you a lot
- in advance.
-```
----
-
-     
- 
-all -  [ Have OpenAI's GPT-4o Models Changed Recently? Noticing Different Results with GPT-4o Wrapper ](https://www.reddit.com/r/LangChain/comments/1ge42uk/have_openais_gpt4o_models_changed_recently/) , 2024-10-31-0913
-```
-Has anyone noticed changes in OpenAI models over time? I built a wrapper around GPT-4o a few months ago, and it was givi
-ng consistent results during testing. I didn’t touch it for about a month, but now that I’m working on it again, it’s be
-having differently. I thought model behavior would only change for the chat app, not the API. Has anyone else experience
-d this?
-```
----
-
-     
- 
-all -  [ Where does LangGraph's MemorySaver actually store the threads' data? ](https://www.reddit.com/r/LangChain/comments/1ge01ru/where_does_langgraphs_memorysaver_actually_store/) , 2024-10-31-0913
-```
-I'm developing a small test project where I have an Agent that answers questions about events and locations in my region
- by searching a database and google for information. I wanted to test how to add thread-level persistance to get it to a
-nswer follow-up questions, and I used the base implementation from langgraph-checkpoint as a start. Everything works, bu
-t I'm left with a question: where are the checkpoints for the threads actually stored? And how long are they stored for?
-
-
-I realize this implementation is only meant for testing but given that this project is more of a 'proof of concept' fo
-r a uni course at the moment it might be best to keep using this for the moment, so I would like to understand how it wo
-rks as much as possible.
-```
----
-
-     
- 
-all -  [ Dynamic JSON in ChatPromptTemplate ](https://www.reddit.com/r/LangChain/comments/1gdw24i/dynamic_json_in_chatprompttemplate/) , 2024-10-31-0913
-```
-I am building a chat interface where I am mostly dealing with JSONs. You can imagine, the output of the response would c
-ontain a JSON which would be injected back into the prompt as an 'assistant' message.
-
-This does not work in Langchain b
-ecause now it thinks, it needs to use variables because it detects curly braces {}. Either this simple use case is not s
-upported in Langchain (then it's not the right fit for my case) or I am doing something silly. Any help is much apprecia
-ted!
-
-Edit: This is in Langchain Python
-```
----
-
-     
- 
-all -  [ Why is Llama failing where OpenAI works just fine? (code) ](https://www.reddit.com/r/learnpython/comments/1gduuuw/why_is_llama_failing_where_openai_works_just_fine/) , 2024-10-31-0913
-```
-Problem: Openai implementation and Llama implementation code + output provided. OpenAI agent implementation works perfec
-tly, calling the search tool thrice as required and providing the complete answer. Llama implementation using my workpla
-ce api hosted on fireworks fails to do the same even when the code is completely unchanged, just the model has been chan
-ged. it calls the tool once and then stops.
-
-Context: At my workplace I have been told to learn langgraph with agents. I
- started on the agents with langgraph course on [deeplearning.ai](http://deeplearning.ai) , however later i was told to 
-use the workplace's fireworks hosted llama model. i am not getting any errors, so i dont even know what to fix here.
-
-\*
-\*OpenAI implementation:\*\*
-
-    import os
-    import json
-    from openai import OpenAI
-    from datetime import datet
-ime, timedelta
-    from dotenv import load_dotenv, find_dotenv
-    from langchain_openai import ChatOpenAI
-    from lang
-chain.schema import HumanMessage, AIMessage,ChatMessage
-    # Load environment variables from .env file
-    load_dotenv(
-)
-    _ = load_dotenv(find_dotenv())
-    
-    # Access the OpenAI API key from environment variables
-    # we use only g
-pt-4o-mini from now on. yay!
-    openai_api_key = os.getenv('OPENAI_API_KEY')
-    langchain_api_key = os.getenv('LANGCHA
-IN_API_KEY')
-    
-    # Debug: Print the API key to verify it is loaded correctly (optional, remove in production)
-    #
- print(f'API Key: {api_key}')
-    
-    if openai_api_key is None:
-        raise ValueError('API key is not set. Please s
-et the OPENAI_API_KEY in the .env file.')
-    
-    # Initialize the OpenAI client
-    client = OpenAI(api_key=openai_api
-_key)
-    
-    llm = ChatOpenAI(model_name='gpt-4o-mini', temperature=0)
-    
-    from langgraph.graph import StateGraph
-, END
-    from typing import TypedDict, Annotated
-    import operator
-    from langchain_core.messages import AnyMessage
-, SystemMessage, HumanMessage, ToolMessage
-    from langchain_community.tools.tavily_search import TavilySearchResults
- 
-   
-    
-    tool = TavilySearchResults(max_results = 2)
-    print(type(tool))
-    print(tool.name)
-    
-    class Agent
-State(TypedDict):
-        messages: Annotated[list[AnyMessage], operator.add]
-    
-    class Agent:
-        def __init__
-(self, model, tools, system = ' '):
-            self.system = system
-            graph = StateGraph(AgentState)
-        
-    graph.add_node('llm',self.call_openai)
-            graph.add_node('action',self.take_action)
-            graph.add_c
-onditional_edges(
-                'llm', 
-    # here we set where the conditional edge starts from
-                self.
-exists_action, 
-    # function that will determine where to go from there on
-                {
-                    
-    
-# This maps the respose of the function and where it should next go to
-                    True : 'action', False : END
-
-                }
-            )
-            graph.add_edge('action', 'llm')
-            graph.set_entry_point('llm')
-   
-         self.graph = graph.compile()
-    
-            
-    #langchain runnable is ready
-    
-            self.tools = {
-t.name : t for t in tools}
-            self.model = model.bind_tools(tools)
-    
-        def exists_action(self, state: 
-AgentState):
-            result = state['messages'][-1]
-            return len(result.tool_calls)>0
-     
-        def ca
-ll_openai(self, state: AgentState):
-            messages = state['messages']
-            if self.system:
-               
- messages = [SystemMessage(content= self.system)] + messages
-            message = self.model.invoke(messages)
-         
-   print(message)
-            return {'messages' : [message]}
-        
-    # since we annotated messages with operator.a
-dd, when we call the above return statement, it doesn't overwrite the messages, but adds to it.
-    
-        def take_ac
-tion(self, state : AgentState):
-            tool_calls = state['messages'][-1].tool_calls
-            results = []
-     
-       for t in tool_calls:
-                print(f'Calling: {t}')
-                result = self.tools[t['name']].invoke
-(t['args'])
-                results.append(ToolMessage(tool_call_id=t['id'], name=t['name'], content=str(result)))
-     
-       
-            print('Back to the model!')
-            return {'messages' : results}
-        
-    prompt = '''You a
-re a smart research assistant. Use the search engine to look up information. \
-    You are allowed to make multiple call
-s (either together or in sequence). \
-    Only look up information when you are sure of what you want. \
-    If you need
- to look up some information before asking a follow up question, you are allowed to do that!
-    '''
-    
-    abot = Age
-nt(model= llm, tools= [tool], system = prompt)
-    
-    messages = [HumanMessage(content = 'Who won IPL 2023? What is th
-e gdp of that state and the state beside that combined?')]
-    
-    result = abot.graph.invoke({'messages' : messages})
-
-    
-    print(result['messages'][-1].content)
-
-\*\*OpenAI output:\*\*  
-\`\`\`  
-<class 'langchain\_community.tools.tav
-ily\_search.tool.TavilySearchResults'>  
-tavily\_search\_results\_json  
-content='' additional\_kwargs={'tool\_calls': \
-[{'id': 'call\_uuUBBnZxDF5yhcCC7zn0ArOu', 'function': {'arguments': '{'query': 'IPL 2023 winner'}', 'name': 'tavily\_sea
-rch\_results\_json'}, 'type': 'function'}, {'id': 'call\_mFfUnqm5mISKgr5vAnYlGwu8', 'function': {'arguments': '{'query':
- 'GDP of Gujarat 2023'}', 'name': 'tavily\_search\_results\_json'}, 'type': 'function'}, {'id': 'call\_tIDXlc3QuWYdHvrny
-Rx9ze3X', 'function': {'arguments': '{'query': 'GDP of Maharashtra 2023'}', 'name': 'tavily\_search\_results\_json'}, 't
-ype': 'function'}\]} response\_metadata={'token\_usage': {'completion\_tokens': 84, 'prompt\_tokens': 166, 'total\_token
-s': 250, 'prompt\_tokens\_details': {'cached\_tokens': 0}, 'completion\_tokens\_details': {'reasoning\_tokens': 0}}, 'mo
-del\_name': 'gpt-4o-mini', 'system\_fingerprint': 'fp\_f59a81427f', 'finish\_reason': 'tool\_calls', 'logprobs': None} i
-d='run-04615292-a37e-4558-84d2-6371d835467f-0' tool\_calls=\[{'name': 'tavily\_search\_results\_json', 'args': {'query':
- 'IPL 2023 winner'}, 'id': 'call\_uuUBBnZxDF5yhcCC7zn0ArOu', 'type': 'tool\_call'}, {'name': 'tavily\_search\_results\_j
-son', 'args': {'query': 'GDP of Gujarat 2023'}, 'id': 'call\_mFfUnqm5mISKgr5vAnYlGwu8', 'type': 'tool\_call'}, {'name': 
-'tavily\_search\_results\_json', 'args': {'query': 'GDP of Maharashtra 2023'}, 'id': 'call\_tIDXlc3QuWYdHvrnyRx9ze3X', '
-type': 'tool\_call'}\] usage\_metadata={'input\_tokens': 166, 'output\_tokens': 84, 'total\_tokens': 250}  
-Calling: {'n
-ame': 'tavily\_search\_results\_json', 'args': {'query': 'IPL 2023 winner'}, 'id': 'call\_uuUBBnZxDF5yhcCC7zn0ArOu', 'ty
-pe': 'tool\_call'}  
-Calling: {'name': 'tavily\_search\_results\_json', 'args': {'query': 'GDP of Gujarat 2023'}, 'id': 
-'call\_mFfUnqm5mISKgr5vAnYlGwu8', 'type': 'tool\_call'}  
-Calling: {'name': 'tavily\_search\_results\_json', 'args': {'q
-uery': 'GDP of Maharashtra 2023'}, 'id': 'call\_tIDXlc3QuWYdHvrnyRx9ze3X', 'type': 'tool\_call'}  
-Back to the model!  
-
-content='The winner of IPL 2023 was the \*\*Chennai Super Kings (CSK)\*\*, who defeated the Gujarat Titans by five wicke
-ts in the final match held at the Narendra Modi Stadium in Ahmedabad. This victory marked CSK's fifth IPL title. \[More 
-details here\]([https://www.iplt20.com/news/3976/tata-ipl-2023-final-csk-vs-gt-match-reportOverall).\\n\\nNow](https://w
-ww.iplt20.com/news/3976/tata-ipl-2023-final-csk-vs-gt-match-reportOverall)./n/nNow), regarding the GDP of the states inv
-olved:\\n\\n1. \*\*Gujarat\*\*: The GDP of Gujarat for 2023 is estimated to be around ₹2.96 lakh crore (approximately $3
-6 billion) based on the budget analysis for 2023-24. \[Source\]([https://prsindia.org/budgets/states/gujarat-budget-anal
-ysis-2023-24).\\n\\n2](https://prsindia.org/budgets/states/gujarat-budget-analysis-2023-24)./n/n2). \*\*Maharashtra\*\*:
- The GDP of Maharashtra for 2023-24 is estimated to be around ₹42.67 trillion (approximately $510 billion). \[Source\]([
-https://en.wikipedia.org/wiki/Economy\_of\_Maharashtra).\\n\\n###](https://en.wikipedia.org/wiki/Economy_of_Maharashtra)
-./n/n###) Combined GDP of Gujarat and Maharashtra:\\n- Gujarat: ₹2.96 lakh crore\\n- Maharashtra: ₹42.67 trillion\\n\\nT
-o combine these figures:\\n- Convert Gujarat's GDP to the same unit as Maharashtra's: ₹2.96 lakh crore = ₹2.96 trillion.
-\\n- Combined GDP = ₹2.96 trillion + ₹42.67 trillion = ₹45.63 trillion (approximately $550 billion).\\n\\nThus, the comb
-ined GDP of Gujarat and Maharashtra is approximately \*\*₹45.63 trillion\*\* (or about \*\*$550 billion\*\*).' response\
-_metadata={'token\_usage': {'completion\_tokens': 328, 'prompt\_tokens': 2792, 'total\_tokens': 3120, 'prompt\_tokens\_d
-etails': {'cached\_tokens': 0}, 'completion\_tokens\_details': {'reasoning\_tokens': 0}}, 'model\_name': 'gpt-4o-mini', 
-'system\_fingerprint': 'fp\_f59a81427f', 'finish\_reason': 'stop', 'logprobs': None} id='run-5ca9fd99-6884-4dc5-9ce6-ce0
-156bef852-0' usage\_metadata={'input\_tokens': 2792, 'output\_tokens': 328, 'total\_tokens': 3120}  
-The winner of IPL 2
-023 was the \*\*Chennai Super Kings (CSK)\*\*, who defeated the Gujarat Titans by five wickets in the final match held a
-t the Narendra Modi Stadium in Ahmedabad. This victory marked CSK's fifth IPL title. \[More details here\](https://www.i
-plt20.com/news/3976/tata-ipl-2023-final-csk-vs-gt-match-reportOverall).
-
-Now, regarding the GDP of the states involved:
-
-
-1. \*\*Gujarat\*\*: The GDP of Gujarat for 2023 is estimated to be around ₹2.96 lakh crore (approximately $36 billion) 
-based on the budget analysis for 2023-24. \[Source\](https://prsindia.org/budgets/states/gujarat-budget-analysis-2023-24
-).
-2. \*\*Maharashtra\*\*: The GDP of Maharashtra for 2023-24 is estimated to be around ₹42.67 trillion (approximately $
-510 billion). \[Source\](https://en.wikipedia.org/wiki/Economy\_of\_Maharashtra).
-
-\### Combined GDP of Gujarat and Maha
-rashtra:  
-\- Gujarat: ₹2.96 lakh crore  
-\- Maharashtra: ₹42.67 trillion
-
-To combine these figures:  
-\- Convert Gujara
-t's GDP to the same unit as Maharashtra's: ₹2.96 lakh crore = ₹2.96 trillion.  
-\- Combined GDP = ₹2.96 trillion + ₹42.6
-7 trillion = ₹45.63 trillion (approximately $550 billion).
-
-Thus, the combined GDP of Gujarat and Maharashtra is approxi
-mately \*\*₹45.63 trillion\*\* (or about \*\*$550 billion\*\*).
-
-\`\`\`
-
-\*\*Llama Implementation:\*\*:
-
-    import os
- 
-   import json
-    from openai import OpenAI
-    from datetime import datetime, timedelta
-    from dotenv import load_do
-tenv, find_dotenv
-    from langchain_openai import ChatOpenAI
-    from langchain.schema import HumanMessage, AIMessage,C
-hatMessage
-    # Load environment variables from .env file
-    load_dotenv()
-    _ = load_dotenv(find_dotenv())
-    
-   
- # Access the OpenAI API key from environment variables
-    # we use only gpt-4o-mini from now on. yay!
-    openai_api_k
-ey = os.getenv('OPENAI_API_KEY')
-    langchain_api_key = os.getenv('LANGCHAIN_API_KEY')
-    
-    # Debug: Print the API 
-key to verify it is loaded correctly (optional, remove in production)
-    # print(f'API Key: {api_key}')
-    
-    if ope
-nai_api_key is None:
-        raise ValueError('API key is not set. Please set the OPENAI_API_KEY in the .env file.')
-   
- 
-    # Initialize the OpenAI client
-    client = OpenAI(api_key=openai_api_key)
-    
-    # llm = ChatOpenAI(model_name=
-'gpt-4o-mini', temperature=0)
-    llm = ChatOpenAI(
-        model='accounts/fireworks/models/llama-v3p1-70b-instruct',
- 
-       temperature=0,
-        api_key=os.getenv('FIREWORKS_API_KEY'),
-        base_url='https://api.fireworks.ai/inferen
-ce/v1',
-    )
-    
-    from langgraph.graph import StateGraph, END
-    from typing import TypedDict, Annotated
-    impor
-t operator
-    from langchain_core.messages import AnyMessage, SystemMessage, HumanMessage, ToolMessage
-    from langcha
-in_community.tools.tavily_search import TavilySearchResults
-    
-    
-    tool = TavilySearchResults(max_results = 2)
-  
-  print(type(tool))
-    print(tool.name)
-    
-    class AgentState(TypedDict):
-        messages: Annotated[list[AnyMessa
-ge], operator.add]
-    
-    class Agent:
-        def __init__(self, model, tools, system = ' '):
-            self.system
- = system
-            graph = StateGraph(AgentState)
-            graph.add_node('llm',self.call_openai)
-            grap
-h.add_node('action',self.take_action)
-            graph.add_conditional_edges(
-                'llm', 
-    # here we set
- where the conditional edge starts from
-                self.exists_action, 
-    # function that will determine where to
- go from there on
-                {
-                    
-    # This maps the respose of the function and where it should
- next go to
-                    True : 'action', False : END
-                }
-            )
-            graph.add_edge(
-'action', 'llm')
-            graph.set_entry_point('llm')
-            self.graph = graph.compile()
-    
-            
-   
- #langchain runnable is ready
-    
-            self.tools = {t.name : t for t in tools}
-            self.model = model.b
-ind_tools(tools)
-    
-        def exists_action(self, state: AgentState):
-            result = state['messages'][-1]
-   
-         return len(result.tool_calls)>0
-     
-        def call_openai(self, state: AgentState):
-            messages = 
-state['messages']
-            if self.system:
-                messages = [SystemMessage(content= self.system)] + message
-s
-            message = self.model.invoke(messages)
-            print(message)
-            return {'messages' : [message
-]}
-        
-    # since we annotated messages with operator.add, when we call the above return statement, it doesn't ove
-rwrite the messages, but adds to it.
-    
-        def take_action(self, state : AgentState):
-            tool_calls = st
-ate['messages'][-1].tool_calls
-            results = []
-            for t in tool_calls:
-                print(f'Calling
-: {t}')
-                result = self.tools[t['name']].invoke(t['args'])
-                results.append(ToolMessage(tool
-_call_id=t['id'], name=t['name'], content=str(result)))
-            
-            print('Back to the model!')
-           
- return {'messages' : results}
-        
-    prompt = '''You are a smart research assistant. Use the search engine to loo
-k up information. \
-    You are allowed to make multiple calls (either together or in sequence). \
-    Only look up info
-rmation when you are sure of what you want. \
-    If you need to look up some information before asking a follow up ques
-tion, you are allowed to do that!
-    '''
-    
-    abot = Agent(model= llm, tools= [tool], system = prompt)
-    
-    mes
-sages = [HumanMessage(content = 'Who won IPL 2023? What is the gdp of that state and the state beside that combined?')]
-
-    
-    result = abot.graph.invoke({'messages' : messages})
-    
-    print(result['messages'][-1].content)
-
-\*\*Llama O
-utput:\*\*
-
-\`\`\`  
-<class 'langchain\_community.tools.tavily\_search.tool.TavilySearchResults'>  
-tavily\_search\_resu
-lts\_json  
-content='' additional\_kwargs={'tool\_calls': \[{'id': 'call\_JurtcbX3QsXqxPS9RJ0aCGAU', 'function': {'argum
-ents': '{'query': 'IPL 2023 winner'}', 'name': 'tavily\_search\_results\_json'}, 'type': 'function', 'index': 0}\]} resp
-onse\_metadata={'token\_usage': {'completion\_tokens': 27, 'prompt\_tokens': 304, 'total\_tokens': 331}, 'model\_name': 
-'accounts/fireworks/models/llama-v3p1-70b-instruct', 'system\_fingerprint': None, 'finish\_reason': 'tool\_calls', 'logp
-robs': None} id='run-4ec44c44-5970-44b5-b10b-e41ac47f35de-0' tool\_calls=\[{'name': 'tavily\_search\_results\_json', 'ar
-gs': {'query': 'IPL 2023 winner'}, 'id': 'call\_JurtcbX3QsXqxPS9RJ0aCGAU', 'type': 'tool\_call'}\] usage\_metadata={'inp
-ut\_tokens': 304, 'output\_tokens': 27, 'total\_tokens': 331}  
-Calling: {'name': 'tavily\_search\_results\_json', 'args
-': {'query': 'IPL 2023 winner'}, 'id': 'call\_JurtcbX3QsXqxPS9RJ0aCGAU', 'type': 'tool\_call'}  
-Back to the model!  
-co
-ntent='The winner of IPL 2023 is Chennai Super Kings.' response\_metadata={'token\_usage': {'completion\_tokens': 13, 'p
-rompt\_tokens': 1004, 'total\_tokens': 1017}, 'model\_name': 'accounts/fireworks/models/llama-v3p1-70b-instruct', 'syste
-m\_fingerprint': None, 'finish\_reason': 'stop', 'logprobs': None} id='run-bb29ca04-b059-4c64-8692-ee6e02a270dc-0' usage
-\_metadata={'input\_tokens': 1004, 'output\_tokens': 13, 'total\_tokens': 1017}  
-The winner of IPL 2023 is Chennai Supe
-r Kings.  
-\`\`\`
-```
----
-
-     
- 
-all -  [ Classification/Named Entity Recognition using DSPy and Outlines ](https://www.reddit.com/r/LangChain/comments/1gds8ko/classificationnamed_entity_recognition_using_dspy/) , 2024-10-31-0913
-```
-In this post, I will show you how to solve classification/name-entity recognition class of problems using DSPy and Outli
-nes (from [dottxt](https://dottxt.co/)) . This approach is not only ergonomic and clean but also guarantees schema adher
-ence.
-
-Let's do a simple boolean classification problem. We start by defining the DSPy signature.
-
-https://preview.redd.
-it/jj7zy8s4vexd1.png?width=1102&format=png&auto=webp&s=11dcf805d5249597e576ba5623b962ad58f80d5c
-
-Now we write our progra
-m and use the ChainOfThought optimizer from DSPy's library.
-
-https://preview.redd.it/9jy3zc26vexd1.png?width=1334&format
-=png&auto=webp&s=9328ae01f8d47b9093d27b2a75bce706d4ff12e7
-
-  
-Next, we write a custom dspy.LM class that uses the outlin
-es library for doing text generation and outputting results that follow the provided schema.
-
-https://preview.redd.it/gf
-47tri7vexd1.png?width=1306&format=png&auto=webp&s=1ca835a86aadfa6ddc941489e8ec2c0ee7cbac7d
-
-Finally, we do a two pass ge
-neration to get the output in the desired format, boolean in this case.
-
-1. First, we pass the input passage to our dspy
- program and generate an output.
-2. Next, we pass the result of previous step to the outlines LM class as input along wi
-th the response schema we have defined.
-
-https://preview.redd.it/q5gns589vexd1.png?width=936&format=png&auto=webp&s=9f75
-745b06f971899b8df960cb57ccbfdc1d307e
-
-That's it! This approach combines the modularity of DSPy with the efficiency of st
-ructured output generation using outlines built by [dottxt](https://dottxt.co/). You can find the full source code for t
-his example [here](https://github.com/Scale3-Labs/dspy-examples/tree/main/src/structured_output). Also, I am building an
- open source observability tool called Langtrace AI which supports DSPy natively and you can use to understand what goes
- in and out of the LLM and trace every step within each module deeply.
-```
----
-
-     
- 
-MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-10-31-0913
+MachineLearning -  [ [D] How are folks building conversational Retrieval Augmented Generation apps ](https://www.reddit.com/r/MachineLearning/comments/1ftdby7/d_how_are_folks_building_conversational_retrieval/) , 2024-11-01-0914
 ```
 I've read through various resources such as:  
 - [https://vectorize.io/how-i-finally-got-agentic-rag-to-work-right/](htt
@@ -2098,7 +2230,7 @@ I'm sure some teams already have good systems for this, would appreciate pointer
 
      
  
-deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-10-31-0913
+deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-01-0914
 ```
 I am a full stack python developer who do web dev in django
 
