@@ -1,5 +1,152 @@
  
-all -  [ How to speed up chunking, embedding, and persistence for file uploads? ](https://www.reddit.com/r/aws/comments/1gi7onq/how_to_speed_up_chunking_embedding_and/) , 2024-11-03-0914
+all -  [ RAG for image-to-text app and multimodal embeddings ](https://www.reddit.com/r/LangChain/comments/1giwmb2/rag_for_imagetotext_app_and_multimodal_embeddings/) , 2024-11-04-0913
+```
+Hi,
+
+I m thinking about an application like this:  
+  
+1) I have prompt composed by text and image. The text is fixed bu
+t fairly long, something along the line  'Describe what is in the image ...' while the image  changes as the user upload
+s it  
+2) I have a like 10K words long text for many of the images that the user might upload  
+3) to improve the applic
+ation I would like to do RAG as follows:  
+3.1) create embeddings for all the texts by chunking - say - 1500 words  
+3.2
+) create embeddings for the images  
+3.3) when the user uploads the image, create the embedding and search the text that
+ are more close to the image embedding  
+3.4) Include the retrieved text into the prompt and send it to an Multimodal LL
+M
+
+  
+I see there are sever API that to the multimodal embeddings (text and image in the same vector space)  for example
+ embed 3, google, but they all limit the text to 30 or 70 words, while I have texts of 10k words or chunks of 1500 words
+ -70 words would not improve the prompt
+
+I'm not sure what to do?  
+Should I chunk the 10K texts into 50 words chunks, s
+elect say 100 embeddings and concat the text? Sounds wrong?
+
+Any idea?
+```
+---
+
+     
+ 
+all -  [ Python LangChain for RAG Beginners: Building Powerful AI Applications with GPT Agents ](https://www.reddit.com/r/generativeAI/comments/1giwa1j/python_langchain_for_rag_beginners_building/) , 2024-11-04-0913
+```
+Just released a book on LangChain for RAG Beginners: Building Powerful AI Applications with GPT Agents using Python,
+
+[h
+ttps://www.amazon.com/Python-LangChain-RAG-Beginners-Applications-ebook/dp/B0DBZ9C7PF/ref=tmm\_kin\_swatch\_0?\_encoding
+=UTF8&qid=&sr=](https://www.amazon.com/Python-LangChain-RAG-Beginners-Applications-ebook/dp/B0DBZ9C7PF/ref=tmm_kin_swatc
+h_0?_encoding=UTF8&qid=&sr=)
+
+
+
+[ Python LangChain for RAG Beginners](https://preview.redd.it/45wd4d65wqyd1.png?width=97
+0&format=png&auto=webp&s=8b8c0540de0f9272650072a13f6766045e9ed5d0)
+
+Soon will release the JavaScript Version
+
+You can ac
+cess all source code for the examples in GitHub
+
+[https://github.com/LangChainBook/LangChainBegginer](https://github.com
+/LangChainBook/LangChainBegginer)
+
+Please, let me know if you read it, what should I update. My idea is to keep updating
+ it as LangChain evolves.
+
+Thanks,
+
+Karel
+```
+---
+
+     
+ 
+all -  [ Submit Feedback Node (Getting runId from RunnableConfig inside a node) ](https://www.reddit.com/r/LangGraph/comments/1giuqw7/submit_feedback_node_getting_runid_from/) , 2024-11-04-0913
+```
+I have raised a question on the repo: [https://github.com/langchain-ai/langgraphjs/discussions/655](https://github.com/l
+angchain-ai/langgraphjs/discussions/655)
+
+In summary, I want to programmatically, create a feedback on a LangSmith trace
+ either through a tool or node. I figured the right place for it is a node since you can pass the Runnable Config and th
+eoretically get the \`runId\` from it to be used in the \`langsmithClient.createFeedback\` function. I have attempted a 
+few different ways to retrieve the runId and also manually setting it in the configurable object, but none seem to work.
+ Has anyone been able to successfully do this within a graph node? (note my application is in ts. and I am using the lan
+graph.js SDK) 
+```
+---
+
+     
+ 
+all -  [ Langgraph-ui-sdk  ](https://www.reddit.com/r/OpenSourceeAI/comments/1gip356/langgraphuisdk/) , 2024-11-04-0913
+```
+Hey GenAI and langchain folks 🦜
+I posted this library today, I didn't find a way out of the box to have UI component for
+ the chatbot in any JavaScript development  environment so I developed one today.
+Please start ⭐ the repository if you p
+lan to use it in the future to keep improving it 🙏 
+https://github.com/AmrAnwar/LangGraph-UI-SDK
+```
+---
+
+     
+ 
+all -  [ Chat with repository using gemini  ](https://www.reddit.com/r/LangChain/comments/1gijdtz/chat_with_repository_using_gemini/) , 2024-11-04-0913
+```
+ 🔍 Built a GitHub Repository AI Assistant using LangChain + Gemini
+
+Hey r/LangChain! I wanted to share a project I've bu
+ilt that helps developers understand any GitHub repository through natural language Q&A.
+
+🔹What it does:
+- Accepts any G
+itHub repo URL
+- Lets you ask questions about the codebase in plain English
+- Provides quick explanations of code struct
+ure & documentation
+- Supports multiple programming languages (Python, JavaScript, TypeScript, etc.)
+
+🔹Tech Stack:
+- Lan
+gChain for Agent system 
+- Google's Gemini as llm
+- Hugging Face for embedding models
+- Advanced RAG implementation for 
+accurate responses
+
+The tool aims to solve the common challenge of quickly understanding unfamiliar codebases.
+
+ 🔹You ca
+n try it here: https://git-ai-by-jay.streamlit.app
+
+I'd love to hear your thoughts and feedback from the LangChain commu
+nity! What features would you like to see added?
+
+Let me know if you'd like me to modify anything in this Reddit post!
+
+
+LinkedIn post showing demo video: 
+https://www.linkedin.com/posts/jaygupta17_ai-programming-developertools-activity-7258
+717904970371073-oFWx?utm_source=share&utm_medium=member_android
+```
+---
+
+     
+ 
+all -  [ Someone know how many gpus or servers i need to use any LLM for around 300 request simultanius? ](https://www.reddit.com/r/LangChain/comments/1gihabj/someone_know_how_many_gpus_or_servers_i_need_to/) , 2024-11-04-0913
+```
+
+```
+---
+
+     
+ 
+all -  [ How to speed up chunking, embedding, and persistence for file uploads? ](https://www.reddit.com/r/aws/comments/1gi7onq/how_to_speed_up_chunking_embedding_and/) , 2024-11-04-0913
 ```
 When a user uploads a doc, it chunks, embeds, then persists it. This currently takes 25 seconds with multithreading on 6
  cores for me. The chunk size is small (250), so there's a lot to process. I need this to be faster, and I need to add s
@@ -27,7 +174,7 @@ s in the lambda. Thoughts/advice?
 
      
  
-all -  [ Best way for fast chunking, embedding, and persistence on large docs? ](https://www.reddit.com/r/LLMDevs/comments/1gi7m2c/best_way_for_fast_chunking_embedding_and/) , 2024-11-03-0914
+all -  [ Best way for fast chunking, embedding, and persistence on large docs? ](https://www.reddit.com/r/LLMDevs/comments/1gi7m2c/best_way_for_fast_chunking_embedding_and/) , 2024-11-04-0913
 ```
 When a user uploads a doc, it chunks, embeds, then persists it. This currently takes 25 seconds with multithreading on 6
  cores for me. I need this to be faster, and I need to add support for concurrent file uploads.
@@ -54,7 +201,7 @@ es per lambda so we can achieve paralell processing of chunks in the lambda. Tho
 
      
  
-all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/AI_Agents/comments/1gi64ty/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-03-0914
+all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/AI_Agents/comments/1gi64ty/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-04-0913
 ```
 Hi everyone! I’ve created Brainstormers – a straightforward, open-source, LLM-powered tool using LangChain to enhance yo
 ur brainstorming. Unlike ChatGPT, this app guides you through structured brainstorming techniques like Mind Mapping, Rev
@@ -71,7 +218,7 @@ d I improve and is the idea itself good ?
 
      
  
-all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/LLMDevs/comments/1gi63ty/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-03-0914
+all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/LLMDevs/comments/1gi63ty/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-04-0913
 ```
 Hi everyone! I’ve created **Brainstormers** – a straightforward, open-source, LLM-powered tool using LangChain to enhanc
 e your brainstorming. Unlike ChatGPT, this app guides you through structured brainstorming techniques like Mind Mapping,
@@ -88,7 +235,7 @@ hould I improve and is the idea itself good ?
 
      
  
-all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/ChatGPT/comments/1gi61pz/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-03-0914
+all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/ChatGPT/comments/1gi61pz/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-04-0913
 ```
 Hi everyone! I’ve created **Brainstormers** – a straightforward, open-source, LLM-powered tool using LangChain to enhanc
 e your brainstorming. Unlike ChatGPT, this app guides you through structured brainstorming techniques like Mind Mapping,
@@ -105,15 +252,7 @@ hould I improve and is the idea itself good ?
 
      
  
-all -  [ In case you want to try something more lightweight than LangChain, check out the Atomic Agents Quick ](https://www.youtube.com/watch?v=CyZxRU0ax3Q) , 2024-11-03-0914
-```
-
-```
----
-
-     
- 
-all -  [ Introducing Cascade of Semantically Integrated Layers (CaSIL): An Absurdly Over-Engineered Thought/R ](https://www.reddit.com/r/LocalLLaMA/comments/1gi102k/introducing_cascade_of_semantically_integrated/) , 2024-11-03-0914
+all -  [ Introducing Cascade of Semantically Integrated Layers (CaSIL): An Absurdly Over-Engineered Thought/R ](https://www.reddit.com/r/LocalLLaMA/comments/1gi102k/introducing_cascade_of_semantically_integrated/) , 2024-11-04-0913
 ```
 So here’s a fun one. Imagine layering so much semantic analysis onto a single question that it practically gets therapy.
  That’s CaSIL – Cascade of Semantically Integrated Layers. It’s a ridiculous (but actually effective) pure Python algori
@@ -152,42 +291,45 @@ he repo. No fancy dependencies,, and it’s easy to integrate with whatever LLM 
 https://github.com/severian
 42/Cascade-of-Semantically-Integrated-Layers
 
+Example output: https://github.com/severian42/Cascade-of-Semantically-Inte
+grated-Layers/blob/main/examples.md
+
 
 EDIT FOR CLARITY!!! 
 
-Sorry everyone, I posted this and then fell asleep 
-after a long week of work. I'll clarify some things from the comments here.
+Sorry everyone, I posted this and then fell asleep after a l
+ong week of work. I'll clarify some things from the comments here.
 
-1. What is this? What are you claiming?: Th
-is is just an experiment that actually worked and is interesting to use. I by no means am saying I have the 'secret sauc
-e' or rivals o1. My algorithm is just a really interesting way of having LLM s 'think' through stuff in a non-traditiona
-l way. Benchmarks so far have been hit or miss
+1. What is this? What are you claiming?: This is jus
+t an experiment that actually worked and is interesting to use. I by no means am saying I have the 'secret sauce' or riv
+als o1. My algorithm is just a really interesting way of having LLM s 'think' through stuff in a non-traditional way. Be
+nchmarks so far have been hit or miss
 
-2. Does it work? Is the code crap?: it does work! And yes, the code is u
-gly. I created this in 2 days with the help of Claude while working my day job.
+2. Does it work? Is the code crap?: it does work! And yes, the code is ugly. I cr
+eated this in 2 days with the help of Claude while working my day job.
  
 
-3. No paper? Fake paper?: There is no
- official paper but there is the random one in the repo. What is that? Well, part of my new workflow I was testing that 
-helped start this codebase. Part of this project was to eventually showcase how I built an agent based workflow that all
-ows me to take an idea, have a semi-decent/random 'research' paper written by those agents. I then take that and run it 
-into another agent team that translates it into a starting code base for me to see if I can actually get working. This o
-ne did.
+3. No paper? Fake paper?: There is no official
+ paper but there is the random one in the repo. What is that? Well, part of my new workflow I was testing that helped st
+art this codebase. Part of this project was to eventually showcase how I built an agent based workflow that allows me to
+ take an idea, have a semi-decent/random 'research' paper written by those agents. I then take that and run it into anot
+her agent team that translates it into a starting code base for me to see if I can actually get working. This one did.
 
 
-4. Examples?: There is an example in the repo but I will try and put together some more definitive and useful.
- For now, take a look at the repo and give it a shot. Easy set up for the most part. Will make a UI also for those non c
-oders 
+
+4. Examples?: There is an example in the repo but I will try and put together some more definitive and useful. For now,
+ take a look at the repo and give it a shot. Easy set up for the most part. Will make a UI also for those non coders 
 
 
-Sorry if it seemed like I was trying to make great claims. Not at all, just showing some interesting new algori
-thms for LLM inference 
+
+Sorry if it seemed like I was trying to make great claims. Not at all, just showing some interesting new algorithms for 
+LLM inference 
 ```
 ---
 
      
  
-all -  [ Guidance in Building Application  ](https://www.reddit.com/r/LangChain/comments/1ghxtgu/guidance_in_building_application/) , 2024-11-03-0914
+all -  [ Guidance in Building Application  ](https://www.reddit.com/r/LangChain/comments/1ghxtgu/guidance_in_building_application/) , 2024-11-04-0913
 ```
 I'm building a multi agent application in langgraph where one agent is conversing with a user and another agent evaluate
 s the response of the user 
@@ -209,7 +351,7 @@ Thank you
 
      
  
-all -  [ Keep consistent context in conversation ](https://www.reddit.com/r/LangChain/comments/1ghsivu/keep_consistent_context_in_conversation/) , 2024-11-03-0914
+all -  [ Keep consistent context in conversation ](https://www.reddit.com/r/LangChain/comments/1ghsivu/keep_consistent_context_in_conversation/) , 2024-11-04-0913
 ```
 Hello everyone, I'm pretty new to langchain & langraph assuming that I want to build pizza ordering bot which would talk
  to the customers, sample bellow: 
@@ -241,7 +383,7 @@ Thanks
 
      
  
-all -  [ MY RAG VS OPENAI CUSTOM GPT ](https://www.reddit.com/r/LangChain/comments/1ghsbhz/my_rag_vs_openai_custom_gpt/) , 2024-11-03-0914
+all -  [ MY RAG VS OPENAI CUSTOM GPT ](https://www.reddit.com/r/LangChain/comments/1ghsbhz/my_rag_vs_openai_custom_gpt/) , 2024-11-04-0913
 ```
   
 I NEED YOUR ANSWERS.   
@@ -258,7 +400,7 @@ ion is which one is better. in different comparison.   should i cancel my applic
 
      
  
-all -  [ Role Based Access Control ](https://www.reddit.com/r/LangChain/comments/1ghqoza/role_based_access_control/) , 2024-11-03-0914
+all -  [ Role Based Access Control ](https://www.reddit.com/r/LangChain/comments/1ghqoza/role_based_access_control/) , 2024-11-04-0913
 ```
 Hey guys I'm currently working on developing a RAG application with 100 documents however, these documents should be spl
 it based on user. For example a CEO would have access to all 100 documents whereas a junior would have access to 5 docum
@@ -269,7 +411,7 @@ integration but I'm not sure how to implement role based access control (RBAC)
 
      
  
-all -  [ Did something happen with LangChain Discord server or was I kicked? ](https://www.reddit.com/r/LangChain/comments/1ghnlif/did_something_happen_with_langchain_discord/) , 2024-11-03-0914
+all -  [ Did something happen with LangChain Discord server or was I kicked? ](https://www.reddit.com/r/LangChain/comments/1ghnlif/did_something_happen_with_langchain_discord/) , 2024-11-04-0913
 ```
 I was in the server for more than a year and was occasionally asking questions about various LangChain products (almost 
 never got an answer though) and today I found out I don't see LangChain server in my discord. Why is that?
@@ -278,7 +420,7 @@ never got an answer though) and today I found out I don't see LangChain server i
 
      
  
-all -  [ Langchain salaries ](https://www.reddit.com/r/LangChain/comments/1ghmzge/langchain_salaries/) , 2024-11-03-0914
+all -  [ Langchain salaries ](https://www.reddit.com/r/LangChain/comments/1ghmzge/langchain_salaries/) , 2024-11-04-0913
 ```
 Anyone here know how much langchain is paying software and solution engineers these days ? 
 ```
@@ -286,7 +428,7 @@ Anyone here know how much langchain is paying software and solution engineers th
 
      
  
-all -  [ Created LangGraph-ui-sdk package to create Chatbot out of the box ](https://www.reddit.com/r/LangChain/comments/1ghkgvf/created_langgraphuisdk_package_to_create_chatbot/) , 2024-11-03-0914
+all -  [ Created LangGraph-ui-sdk package to create Chatbot out of the box ](https://www.reddit.com/r/LangChain/comments/1ghkgvf/created_langgraphuisdk_package_to_create_chatbot/) , 2024-11-04-0913
 ```
 Hey guys,
 
@@ -308,7 +450,7 @@ I understand not everyone likes those approaches but thought might be helpful fo
 
      
  
-all -  [ Best tools for building KBs from email archives ](https://www.reddit.com/r/LangChain/comments/1ghkc0t/best_tools_for_building_kbs_from_email_archives/) , 2024-11-03-0914
+all -  [ Best tools for building KBs from email archives ](https://www.reddit.com/r/LangChain/comments/1ghkc0t/best_tools_for_building_kbs_from_email_archives/) , 2024-11-04-0913
 ```
 I’m working on a bot for sales/customer support and need to build knowledge bases from existing email archives to RAG ov
 er.  While I know there are many low level tools to help extract, filter, and structure the knowledge for efficient retr
@@ -320,7 +462,7 @@ dvice for this endeavor.
 
      
  
-all -  [ Mistral Large Model and streaming ](https://www.reddit.com/r/MistralAI/comments/1ghjt4o/mistral_large_model_and_streaming/) , 2024-11-03-0914
+all -  [ Mistral Large Model and streaming ](https://www.reddit.com/r/MistralAI/comments/1ghjt4o/mistral_large_model_and_streaming/) , 2024-11-04-0913
 ```
 Hi,
 
@@ -487,7 +629,7 @@ Thanks
 
      
  
-all -  [ I was super frustated with langchain's pile of unnecessary abstractions, so I created something new ](https://www.reddit.com/r/LangChain/comments/1ghglbs/i_was_super_frustated_with_langchains_pile_of/) , 2024-11-03-0914
+all -  [ I was super frustated with langchain's pile of unnecessary abstractions, so I created something new ](https://www.reddit.com/r/LangChain/comments/1ghglbs/i_was_super_frustated_with_langchains_pile_of/) , 2024-11-04-0913
 ```
 **Has anyone else been frustated writing and debugging langchain code?** There are so many classes and abstractions that
  don't seem to add much value. As a result, what really happens behind the curtains feel quite opaque. For me having low
@@ -509,7 +651,7 @@ u want to contribute.
 
      
  
-all -  [ Autonomous Dynamic Graph Creation ](https://www.reddit.com/r/LangChain/comments/1ghf7df/autonomous_dynamic_graph_creation/) , 2024-11-03-0914
+all -  [ Autonomous Dynamic Graph Creation ](https://www.reddit.com/r/LangChain/comments/1ghf7df/autonomous_dynamic_graph_creation/) , 2024-11-04-0913
 ```
 Has anyone experimented with creating a planner agent that dynamically creates graphs to carry out complex tasks?  
 I've
@@ -534,7 +676,7 @@ Cheers!
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1ghedzm/list_of_free_and_best_selling_discounted_courses/) , 2024-11-03-0914
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1ghedzm/list_of_free_and_best_selling_discounted_courses/) , 2024-11-04-0913
 ```
 # Udemy Free Courses for 02 November 2024
 
@@ -805,7 +947,7 @@ oupon.com/)
 
      
  
-all -  [ Autogen needs improvement. How no one felt the need for call back function ](https://www.reddit.com/r/LangChain/comments/1ghcvi5/autogen_needs_improvement_how_no_one_felt_the/) , 2024-11-03-0914
+all -  [ Autogen needs improvement. How no one felt the need for call back function ](https://www.reddit.com/r/LangChain/comments/1ghcvi5/autogen_needs_improvement_how_no_one_felt_the/) , 2024-11-04-0913
 ```
 I know this is langchain subreddit but thought to discuss here as most agent developers are there..
 
@@ -828,7 +970,7 @@ Suggestions are welcomed. Or any other framework with these features..
 
      
  
-all -  [ Integrating External REST API LLM Calls with LangGraph ](https://www.reddit.com/r/LangChain/comments/1ghc5pg/integrating_external_rest_api_llm_calls_with/) , 2024-11-03-0914
+all -  [ Integrating External REST API LLM Calls with LangGraph ](https://www.reddit.com/r/LangChain/comments/1ghc5pg/integrating_external_rest_api_llm_calls_with/) , 2024-11-04-0913
 ```
 
 I'm working on implementing an agent system using LangGraph, but with a twist - my LLM calls need to go through a REST 
@@ -861,7 +1003,7 @@ tation would be greatly appreciated. Thank you!
 
      
  
-all -  [ Fuzzy matching medical terminology using AI ](https://www.reddit.com/r/learnprogramming/comments/1ghb3ei/fuzzy_matching_medical_terminology_using_ai/) , 2024-11-03-0914
+all -  [ Fuzzy matching medical terminology using AI ](https://www.reddit.com/r/learnprogramming/comments/1ghb3ei/fuzzy_matching_medical_terminology_using_ai/) , 2024-11-04-0913
 ```
 Have a txt file with 2 columns, description and corresponding code. Need help intelligently matching user inputted free-
 form text to the description, and returning the corresponding code.
@@ -920,7 +1062,7 @@ erent column?
 
      
  
-all -  [ Tools / guidance  ](https://www.reddit.com/r/LocalLLM/comments/1gha8gy/tools_guidance/) , 2024-11-03-0914
+all -  [ Tools / guidance  ](https://www.reddit.com/r/LocalLLM/comments/1gha8gy/tools_guidance/) , 2024-11-04-0913
 ```
 I want to create a model that analyzes specific books I've selected about coding and other related topics. My goal is fo
 r this model to help integrate new features into the app, acting as a consultant by leveraging the knowledge from these 
@@ -932,7 +1074,7 @@ ance this model?
 
      
  
-all -  [ Langchain SelfQueryRetriever unable to read Structured Query ](https://www.reddit.com/r/LangChain/comments/1gh8exz/langchain_selfqueryretriever_unable_to_read/) , 2024-11-03-0914
+all -  [ Langchain SelfQueryRetriever unable to read Structured Query ](https://www.reddit.com/r/LangChain/comments/1gh8exz/langchain_selfqueryretriever_unable_to_read/) , 2024-11-04-0913
 ```
 Anyone using SelfQueryRetriever? I am trying to implement this retriever to create a RAG Chatbot. However, the retriever
  seems to have trouble reading my Structured Query. I have already tried both SelfQueryRetriever() and SelfQueryRetrieve
@@ -944,7 +1086,7 @@ Appreciate if anyone has any experience in this, thanks!
 
      
  
-all -  [ CCD ETL via LangGraph ](https://youtu.be/gZYu45aw3Hw?si=r5QWuGELvSE9rh-p) , 2024-11-03-0914
+all -  [ CCD ETL via LangGraph ](https://youtu.be/gZYu45aw3Hw?si=r5QWuGELvSE9rh-p) , 2024-11-04-0913
 ```
 Built a tool for extracting healthcare CCD data into custom schemas. This can speed up building of interfaces for connec
 ting hospitals, providers and independent practices to each other and to HIE’s.
@@ -953,7 +1095,7 @@ ting hospitals, providers and independent practices to each other and to HIE’s
 
      
  
-all -  [ When using `with_structured_output` with pydantic BaseModel, does the Field description do anything? ](https://www.reddit.com/r/LangChain/comments/1ggvkf7/when_using_with_structured_output_with_pydantic/) , 2024-11-03-0914
+all -  [ When using `with_structured_output` with pydantic BaseModel, does the Field description do anything? ](https://www.reddit.com/r/LangChain/comments/1ggvkf7/when_using_with_structured_output_with_pydantic/) , 2024-11-04-0913
 ```
 Basically the title. I am experimenting the \`with\_structured\_output\` and I find that the llm uses the variable name 
 to know what to populate. 
@@ -973,7 +1115,7 @@ es the data?
 
      
  
-all -  [ Get responses longer than the llm context window ](https://www.reddit.com/r/LangChain/comments/1ggv50c/get_responses_longer_than_the_llm_context_window/) , 2024-11-03-0914
+all -  [ Get responses longer than the llm context window ](https://www.reddit.com/r/LangChain/comments/1ggv50c/get_responses_longer_than_the_llm_context_window/) , 2024-11-04-0913
 ```
 Hi, is there a way to get a response longer than the allowed context window e.g by using loops or threads. In gpt ui for
  instance, I'd instruct it to let me know if there's more and continue when I respond with continue. Thanks for the help
@@ -983,7 +1125,7 @@ Hi, is there a way to get a response longer than the allowed context window e.g 
 
      
  
-all -  [ VERY slow Document creation ](https://www.reddit.com/r/LangChain/comments/1ggt5r7/very_slow_document_creation/) , 2024-11-03-0914
+all -  [ VERY slow Document creation ](https://www.reddit.com/r/LangChain/comments/1ggt5r7/very_slow_document_creation/) , 2024-11-04-0913
 ```
 Hey! Im trying to create Langchain [Document](https://python.langchain.com/v0.2/api_reference/core/documents/langchain_c
 ore.documents.base.Document.html#langchain_core.documents.base.Document) objects from JSON objects, but Document creatio
@@ -1056,7 +1198,7 @@ Anyone know whats going on?
 
      
  
-all -  [ What is the other best alternative to LangGraph? ](https://www.reddit.com/r/LangChain/comments/1ggrqis/what_is_the_other_best_alternative_to_langgraph/) , 2024-11-03-0914
+all -  [ What is the other best alternative to LangGraph? ](https://www.reddit.com/r/LangChain/comments/1ggrqis/what_is_the_other_best_alternative_to_langgraph/) , 2024-11-04-0913
 ```
 I am a software engineer with 5+ years of experience and decent experience with LangChain. Over the past week, I am buil
 ding a stock analyst agent on LangGraph, and the experience has been terrible.
@@ -1072,7 +1214,7 @@ market today that any of you are using? Ideally, something in async Python.
 
      
  
-all -  [ Is this possible? ](https://www.reddit.com/r/LangChain/comments/1ggqtad/is_this_possible/) , 2024-11-03-0914
+all -  [ Is this possible? ](https://www.reddit.com/r/LangChain/comments/1ggqtad/is_this_possible/) , 2024-11-04-0913
 ```
 I have a JSON dataset of the format:
 [
@@ -1118,7 +1260,7 @@ Could you guys please let me know if this is possible, cause i couldn
 
      
  
-all -  [ AWS certification for GenAI after AI practitioner? ](https://www.reddit.com/r/AWSCertifications/comments/1ggpbv2/aws_certification_for_genai_after_ai_practitioner/) , 2024-11-03-0914
+all -  [ AWS certification for GenAI after AI practitioner? ](https://www.reddit.com/r/AWSCertifications/comments/1ggpbv2/aws_certification_for_genai_after_ai_practitioner/) , 2024-11-04-0913
 ```
 Is there a good certification to do specifically for GenAI on AWS? I'm more interested in leveraging GenAI tools and not
  on the usual route of ML sagemaker models etc.
@@ -1134,7 +1276,7 @@ I'm mostly doing prompt engineering and some AWS plumbing and hence finding ways
 
      
  
-all -  [ Jupyter not honoring Conda environments? ](https://www.reddit.com/r/JupyterNotebooks/comments/1ggmaty/jupyter_not_honoring_conda_environments/) , 2024-11-03-0914
+all -  [ Jupyter not honoring Conda environments? ](https://www.reddit.com/r/JupyterNotebooks/comments/1ggmaty/jupyter_not_honoring_conda_environments/) , 2024-11-04-0913
 ```
 Hi all!
 
@@ -1365,7 +1507,7 @@ l this!!!
 
      
  
-all -  [ Which version is better, the shorter or longer one? I've changed my carrer. ](https://www.reddit.com/r/resumes/comments/1ggm0mc/which_version_is_better_the_shorter_or_longer_one/) , 2024-11-03-0914
+all -  [ Which version is better, the shorter or longer one? I've changed my carrer. ](https://www.reddit.com/r/resumes/comments/1ggm0mc/which_version_is_better_the_shorter_or_longer_one/) , 2024-11-04-0913
 ```
 [Long Version](https://preview.redd.it/2ytulhse05yd1.png?width=1172&format=png&auto=webp&s=203467d1c9fb5b63f4b973c348b91
 eca6d7399bc)
@@ -1393,131 +1535,7 @@ Thanks in advance.
 
      
  
-all -  [ ChatGPT Prompting Method ](https://www.reddit.com/r/PromptEngineering/comments/1ggfoax/chatgpt_prompting_method/) , 2024-11-03-0914
-```
-Not too long ago, people were posting ChatGPT prompts that made the chat window turned into an interactive q&a. It may h
-ave been connected with Langchain, but I can't seem to find any of those types of posts. Those types of prompts also oft
-en had emojis as part of its design and user interface. Does anyone remember what I'm talking about?
-```
----
-
-     
- 
-all -  [ 🌟 [Open Source] FlutterVoiceFriend – Open Source Voice Chatbot Framework for Flutter Devs! 🚀 ](https://www.reddit.com/r/FlutterDev/comments/1ggf4hw/open_source_fluttervoicefriend_open_source_voice/) , 2024-11-03-0914
-```
-Hey devs!
-
-A few months ago, I was searching everywhere for a voice chatbot framework to use with Flutter, especially af
-ter discovering that Langchain had been ported to Flutter. My goal was to create a **mindful self-compassion assistant f
-or kids**, but I couldn’t find any ready-made solution for the setup I had in mind. So, I decided to build my own and th
-en to open source it, this is a story behind **FlutterVoiceFriend**!
-
-**FlutterVoiceFriend is far from perfect, but I be
-lieve it can help others get started on their voice chatbot journey.**
-
-👉 [GitHub Repo: FlutterVoiceFriend](https://gith
-ub.com/jbpassot/flutter_voice_friend/)
-
-# What is FlutterVoiceFriend?
-
-It’s an open-source Flutter app framework that co
-mbines **Langchain, OpenAI for TTS/NLP**, and multiple Speech-to-Text (STT) options (including Deepgram for online and o
-ffline STT) to create **interactive, voice-driven chatbots**.
-
-# Why it Might Be Helpful 🚀:
-
-Whether you’re working on a
- virtual assistant, educational companion, or a voice-driven game, FlutterVoiceFriend gives you a flexible starting poin
-t to create voice-based applications that are **fully customizable** and cross-platform.
-
-# Key Features:
-
-* **Voice-to-
-Voice Conversations**: Speak with the bot and get natural voice responses!
-* **Multiple Speech Recognition Options**: Bo
-th on-device and cloud STT, making it versatile for different environments and device capabilities.
-* **Natural Language
- Processing**: Langchain + OpenAI models for creating more natural, nuanced dialogues.
-* **Customizable TTS**: Set up di
-fferent voices and languages to give your chatbot a unique “personality.”
-* **Built with Flutter**: Compatible across iO
-S, Android, and Web platforms from a single codebase.
-
-# The App That Started It All:
-
-Here’s the app I originally built
- using this framework – [The Friend In Me](https://apps.apple.com/us/app/the-friend-in-me/id6605936938), a mindfulness c
-ompanion for kids.
-
-# Looking for Contributors!
-
-If you’re interested in building out features, writing tests, optimizin
-g for different use cases, or just want to contribute ideas, I’d love for you to get involved. Whether you’re a Flutter 
-guru or just excited to work with voice/chatbot tech, let’s make this better together!
-
-# Happy coding! 😊
-```
----
-
-     
- 
-all -  [ Production-ready and fast RAG Solution for Generating JSONs Based on PDF Documents my quick research ](https://www.reddit.com/r/LocalLLaMA/comments/1gge5bh/productionready_and_fast_rag_solution_for/) , 2024-11-03-0914
-```
-Hey everyone!
-
-I’m exploring options for a production-grade Retrieval-Augmented Generation (RAG) setup to generate JSON 
-data from documents. My goal is to get **accurate, commercial-ready outputs** as quickly as possible. I’m open to models
-, as long as the results are reliable and production-suited. After some research and help from GPT, I’ve narrowed down t
-o a few options and would appreciate insights or any advice based on experience.
-
-# Current Options Considered GPT table
-:
-
-https://preview.redd.it/azd7m59yg3yd1.png?width=899&format=png&auto=webp&s=0dd00c476aceeef1ddd56aa7ba0a3709c9bcf54a
-
-
-https://preview.redd.it/qtzbduuzg3yd1.png?width=795&format=png&auto=webp&s=31dded5c8a05fde171552ff9b6b4b8fff4e108f8
-
-Key
- Priorities:
-
-* **Accuracy and production-readiness** for JSON outputs.
-* **Commercial use** licensing and support.
-* **
-Ease of scaling and deployment** for enterprise production (though I’m flexible on initial setup time if results are sol
-id).
-* I could pay
-
-AWS Bedrock seem like the best path for this, or would something else better fit my needs? Does anyo
-ne have experience with Bedrock in a production RAG workflow, or should I be looking deeper into SageMaker or an open-so
-urce alternative?
-
-It seems that Haystack would be nice for production, customization and then putting it on the cloud b
-ut with a bit more time investment.
-```
----
-
-     
- 
-all -  [ Are there any Local LLMs with COT capabilities? ](https://www.reddit.com/r/LangChain/comments/1ggcalv/are_there_any_local_llms_with_cot_capabilities/) , 2024-11-03-0914
-```
-Hi All,
-
-Been dabbing at Ollama to create a custom RAG hosted in local server (for security reasons). Now the client wan
-ts a Chain of Thought (COT) capability as well. Basically the client wants basic numerical functionality. For e.g. 'I am
- doing 80 mph on I 80. What is the average speed here and how much slower or faster I am'.
-
-The data has details about a
-vg speed of I80. example 90 mph. So the RAG application should say 'I am 10mph slower than average speed.'
-
-Are there an
-y COT capable Local LLMs? If not any idea how to solve the above problem?
-```
----
-
-     
- 
-deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-03-0914
+deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-04-0913
 ```
 I am a full stack python developer who do web dev in django
 

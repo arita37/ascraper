@@ -1,5 +1,98 @@
  
-all -  [ Visa rejected for No Proper reason ](https://www.reddit.com/r/CanadaVisitorVisa/comments/1ghdzz6/visa_rejected_for_no_proper_reason/) , 2024-11-03-0914
+all -  [ [D] Looking for Research Internship in Applied RL & Robotics ](https://www.reddit.com/r/MachineLearning/comments/1giq0e8/d_looking_for_research_internship_in_applied_rl/) , 2024-11-04-0913
+```
+I am a PhD candidate at Mila, working on reinforcement learning for different robotic applications (worked on applicatio
+ns like excavator automation, physics-based character animation, and autonomous driving). I'm currently seeking a summer
+ research internship for 2025, and I'm really interested in any roles that focus on applied RL or embodied AI.
+
+Here’s a
+ bit about my research journey so far:
+
+* **Automatic Reward Modeling**: Developed methods for deriving reward functions
+ from expert demonstration for excavator automation in Vortex Simulator. (Presented at the NeurIPS RL for Real-life Appl
+ications workshop.)
+* **Sample-Efficient RL**: Improved sample efficiency on the Atari benchmark through transformer-bas
+ed discrete world modeling. (ICML 2024)
+* **Compositional Motion Priors for Multi-Task RL**: I'm currently working on mu
+lti-task learning for robotic locomotion with compositional motion priors, using Isaac Gym.
+* **RL for Autonomous Drivin
+g**: Designed a curriculum learning method for autonomous driving on the CARLA simulator, eliminating the need for compl
+ex reward shaping. (Inria research student).
+
+I’m also exploring the use of Diffusion Models alongside RL for stable, di
+verse control strategies.
+
+If anyone knows of relevant openings or has any advice on places that may value applied RL re
+search, I’d really appreciate it.
+
+Thank you so much for any leads or suggestions!
+
+*My CV and more details are on my* h
+ttps://pranaval.github.io/*.*
+```
+---
+
+     
+ 
+all -  [ Looking for Research Internship in Applied RL & Robotics ](https://www.reddit.com/r/reinforcementlearning/comments/1gipwq6/looking_for_research_internship_in_applied_rl/) , 2024-11-04-0913
+```
+I am a PhD candidate at Mila, working on reinforcement learning for different robotic applications (worked on applicatio
+ns like excavator automation, physics-based character animation, and autonomous driving). I'm currently seeking a summer
+ research internship for 2025, and I'm really interested in any roles that focus on applied RL or embodied AI.
+
+Here’s a
+ bit about my research journey so far:
+
+* **Automatic Reward Modeling**: Developed methods for deriving reward functions
+ from expert demonstration for excavator automation in Vortex Simulator. (Presented at the NeurIPS RL for Real-life Appl
+ications workshop.)
+* **Sample-Efficient RL**: Improved sample efficiency on the Atari benchmark through transformer-bas
+ed discrete world modeling. (ICML 2024)
+* **Compositional Motion Priors for Multi-Task RL**: I'm currently working on mu
+lti-task learning for robotic locomotion with compositional motion priors, using Isaac Gym.
+* **RL for Autonomous Drivin
+g**: Designed a curriculum learning method for autonomous driving on the CARLA simulator, eliminating the need for compl
+ex reward shaping. (Inria research student).
+
+I’m also exploring the use of Diffusion Models alongside RL for stable, di
+verse control strategies.
+
+If anyone knows of relevant openings or has any advice on places that may value applied RL re
+search, I’d really appreciate it.
+
+Thank you so much for any leads or suggestions!
+
+*My CV and more details are on my* *
+https://pranaval.github.io/.*
+```
+---
+
+     
+ 
+all -  [ [D] Publishing in NeurIPS, ICML, ICLR as an Early Researcher: Any Advice? ](https://www.reddit.com/r/MachineLearning/comments/1gip4cf/d_publishing_in_neurips_icml_iclr_as_an_early/) , 2024-11-04-0913
+```
+I'm currently pursuing a master's degree, and my goal is to publish a paper in one of the top AI/ML venues, like NeurIPS
+, ICML, or ICLR, before I finish my program. I'm studying at a Federal University in Brazil, which is well-regarded loca
+lly but doesn’t have much international recognition. My research lab is somewhat unstructured—we mainly share computatio
+nal resources but don’t have collaborative or large-scale projects. Because of this, I don’t have an ongoing project I c
+an join for guidance or support.
+
+Additionally, my supervisor’s research focus is more on applied machine learning in ch
+emistry, so he doesn’t have experience publishing in these top conferences. This means I don’t have direct mentorship on
+ the publishing process specific to these venues. To give some context, NeurIPS's call for papers is expected around May
+ 2025, so I still have some time but want to prepare as thoroughly as possible.
+
+I’d really appreciate any advice on how
+ to increase my chances of getting published in these venues. For example, I’ve heard that it helps to cite potential re
+viewers in your work. Any tips on how to navigate the process, write in a way that aligns with these conferences, or und
+erstand what reviewers might be looking for would be helpful. I’d also like advice on handling rejection, like potential
+ backup venues to consider if my paper isn’t accepted.
+```
+---
+
+     
+ 
+all -  [ Visa rejected for No Proper reason ](https://www.reddit.com/r/CanadaVisitorVisa/comments/1ghdzz6/visa_rejected_for_no_proper_reason/) , 2024-11-04-0913
 ```
 I was supposed to go for NeurIPS conference from India and I had Invitation letter as well as cover letter from my compa
 ny. Yet they have rejected with absolutely no logical reasons. How to appeal this? 
@@ -8,7 +101,7 @@ ny. Yet they have rejected with absolutely no logical reasons. How to appeal thi
 
      
  
-all -  [ [R] QTIP: Quantization with Trellises and Incoherence Processing ](https://www.reddit.com/r/MachineLearning/comments/1ggyj3l/r_qtip_quantization_with_trellises_and/) , 2024-11-03-0914
+all -  [ [R] QTIP: Quantization with Trellises and Incoherence Processing ](https://www.reddit.com/r/MachineLearning/comments/1ggyj3l/r_qtip_quantization_with_trellises_and/) , 2024-11-04-0913
 ```
 We're pleased to introduce QTIP, a new LLM quantization algorithm that uses trellis coded quantization and incoherence p
 rocessing to achieve a state of the art combination of speed and quantization quality.
@@ -32,7 +125,7 @@ g just as fast. QTIP is also on par with or better than PV-Tuning while being mu
 
      
  
-all -  [ New Quantization Method -- QTIP: Quantization with Trellises and Incoherence Processing ](https://www.reddit.com/r/LocalLLaMA/comments/1ggwrx6/new_quantization_method_qtip_quantization_with/) , 2024-11-03-0914
+all -  [ New Quantization Method -- QTIP: Quantization with Trellises and Incoherence Processing ](https://www.reddit.com/r/LocalLLaMA/comments/1ggwrx6/new_quantization_method_qtip_quantization_with/) , 2024-11-04-0913
 ```
 We're pleased to introduce QTIP, a new LLM quantization algorithm that uses trellis coded quantization and incoherence p
 rocessing to achieve a state of the art combination of speed and quantization quality.
@@ -58,7 +151,7 @@ g like llama.cpp.](https://reddit.com/link/1ggwrx6/video/rz8ghv5fc8yd1/player)
 
      
  
-all -  [ Chance a Chess Fiend With Below Average Grades but Good EC's and SAT ](https://www.reddit.com/r/chanceme/comments/1ggukfh/chance_a_chess_fiend_with_below_average_grades/) , 2024-11-03-0914
+all -  [ Chance a Chess Fiend With Below Average Grades but Good EC's and SAT ](https://www.reddit.com/r/chanceme/comments/1ggukfh/chance_a_chess_fiend_with_below_average_grades/) , 2024-11-04-0913
 ```
 **Demographics**:
 
@@ -118,7 +211,7 @@ due, IU, Vtech, UPitt, RIT, Bentley, Rutgers
 
      
  
-all -  [ [D] Is TMLR good enough to consider as an alternative to A* conferences? ](https://www.reddit.com/r/MachineLearning/comments/1ggsief/d_is_tmlr_good_enough_to_consider_as_an/) , 2024-11-03-0914
+all -  [ [D] Is TMLR good enough to consider as an alternative to A* conferences? ](https://www.reddit.com/r/MachineLearning/comments/1ggsief/d_is_tmlr_good_enough_to_consider_as_an/) , 2024-11-04-0913
 ```
 Hi there, I am a current PhD student in Artificial Intelligence working on Multi-Armed Bandits. More recently, I have co
 mpleted one of my works on the intersection of Bandits and LLMs and was wondering for a suitable venue for publication.
@@ -136,7 +229,7 @@ the closest conference is too far?
 
      
  
-all -  [ Neural network recognizer for hand-written zip code digits (1988): 'with a high-performance preproce ](https://www.reddit.com/r/mlscaling/comments/1ggr0j4/neural_network_recognizer_for_handwritten_zip/) , 2024-11-03-0914
+all -  [ Neural network recognizer for hand-written zip code digits (1988): 'with a high-performance preproce ](https://www.reddit.com/r/mlscaling/comments/1ggr0j4/neural_network_recognizer_for_handwritten_zip/) , 2024-11-04-0913
 ```
 This paper was published just before LeNet-1. Notable features:
 
@@ -166,7 +259,7 @@ Denker, John, et al. '[Neural network recognizer for hand
 
      
  
-all -  [ Florence-2-as-a-Judge ](https://www.reddit.com/r/LocalLLaMA/comments/1gfv0me/florence2asajudge/) , 2024-11-03-0914
+all -  [ Florence-2-as-a-Judge ](https://www.reddit.com/r/LocalLLaMA/comments/1gfv0me/florence2asajudge/) , 2024-11-04-0913
 ```
 I learned about Judge Distillation from slide 14 in [this deck](https://nips.cc/media/neurips-2023/Slides/83968_5GxuY2z.
 pdf) describing how Phi-2 researchers scaled their data quality filter to a large synthetic dataset.
@@ -190,7 +283,7 @@ SC West tomorrow, let's connect!
 
      
  
-all -  [ [0 YOE, Recent Grad, Machine learning engineer, United States] ](https://i.redd.it/yc7sqkex7txd1.png) , 2024-11-03-0914
+all -  [ [0 YOE, Recent Grad, Machine learning engineer, United States] ](https://i.redd.it/yc7sqkex7txd1.png) , 2024-11-04-0913
 ```
 
 ```
@@ -198,7 +291,7 @@ all -  [ [0 YOE, Recent Grad, Machine learning engineer, United States] ](https:
 
      
  
-all -  [ [D]ended up with a poster in NuerIPS-24 ](https://www.reddit.com/r/MachineLearning/comments/1gdxef5/dended_up_with_a_poster_in_nuerips24/) , 2024-11-03-0914
+all -  [ [D]ended up with a poster in NuerIPS-24 ](https://www.reddit.com/r/MachineLearning/comments/1gdxef5/dended_up_with_a_poster_in_nuerips24/) , 2024-11-04-0913
 ```
 I have a poster in NuerIPS this year through the  journal track(MLRC) along with the main conference papers.I didnt expe
 ct this to happen so i hadnt planned/researched about the expenses/funding prior.I already had my visa and conference re
@@ -209,7 +302,7 @@ ave already attended NeurIPS before please pour your ideas and experiences.
 
      
  
-all -  [ Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CVPR,  ](https://www.reddit.com/r/computervision/comments/1gd6812/looking_for_collaborations_on_ongoing/) , 2024-11-03-0914
+all -  [ Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CVPR,  ](https://www.reddit.com/r/computervision/comments/1gd6812/looking_for_collaborations_on_ongoing/) , 2024-11-04-0913
 ```
 Hey everyone,
 
@@ -232,7 +325,7 @@ reach out! Looking forward to connecting and building something impactful togeth
 
      
  
-all -  [ Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CVPR,  ](https://www.reddit.com/r/neuralnetworks/comments/1gd64zq/looking_for_collaborations_on_ongoing/) , 2024-11-03-0914
+all -  [ Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CVPR,  ](https://www.reddit.com/r/neuralnetworks/comments/1gd64zq/looking_for_collaborations_on_ongoing/) , 2024-11-04-0913
 ```
 # Hey everyone,
 
@@ -255,7 +348,7 @@ k 👉 [Open Slack](https://join.slack.com/t/vlgopenspace/shared_invite/zt-2t7k
 
      
  
-all -  [ Some General Rules for Uni Selection Fall'25 ](https://www.reddit.com/r/MSCS/comments/1gcs53j/some_general_rules_for_uni_selection_fall25/) , 2024-11-03-0914
+all -  [ Some General Rules for Uni Selection Fall'25 ](https://www.reddit.com/r/MSCS/comments/1gcs53j/some_general_rules_for_uni_selection_fall25/) , 2024-11-04-0913
 ```
 1. If you dont have 9+ GPA from tier 3 / 8.7 GPA from NIT / 8.5 GPA from IIT, do not apply to any of UC's MSCS (except U
 C Riverside and UC Santa Cruz) .
@@ -308,7 +401,7 @@ Anymore questions, feel free to ask.
 
      
  
-all -  [ 'Foundations for Machine Learning' ](https://www.reddit.com/r/learnmachinelearning/comments/1gcc2fc/foundations_for_machine_learning/) , 2024-11-03-0914
+all -  [ 'Foundations for Machine Learning' ](https://www.reddit.com/r/learnmachinelearning/comments/1gcc2fc/foundations_for_machine_learning/) , 2024-11-04-0913
 ```
 
 
@@ -400,7 +493,7 @@ t: [https://youtu.be/C8hEa2qb46k?si=7dRHM6EZwlUBDC5C](https://youtu.be/C8hEa2qb4
 
      
  
-all -  [ [R] Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CV ](https://www.reddit.com/r/u_vlg_iitr/comments/1gc2yzd/r_looking_for_collaborations_on_ongoing/) , 2024-11-03-0914
+all -  [ [R] Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CV ](https://www.reddit.com/r/u_vlg_iitr/comments/1gc2yzd/r_looking_for_collaborations_on_ongoing/) , 2024-11-04-0913
 ```
 Hey everyone,
 
@@ -423,7 +516,7 @@ ee to reach out! Looking forward to connecting and building something impactful 
 
      
  
-all -  [ Paper summaries for some of our papers that recently got accepted in NeurIPS ](https://www.reddit.com/r/learnmachinelearning/comments/1gb78i9/paper_summaries_for_some_of_our_papers_that/) , 2024-11-03-0914
+all -  [ Paper summaries for some of our papers that recently got accepted in NeurIPS ](https://www.reddit.com/r/learnmachinelearning/comments/1gb78i9/paper_summaries_for_some_of_our_papers_that/) , 2024-11-04-0913
 ```
 Hey everyone, here is the list of papers by our groups that got accepted recently in NeurIPS 2024; It is a proud moment 
 for us as an all-UG group; all the papers were published without any external support from the academia; here is a summa
@@ -460,7 +553,7 @@ full papers.
 
      
  
-all -  [ Paper summaries for some of our papers that recently got accepted in NeurIPS ](https://www.reddit.com/r/u_vlg_iitr/comments/1gb6csa/paper_summaries_for_some_of_our_papers_that/) , 2024-11-03-0914
+all -  [ Paper summaries for some of our papers that recently got accepted in NeurIPS ](https://www.reddit.com/r/u_vlg_iitr/comments/1gb6csa/paper_summaries_for_some_of_our_papers_that/) , 2024-11-04-0913
 ```
 Hey everyone, here is the list of papers by our groups that got accepted recently in NeurIPS 2024; It is a proud moment 
 for us as an all-UG group; all the papers were published without any external support from the academia; here is a summa
@@ -497,7 +590,7 @@ ey papers in computer vision, NLP, and machine learning—perfect if you want to
 
      
  
-all -  [ New to Research - Need Info on Publications [R][D] ](https://www.reddit.com/r/MachineLearning/comments/1gaa3o8/new_to_research_need_info_on_publications_rd/) , 2024-11-03-0914
+all -  [ New to Research - Need Info on Publications [R][D] ](https://www.reddit.com/r/MachineLearning/comments/1gaa3o8/new_to_research_need_info_on_publications_rd/) , 2024-11-04-0913
 ```
 I have been writing and publishing a few papers/journals in the field of AI for the last two years now, but I am really 
 not sure what the best journals and conferences are. In my case, I usually write a paper, and my professor, based on the
@@ -525,7 +618,7 @@ f it's Scopus-indexed, it is a good conference/journal).
 
      
  
-all -  [ [D] Responses to false accusations of plagiarism for Gaunt Tensor Product paper ](https://www.reddit.com/r/MachineLearning/comments/1ga12d8/d_responses_to_false_accusations_of_plagiarism/) , 2024-11-03-0914
+all -  [ [D] Responses to false accusations of plagiarism for Gaunt Tensor Product paper ](https://www.reddit.com/r/MachineLearning/comments/1ga12d8/d_responses_to_false_accusations_of_plagiarism/) , 2024-11-04-0913
 ```
 I’m posting this on behalf of the authors of the paper. The first author tried to make a post about this, but the post g
 ot removed for some reason. The author reached out to me because I was one of the people defending them, so see below fo
@@ -638,7 +731,7 @@ ope that you all read these threads carefully before jumping to conclusions.
 
      
  
-all -  [ facechain open source TopoFR face embedding model ! ](https://www.reddit.com/r/StableDiffusion/comments/1g98si0/facechain_open_source_topofr_face_embedding_model/) , 2024-11-03-0914
+all -  [ facechain open source TopoFR face embedding model ! ](https://www.reddit.com/r/StableDiffusion/comments/1g98si0/facechain_open_source_topofr_face_embedding_model/) , 2024-11-04-0913
 ```
 Our work \[TopoFR\](https://github.com/modelscope/facechain/tree/main/face\_module/TopoFR) got accepted to NeurIPS 2024,
  welcome to try it out !
@@ -647,7 +740,7 @@ Our work \[TopoFR\](https://github.com/modelscope/facechain/tree/main/face\_modu
 
      
  
-all -  [ Confused about where to submit the paper for a conference ](https://www.reddit.com/r/PhD/comments/1g8d9st/confused_about_where_to_submit_the_paper_for_a/) , 2024-11-03-0914
+all -  [ Confused about where to submit the paper for a conference ](https://www.reddit.com/r/PhD/comments/1g8d9st/confused_about_where_to_submit_the_paper_for_a/) , 2024-11-04-0913
 ```
 I started working on a specific category of power balance problem using reinforcement learning. RL in power quality is n
 ot new but I’m working on community of microgrids using RL which can help supply electricity to remote areas in developi
@@ -659,7 +752,7 @@ me ASME conferences but I want to try my luck at ICML or NeurIPS. Do you think t
 
      
  
-all -  [ How to finish PhD within 3 years ? ](https://www.reddit.com/r/PhD/comments/1g7w95o/how_to_finish_phd_within_3_years/) , 2024-11-03-0914
+all -  [ How to finish PhD within 3 years ? ](https://www.reddit.com/r/PhD/comments/1g7w95o/how_to_finish_phd_within_3_years/) , 2024-11-04-0913
 ```
 I am about to start a PhD in mechanistic interpretability (subfield of explainable AI) in Germany. I worked in industry 
 before and am already 30 yo. I want to finish within 3 years. My graduation requirements are three journal papers. High 
@@ -683,7 +776,7 @@ pers in first year and network as much as possible in conference to find collabo
 
      
  
-all -  [ [R] Molecular Topological Profile (MOLTOP) - Simple and Strong Baseline for Molecular Graph Classifi ](https://www.reddit.com/r/MachineLearning/comments/1g7gj4m/r_molecular_topological_profile_moltop_simple_and/) , 2024-11-03-0914
+all -  [ [R] Molecular Topological Profile (MOLTOP) - Simple and Strong Baseline for Molecular Graph Classifi ](https://www.reddit.com/r/MachineLearning/comments/1g7gj4m/r_molecular_topological_profile_moltop_simple_and/) , 2024-11-04-0913
 ```
 Accepted at ECAI 2024 conference, ArXiv: [https://arxiv.org/abs/2407.12136](https://arxiv.org/abs/2407.12136)
 
@@ -735,7 +828,7 @@ s / answer any questions in the comments.
 
      
  
-all -  [ [D] Why do PhD Students in the US seem like overpowered final bosses  ](https://www.reddit.com/r/MachineLearning/comments/1g7dzkp/d_why_do_phd_students_in_the_us_seem_like/) , 2024-11-03-0914
+all -  [ [D] Why do PhD Students in the US seem like overpowered final bosses  ](https://www.reddit.com/r/MachineLearning/comments/1g7dzkp/d_why_do_phd_students_in_the_us_seem_like/) , 2024-11-04-0913
 ```
 Hello,
 
@@ -764,7 +857,7 @@ Thank you !
 
      
  
-all -  [ [5 YOE] Physics postdoc trying switch. ~100 applications, handful of interviews, no offers. ](https://www.reddit.com/r/EngineeringResumes/comments/1g60iw4/5_yoe_physics_postdoc_trying_switch_100/) , 2024-11-03-0914
+all -  [ [5 YOE] Physics postdoc trying switch. ~100 applications, handful of interviews, no offers. ](https://www.reddit.com/r/EngineeringResumes/comments/1g60iw4/5_yoe_physics_postdoc_trying_switch_100/) , 2024-11-04-0913
 ```
 Hi! My postdoc is expiring, and I've been looking for ML Engineer jobs. I'm also looking for ML Researcher roles. I've a
 pplied to 40+ places, with only a handful of interviews. Am I making any dumb errors as I'm trying to transition? I know
@@ -782,7 +875,7 @@ tqldvd1.png?width=5949&format=png&auto=webp&s=d36454ef7e65fae545a5bf7b8cf6baf745
 
      
  
-all -  [ How I Started Learning Machine Learning ](https://www.reddit.com/r/learnmachinelearning/comments/1g4x299/how_i_started_learning_machine_learning/) , 2024-11-03-0914
+all -  [ How I Started Learning Machine Learning ](https://www.reddit.com/r/learnmachinelearning/comments/1g4x299/how_i_started_learning_machine_learning/) , 2024-11-04-0913
 ```
 Hello, everyone. As promised, I'll write a longer post about how I entered the world of ML, hoping it will help someone 
 shape their path. I'll include links to all the useful materials I used alongside the story, which you can use for learn
@@ -949,7 +1042,7 @@ Thank you for reading.
 
      
  
-all -  [ Does Grokking show that Scale will be enough to get LLMs to AGI? ](https://www.reddit.com/r/ChatGPT/comments/1g3eati/does_grokking_show_that_scale_will_be_enough_to/) , 2024-11-03-0914
+all -  [ Does Grokking show that Scale will be enough to get LLMs to AGI? ](https://www.reddit.com/r/ChatGPT/comments/1g3eati/does_grokking_show_that_scale_will_be_enough_to/) , 2024-11-04-0913
 ```
 Currently, there has been a lot of debate about whether LLMs truly reason or just memorize their training data (see this
  recent paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large 
@@ -994,7 +1087,7 @@ e will need new breakthroughs to get to AGI.
 
      
  
-all -  [ Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/ArtificialInteligence/comments/1g3d6kf/will_scale_be_enough_to_get_llms_to_reason/) , 2024-11-03-0914
+all -  [ Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/ArtificialInteligence/comments/1g3d6kf/will_scale_be_enough_to_get_llms_to_reason/) , 2024-11-04-0913
 ```
 Currently there has been a lot of debate whether LLMs truly reason or just memorize their training data (see this recent
  paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Languag
@@ -1038,7 +1131,7 @@ all we need to AGI?
 
      
  
-all -  [ [D] Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/MachineLearning/comments/1g3cumr/d_will_scale_be_enough_to_get_llms_to_reason/) , 2024-11-03-0914
+all -  [ [D] Will Scale be enough to get LLMs to Reason through Grokking? ](https://www.reddit.com/r/MachineLearning/comments/1g3cumr/d_will_scale_be_enough_to_get_llms_to_reason/) , 2024-11-04-0913
 ```
 Currently there has been a lot of debate whether LLMs truly reason or just memorize their training data (see this recent
  paper from Apple [\[2410.05229\] GSM-Symbolic: Understanding the Limitations of Mathematical Reasoning in Large Languag
@@ -1083,7 +1176,7 @@ nd we will need new breakthroughs to get to AGI?
 
      
  
-all -  [ University Recommendations for AI/ML Specialization in Europe ](https://www.reddit.com/r/learnmachinelearning/comments/1g39xgf/university_recommendations_for_aiml/) , 2024-11-03-0914
+all -  [ University Recommendations for AI/ML Specialization in Europe ](https://www.reddit.com/r/learnmachinelearning/comments/1g39xgf/university_recommendations_for_aiml/) , 2024-11-04-0913
 ```
 Hi everyone,
 
@@ -1138,7 +1231,7 @@ I feel if I go for PhD directly, I will be left with some knowledge gap.
 
      
  
-all -  [ Chance an underperforming Asian ](https://www.reddit.com/r/chanceme/comments/1g35v1n/chance_an_underperforming_asian/) , 2024-11-03-0914
+all -  [ Chance an underperforming Asian ](https://www.reddit.com/r/chanceme/comments/1g35v1n/chance_an_underperforming_asian/) , 2024-11-04-0913
 ```
 **Demographics**:
 
@@ -1198,7 +1291,7 @@ Majors are varied between Econ or CS with focus in AI
 
      
  
-all -  [ Low Undergrad Gpa decent exp? concerned about my chances? Should I do Gre? ](https://www.reddit.com/r/gradadmissions/comments/1fzj4wb/low_undergrad_gpa_decent_exp_concerned_about_my/) , 2024-11-03-0914
+all -  [ Low Undergrad Gpa decent exp? concerned about my chances? Should I do Gre? ](https://www.reddit.com/r/gradadmissions/comments/1fzj4wb/low_undergrad_gpa_decent_exp_concerned_about_my/) , 2024-11-04-0913
 ```
 Hey guys  
 I am an undergrad in ECE at a top 5 school with a 3.37 GPA and internship experience at a FAANG company. I am
@@ -1238,7 +1331,7 @@ Would love to hear any feedback on my school list or
 
      
  
-all -  [ [Article] HiCoM: Hierarchical Coherent Motion for Dynamic Streamable Scenes with 3D Gaussian Splatti ](https://www.reddit.com/r/Scholar/comments/1fzgn8o/article_hicom_hierarchical_coherent_motion_for/) , 2024-11-03-0914
+all -  [ [Article] HiCoM: Hierarchical Coherent Motion for Dynamic Streamable Scenes with 3D Gaussian Splatti ](https://www.reddit.com/r/Scholar/comments/1fzgn8o/article_hicom_hierarchical_coherent_motion_for/) , 2024-11-04-0913
 ```
 NeurIPS [https://nips.cc/virtual/2024/poster/96081](https://nips.cc/virtual/2024/poster/96081)
 ```
@@ -1246,7 +1339,7 @@ NeurIPS [https://nips.cc/virtual/2024/poster/96081](https://nips.cc/virtual/2024
 
      
  
-all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/deeplearning/comments/1fy6enm/some_research_papers_we_read_recently/) , 2024-11-03-0914
+all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/deeplearning/comments/1fy6enm/some_research_papers_we_read_recently/) , 2024-11-04-0913
 ```
 Hey everyone, here is the list of papers we discussed and their summaries this week. If you find these summaries useful,
  feel free to contribute your own! The repo is constantly updated with new papers from major conferences, so it's a grea
@@ -1278,7 +1371,7 @@ y reading! 🎉
 
      
  
-all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/u_vlg_iitr/comments/1fy6a5e/some_research_papers_we_read_recently/) , 2024-11-03-0914
+all -  [ Some Research Papers We Read recently ](https://www.reddit.com/r/u_vlg_iitr/comments/1fy6a5e/some_research_papers_we_read_recently/) , 2024-11-04-0913
 ```
 Hey everyone, here is the list of papers we discussed and their summaries this week. If you find these summaries useful,
  feel free to contribute your own! The repo is constantly updated with new papers from major conferences, so it's a grea
@@ -1311,7 +1404,7 @@ appy reading! 🎉
 
      
  
-all -  [ [0 YoE, Student, ML Research/SWE Internship, USA] ](https://www.reddit.com/r/resumes/comments/1fy0sj4/0_yoe_student_ml_researchswe_internship_usa/) , 2024-11-03-0914
+all -  [ [0 YoE, Student, ML Research/SWE Internship, USA] ](https://www.reddit.com/r/resumes/comments/1fy0sj4/0_yoe_student_ml_researchswe_internship_usa/) , 2024-11-04-0913
 ```
 Hi! I've never made a resume before, so this one isn't ATS optimized yet, way too long, and imo very uninteresting for a
 n interviewer or recruiter to look at. I'm in my junior year, so it's the time to fix all that for internships and resea
@@ -1339,52 +1432,7 @@ a couple advisors. But im concerned that people will see i'm a student and and w
 
      
  
-all -  [ Are IEEE/CVF the top conferences for CV/Image Processing? ](https://www.reddit.com/r/computervision/comments/1fxfwpo/are_ieeecvf_the_top_conferences_for_cvimage/) , 2024-11-03-0914
-```
-As the title say, are IEEE/CVF to CV what ICLR, ICML, NeurIPS are to AI?
-```
----
-
-     
- 
-all -  [ approved I797-A but expired visa stamp; travel to Canada for 6 days? ](https://www.reddit.com/r/h1b/comments/1fx81is/approved_i797a_but_expired_visa_stamp_travel_to/) , 2024-11-03-0914
-```
-Hi, my H1-B visa stamp on my passport expired on Aug 6, 2023.
-
-I have an approved I797-A (H1-B) valid from 05/11/2023 to
- 04/19/2026.
-
-Prior to the my latest (and current) I797-A, I also have an approved I-140 (notice date 2022). I was on H1
--B from 2017-2020 and then 2020-2023 before. Before my H1-B I was on F-1 status.
-
-Can I travel to Canada to present at N
-eurIPS 2024 conference on Dec 9, 2024 – Dec 15, 2024, and will I be allowed to enter USA with my approved I797-A without
- the visa stamp.
-
-I have seen other posts on automatic visa revalidation and also saw the page [https://travel.state.gov
-/content/travel/en/us-visas/visa-information-resources/visa-expiration-date/auto-revalidate.html](https://travel.state.g
-ov/content/travel/en/us-visas/visa-information-resources/visa-expiration-date/auto-revalidate.html) but don't understand
- everything on the page clearly.
-
-I am scared because if I can't enter back in USA, then I would have to go back to Indi
-a, wait for appointment to get my visa stamped and my wife and 15-months daughter would be alone here in USA.
-
-Travel wi
-ll be via flight. Please advise.
-```
----
-
-     
- 
-all -  [ Consent in Crisis (NeurIPS 2024) Paper Summary via DeepDive ](https://www.reddit.com/r/learnmachinelearning/comments/1fwpt7r/consent_in_crisis_neurips_2024_paper_summary_via/) , 2024-11-03-0914
-```
-[https://www.youtube.com/watch?v=1I-ABssKrps](https://www.youtube.com/watch?v=1I-ABssKrps)
-```
----
-
-     
- 
-MachineLearning -  [ [D] Option to make NeurIPS rejected paper reviews public? ](https://www.reddit.com/r/MachineLearning/comments/1fvy0n4/d_option_to_make_neurips_rejected_paper_reviews/) , 2024-11-03-0914
+MachineLearning -  [ [D] Option to make NeurIPS rejected paper reviews public? ](https://www.reddit.com/r/MachineLearning/comments/1fvy0n4/d_option_to_make_neurips_rejected_paper_reviews/) , 2024-11-04-0913
 ```
 The decision notification e-mail from NeurIPS mentioned that we would be offered the option to opt in to publicly releas
 ing reviews for a rejected paper and that instructions would follow in a few days.
@@ -1394,122 +1442,6 @@ t yet received any e-mail nor is there any author task to opt in. Since last yea
  notification I'm wondering if there was some issue and if no1 has received the e-mail yet?
 
 
-```
----
-
-     
- 
-MachineLearning -  [ [R] Announcing the first series of Liquid Foundation Models (LFMs) – a new generation of generative  ](https://www.reddit.com/r/MachineLearning/comments/1fvgo7o/r_announcing_the_first_series_of_liquid/) , 2024-11-03-0914
-```
-https://www.liquid.ai/liquid-foundation-models
-
-https://www.liquid.ai/blog/liquid-neural-networks-research
-
-https://x.co
-m/LiquidAI_/status/1840768716784697688
-
-https://x.com/teortaxesTex/status/1840897331773755476
-
-'We announce the first se
-ries of Liquid Foundation Models (LFMs), a new generation of generative AI models built from first principles.
-
-Our 1B, 
-3B, and 40B LFMs achieve state-of-the-art performance in terms of quality at each scale, while maintaining a smaller mem
-ory footprint and more efficient inference.'
-
-'LFM-1B performs well on public benchmarks in the 1B category, making it t
-he new state-of-the-art model at this size. This is the first time a non-GPT architecture significantly outperforms tran
-sformer-based models.
-
-LFM-3B delivers incredible performance for its size. It positions itself as first place among 3B 
-parameter transformers, hybrids, and RNN models, but also outperforms the previous generation of 7B and 13B models. It i
-s also on par with Phi-3.5-mini on multiple benchmarks, while being 18.4% smaller. LFM-3B is the ideal choice for mobile
- and other edge text-based applications.
-
-LFM-40B offers a new balance between model size and output quality. It leverag
-es 12B activated parameters at use. Its performance is comparable to models larger than itself, while its MoE architectu
-re enables higher throughput and deployment on more cost-effective hardware.
-
-LFMs are large neural networks built with 
-computational units deeply rooted in the theory of dynamical systems, signal processing, and numerical linear algebra.
-
-
-LFMs are Memory efficient LFMs have a reduced memory footprint compared to transformer architectures. This is particular
-ly true for long inputs, where the KV cache in transformer-based LLMs grows linearly with sequence length.
-
-LFMs truly e
-xploit their context length: In this preview release, we have optimized our models to deliver a best-in-class 32k token 
-context length, pushing the boundaries of efficiency for our size. This was confirmed by the RULER benchmark.
-
-LFMs adva
-nce the Pareto frontier of large AI models via new algorithmic advances we designed at Liquid: 
- 
-Algorithms to enhance 
-knowledge capacity, multi-step reasoning, and long-context recall in models + algorithms for efficient training and infe
-rence.
-
-We built the foundations of a new design space for computational units, enabling customization to different moda
-lities and hardware requirements.
-
-What Language LFMs are good at today:
-General and expert knowledge,
-Mathematics and l
-ogical reasoning,
-Efficient and effective long-context tasks,
-A primary language of English, with secondary multilingual
- capabilities in Spanish, French, German, Chinese, Arabic, Japanese, and Korean.
-
-What Language LFMs are not good at tod
-ay:
-Zero-shot code tasks,
-Precise numerical calculations,
-Time-sensitive information,
-Counting r’s in the word “Strawber
-ry”!,
-Human preference optimization techniques have not yet been applied to our models, extensively.'
-
-'We invented liqu
-id neural networks, a class of brain-inspired systems that can stay adaptable and robust to changes even after training 
-[R. Hasani, PhD Thesis] [Lechner et al. Nature MI, 2020] [pdf] (2016-2020). We then analytically and experimentally show
-ed they are universal approximators [Hasani et al. AAAI, 2021], expressive continuous-time machine learning systems for 
-sequential data [Hasani et al. AAAI, 2021] [Hasani et al. Nature MI, 2022], parameter efficient in learning new skills [
-Lechner et al. Nature MI, 2020] [pdf], causal and interpretable [Vorbach et al. NeurIPS, 2021] [Chahine et al. Science R
-obotics 2023] [pdf], and when linearized they can efficiently model very long-term dependencies in sequential data [Hasa
-ni et al. ICLR 2023].
-
-In addition, we developed classes of nonlinear neural differential equation sequence models [Mass
-aroli et al. NeurIPS 2021] and generalized them to graphs [Poli et al. DLGMA 2020]. We scaled and optimized continuous-t
-ime models using hybrid numerical methods [Poli et al. NeurIPS 2020], parallel-in-time schemes [Massaroli et al. NeurIPS
- 2020], and achieved state-of-the-art in control and forecasting tasks [Massaroli et al. SIAM Journal] [Poli et al. Neur
-IPS 2021][Massaroli et al. IEEE Control Systems Letters]. The team released one of the most comprehensive open-source li
-braries for neural differential equations [Poli et al. 2021 TorchDyn], used today in various applications for generative
- modeling with diffusion, and prediction.
-
-We proposed the first efficient parallel scan-based linear state space archit
-ecture [Smith et al. ICLR 2023], and state-of-the-art time series state-space models based on rational functions [Parnic
-hkun et al. ICML 2024]. We also introduced the first-time generative state space architectures for time series [Zhou et 
-al. ICML 2023], and state space architectures for videos [Smith et al. NeurIPS 2024]
-
-We proposed a new framework for ne
-ural operators [Poli et al. NeurIPS 2022], outperforming approaches such as Fourier Neural Operators in solving differen
-tial equations and prediction tasks.
-
-Our team has co-invented deep signal processing architectures such as Hyena [Poli 
-et al. ICML 2023] [Massaroli et al. NeurIPS 2023], HyenaDNA [Nguyen et al. NeurIPS 2023], and StripedHyena that efficien
-tly scale to long context. Evo [Nguyen et al. 2024], based on StripedHyena, is a DNA foundation model that generalizes a
-cross DNA, RNA, and proteins and is capable of generative design of new CRISPR systems.
-
-We were the first to scale lang
-uage models based on both deep signal processing and state space layers [link], and have performed the most extensive sc
-aling laws analysis on beyond-transformer architectures to date [Poli et al. ICML 2024], with new model variants that ou
-tperform existing open-source alternatives. 
-
-The team is behind many of the best open-source LLM finetunes, and merges 
-[Maxime Lebonne, link].
-
-Last but not least, our team’s research has contributed to pioneering work in graph neural netw
-orks and geometric deep learning-based models [Lim et al. ICLR 2024], defining new measures for interpretability in neur
-al networks [Wang et al. CoRL 2023], and the state-of-the-art dataset distillation algorithms [Loo et al. ICML 2023].'
 ```
 ---
 
