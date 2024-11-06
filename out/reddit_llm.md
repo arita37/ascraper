@@ -1,5 +1,669 @@
  
-all -  [ 2025 Master Langchain and Ollama - Chatbot, RAG and Agents ](https://idownloadcoupon.com/udemy/22506) , 2024-11-05-0912
+all -  [ PDF chat with source highlight ](https://www.reddit.com/r/LangChain/comments/1gkkm74/pdf_chat_with_source_highlight/) , 2024-11-06-0912
+```
+We’ve released **Denser Chat** as an open-source project! You can chat with your uploaded PDF with source highlighted. 
+
+
+Check it out on GitHub: [https://github.com/denser-org/denser-chat](https://github.com/denser-org/denser-chat)
+
+✨ Extra
+ct text & tables from PDFs  
+🤖 Build chatbots with [denser-retriever](https://github.com/denser-org/denser-retriever)  
+
+💬 Interactive Streamlit app w/ PDF source highlights
+
+Boost transparency & power up your AI projects! 💼 #opensource #AI 
+#DenserChat
+```
+---
+
+     
+ 
+all -  [ How to use a pgvector db as a retriever in a chain? ](https://www.reddit.com/r/LangChain/comments/1gkibvy/how_to_use_a_pgvector_db_as_a_retriever_in_a_chain/) , 2024-11-06-0912
+```
+Apologies if some of this doesn't make sense, I'm pretty new to Python and Langchain so please bear with me. 
+
+Earlier t
+his year I created a simple RAG chatbot using Langchain and Chainlit. The embeddings were stored in a pgvector enabled P
+ostgres database in GCP Cloud SQL. I packaged it up in a container and hosted it on GCP Cloud Run. It worked great.
+
+I'm
+ trying to create a new chatbot using a new dataset but the same architecture as the previous one. I've updated Langchai
+n and it seems some of the code from my previous chatbot is no longer working. Here's the portion I'm struggling with. T
+his is a bit of code from the OLD chatbot that worked fine:
+
+    store = PGVector(
+        collection_name=COLLECTION_NA
+ME,
+        connection_string=CONNECTION_STRING,
+        embedding_function=embeddings,
+    )
+    
+    retriever = store
+.as_retriever()
+    
+    template = '''My system prompt
+    Context: {context}
+    Question: {question}
+    '''    
+    
+
+    prompt = ChatPromptTemplate.from_template(template)
+        
+    chain = (
+        {'context': retriever, 'question
+': RunnablePassthrough()}
+    | prompt
+    | llm
+    | StrOutputParser())
+
+I should also point out that the above chatbo
+t was written for Gemini, prior to when Gemini supported a system prompt so I had to convert the first human message to 
+system.
+
+Here's the same bit of code from the NEW chatbot that I'm trying to create. I'm using a different ChatPromptTem
+plate method because Gemini now supports a system prompt and from\_messages is giving me better results than from\_templ
+ate. So the only thing that has changed is changing the ChatPromptTemplate from from\_template to from\_messages, but no
+w I'm not sure how to structure the actual chain. I've tried a few things but nothing is working. Any ideas?
+
+I also wan
+t to point out that the code below works perfectly fine as-is (well, the entire file obviously), without the retriever. 
+I can do a chainlit run [main.py](http://main.py) on this file and it launches Chainlit and I can have a conversation wi
+th Gemini. The only thing I'm struggling with is how to insert the retriever into the chain.
+
+
+
+    store = PGVector(
+  
+      collection_name-COLLECTION_NAME,
+        connection_string=CONNECTION_STRING,
+        embedding_function=embedding
+s,
+    )
+    
+    retriever = store.as_retriever()
+    
+    system_template = '''My system template'''
+    
+    prompt_t
+emplate = ChatPromptTemplate.from_messages(
+        [('system', system_template), ('user', '{text}')]
+    )
+    
+    run
+nable = prompt_template | model | StrOutputParser()
+```
+---
+
+     
+ 
+all -  [ Check out EidolonAI, an open-source framework for AI agents ](https://www.reddit.com/r/agenticAI/comments/1gkhvsd/check_out_eidolonai_an_opensource_framework_for/) , 2024-11-06-0912
+```
+Hey folks!
+
+[Eidolon AI](https://github.com/eidolon-ai/eidolon) is an open-source project devoted to making agent develo
+pment simpler. It's not uncommon for us to write a demo with about 20% of the code you'd need to do the same with Llama 
+or Langchain.
+
+We're on the lookout for developers looking at the options available to them, and any potential contribut
+ors as well.
+
+August Data, the sponsors for this project, have been working on this framework for three years and is now
+ looking for investors and 'interesting' customers.
+
+Come give us a look-see. We're always looking for stars to the repo
+ as well to gain a broader audience. No hidden fees or fine print! You give the repo a star, we thank you thank you than
+k you, everyone feels good!
+```
+---
+
+     
+ 
+all -  [ Dendrite: Interact with websites with natural language instead of using css selectors ](https://www.reddit.com/r/Python/comments/1gkg23q/dendrite_interact_with_websites_with_natural/) , 2024-11-06-0912
+```
+**What my project does:**
+
+**Dendrite** is a simple framework for interacting with websites using natural language. Inte
+ract and extract without having to find brittle css selectors or xpaths like this:
+
+    browser.click(“the sign in butto
+n”)
+
+For the developers who like their code typed, specify what data you want with a Pydantic BaseModel and Dendrite ret
+urns it in that format with one simple function call. Built on top of playwright for a robust experience. This is an eas
+y way to give your AI agents the same web browsing capabilities as humans have. Integrates easily with frameworks such a
+s  Langchain, CrewAI, Llamaindex and more. 
+
+We are planning on **open sourcing** everything soon as well so feel free t
+o reach out to us if you’re interested in contributing!
+
+Github: [https://github.com/dendrite-systems/dendrite-python-sd
+k](https://github.com/dendrite-systems/dendrite-python-sdk)
+
+**Overview**
+
+* **Authenticate Anywhere**: Dendrite Vault, 
+our Chrome extension, handles secure authentication, letting your agents log in to almost any website.
+* **Interact Natu
+rally**: With natural language commands, agents can click, type, and navigate through web elements with ease.
+* **Extrac
+t and Manipulate Data**: Collect structured data from websites, return data from different websites in the same structur
+e without having to maintain different scripts.
+* **Download/Upload Files**: Effortlessly manage file interactions to an
+d from websites, equipping agents to handle documents, reports, and more.
+* **Resilient Interactions**: Dendrite's inter
+actions are designed to be resilient, adapting to minor changes in website structure to prevent workflows from breaking
+
+* **Full Compatibility**: Works with popular tools like LangChain and CrewAI, letting you seamlessly integrate Dendrite’
+s capabilities into your AI workflows.
+
+**Target Audience:**
+
+* Automation developers
+* Webscraping people
+* Web AI agen
+t developers
+* QA engineers
+
+**Comparison:**
+
+There are some frameworks for scraping information from websites with natu
+ral language prompts but there are no real alternatives when it comes to interacting with the websites as well as access
+ing data behind authentication. The most similar alternative would be something like Multion or some other fully autonom
+ous agent framework that doesn't really work
+```
+---
+
+     
+ 
+all -  [ Infinit Craft with Kobold ](https://www.reddit.com/r/KoboldAI/comments/1gkfur6/infinit_craft_with_kobold/) , 2024-11-06-0912
+```
+    Infinit Craft with Kobold
+    The code is based on https://github.com/githubpradeep/notebooks/blob/main/Infinite%20c
+raft%20game-1.ipynb
+    tested with https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/blob/main/Meta-Lla
+ma-3-8B-Instruct.Q8_0.gguf
+    
+    from langchain.output_parsers import PydanticOutputParser
+    from langchain.prompts
+ import PromptTemplate
+    from langchain_core.messages import HumanMessage
+    from pydantic import BaseModel, Field
+  
+  from langchain_community.llms import KoboldApiLLM
+    
+    
+    class Craft(BaseModel):
+        word: str = Field(desc
+ription='the new word which was created')
+    
+    
+    class Crafter:
+        def __init__(self, local=False):
+    
+   
+         llm = KoboldApiLLM(endpoint='http://localhost:5001/', temperature=0.8, max_length=48)
+            parser = Pyda
+nticOutputParser(pydantic_object=Craft)
+    
+            prompt = PromptTemplate(
+                template='Answer the u
+ser query.\n{format_instructions}\n{query}\n',
+                input_variables=['query'],
+                partial_variab
+les={'format_instructions': parser.get_format_instructions()},
+            )
+    
+            chain = prompt | llm | par
+ser
+            self.chain = chain
+    
+        def craft(self, word1, word2):
+            while True:
+                t
+ry:
+    
+                    ans = self.chain.invoke({'query': f'''You are an AI that combines words to create meaningfu
+l new words. Always respond as JSON with no unnecessary information.
+                    For example:
+                  
+  Earth + Wind = Dust
+                    Fire + Water = Steam
+                    Earth + Water = Plant
+               
+     Dust + Earth = Planet
+                    Plant + Steam = Tea
+                    Planet + Wind = Storm
+           
+         Storm + Tea = Tempest
+                    Plant + Tempest = Tree
+                    Dust + Tree = Wood
+       
+             Fire + Wood = Campfire
+                    Dust + Water = Mud
+                    Campfire + Earth = Charco
+al
+                    Charcoal + Mud = Fossil
+                    Water + Fire = Steam
+                    Wind + Steam
+ = Cloud
+                    {word1} + {word2} ='''})
+                    return ans.word
+                except:
+      
+              continue
+    import pygame
+    import sys
+    
+    
+    pygame.init()
+    
+    screen_width, screen_height
+ = 1024, 576
+    screen = pygame.display.set_mode((screen_width, screen_height))
+    pygame.display.set_caption('Infinit
+e Craft')
+    
+    
+    background_color = (255, 255, 255)
+    text_color = (0, 0, 0)
+    box_color = (200, 200, 200)
+  
+  sidebar_color = (100, 100, 100)
+    element_color = (160, 160, 160)
+    element_text_color = text_color  # (255, 255, 
+255)
+    font_size = 24
+    font = pygame.font.Font(None, font_size)
+    
+    # Element combinations
+    combinations = 
+{
+        ('Fire', 'Water'): 'Steam',
+        # Add more combinations as needed
+    }
+    
+    sidebar_elements = ['Fire
+', 'Water', 'Earth', 'Wind', 'Soil', 'Seed']
+    sidebar_rects = []
+    
+    elements = []
+    
+    
+    class TextBox:
+
+        def __init__(self, text, pos, from_sidebar=False):
+            self.text = text
+            self.pos = pos
+     
+       self.rect = pygame.Rect(pos[0], pos[1], 120, 40)
+            self.dragging = False
+            self.from_sidebar 
+= from_sidebar
+    
+        def draw(self, screen):
+            draw_bordered_rounded_rect(screen, self.rect, box_color,
+ box_color, 3, 5)
+            # pygame.draw.rect(screen, element_color, self.rect,1,1)
+            text_surface = font.r
+ender(self.text, True, element_text_color)
+            screen.blit(text_surface, (self.rect.x + 10, self.rect.y + 10))
+ 
+   
+        def handle_event(self, event):
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                if self.
+rect.collidepoint(event.pos):
+                    self.dragging = True
+                    self.offset_x = self.rect.x -
+ event.pos[0]
+                    self.offset_y = self.rect.y - event.pos[1]
+    
+            elif event.type == pygame.
+MOUSEBUTTONUP:
+                self.dragging = False
+                if self.from_sidebar:
+                    # Snap ba
+ck to sidebar if it's not dragged into the main area
+                    if not (200 < self.rect.x < screen_width):
+    
+                    elements.remove(self)
+                    else:
+                        self.from_sidebar = False
+  
+          elif event.type == pygame.MOUSEMOTION:
+                if self.dragging:
+                    self.rect.x = eve
+nt.pos[0] + self.offset_x
+                    self.rect.y = event.pos[1] + self.offset_y
+    
+    
+    def init_sidebar(
+):
+        y = 100
+        sidebar_rects = []
+        for element in sidebar_elements:
+            rect = pygame.Rect(25
+, y, 150, 30)
+            sidebar_rects.append(rect)
+            y += 50
+        return sidebar_rects
+    
+    
+    side
+bar_rects = init_sidebar()
+    
+    import pygame
+    import sys
+    
+    pygame.init()
+    
+    screen_width, screen_he
+ight = 800, 600
+    screen = pygame.display.set_mode((screen_width, screen_height))
+    
+    WHITE = (255, 255, 255)
+   
+ GREY = (200, 200, 200)
+    DARK_GREY = (100, 100, 100)
+    
+    font = pygame.font.Font(None, 30)
+    
+    sidebar_widt
+h = 200
+    sidebar_content_height = 5000  # Example content height
+    scroll_y = 0  # Scroll position
+    import pygam
+e.gfxdraw
+    
+    
+    def draw_rounded_rect(surface, rect, color, corner_radius):
+        
+    ''' Draw a rectangle wi
+th rounded corners.
+        Would prefer this:
+            pygame.draw.rect(surface, color, rect, border_radius=corner_r
+adius)
+        but this option is not yet supported in my version of pygame so do it ourselves.
+        We use anti-alia
+sed circles to make the corners smoother
+        '''
+        
+    if rect.width < 2 * corner_radius or rect.height < 2 *
+ corner_radius:
+            raise ValueError(
+                f'Both height (rect.height) and width (rect.width) must be
+ > 2 * corner radius ({corner_radius})')
+    
+        # need to use anti aliasing circle drawing routines to smooth the 
+corners
+        pygame.gfxdraw.aacircle(surface, rect.left + corner_radius, rect.top + corner_radius, corner_radius, col
+or)
+        pygame.gfxdraw.aacircle(surface, rect.right - corner_radius - 1, rect.top + corner_radius, corner_radius, co
+lor)
+        pygame.gfxdraw.aacircle(surface, rect.left + corner_radius, rect.bottom - corner_radius - 1, corner_radius,
+ color)
+        pygame.gfxdraw.aacircle(surface, rect.right - corner_radius - 1, rect.bottom - corner_radius - 1, corner
+_radius,
+                                color)
+    
+        pygame.gfxdraw.filled_circle(surface, rect.left + corner_ra
+dius, rect.top + corner_radius, corner_radius, color)
+        pygame.gfxdraw.filled_circle(surface, rect.right - corner_
+radius - 1, rect.top + corner_radius, corner_radius,
+                                     color)
+        pygame.gfxdraw.
+filled_circle(surface, rect.left + corner_radius, rect.bottom - corner_radius - 1, corner_radius,
+                      
+               color)
+        pygame.gfxdraw.filled_circle(surface, rect.right - corner_radius - 1, rect.bottom - corner
+_radius - 1,
+                                     corner_radius, color)
+    
+        rect_tmp = pygame.Rect(rect)
+    
+ 
+       rect_tmp.width -= 2 * corner_radius
+        rect_tmp.center = rect.center
+        pygame.draw.rect(surface, color
+, rect_tmp)
+    
+        rect_tmp.width = rect.width
+        rect_tmp.height -= 2 * corner_radius
+        rect_tmp.cente
+r = rect.center
+        pygame.draw.rect(surface, color, rect_tmp)
+    
+    
+    def draw_bordered_rounded_rect(surface,
+ rect, color, border_color, corner_radius, border_thickness):
+        if corner_radius < 0:
+            raise ValueError
+(f'border radius ({corner_radius}) must be >= 0')
+    
+        rect_tmp = pygame.Rect(rect)
+        center = rect_tmp.ce
+nter
+    
+        if border_thickness:
+            if corner_radius <= 0:
+                pygame.draw.rect(surface, bord
+er_color, rect_tmp)
+            else:
+                draw_rounded_rect(surface, rect_tmp, border_color, corner_radius)
+
+    
+            rect_tmp.inflate_ip(-2 * border_thickness, -2 * border_thickness)
+            inner_radius = corner_rad
+ius - border_thickness + 1
+        else:
+            inner_radius = corner_radius
+    
+        if inner_radius <= 0:
+   
+         pygame.draw.rect(surface, color, rect_tmp)
+        else:
+            draw_rounded_rect(surface, rect_tmp, color
+, inner_radius)
+    
+    
+    def draw_sidebar(screen, sidebar_rects, scroll_y):
+        pygame.draw.rect(screen, sideba
+r_color, [0, 0, 200, screen_height], 1, 1)
+        scrollable_area = pygame.Rect(0, scroll_y, sidebar_width, sidebar_con
+tent_height)
+    
+        for idx, rect in enumerate(sidebar_rects):
+            rect.y += scrollable_area.y
+           
+ draw_bordered_rounded_rect(screen, rect, box_color, box_color, 3, 5)
+            text_surface = font.render(sidebar_ele
+ments[idx], True, text_color)
+            screen.blit(text_surface, (rect.x + 5, rect.y + 5))
+    
+    
+    crafter = Cr
+after()
+    
+    
+    def merge_elements(elements, sidebar_elements):
+        for i, elem1 in enumerate(elements):
+     
+       for j, elem2 in enumerate(elements):
+                if i != j:  # Ensure not checking the same element
+         
+           if elem1.rect.colliderect(elem2.rect):  # Check for collision
+                        if not elem1.from_sideb
+ar and not elem2.from_sidebar:
+                            # Concatenate the text to create a new element
+              
+              new_text = crafter.craft(elem1.text, elem2.text)
+                            # new_text = elem1.text+ elem
+2.text
+                            if new_text not in sidebar_elements:
+                                sidebar_elements
+.append(new_text)
+                            new_pos = (elem1.pos[0], elem1.pos[1])
+                            # Creat
+e the new element and add it to the list
+                            new_element = TextBox(new_text, elem1.pos)
+        
+                    new_element.rect.x = elem1.rect.x
+                            new_element.rect.y = elem1.rect.y
+    
+                        elements.append(new_element)
+                            elements.remove(elem1)
+                
+            elements.remove(elem2)
+                            return
+    def main():
+        offset = 0
+        scroll_
+y = 0
+        scroll_speed = 1
+        clock = pygame.time.Clock()
+        running = True
+        running = True
+       
+ clock = pygame.time.Clock()
+    
+        while running:
+            for event in pygame.event.get():
+                if
+ event.type == pygame.QUIT:
+                    running = False
+                elif event.type == pygame.MOUSEBUTTONDOW
+N:
+    
+                    if event.button == 1:
+                        for idx, rect in enumerate(sidebar_rects):
+   
+                         if rect.collidepoint(event.pos):
+                                elements.append(TextBox(sideba
+r_elements[idx], event.pos, from_sidebar=True))
+                                break
+                elif event.type ==
+ pygame.MOUSEWHEEL:
+                    scroll_y += event.y * 10
+                    # Limit scrolling
+                 
+   scroll_y = min(0, max(-(sidebar_content_height - screen_height), scroll_y))
+    
+                for element in eleme
+nts:
+                    element.handle_event(event)
+    
+            sidebar_rects = init_sidebar()
+    
+            me
+rge_elements(elements, sidebar_elements)
+    
+            screen.fill(background_color)
+            draw_sidebar(screen,
+ sidebar_rects, scroll_y)
+    
+            for element in elements:
+                element.draw(screen)
+    
+          
+  pygame.display.flip()
+            clock.tick(30)
+    
+        pygame.quit()
+        sys.exit()
+    
+    
+    if __name
+__ == '__main__':
+        main()
+```
+---
+
+     
+ 
+all -  [ Better way to retrieve function definitions from codebase (vector embeddings)? ](https://www.reddit.com/r/LangChain/comments/1gkc7ug/better_way_to_retrieve_function_definitions_from/) , 2024-11-06-0912
+```
+I have created vector embeddings of codebase (C/C++ files) and stored them, using the tree sitter and Generic Loader fro
+m langchain, by referring this
+
+https://python.langchain.com/docs/integrations/document_loaders/source_code/
+
+Currently 
+I'm using db.as_retriever({search_type='mmr'}) for retrieving the function definitions (because most of the queries will
+ be dependent of their definition: find the bug in abc_function) and for some of the functions it is working as expected
+ since those functions aren't used much in the codebase, so retrieving the correct chunk is easier with them, but the fu
+nctions which are called in multiple functions, for them this retriever isn't able to retrieve their function definition
+s
+
+Are there any specific retrievers for the codebase? Like tree-sitter is for parsing the codebase?
+```
+---
+
+     
+ 
+all -  [ YouTube video summarizer and post generator ](https://www.reddit.com/r/SaaS/comments/1gk9a8x/youtube_video_summarizer_and_post_generator/) , 2024-11-06-0912
+```
+I have developed a tool which takes url of YouTube video and can summarize it, generate a blog post, generate a linkedin
+ post. The target market is Youtubers, marketing agencies, bloggers, and other content creators
+I want to sell this tool
+ which is developed using python, langchain, streamlit for UI, crewai, ChatGroq. If anyone are interested in acquiring t
+his tool and want to convert it into their own SaaS tool for making good revenue please contact me
+```
+---
+
+     
+ 
+all -  [ Need help ! ](https://www.reddit.com/r/Supabase/comments/1gk877a/need_help/) , 2024-11-06-0912
+```
+I do have an app using langchain js along Supabase , I have an issue when i'm using SupabaseVectoreStore on a specific t
+able , if that table has more than 5000 records , it returns timeout error 
+
+# Error code: 57014: Canceling Statement Du
+e To Statement Timeout
+
+  
+this happen right away not after the 2 min timeout, maybe i need to mention i'm using the Fre
+e tier.
+
+I could'nt find anything on the documentations.
+```
+---
+
+     
+ 
+all -  [ IBM release Agentic Framework 'Bee' ](https://www.reddit.com/r/LangChain/comments/1gk7z5v/ibm_release_agentic_framework_bee/) , 2024-11-06-0912
+```
+[https://i-am-bee.github.io/bee-agent-framework/#/](https://i-am-bee.github.io/bee-agent-framework/#/)
+```
+---
+
+     
+ 
+all -  [ 🌲Hierarchical Indices: Enhancing RAG Systems ](https://open.substack.com/pub/diamantai/p/hierarchical-indices-enhancing-rag?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-11-06-0912
+```
+📚 Hierarchical indices are an advanced method for organizing information in RAG systems. Unlike traditional flat structu
+res, they use a multi-tiered approach typically consisting of:
+
+1. Top-level summaries
+2. Mid-level overviews
+3. Detaile
+d chunks
+
+✨ This hierarchical structure helps overcome common RAG limitations by:
+• Improving context understanding 
+• B
+etter handling complex queries
+• Enhancing scalability
+• Increasing answer relevance
+
+Attached is the full blog describi
+ng it, which includes link to code implementation as well ☺️
+```
+---
+
+     
+ 
+all -  [ Auto-Analyst — Adding marketing analytics AI agents ](https://medium.com/firebird-technologies/auto-analyst-adding-marketing-analytics-ai-agents-45b3e1f6654c) , 2024-11-06-0912
 ```
 
 ```
@@ -7,7 +671,635 @@ all -  [ 2025 Master Langchain and Ollama - Chatbot, RAG and Agents ](https://id
 
      
  
-all -  [ A new discovery tool for the Langchain ecosystem ](https://www.reddit.com/r/LangChain/comments/1gjpfzv/a_new_discovery_tool_for_the_langchain_ecosystem/) , 2024-11-05-0912
+all -  [ Built a LangChain integration that solves the multi-system customer data problem (with fuzzy matchin ](https://www.reddit.com/r/LangChain/comments/1gk35pf/built_a_langchain_integration_that_solves_the/) , 2024-11-06-0912
+```
+Hey r/LangChain,
+
+We built a LangChain integration that solves one of the biggest headaches in building customer-facing 
+LLM apps: getting a single, accurate view of customer data across all your systems.
+
+-Combines data from Hubspot, Salesf
+orce, Zendesk, Snowflake, databases etc. using fuzzy matching
+-Creates and updates unified customer profiles in real-tim
+e
+-Plugs right into LangChain for building customer support bots that actually know your customers
+
+We built this becaus
+e we found lots of companies struggling with internal LLM apps when the customer data existed somewhere in their data st
+ack - just not in one place. The fuzzy matching handles all the messy real-world data issues (typos, different formats, 
+etc.).
+
+If you want to give it a shot:
+
+Demo repo: https://github.com/tilotech/identity-rag-customer-insights-chatbot
+Th
+ere is a demo video showing it in action at the same link
+
+For anyone in Berlin - we're doing a hands-on session with La
+ngChain and AWS next week: https://www.meetup.com/unstructured/events/304128662/. In-person only for now, but might stre
+am if there's interest (drop a comment if you'd watch!).
+
+I would love to hear your thoughts/feedback, especially if you
+'ve tackled similar problems before!
+```
+---
+
+     
+ 
+all -  [ Udemy Free Courses for 05 November 2024 ](https://www.reddit.com/r/udemyfreebies/comments/1gk2uqc/udemy_free_courses_for_05_november_2024/) , 2024-11-06-0912
+```
+# Udemy Free Courses for 05 November 2024
+
+Note : Coupons might expire anytime, so enroll as soon as possible to get the
+ courses for FREE.
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22567/)Ace the ISTQB CTFL AT Agile Tester Mock E
+xams & Explanations
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22566/)LLM Pentesting: Mastering Security Testin
+g for AI Models
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22565/)E20-555: Dell EMC Isilon Solution and Design 
+Specialist Exam
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22564/)E20-393: Dell EMC Unity Solution Specialist P
+ractice test 24
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22563/)DES-1D12: Dell EMC Specialist – Midrange Stor
+age Solutions
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22562/)DES-1423: Dell EMC Specialist Isilon Solution P
+ractice test
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22561/)NSE7\_ZTA-7.2: Fortinet Network Security Expert 
+Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22560/)NSE7\_SDW-7.2: Fortinet Network Security Expert
+ Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22559/)NSE7\_SDW-7.0: Fortinet Network Security Exper
+t Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22558/)NSE7\_SDW-6.4: Fortinet Network Security Expe
+rt Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22557/)Generative AI for All: Practical Prompt Engi
+neering Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22556/)Shopify: Your Essential Guide to E-commerce Su
+ccess
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22555/)Facebook Ads 2024: Launch Your Best Advertising Campaig
+n
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22554/)Build Your Best Cold Email Strategy!
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22553/)Grow your business with Chatbot Marketing!
+* [REDEEM OFFER ](https://idownloadcoupo
+n.com/udemy/22552/)Blogging and Influencer Marketing
+* Complete Figma Course: Web & Mobile Projects from Scratch
+* [REDE
+EM OFFER](https://idownloadcoupon.com/udemy/22551/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22550/)Executive
+ Assistant Professional Certification (EAPC)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22549/)Timeboxing: A Sh
+ort and Practical Guide
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22548/)BANXIETY: Beginner and Beyond Breathi
+ng for Anxiety
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22547/)The Complete Manager: Management Skills Guide 
+for Beginners
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22546/)Managing a business with business analytics and
+ frameworks
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22545/)HTML For Beginners
+* [REDEEM OFFER ](https://idow
+nloadcoupon.com/udemy/22544/)Automatiza YouTube al 100% con IA
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22543
+/)Secretary Professional Certification (SPC)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22542/)Master Splits & 
+Conditioning for Martial or Performance Arts
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22541/)Luxury Industry 
+Professional Certification (LIPC)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22540/)C# desde 0: Inicia tu carre
+ra como programador
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22539/)Paralegal Professional Certification (PPC
+)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22537/)The Complete Video Editing Masterclass with Vegas Pro
+* [RE
+DEEM OFFER ](https://idownloadcoupon.com/udemy/22536/)Executive Diploma in Business Management
+* [REDEEM OFFER ](https:/
+/idownloadcoupon.com/udemy/22535/)CLF-C01: AWS Certified Cloud Practitioner Practice test 2024
+* DBS-C01: AWS Certified 
+Database Specialty Practice Test 2024
+* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22534/)
+* [REDEEM OFFER ](https
+://idownloadcoupon.com/udemy/22533/)DOP-C01: AWS Certified DevOps Engineer Practice test 2024
+* [REDEEM OFFER ](https://
+idownloadcoupon.com/udemy/22532/)Google SEO Guide: How to Rank First on Google
+* [REDEEM OFFER ](https://idownloadcoupon
+.com/udemy/22531/)The Ultimate Google Analytics 4 Course – Complete Guide 2024
+* [REDEEM OFFER ](https://idownloadcoupon
+.com/udemy/22530/)C++ Beginner to Advanced: Modern C++20 and Multithreading
+* [REDEEM OFFER ](https://idownloadcoupon.co
+m/udemy/22529/)Python Machine Learning: From Beginner to Pro
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22528/)
+Build a WordPress Blog Website Step by Step
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22527/)Instagram Marketi
+ng Course: Fastest ways to grow your page
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22526/)User Experience Des
+ign – Learn UI UX App Design with Figma
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22525/)Beginning Bash Script
+ing
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22524/)Ethical Hacking: Hacker Methodology
+* [REDEEM OFFER ](htt
+ps://idownloadcoupon.com/udemy/22523/)Interview Success: Business English for Job interviews
+* [REDEEM OFFER ](https://i
+downloadcoupon.com/udemy/22522/)Business Process Management: Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/22521/)15 Günde Anne Sütü Mucizesi: Beslenme Rehberiniz
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22520
+/)Office Administration Management Professional Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22519/
+)C-level management: 20 models for business operations (2/5)
+* Growth Hacking Professional Certification (GHPC)
+* [REDEE
+M OFFER](https://idownloadcoupon.com/udemy/22518/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22517/)The Comple
+te JavaScript Course: From Zero to Expert
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22516/)Selenium Webdriver 
+with Java & TestNG Testing Framework
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22515/)सीखें WordPress हिन्दी म
+ें
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22514/)Certified Culinarian Practice Exam
+* [REDEEM OFFER ](https
+://idownloadcoupon.com/udemy/22513/)The Complete C++ Programming Course from Basic to Expert
+* [REDEEM OFFER ](https://i
+downloadcoupon.com/udemy/22512/)Next.js for Beginners : The Complete Guide 2024
+* [REDEEM OFFER ](https://idownloadcoupo
+n.com/udemy/22511/)Python And Django Framework For Beginners Complete Course
+* [REDEEM OFFER ](https://idownloadcoupon.c
+om/udemy/22510/)AWS Certified Machine Learning Specialty 2024 – Hands On!
+* [REDEEM OFFER ](https://idownloadcoupon.com/
+udemy/22509/)Ultimate AWS Certified Solutions Architect Associate (SAA)
+* [REDEEM OFFER ](https://idownloadcoupon.com/ud
+emy/22508/)x64dbg Script Programming For Reverse Engineering
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22507/)
+F5 101 Exam Preparation – Complete Course w/ Practice Exams
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22506/)2
+025 Master Langchain and Ollama – Chatbot, RAG and Agents
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22505/)Unb
+ounce: Create Landing Pages that Convert + A/B Testing
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22504/)Cómo C
+rear una Tienda Online con Blogger Desde Cero 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22503/)Herramient
+as de Google 2024, ¡Desde Cero Hasta Experto!
+
+GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://www.
+reddit.com/r/udemyfreeebies/)
+```
+---
+
+     
+ 
+all -  [ Udemy Free Courses for 05 November 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1gk2unl/udemy_free_courses_for_05_november_2024/) , 2024-11-06-0912
+```
+# Udemy Free Courses for 05 November 2024
+
+Note : Coupons might expire anytime, so enroll as soon as possible to get the
+ courses for FREE.
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22567/)Ace the ISTQB CTFL AT Agile Tester Mock E
+xams & Explanations
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22566/)LLM Pentesting: Mastering Security Testin
+g for AI Models
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22565/)E20-555: Dell EMC Isilon Solution and Design 
+Specialist Exam
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22564/)E20-393: Dell EMC Unity Solution Specialist P
+ractice test 24
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22563/)DES-1D12: Dell EMC Specialist – Midrange Stor
+age Solutions
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22562/)DES-1423: Dell EMC Specialist Isilon Solution P
+ractice test
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22561/)NSE7\_ZTA-7.2: Fortinet Network Security Expert 
+Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22560/)NSE7\_SDW-7.2: Fortinet Network Security Expert
+ Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22559/)NSE7\_SDW-7.0: Fortinet Network Security Exper
+t Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22558/)NSE7\_SDW-6.4: Fortinet Network Security Expe
+rt Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22557/)Generative AI for All: Practical Prompt Engi
+neering Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22556/)Shopify: Your Essential Guide to E-commerce Su
+ccess
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22555/)Facebook Ads 2024: Launch Your Best Advertising Campaig
+n
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22554/)Build Your Best Cold Email Strategy!
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22553/)Grow your business with Chatbot Marketing!
+* [REDEEM OFFER ](https://idownloadcoupo
+n.com/udemy/22552/)Blogging and Influencer Marketing
+* Complete Figma Course: Web & Mobile Projects from Scratch
+* [REDE
+EM OFFER](https://idownloadcoupon.com/udemy/22551/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22550/)Executive
+ Assistant Professional Certification (EAPC)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22549/)Timeboxing: A Sh
+ort and Practical Guide
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22548/)BANXIETY: Beginner and Beyond Breathi
+ng for Anxiety
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22547/)The Complete Manager: Management Skills Guide 
+for Beginners
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22546/)Managing a business with business analytics and
+ frameworks
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22545/)HTML For Beginners
+* [REDEEM OFFER ](https://idow
+nloadcoupon.com/udemy/22544/)Automatiza YouTube al 100% con IA
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22543
+/)Secretary Professional Certification (SPC)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22542/)Master Splits & 
+Conditioning for Martial or Performance Arts
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22541/)Luxury Industry 
+Professional Certification (LIPC)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22540/)C# desde 0: Inicia tu carre
+ra como programador
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22539/)Paralegal Professional Certification (PPC
+)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22537/)The Complete Video Editing Masterclass with Vegas Pro
+* [RE
+DEEM OFFER ](https://idownloadcoupon.com/udemy/22536/)Executive Diploma in Business Management
+* [REDEEM OFFER ](https:/
+/idownloadcoupon.com/udemy/22535/)CLF-C01: AWS Certified Cloud Practitioner Practice test 2024
+* DBS-C01: AWS Certified 
+Database Specialty Practice Test 2024
+* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22534/)
+* [REDEEM OFFER ](https
+://idownloadcoupon.com/udemy/22533/)DOP-C01: AWS Certified DevOps Engineer Practice test 2024
+* [REDEEM OFFER ](https://
+idownloadcoupon.com/udemy/22532/)Google SEO Guide: How to Rank First on Google
+* [REDEEM OFFER ](https://idownloadcoupon
+.com/udemy/22531/)The Ultimate Google Analytics 4 Course – Complete Guide 2024
+* [REDEEM OFFER ](https://idownloadcoupon
+.com/udemy/22530/)C++ Beginner to Advanced: Modern C++20 and Multithreading
+* [REDEEM OFFER ](https://idownloadcoupon.co
+m/udemy/22529/)Python Machine Learning: From Beginner to Pro
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22528/)
+Build a WordPress Blog Website Step by Step
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22527/)Instagram Marketi
+ng Course: Fastest ways to grow your page
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22526/)User Experience Des
+ign – Learn UI UX App Design with Figma
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22525/)Beginning Bash Script
+ing
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22524/)Ethical Hacking: Hacker Methodology
+* [REDEEM OFFER ](htt
+ps://idownloadcoupon.com/udemy/22523/)Interview Success: Business English for Job interviews
+* [REDEEM OFFER ](https://i
+downloadcoupon.com/udemy/22522/)Business Process Management: Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/22521/)15 Günde Anne Sütü Mucizesi: Beslenme Rehberiniz
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22520
+/)Office Administration Management Professional Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22519/
+)C-level management: 20 models for business operations (2/5)
+* Growth Hacking Professional Certification (GHPC)
+* [REDEE
+M OFFER](https://idownloadcoupon.com/udemy/22518/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22517/)The Comple
+te JavaScript Course: From Zero to Expert
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22516/)Selenium Webdriver 
+with Java & TestNG Testing Framework
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22515/)सीखें WordPress हिन्दी म
+ें
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22514/)Certified Culinarian Practice Exam
+* [REDEEM OFFER ](https
+://idownloadcoupon.com/udemy/22513/)The Complete C++ Programming Course from Basic to Expert
+* [REDEEM OFFER ](https://i
+downloadcoupon.com/udemy/22512/)Next.js for Beginners : The Complete Guide 2024
+* [REDEEM OFFER ](https://idownloadcoupo
+n.com/udemy/22511/)Python And Django Framework For Beginners Complete Course
+* [REDEEM OFFER ](https://idownloadcoupon.c
+om/udemy/22510/)AWS Certified Machine Learning Specialty 2024 – Hands On!
+* [REDEEM OFFER ](https://idownloadcoupon.com/
+udemy/22509/)Ultimate AWS Certified Solutions Architect Associate (SAA)
+* [REDEEM OFFER ](https://idownloadcoupon.com/ud
+emy/22508/)x64dbg Script Programming For Reverse Engineering
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22507/)
+F5 101 Exam Preparation – Complete Course w/ Practice Exams
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22506/)2
+025 Master Langchain and Ollama – Chatbot, RAG and Agents
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22505/)Unb
+ounce: Create Landing Pages that Convert + A/B Testing
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22504/)Cómo C
+rear una Tienda Online con Blogger Desde Cero 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22503/)Herramient
+as de Google 2024, ¡Desde Cero Hasta Experto!
+
+GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idow
+nloadcoupon.com/)
+```
+---
+
+     
+ 
+all -  [ Run GGUF models using python ](https://www.reddit.com/r/LanguageTechnology/comments/1gk06za/run_gguf_models_using_python/) , 2024-11-06-0912
+```
+GGUF is an optimised file format to store ML models (including LLMs) leading to faster and efficient LLMs usage with red
+ucing memory usage as well. This post explains the code on how to use GGUF LLMs (only text based) using python with the 
+help of Ollama and LangChain : https://youtu.be/VSbUOwxx3s0
+```
+---
+
+     
+ 
+all -  [ LangChain RetrievalQA Working Locally but Failing on Windows Server Deployment ](https://www.reddit.com/r/techsupport/comments/1gjzdea/langchain_retrievalqa_working_locally_but_failing/) , 2024-11-06-0912
+```
+I'm using LangChain (version langchain==0.3.3) and specifically the RetrievalQA class from langchain.chains to retrieve 
+answers from PDF files. My setup works perfectly on my local machine, but I’m having trouble getting it to work after de
+ploying it to a live server running Django on a Windows Server.
+
+
+
+Here’s the core part of my code:
+
+conversation\_chain
+ = RetrievalQA.from\_chain\_type(
+
+llm=llm,
+
+retriever=vectorstore.as\_retriever(search\_kwargs={'k': 30}),
+
+\# memory=m
+emory,
+
+chain\_type='stuff',
+
+chain\_type\_kwargs={'prompt': my\_prompt},
+
+)
+
+
+
+response = conversation\_chain.invoke(
+
+
+{'query': fieldPrompt.Prompt}
+
+)
+
+
+
+In my local environment, everything runs smoothly. However, once deployed, it doesn’
+t work as expected, and I’m not getting the intended responses.
+
+
+
+Could anyone help me figure out why this might be hap
+pening on the live server? Is there something specific about deploying on Windows Server or Django that might cause issu
+es with LangChain or RetrievalQA? Any troubleshooting tips would be greatly appreciated!
+```
+---
+
+     
+ 
+all -  [ How can I add a filter for my retriever? ](https://www.reddit.com/r/LangChain/comments/1gjxwxx/how_can_i_add_a_filter_for_my_retriever/) , 2024-11-06-0912
+```
+    vectorstore = AzureCosmosDBVectorSearch.from_connection_string(
+                    connection_string=self.uri,
+    
+                namespace=self.namespace,
+                    embedding=self.embedding_model,
+                    index_
+name = self.index_name,
+                    embedding_key=self.embedding_key
+                )
+    
+    retriever = vect
+orstore.as_retriever(
+                    search_kwargs={
+                        'k': 10,
+                        'filt
+er': {'username': username}
+                    }
+                )
+
+What is the syntax to construct the filter? Cant se
+em to find the documentation for it.
+
+For context, I want to only retrieve documents where the metadata contains my user
+name (only documents belonging to the user). However, the filter does not seem to be working and is returning me all the
+ documents.
+```
+---
+
+     
+ 
+all -  [ How to use RAG? ](https://www.reddit.com/r/Rag/comments/1gjwjb8/how_to_use_rag/) , 2024-11-06-0912
+```
+Hi! I'm kind of new to programming and machine learning as a whole, and I was wondering if someone can give me an outlin
+e of implementing RAG using langchain??
+
+I know the general outline: data collection --> vector embeddings --> storing i
+n vector database --> and using this in the generation step as extra context as you prompt the LLM.
+
+Am I missing someth
+ing? And wouldn't this mean that the data collection step is the most important since you're building your vector databa
+se off of how you collect the data and which data you end up collecting? Lastly, approximately how much data do you need
+ for a decently sized vector database, generally speaking for a personal project. 
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ Need Help with FAISS Integration - ‘IndexFlat’ Object is Not Callable Error ](https://www.reddit.com/r/LangChain/comments/1gjubsw/need_help_with_faiss_integration_indexflat_object/) , 2024-11-06-0912
+```
+  
+Hi everyone,  
+I’m facing an issue while integrating FAISS vector storage with the Langchain library. Specifically, I
+’m encountering the following error when I try to create or update my FAISS vector store:  
+
+
+    php
+    
+    
+    Type
+Error: 'IndexFlat' object is not callable
+
+Context of the Project:  
+I am building a two-fold document retrieval system:
+  
+
+
+1. **Main AI** \- This functionality provides access to all uploaded documents, allowing users to ask questions tha
+t are answered based on the contents of all available documents.
+2. **Copilot (Similar to Discord Bots)** \- Users can u
+se a prefix `/filename` followed by their query to ask specific questions about an individual document (e.g., `/ansible.
+pdf describe this file`). The aim is to retrieve information only from the selected document.
+
+The data flow involves st
+oring FAISS index files and metadata in Google Cloud Storage, retrieving them as needed, and updating the vector store b
+ased on new documents being uploaded.  
+Problem:  
+
+
+* When I upload the first document, the FAISS index and metadata ar
+e created successfully, and everything works fine.
+* However, when I upload additional files and try to update the FAISS
+ vector store, the following error occurs:
+
+`TypeError: 'IndexFlat' object is not callable`  
+This error occurs specific
+ally at the point where I try to add more texts to an existing FAISS vector store.  
+Changes Made So Far:  
+I initially 
+suspected that the embedding function was incorrectly defined or called. Here’s what I tried doing:  
+
+
+* **Initializati
+on of Embeddings Model**: I am using Google Generative AI for embeddings, specifically `GoogleGenerativeAIEmbeddings`. H
+ere’s a sample initialization:
+
+`from langchain_google_genai import GoogleGenerativeAIEmbeddings`  
+`embeddings = Google
+GenerativeAIEmbeddings(model='models/embedding-001', task_type='retrieval_document')`
+
+* **Creating Vector Store**: I us
+ed the FAISS method `from_texts` to create a vector store. Here’s a snippet of my `get_vector_store()` function:
+
+&#8203
+;
+
+        def download_and_initialize_vectorStore_fromGC(self, bucket_name, prefix, text_chunks, uid, client_organizati
+on_id, grant_proposal_form_id, file_name):
+            temp_dir = f'/tmp/download_vectorStore/{uid}/{client_organization
+_id}/{grant_proposal_form_id}'
+            os.makedirs(temp_dir, exist_ok=True)
+            blobs = self.upload_bucket.l
+ist_blobs(prefix=prefix)
+            faiss_file_found = False
+            pkl_file_found = False
+            for blob in
+ blobs:
+                if blob.name.endswith('/') or 'index' not in blob.name:
+                    continue
+           
+     local_path = Path(temp_dir) / Path(blob.name).name
+                local_path.parent.mkdir(parents=True, exist_ok=T
+rue)
+                blob.download_to_filename(str(local_path))
+                print(local_path)
+    
+                i
+f 'index.faiss' in str(local_path):
+                    faiss_file_found = True
+                if 'index.pkl' in str(lo
+cal_path):
+                    pkl_file_found = True
+            
+            if not faiss_file_found or not pkl_file_fo
+und:
+                raise FileNotFoundError(f'Required FAISS or PKL files not found in {prefix}')
+    
+            prin
+t(f'Files Downloaded to {temp_dir}: {os.listdir(temp_dir)}')
+    
+            os.getenv('GOOGLE_API_KEY')
+            em
+beddings = GoogleGenerativeAIEmbeddings(model='models/embedding-001', task_type='retrieval_document')
+    
+            p
+rint(f'Loading FAISS index from temp directory: {temp_dir}')
+            self.load_vector_store(temp_dir, embeddings)
+  
+  
+            print('Successfully Loaded the vector store')
+            self.vector_store.add_texts(text_chunks)
+      
+      print('Updated the vector store')
+    
+            cloud_path_to_delete = f'/tmp/{uid}/{client_organization_id}/{g
+rant_proposal_form_id}'
+            self.delete_directory_in_cloud(self.upload_bucket_name, cloud_path_to_delete)
+      
+      print('Successfully deleted the Faiss_index')
+    
+            print(f'Vector store attributes before saving:{vars
+(self.vector_store)}')
+            updated_faiss_path = f'/tmp/{uid}/{client_organization_id}/{grant_proposal_form_id}'
+
+            try:
+                self.save_vector_store(updated_faiss_path, text_chunks, file_name)
+                prin
+t('Successfully saved the updated Faiss Index')
+            except Exception as e:
+                print(f'Error during 
+FAISS save_local:{e}')
+            self.upload_Vector_DB_files(self.upload_bucket_name, updated_faiss_path)
+            
+print('successfully uploaded the updated Faiss_index to cloud storage')
+            shutil.rmtree(temp_dir)
+            
+print('Temp Directory removed successfully')
+    
+        def get_vector_store(self, text_chunks: list, uid: str, client
+_organization_id: str, grant_proposal_form_id: str, file_name: str):
+            if not self._faiss_index_exists(uid, cl
+ient_organization_id, grant_proposal_form_id):
+                print('FAISS index does not exist. Creating a new one.')
+
+                self.vector_store = self._create_faiss_index(text_chunks)
+                print('FAISS index created wit
+h chunks')
+                self.save_vector_store(f'/tmp/{uid}/{client_organization_id}/{grant_proposal_form_id}', text_
+chunks, file_name)
+                print('FAISS index saved in local')
+                self.upload_Vector_DB_files(self.
+upload_bucket_name, f'/tmp/{uid}/{client_organization_id}/{grant_proposal_form_id}')
+                print('FAISS index 
+upload complete')
+            else:
+                print('Faiss Index Available')
+                self.download_and_ini
+tialize_vectorStore_fromGC(self.upload_bucket_name, f'/tmp/{uid}/{client_organization_id}/{grant_proposal_form_id}', tex
+t_chunks, uid, client_organization_id, grant_proposal_form_id, file_name)
+                print('Faiss Index successfull
+y updated and stored')
+            print('Vector store created successfully.')
+
+* **Adding Texts to Vector Store**: When
+ trying to add texts to the FAISS vector store, I encountered the `IndexFlat` error. The problematic line is as follows:
+
+
+`self.vector_store.add_texts(text_chunks)`Attempted Solutions:  
+
+
+* **Verified Embedding Model Initialization**: I ma
+de sure that the `GoogleGenerativeAIEmbeddings` model was correctly instantiated and passed as an argument to `FAISS.fro
+m_texts()`.
+* **Checked** `embed_documents` **Method**: I confirmed that `embed_documents()` is indeed a method supporte
+d by `GoogleGenerativeAIEmbeddings` and tried passing text to it manually:
+
+Relevant source code is here: [https://colab
+.research.google.com/drive/1erJ\_liA9ldPHiKBEzuzr05o8j8KVgxON?usp=sharing](https://colab.research.google.com/drive/1erJ_
+liA9ldPHiKBEzuzr05o8j8KVgxON?usp=sharing)
+
+* What I’m Looking for:
+   * **Why the** `IndexFlat` **object is being consid
+ered callable**: I’m not entirely sure why the `IndexFlat` object is incorrectly being used as a callable. Is there some
+thing inherently wrong with the way the embedding model is being assigned or initialized?
+   * **How to Correctly Update
+ the FAISS Vector Store**: Given that the initial vector store is successfully created but fails when trying to add new 
+documents, is there a particular pattern I should be following to avoid this error?
+   * **Efficient Hybrid Approach**: 
+Since I am combining traditional metadata approaches with embeddings for selective document retrieval, is there a recomm
+ended way to integrate this type of hybrid retrieval functionality effectively with Langchain and FAISS?
+
+Any insights i
+nto what I’m doing wrong or how I could correct my approach would be greatly appreciated.  
+**Thank you so much for your
+ help and time in advance!** 
+```
+---
+
+     
+ 
+all -  [ Is there any nodejs packages for visualising a langgraph JS graph?  ](https://www.reddit.com/r/LangChain/comments/1gju54m/is_there_any_nodejs_packages_for_visualising_a/) , 2024-11-06-0912
+```
+Something that actually is produced from the code and the compiled graph.
+```
+---
+
+     
+ 
+all -  [ A new discovery tool for the Langchain ecosystem ](https://www.reddit.com/r/LangChain/comments/1gjpfzv/a_new_discovery_tool_for_the_langchain_ecosystem/) , 2024-11-06-0912
 ```
 Hi! I built a new page to browse resources in the Langchain ecosystem -
 
@@ -32,7 +1324,7 @@ e agent development easier. Anyways, would love to get some feedback from this c
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1gjnwsq/list_of_free_and_best_selling_discounted_courses/) , 2024-11-05-0912
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1gjnwsq/list_of_free_and_best_selling_discounted_courses/) , 2024-11-06-0912
 ```
 # Udemy Free Courses for 05 November 2024
 
@@ -205,7 +1497,7 @@ ERE](https://idownloadcoupon.com/)
 
      
  
-all -  [ Langchain with neo4j ](https://www.reddit.com/r/LangChain/comments/1gjmipk/langchain_with_neo4j/) , 2024-11-05-0912
+all -  [ Langchain with neo4j ](https://www.reddit.com/r/LangChain/comments/1gjmipk/langchain_with_neo4j/) , 2024-11-06-0912
 ```
 I am trying to implement a QnA on knowledge graphs using langchain and neo4j. Can someone tell me how exactly the hybrid
  search works in langchain/neo4j ?
@@ -214,7 +1506,7 @@ I am trying to implement a QnA on knowledge graphs using langchain and neo4j. Ca
 
      
  
-all -  [ Looking for local llm solution to continuously work on my codebase ](https://www.reddit.com/r/LocalLLaMA/comments/1gjh2jb/looking_for_local_llm_solution_to_continuously/) , 2024-11-05-0912
+all -  [ Looking for local llm solution to continuously work on my codebase ](https://www.reddit.com/r/LocalLLaMA/comments/1gjh2jb/looking_for_local_llm_solution_to_continuously/) , 2024-11-06-0912
 ```
 Soon I will have access to hardware capable of running llms. My first goal is to set up something that could iteratively
  look at the code in my projects and improve them it, i.e. fix bugs, improve performance, write tests, simplify the code
@@ -274,7 +1566,7 @@ cept just 1, because 9 are hallucinations.
 
      
  
-all -  [ A Series of Consecutive Webinars on Agents by Industry Leaders ](https://open.substack.com/pub/diamantai/p/agentcraft-hackathon-kickoff-educational?utm_source=share&utm_medium=android&r=336pe4) , 2024-11-05-0912
+all -  [ A Series of Consecutive Webinars on Agents by Industry Leaders ](https://open.substack.com/pub/diamantai/p/agentcraft-hackathon-kickoff-educational?utm_source=share&utm_medium=android&r=336pe4) , 2024-11-06-0912
 ```
 In 10 days from now, and just after the kickoff of our online AgentCraft hackathon in conjunction with LangChain, we’ll 
 be providing extra value for our audience with a free series of 5 short lectures on agents from top industry experts.
@@ -287,7 +1579,7 @@ enjoy ☺️
 
      
  
-all -  [ Master Quant Developer wants to trade knowledge for full stack assistance ](https://www.reddit.com/r/FullStack/comments/1gjdvym/master_quant_developer_wants_to_trade_knowledge/) , 2024-11-05-0912
+all -  [ Master Quant Developer wants to trade knowledge for full stack assistance ](https://www.reddit.com/r/FullStack/comments/1gjdvym/master_quant_developer_wants_to_trade_knowledge/) , 2024-11-06-0912
 ```
 My husband has been the head of a quant Dev team for several banks over many years.
 
@@ -307,7 +1599,7 @@ inancial analytical libraries, performance analysis
 
      
  
-all -  [ Help - Pointers for Productionizing RAG Conversational Bot ](https://www.reddit.com/r/LangChain/comments/1gjd2mz/help_pointers_for_productionizing_rag/) , 2024-11-05-0912
+all -  [ Help - Pointers for Productionizing RAG Conversational Bot ](https://www.reddit.com/r/LangChain/comments/1gjd2mz/help_pointers_for_productionizing_rag/) , 2024-11-06-0912
 ```
 Hey Folks,
 
@@ -325,7 +1617,7 @@ e and Gemini and GoogleAIEmbeddings for LLM and Embedding models respectively.
 
      
  
-all -  [ GoogleVectorStore permission issues ](https://www.reddit.com/r/LangChain/comments/1gjaser/googlevectorstore_permission_issues/) , 2024-11-05-0912
+all -  [ GoogleVectorStore permission issues ](https://www.reddit.com/r/LangChain/comments/1gjaser/googlevectorstore_permission_issues/) , 2024-11-06-0912
 ```
 I'm trying to use the GoogleVectorStore but keep getting a 403. I'm running with my admin account so it should have all 
 the permissions it needs. Especially since reading it works using the Google libraries.
@@ -376,7 +1668,7 @@ nd-generation-generate
 
      
  
-all -  [ Train the chatbot to send me messages every x hours/days ](https://www.reddit.com/r/LangChain/comments/1gjanqe/train_the_chatbot_to_send_me_messages_every_x/) , 2024-11-05-0912
+all -  [ Train the chatbot to send me messages every x hours/days ](https://www.reddit.com/r/LangChain/comments/1gjanqe/train_the_chatbot_to_send_me_messages_every_x/) , 2024-11-06-0912
 ```
 Hi, I am building a RAG chatbot that has the functionality to retrieve and send cognitive exercises in order to assist p
 atients with neurodegenerative diseases. I'd like to make the chatbot, specifying the number of exercises per day/week, 
@@ -388,7 +1680,7 @@ ut I wonder if I can somehow train the chatbot to automatically do this. Thank y
 
      
  
-all -  [ Chatbot for data analysis ](https://www.reddit.com/r/LangChain/comments/1gj8m1y/chatbot_for_data_analysis/) , 2024-11-05-0912
+all -  [ Chatbot for data analysis ](https://www.reddit.com/r/LangChain/comments/1gj8m1y/chatbot_for_data_analysis/) , 2024-11-06-0912
 ```
 I want to build a chatbot which can take in CSVs as input and then perform automatic data cleaning, processing and model
 ling. 
@@ -401,7 +1693,7 @@ Thanks in advance
 
      
  
-all -  [ I was frustated with LLM frameworks, so I created something new ](https://www.reddit.com/r/LLMDevs/comments/1gj427v/i_was_frustated_with_llm_frameworks_so_i_created/) , 2024-11-05-0912
+all -  [ I was frustated with LLM frameworks, so I created something new ](https://www.reddit.com/r/LLMDevs/comments/1gj427v/i_was_frustated_with_llm_frameworks_so_i_created/) , 2024-11-06-0912
 ```
 Building LLM applications has been quite painful for me. Most frameworks seem to introduce unnecessary abstractions that
  makes everything opaque. When using langchain, etc, one doesnt know whats going behind the curtains, which API calls ar
@@ -425,7 +1717,7 @@ s reach out or join the [discord server](https://discord.gg/DZFWMXJv) if you w
 
      
  
-all -  [ I created an open-source declarative framework to build LLM applications ](https://www.reddit.com/r/AI_Agents/comments/1gj3jg4/i_created_an_opensource_declarative_framework_to/) , 2024-11-05-0912
+all -  [ I created an open-source declarative framework to build LLM applications ](https://www.reddit.com/r/AI_Agents/comments/1gj3jg4/i_created_an_opensource_declarative_framework_to/) , 2024-11-06-0912
 ```
 I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
 I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
@@ -452,7 +1744,7 @@ gensphere
 
      
  
-all -  [ How to implement stream method for custom llm class? ](https://www.reddit.com/r/LangChain/comments/1gj3ab9/how_to_implement_stream_method_for_custom_llm/) , 2024-11-05-0912
+all -  [ How to implement stream method for custom llm class? ](https://www.reddit.com/r/LangChain/comments/1gj3ab9/how_to_implement_stream_method_for_custom_llm/) , 2024-11-06-0912
 ```
 I am not sure how to write the stream function when I have written the call fuction for my LLM class like shwon below. C
 an someone help me with the code for the custom LLM stream function?
@@ -478,42 +1770,7 @@ I am trying to send a request via an API request to
 
      
  
-all -  [ RAG for image-to-text app and multimodal embeddings ](https://www.reddit.com/r/LangChain/comments/1giwmb2/rag_for_imagetotext_app_and_multimodal_embeddings/) , 2024-11-05-0912
-```
-Hi,
-
-I m thinking about an application like this:  
-  
-1) I have prompt composed by text and image. The text is fixed bu
-t fairly long, something along the line  'Describe what is in the image ...' while the image  changes as the user upload
-s it  
-2) I have a like 10K words long text for many of the images that the user might upload  
-3) to improve the applic
-ation I would like to do RAG as follows:  
-3.1) create embeddings for all the texts by chunking - say - 1500 words  
-3.2
-) create embeddings for the images  
-3.3) when the user uploads the image, create the embedding and search the text that
- are more close to the image embedding  
-3.4) Include the retrieved text into the prompt and send it to an Multimodal LL
-M
-
-  
-I see there are sever API that to the multimodal embeddings (text and image in the same vector space)  for example
- embed 3, google, but they all limit the text to 30 or 70 words, while I have texts of 10k words or chunks of 1500 words
- -70 words would not improve the prompt
-
-I'm not sure what to do?  
-Should I chunk the 10K texts into 50 words chunks, s
-elect say 100 embeddings and concat the text? Sounds wrong?
-
-Any idea?
-```
----
-
-     
- 
-all -  [ Python LangChain for RAG Beginners: Building Powerful AI Applications with GPT Agents ](https://www.reddit.com/r/generativeAI/comments/1giwa1j/python_langchain_for_rag_beginners_building/) , 2024-11-05-0912
+all -  [ Python LangChain for RAG Beginners: Building Powerful AI Applications with GPT Agents ](https://www.reddit.com/r/generativeAI/comments/1giwa1j/python_langchain_for_rag_beginners_building/) , 2024-11-06-0912
 ```
 Just released a book on LangChain for RAG Beginners: Building Powerful AI Applications with GPT Agents using Python,
 
@@ -546,7 +1803,7 @@ Karel
 
      
  
-all -  [ Submit Feedback Node (Getting runId from RunnableConfig inside a node) ](https://www.reddit.com/r/LangGraph/comments/1giuqw7/submit_feedback_node_getting_runid_from/) , 2024-11-05-0912
+all -  [ Submit Feedback Node (Getting runId from RunnableConfig inside a node) ](https://www.reddit.com/r/LangGraph/comments/1giuqw7/submit_feedback_node_getting_runid_from/) , 2024-11-06-0912
 ```
 I have raised a question on the repo: [https://github.com/langchain-ai/langgraphjs/discussions/655](https://github.com/l
 angchain-ai/langgraphjs/discussions/655)
@@ -562,7 +1819,7 @@ graph.js SDK)
 
      
  
-all -  [ Langgraph-ui-sdk  ](https://www.reddit.com/r/OpenSourceeAI/comments/1gip356/langgraphuisdk/) , 2024-11-05-0912
+all -  [ Langgraph-ui-sdk  ](https://www.reddit.com/r/OpenSourceeAI/comments/1gip356/langgraphuisdk/) , 2024-11-06-0912
 ```
 Hey GenAI and langchain folks 🦜
 I posted this library today, I didn't find a way out of the box to have UI component for
@@ -575,7 +1832,7 @@ https://github.com/AmrAnwar/LangGraph-UI-SDK
 
      
  
-all -  [ Chat with repository using gemini  ](https://www.reddit.com/r/LangChain/comments/1gijdtz/chat_with_repository_using_gemini/) , 2024-11-05-0912
+all -  [ Chat with repository using gemini  ](https://www.reddit.com/r/LangChain/comments/1gijdtz/chat_with_repository_using_gemini/) , 2024-11-06-0912
 ```
  🔍 Built a GitHub Repository AI Assistant using LangChain + Gemini
 
@@ -617,7 +1874,7 @@ https://www.linkedin.com/posts/jaygupta17_ai-programming-developertools-activity
 
      
  
-all -  [ Best way for fast chunking, embedding, and persistence on large docs? ](https://www.reddit.com/r/LLMDevs/comments/1gi7m2c/best_way_for_fast_chunking_embedding_and/) , 2024-11-05-0912
+all -  [ Best way for fast chunking, embedding, and persistence on large docs? ](https://www.reddit.com/r/LLMDevs/comments/1gi7m2c/best_way_for_fast_chunking_embedding_and/) , 2024-11-06-0912
 ```
 When a user uploads a doc, it chunks, embeds, then persists it. This currently takes 25 seconds with multithreading on 6
  cores for me. I need this to be faster, and I need to add support for concurrent file uploads.
@@ -644,7 +1901,7 @@ es per lambda so we can achieve paralell processing of chunks in the lambda. Tho
 
      
  
-all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/AI_Agents/comments/1gi64ty/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-05-0912
+all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/AI_Agents/comments/1gi64ty/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-06-0912
 ```
 Hi everyone! I’ve created Brainstormers – a straightforward, open-source, LLM-powered tool using LangChain to enhance yo
 ur brainstorming. Unlike ChatGPT, this app guides you through structured brainstorming techniques like Mind Mapping, Rev
@@ -661,696 +1918,7 @@ d I improve and is the idea itself good ?
 
      
  
-all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/LLMDevs/comments/1gi63ty/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-05-0912
-```
-Hi everyone! I’ve created **Brainstormers** – a straightforward, open-source, LLM-powered tool using LangChain to enhanc
-e your brainstorming. Unlike ChatGPT, this app guides you through structured brainstorming techniques like Mind Mapping,
- Reverse Brainstorming, SCAMPER, and more, helping you get focused, high-quality ideas.
-
-If you’re looking for a reliabl
-e way to brainstorm without the usual hiccups, check it out here: [GitHub Repository](https://github.com/Azzedde/brainst
-ormers).
-
-As I'm still in my journey of learning, I would really appreciate some feedback from all the community, what s
-hould I improve and is the idea itself good ?
-```
----
-
-     
- 
-all -  [ Are You Tired of ChatGPT Hallucinating and Weak Brainstorming? Here’s a Solution! ](https://www.reddit.com/r/ChatGPT/comments/1gi61pz/are_you_tired_of_chatgpt_hallucinating_and_weak/) , 2024-11-05-0912
-```
-Hi everyone! I’ve created **Brainstormers** – a straightforward, open-source, LLM-powered tool using LangChain to enhanc
-e your brainstorming. Unlike ChatGPT, this app guides you through structured brainstorming techniques like Mind Mapping,
- Reverse Brainstorming, SCAMPER, and more, helping you get focused, high-quality ideas.
-
-If you’re looking for a reliabl
-e way to brainstorm without the usual hiccups, check it out here: [GitHub Repository](https://github.com/Azzedde/brainst
-ormers).
-
-As I'm still in my journey of learning, I would really appreciate some feedback from all the community, what s
-hould I improve and is the idea itself good ?
-```
----
-
-     
- 
-all -  [ Introducing Cascade of Semantically Integrated Layers (CaSIL): An Absurdly Over-Engineered Thought/R ](https://www.reddit.com/r/LocalLLaMA/comments/1gi102k/introducing_cascade_of_semantically_integrated/) , 2024-11-05-0912
-```
-So here’s a fun one. Imagine layering so much semantic analysis onto a single question that it practically gets therapy.
- That’s CaSIL – Cascade of Semantically Integrated Layers. It’s a ridiculous (but actually effective) pure Python algori
-thm designed to take any user input, break it down across multiple layers, and rebuild it into a nuanced response that e
-ven makes sense to a human.
-
-I have been interested in and experimenting with all the reasoning/agent approaches lately 
-which got me thinking of how I could add my 2 cents of ideas, mainly around the concept of layers that waterfall into ea
-ch other and the extracted relationships of the input.
-
-The whole thing operates without any agent frameworks like LangC
-hain or CrewAI—just straight-up Python and math. And the best part? CaSIL can handle any LLM, transforming it from a “ye
-s/no” bot to something that digs deep, makes connections, and understands broader context.
-
-How it works (briefly):
-
-1. 
-Initial Understanding: Extract basic concepts from the input.
-
-
-2. Relationship Analysis: Find and connect related conce
-pts (because why not build a tiny knowledge graph along the way).
-
-
-3. Context Integration: Add historical and contextua
-l knowledge to give that extra layer of depth.
-
-
-4. Response Synthesis: Put it all together into a response that doesn’t
- feel like a Google result from 2004.
-
-
-The crazy part? It actually works. Check out the pure algo implementation with t
-he repo. No fancy dependencies,, and it’s easy to integrate with whatever LLM you’re using.
-
-https://github.com/severian
-42/Cascade-of-Semantically-Integrated-Layers
-
-Example output: https://github.com/severian42/Cascade-of-Semantically-Inte
-grated-Layers/blob/main/examples.md
-
-
-EDIT FOR CLARITY!!! 
-
-Sorry everyone, I posted this and then fell asleep after a l
-ong week of work. I'll clarify some things from the comments here.
-
-1. What is this? What are you claiming?: This is jus
-t an experiment that actually worked and is interesting to use. I by no means am saying I have the 'secret sauce' or riv
-als o1. My algorithm is just a really interesting way of having LLM s 'think' through stuff in a non-traditional way. Be
-nchmarks so far have been hit or miss
-
-2. Does it work? Is the code crap?: it does work! And yes, the code is ugly. I cr
-eated this in 2 days with the help of Claude while working my day job.
- 
-
-3. No paper? Fake paper?: There is no official
- paper but there is the random one in the repo. What is that? Well, part of my new workflow I was testing that helped st
-art this codebase. Part of this project was to eventually showcase how I built an agent based workflow that allows me to
- take an idea, have a semi-decent/random 'research' paper written by those agents. I then take that and run it into anot
-her agent team that translates it into a starting code base for me to see if I can actually get working. This one did.
-
-
-
-4. Examples?: There is an example in the repo but I will try and put together some more definitive and useful. For now,
- take a look at the repo and give it a shot. Easy set up for the most part. Will make a UI also for those non coders 
-
-
-
-Sorry if it seemed like I was trying to make great claims. Not at all, just showing some interesting new algorithms for 
-LLM inference 
-```
----
-
-     
- 
-all -  [ Guidance in Building Application  ](https://www.reddit.com/r/LangChain/comments/1ghxtgu/guidance_in_building_application/) , 2024-11-05-0912
-```
-I'm building a multi agent application in langgraph where one agent is conversing with a user and another agent evaluate
-s the response of the user 
-
-The graph construction seems simple
-
-User conversation with Agent back and forth 
-Reply eva
-luated by another agent 
-
-I'm struggling in understanding the syntax and coding 
-
-Would like to know if this is doable a
-nd any pointers to develop it 
-
-Thank you
-```
----
-
-     
- 
-all -  [ Keep consistent context in conversation ](https://www.reddit.com/r/LangChain/comments/1ghsivu/keep_consistent_context_in_conversation/) , 2024-11-05-0912
-```
-Hello everyone, I'm pretty new to langchain & langraph assuming that I want to build pizza ordering bot which would talk
- to the customers, sample bellow: 
-
-**Bot** : Hi, how can I help you ?  
-**Human**: I would like to buy a pepperoni  
-**
-Bot:** Sure something else ?   
-**Human:** I would like to ask is diavola spicy ?  
-**Bot:** Yes, the diavola is spicy  
-?   
-**Human**: Okay, I would like one diavola as well with some extra basil .  
-**Bot :** <conclude the order and confi
-rm it> 
-
-I'm trying to achieve something similar in a more complex context, but the problem I face cannot keep a consist
-ent context, e.g. It could add diavola with details but remove pepperoni, or keep diavola without extra details. 
-
-  
-I 
-would like to ask if someone faced something similar, how do you handle this problem, maybe there is some useful tools w
-hich, I'm not aware of ? 
-
-Thanks
-
-
-```
----
-
-     
- 
-all -  [ MY RAG VS OPENAI CUSTOM GPT ](https://www.reddit.com/r/LangChain/comments/1ghsbhz/my_rag_vs_openai_custom_gpt/) , 2024-11-05-0912
-```
-  
-I NEED YOUR ANSWERS.   
-  
-SO for the last few weeks i was building a RAG using LangChain + Pinecone + Open AI.  so i
-t is done now  
-and i noticed that there is some thing called CUSTOM GPT. which is kind of the same thing .
-
-so my quest
-ion is which one is better. in different comparison.   should i cancel my application and just use Custom GPT ?  what is
- your point on this ?
-```
----
-
-     
- 
-all -  [ Role Based Access Control ](https://www.reddit.com/r/LangChain/comments/1ghqoza/role_based_access_control/) , 2024-11-05-0912
-```
-Hey guys I'm currently working on developing a RAG application with 100 documents however, these documents should be spl
-it based on user. For example a CEO would have access to all 100 documents whereas a junior would have access to 5 docum
-ents. Has anyone done that or have any idea how to do it? I do have a normal RAG app connected to postgres with fastapi 
-integration but I'm not sure how to implement role based access control (RBAC)
-```
----
-
-     
- 
-all -  [ Did something happen with LangChain Discord server or was I kicked? ](https://www.reddit.com/r/LangChain/comments/1ghnlif/did_something_happen_with_langchain_discord/) , 2024-11-05-0912
-```
-I was in the server for more than a year and was occasionally asking questions about various LangChain products (almost 
-never got an answer though) and today I found out I don't see LangChain server in my discord. Why is that?
-```
----
-
-     
- 
-all -  [ Langchain salaries ](https://www.reddit.com/r/LangChain/comments/1ghmzge/langchain_salaries/) , 2024-11-05-0912
-```
-Anyone here know how much langchain is paying software and solution engineers these days ? 
-```
----
-
-     
- 
-all -  [ Created LangGraph-ui-sdk package to create Chatbot out of the box ](https://www.reddit.com/r/LangChain/comments/1ghkgvf/created_langgraphuisdk_package_to_create_chatbot/) , 2024-11-05-0912
-```
-Hey guys,
-
-I did a library on top of assistant-ui to have User-Interface SDK for any  Javascript/Typescript project. by 
-a single function call it creates the chatbot chat. works also
-
-[npm package](https://www.npmjs.com/package/langgraph-ui
--sdk) | [GitHub repository](https://github.com/AmrAnwar/LangGraph-UI-SDK)
-If you plan on using it in the future please s
-tart the repository so I could be aware to continue improving it.
-
-I'm thinking about improving it in the future by buil
-ding the chatbot component from scratch to reduce the library size and add more features to the chat like human in the l
-oop and themes.
-
-I understand not everyone likes those approaches but thought might be helpful for someone
-```
----
-
-     
- 
-all -  [ Best tools for building KBs from email archives ](https://www.reddit.com/r/LangChain/comments/1ghkc0t/best_tools_for_building_kbs_from_email_archives/) , 2024-11-05-0912
-```
-I’m working on a bot for sales/customer support and need to build knowledge bases from existing email archives to RAG ov
-er.  While I know there are many low level tools to help extract, filter, and structure the knowledge for efficient retr
-ieval, I’m wondering if there are any good purpose built end to end solutions I can leverage instead of rolling my own. 
-Ideally the solution would support continuous updating, but that’s not a strict requirement. Would much appreciate any a
-dvice for this endeavor.
-```
----
-
-     
- 
-all -  [ I was super frustated with langchain's pile of unnecessary abstractions, so I created something new ](https://www.reddit.com/r/LangChain/comments/1ghglbs/i_was_super_frustated_with_langchains_pile_of/) , 2024-11-05-0912
-```
-**Has anyone else been frustated writing and debugging langchain code?** There are so many classes and abstractions that
- don't seem to add much value. As a result, what really happens behind the curtains feel quite opaque. For me having low
--level control is very important. 
-
-So I just published this open-source framework [**GenSphere**](https://github.com/oc
-topus2023-inc/gensphere)**.** You build LLM applications with yaml files, that define an execution graph. Nodes can be e
-ither LLM API calls, regular function executions or other graphs themselves. Because you can nest graphs easily, buildin
-g complex applications is not an issue, but at the same time you don't lose control. 
-
-There is also this Hub that you c
-an push and pull projects from, so it becomes easy to share what you build and leverage from the community.
-
-Its all ope
-n-source. Would love to get your thoughts. Pls reach out or join the [discord server](https://discord.gg/DZFWMXJv) if yo
-u want to contribute.
-```
----
-
-     
- 
-all -  [ Autonomous Dynamic Graph Creation ](https://www.reddit.com/r/LangChain/comments/1ghf7df/autonomous_dynamic_graph_creation/) , 2024-11-05-0912
-```
-Has anyone experimented with creating a planner agent that dynamically creates graphs to carry out complex tasks?  
-I've
- built an agentic framework from scratch where each agents each hold specific personas and sets of tools and collaborate
- in a centralized conversation with the user.  
-Each message received by an agent triggers an sort of 'internal monologu
-e' which implements the ReAct framework.
-
-But I've noticed that without clear directions, planning, and tasks assignment
-s, the agent team really struggles to carry out complex tasks.
-
-So I was thinking: it'd be great to implement a sort of 
-plan-execute pattern with a planning agent. Ideally it would even create a LangGraph Graph.  
-Models would even be train
-ed on planning, kind of like how o1-preview has been trained on chain of thoughts.
-
-Any thoughts? Anyone has experimente
-d with this?  
-Cheers!
-```
----
-
-     
- 
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1ghedzm/list_of_free_and_best_selling_discounted_courses/) , 2024-11-05-0912
-```
-# Udemy Free Courses for 02 November 2024
-
-Note : Coupons might expire anytime, so enroll as soon as possible to get the
- courses for FREE.
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22077/)[ASP.NET](http://ASP.NET) MVC Complete Gu
-ide using .NET Core \[.NET8 Updated\]
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22076/)Become a professional i
-nterior designer using sketch up pro
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22075/)How To Make Money Everyd
-ay Using AI ChatGPT /Fiverr.
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22074/)Grow your Facebook page organica
-lly 5000 follower in a week
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22073/)AutoCAD 2D Floor Plan From Beginn
-er To Advanced Level.
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22072/)Complete Data Analyst Bootcamp From Bas
-ics To Advanced
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22071/)Mastering Figma from 0 to 100 (UI/UX Mastery 
-Course)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22070/)Elearning 2024: Create & Sell Online Courses
-* [REDEE
-M OFFER ](https://idownloadcoupon.com/udemy/22069/)All in One Pure Practical Social Media Marketing Course
-* [REDEEM OFF
-ER ](https://idownloadcoupon.com/udemy/22068/)Mathematics-Basics to Advanced for Data Science And GenAI
-* [REDEEM OFFER 
-](https://idownloadcoupon.com/udemy/22067/)Complete Data Science,Machine Learning,DL,NLP Bootcamp
-* [REDEEM OFFER ](http
-s://idownloadcoupon.com/udemy/22066/)Complete MLOps Bootcamp With 10+ End To End ML Projects
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/22065/)Complete Generative AI Course With Langchain and Huggingface
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/22064/)Building Gen AI App 12+ Hands-on Projects with Gemini Pro
-* [REDEEM OFFER ](https://idow
-nloadcoupon.com/udemy/22063/)Beginner Affiliate Marketing To Start In 1 Day – 2024
-* [REDEEM OFFER ](https://idownloadco
-upon.com/udemy/22062/)Fiverr Freelancing 2024: Sell Like The Top 1%
-* Create (Artificial Intelligence) AI VIDEOS WITH ZE
-RO FILMING
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22061/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udem
-y/22060/)Linux A to Z 2025: Secure Your Dream IT Job with Confidence
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
-/22059/)\[NEW\] Ultimate AWS Certified AI Practitioner AIF-C01
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22058
-/)Red Teaming | Exploit Development with Assembly and C |MSAC+
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22057
-/)Practical Cisco Networking Labs in Cisco Packet Tracer
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22056/)Comp
-uter Networks Fundamentals
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22055/)IP Addressing and Subnetting – Zer
-o to Hero
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22054/)Information Security Fundamentals
-* [REDEEM OFFER ]
-(https://idownloadcoupon.com/udemy/22053/)JN0-664: Juniper Network Professional Security Practice 2024
-* [REDEEM OFFER ]
-(https://idownloadcoupon.com/udemy/22052/)Professional Diploma in CRM Platforms Management
-* [REDEEM OFFER ](https://ido
-wnloadcoupon.com/udemy/22051/)JavaScript Coding Interview Questions \[with SOLUTIONS\]
-* [REDEEM OFFER ](https://idownlo
-adcoupon.com/udemy/22050/)Essential Microsoft Excel from Beginner to Advance level
-* [REDEEM OFFER ](https://idownloadco
-upon.com/udemy/22049/)Android Training & Certification – 49 Projects
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
-/22048/)iOS 11 Mobile Development and Certification – iPhone & iPad
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
-22047/)Wireshark Ninja | Mastering Real Wireshark PROALL|2023WSHRK+
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
-22046/)Mastering Network Security: Defending Against Cyber Threats
-* Facebook Ads Marketing – Start Lead Generation Busi
-ness 2023
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22045/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
-/22044/)6 Practice Tests – AWS Certified Architect Professional
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2204
-3/)Capcut Ninja: Mastering Video Editing Basics to Advanced
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22042/)J
-ava Network Programming – Mastering TCP/IP : CJNP+ JAVA+
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22041/)Crim
-inology and Criminal Psychology | Certified CSI+ Course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22040/)The C
-omplete Photoshop Masterclass: From 0 to Hero
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22039/)Passive Income 
-By Making Udmy Courses 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22038/)Build Shopify store & Run Faceboo
-k Page Likes Ad In 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22037/)Configuración y Optimizacion de tu Pá
-gina de Facebook 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22036/)Register Company in UK Get paypal & Str
-ipe Business Hindi
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22035/)Facebook Conversions Ads Marketing For Sel
-ling Products 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22034/)Facebook Ads And Marketing – Lead Generati
-on Pro
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22033/)Google Adwords Crash Course 2023
-* [REDEEM OFFER ](htt
-ps://idownloadcoupon.com/udemy/22032/)Run Search Ad In Google Ads & Easy SEO For Beginners-2023
-* [REDEEM OFFER ](https:
-//idownloadcoupon.com/udemy/22031/)Facebook Ads Marketing For Events Organic & Paid Strategy
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/22030/)Facebook Ads Lead Generation Marketing for business
-* Digital Marketing Business With Go
-ogle My Business
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22029/)
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/22028/)Facebook Ads & Facebook Marketing Funnel Crash Course- 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com
-/udemy/22027/)Run Digital Marketing Ad Using Google Adwords Express
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
-22026/)Facebook Ads Google My Business & Google Ads (Adwords) 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2
-2025/)Facebook Marketing & Facebook Ads Course For Beginners 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22
-024/)Facebook Ads Marketing Crash Course Traffic & leads – 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2202
-3/)Google Ads And Tiktok Ads Crash Course (Hindi/ Urdu)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22022/)How T
-o Edit Viral Shorts In CapCut
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22021/)Tiktok Marketing & Shopify Ecom
-merce store (hindi/urdu)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22020/)Color Theory: Learn The Art and Scie
-nce of Colors
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22019/)Ultimate Photoshop Mock-Up Creation Course
-* [R
-EDEEM OFFER ](https://idownloadcoupon.com/udemy/22018/)Digital Marketing Business Online For Free Social Media
-* [REDEEM
- OFFER ](https://idownloadcoupon.com/udemy/22017/)Canva Design Crash Course
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/22016/)Secret Facebook Ads Targeting Pro Stratigies 2023 In Hindi
-* [REDEEM OFFER ](https://idownloadcoupon.com/
-udemy/22015/)Design Principles, Typography & Color Theory in 1 MegaCourse
-* [REDEEM OFFER ](https://idownloadcoupon.com/
-udemy/22014/)Facebook Marketing + Whatsapp Ads (CASE STUDY) Hindi 2023
-* Google Ads Mastery\~ Beginner To Pro \~ HINDI/U
-RDU 2023
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22013/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
-22012/)Tiktok Ads marketing Crash Course For Beginners (Hindi/Urdu)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
-22011/)Facebook Pixel Tracking Shopify \~ Apple iOS14 \~ Ecommerce
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2
-2010/)Como crear y configurar tu canal de Youtube desde cero 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22
-009/)Product Hunting for Dropshipping stores
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22008/)Get 10,000 faceb
-ook page followers at cheap Hindi
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22007/)Learn Camtasia Video Editin
-g Masterclass Professional
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22006/)Facebook Ads & Ecommerce Easy Cour
-se 2023 Hindi
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22005/)Easy Instagram Marketing In Hindi
-* [REDEEM OFF
-ER ](https://idownloadcoupon.com/udemy/22004/)Facebook Ads Marketing In Hindi/Urdu 2023
-* [REDEEM OFFER ](https://idownl
-oadcoupon.com/udemy/22003/)The Complete Illustrator Masterclass: From 0 to Hero
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/22002/)Building a shopify store and CJ dropshipping
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2200
-1/)Marketing en Facebook Ads – Leads /Clientes Potenciales 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2200
-0/)Facebook Ads Marketing Targeting Strategies \~Hindi 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21999/)F
-acebook Ads Targeting Strategies For Success Fast 2023
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21998/)Get Fo
-llowers And engagement with Facebook Ads (easy mode)
-* Estrategias Pro de Targeting de Audiencia con Facebook Ads
-* [RED
-EEM OFFER](https://idownloadcoupon.com/udemy/21997/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21996/)CSS Fund
-amentals: Comprehensive Training for Web Developers
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21995/)GRE Maste
-ry: 5 Comprehensive Practice Tests
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21994/)DEA-1TT4: Dell EMC Associa
-te Practice test 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21993/)Seo Training Masterclass 2024 : Beginne
-r to Advance Startegy
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21992/)Professional Diploma in Office Administ
-ration Management
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21991/)DES-1423: Dell EMC Specialist Isilon Soluti
-on Practice test
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21990/)DES-1D12: Dell EMC Specialist – Midrange Sto
-rage Solutions
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21989/)DES-6322: Dell EMC Specialist VxRail Appliance
- Practice test
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21988/)C1000-010: IBM Cloud Pak for Data v4.x Practic
-e test 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21987/)E20-555: Dell EMC Isilon Solution and Design Spec
-ialist Exam
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21986/)E20-393: Dell EMC Unity Solution Specialist Pract
-ice test 24
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21985/)DEA-41T1: Dell EMC PowerEdge Associate Practice t
-est 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21984/)5V0-22.23: VMware Certified Professional – VMware vS
-AN 8.x
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21983/)Professional Diploma in Digital Products Management
-* 
-[REDEEM OFFER ](https://idownloadcoupon.com/udemy/21982/)Hands-On Python Machine Learning with Real World Projects
-* How
- neuromarketing can influence buying behavior
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/21981/)
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/21980/)The Complete Growth Mindset Course – The Mindset for Success
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/21979/)Home Workout Habits in 10 Min – Fitness for Busy-Lazy People
-* [REDEEM OFFER
- ](https://idownloadcoupon.com/udemy/21978/)The Complete Talking Head Video Production Masterclass
-* [REDEEM OFFER ](htt
-ps://idownloadcoupon.com/udemy/21977/)Unlocking the Power of Relative Clauses in English language
-* [REDEEM OFFER ](http
-s://idownloadcoupon.com/udemy/21976/)Body Language in the Workplace
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
-21975/)Persuasion in Business Communications
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21974/)Laravel 10 Essen
-tials: User Roles & Permissions with Spatie
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21973/)HTML5 Certificati
-on Prep: Comprehensive Practice Tests
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21972/)Bootstrap Mastery: Buil
-d Responsive Websites Like a Pro
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21971/)Complete jQuery Masterclass:
- From Beginner to Expert
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21970/)JavaScript Mastery From Basics to Ad
-vanced
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21969/)ChatGPT Mastery: From Creative Writing to Coding Solut
-ions
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21968/)CSS3 Certification Prep: Comprehensive Practice Tests
-* 
-[REDEEM OFFER ](https://idownloadcoupon.com/udemy/21967/)Dart Mastery – Become a Dart Master From Zero to Hero
-* [REDEEM
- OFFER ](https://idownloadcoupon.com/udemy/21966/)HTML5 CSS3 and JavaScript for Beginners: From Zero to Hero
-* Mastering
- Postman: A Comprehensive API Testing Course
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/21965/)
-* [REDEEM OFFER 
-](https://idownloadcoupon.com/udemy/21964/)Laravel and Postman Rest API Development: Beginner to Pro
-* [REDEEM OFFER ](h
-ttps://idownloadcoupon.com/udemy/21963/)Wealth Creation Blueprint: From 9 to 5 to Financial Freedom
-* [REDEEM OFFER ](ht
-tps://idownloadcoupon.com/udemy/21962/)Frontend Web Development HTML5 CSS3 JavaScript and Bootstrap
-* [REDEEM OFFER ](ht
-tps://idownloadcoupon.com/udemy/21961/)cPanel Essentials: Mastering Web Hosting Management
-* [REDEEM OFFER ](https://ido
-wnloadcoupon.com/udemy/21960/)HTML5 CSS3 JavaScript Bootstrap and Jquery Masterclass
-* [REDEEM OFFER ](https://idownload
-coupon.com/udemy/21959/)Public Speaking Skills: Give a Great Informational Speech
-* [REDEEM OFFER ](https://idownloadcou
-pon.com/udemy/21958/)Dart and Flutter: The Ultimate Mobile App Development Course
-* [REDEEM OFFER ](https://idownloadcou
-pon.com/udemy/21957/)HTML and CSS for Web Designers: From Basics to Beautiful
-* [REDEEM OFFER ](https://idownloadcoupon.
-com/udemy/21956/)Sales Skills Training: Free Sales Generation Seminars
-* [REDEEM OFFER ](https://idownloadcoupon.com/ude
-my/21955/)Presentation Skills -Deliver an Excellent Ceremonial Speech
-* [REDEEM OFFER ](https://idownloadcoupon.com/udem
-y/21954/)Public Speaking: Speak Like a High-Powered Executive
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21953/
-)Complete Good Sleep Habits Course – Sleep Better Tonight!
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21952/)Co
-mplete Willpower Course – Build Self Control & Good Habits
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21951/)Pe
-rsuasion: Give a Persuasive Presentation
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/21950/)The Complete Virtual
- Sales Presentation Course Sales Skills
-
-GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloadc
-oupon.com/)
-```
----
-
-     
- 
-all -  [ Autogen needs improvement. How no one felt the need for call back function ](https://www.reddit.com/r/LangChain/comments/1ghcvi5/autogen_needs_improvement_how_no_one_felt_the/) , 2024-11-05-0912
-```
-I know this is langchain subreddit but thought to discuss here as most agent developers are there..
-
-I have been playing
- with autogen for few hours to understand.
-I immediately felt two needs,
-Suppose there are two agents, writer and review
-er. 
-The termination condition is when reviewer gives it rating of 8 or more.
-My need is execution of certain functions 
-when this terminal condition is met, currently what i found is only way is custom implementation.
-Second, 
-For human in 
-the loop, I don't want my user to enter prompt via terminal, I need it to be through WhatsApp message or some slack inte
-gration. How do I do this?
-
-Suggestions are welcomed. Or any other framework with these features.. 
-```
----
-
-     
- 
-all -  [ Integrating External REST API LLM Calls with LangGraph ](https://www.reddit.com/r/LangChain/comments/1ghc5pg/integrating_external_rest_api_llm_calls_with/) , 2024-11-05-0912
-```
-
-I'm working on implementing an agent system using LangGraph, but with a twist - my LLM calls need to go through a REST 
-API service instead of using direct LLM integrations.
-
-- Using LangGraph for agent orchestration
-- Need to make LLM call
-s via REST API endpoints
-- Looking to build a custom agent that works with this architecture
-
-1. Is it possible to integ
-rate external REST API calls for LLM interactions within the LangGraph framework?
-2. Are there any examples or best prac
-tices for creating custom agents that use HTTP requests instead of direct LLM integrations?
-3. What would be the recomme
-nded approach to handle asynchronous REST API calls in this context?
-
-## Technical Details Needed
-- Best way to wrap RES
-T API calls within LangGraph's expected interfaces
-- How to handle authentication and session management
-- Proper error 
-handling and retry mechanisms
-- State management considerations
-
-Any guidance, examples, or pointers to relevant documen
-tation would be greatly appreciated. Thank you!
-```
----
-
-     
- 
-all -  [ Fuzzy matching medical terminology using AI ](https://www.reddit.com/r/learnprogramming/comments/1ghb3ei/fuzzy_matching_medical_terminology_using_ai/) , 2024-11-05-0912
-```
-Have a txt file with 2 columns, description and corresponding code. Need help intelligently matching user inputted free-
-form text to the description, and returning the corresponding code.
-
-
-
-Background:
-
-I am building a medical pricing webs
-ite. The user inputs free form text (à la Google) describing the condition and receives pricing at local hospitals.
-
-Med
-ical billing is a labyrinth, separated into inpatient and outpatient services and diagnosis codes. A diagnosis code (ICD
-10) will usually translate into an inpatient code (DRG), but not always. Other times, ICD10 codes will translate to the 
-wrong DRG code. 
-
-I have been using a forward searching approach, searching first for the ICD10 code and translating it 
-to a DRG. As an example, a search for 'heart transplant' yields the ICD10 code Z94.1 which corresponds to DRGs 314-316 (
-'Other Circulatory System Diagnoses'). In fact, DRGs 001 and 002 ('Heart Transplant') are more correct, but do not have 
-a corresponding ICD10 code. 
-
-[CMS.gov](http://CMS.gov) has appendices that list exactly which ICD10 corresponds with wh
-ich DRG as well as DRG numbers and descriptions. Not all DRGs have a corresponding ICD10 code, so **I will have to match
- the user-inputted free form text to DRGs directly.**
-
-
-
-Things I have explored:
-
-String matching using Jaccard Distance
-/ Levenshtein Distance/ Jaro-Winkler: not the best since most laypeople will not know the exact medical terminology ('sn
-oring' symptom vs 'sleep apnea' medical term)
-
-Zero-shot approach with Gemini and OpenAI. Both AIs will hallucinate and 
-return the wrong DRGs. 
-
-* Fine tuning: OpenAI, Gemini, and Llama3.2 both require a question and answer dataset, best if
- 50 examples per classification (DRG code). This is... not easy and probably not going to be very accurate. Hard to gues
-s what a user might input in free form text.
-* Corpus of documents for Retrieval Augmented Generation (RAG): LangChain V
-ectara, Gemini, Vertex AI for RAG: This is a promising option but examples on the [Vectara](https://python.langchain.com
-/v0.1/docs/integrations/providers/vectara/vectara_summary/) site show that this approach is better for summarizing, or r
-etrieving relevant 'chunks', than strict regurgitation.
-* Vertex AI for tabular data: similar challenges with providing 
-examples for fine tuning
-* QLoRA/ LoRA: probably much more technically oriented and more than I need, also increased har
-dware requirements.
-
-Giving OpenAI/ Gemini a complete list of all the DRG descriptions with each prompt, asking the AI t
-o match with the appropriate entry. This would use a large number of tokens ($) for every prompt. Is there a way to keep
- this in memory? Is that what the Corpus is? If I provide a text file as a document in the Corpus, is the AI smart enoug
-h to match the user input to the DRG description in the file and return the corresponding DRG code in the file in a diff
-erent column?
-```
----
-
-     
- 
-all -  [ Tools / guidance  ](https://www.reddit.com/r/LocalLLM/comments/1gha8gy/tools_guidance/) , 2024-11-05-0912
-```
-I want to create a model that analyzes specific books I've selected about coding and other related topics. My goal is fo
-r this model to help integrate new features into the app, acting as a consultant by leveraging the knowledge from these 
-books as well as the app's source code that I provide. I've already developed a basic model using LangChain and LLaMA th
-at retrieves answers from the books, but I’m unsure how to proceed from this point. What steps should I take next to enh
-ance this model? 
-```
----
-
-     
- 
-deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-05-0912
+deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-06-0912
 ```
 I am a full stack python developer who do web dev in django
 
