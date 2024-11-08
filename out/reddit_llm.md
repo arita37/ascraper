@@ -1,5 +1,711 @@
  
-all -  [ Community-driven development of LLM applications — interesting, wdyt? ](https://medium.com/@gensphere/community-driven-development-of-llm-applications-introducing-gensphere-182fd2a70e3e) , 2024-11-07-0912
+all -  [ New on langchain, any good youtube channel or course? ](https://www.reddit.com/r/LangChain/comments/1gm51vl/new_on_langchain_any_good_youtube_channel_or/) , 2024-11-08-0912
+```
+Hi, everyone! I'm new on langchain, any advice for content or a good course?
+```
+---
+
+     
+ 
+all -  [ How to Ensure Highly Relevant Search Results in Qdrant VectorStore with Metadata and Similarity Filt ](https://www.reddit.com/r/LangChain/comments/1gm4ebl/how_to_ensure_highly_relevant_search_results_in/) , 2024-11-08-0912
+```
+I'm working with Qdrant to build a search system for a diverse set of documents. My goal is to retrieve only the most re
+levant results for a given query, avoiding unrelated documents even if they share similar keywords. For example, I have 
+documents on legal cases and documents explaining construction processes, and I want to ensure that a query about a 'cli
+ent process' in the context of a legal case doesn’t bring up results related to construction. I'm also usign langchain t
+o get this results 
+
+I’ve come across the `VectorStoreRetriever` options in Qdrant, which allow configuring search types
+ like `'similarity'`, `'mmr'`, and `'similarity_score_threshold'`. I also see options for `score_threshold`, `k`, and `f
+ilter` that can help refine results.
+
+Here's how I’m currently thinking of setting it up:
+
+* **Set** `search_type` **to*
+* `'similarity_score_threshold'` to ensure only documents with a high relevance score are returned.
+* **Use a** `score_t
+hreshold` to filter out lower-relevance results.
+* `vectorstore.as_retriever( search_type='mmr', search_kwargs={'k': 1, 
+'lambda_mult': 0.25} )`
+
+**My questions:**
+
+1. Is this the best approach for narrowing down search results in Qdrant to 
+ensure relevance and avoid unrelated content?
+2. Any additional tips for optimizing Qdrant’s `VectorStoreRetriever` to h
+andle large, diverse datasets?
+3. Is this actually possible? I understand that my answer remains unchanged and coherent,
+ but the incorrect metadata still appears. If I need to use this metadata as a reference, it could cause confusion.
+
+Tha
+nks in advance for any guidance or recommendations!
+```
+---
+
+     
+ 
+all -  [ Tutorial on building agent with memory using Letta  ](https://www.reddit.com/r/AI_Agents/comments/1glzob6/tutorial_on_building_agent_with_memory_using_letta/) , 2024-11-08-0912
+```
+Hi all - I'm one of the creators of [Letta](https://github.com/letta-ai/letta), an agents framework focused on memory, a
+nd we just released a free short [course](https://www.deeplearning.ai/short-courses/llms-as-operating-systems-agent-memo
+ry/) with Andrew Ng. The course covers both the memory management research (e.g. MemGPT) behind Letta, as well as an int
+roduction to using the OSS agents framework. 
+
+  
+Unlike other frameworks, Letta is very focused on persistence and havi
+ng 'agents-as-a-service'. This means that all state (including messages, tools, memory, etc.) is all persisted in a DB. 
+So all agent state is essentially automatically save across sessions (and even if you re-start the server). We also have
+ an ADE (Agent Development Environment) to easily view and iterate on your agent design. 
+
+  
+I've seen a lot of people 
+posting here about using agent framework like Langchain, CrewAI, etc. -- we haven't marketed that much in general but th
+ought the course might be interesting to people here! 
+```
+---
+
+     
+ 
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1glziro/list_of_free_and_best_selling_discounted_courses/) , 2024-11-08-0912
+```
+# Udemy Free Courses for 08 November 2024
+
+Note : Coupons might expire anytime, so enroll as soon as possible to get the
+ courses for FREE.
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23018/)Mastering AWS Serverless: Hands-On with C
+ore AWS Services
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23017/)Ultimate Product Management Course: Build, L
+aunch, Succeed
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23016/)Investing & Options: From Basics to Mastery
+* 
+[REDEEM OFFER ](https://idownloadcoupon.com/udemy/23015/)Instagram Marketing. How to Promote Your Business!
+* [REDEEM OF
+FER ](https://idownloadcoupon.com/udemy/23014/)SEO Strategy 2024. SEO training to Unleash Career Potential!
+* [REDEEM OF
+FER ](https://idownloadcoupon.com/udemy/23013/)Google Analytics 4 (GA4) Certification. How to Pass the Exam
+* [REDEEM OF
+FER ](https://idownloadcoupon.com/udemy/23012/)Professional Diploma in Agile Product Management
+* [REDEEM OFFER ](https:
+//idownloadcoupon.com/udemy/23011/)Python And Flask Framework Complete Course
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/23010/)Automated Machine Learning for Beginners (Google & Apple)
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/23009/)Machine Learning Practice Tests and Interview Questions
+* [REDEEM OFFER ](https://idownloadcoupon.com/udem
+y/23008/)Basics of Cloud Computing | Fundamentals of Cloud Computing
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/23007/)Financial Modeling on Excel Complete finance course on Excel
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/23006/)ChatGPT ve Yapay Zeka: kapsamlı yapay zeka eğitimi
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23005/)Un
+derstanding Satellites & Their Applications
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23004/)Entrepreneurship 
+and Business Motivation
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23003/)CFEH – Fundamentos del Ethical Hackin
+g – ExorciseThat
+* The Complete Java Course: From Basics to Advanced
+* [REDEEM OFFER](https://idownloadcoupon.com/udemy/
+23002/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23001/)Presentaciones Profesionales con PowerPoint Asistido 
+por IA
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23000/)Sistema para inventarios con REACT – NIVEL INTERMEDIO
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22999/)Ada369 2.0 – Facturación electrónica en C# – Perú – UBL 2.1
+*
+ [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22998/)Node.js y Express: De Cero a implementar PAYPAL
+* [REDEEM OFFE
+R ](https://idownloadcoupon.com/udemy/22997/)Domina Zustand y Tanstack: Guía Completa de Estados en React
+* [REDEEM OFFE
+R ](https://idownloadcoupon.com/udemy/22996/)Crea tu propio PayPal desde cero con Django y React Native
+* [REDEEM OFFER 
+](https://idownloadcoupon.com/udemy/22995/)Aprende como crear aplicaciones con .NET MAUI SQL y Azure
+* [REDEEM OFFER ](h
+ttps://idownloadcoupon.com/udemy/22994/)GPTs: Customized version of ChatGPT for Professional Use
+* [REDEEM OFFER ](https
+://idownloadcoupon.com/udemy/22993/)Zero to Hero in Ollama: Create Local LLM Applications
+* [REDEEM OFFER ](https://idow
+nloadcoupon.com/udemy/22992/)Zero to Hero in LangChain: Build GenAI apps using LangChain
+* [REDEEM OFFER ](https://idown
+loadcoupon.com/udemy/22991/)Quantization for GenAI Models
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22990/)MLO
+ps with AWS – Bootcamp – Zero to Hero Series
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22989/)NVIDIA-Certified
+ Associate – Generative AI LLMs (NCA-GENL)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22988/)German C1.1 – Adva
+nced Competence Level
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22987/)German C1.2 – Effective Proficiency of 
+the German Language
+* Learn German IT Language – Computer, Internet & More!
+* [REDEEM OFFER](https://idownloadcoupon.com
+/udemy/22986/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22985/)German Language B2 – Upper Intermediate German
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22984/)German Language A1 – Learn German with short stories
+* [REDE
+EM OFFER ](https://idownloadcoupon.com/udemy/22983/)AWS Certified AI Practitioner AIF-C01 Updated
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22982/)German Language A2 – German For Advanced Beginners
+* [REDEEM OFFER ](https://idownl
+oadcoupon.com/udemy/22981/)German Language A2 – Exam Preparatory Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/ud
+emy/22980/)Java Spring Boot: Professional eCommerce Project Masterclass
+* [REDEEM OFFER ](https://idownloadcoupon.com/ud
+emy/22979/)Master SOLID Principles \[Arabic\]
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22978/)CMRP Exam Full 
+Preparation Course + Full Mock Exam (110 Q&A)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22977/)Sıfırdan Sona J
+ava 2024 (Azərbaycan Dilində) Tövsiyyə olunan
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22976/)Design Microser
+vices Architecture with Patterns & Principles
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22975/)Desarrollo Web 
+Full Stack JS: HTML, CSS, Bootstrap, JS, Node
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22974/)Complete Data A
+nalyst Bootcamp From Basics To Advanced
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22973/)Spring Boot Testing w
+ith JUnit 5, Mockito & Testcontainers
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22972/)Build 5 Spring Boot Pro
+jects with Java: Line-by-Line Coding
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22971/)Essential Excel With Tip
+s Trick Shortcuts and Job Success
+* Guard (Security) Tour Patrol Systems: The Complete Guide
+* [REDEEM OFFER](https://id
+ownloadcoupon.com/udemy/22970/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22969/)Advance MS Excel VBA for Begi
+nner to Advanced
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22968/)Complete MS Office and Web Design Developmen
+t Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22967/)Complete Graphics Design Course for Beginner to Adva
+nced
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22966/)Complete Video Editing Course With Motion Graphics
+* [RE
+DEEM OFFER ](https://idownloadcoupon.com/udemy/22965/)Graphic Design Masterclass: Master Illustrator & Photoshop
+* [REDE
+EM OFFER ](https://idownloadcoupon.com/udemy/22964/)Google Professional Cloud Security Engineer Exam Questions
+* [REDEEM
+ OFFER ](https://idownloadcoupon.com/udemy/22963/)Manual Testing Practice Exam Prepare for Your QA Certificate
+* [REDEEM
+ OFFER ](https://idownloadcoupon.com/udemy/22962/)Professional Diploma in WEB3 NFT and NFT Smart Contracts
+* [REDEEM OFF
+ER ](https://idownloadcoupon.com/udemy/22961/)R for Researchers: From Basics to Advanced Analysis
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22960/)Learn Microsoft Power BI in Microsoft Fabric – 2 in 1 Course
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22959/)Natural Language Processing NLP Practice Tests – Basic/Adv
+* [REDEEM OFFER ](https:
+//idownloadcoupon.com/udemy/22958/)Power Pages – A Complete Guide to Microsoft Power Pages
+* [REDEEM OFFER ](https://ido
+wnloadcoupon.com/udemy/22957/)Kanban+Agile Kanban Productivity & Efficiency+Agile Scrum
+* [REDEEM OFFER ](https://idownl
+oadcoupon.com/udemy/22956/)Project Management Professional (PMP)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/229
+55/)Emergency Teen Discipline Toolkit
+* No-Code Machine Learning Using Amazon AWS SageMaker Canvas
+* [REDEEM OFFER](http
+s://idownloadcoupon.com/udemy/22954/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22953/)Securing Your Bitcoin
+*
+ [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22952/)Executive Diploma in Strategy and Innovation
+* [REDEEM OFFER ]
+(https://idownloadcoupon.com/udemy/22951/)Figma Essential for User Interface and User Experience UI UX
+* [REDEEM OFFER ]
+(https://idownloadcoupon.com/udemy/22950/)Unlock Excel’s Power: Essential MS Excel Skills for Success
+* [REDEEM OFFER ](
+https://idownloadcoupon.com/udemy/22949/)Microsoft Fabric Masterclass: A Unified Data &Analytics Tool
+* [REDEEM OFFER ](
+https://idownloadcoupon.com/udemy/22948/)Mastering Invideo AI – A Complete Guide to Text-to-Video
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22947/)VMware Certified Advanced Professional – DCV Deploy 2024
+* [REDEEM OFFER ](https://
+idownloadcoupon.com/udemy/22946/)VMware Certified Advanced Professional – DCV Design 2024
+* [REDEEM OFFER ](https://idow
+nloadcoupon.com/udemy/22945/)Senior Executive Business Management and Leadership Program
+* [REDEEM OFFER ](https://idown
+loadcoupon.com/udemy/22944/)Unlocking the Power of ChatGPT in Data Science : A-Z Guide
+* [REDEEM OFFER ](https://idownlo
+adcoupon.com/udemy/22943/)Professional Diploma in Customer Relationship Management CRM
+* [REDEEM OFFER ](https://idownlo
+adcoupon.com/udemy/22942/)Universidad de Elementor Pro, ¡Desde Cero Hasta Experto!
+* [REDEEM OFFER ](https://idownloadco
+upon.com/udemy/22941/)Cómo Crear una Campaña de Email Marketing Efectiva 2024
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/22940/)Plugins de WordPress Para SiteGround
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22939/)Crea un
+ MarketPlace Multi Vendedor con WordPress y Dokan
+* Elementor Hosting 2024: Crea una Tienda Online con WordPress
+* [REDE
+EM OFFER](https://idownloadcoupon.com/udemy/22938/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22937/)Figma to 
+WordPress: Learn to Design and Build Website
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22936/)Voice Training: 
+You Can Speak With Confidence
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22935/)Executive Diploma of Vice Presi
+dent Chief Innovation Officer
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22934/)Getting Started with Raspberry 
+Pi
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22933/)20 Web Projects build 20 HTML, CSS and JavaScript projects
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22932/)50 Days of DSA Python Data Structures Algorithms LEETCODE
+* 
+[REDEEM OFFER ](https://idownloadcoupon.com/udemy/22931/)Cómo Usar el Creador de Sitios Web con IA de Hostinger 2024
+* [
+REDEEM OFFER ](https://idownloadcoupon.com/udemy/22930/)SPLK-1005 – Splunk Cloud Certified Admin Practice Tests
+* [REDEE
+M OFFER ](https://idownloadcoupon.com/udemy/22929/)SAFE NMLS – MLO Exam Prep -500 Practice Questions & Answers
+* [REDEEM
+ OFFER ](https://idownloadcoupon.com/udemy/22928/)PSM I certification – 800 questions 2024
+* [REDEEM OFFER ](https://ido
+wnloadcoupon.com/udemy/22927/)Professional Diploma in Leadership
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/229
+26/)NSE5\_FSM-5.2: Fortinet Network Security Expert Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22
+925/)Microsoft Excel – Excel desde Principiante a Avanzado \[2024\]
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
+22924/)CAS004: CompTIA Adv Security Practitioner Practice Test 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
+22923/)Comprehensive Flutter Development Practice Test: Master Apps
+* JN0-363: Juniper Networks Specialist, Service Prov
+ider Exam
+* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22922/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/22921/)JN0-664: Juniper Network Professional Security Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/22920/)Matlab course for wireless communication engineering
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22919/)
+Advanced Skill Test: Power BI Data Analyst Exam (PL 300)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22918/)Adva
+nced Skill Test: Power BI Data Analyst Exam (PL 300)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22917/)Advanced
+ Skill Test: Python Entry Level Exam (PCEP-30-02)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22916/)Business Pr
+ocess Automation: Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22915/)Business Process Simplificati
+on: Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22914/)Career Change: Become a Paid Expert in What
+ You Love
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22913/)Advanced Skill Test: Power BI Data Analyst Exam (PL
+ 300)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22912/)Advanced Skill Test: Power BI Data Analyst Exam (PL 300
+)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22911/)Advanced Skill Test: Power BI Data Analyst Exam (PL 300)
+* 
+[REDEEM OFFER ](https://idownloadcoupon.com/udemy/22910/)Media Training: You Can Be a Media Trainer
+* [REDEEM OFFER ](ht
+tps://idownloadcoupon.com/udemy/22909/)500-220: Implementing Cisco Business Resiliency 2024
+* [REDEEM OFFER ](https://id
+ownloadcoupon.com/udemy/22908/)300-515: Cisco Service Provider VPN Practice test 2024
+* [REDEEM OFFER ](https://idownloa
+dcoupon.com/udemy/22907/)User Experience Design – Learn UI UX App Design with Figma
+
+GET MORE FREE ONLINE COURSES WITH C
+ERTIFICATE – [CLICK HERE](https://idownloadcoupon.com/)
+```
+---
+
+     
+ 
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1glzid0/list_of_free_and_best_selling_discounted_courses/) , 2024-11-08-0912
+```
+# Udemy Free Courses for 08 November 2024
+
+Note : Coupons might expire anytime, so enroll as soon as possible to get the
+ courses for FREE.
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23018/)Mastering AWS Serverless: Hands-On with C
+ore AWS Services
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23017/)Ultimate Product Management Course: Build, L
+aunch, Succeed
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23016/)Investing & Options: From Basics to Mastery
+* 
+[REDEEM OFFER ](https://idownloadcoupon.com/udemy/23015/)Instagram Marketing. How to Promote Your Business!
+* [REDEEM OF
+FER ](https://idownloadcoupon.com/udemy/23014/)SEO Strategy 2024. SEO training to Unleash Career Potential!
+* [REDEEM OF
+FER ](https://idownloadcoupon.com/udemy/23013/)Google Analytics 4 (GA4) Certification. How to Pass the Exam
+* [REDEEM OF
+FER ](https://idownloadcoupon.com/udemy/23012/)Professional Diploma in Agile Product Management
+* [REDEEM OFFER ](https:
+//idownloadcoupon.com/udemy/23011/)Python And Flask Framework Complete Course
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/23010/)Automated Machine Learning for Beginners (Google & Apple)
+* [REDEEM OFFER ](https://idownloadcoupon.com
+/udemy/23009/)Machine Learning Practice Tests and Interview Questions
+* [REDEEM OFFER ](https://idownloadcoupon.com/udem
+y/23008/)Basics of Cloud Computing | Fundamentals of Cloud Computing
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/23007/)Financial Modeling on Excel Complete finance course on Excel
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/23006/)ChatGPT ve Yapay Zeka: kapsamlı yapay zeka eğitimi
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23005/)Un
+derstanding Satellites & Their Applications
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23004/)Entrepreneurship 
+and Business Motivation
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23003/)CFEH – Fundamentos del Ethical Hackin
+g – ExorciseThat
+* The Complete Java Course: From Basics to Advanced
+* [REDEEM OFFER](https://idownloadcoupon.com/udemy/
+23002/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23001/)Presentaciones Profesionales con PowerPoint Asistido 
+por IA
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/23000/)Sistema para inventarios con REACT – NIVEL INTERMEDIO
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22999/)Ada369 2.0 – Facturación electrónica en C# – Perú – UBL 2.1
+*
+ [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22998/)Node.js y Express: De Cero a implementar PAYPAL
+* [REDEEM OFFE
+R ](https://idownloadcoupon.com/udemy/22997/)Domina Zustand y Tanstack: Guía Completa de Estados en React
+* [REDEEM OFFE
+R ](https://idownloadcoupon.com/udemy/22996/)Crea tu propio PayPal desde cero con Django y React Native
+* [REDEEM OFFER 
+](https://idownloadcoupon.com/udemy/22995/)Aprende como crear aplicaciones con .NET MAUI SQL y Azure
+* [REDEEM OFFER ](h
+ttps://idownloadcoupon.com/udemy/22994/)GPTs: Customized version of ChatGPT for Professional Use
+* [REDEEM OFFER ](https
+://idownloadcoupon.com/udemy/22993/)Zero to Hero in Ollama: Create Local LLM Applications
+* [REDEEM OFFER ](https://idow
+nloadcoupon.com/udemy/22992/)Zero to Hero in LangChain: Build GenAI apps using LangChain
+* [REDEEM OFFER ](https://idown
+loadcoupon.com/udemy/22991/)Quantization for GenAI Models
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22990/)MLO
+ps with AWS – Bootcamp – Zero to Hero Series
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22989/)NVIDIA-Certified
+ Associate – Generative AI LLMs (NCA-GENL)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22988/)German C1.1 – Adva
+nced Competence Level
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22987/)German C1.2 – Effective Proficiency of 
+the German Language
+* Learn German IT Language – Computer, Internet & More!
+* [REDEEM OFFER](https://idownloadcoupon.com
+/udemy/22986/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22985/)German Language B2 – Upper Intermediate German
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22984/)German Language A1 – Learn German with short stories
+* [REDE
+EM OFFER ](https://idownloadcoupon.com/udemy/22983/)AWS Certified AI Practitioner AIF-C01 Updated
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22982/)German Language A2 – German For Advanced Beginners
+* [REDEEM OFFER ](https://idownl
+oadcoupon.com/udemy/22981/)German Language A2 – Exam Preparatory Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/ud
+emy/22980/)Java Spring Boot: Professional eCommerce Project Masterclass
+* [REDEEM OFFER ](https://idownloadcoupon.com/ud
+emy/22979/)Master SOLID Principles \[Arabic\]
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22978/)CMRP Exam Full 
+Preparation Course + Full Mock Exam (110 Q&A)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22977/)Sıfırdan Sona J
+ava 2024 (Azərbaycan Dilində) Tövsiyyə olunan
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22976/)Design Microser
+vices Architecture with Patterns & Principles
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22975/)Desarrollo Web 
+Full Stack JS: HTML, CSS, Bootstrap, JS, Node
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22974/)Complete Data A
+nalyst Bootcamp From Basics To Advanced
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22973/)Spring Boot Testing w
+ith JUnit 5, Mockito & Testcontainers
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22972/)Build 5 Spring Boot Pro
+jects with Java: Line-by-Line Coding
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22971/)Essential Excel With Tip
+s Trick Shortcuts and Job Success
+* Guard (Security) Tour Patrol Systems: The Complete Guide
+* [REDEEM OFFER](https://id
+ownloadcoupon.com/udemy/22970/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22969/)Advance MS Excel VBA for Begi
+nner to Advanced
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22968/)Complete MS Office and Web Design Developmen
+t Course
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22967/)Complete Graphics Design Course for Beginner to Adva
+nced
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22966/)Complete Video Editing Course With Motion Graphics
+* [RE
+DEEM OFFER ](https://idownloadcoupon.com/udemy/22965/)Graphic Design Masterclass: Master Illustrator & Photoshop
+* [REDE
+EM OFFER ](https://idownloadcoupon.com/udemy/22964/)Google Professional Cloud Security Engineer Exam Questions
+* [REDEEM
+ OFFER ](https://idownloadcoupon.com/udemy/22963/)Manual Testing Practice Exam Prepare for Your QA Certificate
+* [REDEEM
+ OFFER ](https://idownloadcoupon.com/udemy/22962/)Professional Diploma in WEB3 NFT and NFT Smart Contracts
+* [REDEEM OFF
+ER ](https://idownloadcoupon.com/udemy/22961/)R for Researchers: From Basics to Advanced Analysis
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22960/)Learn Microsoft Power BI in Microsoft Fabric – 2 in 1 Course
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22959/)Natural Language Processing NLP Practice Tests – Basic/Adv
+* [REDEEM OFFER ](https:
+//idownloadcoupon.com/udemy/22958/)Power Pages – A Complete Guide to Microsoft Power Pages
+* [REDEEM OFFER ](https://ido
+wnloadcoupon.com/udemy/22957/)Kanban+Agile Kanban Productivity & Efficiency+Agile Scrum
+* [REDEEM OFFER ](https://idownl
+oadcoupon.com/udemy/22956/)Project Management Professional (PMP)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/229
+55/)Emergency Teen Discipline Toolkit
+* No-Code Machine Learning Using Amazon AWS SageMaker Canvas
+* [REDEEM OFFER](http
+s://idownloadcoupon.com/udemy/22954/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22953/)Securing Your Bitcoin
+*
+ [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22952/)Executive Diploma in Strategy and Innovation
+* [REDEEM OFFER ]
+(https://idownloadcoupon.com/udemy/22951/)Figma Essential for User Interface and User Experience UI UX
+* [REDEEM OFFER ]
+(https://idownloadcoupon.com/udemy/22950/)Unlock Excel’s Power: Essential MS Excel Skills for Success
+* [REDEEM OFFER ](
+https://idownloadcoupon.com/udemy/22949/)Microsoft Fabric Masterclass: A Unified Data &Analytics Tool
+* [REDEEM OFFER ](
+https://idownloadcoupon.com/udemy/22948/)Mastering Invideo AI – A Complete Guide to Text-to-Video
+* [REDEEM OFFER ](http
+s://idownloadcoupon.com/udemy/22947/)VMware Certified Advanced Professional – DCV Deploy 2024
+* [REDEEM OFFER ](https://
+idownloadcoupon.com/udemy/22946/)VMware Certified Advanced Professional – DCV Design 2024
+* [REDEEM OFFER ](https://idow
+nloadcoupon.com/udemy/22945/)Senior Executive Business Management and Leadership Program
+* [REDEEM OFFER ](https://idown
+loadcoupon.com/udemy/22944/)Unlocking the Power of ChatGPT in Data Science : A-Z Guide
+* [REDEEM OFFER ](https://idownlo
+adcoupon.com/udemy/22943/)Professional Diploma in Customer Relationship Management CRM
+* [REDEEM OFFER ](https://idownlo
+adcoupon.com/udemy/22942/)Universidad de Elementor Pro, ¡Desde Cero Hasta Experto!
+* [REDEEM OFFER ](https://idownloadco
+upon.com/udemy/22941/)Cómo Crear una Campaña de Email Marketing Efectiva 2024
+* [REDEEM OFFER ](https://idownloadcoupon.
+com/udemy/22940/)Plugins de WordPress Para SiteGround
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22939/)Crea un
+ MarketPlace Multi Vendedor con WordPress y Dokan
+* Elementor Hosting 2024: Crea una Tienda Online con WordPress
+* [REDE
+EM OFFER](https://idownloadcoupon.com/udemy/22938/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22937/)Figma to 
+WordPress: Learn to Design and Build Website
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22936/)Voice Training: 
+You Can Speak With Confidence
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22935/)Executive Diploma of Vice Presi
+dent Chief Innovation Officer
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22934/)Getting Started with Raspberry 
+Pi
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22933/)20 Web Projects build 20 HTML, CSS and JavaScript projects
+
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22932/)50 Days of DSA Python Data Structures Algorithms LEETCODE
+* 
+[REDEEM OFFER ](https://idownloadcoupon.com/udemy/22931/)Cómo Usar el Creador de Sitios Web con IA de Hostinger 2024
+* [
+REDEEM OFFER ](https://idownloadcoupon.com/udemy/22930/)SPLK-1005 – Splunk Cloud Certified Admin Practice Tests
+* [REDEE
+M OFFER ](https://idownloadcoupon.com/udemy/22929/)SAFE NMLS – MLO Exam Prep -500 Practice Questions & Answers
+* [REDEEM
+ OFFER ](https://idownloadcoupon.com/udemy/22928/)PSM I certification – 800 questions 2024
+* [REDEEM OFFER ](https://ido
+wnloadcoupon.com/udemy/22927/)Professional Diploma in Leadership
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/229
+26/)NSE5\_FSM-5.2: Fortinet Network Security Expert Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22
+925/)Microsoft Excel – Excel desde Principiante a Avanzado \[2024\]
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
+22924/)CAS004: CompTIA Adv Security Practitioner Practice Test 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
+22923/)Comprehensive Flutter Development Practice Test: Master Apps
+* JN0-363: Juniper Networks Specialist, Service Prov
+ider Exam
+* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22922/)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/22921/)JN0-664: Juniper Network Professional Security Practice 2024
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
+/22920/)Matlab course for wireless communication engineering
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22919/)
+Advanced Skill Test: Power BI Data Analyst Exam (PL 300)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22918/)Adva
+nced Skill Test: Power BI Data Analyst Exam (PL 300)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22917/)Advanced
+ Skill Test: Python Entry Level Exam (PCEP-30-02)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22916/)Business Pr
+ocess Automation: Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22915/)Business Process Simplificati
+on: Certification
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22914/)Career Change: Become a Paid Expert in What
+ You Love
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22913/)Advanced Skill Test: Power BI Data Analyst Exam (PL
+ 300)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22912/)Advanced Skill Test: Power BI Data Analyst Exam (PL 300
+)
+* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22911/)Advanced Skill Test: Power BI Data Analyst Exam (PL 300)
+* 
+[REDEEM OFFER ](https://idownloadcoupon.com/udemy/22910/)Media Training: You Can Be a Media Trainer
+* [REDEEM OFFER ](ht
+tps://idownloadcoupon.com/udemy/22909/)500-220: Implementing Cisco Business Resiliency 2024
+* [REDEEM OFFER ](https://id
+ownloadcoupon.com/udemy/22908/)300-515: Cisco Service Provider VPN Practice test 2024
+* [REDEEM OFFER ](https://idownloa
+dcoupon.com/udemy/22907/)User Experience Design – Learn UI UX App Design with Figma
+
+GET MORE FREE ONLINE COURSES WITH C
+ERTIFICATE – [CLICK HERE](https://www.reddit.com/r/udemyfreeebies/)
+```
+---
+
+     
+ 
+all -  [ Space vs NewLine issues in pdf extractor. ](https://www.reddit.com/r/LangChain/comments/1glza5b/space_vs_newline_issues_in_pdf_extractor/) , 2024-11-08-0912
+```
+Hi Folks,   
+I have a bunch of pdfs that I need to process and build a RAG application (hopefully!). 
+
+I tried several p
+df processors - pdfplumber, pypdf, pymupdf4llm, etc. But noticing a very weird behavior. Somehow, a bullet point with a 
+few spaces is getting converted to a new line.
+
+for e.g - 
+
+'2.     abc',  
+
+in the pdf will get converted to -
+
+'2.
+
+ab
+c' after processing.    
+What am I missing? 
+
+    class PDFProcessor:
+        def __init__(self, pdf_path):
+            
+self.pdf_path = pdf_path
+    
+        def get_text(self):
+            loader = PyMuPDFLoader(self.pdf_path)
+            
+self.data = loader.load()
+            all_page_data = ''
+            for page in self.data:
+                all_page_dat
+a += page.page_content
+    
+    
+            # self.data = pymupdf4llm.to_markdown(self.pdf_path)
+            self.all_p
+age_data = all_page_data
+            return self.data
+
+  
+
+```
+---
+
+     
+ 
+all -  [ Any open source free translation library suggestion (Arabic and Spanish language specially) ](https://www.reddit.com/r/LangChain/comments/1glum8x/any_open_source_free_translation_library/) , 2024-11-08-0912
+```
+I am working on a RAG based application . I wanted to add translation feature in my chatbot that translates the response
+ given by the LLM. I have tried Argotranslate and MarianMT libraries earlier but they were not performing upto the mark.
+
+```
+---
+
+     
+ 
+all -  [ Can you achieve determinstic results in langchain + openai gpt-4o ](https://www.reddit.com/r/LangChain/comments/1glu82k/can_you_achieve_determinstic_results_in_langchain/) , 2024-11-08-0912
+```
+Hey,  
+I am experincing non-determinism while working with gpt-4o through langchain - everything is constant as far as i
+ can tell (seed, temprature, prompt, tool results)   
+  
+I found this [article](https://community.openai.com/t/seed-para
+m-and-reproducible-output-do-not-work/487245) Is it true that you cannot achieve determinism in openai?
+```
+---
+
+     
+ 
+all -  [ How Can I show an image in the Chatbot as a output. ](https://www.reddit.com/r/LangChain/comments/1glu7wn/how_can_i_show_an_image_in_the_chatbot_as_a_output/) , 2024-11-08-0912
+```
+Hi everyone, I have been developing an Customer Chatbot on Langraph. With this chatbot customers can be able to ask ques
+tions about products we sell. And I wonder how can I show an image as output in the chatbot. For example when a customer
+ wants to buy a product using chatbot, before the selling I wanna show the picture of the product to the customer in the
+ chatbot. How can I do that? Any post or documents would be great.
+```
+---
+
+     
+ 
+all -  [ Issues with Chain Customization | LangChain Natural language to SQL Query ](https://www.reddit.com/r/LangChain/comments/1gls1kt/issues_with_chain_customization_langchain_natural/) , 2024-11-08-0912
+```
+I’ve been working on building a LangChain setup that performs a full SQL query process in multiple steps:
+1. Generate SQ
+L Query - Create an SQL query based on the user’s input.
+2. Validate the Query - Prompt the LLM with the original user q
+uestion and database context, and validate the generated query.
+3. Execute the Query - Run the validated query and store
+ the results.
+4. Convert to Natural Language - Take the SQL result and reformat it for a human-readable response.
+
+Howev
+er, I’m running into issues with LangChain’s intermediate steps. Specifically:
+• create_sql_query_chain only seems to ac
+cept “query” as input, but I’d like to pass a custom variable name like unvalidated_query to the validation step.
+• For 
+the validation prompt, it only takes inputs passed to the main invoke() function, so I’m unable to customize input/outpu
+t names at each step.
+
+Here’s the chain I’m trying to build:
+
+‘’’
+validated_query_chain = validation_prompt | llm | StrO
+utputParser()
+
+final_chain = RunnablePassthrough.assign(
+    query=create_sql_query_chain, 
+    validated_query=validate
+d_query_chain,
+    result=execute_query_chain
+) | {
+    'answer': answer_back_to_natural_language_prompt | llm | StrOutp
+utParser(),
+    'query': query,
+    'validated_query': validated_query
+ }
+‘’’
+
+The goal is to have the chain return the 
+initial query, validated query, and final answer in natural language. Any insights on customizing LangChain’s built-in f
+unction names or managing input/output variables for each step?
+```
+---
+
+     
+ 
+all -  [ Customizing LLM templates with YAML configuration files- without altering Python scripts. ](https://www.reddit.com/r/LangChain/comments/1glq66t/customizing_llm_templates_with_yaml_configuration/) , 2024-11-08-0912
+```
+Hey everyone,
+
+I’ve been deploying RAG applications in production, especially when dealing with data sources that freque
+ntly change (like files being added, updated, or deleted by multiple team members).
+
+However, spending time tweaking Pyt
+hon scripts is a hassle. For example, if you have swap a model or change the type of index.
+
+To tackle this, we’ve creat
+ed an open-source repository that provides YAML templates to simplify RAG deployment without the need to modify code eac
+h time. You can check it out here: [llm-app GitHub Repo](https://github.com/pathwaycom/llm-app).
+
+Here’s how it helps:
+
+
+* **Swap components easily**, like switching data sources from local files to SharePoint or Google Drive, changing model
+s, or swapping indexes from a vector index to a hybrid index.
+* **Change parameters in RAG pipelines via readable YAML f
+iles.**
+* **Keep configurations clean and organized**, making it easier to manage and update.
+
+For more details, there’s
+ also a [blog post](https://pathway.com/blog/llm-yaml-templates) and a [detailed guide](https://pathway.com/developers/u
+ser-guide/llm-xpack/yaml-templates) that explain how to customize the templates.
+
+This approach has significantly stream
+lined my workflow.   
+Would love to hear your feedback, experiences or any tips you might have!
+```
+---
+
+     
+ 
+all -  [ Building AI Applications with Enterprise-Grade Security Using FGA and RAG ](https://www.permit.io/blog/building-ai-applications-with-enterprise-grade-security-using-fga-and-rag) , 2024-11-08-0912
 ```
 
 ```
@@ -7,7 +713,173 @@ all -  [ Community-driven development of LLM applications — interesting, wdyt?
 
      
  
-all -  [ People who make langchain based chatbot, how do you make sure it is responsive and replies back in f ](https://www.reddit.com/r/Langchaindev/comments/1gl4o0o/people_who_make_langchain_based_chatbot_how_do/) , 2024-11-07-0912
+all -  [ Does anyone have Cybersecurity related Datasets for llama2 for finetuning? ](https://www.reddit.com/r/LocalLLaMA/comments/1glnk1t/does_anyone_have_cybersecurity_related_datasets/) , 2024-11-08-0912
+```
+Hey there sub!  I have been working on my own LLM workflow with RAG (llamaindex/langchain) in google colab. But I origin
+ally planned to fine-tune llama2-7b-chat with cybersecurity related knowledge base. 
+
+Can anyone recommend any datasets/
+guides to go through the fine-tuning process? Gathering dataset myself is a bit out of option at the moment due to lack 
+of time to finish a project.
+
+  
+Thanks for every help. I have seen a lot of guides but often I'm left more confused tha
+n confident :D 
+```
+---
+
+     
+ 
+all -  [ Sitting at home after graduation. Roast my resume cause I am not getting back interview calls. ](https://i.redd.it/6buqaqvuigzd1.jpeg) , 2024-11-08-0912
+```
+I graduated in June this year and left companies at campus placement in hopes of getting a better package 5 months later
+ I am sitting jobless and getting no calls. Review my resume and help me fix it.
+```
+---
+
+     
+ 
+all -  [ My first LLM with RAG ](https://www.reddit.com/r/LangChain/comments/1glnf0w/my_first_llm_with_rag/) , 2024-11-08-0912
+```
+Hello, I just downloaded Ollama and I only wanna use LLM for fixing the errors my ASR model made. I will use RAG to give
+ information about how to fix those errors, such as terminology etc. I wanna do this as fast as possible so can you give
+ me a repo or tutorial about how to do this? 
+
+The ASR results are in Turkish so I want this LLM to be able to understan
+d and give correct Turkish texts. 
+```
+---
+
+     
+ 
+all -  [ AI Tools for Data Scientists: Which Ones Should You Be Using in 2025? ](https://www.reddit.com/r/AIForDataAnalysis/comments/1glmp1l/ai_tools_for_data_scientists_which_ones_should/) , 2024-11-08-0912
+```
+As we head towards 2025, the AI landscape continues to evolve, offering a range of powerful tools tailored for data scie
+ntists. Whether you're a beginner or a seasoned pro, it’s essential to stay up-to-date with the tools that can make your
+ life easier, your workflows more efficient, and your insights more impactful. Here’s a look at some must-have AI tools 
+for data scientists in 2024:
+
+**1. Jupyter Notebooks**
+
+Still a staple in data science, Jupyter Notebooks are great for 
+experimentation and visualization. With its interactive coding environment, you can document your analysis, share insigh
+ts, and showcase results seamlessly. It’s especially handy for quickly testing code and viewing real-time data visualiza
+tions.
+
+**2. PyTorch and TensorFlow**
+
+For building machine learning and deep learning models, PyTorch and TensorFlow re
+main at the top. PyTorch is known for its flexibility and intuitive design, which is ideal for research and prototyping.
+ TensorFlow, backed by Google, is excellent for production-grade models and has robust support for deployment on mobile 
+and edge devices.
+
+**3. Pandas and Dask**
+
+If you're handling large datasets, Pandas is invaluable for data manipulation
+ and analysis. Dask complements Pandas by enabling parallel processing, allowing you to handle bigger datasets and scale
+ out your computations seamlessly.
+
+**4. SQL-based Tools**
+
+Mastering SQL is essential for data scientists who work with
+ structured data. Tools like BigQuery (for large datasets) and PostgreSQL are popular in 2024. BigQuery's machine learni
+ng capabilities and ease of integration with Google Cloud make it ideal for data scientists who need speed and scalabili
+ty.
+
+**5. Tableau and Power BI**
+
+Visualization is key to communicating data insights effectively. Tableau and Power BI 
+are both powerful options for creating dynamic dashboards and interactive reports that help stakeholders make informed d
+ecisions. These tools offer templates, intuitive drag-and-drop interfaces, and support for real-time data.
+
+**6. AWS Sag
+eMaker and Azure Machine Learning**
+
+Both SageMaker and Azure Machine Learning are great for end-to-end machine learning
+. They allow data scientists to build, train, and deploy models quickly without managing underlying infrastructure. Plus
+, both integrate seamlessly with other cloud resources, making it easier to move from model to production.
+
+**7. DataRob
+ot and** [**H2O.ai**](http://H2O.ai)
+
+Automated machine learning (AutoML) tools like DataRobot and [H2O.ai](http://H2O.a
+i) are reshaping how models are created. These platforms streamline the machine learning process by automating feature e
+ngineering, model selection, and tuning, saving you hours of manual work.
+
+**8. LangChain and Hugging Face Transformers*
+*
+
+For NLP tasks, Hugging Face has become a go-to resource, offering a library of pre-trained models that can be fine-tu
+ned for specific tasks. LangChain has gained popularity for building applications that rely on language models, such as 
+chatbots and RAG systems, making it easier to work with conversational AI.
+
+**9. Alteryx and KNIME**
+
+If you're looking 
+for powerful, no-code/low-code solutions for data analytics, Alteryx and KNIME are top choices in 2024. Both platforms a
+llow for data blending, cleaning, and analytics without needing extensive programming knowledge. They’re excellent for t
+eams that want to leverage AI without investing heavily in coding skills.
+
+**10. Experiment Tracking with MLflow and Wei
+ghts & Biases**
+
+As ML projects grow in complexity, tracking experiments becomes essential. MLflow and Weights & Biases 
+offer robust solutions for tracking model parameters, performance metrics, and dataset versions, making it easier to man
+age experiments and collaborate with other data scientists.
+
+**Conclusion**
+
+The landscape of AI tools is constantly evo
+lving, but staying on top of these powerful resources can make all the difference in your data science projects. Which A
+I tools are your favorites? Are there any you’re excited to try in 2024? Share your thoughts in the comments below!
+```
+---
+
+     
+ 
+all -  [ conversational chat history in prompt ](https://www.reddit.com/r/LangChain/comments/1gllhwz/conversational_chat_history_in_prompt/) , 2024-11-08-0912
+```
+Hi all  
+I am trying out a way to include chat history in the prompt for RAG to maintain previous context.   
+where to p
+lace this chat history in prompt in the begining or at the end of input variables?  
+Does placing this chat history even
+ matter in getting improved responses
+
+I tried out it seems like giving better responses when I place chat history in be
+gining  
+  
+can anyone share their views in this? 
+```
+---
+
+     
+ 
+all -  [ Is it possible to have a streamlit multiselect input with default values that are not present in col ](https://www.reddit.com/r/LangChain/comments/1glku97/is_it_possible_to_have_a_streamlit_multiselect/) , 2024-11-08-0912
+```
+Hi everyone,  
+I’m developing a streamlit app where I want my streamlit multiselect to have default values ( array ) bas
+ed on an LLM call.
+
+But, I’m getting error when one or more element of default array is not present in the options array
+. I know this is streamlit’s characteristic but I want a feature like this. Is there any workaround for my use case ?
+
+W
+orkflow of my app :
+
+User makes an LLM call. LLM returns a JSON . These JSON values get prepopulated in the form. All of
+ the form inputs are of multiselect type and I use ‘default’ array to prepopulate these JSON values, I get ‘options’ arr
+ay of the multiselect by an api call . I get error when one or more element of the default array is not present in the o
+ptions array.
+
+I've posted this in Streamlit community forum and their subreddit but it may take years to get a good rep
+ly. Therefore, reposting here. 
+```
+---
+
+     
+ 
+all -  [ People who make langchain based chatbot, how do you make sure it is responsive and replies back in f ](https://www.reddit.com/r/Langchaindev/comments/1gl4o0o/people_who_make_langchain_based_chatbot_how_do/) , 2024-11-08-0912
 ```
 I’ve built so many langchain based chatbots & one thing that always tips off the clients is the response time. What do y
 ou in such scenarios?
@@ -16,7 +888,7 @@ ou in such scenarios?
 
      
  
-all -  [ Need help regarding some preparation ](https://www.reddit.com/r/LLMDevs/comments/1gl3wtl/need_help_regarding_some_preparation/) , 2024-11-07-0912
+all -  [ Need help regarding some preparation ](https://www.reddit.com/r/LLMDevs/comments/1gl3wtl/need_help_regarding_some_preparation/) , 2024-11-08-0912
 ```
 I have a live coding test (30min) coming up for an AI/ML LLM internship. The internship requires knowledge of python, NL
 P, LLMs, Langchain, Tensorflow, Pytorch, RAG and prompt engineering. I have some knowledge of everything except RAG. 
@@ -31,7 +903,7 @@ Urgent!!!!!
 
      
  
-all -  [ Text-to-Table: Extracting Unstructured Data from a Large Legal Text ](https://www.reddit.com/r/LangChain/comments/1gl3pl7/texttotable_extracting_unstructured_data_from_a/) , 2024-11-07-0912
+all -  [ Text-to-Table: Extracting Unstructured Data from a Large Legal Text ](https://www.reddit.com/r/LangChain/comments/1gl3pl7/texttotable_extracting_unstructured_data_from_a/) , 2024-11-08-0912
 ```
 Hi everyone! I'm working with a lengthy HTML document of about 1,500 pages of legal text, and I need to extract data on 
 items and goods, such as tax rates, to build a structured table.
@@ -52,7 +924,7 @@ Thank you in advance!
 
      
  
-all -  [ Cost effective solutions for talking with your database  ](https://www.reddit.com/r/LangChain/comments/1gl3082/cost_effective_solutions_for_talking_with_your/) , 2024-11-07-0912
+all -  [ Cost effective solutions for talking with your database  ](https://www.reddit.com/r/LangChain/comments/1gl3082/cost_effective_solutions_for_talking_with_your/) , 2024-11-08-0912
 ```
 I am currently working on an application where user can enter his query in natural language and the answer would be gene
 rated basis the results from database. Database is the source of data for answering any queries. 
@@ -74,7 +946,7 @@ erve was generally the top models are the ones that perform reliably for this pa
 
      
  
-all -  [ Dyanmic Data Source ](https://www.reddit.com/r/LangChain/comments/1gl0luf/dyanmic_data_source/) , 2024-11-07-0912
+all -  [ Dyanmic Data Source ](https://www.reddit.com/r/LangChain/comments/1gl0luf/dyanmic_data_source/) , 2024-11-08-0912
 ```
 I want to build a RAG system using data stored in an S3 bucket. The data in this bucket grows by approximately 100 new r
 ecords (PDFs) daily, with each record averaging around 500 words. What would be the best approach to implement a RAG sol
@@ -86,7 +958,7 @@ ution that can handle this continuous data expansion efficiently?
 
      
  
-all -  [ Easiest way to launch paid AI tools/wrappers? ](https://www.reddit.com/r/OpenAI/comments/1gl082q/easiest_way_to_launch_paid_ai_toolswrappers/) , 2024-11-07-0912
+all -  [ Easiest way to launch paid AI tools/wrappers? ](https://www.reddit.com/r/OpenAI/comments/1gl082q/easiest_way_to_launch_paid_ai_toolswrappers/) , 2024-11-08-0912
 ```
 **I want to create a few simple AI tools** (similar to twitterbio.io for example). Basically I get text from the user an
 d based on custom prompts/instructions I give them a list of ideas (text generated with OpenAI API). I might want to acc
@@ -114,7 +986,7 @@ General advice and specific tools are both welcomed ;)
 
      
  
-all -  [ On-Premise GPU Servers vs. Cloud for Agentic AI: Which Is the REAL Money Saver? ](https://www.reddit.com/r/LangChain/comments/1gkzjf2/onpremise_gpu_servers_vs_cloud_for_agentic_ai/) , 2024-11-07-0912
+all -  [ On-Premise GPU Servers vs. Cloud for Agentic AI: Which Is the REAL Money Saver? ](https://www.reddit.com/r/LangChain/comments/1gkzjf2/onpremise_gpu_servers_vs_cloud_for_agentic_ai/) , 2024-11-08-0912
 ```
 I’ve got a pipeline with 5 different agent calls, and I need to scale for at least 50-60 simultaneous users. I’m hosting
  Ollama, using Llama 3.2 90B, Codestral, and some SLM. Data security is a key factor here, which is why I can’t rely on 
@@ -131,7 +1003,7 @@ ould I stick with the cloud? And if on-premise, what are the scaling limitations
 
      
  
-all -  [ Ask me for any AI agent implementation  ](https://i.redd.it/rhjzwluhgazd1.png) , 2024-11-07-0912
+all -  [ Ask me for any AI agent implementation  ](https://i.redd.it/rhjzwluhgazd1.png) , 2024-11-08-0912
 ```
 Imagine you had a genie who could solve any problem you wanted...
 
@@ -160,7 +1032,7 @@ https://www.tensorops.ai/aiagentsonlinehackathon
 
      
  
-all -  [ A Web AI agent framework I'm planning on open sourcing ](https://www.reddit.com/r/OpenAI/comments/1gkytyh/a_web_ai_agent_framework_im_planning_on_open/) , 2024-11-07-0912
+all -  [ A Web AI agent framework I'm planning on open sourcing ](https://www.reddit.com/r/OpenAI/comments/1gkytyh/a_web_ai_agent_framework_im_planning_on_open/) , 2024-11-08-0912
 ```
 Hey! I’ve been building a simple framework called Dendrite for interacting with websites using natural language. Instead
  of having to find brittle css selectors or xpaths you can describe them with natural language.
@@ -186,7 +1058,7 @@ tube.com/watch?v=yChAUerKKxo&feature=youtu.be)
 
      
  
-all -  [ How to chunk effectively on very large pdf file (a book for example) ? ](https://www.reddit.com/r/LangChain/comments/1gkx5kn/how_to_chunk_effectively_on_very_large_pdf_file_a/) , 2024-11-07-0912
+all -  [ How to chunk effectively on very large pdf file (a book for example) ? ](https://www.reddit.com/r/LangChain/comments/1gkx5kn/how_to_chunk_effectively_on_very_large_pdf_file_a/) , 2024-11-08-0912
 ```
 Hi everyone,
 
@@ -207,7 +1079,7 @@ Thanks everyone.
 
      
  
-all -  [ Easiest way to launch paid AI tools/wrappers? ](https://www.reddit.com/r/startups/comments/1gkx0cm/easiest_way_to_launch_paid_ai_toolswrappers/) , 2024-11-07-0912
+all -  [ Easiest way to launch paid AI tools/wrappers? ](https://www.reddit.com/r/startups/comments/1gkx0cm/easiest_way_to_launch_paid_ai_toolswrappers/) , 2024-11-08-0912
 ```
 **I want to create a few simple AI tools** (similar to twitterbio.io for example). Basically I get text from the user an
 d based on custom prompts/instructions I give them ideas (text generated with an AI API). I might want to accept also UR
@@ -235,7 +1107,7 @@ General advice and specific tools are both welcomed ;)
 
      
  
-all -  [ SupabaseVectoreStore ](https://www.reddit.com/r/LangChain/comments/1gkvhjc/supabasevectorestore/) , 2024-11-07-0912
+all -  [ SupabaseVectoreStore ](https://www.reddit.com/r/LangChain/comments/1gkvhjc/supabasevectorestore/) , 2024-11-08-0912
 ```
 Hello , i'm using langchain js along with Supabase,   
 let me give you simple example   
@@ -269,7 +1141,7 @@ worthy to not this is not related to tHe max Rows 10
 
      
  
-all -  [ OpenAI history compression ](https://www.reddit.com/r/LangChain/comments/1gkv200/openai_history_compression/) , 2024-11-07-0912
+all -  [ OpenAI history compression ](https://www.reddit.com/r/LangChain/comments/1gkv200/openai_history_compression/) , 2024-11-08-0912
 ```
 Hi,
 
@@ -286,7 +1158,7 @@ nd outputs the same structured messages with irrelevant context redacted.
 
      
  
-all -  [ Looking for tech-cofounder with in-depth experience of large AI-RAG systems in production with advan ](https://www.reddit.com/r/LangChain/comments/1gkuul5/looking_for_techcofounder_with_indepth_experience/) , 2024-11-07-0912
+all -  [ Looking for tech-cofounder with in-depth experience of large AI-RAG systems in production with advan ](https://www.reddit.com/r/LangChain/comments/1gkuul5/looking_for_techcofounder_with_indepth_experience/) , 2024-11-08-0912
 ```
 **I am building an AI system to solve this problem using Advanced RAG:** In anybody's professional field say SEO, AI, Fi
 nance and many others, new content is published everyday covering news, solutions, techniques and others. Keeping abreas
@@ -302,7 +1174,7 @@ If you are interested in building a solution for this along with me and have in-
 
      
  
-all -  [ Need help/suggestion: So I want to use an LLM to evaluate human and AI models responses to medical q ](https://www.reddit.com/r/LangChain/comments/1gkuk2s/need_helpsuggestion_so_i_want_to_use_an_llm_to/) , 2024-11-07-0912
+all -  [ Need help/suggestion: So I want to use an LLM to evaluate human and AI models responses to medical q ](https://www.reddit.com/r/LangChain/comments/1gkuk2s/need_helpsuggestion_so_i_want_to_use_an_llm_to/) , 2024-11-08-0912
 ```
 I want to know what would be the best way of doings, what should be my approach?. I want to compare how good or bad are 
 the responses of AI model compare to the human ones. 
@@ -311,7 +1183,7 @@ the responses of AI model compare to the human ones.
 
      
  
-all -  [ My Rag chatbot suddenly started giving no/unmatched responses... ](https://www.reddit.com/r/LangChain/comments/1gku4dd/my_rag_chatbot_suddenly_started_giving/) , 2024-11-07-0912
+all -  [ My Rag chatbot suddenly started giving no/unmatched responses... ](https://www.reddit.com/r/LangChain/comments/1gku4dd/my_rag_chatbot_suddenly_started_giving/) , 2024-11-08-0912
 ```
 Hi guys,   
 I have developed a RAG-based chatbot( Retriever - Cohere; VectorDB - ChromaDB; memory chain - conversational
@@ -325,7 +1197,7 @@ d where to proceed to solve it... Pls help me rectify it, if u want any other in
 
      
  
-all -  [ Stop pandas dataframe agent from timing out ](https://www.reddit.com/r/LangChain/comments/1gkt383/stop_pandas_dataframe_agent_from_timing_out/) , 2024-11-07-0912
+all -  [ Stop pandas dataframe agent from timing out ](https://www.reddit.com/r/LangChain/comments/1gkt383/stop_pandas_dataframe_agent_from_timing_out/) , 2024-11-08-0912
 ```
 I have two columns in two dataframes which I need to compare, which I am doing using a pandas dataframe agent. Now one o
 f the dataframes is around 700 rows long, and the other is small, but the token limit is being breached, unless I make t
@@ -335,7 +1207,7 @@ he other dataframe smaller. Does anyone have any ideas on how to approach this?
 
      
  
-all -  [ How to Combine RAG and Function Calling for a Hybrid Chatbot? ](https://www.reddit.com/r/LangChain/comments/1gksk4g/how_to_combine_rag_and_function_calling_for_a/) , 2024-11-07-0912
+all -  [ How to Combine RAG and Function Calling for a Hybrid Chatbot? ](https://www.reddit.com/r/LangChain/comments/1gksk4g/how_to_combine_rag_and_function_calling_for_a/) , 2024-11-08-0912
 ```
 I'm building a chatbot using RAG to answer general information queries for a health-related website, such as 'What are c
 ommon symptoms of high blood pressure?' or 'How does a balanced diet benefit mental health?' These are publicly availabl
@@ -358,7 +1230,7 @@ the RAG model or an API call, without requiring user intervention.
 
      
  
-all -  [ Open-source declarative framework to build LLM apps - looking for contributors ](https://www.reddit.com/r/developersIndia/comments/1gkq6y9/opensource_declarative_framework_to_build_llm/) , 2024-11-07-0912
+all -  [ Open-source declarative framework to build LLM apps - looking for contributors ](https://www.reddit.com/r/developersIndia/comments/1gkq6y9/opensource_declarative_framework_to_build_llm/) , 2024-11-08-0912
 ```
 I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
 I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
@@ -386,7 +1258,7 @@ es/gensphere_tutorial.ipynb)
 
      
  
-all -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-07-0912
+all -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-08-0912
 ```
 I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
 I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
@@ -414,7 +1286,7 @@ al.ipynb)
 
      
  
-all -  [ PDF chat with source highlight ](https://www.reddit.com/r/LangChain/comments/1gkkm74/pdf_chat_with_source_highlight/) , 2024-11-07-0912
+all -  [ PDF chat with source highlight ](https://www.reddit.com/r/LangChain/comments/1gkkm74/pdf_chat_with_source_highlight/) , 2024-11-08-0912
 ```
 We’ve released **Denser Chat** as an open-source project! You can chat with your uploaded PDF with source highlighted. 
 
@@ -434,7 +1306,7 @@ Boost transparency & power up your AI projects! 💼 #opensource #AI
 
      
  
-all -  [ How to use a pgvector db as a retriever in a chain? ](https://www.reddit.com/r/LangChain/comments/1gkibvy/how_to_use_a_pgvector_db_as_a_retriever_in_a_chain/) , 2024-11-07-0912
+all -  [ How to use a pgvector db as a retriever in a chain? ](https://www.reddit.com/r/LangChain/comments/1gkibvy/how_to_use_a_pgvector_db_as_a_retriever_in_a_chain/) , 2024-11-08-0912
 ```
 Apologies if some of this doesn't make sense, I'm pretty new to Python and Langchain so please bear with me. 
 
@@ -512,7 +1384,7 @@ nable = prompt_template | model | StrOutputParser()
 
      
  
-all -  [ Check out EidolonAI, an open-source framework for AI agents ](https://www.reddit.com/r/agenticAI/comments/1gkhvsd/check_out_eidolonai_an_opensource_framework_for/) , 2024-11-07-0912
+all -  [ Check out EidolonAI, an open-source framework for AI agents ](https://www.reddit.com/r/agenticAI/comments/1gkhvsd/check_out_eidolonai_an_opensource_framework_for/) , 2024-11-08-0912
 ```
 Hey folks!
 
@@ -534,7 +1406,7 @@ k you, everyone feels good!
 
      
  
-all -  [ Dendrite: Interact with websites with natural language instead of using css selectors ](https://www.reddit.com/r/Python/comments/1gkg23q/dendrite_interact_with_websites_with_natural/) , 2024-11-07-0912
+all -  [ Dendrite: Interact with websites with natural language instead of using css selectors ](https://www.reddit.com/r/Python/comments/1gkg23q/dendrite_interact_with_websites_with_natural/) , 2024-11-08-0912
 ```
 **What my project does:**
 
@@ -591,7 +1463,7 @@ ous agent framework that doesn't really work
 
      
  
-all -  [ Infinit Craft with Kobold ](https://www.reddit.com/r/KoboldAI/comments/1gkfur6/infinit_craft_with_kobold/) , 2024-11-07-0912
+all -  [ Infinit Craft with Kobold ](https://www.reddit.com/r/KoboldAI/comments/1gkfur6/infinit_craft_with_kobold/) , 2024-11-08-0912
 ```
     Infinit Craft with Kobold
     The code is based on https://github.com/githubpradeep/notebooks/blob/main/Infinite%20c
@@ -996,7 +1868,7 @@ __ == '__main__':
 
      
  
-all -  [ Better way to retrieve function definitions from codebase (vector embeddings)? ](https://www.reddit.com/r/LangChain/comments/1gkc7ug/better_way_to_retrieve_function_definitions_from/) , 2024-11-07-0912
+all -  [ Better way to retrieve function definitions from codebase (vector embeddings)? ](https://www.reddit.com/r/LangChain/comments/1gkc7ug/better_way_to_retrieve_function_definitions_from/) , 2024-11-08-0912
 ```
 I have created vector embeddings of codebase (C/C++ files) and stored them, using the tree sitter and Generic Loader fro
 m langchain, by referring this
@@ -1016,7 +1888,7 @@ Are there any specific retrievers for the codebase? Like tree-sitter is for pars
 
      
  
-all -  [ YouTube video summarizer and post generator ](https://www.reddit.com/r/SaaS/comments/1gk9a8x/youtube_video_summarizer_and_post_generator/) , 2024-11-07-0912
+all -  [ YouTube video summarizer and post generator ](https://www.reddit.com/r/SaaS/comments/1gk9a8x/youtube_video_summarizer_and_post_generator/) , 2024-11-08-0912
 ```
 I have developed a tool which takes url of YouTube video and can summarize it, generate a blog post, generate a linkedin
  post. The target market is Youtubers, marketing agencies, bloggers, and other content creators
@@ -1028,7 +1900,7 @@ his tool and want to convert it into their own SaaS tool for making good revenue
 
      
  
-all -  [ Need help ! ](https://www.reddit.com/r/Supabase/comments/1gk877a/need_help/) , 2024-11-07-0912
+all -  [ Need help ! ](https://www.reddit.com/r/Supabase/comments/1gk877a/need_help/) , 2024-11-08-0912
 ```
 I do have an app using langchain js along Supabase , I have an issue when i'm using SupabaseVectoreStore on a specific t
 able , if that table has more than 5000 records , it returns timeout error 
@@ -1046,7 +1918,7 @@ I could'nt find anything on the documentations.
 
      
  
-all -  [ IBM release Agentic Framework 'Bee' ](https://www.reddit.com/r/LangChain/comments/1gk7z5v/ibm_release_agentic_framework_bee/) , 2024-11-07-0912
+all -  [ IBM release Agentic Framework 'Bee' ](https://www.reddit.com/r/LangChain/comments/1gk7z5v/ibm_release_agentic_framework_bee/) , 2024-11-08-0912
 ```
 [https://i-am-bee.github.io/bee-agent-framework/#/](https://i-am-bee.github.io/bee-agent-framework/#/)
 ```
@@ -1054,7 +1926,7 @@ all -  [ IBM release Agentic Framework 'Bee' ](https://www.reddit.com/r/LangChai
 
      
  
-all -  [ 🌲Hierarchical Indices: Enhancing RAG Systems ](https://open.substack.com/pub/diamantai/p/hierarchical-indices-enhancing-rag?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-11-07-0912
+all -  [ 🌲Hierarchical Indices: Enhancing RAG Systems ](https://open.substack.com/pub/diamantai/p/hierarchical-indices-enhancing-rag?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-11-08-0912
 ```
 📚 Hierarchical indices are an advanced method for organizing information in RAG systems. Unlike traditional flat structu
 res, they use a multi-tiered approach typically consisting of:
@@ -1078,660 +1950,7 @@ ng it, which includes link to code implementation as well ☺️
 
      
  
-all -  [ Built a LangChain integration that solves the multi-system customer data problem (with fuzzy matchin ](https://www.reddit.com/r/LangChain/comments/1gk35pf/built_a_langchain_integration_that_solves_the/) , 2024-11-07-0912
-```
-Hey r/LangChain,
-
-We built a LangChain integration that solves one of the biggest headaches in building customer-facing 
-LLM apps: getting a single, accurate view of customer data across all your systems.
-
--Combines data from Hubspot, Salesf
-orce, Zendesk, Snowflake, databases etc. using fuzzy matching
--Creates and updates unified customer profiles in real-tim
-e
--Plugs right into LangChain for building customer support bots that actually know your customers
-
-We built this becaus
-e we found lots of companies struggling with internal LLM apps when the customer data existed somewhere in their data st
-ack - just not in one place. The fuzzy matching handles all the messy real-world data issues (typos, different formats, 
-etc.).
-
-If you want to give it a shot:
-
-Demo repo: https://github.com/tilotech/identity-rag-customer-insights-chatbot
-Th
-ere is a demo video showing it in action at the same link
-
-For anyone in Berlin - we're doing a hands-on session with La
-ngChain and AWS next week: https://www.meetup.com/unstructured/events/304128662/. In-person only for now, but might stre
-am if there's interest (drop a comment if you'd watch!).
-
-I would love to hear your thoughts/feedback, especially if you
-'ve tackled similar problems before!
-```
----
-
-     
- 
-all -  [ Udemy Free Courses for 05 November 2024 ](https://www.reddit.com/r/udemyfreebies/comments/1gk2uqc/udemy_free_courses_for_05_november_2024/) , 2024-11-07-0912
-```
-# Udemy Free Courses for 05 November 2024
-
-Note : Coupons might expire anytime, so enroll as soon as possible to get the
- courses for FREE.
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22567/)Ace the ISTQB CTFL AT Agile Tester Mock E
-xams & Explanations
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22566/)LLM Pentesting: Mastering Security Testin
-g for AI Models
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22565/)E20-555: Dell EMC Isilon Solution and Design 
-Specialist Exam
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22564/)E20-393: Dell EMC Unity Solution Specialist P
-ractice test 24
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22563/)DES-1D12: Dell EMC Specialist – Midrange Stor
-age Solutions
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22562/)DES-1423: Dell EMC Specialist Isilon Solution P
-ractice test
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22561/)NSE7\_ZTA-7.2: Fortinet Network Security Expert 
-Practice 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22560/)NSE7\_SDW-7.2: Fortinet Network Security Expert
- Practice 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22559/)NSE7\_SDW-7.0: Fortinet Network Security Exper
-t Practice 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22558/)NSE7\_SDW-6.4: Fortinet Network Security Expe
-rt Practice 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22557/)Generative AI for All: Practical Prompt Engi
-neering Course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22556/)Shopify: Your Essential Guide to E-commerce Su
-ccess
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22555/)Facebook Ads 2024: Launch Your Best Advertising Campaig
-n
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22554/)Build Your Best Cold Email Strategy!
-* [REDEEM OFFER ](http
-s://idownloadcoupon.com/udemy/22553/)Grow your business with Chatbot Marketing!
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/22552/)Blogging and Influencer Marketing
-* Complete Figma Course: Web & Mobile Projects from Scratch
-* [REDE
-EM OFFER](https://idownloadcoupon.com/udemy/22551/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22550/)Executive
- Assistant Professional Certification (EAPC)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22549/)Timeboxing: A Sh
-ort and Practical Guide
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22548/)BANXIETY: Beginner and Beyond Breathi
-ng for Anxiety
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22547/)The Complete Manager: Management Skills Guide 
-for Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22546/)Managing a business with business analytics and
- frameworks
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22545/)HTML For Beginners
-* [REDEEM OFFER ](https://idow
-nloadcoupon.com/udemy/22544/)Automatiza YouTube al 100% con IA
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22543
-/)Secretary Professional Certification (SPC)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22542/)Master Splits & 
-Conditioning for Martial or Performance Arts
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22541/)Luxury Industry 
-Professional Certification (LIPC)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22540/)C# desde 0: Inicia tu carre
-ra como programador
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22539/)Paralegal Professional Certification (PPC
-)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22537/)The Complete Video Editing Masterclass with Vegas Pro
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/22536/)Executive Diploma in Business Management
-* [REDEEM OFFER ](https:/
-/idownloadcoupon.com/udemy/22535/)CLF-C01: AWS Certified Cloud Practitioner Practice test 2024
-* DBS-C01: AWS Certified 
-Database Specialty Practice Test 2024
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22534/)
-* [REDEEM OFFER ](https
-://idownloadcoupon.com/udemy/22533/)DOP-C01: AWS Certified DevOps Engineer Practice test 2024
-* [REDEEM OFFER ](https://
-idownloadcoupon.com/udemy/22532/)Google SEO Guide: How to Rank First on Google
-* [REDEEM OFFER ](https://idownloadcoupon
-.com/udemy/22531/)The Ultimate Google Analytics 4 Course – Complete Guide 2024
-* [REDEEM OFFER ](https://idownloadcoupon
-.com/udemy/22530/)C++ Beginner to Advanced: Modern C++20 and Multithreading
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/22529/)Python Machine Learning: From Beginner to Pro
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22528/)
-Build a WordPress Blog Website Step by Step
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22527/)Instagram Marketi
-ng Course: Fastest ways to grow your page
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22526/)User Experience Des
-ign – Learn UI UX App Design with Figma
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22525/)Beginning Bash Script
-ing
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22524/)Ethical Hacking: Hacker Methodology
-* [REDEEM OFFER ](htt
-ps://idownloadcoupon.com/udemy/22523/)Interview Success: Business English for Job interviews
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/22522/)Business Process Management: Certification
-* [REDEEM OFFER ](https://idownloadcoupon.com
-/udemy/22521/)15 Günde Anne Sütü Mucizesi: Beslenme Rehberiniz
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22520
-/)Office Administration Management Professional Certification
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22519/
-)C-level management: 20 models for business operations (2/5)
-* Growth Hacking Professional Certification (GHPC)
-* [REDEE
-M OFFER](https://idownloadcoupon.com/udemy/22518/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22517/)The Comple
-te JavaScript Course: From Zero to Expert
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22516/)Selenium Webdriver 
-with Java & TestNG Testing Framework
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22515/)सीखें WordPress हिन्दी म
-ें
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22514/)Certified Culinarian Practice Exam
-* [REDEEM OFFER ](https
-://idownloadcoupon.com/udemy/22513/)The Complete C++ Programming Course from Basic to Expert
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/22512/)Next.js for Beginners : The Complete Guide 2024
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/22511/)Python And Django Framework For Beginners Complete Course
-* [REDEEM OFFER ](https://idownloadcoupon.c
-om/udemy/22510/)AWS Certified Machine Learning Specialty 2024 – Hands On!
-* [REDEEM OFFER ](https://idownloadcoupon.com/
-udemy/22509/)Ultimate AWS Certified Solutions Architect Associate (SAA)
-* [REDEEM OFFER ](https://idownloadcoupon.com/ud
-emy/22508/)x64dbg Script Programming For Reverse Engineering
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22507/)
-F5 101 Exam Preparation – Complete Course w/ Practice Exams
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22506/)2
-025 Master Langchain and Ollama – Chatbot, RAG and Agents
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22505/)Unb
-ounce: Create Landing Pages that Convert + A/B Testing
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22504/)Cómo C
-rear una Tienda Online con Blogger Desde Cero 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22503/)Herramient
-as de Google 2024, ¡Desde Cero Hasta Experto!
-
-GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://www.
-reddit.com/r/udemyfreeebies/)
-```
----
-
-     
- 
-all -  [ Udemy Free Courses for 05 November 2024 ](https://www.reddit.com/r/udemyfreeebies/comments/1gk2unl/udemy_free_courses_for_05_november_2024/) , 2024-11-07-0912
-```
-# Udemy Free Courses for 05 November 2024
-
-Note : Coupons might expire anytime, so enroll as soon as possible to get the
- courses for FREE.
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22567/)Ace the ISTQB CTFL AT Agile Tester Mock E
-xams & Explanations
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22566/)LLM Pentesting: Mastering Security Testin
-g for AI Models
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22565/)E20-555: Dell EMC Isilon Solution and Design 
-Specialist Exam
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22564/)E20-393: Dell EMC Unity Solution Specialist P
-ractice test 24
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22563/)DES-1D12: Dell EMC Specialist – Midrange Stor
-age Solutions
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22562/)DES-1423: Dell EMC Specialist Isilon Solution P
-ractice test
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22561/)NSE7\_ZTA-7.2: Fortinet Network Security Expert 
-Practice 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22560/)NSE7\_SDW-7.2: Fortinet Network Security Expert
- Practice 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22559/)NSE7\_SDW-7.0: Fortinet Network Security Exper
-t Practice 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22558/)NSE7\_SDW-6.4: Fortinet Network Security Expe
-rt Practice 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22557/)Generative AI for All: Practical Prompt Engi
-neering Course
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22556/)Shopify: Your Essential Guide to E-commerce Su
-ccess
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22555/)Facebook Ads 2024: Launch Your Best Advertising Campaig
-n
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22554/)Build Your Best Cold Email Strategy!
-* [REDEEM OFFER ](http
-s://idownloadcoupon.com/udemy/22553/)Grow your business with Chatbot Marketing!
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/22552/)Blogging and Influencer Marketing
-* Complete Figma Course: Web & Mobile Projects from Scratch
-* [REDE
-EM OFFER](https://idownloadcoupon.com/udemy/22551/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22550/)Executive
- Assistant Professional Certification (EAPC)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22549/)Timeboxing: A Sh
-ort and Practical Guide
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22548/)BANXIETY: Beginner and Beyond Breathi
-ng for Anxiety
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22547/)The Complete Manager: Management Skills Guide 
-for Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22546/)Managing a business with business analytics and
- frameworks
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22545/)HTML For Beginners
-* [REDEEM OFFER ](https://idow
-nloadcoupon.com/udemy/22544/)Automatiza YouTube al 100% con IA
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22543
-/)Secretary Professional Certification (SPC)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22542/)Master Splits & 
-Conditioning for Martial or Performance Arts
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22541/)Luxury Industry 
-Professional Certification (LIPC)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22540/)C# desde 0: Inicia tu carre
-ra como programador
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22539/)Paralegal Professional Certification (PPC
-)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22537/)The Complete Video Editing Masterclass with Vegas Pro
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/22536/)Executive Diploma in Business Management
-* [REDEEM OFFER ](https:/
-/idownloadcoupon.com/udemy/22535/)CLF-C01: AWS Certified Cloud Practitioner Practice test 2024
-* DBS-C01: AWS Certified 
-Database Specialty Practice Test 2024
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/22534/)
-* [REDEEM OFFER ](https
-://idownloadcoupon.com/udemy/22533/)DOP-C01: AWS Certified DevOps Engineer Practice test 2024
-* [REDEEM OFFER ](https://
-idownloadcoupon.com/udemy/22532/)Google SEO Guide: How to Rank First on Google
-* [REDEEM OFFER ](https://idownloadcoupon
-.com/udemy/22531/)The Ultimate Google Analytics 4 Course – Complete Guide 2024
-* [REDEEM OFFER ](https://idownloadcoupon
-.com/udemy/22530/)C++ Beginner to Advanced: Modern C++20 and Multithreading
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/22529/)Python Machine Learning: From Beginner to Pro
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22528/)
-Build a WordPress Blog Website Step by Step
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22527/)Instagram Marketi
-ng Course: Fastest ways to grow your page
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22526/)User Experience Des
-ign – Learn UI UX App Design with Figma
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22525/)Beginning Bash Script
-ing
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22524/)Ethical Hacking: Hacker Methodology
-* [REDEEM OFFER ](htt
-ps://idownloadcoupon.com/udemy/22523/)Interview Success: Business English for Job interviews
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/22522/)Business Process Management: Certification
-* [REDEEM OFFER ](https://idownloadcoupon.com
-/udemy/22521/)15 Günde Anne Sütü Mucizesi: Beslenme Rehberiniz
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22520
-/)Office Administration Management Professional Certification
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22519/
-)C-level management: 20 models for business operations (2/5)
-* Growth Hacking Professional Certification (GHPC)
-* [REDEE
-M OFFER](https://idownloadcoupon.com/udemy/22518/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22517/)The Comple
-te JavaScript Course: From Zero to Expert
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22516/)Selenium Webdriver 
-with Java & TestNG Testing Framework
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22515/)सीखें WordPress हिन्दी म
-ें
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22514/)Certified Culinarian Practice Exam
-* [REDEEM OFFER ](https
-://idownloadcoupon.com/udemy/22513/)The Complete C++ Programming Course from Basic to Expert
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/22512/)Next.js for Beginners : The Complete Guide 2024
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/22511/)Python And Django Framework For Beginners Complete Course
-* [REDEEM OFFER ](https://idownloadcoupon.c
-om/udemy/22510/)AWS Certified Machine Learning Specialty 2024 – Hands On!
-* [REDEEM OFFER ](https://idownloadcoupon.com/
-udemy/22509/)Ultimate AWS Certified Solutions Architect Associate (SAA)
-* [REDEEM OFFER ](https://idownloadcoupon.com/ud
-emy/22508/)x64dbg Script Programming For Reverse Engineering
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22507/)
-F5 101 Exam Preparation – Complete Course w/ Practice Exams
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22506/)2
-025 Master Langchain and Ollama – Chatbot, RAG and Agents
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22505/)Unb
-ounce: Create Landing Pages that Convert + A/B Testing
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22504/)Cómo C
-rear una Tienda Online con Blogger Desde Cero 2024
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/22503/)Herramient
-as de Google 2024, ¡Desde Cero Hasta Experto!
-
-GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idow
-nloadcoupon.com/)
-```
----
-
-     
- 
-all -  [ Run GGUF models using python ](https://www.reddit.com/r/LanguageTechnology/comments/1gk06za/run_gguf_models_using_python/) , 2024-11-07-0912
-```
-GGUF is an optimised file format to store ML models (including LLMs) leading to faster and efficient LLMs usage with red
-ucing memory usage as well. This post explains the code on how to use GGUF LLMs (only text based) using python with the 
-help of Ollama and LangChain : https://youtu.be/VSbUOwxx3s0
-```
----
-
-     
- 
-all -  [ LangChain RetrievalQA Working Locally but Failing on Windows Server Deployment ](https://www.reddit.com/r/techsupport/comments/1gjzdea/langchain_retrievalqa_working_locally_but_failing/) , 2024-11-07-0912
-```
-I'm using LangChain (version langchain==0.3.3) and specifically the RetrievalQA class from langchain.chains to retrieve 
-answers from PDF files. My setup works perfectly on my local machine, but I’m having trouble getting it to work after de
-ploying it to a live server running Django on a Windows Server.
-
-
-
-Here’s the core part of my code:
-
-conversation\_chain
- = RetrievalQA.from\_chain\_type(
-
-llm=llm,
-
-retriever=vectorstore.as\_retriever(search\_kwargs={'k': 30}),
-
-\# memory=m
-emory,
-
-chain\_type='stuff',
-
-chain\_type\_kwargs={'prompt': my\_prompt},
-
-)
-
-
-
-response = conversation\_chain.invoke(
-
-
-{'query': fieldPrompt.Prompt}
-
-)
-
-
-
-In my local environment, everything runs smoothly. However, once deployed, it doesn’
-t work as expected, and I’m not getting the intended responses.
-
-
-
-Could anyone help me figure out why this might be hap
-pening on the live server? Is there something specific about deploying on Windows Server or Django that might cause issu
-es with LangChain or RetrievalQA? Any troubleshooting tips would be greatly appreciated!
-```
----
-
-     
- 
-all -  [ How can I add a filter for my retriever? ](https://www.reddit.com/r/LangChain/comments/1gjxwxx/how_can_i_add_a_filter_for_my_retriever/) , 2024-11-07-0912
-```
-    vectorstore = AzureCosmosDBVectorSearch.from_connection_string(
-                    connection_string=self.uri,
-    
-                namespace=self.namespace,
-                    embedding=self.embedding_model,
-                    index_
-name = self.index_name,
-                    embedding_key=self.embedding_key
-                )
-    
-    retriever = vect
-orstore.as_retriever(
-                    search_kwargs={
-                        'k': 10,
-                        'filt
-er': {'username': username}
-                    }
-                )
-
-What is the syntax to construct the filter? Cant se
-em to find the documentation for it.
-
-For context, I want to only retrieve documents where the metadata contains my user
-name (only documents belonging to the user). However, the filter does not seem to be working and is returning me all the
- documents.
-```
----
-
-     
- 
-all -  [ How to use RAG? ](https://www.reddit.com/r/Rag/comments/1gjwjb8/how_to_use_rag/) , 2024-11-07-0912
-```
-Hi! I'm kind of new to programming and machine learning as a whole, and I was wondering if someone can give me an outlin
-e of implementing RAG using langchain??
-
-I know the general outline: data collection --> vector embeddings --> storing i
-n vector database --> and using this in the generation step as extra context as you prompt the LLM.
-
-Am I missing someth
-ing? And wouldn't this mean that the data collection step is the most important since you're building your vector databa
-se off of how you collect the data and which data you end up collecting? Lastly, approximately how much data do you need
- for a decently sized vector database, generally speaking for a personal project. 
-
-Thanks!
-```
----
-
-     
- 
-all -  [ Need Help with FAISS Integration - ‘IndexFlat’ Object is Not Callable Error ](https://www.reddit.com/r/LangChain/comments/1gjubsw/need_help_with_faiss_integration_indexflat_object/) , 2024-11-07-0912
-```
-  
-Hi everyone,  
-I’m facing an issue while integrating FAISS vector storage with the Langchain library. Specifically, I
-’m encountering the following error when I try to create or update my FAISS vector store:  
-
-
-    php
-    
-    
-    Type
-Error: 'IndexFlat' object is not callable
-
-Context of the Project:  
-I am building a two-fold document retrieval system:
-  
-
-
-1. **Main AI** \- This functionality provides access to all uploaded documents, allowing users to ask questions tha
-t are answered based on the contents of all available documents.
-2. **Copilot (Similar to Discord Bots)** \- Users can u
-se a prefix `/filename` followed by their query to ask specific questions about an individual document (e.g., `/ansible.
-pdf describe this file`). The aim is to retrieve information only from the selected document.
-
-The data flow involves st
-oring FAISS index files and metadata in Google Cloud Storage, retrieving them as needed, and updating the vector store b
-ased on new documents being uploaded.  
-Problem:  
-
-
-* When I upload the first document, the FAISS index and metadata ar
-e created successfully, and everything works fine.
-* However, when I upload additional files and try to update the FAISS
- vector store, the following error occurs:
-
-`TypeError: 'IndexFlat' object is not callable`  
-This error occurs specific
-ally at the point where I try to add more texts to an existing FAISS vector store.  
-Changes Made So Far:  
-I initially 
-suspected that the embedding function was incorrectly defined or called. Here’s what I tried doing:  
-
-
-* **Initializati
-on of Embeddings Model**: I am using Google Generative AI for embeddings, specifically `GoogleGenerativeAIEmbeddings`. H
-ere’s a sample initialization:
-
-`from langchain_google_genai import GoogleGenerativeAIEmbeddings`  
-`embeddings = Google
-GenerativeAIEmbeddings(model='models/embedding-001', task_type='retrieval_document')`
-
-* **Creating Vector Store**: I us
-ed the FAISS method `from_texts` to create a vector store. Here’s a snippet of my `get_vector_store()` function:
-
-&#8203
-;
-
-        def download_and_initialize_vectorStore_fromGC(self, bucket_name, prefix, text_chunks, uid, client_organizati
-on_id, grant_proposal_form_id, file_name):
-            temp_dir = f'/tmp/download_vectorStore/{uid}/{client_organization
-_id}/{grant_proposal_form_id}'
-            os.makedirs(temp_dir, exist_ok=True)
-            blobs = self.upload_bucket.l
-ist_blobs(prefix=prefix)
-            faiss_file_found = False
-            pkl_file_found = False
-            for blob in
- blobs:
-                if blob.name.endswith('/') or 'index' not in blob.name:
-                    continue
-           
-     local_path = Path(temp_dir) / Path(blob.name).name
-                local_path.parent.mkdir(parents=True, exist_ok=T
-rue)
-                blob.download_to_filename(str(local_path))
-                print(local_path)
-    
-                i
-f 'index.faiss' in str(local_path):
-                    faiss_file_found = True
-                if 'index.pkl' in str(lo
-cal_path):
-                    pkl_file_found = True
-            
-            if not faiss_file_found or not pkl_file_fo
-und:
-                raise FileNotFoundError(f'Required FAISS or PKL files not found in {prefix}')
-    
-            prin
-t(f'Files Downloaded to {temp_dir}: {os.listdir(temp_dir)}')
-    
-            os.getenv('GOOGLE_API_KEY')
-            em
-beddings = GoogleGenerativeAIEmbeddings(model='models/embedding-001', task_type='retrieval_document')
-    
-            p
-rint(f'Loading FAISS index from temp directory: {temp_dir}')
-            self.load_vector_store(temp_dir, embeddings)
-  
-  
-            print('Successfully Loaded the vector store')
-            self.vector_store.add_texts(text_chunks)
-      
-      print('Updated the vector store')
-    
-            cloud_path_to_delete = f'/tmp/{uid}/{client_organization_id}/{g
-rant_proposal_form_id}'
-            self.delete_directory_in_cloud(self.upload_bucket_name, cloud_path_to_delete)
-      
-      print('Successfully deleted the Faiss_index')
-    
-            print(f'Vector store attributes before saving:{vars
-(self.vector_store)}')
-            updated_faiss_path = f'/tmp/{uid}/{client_organization_id}/{grant_proposal_form_id}'
-
-            try:
-                self.save_vector_store(updated_faiss_path, text_chunks, file_name)
-                prin
-t('Successfully saved the updated Faiss Index')
-            except Exception as e:
-                print(f'Error during 
-FAISS save_local:{e}')
-            self.upload_Vector_DB_files(self.upload_bucket_name, updated_faiss_path)
-            
-print('successfully uploaded the updated Faiss_index to cloud storage')
-            shutil.rmtree(temp_dir)
-            
-print('Temp Directory removed successfully')
-    
-        def get_vector_store(self, text_chunks: list, uid: str, client
-_organization_id: str, grant_proposal_form_id: str, file_name: str):
-            if not self._faiss_index_exists(uid, cl
-ient_organization_id, grant_proposal_form_id):
-                print('FAISS index does not exist. Creating a new one.')
-
-                self.vector_store = self._create_faiss_index(text_chunks)
-                print('FAISS index created wit
-h chunks')
-                self.save_vector_store(f'/tmp/{uid}/{client_organization_id}/{grant_proposal_form_id}', text_
-chunks, file_name)
-                print('FAISS index saved in local')
-                self.upload_Vector_DB_files(self.
-upload_bucket_name, f'/tmp/{uid}/{client_organization_id}/{grant_proposal_form_id}')
-                print('FAISS index 
-upload complete')
-            else:
-                print('Faiss Index Available')
-                self.download_and_ini
-tialize_vectorStore_fromGC(self.upload_bucket_name, f'/tmp/{uid}/{client_organization_id}/{grant_proposal_form_id}', tex
-t_chunks, uid, client_organization_id, grant_proposal_form_id, file_name)
-                print('Faiss Index successfull
-y updated and stored')
-            print('Vector store created successfully.')
-
-* **Adding Texts to Vector Store**: When
- trying to add texts to the FAISS vector store, I encountered the `IndexFlat` error. The problematic line is as follows:
-
-
-`self.vector_store.add_texts(text_chunks)`Attempted Solutions:  
-
-
-* **Verified Embedding Model Initialization**: I ma
-de sure that the `GoogleGenerativeAIEmbeddings` model was correctly instantiated and passed as an argument to `FAISS.fro
-m_texts()`.
-* **Checked** `embed_documents` **Method**: I confirmed that `embed_documents()` is indeed a method supporte
-d by `GoogleGenerativeAIEmbeddings` and tried passing text to it manually:
-
-Relevant source code is here: [https://colab
-.research.google.com/drive/1erJ\_liA9ldPHiKBEzuzr05o8j8KVgxON?usp=sharing](https://colab.research.google.com/drive/1erJ_
-liA9ldPHiKBEzuzr05o8j8KVgxON?usp=sharing)
-
-* What I’m Looking for:
-   * **Why the** `IndexFlat` **object is being consid
-ered callable**: I’m not entirely sure why the `IndexFlat` object is incorrectly being used as a callable. Is there some
-thing inherently wrong with the way the embedding model is being assigned or initialized?
-   * **How to Correctly Update
- the FAISS Vector Store**: Given that the initial vector store is successfully created but fails when trying to add new 
-documents, is there a particular pattern I should be following to avoid this error?
-   * **Efficient Hybrid Approach**: 
-Since I am combining traditional metadata approaches with embeddings for selective document retrieval, is there a recomm
-ended way to integrate this type of hybrid retrieval functionality effectively with Langchain and FAISS?
-
-Any insights i
-nto what I’m doing wrong or how I could correct my approach would be greatly appreciated.  
-**Thank you so much for your
- help and time in advance!** 
-```
----
-
-     
- 
-all -  [ Is there any nodejs packages for visualising a langgraph JS graph?  ](https://www.reddit.com/r/LangChain/comments/1gju54m/is_there_any_nodejs_packages_for_visualising_a/) , 2024-11-07-0912
-```
-Something that actually is produced from the code and the compiled graph.
-```
----
-
-     
- 
-all -  [ A new discovery tool for the Langchain ecosystem ](https://www.reddit.com/r/LangChain/comments/1gjpfzv/a_new_discovery_tool_for_the_langchain_ecosystem/) , 2024-11-07-0912
-```
-Hi! I built a new page to browse resources in the Langchain ecosystem -
-
-[https://ecosystems.gitwallet.co/ecosystems/lan
-gchain](https://ecosystems.gitwallet.co/ecosystems/langchain)
-
-This is part of a bigger product called **Echo**, which i
-s a new way to find projects, resources and people in open source ecosystems. You can think of this as a 'New Github Exp
-lore', or a 'Product Hunt for Open Source', in a sense.
-
-We also made a different take on the Github repo page to make i
-t a bit more readable, see related repos, and a few more things. Here's an example for langchain4j:
-
-[https://ecosystems
-.gitwallet.co/ecosystems/langchain/projects/langchain4j](https://ecosystems.gitwallet.co/ecosystems/langchain/projects/l
-angchain4j)
-
-I'm still an agent n00b and really appreciate how langchain is creating all the 'right abstractions' to mak
-e agent development easier. Anyways, would love to get some feedback from this community!
-```
----
-
-     
- 
-deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-07-0912
+deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-08-0912
 ```
 I am a full stack python developer who do web dev in django
 
