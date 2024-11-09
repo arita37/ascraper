@@ -1,5 +1,553 @@
  
-all -  [ New on langchain, any good youtube channel or course? ](https://www.reddit.com/r/LangChain/comments/1gm51vl/new_on_langchain_any_good_youtube_channel_or/) , 2024-11-08-0912
+all -  [ Extracting specific bits of data from large PDF texts ](https://www.reddit.com/r/LangChain/comments/1gmpsvu/extracting_specific_bits_of_data_from_large_pdf/) , 2024-11-09-0912
+```
+I am working with PDF rental contracts which can vary in size (up to 40 pages or so). I have a structured output which I
+ want to pull out of each contract (eg. Name of the renter, address, price, apartment size, etc). The data within the co
+ntract will be scattered around within the various paragraphs (no structured format within the PDF content). If the PDFs
+ were all small I could just convert to text, throw it into the prompt and ask the model to extract my fields in json ou
+tput. However the size will not always fit the context window of the agent. My initial idea is to chunk the text, and se
+nd each to an agent async, each time asking the agent to try to find any data from my target fields (if the chunk doesn'
+t match any fields then the agent should give an empty json object). After all chunks have been individually checked, ga
+ther the results and create one final json. 
+
+
+Does this seem like a plausible strategy/approach? 
+```
+---
+
+     
+ 
+all -  [ Seeking Thoughts on Implementing Dynamic RBAC with Microsoft GraphRAG and AI Agents ](https://www.reddit.com/r/LangChain/comments/1gmpsun/seeking_thoughts_on_implementing_dynamic_rbac/) , 2024-11-09-0912
+```
+Hi everyone,
+
+I'm working on a project where we're ingesting and indexing data from various external tools using [Micros
+oft GraphRAG](https://github.com/microsoft/graphrag). This helps us generate knowledge graphs, summaries, and identify c
+ommunities within the data.
+
+Our challenge is implementing Role-Based Access Control (RBAC) for this data. We need to en
+sure that users can only access information appropriate for their level within a hierarchy. However, the hierarchy is hi
+ghly fluid and dynamic—it can change at any time with new people, roles, and organisational structures emerging across d
+ifferent industries.
+
+Traditional rule-based RBAC systems aren't sufficient here because they can't adapt quickly enough
+ to these changes. Since we're dealing with text-based data and complex relationships, we're exploring the use of AI age
+nts or autonomous intelligence to determine access permissions.
+
+Our idea is to have an AI agent that can semantically u
+nderstand the knowledge graph created by GraphRAG. By leveraging all the information about the person requesting the dat
+a (which is included in the graph) along with other relevant data points, the agent would determine whether the person s
+hould have access to the requested information.
+
+I'm interested in hearing your thoughts on:
+
+* **Implementing Dynamic R
+BAC with AI**: Has anyone tackled similar challenges using AI or LLMs for access control in fluid hierarchies?
+* **Seman
+tic Understanding for Access Control**: What approaches are effective for enabling AI agents to semantically understand 
+and reason over knowledge graphs for this purpose?
+* **Potential Pitfalls**: What are the risks or limitations of relyin
+g on AI for access control decisions, especially in terms of security and compliance?
+* **Existing Models or Frameworks*
+*: Are there any models, frameworks, or tools you'd recommend that could assist in building this AI-driven RBAC system?
+
+
+Any insights, experiences, or resources would be greatly appreciated!
+
+*Edit: For those unfamiliar,* [*Microsoft GraphR
+AG*](https://github.com/microsoft/graphrag) *is a tool that helps in creating knowledge graphs by integrating data from 
+various sources, which can then be used for generating summaries and identifying relationships within the data.*
+```
+---
+
+     
+ 
+all -  [ The 2024 State of RAG and LLMs Podcast ](https://www.reddit.com/r/LLMDevs/comments/1gmp07w/the_2024_state_of_rag_and_llms_podcast/) , 2024-11-09-0912
+```
+Kirk Marple of Graphlit and I spoke on the current state of RAG and AI.
+
+Some of the topics we discussed:
+
+* LLM Long Co
+ntext Windows
+* Claude 3.5 Haiku Pricing
+* Whatever happened to Claude 3 Opus?
+* What is AGI?
+* Entity Extraction Techni
+ques with LLMs
+* Knowledge Graph structure formats
+* Do you really need LangChain to build in AI?
+* The future of RAG an
+d AI
+
+[https://youtu.be/dxXf2zSAdo0](https://youtu.be/dxXf2zSAdo0)
+```
+---
+
+     
+ 
+all -  [ Business Advice ](https://www.reddit.com/r/startups/comments/1gmnyl6/business_advice/) , 2024-11-09-0912
+```
+# ## Advice
+
+Hello Community, I am looking to build out micro-saas out of RAG by combining both Software Engineering and
+ AI principles. I have actually build out the version 1 of backend, with following features.
+
+Features:
+
+* SSO login
+* P
+ermission based access control on data and quering
+* Support for multiple data connectors like drive, dropbox, confluenc
+e, s3, gcp, etc
+* Incremental indexing
+* Plug and play components for different parsers, dataloaders, retrievers, query 
+mechanisms, etc
+* Single Gateway for your open and closed source models, embeddings, rerankers with rate limiting and to
+ken limiting.
+* Audit Trails
+* Open Telemetry for prompt logging, llm cost, vector db performance and gpu metrics
+
+More 
+features coming soon…
+
+Most importantly everything is built asynchronous, without heavy libraries like langchain or llam
+aindex. I am looking for community feedback to understand will these features be good for any business? If at all, is an
+yone interested to collaborate either in help secure funding, frontend work, help me get connected with other folks, etc
+? Thank you
+```
+---
+
+     
+ 
+all -  [ Can you tell me what is the mistake I did in this workflow, I want to connect my local llm to intern ](https://i.redd.it/7ti6ihiicpzd1.png) , 2024-11-09-0912
+```
+
+```
+---
+
+     
+ 
+all -  [ Azure Update - 8th November 2024 ](https://www.reddit.com/r/AZURE/comments/1gmlvet/azure_update_8th_november_2024/) , 2024-11-09-0912
+```
+This week's update is up. 
+
+  
+[https://youtu.be/QcPRAhg8dOg](https://youtu.be/QcPRAhg8dOg)
+
+*  [Cross-sub ALB](https://
+www.youtube.com/watch?v=QcPRAhg8dOg&t=78) \- Front and backend resources can now be in different subscriptions from the 
+ALB resource
+* [ALB admin state](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=155) \- Admins can now set nodes to UP an
+d DOWN to override probe health state
+* [ALB health status](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=217) \- Detail
+ed health information can now be reported on
+* [AVNM UDR management](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=252) 
+\- Routing policies can be centrally created then deployed to vnets via AVNM
+* [ER GW migration](https://www.youtube.com
+/watch?v=QcPRAhg8dOg&t=289) \- Easy ER GW SKU migration by allowing two gateways to co-exist in the same subnet
+* [Elast
+ic SAN enhancements](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=336) \- New SLA, CRC protection, AVS GA and in previe
+w autoscale
+* [Azure File Sync MI support](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=395) \- Removes need to use sha
+red keys by using managed identity instead
+* [Convert to Prem SSD v2](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=446)
+ \- Easy conversion from standard hdd/ssd and prem ssd v1 to prem ssd v2
+* [Event Hub 100% Kafka compat](https://www.you
+tube.com/watch?v=QcPRAhg8dOg&t=489) \- For streams and transactions
+* [Event Hub portal data explorer](https://www.youtu
+be.com/watch?v=QcPRAhg8dOg&t=510) \- Great portal experience to help with testing/debug
+* [SQL Hyperscale perf improveme
+nts](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=522) \- 150 MB second logging, 128 TiB max size and continuous primin
+g
+* [Azure SQL DB vector support](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=619) \- VECTOR data type and related fun
+ctions
+* [VS SQL projects](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=692) \- Collabroate and deploy SQL resources vi
+a Visual Studio and VS Code
+* [Cosmos DB MongoDB ARM API](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=750) \- Create a
+nd manage via ARM templates
+* [Cosmos DB LangChain integration](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=772) \- Ea
+sy LangChain integration for JavaScript apps
+* [Cosmos DB Data Explorer enhancements](https://www.youtube.com/watch?v=Qc
+PRAhg8dOg&t=786) \- Better error help
+* [PostgreSQL Flex v17 support](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=817)
+
+* [Azure CDN Edgio retire](https://www.youtube.com/watch?v=QcPRAhg8dOg&t=825)
+* [Zero Trust workshop available](https:/
+/www.youtube.com/watch?v=QcPRAhg8dOg&t=847) \- Great workshop to help implement zero trust in your organization
+```
+---
+
+     
+ 
+all -  [ 🔄 Semantic Chunking: Smarter Text Division for Better AI Retrieval ](https://open.substack.com/pub/diamantai/p/semantic-chunking-improving-ai-information?r=336pe4&utm_campaign=post&utm_medium=web) , 2024-11-09-0912
+```
+📚 Semantic chunking is an advanced method for dividing text in RAG. Instead of using arbitrary word/token/character coun
+ts, it breaks content into meaningful segments based on context.
+Here's how it works:
+
+* Content Analysis
+* Intelligent 
+Segmentation
+* Contextual Embedding
+
+✨ Benefits over traditional chunking:
+
+* Preserves complete ideas & concepts
+* Main
+tains context across divisions
+* Improves retrieval accuracy
+* Enables better handling of complex information
+
+This appr
+oach leads to more accurate and comprehensive AI responses, especially for complex queries.
+
+for more details read the f
+ull blog I wrote which is attached to this post.
+```
+---
+
+     
+ 
+all -  [ Connaissez vous l'erreur FileNotFoundError: MultiplexedPath must contain at least one path ](https://www.reddit.com/r/programmation/comments/1gml45x/connaissez_vous_lerreur_filenotfounderror/) , 2024-11-09-0912
+```
+Salut à tous, j'ai une IA locale avec python et ollama, 
+
+j'ai créer une interface pour qu'elle puisse etre utilisé par 
+des non pythonien.
+
+et maintenant, il me restait à faire le fichier .exe pour que les clients n'ait pas a ouvrir python 
+pour l'utiliser.
+
+tout marche bien depuis un script python, mais en faisant un exe depuis pyinstaller, j'ai eu beaucoup 
+d'erreur  de module non trouvé, j'ai reussi a me debrouiller avec les hidden import. Mais désormais, j'ai une erreur que
+ personne ne semble avoir sur internet. 
+
+`FileNotFoundError: MultiplexedPath must contain at least one path`
+
+je ne voi
+s pas de quel path il parle, tout semble bien défini et marche hors Pytinstaller
+
+j'ai déja fait un post sur stack overf
+low mais pas de réponse malheureusement.
+
+merci beaucoup de votre aide.
+
+voici le code erreur complet : 
+
+    Exception 
+in Tkinter callback
+    Traceback (most recent call last):
+      File 'tkinter\__init__.py', line 1967, in __call__
+    
+  File 'UX.py', line 99, in enter_key_event
+      File 'UX.py', line 44, in question
+      File 'UX.py', line 58, in exe
+cution_IA
+      File 'files\RAG_modif_pour_UX.py', line 249, in main
+      File 'files\RAG_modif_pour_UX.py', line 136, 
+in add_to_chroma
+      File 'langchain_chroma\vectorstores.py', line 313, in __init__
+      File 'chromadb\__init__.py',
+ line 334, in Client
+      File 'chromadb\api\client.py', line 58, in __init__
+      File 'chromadb\api\shared_system_cl
+ient.py', line 19, in __init__
+      File 'chromadb\api\shared_system_client.py', line 30, in _create_system_if_not_exis
+ts
+      File 'chromadb\config.py', line 425, in instance
+      File 'chromadb\api\segment.py', line 124, in __init__
+  
+    File 'chromadb\config.py', line 318, in require
+      File 'chromadb\config.py', line 425, in instance
+      File 'c
+hromadb\db\impl\sqlite.py', line 74, in __init__
+      File 'importlib_resources\_common.py', line 46, in wrapper
+      
+File 'importlib_resources\_common.py', line 56, in files
+      File 'importlib_resources\_common.py', line 117, in from_
+package
+      File 'importlib_resources\future\adapters.py', line 65, in get_resource_reader
+      File 'importlib_resou
+rces\future\adapters.py', line 70, in _standard_reader
+      File 'importlib_resources\future\adapters.py', line 78, in 
+_namespace_reader
+      File 'importlib_resources\readers.py', line 141, in __init__
+      File 'importlib_resources\rea
+ders.py', line 76, in __init__
+    FileNotFoundError: MultiplexedPath must contain at least one pathException in Tkinter
+ callback
+    Traceback (most recent call last):
+      File 'tkinter\__init__.py', line 1967, in __call__
+      File 'UX
+.py', line 99, in enter_key_event
+      File 'UX.py', line 44, in question
+      File 'UX.py', line 58, in execution_IA
+
+      File 'files\RAG_modif_pour_UX.py', line 249, in main
+      File 'files\RAG_modif_pour_UX.py', line 136, in add_to_
+chroma
+      File 'langchain_chroma\vectorstores.py', line 313, in __init__
+      File 'chromadb\__init__.py', line 334,
+ in Client
+      File 'chromadb\api\client.py', line 58, in __init__
+      File 'chromadb\api\shared_system_client.py', 
+line 19, in __init__
+      File 'chromadb\api\shared_system_client.py', line 30, in _create_system_if_not_exists
+      F
+ile 'chromadb\config.py', line 425, in instance
+      File 'chromadb\api\segment.py', line 124, in __init__
+      File '
+chromadb\config.py', line 318, in require
+      File 'chromadb\config.py', line 425, in instance
+      File 'chromadb\db
+\impl\sqlite.py', line 74, in __init__
+      File 'importlib_resources\_common.py', line 46, in wrapper
+      File 'impo
+rtlib_resources\_common.py', line 56, in files
+      File 'importlib_resources\_common.py', line 117, in from_package
+  
+    File 'importlib_resources\future\adapters.py', line 65, in get_resource_reader
+      File 'importlib_resources\futur
+e\adapters.py', line 70, in _standard_reader
+      File 'importlib_resources\future\adapters.py', line 78, in _namespace
+_reader
+      File 'importlib_resources\readers.py', line 141, in __init__
+      File 'importlib_resources\readers.py', 
+line 76, in __init__
+    FileNotFoundError: MultiplexedPath must contain at least one path
+
+  
+
+```
+---
+
+     
+ 
+all -  [ ML, LLM and Langchain for your jobs ](https://i.redd.it/7ipbx6f7uozd1.png) , 2024-11-09-0912
+```
+We can help provide solutions using LLM, ML,  langchain and python.  Please contact me. 
+```
+---
+
+     
+ 
+all -  [ Help with voice agents & Livekit ](https://www.reddit.com/r/LangChain/comments/1gmje1r/help_with_voice_agents_livekit/) , 2024-11-09-0912
+```
+I'm starting a project on voice assistant. Livekit seems to be a good fit. Want to understand your feedback if you've us
+ed it or any alternatives I should consider.
+
+  
+If you've worked on livekit, can you share how you handled training, RA
+G and tool calling?
+
+I'm interested in understanding how to handle delays while the assistant is fetching information. 
+```
+---
+
+     
+ 
+all -  [ Lang Chain / Graph / Smith tutorials & guides - Python versions everywhere, but JS/TS often missing. ](https://www.reddit.com/r/LangChain/comments/1gmjd7m/lang_chain_graph_smith_tutorials_guides_python/) , 2024-11-09-0912
+```
+Am I blind or something, but many tutorials of all the 3 core SDKs have a base Python version of guides/tutorials, but J
+S/TS completely missing?
+
+What the hell is this with this JS/TS community treatment? Some kindergarten?
+
+P.S. Especially
+ painful when LangOrg claims JS/TS libraries are 100% officially supported... Yeah, right.
+```
+---
+
+     
+ 
+all -  [ Help needed for building an application  ](https://www.reddit.com/r/LangChain/comments/1gmi7bx/help_needed_for_building_an_application/) , 2024-11-09-0912
+```
+Hi I need help in building an AI summariser for court files for which we want to build a chatgot kinda interface app whe
+re we can upload files and that summariser will summarise some main points from that file.
+I need help in starting this 
+project. I want to know how should I move forward. 
+We are building this for college major project.
+Any help will be app
+reciated.
+```
+---
+
+     
+ 
+all -  [ Why are people hating LangChain so much, organisations are also not preferring projects built on top ](https://www.reddit.com/r/LangChain/comments/1gmfyi2/why_are_people_hating_langchain_so_much/) , 2024-11-09-0912
+```
+ gave a interview a few days back, the interviewer was pissed off cuz I used LangChain also every tech event that I go t
+o everybody literally everybody hate langchain every 'seeming' to be good developer.
+
+For me I've found out langchain is
+ great to get shit done, still people hate  
+Should I continue with langchain or custom build, import  things like these
+ so called other ' Experienced Developers' do
+```
+---
+
+     
+ 
+all -  [ Making LLMs Safe for Production: AWS Bedrock Guardrails + LangChain ](https://www.reddit.com/r/LangChain/comments/1gmez5j/making_llms_safe_for_production_aws_bedrock/) , 2024-11-09-0912
+```
+Hello everyone,
+
+I've been working with AWS Bedrock's guardrails system for LLMs in production, and I thought I'd share 
+my findings about implementing proper safety controls for AI systems.
+
+If you're deploying LLMs in production, you proba
+bly know the anxiety of wondering 'what if my model says something it shouldn't?' Well, AWS Bedrock has some interesting
+ built-in guardrails features that I've tested extensively. I wrote a detailed guide covering:
+
+* How guardrails actuall
+y work in AWS Bedrock
+* A complete implementation guide with LangChain
+* Real cost analysis (spoiler: it can be from fre
+e to $1.00 per 1000 text units depending on the features)
+* Step-by-step console setup with practical examples
+
+The inte
+resting part is that while everyone talks about prompt engineering for safety, systematic guardrails are actually crucia
+l for production systems - and they're surprisingly easy to implement with Bedrock.
+
+If you're interested, check out my 
+post [here](https://www.metadocs.co/2024/11/08/make-your-chat-and-rag-application-safe-with-aws-bedrock-guardrails/).
+
+L
+et me know if you have any questions! I'm particularly curious to hear if anyone else has experience with other guardrai
+l systems and how they compare to Bedrock's implementation.
+
+Have a nice read! :D
+```
+---
+
+     
+ 
+all -  [ Azure AI Search Retriever Returning Random Documents Instead of Relevant Ones - How to Fix? ](https://www.reddit.com/r/Azure_AI_Cognitive/comments/1gme1y9/azure_ai_search_retriever_returning_random/) , 2024-11-09-0912
+```
+# Inconsistent Document Retrieval Results with Azure AI Search Retriever: Need Help
+
+# Problem Description
+
+I'm experien
+cing inconsistent document retrieval results when using `AzureAISearchRetriever`. When querying about policies, sometime
+s I get the correct policy-related documents, but other times I get completely unrelated documents, even with the same e
+xact query.
+
+# Current Implementation
+
+Here's my current code:
+
+retriever = AzureAISearchRetriever(  
+content\_key='cont
+ent',  
+top\_k=5,  
+index\_name='my\_index\_name'  
+)
+
+# Example Scenario
+
+* **Question**: 'What is the company policy f
+or X?'
+* **Expected**: Should consistently return documents related to the specific policy I'm asking about
+* **Actual R
+esult**:
+   * First try: Gets relevant policy documents
+   * Second try (same query): Gets random documents about differ
+ent topics
+   * Third try: Sometimes gets partially relevant documents
+
+# Questions
+
+1. Why am I getting inconsistent re
+sults for the same query?
+2. How can I ensure the retriever consistently returns relevant documents?
+3. Are there specif
+ic configurations or parameters I should add to improve accuracy?
+4. What's the best practice for setting up AzureAISear
+chRetriever for consistent results?
+
+# Technical Details
+
+* Using Azure AI Search with Python
+* Retrieving top 5 documen
+ts
+* Basic implementation without any special configurations
+* Using the latest version of the Azure AI Search SDK
+
+Any 
+help or guidance would be greatly appreciated! I'm new to Azure AI Search and would love to understand why this is happe
+ning and how to fix it.
+
+\#azureaisearch #python #langchain
+```
+---
+
+     
+ 
+all -  [ Query Limit Exceeded in Milvus: How to Retrieve More than 30K Results? ](https://www.reddit.com/r/LangChain/comments/1gma4j7/query_limit_exceeded_in_milvus_how_to_retrieve/) , 2024-11-09-0912
+```
+
+Hello everyone,
+I'm working on a project where I need to query a large collection in Milvus and retrieve more than 30,0
+00 results based on similarity search. However, when I attempt this, I get the following error:
+ sql
+ 
+ 
+ RPC error: [qu
+ery], <MilvusException: (code=65535, message=invalid max query result window, (offset+limit) should be in range [1, 1638
+4], but got 30000)>
+ Error retrieving data from Milvus: <MilvusException: (code=65535, message=invalid max query result 
+window, (offset+limit) should be in range [1, 16384], but got 30000)>
+It seems the offset + limit constraint in Milvus l
+imits queries to a maximum of 16,384 results, which is far below the 30K+ results I need to retrieve for my use case.
+Qu
+estions:
+ Is there a recommended way to retrieve a large volume of data (e.g., 30K+ records) from a Milvus collection?
+ 
+Can I perform this retrieval in batches, or is there another efficient workaround?
+ Are there any best practices for han
+dling large query results in Milvus to avoid this kind of limitation?
+Any guidance or suggestions for retrieving large d
+atasets in Milvus would be greatly appreciated. Thank you!
+```
+---
+
+     
+ 
+all -  [ Query Limit Exceeded in Milvus: How to Retrieve More than 30K Results? ](https://www.reddit.com/r/LangChain/comments/1gma2gl/query_limit_exceeded_in_milvus_how_to_retrieve/) , 2024-11-09-0912
+```
+
+Hello everyone,
+I'm working on a project where I need to query a large collection in Milvus and retrieve more than 30,0
+00 results based on similarity search. However, when I attempt this, I get the following error:
+ sql
+ 
+ 
+ RPC error: [qu
+ery], <MilvusException: (code=65535, message=invalid max query result window, (offset+limit) should be in range [1, 1638
+4], but got 30000)>
+ Error retrieving data from Milvus: <MilvusException: (code=65535, message=invalid max query result 
+window, (offset+limit) should be in range [1, 16384], but got 30000)>
+It seems the offset + limit constraint in Milvus l
+imits queries to a maximum of 16,384 results, which is far below the 30K+ results I need to retrieve for my use case.
+
+Q
+uestions:
+ Is there a recommended way to retrieve a large volume of data (e.g., 30K+ records) from a Milvus collection?
+
+ Can I perform this retrieval in batches, or is there another efficient workaround?
+ Are there any best practices for ha
+ndling large query results in Milvus to avoid this kind of limitation?
+Any guidance or suggestions for retrieving large 
+datasets in Milvus would be greatly appreciated. Thank you!
+```
+---
+
+     
+ 
+all -  [ New on langchain, any good youtube channel or course? ](https://www.reddit.com/r/LangChain/comments/1gm51vl/new_on_langchain_any_good_youtube_channel_or/) , 2024-11-09-0912
 ```
 Hi, everyone! I'm new on langchain, any advice for content or a good course?
 ```
@@ -7,7 +555,7 @@ Hi, everyone! I'm new on langchain, any advice for content or a good course?
 
      
  
-all -  [ How to Ensure Highly Relevant Search Results in Qdrant VectorStore with Metadata and Similarity Filt ](https://www.reddit.com/r/LangChain/comments/1gm4ebl/how_to_ensure_highly_relevant_search_results_in/) , 2024-11-08-0912
+all -  [ How to Ensure Highly Relevant Search Results in Qdrant VectorStore with Metadata and Similarity Filt ](https://www.reddit.com/r/LangChain/comments/1gm4ebl/how_to_ensure_highly_relevant_search_results_in/) , 2024-11-09-0912
 ```
 I'm working with Qdrant to build a search system for a diverse set of documents. My goal is to retrieve only the most re
 levant results for a given query, avoiding unrelated documents even if they share similar keywords. For example, I have 
@@ -44,7 +592,7 @@ nks in advance for any guidance or recommendations!
 
      
  
-all -  [ Tutorial on building agent with memory using Letta  ](https://www.reddit.com/r/AI_Agents/comments/1glzob6/tutorial_on_building_agent_with_memory_using_letta/) , 2024-11-08-0912
+all -  [ Tutorial on building agent with memory using Letta  ](https://www.reddit.com/r/AI_Agents/comments/1glzob6/tutorial_on_building_agent_with_memory_using_letta/) , 2024-11-09-0912
 ```
 Hi all - I'm one of the creators of [Letta](https://github.com/letta-ai/letta), an agents framework focused on memory, a
 nd we just released a free short [course](https://www.deeplearning.ai/short-courses/llms-as-operating-systems-agent-memo
@@ -66,7 +614,7 @@ ought the course might be interesting to people here!
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1glziro/list_of_free_and_best_selling_discounted_courses/) , 2024-11-08-0912
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1glziro/list_of_free_and_best_selling_discounted_courses/) , 2024-11-09-0912
 ```
 # Udemy Free Courses for 08 November 2024
 
@@ -304,7 +852,7 @@ ERTIFICATE – [CLICK HERE](https://idownloadcoupon.com/)
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1glzid0/list_of_free_and_best_selling_discounted_courses/) , 2024-11-08-0912
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1glzid0/list_of_free_and_best_selling_discounted_courses/) , 2024-11-09-0912
 ```
 # Udemy Free Courses for 08 November 2024
 
@@ -542,7 +1090,7 @@ ERTIFICATE – [CLICK HERE](https://www.reddit.com/r/udemyfreeebies/)
 
      
  
-all -  [ Space vs NewLine issues in pdf extractor. ](https://www.reddit.com/r/LangChain/comments/1glza5b/space_vs_newline_issues_in_pdf_extractor/) , 2024-11-08-0912
+all -  [ Space vs NewLine issues in pdf extractor. ](https://www.reddit.com/r/LangChain/comments/1glza5b/space_vs_newline_issues_in_pdf_extractor/) , 2024-11-09-0912
 ```
 Hi Folks,   
 I have a bunch of pdfs that I need to process and build a RAG application (hopefully!). 
@@ -590,7 +1138,7 @@ age_data = all_page_data
 
      
  
-all -  [ Any open source free translation library suggestion (Arabic and Spanish language specially) ](https://www.reddit.com/r/LangChain/comments/1glum8x/any_open_source_free_translation_library/) , 2024-11-08-0912
+all -  [ Any open source free translation library suggestion (Arabic and Spanish language specially) ](https://www.reddit.com/r/LangChain/comments/1glum8x/any_open_source_free_translation_library/) , 2024-11-09-0912
 ```
 I am working on a RAG based application . I wanted to add translation feature in my chatbot that translates the response
  given by the LLM. I have tried Argotranslate and MarianMT libraries earlier but they were not performing upto the mark.
@@ -600,7 +1148,7 @@ I am working on a RAG based application . I wanted to add translation feature in
 
      
  
-all -  [ Can you achieve determinstic results in langchain + openai gpt-4o ](https://www.reddit.com/r/LangChain/comments/1glu82k/can_you_achieve_determinstic_results_in_langchain/) , 2024-11-08-0912
+all -  [ Can you achieve determinstic results in langchain + openai gpt-4o ](https://www.reddit.com/r/LangChain/comments/1glu82k/can_you_achieve_determinstic_results_in_langchain/) , 2024-11-09-0912
 ```
 Hey,  
 I am experincing non-determinism while working with gpt-4o through langchain - everything is constant as far as i
@@ -613,7 +1161,7 @@ m-and-reproducible-output-do-not-work/487245) Is it true that you cannot achieve
 
      
  
-all -  [ How Can I show an image in the Chatbot as a output. ](https://www.reddit.com/r/LangChain/comments/1glu7wn/how_can_i_show_an_image_in_the_chatbot_as_a_output/) , 2024-11-08-0912
+all -  [ How Can I show an image in the Chatbot as a output. ](https://www.reddit.com/r/LangChain/comments/1glu7wn/how_can_i_show_an_image_in_the_chatbot_as_a_output/) , 2024-11-09-0912
 ```
 Hi everyone, I have been developing an Customer Chatbot on Langraph. With this chatbot customers can be able to ask ques
 tions about products we sell. And I wonder how can I show an image as output in the chatbot. For example when a customer
@@ -624,53 +1172,42 @@ tions about products we sell. And I wonder how can I show an image as output in 
 
      
  
-all -  [ Issues with Chain Customization | LangChain Natural language to SQL Query ](https://www.reddit.com/r/LangChain/comments/1gls1kt/issues_with_chain_customization_langchain_natural/) , 2024-11-08-0912
+all -  [ Issues with Chain Customization | LangChain Natural language to SQL Query ](https://www.reddit.com/r/LangChain/comments/1gls1kt/issues_with_chain_customization_langchain_natural/) , 2024-11-09-0912
 ```
 I’ve been working on building a LangChain setup that performs a full SQL query process in multiple steps:
-1. Generate SQ
-L Query - Create an SQL query based on the user’s input.
-2. Validate the Query - Prompt the LLM with the original user q
-uestion and database context, and validate the generated query.
-3. Execute the Query - Run the validated query and store
- the results.
-4. Convert to Natural Language - Take the SQL result and reformat it for a human-readable response.
 
-Howev
-er, I’m running into issues with LangChain’s intermediate steps. Specifically:
-• create_sql_query_chain only seems to ac
-cept “query” as input, but I’d like to pass a custom variable name like unvalidated_query to the validation step.
-• For 
-the validation prompt, it only takes inputs passed to the main invoke() function, so I’m unable to customize input/outpu
-t names at each step.
+1. **Generate
+ SQL Query** \- Create an SQL query based on the user’s input.
+2. **Validate the Query** \- Prompt the LLM with the orig
+inal user question and database context, and validate the generated query.
+3. **Execute the Query** \- Run the validated
+ query and store the results.
+4. **Convert to Natural Language** \- Take the SQL result and reformat it for a human-read
+able response.
+
+However, I’m running into issues with LangChain’s intermediate steps. Specifically: • create\_sql\_query
+\_chain only seems to accept “query” as input, but I’d like to pass a custom variable name like unvalidated\_query to th
+e validation step. • For the validation prompt, it only takes inputs passed to the main invoke() function, so I’m unable
+ to customize input/output names at each step.
 
 Here’s the chain I’m trying to build:
 
-‘’’
-validated_query_chain = validation_prompt | llm | StrO
-utputParser()
+`validated_query_chain = validati
+on_prompt | llm | StrOutputParser()`
 
-final_chain = RunnablePassthrough.assign(
-    query=create_sql_query_chain, 
-    validated_query=validate
-d_query_chain,
-    result=execute_query_chain
-) | {
-    'answer': answer_back_to_natural_language_prompt | llm | StrOutp
-utParser(),
-    'query': query,
-    'validated_query': validated_query
- }
-‘’’
+`final_chain = RunnablePassthrough.assign( query=create_sql_query_chain,          
+     validated_query=validated_query_chain, result=execute_query_chain ) | { 'answer': answer_back_to_natural_language_p
+rompt | llm | StrOutputParser(), 'query': query, 'validated_query': validated_query }`
 
-The goal is to have the chain return the 
-initial query, validated query, and final answer in natural language. Any insights on customizing LangChain’s built-in f
-unction names or managing input/output variables for each step?
+The goal is to have the chain re
+turn the initial query, validated query, and final answer in natural language. Any insights on customizing LangChain’s b
+uilt-in function names or managing input/output variables for each step?
 ```
 ---
 
      
  
-all -  [ Customizing LLM templates with YAML configuration files- without altering Python scripts. ](https://www.reddit.com/r/LangChain/comments/1glq66t/customizing_llm_templates_with_yaml_configuration/) , 2024-11-08-0912
+all -  [ Customizing LLM templates with YAML configuration files- without altering Python scripts. ](https://www.reddit.com/r/LangChain/comments/1glq66t/customizing_llm_templates_with_yaml_configuration/) , 2024-11-09-0912
 ```
 Hey everyone,
 
@@ -705,15 +1242,7 @@ Would love to hear your feedback, experiences or any tips you might have!
 
      
  
-all -  [ Building AI Applications with Enterprise-Grade Security Using FGA and RAG ](https://www.permit.io/blog/building-ai-applications-with-enterprise-grade-security-using-fga-and-rag) , 2024-11-08-0912
-```
-
-```
----
-
-     
- 
-all -  [ Does anyone have Cybersecurity related Datasets for llama2 for finetuning? ](https://www.reddit.com/r/LocalLLaMA/comments/1glnk1t/does_anyone_have_cybersecurity_related_datasets/) , 2024-11-08-0912
+all -  [ Does anyone have Cybersecurity related Datasets for llama2 for finetuning? ](https://www.reddit.com/r/LocalLLaMA/comments/1glnk1t/does_anyone_have_cybersecurity_related_datasets/) , 2024-11-09-0912
 ```
 Hey there sub!  I have been working on my own LLM workflow with RAG (llamaindex/langchain) in google colab. But I origin
 ally planned to fine-tune llama2-7b-chat with cybersecurity related knowledge base. 
@@ -730,7 +1259,7 @@ n confident :D
 
      
  
-all -  [ Sitting at home after graduation. Roast my resume cause I am not getting back interview calls. ](https://i.redd.it/6buqaqvuigzd1.jpeg) , 2024-11-08-0912
+all -  [ Sitting at home after graduation. Roast my resume cause I am not getting back interview calls. ](https://i.redd.it/6buqaqvuigzd1.jpeg) , 2024-11-09-0912
 ```
 I graduated in June this year and left companies at campus placement in hopes of getting a better package 5 months later
  I am sitting jobless and getting no calls. Review my resume and help me fix it.
@@ -739,7 +1268,7 @@ I graduated in June this year and left companies at campus placement in hopes of
 
      
  
-all -  [ My first LLM with RAG ](https://www.reddit.com/r/LangChain/comments/1glnf0w/my_first_llm_with_rag/) , 2024-11-08-0912
+all -  [ My first LLM with RAG ](https://www.reddit.com/r/LangChain/comments/1glnf0w/my_first_llm_with_rag/) , 2024-11-09-0912
 ```
 Hello, I just downloaded Ollama and I only wanna use LLM for fixing the errors my ASR model made. I will use RAG to give
  information about how to fix those errors, such as terminology etc. I wanna do this as fast as possible so can you give
@@ -752,7 +1281,7 @@ d and give correct Turkish texts.
 
      
  
-all -  [ AI Tools for Data Scientists: Which Ones Should You Be Using in 2025? ](https://www.reddit.com/r/AIForDataAnalysis/comments/1glmp1l/ai_tools_for_data_scientists_which_ones_should/) , 2024-11-08-0912
+all -  [ AI Tools for Data Scientists: Which Ones Should You Be Using in 2025? ](https://www.reddit.com/r/AIForDataAnalysis/comments/1glmp1l/ai_tools_for_data_scientists_which_ones_should/) , 2024-11-09-0912
 ```
 As we head towards 2025, the AI landscape continues to evolve, offering a range of powerful tools tailored for data scie
 ntists. Whether you're a beginner or a seasoned pro, it’s essential to stay up-to-date with the tools that can make your
@@ -837,7 +1366,7 @@ I tools are your favorites? Are there any you’re excited to try in 2024? Share
 
      
  
-all -  [ conversational chat history in prompt ](https://www.reddit.com/r/LangChain/comments/1gllhwz/conversational_chat_history_in_prompt/) , 2024-11-08-0912
+all -  [ conversational chat history in prompt ](https://www.reddit.com/r/LangChain/comments/1gllhwz/conversational_chat_history_in_prompt/) , 2024-11-09-0912
 ```
 Hi all  
 I am trying out a way to include chat history in the prompt for RAG to maintain previous context.   
@@ -855,7 +1384,7 @@ can anyone share their views in this?
 
      
  
-all -  [ Is it possible to have a streamlit multiselect input with default values that are not present in col ](https://www.reddit.com/r/LangChain/comments/1glku97/is_it_possible_to_have_a_streamlit_multiselect/) , 2024-11-08-0912
+all -  [ Is it possible to have a streamlit multiselect input with default values that are not present in col ](https://www.reddit.com/r/LangChain/comments/1glku97/is_it_possible_to_have_a_streamlit_multiselect/) , 2024-11-09-0912
 ```
 Hi everyone,  
 I’m developing a streamlit app where I want my streamlit multiselect to have default values ( array ) bas
@@ -879,7 +1408,7 @@ ly. Therefore, reposting here.
 
      
  
-all -  [ People who make langchain based chatbot, how do you make sure it is responsive and replies back in f ](https://www.reddit.com/r/Langchaindev/comments/1gl4o0o/people_who_make_langchain_based_chatbot_how_do/) , 2024-11-08-0912
+all -  [ People who make langchain based chatbot, how do you make sure it is responsive and replies back in f ](https://www.reddit.com/r/Langchaindev/comments/1gl4o0o/people_who_make_langchain_based_chatbot_how_do/) , 2024-11-09-0912
 ```
 I’ve built so many langchain based chatbots & one thing that always tips off the clients is the response time. What do y
 ou in such scenarios?
@@ -888,7 +1417,7 @@ ou in such scenarios?
 
      
  
-all -  [ Need help regarding some preparation ](https://www.reddit.com/r/LLMDevs/comments/1gl3wtl/need_help_regarding_some_preparation/) , 2024-11-08-0912
+all -  [ Need help regarding some preparation ](https://www.reddit.com/r/LLMDevs/comments/1gl3wtl/need_help_regarding_some_preparation/) , 2024-11-09-0912
 ```
 I have a live coding test (30min) coming up for an AI/ML LLM internship. The internship requires knowledge of python, NL
 P, LLMs, Langchain, Tensorflow, Pytorch, RAG and prompt engineering. I have some knowledge of everything except RAG. 
@@ -903,7 +1432,7 @@ Urgent!!!!!
 
      
  
-all -  [ Text-to-Table: Extracting Unstructured Data from a Large Legal Text ](https://www.reddit.com/r/LangChain/comments/1gl3pl7/texttotable_extracting_unstructured_data_from_a/) , 2024-11-08-0912
+all -  [ Text-to-Table: Extracting Unstructured Data from a Large Legal Text ](https://www.reddit.com/r/LangChain/comments/1gl3pl7/texttotable_extracting_unstructured_data_from_a/) , 2024-11-09-0912
 ```
 Hi everyone! I'm working with a lengthy HTML document of about 1,500 pages of legal text, and I need to extract data on 
 items and goods, such as tax rates, to build a structured table.
@@ -924,7 +1453,7 @@ Thank you in advance!
 
      
  
-all -  [ Cost effective solutions for talking with your database  ](https://www.reddit.com/r/LangChain/comments/1gl3082/cost_effective_solutions_for_talking_with_your/) , 2024-11-08-0912
+all -  [ Cost effective solutions for talking with your database  ](https://www.reddit.com/r/LangChain/comments/1gl3082/cost_effective_solutions_for_talking_with_your/) , 2024-11-09-0912
 ```
 I am currently working on an application where user can enter his query in natural language and the answer would be gene
 rated basis the results from database. Database is the source of data for answering any queries. 
@@ -946,7 +1475,7 @@ erve was generally the top models are the ones that perform reliably for this pa
 
      
  
-all -  [ Dyanmic Data Source ](https://www.reddit.com/r/LangChain/comments/1gl0luf/dyanmic_data_source/) , 2024-11-08-0912
+all -  [ Dyanmic Data Source ](https://www.reddit.com/r/LangChain/comments/1gl0luf/dyanmic_data_source/) , 2024-11-09-0912
 ```
 I want to build a RAG system using data stored in an S3 bucket. The data in this bucket grows by approximately 100 new r
 ecords (PDFs) daily, with each record averaging around 500 words. What would be the best approach to implement a RAG sol
@@ -958,7 +1487,7 @@ ution that can handle this continuous data expansion efficiently?
 
      
  
-all -  [ Easiest way to launch paid AI tools/wrappers? ](https://www.reddit.com/r/OpenAI/comments/1gl082q/easiest_way_to_launch_paid_ai_toolswrappers/) , 2024-11-08-0912
+all -  [ Easiest way to launch paid AI tools/wrappers? ](https://www.reddit.com/r/OpenAI/comments/1gl082q/easiest_way_to_launch_paid_ai_toolswrappers/) , 2024-11-09-0912
 ```
 **I want to create a few simple AI tools** (similar to twitterbio.io for example). Basically I get text from the user an
 d based on custom prompts/instructions I give them a list of ideas (text generated with OpenAI API). I might want to acc
@@ -986,7 +1515,7 @@ General advice and specific tools are both welcomed ;)
 
      
  
-all -  [ On-Premise GPU Servers vs. Cloud for Agentic AI: Which Is the REAL Money Saver? ](https://www.reddit.com/r/LangChain/comments/1gkzjf2/onpremise_gpu_servers_vs_cloud_for_agentic_ai/) , 2024-11-08-0912
+all -  [ On-Premise GPU Servers vs. Cloud for Agentic AI: Which Is the REAL Money Saver? ](https://www.reddit.com/r/LangChain/comments/1gkzjf2/onpremise_gpu_servers_vs_cloud_for_agentic_ai/) , 2024-11-09-0912
 ```
 I’ve got a pipeline with 5 different agent calls, and I need to scale for at least 50-60 simultaneous users. I’m hosting
  Ollama, using Llama 3.2 90B, Codestral, and some SLM. Data security is a key factor here, which is why I can’t rely on 
@@ -1003,7 +1532,7 @@ ould I stick with the cloud? And if on-premise, what are the scaling limitations
 
      
  
-all -  [ Ask me for any AI agent implementation  ](https://i.redd.it/rhjzwluhgazd1.png) , 2024-11-08-0912
+all -  [ Ask me for any AI agent implementation  ](https://i.redd.it/rhjzwluhgazd1.png) , 2024-11-09-0912
 ```
 Imagine you had a genie who could solve any problem you wanted...
 
@@ -1032,7 +1561,7 @@ https://www.tensorops.ai/aiagentsonlinehackathon
 
      
  
-all -  [ A Web AI agent framework I'm planning on open sourcing ](https://www.reddit.com/r/OpenAI/comments/1gkytyh/a_web_ai_agent_framework_im_planning_on_open/) , 2024-11-08-0912
+all -  [ A Web AI agent framework I'm planning on open sourcing ](https://www.reddit.com/r/OpenAI/comments/1gkytyh/a_web_ai_agent_framework_im_planning_on_open/) , 2024-11-09-0912
 ```
 Hey! I’ve been building a simple framework called Dendrite for interacting with websites using natural language. Instead
  of having to find brittle css selectors or xpaths you can describe them with natural language.
@@ -1058,7 +1587,7 @@ tube.com/watch?v=yChAUerKKxo&feature=youtu.be)
 
      
  
-all -  [ How to chunk effectively on very large pdf file (a book for example) ? ](https://www.reddit.com/r/LangChain/comments/1gkx5kn/how_to_chunk_effectively_on_very_large_pdf_file_a/) , 2024-11-08-0912
+all -  [ How to chunk effectively on very large pdf file (a book for example) ? ](https://www.reddit.com/r/LangChain/comments/1gkx5kn/how_to_chunk_effectively_on_very_large_pdf_file_a/) , 2024-11-09-0912
 ```
 Hi everyone,
 
@@ -1079,7 +1608,7 @@ Thanks everyone.
 
      
  
-all -  [ Easiest way to launch paid AI tools/wrappers? ](https://www.reddit.com/r/startups/comments/1gkx0cm/easiest_way_to_launch_paid_ai_toolswrappers/) , 2024-11-08-0912
+all -  [ Easiest way to launch paid AI tools/wrappers? ](https://www.reddit.com/r/startups/comments/1gkx0cm/easiest_way_to_launch_paid_ai_toolswrappers/) , 2024-11-09-0912
 ```
 **I want to create a few simple AI tools** (similar to twitterbio.io for example). Basically I get text from the user an
 d based on custom prompts/instructions I give them ideas (text generated with an AI API). I might want to accept also UR
@@ -1107,7 +1636,7 @@ General advice and specific tools are both welcomed ;)
 
      
  
-all -  [ SupabaseVectoreStore ](https://www.reddit.com/r/LangChain/comments/1gkvhjc/supabasevectorestore/) , 2024-11-08-0912
+all -  [ SupabaseVectoreStore ](https://www.reddit.com/r/LangChain/comments/1gkvhjc/supabasevectorestore/) , 2024-11-09-0912
 ```
 Hello , i'm using langchain js along with Supabase,   
 let me give you simple example   
@@ -1141,124 +1670,7 @@ worthy to not this is not related to tHe max Rows 10
 
      
  
-all -  [ OpenAI history compression ](https://www.reddit.com/r/LangChain/comments/1gkv200/openai_history_compression/) , 2024-11-08-0912
-```
-Hi,
-
-I'm trying to build a prompt compression logic using vector embeddings and similarity search. My goal is to save to
-kens by compressing conversation history, keeping only the most relevant parts based on the user's latest query. This wo
-uld be particularly useful when approaching token limits in consecutive messages.
-
-I was wondering if something like thi
-s has already been implemented, perhaps in a cookbook or similar resource, instead of writing my own crappy solution. Is
- this even considered a common approach? Ideally, I'm looking for something that takes OpenAI messages format as input a
-nd outputs the same structured messages with irrelevant context redacted.
-```
----
-
-     
- 
-all -  [ Looking for tech-cofounder with in-depth experience of large AI-RAG systems in production with advan ](https://www.reddit.com/r/LangChain/comments/1gkuul5/looking_for_techcofounder_with_indepth_experience/) , 2024-11-08-0912
-```
-**I am building an AI system to solve this problem using Advanced RAG:** In anybody's professional field say SEO, AI, Fi
-nance and many others, new content is published everyday covering news, solutions, techniques and others. Keeping abreas
-t with such explosion of content is humanly not possible. Lot of content has overlapping, repeated and even pieces of kn
-owledge that you are already familiar with and so on. Anybody is mostly interested in unique, fresh pieces of knowledge,
- those nuggets and gems of knowledge not known to them already, without countless hours of reading / watching videos etc
-.
-
-If you are interested in building a solution for this along with me and have in-depth experience of building advanced
- RAG systems in production and scaling them, please connect.
-```
----
-
-     
- 
-all -  [ Need help/suggestion: So I want to use an LLM to evaluate human and AI models responses to medical q ](https://www.reddit.com/r/LangChain/comments/1gkuk2s/need_helpsuggestion_so_i_want_to_use_an_llm_to/) , 2024-11-08-0912
-```
-I want to know what would be the best way of doings, what should be my approach?. I want to compare how good or bad are 
-the responses of AI model compare to the human ones. 
-```
----
-
-     
- 
-all -  [ My Rag chatbot suddenly started giving no/unmatched responses... ](https://www.reddit.com/r/LangChain/comments/1gku4dd/my_rag_chatbot_suddenly_started_giving/) , 2024-11-08-0912
-```
-Hi guys,   
-I have developed a RAG-based chatbot( Retriever - Cohere; VectorDB - ChromaDB; memory chain - conversational
- buffer memory; LLM - Mistral 7b Instruct (inference API); Front end - Flask)... It gave an excellent response maybe a w
-eek back, but now when I ask questions, it is not even showing any responses. It sometimes gives the answer, but for the
- follow-up questions, its not give any answer and the memory also becomes empty.... I don't know where the problem is an
-d where to proceed to solve it... Pls help me rectify it, if u want any other information regarding the implementations,
- I will send it...
-```
----
-
-     
- 
-all -  [ Stop pandas dataframe agent from timing out ](https://www.reddit.com/r/LangChain/comments/1gkt383/stop_pandas_dataframe_agent_from_timing_out/) , 2024-11-08-0912
-```
-I have two columns in two dataframes which I need to compare, which I am doing using a pandas dataframe agent. Now one o
-f the dataframes is around 700 rows long, and the other is small, but the token limit is being breached, unless I make t
-he other dataframe smaller. Does anyone have any ideas on how to approach this?
-```
----
-
-     
- 
-all -  [ How to Combine RAG and Function Calling for a Hybrid Chatbot? ](https://www.reddit.com/r/LangChain/comments/1gksk4g/how_to_combine_rag_and_function_calling_for_a/) , 2024-11-08-0912
-```
-I'm building a chatbot using RAG to answer general information queries for a health-related website, such as 'What are c
-ommon symptoms of high blood pressure?' or 'How does a balanced diet benefit mental health?' These are publicly availabl
-e answers that don’t require user-specific information.
-
-However, I also want the bot to handle member-specific requests
-, like 'Show my latest lab results' or 'When is my next scheduled appointment?' For these personalized queries, I plan t
-o use OpenAI's function calling to connect with an external API and fetch user-specific data securely.
-
-  
-I'm looking f
-or advice on how to structure this system so that it can:
-
-1. **Accurately classify** incoming queries as either general
- information (handled by RAG) or user-specific (requiring function calling).
-2. **Route queries accordingly** to either 
-the RAG model or an API call, without requiring user intervention.
-```
----
-
-     
- 
-all -  [ Open-source declarative framework to build LLM apps - looking for contributors ](https://www.reddit.com/r/developersIndia/comments/1gkq6y9/opensource_declarative_framework_to_build_llm/) , 2024-11-08-0912
-```
-I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
-I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
- behind the curtains even for very simple stuff.
-
-[So I just published this open-source framework GenSphere.](https://gi
-thub.com/octopus2023-inc/gensphere) The idea is have something like **Docker for LLMs**. You build applications with YAM
-L files, that define an execution graph. Nodes can be either LLM API calls, regular function executions or other graphs 
-themselves. Because you can nest graphs easily, building complex applications is not an issue, but at the same time you 
-don't lose control.
-
-You basically code in YAML, stating what are the tasks that need to be done and how they connect. O
-ther than that, you only write individual python functions to be called during the execution. No new classes and abstrac
-tions to learn.
-
-Its all open-source. **Now I'm looking for contributors** to adapt the framework for cycles and conditi
-onal nodes - which would allow full-fledged agentic system building. Anyone interested? Pls reach out  if you want to co
-ntribute, there are tons of things to do!
-
-PS: [you can read the detailed docs here,](https://gensphere.readthedocs.io/e
-n/latest/) And go over this quick [Google Colab tutorial.](https://github.com/octopus2023-inc/gensphere/blob/main/exampl
-es/gensphere_tutorial.ipynb)
-```
----
-
-     
- 
-all -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-08-0912
+MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-09-0912
 ```
 I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
 I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
@@ -1286,671 +1698,7 @@ al.ipynb)
 
      
  
-all -  [ PDF chat with source highlight ](https://www.reddit.com/r/LangChain/comments/1gkkm74/pdf_chat_with_source_highlight/) , 2024-11-08-0912
-```
-We’ve released **Denser Chat** as an open-source project! You can chat with your uploaded PDF with source highlighted. 
-
-
-Check it out on GitHub: [https://github.com/denser-org/denser-chat](https://github.com/denser-org/denser-chat)
-
-✨ Extra
-ct text & tables from PDFs  
-🤖 Build chatbots with [denser-retriever](https://github.com/denser-org/denser-retriever)  
-
-💬 Interactive Streamlit app w/ PDF source highlights
-
-Boost transparency & power up your AI projects! 💼 #opensource #AI 
-#DenserChat
-```
----
-
-     
- 
-all -  [ How to use a pgvector db as a retriever in a chain? ](https://www.reddit.com/r/LangChain/comments/1gkibvy/how_to_use_a_pgvector_db_as_a_retriever_in_a_chain/) , 2024-11-08-0912
-```
-Apologies if some of this doesn't make sense, I'm pretty new to Python and Langchain so please bear with me. 
-
-Earlier t
-his year I created a simple RAG chatbot using Langchain and Chainlit. The embeddings were stored in a pgvector enabled P
-ostgres database in GCP Cloud SQL. I packaged it up in a container and hosted it on GCP Cloud Run. It worked great.
-
-I'm
- trying to create a new chatbot using a new dataset but the same architecture as the previous one. I've updated Langchai
-n and it seems some of the code from my previous chatbot is no longer working. Here's the portion I'm struggling with. T
-his is a bit of code from the OLD chatbot that worked fine:
-
-    store = PGVector(
-        collection_name=COLLECTION_NA
-ME,
-        connection_string=CONNECTION_STRING,
-        embedding_function=embeddings,
-    )
-    
-    retriever = store
-.as_retriever()
-    
-    template = '''My system prompt
-    Context: {context}
-    Question: {question}
-    '''    
-    
-
-    prompt = ChatPromptTemplate.from_template(template)
-        
-    chain = (
-        {'context': retriever, 'question
-': RunnablePassthrough()}
-    | prompt
-    | llm
-    | StrOutputParser())
-
-I should also point out that the above chatbo
-t was written for Gemini, prior to when Gemini supported a system prompt so I had to convert the first human message to 
-system.
-
-Here's the same bit of code from the NEW chatbot that I'm trying to create. I'm using a different ChatPromptTem
-plate method because Gemini now supports a system prompt and from\_messages is giving me better results than from\_templ
-ate. So the only thing that has changed is changing the ChatPromptTemplate from from\_template to from\_messages, but no
-w I'm not sure how to structure the actual chain. I've tried a few things but nothing is working. Any ideas?
-
-I also wan
-t to point out that the code below works perfectly fine as-is (well, the entire file obviously), without the retriever. 
-I can do a chainlit run [main.py](http://main.py) on this file and it launches Chainlit and I can have a conversation wi
-th Gemini. The only thing I'm struggling with is how to insert the retriever into the chain.
-
-
-
-    store = PGVector(
-  
-      collection_name-COLLECTION_NAME,
-        connection_string=CONNECTION_STRING,
-        embedding_function=embedding
-s,
-    )
-    
-    retriever = store.as_retriever()
-    
-    system_template = '''My system template'''
-    
-    prompt_t
-emplate = ChatPromptTemplate.from_messages(
-        [('system', system_template), ('user', '{text}')]
-    )
-    
-    run
-nable = prompt_template | model | StrOutputParser()
-```
----
-
-     
- 
-all -  [ Check out EidolonAI, an open-source framework for AI agents ](https://www.reddit.com/r/agenticAI/comments/1gkhvsd/check_out_eidolonai_an_opensource_framework_for/) , 2024-11-08-0912
-```
-Hey folks!
-
-[Eidolon AI](https://github.com/eidolon-ai/eidolon) is an open-source project devoted to making agent develo
-pment simpler. It's not uncommon for us to write a demo with about 20% of the code you'd need to do the same with Llama 
-or Langchain.
-
-We're on the lookout for developers looking at the options available to them, and any potential contribut
-ors as well.
-
-August Data, the sponsors for this project, have been working on this framework for three years and is now
- looking for investors and 'interesting' customers.
-
-Come give us a look-see. We're always looking for stars to the repo
- as well to gain a broader audience. No hidden fees or fine print! You give the repo a star, we thank you thank you than
-k you, everyone feels good!
-```
----
-
-     
- 
-all -  [ Dendrite: Interact with websites with natural language instead of using css selectors ](https://www.reddit.com/r/Python/comments/1gkg23q/dendrite_interact_with_websites_with_natural/) , 2024-11-08-0912
-```
-**What my project does:**
-
-**Dendrite** is a simple framework for interacting with websites using natural language. Inte
-ract and extract without having to find brittle css selectors or xpaths like this:
-
-    browser.click(“the sign in butto
-n”)
-
-For the developers who like their code typed, specify what data you want with a Pydantic BaseModel and Dendrite ret
-urns it in that format with one simple function call. Built on top of playwright for a robust experience. This is an eas
-y way to give your AI agents the same web browsing capabilities as humans have. Integrates easily with frameworks such a
-s  Langchain, CrewAI, Llamaindex and more. 
-
-We are planning on **open sourcing** everything soon as well so feel free t
-o reach out to us if you’re interested in contributing!
-
-Github: [https://github.com/dendrite-systems/dendrite-python-sd
-k](https://github.com/dendrite-systems/dendrite-python-sdk)
-
-**Overview**
-
-* **Authenticate Anywhere**: Dendrite Vault, 
-our Chrome extension, handles secure authentication, letting your agents log in to almost any website.
-* **Interact Natu
-rally**: With natural language commands, agents can click, type, and navigate through web elements with ease.
-* **Extrac
-t and Manipulate Data**: Collect structured data from websites, return data from different websites in the same structur
-e without having to maintain different scripts.
-* **Download/Upload Files**: Effortlessly manage file interactions to an
-d from websites, equipping agents to handle documents, reports, and more.
-* **Resilient Interactions**: Dendrite's inter
-actions are designed to be resilient, adapting to minor changes in website structure to prevent workflows from breaking
-
-* **Full Compatibility**: Works with popular tools like LangChain and CrewAI, letting you seamlessly integrate Dendrite’
-s capabilities into your AI workflows.
-
-**Target Audience:**
-
-* Automation developers
-* Webscraping people
-* Web AI agen
-t developers
-* QA engineers
-
-**Comparison:**
-
-There are some frameworks for scraping information from websites with natu
-ral language prompts but there are no real alternatives when it comes to interacting with the websites as well as access
-ing data behind authentication. The most similar alternative would be something like Multion or some other fully autonom
-ous agent framework that doesn't really work
-```
----
-
-     
- 
-all -  [ Infinit Craft with Kobold ](https://www.reddit.com/r/KoboldAI/comments/1gkfur6/infinit_craft_with_kobold/) , 2024-11-08-0912
-```
-    Infinit Craft with Kobold
-    The code is based on https://github.com/githubpradeep/notebooks/blob/main/Infinite%20c
-raft%20game-1.ipynb
-    tested with https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/blob/main/Meta-Lla
-ma-3-8B-Instruct.Q8_0.gguf
-    
-    from langchain.output_parsers import PydanticOutputParser
-    from langchain.prompts
- import PromptTemplate
-    from langchain_core.messages import HumanMessage
-    from pydantic import BaseModel, Field
-  
-  from langchain_community.llms import KoboldApiLLM
-    
-    
-    class Craft(BaseModel):
-        word: str = Field(desc
-ription='the new word which was created')
-    
-    
-    class Crafter:
-        def __init__(self, local=False):
-    
-   
-         llm = KoboldApiLLM(endpoint='http://localhost:5001/', temperature=0.8, max_length=48)
-            parser = Pyda
-nticOutputParser(pydantic_object=Craft)
-    
-            prompt = PromptTemplate(
-                template='Answer the u
-ser query.\n{format_instructions}\n{query}\n',
-                input_variables=['query'],
-                partial_variab
-les={'format_instructions': parser.get_format_instructions()},
-            )
-    
-            chain = prompt | llm | par
-ser
-            self.chain = chain
-    
-        def craft(self, word1, word2):
-            while True:
-                t
-ry:
-    
-                    ans = self.chain.invoke({'query': f'''You are an AI that combines words to create meaningfu
-l new words. Always respond as JSON with no unnecessary information.
-                    For example:
-                  
-  Earth + Wind = Dust
-                    Fire + Water = Steam
-                    Earth + Water = Plant
-               
-     Dust + Earth = Planet
-                    Plant + Steam = Tea
-                    Planet + Wind = Storm
-           
-         Storm + Tea = Tempest
-                    Plant + Tempest = Tree
-                    Dust + Tree = Wood
-       
-             Fire + Wood = Campfire
-                    Dust + Water = Mud
-                    Campfire + Earth = Charco
-al
-                    Charcoal + Mud = Fossil
-                    Water + Fire = Steam
-                    Wind + Steam
- = Cloud
-                    {word1} + {word2} ='''})
-                    return ans.word
-                except:
-      
-              continue
-    import pygame
-    import sys
-    
-    
-    pygame.init()
-    
-    screen_width, screen_height
- = 1024, 576
-    screen = pygame.display.set_mode((screen_width, screen_height))
-    pygame.display.set_caption('Infinit
-e Craft')
-    
-    
-    background_color = (255, 255, 255)
-    text_color = (0, 0, 0)
-    box_color = (200, 200, 200)
-  
-  sidebar_color = (100, 100, 100)
-    element_color = (160, 160, 160)
-    element_text_color = text_color  # (255, 255, 
-255)
-    font_size = 24
-    font = pygame.font.Font(None, font_size)
-    
-    # Element combinations
-    combinations = 
-{
-        ('Fire', 'Water'): 'Steam',
-        # Add more combinations as needed
-    }
-    
-    sidebar_elements = ['Fire
-', 'Water', 'Earth', 'Wind', 'Soil', 'Seed']
-    sidebar_rects = []
-    
-    elements = []
-    
-    
-    class TextBox:
-
-        def __init__(self, text, pos, from_sidebar=False):
-            self.text = text
-            self.pos = pos
-     
-       self.rect = pygame.Rect(pos[0], pos[1], 120, 40)
-            self.dragging = False
-            self.from_sidebar 
-= from_sidebar
-    
-        def draw(self, screen):
-            draw_bordered_rounded_rect(screen, self.rect, box_color,
- box_color, 3, 5)
-            # pygame.draw.rect(screen, element_color, self.rect,1,1)
-            text_surface = font.r
-ender(self.text, True, element_text_color)
-            screen.blit(text_surface, (self.rect.x + 10, self.rect.y + 10))
- 
-   
-        def handle_event(self, event):
-            if event.type == pygame.MOUSEBUTTONDOWN:
-                if self.
-rect.collidepoint(event.pos):
-                    self.dragging = True
-                    self.offset_x = self.rect.x -
- event.pos[0]
-                    self.offset_y = self.rect.y - event.pos[1]
-    
-            elif event.type == pygame.
-MOUSEBUTTONUP:
-                self.dragging = False
-                if self.from_sidebar:
-                    # Snap ba
-ck to sidebar if it's not dragged into the main area
-                    if not (200 < self.rect.x < screen_width):
-    
-                    elements.remove(self)
-                    else:
-                        self.from_sidebar = False
-  
-          elif event.type == pygame.MOUSEMOTION:
-                if self.dragging:
-                    self.rect.x = eve
-nt.pos[0] + self.offset_x
-                    self.rect.y = event.pos[1] + self.offset_y
-    
-    
-    def init_sidebar(
-):
-        y = 100
-        sidebar_rects = []
-        for element in sidebar_elements:
-            rect = pygame.Rect(25
-, y, 150, 30)
-            sidebar_rects.append(rect)
-            y += 50
-        return sidebar_rects
-    
-    
-    side
-bar_rects = init_sidebar()
-    
-    import pygame
-    import sys
-    
-    pygame.init()
-    
-    screen_width, screen_he
-ight = 800, 600
-    screen = pygame.display.set_mode((screen_width, screen_height))
-    
-    WHITE = (255, 255, 255)
-   
- GREY = (200, 200, 200)
-    DARK_GREY = (100, 100, 100)
-    
-    font = pygame.font.Font(None, 30)
-    
-    sidebar_widt
-h = 200
-    sidebar_content_height = 5000  # Example content height
-    scroll_y = 0  # Scroll position
-    import pygam
-e.gfxdraw
-    
-    
-    def draw_rounded_rect(surface, rect, color, corner_radius):
-        
-    ''' Draw a rectangle wi
-th rounded corners.
-        Would prefer this:
-            pygame.draw.rect(surface, color, rect, border_radius=corner_r
-adius)
-        but this option is not yet supported in my version of pygame so do it ourselves.
-        We use anti-alia
-sed circles to make the corners smoother
-        '''
-        
-    if rect.width < 2 * corner_radius or rect.height < 2 *
- corner_radius:
-            raise ValueError(
-                f'Both height (rect.height) and width (rect.width) must be
- > 2 * corner radius ({corner_radius})')
-    
-        # need to use anti aliasing circle drawing routines to smooth the 
-corners
-        pygame.gfxdraw.aacircle(surface, rect.left + corner_radius, rect.top + corner_radius, corner_radius, col
-or)
-        pygame.gfxdraw.aacircle(surface, rect.right - corner_radius - 1, rect.top + corner_radius, corner_radius, co
-lor)
-        pygame.gfxdraw.aacircle(surface, rect.left + corner_radius, rect.bottom - corner_radius - 1, corner_radius,
- color)
-        pygame.gfxdraw.aacircle(surface, rect.right - corner_radius - 1, rect.bottom - corner_radius - 1, corner
-_radius,
-                                color)
-    
-        pygame.gfxdraw.filled_circle(surface, rect.left + corner_ra
-dius, rect.top + corner_radius, corner_radius, color)
-        pygame.gfxdraw.filled_circle(surface, rect.right - corner_
-radius - 1, rect.top + corner_radius, corner_radius,
-                                     color)
-        pygame.gfxdraw.
-filled_circle(surface, rect.left + corner_radius, rect.bottom - corner_radius - 1, corner_radius,
-                      
-               color)
-        pygame.gfxdraw.filled_circle(surface, rect.right - corner_radius - 1, rect.bottom - corner
-_radius - 1,
-                                     corner_radius, color)
-    
-        rect_tmp = pygame.Rect(rect)
-    
- 
-       rect_tmp.width -= 2 * corner_radius
-        rect_tmp.center = rect.center
-        pygame.draw.rect(surface, color
-, rect_tmp)
-    
-        rect_tmp.width = rect.width
-        rect_tmp.height -= 2 * corner_radius
-        rect_tmp.cente
-r = rect.center
-        pygame.draw.rect(surface, color, rect_tmp)
-    
-    
-    def draw_bordered_rounded_rect(surface,
- rect, color, border_color, corner_radius, border_thickness):
-        if corner_radius < 0:
-            raise ValueError
-(f'border radius ({corner_radius}) must be >= 0')
-    
-        rect_tmp = pygame.Rect(rect)
-        center = rect_tmp.ce
-nter
-    
-        if border_thickness:
-            if corner_radius <= 0:
-                pygame.draw.rect(surface, bord
-er_color, rect_tmp)
-            else:
-                draw_rounded_rect(surface, rect_tmp, border_color, corner_radius)
-
-    
-            rect_tmp.inflate_ip(-2 * border_thickness, -2 * border_thickness)
-            inner_radius = corner_rad
-ius - border_thickness + 1
-        else:
-            inner_radius = corner_radius
-    
-        if inner_radius <= 0:
-   
-         pygame.draw.rect(surface, color, rect_tmp)
-        else:
-            draw_rounded_rect(surface, rect_tmp, color
-, inner_radius)
-    
-    
-    def draw_sidebar(screen, sidebar_rects, scroll_y):
-        pygame.draw.rect(screen, sideba
-r_color, [0, 0, 200, screen_height], 1, 1)
-        scrollable_area = pygame.Rect(0, scroll_y, sidebar_width, sidebar_con
-tent_height)
-    
-        for idx, rect in enumerate(sidebar_rects):
-            rect.y += scrollable_area.y
-           
- draw_bordered_rounded_rect(screen, rect, box_color, box_color, 3, 5)
-            text_surface = font.render(sidebar_ele
-ments[idx], True, text_color)
-            screen.blit(text_surface, (rect.x + 5, rect.y + 5))
-    
-    
-    crafter = Cr
-after()
-    
-    
-    def merge_elements(elements, sidebar_elements):
-        for i, elem1 in enumerate(elements):
-     
-       for j, elem2 in enumerate(elements):
-                if i != j:  # Ensure not checking the same element
-         
-           if elem1.rect.colliderect(elem2.rect):  # Check for collision
-                        if not elem1.from_sideb
-ar and not elem2.from_sidebar:
-                            # Concatenate the text to create a new element
-              
-              new_text = crafter.craft(elem1.text, elem2.text)
-                            # new_text = elem1.text+ elem
-2.text
-                            if new_text not in sidebar_elements:
-                                sidebar_elements
-.append(new_text)
-                            new_pos = (elem1.pos[0], elem1.pos[1])
-                            # Creat
-e the new element and add it to the list
-                            new_element = TextBox(new_text, elem1.pos)
-        
-                    new_element.rect.x = elem1.rect.x
-                            new_element.rect.y = elem1.rect.y
-    
-                        elements.append(new_element)
-                            elements.remove(elem1)
-                
-            elements.remove(elem2)
-                            return
-    def main():
-        offset = 0
-        scroll_
-y = 0
-        scroll_speed = 1
-        clock = pygame.time.Clock()
-        running = True
-        running = True
-       
- clock = pygame.time.Clock()
-    
-        while running:
-            for event in pygame.event.get():
-                if
- event.type == pygame.QUIT:
-                    running = False
-                elif event.type == pygame.MOUSEBUTTONDOW
-N:
-    
-                    if event.button == 1:
-                        for idx, rect in enumerate(sidebar_rects):
-   
-                         if rect.collidepoint(event.pos):
-                                elements.append(TextBox(sideba
-r_elements[idx], event.pos, from_sidebar=True))
-                                break
-                elif event.type ==
- pygame.MOUSEWHEEL:
-                    scroll_y += event.y * 10
-                    # Limit scrolling
-                 
-   scroll_y = min(0, max(-(sidebar_content_height - screen_height), scroll_y))
-    
-                for element in eleme
-nts:
-                    element.handle_event(event)
-    
-            sidebar_rects = init_sidebar()
-    
-            me
-rge_elements(elements, sidebar_elements)
-    
-            screen.fill(background_color)
-            draw_sidebar(screen,
- sidebar_rects, scroll_y)
-    
-            for element in elements:
-                element.draw(screen)
-    
-          
-  pygame.display.flip()
-            clock.tick(30)
-    
-        pygame.quit()
-        sys.exit()
-    
-    
-    if __name
-__ == '__main__':
-        main()
-```
----
-
-     
- 
-all -  [ Better way to retrieve function definitions from codebase (vector embeddings)? ](https://www.reddit.com/r/LangChain/comments/1gkc7ug/better_way_to_retrieve_function_definitions_from/) , 2024-11-08-0912
-```
-I have created vector embeddings of codebase (C/C++ files) and stored them, using the tree sitter and Generic Loader fro
-m langchain, by referring this
-
-https://python.langchain.com/docs/integrations/document_loaders/source_code/
-
-Currently 
-I'm using db.as_retriever({search_type='mmr'}) for retrieving the function definitions (because most of the queries will
- be dependent of their definition: find the bug in abc_function) and for some of the functions it is working as expected
- since those functions aren't used much in the codebase, so retrieving the correct chunk is easier with them, but the fu
-nctions which are called in multiple functions, for them this retriever isn't able to retrieve their function definition
-s
-
-Are there any specific retrievers for the codebase? Like tree-sitter is for parsing the codebase?
-```
----
-
-     
- 
-all -  [ YouTube video summarizer and post generator ](https://www.reddit.com/r/SaaS/comments/1gk9a8x/youtube_video_summarizer_and_post_generator/) , 2024-11-08-0912
-```
-I have developed a tool which takes url of YouTube video and can summarize it, generate a blog post, generate a linkedin
- post. The target market is Youtubers, marketing agencies, bloggers, and other content creators
-I want to sell this tool
- which is developed using python, langchain, streamlit for UI, crewai, ChatGroq. If anyone are interested in acquiring t
-his tool and want to convert it into their own SaaS tool for making good revenue please contact me
-```
----
-
-     
- 
-all -  [ Need help ! ](https://www.reddit.com/r/Supabase/comments/1gk877a/need_help/) , 2024-11-08-0912
-```
-I do have an app using langchain js along Supabase , I have an issue when i'm using SupabaseVectoreStore on a specific t
-able , if that table has more than 5000 records , it returns timeout error 
-
-# Error code: 57014: Canceling Statement Du
-e To Statement Timeout
-
-  
-this happen right away not after the 2 min timeout, maybe i need to mention i'm using the Fre
-e tier.
-
-I could'nt find anything on the documentations.
-```
----
-
-     
- 
-all -  [ IBM release Agentic Framework 'Bee' ](https://www.reddit.com/r/LangChain/comments/1gk7z5v/ibm_release_agentic_framework_bee/) , 2024-11-08-0912
-```
-[https://i-am-bee.github.io/bee-agent-framework/#/](https://i-am-bee.github.io/bee-agent-framework/#/)
-```
----
-
-     
- 
-all -  [ 🌲Hierarchical Indices: Enhancing RAG Systems ](https://open.substack.com/pub/diamantai/p/hierarchical-indices-enhancing-rag?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-11-08-0912
-```
-📚 Hierarchical indices are an advanced method for organizing information in RAG systems. Unlike traditional flat structu
-res, they use a multi-tiered approach typically consisting of:
-
-1. Top-level summaries
-2. Mid-level overviews
-3. Detaile
-d chunks
-
-✨ This hierarchical structure helps overcome common RAG limitations by:
-• Improving context understanding 
-• B
-etter handling complex queries
-• Enhancing scalability
-• Increasing answer relevance
-
-Attached is the full blog describi
-ng it, which includes link to code implementation as well ☺️
-```
----
-
-     
- 
-deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-08-0912
+deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-09-0912
 ```
 I am a full stack python developer who do web dev in django
 
