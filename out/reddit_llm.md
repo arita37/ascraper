@@ -1,5 +1,477 @@
  
-all -  [ Reviews needed, currently in 5th sem , thanks ____ ](https://i.redd.it/t5xzvv053xzd1.png) , 2024-11-10-0913
+all -  [ Fully local and free Gmail assistant ](https://v.redd.it/hcggq8pw550e1) , 2024-11-11-0913
+```
+Gemini for Gmail is great but it's expensive. So I decided to build one for myself this weekend - A smart gmail assistan
+t that runs locally and completely free, powered by llama-3.2-3b-instruct.
+
+Stack:
+- local LLM server running llama-3.2-
+3b-instruct from LM studio with Apple MLX
+- Gmail plugin built by Claude
+
+Took less than 30min to get here. Plan to add 
+a local RAG over all my emails and some custom features.
+```
+---
+
+     
+ 
+all -  [ glassBead Blog: new LangChain-oriented technical blog ](https://www.reddit.com/r/LangChain/comments/1go9xpb/glassbead_blog_new_langchainoriented_technical/) , 2024-11-11-0913
+```
+hey everybody,
+
+  
+i just published the first of a long planned series of blog posts detailing things that I learn while
+ building w/ LangGraph at relative length. this is my first time ever attempting to do a technical blog, so i'd welcome 
+any and all tips on how to do these in a way that's at least potentially helpful to someone reading. thanks in advance i
+f you've got feedback!
+
+[https://glassbead-tc.medium.com/the-glassbead-blog-gbb-atrisdocs001-langgraphstatemgmt-bf322837
+d00c](https://glassbead-tc.medium.com/the-glassbead-blog-gbb-atrisdocs001-langgraphstatemgmt-bf322837d00c)
+```
+---
+
+     
+ 
+all -  [ Weekly Linkedin RAG Highlights: Uber’s SQL Hack, New Courses, and Key Updates ](https://www.reddit.com/r/Rag/comments/1go6vit/weekly_linkedin_rag_highlights_ubers_sql_hack_new/) , 2024-11-11-0913
+```
+LinkedIn has become one of my go-to spots for staying up-to-date with RAG, so I figured I'd share a quick digest of some
+ top posts from last week that caught my eye:
+
+1. [**Uber’s RAG-Powered Text-to-SQL Saves 140,000 Hours**](https://www.l
+inkedin.com/posts/sarthakrastogi_ai-llms-rag-activity-7250479007270359040-umSq/?utm_source=share&utm_medium=member_deskt
+op) (2332 likes) – Uber developed QueryGPT, a custom system that uses RAG to cut SQL query writing time from 10 minutes 
+to 3, saving thousands of hours annually. It uses multiple agents to optimize every step of the process, from intent rec
+ognition to table selection.
+2. [**LangChain’s “RAG from Scratch” Playlist**](https://www.linkedin.com/posts/areganti_ti
+l-langchain-has-a-super-beginner-friendly-activity-7255042856535408641-iKdf/?utm_source=share&utm_medium=member_desktop)
+ (1210 likes) – LangChain has a new YouTube series called 'RAG from Scratch' that’s beginner-friendly and covers advance
+d topics like RAPTOR and query reform. Quick watch—under two hours total.
+3. [**Curated RAG Resource List**](https://www
+.linkedin.com/posts/reyhanmerekar_rag-is-one-of-the-most-important-skillsets-activity-7253015624300343296-HOFi/?utm_sour
+ce=share&utm_medium=member_desktop) (957 likes) – A great rundown of the best courses and GitHub repos for anyone diving
+ into RAG. Includes LangChain, [DeepLearning.AI](http://DeepLearning.AI) courses, and some solid repos to get hands-on.
+
+4. [**Free RAG++ Course by W&B, Cohere, and Weaviate**](https://www.linkedin.com/posts/areganti_i-spent-some-time-going-
+through-the-free-activity-7252506115253374977-ZwE2/?utm_source=share&utm_medium=member_desktop) (588 likes) – This cours
+e covers advanced RAG topics with a production focus, emphasizing evaluation, data ingestion, and efficiency improvement
+s.
+5. [**Anthropic on Contextual Retrieval**](https://www.linkedin.com/posts/areganti_anthropics-latest-blog-on-contextu
+al-activity-7247953742363258883-7SfR/?utm_source=share&utm_medium=member_desktop) (528 likes) – Anthropic’s latest blog 
+discusses a new way to enhance RAG retrieval by adding contextual information to embeddings, with a reported 70% boost i
+n performance.
+6. [**Query Rewrite RAG with LangFlow**](https://www.linkedin.com/posts/tom-yeh_query-rewrite-rag-by-hand
+-langflow-activity-7248326712973819904-2L3F/?utm_source=share&utm_medium=member_desktop) (760 likes) – Tom Yeh is sharin
+g exercises to teach advanced RAG concepts with LangFlow, providing visuals and exercises to bridge theory with practice
+.
+7. [**Mnemosyne: Personalized Search Agent for Medium**](https://www.linkedin.com/posts/akshaybahadur21_raghav-patnech
+a-and-i-built-an-intelligent-activity-7254402851018321921-b2KS/?utm_source=share&utm_medium=member_desktop) (164 likes) 
+– Two devs shared their experience building a conversational search agent for Medium, using RAG methods like answer grad
+ing and chunking to improve relevance.
+8. [**Quick Video on RAG Basics**](https://www.linkedin.com/posts/corneliusa_in-t
+his-short-video-i-explain-the-concept-activity-7251629726425915392-GKoy/?utm_source=share&utm_medium=member_desktop) – A
+ short intro video breaking down the core concepts of RAG for those new to the field. Great for quick insights!
+
+Got any
+ interesting RAG news from last week? Drop them in the comments! I'd love to hear what you’re following.
+
+Was this helpf
+ul? Should I keep doing these weekly digests? Hit like if you want more, and leave a comment with your thoughts!
+```
+---
+
+     
+ 
+all -  [ What sort of job titles and roles should I look for? ](https://www.reddit.com/r/datascience/comments/1go59j5/what_sort_of_job_titles_and_roles_should_i_look/) , 2024-11-11-0913
+```
+Hi, I've been working as an analyst for a retail company for a few years, but it's pretty basic and mostly focused on re
+porting, dashboards, etc, so I'm looking for more roles with a heavier data science and computation focus. But I'm getti
+ng overwhelmed and confused about what sorts of roles to look for.
+
+A quick google search for 'types of roles in data sc
+ience' and you'll find dozens of pages filled with SEO-driven buzzwords (possibly AI-generated), but these only give the
+ most surface-level and generic descriptions of common titles like data analyst, data scientist, data engineer, etc. Thi
+s isn't really what I'm looking for though lol. I know what these are. Also, so many roles today seem to just be focused
+ on shoving the latest LLM stack (RAG, langchain, etc) into the problem even if the use case for the company is slim or 
+marginal at best. This isn't really what I'm interested in cause I like operations data science more.
+
+What I'm looking 
+for is a more specific, tailored advice relevant to specific types of industries/specializations. For example
+
+* I reall
+y like building models that heavily rely on functional programming, and may make use of very niche or specific libraries
+ depending on the use case. I enjoy Project Euler type problems for example
+* I understand ML is a core part of data sci
+ence, but I enjoy projects where ML isn't exclusive to the problem. A lot of other models can be solved by more function
+al programming and tailored computational science type work
+* I guess my background right now is mostly focused on busin
+ess/operations/economics, so I don't have a specific engineering or hard science background, but I'm open to any area th
+at invovles applied mathematics.
+
+I would appreciate any and all advice. As specific or general as possible. But prefera
+bly something specific.
+```
+---
+
+     
+ 
+all -  [ Chatgpt like interface to chat with images using llama3.2-vision ](https://www.reddit.com/r/LangChain/comments/1go51b3/chatgpt_like_interface_to_chat_with_images_using/) , 2024-11-11-0913
+```
+This Streamlit application allows users to upload images and engage in interactive conversations about them using the Ol
+lama Vision Model (llama3.2-vision). The app provides a user-friendly interface for image analysis, combining visual inp
+uts with natural language processing to deliver detailed and context-aware responses.
+
+https://github.com/agituts/ollama
+-vision-model-enhanced
+```
+---
+
+     
+ 
+all -  [ Creating LangGraph from JSON/YAML instead of code ](https://www.reddit.com/r/LangChain/comments/1go2btv/creating_langgraph_from_jsonyaml_instead_of_code/) , 2024-11-11-0913
+```
+I figured it might be useful to build graphs using declarative syntax instead of imperative one for a couple of usecases
+:
+
+* Tools trying to build low-code builders/managers for LangGraph.
+* Tools trying to build graphs dynamically based on
+ a usecase
+
+and more...
+
+I went through the documentation and landed [here](https://python.langchain.com/v0.2/api_refere
+nce/core/runnables/langchain_core.runnables.graph.Graph.html#langchain_core.runnables.graph.Graph.to_json).
+
+and noticed
+ that there is a \`to\_json()\` feature. It only seems fitting that there be an inverse.
+
+So I attempted to make a build
+er for the same that consumes JSON/YAML files and creates a compiled graph.
+
+[https://github.com/esxr/declarative-builde
+r-for-langgraph](https://github.com/esxr/declarative-builder-for-langgraph)
+
+Is this a good approach? Are there existing
+ libraries to do the same? (I know that there might be an asymmetry that might require explicit instructions to make it 
+invertible but I'm working on the edge cases)
+```
+---
+
+     
+ 
+all -  [ Building LangGraphs from JSON file ](https://www.reddit.com/r/LangGraph/comments/1go2b2u/building_langgraphs_from_json_file/) , 2024-11-11-0913
+```
+I figured it might be useful to build graphs using declarative syntax instead of imperative one for a couple of usecases
+:
+
+* Tools trying to build low-code builders/managers for LangGraph.
+* Tools trying to build graphs dynamically based on
+ a usecase
+
+and more...
+
+I went through the documentation and landed [here](https://python.langchain.com/v0.2/api_refere
+nce/core/runnables/langchain_core.runnables.graph.Graph.html#langchain_core.runnables.graph.Graph.to_json).
+
+and noticed
+ that there is a \`to\_json()\` feature. It only seems fitting that there be an inverse.  
+  
+So I attempted to make a b
+uilder for the same that consumes JSON/YAML files and creates a compiled graph.   
+  
+[https://github.com/esxr/declarati
+ve-builder-for-langgraph](https://github.com/esxr/declarative-builder-for-langgraph)  
+
+
+Is this a good approach? Are th
+ere existing libraries to do the same? (I know that there might be an asymMetry that might require explicit instructions
+ to make it invertible but I'm working on the edge cases)
+
+
+```
+---
+
+     
+ 
+all -  [ How to mimic ChatGPT Search? ](https://www.reddit.com/r/LangChain/comments/1go1mxt/how_to_mimic_chatgpt_search/) , 2024-11-11-0913
+```
+I have been pretty impressed with openai's most recent chat GPT feature that allows for real-time web information retrie
+val.
+
+Can anyone recommend a pipeline/system that can mimic this using agents/RAG?
+
+Thank you
+```
+---
+
+     
+ 
+all -  [ LangGraph vs Autogen l ](https://www.reddit.com/r/LangChain/comments/1gnxmnb/langgraph_vs_autogen_l/) , 2024-11-11-0913
+```
+Currently I am working on a AI assistance project where I am using a langGraph Hierarchical multi-agnet so that it doesn
+'t hallucinate much and easy to expand. For some reason after certain point I am feeling difficulty to mange the project
+ like I know official doc is difficult and they made task overly complicated. So now I was thinking to switch to differe
+nt multi-agnet framework called AutoGen. So what are your thoughts on it? Should I try autogen Or stick to langgraph? 
+```
+---
+
+     
+ 
+all -  [ Rate My Resume ](https://www.reddit.com/gallery/1gnxbmb) , 2024-11-11-0913
+```
+I'm a Machine Learning Engineer with over 3 years of experience. Ps: would really appreciate some tips on how I can alig
+n the skills section properly.
+```
+---
+
+     
+ 
+all -  [ Need help with my agent being able to query my tables ](https://www.reddit.com/r/LangChain/comments/1gntwgu/need_help_with_my_agent_being_able_to_query_my/) , 2024-11-11-0913
+```
+Hi all,  
+Recently I started work on a project and for that I have worked on connecting a database on SQL server and ask
+ing the db questions and converting them to queries. While the connection shows all the tables I have in server, the age
+nt is unable to find them. Somehow it seems that the agent works fine with dbo. tables but not other schemas. Can someon
+e help me out. I don't want to change the schema of my project tables!
+```
+---
+
+     
+ 
+all -  [ Build AI agents from prompts (open-source) ](https://www.reddit.com/r/LLMDevs/comments/1gnsmj9/build_ai_agents_from_prompts_opensource/) , 2024-11-11-0913
+```
+Hey guys, I created a framework to build [agentic systems called GenSphere](https://github.com/octopus2023-inc/gensphere
+) which allows you to create agentic systems from YAML configuration files. Now, I'm experimenting generating these YAML
+ files with LLMs so I don't even have to code in my own framework anymore. The results look quite interesting, its not f
+ully complete yet, but promising.
+
+For instance, I asked to create an agentic workflow for the following prompt:
+
+    Yo
+ur task is to generate script for 10 YouTube videos, about 5 minutes long each.
+    Our aim is to generate content for Y
+ouTube in an ethical way, while also ensuring we will go viral.
+    You should discover which are the topics with the hi
+ghest chance of going viral today by searching the web.
+    Divide this search into multiple granular steps to get the b
+est out of it. You can use Tavily and Firecrawl_scrape
+    to search the web and scrape URL contents, respectively. Then
+ you should think about how to present these topics in order to make the video go viral.
+    Your script should contain 
+detailed text (which will be passed to a text-to-speech model for voiceover),
+    as well as visual elements which will 
+be passed to as prompts to image AI models like MidJourney.
+    You have full autonomy to create highly viral videos fol
+lowing the guidelines above. 
+    Be creative and make sure you have a winning strategy.
+
+I got back a full workflow wit
+h 12 nodes, multiple rounds of searching and scraping the web, LLM API calls, (attaching tools and using structured outp
+uts autonomously in some of the nodes) and function calls.
+
+
+
+https://preview.redd.it/9rfl5fa7500e1.png?width=802&format
+=png&auto=webp&s=f2bebbd1a50afd87e22fb42b4f5bed19d4681f8d
+
+I then just runned and got back a pretty decent result, witho
+ut any bugs:
+
+`**Host:**`  
+`Hey everyone, [Host Name] here! TikTok has been the breeding ground for creativity, and 202
+4 is no exception. From mind-blowing dances to hilarious pranks, let's explore the challenges that have taken the platfo
+rm by storm this year! Ready? Let's go!`
+
+`**[UPBEAT TRANSITION SOUND]**`
+
+`**[Visual: Title Card: 'Challenge #1: The Ti
+me Warp Glow Up']**`
+
+`**Narrator (VOICEOVER):**`  
+`First up, we have the 'Time Warp Glow Up'! This challenge combines 
+creativity and nostalgia—two key ingredients for viral success.`
+
+`**[Visual: Split screen of before and after transform
+ations, with captions: 'Time Warp Glow Up'. Clips show users transforming their appearance with clever editing and glow-
+up transitions.]**`
+
+and so on (the actual output is pretty big, and would generate around \~50min of content indeed).
+
+
+So, we basically went from prompt to agent in just a few minutes, not even having to code anything. For some examples I 
+tried, the agent makes some mistake and the code doesn't run, but then its super easy to debug because all nodes are eit
+her LLM API calls or function calls. At the very least you can iterate a lot faster, and avoid having to code on cumbers
+ome frameworks.
+
+There are lots of things to do next. Would be awesome if the agent could scrape langchain and composio 
+documentation and RAG over them to define which tool to use from a giant toolkit. If you want to play around with this, 
+pls reach out! You can [check this notebook to run the example above yourself](https://github.com/octopus2023-inc/gensph
+ere/blob/main/examples/agentic_workflows_from_prompts.ipynb) (you need to have access to o1-preview API from openAI).
+```
+---
+
+     
+ 
+all -  [ Build AI agents from prompts (open-source) ](https://www.reddit.com/r/LangChain/comments/1gnskme/build_ai_agents_from_prompts_opensource/) , 2024-11-11-0913
+```
+Hey guys, I created a framework to build [agentic systems called GenSphere](https://github.com/octopus2023-inc/gensphere
+) which allows you to create agentic systems from YAML configuration files. Now, I'm experimenting generating these YAML
+ files with LLMs so I don't even have to code in my own framework anymore. The results look quite interesting, its not f
+ully complete yet, but promising.
+
+For instance, I asked to create an agentic workflow for the following prompt:
+
+    Yo
+ur task is to generate script for 10 YouTube videos, about 5 minutes long each.
+    Our aim is to generate content for Y
+ouTube in an ethical way, while also ensuring we will go viral.
+    You should discover which are the topics with the hi
+ghest chance of going viral today by searching the web.
+    Divide this search into multiple granular steps to get the b
+est out of it. You can use Tavily and Firecrawl_scrape
+    to search the web and scrape URL contents, respectively. Then
+ you should think about how to present these topics in order to make the video go viral.
+    Your script should contain 
+detailed text (which will be passed to a text-to-speech model for voiceover),
+    as well as visual elements which will 
+be passed to as prompts to image AI models like MidJourney.
+    You have full autonomy to create highly viral videos fol
+lowing the guidelines above. 
+    Be creative and make sure you have a winning strategy.
+
+I got back a full workflow wit
+h 12 nodes, multiple rounds of searching and scraping the web, LLM API calls, (attaching tools and using structured outp
+uts autonomously in some of the nodes) and function calls.
+
+https://preview.redd.it/m42drlmq400e1.png?width=802&format=p
+ng&auto=webp&s=803321de0929dd440c665f28bcbce54f82f15cad
+
+I then just runned and got back a pretty decent result, without
+ any bugs:
+
+`**Host:**`  
+`Hey everyone, [Host Name] here! TikTok has been the breeding ground for creativity, and 2024 
+is no exception. From mind-blowing dances to hilarious pranks, let's explore the challenges that have taken the platform
+ by storm this year! Ready? Let's go!`
+
+`**[UPBEAT TRANSITION SOUND]**`
+
+`**[Visual: Title Card: 'Challenge #1: The Time
+ Warp Glow Up']**`
+
+`**Narrator (VOICEOVER):**`  
+`First up, we have the 'Time Warp Glow Up'! This challenge combines cr
+eativity and nostalgia—two key ingredients for viral success.`
+
+`**[Visual: Split screen of before and after transformat
+ions, with captions: 'Time Warp Glow Up'. Clips show users transforming their appearance with clever editing and glow-up
+ transitions.]**`
+
+and so on (the actual output is pretty big, and would generate around \~50min of content indeed).
+
+So
+, we basically went from prompt to agent in just a few minutes, not even having to code anything. For some examples I tr
+ied, the agent makes some mistake and the code doesn't run, but then its super easy to debug because all nodes are eithe
+r LLM API calls or function calls. At the very least you can iterate a lot faster, and avoid having to code on cumbersom
+e frameworks.
+
+There are lots of things to do next. Would be awesome if the agent could scrape langchain and composio do
+cumentation and RAG over them to define which tool to use from a giant toolkit. If you want to play around with this, pl
+s reach out! You can [check this notebook to run the example above yourself](https://github.com/octopus2023-inc/genspher
+e/blob/main/examples/agentic_workflows_from_prompts.ipynb) (you need to have access to o1-preview API from openAI).
+```
+---
+
+     
+ 
+all -  [ Build AI agents from prompts (open-source) ](https://www.reddit.com/r/AI_Agents/comments/1gnsi2s/build_ai_agents_from_prompts_opensource/) , 2024-11-11-0913
+```
+Hey guys, I created a framework to build [agentic systems called GenSphere](https://github.com/octopus2023-inc/gensphere
+) which allows you to create agentic systems from YAML configuration files.  Now, I'm experimenting generating these YAM
+L files with LLMs so I don't even have to code in my own framework anymore. The results look quite interesting, its not 
+fully complete yet, but promising. 
+
+  
+For instance, I asked to create an agentic workflow for the following prompt:  
+
+
+
+    Your task is to generate script for 10 YouTube videos, about 5 minutes long each.
+    Our aim is to generate conte
+nt for YouTube in an ethical way, while also ensuring we will go viral.
+    You should discover which are the topics wit
+h the highest chance of going viral today by searching the web.
+    Divide this search into multiple granular steps to g
+et the best out of it. You can use Tavily and Firecrawl_scrape
+    to search the web and scrape URL contents, respective
+ly. Then you should think about how to present these topics in order to make the video go viral.
+    Your script should 
+contain detailed text (which will be passed to a text-to-speech model for voiceover),
+    as well as visual elements whi
+ch will be passed to as prompts to image AI models like MidJourney.
+    You have full autonomy to create highly viral vi
+deos following the guidelines above. 
+    Be creative and make sure you have a winning strategy.
+    
+
+
+
+I got back a fu
+ll workflow with 12 nodes, multiple rounds of searching and scraping the web, LLM API calls, (attaching tools and using 
+structured outputs autonomously in some of the nodes) and function calls.
+
+
+
+https://preview.redd.it/0lgj3vv2200e1.png?w
+idth=802&format=png&auto=webp&s=7960e506c7852bd2ef90a5b35b24e994170ee0d2
+
+I then just runned and got back a pretty decen
+t result, without any bugs:
+
+
+
+`**Host:**`    
+`Hey everyone, [Host Name] here! TikTok has been the breeding ground for 
+creativity, and 2024 is no exception. From mind-blowing dances to hilarious pranks, let's explore the challenges that ha
+ve taken the platform by storm this year! Ready? Let's go!`  
+  
+`**[UPBEAT TRANSITION SOUND]**`  
+  
+`**[Visual: Title 
+Card: 'Challenge #1: The Time Warp Glow Up']**`  
+  
+`**Narrator (VOICEOVER):**`    
+`First up, we have the 'Time Warp G
+low Up'! This challenge combines creativity and nostalgia—two key ingredients for viral success.`  
+  
+`**[Visual: Split
+ screen of before and after transformations, with captions: 'Time Warp Glow Up'. Clips show users transforming their app
+earance with clever editing and glow-up transitions.]**`  
+  
+and so on  (the actual output is pretty big, and would gen
+erate around \~50min of content indeed).
+
+  
+So, we basically went from prompt to agent in just a few minutes, not even 
+having to code anything. For some examples I tried, the agent makes some mistake and the code doesn't run, but then its 
+super easy to debug because all nodes are either LLM API calls or function calls. At the very least you can iterate a lo
+t faster, and avoid having to code on cumbersome frameworks.
+
+  
+There are lots of things to do next. Would be awesome i
+f the agent could scrape langchain and composio documentation and RAG over them to define which tool to  use from a gian
+t toolkit. If you want to play around with this, pls reach out! You can [check this notebook to run the example above yo
+urself](https://github.com/octopus2023-inc/gensphere/blob/main/examples/agentic_workflows_from_prompts.ipynb) (you need 
+to have access to o1-preview API from openAI). 
+
+  
+
+```
+---
+
+     
+ 
+all -  [ Reviews needed, currently in 5th sem , thanks ____ ](https://i.redd.it/t5xzvv053xzd1.png) , 2024-11-11-0913
 ```
 
 ```
@@ -7,7 +479,7 @@ all -  [ Reviews needed, currently in 5th sem , thanks ____ ](https://i.redd.it/
 
      
  
-all -  [ ConversationChain Agent Permanently Thinks its an AI Assistant  ](https://www.reddit.com/r/LangChain/comments/1gnfgjk/conversationchain_agent_permanently_thinks_its_an/) , 2024-11-10-0913
+all -  [ ConversationChain Agent Permanently Thinks its an AI Assistant  ](https://www.reddit.com/r/LangChain/comments/1gnfgjk/conversationchain_agent_permanently_thinks_its_an/) , 2024-11-11-0913
 ```
 Hi there. 
 
@@ -40,7 +512,7 @@ Thanks!
 
      
  
-all -  [ Need advice on building an LLM application ](https://www.reddit.com/r/LangChain/comments/1gnf6yk/need_advice_on_building_an_llm_application/) , 2024-11-10-0913
+all -  [ Need advice on building an LLM application ](https://www.reddit.com/r/LangChain/comments/1gnf6yk/need_advice_on_building_an_llm_application/) , 2024-11-11-0913
 ```
 Hi,
 
@@ -60,7 +532,7 @@ Thanks!
 
      
  
-all -  [ Lang chain good or bad  ](https://www.reddit.com/r/LangChain/comments/1gncdkx/lang_chain_good_or_bad/) , 2024-11-10-0913
+all -  [ Lang chain good or bad  ](https://www.reddit.com/r/LangChain/comments/1gncdkx/lang_chain_good_or_bad/) , 2024-11-11-0913
 ```
 I used langchain good or bad I need advice 
 ```
@@ -68,7 +540,7 @@ I used langchain good or bad I need advice
 
      
  
-all -  [ Gemini hidden filters ](https://www.reddit.com/r/LangChain/comments/1gn4zur/gemini_hidden_filters/) , 2024-11-10-0913
+all -  [ Gemini hidden filters ](https://www.reddit.com/r/LangChain/comments/1gn4zur/gemini_hidden_filters/) , 2024-11-11-0913
 ```
 Im working on a product that requires a context window upwards of 200k, so naturally resorted to gemini. The problem is 
 its flagging my inputs as harmful or idk what but its not returning any output (its pretty sensitive). I ve turned off a
@@ -78,7 +550,7 @@ ll the filters but its still doing it. How do i deal with it?
 
      
  
-all -  [ How do you market your AI services? ](https://www.reddit.com/r/LangChain/comments/1gn2vbl/how_do_you_market_your_ai_services/) , 2024-11-10-0913
+all -  [ How do you market your AI services? ](https://www.reddit.com/r/LangChain/comments/1gn2vbl/how_do_you_market_your_ai_services/) , 2024-11-11-0913
 ```
 
 For those of you who are freelancing or consulting in the AI space, especially with LangChain, how do you go about find
@@ -96,7 +568,7 @@ Thanks in advance!
 
      
  
-all -  [ Is there any documentation or examples about how to handle properly the history on OpenAI API-based  ](https://www.reddit.com/r/OpenAI/comments/1gn2l6z/is_there_any_documentation_or_examples_about_how/) , 2024-11-10-0913
+all -  [ Is there any documentation or examples about how to handle properly the history on OpenAI API-based  ](https://www.reddit.com/r/OpenAI/comments/1gn2l6z/is_there_any_documentation_or_examples_about_how/) , 2024-11-11-0913
 ```
 In the company I work for we are developing a chatbot using the OpenAI, the idea is that the chatbot follows the RAG app
 roach, we generated a vector database with all the relevant documents, then we created an API that is consumed from a we
@@ -123,7 +595,7 @@ it is not my first language.
 
      
  
-all -  [ Building a low code AI Workflow Automation Platform ](https://www.reddit.com/r/indiehackers/comments/1gn1lsd/building_a_low_code_ai_workflow_automation/) , 2024-11-10-0913
+all -  [ Building a low code AI Workflow Automation Platform ](https://www.reddit.com/r/indiehackers/comments/1gn1lsd/building_a_low_code_ai_workflow_automation/) , 2024-11-11-0913
 ```
 Hi Everyone,
 
@@ -162,7 +634,7 @@ really appreciate your feedback
 
      
  
-all -  [ Extracting specific bits of data from large PDF texts ](https://www.reddit.com/r/LangChain/comments/1gmpsvu/extracting_specific_bits_of_data_from_large_pdf/) , 2024-11-10-0913
+all -  [ Extracting specific bits of data from large PDF texts ](https://www.reddit.com/r/LangChain/comments/1gmpsvu/extracting_specific_bits_of_data_from_large_pdf/) , 2024-11-11-0913
 ```
 I am working with PDF rental contracts which can vary in size (up to 40 pages or so). I have a structured output which I
  want to pull out of each contract (eg. Name of the renter, address, price, apartment size, etc). The data within the co
@@ -180,7 +652,7 @@ Does this seem like a plausible strategy/approach?
 
      
  
-all -  [ Seeking Thoughts on Implementing Dynamic RBAC with Microsoft GraphRAG and AI Agents ](https://www.reddit.com/r/LangChain/comments/1gmpsun/seeking_thoughts_on_implementing_dynamic_rbac/) , 2024-11-10-0913
+all -  [ Seeking Thoughts on Implementing Dynamic RBAC with Microsoft GraphRAG and AI Agents ](https://www.reddit.com/r/LangChain/comments/1gmpsun/seeking_thoughts_on_implementing_dynamic_rbac/) , 2024-11-11-0913
 ```
 Hi everyone,
 
@@ -225,7 +697,7 @@ various sources, which can then be used for generating summaries and identifying
 
      
  
-all -  [ The 2024 State of RAG and LLMs Podcast ](https://www.reddit.com/r/LLMDevs/comments/1gmp07w/the_2024_state_of_rag_and_llms_podcast/) , 2024-11-10-0913
+all -  [ The 2024 State of RAG and LLMs Podcast ](https://www.reddit.com/r/LLMDevs/comments/1gmp07w/the_2024_state_of_rag_and_llms_podcast/) , 2024-11-11-0913
 ```
 Kirk Marple of Graphlit and I spoke on the current state of RAG and AI.
 
@@ -249,7 +721,7 @@ d AI
 
      
  
-all -  [ Business Advice ](https://www.reddit.com/r/startups/comments/1gmnyl6/business_advice/) , 2024-11-10-0913
+all -  [ Business Advice ](https://www.reddit.com/r/startups/comments/1gmnyl6/business_advice/) , 2024-11-11-0913
 ```
 # ## Advice
 
@@ -283,7 +755,7 @@ yone interested to collaborate either in help secure funding, frontend work, hel
 
      
  
-all -  [ Azure Update - 8th November 2024 ](https://www.reddit.com/r/AZURE/comments/1gmlvet/azure_update_8th_november_2024/) , 2024-11-10-0913
+all -  [ Azure Update - 8th November 2024 ](https://www.reddit.com/r/AZURE/comments/1gmlvet/azure_update_8th_november_2024/) , 2024-11-11-0913
 ```
 This week's update is up. 
 
@@ -335,7 +807,7 @@ PRAhg8dOg&t=786) \- Better error help
 
      
  
-all -  [ 🔄 Semantic Chunking: Smarter Text Division for Better AI Retrieval ](https://open.substack.com/pub/diamantai/p/semantic-chunking-improving-ai-information?r=336pe4&utm_campaign=post&utm_medium=web) , 2024-11-10-0913
+all -  [ 🔄 Semantic Chunking: Smarter Text Division for Better AI Retrieval ](https://open.substack.com/pub/diamantai/p/semantic-chunking-improving-ai-information?r=336pe4&utm_campaign=post&utm_medium=web) , 2024-11-11-0913
 ```
 📚 Semantic chunking is an advanced method for dividing text in RAG. Instead of using arbitrary word/token/character coun
 ts, it breaks content into meaningful segments based on context.
@@ -364,7 +836,7 @@ ull blog I wrote which is attached to this post.
 
      
  
-all -  [ Connaissez vous l'erreur FileNotFoundError: MultiplexedPath must contain at least one path ](https://www.reddit.com/r/programmation/comments/1gml45x/connaissez_vous_lerreur_filenotfounderror/) , 2024-11-10-0913
+all -  [ Connaissez vous l'erreur FileNotFoundError: MultiplexedPath must contain at least one path ](https://www.reddit.com/r/programmation/comments/1gml45x/connaissez_vous_lerreur_filenotfounderror/) , 2024-11-11-0913
 ```
 Salut à tous, j'ai une IA locale avec python et ollama, 
 
@@ -479,7 +951,7 @@ line 76, in __init__
 
      
  
-all -  [ ML, LLM and Langchain for your jobs ](https://i.redd.it/7ipbx6f7uozd1.png) , 2024-11-10-0913
+all -  [ ML, LLM and Langchain for your jobs ](https://i.redd.it/7ipbx6f7uozd1.png) , 2024-11-11-0913
 ```
 We can help provide solutions using LLM, ML,  langchain and python.  Please contact me. 
 ```
@@ -487,7 +959,7 @@ We can help provide solutions using LLM, ML,  langchain and python.  Please cont
 
      
  
-all -  [ Help with voice agents & Livekit ](https://www.reddit.com/r/LangChain/comments/1gmje1r/help_with_voice_agents_livekit/) , 2024-11-10-0913
+all -  [ Help with voice agents & Livekit ](https://www.reddit.com/r/LangChain/comments/1gmje1r/help_with_voice_agents_livekit/) , 2024-11-11-0913
 ```
 I'm starting a project on voice assistant. Livekit seems to be a good fit. Want to understand your feedback if you've us
 ed it or any alternatives I should consider.
@@ -502,7 +974,7 @@ I'm interested in understanding how to handle delays while the assistant is fetc
 
      
  
-all -  [ Lang Chain / Graph / Smith tutorials & guides - Python versions everywhere, but JS/TS often missing. ](https://www.reddit.com/r/LangChain/comments/1gmjd7m/lang_chain_graph_smith_tutorials_guides_python/) , 2024-11-10-0913
+all -  [ Lang Chain / Graph / Smith tutorials & guides - Python versions everywhere, but JS/TS often missing. ](https://www.reddit.com/r/LangChain/comments/1gmjd7m/lang_chain_graph_smith_tutorials_guides_python/) , 2024-11-11-0913
 ```
 Am I blind or something, but many tutorials of all the 3 core SDKs have a base Python version of guides/tutorials, but J
 S/TS completely missing?
@@ -516,7 +988,7 @@ P.S. Especially
 
      
  
-all -  [ Help needed for building an application  ](https://www.reddit.com/r/LangChain/comments/1gmi7bx/help_needed_for_building_an_application/) , 2024-11-10-0913
+all -  [ Help needed for building an application  ](https://www.reddit.com/r/LangChain/comments/1gmi7bx/help_needed_for_building_an_application/) , 2024-11-11-0913
 ```
 Hi I need help in building an AI summariser for court files for which we want to build a chatgot kinda interface app whe
 re we can upload files and that summariser will summarise some main points from that file.
@@ -530,7 +1002,7 @@ reciated.
 
      
  
-all -  [ Why are people hating LangChain so much, organisations are also not preferring projects built on top ](https://www.reddit.com/r/LangChain/comments/1gmfyi2/why_are_people_hating_langchain_so_much/) , 2024-11-10-0913
+all -  [ Why are people hating LangChain so much, organisations are also not preferring projects built on top ](https://www.reddit.com/r/LangChain/comments/1gmfyi2/why_are_people_hating_langchain_so_much/) , 2024-11-11-0913
 ```
  gave a interview a few days back, the interviewer was pissed off cuz I used LangChain also every tech event that I go t
 o everybody literally everybody hate langchain every 'seeming' to be good developer.
@@ -544,7 +1016,7 @@ Should I continue with langchain or custom build, import  things like these
 
      
  
-all -  [ Making LLMs Safe for Production: AWS Bedrock Guardrails + LangChain ](https://www.reddit.com/r/LangChain/comments/1gmez5j/making_llms_safe_for_production_aws_bedrock/) , 2024-11-10-0913
+all -  [ Making LLMs Safe for Production: AWS Bedrock Guardrails + LangChain ](https://www.reddit.com/r/LangChain/comments/1gmez5j/making_llms_safe_for_production_aws_bedrock/) , 2024-11-11-0913
 ```
 Hello everyone,
 
@@ -579,7 +1051,7 @@ Have a nice read! :D
 
      
  
-all -  [ Azure AI Search Retriever Returning Random Documents Instead of Relevant Ones - How to Fix? ](https://www.reddit.com/r/Azure_AI_Cognitive/comments/1gme1y9/azure_ai_search_retriever_returning_random/) , 2024-11-10-0913
+all -  [ Azure AI Search Retriever Returning Random Documents Instead of Relevant Ones - How to Fix? ](https://www.reddit.com/r/Azure_AI_Cognitive/comments/1gme1y9/azure_ai_search_retriever_returning_random/) , 2024-11-11-0913
 ```
 # Inconsistent Document Retrieval Results with Azure AI Search Retriever: Need Help
 
@@ -641,7 +1113,7 @@ ning and how to fix it.
 
      
  
-all -  [ Query Limit Exceeded in Milvus: How to Retrieve More than 30K Results? ](https://www.reddit.com/r/LangChain/comments/1gma4j7/query_limit_exceeded_in_milvus_how_to_retrieve/) , 2024-11-10-0913
+all -  [ Query Limit Exceeded in Milvus: How to Retrieve More than 30K Results? ](https://www.reddit.com/r/LangChain/comments/1gma4j7/query_limit_exceeded_in_milvus_how_to_retrieve/) , 2024-11-11-0913
 ```
 
 Hello everyone,
@@ -671,7 +1143,7 @@ atasets in Milvus would be greatly appreciated. Thank you!
 
      
  
-all -  [ Query Limit Exceeded in Milvus: How to Retrieve More than 30K Results? ](https://www.reddit.com/r/LangChain/comments/1gma2gl/query_limit_exceeded_in_milvus_how_to_retrieve/) , 2024-11-10-0913
+all -  [ Query Limit Exceeded in Milvus: How to Retrieve More than 30K Results? ](https://www.reddit.com/r/LangChain/comments/1gma2gl/query_limit_exceeded_in_milvus_how_to_retrieve/) , 2024-11-11-0913
 ```
 
 Hello everyone,
@@ -702,7 +1174,7 @@ datasets in Milvus would be greatly appreciated. Thank you!
 
      
  
-all -  [ New on langchain, any good youtube channel or course? ](https://www.reddit.com/r/LangChain/comments/1gm51vl/new_on_langchain_any_good_youtube_channel_or/) , 2024-11-10-0913
+all -  [ New on langchain, any good youtube channel or course? ](https://www.reddit.com/r/LangChain/comments/1gm51vl/new_on_langchain_any_good_youtube_channel_or/) , 2024-11-11-0913
 ```
 Hi, everyone! I'm new on langchain, any advice for content or a good course?
 ```
@@ -710,7 +1182,7 @@ Hi, everyone! I'm new on langchain, any advice for content or a good course?
 
      
  
-all -  [ How to Ensure Highly Relevant Search Results in Qdrant VectorStore with Metadata and Similarity Filt ](https://www.reddit.com/r/LangChain/comments/1gm4ebl/how_to_ensure_highly_relevant_search_results_in/) , 2024-11-10-0913
+all -  [ How to Ensure Highly Relevant Search Results in Qdrant VectorStore with Metadata and Similarity Filt ](https://www.reddit.com/r/LangChain/comments/1gm4ebl/how_to_ensure_highly_relevant_search_results_in/) , 2024-11-11-0913
 ```
 I'm working with Qdrant to build a search system for a diverse set of documents. My goal is to retrieve only the most re
 levant results for a given query, avoiding unrelated documents even if they share similar keywords. For example, I have 
@@ -747,7 +1219,7 @@ nks in advance for any guidance or recommendations!
 
      
  
-all -  [ Tutorial on building agent with memory using Letta  ](https://www.reddit.com/r/AI_Agents/comments/1glzob6/tutorial_on_building_agent_with_memory_using_letta/) , 2024-11-10-0913
+all -  [ Tutorial on building agent with memory using Letta  ](https://www.reddit.com/r/AI_Agents/comments/1glzob6/tutorial_on_building_agent_with_memory_using_letta/) , 2024-11-11-0913
 ```
 Hi all - I'm one of the creators of [Letta](https://github.com/letta-ai/letta), an agents framework focused on memory, a
 nd we just released a free short [course](https://www.deeplearning.ai/short-courses/llms-as-operating-systems-agent-memo
@@ -769,7 +1241,7 @@ ought the course might be interesting to people here!
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1glziro/list_of_free_and_best_selling_discounted_courses/) , 2024-11-10-0913
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1glziro/list_of_free_and_best_selling_discounted_courses/) , 2024-11-11-0913
 ```
 # Udemy Free Courses for 08 November 2024
 
@@ -1007,7 +1479,7 @@ ERTIFICATE – [CLICK HERE](https://idownloadcoupon.com/)
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1glzid0/list_of_free_and_best_selling_discounted_courses/) , 2024-11-10-0913
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1glzid0/list_of_free_and_best_selling_discounted_courses/) , 2024-11-11-0913
 ```
 # Udemy Free Courses for 08 November 2024
 
@@ -1245,7 +1717,7 @@ ERTIFICATE – [CLICK HERE](https://www.reddit.com/r/udemyfreeebies/)
 
      
  
-all -  [ Space vs NewLine issues in pdf extractor. ](https://www.reddit.com/r/LangChain/comments/1glza5b/space_vs_newline_issues_in_pdf_extractor/) , 2024-11-10-0913
+all -  [ Space vs NewLine issues in pdf extractor. ](https://www.reddit.com/r/LangChain/comments/1glza5b/space_vs_newline_issues_in_pdf_extractor/) , 2024-11-11-0913
 ```
 Hi Folks,   
 I have a bunch of pdfs that I need to process and build a RAG application (hopefully!). 
@@ -1293,7 +1765,7 @@ age_data = all_page_data
 
      
  
-all -  [ Any open source free translation library suggestion (Arabic and Spanish language specially) ](https://www.reddit.com/r/LangChain/comments/1glum8x/any_open_source_free_translation_library/) , 2024-11-10-0913
+all -  [ Any open source free translation library suggestion (Arabic and Spanish language specially) ](https://www.reddit.com/r/LangChain/comments/1glum8x/any_open_source_free_translation_library/) , 2024-11-11-0913
 ```
 I am working on a RAG based application . I wanted to add translation feature in my chatbot that translates the response
  given by the LLM. I have tried Argotranslate and MarianMT libraries earlier but they were not performing upto the mark.
@@ -1303,7 +1775,7 @@ I am working on a RAG based application . I wanted to add translation feature in
 
      
  
-all -  [ Can you achieve determinstic results in langchain + openai gpt-4o ](https://www.reddit.com/r/LangChain/comments/1glu82k/can_you_achieve_determinstic_results_in_langchain/) , 2024-11-10-0913
+all -  [ Can you achieve determinstic results in langchain + openai gpt-4o ](https://www.reddit.com/r/LangChain/comments/1glu82k/can_you_achieve_determinstic_results_in_langchain/) , 2024-11-11-0913
 ```
 Hey,  
 I am experincing non-determinism while working with gpt-4o through langchain - everything is constant as far as i
@@ -1316,7 +1788,7 @@ m-and-reproducible-output-do-not-work/487245) Is it true that you cannot achieve
 
      
  
-all -  [ How Can I show an image in the Chatbot as a output. ](https://www.reddit.com/r/LangChain/comments/1glu7wn/how_can_i_show_an_image_in_the_chatbot_as_a_output/) , 2024-11-10-0913
+all -  [ How Can I show an image in the Chatbot as a output. ](https://www.reddit.com/r/LangChain/comments/1glu7wn/how_can_i_show_an_image_in_the_chatbot_as_a_output/) , 2024-11-11-0913
 ```
 Hi everyone, I have been developing an Customer Chatbot on Langraph. With this chatbot customers can be able to ask ques
 tions about products we sell. And I wonder how can I show an image as output in the chatbot. For example when a customer
@@ -1327,7 +1799,7 @@ tions about products we sell. And I wonder how can I show an image as output in 
 
      
  
-all -  [ Issues with Chain Customization | LangChain Natural language to SQL Query ](https://www.reddit.com/r/LangChain/comments/1gls1kt/issues_with_chain_customization_langchain_natural/) , 2024-11-10-0913
+all -  [ Issues with Chain Customization | LangChain Natural language to SQL Query ](https://www.reddit.com/r/LangChain/comments/1gls1kt/issues_with_chain_customization_langchain_natural/) , 2024-11-11-0913
 ```
 I’ve been working on building a LangChain setup that performs a full SQL query process in multiple steps:
 
@@ -1362,270 +1834,7 @@ uilt-in function names or managing input/output variables for each step?
 
      
  
-all -  [ Customizing LLM templates with YAML configuration files- without altering Python scripts. ](https://www.reddit.com/r/LangChain/comments/1glq66t/customizing_llm_templates_with_yaml_configuration/) , 2024-11-10-0913
-```
-Hey everyone,
-
-I’ve been deploying RAG applications in production, especially when dealing with data sources that freque
-ntly change (like files being added, updated, or deleted by multiple team members).
-
-However, spending time tweaking Pyt
-hon scripts is a hassle. For example, if you have swap a model or change the type of index.
-
-To tackle this, we’ve creat
-ed an open-source repository that provides YAML templates to simplify RAG deployment without the need to modify code eac
-h time. You can check it out here: [llm-app GitHub Repo](https://github.com/pathwaycom/llm-app).
-
-Here’s how it helps:
-
-
-* **Swap components easily**, like switching data sources from local files to SharePoint or Google Drive, changing model
-s, or swapping indexes from a vector index to a hybrid index.
-* **Change parameters in RAG pipelines via readable YAML f
-iles.**
-* **Keep configurations clean and organized**, making it easier to manage and update.
-
-For more details, there’s
- also a [blog post](https://pathway.com/blog/llm-yaml-templates) and a [detailed guide](https://pathway.com/developers/u
-ser-guide/llm-xpack/yaml-templates) that explain how to customize the templates.
-
-This approach has significantly stream
-lined my workflow.   
-Would love to hear your feedback, experiences or any tips you might have!
-```
----
-
-     
- 
-all -  [ Sitting at home after graduation. Roast my resume cause I am not getting back interview calls. ](https://i.redd.it/6buqaqvuigzd1.jpeg) , 2024-11-10-0913
-```
-I graduated in June this year and left companies at campus placement in hopes of getting a better package 5 months later
- I am sitting jobless and getting no calls. Review my resume and help me fix it.
-```
----
-
-     
- 
-all -  [ My first LLM with RAG ](https://www.reddit.com/r/LangChain/comments/1glnf0w/my_first_llm_with_rag/) , 2024-11-10-0913
-```
-Hello, I just downloaded Ollama and I only wanna use LLM for fixing the errors my ASR model made. I will use RAG to give
- information about how to fix those errors, such as terminology etc. I wanna do this as fast as possible so can you give
- me a repo or tutorial about how to do this? 
-
-The ASR results are in Turkish so I want this LLM to be able to understan
-d and give correct Turkish texts. 
-```
----
-
-     
- 
-all -  [ AI Tools for Data Scientists: Which Ones Should You Be Using in 2025? ](https://www.reddit.com/r/AIForDataAnalysis/comments/1glmp1l/ai_tools_for_data_scientists_which_ones_should/) , 2024-11-10-0913
-```
-As we head towards 2025, the AI landscape continues to evolve, offering a range of powerful tools tailored for data scie
-ntists. Whether you're a beginner or a seasoned pro, it’s essential to stay up-to-date with the tools that can make your
- life easier, your workflows more efficient, and your insights more impactful. Here’s a look at some must-have AI tools 
-for data scientists in 2024:
-
-**1. Jupyter Notebooks**
-
-Still a staple in data science, Jupyter Notebooks are great for 
-experimentation and visualization. With its interactive coding environment, you can document your analysis, share insigh
-ts, and showcase results seamlessly. It’s especially handy for quickly testing code and viewing real-time data visualiza
-tions.
-
-**2. PyTorch and TensorFlow**
-
-For building machine learning and deep learning models, PyTorch and TensorFlow re
-main at the top. PyTorch is known for its flexibility and intuitive design, which is ideal for research and prototyping.
- TensorFlow, backed by Google, is excellent for production-grade models and has robust support for deployment on mobile 
-and edge devices.
-
-**3. Pandas and Dask**
-
-If you're handling large datasets, Pandas is invaluable for data manipulation
- and analysis. Dask complements Pandas by enabling parallel processing, allowing you to handle bigger datasets and scale
- out your computations seamlessly.
-
-**4. SQL-based Tools**
-
-Mastering SQL is essential for data scientists who work with
- structured data. Tools like BigQuery (for large datasets) and PostgreSQL are popular in 2024. BigQuery's machine learni
-ng capabilities and ease of integration with Google Cloud make it ideal for data scientists who need speed and scalabili
-ty.
-
-**5. Tableau and Power BI**
-
-Visualization is key to communicating data insights effectively. Tableau and Power BI 
-are both powerful options for creating dynamic dashboards and interactive reports that help stakeholders make informed d
-ecisions. These tools offer templates, intuitive drag-and-drop interfaces, and support for real-time data.
-
-**6. AWS Sag
-eMaker and Azure Machine Learning**
-
-Both SageMaker and Azure Machine Learning are great for end-to-end machine learning
-. They allow data scientists to build, train, and deploy models quickly without managing underlying infrastructure. Plus
-, both integrate seamlessly with other cloud resources, making it easier to move from model to production.
-
-**7. DataRob
-ot and** [**H2O.ai**](http://H2O.ai)
-
-Automated machine learning (AutoML) tools like DataRobot and [H2O.ai](http://H2O.a
-i) are reshaping how models are created. These platforms streamline the machine learning process by automating feature e
-ngineering, model selection, and tuning, saving you hours of manual work.
-
-**8. LangChain and Hugging Face Transformers*
-*
-
-For NLP tasks, Hugging Face has become a go-to resource, offering a library of pre-trained models that can be fine-tu
-ned for specific tasks. LangChain has gained popularity for building applications that rely on language models, such as 
-chatbots and RAG systems, making it easier to work with conversational AI.
-
-**9. Alteryx and KNIME**
-
-If you're looking 
-for powerful, no-code/low-code solutions for data analytics, Alteryx and KNIME are top choices in 2024. Both platforms a
-llow for data blending, cleaning, and analytics without needing extensive programming knowledge. They’re excellent for t
-eams that want to leverage AI without investing heavily in coding skills.
-
-**10. Experiment Tracking with MLflow and Wei
-ghts & Biases**
-
-As ML projects grow in complexity, tracking experiments becomes essential. MLflow and Weights & Biases 
-offer robust solutions for tracking model parameters, performance metrics, and dataset versions, making it easier to man
-age experiments and collaborate with other data scientists.
-
-**Conclusion**
-
-The landscape of AI tools is constantly evo
-lving, but staying on top of these powerful resources can make all the difference in your data science projects. Which A
-I tools are your favorites? Are there any you’re excited to try in 2024? Share your thoughts in the comments below!
-```
----
-
-     
- 
-all -  [ conversational chat history in prompt ](https://www.reddit.com/r/LangChain/comments/1gllhwz/conversational_chat_history_in_prompt/) , 2024-11-10-0913
-```
-Hi all  
-I am trying out a way to include chat history in the prompt for RAG to maintain previous context.   
-where to p
-lace this chat history in prompt in the begining or at the end of input variables?  
-Does placing this chat history even
- matter in getting improved responses
-
-I tried out it seems like giving better responses when I place chat history in be
-gining  
-  
-can anyone share their views in this? 
-```
----
-
-     
- 
-all -  [ Is it possible to have a streamlit multiselect input with default values that are not present in col ](https://www.reddit.com/r/LangChain/comments/1glku97/is_it_possible_to_have_a_streamlit_multiselect/) , 2024-11-10-0913
-```
-Hi everyone,  
-I’m developing a streamlit app where I want my streamlit multiselect to have default values ( array ) bas
-ed on an LLM call.
-
-But, I’m getting error when one or more element of default array is not present in the options array
-. I know this is streamlit’s characteristic but I want a feature like this. Is there any workaround for my use case ?
-
-W
-orkflow of my app :
-
-User makes an LLM call. LLM returns a JSON . These JSON values get prepopulated in the form. All of
- the form inputs are of multiselect type and I use ‘default’ array to prepopulate these JSON values, I get ‘options’ arr
-ay of the multiselect by an api call . I get error when one or more element of the default array is not present in the o
-ptions array.
-
-I've posted this in Streamlit community forum and their subreddit but it may take years to get a good rep
-ly. Therefore, reposting here. 
-```
----
-
-     
- 
-all -  [ People who make langchain based chatbot, how do you make sure it is responsive and replies back in f ](https://www.reddit.com/r/Langchaindev/comments/1gl4o0o/people_who_make_langchain_based_chatbot_how_do/) , 2024-11-10-0913
-```
-I’ve built so many langchain based chatbots & one thing that always tips off the clients is the response time. What do y
-ou in such scenarios?
-```
----
-
-     
- 
-all -  [ Need help regarding some preparation ](https://www.reddit.com/r/LLMDevs/comments/1gl3wtl/need_help_regarding_some_preparation/) , 2024-11-10-0913
-```
-I have a live coding test (30min) coming up for an AI/ML LLM internship. The internship requires knowledge of python, NL
-P, LLMs, Langchain, Tensorflow, Pytorch, RAG and prompt engineering. I have some knowledge of everything except RAG. 
-
-C
-an anyone share some resources or their own experience? What type of questions can be asked to code and how should I go 
-about it? This will be my first live coding interview so kinda panicking.
-
-Urgent!!!!!
-```
----
-
-     
- 
-all -  [ Text-to-Table: Extracting Unstructured Data from a Large Legal Text ](https://www.reddit.com/r/LangChain/comments/1gl3pl7/texttotable_extracting_unstructured_data_from_a/) , 2024-11-10-0913
-```
-Hi everyone! I'm working with a lengthy HTML document of about 1,500 pages of legal text, and I need to extract data on 
-items and goods, such as tax rates, to build a structured table.
-
-The challenge is that the information is scattered acr
-oss the text – for example, details for one item might appear on page 50, with additional information on page 200. I’m l
-ooking for suggestions on techniques and tools to tackle this issue.
-
-I'm considering using a Retrieval-Augmented Genera
-tion (RAG) approach, but I haven't fully fleshed out the solution yet.
-
-Has anyone worked on a similar task? Any recomme
-ndations on papers, videos, or techniques would be incredibly helpful!
-
-Thank you in advance!
-```
----
-
-     
- 
-all -  [ Cost effective solutions for talking with your database  ](https://www.reddit.com/r/LangChain/comments/1gl3082/cost_effective_solutions_for_talking_with_your/) , 2024-11-10-0913
-```
-I am currently working on an application where user can enter his query in natural language and the answer would be gene
-rated basis the results from database. Database is the source of data for answering any queries. 
-
-I tried two approache
-s currently -
-1. Non agentic using chains
-2. Agentic
-
-In both since we need to make multiple calls to llm and also token
-s are more so cost incurred is higher. In general the agentic approach takes more cost as most of the decision making is
- left to it. 
-
-So i wanted to discuss if anyone has worked on a similar problem on production scale and what things shou
-ld be done to keep the costs in check ? I haven't tried any models apart from chatgpt yet but one thing that i could obs
-erve was generally the top models are the ones that perform reliably for this particular problem
-```
----
-
-     
- 
-all -  [ Dyanmic Data Source ](https://www.reddit.com/r/LangChain/comments/1gl0luf/dyanmic_data_source/) , 2024-11-10-0913
-```
-I want to build a RAG system using data stored in an S3 bucket. The data in this bucket grows by approximately 100 new r
-ecords (PDFs) daily, with each record averaging around 500 words. What would be the best approach to implement a RAG sol
-ution that can handle this continuous data expansion efficiently?
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-10-0913
+MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-11-0913
 ```
 I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
 I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
@@ -1653,7 +1862,7 @@ al.ipynb)
 
      
  
-deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-10-0913
+deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-11-0913
 ```
 I am a full stack python developer who do web dev in django
 
