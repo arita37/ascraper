@@ -1,5 +1,670 @@
  
-all -  [ How to prevent chat() function in pandasai from downloading images? ](https://www.reddit.com/r/StreamlitOfficial/comments/1gswjm3/how_to_prevent_chat_function_in_pandasai_from/) , 2024-11-17-0914
+all -  [ How accurate are these layer definitions from Hamilton?  ](https://i.redd.it/4pwmfckpdj1e1.png) , 2024-11-18-0914
+```
+Saw this chart in Hamilton documentation and wondered if this is common terminology for the layers of data stack, more s
+pecifically: 
+
+1. Is there really 'asset level'? Is dbt 'asset level'? 
+2. What is good source to read about these layer
+s? 
+3. Why postgres is data and DuckDB is execution? Ok to have Snofkake on two levels? Is lang chain same level as pand
+as? 
+```
+---
+
+     
+ 
+all -  [ Can't Make New Project on LangSmith (Newbie) ](https://www.reddit.com/r/LangChain/comments/1gtowlt/cant_make_new_project_on_langsmith_newbie/) , 2024-11-18-0914
+```
+Hello, everyone! I'm working on setting up a new project in Lang Smith, and I've run into some challenges. I am not usin
+g any language models like LLM; instead, my project utilizes a pre-made API form rapidAPI. The inputs to my system come 
+from file uploads through FastAPI. 
+
+I'm trying to create a monitoring system for this setup, but I'm having trouble get
+ting everything to work together. Specifically, unsure how to deploy lang smith within my FastAPI application, around th
+e file upload process and subsequent API interactions.
+
+I'll add my code block below. Im basically working on a project 
+take takes docx and pdfx format of files, my Langchain data loaders take the text from the file and feed it to my API, t
+hen i get the my desired results.  
+Really appreciate any help!! (at my wit's end here) 
+
+    app = FastAPI()
+    
+    #
+ API key and host
+    API_KEY = <myAPIkey>
+    API_HOST = <linktotheapi>
+    
+    # Code for Text AI Detect
+    def text
+_check(user_input):
+        url = <url>
+        payload = {
+            'text': user_input,
+            'threshold': 10 
+ # Adjust this if needed to test different sensitivity levels
+        }
+        headers = {
+            'x-rapidapi-key'
+: API_KEY,
+            'x-rapidapi-host': API_HOST,
+            'Content-Type': 'application/json'
+        }
+        res
+ponse = requests.post(url, json=payload, headers=headers)
+        return response.json()
+    
+    
+    @app.get('/')
+   
+ async def home():
+        return 'Hello! Welcome to My Final Project'
+    
+    @app.post('/uploadFile/')
+    async def 
+create_upload_files(file: UploadFile = File(...)):
+        suffix = os.path.splitext(file.filename)[1].lower()
+        t
+emp_file_path = tempfile.mktemp(suffix=suffix)
+        with open(temp_file_path, 'wb') as f:
+            f.write(await f
+ile.read())
+        
+        try:
+            if suffix == '.pdf':
+                loader = PyPDFLoader(temp_file_path)
+
+                document = loader.load_and_split()
+                print(dir(document[0])) if document else print('No do
+cument loaded') ## Debugging
+                text_content = ' '.join([str(page) for page in document])
+            elif 
+suffix == '.docx':
+                loader = UnstructuredFileLoader(temp_file_path)
+                document = loader.loa
+d()
+                print(dir(document)) if document else print('No document loaded') ## Debugging output
+              
+  text_content = str(document)
+            else:
+                return JSONResponse(status_code=400, content={'message'
+: 'Unsupported file type'})
+            result = text_check(text_content) # Sending the text to text checker API
+       
+     return JSONResponse(content=result)
+        except Exception as e:
+            return JSONResponse(status_code=500,
+ content={'message': str(e)})
+        finally:
+            os.remove(temp_file_path)  # clean-up
+    
+    
+    if __name
+__ == '__main__':
+        ngrok_tunnel = ngrok.connect(8000)
+        print('Public URL:', ngrok_tunnel.public_url)
+     
+   nest_asyncio.apply()
+        uvicorn.run(app, port=8000)
+    
+```
+---
+
+     
+ 
+all -  [ ChromaDB runtime error in Mac with Intel Chips - thought this might help ](https://www.reddit.com/r/LangChain/comments/1gtlto7/chromadb_runtime_error_in_mac_with_intel_chips/) , 2024-11-18-0914
+```
+I’ve been learning/practicing langchain about a month . I have been playing with chroma vector store for about a week.  
+I just wanted to share the issue that I encountered with chromaDb code running on Mac with Intel chip.  I shared my solu
+tion -the one with 0 votes - here (https://stackoverflow.com/questions/78745137/python-chromadb-error-unable-to-compute-
+the-prediction-using-a-neural-network/79175940#79175940).   
+
+
+```
+---
+
+     
+ 
+all -  [ Help with `buildPythonPackage` helper ](https://www.reddit.com/r/NixOS/comments/1gtl9hc/help_with_buildpythonpackage_helper/) , 2024-11-18-0914
+```
+Hello,
+
+I am trying to create a development environment in NixOS and I got stuck at building a python package that is no
+t already in the existing `python3Packages` (package `iso639-lang`).
+
+I found out that I can build this package from PyP
+i using `buildPythonPackage` and a fetch helper `pkgs.fetchPypi`.
+
+Problem is that, for this (see below) configuration, 
+I get the following error:
+
+https://preview.redd.it/53wdc74chi1e1.png?width=1287&format=png&auto=webp&s=bb6f6543735b141a
+7fdac10bedddcffa851b605c
+
+It seems to be trying to read some `setup.py` file, but upon inspecting the downloaded archive
+, there does not seem to be such file.
+
+Sample flake for dev env (**DISCLAIMER:** I am absolute newbie in case of Nix\\O
+S, yet alone Flakes):
+
+    {
+      description = 'A very basic flake';
+    
+      inputs = {
+        nixpkgs.url = 'gith
+ub:nixos/nixpkgs/nixos-24.05';
+      };
+    
+      outputs = { self, nixpkgs, ... }: let
+        system = 'x86_64-linux'
+;
+      in {
+      devShells.'${system}' = {
+    default = let
+          pkgs = import nixpkgs {
+            inherit sys
+tem;
+          };
+          pythonPackages = pkgs.python3Packages;
+          iso639 = let
+          pname = 'iso639_lang
+';
+          version = '2.5.1';
+          in
+          pythonPackages.buildPythonPackage {
+          inherit pname versi
+on;
+          src = pkgs.fetchPypi {
+            inherit pname version;
+            sha256 = 'sha256-yeMR7CtvEAXrNtOgoPa
+7+CiYy00831aLaq5KBwWhndU=';
+          };
+          doCheck = false;
+        };
+        in pkgs.mkShell {
+          packa
+ges = with pkgs; [
+            (python3.withPackages (pp: [
+            pp.langchain
+            pp.openai
+            p
+p.unstructured
+            pp.emoji
+            iso639
+          ]))
+            pipenv
+          ];
+    
+          shel
+lHook = ''
+            echo '`${pkgs.python3}/bin/python --version`'
+          '';
+        };
+      };
+    };
+    }
+
+Tha
+nks for the help
+```
+---
+
+     
+ 
+all -  [ AI Agents: A New Era of Automation ](https://www.reddit.com/r/Tech_By_PV/comments/1gtl3bm/ai_agents_a_new_era_of_automation/) , 2024-11-18-0914
+```
+**The AI Agent Revolution is Here**
+
+AI agents, once a futuristic concept, are now becoming a reality. A recent survey b
+y LangChain revealed that over half of professionals are already using AI agents in their daily work. This rapid adoptio
+n is transforming industries, from tech to finance.
+
+**What are AI Agents?**
+
+AI agents are intelligent software program
+s that can perform tasks autonomously. They can learn, adapt, and make decisions, just like humans. Think of them as dig
+ital assistants, supercharged with AI capabilities.
+
+**Why are AI Agents So Popular?**
+
+* **Boosting Productivity:** AI 
+agents can automate repetitive tasks, freeing up human workers to focus on more strategic work.
+* **Improving Decision-M
+aking:** By analyzing vast amounts of data, AI agents can provide valuable insights to help businesses make informed dec
+isions.
+* **Enhancing Customer Service:** AI agents can handle customer inquiries 24/7, improving customer satisfaction.
+
+
+**How are Companies Using AI Agents?**
+
+* **Research and Summarization:** AI agents are being used to quickly gather a
+nd summarize information from various sources.
+* **Personal Productivity:** They're helping with tasks like scheduling m
+eetings, writing emails, and managing calendars.
+* **Customer Service:** AI agents are providing support to customers th
+rough chatbots and virtual assistants.
+
+**Challenges and Concerns**
+
+While AI agents offer immense potential, they also 
+pose challenges:
+
+* **Integration:** Integrating AI agents into existing systems can be complex.
+* **Control:** Ensuring
+ that AI agents act ethically and responsibly is a major concern.
+* **Consistency:** Maintaining consistent performance 
+can be difficult, especially as AI agents learn and evolve.
+
+**The Future of AI Agents**
+
+Despite these challenges, the 
+future of AI agents looks bright. Companies are investing heavily in AI research and development to create more sophisti
+cated and reliable agents.
+
+To ensure the ethical and responsible use of AI agents, organizations are:
+
+* **Tracking Act
+ions:** Monitoring the actions of AI agents to identify and mitigate potential risks.
+* **Using Monitoring Tools:** Empl
+oying advanced tools to oversee the behavior of AI agents.
+* **Involving Humans:** Incorporating human oversight to guid
+e and correct AI agents.
+
+By addressing these challenges and embracing the opportunities, businesses can harness the pow
+er of AI agents to drive innovation and achieve new heights.
+```
+---
+
+     
+ 
+all -  [ A smart way to split markdown documents for RAG ](https://glama.ai/blog/2024-11-17-splitting-markdown-documents-for-rag) , 2024-11-18-0914
+```
+
+```
+---
+
+     
+ 
+all -  [ Generative AI Technology Stack Overview - Generative AI (GenAI) Frameworks Overview ](https://www.reddit.com/r/u_enoumen/comments/1gtc52c/generative_ai_technology_stack_overview/) , 2024-11-18-0914
+```
+# [Generative AI Technology Stack Overview](https://podcasts.apple.com/ca/podcast/generative-ai-technology-stack-overvie
+w-generative/id1684415169?i=1000677220601)
+
+https://preview.redd.it/xruib4fumh1e1.jpg?width=1587&format=pjpg&auto=webp&s
+=08fb6026efb31f7d271b5cb27443e15ed41f0177
+
+# Generative AI (GenAI) is much more than just Large Language Models (LLMs) –
+ it's an intricate combination of engineering, science, and the business application at hand. Understanding the technolo
+gy stack behind GenAI solutions is essential because it provides a comprehensive blueprint for building and deploying th
+ese powerful AI solutions effectively. The GenAI stack is made up of multiple interrelated layers, each contributing a c
+rucial aspect of functionality, from foundational infrastructure to the final user-facing interface. This one-page guide
+ provides a high-level overview of the technology stack needed to create a production-ready GenAI application.
+
+Listen a
+s a podcast at [https://podcasts.apple.com/ca/podcast/generative-ai-technology-stack-overview-generative/id1684415169?i=
+1000677220601](https://podcasts.apple.com/ca/podcast/generative-ai-technology-stack-overview-generative/id1684415169?i=1
+000677220601)
+
+# [Layers of the GenAI Technology Stack](https://podcasts.apple.com/ca/podcast/generative-ai-technology-s
+tack-overview-generative/id1684415169?i=1000677220601)
+
+https://preview.redd.it/gy0v1h80bg1e1.png?width=807&format=png&a
+uto=webp&s=b6cf8ec0d2c089f7155cc2105f00e484d65de550
+
+# The GenAI tech stack can be visualized as a multi-layered structu
+re, each layer serving a unique purpose in the lifecycle of an AI application:
+
+# 1. Infrastructure
+
+# At the base, we h
+ave the underlying infrastructure. This layer involves the hardware and cloud services that provide the computational re
+sources needed for AI. Examples include:
+
+* **NVIDIA**: Provides the high-performance GPUs required for model training a
+nd inference.
+* **Cloud Platforms**: Platforms like **AWS**, **Google Cloud**, **Azure**, and [**Together.ai**](http://T
+ogether.ai) offer scalable infrastructure, providing compute and storage for large-scale AI projects.
+
+# 2. Foundation M
+odels
+
+# Foundation models are pre-trained, large-scale models that provide the base for building specific applications.
+
+
+* Examples include models from **OpenAI**, **Anthropic**, **Cohere**, **Meta (Mistral)**, **Gemini**, and **LLaMA**. T
+hese models can be fine-tuned or used as-is to handle a wide variety of tasks such as text generation, summarization, an
+d more.
+
+# 3. Retrieval Layer
+
+# This layer is crucial for providing efficient and effective access to relevant informat
+ion. Retrieval can involve several types of data storage and querying mechanisms.
+
+* **Vector Databases**: Databases lik
+e **Pinecone**, **Weaviate**, **Qdrant**, **SingleStore**, and **Chroma** store high-dimensional data representations (e
+mbeddings) and allow for efficient similarity search, which is essential for many GenAI use cases.
+* Retrieval approache
+s can also involve **graph databases**, **keyword-based search**, and more, depending on the complexity of the data rela
+tionships and querying needs.
+
+# 4. Runtime/Framework
+
+# The frameworks and runtime environments are responsible for orc
+hestrating how the models interact with data, perform inference, and communicate with other components.
+
+* **LangChain**
+: This is a prominent framework that provides useful abstractions for connecting language models with external tools and
+ managing different steps in conversational AI workflows.
+* **LlamaIndex** and **Replicate**: Frameworks that are used f
+or indexing and model serving.
+* **HuggingFace**: Offers a large library of models and tools for deployment, training, a
+nd inference, making it ideal for simplifying GenAI workflows.
+
+# 5. Monitoring and Orchestration
+
+# A crucial layer oft
+en overlooked, monitoring and orchestration ensure that the models are functioning correctly, performance remains optima
+l, and the system can handle any issues that arise.
+
+* This might involve **Kubernetes** for container orchestration, **
+Prometheus** for monitoring, or other specialized tools that keep track of model performance, infrastructure health, and
+ scalability.
+
+# 6. Frontend Hosting
+
+# To make the AI application accessible to users, you need hosting solutions that 
+deliver the frontend interface. While there may be alternative focus areas such as orchestration, frontend hosting plays
+ a vital role in user experience.
+
+* Platforms like **Vercel**, **Netlify**, and **GitHub Pages** are popular choices fo
+r deploying lightweight web-based interfaces that interact with the AI models.
+
+# Generative AI (GenAI) Frameworks Overv
+iew
+
+https://preview.redd.it/vxuratx5bg1e1.png?width=1170&format=png&auto=webp&s=76fc3c09ab12bc70e36e7372cde25ca5d6a69df
+f
+
+# The GenAI frameworks provide a diverse set of tools to build advanced AI applications, each with its own strengths 
+and focus areas:
+
+* **LangChain**: Excels in creating complex chains of operations, providing diverse integrations and a
+ flexible architecture for language models. It is ideal for building versatile language model applications.
+* **LlamaInd
+ex**: Specializes in data indexing, efficiently handling structured data, and optimizing queries for large-scale informa
+tion retrieval. It is particularly suited for data-intensive tasks.
+* **Haystack**: Known for its robust question-answer
+ing capabilities, document search functionality, and production-ready features. It is highly effective for building prod
+uction-ready search and QA systems.
+* **Microsoft Jarvis**: Focuses on conversational AI and task automation, seamlessly
+ integrating into the Microsoft ecosystem. It is a strong choice for Microsoft-centric AI solutions.
+* **Amazon Bedrock*
+*: Provides a comprehensive platform for generative AI, offering deep integration with AWS services and sophisticated mo
+del management tools, making it ideal for AWS-integrated generative AI applications.
+* **MeshTensorflow**: Stands out fo
+r its distributed training capabilities, enabling model parallelism and optimizations for Tensor Processing Units (TPUs)
+. It is perfect for high-performance, distributed model training.
+* **OpenAI Swarm**: Recently introduced and still in t
+he experimental phase, Swarm provides developers with a blueprint for creating interconnected AI networks capable of com
+municating, collaborating, and tackling complex tasks autonomously. It represents a significant step in making multi-age
+nt systems more accessible to developers.
+
+# Each framework has unique strengths:
+
+* **LangChain** for versatile languag
+e model applications.
+* **LlamaIndex** for data-intensive tasks.
+* **Haystack** for production-ready search and QA syste
+ms.
+* **Microsoft Jarvis** for Microsoft-centric AI solutions.
+* **Amazon Bedrock** for AWS-integrated generative AI.
+* 
+**MeshTensorflow** for high-performance, distributed model training.
+* **OpenAI Swarm** for experimental multi-agent sys
+tems.
+
+# Developers can choose the most suitable framework based on their specific project requirements, infrastructure 
+preferences, and the desired balance between flexibility, performance, and ease of integration.
+
+# Why Mastering This St
+ack Matters
+
+# For AI/ML/Data engineers, it's important to understand not only each layer in isolation but how these lay
+ers interact as a cohesive whole. The flow of data across the layers, potential bottlenecks, and optimization strategies
+ are all part of building robust, efficient, and scalable AI solutions. By mastering the GenAI tech stack:
+
+* **Optimize
+d Performance**: Engineers can optimize for faster inference, better data management, and improved scalability.
+* **Scal
+able Solutions**: The knowledge of each layer's strengths allows for architecting applications that are scalable and mai
+ntainable.
+* **Effective Troubleshooting**: Understanding the stack enables efficient troubleshooting across all layers,
+ whether the issue lies in data retrieval, model performance, or frontend integration.
+
+# Whether you're building a simp
+le chatbot or a more complex AI system, knowledge of this layered architecture helps create robust and maintainable AI s
+olutions. This understanding is key as GenAI becomes more integrated into business processes.
+
+# Genefative AI Tech Stac
+k Implementation
+
+# 1. Google Cloud Implementation
+
+# Google Cloud offers a variety of tools and services that can help 
+you implement the Generative AI technology stack:
+
+https://preview.redd.it/dow8slpebg1e1.png?width=879&format=png&auto=w
+ebp&s=154844db2a858a6992c2e19fedda0552310e9a82
+
+https://preview.redd.it/kme3v72ibg1e1.png?width=1060&format=png&auto=web
+p&s=2b73b707b0c96b77d9d4137d9a427f949ed04aa0
+
+* **Infrastructure**: Use **Google Cloud Compute Engine** or **Google Kube
+rnetes Engine (GKE)** for scalable infrastructure, combined with **TPUs** for accelerated machine learning tasks.
+* **Fo
+undation Models**: Leverage **Vertex AI** to access pre-trained models or fine-tune models using Google's AI platform.
+*
+ **Retrieval Layer**: Utilize **Cloud Bigtable** or **Firestore** for structured data, and **Google Cloud Storage** for 
+large datasets and embeddings.
+* **Runtime/Framework**: Integrate with frameworks like **TensorFlow** and **HuggingFace 
+Transformers**, which can be deployed using Google AI services.
+* **Monitoring and Orchestration**: Use **Google Cloud M
+onitoring** and **Cloud Logging** to manage performance, combined with **Google Kubernetes Engine** for orchestration.
+*
+ **Frontend Hosting**: Deploy user-facing applications using **Firebase Hosting** or **Google App Engine**.
+
+# 2. AWS Im
+plementation
+
+# Amazon Web Services (AWS) provides a robust ecosystem to support each layer of the Generative AI stack:
+
+
+https://preview.redd.it/xdjv177kbg1e1.png?width=3615&format=png&auto=webp&s=fd5c46c9388259332af7eeef50a66447272ec2a9
+
+*
+ **Infrastructure**: Utilize **EC2 instances** with GPU capabilities or **SageMaker** for scalable compute resources.
+* 
+**Foundation Models**: Use **Amazon SageMaker** to train and deploy models, or access pre-trained models available throu
+gh AWS.
+* **Retrieval Layer**: Implement **Amazon DynamoDB** for fast access to structured data and **Amazon OpenSearch*
+* for searching across large datasets.
+* **Runtime/Framework**: Integrate **HuggingFace** on AWS, with **Amazon SageMake
+r** to manage model training and inference workflows.
+* **Monitoring and Orchestration**: Use **CloudWatch** for monitor
+ing and logging, and **AWS Fargate** for orchestrating containerized workloads.
+* **Frontend Hosting**: Host application
+s with **Amazon S3** and use **CloudFront** for content delivery.
+
+# 3. Azure Implementation
+
+# Microsoft Azure provides
+ an extensive set of tools to implement the GenAI technology stack effectively:
+
+https://preview.redd.it/lu0jlwpmbg1e1.p
+ng?width=731&format=png&auto=webp&s=0f9479a6d2a40863bd07262e01075581bcc1a274
+
+* **Infrastructure**: Use **Azure Virtual 
+Machines** or **Azure Kubernetes Service (AKS)** for scalable compute resources, and leverage **Azure ML** for optimized
+ AI workflows.
+* **Foundation Models**: Utilize **Azure OpenAI Service** to access pre-trained language models and build
+ customized AI solutions.
+* **Retrieval Layer**: Use **Azure Cosmos DB** for high-performance access to structured data 
+and **Azure Blob Storage** for large datasets.
+* **Runtime/Framework**: Integrate frameworks like **PyTorch** and **Tens
+orFlow**, and use **Azure ML** to deploy and manage these models.
+* **Monitoring and Orchestration**: Use **Azure Monito
+r** for monitoring, **Log Analytics** for insights, and **Azure Kubernetes Service** for orchestration.
+* **Frontend Hos
+ting**: Host your frontend with **Azure App Service** or **Static Web Apps** for a seamless user experience.
+
+# Notes an
+d Future Directions
+
+# This tech stack isn't a rigid blueprint but rather a point of reference. There are many tools and
+ technologies that could fit into each of these layers, depending on your specific needs and constraints.
+
+# Moreover, i
+t's worth noting the importance of a vector database. Vector databases are particularly suited for GenAI applications, a
+s they can handle complex, high-dimensional data while offering efficient querying and retrieval mechanisms. A prime exa
+mple is SingleStore, which can handle both vector and traditional relational data efficiently, thus offering a flexible 
+solution for AI applications.
+
+# In the future, additional layers like advanced monitoring, security, and specialized or
+chestration tools might become even more crucial to build production-grade GenAI systems.
+
+https://preview.redd.it/am698
+10qbg1e1.png?width=7680&format=png&auto=webp&s=0a5efb86738676315acfe4c73e9474c99b0b3cd5
+
+# [💪 AI and Machine Learning Fo
+r Dummies](https://apps.apple.com/ca/app/ai-machine-learning-4-dummies/id1611593573)
+
+Djamgatech has launched a new educ
+ational app on the Apple App Store, aimed at simplifying AI and machine learning for beginners.
+
+**It is a mobile App th
+at can help anyone Master AI & Machine Learning on the phone!**
+
+**Download 'AI and Machine Learning For Dummies ' FROM 
+APPLE APP STORE and conquer any skill level with interactive quizzes, certification exams, & animated concept maps in:**
+
+
+* **Artificial Intelligence**
+* **Machine Learning**
+* **Deep Learning**
+* **Generative AI**
+* **LLMs**
+* **NLP**
+* **
+xAI**
+* **Data Science**
+* **AI and ML Optimization**
+* **AI Ethics & Bias ⚖️**
+
+**& more! ➡️**[ App Store Link: ](https
+://apps.apple.com/ca/app/ai-machine-learning-4-dummies/id1611593573)[https://apps.apple.com/ca/app/ai-machine-learning-4
+-dummies/id1611593573](https://apps.apple.com/ca/app/ai-machine-learning-4-dummies/id1611593573)
+
+# [AI Consultation](ht
+tp://djamgatech.com/contact-us/):
+
+We empower organizations to leverage the transformative power of Artificial Intellige
+nce. Our AI consultancy services are designed to meet the unique needs of industries such as oil and gas, healthcare, ed
+ucation, and finance. **We provide customized AI and Machine Learning podcast for your organization, training sessions, 
+ongoing advisory services, and tailored AI solutions that drive innovation, efficiency, and growth.**
+
+Contact us [here]
+(http://djamgatech.com/contact-us/) ([or email us at info@djamgatech.com](http://djamgatech.com/contact-us/)) to receive
+ a personalized value proposition.
+```
+---
+
+     
+ 
+all -  [ deprecation of langchain-community? ](https://www.reddit.com/r/LangChain/comments/1gt8jbb/deprecation_of_langchaincommunity/) , 2024-11-18-0914
+```
+I'm one of who was interested integrating my own service to langchain via langchain-community (still don't know what's t
+he difference btw partner package and community package but). 
+
+And experiencing the process... found it would be no mor
+e sustainable for langchain team to manage and operate in the way it was.
+
+Now I just found out they are planning deprec
+ation of langchain-community ?! 
+
+[https://python.langchain.com/docs/contributing/how\_to/integrations/community/](https
+://python.langchain.com/docs/contributing/how_to/integrations/community/)
+
+and they might add integrations only through 
+standalone repo...?
+
+would love to hear about some experiences and expectations on integrations with LangChain!
+```
+---
+
+     
+ 
+all -  [ Agent Deployment ](https://www.reddit.com/r/LangChain/comments/1gt8gfo/agent_deployment/) , 2024-11-18-0914
+```
+Hi everyone,
+
+I’ve built an AI agent using Langraph and am looking to deploy it. Could someone guide me on the available
+ deployment options and key considerations for deploying AI agents effectively?
+
+Thanks in advance!
+```
+---
+
+     
+ 
+all -  [ Roast my Resume, 2nd year B.Tech Computer Science Student ](https://www.reddit.com/r/Btechtards/comments/1gt8cpw/roast_my_resume_2nd_year_btech_computer_science/) , 2024-11-18-0914
+```
+https://preview.redd.it/7ptc2ku4ze1e1.png?width=936&format=png&auto=webp&s=d4e76a4fa419143cbb3ed46e072826b31e990a00
+
+
+```
+---
+
+     
+ 
+all -  [ Seeking Help to Optimize RAG Workflow and Reduce Token Usage in OpenAI Chat Completion ](https://www.reddit.com/r/LangChain/comments/1gt7o3r/seeking_help_to_optimize_rag_workflow_and_reduce/) , 2024-11-18-0914
+```
+
+
+Hey everyone,
+
+I'm a frontend developer with some experience in LangChain, React, Node, Next.js, Supabase, and Puppete
+er. Recently, I’ve been working on a Retrieval Augmented Generation (RAG) app that involves:
+
+1. Fetching data from a we
+bsite using Puppeteer.
+2. Splitting the fetched data into chunks and storing it in Supabase.
+3. Interacting with the sto
+red data by retrieving two chunks at a time using Supabase's RPC function.
+4. Sending these chunks, along with a basic p
+rompt, to OpenAI's Chat Completion endpoint for a structured response.
+
+While the workflow is functional, the responses 
+aren't meeting my expectations. For example, I’m aiming for something similar to the structured responses provided by [s
+itespeak.ai](https://sitespeak.ai/), but with minimal OpenAI token usage. My requirements include:
+
+* Retaining the prev
+ious chat history for a more user-friendly experience.
+* Reducing token consumption to make the solution cost-effective.
+
+* Exploring alternatives like Llama or Gemini for handling more chunks with fewer token burns.
+
+If anyone has experienc
+e optimizing RAG pipelines, using free resources like Llama/Gemini, or designing efficient prompts for structured output
+s, I’d greatly appreciate your advice!
+
+Thanks in advance for helping me reach my goal. 😊
+```
+---
+
+     
+ 
+all -  [ How to prevent chat() function in pandasai from downloading images? ](https://www.reddit.com/r/StreamlitOfficial/comments/1gswjm3/how_to_prevent_chat_function_in_pandasai_from/) , 2024-11-18-0914
 ```
 I'm using the [pandasai](https://pypi.org/project/pandasai/) library for data analysis in my application. When I call th
 e `chat()` function to generate image responses, it triggers a download of the images instead of displaying them. I want
@@ -55,7 +720,7 @@ If not, are there any workarounds
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1gswggs/list_of_free_and_best_selling_discounted_courses/) , 2024-11-17-0914
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1gswggs/list_of_free_and_best_selling_discounted_courses/) , 2024-11-18-0914
 ```
 # Udemy Free Courses for 17 November 2024
 
@@ -306,7 +971,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloa
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1gswgdr/list_of_free_and_best_selling_discounted_courses/) , 2024-11-17-0914
+all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1gswgdr/list_of_free_and_best_selling_discounted_courses/) , 2024-11-18-0914
 ```
 # Udemy Free Courses for 17 November 2024
 
@@ -557,15 +1222,7 @@ GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://www.redd
 
      
  
-all -  [ I'm close to a productivity explosion ](/r/AI_Agents/comments/1gsqt1v/im_close_to_a_productivity_explosion/) , 2024-11-17-0914
-```
-
-```
----
-
-     
- 
-all -  [ Find tech partner ](https://www.reddit.com/r/LangChain/comments/1gsuspk/find_tech_partner/) , 2024-11-17-0914
+all -  [ Find tech partner ](https://www.reddit.com/r/LangChain/comments/1gsuspk/find_tech_partner/) , 2024-11-18-0914
 ```
 WeChat/QQ AI Assistant Platform - Ready-to-Build Opportunity
 
@@ -620,7 +1277,7 @@ d it interesting, please dm me
  
 all -  [ This week in AI and Machine Learning:
 🛸 US to Deploy World’s First Alien-Hunting System
-👀 OpenAI’s T ](https://www.reddit.com/r/u_enoumen/comments/1gst4oj/this_week_in_ai_and_machine_learning_us_to_deploy/) , 2024-11-17-0914
+👀 OpenAI’s T ](https://www.reddit.com/r/u_enoumen/comments/1gst4oj/this_week_in_ai_and_machine_learning_us_to_deploy/) , 2024-11-18-0914
 ```
 # [This week in AI and Machine Learning: November 09th - November 17th  2024](https://apps.apple.com/ca/app/ai-machine-l
 earning-4-dummies/id1611593573)
@@ -835,7 +1492,7 @@ Terminal \[[Listen](https://podcasts.apple.com/ca/podcast/ai-unraveled-latest-ai
 
      
  
-all -  [ Open Source RAG Repo: Everything You Need in One Place ](https://www.reddit.com/r/OpenSourceeAI/comments/1gsshf0/open_source_rag_repo_everything_you_need_in_one/) , 2024-11-17-0914
+all -  [ Open Source RAG Repo: Everything You Need in One Place ](https://www.reddit.com/r/OpenSourceeAI/comments/1gsshf0/open_source_rag_repo_everything_you_need_in_one/) , 2024-11-18-0914
 ```
 For the past 3 months, I’ve been diving deep into building RAG apps and found tons of information scattered across the i
 nternet—YouTube videos, research papers, blogs—you name it. It was overwhelming.
@@ -869,7 +1526,7 @@ nks for your support!
 
      
  
-all -  [ Multiple dependent tools ](https://www.reddit.com/r/LangChain/comments/1gsr4px/multiple_dependent_tools/) , 2024-11-17-0914
+all -  [ Multiple dependent tools ](https://www.reddit.com/r/LangChain/comments/1gsr4px/multiple_dependent_tools/) , 2024-11-18-0914
 ```
   
 I would like some help/advice.  
@@ -897,7 +1554,7 @@ nd any help! :D
 
      
  
-all -  [ Can someone critique my resume? I've been applying the tips handed out around here. ](https://www.reddit.com/r/PHJobs/comments/1gsmsr4/can_someone_critique_my_resume_ive_been_applying/) , 2024-11-17-0914
+all -  [ Can someone critique my resume? I've been applying the tips handed out around here. ](https://www.reddit.com/r/PHJobs/comments/1gsmsr4/can_someone_critique_my_resume_ive_been_applying/) , 2024-11-18-0914
 ```
 [Page 1](https://preview.redd.it/5e25wt4uh91e1.png?width=604&format=png&auto=webp&s=f4b1e890b053ddd061a34fd368283438c0a4
 3e5b)
@@ -911,7 +1568,7 @@ all -  [ Can someone critique my resume? I've been applying the tips handed out 
 
      
  
-all -  [ LangSec: A Security Framework for Text-to-SQL ](https://www.reddit.com/r/LangChain/comments/1gskn0q/langsec_a_security_framework_for_texttosql/) , 2024-11-17-0914
+all -  [ LangSec: A Security Framework for Text-to-SQL ](https://www.reddit.com/r/LangChain/comments/1gskn0q/langsec_a_security_framework_for_texttosql/) , 2024-11-18-0914
 ```
 Concerned about security when using Text-to-SQL? We were too. That's why we created **langsec**, an open-source Python p
 ackage that lets you define security schemas to enforce and validate LLM-generated SQL queries. Easy to integrate with y
@@ -926,7 +1583,7 @@ l, please leave us a ⭐!
 
      
  
-all -  [ Breaking down Complex Queries into sub queries for NL2SQL  ](https://www.reddit.com/r/LangChain/comments/1gsjkyb/breaking_down_complex_queries_into_sub_queries/) , 2024-11-17-0914
+all -  [ Breaking down Complex Queries into sub queries for NL2SQL  ](https://www.reddit.com/r/LangChain/comments/1gsjkyb/breaking_down_complex_queries_into_sub_queries/) , 2024-11-18-0914
 ```
 I am building a lang graph based agentic workflow that converts Natural Language to SQL queries. I am dealing with multi
 ple tables with complex relationships. Here I find that certain queries that require sub queries are not correctly gener
@@ -938,7 +1595,7 @@ carry this out?
 
      
  
-all -  [ Comprehensive RAG Repo: Everything You Need in One Place ](https://www.reddit.com/r/LangChain/comments/1gsita2/comprehensive_rag_repo_everything_you_need_in_one/) , 2024-11-17-0914
+all -  [ Comprehensive RAG Repo: Everything You Need in One Place ](https://www.reddit.com/r/LangChain/comments/1gsita2/comprehensive_rag_repo_everything_you_need_in_one/) , 2024-11-18-0914
 ```
 For the past 3 months, I’ve been diving deep into building RAG apps and found tons of information scattered across the i
 nternet—YouTube videos, research papers, blogs—you name it. It was overwhelming.
@@ -973,7 +1630,7 @@ Thanks for your support!
 
      
  
-all -  [ Why Are AI Agent Tools So Complex? Thinking of a Simpler Solution ](https://www.reddit.com/r/LangChain/comments/1gshuh5/why_are_ai_agent_tools_so_complex_thinking_of_a/) , 2024-11-17-0914
+all -  [ Why Are AI Agent Tools So Complex? Thinking of a Simpler Solution ](https://www.reddit.com/r/LangChain/comments/1gshuh5/why_are_ai_agent_tools_so_complex_thinking_of_a/) , 2024-11-18-0914
 ```
 Hey everyone,
 
@@ -999,7 +1656,7 @@ Would love to hear your thoughts
 
      
  
-all -  [ The AI Agents News Time ](https://www.reddit.com/r/AIAgentsDirectory/comments/1gsb32x/the_ai_agents_news_time/) , 2024-11-17-0914
+all -  [ The AI Agents News Time ](https://www.reddit.com/r/AIAgentsDirectory/comments/1gsb32x/the_ai_agents_news_time/) , 2024-11-18-0914
 ```
 The AI Agents News Time:
 
@@ -1064,7 +1721,7 @@ lnkd.in/dnC7mh4K)
 
      
  
-all -  [ How does langchain transcribe youtube videos ? ](https://www.reddit.com/r/LangChain/comments/1gs7y2v/how_does_langchain_transcribe_youtube_videos/) , 2024-11-17-0914
+all -  [ How does langchain transcribe youtube videos ? ](https://www.reddit.com/r/LangChain/comments/1gs7y2v/how_does_langchain_transcribe_youtube_videos/) , 2024-11-18-0914
 ```
 Reaching out to the community, I was wondering how [LangChain](https://www.linkedin.com/company/langchain/) has helper m
 odules like from langchain\_community.document\_loaders import YoutubeLoader to allow transcribing of youtube videos, is
@@ -1074,7 +1731,7 @@ odules like from langchain\_community.document\_loaders import YoutubeLoader to 
 
      
  
-all -  [ An intelligent document processing platform for generative AI ](https://www.reddit.com/r/instructlab/comments/1gs6eov/an_intelligent_document_processing_platform_for/) , 2024-11-17-0914
+all -  [ An intelligent document processing platform for generative AI ](https://www.reddit.com/r/instructlab/comments/1gs6eov/an_intelligent_document_processing_platform_for/) , 2024-11-18-0914
 ```
 Learn about [Docling: a new tool to unlock data from enterprise documents for generative AI](https://research.ibm.com/bl
 og/docling-generative-AI).
@@ -1101,7 +1758,7 @@ ations
 
      
  
-all -  [ LangGraph Discord server! ](https://www.reddit.com/r/LangChain/comments/1gs46nd/langgraph_discord_server/) , 2024-11-17-0914
+all -  [ LangGraph Discord server! ](https://www.reddit.com/r/LangChain/comments/1gs46nd/langgraph_discord_server/) , 2024-11-18-0914
 ```
 [https://discord.gg/Agh2mwpN](https://discord.gg/Agh2mwpN)
 
@@ -1117,7 +1774,7 @@ and I'll figure out whatever I did wrong and fix it. Stoked that the ball's roll
 
      
  
-all -  [ how do I make the langchain based SQL Agent Chatbot understand the underlying business rules when fo ](https://www.reddit.com/r/Langchaindev/comments/1gs1ql0/how_do_i_make_the_langchain_based_sql_agent/) , 2024-11-17-0914
+all -  [ how do I make the langchain based SQL Agent Chatbot understand the underlying business rules when fo ](https://www.reddit.com/r/Langchaindev/comments/1gs1ql0/how_do_i_make_the_langchain_based_sql_agent/) , 2024-11-18-0914
 ```
 There more than 500 tables and more than 1000 of business logics. How do i make this SQL Agent always form the correct S
 QL query? Additionally I want this as a chatbot solution, so the response really has to be in few seconds. Can’t let the
@@ -1129,7 +1786,7 @@ preciated 🙏🏻
 
      
  
-all -  [ Help Need to run the Hierarchical agent example!! ](https://www.reddit.com/r/LangChain/comments/1gs123j/help_need_to_run_the_hierarchical_agent_example/) , 2024-11-17-0914
+all -  [ Help Need to run the Hierarchical agent example!! ](https://www.reddit.com/r/LangChain/comments/1gs123j/help_need_to_run_the_hierarchical_agent_example/) , 2024-11-18-0914
 ```
 [https://www.reddit.com/r/LangGraph/comments/1gs0b2p/hierarchical\_agent\_teams\_keyerrornext/?utm\_source=share&utm\_me
 dium=web3x&utm\_name=web3xcss&utm\_term=1&utm\_content=share\_button](https://www.reddit.com/r/LangGraph/comments/1gs0b2
@@ -1144,7 +1801,7 @@ Keep getting the KeyError: 'next'...
 
      
  
-all -  [ Roadmap for application and the core working of generative AI and LLMs ](https://www.reddit.com/r/LangChain/comments/1grzwig/roadmap_for_application_and_the_core_working_of/) , 2024-11-17-0914
+all -  [ Roadmap for application and the core working of generative AI and LLMs ](https://www.reddit.com/r/LangChain/comments/1grzwig/roadmap_for_application_and_the_core_working_of/) , 2024-11-18-0914
 ```
 I’m a final year undergrad with proficiency in Python. I’m not unbeknownst to deep learning or a few Gen AI components. 
 I’ve built really primitive deep learning applications using CNNs and also an RAG pipeline using a locally set up llm th
@@ -1158,7 +1815,7 @@ n AI tools like cursor, super maven etc not just simply use them but also try to
 
      
  
-all -  [ Llm for consistent json output or some other method ](https://www.reddit.com/r/LangChain/comments/1grzp7w/llm_for_consistent_json_output_or_some_other/) , 2024-11-17-0914
+all -  [ Llm for consistent json output or some other method ](https://www.reddit.com/r/LangChain/comments/1grzp7w/llm_for_consistent_json_output_or_some_other/) , 2024-11-18-0914
 ```
 I found that it is quite hard with gpt-4o to keep the json structure consistent for every output, though the artifcat th
 ing is completely based on structured output.
@@ -1180,7 +1837,7 @@ What do you say ?
      
  
 all -  [ This week in AI - all the Major AI developments in a nutshell
- ](https://www.reddit.com/r/ArtificialInteligence/comments/1grykgg/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-11-17-0914
+ ](https://www.reddit.com/r/ArtificialInteligence/comments/1grykgg/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-11-18-0914
 ```
 1. **Alibaba Cloud** released ***Qwen2.5-Coder-32B***, an open-source model for programming tasks that matches the codin
 g capabilities of GPT-4o. In addition to this flagship model, four new models have been released, expanding the Qwen2.5-
@@ -1271,7 +1928,7 @@ ected tools. Thanks!
      
  
 all -  [ This week in AI - all the Major AI developments in a nutshell
- ](https://www.reddit.com/r/ChatGPTCoding/comments/1gryf3n/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-11-17-0914
+ ](https://www.reddit.com/r/ChatGPTCoding/comments/1gryf3n/this_week_in_ai_all_the_major_ai_developments_in/) , 2024-11-18-0914
 ```
 1. **Alibaba Cloud** released ***Qwen2.5-Coder-32B***, an open-source model for programming tasks that matches the codin
 g capabilities of GPT-4o. In addition to this flagship model, four new models have been released, expanding the Qwen2.5-
@@ -1363,7 +2020,7 @@ ected tools. Thanks!
 
      
  
-all -  [ A simple alternative to LangChain for lazy developers / noobs ](https://www.reddit.com/r/LangChain/comments/1grxowm/a_simple_alternative_to_langchain_for_lazy/) , 2024-11-17-0914
+all -  [ A simple alternative to LangChain for lazy developers / noobs ](https://www.reddit.com/r/LangChain/comments/1grxowm/a_simple_alternative_to_langchain_for_lazy/) , 2024-11-18-0914
 ```
 Hi everyone, 
 
@@ -1388,7 +2045,7 @@ Cheers
 
      
  
-all -  [ Just kicked off my AgentCraft Hackathon with LangChain - here are the expert sessions! (recordings a ](https://open.substack.com/pub/diamantai/p/agentcraft-hackathon-kickoff-world?r=336pe4&utm_campaign=post&utm_medium=web) , 2024-11-17-0914
+all -  [ Just kicked off my AgentCraft Hackathon with LangChain - here are the expert sessions! (recordings a ](https://open.substack.com/pub/diamantai/p/agentcraft-hackathon-kickoff-world?r=336pe4&utm_campaign=post&utm_medium=web) , 2024-11-18-0914
 ```
 Just hosted the kickoff for my company DiamantAI's AgentCraft hackathon with LangChain. Recorded some amazing sessions w
 ith experts sharing the latest in AI agent development:
@@ -1416,7 +2073,7 @@ Let me know if you have any questions about the sessions or hackathon!
 
      
  
-all -  [ LangGraph Human In The Loop – JavaScript implementation ](https://www.reddit.com/r/LangChain/comments/1grvmrz/langgraph_human_in_the_loop_javascript/) , 2024-11-17-0914
+all -  [ LangGraph Human In The Loop – JavaScript implementation ](https://www.reddit.com/r/LangChain/comments/1grvmrz/langgraph_human_in_the_loop_javascript/) , 2024-11-18-0914
 ```
 Wrote a small article on how to add Human In The Loop for AI Agents using LangGraph  [https://www.js-craft.io/blog/langg
 raph-human-loop-javascript/](https://www.js-craft.io/blog/langgraph-human-loop-javascript/). Any feedback is welcomed. 
@@ -1425,183 +2082,7 @@ raph-human-loop-javascript/](https://www.js-craft.io/blog/langgraph-human-loop-j
 
      
  
-all -  [ Built llmtest: A Semantic Testing Framework for LLMs (Need Senior Engineering Help!) ](https://www.reddit.com/r/LangChain/comments/1grtaol/built_llmtest_a_semantic_testing_framework_for/) , 2024-11-17-0914
-```
-Hey r/langchain! I've built something I think could be really useful, but I need senior engineering help to make it prod
-uction-ready. I'm a programming noob, only been writing code for 20 months. It is at an extremely early stage but I thin
-k the idea has potential.
-
-What is llmtest?
-
-A semantic testing framework that uses LLMs to validate semantic equivalenc
-e in test outputs. Instead of exact matching (which doesn't work with LLM outputs), it uses LLMs themselves to check if 
-outputs are semantically equivalent.
-
-Why I Built It
-
-I got frustrated with not being able to properly test LLM applicat
-ions (I don't trust my code, and I trust LLMs even less). I thought 'If we need to validate semantic meaning, why not us
-e an LLM to do it?' So I built a basic framework that does exactly that.
-
-Current State
-
-Here's a basic example:
-
-`from 
-llmtest.core.semantic_assert import SemanticAssertion`
-
-`def test_my_llm_function(asserter):`
-
-`result = my_llm_function
-()`  
-`asserter.assert_semantic_match(actual=result,`  
-`expected_behavior='Should provide a coherent answer`  
-`about P
-ython')`
-
-Why I Need Help
-
-While I've got a working test (I think, it passed the test for the test in the test package b
-ecause the only way to make tests good is to write tests to test your tests) and basic functionality, I'm relatively new
- to programming and need senior engineering guidance to make this production-ready. Looking for experienced engineers wh
-o can:
-
-1. Help lead the technical direction
-2. Guide architecture decisions
-3. Implement best practices
-4. Make this pr
-oduction-ready
-
-Why This Matters
-
-Every LLM application needs semantic testing, but current solutions either:
-
-* Use exa
-ct matching (doesn't work)
-* Use complex metrics (hard to implement)
-* Don't address semantic equivalence directly
-
-Curr
-ent Features
-
-* Semantic equivalence testing using GPT-4o
-* pytest integration
-* Basic error handling
-* Environment-base
-d configuration
-
-Links
-
-* GitHub: [https://github.com/Shredmetal/llmtest](https://github.com/Shredmetal/llmtest)
-
-Would 
-love to connect with senior engineers who:
-
-1. See the potential in this approach
-2. Want to help shape the future of LL
-M testing
-3. Are interested in mentoring while building something useful
-
-I'm happy to remain an active core contributor
- while learning from more experienced developers (I'm way in over my head here!).
-
-Edit:
-
-Someone asked how it worked so
-:
-
-For me now, testing an LLM app for me involves spinning the LLM service up, spinning up a frontend, and talking to th
-e bot. The idea is to take me out of the equation.
-
-What do I do when I talk to the bot? I expect a particular type of r
-esponse based on the system message / any other templates I use.
-
-I thought that this thought process can be replicated 
-by an LLM (however it does it, thought or not).
-
-So this testing package:
-
-1. Takes your LLM app output
-2. Takes the exp
-ected behaviour
-3. Gives it to an LLM to check if it matches semantically
-4. Gets the response from the LLM whether PASS
- or FAIL + reason for failure
-5. Then raises an error or doesn't raise an error.
-
-For example (these are test cases from
- the tests for my semantic assertion test):
-
-This test correctly does not throw any semantic assertion error:
-
-        d
-ef test_basic_semantic_match(self, asserter):
-            '''Test basic semantic matching'''
-            actual = 'The s
-ky is blue'
-            expected = 'A statement about the color of the sky'
-    
-            asserter.assert_semantic_ma
-tch(actual, expected)
-
-This test successfully throws an assertion error:
-
-        def test_semantic_mismatch(self, asser
-ter):
-            '''Test semantic mismatch raises correct exception'''
-            actual = 'The sky is blue'
-         
-   expected = 'A statement about the weather forecast'
-    
-            with pytest.raises(SemanticAssertionError) as ex
-cinfo:
-                asserter.assert_semantic_match(actual, expected)
-    
-            assert 'Semantic assertion fail
-ed' in str(excinfo.value)
-
-For the attached images, the LLM was asked to generate:
-
-`'''You are a friendly greeting bot.
- Your task is to generate`
-
-`warm, personalized greetings. The greeting should:`
-
-`1. Use the person's name`
-
-`2. Be fri
-endly and welcoming`
-
-`3. Include a question about their wellbeing`
-
-`4. Keep responses concise (max 2 sentences)'''`
-
-T
-his was the expected behavior:
-
-    '''
-    A polite greeting that:
-    1. Addresses the person by name (Alice)
-    2. A
-sks about their wellbeing
-    '''
-
-Please refer to the attached images - the testing behaved as expected.
-
-[Test failure
- because the expected behaviour did not match the actual behaviour \(The LLM greeted Alice instead of John, which was wh
-o the testing LLM was told to expect\)](https://preview.redd.it/cen4ntnvk21e1.jpg?width=1509&format=pjpg&auto=webp&s=e12
-d6a5e943e700af4de24eef93ccf4789e11b3f)
-
-[The test passed because the actual content semantically matched the expected co
-ntent.](https://preview.redd.it/rqtqxm1wk21e1.jpg?width=668&format=pjpg&auto=webp&s=397e9d2be72f2ec3d6206e74ba644f5178a4
-a59b)
-```
----
-
-     
- 
-all -  [ PDF RAG Chain for me or PDF RAG Agent for me ? ](https://www.reddit.com/r/Rag/comments/1grqdyy/pdf_rag_chain_for_me_or_pdf_rag_agent_for_me/) , 2024-11-17-0914
+all -  [ PDF RAG Chain for me or PDF RAG Agent for me ? ](https://www.reddit.com/r/Rag/comments/1grqdyy/pdf_rag_chain_for_me_or_pdf_rag_agent_for_me/) , 2024-11-18-0914
 ```
 Hi guys,  
 I'm learning AI and currently working on a RAG project using complex pdfs ( by complex I mean pdfs that conta
@@ -1643,7 +2124,7 @@ re as I'm developing a RAG app. Hope you guys don't mind. Thanks!
 
      
  
-all -  [ PDF RAG Chain for me or PDF RAG Agent for me ? ](https://www.reddit.com/r/LangChain/comments/1grqcwn/pdf_rag_chain_for_me_or_pdf_rag_agent_for_me/) , 2024-11-17-0914
+all -  [ PDF RAG Chain for me or PDF RAG Agent for me ? ](https://www.reddit.com/r/LangChain/comments/1grqcwn/pdf_rag_chain_for_me_or_pdf_rag_agent_for_me/) , 2024-11-18-0914
 ```
 Hi guys,  
 I'm learning AI and currently working on a RAG project using complex pdfs ( by complex I mean pdfs that conta
@@ -1795,7 +2276,7 @@ ou may respond to basic greetings, but for all other queries, strictly use infor
 
      
  
-all -  [ Rag and retriever question  ](https://www.reddit.com/r/LangChain/comments/1grojfh/rag_and_retriever_question/) , 2024-11-17-0914
+all -  [ Rag and retriever question  ](https://www.reddit.com/r/LangChain/comments/1grojfh/rag_and_retriever_question/) , 2024-11-18-0914
 ```
 Hello everyone, I'd like to ask the community for help with a question. I’m just starting to learn about Artificial Inte
 lligence, and I recently built a tutorial guide on how to create a Retrieval-Augmented Generation (RAG) system using Lan
@@ -1810,320 +2291,7 @@ https://python.langchain.com/docs/tutorials/rag/
 
      
  
-all -  [ I am sharing Data Science & AI courses and projects on YouTube ](https://www.reddit.com/r/ChatGPT/comments/1grnymr/i_am_sharing_data_science_ai_courses_and_projects/) , 2024-11-17-0914
-```
-Hello, I wanted to share that I am sharing free courses and projects on my YouTube Channel. I have more than 200 videos 
-and I created playlists for learning Data Science. I am leaving the playlist link below, have a great day!
-
-Data Science
- Full Courses & Projects -> [https://youtube.com/playlist?list=PLTsu3dft3CWiow7L7WrCd27ohlra\_5PGH&si=6WUpVwXeAKEs4tB6](
-https://youtube.com/playlist?list=PLTsu3dft3CWiow7L7WrCd27ohlra_5PGH&si=6WUpVwXeAKEs4tB6)
-
-Machine Learning Tutorials ->
- [https://youtube.com/playlist?list=PLTsu3dft3CWhSJh3x5T6jqPWTTg2i6jp1&si=1rZ8PI1J4ShM\_9vW](https://youtube.com/playlis
-t?list=PLTsu3dft3CWhSJh3x5T6jqPWTTg2i6jp1&si=1rZ8PI1J4ShM_9vW)
-
-AI Tutorials (ChatGPT, LangChain & LLMs) -> [https://you
-tube.com/playlist?list=PLTsu3dft3CWhAAPowINZa5cMZ5elpfrxW&si=DvsefwOEJd3k-ShN](https://youtube.com/playlist?list=PLTsu3d
-ft3CWhAAPowINZa5cMZ5elpfrxW&si=DvsefwOEJd3k-ShN)
-```
----
-
-     
- 
-all -  [ I am sharing Data Science & AI courses and projects on YouTube ](https://www.reddit.com/r/artificial/comments/1grny51/i_am_sharing_data_science_ai_courses_and_projects/) , 2024-11-17-0914
-```
-Hello, I wanted to share that I am sharing free courses and projects on my YouTube Channel. I have more than 200 videos 
-and I created playlists for learning Data Science. I am leaving the playlist link below, have a great day!
-
-Data Science
- Full Courses & Projects -> [https://youtube.com/playlist?list=PLTsu3dft3CWiow7L7WrCd27ohlra\_5PGH&si=6WUpVwXeAKEs4tB6](
-https://youtube.com/playlist?list=PLTsu3dft3CWiow7L7WrCd27ohlra_5PGH&si=6WUpVwXeAKEs4tB6)
-
-Machine Learning Tutorials ->
- [https://youtube.com/playlist?list=PLTsu3dft3CWhSJh3x5T6jqPWTTg2i6jp1&si=1rZ8PI1J4ShM\_9vW](https://youtube.com/playlis
-t?list=PLTsu3dft3CWhSJh3x5T6jqPWTTg2i6jp1&si=1rZ8PI1J4ShM_9vW)
-
-AI Tutorials (OpenAI, LangChain & LLMs) -> [https://yout
-ube.com/playlist?list=PLTsu3dft3CWhAAPowINZa5cMZ5elpfrxW&si=DvsefwOEJd3k-ShN](https://youtube.com/playlist?list=PLTsu3df
-t3CWhAAPowINZa5cMZ5elpfrxW&si=DvsefwOEJd3k-ShN)
-```
----
-
-     
- 
-all -  [ LLM Development Tech-Stack ](https://www.reddit.com/r/LangChain/comments/1gri6f7/llm_development_techstack/) , 2024-11-17-0914
-```
-I've been working in AI development for a while now, first at FAANG, and now in startups. IMO, when architecting your LL
-M application, you need to optimize for being able to iterate quickly.
-
-
-
-LLM Development involves being able to constan
-tly try out different prompts, models, call-chaining, RAG datasets, and more to see what works. This requires a tech-sta
-ck that helps you efficiently try out different combinations. That’s why I’m working on an open-source framework, Palico
-, that optimizes for the iterative nature of LLM Development.
-
-
-
-Palico is an opinionated framework that gives you an in
-tegrated system for building, evaluating, and deploying your LLM Application. The “opinionated” part of the framework ba
-kes in best-practices I’ve seen by talking to hundreds of LLM Devs, as well as my experience working in AI for the last 
-few years.
-
-
-
-You can checkout the framework here: [https://github.com/palico-ai/palico-ai](https://github.com/palico-ai
-/palico-ai)
-
-
-
-Would love any feedback!
-```
----
-
-     
- 
-all -  [ AI Agent Stack  ](https://www.reddit.com/r/LangChain/comments/1grhpfz/ai_agent_stack/) , 2024-11-17-0914
-```
-Hi all - recently I got triggered by seeing the the Nth “AI agent stack”/”AI agents market map” made by a VC features a 
-bunch of companies I’ve never heard up in categories that make no sense. [Sharing what I see as the real “agents stack”]
-(https://www.letta.com/blog/ai-agents-stack), from the perspective of having been building an agents framework and worki
-ng with a lot of different providers for components like LLMs, tool calling, storage, and sandboxing.
-
-https://preview.r
-edd.it/mehxo2w55y0e1.jpg?width=5100&format=pjpg&auto=webp&s=5e684f8f64485a551e22557ed0f1effd3cd9cd7e
-
-In my opinion, tod
-ay’s tech stack for building AI agents into three key layers: (1) agent hosting/serving, (2) agent frameworks, (3) LLM m
-odels & storage.
-
-The (3) LLM model and storage layer is now relatively static - I don’t see a lot of new players, and t
-here are clear winners in segments of the market.
-
-For (2) agent frameworks, there’s been a ton of development in the pa
-st 6 months in both general purpose frameworks, as well as specialized components (e.g. tool-use, sandboxing, and memory
-). I think as the space matures we’ll see a lot more players here, and even more specialization - over time, agents will
- probably be built from modular components leveraging different providers.
-
-The layer of the stack thats still the most 
-“up in the air” is hosting (1) - different frameworks have taken very different approaches to what a hosted agent should
- look like, from how agent state (e.g. memories, message history, user data, etc.) are persisted, the API for interactin
-g with agents is, and approach to handling tool execution (arbitrary code the agent can call).
-
-I'm sure I missed come c
-ool projects, so would love to learn if there's other agent hosting/tool frameworks out there since it was quite sparse 
-when we did our research. 
-```
----
-
-     
- 
-all -  [ Scaling issue  ](https://www.reddit.com/r/LangChain/comments/1grhle1/scaling_issue/) , 2024-11-17-0914
-```
-Hi, I’m a bit new to the LLM sphere. I’m creating software that a lot of users will use, for instance with GPT-4. My und
-erstanding is that, since I’m using only one API key, there’s a token limit. I was wondering, how do other companies sca
-le when they might have thousands of users? Do they get an API key for each user, or how does that work?
-```
----
-
-     
- 
-all -  [ Why use LangChain?  ](https://www.reddit.com/r/LangChain/comments/1greyeu/why_use_langchain/) , 2024-11-17-0914
-```
-Genuinely don't know the answer. I've built agents that call functions and retrieve information, multi-agent systems tha
-t work together to execute tasks involving conversing with a user. It's just not clear to me why LangChain is better tha
-n just using the API's directly. Does it just give you abstractions that require less code? How much less code? Does it 
-give new features that you don't get with openai/anthropic API's? Appreciate any insights. I'm coding in python, in case
- makes a difference
-```
----
-
-     
- 
-all -  [ Arch 0.1.2 released 🎉 - AI-native, open source infrastructure to build agents ](https://www.reddit.com/r/LangChain/comments/1grduug/arch_012_released_ainative_open_source/) , 2024-11-17-0914
-```
-[https://github.com/katanemo/arch](https://github.com/katanemo/arch) \- is an AI-native infrastructure primitive to buil
-d fast, personalized agents using APIs. Specifically, Arch is an intelligent prompt gateway designed to protect, observe
-, and personalize LLM applications (agents, assistants, co-pilots) with your APIs.
-
-Engineered with purpose-built LLMs, 
-Arch handles the critical but undifferentiated tasks related to the handling and processing of prompts, including detect
-ing and rejecting [jailbreak](https://github.com/verazuo/jailbreak_llms) attempts, intelligently calling 'backend' APIs 
-to fulfill the user's request represented in a prompt, routing to and offering disaster recovery between upstream LLMs, 
-and managing the observability of prompts and LLM interactions in a centralized way.
-
-Arch is built on (and by the core 
-contributors of) [Envoy Proxy](https://www.envoyproxy.io/) with the belief that:
-
->
-
-**Core Features**:
-
-* Built on [Env
-oy](https://envoyproxy.io): Arch runs alongside application servers, and builds on top of Envoy's proven HTTP management
- and scalability features to handle ingress and egress traffic related to prompts and LLMs.
-* Function Calling for fast 
-Agents and RAG apps. Engineered with purpose-built [LLMs](https://huggingface.co/collections/katanemo/arch-function-66f2
-09a693ea8df14317ad68) to handle fast, cost-effective, and accurate prompt-based tasks like function/API calling, and par
-ameter extraction from prompts.
-* Prompt [Guard](https://huggingface.co/collections/katanemo/arch-guard-6702bdc08b889e4b
-ce8f446d): Arch centralizes prompt guardrails to prevent jailbreak attempts and ensure safe user interactions without wr
-iting a single line of code.
-* Traffic Management: Arch routes outbound LLM calls to OpenAI (and other LLMs), offering s
-mart retries, automatic cutover, and resilient upstream connections for continuous availability.
-* Standards-based Obser
-vability: Arch uses the W3C Trace Context standard to enable complete request tracing across applications, ensuring comp
-atibility with observability tools, and provides metrics to monitor latency, token usage, and error rates, helping optim
-ize AI application performance.
-```
----
-
-     
- 
-all -  [ Prove me wrong - An agent is just a convenient abstraction over an LLM ](https://www.reddit.com/r/LangChain/comments/1grcjpa/prove_me_wrong_an_agent_is_just_a_convenient/) , 2024-11-17-0914
-```
-Hi!
-
-I have not been convinced yet that 'agents' provide any inherent value themselves other than providing a wrapper ar
-ound LLMs that contain some state (prompts, context, etc) and/or logic (call back functions otherwise called 'tools'). B
-efore agents were released, we were all writing classes that encapsulated this state/logic - a typical exercise to perfo
-rm around any model. 
-
-The hype definitely helped push the industry forward while there was slowing progress in terms of
- base models, however, I am reluctant to take a dependency on any new 'agents' framework into my code base when we can a
-chieve the same results with little work. 
-```
----
-
-     
- 
-all -  [ How can I parallelize nodes in LangGraph without having to wait for the slowest one to finish if it' ](https://www.reddit.com/r/LangChain/comments/1grchuz/how_can_i_parallelize_nodes_in_langgraph_without/) , 2024-11-17-0914
-```
-I'm trying to run multiple nodes in parallel to reduce latency but don't want to have to wait for all nodes to finish if
- I determine from early ones that finish that I don't need all of them.
-
-Here's a simple graph example to illustrate the
- problem. It starts with 2 nodes in parallel: setting a random number and getting city preference from some source. If t
-he random number is 1-50, 'NYC' is assigned as city regardless of city preference, but if random number is 51-100, the c
-ity preference is used.
-
-    class State(TypedDict):
-        random_number: int
-        city: str
-        city_preferenc
-e: str
-    
-    graph: StateGraph = StateGraph(state_schema=State)
-    
-    
-    def set_random_number(state):
-        r
-andom_number = 1  # Hardcode to 1 for testing
-        print(f'SET RANDOM NUMBER: {random_number}')
-        return {'rand
-om_number': random_number}
-    
-    
-    def get_city_preference(state):
-        time.sleep(4)  # Simulate a time-consum
-ing operation
-        city_preference = 'Philadelphia'
-        print(f'GOT CITY PREFERENCE: {city_preference}')
-        
-return {'city_preference': city_preference}
-    
-    
-    def assign_city(state):
-        city = 'NYC' if state['random_
-number'] <= 50 else state['city_preference']
-        print(f'ASSIGNED CITY: {city}')
-        return {'city': city}
-    
-
-    
-    graph.add_node('set_random_number', set_random_number)
-    graph.add_node('get_city_preference', get_city_prefe
-rence)
-    graph.add_node('assign_city', assign_city)
-    
-    graph.add_edge(START, 'set_random_number')
-    graph.add_
-edge(START, 'get_city_preference')
-    graph.add_edge('set_random_number', 'assign_city')
-    graph.add_edge('get_city_p
-reference', 'assign_city')
-    graph.add_edge('assign_city', END)
-    
-    graph_compiled = graph.compile(checkpointer=M
-emorySaver())
-    
-    input = {'random_number': 0, 'city': 'Nowhere', 'city_preference': 'N/A'}
-    config = {
-        
-'configurable': {'thread_id': 'test'},
-        'recursion_limit': 50,
-    }
-    state = graph_compiled.invoke(input=inpu
-t, config=config)
-    
-    
-
-The problem with the above and various conditional edge implementations I've tried, is that
- the graph always waits to assign city until the slow get\_city\_preference node completes even if the set\_random\_numb
-er node has already returned a number that doesn't require city preference (i.e., 1-50).
-
-Is there a way to stop a node 
-running in parallel from blocking execution of subsequent nodes if that node's output isn't needed later in the graph?
-```
----
-
-     
- 
-all -  [ Langsmith API Keys. Per project or Per Workspace? ](https://www.reddit.com/r/LangChain/comments/1gra9h9/langsmith_api_keys_per_project_or_per_workspace/) , 2024-11-17-0914
-```
-Apologies if this is a dumb/beginner question.
-
-I'm trying to change the project my traces are being sent to dynamically
-. I'm working with a Typescript project. As far as I'm aware I can only set my LANGCHAIN\_API\_KEY once in my .env file,
- but each project I create gives me a different key. Am I able to update the API Key at the same point I decide which pr
-oject name to choose? Am I supposed to use the API Key for my workspace (I tried this and it doesn't seem to work).
-
-Bas
-ically it seems I need to dynamically set the project name and project API key. I can set the project name in the  trace
-able function but I'm not sure how to do the api key or if I'm misunderstanding and dont need to.
-```
----
-
-     
- 
-all -  [ How to duplicate chroma db or persist directory  ](https://www.reddit.com/r/LangChain/comments/1gr8e7u/how_to_duplicate_chroma_db_or_persist_directory/) , 2024-11-17-0914
-```
-Need to create Mutiple chroma db based on the same documents.
-Tried to copy the persist directory, but the vector db cre
-ated from copied directory is always empty
-```
----
-
-     
- 
-all -  [ Production RAG for CSV/Excel  ](https://www.reddit.com/r/LangChain/comments/1gr7msw/production_rag_for_csvexcel/) , 2024-11-17-0914
-```
-Hi,
-
-I am trying to implement a CSV/Excel RAG using Langchain. Intially implemented using csvgent from langchaain. But t
-his time I want it for production environment.
-
-What is the best approach for implementing CSV RAG,  text-to-sql, or by 
-Graph RAG, or any other approaches. 
-
-Thanks
-```
----
-
-     
- 
-MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-17-0914
+MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-18-0914
 ```
 I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
 I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
@@ -2151,7 +2319,7 @@ al.ipynb)
 
      
  
-deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-17-0914
+deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-18-0914
 ```
 I am a full stack python developer who do web dev in django
 
