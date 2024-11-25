@@ -1,5 +1,226 @@
  
-all -  [ RAG with a language that is not english ](https://www.reddit.com/r/LangChain/comments/1gya4ox/rag_with_a_language_that_is_not_english/) , 2024-11-24-0914
+all -  [ Launch: LangGraph Unofficial Virtual Meetup Series! ](https://www.reddit.com/r/artificial/comments/1gz044n/launch_langgraph_unofficial_virtual_meetup_series/) , 2024-11-25-0914
+```
+hey everyone! excited to announce the first community-driven virtual meetup focused entirely on LangGraph, LangChain's f
+ramework for building autonomous agents.
+
+**when:** tuesday, november 26th, 2024 two sessions to cover all time zones:
+
+
+* 9:00 AM CST (Europe/India/West Asia/Africa)
+* 5:00 PM CST (Americas/Oceania/East Asia)
+
+**what to expect:** this is a 
+chance to connect with other developers working on agent-based systems, share experiences, and learn more about LangGrap
+h's capabilities. whether you're just getting started or already building complex agent architectures, you'll find value
+ in joining the community.
+
+**who should attend:**
+
+* developers interested in autonomous AI agents
+* LangChain users lo
+oking to level up their agent development
+* anyone curious about the practical applications of agentic Ai systems
+
+**for
+mat:** virtual meetup via Zoom
+
+**join us:** [https://www.meetup.com/langgraph-unofficial-virtual-meetup-series](https:/
+/www.meetup.com/langgraph-unofficial-virtual-meetup-series)
+
+let's build the future of autonomous AI systems together! f
+eel free to drop any questions in the comments.
+```
+---
+
+     
+ 
+all -  [ Track Token Usage for Azure ChatOpenAI ](https://www.reddit.com/r/LangChain/comments/1gyty0e/track_token_usage_for_azure_chatopenai/) , 2024-11-25-0914
+```
+I am using AzureChatOpenAI with langchain PromptTemplate using Python.
+
+Is there any way I can calculate the token count
+ and associated Azure cost for the LLM calls?
+
+I've tried to print the usage metadata from llm calls but it's not printi
+ng the token info 
+
+Please suggest how to track the Usage?
+
+
+```
+---
+
+     
+ 
+all -  [ [For Hire] Frontend and Backend Developer with the top and latest development technologies for a gre ](https://www.reddit.com/r/B2BForHire/comments/1gytgzf/for_hire_frontend_and_backend_developer_with_the/) , 2024-11-25-0914
+```
+Hi Redditors,
+
+I'm Emad a Full-stack Web developer/engineer with 8 years of experience, and I'm looking for new projects
+ to start working on, please take a look at my portfolio here [https://www.sx-portfolio.com](https://www.sx-portfolio.co
+m) (let me know if you need more examples or direct links to live websites in the PM)
+
+**Here is my skill set:**
+
+**For 
+Frontend:**
+
+* HTML / CSS
+* JS / ESNext
+* Webpack / Gulp / Grunt / Gatsby
+* React (With Redux, Zustand, or MobX)
+* Next.
+js
+* Vuejs (With VueX)
+* Angular
+* TypeScript
+
+**For Backend:**
+
+* Node.js
+* Python
+* Express.js
+* MongoDB
+* Mongoose
+* 
+Nest.js
+* GraphQL
+* Meteor (with Apollo and React)
+* TypeScript
+
+**For AI-based projects:**
+
+* Python
+* Langchain
+* Fast
+API
+* Uvicorn
+* Pydantic
+
+**For Desktop Apps:**
+
+* Electron
+
+**For Mobile Apps (iOS and Android):**
+
+* React Native
+* Ex
+po
+
+**For Design:**
+
+* Photoshop
+* Illustrator
+
+**Here is my Resume:**  [My resume link!](http://www.sx-portfolio.com/we
+bsite-resources/My%20resume.pdf)
+
+**And here are some testimonials from my clients :)**
+
+* [Slips](https://www.reddit.co
+m/r/testimonials/comments/agfmwf/pos_swordx10_is_a_brilliant_developer_and_a/)
+* [VidSync](https://www.reddit.com/r/test
+imonials/comments/5gvz3d/pos_uswordx10_excellent_frontend_dev/)
+* [Las Cruces Directory](https://www.reddit.com/r/testim
+onials/comments/5hyks4/uswordx10_is_awesome/)
+* [SigurenZalog](https://www.reddit.com/r/testimonials/comments/5jsfqf/pos
+_quality_web_design_from_uswordx10/)
+* [Bitlounge](https://www.reddit.com/r/testimonials/comments/5lh2pz/pos_uswordx10_t
+op_fontend_devdesigner/)
+* [Foxul](https://www.reddit.com/r/testimonials/comments/5l3p8j/pos_quality_web_coding_from_usw
+ordx10/)
+* [LootTicket](https://www.reddit.com/r/testimonials/comments/5nfh1j/pos_uswordx10_is_an_amazing_front_end_dev/
+)
+
+**My Pricing:**
+
+I work hourly for $35/hr and my fixed prices depend on your project's complexity.
+
+Don't worry about
+ the price, just PM me with your project and I'm sure we can figure out something that goes with your budget. :)
+
+If you
+ have any questions don't hesitate to PM me and I will be more than happy to answer you :) and here is my portfolio agai
+n if you need my contact details [www.sx-portfolio.com](https://www.sx-portfolio.com) (Click the red handle in the top-r
+ight or pm me for it)
+```
+---
+
+     
+ 
+all -  [ What are the biggest challenges you face when building RAG pipelines? ](/r/Rag/comments/1gyr04i/what_are_the_biggest_challenges_you_face_when/) , 2024-11-25-0914
+```
+
+```
+---
+
+     
+ 
+all -  [ RAG application with text data in no specific format. Ways to do embedding or chunking? ](https://www.reddit.com/r/LangChain/comments/1gymmyl/rag_application_with_text_data_in_no_specific/) , 2024-11-25-0914
+```
+ 'Best practices for chunking and structuring unformatted text data for RAG-based QA system'
+
+I'm developing a Question-
+Answering system using RAG to handle customer queries about product features and specifications. Here's my current situa
+tion:
+
+Data Characteristics:
+- Source: Converted PDF documents containing product instructions/documentation
+- Current f
+ormat: Plain text files with ~200-300 lines each, separated only by newlines
+- Original format (PDFs): Well-structured d
+ocuments with paragraphs, each focusing on specific product features
+- Content type: Product specifications, feature des
+criptions, and usage instructions
+
+Current Implementation:
+- Currently embedding entire documents into the vector databa
+se
+- Customer queries typically focus on specific product attributes or features
+
+Challenges:
+1. Lost document structure
+ after PDF parsing (I cannot control them to do the parsing in a specific way)
+2. No clear paragraph or section demarcat
+ion
+3. Potential inefficiency in embedding and retrieving from entire documents
+
+Questions:
+1. What are the recommended 
+approaches for chunking this unstructured text data to maintain semantic coherence?
+2. Should I attempt to reconstruct t
+he document structure programmatically before embedding?
+3. What chunking strategies would work best for feature-focused
+ customer queries?
+4. Are there any preprocessing steps or tools you'd recommend to improve text segmentation?
+
+
+Embeddi
+ng model used ada02.
+
+```
+---
+
+     
+ 
+all -  [ Vercel.live is loading 3.51MB of javascript of every reload ](https://www.reddit.com/r/nextjs/comments/1gyj6vm/vercellive_is_loading_351mb_of_javascript_of/) , 2024-11-25-0914
+```
+Hi, I was checking network tab and checked the usage and vercel live is using 3.51mb of resource. I am wondering, Is the
+re is a way to reduce it and how this usage is determined I mean where it is coming from.  
+This is my site for referren
+ce - [My portfolio](https://ypiyush.tech)
+
+https://preview.redd.it/fwtb4zcn6s2e1.png?width=1920&format=png&auto=webp&s=f
+a6685dbc45635c4a74322e62099510ee556f329
+
+
+```
+---
+
+     
+ 
+all -  [ RAG with a language that is not english ](https://www.reddit.com/r/LangChain/comments/1gya4ox/rag_with_a_language_that_is_not_english/) , 2024-11-25-0914
 ```
 I'm trying to use langchain to build this chatbot that responds on FAQ data.
 
@@ -26,7 +247,7 @@ e poor performances
 
      
  
-all -  [ Exfunc: API for your AI to take action on the web without a browser ](https://www.reddit.com/r/LLMDevs/comments/1gy717b/exfunc_api_for_your_ai_to_take_action_on_the_web/) , 2024-11-24-0914
+all -  [ Exfunc: API for your AI to take action on the web without a browser ](https://www.reddit.com/r/LLMDevs/comments/1gy717b/exfunc_api_for_your_ai_to_take_action_on_the_web/) , 2024-11-25-0914
 ```
 Today, AI models can process and generate data very well but can’t use software that we use to do our work. This is larg
 ely because software that we use is primarily GUI-based and requires a browser to access. We’re trying to change that wi
@@ -104,7 +325,7 @@ Thanks!
 
      
  
-all -  [ Exfunc: API for your AI to take action on the web without a browser ](https://www.reddit.com/r/LangChain/comments/1gy6vjv/exfunc_api_for_your_ai_to_take_action_on_the_web/) , 2024-11-24-0914
+all -  [ Exfunc: API for your AI to take action on the web without a browser ](https://www.reddit.com/r/LangChain/comments/1gy6vjv/exfunc_api_for_your_ai_to_take_action_on_the_web/) , 2024-11-25-0914
 ```
 Today, AI models can process and generate data very well but can’t use software that we use to do our work. This is larg
 ely because software that we use is primarily GUI-based and requires a browser to access. We’re trying to change that wi
@@ -178,7 +399,7 @@ Thanks!
 
      
  
-all -  [ Applying from last 3 months but not getting interview calls  ](https://i.redd.it/zaoxv775no2e1.jpeg) , 2024-11-24-0914
+all -  [ Applying from last 3 months but not getting interview calls  ](https://i.redd.it/zaoxv775no2e1.jpeg) , 2024-11-25-0914
 ```
 I started looking for a job in Pune from last three months but not getting any interview calls. Few just called to ask i
 nformation but no updates further. Is my resume wrong in some way? Currently im at 9LPA and asking for 30% hike, is I’m 
@@ -189,7 +410,7 @@ e wrong companies? I’m applying to every company on naukri, linkedin, indeed.
 
      
  
-all -  [ Create a OpenAI swarm agents what are working like a label record but just for programming to reach  ](https://www.reddit.com/r/ChatGPT/comments/1gy38ci/create_a_openai_swarm_agents_what_are_working/) , 2024-11-24-0914
+all -  [ Create a OpenAI swarm agents what are working like a label record but just for programming to reach  ](https://www.reddit.com/r/ChatGPT/comments/1gy38ci/create_a_openai_swarm_agents_what_are_working/) , 2024-11-25-0914
 ```
 Creating a “swarm” of OpenAI agents functioning like a record label for programming is an innovative concept. Here’s a f
 ramework for how you could design such a system:
@@ -452,15 +673,7 @@ Would you like me to add specific functionality, like
 
      
  
-all -  [ How to make more reliable reports using AI — A Technical Guide ](https://medium.com/firebird-technologies/how-to-make-more-reliable-reports-using-ai-a-technical-guide-672b2d01cb2a) , 2024-11-24-0914
-```
-
-```
----
-
-     
- 
-all -  [ Pointers on local LLM with Ollama/OpenWebUI and RAG ](https://www.reddit.com/r/LocalLLaMA/comments/1gy0z2d/pointers_on_local_llm_with_ollamaopenwebui_and_rag/) , 2024-11-24-0914
+all -  [ Pointers on local LLM with Ollama/OpenWebUI and RAG ](https://www.reddit.com/r/LocalLLaMA/comments/1gy0z2d/pointers_on_local_llm_with_ollamaopenwebui_and_rag/) , 2024-11-25-0914
 ```
 Hi,
 
@@ -487,7 +700,7 @@ Thanks
 
      
  
-all -  [ PRD Writing Agent ](https://www.reddit.com/r/AI_Agents/comments/1gxs6mm/prd_writing_agent/) , 2024-11-24-0914
+all -  [ PRD Writing Agent ](https://www.reddit.com/r/AI_Agents/comments/1gxs6mm/prd_writing_agent/) , 2024-11-25-0914
 ```
 So I've been looking to automate some of my work and one of the time-consuming parts is writing the technical PRDs which
  includes analyzing my codebase, looking for affected features/parts of the codebase and then writing out detailed chang
@@ -504,7 +717,7 @@ ild on top of?
 
      
  
-all -  [ Production-ready agents from APIs - built with Gradio + Arch + FastAPI + OpenAI ](https://i.redd.it/389a2dwvtk2e1.jpeg) , 2024-11-24-0914
+all -  [ Production-ready agents from APIs - built with Gradio + Arch + FastAPI + OpenAI ](https://i.redd.it/389a2dwvtk2e1.jpeg) , 2024-11-25-0914
 ```
 https://github.com/katanemo/archgw - an intelligent proxy for agents. Transparently add tracing, safety and personalizat
 ion features with APIs
@@ -513,7 +726,7 @@ ion features with APIs
 
      
  
-all -  [ How are you monitoring/deploying your AI agents in production? ](https://www.reddit.com/r/AI_Agents/comments/1gxokte/how_are_you_monitoringdeploying_your_ai_agents_in/) , 2024-11-24-0914
+all -  [ How are you monitoring/deploying your AI agents in production? ](https://www.reddit.com/r/AI_Agents/comments/1gxokte/how_are_you_monitoringdeploying_your_ai_agents_in/) , 2024-11-25-0914
 ```
 Hi all,
 
@@ -551,7 +764,7 @@ Would really appreciate any experiences or insights you can share.
 
      
  
-all -  [ How are you monitoring/deploying your AI agents in production? ](https://www.reddit.com/r/learnmachinelearning/comments/1gxo3fy/how_are_you_monitoringdeploying_your_ai_agents_in/) , 2024-11-24-0914
+all -  [ How are you monitoring/deploying your AI agents in production? ](https://www.reddit.com/r/learnmachinelearning/comments/1gxo3fy/how_are_you_monitoringdeploying_your_ai_agents_in/) , 2024-11-25-0914
 ```
 Hi all,
 
@@ -587,7 +800,7 @@ sights you can share.
 
      
  
-all -  [ How are you deploying your agents in production? ](https://www.reddit.com/r/LangChain/comments/1gxnse4/how_are_you_deploying_your_agents_in_production/) , 2024-11-24-0914
+all -  [ How are you deploying your agents in production? ](https://www.reddit.com/r/LangChain/comments/1gxnse4/how_are_you_deploying_your_agents_in_production/) , 2024-11-25-0914
 ```
 Hi all,
 
@@ -622,7 +835,7 @@ tly, I'm asking this to understand the current state of operations and explore p
 
      
  
-all -  [ blog: ChatGPT is Eating Genius, or why being smart doesn't matter anymore ](https://www.reddit.com/r/LangChain/comments/1gxmbqo/blog_chatgpt_is_eating_genius_or_why_being_smart/) , 2024-11-24-0914
+all -  [ blog: ChatGPT is Eating Genius, or why being smart doesn't matter anymore ](https://www.reddit.com/r/LangChain/comments/1gxmbqo/blog_chatgpt_is_eating_genius_or_why_being_smart/) , 2024-11-25-0914
 ```
 [https://glassbead-tc.medium.com/glassbeads-blog-how-chatgpt-is-eating-genius-and-they-shall-become-providence-pt-i-0fb7
 f86240e4](https://glassbead-tc.medium.com/glassbeads-blog-how-chatgpt-is-eating-genius-and-they-shall-become-providence-
@@ -635,7 +848,7 @@ n-oriented thing, but I thought the sub might find this interesting at least.
 
      
  
-all -  [ AI Agent + pinecone 'source citations' ](https://www.reddit.com/r/LangChain/comments/1gxkk8s/ai_agent_pinecone_source_citations/) , 2024-11-24-0914
+all -  [ AI Agent + pinecone 'source citations' ](https://www.reddit.com/r/LangChain/comments/1gxkk8s/ai_agent_pinecone_source_citations/) , 2024-11-25-0914
 ```
 I need my agent to provide 'source citations' from the chunks at the end of each answer. It is already in the 'system me
 ssage' as part of the prompt but it is just ignoring it. The rest of the prompt seems to be fine.
@@ -649,7 +862,7 @@ Many thanks!
 
      
  
-all -  [ How do you run evals ? ](https://www.reddit.com/r/LangChain/comments/1gxjztm/how_do_you_run_evals/) , 2024-11-24-0914
+all -  [ How do you run evals ? ](https://www.reddit.com/r/LangChain/comments/1gxjztm/how_do_you_run_evals/) , 2024-11-25-0914
 ```
 Hey there
 Everyone says that evals and benchmarks are the best way to radically increase the performance of a LLM based 
@@ -663,7 +876,7 @@ Would love to know :)
 
      
  
-all -  [ How to setup db for LangGraph PostgresSaver with FastAPI ](https://www.reddit.com/r/LangChain/comments/1gxibz5/how_to_setup_db_for_langgraph_postgressaver_with/) , 2024-11-24-0914
+all -  [ How to setup db for LangGraph PostgresSaver with FastAPI ](https://www.reddit.com/r/LangChain/comments/1gxibz5/how_to_setup_db_for_langgraph_postgressaver_with/) , 2024-11-25-0914
 ```
 Trying to implement checkpointing with `PostgresSaver` but keep getting errors related to the db not being setup.
 
@@ -717,7 +930,7 @@ ture this so it only `.setup()`s once? Using docker. Thanks!
 
      
  
-all -  [ My quest for ultimate laziness...Automating everything! ](https://www.reddit.com/r/LangChain/comments/1gxgke1/my_quest_for_ultimate_lazinessautomating/) , 2024-11-24-0914
+all -  [ My quest for ultimate laziness...Automating everything! ](https://www.reddit.com/r/LangChain/comments/1gxgke1/my_quest_for_ultimate_lazinessautomating/) , 2024-11-25-0914
 ```
 Soo it all started about 2–3 months ago, where as a marketeer I wanted to automate a lot of my repetitive tasks and I we
 nt through many solutions ranging from python codes *(too technical)* or using Zapier *(too costly)* non of that actuall
@@ -756,7 +969,7 @@ waitlist](http://wellows.com)
 
      
  
-all -  [ Please review my resume and give feed back. I really appreciate your time :) ](https://www.reddit.com/r/CERN/comments/1gxaq1j/please_review_my_resume_and_give_feed_back_i/) , 2024-11-24-0914
+all -  [ Please review my resume and give feed back. I really appreciate your time :) ](https://www.reddit.com/r/CERN/comments/1gxaq1j/please_review_my_resume_and_give_feed_back_i/) , 2024-11-25-0914
 ```
 https://preview.redd.it/f4b8j24b4h2e1.png?width=766&format=png&auto=webp&s=b0ba0c0e8c646de1a872593a14ebc0e55d418351
 
@@ -768,7 +981,7 @@ https://preview.redd.it/f4b8j24b4h2e1.png?width=766&format=png&auto=webp&s=b0ba0
 
      
  
-all -  [ Running LangGraph locally without Docker for desktop application integration ](https://www.reddit.com/r/LangChain/comments/1gx8g54/running_langgraph_locally_without_docker_for/) , 2024-11-24-0914
+all -  [ Running LangGraph locally without Docker for desktop application integration ](https://www.reddit.com/r/LangChain/comments/1gx8g54/running_langgraph_locally_without_docker_for/) , 2024-11-25-0914
 ```
 
 Hi everyone,
@@ -806,7 +1019,7 @@ I'm quite new to agent development, so any guidance would be greatly appreciated
 
      
  
-all -  [ HELP: Improve llm image processing with number “1” and “7” ](https://www.reddit.com/r/LangChain/comments/1gx7z2t/help_improve_llm_image_processing_with_number_1/) , 2024-11-24-0914
+all -  [ HELP: Improve llm image processing with number “1” and “7” ](https://www.reddit.com/r/LangChain/comments/1gx7z2t/help_improve_llm_image_processing_with_number_1/) , 2024-11-25-0914
 ```
 Hello! I’m having an issue using the GPT4o model. It gets confused when identifying the numbers 7 and 1 for a task invol
 ving analyzing an order on a sheet of paper.  
@@ -837,7 +1050,7 @@ rience and approach with similar projects. I would be very grateful.
 
      
  
-all -  [ Reasoning behind RAGAS' metric scores ](https://www.reddit.com/r/LangChain/comments/1gx7ie5/reasoning_behind_ragas_metric_scores/) , 2024-11-24-0914
+all -  [ Reasoning behind RAGAS' metric scores ](https://www.reddit.com/r/LangChain/comments/1gx7ie5/reasoning_behind_ragas_metric_scores/) , 2024-11-25-0914
 ```
 Hey guys, I'm using RAGAS' metrics as part of an evaluation framework.
 
@@ -853,7 +1066,7 @@ Appreciate any hints or help!
 
      
  
-all -  [ Multi Agent tech stack?  ](https://www.reddit.com/r/LangChain/comments/1gx76w0/multi_agent_tech_stack/) , 2024-11-24-0914
+all -  [ Multi Agent tech stack?  ](https://www.reddit.com/r/LangChain/comments/1gx76w0/multi_agent_tech_stack/) , 2024-11-25-0914
 ```
 The multi-agent landscape has had a couple of interesting drops in the last few days:
 
@@ -892,7 +1105,7 @@ P.S The reason I am posting here is I am really leaning towards langgraph
 
      
  
-all -  [ Guys I made so many retro ui components in my free time, now i feel like i should put these into an  ](https://www.reddit.com/r/developersIndia/comments/1gx6h9f/guys_i_made_so_many_retro_ui_components_in_my/) , 2024-11-24-0914
+all -  [ Guys I made so many retro ui components in my free time, now i feel like i should put these into an  ](https://www.reddit.com/r/developersIndia/comments/1gx6h9f/guys_i_made_so_many_retro_ui_components_in_my/) , 2024-11-25-0914
 ```
 title itself skills: MERN, langchain 
 ```
@@ -900,7 +1113,7 @@ title itself skills: MERN, langchain
 
      
  
-all -  [ Pointers on local LLM with Ollama/OpenWebUI and RAG ](https://www.reddit.com/r/selfhosted/comments/1gx6gx3/pointers_on_local_llm_with_ollamaopenwebui_and_rag/) , 2024-11-24-0914
+all -  [ Pointers on local LLM with Ollama/OpenWebUI and RAG ](https://www.reddit.com/r/selfhosted/comments/1gx6gx3/pointers_on_local_llm_with_ollamaopenwebui_and_rag/) , 2024-11-25-0914
 ```
 Hi,
 
@@ -935,7 +1148,7 @@ Thanks
 
      
  
-all -  [ Guys I made so many retro ui components in my free time, now i feel like i should put these into an  ](https://www.reddit.com/r/SaaS/comments/1gx6g8z/guys_i_made_so_many_retro_ui_components_in_my/) , 2024-11-24-0914
+all -  [ Guys I made so many retro ui components in my free time, now i feel like i should put these into an  ](https://www.reddit.com/r/SaaS/comments/1gx6g8z/guys_i_made_so_many_retro_ui_components_in_my/) , 2024-11-25-0914
 ```
 title itself
 
@@ -945,7 +1158,7 @@ skills: MERN, langchain
 
      
  
-all -  [ Help Needed Software engineer Resume Review ](https://www.reddit.com/r/arbeitsleben/comments/1gx6fy3/help_needed_software_engineer_resume_review/) , 2024-11-24-0914
+all -  [ Help Needed Software engineer Resume Review ](https://www.reddit.com/r/arbeitsleben/comments/1gx6fy3/help_needed_software_engineer_resume_review/) , 2024-11-25-0914
 ```
 Ich bin Masterstudent in Deutschland mit einiger Berufserfahrung, habe meine Diplomarbeit abgeschlossen und suche nach J
 obs. Ich habe Lebensläufe verschickt, aber keine Rückrufe erhalten. Kann jemand meinen Lebenslauf überprüfen und mir ein
@@ -961,7 +1174,7 @@ b7d9092a849a0e85
 
      
  
-all -  [ Need building app like perplexity ](https://www.reddit.com/r/Rag/comments/1gx44lr/need_building_app_like_perplexity/) , 2024-11-24-0914
+all -  [ Need building app like perplexity ](https://www.reddit.com/r/Rag/comments/1gx44lr/need_building_app_like_perplexity/) , 2024-11-25-0914
 ```
 Hey guys, i have built an app like perlexity. It can browse internet and answers. The thing is perplexity is too fast an
 d even blackbox is also v fast. 
@@ -984,15 +1197,7 @@ I want to make mine as fast as them
 
      
  
-all -  [ Guys Review my resume and suggest me changes required (this resume not getting through) ](https://i.redd.it/vc5gubdl4f2e1.jpeg) , 2024-11-24-0914
-```
-Guys pls review my resume any type of insight would be helpful!
-```
----
-
-     
- 
-all -  [ LangChain context switching chatbot ](https://www.reddit.com/r/LangChain/comments/1gx1o3v/langchain_context_switching_chatbot/) , 2024-11-24-0914
+all -  [ LangChain context switching chatbot ](https://www.reddit.com/r/LangChain/comments/1gx1o3v/langchain_context_switching_chatbot/) , 2024-11-25-0914
 ```
 
 
@@ -1061,7 +1266,7 @@ e or two tasks, leaving others unaddressed.
 
      
  
-all -  [ Customer Support Evolution Tracker: AI-Powered Support Quality Analysis 🎯 ](https://www.reddit.com/r/ArtificialMoney/comments/1gx11k7/customer_support_evolution_tracker_aipowered/) , 2024-11-24-0914
+all -  [ Customer Support Evolution Tracker: AI-Powered Support Quality Analysis 🎯 ](https://www.reddit.com/r/ArtificialMoney/comments/1gx11k7/customer_support_evolution_tracker_aipowered/) , 2024-11-25-0914
 ```
 Let's build an intelligent system that tracks how customer support conversations evolve and improve over time. This AI-p
 owered platform will analyze support interactions, identify patterns in resolution strategies, and help teams continuous
@@ -1247,7 +1452,7 @@ t valuable to you? Let's discuss! 👇
 
      
  
-all -  [ how does v0 work ](https://www.reddit.com/r/LangChain/comments/1gwt9i9/how_does_v0_work/) , 2024-11-24-0914
+all -  [ how does v0 work ](https://www.reddit.com/r/LangChain/comments/1gwt9i9/how_does_v0_work/) , 2024-11-25-0914
 ```
 how do tools like v0 actually get built from scratch? are the llms fine-tuned on something like shadcn and different exa
 mples?
@@ -1266,7 +1471,7 @@ tuning the only way to fix this? or is there another way to handle these halluci
 
      
  
-all -  [ How expensive are lambda layers? ](https://www.reddit.com/r/aws/comments/1gws5id/how_expensive_are_lambda_layers/) , 2024-11-24-0914
+all -  [ How expensive are lambda layers? ](https://www.reddit.com/r/aws/comments/1gws5id/how_expensive_are_lambda_layers/) , 2024-11-25-0914
 ```
 I am storing langchain module on lambda layers it is about 250mb.
 
@@ -1279,7 +1484,7 @@ asic library for what i am doing
 
      
  
-all -  [ Langchain for audiovisual experiences: Mediachain ](https://www.reddit.com/r/moviepy/comments/1gws02u/langchain_for_audiovisual_experiences_mediachain/) , 2024-11-24-0914
+all -  [ Langchain for audiovisual experiences: Mediachain ](https://www.reddit.com/r/moviepy/comments/1gws02u/langchain_for_audiovisual_experiences_mediachain/) , 2024-11-25-0914
 ```
 A few months ago, I started working on TurboReel, an automation tool for generating short videos 100x faster. It was bui
 lt with MoviePy and OpenAI. While MoviePy is great for basic tasks, I found it limiting for more complex ones. Plus, I r
@@ -1301,7 +1506,7 @@ Mediachain repo: [https://github.com/TurboReel/mediachain](https://github.com/Tu
 
      
  
-all -  [ Langchain for visual experiences: Mediachain ](https://www.reddit.com/r/LangChain/comments/1gwrxqx/langchain_for_visual_experiences_mediachain/) , 2024-11-24-0914
+all -  [ Langchain for visual experiences: Mediachain ](https://www.reddit.com/r/LangChain/comments/1gwrxqx/langchain_for_visual_experiences_mediachain/) , 2024-11-25-0914
 ```
 A few months ago, I started working on [TurboReel](http://turboreelgpt.tech), an automation tool for generating short vi
 deos 100x faster. It was built with MoviePy and OpenAI. While MoviePy is great for basic tasks, I found it limiting for 
@@ -1324,7 +1529,7 @@ l/mediachain)
 
      
  
-all -  [ In langgraph, is there a way to route to two different toolnodes 'simultaniously'? (given a single A ](https://www.reddit.com/r/LangChain/comments/1gwp9bu/in_langgraph_is_there_a_way_to_route_to_two/) , 2024-11-24-0914
+all -  [ In langgraph, is there a way to route to two different toolnodes 'simultaniously'? (given a single A ](https://www.reddit.com/r/LangChain/comments/1gwp9bu/in_langgraph_is_there_a_way_to_route_to_two/) , 2024-11-25-0914
 ```
 So, my situation is as follows:
 
@@ -1344,7 +1549,7 @@ maintain this segregation but also ensure that every tool is called?
 
      
  
-all -  [ Best option using LoRA fine-tuning open-source LLMs for a corporate?  ](https://www.reddit.com/r/LLMDevs/comments/1gwoqro/best_option_using_lora_finetuning_opensource_llms/) , 2024-11-24-0914
+all -  [ Best option using LoRA fine-tuning open-source LLMs for a corporate?  ](https://www.reddit.com/r/LLMDevs/comments/1gwoqro/best_option_using_lora_finetuning_opensource_llms/) , 2024-11-25-0914
 ```
 I am doing research on using LoRA fine-tuning with open-source LLMs for my company.  
 Currently, they use AWS BedRock wi
@@ -1363,264 +1568,7 @@ Models: Llama 3.1, Mistral 7B, or others?
 
      
  
-all -  [ [New Feature Launch] Searching & Favoriting ](https://www.reddit.com/r/u_youdotcom_/comments/1gwncx3/new_feature_launch_searching_favoriting/) , 2024-11-24-0914
-```
-Ask and you shall receive . . . We’re thrilled to introduce the launch of our most requested features: Searching & Favor
-iting. ⭐️Favorite your important threads with just a click and 🔍Search effortlessly across all your old conversations.
-
-
-Productivity: Leveled up 🚀
-
-https://preview.redd.it/zrno4eoh9b2e1.jpg?width=1700&format=pjpg&auto=webp&s=33a1ee17bfe5810
-2ec99a55a107dc1ab4f999ea4
-
-
-```
----
-
-     
- 
-all -  [ LangGraph with DSPy ](https://www.reddit.com/r/LangGraph/comments/1gwl1he/langgraph_with_dspy/) , 2024-11-24-0914
-```
-Is anyone using this combination of LangGraph and DSPy?  I started with pure LangGraph for the graph/state/workflow desi
-gn and orchestration and integrated LangChain for the LLM integration. However, that still required a lot of “traditiona
-l” prompt engineering. 
-
-DSPy provides the antidote to prompt design and I started integrating it into my LangGraph proj
-ect (replacing LangChain integration). I haven’t gone too deep yet so before I do I wanted to check if anyone else has g
-one down this path and are any “Danger Will Robinson” things I should know about. 
-
-Thanks y’all!
-
-```
----
-
-     
- 
-all -  [ [Student] Final year student. Can't land a single interview. Will appreciate any feedback. ](https://www.reddit.com/r/EngineeringResumes/comments/1gwju3s/student_final_year_student_cant_land_a_single/) , 2024-11-24-0914
-```
-Hi. As the title says, I'm in my final year of my software engineering degree. I'm aiming for entry level Machine Learni
-ng Engineer roles. However, I've applied to hundreds of internships/part time jobs, and yet I have not even received a s
-ingle reply or a call for even an initial interview. I can only assume my resume is not making past the screening stage.
-
-
-I'm located in Pakistan, and I'm applying to jobs and internships in my city as well as remote jobs. I've good a reall
-y solid CGPA, and I feel I have a good portfolio of projects to showcase. I'm also studying from one of the top universi
-ties of my country (especially in IT). I've also got some ML experience working as a paid research assistant at my unive
-rsity, which I am currently doing. The selection for this role was through an interview process. In this role, I am basi
-cally working with computer vision techniques and deep learning models. I thought this would make me stand out since the
-re are less than 10 students in my university who are working in research, but it seems it does not. Recently, I receive
-d an email about an opportunity for a Machine Learning Intern role opening for final year students at a software company
-, which is 1km from my house. It's a well structured company, and I was aiming to work there after my degree, and did no
-t expect that they'd hire interns. I sent my application, and asked a friend who works there as a Machine Learning Engin
-eer to refer me. But, I never got an interview. Infact, the friend told me that they are only hiring from my university,
- and was surprised that they never even called me once. After this, I came here hoping to get some advice on my resume, 
-as I am desperately in need of work due to my family's financial problems. I'm afraid that if I can't start with any com
-pany now as an intern, the companies won't have any jobs left to give, since they'll offer the jobs to the interns who a
-re already working with them.
-
-The unity development internship I did during the summer was at the only company who call
-ed me when I applied to hundreds of companies for an internship. I did it for the sole reason that I didn't get a call f
-rom any other company, not even for an interview. I initially had my phone number removed from my resume, but I have add
-ed it now, since the game development company contacted me through a cold call, and I figured my phone number should be 
-accessible if that's how companies contact potential employees.
-
-All I want is to get an initial interview at least. I k
-now I can make a really good impression, but I feel like my resume might not be making it there somehow. Even if I don't
- get in after the interview, at least I'll know I got my chance.
-
-Please review my resume. I've changed the sensitive in
-formation with text that would indicate what would be there. Any feedback would be appreciated.
-
-https://preview.redd.it
-/smb4u0vvaa2e1.png?width=4961&format=png&auto=webp&s=3c0dfdc54dba3fccfa35db2146a17fd783472512
-```
----
-
-     
- 
-all -  [ If anyone from Langchain team is reading this: STOP EVERYTHING and JUST UPDATE AND ORGANISE THE DOCS ](https://www.reddit.com/r/LangChain/comments/1gwh09x/if_anyone_from_langchain_team_is_reading_this/) , 2024-11-24-0914
-```
-I know very many people who just give up on this framework. It's supposed to be easy for people with average or low codi
-ng experience. You are building the product for experienced devs who could even build agents without using langgraph or 
-langchain.
-
-It should be so easy, you could pass well organised docs to Cursor for example and you could create agent wo
-rkflows with simple logic and commands. But the docs are so confusing, 0 organisation and you need to do so much searchi
-ng and finding your own way to use the framework.
-```
----
-
-     
- 
-all -  [ What If Automation Was Actually… Effortless? ](https://www.reddit.com/r/LangChain/comments/1gwegx9/what_if_automation_was_actually_effortless/) , 2024-11-24-0914
-```
-After all the amazing input on my [last post](https://www.reddit.com/r/LangChain/comments/1gshuh5/why_are_ai_agent_tools
-_so_complex_thinking_of_a/), one thing is crystal clear: automation tools are still not as accessible, seamless, or intu
-itive as they need to be. There’s so much potential for these tools to revolutionize how we work, but the complexity kee
-ps holding people back.
-
-It’s got me thinking—what if automation didn’t feel like a second job to set up? What if there 
-was a solution designed to make things truly effortless for everyone, not just developers or tech-savvy teams?
-
-Here’s t
-he kind of tool I’ve been envisioning (and, full disclosure, I’m working on [something](http://wellows.com/) to tackle t
-hese exact challenges):
-
-**1. A Single, Intuitive Platform for All Automation Needs**
-
-Imagine having everything—AI tool
-s, workflows, and integrations—accessible in one place, but without the overwhelming learning curve. No endless tabs, no
- piecing together different systems, just one clean, user-friendly platform.
-
-*Would this kind of simplicity be a game-c
-hanger for you?*
-
-**2. Automation That Adjusts to You**
-
-What if the tool actually adapted to your workflow instead of t
-he other way around? Whether it’s a small business needing basic time-saving workflows or a SaaS team looking for powerf
-ul AI-driven automation, the system should scale with you.
-
-*Does customization without complexity feel like a missing p
-iece for you?*
-
-**3. Real-Time Metrics to Prove It’s Working**
-
-One thing I keep hearing is how hard it is to know wheth
-er your automation efforts are really making an impact. Imagine a dashboard that gives you real-time insights into time 
-saved, processes improved, and costs cut—all without any manual tracking.
-
-*Would having measurable results motivate you
- to embrace automation fully?*
-
-**4. Built for Everyone—Not Just Tech Experts**
-
-I think the biggest barrier is making a
-utomation tools that anyone can use, from small business owners to marketing teams, without requiring a tech background.
- What if all it took to set up a workflow was answering a few simple prompts?
-
-I’m working on a [product ](http://wellow
-s.com/)that aims to solve all of these pain points, and I’d love to hear your thoughts. What’s the one thing that would 
-make automation actually work for you?
-
-If this sounds like something you’d want to explore, drop a comment or message m
-e—I’m all ears. Let’s build a future where automation really is as simple as it promises to be.
-```
----
-
-     
- 
-all -  [ best LLMs with balance of performance/size for a command-line agent? & is LangChain a good usecase f ](https://www.reddit.com/r/LangChain/comments/1gwe546/best_llms_with_balance_of_performancesize_for_a/) , 2024-11-24-0914
-```
-I want to run an LLM on google colabs free tier GPUs that can I can give strict SSH access to my local machine to test t
-hat it can translate and execute bash commands from my natural language prompts.
-
-Also interested to hear what are the b
-est examples of this command-line bridge ai-use that already exist, and whether or not the best approach is just to use 
-one of the big models' APIs (running the LLM in cloud was for more personal learning experience).
-
-And generally peoples
- thoughts on the idea. I think it will be useful for me because you can probably whack some speech-to-text on there and 
-achieve super-user/turbo-accessibility of your machine.
-
-Also I feel like this is not really as complicated as many of t
-he applications of LangChain - is this a good framework for the idea? I dont intend to define/limit all the bash functio
-ns the agent can use, and theres only 1 agent, and no need for scaling.
-```
----
-
-     
- 
-all -  [ OpenAI Privacy policy  ](https://www.reddit.com/r/LangChain/comments/1gwdhw5/openai_privacy_policy/) , 2024-11-24-0914
-```
-I am developing an app for a CRM client that uses a proprietary database with customer and sales data. They’re exploring
- a conversational AI interface, like OpenAI's ChatGPT, to enable users to query the database naturally.
-
-
-
-The plan is t
-o integrate this feature into platforms like WhatsApp. However, the client is concerned about protecting their proprieta
-ry data and ensuring it isn’t exposed or incorporated into OpenAI’s training models.
-
-
-
-Could you provide guidance on sa
-feguards or best practices to address this concern? Thank you
-```
----
-
-     
- 
-all -  [ A prompt management tool for teams that allows business people to create better AI prompts while dev ](https://www.reddit.com/r/LangChain/comments/1gwciqh/a_prompt_management_tool_for_teams_that_allows/) , 2024-11-24-0914
-```
-Over the past year, I've been on an interesting journey integrating AI into various products. One pattern kept emerging:
- while technical teams could handle the implementation, business stakeholders wanted to be actively involved in crafting
- and optimizing AI prompts. But making prompt changes meant constant redeployments - not ideal.
-
-This challenge led me t
-o build Promptmgr - a collaborative platform where both technical and business teams can work together on AI prompts. Th
-ink of it as 'Git for prompts' but with a user-friendly interface that non-developers can actually use.
-
-Key features in
-clude:
-
-* Interactive playground for real-time testing
-* Support for OpenAI, Anthropic, and other leading AI models
-* Bu
-ilt-in versioning and rollback capabilities
-*  Advanced templating with conditional logic
-* Performance monitoring and c
-ross-model comparisons
-
-We've been using it with clients for about a month now, and the feedback has been incredible. Te
-ams love being able to iterate on prompts without depending on engineering for every change.
-
-I'd love to hear your thou
-ghts! There's a demo account available if you'd like to try it out: [https://www.promptmgr.com](https://www.promptmgr.co
-m)
-
-What features would you find most valuable in a tool like this?
-```
----
-
-     
- 
-all -  [ LLM noob here, requesting help on embeddings, langchain ](https://www.reddit.com/r/ollama/comments/1gwbyen/llm_noob_here_requesting_help_on_embeddings/) , 2024-11-24-0914
-```
-Hi all, I am new to LLMs and still learning about the different concepts. I was going through some of the tutorials on f
-ine-tunings, RAGs, etc. 
-
-Almost 80% of the tutorials out there are using langchains, hugging-face and other services. M
-y question is what is the real purpose of “Langchain” and services such as hugging face? 
-
-Can’t I leverage the embed me
-thod in the ollama SDK to create the embeddings?
-
-Happy to go through any documentations/blogs if required.
-```
----
-
-     
- 
-all -  [ Langchain Async, how's it working behind the scenes? ](https://www.reddit.com/r/LangChain/comments/1gwakj2/langchain_async_hows_it_working_behind_the_scenes/) , 2024-11-24-0914
-```
-Alright, I apologise if this is a dumb question but here goes.
-
-From what I understand, going from a synchronous call to
- a asynchronous one just needs us to go from `output = chain.batch(inputs)` to `output = await chain.abatch(inputs)`.
-
-B
-ut how does this actually lead to any improvements? Are we not just sending out a asynchronous task and then immediately
- waiting for it to finish without doing any work in the meantime?
-
-What am I missing?
-```
----
-
-     
- 
-MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-24-0914
+MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-25-0914
 ```
 I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
 I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
@@ -1643,29 +1591,6 @@ onal nodes - which would allow full-fledged agentic system building! Pls reach o
 PS: [you can read the detailed docs here,](https://gensphere.readthedocs.io/en/latest/) And go o
 ver this quick [Google Colab tutorial.](https://github.com/octopus2023-inc/gensphere/blob/main/examples/gensphere_tutori
 al.ipynb)
-```
----
-
-     
- 
-deeplearning -  [ Fast AI's deep learning for coders by jeremy howard for begginer?  ](https://www.reddit.com/r/deeplearning/comments/1gb2k3p/fast_ais_deep_learning_for_coders_by_jeremy/) , 2024-11-24-0914
-```
-I am a full stack python developer who do web dev in django
-
-I am now starting deep learning,i am a compelete begginer
-
-
-(Have worked with pandas,numpy,matplotlib,langchain only)
-
-I wanna ask,should i do this course,will i understand what he
- is coding and code myslef
-
-I just dont want to do blind coding,i wanna learn what is the purpose,how it works and how t
-o do it
-
-Will this course teach me that or not?
-
-Thanks in advance
 ```
 ---
 
