@@ -1,5 +1,155 @@
  
-all -  [ Should I even apply for a PhD? ](https://www.reddit.com/r/PhD/comments/1gy1xp7/should_i_even_apply_for_a_phd/) , 2024-11-25-0914
+all -  [ MS Thesis project at IBM Research-Zurich ](https://www.reddit.com/r/ethz/comments/1gzk140/ms_thesis_project_at_ibm_researchzurich/) , 2024-11-26-0913
+```
+Dear MS Students,
+
+We have an opportunity for an MS Thesis project at IBM Research-Zurich.  
+
+**Project description:** D
+espite the breakthrough made by large language models (LLMs), they struggle with high-level reasoning tasks requiring de
+liberate thinking and problem-solving skills. Particularly, the pretrained state-of-the-art Transformer language models 
+fail at compositional generalization, multi-step deductive reasoning, and analogical reasoning \[1, 2, 3\]. As a potenti
+al alternative, neuro-symbolic AI seeks complementary approaches that beneficially combine deep learning advancements wi
+th symbolic computations to endorse their strengths and supplement their weaknesses. Key challenges in neuro-symbolic AI
+ involve the potentially exponential time required to perform probabilistic inference and the difficulty in learning new
+ symbolic programs. Our latest research results addressed these challenges by performing analogical reasoning over distr
+ibuted representations \[4,5\]. In this project, the main objective is to develop methods that reduce the computational 
+bottleneck in general neuro-symbolic AI systems, while maintaining learning rules/programs that exhibit out-of-distribut
+ion generalization, flexibility, and interpretability. Other inputs or directions are welcomed.
+
+**Requirements:** Stron
+g motivation and self-drive. Strong analytical and problem-solving skills. Concrete knowledge in deep learning, or a sol
+id background in machine learning. Experience with TensorFlow or PyTorch frameworks. Expertise with LLMs is an advantage
+.
+
+**Some administrative information:**  
+o Earliest start date: Feb 2025  
+o Duration: 6 months  
+o Pay: None (prohibit
+ed from ETH)
+
+The thesis will be performed at the IBM Research-Zurich in Rüschlikon. If you are interested in this chall
+enging position on an exciting new topic, please send your most recent curriculum vitae including a transcript of BS and
+ MS grades by email to: Dr. Michael Hersche ([her@zurich.ibm.com](mailto:her@zurich.ibm.com)) and Dr. Abbas Rahimi ([abr
+@zurich.ibm.com](mailto:abr@zurich.ibm.com))
+
+\[1\] N. Dziri et al., ‘Faith and Fate: Limits of Transformers on Composit
+ionality’, *Advances in* *Neural Information Processing Systems (NeurIPS),* 2023.
+
+\[2\] J. Thomm et al., ‘Limits of Tra
+nsformer Language Models on Learning to Compose Algorithms’, *Advances in* *Neural Information Processing Systems (NeurI
+PS),* 2024.
+
+\[3\] X. Chen, et al., ‘Premise Order Matters in Reasoning with Large Language Models’, *ICML*, 2024.
+
+\[4\
+] M. Hersche, et al., ‘A Neuro-Vector-Symbolic Architecture for Solving Raven’s Progressive Matrices’, *Nature Machine I
+ntelligence*, 2023.
+
+\[5\] G. Camposampiero, et al., ‘Towards Learning Abductive Reasoning using VSA Distributed Represe
+ntations’, *International Conference on Neural-Symbolic Learning and Reasoning (NeSy*), 2024.
+```
+---
+
+     
+ 
+all -  [ Should i even try for my chances or is it just a waste of time applying with poor grades . Can my SO ](https://www.reddit.com/r/Indians_StudyAbroad/comments/1gzec5d/should_i_even_try_for_my_chances_or_is_it_just_a/) , 2024-11-26-0913
+```
+I have completed my undergrad from Osmania University (VCE) in electronics and communications ( a tier 2 ish college in 
+India )
+
+I have a very low GPA ( 3.18 / 4 ) , I have graduated in 2024 and am aspiring to apply for fall 2026 .
+
+I have 
+had severe health issues during my undergrad and did a lot of community outreach programs in my sophomore year , My grad
+es were good in my junior year but it was just downhill after that , I was suffering from many health issues which spoil
+ed my grades but got recovered in final year and had good grades.
+
+After my health recovered I worked like hell and alre
+ady published 4 papers in IEEE conferences and 2 in smaller conferences
+
+**I am currently working at AT&T as senior asso
+ciate software engineer with the field being machine learning . I have applied to CVPR 2025 conference and am sure of ge
+tting my paper published there , I have 3 more papers ready for ICML and NeurIPS as well , these are the top most confer
+ences in ML in the entire world . I am sure of having at least 15 paers published by end of 2025 ( 5 are Q1 level ) . I 
+have 3 patents on my name and aspire to get more . It took me sleepless nights during my final year to accomplish all of
+ this after my health recovered**
+
+My\_qualifications :
+
+2 research internships , strong LOR's from top international un
+iversities where I worked with a professor , aiming to do at least 2 more internships at labs by end of 2025
+
+Can I conv
+ince the admission committee that my health affected my grades and can the other strong part of backup my grades part in
+ my SOP or is it just a waste of time applying ??
+
+dream target univs - Caltech MS EE ( ML track ) , Stanford MS EE ( ML
+ track ) , Stanford MS CS
+
+I recently read this [https://www-cs.stanford.edu/\~rkarthik/DAGAP.pdf](https://www-cs.stanfo
+rd.edu/~rkarthik/DAGAP.pdf) where the writer says low GPA will be immediately rejected . Should i even try building my p
+rofile or give up hope ?
+
+Stanford and Caltech have been my dream univs since many years and life seems meaningless with
+out them , I really need serious advice if i have to give up hope and change my path or still build profile . i have one
+ year of time to apply .
+```
+---
+
+     
+ 
+all -  [ Should i even try ? ](https://www.reddit.com/r/gradadmissions/comments/1gze93d/should_i_even_try/) , 2024-11-26-0913
+```
+I have completed my undergrad from Osmania University (VCE) in electronics and communications ( a tier 2 ish college in 
+India ) 
+
+
+
+I have a very low GPA ( 3.18 ) , I have graduated in 2024 and am aspiring to apply for fall 2026 .
+
+ I have 
+had severe health issues during my undergrad and did a lot of community outreach programs in my sophomore year , My grad
+es were good in my junior year but it was just downhill after that , I was suffering from many health issues which spoil
+ed my grades but got recovered in final year and had good grades. 
+
+After my health recovered I worked like hell and alr
+eady published 4 papers in IEEE conferences and 2 in smaller conferences
+
+**I am currently working at AT&T as senior ass
+ociate software engineer with the field being machine learning . I have applied to CVPR 2025 conference and am sure of g
+etting my paper published there , I have 3 more papers ready for ICML and NeurIPS as well , these are the top most confe
+rences in ML in the entire world . I am sure of having at least 18 papers published by end of 2025 ( 5 are Q1 level ) . 
+I have 3 patents on my name and aspire to get more . It took me sleepless nights during my final year to accomplish all 
+of this after my health recovered**
+
+
+
+other profile aspects -
+
+2 research internships , strong LOR's from top internati
+onal universities where I worked with a professor , aiming to do at least 2 more internships at labs by end of 2025
+
+Can
+ I convince the admission committee that my health affected my grades and can the other strong part of backup my grades 
+part in my SOP or is it just a waste of time applying ??
+
+dream target univs - Caltech MS EE ( ML track ) , Stanford MS 
+EE ( ML track ) , Stanford MS CS
+
+I recently read this [https://www-cs.stanford.edu/\~rkarthik/DAGAP.pdf](https://www-cs
+.stanford.edu/~rkarthik/DAGAP.pdf) where the writer says low GPA will be immediately rejected . Should i even try buildi
+ng my profile or give up hope ?
+
+Stanford and Caltech have been my dream univs since many years and life seems meaningle
+ss without them , I really need serious advice if i have to give up hope and change my path or still build profile . i h
+ave one year of time to apply .
+```
+---
+
+     
+ 
+all -  [ Should I even apply for a PhD? ](https://www.reddit.com/r/PhD/comments/1gy1xp7/should_i_even_apply_for_a_phd/) , 2024-11-26-0913
 ```
 Hi all
 
@@ -30,7 +180,7 @@ Thank you everyone. I got overwhelmed by everything and
 
      
  
-all -  [ Insight!  ](https://i.redd.it/3ub4hezgxl2e1.jpeg) , 2024-11-25-0914
+all -  [ Insight!  ](https://i.redd.it/3ub4hezgxl2e1.jpeg) , 2024-11-26-0913
 ```
 
 ```
@@ -38,7 +188,7 @@ all -  [ Insight!  ](https://i.redd.it/3ub4hezgxl2e1.jpeg) , 2024-11-25-0914
 
      
  
-all -  [ [D] Accepted NeurIPS 2024 paper claimed to be solving a novel problem as first work, but ignores 5 p ](https://www.reddit.com/r/MachineLearning/comments/1gxooqv/d_accepted_neurips_2024_paper_claimed_to_be/) , 2024-11-25-0914
+all -  [ [D] Accepted NeurIPS 2024 paper claimed to be solving a novel problem as first work, but ignores 5 p ](https://www.reddit.com/r/MachineLearning/comments/1gxooqv/d_accepted_neurips_2024_paper_claimed_to_be/) , 2024-11-26-0913
 ```
 At NeurIPS 2024 I found a paper that got accepted that positions its main contribution in the form of “Existing algorith
 ms for X ignore Y. We adapt algorithm Z for X to account for Y”.
@@ -94,7 +244,7 @@ cly shame the authors, as they have engaged with my e-mails and I am convinced t
 
      
  
-all -  [ Does anyone function more as a 'applied scientist' but have no research background? ](https://www.reddit.com/r/datascience/comments/1gxhjfr/does_anyone_function_more_as_a_applied_scientist/) , 2024-11-25-0914
+all -  [ Does anyone function more as a 'applied scientist' but have no research background? ](https://www.reddit.com/r/datascience/comments/1gxhjfr/does_anyone_function_more_as_a_applied_scientist/) , 2024-11-26-0913
 ```
 **TLDR: DS profile is shifting to be more ML heavy, but lack research experience to compete with ML specialists.**
 
@@ -120,7 +270,7 @@ Aside from startups, there doesn't seem to be much out there. Anyone else?
 
      
  
-all -  [ All the test environments used to benchmark BALROG. ](https://www.reddit.com/r/agi/comments/1gwqhry/all_the_test_environments_used_to_benchmark_balrog/) , 2024-11-25-0914
+all -  [ All the test environments used to benchmark BALROG. ](https://www.reddit.com/r/agi/comments/1gwqhry/all_the_test_environments_used_to_benchmark_balrog/) , 2024-11-26-0913
 ```
 # BabyAI
 
@@ -213,7 +363,7 @@ https://www
 
      
  
-all -  [ Google Scholar Completely Disappeared Our Paper With 60+ Citations ](https://www.reddit.com/r/academia/comments/1gwjzrk/google_scholar_completely_disappeared_our_paper/) , 2024-11-25-0914
+all -  [ Google Scholar Completely Disappeared Our Paper With 60+ Citations ](https://www.reddit.com/r/academia/comments/1gwjzrk/google_scholar_completely_disappeared_our_paper/) , 2024-11-26-0913
 ```
 Our paper 'Real-Time Reinforcement Learning' published on [Arxiv](https://arxiv.org/abs/1911.04448) and [Neurips](https:
 //papers.nips.cc/paper_files/paper/2019/hash/54e36c5ff5f6a1802925ca009f3ebb68-Abstract.html) was [correctly listed on Go
@@ -239,7 +389,7 @@ Does anyone have
 
      
  
-all -  [ [D] PhD in RL/ML Theory or LLM ](https://www.reddit.com/r/MachineLearning/comments/1gvx8vx/d_phd_in_rlml_theory_or_llm/) , 2024-11-25-0914
+all -  [ [D] PhD in RL/ML Theory or LLM ](https://www.reddit.com/r/MachineLearning/comments/1gvx8vx/d_phd_in_rlml_theory_or_llm/) , 2024-11-26-0913
 ```
 Hi guys,
 
@@ -287,7 +437,7 @@ LLM era, the pacing or applied ML research (especially in LLM and CV) becomes so
 
      
  
-all -  [ That’s it folks! ](https://i.redd.it/69mlt91aku1e1.jpeg) , 2024-11-25-0914
+all -  [ That’s it folks! ](https://i.redd.it/69mlt91aku1e1.jpeg) , 2024-11-26-0913
 ```
 (Not the person in the post)
 ```
@@ -295,7 +445,7 @@ all -  [ That’s it folks! ](https://i.redd.it/69mlt91aku1e1.jpeg) , 2024-11-25
 
      
  
-all -  [ [D] Expectation from Machine Learning Engineering jobs ](https://www.reddit.com/r/MachineLearning/comments/1gtt099/d_expectation_from_machine_learning_engineering/) , 2024-11-25-0914
+all -  [ [D] Expectation from Machine Learning Engineering jobs ](https://www.reddit.com/r/MachineLearning/comments/1gtt099/d_expectation_from_machine_learning_engineering/) , 2024-11-26-0913
 ```
 Hey everyone,
 
@@ -319,7 +469,7 @@ r thoughts?
 
      
  
-all -  [ [D] NeurIPS 24’ Attendance without tickets ](https://www.reddit.com/r/MachineLearning/comments/1gt9r5b/d_neurips_24_attendance_without_tickets/) , 2024-11-25-0914
+all -  [ [D] NeurIPS 24’ Attendance without tickets ](https://www.reddit.com/r/MachineLearning/comments/1gt9r5b/d_neurips_24_attendance_without_tickets/) , 2024-11-26-0913
 ```
 Does anyone know, for past conferences, whether there were people checking badges at the entrance of the convention cent
 er or at the workshop. (cause I wasn’t able to get a ticket so far via lottery this year, and I am wondering whether I c
@@ -329,7 +479,7 @@ ould just walk in or something)
 
      
  
-all -  [ On the current state of robotics (ig?) (from a CSE perspective) (For all my homies out there) ](https://www.reddit.com/r/Btechtards/comments/1gsjxio/on_the_current_state_of_robotics_ig_from_a_cse/) , 2024-11-25-0914
+all -  [ On the current state of robotics (ig?) (from a CSE perspective) (For all my homies out there) ](https://www.reddit.com/r/Btechtards/comments/1gsjxio/on_the_current_state_of_robotics_ig_from_a_cse/) , 2024-11-26-0913
 ```
 Follow up on [https://www.reddit.com/r/Btechtards/comments/1gseqvq/cs\_roadmap\_for\_all\_my\_1st\_year\_homes\_out\_the
 re/](https://www.reddit.com/r/Btechtards/comments/1gseqvq/cs_roadmap_for_all_my_1st_year_homes_out_there/)
@@ -473,7 +623,7 @@ CV, BMVC, WACV (people also submit CV stuff to ICLR, NeurIPS, ICML, etc)
 
      
  
-all -  [ [R] Convolutional Differentiable Logic Gate Networks ](https://www.reddit.com/r/MachineLearning/comments/1gs92mb/r_convolutional_differentiable_logic_gate_networks/) , 2024-11-25-0914
+all -  [ [R] Convolutional Differentiable Logic Gate Networks ](https://www.reddit.com/r/MachineLearning/comments/1gs92mb/r_convolutional_differentiable_logic_gate_networks/) , 2024-11-26-0913
 ```
 Abstract
 
@@ -495,7 +645,7 @@ urious what others think?
 
      
  
-all -  [ How is the ACL Conference? ](https://www.reddit.com/r/deeplearning/comments/1gs7he7/how_is_the_acl_conference/) , 2024-11-25-0914
+all -  [ How is the ACL Conference? ](https://www.reddit.com/r/deeplearning/comments/1gs7he7/how_is_the_acl_conference/) , 2024-11-26-0913
 ```
 Hello, I know it's a very noob question but I was wondering what the reputation of ACL is in the field. I have been writ
 ing my first paper and my mentor recommended that I aim for the ACL deadline, I just wanted to know how prestigious it w
@@ -509,7 +659,7 @@ ship prospects, so I was wondering if it would help in any regard.
 
      
  
-all -  [ [D] Neurips 2024 Hotel Roommate Search ](https://www.reddit.com/r/MachineLearning/comments/1gs0gj8/d_neurips_2024_hotel_roommate_search/) , 2024-11-25-0914
+all -  [ [D] Neurips 2024 Hotel Roommate Search ](https://www.reddit.com/r/MachineLearning/comments/1gs0gj8/d_neurips_2024_hotel_roommate_search/) , 2024-11-26-0913
 ```
 The hotels around the venue for Neurips 2024 are pretty expensive, and I'm looking for a roommate to split the cost with
  (my university has a limit on the nightly hotel rate they are willing to reimburse). I currently have reserved a room f
@@ -526,7 +676,7 @@ Just a grad student trying to make conferences affordable! Thanks.
 
      
  
-all -  [ Need an Advice ](https://www.reddit.com/r/PhD/comments/1grg73d/need_an_advice/) , 2024-11-25-0914
+all -  [ Need an Advice ](https://www.reddit.com/r/PhD/comments/1grg73d/need_an_advice/) , 2024-11-26-0913
 ```
 Hi everyone, I’m a first-year computer science PhD student in Europe from Asia, going into my second year soon. I wanted
  to ask for some advice on what I should do. First off, I’m an international student from a Southeast Asian country, and
@@ -557,7 +707,7 @@ for the next 2-3 years, knowing I won’t have the chance to publish as the prim
 
      
  
-all -  [ [D] Looking for a project partner who's published in top conferences [cvpr, neurips, wacv, iccv, etc ](https://www.reddit.com/r/computervision/comments/1gpfcpk/d_looking_for_a_project_partner_whos_published_in/) , 2024-11-25-0914
+all -  [ [D] Looking for a project partner who's published in top conferences [cvpr, neurips, wacv, iccv, etc ](https://www.reddit.com/r/computervision/comments/1gpfcpk/d_looking_for_a_project_partner_whos_published_in/) , 2024-11-26-0913
 ```
 Hello y'all. Deep into my master's degree, I am in a dire need of a mentor/partner for my research partner. Some of the 
 professors at the academia who claim to specialize in the field of computer vision/ai doesnt know how to clone an existi
@@ -571,7 +721,7 @@ nt on what excites you most. thankss.
 
      
  
-all -  [ [D] How to Choose an AI-Focused Master's Program? ](https://www.reddit.com/r/computervision/comments/1gpba3y/d_how_to_choose_an_aifocused_masters_program/) , 2024-11-25-0914
+all -  [ [D] How to Choose an AI-Focused Master's Program? ](https://www.reddit.com/r/computervision/comments/1gpba3y/d_how_to_choose_an_aifocused_masters_program/) , 2024-11-26-0913
 ```
 I'm currently applying for AI-focused Master's programs, and I could really use some advice. I love working in computer 
 vision, and I think I’m genuinely passionate about research. I presented my first paper at an affinity workshop at ICML,
@@ -608,7 +758,7 @@ Thanks so much for any insights you can share!
 
      
  
-all -  [ [D] NeurIPS After Dark Networking Event ](https://www.reddit.com/r/MachineLearning/comments/1gpamvn/d_neurips_after_dark_networking_event/) , 2024-11-25-0914
+all -  [ [D] NeurIPS After Dark Networking Event ](https://www.reddit.com/r/MachineLearning/comments/1gpamvn/d_neurips_after_dark_networking_event/) , 2024-11-26-0913
 ```
 Just got an email about an official ticketed after dark NeurIPS networking event - this will be my first time attending/
 presenting, wondering if these events are worth going to. More generally, also interested in hearing about how to make t
@@ -618,7 +768,7 @@ he most of my time attending.
 
      
  
-all -  [ NeuroAI - NeurIPS Workshop (Vancouver, Dec 15) ](https://www.reddit.com/r/corticallabs/comments/1gp8lg5/neuroai_neurips_workshop_vancouver_dec_15/) , 2024-11-25-0914
+all -  [ NeuroAI - NeurIPS Workshop (Vancouver, Dec 15) ](https://www.reddit.com/r/corticallabs/comments/1gp8lg5/neuroai_neurips_workshop_vancouver_dec_15/) , 2024-11-26-0913
 ```
 Hey all, just wanted to make the announcement that some of the Cortical Labs team will be in Vancouver for NeurIPS and C
 TO Dave will be publishing the beta API spec for community feedback.
@@ -631,7 +781,7 @@ uroai-workshop.github.io)
 
      
  
-all -  [ Anyone's paper got selected for NeurIPS and are planning to go to Vancouver from Bengaluru??? ](https://www.reddit.com/r/Bengaluru/comments/1go3w7w/anyones_paper_got_selected_for_neurips_and_are/) , 2024-11-25-0914
+all -  [ Anyone's paper got selected for NeurIPS and are planning to go to Vancouver from Bengaluru??? ](https://www.reddit.com/r/Bengaluru/comments/1go3w7w/anyones_paper_got_selected_for_neurips_and_are/) , 2024-11-26-0913
 ```
 If anyone is traveling, i really need your help in planning mine. 
 ```
@@ -639,7 +789,7 @@ If anyone is traveling, i really need your help in planning mine.
 
      
  
-all -  [ [R] Classic GNNs (GCNs, GraphSAGEs, GATs) are Strong Baselines on Node Classification ](https://www.reddit.com/r/MachineLearning/comments/1gnsn54/r_classic_gnns_gcns_graphsages_gats_are_strong/) , 2024-11-25-0914
+all -  [ [R] Classic GNNs (GCNs, GraphSAGEs, GATs) are Strong Baselines on Node Classification ](https://www.reddit.com/r/MachineLearning/comments/1gnsn54/r_classic_gnns_gcns_graphsages_gats_are_strong/) , 2024-11-26-0913
 ```
 We’re excited to share our recent paper '[\[NeurIPS 2024\] Classic GNNs are Strong Baselines: Reassessing GNNs for Node 
 Classification](https://arxiv.org/pdf/2406.08993).'
@@ -660,7 +810,7 @@ If you find our work interesting, we’d greatly appreciate a ⭐️ on GitHub!
 
      
  
-all -  [ CV Sugession ](https://www.reddit.com/r/gradadmissions/comments/1gnbr8g/cv_sugession/) , 2024-11-25-0914
+all -  [ CV Sugession ](https://www.reddit.com/r/gradadmissions/comments/1gnbr8g/cv_sugession/) , 2024-11-26-0913
 ```
 I  tried to publish research papers twice—first at NeurIPS and recently at ICVGIP—but I got rejected both times 🥲.
 
@@ -675,7 +825,7 @@ e your advice.
 
      
  
-all -  [ Ok, for real how do I rank? ](https://www.reddit.com/r/eb_1a/comments/1gn2zo7/ok_for_real_how_do_i_rank/) , 2024-11-25-0914
+all -  [ Ok, for real how do I rank? ](https://www.reddit.com/r/eb_1a/comments/1gn2zo7/ok_for_real_how_do_i_rank/) , 2024-11-26-0913
 ```
 I was pretty certain that my pathway to green card was gonna be smooth… until the Trump victory. I’m gearing up for EB1A
  but worried that the extra scrutiny during his term will close that door for me. Here are the stats.
@@ -695,7 +845,7 @@ Am I toast or can I gun for EB1A?
 
      
  
-all -  [ [R] Most Time Series Anomaly Detection results are meaningless (two short videos explain why) ](https://www.reddit.com/r/MachineLearning/comments/1gmwxnr/r_most_time_series_anomaly_detection_results_are/) , 2024-11-25-0914
+all -  [ [R] Most Time Series Anomaly Detection results are meaningless (two short videos explain why) ](https://www.reddit.com/r/MachineLearning/comments/1gmwxnr/r_most_time_series_anomaly_detection_results_are/) , 2024-11-26-0913
 ```
 Dear Colleagues
 
@@ -743,7 +893,7 @@ splu0u1t7ugg&dl=0)
 
      
  
-all -  [ Boss wants me in Vancouver for neurips conference. Please take my 1 tix, 5 day pass. Selling at cost ](https://www.reddit.com/r/Wonderfruit/comments/1gmvwe0/boss_wants_me_in_vancouver_for_neurips_conference/) , 2024-11-25-0914
+all -  [ Boss wants me in Vancouver for neurips conference. Please take my 1 tix, 5 day pass. Selling at cost ](https://www.reddit.com/r/Wonderfruit/comments/1gmvwe0/boss_wants_me_in_vancouver_for_neurips_conference/) , 2024-11-26-0913
 ```
 I have one 5 day pass, bought it during early bird. Can change name during pre-registration. I want to make no profit fr
 om this. Heck, I’ll give you a discount. But I need to talk to you up front, and we need to figure out a payment situati
@@ -757,7 +907,7 @@ Reply to this and I will reach out.
 
      
  
-all -  [ Alaa Lab at UC Berkeley / UCSF Seeking PhD Students in ML/AI for Healthcare ](https://www.reddit.com/r/CompSocial/comments/1gmh3q6/alaa_lab_at_uc_berkeley_ucsf_seeking_phd_students/) , 2024-11-25-0914
+all -  [ Alaa Lab at UC Berkeley / UCSF Seeking PhD Students in ML/AI for Healthcare ](https://www.reddit.com/r/CompSocial/comments/1gmh3q6/alaa_lab_at_uc_berkeley_ucsf_seeking_phd_students/) , 2024-11-26-0913
 ```
 Prof. Ahmad Alaa, who leads a [joint lab](https://alaalab.berkeley.edu/home) at UC Berkeley and UCSF is seeking PhD appl
 icants interested in working at the intersection of ML/AI and Healthcare. They call out the following focus areas, with 
@@ -784,7 +934,7 @@ mA/viewform)
 
      
  
-all -  [ CAN I GET INTO HARVARD + UC's ](https://www.reddit.com/r/chanceme/comments/1gm5icr/can_i_get_into_harvard_ucs/) , 2024-11-25-0914
+all -  [ CAN I GET INTO HARVARD + UC's ](https://www.reddit.com/r/chanceme/comments/1gm5icr/can_i_get_into_harvard_ucs/) , 2024-11-26-0913
 ```
 **Demographics**:
 
@@ -851,7 +1001,7 @@ Safety: UPitt, RIT, Bentley, Rutgers
 
      
  
-all -  [ Question about EB2 NIW and re-election of President Trump ](https://www.reddit.com/r/USCIS/comments/1glc0s5/question_about_eb2_niw_and_reelection_of/) , 2024-11-25-0914
+all -  [ Question about EB2 NIW and re-election of President Trump ](https://www.reddit.com/r/USCIS/comments/1glc0s5/question_about_eb2_niw_and_reelection_of/) , 2024-11-26-0913
 ```
 Hey, I have a question about possible effects of the recent re-election on my application as an Iranian citizen (male) w
 ho recently filed their I140. I'm wondering if I should apply for premium processing or not.
@@ -887,7 +1037,7 @@ ld be appreciated! Thanks.
 
      
  
-all -  [ Question about EB2 NIW and re-election of President Trump ](https://www.reddit.com/r/EB2_NIW/comments/1glbyrt/question_about_eb2_niw_and_reelection_of/) , 2024-11-25-0914
+all -  [ Question about EB2 NIW and re-election of President Trump ](https://www.reddit.com/r/EB2_NIW/comments/1glbyrt/question_about_eb2_niw_and_reelection_of/) , 2024-11-26-0913
 ```
 Hey, I have a question about possible effects of the recent re-election on my application as an Iranian citizen (male) w
 ho recently filed their I140. I'm wondering if I should apply for premium processing or not.
@@ -923,7 +1073,7 @@ uld be appreciated! Thanks.
 
      
  
-all -  [ Ethics in AI ](https://www.reddit.com/r/ArtificialInteligence/comments/1gkndse/ethics_in_ai/) , 2024-11-25-0914
+all -  [ Ethics in AI ](https://www.reddit.com/r/ArtificialInteligence/comments/1gkndse/ethics_in_ai/) , 2024-11-26-0913
 ```
 What are some good learning/certificate opportunities to enter the AI ethics space? Are there other volunteer opportunit
 ies to do ethics reviews on papers besides NeurIPS (and what are the requirements to become an ethics reviewer?) 
@@ -932,7 +1082,7 @@ ies to do ethics reviews on papers besides NeurIPS (and what are the requirement
 
      
  
-all -  [ Is implementing famous research papers in ML worthy of writing in a resume? ](https://www.reddit.com/r/Btechtards/comments/1gjym1x/is_implementing_famous_research_papers_in_ml/) , 2024-11-25-0914
+all -  [ Is implementing famous research papers in ML worthy of writing in a resume? ](https://www.reddit.com/r/Btechtards/comments/1gjym1x/is_implementing_famous_research_papers_in_ml/) , 2024-11-26-0913
 ```
 Title. I am currently in my 3rd year of BTech in CSE. I’ve been interested in ML/DL for quite some time now. And I was t
 hinking of doing this. Is it okay to put them in resume for applying to research/industry internships?
@@ -957,7 +1107,7 @@ ial_Networks_ECCVW_2018_paper.pdf)
 
      
  
-all -  [ Do I have to upload a poster and a video recording for my accepted paper in NeurIPS 2024 to be publi ](https://www.reddit.com/r/learnmachinelearning/comments/1gjx8bv/do_i_have_to_upload_a_poster_and_a_video/) , 2024-11-25-0914
+all -  [ Do I have to upload a poster and a video recording for my accepted paper in NeurIPS 2024 to be publi ](https://www.reddit.com/r/learnmachinelearning/comments/1gjx8bv/do_i_have_to_upload_a_poster_and_a_video/) , 2024-11-26-0913
 ```
 I registered the virtual pass of NeurIPS 2024. Do I have to upload a poster and a video recording for my accepted paper 
 in NeurIPS 2024 to be published? The emails or the instructions do not make any clarification about this. 
@@ -966,7 +1116,7 @@ in NeurIPS 2024 to be published? The emails or the instructions do not make any 
 
      
  
-all -  [ [D] Looking for Research Internship in Applied RL & Robotics ](https://www.reddit.com/r/MachineLearning/comments/1giq0e8/d_looking_for_research_internship_in_applied_rl/) , 2024-11-25-0914
+all -  [ [D] Looking for Research Internship in Applied RL & Robotics ](https://www.reddit.com/r/MachineLearning/comments/1giq0e8/d_looking_for_research_internship_in_applied_rl/) , 2024-11-26-0913
 ```
 I am a PhD candidate at Mila, working on reinforcement learning for different robotic applications (worked on applicatio
 ns like excavator automation, physics-based character animation, and autonomous driving). I'm currently seeking a summer
@@ -1001,7 +1151,7 @@ ttps://pranaval.github.io/*.*
 
      
  
-all -  [ Looking for Research Internship in Applied RL & Robotics ](https://www.reddit.com/r/reinforcementlearning/comments/1gipwq6/looking_for_research_internship_in_applied_rl/) , 2024-11-25-0914
+all -  [ Looking for Research Internship in Applied RL & Robotics ](https://www.reddit.com/r/reinforcementlearning/comments/1gipwq6/looking_for_research_internship_in_applied_rl/) , 2024-11-26-0913
 ```
 I am a PhD candidate at Mila, working on reinforcement learning for different robotic applications (worked on applicatio
 ns like excavator automation, physics-based character animation, and autonomous driving). I'm currently seeking a summer
@@ -1036,7 +1186,7 @@ https://pranaval.github.io/.*
 
      
  
-all -  [ [D] Publishing in NeurIPS, ICML, ICLR as an Early Researcher: Any Advice? ](https://www.reddit.com/r/MachineLearning/comments/1gip4cf/d_publishing_in_neurips_icml_iclr_as_an_early/) , 2024-11-25-0914
+all -  [ [D] Publishing in NeurIPS, ICML, ICLR as an Early Researcher: Any Advice? ](https://www.reddit.com/r/MachineLearning/comments/1gip4cf/d_publishing_in_neurips_icml_iclr_as_an_early/) , 2024-11-26-0913
 ```
 I'm currently pursuing a master's degree, and my goal is to publish a paper in one of the top AI/ML venues, like NeurIPS
 , ICML, or ICLR, before I finish my program. I'm studying at a Federal University in Brazil, which is well-regarded loca
@@ -1059,7 +1209,7 @@ erstand what reviewers might be looking for would be helpful. I’d also like ad
 
      
  
-all -  [ Visa rejected for No Proper reason ](https://www.reddit.com/r/CanadaVisitorVisa/comments/1ghdzz6/visa_rejected_for_no_proper_reason/) , 2024-11-25-0914
+all -  [ Visa rejected for No Proper reason ](https://www.reddit.com/r/CanadaVisitorVisa/comments/1ghdzz6/visa_rejected_for_no_proper_reason/) , 2024-11-26-0913
 ```
 I was supposed to go for NeurIPS conference from India and I had Invitation letter as well as cover letter from my compa
 ny. Yet they have rejected with absolutely no logical reasons. How to appeal this? 
@@ -1068,7 +1218,7 @@ ny. Yet they have rejected with absolutely no logical reasons. How to appeal thi
 
      
  
-all -  [ [R] QTIP: Quantization with Trellises and Incoherence Processing ](https://www.reddit.com/r/MachineLearning/comments/1ggyj3l/r_qtip_quantization_with_trellises_and/) , 2024-11-25-0914
+all -  [ [R] QTIP: Quantization with Trellises and Incoherence Processing ](https://www.reddit.com/r/MachineLearning/comments/1ggyj3l/r_qtip_quantization_with_trellises_and/) , 2024-11-26-0913
 ```
 We're pleased to introduce QTIP, a new LLM quantization algorithm that uses trellis coded quantization and incoherence p
 rocessing to achieve a state of the art combination of speed and quantization quality.
@@ -1092,7 +1242,7 @@ g just as fast. QTIP is also on par with or better than PV-Tuning while being mu
 
      
  
-all -  [ New Quantization Method -- QTIP: Quantization with Trellises and Incoherence Processing ](https://www.reddit.com/r/LocalLLaMA/comments/1ggwrx6/new_quantization_method_qtip_quantization_with/) , 2024-11-25-0914
+all -  [ New Quantization Method -- QTIP: Quantization with Trellises and Incoherence Processing ](https://www.reddit.com/r/LocalLLaMA/comments/1ggwrx6/new_quantization_method_qtip_quantization_with/) , 2024-11-26-0913
 ```
 We're pleased to introduce QTIP, a new LLM quantization algorithm that uses trellis coded quantization and incoherence p
 rocessing to achieve a state of the art combination of speed and quantization quality.
@@ -1118,7 +1268,7 @@ g like llama.cpp.](https://reddit.com/link/1ggwrx6/video/rz8ghv5fc8yd1/player)
 
      
  
-all -  [ Chance a Chess Fiend With Below Average Grades but Good EC's and SAT ](https://www.reddit.com/r/chanceme/comments/1ggukfh/chance_a_chess_fiend_with_below_average_grades/) , 2024-11-25-0914
+all -  [ Chance a Chess Fiend With Below Average Grades but Good EC's and SAT ](https://www.reddit.com/r/chanceme/comments/1ggukfh/chance_a_chess_fiend_with_below_average_grades/) , 2024-11-26-0913
 ```
 **Demographics**:
 
@@ -1178,7 +1328,7 @@ due, IU, Vtech, UPitt, RIT, Bentley, Rutgers
 
      
  
-all -  [ [D] Is TMLR good enough to consider as an alternative to A* conferences? ](https://www.reddit.com/r/MachineLearning/comments/1ggsief/d_is_tmlr_good_enough_to_consider_as_an/) , 2024-11-25-0914
+all -  [ [D] Is TMLR good enough to consider as an alternative to A* conferences? ](https://www.reddit.com/r/MachineLearning/comments/1ggsief/d_is_tmlr_good_enough_to_consider_as_an/) , 2024-11-26-0913
 ```
 Hi there, I am a current PhD student in Artificial Intelligence working on Multi-Armed Bandits. More recently, I have co
 mpleted one of my works on the intersection of Bandits and LLMs and was wondering for a suitable venue for publication.
@@ -1196,7 +1346,7 @@ the closest conference is too far?
 
      
  
-all -  [ Neural network recognizer for hand-written zip code digits (1988): 'with a high-performance preproce ](https://www.reddit.com/r/mlscaling/comments/1ggr0j4/neural_network_recognizer_for_handwritten_zip/) , 2024-11-25-0914
+all -  [ Neural network recognizer for hand-written zip code digits (1988): 'with a high-performance preproce ](https://www.reddit.com/r/mlscaling/comments/1ggr0j4/neural_network_recognizer_for_handwritten_zip/) , 2024-11-26-0913
 ```
 This paper was published just before LeNet-1. Notable features:
 
@@ -1226,7 +1376,7 @@ Denker, John, et al. '[Neural network recognizer for hand
 
      
  
-all -  [ Florence-2-as-a-Judge ](https://www.reddit.com/r/LocalLLaMA/comments/1gfv0me/florence2asajudge/) , 2024-11-25-0914
+all -  [ Florence-2-as-a-Judge ](https://www.reddit.com/r/LocalLLaMA/comments/1gfv0me/florence2asajudge/) , 2024-11-26-0913
 ```
 I learned about Judge Distillation from slide 14 in [this deck](https://nips.cc/media/neurips-2023/Slides/83968_5GxuY2z.
 pdf) describing how Phi-2 researchers scaled their data quality filter to a large synthetic dataset.
@@ -1250,7 +1400,7 @@ SC West tomorrow, let's connect!
 
      
  
-all -  [ [D]ended up with a poster in NuerIPS-24 ](https://www.reddit.com/r/MachineLearning/comments/1gdxef5/dended_up_with_a_poster_in_nuerips24/) , 2024-11-25-0914
+MachineLearning -  [ [D]ended up with a poster in NuerIPS-24 ](https://www.reddit.com/r/MachineLearning/comments/1gdxef5/dended_up_with_a_poster_in_nuerips24/) , 2024-11-26-0913
 ```
 I have a poster in NuerIPS this year through the  journal track(MLRC) along with the main conference papers.I didnt expe
 ct this to happen so i hadnt planned/researched about the expenses/funding prior.I already had my visa and conference re
@@ -1261,7 +1411,7 @@ ave already attended NeurIPS before please pour your ideas and experiences.
 
      
  
-all -  [ Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CVPR,  ](https://www.reddit.com/r/computervision/comments/1gd6812/looking_for_collaborations_on_ongoing/) , 2024-11-25-0914
+MachineLearning -  [ [R] Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CV ](https://www.reddit.com/r/MachineLearning/comments/1gcjfz1/r_looking_for_collaborations_on_ongoing/) , 2024-11-26-0913
 ```
 Hey everyone,
 
@@ -1279,29 +1429,6 @@ e table!
 If you have resources available or are interested in discussing potential collaborations, please feel free to 
 reach out! Looking forward to connecting and building something impactful together! Here is the link for our Open Slack 
 👉 [Open Slack](https://join.slack.com/t/vlgopenspace/shared_invite/zt-2t7kihcc6-uilU~y7lz7jdtqNc5M1VPA)
-```
----
-
-     
- 
-all -  [ Looking for collaborations on ongoing work-in-progress Full Papers targeting conferences like CVPR,  ](https://www.reddit.com/r/neuralnetworks/comments/1gd64zq/looking_for_collaborations_on_ongoing/) , 2024-11-25-0914
-```
-# Hey everyone,
-
-Our group, **Vision and Language Group, IIT Roorkee,** recently got three workshop papers accepted at N
-eurIPS workshops! 🚀 We’ve also set up a website 👉 [VLG](https://vlgiitr.github.io/), featuring other publications we’ve 
-worked on, so our group is steadily building a portfolio in ML and AI research. Right now, we’re collaborating on severa
-l work-in-progress papers with the aim of full submissions to top conferences like CVPR and ICML.
-
-That said, we have ev
-en more ideas we’re excited about. Still, a few of our main limitations have been access to proper guidance and funding 
-for GPUs and APIs, which is crucial for experimenting and scaling some of our concepts. If you or your lab is interested
- in working together, we’d love to explore intersections in our fields of interest and any new ideas you might bring to 
-the table!
-
-If you have resources available or are interested in discussing potential collaborations, please feel free t
-o reach out! Looking forward to connecting and building something impactful together! Here is the link for our Open Slac
-k 👉 [Open Slack](https://join.slack.com/t/vlgopenspace/shared_invite/zt-2t7kihcc6-uilU~y7lz7jdtqNc5M1VPA)
 ```
 ---
 
