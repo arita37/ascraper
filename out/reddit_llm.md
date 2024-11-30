@@ -1,5 +1,193 @@
  
-all -  [ Looking for any literature on Multi Agent architecture/design patterns w/ langgraph ](https://www.reddit.com/r/LangChain/comments/1h26cxx/looking_for_any_literature_on_multi_agent/) , 2024-11-29-0913
+all -  [ GPT-4o-Realtime-Preview Azure Support? ](https://www.reddit.com/r/LangChain/comments/1h2vy5y/gpt4orealtimepreview_azure_support/) , 2024-11-30-0913
+```
+Is there a way to support the only audio model in Azure like the one on OpenAI?
+
+```typescript
+import { AzureChatOpenAI 
+} from '@langchain/openai';
+const llm: any = new AzureChatOpenAI({
+    modelName: 'gpt-4o-realtime-preview',
+    deploym
+entName: config.azureOpenAIApiDeploymentName,
+    openAIApiVersion: '2024-10-01',
+    azureOpenAIApiInstanceName: config
+.azureOpenAIInstanceName,
+    maxTokens: config.maxToken,
+    temperature: config.temperature,
+    audio: {'voice': 'all
+oy', 'format': 'wav'},
+    modalities: ['text', 'audio'],
+});
+```
+
+Similar configuration as seen on the direct OpenAI au
+dio model: https://www.datacamp.com/tutorial/gpt-4o-audio-preview
+
+But when using gpt-4o-realtime-preview that is the on
+ly audio model on Azure. This error rises:
+```
+Result: Failure Exception: 404 Resource not found Troubleshooting URL: ht
+tps://js.langchain.com/docs/troubleshooting/errors/MODEL_NOT_FOUND
+```
+```
+---
+
+     
+ 
+all -  [ Interface for my chatbot ](https://www.reddit.com/r/LangChain/comments/1h2ut1g/interface_for_my_chatbot/) , 2024-11-30-0913
+```
+Hi all,
+
+I'm a mechanical engineer and I'm developing a chatbot to pitch it to my current company. I've build it using L
+angGraph. I know it may be not optimised 100% but I'm happy with the answers that it is giving me. To call the graph all
+ I use is :   
+  
+\# Specify a thread  
+config = {'configurable': {'thread\_id': '1'}}  
+  
+\# Run  
+messages = graph.in
+voke({'user\_question': 'Question here...'},config)  
+messages\['messages'\]\[-1\].pretty\_print()
+
+This will generate a
+n AIMessage answer.
+
+Is there a quick way to create an interface for presentation purposes ? Instead of compiling a Jupi
+ter Notebook I want to be able to ask questions from an interface.  
+
+
+Appreciate any help !
+```
+---
+
+     
+ 
+all -  [ Create Own DataSet form PDF's ](https://www.reddit.com/r/LangChain/comments/1h2sh7h/create_own_dataset_form_pdfs/) , 2024-11-30-0913
+```
+What is the best way to create the largest number of questions and answers from PDF?  
+Another way other than extracting
+ questions manually using ChatGPT
+```
+---
+
+     
+ 
+all -  [ Claude 3.5 Sonnet V2 + LangChain on AWS ](https://www.reddit.com/r/Anthropic/comments/1h2pysr/claude_35_sonnet_v2_langchain_on_aws/) , 2024-11-30-0913
+```
+Hi,
+
+Has anyone experience with using Claude 3.5 Sonnet V2 (2024-10-22) together with LangChain (Agent with tool functio
+ns) on AWS?
+
+We have a system prompt defined as an XML document where we explain that it should use the defined tools wh
+en necessary, and we pass in the tools like <tools\_definition>{…JSON schema of tools…}</tools\_definition>.
+
+On us-west
+-2 (where the model can be accessed directly through the foundation-model id “anthropic.claude-3-5-sonnet-20241022-v2”),
+ the model works correctly. It calls the tools when necessary, and responds in a human language.
+
+On us-east-1 (where th
+e model can be accessed only through the inference-profile id “us.anthropic.claude-3-5-sonnet-20241022-v2”), the model’s
+ response includes an XML-formatted version of the used tool’s schema, but it doesn’t actually call the tool. I also tri
+ed it on us-west-2 with the inference-profile id, and it acts the same.
+
+Is there anything I’m unaware of? Is maybe the 
+V2 model accessed through the foundation-model id somewhat different than the one accessed through the inference-model i
+d?
+```
+---
+
+     
+ 
+all -  [ LangChain tools ](https://www.reddit.com/r/modelcontextprotocol/comments/1h2nwyx/langchain_tools/) , 2024-11-30-0913
+```
+I added support for MCP tools to LangChain toolkit https://github.com/rectalogic/langchain-mcp
+```
+---
+
+     
+ 
+all -  [ Langchain’s state of AI agents report is mostly bullshit. ](https://www.reddit.com/r/DebunkingAI/comments/1h2mx32/langchains_state_of_ai_agents_report_is_mostly/) , 2024-11-30-0913
+```
+I took time to read Langchain’s state of AI agents report, so you don’t have to. Don’t worry, you are not missing anythi
+ng. It’s mostly a marketing pamphlet masqueraded as a rigorous study.
+
+I knew it was bullshit from the get-go as soon as
+ I read their definition of AI agents.  
+[https://medium.com/thoughts-on-machine-learning/langchains-state-of-ai-agents-
+report-is-mostly-bullshit-c689d0021a19](https://medium.com/thoughts-on-machine-learning/langchains-state-of-ai-agents-re
+port-is-mostly-bullshit-c689d0021a19)
+```
+---
+
+     
+ 
+all -  [ [For Hire] React, NEXT, Nest, Express, Langchain and Full Stack Developer. ](https://www.reddit.com/r/forhire/comments/1h2ijf3/for_hire_react_next_nest_express_langchain_and/) , 2024-11-30-0913
+```
+Hi Reddit! 👋  
+I'm Sheryar, a Full Stack Developer skilled in **React, Next.js, NestJS, Node.js, AWS**, and **LangChain*
+*. I specialize in:
+
+✅ **Frontend**: Responsive, pixel-perfect UIs with React/Angular  
+✅ **Backend**: Scalable APIs & m
+icroservices (Node.js, NestJS)  
+✅ **Databases**: Advanced PostgreSQL with JSON handling  
+✅ **Payments**: Stripe integr
+ation for secure transactions  
+✅ **Cloud**: AWS deployments  
+✅ **Chatbots & Voicebots**: Development with LangChain fo
+r intelligent automation
+
+**Recent Work**:  
+🚗 Ride-sharing app with Stripe payments & live tracking  
+📦 Urban logistics
+ platform with multi-stop deliveries  
+📊 Custom CRM with Twilio API integration  
+🤖 Chatbot & Voicebot solutions for aut
+omation and customer support
+
+💰 **Rate**: $15–$20/hour (negotiable)  
+📧 DM me to discuss your project or view my portfol
+io!  
+**GitHub**: [storm1033](https://github.com/storm1033)
+
+Let’s build something amazing together! 🚀
+```
+---
+
+     
+ 
+all -  [ Pause a Langraph at an Intermediate Node and Retrieve the Current State Result ](https://www.reddit.com/r/LangChain/comments/1h2g2n9/pause_a_langraph_at_an_intermediate_node_and/) , 2024-11-30-0913
+```
+I have implemented a customer engagement system with a complex workflow, including tasks like scheduling calls, placing 
+orders, and replying to emails. On the client side, we have three APIs: `/domain/place_order/`, `/domain/schedule_call/`
+, etc.
+
+The requirement is to execute a workflow corresponding to a specific use case, such as a subgraph for placing an
+ order. During execution, the intermediate state should be stored, and the current state result should be returned.
+
+If 
+the API is triggered again with knowledge of the previous state, the system should resume from where it left off and com
+plete the corresponding subgraph workflow (e.g., the call scheduling subgraph).
+
+How can this be achieved?
+```
+---
+
+     
+ 
+all -  [ What's the pros and cons compared langchain tools vs MCP (Model Context Protocol) ](https://www.reddit.com/r/LangChain/comments/1h2csxn/whats_the_pros_and_cons_compared_langchain_tools/) , 2024-11-30-0913
+```
+I just had a chance to use MCP, made by claude. Seems like it's very similar to langchain tools, but don't know the main
+ difference. What's it about, and how can it be different from langchain tools?
+```
+---
+
+     
+ 
+all -  [ Looking for any literature on Multi Agent architecture/design patterns w/ langgraph ](https://www.reddit.com/r/LangChain/comments/1h26cxx/looking_for_any_literature_on_multi_agent/) , 2024-11-30-0913
 ```
 
 ```
@@ -7,7 +195,7 @@ all -  [ Looking for any literature on Multi Agent architecture/design patterns 
 
      
  
-all -  [ Relevance of Message Queues in AI Agents ](https://www.reddit.com/r/LangChain/comments/1h25wdn/relevance_of_message_queues_in_ai_agents/) , 2024-11-29-0913
+all -  [ Relevance of Message Queues in AI Agents ](https://www.reddit.com/r/LangChain/comments/1h25wdn/relevance_of_message_queues_in_ai_agents/) , 2024-11-30-0913
 ```
 Hi everyone,
 
@@ -28,7 +216,7 @@ Looking forward to hearing your insights and discussing this further!
 
      
  
-all -  [ Anyone else interested in storing outputs as well as prompts? And if so ... what solutions are out t ](https://www.reddit.com/r/PromptEngineering/comments/1h22jdi/anyone_else_interested_in_storing_outputs_as_well/) , 2024-11-29-0913
+all -  [ Anyone else interested in storing outputs as well as prompts? And if so ... what solutions are out t ](https://www.reddit.com/r/PromptEngineering/comments/1h22jdi/anyone_else_interested_in_storing_outputs_as_well/) , 2024-11-30-0913
 ```
 Hi everyone,
 
@@ -71,7 +259,7 @@ Does something exist that does what I'm after? And how are people approaching ma
 
      
  
-all -  [ Discussion: 'Why Does the Recursion Limit Exist in LangGraph?' ](https://www.reddit.com/r/LangChain/comments/1h226yc/discussion_why_does_the_recursion_limit_exist_in/) , 2024-11-29-0913
+all -  [ Discussion: 'Why Does the Recursion Limit Exist in LangGraph?' ](https://www.reddit.com/r/LangChain/comments/1h226yc/discussion_why_does_the_recursion_limit_exist_in/) , 2024-11-30-0913
 ```
 Currently, in my team, we are developing agents using LangGraph. Some of these are complex agents that we dynamically co
 mpile, with some cases involving N branches.
@@ -84,7 +272,7 @@ ase of a ReAct agent
 
      
  
-all -  [ Faster LLM response ](https://www.reddit.com/r/LangChain/comments/1h222g7/faster_llm_response/) , 2024-11-29-0913
+all -  [ Faster LLM response ](https://www.reddit.com/r/LangChain/comments/1h222g7/faster_llm_response/) , 2024-11-30-0913
 ```
 Hello everyone
 
@@ -113,7 +301,7 @@ id from metadata>,
 
      
  
-all -  [ MCP Server Tools Langgraph Integration example ](https://www.reddit.com/r/LangChain/comments/1h20lxe/mcp_server_tools_langgraph_integration_example/) , 2024-11-29-0913
+all -  [ MCP Server Tools Langgraph Integration example ](https://www.reddit.com/r/LangChain/comments/1h20lxe/mcp_server_tools_langgraph_integration_example/) , 2024-11-30-0913
 ```
 Example of how to auto discover tools on an MCP Server and make them available to call in your Langgraph graph.
 
@@ -124,7 +312,7 @@ Example of how to auto discover tools on an MCP Server and make them available t
 
      
  
-all -  [ WARNING:langsmith.client:Failed to multipart ingest runs ](https://www.reddit.com/r/LangChain/comments/1h1yu32/warninglangsmithclientfailed_to_multipart_ingest/) , 2024-11-29-0913
+all -  [ WARNING:langsmith.client:Failed to multipart ingest runs ](https://www.reddit.com/r/LangChain/comments/1h1yu32/warninglangsmithclientfailed_to_multipart_ingest/) , 2024-11-30-0913
 ```
 Hi guys, 
 
@@ -249,7 +437,7 @@ ieval_chain(
 
      
  
-all -  [ Using an In-Memory Graph Database for GraphRAG in GenAI Apps ](https://www.reddit.com/r/learnmachinelearning/comments/1h1yt2j/using_an_inmemory_graph_database_for_graphrag_in/) , 2024-11-29-0913
+all -  [ Using an In-Memory Graph Database for GraphRAG in GenAI Apps ](https://www.reddit.com/r/learnmachinelearning/comments/1h1yt2j/using_an_inmemory_graph_database_for_graphrag_in/) , 2024-11-30-0913
 ```
 Hey everyone! I’ve noticed many posts here about handling niche datasets for building intelligent systems, like GenAI ap
 ps. Whether it’s legal docs, medical datasets, or proprietary codebases, the challenge is always the same: how do you en
@@ -278,7 +466,7 @@ t’s your approach to combining LLMs with structured and unstructured data? Mor
 
      
  
-all -  [ A FREE goldmine of tutorials about GenAI Agents! ](https://github.com/NirDiamant/GenAI_Agents) , 2024-11-29-0913
+all -  [ A FREE goldmine of tutorials about GenAI Agents! ](https://github.com/NirDiamant/GenAI_Agents) , 2024-11-30-0913
 ```
 After the hackathon I ran in conjunction with LangChain, people have expanded the GenAI_Agents GitHub repository that I 
 maintain to now contain 43 (!) Agents-related code tutorials.
@@ -315,7 +503,7 @@ amantai.substack.com/
 
      
  
-all -  [ Googlegenerativeai is causing problem with async python flask workers like gevent ](https://www.reddit.com/r/LangChain/comments/1h1wop9/googlegenerativeai_is_causing_problem_with_async/) , 2024-11-29-0913
+all -  [ Googlegenerativeai is causing problem with async python flask workers like gevent ](https://www.reddit.com/r/LangChain/comments/1h1wop9/googlegenerativeai_is_causing_problem_with_async/) , 2024-11-30-0913
 ```
 The web app crashes whenever I use gevent class workers with gunicorn when running my docker image which is an API for m
 y web app developed usinf flask and utilizes googlegenerativeai from langchain
@@ -324,7 +512,7 @@ y web app developed usinf flask and utilizes googlegenerativeai from langchain
 
      
  
-all -  [ Improving embedding speed.  ](https://www.reddit.com/r/LangChain/comments/1h1u1bz/improving_embedding_speed/) , 2024-11-29-0913
+all -  [ Improving embedding speed.  ](https://www.reddit.com/r/LangChain/comments/1h1u1bz/improving_embedding_speed/) , 2024-11-30-0913
 ```
 How long does it take you often to embed a text file. ? i am using.
 
@@ -340,7 +528,7 @@ ing next.js serverless for deployment it is taking me more than thn 60 sec so i 
 
      
  
-all -  [ Advice: Am I doing something wrong? ](https://www.reddit.com/r/leetcode/comments/1h1u1bb/advice_am_i_doing_something_wrong/) , 2024-11-29-0913
+all -  [ Advice: Am I doing something wrong? ](https://www.reddit.com/r/leetcode/comments/1h1u1bb/advice_am_i_doing_something_wrong/) , 2024-11-30-0913
 ```
 Or is the market expected to improve? Applying to DE, DS, MLE, DA roles with this; no hits after 150 total. Internationa
 l so sponsorship required.
@@ -354,7 +542,7 @@ https://preview.redd.it/w0qbmiu4pm3e1.png?width=1322&format=png&auto=webp&s=7c28
 
      
  
-all -  [ (Resume review) Roast my Resume, 2024 grad. Need some career advice ](https://i.redd.it/p8n3npe2nm3e1.jpeg) , 2024-11-29-0913
+all -  [ (Resume review) Roast my Resume, 2024 grad. Need some career advice ](https://i.redd.it/p8n3npe2nm3e1.jpeg) , 2024-11-30-0913
 ```
 Feel free to roast this resume, template and everything. 
 
@@ -370,7 +558,7 @@ Is there any scope for freshers in Go?
 
      
  
-all -  [ Effective solution to host RAG app ](https://www.reddit.com/r/Rag/comments/1h1sn3m/effective_solution_to_host_rag_app/) , 2024-11-29-0913
+all -  [ Effective solution to host RAG app ](https://www.reddit.com/r/Rag/comments/1h1sn3m/effective_solution_to_host_rag_app/) , 2024-11-30-0913
 ```
 I have created a simple rag chat for my company. I used llama 3.1 8b model. There are less than 70 users. I am not sure 
 on how to deploy it in cloud.
@@ -389,7 +577,7 @@ If GPU machine, what should be the memory
 
      
  
-all -  [ Conversational RAG on local files (on-premises usage) ](https://www.reddit.com/r/Python/comments/1h1qzds/conversational_rag_on_local_files_onpremises_usage/) , 2024-11-29-0913
+all -  [ Conversational RAG on local files (on-premises usage) ](https://www.reddit.com/r/Python/comments/1h1qzds/conversational_rag_on_local_files_onpremises_usage/) , 2024-11-30-0913
 ```
 Hey everyone,
 
@@ -443,7 +631,7 @@ Thank you so much!
 
      
  
-all -  [ An example of local conversational RAG using Langchain ](https://www.reddit.com/r/LangChain/comments/1h1q0cg/an_example_of_local_conversational_rag_using/) , 2024-11-29-0913
+all -  [ An example of local conversational RAG using Langchain ](https://www.reddit.com/r/LangChain/comments/1h1q0cg/an_example_of_local_conversational_rag_using/) , 2024-11-30-0913
 ```
 Hey everyone, I would like to introduce you my latest repo, that is a local conversational rag on your files, Be honest,
  you can use this as a rag on-premises, cause it is build with docker, langchain, ollama, fastapi, hf All models downloa
@@ -484,7 +672,7 @@ Thank you so much!
 
      
  
-all -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-11-29-0913
+all -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-11-30-0913
 ```
   
 [https://github.com/dmayboroda/minima](https://github.com/dmayboroda/minima)  
@@ -525,7 +713,7 @@ Welcome to contribute (watch, fork
 
      
  
-all -  [ Query decomposition workflow in langgraph  ](https://www.reddit.com/r/LangChain/comments/1h1prti/query_decomposition_workflow_in_langgraph/) , 2024-11-29-0913
+all -  [ Query decomposition workflow in langgraph  ](https://www.reddit.com/r/LangChain/comments/1h1prti/query_decomposition_workflow_in_langgraph/) , 2024-11-30-0913
 ```
 I'm trying to create a langgraph workflow where in the first step I want to decompose my complex query into multiple sub
  queries and go through the next workflow of retrieving relevant chunks and extracting the answer bit I want to run for 
@@ -539,7 +727,7 @@ ny langgraph features to implement for ease
 
      
  
-all -  [ Complete newbie here - Can anyone give me an overview for what I'm doing? ](https://www.reddit.com/r/LangChain/comments/1h1pik1/complete_newbie_here_can_anyone_give_me_an/) , 2024-11-29-0913
+all -  [ Complete newbie here - Can anyone give me an overview for what I'm doing? ](https://www.reddit.com/r/LangChain/comments/1h1pik1/complete_newbie_here_can_anyone_give_me_an/) , 2024-11-30-0913
 ```
 I have been working on prompt design and trying to work ChatGPT into having reasoning like Tree-of-Thought , Socratic Qu
 estioning , etc... I have a bunch of research pdfs on prompting also.   For the latter, I was trying to convert like 50 
@@ -554,7 +742,7 @@ AG with like a cognitive architecture for enhanced reasoning
 
      
  
-all -  [ LangGraph Without API Calls ](https://www.reddit.com/r/learnmachinelearning/comments/1h1ld8j/langgraph_without_api_calls/) , 2024-11-29-0913
+all -  [ LangGraph Without API Calls ](https://www.reddit.com/r/learnmachinelearning/comments/1h1ld8j/langgraph_without_api_calls/) , 2024-11-30-0913
 ```
 Good evening,
 
@@ -576,7 +764,7 @@ ted!
 
      
  
-all -  [ LangGraph without API calls ](https://www.reddit.com/r/LangChain/comments/1h1laq9/langgraph_without_api_calls/) , 2024-11-29-0913
+all -  [ LangGraph without API calls ](https://www.reddit.com/r/LangChain/comments/1h1laq9/langgraph_without_api_calls/) , 2024-11-30-0913
 ```
 Good evening,
 
@@ -600,7 +788,7 @@ ated!
 
      
  
-all -  [ agent-to-agent resiliency, observability, etc - what would you like to see? ](https://www.reddit.com/r/LangChain/comments/1h1hk7i/agenttoagent_resiliency_observability_etc_what/) , 2024-11-29-0913
+all -  [ agent-to-agent resiliency, observability, etc - what would you like to see? ](https://www.reddit.com/r/LangChain/comments/1h1hk7i/agenttoagent_resiliency_observability_etc_what/) , 2024-11-30-0913
 ```
 Full disclosure, actively contributing to [https://github.com/katanemo/archgw](https://github.com/katanemo/archgw) \- an
  intelligent proxy for agents built on Envoy and redesigned for agents. Actively seeking feedback on what the community 
@@ -618,7 +806,7 @@ elow, or here: [https://github.com/katanemo/archgw/discussions/317](https://git
 
      
  
-all -  [ How to Make Parallel Requests for the Same Text Using Different Variables ](https://www.reddit.com/r/LangChain/comments/1h1h2vn/how_to_make_parallel_requests_for_the_same_text/) , 2024-11-29-0913
+all -  [ How to Make Parallel Requests for the Same Text Using Different Variables ](https://www.reddit.com/r/LangChain/comments/1h1h2vn/how_to_make_parallel_requests_for_the_same_text/) , 2024-11-30-0913
 ```
 I’m a beginner with LangChain, and I’m working on a project that requires making parallel requests to process the same i
 nput text across multiple categories. Here’s the challenge: each category needs a different set of examples to guide the
@@ -673,7 +861,7 @@ s']}
 
      
  
-all -  [ Multi-agent supervisor langgrpah giving error ](https://www.reddit.com/r/GoogleColab/comments/1h1ba4c/multiagent_supervisor_langgrpah_giving_error/) , 2024-11-29-0913
+all -  [ Multi-agent supervisor langgrpah giving error ](https://www.reddit.com/r/GoogleColab/comments/1h1ba4c/multiagent_supervisor_langgrpah_giving_error/) , 2024-11-30-0913
 ```
 I was making a supervised agent using langgraph with two agents (rag and sql) using the template from langchain below
 
@@ -702,7 +890,7 @@ rty name enclosed in double quotes: line 2 column 5 (char 6)
 
      
  
-all -  [ Noob on chunks/message threads/chains - best way forward when analyzing bank account statement trans ](https://www.reddit.com/r/LangChain/comments/1h1aiy7/noob_on_chunksmessage_threadschains_best_way/) , 2024-11-29-0913
+all -  [ Noob on chunks/message threads/chains - best way forward when analyzing bank account statement trans ](https://www.reddit.com/r/LangChain/comments/1h1aiy7/noob_on_chunksmessage_threadschains_best_way/) , 2024-11-30-0913
 ```
 ## CONTEXT:
 I'm a noob building an app that takes in bank account statement PDFs and extracts the peak balance from each
@@ -743,7 +931,7 @@ from-binary-pdf-streams at the bottom
 
      
  
-all -  [ Open Canvas provides chatgpt canvas style ui to use claude and llama3, stores style rules and user i ](https://www.reddit.com/r/LocalLLaMA/comments/1h1a1b9/open_canvas_provides_chatgpt_canvas_style_ui_to/) , 2024-11-29-0913
+all -  [ Open Canvas provides chatgpt canvas style ui to use claude and llama3, stores style rules and user i ](https://www.reddit.com/r/LocalLLaMA/comments/1h1a1b9/open_canvas_provides_chatgpt_canvas_style_ui_to/) , 2024-11-30-0913
 ```
 https://preview.redd.it/xg5bqv9odh3e1.png?width=3328&format=png&auto=webp&s=77d6b1e1926a06340e8a21194c73e6f29ac48331
 
@@ -755,7 +943,7 @@ ttps://github.com/langchain-ai/open-canvas](https://github.com/langchain-ai/open
 
      
  
-all -  [ Tips for improving the processing time of Langgraph Agents ](https://www.reddit.com/r/LangChain/comments/1h18b0d/tips_for_improving_the_processing_time_of/) , 2024-11-29-0913
+all -  [ Tips for improving the processing time of Langgraph Agents ](https://www.reddit.com/r/LangChain/comments/1h18b0d/tips_for_improving_the_processing_time_of/) , 2024-11-30-0913
 ```
 Hello!! I was tasked to improve the performance and speed of our multi agent llm using langgraph and langchain
 
@@ -766,7 +954,7 @@ Any tips
 
      
  
-all -  [ Text summarization using LangChain's Map-Reduce method. ](https://www.reddit.com/r/LangChain/comments/1h177es/text_summarization_using_langchains_mapreduce/) , 2024-11-29-0913
+all -  [ Text summarization using LangChain's Map-Reduce method. ](https://www.reddit.com/r/LangChain/comments/1h177es/text_summarization_using_langchains_mapreduce/) , 2024-11-30-0913
 ```
 Hello, 
 
@@ -780,7 +968,7 @@ Thanks in advance!
 
      
  
-all -  [ My business model for a small OSS. From OSS project to SaaS (funding)  ](https://www.reddit.com/r/SaaS/comments/1h14361/my_business_model_for_a_small_oss_from_oss/) , 2024-11-29-0913
+all -  [ My business model for a small OSS. From OSS project to SaaS (funding)  ](https://www.reddit.com/r/SaaS/comments/1h14361/my_business_model_for_a_small_oss_from_oss/) , 2024-11-30-0913
 ```
 This is a response/follow-up (??) to a great post done yesterday about [monetization of OSS  ](https://www.reddit.com/r/
 SaaS/comments/1h0ha1s/i_am_making_700_monthly_with_my_opensource/)
@@ -828,7 +1016,7 @@ you for your time.
 
      
  
-all -  [ Langgraph, user_input node with File Upload ](https://www.reddit.com/r/LangChain/comments/1h13hd3/langgraph_user_input_node_with_file_upload/) , 2024-11-29-0913
+all -  [ Langgraph, user_input node with File Upload ](https://www.reddit.com/r/LangChain/comments/1h13hd3/langgraph_user_input_node_with_file_upload/) , 2024-11-30-0913
 ```
 Hello!
 
@@ -854,7 +1042,7 @@ e out how to go about it.
 
      
  
-all -  [ KeyError: 'input' in create_retrieval_chain()? ](https://www.reddit.com/r/LangChain/comments/1h0ytlt/keyerror_input_in_create_retrieval_chain/) , 2024-11-29-0913
+all -  [ KeyError: 'input' in create_retrieval_chain()? ](https://www.reddit.com/r/LangChain/comments/1h0ytlt/keyerror_input_in_create_retrieval_chain/) , 2024-11-30-0913
 ```
 I new to generative ai and langchain, bellow i am sharing code and error. I am trying to create a small application. I a
 m using python==3.10.0
@@ -974,7 +1162,7 @@ ance, I hope to hear from you soon.
 
      
  
-all -  [ Is there a way to chainge chains setup without changing codes in python ](https://www.reddit.com/r/LangChain/comments/1h0v562/is_there_a_way_to_chainge_chains_setup_without/) , 2024-11-29-0913
+all -  [ Is there a way to chainge chains setup without changing codes in python ](https://www.reddit.com/r/LangChain/comments/1h0v562/is_there_a_way_to_chainge_chains_setup_without/) , 2024-11-30-0913
 ```
 Hello group,
 I am working on an interesting problem to setup chains by providing a yaml file as input ( it could be a di
@@ -1000,7 +1188,7 @@ Idea: i am not 100 percent sure
 
      
  
-all -  [ Prompt engineering for LLM applications ? ](https://www.reddit.com/r/LangChain/comments/1h0taz4/prompt_engineering_for_llm_applications/) , 2024-11-29-0913
+all -  [ Prompt engineering for LLM applications ? ](https://www.reddit.com/r/LangChain/comments/1h0taz4/prompt_engineering_for_llm_applications/) , 2024-11-30-0913
 ```
 how does prompt engineering help develop better LLM powered apps like I understand that if you are able to prompt the mo
 del a certain you will get a better response but the avg user is not going to be aware of those techniques and in which 
@@ -1010,7 +1198,7 @@ is prompt engineering just for the more advanced user and not like an aid toward
 
      
  
-all -  [ Optimize your LangChain program with Cognify! ](https://www.reddit.com/r/LangChain/comments/1h0jjbh/optimize_your_langchain_program_with_cognify/) , 2024-11-29-0913
+all -  [ Optimize your LangChain program with Cognify! ](https://www.reddit.com/r/LangChain/comments/1h0jjbh/optimize_your_langchain_program_with_cognify/) , 2024-11-30-0913
 ```
 Hi everyone! I'm Reyna, a PhD student working on systems for machine learning.
 
@@ -1037,7 +1225,7 @@ nd read more at https://mlsys.wuklab.io/posts/cognify/. Would love to hear your 
 
      
  
-all -  [ RAG - how to ensure a date fields in metadata is used to get latest data? ](https://www.reddit.com/r/LangChain/comments/1h0ih0x/rag_how_to_ensure_a_date_fields_in_metadata_is/) , 2024-11-29-0913
+all -  [ RAG - how to ensure a date fields in metadata is used to get latest data? ](https://www.reddit.com/r/LangChain/comments/1h0ih0x/rag_how_to_ensure_a_date_fields_in_metadata_is/) , 2024-11-30-0913
 ```
 I've created a RAG app that aims to be a personal assistant for everything related to my kids' school. I get a ton of em
 ails from school with updates, notices, invites, and a lot more. Some info is recurring, such as the weekly wraps that e
@@ -1152,618 +1340,7 @@ ag_chain.invoke('What did John Doe learn last week?')
 
      
  
-all -  [ Junior Engineer here. Looking forwared to getting my Resume review / roasted.  ](https://www.reddit.com/r/developersIndia/comments/1h0hs5x/junior_engineer_here_looking_forwared_to_getting/) , 2024-11-29-0913
-```
-I am working full time for close to an year and I love working with cloud/ devops  but somware i love writing backend co
-de. I am looking forwated to getting my resume  reviewed or roasted.  It is 2 pages but would it be better if i make it 
-1 ? also I feel like im not good enogh at writing project or experience descriptions. The resume is mostly centerd aroun
-d Software Dev type roles but apart from this i work as Technical Content Writer in some companies part time and been ju
-dge to few hackathons.  should i put that here ?   
-please suggest me to improve, Thank you   
-
-
-https://preview.redd.it
-/lkfy00999a3e1.png?width=2204&format=png&auto=webp&s=a2f654e7af7a466458fe45c157f06d992d8a9476
-
-
-```
----
-
-     
- 
-all -  [ Is it possible to add a tool call response to the state  ](https://www.reddit.com/r/LangGraph/comments/1h0gcxb/is_it_possible_to_add_a_tool_call_response_to_the/) , 2024-11-29-0913
-```
-    from
-     datetime 
-    import
-     datetime
-    from
-     typing 
-    import
-     Literal
-    
-    from
-     langch
-ain_core.language_models.chat_models 
-    import
-     BaseChatModel
-    from
-     langchain_core.messages 
-    import
-  
-   AIMessage, SystemMessage
-    from
-     langchain_core.runnables 
-    import
-     (
-        RunnableConfig,
-        Ru
-nnableLambda,
-        RunnableSerializable,
-    )
-    from
-     langgraph.checkpoint.memory 
-    import
-     MemorySaver
-
-    from
-     langgraph.graph 
-    import
-     END, MessagesState, StateGraph
-    from
-     langgraph.managed 
-    impo
-rt
-     IsLastStep
-    from
-     langgraph.prebuilt 
-    import
-     ToolNode
-    
-    from
-     agents.llama_guard 
-   
- import
-     LlamaGuard, LlamaGuardOutput, SafetyAssessment
-    from
-     agents.tools.user_data_validator 
-    import
- 
-    (
-        user_data_parser_instructions,
-        user_data_validator_tool,
-    )
-    from
-     core 
-    import
-    
- get_model, settings
-    
-    
-    class AgentState(MessagesState, 
-    total
-    =False):
-        
-    '''`total=False`
- is PEP589 specs.
-    
-        documentation: https://typing.readthedocs.io/en/latest/spec/typeddict.html#totality
-     
-   '''
-    
-        safety: LlamaGuardOutput
-        is_last_step: IsLastStep
-        is_data_collection_complete: bool
-
-    
-    
-    tools = [user_data_validator_tool]
-    
-    
-    current_date = datetime.now().strftime('%B %d, %Y')
-    i
-nstructions = f'''
-        You are a professional onboarding assistant collecting user information.
-        Today's date
- is {current_date}.
-     
-        Collect the following information:
-        {user_data_parser_instructions}
-     
-     
-   Guidelines:
-        1. Collect one field at a time in order: name, occupation, location
-        2. Format the respons
-e according to the specified schema
-        3. Ensure the data from user is proper before calling the validator
-        
-4. Use the {user_data_validator_tool.name} tool to validate the JSON data
-        5. Keep collecting information until a
-ll fields have valid values
-     
-        Remember: Always pass complete JSON with all fields, using null for pending in
-formation
-     
-        Current field to collect: {{current_field}}
-        '''
-    
-    
-    def wrap_model(
-    model
-
-    : BaseChatModel) -> RunnableSerializable[AgentState, AIMessage]:
-        
-    model
-     = 
-    model
-    .bind_tool
-s(tools)
-        preprocessor = RunnableLambda(
-            lambda 
-    state
-    : [SystemMessage(
-    content
-    =ins
-tructions)] + 
-    state
-    ['messages'],
-            
-    name
-    ='StateModifier',
-        )
-        
-    return
-   
-  preprocessor | 
-    model
-    
-    
-    def format_safety_message(
-    safety
-    : LlamaGuardOutput) -> AIMessage:
-  
-      content = f'This conversation was flagged for unsafe content: {', '.join(
-    safety
-    .unsafe_categories)}'
-   
-     
-    return
-     AIMessage(
-    content
-    =content)
-    
-    
-    async def acall_model(
-    state
-    : AgentSta
-te, 
-    config
-    : RunnableConfig) -> AgentState:
-        m = get_model(
-    config
-    ['configurable'].get('model',
- settings.DEFAULT_MODEL))
-        model_runnable = wrap_model(m)
-        response = 
-    await
-     model_runnable.ainvo
-ke(
-    state
-    , 
-    config
-    )
-    
-        
-    # Run llama guard check here to avoid returning the message if i
-t's unsafe
-        llama_guard = LlamaGuard()
-        safety_output = 
-    await
-     llama_guard.ainvoke('Agent', 
-    
-state
-    ['messages'] + [response])
-        
-    if
-     safety_output.safety_assessment == SafetyAssessment.UNSAFE:
-  
-          
-    return
-     {
-                'messages': [format_safety_message(safety_output)],
-                'safety
-': safety_output,
-            }
-    
-        
-    if
-     
-    state
-    ['is_last_step'] and response.tool_calls:
-     
-       
-    return
-     {
-                'messages': [
-                    AIMessage(
-                        
-    id
- 
-   =response.id,
-                        
-    content
-    ='Sorry, need more steps to process this request.',
-          
-          )
-                ]
-            }
-    
-        
-    # We return a list, because this will get added to the exi
-sting list
-        
-    return
-     {'messages': [response]}
-    
-    
-    async def llama_guard_input(
-    state
-    : 
-AgentState, 
-    config
-    : RunnableConfig) -> AgentState:
-        llama_guard = LlamaGuard()
-        safety_output = 
-
-    await
-     llama_guard.ainvoke('User', 
-    state
-    ['messages'])
-        
-    return
-     {'safety': safety_outp
-ut}
-    
-    
-    async def block_unsafe_content(
-    state
-    : AgentState, 
-    config
-    : RunnableConfig) -> Agent
-State:
-        safety: LlamaGuardOutput = 
-    state
-    ['safety']
-        
-    return
-     {'messages': [format_safety
-_message(safety)]}
-    
-    
-    # Define the graph
-    agent = StateGraph(AgentState)
-    agent.add_node('model', acall
-_model)
-    agent.add_node('tools', ToolNode(tools))
-    agent.add_node('guard_input', llama_guard_input)
-    agent.add_
-node('block_unsafe_content', block_unsafe_content)
-    agent.set_entry_point('guard_input')
-    
-    
-    # Check for un
-safe input and block further processing if found
-    def check_safety(
-    state
-    : AgentState) -> Literal['unsafe', 
-'safe']:
-        safety: LlamaGuardOutput = 
-    state
-    ['safety']
-        
-    match
-     safety.safety_assessment:
-
-            
-    case
-     SafetyAssessment.UNSAFE:
-                
-    return
-     'unsafe'
-            
-    case
-    
- _:
-                
-    return
-     'safe'
-    
-    
-    agent.add_conditional_edges(
-        'guard_input', check_safe
-ty, {'unsafe': 'block_unsafe_content', 'safe': 'model'}
-    )
-    
-    # Always END after blocking unsafe content
-    ag
-ent.add_edge('block_unsafe_content', END)
-    
-    # Always run 'model' after 'tools'
-    agent.add_edge('tools', 'model
-')
-    
-    
-    # After 'model', if there are tool calls, run 'tools'. Otherwise END.
-    def pending_tool_calls(
-    s
-tate
-    : AgentState) -> Literal['tools', 'done']:
-        last_message = 
-    state
-    ['messages'][-1]
-        
-    
-if
-     not isinstance(last_message, AIMessage):
-            
-    raise
-     TypeError(f'Expected AIMessage, got {type(l
-ast_message)}')
-        
-    if
-     last_message.tool_calls:
-            
-    return
-     'tools'
-        
-    return
- 
-    'done'
-    
-    
-    agent.add_conditional_edges(
-        'model', pending_tool_calls, {'tools': 'tools', 'done': EN
-D}
-    )
-    
-    onboarding_assistant = agent.compile(
-    checkpointer
-    =MemorySaver())
-    
-    
-    
-```
----
-
-     
- 
-all -  [ Seeking Advice on Parsing and Cleaning Legacy Documents ](https://www.reddit.com/r/LangChain/comments/1h0esud/seeking_advice_on_parsing_and_cleaning_legacy/) , 2024-11-29-0913
-```
-Hey everyone
-
-At work, I've been tasked with handling a collection of guides, documents, and tutorials spanning the past
- 20 years. Many of these are in pretty bad shape. While most of the files are in .pdf format, I also come across .pptx f
-iles. The most frustrating part is that these documents often contain numerous industry-specific abbreviations, tables, 
-and screenshots taken from other software GUI's.
-
-For now, I’m parsing these documents as they are and feeding them into
- an LLM after performing semantic similarity searches. However, when I review the retrieved content, I often find a lot 
-of nonsensical chunks. I suspect this is due to the “garbage in, garbage out.”
-
-Today, I was considering using multimoda
-l LLMs to parse these PDF screenshots and extract the content more accurately, potentially leveraging an advanced model 
-like 4o (or similar).
-
-Do you think this is a good approach? Are there better ways to handle this? I’d appreciate hearin
-g about your experiences or recommendations!
-
-Thanks in advance!
-```
----
-
-     
- 
-all -  [ Has anyone used Milvus or Qdrant in cloud? Whats been your experience? ](https://www.reddit.com/r/LangChain/comments/1h0cxtk/has_anyone_used_milvus_or_qdrant_in_cloud_whats/) , 2024-11-29-0913
-```
-I am planning to build something in prod, any feedback would be great. thanks
-```
----
-
-     
- 
-all -  [ Observability Tools AWS ](https://www.reddit.com/r/LangChain/comments/1h0bjl3/observability_tools_aws/) , 2024-11-29-0913
-```
-What observability tools are you using right now ? 
-
-I am using aws stack with bedrock and amazon knowledge base and I a
-m trying to find a good observability tools like langsmith,  but in AWS environment.  
-```
----
-
-     
- 
-all -  [ Suggestions to host a huggingface model on VLLM + triton server ](https://www.reddit.com/r/LangChain/comments/1h0bgsl/suggestions_to_host_a_huggingface_model_on_vllm/) , 2024-11-29-0913
-```
-I'm trying to host Qwen 2.5 model on vLLM and triton server. Can anyone suggest me best resource that can help to do it 
-correctly. I'm new to this. Any suggestions are also welcome. 
-
-thanks in advance!
-```
----
-
-     
- 
-all -  [ Writer helper tool I've started working on - worth making into a thing or pretty useless? ](https://www.reddit.com/r/LangChain/comments/1h0b10x/writer_helper_tool_ive_started_working_on_worth/) , 2024-11-29-0913
-```
-https://reddit.com/link/1h0b10x/video/pxvzc467s83e1/player
-
-
-```
----
-
-     
- 
-all -  [ Calling Scrapy multiple times (getting ReactorNotRestartable ) ](https://www.reddit.com/r/scrapy/comments/1h0avo7/calling_scrapy_multiple_times_getting/) , 2024-11-29-0913
-```
-Hi,I know, many already asked and you provided some workarounds, but my problem remained unresolved.  
-  
-Here are the d
-etails:  
-Flow/Use Case: I am building a bot. The user can ask the bot to crawl a web page and ask questions about it. T
-his process can happen every now and then, I don't know what are the web pages in advance and it all happens while the b
-ot app is running,  
-time  
-Problem: After one successful run, I am getting the famous: twisted.internet.error.ReactorNo
-tRestartable error message.I tried running Scrapy in a different process, however, since the data is very big, I need to
- create a shared memory to transfer. This is still problematic because:  
-1. Opening a process takes time  
-2. I do not 
-know the memory size in advance, and I create a certain dictionary with some metadata. so passing the memory like this i
-s complex (actually, I haven't manage to make it work yet)  
-  
-Do you have another solution? or an example of passing t
-he massive amount of data between the processes?   
-  
-Here is a code snippet:  
-(I call web\_crawler from another class
-, every time with a different requested web address):
-
-    import scrapy
-    from scrapy.crawler import CrawlerProcess
- 
-   from urllib.parse import urlparse
-    from llama_index.readers.web import SimpleWebPageReader  # Updated import
-    #
-from langchain_community.document_loaders import BSHTMLLoader
-    from bs4 import BeautifulSoup  # For parsing HTML cont
-ent into plain text
-    
-    g_start_url = ''
-    g_url_data = []
-    g_with_sub_links = False
-    g_max_pages = 1500
-  
-  g_process = None
-    
-    
-    class ExtractUrls(scrapy.Spider): 
-        
-        name = 'extract'
-    
-        # req
-uest function 
-        def start_requests(self):
-            global g_start_url
-    
-            urls = [ g_start_url, ]
- 
-            self.allowed_domain = urlparse(urls[0]).netloc #recieve only one atm
-                    
-            for 
-url in urls: 
-                yield scrapy.Request(url = url, callback = self.parse) 
-    
-        # Parse function 
-   
-     def parse(self, response): 
-            global g_with_sub_links
-            global g_max_pages
-            global g
-_url_data
-            # Get anchor tags 
-            links = response.css('a::attr(href)').extract()  
-            
-    
-        for idx, link in enumerate(links):
-                if len(g_url_data) > g_max_pages:
-                    print('
-Genie web crawler: Max pages reached')
-                    break
-                full_link = response.urljoin(link)
-    
-            if not urlparse(full_link).netloc == self.allowed_domain:
-                    continue
-                if id
-x == 0:
-                    article_content = response.body.decode('utf-8')
-                    soup = BeautifulSoup(art
-icle_content, 'html.parser')
-                    data = {}
-                    data['title'] = response.css('title::text
-').extract_first()
-                    data['page'] = link
-                    data['domain'] = urlparse(full_link).netl
-oc
-                    data['full_url'] = full_link
-                    data['text'] = soup.get_text(separator='\n').str
-ip() # Get plain text from HTML
-                    g_url_data.append(data)
-                    continue
-               
- if g_with_sub_links == True:
-                    yield scrapy.Request(url = full_link, callback = self.parse)
-        
-
-    # Run spider and retrieve URLs
-    def run_spider():
-        global g_process
-        # Schedule the spider for craw
-ling
-        g_process.crawl(ExtractUrls)
-        g_process.start()  # Blocks here until the crawl is finished
-        g
-_process.stop()
-    
-    
-    def web_crawler(start_url, with_sub_links=False, max_pages=1500):
-        '''Web page text
- reader.
-            This function gets a url and returns an array of the the wed page information and text, without the
- html tags.
-    
-        Args:
-            start_url (str): The URL page to retrive the information.
-            with_su
-b_links (bool): Default is False. If set to true- the crawler will downlowd all links in the web page recursively. 
-    
-        max_pages (int): Default is 1500. If  with_sub_links is set to True, recursive download may continue forever... 
-this limits the number of pages to download
-    
-        Returns:
-            all url data, which is a list of dictionar
-y: 'title, page, domain, full_url, text.
-        '''
-        global g_start_url
-        global g_with_sub_links
-        
-global g_max_pages
-        global g_url_data
-        global g_process
-    
-        g_start_url=start_url
-        g_max_p
-ages = max_pages
-        g_with_sub_links = with_sub_links
-        g_url_data.clear
-        g_process = CrawlerProcess(s
-ettings={
-            'FEEDS': {'articles.json': {'format': 'json'}},
-        })
-        run_spider()
-        return g_u
-rl_data
-        
-        
-    
-
-  
-
-```
----
-
-     
- 
-MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-29-0913
+MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-11-30-0913
 ```
 I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
 I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
