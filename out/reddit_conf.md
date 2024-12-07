@@ -1,5 +1,24 @@
  
-all -  [ What are the equivalents to NeurIPS, and ICML for CV? ](https://www.reddit.com/r/computervision/comments/1h7hox3/what_are_the_equivalents_to_neurips_and_icml_for/) , 2024-12-06-0914
+all -  [ NeurIPS 2024: A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis ](https://www.reddit.com/r/computervision/comments/1h82qz6/neurips_2024_a_textbook_remedy_for_domain_shifts/) , 2024-12-07-0913
+```
+Check out [Harpreet Sahota’s](https://www.linkedin.com/in/harpreetsahota204/) conversation with [Yue Yang](https://www.l
+inkedin.com/in/yue-yang-4b2075174) of the University of Pennsylvania and AI2 about his NeurIPS 2024 paper, “A Textbook R
+emedy for Domain Shifts: Knowledge Priors for Medical Image Analysis.”
+
+* [Complete paper presentation and Q&A on YouTub
+e](https://youtu.be/VjJWOQHgsmk)
+* [Research paper on arXiv](https://arxiv.org/abs/2405.14839)
+
+Video preview below:
+
+ht
+tps://reddit.com/link/1h82qz6/video/lintlyfuo85e1/player
+```
+---
+
+     
+ 
+all -  [ What are the equivalents to NeurIPS, and ICML for CV? ](https://www.reddit.com/r/computervision/comments/1h7hox3/what_are_the_equivalents_to_neurips_and_icml_for/) , 2024-12-07-0913
 ```
 I know about CVPR, but are there more?
 ```
@@ -7,7 +26,7 @@ I know about CVPR, but are there more?
 
      
  
-all -  [ NeurlPS 2024: NaturalBench - Evaluating Vision-Language Models on Natural Adversarial Samples ](https://www.reddit.com/r/computervision/comments/1h7f4k2/neurlps_2024_naturalbench_evaluating/) , 2024-12-06-0914
+all -  [ NeurlPS 2024: NaturalBench - Evaluating Vision-Language Models on Natural Adversarial Samples ](https://www.reddit.com/r/computervision/comments/1h7f4k2/neurlps_2024_naturalbench_evaluating/) , 2024-12-07-0913
 ```
 Check out [Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/)’s conversation with [Zhiqiu Lin](https://www
 .linkedin.com/in/zhiqiu-lin-b49ba7126/) of Carnegie Mellon University about his NeurIPS 2024 paper, “NaturalBench: Evalu
@@ -29,7 +48,7 @@ m/link/1h7f4k2/video/6mw2ahngi25e1/player
 
      
  
-all -  [ Former Intern Sabotages ByteDance’s AI Training, Faces ¥8 Million Lawsuit, Yet Wins NeurIPS 2024 Bes ](https://www.reddit.com/r/LocalLLaMA/comments/1h6i1m9/former_intern_sabotages_bytedances_ai_training/) , 2024-12-06-0914
+all -  [ Former Intern Sabotages ByteDance’s AI Training, Faces ¥8 Million Lawsuit, Yet Wins NeurIPS 2024 Bes ](https://www.reddit.com/r/LocalLLaMA/comments/1h6i1m9/former_intern_sabotages_bytedances_ai_training/) , 2024-12-07-0913
 ```
 In October 2024, media outlets reported that 'ByteDance's large-scale model training was attacked by an intern,' and onl
 ine sources claimed that 'over 8,000 GPUs were involved, resulting in losses exceeding tens of millions of dollars.' Byt
@@ -59,7 +78,7 @@ p in ByteDance's Commercialization Technology Department.
 
      
  
-all -  [ NeurIPS 2024 - A Label is Worth a Thousand Images in Dataset Distillation ](https://www.reddit.com/r/computervision/comments/1h6hx3p/neurips_2024_a_label_is_worth_a_thousand_images/) , 2024-12-06-0914
+all -  [ NeurIPS 2024 - A Label is Worth a Thousand Images in Dataset Distillation ](https://www.reddit.com/r/computervision/comments/1h6hx3p/neurips_2024_a_label_is_worth_a_thousand_images/) , 2024-12-07-0913
 ```
 https://reddit.com/link/1h6hx3p/video/k7wh8qlfiu4e1/player
 
@@ -78,209 +97,7 @@ https://i.redd.it/mg9isc68iu4e1.gif
 
      
  
-all -  [ Hello, what is the rarest research offered by universities among these? ](https://www.reddit.com/r/research/comments/1h5ex8p/hello_what_is_the_rarest_research_offered_by/) , 2024-12-06-0914
-```
-
-Hello, can anyone tell what is the rarest research subjects among these?
-
-I'm an undergrad student and i want to do res
-earch that only handful of universities offer. can anyone tell what are the rarest researches among these
-
-* Title: AI a
-nd Social Technologies to Aid Educational Migrants from the Global South Description: In this project, one student will 
-work directly on a PhD student's project to design an AI and/or social technology to address the security and privacy ne
-eds among educational migrants from the Global South. The student will become certified in Human Subjects Research and f
-amiliar with the existing relevant human-AI interaction and usability research for the project. They will be expected to
- support the PhD student in literature review, design ideation, and/or prototyping. They will assist the PhD student in 
-preparing publications.
-* Title: Improving Users’ Experiences with Security and Privacy Tasks on Mobile Devices Descript
-ion:Our Security and Privacy Experiences (SPEX) group wants to assist mobile phone users with dealing with their securit
-y and privacy concerns directly on their device. The selected student will work with a PhD student on one or both of the
- following projects: (a) mitigating people’s vulnerability to SMS text scams and misinformation, aka “smishing”; and (b)
- providing AI-assisted question-answering and community for mobile users dealing with security and privacy concerns. The
- student will become certified in Human Subjects Research and familiar with the existing relevant cybersecurity and usab
-ility research for the project. They will help with tasks such as reviewing published literature on the subject, brainst
-orming ideas, recruiting and scheduling participants for an interview study, cleaning up transcripts, and analyzing coll
-ected data. They also may be asked to help refine a prototype mobile-friendly web app.
-* Title: Efficient State Space Mo
-dels through the Convolutional Lens Description: Recently, structured state-space models (SSMs) have emerged as a strong
- contender for sequence modeling in deep learning, mitigating semantic challenges of Transformer models induced by their
- limited window lengths. Recent such models have dominated certain benchmarks such as the Long Range Arena and have been
- especially successful in domains involving continuous signal data such as audio and vision, while also beating Transfor
-mers due to the linear or near-linear scaling of their computational complexity in sequence length. While the scaling of
- state-of-the-art SSMs such as Mamba and Mamba-2 is near-linear in the sequence length, it is quadratic in the hidden st
-ate dimension, which is detriment towards the construction of scalable, expressive SSMs capturing complex state informat
-ion. In this project, we revisit a convolutional perspective on SSMs that additionally the leverage selection mechanism 
-introduced by Mamba, and develop a variant of Mamba-2 type of model via a block-Toeplitz matrix perspective, which allow
-s for a near-linear scaling in the hidden state dimension both for training and inference. Tasks in this project include
- the implementation and modification of SSM code bases, the training of SSM models, and the structuring and presentation
-s of resulting computational experiments.
-* Title: Buiidling Visualizations of Real World Datasets using D3JS Descriptio
-n: The project will provide experience and benefits for building information visualizations of real world datasets using
- the D3JS Visualization toolkit, a Javascript based toolkit. The goal is to build complete applications that can demonst
-rate the significance and relevance of visualizations for datasets that are difficult to understand or very little is kn
-own about it. Possible applications would involve outputs of machine learning models, medical data statistics. Visualiza
-tions related to an existing educational research project would also be considered as part of the project. Applicants sh
-ould be strong programmers in high level languages so that they can work independently to complete assigned tasks. Exper
-ience with visualization tools and/or Web technologies is a plus.
-* Title: Robotic Coverage and Informative Path Plannin
-g Description: In this project, the undergraduate researcher will learn about state-of-the-art algorithms for robot cove
-rage and informative path planning. The goal is to develop and implement new online approaches that incorporate sensor d
-ata. Applications include inspection of critical infrastructure (e.g., power lines, roads) and search and rescue (e.g., 
-after disasters). Students will work on cutting edge research in robotics and learn about optimization and machine learn
-ing algorithms and ROS (robot operating system). The research will be conducted in the Robotics Laboratory in the Comput
-er Science Department. In addition to validation of the algorithms in simulation, there will be opportunities to impleme
-nt and demonstrate the algorithms on quadcopter drones and wheeled mobile robots.
-* Title: Parameter-Efficient Training 
-through Efficient Joint Sparse and Low-Rank Adaptation Description: With the advent of deep learning and large language 
-models, which have delivered impressive results for a large number of machine learning tasks, models with hundred of mil
-lions, billions or more parameters have been become main stream. While the hardware and energy requirements of a full-tr
-aining process prevent state-of-the-art deep learning models to be trained on consumer hardware, it is possible to “opti
-mize” a pre-trained model to excel for a particular task on consumer hardware via Parameter-Efficient Fine-Tuning (PEFT)
-. Among the most popular techniques for PEFT, low-rank adaptation and sparse adaptation has merged in the last two years
-. The recent paper “RoSA: Accurate Parameter-Efficient Fine-Tuning via Robust Adaptation” (https://arxiv.org/pdf/2401.04
-679) has shown that the performance of methods that jointly optimize sparse and low-rank adapters outperform either of t
-he two pure methods. In this projcet, we build on recent advances on low-rank fine-tuning and training within our resear
-ch group based on quadratic differentiable rank regularizers and plan to develop algorithms for PEFT that obtain improve
-d performance over RoSA and other PEFT methods given the same parameter budget.
-* Title: A Customizable Pathfinding Modu
-le for Lightning Network Clients Description: Since its conception in the wake of the global financial crisis in late 20
-08 by its pseudonymous creator, the Bitcoin cryptocurrency network has gained a considerable amount of traction as the b
-ase layer of an alternative financial system with around $20\\%$ of American adults as owners. The Lightning network is 
-a scaling solution in which payment channels backed by blockchain transactions allow to overcome any blockchain's inhere
-nt throughput limitations and furthermore, instantaneous payments. In order to send a payment within the network, a part
-icipant picks one or more suitable payment paths that satisfy their needs. In this project, we design a software package
- that implements different pathfinding algorithms and underlying modelings to provide customized, user-friendly solution
-s for pathfinding problems faced by Lightning node operators. The software is meant to interface with as many different 
-popular Lightning node implementations such as Rust-Lightning
-* Title: Novel Solvers for Sparse Generalized Linear Model
-s Description: High-dimensional, sparse generalized linear models are widely used in statistics and machine learning. Ho
-wever, optimizing and fitting these models to data poses significant computational and algorithmic challenges for respec
-tive optimization algorithms. The framework of iteratively reweighted least squares (IRLS) \[Daubechies et al. 2010, htt
-ps://doi.org/10.1002/cpa.20303; Peng et al. 2022 https://proceedings.neurips.cc/paper\_files/paper/2022/file/ba3354bcfea
-e4f166a8bfe75443ac8f7 Paper-Conference.pdf\] has been shown to be highly effective and efficient for several sparse regr
-ession models, but has been under-explored in the context of sparse \_logistic\_ regression, which is the backbone of ma
-ny classification models in machine learning. In this project, we will develop a variant of IRLS that is specifically ta
-ilored for sparse logistic regression and benchmark it against other state-of-the-art methods within the 'benchopt' benc
-hmarking framework \[Moreau et al. 2021, https://arxiv.org/pdf/2206.13424\] and evaluate it on relevant datasets. If suc
-cessful, this project will lead to a journal or conference publication.
-* Title: AI Models for Nonlinear Rewriting of Na
-rratives Description: Stories are often told in a non-linear fashion, in order to increase suspense, emotional involveme
-nt, engagement, and overall enjoyment. This is done across the various mediums used to tell the story, ranging from text
- (novels) to audio (radio, podcasts), to audio-visual (movies and TV series). However, the deadline-driven environment w
-here creators need to generate new content at a very high pace leads to a non-linear storytelling that feels rushed, tha
-t detracts from understanding and enjoying the story as a whole, and that does not optimize the true potential of the no
-n-linear technique. Additionally, readers and audiences enjoy different levels of non-linearity. In this context, we exp
-ect that a tool that can optimize non-linear story telling would have significant impact. However, for lack of access to
- the original linear version of a story, a pre requisite task is that of taking as input a story and creating a linear v
-ersion of it. In this project, we propose to (1) develop LLM-based narrative linearization methods that take as input th
-e text of a story and produce as output a linearized version of it. (2) models for nonlinear rewriting of narratives sta
-rting from their linear versions.
-```
----
-
-     
- 
-all -  [ Hello, can anyone tell what is the rarest research subjects among these? ](https://www.reddit.com/r/csMajors/comments/1h4qz8i/hello_can_anyone_tell_what_is_the_rarest_research/) , 2024-12-06-0914
-```
-I'm an undergrad student and i want to do research that only handful of universities offer. can anyone tell what are the
- rarest researches among these
-
-* Title: AI and Social Technologies to Aid Educational Migrants from the Global South De
-scription: In this project, one student will work directly on a PhD student's project to design an AI and/or social tech
-nology to address the security and privacy needs among educational migrants from the Global South. The student will beco
-me certified in Human Subjects Research and familiar with the existing relevant human-AI interaction and usability resea
-rch for the project. They will be expected to support the PhD student in literature review, design ideation, and/or prot
-otyping. They will assist the PhD student in preparing publications.
-* Title: Improving Users’ Experiences with Security
- and Privacy Tasks on Mobile Devices Description:Our Security and Privacy Experiences (SPEX) group wants to assist mobil
-e phone users with dealing with their security and privacy concerns directly on their device. The selected student will 
-work with a PhD student on one or both of the following projects: (a) mitigating people’s vulnerability to SMS text scam
-s and misinformation, aka “smishing”; and (b) providing AI-assisted question-answering and community for mobile users de
-aling with security and privacy concerns. The student will become certified in Human Subjects Research and familiar with
- the existing relevant cybersecurity and usability research for the project. They will help with tasks such as reviewing
- published literature on the subject, brainstorming ideas, recruiting and scheduling participants for an interview study
-, cleaning up transcripts, and analyzing collected data. They also may be asked to help refine a prototype mobile-friend
-ly web app.
-* Title: Efficient State Space Models through the Convolutional Lens Description: Recently, structured state
--space models (SSMs) have emerged as a strong contender for sequence modeling in deep learning, mitigating semantic chal
-lenges of Transformer models induced by their limited window lengths. Recent such models have dominated certain benchmar
-ks such as the Long Range Arena and have been especially successful in domains involving continuous signal data such as 
-audio and vision, while also beating Transformers due to the linear or near-linear scaling of their computational comple
-xity in sequence length. While the scaling of state-of-the-art SSMs such as Mamba and Mamba-2 is near-linear in the sequ
-ence length, it is quadratic in the hidden state dimension, which is detriment towards the construction of scalable, exp
-ressive SSMs capturing complex state information. In this project, we revisit a convolutional perspective on SSMs that a
-dditionally the leverage selection mechanism introduced by Mamba, and develop a variant of Mamba-2 type of model via a b
-lock-Toeplitz matrix perspective, which allows for a near-linear scaling in the hidden state dimension both for training
- and inference. Tasks in this project include the implementation and modification of SSM code bases, the training of SSM
- models, and the structuring and presentations of resulting computational experiments.
-* Title: Buiidling Visualizations
- of Real World Datasets using D3JS Description: The project will provide experience and benefits for building informatio
-n visualizations of real world datasets using the D3JS Visualization toolkit, a Javascript based toolkit. The goal is to
- build complete applications that can demonstrate the significance and relevance of visualizations for datasets that are
- difficult to understand or very little is known about it. Possible applications would involve outputs of machine learni
-ng models, medical data statistics. Visualizations related to an existing educational research project would also be con
-sidered as part of the project. Applicants should be strong programmers in high level languages so that they can work in
-dependently to complete assigned tasks. Experience with visualization tools and/or Web technologies is a plus.
-* Title: 
-Robotic Coverage and Informative Path Planning Description: In this project, the undergraduate researcher will learn abo
-ut state-of-the-art algorithms for robot coverage and informative path planning. The goal is to develop and implement ne
-w online approaches that incorporate sensor data. Applications include inspection of critical infrastructure (e.g., powe
-r lines, roads) and search and rescue (e.g., after disasters). Students will work on cutting edge research in robotics a
-nd learn about optimization and machine learning algorithms and ROS (robot operating system). The research will be condu
-cted in the Robotics Laboratory in the Computer Science Department. In addition to validation of the algorithms in simul
-ation, there will be opportunities to implement and demonstrate the algorithms on quadcopter drones and wheeled mobile r
-obots.
-* Title: Parameter-Efficient Training through Efficient Joint Sparse and Low-Rank Adaptation Description: With th
-e advent of deep learning and large language models, which have delivered impressive results for a large number of machi
-ne learning tasks, models with hundred of millions, billions or more parameters have been become main stream. While the 
-hardware and energy requirements of a full-training process prevent state-of-the-art deep learning models to be trained 
-on consumer hardware, it is possible to “optimize” a pre-trained model to excel for a particular task on consumer hardwa
-re via Parameter-Efficient Fine-Tuning (PEFT). Among the most popular techniques for PEFT, low-rank adaptation and spars
-e adaptation has merged in the last two years. The recent paper “RoSA: Accurate Parameter-Efficient Fine-Tuning via Robu
-st Adaptation” (https://arxiv.org/pdf/2401.04679) has shown that the performance of methods that jointly optimize sparse
- and low-rank adapters outperform either of the two pure methods. In this projcet, we build on recent advances on low-ra
-nk fine-tuning and training within our research group based on quadratic differentiable rank regularizers and plan to de
-velop algorithms for PEFT that obtain improved performance over RoSA and other PEFT methods given the same parameter bud
-get.
-* Title: A Customizable Pathfinding Module for Lightning Network Clients Description: Since its conception in the w
-ake of the global financial crisis in late 2008 by its pseudonymous creator, the Bitcoin cryptocurrency network has gain
-ed a considerable amount of traction as the base layer of an alternative financial system with around $20\\%$ of America
-n adults as owners. The Lightning network is a scaling solution in which payment channels backed by blockchain transacti
-ons allow to overcome any blockchain's inherent throughput limitations and furthermore, instantaneous payments. In order
- to send a payment within the network, a participant picks one or more suitable payment paths that satisfy their needs. 
-In this project, we design a software package that implements different pathfinding algorithms and underlying modelings 
-to provide customized, user-friendly solutions for pathfinding problems faced by Lightning node operators. The software 
-is meant to interface with as many different popular Lightning node implementations such as Rust-Lightning
-* Title: Nove
-l Solvers for Sparse Generalized Linear Models Description: High-dimensional, sparse generalized linear models are widel
-y used in statistics and machine learning. However, optimizing and fitting these models to data poses significant comput
-ational and algorithmic challenges for respective optimization algorithms. The framework of iteratively reweighted least
- squares (IRLS) \[Daubechies et al. 2010, https://doi.org/10.1002/cpa.20303; Peng et al. 2022 https://proceedings.neurip
-s.cc/paper\_files/paper/2022/file/ba3354bcfeae4f166a8bfe75443ac8f7 Paper-Conference.pdf\] has been shown to be highly ef
-fective and efficient for several sparse regression models, but has been under-explored in the context of sparse \_logis
-tic\_ regression, which is the backbone of many classification models in machine learning. In this project, we will deve
-lop a variant of IRLS that is specifically tailored for sparse logistic regression and benchmark it against other state-
-of-the-art methods within the 'benchopt' benchmarking framework \[Moreau et al. 2021, https://arxiv.org/pdf/2206.13424\]
- and evaluate it on relevant datasets. If successful, this project will lead to a journal or conference publication.
-* T
-itle: AI Models for Nonlinear Rewriting of Narratives Description: Stories are often told in a non-linear fashion, in or
-der to increase suspense, emotional involvement, engagement, and overall enjoyment. This is done across the various medi
-ums used to tell the story, ranging from text (novels) to audio (radio, podcasts), to audio-visual (movies and TV series
-). However, the deadline-driven environment where creators need to generate new content at a very high pace leads to a n
-on-linear storytelling that feels rushed, that detracts from understanding and enjoying the story as a whole, and that d
-oes not optimize the true potential of the non-linear technique. Additionally, readers and audiences enjoy different lev
-els of non-linearity. In this context, we expect that a tool that can optimize non-linear story telling would have signi
-ficant impact. However, for lack of access to the original linear version of a story, a pre requisite task is that of ta
-king as input a story and creating a linear version of it. In this project, we propose to (1) develop LLM-based narrativ
-e linearization methods that take as input the text of a story and produce as output a linearized version of it. (2) mod
-els for nonlinear rewriting of narratives starting from their linear versions.
-```
----
-
-     
- 
-all -  [ AIML Conference coming up in 2025 ](https://www.reddit.com/r/WomenInAIML/comments/1h3xc5q/aiml_conference_coming_up_in_2025/) , 2024-12-06-0914
+all -  [ AIML Conference coming up in 2025 ](https://www.reddit.com/r/WomenInAIML/comments/1h3xc5q/aiml_conference_coming_up_in_2025/) , 2024-12-07-0913
 ```
 # AI, ML, and Data Science Conferences for 2025:
 
@@ -349,7 +166,7 @@ ancisco, CA
 
      
  
-all -  [ I have reasons to believe that Recursion (RXRX) will became quite popular in the next month. ](https://www.reddit.com/r/wallstreetbets/comments/1h1volv/i_have_reasons_to_believe_that_recursion_rxrx/) , 2024-12-06-0914
+all -  [ I have reasons to believe that Recursion (RXRX) will became quite popular in the next month. ](https://www.reddit.com/r/wallstreetbets/comments/1h1volv/i_have_reasons_to_believe_that_recursion_rxrx/) , 2024-12-07-0913
 ```
 I believe that in the future, drugs will be highly customisable based on the patience’s health history. Based on your ph
 ysiology, syndromes, and genetics, you may receive a drug that is well-suited for you and only you. 
@@ -396,7 +213,7 @@ Of course, no financial advice. I’m long 800 shares and loading as much as I p
 
      
  
-all -  [ can I attend neurips as an enthusiast?  ](https://www.reddit.com/r/MLQuestions/comments/1h1kw31/can_i_attend_neurips_as_an_enthusiast/) , 2024-12-06-0914
+all -  [ can I attend neurips as an enthusiast?  ](https://www.reddit.com/r/MLQuestions/comments/1h1kw31/can_i_attend_neurips_as_an_enthusiast/) , 2024-12-07-0913
 ```
 neurips is coming to my hometown, can I just go? I want to hunt down all the recruiters lol 
 ```
@@ -404,7 +221,7 @@ neurips is coming to my hometown, can I just go? I want to hunt down all the rec
 
      
  
-all -  [ [0 YoE, Unemployed, Machine Learning Research Intern, Serbia] ](https://www.reddit.com/r/resumes/comments/1h0jscl/0_yoe_unemployed_machine_learning_research_intern/) , 2024-12-06-0914
+all -  [ [0 YoE, Unemployed, Machine Learning Research Intern, Serbia] ](https://www.reddit.com/r/resumes/comments/1h0jscl/0_yoe_unemployed_machine_learning_research_intern/) , 2024-12-07-0913
 ```
 &#x200B;
 
@@ -434,7 +251,7 @@ vance - every advice is helpful and appreciated!
 
      
  
-all -  [ MS Thesis project at IBM Research-Zurich ](https://www.reddit.com/r/ethz/comments/1gzk140/ms_thesis_project_at_ibm_researchzurich/) , 2024-12-06-0914
+all -  [ MS Thesis project at IBM Research-Zurich ](https://www.reddit.com/r/ethz/comments/1gzk140/ms_thesis_project_at_ibm_researchzurich/) , 2024-12-07-0913
 ```
 Dear MS Students,
 
@@ -488,7 +305,7 @@ ntations’, *International Conference on Neural-Symbolic Learning and Reasoning
 
      
  
-all -  [ Should i even try for my chances or is it just a waste of time applying with poor grades . Can my SO ](https://www.reddit.com/r/Indians_StudyAbroad/comments/1gzec5d/should_i_even_try_for_my_chances_or_is_it_just_a/) , 2024-12-06-0914
+all -  [ Should i even try for my chances or is it just a waste of time applying with poor grades . Can my SO ](https://www.reddit.com/r/Indians_StudyAbroad/comments/1gzec5d/should_i_even_try_for_my_chances_or_is_it_just_a/) , 2024-12-07-0913
 ```
 I have completed my undergrad from Osmania University (VCE) in electronics and communications ( a tier 2 ish college in 
 India )
@@ -534,7 +351,7 @@ out them , I really need serious advice if i have to give up hope and change my 
 
      
  
-all -  [ Should i even try ? ](https://www.reddit.com/r/gradadmissions/comments/1gze93d/should_i_even_try/) , 2024-12-06-0914
+all -  [ Should i even try ? ](https://www.reddit.com/r/gradadmissions/comments/1gze93d/should_i_even_try/) , 2024-12-07-0913
 ```
 I have completed my undergrad from Osmania University (VCE) in electronics and communications ( a tier 2 ish college in 
 India ) 
@@ -584,7 +401,7 @@ ave one year of time to apply .
 
      
  
-all -  [ Should I even apply for a PhD? ](https://www.reddit.com/r/PhD/comments/1gy1xp7/should_i_even_apply_for_a_phd/) , 2024-12-06-0914
+all -  [ Should I even apply for a PhD? ](https://www.reddit.com/r/PhD/comments/1gy1xp7/should_i_even_apply_for_a_phd/) , 2024-12-07-0913
 ```
 Hi all
 
@@ -615,7 +432,7 @@ Thank you everyone. I got overwhelmed by everything and
 
      
  
-all -  [ Insight!  ](https://i.redd.it/3ub4hezgxl2e1.jpeg) , 2024-12-06-0914
+all -  [ Insight!  ](https://i.redd.it/3ub4hezgxl2e1.jpeg) , 2024-12-07-0913
 ```
 
 ```
@@ -623,7 +440,7 @@ all -  [ Insight!  ](https://i.redd.it/3ub4hezgxl2e1.jpeg) , 2024-12-06-0914
 
      
  
-all -  [ [D] Accepted NeurIPS 2024 paper claimed to be solving a novel problem as first work, but ignores 5 p ](https://www.reddit.com/r/MachineLearning/comments/1gxooqv/d_accepted_neurips_2024_paper_claimed_to_be/) , 2024-12-06-0914
+all -  [ [D] Accepted NeurIPS 2024 paper claimed to be solving a novel problem as first work, but ignores 5 p ](https://www.reddit.com/r/MachineLearning/comments/1gxooqv/d_accepted_neurips_2024_paper_claimed_to_be/) , 2024-12-07-0913
 ```
 At NeurIPS 2024 I found a paper that got accepted that positions its main contribution in the form of “Existing algorith
 ms for X ignore Y. We adapt algorithm Z for X to account for Y”.
@@ -679,7 +496,7 @@ cly shame the authors, as they have engaged with my e-mails and I am convinced t
 
      
  
-all -  [ Does anyone function more as a 'applied scientist' but have no research background? ](https://www.reddit.com/r/datascience/comments/1gxhjfr/does_anyone_function_more_as_a_applied_scientist/) , 2024-12-06-0914
+all -  [ Does anyone function more as a 'applied scientist' but have no research background? ](https://www.reddit.com/r/datascience/comments/1gxhjfr/does_anyone_function_more_as_a_applied_scientist/) , 2024-12-07-0913
 ```
 **TLDR: DS profile is shifting to be more ML heavy, but lack research experience to compete with ML specialists.**
 
@@ -705,7 +522,7 @@ Aside from startups, there doesn't seem to be much out there. Anyone else?
 
      
  
-all -  [ All the test environments used to benchmark BALROG. ](https://www.reddit.com/r/agi/comments/1gwqhry/all_the_test_environments_used_to_benchmark_balrog/) , 2024-12-06-0914
+all -  [ All the test environments used to benchmark BALROG. ](https://www.reddit.com/r/agi/comments/1gwqhry/all_the_test_environments_used_to_benchmark_balrog/) , 2024-12-07-0913
 ```
 # BabyAI
 
@@ -798,7 +615,7 @@ https://www
 
      
  
-all -  [ Google Scholar Completely Disappeared Our Paper With 60+ Citations ](https://www.reddit.com/r/academia/comments/1gwjzrk/google_scholar_completely_disappeared_our_paper/) , 2024-12-06-0914
+all -  [ Google Scholar Completely Disappeared Our Paper With 60+ Citations ](https://www.reddit.com/r/academia/comments/1gwjzrk/google_scholar_completely_disappeared_our_paper/) , 2024-12-07-0913
 ```
 Our paper 'Real-Time Reinforcement Learning' published on [Arxiv](https://arxiv.org/abs/1911.04448) and [Neurips](https:
 //papers.nips.cc/paper_files/paper/2019/hash/54e36c5ff5f6a1802925ca009f3ebb68-Abstract.html) was [correctly listed on Go
@@ -824,7 +641,7 @@ Does anyone have
 
      
  
-all -  [ [D] PhD in RL/ML Theory or LLM ](https://www.reddit.com/r/MachineLearning/comments/1gvx8vx/d_phd_in_rlml_theory_or_llm/) , 2024-12-06-0914
+all -  [ [D] PhD in RL/ML Theory or LLM ](https://www.reddit.com/r/MachineLearning/comments/1gvx8vx/d_phd_in_rlml_theory_or_llm/) , 2024-12-07-0913
 ```
 Hi guys,
 
@@ -872,7 +689,7 @@ LLM era, the pacing or applied ML research (especially in LLM and CV) becomes so
 
      
  
-all -  [ That’s it folks! ](https://i.redd.it/69mlt91aku1e1.jpeg) , 2024-12-06-0914
+all -  [ That’s it folks! ](https://i.redd.it/69mlt91aku1e1.jpeg) , 2024-12-07-0913
 ```
 (Not the person in the post)
 ```
@@ -880,7 +697,7 @@ all -  [ That’s it folks! ](https://i.redd.it/69mlt91aku1e1.jpeg) , 2024-12-06
 
      
  
-all -  [ [D] Expectation from Machine Learning Engineering jobs ](https://www.reddit.com/r/MachineLearning/comments/1gtt099/d_expectation_from_machine_learning_engineering/) , 2024-12-06-0914
+all -  [ [D] Expectation from Machine Learning Engineering jobs ](https://www.reddit.com/r/MachineLearning/comments/1gtt099/d_expectation_from_machine_learning_engineering/) , 2024-12-07-0913
 ```
 Hey everyone,
 
@@ -904,7 +721,7 @@ r thoughts?
 
      
  
-all -  [ On the current state of robotics (ig?) (from a CSE perspective) (For all my homies out there) ](https://www.reddit.com/r/Btechtards/comments/1gsjxio/on_the_current_state_of_robotics_ig_from_a_cse/) , 2024-12-06-0914
+all -  [ On the current state of robotics (ig?) (from a CSE perspective) (For all my homies out there) ](https://www.reddit.com/r/Btechtards/comments/1gsjxio/on_the_current_state_of_robotics_ig_from_a_cse/) , 2024-12-07-0913
 ```
 Follow up on [https://www.reddit.com/r/Btechtards/comments/1gseqvq/cs\_roadmap\_for\_all\_my\_1st\_year\_homes\_out\_the
 re/](https://www.reddit.com/r/Btechtards/comments/1gseqvq/cs_roadmap_for_all_my_1st_year_homes_out_there/)
@@ -1048,7 +865,7 @@ CV, BMVC, WACV (people also submit CV stuff to ICLR, NeurIPS, ICML, etc)
 
      
  
-all -  [ [R] Convolutional Differentiable Logic Gate Networks ](https://www.reddit.com/r/MachineLearning/comments/1gs92mb/r_convolutional_differentiable_logic_gate_networks/) , 2024-12-06-0914
+all -  [ [R] Convolutional Differentiable Logic Gate Networks ](https://www.reddit.com/r/MachineLearning/comments/1gs92mb/r_convolutional_differentiable_logic_gate_networks/) , 2024-12-07-0913
 ```
 Abstract
 
@@ -1070,7 +887,7 @@ urious what others think?
 
      
  
-all -  [ How is the ACL Conference? ](https://www.reddit.com/r/deeplearning/comments/1gs7he7/how_is_the_acl_conference/) , 2024-12-06-0914
+all -  [ How is the ACL Conference? ](https://www.reddit.com/r/deeplearning/comments/1gs7he7/how_is_the_acl_conference/) , 2024-12-07-0913
 ```
 Hello, I know it's a very noob question but I was wondering what the reputation of ACL is in the field. I have been writ
 ing my first paper and my mentor recommended that I aim for the ACL deadline, I just wanted to know how prestigious it w
@@ -1084,7 +901,7 @@ ship prospects, so I was wondering if it would help in any regard.
 
      
  
-all -  [ [D] Neurips 2024 Hotel Roommate Search ](https://www.reddit.com/r/MachineLearning/comments/1gs0gj8/d_neurips_2024_hotel_roommate_search/) , 2024-12-06-0914
+all -  [ [D] Neurips 2024 Hotel Roommate Search ](https://www.reddit.com/r/MachineLearning/comments/1gs0gj8/d_neurips_2024_hotel_roommate_search/) , 2024-12-07-0913
 ```
 The hotels around the venue for Neurips 2024 are pretty expensive, and I'm looking for a roommate to split the cost with
  (my university has a limit on the nightly hotel rate they are willing to reimburse). I currently have reserved a room f
@@ -1101,7 +918,7 @@ Just a grad student trying to make conferences affordable! Thanks.
 
      
  
-all -  [ Need an Advice ](https://www.reddit.com/r/PhD/comments/1grg73d/need_an_advice/) , 2024-12-06-0914
+all -  [ Need an Advice ](https://www.reddit.com/r/PhD/comments/1grg73d/need_an_advice/) , 2024-12-07-0913
 ```
 Hi everyone, I’m a first-year computer science PhD student in Europe from Asia, going into my second year soon. I wanted
  to ask for some advice on what I should do. First off, I’m an international student from a Southeast Asian country, and
@@ -1132,7 +949,7 @@ for the next 2-3 years, knowing I won’t have the chance to publish as the prim
 
      
  
-all -  [ [D] Looking for a project partner who's published in top conferences [cvpr, neurips, wacv, iccv, etc ](https://www.reddit.com/r/computervision/comments/1gpfcpk/d_looking_for_a_project_partner_whos_published_in/) , 2024-12-06-0914
+all -  [ [D] Looking for a project partner who's published in top conferences [cvpr, neurips, wacv, iccv, etc ](https://www.reddit.com/r/computervision/comments/1gpfcpk/d_looking_for_a_project_partner_whos_published_in/) , 2024-12-07-0913
 ```
 Hello y'all. Deep into my master's degree, I am in a dire need of a mentor/partner for my research partner. Some of the 
 professors at the academia who claim to specialize in the field of computer vision/ai doesnt know how to clone an existi
@@ -1146,7 +963,7 @@ nt on what excites you most. thankss.
 
      
  
-all -  [ [D] How to Choose an AI-Focused Master's Program? ](https://www.reddit.com/r/computervision/comments/1gpba3y/d_how_to_choose_an_aifocused_masters_program/) , 2024-12-06-0914
+all -  [ [D] How to Choose an AI-Focused Master's Program? ](https://www.reddit.com/r/computervision/comments/1gpba3y/d_how_to_choose_an_aifocused_masters_program/) , 2024-12-07-0913
 ```
 I'm currently applying for AI-focused Master's programs, and I could really use some advice. I love working in computer 
 vision, and I think I’m genuinely passionate about research. I presented my first paper at an affinity workshop at ICML,
@@ -1183,7 +1000,7 @@ Thanks so much for any insights you can share!
 
      
  
-all -  [ [D] NeurIPS After Dark Networking Event ](https://www.reddit.com/r/MachineLearning/comments/1gpamvn/d_neurips_after_dark_networking_event/) , 2024-12-06-0914
+all -  [ [D] NeurIPS After Dark Networking Event ](https://www.reddit.com/r/MachineLearning/comments/1gpamvn/d_neurips_after_dark_networking_event/) , 2024-12-07-0913
 ```
 Just got an email about an official ticketed after dark NeurIPS networking event - this will be my first time attending/
 presenting, wondering if these events are worth going to. More generally, also interested in hearing about how to make t
@@ -1193,7 +1010,7 @@ he most of my time attending.
 
      
  
-all -  [ NeuroAI - NeurIPS Workshop (Vancouver, Dec 15) ](https://www.reddit.com/r/corticallabs/comments/1gp8lg5/neuroai_neurips_workshop_vancouver_dec_15/) , 2024-12-06-0914
+all -  [ NeuroAI - NeurIPS Workshop (Vancouver, Dec 15) ](https://www.reddit.com/r/corticallabs/comments/1gp8lg5/neuroai_neurips_workshop_vancouver_dec_15/) , 2024-12-07-0913
 ```
 Hey all, just wanted to make the announcement that some of the Cortical Labs team will be in Vancouver for NeurIPS and C
 TO Dave will be publishing the beta API spec for community feedback.
@@ -1206,7 +1023,7 @@ uroai-workshop.github.io)
 
      
  
-all -  [ Anyone's paper got selected for NeurIPS and are planning to go to Vancouver from Bengaluru??? ](https://www.reddit.com/r/Bengaluru/comments/1go3w7w/anyones_paper_got_selected_for_neurips_and_are/) , 2024-12-06-0914
+all -  [ Anyone's paper got selected for NeurIPS and are planning to go to Vancouver from Bengaluru??? ](https://www.reddit.com/r/Bengaluru/comments/1go3w7w/anyones_paper_got_selected_for_neurips_and_are/) , 2024-12-07-0913
 ```
 If anyone is traveling, i really need your help in planning mine. 
 ```
@@ -1214,7 +1031,7 @@ If anyone is traveling, i really need your help in planning mine.
 
      
  
-all -  [ [R] Classic GNNs (GCNs, GraphSAGEs, GATs) are Strong Baselines on Node Classification ](https://www.reddit.com/r/MachineLearning/comments/1gnsn54/r_classic_gnns_gcns_graphsages_gats_are_strong/) , 2024-12-06-0914
+all -  [ [R] Classic GNNs (GCNs, GraphSAGEs, GATs) are Strong Baselines on Node Classification ](https://www.reddit.com/r/MachineLearning/comments/1gnsn54/r_classic_gnns_gcns_graphsages_gats_are_strong/) , 2024-12-07-0913
 ```
 We’re excited to share our recent paper '[\[NeurIPS 2024\] Classic GNNs are Strong Baselines: Reassessing GNNs for Node 
 Classification](https://arxiv.org/pdf/2406.08993).'
@@ -1235,7 +1052,7 @@ If you find our work interesting, we’d greatly appreciate a ⭐️ on GitHub!
 
      
  
-all -  [ CV Sugession ](https://www.reddit.com/r/gradadmissions/comments/1gnbr8g/cv_sugession/) , 2024-12-06-0914
+all -  [ CV Sugession ](https://www.reddit.com/r/gradadmissions/comments/1gnbr8g/cv_sugession/) , 2024-12-07-0913
 ```
 I  tried to publish research papers twice—first at NeurIPS and recently at ICVGIP—but I got rejected both times 🥲.
 
@@ -1250,7 +1067,7 @@ e your advice.
 
      
  
-all -  [ Ok, for real how do I rank? ](https://www.reddit.com/r/eb_1a/comments/1gn2zo7/ok_for_real_how_do_i_rank/) , 2024-12-06-0914
+all -  [ Ok, for real how do I rank? ](https://www.reddit.com/r/eb_1a/comments/1gn2zo7/ok_for_real_how_do_i_rank/) , 2024-12-07-0913
 ```
 I was pretty certain that my pathway to green card was gonna be smooth… until the Trump victory. I’m gearing up for EB1A
  but worried that the extra scrutiny during his term will close that door for me. Here are the stats.
@@ -1270,7 +1087,7 @@ Am I toast or can I gun for EB1A?
 
      
  
-all -  [ [R] Most Time Series Anomaly Detection results are meaningless (two short videos explain why) ](https://www.reddit.com/r/MachineLearning/comments/1gmwxnr/r_most_time_series_anomaly_detection_results_are/) , 2024-12-06-0914
+all -  [ [R] Most Time Series Anomaly Detection results are meaningless (two short videos explain why) ](https://www.reddit.com/r/MachineLearning/comments/1gmwxnr/r_most_time_series_anomaly_detection_results_are/) , 2024-12-07-0913
 ```
 Dear Colleagues
 
@@ -1318,7 +1135,7 @@ splu0u1t7ugg&dl=0)
 
      
  
-all -  [ Boss wants me in Vancouver for neurips conference. Please take my 1 tix, 5 day pass. Selling at cost ](https://www.reddit.com/r/Wonderfruit/comments/1gmvwe0/boss_wants_me_in_vancouver_for_neurips_conference/) , 2024-12-06-0914
+all -  [ Boss wants me in Vancouver for neurips conference. Please take my 1 tix, 5 day pass. Selling at cost ](https://www.reddit.com/r/Wonderfruit/comments/1gmvwe0/boss_wants_me_in_vancouver_for_neurips_conference/) , 2024-12-07-0913
 ```
 I have one 5 day pass, bought it during early bird. Can change name during pre-registration. I want to make no profit fr
 om this. Heck, I’ll give you a discount. But I need to talk to you up front, and we need to figure out a payment situati
@@ -1332,7 +1149,7 @@ Reply to this and I will reach out.
 
      
  
-all -  [ Alaa Lab at UC Berkeley / UCSF Seeking PhD Students in ML/AI for Healthcare ](https://www.reddit.com/r/CompSocial/comments/1gmh3q6/alaa_lab_at_uc_berkeley_ucsf_seeking_phd_students/) , 2024-12-06-0914
+all -  [ Alaa Lab at UC Berkeley / UCSF Seeking PhD Students in ML/AI for Healthcare ](https://www.reddit.com/r/CompSocial/comments/1gmh3q6/alaa_lab_at_uc_berkeley_ucsf_seeking_phd_students/) , 2024-12-07-0913
 ```
 Prof. Ahmad Alaa, who leads a [joint lab](https://alaalab.berkeley.edu/home) at UC Berkeley and UCSF is seeking PhD appl
 icants interested in working at the intersection of ML/AI and Healthcare. They call out the following focus areas, with 
@@ -1359,7 +1176,7 @@ mA/viewform)
 
      
  
-all -  [ CAN I GET INTO HARVARD + UC's ](https://www.reddit.com/r/chanceme/comments/1gm5icr/can_i_get_into_harvard_ucs/) , 2024-12-06-0914
+all -  [ CAN I GET INTO HARVARD + UC's ](https://www.reddit.com/r/chanceme/comments/1gm5icr/can_i_get_into_harvard_ucs/) , 2024-12-07-0913
 ```
 **Demographics**:
 
@@ -1426,7 +1243,7 @@ Safety: UPitt, RIT, Bentley, Rutgers
 
      
  
-all -  [ Question about EB2 NIW and re-election of President Trump ](https://www.reddit.com/r/USCIS/comments/1glc0s5/question_about_eb2_niw_and_reelection_of/) , 2024-12-06-0914
+all -  [ Question about EB2 NIW and re-election of President Trump ](https://www.reddit.com/r/USCIS/comments/1glc0s5/question_about_eb2_niw_and_reelection_of/) , 2024-12-07-0913
 ```
 Hey, I have a question about possible effects of the recent re-election on my application as an Iranian citizen (male) w
 ho recently filed their I140. I'm wondering if I should apply for premium processing or not.
@@ -1462,7 +1279,7 @@ ld be appreciated! Thanks.
 
      
  
-all -  [ Question about EB2 NIW and re-election of President Trump ](https://www.reddit.com/r/EB2_NIW/comments/1glbyrt/question_about_eb2_niw_and_reelection_of/) , 2024-12-06-0914
+all -  [ Question about EB2 NIW and re-election of President Trump ](https://www.reddit.com/r/EB2_NIW/comments/1glbyrt/question_about_eb2_niw_and_reelection_of/) , 2024-12-07-0913
 ```
 Hey, I have a question about possible effects of the recent re-election on my application as an Iranian citizen (male) w
 ho recently filed their I140. I'm wondering if I should apply for premium processing or not.
@@ -1498,44 +1315,10 @@ uld be appreciated! Thanks.
 
      
  
-all -  [ Ethics in AI ](https://www.reddit.com/r/ArtificialInteligence/comments/1gkndse/ethics_in_ai/) , 2024-12-06-0914
+all -  [ Ethics in AI ](https://www.reddit.com/r/ArtificialInteligence/comments/1gkndse/ethics_in_ai/) , 2024-12-07-0913
 ```
 What are some good learning/certificate opportunities to enter the AI ethics space? Are there other volunteer opportunit
 ies to do ethics reviews on papers besides NeurIPS (and what are the requirements to become an ethics reviewer?) 
-```
----
-
-     
- 
-all -  [ Is implementing famous research papers in ML worthy of writing in a resume? ](https://www.reddit.com/r/Btechtards/comments/1gjym1x/is_implementing_famous_research_papers_in_ml/) , 2024-12-06-0914
-```
-Title. I am currently in my 3rd year of BTech in CSE. I’ve been interested in ML/DL for quite some time now. And I was t
-hinking of doing this. Is it okay to put them in resume for applying to research/industry internships?
-
-Papers that I am
- thinking of implementing in no particular order:
-
-- [Attention Is All You Need](https://proceedings.neurips.cc/paper_fi
-les/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)
-- [Hand Written Digit Recognition Using Back Propagation
- Neural Network](https://proceedings.neurips.cc/paper/1989/file/53c3bce66e43be4f209556518c2fcb54-Paper.pdf)
-- [An IMage 
-is worth 16x16 words](https://openreview.net/pdf?id=YicbFdNTTy) Vision Transformer
-- [LoRA- Low-Rank Adaptation Method f
-or LLMs](https://openreview.net/pdf?id=nZeVKeeFYf9)
-- [RAG paper from 2020](https://arxiv.org/pdf/2005.11401)
-- [ESRGAN]
-(https://openaccess.thecvf.com/content_ECCVW_2018/papers/11133/Wang_ESRGAN_Enhanced_Super-Resolution_Generative_Adversar
-ial_Networks_ECCVW_2018_paper.pdf)
-```
----
-
-     
- 
-all -  [ Do I have to upload a poster and a video recording for my accepted paper in NeurIPS 2024 to be publi ](https://www.reddit.com/r/learnmachinelearning/comments/1gjx8bv/do_i_have_to_upload_a_poster_and_a_video/) , 2024-12-06-0914
-```
-I registered the virtual pass of NeurIPS 2024. Do I have to upload a poster and a video recording for my accepted paper 
-in NeurIPS 2024 to be published? The emails or the instructions do not make any clarification about this. 
 ```
 ---
 
