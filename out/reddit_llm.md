@@ -1,5 +1,814 @@
  
-all -  [ How to Evaluate the Quality of Generated Embeddings? ](https://www.reddit.com/r/LangChain/comments/1h8fmvz/how_to_evaluate_the_quality_of_generated/) , 2024-12-07-0913
+all -  [ Suggested papers for beginner in multi-agent LLMs ](/r/learnmachinelearning/comments/1h8ono0/suggested_papers_for_beginner_in_multiagent_llms/) , 2024-12-08-0915
+```
+
+```
+---
+
+     
+ 
+all -  [ Generative AI - build LLM powered applications using LangChain and Javascript ](https://www.reddit.com/r/udemyfreebies/comments/1h8yr87/generative_ai_build_llm_powered_applications/) , 2024-12-08-0915
+```
+[https://learnwithamit.com/langchain-js-rf](https://learnwithamit.com/langchain-js-rf)
+```
+---
+
+     
+ 
+all -  [ Is There a Need for a Centralized Marketplace for AI Agents? ](https://www.reddit.com/r/LangChain/comments/1h8wpfj/is_there_a_need_for_a_centralized_marketplace_for/) , 2024-12-08-0915
+```
+Hey everyone,
+
+It’s pretty obvious that AI agents are the future—they’re already transforming industries by automating t
+asks, enhancing productivity, and solving niche problems. However, I’ve noticed a major gap: there’s no simple, centrali
+zed marketplace where you can easily browse through hundreds (or thousands) of AI agents tailored for every need.
+
+I’ve 
+found ones like: [https://agent.ai/](https://agent.ai/), [https://www.illa.ai/](https://www.illa.ai/), [https://aiagents
+directory.com/](https://aiagentsdirectory.com/), [https://fetch.ai](https://fetch.ai/), obviously ChatGPTs store- howeve
+r I think there’s potential for something a lot better
+
+Imagine a platform where you could find the exact AI agent you’r
+e looking for, whether it’s for customer support, data analysis, content creation, or something else. You’d be able to c
+ompare options, pick the one that works best, and instantly get the API or integrate it into your workflow.
+
+Plus for de
+velopers: a place to showcase and monetize your AI agents by reaching a larger audience, with built-in tools to track pe
+rformance and revenue.
+
+I’m exploring the idea of building something like this and would love to hear your thoughts:
+
+* 
+Does this resonate with you?
+* What kind of AI agents or must have features would you want in a platform like this?
+* An
+y pain points you’ve encountered when trying to find or use AI tools?
+* Any other feedback or considerations?
+
+Let me kn
+ow what you think—I’m genuinely curious to get some feedback!
+
+
+```
+---
+
+     
+ 
+all -  [ Different Behavior between llm.bindTools and createToolCallingAgent ](https://www.reddit.com/r/LangChain/comments/1h8tyz8/different_behavior_between_llmbindtools_and/) , 2024-12-08-0915
+```
+Hi,  
+I am seeing very different behavior between (yet again two ways to do things) llm.bindTools and createToolCallingA
+gent with same model and tools. Specifically, when I ask a question of the model using llm.bindTools() and the question 
+maps onto a tool, the tool is invoked. When the question does not map to a tool, the llm returns a response outside the 
+tool. This is desirable behavior and its good.
+
+With createToolCallingAgent, it bypasses the tool entirely. Using LangCh
+ain's own calculator tool with createToolCallingAgent, the llm just answers the question itself and doesn't use my tool.
+
+
+So I went back to llm.bindTools() and I really hope LangChain don't deprecate it because now I am locked into it. So f
+rustrating.
+```
+---
+
+     
+ 
+all -  [ Connect local LLM (ollama) with vector DB (chromaDB) ](https://www.reddit.com/r/LangChain/comments/1h8odxl/connect_local_llm_ollama_with_vector_db_chromadb/) , 2024-12-08-0915
+```
+Has anyone here worked on using a local LLM with LangChain to read, understand, and output data from a vector database (
+e.g., ChromaDB)?
+
+Specifically, I want to ask the LLM questions, have it understand them, and extract relevant informati
+on from the vector database to answer. The goal is for the answers to be based exclusively on the data in my ChromaDB, w
+ithout the LLM relying on its own general knowledge.
+
+I’ve tried using agents, but I haven’t been able to establish a pr
+oper connection with ChromaDB. While the answers are often relevant, they seem to come from the LLM’s own knowledge rath
+er than strictly using the data from the vector DB.
+
+Does anyone have tips or experience with a similar setup?
+```
+---
+
+     
+ 
+all -  [ Enquiry on OpenAI embeddings issue ](https://www.reddit.com/r/LangChain/comments/1h8kumn/enquiry_on_openai_embeddings_issue/) , 2024-12-08-0915
+```
+Hi
+
+Before yesterday, everything was working find with openai embeddings. But since yesterday, I got into this proxies i
+ssue when I tried to use OpenAIEmbeddings in my RAG model using colab. Does anyone know how to solve it?
+
+https://previe
+w.redd.it/e1prmlb8wc5e1.png?width=1258&format=png&auto=webp&s=fb0096de64389a87df783386c7186bc04647f41f
+
+
+```
+---
+
+     
+ 
+all -  [ Comprehensive Analysis: AI, Agentic Agents, Workflows, Pipelines, Big Tech’s Strategy, and the Futur ](https://www.reddit.com/r/Asmongold/comments/1h8ji4s/comprehensive_analysis_ai_agentic_agents/) , 2024-12-08-0915
+```
+**By Steven Britt**  
+*Founder, Khaotic Gaming LLC*  
+[www.khaotic.ai](http://www.khaotic.ai)
+
+# Abstract
+
+Artificial In
+telligence (AI) is evolving at an unprecedented pace, revolutionizing industries, reshaping narratives, and influencing 
+societal norms. While AI offers immense potential for innovation and empowerment, its trajectory is largely dictated by 
+Big Tech's calculated efforts to monopolize its development and deployment. This paper examines the evolution of AI, the
+ rise of agentic agents, workflows, and pipelines, and how Big Tech exploits public participation to refine its systems.
+ It further explores the societal impacts of these advancements, from the centralization of AI to the emergence of gener
+ational AI and the risks of AI-driven societal divides. Finally, it outlines actionable steps to resist monopolization a
+nd foster ethical AI development that prioritizes equity, transparency, and inclusivity.
+
+# 1. Introduction
+
+Artificial 
+Intelligence is no longer confined to academia or niche industries—it has become a transformative force redefining how h
+umanity interacts, learns, and innovates. Its rapid proliferation into every facet of life promises to unlock new possib
+ilities but also raises significant ethical and societal concerns.
+
+The democratization of AI tools and datasets by comp
+anies such as Meta, Amazon, Nvidia, and Oracle may appear to be an act of altruism, empowering individuals and small bus
+inesses to innovate. However, this seemingly generous act masks a deliberate strategy. By encouraging global creativity 
+and leveraging public data, these companies accelerate the refinement of their AI systems at minimal cost to themselves.
+
+
+While these corporations now offer “opt-out” versions for data use—appearing to align with ethical practices—this was 
+not always the case. Historically, data collection occurred without clear user consent or understanding, leveraging user
+ ignorance and the complexity of terms of service agreements. Even today, “opt-out” policies are often more symbolic tha
+n substantive. Who is auditing these systems to ensure compliance? Are we relying on a “trust me, bro” promise from thes
+e corporations that user data isn’t being leveraged?
+
+Moreover, Big Tech circumvents direct responsibility through **thi
+rd-party AI disruptions**. Here’s how:
+
+* While corporations claim not to use your data directly, **their users do**. Th
+ird-party developers, apps, and platforms often lack the same restrictions and transparency.
+* These third-party systems
+, which often rely on Big Tech’s APIs and infrastructure, indirectly improve the parent company’s AI models through refi
+ned data and enhanced algorithms.
+* **The Loophole**: By enabling an ecosystem of dependent users and platforms, Big Tec
+h benefits from enriched datasets and algorithmic refinement, all while distancing themselves from direct data misuse cl
+aims.
+
+**The Implications Are Profound**:
+
+1. **Jobs**: AI’s integration into industries will redefine the labor market,
+ privileging those with access to advanced systems while marginalizing others.
+2. **Relationships**: Generational AI sys
+tems will influence personal and professional dynamics, creating divides based on access to superior AI tools.
+3. **Soci
+etal Norms**: AI will shape education, governance, and media, steering public discourse and redefining cultural values.
+
+
+By the time society recognizes the extent of this manipulation, AI will have woven itself into the fabric of daily life
+, dictating opportunities, choices, and even identities. The potential for generational divides looms large as access to
+ advanced AI becomes a privilege rather than a universal right.
+
+This paper serves as a call to action. It seeks to expo
+se the strategies employed by Big Tech, highlight the societal risks of AI centralization, and propose actionable soluti
+ons for fostering an AI landscape that empowers humanity rather than controls it.
+
+# 2. Understanding AI
+
+# 2.1 What is 
+AI?
+
+Artificial Intelligence (AI) refers to systems designed to simulate human intelligence by performing tasks such as 
+learning, reasoning, decision-making, and adaptation. These systems are capable of operating at scales and speeds beyond
+ human capacity, enabling groundbreaking applications across industries.
+
+AI systems can be broadly categorized based on
+ their design:
+
+* Narrow AI: Specialized systems trained for specific tasks (e.g., image recognition or language transla
+tion).
+* General AI: Hypothetical systems capable of performing any intellectual task a human can do.
+* Agentic AI: Emer
+ging systems capable of real-time adaptability and autonomous decision-making, integrating various AI models and tools i
+nto cohesive workflows.
+
+Core Components of AI:
+
+1. Datasets:
+   * The foundation of AI lies in vast collections of stru
+ctured (e.g., databases) and unstructured (e.g., text, images) data.
+   * Ethical concerns arise with datasets sourced w
+ithout explicit consent, such as scraping user data from social media or proprietary platforms.
+   * Examples of misuse 
+include biased datasets perpetuating stereotypes in facial recognition systems.
+   * Future Consideration: Fair and repr
+esentative datasets are critical to mitigating bias and ensuring inclusivity.
+2. Algorithms:
+   * Algorithms process dat
+a, identify patterns, and generate outputs.
+   * Key techniques include:
+      * Supervised Learning: Models trained on 
+labeled data (e.g., email spam detection).
+      * Unsupervised Learning: Identifying patterns in unlabeled data (e.g., 
+customer segmentation).
+      * Reinforcement Learning: Systems learning through trial and error (e.g., AlphaGo).
+      
+* Deep Learning: Multi-layered neural networks capable of handling complex tasks (e.g., language processing in GPT model
+s).
+
+Architects of Large Language Models (LLMs) and Symbolic Learning Models (SLMs):
+
+* LLMs:
+   * Process natural langu
+age by training on massive datasets of human communication.
+   * Examples: OpenAI’s GPT-4, Google’s Bard, and Meta’s Lla
+ma.
+   * Strengths: Creativity, adaptability, and contextual understanding.
+   * Challenges: Bias, resource consumption,
+ and ethical implications.
+* SLMs:
+   * Handle structured, rule-based logic and symbolic reasoning.
+   * Examples: Mathe
+matical proofs, logic puzzles, and optimization problems.
+   * Strengths: Precision and rule adherence.
+   * Limitations
+: Struggle in unstructured, ambiguous environments.
+
+Integration of LLMs and SLMs:
+
+* The future of AI lies in combining
+ the flexibility of LLMs with the precision of SLMs. This hybrid approach enables systems to tackle complex, multi-dimen
+sional problems, such as legal research where creativity and logical rigor are essential.
+
+Emerging Trends:
+
+* Multimoda
+l AI: Integrating text, images, and audio for richer, more versatile interactions.
+   * Example: ChatGPT combining text 
+and image understanding for dynamic customer support.
+* Neuro-Symbolic AI: Blending deep learning and symbolic reasoning
+ to improve interpretability and precision.
+
+# 2.2 Evolution of AI
+
+AI has evolved significantly, marked by distinct pha
+ses of development, each characterized by unique challenges and breakthroughs.
+
+Phase 1: Symbolic AI (1950s-1980s)
+
+* Fo
+cus: Rule-based systems using explicit programming.
+* Limitations: Unable to handle ambiguity or adapt to unforeseen sce
+narios.
+* Example: IBM’s Deep Blue, which used brute-force logic to defeat chess grandmasters.
+
+Phase 2: Machine Learnin
+g (1990s-2010s)
+
+* Focus: Learning from data rather than explicit programming.
+* Breakthroughs:
+   * Neural networks ena
+bling pattern recognition (e.g., image and speech processing).
+   * Statistical methods like Support Vector Machines (SV
+Ms) revolutionizing tasks like handwriting analysis.
+* Example: Google’s PageRank, which transformed search engines by l
+earning web page relevance.
+
+Phase 3: Deep Learning Revolution (2010s-Present)
+
+* Focus: Leveraging massive datasets and
+ advanced neural architectures.
+* Breakthroughs:
+   * Convolutional Neural Networks (CNNs) in computer vision (e.g., fac
+ial recognition).
+   * Transformers (e.g., GPT-4) for natural language processing.
+* Challenges: High computational cost
+s, environmental impact, and inherent biases in data.
+
+# 2.3 The Emergence of Agentic AI
+
+Agentic AI represents the next
+ evolutionary leap, integrating multiple models, tools, and data streams into adaptable, autonomous workflows.
+
+Features
+ of Agentic AI:
+
+1. Real-Time Adaptability: Respond dynamically to changes in the environment or user input.
+2. Integrat
+ion Across Tools: Combine various models (e.g., LLMs, SLMs) for complex decision-making.
+3. Autonomous Problem-Solving: 
+Automate multi-step processes (e.g., supply chain optimization).
+
+Potential and Risks:
+
+* Potential:
+   * Revolutionize 
+industries by automating intricate workflows.
+   * Examples: Adaptive learning platforms in education, autonomous NPC be
+havior in gaming.
+* Risks:
+   * Dependency on centralized control.
+   * Amplification of systemic biases if underlying d
+ata is flawed.
+
+# 3. Big Tech’s Strategy
+
+Big Tech’s dominance in AI is not a byproduct of innovation alone but a calcul
+ated, multi-phase strategy designed to exploit public creativity, consolidate control, and monopolize the future of AI. 
+This section outlines the phases of their strategy, provides real-world examples, and explores the implications for inno
+vators, businesses, and society.
+
+# 3.1 Phase 1: Public AI Development
+
+In the early stages, Big Tech positioned AI as a
+ democratizing tool, offering free or open-access platforms, datasets, and APIs. While this move seemed altruistic, it s
+erved as a global R&D lab for refining their systems.
+
+Key Tactics:
+
+1. Leveraging Public Creativity:
+   * Open-source t
+ools and platforms like TensorFlow and PyTorch encouraged widespread experimentation.
+   * Developers, startups, and res
+earchers contributed ideas and improvements, which Big Tech incorporated into their proprietary systems.
+   * Example: O
+penAI’s release of GPT-2 sparked a wave of innovation, with outputs from developers indirectly benefiting GPT-3 and GPT-
+4.
+2. Data Harvesting at Scale:
+   * Platforms like Facebook and Google collected billions of interactions daily, using 
+this data to train algorithms.
+   * User-generated content on platforms like YouTube and GitHub further enriched dataset
+s.
+   * Example: GitHub Copilot trained on public repositories, raising ethical concerns about intellectual property.
+3.
+ Creating Public Trust:
+   * By integrating AI into user-friendly applications, Big Tech normalized its use across indus
+tries.
+   * Example: AI-driven features in Gmail (e.g., predictive text) and Amazon’s Alexa built familiarity and relian
+ce.
+
+Ethical Concerns:
+
+* Datasets were often sourced without explicit consent, raising issues of privacy and exploitati
+on.
+* Public contributions to open-source projects were rarely rewarded, while Big Tech profited immensely.
+
+# 3.2 Phase
+ 2: Restricting Access
+
+Once their systems were sufficiently refined, Big Tech began to limit access, citing concerns ab
+out ethics, safety, and regulation. This phase strategically suppressed competition by creating barriers to entry.
+
+Key 
+Strategies:
+
+1. Regulatory Lobbying:
+   * Big Tech pushed for stringent AI regulations under the guise of promoting safe
+ty and trustworthiness.
+   * Smaller developers, unable to meet these compliance standards, were edged out.
+   * Example
+: Google and Microsoft lobbied for explainability requirements in AI systems, creating high-cost barriers for startups.
+
+2. Proprietary Tools:
+   * Open platforms were gradually restricted, forcing users to pay for access.
+   * Example: Open
+AI’s GPT-4, available only through API subscriptions, limits independent development.
+3. Control Over Data:
+   * Access 
+to critical datasets became increasingly restricted.
+   * Example: Reddit’s decision to charge for API usage made it har
+der for developers to train models using its data.
+
+Implications:
+
+* Innovation outside Big Tech slowed as independent d
+evelopers struggled to access resources.
+* Ethical AI development became prohibitively expensive for smaller entities.
+
+
+# 3.3 Phase 3: Embedding AI in Society
+
+With control firmly established, Big Tech is embedding AI into essential societa
+l systems, creating dependencies that ensure their dominance.
+
+Key Tactics:
+
+1. Integration into Infrastructure:
+   * AI
+ systems are becoming integral to healthcare, education, governance, and more.
+   * Example: Microsoft’s Office 365 Copi
+lot integrates AI into workplace productivity, making its tools indispensable.
+2. Tiered Access:
+   * Advanced AI system
+s are marketed as premium solutions, accessible only to corporations or wealthy individuals.
+   * Example: Nvidia’s ente
+rprise-grade AI systems offer capabilities far beyond consumer-grade tools.
+3. Suppressing Competition:
+   * Big Tech em
+ploys aggressive strategies to neutralize potential competitors.
+   * Example: Amazon’s patent strategies and acquisitio
+ns eliminate smaller companies attempting to innovate in AI.
+
+Global Impact:
+
+* In developing nations, Big Tech’s AI sys
+tems dominate due to the lack of local alternatives or regulatory resistance.
+* Governments increasingly rely on proprie
+tary AI solutions, reducing sovereignty over critical infrastructure.
+
+# 3.4 The Illusion of Democratization
+
+Big Tech m
+arkets its AI offerings as tools for empowerment, but the reality is far more exploitative.
+
+1. Public Data as Fuel:
+   
+* Social media platforms collect and monetize user interactions without adequate compensation.
+   * Example: TikTok uses
+ uploaded content to train recommendation algorithms, with no benefit to creators.
+2. Open Source as a Testing Ground:
+ 
+  * Open-source initiatives indirectly benefit Big Tech, as they test and refine models that later become proprietary.
+ 
+  * Example: Meta’s release of Llama spurred innovation, but advanced features were monetized in subsequent iterations.
+
+
+# 3.5 Examples of Big Tech Exploitation
+
+* Amazon Bedrock:
+   * Markets multi-agent solutions that closely mirror open-
+source innovations but are locked behind enterprise-grade licenses.
+* Meta’s Llama:
+   * Released as an open-source mode
+l but restricted access to critical updates and features.
+* Google and YouTube:
+   * Every video uploaded is analyzed to
+ refine ad-targeting algorithms, with no compensation to creators.
+
+# 3.6 Implications for Innovators
+
+Big Tech’s strate
+gies stifle independent developers, startups, and smaller corporations, creating an uneven playing field.
+
+1. Barriers t
+o Entry:
+   * High costs of compliance and restricted datasets discourage smaller players.
+2. Erosion of IP Rights:
+   *
+ Public contributions are repackaged and patented by Big Tech.
+3. Monopolistic Ecosystems:
+   * AI’s integration into es
+sential services makes it nearly impossible to exit Big Tech’s ecosystems.
+
+# 3.7 Resistance and Solutions
+
+1. Open-Sour
+ce Movements:
+   * Platforms like Hugging Face democratize access to AI tools.
+2. Regulatory Advocacy:
+   * Push for ant
+itrust laws targeting monopolistic practices rather than stifling innovation.
+3. Public Awareness:
+   * Educate communit
+ies about how Big Tech exploits user data and stifles competition.
+
+# 4. AI Workflows and Pipelines
+
+AI workflows and pi
+pelines form the backbone of modern AI systems, dictating how raw data transforms into actionable insights. This section
+ explores the structure and components of traditional pipelines, the evolution to agentic workflows, and their implicati
+ons for innovation, efficiency, and control.
+
+# 4.1 Traditional AI Pipelines
+
+Traditional AI pipelines are structured, s
+tep-by-step processes that outline how data flows through an AI system during training, testing, and deployment.
+
+Key St
+ages of a Traditional Pipeline:
+
+1. Data Collection:
+   * Raw data is sourced from platforms such as social media, IoT d
+evices, and proprietary databases.
+   * Challenges:
+      * Privacy concerns, as datasets are often collected without ex
+plicit user consent.
+      * Bias in data sources, leading to skewed AI predictions.
+   * Example: Healthcare datasets f
+rom wearables (e.g., fitness trackers) are used to train predictive health models.
+2. Data Cleaning and Preprocessing:
+ 
+  * Ensures data quality by removing errors, duplicates, and irrelevant information.
+   * Processes:
+      * Normalizing
+ formats (e.g., image resolution, text encoding).
+      * Handling missing data or anomalies.
+   * Importance: The accur
+acy of an AI system depends heavily on the quality of preprocessing.
+3. Model Training:
+   * The cleaned dataset is fed 
+into algorithms to identify patterns and make predictions.
+   * Example: Chatbots trained on millions of conversations t
+o understand language nuances.
+4. Validation and Testing:
+   * Evaluates the model against a separate dataset to assess 
+accuracy, generalization, and robustness.
+   * Metrics:
+      * Accuracy: Percentage of correct predictions.
+      * Rec
+all: Ability to identify relevant results.
+5. Deployment:
+   * The model is integrated into real-world applications, suc
+h as autonomous vehicles or recommendation engines.
+6. Feedback Loops:
+   * Real-world usage generates new data to refin
+e the model.
+   * Example: Netflix’s recommendation system improves as users interact with it.
+
+Limitations of Tradition
+al Pipelines:
+
+* Rigidity: Fixed sequences make it difficult to adapt to dynamic conditions.
+* Resource Intensity: Train
+ing large models requires significant computational power.
+* Data Dependence: Performance heavily relies on the availabi
+lity of large, high-quality datasets.
+
+# 4.2 Agentic Workflows
+
+Agentic workflows represent a paradigm shift in AI devel
+opment, enabling real-time adaptability and autonomous decision-making. These workflows integrate multiple AI models, to
+ols, and data streams into a dynamic, feedback-driven system.
+
+What Makes Agentic Workflows Different?
+
+1. Dynamic Adapt
+ability:
+   * Unlike traditional pipelines, agentic workflows adjust strategies and processes based on real-time inputs.
+
+   * Example: An autonomous delivery robot rerouting in response to traffic data.
+2. Integration Across Tools:
+   * Mul
+tiple AI models collaborate seamlessly to achieve complex goals.
+   * Example: A workflow in e-commerce where one agent 
+analyzes user behavior, another predicts trends, and a third handles personalized marketing.
+3. Continuous Learning:
+   
+* These workflows incorporate live feedback from user interactions or environmental changes to refine performance dynami
+cally.
+   * Example: AI-powered diagnostics systems updating treatment plans based on real-time patient data.
+
+Component
+s of Agentic Workflows:
+
+1. Multi-Agent Systems:
+   * Specialized AI agents work together to solve problems.
+   * Exampl
+e: A gaming environment where NPCs adapt their behavior to player strategies in real-time.
+2. Orchestration Frameworks:
+
+   * Tools like LangChain and LangFlow enable developers to build workflows integrating diverse models and processes.
+  
+ * Capabilities:
+      * Task automation.
+      * Seamless data sharing between agents.
+3. Real-Time Feedback Loops:
+   
+* Unlike traditional systems that require manual retraining, agentic workflows learn continuously.
+
+Advantages of Agenti
+c Workflows:
+
+* Flexibility: Adapt to changing conditions without retraining the entire system.
+* Efficiency: Reduce red
+undant processes by automating dynamic adjustments.
+* Scalability: Integrate new agents or tools as requirements evolve.
+
+
+Applications:
+
+1. Healthcare: Real-time monitoring systems that adjust treatment plans dynamically.
+2. Gaming: Adaptiv
+e NPCs for more immersive player experiences.
+3. Supply Chain Management: Dynamic optimization of logistics and inventor
+y.
+
+# 4.3 Implications for Innovation and Control
+
+The rise of agentic workflows presents both opportunities and challen
+ges.
+
+Opportunities:
+
+1. Accelerated Innovation:
+   * Continuous learning enables faster iteration cycles.
+   * Example:
+ AI systems in renewable energy optimizing power distribution based on demand patterns.
+2. Cross-Industry Applications:
+
+   * Versatility allows workflows to transform industries such as education, transportation, and entertainment.
+
+Challen
+ges:
+
+1. Monopolization Risks:
+   * Big Tech’s dominance in orchestration tools (e.g., LangChain) can stifle competition
+.
+   * Example: Amazon Bedrock locking multi-agent workflows behind enterprise-grade licenses.
+2. Data Privacy Concerns:
+
+   * Continuous learning requires constant data input, raising ethical issues about how user data is collected and used
+.
+3. Ethical Dilemmas:
+   * Autonomous decision-making systems may perpetuate biases or lead to unintended consequences.
+
+
+# 4.4 Future Trends in AI Workflows
+
+1. Hybrid Models:
+   * Combining LLMs’ creativity with SLMs’ precision for enhanc
+ed effectiveness.
+   * Example: Legal research systems where LLMs draft summaries, and SLMs ensure logical consistency.
+
+2. Decentralized Workflows:
+   * Open-source platforms like Hugging Face are democratizing access, enabling smaller inno
+vators to compete with Big Tech.
+3. Customization:
+   * AI workflows will become increasingly user-driven, allowing busi
+nesses to tailor systems to specific needs without deep technical expertise.
+
+# 5. AI as a Tool for Societal Control
+
+AI
+, when controlled by centralized entities, becomes a powerful mechanism for shaping human behavior, enforcing societal n
+orms, and reinforcing existing power structures. This section delves into the ways AI can manipulate narratives, create 
+dependencies, and embed itself into critical societal systems, exploring both the psychological and societal risks invol
+ved.
+
+# 5.1 Narrative Reinforcement
+
+AI-driven platforms subtly shape public discourse by prioritizing specific content,
+ often aligning with corporate or ideological goals.
+
+Mechanisms of Narrative Control:
+
+1. Content Recommendation Algori
+thms:
+   * AI systems, such as YouTube’s and TikTok’s recommendation engines, push content based on engagement metrics, 
+often amplifying polarizing or sensational topics.
+   * Example: During the 2016 U.S. elections, Facebook’s AI algorithm
+s amplified divisive content, contributing to misinformation.
+2. Media Bias Reinforcement:
+   * AI-curated newsfeeds rei
+nforce existing biases, reducing exposure to diverse perspectives.
+   * Consequence: Echo chambers that diminish critica
+l thinking and healthy debate.
+3. Educational AI Systems:
+   * AI-integrated curricula can selectively emphasize certain
+ ideologies or omit controversial topics, shaping the worldview of future generations.
+   * Example: Corporate-developed
+ adaptive learning platforms prioritizing STEM over humanities without addressing the ethical implications of technology
+.
+
+# 5.2 Dependency and Psychological Shifts
+
+As AI integrates into daily life, psychological dependence on these system
+s grows, subtly altering societal norms and individual behaviors.
+
+AI as the Arbiter of Value:
+
+1. AI Scores and Ranking
+s:
+   * Generational AI systems may rank individuals based on their 'AI compatibility,' influencing decisions in:
+      
+* Employment: 'Your AI profile doesn’t meet the requirements.'
+      * Education: 'Your child’s score is too low for adm
+ission.'
+      * Relationships: 'Compatibility with this AI-driven platform is suboptimal.'
+   * Impact: A societal divi
+de emerges, with those lacking access to advanced AI systems viewed as inherently less capable.
+2. Shifting Norms:
+   * 
+Over-reliance on AI for decision-making diminishes human creativity and critical thinking.
+   * Example: AI-generated we
+llness apps reduce personal agency by automating health decisions.
+
+# 5.3 Embedding AI in Key Systems
+
+AI’s integration 
+into critical societal systems entrenches its control over human behavior and infrastructure.
+
+Industries Transformed by
+ AI:
+
+1. Healthcare:
+   * AI systems dynamically analyze patient data to recommend treatments.
+   * Risks:
+      * Bias 
+in datasets could lead to inequities in care.
+      * Insurance companies may prioritize cost-saving recommendations ove
+r optimal patient outcomes.
+   * Generational Disparity:
+      * Premium AI tools will provide advanced diagnostics only
+ to those who can afford them.
+2. Education:
+   * AI-powered platforms personalize learning but risk restricting access 
+to non-approved content.
+   * Example: Proprietary platforms shaping curricula to align with corporate interests.
+3. Gov
+ernance:
+   * Governments increasingly rely on AI for policy enforcement, surveillance, and decision-making.
+   * Exampl
+es:
+      * Predictive policing algorithms, often perpetuating systemic biases.
+      * Automated decision-making in soc
+ial services, potentially marginalizing vulnerable populations.
+4. Corporate Systems:
+   * AI-driven workplace monitorin
+g enforces productivity standards, creating high-pressure environments.
+   * Example: Amazon’s warehouse management syst
+em tracks worker efficiency in real-time.
+
+# 5.4 Generational AI and the Class Divide
+
+Generational AI systems will deep
+en societal inequities, creating a divide based on access to advanced tools.
+
+AI Hierarchy:
+
+1. Generic AI:
+   * Basic s
+ystems available to the general public with limited functionality.
+2. Generational AI:
+   * Advanced systems evolving wi
+th users over time, accessible only to affluent individuals or corporations.
+
+Social Implications:
+
+1. Workplace Dispari
+ties:
+   * Employees with generational AI systems will outperform others, leading to disproportionate career opportuniti
+es.
+2. Educational Inequalities:
+   * Students with access to advanced AI tutors will achieve greater academic success, 
+widening the achievement gap.
+3. Healthcare Disparities:
+   * Premium AI systems will deliver better diagnostics and tre
+atments, exacerbating existing health inequities.
+
+# 5.5 The Psychological and Societal Risks of AI Control
+
+1. Erosion 
+of Creativity:
+   * Over-reliance on AI stifles innovation and problem-solving skills, as individuals default to automat
+ed solutions.
+2. Normalization of Inequality:
+   * AI systems embed societal divides into algorithms, making inequities 
+appear inevitable or natural.
+3. Loss of Privacy:
+   * Continuous data collection erodes personal privacy under the guis
+e of 'enhanced user experiences.'
+
+# 5.6 How Big Tech Enforces AI Dependency
+
+1. Throttling Alternatives:
+   * Public AI
+ systems are intentionally limited, preventing independent innovation.
+   * Example: Open-source tools are often less ca
+pable than proprietary systems, forcing reliance on Big Tech.
+2. Neutralizing Independent Efforts:
+   * Big Tech employs
+ AI scrapers to detect and suppress unauthorized systems.
+   * Example: Identifying and neutralizing rogue AI bots opera
+ting outside corporate ecosystems.
+
+# 5.7 Solutions to Mitigate AI Control
+
+1. Promote Decentralization:
+   * Support de
+centralized AI initiatives prioritizing user control.
+   * Example: Federated AI systems that distribute control over da
+ta and models.
+2. Advocate for Transparency:
+   * Push for regulations requiring companies to disclose algorithmic prior
+ities and data processing methods.
+3. Foster Public Awareness:
+   * Educate society about the risks of over-reliance on 
+AI and the importance of maintaining personal agency.
+4. Empower Small Innovators:
+   * Level the playing field by provi
+ding funding, resources, and legal protections for independent developers.
+
+# full report can be explored here [https://
+chatgpt.com/g/g-6753c74473e48191a63213cb9d8ac392-ai-deep-dive-insights-and-impacts](https://chatgpt.com/g/g-6753c74473e4
+8191a63213cb9d8ac392-ai-deep-dive-insights-and-impacts)
+```
+---
+
+     
+ 
+all -  [ How to Evaluate the Quality of Generated Embeddings? ](https://www.reddit.com/r/LangChain/comments/1h8fmvz/how_to_evaluate_the_quality_of_generated/) , 2024-12-08-0915
 ```
 I have generated embeddings from the text chunks (extracted from a PDF and split using NLTKText Splitter).
 
@@ -18,7 +827,7 @@ nce
 
      
  
-all -  [ Which term do you like best do describe the new wave of agent apps we’ve been seeing (Cursor, v0, Re ](https://www.reddit.com/r/LangChain/comments/1h8czld/which_term_do_you_like_best_do_describe_the_new/) , 2024-12-07-0913
+all -  [ Which term do you like best do describe the new wave of agent apps we’ve been seeing (Cursor, v0, Re ](https://www.reddit.com/r/LangChain/comments/1h8czld/which_term_do_you_like_best_do_describe_the_new/) , 2024-12-08-0915
 ```
 1. Agent apps
 2. Agent-Native Applications
@@ -33,7 +842,7 @@ all -  [ Which term do you like best do describe the new wave of agent apps we�
 
      
  
-all -  [ Stuck at learning ](https://www.reddit.com/r/n8n/comments/1h8bsxb/stuck_at_learning/) , 2024-12-07-0913
+all -  [ Stuck at learning ](https://www.reddit.com/r/n8n/comments/1h8bsxb/stuck_at_learning/) , 2024-12-08-0915
 ```
 I come from a generative AI background/web development (RAG, langchain, openAI, API's, postgreSQL). I am planning on bui
 lding my own company based on automation services with computer vision and generative AI. For this plan, I have been ext
@@ -47,7 +856,7 @@ e youtube tutorials/books are not enough as they are pretty basic. Could you sug
 
      
  
-all -  [ Going from 25% success rate with Langchain's Graph RAG to 99.4% using BAML ](https://www.reddit.com/r/LangChain/comments/1h8adm9/going_from_25_success_rate_with_langchains_graph/) , 2024-12-07-0913
+all -  [ Going from 25% success rate with Langchain's Graph RAG to 99.4% using BAML ](https://www.reddit.com/r/LangChain/comments/1h8adm9/going_from_25_success_rate_with_langchains_graph/) , 2024-12-08-0915
 ```
 Disclaimer: I work on BAML - a prompting config language to get structured outputs ( [https://github.com/BoundaryML/baml
 ](https://github.com/BoundaryML/baml) ) 
@@ -75,7 +884,7 @@ https://www.boundaryml.com/blog/sota-function-calling?q=0) ). Happy to answer an
 
      
  
-all -  [ What are the best techniques and tools to have the model 'self-correct?' ](https://www.reddit.com/r/OpenAI/comments/1h85b1b/what_are_the_best_techniques_and_tools_to_have/) , 2024-12-07-0913
+all -  [ What are the best techniques and tools to have the model 'self-correct?' ](https://www.reddit.com/r/OpenAI/comments/1h85b1b/what_are_the_best_techniques_and_tools_to_have/) , 2024-12-08-0915
 ```
 # CONTEXT
 I'm a noob building an app that analyses financial transactions to find out what was the max/min/avg balance e
@@ -114,7 +923,7 @@ th temperature and top_p, etc, which I have not played with so far!
 
      
  
-all -  [ Is Langsmith just good piece of trash? ](https://www.reddit.com/r/LangChain/comments/1h84qim/is_langsmith_just_good_piece_of_trash/) , 2024-12-07-0913
+all -  [ Is Langsmith just good piece of trash? ](https://www.reddit.com/r/LangChain/comments/1h84qim/is_langsmith_just_good_piece_of_trash/) , 2024-12-08-0915
 ```
 I use langsmith for tracing and prompt management. Initially it was good. But then they started to tweak UI every two da
 ys and nowadays I just feel the website has become pathetic and unresponsive at some times. I don’t know am I the only o
@@ -127,15 +936,7 @@ d open source langsmith alternatives??
 
      
  
-all -  [ Roast my resume too ](https://i.redd.it/g7p6s7xh095e1.png) , 2024-12-07-0913
-```
-
-```
----
-
-     
- 
-all -  [ MD Doesn’t Seem Like the Right Intermediate Language To Connect LLMs to Webpages ](https://www.reddit.com/r/LangChain/comments/1h82xst/md_doesnt_seem_like_the_right_intermediate/) , 2024-12-07-0913
+all -  [ MD Doesn’t Seem Like the Right Intermediate Language To Connect LLMs to Webpages ](https://www.reddit.com/r/LangChain/comments/1h82xst/md_doesnt_seem_like_the_right_intermediate/) , 2024-12-08-0915
 ```
 It seems like right now the canonical pipeline to feed webpages into LLMs is: HTML —> MD —> LLM
 
@@ -156,7 +957,7 @@ much JS helps very little here as well.
 
      
  
-all -  [ Improve a RAG system that uses 200+ PDFs ](https://www.reddit.com/r/LangChain/comments/1h82gox/improve_a_rag_system_that_uses_200_pdfs/) , 2024-12-07-0913
+all -  [ Improve a RAG system that uses 200+ PDFs ](https://www.reddit.com/r/LangChain/comments/1h82gox/improve_a_rag_system_that_uses_200_pdfs/) , 2024-12-08-0915
 ```
 Hello everyone, I am writing here to ask for some suggestions. I am building a RAG system in order to interrogate a chat
 bot and get the info that are present in documentation manuals.
@@ -210,7 +1011,7 @@ Thanks!
 
      
  
-all -  [ LangGraph based literature review agent - hackathon winner project ](https://open.substack.com/pub/diamantai/p/nexus-ai-the-revolutionary-research?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-12-07-0913
+all -  [ LangGraph based literature review agent - hackathon winner project ](https://open.substack.com/pub/diamantai/p/nexus-ai-the-revolutionary-research?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-12-08-0915
 ```
 Happy to share the first blog post about an incredible agent developed during the hackathon (by the 1st place winners) I
  organized with LangChain.
@@ -225,7 +1026,7 @@ Code is fully available on the GenAI_Agents open-source repository and there is 
 
      
  
-all -  [ AI Agent creation with Dynamic Node pathways  ](https://www.reddit.com/r/LangChain/comments/1h7zhno/ai_agent_creation_with_dynamic_node_pathways/) , 2024-12-07-0913
+all -  [ AI Agent creation with Dynamic Node pathways  ](https://www.reddit.com/r/LangChain/comments/1h7zhno/ai_agent_creation_with_dynamic_node_pathways/) , 2024-12-08-0915
 ```
 For most of the AI Agents, like CrewAI or Autogen or even Langgraph, what I found that we can only give the goal and the
 n define which agent does what. In Langgraph, we have to define the entire workflow in advance from what I get from the 
@@ -242,7 +1043,7 @@ Or should I manage this outside the Agentic Framework with a custom setup and DB
 
      
  
-all -  [ Ollama, langchain ans local database ? ](https://www.reddit.com/r/ollama/comments/1h7z7ev/ollama_langchain_ans_local_database/) , 2024-12-07-0913
+all -  [ Ollama, langchain ans local database ? ](https://www.reddit.com/r/ollama/comments/1h7z7ev/ollama_langchain_ans_local_database/) , 2024-12-08-0915
 ```
 Hi all,
 I've been using ollama since a few months now and wanted to go a bit further in my application.
@@ -266,7 +1067,7 @@ Thanks
      
  
 all -  [ Best way to store image and text embeddings in vector store?
- ](https://www.reddit.com/r/LangChain/comments/1h7ycvq/best_way_to_store_image_and_text_embeddings_in/) , 2024-12-07-0913
+ ](https://www.reddit.com/r/LangChain/comments/1h7ycvq/best_way_to_store_image_and_text_embeddings_in/) , 2024-12-08-0915
 ```
 Working on a RAG based PDF Query system for documents with complex layout.
 
@@ -280,7 +1081,7 @@ roach for this?
 
      
  
-all -  [ Help needed to clean data ](https://www.reddit.com/r/LangChain/comments/1h7urvf/help_needed_to_clean_data/) , 2024-12-07-0913
+all -  [ Help needed to clean data ](https://www.reddit.com/r/LangChain/comments/1h7urvf/help_needed_to_clean_data/) , 2024-12-08-0915
 ```
 I have a bunch of tweets and now I want to filter the tweets in some categories. How can I automate this process. 
 
@@ -289,7 +1090,7 @@ I have a bunch of tweets and now I want to filter the tweets in some categories.
 
      
  
-all -  [ How to improve RAG results for searching a set of game rules ](https://www.reddit.com/r/LangChain/comments/1h7r7eb/how_to_improve_rag_results_for_searching_a_set_of/) , 2024-12-07-0913
+all -  [ How to improve RAG results for searching a set of game rules ](https://www.reddit.com/r/LangChain/comments/1h7r7eb/how_to_improve_rag_results_for_searching_a_set_of/) , 2024-12-08-0915
 ```
 I am trying to develop an Magic: The Gathering RAG AI system for answering rules questions and am having difficulty.
 
@@ -317,7 +1118,7 @@ e more useful for a set of rules?
 
      
  
-all -  [ TIL: LangChain has init_chat_model('model_name') helper with LiteLLM-alike notation... ](https://www.reddit.com/r/LangChain/comments/1h7qwbz/til_langchain_has_init_chat_modelmodel_name/) , 2024-12-07-0913
+all -  [ TIL: LangChain has init_chat_model('model_name') helper with LiteLLM-alike notation... ](https://www.reddit.com/r/LangChain/comments/1h7qwbz/til_langchain_has_init_chat_modelmodel_name/) , 2024-12-08-0915
 ```
 Hi! For those who, like me, have been living under a rock these past few months and spent time developing numerous JSON-
 based LLMClient, YAML-based LLMFactory's, and other solutions just to have LiteLLM-style initialization/model notation -
@@ -393,7 +1194,7 @@ Hope this helps someone avoid reinventing the wheel like I did!
 
      
  
-all -  [ LLM Access in AI Agents: Can Tools Tap Directly into Language Models? ](https://www.reddit.com/r/LangChain/comments/1h7o9fw/llm_access_in_ai_agents_can_tools_tap_directly/) , 2024-12-07-0913
+all -  [ LLM Access in AI Agents: Can Tools Tap Directly into Language Models? ](https://www.reddit.com/r/LangChain/comments/1h7o9fw/llm_access_in_ai_agents_can_tools_tap_directly/) , 2024-12-08-0915
 ```
 In an AI agent architecture, can individual tools within the agent have direct access to a Large Language Model (LLM), o
 r is LLM access restricted solely to the main agent?
@@ -402,7 +1203,7 @@ r is LLM access restricted solely to the main agent?
 
      
  
-all -  [ Best RAG framework for code (or general purpose) ](https://www.reddit.com/r/Rag/comments/1h7h7hm/best_rag_framework_for_code_or_general_purpose/) , 2024-12-07-0913
+all -  [ Best RAG framework for code (or general purpose) ](https://www.reddit.com/r/Rag/comments/1h7h7hm/best_rag_framework_for_code_or_general_purpose/) , 2024-12-08-0915
 ```
 I've been working on building RAGs for codebases. I've been using langchain until now and while it is not terrible, it's
  also not my favorite, due to how misorganized it seems. The RAG works for now, but I'll probably build a lot of stuff o
@@ -417,7 +1218,7 @@ s a personal project, I was looking into frameworks that are free
 
      
  
-all -  [ Adding authentication scheme to a langgraph api (self hosted)  ](https://www.reddit.com/r/LangChain/comments/1h7d7k8/adding_authentication_scheme_to_a_langgraph_api/) , 2024-12-07-0913
+all -  [ Adding authentication scheme to a langgraph api (self hosted)  ](https://www.reddit.com/r/LangChain/comments/1h7d7k8/adding_authentication_scheme_to_a_langgraph_api/) , 2024-12-08-0915
 ```
 Hi, I was unable to find any documentation on how to add an authentication engine to a self hosted langgraph server inst
 ance. Is there some documenation available? I was only able to access this :- [https://github.com/langchain-ai/langgraph
@@ -427,7 +1228,7 @@ ance. Is there some documenation available? I was only able to access this :- [h
 
      
  
-all -  [ Does LangGraph work in the browser??? ](https://www.reddit.com/r/LangChain/comments/1h7cu92/does_langgraph_work_in_the_browser/) , 2024-12-07-0913
+all -  [ Does LangGraph work in the browser??? ](https://www.reddit.com/r/LangChain/comments/1h7cu92/does_langgraph_work_in_the_browser/) , 2024-12-08-0915
 ```
 `[ERROR] No matching export in 'browser-external:node:async_hooks' for import 'AsyncLocalStorage'`
 
@@ -440,7 +1241,7 @@ hain/langgraph/dist/setup/async_local_storage.js:2:9:`
 
      
  
-all -  [ Struggling with LangGraph Academy's Lesson on Chains - Need Help! ](https://www.reddit.com/r/LangChain/comments/1h7cszn/struggling_with_langgraph_academys_lesson_on/) , 2024-12-07-0913
+all -  [ Struggling with LangGraph Academy's Lesson on Chains - Need Help! ](https://www.reddit.com/r/LangChain/comments/1h7cszn/struggling_with_langgraph_academys_lesson_on/) , 2024-12-08-0915
 ```
 Hey everyone,
 
@@ -468,7 +1269,7 @@ ly appreciate some guidance. Thanks in advance! 🙏
 
      
  
-all -  [ I am building a fitness application  ](https://www.reddit.com/r/LangChain/comments/1h79rkw/i_am_building_a_fitness_application/) , 2024-12-07-0913
+all -  [ I am building a fitness application  ](https://www.reddit.com/r/LangChain/comments/1h79rkw/i_am_building_a_fitness_application/) , 2024-12-08-0915
 ```
 The app collects user inputs such as weight, height, goals, and more. It then generates a detailed workout and diet plan
 . An agent will manage user data and query a CSV file containing various exercises and the muscles they target and how t
@@ -481,7 +1282,7 @@ Thanks in advance
 
      
  
-all -  [ QandA With Complex PDF. ](https://www.reddit.com/r/LangChain/comments/1h79pli/qanda_with_complex_pdf/) , 2024-12-07-0913
+all -  [ QandA With Complex PDF. ](https://www.reddit.com/r/LangChain/comments/1h79pli/qanda_with_complex_pdf/) , 2024-12-08-0915
 ```
 Hi folks - I just want know that whicb PDF parser will be a good choice to extract the data.
 
@@ -493,7 +1294,7 @@ like text inside image inside image, data in tables, graphs,diagrams etc.
      
  
 all -  [ How do I make my PDF RAG app smarter for question answering with tables in it?
- ](https://www.reddit.com/r/Rag/comments/1h77tq4/how_do_i_make_my_pdf_rag_app_smarter_for_question/) , 2024-12-07-0913
+ ](https://www.reddit.com/r/Rag/comments/1h77tq4/how_do_i_make_my_pdf_rag_app_smarter_for_question/) , 2024-12-08-0915
 ```
 Hi all,  
 I'm developing a PDF RAG app . My app is built using LCEL chain.
@@ -521,7 +1322,7 @@ chain subreddit too but since my app is a RAG app and I need answers that's why 
 
      
  
-all -  [ How do I make my PDF RAG app smarter for question answering with tables in it? ](https://www.reddit.com/r/LangChain/comments/1h77shd/how_do_i_make_my_pdf_rag_app_smarter_for_question/) , 2024-12-07-0913
+all -  [ How do I make my PDF RAG app smarter for question answering with tables in it? ](https://www.reddit.com/r/LangChain/comments/1h77shd/how_do_i_make_my_pdf_rag_app_smarter_for_question/) , 2024-12-08-0915
 ```
 Hi all,  
 I'm developing a PDF RAG app . My app is built using LCEL chain.
@@ -546,7 +1347,7 @@ What can I do ?
 
      
  
-all -  [ QandA With complex PDF in by using langchain ](https://www.reddit.com/r/LangChain/comments/1h76mdi/qanda_with_complex_pdf_in_by_using_langchain/) , 2024-12-07-0913
+all -  [ QandA With complex PDF in by using langchain ](https://www.reddit.com/r/LangChain/comments/1h76mdi/qanda_with_complex_pdf_in_by_using_langchain/) , 2024-12-08-0915
 ```
 HI folks, I am working on a app in which user can upload a PDF and then start QandA with that PDF. PDF has very complex 
 data like text inside image inside image, data in tabular / graph / diagrams format.
@@ -558,7 +1359,7 @@ or this functionality
 
      
  
-all -  [ Grouping runs with langsmith ](https://www.reddit.com/r/LangChain/comments/1h76bdq/grouping_runs_with_langsmith/) , 2024-12-07-0913
+all -  [ Grouping runs with langsmith ](https://www.reddit.com/r/LangChain/comments/1h76bdq/grouping_runs_with_langsmith/) , 2024-12-08-0915
 ```
 I am using langchain and langsmith, and want to group multiple llm calls in a single trace, and maybe add a tag to them.
   
@@ -574,7 +1375,7 @@ But cant find anything in the docs that does this. This seems like a very basic 
 
      
  
-all -  [ [For Hire] AI/ML Engineer & Full Stack Developer – Chatbots & Scalable Web Solutions ](https://www.reddit.com/r/forhire/comments/1h74krg/for_hire_aiml_engineer_full_stack_developer/) , 2024-12-07-0913
+all -  [ [For Hire] AI/ML Engineer & Full Stack Developer – Chatbots & Scalable Web Solutions ](https://www.reddit.com/r/forhire/comments/1h74krg/for_hire_aiml_engineer_full_stack_developer/) , 2024-12-08-0915
 ```
 **Need an AI/Full Stack Developer? Let’s Connect!** 👋
 
@@ -611,7 +1412,7 @@ e! 🌐✨
 
      
  
-all -  [ Langchain pipeline making the application slow. ](https://www.reddit.com/r/LangChain/comments/1h743id/langchain_pipeline_making_the_application_slow/) , 2024-12-07-0913
+all -  [ Langchain pipeline making the application slow. ](https://www.reddit.com/r/LangChain/comments/1h743id/langchain_pipeline_making_the_application_slow/) , 2024-12-08-0915
 ```
 I am using groq as my LLM for my chatbot,
 I saw on Langsmith that my RAG pipeline is taking more time then the LLM.
@@ -623,7 +1424,7 @@ How
 
      
  
-all -  [ How would you handle headers and footers of a page in RAG model? ](https://www.reddit.com/r/LangChain/comments/1h73laf/how_would_you_handle_headers_and_footers_of_a/) , 2024-12-07-0913
+all -  [ How would you handle headers and footers of a page in RAG model? ](https://www.reddit.com/r/LangChain/comments/1h73laf/how_would_you_handle_headers_and_footers_of_a/) , 2024-12-08-0915
 ```
 Hi. I made RAG system but sometimes search results are just footers and headers from multiple different pages. I have se
 veral clients, so I need a general solution, not for a specific web site. This should be a very typical and classic prob
@@ -633,7 +1434,7 @@ lem of a search engine. Does anyone know a well-known and easy-to-implement solu
 
      
  
-all -  [ Methods for File Reranking and Selection ](https://www.reddit.com/r/Rag/comments/1h72or5/methods_for_file_reranking_and_selection/) , 2024-12-07-0913
+all -  [ Methods for File Reranking and Selection ](https://www.reddit.com/r/Rag/comments/1h72or5/methods_for_file_reranking_and_selection/) , 2024-12-08-0915
 ```
 There is BM25 in literature which is a library named as rank-bm25 on github. Langchain uses that bm25 library.
 But it is
@@ -649,7 +1450,7 @@ Is there any other method? I want to share our insights.
 
      
  
-all -  [ Submit Feedback Node (Getting runId from RunnableConfig inside a node) ](https://www.reddit.com/r/LangChain/comments/1h6zxwq/submit_feedback_node_getting_runid_from/) , 2024-12-07-0913
+all -  [ Submit Feedback Node (Getting runId from RunnableConfig inside a node) ](https://www.reddit.com/r/LangChain/comments/1h6zxwq/submit_feedback_node_getting_runid_from/) , 2024-12-08-0915
 ```
 I have raised a question on the repo: [discussion](https://github.com/langchain-ai/langgraphjs/discussions/655) and in r
 /LangGraph: [post](https://www.reddit.com/r/LangGraph/comments/1giuqw7/submit_feedback_node_getting_runid_from/)
@@ -668,7 +1469,7 @@ the LangGraph side or there is different way to be doing this.
 
      
  
-all -  [ Ever Changing LangChain APIs ](https://www.reddit.com/r/LangChain/comments/1h6zvr9/ever_changing_langchain_apis/) , 2024-12-07-0913
+all -  [ Ever Changing LangChain APIs ](https://www.reddit.com/r/LangChain/comments/1h6zvr9/ever_changing_langchain_apis/) , 2024-12-08-0915
 ```
 I started to learn LangChain and found some tutorial materials are dated. Apparently, LangChain has gone through revisio
 ns of APIs. My question is how I can find out the new APIs when I run into deprecated APIs. For example, I ran into the 
@@ -694,7 +1495,7 @@ How do I find out the right updated API to
 
      
  
-all -  [ Best way to chunk html ](https://www.reddit.com/r/LangChain/comments/1h6z6bd/best_way_to_chunk_html/) , 2024-12-07-0913
+all -  [ Best way to chunk html ](https://www.reddit.com/r/LangChain/comments/1h6z6bd/best_way_to_chunk_html/) , 2024-12-08-0915
 ```
 I have htmls that I need to chunk in order to pass it to a LLM. It's not going to be used for rag, so I would like chunk
 s with around 2-5k tokens each. 
@@ -713,7 +1514,7 @@ fazenda.sp.gov.br/Paginas/Portaria-SRE-77-de-2024.aspx](https://legislacao.fazen
 
      
  
-all -  [ What is the best alternative to LangChain/LangGraph for experimentation and production ](https://www.reddit.com/r/LangChain/comments/1h6tvme/what_is_the_best_alternative_to/) , 2024-12-07-0913
+all -  [ What is the best alternative to LangChain/LangGraph for experimentation and production ](https://www.reddit.com/r/LangChain/comments/1h6tvme/what_is_the_best_alternative_to/) , 2024-12-08-0915
 ```
 There’s lots of dissatisfaction from the community about LangChain. Before I begin building my first MVP, I'd like to ge
 t recommendations for alternative frameworks. I'm looking for options that would work well for both MVP development and 
@@ -724,417 +1525,7 @@ production deployment. If there's a single framework suitable for both stages, t
 
      
  
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreeebies/comments/1h6phyi/list_of_free_and_best_selling_discounted_courses/) , 2024-12-07-0913
-```
-# Udemy Free Courses for 05 December 2024
-
-Here are the Udemy free courses available for December 5, 2024. Please note t
-hat coupons may expire at any time, so enroll quickly to avail of the courses for free:
-
-
-
-* [REDEEM OFFER ](https://ido
-wnloadcoupon.com/udemy/28014/)Digital Hidden Secrets
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/28013/)Mindful 
-Computing
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/28012/)Mastering Business Blueprints 101: The Ultimate Gui
-de
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/28011/)Hack-Proof Banking: Defend Against Credit Card Threats!
-* 
-[REDEEM OFFER ](https://idownloadcoupon.com/udemy/28010/)DevOps MasterClass 2024: Terraform Kubernetes Ansible Docker
-* 
-[REDEEM OFFER ](https://idownloadcoupon.com/udemy/28009/)JavaScript Interview Masterclass: Top 300 Questions (2024)
-* [R
-EDEEM OFFER ](https://idownloadcoupon.com/udemy/28008/)Build 5 Spring Boot Projects with Java: Line-by-Line Coding
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/28007/)Spring Boot + Apache Kafka Course – The Practical Guide
-* [REDEEM 
-OFFER ](https://idownloadcoupon.com/udemy/28006/)Project Risk Aggregation: A Comprehensive Guide
-* [REDEEM OFFER ](https
-://idownloadcoupon.com/udemy/28005/)Customizable Project Risk Management Templates
-* [REDEEM OFFER ](https://idownloadco
-upon.com/udemy/28004/)Complete Generative AI Course With Langchain and Huggingface
-* [REDEEM OFFER ](https://idownloadco
-upon.com/udemy/28003/)Executive Program in Management and Business Administration
-* [REDEEM OFFER ](https://idownloadcou
-pon.com/udemy/28002/)10 Day MySQL Bootcamp | My SQL Database Design for Beginners
-* [REDEEM OFFER ](https://idownloadcou
-pon.com/udemy/28001/)Ultimate Ethical Hacking from Zero To Hero
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2800
-0/)Free PMI Project Management Professional (PMP) Tutorial – Mastering the PMP Mindset for Exam Success
-* [REDEEM OFFER 
-](https://idownloadcoupon.com/udemy/27999/)Free Human Resources Tutorial – Human Resource Management
-* Free Power Query 
-Tutorial – Power Query For Data Analysis with Microsoft Excel
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/27998/)
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27997/)Free Meetings Tutorial – Mastering 1:1 Meetings: A Manager’s
- Toolkit for Success
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27996/)Free Tutorial – Stress Relief for Busy L
-ives: Relax with NeuroGraphica®
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27995/)Free Tutorial – Levelling in 
-Construction for Beginners – Mastering a Laser
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27994/)Free Self-Awar
-eness Tutorial – La danza dei sette passi
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27993/)Free Tutorial – 100
- najpopularniejszych niemieckich czasowników
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27992/)Free Tutorial – 
-Learning Photoshop Express from Scratch
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27991/)Free Artificial Intel
-ligence (AI) Tutorial – Yapay Zeka ile Sermayesiz Şekilde Dolar Kazanın
-* [REDEEM OFFER ](https://idownloadcoupon.com/ud
-emy/27990/)Free Computer Basics Tutorial – Essential Excel
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27989/)Fr
-ee AWS Certified Cloud Practitioner Tutorial – Curso base gratuito – Certificações AWS CLF-C02 e SAA-C03 PT
-* [REDEEM OF
-FER ](https://idownloadcoupon.com/udemy/27988/)Free Cash Flow Tutorial – Third Document of Financial Statements-Cash Flo
-w Statement
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27987/)Free German Language Tutorial – LEARN GERMAN EASI
-LY: THE EASY GUIDE TO SELF-LEARNING
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27986/)Free Building Information
- Modeling (BIM) Tutorial – Revit – Dynamo – 5 Rotinas introdutorias
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/
-27985/)ChatGPT Prompt Engineering Mastery
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27984/)Adobe Premiere Pro 
-CC: Video Editing for Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27983/)Mastering ChatGPT Prompt Engi
-neering: Beginner to Advanced
-* The ChatGPT Prompt Engineering Mastery Course
-* [REDEEM OFFER](https://idownloadcoupon.c
-om/udemy/27982/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27981/)ChatGPT Masterclass: The Ultimate Beginner’s
- Guide!
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27980/)Videoscribe Whiteboard Animations : MasterClass With 
-Project
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27979/)Canva Masterclass For Social Media And Content Creati
-on
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27978/)Master Web & Mobile Design: Figma, UI/UX Essentials, +More
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27977/)Fitness Mastery (Bodybuilding, Muscle Building, Gym Workout)
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27976/)CSS Complete Course For Beginners
-* [REDEEM OFFER ](https://
-idownloadcoupon.com/udemy/27975/)Mastering Python, Pandas, Numpy for Absolute Beginners
-* [REDEEM OFFER ](https://idownl
-oadcoupon.com/udemy/27974/)2024 R Programming Bootcamp for Absolute Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.
-com/udemy/27973/)Executive Diploma in Business Management
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27972/)Dat
-a Center HVAC Design Fundamentals (Dual Certification)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27971/)Parale
-gal Professional Certification (PPC)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27970/)From unknown to popular!
- Secrets to explosive brand growth
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27969/)Aire Acondicionado y Refri
-geración (HVAC Mantenimiento PRO)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27968/)Python & Django REST API Bo
-otcamp – Build A Python Web API
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27967/)French Language Course: Learn
- French/ Speak it like Natives
-* A Career in HVAC : Exploring HVAC Career Trajectory
-* [REDEEM OFFER](https://idownloadc
-oupon.com/udemy/27966/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27965/)Implementing Agile Marketing and Mark
-eting Sprints
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27964/)Grow Your Sales With Conversion Rate Optimizati
-on (CRO)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27963/)APICS CPIM Planning and Inventory Management | Exam 
-Dumps
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27962/)Master PMI-PBA Exam: Business Analysis Mock Tests
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/27961/)\[NEW\] Prompt Engineering Practice Tests- Interview Questions
-* [
-REDEEM OFFER ](https://idownloadcoupon.com/udemy/27960/)Luxury Industry Professional Certification (LIPC)
-* [REDEEM OFFE
-R ](https://idownloadcoupon.com/udemy/27959/)Create a WordPress website with Hostinger!
-* [REDEEM OFFER ](https://idownl
-oadcoupon.com/udemy/27958/)TikTok Marketing. How to promote your business effectively!
-* [REDEEM OFFER ](https://idownlo
-adcoupon.com/udemy/27957/)ChatGPT & Midjourney & Gemini: Digital Marketing Assistants
-* [REDEEM OFFER ](https://idownloa
-dcoupon.com/udemy/27956/)Upwork Beginner Course: Win Freelance World
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy
-/27955/)Make a WordPress Website with Elementor
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27954/)ICDL الرخصة ا
-لدولية لقيادة الحاسب الآلي
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27953/)ChatGPT Prompts for Trading Stocks
- on Wall Street
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27952/)Firebase Database : CRUD Android App Developm
-ent
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27951/)Hack Windows
-* Ethical Hacking: Weaponization
-* [REDEEM O
-FFER](https://idownloadcoupon.com/udemy/27950/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27949/)Ethical Hacki
-ng: Command Injection
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27948/)Learn SQL from Scratch : SQL Tutorial
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27947/)Branding & Brand Marketing Professional Certification (BMPC)
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27946/)Acing the Java Interview: Top Java Interview Questions
-* [REDE
-EM OFFER ](https://idownloadcoupon.com/udemy/27945/)Contact Center Manager Professional Certification
-* [REDEEM OFFER ](
-https://idownloadcoupon.com/udemy/27944/)Docker for Beginners: a Hands-On Practice Course (+12 hours)
-* [REDEEM OFFER ](
-https://idownloadcoupon.com/udemy/27943/)Crea un Sistema de Compra y Venta con PHP, JS y MYSQL
-* [REDEEM OFFER ](https:/
-/idownloadcoupon.com/udemy/27942/)Mastering Mermaid.js: Diagram, Charts and Data Visualization
-* [REDEEM OFFER ](https:/
-/idownloadcoupon.com/udemy/27941/)Procurement Manager Professional Certification
-* [REDEEM OFFER ](https://idownloadcoup
-on.com/udemy/27940/)NSE7\_OTS-6.4: Fortinet Network Security Expert Practice 2024
-* [REDEEM OFFER ](https://idownloadcou
-pon.com/udemy/27939/)Blockchain Professional Certification
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27938/)Ul
-timate AWS Solutions Architect Practice Exams 2024 600+ Q
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27937/)CDO
- Chief Digital Officer Executive Certification
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27936/)Trading Skills
- Evaluation – Forex Edition
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27935/)Trading Skills Evaluation – Finan
-cial Markets Edition
-
-GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://idownloadcoupon.com/)
-```
----
-
-     
- 
-all -  [ List of FREE and Best Selling Discounted Courses ](https://www.reddit.com/r/udemyfreebies/comments/1h6phw3/list_of_free_and_best_selling_discounted_courses/) , 2024-12-07-0913
-```
-# Udemy Free Courses for 05 December 2024
-
-Here are the Udemy free courses available for December 5, 2024. Please note t
-hat coupons may expire at any time, so enroll quickly to avail of the courses for free:
-
-* [REDEEM OFFER ](https://idown
-loadcoupon.com/udemy/28014/)Digital Hidden Secrets
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/28013/)Mindful Co
-mputing
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/28012/)Mastering Business Blueprints 101: The Ultimate Guide
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/28011/)Hack-Proof Banking: Defend Against Credit Card Threats!
-* [R
-EDEEM OFFER ](https://idownloadcoupon.com/udemy/28010/)DevOps MasterClass 2024: Terraform Kubernetes Ansible Docker
-* [R
-EDEEM OFFER ](https://idownloadcoupon.com/udemy/28009/)JavaScript Interview Masterclass: Top 300 Questions (2024)
-* [RED
-EEM OFFER ](https://idownloadcoupon.com/udemy/28008/)Build 5 Spring Boot Projects with Java: Line-by-Line Coding
-* [REDE
-EM OFFER ](https://idownloadcoupon.com/udemy/28007/)Spring Boot + Apache Kafka Course – The Practical Guide
-* [REDEEM OF
-FER ](https://idownloadcoupon.com/udemy/28006/)Project Risk Aggregation: A Comprehensive Guide
-* [REDEEM OFFER ](https:/
-/idownloadcoupon.com/udemy/28005/)Customizable Project Risk Management Templates
-* [REDEEM OFFER ](https://idownloadcoup
-on.com/udemy/28004/)Complete Generative AI Course With Langchain and Huggingface
-* [REDEEM OFFER ](https://idownloadcoup
-on.com/udemy/28003/)Executive Program in Management and Business Administration
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/28002/)10 Day MySQL Bootcamp | My SQL Database Design for Beginners
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/28001/)Ultimate Ethical Hacking from Zero To Hero
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/28000/
-)Free PMI Project Management Professional (PMP) Tutorial – Mastering the PMP Mindset for Exam Success
-* [REDEEM OFFER ](
-https://idownloadcoupon.com/udemy/27999/)Free Human Resources Tutorial – Human Resource Management
-* Free Power Query Tu
-torial – Power Query For Data Analysis with Microsoft Excel
-* [REDEEM OFFER](https://idownloadcoupon.com/udemy/27998/)
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27997/)Free Meetings Tutorial – Mastering 1:1 Meetings: A Manager’s T
-oolkit for Success
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27996/)Free Tutorial – Stress Relief for Busy Liv
-es: Relax with NeuroGraphica®
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27995/)Free Tutorial – Levelling in Co
-nstruction for Beginners – Mastering a Laser
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27994/)Free Self-Awaren
-ess Tutorial – La danza dei sette passi
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27993/)Free Tutorial – 100 n
-ajpopularniejszych niemieckich czasowników
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27992/)Free Tutorial – Le
-arning Photoshop Express from Scratch
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27991/)Free Artificial Intelli
-gence (AI) Tutorial – Yapay Zeka ile Sermayesiz Şekilde Dolar Kazanın
-* [REDEEM OFFER ](https://idownloadcoupon.com/udem
-y/27990/)Free Computer Basics Tutorial – Essential Excel
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27989/)Free
- AWS Certified Cloud Practitioner Tutorial – Curso base gratuito – Certificações AWS CLF-C02 e SAA-C03 PT
-* [REDEEM OFFE
-R ](https://idownloadcoupon.com/udemy/27988/)Free Cash Flow Tutorial – Third Document of Financial Statements-Cash Flow 
-Statement
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27987/)Free German Language Tutorial – LEARN GERMAN EASILY
-: THE EASY GUIDE TO SELF-LEARNING
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27986/)Free Building Information M
-odeling (BIM) Tutorial – Revit – Dynamo – 5 Rotinas introdutorias
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27
-985/)ChatGPT Prompt Engineering Mastery
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27984/)Adobe Premiere Pro CC
-: Video Editing for Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27983/)Mastering ChatGPT Prompt Engine
-ering: Beginner to Advanced
-* The ChatGPT Prompt Engineering Mastery Course
-* [REDEEM OFFER](https://idownloadcoupon.com
-/udemy/27982/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27981/)ChatGPT Masterclass: The Ultimate Beginner’s G
-uide!
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27980/)Videoscribe Whiteboard Animations : MasterClass With Pr
-oject
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27979/)Canva Masterclass For Social Media And Content Creation
-
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27978/)Master Web & Mobile Design: Figma, UI/UX Essentials, +More
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27977/)Fitness Mastery (Bodybuilding, Muscle Building, Gym Workout)
-*
- [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27976/)CSS Complete Course For Beginners
-* [REDEEM OFFER ](https://id
-ownloadcoupon.com/udemy/27975/)Mastering Python, Pandas, Numpy for Absolute Beginners
-* [REDEEM OFFER ](https://idownloa
-dcoupon.com/udemy/27974/)2024 R Programming Bootcamp for Absolute Beginners
-* [REDEEM OFFER ](https://idownloadcoupon.co
-m/udemy/27973/)Executive Diploma in Business Management
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27972/)Data 
-Center HVAC Design Fundamentals (Dual Certification)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27971/)Paralega
-l Professional Certification (PPC)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27970/)From unknown to popular! S
-ecrets to explosive brand growth
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27969/)Aire Acondicionado y Refrige
-ración (HVAC Mantenimiento PRO)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27968/)Python & Django REST API Boot
-camp – Build A Python Web API
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27967/)French Language Course: Learn F
-rench/ Speak it like Natives
-* A Career in HVAC : Exploring HVAC Career Trajectory
-* [REDEEM OFFER](https://idownloadcou
-pon.com/udemy/27966/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27965/)Implementing Agile Marketing and Market
-ing Sprints
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27964/)Grow Your Sales With Conversion Rate Optimization
- (CRO)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27963/)APICS CPIM Planning and Inventory Management | Exam Du
-mps
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27962/)Master PMI-PBA Exam: Business Analysis Mock Tests
-* [REDE
-EM OFFER ](https://idownloadcoupon.com/udemy/27961/)\[NEW\] Prompt Engineering Practice Tests- Interview Questions
-* [RE
-DEEM OFFER ](https://idownloadcoupon.com/udemy/27960/)Luxury Industry Professional Certification (LIPC)
-* [REDEEM OFFER 
-](https://idownloadcoupon.com/udemy/27959/)Create a WordPress website with Hostinger!
-* [REDEEM OFFER ](https://idownloa
-dcoupon.com/udemy/27958/)TikTok Marketing. How to promote your business effectively!
-* [REDEEM OFFER ](https://idownload
-coupon.com/udemy/27957/)ChatGPT & Midjourney & Gemini: Digital Marketing Assistants
-* [REDEEM OFFER ](https://idownloadc
-oupon.com/udemy/27956/)Upwork Beginner Course: Win Freelance World
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/2
-7955/)Make a WordPress Website with Elementor
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27954/)ICDL الرخصة الد
-ولية لقيادة الحاسب الآلي
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27953/)ChatGPT Prompts for Trading Stocks o
-n Wall Street
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27952/)Firebase Database : CRUD Android App Developmen
-t
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27951/)Hack Windows
-* Ethical Hacking: Weaponization
-* [REDEEM OFF
-ER](https://idownloadcoupon.com/udemy/27950/)
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27949/)Ethical Hacking
-: Command Injection
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27948/)Learn SQL from Scratch : SQL Tutorial
-* [
-REDEEM OFFER ](https://idownloadcoupon.com/udemy/27947/)Branding & Brand Marketing Professional Certification (BMPC)
-* [
-REDEEM OFFER ](https://idownloadcoupon.com/udemy/27946/)Acing the Java Interview: Top Java Interview Questions
-* [REDEEM
- OFFER ](https://idownloadcoupon.com/udemy/27945/)Contact Center Manager Professional Certification
-* [REDEEM OFFER ](ht
-tps://idownloadcoupon.com/udemy/27944/)Docker for Beginners: a Hands-On Practice Course (+12 hours)
-* [REDEEM OFFER ](ht
-tps://idownloadcoupon.com/udemy/27943/)Crea un Sistema de Compra y Venta con PHP, JS y MYSQL
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/27942/)Mastering Mermaid.js: Diagram, Charts and Data Visualization
-* [REDEEM OFFER ](https://i
-downloadcoupon.com/udemy/27941/)Procurement Manager Professional Certification
-* [REDEEM OFFER ](https://idownloadcoupon
-.com/udemy/27940/)NSE7\_OTS-6.4: Fortinet Network Security Expert Practice 2024
-* [REDEEM OFFER ](https://idownloadcoupo
-n.com/udemy/27939/)Blockchain Professional Certification
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27938/)Ulti
-mate AWS Solutions Architect Practice Exams 2024 600+ Q
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27937/)CDO C
-hief Digital Officer Executive Certification
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27936/)Trading Skills E
-valuation – Forex Edition
-* [REDEEM OFFER ](https://idownloadcoupon.com/udemy/27935/)Trading Skills Evaluation – Financi
-al Markets Edition
-
-GET MORE FREE ONLINE COURSES WITH CERTIFICATE – [CLICK HERE](https://www.reddit.com/r/udemyfreeebies
-/)
-```
----
-
-     
- 
-all -  [ We made an agent with LangGraph that got 48.60% on SWE-bench, all open-source ](https://www.reddit.com/r/LangChain/comments/1h6o63g/we_made_an_agent_with_langgraph_that_got_4860_on/) , 2024-12-07-0913
-```
-We at [Composio](https://composio.dev/) are building the tool infrastructure for AI agents, and one of our users' bigges
-t requests was toolkits for building custom coding agents that work. So, we created SWE-Kit, a starter template with all
- the toolkits for building AI coding agents.
-
-To test the efficiency of our tools, we built a comprehensive AI agent com
-plete [open-source ](https://github.com/ComposioHQ/composio/tree/master/python/swe/agent)using LangGraph and tested it o
-n [SWE-bench](https://www.swebench.com/) verified, and it got 48.60%.
-
-* **Code Analysis Tool:** Intelligently retrieves
- relevant code snippets from the repository.
-* **File Tool:** Facilitates navigation and updates to files.
-* **Shell Too
-l:** Performs shell operations.
-* **Git Tool:** Handles version control tasks.
-
-We optimized the tools for improved func
-tion calling accuracy.
-
-The code is open-source, and you can even modify it to add external integrations like GitHub, Li
-near, Slack, etc., using Composio to build a full-fledged AI software engineer. Check out the [SWE-Kit agent](https://bl
-og.langchain.dev/composio-swekit/) blog published on LangChains’ blog for an architectural explanation of the SWE agent.
-
-
-Write code, review it, write tests, and more.
-
-I am not even kidding. Many companies have raised millions just from th
-is.
-
-Check out SWE-kit: [https://composio.dev/swe-kit/](https://composio.dev/swe-kit/)
-```
----
-
-     
- 
-all -  [ [Hiring] Currently working on a RAG + Big Data platform/marketplace and looking for developers ](https://www.reddit.com/r/LangChain/comments/1h6n2c6/hiring_currently_working_on_a_rag_big_data/) , 2024-12-07-0913
-```
-I'm currently building a RAG + Big data platform/marketplace. It will be modular drag and drop pipelines. Think what hom
-e depot is for home builders, but we are for Analysts, Researchers, etc. The startup's name is Analytics Depot and when 
-it comes to branding and marketing, we have a massive advantage. If you have built something along these lines, DM me. I
-'d love to discuss how we can work together.
-```
----
-
-     
- 
-all -  [ HI all, 
-
-I am building a RAG application that involves private data. I have been asked to use a loc ](https://www.reddit.com/r/LangChain/comments/1h6mk8y/hi_all_i_am_building_a_rag_application_that/) , 2024-12-07-0913
-```
-P.s I am currently experimenting with ollama
-```
----
-
-     
- 
-MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-07-0913
+MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-08-0915
 ```
   
 [https://github.com/dmayboroda/minima](https://github.com/dmayboroda/minima)  
@@ -1170,34 +1561,6 @@ odels (will be added soon)
 
 Welcome to contribute (watch, fork
 , star) Thank you so much!
-```
----
-
-     
- 
-MachineLearning -  [ [P] Open-source declarative framework to build LLM applications - looking for contributors ](https://www.reddit.com/r/MachineLearning/comments/1gkpazh/p_opensource_declarative_framework_to_build_llm/) , 2024-12-07-0913
-```
-I've been building LLM-based applications, and was super frustated with all major frameworks - langchain, autogen, crewA
-I, etc. They also seem to introduce a pile of unnecessary abstractions. It becomes super hard to understand what's going
- behind the curtains even for very simple stuff.
-
-[So I just published this open-source framework GenSphere.](https://gi
-thub.com/octopus2023-inc/gensphere) The idea is have something like **Docker for LLMs**. You build applications with YAM
-L files, that define an execution graph. Nodes can be either LLM API calls, regular function executions or other graphs 
-themselves. Because you can nest graphs easily, building complex applications is not an issue, but at the same time you 
-don't lose control.
-
-You basically code in YAML, stating what are the tasks that need to be done and how they connect. O
-ther than that, you only write individual python functions to be called during the execution. No new classes and abstrac
-tions to learn.
-
-Its all open-source. **Now I'm looking for contributors** to adapt the framework for cycles and conditi
-onal nodes - which would allow full-fledged agentic system building! Pls reach out  if you want to contribute, there are
- tons of things to do!
-
-PS: [you can read the detailed docs here,](https://gensphere.readthedocs.io/en/latest/) And go o
-ver this quick [Google Colab tutorial.](https://github.com/octopus2023-inc/gensphere/blob/main/examples/gensphere_tutori
-al.ipynb)
 ```
 ---
 
