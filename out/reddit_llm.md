@@ -1,5 +1,1057 @@
  
-all -  [ [0 YOE, Unemployed , Machine Learning/Data Science, India] ](https://www.reddit.com/r/resumes/comments/1hc0c61/0_yoe_unemployed_machine_learningdata_science/) , 2024-12-12-0914
+all -  [ Aider + langchain: A match made in heaven? ](https://www.reddit.com/r/LocalLLaMA/comments/1hczbla/aider_langchain_a_match_made_in_heaven/) , 2024-12-13-0914
+```
+ 🚀
+
+Hey everyone! In the spirit of r/localllama, I wanted to share a little experiment I’ve been working on: [RA.Aid](ht
+tps://github.com/ai-christianson/RA.Aid). This started after Windsurf announced their pricing changes, and I kept runnin
+g into its limits—usage caps, unreliability, and cost. I thought, why not try building something together that combines 
+the best parts of aider and LangChain to handle programming tasks more effectively?
+
+RA.Aid is an experiment to make aid
+er a tool for a LangChain agent. The agent explores your codebase, finds key facts, files, and snippets for your task, a
+nd can even ask tough questions using o1-preview. It’s been exciting to see how well it works with tools like:  
+- **Fil
+e exploration tools** for navigating projects.  
+- **Fuzzy find + ripgrep** for quickly locating key snippets.  
+- An op
+tional **cowboy 🤠 mode** that lets the agent automatically run shell commands (if you’re feeling adventurous).  
+
+So far
+, it has been performing better for the tasks I’ve tested it on, especially complex ones. Right now, it’s set up with so
+me of the strongest models available (like Claude and o1-preview). However, it should work well with open models too, th
+ough we’ll probably need to do more prompting work and add configurability to make it really effective.  
+
+If we can get
+ some PRs rolling in, we might be able to create a completely free and open tool that far surpasses even $500/month prop
+rietary solutions like Devin. The code is up on GitHub under Apache 2.0: [RA.Aid](https://github.com/ai-christianson/RA.
+Aid).
+
+Happy to hear any thoughts or feedback from the community!
+```
+---
+
+     
+ 
+all -  [ Token limit challenge with large tool/function calling response ](https://www.reddit.com/r/LangChain/comments/1hcwrzk/token_limit_challenge_with_large_toolfunction/) , 2024-12-13-0914
+```
+Hi everyone, 
+
+  
+I'm currently building application with function calling using langchain/langgraph. Tool calling funct
+ionality works well in general but some of my tools make call to 3rd party search API, which often return huge JSON resp
+onse body. In the scenario when multiple search requests needs to be called, and all tool calling search responses need 
+to pass to invoke AI model to generate AI response, I quickly run into token limit for AI model. Does anyone has any exp
+erience with handling huge tool calling response and has some solution that can optimize? 
+
+  
+I have considered few way
+s 
+
+(1) In tool calling, after getting response from 3rd party search API, before returning back to my main agent, I cal
+l AI model to summary my search API response. However, this results into loss of information from the original search re
+sponse which eventually leads to poor final AI response
+
+(2) In tool calling, after getting response from 3rd party sear
+ch API, transform the response into documents, save it as embedding and search for the most relevant document, return to
+ the main agent. However, this search within search sounds really inefficient consider search API might already return r
+esults with high relevance? 
+```
+---
+
+     
+ 
+all -  [  CommanderAI / LLM-Driven Action Generation on Windows with Langchain (openai) ](https://www.reddit.com/r/OpenAIDev/comments/1hcwok1/commanderai_llmdriven_action_generation_on/) , 2024-12-13-0914
+```
+Hey everyone,
+
+I’m sharing a project I worked on some time ago: a LLM-Driven Action Generation on Windows with Langchain
+ (openai). An automation system powered by a Large Language Model (LLM) to understand and execute instructions. The idea
+ is simple: you give a natural language command (e.g., “Open Notepad and type ‘Hello, world!’”), and the system attempts
+ to translate it into actual actions on your Windows machine.
+
+**Key Features:**
+
+* **LLM-Driven Action Generation:** Th
+e system interprets requests and dynamically generates Python code to interact with applications.
+* **Automated Windows 
+Interaction:** Opening and controlling applications using tools like pywinauto and pyautogui.
+* **Screen Analysis & OCR:
+** Capture and analyze the screen with Tesseract OCR to verify UI states and adapt accordingly.
+* **Speech Recognition &
+ Text-to-Speech:** Control the computer with voice commands and receive spoken feedback.
+
+**Current State of the Project
+:**  
+This is a proof of concept developed a while ago and not maintained recently. There are many bugs, unfinished feat
+ures, and plenty of optimizations to be done. Overall, it’s more a feasibility demo than a polished product.
+
+**Why Shar
+e It?**
+
+* If you’re curious about integrating an LLM with Windows automation tools, this project might serve as inspira
+tion.
+* You’re welcome to contribute by fixing bugs, adding features, or suggesting improvements.
+* Consider this a star
+ting point rather than a finished solution. Any feedback or assistance is greatly appreciated!
+
+**How to Contribute:**
+
+
+* The source code is available on GitHub (link in the comments).
+* Feel free to fork, open PRs, file issues, or simply u
+se it as a reference for your own projects.
+
+**In Summary:**  
+This project showcases the potential of LLM-driven Window
+s automation. Although it’s incomplete and imperfect, I’m sharing it to encourage discussion, experimentation, and hopef
+ully the emergence of more refined solutions!
+
+Thanks in advance to anyone who takes a look. Feel free to share your tho
+ughts or contributions!  
+
+
+[https://github.com/JacquesGariepy/CommanderAI](https://github.com/JacquesGariepy/CommanderA
+I)
+
+
+```
+---
+
+     
+ 
+all -  [ multi RAG issue ](https://www.reddit.com/r/LangChain/comments/1hcvpmy/multi_rag_issue/) , 2024-12-13-0914
+```
+Hi everyone, I need your help. I'm working on a multi-profile RAG using RetrievalQA, FAISS, and Chainlit. Recently, whil
+e testing, I encountered an issue with memory usage.
+
+I have 5 chat profiles in Chainlit, each linked to a different vec
+tor database. When I select a chat profile and load its corresponding vector database, memory usage increases as expecte
+d. However, when I close that chat profile, the memory usage does not decrease.
+
+Does anyone know how to solve this issu
+e? Is there a function to properly close or unload vector databases in RetrievalQA? Or perhaps a way to terminate the Re
+trievalQA process and free up memory?
+```
+---
+
+     
+ 
+all -  [ How to clone any Twitter personality into an AI (your move, Elon) 🤖 ](https://www.reddit.com/r/LangChain/comments/1hcrjfp/how_to_clone_any_twitter_personality_into_an_ai/) , 2024-12-13-0914
+```
+The LangChain team dropped this gem showing how to build AI personas from Twitter/X profiles using LangGraph and Arcade.
+ It's basically like having a conversation with someone's Twitter alter ego, minus the blue checkmark drama.
+
+Key featur
+es:
+
+* Uses long-term memory to store tweets (like that ex who remembers everything you said 3 years ago)
+* RAG implemen
+tation that's actually useful and not just buzzword bingo
+* Works with any Twitter profile (ethics left as an exercise f
+or the reader)
+* Uses Arcade to integrate with Twitter/X
+* Clean implementation that won't make your eyes bleed
+
+Video t
+utorial shows full implementation from scratch. Perfect for when you want to chat with tech Twitter without actually goi
+ng on Twitter.
+
+[https://www.youtube.com/watch?v=rMDu930oNYY](https://www.youtube.com/watch?v=rMDu930oNYY)
+
+P.S. No GPTs
+ were harmed in the making of this tutorial.
+```
+---
+
+     
+ 
+all -  [ [For Hire] Title [For Hire] Experienced AI/ML, Full Stack, and DevOps Developer – Ready to Tackle Yo ](https://www.reddit.com/r/forhire/comments/1hcpvx4/for_hire_title_for_hire_experienced_aiml_full/) , 2024-12-13-0914
+```
+🚀 **Your One-Stop Solution for AI/ML, Full Stack Development, and DevOps!**
+
+Hey, I'm Sheryar! 👋 I'm an experienced **AI
+/ML Engineer**, **Full Stack Developer**, and **DevOps Specialist**. If you're looking to bring your ideas to life with 
+scalable, high-performance solutions, I can help!
+
+💻 **Full Stack Development**
+
+* Beautiful UIs: React | Angular
+* Powe
+rful APIs: Node.js | NestJS
+* Easy Payment Integration: Stripe
+* Cloud Infrastructure: AWS | GCP
+
+🤖 **AI & Machine Learn
+ing**
+
+* Smart Chatbots with LangChain
+* Custom AI Models for NLP, Automation, & More
+
+⚙️ **DevOps Solutions**
+
+* CI/CD 
+Pipelines with GitHub Actions | Jenkins
+* Containerization with Docker | Kubernetes
+* Infrastructure as Code: Terraform 
+| Ansible
+* Monitoring Tools: Prometheus | Grafana
+
+🌟 **Recent Projects**
+
+* 🚗 Ride-Sharing: Real-time vehicle tracking 
+& payments
+* 📦 Logistics: Multi-stop delivery route optimization
+* 🛒 E-Commerce: Scalable Kubernetes clusters for high-t
+raffic apps
+
+💰 **Rates**: $20–$25/hour (negotiable)  
+📧 **Let's talk!** DM me to discuss your project!
+
+🔗 **GitHub**: [s
+torm1033](https://github.com/storm1033)
+
+Let’s collaborate and build something amazing! 🌐✨
+```
+---
+
+     
+ 
+all -  [ What happened to Conversational Retrieval QA? ](https://www.reddit.com/r/LangChain/comments/1hcpf6v/what_happened_to_conversational_retrieval_qa/) , 2024-12-13-0914
+```
+Once upon a time in the v0.1 days there was this idea of \[Conversational Retrieval QA\](https://js.langchain.com/v0.1/d
+ocs/modules/chains/popular/chat\_vector\_db\_legacy/).  You can see the docs on this webpage, but if you click the link 
+to go to the current stable version it doesn't seem to exist anymore.
+
+Does anyone know if this got absorbed into someth
+ing else less obvious or did they just drop support for it?
+```
+---
+
+     
+ 
+all -  [ Not able to generate embeddings ](https://www.reddit.com/r/learnmachinelearning/comments/1hcp5ht/not_able_to_generate_embeddings/) , 2024-12-13-0914
+```
+I am using Langchain and google generative AI to generate embeddings of the document, however I am encountering Error 40
+3 ->  
+langchain\_google\_genai.\_common.GoogleGenerativeAIError: Error embedding content: 403 Request had insufficient 
+authentication scopes. \[reason: 'ACCESS\_TOKEN\_SCOPE\_INSUFFICIENT'
+
+    import os
+    from dotenv import load_dotenv
+
+    from langchain_google_genai import ChatGoogleGenerativeAI
+    from langchain_community.vectorstores import Chroma
+  
+  from langchain_google_genai import GoogleGenerativeAIEmbeddings
+    from langchain.text_splitter import CharacterTextS
+plitter
+    from langchain_community.document_loaders import TextLoader
+    import google.generativeai as genai
+    
+   
+ 
+    load_dotenv()
+    api_key = os.getenv('GEMINI_API_KEY')
+    
+    
+    model = ChatGoogleGenerativeAI(model = 'gemi
+ni-1.5-pro',api_key=api_key)
+    
+    
+    genai.configure(api_key=api_key)
+    
+    current_working_directory = os.getc
+wd()
+    file_path = os.path.join(current_working_directory,'books/odyssey.txt')
+    
+    storing_directory = os.path.jo
+in(current_working_directory,'db','chroma_db')
+    
+    
+    if not os.path.exists(storing_directory):
+        print('St
+oring directory does not exist..Initializing a vector store.......\n')
+        if not os.path.exists(file_path):
+       
+     raise FileNotFoundError(f'The {file_path} could not be found.\n')
+        # read the content from the file
+        
+loader = TextLoader(file_path)
+        document = loader.load()
+    
+        # create chunks
+        text_splitter = Cha
+racterTextSplitter(chunk_size=1000,chunk_overlap=0)
+        docs = text_splitter.split_documents(document)
+    
+        
+# Display Info
+        print('\n------------Document Chunk Info----------------\n')
+        print(f'Number of document c
+hunks----> {len(docs)}')
+        print(f'Sample Chunk---->\n{docs[0].page_content}\n')
+    
+        # create embeddings
+
+        print('\n------------creating embeddings----------------\n')
+        embeddings = GoogleGenerativeAIEmbeddings(m
+odel = 'models/embedding-001',api_key=api_key)
+        print('\n--------------finished creating embeddings-------------\
+n')
+    
+        # vector store
+        print('\n--------------Creating vector store-------------\n')
+        db = Chrom
+a.from_documents(
+            documents=docs,
+            embedding=embeddings,
+            persist_directory=storing_di
+rectory
+        )
+        print('\n--------------finished creating vector store-------------\n')
+    
+    else:
+        
+print('-----------------vector store already exists')
+    
+    
+
+Somebody please help I been stuck here for last 2 hours
+  
+
+```
+---
+
+     
+ 
+all -  [ Not able to generate embeddings ](https://www.reddit.com/r/generativeAI/comments/1hcp3y0/not_able_to_generate_embeddings/) , 2024-12-13-0914
+```
+I am using Langchain and google generative AI to generate embeddings of the document, however I am encountering Error 40
+3 ->  
+langchain\_google\_genai.\_common.GoogleGenerativeAIError: Error embedding content: 403 Request had insufficient 
+authentication scopes. \[reason: 'ACCESS\_TOKEN\_SCOPE\_INSUFFICIENT'
+
+Somebody please help I been stuck here for last 2
+ hours
+
+    import os
+    from dotenv import load_dotenv
+    from langchain_google_genai import ChatGoogleGenerativeAI
+ 
+   from langchain_community.vectorstores import Chroma
+    from langchain_google_genai import GoogleGenerativeAIEmbeddin
+gs
+    from langchain.text_splitter import CharacterTextSplitter
+    from langchain_community.document_loaders import Te
+xtLoader
+    import google.generativeai as genai
+    
+    
+    load_dotenv()
+    api_key = os.getenv('GEMINI_API_KEY')
+ 
+   
+    
+    model = ChatGoogleGenerativeAI(model = 'gemini-1.5-pro',api_key=api_key)
+    
+    
+    genai.configure(api_
+key=api_key)
+    
+    current_working_directory = os.getcwd()
+    file_path = os.path.join(current_working_directory,'bo
+oks/odyssey.txt')
+    
+    storing_directory = os.path.join(current_working_directory,'db','chroma_db')
+    
+    
+    if
+ not os.path.exists(storing_directory):
+        print('Storing directory does not exist..Initializing a vector store....
+...\n')
+        if not os.path.exists(file_path):
+            raise FileNotFoundError(f'The {file_path} could not be fou
+nd.\n')
+        # read the content from the file
+        loader = TextLoader(file_path)
+        document = loader.load()
+
+    
+        # create chunks
+        text_splitter = CharacterTextSplitter(chunk_size=1000,chunk_overlap=0)
+        doc
+s = text_splitter.split_documents(document)
+    
+        # Display Info
+        print('\n------------Document Chunk Info
+----------------\n')
+        print(f'Number of document chunks----> {len(docs)}')
+        print(f'Sample Chunk---->\n{do
+cs[0].page_content}\n')
+    
+        # create embeddings
+        print('\n------------creating embeddings---------------
+-\n')
+        embeddings = GoogleGenerativeAIEmbeddings(model = 'models/embedding-001',api_key=api_key)
+        print('\
+n--------------finished creating embeddings-------------\n')
+    
+        # vector store
+        print('\n--------------
+Creating vector store-------------\n')
+        db = Chroma.from_documents(
+            documents=docs,
+            embed
+ding=embeddings,
+            persist_directory=storing_directory
+        )
+        print('\n--------------finished creat
+ing vector store-------------\n')
+    
+    else:
+        print('-----------------vector store already exists')
+    
+
+My 
+code->  
+
+```
+---
+
+     
+ 
+all -  [ Any alternatives to LangChain for LLMs/GraphRAG on RDF graphs? ](https://www.reddit.com/r/KnowledgeGraph/comments/1hcozn1/any_alternatives_to_langchain_for_llmsgraphrag_on/) , 2024-12-13-0914
+```
+Hello. I am getting more into GraphRAG. This year a project I was involved with transformed a large RDF graph into Neo4j
+ (via Neosemantics), and from there I used LangChain and our in-house AI models to do GraphRAG things, with great result
+s. I proved that this approach gave much better answers (because of kg context) than traditional RAG. Shoutout to Jesus 
+Barrasa, for both his Neo4j semantic expertise, and the 'Going Meta' YouTube series which I highly recommend.     
+  
+Ho
+wever, I am at the end of the day an ontologist, and we have tons of RDF ontologies, with no interest in (or resources f
+or) transforming all of those into Neo4j graphs. I've looked into how to do things directly with RDF and it's not an enc
+ouraging landscape.  
+  
+LangChain can do things through RdfGraph, but it's mostly based on rdflib, whereas 'knowledge g
+raph' support from tons of frameworks is super robust. The SparqlQAChain is neat, since you can directly see what SPARQL
+ query the LLM is composing to try to answer the question. But I don't actually care about knowledge graph generation, w
+hich is unfortunately what so much tooling is built around. I already have everything highly structured within a defined
+ domain! Once it gets to actual RAG, the usual vector similarity search rears its ugly head, and isn't GraphRAG, and wou
+ld actually be a terrible strategy for already-structured data.   
+  
+So, has anyone been in this same position of needi
+ng to do GraphRAG things directly on RDF data (i.e., use vectorization but merely as a pre/post filtering mechanism, but
+ ground all answers in the knowledge graph), but have used things OTHER than LangChain?  
+```
+---
+
+     
+ 
+all -  [ ChatPDF and PDF.ai are making millions using open source tech... here's the code ](https://www.reddit.com/r/Entrepreneur/comments/1hcm180/chatpdf_and_pdfai_are_making_millions_using_open/) , 2024-12-13-0914
+```
+# Why 'copy' an existing product?
+
+The best SaaS products weren’t the first of their kind - think Slack, Shopify, Zoom, 
+Dropbox, or HubSpot. They didn’t invent team communication, e-commerce, video conferencing, cloud storage, or marketing 
+tools; they just made them better.
+
+# What is a 'Chat with PDF' SaaS?
+
+These are AI-powered PDF assistants that let you 
+upload a PDF and ask questions about its content. You can summarize articles, extract key details from a contract, analy
+ze a research paper, and more.
+
+# Let's look at the market
+
+Made possible by advances in AI like ChatGPT and Retrieval-A
+ugmented Generation (RAG), PDF chat tools started gaining traction in early 2023 and have seen consistent growth in mark
+et interest, which is currently at an all-time high (source: google trends)
+
+Keywords like 'chat PDF' and 'PDF AI' get b
+etween 1 to 10 million searches every month (source:keyword planner), with a broad target audience that includes researc
+hers, students, and professionals across various industries.
+
+Leaders like PDF.ai and ChatPDF have already gained millio
+ns of users within a year of launch, driven by the growing market demand, with paid users subscribing at around $20/mont
+h.
+
+# Alright, so how do we build this with open source?
+
+The core tech for most PDF AI tools are based on the same arch
+itecture. You generate text embeddings (AI-friendly text representations; usually via OpenAI APIs) for the uploaded PDF’
+s chapters/topics and store them in a vector database (like Pinecone/pgvector).
+
+Now, every time the user asks a questio
+n, a similarity search is performed to find the most similar PDF topics from the vector database. The selected topic con
+tents are then sent to an LLM (like ChatGPT) along with the question, which generates a contextual answer!
+
+Here are som
+e of the best open source implementations for this process (source: GitHub):
+
+* GPT4 & LangChain Chatbot for large PDF d
+ocs by Mayo Oshin
+* MultiPDF Chat App by Alejandro AO
+* PDFToChat by Hassan El Mghari
+
+Worried about building signups, u
+ser management, payments, etc.? Here are my go-to open-source SaaS boilerplates that include everything you need out of 
+the box (source: GitHub):
+
+* SaaS Boilerplate by Remi Wg
+* Open SaaS by wasp-lang
+
+You can **check out the hyperlinks in
+ the first comment, or look em up on google** (they're quite popular).
+
+# A few ideas to stand out from the noise:
+
+Here
+ are a few strategies that could help you differentiate and achieve product market fit (based on the pivot principles fr
+om The Lean Startup by Eric Ries):
+
+1. **Narrow down your target audience for a personalized UX:** For instance, an exam
+ prep assistant for students with study notes and quiz generator; or a document due diligence and analysis tool for lawy
+ers.
+2. **Add unique features to increase switching cost:** You could autogenerate APIs for the uploaded PDFs to enable 
+remote integrations (eg. support chatbot knowledge base); or build in workflow automation features for bulk analyses of 
+PDFs.
+3. **Offer platform level advantages:** You could ship a native mobile/desktop apps for a more integrated UX; or (
+non-trivial) offer private/offline support by replacing the APIs with local open source deployments (eg. llama for LLM, 
+an embedding model from the MTEB list, and FAISS for vector search).
+
+**TMI?** I’m an ex-AI engineer and product lead, s
+o don’t hesitate to reach out with any questions!
+
+Thanks for reading! this was the first post on my new weekly newslett
+er (link in first comment) which covers open-source/turnkey resources behind popular products (like this one). Feel free
+ to bring up other products you'd like me to analyze or any other aspects you'd like to learn about in future posts.
+```
+---
+
+     
+ 
+all -  [ ChatPDF and PDF.ai are making millions using open source tech... here's the code ](https://www.reddit.com/r/microsaas/comments/1hckxwo/chatpdf_and_pdfai_are_making_millions_using_open/) , 2024-12-13-0914
+```
+# Why 'copy' an existing product?
+
+The best SaaS products weren’t the first of their kind - think Slack, Shopify, Zoom, 
+Dropbox, or HubSpot. They didn’t invent team communication, e-commerce, video conferencing, cloud storage, or marketing 
+tools; they just made them better.
+
+# What is a 'Chat with PDF' SaaS?
+
+These are AI-powered PDF assistants that let you 
+upload a PDF and ask questions about its content. You can summarize articles, extract key details from a contract, analy
+ze a research paper, and more. To see this in action or dive deeper into the tech behind it, check out this [YouTube vid
+eo.](https://www.youtube.com/watch?v=ih9PBGVVOO4)
+
+# Let's look at the market
+
+Made possible by advances in AI like Chat
+GPT and Retrieval-Augmented Generation (RAG), PDF chat tools started gaining traction in early 2023 and have seen consis
+tent growth in market interest, which is currently at an all-time high (source:[google trends](https://trends.google.com
+/trends/explore?date=today%205-y&q=pdf%20chat,pdf%20ai&hl=en-GB))
+
+Keywords like 'chat PDF' and 'PDF AI' get between 1 t
+o 10 million searches every month (source:keyword planner), with a broad target audience that includes researchers, stud
+ents, and professionals across various industries.
+
+Leaders like PDF.ai and ChatPDF have already gained millions of user
+s within a year of launch, driven by the growing market demand, with paid users subscribing at around $20/month.
+
+# Alri
+ght, so how do we build this with open source?
+
+The core tech for most PDF AI tools are based on the same architecture. 
+You generate text embeddings (AI-friendly text representations; usually via OpenAI APIs) for the uploaded PDF’s chapters
+/topics and store them in a vector database (like Pinecone).
+
+Now, every time the user asks a question, a similarity sea
+rch is performed to find the most similar PDF topics from the vector database. The selected topic contents are then sent
+ to an LLM (like ChatGPT) along with the question, which generates a contextual answer!
+
+Here are some of the best open 
+source implementations for this process:
+
+* [GPT4 & LangChain Chatbot for large PDF docs](https://github.com/mayooear/gp
+t4-pdf-chatbot-langchain) by Mayo Oshin
+* [MultiPDF Chat App](https://github.com/alejandro-ao/ask-multiple-pdfs) by Alej
+andro AO
+* [PDFToChat](https://github.com/Nutlope/pdftochat) by Hassan El Mghari
+
+Worried about building signups, user m
+anagement, payments, etc.? Here are my go-to open-source SaaS boilerplates that include everything you need out of the b
+ox:
+
+* [SaaS Boilerplate](https://github.com/ixartz/SaaS-Boilerplate) by Remi Wg
+* [Open SaaS](https://github.com/wasp-l
+ang/open-saas) by wasp-lang
+
+# A few ideas to stand out from the noise:
+
+Here are a few strategies that could help you d
+ifferentiate and achieve product market fit (based on the pivot principles from The Lean Startup by Eric Ries):
+
+1. **Na
+rrow down your target audience for a personalized UX:** For instance, an exam prep assistant for students with study not
+es and quiz generator; or a document due diligence and analysis tool for lawyers.
+2. **Add unique features to increase s
+witching cost:** You could autogenerate APIs for the uploaded PDFs to enable remote integrations (eg. support chatbot kn
+owledge base); or build in workflow automation features for bulk analyses of PDFs.
+3. **Offer platform level advantages:
+** You could ship a native mobile/desktop apps for a more integrated UX; or (non-trivial) offer private/offline support 
+by replacing the APIs with local open source deployments (eg. llama for LLM, an embedding model from the MTEB list, and 
+FAISS for vector search).
+
+**TMI?** I’m an ex-AI engineer and product lead, so don’t hesitate to reach out with any ques
+tions!
+
+**P.S.** I've started a free weekly [newsletter](https://saaswithcode.substack.com/p/issue-1-launch-a-saas-like-
+chatpdf) to share open-source/turnkey resources behind popular products (like this one). If you’re a founder looking to 
+launch your next product without reinventing the wheel, please subscribe :)
+```
+---
+
+     
+ 
+all -  [ I made a free directory of Agentic Tools ](https://www.reddit.com/r/LangChain/comments/1hckonl/i_made_a_free_directory_of_agentic_tools/) , 2024-12-13-0914
+```
+Hey everyone! 👋
+
+With the rapid evolution of AI and the growing ecosystem of AI agents, finding the right tools that wor
+k well with these agents has become increasingly important. That's why I created the [Agentic Tools Directory](https://d
+irectory.composio.dev/) \- a comprehensive collection of agent-friendly tools across different categories.
+
+**What is th
+e Agentic Tools Directory?**
+
+It's a curated repository where you can discover and explore tools specifically designed o
+r optimized for AI agents. Whether you're a developer, researcher, or AI enthusiast, this directory aims to be your go-t
+o resource for finding agent-compatible tools.
+
+**What you'll find:**
+
+* Tools categorized by functionality and use case
+
+* Clear information about agent compatibility
+* Regular updates as new tools emerge
+* A community-driven approach to di
+scovering and sharing resources
+
+**Are you building an agentic tool?**
+
+If you've developed a tool that works well with 
+AI agents, we'd love to include it in the directory! This is a great opportunity to increase your tool's visibility with
+in the AI agent ecosystem.
+
+**How to get involved:**
+
+1. Explore the directory
+2. Submit your tool
+3. Share your feedbac
+k and suggestions
+
+Let's build this resource together and make it easier for everyone to discover and utilize agent-frie
+ndly tools!
+
+Questions, suggestions, or feedback? Drop them in the comments below!
+```
+---
+
+     
+ 
+all -  [ as a fresher can i write this under my name in resume. ](https://www.reddit.com/r/IndiaTech/comments/1hcjnml/as_a_fresher_can_i_write_this_under_my_name_in/) , 2024-12-13-0914
+```
+also i have 3 months of work experience is it even countable as experience
+
+https://preview.redd.it/yvdm7njsre6e1.png?wi
+dth=1180&format=png&auto=webp&s=f585ecfc8b94952eecaf9c7efbaf787e0b101209
+
+
+```
+---
+
+     
+ 
+all -  [ A way in langgraph to find if the execution is completed ](https://www.reddit.com/r/LangChain/comments/1hcj99u/a_way_in_langgraph_to_find_if_the_execution_is/) , 2024-12-13-0914
+```
+Iam building a workflow which asks for human input for onboarding, I want to know in some way that the execution is comp
+leted or ongoing so that i can use it to switch to next workflow. How can i achieve this by using interupts or by using 
+a state variable
+```
+---
+
+     
+ 
+all -  [ My llm agent with tools is not converting the ToolMessage into an AI message ](https://www.reddit.com/r/LangChain/comments/1hci1do/my_llm_agent_with_tools_is_not_converting_the/) , 2024-12-13-0914
+```
+Hello and  a good day to you all!
+
+I have been stuck on this issue for too long so I've decided to come and ask for your
+ help. I made a graph which contains an llm agent that is connected to a tool (just one tool function for now). The tool
+ loops back to the agent, but the agent never converts the ToolMessage into an AImessage to return to the user. After th
+e state gets updated with the ToolMessage, the agent just calls the tool again, gets another ToolMessage, and it keeps o
+n looping indefinitely.
+
+For a clearer picture - the user wants to update his tickets in a project management database, 
+and the tools return a string of user's tickets separated by a comma. The agent should reply with normal language delive
+ring the tickets and asking the user to choose one to update. 
+
+The agent is 
+
+    ChatOpenAI(model='gpt-4o-mini', tempe
+rature=0).bind_tools(self.tools)
+
+ and get\_user\_tickets is the tool.
+
+
+
+Any help is appreciated!
+
+Here are my logs so 
+that you can see the messages:
+
+
+
+024-12-12 10:46:36.966 | INFO     | notion\_bot.agents.qa\_agent:run:86 - Starting QAA
+gent.
+
+2024-12-12 10:46:37.569 | INFO     | notion\_bot.agents.qa\_agent:run:105 - {'messages': \[HumanMessage(content='
+update a ticket', additional\_kwargs={}, response\_metadata={}, id='be57ff2f-b79e-43d0-9ebc-eb71bd655597')\]}
+
+2024-12-1
+2 10:46:38.048 | INFO     | notion\_bot.agents.get\_user\_tickets:get\_user\_tickets:40 - \['Woohoo', 'Async', 'BlaBla'\
+]
+
+2024-12-12 10:46:38.052 | INFO     | notion\_bot.agents.qa\_agent:run:86 - Starting QAAgent.
+
+2024-12-12 10:46:38.714
+ | INFO     | notion\_bot.agents.qa\_agent:run:105 - {'messages': \[HumanMessage(content='update a ticket', additional\_
+kwargs={}, response\_metadata={}, id='be57ff2f-b79e-43d0-9ebc-eb71bd655597'), AIMessage(content='', additional\_kwargs={
+'tool\_calls': \[{'id': 'call\_sYlZhRQGDeUWBetTISfLP7KK', 'function': {'arguments': '{}', 'name': 'get\_user\_tickets'},
+ 'type': 'function'}\], 'refusal': None}, response\_metadata={'token\_usage': {'completion\_tokens': 12, 'prompt\_tokens
+': 328, 'total\_tokens': 340, 'completion\_tokens\_details': {'audio\_tokens': 0, 'reasoning\_tokens': 0, 'accepted\_pre
+diction\_tokens': 0, 'rejected\_prediction\_tokens': 0}, 'prompt\_tokens\_details': {'audio\_tokens': 0, 'cached\_tokens
+': 0}}, 'model\_name': 'gpt-4o-mini-2024-07-18', 'system\_fingerprint': 'fp\_6fc10e10eb', 'finish\_reason': 'tool\_calls
+', 'logprobs': None}, id='run-c0c944cd-bbe5-4262-ad53-7e0040069b6c-0', tool\_calls=\[{'name': 'get\_user\_tickets', 'arg
+s': {}, 'id': 'call\_sYlZhRQGDeUWBetTISfLP7KK', 'type': 'tool\_call'}\], usage\_metadata={'input\_tokens': 328, 'output\
+_tokens': 12, 'total\_tokens': 340, 'input\_token\_details': {'audio': 0, 'cache\_read': 0}, 'output\_token\_details': {
+'audio': 0, 'reasoning': 0}}), ToolMessage(content='Woohoo, Async, BlaBla', name='get\_user\_tickets', id='58520eb1-a67b
+-43b3-a030-8040e36e9027', tool\_call\_id='call\_sYlZhRQGDeUWBetTISfLP7KK')\]}
+
+2024-12-12 10:46:39.166 | INFO     | noti
+on\_bot.agents.get\_user\_tickets:get\_user\_tickets:40 - \['Woohoo', 'Async', 'BlaBla'\]
+
+2024-12-12 10:46:39.172 | INF
+O     | notion\_bot.agents.qa\_agent:run:86 - Starting QAAgent.
+
+ 
+```
+---
+
+     
+ 
+all -  [ Is it possible to update langgraph state using tool  ](https://www.reddit.com/r/LangChain/comments/1hcgxrk/is_it_possible_to_update_langgraph_state_using/) , 2024-12-13-0914
+```
+
+```
+---
+
+     
+ 
+all -  [ Should I reuse a single LangChain ChatOpenAI instance or create a new one for each request in FastAP ](https://www.reddit.com/r/LangChain/comments/1hcf16g/should_i_reuse_a_single_langchain_chatopenai/) , 2024-12-13-0914
+```
+Hi everyone,
+
+I’m currently working on a FastAPI server where I’m integrating LangChain with the OpenAI API. Right now, 
+I’m initializing my `ChatOpenAI` LLM object once at the start of my Python file, something like this:
+
+    llm = ChatOpe
+nAI(
+        model='gpt-4',
+        temperature=0,
+        max_tokens=None,
+        api_key=os.environ.get('OPENAI_API_K
+EY'),
+    )
+    prompt_manager = PromptManager('prompt_manager/second_opinion_prompts.yaml')
+    
+
+Then I use this `llm`
+ object in multiple different functions/endpoints. My question is: is it a good practice to reuse this single `llm` inst
+ance across multiple requests and endpoints, or should I create a separate `llm` instance for each function call?
+
+I’m s
+till a bit new to LangChain and FastAPI, so I’m not entirely sure about the performance and scalability implications. Fo
+r example, if I have hundreds of users hitting the server concurrently, would reusing a single `llm` instance cause issu
+es (such as rate-limiting, thread safety, or unexpected state sharing)? Or is this the recommended way to go, since crea
+ting a new `llm` object each time might add unnecessary overhead?
+
+Any guidance, tips, or best practices from your exper
+ience would be really appreciated!
+
+Thanks in advance!
+```
+---
+
+     
+ 
+all -  [ Chance me for RSI (Experienced Researcher at Ivy + Stanford)  ](https://www.reddit.com/r/summerprogramresults/comments/1hce5t6/chance_me_for_rsi_experienced_researcher_at_ivy/) , 2024-12-13-0914
+```
+Chance me for RSI:   
+  
+Essentially my ECS + Test scores: 
+
+**Test Scores:** 
+
+1510 PSAT
+
+1550 SAT
+
+**STEM ECS:**   
+\-
+ Global Finals Qualifier for VEX Robotics Competition. Programmer for the team 5327A. (2023)
+
+\- Currently Captain of th
+e MATE ROV Competition club at school
+
+Academic Research
+
+Researcher at Brown University (2024-Present)
+
+• Developing Ka
+lman filter algorithms for Pleistocene temperature reconstruction
+
+• Publication and presentation forthcoming at America
+n Geophysical Union 2025
+
+Research Intern at Stanford University (2023)
+
+• Created Retrieval Augmented Generation system
+ for wildfire & air quality data analysis
+
+• Implemented advanced NLP techniques using PyTorch and LangChain
+
+• Publicat
+ion
+
+Research Intern at Australian Institute of Marine Science (2024)
+
+• Developed Python scripts for 3D coral reef anal
+ysis
+
+• Implemented Möller-Trumbore algorithm for environmental modeling
+
+• Used in paper for EcoRAPP (ecological intell
+igence for reef restoration adaptation program)
+
+about internal tools to diagnose Coral Bleaching and where to take acti
+on
+
+Underwater Ecosystem Drone Innovation
+
+\- Developed novel underwater drone system for 3D coral reef mapping
+
+\- Secu
+red $11,000 venture capital investment
+
+\- Obtained utility provisional patent for innovative marine mapping technology
+
+
+\- Created scalable solution for reef ecosystem documentation and monitoring
+
+\- System enables high-resolution 3D mode
+ling of threatened marine environments  
+  
+**Non STEM:**   
+  
+REEFlect:
+
+Founded and scaled global environmental monit
+oring organization spanning 11 countries
+
+Secured $2,500 municipal grant for the organization from City of Dublin
+
+Estab
+lished partnerships with East Bay Regional Park Districts, Big Sur Land Trust, Bear Yuba
+
+Land Trust
+
+Led international 
+collaboration with Ocean Project Ghana for coastal cleanup initiatives in Ghana
+
+Amassed over 200 members in over 7 diﬀe
+rent countries
+```
+---
+
+     
+ 
+all -  [ Why Pydantic AI might be the future for building AI Agents? ](https://www.reddit.com/r/PydanticAI/comments/1hcc9qq/why_pydantic_ai_might_be_the_future_for_building/) , 2024-12-13-0914
+```
+Hi guys,
+
+Pyndatic AI is a new framework comparing to heavy-weight such as Langchain and LlamaIndex. However, I found it
+ very easy to use and powerful. It gives me a lot of flexibility to build versatile AI agents. 
+
+Beside excellent data v
+alidation (of course, it is from Pydantic, which is used by all big players such as OpenAI, Langchain...etc.), the bigge
+st plus for me is: Pythonic and minimum of abstraction. We can easily go in the code and know how things are done under 
+the hood. This siginificantly reduceds debugging time.
+
+Check it out at [https://ai.pydantic.dev/](https://ai.pydantic.d
+ev/)
+```
+---
+
+     
+ 
+all -  [ Problems installing langchain-python-rag-document from examples ](https://www.reddit.com/r/ollama/comments/1hcayho/problems_installing_langchainpythonragdocument/) , 2024-12-13-0914
+```
+i get this after installing from requirements.txt
+
+    ERROR: Ignored the following versions that require a different py
+thon version: 1.21.2 Requires-Python >=3.7,<3.11; 1.21.3 Requires-Python >=3.7,<3.11; 1.21.4 Requires-Python >=3.7,<3.11
+; 1.21.5 Requires-Python >=3.7,<3.11; 1.21.6 Requires-Python >=3.7,<3.11
+    
+    ERROR: Could not find a version that s
+atisfies the requirement tensorflow-macos==2.13.0 (from versions: 2.12.0)
+    
+    ERROR: No matching distribution found
+ for tensorflow-macos==2.13.0
+    
+    $ pip --version
+    pip 24.2 from xyz (python 3.11)
+    $ python --version
+    Py
+thon 3.11.9
+
+I have python 3.9.20 which i access with `python3.9` but how do i get the associated `pip` to install requi
+rements?
+```
+---
+
+     
+ 
+all -  [ I automated my entire job with Python & AI - Ask me how to automate YOUR most hated task ](https://www.reddit.com/r/ArtificialInteligence/comments/1hc93pz/i_automated_my_entire_job_with_python_ai_ask_me/) , 2024-12-13-0914
+```
+Hey r/ArtificialInteligence  \- I'm the dev who automated an entire marketing agency's workflow. Ask me literally anythi
+ng about automating your boring tasks. Some quick overview of what I've built:
+
+• Turned 5-6 hours of daily research and
+ posting into CrewAI+Langchain+DDG agency
+
+• Built AI Bot that analyzes and answers 1000+ customer emails daily (For ver
+y cheap - 0.5$ a day)
+
+• Created Tweepy-Tiktok-bot+Instapy bots that manage entire social media presence, with CrewAI fo
+r agents and Flux Dev for image generation
+
+• Automated job applications on LinkedIn with Selenium+Gemini Flash 1.5
+
+• A
+utomated content generation with local AI models (for free)
+
+• Automated entire YouTube channel (thumbnails, description
+s, tags, posting) with custom FLUX Dev Lora, cheapest and most effective LLMs and hosted on cloud
+
+• Built web scraper b
+ot that monitors thousands of tokens prices and trader bots that makes the buy/sell on Binance
+
+• Made a system that mon
+itors and auto-responds to Reddit/Discord opportunities with [PRAW+discord.py](http://PRAW+discord.py)
+
+Ask me about:
+
+H
+ow to automate your specific task Which tools actually work (and which are trash)
+
+Real costs and time savings
+
+Common a
+utomation mistakes
+
+Specific tech stacks for your automation needs
+
+How to choose AI models to save costs
+
+Custom soluti
+ons vs existing tools
+
+I've processed millions of tasks using these systems. Not theoretical - all tested and running.
+
+
+I use Python, JS, and modern AI Stack (not just Zapier or [make.com](http://make.com) connections).
+
+I'm building my por
+tfolio and looking for interesting problems to solve. But first - ask me anything about your automation needs. I'll give
+ you a free breakdown of how I'd solve it.
+
+Some questions to get started: What's your most time-consuming daily task? W
+hich part of your job do you wish was automated? How much time do you waste on repetitive tasks? Or ask whatever you wan
+t to know...
+
+Drop your questions below - I'll show you exactly how to automate it (with proof of similar projects I've 
+done) :)
+```
+---
+
+     
+ 
+all -  [ I automated my entire job with Python & AI - Ask me how to automate YOUR most hated task ](https://www.reddit.com/r/Automate/comments/1hc8x5v/i_automated_my_entire_job_with_python_ai_ask_me/) , 2024-12-13-0914
+```
+Hey r/Automate  \- I'm the dev who automated an entire marketing agency's workflow. Ask me literally anything about auto
+mating your boring tasks. Some quick overview of what I've built:
+
+• Turned 5-6 hours of daily research and posting into
+ CrewAI+Langchain+DDG agency 
+
+• Built AI Bot that analyzes and answers 1000+ customer emails daily (For very cheap - 0.
+5$ a day) 
+
+• Created Tweepy-Tiktok-bot+Instapy bots that manage entire social media presence, with CrewAI for agents an
+d Flux Dev for image generation 
+
+• Automated job applications on LinkedIn with Selenium+Gemini Flash 1.5 
+
+• Automated 
+content generation with local AI models (for free) 
+
+• Automated entire YouTube channel (thumbnails, descriptions, tags,
+ posting) with custom FLUX Dev Lora, cheapest and most effective LLMs and hosted on cloud 
+
+• Built web scraper bot that
+ monitors thousands of tokens prices and trader bots that makes the buy/sell on Binance • Made a system that monitors an
+d auto-responds to Reddit/Discord opportunities with [PRAW+discord.py](http://PRAW+discord.py)
+
+Portfolio: [https://gith
+ub.com/kakachia777/](https://github.com/kakachia777/) (I'm pushing projects gradually)
+
+Ask me about: How to automate yo
+ur specific task Which tools actually work (and which are trash) Real costs and time savings Common automation mistakes 
+Specific tech stacks for your automation needs How to choose AI models to save costs Custom solutions vs existing tools
+
+
+I've processed millions of tasks using these systems. Not theoretical - all tested and running. Quick flex: My automati
+on tools have processed over 1M+ tasks for real clients. I use Python, JS, and modern AI (not just Zapier or [make.com](
+http://make.com) connections).
+
+I'm building my portfolio and looking for interesting problems to solve. But first - ask
+ me anything about your automation needs. I'll give you a free breakdown of how I'd solve it.
+
+Some questions to get sta
+rted: What's your most time-consuming daily task? Which part of your job do you wish was automated? How much time do you
+ waste on repetitive tasks? Or anything you want to know...
+
+Drop your questions below - I'll show you exactly how to au
+tomate it (with proof of similar projects I've done) :)
+```
+---
+
+     
+ 
+all -  [ [0 YOE, Unemployed , Machine Learning/Data Science, India] ](https://www.reddit.com/r/resumes/comments/1hc0c61/0_yoe_unemployed_machine_learningdata_science/) , 2024-12-13-0914
 ```
 https://preview.redd.it/pbevskapi96e1.png?width=1170&format=png&auto=webp&s=6c61dfd3845cd82bc1ca6eeac19c00a2049231a8
 
@@ -14,7 +1066,7 @@ I am
 
      
  
-all -  [ Conversational avatar  ](https://www.reddit.com/r/LangChain/comments/1hbxlfs/conversational_avatar/) , 2024-12-12-0914
+all -  [ Conversational avatar  ](https://www.reddit.com/r/LangChain/comments/1hbxlfs/conversational_avatar/) , 2024-12-13-0914
 ```
 Has anyone tried creating this kind of project? 
 ```
@@ -22,7 +1074,7 @@ Has anyone tried creating this kind of project?
 
      
  
-all -  [ Local tool calling agents using LangChain and Ollama are inexplicably poorly performing ](https://www.reddit.com/r/LocalLLaMA/comments/1hbx96u/local_tool_calling_agents_using_langchain_and/) , 2024-12-12-0914
+all -  [ Local tool calling agents using LangChain and Ollama are inexplicably poorly performing ](https://www.reddit.com/r/LocalLLaMA/comments/1hbx96u/local_tool_calling_agents_using_langchain_and/) , 2024-12-13-0914
 ```
 Hi all,
 
@@ -52,7 +1104,7 @@ hV95iKVVGF7YC5_K7oiujMT6q?usp=sharing)
 
      
  
-all -  [ We built a frontend framework for LangGraph ](https://www.reddit.com/r/LangChain/comments/1hbw7yj/we_built_a_frontend_framework_for_langgraph/) , 2024-12-12-0914
+all -  [ We built a frontend framework for LangGraph ](https://www.reddit.com/r/LangChain/comments/1hbw7yj/we_built_a_frontend_framework_for_langgraph/) , 2024-12-13-0914
 ```
 At [CopilotKit](https://github.com/CopilotKit/CopilotKit), we build components & tools that help developers build in-app
  AI assistants (like Chatbots). Over the last few months we've been working to support deeper in-app Agent integrations.
@@ -101,15 +1153,7 @@ d36816d2298952e1b7a
 
      
  
-all -  [ LangChain Academy New Course: Introduction to LangSmith ](https://www.youtube.com/watch?v=KcGoJPK-0tY) , 2024-12-12-0914
-```
-
-```
----
-
-     
- 
-all -  [ Stripe agent toolkit useful? ](https://www.reddit.com/r/LangChain/comments/1hbtz8f/stripe_agent_toolkit_useful/) , 2024-12-12-0914
+all -  [ Stripe agent toolkit useful? ](https://www.reddit.com/r/LangChain/comments/1hbtz8f/stripe_agent_toolkit_useful/) , 2024-12-13-0914
 ```
 Anyone using the Stripe agent toolkit https://github.com/stripe/agent-toolkit? 
 
@@ -122,7 +1166,7 @@ Anyone extended/using it?
 
      
  
-all -  [ [For Hire] Programmer/Web Developer/IT Consultant (Python, PHP, AI, etc.) ](https://www.reddit.com/r/forhire/comments/1hbsdu1/for_hire_programmerweb_developerit_consultant/) , 2024-12-12-0914
+all -  [ [For Hire] Programmer/Web Developer/IT Consultant (Python, PHP, AI, etc.) ](https://www.reddit.com/r/forhire/comments/1hbsdu1/for_hire_programmerweb_developerit_consultant/) , 2024-12-13-0914
 ```
 To get in contact, please message me, I don't use the chat thing and might miss you or reply very late. Then we can swit
 ch to email/discord/telegram or whatever else. Apologies for starting with this, but many missed it when it was lower.
@@ -200,7 +1244,7 @@ Please note: I am not a designer. To make it clear, it means zero aesthetic sens
 
      
  
-all -  [ Which tool are you using to build Ai Agents? ](https://i.redd.it/p2j1smaff76e1.jpeg) , 2024-12-12-0914
+all -  [ Which tool are you using to build Ai Agents? ](https://i.redd.it/p2j1smaff76e1.jpeg) , 2024-12-13-0914
 ```
 As mentioned in the title, Curious to know which tool is the most effective. 
 
@@ -211,7 +1255,7 @@ ls as of now for creatingagents in my currentprojects. Used flowise before and d
 
      
  
-all -  [ Need advice on hosting LLM on GPU in production ! ](https://www.reddit.com/r/LangChain/comments/1hbqtss/need_advice_on_hosting_llm_on_gpu_in_production/) , 2024-12-12-0914
+all -  [ Need advice on hosting LLM on GPU in production ! ](https://www.reddit.com/r/LangChain/comments/1hbqtss/need_advice_on_hosting_llm_on_gpu_in_production/) , 2024-12-13-0914
 ```
 I currently have A40 single GPU of 48GB VRAM. I want to host Qwen2.5 14B Instruct AWQ model in it. I tried hosting it us
 ing Nvidia Triton + VLLM backend. I want to use this model for RAG application. Due to some concerns, My prompt to the R
@@ -229,7 +1273,7 @@ I'm new to this.
 
      
  
-all -  [ Beyond table parsing in RAG: table data understanding ](https://www.reddit.com/r/LangChain/comments/1hbq78j/beyond_table_parsing_in_rag_table_data/) , 2024-12-12-0914
+all -  [ Beyond table parsing in RAG: table data understanding ](https://www.reddit.com/r/LangChain/comments/1hbq78j/beyond_table_parsing_in_rag_table_data/) , 2024-12-13-0914
 ```
 Proper parsing of tables in RAG is really important. As we looked at this problem we wanted to do something that provide
 s true understanding of tables across the complete RAG flow - from parsing through retrieval. Excited to share this new 
@@ -242,7 +1286,7 @@ functionality available with Vectara, and curious to hear what you all think, an
 
      
  
-all -  [ Looking for Resources to Learn AI Agents and Build a Roadmap with LangChain ](https://www.reddit.com/r/LangChain/comments/1hbps28/looking_for_resources_to_learn_ai_agents_and/) , 2024-12-12-0914
+all -  [ Looking for Resources to Learn AI Agents and Build a Roadmap with LangChain ](https://www.reddit.com/r/LangChain/comments/1hbps28/looking_for_resources_to_learn_ai_agents_and/) , 2024-12-13-0914
 ```
 Hi everyone,
 I'm diving into the world of AI and looking to focus on building AI agents using LangChain. I'm interested 
@@ -258,7 +1302,7 @@ Thanks in advance for your help!
 
      
  
-all -  [ Not getting shortlisted by resume off campus. Roast my resume. ](https://www.reddit.com/r/developersIndia/comments/1hboym6/not_getting_shortlisted_by_resume_off_campus/) , 2024-12-12-0914
+all -  [ Not getting shortlisted by resume off campus. Roast my resume. ](https://www.reddit.com/r/developersIndia/comments/1hboym6/not_getting_shortlisted_by_resume_off_campus/) , 2024-12-13-0914
 ```
 I am a final-year undergraduate at a tier 1 engineering college. Despite securing an offer from a tier 1 software compan
 y through an on-campus process (which required no resume shortlisting, only a competitive programming round followed by 
@@ -274,7 +1318,7 @@ https:
 
      
  
-all -  [ What’s Your Biggest Challenge with Automation? ](https://www.reddit.com/r/LangChain/comments/1hbnird/whats_your_biggest_challenge_with_automation/) , 2024-12-12-0914
+all -  [ What’s Your Biggest Challenge with Automation? ](https://www.reddit.com/r/LangChain/comments/1hbnird/whats_your_biggest_challenge_with_automation/) , 2024-12-13-0914
 ```
 Hi guys, I’ve been working on a SaaS of mine called [Wellows.com](http://wellows.com/), designed to simplify workflow au
 tomation using just natural language prompts. The idea came from my own frustration with how complex and time-consuming 
@@ -312,7 +1356,7 @@ So tell me, what’s the #1 task your team struggles to automate?
 
      
  
-all -  [ Slick agent tracing via Pydantic Logfire with zero instrumentation for common scenarios… ](https://i.redd.it/rfb97v4wx46e1.jpeg) , 2024-12-12-0914
+all -  [ Slick agent tracing via Pydantic Logfire with zero instrumentation for common scenarios… ](https://i.redd.it/rfb97v4wx46e1.jpeg) , 2024-12-13-0914
 ```
 
 Disclaimer: I don’t work for Pydantic Logfire. But I do help with dev relations for Arch(Gateway)
@@ -336,7 +1380,7 @@ mos/weather_forecast
 
      
  
-all -  [ RAG Semi_structured data processing  ](https://www.reddit.com/r/LangChain/comments/1hbirst/rag_semi_structured_data_processing/) , 2024-12-12-0914
+all -  [ RAG Semi_structured data processing  ](https://www.reddit.com/r/LangChain/comments/1hbirst/rag_semi_structured_data_processing/) , 2024-12-13-0914
 ```
 I'm creating a rag pipeline for semi and Unstructured pdf documents.For parsing the pdf I'm using Pymupdf4llm and the fi
 nal format of text is markdown 
@@ -369,7 +1413,7 @@ Using: Pymupdf4llm,Langchain,Langgraph,python,Groq,llama 3.1 70b model
 
      
  
-all -  [ Best practices for rag ](https://www.reddit.com/r/LLMDevs/comments/1hbes3d/best_practices_for_rag/) , 2024-12-12-0914
+all -  [ Best practices for rag ](https://www.reddit.com/r/LLMDevs/comments/1hbes3d/best_practices_for_rag/) , 2024-12-13-0914
 ```
 Hi llmdevs! Any suggestions on best practices for rag? For a beginner? I have been playing around with rag for about a m
 onth now, and what all knowledge i have so far is what is given by openai and Claude that helped me with my project. I a
@@ -390,7 +1434,7 @@ n.
 
      
  
-all -  [ Need help: Infinite Loop on RNEventSource with Server-Sent Events (SSE) - Only Receiving “attempt: 1 ](https://www.reddit.com/r/reactnative/comments/1hbepuo/need_help_infinite_loop_on_rneventsource_with/) , 2024-12-12-0914
+all -  [ Need help: Infinite Loop on RNEventSource with Server-Sent Events (SSE) - Only Receiving “attempt: 1 ](https://www.reddit.com/r/reactnative/comments/1hbepuo/need_help_infinite_loop_on_rneventsource_with/) , 2024-12-13-0914
 ```
 I am working on a React Native expo managed project using RNEventSource to handle Server-Sent Events (SSE) from a langch
 ain endpoint. My backend is correctly streaming data (confirmed via Postman), but the frontend gets stuck in an infinite
@@ -522,7 +1566,7 @@ Thanks in advance. Link to [stackoverflow post](https://stackoverflow.com/questi
 
      
  
-all -  [ [For Hire] Experienced AI/Full Stack & DevOps Developer – Seeking Challenging, High-Impact Projects! ](https://www.reddit.com/r/forhire/comments/1hbbhib/for_hire_experienced_aifull_stack_devops/) , 2024-12-12-0914
+all -  [ [For Hire] Experienced AI/Full Stack & DevOps Developer – Seeking Challenging, High-Impact Projects! ](https://www.reddit.com/r/forhire/comments/1hbbhib/for_hire_experienced_aifull_stack_devops/) , 2024-12-13-0914
 ```
 🚀 **Your All-in-One Solution for AI/ML, Full Stack Development, and DevOps!**
 
@@ -631,7 +1675,7 @@ GitHub**: [storm1033](https://github.com/storm1033)
 
      
  
-all -  [ What is your go-to way of calling LLMs ?  ](https://www.reddit.com/r/node/comments/1hba5qq/what_is_your_goto_way_of_calling_llms/) , 2024-12-12-0914
+all -  [ What is your go-to way of calling LLMs ?  ](https://www.reddit.com/r/node/comments/1hba5qq/what_is_your_goto_way_of_calling_llms/) , 2024-12-13-0914
 ```
 For once, nodejs is not the main area of experimentation, we are a bit behind python for tooling. Still, what do y'all u
 se for interfacing with llms ? For validating structured data ?
@@ -643,749 +1687,7 @@ mething better than raw openai package?
 
      
  
-all -  [ How do you go about building a cursor/codeium clone ](https://www.reddit.com/r/LangChain/comments/1hb5yzl/how_do_you_go_about_building_a_cursorcodeium_clone/) , 2024-12-12-0914
-```
-So I want to build a similar UI like cursor. But I don’t want this for code. What I want is a dashboard/canvas on one si
-de and a chat interface on another where the user can add stuff to chat from the dashboard and the AI can answer them. W
-ould love to know how you guys think this can be built 
-```
----
-
-     
- 
-all -  [ Using Ollama and getting validation-error at invoke-function ](https://www.reddit.com/r/LangChain/comments/1hb55e6/using_ollama_and_getting_validationerror_at/) , 2024-12-12-0914
-```
-I am currently trying out Ollama for the first time and following a few tutorials (for example this one: https://python.
-langchain.com/docs/integrations/llms/ollama/). Even though ollama is working perfectly fine in the terminal, the moment 
-I try to use it in VSC through langchain, I get a Validation-Error, that tells me, my Input should be json and a diction
-ary. Can anybody help me with this/do you have any idea what I am doing wrong? I have already reinstalled llama and the 
-models
-
-https://preview.redd.it/c2zxcn4zn16e1.png?width=1162&format=png&auto=webp&s=80f65b2155fb74a3f5c02e9038a78e65c254
-4d80
-
-https://preview.redd.it/a3zgindzn16e1.png?width=1107&format=png&auto=webp&s=b4af5d820386520ebd53892e92c965a9aa5313
-46
-
-  
-  
-
-```
----
-
-     
- 
-all -  [ Using Ollama in Langchain and getting validation-error at invoke-function ](https://www.reddit.com/r/ollama/comments/1hb55c4/using_ollama_in_langchain_and_getting/) , 2024-12-12-0914
-```
-I am currently trying out Ollama for the first time and following a few tutorials (for example this one: https://python.
-langchain.com/docs/integrations/llms/ollama/). Even though ollama is working perfectly fine in the terminal, the moment 
-I try to use it in VSC through langchain, I get a Validation-Error, that tells me, my Input should be json and a diction
-ary. Can anybody help me with this/do you have any idea what I am doing wrong? I have already reinstalled llama and the 
-models
-
-https://preview.redd.it/c2zxcn4zn16e1.png?width=1162&format=png&auto=webp&s=80f65b2155fb74a3f5c02e9038a78e65c254
-4d80
-
-https://preview.redd.it/a3zgindzn16e1.png?width=1107&format=png&auto=webp&s=b4af5d820386520ebd53892e92c965a9aa5313
-46
-
-
-```
----
-
-     
- 
-all -  [ Voice agent companies - how are you monitoring and evaluating your calls? ](https://www.reddit.com/r/LangChain/comments/1hb0gyc/voice_agent_companies_how_are_you_monitoring_and/) , 2024-12-12-0914
-```
-We’re building [Roark Analytics](https://roark.ai/) (voice agent performance analytics) and are curious how other compan
-ies monitor and evaluate their calls to improve agent performance.
-
-* Are you tracking metrics like sentiment, intent ac
-curacy, or call success rates?
-* How are you identifying issues or areas for improvement?
-* Do you analyze calls in real
--time or focus on post-call insights?
-
-We’d love to learn more about the tools or strategies you’re using (or wish exist
-ed) to monitor and evaluate your voice agents effectively.
-```
----
-
-     
- 
-all -  [ Looking for suggestions on AI courses around LLMs  ](https://www.reddit.com/r/developersPak/comments/1hb04r1/looking_for_suggestions_on_ai_courses_around_llms/) , 2024-12-12-0914
-```
-So, I used to do AI, mainly Deep Learning back in 2020, 2021 when LLMs were not a thing, I worked on a bunch of freelanc
-e projects related to debugging, fine tuning etc so I'm comfortable with NLP, computer vision and stuff. I moved to full
-stack webdev in 2023 and then to blockchain web dev so Ive been very disconnected with the new things. 
-
-Im looking for 
-any suggestions on systematic pathways to work on production ready llm based apps, I know the basics like langchain and 
-RAG but Im completely blank on optimisations, best practices, agents, chains, etc. Can anyone here suggest a course or s
-omething? 
-```
----
-
-     
- 
-all -  [ I asked a mobster what he thinks about langchain ](https://www.reddit.com/gallery/1hazuut) , 2024-12-12-0914
-```
-Loose lips sink ships 👀
-```
----
-
-     
- 
-all -  [ Hierarchical chunking ](https://www.reddit.com/r/LangChain/comments/1hazl77/hierarchical_chunking/) , 2024-12-12-0914
-```
-Hello everyone,
-
-I’m currently working on a project involving the creation of a chatbot based on RAG (Retrieval-Augmente
-d Generation). For the RAG part, I want to implement hierarchical chunking, where the text is chunked hierarchically, wi
-th each leaf node containing a concise summary of its hierarchy. I'm not sure if this has already been implemented, so I
-’m asking for any resources, articles, or existing implementations related to hierarchical chunking. Any help would be g
-reatly appreciated!
-```
----
-
-     
- 
-all -  [ ChatPDF and PDF.ai are making millions using open source tech... here's the code ](https://www.reddit.com/r/SideProject/comments/1hazgkb/chatpdf_and_pdfai_are_making_millions_using_open/) , 2024-12-12-0914
-```
-# Why 'copy' an existing product?
-
-The best SaaS products weren’t the first of their kind - think Slack, Shopify, Zoom, 
-Dropbox, or HubSpot. They didn’t invent team communication, e-commerce, video conferencing, cloud storage, or marketing 
-tools; they just made them better.
-
-
-
-# What is a 'Chat with PDF' SaaS?
-
-These are AI-powered PDF assistants that let yo
-u upload a PDF and ask questions about its content. You can summarize articles, extract key details from a contract, ana
-lyze a research paper, and more. To see this in action or dive deeper into the tech behind it, check out this [YouTube v
-ideo.](https://www.youtube.com/watch?v=ih9PBGVVOO4)
-
-
-
-# Let's look at the market
-
-Made possible by advances in AI like 
-ChatGPT and Retrieval-Augmented Generation (RAG), PDF chat tools started gaining traction in early 2023 and have seen co
-nsistent growth in market interest, which is currently at an all-time high (source:[google trends](https://trends.google
-.com/trends/explore?date=today%205-y&q=pdf%20chat,pdf%20ai&hl=en-GB))
-
-Keywords like 'chat PDF' and 'PDF AI' get between
- 1 to 10 million searches every month (source:keyword planner), with a broad target audience that includes researchers, 
-students, and professionals across various industries.
-
-Leaders like [PDF.ai](http://PDF.ai) and ChatPDF have already ga
-ined millions of users within a year of launch, driven by the growing market demand, with paid users subscribing at arou
-nd $20/month.
-
-
-
-# Alright, so how do we build this with open source?
-
-The core tech for most PDF AI tools are based on 
-the same architecture. You generate text embeddings (AI-friendly text representations; usually via OpenAI APIs) for the 
-uploaded PDF’s chapters/topics and store them in a vector database (like Pinecone).
-
-Now, every time the user asks a que
-stion, a similarity search is performed to find the most similar PDF topics from the vector database. The selected topic
- contents are then sent to an LLM (like ChatGPT) along with the question, which generates a contextual answer!
-
-Here are
- some of the best open source implementations for this process:
-
-* [GPT4 & LangChain Chatbot for large PDF docs](https:/
-/github.com/mayooear/gpt4-pdf-chatbot-langchain) by Mayo Oshin
-* [MultiPDF Chat App](https://github.com/alejandro-ao/ask
--multiple-pdfs) by Alejandro AO
-* [PDFToChat](https://github.com/Nutlope/pdftochat) by Hassan El Mghari
-
-Worried about b
-uilding signups, user management, payments, etc.? Here are my go-to open-source SaaS boilerplates that include everythin
-g you need out of the box:
-
-* [SaaS Boilerplate](https://github.com/ixartz/SaaS-Boilerplate) by Remi Wg
-* [Open SaaS](ht
-tps://github.com/wasp-lang/open-saas) by wasp-lang
-
-
-
-# A few ideas to stand out from the noise:
-
-Here are a few strateg
-ies that could help you differentiate and achieve product market fit (based on the pivot principles from The Lean Startu
-p by Eric Ries):
-
-1. **Narrow down your target audience for a personalized UX:** For instance, an exam prep assistant fo
-r students with study notes and quiz generator; or a document due diligence and analysis tool for lawyers.
-2. **Add uniq
-ue features to increase switching cost:** You could autogenerate APIs for the uploaded PDFs to enable remote integration
-s (eg. support chatbot knowledge base); or build in workflow automation features for bulk analyses of PDFs.
-3. **Offer p
-latform level advantages:** You could ship a native mobile/desktop apps for a more integrated UX; or (non-trivial) offer
- private/offline support by replacing the APIs with local open source deployments (eg. llama for LLM, an embedding model
- from the MTEB list, and FAISS for vector search).
-
-**TMI?** I’m an ex-AI engineer and product lead, so don’t hesitate t
-o reach out with any questions!
-
-**P.S.** I've started a free weekly [newsletter](https://saaswithcode.substack.com/p/is
-sue-1-launch-a-saas-like-chatpdf) to share open-source/turnkey resources behind popular products (like this one). If you
-’re a founder looking to launch your next product without reinventing the wheel, please subscribe :)
-```
----
-
-     
- 
-all -  [ ChatPDF and PDF.ai are making millions using open source tech... here's the code ](https://www.reddit.com/r/EntrepreneurRideAlong/comments/1haykyq/chatpdf_and_pdfai_are_making_millions_using_open/) , 2024-12-12-0914
-```
-# Why 'copy' an existing product?
-
-The best SaaS products weren’t the first of their kind - think Slack, Shopify, Zoom, 
-Dropbox, or HubSpot. They didn’t invent team communication, e-commerce, video conferencing, cloud storage, or marketing 
-tools; they just made them better.
-
-
-
-# What is a 'Chat with PDF' SaaS?
-
-These are AI-powered PDF assistants that let yo
-u upload a PDF and ask questions about its content. You can summarize articles, extract key details from a contract, ana
-lyze a research paper, and more. To see this in action or dive deeper into the tech behind it, check out this [YouTube v
-ideo.](https://www.youtube.com/watch?v=ih9PBGVVOO4)
-
-
-
-# Let's look at the market
-
-Made possible by advances in AI like 
-ChatGPT and Retrieval-Augmented Generation (RAG), PDF chat tools started gaining traction in early 2023 and have seen co
-nsistent growth in market interest, which is currently at an all-time high (source: google trends)
-
-Keywords like 'chat 
-PDF' and 'PDF AI' get between 1 to 10 million searches every month (source:keyword planner), with a broad target audienc
-e that includes researchers, students, and professionals across various industries.
-
-Leaders like PDF.ai and ChatPDF hav
-e already gained millions of users within a year of launch, driven by the growing market demand, with paid users subscri
-bing at around $20/month.
-
-
-
-# Alright, so how do we build this with open source?
-
-The core tech for most PDF AI tools a
-re based on the same architecture. You generate text embeddings (AI-friendly text representations; usually via OpenAI AP
-Is) for the uploaded PDF’s chapters/topics and store them in a vector database (like Pinecone).
-
-Now, every time the use
-r asks a question, a similarity search is performed to find the most similar PDF topics from the vector database. The se
-lected topic contents are then sent to an LLM (like ChatGPT) along with the question, which generates a contextual answe
-r!
-
-Here are some of the best open source implementations for this process:
-
-* [GPT4 & LangChain Chatbot for large PDF d
-ocs](https://github.com/mayooear/gpt4-pdf-chatbot-langchain) by Mayo Oshin
-* [MultiPDF Chat App](https://github.com/alej
-andro-ao/ask-multiple-pdfs) by Alejandro AO
-* [PDFToChat](https://github.com/Nutlope/pdftochat) by Hassan El Mghari
-
-Wor
-ried about building signups, user management, payments, etc.? Here are my go-to open-source SaaS boilerplates that inclu
-de everything you need out of the box:
-
-* [SaaS Boilerplate](https://github.com/ixartz/SaaS-Boilerplate) by Remi Wg
-* [O
-pen SaaS](https://github.com/wasp-lang/open-saas) by wasp-lang
-
-
-
-# A few ideas to stand out from the noise:
-
-Here are a
- few strategies that could help you differentiate and achieve product market fit (based on the pivot principles from The
- Lean Startup by Eric Ries):
-
-1. **Narrow down your target audience for a personalized UX:** For instance, an exam prep 
-assistant for students with study notes and quiz generator; or a document due diligence and analysis tool for lawyers.
-2
-. **Add unique features to increase switching cost:** You could autogenerate APIs for the uploaded PDFs to enable remote
- integrations (eg. support chatbot knowledge base); or build in workflow automation features for bulk analyses of PDFs.
-
-3. **Offer platform level advantages:** You could ship a native mobile/desktop apps for a more integrated UX; or (non-tr
-ivial) offer private/offline support by replacing the APIs with local open source deployments (eg. llama for LLM, an emb
-edding model from the MTEB list, and FAISS for vector search).
-
-
-
-**TMI?** I’m an ex-AI engineer and product lead, so do
-n’t hesitate to reach out with any questions!
-
-**P.S.** I've started a free weekly [newsletter](https://saaswithcode.sub
-stack.com/p/issue-1-launch-a-saas-like-chatpdf) to share open-source/turnkey resources behind popular products (like thi
-s one). If you’re a founder looking to launch your next product without reinventing the wheel, please subscribe :)
-```
----
-
-     
- 
-all -  [ ChatPDF and PDF.ai are making millions using open source tech... here's the code ](https://www.reddit.com/r/SaaS/comments/1hayenp/chatpdf_and_pdfai_are_making_millions_using_open/) , 2024-12-12-0914
-```
-# Why 'copy' an existing product?
-
-The best SaaS products weren’t the first of their kind - think Slack, Shopify, Zoom, 
-Dropbox, or HubSpot. They didn’t invent team communication, e-commerce, video conferencing, cloud storage, or marketing 
-tools; they just made them better.
-
-
-
-# What is a 'Chat with PDF' SaaS?
-
-These are AI-powered PDF assistants that let yo
-u upload a PDF and ask questions about its content. You can summarize articles, extract key details from a contract, ana
-lyze a research paper, and more. To see this in action or dive deeper into the tech behind it, check out this [YouTube v
-ideo.](https://www.youtube.com/watch?v=ih9PBGVVOO4)
-
-
-
-# Let's look at the market
-
-Made possible by advances in AI like 
-ChatGPT and Retrieval-Augmented Generation (RAG), PDF chat tools started gaining traction in early 2023 and have seen co
-nsistent growth in market interest, which is currently at an all-time high (source:[google trends](https://trends.google
-.com/trends/explore?date=today%205-y&q=pdf%20chat,pdf%20ai&hl=en-GB))
-
-Keywords like 'chat PDF' and 'PDF AI' get between
- 1 to 10 million searches every month (source:keyword planner), with a broad target audience that includes researchers, 
-students, and professionals across various industries.
-
-Leaders like [PDF.ai](http://PDF.ai) and ChatPDF have already ga
-ined millions of users within a year of launch, driven by the growing market demand, with paid users subscribing at arou
-nd $20/month.
-
-
-
-# Alright, so how do we build this with open source?
-
-The core tech for most PDF AI tools are based on 
-the same architecture. You generate text embeddings (AI-friendly text representations; usually via OpenAI APIs) for the 
-uploaded PDF’s chapters/topics and store them in a vector database (like Pinecone).
-
-Now, every time the user asks a que
-stion, a similarity search is performed to find the most similar PDF topics from the vector database. The selected topic
- contents are then sent to an LLM (like ChatGPT) along with the question, which generates a contextual answer!
-
-Here are
- some of the best open source implementations for this process:
-
-* [GPT4 & LangChain Chatbot for large PDF docs](https:/
-/github.com/mayooear/gpt4-pdf-chatbot-langchain) by Mayo Oshin
-* [MultiPDF Chat App](https://github.com/alejandro-ao/ask
--multiple-pdfs) by Alejandro AO
-* [PDFToChat](https://github.com/Nutlope/pdftochat) by Hassan El Mghari
-
-Worried about b
-uilding signups, user management, payments, etc.? Here are my go-to open-source SaaS boilerplates that include everythin
-g you need out of the box:
-
-* [SaaS Boilerplate](https://github.com/ixartz/SaaS-Boilerplate) by Remi Wg
-* [Open SaaS](ht
-tps://github.com/wasp-lang/open-saas) by wasp-lang
-
-
-
-# A few ideas to stand out from the noise:
-
-Here are a few strateg
-ies that could help you differentiate and achieve product market fit (based on the pivot principles from The Lean Startu
-p by Eric Ries):
-
-1. **Narrow down your target audience for a personalized UX:** For instance, an exam prep assistant fo
-r students with study notes and quiz generator; or a document due diligence and analysis tool for lawyers.
-2. **Add uniq
-ue features to increase switching cost:** You could autogenerate APIs for the uploaded PDFs to enable remote integration
-s (eg. support chatbot knowledge base); or build in workflow automation features for bulk analyses of PDFs.
-3. **Offer p
-latform level advantages:** You could ship a native mobile/desktop apps for a more integrated UX; or (non-trivial) offer
- private/offline support by replacing the APIs with local open source deployments (eg. llama for LLM, an embedding model
- from the MTEB list, and FAISS for vector search).
-
-
-
-**TMI?** I’m an ex-AI engineer and product lead, so don’t hesitate
- to reach out with any questions!
-
-**P.S.** I've started a free weekly [newsletter](https://saaswithcode.substack.com/p/
-issue-1-launch-a-saas-like-chatpdf) to share open-source/turnkey resources behind popular products (like this one). If y
-ou’re a founder looking to launch your next product without reinventing the wheel, please subscribe :)
-```
----
-
-     
- 
-all -  [ Best way to run SWE-bench on my LangGraph agents framework? ](https://www.reddit.com/r/LangChain/comments/1hax1nz/best_way_to_run_swebench_on_my_langgraph_agents/) , 2024-12-12-0914
-```
-I build an agentic framework in LangGraph. What's the easiest way to benchmark it on SWE-bench? 
-```
----
-
-     
- 
-all -  [ How can I pass dataframe as an input in Langgrah? ](https://www.reddit.com/r/LangChain/comments/1hau2yy/how_can_i_pass_dataframe_as_an_input_in_langgrah/) , 2024-12-12-0914
-```
-I tried to pass a dataframe that does not work, and also there is a main problem, that is could not validate in the stat
-e schema.
-
-Then I tried to pass the DataFrame as a Dict, but that also did not work. Interestingly that did not throw an
- error, but the agent was not using this \`data\_dict\`, it generates some sample DataFrame randomly. 
-
-    graph.invoke
-(
-            {'messages': [HumanMessage(
-    content
-    =prompt)], 'data_dict': data_dict}, 
-            
-    config
- 
-   =thread
-        )
-
-  
-
-```
----
-
-     
- 
-all -  [ Converting hand drawn floor plan to professional
- ](https://www.reddit.com/r/LangChain/comments/1hasrtn/converting_hand_drawn_floor_plan_to_professional/) , 2024-12-12-0914
-```
-So, was hoping for some thoughts. I am trying to see if there is a way to convert hand drawn floor maps, kinda like: [ht
-tps://www.reddit.com/r/floorplan/comments/1aepd6n/are\_there\_any\_tools\_that\_can\_magically\_turn\_my/](https://www.r
-eddit.com/r/floorplan/comments/1aepd6n/are_there_any_tools_that_can_magically_turn_my/)
-
-Into something more like: [http
-s://cubicasa-wordpress-uploads.s3.amazonaws.com/uploads/2019/07/simple-stylish-1024x991.png](https://cubicasa-wordpress-
-uploads.s3.amazonaws.com/uploads/2019/07/simple-stylish-1024x991.png)
-
-Stable Diffusion models tend to hallucinate too m
-uch to generate something even midly resembling the original drawn layout.
-
-So I tried to go for a programmatic approach
-, once I have a semi decent computer generated mimic of the hand drawn image I could iterate with an agent to add labels
-, making refinements.
-
-I tried:
-
-1. Pass the image to an LLM with instructions to return drawing instructions for pycair
-o or shapely. (failed, even GPT4o failed pretty badly in the instructions. Almost like it could understand the image but
- did not have spatial understanding (would love anyone's understanding of this))
-2. Tried ezdxf for CAD drawing since i 
-thought maybe the issue was with the LLM generating pycairo instructions. (also failed, even worse than the pycairo inst
-ructions)
-3. Now on to converting it to a SVG as a vectorized representation using VTrace which can more easily detect l
-ines, polygons, etc. Feed this into (via translating function) pycairo to get a set of instructions that need to be foll
-owed to draw this. Next pass the instructions to an LLM to edit back and forth until a good product is achieved. HOWEVER
-, I am still unsure whether the LLM will actually be able to understand or provide helpful feedback to edit the instruct
-ions for drawing (can it even?)
-
-So reaching out, anyone run into anything similar? any open source models attempt to em
-ulate what I am doing? any thoughts on the process? or any models etc that can help here.
-
-Thanks
-```
----
-
-     
- 
-all -  [ Document Priority Retriever ](https://www.reddit.com/r/LangChain/comments/1has712/document_priority_retriever/) , 2024-12-12-0914
-```
-I am implementing a rag system that has a bunch of files and pdfs, and I am facing a challenge.
-
-I have 10 pdfs with a r
-ecap of the year, one file by year so 10 years in total. All those files has the revenue , clients and others, it is bas
-ically a executive summary of the year. 
-
-I have used semantic search to embedding it , but the problem is , when I say 
-something like what was the revenue of the year, it is taking a top k an old year documents instead of last year. If I s
-pecified in the query the year, for example: what was 2023 revenue, it works, but in the first example is there a way to
- prioritize the most recent documents when doing the retriever?
-
-I don't want to filter out by tag, because if the infor
-mation asked is not in the most recent file than it should look for the others. Is there a way to easily do it ?
-```
----
-
-     
- 
-all -  [ How to connect to different schema other than public in langraph postgres checkpoint saver ](https://www.reddit.com/r/LangGraph/comments/1harmg6/how_to_connect_to_different_schema_other_than/) , 2024-12-12-0914
-```
-[https://langchain-ai.github.io/langgraph/concepts/persistence/#using-in-langgraph](https://langchain-ai.github.io/langg
-raph/concepts/persistence/#using-in-langgraph)
-```
----
-
-     
- 
-all -  [  [Hiring] Currently working on a RAG + Big Data platform/marketplace and looking for developers  ](https://www.reddit.com/r/LangChain/comments/1harh82/hiring_currently_working_on_a_rag_big_data/) , 2024-12-12-0914
-```
-I'm currently building a RAG + Big data platform/marketplace. Think what home depot is for home builders, but we offer o
-ff-the-shelf AI analytics. The startup's name is Analytics Depot and will be the one stop for all things analytics for r
-eal estate, law, finance, insurance, oil and gas, supply chain, ecommerce etc.. 
-
-We do not cater to enterprise customer
-s. We cater B2C and B2Small business owners.  
-  
-The key areas we are focusing on is UI & UX, Data sources (more the me
-rrier), Serving the right models for the right profession, and payment/token system. Eventually we will have a marketpla
-ce where people can offer their own pipelines and get paid.
-
-If you have built A-Z data pipelines in any of these indust
-ries, DM me. I'd love to discuss how we can work together.
-```
----
-
-     
- 
-all -  [ Launched On Product Hunt: Here's the reason why I built it ](https://www.reddit.com/r/u_wait-a-minut/comments/1haq3z4/launched_on_product_hunt_heres_the_reason_why_i/) , 2024-12-12-0914
-```
-Over the past year of building AI-enabled SaaS applications, I kept hitting the same wall. Going from a Jupyter notebook
- full of AI RAG techniques to something usable in my app was a nightmare. I'm sure if anyone here has taking a look at l
-lama-index or langchain cookbook sections you might understand what I'm talking about.
-
-I came to the conclusion that th
-is is the problem:  
-\- Notebooks are great for testing ideas, but they’re not meant for building applications around th
-em.  
-\- I had to manually dissect notebooks, build a proof-of-concept API server, integrate it into my app, and pray it
- worked.  
-\- The feedback loop was \*painfully\* long—and most of the time, I canned the project because it didn’t quit
-e fit.
-
-This frustration comes from a gap in roles:
-
-1. Data Scientists/AI Devs want notebooks to experiment with method
-s and techniques—but it's not their main focus to also create an API for other applications to use.
-2. App Developers ju
-st want simple APIs to test and integrate quickly to see if it actually enhances their app.
-
-This is where KitchenAI com
-es in. A tool that bridges this gap by transforming your AI Jupyter notebooks into production-ready API server in minute
-s.
-
-But why??  
-\- Shorter Development Cycles  
-Test, iterate, and deploy AI techniques faster and cut the feedback loop
- in half.  
-\- Vendor and Framework Agnostic  
-Use the libraries you’re comfortable with, no lock-ins.  
-\- Plugin Archi
-tecture  
-Extend functionality with plugins for evaluation frameworks, observability, prompt management, and more.  
-\- 
-Open Source and Local-First  
-Built on trusted technologies like Django, so you stay in control—no 3rd-party dependencie
-s required.  
-\- Docker-Ready  
-Share your API server as a lightweight container for easy collaboration.
-
-We’ve released
- KitchenAI as an Apache-licensed open-source tool, so anyone can use it. Up next is a managed cloud version with deeper 
-integrations, metrics, analytics, and workflows for teams with more complex needs. One short term goal is to go straight
- from colab to a KitchenAI cloud hosted API so development can be absolutely seamless.
-
-Give it a spin and a star: [http
-s://github.com/epuerta9/kitc...](https://github.com/epuerta9/kitchenai)
-
-The product hunt profile as well, a demo video 
-is included: [https://www.producthunt.com/posts/kitchenai-2?utm\_source=other&utm\_medium=social](https://www.producthun
-t.com/posts/kitchenai-2?utm_source=other&utm_medium=social)
-```
----
-
-     
- 
-all -  [ Do you know any examples of public or easy access RAGs chatbots using OpenAI API? ](https://www.reddit.com/r/OpenAI/comments/1hapw3c/do_you_know_any_examples_of_public_or_easy_access/) , 2024-12-12-0914
-```
-Hello everybody, this is my first post here. 
-
-In the company I work for we are developing a proof of concept of a chatb
-ot for internal use capable to answer almost any question related to the use of the products we sell (at least that is w
-hat we are aiming for). 
-
-We are using the RAG approach, feeding the chatbot with all the documentation in PDF we have (
-manuals, logs, Support files, release notes, etc...). 
-
-For this, we are using Langchain, ChromaDB and the OpenAI API, t
-he DB was made using the text-embedding-3-large and playing with the temp parameters and changing between the models 4O 
-and 4O-mini, cleaning the PDFs to quit irrelevant text, set up the metadata for every document in the BD, etc...
-
-In gen
-eral, the results are regular, the chatbot can anwer questions about the products with good approach, but when the user 
-ask about the steps to perform certain task the chatbot usually hallucinates even when the instruccions can be found in 
-the documentation. 
-
-So, I'm wondering if you guys know any 'public' chatbot based on OpenAI and that follows the RAG ap
-proach. We would like to evaluate if the chatbot we are aiming is viable or we would need  to find another way.
-
-Sorry i
-f there's any type, English is not my first language. 
-```
----
-
-     
- 
-all -  [ How to do agentic RAG with the plan-and-execute methodology? ](https://www.reddit.com/r/Rag/comments/1hap12s/how_to_do_agentic_rag_with_the_planandexecute/) , 2024-12-12-0914
-```
-I want to combine [agentic RAG](https://github.com/langchain-ai/langgraph/blob/main/examples/rag/langgraph_agentic_rag.i
-pynb) with [plan and execute](https://github.com/langchain-ai/langgraph/blob/main/docs/docs/tutorials/plan-and-execute/p
-lan-and-execute.ipynb) agents. I've built the [multi-vector agentic RAG workflow](https://colab.research.google.com/driv
-e/1-tw-vgIgJMcXbdbSQwdhUTpsc663wMcw#scrollTo=7e22e20c-aac6-4c9d-b3c8-5822296b3ecf) in langgraph on some PDFs with tables
- by following the agentic RAG tutorial, but I am quite new to langgraph and as of yet have been unable to integrate the 
-plan-and-execute method in my agentic RAG workflow.
-
-In particular, here is the problem I want to solve. I am able to ca
-lculate 'light dues', 'port dues' and 'vehicle dues' separately (i.e., in 3 different runs) in my agentic RAG workflow. 
-But I want to be able to calculate all these charges in one shot - i.e., if I ask the agent, 'what are the total charges
- for a given vessel', it should be able to plan that in order to calculate the total charges it needs to calculate these
- 3 individual charges (so it has 3 intermediate tasks), then calculate each of them (either one by one or in parallel), 
-and then sum them up to present the final answer (the total charges) which is the fourth task.
-
-How do I accomplish this
-?
-
-[Here](https://colab.research.google.com/drive/1vlkrUxj1fMxCJFe12Myh414AYxa79SRB) is my attempt, but there are issues
- with the node definitions and/one edge interaction:
-
->
-```
----
-
-     
- 
-all -  [ Launched an Open Source Tool on Product Hunt. Want to share why I built it. ](https://www.reddit.com/r/webdev/comments/1haoavw/launched_an_open_source_tool_on_product_hunt_want/) , 2024-12-12-0914
-```
-Over the past year of building AI-enabled SaaS applications, I kept hitting the same wall. Going from a Jupyter notebook
- full of AI RAG techniques to something usable in my app was a nightmare. I'm sure if anyone here has taking a look at l
-lama-index or langchain cookbook sections you might understand what I'm talking about.  
-  
-I came to the conclusion tha
-t this is the problem:  
-\- Notebooks are great for testing ideas, but they’re not meant for building applications aroun
-d them.  
-\- I had to manually dissect notebooks, build a proof-of-concept API server, integrate it into my app, and pra
-y it worked.  
-\- The feedback loop was \*painfully\* long—and most of the time, I canned the project because it didn’t 
-quite fit.  
-  
-This frustration comes from a gap in roles:  
-1. Data Scientists/AI Devs want notebooks to experiment wi
-th methods and techniques—but it's not their main focus to also create an API for other applications to use.  
-2. App De
-velopers just want simple APIs to test and integrate quickly to see if it actually enhances their app.
-
-This is where Ki
-tchenAI comes in. A tool that bridges this gap by transforming your AI Jupyter notebooks into production-ready API serve
-r in minutes.  
-  
-But why??  
-\- Shorter Development Cycles  
-Test, iterate, and deploy AI techniques faster and cut th
-e feedback loop in half.  
-\- Vendor and Framework Agnostic  
-Use the libraries you’re comfortable with, no lock-ins.  
-
-\- Plugin Architecture  
-Extend functionality with plugins for evaluation frameworks, observability, prompt management, 
-and more.  
-\- Open Source and Local-First  
-Built on trusted technologies like Django, so you stay in control—no 3rd-pa
-rty dependencies required.  
-\- Docker-Ready  
-Share your API server as a lightweight container for easy collaboration. 
- 
-  
-We’ve released KitchenAI as an Apache-licensed open-source tool, so anyone can use it. Up next is a managed cloud v
-ersion with deeper integrations, metrics, analytics, and workflows for teams with more complex needs. One short term goa
-l is to go straight from colab to a KitchenAI cloud hosted API so development can be absolutely seamless.  
-  
-Give it a
- spin and a star: [https://github.com/epuerta9/kitc...](https://github.com/epuerta9/kitchenai)
-
-The product hunt profile
- as well, a demo video is included: [https://www.producthunt.com/posts/kitchenai-2?utm\_source=other&utm\_medium=social]
-(https://www.producthunt.com/posts/kitchenai-2?utm_source=other&utm_medium=social)
-```
----
-
-     
- 
-all -  [ Alternatives to run localLLM on private network  ](https://www.reddit.com/r/LocalLLaMA/comments/1han8mb/alternatives_to_run_localllm_on_private_network/) , 2024-12-12-0914
-```
-noobie question here:
-I've been working with Langchain + localLLMs (using APIs) for a week now and I wondering If there'
-s a way to deploy my agents on a private network (like the one from a company). Is there a way to do it with localLLM so
- other people on the network can acess?
-```
----
-
-     
- 
-all -  [ Visual Agents is Self-Aware Software: A Brief Intro ](https://youtu.be/iiDWPlrors4?si=Qnx7KDdU3KMq2JUS) , 2024-12-12-0914
-```
-Built on top of langchain in part.
-```
----
-
-     
- 
-all -  [ Building Recommendation System with RAG ](https://www.reddit.com/r/LangChain/comments/1hak0ml/building_recommendation_system_with_rag/) , 2024-12-12-0914
-```
-I like to build a recommendation system with RAG and wanted to hear others thoughts. I want to give recommendations base
-d on multiple quizzes students take. For example, students would take 2-3 tests and based on those results, recommend qu
-estions that they need to solve to improve their skills.
-
-Here my data would be the following. For each test: testId, qu
-estion number, choice selected(A,B,C,D), O/X (correct/incorrect) and category that the question belongs to.
-
-My thinking
- is: I would feed these data into a vectorstore. Now when student has take 3 tests, I would feed this and based on those
- 3 tests, I will do some kind of similiarity search and recommend questions that other students got wrong/correct and ge
-t those test+question number out.
-
-Would something like this be possible with RAG?
-```
----
-
-     
- 
-all -  [ GenAI and?? ](https://www.reddit.com/r/learnmachinelearning/comments/1haj5p5/genai_and/) , 2024-12-12-0914
-```
-Background: I have been working as a GenAI Engineer from mid of 2023 and basically this is what I have started my career
- with. I knew python and then as things came out I was doing development and learning the frameworks like Langchain, Lan
-gGraph, Streamlit, Chainli, LlamaIndex, Haystack and what not.. I know a bit about Azure as we did deployments on azure.
-
-
-
-After 1.5 year of experience in this domain, I think this is something that should not be your only skill. I want to 
-learn something that will complement GenAI. I have exploring few options like DevOps, WebDevelopment ( the path is too l
-ong, HTML, CSS, Javascript and goes the list goes on). What do you think I should learn/focus so that in some time I’ll 
-standout from the crowd?
-
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-12-0914
+MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-13-0914
 ```
   
 [https://github.com/dmayboroda/minima](https://github.com/dmayboroda/minima)  
