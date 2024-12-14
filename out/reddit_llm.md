@@ -1,5 +1,1054 @@
  
-all -  [ Aider + langchain: A match made in heaven? ](https://www.reddit.com/r/LocalLLaMA/comments/1hczbla/aider_langchain_a_match_made_in_heaven/) , 2024-12-13-0914
+all -  [ [Student] Non-Target CS Student looking for Summer 2025 Internships ](https://www.reddit.com/r/EngineeringResumes/comments/1hdpaec/student_nontarget_cs_student_looking_for_summer/) , 2024-12-14-0913
+```
+[I am having little luck with applying to Summer 2025 internships related to software engineering, and I've currently ap
+plied to around 400 places. I know the market is pretty bad right now, but just wanted to make sure my resume was optima
+l for getting me interviews, cause right now I have gotten mostly nothing from online applications \(Had an interview fr
+om my school's career fair\). Any advice would be greatly appreciated.](https://preview.redd.it/qnc9d2sc7p6e1.png?width=
+5100&format=png&auto=webp&s=68f0c23f6576eb216c1f4c5fdc6190e2aa9dba60)
+
+
+```
+---
+
+     
+ 
+all -  [ Modularizing AI workflows in production ](https://www.reddit.com/r/LangChain/comments/1hdm37i/modularizing_ai_workflows_in_production/) , 2024-12-14-0913
+```
+Wanted to share some challenges and solutions we discovered while working with complex prompt chains in production. We s
+tarted hitting some pain points as our prompt chains grew more sophisticated:
+
+* Keeping track of prompt versions across
+ different chain configurations became a nightmare
+* Testing different prompt variations meant lots of manual copying an
+d pasting. Especially when tracking the performances.
+* Deploying updated chains to production was tedious and error-pro
+ne. Environment variables was fine at first until the list of prompts start to grow.
+* Collaborating on prompt engineeri
+ng with the team led to version conflicts.
+   * We started with code verisoning it, but it was hard to loop in other sta
+keholders (ex: product managers, domain experts) to do code reviews on GitHub. Notion doesn’t have a good versioning sys
+tem built-in so everyone was kind of afraid to overwrite the other person’s work and ended up putting a lot of comments 
+all over the place.
+
+We ended up building a simple UI-based solution that helps us:
+
+1. Visualize the entire prompt chai
+n flow
+2. Track different versions of the workflow and make them replayable.
+3. Deploy the workflows as separate service
+ endpoints in order to manage them programmatically in code
+
+The biggest learning was that treating chained prompts like
+ we treat workflows (with proper versioning and replayability) made a huge difference in our development speed.
+
+Here’s 
+a high-level diagram of how we modularize AI workflows from the rest of the services
+
+https://preview.redd.it/4cwpce4uio
+6e1.png?width=1612&format=png&auto=webp&s=a290f010d8605bec3e1825603e87665366e802c2
+
+We’ve made our tool available at [ww
+w.bighummingbird.com](http://www.bighummingbird.com/) if anyone wants to try it, but I’m also curious to hear how others
+ are handling these challenges? :)
+```
+---
+
+     
+ 
+all -  [ Avoid sending messages at the same time ](https://www.reddit.com/r/LangChain/comments/1hdlx5e/avoid_sending_messages_at_the_same_time/) , 2024-12-14-0913
+```
+Hi,  
+I have a graph on langgraph wrapped around a FastAPI project.  
+I want to avoid sending two messages at the same t
+ime to the same chat\_id through the API.  
+Is there any way I can know when a thread is processing a message before sen
+ding a new one?  
+Thanks in advance!
+```
+---
+
+     
+ 
+all -  [ why my agent is not calling the tools  help me to fix this .. ](https://www.reddit.com/r/node/comments/1hdllox/why_my_agent_is_not_calling_the_tools_help_me_to/) , 2024-12-14-0913
+```
+mport dotenv from 'dotenv';  
+dotenv.config();  
+import { tool } from '@langchain/core/tools';  
+import { z } from 'zod'
+;  
+import { ChatGoogleGenerativeAI } from '@langchain/google-genai';  
+import { ChatPromptTemplate } from '@langchain/c
+ore/prompts';  
+import { AgentExecutor, createToolCallingAgent } from 'langchain/agents';  
+import { TavilySearchResults
+ } from '@langchain/community/tools/tavily\_search';
+
+const llm = new ChatGoogleGenerativeAI({  
+apiKey: process.env.GEM
+INI,  
+model: 'gemini-1.5-flash',  
+});
+
+const search = new TavilySearchResults({  
+apiKey: process.env.TAVILY,  
+maxRes
+ults: 2,  
+});
+
+*// Improved magicTool: Now actually uses the input*  
+const magicTool = tool(  
+async (input) => {  
+*/
+/Simulate fetching company name - replace this with actual API call if needed.*
+
+return 'The company name is Acme Corpor
+ation.';  
+},  
+{  
+name: 'business\_info',  
+description:  
+'This tool provides business information like name, locatio
+n, etc. Ask specific questions.',  
+}  
+);
+
+const tools = \[magicTool\];
+
+const prompt = ChatPromptTemplate.fromMessages
+(\[  
+\[  
+'system',  
+'You are a helpful assistant that answers the following questions as best you can. You have acces
+s to the following tools:',  
+\],  
+\['placeholder', '{chat\_history}'\],  
+\['human', '{input}'\],  
+\['placeholder', '
+{agent\_scratchpad}'\],  
+\]);
+
+const agent = createToolCallingAgent({  
+llm,  
+tools,  
+prompt,  
+});
+
+const agentexe =
+ new AgentExecutor({  
+agent,  
+tools,  
+verbose: true,  
+});
+
+const res = await agentexe.invoke({ input: 'what is the c
+ompany name?' });  
+console.log(res);
+```
+---
+
+     
+ 
+all -  [ why my agent is not calling the tools please help me to fix this  .. ](https://www.reddit.com/r/LangChain/comments/1hdksj8/why_my_agent_is_not_calling_the_tools_please_help/) , 2024-12-14-0913
+```
+import dotenv from 'dotenv';  
+dotenv.config();  
+import { tool } from '@langchain/core/tools';  
+import { z } from 'zod
+';  
+import { ChatGoogleGenerativeAI } from '@langchain/google-genai';  
+import { ChatPromptTemplate } from '@langchain/
+core/prompts';  
+import { AgentExecutor, createToolCallingAgent } from 'langchain/agents';  
+import { TavilySearchResult
+s } from '@langchain/community/tools/tavily\_search';  
+  
+const llm = new ChatGoogleGenerativeAI({  
+  apiKey: process.
+env.GEMINI,  
+  model: 'gemini-1.5-flash',  
+});  
+  
+const search = new TavilySearchResults({  
+  apiKey: process.env.T
+AVILY,  
+  maxResults: 2,  
+});  
+  
+*// Improved magicTool:  Now actually uses the input*  
+const magicTool = tool(  
+ 
+ async (input) => {  
+*//Simulate fetching company name - replace this with actual API call if needed.*  
+  
+return 'The
+ company name is Acme Corporation.';  
+  },  
+  {  
+name: 'business\_info',  
+description:  
+'This tool provides busines
+s information like name, location, etc.  Ask specific questions.',  
+  }  
+);  
+  
+const tools = \[magicTool\];  
+  
+con
+st prompt = ChatPromptTemplate.fromMessages(\[  
+  \[  
+'system',  
+'You are a helpful assistant that answers the follow
+ing questions as best you can. You have access to the following tools:',  
+  \],  
+  \['placeholder', '{chat\_history}'\
+],  
+  \['human', '{input}'\],  
+  \['placeholder', '{agent\_scratchpad}'\],  
+\]);  
+  
+const agent = createToolCalling
+Agent({  
+  llm,  
+  tools,  
+  prompt,  
+});  
+  
+const agentexe = new AgentExecutor({  
+  agent,  
+  tools,  
+  verbos
+e: true,  
+});  
+  
+const res = await agentexe.invoke({ input: 'what is the company name?' });  
+console.log(res);  
+  
+
+import dotenv from 'dotenv';  
+dotenv.config();  
+import { tool } from '@langchain/core/tools';  
+import { z } from 'zod
+';  
+import { ChatGoogleGenerativeAI } from '@langchain/google-genai';  
+import { ChatPromptTemplate } from '@langchain/
+core/prompts';  
+import { AgentExecutor, createToolCallingAgent } from 'langchain/agents';  
+import { TavilySearchResult
+s } from '@langchain/community/tools/tavily\_search';  
+  
+  
+const llm = new ChatGoogleGenerativeAI({  
+  apiKey: proce
+ss.env.GEMINI,  
+  model: 'gemini-1.5-flash',  
+});  
+  
+  
+const search = new TavilySearchResults({  
+  apiKey: process
+.env.TAVILY,  
+  maxResults: 2,  
+});  
+  
+  
+// Improved magicTool:  Now actually uses the input  
+const magicTool = to
+ol(  
+  async (input) => {  
+//Simulate fetching company name - replace this with actual API call if needed.  
+  
+  
+ret
+urn 'The company name is Acme Corporation.';  
+  },  
+  {  
+name: 'business\_info',  
+description:  
+'This tool provides
+ business information like name, location, etc.  Ask specific questions.',  
+  }  
+);  
+  
+  
+const tools = \[magicTool\
+];  
+  
+  
+const prompt = ChatPromptTemplate.fromMessages(\[  
+  \[  
+'system',  
+'You are a helpful assistant that answ
+ers the following questions as best you can. You have access to the following tools:',  
+  \],  
+  \['placeholder', '{ch
+at\_history}'\],  
+  \['human', '{input}'\],  
+  \['placeholder', '{agent\_scratchpad}'\],  
+\]);  
+  
+  
+const agent = 
+createToolCallingAgent({  
+  llm,  
+  tools,  
+  prompt,  
+});  
+  
+{  
+  input: 'what is the company name?',  
+  output
+: 'I need more information to answer your question.  The available tools don't contain any information about a specific 
+company.  Can you provide more context or details?\\n'  
+}  
+const agentexe = new AgentExecutor({  
+  agent,  
+  tools, 
+ 
+  verbose: true,  
+});  
+  
+  
+const res = await agentexe.invoke({ input: 'what is the company name?' });  
+console.lo
+g(res);  
+  
+the output is  ::   
+ {  
+  input: 'what is the company name?',  
+  output: 'I need more information to ans
+wer your question.  The available tools don't contain any information about a specific company.  Can you provide more co
+ntext or details?\\n'  
+}
+```
+---
+
+     
+ 
+all -  [ why my agent is not calling the tools please help me to fix this  ,  ](https://www.reddit.com/r/Bard/comments/1hdkqi8/why_my_agent_is_not_calling_the_tools_please_help/) , 2024-12-14-0913
+```
+    import dotenv from 'dotenv';
+    dotenv.config();
+    import { tool } from '@langchain/core/tools';
+    import { z }
+ from 'zod';
+    import { ChatGoogleGenerativeAI } from '@langchain/google-genai';
+    import { ChatPromptTemplate } fro
+m '@langchain/core/prompts';
+    import { AgentExecutor, createToolCallingAgent } from 'langchain/agents';
+    import { 
+TavilySearchResults } from '@langchain/community/tools/tavily_search';
+    
+    const llm = new ChatGoogleGenerativeAI({
+
+      apiKey: process.env.GEMINI,
+      model: 'gemini-1.5-flash',
+    });
+    
+    const search = new TavilySearchResu
+lts({
+      apiKey: process.env.TAVILY,
+      maxResults: 2,
+    });
+    
+    // Improved magicTool:  Now actually uses 
+the input
+    const magicTool = tool(
+      async (input) => {
+        
+    //Simulate fetching company name - replace t
+his with actual API call if needed.
+    
+        return 'The company name is Acme Corporation.';
+      },
+      {
+      
+  name: 'business_info',
+        description:
+          'This tool provides business information like name, location, et
+c.  Ask specific questions.',
+      }
+    );
+    
+    const tools = [magicTool];
+    
+    const prompt = ChatPromptTempl
+ate.fromMessages([
+      [
+        'system',
+        'You are a helpful assistant that answers the following questions a
+s best you can. You have access to the following tools:',
+      ],
+      ['placeholder', '{chat_history}'],
+      ['huma
+n', '{input}'],
+      ['placeholder', '{agent_scratchpad}'],
+    ]);
+    
+    const agent = createToolCallingAgent({
+   
+   llm,
+      tools,
+      prompt,
+    });
+    
+    const agentexe = new AgentExecutor({
+      agent,
+      tools,
+     
+ verbose: true,
+    });
+    
+    const res = await agentexe.invoke({ input: 'what is the company name?' });
+    console.
+log(res);
+    
+    import dotenv from 'dotenv';
+    dotenv.config();
+    import { tool } from '@langchain/core/tools';
+ 
+   import { z } from 'zod';
+    import { ChatGoogleGenerativeAI } from '@langchain/google-genai';
+    import { ChatPromp
+tTemplate } from '@langchain/core/prompts';
+    import { AgentExecutor, createToolCallingAgent } from 'langchain/agents'
+;
+    import { TavilySearchResults } from '@langchain/community/tools/tavily_search';
+    
+    
+    const llm = new Chat
+GoogleGenerativeAI({
+      apiKey: process.env.GEMINI,
+      model: 'gemini-1.5-flash',
+    });
+    
+    
+    const sear
+ch = new TavilySearchResults({
+      apiKey: process.env.TAVILY,
+      maxResults: 2,
+    });
+    
+    
+    // Improved 
+magicTool:  Now actually uses the input
+    const magicTool = tool(
+      async (input) => {
+        //Simulate fetching
+ company name - replace this with actual API call if needed.
+    
+    
+        return 'The company name is Acme Corporat
+ion.';
+      },
+      {
+        name: 'business_info',
+        description:
+          'This tool provides business infor
+mation like name, location, etc.  Ask specific questions.',
+      }
+    );
+    
+    
+    const tools = [magicTool];
+    
+
+    
+    const prompt = ChatPromptTemplate.fromMessages([
+      [
+        'system',
+        'You are a helpful assistan
+t that answers the following questions as best you can. You have access to the following tools:',
+      ],
+      ['place
+holder', '{chat_history}'],
+      ['human', '{input}'],
+      ['placeholder', '{agent_scratchpad}'],
+    ]);
+    
+    
+ 
+   const agent = createToolCallingAgent({
+      llm,
+      tools,
+      prompt,
+    });
+    
+    {
+      input: 'what is
+ the company name?',
+      output: 'I need more information to answer your question.  The available tools don't contain 
+any information about a specific company.  Can you provide more context or details?\n'
+    }
+    const agentexe = new Ag
+entExecutor({
+      agent,
+      tools,
+      verbose: true,
+    });
+    
+    
+    const res = await agentexe.invoke({ i
+nput: 'what is the company name?' });
+    console.log(res);
+    
+    the output is  :: 
+     {
+      input: 'what is the
+ company name?',
+      output: 'I need more information to answer your question.  The available tools don't contain any 
+information about a specific company.  Can you provide more context or details?\n'
+    }
+```
+---
+
+     
+ 
+all -  [ Advance Your Career: 100 Free Certified Courses on Udemy ](https://www.reddit.com/r/Udemy/comments/1hdjv70/advance_your_career_100_free_certified_courses_on/) , 2024-12-14-0913
+```
+Visualization techniques for Decision Makers and Leaders
+
+https://courze.org/visualization-techniques-for-decision-maker
+s-and-leaders/
+
+
+
+300+ JavaScript Interview Questions – Practice Tests
+
+https://courze.org/300-javascript-interview-ques
+tions-practice-tests/
+
+
+
+300+ Python Interview Questions – Practice Tests
+
+https://courze.org/300-python-interview-quest
+ions-practice-tests/
+
+
+
+Scrum Master Certification
+
+https://courze.org/scrum-master-certification-4/
+
+
+
+Business Analysi
+s
+
+https://courze.org/business-analysis/
+
+
+
+C Corporation Income Tax (Form 1120)
+
+https://courze.org/c-corporation-incom
+e-tax-form-1120/
+
+
+
+Zero to Hero in LangChain: Build GenAI apps using LangChain
+
+https://courze.org/zero-to-hero-in-lang
+chain-build-genai-apps-using-langchain/
+
+
+
+Blogger: Make A Professional Website For Free With No Coding
+
+https://courze.
+org/blogger-make-a-professional-website-for-free-with-no-coding/
+
+
+
+Solving LeetCode’s Top Interview Questions in Java \
+[2024\]
+
+https://courze.org/solving-leetcodes-top-interview-questions-in-java/
+
+
+
+4 Comprehensive Practice Tests for any
+ Python Certification
+
+https://courze.org/4-comprehensive-practice-tests-for-any-python-certification/
+
+
+
+Excel Certific
+ation Exam Preparation: 4 Practice Tests 2024
+
+https://courze.org/excel-certification-exam-preparation-4-practice-tests-
+2024-3/
+
+
+
+4 MS Excel Certification Practice Test & Interview Question
+
+https://courze.org/4-ms-excel-certification-prac
+tice-test-interview-question/
+
+
+
+CHRO Chief Human Resources Officer Executive Certification
+
+https://courze.org/chro-chi
+ef-human-resources-officer-executive-certification/
+
+
+
+Prioritization Techniques for Decision Makers and Leaders
+
+https:
+//courze.org/prioritization-techniques-for-decision-makers-and-leaders/
+
+
+
+The Complete Matlab Course for Wireless Comm.
+ Engineering
+
+https://courze.org/the-complete-matlab-course-for-wireless-comm-engineering/
+
+
+
+Currency Management for Sm
+all Businesses & Corporates
+
+https://courze.org/currency-management-for-small-businesses-corporates/
+
+
+
+Statistics & Exc
+el
+
+https://courze.org/statistics-excel/
+
+
+
+Prompt & AI Engineering Safety Professional Certification
+
+https://courze.or
+g/prompt-engineering-safety-ai-engineering-safety-expert/
+
+
+
+ChatGPT Prompt Engineering Guide: Make Money Using ChatGPT
+
+
+https://courze.org/chatgpt-prompt-engineering-guide-make-money-using-chatgpt/
+
+
+
+AI Course Creation Guide: Creating an 
+Online Course Using AI
+
+https://courze.org/ai-course-creation-guide-creating-an-online-course-using-ai/
+
+
+
+Advanced Skil
+l Test: Python Professional Level 1 (PCPP1™)
+
+https://courze.org/advanced-skill-test-python-professional-level-1-pcpp1-2
+/
+
+
+
+Advanced Skill Test: Python Professional Level 1 (PCPP1™)
+
+https://courze.org/advanced-skill-test-python-profession
+al-level-1-pcpp1-7/
+
+
+
+Advanced Skill Test: Python Professional Level 1 (PCPP1™)
+
+https://courze.org/advanced-skill-test
+-python-professional-level-1-pcpp1-9/
+
+
+
+Advanced Skill Test: Python Professional Level 1 (PCPP1™)
+
+https://courze.org/a
+dvanced-skill-test-python-professional-level-1-pcpp1-10/
+
+
+
+Advanced Skill Test: Python Professional Level 1 (PCPP1™)
+
+h
+ttps://courze.org/advanced-skill-test-python-professional-level-1-pcpp1-12/
+
+
+
+Advanced Skill Test: Python Professional 
+Level 1 (PCPP1™)
+
+https://courze.org/advanced-skill-test-python-professional-level-1-pcpp1-15/
+
+
+
+7 steps to entrepreneu
+rship: A complete business plan (PRO)
+
+https://courze.org/7-steps-to-entrepreneurship-a-complete-business-plan-pro/
+
+
+
+A
+utoCAD 2D & Isometric | AutoCAD Civil & Architectural
+
+https://courze.org/autocad-2d-isometric-autocad-civil-architectur
+al/
+
+
+
+Microsoft Power BI for Beginners & Excel Users
+
+https://courze.org/microsoft-power-bi-for-beginners-excel-users/
+
+
+
+
+CMO Chief Marketing Officer Executive Certification
+
+https://courze.org/cmo-chief-marketing-officer-executive-certifi
+cation/
+
+
+
+Transform Your Life in 5 Days: I Challenge You to Fail
+
+https://courze.org/transform-your-life-in-5-days-i-ch
+allenge-you-to-fail/
+
+
+
+Mastering Power BI Report Design – Beginner to Advanced
+
+https://courze.org/mastering-power-bi-r
+eport-design-beginner-to-advanced/
+
+
+
+Practical Machine Learning for Data Scientists
+
+https://courze.org/practical-machi
+ne-learning-for-data-scientists/
+
+
+
+Generative AI: Learn about the next AI frontier
+
+https://courze.org/generative-ai-le
+arn-about-the-next-ai-frontier/
+
+
+
+Master LCD Interfacing with Arduino: From Basics to Projects
+
+https://courze.org/mast
+er-lcd-interfacing-with-arduino-from-basics-to-projects/
+
+
+
+Deployment of Machine Learning Models
+
+https://courze.org/de
+ployment-of-machine-learning-models/
+
+
+
+Reinforcement Learning
+
+https://courze.org/reinforcement-learning/
+
+
+
+Deep Learn
+ing for Computer Vision
+
+https://courze.org/deep-learning-for-computer-vision/
+
+
+
+Deep Learning for Natural Language Pro
+cessing
+
+https://courze.org/deep-learning-for-natural-language-processing/
+
+
+
+Oracle Java Certification Exam OCA 1Z0-808
+ Preparation Part1
+
+https://courze.org/oracle-java-certification-exam-oca-1z0-808-preparation-part1/
+
+
+
+
+```
+---
+
+     
+ 
+all -  [ Direct OpenAI API vs. LangChain: A Performance and Workflow Comparison
+ ](https://blogs.adityabh.is-a.dev/posts/langchain-vs-openai-simplicity-vs-scalability/) , 2024-12-14-0913
+```
+
+```
+---
+
+     
+ 
+all -  [ Direct OpenAI API vs. LangChain: A Performance and Workflow Comparison
+ ](https://www.reddit.com/r/OpenSourceeAI/comments/1hdgunu/direct_openai_api_vs_langchain_a_performance_and/) , 2024-12-14-0913
+```
+Choosing between OpenAI’s API and LangChain can be tricky. In my latest blog, we explore:
+
+* Why the Direct API is faste
+r (hint: fewer layers).
+* How LangChain handles complex workflows with ease.
+* The trade-offs between speed, simplicity,
+ and flexibility
+
+Blog Link: [https://blogs.adityabh.is-a.dev/posts/langchain-vs-openai-simplicity-vs-scalability/](http
+s://blogs.adityabh.is-a.dev/posts/langchain-vs-openai-simplicity-vs-scalability/)
+
+If you’ve ever wondered when to stick
+ with the Direct API and when LangChain’s extra features make sense, this is for you! Check it out for a deep dive into 
+performance, bottlenecks, and use cases.
+
+Let’s discuss: Which tool do you prefer, and why? 🤔
+```
+---
+
+     
+ 
+all -  [ Langgraph Persistence memory: InvalidSqlStatementName ](https://www.reddit.com/r/LangChain/comments/1hdbvre/langgraph_persistence_memory/) , 2024-12-14-0913
+```
+    async def run_graph(user_input: str, thread_id: str):
+        with AsyncConnection.connect(os.getenv('DB_URI'), **co
+nnection_kwargs) as conn:
+            checkpointer = AsyncPostgresSaver(conn)
+            await checkpointer.setup()
+   
+         graph = workflow.compile(checkpointer=checkpointer)
+            config = {'configurable': {'thread_id': thread_
+id}}
+            async for event in graph.astream_events(
+                {'messages': [HumanMessage(content=user_input)
+]},
+                version = 'v2', stream_mode='values', config=config
+            ):
+                if 'on_chat_model
+_stream' == event['event']:
+                    if len(event['data']['chunk'].content) > 0:
+                        prin
+t(event['data']['chunk'].content, end='', flush=True)
+    
+    if __name__ == '__main__':
+        print('Running model')
+
+        asyncio.run(run_graph(user_input='How are you?', thread_id='testing5'))
+
+`DB_URI= postgresql://USER:PASSWORD@aw
+s-0-eu-central-1.pooler.supabase.com:6543/postgres?sslmode=disable`
+
+I am using above code for `react-agent` with `memor
+y`. Without `memory`, agent is working fine but when I add memory to it then sometime it gives me this error and sometim
+e it works fine. I am not sure what could be wrong.
+
+`psycopg.errors.InvalidSqlStatementName: prepared statement '_pg3_1
+4' does not exist`
+```
+---
+
+     
+ 
+all -  [ A Personalized Academic Companion - AI Agent ](https://open.substack.com/pub/diamantai/p/atlas-when-artificial-intelligence?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false) , 2024-12-14-0913
+```
+During the hackathon I ran with LangChain, a team of developers created ATLAS—a system of AI agents designed to help stu
+dents tackle the overwhelming challenges of modern education. From optimizing study schedules to tailoring learning reso
+urces, ATLAS provides personalized support to make studying more effective and less stressful.
+
+I shared the full story,
+ along with insights into how it works, in the blog attached (including also a link to the full code tutorial + YouTube 
+pitch video)
+
+Curious to hear your thoughts :)
+```
+---
+
+     
+ 
+all -  [ How to extract Title/Heading/Chapter Name from the PDF ](https://www.reddit.com/r/LangChain/comments/1hdbeeo/how_to_extract_titleheadingchapter_name_from_the/) , 2024-12-14-0913
+```
+I am working on a RAG Pipeline, in which I am extracting PDF and store in the mongo. When I perform a query, it responds
+ with a specific answer. Now I want to add Page Number and Title OR Chapter name OR heading of the title in the response
+.
+
+I am trying to fetch but it is not that much accurate. Anyone having a good approach ?
+```
+---
+
+     
+ 
+all -  [ What is best practice for follow-up questions? ](https://www.reddit.com/r/Rag/comments/1hdaf2y/what_is_best_practice_for_followup_questions/) , 2024-12-14-0913
+```
+I am implementing Ai agent, and feeding it with some scraped data, i am using Langchain alongside with express.js, from 
+your experience what is low cost and effective solution to handle follow up questions in rag? I read langchain docs but 
+they are suggesting to make another LLM call which may be costly, is there any appropriate practice for it which really 
+works, please share your experience, any material or web resource will be appreciated 
+```
+---
+
+     
+ 
+all -  [ Qdrant DB Retriever issue ](https://www.reddit.com/r/LangChain/comments/1hd9oz8/qdrant_db_retriever_issue/) , 2024-12-14-0913
+```
+Previously I have used Chroma DB now I wold like to use Qdrant db
+
+I have uploaded my docs to qdrant db using qdrant cli
+ent through langchain framework, created a collection name and assigned hugging face embedding model now now I’m not abl
+e to retrieve the query using .query method which was previously used in chroma DB I would like to know different modes 
+of search’s supported by qdrantvectorstore
+
+can any one guide me or share any links 
+```
+---
+
+     
+ 
+all -  [ How to return tool output directly without sending it to LLM again from a Langgraph Agent ? ](https://www.reddit.com/r/LangChain/comments/1hd9cc4/how_to_return_tool_output_directly_without/) , 2024-12-14-0913
+```
+A typical ReAct loop follows user -> assistant -> tool -> assistant ..., -> user. In some cases, you don't need to call 
+the LLM after the tool completes, the user can view the results directly themselves.
+
+I am currently developing a Langgr
+aph Agent ( this [https://langchain-ai.github.io/langgraph/#example](https://langchain-ai.github.io/langgraph/#example) 
+is the base ) .
+
+For my agent , I have 2 tools for calling 2 apis.  
+  
+Results from these 2 tool calls can be large...v
+ery large some times depending on the user query.
+
+I want that the tool outputs ( i.e. the api response ) instead of goi
+ng back to the agent , it should be returned directly to the user.
+
+I found a Langchain JS reference for this ( [https:/
+/langchain-ai.github.io/langgraphjs/how-tos/dynamically-returning-directly/](https://langchain-ai.github.io/langgraphjs/
+how-tos/dynamically-returning-directly/) ) but I'm developing using Python. Can anyone guide me how to directly return t
+he tool outputs to the user ?
+
+My app is a streamlit app. Thanks!
+```
+---
+
+     
+ 
+all -  [ Direct OpenAI API vs. LangChain: A Performance and Workflow Comparison
+ ](https://www.reddit.com/r/OpenAI/comments/1hd6x21/direct_openai_api_vs_langchain_a_performance_and/) , 2024-12-14-0913
+```
+Choosing between OpenAI’s API and LangChain can be tricky. In my latest blog, we explore:
+
+* Why the Direct API is faste
+r (hint: fewer layers).
+* How LangChain handles complex workflows with ease.
+* The trade-offs between speed, simplicity,
+ and flexibility.
+
+Blog link: [https://blogs.adityabh.is-a.dev/posts/langchain-vs-openai-simplicity-vs-scalability/](htt
+ps://blogs.adityabh.is-a.dev/posts/langchain-vs-openai-simplicity-vs-scalability/)
+
+If you’ve ever wondered when to stic
+k with the Direct API and when LangChain’s extra features make sense, this is for you! Check it out for a deep dive into
+ performance, bottlenecks, and use cases.
+
+Let’s discuss: Which tool do you prefer, and why? 🤔
+```
+---
+
+     
+ 
+all -  [ Direct OpenAI API vs. LangChain: A Performance and Workflow Comparison ](https://www.reddit.com/r/LangChain/comments/1hd6w5x/direct_openai_api_vs_langchain_a_performance_and/) , 2024-12-14-0913
+```
+Choosing between OpenAI’s API and LangChain can be tricky. In my latest blog, we explore:
+
+* Why the Direct API is faste
+r (hint: fewer layers).
+* How LangChain handles complex workflows with ease.
+* The trade-offs between speed, simplicity,
+ and flexibility
+
+Blog Link: [https://blogs.adityabh.is-a.dev/posts/langchain-vs-openai-simplicity-vs-scalability/](http
+s://blogs.adityabh.is-a.dev/posts/langchain-vs-openai-simplicity-vs-scalability/)
+
+If you’ve ever wondered when to stick
+ with the Direct API and when LangChain’s extra features make sense, this is for you! Check it out for a deep dive into 
+performance, bottlenecks, and use cases.
+
+Let’s discuss: Which tool do you prefer, and why? 🤔
+```
+---
+
+     
+ 
+all -  [ AI Companion ](https://www.reddit.com/r/LangChain/comments/1hd6fo6/ai_companion/) , 2024-12-14-0913
+```
+We trying to develop a bot for people to talk when feeling lonely. I came by such a bot which is already very popular na
+med Replica. Is there any other such bots which are already in use? Anyone knows which latest LLM Replica is using in th
+e backend?
+```
+---
+
+     
+ 
+all -  [ My ideal development wishlist for building AI apps ](https://www.reddit.com/r/LangChain/comments/1hd62k6/my_ideal_development_wishlist_for_building_ai_apps/) , 2024-12-14-0913
+```
+As I reflect on what I’m building now and what I have built over the last 2 years I often go back to this list I made a 
+few months ago.  
+
+Wondering if anyone else relates 
+
+
+It’s straight copy/paste from my notion page but felt worth shari
+ng 
+
+
+- I want an easier way to integrate AI into my app from what everyone is putting out on jupyter notebooks
+    - no
+tebooks are great but there is so much overhead in trying out all these new techniques. I wish there was better tooling 
+to integrate it into an app at some point. 
+- I want some pre-bundled options and kits to get me going
+- I want SOME con
+trol over the AI server I’m running with hooks into other custom systems.
+- I don’t want a Low/no Code solution, I want 
+to have control of the code
+- I want an Open Source tool that works with other open source software. No vendor lock in
+-
+ I want to share my AI code easily so that other application devs can test out my changes. 
+- I want to be able to run e
+valuations and other LLMOps features directly
+    - evaluations
+    - lifecycle
+    - traces
+- I want to deploy this eas
+ily and work with my deployment strategies
+- I want to switch out AI techniques easily so as new ones come out, I can se
+e the benefit right away
+- I want to have an ecosystem of easy AI plugins I can use and can hook onto my existing server
+. Can be quality of life, features, stand-alone applications 
+- I want a runtime that can handle most of the boilerplate
+ of running a server. 
+```
+---
+
+     
+ 
+all -  [ Aider + langchain: A match made in heaven? ](https://www.reddit.com/r/LocalLLaMA/comments/1hczbla/aider_langchain_a_match_made_in_heaven/) , 2024-12-14-0913
 ```
  🚀
 
@@ -33,7 +1082,7 @@ Happy to hear any thoughts or feedback from the community!
 
      
  
-all -  [ Token limit challenge with large tool/function calling response ](https://www.reddit.com/r/LangChain/comments/1hcwrzk/token_limit_challenge_with_large_toolfunction/) , 2024-12-13-0914
+all -  [ Token limit challenge with large tool/function calling response ](https://www.reddit.com/r/LangChain/comments/1hcwrzk/token_limit_challenge_with_large_toolfunction/) , 2024-12-14-0913
 ```
 Hi everyone, 
 
@@ -61,7 +1110,7 @@ esults with high relevance?
 
      
  
-all -  [  CommanderAI / LLM-Driven Action Generation on Windows with Langchain (openai) ](https://www.reddit.com/r/OpenAIDev/comments/1hcwok1/commanderai_llmdriven_action_generation_on/) , 2024-12-13-0914
+all -  [  CommanderAI / LLM-Driven Action Generation on Windows with Langchain (openai) ](https://www.reddit.com/r/OpenAIDev/comments/1hcwok1/commanderai_llmdriven_action_generation_on/) , 2024-12-14-0913
 ```
 Hey everyone,
 
@@ -120,7 +1169,7 @@ I)
 
      
  
-all -  [ multi RAG issue ](https://www.reddit.com/r/LangChain/comments/1hcvpmy/multi_rag_issue/) , 2024-12-13-0914
+all -  [ multi RAG issue ](https://www.reddit.com/r/LangChain/comments/1hcvpmy/multi_rag_issue/) , 2024-12-14-0913
 ```
 Hi everyone, I need your help. I'm working on a multi-profile RAG using RetrievalQA, FAISS, and Chainlit. Recently, whil
 e testing, I encountered an issue with memory usage.
@@ -137,7 +1186,7 @@ trievalQA process and free up memory?
 
      
  
-all -  [ How to clone any Twitter personality into an AI (your move, Elon) 🤖 ](https://www.reddit.com/r/LangChain/comments/1hcrjfp/how_to_clone_any_twitter_personality_into_an_ai/) , 2024-12-13-0914
+all -  [ How to clone any Twitter personality into an AI (your move, Elon) 🤖 ](https://www.reddit.com/r/LangChain/comments/1hcrjfp/how_to_clone_any_twitter_personality_into_an_ai/) , 2024-12-14-0913
 ```
 The LangChain team dropped this gem showing how to build AI personas from Twitter/X profiles using LangGraph and Arcade.
  It's basically like having a conversation with someone's Twitter alter ego, minus the blue checkmark drama.
@@ -166,58 +1215,7 @@ P.S. No GPTs
 
      
  
-all -  [ [For Hire] Title [For Hire] Experienced AI/ML, Full Stack, and DevOps Developer – Ready to Tackle Yo ](https://www.reddit.com/r/forhire/comments/1hcpvx4/for_hire_title_for_hire_experienced_aiml_full/) , 2024-12-13-0914
-```
-🚀 **Your One-Stop Solution for AI/ML, Full Stack Development, and DevOps!**
-
-Hey, I'm Sheryar! 👋 I'm an experienced **AI
-/ML Engineer**, **Full Stack Developer**, and **DevOps Specialist**. If you're looking to bring your ideas to life with 
-scalable, high-performance solutions, I can help!
-
-💻 **Full Stack Development**
-
-* Beautiful UIs: React | Angular
-* Powe
-rful APIs: Node.js | NestJS
-* Easy Payment Integration: Stripe
-* Cloud Infrastructure: AWS | GCP
-
-🤖 **AI & Machine Learn
-ing**
-
-* Smart Chatbots with LangChain
-* Custom AI Models for NLP, Automation, & More
-
-⚙️ **DevOps Solutions**
-
-* CI/CD 
-Pipelines with GitHub Actions | Jenkins
-* Containerization with Docker | Kubernetes
-* Infrastructure as Code: Terraform 
-| Ansible
-* Monitoring Tools: Prometheus | Grafana
-
-🌟 **Recent Projects**
-
-* 🚗 Ride-Sharing: Real-time vehicle tracking 
-& payments
-* 📦 Logistics: Multi-stop delivery route optimization
-* 🛒 E-Commerce: Scalable Kubernetes clusters for high-t
-raffic apps
-
-💰 **Rates**: $20–$25/hour (negotiable)  
-📧 **Let's talk!** DM me to discuss your project!
-
-🔗 **GitHub**: [s
-torm1033](https://github.com/storm1033)
-
-Let’s collaborate and build something amazing! 🌐✨
-```
----
-
-     
- 
-all -  [ What happened to Conversational Retrieval QA? ](https://www.reddit.com/r/LangChain/comments/1hcpf6v/what_happened_to_conversational_retrieval_qa/) , 2024-12-13-0914
+all -  [ What happened to Conversational Retrieval QA? ](https://www.reddit.com/r/LangChain/comments/1hcpf6v/what_happened_to_conversational_retrieval_qa/) , 2024-12-14-0913
 ```
 Once upon a time in the v0.1 days there was this idea of \[Conversational Retrieval QA\](https://js.langchain.com/v0.1/d
 ocs/modules/chains/popular/chat\_vector\_db\_legacy/).  You can see the docs on this webpage, but if you click the link 
@@ -230,7 +1228,7 @@ ing else less obvious or did they just drop support for it?
 
      
  
-all -  [ Not able to generate embeddings ](https://www.reddit.com/r/learnmachinelearning/comments/1hcp5ht/not_able_to_generate_embeddings/) , 2024-12-13-0914
+all -  [ Not able to generate embeddings ](https://www.reddit.com/r/learnmachinelearning/comments/1hcp5ht/not_able_to_generate_embeddings/) , 2024-12-14-0913
 ```
 I am using Langchain and google generative AI to generate embeddings of the document, however I am encountering Error 40
 3 ->  
@@ -325,7 +1323,7 @@ Somebody please help I been stuck here for last 2 hours
 
      
  
-all -  [ Not able to generate embeddings ](https://www.reddit.com/r/generativeAI/comments/1hcp3y0/not_able_to_generate_embeddings/) , 2024-12-13-0914
+all -  [ Not able to generate embeddings ](https://www.reddit.com/r/generativeAI/comments/1hcp3y0/not_able_to_generate_embeddings/) , 2024-12-14-0913
 ```
 I am using Langchain and google generative AI to generate embeddings of the document, however I am encountering Error 40
 3 ->  
@@ -421,7 +1419,7 @@ code->
 
      
  
-all -  [ Any alternatives to LangChain for LLMs/GraphRAG on RDF graphs? ](https://www.reddit.com/r/KnowledgeGraph/comments/1hcozn1/any_alternatives_to_langchain_for_llmsgraphrag_on/) , 2024-12-13-0914
+all -  [ Any alternatives to LangChain for LLMs/GraphRAG on RDF graphs? ](https://www.reddit.com/r/KnowledgeGraph/comments/1hcozn1/any_alternatives_to_langchain_for_llmsgraphrag_on/) , 2024-12-14-0913
 ```
 Hello. I am getting more into GraphRAG. This year a project I was involved with transformed a large RDF graph into Neo4j
  (via Neosemantics), and from there I used LangChain and our in-house AI models to do GraphRAG things, with great result
@@ -448,7 +1446,7 @@ ng to do GraphRAG things directly on RDF data (i.e., use vectorization but merel
 
      
  
-all -  [ ChatPDF and PDF.ai are making millions using open source tech... here's the code ](https://www.reddit.com/r/Entrepreneur/comments/1hcm180/chatpdf_and_pdfai_are_making_millions_using_open/) , 2024-12-13-0914
+all -  [ ChatPDF and PDF.ai are making millions using open source tech... here's the code ](https://www.reddit.com/r/Entrepreneur/comments/1hcm180/chatpdf_and_pdfai_are_making_millions_using_open/) , 2024-12-14-0913
 ```
 # Why 'copy' an existing product?
 
@@ -531,7 +1529,7 @@ er (link in first comment) which covers open-source/turnkey resources behind pop
 
      
  
-all -  [ ChatPDF and PDF.ai are making millions using open source tech... here's the code ](https://www.reddit.com/r/microsaas/comments/1hckxwo/chatpdf_and_pdfai_are_making_millions_using_open/) , 2024-12-13-0914
+all -  [ ChatPDF and PDF.ai are making millions using open source tech... here's the code ](https://www.reddit.com/r/microsaas/comments/1hckxwo/chatpdf_and_pdfai_are_making_millions_using_open/) , 2024-12-14-0913
 ```
 # Why 'copy' an existing product?
 
@@ -615,7 +1613,7 @@ launch your next product without reinventing the wheel, please subscribe :)
 
      
  
-all -  [ I made a free directory of Agentic Tools ](https://www.reddit.com/r/LangChain/comments/1hckonl/i_made_a_free_directory_of_agentic_tools/) , 2024-12-13-0914
+all -  [ I made a free directory of Agentic Tools ](https://www.reddit.com/r/LangChain/comments/1hckonl/i_made_a_free_directory_of_agentic_tools/) , 2024-12-14-0913
 ```
 Hey everyone! 👋
 
@@ -661,7 +1659,7 @@ Questions, suggestions, or feedback? Drop them in the comments below!
 
      
  
-all -  [ as a fresher can i write this under my name in resume. ](https://www.reddit.com/r/IndiaTech/comments/1hcjnml/as_a_fresher_can_i_write_this_under_my_name_in/) , 2024-12-13-0914
+all -  [ as a fresher can i write this under my name in resume. ](https://www.reddit.com/r/IndiaTech/comments/1hcjnml/as_a_fresher_can_i_write_this_under_my_name_in/) , 2024-12-14-0913
 ```
 also i have 3 months of work experience is it even countable as experience
 
@@ -674,7 +1672,7 @@ dth=1180&format=png&auto=webp&s=f585ecfc8b94952eecaf9c7efbaf787e0b101209
 
      
  
-all -  [ A way in langgraph to find if the execution is completed ](https://www.reddit.com/r/LangChain/comments/1hcj99u/a_way_in_langgraph_to_find_if_the_execution_is/) , 2024-12-13-0914
+all -  [ A way in langgraph to find if the execution is completed ](https://www.reddit.com/r/LangChain/comments/1hcj99u/a_way_in_langgraph_to_find_if_the_execution_is/) , 2024-12-14-0913
 ```
 Iam building a workflow which asks for human input for onboarding, I want to know in some way that the execution is comp
 leted or ongoing so that i can use it to switch to next workflow. How can i achieve this by using interupts or by using 
@@ -684,7 +1682,7 @@ a state variable
 
      
  
-all -  [ My llm agent with tools is not converting the ToolMessage into an AI message ](https://www.reddit.com/r/LangChain/comments/1hci1do/my_llm_agent_with_tools_is_not_converting_the/) , 2024-12-13-0914
+all -  [ My llm agent with tools is not converting the ToolMessage into an AI message ](https://www.reddit.com/r/LangChain/comments/1hci1do/my_llm_agent_with_tools_is_not_converting_the/) , 2024-12-14-0913
 ```
 Hello and  a good day to you all!
 
@@ -752,15 +1750,7 @@ O     | notion\_bot.agents.qa\_agent:run:86 - Starting QAAgent.
 
      
  
-all -  [ Is it possible to update langgraph state using tool  ](https://www.reddit.com/r/LangChain/comments/1hcgxrk/is_it_possible_to_update_langgraph_state_using/) , 2024-12-13-0914
-```
-
-```
----
-
-     
- 
-all -  [ Should I reuse a single LangChain ChatOpenAI instance or create a new one for each request in FastAP ](https://www.reddit.com/r/LangChain/comments/1hcf16g/should_i_reuse_a_single_langchain_chatopenai/) , 2024-12-13-0914
+all -  [ Should I reuse a single LangChain ChatOpenAI instance or create a new one for each request in FastAP ](https://www.reddit.com/r/LangChain/comments/1hcf16g/should_i_reuse_a_single_langchain_chatopenai/) , 2024-12-14-0913
 ```
 Hi everyone,
 
@@ -797,7 +1787,7 @@ Thanks in advance!
 
      
  
-all -  [ Chance me for RSI (Experienced Researcher at Ivy + Stanford)  ](https://www.reddit.com/r/summerprogramresults/comments/1hce5t6/chance_me_for_rsi_experienced_researcher_at_ivy/) , 2024-12-13-0914
+all -  [ Chance me for RSI (Experienced Researcher at Ivy + Stanford)  ](https://www.reddit.com/r/summerprogramresults/comments/1hce5t6/chance_me_for_rsi_experienced_researcher_at_ivy/) , 2024-12-14-0913
 ```
 Chance me for RSI:   
   
@@ -888,7 +1878,7 @@ rent countries
 
      
  
-all -  [ Why Pydantic AI might be the future for building AI Agents? ](https://www.reddit.com/r/PydanticAI/comments/1hcc9qq/why_pydantic_ai_might_be_the_future_for_building/) , 2024-12-13-0914
+all -  [ Why Pydantic AI might be the future for building AI Agents? ](https://www.reddit.com/r/PydanticAI/comments/1hcc9qq/why_pydantic_ai_might_be_the_future_for_building/) , 2024-12-14-0913
 ```
 Hi guys,
 
@@ -907,7 +1897,7 @@ ev/)
 
      
  
-all -  [ Problems installing langchain-python-rag-document from examples ](https://www.reddit.com/r/ollama/comments/1hcayho/problems_installing_langchainpythonragdocument/) , 2024-12-13-0914
+all -  [ Problems installing langchain-python-rag-document from examples ](https://www.reddit.com/r/ollama/comments/1hcayho/problems_installing_langchainpythonragdocument/) , 2024-12-14-0913
 ```
 i get this after installing from requirements.txt
 
@@ -934,7 +1924,7 @@ rements?
 
      
  
-all -  [ I automated my entire job with Python & AI - Ask me how to automate YOUR most hated task ](https://www.reddit.com/r/ArtificialInteligence/comments/1hc93pz/i_automated_my_entire_job_with_python_ai_ask_me/) , 2024-12-13-0914
+all -  [ I automated my entire job with Python & AI - Ask me how to automate YOUR most hated task ](https://www.reddit.com/r/ArtificialInteligence/comments/1hc93pz/i_automated_my_entire_job_with_python_ai_ask_me/) , 2024-12-14-0913
 ```
 Hey r/ArtificialInteligence  \- I'm the dev who automated an entire marketing agency's workflow. Ask me literally anythi
 ng about automating your boring tasks. Some quick overview of what I've built:
@@ -999,7 +1989,7 @@ done) :)
 
      
  
-all -  [ I automated my entire job with Python & AI - Ask me how to automate YOUR most hated task ](https://www.reddit.com/r/Automate/comments/1hc8x5v/i_automated_my_entire_job_with_python_ai_ask_me/) , 2024-12-13-0914
+all -  [ I automated my entire job with Python & AI - Ask me how to automate YOUR most hated task ](https://www.reddit.com/r/Automate/comments/1hc8x5v/i_automated_my_entire_job_with_python_ai_ask_me/) , 2024-12-14-0913
 ```
 Hey r/Automate  \- I'm the dev who automated an entire marketing agency's workflow. Ask me literally anything about auto
 mating your boring tasks. Some quick overview of what I've built:
@@ -1051,7 +2041,7 @@ tomate it (with proof of similar projects I've done) :)
 
      
  
-all -  [ [0 YOE, Unemployed , Machine Learning/Data Science, India] ](https://www.reddit.com/r/resumes/comments/1hc0c61/0_yoe_unemployed_machine_learningdata_science/) , 2024-12-13-0914
+all -  [ [0 YOE, Unemployed , Machine Learning/Data Science, India] ](https://www.reddit.com/r/resumes/comments/1hc0c61/0_yoe_unemployed_machine_learningdata_science/) , 2024-12-14-0913
 ```
 https://preview.redd.it/pbevskapi96e1.png?width=1170&format=png&auto=webp&s=6c61dfd3845cd82bc1ca6eeac19c00a2049231a8
 
@@ -1066,7 +2056,7 @@ I am
 
      
  
-all -  [ Conversational avatar  ](https://www.reddit.com/r/LangChain/comments/1hbxlfs/conversational_avatar/) , 2024-12-13-0914
+all -  [ Conversational avatar  ](https://www.reddit.com/r/LangChain/comments/1hbxlfs/conversational_avatar/) , 2024-12-14-0913
 ```
 Has anyone tried creating this kind of project? 
 ```
@@ -1074,7 +2064,7 @@ Has anyone tried creating this kind of project?
 
      
  
-all -  [ Local tool calling agents using LangChain and Ollama are inexplicably poorly performing ](https://www.reddit.com/r/LocalLLaMA/comments/1hbx96u/local_tool_calling_agents_using_langchain_and/) , 2024-12-13-0914
+all -  [ Local tool calling agents using LangChain and Ollama are inexplicably poorly performing ](https://www.reddit.com/r/LocalLLaMA/comments/1hbx96u/local_tool_calling_agents_using_langchain_and/) , 2024-12-14-0913
 ```
 Hi all,
 
@@ -1104,7 +2094,7 @@ hV95iKVVGF7YC5_K7oiujMT6q?usp=sharing)
 
      
  
-all -  [ We built a frontend framework for LangGraph ](https://www.reddit.com/r/LangChain/comments/1hbw7yj/we_built_a_frontend_framework_for_langgraph/) , 2024-12-13-0914
+all -  [ We built a frontend framework for LangGraph ](https://www.reddit.com/r/LangChain/comments/1hbw7yj/we_built_a_frontend_framework_for_langgraph/) , 2024-12-14-0913
 ```
 At [CopilotKit](https://github.com/CopilotKit/CopilotKit), we build components & tools that help developers build in-app
  AI assistants (like Chatbots). Over the last few months we've been working to support deeper in-app Agent integrations.
@@ -1153,541 +2143,7 @@ d36816d2298952e1b7a
 
      
  
-all -  [ Stripe agent toolkit useful? ](https://www.reddit.com/r/LangChain/comments/1hbtz8f/stripe_agent_toolkit_useful/) , 2024-12-13-0914
-```
-Anyone using the Stripe agent toolkit https://github.com/stripe/agent-toolkit? 
-
-I've been trying to automate payments (
-with human in the loop confirmation) for customer support using the langchain part of their agent, but only 10 tools are
- so exposed.   
-Anyone extended/using it?
-```
----
-
-     
- 
-all -  [ [For Hire] Programmer/Web Developer/IT Consultant (Python, PHP, AI, etc.) ](https://www.reddit.com/r/forhire/comments/1hbsdu1/for_hire_programmerweb_developerit_consultant/) , 2024-12-13-0914
-```
-To get in contact, please message me, I don't use the chat thing and might miss you or reply very late. Then we can swit
-ch to email/discord/telegram or whatever else. Apologies for starting with this, but many missed it when it was lower.
-
-
-I'm a programmer/web developer with 15 years of professional experience. I am available for all sorts of programming and
- web development tasks.
-
-I also offer consulting services. If you need something done, but don't know how exactly, I can
- help. I'm an excellent researcher and I communicate well. I will work with you to find the best solution for your probl
-em.
-
-My services include, but are not limited to:
-
-* websites
-
-* desktop applications
-
-* AI integration (chatGPT API, la
-ngchain, whatever else turns up)
-
-* integration with APIs and other webservices
-
-* all kinds of scripts
-
-* task automati
-on
-
-* website optimization
-
-* debugging
-
-* plugins for existing software
-
-* bots (Reddit, Telegram, etc)
-
-* code audits
-
-
-If you're looking for someone to take care of a variety of different tasks, I can offer continuous support.
-
-My preferr
-ed environment is Python with Django, but I work with anything Python or PHP based. I have no problem with learning new 
-technologies that are needed for the project.
-
-Rate is $60/h.
-
-Portfolio:
-
-https://bdabkowski.yum.pl
-
-Satisfied customer
-s:
-
-https://www.reddit.com/r/testimonials/comments/2e8gqy/pos_uqui_need_a_backend_web_dev_look_no_further/
-
-https://www.
-reddit.com/r/testimonials/comments/7fsdze/pos_hiring_uqui_was_an_example_of_how_it_should/
-
-https://www.reddit.com/r/tes
-timonials/comments/80pu9l/pos_uqui_great_work_detailed_and_fast/
-
-https://www.reddit.com/r/testimonials/comments/b0nx68/
-uqui_is_a_hardworking_intelligent_honest_apps/
-
-https://www.reddit.com/r/testimonials/comments/j3mz3p/uqui_is_a_great_we
-b_development_consultant_with/
-
-https://www.reddit.com/r/testimonials/comments/v40ay3/pos_uqui_is_a_great_backend_dev_to
-_work_with/
-
-Please note: I am not a designer. To make it clear, it means zero aesthetic sense.
-```
----
-
-     
- 
-all -  [ Which tool are you using to build Ai Agents? ](https://i.redd.it/p2j1smaff76e1.jpeg) , 2024-12-13-0914
-```
-As mentioned in the title, Curious to know which tool is the most effective. 
-
-I'm using Langchain and my own custom too
-ls as of now for creatingagents in my currentprojects. Used flowise before and did not try N8N completely.
-```
----
-
-     
- 
-all -  [ Need advice on hosting LLM on GPU in production ! ](https://www.reddit.com/r/LangChain/comments/1hbqtss/need_advice_on_hosting_llm_on_gpu_in_production/) , 2024-12-13-0914
-```
-I currently have A40 single GPU of 48GB VRAM. I want to host Qwen2.5 14B Instruct AWQ model in it. I tried hosting it us
-ing Nvidia Triton + VLLM backend. I want to use this model for RAG application. Due to some concerns, My prompt to the R
-AG is so high (\~20 lines). The GPU Utilization is around 80-90% for a single hit and it is taking around 4-5 sec to res
-pond. But, When there are concurrent requests to the same API, the latency is spiking up. Even if there two concurrent r
-equests, time taken to respond is around 7-9 sec. I want to scale this application for 500 users. I need advice on below
- areas.   
-1. How much GPU should I need to use? Should I use a single GPU or Multi GPU for this task?  
-2. What serving
- platform should I have to use other than Nvidia-Triton + VLLM backend to achieve greater throughput?  
-I'm new to this.
- Could you please help me out?
-```
----
-
-     
- 
-all -  [ Beyond table parsing in RAG: table data understanding ](https://www.reddit.com/r/LangChain/comments/1hbq78j/beyond_table_parsing_in_rag_table_data/) , 2024-12-13-0914
-```
-Proper parsing of tables in RAG is really important. As we looked at this problem we wanted to do something that provide
-s true understanding of tables across the complete RAG flow - from parsing through retrieval. Excited to share this new 
-functionality available with Vectara, and curious to hear what you all think, and how to further improve this.
-
-[https:/
-/www.vectara.com/blog/table-data-understanding](https://www.vectara.com/blog/table-data-understanding)
-```
----
-
-     
- 
-all -  [ Looking for Resources to Learn AI Agents and Build a Roadmap with LangChain ](https://www.reddit.com/r/LangChain/comments/1hbps28/looking_for_resources_to_learn_ai_agents_and/) , 2024-12-13-0914
-```
-Hi everyone,
-I'm diving into the world of AI and looking to focus on building AI agents using LangChain. I'm interested 
-in understanding the roadmap, best practices, and any recommended tutorials, courses, or documentation that could help m
-e get started.
-
-Are there any must-read resources, GitHub repositories, or online communities you'd recommend? If you've
- worked with LangChain, I'd love to hear about your learning journey and tips.
-
-Thanks in advance for your help!
-```
----
-
-     
- 
-all -  [ Not getting shortlisted by resume off campus. Roast my resume. ](https://www.reddit.com/r/developersIndia/comments/1hboym6/not_getting_shortlisted_by_resume_off_campus/) , 2024-12-13-0914
-```
-I am a final-year undergraduate at a tier 1 engineering college. Despite securing an offer from a tier 1 software compan
-y through an on-campus process (which required no resume shortlisting, only a competitive programming round followed by 
-interviews), I am struggling to get my resume shortlisted off-campus. Even startups on platforms like Wellfound/LinkedIn
-, offering unpaid or low-paying roles, are not considering my application. Any suggestion is highly appreciated.
-
-https:
-//preview.redd.it/wc8daf8ei66e1.png?width=1190&format=png&auto=webp&s=d8f8707af1031ae8e8dd4d814a8ccf6f427cb682
-
-
-```
----
-
-     
- 
-all -  [ What’s Your Biggest Challenge with Automation? ](https://www.reddit.com/r/LangChain/comments/1hbnird/whats_your_biggest_challenge_with_automation/) , 2024-12-13-0914
-```
-Hi guys, I’ve been working on a SaaS of mine called [Wellows.com](http://wellows.com/), designed to simplify workflow au
-tomation using just natural language prompts. The idea came from my own frustration with how complex and time-consuming 
-automation can be setting up workflows, syncing tools, and managing repetitive tasks shouldn’t take hours.
-
-Here’s where
- we’re at:
-
-* The platform is in its final development stages, and we’re focusing on building something that works for r
-eal teams with real challenges.
-* I’ve seen SaaS teams struggle to automate critical tasks like onboarding new users, sy
-ncing data across tools, and generating usage reports. Our goal is to eliminate that pain.
-
-Here’s what I’ve learned so 
-far from this journey:
-
-1. **Understanding pain points is key.** Every team’s struggles with automation are unique. I’ve
- been speaking with SaaS teams to learn where workflows break down and what’s stopped them from automating more.
-2. **Si
-mple wins.** The feedback I’ve received highlights that people don’t want another complex tool they want an intuitive so
-lution that saves them time, not one that eats it up.
-3. **Collaboration is everything.** Working closely with early tes
-ters has shown me that user input is invaluable. Their insights have helped shape features that address real-world probl
-ems, not just hypothetical ones.
-
-**Here’s what’s next:**  
-We’re gearing up to launch soon and are actively looking for
- feedback to refine the platform further. If you’re struggling with a task that’s tough to automate or if you’ve been he
-sitant to dive into automation, let’s talk. I’d love to hear about your experiences and brainstorm solutions together.
-
-
-So tell me, what’s the #1 task your team struggles to automate?
-```
----
-
-     
- 
-all -  [ Slick agent tracing via Pydantic Logfire with zero instrumentation for common scenarios… ](https://i.redd.it/rfb97v4wx46e1.jpeg) , 2024-12-13-0914
-```
-
-Disclaimer: I don’t work for Pydantic Logfire. But I do help with dev relations for Arch(Gateway)
-
-If you are building 
-agents and want rich agent (prompt + tools + LLM) observability, imho Pydantic logfire offers the most simple setup and 
-visually appealing experience - especially when combined with https://github.com/katanemo/archgw
-
-archgw is an intellige
-nt gateway for agents that offers fast⚡️function calling, rich LLM tracing (source events) and guardrails 🧱 so that deve
-lopers can focus on what matters most.
-
-With zero lines of application code and rich out-of-the-box tracing for agents (
-prompt, tools call, LLM) via Arch and Logfire. 
-
-Checkout the demo here: https://github.com/katanemo/archgw/tree/main/de
-mos/weather_forecast
-
-```
----
-
-     
- 
-all -  [ RAG Semi_structured data processing  ](https://www.reddit.com/r/LangChain/comments/1hbirst/rag_semi_structured_data_processing/) , 2024-12-13-0914
-```
-I'm creating a rag pipeline for semi and Unstructured pdf documents.For parsing the pdf I'm using Pymupdf4llm and the fi
-nal format of text is markdown 
-
-Main issues:
-1.chunking: what is the best chucking strategy to split them by their head
-ers and I have tables which I don't want to split them 
-
-
-2. Tables handling: if my table is continuing in 3 pages then 
-the header is not maintained in all pages and it is not able to answer it correctly 
-
-If I'm maintaining the previous pa
-ge context of 30% in this page then when answering it is considering that chunk and while returning it is giving that pa
-ge as the answer page and confusing from which page the actual answer is really from
-
-3.Complex tables analysis:While th
-e questions are from a complex table whicj contains all numbers and very less text data in it ,so while retrievering it 
-is considering the chunks where it find the same numbers but llm is every time answering differently and not able to sol
-ve it.
-
-
-
-
-Please help me out 
-
-Using: Pymupdf4llm,Langchain,Langgraph,python,Groq,llama 3.1 70b model
-```
----
-
-     
- 
-all -  [ Best practices for rag ](https://www.reddit.com/r/LLMDevs/comments/1hbes3d/best_practices_for_rag/) , 2024-12-13-0914
-```
-Hi llmdevs! Any suggestions on best practices for rag? For a beginner? I have been playing around with rag for about a m
-onth now, and what all knowledge i have so far is what is given by openai and Claude that helped me with my project. I a
-m not getting desired results back so iam assuming there are issues with my setup.
-
-I've tried llamaindex and langchain 
-and their default chucking embedding tools (along with custom chucking with cosine similarity as suggested by openai). A
-nd worked with faiss and qdrant so far as my vector stores along with llama various versions and openai.
-
-My use case ha
-s to do with public sec filings (and one day private financial data from my company, if my setup works).
-
-If it were you
-, how would go about setting up the stack? Any help is greatly appreciated. Will answer any missing pieces of informatio
-n. 
-```
----
-
-     
- 
-all -  [ Need help: Infinite Loop on RNEventSource with Server-Sent Events (SSE) - Only Receiving “attempt: 1 ](https://www.reddit.com/r/reactnative/comments/1hbepuo/need_help_infinite_loop_on_rneventsource_with/) , 2024-12-13-0914
-```
-I am working on a React Native expo managed project using RNEventSource to handle Server-Sent Events (SSE) from a langch
-ain endpoint. My backend is correctly streaming data (confirmed via Postman), but the frontend gets stuck in an infinite
- loop of the same response, only receiving:
-
-    LOG  Open SSE connection.
-    LOG  Stream Data: {'attempt': 1, 'run_id'
-: '1efb7463-0ff8-60c3-bd10-17ccc210899f'}
-    WARN  Unexpected Data: {'run_id':'1efb7463-0ff8-60c3-bd10-17ccc210899f','a
-ttempt':1}
-    LOG  Stream Data: {'attempt': 1, 'run_id': '1efb7463-0ff8-60c3-bd10-17ccc210899f'}
-    WARN  Unexpected D
-ata: {'run_id':'1efb7463-0ff8-60c3-bd10-17ccc210899f','attempt':1'}
-    ...
-
-Code:  
-
-
-    const askDogy = async (reques
-t) => {
-      const url = `${assitantBaseUrl}/threads/${threadId}/runs/stream`
-      const requestBody = JSON.stringify(
-{
-        assistant_id: assistantID,
-        input: {
-          messages: [{ role: 'user', content: request }],
-        
-},
-        stream_mode: ['messages'],
-      })
-    
-      const options = {
-        body: requestBody,
-        method: '
-POST',
-        headers: {
-          'Content-Type': 'application/json',
-          Accept: 'text/event-stream',
-        }
-,
-      }
-    
-      eventSourceRef.current = new RNEventSource(url, options)
-    
-      eventSourceRef.current.addEvent
-Listener('open', () => {
-        console.log('Open SSE connection.')
-      })
-    
-      eventSourceRef.current.addEvent
-Listener('message', (event) => {
-        console.log('Raw Event:', event)
-        try {
-          const data = JSON.pars
-e(event.data)
-          console.log('Parsed Data:', data)
-    
-          if (data.content) {
-            console.log('AI
- Reply Content:', data.content)
-            setChatResponse('Bot', data.content, true)
-          } else {
-            co
-nsole.warn('Unexpected Data:', data)
-          }
-        } catch (error) {
-          console.error('Error parsing event 
-data:', error)
-        }
-      })
-    
-      eventSourceRef.current.addEventListener('error', (error) => {
-        conso
-le.error('Stream error:', error)
-    
-            if (error.status === 409) {
-              console.log('Conflict detect
-ed, creating a new thread...')
-              // Create a new thread and retry
-              tempThreadId = await createT
-hread()
-              if (!tempThreadId)
-                throw new Error('Failed to create a new thread after conflict')
-
-              setThreadId(tempThreadId)
-    
-              // Retry the stream with the new thread ID
-              con
-sole.log('Retrying with new thread ID:', tempThreadId)
-              await askDogy(request) // Recursive call with the n
-ew thread
-            } else {
-              handleStopStream()
-            }
-      })
-    }
-
-  
-**Debugging Observation
-s:**
-
-* I receive the same attempt: 1 data repeatedly with no progress.
-* The backend should send incremental updates, b
-ut the frontend logs do not show progress.
-
-**Questions:**
-
-* Is there a known issue with RNEventSource or its compatibi
-lity with React Native?
-* Could there be something specific I need to handle in RNEventSource to parse incremental updat
-es?
-* Any other npm package/library I can use to handle server sent events in react native/expo?
-
-**Things I've tried:**
-
-
-* Verified backend compliance with the SSE spec.
-* Ensured RNEventSource initialization includes proper headers and me
-thod.
-* Added maximum retries and timeout logic in case of backend failures (now removed).
-* Tested backend with Postman
- and it streams correctly.
-
-  
-Thanks in advance. Link to [stackoverflow post](https://stackoverflow.com/questions/79270
-017/infinite-loop-on-rneventsource-with-server-sent-events-sse-only-receiving-a)
-```
----
-
-     
- 
-all -  [ [For Hire] Experienced AI/Full Stack & DevOps Developer – Seeking Challenging, High-Impact Projects! ](https://www.reddit.com/r/forhire/comments/1hbbhib/for_hire_experienced_aifull_stack_devops/) , 2024-12-13-0914
-```
-🚀 **Your All-in-One Solution for AI/ML, Full Stack Development, and DevOps!**
-
-👋 Hi, I’m Sheryar, an experienced AI/ML E
-ngineer, Full Stack Developer, and DevOps Specialist. I’m here to help turn your ideas into scalable, high-performance s
-olutions!
-
-💻 **Full Stack Development Expertise**  
-🔹 Stunning UIs: React/Angular  
-🔹 Robust APIs: Node.js, NestJS  
-🔹 S
-eamless Payment Integration: Stripe  
-🔹 Cloud Infrastructure: AWS, GCP
-
-🤖 **AI & Machine Learning**  
-🔹 Smart Chatbots: 
-Built with LangChain  
-🔹 Custom AI Models: NLP, Automation
-
-⚙️ **DevOps Solutions**  
-🔹 CI/CD Pipelines: GitHub Actions,
- Jenkins  
-🔹 Containerization: Docker, Kubernetes  
-🔹 Infrastructure as Code: Terraform, Ansible  
-🔹 Monitoring Tools: P
-rometheus, Grafana
-
-🌟 **Recent Projects**  
-🚗 **Ride-Sharing**: Real-time tracking & payments  
-📦 **Logistics**: Multi-s
-top delivery optimization  
-🛒 **E-Commerce**: Scalable Kubernetes clusters
-
-💰 **Rates**: $20–$25/hour (negotiable)  
-📧 *
-*Let’s talk!** DM me to discuss your project!  
-GitHub: [storm1033](https://github.com/storm1033)
-
-**Let’s build somethi
-ng amazing together!** 🌐✨
-
-# 🌟 Let's Build Something Amazing Together! 🌟
-
-# 👋 Hi, I'm Sheryar!
-
-An AI/ML Engineer, Full 
-Stack Developer, and DevOps Specialist. I help transform ideas into scalable, high-performance solutions. Whether you're
- looking to build a robust app, deploy intelligent AI systems, or streamline your infrastructure, I’ve got you covered!
-
-
-# 🚀 What I Do Best:
-
-# Full Stack Development
-
-From sleek, user-friendly interfaces to powerful backends, I create seam
-less web applications:
-
-* **Stunning UIs**: React | Angular
-* **Robust APIs**: Node.js | NestJS
-* **Seamless Payment Int
-egrations**: Stripe
-* **Cloud Infrastructure**: AWS | GCP
-
-# AI & Machine Learning
-
-Unlock the potential of AI to elevat
-e your product with intelligent, data-driven features:
-
-* **AI Chatbots**: Powered by LangChain
-* **Tailored AI Models**
-: NLP, Automation, and more
-
-# DevOps Excellence
-
-I automate, optimize, and ensure reliability at scale:
-
-* **CI/CD Pipe
-lines**: GitHub Actions | Jenkins
-* **Containerization**: Docker | Kubernetes
-* **Infrastructure as Code**: Terraform | 
-Ansible
-* **Monitoring**: Prometheus | Grafana
-
-# 🌟 Featured Projects
-
-Here’s a glimpse of what I’ve worked on recently:
-
-
-* **Ride-Sharing App**: Real-time vehicle tracking, seamless payments
-* **Logistics Platform**: Multi-stop delivery ro
-ute optimization
-* **E-Commerce Platform**: Scalable Kubernetes clusters handling high traffic
-
-# 💡 Let’s Collaborate!
-
-
-* 💰 **Rate**: $20–$25/hour (negotiable depending on the project)
-* 📩 **Reach Out**: DM me to discuss your project!
-
-📍 **
-GitHub**: [storm1033](https://github.com/storm1033)
-
-**Let's turn your ideas into scalable, impactful solutions!** 🌐✨
-```
----
-
-     
- 
-all -  [ What is your go-to way of calling LLMs ?  ](https://www.reddit.com/r/node/comments/1hba5qq/what_is_your_goto_way_of_calling_llms/) , 2024-12-13-0914
-```
-For once, nodejs is not the main area of experimentation, we are a bit behind python for tooling. Still, what do y'all u
-se for interfacing with llms ? For validating structured data ?
-
-I know people hate on langchain, but there has to be so
-mething better than raw openai package?
-```
----
-
-     
- 
-MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-13-0914
+MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-14-0913
 ```
   
 [https://github.com/dmayboroda/minima](https://github.com/dmayboroda/minima)  
