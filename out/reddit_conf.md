@@ -1,5 +1,82 @@
  
-all -  [ Ilya Sutskever NeurIPS talk [video] ](https://www.youtube.com/watch?v=1yvBqasHLZs) , 2024-12-15-0916
+all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/askvan/comments/1hf3fah/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-16-0914
+```
+I've been here for a week attending NeurIPS 2024 and will be heading back Toronto tomorrow. I only have this evening lef
+t—what's the must-see or unique experience I shouldn’t miss to avoid regretting it later
+```
+---
+
+     
+ 
+all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/canadatravel/comments/1hf37do/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-16-0914
+```
+I've been here for a week attending NeurIPS 2024 and will be heading back Toronto tomorrow. I only have this evening lef
+t—what's the must-see or unique experience I shouldn’t miss to avoid regretting it later
+
+
+```
+---
+
+     
+ 
+all -  [ [D] Are We Okay With This? Questionable Poster Behavior at NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/1heo36q/d_are_we_okay_with_this_questionable_poster/) , 2024-12-16-0914
+```
+This was my first year at NeurIPS. It’s inspiring to see so much cutting-edge research being presented, but something tr
+oubling caught my attention during the poster sessions that I feel compelled to share, especially given [the recent inci
+dent with Rosalind Picard](https://www.reddit.com/r/MachineLearning/comments/1hdxbru/d_what_happened_at_neurips/).
+
+Gett
+ing a paper accepted at NeurIPS is a huge achievement. Each poster spot represents so much hard work and is highly covet
+ed.
+
+I saw two posters that *shouldn’t* have been there, and it has left me wondering about the exploitation of these sp
+aces.
+
+**Illegal Poster #1:** [Generative Boba](https://x.com/BoyuanChen0/status/1778565953627775453). This was a “cute,
+ look at me” poster, but it also featured a QR code linking to the creator’s X/Twitter. While the poster itself was plac
+ed on a side wall in the exhibition hall and not in an official poster spot (when I saw it anyway), it still felt odd. W
+hy did they make this poster? Was this about sparking joy, or gaining attention and followers?
+
+[Illegal Poster #1: Gene
+rative Boba.](https://preview.redd.it/u3vfvszkoy6e1.jpg?width=3363&format=pjpg&auto=webp&s=8c09ddda45e0ac002223dadf0eac4
+165bfdc0433)
+
+**Illegal Poster #2:** [Benchmarkthing](https://x.com/xdotli/status/1867823150068535797)**.** This was far
+ more concerning. It blatantly promoted a new AI startup, mentioning funding by a prominent figure in our field, Jeff De
+an. Unlike the boba poster, this could visually pass as a real NeurIPS poster. Probably most passersby didn’t give it a 
+second thought, but the poster's presenter (who is also the company’s founder) was essentially promoting his new startup
+, sometimes to a significant audience size AND across *multiple* poster sessions. This feels deceptive and exploitative 
+— gaming the trust of the community to cheatingly gain visibility in a sacred academic space.
+
+[Illegal Poster #2: Bench
+markthing.](https://preview.redd.it/qn7vpos4py6e1.jpg?width=2646&format=pjpg&auto=webp&s=4cfd1aa535bdf74cdb57ba8e44f1fa8
+13b9d28a7)
+
+A different type of gaming involves authors putting up their poster at unused spots while leaving a sign in 
+their formally assigned location that says “See poster at #{better spot}”. If the authors for the unused spot arrived, t
+hey’d just move their poster back — but if not, they would presumably revel in the extra attention from being located, f
+or example, closer to the hall’s entrance with more foot traffic.
+
+Relocating posters still seems problematic, but at le
+ast the posters *belong* at the conference. On the other hand, I feel much more strongly that unauthorized posters for p
+ersonal or commercial promotion hurts the integrity of the space, disrespects the presenters whose posters truly belong 
+there, and undermines the conference overall.
+
+Questions for the community:
+
+1. Should there be stricter policies or bet
+ter enforcement for poster sessions?
+2. How do we differentiate between minor gaming (e.g. relocating posters) and outri
+ght exploitation (e.g. unauthorized posters)?
+3. Is it fair to tolerate some flexibility as long as the intentions are l
+ighthearted or still academic? 
+4. How do we address these behaviors moving forward? Should there be consequences?
+```
+---
+
+     
+ 
+all -  [ An interview with Fei-Fei Li on her NeurIPS keynote talk about visual intelligence, her startup Worl ](https://www.techmeme.com/241215/p5) , 2024-12-16-0914
 ```
 
 ```
@@ -7,7 +84,7 @@ all -  [ Ilya Sutskever NeurIPS talk [video] ](https://www.youtube.com/watch?v=1
 
      
  
-all -  [ A little bit of drama: Pre-training is only over if you have no imagination - Logan Kilpatrick ](https://www.reddit.com/r/singularity/comments/1he9tsn/a_little_bit_of_drama_pretraining_is_only_over_if/) , 2024-12-15-0916
+all -  [ A little bit of drama: Pre-training is only over if you have no imagination - Logan Kilpatrick ](https://www.reddit.com/r/singularity/comments/1he9tsn/a_little_bit_of_drama_pretraining_is_only_over_if/) , 2024-12-16-0914
 ```
 https://x.com/OfficialLoganK/status/1868002617311596552?t=uNazJ-3HPuWlBrXGagkAag&s=19
 
@@ -19,28 +96,7 @@ This is in response to Ilya Sutskever's talk during NeurIPS 2024.
 
      
  
-all -  [ Trending Topic: [D] What happened at NeurIPS? ](https://www.reddit.com/r/aesdr/comments/1he8sf1/trending_topic_d_what_happened_at_neurips/) , 2024-12-15-0916
-```
-Discussion: [D] What happened at NeurIPS?
-
-Read more: https://i.redd.it/k0q9frsuir6e1.jpeg
-```
----
-
-     
- 
-all -  [ Shocked at the implicit racial bias at NeurIPS yesterday ](https://www.reddit.com/r/LocalLLaMA/comments/1he89rx/shocked_at_the_implicit_racial_bias_at_neurips/) , 2024-12-15-0916
-```
-[Rosalind Picard's Keynote on Friday at NeurIPS](https://preview.redd.it/iksntl5equ6e1.jpg?width=1179&format=pjpg&auto=w
-ebp&s=153dfdf19591c696e176065623ec4612c83510f5)
-
-
-```
----
-
-     
- 
-all -  [ An MIT professor delivered a racist presentation targeting Chinese students as the keynote speaker a ](https://x.com/drjingjing2026/status/1867737326895632894) , 2024-12-15-0916
+all -  [ An MIT professor delivered a racist presentation targeting Chinese students as the keynote speaker a ](https://x.com/drjingjing2026/status/1867737326895632894) , 2024-12-16-0914
 ```
 At NeurIPS 2024, an MIT professor delivered a keynote address that addressed unethical behavior in academia. During the 
 speech, the professor referenced a Chinese student in a manner that was not only unnecessary but also highly racist. (Th
@@ -62,18 +118,7 @@ NOTE:
 
      
  
-all -  [ Trending Topic: [D] The winner of the NeurIPS 2024 Best Paper Award sabotaged the other teams ](https://www.reddit.com/r/aesdr/comments/1he5ht5/trending_topic_d_the_winner_of_the_neurips_2024/) , 2024-12-15-0916
-```
-Discussion: [D] The winner of the NeurIPS 2024 Best Paper Award  sabotaged the other teams
-
-Read more: https://www.reddi
-t.com/r/MachineLearning/comments/1hctf36/d_the_winner_of_the_neurips_2024_best_paper_award/
-```
----
-
-     
- 
-all -  [ A Perfect Storm for AI Inference TPU will be new king  ](https://www.reddit.com/r/Bard/comments/1he4e14/a_perfect_storm_for_ai_inference_tpu_will_be_new/) , 2024-12-15-0916
+all -  [ A Perfect Storm for AI Inference TPU will be new king  ](https://www.reddit.com/r/Bard/comments/1he4e14/a_perfect_storm_for_ai_inference_tpu_will_be_new/) , 2024-12-16-0914
 ```
 Ilya Sutskever's recent bombshell at NeurIPS – [https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-op
 enai-model-data-training](https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-traini
@@ -112,7 +157,7 @@ ra.
 
      
  
-all -  [ Ilya Sutskever, cofondateur et ancien directeur scientifique d'OpenAI, a fait une rare apparition pu ](https://www.reddit.com/r/actutech/comments/1hdxdjs/ilya_sutskever_cofondateur_et_ancien_directeur/) , 2024-12-15-0916
+all -  [ Ilya Sutskever, cofondateur et ancien directeur scientifique d'OpenAI, a fait une rare apparition pu ](https://www.reddit.com/r/actutech/comments/1hdxdjs/ilya_sutskever_cofondateur_et_ancien_directeur/) , 2024-12-16-0914
 ```
 Il a notamment affirmé que le pré-entraînement des modèles tel que nous le connaissons va inévitablement prendre fin, co
 mparant les données à un 'combustible fossile' limité. Selon lui, nous avons atteint un pic des données disponibles, car
@@ -136,7 +181,7 @@ https://preview.redd.it/2ly7b8fejr6e1.jpg?width=960&format=pjpg&auto=webp&s=ae6c
 
      
  
-all -  [ [D] The winner of the NeurIPS 2024 Best Paper Award  sabotaged the other teams ](https://www.reddit.com/r/MachineLearning/comments/1hctf36/d_the_winner_of_the_neurips_2024_best_paper_award/) , 2024-12-15-0916
+all -  [ [D] The winner of the NeurIPS 2024 Best Paper Award  sabotaged the other teams ](https://www.reddit.com/r/MachineLearning/comments/1hctf36/d_the_winner_of_the_neurips_2024_best_paper_award/) , 2024-12-16-0914
 ```
 Presumably, the winner of the NeurIPS 2024 Best Paper Award (a guy from ByteDance, the creators of Tiktok) sabotaged the
  other teams to derail their research and redirect their resources to his own. Plus he was at meetings debugging his col
@@ -152,7 +197,7 @@ I have not checked the facts themselves, so if you can verify what is
 
      
  
-all -  [ Feels good to see Mr.X getting noted ](https://i.redd.it/oexht6c8rg6e1.jpeg) , 2024-12-15-0916
+all -  [ Feels good to see Mr.X getting noted ](https://i.redd.it/oexht6c8rg6e1.jpeg) , 2024-12-16-0914
 ```
 Link: https://x.com/elonmusk/status/1866797259968614885?s=46
 ```
@@ -160,7 +205,7 @@ Link: https://x.com/elonmusk/status/1866797259968614885?s=46
 
      
  
-all -  [ and now we know why Elon named his stupid AI 'Grok'  ](https://i.redd.it/j0pk4yr54f6e1.png) , 2024-12-15-0916
+all -  [ and now we know why Elon named his stupid AI 'Grok'  ](https://i.redd.it/j0pk4yr54f6e1.png) , 2024-12-16-0914
 ```
 also why does the chart go all the way back to 1991
 ```
@@ -169,7 +214,7 @@ also why does the chart go all the way back to 1991
      
  
 all -  [ 
-New framework for quantifying uncertainty in LLMs: Semantic Density ](https://www.reddit.com/r/airesearch/comments/1hc6fez/new_framework_for_quantifying_uncertainty_in_llms/) , 2024-12-15-0916
+New framework for quantifying uncertainty in LLMs: Semantic Density ](https://www.reddit.com/r/airesearch/comments/1hc6fez/new_framework_for_quantifying_uncertainty_in_llms/) , 2024-12-16-0914
 ```
 Can we trust LLMs in high-stakes decisions? Cognizant AI Research Lab introduces Semantic Density, a scalable framework 
 to quantify response-specific uncertainty without retraining. Tested on state-of-the-art models, it outperforms existing
@@ -183,7 +228,7 @@ th-semantic-density-ff0e58836416)
 
      
  
-all -  [ How well-informed Elon Musk is when he makes a statement ](https://www.reddit.com/r/EnoughMuskSpam/comments/1hc415l/how_wellinformed_elon_musk_is_when_he_makes_a/) , 2024-12-15-0916
+all -  [ How well-informed Elon Musk is when he makes a statement ](https://www.reddit.com/r/EnoughMuskSpam/comments/1hc415l/how_wellinformed_elon_musk_is_when_he_makes_a/) , 2024-12-16-0914
 ```
 https://preview.redd.it/ekphsq71aa6e1.png?width=798&format=png&auto=webp&s=025884971824e9394aa64d398c70b1d44da62083
 
@@ -193,7 +238,7 @@ https://preview.redd.it/ekphsq71aa6e1.png?width=798&format=png&auto=webp&s=02588
 
      
  
-all -  [ Can research projects be replacement for internships in North America? ](https://www.reddit.com/r/csMajors/comments/1hc391a/can_research_projects_be_replacement_for/) , 2024-12-15-0916
+all -  [ Can research projects be replacement for internships in North America? ](https://www.reddit.com/r/csMajors/comments/1hc391a/can_research_projects_be_replacement_for/) , 2024-12-16-0914
 ```
 I'm not a computer science major but do have extensive technical background (I'm in cognitive science with a computer sc
 ience minor.) I've completed a research project for credit under a big name in cognitive science and it involved CNNs. I
@@ -213,7 +258,7 @@ tal health issues
 
      
  
-all -  [ [D] How to make friends and network at NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1hc0x89/d_how_to_make_friends_and_network_at_neurips/) , 2024-12-15-0916
+all -  [ [D] How to make friends and network at NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1hc0x89/d_how_to_make_friends_and_network_at_neurips/) , 2024-12-16-0914
 ```
 I’m attending NeurIPS for the first time and it’s quite overwhelming seeing the amount of people and so many recruiters.
  I come from a not so well known university, and have come to the conference completely alone, not even my supervisor is
@@ -232,7 +277,7 @@ stuff going on in the area. Cheers!
 
      
  
-all -  [ NeurIPS 2024: What Matters When Building Vision Language Models ](https://www.reddit.com/r/computervision/comments/1hb2zk0/neurips_2024_what_matters_when_building_vision/) , 2024-12-15-0916
+all -  [ NeurIPS 2024: What Matters When Building Vision Language Models ](https://www.reddit.com/r/computervision/comments/1hb2zk0/neurips_2024_what_matters_when_building_vision/) , 2024-12-16-0914
 ```
 Check out [Harpreet Sahota’s](https://www.linkedin.com/in/harpreetsahota204/) conversation with [Hugo Laurençon](https:/
 /www.linkedin.com/in/hugo-lauren%C3%A7on/) of Sorbonne Université and Hugging Face about his NeurIPS 2024 paper, “What M
@@ -254,7 +299,7 @@ eddit.com/link/1hb2zk0/video/9ebds5l7716e1/player
 
      
  
-all -  [ NeurIPS is starting tomorrow but I’m too young to go there😭😭😭 ](https://www.reddit.com/r/teenagers/comments/1haqs1i/neurips_is_starting_tomorrow_but_im_too_young_to/) , 2024-12-15-0916
+all -  [ NeurIPS is starting tomorrow but I’m too young to go there😭😭😭 ](https://www.reddit.com/r/teenagers/comments/1haqs1i/neurips_is_starting_tomorrow_but_im_too_young_to/) , 2024-12-16-0914
 ```
 It’s right where I live as well
 ```
@@ -262,7 +307,7 @@ It’s right where I live as well
 
      
  
-all -  [ [R] Improving robustness to corruptions with multiplicative weight perturbations - A simple yet effe ](https://www.reddit.com/r/MachineLearning/comments/1hap6gx/r_improving_robustness_to_corruptions_with/) , 2024-12-15-0916
+all -  [ [R] Improving robustness to corruptions with multiplicative weight perturbations - A simple yet effe ](https://www.reddit.com/r/MachineLearning/comments/1hap6gx/r_improving_robustness_to_corruptions_with/) , 2024-12-16-0914
 ```
 We would like to share and discuss this NeurIPS spotlight paper (disclaimer: I am a co-author).
 
@@ -308,7 +353,7 @@ mputer vision!
 
      
  
-all -  [ NeurIPS 2024 - Creating SPIQA: Addressing the Limitations of Existing Datasets for Scientific VQA ](https://www.reddit.com/r/computervision/comments/1ha9cup/neurips_2024_creating_spiqa_addressing_the/) , 2024-12-15-0916
+all -  [ NeurIPS 2024 - Creating SPIQA: Addressing the Limitations of Existing Datasets for Scientific VQA ](https://www.reddit.com/r/computervision/comments/1ha9cup/neurips_2024_creating_spiqa_addressing_the/) , 2024-12-16-0914
 ```
 Check out [Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/)’s conversation with [Shraman Pramanick](http
 s://www.linkedin.com/in/shramanpramanick/) of Johns Hopkins University and Meta AI about his NeurIPS 2024 paper, “Creati
@@ -330,7 +375,7 @@ https://reddit.com/link/1ha9cup/video/z1vatdr5ot5e1/player
 
      
  
-all -  [ NeurIPS 2024 - No “Zero-Shot” Without Exponential Data: Pretraining Concept Frequency Determines Mul ](https://www.reddit.com/r/computervision/comments/1h9q0x1/neurips_2024_no_zeroshot_without_exponential_data/) , 2024-12-15-0916
+all -  [ NeurIPS 2024 - No “Zero-Shot” Without Exponential Data: Pretraining Concept Frequency Determines Mul ](https://www.reddit.com/r/computervision/comments/1h9q0x1/neurips_2024_no_zeroshot_without_exponential_data/) , 2024-12-16-0914
 ```
 Check out [Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/)’s conversation with [Vishaal Udandarao](http
 s://www.linkedin.com/in/vishaal-udandarao/) of the University of Tübingen and Cambridge about his NeurIPS 2024 paper, “N
@@ -349,7 +394,7 @@ https://reddit.com/link/1h9q0x1/video/pcw40i25ao5e1/player
 
      
  
-all -  [ NeurIPS 2024: A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis ](https://www.reddit.com/r/computervision/comments/1h82qz6/neurips_2024_a_textbook_remedy_for_domain_shifts/) , 2024-12-15-0916
+all -  [ NeurIPS 2024: A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis ](https://www.reddit.com/r/computervision/comments/1h82qz6/neurips_2024_a_textbook_remedy_for_domain_shifts/) , 2024-12-16-0914
 ```
 Check out [Harpreet Sahota’s](https://www.linkedin.com/in/harpreetsahota204/) conversation with [Yue Yang](https://www.l
 inkedin.com/in/yue-yang-4b2075174) of the University of Pennsylvania and AI2 about his NeurIPS 2024 paper, “A Textbook R
@@ -368,7 +413,7 @@ tps://reddit.com/link/1h82qz6/video/lintlyfuo85e1/player
 
      
  
-all -  [ NeurlPS 2024: NaturalBench - Evaluating Vision-Language Models on Natural Adversarial Samples ](https://www.reddit.com/r/computervision/comments/1h7f4k2/neurlps_2024_naturalbench_evaluating/) , 2024-12-15-0916
+all -  [ NeurlPS 2024: NaturalBench - Evaluating Vision-Language Models on Natural Adversarial Samples ](https://www.reddit.com/r/computervision/comments/1h7f4k2/neurlps_2024_naturalbench_evaluating/) , 2024-12-16-0914
 ```
 Check out [Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/)’s conversation with [Zhiqiu Lin](https://www
 .linkedin.com/in/zhiqiu-lin-b49ba7126/) of Carnegie Mellon University about his NeurIPS 2024 paper, “NaturalBench: Evalu
@@ -390,7 +435,7 @@ m/link/1h7f4k2/video/6mw2ahngi25e1/player
 
      
  
-all -  [ Former Intern Sabotages ByteDance’s AI Training, Faces ¥8 Million Lawsuit, Yet Wins NeurIPS 2024 Bes ](https://www.reddit.com/r/LocalLLaMA/comments/1h6i1m9/former_intern_sabotages_bytedances_ai_training/) , 2024-12-15-0916
+all -  [ Former Intern Sabotages ByteDance’s AI Training, Faces ¥8 Million Lawsuit, Yet Wins NeurIPS 2024 Bes ](https://www.reddit.com/r/LocalLLaMA/comments/1h6i1m9/former_intern_sabotages_bytedances_ai_training/) , 2024-12-16-0914
 ```
 In October 2024, media outlets reported that 'ByteDance's large-scale model training was attacked by an intern,' and onl
 ine sources claimed that 'over 8,000 GPUs were involved, resulting in losses exceeding tens of millions of dollars.' Byt
@@ -420,7 +465,7 @@ p in ByteDance's Commercialization Technology Department.
 
      
  
-all -  [ NeurIPS 2024 - A Label is Worth a Thousand Images in Dataset Distillation ](https://www.reddit.com/r/computervision/comments/1h6hx3p/neurips_2024_a_label_is_worth_a_thousand_images/) , 2024-12-15-0916
+all -  [ NeurIPS 2024 - A Label is Worth a Thousand Images in Dataset Distillation ](https://www.reddit.com/r/computervision/comments/1h6hx3p/neurips_2024_a_label_is_worth_a_thousand_images/) , 2024-12-16-0914
 ```
 https://reddit.com/link/1h6hx3p/video/k7wh8qlfiu4e1/player
 
@@ -439,7 +484,7 @@ https://i.redd.it/mg9isc68iu4e1.gif
 
      
  
-all -  [ I have reasons to believe that Recursion (RXRX) will became quite popular in the next month. ](https://www.reddit.com/r/wallstreetbets/comments/1h1volv/i_have_reasons_to_believe_that_recursion_rxrx/) , 2024-12-15-0916
+all -  [ I have reasons to believe that Recursion (RXRX) will became quite popular in the next month. ](https://www.reddit.com/r/wallstreetbets/comments/1h1volv/i_have_reasons_to_believe_that_recursion_rxrx/) , 2024-12-16-0914
 ```
 I believe that in the future, drugs will be highly customisable based on the patience’s health history. Based on your ph
 ysiology, syndromes, and genetics, you may receive a drug that is well-suited for you and only you. 
@@ -486,7 +531,7 @@ Of course, no financial advice. I’m long 800 shares and loading as much as I p
 
      
  
-all -  [ can I attend neurips as an enthusiast?  ](https://www.reddit.com/r/MLQuestions/comments/1h1kw31/can_i_attend_neurips_as_an_enthusiast/) , 2024-12-15-0916
+all -  [ can I attend neurips as an enthusiast?  ](https://www.reddit.com/r/MLQuestions/comments/1h1kw31/can_i_attend_neurips_as_an_enthusiast/) , 2024-12-16-0914
 ```
 neurips is coming to my hometown, can I just go? I want to hunt down all the recruiters lol 
 ```
@@ -494,7 +539,7 @@ neurips is coming to my hometown, can I just go? I want to hunt down all the rec
 
      
  
-all -  [ [0 YoE, Unemployed, Machine Learning Research Intern, Serbia] ](https://www.reddit.com/r/resumes/comments/1h0jscl/0_yoe_unemployed_machine_learning_research_intern/) , 2024-12-15-0916
+all -  [ [0 YoE, Unemployed, Machine Learning Research Intern, Serbia] ](https://www.reddit.com/r/resumes/comments/1h0jscl/0_yoe_unemployed_machine_learning_research_intern/) , 2024-12-16-0914
 ```
 &#x200B;
 
@@ -524,7 +569,7 @@ vance - every advice is helpful and appreciated!
 
      
  
-all -  [ MS Thesis project at IBM Research-Zurich ](https://www.reddit.com/r/ethz/comments/1gzk140/ms_thesis_project_at_ibm_researchzurich/) , 2024-12-15-0916
+all -  [ MS Thesis project at IBM Research-Zurich ](https://www.reddit.com/r/ethz/comments/1gzk140/ms_thesis_project_at_ibm_researchzurich/) , 2024-12-16-0914
 ```
 Dear MS Students,
 
@@ -578,7 +623,7 @@ ntations’, *International Conference on Neural-Symbolic Learning and Reasoning
 
      
  
-all -  [ Should i even try for my chances or is it just a waste of time applying with poor grades . Can my SO ](https://www.reddit.com/r/Indians_StudyAbroad/comments/1gzec5d/should_i_even_try_for_my_chances_or_is_it_just_a/) , 2024-12-15-0916
+all -  [ Should i even try for my chances or is it just a waste of time applying with poor grades . Can my SO ](https://www.reddit.com/r/Indians_StudyAbroad/comments/1gzec5d/should_i_even_try_for_my_chances_or_is_it_just_a/) , 2024-12-16-0914
 ```
 I have completed my undergrad from Osmania University (VCE) in electronics and communications ( a tier 2 ish college in 
 India )
@@ -624,7 +669,7 @@ out them , I really need serious advice if i have to give up hope and change my 
 
      
  
-all -  [ Should i even try ? ](https://www.reddit.com/r/gradadmissions/comments/1gze93d/should_i_even_try/) , 2024-12-15-0916
+all -  [ Should i even try ? ](https://www.reddit.com/r/gradadmissions/comments/1gze93d/should_i_even_try/) , 2024-12-16-0914
 ```
 I have completed my undergrad from Osmania University (VCE) in electronics and communications ( a tier 2 ish college in 
 India ) 
@@ -674,7 +719,7 @@ ave one year of time to apply .
 
      
  
-all -  [ Should I even apply for a PhD? ](https://www.reddit.com/r/PhD/comments/1gy1xp7/should_i_even_apply_for_a_phd/) , 2024-12-15-0916
+all -  [ Should I even apply for a PhD? ](https://www.reddit.com/r/PhD/comments/1gy1xp7/should_i_even_apply_for_a_phd/) , 2024-12-16-0914
 ```
 Hi all
 
@@ -705,7 +750,7 @@ Thank you everyone. I got overwhelmed by everything and
 
      
  
-MachineLearning -  [ [D] Accepted NeurIPS 2024 paper claimed to be solving a novel problem as first work, but ignores 5 p ](https://www.reddit.com/r/MachineLearning/comments/1gxooqv/d_accepted_neurips_2024_paper_claimed_to_be/) , 2024-12-15-0916
+all -  [ [D] Accepted NeurIPS 2024 paper claimed to be solving a novel problem as first work, but ignores 5 p ](https://www.reddit.com/r/MachineLearning/comments/1gxooqv/d_accepted_neurips_2024_paper_claimed_to_be/) , 2024-12-16-0914
 ```
 At NeurIPS 2024 I found a paper that got accepted that positions its main contribution in the form of “Existing algorith
 ms for X ignore Y. We adapt algorithm Z for X to account for Y”.
@@ -761,7 +806,33 @@ cly shame the authors, as they have engaged with my e-mails and I am convinced t
 
      
  
-MachineLearning -  [ [R] Agentic AI test suites. All the test environments used to benchmark BALROG. ](https://www.reddit.com/r/MachineLearning/comments/1gwqe0m/r_agentic_ai_test_suites_all_the_test/) , 2024-12-15-0916
+all -  [ Does anyone function more as a 'applied scientist' but have no research background? ](https://www.reddit.com/r/datascience/comments/1gxhjfr/does_anyone_function_more_as_a_applied_scientist/) , 2024-12-16-0914
+```
+**TLDR: DS profile is shifting to be more ML heavy, but lack research experience to compete with ML specialists.**
+
+I've
+ been a DS for several years, mostly in jack-of-all-trades functions: large-scale pipeline building, ad-hoc/bespoke stat
+istical modeling for various stakeholders, ML applications, etc. More recently, I've started on a lot more GenAI/LLM wor
+k alongside applied scientists. Leaving aside the negativity on LLM hype, most of the AS folks have heavy research backg
+rounds: either PhDs or publications, attendance at conferences like ICLR, CVPR, NeurIPS, etc. I don't have any research 
+experience except for a short stint in a lab during grad school but was never published. Luckily my AS peers have treate
+d me as their own, which is good from credibility perspective.
+
+That said, when I look at the market, DS jobs are either
+ heavy on product analytics (hypothesis testing, experimentation, product sense, etc.) or DA/BI (dashboards, reporting, 
+vis, etc.). The ones that are ML-heavier generally want much more research experience and involvement. I can explain the
+ theory behind transformers, attention, decoders vs. encoders, etc. but I have zero publications and wouldn't stand a ch
+ance against people with much deeper ML research experience.
+
+I guess what I'm looking for is an applied/ML scientist-ad
+jacent role, but still gives opportunity to flex to occasionally support other functions, like TPM'ing, DE, MLOps, etc. 
+Aside from startups, there doesn't seem to be much out there. Anyone else?
+```
+---
+
+     
+ 
+MachineLearning -  [ [R] Agentic AI test suites. All the test environments used to benchmark BALROG. ](https://www.reddit.com/r/MachineLearning/comments/1gwqe0m/r_agentic_ai_test_suites_all_the_test/) , 2024-12-16-0914
 ```
 # BabyAI
 
@@ -854,7 +925,7 @@ https://www
 
      
  
-MachineLearning -  [ [D] PhD in RL/ML Theory or LLM ](https://www.reddit.com/r/MachineLearning/comments/1gvx8vx/d_phd_in_rlml_theory_or_llm/) , 2024-12-15-0916
+MachineLearning -  [ [D] PhD in RL/ML Theory or LLM ](https://www.reddit.com/r/MachineLearning/comments/1gvx8vx/d_phd_in_rlml_theory_or_llm/) , 2024-12-16-0914
 ```
 Hi guys,
 
@@ -902,7 +973,7 @@ LLM era, the pacing or applied ML research (especially in LLM and CV) becomes so
 
      
  
-MachineLearning -  [ [D] Expectation from Machine Learning Engineering jobs ](https://www.reddit.com/r/MachineLearning/comments/1gtt099/d_expectation_from_machine_learning_engineering/) , 2024-12-15-0916
+MachineLearning -  [ [D] Expectation from Machine Learning Engineering jobs ](https://www.reddit.com/r/MachineLearning/comments/1gtt099/d_expectation_from_machine_learning_engineering/) , 2024-12-16-0914
 ```
 Hey everyone,
 
@@ -926,7 +997,7 @@ r thoughts?
 
      
  
-MachineLearning -  [ [R] Convolutional Differentiable Logic Gate Networks ](https://www.reddit.com/r/MachineLearning/comments/1gs92mb/r_convolutional_differentiable_logic_gate_networks/) , 2024-12-15-0916
+MachineLearning -  [ [R] Convolutional Differentiable Logic Gate Networks ](https://www.reddit.com/r/MachineLearning/comments/1gs92mb/r_convolutional_differentiable_logic_gate_networks/) , 2024-12-16-0914
 ```
 Abstract
 
@@ -948,7 +1019,7 @@ urious what others think?
 
      
  
-MachineLearning -  [ [D] Neurips 2024 Hotel Roommate Search ](https://www.reddit.com/r/MachineLearning/comments/1gs0gj8/d_neurips_2024_hotel_roommate_search/) , 2024-12-15-0916
+MachineLearning -  [ [D] Neurips 2024 Hotel Roommate Search ](https://www.reddit.com/r/MachineLearning/comments/1gs0gj8/d_neurips_2024_hotel_roommate_search/) , 2024-12-16-0914
 ```
 The hotels around the venue for Neurips 2024 are pretty expensive, and I'm looking for a roommate to split the cost with
  (my university has a limit on the nightly hotel rate they are willing to reimburse). I currently have reserved a room f
@@ -965,7 +1036,7 @@ Just a grad student trying to make conferences affordable! Thanks.
 
      
  
-deeplearning -  [ How is the ACL Conference? ](https://www.reddit.com/r/deeplearning/comments/1gs7he7/how_is_the_acl_conference/) , 2024-12-15-0916
+deeplearning -  [ How is the ACL Conference? ](https://www.reddit.com/r/deeplearning/comments/1gs7he7/how_is_the_acl_conference/) , 2024-12-16-0914
 ```
 Hello, I know it's a very noob question but I was wondering what the reputation of ACL is in the field. I have been writ
 ing my first paper and my mentor recommended that I aim for the ACL deadline, I just wanted to know how prestigious it w
