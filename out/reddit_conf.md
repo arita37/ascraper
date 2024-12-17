@@ -1,5 +1,72 @@
  
-all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/askvan/comments/1hf3fah/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-16-0914
+all -  [ An MIT professor delivered a racist presentation targeting Chinese students as the keynote speaker a ](https://x.com/drjingjing2026/status/1867737326895632894) , 2024-12-17-0914
+```
+
+```
+---
+
+     
+ 
+all -  [ Valence & Recursion Sweep Awards at Foundation Models for Science Workshop at NeurIPS ](https://www.reddit.com/r/RecursionPharma/comments/1hfo8d6/valence_recursion_sweep_awards_at_foundation/) , 2024-12-17-0914
+```
+https://preview.redd.it/0jg8zf1sv87e1.png?width=1200&format=png&auto=webp&s=951c8af14784f575ef01a613f15a8c80e2f73d17
+
+Th
+is past weekend at NeurIPS, Valence Labs and Recursion won first, second and third place awards at the Foundation Models
+ for Science workshop. These foundation models offer breakthroughs in leveraging machine learning to better model the in
+tersection of biology and chemistry necessary to improve and scale AI drug discovery. 
+
+**First place** was awarded to a
+ paper on MolPhenix, a foundation model that can predict the effect of any given molecule and concentration pair on phen
+otypic cell assays and cell morphology by integrating phenomics data with chemistry data. Over the past decade, Recursio
+n has generated billions of phenomics images through automated, high-throughput experiments. Paired with new phenomics f
+oundation models like Phenom-1, Recursion can extract meaningful representations from these high-dimensional images to b
+uild Maps of Biology, allowing them to navigate which molecules and genes map to the same space of morphological changes
+. MolPhenix mines that rich data and delivers 10X improvement over previous methods – from 7.9% to 77.3% on the Top 1% r
+ecall of active molecules. **Paper:** [https://www.arxiv.org/abs/2409.08302](https://www.arxiv.org/abs/2409.08302?fbclid
+=IwZXh0bgNhZW0CMTAAAR1DNiyBVjVqVLuNtS9J5NV1MFqG6gxWIEMc8VxgmY_h1F61pVC1QMYBx5E_aem_eMEc0w9oQCwp4X5KhTwjSA)
+
+**Second pla
+ce** was awarded to a paper on Atomic GFlowNets (A-GFNs), a foundational generative model leveraging individual atoms as
+ building blocks to explore drug-like chemical space more comprehensively. The model uses an unsupervised pre-training a
+pproach using offline drug-like molecule datasets, conditioning A-GFNs on inexpensive yet informative molecular descript
+ors such as drug-likeliness, topological polar surface area, and synthetic accessibility scores. These properties serve 
+as proxy rewards, guiding A-GFNs towards regions of chemical space that exhibit desirable pharmacological properties. **
+Paper:** [https://arxiv.org/abs/2409.09702](https://l.facebook.com/l.php?u=https%3A%2F%2Farxiv.org%2Fabs%2F2409.09702%3F
+fbclid%3DIwZXh0bgNhZW0CMTAAAR1TFhx9hYXN7h0fUw0yz-jj1XbKnG5VVmeGbhBjXq3D_mI-0EaoAFSuPdM_aem_DSvWO2X4lUCyArxe25tAxg&h=AT3p
+MSPJmPbXaJMGgs_or31Oprx-0d6DEJfLPfDpG7eaT2mbKba97Q38wnlIRWtiiybJk6-ebgL6mKUxVGSjRbxBmELjxYpjXNjdHgL29VeAnS-hGjDCqAKKMQMj
+w7aG1g&__tn__=-UK-R&c[0]=AT0iM8paHD3SnWn3-5OATLDMYPKlw0l87qqsKblkdsjHHaCw_MGxpfhRaSEvxsy0AUorpVBjv6c2ceWmePe-Jl-BcrAc3Ma
+QXhUG9VtgoQ9q8Jm8kZAX4gjgN8BWRSb9QeIYE2XwWCLl8bqvpU0AKz5RAGcDYz5s2BukDaagpBsjOI07tAnlVJ-4_HtQZ-b4sEweKQ) 
+
+**Third place
+** was awarded to a paper on the largest foundation model for cell microscopy data to date, a new 1.9 billion-parameter 
+ViT-G/8 MAE trained on over 8 billion microscopy images that achieves a 60% improvement in linear separability of geneti
+c perturbations and obtains the best overall performance on whole-genome biological relationship recall and replicate co
+nsistency benchmarks. **Paper:** [https://arxiv.org/abs/2411.02572](https://l.facebook.com/l.php?u=https%3A%2F%2Farxiv.o
+rg%2Fabs%2F2411.02572%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR1TFhx9hYXN7h0fUw0yz-jj1XbKnG5VVmeGbhBjXq3D_mI-0EaoAFSuPdM_aem_DSvWO
+2X4lUCyArxe25tAxg&h=AT2mulqFETtdCih5m7gG70wHri8uodEz6hXHak0aAKc6GwUbm4BJnRDlDjN6L8dYBc_aXrweThNM8xEMPZ5GqovHoSWE3w2YETVv
+k99BY8TWSX6EyOpJw5-OvDXcHdj2fw&__tn__=-UK-R&c[0]=AT0iM8paHD3SnWn3-5OATLDMYPKlw0l87qqsKblkdsjHHaCw_MGxpfhRaSEvxsy0AUorpVB
+jv6c2ceWmePe-Jl-BcrAc3MaQXhUG9VtgoQ9q8Jm8kZAX4gjgN8BWRSb9QeIYE2XwWCLl8bqvpU0AKz5RAGcDYz5s2BukDaagpBsjOI07tAnlVJ-4_HtQZ-b
+4sEweKQ)
+
+\#NeurIPS #NeurIPS2024 #ML
+```
+---
+
+     
+ 
+all -  [ NeurIPS conference in Vancouver draws 16,000 AI researchers $META ](https://www.reddit.com/r/alertscreener/comments/1hfitr5/neurips_conference_in_vancouver_draws_16000_ai/) , 2024-12-17-0914
+```
+With major companies like Meta $META, Alphabet $GOOGL, and Microsoft $MSFT showcasing their latest AI advancements and p
+roducts.
+
+### Follow [@alertscreener](https://x.com/intent/user?screen_name=alertscreener) for more
+```
+---
+
+     
+ 
+all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/askvan/comments/1hf3fah/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-17-0914
 ```
 I've been here for a week attending NeurIPS 2024 and will be heading back Toronto tomorrow. I only have this evening lef
 t—what's the must-see or unique experience I shouldn’t miss to avoid regretting it later
@@ -8,7 +75,7 @@ t—what's the must-see or unique experience I shouldn’t miss to avoid regrett
 
      
  
-all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/canadatravel/comments/1hf37do/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-16-0914
+all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/canadatravel/comments/1hf37do/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-17-0914
 ```
 I've been here for a week attending NeurIPS 2024 and will be heading back Toronto tomorrow. I only have this evening lef
 t—what's the must-see or unique experience I shouldn’t miss to avoid regretting it later
@@ -19,7 +86,7 @@ t—what's the must-see or unique experience I shouldn’t miss to avoid regrett
 
      
  
-all -  [ [D] Are We Okay With This? Questionable Poster Behavior at NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/1heo36q/d_are_we_okay_with_this_questionable_poster/) , 2024-12-16-0914
+all -  [ [D] Are We Okay With This? Questionable Poster Behavior at NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/1heo36q/d_are_we_okay_with_this_questionable_poster/) , 2024-12-17-0914
 ```
 This was my first year at NeurIPS. It’s inspiring to see so much cutting-edge research being presented, but something tr
 oubling caught my attention during the poster sessions that I feel compelled to share, especially given [the recent inci
@@ -76,15 +143,7 @@ ighthearted or still academic? 
 
      
  
-all -  [ An interview with Fei-Fei Li on her NeurIPS keynote talk about visual intelligence, her startup Worl ](https://www.techmeme.com/241215/p5) , 2024-12-16-0914
-```
-
-```
----
-
-     
- 
-all -  [ A little bit of drama: Pre-training is only over if you have no imagination - Logan Kilpatrick ](https://www.reddit.com/r/singularity/comments/1he9tsn/a_little_bit_of_drama_pretraining_is_only_over_if/) , 2024-12-16-0914
+all -  [ A little bit of drama: Pre-training is only over if you have no imagination - Logan Kilpatrick ](https://www.reddit.com/r/singularity/comments/1he9tsn/a_little_bit_of_drama_pretraining_is_only_over_if/) , 2024-12-17-0914
 ```
 https://x.com/OfficialLoganK/status/1868002617311596552?t=uNazJ-3HPuWlBrXGagkAag&s=19
 
@@ -96,29 +155,7 @@ This is in response to Ilya Sutskever's talk during NeurIPS 2024.
 
      
  
-all -  [ An MIT professor delivered a racist presentation targeting Chinese students as the keynote speaker a ](https://x.com/drjingjing2026/status/1867737326895632894) , 2024-12-16-0914
-```
-At NeurIPS 2024, an MIT professor delivered a keynote address that addressed unethical behavior in academia. During the 
-speech, the professor referenced a Chinese student in a manner that was not only unnecessary but also highly racist. (Th
-e following is her slide):
-
-This is dishonest and unethical: Using Al to generate fabricated results, fake data, and pub
-lications containing these, AND presenting them as real. 
-
-“I did it to make my paper results look better. Nobody at my 
-school taught us morals or values.' 
-
-- Excuse given by Chinese student
-who is now expelled from top university. 
-
-NOTE:
- Most Chinese who I know are honest and morally upright.
-```
----
-
-     
- 
-all -  [ A Perfect Storm for AI Inference TPU will be new king  ](https://www.reddit.com/r/Bard/comments/1he4e14/a_perfect_storm_for_ai_inference_tpu_will_be_new/) , 2024-12-16-0914
+all -  [ A Perfect Storm for AI Inference TPU will be new king  ](https://www.reddit.com/r/Bard/comments/1he4e14/a_perfect_storm_for_ai_inference_tpu_will_be_new/) , 2024-12-17-0914
 ```
 Ilya Sutskever's recent bombshell at NeurIPS – [https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-op
 enai-model-data-training](https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-traini
@@ -157,7 +194,7 @@ ra.
 
      
  
-all -  [ Ilya Sutskever, cofondateur et ancien directeur scientifique d'OpenAI, a fait une rare apparition pu ](https://www.reddit.com/r/actutech/comments/1hdxdjs/ilya_sutskever_cofondateur_et_ancien_directeur/) , 2024-12-16-0914
+all -  [ Ilya Sutskever, cofondateur et ancien directeur scientifique d'OpenAI, a fait une rare apparition pu ](https://www.reddit.com/r/actutech/comments/1hdxdjs/ilya_sutskever_cofondateur_et_ancien_directeur/) , 2024-12-17-0914
 ```
 Il a notamment affirmé que le pré-entraînement des modèles tel que nous le connaissons va inévitablement prendre fin, co
 mparant les données à un 'combustible fossile' limité. Selon lui, nous avons atteint un pic des données disponibles, car
@@ -181,7 +218,7 @@ https://preview.redd.it/2ly7b8fejr6e1.jpg?width=960&format=pjpg&auto=webp&s=ae6c
 
      
  
-all -  [ [D] The winner of the NeurIPS 2024 Best Paper Award  sabotaged the other teams ](https://www.reddit.com/r/MachineLearning/comments/1hctf36/d_the_winner_of_the_neurips_2024_best_paper_award/) , 2024-12-16-0914
+all -  [ [D] The winner of the NeurIPS 2024 Best Paper Award  sabotaged the other teams ](https://www.reddit.com/r/MachineLearning/comments/1hctf36/d_the_winner_of_the_neurips_2024_best_paper_award/) , 2024-12-17-0914
 ```
 Presumably, the winner of the NeurIPS 2024 Best Paper Award (a guy from ByteDance, the creators of Tiktok) sabotaged the
  other teams to derail their research and redirect their resources to his own. Plus he was at meetings debugging his col
@@ -197,7 +234,7 @@ I have not checked the facts themselves, so if you can verify what is
 
      
  
-all -  [ Feels good to see Mr.X getting noted ](https://i.redd.it/oexht6c8rg6e1.jpeg) , 2024-12-16-0914
+all -  [ Feels good to see Mr.X getting noted ](https://i.redd.it/oexht6c8rg6e1.jpeg) , 2024-12-17-0914
 ```
 Link: https://x.com/elonmusk/status/1866797259968614885?s=46
 ```
@@ -205,7 +242,7 @@ Link: https://x.com/elonmusk/status/1866797259968614885?s=46
 
      
  
-all -  [ and now we know why Elon named his stupid AI 'Grok'  ](https://i.redd.it/j0pk4yr54f6e1.png) , 2024-12-16-0914
+all -  [ and now we know why Elon named his stupid AI 'Grok'  ](https://i.redd.it/j0pk4yr54f6e1.png) , 2024-12-17-0914
 ```
 also why does the chart go all the way back to 1991
 ```
@@ -214,7 +251,7 @@ also why does the chart go all the way back to 1991
      
  
 all -  [ 
-New framework for quantifying uncertainty in LLMs: Semantic Density ](https://www.reddit.com/r/airesearch/comments/1hc6fez/new_framework_for_quantifying_uncertainty_in_llms/) , 2024-12-16-0914
+New framework for quantifying uncertainty in LLMs: Semantic Density ](https://www.reddit.com/r/airesearch/comments/1hc6fez/new_framework_for_quantifying_uncertainty_in_llms/) , 2024-12-17-0914
 ```
 Can we trust LLMs in high-stakes decisions? Cognizant AI Research Lab introduces Semantic Density, a scalable framework 
 to quantify response-specific uncertainty without retraining. Tested on state-of-the-art models, it outperforms existing
@@ -228,7 +265,7 @@ th-semantic-density-ff0e58836416)
 
      
  
-all -  [ How well-informed Elon Musk is when he makes a statement ](https://www.reddit.com/r/EnoughMuskSpam/comments/1hc415l/how_wellinformed_elon_musk_is_when_he_makes_a/) , 2024-12-16-0914
+all -  [ How well-informed Elon Musk is when he makes a statement ](https://www.reddit.com/r/EnoughMuskSpam/comments/1hc415l/how_wellinformed_elon_musk_is_when_he_makes_a/) , 2024-12-17-0914
 ```
 https://preview.redd.it/ekphsq71aa6e1.png?width=798&format=png&auto=webp&s=025884971824e9394aa64d398c70b1d44da62083
 
@@ -238,7 +275,7 @@ https://preview.redd.it/ekphsq71aa6e1.png?width=798&format=png&auto=webp&s=02588
 
      
  
-all -  [ Can research projects be replacement for internships in North America? ](https://www.reddit.com/r/csMajors/comments/1hc391a/can_research_projects_be_replacement_for/) , 2024-12-16-0914
+all -  [ Can research projects be replacement for internships in North America? ](https://www.reddit.com/r/csMajors/comments/1hc391a/can_research_projects_be_replacement_for/) , 2024-12-17-0914
 ```
 I'm not a computer science major but do have extensive technical background (I'm in cognitive science with a computer sc
 ience minor.) I've completed a research project for credit under a big name in cognitive science and it involved CNNs. I
@@ -258,7 +295,7 @@ tal health issues
 
      
  
-all -  [ [D] How to make friends and network at NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1hc0x89/d_how_to_make_friends_and_network_at_neurips/) , 2024-12-16-0914
+all -  [ [D] How to make friends and network at NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1hc0x89/d_how_to_make_friends_and_network_at_neurips/) , 2024-12-17-0914
 ```
 I’m attending NeurIPS for the first time and it’s quite overwhelming seeing the amount of people and so many recruiters.
  I come from a not so well known university, and have come to the conference completely alone, not even my supervisor is
@@ -277,7 +314,7 @@ stuff going on in the area. Cheers!
 
      
  
-all -  [ NeurIPS 2024: What Matters When Building Vision Language Models ](https://www.reddit.com/r/computervision/comments/1hb2zk0/neurips_2024_what_matters_when_building_vision/) , 2024-12-16-0914
+all -  [ NeurIPS 2024: What Matters When Building Vision Language Models ](https://www.reddit.com/r/computervision/comments/1hb2zk0/neurips_2024_what_matters_when_building_vision/) , 2024-12-17-0914
 ```
 Check out [Harpreet Sahota’s](https://www.linkedin.com/in/harpreetsahota204/) conversation with [Hugo Laurençon](https:/
 /www.linkedin.com/in/hugo-lauren%C3%A7on/) of Sorbonne Université and Hugging Face about his NeurIPS 2024 paper, “What M
@@ -299,7 +336,7 @@ eddit.com/link/1hb2zk0/video/9ebds5l7716e1/player
 
      
  
-all -  [ NeurIPS is starting tomorrow but I’m too young to go there😭😭😭 ](https://www.reddit.com/r/teenagers/comments/1haqs1i/neurips_is_starting_tomorrow_but_im_too_young_to/) , 2024-12-16-0914
+all -  [ NeurIPS is starting tomorrow but I’m too young to go there😭😭😭 ](https://www.reddit.com/r/teenagers/comments/1haqs1i/neurips_is_starting_tomorrow_but_im_too_young_to/) , 2024-12-17-0914
 ```
 It’s right where I live as well
 ```
@@ -307,7 +344,7 @@ It’s right where I live as well
 
      
  
-all -  [ [R] Improving robustness to corruptions with multiplicative weight perturbations - A simple yet effe ](https://www.reddit.com/r/MachineLearning/comments/1hap6gx/r_improving_robustness_to_corruptions_with/) , 2024-12-16-0914
+all -  [ [R] Improving robustness to corruptions with multiplicative weight perturbations - A simple yet effe ](https://www.reddit.com/r/MachineLearning/comments/1hap6gx/r_improving_robustness_to_corruptions_with/) , 2024-12-17-0914
 ```
 We would like to share and discuss this NeurIPS spotlight paper (disclaimer: I am a co-author).
 
@@ -353,7 +390,7 @@ mputer vision!
 
      
  
-all -  [ NeurIPS 2024 - Creating SPIQA: Addressing the Limitations of Existing Datasets for Scientific VQA ](https://www.reddit.com/r/computervision/comments/1ha9cup/neurips_2024_creating_spiqa_addressing_the/) , 2024-12-16-0914
+all -  [ NeurIPS 2024 - Creating SPIQA: Addressing the Limitations of Existing Datasets for Scientific VQA ](https://www.reddit.com/r/computervision/comments/1ha9cup/neurips_2024_creating_spiqa_addressing_the/) , 2024-12-17-0914
 ```
 Check out [Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/)’s conversation with [Shraman Pramanick](http
 s://www.linkedin.com/in/shramanpramanick/) of Johns Hopkins University and Meta AI about his NeurIPS 2024 paper, “Creati
@@ -375,7 +412,7 @@ https://reddit.com/link/1ha9cup/video/z1vatdr5ot5e1/player
 
      
  
-all -  [ NeurIPS 2024 - No “Zero-Shot” Without Exponential Data: Pretraining Concept Frequency Determines Mul ](https://www.reddit.com/r/computervision/comments/1h9q0x1/neurips_2024_no_zeroshot_without_exponential_data/) , 2024-12-16-0914
+all -  [ NeurIPS 2024 - No “Zero-Shot” Without Exponential Data: Pretraining Concept Frequency Determines Mul ](https://www.reddit.com/r/computervision/comments/1h9q0x1/neurips_2024_no_zeroshot_without_exponential_data/) , 2024-12-17-0914
 ```
 Check out [Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/)’s conversation with [Vishaal Udandarao](http
 s://www.linkedin.com/in/vishaal-udandarao/) of the University of Tübingen and Cambridge about his NeurIPS 2024 paper, “N
@@ -394,7 +431,7 @@ https://reddit.com/link/1h9q0x1/video/pcw40i25ao5e1/player
 
      
  
-all -  [ NeurIPS 2024: A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis ](https://www.reddit.com/r/computervision/comments/1h82qz6/neurips_2024_a_textbook_remedy_for_domain_shifts/) , 2024-12-16-0914
+all -  [ NeurIPS 2024: A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis ](https://www.reddit.com/r/computervision/comments/1h82qz6/neurips_2024_a_textbook_remedy_for_domain_shifts/) , 2024-12-17-0914
 ```
 Check out [Harpreet Sahota’s](https://www.linkedin.com/in/harpreetsahota204/) conversation with [Yue Yang](https://www.l
 inkedin.com/in/yue-yang-4b2075174) of the University of Pennsylvania and AI2 about his NeurIPS 2024 paper, “A Textbook R
@@ -413,7 +450,7 @@ tps://reddit.com/link/1h82qz6/video/lintlyfuo85e1/player
 
      
  
-all -  [ NeurlPS 2024: NaturalBench - Evaluating Vision-Language Models on Natural Adversarial Samples ](https://www.reddit.com/r/computervision/comments/1h7f4k2/neurlps_2024_naturalbench_evaluating/) , 2024-12-16-0914
+all -  [ NeurlPS 2024: NaturalBench - Evaluating Vision-Language Models on Natural Adversarial Samples ](https://www.reddit.com/r/computervision/comments/1h7f4k2/neurlps_2024_naturalbench_evaluating/) , 2024-12-17-0914
 ```
 Check out [Harpreet Sahota](https://www.linkedin.com/in/harpreetsahota204/)’s conversation with [Zhiqiu Lin](https://www
 .linkedin.com/in/zhiqiu-lin-b49ba7126/) of Carnegie Mellon University about his NeurIPS 2024 paper, “NaturalBench: Evalu
@@ -435,7 +472,7 @@ m/link/1h7f4k2/video/6mw2ahngi25e1/player
 
      
  
-all -  [ Former Intern Sabotages ByteDance’s AI Training, Faces ¥8 Million Lawsuit, Yet Wins NeurIPS 2024 Bes ](https://www.reddit.com/r/LocalLLaMA/comments/1h6i1m9/former_intern_sabotages_bytedances_ai_training/) , 2024-12-16-0914
+all -  [ Former Intern Sabotages ByteDance’s AI Training, Faces ¥8 Million Lawsuit, Yet Wins NeurIPS 2024 Bes ](https://www.reddit.com/r/LocalLLaMA/comments/1h6i1m9/former_intern_sabotages_bytedances_ai_training/) , 2024-12-17-0914
 ```
 In October 2024, media outlets reported that 'ByteDance's large-scale model training was attacked by an intern,' and onl
 ine sources claimed that 'over 8,000 GPUs were involved, resulting in losses exceeding tens of millions of dollars.' Byt
@@ -465,7 +502,7 @@ p in ByteDance's Commercialization Technology Department.
 
      
  
-all -  [ NeurIPS 2024 - A Label is Worth a Thousand Images in Dataset Distillation ](https://www.reddit.com/r/computervision/comments/1h6hx3p/neurips_2024_a_label_is_worth_a_thousand_images/) , 2024-12-16-0914
+all -  [ NeurIPS 2024 - A Label is Worth a Thousand Images in Dataset Distillation ](https://www.reddit.com/r/computervision/comments/1h6hx3p/neurips_2024_a_label_is_worth_a_thousand_images/) , 2024-12-17-0914
 ```
 https://reddit.com/link/1h6hx3p/video/k7wh8qlfiu4e1/player
 
@@ -484,7 +521,7 @@ https://i.redd.it/mg9isc68iu4e1.gif
 
      
  
-all -  [ I have reasons to believe that Recursion (RXRX) will became quite popular in the next month. ](https://www.reddit.com/r/wallstreetbets/comments/1h1volv/i_have_reasons_to_believe_that_recursion_rxrx/) , 2024-12-16-0914
+all -  [ I have reasons to believe that Recursion (RXRX) will became quite popular in the next month. ](https://www.reddit.com/r/wallstreetbets/comments/1h1volv/i_have_reasons_to_believe_that_recursion_rxrx/) , 2024-12-17-0914
 ```
 I believe that in the future, drugs will be highly customisable based on the patience’s health history. Based on your ph
 ysiology, syndromes, and genetics, you may receive a drug that is well-suited for you and only you. 
@@ -531,7 +568,7 @@ Of course, no financial advice. I’m long 800 shares and loading as much as I p
 
      
  
-all -  [ can I attend neurips as an enthusiast?  ](https://www.reddit.com/r/MLQuestions/comments/1h1kw31/can_i_attend_neurips_as_an_enthusiast/) , 2024-12-16-0914
+all -  [ can I attend neurips as an enthusiast?  ](https://www.reddit.com/r/MLQuestions/comments/1h1kw31/can_i_attend_neurips_as_an_enthusiast/) , 2024-12-17-0914
 ```
 neurips is coming to my hometown, can I just go? I want to hunt down all the recruiters lol 
 ```
@@ -539,7 +576,7 @@ neurips is coming to my hometown, can I just go? I want to hunt down all the rec
 
      
  
-all -  [ [0 YoE, Unemployed, Machine Learning Research Intern, Serbia] ](https://www.reddit.com/r/resumes/comments/1h0jscl/0_yoe_unemployed_machine_learning_research_intern/) , 2024-12-16-0914
+all -  [ [0 YoE, Unemployed, Machine Learning Research Intern, Serbia] ](https://www.reddit.com/r/resumes/comments/1h0jscl/0_yoe_unemployed_machine_learning_research_intern/) , 2024-12-17-0914
 ```
 &#x200B;
 
@@ -569,7 +606,7 @@ vance - every advice is helpful and appreciated!
 
      
  
-all -  [ MS Thesis project at IBM Research-Zurich ](https://www.reddit.com/r/ethz/comments/1gzk140/ms_thesis_project_at_ibm_researchzurich/) , 2024-12-16-0914
+all -  [ MS Thesis project at IBM Research-Zurich ](https://www.reddit.com/r/ethz/comments/1gzk140/ms_thesis_project_at_ibm_researchzurich/) , 2024-12-17-0914
 ```
 Dear MS Students,
 
@@ -623,7 +660,7 @@ ntations’, *International Conference on Neural-Symbolic Learning and Reasoning
 
      
  
-all -  [ Should i even try for my chances or is it just a waste of time applying with poor grades . Can my SO ](https://www.reddit.com/r/Indians_StudyAbroad/comments/1gzec5d/should_i_even_try_for_my_chances_or_is_it_just_a/) , 2024-12-16-0914
+all -  [ Should i even try for my chances or is it just a waste of time applying with poor grades . Can my SO ](https://www.reddit.com/r/Indians_StudyAbroad/comments/1gzec5d/should_i_even_try_for_my_chances_or_is_it_just_a/) , 2024-12-17-0914
 ```
 I have completed my undergrad from Osmania University (VCE) in electronics and communications ( a tier 2 ish college in 
 India )
@@ -669,88 +706,7 @@ out them , I really need serious advice if i have to give up hope and change my 
 
      
  
-all -  [ Should i even try ? ](https://www.reddit.com/r/gradadmissions/comments/1gze93d/should_i_even_try/) , 2024-12-16-0914
-```
-I have completed my undergrad from Osmania University (VCE) in electronics and communications ( a tier 2 ish college in 
-India ) 
-
-
-
-I have a very low GPA ( 3.18 ) , I have graduated in 2024 and am aspiring to apply for fall 2026 .
-
- I have 
-had severe health issues during my undergrad and did a lot of community outreach programs in my sophomore year , My grad
-es were good in my junior year but it was just downhill after that , I was suffering from many health issues which spoil
-ed my grades but got recovered in final year and had good grades. 
-
-After my health recovered I worked like hell and alr
-eady published 4 papers in IEEE conferences and 2 in smaller conferences
-
-**I am currently working at AT&T as senior ass
-ociate software engineer with the field being machine learning . I have applied to CVPR 2025 conference and am sure of g
-etting my paper published there , I have 3 more papers ready for ICML and NeurIPS as well , these are the top most confe
-rences in ML in the entire world . I am sure of having at least 18 papers published by end of 2025 ( 5 are Q1 level ) . 
-I have 3 patents on my name and aspire to get more . It took me sleepless nights during my final year to accomplish all 
-of this after my health recovered**
-
-
-
-other profile aspects -
-
-2 research internships , strong LOR's from top internati
-onal universities where I worked with a professor , aiming to do at least 2 more internships at labs by end of 2025
-
-Can
- I convince the admission committee that my health affected my grades and can the other strong part of backup my grades 
-part in my SOP or is it just a waste of time applying ??
-
-dream target univs - Caltech MS EE ( ML track ) , Stanford MS 
-EE ( ML track ) , Stanford MS CS
-
-I recently read this [https://www-cs.stanford.edu/\~rkarthik/DAGAP.pdf](https://www-cs
-.stanford.edu/~rkarthik/DAGAP.pdf) where the writer says low GPA will be immediately rejected . Should i even try buildi
-ng my profile or give up hope ?
-
-Stanford and Caltech have been my dream univs since many years and life seems meaningle
-ss without them , I really need serious advice if i have to give up hope and change my path or still build profile . i h
-ave one year of time to apply .
-```
----
-
-     
- 
-all -  [ Should I even apply for a PhD? ](https://www.reddit.com/r/PhD/comments/1gy1xp7/should_i_even_apply_for_a_phd/) , 2024-12-16-0914
-```
-Hi all
-
-So I (23M, Indian) had the dream to pursue a MS+PhD in CS (AI) in the US (No masters, I just have a Bachelors de
-gree in Electronics Engineering). I was aiming to get into universities like UCSD, John Hopkins, UIUC.
-
-To make it happe
-n, I applied to Indian professors and worked with them. Have spent over 1 year working in research, while managing my so
-ftware engineering job in parallel. Got one paper published in ICPR 2024, and one in a small conference, not a big deal.
- I have managed to gather 3 Letters of Recommendation after working.
-
-However, from some sample SOPs on the net, I see t
-hat the applicants for these colleges have already 1st author publications in top-tier conferences like AAAI, NeurIPS et
-c.
-
-In this scenario, should I even apply? I feel like I have no chance to compete with these people. Am I aiming for to
-o high? What would you suggest?
-
-Thank you everyone.
-
-  
-Edit 1
-
-Thank you everyone. I got overwhelmed by everything and
- became tensed. I will curate and apply. Whatever happens next, will happen. Let me do my part at least. thanks!
-```
----
-
-     
- 
-all -  [ [D] Accepted NeurIPS 2024 paper claimed to be solving a novel problem as first work, but ignores 5 p ](https://www.reddit.com/r/MachineLearning/comments/1gxooqv/d_accepted_neurips_2024_paper_claimed_to_be/) , 2024-12-16-0914
+MachineLearning -  [ [D] Accepted NeurIPS 2024 paper claimed to be solving a novel problem as first work, but ignores 5 p ](https://www.reddit.com/r/MachineLearning/comments/1gxooqv/d_accepted_neurips_2024_paper_claimed_to_be/) , 2024-12-17-0914
 ```
 At NeurIPS 2024 I found a paper that got accepted that positions its main contribution in the form of “Existing algorith
 ms for X ignore Y. We adapt algorithm Z for X to account for Y”.
@@ -806,33 +762,7 @@ cly shame the authors, as they have engaged with my e-mails and I am convinced t
 
      
  
-all -  [ Does anyone function more as a 'applied scientist' but have no research background? ](https://www.reddit.com/r/datascience/comments/1gxhjfr/does_anyone_function_more_as_a_applied_scientist/) , 2024-12-16-0914
-```
-**TLDR: DS profile is shifting to be more ML heavy, but lack research experience to compete with ML specialists.**
-
-I've
- been a DS for several years, mostly in jack-of-all-trades functions: large-scale pipeline building, ad-hoc/bespoke stat
-istical modeling for various stakeholders, ML applications, etc. More recently, I've started on a lot more GenAI/LLM wor
-k alongside applied scientists. Leaving aside the negativity on LLM hype, most of the AS folks have heavy research backg
-rounds: either PhDs or publications, attendance at conferences like ICLR, CVPR, NeurIPS, etc. I don't have any research 
-experience except for a short stint in a lab during grad school but was never published. Luckily my AS peers have treate
-d me as their own, which is good from credibility perspective.
-
-That said, when I look at the market, DS jobs are either
- heavy on product analytics (hypothesis testing, experimentation, product sense, etc.) or DA/BI (dashboards, reporting, 
-vis, etc.). The ones that are ML-heavier generally want much more research experience and involvement. I can explain the
- theory behind transformers, attention, decoders vs. encoders, etc. but I have zero publications and wouldn't stand a ch
-ance against people with much deeper ML research experience.
-
-I guess what I'm looking for is an applied/ML scientist-ad
-jacent role, but still gives opportunity to flex to occasionally support other functions, like TPM'ing, DE, MLOps, etc. 
-Aside from startups, there doesn't seem to be much out there. Anyone else?
-```
----
-
-     
- 
-MachineLearning -  [ [R] Agentic AI test suites. All the test environments used to benchmark BALROG. ](https://www.reddit.com/r/MachineLearning/comments/1gwqe0m/r_agentic_ai_test_suites_all_the_test/) , 2024-12-16-0914
+MachineLearning -  [ [R] Agentic AI test suites. All the test environments used to benchmark BALROG. ](https://www.reddit.com/r/MachineLearning/comments/1gwqe0m/r_agentic_ai_test_suites_all_the_test/) , 2024-12-17-0914
 ```
 # BabyAI
 
@@ -925,7 +855,7 @@ https://www
 
      
  
-MachineLearning -  [ [D] PhD in RL/ML Theory or LLM ](https://www.reddit.com/r/MachineLearning/comments/1gvx8vx/d_phd_in_rlml_theory_or_llm/) , 2024-12-16-0914
+MachineLearning -  [ [D] PhD in RL/ML Theory or LLM ](https://www.reddit.com/r/MachineLearning/comments/1gvx8vx/d_phd_in_rlml_theory_or_llm/) , 2024-12-17-0914
 ```
 Hi guys,
 
@@ -973,7 +903,7 @@ LLM era, the pacing or applied ML research (especially in LLM and CV) becomes so
 
      
  
-MachineLearning -  [ [D] Expectation from Machine Learning Engineering jobs ](https://www.reddit.com/r/MachineLearning/comments/1gtt099/d_expectation_from_machine_learning_engineering/) , 2024-12-16-0914
+MachineLearning -  [ [D] Expectation from Machine Learning Engineering jobs ](https://www.reddit.com/r/MachineLearning/comments/1gtt099/d_expectation_from_machine_learning_engineering/) , 2024-12-17-0914
 ```
 Hey everyone,
 
@@ -992,59 +922,6 @@ eferred, but is an impressive publication record necessary for MLE roles? Or is 
 
 What are you
 r thoughts?
-```
----
-
-     
- 
-MachineLearning -  [ [R] Convolutional Differentiable Logic Gate Networks ](https://www.reddit.com/r/MachineLearning/comments/1gs92mb/r_convolutional_differentiable_logic_gate_networks/) , 2024-12-16-0914
-```
-Abstract
-
-With the increasing inference cost of machine learning models, there is a growing interest in models with fast
- and efficient inference. Recently, an approach for learning logic gate networks directly via a differentiable relaxatio
-n was proposed.  Logic gate networks are faster than conventional neural network approaches be- cause their inference on
-ly requires logic gate operators such as NAND, OR, and XOR, which are the underlying building blocks of current hardware
- and can be efficiently executed. We build on this idea, extending it by deep logic gate tree convolutions, logical OR p
-ooling, and residual initializations. This allows scaling logic gate networks up by over one order of magnitude and util
-izing the paradigm of convolution. On CIFAR-10, we achieve an accuracy of 86.29% using only 61 million logic gates, whic
-h improves over the SOTA while being 29× smaller.
-
-  
-Accepted at Neurips 2024, 'SOTA' here means comparable approaches.
- I found this paper really interesting, even though non-toy networks seems like they would be very expensive to train. C
-urious what others think?
-```
----
-
-     
- 
-MachineLearning -  [ [D] Neurips 2024 Hotel Roommate Search ](https://www.reddit.com/r/MachineLearning/comments/1gs0gj8/d_neurips_2024_hotel_roommate_search/) , 2024-12-16-0914
-```
-The hotels around the venue for Neurips 2024 are pretty expensive, and I'm looking for a roommate to split the cost with
- (my university has a limit on the nightly hotel rate they are willing to reimburse). I currently have reserved a room f
-or Tuesday-Sunday in the Century Plaza Hotel, which is 0.9 miles from the convention center. The nightly rate is $414. I
-f anyone wants to split the cost of a room, please reach out! Also, it would be helpful if you could share this post wit
-h your research group or other attendees that you know.
-
-If you are unsure about rooming with a complete stranger, you c
-an get to know me a little bit through my personal website (https://mtcrawshaw.github.io/), which has links to my google
- scholar page, CV, etc. I do have a paper at the conference in the area of federated learning/distributed optimization. 
-Just a grad student trying to make conferences affordable! Thanks.
-```
----
-
-     
- 
-deeplearning -  [ How is the ACL Conference? ](https://www.reddit.com/r/deeplearning/comments/1gs7he7/how_is_the_acl_conference/) , 2024-12-16-0914
-```
-Hello, I know it's a very noob question but I was wondering what the reputation of ACL is in the field. I have been writ
-ing my first paper and my mentor recommended that I aim for the ACL deadline, I just wanted to know how prestigious it w
-as relative to bigger conferences like NeurIPS, ICML, ICLR, etc.
-
-Also, purely hypothetical, but what weight does an ACL
- acceptance hold for getting a summer internship/research? I'm an undergrad and I'm kind of cooked with my summer intern
-ship prospects, so I was wondering if it would help in any regard.
 ```
 ---
 
