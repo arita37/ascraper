@@ -1,5 +1,232 @@
  
-all -  [ Llama 3.1 8B struggles with tool calls ](https://www.reddit.com/r/LocalLLaMA/comments/1hfxepg/llama_31_8b_struggles_with_tool_calls/) , 2024-12-17-0914
+all -  [ [Project] Video Foundation Model as an API ](https://www.reddit.com/r/LangChain/comments/1hgm2df/project_video_foundation_model_as_an_api/) , 2024-12-18-0913
+```
+Hey everybody! My team and I have been working on a foundational video language model (viFM) as-a-service we're excited 
+to do our first release!
+
+tl;dw is an API for video foundational models (viFMs) and provides video understanding. It hel
+ps developers build apps powered by an AI that can watch and understand videos just like a human. 
+
+  
+Only search is av
+ailable right now but these are all the features that will be releasing over the next few weeks:
+
+* Semantic video searc
+h: Use plain English to find specific moments in single or multiple videos
+* Classification: Identify context-based acti
+ons or behaviors
+* Labeling: Add metadata or label every event
+* Scene splitting: Automatically split videos into scenes
+ based on what you’re looking for
+* Video-to-text: Get text description of what is happening in the clip or video
+
+  
+Wh
+at can you build with tl;dw?
+
+* an AI agent that can recommend videos based on your preferences
+* the internal media dis
+covery platform [Netflix](https://netflixtechblog.com/building-a-media-understanding-platform-for-ml-innovations-9bef996
+2dcb7) has
+* smart home security camera like the demo we have [here](https://trytldw.ai/security_demo)
+* find usable sho
+ts if you’re producing a video
+* automatically add metadata to videos or scenes
+
+Any feedback is appreciated! Is there s
+omething you’d like to see? Do you think this API is useful? How would you use it, etc. Happy to answer any questions as
+ well.
+
+[Register and get an API key](https://trytldw.ai/register): [https://trytldw.ai/register:](https://trytldw.ai/re
+gister:)
+
+[Follow the quick start guide to understand the basics.](https://docs.trytldw.ai/intro)
+
+[Documentation can be
+ viewed here](https://docs.trytldw.ai/)
+
+Demos + tutorials coming soon.
+
+Happy to answer any questions!
+```
+---
+
+     
+ 
+all -  [ [Project] I built an AI Parliament simulator that lets virtual representatives debate and vote on po ](/r/OpenAI/comments/1hgbxxp/project_i_built_an_ai_parliament_simulator_that/) , 2024-12-18-0913
+```
+
+```
+---
+
+     
+ 
+all -  [ Need help with recovering conversations from checkpoint store ](https://www.reddit.com/r/LangChain/comments/1hgkbt5/need_help_with_recovering_conversations_from/) , 2024-12-18-0913
+```
+So I tried out the MongoDB checkpointer implementation from [here](https://langchain-ai.github.io/langgraph/how-tos/pers
+istence_mongodb/), and while it does work great out of the box for storing graph state, I am running into some problems 
+when trying to use it as a conversation store. Apparently, every time the state of the graph changes, a new checkpoint i
+s written to the database  which contains all the messages in all the previous checkpoints, which I assume is implemente
+d this way in order to enable time travelling. My question is first of all, is there a way to disable this or tune it in
+ a way such that I store one document per conversation (thread\_id) in my db, which keeps updating instead of writing a 
+new checkpoint every time. ( I assuming there is no way to do this currently, just want to know why  ) Secondly, is usin
+g persistent DB checkpointers event a good way to store conversations? Or do people generally implement their own stores
+? Let us say I wish to store multiple conversations and want to pull a single a conversation by given thread\_id. Someth
+ing like storing the `created_at` attribute in the metadata, then sorting in descending order and picking the first chec
+kpoint would work, but at this point I feel like I'm unnecessarily complicating stuff and should just go for a self made
+ conversation store, especially as my requirements will become more complex. 
+```
+---
+
+     
+ 
+all -  [ Does LangChain support Open AI Batch API? ](https://www.reddit.com/r/LangChain/comments/1hghach/does_langchain_support_open_ai_batch_api/) , 2024-12-18-0913
+```
+Hi,
+
+  
+I would like to utilize Open AI Batch API as it helps reduce the cost by 50%. I have been using Open AI through 
+LangChain and I have been trying to find some information on how to incorporate the Open AI's Batch API but I found no h
+elpful information on it. Does LangChain even support Batch API?
+```
+---
+
+     
+ 
+all -  [ Random Human messages and response ](https://www.reddit.com/r/LangChain/comments/1hgamfk/random_human_messages_and_response/) , 2024-12-18-0913
+```
+While printing result. Some random sentence gets print. Then needed response is printed and than again a random conversi
+on gets print.Why is it happening.
+
+Version of packages:  
+langchain-core:0.3.25  
+langchain-huggingface: 0.1.2
+
+https:/
+/preview.redd.it/sgm8d0b4ue7e1.png?width=1680&format=png&auto=webp&s=d871ee6e0357afbd78fa3bddea3221038743f246
+
+
+```
+---
+
+     
+ 
+all -  [ Persisting Chat History in LangChain JS ](https://www.reddit.com/r/LangChain/comments/1hgahty/persisting_chat_history_in_langchain_js/) , 2024-12-18-0913
+```
+I've read the docs for LangChain (JS) on how to use LangGraph and checkpointSaver etc to persist chat history. It all se
+ems super complicated and unnecessary to me.
+
+If I persist my own messages and use trim messages doesn't it accomplish t
+he g\`oal of chat history?
+
+`const llm = new ChatOpenAI({ model: 'gpt-4o' });`
+
+`// GET THESE MESSAGES FROM DATABASE`  
+
+`const messages = [`  
+`new SystemMessage('you're a good assistant, you always respond with a joke.'),`  
+`new HumanMess
+age('i wonder why it's called langchain'),`  
+`new AIMessage(`  
+`'Well, I guess they thought 'WordRope' and 'SentenceSt
+ring' just didn\'t have the same ring to it!'`  
+`),`  
+`new HumanMessage('and who is harrison chasing anyways'),`  
+`ne
+w AIMessage(`  
+`'Hmmm let me think.\n\nWhy, he's probably chasing after the last cup of coffee in the office!'`  
+`),` 
+ 
+`new HumanMessage('what do you call a speechless parrot'),`  
+`];`
+
+`// TRIM MESSAGES`  
+`const trimmed = await trimMe
+ssages(messages, {`  
+`maxTokens: 45,`  
+`strategy: 'last',`  
+`tokenCounter: llm,`  
+`});`
+
+`const chain = trimmed.pipe
+(llm);`  
+`// INVOKE LLM WITH CHAT HISTORY. MUCH EASIER!`  
+`await chain.invoke(messages);`
+```
+---
+
+     
+ 
+all -  [ Forcing LLM function call not yet available using langchain4j ](https://www.reddit.com/r/LangChain/comments/1hg5lqh/forcing_llm_function_call_not_yet_available_using/) , 2024-12-18-0913
+```
+Hi all. Am I right that forcing of LLM function call using langchain4j library (Java) is not yet supported? Seems so but
+ just want to confirm.
+```
+---
+
+     
+ 
+all -  [ LangGraph with React Agent & Azure GPT-4o: Parallel Tool Call Delay Issue in Traces ](https://www.reddit.com/r/LangChain/comments/1hfzr38/langgraph_with_react_agent_azure_gpt4o_parallel/) , 2024-12-18-0913
+```
+Hi everyone,
+
+I am using a React agent with LangGraph to orchestrate function calls to Azure OpenAI GPT-4o. My workflow 
+involves the following:
+
+1. Extract 30 questions from one tool.
+2. Use a RAG tool to retrieve answers.
+
+Since `parallel 
+tool call = true`, the RAG tool hits all the questions in parallel. However, when I check the traces, I observe an unexp
+ected pattern:
+
+* It processes the first 10-12 calls, then pauses briefly.
+* After the gap, it processes the next 10-12 
+calls.
+
+I don’t see any set limits on the function or parameters for the number of parallel calls. I’ve attached an imag
+e of the trace for clarity. Does anyone have an idea why this might be happening? Could it be an internal limitation or 
+bottleneck somewhere?
+
+  
+Here’s the trace image for reference:  
+
+
+https://preview.redd.it/95y456cvdb7e1.png?width=1863
+&format=png&auto=webp&s=6e9cc7a6b03ea64a1cc0c0057074a61e7ec7a36c
+
+Any help or insights would be greatly appreciated.
+
+
+```
+---
+
+     
+ 
+all -  [ Build a Production Level RAG System with LangGraph ](https://www.reddit.com/r/LangChain/comments/1hfyzbx/build_a_production_level_rag_system_with_langgraph/) , 2024-12-18-0913
+```
+Hello,
+
+I recently open sourced a RAG application I built with LangGraph for a production application and I published th
+e detail + the code in three articles on medium.com.
+
+Part 1: [https://medium.com/@h1rouhani/build-production-ready-ai-a
+ssistant-backend-service-in-python-part-1-9c7b2910eea3](https://medium.com/@h1rouhani/build-production-ready-ai-assistan
+t-backend-service-in-python-part-1-9c7b2910eea3)
+
+Part 2: [https://medium.com/@h1rouhani/build-production-ready-ai-assis
+tant-backend-service-in-python-part-2-a8d31f0c2dc3](https://medium.com/@h1rouhani/build-production-ready-ai-assistant-ba
+ckend-service-in-python-part-2-a8d31f0c2dc3)
+
+Part 3: [https://medium.com/@h1rouhani/build-production-ready-ai-assistant
+-backend-service-in-python-part-3-093ba216918e](https://medium.com/@h1rouhani/build-production-ready-ai-assistant-backen
+d-service-in-python-part-3-093ba216918e)
+```
+---
+
+     
+ 
+all -  [ Llama 3.1 8B struggles with tool calls ](https://www.reddit.com/r/LocalLLaMA/comments/1hfxepg/llama_31_8b_struggles_with_tool_calls/) , 2024-12-18-0913
 ```
 Hello,
 
@@ -19,7 +246,7 @@ Thanks in advance!
 
      
  
-all -  [ Llama 3.1 8B model struggles when calling tools ](https://www.reddit.com/r/LangChain/comments/1hfxay2/llama_31_8b_model_struggles_when_calling_tools/) , 2024-12-17-0914
+all -  [ Llama 3.1 8B model struggles when calling tools ](https://www.reddit.com/r/LangChain/comments/1hfxay2/llama_31_8b_model_struggles_when_calling_tools/) , 2024-12-18-0913
 ```
 Hello,
 
@@ -39,7 +266,7 @@ Thanks in advance!
 
      
  
-all -  [ LLM reliability: getting users to trust your AI agent  ](https://www.anti-vc.com/p/getting-users-to-trust-your-ai-agent?utm_campaign=post&showWelcomeOnShare=false) , 2024-12-17-0914
+all -  [ LLM reliability: getting users to trust your AI agent  ](https://www.anti-vc.com/p/getting-users-to-trust-your-ai-agent?utm_campaign=post&showWelcomeOnShare=false) , 2024-12-18-0913
 ```
 Does anyone have lessons they’d like to share? I collected how startups use LangGraph and LangSmith to deploy Agentic RA
 G. 
@@ -48,7 +275,7 @@ G.
 
      
  
-all -  [ Build (Fast)Agents with FastAPIs ](https://i.redd.it/6hgi2hy5897e1.jpeg) , 2024-12-17-0914
+all -  [ Build (Fast)Agents with FastAPIs ](https://i.redd.it/6hgi2hy5897e1.jpeg) , 2024-12-18-0913
 ```
 Okay so our definition of agent == prompt + LLM + APIs/tools. 
 
@@ -63,7 +290,7 @@ Disclaimer
 
      
  
-all -  [ tags option of XMLOutputParser? ](https://www.reddit.com/r/LangChain/comments/1hfoipj/tags_option_of_xmloutputparser/) , 2024-12-17-0914
+all -  [ tags option of XMLOutputParser? ](https://www.reddit.com/r/LangChain/comments/1hfoipj/tags_option_of_xmloutputparser/) , 2024-12-18-0913
 ```
 Hey folks, the tags option of XMLOutputParser is not documented, what is it supposed to do ? I was expecting it to limit
  the available tags however it doesn't seem to have any effect.
@@ -78,7 +305,7 @@ tml#langchain_core.output_parsers.xml.XMLOutputParser.tags)
 
      
  
-all -  [ Querying Tables ](https://www.reddit.com/r/LangChain/comments/1hflxz6/querying_tables/) , 2024-12-17-0914
+all -  [ Querying Tables ](https://www.reddit.com/r/LangChain/comments/1hflxz6/querying_tables/) , 2024-12-18-0913
 ```
 Hi,
 
@@ -101,7 +328,7 @@ Thank you in advance.
 
      
  
-all -  [ Roast my beginner RAG project ](https://www.reddit.com/r/LangChain/comments/1hfliok/roast_my_beginner_rag_project/) , 2024-12-17-0914
+all -  [ Roast my beginner RAG project ](https://www.reddit.com/r/LangChain/comments/1hfliok/roast_my_beginner_rag_project/) , 2024-12-18-0913
 ```
 I made a rag chatbot that uses docling for parsing files, semantic double pass merging (best) for chunking, qdrant for v
 ector DB, gemini flash for chat. This includes hybrid search and Colbert for reranking. I made both local and cloud setu
@@ -117,7 +344,7 @@ https:/
 
      
  
-all -  [ Roast my beginner RAG project ](https://www.reddit.com/r/LLMDevs/comments/1hflhty/roast_my_beginner_rag_project/) , 2024-12-17-0914
+all -  [ Roast my beginner RAG project ](https://www.reddit.com/r/LLMDevs/comments/1hflhty/roast_my_beginner_rag_project/) , 2024-12-18-0913
 ```
 I made a rag chatbot that uses docling for parsing files, semantic double pass merging (best) for chunking, qdrant for v
 ector DB, gemini flash for chat. This includes hybrid search and Colbert for reranking. I made both local and cloud setu
@@ -133,7 +360,7 @@ https://github.com/Lokesh-Chimakurthi/Reliable_RAG
 
      
  
-all -  [ Anthropic'in çıkardığı Computer use ile ilgili bir teknoloji yaptık. ](https://www.reddit.com/r/CodingTR/comments/1hfkw8p/anthropicin_çıkardığı_computer_use_ile_ilgili_bir/) , 2024-12-17-0914
+all -  [ Anthropic'in çıkardığı Computer use ile ilgili bir teknoloji yaptık. ](https://www.reddit.com/r/CodingTR/comments/1hfkw8p/anthropicin_çıkardığı_computer_use_ile_ilgili_bir/) , 2024-12-18-0913
 ```
 Merhaba arkadaşlar,
 
@@ -169,7 +396,7 @@ flowlar yazarak çözmeye çalışıyoruz. Tavsiyeleriniz bizim için çok değe
 
      
  
-all -  [ Understanding Prompt Engineering ](https://open.substack.com/pub/diamantai/p/understanding-prompt-engineering?utm_source=share&utm_medium=android&r=336pe4) , 2024-12-17-0914
+all -  [ Understanding Prompt Engineering ](https://open.substack.com/pub/diamantai/p/understanding-prompt-engineering?utm_source=share&utm_medium=android&r=336pe4) , 2024-12-18-0913
 ```
 Ever wondered why some prompts deliver great results while others fall flat? I put together this blog to break down what
 ’s happening behind the scenes and offer a practical way to understand how prompts guide language models.
@@ -192,7 +419,7 @@ er Results: Simple, reusable formats to guide models for tasks like coding, expl
 
      
  
-all -  [ Alternative to LangChain? ](https://www.reddit.com/r/LLMDevs/comments/1hfjfo6/alternative_to_langchain/) , 2024-12-17-0914
+all -  [ Alternative to LangChain? ](https://www.reddit.com/r/LLMDevs/comments/1hfjfo6/alternative_to_langchain/) , 2024-12-18-0913
 ```
 Hi, I am trying to compile an LLM application, I want to use features as in Langchain but Langchain documentation is ext
 remely poor. I am looking to find alternatives, to langchain.
@@ -205,7 +432,7 @@ ndustry?
 
      
  
-all -  [ The Top 14 Software Languages, Frameworks & Libraries Job Trends in 2024 ](https://www.reddit.com/r/cscareerquestions/comments/1hfi16b/the_top_14_software_languages_frameworks/) , 2024-12-17-0914
+all -  [ The Top 14 Software Languages, Frameworks & Libraries Job Trends in 2024 ](https://www.reddit.com/r/cscareerquestions/comments/1hfi16b/the_top_14_software_languages_frameworks/) , 2024-12-18-0913
 ```
 [https://mail.job.zip/p/the-job-zip-awards-2024-top-trends-in-ai-databases-software#the-top-14-software-languages-frame]
 (https://mail.job.zip/p/the-job-zip-awards-2024-top-trends-in-ai-databases-software#the-top-14-software-languages-frame)
@@ -354,15 +581,7 @@ s**
 
      
  
-all -  [ check my resume ](https://www.reddit.com/gallery/1hfhm12) , 2024-12-17-0914
-```
-
-```
----
-
-     
- 
-all -  [ Deploy RAG Chatbot on MS Teams ](https://www.reddit.com/r/LangChain/comments/1hfghrj/deploy_rag_chatbot_on_ms_teams/) , 2024-12-17-0914
+all -  [ Deploy RAG Chatbot on MS Teams ](https://www.reddit.com/r/LangChain/comments/1hfghrj/deploy_rag_chatbot_on_ms_teams/) , 2024-12-18-0913
 ```
 Hey,
 
@@ -376,7 +595,7 @@ s.
 
      
  
-all -  [ How to Create and Integrate a Separate LangChain Package? Need Guidance! ](https://www.reddit.com/r/LangChain/comments/1hfevq4/how_to_create_and_integrate_a_separate_langchain/) , 2024-12-17-0914
+all -  [ How to Create and Integrate a Separate LangChain Package? Need Guidance! ](https://www.reddit.com/r/LangChain/comments/1hfevq4/how_to_create_and_integrate_a_separate_langchain/) , 2024-12-18-0913
 ```
 Hi everyone!
 
@@ -408,7 +627,7 @@ s to LangChain or has gone through this process before, I’d love to hear your 
 
      
  
-all -  [ How can I use langgraph studio on windows [like a poor with out mac] ](https://www.reddit.com/r/LangChain/comments/1hfcu3s/how_can_i_use_langgraph_studio_on_windows_like_a/) , 2024-12-17-0914
+all -  [ How can I use langgraph studio on windows [like a poor with out mac] ](https://www.reddit.com/r/LangChain/comments/1hfcu3s/how_can_i_use_langgraph_studio_on_windows_like_a/) , 2024-12-18-0913
 ```
 I have agents built using langgraph. And I saw that l langgraph studio is only supported on Mac os. But they have the lo
 cal host what ever method for the poors.
@@ -420,7 +639,7 @@ ents please and thanks
 
      
  
-all -  [ Is there a way or plugin to connect to the ChatGPT browser interface? ](https://www.reddit.com/r/LangChain/comments/1hfcrq5/is_there_a_way_or_plugin_to_connect_to_the/) , 2024-12-17-0914
+all -  [ Is there a way or plugin to connect to the ChatGPT browser interface? ](https://www.reddit.com/r/LangChain/comments/1hfcrq5/is_there_a_way_or_plugin_to_connect_to_the/) , 2024-12-18-0913
 ```
 Hello everyone,  
 I’ve recently started using LangChain, and I think it’s fantastic! However, for a small test I’m worki
@@ -436,7 +655,7 @@ Thanks in advance for any insights or suggestions!
 
      
  
-all -  [ Seeking Architectures for Building Agents ](https://www.reddit.com/r/LangChain/comments/1hfb4o8/seeking_architectures_for_building_agents/) , 2024-12-17-0914
+all -  [ Seeking Architectures for Building Agents ](https://www.reddit.com/r/LangChain/comments/1hfb4o8/seeking_architectures_for_building_agents/) , 2024-12-18-0913
 ```
 Hello everyone,
 
@@ -455,7 +674,7 @@ Thank you!
 
      
  
-all -  [ Youtube Video content fact checker app ](https://www.reddit.com/r/LangChain/comments/1hfaqsj/youtube_video_content_fact_checker_app/) , 2024-12-17-0914
+all -  [ Youtube Video content fact checker app ](https://www.reddit.com/r/LangChain/comments/1hfaqsj/youtube_video_content_fact_checker_app/) , 2024-12-18-0913
 ```
 Hey falks, I am given a task to make an app that gets an input (query) from user and returns list of youtube videos (5 o
 r 10). The returned list of videos are ordered accoridng to their similarity of title and the content of the video. Vide
@@ -476,7 +695,7 @@ If there are anybody with such project experience or those who are expert, pleas
 
      
  
-all -  [ Is LangChain the leading agentic framework? Should the begginer developers use LangChain or somethin ](https://www.reddit.com/r/AI_Agents/comments/1hf5dmq/is_langchain_the_leading_agentic_framework_should/) , 2024-12-17-0914
+all -  [ Is LangChain the leading agentic framework? Should the begginer developers use LangChain or somethin ](https://www.reddit.com/r/AI_Agents/comments/1hf5dmq/is_langchain_the_leading_agentic_framework_should/) , 2024-12-18-0913
 ```
 I want to learn to agentic frameworks but not sure where to start. Any tips?
 ```
@@ -484,7 +703,7 @@ I want to learn to agentic frameworks but not sure where to start. Any tips?
 
      
  
-all -  [ Test your AI apps with MockAI (Open-Source) ](https://www.reddit.com/r/LangChain/comments/1hf41kv/test_your_ai_apps_with_mockai_opensource/) , 2024-12-17-0914
+all -  [ Test your AI apps with MockAI (Open-Source) ](https://www.reddit.com/r/LangChain/comments/1hf41kv/test_your_ai_apps_with_mockai_opensource/) , 2024-12-18-0913
 ```
 As I began productionizing applications as an AI engineer, I needed a tool that would allow me to run tests, CI/CD pipel
 ines, and benchmarks on my code that relied on LLMs. As you know once leaving demo-land these become EXTREMELY important
@@ -612,7 +831,7 @@ nk it's useful, please leave a star on the [repo](https://github.com/ajac-zero/
 
      
  
-all -  [ Test your AI apps with MockAI (Open-Source) ](https://www.reddit.com/r/LLMDevs/comments/1hf3xga/test_your_ai_apps_with_mockai_opensource/) , 2024-12-17-0914
+all -  [ Test your AI apps with MockAI (Open-Source) ](https://www.reddit.com/r/LLMDevs/comments/1hf3xga/test_your_ai_apps_with_mockai_opensource/) , 2024-12-18-0913
 ```
 As I began productionizing applications as an AI engineer, I needed a tool that would allow me to run tests, CI/CD pipel
 ines, and benchmarks on my code that relied on LLMs. As you know once leaving demo-land these become EXTREMELY important
@@ -740,7 +959,7 @@ nk it's useful, please leave a star on the [repo](https://github.com/ajac-zero/m
 
      
  
-all -  [ Why is nobody talking about recursive task decomposition. ](https://www.reddit.com/r/LangChain/comments/1hf1ang/why_is_nobody_talking_about_recursive_task/) , 2024-12-17-0914
+all -  [ Why is nobody talking about recursive task decomposition. ](https://www.reddit.com/r/LangChain/comments/1hf1ang/why_is_nobody_talking_about_recursive_task/) , 2024-12-18-0913
 ```
 Im researching the possibilities of integrating LLMs for pentesting. I researched many architecture and the one that con
 viced me the most is recursive task decomposition. It is the most convincing architecture to me, yet nobody is talking a
@@ -757,7 +976,7 @@ Does anybody have an opinion on this?
 
      
  
-all -  [ New to Coding Help - LangChain chat bot - stuck for 3 days ](https://www.reddit.com/r/LangChain/comments/1hey2bo/new_to_coding_help_langchain_chat_bot_stuck_for_3/) , 2024-12-17-0914
+all -  [ New to Coding Help - LangChain chat bot - stuck for 3 days ](https://www.reddit.com/r/LangChain/comments/1hey2bo/new_to_coding_help_langchain_chat_bot_stuck_for_3/) , 2024-12-18-0913
 ```
 Hi guys, i thought of something I wanted to build a couple weeks ago so ive been learning to code and heavily relying on
  cursor. everything has been going fine until now. I have the code for a functional langchain chat bot. i know its funct
@@ -774,7 +993,7 @@ to anyone that ends up trying to help, thank you 🙏
 
      
  
-all -  [ Which vision model do you use for embeddings for vision rag? ](https://www.reddit.com/r/LangChain/comments/1hethzo/which_vision_model_do_you_use_for_embeddings_for/) , 2024-12-17-0914
+all -  [ Which vision model do you use for embeddings for vision rag? ](https://www.reddit.com/r/LangChain/comments/1hethzo/which_vision_model_do_you_use_for_embeddings_for/) , 2024-12-18-0913
 ```
 Which model do you all use for vision embeddings other than colpali based or is it the best? Would like to know both fre
 e and paid ways
@@ -783,7 +1002,7 @@ e and paid ways
 
      
  
-all -  [ [For Hire] Skilled Full Stack Developer, AI/ML Expert, and DevOps Pro – Let’s Build Your Next Game-C ](https://www.reddit.com/r/forhire/comments/1hesz9z/for_hire_skilled_full_stack_developer_aiml_expert/) , 2024-12-17-0914
+all -  [ [For Hire] Skilled Full Stack Developer, AI/ML Expert, and DevOps Pro – Let’s Build Your Next Game-C ](https://www.reddit.com/r/forhire/comments/1hesz9z/for_hire_skilled_full_stack_developer_aiml_expert/) , 2024-12-18-0913
 ```
 🚀 **Full Stack Developer | AI/ML Engineer | DevOps Specialist – Open for Hire!**
 
@@ -835,7 +1054,7 @@ Let’s collaborate and turn your ideas into reality! 🌟
 
      
  
-all -  [ What is your python stack? ](https://www.reddit.com/r/ExperiencedDevs/comments/1hes05o/what_is_your_python_stack/) , 2024-12-17-0914
+all -  [ What is your python stack? ](https://www.reddit.com/r/ExperiencedDevs/comments/1hes05o/what_is_your_python_stack/) , 2024-12-18-0913
 ```
 Many of the libraries, concepts and design patterns have been understood by me in practice. when entering a new project,
  or when I am faced with a problem for my existing stack, I tend to search the web for 'how do I do X' or ask colleagues
@@ -897,7 +1116,7 @@ This stack has allowed me to make apps that people pay money for, which is neat.
 
      
  
-all -  [ Need help with selecting a good LLM ](https://www.reddit.com/r/LLMDevs/comments/1hepy6n/need_help_with_selecting_a_good_llm/) , 2024-12-17-0914
+all -  [ Need help with selecting a good LLM ](https://www.reddit.com/r/LLMDevs/comments/1hepy6n/need_help_with_selecting_a_good_llm/) , 2024-12-18-0913
 ```
 Hello, I'm making a project where every user has 10k input tokens and 400 output tokens worth of interaction at least 20
 0 times a month. The project is for general use(Like general knowledge question,  or generating mathematical questions).
@@ -911,7 +1130,7 @@ ly helpful if it supports Langchain
 
      
  
-all -  [ RAG on excel files ](https://www.reddit.com/r/LangChain/comments/1hen4ds/rag_on_excel_files/) , 2024-12-17-0914
+all -  [ RAG on excel files ](https://www.reddit.com/r/LangChain/comments/1hen4ds/rag_on_excel_files/) , 2024-12-18-0913
 ```
 Hey guys I’m currently tasked with working on rag for several excel files and I was wondering if someone has done someth
 ing similar in production already. I’ve seen PandasAI but not sure if I should go for it or if theres a better alternati
@@ -924,7 +1143,7 @@ ce
 
      
  
-all -  [ struggling to understand the langgraph tutorial (build a basic chatbot) ](https://www.reddit.com/r/LangChain/comments/1heg7pi/struggling_to_understand_the_langgraph_tutorial/) , 2024-12-17-0914
+all -  [ struggling to understand the langgraph tutorial (build a basic chatbot) ](https://www.reddit.com/r/LangChain/comments/1heg7pi/struggling_to_understand_the_langgraph_tutorial/) , 2024-12-18-0913
 ```
 link: [https://langchain-ai.github.io/langgraph/tutorials/introduction/#part-1-build-a-basic-chatbot](https://langchain-
 ai.github.io/langgraph/tutorials/introduction/#part-1-build-a-basic-chatbot)
@@ -980,7 +1199,7 @@ How does the execution logic  get triggered?
 
      
  
-all -  [ Do we have anything to replicate livekit agents voice capabilities with langgraph? ](https://www.reddit.com/r/LangChain/comments/1heed8a/do_we_have_anything_to_replicate_livekit_agents/) , 2024-12-17-0914
+all -  [ Do we have anything to replicate livekit agents voice capabilities with langgraph? ](https://www.reddit.com/r/LangChain/comments/1heed8a/do_we_have_anything_to_replicate_livekit_agents/) , 2024-12-18-0913
 ```
 I am working on a voice agent that needs to have as low latency as possible with the speech-text-speech pipeline. (I am 
 not going for multimodal realtime apis like the one of openai and recently released gemini 2.0 flash because they are co
@@ -1006,7 +1225,7 @@ I wanted to ask for any suggestions on how to go about this problem. Thanks.
 
      
  
-all -  [ Is this Langgraph chatbot worth it? ROAST ME ](https://www.reddit.com/r/LangChain/comments/1hee7f1/is_this_langgraph_chatbot_worth_it_roast_me/) , 2024-12-17-0914
+all -  [ Is this Langgraph chatbot worth it? ROAST ME ](https://www.reddit.com/r/LangChain/comments/1hee7f1/is_this_langgraph_chatbot_worth_it_roast_me/) , 2024-12-18-0913
 ```
 Hi everybody,
 
@@ -1028,7 +1247,7 @@ Thanks!
 
      
  
-all -  [ I've built an MVP to level up your LangChain and AI skills - looking for feedback 🚀 ](https://www.reddit.com/r/LangChain/comments/1he8wiv/ive_built_an_mvp_to_level_up_your_langchain_and/) , 2024-12-17-0914
+all -  [ I've built an MVP to level up your LangChain and AI skills - looking for feedback 🚀 ](https://www.reddit.com/r/LangChain/comments/1he8wiv/ive_built_an_mvp_to_level_up_your_langchain_and/) , 2024-12-18-0913
 ```
 Hello LangChain and AI experts,
 
@@ -1077,7 +1296,7 @@ r messaging me.
 
      
  
-all -  [ Langchain Integration ](https://www.reddit.com/r/AIlice/comments/1he4oby/langchain_integration/) , 2024-12-17-0914
+all -  [ Langchain Integration ](https://www.reddit.com/r/AIlice/comments/1he4oby/langchain_integration/) , 2024-12-18-0913
 ```
 Love the project, separately have been exploring RAG set ups through langchain and wondering if people know any approach
 es that can be used to integrate Allice with that efficiently? 
@@ -1086,7 +1305,7 @@ es that can be used to integrate Allice with that efficiently?
 
      
  
-all -  [ How to make SqlAgent to query NoSQL for answers? ](https://www.reddit.com/r/learnmachinelearning/comments/1he3ebg/how_to_make_sqlagent_to_query_nosql_for_answers/) , 2024-12-17-0914
+all -  [ How to make SqlAgent to query NoSQL for answers? ](https://www.reddit.com/r/learnmachinelearning/comments/1he3ebg/how_to_make_sqlagent_to_query_nosql_for_answers/) , 2024-12-18-0913
 ```
 I am new to ML.
 
@@ -1097,7 +1316,7 @@ LangChain has that with relational databases. How to make it work with NoSQL dat
      
  
 all -  [ I am sharing ChatGPT & AI courses and projects on YouTube
- ](https://www.reddit.com/r/ChatGPT/comments/1hdyje8/i_am_sharing_chatgpt_ai_courses_and_projects_on/) , 2024-12-17-0914
+ ](https://www.reddit.com/r/ChatGPT/comments/1hdyje8/i_am_sharing_chatgpt_ai_courses_and_projects_on/) , 2024-12-18-0913
 ```
 Hello, I wanted to share that I am sharing free courses and projects on my YouTube Channel. I have more than 200 videos 
 and I created playlists for learning Data Science. I am leaving the playlist link below, have a great day!
@@ -1110,855 +1329,7 @@ N](https://youtube.com/playlist?list=PLTsu3dft3CWhAAPowINZa5cMZ5elpfrxW&si=Dvsef
 
      
  
-all -  [ Frustrated. Should I change my career? ](https://www.reddit.com/r/technepal/comments/1hdwai2/frustrated_should_i_change_my_career/) , 2024-12-17-0914
-```
-Few years ago I started with Python. Until now I have learned almost eveything I felt required SQL, Pandas, Numpy, Matpl
-otlib, Langchain, AWS, Fastapi, Tensorflow and many more. Still I am not even getting  glimpse of finding a job. Thought
- I could get into AI, ML, Data Science of not at least Data Analytics. I have contacted every person. Most of them tell 
-that it's difficult to find internship in these fields. Without internship, how could I even start my professional life.
- Companies open vacancies for seniors. 
-
-  At current, I am studying CSIT sixth sem. Most of you may think that it's too
- early. But what if I don't get job even after graduation. My college is useless. I don't even rely on it. Just thinking
- if it is better to go in web development with python or some other areas. If not, the last option that resorts is quick
-ly head off to abroad. I see nothing to stay here.
-```
----
-
-     
- 
-all -  [ Made a simple processor for building systems like Anthropic's artifacts/v0.dev ](https://www.reddit.com/r/LangChain/comments/1hdufsv/made_a_simple_processor_for_building_systems_like/) , 2024-12-17-0914
-```
-Built this small tag processor after wanting to quickly prototype systems similar to Anthropic's artifacts or v0.dev. No
-t trying to recreate them, just wanted something lightweight that lets you quickly build and experiment with similar ide
-as.
-
-Basic example:
-
-    typescriptCopyconst processor = new FluffyTagProcessor();
-    
-    // Handle regular conversati
-on
-    processor.setUntaggedContentHandler(content => {
-        console.log(content); 
-    // Normal conversation flows
-
-    });
-    
-    // Handle artifacts/special blocks
-    processor.registerHandler('artifact', {
-        handler: (attrs,
- content) => {
-            createArtifact(attrs.type, content);
-        }
-    });
-
-Works with streaming APIs out of the 
-box, so you can build interactive systems that update in real-time. About 4KB, no dependencies.
-
-Mainly sharing in case 
-others want to experiment with similar systems. TypeScript and Python versions: [github repo](https://github.com/m-ahmed
--elbeskeri/FluffyTagProcessor/tree/main?tab=readme-ov-file)
-```
----
-
-     
- 
-all -  [ [Student] Non-Target CS Student looking for Summer 2025 Internships ](https://www.reddit.com/r/EngineeringResumes/comments/1hdpaec/student_nontarget_cs_student_looking_for_summer/) , 2024-12-17-0914
-```
-[I am having little luck with applying to Summer 2025 internships related to software engineering, and I've currently ap
-plied to around 400 places. I know the market is pretty bad right now, but just wanted to make sure my resume was optima
-l for getting me interviews, cause right now I have gotten mostly nothing from online applications \(Had an interview fr
-om my school's career fair\). Any advice would be greatly appreciated.](https://preview.redd.it/qnc9d2sc7p6e1.png?width=
-5100&format=png&auto=webp&s=68f0c23f6576eb216c1f4c5fdc6190e2aa9dba60)
-
-
-```
----
-
-     
- 
-all -  [ Modularizing AI workflows in production ](https://www.reddit.com/r/LangChain/comments/1hdm37i/modularizing_ai_workflows_in_production/) , 2024-12-17-0914
-```
-Wanted to share some challenges and solutions we discovered while working with complex prompt chains in production. We s
-tarted hitting some pain points as our prompt chains grew more sophisticated:
-
-* Keeping track of prompt versions across
- different chain configurations became a nightmare
-* Testing different prompt variations meant lots of manual copying an
-d pasting. Especially when tracking the performances.
-* Deploying updated chains to production was tedious and error-pro
-ne. Environment variables was fine at first until the list of prompts start to grow.
-* Collaborating on prompt engineeri
-ng with the team led to version conflicts.
-   * We started with code verisoning it, but it was hard to loop in other sta
-keholders (ex: product managers, domain experts) to do code reviews on GitHub. Notion doesn’t have a good versioning sys
-tem built-in so everyone was kind of afraid to overwrite the other person’s work and ended up putting a lot of comments 
-all over the place.
-
-We ended up building a simple UI-based solution that helps us:
-
-1. Visualize the entire prompt chai
-n flow
-2. Track different versions of the workflow and make them replayable.
-3. Deploy the workflows as separate service
- endpoints in order to manage them programmatically in code
-
-The biggest learning was that treating chained prompts like
- we treat workflows (with proper versioning and replayability) made a huge difference in our development speed.
-
-Here’s 
-a high-level diagram of how we modularize AI workflows from the rest of the services
-
-https://preview.redd.it/4cwpce4uio
-6e1.png?width=1612&format=png&auto=webp&s=a290f010d8605bec3e1825603e87665366e802c2
-
-We’ve made our tool available at [ww
-w.bighummingbird.com](http://www.bighummingbird.com/) if anyone wants to try it, but I’m also curious to hear how others
- are handling these challenges? :)
-```
----
-
-     
- 
-all -  [ Avoid sending messages at the same time ](https://www.reddit.com/r/LangChain/comments/1hdlx5e/avoid_sending_messages_at_the_same_time/) , 2024-12-17-0914
-```
-Hi,  
-I have a graph on langgraph wrapped around a FastAPI project.  
-I want to avoid sending two messages at the same t
-ime to the same chat\_id through the API.  
-Is there any way I can know when a thread is processing a message before sen
-ding a new one?  
-Thanks in advance!
-```
----
-
-     
- 
-all -  [ why my agent is not calling the tools  help me to fix this .. ](https://www.reddit.com/r/node/comments/1hdllox/why_my_agent_is_not_calling_the_tools_help_me_to/) , 2024-12-17-0914
-```
-mport dotenv from 'dotenv';  
-dotenv.config();  
-import { tool } from '@langchain/core/tools';  
-import { z } from 'zod'
-;  
-import { ChatGoogleGenerativeAI } from '@langchain/google-genai';  
-import { ChatPromptTemplate } from '@langchain/c
-ore/prompts';  
-import { AgentExecutor, createToolCallingAgent } from 'langchain/agents';  
-import { TavilySearchResults
- } from '@langchain/community/tools/tavily\_search';
-
-const llm = new ChatGoogleGenerativeAI({  
-apiKey: process.env.GEM
-INI,  
-model: 'gemini-1.5-flash',  
-});
-
-const search = new TavilySearchResults({  
-apiKey: process.env.TAVILY,  
-maxRes
-ults: 2,  
-});
-
-*// Improved magicTool: Now actually uses the input*  
-const magicTool = tool(  
-async (input) => {  
-*/
-/Simulate fetching company name - replace this with actual API call if needed.*
-
-return 'The company name is Acme Corpor
-ation.';  
-},  
-{  
-name: 'business\_info',  
-description:  
-'This tool provides business information like name, locatio
-n, etc. Ask specific questions.',  
-}  
-);
-
-const tools = \[magicTool\];
-
-const prompt = ChatPromptTemplate.fromMessages
-(\[  
-\[  
-'system',  
-'You are a helpful assistant that answers the following questions as best you can. You have acces
-s to the following tools:',  
-\],  
-\['placeholder', '{chat\_history}'\],  
-\['human', '{input}'\],  
-\['placeholder', '
-{agent\_scratchpad}'\],  
-\]);
-
-const agent = createToolCallingAgent({  
-llm,  
-tools,  
-prompt,  
-});
-
-const agentexe =
- new AgentExecutor({  
-agent,  
-tools,  
-verbose: true,  
-});
-
-const res = await agentexe.invoke({ input: 'what is the c
-ompany name?' });  
-console.log(res);
-```
----
-
-     
- 
-all -  [ why my agent is not calling the tools please help me to fix this  .. ](https://www.reddit.com/r/LangChain/comments/1hdksj8/why_my_agent_is_not_calling_the_tools_please_help/) , 2024-12-17-0914
-```
-import dotenv from 'dotenv';  
-dotenv.config();  
-import { tool } from '@langchain/core/tools';  
-import { z } from 'zod
-';  
-import { ChatGoogleGenerativeAI } from '@langchain/google-genai';  
-import { ChatPromptTemplate } from '@langchain/
-core/prompts';  
-import { AgentExecutor, createToolCallingAgent } from 'langchain/agents';  
-import { TavilySearchResult
-s } from '@langchain/community/tools/tavily\_search';  
-  
-const llm = new ChatGoogleGenerativeAI({  
-  apiKey: process.
-env.GEMINI,  
-  model: 'gemini-1.5-flash',  
-});  
-  
-const search = new TavilySearchResults({  
-  apiKey: process.env.T
-AVILY,  
-  maxResults: 2,  
-});  
-  
-*// Improved magicTool:  Now actually uses the input*  
-const magicTool = tool(  
- 
- async (input) => {  
-*//Simulate fetching company name - replace this with actual API call if needed.*  
-  
-return 'The
- company name is Acme Corporation.';  
-  },  
-  {  
-name: 'business\_info',  
-description:  
-'This tool provides busines
-s information like name, location, etc.  Ask specific questions.',  
-  }  
-);  
-  
-const tools = \[magicTool\];  
-  
-con
-st prompt = ChatPromptTemplate.fromMessages(\[  
-  \[  
-'system',  
-'You are a helpful assistant that answers the follow
-ing questions as best you can. You have access to the following tools:',  
-  \],  
-  \['placeholder', '{chat\_history}'\
-],  
-  \['human', '{input}'\],  
-  \['placeholder', '{agent\_scratchpad}'\],  
-\]);  
-  
-const agent = createToolCalling
-Agent({  
-  llm,  
-  tools,  
-  prompt,  
-});  
-  
-const agentexe = new AgentExecutor({  
-  agent,  
-  tools,  
-  verbos
-e: true,  
-});  
-  
-const res = await agentexe.invoke({ input: 'what is the company name?' });  
-console.log(res);  
-  
-
-import dotenv from 'dotenv';  
-dotenv.config();  
-import { tool } from '@langchain/core/tools';  
-import { z } from 'zod
-';  
-import { ChatGoogleGenerativeAI } from '@langchain/google-genai';  
-import { ChatPromptTemplate } from '@langchain/
-core/prompts';  
-import { AgentExecutor, createToolCallingAgent } from 'langchain/agents';  
-import { TavilySearchResult
-s } from '@langchain/community/tools/tavily\_search';  
-  
-  
-const llm = new ChatGoogleGenerativeAI({  
-  apiKey: proce
-ss.env.GEMINI,  
-  model: 'gemini-1.5-flash',  
-});  
-  
-  
-const search = new TavilySearchResults({  
-  apiKey: process
-.env.TAVILY,  
-  maxResults: 2,  
-});  
-  
-  
-// Improved magicTool:  Now actually uses the input  
-const magicTool = to
-ol(  
-  async (input) => {  
-//Simulate fetching company name - replace this with actual API call if needed.  
-  
-  
-ret
-urn 'The company name is Acme Corporation.';  
-  },  
-  {  
-name: 'business\_info',  
-description:  
-'This tool provides
- business information like name, location, etc.  Ask specific questions.',  
-  }  
-);  
-  
-  
-const tools = \[magicTool\
-];  
-  
-  
-const prompt = ChatPromptTemplate.fromMessages(\[  
-  \[  
-'system',  
-'You are a helpful assistant that answ
-ers the following questions as best you can. You have access to the following tools:',  
-  \],  
-  \['placeholder', '{ch
-at\_history}'\],  
-  \['human', '{input}'\],  
-  \['placeholder', '{agent\_scratchpad}'\],  
-\]);  
-  
-  
-const agent = 
-createToolCallingAgent({  
-  llm,  
-  tools,  
-  prompt,  
-});  
-  
-{  
-  input: 'what is the company name?',  
-  output
-: 'I need more information to answer your question.  The available tools don't contain any information about a specific 
-company.  Can you provide more context or details?\\n'  
-}  
-const agentexe = new AgentExecutor({  
-  agent,  
-  tools, 
- 
-  verbose: true,  
-});  
-  
-  
-const res = await agentexe.invoke({ input: 'what is the company name?' });  
-console.lo
-g(res);  
-  
-the output is  ::   
- {  
-  input: 'what is the company name?',  
-  output: 'I need more information to ans
-wer your question.  The available tools don't contain any information about a specific company.  Can you provide more co
-ntext or details?\\n'  
-}
-```
----
-
-     
- 
-all -  [ why my agent is not calling the tools please help me to fix this  ,  ](https://www.reddit.com/r/Bard/comments/1hdkqi8/why_my_agent_is_not_calling_the_tools_please_help/) , 2024-12-17-0914
-```
-    import dotenv from 'dotenv';
-    dotenv.config();
-    import { tool } from '@langchain/core/tools';
-    import { z }
- from 'zod';
-    import { ChatGoogleGenerativeAI } from '@langchain/google-genai';
-    import { ChatPromptTemplate } fro
-m '@langchain/core/prompts';
-    import { AgentExecutor, createToolCallingAgent } from 'langchain/agents';
-    import { 
-TavilySearchResults } from '@langchain/community/tools/tavily_search';
-    
-    const llm = new ChatGoogleGenerativeAI({
-
-      apiKey: process.env.GEMINI,
-      model: 'gemini-1.5-flash',
-    });
-    
-    const search = new TavilySearchResu
-lts({
-      apiKey: process.env.TAVILY,
-      maxResults: 2,
-    });
-    
-    // Improved magicTool:  Now actually uses 
-the input
-    const magicTool = tool(
-      async (input) => {
-        
-    //Simulate fetching company name - replace t
-his with actual API call if needed.
-    
-        return 'The company name is Acme Corporation.';
-      },
-      {
-      
-  name: 'business_info',
-        description:
-          'This tool provides business information like name, location, et
-c.  Ask specific questions.',
-      }
-    );
-    
-    const tools = [magicTool];
-    
-    const prompt = ChatPromptTempl
-ate.fromMessages([
-      [
-        'system',
-        'You are a helpful assistant that answers the following questions a
-s best you can. You have access to the following tools:',
-      ],
-      ['placeholder', '{chat_history}'],
-      ['huma
-n', '{input}'],
-      ['placeholder', '{agent_scratchpad}'],
-    ]);
-    
-    const agent = createToolCallingAgent({
-   
-   llm,
-      tools,
-      prompt,
-    });
-    
-    const agentexe = new AgentExecutor({
-      agent,
-      tools,
-     
- verbose: true,
-    });
-    
-    const res = await agentexe.invoke({ input: 'what is the company name?' });
-    console.
-log(res);
-    
-    import dotenv from 'dotenv';
-    dotenv.config();
-    import { tool } from '@langchain/core/tools';
- 
-   import { z } from 'zod';
-    import { ChatGoogleGenerativeAI } from '@langchain/google-genai';
-    import { ChatPromp
-tTemplate } from '@langchain/core/prompts';
-    import { AgentExecutor, createToolCallingAgent } from 'langchain/agents'
-;
-    import { TavilySearchResults } from '@langchain/community/tools/tavily_search';
-    
-    
-    const llm = new Chat
-GoogleGenerativeAI({
-      apiKey: process.env.GEMINI,
-      model: 'gemini-1.5-flash',
-    });
-    
-    
-    const sear
-ch = new TavilySearchResults({
-      apiKey: process.env.TAVILY,
-      maxResults: 2,
-    });
-    
-    
-    // Improved 
-magicTool:  Now actually uses the input
-    const magicTool = tool(
-      async (input) => {
-        //Simulate fetching
- company name - replace this with actual API call if needed.
-    
-    
-        return 'The company name is Acme Corporat
-ion.';
-      },
-      {
-        name: 'business_info',
-        description:
-          'This tool provides business infor
-mation like name, location, etc.  Ask specific questions.',
-      }
-    );
-    
-    
-    const tools = [magicTool];
-    
-
-    
-    const prompt = ChatPromptTemplate.fromMessages([
-      [
-        'system',
-        'You are a helpful assistan
-t that answers the following questions as best you can. You have access to the following tools:',
-      ],
-      ['place
-holder', '{chat_history}'],
-      ['human', '{input}'],
-      ['placeholder', '{agent_scratchpad}'],
-    ]);
-    
-    
- 
-   const agent = createToolCallingAgent({
-      llm,
-      tools,
-      prompt,
-    });
-    
-    {
-      input: 'what is
- the company name?',
-      output: 'I need more information to answer your question.  The available tools don't contain 
-any information about a specific company.  Can you provide more context or details?\n'
-    }
-    const agentexe = new Ag
-entExecutor({
-      agent,
-      tools,
-      verbose: true,
-    });
-    
-    
-    const res = await agentexe.invoke({ i
-nput: 'what is the company name?' });
-    console.log(res);
-    
-    the output is  :: 
-     {
-      input: 'what is the
- company name?',
-      output: 'I need more information to answer your question.  The available tools don't contain any 
-information about a specific company.  Can you provide more context or details?\n'
-    }
-```
----
-
-     
- 
-all -  [ Advance Your Career: 100 Free Certified Courses on Udemy ](https://www.reddit.com/r/Udemy/comments/1hdjv70/advance_your_career_100_free_certified_courses_on/) , 2024-12-17-0914
-```
-Visualization techniques for Decision Makers and Leaders
-
-https://courze.org/visualization-techniques-for-decision-maker
-s-and-leaders/
-
-
-
-300+ JavaScript Interview Questions – Practice Tests
-
-https://courze.org/300-javascript-interview-ques
-tions-practice-tests/
-
-
-
-300+ Python Interview Questions – Practice Tests
-
-https://courze.org/300-python-interview-quest
-ions-practice-tests/
-
-
-
-Scrum Master Certification
-
-https://courze.org/scrum-master-certification-4/
-
-
-
-Business Analysi
-s
-
-https://courze.org/business-analysis/
-
-
-
-C Corporation Income Tax (Form 1120)
-
-https://courze.org/c-corporation-incom
-e-tax-form-1120/
-
-
-
-Zero to Hero in LangChain: Build GenAI apps using LangChain
-
-https://courze.org/zero-to-hero-in-lang
-chain-build-genai-apps-using-langchain/
-
-
-
-Blogger: Make A Professional Website For Free With No Coding
-
-https://courze.
-org/blogger-make-a-professional-website-for-free-with-no-coding/
-
-
-
-Solving LeetCode’s Top Interview Questions in Java \
-[2024\]
-
-https://courze.org/solving-leetcodes-top-interview-questions-in-java/
-
-
-
-4 Comprehensive Practice Tests for any
- Python Certification
-
-https://courze.org/4-comprehensive-practice-tests-for-any-python-certification/
-
-
-
-Excel Certific
-ation Exam Preparation: 4 Practice Tests 2024
-
-https://courze.org/excel-certification-exam-preparation-4-practice-tests-
-2024-3/
-
-
-
-4 MS Excel Certification Practice Test & Interview Question
-
-https://courze.org/4-ms-excel-certification-prac
-tice-test-interview-question/
-
-
-
-CHRO Chief Human Resources Officer Executive Certification
-
-https://courze.org/chro-chi
-ef-human-resources-officer-executive-certification/
-
-
-
-Prioritization Techniques for Decision Makers and Leaders
-
-https:
-//courze.org/prioritization-techniques-for-decision-makers-and-leaders/
-
-
-
-The Complete Matlab Course for Wireless Comm.
- Engineering
-
-https://courze.org/the-complete-matlab-course-for-wireless-comm-engineering/
-
-
-
-Currency Management for Sm
-all Businesses & Corporates
-
-https://courze.org/currency-management-for-small-businesses-corporates/
-
-
-
-Statistics & Exc
-el
-
-https://courze.org/statistics-excel/
-
-
-
-Prompt & AI Engineering Safety Professional Certification
-
-https://courze.or
-g/prompt-engineering-safety-ai-engineering-safety-expert/
-
-
-
-ChatGPT Prompt Engineering Guide: Make Money Using ChatGPT
-
-
-https://courze.org/chatgpt-prompt-engineering-guide-make-money-using-chatgpt/
-
-
-
-AI Course Creation Guide: Creating an 
-Online Course Using AI
-
-https://courze.org/ai-course-creation-guide-creating-an-online-course-using-ai/
-
-
-
-Advanced Skil
-l Test: Python Professional Level 1 (PCPP1™)
-
-https://courze.org/advanced-skill-test-python-professional-level-1-pcpp1-2
-/
-
-
-
-Advanced Skill Test: Python Professional Level 1 (PCPP1™)
-
-https://courze.org/advanced-skill-test-python-profession
-al-level-1-pcpp1-7/
-
-
-
-Advanced Skill Test: Python Professional Level 1 (PCPP1™)
-
-https://courze.org/advanced-skill-test
--python-professional-level-1-pcpp1-9/
-
-
-
-Advanced Skill Test: Python Professional Level 1 (PCPP1™)
-
-https://courze.org/a
-dvanced-skill-test-python-professional-level-1-pcpp1-10/
-
-
-
-Advanced Skill Test: Python Professional Level 1 (PCPP1™)
-
-h
-ttps://courze.org/advanced-skill-test-python-professional-level-1-pcpp1-12/
-
-
-
-Advanced Skill Test: Python Professional 
-Level 1 (PCPP1™)
-
-https://courze.org/advanced-skill-test-python-professional-level-1-pcpp1-15/
-
-
-
-7 steps to entrepreneu
-rship: A complete business plan (PRO)
-
-https://courze.org/7-steps-to-entrepreneurship-a-complete-business-plan-pro/
-
-
-
-A
-utoCAD 2D & Isometric | AutoCAD Civil & Architectural
-
-https://courze.org/autocad-2d-isometric-autocad-civil-architectur
-al/
-
-
-
-Microsoft Power BI for Beginners & Excel Users
-
-https://courze.org/microsoft-power-bi-for-beginners-excel-users/
-
-
-
-
-CMO Chief Marketing Officer Executive Certification
-
-https://courze.org/cmo-chief-marketing-officer-executive-certifi
-cation/
-
-
-
-Transform Your Life in 5 Days: I Challenge You to Fail
-
-https://courze.org/transform-your-life-in-5-days-i-ch
-allenge-you-to-fail/
-
-
-
-Mastering Power BI Report Design – Beginner to Advanced
-
-https://courze.org/mastering-power-bi-r
-eport-design-beginner-to-advanced/
-
-
-
-Practical Machine Learning for Data Scientists
-
-https://courze.org/practical-machi
-ne-learning-for-data-scientists/
-
-
-
-Generative AI: Learn about the next AI frontier
-
-https://courze.org/generative-ai-le
-arn-about-the-next-ai-frontier/
-
-
-
-Master LCD Interfacing with Arduino: From Basics to Projects
-
-https://courze.org/mast
-er-lcd-interfacing-with-arduino-from-basics-to-projects/
-
-
-
-Deployment of Machine Learning Models
-
-https://courze.org/de
-ployment-of-machine-learning-models/
-
-
-
-Reinforcement Learning
-
-https://courze.org/reinforcement-learning/
-
-
-
-Deep Learn
-ing for Computer Vision
-
-https://courze.org/deep-learning-for-computer-vision/
-
-
-
-Deep Learning for Natural Language Pro
-cessing
-
-https://courze.org/deep-learning-for-natural-language-processing/
-
-
-
-Oracle Java Certification Exam OCA 1Z0-808
- Preparation Part1
-
-https://courze.org/oracle-java-certification-exam-oca-1z0-808-preparation-part1/
-
-
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-17-0914
+MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-18-0913
 ```
   
 [https://github.com/dmayboroda/minima](https://github.com/dmayboroda/minima)  
