@@ -1,5 +1,445 @@
  
-all -  [ How do you handle Parsing Errors With Create_Pandas_Dataframe_Agent? ](https://www.reddit.com/r/LangChain/comments/1hk8nu2/how_do_you_handle_parsing_errors_with_create/) , 2024-12-23-0913
+all -  [ World's largest AI Agent directory. ](https://i.redd.it/dtg2z1u3tn8e1.png) , 2024-12-24-0913
+```
+Hey all!
+
+I've made the world's largest ai agent directory. 
+
+The agent market is so scrappy at the moment and very diff
+icult to find the right agent for the job. 
+
+Agent Locker makes it as easy as possible to filter agents by category, use
+ case, integration method and price and you can also specify agentic, ai tools and agent platforms. 
+
+There's over 1000 
+ai listings already and we're growing everyday. 
+
+https://www.agentlocker.ai 
+
+Hope you find it useful.
+```
+---
+
+     
+ 
+all -  [ [Student] I'm only getting interviews for ML/AI internships if I have a referral. What's wrong with  ](https://www.reddit.com/r/EngineeringResumes/comments/1hkwp6s/student_im_only_getting_interviews_for_mlai/) , 2024-12-24-0913
+```
+I am a computer engineering Master's student focusing on ML/AI (it's all I've done for around 3 years). I've been applyi
+ng to a lot of ML/AI internships (not FAANG), but I haven't been able to get an interview unless I have a referral. 
+
+Th
+e only reason I got my previous AI internship at Lennox, and my interview with Salesforce this time around, is because s
+omeone had to make a recruiter actually look at my resume. The only one I got on my own was JP Morgan last year, but I h
+ave been rejected without an interview or OA by hundreds of companies since then.
+
+I'm wondering what I'm doing wrong an
+d how to fix it. I'm not sure if I can't get an interview on my own because I don't have enough experience or if it's be
+cause my resume is bad. The weird thing is that whenever I have an interview the managers seem really interested in my e
+xperience and projects, but most of the time I'm not sure if the recruiters are even reading my resume.
+
+Any help would 
+be greatly appreciated, because this process has been very demoralizing, and even though my Salesforce interview went we
+ll I'm not sure if I'll get the position (and I don't have any backup because I can't get an interview).
+
+PS: The only o
+ther experience I can add to my resume for now is the Amazon AI safety challenge I'm working on with some professors in 
+my department, there should be a paper written about our work on this too. Not sure if adding that and taking out one of
+ my older projects would help.
+
+https://preview.redd.it/y2gsxnivrn8e1.jpg?width=5100&format=pjpg&auto=webp&s=457e415681e
+6673aece7af38b4a829769aa56384
+
+
+```
+---
+
+     
+ 
+all -  [ I'm only getting interviews if I have a referral. What's wrong with my resume/experience?  ](https://www.reddit.com/r/MLQuestions/comments/1hkwh7a/im_only_getting_interviews_if_i_have_a_referral/) , 2024-12-24-0913
+```
+I am a computer engineering Master's student focusing on ML/AI (it's all I've done for around 3 years). I've been applyi
+ng to a lot of ML/AI internships (not FAANG), but I haven't been able to get an interview unless I have a referral. The 
+only reason I got my previous AI internship at Lennox, and my interview with Salesforce this time around, is because som
+eone had to make a recruiter actually look at my resume. The only one I got on my own was JP Morgan last year, but I hav
+e been rejected without an interview or OA by hundreds of companies since then.
+
+I'm wondering what I'm doing wrong and 
+how to fix it. I'm not sure if I can't get an interview on my own because I don't have enough experience or if it's beca
+use my resume is bad.  The weird thing is that whenever I have an interview the managers seem really interested in my ex
+perience and projects, but most of the time I'm not sure if the recruiters are even reading my resume. 
+
+  
+Any help wou
+ld be greatly appreciated, because this process has been very demoralizing, and even though my Salesforce interview went
+ well I'm not sure if I'll get the position (and I don't have any backup because I can't get an interview). 
+
+
+
+PS: The 
+only other experience I can add to my resume for now is the Amazon AI safety challenge I'm working on with some professo
+rs in my department, there should be a paper written about our work on this too. Not sure if adding that and taking out 
+one of my older projects would help.
+
+https://preview.redd.it/fzbh56slpn8e1.png?width=1252&format=png&auto=webp&s=2161b4
+8716d798426ba78bf8a8c7c4e40e7d8ef5
+
+
+```
+---
+
+     
+ 
+all -  [ How to pick agents from LangChain Hub? ](https://www.reddit.com/r/LangChain/comments/1hkwb39/how_to_pick_agents_from_langchain_hub/) , 2024-12-24-0913
+```
+There are so many agents on LangChain Hub. How do I pick ones that would meet my needs? 
+
+I have tried this one,  hwchas
+e17/openai-functions-agent. But it seems  to support openai models better. I want to use an agent to work with tools and
+ then use LLM to yield answers. These tools will retrieve data from yfinance. Thanks.  
+
+```
+---
+
+     
+ 
+all -  [ Langgraph + Cursor ](https://www.reddit.com/r/LangChain/comments/1hkt13b/langgraph_cursor/) , 2024-12-24-0913
+```
+Has anyone a good workflow to create LG apps with cursor ai?
+
+```
+---
+
+     
+ 
+all -  [ Help me understand the potential career options for an SE in the wake of AI development ](https://www.reddit.com/r/learnmachinelearning/comments/1hkqvmn/help_me_understand_the_potential_career_options/) , 2024-12-24-0913
+```
+I'm an SE with 10 years of experience and no degree, and I'm acutely aware of the need to be adaptable with the given di
+rection of AI, but I'm struggling to understand the different possible paths to take.
+
+Assuming we don't hit a level of 
+AI which replaces *ALL* jobs yet, I figure the most useful path I can take is to strengthen high level SE skills, e.g. s
+ystem architecture and design, as well as being au fait with AI integrations, e.g. using libraries like Langchain to bui
+ld RAG systems, being able to use vector DBs etc.
+
+Once I've got those basics down, I want to transition diagonally into
+ a field that's at least somewhat robust to changes, e.g. ML engineer, MLops, etc. Other options I have wondered about a
+re things like robotics or cyber security, which are both fields I assume will become more necessary given the presumed 
+trajectory of AI. 
+
+I think ideally I'd go into an ML engineer/MLops role, assuming the day to day looks roughly like de
+veloping, finetuning, evaluating and deploying models, or just creating novels things.
+
+The issue I'm having is understa
+nding what's actually expected of those roles, as AI engineer / ML engineer seems to mean 100 different things, with som
+e companies are expecting PhDs and others are expecting SEs who can use OpenAI APIs. And in general I'd just quite like 
+to hear people's thoughts on what career paths people think are useful to aim for, have the best chance of sticking arou
+nd for a few years, think are feasible, what skills to aim for which will generally be useful, etc.
+
+Any and all thought
+s welcome
+```
+---
+
+     
+ 
+all -  [ A rant about LangChain, and a minimalist alternative ](https://www.reddit.com/r/LangChain/comments/1hknn5a/a_rant_about_langchain_and_a_minimalist/) , 2024-12-24-0913
+```
+So, one of the questions I had on [my GitHub project](https://github.com/BrainBlend-AI/atomic-agents) was:
+
+>Why we need
+ this framework ?
+
+>I’m trying to get a better understanding of this framework and was hoping you could help because the
+ openai API also offer structured outputs?
+
+>Since LangChain also supports input/output schemas with validation, what ma
+kes this tool different or more valuable?
+
+>I am asking because all trainings they are teaching langchain library to new
+ developers . I’d really appreciate your insights—thanks so much for your time!
+
+And, I figured the answer to this might
+ be useful to some of you other fine folk here, it did turn into a bit of a rant, but here we go (beware, strong opinion
+s follow):
+
+Let me start by saying that I think it is wrong to start with learning or teaching *any* framework if you do
+n't know how to do things without the framework. In this case, you should learn how to use the API on its own first—lear
+n what different techniques are on their own and how to implement them, like RAG, ReACT, Chain-of-Thought, etc.—so you c
+an actually understand what value a framework or library does (or doesn’t) bring to the table.
+
+Now, as a developer with
+ 15 years of experience, knowing people are being taught to use LangChain straight out of the gate *really* makes me sad
+, because—let’s be honest—it’s objectively not a good choice, and I’ve met a lot of folks who can corroborate this.
+
+Per
+sonally, I took a year off between clients to figure out what I could use to deliver AI projects in the fastest way poss
+ible, while still sticking to my principle of *only* delivering high-quality and maintainable code.
+
+And the sad truth i
+s that out of everything I tried, LangChain might be the *worst* possible choice—while somehow also being the most popul
+ar. Common complaints on reddit and from my personal convos with devs & teamleads/CTOs are:
+
+* Unnecessary abstractions
+
+* The same feature being done in three different ways
+* Hard to customize
+* Hard to maintain (things break often between
+ updates)
+
+Personally, I took more than one deep-dive into its code-base and from the perspective of someone who has bee
+n coding for 15+ years, it is pretty horrendous in terms of programming patterns, best practices, etc... All things that
+ should be **AT THE ABSOLUTE FOREFRONT of anything that is made for other developers!**
+
+**So, why is LangChain so popul
+ar?** Because it’s not just an open-source library, it’s a company with a CEO, investors, venture capital, etc. They too
+k something that was never really built for the long-term and blew it up. Then they integrated every single prompt-engin
+eering paper (ReACT, CoT, and so on) rather than just providing the tools to let you build your own approach. In reality
+, each method can be tweaked in hundreds of ways that the library just doesn’t allow you to do (easily).
+
+Their core bus
+iness is not providing you with the best developer experience or the most maintainable code; it’s about partnerships wit
+h every vector DB and search company (and hooking up with educators, too). That’s the only real reason people keep getti
+ng into LangChain: it’s just really popular.
+
+**The Minimalist Alternative: Atomic Agents**  
+You don’t *need* to use At
+omic Agents (heck, it might not even be the right fit for your use case), but here’s *why* I built it and made it open-s
+ource:
+
+1. I started out using the OpenAI API directly.
+2. I wanted structured output and not have to parse JSON manuall
+y, so I found “Guidance.” But after its API changed, I discovered “Instructor,” and I liked it more.
+3. With Instructor,
+ I could easily switch to other language models or providers (Claude, Groq, etc.) without heavy rewrites, and it has a b
+uilt-in retry mechanism.
+4. The missing piece was a consistent way to build AI applications—something minimalistic, lett
+ing me experiment quickly but still have maintainable, production-quality code.
+
+After trying out LangChain, crewai, aut
+ogen, langgraph, flowise, and so forth, I just kept coming back to a simpler approach. Eventually, after several rewrite
+s, I ended up with what I now call Atomic Agents. Multiple companies have approached me about it as an alternative to La
+ngChain, and I’m currently helping a client rewrite their codebase from LangChain to Atomic Agents because their CTO has
+ the same maintainability concerns I did.
+
+**So why do you need Atomic Agents?** If you want the benefits of Instructor,
+ coupled with a minimalist organizational layer that lets you experiment freely and still deliver production-grade code,
+ then try it out. If you’re happy building from scratch, do that. The point is you *understand* the techniques first, an
+d then pick your tools.
+
+[Here’s the repo if you want to take a look.](https://github.com/BrainBlend-AI/atomic-agents)
+
+
+Hope this clarifies some things! Feel free to share your thoughts below.
+```
+---
+
+     
+ 
+all -  [ RAG LLM Generating the Prompt also at the response ](https://www.reddit.com/r/LangChain/comments/1hkn089/rag_llm_generating_the_prompt_also_at_the_response/) , 2024-12-24-0913
+```
+hi , im trying to build simple RAG system , everything good but the output contain everything (retrieval docs+promt+answ
+er+halluciation) even with print(result\['result'\]) , im using llama 3.2 3b . any solution?
+```
+---
+
+     
+ 
+all -  [ BuildFast Masterclass - Peter (Download) ](https://www.reddit.com/r/EvangelineStudying/comments/1hki5oq/buildfast_masterclass_peter_download/) , 2024-12-24-0913
+```
+Can you get 'BuildFast Masterclass - Peter' as a free download? Nope, but you can get it through a group-buy for a small
+ fee. It's 100% legit. Just check it out.
+
+👉 [BuildFast Masterclass - Peter (Download)](https://lunacourse.com/product/p
+eter-build-fast-masterclass/)
+
+* Only $18
+* Proof of Product included
+
+https://preview.redd.it/amyv6urxoj8e1.png?width=2
+212&format=png&auto=webp&s=335b0c8806f2e1a63cfa2f1c934aebc6dab3954b
+
+https://preview.redd.it/cd9qcdpzoj8e1.png?width=110
+8&format=png&auto=webp&s=8f0003a61943771da7b2f4b4c72bd1ba2b3a0494
+
+# What is BuildFast Masterclass?
+
+'BuildFast Mastercl
+ass - Peter' is your one-stop-shop for diving headfirst into the AI-building universe. Created by Peter, a seasoned soft
+ware engineer turned AI enthusiast, this course promises to take you from “where do I even begin?” to confidently launch
+ing your own AI-powered apps. It's for developers, career professionals, and small business owners looking to move past 
+the overwhelm and actually start creating with AI.
+
+Peter’s mission? To help you save time, cut through the noise of end
+less AI tutorials, and focus on building real, functional projects.
+
+# Who is BuildFast Masterclass for?
+
+If you’ve ever
+ felt lost in the vast sea of AI tools, libraries, and jargon, then this course is for you. Whether you’re a developer, 
+a small business owner, or someone curious about AI but unsure where to start, BuildFast Masterclass caters to all skill
+ levels.
+
+The course is especially great for people who:
+
+* Have ideas but struggle to turn them into reality.
+* Are tir
+ed of consuming tutorial after tutorial without taking action.
+* Want to learn by doing, not just watching or reading.
+
+
+# Why should you consider BuildFast Masterclass?
+
+The biggest draw of this course is its hands-on approach. Peter emphas
+izes *'just-in-time learning'*—a method where you learn a concept and immediately put it into practice by building somet
+hing. This is a game-changer because it keeps you motivated and ensures the knowledge sticks.
+
+Plus, the course isn’t ju
+st about learning AI; it’s about creating tangible products. Whether it’s an AI chatbot, a voice app, or fine-tuning an 
+LLM, every project is designed to teach you real-world applications.
+
+# What makes BuildFast Masterclass different?
+
+Her
+e’s where 'BuildFast Masterclass - Peter' really stands out:
+
+* **Step-by-step Roadmap**: No more piecing together rando
+m tutorials. This course organizes everything into a logical flow.
+* **Community**: With 357+ members, you’ll join a vib
+rant group of like-minded builders from around the globe. Collaboration and support are a big part of the experience.
+* 
+**Expert Guidance**: Peter’s background as a FAANG software engineer and his passion for teaching means you’re in good h
+ands.
+
+# When can you start?
+
+Right now! The moment you join, you get instant access to a library of videos covering fun
+damentals like LLMs, prompts, memory types, and vector databases. The course is entirely self-paced, so you can fit it i
+nto your schedule.
+
+# How does BuildFast Masterclass work?
+
+It’s simple:
+
+1. **Learn the Fundamentals**: Bite-sized vide
+os that break down core concepts.
+2. **Build Projects**: Apply what you’ve learned to create actual AI products.
+3. **Jo
+in the Community**: Share your progress, ask for help, and get inspired by others.
+
+# Where does the magic happen?
+
+The 
+course is hosted online, so you can learn from anywhere. Whether you’re in your living room or a coffee shop halfway acr
+oss the world, all you need is an internet connection and the drive to start building.
+
+# Final Thoughts on BuildFast Ma
+sterclass
+
+'BuildFast Masterclass - Peter' is perfect if you’re ready to stop learning and start building. The hands-on 
+projects, supportive community, and clear roadmap make it an ideal choice for anyone looking to break into AI developmen
+t.
+
+With Peter as your guide, you’ll go from feeling overwhelmed to shipping your first AI product faster than you think
+. So why wait? Dive in and start building the future today!
+```
+---
+
+     
+ 
+all -  [ Issue in langchain-mistralai ](https://www.reddit.com/r/LangChain/comments/1hki0uo/issue_in_langchainmistralai/) , 2024-12-24-0913
+```
+I am building an agent using langchain and mistral. I am encountering an issue while passing the entire state in mistral
+ model it throws this error
+
+`httpx.HTTPStatusError: Error response 400 while fetching https://api.mistral.ai/v1/chat/co
+mpletions: {'object':'error','message':'Assistant message must have either content or tool_calls, but not both.','type':
+'invalid_request_error','param':null,'code':null}`
+
+Although the bug has been fixed before
+https://github.com/langchain-
+ai/langchain/issues/21196
+
+But I am still encountering the issue.
+
+I am using colab which has python 3.10 is this the po
+tential issue?
+
+
+```
+---
+
+     
+ 
+all -  [ Which local LLM to try next? ](https://www.reddit.com/r/LocalLLM/comments/1hkcn53/which_local_llm_to_try_next/) , 2024-12-24-0913
+```
+I use LangChain with tools to query yfinance, then use a local LLM model to generate answers. I found that those local L
+LMs I have tried cannot answer simple questions such as 'What is Nike's address?'. OpenAI's gpt-4o model works correctly
+. Even gpt-4o-mini works correctly too.
+
+What local LLM model should I try next? I have tried the following: llama3.2:3b
+, qwen2.5, granite3.1, qwen2.5-coder, mistral-nemo, and qwq. I found that phi3 and gemma2 do not work with tools.
+
+  
+No
+te that these local LLMs can answer more complicated questions through tools' responses, such as 'who are the top 3 mutu
+al fund holders of Nike?' They just cannot answer simple questions like 'What's Nike HQ's address?', 'What's Nike HQ's p
+hone number?', etc.
+
+The tool code I used is as follows:
+
+    @tool
+    def company_information(ticker: str) -> dict:
+  
+      '''Use this tool to retrieve company information like address, industry, sector, company officers, business summar
+y, website,
+           marketCap, current price, ebitda, total debt, total revenue, debt-to-equity, etc.'''
+        
+   
+     ticker_obj = yf.Ticker(ticker)
+        ticker_info = ticker_obj.get_info()
+    
+        return ticker_info
+    
+   
+ @tool
+    def last_dividend_and_earnings_date(ticker: str) -> dict:
+        '''
+        Use this tool to retrieve compa
+ny's last dividend date and earnings release dates.
+        It does not provide information about historical dividend yi
+elds.
+        '''
+        ticker_obj = yf.Ticker(ticker)
+        
+        return ticker_obj.get_calendar()
+    
+    @too
+l
+    def summary_of_mutual_fund_holders(ticker: str) -> dict:
+        '''
+        Use this tool to retrieve company's t
+op mutual fund holders. 
+        It also returns their percentage of share, stock count and value of holdings.
+        '
+''
+        ticker_obj = yf.Ticker(ticker)
+        mf_holders = ticker_obj.get_mutualfund_holders()
+        
+        retu
+rn mf_holders.to_dict(orient='records')
+    ...
+
+Gpt-4o correctly finds the address from yf.Ticker(ticker).get\_info(). 
+But those local LLMs are not able to find the address from the returned data.
+
+https://preview.redd.it/gies91ev0i8e1.png
+?width=1981&format=png&auto=webp&s=a21a776160195da75312d3e9ddfa4756bb2b9dfe
+```
+---
+
+     
+ 
+all -  [ How do you handle Parsing Errors With Create_Pandas_Dataframe_Agent? ](https://www.reddit.com/r/LangChain/comments/1hk8nu2/how_do_you_handle_parsing_errors_with_create/) , 2024-12-24-0913
 ```
 I am using Langchain's Pandas Dataframe Agent to create an AI Agent.
 
@@ -31,7 +471,7 @@ Is there a better way to handle the responses that the LLM returns?
 
      
  
-all -  [ Introducing Quantum CLI, A CLI Tool That Lets You Chat with a Local Chain of Thought AI in Your Term ](https://www.reddit.com/r/opensource/comments/1hk6v5p/introducing_quantum_cli_a_cli_tool_that_lets_you/) , 2024-12-23-0913
+all -  [ Introducing Quantum CLI, A CLI Tool That Lets You Chat with a Local Chain of Thought AI in Your Term ](https://www.reddit.com/r/opensource/comments/1hk6v5p/introducing_quantum_cli_a_cli_tool_that_lets_you/) , 2024-12-24-0913
 ```
 I’m thrilled to announce the launch of my new CLI tool, which lets you chat with a Chain of Thought AI directly from you
 r terminal. It is FREE and Open Source. And can tell how many R's are in strawberry. Enjoy it and if you love it feel fr
@@ -52,7 +492,7 @@ your terminal.
 
      
  
-all -  [ Introducing Quantum CLI, A CLI Tool That Lets You Chat with a Local Chain of Thought AI in Your Term ](https://www.reddit.com/r/golang/comments/1hk6t1w/introducing_quantum_cli_a_cli_tool_that_lets_you/) , 2024-12-23-0913
+all -  [ Introducing Quantum CLI, A CLI Tool That Lets You Chat with a Local Chain of Thought AI in Your Term ](https://www.reddit.com/r/golang/comments/1hk6t1w/introducing_quantum_cli_a_cli_tool_that_lets_you/) , 2024-12-24-0913
 ```
 I’m thrilled to announce the launch of my new CLI tool, which lets you chat with a Chain of Thought AI directly from you
 r terminal. It is FREE and Open Source. And can tell how many R's are in strawberry. Enjoy it and if you love it feel fr
@@ -73,7 +513,7 @@ your terminal.
 
      
  
-all -  [ built a story generation tool that uses Gemini AI ](https://www.reddit.com/r/SideProject/comments/1hk5tzx/built_a_story_generation_tool_that_uses_gemini_ai/) , 2024-12-23-0913
+all -  [ built a story generation tool that uses Gemini AI ](https://www.reddit.com/r/SideProject/comments/1hk5tzx/built_a_story_generation_tool_that_uses_gemini_ai/) , 2024-12-24-0913
 ```
 I wanted to be able to generate full stories that maintain consistency throughout. Initially I used Gemini - it was good
 , it worked, but sometimes neither the model nor I could keep track of what was happening. So I created GeminiNovelMaker
@@ -95,7 +535,7 @@ ust the beginning, and I'm looking forward to building this together with the co
 
      
  
-all -  [ Built an OSS image background remover tool ](https://v.redd.it/iz82d8221g8e1) , 2024-12-23-0913
+all -  [ Built an OSS image background remover tool ](https://v.redd.it/iz82d8221g8e1) , 2024-12-24-0913
 ```
 
 ```
@@ -103,7 +543,7 @@ all -  [ Built an OSS image background remover tool ](https://v.redd.it/iz82d822
 
      
  
-all -  [ If you're building with LLM, how do you make it more accurate and reliable? ](https://www.reddit.com/r/LLMDevs/comments/1hk3vpw/if_youre_building_with_llm_how_do_you_make_it/) , 2024-12-23-0913
+all -  [ If you're building with LLM, how do you make it more accurate and reliable? ](https://www.reddit.com/r/LLMDevs/comments/1hk3vpw/if_youre_building_with_llm_how_do_you_make_it/) , 2024-12-24-0913
 ```
 I'm building in-house AI agents using langchain and GPT-4o. I've tried other frameworks like CrewAI but they weren't any
  better. For example, I have an agent doing some repetitive tasks for one of our customer support teams. I am using RAG 
@@ -117,7 +557,7 @@ t-aware' (other than fine-tuning our own models which is not really an option).
 
      
  
-all -  [ About Agents ](https://www.reddit.com/r/Rag/comments/1hk3a7r/about_agents/) , 2024-12-23-0913
+all -  [ About Agents ](https://www.reddit.com/r/Rag/comments/1hk3a7r/about_agents/) , 2024-12-24-0913
 ```
 Now a days many AI agents and assistant are coming up in market. I had recently learn langchain and other things like RA
 G, embedding, vector database etc. I am looking to master on making great agent application but in market there are many
@@ -130,7 +570,7 @@ got my point, what I am trying to ask. It's not because of hype but i am genuine
 
      
  
-all -  [ Help with langchain apis - there are too many to figure out ](https://www.reddit.com/r/LangChain/comments/1hk3798/help_with_langchain_apis_there_are_too_many_to/) , 2024-12-23-0913
+all -  [ Help with langchain apis - there are too many to figure out ](https://www.reddit.com/r/LangChain/comments/1hk3798/help_with_langchain_apis_there_are_too_many_to/) , 2024-12-24-0913
 ```
 I need to be able to analyze 2 sets of custom information, and answer a provided prompt with a custom output template I 
 provide. What is the bare minimum JS apis I should use for this just to get started?
@@ -145,7 +585,7 @@ etting the first POC I can grow.
 
      
  
-all -  [ BEST Generative AI course on Udemy? or Other platforms, Beginner level, LLMs, Langchain, Hugging Fac ](https://www.reddit.com/r/leetcode/comments/1hk2zko/best_generative_ai_course_on_udemy_or_other/) , 2024-12-23-0913
+all -  [ BEST Generative AI course on Udemy? or Other platforms, Beginner level, LLMs, Langchain, Hugging Fac ](https://www.reddit.com/r/leetcode/comments/1hk2zko/best_generative_ai_course_on_udemy_or_other/) , 2024-12-24-0913
 ```
 What are the skills required to be a Software Engineer AI. Please suggest the best courses on Generative AI, LLMs, Langc
 hain, Hugging face and other skills.  
@@ -155,7 +595,7 @@ Udemy preferred, but other platforms also fine.
 
      
  
-all -  [ Efficient way to load files from AWS S3 Bucket for data parsing (to be used in RAG) ](https://www.reddit.com/r/LangChain/comments/1hk1gy4/efficient_way_to_load_files_from_aws_s3_bucket/) , 2024-12-23-0913
+all -  [ Efficient way to load files from AWS S3 Bucket for data parsing (to be used in RAG) ](https://www.reddit.com/r/LangChain/comments/1hk1gy4/efficient_way_to_load_files_from_aws_s3_bucket/) , 2024-12-24-0913
 ```
 I'm building a RAG solution for which I need to load PDF files from an AWS S3 bucket. I'm loading the entire file all at
  once and then passing it to pdfplumber for parsing the data. While this works for smaller PDFs, I've read that larger f
@@ -169,7 +609,7 @@ ay to load larger PDF files from S3 and then give it to some library/API to pars
 
      
  
-all -  [ Langgraph with Chainlit? ](https://www.reddit.com/r/LangChain/comments/1hk1a8e/langgraph_with_chainlit/) , 2024-12-23-0913
+all -  [ Langgraph with Chainlit? ](https://www.reddit.com/r/LangChain/comments/1hk1a8e/langgraph_with_chainlit/) , 2024-12-24-0913
 ```
 Hey guys I managed to build a RAG agent with langgraph and now wish to serve it through a backend onto a frontend. I loo
 ked up and found Chainlit as a framework for serving chatbot agents. Has anyone here used chainlit in production before?
@@ -182,7 +622,7 @@ ne have any better options or should I just suck it up, create my own backend an
 
      
  
-all -  [ Resume review please, 1.4 YOE , resigned from last company 3 months ago due to Toxic culture and stu ](https://i.redd.it/puuf7axc8f8e1.jpeg) , 2024-12-23-0913
+all -  [ Resume review please, 1.4 YOE , resigned from last company 3 months ago due to Toxic culture and stu ](https://i.redd.it/puuf7axc8f8e1.jpeg) , 2024-12-24-0913
 ```
 Hi, 
 
@@ -203,7 +643,7 @@ Thanks
 
      
  
-all -  [ Come migliorare davvero come ML-SW Engineer? ](https://www.reddit.com/r/ItaliaCareerAdvice/comments/1hjx53w/come_migliorare_davvero_come_mlsw_engineer/) , 2024-12-23-0913
+all -  [ Come migliorare davvero come ML-SW Engineer? ](https://www.reddit.com/r/ItaliaCareerAdvice/comments/1hjx53w/come_migliorare_davvero_come_mlsw_engineer/) , 2024-12-24-0913
 ```
 Ciao a tutti,  
 sono un M29 e attualmente lavoro in una multinazionale italiana dove ho la possibilità di partecipare a 
@@ -270,7 +710,7 @@ Help Me :)
 
      
  
-all -  [ nursing ethics ](https://www.reddit.com/r/LangChain/comments/1hjw8w2/nursing_ethics/) , 2024-12-23-0913
+all -  [ nursing ethics ](https://www.reddit.com/r/LangChain/comments/1hjw8w2/nursing_ethics/) , 2024-12-24-0913
 ```
 question book
 ```
@@ -278,7 +718,7 @@ question book
 
      
  
-all -  [ How to create an AI chat bot / LLM to identify limiting beliefs ](https://www.reddit.com/r/LangChain/comments/1hjun23/how_to_create_an_ai_chat_bot_llm_to_identify/) , 2024-12-23-0913
+all -  [ How to create an AI chat bot / LLM to identify limiting beliefs ](https://www.reddit.com/r/LangChain/comments/1hjun23/how_to_create_an_ai_chat_bot_llm_to_identify/) , 2024-12-24-0913
 ```
 My friend came up with a process to uncover limiting beliefs.  I'm curious if an AI chat bot / LLM could be trained to d
 o this automatically.
@@ -359,7 +799,7 @@ cument/d/1QoGyrJD35UURjNWpj3bFwdEEw8xrkAuyD8-EOtrY0qs/edit?tab=t.0#heading=h.2l4
 
      
  
-all -  [ Output Parser Llama 3.1-8B Instruct ](https://www.reddit.com/r/LLMDevs/comments/1hjtm8c/output_parser_llama_318b_instruct/) , 2024-12-23-0913
+all -  [ Output Parser Llama 3.1-8B Instruct ](https://www.reddit.com/r/LLMDevs/comments/1hjtm8c/output_parser_llama_318b_instruct/) , 2024-12-24-0913
 ```
 I’m using Meta-Llama 3.1 8B-Instruct to compare Human Cognitive memory results and testing the Model under same conditio
 n and tests and then comparing the results.  I am new to this and I need help in parsing the model output. I've tried fe
@@ -392,7 +832,7 @@ Any help would be appreciated!!
 
      
  
-all -  [ Been a while since the last time I got my resume roasted here so ](https://i.redd.it/47zzwomadc8e1.jpeg) , 2024-12-23-0913
+all -  [ Been a while since the last time I got my resume roasted here so ](https://i.redd.it/47zzwomadc8e1.jpeg) , 2024-12-24-0913
 ```
 I'm a third year student looking to apply for internships, please help me figure out how to improve my resume 
 ```
@@ -400,7 +840,7 @@ I'm a third year student looking to apply for internships, please help me figure
 
      
  
-all -  [ Guidance related to building a restaurant booking chatbot.  ](https://www.reddit.com/r/LangChain/comments/1hjs3pd/guidance_related_to_building_a_restaurant_booking/) , 2024-12-23-0913
+all -  [ Guidance related to building a restaurant booking chatbot.  ](https://www.reddit.com/r/LangChain/comments/1hjs3pd/guidance_related_to_building_a_restaurant_booking/) , 2024-12-24-0913
 ```
 I took an NLP course this semester where I'm working on a project to build a restaurant reservation chatbot. The chatbot
  needs to capture user data (name, phone number, date, time), store it in a database, and check for reservation conflict
@@ -418,7 +858,7 @@ plementation tips. Thank you.
 
      
  
-all -  [ Help regarding langchain app architecture. ](https://i.redd.it/cexi5dep5c8e1.jpeg) , 2024-12-23-0913
+all -  [ Help regarding langchain app architecture. ](https://i.redd.it/cexi5dep5c8e1.jpeg) , 2024-12-24-0913
 ```
 I am making something like the fastbots.ai
 And this is my current architecture. I am plaaning on using-
@@ -435,7 +875,7 @@ ease help me with moving on with this project. How can I improve the architectur
 
      
  
-all -  [ OpenServAi Agents Marketplace? ](https://i.redd.it/ka1ug4z2ba8e1.jpeg) , 2024-12-23-0913
+all -  [ OpenServAi Agents Marketplace? ](https://i.redd.it/ka1ug4z2ba8e1.jpeg) , 2024-12-24-0913
 ```
 Found this interesting that they're building a marketplace allowing Ai Agents from different frameworks, including Langc
 hain to cooperate together. From my research, this is the most promising agents marketplace I have found so far. From th
@@ -446,7 +886,7 @@ my opinion..What do you guys think?
 
      
  
-all -  [ Need Help!!!!!!!!!URGENT!!!! ](https://www.reddit.com/r/Btechtards/comments/1hjj818/need_helpurgent/) , 2024-12-23-0913
+all -  [ Need Help!!!!!!!!!URGENT!!!! ](https://www.reddit.com/r/Btechtards/comments/1hjj818/need_helpurgent/) , 2024-12-24-0913
 ```
 i am currently in an IIT (top 5) and completed my 3rd semester and i can see my future dark the thing is my cgpa is not 
 goot (7.53) but am really interested in deep learning and machine learning have a strong foundation in basic ml algorith
@@ -459,7 +899,7 @@ i proceed so i can get a good internship plsss help
 
      
  
-all -  [ Noob looking for guidance on LLM selection ](https://www.reddit.com/r/GenAI_Dev/comments/1hje1vh/noob_looking_for_guidance_on_llm_selection/) , 2024-12-23-0913
+all -  [ Noob looking for guidance on LLM selection ](https://www.reddit.com/r/GenAI_Dev/comments/1hje1vh/noob_looking_for_guidance_on_llm_selection/) , 2024-12-24-0913
 ```
 Today, I came across a common question on Reddit and shared my response. I'm posting it here to reach a broader audience
 , as I believe many beginners have similar questions.
@@ -562,7 +1002,7 @@ d, check out my course designed specifically for beginners—it provides actiona
 
      
  
-all -  [ Just reached 1000 AI agents added to Agent Locker 🥳 ](https://i.redd.it/ktkoa6l1u68e1.png) , 2024-12-23-0913
+all -  [ Just reached 1000 AI agents added to Agent Locker 🥳 ](https://i.redd.it/ktkoa6l1u68e1.png) , 2024-12-24-0913
 ```
 Thanks for all the support we've had from this sub! 
 
@@ -577,7 +1017,7 @@ https://www.agentlocker.ai
 
      
  
-all -  [ Stuck on implementing memory for a multiuser chatbot ](https://www.reddit.com/r/LangChain/comments/1hj7ivs/stuck_on_implementing_memory_for_a_multiuser/) , 2024-12-23-0913
+all -  [ Stuck on implementing memory for a multiuser chatbot ](https://www.reddit.com/r/LangChain/comments/1hj7ivs/stuck_on_implementing_memory_for_a_multiuser/) , 2024-12-24-0913
 ```
 Hello everyone, a student here, made a discord study group/ team up server for my uni, and wanted to add a discord bot f
 or a chatbot, so I picked up langchain, and from there learnt LCELs and moved to langgraph, but now memory is giving me 
@@ -593,7 +1033,7 @@ a Langchain one, but I don't know where else to ask as I got no mentor
 
      
  
-all -  [ First RAG App: Seeking Feedback and Help with Follow-Ups and Response Time ](https://www.reddit.com/r/LangChain/comments/1hj7h78/first_rag_app_seeking_feedback_and_help_with/) , 2024-12-23-0913
+all -  [ First RAG App: Seeking Feedback and Help with Follow-Ups and Response Time ](https://www.reddit.com/r/LangChain/comments/1hj7h78/first_rag_app_seeking_feedback_and_help_with/) , 2024-12-24-0913
 ```
 Hello everyone! I love how awesome this community is and after reading a few beginner posts, I finally mustered up the c
 ourage to share my own work.
@@ -631,7 +1071,7 @@ looking forward to learning from your experiences and suggestions!
 
      
  
-all -  [ LangChainJS - Tool calling with JSON schemas ](https://www.reddit.com/r/LangChain/comments/1hiw84b/langchainjs_tool_calling_with_json_schemas/) , 2024-12-23-0913
+all -  [ LangChainJS - Tool calling with JSON schemas ](https://www.reddit.com/r/LangChain/comments/1hiw84b/langchainjs_tool_calling_with_json_schemas/) , 2024-12-24-0913
 ```
 New to LangchainJS, and looking for confirmation that I'm staring at a bug.
 
@@ -657,7 +1097,7 @@ Is there something I'm missing?
 
      
  
-all -  [ Lessons learned from building a context-sensitive AI assistant with RAG ](https://www.reddit.com/r/LangChain/comments/1hirwgr/lessons_learned_from_building_a_contextsensitive/) , 2024-12-23-0913
+all -  [ Lessons learned from building a context-sensitive AI assistant with RAG ](https://www.reddit.com/r/LangChain/comments/1hirwgr/lessons_learned_from_building_a_contextsensitive/) , 2024-12-24-0913
 ```
 I recently built an AI assistant for Vectorize (where I'm CTO) and wanted to share some key technical insights about bui
 lding RAG applications that might be useful to others working on similar projects. Some interesting learnings from the p
@@ -687,7 +1127,7 @@ Happy to discuss technical details or answer questions about the implementation!
 
      
  
-all -  [ Error  when i stream my graph  ](https://www.reddit.com/r/LangChain/comments/1hinulz/error_when_i_stream_my_graph/) , 2024-12-23-0913
+all -  [ Error  when i stream my graph  ](https://www.reddit.com/r/LangChain/comments/1hinulz/error_when_i_stream_my_graph/) , 2024-12-24-0913
 ```
     am using gemnai  as llm 
 
@@ -1050,43 +1490,7 @@ n graph.stream(initial_state, subgraphs=True):
 
      
  
-all -  [ Help Me Build the Home Depot of AI ](https://www.reddit.com/r/LangChain/comments/1hil1l5/help_me_build_the_home_depot_of_ai/) , 2024-12-23-0913
-```
-I own a 2 month old startup Analytics Depot and for 2025, I'm aiming to make it the one stop shop for AI solutions. Like
- Home Depot, but for AI + Analytics. It will have industry related AI solutions for insurance, real estate, finance, leg
-al, medical, oil and gas, management, etc. Can add additional services through APIs or something.
-
-
-
-Right now I got 2 f
-unctioning versions built. (Don't judge me, my experience is below basic :|)
-
-1) Plain chatgpt wrapper with prompting fo
-r the different industries.
-
-2) Wrapper with domain specific BERT models for the different industries. 
-
-
-
-I'm looking f
-or qualified individuals who have lots of knowledge and experience in this space and can take this to another level. Rea
-lly hoping to make this a $B+ company and I think the branding is perfectly positioned for that. Give Data Bricks and Sn
-owFlake a few reasons to fight over us.
-
-
-
-I'm looking for solutions that can get such valuations. In exchange, I can of
-fer pay or equity or a combination of the two.
-
-
-
-If this sounds interesting, DM me.
-```
----
-
-     
- 
-all -  [ Fast sentence transformer embeddings generation on CPU for question answering ](https://www.reddit.com/r/LangChain/comments/1hiil85/fast_sentence_transformer_embeddings_generation/) , 2024-12-23-0913
+all -  [ Fast sentence transformer embeddings generation on CPU for question answering ](https://www.reddit.com/r/LangChain/comments/1hiil85/fast_sentence_transformer_embeddings_generation/) , 2024-12-24-0913
 ```
 We have millions of documents which we want to be searchable through direct question answering (snippet based, as oppose
 d to generation based, like the highlighted snippet in the following screenshot below the generated bit in Google)
@@ -1116,7 +1520,7 @@ ce transformers achieve on CPUs instead of GPUs)? Like Matryoshka Embeddings?
 
      
  
-all -  [ Straightforward way to persist memory ](https://www.reddit.com/r/LangChain/comments/1hihvwd/straightforward_way_to_persist_memory/) , 2024-12-23-0913
+all -  [ Straightforward way to persist memory ](https://www.reddit.com/r/LangChain/comments/1hihvwd/straightforward_way_to_persist_memory/) , 2024-12-24-0913
 ```
 I'm making an agent with LangGraph and want to persist its chat memory across sessions. There are no multiple users so a
  database may be overkill. I'm aware I need to use MemorySaver and a store. However it's unclear to me what persistent s
@@ -1127,7 +1531,7 @@ ditional code is needed to write messages to memory and restore them at the star
 
      
  
-all -  [ Looking for Help with LangChain Course – Your Support Would Mean a Lot! ](https://www.reddit.com/r/UdemyCoders/comments/1higtcg/looking_for_help_with_langchain_course_your/) , 2024-12-23-0913
+all -  [ Looking for Help with LangChain Course – Your Support Would Mean a Lot! ](https://www.reddit.com/r/UdemyCoders/comments/1higtcg/looking_for_help_with_langchain_course_your/) , 2024-12-24-0913
 ```
 Hi everyone,
 
@@ -1146,7 +1550,7 @@ Rahul
 
      
  
-all -  [ Good library for LLM management ](https://www.reddit.com/r/rust/comments/1highnw/good_library_for_llm_management/) , 2024-12-23-0913
+all -  [ Good library for LLM management ](https://www.reddit.com/r/rust/comments/1highnw/good_library_for_llm_management/) , 2024-12-24-0913
 ```
 I have a personal project already running that uses the async-openai crate for LLM management, effectively limiting myse
 lf to OpenAI‘s models. 
@@ -1162,208 +1566,7 @@ Edit: sorry, I forgot to add that I want the library to stream tool calls
 
      
  
-all -  [ HELP: Not able to use embeddings from langchain_huggingface library (HuggingFaceEmbeddings) due to s ](https://www.reddit.com/r/LangChain/comments/1hiekwz/help_not_able_to_use_embeddings_from_langchain/) , 2024-12-23-0913
-```
-Hi all
-
-    from langchain_huggingface import HuggingFaceEmbeddings
-    embeddings = HuggingFaceEmbeddings(model_name='B
-AAI/bge-large-en')
-
-Running this code is giving me this error   
-`Could not import sentence_transformers python package.
- Please install it with \`pip install sentence-transformers\`.`
-
-I have tried the following but could not get it working
-
-
-* `pip install sentence-transformers`  
-* Degrading version to `sentence-transformers==2.6.0`
-* Try using python 3.9, 
-3.10, 3.11, 3.12
-
-Has anyone faced this? Here are the packages installed
-
-* `langchain                               0.3
-.13`
-* `langchain-community                     0.3.13`
-* `langchain-core                          0.3.28`
-* `langchain-
-huggingface                   0.1.2`
-* `torch                                   2.5.1` 
-* `transformers                 
-           4.47.1`
-* `sentence-transformers                   3.3.1`
-```
----
-
-     
- 
-all -  [ Tables chucking strategy  ](https://www.reddit.com/r/LangChain/comments/1hiekwp/tables_chucking_strategy/) , 2024-12-23-0913
-```
-I'm working on a Unstructured pdf document with each page containing Some text and multiple tables some tables spanning 
-3-4 pages sometimes.
-
-
-Issue : I'm not able to find an appropriate chucking methodology for tables spanning multiple pag
-es as the next page table missing out the data related to previous one and not able to combine them based on a common po
-int.
-
-
-Using Pymupdf4llm  as a document parser and chucking each page as a one chunk for now. 
-
-```
----
-
-     
- 
-all -  [ LangGraph Tool/Multi-Agent conceptual question ](https://www.reddit.com/r/LangChain/comments/1hibhj8/langgraph_toolmultiagent_conceptual_question/) , 2024-12-23-0913
-```
-Hi LangChain/LangGraph community.
-
-I'm trying to understand how to build this functionality using either a multi agent a
-rchitecture or multiple tools. I have a chat interface and I need to keep track of state throughout a user's chat thread
-. For each user message, I need to update a object with a summary of what the user said, and I am using an llm with stru
-ctured output to update that state. I also need to then possibly call other tools depending on the input. For example, f
-or some input, I need to make a call to the database to fetch some information. I also want to store every chat message 
-sent by either the AI or the human, and also update the state in the database on every response.
-
-Is this type of workfl
-ow more suitable for a single agent with multiple tools? Or should I make a separate agent for each task that needs to b
-e done? Thanks!
-```
----
-
-     
- 
-all -  [ Automation Software Testing Engineer here, looking to make shift to a career in AI engineering. ](https://www.reddit.com/r/cscareerquestions/comments/1hib7lc/automation_software_testing_engineer_here_looking/) , 2024-12-23-0913
-```
-I have total experience of 6 years into software testing / QA. I have worked on python, did some certifications in Gen A
-I & Langchain and still few in progress. I am creating projects side by side as well.
-My question - Is it absolutely nec
-essary to have core dev experience ? Do companies consider the knowledge and self taught projects that an individual pos
-sess or they only consider AI Engineers with ‘relevant’ experience ??
-```
----
-
-     
- 
-all -  [ Did a quick comparison between 10 LLMs for OCR task ](https://www.reddit.com/r/LangChain/comments/1hi9ee7/did_a_quick_comparison_between_10_llms_for_ocr/) , 2024-12-23-0913
-```
-Video: [https://youtu.be/yT-7i5npRBQ?feature=shared](https://youtu.be/yT-7i5npRBQ?feature=shared)
-
-Code: [https://github
-.com/trancethehuman/ai-workshop-code/tree/main/projects/ocr-battle](https://github.com/trancethehuman/ai-workshop-code/t
-ree/main/projects/ocr-battle)
-
-  
-Let me know which ones you're currently using - I'd love to know if gemini is still th
-e best for the price / performance.
-```
----
-
-     
- 
-all -  [ Self-Aware Software Using LangChain & LangGraph ](https://www.reddit.com/r/LangChain/comments/1hi8c3y/selfaware_software_using_langchain_langgraph/) , 2024-12-23-0913
-```
-Hello,
-
-Weve been able to merge an LLM with our LangGraph Agent Builder. 
-
-This turns our product from a piece of static
- software into a reasoning agent. In these two short demos I show how we ask our tool to perform functions within the to
-ol. The LLM and our tool become one. Enjoy!
-
-https://youtu.be/jSz-95OS_ik?si=CAgMjayyxxAjPjGl
-
-https://youtu.be/iiDWPlro
-rs4?si=BB2HlzRr0e_Ua7tC
-```
----
-
-     
- 
-all -  [ [1 YoE] Computer Science Graduate, International student applying to jobs in the ML/AI Field. ](https://www.reddit.com/r/EngineeringResumes/comments/1hi60ro/1_yoe_computer_science_graduate_international/) , 2024-12-23-0913
-```
-I have 1 year of co-orporate experience and 3 internships. I am an interantional student who has applied for opt and sea
-rching jobs with sponsership. I have developed my skills in the vast galaxy of computer science towards the things I lov
-e to do - Machine Learning (cliche right?). Any help as appericaited.
-
-https://preview.redd.it/rihct0zv1w7e1.png?width=1
-700&format=png&auto=webp&s=1432e633482db8a7a6846b2d153ac620f8b8d95f
-
-
-```
----
-
-     
- 
-all -  [ How do CustomGPTs from ChatGPT work in the background with the knowledge base? ](https://www.reddit.com/r/ChatGPTPro/comments/1hi5zo2/how_do_customgpts_from_chatgpt_work_in_the/) , 2024-12-23-0913
-```
-Here is a description of how RAG structures are constructed: [https://python.langchain.com/docs/tutorials/rag/](https://
-python.langchain.com/docs/tutorials/rag/) I now wonder: Does a CustomGPT already do this with the uploaded data? Or does
- it make sense to integrate such a RAG structure yourself?
-
-Theoretically, it could also be that ChatGPT does not carry 
-out this processing and simply checks which file could contain what is needed and adds it internally as a whole as the c
-ontext of the request.
-
-What would you guess is how it works in practice?
-```
----
-
-     
- 
-all -  [ Wie arbeiten CustomGPTs von ChatGPT im Hintergrund mit der Wissensbasis? ](https://www.reddit.com/r/KI_Welt/comments/1hi5xpi/wie_arbeiten_customgpts_von_chatgpt_im/) , 2024-12-23-0913
-```
-Hier wird ja beschrieben wie RAG Strukturen aufgebaut sind: [https://python.langchain.com/docs/tutorials/rag/](https://p
-ython.langchain.com/docs/tutorials/rag/) Ich frage mich nun: Macht ein CustomGPT dies mit den hochgeladenen Daten bereit
-s? Oder ist es sinnvoll, eine solche RAG Struktur selbst zu integrieren?
-
-Theoretisch könnte es ja auch sein, dass ChatG
-PT diese Verarbeitung nicht vornimmt und einfach nur prüft welche Datei könnte das enthalten was man braucht und es inte
-rn insgesamt als Kontext der Anfrage hinzufügt.
-
-Was wäre eure Vermutung wie es in der Praxis erfolgt?
-```
----
-
-     
- 
-all -  [ Any decents RAG document management tool? ](https://www.reddit.com/r/LangChain/comments/1hhziyd/any_decents_rag_document_management_tool/) , 2024-12-23-0913
-```
-Hi fellow devs,
-
-Does anyone know if there's an opensource tool with built for managing RAG document?
-
-Imagine a drag-an
-d-drop web interface for users to upload multiple documents.
-
-Once uploaded, the system should:
-
-1. Store the documents 
-in some kind of storage (like S3, Blob Storage).
-2. Trigger a pipeline to handle chunking and embedding generation.
-3. I
-nsert the processed data into a database (vector DB like Pinecone, Weaviate, or Postgres).
-
-I already have a QA chatbot 
-set up, so I don’t need any chat functionality like Ragflow, Onyx or Open Web UI just the document ingestion pipeline wi
-th a user-friendly web UI.
-
-I checked out Qdrant UI and Milvus Attu but they seem to have only data management functiona
-lity not the ingestion pipeline.
-
-Does anyone know of existing tools or frameworks that can do this, or am I better off 
-building something custom?
-
-Thanks!
-```
----
-
-     
- 
-MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-23-0913
+MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-24-0913
 ```
   
 [https://github.com/dmayboroda/minima](https://github.com/dmayboroda/minima)  
