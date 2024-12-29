@@ -1,5 +1,469 @@
  
-all -  [ Chance me Harvard, UMich, NYU ](https://www.reddit.com/r/chanceme/comments/1hmlac5/chance_me_harvard_umich_nyu/) , 2024-12-28-0912
+all -  [ DeepSeek-v3 | Best open-source model on ProLLM ](https://www.reddit.com/r/LocalLLaMA/comments/1ho5ave/deepseekv3_best_opensource_model_on_prollm/) , 2024-12-29-0914
+```
+Hey everyone!
+
+Just wanted to share some quick news -- the hype is real! DeepSeek-v3 is now the best open source model o
+n our benchmark: [check it here](https://prollm.ai/leaderboard/stack-unseen). It's also the cheapest model in the top-10
+ and shows a 20% improvement across our benchmarks compared to the previous best DeepSeek model.
+
+If you're curious abou
+t how we do our benchmarking, we published a [paper at NeurIPS](https://arxiv.org/abs/2412.05288) about our methodology.
+ We share how we curated our datasets and conducted a thorough ablation on using LLMs for natural-language code evaluati
+on. Some key takeaways:
+
+* Without a reference answer, CoT leads to overthinking in LLM judges.
+* LLM-as-a-Judge does no
+t exhibit a self-preference bias in the coding domain.
+
+We've also made some small updates to our leaderboard since our 
+last post:
+
+* Added new benchmarks (OpenBook-Q&A and Transcription)
+* Added 15-20 new models across multiple of our benc
+hmarks
+
+Let me know if you have any questions or thoughts!
+
+Leaderboard: [https://prollm.ai/leaderboard/stack-unseen](ht
+tps://prollm.ai/leaderboard/stack-unseen)  
+NeurIPS paper: [https://arxiv.org/abs/2412.05288](https://arxiv.org/abs/2412
+.05288)
+
+https://preview.redd.it/ibvp9yjk8l9e1.png?width=1060&format=png&auto=webp&s=1f638d3970baf912ae03b5f0073595ff033
+be4ab
+```
+---
+
+     
+ 
+all -  [ Wyzwanie: sztuczna inteligencja! - z Barbarą Rychalską rozmawia Dobrosława Gogłoza ](https://www.reddit.com/r/libek/comments/1ho3uoy/wyzwanie_sztuczna_inteligencja_z_barbarą/) , 2024-12-29-0914
+```
+[Wyzwanie: sztuczna inteligencja! - z Barbarą Rychalską rozmawia Dobrosława Gogłoza - Liberté!](https://liberte.pl/wyzwa
+nie-sztuczna-inteligencja-z-barbara-rychalska-rozmawia-dobroslawa-gogloza/)
+
+**Dobrosława Gogłoza: Chciałabym zacząć od 
+zadania sobie pytania o to, jak znaleźliśmy się w tym momencie w historii – jakie były największe przełomy w działaniu s
+ztucznej inteligencji w ostatnich latach?**
+
+Barbara Rychalska: Jeśli chodzi o językowe modele GenAI, czyli popularne LL
+M-y (*large language models*, pol. wielkie modele językowe), przełomem było opracowanie nowego modelu nazwanego transfor
+merem. Dokonał tego zespół Google’a – co ciekawe, z udziałem polskiego naukowca, Łukasza Kaisera. Przed opracowaniem tra
+nsformera istniały już różne, zaawansowane modele języka naturalnego, oparte na sieciach neuronowych. Czytały one jednak
+ zdania token po tokenie (w przybliżeniu – słowo po słowie), co powodowało stopniowe zanikanie informacji. W transformer
+ze natomiast zastosowano nowatorski mechanizm atencji. Umożliwia on wczytywanie wielu tokenów naraz, w ramach jednej „po
+rcji”. Ponieważ transformer analizuje relację każdego tokenu wobec każdego innego tokenu w przetwarzanym kontekście, two
+rzy bardzo szczegółowy „rozkład uwagi”, który wskazuje, które tokeny są bardziej istotne dla danego kontekstu. W szczegó
+lności pozwala to wykryć związki znaczeniowe pomiędzy słowami znajdującymi się daleko od siebie. Ma to również skutki wy
+dajnościowe – operację jednoczesnej analizy par tokenów łatwiej jest zrównoleglić niż sekwencyjne czytanie tekstu. Oprac
+owanie transformera wywołało lawinę – powstały oparte na tej architekturze modele takie jak BERT, RoBERTa, XLNet oraz wi
+ele innych, które osiągnęły znacznie lepsze wyniki niż klasyczne modele sekwencyjne, praktycznie w każdym zadaniu dotycz
+ącym języka naturalnego, takim jak wykrywanie emocji w tekście, podsumowywanie go, odpowiadanie na pytania czy tłumaczen
+ia. Różnica w jakości ich działania w porównaniu do starszych metod była piorunująca – było widać, że to już nie inkreme
+ntalne ulepszenie, a zupełnie nowa jakość.
+
+Następnie okazało się, że w przeciwieństwie do wielu innych typów modeli, zw
+iększanie ilości danych treningowych oraz rozmiaru modelu transformerowego nie powoduje szybkiego wypłaszczenia przyrost
+ów jakości. Wprost przeciwnie, umiejętności i jakość modelu szybko rosły wraz z rozmiarem danych i liczbą parametrów, je
+śli pomiędzy tymi wartościami zachowana była odpowiednia równowaga (tzw. „LLM scaling laws”). Na tym zjawisku opiera się
+ sukces firmy OpenAI i modeli z rodziny GPT, a następnie kolejnych, o których słyszymy na co dzień – modeli Mistral, Cla
+ude, Llama i innych.
+
+**Czy możesz wyjaśnić, jak działają duże modele językowe (LLM) i jakie są ich obecne ograniczenia?
+**
+
+Nowoczesne modele LLM wciąż opierają się na architekturze transformera. Zostały w nich dodatkowo zastosowane liczne 
+nowe techniki, takie jak *instruction tuning* czy RLHF (*reinforcement learning from human feedback*) – uczenie modelu r
+ozpoznawania intencji pytań i próśb, jakie kieruje do niego użytkownik oraz wykrywania, które odpowiedzi będą bardziej p
+ożądane. Pierwsze modele transformerowe uczone były przewidywania następnego tokenu (można sobie to wyobrazić w ten spos
+ób, że pokazujemy modelowi niedokończony tekst i prosimy go o uzupełnienie, tak aby całość tekstu była logiczna). Modele
+ były więc uczone określania, jakie słowa są najbardziej prawdopodobne w danym kontekście. Jak się okazało w praktyce, z
+adanie to ściśle wiąże się z rozumieniem logiki języka, znaczenia słów oraz generowaniem płynnego i poprawnego tekstu. D
+zięki metodom takim jak *instruction tuning*, modele są w stanie pójść jeszcze krok dalej – odczytywać intencję pytań uż
+ytkownika i spełniać jego cele. 
+
+Nieustannie powstające nowe techniki trenowania pozwalają na wzmocnienie różnych umiej
+ętności LLM-ów. Na przykład wypuszczony niedawno model OpenAI „o1” wykazuje daleko wyższe niż wcześniej zdolności do log
+icznego rozumowania – dzięki zastosowaniu metody *chain-of-thought*. Polega ona na rozbijaniu skomplikowanych zadań na s
+ekwencję niezbędnych kroków rozumowania, które prowadzą do rozwiązania. Dzięki nauce dzielenia problemu na podproblemy, 
+model jest w stanie zastosować zdobyte umiejętności do wielu nowych zadań. Oczywiście daleko tu do medialnego stwierdzen
+ia, że „modele rozumują na poziomie dorosłego człowieka/studenta/doktoranta/itp.”. Takie wyrażenie jest problematyczne n
+a wielu poziomach, nawet tym najbardziej podstawowym, ponieważ nie wiemy dokładnie, w jaki sposób rozumuje punkt odniesi
+enia, czyli człowiek.
+
+Nie wszystko jednak zależy od konkretnych celów trenowania. LLM-y mają ciekawą własność znaną jak
+o „emergence”, czyli spontaniczne nabywanie nieoczekiwanych umiejętności, do których nie były bezpośrednio trenowane. *E
+mergence* występuje przy zastosowaniu odpowiednio dużych danych i przy odpowiednio dużym rozmiarze modelu. Przykładem ta
+kiej emergentnej umiejętności jest dokonywanie tłumaczeń czy wykonywanie prostych obliczeń. Przypuszcza się, że LLM-y ta
+kie jak GPT nie były trenowane specjalnie do tych zadań, jednak ich ekspozycja na ogromne, wielojęzyczne dane spowodował
+a, że są w stanie stworzyć ekwiwalentny znaczeniowo tekst w innym języku oraz rozumieć podstawowe znaczenie liczb. Nie w
+iemy, jakie emergentne umiejętności modeli pojawią się w przyszłości.
+
+Źródłem fascynacji LLM-ami są ich ogólnie bardzo 
+wysokie zdolności językowe (płynność, poprawność gramatyczna wypowiedzi), duża zasobność pamięci (są w stanie odpowiedzi
+eć na wiele pytań z najróżniejszych dziedzin, takich jak historia, prawo, chemia, botanika, tak naprawdę dowolne tematy)
+, oraz dobre zrozumienie intencji pytań.
+
+Natomiast braki i zagrożenia związane z LLM-ami to przede wszystkim halucynacj
+e (wypowiedzi niepoprawne, zawierające błędy merytoryczne, jednak artykułowane z dużą pewnością siebie). Istnieją na to 
+pewne środki zaradcze, jednak nie są w 100% skuteczne. Na przykład, LLM-y często mogą poprawić się i zadenuncjować swoją
+ własną halucynację, jeśli dopytamy je, czy są pewne swojej odpowiedzi lub dopytamy je o fragment, który wydaje nam się 
+zaskakujący lub dziwny. Warto zatem podważać odpowiedzi LLM-ów i zadawać pytania typu „Czy jesteś pewien, że…?” Niestety
+, im bardziej specjalistyczne pytanie, tym większa podatność na błędy. Z moich obserwacji: zadając LLM-om pytania z pozy
+cji laika, np. z dziedziny farmacji, możemy być pozytywnie zaskoczeni (dlatego, że nasze pytania będą dosyć proste meryt
+orycznie). LLM ogólnego przeznaczenia, taki jak ChatGPT nie poradzi sobie jednak ze specjalistycznymi pytaniami, które z
+adałby farmaceuta w związku ze swoją pracą codzienną. Do takich zastosowań warto wykorzystywać usługi wyspecjalizowane w
+ odpowiadaniu na pytania, a najlepiej jeszcze podające źródła odpowiedzi (np. darmowe Perplexity) lub modele dziedzinowe
+.
+
+Niektórzy pokładają też zbyt dużo zaufania w kreatywność modeli, przypisując im na przykład zdolność tworzenia strate
+gii rozwoju firm, umiejętność tworzenia zaskakujących kampanii marketingowych itp. LLM-y mogą na pewno podpowiedzieć wie
+le interesujących pomysłów w tych tematach, jednak będą to bardziej propozycje „zdroworozsądkowe” i powtarzalne niż rewo
+lucyjne. LLM-y nie są wystarczająco twórcze, poruszają się raczej w obrębie pewnych uśrednionych konceptów, które zaobse
+rwowały w swoich danych treningowych. Nie mogą więc póki co przewyższyć człowieka. Inaczej mówiąc – biznesowa porada od 
+LLM będzie brzmiała bardziej jak raport McKinsey’a niż strategia, którą sporządziłby osobiście geniusz biznesu, planując
+ swój następny ruch.
+
+**Jakie potencjalne korzyści dla społeczeństwa widzisz w dalszym rozwoju AI? A jakie zagrożenia?**
+
+
+Korzyści widzę na co dzień w swoim własnym życiu, zaczynają się też pojawiać badania dokumentujące przydatność GenAI. 
+Nie jest się jednak łatwo przebić przez szum informacyjny. Na początku fali zachwytu pierwszymi modelami GPT utrzymywała
+m daleko idącą ostrożność. Zwłaszcza w obliczu pojawiających się jak grzyby po deszczu influencerów, obiecujących cuda. 
+Następnie, w odpowiedzi na wszechobecny entuzjazm, pojawiły się grupy „hejterów”, twierdzących, że GenAI jest trendem, k
+tóry szybko przeminie.
+
+Tymczasem, w badaniu Harvard Business School pt. „Navigating the Jagged Technological Frontier” 
+stwierdzono, że pracownicy są w stanie wykonać zadania szybciej i lepiej (z większą poprawnością) używając AI, jeśli spe
+łniony jest warunek odpowiedniego z niej korzystania. Co to znaczy? Otóż zadania stawiane przed uczestnikami zostały spe
+cjalnie stworzone w taki sposób, aby część z nich była trudna do wykonania lub „niekompatybilna” z AI (zadania „outside 
+the frontier”), zaś część znajdowała się w obrębie możliwości modelu AI (zadania „inside the frontier”). Grupa pracownik
+ów, która potrafiła krytycznie oceniać odpowiedzi modelu i z zaangażowaniem wchodzić w dyskusje z modelem, kwestionując 
+jego oceny, dobrze radziła sobie z zdaniami „outside the frontier”. Pracownicy, którzy przyjmowali bezkrytycznie odpowie
+dzi AI, wykonywali te zadania gorzej. Jeśli chodzi o zadania w obrębie możliwości AI, obserwowano wzrost metryk jakości 
+pracy. Optymistyczne doniesienia pojawiają się również na temat wpływu GenAI na pracę programistów – zresztą większość m
+i znanych korzysta już z asysty LLM-ów do rozwiązywania albo szczególnie powtarzalnych, bardzo prostych, ale czasochłonn
+ych zadań, albo tych związanych z nowymi frameworkami czy narzędziami, które muszą szybko zastosować. W takich sytuacjac
+h przed erą GenAI musieli przejść długą ścieżkę prób i błędów. 
+
+Jednocześnie faktem jest to, co już wcześniej wspomniał
+am – wiele specjalistycznych branż, takich jak medycyna, różne gałęzie inżynierii, farmacja czy prawo, najpewniej nie sk
+orzysta z LLM-ów ogólnego przeznaczenia, bo są one po prostu zbyt słabe do tak specyficznych zastosowań. Branże te potrz
+ebują dokładniejszych, dedykowanych im narzędzi.
+
+Na tak fundamentalne przemiany należy jednak patrzeć szerzej niż tylko
+ nasza satysfakcja (lub jej brak) ze sprawniejszego wykonywania zadań. GenAI może pomóc rodzicom stworzyć bajkową kontyn
+uację przygód ulubionych bohaterów swoich dzieci. Ale tak samo może posłużyć do szybkiego tworzenia tysięcy tekstów, wyg
+lądających na tweety pisane przez prawdziwych ludzi, które są gotowe do rozsyłania przez media społecznościowe w przecią
+gu sekund. Niezwykle łatwo jest tworzyć nawet te najniebezpieczniejsze, jak agitujące politycznie i szerzące nienawiść w
+pisy na forach lub nawet fałszywe zdjęcia i filmy – tzw. *deepfakes*. To już się dzieje – na przykład w Korei Południowe
+j mamy w tym momencie do czynienia z masowym tworzeniem pornograficznych *deep fake’ów* z użyciem wizerunków istniejącyc
+h osób, często nieletnich. Ich twarze są nakładane na wygenerowane sylwetki. Sprawcami są często szkolni koledzy prześla
+dowanych dziewczynek. Wykrywane przez władze kanały na Telegramie, które rozpowszechniają te materiały, miewają po kilka
+set tysięcy członków. Niestety, wydaje się, że w dobie generatywnej sztucznej inteligencji dobrze zaprojektowane regulac
+je są niezbędne, aby zabezpieczyć nasze dane, prywatność oraz uczęszczane przez nas przestrzenie internetowe przed zalan
+iem przez wygenerowane treści.
+
+Często podnoszonym argumentem przeciwko AI jest też zanikanie miejsc pracy. Rzeczywiście
+, może dojść do sytuacji, w której trudniej będzie znaleźć pracę osobom dopiero zaczynającym w danej branży, ponieważ pr
+ostsze zadania będą rozwiązywane przez AI na zadowalającym poziomie. Uważam jednak, że ostatecznie nie da się polegać wy
+łącznie na AI – mimo że nasza praca może być złożona ze względnie prostych podzadań, to kumulacja choćby małych błędów i
+ przeoczeń spowoduje ostatecznie duże problemy. Ktoś musi tworzyć prompty i aktywnie pracować z AI, aby dojść do pożądan
+ego rezultatu, a następnie weryfikować i ewentualnie poprawiać efekty. Również pracodawcy muszą zdać sobie sprawę, że br
+ak edukacji młodszych pracowników spowoduje, że już za 3-5 lat zabraknie specjalistów.
+
+Innym zagadnieniem jest zdolność
+ AI do spełniania złożonych kryteriów wykonania danego zadania. Na przykład, AI potrafi generować robiące wrażenie obraz
+y, jednak w pracy grafika ważne są konkretne wymagania stawiane przez zleceniodawcę (np. na temat skojarzeń, które mają 
+wywoływać poszczególne elementy obrazu, liczby osób i przedmiotów na obrazie, itp.). Nie wystarczy po prostu wygenerowan
+ie „ładnej” grafiki, a modele mają problemy z rygorystycznym spełnianiem złożonych wymagań. Nie bez znaczenia jest też k
+westia prawnej odpowiedzialności za poprawność wyników naszej pracy. Uważam, że ostatecznie dojdziemy do paradygmatu pra
+cownika szeroko wspieranego przez AI, jednak wciąż niezbędnego w swoim miejscu pracy.
+
+**Jak oceniasz obecny stan badań 
+nad interpretowalnością i wyjaśnialnością AI? Czy zbliżamy się do „otworzenia czarnej skrzynki” systemów AI?**
+
+Modele L
+LM należą do grupy modeli trudno wyjaśnialnych, co związane jest chociażby z ich rozmiarem – ciężko jest zrozumieć znacz
+enie każdego parametru lub ich kombinacji, gdy mamy do czynienia z miliardami parametrów. Znacznie więcej wysiłków jest 
+obecnie kierowanych w stronę osiągania coraz bardziej imponujących zdolności modeli niż prób zrozumienia tego, co dokład
+nie dzieje się w ich „głowie”. Jednakże niektóre badania nad interpretowalnością modeli dostarczyły ciekawych wniosków n
+a temat samego ich działania – na przykład udowodniły, że duża część parametrów modelu w rzeczywistości nie służy do nic
+zego ważnego i może zostać usunięta. 
+
+Często wspominamy o wyjaśnialności w kontekście weryfikacji luk i braków w modela
+ch. Czyli tak naprawdę interesuje nas kwestia wycieków danych osobowych, biasów czy dyskryminacji dokonywanej przez mode
+le. W celu walki z tymi problemami pojawiają się obecnie inne podejścia niż czysta wyjaśnialność – na przykład, szybko r
+ozwijająca się dziedzina LLM Red Teaming pozwala na identyfikację luk bezpieczeństwa w modelach, za pomocą metod przypom
+inających działania etycznych hakerów. W ramach Red Teamingu projektuje się specjalne prompty, mające na celu sprowokowa
+nie modelu do zrobienia czegoś „złego”. Dzięki temu co prawda nie zrozumiemy dokładnego działania modelu, ale za to mamy
+ szansę wykryć konkretne zagrożenia i luki.
+
+Jednakże myślę, że problem braku wyjaśnialności boli wielu twórców AI. Ilya
+ Sutskever, jeden z założycieli OpenAI, ogłosił ostatnio uruchomienie swojego startupu, którego celem jest stworzenie „s
+afe superintelligence”. Można mieć nadzieję, że przyczyni się do rozwoju metod wyjaśnialności.
+
+**Jakie kompetencje powi
+nni rozwijać Polacy, aby być przygotowanymi na erę AI?**
+
+Mamy tutaj co najmniej 2 perspektywy: osoby tworzącej lub wdra
+żającej AI i osoby „nietechnicznej”, która chcąc nie chcąc, jest już wystawiona na działania AI każdego dnia.
+
+Jeśli cho
+dzi o praktyków AI, to podstawą ich pracy są dobre umiejętności programistyczne. Umiejętność sprawnego tworzenia dobrego
+, skalowalnego kodu pozwala szybko przeprowadzać eksperymenty i oszczędzać zasoby obliczeniowe, które są drogie i potrze
+ba ich coraz więcej. Według mnie łatwiej jest zdobyć umiejętności AI będąc dobrym programistą niż zdobyć umiejętności pr
+ogramistyczne będąc niekodującym lub słabo kodującym praktykiem AI. Następnie należy się skupić na umiejętnościach związ
+anych z samym uczeniem maszynowym. Wszystkie potrzebne materiały i kursy są dostępne w Internecie: na przykład, kursy de
+eplearning.ai czy polski AI Devs, otwarte wykłady uczelni amerykańskich, jak na przykład MIT, rzesza kanałów na YouTube 
+tłumaczących intuicyjnie zagadnienia matematyczne lub stricte dotyczące AI, na przykład 3Blue1Brown czy kanał Yannica Ki
+lchera, repozytoria publikacji – [arxiv.com](http://arxiv.com/), otwarte zasoby publikacji z konferencji AI – ICLR, KDD,
+ NeurIPS, ICML, SIGIR i wiele innych. Zwykle pojawia się jednak problem z dostępem do zasobów obliczeniowych. Dlatego ob
+ecnie ciężko jest niestety rozwijać AI w przysłowiowym garażu, wskazane jest działanie w ramach jednostki badawczej lub 
+firmy, która posiada wymagane zasoby lub korzystanie z grantów przyznawanych przez operatorów chmur komercyjnych.
+
+Będąc
+ osobą niezwiązaną profesjonalnie z AI, również musimy włożyć pewien wysiłek w edukację, aby zapewnić sobie z jednej str
+ony komfort użycia narzędzi AI, a z drugiej strony bezpieczeństwo. Wskazane jest poznanie technik promptowania, na przyk
+ład z pomocą poradnika i biblioteki promptów firmy Anthropic. Pojawiło się niedawno czasopismo poświęcone AI – hAI Magaz
+ine, z artykułami na różnych poziomach trudności – od podstawowych do bardziej zaawansowanych. Wielka szkoda, że nie ma,
+ póki co, oficjalnego szkolenia tworzonego przez instytucje państwowe, otwartego dla wszystkich, przedstawiającego korzy
+ści i ryzyka. Istnieją poradniki dla konkretnych grup, np. administracji, ale to nie wystarczy.
+
+Nawet jeśli zupełnie ni
+e chcemy korzystać z AI, to treści przez nią wygenerowane znajdą nas wcześniej lub później. Niezależnie od wszystkiego, 
+polecam zapoznać się z działalnością Instytutu NASK (Naukowa i Akademicka Sieć Komputerowa), który zajmuje się zagadnien
+iami cyberbezpieczeństwa, w tym AI. NASK jest obecna w mediach społecznościowych i publikuje ciekawe zasoby edukacyjne, 
+jak np. raport „Cyberbezpieczeństwo AI. AI w cyberbezpieczeństwie”.
+
+**AI Act – co wiemy już teraz i czego możemy się sp
+odziewać? Czy istnieje niebezpieczeństwo, że takie regulacje wpłyną na innowacyjność i konkurencyjność polskich firm tec
+hnologicznych?**
+
+Wspomniałyśmy już o zagrożeniach płynących z masowego generowania nieprawdziwych treści. Czy AI Act na
+s przed tym ochroni? Na razie wiemy na pewno, że sama treść AI Actu zawiera niestety wiele niejasności i są one na tyle 
+znaczące, że nie wiadomo, jaka będzie praktyka jego stosowania.
+
+AI Act określa wiele dziedzin zastosowania AI jako syst
+emy wysokiego ryzyka (*high risk*) – np. AI stosowane w edukacji, zatrudnieniu, zarządzaniu migracją, infrastrukturą kry
+tyczną miast i państw i wielu innych dziedzin życia. Warunki nadzoru tych modeli są opisane bardzo ogólnie. Będą musiały
+ zostać stworzone dla nich osobne instytucje w krajach członkowskich. Nie wiadomo, w jaki sposób będą one działać i jak 
+bardzo kosztowny i czasochłonny będzie proces nadzoru. Można to sobie jednak wyobrazić, obserwując sytuację bieżącą. W t
+ym momencie wymóg certyfikacji dotyczy modeli AI dokonujących diagnoz medycznych, które traktowane są jak wyrób medyczny
+. Niedawno zrezygnowaliśmy z wykonania projektu z użyciem takiego modelu, ponieważ brakuje jednostek certyfikujących i n
+a samo rozpoczęcie procesu musielibyśmy czekać ponad rok. Wyobraźmy sobie, co się stanie, jeśli większość dostawców syst
+emów AI będzie musiała certyfikować swoje systemy. Rok w dziedzinie AI jest epoką. Jeżeli dojdzie do takiej blokady, cał
+y świat nam ucieknie.
+
+AI Act nakłada też dodatkowe obowiązki regulacyjne na tzw. „modele ogólnego przeznaczenia z ryzyk
+iem systemowym”, do których zaliczają się wielkie modele językowe (LLM), które do trenowania potrzebują wystarczająco du
+żej liczby operacji zmiennoprzecinkowych (FLOP). Definicja FLOP zawarta w AI Act moim zdaniem stwarza jednak ryzyko nadu
+żyć. Nie wiadomo zatem, które modele realnie będą wpadać w tę kategorię, biorąc pod uwagę fakt, że twórcy będą mieli żyw
+otny interes w wykorzystaniu każdego błędu w definicji do obniżenia raportowanej przez siebie liczby FLOP.
+
+AI Act poroz
+umiewa się z czytelnikiem kryteriami tak ogólnymi i wieloznacznymi, że nie da się udowodnić ich spełnienia, np.: „(…) po
+dmiot ten zapewnia adekwatność i wystarczającą reprezentatywność danych wejściowych (…)”. Czym jest „adekwatność” i kto 
+jest ostateczną instancją do jej oceny? Kary za niedopasowanie się do regulacji są już jednak niezwykle konkretne i bard
+zo wysokie – np. 35 mln euro lub 7% rocznego obrotu przedsiębiorstwa.
+
+Opisane przeze mnie problemy to tylko wierzchołek
+ góry lodowej. Czy w obliczu takich niejasności można powiedzieć, że AI Act w tym momencie zwiększa nasz komfort, poczuc
+ie bezpieczeństwa lub daje nadzieję na bardziej etyczny i zrównoważony rozwój? Niestety, nie. Niepewność przynosi już pi
+erwsze owoce – na przykład, Meta nie udostępni w UE swojego modelu Multimodal Llama (jest to model unikalny, ponieważ pr
+zetwarza dane wideo, audio, tekstowe i obrazowe). Mimo że model jest udostępniany w formie otwartego oprogramowania na l
+icencji niekomercyjnej, ryzyko regulacyjne jest zbyt duże. Modele Llama, dzięki swojej otwartej licencji, są świetnym na
+rzędziem do badań i wdrożeń.
+
+**Czy Polska ma szansę stać się europejskim hubem AI? Jakie warunki musiałyby zostać spełn
+ione? Czy istnieją jakieś unikalne cechy polskiego ekosystemu AI, które mogą być konkurencyjne na arenie międzynarodowej
+?**
+
+Polska ma potencjał, aby takim hubem się stać – w ciągu ostatnich lat branża IT stała się jednym z koni pociągowych
+ polskiej gospodarki. W związku z tym zostało wykształcone (lub wykształciło samo siebie) szerokie grono specjalistów. C
+hętnych do rozwoju w branży nie brakuje, kariera w IT jest nieustannie postrzegana jako pożądana. Polscy informatycy dal
+i się poznać jako wiarygodni specjaliści o wysokich umiejętnościach, chętnie dokształcający się i dostarczający kod wyso
+kiej jakości. Mamy więc solidne podstawy. Co do samego AI, uważam, że nie mamy jeszcze wystarczająco dobrej oferty uczel
+ni wyższych. Nie jest to zarzut do wszystkich uczelni, ponieważ część z nich oferuje świetny poziom. Często jednak nawet
+ na solidnych uczelniach zajęcia są na podstawowym poziomie, brakuje omawiania najnowszych trendów badawczych i projektó
+w studenckich skupionych na problemach z bieżących publikacji. Omawiając metody sprzed 15 lat możemy położyć fundament d
+la zrozumienia obecnych technologii, ale zbyt często te tradycyjne metody grają centralną rolę. 
+
+Jeśli chodzi o badania
+ – tworzone są obecnie polskie modele językowe, które będą lub są otwarte do użytku dla wszystkich: Bielik, stworzony pr
+zez SpeakLeash, PLLuM, za który odpowiada konsorcjum instytucji badawczych pod przewodnictwem Politechniki Wrocławskiej,
+ czy Qra z Politechniki Gdańskiej. Modele takie najczęściej tworzone są na bazie istniejących modeli *open source*, jak 
+Llama czy Mistral. Jednostki badawcze, takie jak IDEAS NCBR, prowadzą badania fundamentalne nad AI, przyciągają światowe
+ talenty, a ich prace są prezentowane na najlepszych konferencjach.
+
+Mimo tego wszystkiego, brak jest AI w polskiej stra
+tegii rozwoju. Ministerstwo Cyfryzacji rozpoczęło pewne inicjatywy związane z AI, takie jak powołanie zespołu doradczego
+ PL/AI czy ogłoszenie Funduszu AI. Wygląda jednak na to, że wysiłki kierowane są w stronę wspierania wdrożeń AI, a nie t
+worzenia nowych technologii. Jest to zasadnicza różnica. Wdrażając AI, jesteśmy w stanie wesprzeć konkretne obszary pańs
+twa, usprawnić ich działanie, jednak narzędzia których użyjemy, siłą rzeczy będą kupowane od ich zagranicznych twórców. 
+Wdrożenia jako takie nie wspierają rozwoju źródłowej technologii w Polsce. Inaczej mówiąc, nie zbudujemy w ten sposób na
+stępcy dla dzisiejszych LLM-ów, tylko będziemy opakowywać i sprzedawać w Polsce technologie wymyślone przez innych. 
+
+Na
+ razie nie ma środków dedykowanych temu, abyśmy mieli choć szansę postawić krok przed OpenAI i podobnymi, nie ma też pla
+nów lepszego rozliczania naukowców i wspierania doskonałości naukowej (bo jestem zdania, że samo dosypanie pieniędzy do 
+wadliwego systemu nie pomoże).
+
+**Jakie są twoim zdaniem najważniejsze globalne trendy w rozwoju AI, które będą kształto
+wać tę dziedzinę i wpływać na polską gospodarkę w najbliższych latach?**
+
+Najważniejsze trendy to moim zdaniem:
+
+* syste
+my wieloagentowe – złożone z wielu LLM-ów, które posiadają zwiększone zdolności do samodzielnej korekcji błędów i popraw
+iania jakości swojego działania. Badania pokazują, że grupy nawet bardzo prostych agentów pracujących razem w ramach wię
+kszego systemu osiągają jakość znacznie lepszą niż modele składowe. Być może będą mogły być używane do (prawie) autonomi
+cznego wykonywania złożonych czynności, np. używania wielu programów w sekwencji lub nawet poprawy struktury własnego sy
+stemu;
+* systemy trenowane w większym kontakcie ze światem fizycznym, w schemacie takim jak np. proponowany przez Yanna 
+LeCuna „World Model” – nauka przewidywania następnego stanu środowiska na podstawie obecnego stanu. Obecne duże modele n
+ie są jeszcze do końca multimodalne (nie przetwarzają danych pochodzących ze wszystkich zmysłów) i trenują raczej na dan
+ych statycznych;
+* mniejsze modele o zdolnościach porównywanych z dzisiejszymi LLM-ami – trend minimalizacji jest wyraźn
+y i bardzo potrzebny, gdyż fundusze niezbędne do trenowania wielkich modeli są ogromne. Podnoszone są nawet koszty środo
+wiskowe trenowania LLM-ów. Historia minimalizacji modeli jest optymistyczna – np. model DistilBERT, zminimalizowana wers
+ja transformerowego modelu BERT, zachowała 97% wydajności BERT-a przy redukcji rozmiaru o 60%. Wśród LLM-ów również widz
+imy już pewne zwiastuny sukcesu – np. bardzo dobre działanie modelu GPT-4o mini. Niestety nie wiemy, o ile GPT-4o mini j
+est mniejszy od GPT-4, ale z pewnością jest dużo mniejszy, co widać choćby po cenie (GPT-4o mini jest ok. 30 razy tańszy
+, jeśli chodzi o cenę za tokeny wejściowe).
+
+Myślę, że będziemy obserwować również trendy regionalne, związane np. z reg
+ulacjami – czyli w kontekście europejskim zobaczymy jakąś odpowiedź twórców modeli na AI Act, np. dążenie do utrzymania 
+się pod progami wyznaczającymi funkcjonalność lub wielkość modeli.
+
+\[1\] [https://www.hbs.edu/ris/Publication%20Files/2
+4-013\_d9b45b68-9e74-42d6-a1c6-c72fb70c7282.pdf](https://www.hbs.edu/ris/Publication%20Files/24-013_d9b45b68-9e74-42d6-a
+1c6-c72fb70c7282.pdf)
+
+\[2\] [https://link.springer.com/chapter/10.1007/978-3-031-64881-6\_21](https://link.springer.com
+/chapter/10.1007/978-3-031-64881-6_21)
+
+\[3\] [https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/p
+rompt-generator](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/prompt-generator)
+
+\[4\] [https
+://haimagazine.com](https://haimagazine.com/)
+```
+---
+
+     
+ 
+all -  [ AMA: PhD Researcher in Computer Vision/Machine Learning ](https://www.reddit.com/r/Btechtards/comments/1hnvw3s/ama_phd_researcher_in_computer_visionmachine/) , 2024-12-29-0914
+```
+Hello! I am a doctoral researcher working at the intersection of computer vision and machine learning at UCF, one of the
+ top vision research institutes in the US. I have four years of research experience in computer vision before joining UC
+F.
+
+Feel free to comment on this post if you seek career guidance in Vision/ML or relevant fields. Post your questions a
+s comments to this thread, and I'll try to respond to everyone. This thread is aimed to guide students/aspirants, partic
+ularly those pursuing/completing undergrad degrees and who want to get into Vision/ML research.
+
+Note: Please don't use 
+'Sir/Ma'am/XYZ' in your comments. Just use '**OP**.'
+
+**Edit:** It is late night here in my timezone, and morning in Ind
+ia. Sorry that, it had to be this way. So, I'll respond to every question I get in 24 hours.
+
+# Resources/Roadmap to ML/
+Vision:
+
+**Prerequisites:**
+
+* Linear Algebra: Use Dr. Gilbert Strang's book and lectures on YouTube.
+* Calculus: Brush 
+up your school-level calculus, and that would do for starters.
+* Probability: I have used [probabilitycourse.com](https:
+//www.probabilitycourse.com) and [statlect.com](https://www.statlect.com) but feel free to use any good resource you fin
+d. MIT OCW lectures are good resources.
+* Follow 3Blue1Brown for a lot of concepts.
+* You may also want to learn the bas
+ics of Information Theory or Coding Theory. Use MIT OCW lectures for that.
+
+**Basic Machine Learning:**
+
+* Start with th
+e ML for Everyone course by Dr. Andrew Ng in Coursera if you are an absolute beginner, and if you're learning the prereq
+uisites on the side. This used to be the absolute best (and probably the only good enough resource) back when I started.
+ All the videos are on YouTube. I am not sure how good their new ML Specialization is, but I am assuming it would be pre
+tty good.
+* Your goal will be to go towards CS229 Stanford. Use their lecture notes. It is a very good resource.
+* Refer
+ence Books: Machine Learning and Pattern Recognition by Bishop & Machine Learning Trilogy by Kevin P. Murphy. All of the
+se books are available in PDF copies on the internet.
+
+**Deep Learning:**
+
+* You may start with CS230 Stanford. It's a g
+ood resource.
+* You can try the Deep Learning Specialization in Coursera. It is decent enough to go through. Again, back
+ in the day, when I started in 2017, it was one of the best.
+* For generative models, you can start with the GAN Special
+ization of Coursera. It teaches you GANs. Work your way towards VAEs and Diffusion models through papers and blogs.
+* Tr
+ansformers, you can start learning from Dr. Andrej Karpathy's blog and YouTube [channel](https://www.youtube.com/playlis
+t?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ).
+* Reference Books: Deep Learning by Ian Goodfellow. If you want to go toward
+s the more obscure statistical part of it for deeper theoretical understanding, use Elements of Statistical Learning and
+ Introduction to Statistical Learning by Tibshirani.
+* HuggingFace [blog](https://huggingface.co/blog) is a very good pl
+ace to learn. Particularly works by the Diffusers team.
+* Another decent blog is [Lil'log](https://lilianweng.github.io/
+) by Lilian Weng. She is very good at this.
+* You can find more on Analytics Vidhya, Medium, and Towrads Data Science.
+
+
+**Computer Vision:**
+
+* Fundamental computer vision is very different from these. You Tubingen [lectures](https://youtub
+e.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_). Their other lectures are very good as well.
+* Reference Books: 
+Foundations of Computer Vision by Torralba, Isola, Freeman
+
+**Programming Languages:**
+
+* Python is absolutely necessary
+. Learn Numpy and Pandas well. Correy Schafer YouTube channel has a good Pandas [series](https://youtube.com/playlist?li
+st=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS). Scikit-Learn will satisfy the majority of the classical ML problems you'll appro
+ach
+* Tensorflow is kind of outdated and hence, so is Keras. Learn PyTorch properly. And not just the [Fast.ai](http://F
+ast.ai) API. HuggingFace API is good for engineers.
+* Learn C++ if you are going towards GPU programming with CUDA. A lo
+t of theoretical ML researchers use it and it s needed for a lot of custom and efficient implementations in real-world a
+pplications. Triton is a new alternative, but it is to be seen how good it is as an alternative.
+
+**Research:**
+
+The onl
+y thing you can do is read papers and blogs. Particularly, read top-venue A\*s (Vision - CVPR, ICCV, ECCV, TPAMI, IJCV; 
+ML - ICLR, ICML, NeurIPS, TMLR, PMLR; Theoretical AI - AAAI, IJCAI, TAI; NLP - ACL, NAACL, EMNLP) Try to stick to paper,
+ but if you are stuck somewhere find blogs that explain it. Not necessarily you'll find blogs always. Search through arX
+iv and Google Scholar. Keep following people who work in this domain. Yannic Kilcher's [podcast](https://www.youtube.com
+/@YannicKilcher), [Machine Learning Street Talk](https://www.youtube.com/@MachineLearningStreetTalk) are good YouTube ch
+annels to stay updated as well.
+
+**Implementations:**
+
+There are a few implementations that are easier to understand or 
+use.
+
+* For any paper or implementation, if you are seeing Meta's repository, it's the best thing out there.
+* Lucidrain
+s has a good [profile](https://github.com/lucidrains) with repositories and lots of implementations.
+* [Seq2Seq](https:/
+/github.com/bentrevett/pytorch-seq2seq) is good for RNN to transformer explanations with codes.
+* Find implementations o
+f any paper in [Papers with Code](https://paperswithcode.com/).
+```
+---
+
+     
+ 
+all -  [ Chance me Harvard, UMich, NYU ](https://www.reddit.com/r/chanceme/comments/1hmlac5/chance_me_harvard_umich_nyu/) , 2024-12-29-0914
 ```
 **CS for all**
 
@@ -94,7 +558,7 @@ Will I beat the odds???
 
      
  
-all -  [ # of papers vs. citations ](https://www.reddit.com/r/eb_1a/comments/1hm9j9b/of_papers_vs_citations/) , 2024-12-28-0912
+all -  [ # of papers vs. citations ](https://www.reddit.com/r/eb_1a/comments/1hm9j9b/of_papers_vs_citations/) , 2024-12-29-0914
 ```
 How are the two compared?
 
@@ -116,7 +580,7 @@ ed ones are also getting cited). What do you guys think?
 
      
  
-all -  [ i sensed anxiety and frustration at NeurIPS 24 ](https://kyunghyuncho.me/i-sensed-anxiety-and-frustration-at-neurips24/) , 2024-12-28-0912
+all -  [ i sensed anxiety and frustration at NeurIPS 24 ](https://kyunghyuncho.me/i-sensed-anxiety-and-frustration-at-neurips24/) , 2024-12-29-0914
 ```
 
 ```
@@ -124,7 +588,7 @@ all -  [ i sensed anxiety and frustration at NeurIPS 24 ](https://kyunghyuncho.m
 
      
  
-all -  [ [D] What would you like in a ML/ML-related course in university? ](https://www.reddit.com/r/MachineLearning/comments/1hhdch4/d_what_would_you_like_in_a_mlmlrelated_course_in/) , 2024-12-28-0912
+all -  [ [D] What would you like in a ML/ML-related course in university? ](https://www.reddit.com/r/MachineLearning/comments/1hhdch4/d_what_would_you_like_in_a_mlmlrelated_course_in/) , 2024-12-29-0914
 ```
 Hi!
 
@@ -180,7 +644,7 @@ Thank you!
 
      
  
-all -  [ Winning edge models from Neurips 2024 competition  ](https://www.reddit.com/r/LocalLLaMA/comments/1hhbl6a/winning_edge_models_from_neurips_2024_competition/) , 2024-12-28-0912
+all -  [ Winning edge models from Neurips 2024 competition  ](https://www.reddit.com/r/LocalLLaMA/comments/1hhbl6a/winning_edge_models_from_neurips_2024_competition/) , 2024-12-29-0914
 ```
 I have been following up the neurips edge llm competition for a while and recently they announced the winners. The compe
 tition had two tracks. One was compression challenge and another was training from scratch. Though the models and associ
@@ -193,7 +657,7 @@ https://edge-llms-challenge.github.io/edge-llm-challenge.github.io/leaderboard
 
      
  
-all -  [ NeurIPS 2024: Capital One showcases leading AI research ](https://www.reddit.com/r/u_CapitalOne/comments/1hh7gli/neurips_2024_capital_one_showcases_leading_ai/) , 2024-12-28-0912
+all -  [ NeurIPS 2024: Capital One showcases leading AI research ](https://www.reddit.com/r/u_CapitalOne/comments/1hh7gli/neurips_2024_capital_one_showcases_leading_ai/) , 2024-12-29-0914
 ```
 # This past week, many Capital One associates were active participants at the r/NeurIPS conference. Explore our contribu
 tions to the world's premier AI research conference, from papers and workshops to expert presentations.
@@ -367,7 +831,7 @@ g/) and keep the progress going! 
 
      
  
-all -  [ Can o1-preview find major mistakes amongst 59 NeurIPS '24 MLSB papers? ](https://www.reddit.com/r/slatestarcodex/comments/1hh25xz/can_o1preview_find_major_mistakes_amongst_59/) , 2024-12-28-0912
+all -  [ Can o1-preview find major mistakes amongst 59 NeurIPS '24 MLSB papers? ](https://www.reddit.com/r/slatestarcodex/comments/1hh25xz/can_o1preview_find_major_mistakes_amongst_59/) , 2024-12-29-0914
 ```
 [Link to the essay](https://www.owlposting.com/p/can-o1-preview-find-major-mistakes)
 
@@ -385,7 +849,7 @@ n't a drop in replacement for an academic reviewer, but its critiques are still 
 
      
  
-all -  [ Influential creators at tech conference: 'Don't say AI democratizes art-making. Should we democratiz ](https://www.reddit.com/r/aiwars/comments/1hgq91u/influential_creators_at_tech_conference_dont_say/) , 2024-12-28-0912
+all -  [ Influential creators at tech conference: 'Don't say AI democratizes art-making. Should we democratiz ](https://www.reddit.com/r/aiwars/comments/1hgq91u/influential_creators_at_tech_conference_dont_say/) , 2024-12-29-0914
 ```
 Despite being mostly public figures, names still censored as per rules.
 
@@ -417,7 +881,7 @@ hose tools don't match the activity, there's nothing wrong with that.
 
      
  
-all -  [ Am I Making the Right Choice? Masters in ML, Research Lab Experience, and Building Things That Matte ](https://www.reddit.com/r/learnmachinelearning/comments/1hgng0o/am_i_making_the_right_choice_masters_in_ml/) , 2024-12-28-0912
+all -  [ Am I Making the Right Choice? Masters in ML, Research Lab Experience, and Building Things That Matte ](https://www.reddit.com/r/learnmachinelearning/comments/1hgng0o/am_i_making_the_right_choice_masters_in_ml/) , 2024-12-29-0914
 ```
 I’m currently pursuing my master’s in machine learning, and I love building things — that’s how I understand concepts be
 st. But my first semester hit me with a tough realization: I joined a research lab way too early, and it just wasn’t the
@@ -447,7 +911,7 @@ f sticking it out in the lab?
 
      
  
-all -  [ Legal Tech’s Data Dilemma: Trust, Betrayal, and Competition. ](https://www.reddit.com/r/legaltech/comments/1hgmxc4/legal_techs_data_dilemma_trust_betrayal_and/) , 2024-12-28-0912
+all -  [ Legal Tech’s Data Dilemma: Trust, Betrayal, and Competition. ](https://www.reddit.com/r/legaltech/comments/1hgmxc4/legal_techs_data_dilemma_trust_betrayal_and/) , 2024-12-29-0914
 ```
 Ilya Sutskever, co-founder of OpenAI, recently highlighted a critical issue at the NeurIPS 2024 conference: the AI indus
 try is facing a data scarcity problem, often referred to as 'peak data.' Despite advancements in computing power, the av
@@ -484,7 +948,7 @@ view.redd.it/k32axcw1lh7e1.jpg?width=2048&format=pjpg&auto=webp&s=3887497b862f31
 
      
  
-all -  [ ChanceMe : Asian Male CS 🙏🙏🙏 ](https://www.reddit.com/r/chanceme/comments/1hgkgzi/chanceme_asian_male_cs/) , 2024-12-28-0912
+all -  [ ChanceMe : Asian Male CS 🙏🙏🙏 ](https://www.reddit.com/r/chanceme/comments/1hgkgzi/chanceme_asian_male_cs/) , 2024-12-29-0914
 ```
 I think its a strong application but holy shit my GPA is eating at my confidence rn, please chanceme would be much appre
 ciated
@@ -581,7 +1045,7 @@ Would really appreciate yall's thoughts on this :D
 
      
  
-all -  [ Valence & Recursion Sweep Awards at Foundation Models for Science Workshop at NeurIPS ](https://www.reddit.com/r/RecursionPharma/comments/1hfo8d6/valence_recursion_sweep_awards_at_foundation/) , 2024-12-28-0912
+all -  [ Valence & Recursion Sweep Awards at Foundation Models for Science Workshop at NeurIPS ](https://www.reddit.com/r/RecursionPharma/comments/1hfo8d6/valence_recursion_sweep_awards_at_foundation/) , 2024-12-29-0914
 ```
 https://preview.redd.it/0jg8zf1sv87e1.png?width=1200&format=png&auto=webp&s=951c8af14784f575ef01a613f15a8c80e2f73d17
 
@@ -629,7 +1093,7 @@ jv6c2ceWmePe-Jl-BcrAc3MaQXhUG9VtgoQ9q8Jm8kZAX4gjgN8BWRSb9QeIYE2XwWCLl8bqvpU0AKz5
 
      
  
-all -  [ NeurIPS conference in Vancouver draws 16,000 AI researchers $META ](https://www.reddit.com/r/alertscreener/comments/1hfitr5/neurips_conference_in_vancouver_draws_16000_ai/) , 2024-12-28-0912
+all -  [ NeurIPS conference in Vancouver draws 16,000 AI researchers $META ](https://www.reddit.com/r/alertscreener/comments/1hfitr5/neurips_conference_in_vancouver_draws_16000_ai/) , 2024-12-29-0914
 ```
 With major companies like Meta $META, Alphabet $GOOGL, and Microsoft $MSFT showcasing their latest AI advancements and p
 roducts.
@@ -640,7 +1104,7 @@ roducts.
 
      
  
-all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/askvan/comments/1hf3fah/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-28-0912
+all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/askvan/comments/1hf3fah/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-29-0914
 ```
 I've been here for a week attending NeurIPS 2024 and will be heading back Toronto tomorrow. I only have this evening lef
 t—what's the must-see or unique experience I shouldn’t miss to avoid regretting it later
@@ -649,7 +1113,7 @@ t—what's the must-see or unique experience I shouldn’t miss to avoid regrett
 
      
  
-all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/canadatravel/comments/1hf37do/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-28-0912
+all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/canadatravel/comments/1hf37do/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-29-0914
 ```
 I've been here for a week attending NeurIPS 2024 and will be heading back Toronto tomorrow. I only have this evening lef
 t—what's the must-see or unique experience I shouldn’t miss to avoid regretting it later
@@ -660,7 +1124,7 @@ t—what's the must-see or unique experience I shouldn’t miss to avoid regrett
 
      
  
-all -  [ [D] Are We Okay With This? Questionable Poster Behavior at NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/1heo36q/d_are_we_okay_with_this_questionable_poster/) , 2024-12-28-0912
+all -  [ [D] Are We Okay With This? Questionable Poster Behavior at NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/1heo36q/d_are_we_okay_with_this_questionable_poster/) , 2024-12-29-0914
 ```
 This was my first year at NeurIPS. It’s inspiring to see so much cutting-edge research being presented, but something tr
 oubling caught my attention during the poster sessions that I feel compelled to share, especially given [the recent inci
@@ -717,7 +1181,7 @@ ighthearted or still academic? 
 
      
  
-all -  [ A little bit of drama: Pre-training is only over if you have no imagination - Logan Kilpatrick ](https://www.reddit.com/r/singularity/comments/1he9tsn/a_little_bit_of_drama_pretraining_is_only_over_if/) , 2024-12-28-0912
+all -  [ A little bit of drama: Pre-training is only over if you have no imagination - Logan Kilpatrick ](https://www.reddit.com/r/singularity/comments/1he9tsn/a_little_bit_of_drama_pretraining_is_only_over_if/) , 2024-12-29-0914
 ```
 https://x.com/OfficialLoganK/status/1868002617311596552?t=uNazJ-3HPuWlBrXGagkAag&s=19
 
@@ -729,7 +1193,7 @@ This is in response to Ilya Sutskever's talk during NeurIPS 2024.
 
      
  
-all -  [ A Perfect Storm for AI Inference TPU will be new king  ](https://www.reddit.com/r/Bard/comments/1he4e14/a_perfect_storm_for_ai_inference_tpu_will_be_new/) , 2024-12-28-0912
+all -  [ A Perfect Storm for AI Inference TPU will be new king  ](https://www.reddit.com/r/Bard/comments/1he4e14/a_perfect_storm_for_ai_inference_tpu_will_be_new/) , 2024-12-29-0914
 ```
 Ilya Sutskever's recent bombshell at NeurIPS – [https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-op
 enai-model-data-training](https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-traini
@@ -768,7 +1232,7 @@ ra.
 
      
  
-all -  [ Ilya Sutskever, cofondateur et ancien directeur scientifique d'OpenAI, a fait une rare apparition pu ](https://www.reddit.com/r/actutech/comments/1hdxdjs/ilya_sutskever_cofondateur_et_ancien_directeur/) , 2024-12-28-0912
+all -  [ Ilya Sutskever, cofondateur et ancien directeur scientifique d'OpenAI, a fait une rare apparition pu ](https://www.reddit.com/r/actutech/comments/1hdxdjs/ilya_sutskever_cofondateur_et_ancien_directeur/) , 2024-12-29-0914
 ```
 Il a notamment affirmé que le pré-entraînement des modèles tel que nous le connaissons va inévitablement prendre fin, co
 mparant les données à un 'combustible fossile' limité. Selon lui, nous avons atteint un pic des données disponibles, car
@@ -792,7 +1256,7 @@ https://preview.redd.it/2ly7b8fejr6e1.jpg?width=960&format=pjpg&auto=webp&s=ae6c
 
      
  
-all -  [ [D] The winner of the NeurIPS 2024 Best Paper Award  sabotaged the other teams ](https://www.reddit.com/r/MachineLearning/comments/1hctf36/d_the_winner_of_the_neurips_2024_best_paper_award/) , 2024-12-28-0912
+all -  [ [D] The winner of the NeurIPS 2024 Best Paper Award  sabotaged the other teams ](https://www.reddit.com/r/MachineLearning/comments/1hctf36/d_the_winner_of_the_neurips_2024_best_paper_award/) , 2024-12-29-0914
 ```
 Presumably, the winner of the NeurIPS 2024 Best Paper Award (a guy from ByteDance, the creators of Tiktok) sabotaged the
  other teams to derail their research and redirect their resources to his own. Plus he was at meetings debugging his col
@@ -808,7 +1272,7 @@ I have not checked the facts themselves, so if you can verify what is
 
      
  
-all -  [ Feels good to see Mr.X getting noted ](https://i.redd.it/oexht6c8rg6e1.jpeg) , 2024-12-28-0912
+all -  [ Feels good to see Mr.X getting noted ](https://i.redd.it/oexht6c8rg6e1.jpeg) , 2024-12-29-0914
 ```
 Link: https://x.com/elonmusk/status/1866797259968614885?s=46
 ```
@@ -816,40 +1280,7 @@ Link: https://x.com/elonmusk/status/1866797259968614885?s=46
 
      
  
-all -  [ and now we know why Elon named his stupid AI 'Grok'  ](https://i.redd.it/j0pk4yr54f6e1.png) , 2024-12-28-0912
-```
-also why does the chart go all the way back to 1991
-```
----
-
-     
- 
-all -  [ 
-New framework for quantifying uncertainty in LLMs: Semantic Density ](https://www.reddit.com/r/airesearch/comments/1hc6fez/new_framework_for_quantifying_uncertainty_in_llms/) , 2024-12-28-0912
-```
-Can we trust LLMs in high-stakes decisions? Cognizant AI Research Lab introduces Semantic Density, a scalable framework 
-to quantify response-specific uncertainty without retraining. Tested on state-of-the-art models, it outperforms existing
- methods on benchmarks. Presented at NeurIPS 2024—let’s discuss: [https://medium.com/@evolutionmlmail/quantifying-uncert
-ainty-in-llms-with-semantic-density-ff0e58836416](https://medium.com/@evolutionmlmail/quantifying-uncertainty-in-llms-wi
-th-semantic-density-ff0e58836416)
-
-
-```
----
-
-     
- 
-all -  [ How well-informed Elon Musk is when he makes a statement ](https://www.reddit.com/r/EnoughMuskSpam/comments/1hc415l/how_wellinformed_elon_musk_is_when_he_makes_a/) , 2024-12-28-0912
-```
-https://preview.redd.it/ekphsq71aa6e1.png?width=798&format=png&auto=webp&s=025884971824e9394aa64d398c70b1d44da62083
-
-
-```
----
-
-     
- 
-MachineLearning -  [ [D] How to make friends and network at NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1hc0x89/d_how_to_make_friends_and_network_at_neurips/) , 2024-12-28-0912
+MachineLearning -  [ [D] How to make friends and network at NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1hc0x89/d_how_to_make_friends_and_network_at_neurips/) , 2024-12-29-0914
 ```
 I’m attending NeurIPS for the first time and it’s quite overwhelming seeing the amount of people and so many recruiters.
  I come from a not so well known university, and have come to the conference completely alone, not even my supervisor is
@@ -868,7 +1299,7 @@ stuff going on in the area. Cheers!
 
      
  
-MachineLearning -  [ [R] Improving robustness to corruptions with multiplicative weight perturbations - A simple yet effe ](https://www.reddit.com/r/MachineLearning/comments/1hap6gx/r_improving_robustness_to_corruptions_with/) , 2024-12-28-0912
+MachineLearning -  [ [R] Improving robustness to corruptions with multiplicative weight perturbations - A simple yet effe ](https://www.reddit.com/r/MachineLearning/comments/1hap6gx/r_improving_robustness_to_corruptions_with/) , 2024-12-29-0914
 ```
 We would like to share and discuss this NeurIPS spotlight paper (disclaimer: I am a co-author).
 
