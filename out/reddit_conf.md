@@ -1,5 +1,56 @@
  
-all -  [ DeepSeek-v3 | Best open-source model on ProLLM ](https://www.reddit.com/r/LocalLLaMA/comments/1ho5ave/deepseekv3_best_opensource_model_on_prollm/) , 2024-12-29-0914
+all -  [ [Profile Review] MSCS / DS Fall'25 ](https://www.reddit.com/r/MSCS/comments/1hp3hbr/profile_review_mscs_ds_fall25/) , 2024-12-30-0914
+```
+Hi, this is my profile with colleges I've applied to, I need strong feedback because I'm kinda concerned now xD.
+
+* GRE:
+ 323 (168Q + 155V)
+* TOEFL: 114 (R:29, L:30, S:29, W:26)
+* Undergraduate: B.Tech. CS at BITS Goa (2025), idk if it's Tie
+r 1 / 2
+* GPA: 9.22 (I have some Bs on my CS courses)
+* Papers: 1 published at a NeurIPS workshop (3rd author), rest are
+ under review, I have 4 preprints (2 at B confs and one at CVPR (A\*) and one at an AAAI (A\*) workshop, I am first the 
+author on all of these).
+* Research Exp 1: I was a DAAD WISE scholar in my 3rd year summer (quite selective scholarship)
+ did my summer research in Germany, very productive work, this was submitted to CVPR, I got a very strong LoR from the P
+I (h-index \~20).
+* Research Exp 2: I worked with the AI lab at BITS for over a year-and-a-half now, got 3 preprints fro
+m there (as I detailed), I topped courses (top-5 / 1st rank) these profs took + TA'd them (quite involved in my TA work)
+. Got 2 equally strong LoRs from here (one at h-index \~40 and one at h-index \~15).
+* Research Exp 3: I interned at a s
+tartup for about 5 months working on AI for materials science, decent work, I have some open-source contribs here, and b
+efore interning I worked informally which led to that NeurIPS workshop acceptance. Moderate LoR from here (the CEO has h
+-index \~25 and he gave an LoR).
+* Extra: I am the president of the AI club here (was the Gen Sec before), have organize
+d symposiums, made assignments, gave talks, etc. I also started a blog-posts initiative, our first blog-post was accepte
+d at an ICML (A\*) workshop.
+
+Finally, Colleges: UPenn MS CIS, UCSD MS DS + CSE, CMU MS ML, UCLA MS CS, UT Austin MS CS,
+ UIUC MS CS, UW Madison MS CS, Princeton MS CS, Purdue MS CS, Yale MS CS (2 year), UMich MS CSE, Stanford MS DS + Stats.
+
+
+I have a Full-time job offer in hand, which is why I was going all ambitious, but now I'm kinda conflicted if I really
+ want the job. Let me know my realistic chances (I'll go anywhere I am accepted from these), you can be upfront xD. And 
+feel free to suggest any more if their deadline hasn't already passed.
+
+Thanks!
+```
+---
+
+     
+ 
+all -  [ There is no model that is phd level until it can write a paper that is accepted to Neurips on its ow ](https://www.reddit.com/r/ChatGPT/comments/1hopxko/there_is_no_model_that_is_phd_level_until_it_can/) , 2024-12-30-0914
+```
+Pretty much the title. But ultimately phd level means you can write a paper that gets accepted to a top conference. Unti
+l it can come up with a new and novel idea to get submitted to a conference, I don’t think any model can claim phd level
+
+```
+---
+
+     
+ 
+all -  [ DeepSeek-v3 | Best open-source model on ProLLM ](https://www.reddit.com/r/LocalLLaMA/comments/1ho5ave/deepseekv3_best_opensource_model_on_prollm/) , 2024-12-30-0914
 ```
 Hey everyone!
 
@@ -37,7 +88,7 @@ be4ab
 
      
  
-all -  [ Wyzwanie: sztuczna inteligencja! - z Barbarą Rychalską rozmawia Dobrosława Gogłoza ](https://www.reddit.com/r/libek/comments/1ho3uoy/wyzwanie_sztuczna_inteligencja_z_barbarą/) , 2024-12-29-0914
+all -  [ Wyzwanie: sztuczna inteligencja! - z Barbarą Rychalską rozmawia Dobrosława Gogłoza ](https://www.reddit.com/r/libek/comments/1ho3uoy/wyzwanie_sztuczna_inteligencja_z_barbarą/) , 2024-12-30-0914
 ```
 [Wyzwanie: sztuczna inteligencja! - z Barbarą Rychalską rozmawia Dobrosława Gogłoza - Liberté!](https://liberte.pl/wyzwa
 nie-sztuczna-inteligencja-z-barbara-rychalska-rozmawia-dobroslawa-gogloza/)
@@ -353,7 +404,7 @@ rompt-generator](https://docs.anthropic.com/en/docs/build-with-claude/prompt-eng
 
      
  
-all -  [ AMA: PhD Researcher in Computer Vision/Machine Learning ](https://www.reddit.com/r/Btechtards/comments/1hnvw3s/ama_phd_researcher_in_computer_visionmachine/) , 2024-12-29-0914
+all -  [ AMA: PhD Researcher in Computer Vision/Machine Learning ](https://www.reddit.com/r/Btechtards/comments/1hnvw3s/ama_phd_researcher_in_computer_visionmachine/) , 2024-12-30-0914
 ```
 Hello! I am a doctoral researcher working at the intersection of computer vision and machine learning at UCF, one of the
  top vision research institutes in the US. I have four years of research experience in computer vision before joining UC
@@ -419,51 +470,51 @@ ace to learn. Particularly works by the Diffusers team.
 
 **Computer Vision:**
 
-* Fundamental computer vision is very different from these. You Tubingen [lectures](https://youtub
-e.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_). Their other lectures are very good as well.
-* Reference Books: 
-Foundations of Computer Vision by Torralba, Isola, Freeman
+* Fundamental computer vision is very different from these. Use Tubingen [lectures](https://youtub
+e.com/playlist?list=PL05umP7R6ij35L2MHGzis8AEHz7mg381_) from YouTube. Their other lectures are very good as well.
+* Refe
+rence Books: Foundations of Computer Vision by Torralba, Isola, Freeman
 
 **Programming Languages:**
 
-* Python is absolutely necessary
-. Learn Numpy and Pandas well. Correy Schafer YouTube channel has a good Pandas [series](https://youtube.com/playlist?li
-st=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS). Scikit-Learn will satisfy the majority of the classical ML problems you'll appro
-ach
-* Tensorflow is kind of outdated and hence, so is Keras. Learn PyTorch properly. And not just the [Fast.ai](http://F
-ast.ai) API. HuggingFace API is good for engineers.
-* Learn C++ if you are going towards GPU programming with CUDA. A lo
-t of theoretical ML researchers use it and it s needed for a lot of custom and efficient implementations in real-world a
-pplications. Triton is a new alternative, but it is to be seen how good it is as an alternative.
+* Python is absolut
+ely necessary. Learn Numpy and Pandas well. Correy Schafer YouTube channel has a good Pandas [series](https://youtube.co
+m/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS). Scikit-Learn will satisfy the majority of the classical ML problems
+ you'll approach
+* Tensorflow is kind of outdated and hence, so is Keras. Learn PyTorch properly. And not just the [Fast
+.ai](http://Fast.ai) API. HuggingFace API is good for engineers.
+* Learn C++ if you are going towards GPU programming wi
+th CUDA. A lot of theoretical ML researchers use it and it s needed for a lot of custom and efficient implementations in
+ real-world applications. Triton is a new alternative, but it is to be seen how good it is as an alternative.
 
-**Research:**
+**Researc
+h:**
 
-The onl
-y thing you can do is read papers and blogs. Particularly, read top-venue A\*s (Vision - CVPR, ICCV, ECCV, TPAMI, IJCV; 
-ML - ICLR, ICML, NeurIPS, TMLR, PMLR; Theoretical AI - AAAI, IJCAI, TAI; NLP - ACL, NAACL, EMNLP) Try to stick to paper,
- but if you are stuck somewhere find blogs that explain it. Not necessarily you'll find blogs always. Search through arX
-iv and Google Scholar. Keep following people who work in this domain. Yannic Kilcher's [podcast](https://www.youtube.com
-/@YannicKilcher), [Machine Learning Street Talk](https://www.youtube.com/@MachineLearningStreetTalk) are good YouTube ch
-annels to stay updated as well.
+The only thing you can do is read papers and blogs. Particularly, read top-venue A\*s (Vision - CVPR, ICCV, ECCV, 
+TPAMI, IJCV; ML - ICLR, ICML, NeurIPS, TMLR, PMLR; Theoretical AI - AAAI, IJCAI, TAI; NLP - ACL, NAACL, EMNLP) Try to st
+ick to paper, but if you are stuck somewhere find blogs that explain it. Not necessarily you'll find blogs always. Searc
+h through arXiv and Google Scholar. Keep following people who work in this domain. Yannic Kilcher's [podcast](https://ww
+w.youtube.com/@YannicKilcher), [Machine Learning Street Talk](https://www.youtube.com/@MachineLearningStreetTalk) are go
+od YouTube channels to stay updated as well.
 
 **Implementations:**
 
-There are a few implementations that are easier to understand or 
-use.
+There are a few implementations that are easier to u
+nderstand or use.
 
-* For any paper or implementation, if you are seeing Meta's repository, it's the best thing out there.
-* Lucidrain
-s has a good [profile](https://github.com/lucidrains) with repositories and lots of implementations.
-* [Seq2Seq](https:/
-/github.com/bentrevett/pytorch-seq2seq) is good for RNN to transformer explanations with codes.
-* Find implementations o
-f any paper in [Papers with Code](https://paperswithcode.com/).
+* For any paper or implementation, if you are seeing Meta's repository, it's the best thing out there
+.
+* Lucidrains has a good [profile](https://github.com/lucidrains) with repositories and lots of implementations.
+* [Seq
+2Seq](https://github.com/bentrevett/pytorch-seq2seq) is good for RNN to transformer explanations with codes.
+* Find impl
+ementations of any paper in [Papers with Code](https://paperswithcode.com/).
 ```
 ---
 
      
  
-all -  [ Chance me Harvard, UMich, NYU ](https://www.reddit.com/r/chanceme/comments/1hmlac5/chance_me_harvard_umich_nyu/) , 2024-12-29-0914
+all -  [ Chance me Harvard, UMich, NYU ](https://www.reddit.com/r/chanceme/comments/1hmlac5/chance_me_harvard_umich_nyu/) , 2024-12-30-0914
 ```
 **CS for all**
 
@@ -558,7 +609,7 @@ Will I beat the odds???
 
      
  
-all -  [ # of papers vs. citations ](https://www.reddit.com/r/eb_1a/comments/1hm9j9b/of_papers_vs_citations/) , 2024-12-29-0914
+all -  [ # of papers vs. citations ](https://www.reddit.com/r/eb_1a/comments/1hm9j9b/of_papers_vs_citations/) , 2024-12-30-0914
 ```
 How are the two compared?
 
@@ -580,7 +631,7 @@ ed ones are also getting cited). What do you guys think?
 
      
  
-all -  [ i sensed anxiety and frustration at NeurIPS 24 ](https://kyunghyuncho.me/i-sensed-anxiety-and-frustration-at-neurips24/) , 2024-12-29-0914
+all -  [ i sensed anxiety and frustration at NeurIPS 24 ](https://kyunghyuncho.me/i-sensed-anxiety-and-frustration-at-neurips24/) , 2024-12-30-0914
 ```
 
 ```
@@ -588,7 +639,7 @@ all -  [ i sensed anxiety and frustration at NeurIPS 24 ](https://kyunghyuncho.m
 
      
  
-all -  [ [D] What would you like in a ML/ML-related course in university? ](https://www.reddit.com/r/MachineLearning/comments/1hhdch4/d_what_would_you_like_in_a_mlmlrelated_course_in/) , 2024-12-29-0914
+all -  [ [D] What would you like in a ML/ML-related course in university? ](https://www.reddit.com/r/MachineLearning/comments/1hhdch4/d_what_would_you_like_in_a_mlmlrelated_course_in/) , 2024-12-30-0914
 ```
 Hi!
 
@@ -644,7 +695,7 @@ Thank you!
 
      
  
-all -  [ Winning edge models from Neurips 2024 competition  ](https://www.reddit.com/r/LocalLLaMA/comments/1hhbl6a/winning_edge_models_from_neurips_2024_competition/) , 2024-12-29-0914
+all -  [ Winning edge models from Neurips 2024 competition  ](https://www.reddit.com/r/LocalLLaMA/comments/1hhbl6a/winning_edge_models_from_neurips_2024_competition/) , 2024-12-30-0914
 ```
 I have been following up the neurips edge llm competition for a while and recently they announced the winners. The compe
 tition had two tracks. One was compression challenge and another was training from scratch. Though the models and associ
@@ -657,7 +708,7 @@ https://edge-llms-challenge.github.io/edge-llm-challenge.github.io/leaderboard
 
      
  
-all -  [ NeurIPS 2024: Capital One showcases leading AI research ](https://www.reddit.com/r/u_CapitalOne/comments/1hh7gli/neurips_2024_capital_one_showcases_leading_ai/) , 2024-12-29-0914
+all -  [ NeurIPS 2024: Capital One showcases leading AI research ](https://www.reddit.com/r/u_CapitalOne/comments/1hh7gli/neurips_2024_capital_one_showcases_leading_ai/) , 2024-12-30-0914
 ```
 # This past week, many Capital One associates were active participants at the r/NeurIPS conference. Explore our contribu
 tions to the world's premier AI research conference, from papers and workshops to expert presentations.
@@ -831,7 +882,7 @@ g/) and keep the progress going! 
 
      
  
-all -  [ Can o1-preview find major mistakes amongst 59 NeurIPS '24 MLSB papers? ](https://www.reddit.com/r/slatestarcodex/comments/1hh25xz/can_o1preview_find_major_mistakes_amongst_59/) , 2024-12-29-0914
+all -  [ Can o1-preview find major mistakes amongst 59 NeurIPS '24 MLSB papers? ](https://www.reddit.com/r/slatestarcodex/comments/1hh25xz/can_o1preview_find_major_mistakes_amongst_59/) , 2024-12-30-0914
 ```
 [Link to the essay](https://www.owlposting.com/p/can-o1-preview-find-major-mistakes)
 
@@ -849,7 +900,7 @@ n't a drop in replacement for an academic reviewer, but its critiques are still 
 
      
  
-all -  [ Influential creators at tech conference: 'Don't say AI democratizes art-making. Should we democratiz ](https://www.reddit.com/r/aiwars/comments/1hgq91u/influential_creators_at_tech_conference_dont_say/) , 2024-12-29-0914
+all -  [ Influential creators at tech conference: 'Don't say AI democratizes art-making. Should we democratiz ](https://www.reddit.com/r/aiwars/comments/1hgq91u/influential_creators_at_tech_conference_dont_say/) , 2024-12-30-0914
 ```
 Despite being mostly public figures, names still censored as per rules.
 
@@ -881,7 +932,7 @@ hose tools don't match the activity, there's nothing wrong with that.
 
      
  
-all -  [ Am I Making the Right Choice? Masters in ML, Research Lab Experience, and Building Things That Matte ](https://www.reddit.com/r/learnmachinelearning/comments/1hgng0o/am_i_making_the_right_choice_masters_in_ml/) , 2024-12-29-0914
+all -  [ Am I Making the Right Choice? Masters in ML, Research Lab Experience, and Building Things That Matte ](https://www.reddit.com/r/learnmachinelearning/comments/1hgng0o/am_i_making_the_right_choice_masters_in_ml/) , 2024-12-30-0914
 ```
 I’m currently pursuing my master’s in machine learning, and I love building things — that’s how I understand concepts be
 st. But my first semester hit me with a tough realization: I joined a research lab way too early, and it just wasn’t the
@@ -911,7 +962,7 @@ f sticking it out in the lab?
 
      
  
-all -  [ Legal Tech’s Data Dilemma: Trust, Betrayal, and Competition. ](https://www.reddit.com/r/legaltech/comments/1hgmxc4/legal_techs_data_dilemma_trust_betrayal_and/) , 2024-12-29-0914
+all -  [ Legal Tech’s Data Dilemma: Trust, Betrayal, and Competition. ](https://www.reddit.com/r/legaltech/comments/1hgmxc4/legal_techs_data_dilemma_trust_betrayal_and/) , 2024-12-30-0914
 ```
 Ilya Sutskever, co-founder of OpenAI, recently highlighted a critical issue at the NeurIPS 2024 conference: the AI indus
 try is facing a data scarcity problem, often referred to as 'peak data.' Despite advancements in computing power, the av
@@ -948,7 +999,7 @@ view.redd.it/k32axcw1lh7e1.jpg?width=2048&format=pjpg&auto=webp&s=3887497b862f31
 
      
  
-all -  [ ChanceMe : Asian Male CS 🙏🙏🙏 ](https://www.reddit.com/r/chanceme/comments/1hgkgzi/chanceme_asian_male_cs/) , 2024-12-29-0914
+all -  [ ChanceMe : Asian Male CS 🙏🙏🙏 ](https://www.reddit.com/r/chanceme/comments/1hgkgzi/chanceme_asian_male_cs/) , 2024-12-30-0914
 ```
 I think its a strong application but holy shit my GPA is eating at my confidence rn, please chanceme would be much appre
 ciated
@@ -1045,7 +1096,7 @@ Would really appreciate yall's thoughts on this :D
 
      
  
-all -  [ Valence & Recursion Sweep Awards at Foundation Models for Science Workshop at NeurIPS ](https://www.reddit.com/r/RecursionPharma/comments/1hfo8d6/valence_recursion_sweep_awards_at_foundation/) , 2024-12-29-0914
+all -  [ Valence & Recursion Sweep Awards at Foundation Models for Science Workshop at NeurIPS ](https://www.reddit.com/r/RecursionPharma/comments/1hfo8d6/valence_recursion_sweep_awards_at_foundation/) , 2024-12-30-0914
 ```
 https://preview.redd.it/0jg8zf1sv87e1.png?width=1200&format=png&auto=webp&s=951c8af14784f575ef01a613f15a8c80e2f73d17
 
@@ -1093,7 +1144,7 @@ jv6c2ceWmePe-Jl-BcrAc3MaQXhUG9VtgoQ9q8Jm8kZAX4gjgN8BWRSb9QeIYE2XwWCLl8bqvpU0AKz5
 
      
  
-all -  [ NeurIPS conference in Vancouver draws 16,000 AI researchers $META ](https://www.reddit.com/r/alertscreener/comments/1hfitr5/neurips_conference_in_vancouver_draws_16000_ai/) , 2024-12-29-0914
+all -  [ NeurIPS conference in Vancouver draws 16,000 AI researchers $META ](https://www.reddit.com/r/alertscreener/comments/1hfitr5/neurips_conference_in_vancouver_draws_16000_ai/) , 2024-12-30-0914
 ```
 With major companies like Meta $META, Alphabet $GOOGL, and Microsoft $MSFT showcasing their latest AI advancements and p
 roducts.
@@ -1104,7 +1155,7 @@ roducts.
 
      
  
-all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/askvan/comments/1hf3fah/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-29-0914
+all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/askvan/comments/1hf3fah/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-30-0914
 ```
 I've been here for a week attending NeurIPS 2024 and will be heading back Toronto tomorrow. I only have this evening lef
 t—what's the must-see or unique experience I shouldn’t miss to avoid regretting it later
@@ -1113,7 +1164,7 @@ t—what's the must-see or unique experience I shouldn’t miss to avoid regrett
 
      
  
-all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/canadatravel/comments/1hf37do/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-29-0914
+all -  [ Last Evening in Vancouver: Must-See Experiences Before Heading Back? ](https://www.reddit.com/r/canadatravel/comments/1hf37do/last_evening_in_vancouver_mustsee_experiences/) , 2024-12-30-0914
 ```
 I've been here for a week attending NeurIPS 2024 and will be heading back Toronto tomorrow. I only have this evening lef
 t—what's the must-see or unique experience I shouldn’t miss to avoid regretting it later
@@ -1124,7 +1175,7 @@ t—what's the must-see or unique experience I shouldn’t miss to avoid regrett
 
      
  
-all -  [ [D] Are We Okay With This? Questionable Poster Behavior at NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/1heo36q/d_are_we_okay_with_this_questionable_poster/) , 2024-12-29-0914
+all -  [ [D] Are We Okay With This? Questionable Poster Behavior at NeurIPS ](https://www.reddit.com/r/MachineLearning/comments/1heo36q/d_are_we_okay_with_this_questionable_poster/) , 2024-12-30-0914
 ```
 This was my first year at NeurIPS. It’s inspiring to see so much cutting-edge research being presented, but something tr
 oubling caught my attention during the poster sessions that I feel compelled to share, especially given [the recent inci
@@ -1181,7 +1232,7 @@ ighthearted or still academic? 
 
      
  
-all -  [ A little bit of drama: Pre-training is only over if you have no imagination - Logan Kilpatrick ](https://www.reddit.com/r/singularity/comments/1he9tsn/a_little_bit_of_drama_pretraining_is_only_over_if/) , 2024-12-29-0914
+all -  [ A little bit of drama: Pre-training is only over if you have no imagination - Logan Kilpatrick ](https://www.reddit.com/r/singularity/comments/1he9tsn/a_little_bit_of_drama_pretraining_is_only_over_if/) , 2024-12-30-0914
 ```
 https://x.com/OfficialLoganK/status/1868002617311596552?t=uNazJ-3HPuWlBrXGagkAag&s=19
 
@@ -1193,7 +1244,7 @@ This is in response to Ilya Sutskever's talk during NeurIPS 2024.
 
      
  
-all -  [ A Perfect Storm for AI Inference TPU will be new king  ](https://www.reddit.com/r/Bard/comments/1he4e14/a_perfect_storm_for_ai_inference_tpu_will_be_new/) , 2024-12-29-0914
+all -  [ A Perfect Storm for AI Inference TPU will be new king  ](https://www.reddit.com/r/Bard/comments/1he4e14/a_perfect_storm_for_ai_inference_tpu_will_be_new/) , 2024-12-30-0914
 ```
 Ilya Sutskever's recent bombshell at NeurIPS – [https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-op
 enai-model-data-training](https://www.theverge.com/2024/12/13/24320811/what-ilya-sutskever-sees-openai-model-data-traini
@@ -1232,7 +1283,7 @@ ra.
 
      
  
-all -  [ Ilya Sutskever, cofondateur et ancien directeur scientifique d'OpenAI, a fait une rare apparition pu ](https://www.reddit.com/r/actutech/comments/1hdxdjs/ilya_sutskever_cofondateur_et_ancien_directeur/) , 2024-12-29-0914
+all -  [ Ilya Sutskever, cofondateur et ancien directeur scientifique d'OpenAI, a fait une rare apparition pu ](https://www.reddit.com/r/actutech/comments/1hdxdjs/ilya_sutskever_cofondateur_et_ancien_directeur/) , 2024-12-30-0914
 ```
 Il a notamment affirmé que le pré-entraînement des modèles tel que nous le connaissons va inévitablement prendre fin, co
 mparant les données à un 'combustible fossile' limité. Selon lui, nous avons atteint un pic des données disponibles, car
@@ -1256,7 +1307,7 @@ https://preview.redd.it/2ly7b8fejr6e1.jpg?width=960&format=pjpg&auto=webp&s=ae6c
 
      
  
-all -  [ [D] The winner of the NeurIPS 2024 Best Paper Award  sabotaged the other teams ](https://www.reddit.com/r/MachineLearning/comments/1hctf36/d_the_winner_of_the_neurips_2024_best_paper_award/) , 2024-12-29-0914
+all -  [ [D] The winner of the NeurIPS 2024 Best Paper Award  sabotaged the other teams ](https://www.reddit.com/r/MachineLearning/comments/1hctf36/d_the_winner_of_the_neurips_2024_best_paper_award/) , 2024-12-30-0914
 ```
 Presumably, the winner of the NeurIPS 2024 Best Paper Award (a guy from ByteDance, the creators of Tiktok) sabotaged the
  other teams to derail their research and redirect their resources to his own. Plus he was at meetings debugging his col
@@ -1272,7 +1323,7 @@ I have not checked the facts themselves, so if you can verify what is
 
      
  
-all -  [ Feels good to see Mr.X getting noted ](https://i.redd.it/oexht6c8rg6e1.jpeg) , 2024-12-29-0914
+all -  [ Feels good to see Mr.X getting noted ](https://i.redd.it/oexht6c8rg6e1.jpeg) , 2024-12-30-0914
 ```
 Link: https://x.com/elonmusk/status/1866797259968614885?s=46
 ```
@@ -1280,7 +1331,7 @@ Link: https://x.com/elonmusk/status/1866797259968614885?s=46
 
      
  
-MachineLearning -  [ [D] How to make friends and network at NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1hc0x89/d_how_to_make_friends_and_network_at_neurips/) , 2024-12-29-0914
+MachineLearning -  [ [D] How to make friends and network at NeurIPS? ](https://www.reddit.com/r/MachineLearning/comments/1hc0x89/d_how_to_make_friends_and_network_at_neurips/) , 2024-12-30-0914
 ```
 I’m attending NeurIPS for the first time and it’s quite overwhelming seeing the amount of people and so many recruiters.
  I come from a not so well known university, and have come to the conference completely alone, not even my supervisor is
@@ -1299,7 +1350,7 @@ stuff going on in the area. Cheers!
 
      
  
-MachineLearning -  [ [R] Improving robustness to corruptions with multiplicative weight perturbations - A simple yet effe ](https://www.reddit.com/r/MachineLearning/comments/1hap6gx/r_improving_robustness_to_corruptions_with/) , 2024-12-29-0914
+MachineLearning -  [ [R] Improving robustness to corruptions with multiplicative weight perturbations - A simple yet effe ](https://www.reddit.com/r/MachineLearning/comments/1hap6gx/r_improving_robustness_to_corruptions_with/) , 2024-12-30-0914
 ```
 We would like to share and discuss this NeurIPS spotlight paper (disclaimer: I am a co-author).
 

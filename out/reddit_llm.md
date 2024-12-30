@@ -1,5 +1,145 @@
  
-all -  [ Monopoly - beat a human collective ](https://www.reddit.com/r/ollama/comments/1hoi9rm/monopoly_beat_a_human_collective/) , 2024-12-29-0914
+all -  [ Resume Review: ML/AI Engineering Grad Student Looking for Internships, not having much luck ](https://www.reddit.com/r/Resume/comments/1hp6pt3/resume_review_mlai_engineering_grad_student/) , 2024-12-30-0913
+```
+I'm a current Computer Engineering Master's student focusing on AI/Machine Learning, and I've been applying to internshi
+ps, but the only replies I ever get are if I have a referral. I got an interview with Salesforce for an AI internship be
+cause of a referral and the it went well. So even though I don't know if I'll get the position I'm wondering why I can't
+ get companies lower on the totem pole than Salesforce to give me an interview or OA.
+
+I'm wondering if my resume format
+ is bad and getting auto rejected or if I just don't have enough experience to make it in a competitive market (It could
+ be a combination of both). I get the sense that my resume isn't even making it past recruiters. I see other people at l
+east get interviews with these places, I'm wondering what they're doing that I'm not.
+
+Any advice or tips would be great
+ly appreciated. I haven't had much luck getting advice in other subs or having my resume refined by someone on Fiver for
+ $60. For reference I am a US citizen (I know that can affect what recruiters do with applications). 
+
+https://preview.r
+edd.it/wkkxxgb1yu9e1.jpg?width=1252&format=pjpg&auto=webp&s=f09d4baa91524c95784f175dce6b085689404595
+
+
+```
+---
+
+     
+ 
+all -  [ Is there any simpler way to implement memory in a chat app? ](https://www.reddit.com/r/OpenAI/comments/1hp6h5g/is_there_any_simpler_way_to_implement_memory_in_a/) , 2024-12-30-0913
+```
+I am creating a simple chat app with Haystack but like Langchain, Haystack is too much abstraction for a simple task.
+
+S
+o I was wondering if anyone knows of a way to implement memory for the chat app without using Haystack or Langchain?
+
+Al
+so, this is a simple chat app and not a document based chat app.
+```
+---
+
+     
+ 
+all -  [ Need advice regarding job search  ](https://i.redd.it/4v2brxtzkt9e1.jpeg) , 2024-12-30-0913
+```
+I'm a Master's student pursuing my degree in EE, my bachelor's was in EE as well.  I was originally interested in roboti
+cs design.
+However, opportunities have been limited to say the least. I figure I can't be selective anymore and have bee
+n applying to broader roles in EE as well, but have had no luck with the applications. Tried internships but no luck the
+re either.
+I need advice on what roles would be the best fit given my skills. And what approach I should take to improve
+ my resume.
+Any feedback on the resume itself would be greatly appreciated as well.
+Thank you for your time.
+
+```
+---
+
+     
+ 
+all -  [ LinkedIn tool integration - how to implement ](https://www.reddit.com/r/AI_Agents/comments/1hp028i/linkedin_tool_integration_how_to_implement/) , 2024-12-30-0913
+```
+Hi there,  
+I am currently working on an AI agent project and need to scrape through my clients Linkedin contacts, to id
+entify potential leads. As far as I am aware, there is no tool integration for LinkedIn. I have checked the LangChain an
+d crewAI documentation, and could not find a tool there. I saw composio has a LinkedIn connector, but then you have to i
+mplement your own tool logic (which is fine for me, I am a senior dev, but I have concerns about getting blocked on Link
+edIn for scraping). 
+
+Do you know of any other libraries or frameworks I can use? I am looking for free solutions, no lo
+w code. Thanks in advance. 
+```
+---
+
+     
+ 
+all -  [ Web browser example is giving me - Error: Failed to parse. Text: '```json... is not valid JSON'  ](https://www.reddit.com/r/flowise/comments/1hos4vp/web_browser_example_is_giving_me_error_failed_to/) , 2024-12-30-0913
+```
+After following this example - [https://www.youtube.com/watch?v=yEHC7\_x2x4U](https://www.youtube.com/watch?v=yEHC7_x2x4
+U) \- I'm getting an error while working on Flowise and I'm hoping someone can help me troubleshoot. I'm getting a 'Fail
+ed to parse. Text: \`\`\`json... is not valid JSON' error.
+
+Here's the full error message:
+
+Failed to parse. Text: '\`\`
+\`json { 'action': 'Final Answer', 'action\_input': | { 'definition\_of\_word\_of\_the\_day': 'A word of the day is a re
+gularly occurring piece of content, such as a quote, fact, or definition, that is shared with users on a particular plat
+form.', 'example\_use\_case\_for\_perspicacious': 'The detective was known for being perspicacious and could often solve
+ cases by observing small details that others had missed.' } }
+
+{
+
+  '... is not valid JSON
+
+
+
+Troubleshooting URL: [htt
+ps://js.langchain.com/docs/troubleshooting/errors/OUTPUT\_PARSING\_FAILURE/](https://js.langchain.com/docs/troubleshooti
+ng/errors/OUTPUT_PARSING_FAILURE/)
+
+*Processing img 2i89l4mshn9e1...*
+
+
+```
+---
+
+     
+ 
+all -  [ Building a Production-Ready RAG Application: Need Advice ](https://www.reddit.com/r/LangChain/comments/1horktb/building_a_productionready_rag_application_need/) , 2024-12-30-0913
+```
+
+Hi everyone,
+
+I’m currently working on building a production-ready RAG application. My primary is Azure OpenAI, but I’m
+ open to other LLM integrations if necessary.
+
+Key Requirements:
+- Handling a large volume of internal documents.
+- Feat
+ures like question reformulation and reranking to improve retrieval accuracy.
+
+Frameworks I’m Considering:
+- LangChain
+-
+ Haystack
+- Semantic Kernel
+
+Do you have any recommendations on which framework is best suited for this use case? Am I m
+issing any other frameworks that I should evaluate?
+
+I’d appreciate your insights and experiences
+```
+---
+
+     
+ 
+all -  [ [8 YOE, full stack, Senior engineer, canada] please help me correct my resume 🙏🏽🙏🏽 ](https://i.redd.it/rp4h4epeup9e1.jpeg) , 2024-12-30-0913
+```
+
+```
+---
+
+     
+ 
+all -  [ Monopoly - beat a human collective ](https://www.reddit.com/r/ollama/comments/1hoi9rm/monopoly_beat_a_human_collective/) , 2024-12-30-0913
 ```
 So its christmas and the thought turns to the family board games,
 
@@ -20,7 +160,7 @@ ner table 🤣
 
      
  
-all -  [ Best Way to Chunk Large-ish Text Documents for Make.com ](https://www.reddit.com/r/vectordatabase/comments/1hoeees/best_way_to_chunk_largeish_text_documents_for/) , 2024-12-29-0914
+all -  [ Best Way to Chunk Large-ish Text Documents for Make.com ](https://www.reddit.com/r/vectordatabase/comments/1hoeees/best_way_to_chunk_largeish_text_documents_for/) , 2024-12-30-0913
 ```
 I'm looking around for the best way to chunk large documents in a [Make.com](http://Make.com) scenario before sending th
 e data into Pinecone. Within Make, there is CustomJS and 0CodeUtil. LangChain apparently is an option as well. Honestly,
@@ -31,7 +171,7 @@ e data into Pinecone. Within Make, there is CustomJS and 0CodeUtil. LangChain ap
 
      
  
-all -  [ Underlying tech of Cursor? ](https://www.reddit.com/r/ycombinator/comments/1hod5iv/underlying_tech_of_cursor/) , 2024-12-29-0914
+all -  [ Underlying tech of Cursor? ](https://www.reddit.com/r/ycombinator/comments/1hod5iv/underlying_tech_of_cursor/) , 2024-12-30-0913
 ```
 Very curious about how the Cursor team is approaching their solution technically
 
@@ -47,7 +187,7 @@ Is there info about this?
 
      
  
-all -  [ Top 5 Hacker News Posts on RAG This Week ](https://www.reddit.com/r/Rag/comments/1hobxkl/top_5_hacker_news_posts_on_rag_this_week/) , 2024-12-29-0914
+all -  [ Top 5 Hacker News Posts on RAG This Week ](https://www.reddit.com/r/Rag/comments/1hobxkl/top_5_hacker_news_posts_on_rag_this_week/) , 2024-12-30-0913
 ```
 Curated the top 5 most insightful posts on RAG — highlighting key discussions and practical takeaways:
 
@@ -95,7 +235,7 @@ h databases, multi-LLM support, smarter queries, LiteLLM integration, and cost-e
 
      
  
-all -  [ [Student] Looking for feedback on my resume and general advise regarding job search ](https://www.reddit.com/r/EngineeringResumes/comments/1hoa3j9/student_looking_for_feedback_on_my_resume_and/) , 2024-12-29-0914
+all -  [ [Student] Looking for feedback on my resume and general advise regarding job search ](https://www.reddit.com/r/EngineeringResumes/comments/1hoa3j9/student_looking_for_feedback_on_my_resume_and/) , 2024-12-30-0913
 ```
 My last post didn't get much traction so I hope this one does better. I believe this is my first time posting here, but 
 I have posted on the resumes subreddit before. Looking for criticism/feedback on the latest iteration of my resume. 
@@ -122,7 +262,7 @@ m9e1.jpg?width=4967&format=pjpg&auto=webp&s=75cd4e61fcc35fd21d160ef084daa48f029f
 
      
  
-all -  [ An Open Source Computer/Browser Tool for your Langgraph AI Agents ](https://www.reddit.com/r/LangChain/comments/1ho8m91/an_open_source_computerbrowser_tool_for_your/) , 2024-12-29-0914
+all -  [ An Open Source Computer/Browser Tool for your Langgraph AI Agents ](https://www.reddit.com/r/LangChain/comments/1ho8m91/an_open_source_computerbrowser_tool_for_your/) , 2024-12-30-0913
 ```
 MarinaBox is an open-source toolkit for creating browser/computer sandboxes for AI Agents. If you ever wanted your Langg
 raph agents to use a computer using Claude Computer-Use, you can check this out,  
@@ -146,7 +286,7 @@ PS: We currently only support running locally. Will soon add the ability to self
 
      
  
-all -  [ Supabase and Open AI Realtime with langchain powered App to interact with your PDFs ](https://www.reddit.com/r/Supabase/comments/1ho40ha/supabase_and_open_ai_realtime_with_langchain/) , 2024-12-29-0914
+all -  [ Supabase and Open AI Realtime with langchain powered App to interact with your PDFs ](https://www.reddit.com/r/Supabase/comments/1ho40ha/supabase_and_open_ai_realtime_with_langchain/) , 2024-12-30-0913
 ```
 Hi Everyone, we are proud to share the release of our open source voice-to-voice Proof of concept where you can upload y
 our documents and ask questions related to them.
@@ -172,7 +312,7 @@ share=copy](https://vimeo.com/1039742928?share=copy)
 
      
  
-all -  [ Open AI Realtime with langchain powered RAG POC ](https://www.reddit.com/r/OpenAIDev/comments/1ho3sxb/open_ai_realtime_with_langchain_powered_rag_poc/) , 2024-12-29-0914
+all -  [ Open AI Realtime with langchain powered RAG POC ](https://www.reddit.com/r/OpenAIDev/comments/1ho3sxb/open_ai_realtime_with_langchain_powered_rag_poc/) , 2024-12-30-0913
 ```
 Hi Everyone, we are proud to share the release of our open source voice-to-voice Proof of concept where you can upload y
 our documents and ask questions related to them.
@@ -200,7 +340,7 @@ share=copy](https://vimeo.com/1039742928?share=copy)
 
      
  
-all -  [ Invite Emails for EU Region are not being Sent ](https://www.reddit.com/r/LangChain/comments/1ho3a66/invite_emails_for_eu_region_are_not_being_sent/) , 2024-12-29-0914
+all -  [ Invite Emails for EU Region are not being Sent ](https://www.reddit.com/r/LangChain/comments/1ho3a66/invite_emails_for_eu_region_are_not_being_sent/) , 2024-12-30-0913
 ```
 I've been trying to sign up via https://eu.smith.langchain.com/. It keeps saying I should check my email for a confirmat
 ion link, which is not arriving (no, not in my spam either). Please advise.
@@ -209,7 +349,7 @@ ion link, which is not arriving (no, not in my spam either). Please advise.
 
      
  
-all -  [ Langchain and embeddings in voice pipeline? ](https://www.reddit.com/r/homeassistant/comments/1hnwy4q/langchain_and_embeddings_in_voice_pipeline/) , 2024-12-29-0914
+all -  [ Langchain and embeddings in voice pipeline? ](https://www.reddit.com/r/homeassistant/comments/1hnwy4q/langchain_and_embeddings_in_voice_pipeline/) , 2024-12-30-0913
 ```
 Has anyone thought about adding a vertex DB to the voice pipeline rather than adding all entities exported in the prompt
  every time? Maybe we could have a plug-in that allows calling a langchain pipeline rather than an LLM directly, this wo
@@ -220,7 +360,7 @@ uld allow querying entities rather than having them in the prompt and could open
 
      
  
-all -  [ Guide to Integrating LangChain with Ollama for Local AI Workflows ](https://www.reddit.com/r/u_KonradFreeman/comments/1hntzfb/guide_to_integrating_langchain_with_ollama_for/) , 2024-12-29-0914
+all -  [ Guide to Integrating LangChain with Ollama for Local AI Workflows ](https://www.reddit.com/r/u_KonradFreeman/comments/1hntzfb/guide_to_integrating_langchain_with_ollama_for/) , 2024-12-30-0913
 ```
 For those seeking to transition from cloud-based AI services to a more private and cost-effective local setup, I have re
 cently published a comprehensive guide on integrating LangChain with Ollama. This guide outlines how to build robust wor
@@ -546,7 +686,7 @@ versation.md')
 
      
  
-all -  [ Recommendations on how to implement an Agentic RAG architecture in GO ](https://www.reddit.com/r/golang/comments/1hnrjqh/recommendations_on_how_to_implement_an_agentic/) , 2024-12-29-0914
+all -  [ Recommendations on how to implement an Agentic RAG architecture in GO ](https://www.reddit.com/r/golang/comments/1hnrjqh/recommendations_on_how_to_implement_an_agentic/) , 2024-12-30-0913
 ```
 Ask: I notice there are popular libraries called LangGraph and LangChain which can be used to create agent based RAG mod
 els very easily (there are tutorials online) but I see there arent many Libs for GO. How have developers using GO dealt 
@@ -562,7 +702,7 @@ es are as precise as possible and I want to test the merit of this AI architectu
 
      
  
-all -  [ What's the big deal about agents in 2025?  ](https://www.reddit.com/r/ArtificialInteligence/comments/1hnq2t3/whats_the_big_deal_about_agents_in_2025/) , 2024-12-29-0914
+all -  [ What's the big deal about agents in 2025?  ](https://www.reddit.com/r/ArtificialInteligence/comments/1hnq2t3/whats_the_big_deal_about_agents_in_2025/) , 2024-12-30-0913
 ```
 
 I know what agents are and how could they be useful in general. But why the hype around them right now? 
@@ -576,7 +716,7 @@ Why are all the big companies starting to talk about the agents right now?
 
      
  
-all -  [ Review my resume and suggest Some changes as it gets rejected everytime. ](https://i.redd.it/6wtgtxc0lg9e1.jpeg) , 2024-12-29-0914
+all -  [ Review my resume and suggest Some changes as it gets rejected everytime. ](https://i.redd.it/6wtgtxc0lg9e1.jpeg) , 2024-12-30-0913
 ```
 I am final year student from tier-3.looking for internships and full time roles.can anyone suggest what changes should I
  make in my resume.
@@ -585,15 +725,7 @@ I am final year student from tier-3.looking for internships and full time roles.
 
      
  
-all -  [ [n8n project] Looking for ideas on creating a comprehensive AI-generated report from multiple interv ](/r/n8n/comments/1hnl7bt/looking_for_ideas_on_creating_a_comprehensive/) , 2024-12-29-0914
-```
-
-```
----
-
-     
- 
-all -  [ Langgraph without Langsmith? ](https://www.reddit.com/r/LangChain/comments/1hnjzi6/langgraph_without_langsmith/) , 2024-12-29-0914
+all -  [ Langgraph without Langsmith? ](https://www.reddit.com/r/LangChain/comments/1hnjzi6/langgraph_without_langsmith/) , 2024-12-30-0913
 ```
 I'm new to Langgraph and enjoying it as I learn this space.  A major concern for me is the fact that my logs all go to L
 angsmith.  I can not build anything beyond a basic POC if company data, which would be in all of the agent interactions,
@@ -603,7 +735,7 @@ angsmith.  I can not build anything beyond a basic POC if company data, which wo
 
      
  
-all -  [ Was reading through the docs. What is the difference between putting the chat history in the chat pr ](https://www.reddit.com/r/LangChain/comments/1hngbcw/was_reading_through_the_docs_what_is_the/) , 2024-12-29-0914
+all -  [ Was reading through the docs. What is the difference between putting the chat history in the chat pr ](https://www.reddit.com/r/LangChain/comments/1hngbcw/was_reading_through_the_docs_what_is_the/) , 2024-12-30-0913
 ```
 Just wanted to know the difference between putting the history here:
 
@@ -634,7 +766,7 @@ Thanks
 
      
  
-all -  [ Was reading through the docs. What is the difference between putting the chat history in the chat pr ](https://www.reddit.com/r/LangChain/comments/1hngbcp/was_reading_through_the_docs_what_is_the/) , 2024-12-29-0914
+all -  [ Was reading through the docs. What is the difference between putting the chat history in the chat pr ](https://www.reddit.com/r/LangChain/comments/1hngbcp/was_reading_through_the_docs_what_is_the/) , 2024-12-30-0913
 ```
 Just wanted to know the difference between putting the history here:
 
@@ -666,7 +798,7 @@ Thanks
 
      
  
-all -  [ How does AI understand us (Or what are embeddings)? ](https://open.substack.com/pub/diamantai/p/how-ai-understands-us-the-secret?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-12-29-0914
+all -  [ How does AI understand us (Or what are embeddings)? ](https://open.substack.com/pub/diamantai/p/how-ai-understands-us-the-secret?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2024-12-30-0913
 ```
 Ever wondered how AI can actually “understand” language? The answer lies in embeddings—a powerful technique that maps wo
 rds into a multidimensional space. This allows AI to differentiate between “The light is bright” and “She has a bright f
@@ -678,7 +810,7 @@ I’ve written a blog post explaining how embeddings work intuitively with examp
 
      
  
-all -  [ How to build a scalable Doc Store for PDF RAG app ? ](https://www.reddit.com/r/LangChain/comments/1hne4tl/how_to_build_a_scalable_doc_store_for_pdf_rag_app/) , 2024-12-29-0914
+all -  [ How to build a scalable Doc Store for PDF RAG app ? ](https://www.reddit.com/r/LangChain/comments/1hne4tl/how_to_build_a_scalable_doc_store_for_pdf_rag_app/) , 2024-12-30-0913
 ```
 Hello everyone,
 
@@ -726,7 +858,7 @@ User B has UserB\_DocStore
 
      
  
-all -  [ How to build a scalable Doc Store for PDF RAG app ? ](https://www.reddit.com/r/Rag/comments/1hne0mr/how_to_build_a_scalable_doc_store_for_pdf_rag_app/) , 2024-12-29-0914
+all -  [ How to build a scalable Doc Store for PDF RAG app ? ](https://www.reddit.com/r/Rag/comments/1hne0mr/how_to_build_a_scalable_doc_store_for_pdf_rag_app/) , 2024-12-30-0913
 ```
 Hello everyone,
 
@@ -774,7 +906,7 @@ User B has UserB\_DocStore
 
      
  
-all -  [ [Student] Master's student looking for feedback on my resume and general help regarding job search ](https://www.reddit.com/r/EngineeringResumes/comments/1hn7lsc/student_masters_student_looking_for_feedback_on/) , 2024-12-29-0914
+all -  [ [Student] Master's student looking for feedback on my resume and general help regarding job search ](https://www.reddit.com/r/EngineeringResumes/comments/1hn7lsc/student_masters_student_looking_for_feedback_on/) , 2024-12-30-0913
 ```
 I am an international Master's student based in Cincinnati, looking for Robotics or Electrical engineering roles I am wo
 rking on my thesis, and hope to graduate in the summer if all goes well. By going well I mean I land a job by then. I ha
@@ -806,7 +938,7 @@ b40169ae19c710e6
 
      
  
-all -  [ Langsmith Not Showing All Tokens ](https://www.reddit.com/r/LangChain/comments/1hn4e54/langsmith_not_showing_all_tokens/) , 2024-12-29-0914
+all -  [ Langsmith Not Showing All Tokens ](https://www.reddit.com/r/LangChain/comments/1hn4e54/langsmith_not_showing_all_tokens/) , 2024-12-30-0913
 ```
 I'm new to langchain, and I was trying out langsmith. I tried to compare token usage from langchain to the OpenAI playgr
 ound for assistants. The assistant I made has a system prompt and some functions.
@@ -857,7 +989,7 @@ I(model='gpt-4o-mini', stream_usage=True)`
 
      
  
-all -  [ Build a LangGraph Customer Support Bot ](https://www.reddit.com/r/copilotkit/comments/1hn14x4/build_a_langgraph_customer_support_bot/) , 2024-12-29-0914
+all -  [ Build a LangGraph Customer Support Bot ](https://www.reddit.com/r/copilotkit/comments/1hn14x4/build_a_langgraph_customer_support_bot/) , 2024-12-30-0913
 ```
 Curious if anyone has gone through this LangGraph tutorial and if so, added CopilotKit?   
 [https://langchain-ai.github.
@@ -868,7 +1000,7 @@ upport/customer-support/)
 
      
  
-all -  [ ai frameworks vs customs ai agents? ](https://www.reddit.com/r/AI_Agents/comments/1hn1066/ai_frameworks_vs_customs_ai_agents/) , 2024-12-29-0914
+all -  [ ai frameworks vs customs ai agents? ](https://www.reddit.com/r/AI_Agents/comments/1hn1066/ai_frameworks_vs_customs_ai_agents/) , 2024-12-30-0913
 ```
 I’ve recently gotten into AI agents, but I’m not sure where to start.
 
@@ -885,7 +1017,7 @@ What do you guys think I should do, and how can I learn this stuff?
 
      
  
-all -  [ Comparing PDF with JSON data ](https://www.reddit.com/r/LangChain/comments/1hmw5an/comparing_pdf_with_json_data/) , 2024-12-29-0914
+all -  [ Comparing PDF with JSON data ](https://www.reddit.com/r/LangChain/comments/1hmw5an/comparing_pdf_with_json_data/) , 2024-12-30-0913
 ```
 Hi everyone, I'm new to Langchain and this is my first post here. I'm looking to write a script that compares informatio
 n from a PDF file against data from a JSON file. The PDF is a one-page export from Adobe Illustrator, designed for produ
@@ -902,7 +1034,7 @@ Any help or advice would be greatly appreciated.
 
      
  
-all -  [ [Opern Source]: Open AI Realtime with Langchain powered RAG to talk to your PDF ](https://www.reddit.com/r/OpenSourceeAI/comments/1hmuk90/opern_source_open_ai_realtime_with_langchain/) , 2024-12-29-0914
+all -  [ [Opern Source]: Open AI Realtime with Langchain powered RAG to talk to your PDF ](https://www.reddit.com/r/OpenSourceeAI/comments/1hmuk90/opern_source_open_ai_realtime_with_langchain/) , 2024-12-30-0913
 ```
 Hi Everyone, we are proud to share the release of our open source voice-to-voice Proof of concept where you can upload y
 our documents and ask questions related to them.
@@ -938,7 +1070,7 @@ https://preview.redd.it/g29cnxdk5g6e1.png?width=2050&format=png&auto
 
      
  
-all -  [ Injustice at the NVIDIA Hackathon: Let’s Support Francisco Angulo de Lafuente ](https://www.reddit.com/r/LangChain/comments/1hmuj9i/injustice_at_the_nvidia_hackathon_lets_support/) , 2024-12-29-0914
+all -  [ Injustice at the NVIDIA Hackathon: Let’s Support Francisco Angulo de Lafuente ](https://www.reddit.com/r/LangChain/comments/1hmuj9i/injustice_at_the_nvidia_hackathon_lets_support/) , 2024-12-30-0913
 ```
 Greetings, I hope this space can help bring attention to an important issue. I kindly ask for your support in sharing th
 is news: Francisco Angulo de Lafuente, known on Twitter as @**Francisco\_Ecofa**, won a hackathon organized by NVIDIA wi
@@ -958,7 +1090,7 @@ Thank you for your support. 🙏
 
      
  
-all -  [ Looking for a Python Library to Manage Prompt Versioning and Performance Locally ](https://www.reddit.com/r/LangChain/comments/1hmue25/looking_for_a_python_library_to_manage_prompt/) , 2024-12-29-0914
+all -  [ Looking for a Python Library to Manage Prompt Versioning and Performance Locally ](https://www.reddit.com/r/LangChain/comments/1hmue25/looking_for_a_python_library_to_manage_prompt/) , 2024-12-30-0913
 ```
 Hi everyone,
 
@@ -981,7 +1113,7 @@ Thanks in advance!
 
      
  
-all -  [ CS Masters (UCL maybe?) ](https://www.reddit.com/r/cscareerquestionsuk/comments/1hmrk8c/cs_masters_ucl_maybe/) , 2024-12-29-0914
+all -  [ CS Masters (UCL maybe?) ](https://www.reddit.com/r/cscareerquestionsuk/comments/1hmrk8c/cs_masters_ucl_maybe/) , 2024-12-30-0913
 ```
 Hi all, some background: I'm a career switcher. Have an undergrad law degree from SOAS and an LLM from KCL (intellectual
  property law). 
@@ -1031,7 +1163,7 @@ Advice? Thanks!
 
      
  
-all -  [ Supabase Auth with SSR + RAG🚀 ](https://www.reddit.com/r/Supabase/comments/1hmpblw/supabase_auth_with_ssr_rag/) , 2024-12-29-0914
+all -  [ Supabase Auth with SSR + RAG🚀 ](https://www.reddit.com/r/Supabase/comments/1hmpblw/supabase_auth_with_ssr_rag/) , 2024-12-30-0913
 ```
 Hey Supabase community! 👋
 
@@ -1119,7 +1251,7 @@ https://reddit.com/link/1hmpblw/video/pqleduora79e1/player
 
      
  
-all -  [ Complete Generative AI Course With Langchain and Huggingface review by krish naik ](https://www.reddit.com/r/u_Specialist-Light8348/comments/1hmo45t/complete_generative_ai_course_with_langchain_and/) , 2024-12-29-0914
+all -  [ Complete Generative AI Course With Langchain and Huggingface review by krish naik ](https://www.reddit.com/r/u_Specialist-Light8348/comments/1hmo45t/complete_generative_ai_course_with_langchain_and/) , 2024-12-30-0913
 ```
 Complete Generative AI Course With Langchain and Huggingface review by krish naik
 ```
@@ -1127,7 +1259,7 @@ Complete Generative AI Course With Langchain and Huggingface review by krish nai
 
      
  
-all -  [ Tables in PDF | GraphRAG ](https://www.reddit.com/r/LangChain/comments/1hmnim4/tables_in_pdf_graphrag/) , 2024-12-29-0914
+all -  [ Tables in PDF | GraphRAG ](https://www.reddit.com/r/LangChain/comments/1hmnim4/tables_in_pdf_graphrag/) , 2024-12-30-0913
 ```
 I am working on a GraphRAG tool. My PDF contains tables too. I can create regular chunks out of the rest of the text bas
 ed on a markup splitter. Now how do I consider the tables in the PDF and importantly, their position in the PDF too?  
@@ -1139,7 +1271,7 @@ or example, I dont want the tables to be separately read and embedded as text, b
 
      
  
-all -  [ ChatOllama doesn't call Tool ](https://www.reddit.com/r/LangChain/comments/1hmkz59/chatollama_doesnt_call_tool/) , 2024-12-29-0914
+all -  [ ChatOllama doesn't call Tool ](https://www.reddit.com/r/LangChain/comments/1hmkz59/chatollama_doesnt_call_tool/) , 2024-12-30-0913
 ```
 Hi everyone, I am currently working on migrating to ChatOllama and following one of LangChain's [tutorials](https://pyth
 on.langchain.com/docs/integrations/chat/ollama/#tool-calling). 
@@ -1202,7 +1334,7 @@ Does anyone know
 
      
  
-all -  [ Chroma client hosting with docker container ](https://www.reddit.com/r/LangChain/comments/1hmkf8n/chroma_client_hosting_with_docker_container/) , 2024-12-29-0914
+all -  [ Chroma client hosting with docker container ](https://www.reddit.com/r/LangChain/comments/1hmkf8n/chroma_client_hosting_with_docker_container/) , 2024-12-30-0913
 ```
 I'm trying to run chromadb  on a docker container as a service and trying to access it locally or through a docker conta
 iner I'm only able to create Collection and upload data to the collection
@@ -1234,7 +1366,7 @@ atest
 
      
  
-all -  [ AI code editor that works with LangChain and LangGraph? ](https://www.reddit.com/r/LangChain/comments/1hmiz5j/ai_code_editor_that_works_with_langchain_and/) , 2024-12-29-0914
+all -  [ AI code editor that works with LangChain and LangGraph? ](https://www.reddit.com/r/LangChain/comments/1hmiz5j/ai_code_editor_that_works_with_langchain_and/) , 2024-12-30-0913
 ```
 Are there AI code editors that work with LangChain and LangGraph? For example, one can describe the use case, specify th
 e use of LangChain/LangGraph, and then the editor will write the initial code for you.
@@ -1243,7 +1375,7 @@ e use of LangChain/LangGraph, and then the editor will write the initial code fo
 
      
  
-all -  [ Are my projects good enough for ML Intern roles? ](https://www.reddit.com/r/learnmachinelearning/comments/1hmdn3m/are_my_projects_good_enough_for_ml_intern_roles/) , 2024-12-29-0914
+all -  [ Are my projects good enough for ML Intern roles? ](https://www.reddit.com/r/learnmachinelearning/comments/1hmdn3m/are_my_projects_good_enough_for_ml_intern_roles/) , 2024-12-30-0913
 ```
 https://preview.redd.it/0va6cae6h39e1.jpg?width=2550&format=pjpg&auto=webp&s=6f49c02de60a74483d7d640dca4aafb69a13933b
 
@@ -1253,194 +1385,12 @@ https://preview.redd.it/0va6cae6h39e1.jpg?width=2550&format=pjpg&auto=webp&s=6f4
 
      
  
-all -  [ Ways to summarize with RAG ](https://www.reddit.com/r/LangChain/comments/1hm9cvv/ways_to_summarize_with_rag/) , 2024-12-29-0914
+all -  [ Ways to summarize with RAG ](https://www.reddit.com/r/LangChain/comments/1hm9cvv/ways_to_summarize_with_rag/) , 2024-12-30-0913
 ```
 “RAG is not designed to summarize entire book” - you may wanted to write this comment which is quite ok, I dove into ful
 l internet resources, trying to find most sophisticated method to summarize user uploaded file using rag, imagine simple
  scenario, user uploads pdf book, and later asks question: “who are main characters in this book?”, what is approaches y
 ou have used to get near good results? 
-```
----
-
-     
- 
-all -  [ What do you think of Groq? ](https://www.reddit.com/r/LangChain/comments/1hm7i83/what_do_you_think_of_groq/) , 2024-12-29-0914
-```
-What are your experiences with Groq? What are its pros, cons, and limitations? Thanks.
-```
----
-
-     
- 
-all -  [ prompt format question ](https://www.reddit.com/r/LangChain/comments/1hm7how/prompt_format_question/) , 2024-12-29-0914
-```
-I found the following code from a YouTube tutorial video. My question is regarding the structure of the prompt. In parti
-cular, how does one know that he/she has to specify two MessagePlaceHolders()'s? This is a tutorial about getting data f
-rom yfinance.
-
-    from langchain.agents import AgentExecutor, create_tool_calling_agent
-    from langchain_groq import 
-ChatGroq
-    from langchain.prompts import ChatPromptTemplate
-    from langchain_core.prompts import MessagesPlaceholder
-
-    
-    tools = [
-             company_information,
-             last_dividend_and_earnings_date,
-             stock_s
-plits_history,
-             summary_of_mutual_fund_holders,
-             summary_of_institutional_holders, 
-            
- stock_grade_updrages_downgrades,
-             stock_news
-    ]
-    
-    prompt = ChatPromptTemplate.from_messages(
-    
-    [
-            (
-                'system',
-                'You are a helpful assistant. Try to answer user query usi
-ng available tools.',
-            ),
-            MessagesPlaceholder(variable_name='messages'),
-            MessagesPlac
-eholder(variable_name='agent_scratchpad'),
-        ]
-    )
-    
-    llama3 = ChatGroq(api_key=groq_api_key, model='llama
-3-8b-8192', temperature=0)
-    
-    finance_agent = create_tool_calling_agent(llama3, tools, prompt)
-    
-    finance_ag
-ent_executor = AgentExecutor(agent=finance_agent, tools=tools, verbose=True)
-    
-
-  
-
-```
----
-
-     
- 
-all -  [ Does anyone know of any github projects that use ChatHuggingFace with tool-use? ](https://www.reddit.com/r/huggingface/comments/1hm2k7v/does_anyone_know_of_any_github_projects_that_use/) , 2024-12-29-0914
-```
-It'd be a load of help. I've tried everything on the Langchain documentation (for a Langgraph project i've been trying t
-o build), but it simply does not work. Tool-use creates the strangest of issues. If there's anything that's built alread
-y, it'd be a lot easier to work.
-```
----
-
-     
- 
-all -  [ Open AI Realtime with langchain powered RAG POC ](https://www.reddit.com/r/LangChain/comments/1hm1e1m/open_ai_realtime_with_langchain_powered_rag_poc/) , 2024-12-29-0914
-```
-Hi Everyone, we are proud to share the release of our open source voice-to-voice Proof of concept where you can upload y
-our documents and ask questions related to them.
-
-You can upload your documents and interact with them through our dashb
-oard.📊.
-
-Based on OpenAI Realtime AND langchain
-
-Powered by [Supabase](https://www.linkedin.com/company/supabase/)  \+ [
-Qdrant](https://www.linkedin.com/company/qdrant/)  \+ [NextJs](https://www.linkedin.com/company/nextjs/)
-
-Github repo: [
-https://github.com/actualize-ae/voice-chat-pdf](https://github.com/actualize-ae/voice-chat-pdf)
-
-If you like the concept
- or have feedback please feel free to contribute a star and share feedback :)
-
-Video: [https://vimeo.com/1039742928?shar
-e=copy](https://vimeo.com/1039742928?share=copy)
-
-Architecture Diagram:
-
-https://preview.redd.it/g29cnxdk5g6e1.png?width
-=2050&format=png&auto=webp&s=3abdc714f810565c163d7aba3d5c4cebcf666b55
-```
----
-
-     
- 
-all -  [ Parsing Error and no green lines highlight ](https://www.reddit.com/r/n8n/comments/1hm0pdr/parsing_error_and_no_green_lines_highlight/) , 2024-12-29-0914
-```
-Hello everyone, I'm reaching out for some help with two issues I'm experiencing with my AI models. As a novice user, ple
-ase bear with me if my questions seem silly!
-
-**Issue 1: Parsing Error with Llama 3.2**
-
-I've noticed that when I use th
-e Llama 3.2 model, I'm getting parsing errors. However, this issue doesn't seem to occur with the QWEN 2.5 coder. Can an
-yone help me understand why this is happening?
-
-**Issue 2: Colored Lines not Displaying**
-
-I've noticed that the dotted 
-lines connecting these models are not displaying in green color even after execution. Is there a setting or configuratio
-n issue here? Any guidance on how to resolve this would be greatly appreciated.
-
-Thank you in advance for your help and 
-patience!
-
-https://preview.redd.it/83vykiyqxz8e1.png?width=1738&format=png&auto=webp&s=2d034e3ee8bb6b2cdbc2bac787b7398e1
-a2a86fe
-
-
-```
----
-
-     
- 
-all -  [ Is it possible to create a multi agent system without any framework? ](https://www.reddit.com/r/LangChain/comments/1hlz3rb/is_it_possible_to_create_a_multi_agent_system/) , 2024-12-29-0914
-```
-The question is self explanatory.
-```
----
-
-     
- 
-MachineLearning -  [ [P] Minima: local conversational retrieval augmented generation project (Ollama, Langchain, FastAPI, ](https://www.reddit.com/r/MachineLearning/comments/1h1pudq/p_minima_local_conversational_retrieval_augmented/) , 2024-12-29-0914
-```
-  
-[https://github.com/dmayboroda/minima](https://github.com/dmayboroda/minima)  
-  
-Hey everyone, I would like to intro
-duce you my latest repo, that is a local conversational rag on your files, Be honest, you can use this as a rag on-premi
-ses, cause it is build with docker, langchain, ollama, fastapi, hf All models download automatically, soon I'll add an a
-bility to choose a model For now solution contains:
-
-* Locally running Ollama (currently qwen-0.5b model hardcoded, soon
- you'll be able to choose a model from ollama registry)
-* Local indexing (using sentence-transformer embedding model, yo
-u can switch to other model, but only sentence-transformers applied, also will be changed soon)
-* Qdrant container runni
-ng on your machine
-* Reranker running locally (BAAI/bge-reranker-base currently hardcoded, but i will also add an abilit
-y to choose a reranker)
-* Websocket based chat with saving history
-* Simple chat UI written with React
-* As a plus, you 
-can use local rag with ChatGPT as a custom GPT, so you able to query your local data through official chatgpt web and ma
-c os/ios app.
-* You can deploy it as a RAG on-premises, all containers can work on CPU machines
-
-Couple of ideas/problem
-s:
-
-* Model Context Protocol support
-* Right now there is no incremental indexing or reindexing
-* No selection for the m
-odels (will be added soon)
-* Different environment support (cuda, mps, custom npu's)
-
-Welcome to contribute (watch, fork
-, star) Thank you so much!
 ```
 ---
 
