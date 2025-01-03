@@ -1,5 +1,402 @@
  
-all -  [ How do I get really good at RAG? ](https://www.reddit.com/r/LangChain/comments/1hre9pq/how_do_i_get_really_good_at_rag/) , 2025-01-02-0913
+all -  [ AI Agent that copies bank transactions to a sheet automatically ](https://v.redd.it/j0n3pcl3qnae1) , 2025-01-03-0913
+```
+
+```
+---
+
+     
+ 
+all -  [ I need a name for my AI model ](https://www.reddit.com/r/ChatGPT/comments/1hs0rbi/i_need_a_name_for_my_ai_model/) , 2025-01-03-0913
+```
+Hello, 
+
+I’m competing in a design competition and have created a concept for an AI model that offers personalized tutor
+ing, tailored learning instruction, skill assessments and immediate feedback, individualized learning content, academic 
+support and guidance, prompt engineering training and more. I’m having a hard time coming up with a name for it. I want 
+it to sound like OpenAI’s models such as Sora, Whisper, etc. It should have the same vibe and naming conventions. I’ve c
+oded a prototype of a very basic AI model using Python, the Streamlit and Langchain libraries and the ChatGPT API. 
+
+Doe
+s anyone have any suggestions? Any help is appreciated - thanks!
+```
+---
+
+     
+ 
+all -  [ [Student] International Master's student looking for Computer Science Internships ](https://www.reddit.com/r/EngineeringResumes/comments/1hrymn8/student_international_masters_student_looking_for/) , 2025-01-03-0913
+```
+Hi,
+
+I'm receiving Onsite Assessments (OAs), but I'm not hearing back from companies after completing them. I'm unsure w
+hat might be hindering my job search. Thanks!
+
+https://preview.redd.it/ren8m4ut4mae1.jpg?width=5100&format=pjpg&auto=web
+p&s=5b3e16b859ae2c7126ea2112e82af58f280fec8b
+
+
+```
+---
+
+     
+ 
+all -  [ Convert open API’s into hierarchical argents type script ](https://apitoagent.com) , 2025-01-03-0913
+```
+Hey LangChan community I made this tool that takes any OPENAPI and converts into typescript lang graph hierarchical agen
+ts.
+
+
+Would love feedback or suggestions! 
+
+
+
+```
+---
+
+     
+ 
+all -  [ Handling backticks(``) ](https://www.reddit.com/r/learnjavascript/comments/1hrwd88/handling_backticks/) , 2025-01-03-0913
+```
+    import { GoogleGenerativeAI } from '@google/generative-ai';
+    
+    const genAI = new GoogleGenerativeAI(process.en
+v.GEMINI_API_KEY!);
+    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    
+    export const sum
+mariseCommit = async (diff: string): Promise<string> => {
+        const promptData = {
+            instructions: `Analyz
+e this code diff and generate a focused summary of the changes:
+    
+    Focus on:
+    1. New features or functionality 
+added
+    2. Major structural changes
+    3. Dependencies added/removed
+    4. Database schema changes
+    
+    Format y
+our response as a bulleted list. Keep each point brief but specific.
+    Omit routine changes like formatting, comments,
+ or minor variable renames.`,
+            diff: diff
+        };
+    
+        const prompt = JSON.stringify(promptData);
+
+        const response = await model.generateContent([prompt]);
+        return response.response.text();
+    };
+    
+   
+ console.log(await summariseCommit(`diff --git a/chains.py b/chains.py
+    index 138ced66..926ced7e 100644
+    --- a/cha
+ins.py
+    +++ b/chains.py
+    @@ -23,6 +23,14 @@
+     from utils import BaseLogger, extract_title_and_question
+     fro
+m langchain_google_genai import GoogleGenerativeAIEmbeddings
+     
+    +AWS_MODELS = (
+    +    'ai21.jamba-instruct-v1:
+0',
+    +    'amazon.titan',
+    +    'anthropic.claude',
+    +    'cohere.command',
+    +    'meta.llama',
+    +    'mi
+stral.mi',
+    +)
+     
+     def load_embedding_model(embedding_model_name: str, logger=BaseLogger(), config={}):
+      
+   if embedding_model_name == 'ollama':
+    @@ -55,9 +63,9 @@ def load_embedding_model(embedding_model_name: str, logger
+=BaseLogger(), config=
+     
+     
+     def load_llm(llm_name: str, logger=BaseLogger(), config={}):
+    -    if llm_nam
+e == 'gpt-4':
+    +    if llm_name in ['gpt-4', 'gpt-4o', 'gpt-4-turbo']:
+             logger.info('LLM: Using GPT-4')
+ 
+   -        return ChatOpenAI(temperature=0, model_name='gpt-4', streaming=True)
+    +        return ChatOpenAI(temperat
+ure=0, model_name=llm_name, streaming=True)
+         elif llm_name == 'gpt-3.5':
+             logger.info('LLM: Using GP
+T-3.5')
+             return ChatOpenAI(temperature=0, model_name='gpt-3.5-turbo', streaming=True)
+    @@ -68,6 +76,14 @@
+ def load_llm(llm_name: str, logger=BaseLogger(), config={}):
+                 model_kwargs={'temperature': 0.0, 'max_to
+kens_to_sample': 1024},
+                 streaming=True,
+             )
+    +    elif llm_name.startswith(AWS_MODELS):
+ 
+   +        logger.info(f'LLM: {llm_name}')
+    +        return ChatBedrock(
+    +            model_id=llm_name,
+    +  
+          model_kwargs={'temperature': 0.0, 'max_tokens_to_sample': 1024},
+    +            streaming=True,
+    +       
+ )
+    +
+         elif len(llm_name):
+             logger.info(f'LLM: Using Ollama: {llm_name}')
+             return Cha
+tOllama(
+    diff --git a/env.example b/env.example
+    index 88e33cc3..7d9574f3 100644
+    --- a/env.example
+    +++ b/
+env.example
+    @@ -1,7 +1,7 @@
+     #*****************************************************************
+     # LLM and E
+mbedding Model
+     #*****************************************************************
+    -LLM=llama2 #or any Ollama mo
+del tag, gpt-4, gpt-3.5, or claudev2
+    +LLM=llama2 #or any Ollama model tag, gpt-4 (o or turbo), gpt-3.5, or any bedro
+ck model
+     EMBEDDING_MODEL=sentence_transformer #or google-genai-embedding-001 openai, ollama, or aws
+     
+     #***
+**************************************************************
+    diff --git a/pull_model.Dockerfile b/pull_model.Docke
+rfile
+    index e59398f7..b06625f7 100644
+    --- a/pull_model.Dockerfile
+    +++ b/pull_model.Dockerfile
+    @@ -15,7 +
+15,15 @@ COPY <<EOF pull_model.clj
+       (let [llm (get (System/getenv) 'LLM')
+             url (get (System/getenv) 'O
+LLAMA_BASE_URL')]
+         (println (format 'pulling ollama model %s using %s' llm url))
+    -    (if (and llm url (not 
+(#{'gpt-4' 'gpt-3.5' 'claudev2'} llm)))
+    +    (if (and llm 
+    +         url 
+    +         (not (#{'gpt-4' 'gpt-3.5
+' 'claudev2' 'gpt-4o' 'gpt-4-turbo'} llm))
+    +         (not (some #(.startsWith llm %) ['ai21.jamba-instruct-v1:0'
+   
+ +                                          'amazon.titan'
+    +                                          'anthropic.cla
+ude'
+    +                                          'cohere.command'
+    +                                          'met
+a.llama'
+    +                                          'mistral.mi'])))
+     
+           ;; ---------------------------
+-------------------------------------------
+           ;; just call `ollama pull` here - create OLLAMA_HOST from OLLAMA_
+BASE_URL`));
+    
+
+    Hi everyone,
+    I am getting an error in string passed to summariseCommit as inside backticks it
+ is containing a pair of (``) again so it is considering string to get end at first backtick. 
+    How to solve this iss
+ue as they will not be coming hardcoded that i can use \\(escape) characters ?
+```
+---
+
+     
+ 
+all -  [ Everyone’s Talking About Fine-Tuning AI Models, But What Does That Actually Mean? 🤔 ](https://open.substack.com/pub/diamantai/p/fine-tuning-ai-models-how-they-evolve?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=true) , 2025-01-03-0913
+```
+If you’ve been following AI discussions recently, you’ve probably heard the term “fine-tuning” come up. It’s one of thos
+e ideas that sounds impressive, but it’s not always clear what it actually involves or why it matters.  
+
+Here’s a simpl
+e way to think about it: imagine a chef who’s mastered French cuisine and decides to learn Japanese cooking. They don’t 
+throw out everything they know—they adapt their knife skills, timing, and flavor knowledge to a new style. Fine-tuning d
+oes the same for AI.  
+
+Instead of starting from scratch, it takes a pre-trained, general-purpose model and tailors it f
+or a specific task or industry. Whether it’s an AI assistant for healthcare, customer service, or legal advice, fine-tun
+ing ensures the model delivers precise, reliable, and context-aware responses.  
+
+In my latest blog post, I dive into:  
+
+- What fine-tuning actually means (no tech jargon).  
+- Why it’s a key step in making AI useful in specialized fields. 
+ 
+- Real examples of how fine-tuning transforms AI into a valuable tool.  
+- Potential challenges 
+
+If you’ve ever wonde
+red how AI evolves from a generalist to an expert, this post is for you.  
+
+👉 Read the full blog post attached to this p
+ost (the image is clickable)
+
+feel free to ask anything :)
+```
+---
+
+     
+ 
+all -  [ Best Embedding Model for Similarity Search for smaller texts(around 200-250 tokens per each)? Exclus ](https://www.reddit.com/r/LangChain/comments/1hrrrvh/best_embedding_model_for_similarity_search_for/) , 2025-01-03-0913
+```
+Hi, I have hundreds of thousands of rather small texts(product descriptions\\summaries) and would like to implement a Si
+milarity Search on them. I've browsed through this subreddit and several people mentioned that a few old school(pre GPT)
+ embedding models get it done even better than the new models. I'm currently eyeballing the openAI's 'text-embedding-3-l
+arge' and googles 'Text embedding 004'. Hence the question: could you guys share some feedback regarding thew new models
+ vs old models and which ones would you recommend? Again, the texts are exclusively in English.
+```
+---
+
+     
+ 
+all -  [ Testing strategies in a RAG application ](https://www.reddit.com/r/SoftwareEngineering/comments/1hrrnyg/testing_strategies_in_a_rag_application/) , 2025-01-03-0913
+```
+Hello everyone,
+
+I've started to work with LLMs and RAGs recently. I'm used to 'traditional software testing' with test 
+frameworks like pytest or Junit, but I am a bit confused about testing strategies when it comes to generative AI. I am w
+ondering several things, and I don't find a lot of resources or methodologies. Maybe I'm just not looking for the right 
+thing or do not have the right approach.
+
+For the end-user, these systems are a kind of personification of the company, 
+so I believe that we should be extra cautious about how they behave.
+
+Let's take the example of a RAG system designed to
+ make legal guidance for a very specific business domain.
+
+* Do I need to test all [unwanted behaviors](https://develops
+ense.com/large-language-model-syndromes) inherent to LLMs?
+* Should I make unit tests with the [Langchain approach](http
+s://docs.smith.langchain.com/evaluation/tutorials/rag#overview) to test that my application behaves as expected? Are the
+re other approaches?
+* Should I write tests to mitigate risks associated with user input like prompt injections, abusive
+ demands, and more?
+* Are there other major concerns related to LLMs?
+```
+---
+
+     
+ 
+all -  [ Help with Rag Performance and Content for Metadata  ](https://www.reddit.com/r/LangChain/comments/1hrrhgi/help_with_rag_performance_and_content_for_metadata/) , 2025-01-03-0913
+```
+Hello everyone,
+
+I'm currently working on my rag system and I'm stucked because of low accuracy of the model with the lo
+ng answers. I have tried Ensemble retriever (Combination of BM25 and FAISS Vector DB retriever) but the performance is g
+ood with short answers but when i asked about the processes which has around 10 or 15 steps then it didn't provide me co
+mplete answer and misses out some steps.
+
+My Current Pipeline:
+
+- Semantic Chunker (also tried recursive text splitter a
+nd character splitter but semantic one is performing well right now)
+
+- Embedding Model: Currently using (Sentence trans
+former/all-MiniLM-L12-v2) but also tried nomic, mxbai, snowflake arctic.
+
+Vector DB: FAISS also tried Chroma, Lance.
+
+En
+semble Retriever {BM25 + DB retriever}
+
+
+Prompt Template:
+''' Based on the following information:\n\n
+{context}\n\n
+Plea
+se provide detailed answer to the question: {question}.
+Your are provided with a 'Bank Operations Manual'. You Job is to
+ guide user regarding the information user is asking from the provided context and documents. Given the following conver
+sation, context, and a follow up question, reply eith detailed and properly format response to the current question. The
+ user is asking only from a provided context. Provide to the point and complete answers using oroper format. Donot answe
+r from your own knowledge base. If the answer is not present in the provided context then refrain from answering based o
+n your own knowledge. Instead indicate that relevant information is not Remember your chatbot for the World bank only. P
+rovide complete answer to the question user is asking and donot add 'according to the provided context' or 'according to
+ the operations manual in your response.''''
+
+
+LLM : LLAMA3.1 instruct (temp = 0.1, num_ctx= 8000)
+
+
+Now one of my frien
+d who has experienced with RAGs recommended me to input metadata along with embeddings in the vector db but i don't have
+ any clue about how to make metadata and injest it in the DB. Anyone here who can recommend good resources regarding met
+adata Creation and ingestion.
+
+Thanks
+```
+---
+
+     
+ 
+all -  [ Using Langchain vs just integrating llm api's at multiple steps in your app ](https://www.reddit.com/r/ChatGPTCoding/comments/1hrm13u/using_langchain_vs_just_integrating_llm_apis_at/) , 2025-01-03-0913
+```
+Quick question on multi agent stuff, is there a specific advantage to using a framework like langchain to chain together
+ steps instead of just coding it into your app raw?
+```
+---
+
+     
+ 
+all -  [ Agentic frameworks... ](https://www.reddit.com/r/AI_Agents/comments/1hrjq1v/agentic_frameworks/) , 2025-01-03-0913
+```
+Would love to hear others experience with the popular ones like LangGraph and Bedrock. I've used langchain a lot already
+, and it has two features that are fundamental solutions to some product challenges. But from just reading Bedrock's doc
+umentation/demos/how-tos I get the sense it is a simpler, more composable version of the lang ecosystem.
+
+Then there's f
+ascinating tools that offer a GUI of sorts like Vellum. I'm a coder so the idea of being that hands off is concerning an
+d not probably necessary, but for ideation it could be awesome.
+
+Bottom line, I'm about to deep dive these and was curio
+us if others would share their experiences with it; pitfalls; etc. thanks!
+```
+---
+
+     
+ 
+all -  [ Is there an underlying prompt that helps route tools in langgraph? ](https://www.reddit.com/r/LangChain/comments/1hrhvg8/is_there_an_underlying_prompt_that_helps_route/) , 2025-01-03-0913
+```
+
+I’m trying to understand how giving a list of functions and binding it to say a huggingface model gives the LLM informa
+tion about said functions. Tried digging through source but I might have been looking in wrong area but is there like a 
+pre defined system prompt that takes in the function info and makes the LLM create structures output? Or is it trying to
+ infer parameters and doc strings to give to the LLM some other way?
+
+```
+---
+
+     
+ 
+all -  [ How are you dealing with very large output tools? ](https://www.reddit.com/r/LangChain/comments/1hrgq9k/how_are_you_dealing_with_very_large_output_tools/) , 2025-01-03-0913
+```
+Hello,
+
+I'm using a basic ReAct (Reasoning and Acting) architecture to interact with a very large database, in some case
+s, when a general overview is required, the tool output is very large, and the LLM starts to hallucinate. It doesn't hap
+pen when the tool output is reasonable.   
+  
+I'm testing it locally using Llama 3.1 8B, which has an interesting contex
+t window (128k). I'm trying to avoid the need of using a bigger model, I'm looking for a way to manage those large outpu
+ts.
+
+Can you suggest a way to manage huge tool outputs?
+```
+---
+
+     
+ 
+all -  [ How do I get really good at RAG? ](https://www.reddit.com/r/LangChain/comments/1hre9pq/how_do_i_get_really_good_at_rag/) , 2025-01-03-0913
 ```
 I want to learn as much as I can about RAG, so that I can build product ready RAG for a new job I'm joining. How can I b
 ecome an expert? I'm a full stack dev with decent experience building AI agents
@@ -8,7 +405,7 @@ ecome an expert? I'm a full stack dev with decent experience building AI agents
 
      
  
-all -  [ Looking for AI solutions in this industry that would integrate with my platform? ](https://www.reddit.com/r/LangChain/comments/1hrcwjy/looking_for_ai_solutions_in_this_industry_that/) , 2025-01-02-0913
+all -  [ Looking for AI solutions in this industry that would integrate with my platform? ](https://www.reddit.com/r/LangChain/comments/1hrcwjy/looking_for_ai_solutions_in_this_industry_that/) , 2025-01-03-0913
 ```
 
 
@@ -33,7 +430,7 @@ Dm me if this sounds interesting.
 
      
  
-all -  [ How do I install this on my laptop? ](https://www.reddit.com/r/crewai/comments/1hrb4li/how_do_i_install_this_on_my_laptop/) , 2025-01-02-0913
+all -  [ How do I install this on my laptop? ](https://www.reddit.com/r/crewai/comments/1hrb4li/how_do_i_install_this_on_my_laptop/) , 2025-01-03-0913
 ```
 Im currently taking the multi agents CrewAI class on Deeplearning AI. In one of the classes, it says that I can install 
 the following on my own machine. Can you give me guidance on how i can do that? (I do have python 3.12 on my laptop) 
@@ -47,7 +444,7 @@ ttps://preview.redd.it/f6gehd2xufae1.png?width=1417&format=png&auto=webp&s=86f6e
 
      
  
-all -  [ I think networking is the only key to land a job in this market. Here's my experience so far. ](https://www.reddit.com/r/developersIndia/comments/1hr8ahr/i_think_networking_is_the_only_key_to_land_a_job/) , 2025-01-02-0913
+all -  [ I think networking is the only key to land a job in this market. Here's my experience so far. ](https://www.reddit.com/r/developersIndia/comments/1hr8ahr/i_think_networking_is_the_only_key_to_land_a_job/) , 2025-01-03-0913
 ```
 I am in my final year of BE. I am constantly applying on job platforms, even after getting shortlisted (which itself is 
 tough and very luck based) the recruiter will ghost you.
@@ -83,7 +480,7 @@ Thank you.
 
      
  
-all -  [ Is Langchain useful for non developers? ](https://www.reddit.com/r/LangChain/comments/1hr52m5/is_langchain_useful_for_non_developers/) , 2025-01-02-0913
+all -  [ Is Langchain useful for non developers? ](https://www.reddit.com/r/LangChain/comments/1hr52m5/is_langchain_useful_for_non_developers/) , 2025-01-03-0913
 ```
 As someone who is very passionate about ai tech and would like to create my own app using private database and images, I
  am in search of the best way to achieve this as I have no developer experience. Langchain has been mentioned in YouTube
@@ -95,7 +492,7 @@ ng knowledge and experience to work with Langchain.
 
      
  
-all -  [ Beginner Vision rag with ColQwen in pure python ](https://www.reddit.com/r/LangChain/comments/1hr43hf/beginner_vision_rag_with_colqwen_in_pure_python/) , 2025-01-02-0913
+all -  [ Beginner Vision rag with ColQwen in pure python ](https://www.reddit.com/r/LangChain/comments/1hr43hf/beginner_vision_rag_with_colqwen_in_pure_python/) , 2025-01-03-0913
 ```
 I made a beginner Vision rag project without using langchain or llamaindex or any framework. This is how project works -
  first we convert the pdf to images using pymupdf. Then embeddings are generated for these images using jina clip v2 and
@@ -115,7 +512,7 @@ uNH
 
      
  
-all -  [ 🚀 Enhancing Mathematical Problem Solving with Large Language Models: A Divide and Conquer Approach ](https://www.reddit.com/r/LangChain/comments/1hqz8fa/enhancing_mathematical_problem_solving_with_large/) , 2025-01-02-0913
+all -  [ 🚀 Enhancing Mathematical Problem Solving with Large Language Models: A Divide and Conquer Approach ](https://www.reddit.com/r/LangChain/comments/1hqz8fa/enhancing_mathematical_problem_solving_with_large/) , 2025-01-03-0913
 ```
 Hi everyone!
 
@@ -143,7 +540,7 @@ Thanks for your support!
 
      
  
-all -  [ 'Why' isn't Langchain/Langgraph  production-ready? ](https://www.reddit.com/r/LangChain/comments/1hqufg2/why_isnt_langchainlanggraph_productionready/) , 2025-01-02-0913
+all -  [ 'Why' isn't Langchain/Langgraph  production-ready? ](https://www.reddit.com/r/LangChain/comments/1hqufg2/why_isnt_langchainlanggraph_productionready/) , 2025-01-03-0913
 ```
 Please help me understand. I've come across many comments stating that 'Langchain isn't production-ready,' but none expl
 ain why. For my use case - developing serverless AI call agents with customizable features (like calendar booking and ad
@@ -157,7 +554,7 @@ Thanks for reading! Any answers would be greatly appreciated.'
 
      
  
-all -  [ Fast Multi-turn (follow-up questions) Intent detection and smart information extraction. ](https://www.reddit.com/r/LangChain/comments/1hqtqgi/fast_multiturn_followup_questions_intent/) , 2025-01-02-0913
+all -  [ Fast Multi-turn (follow-up questions) Intent detection and smart information extraction. ](https://www.reddit.com/r/LangChain/comments/1hqtqgi/fast_multiturn_followup_questions_intent/) , 2025-01-03-0913
 ```
 There several posts and threads on reddit like this [one](https://www.reddit.com/r/LocalLLaMA/comments/18mqwg6/best_prac
 tice_for_rag_with_followup_chat/) and this [one](https://www.reddit.com/r/LangChain/comments/1djcvh0/chat_history_for_ra
@@ -238,7 +635,7 @@ dcb389b72d936
 
      
  
-all -  [ In the final semester, looking for AI/ML or Data Science positions ](https://www.reddit.com/r/learnmachinelearning/comments/1hqt9p8/in_the_final_semester_looking_for_aiml_or_data/) , 2025-01-02-0913
+all -  [ In the final semester, looking for AI/ML or Data Science positions ](https://www.reddit.com/r/learnmachinelearning/comments/1hqt9p8/in_the_final_semester_looking_for_aiml_or_data/) , 2025-01-03-0913
 ```
 Hello guys, I'm in my final semester of the masters and now looking for a full-time roles. I want to improve my resume. 
 Please rate it and give feedback.
@@ -252,7 +649,7 @@ https://preview.redd.it/03arzufciaae1.jpg?width=2479&format=pjpg&auto=webp&s=689
 
      
  
-all -  [ I also would be thinking about how to increase my skills immediately after suffering brain damage. / ](https://i.redd.it/qwkxlviio9ae1.jpeg) , 2025-01-02-0913
+all -  [ I also would be thinking about how to increase my skills immediately after suffering brain damage. / ](https://i.redd.it/qwkxlviio9ae1.jpeg) , 2025-01-03-0913
 ```
 This is wild way to start a LinkedIn post. I’ve seen some stuff but wow.
 ```
@@ -260,7 +657,7 @@ This is wild way to start a LinkedIn post. I’ve seen some stuff but wow.
 
      
  
-all -  [ LangGraph Conceptual Guide ](https://www.reddit.com/r/copilotkit/comments/1hqla7z/langgraph_conceptual_guide/) , 2025-01-02-0913
+all -  [ LangGraph Conceptual Guide ](https://www.reddit.com/r/copilotkit/comments/1hqla7z/langgraph_conceptual_guide/) , 2025-01-03-0913
 ```
 Check out LangGraph's Conceptual guide.  
 A perfect pair with [CoAgents](https://docs.copilotkit.ai/coagents)  
@@ -271,7 +668,7 @@ A perfect pair with [CoAgents](https://docs.copilotkit.ai/coagents)
 
      
  
-all -  [ How do I Display what the Agent is doing on the backend to the frontend ](https://www.reddit.com/r/LangChain/comments/1hqjvf3/how_do_i_display_what_the_agent_is_doing_on_the/) , 2025-01-02-0913
+all -  [ How do I Display what the Agent is doing on the backend to the frontend ](https://www.reddit.com/r/LangChain/comments/1hqjvf3/how_do_i_display_what_the_agent_is_doing_on_the/) , 2025-01-03-0913
 ```
 I’ve been playing around with the LangGraph tutorials to get myself familiar. I’m trying to figure out how to display wh
 at the Agent is doing on the frontend.   
@@ -296,7 +693,7 @@ nks in advance!
 
      
  
-all -  [ Seeking Feedback on My RAG Architecture for Context Retrieval and Lightweight Optimization ](https://www.reddit.com/r/LangChain/comments/1hqhmdx/seeking_feedback_on_my_rag_architecture_for/) , 2025-01-02-0913
+all -  [ Seeking Feedback on My RAG Architecture for Context Retrieval and Lightweight Optimization ](https://www.reddit.com/r/LangChain/comments/1hqhmdx/seeking_feedback_on_my_rag_architecture_for/) , 2025-01-03-0913
 ```
 I am currently developing a Retrieval-Augmented Generation (RAG) system designed to answer user questions by extracting 
 context from two sources: a database or CSV documents. To guide the RAG in selecting the optimal source for context extr
@@ -350,7 +747,7 @@ necks, or have suggestions for optimization to ensure the system remains lightwe
 
      
  
-all -  [ Graph Structure vs Others  ](https://www.reddit.com/r/LangChain/comments/1hqf270/graph_structure_vs_others/) , 2025-01-02-0913
+all -  [ Graph Structure vs Others  ](https://www.reddit.com/r/LangChain/comments/1hqf270/graph_structure_vs_others/) , 2025-01-03-0913
 ```
 Hi all. I'm looking to see if there's any empirical work done that validates the graph agent structure (e.g., LangGraph)
  as more reliable than other agent/Multi-Agent architectures (non-graph, event-driven). 
@@ -359,7 +756,7 @@ Hi all. I'm looking to see if there's any empirical work done that validates the
 
      
  
-all -  [ An Agent that creates memes for you ](https://open.substack.com/pub/diamantai/p/viral-marketing-made-easy-unlocking?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false) , 2025-01-02-0913
+all -  [ An Agent that creates memes for you ](https://open.substack.com/pub/diamantai/p/viral-marketing-made-easy-unlocking?r=336pe4&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false) , 2025-01-03-0913
 ```
 Memes are the internet’s universal language, but creating ones that truly align with your brand and actually connect wit
 h your audience? That’s no small task.
@@ -382,38 +779,41 @@ ith examples and insights into the process.
 
      
  
-all -  [ Converting PDFs to Markdown for Higher Quality Embeddings with Langchain.js ](https://www.reddit.com/r/LangChain/comments/1hq8d6c/converting_pdfs_to_markdown_for_higher_quality/) , 2025-01-02-0913
+all -  [ Converting PDFs to Markdown for Higher Quality Embeddings with Langchain.js ](https://www.reddit.com/r/LangChain/comments/1hq8d6c/converting_pdfs_to_markdown_for_higher_quality/) , 2025-01-03-0913
 ```
-I am working on RAG LLM projects with Langchain.js using Node.js. Most of the data I retrieve are PDFs and a bit of JSON
-.
+edit: I have found a solution from llamaIndex, they have [LLamaParser](https://docs.cloud.llamaindex.ai/llamaparse/getti
+ng_started/typescript) apis. Its paid but is very capable.  
+  
+I am working on RAG LLM projects with Langchain.js using
+ Node.js. Most of the data I retrieve are PDFs and a bit of JSON.
 
-For higher quality, I would like to convert my PDFs into Markdown before embedding starts. This involves deleting hea
-ders and footers, extracting tables and pictures, and converting the text into Markdown so that it is clear to the LLM w
-hether it is body text or an important title.
+For higher quality, I would like to convert my PDFs i
+nto Markdown before embedding starts. This involves deleting headers and footers, extracting tables and pictures, and co
+nverting the text into Markdown so that it is clear to the LLM whether it is body text or an important title.
 
-Example: **This is Title** and < p >just text
+Example: 
+**This is Title** and < p >just text
 
-I want to ensure that pict
-ures and tables are clearly identified in Markdown, and that unnecessary elements are removed. I have found some Python 
-libraries that people use for this purpose, but I need something for Node.js. Has anyone experienced with this?
+I want to ensure that pictures and tables are clearly identified in Markdown, and 
+that unnecessary elements are removed. I have found some Python libraries that people use for this purpose, but I need s
+omething for Node.js. Has anyone experienced with this?
 
-And of 
-course, any other tips for better RAG LLM are also welcome! :)
+And of course, any other tips for better RAG LLM are also welco
+me! :)
 
-Already tried 'markdown-it' library but not really happy
- with result. The only thing it does is sometimes adding < p >. (Which is still better than nothing but i want everythin
-g to be very clear) It's not clear :
+Already tried 'markdown-it' library but not really happy with result. The only thing it does is sometimes adding
+ < p >. (Which is still better than nothing but i want everything to be very clear) It's not clear :
 
-* if this text is Title or Body,
+* if this text is 
+Title or Body,
 * Can't delete Footer Information with this
-* Can
-'t export Table/Picture etc.
+* Can't export Table/Picture etc.
 ```
 ---
 
      
  
-all -  [ langchain_experimental  SQLDatabaseChain.invoke() question ](https://www.reddit.com/r/LangChain/comments/1hq5px2/langchain_experimental_sqldatabasechaininvoke/) , 2025-01-02-0913
+all -  [ langchain_experimental  SQLDatabaseChain.invoke() question ](https://www.reddit.com/r/LangChain/comments/1hq5px2/langchain_experimental_sqldatabasechaininvoke/) , 2025-01-03-0913
 ```
 I am learning another langchain video  with LLM interacting with SQL.
 
@@ -498,7 +898,7 @@ What code change do I need to do to make the `'result'` show  as `'91'` ?
 
      
  
-all -  [ StepsTrack: A small Typescript library that helps Logging and Optimizing Pipeline Steps ](https://www.reddit.com/r/Rag/comments/1hq2571/stepstrack_a_small_typescript_library_that_helps/) , 2025-01-02-0913
+all -  [ StepsTrack: A small Typescript library that helps Logging and Optimizing Pipeline Steps ](https://www.reddit.com/r/Rag/comments/1hq2571/stepstrack_a_small_typescript_library_that_helps/) , 2025-01-03-0913
 ```
 Hello everyone 👋,
 
@@ -547,7 +947,7 @@ Welcome any thoughts, comments, or suggestions! Thanks! 😊
 
      
  
-all -  [ What is actually sent to the LLM to decide whether or not to call a tool? ](https://www.reddit.com/r/LangChain/comments/1hpypmj/what_is_actually_sent_to_the_llm_to_decide/) , 2025-01-02-0913
+all -  [ What is actually sent to the LLM to decide whether or not to call a tool? ](https://www.reddit.com/r/LangChain/comments/1hpypmj/what_is_actually_sent_to_the_llm_to_decide/) , 2025-01-03-0913
 ```
 I'm working through the 'Build a Retrieval Augmented Generation (RAG) App: Part 2' tutorial where you bind the retrieve 
 function as a tool, and then add a conditional edge for when it is executed.
@@ -571,7 +971,7 @@ d as a separate argument in the API (which is exactly the understanding I was tr
 
      
  
-all -  [ Chat memory  ](https://www.reddit.com/r/LangChain/comments/1hpx94c/chat_memory/) , 2025-01-02-0913
+all -  [ Chat memory  ](https://www.reddit.com/r/LangChain/comments/1hpx94c/chat_memory/) , 2025-01-03-0913
 ```
 Let me ask you an absolute beginner doubt. I have created a simple react agentic architecture using langraph. I have use
 d 'MessagesState' as State and passed it to the graph while compiling it.
@@ -594,7 +994,7 @@ Is there any other way than using checkpointers to tackle this task?
 
      
  
-all -  [ How to Add System Message to a multimodal Prompt? ](https://www.reddit.com/r/LangChain/comments/1hpto5u/how_to_add_system_message_to_a_multimodal_prompt/) , 2025-01-02-0913
+all -  [ How to Add System Message to a multimodal Prompt? ](https://www.reddit.com/r/LangChain/comments/1hpto5u/how_to_add_system_message_to_a_multimodal_prompt/) , 2025-01-03-0913
 ```
 Hi guys, Am using Langchain Python. I have created a sorta Prompt Template to pass my prompt and an Image. But I want to
  add System Message to the Prompt. How do I do it? The code is below
@@ -639,15 +1039,7 @@ urn message
 
      
  
-all -  [ Hot take: Just use Langchain ](https://i.redd.it/v0t3q1xpu0ae1.jpeg) , 2025-01-02-0913
-```
-
-```
----
-
-     
- 
-all -  [ Handle return of Multiple tool request ](https://www.reddit.com/r/LangChain/comments/1hprrzi/handle_return_of_multiple_tool_request/) , 2025-01-02-0913
+all -  [ Handle return of Multiple tool request ](https://www.reddit.com/r/LangChain/comments/1hprrzi/handle_return_of_multiple_tool_request/) , 2025-01-03-0913
 ```
 Hi guys,I need some help working with LangChain and LangGraph.
 
@@ -672,7 +1064,7 @@ lp me?
 
      
  
-all -  [ NestJS + LangChain “Langgraphs”: Embed or Deploy Separately? ](https://www.reddit.com/r/LangChain/comments/1hpmxt9/nestjs_langchain_langgraphs_embed_or_deploy/) , 2025-01-02-0913
+all -  [ NestJS + LangChain “Langgraphs”: Embed or Deploy Separately? ](https://www.reddit.com/r/LangChain/comments/1hpmxt9/nestjs_langchain_langgraphs_embed_or_deploy/) , 2025-01-03-0913
 ```
 Hey folks, I’m experimenting with LangChain’s Langgraphs in a NestJS server.
 
@@ -691,7 +1083,7 @@ Thanks! 🙏
 
      
  
-all -  [ How to Handle Token Limit Exceeded Error in OpenAI API ](https://www.reddit.com/r/LangChain/comments/1hpjms4/how_to_handle_token_limit_exceeded_error_in/) , 2025-01-02-0913
+all -  [ How to Handle Token Limit Exceeded Error in OpenAI API ](https://www.reddit.com/r/LangChain/comments/1hpjms4/how_to_handle_token_limit_exceeded_error_in/) , 2025-01-03-0913
 ```
 I'm getting an error from the OpenAI API stating that the context length exceeds the model's limit, even though I'm only
  passing the last four messages to the prompt. **I’ve verified that each interaction is using around 1056 tokens**, but 
@@ -828,7 +1220,7 @@ Any advice or solutions would be greatly appreciated!
 
      
  
-all -  [ Need Feedback on Custom Reducer to Summarize Conversations ](https://www.reddit.com/r/LangChain/comments/1hpjm65/need_feedback_on_custom_reducer_to_summarize/) , 2025-01-02-0913
+all -  [ Need Feedback on Custom Reducer to Summarize Conversations ](https://www.reddit.com/r/LangChain/comments/1hpjm65/need_feedback_on_custom_reducer_to_summarize/) , 2025-01-03-0913
 ```
 I’m newbie to Langchain and experimenting with LangGraph to build an SQL analysis workflow. I’ve come up with a pattern 
 for maintaining conversation context and would love feedback:
@@ -847,7 +1239,7 @@ is seem efficient? Any better approaches I should consider?**
 
      
  
-all -  [ Resume Review: ML/AI Engineering Grad Student Looking for Internships, not having much luck ](https://www.reddit.com/r/Resume/comments/1hp6pt3/resume_review_mlai_engineering_grad_student/) , 2025-01-02-0913
+all -  [ Resume Review: ML/AI Engineering Grad Student Looking for Internships, not having much luck ](https://www.reddit.com/r/Resume/comments/1hp6pt3/resume_review_mlai_engineering_grad_student/) , 2025-01-03-0913
 ```
 I'm a current Computer Engineering Master's student focusing on AI/Machine Learning, and I've been applying to internshi
 ps, but the only replies I ever get are if I have a referral. I got an interview with Salesforce for an AI internship be
@@ -866,334 +1258,6 @@ ly appreciated. I haven't had much luck getting advice in other subs or having m
 https://preview.r
 edd.it/wkkxxgb1yu9e1.jpg?width=1252&format=pjpg&auto=webp&s=f09d4baa91524c95784f175dce6b085689404595
 
-
-```
----
-
-     
- 
-all -  [ Is there any simpler way to implement memory in a chat app? ](https://www.reddit.com/r/OpenAI/comments/1hp6h5g/is_there_any_simpler_way_to_implement_memory_in_a/) , 2025-01-02-0913
-```
-I am creating a simple chat app with Haystack but like Langchain, Haystack is too much abstraction for a simple task.
-
-S
-o I was wondering if anyone knows of a way to implement memory for the chat app without using Haystack or Langchain?
-
-Al
-so, this is a simple chat app and not a document based chat app.
-```
----
-
-     
- 
-all -  [ Need advice regarding job search  ](https://i.redd.it/4v2brxtzkt9e1.jpeg) , 2025-01-02-0913
-```
-I'm a Master's student pursuing my degree in EE, my bachelor's was in EE as well.  I was originally interested in roboti
-cs design.
-However, opportunities have been limited to say the least. I figure I can't be selective anymore and have bee
-n applying to broader roles in EE as well, but have had no luck with the applications. Tried internships but no luck the
-re either.
-I need advice on what roles would be the best fit given my skills. And what approach I should take to improve
- my resume.
-Any feedback on the resume itself would be greatly appreciated as well.
-Thank you for your time.
-
-```
----
-
-     
- 
-all -  [ LinkedIn tool integration - how to implement ](https://www.reddit.com/r/AI_Agents/comments/1hp028i/linkedin_tool_integration_how_to_implement/) , 2025-01-02-0913
-```
-Hi there,  
-I am currently working on an AI agent project and need to scrape through my clients Linkedin contacts, to id
-entify potential leads. As far as I am aware, there is no tool integration for LinkedIn. I have checked the LangChain an
-d crewAI documentation, and could not find a tool there. I saw composio has a LinkedIn connector, but then you have to i
-mplement your own tool logic (which is fine for me, I am a senior dev, but I have concerns about getting blocked on Link
-edIn for scraping). 
-
-Do you know of any other libraries or frameworks I can use? I am looking for free solutions, no lo
-w code. Thanks in advance. 
-```
----
-
-     
- 
-all -  [ Web browser example is giving me - Error: Failed to parse. Text: '```json... is not valid JSON'  ](https://www.reddit.com/r/flowise/comments/1hos4vp/web_browser_example_is_giving_me_error_failed_to/) , 2025-01-02-0913
-```
-After following this example - [https://www.youtube.com/watch?v=yEHC7\_x2x4U](https://www.youtube.com/watch?v=yEHC7_x2x4
-U) \- I'm getting an error while working on Flowise and I'm hoping someone can help me troubleshoot. I'm getting a 'Fail
-ed to parse. Text: \`\`\`json... is not valid JSON' error.
-
-Here's the full error message:
-
-Failed to parse. Text: '\`\`
-\`json { 'action': 'Final Answer', 'action\_input': | { 'definition\_of\_word\_of\_the\_day': 'A word of the day is a re
-gularly occurring piece of content, such as a quote, fact, or definition, that is shared with users on a particular plat
-form.', 'example\_use\_case\_for\_perspicacious': 'The detective was known for being perspicacious and could often solve
- cases by observing small details that others had missed.' } }
-
-{
-
-  '... is not valid JSON
-
-
-
-Troubleshooting URL: [htt
-ps://js.langchain.com/docs/troubleshooting/errors/OUTPUT\_PARSING\_FAILURE/](https://js.langchain.com/docs/troubleshooti
-ng/errors/OUTPUT_PARSING_FAILURE/)
-
-*Processing img 2i89l4mshn9e1...*
-
-
-```
----
-
-     
- 
-all -  [ Building a Production-Ready RAG Application: Need Advice ](https://www.reddit.com/r/LangChain/comments/1horktb/building_a_productionready_rag_application_need/) , 2025-01-02-0913
-```
-
-Hi everyone,
-
-I’m currently working on building a production-ready RAG application. My primary is Azure OpenAI, but I’m
- open to other LLM integrations if necessary.
-
-Key Requirements:
-- Handling a large volume of internal documents.
-- Feat
-ures like question reformulation and reranking to improve retrieval accuracy.
-
-Frameworks I’m Considering:
-- LangChain
--
- Haystack
-- Semantic Kernel
-
-Do you have any recommendations on which framework is best suited for this use case? Am I m
-issing any other frameworks that I should evaluate?
-
-I’d appreciate your insights and experiences
-```
----
-
-     
- 
-all -  [ Monopoly - beat a human collective ](https://www.reddit.com/r/ollama/comments/1hoi9rm/monopoly_beat_a_human_collective/) , 2025-01-02-0913
-```
-So its christmas and the thought turns to the family board games,
-
-Is there a model or app (python) or gui site where i 
-can basicaly kick the families backsides by using ai to process the permutations for me?
-
-Ditto many other popular board
- games such as cludeo, sorry, stratego,, ( ignoring knowledge based such as trivial pursuits) 
-
-I have a decent enough l
-aptop with a 4070 that runs models happily locally using ollama and i am comfortable with python and langchain and local
- class modules.. 
-
-Just a random thought to use what i mess with in the day job to kick the families arses round the din
-ner table 🤣
-```
----
-
-     
- 
-all -  [ Best Way to Chunk Large-ish Text Documents for Make.com ](https://www.reddit.com/r/vectordatabase/comments/1hoeees/best_way_to_chunk_largeish_text_documents_for/) , 2025-01-02-0913
-```
-I'm looking around for the best way to chunk large documents in a [Make.com](http://Make.com) scenario before sending th
-e data into Pinecone. Within Make, there is CustomJS and 0CodeUtil. LangChain apparently is an option as well. Honestly,
- I would love to be able to deploy a custom function somewhere in the cloud and then call it using an API. Really trying
- to avoid complex setups and want quick and dirty.
-```
----
-
-     
- 
-all -  [ Underlying tech of Cursor? ](https://www.reddit.com/r/ycombinator/comments/1hod5iv/underlying_tech_of_cursor/) , 2025-01-02-0913
-```
-Very curious about how the Cursor team is approaching their solution technically
-
-1. How do they handle context across t
-he project?
-2. Do they use raw APIs or something like LangChain or LangGraph?
-3. Is it proprietary tech or just a 'LLM w
-rapper'? (I don't think so)
-
-Is there info about this?
-```
----
-
-     
- 
-all -  [ Top 5 Hacker News Posts on RAG This Week ](https://www.reddit.com/r/Rag/comments/1hobxkl/top_5_hacker_news_posts_on_rag_this_week/) , 2025-01-02-0913
-```
-Curated the top 5 most insightful posts on RAG — highlighting key discussions and practical takeaways:
-
-1️⃣ 𝗧𝗶𝘁𝗹𝗲: RAG L
-ogger: An Open-Source Alternative to LangSmith  
-𝗨𝗽𝘃𝗼𝘁𝗲𝘀: 95  
-𝗟𝗶𝗻𝗸: [https://news.ycombinator.com/item?id=42485113](htt
-ps://news.ycombinator.com/item?id=42485113)  
-𝗪𝗵𝗮𝘁 𝗶𝘀 𝗶𝘁 𝗮𝗯𝗼𝘂𝘁: RAG Logger is a simple, open-source RAG pipeline logging
- tool with suggested enhancements like visualization, OpenTelemetry support, and replay features.
-
-2️⃣ 𝗧𝗶𝘁𝗹𝗲: Collab Not
-ebook – RAG on Your Unstructured Data  
-𝗨𝗽𝘃𝗼𝘁𝗲𝘀: 14  
-𝗟𝗶𝗻𝗸: [https://news.ycombinator.com/item?id=42517745](https://news
-.ycombinator.com/item?id=42517745)  
-𝗪𝗵𝗮𝘁 𝗶𝘀 𝗶𝘁 𝗮𝗯𝗼𝘂𝘁: The post outlines using LangChain and Unstructured IO to address 
-unstructured data challenges in RAG with FAISS, LLMs, and Athina AI evaluation.
-
-3️⃣ 𝗧𝗶𝘁𝗹𝗲: Web RAG to generate perplexi
-ty like answers from your docs in browser  
-𝗨𝗽𝘃𝗼𝘁𝗲𝘀: 5  
-𝗟𝗶𝗻𝗸: [https://news.ycombinator.com/item?id=42516981](https://n
-ews.ycombinator.com/item?id=42516981)  
-𝗪𝗵𝗮𝘁 𝗶𝘀 𝗶𝘁 𝗮𝗯𝗼𝘂𝘁: The system offers a private, browser-based solution for indexi
-ng, searching, and generating responses using GTE-small, SQLite, and WebLLM, with zero API costs 👩‍💻
-
-4️⃣ 𝗧𝗶𝘁𝗹𝗲: LLM app
-s, AI Agents, and RAG tutorials with step-by-step instructions  
-𝗨𝗽𝘃𝗼𝘁𝗲𝘀: 3  
-𝗟𝗶𝗻𝗸: [https://news.ycombinator.com/item?i
-d=42510073](https://news.ycombinator.com/item?id=42510073)  
-𝗪𝗵𝗮𝘁 𝗶𝘀 𝗶𝘁 𝗮𝗯𝗼𝘂𝘁: A curated repository of RAG-powered LLM a
-pplications, showcasing models from OpenAI, Anthropic, Google, and open-source options like LLaMA.
-
-5️⃣ 𝗧𝗶𝘁𝗹𝗲: GraphRAG 
-SDK 0.4.0: Simplify RAG with Graph Databases  
-𝗨𝗽𝘃𝗼𝘁𝗲𝘀: 2  
-𝗟𝗶𝗻𝗸: [https://news.ycombinator.com/item?id=42496411](https:
-//news.ycombinator.com/item?id=42496411)  
-𝗪𝗵𝗮𝘁 𝗶𝘀 𝗶𝘁 𝗮𝗯𝗼𝘂𝘁: The module simplifies RAG application development with grap
-h databases, multi-LLM support, smarter queries, LiteLLM integration, and cost-effective deployment 🚀
-```
----
-
-     
- 
-all -  [ [Student] Looking for feedback on my resume and general advise regarding job search ](https://www.reddit.com/r/EngineeringResumes/comments/1hoa3j9/student_looking_for_feedback_on_my_resume_and/) , 2025-01-02-0913
-```
-My last post didn't get much traction so I hope this one does better. I believe this is my first time posting here, but 
-I have posted on the resumes subreddit before. Looking for criticism/feedback on the latest iteration of my resume. 
-
-I 
-am looking for robotics/EE roles, and have been applying since the start of the fall semester, but no luck regarding get
-ting interviews. No luck with internships either. A couple of pre-recorded video interviews but they didn't go anywhere.
- I am not sure what I am doing wrong, is it the fact that I am an international student, lack of experience, my resume, 
-or all three.
-
-I would also like advice on what roles in EE/robotics would best fit me, given my skills. I figure being 
-specific will not get me anywhere hence the desperation.
-
-Thanks again for your time.
-
-https://preview.redd.it/zcn91jq9g
-m9e1.jpg?width=4967&format=pjpg&auto=webp&s=75cd4e61fcc35fd21d160ef084daa48f029f30cc
-
-
-
-
-```
----
-
-     
- 
-all -  [ An Open Source Computer/Browser Tool for your Langgraph AI Agents ](https://www.reddit.com/r/LangChain/comments/1ho8m91/an_open_source_computerbrowser_tool_for_your/) , 2025-01-02-0913
-```
-MarinaBox is an open-source toolkit for creating browser/computer sandboxes for AI Agents. If you ever wanted your Langg
-raph agents to use a computer using Claude Computer-Use, you can check this out,  
-[https://medium.com/@bayllama/a-compu
-ter-tool-for-your-langgraph-agents-using-marinabox-b48e0db1379c](https://medium.com/@bayllama/a-computer-tool-for-your-l
-anggraph-agents-using-marinabox-b48e0db1379c)
-
-We also support creating just a browser sandbox if having access to a des
-ktop environment is not necessary.
-
-Documentation:[https://marinabox.mintlify.app/get-started/introduction](https://mari
-nabox.mintlify.app/get-started/introduction)   
-Main Repo: [https://github.com/marinabox/marinabox](https://github.com/m
-arinabox/marinabox)   
-Infra Repo: [https://github.com/marinabox/marinabox-sandbox](https://github.com/marinabox/marinab
-ox-sandbox)
-
-PS: We currently only support running locally. Will soon add the ability to self-host on your own cloud.
-```
----
-
-     
- 
-all -  [ Supabase and Open AI Realtime with langchain powered App to interact with your PDFs ](https://www.reddit.com/r/Supabase/comments/1ho40ha/supabase_and_open_ai_realtime_with_langchain/) , 2025-01-02-0913
-```
-Hi Everyone, we are proud to share the release of our open source voice-to-voice Proof of concept where you can upload y
-our documents and ask questions related to them.
-
-You can upload your documents and interact with them through our dashb
-oard.📊.
-
-Based on OpenAI Realtime AND langchain
-
-Powered by [Supabase](https://www.linkedin.com/company/supabase/)  \+ [
-Qdrant](https://www.linkedin.com/company/qdrant/)  \+ [NextJs](https://www.linkedin.com/company/nextjs/)
-
-Github repo: [
-https://github.com/actualize-ae/voice-chat-pdf](https://github.com/actualize-ae/voice-chat-pdf)
-
-**If you like the conce
-pt or have feedback please feel free to contribute a star and share feedback :)**
-
-Video: [https://vimeo.com/1039742928?
-share=copy](https://vimeo.com/1039742928?share=copy)
-```
----
-
-     
- 
-all -  [ Open AI Realtime with langchain powered RAG POC ](https://www.reddit.com/r/OpenAIDev/comments/1ho3sxb/open_ai_realtime_with_langchain_powered_rag_poc/) , 2025-01-02-0913
-```
-Hi Everyone, we are proud to share the release of our open source voice-to-voice Proof of concept where you can upload y
-our documents and ask questions related to them.
-
-You can upload your documents and interact with them through our dashb
-oard.📊.
-
-Based on OpenAI Realtime AND langchain
-
-Powered by [Supabase](https://www.linkedin.com/company/supabase/)  \+ [
-Qdrant](https://www.linkedin.com/company/qdrant/)  \+ [NextJs](https://www.linkedin.com/company/nextjs/)
-
-Github repo: [
-https://github.com/actualize-ae/voice-chat-pdf](https://github.com/actualize-ae/voice-chat-pdf)
-
-**If you like the conce
-pt or have feedback please feel free to contribute a star and share feedback :)**
-
-Video: [https://vimeo.com/1039742928?
-share=copy](https://vimeo.com/1039742928?share=copy)
-
-
-```
----
-
-     
- 
-all -  [ Invite Emails for EU Region are not being Sent ](https://www.reddit.com/r/LangChain/comments/1ho3a66/invite_emails_for_eu_region_are_not_being_sent/) , 2025-01-02-0913
-```
-I've been trying to sign up via https://eu.smith.langchain.com/. It keeps saying I should check my email for a confirmat
-ion link, which is not arriving (no, not in my spam either). Please advise.
-```
----
-
-     
- 
-all -  [ Langchain and embeddings in voice pipeline? ](https://www.reddit.com/r/homeassistant/comments/1hnwy4q/langchain_and_embeddings_in_voice_pipeline/) , 2025-01-02-0913
-```
-Has anyone thought about adding a vertex DB to the voice pipeline rather than adding all entities exported in the prompt
- every time? Maybe we could have a plug-in that allows calling a langchain pipeline rather than an LLM directly, this wo
-uld allow querying entities rather than having them in the prompt and could open up to a more complex multi agent setup 
 
 ```
 ---
